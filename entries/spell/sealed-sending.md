@@ -2,6 +2,7 @@
 id = "ref/spell/sealed-sending"
 kind = "spell"
 title = "Sealed Sending"
+aon = "SpellDisplay.aspx?ItemName=Sealed%20Sending"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_sending", path = "json/spells15.json" },

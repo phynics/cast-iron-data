@@ -2,6 +2,7 @@
 id = "ref/feat/powerful-poisoning"
 kind = "feat"
 title = "Powerful Poisoning"
+aon = "FeatDisplay.aspx?ItemName=Powerful%20Poisoning"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerful_poisoning", path = "json/feat12.json" },

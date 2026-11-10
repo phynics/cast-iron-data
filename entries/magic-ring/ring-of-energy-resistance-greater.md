@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-energy-resistance-greater"
 kind = "item"
 title = "Ring of Energy Resistance (greater)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Resistancegreater"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_energy_resistance_greater", path = "json/magic_ring.json" },

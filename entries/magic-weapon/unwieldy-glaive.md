@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/unwieldy-glaive"
 kind = "item"
 title = "Unwieldy Glaive"
+aon = "MagicCursedDisplay.aspx?ItemName=Unwieldy%20Glaive"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwieldy_glaive", path = "json/magic_weapon2.json" },

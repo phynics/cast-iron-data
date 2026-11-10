@@ -2,6 +2,7 @@
 id = "ref/feat/master-delver"
 kind = "feat"
 title = "Master Delver"
+aon = "FeatDisplay.aspx?ItemName=Master%20Delver"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_delver", path = "json/feat10.json" },

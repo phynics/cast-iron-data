@@ -2,6 +2,7 @@
 id = "ref/spell/recorporeal-incarnation"
 kind = "spell"
 title = "Recorporeal Incarnation"
+aon = "SpellDisplay.aspx?ItemName=Recorporeal%20Incarnation"
 source_ids = ["inner-sea-intrigue", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recorporeal_incarnation", path = "json/spells8.json" },

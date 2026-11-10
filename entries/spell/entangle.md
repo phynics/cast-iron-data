@@ -2,6 +2,7 @@
 id = "ref/spell/entangle"
 kind = "spell"
 title = "Entangle"
+aon = "SpellDisplay.aspx?ItemName=Entangle"
 source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangle", path = "json/spells4.json" },

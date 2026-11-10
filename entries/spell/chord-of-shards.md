@@ -2,6 +2,7 @@
 id = "ref/spell/chord-of-shards"
 kind = "spell"
 title = "Chord of Shards"
+aon = "SpellDisplay.aspx?ItemName=Chord%20of%20Shards"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chord_of_shards", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/snake-sidewind"
 kind = "feat"
 title = "Snake Sidewind"
+aon = "FeatDisplay.aspx?ItemName=Snake%20Sidewind"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_sidewind", path = "json/feat14.json" },

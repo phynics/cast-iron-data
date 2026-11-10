@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/toxic-sniper"
 kind = "archetype"
 title = "Toxic Sniper"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Toxic%20Sniper"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_sniper", path = "json/archetypes_slayer.json" },

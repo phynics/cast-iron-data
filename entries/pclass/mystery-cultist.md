@@ -2,6 +2,7 @@
 id = "ref/pclass/mystery-cultist"
 kind = "prestige_class"
 title = "Mystery Cultist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Mystery%20Cultist"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystery_cultist", path = "json/prestige_classes2.json" },

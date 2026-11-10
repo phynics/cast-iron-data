@@ -2,6 +2,7 @@
 id = "ref/spell/wing-thorns"
 kind = "spell"
 title = "Wing Thorns"
+aon = "SpellDisplay.aspx?ItemName=Wing%20Thorns"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wing_thorns", path = "json/spells16.json" },

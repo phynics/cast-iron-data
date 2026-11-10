@@ -2,6 +2,7 @@
 id = "ref/spell/flash-forward"
 kind = "spell"
 title = "Flash Forward"
+aon = "SpellDisplay.aspx?ItemName=Flash%20Forward"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_forward", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/colonial-sympathizer"
 kind = "trait"
 title = "Colonial Sympathizer"
+aon = "TraitDisplay.aspx?ItemName=Colonial%20Sympathizer"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colonial_sympathizer", path = "json/traits05.json" },

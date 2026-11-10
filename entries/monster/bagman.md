@@ -2,6 +2,7 @@
 id = "ref/monster/bagman"
 kind = "creature"
 title = "Bagman"
+aon = "MonsterDisplay.aspx?ItemName=Bagman"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bagman", path = "json/monsters03.json" },

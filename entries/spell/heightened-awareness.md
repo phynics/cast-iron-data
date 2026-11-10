@@ -2,6 +2,7 @@
 id = "ref/spell/heightened-awareness"
 kind = "spell"
 title = "Heightened Awareness"
+aon = "SpellDisplay.aspx?ItemName=Heightened%20Awareness"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heightened_awareness", path = "json/spells5.json" },

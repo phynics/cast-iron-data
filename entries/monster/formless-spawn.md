@@ -2,6 +2,7 @@
 id = "ref/monster/formless-spawn"
 kind = "creature"
 title = "Formless Spawn"
+aon = "MonsterDisplay.aspx?ItemName=Formless%20Spawn"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formless_spawn", path = "json/monsters31.json" },

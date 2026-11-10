@@ -2,6 +2,7 @@
 id = "ref/arc-druid/mooncaller"
 kind = "archetype"
 title = "Mooncaller"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Mooncaller"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mooncaller", path = "json/archetypes_druid.json" },

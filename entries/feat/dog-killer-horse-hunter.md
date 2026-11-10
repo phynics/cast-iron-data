@@ -2,6 +2,7 @@
 id = "ref/feat/dog-killer-horse-hunter"
 kind = "feat"
 title = "Dog Killer, Horse Hunter"
+aon = "FeatDisplay.aspx?ItemName=Dog%20Killer%2C%20Horse%20Hunter"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_killer_horse_hunter", path = "json/feat05.json" },

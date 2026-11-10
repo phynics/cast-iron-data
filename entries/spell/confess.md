@@ -2,6 +2,7 @@
 id = "ref/spell/confess"
 kind = "spell"
 title = "Confess"
+aon = "SpellDisplay.aspx?ItemName=Confess"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confess", path = "json/spells12.json" },

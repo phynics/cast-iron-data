@@ -2,6 +2,7 @@
 id = "ref/spell/unflappable-mien"
 kind = "spell"
 title = "Unflappable Mien"
+aon = "SpellDisplay.aspx?ItemName=Unflappable%20Mien"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unflappable_mien", path = "json/spells11.json" },

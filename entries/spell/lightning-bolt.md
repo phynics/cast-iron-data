@@ -2,6 +2,7 @@
 id = "ref/spell/lightning-bolt"
 kind = "spell"
 title = "Lightning Bolt"
+aon = "SpellDisplay.aspx?ItemName=Lightning%20Bolt"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_bolt", path = "json/spells6.json" },

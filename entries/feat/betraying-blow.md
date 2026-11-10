@@ -2,6 +2,7 @@
 id = "ref/feat/betraying-blow"
 kind = "feat"
 title = "Betraying Blow"
+aon = "FeatDisplay.aspx?ItemName=Betraying%20Blow"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betraying_blow", path = "json/feat02.json" },

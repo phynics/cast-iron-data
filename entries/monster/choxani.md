@@ -2,6 +2,7 @@
 id = "ref/monster/choxani"
 kind = "creature"
 title = "Choxani"
+aon = "MonsterDisplay.aspx?ItemName=Choxani"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choxani", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/undetectable-alignment"
 kind = "spell"
 title = "Undetectable Alignment"
+aon = "SpellDisplay.aspx?ItemName=Undetectable%20Alignment"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undetectable_alignment", path = "json/spells11.json" },

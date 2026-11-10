@@ -2,6 +2,7 @@
 id = "ref/arc-monk/monk-of-the-mantis"
 kind = "archetype"
 title = "Monk of the Mantis"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Monk%20of%20the%20Mantis"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_of_the_mantis", path = "json/archetypes_monk.json" },

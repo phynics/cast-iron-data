@@ -2,6 +2,7 @@
 id = "ref/spell/dream-scan"
 kind = "spell"
 title = "Dream Scan"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Scan"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_scan", path = "json/spells13.json" },

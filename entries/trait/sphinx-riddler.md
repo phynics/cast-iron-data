@@ -2,6 +2,7 @@
 id = "ref/trait/sphinx-riddler"
 kind = "trait"
 title = "Sphinx Riddler"
+aon = "TraitDisplay.aspx?ItemName=Sphinx%20Riddler"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_riddler", path = "json/traits02.json" },

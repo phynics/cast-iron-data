@@ -2,6 +2,7 @@
 id = "ref/pclass/dragon-disciple"
 kind = "prestige_class"
 title = "Dragon Disciple"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Dragon%20Disciple"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_disciple", path = "json/prestige_classes4.json" },

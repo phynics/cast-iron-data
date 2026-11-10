@@ -2,6 +2,7 @@
 id = "ref/monster/genghryl"
 kind = "creature"
 title = "Genghryl"
+aon = "MonsterDisplay.aspx?ItemName=Genghryl"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genghryl", path = "json/monsters11.json" },

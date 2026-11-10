@@ -2,6 +2,7 @@
 id = "ref/feat/combat-medic"
 kind = "feat"
 title = "Combat Medic"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Medic"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_medic", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/spiritualist"
 kind = "archetype"
 title = "Spiritualist"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Spiritualist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist", path = "json/archetypes_investigator.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/spore-burst"
 kind = "spell"
 title = "Spore Burst"
+aon = "SpellDisplay.aspx?ItemName=Spore%20Burst"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_burst", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-vital-strike"
 kind = "feat"
 title = "Improved Vital Strike"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Vital%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_vital_strike", path = "json/feat09.json" },

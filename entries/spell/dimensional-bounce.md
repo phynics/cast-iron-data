@@ -2,6 +2,7 @@
 id = "ref/spell/dimensional-bounce"
 kind = "spell"
 title = "Dimensional Bounce"
+aon = "SpellDisplay.aspx?ItemName=Dimensional%20Bounce"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_bounce", path = "json/spells3.json" },

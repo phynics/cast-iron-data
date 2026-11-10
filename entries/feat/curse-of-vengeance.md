@@ -2,6 +2,7 @@
 id = "ref/feat/curse-of-vengeance"
 kind = "feat"
 title = "Curse of Vengeance"
+aon = "FeatDisplay.aspx?ItemName=Curse%20of%20Vengeance"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_vengeance", path = "json/feat04.json" },

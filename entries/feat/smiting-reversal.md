@@ -2,6 +2,7 @@
 id = "ref/feat/smiting-reversal"
 kind = "feat"
 title = "Smiting Reversal"
+aon = "FeatDisplay.aspx?ItemName=Smiting%20Reversal"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smiting_reversal", path = "json/feat14.json" },

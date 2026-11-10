@@ -2,6 +2,7 @@
 id = "ref/feat/burrowing-shot"
 kind = "feat"
 title = "Burrowing Shot"
+aon = "FeatDisplay.aspx?ItemName=Burrowing%20Shot"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrowing_shot", path = "json/feat02.json" },

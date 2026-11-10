@@ -2,6 +2,7 @@
 id = "ref/trait/draconic-vigil"
 kind = "trait"
 title = "Draconic Vigil"
+aon = "TraitDisplay.aspx?ItemName=Draconic%20Vigil"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_vigil", path = "json/traits04.json" },

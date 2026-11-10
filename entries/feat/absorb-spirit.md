@@ -2,6 +2,7 @@
 id = "ref/feat/absorb-spirit"
 kind = "feat"
 title = "Absorb Spirit"
+aon = "FeatDisplay.aspx?ItemName=Absorb%20Spirit"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_spirit", path = "json/feat01.json" },

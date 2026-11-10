@@ -2,6 +2,7 @@
 id = "ref/pclass/low-templar"
 kind = "prestige_class"
 title = "Low Templar"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Low%20Templar"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_templar", path = "json/prestige_classes2.json" },

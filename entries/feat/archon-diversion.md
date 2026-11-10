@@ -2,6 +2,7 @@
 id = "ref/feat/archon-diversion"
 kind = "feat"
 title = "Archon Diversion"
+aon = "FeatDisplay.aspx?ItemName=Archon%20Diversion"
 source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_diversion", path = "json/feat01.json" },

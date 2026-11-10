@@ -2,6 +2,7 @@
 id = "ref/spell/sealed-life-greater"
 kind = "spell"
 title = "Greater Sealed Life"
+aon = "SpellDisplay.aspx?ItemName=Sealed%20Life%2C%20Greater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_life_greater", path = "json/spells15.json" },

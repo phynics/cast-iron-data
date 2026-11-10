@@ -2,6 +2,7 @@
 id = "ref/spell/dimensional-anchor"
 kind = "spell"
 title = "Dimensional Anchor"
+aon = "SpellDisplay.aspx?ItemName=Dimensional%20Anchor"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_anchor", path = "json/spells3.json" },

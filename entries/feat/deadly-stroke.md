@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-stroke"
 kind = "feat"
 title = "Deadly Stroke"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Stroke"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_stroke", path = "json/feat04.json" },

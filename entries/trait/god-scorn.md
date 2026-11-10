@@ -2,6 +2,7 @@
 id = "ref/trait/god-scorn"
 kind = "trait"
 title = "God Scorn"
+aon = "TraitDisplay.aspx?ItemName=God%20Scorn"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "god_scorn", path = "json/traits05.json" },

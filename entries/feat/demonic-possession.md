@@ -2,6 +2,7 @@
 id = "ref/feat/demonic-possession"
 kind = "feat"
 title = "Demonic Possession"
+aon = "FeatDisplay.aspx?ItemName=Demonic%20Possession"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_possession", path = "json/feat04.json" },

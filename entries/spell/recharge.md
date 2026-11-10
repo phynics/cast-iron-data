@@ -2,6 +2,7 @@
 id = "ref/spell/recharge"
 kind = "spell"
 title = "Recharge"
+aon = "SpellDisplay.aspx?ItemName=Recharge"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recharge", path = "json/spells8.json" },

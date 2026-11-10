@@ -2,6 +2,7 @@
 id = "ref/feat/aboleth-deceiver"
 kind = "feat"
 title = "Aboleth Deceiver"
+aon = "FeatDisplay.aspx?ItemName=Aboleth%20Deceiver"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aboleth_deceiver", path = "json/feat01.json" },

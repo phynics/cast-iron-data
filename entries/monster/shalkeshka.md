@@ -2,6 +2,7 @@
 id = "ref/monster/shalkeshka"
 kind = "creature"
 title = "Shalkeshka"
+aon = "MonsterDisplay.aspx?ItemName=Shalkeshka"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shalkeshka", path = "json/monsters38.json" },

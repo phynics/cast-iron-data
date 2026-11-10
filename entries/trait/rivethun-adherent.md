@@ -2,6 +2,7 @@
 id = "ref/trait/rivethun-adherent"
 kind = "trait"
 title = "Rivethun Adherent"
+aon = "TraitDisplay.aspx?ItemName=Rivethun%20Adherent"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivethun_adherent", path = "json/traits02.json" },

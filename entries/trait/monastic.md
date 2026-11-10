@@ -2,6 +2,7 @@
 id = "ref/trait/monastic"
 kind = "trait"
 title = "Monastic"
+aon = "TraitDisplay.aspx?ItemName=Monastic"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monastic", path = "json/traits01.json" },

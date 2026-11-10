@@ -2,6 +2,7 @@
 id = "ref/spell/snapdragon-fireworks"
 kind = "spell"
 title = "Snapdragon Fireworks"
+aon = "SpellDisplay.aspx?ItemName=Snapdragon%20Fireworks"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapdragon_fireworks", path = "json/spells9.json" },

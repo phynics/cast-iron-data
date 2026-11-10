@@ -2,6 +2,7 @@
 id = "ref/spell/delay-disease"
 kind = "spell"
 title = "Delay Disease"
+aon = "SpellDisplay.aspx?ItemName=Delay%20Disease"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_disease", path = "json/spells3.json" },

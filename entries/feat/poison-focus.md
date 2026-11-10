@@ -2,6 +2,7 @@
 id = "ref/feat/poison-focus"
 kind = "feat"
 title = "Poison Focus"
+aon = "FeatDisplay.aspx?ItemName=Poison%20Focus"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_focus", path = "json/feat12.json" },

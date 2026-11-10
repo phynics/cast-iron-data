@@ -2,6 +2,7 @@
 id = "ref/feat/one-eye-open"
 kind = "feat"
 title = "One Eye Open"
+aon = "FeatDisplay.aspx?ItemName=One%20Eye%20Open"
 source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_eye_open", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/vile-dog-transformation"
 kind = "spell"
 title = "Vile Dog Transformation"
+aon = "SpellDisplay.aspx?ItemName=Vile%20Dog%20Transformation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_dog_transformation", path = "json/spells11.json" },

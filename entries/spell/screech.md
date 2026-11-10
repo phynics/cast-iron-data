@@ -2,6 +2,7 @@
 id = "ref/spell/screech"
 kind = "spell"
 title = "Screech"
+aon = "SpellDisplay.aspx?ItemName=Screech"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screech", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/bloatmage"
 kind = "prestige_class"
 title = "Bloatmage"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Bloatmage"
 source_ids = ["city-of-strangers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatmage", path = "json/prestige_classes.json" },

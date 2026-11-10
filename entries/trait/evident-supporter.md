@@ -2,6 +2,7 @@
 id = "ref/trait/evident-supporter"
 kind = "trait"
 title = "Evident Supporter"
+aon = "TraitDisplay.aspx?ItemName=Evident%20Supporter"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evident_supporter", path = "json/traits04.json" },

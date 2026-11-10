@@ -2,6 +2,7 @@
 id = "ref/feat/reap-the-infirm"
 kind = "feat"
 title = "Reap the Infirm"
+aon = "FeatDisplay.aspx?ItemName=Reap%20the%20Infirm"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reap_the_infirm", path = "json/feat13.json" },

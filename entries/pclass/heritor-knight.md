@@ -2,6 +2,7 @@
 id = "ref/pclass/heritor-knight"
 kind = "prestige_class"
 title = "Heritor Knight"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Heritor%20Knight"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heritor_knight", path = "json/prestige_classes2.json" },

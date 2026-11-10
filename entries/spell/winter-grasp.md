@@ -2,6 +2,7 @@
 id = "ref/spell/winter-grasp"
 kind = "spell"
 title = "Winter Grasp"
+aon = "SpellDisplay.aspx?ItemName=Winter%20Grasp"
 source_ids = ["ultimate-wilderness", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_grasp", path = "json/spells16.json" },

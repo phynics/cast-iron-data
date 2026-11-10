@@ -2,6 +2,7 @@
 id = "ref/spell/iron-stake"
 kind = "spell"
 title = "Iron Stake"
+aon = "SpellDisplay.aspx?ItemName=Iron%20Stake"
 source_ids = ["ultimate-wilderness", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_stake", path = "json/spells6.json" },

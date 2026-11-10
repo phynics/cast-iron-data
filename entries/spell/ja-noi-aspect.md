@@ -2,6 +2,7 @@
 id = "ref/spell/ja-noi-aspect"
 kind = "spell"
 title = "Ja Noi Aspect"
+aon = "SpellDisplay.aspx?ItemName=Ja%20Noi%20Aspect"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ja_noi_aspect", path = "json/spells6.json" },

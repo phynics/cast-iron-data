@@ -2,6 +2,7 @@
 id = "ref/spell/knights-calling"
 kind = "spell"
 title = "Knight's Calling"
+aon = "SpellDisplay.aspx?ItemName=Knight%27s%20Calling"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knights_calling", path = "json/spells6.json" },

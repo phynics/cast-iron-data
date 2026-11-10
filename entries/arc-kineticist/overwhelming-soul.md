@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/overwhelming-soul"
 kind = "archetype"
 title = "Overwhelming Soul"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Overwhelming%20Soul"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_soul", path = "json/archetypes_kineticist.json" },

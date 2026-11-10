@@ -2,6 +2,7 @@
 id = "ref/feat/sense-magical-interrogation"
 kind = "feat"
 title = "Sense Magical Interrogation"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Magical%20Interrogation"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_magical_interrogation", path = "json/feat13.json" },

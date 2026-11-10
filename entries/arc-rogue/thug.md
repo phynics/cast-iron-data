@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/thug"
 kind = "archetype"
 title = "Thug"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Thug"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thug", path = "json/archetypes_rogue.json" },

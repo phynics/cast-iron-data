@@ -2,6 +2,7 @@
 id = "ref/monster/nimbral-child"
 kind = "creature"
 title = "Nimbral Child"
+aon = "MonsterDisplay.aspx?ItemName=Nimbral%20Child"
 source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimbral_child", path = "json/monsters36.json" },

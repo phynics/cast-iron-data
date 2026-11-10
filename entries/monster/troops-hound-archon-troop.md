@@ -2,6 +2,7 @@
 id = "ref/monster/troops-hound-archon-troop"
 kind = "creature"
 title = "Hound Archon Troop"
+aon = "MonsterDisplay.aspx?ItemName=Hound%20Archon%20Troop"
 source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_hound_archon_troop", path = "json/monsters24.json" },

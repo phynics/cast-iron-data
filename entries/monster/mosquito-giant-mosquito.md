@@ -2,6 +2,7 @@
 id = "ref/monster/mosquito-giant-mosquito"
 kind = "creature"
 title = "Giant Mosquito"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Mosquito"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mosquito_giant_mosquito", path = "json/monsters17.json" },

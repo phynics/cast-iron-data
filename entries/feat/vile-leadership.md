@@ -2,6 +2,7 @@
 id = "ref/feat/vile-leadership"
 kind = "feat"
 title = "Vile Leadership"
+aon = "FeatDisplay.aspx?ItemName=Vile%20Leadership"
 source_ids = ["ultimate-intrigue", "champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_leadership", path = "json/feat17.json" },

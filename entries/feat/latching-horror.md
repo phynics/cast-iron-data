@@ -2,6 +2,7 @@
 id = "ref/feat/latching-horror"
 kind = "feat"
 title = "Latching Horror"
+aon = "FeatDisplay.aspx?ItemName=Latching%20Horror"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "latching_horror", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/disorienting-blow"
 kind = "feat"
 title = "Disorienting Blow"
+aon = "FeatDisplay.aspx?ItemName=Disorienting%20Blow"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disorienting_blow", path = "json/feat04.json" },

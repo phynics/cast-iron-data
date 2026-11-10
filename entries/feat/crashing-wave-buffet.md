@@ -2,6 +2,7 @@
 id = "ref/feat/crashing-wave-buffet"
 kind = "feat"
 title = "Crashing Wave Buffet"
+aon = "FeatDisplay.aspx?ItemName=Crashing%20Wave%20Buffet"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave_buffet", path = "json/feat03.json" },

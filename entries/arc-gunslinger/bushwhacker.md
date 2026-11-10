@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/bushwhacker"
 kind = "archetype"
 title = "Bushwhacker"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Bushwhacker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bushwhacker", path = "json/archetypes_gunslinger.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/brave-words"
 kind = "trait"
 title = "Brave Words"
+aon = "TraitDisplay.aspx?ItemName=Brave%20Words"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brave_words", path = "json/traits04.json" },

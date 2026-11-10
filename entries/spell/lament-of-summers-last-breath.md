@@ -2,6 +2,7 @@
 id = "ref/spell/lament-of-summers-last-breath"
 kind = "spell"
 title = "Lament of Summer's Last Breath"
+aon = "SpellDisplay.aspx?ItemName=Lament%20of%20Summer%27s%20Last%20Breath"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lament_of_summers_last_breath", path = "json/spells6.json" },

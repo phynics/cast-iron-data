@@ -2,6 +2,7 @@
 id = "ref/trait/toilcrafter"
 kind = "trait"
 title = "Toilcrafter"
+aon = "TraitDisplay.aspx?ItemName=Toilcrafter"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toilcrafter", path = "json/traits03.json" },

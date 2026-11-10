@@ -2,6 +2,7 @@
 id = "ref/feat/raging-concentration"
 kind = "feat"
 title = "Raging Concentration"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Concentration"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_concentration", path = "json/feat12.json" },

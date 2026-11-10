@@ -2,6 +2,7 @@
 id = "ref/feat/tower-shield-proficiency"
 kind = "feat"
 title = "Tower Shield Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Tower%20Shield%20Proficiency"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield_proficiency", path = "json/feat16.json" },

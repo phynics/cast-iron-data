@@ -2,6 +2,7 @@
 id = "ref/spell/sky-steed"
 kind = "spell"
 title = "Sky Steed"
+aon = "SpellDisplay.aspx?ItemName=Sky%20Steed"
 source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_steed", path = "json/spells9.json" },

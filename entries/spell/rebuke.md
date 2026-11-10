@@ -2,6 +2,7 @@
 id = "ref/spell/rebuke"
 kind = "spell"
 title = "Rebuke"
+aon = "SpellDisplay.aspx?ItemName=Rebuke"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuke", path = "json/spells8.json" },

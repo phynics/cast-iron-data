@@ -2,6 +2,7 @@
 id = "ref/trait/talented-organizer"
 kind = "trait"
 title = "Talented Organizer"
+aon = "TraitDisplay.aspx?ItemName=Talented%20Organizer"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talented_organizer", path = "json/traits03.json" },

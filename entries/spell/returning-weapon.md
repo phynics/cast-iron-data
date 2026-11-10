@@ -2,6 +2,7 @@
 id = "ref/spell/returning-weapon"
 kind = "spell"
 title = "Returning Weapon"
+aon = "SpellDisplay.aspx?ItemName=Returning%20Weapon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "returning_weapon", path = "json/spells8.json" },

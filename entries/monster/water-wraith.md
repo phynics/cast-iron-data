@@ -2,6 +2,7 @@
 id = "ref/monster/water-wraith"
 kind = "creature"
 title = "Water Wraith"
+aon = "MonsterDisplay.aspx?ItemName=Water%20Wraith"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_wraith", path = "json/monsters25.json" },

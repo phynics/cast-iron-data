@@ -2,6 +2,7 @@
 id = "ref/spell/burrow"
 kind = "spell"
 title = "Burrow"
+aon = "SpellDisplay.aspx?ItemName=Burrow"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrow", path = "json/spells2.json" },

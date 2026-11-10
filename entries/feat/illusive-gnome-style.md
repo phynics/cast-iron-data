@@ -2,6 +2,7 @@
 id = "ref/feat/illusive-gnome-style"
 kind = "feat"
 title = "Illusive Gnome Style"
+aon = "FeatDisplay.aspx?ItemName=Illusive%20Gnome%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusive_gnome_style", path = "json/feat08.json" },

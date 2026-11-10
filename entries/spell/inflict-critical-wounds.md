@@ -2,6 +2,7 @@
 id = "ref/spell/inflict-critical-wounds"
 kind = "spell"
 title = "Inflict Critical Wounds"
+aon = "SpellDisplay.aspx?ItemName=Inflict%20Critical%20Wounds"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_critical_wounds", path = "json/spells14.json" },

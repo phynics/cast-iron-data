@@ -2,6 +2,7 @@
 id = "ref/feat/kyton-cut"
 kind = "feat"
 title = "Kyton Cut"
+aon = "FeatDisplay.aspx?ItemName=Kyton%20Cut"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_cut", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/formula-recollection"
 kind = "feat"
 title = "Formula Recollection"
+aon = "FeatDisplay.aspx?ItemName=Formula%20Recollection"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formula_recollection", path = "json/feat07.json" },

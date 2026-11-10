@@ -2,6 +2,7 @@
 id = "ref/spell/cultural-adaptation"
 kind = "spell"
 title = "Cultural Adaptation"
+aon = "SpellDisplay.aspx?ItemName=Cultural%20Adaptation"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultural_adaptation", path = "json/spells3.json" },

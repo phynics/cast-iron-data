@@ -2,6 +2,7 @@
 id = "ref/feat/animal-affinity"
 kind = "feat"
 title = "Animal Affinity"
+aon = "FeatDisplay.aspx?ItemName=Animal%20Affinity"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_affinity", path = "json/feat01.json" },

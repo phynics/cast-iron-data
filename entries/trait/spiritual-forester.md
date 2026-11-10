@@ -2,6 +2,7 @@
 id = "ref/trait/spiritual-forester"
 kind = "trait"
 title = "Spiritual Forester"
+aon = "TraitDisplay.aspx?ItemName=Spiritual%20Forester"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_forester", path = "json/traits04.json" },

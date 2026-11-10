@@ -2,6 +2,7 @@
 id = "ref/spell/sequester-thoughts"
 kind = "spell"
 title = "Sequester Thoughts"
+aon = "SpellDisplay.aspx?ItemName=Sequester%20Thoughts"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sequester_thoughts", path = "json/spells15.json" },

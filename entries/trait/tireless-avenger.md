@@ -2,6 +2,7 @@
 id = "ref/trait/tireless-avenger"
 kind = "trait"
 title = "Tireless Avenger"
+aon = "TraitDisplay.aspx?ItemName=Tireless%20Avenger"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_avenger", path = "json/traits01.json" },

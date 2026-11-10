@@ -2,6 +2,7 @@
 id = "ref/feat/cut-from-the-air"
 kind = "feat"
 title = "Cut from the Air"
+aon = "FeatDisplay.aspx?ItemName=Cut%20from%20the%20Air"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cut_from_the_air", path = "json/feat04.json" },

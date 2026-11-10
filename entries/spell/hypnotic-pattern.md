@@ -2,6 +2,7 @@
 id = "ref/spell/hypnotic-pattern"
 kind = "spell"
 title = "Hypnotic Pattern"
+aon = "SpellDisplay.aspx?ItemName=Hypnotic%20Pattern"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotic_pattern", path = "json/spells5.json" },

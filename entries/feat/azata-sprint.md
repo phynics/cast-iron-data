@@ -2,6 +2,7 @@
 id = "ref/feat/azata-sprint"
 kind = "feat"
 title = "Azata Sprint"
+aon = "FeatDisplay.aspx?ItemName=Azata%20Sprint"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_sprint", path = "json/feat01.json" },

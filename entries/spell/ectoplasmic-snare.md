@@ -2,6 +2,7 @@
 id = "ref/spell/ectoplasmic-snare"
 kind = "spell"
 title = "Ectoplasmic Snare"
+aon = "SpellDisplay.aspx?ItemName=Ectoplasmic%20Snare"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_snare", path = "json/spells13.json" },

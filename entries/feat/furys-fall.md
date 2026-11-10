@@ -2,6 +2,7 @@
 id = "ref/feat/furys-fall"
 kind = "feat"
 title = "Fury's Fall"
+aon = "FeatDisplay.aspx?ItemName=Fury%27s%20Fall"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furys_fall", path = "json/feat07.json" },

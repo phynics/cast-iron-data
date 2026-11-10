@@ -2,6 +2,7 @@
 id = "ref/feat/saviors-arrow"
 kind = "feat"
 title = "Savior's Arrow"
+aon = "FeatDisplay.aspx?ItemName=Savior%27s%20Arrow"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saviors_arrow", path = "json/feat13.json" },

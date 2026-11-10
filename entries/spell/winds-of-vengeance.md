@@ -2,6 +2,7 @@
 id = "ref/spell/winds-of-vengeance"
 kind = "spell"
 title = "Winds of Vengeance"
+aon = "SpellDisplay.aspx?ItemName=Winds%20of%20Vengeance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winds_of_vengeance", path = "json/spells16.json" },

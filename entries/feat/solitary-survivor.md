@@ -2,6 +2,7 @@
 id = "ref/feat/solitary-survivor"
 kind = "feat"
 title = "Solitary Survivor"
+aon = "FeatDisplay.aspx?ItemName=Solitary%20Survivor"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solitary_survivor", path = "json/feat14.json" },

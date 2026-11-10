@@ -2,6 +2,7 @@
 id = "ref/feat/deafening-critical"
 kind = "feat"
 title = "Deafening Critical"
+aon = "FeatDisplay.aspx?ItemName=Deafening%20Critical"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deafening_critical", path = "json/feat04.json" },

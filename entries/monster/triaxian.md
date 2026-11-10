@@ -2,6 +2,7 @@
 id = "ref/monster/triaxian"
 kind = "creature"
 title = "Triaxian"
+aon = "MonsterDisplay.aspx?ItemName=Triaxian"
 source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxian", path = "json/monsters23.json" },

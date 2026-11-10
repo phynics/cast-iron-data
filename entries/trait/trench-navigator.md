@@ -2,6 +2,7 @@
 id = "ref/trait/trench-navigator"
 kind = "trait"
 title = "Trench Navigator"
+aon = "TraitDisplay.aspx?ItemName=Trench%20Navigator"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trench_navigator", path = "json/traits04.json" },

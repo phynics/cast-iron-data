@@ -2,6 +2,7 @@
 id = "ref/monster/axe-beak"
 kind = "creature"
 title = "Axe Beak"
+aon = "MonsterDisplay.aspx?ItemName=Axe%20Beak"
 source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_beak", path = "json/monsters26.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/overwhelming-phantom"
 kind = "feat"
 title = "Overwhelming Phantom"
+aon = "FeatDisplay.aspx?ItemName=Overwhelming%20Phantom"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_phantom", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/cynosoma"
 kind = "creature"
 title = "Cynosoma"
+aon = "MonsterDisplay.aspx?ItemName=Cynosoma"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cynosoma", path = "json/monsters06.json" },

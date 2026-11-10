@@ -2,6 +2,7 @@
 id = "ref/feat/widen-spell"
 kind = "feat"
 title = "Widen Spell"
+aon = "FeatDisplay.aspx?ItemName=Widen%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "widen_spell", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/silver-darts"
 kind = "spell"
 title = "Silver Darts"
+aon = "SpellDisplay.aspx?ItemName=Silver%20Darts"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_darts", path = "json/spells9.json" },

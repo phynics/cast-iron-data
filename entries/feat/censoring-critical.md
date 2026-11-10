@@ -2,6 +2,7 @@
 id = "ref/feat/censoring-critical"
 kind = "feat"
 title = "Censoring Critical"
+aon = "FeatDisplay.aspx?ItemName=Censoring%20Critical"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "censoring_critical", path = "json/feat02.json" },

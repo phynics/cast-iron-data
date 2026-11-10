@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/dreamstalker"
 kind = "archetype"
 title = "Dreamstalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Dreamstalker"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamstalker", path = "json/archetypes_mesmerist.json" },

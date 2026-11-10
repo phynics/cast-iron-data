@@ -2,6 +2,7 @@
 id = "ref/spell/blood-mist"
 kind = "spell"
 title = "Blood Mist"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Mist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_mist", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/never-stop-shooting"
 kind = "trait"
 title = "Never Stop Shooting"
+aon = "TraitDisplay.aspx?ItemName=Never%20Stop%20Shooting"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "never_stop_shooting", path = "json/traits01.json" },

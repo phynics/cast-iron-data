@@ -2,6 +2,7 @@
 id = "ref/spell/sculpt-sound"
 kind = "spell"
 title = "Sculpt Sound"
+aon = "SpellDisplay.aspx?ItemName=Sculpt%20Sound"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpt_sound", path = "json/spells15.json" },

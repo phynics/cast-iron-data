@@ -2,6 +2,7 @@
 id = "ref/trait/first-memories"
 kind = "trait"
 title = "First Memories"
+aon = "TraitDisplay.aspx?ItemName=First%20Memories"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_memories", path = "json/traits01.json" },

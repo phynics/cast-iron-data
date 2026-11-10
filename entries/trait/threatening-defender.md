@@ -2,6 +2,7 @@
 id = "ref/trait/threatening-defender"
 kind = "trait"
 title = "Threatening Defender"
+aon = "TraitDisplay.aspx?ItemName=Threatening%20Defender"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threatening_defender", path = "json/traits01.json" },

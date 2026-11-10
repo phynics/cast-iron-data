@@ -2,6 +2,7 @@
 id = "ref/feat/focused-fey-expertise"
 kind = "feat"
 title = "Focused Fey Expertise"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Fey%20Expertise"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_fey_expertise", path = "json/feat07.json" },

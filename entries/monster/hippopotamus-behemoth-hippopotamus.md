@@ -2,6 +2,7 @@
 id = "ref/monster/hippopotamus-behemoth-hippopotamus"
 kind = "creature"
 title = "Behemoth Hippopotamus"
+aon = "MonsterDisplay.aspx?ItemName=Behemoth%20Hippopotamus"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippopotamus_behemoth_hippopotamus", path = "json/monsters13.json" },

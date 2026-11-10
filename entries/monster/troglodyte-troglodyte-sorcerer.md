@@ -2,6 +2,7 @@
 id = "ref/monster/troglodyte-troglodyte-sorcerer"
 kind = "creature"
 title = "Troglodyte Sorcerer"
+aon = "MonsterDisplay.aspx?ItemName=Troglodyte%20Sorcerer"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troglodyte_troglodyte_sorcerer", path = "json/monsters39.json" },

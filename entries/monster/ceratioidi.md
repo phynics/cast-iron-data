@@ -2,6 +2,7 @@
 id = "ref/monster/ceratioidi"
 kind = "creature"
 title = "Ceratioidi"
+aon = "MonsterDisplay.aspx?ItemName=Ceratioidi"
 source_ids = ["bestiary-3", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ceratioidi", path = "json/monsters28.json" },

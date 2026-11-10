@@ -2,6 +2,7 @@
 id = "ref/magic-staff/spherewalkers-staff"
 kind = "item"
 title = "Spherewalker's Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Spherewalker%27s%20Staff"
 source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherewalkers_staff", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/drake-warden"
 kind = "archetype"
 title = "Drake Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Drake%20Warden"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_warden", path = "json/archetypes_ranger.json" },

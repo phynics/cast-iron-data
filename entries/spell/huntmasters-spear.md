@@ -2,6 +2,7 @@
 id = "ref/spell/huntmasters-spear"
 kind = "spell"
 title = "Huntmaster's Spear"
+aon = "SpellDisplay.aspx?ItemName=Huntmaster%27s%20Spear"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huntmasters_spear", path = "json/spells5.json" },

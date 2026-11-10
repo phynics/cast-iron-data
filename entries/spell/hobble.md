@@ -2,6 +2,7 @@
 id = "ref/spell/hobble"
 kind = "spell"
 title = "Hobble"
+aon = "SpellDisplay.aspx?ItemName=Hobble"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobble", path = "json/spells5.json" },

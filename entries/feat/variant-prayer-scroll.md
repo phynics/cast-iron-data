@@ -2,6 +2,7 @@
 id = "ref/feat/variant-prayer-scroll"
 kind = "feat"
 title = "Variant Prayer Scroll"
+aon = "FeatDisplay.aspx?ItemName=Variant%20Prayer%20Scroll"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_prayer_scroll", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/bounty-hunter"
 kind = "archetype"
 title = "Bounty Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Bounty%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounty_hunter", path = "json/archetypes_slayer.json" },

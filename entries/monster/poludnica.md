@@ -2,6 +2,7 @@
 id = "ref/monster/poludnica"
 kind = "creature"
 title = "Poludnica"
+aon = "MonsterDisplay.aspx?ItemName=Poludnica"
 source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poludnica", path = "json/monsters19.json" },

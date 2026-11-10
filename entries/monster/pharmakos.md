@@ -2,6 +2,7 @@
 id = "ref/monster/pharmakos"
 kind = "creature"
 title = "Pharmakos"
+aon = "MonsterDisplay.aspx?ItemName=Pharmakos"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharmakos", path = "json/monsters36.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/wretchghost"
 kind = "creature"
 title = "Wretchghost"
+aon = "MonsterDisplay.aspx?ItemName=Wretchghost"
 source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wretchghost", path = "json/monsters25.json" },

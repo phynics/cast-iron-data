@@ -2,6 +2,7 @@
 id = "ref/spell/acute-senses"
 kind = "spell"
 title = "Acute Senses"
+aon = "SpellDisplay.aspx?ItemName=Acute%20Senses"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acute_senses", path = "json/spells.json" },

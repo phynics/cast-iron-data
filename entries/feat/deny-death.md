@@ -2,6 +2,7 @@
 id = "ref/feat/deny-death"
 kind = "feat"
 title = "Deny Death"
+aon = "FeatDisplay.aspx?ItemName=Deny%20Death"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deny_death", path = "json/feat04.json" },

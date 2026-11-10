@@ -2,6 +2,7 @@
 id = "ref/feat/deep-toxin"
 kind = "feat"
 title = "Deep Toxin"
+aon = "FeatDisplay.aspx?ItemName=Deep%20Toxin"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_toxin", path = "json/feat04.json" },

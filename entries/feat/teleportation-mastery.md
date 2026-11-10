@@ -2,6 +2,7 @@
 id = "ref/feat/teleportation-mastery"
 kind = "feat"
 title = "Teleportation Mastery"
+aon = "FeatDisplay.aspx?ItemName=Teleportation%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleportation_mastery", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wave-strike"
 kind = "feat"
 title = "Wave Strike"
+aon = "FeatDisplay.aspx?ItemName=Wave%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_strike", path = "json/feat17.json" },

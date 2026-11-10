@@ -2,6 +2,7 @@
 id = "ref/spell/gravel-vortex"
 kind = "spell"
 title = "Gravel Vortex"
+aon = "SpellDisplay.aspx?ItemName=Gravel%20Vortex"
 source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravel_vortex", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-material-mastery"
 kind = "feat"
 title = "Weapon Material Mastery"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Material%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_material_mastery", path = "json/feat17.json" },

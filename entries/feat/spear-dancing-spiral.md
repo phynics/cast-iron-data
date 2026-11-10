@@ -2,6 +2,7 @@
 id = "ref/feat/spear-dancing-spiral"
 kind = "feat"
 title = "Spear Dancing Spiral"
+aon = "FeatDisplay.aspx?ItemName=Spear%20Dancing%20Spiral"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_spiral", path = "json/feat14.json" },

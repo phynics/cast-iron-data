@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/preacher"
 kind = "archetype"
 title = "Preacher"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Preacher"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preacher", path = "json/archetypes_inquisitor.json" },

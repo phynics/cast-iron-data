@@ -2,6 +2,7 @@
 id = "ref/monster/angazhani-high-girallon"
 kind = "creature"
 title = "Angazhani (High Girallon)"
+aon = "MonsterDisplay.aspx?ItemName=Angazhani%20%28High%20Girallon%29"
 source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angazhani_high_girallon", path = "json/monsters26.json" },

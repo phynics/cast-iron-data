@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-troglodyte"
 kind = "item"
 title = "Ring of the Troglodyte"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Troglodyte"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_troglodyte", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/archon-hammer-archon"
 kind = "creature"
 title = "Hammer Archon"
+aon = "MonsterDisplay.aspx?ItemName=Hammer%20Archon"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_hammer_archon", path = "json/monsters02.json" },

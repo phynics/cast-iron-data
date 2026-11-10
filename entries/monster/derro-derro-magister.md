@@ -2,6 +2,7 @@
 id = "ref/monster/derro-derro-magister"
 kind = "creature"
 title = "Derro Magister"
+aon = "MonsterDisplay.aspx?ItemName=Derro%20Magister"
 source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_magister", path = "json/monsters07.json" },

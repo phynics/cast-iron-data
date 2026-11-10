@@ -2,6 +2,7 @@
 id = "ref/feat/caustic-slur"
 kind = "feat"
 title = "Caustic Slur"
+aon = "FeatDisplay.aspx?ItemName=Caustic%20Slur"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_slur", path = "json/feat02.json" },

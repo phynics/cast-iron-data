@@ -2,6 +2,7 @@
 id = "ref/trait/frost-spitter"
 kind = "trait"
 title = "Frost Spitter"
+aon = "TraitDisplay.aspx?ItemName=Frost%20Spitter"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_spitter", path = "json/traits05.json" },

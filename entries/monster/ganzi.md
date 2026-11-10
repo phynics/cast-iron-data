@@ -2,6 +2,7 @@
 id = "ref/monster/ganzi"
 kind = "creature"
 title = "Ganzi"
+aon = "MonsterDisplay.aspx?ItemName=Ganzi"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ganzi", path = "json/monsters32.json" },

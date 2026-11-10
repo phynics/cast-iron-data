@@ -2,6 +2,7 @@
 id = "ref/trait/operatic"
 kind = "trait"
 title = "Operatic"
+aon = "TraitDisplay.aspx?ItemName=Operatic"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "operatic", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/nondetection-lesser"
 kind = "spell"
 title = "Lesser Nondetection"
+aon = "SpellDisplay.aspx?ItemName=Nondetection%2C%20Lesser"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nondetection_lesser", path = "json/spells7.json" },

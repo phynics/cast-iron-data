@@ -2,6 +2,7 @@
 id = "ref/feat/erastils-blessing"
 kind = "feat"
 title = "Erastil's Blessing"
+aon = "FeatDisplay.aspx?ItemName=Erastil%27s%20Blessing"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erastils_blessing", path = "json/feat06.json" },

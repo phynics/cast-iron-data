@@ -2,6 +2,7 @@
 id = "ref/spell/sanctify-weapons"
 kind = "spell"
 title = "Sanctify Weapons"
+aon = "SpellDisplay.aspx?ItemName=Sanctify%20Weapons"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_weapons", path = "json/spells8.json" },

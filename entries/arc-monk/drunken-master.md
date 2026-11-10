@@ -2,6 +2,7 @@
 id = "ref/arc-monk/drunken-master"
 kind = "archetype"
 title = "Drunken Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Drunken%20Master"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_master", path = "json/archetypes_monk.json" },

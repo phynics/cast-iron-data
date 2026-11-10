@@ -2,6 +2,7 @@
 id = "ref/feat/giants-smash"
 kind = "feat"
 title = "Giant's Smash"
+aon = "FeatDisplay.aspx?ItemName=Giant%27s%20Smash"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giants_smash", path = "json/feat07.json" },

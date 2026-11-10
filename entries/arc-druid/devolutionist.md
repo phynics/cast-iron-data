@@ -2,6 +2,7 @@
 id = "ref/arc-druid/devolutionist"
 kind = "archetype"
 title = "Devolutionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Devolutionist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devolutionist", path = "json/archetypes_druid.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/synaptic-scramble"
 kind = "spell"
 title = "Synaptic Scramble"
+aon = "SpellDisplay.aspx?ItemName=Synaptic%20Scramble"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_scramble", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/acclimatize-alignment"
 kind = "trait"
 title = "Acclimatize Alignment"
+aon = "TraitDisplay.aspx?ItemName=Acclimatize%20Alignment"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acclimatize_alignment", path = "json/traits01.json" },

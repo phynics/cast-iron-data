@@ -2,6 +2,7 @@
 id = "ref/trait/prestigious-healer"
 kind = "trait"
 title = "Prestigious Healer"
+aon = "TraitDisplay.aspx?ItemName=Prestigious%20Healer"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestigious_healer", path = "json/traits04.json" },

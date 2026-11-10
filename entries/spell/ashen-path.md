@@ -2,6 +2,7 @@
 id = "ref/spell/ashen-path"
 kind = "spell"
 title = "Ashen Path"
+aon = "SpellDisplay.aspx?ItemName=Ashen%20Path"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashen_path", path = "json/spells.json" },

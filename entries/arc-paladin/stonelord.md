@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/stonelord"
 kind = "archetype"
 title = "Stonelord"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Stonelord"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stonelord", path = "json/archetypes_paladin.json" },

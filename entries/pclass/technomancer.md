@@ -2,6 +2,7 @@
 id = "ref/pclass/technomancer"
 kind = "prestige_class"
 title = "Technomancer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Technomancer"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technomancer", path = "json/prestige_classes3.json" },

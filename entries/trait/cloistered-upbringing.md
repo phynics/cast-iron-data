@@ -2,6 +2,7 @@
 id = "ref/trait/cloistered-upbringing"
 kind = "trait"
 title = "Cloistered Upbringing"
+aon = "TraitDisplay.aspx?ItemName=Cloistered%20Upbringing"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloistered_upbringing", path = "json/traits04.json" },

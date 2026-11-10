@@ -2,6 +2,7 @@
 id = "ref/feat/merciless-rush"
 kind = "feat"
 title = "Merciless Rush"
+aon = "FeatDisplay.aspx?ItemName=Merciless%20Rush"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_rush", path = "json/feat10.json" },

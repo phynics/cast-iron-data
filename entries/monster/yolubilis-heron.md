@@ -2,6 +2,7 @@
 id = "ref/monster/yolubilis-heron"
 kind = "creature"
 title = "Yolubilis Heron"
+aon = "MonsterDisplay.aspx?ItemName=Yolubilis%20Heron"
 source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yolubilis_heron", path = "json/monsters41.json" },

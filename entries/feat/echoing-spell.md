@@ -2,6 +2,7 @@
 id = "ref/feat/echoing-spell"
 kind = "feat"
 title = "Echoing Spell"
+aon = "FeatDisplay.aspx?ItemName=Echoing%20Spell"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echoing_spell", path = "json/feat05.json" },

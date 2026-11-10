@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/preservationist"
 kind = "archetype"
 title = "Preservationist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Preservationist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preservationist", path = "json/archetypes_alchemist2.json" },

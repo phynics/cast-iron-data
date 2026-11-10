@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/airborne-ambusher"
 kind = "archetype"
 title = "Airborne Ambusher"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Airborne%20Ambusher"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "airborne_ambusher", path = "json/archetypes_fighter.json" },

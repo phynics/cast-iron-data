@@ -2,6 +2,7 @@
 id = "ref/race/kuru"
 kind = "race"
 title = "Kuru"
+aon = "RacesDisplay.aspx?ItemName=Kuru"
 source_ids = ["isles-of-the-shackles"]
 race_group = "other_race"
 provenance = [

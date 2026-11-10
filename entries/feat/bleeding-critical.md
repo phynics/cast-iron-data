@@ -2,6 +2,7 @@
 id = "ref/feat/bleeding-critical"
 kind = "feat"
 title = "Bleeding Critical"
+aon = "FeatDisplay.aspx?ItemName=Bleeding%20Critical"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_critical", path = "json/feat02.json" },

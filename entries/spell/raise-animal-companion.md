@@ -2,6 +2,7 @@
 id = "ref/spell/raise-animal-companion"
 kind = "spell"
 title = "Raise Animal Companion"
+aon = "SpellDisplay.aspx?ItemName=Raise%20Animal%20Companion"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raise_animal_companion", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/genie-touched-companion"
 kind = "feat"
 title = "Genie-Touched Companion"
+aon = "FeatDisplay.aspx?ItemName=Genie-Touched%20Companion"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_touched_companion", path = "json/feat07.json" },

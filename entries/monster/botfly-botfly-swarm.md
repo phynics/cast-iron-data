@@ -2,6 +2,7 @@
 id = "ref/monster/botfly-botfly-swarm"
 kind = "creature"
 title = "Botfly Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Botfly%20Swarm"
 source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "botfly_botfly_swarm", path = "json/monsters04.json" },

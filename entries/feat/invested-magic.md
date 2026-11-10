@@ -2,6 +2,7 @@
 id = "ref/feat/invested-magic"
 kind = "feat"
 title = "Invested Magic"
+aon = "FeatDisplay.aspx?ItemName=Invested%20Magic"
 source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invested_magic", path = "json/feat09.json" },

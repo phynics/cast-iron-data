@@ -2,6 +2,7 @@
 id = "ref/spell/share-shape"
 kind = "spell"
 title = "Share Shape"
+aon = "SpellDisplay.aspx?ItemName=Share%20Shape"
 source_ids = ["core-rulebook", "ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_shape", path = "json/spells12.json" },

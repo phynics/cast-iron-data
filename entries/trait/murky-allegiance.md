@@ -2,6 +2,7 @@
 id = "ref/trait/murky-allegiance"
 kind = "trait"
 title = "Murky Allegiance"
+aon = "TraitDisplay.aspx?ItemName=Murky%20Allegiance"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murky_allegiance", path = "json/traits05.json" },

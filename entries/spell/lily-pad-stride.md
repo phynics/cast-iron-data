@@ -2,6 +2,7 @@
 id = "ref/spell/lily-pad-stride"
 kind = "spell"
 title = "Lily Pad Stride"
+aon = "SpellDisplay.aspx?ItemName=Lily%20Pad%20Stride"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lily_pad_stride", path = "json/spells6.json" },

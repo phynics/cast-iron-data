@@ -2,6 +2,7 @@
 id = "ref/trait/sneaky-swimmer"
 kind = "trait"
 title = "Sneaky Swimmer"
+aon = "TraitDisplay.aspx?ItemName=Sneaky%20Swimmer"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaky_swimmer", path = "json/traits05.json" },

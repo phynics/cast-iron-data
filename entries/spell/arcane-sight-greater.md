@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-sight-greater"
 kind = "spell"
 title = "Greater Arcane Sight"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Sight%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_sight_greater", path = "json/spells.json" },

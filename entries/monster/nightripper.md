@@ -2,6 +2,7 @@
 id = "ref/monster/nightripper"
 kind = "creature"
 title = "Nightripper"
+aon = "MonsterDisplay.aspx?ItemName=Nightripper"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightripper", path = "json/monsters_unique3.json" },

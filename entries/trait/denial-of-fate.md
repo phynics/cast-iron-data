@@ -2,6 +2,7 @@
 id = "ref/trait/denial-of-fate"
 kind = "trait"
 title = "Denial of Fate"
+aon = "TraitDisplay.aspx?ItemName=Denial%20of%20Fate"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "denial_of_fate", path = "json/traits03.json" },

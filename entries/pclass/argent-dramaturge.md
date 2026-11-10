@@ -2,6 +2,7 @@
 id = "ref/pclass/argent-dramaturge"
 kind = "prestige_class"
 title = "Argent Dramaturge"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Argent%20Dramaturge"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argent_dramaturge", path = "json/prestige_classes.json" },

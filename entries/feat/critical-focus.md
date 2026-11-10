@@ -2,6 +2,7 @@
 id = "ref/feat/critical-focus"
 kind = "feat"
 title = "Critical Focus"
+aon = "FeatDisplay.aspx?ItemName=Critical%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_focus", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/bite-the-hand"
 kind = "spell"
 title = "Bite the Hand"
+aon = "SpellDisplay.aspx?ItemName=Bite%20the%20Hand"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bite_the_hand", path = "json/spells12.json" },

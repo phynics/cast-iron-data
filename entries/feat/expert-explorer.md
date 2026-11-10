@@ -2,6 +2,7 @@
 id = "ref/feat/expert-explorer"
 kind = "feat"
 title = "Expert Explorer"
+aon = "FeatDisplay.aspx?ItemName=Expert%20Explorer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_explorer", path = "json/feat06.json" },

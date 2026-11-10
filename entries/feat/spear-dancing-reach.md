@@ -2,6 +2,7 @@
 id = "ref/feat/spear-dancing-reach"
 kind = "feat"
 title = "Spear Dancing Reach"
+aon = "FeatDisplay.aspx?ItemName=Spear%20Dancing%20Reach"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancing_reach", path = "json/feat14.json" },

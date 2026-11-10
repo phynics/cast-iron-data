@@ -2,6 +2,7 @@
 id = "ref/feat/haruspicy"
 kind = "feat"
 title = "Haruspicy"
+aon = "FeatDisplay.aspx?ItemName=Haruspicy"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haruspicy", path = "json/feat08.json" },

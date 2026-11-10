@@ -2,6 +2,7 @@
 id = "ref/monster/piranha-swarm"
 kind = "creature"
 title = "Piranha Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Piranha%20Swarm"
 source_ids = ["pathfinder-39-the-city-of-seven-spears", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piranha_swarm", path = "json/monsters19.json" },

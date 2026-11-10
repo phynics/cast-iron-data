@@ -2,6 +2,7 @@
 id = "ref/spell/mislead"
 kind = "spell"
 title = "Mislead"
+aon = "SpellDisplay.aspx?ItemName=Mislead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mislead", path = "json/spells14.json" },

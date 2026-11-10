@@ -2,6 +2,7 @@
 id = "ref/feat/quick-channel"
 kind = "feat"
 title = "Quick Channel"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Channel"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_channel", path = "json/feat12.json" },

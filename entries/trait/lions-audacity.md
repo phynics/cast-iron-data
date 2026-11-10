@@ -2,6 +2,7 @@
 id = "ref/trait/lions-audacity"
 kind = "trait"
 title = "Lion's Audacity"
+aon = "TraitDisplay.aspx?ItemName=Lion%27s%20Audacity"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lions_audacity", path = "json/traits04.json" },

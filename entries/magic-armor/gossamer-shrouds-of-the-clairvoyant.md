@@ -2,6 +2,7 @@
 id = "ref/magic-armor/gossamer-shrouds-of-the-clairvoyant"
 kind = "item"
 title = "Gossamer Shrouds of the Clairvoyant"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Gossamer%20Shrouds%20of%20the%20Clairvoyant"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gossamer_shrouds_of_the_clairvoyant", path = "json/magic_armor.json" },

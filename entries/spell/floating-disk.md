@@ -2,6 +2,7 @@
 id = "ref/spell/floating-disk"
 kind = "spell"
 title = "Floating Disk"
+aon = "SpellDisplay.aspx?ItemName=Floating%20Disk"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "floating_disk", path = "json/spells4.json" },

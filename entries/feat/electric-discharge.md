@@ -2,6 +2,7 @@
 id = "ref/feat/electric-discharge"
 kind = "feat"
 title = "Electric Discharge"
+aon = "FeatDisplay.aspx?ItemName=Electric%20Discharge"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_discharge", path = "json/feat05.json" },

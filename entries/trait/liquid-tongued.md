@@ -2,6 +2,7 @@
 id = "ref/trait/liquid-tongued"
 kind = "trait"
 title = "Liquid-Tongued"
+aon = "TraitDisplay.aspx?ItemName=Liquid-Tongued"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_tongued", path = "json/traits05.json" },

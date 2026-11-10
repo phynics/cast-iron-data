@@ -2,6 +2,7 @@
 id = "ref/spell/shield-speech"
 kind = "spell"
 title = "Shield Speech"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Speech"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_speech", path = "json/spells9.json" },

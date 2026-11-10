@@ -2,6 +2,7 @@
 id = "ref/trait/warrior-poet"
 kind = "trait"
 title = "Warrior Poet"
+aon = "TraitDisplay.aspx?ItemName=Warrior%20Poet"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior_poet", path = "json/traits04.json" },

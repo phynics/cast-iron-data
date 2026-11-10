@@ -2,6 +2,7 @@
 id = "ref/feat/flaying-critical"
 kind = "feat"
 title = "Flaying Critical"
+aon = "FeatDisplay.aspx?ItemName=Flaying%20Critical"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaying_critical", path = "json/feat07.json" },

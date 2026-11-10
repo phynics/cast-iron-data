@@ -2,6 +2,7 @@
 id = "ref/spell/blade-of-dark-triumph"
 kind = "spell"
 title = "Blade of Dark Triumph"
+aon = "SpellDisplay.aspx?ItemName=Blade%20of%20Dark%20Triumph"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_dark_triumph", path = "json/spells12.json" },

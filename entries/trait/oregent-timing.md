@@ -2,6 +2,7 @@
 id = "ref/trait/oregent-timing"
 kind = "trait"
 title = "Oregent Timing"
+aon = "TraitDisplay.aspx?ItemName=Oregent%20Timing"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oregent_timing", path = "json/traits04.json" },

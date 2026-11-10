@@ -2,6 +2,7 @@
 id = "ref/feat/crystalline-cloud"
 kind = "feat"
 title = "Crystalline Cloud"
+aon = "FeatDisplay.aspx?ItemName=Crystalline%20Cloud"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystalline_cloud", path = "json/feat04.json" },

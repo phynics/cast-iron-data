@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/fiendish-vessel"
 kind = "archetype"
 title = "Fiendish Vessel"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Fiendish%20Vessel"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_vessel", path = "json/archetypes_cleric.json" },

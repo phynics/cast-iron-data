@@ -2,6 +2,7 @@
 id = "ref/feat/spring-attack"
 kind = "feat"
 title = "Spring Attack"
+aon = "FeatDisplay.aspx?ItemName=Spring%20Attack"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_attack", path = "json/feat15.json" },

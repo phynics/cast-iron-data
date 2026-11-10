@@ -2,6 +2,7 @@
 id = "ref/spell/mirage-arcana"
 kind = "spell"
 title = "Mirage Arcana"
+aon = "SpellDisplay.aspx?ItemName=Mirage%20Arcana"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirage_arcana", path = "json/spells14.json" },

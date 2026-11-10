@@ -2,6 +2,7 @@
 id = "ref/feat/treacherous-toxin"
 kind = "feat"
 title = "Treacherous Toxin"
+aon = "FeatDisplay.aspx?ItemName=Treacherous%20Toxin"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treacherous_toxin", path = "json/feat16.json" },

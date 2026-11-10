@@ -2,6 +2,7 @@
 id = "ref/spell/sense-vitals"
 kind = "spell"
 title = "Sense Vitals"
+aon = "SpellDisplay.aspx?ItemName=Sense%20Vitals"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_vitals", path = "json/spells15.json" },

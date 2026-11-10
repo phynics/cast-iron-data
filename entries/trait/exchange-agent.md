@@ -2,6 +2,7 @@
 id = "ref/trait/exchange-agent"
 kind = "trait"
 title = "Exchange Agent"
+aon = "TraitDisplay.aspx?ItemName=Exchange%20Agent"
 source_ids = ["varisia-birthplace-of-legends", "shattered-star-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exchange_agent", path = "json/traits02.json" },

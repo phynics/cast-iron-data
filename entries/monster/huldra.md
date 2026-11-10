@@ -2,6 +2,7 @@
 id = "ref/monster/huldra"
 kind = "creature"
 title = "Huldra"
+aon = "MonsterDisplay.aspx?ItemName=Huldra"
 source_ids = ["bestiary-4", "lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huldra", path = "json/monsters14.json" },

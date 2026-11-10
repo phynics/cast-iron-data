@@ -2,6 +2,7 @@
 id = "ref/trait/isger-fixer"
 kind = "trait"
 title = "Isger Fixer"
+aon = "TraitDisplay.aspx?ItemName=Isger%20Fixer"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isger_fixer", path = "json/traits04.json" },

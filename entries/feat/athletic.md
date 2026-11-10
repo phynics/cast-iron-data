@@ -2,6 +2,7 @@
 id = "ref/feat/athletic"
 kind = "feat"
 title = "Athletic"
+aon = "FeatDisplay.aspx?ItemName=Athletic"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "athletic", path = "json/feat01.json" },

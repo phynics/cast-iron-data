@@ -2,6 +2,7 @@
 id = "ref/trait/traditionalist"
 kind = "trait"
 title = "Traditionalist"
+aon = "TraitDisplay.aspx?ItemName=Traditionalist"
 source_ids = ["divine-anthology", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traditionalist", path = "json/traits01.json" },

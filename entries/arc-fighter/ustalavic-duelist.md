@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/ustalavic-duelist"
 kind = "archetype"
 title = "Ustalavic Duelist"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Ustalavic%20Duelist"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ustalavic_duelist", path = "json/archetypes_fighter2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/rejected-emperor"
 kind = "trait"
 title = "Rejected Emperor"
+aon = "TraitDisplay.aspx?ItemName=Rejected%20Emperor"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rejected_emperor", path = "json/traits03.json" },

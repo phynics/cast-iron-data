@@ -2,6 +2,7 @@
 id = "ref/feat/puppet-master"
 kind = "feat"
 title = "Puppet Master"
+aon = "FeatDisplay.aspx?ItemName=Puppet%20Master"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puppet_master", path = "json/feat12.json" },

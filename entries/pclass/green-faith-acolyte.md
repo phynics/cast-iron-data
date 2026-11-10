@@ -2,6 +2,7 @@
 id = "ref/pclass/green-faith-acolyte"
 kind = "prestige_class"
 title = "Green Faith Acolyte"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Green%20Faith%20Acolyte"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith_acolyte", path = "json/prestige_classes2.json" },

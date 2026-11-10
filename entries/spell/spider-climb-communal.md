@@ -2,6 +2,7 @@
 id = "ref/spell/spider-climb-communal"
 kind = "spell"
 title = "Communal Spider Climb"
+aon = "SpellDisplay.aspx?ItemName=Spider%20Climb%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_climb_communal", path = "json/spells9.json" },

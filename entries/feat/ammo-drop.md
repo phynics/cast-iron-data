@@ -2,6 +2,7 @@
 id = "ref/feat/ammo-drop"
 kind = "feat"
 title = "Ammo Drop"
+aon = "FeatDisplay.aspx?ItemName=Ammo%20Drop"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ammo_drop", path = "json/feat01.json" },

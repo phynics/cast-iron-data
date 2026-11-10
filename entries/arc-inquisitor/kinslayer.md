@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/kinslayer"
 kind = "archetype"
 title = "Kinslayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Kinslayer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinslayer", path = "json/archetypes_inquisitor.json" },

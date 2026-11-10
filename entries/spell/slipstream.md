@@ -2,6 +2,7 @@
 id = "ref/spell/slipstream"
 kind = "spell"
 title = "Slipstream"
+aon = "SpellDisplay.aspx?ItemName=Slipstream"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipstream", path = "json/spells9.json" },

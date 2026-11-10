@@ -2,6 +2,7 @@
 id = "ref/trait/condescending"
 kind = "trait"
 title = "Condescending"
+aon = "TraitDisplay.aspx?ItemName=Condescending"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "condescending", path = "json/traits03.json" },

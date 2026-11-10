@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-infamy"
 kind = "trait"
 title = "Child of Infamy"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Infamy"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_infamy", path = "json/traits02.json" },

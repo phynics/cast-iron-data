@@ -2,6 +2,7 @@
 id = "ref/trait/fruits-of-your-labor"
 kind = "trait"
 title = "Fruits of Your Labor"
+aon = "TraitDisplay.aspx?ItemName=Fruits%20of%20Your%20Labor"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fruits_of_your_labor", path = "json/traits03.json" },

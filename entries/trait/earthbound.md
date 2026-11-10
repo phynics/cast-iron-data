@@ -2,6 +2,7 @@
 id = "ref/trait/earthbound"
 kind = "trait"
 title = "Earthbound"
+aon = "TraitDisplay.aspx?ItemName=Earthbound"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthbound", path = "json/traits01.json" },

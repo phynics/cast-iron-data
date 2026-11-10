@@ -2,6 +2,7 @@
 id = "ref/trait/keen-appraiser"
 kind = "trait"
 title = "Keen Appraiser"
+aon = "TraitDisplay.aspx?ItemName=Keen%20Appraiser"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_appraiser", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/soul-vault"
 kind = "spell"
 title = "Soul Vault"
+aon = "SpellDisplay.aspx?ItemName=Soul%20Vault"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_vault", path = "json/spells9.json" },

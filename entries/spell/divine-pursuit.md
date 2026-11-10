@@ -2,6 +2,7 @@
 id = "ref/spell/divine-pursuit"
 kind = "spell"
 title = "Divine Pursuit"
+aon = "SpellDisplay.aspx?ItemName=Divine%20Pursuit"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_pursuit", path = "json/spells13.json" },

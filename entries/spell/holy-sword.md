@@ -2,6 +2,7 @@
 id = "ref/spell/holy-sword"
 kind = "spell"
 title = "Holy Sword"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Sword"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_sword", path = "json/spells5.json" },

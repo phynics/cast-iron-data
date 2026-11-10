@@ -2,6 +2,7 @@
 id = "ref/monster/juggerloathe"
 kind = "creature"
 title = "Juggerloathe"
+aon = "MonsterDisplay.aspx?ItemName=Juggerloathe"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggerloathe", path = "json/monsters34.json" },

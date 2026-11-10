@@ -2,6 +2,7 @@
 id = "ref/feat/improved-great-fortitude"
 kind = "feat"
 title = "Improved Great Fortitude"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Great%20Fortitude"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_great_fortitude", path = "json/feat09.json" },

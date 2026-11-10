@@ -2,6 +2,7 @@
 id = "ref/spell/linked-legacy"
 kind = "spell"
 title = "Linked Legacy"
+aon = "SpellDisplay.aspx?ItemName=Linked%20Legacy"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linked_legacy", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/desperate-speed"
 kind = "trait"
 title = "Desperate Speed"
+aon = "TraitDisplay.aspx?ItemName=Desperate%20Speed"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_speed", path = "json/traits02.json" },

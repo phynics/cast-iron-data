@@ -2,6 +2,7 @@
 id = "ref/feat/foebane-magic"
 kind = "feat"
 title = "Foebane Magic"
+aon = "FeatDisplay.aspx?ItemName=Foebane%20Magic"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foebane_magic", path = "json/feat07.json" },

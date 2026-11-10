@@ -2,6 +2,7 @@
 id = "ref/spell/deadeyes-lore"
 kind = "spell"
 title = "Deadeye's Lore"
+aon = "SpellDisplay.aspx?ItemName=Deadeye%27s%20Lore"
 source_ids = ["ultimate-combat", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeyes_lore", path = "json/spells3.json" },

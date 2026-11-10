@@ -2,6 +2,7 @@
 id = "ref/feat/false-opening"
 kind = "feat"
 title = "False Opening"
+aon = "FeatDisplay.aspx?ItemName=False%20Opening"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_opening", path = "json/feat06.json" },

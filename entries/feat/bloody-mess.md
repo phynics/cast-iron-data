@@ -2,6 +2,7 @@
 id = "ref/feat/bloody-mess"
 kind = "feat"
 title = "Bloody Mess"
+aon = "FeatDisplay.aspx?ItemName=Bloody%20Mess"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_mess", path = "json/feat02.json" },

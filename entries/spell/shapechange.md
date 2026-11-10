@@ -2,6 +2,7 @@
 id = "ref/spell/shapechange"
 kind = "spell"
 title = "Shapechange"
+aon = "SpellDisplay.aspx?ItemName=Shapechange"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechange", path = "json/spells9.json" },

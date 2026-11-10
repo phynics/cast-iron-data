@@ -2,6 +2,7 @@
 id = "ref/trait/exhibition-fighter"
 kind = "trait"
 title = "Exhibition Fighter"
+aon = "TraitDisplay.aspx?ItemName=Exhibition%20Fighter"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhibition_fighter", path = "json/traits04.json" },

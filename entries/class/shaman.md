@@ -2,6 +2,7 @@
 id = "ref/class/shaman"
 kind = "class"
 title = "Shaman"
+aon = "ClassDisplay.aspx?ItemName=Shaman"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "pathfinder-101-the-kintargo-contract", "plane-hoppers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaman", path = "json/classes6.json" },

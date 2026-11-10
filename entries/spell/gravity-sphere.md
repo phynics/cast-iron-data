@@ -2,6 +2,7 @@
 id = "ref/spell/gravity-sphere"
 kind = "spell"
 title = "Gravity Sphere"
+aon = "SpellDisplay.aspx?ItemName=Gravity%20Sphere"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_sphere", path = "json/spells5.json" },

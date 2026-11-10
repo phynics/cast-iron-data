@@ -2,6 +2,7 @@
 id = "ref/magic-ring/maintenance-overseers-ring"
 kind = "item"
 title = "Maintenance Overseer's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Maintenance%20Overseer%27s%20Ring"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maintenance_overseers_ring", path = "json/magic_ring.json" },

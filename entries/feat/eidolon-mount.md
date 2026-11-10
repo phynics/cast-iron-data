@@ -2,6 +2,7 @@
 id = "ref/feat/eidolon-mount"
 kind = "feat"
 title = "Eidolon Mount"
+aon = "FeatDisplay.aspx?ItemName=Eidolon%20Mount"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon_mount", path = "json/feat05.json" },

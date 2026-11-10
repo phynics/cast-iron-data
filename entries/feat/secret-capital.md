@@ -2,6 +2,7 @@
 id = "ref/feat/secret-capital"
 kind = "feat"
 title = "Secret Capital"
+aon = "FeatDisplay.aspx?ItemName=Secret%20Capital"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_capital", path = "json/feat13.json" },

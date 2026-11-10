@@ -2,6 +2,7 @@
 id = "ref/feat/cleave-through"
 kind = "feat"
 title = "Cleave Through"
+aon = "FeatDisplay.aspx?ItemName=Cleave%20Through"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleave_through", path = "json/feat03.json" },

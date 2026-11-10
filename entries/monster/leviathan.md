@@ -2,6 +2,7 @@
 id = "ref/monster/leviathan"
 kind = "creature"
 title = "Leviathan"
+aon = "MonsterDisplay.aspx?ItemName=Leviathan"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leviathan", path = "json/monsters16.json" },

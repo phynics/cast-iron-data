@@ -2,6 +2,7 @@
 id = "ref/feat/paired-opportunists"
 kind = "feat"
 title = "Paired Opportunists"
+aon = "FeatDisplay.aspx?ItemName=Paired%20Opportunists"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paired_opportunists", path = "json/feat11.json" },

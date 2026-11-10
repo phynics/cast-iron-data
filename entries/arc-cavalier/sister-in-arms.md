@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/sister-in-arms"
 kind = "archetype"
 title = "Sister-in-Arms"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Sister-in-Arms"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sister_in_arms", path = "json/archetypes_cavalier.json" },

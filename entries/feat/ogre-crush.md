@@ -2,6 +2,7 @@
 id = "ref/feat/ogre-crush"
 kind = "feat"
 title = "Ogre Crush"
+aon = "FeatDisplay.aspx?ItemName=Ogre%20Crush"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_crush", path = "json/feat11.json" },

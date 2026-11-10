@@ -2,6 +2,7 @@
 id = "ref/feat/agile-maiden"
 kind = "feat"
 title = "Agile Maiden"
+aon = "FeatDisplay.aspx?ItemName=Agile%20Maiden"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile_maiden", path = "json/feat01.json" },

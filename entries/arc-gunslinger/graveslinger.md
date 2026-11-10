@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/graveslinger"
 kind = "archetype"
 title = "Graveslinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Graveslinger"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graveslinger", path = "json/archetypes_gunslinger.json" },

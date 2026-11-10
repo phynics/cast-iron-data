@@ -2,6 +2,7 @@
 id = "ref/monster/derro-derro-bodysnatcher"
 kind = "creature"
 title = "Derro Bodysnatcher"
+aon = "MonsterDisplay.aspx?ItemName=Derro%20Bodysnatcher"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_bodysnatcher", path = "json/monsters07.json" },

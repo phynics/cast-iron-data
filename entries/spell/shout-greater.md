@@ -2,6 +2,7 @@
 id = "ref/spell/shout-greater"
 kind = "spell"
 title = "Greater Shout"
+aon = "SpellDisplay.aspx?ItemName=Shout%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout_greater", path = "json/spells9.json" },

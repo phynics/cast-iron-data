@@ -2,6 +2,7 @@
 id = "ref/spell/forced-repentance"
 kind = "spell"
 title = "Forced Repentance"
+aon = "SpellDisplay.aspx?ItemName=Forced%20Repentance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_repentance", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-lava"
 kind = "spell"
 title = "Wall of Lava"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Lava"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_lava", path = "json/spells11.json" },

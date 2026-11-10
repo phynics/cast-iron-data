@@ -2,6 +2,7 @@
 id = "ref/trait/oblivious"
 kind = "trait"
 title = "Oblivious"
+aon = "TraitDisplay.aspx?ItemName=Oblivious"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oblivious", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sun-metal"
 kind = "spell"
 title = "Sun Metal"
+aon = "SpellDisplay.aspx?ItemName=Sun%20Metal"
 source_ids = ["ultimate-combat", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_metal", path = "json/spells16.json" },

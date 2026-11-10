@@ -2,6 +2,7 @@
 id = "ref/trait/lamasaran-performer"
 kind = "trait"
 title = "Lamasaran Performer"
+aon = "TraitDisplay.aspx?ItemName=Lamasaran%20Performer"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamasaran_performer", path = "json/traits04.json" },

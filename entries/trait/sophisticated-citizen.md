@@ -2,6 +2,7 @@
 id = "ref/trait/sophisticated-citizen"
 kind = "trait"
 title = "Sophisticated Citizen"
+aon = "TraitDisplay.aspx?ItemName=Sophisticated%20Citizen"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sophisticated_citizen", path = "json/traits04.json" },

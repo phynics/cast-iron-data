@@ -2,6 +2,7 @@
 id = "ref/spell/rainbow-pattern"
 kind = "spell"
 title = "Rainbow Pattern"
+aon = "SpellDisplay.aspx?ItemName=Rainbow%20Pattern"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rainbow_pattern", path = "json/spells8.json" },

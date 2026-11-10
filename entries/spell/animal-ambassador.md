@@ -2,6 +2,7 @@
 id = "ref/spell/animal-ambassador"
 kind = "spell"
 title = "Animal Ambassador"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Ambassador"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_ambassador", path = "json/spells.json" },

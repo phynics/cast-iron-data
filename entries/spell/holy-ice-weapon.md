@@ -2,6 +2,7 @@
 id = "ref/spell/holy-ice-weapon"
 kind = "spell"
 title = "Holy Ice Weapon"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Ice%20Weapon"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_ice_weapon", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/barroom-talespinner"
 kind = "trait"
 title = "Barroom Talespinner"
+aon = "TraitDisplay.aspx?ItemName=Barroom%20Talespinner"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barroom_talespinner", path = "json/traits03.json" },

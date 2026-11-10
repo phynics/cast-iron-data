@@ -2,6 +2,7 @@
 id = "ref/trait/sensing-imperfection"
 kind = "trait"
 title = "Sensing Imperfection"
+aon = "TraitDisplay.aspx?ItemName=Sensing%20Imperfection"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensing_imperfection", path = "json/traits03.json" },

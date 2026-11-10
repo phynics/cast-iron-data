@@ -2,6 +2,7 @@
 id = "ref/feat/flying-tackle"
 kind = "feat"
 title = "Flying Tackle"
+aon = "FeatDisplay.aspx?ItemName=Flying%20Tackle"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_tackle", path = "json/feat07.json" },

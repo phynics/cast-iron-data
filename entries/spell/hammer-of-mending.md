@@ -2,6 +2,7 @@
 id = "ref/spell/hammer-of-mending"
 kind = "spell"
 title = "Hammer of Mending"
+aon = "SpellDisplay.aspx?ItemName=Hammer%20of%20Mending"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_mending", path = "json/spells5.json" },

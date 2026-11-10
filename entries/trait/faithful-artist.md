@@ -2,6 +2,7 @@
 id = "ref/trait/faithful-artist"
 kind = "trait"
 title = "Faithful Artist"
+aon = "TraitDisplay.aspx?ItemName=Faithful%20Artist"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faithful_artist", path = "json/traits03.json" },

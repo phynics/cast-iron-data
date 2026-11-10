@@ -2,6 +2,7 @@
 id = "ref/spell/enlarge-person-mass"
 kind = "spell"
 title = "Mass Enlarge Person"
+aon = "SpellDisplay.aspx?ItemName=Enlarge%20Person%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_person_mass", path = "json/spells4.json" },

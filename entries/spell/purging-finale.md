@@ -2,6 +2,7 @@
 id = "ref/spell/purging-finale"
 kind = "spell"
 title = "Purging Finale"
+aon = "SpellDisplay.aspx?ItemName=Purging%20Finale"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purging_finale", path = "json/spells15.json" },

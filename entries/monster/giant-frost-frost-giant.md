@@ -2,6 +2,7 @@
 id = "ref/monster/giant-frost-frost-giant"
 kind = "creature"
 title = "Frost Giant"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Giant"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant", path = "json/monsters11.json" },

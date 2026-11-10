@@ -2,6 +2,7 @@
 id = "ref/feat/aquatic-ancestry"
 kind = "feat"
 title = "Aquatic Ancestry"
+aon = "FeatDisplay.aspx?ItemName=Aquatic%20Ancestry"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_ancestry", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/deliverer"
 kind = "archetype"
 title = "Deliverer"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Deliverer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deliverer", path = "json/archetypes_slayer.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/singing-sword"
 kind = "item"
 title = "Singing Sword"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Singing%20Sword"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "singing_sword", path = "json/magic_weapon2.json" },

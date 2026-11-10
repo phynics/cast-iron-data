@@ -2,6 +2,7 @@
 id = "ref/trait/faith-healer"
 kind = "trait"
 title = "Faith Healer"
+aon = "TraitDisplay.aspx?ItemName=Faith%20Healer"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith_healer", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/grim-stalker"
 kind = "spell"
 title = "Grim Stalker"
+aon = "SpellDisplay.aspx?ItemName=Grim%20Stalker"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_stalker", path = "json/spells5.json" },

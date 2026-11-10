@@ -2,6 +2,7 @@
 id = "ref/kinetic/kinetic-fist"
 kind = "class_option"
 title = "Kinetic Fist"
+aon = "KineticistTalentsDisplay.aspx?ItemName=Kinetic%20Fist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_fist", path = "json/class_ability_kinetic_talents.json" },

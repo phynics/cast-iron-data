@@ -2,6 +2,7 @@
 id = "ref/spell/virulence"
 kind = "spell"
 title = "Virulence"
+aon = "SpellDisplay.aspx?ItemName=Virulence"
 source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulence", path = "json/spells11.json" },

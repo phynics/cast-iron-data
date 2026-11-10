@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/mastermind"
 kind = "archetype"
 title = "Mastermind"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Mastermind"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mastermind", path = "json/archetypes_investigator.json" },

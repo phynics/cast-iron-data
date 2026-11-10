@@ -2,6 +2,7 @@
 id = "ref/feat/disruptive-companion"
 kind = "feat"
 title = "Disruptive Companion"
+aon = "FeatDisplay.aspx?ItemName=Disruptive%20Companion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_companion", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/thundercaller"
 kind = "archetype"
 title = "Thundercaller"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Thundercaller"
 source_ids = ["ultimate-wilderness", "varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundercaller", path = "json/archetypes_bard2.json" },

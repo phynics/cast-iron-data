@@ -2,6 +2,7 @@
 id = "ref/feat/shield-master"
 kind = "feat"
 title = "Shield Master"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Master"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_master", path = "json/feat14.json" },

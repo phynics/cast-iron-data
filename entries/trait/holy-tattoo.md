@@ -2,6 +2,7 @@
 id = "ref/trait/holy-tattoo"
 kind = "trait"
 title = "Holy Tattoo"
+aon = "TraitDisplay.aspx?ItemName=Holy%20Tattoo"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_tattoo", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/lead-plating"
 kind = "spell"
 title = "Lead Plating"
+aon = "SpellDisplay.aspx?ItemName=Lead%20Plating"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_plating", path = "json/spells6.json" },

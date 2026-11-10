@@ -2,6 +2,7 @@
 id = "ref/feat/canny-tumble"
 kind = "feat"
 title = "Canny Tumble"
+aon = "FeatDisplay.aspx?ItemName=Canny%20Tumble"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canny_tumble", path = "json/feat02.json" },

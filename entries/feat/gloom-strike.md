@@ -2,6 +2,7 @@
 id = "ref/feat/gloom-strike"
 kind = "feat"
 title = "Gloom Strike"
+aon = "FeatDisplay.aspx?ItemName=Gloom%20Strike"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloom_strike", path = "json/feat07.json" },

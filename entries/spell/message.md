@@ -2,6 +2,7 @@
 id = "ref/spell/message"
 kind = "spell"
 title = "Message"
+aon = "SpellDisplay.aspx?ItemName=Message"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "message", path = "json/spells14.json" },

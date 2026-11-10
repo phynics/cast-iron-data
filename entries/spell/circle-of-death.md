@@ -2,6 +2,7 @@
 id = "ref/spell/circle-of-death"
 kind = "spell"
 title = "Circle of Death"
+aon = "SpellDisplay.aspx?ItemName=Circle%20of%20Death"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circle_of_death", path = "json/spells2.json" },

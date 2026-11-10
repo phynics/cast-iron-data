@@ -2,6 +2,7 @@
 id = "ref/spell/beastspeak"
 kind = "spell"
 title = "Beastspeak"
+aon = "SpellDisplay.aspx?ItemName=Beastspeak"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastspeak", path = "json/spells12.json" },

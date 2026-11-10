@@ -2,6 +2,7 @@
 id = "ref/pclass/gray-gardener"
 kind = "prestige_class"
 title = "Gray Gardener"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Gray%20Gardener"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_gardener", path = "json/prestige_classes2.json" },

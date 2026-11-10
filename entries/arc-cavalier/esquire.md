@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/esquire"
 kind = "archetype"
 title = "Esquire"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Esquire"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esquire", path = "json/archetypes_cavalier.json" },

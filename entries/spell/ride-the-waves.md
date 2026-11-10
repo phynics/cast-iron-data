@@ -2,6 +2,7 @@
 id = "ref/spell/ride-the-waves"
 kind = "spell"
 title = "Ride The Waves"
+aon = "SpellDisplay.aspx?ItemName=Ride%20The%20Waves"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_the_waves", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/skim"
 kind = "spell"
 title = "Skim"
+aon = "SpellDisplay.aspx?ItemName=Skim"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skim", path = "json/spells9.json" },

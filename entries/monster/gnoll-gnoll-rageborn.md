@@ -2,6 +2,7 @@
 id = "ref/monster/gnoll-gnoll-rageborn"
 kind = "creature"
 title = "Gnoll Rageborn"
+aon = "MonsterDisplay.aspx?ItemName=Gnoll%20Rageborn"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll_gnoll_rageborn", path = "json/monsters12.json" },

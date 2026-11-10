@@ -2,6 +2,7 @@
 id = "ref/monster/skeleton-four-armed-mudra-skeleton"
 kind = "creature"
 title = "Four-Armed Mudra Skeleton"
+aon = "MonsterDisplay.aspx?ItemName=Four-Armed%20Mudra%20Skeleton"
 source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_four_armed_mudra_skeleton", path = "json/monsters22.json" },

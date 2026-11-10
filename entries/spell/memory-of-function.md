@@ -2,6 +2,7 @@
 id = "ref/spell/memory-of-function"
 kind = "spell"
 title = "Memory of Function"
+aon = "SpellDisplay.aspx?ItemName=Memory%20of%20Function"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_of_function", path = "json/spells14.json" },

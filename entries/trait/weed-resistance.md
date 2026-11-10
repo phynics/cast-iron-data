@@ -2,6 +2,7 @@
 id = "ref/trait/weed-resistance"
 kind = "trait"
 title = "Weed Resistance"
+aon = "TraitDisplay.aspx?ItemName=Weed%20Resistance"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weed_resistance", path = "json/traits04.json" },

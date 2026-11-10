@@ -2,6 +2,7 @@
 id = "ref/feat/carrion-feeder"
 kind = "feat"
 title = "Carrion Feeder"
+aon = "FeatDisplay.aspx?ItemName=Carrion%20Feeder"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrion_feeder", path = "json/feat02.json" },

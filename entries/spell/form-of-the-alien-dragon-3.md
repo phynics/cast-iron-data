@@ -2,6 +2,7 @@
 id = "ref/spell/form-of-the-alien-dragon-3"
 kind = "spell"
 title = "Form of the Alien Dragon III"
+aon = "SpellDisplay.aspx?ItemName=Form%20of%20the%20Alien%20Dragon%20III"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_alien_dragon_3", path = "json/spells13.json" },

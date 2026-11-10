@@ -2,6 +2,7 @@
 id = "ref/feat/stumbling-bash"
 kind = "feat"
 title = "Stumbling Bash"
+aon = "FeatDisplay.aspx?ItemName=Stumbling%20Bash"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stumbling_bash", path = "json/feat15.json" },

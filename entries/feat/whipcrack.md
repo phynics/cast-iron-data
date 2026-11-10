@@ -2,6 +2,7 @@
 id = "ref/feat/whipcrack"
 kind = "feat"
 title = "Whipcrack"
+aon = "FeatDisplay.aspx?ItemName=Whipcrack"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whipcrack", path = "json/feat17.json" },

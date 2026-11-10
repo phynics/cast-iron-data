@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-shadows"
 kind = "spell"
 title = "Cloak of Shadows"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Shadows"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_shadows", path = "json/spells2.json" },

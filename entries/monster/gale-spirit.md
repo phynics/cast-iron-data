@@ -2,6 +2,7 @@
 id = "ref/monster/gale-spirit"
 kind = "creature"
 title = "Gale Spirit"
+aon = "MonsterDisplay.aspx?ItemName=Gale%20Spirit"
 source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gale_spirit", path = "json/monsters11.json" },

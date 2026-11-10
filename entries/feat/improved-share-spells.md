@@ -2,6 +2,7 @@
 id = "ref/feat/improved-share-spells"
 kind = "feat"
 title = "Improved Share Spells"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Share%20Spells"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_share_spells", path = "json/feat09.json" },

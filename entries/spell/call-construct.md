@@ -2,6 +2,7 @@
 id = "ref/spell/call-construct"
 kind = "spell"
 title = "Call Construct"
+aon = "SpellDisplay.aspx?ItemName=Call%20Construct"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_construct", path = "json/spells2.json" },

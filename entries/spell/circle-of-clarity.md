@@ -2,6 +2,7 @@
 id = "ref/spell/circle-of-clarity"
 kind = "spell"
 title = "Circle of Clarity"
+aon = "SpellDisplay.aspx?ItemName=Circle%20of%20Clarity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circle_of_clarity", path = "json/spells2.json" },

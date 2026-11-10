@@ -2,6 +2,7 @@
 id = "ref/feat/beast-speaker-mastery"
 kind = "feat"
 title = "Beast Speaker Mastery"
+aon = "FeatDisplay.aspx?ItemName=Beast%20Speaker%20Mastery"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_speaker_mastery", path = "json/feat02.json" },

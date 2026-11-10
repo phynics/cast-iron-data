@@ -2,6 +2,7 @@
 id = "ref/spell/rite-of-bodily-purity"
 kind = "spell"
 title = "Rite of Bodily Purity"
+aon = "SpellDisplay.aspx?ItemName=Rite%20of%20Bodily%20Purity"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rite_of_bodily_purity", path = "json/spells8.json" },

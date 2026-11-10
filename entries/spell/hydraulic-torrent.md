@@ -2,6 +2,7 @@
 id = "ref/spell/hydraulic-torrent"
 kind = "spell"
 title = "Hydraulic Torrent"
+aon = "SpellDisplay.aspx?ItemName=Hydraulic%20Torrent"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_torrent", path = "json/spells5.json" },

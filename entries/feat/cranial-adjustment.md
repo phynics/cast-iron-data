@@ -2,6 +2,7 @@
 id = "ref/feat/cranial-adjustment"
 kind = "feat"
 title = "Cranial Adjustment"
+aon = "FeatDisplay.aspx?ItemName=Cranial%20Adjustment"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cranial_adjustment", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/subtle-devices"
 kind = "feat"
 title = "Subtle Devices"
+aon = "FeatDisplay.aspx?ItemName=Subtle%20Devices"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subtle_devices", path = "json/feat15.json" },

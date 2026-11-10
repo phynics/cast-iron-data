@@ -2,6 +2,7 @@
 id = "ref/monster/automaton-sharpshooter-automaton"
 kind = "creature"
 title = "Sharpshooter Automaton"
+aon = "MonsterDisplay.aspx?ItemName=Sharpshooter%20Automaton"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_sharpshooter_automaton", path = "json/monsters26.json" },

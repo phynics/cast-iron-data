@@ -2,6 +2,7 @@
 id = "ref/feat/hermean-blood"
 kind = "feat"
 title = "Hermean Blood"
+aon = "FeatDisplay.aspx?ItemName=Hermean%20Blood"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hermean_blood", path = "json/feat08.json" },

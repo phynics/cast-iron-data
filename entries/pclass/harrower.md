@@ -2,6 +2,7 @@
 id = "ref/pclass/harrower"
 kind = "prestige_class"
 title = "Harrower"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Harrower"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrower", path = "json/prestige_classes2.json" },

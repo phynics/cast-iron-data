@@ -2,6 +2,7 @@
 id = "ref/spell/bloody-arrows"
 kind = "spell"
 title = "Bloody Arrows"
+aon = "SpellDisplay.aspx?ItemName=Bloody%20Arrows"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_arrows", path = "json/spells2.json" },

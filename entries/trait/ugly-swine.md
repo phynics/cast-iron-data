@@ -2,6 +2,7 @@
 id = "ref/trait/ugly-swine"
 kind = "trait"
 title = "Ugly Swine"
+aon = "TraitDisplay.aspx?ItemName=Ugly%20Swine"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ugly_swine", path = "json/traits05.json" },

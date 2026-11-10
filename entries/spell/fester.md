@@ -2,6 +2,7 @@
 id = "ref/spell/fester"
 kind = "spell"
 title = "Fester"
+aon = "SpellDisplay.aspx?ItemName=Fester"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fester", path = "json/spells4.json" },

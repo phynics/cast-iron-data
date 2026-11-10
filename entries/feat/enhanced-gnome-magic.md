@@ -2,6 +2,7 @@
 id = "ref/feat/enhanced-gnome-magic"
 kind = "feat"
 title = "Enhanced Gnome Magic"
+aon = "FeatDisplay.aspx?ItemName=Enhanced%20Gnome%20Magic"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_gnome_magic", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/soften-earth-and-stone"
 kind = "spell"
 title = "Soften Earth and Stone"
+aon = "SpellDisplay.aspx?ItemName=Soften%20Earth%20and%20Stone"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soften_earth_and_stone", path = "json/spells9.json" },

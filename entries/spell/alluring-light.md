@@ -2,6 +2,7 @@
 id = "ref/spell/alluring-light"
 kind = "spell"
 title = "Alluring Light"
+aon = "SpellDisplay.aspx?ItemName=Alluring%20Light"
 source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring_light", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/porcupine-giant-porcupine"
 kind = "creature"
 title = "Giant Porcupine"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Porcupine"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "porcupine_giant_porcupine", path = "json/monsters37.json" },

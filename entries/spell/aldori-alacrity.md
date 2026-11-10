@@ -2,6 +2,7 @@
 id = "ref/spell/aldori-alacrity"
 kind = "spell"
 title = "Aldori Alacrity"
+aon = "SpellDisplay.aspx?ItemName=Aldori%20Alacrity"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_alacrity", path = "json/spells.json" },

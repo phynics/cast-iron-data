@@ -2,6 +2,7 @@
 id = "ref/feat/kinetic-counter"
 kind = "feat"
 title = "Kinetic Counter"
+aon = "FeatDisplay.aspx?ItemName=Kinetic%20Counter"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_counter", path = "json/feat09.json" },

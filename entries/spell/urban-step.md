@@ -2,6 +2,7 @@
 id = "ref/spell/urban-step"
 kind = "spell"
 title = "Urban Step"
+aon = "SpellDisplay.aspx?ItemName=Urban%20Step"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_step", path = "json/spells11.json" },

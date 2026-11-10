@@ -2,6 +2,7 @@
 id = "ref/spell/vitriolic-mist"
 kind = "spell"
 title = "Vitriolic Mist"
+aon = "SpellDisplay.aspx?ItemName=Vitriolic%20Mist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vitriolic_mist", path = "json/spells11.json" },

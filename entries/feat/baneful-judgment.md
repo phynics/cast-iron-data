@@ -2,6 +2,7 @@
 id = "ref/feat/baneful-judgment"
 kind = "feat"
 title = "Baneful Judgment"
+aon = "FeatDisplay.aspx?ItemName=Baneful%20Judgment"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baneful_judgment", path = "json/feat01.json" },

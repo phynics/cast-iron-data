@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-ghost"
 kind = "feat"
 title = "Shadow Ghost"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Ghost"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_ghost", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-cleaving-finish"
 kind = "feat"
 title = "Improved Cleaving Finish"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Cleaving%20Finish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_cleaving_finish", path = "json/feat08.json" },

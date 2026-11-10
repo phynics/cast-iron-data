@@ -2,6 +2,7 @@
 id = "ref/trait/foul-belch"
 kind = "trait"
 title = "Foul Belch"
+aon = "TraitDisplay.aspx?ItemName=Foul%20Belch"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foul_belch", path = "json/traits05.json" },

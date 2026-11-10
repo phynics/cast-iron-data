@@ -2,6 +2,7 @@
 id = "ref/trait/secret-keeper-svirfneblin"
 kind = "trait"
 title = "Secret-Keeper (Svirfneblin)"
+aon = "TraitDisplay.aspx?ItemName=Secret-Keeper%20%28Svirfneblin%29"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_keeper_svirfneblin", path = "json/traits05.json" },

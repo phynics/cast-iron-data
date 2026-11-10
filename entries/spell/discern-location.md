@@ -2,6 +2,7 @@
 id = "ref/spell/discern-location"
 kind = "spell"
 title = "Discern Location"
+aon = "SpellDisplay.aspx?ItemName=Discern%20Location"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_location", path = "json/spells3.json" },

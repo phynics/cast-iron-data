@@ -2,6 +2,7 @@
 id = "ref/spell/bleaching-resistance"
 kind = "spell"
 title = "Bleaching Resistance"
+aon = "SpellDisplay.aspx?ItemName=Bleaching%20Resistance"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleaching_resistance", path = "json/spells12.json" },

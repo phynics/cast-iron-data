@@ -2,6 +2,7 @@
 id = "ref/trait/varisian-tattoo"
 kind = "trait"
 title = "Varisian Tattoo"
+aon = "TraitDisplay.aspx?ItemName=Varisian%20Tattoo"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_tattoo", path = "json/traits05.json" },

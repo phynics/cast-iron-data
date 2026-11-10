@@ -2,6 +2,7 @@
 id = "ref/monster/golem-magnetitie-golem"
 kind = "creature"
 title = "Magnetitie Golem"
+aon = "MonsterDisplay.aspx?ItemName=Magnetitie%20Golem"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_magnetitie_golem", path = "json/monsters33.json" },

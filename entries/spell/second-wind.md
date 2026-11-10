@@ -2,6 +2,7 @@
 id = "ref/spell/second-wind"
 kind = "spell"
 title = "Second Wind"
+aon = "SpellDisplay.aspx?ItemName=Second%20Wind"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_wind", path = "json/spells15.json" },

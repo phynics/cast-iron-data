@@ -2,6 +2,7 @@
 id = "ref/trait/divine-deceiver"
 kind = "trait"
 title = "Divine Deceiver"
+aon = "TraitDisplay.aspx?ItemName=Divine%20Deceiver"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_deceiver", path = "json/traits04.json" },

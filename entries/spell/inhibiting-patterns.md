@@ -2,6 +2,7 @@
 id = "ref/spell/inhibiting-patterns"
 kind = "spell"
 title = "Inhibiting Patterns"
+aon = "SpellDisplay.aspx?ItemName=Inhibiting%20Patterns"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inhibiting_patterns", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stoic"
 kind = "feat"
 title = "Stoic"
+aon = "FeatDisplay.aspx?ItemName=Stoic"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoic", path = "json/feat15.json" },

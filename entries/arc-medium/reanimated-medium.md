@@ -2,6 +2,7 @@
 id = "ref/arc-medium/reanimated-medium"
 kind = "archetype"
 title = "Reanimated Medium"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Reanimated%20Medium"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reanimated_medium", path = "json/archetypes_medium.json" },

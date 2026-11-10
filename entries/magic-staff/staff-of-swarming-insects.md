@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-swarming-insects"
 kind = "item"
 title = "Staff of Swarming Insects"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Swarming%20Insects"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_swarming_insects", path = "json/magic_staff.json" },

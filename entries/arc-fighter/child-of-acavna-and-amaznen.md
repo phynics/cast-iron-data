@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/child-of-acavna-and-amaznen"
 kind = "archetype"
 title = "Child of Acavna and Amaznen"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Child%20of%20Acavna%20and%20Amaznen"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_acavna_and_amaznen", path = "json/archetypes_fighter.json" },

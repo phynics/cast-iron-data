@@ -2,6 +2,7 @@
 id = "ref/feat/splintering-weapon"
 kind = "feat"
 title = "Splintering Weapon"
+aon = "FeatDisplay.aspx?ItemName=Splintering%20Weapon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splintering_weapon", path = "json/feat15.json" },

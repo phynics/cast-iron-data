@@ -2,6 +2,7 @@
 id = "ref/feat/pesh-rejuvenation"
 kind = "feat"
 title = "Pesh Rejuvenation"
+aon = "FeatDisplay.aspx?ItemName=Pesh%20Rejuvenation"
 source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_rejuvenation", path = "json/feat12.json" },

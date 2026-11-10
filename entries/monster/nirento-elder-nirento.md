@@ -2,6 +2,7 @@
 id = "ref/monster/nirento-elder-nirento"
 kind = "creature"
 title = "Elder Nirento"
+aon = "MonsterDisplay.aspx?ItemName=Elder%20Nirento"
 source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nirento_elder_nirento", path = "json/monsters36.json" },

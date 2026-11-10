@@ -2,6 +2,7 @@
 id = "ref/arc-bard/songhealer"
 kind = "archetype"
 title = "Songhealer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Songhealer"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "songhealer", path = "json/archetypes_bard2.json" },

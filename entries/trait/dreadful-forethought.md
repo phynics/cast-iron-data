@@ -2,6 +2,7 @@
 id = "ref/trait/dreadful-forethought"
 kind = "trait"
 title = "Dreadful Forethought"
+aon = "TraitDisplay.aspx?ItemName=Dreadful%20Forethought"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadful_forethought", path = "json/traits04.json" },

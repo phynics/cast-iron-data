@@ -2,6 +2,7 @@
 id = "ref/spell/battlemind-link"
 kind = "spell"
 title = "Battlemind Link"
+aon = "SpellDisplay.aspx?ItemName=Battlemind%20Link"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlemind_link", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/greater-tenacious-hunter"
 kind = "feat"
 title = "Greater Tenacious Hunter"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Tenacious%20Hunter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_tenacious_hunter", path = "json/feat08.json" },

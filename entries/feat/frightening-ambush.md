@@ -2,6 +2,7 @@
 id = "ref/feat/frightening-ambush"
 kind = "feat"
 title = "Frightening Ambush"
+aon = "FeatDisplay.aspx?ItemName=Frightening%20Ambush"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightening_ambush", path = "json/feat07.json" },

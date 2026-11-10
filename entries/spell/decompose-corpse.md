@@ -2,6 +2,7 @@
 id = "ref/spell/decompose-corpse"
 kind = "spell"
 title = "Decompose Corpse"
+aon = "SpellDisplay.aspx?ItemName=Decompose%20Corpse"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decompose_corpse", path = "json/spells3.json" },

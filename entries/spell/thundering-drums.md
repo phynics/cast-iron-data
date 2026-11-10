@@ -2,6 +2,7 @@
 id = "ref/spell/thundering-drums"
 kind = "spell"
 title = "Thundering Drums"
+aon = "SpellDisplay.aspx?ItemName=Thundering%20Drums"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundering_drums", path = "json/spells10.json" },

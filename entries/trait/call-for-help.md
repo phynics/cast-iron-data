@@ -2,6 +2,7 @@
 id = "ref/trait/call-for-help"
 kind = "trait"
 title = "Call for Help"
+aon = "TraitDisplay.aspx?ItemName=Call%20for%20Help"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_for_help", path = "json/traits03.json" },

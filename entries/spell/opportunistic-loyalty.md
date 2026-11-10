@@ -2,6 +2,7 @@
 id = "ref/spell/opportunistic-loyalty"
 kind = "spell"
 title = "Opportunistic Loyalty"
+aon = "SpellDisplay.aspx?ItemName=Opportunistic%20Loyalty"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunistic_loyalty", path = "json/spells7.json" },

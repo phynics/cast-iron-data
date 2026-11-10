@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-craft-magic"
 kind = "item"
 title = "Ring of Craft Magic"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Craft%20Magic"
 source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_craft_magic", path = "json/magic_ring.json" },

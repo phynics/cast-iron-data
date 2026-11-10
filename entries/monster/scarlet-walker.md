@@ -2,6 +2,7 @@
 id = "ref/monster/scarlet-walker"
 kind = "creature"
 title = "Scarlet Walker"
+aon = "MonsterDisplay.aspx?ItemName=Scarlet%20Walker"
 source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_walker", path = "json/monsters21.json" },

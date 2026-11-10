@@ -2,6 +2,7 @@
 id = "ref/spell/terrible-remorse"
 kind = "spell"
 title = "Terrible Remorse"
+aon = "SpellDisplay.aspx?ItemName=Terrible%20Remorse"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrible_remorse", path = "json/spells10.json" },

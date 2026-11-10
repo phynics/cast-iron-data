@@ -2,6 +2,7 @@
 id = "ref/feat/precipice-strike"
 kind = "feat"
 title = "Precipice Strike"
+aon = "FeatDisplay.aspx?ItemName=Precipice%20Strike"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precipice_strike", path = "json/feat12.json" },

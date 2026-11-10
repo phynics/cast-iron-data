@@ -2,6 +2,7 @@
 id = "ref/spell/ki-leech"
 kind = "spell"
 title = "Ki Leech"
+aon = "SpellDisplay.aspx?ItemName=Ki%20Leech"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_leech", path = "json/spells6.json" },

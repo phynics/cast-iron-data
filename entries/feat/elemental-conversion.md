@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-conversion"
 kind = "feat"
 title = "Elemental Conversion"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Conversion"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_conversion", path = "json/feat05.json" },

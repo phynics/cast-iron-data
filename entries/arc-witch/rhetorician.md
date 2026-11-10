@@ -2,6 +2,7 @@
 id = "ref/arc-witch/rhetorician"
 kind = "archetype"
 title = "Rhetorician"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Rhetorician"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhetorician", path = "json/archetypes_witch.json" },

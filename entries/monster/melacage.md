@@ -2,6 +2,7 @@
 id = "ref/monster/melacage"
 kind = "creature"
 title = "Melacage"
+aon = "MonsterDisplay.aspx?ItemName=Melacage"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melacage", path = "json/monsters35.json" },

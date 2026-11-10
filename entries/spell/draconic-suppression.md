@@ -2,6 +2,7 @@
 id = "ref/spell/draconic-suppression"
 kind = "spell"
 title = "Draconic Suppression"
+aon = "SpellDisplay.aspx?ItemName=Draconic%20Suppression"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_suppression", path = "json/spells13.json" },

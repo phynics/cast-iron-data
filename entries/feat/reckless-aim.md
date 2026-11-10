@@ -2,6 +2,7 @@
 id = "ref/feat/reckless-aim"
 kind = "feat"
 title = "Reckless Aim"
+aon = "FeatDisplay.aspx?ItemName=Reckless%20Aim"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_aim", path = "json/feat13.json" },

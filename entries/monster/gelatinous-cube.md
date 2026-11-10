@@ -2,6 +2,7 @@
 id = "ref/monster/gelatinous-cube"
 kind = "creature"
 title = "Gelatinous Cube"
+aon = "MonsterDisplay.aspx?ItemName=Gelatinous%20Cube"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gelatinous_cube", path = "json/monsters11.json" },

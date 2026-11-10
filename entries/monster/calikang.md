@@ -2,6 +2,7 @@
 id = "ref/monster/calikang"
 kind = "creature"
 title = "Calikang"
+aon = "MonsterDisplay.aspx?ItemName=Calikang"
 source_ids = ["inner-sea-world-guide", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calikang", path = "json/monsters04.json" },

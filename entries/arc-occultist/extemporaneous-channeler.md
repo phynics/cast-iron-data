@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/extemporaneous-channeler"
 kind = "archetype"
 title = "Extemporaneous Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Extemporaneous%20Channeler"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extemporaneous_channeler", path = "json/archetypes_occultist.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/jadwiga-medicine"
 kind = "trait"
 title = "Jadwiga Medicine"
+aon = "TraitDisplay.aspx?ItemName=Jadwiga%20Medicine"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jadwiga_medicine", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/echoes-of-the-first-world"
 kind = "feat"
 title = "Echoes of the First World"
+aon = "FeatDisplay.aspx?ItemName=Echoes%20of%20the%20First%20World"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echoes_of_the_first_world", path = "json/feat05.json" },

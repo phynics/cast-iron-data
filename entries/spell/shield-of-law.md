@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-law"
 kind = "spell"
 title = "Shield of Law"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20Law"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_law", path = "json/spells9.json" },

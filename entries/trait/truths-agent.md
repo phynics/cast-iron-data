@@ -2,6 +2,7 @@
 id = "ref/trait/truths-agent"
 kind = "trait"
 title = "Truth's Agent"
+aon = "TraitDisplay.aspx?ItemName=Truth%27s%20Agent"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truths_agent", path = "json/traits01.json" },

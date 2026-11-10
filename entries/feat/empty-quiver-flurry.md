@@ -2,6 +2,7 @@
 id = "ref/feat/empty-quiver-flurry"
 kind = "feat"
 title = "Empty Quiver Flurry"
+aon = "FeatDisplay.aspx?ItemName=Empty%20Quiver%20Flurry"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_flurry", path = "json/feat05.json" },

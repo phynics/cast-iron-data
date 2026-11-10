@@ -2,6 +2,7 @@
 id = "ref/trait/scholar-of-ruins"
 kind = "trait"
 title = "Scholar of Ruins"
+aon = "TraitDisplay.aspx?ItemName=Scholar%20of%20Ruins"
 source_ids = ["ultimate-campaign", "taldor-echoes-of-glory", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_ruins", path = "json/traits05.json" },

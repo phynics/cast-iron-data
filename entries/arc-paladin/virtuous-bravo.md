@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/virtuous-bravo"
 kind = "archetype"
 title = "Virtuous Bravo"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Virtuous%20Bravo"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtuous_bravo", path = "json/archetypes_paladin.json" },

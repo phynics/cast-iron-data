@@ -2,6 +2,7 @@
 id = "ref/spell/malicious-spite"
 kind = "spell"
 title = "Malicious Spite"
+aon = "SpellDisplay.aspx?ItemName=Malicious%20Spite"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malicious_spite", path = "json/spells6.json" },

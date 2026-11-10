@@ -2,6 +2,7 @@
 id = "ref/spell/unbreakable-heart"
 kind = "spell"
 title = "Unbreakable Heart"
+aon = "SpellDisplay.aspx?ItemName=Unbreakable%20Heart"
 source_ids = ["inner-sea-world-guide", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_heart", path = "json/spells11.json" },

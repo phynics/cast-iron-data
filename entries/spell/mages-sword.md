@@ -2,6 +2,7 @@
 id = "ref/spell/mages-sword"
 kind = "spell"
 title = "Mage's Sword"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Sword"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_sword", path = "json/spells6.json" },

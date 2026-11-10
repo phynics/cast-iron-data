@@ -2,6 +2,7 @@
 id = "ref/arc-monk/nornkith"
 kind = "archetype"
 title = "Nornkith"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Nornkith"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nornkith", path = "json/archetypes_monk.json" },

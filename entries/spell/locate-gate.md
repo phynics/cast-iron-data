@@ -2,6 +2,7 @@
 id = "ref/spell/locate-gate"
 kind = "spell"
 title = "Locate Gate"
+aon = "SpellDisplay.aspx?ItemName=Locate%20Gate"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_gate", path = "json/spells6.json" },

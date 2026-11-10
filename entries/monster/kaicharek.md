@@ -2,6 +2,7 @@
 id = "ref/monster/kaicharek"
 kind = "creature"
 title = "Kaicharek"
+aon = "MonsterDisplay.aspx?ItemName=Kaicharek"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaicharek", path = "json/monsters34.json" },

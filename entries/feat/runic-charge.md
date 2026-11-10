@@ -2,6 +2,7 @@
 id = "ref/feat/runic-charge"
 kind = "feat"
 title = "Runic Charge"
+aon = "FeatDisplay.aspx?ItemName=Runic%20Charge"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runic_charge", path = "json/feat13.json" },

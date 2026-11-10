@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/seeker"
 kind = "archetype"
 title = "Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Seeker"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeker", path = "json/archetypes_oracle.json" },

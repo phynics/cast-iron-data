@@ -2,6 +2,7 @@
 id = "ref/feat/twisted-love"
 kind = "feat"
 title = "Twisted Love"
+aon = "FeatDisplay.aspx?ItemName=Twisted%20Love"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_love", path = "json/feat16.json" },

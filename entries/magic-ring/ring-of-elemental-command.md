@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-elemental-command"
 kind = "item"
 title = "Ring of Elemental Command"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Elemental%20Command"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_elemental_command", path = "json/magic_ring.json" },

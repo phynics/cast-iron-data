@@ -2,6 +2,7 @@
 id = "ref/feat/natural-poison-antitoxin"
 kind = "feat"
 title = "Natural Poison Antitoxin"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Poison%20Antitoxin"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_poison_antitoxin", path = "json/feat11.json" },

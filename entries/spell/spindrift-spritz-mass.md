@@ -2,6 +2,7 @@
 id = "ref/spell/spindrift-spritz-mass"
 kind = "spell"
 title = "Mass Spindrift Spritz"
+aon = "SpellDisplay.aspx?ItemName=Spindrift%20Spritz%2C%20Mass"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spindrift_spritz_mass", path = "json/spells9.json" },

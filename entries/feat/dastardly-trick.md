@@ -2,6 +2,7 @@
 id = "ref/feat/dastardly-trick"
 kind = "feat"
 title = "Dastardly Trick"
+aon = "FeatDisplay.aspx?ItemName=Dastardly%20Trick"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dastardly_trick", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/teralindars-honor"
 kind = "item"
 title = "Teralindar's Honor"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Teralindar%27s%20Honor"
 source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teralindars_honor", path = "json/magic_weapon2.json" },

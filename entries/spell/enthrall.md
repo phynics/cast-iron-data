@@ -2,6 +2,7 @@
 id = "ref/spell/enthrall"
 kind = "spell"
 title = "Enthrall"
+aon = "SpellDisplay.aspx?ItemName=Enthrall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enthrall", path = "json/spells4.json" },

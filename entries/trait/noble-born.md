@@ -2,6 +2,7 @@
 id = "ref/trait/noble-born"
 kind = "trait"
 title = "Noble Born"
+aon = "TraitDisplay.aspx?ItemName=Noble%20Born"
 source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_born", path = "json/traits02.json" },

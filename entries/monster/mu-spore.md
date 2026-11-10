@@ -2,6 +2,7 @@
 id = "ref/monster/mu-spore"
 kind = "creature"
 title = "Mu Spore"
+aon = "MonsterDisplay.aspx?ItemName=Mu%20Spore"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mu_spore", path = "json/monsters17.json" },

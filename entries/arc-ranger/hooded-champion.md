@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/hooded-champion"
 kind = "archetype"
 title = "Hooded Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Hooded%20Champion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooded_champion", path = "json/archetypes_ranger.json" },

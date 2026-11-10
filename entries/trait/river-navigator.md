@@ -2,6 +2,7 @@
 id = "ref/trait/river-navigator"
 kind = "trait"
 title = "River Navigator"
+aon = "TraitDisplay.aspx?ItemName=River%20Navigator"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_navigator", path = "json/traits04.json" },

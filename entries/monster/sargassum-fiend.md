@@ -2,6 +2,7 @@
 id = "ref/monster/sargassum-fiend"
 kind = "creature"
 title = "Sargassum Fiend"
+aon = "MonsterDisplay.aspx?ItemName=Sargassum%20Fiend"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sargassum_fiend", path = "json/monsters21.json" },

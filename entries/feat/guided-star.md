@@ -2,6 +2,7 @@
 id = "ref/feat/guided-star"
 kind = "feat"
 title = "Guided Star"
+aon = "FeatDisplay.aspx?ItemName=Guided%20Star"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guided_star", path = "json/feat08.json" },

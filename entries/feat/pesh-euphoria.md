@@ -2,6 +2,7 @@
 id = "ref/feat/pesh-euphoria"
 kind = "feat"
 title = "Pesh Euphoria"
+aon = "FeatDisplay.aspx?ItemName=Pesh%20Euphoria"
 source_ids = ["black-markets", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh_euphoria", path = "json/feat12.json" },

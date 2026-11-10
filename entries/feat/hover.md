@@ -2,6 +2,7 @@
 id = "ref/feat/hover"
 kind = "feat"
 title = "Hover"
+aon = "FeatDisplay.aspx?ItemName=Hover"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hover", path = "json/feat08.json" },

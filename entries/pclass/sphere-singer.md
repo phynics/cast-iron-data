@@ -2,6 +2,7 @@
 id = "ref/pclass/sphere-singer"
 kind = "prestige_class"
 title = "Sphere Singer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Sphere%20Singer"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_singer", path = "json/prestige_classes3.json" },

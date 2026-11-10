@@ -2,6 +2,7 @@
 id = "ref/monster/emerald-automaton"
 kind = "creature"
 title = "Emerald Automaton"
+aon = "MonsterDisplay.aspx?ItemName=Emerald%20Automaton"
 source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emerald_automaton", path = "json/monsters42.json" },

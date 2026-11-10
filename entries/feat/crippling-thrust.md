@@ -2,6 +2,7 @@
 id = "ref/feat/crippling-thrust"
 kind = "feat"
 title = "Crippling Thrust"
+aon = "FeatDisplay.aspx?ItemName=Crippling%20Thrust"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crippling_thrust", path = "json/feat03.json" },

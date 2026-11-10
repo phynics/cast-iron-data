@@ -2,6 +2,7 @@
 id = "ref/feat/improved-natural-attack"
 kind = "feat"
 title = "Improved Natural Attack"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Natural%20Attack"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_natural_attack", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/liquefy"
 kind = "spell"
 title = "Liquefy"
+aon = "SpellDisplay.aspx?ItemName=Liquefy"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquefy", path = "json/spells6.json" },

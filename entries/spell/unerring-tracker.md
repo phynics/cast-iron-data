@@ -2,6 +2,7 @@
 id = "ref/spell/unerring-tracker"
 kind = "spell"
 title = "Unerring Tracker"
+aon = "SpellDisplay.aspx?ItemName=Unerring%20Tracker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unerring_tracker", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/stargazer"
 kind = "prestige_class"
 title = "Stargazer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Stargazer"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer", path = "json/prestige_classes3.json" },

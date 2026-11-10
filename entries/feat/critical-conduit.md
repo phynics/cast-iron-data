@@ -2,6 +2,7 @@
 id = "ref/feat/critical-conduit"
 kind = "feat"
 title = "Critical Conduit"
+aon = "FeatDisplay.aspx?ItemName=Critical%20Conduit"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_conduit", path = "json/feat04.json" },

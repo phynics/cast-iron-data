@@ -2,6 +2,7 @@
 id = "ref/spell/harmless-form"
 kind = "spell"
 title = "Harmless Form"
+aon = "SpellDisplay.aspx?ItemName=Harmless%20Form"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harmless_form", path = "json/spells5.json" },

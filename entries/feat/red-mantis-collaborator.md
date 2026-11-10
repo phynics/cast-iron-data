@@ -2,6 +2,7 @@
 id = "ref/feat/red-mantis-collaborator"
 kind = "feat"
 title = "Red Mantis Collaborator"
+aon = "FeatDisplay.aspx?ItemName=Red%20Mantis%20Collaborator"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_mantis_collaborator", path = "json/feat13.json" },

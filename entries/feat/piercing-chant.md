@@ -2,6 +2,7 @@
 id = "ref/feat/piercing-chant"
 kind = "feat"
 title = "Piercing Chant"
+aon = "FeatDisplay.aspx?ItemName=Piercing%20Chant"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_chant", path = "json/feat12.json" },

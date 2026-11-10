@@ -2,6 +2,7 @@
 id = "ref/feat/antagonize"
 kind = "feat"
 title = "Antagonize"
+aon = "FeatDisplay.aspx?ItemName=Antagonize"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antagonize", path = "json/feat01.json" },

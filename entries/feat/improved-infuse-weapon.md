@@ -2,6 +2,7 @@
 id = "ref/feat/improved-infuse-weapon"
 kind = "feat"
 title = "Improved Infuse Weapon"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Infuse%20Weapon"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_infuse_weapon", path = "json/feat09.json" },

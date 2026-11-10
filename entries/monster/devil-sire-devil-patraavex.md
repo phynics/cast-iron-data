@@ -2,6 +2,7 @@
 id = "ref/monster/devil-sire-devil-patraavex"
 kind = "creature"
 title = "Sire Devil (Patraavex)"
+aon = "MonsterDisplay.aspx?ItemName=Sire%20Devil%20%28Patraavex%29"
 source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_sire_devil_patraavex", path = "json/monsters07.json" },

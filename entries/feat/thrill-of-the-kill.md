@@ -2,6 +2,7 @@
 id = "ref/feat/thrill-of-the-kill"
 kind = "feat"
 title = "Thrill of the Kill"
+aon = "FeatDisplay.aspx?ItemName=Thrill%20of%20the%20Kill"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrill_of_the_kill", path = "json/feat16.json" },

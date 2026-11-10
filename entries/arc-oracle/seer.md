@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/seer"
 kind = "archetype"
 title = "Seer"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Seer"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seer", path = "json/archetypes_oracle.json" },

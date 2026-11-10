@@ -2,6 +2,7 @@
 id = "ref/trait/superstitious-drawback"
 kind = "trait"
 title = "Superstitious (Drawback)"
+aon = "TraitDisplay.aspx?ItemName=Superstitious%20%28Drawback%29"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superstitious_drawback", path = "json/traits03.json" },

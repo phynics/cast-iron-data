@@ -2,6 +2,7 @@
 id = "ref/feat/extra-reservoir"
 kind = "feat"
 title = "Extra Reservoir"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Reservoir"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_reservoir", path = "json/feat06.json" },

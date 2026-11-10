@@ -2,6 +2,7 @@
 id = "ref/monster/titanboar"
 kind = "creature"
 title = "Titanboar"
+aon = "MonsterDisplay.aspx?ItemName=Titanboar"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanboar", path = "json/monsters23.json" },

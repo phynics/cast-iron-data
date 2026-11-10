@@ -2,6 +2,7 @@
 id = "ref/spell/tower-of-iron-will-5"
 kind = "spell"
 title = "Tower of Iron Will V"
+aon = "SpellDisplay.aspx?ItemName=Tower%20of%20Iron%20Will%20V"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_of_iron_will_5", path = "json/spells10.json" },

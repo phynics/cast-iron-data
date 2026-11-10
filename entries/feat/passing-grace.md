@@ -2,6 +2,7 @@
 id = "ref/feat/passing-grace"
 kind = "feat"
 title = "Passing Grace"
+aon = "FeatDisplay.aspx?ItemName=Passing%20Grace"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_grace", path = "json/feat11.json" },

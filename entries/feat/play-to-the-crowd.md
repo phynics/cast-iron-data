@@ -2,6 +2,7 @@
 id = "ref/feat/play-to-the-crowd"
 kind = "feat"
 title = "Play to the Crowd"
+aon = "FeatDisplay.aspx?ItemName=Play%20to%20the%20Crowd"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "play_to_the_crowd", path = "json/feat12.json" },

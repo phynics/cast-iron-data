@@ -2,6 +2,7 @@
 id = "ref/spell/protective-spirit"
 kind = "spell"
 title = "Protective Spirit"
+aon = "SpellDisplay.aspx?ItemName=Protective%20Spirit"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_spirit", path = "json/spells15.json" },

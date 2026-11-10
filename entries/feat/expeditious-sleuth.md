@@ -2,6 +2,7 @@
 id = "ref/feat/expeditious-sleuth"
 kind = "feat"
 title = "Expeditious Sleuth"
+aon = "FeatDisplay.aspx?ItemName=Expeditious%20Sleuth"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_sleuth", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-bliss-adult-bliss-dragon"
 kind = "creature"
 title = "Adult Bliss Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Bliss%20Dragon"
 source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_bliss_adult_bliss_dragon", path = "json/monsters30.json" },

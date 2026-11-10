@@ -2,6 +2,7 @@
 id = "ref/spell/shield-the-banner"
 kind = "spell"
 title = "Shield the Banner"
+aon = "SpellDisplay.aspx?ItemName=Shield%20the%20Banner"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_the_banner", path = "json/spells9.json" },

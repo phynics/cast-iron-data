@@ -2,6 +2,7 @@
 id = "ref/spell/guards-and-wards"
 kind = "spell"
 title = "Guards and Wards"
+aon = "SpellDisplay.aspx?ItemName=Guards%20and%20Wards"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guards_and_wards", path = "json/spells5.json" },

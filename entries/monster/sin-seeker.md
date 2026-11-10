@@ -2,6 +2,7 @@
 id = "ref/monster/sin-seeker"
 kind = "creature"
 title = "Sin Seeker"
+aon = "MonsterDisplay.aspx?ItemName=Sin%20Seeker"
 source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_seeker", path = "json/monsters22.json" },

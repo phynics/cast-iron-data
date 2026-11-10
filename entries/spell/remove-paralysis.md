@@ -2,6 +2,7 @@
 id = "ref/spell/remove-paralysis"
 kind = "spell"
 title = "Remove Paralysis"
+aon = "SpellDisplay.aspx?ItemName=Remove%20Paralysis"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_paralysis", path = "json/spells8.json" },

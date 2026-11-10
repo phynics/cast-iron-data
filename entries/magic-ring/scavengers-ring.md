@@ -2,6 +2,7 @@
 id = "ref/magic-ring/scavengers-ring"
 kind = "item"
 title = "Scavenger's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Scavenger%27s%20Ring"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavengers_ring", path = "json/magic_ring.json" },

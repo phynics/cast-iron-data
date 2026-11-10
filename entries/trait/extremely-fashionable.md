@@ -2,6 +2,7 @@
 id = "ref/trait/extremely-fashionable"
 kind = "trait"
 title = "Extremely Fashionable"
+aon = "TraitDisplay.aspx?ItemName=Extremely%20Fashionable"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extremely_fashionable", path = "json/traits03.json" },

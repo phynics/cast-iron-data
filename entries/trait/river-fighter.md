@@ -2,6 +2,7 @@
 id = "ref/trait/river-fighter"
 kind = "trait"
 title = "River Fighter"
+aon = "TraitDisplay.aspx?ItemName=River%20Fighter"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_fighter", path = "json/traits01.json" },

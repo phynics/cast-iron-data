@@ -2,6 +2,7 @@
 id = "ref/spell/flurry-of-snowballs"
 kind = "spell"
 title = "Flurry of Snowballs"
+aon = "SpellDisplay.aspx?ItemName=Flurry%20of%20Snowballs"
 source_ids = ["pathfinder-67-the-snows-of-summer", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flurry_of_snowballs", path = "json/spells4.json" },

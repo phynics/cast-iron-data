@@ -2,6 +2,7 @@
 id = "ref/feat/terrain-celerity"
 kind = "feat"
 title = "Terrain Celerity"
+aon = "FeatDisplay.aspx?ItemName=Terrain%20Celerity"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_celerity", path = "json/feat16.json" },

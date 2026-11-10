@@ -2,6 +2,7 @@
 id = "ref/trait/rescued"
 kind = "trait"
 title = "Rescued"
+aon = "TraitDisplay.aspx?ItemName=Rescued"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rescued", path = "json/traits02.json" },

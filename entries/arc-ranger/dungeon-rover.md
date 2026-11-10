@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/dungeon-rover"
 kind = "archetype"
 title = "Dungeon Rover"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Dungeon%20Rover"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_rover", path = "json/archetypes_ranger.json" },

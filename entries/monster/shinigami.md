@@ -2,6 +2,7 @@
 id = "ref/monster/shinigami"
 kind = "creature"
 title = "Shinigami"
+aon = "MonsterDisplay.aspx?ItemName=Shinigami"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shinigami", path = "json/monsters38.json" },

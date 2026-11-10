@@ -2,6 +2,7 @@
 id = "ref/feat/symbolic-mastery"
 kind = "feat"
 title = "Symbolic Mastery"
+aon = "FeatDisplay.aspx?ItemName=Symbolic%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbolic_mastery", path = "json/feat15.json" },

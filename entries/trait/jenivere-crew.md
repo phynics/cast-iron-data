@@ -2,6 +2,7 @@
 id = "ref/trait/jenivere-crew"
 kind = "trait"
 title = "Jenivere Crew"
+aon = "TraitDisplay.aspx?ItemName=Jenivere%20Crew"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jenivere_crew", path = "json/traits02.json" },

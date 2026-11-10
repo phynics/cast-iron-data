@@ -2,6 +2,7 @@
 id = "ref/arc-bard/watersinger"
 kind = "archetype"
 title = "Watersinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Watersinger"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watersinger", path = "json/archetypes_bard2.json" },

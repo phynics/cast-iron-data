@@ -2,6 +2,7 @@
 id = "ref/monster/weedwhip"
 kind = "creature"
 title = "Weedwhip"
+aon = "MonsterDisplay.aspx?ItemName=Weedwhip"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weedwhip", path = "json/monsters25.json" },

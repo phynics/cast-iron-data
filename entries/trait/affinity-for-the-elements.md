@@ -2,6 +2,7 @@
 id = "ref/trait/affinity-for-the-elements"
 kind = "trait"
 title = "Affinity for the Elements"
+aon = "TraitDisplay.aspx?ItemName=Affinity%20for%20the%20Elements"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "affinity_for_the_elements", path = "json/traits03.json" },

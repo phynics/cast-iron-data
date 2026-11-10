@@ -2,6 +2,7 @@
 id = "ref/spell/sensory-overload"
 kind = "spell"
 title = "Sensory Overload"
+aon = "SpellDisplay.aspx?ItemName=Sensory%20Overload"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_overload", path = "json/spells15.json" },

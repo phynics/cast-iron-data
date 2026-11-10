@@ -2,6 +2,7 @@
 id = "ref/feat/improved-familiar"
 kind = "feat"
 title = "Improved Familiar"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Familiar"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_familiar", path = "json/feat09.json" },

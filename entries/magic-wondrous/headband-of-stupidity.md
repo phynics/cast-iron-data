@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/headband-of-stupidity"
 kind = "item"
 title = "Headband of Stupidity"
+aon = "MagicCursedDisplay.aspx?ItemName=Headband%20of%20Stupidity"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_stupidity", path = "json/magic_wondrous_head_headband.json" },

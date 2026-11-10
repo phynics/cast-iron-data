@@ -2,6 +2,7 @@
 id = "ref/feat/silent-kill"
 kind = "feat"
 title = "Silent Kill"
+aon = "FeatDisplay.aspx?ItemName=Silent%20Kill"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_kill", path = "json/feat14.json" },

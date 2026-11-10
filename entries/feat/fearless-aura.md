@@ -2,6 +2,7 @@
 id = "ref/feat/fearless-aura"
 kind = "feat"
 title = "Fearless Aura"
+aon = "FeatDisplay.aspx?ItemName=Fearless%20Aura"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearless_aura", path = "json/feat06.json" },

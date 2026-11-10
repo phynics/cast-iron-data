@@ -2,6 +2,7 @@
 id = "ref/trait/guardian-smite"
 kind = "trait"
 title = "Guardian Smite"
+aon = "TraitDisplay.aspx?ItemName=Guardian%20Smite"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_smite", path = "json/traits03.json" },

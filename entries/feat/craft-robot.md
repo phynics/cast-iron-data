@@ -2,6 +2,7 @@
 id = "ref/feat/craft-robot"
 kind = "feat"
 title = "Craft Robot"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Robot"
 source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_robot", path = "json/feat03.json" },

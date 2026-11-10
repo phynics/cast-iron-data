@@ -2,6 +2,7 @@
 id = "ref/trait/awakened-from-stasis"
 kind = "trait"
 title = "Awakened from Stasis"
+aon = "TraitDisplay.aspx?ItemName=Awakened%20from%20Stasis"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awakened_from_stasis", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/narrow-escape"
 kind = "trait"
 title = "Narrow Escape"
+aon = "TraitDisplay.aspx?ItemName=Narrow%20Escape"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narrow_escape", path = "json/traits04.json" },

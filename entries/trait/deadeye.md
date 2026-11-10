@@ -2,6 +2,7 @@
 id = "ref/trait/deadeye"
 kind = "trait"
 title = "Deadeye"
+aon = "TraitDisplay.aspx?ItemName=Deadeye"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeye", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/mute-musician"
 kind = "archetype"
 title = "Mute Musician"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Mute%20Musician"
 source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mute_musician", path = "json/archetypes_bard2.json" },

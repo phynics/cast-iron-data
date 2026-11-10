@@ -2,6 +2,7 @@
 id = "ref/feat/improved-precise-strike"
 kind = "feat"
 title = "Improved Precise Strike"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Precise%20Strike"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_precise_strike", path = "json/feat09.json" },

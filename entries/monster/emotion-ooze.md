@@ -2,6 +2,7 @@
 id = "ref/monster/emotion-ooze"
 kind = "creature"
 title = "Emotion Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Emotion%20Ooze"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotion_ooze", path = "json/monsters42.json" },

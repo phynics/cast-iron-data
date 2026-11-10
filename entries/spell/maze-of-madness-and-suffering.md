@@ -2,6 +2,7 @@
 id = "ref/spell/maze-of-madness-and-suffering"
 kind = "spell"
 title = "Maze of Madness and Suffering"
+aon = "SpellDisplay.aspx?ItemName=Maze%20of%20Madness%20and%20Suffering"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maze_of_madness_and_suffering", path = "json/spells14.json" },

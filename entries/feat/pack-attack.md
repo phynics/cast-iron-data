@@ -2,6 +2,7 @@
 id = "ref/feat/pack-attack"
 kind = "feat"
 title = "Pack Attack"
+aon = "FeatDisplay.aspx?ItemName=Pack%20Attack"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_attack", path = "json/feat11.json" },

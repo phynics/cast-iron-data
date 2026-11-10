@@ -2,6 +2,7 @@
 id = "ref/spell/antitech-field"
 kind = "spell"
 title = "Antitech Field"
+aon = "SpellDisplay.aspx?ItemName=Antitech%20Field"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitech_field", path = "json/spells.json" },

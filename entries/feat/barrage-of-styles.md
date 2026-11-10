@@ -2,6 +2,7 @@
 id = "ref/feat/barrage-of-styles"
 kind = "feat"
 title = "Barrage of Styles"
+aon = "FeatDisplay.aspx?ItemName=Barrage%20of%20Styles"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrage_of_styles", path = "json/feat01.json" },

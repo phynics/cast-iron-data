@@ -2,6 +2,7 @@
 id = "ref/spell/hungry-pit"
 kind = "spell"
 title = "Hungry Pit"
+aon = "SpellDisplay.aspx?ItemName=Hungry%20Pit"
 source_ids = ["advanced-players-guide", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_pit", path = "json/spells3.json" },

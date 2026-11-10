@@ -2,6 +2,7 @@
 id = "ref/spell/foe-to-friend"
 kind = "spell"
 title = "Foe to Friend"
+aon = "SpellDisplay.aspx?ItemName=Foe%20to%20Friend"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foe_to_friend", path = "json/spells4.json" },

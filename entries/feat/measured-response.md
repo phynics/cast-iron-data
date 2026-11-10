@@ -2,6 +2,7 @@
 id = "ref/feat/measured-response"
 kind = "feat"
 title = "Measured Response"
+aon = "FeatDisplay.aspx?ItemName=Measured%20Response"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "measured_response", path = "json/feat10.json" },

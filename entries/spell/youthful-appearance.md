@@ -2,6 +2,7 @@
 id = "ref/spell/youthful-appearance"
 kind = "spell"
 title = "Youthful Appearance"
+aon = "SpellDisplay.aspx?ItemName=Youthful%20Appearance"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_appearance", path = "json/spells16.json" },

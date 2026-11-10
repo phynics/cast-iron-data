@@ -2,6 +2,7 @@
 id = "ref/trait/cruel-rager"
 kind = "trait"
 title = "Cruel Rager"
+aon = "TraitDisplay.aspx?ItemName=Cruel%20Rager"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruel_rager", path = "json/traits05.json" },

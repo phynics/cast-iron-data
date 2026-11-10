@@ -2,6 +2,7 @@
 id = "ref/monster/tarantula-tree"
 kind = "creature"
 title = "Tarantula Tree"
+aon = "MonsterDisplay.aspx?ItemName=Tarantula%20Tree"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tarantula_tree", path = "json/monsters23.json" },

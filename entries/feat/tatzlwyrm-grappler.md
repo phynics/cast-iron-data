@@ -2,6 +2,7 @@
 id = "ref/feat/tatzlwyrm-grappler"
 kind = "feat"
 title = "Tatzlwyrm Grappler"
+aon = "FeatDisplay.aspx?ItemName=Tatzlwyrm%20Grappler"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm_grappler", path = "json/feat16.json" },

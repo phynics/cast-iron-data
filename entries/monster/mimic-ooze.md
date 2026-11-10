@@ -2,6 +2,7 @@
 id = "ref/monster/mimic-ooze"
 kind = "creature"
 title = "Mimic Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Mimic%20Ooze"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mimic_ooze", path = "json/monsters17.json" },

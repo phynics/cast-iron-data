@@ -2,6 +2,7 @@
 id = "ref/monster/nephilim"
 kind = "creature"
 title = "Nephilim"
+aon = "MonsterDisplay.aspx?ItemName=Nephilim"
 source_ids = ["bestiary-3", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nephilim", path = "json/monsters17.json" },

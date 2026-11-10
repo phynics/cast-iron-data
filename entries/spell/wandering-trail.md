@@ -2,6 +2,7 @@
 id = "ref/spell/wandering-trail"
 kind = "spell"
 title = "Wandering Trail"
+aon = "SpellDisplay.aspx?ItemName=Wandering%20Trail"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_trail", path = "json/spells11.json" },

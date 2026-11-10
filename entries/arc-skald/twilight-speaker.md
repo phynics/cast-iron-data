@@ -2,6 +2,7 @@
 id = "ref/arc-skald/twilight-speaker"
 kind = "archetype"
 title = "Twilight Speaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Twilight%20Speaker"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_speaker", path = "json/archetypes_skald.json" },

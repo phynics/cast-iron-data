@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-focus"
 kind = "feat"
 title = "Weapon Focus"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Focus"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_focus", path = "json/feat17.json" },

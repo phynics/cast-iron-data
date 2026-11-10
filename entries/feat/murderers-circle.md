@@ -2,6 +2,7 @@
 id = "ref/feat/murderers-circle"
 kind = "feat"
 title = "Murderer's Circle"
+aon = "FeatDisplay.aspx?ItemName=Murderer%27s%20Circle"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_circle", path = "json/feat11.json" },

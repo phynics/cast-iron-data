@@ -2,6 +2,7 @@
 id = "ref/monster/golem-quantium-golem"
 kind = "creature"
 title = "Quantium Golem"
+aon = "MonsterDisplay.aspx?ItemName=Quantium%20Golem"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_quantium_golem", path = "json/monsters33.json" },

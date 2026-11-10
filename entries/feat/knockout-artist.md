@@ -2,6 +2,7 @@
 id = "ref/feat/knockout-artist"
 kind = "feat"
 title = "Knockout Artist"
+aon = "FeatDisplay.aspx?ItemName=Knockout%20Artist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knockout_artist", path = "json/feat09.json" },

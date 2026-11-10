@@ -2,6 +2,7 @@
 id = "ref/feat/bloodstone-manhunter"
 kind = "feat"
 title = "Bloodstone Manhunter"
+aon = "FeatDisplay.aspx?ItemName=Bloodstone%20Manhunter"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_manhunter", path = "json/feat02.json" },

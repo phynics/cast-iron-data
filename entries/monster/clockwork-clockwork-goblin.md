@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-goblin"
 kind = "creature"
 title = "Clockwork Goblin"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Goblin"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_goblin", path = "json/monsters05.json" },

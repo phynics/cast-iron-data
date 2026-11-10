@@ -2,6 +2,7 @@
 id = "ref/trait/relentless-fortitude"
 kind = "trait"
 title = "Relentless Fortitude"
+aon = "TraitDisplay.aspx?ItemName=Relentless%20Fortitude"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_fortitude", path = "json/traits03.json" },

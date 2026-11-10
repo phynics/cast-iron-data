@@ -2,6 +2,7 @@
 id = "ref/monster/turtle-giant-snapping-turtle"
 kind = "creature"
 title = "Giant Snapping Turtle"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Snapping%20Turtle"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turtle_giant_snapping_turtle", path = "json/monsters24.json" },

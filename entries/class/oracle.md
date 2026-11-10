@@ -2,6 +2,7 @@
 id = "ref/class/oracle"
 kind = "class"
 title = "Oracle"
+aon = "ClassDisplay.aspx?ItemName=Oracle"
 source_ids = ["advanced-players-guide", "advanced-race-guide", "blood-of-the-beast", "blood-of-the-sea", "chronicle-of-legends", "goblins-of-golarion", "heroes-of-golarion", "horror-adventures", "legacy-of-dragons", "legacy-of-the-first-world", "pathfinder-101-the-kintargo-contract", "plane-hoppers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracle", path = "json/classes3.json" },

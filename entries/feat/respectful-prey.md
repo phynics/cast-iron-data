@@ -2,6 +2,7 @@
 id = "ref/feat/respectful-prey"
 kind = "feat"
 title = "Respectful Prey"
+aon = "FeatDisplay.aspx?ItemName=Respectful%20Prey"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "respectful_prey", path = "json/feat13.json" },

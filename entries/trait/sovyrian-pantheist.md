@@ -2,6 +2,7 @@
 id = "ref/trait/sovyrian-pantheist"
 kind = "trait"
 title = "Sovyrian Pantheist"
+aon = "TraitDisplay.aspx?ItemName=Sovyrian%20Pantheist"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sovyrian_pantheist", path = "json/traits03.json" },

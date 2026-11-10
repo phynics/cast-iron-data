@@ -2,6 +2,7 @@
 id = "ref/monster/goldpebble"
 kind = "creature"
 title = "Goldpebble"
+aon = "MonsterDisplay.aspx?ItemName=Goldpebble"
 source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goldpebble", path = "json/monsters12.json" },

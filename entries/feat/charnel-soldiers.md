@@ -2,6 +2,7 @@
 id = "ref/feat/charnel-soldiers"
 kind = "feat"
 title = "Charnel Soldiers"
+aon = "FeatDisplay.aspx?ItemName=Charnel%20Soldiers"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_soldiers", path = "json/feat03.json" },

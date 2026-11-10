@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/steelbound-fighter"
 kind = "archetype"
 title = "Steelbound Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Steelbound%20Fighter"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steelbound_fighter", path = "json/archetypes_fighter2.json" },

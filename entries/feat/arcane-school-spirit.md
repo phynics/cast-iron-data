@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-school-spirit"
 kind = "feat"
 title = "Arcane School Spirit"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20School%20Spirit"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_school_spirit", path = "json/feat01.json" },

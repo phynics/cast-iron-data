@@ -2,6 +2,7 @@
 id = "ref/spell/violent-misfire"
 kind = "spell"
 title = "Violent Misfire"
+aon = "SpellDisplay.aspx?ItemName=Violent%20Misfire"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_misfire", path = "json/spells11.json" },

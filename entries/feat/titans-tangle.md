@@ -2,6 +2,7 @@
 id = "ref/feat/titans-tangle"
 kind = "feat"
 title = "Titan's Tangle"
+aon = "FeatDisplay.aspx?ItemName=Titan%27s%20Tangle"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titans_tangle", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/irritable-diplomat"
 kind = "trait"
 title = "Irritable Diplomat"
+aon = "TraitDisplay.aspx?ItemName=Irritable%20Diplomat"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irritable_diplomat", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-magus/kensai"
 kind = "archetype"
 title = "Kensai"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Kensai"
 source_ids = ["ultimate-combat", "adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kensai", path = "json/archetypes_magus.json" },

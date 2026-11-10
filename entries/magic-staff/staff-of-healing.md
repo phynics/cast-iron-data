@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-healing"
 kind = "item"
 title = "Staff of Healing"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Healing"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_healing", path = "json/magic_staff.json" },

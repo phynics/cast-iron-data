@@ -2,6 +2,7 @@
 id = "ref/pclass/master-spy"
 kind = "prestige_class"
 title = "Master Spy"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Master%20Spy"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_spy", path = "json/prestige_classes2.json" },

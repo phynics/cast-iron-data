@@ -2,6 +2,7 @@
 id = "ref/spell/hex-ward"
 kind = "spell"
 title = "Hex Ward"
+aon = "SpellDisplay.aspx?ItemName=Hex%20Ward"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_ward", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/grove-of-respite"
 kind = "spell"
 title = "Grove of Respite"
+aon = "SpellDisplay.aspx?ItemName=Grove%20of%20Respite"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grove_of_respite", path = "json/spells5.json" },

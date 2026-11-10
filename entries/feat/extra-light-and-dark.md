@@ -2,6 +2,7 @@
 id = "ref/feat/extra-light-and-dark"
 kind = "feat"
 title = "Extra Light and Dark"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Light%20and%20Dark"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_light_and_dark", path = "json/feat06.json" },

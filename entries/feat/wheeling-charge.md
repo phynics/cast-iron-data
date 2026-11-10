@@ -2,6 +2,7 @@
 id = "ref/feat/wheeling-charge"
 kind = "feat"
 title = "Wheeling Charge"
+aon = "FeatDisplay.aspx?ItemName=Wheeling%20Charge"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wheeling_charge", path = "json/feat17.json" },

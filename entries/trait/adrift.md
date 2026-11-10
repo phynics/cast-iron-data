@@ -2,6 +2,7 @@
 id = "ref/trait/adrift"
 kind = "trait"
 title = "Adrift"
+aon = "TraitDisplay.aspx?ItemName=Adrift"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adrift", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-eldritch-heritage"
 kind = "feat"
 title = "Improved Eldritch Heritage"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Eldritch%20Heritage"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_eldritch_heritage", path = "json/feat09.json" },

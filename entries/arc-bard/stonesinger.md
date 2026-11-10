@@ -2,6 +2,7 @@
 id = "ref/arc-bard/stonesinger"
 kind = "archetype"
 title = "Stonesinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Stonesinger"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stonesinger", path = "json/archetypes_bard2.json" },

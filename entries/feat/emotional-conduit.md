@@ -2,6 +2,7 @@
 id = "ref/feat/emotional-conduit"
 kind = "feat"
 title = "Emotional Conduit"
+aon = "FeatDisplay.aspx?ItemName=Emotional%20Conduit"
 source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotional_conduit", path = "json/feat05.json" },

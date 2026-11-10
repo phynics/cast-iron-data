@@ -2,6 +2,7 @@
 id = "ref/spell/invisibility-greater"
 kind = "spell"
 title = "Greater Invisibility"
+aon = "SpellDisplay.aspx?ItemName=Invisibility%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_greater", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/accursed-glare"
 kind = "spell"
 title = "Accursed Glare"
+aon = "SpellDisplay.aspx?ItemName=Accursed%20Glare"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_glare", path = "json/spells.json" },

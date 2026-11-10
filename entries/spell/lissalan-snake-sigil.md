@@ -2,6 +2,7 @@
 id = "ref/spell/lissalan-snake-sigil"
 kind = "spell"
 title = "Lissalan Snake Sigil"
+aon = "SpellDisplay.aspx?ItemName=Lissalan%20Snake%20Sigil"
 source_ids = ["pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lissalan_snake_sigil", path = "json/spells6.json" },

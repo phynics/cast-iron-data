@@ -2,6 +2,7 @@
 id = "ref/monster/golem-dragonhide-golem"
 kind = "creature"
 title = "Dragonhide Golem"
+aon = "MonsterDisplay.aspx?ItemName=Dragonhide%20Golem"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_dragonhide_golem", path = "json/monsters33.json" },

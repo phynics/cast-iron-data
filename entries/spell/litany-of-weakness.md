@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-weakness"
 kind = "spell"
 title = "Litany of Weakness"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Weakness"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_weakness", path = "json/spells6.json" },

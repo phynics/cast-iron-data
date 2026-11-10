@@ -2,6 +2,7 @@
 id = "ref/trait/animal-rustler"
 kind = "trait"
 title = "Animal Rustler"
+aon = "TraitDisplay.aspx?ItemName=Animal%20Rustler"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_rustler", path = "json/traits05.json" },

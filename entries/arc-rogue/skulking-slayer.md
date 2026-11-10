@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/skulking-slayer"
 kind = "archetype"
 title = "Skulking Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Skulking%20Slayer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skulking_slayer", path = "json/archetypes_rogue.json" },

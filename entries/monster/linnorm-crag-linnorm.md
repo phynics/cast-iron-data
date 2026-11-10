@@ -2,6 +2,7 @@
 id = "ref/monster/linnorm-crag-linnorm"
 kind = "creature"
 title = "Crag Linnorm"
+aon = "MonsterDisplay.aspx?ItemName=Crag%20Linnorm"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_crag_linnorm", path = "json/monsters35.json" },

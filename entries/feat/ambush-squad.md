@@ -2,6 +2,7 @@
 id = "ref/feat/ambush-squad"
 kind = "feat"
 title = "Ambush Squad"
+aon = "FeatDisplay.aspx?ItemName=Ambush%20Squad"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_squad", path = "json/feat01.json" },

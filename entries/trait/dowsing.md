@@ -2,6 +2,7 @@
 id = "ref/trait/dowsing"
 kind = "trait"
 title = "Dowsing"
+aon = "TraitDisplay.aspx?ItemName=Dowsing"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dowsing", path = "json/traits05.json" },

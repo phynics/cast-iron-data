@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/stargazer"
 kind = "archetype"
 title = "Stargazer"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Stargazer"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer", path = "json/archetypes_oracle.json" },

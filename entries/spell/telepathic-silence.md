@@ -2,6 +2,7 @@
 id = "ref/spell/telepathic-silence"
 kind = "spell"
 title = "Telepathic Silence"
+aon = "SpellDisplay.aspx?ItemName=Telepathic%20Silence"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_silence", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/murky-spell"
 kind = "feat"
 title = "Murky Spell"
+aon = "FeatDisplay.aspx?ItemName=Murky%20Spell"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murky_spell", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/blessed-hammer"
 kind = "feat"
 title = "Blessed Hammer"
+aon = "FeatDisplay.aspx?ItemName=Blessed%20Hammer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_hammer", path = "json/feat02.json" },

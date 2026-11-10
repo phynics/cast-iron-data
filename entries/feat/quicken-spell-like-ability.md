@@ -2,6 +2,7 @@
 id = "ref/feat/quicken-spell-like-ability"
 kind = "feat"
 title = "Quicken Spell-Like Ability"
+aon = "FeatDisplay.aspx?ItemName=Quicken%20Spell-Like%20Ability"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicken_spell_like_ability", path = "json/feat12.json" },

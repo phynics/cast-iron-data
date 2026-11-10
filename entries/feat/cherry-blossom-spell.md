@@ -2,6 +2,7 @@
 id = "ref/feat/cherry-blossom-spell"
 kind = "feat"
 title = "Cherry Blossom Spell"
+aon = "FeatDisplay.aspx?ItemName=Cherry%20Blossom%20Spell"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cherry_blossom_spell", path = "json/feat03.json" },

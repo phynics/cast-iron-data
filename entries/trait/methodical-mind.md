@@ -2,6 +2,7 @@
 id = "ref/trait/methodical-mind"
 kind = "trait"
 title = "Methodical Mind"
+aon = "TraitDisplay.aspx?ItemName=Methodical%20Mind"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "methodical_mind", path = "json/traits03.json" },

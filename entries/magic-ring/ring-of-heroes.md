@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-heroes"
 kind = "item"
 title = "Ring of Heroes"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Heroes"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_heroes", path = "json/magic_ring.json" },

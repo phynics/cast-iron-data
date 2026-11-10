@@ -2,6 +2,7 @@
 id = "ref/arc-druid/season-keeper"
 kind = "archetype"
 title = "Season Keeper"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Season%20Keeper"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "season_keeper", path = "json/archetypes_druid2.json" },

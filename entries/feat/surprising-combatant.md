@@ -2,6 +2,7 @@
 id = "ref/feat/surprising-combatant"
 kind = "feat"
 title = "Surprising Combatant"
+aon = "FeatDisplay.aspx?ItemName=Surprising%20Combatant"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprising_combatant", path = "json/feat15.json" },

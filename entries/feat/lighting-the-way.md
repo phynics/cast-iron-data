@@ -2,6 +2,7 @@
 id = "ref/feat/lighting-the-way"
 kind = "feat"
 title = "Lighting the Way"
+aon = "FeatDisplay.aspx?ItemName=Lighting%20the%20Way"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighting_the_way", path = "json/feat10.json" },

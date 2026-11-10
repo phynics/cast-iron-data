@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-anchor"
 kind = "spell"
 title = "Shadow Anchor"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Anchor"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_anchor", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/steal-voice"
 kind = "spell"
 title = "Steal Voice"
+aon = "SpellDisplay.aspx?ItemName=Steal%20Voice"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_voice", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/terrifying-lunge"
 kind = "trait"
 title = "Terrifying Lunge"
+aon = "TraitDisplay.aspx?ItemName=Terrifying%20Lunge"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrifying_lunge", path = "json/traits05.json" },

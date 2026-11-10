@@ -2,6 +2,7 @@
 id = "ref/feat/artillery-team"
 kind = "feat"
 title = "Artillery Team"
+aon = "FeatDisplay.aspx?ItemName=Artillery%20Team"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artillery_team", path = "json/feat01.json" },

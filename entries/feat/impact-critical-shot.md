@@ -2,6 +2,7 @@
 id = "ref/feat/impact-critical-shot"
 kind = "feat"
 title = "Impact Critical Shot"
+aon = "FeatDisplay.aspx?ItemName=Impact%20Critical%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impact_critical_shot", path = "json/feat08.json" },

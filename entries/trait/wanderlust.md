@@ -2,6 +2,7 @@
 id = "ref/trait/wanderlust"
 kind = "trait"
 title = "Wanderlust"
+aon = "TraitDisplay.aspx?ItemName=Wanderlust"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderlust", path = "json/traits01.json" },

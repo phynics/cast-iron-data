@@ -2,6 +2,7 @@
 id = "ref/feat/extra-panache"
 kind = "feat"
 title = "Extra Panache"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Panache"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_panache", path = "json/feat06.json" },

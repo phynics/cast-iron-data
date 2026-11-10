@@ -2,6 +2,7 @@
 id = "ref/trait/calculated-risk"
 kind = "trait"
 title = "Calculated Risk"
+aon = "TraitDisplay.aspx?ItemName=Calculated%20Risk"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculated_risk", path = "json/traits05.json" },

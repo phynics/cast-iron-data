@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-clockwork"
 kind = "spell"
 title = "Wall of Clockwork"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Clockwork"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_clockwork", path = "json/spells11.json" },

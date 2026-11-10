@@ -2,6 +2,7 @@
 id = "ref/feat/advanced-weapon-training"
 kind = "feat"
 title = "Advanced Weapon Training"
+aon = "FeatDisplay.aspx?ItemName=Advanced%20Weapon%20Training"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_weapon_training", path = "json/feat01.json" },

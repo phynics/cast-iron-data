@@ -2,6 +2,7 @@
 id = "ref/feat/deflect-arrows/teitr"
 kind = "feat"
 title = "Deflect Arrows"
+aon = "FeatDisplay.aspx?ItemName=Deflect%20Arrows"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/deflect-arrows" },

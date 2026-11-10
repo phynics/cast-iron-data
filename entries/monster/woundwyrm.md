@@ -2,6 +2,7 @@
 id = "ref/monster/woundwyrm"
 kind = "creature"
 title = "Woundwyrm"
+aon = "MonsterDisplay.aspx?ItemName=Woundwyrm"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woundwyrm", path = "json/monsters25.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/abundant-ammunition"
 kind = "spell"
 title = "Abundant Ammunition"
+aon = "SpellDisplay.aspx?ItemName=Abundant%20Ammunition"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abundant_ammunition", path = "json/spells.json" },

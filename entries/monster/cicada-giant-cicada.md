@@ -2,6 +2,7 @@
 id = "ref/monster/cicada-giant-cicada"
 kind = "creature"
 title = "Giant Cicada"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Cicada"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cicada_giant_cicada", path = "json/monsters05.json" },

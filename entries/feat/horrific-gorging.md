@@ -2,6 +2,7 @@
 id = "ref/feat/horrific-gorging"
 kind = "feat"
 title = "Horrific Gorging"
+aon = "FeatDisplay.aspx?ItemName=Horrific%20Gorging"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrific_gorging", path = "json/feat08.json" },

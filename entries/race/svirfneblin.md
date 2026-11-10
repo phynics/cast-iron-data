@@ -2,6 +2,7 @@
 id = "ref/race/svirfneblin"
 kind = "race"
 title = "Svirfneblin"
+aon = "RacesDisplay.aspx?ItemName=Svirfneblin"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary"]
 race_group = "uncommon_race"
 provenance = [

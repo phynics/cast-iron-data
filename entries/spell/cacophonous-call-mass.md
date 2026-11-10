@@ -2,6 +2,7 @@
 id = "ref/spell/cacophonous-call-mass"
 kind = "spell"
 title = "Mass Cacophonous Call"
+aon = "SpellDisplay.aspx?ItemName=Cacophonous%20Call%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cacophonous_call_mass", path = "json/spells2.json" },

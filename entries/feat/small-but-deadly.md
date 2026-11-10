@@ -2,6 +2,7 @@
 id = "ref/feat/small-but-deadly"
 kind = "feat"
 title = "Small But Deadly"
+aon = "FeatDisplay.aspx?ItemName=Small%20But%20Deadly"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "small_but_deadly", path = "json/feat14.json" },

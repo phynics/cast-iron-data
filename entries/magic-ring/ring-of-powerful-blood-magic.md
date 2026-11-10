@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-powerful-blood-magic"
 kind = "item"
 title = "Ring of Powerful Blood Magic"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Powerful%20Blood%20Magic"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_powerful_blood_magic", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/trepanation"
 kind = "feat"
 title = "Trepanation"
+aon = "FeatDisplay.aspx?ItemName=Trepanation"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trepanation", path = "json/feat16.json" },

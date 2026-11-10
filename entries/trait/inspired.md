@@ -2,6 +2,7 @@
 id = "ref/trait/inspired"
 kind = "trait"
 title = "Inspired"
+aon = "TraitDisplay.aspx?ItemName=Inspired"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired", path = "json/traits01.json" },

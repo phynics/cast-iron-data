@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/weapon-master"
 kind = "archetype"
 title = "Weapon Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Weapon%20Master"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_master", path = "json/archetypes_fighter2.json" },

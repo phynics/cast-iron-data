@@ -2,6 +2,7 @@
 id = "ref/monster/robot-gearsman-robot"
 kind = "creature"
 title = "Gearsman Robot"
+aon = "MonsterDisplay.aspx?ItemName=Gearsman%20Robot"
 source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_gearsman_robot", path = "json/monsters20.json" },

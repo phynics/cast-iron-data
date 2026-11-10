@@ -2,6 +2,7 @@
 id = "ref/race/munavri"
 kind = "race"
 title = "Munavri"
+aon = "RacesDisplay.aspx?ItemName=Munavri"
 source_ids = ["bestiary-6", "occult-bestiary", "darklands-revisited"]
 race_group = "other_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-bloodletting"
 kind = "spell"
 title = "Touch of Bloodletting"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Bloodletting"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_bloodletting", path = "json/spells10.json" },

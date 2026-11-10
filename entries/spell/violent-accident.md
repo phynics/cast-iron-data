@@ -2,6 +2,7 @@
 id = "ref/spell/violent-accident"
 kind = "spell"
 title = "Violent Accident"
+aon = "SpellDisplay.aspx?ItemName=Violent%20Accident"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_accident", path = "json/spells11.json" },

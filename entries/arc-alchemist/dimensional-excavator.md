@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/dimensional-excavator"
 kind = "archetype"
 title = "Dimensional Excavator"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Dimensional%20Excavator"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_excavator", path = "json/archetypes_alchemist.json" },

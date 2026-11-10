@@ -2,6 +2,7 @@
 id = "ref/trait/tar-baphons-whisper"
 kind = "trait"
 title = "Tar-Baphon's Whisper"
+aon = "TraitDisplay.aspx?ItemName=Tar-Baphon%27s%20Whisper"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tar_baphons_whisper", path = "json/traits01.json" },

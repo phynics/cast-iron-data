@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/cursed-sword"
 kind = "item"
 title = "-2 Cursed Sword"
+aon = "MagicCursedDisplay.aspx?ItemName=-2%20Cursed%20Sword"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_sword", path = "json/magic_weapon2.json" },

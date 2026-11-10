@@ -2,6 +2,7 @@
 id = "ref/monster/ringhorn"
 kind = "creature"
 title = "Ringhorn"
+aon = "MonsterDisplay.aspx?ItemName=Ringhorn"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ringhorn", path = "json/monsters20.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fast-learner"
 kind = "feat"
 title = "Fast Learner"
+aon = "FeatDisplay.aspx?ItemName=Fast%20Learner"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_learner", path = "json/feat06.json" },

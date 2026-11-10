@@ -2,6 +2,7 @@
 id = "ref/feat/scholar"
 kind = "feat"
 title = "Scholar"
+aon = "FeatDisplay.aspx?ItemName=Scholar"
 source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar", path = "json/feat13.json" },

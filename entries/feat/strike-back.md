@@ -2,6 +2,7 @@
 id = "ref/feat/strike-back"
 kind = "feat"
 title = "Strike Back"
+aon = "FeatDisplay.aspx?ItemName=Strike%20Back"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_back", path = "json/feat15.json" },

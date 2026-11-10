@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-grasp"
 kind = "feat"
 title = "Shadow Grasp"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Grasp"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_grasp", path = "json/feat13.json" },

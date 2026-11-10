@@ -2,6 +2,7 @@
 id = "ref/class/hunter"
 kind = "class"
 title = "Hunter"
+aon = "ClassDisplay.aspx?ItemName=Hunter"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast", "blood-of-shadows", "plane-hoppers-handbook", "ultimate-wilderness", "pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunter", path = "json/classes2.json" },

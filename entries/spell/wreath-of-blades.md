@@ -2,6 +2,7 @@
 id = "ref/spell/wreath-of-blades"
 kind = "spell"
 title = "Wreath of Blades"
+aon = "SpellDisplay.aspx?ItemName=Wreath%20of%20Blades"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wreath_of_blades", path = "json/spells16.json" },

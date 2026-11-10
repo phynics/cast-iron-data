@@ -2,6 +2,7 @@
 id = "ref/spell/healing-flames"
 kind = "spell"
 title = "Healing Flames"
+aon = "SpellDisplay.aspx?ItemName=Healing%20Flames"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_flames", path = "json/spells5.json" },

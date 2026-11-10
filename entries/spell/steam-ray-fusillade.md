@@ -2,6 +2,7 @@
 id = "ref/spell/steam-ray-fusillade"
 kind = "spell"
 title = "Steam Ray Fusillade"
+aon = "SpellDisplay.aspx?ItemName=Steam%20Ray%20Fusillade"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_ray_fusillade", path = "json/spells9.json" },

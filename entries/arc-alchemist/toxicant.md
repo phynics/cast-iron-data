@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/toxicant"
 kind = "archetype"
 title = "Toxicant"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Toxicant"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxicant", path = "json/archetypes_alchemist2.json" },

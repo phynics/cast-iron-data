@@ -2,6 +2,7 @@
 id = "ref/feat/practiced-leadership"
 kind = "feat"
 title = "Practiced Leadership"
+aon = "FeatDisplay.aspx?ItemName=Practiced%20Leadership"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_leadership", path = "json/feat12.json" },

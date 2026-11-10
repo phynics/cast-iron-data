@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/arrowbreak-bow"
 kind = "item"
 title = "Arrowbreak Bow"
+aon = "MagicCursedDisplay.aspx?ItemName=Arrowbreak%20Bow"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrowbreak_bow", path = "json/magic_weapon2.json" },

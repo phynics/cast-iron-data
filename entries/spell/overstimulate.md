@@ -2,6 +2,7 @@
 id = "ref/spell/overstimulate"
 kind = "spell"
 title = "Overstimulate"
+aon = "SpellDisplay.aspx?ItemName=Overstimulate"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overstimulate", path = "json/spells7.json" },

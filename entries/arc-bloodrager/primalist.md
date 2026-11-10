@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/primalist"
 kind = "archetype"
 title = "Primalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Primalist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primalist", path = "json/archetypes_bloodrager.json" },

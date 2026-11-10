@@ -2,6 +2,7 @@
 id = "ref/feat/ki-throw"
 kind = "feat"
 title = "Ki Throw"
+aon = "FeatDisplay.aspx?ItemName=Ki%20Throw"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_throw", path = "json/feat09.json" },

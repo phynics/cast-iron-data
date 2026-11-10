@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/phylactery-of-jadis-vel"
 kind = "item"
 title = "Phylactery of Jadis-Vel"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Phylactery%20of%20Jadis-Vel"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phylactery_of_jadis_vel", path = "json/magic_wondrous_head_headband.json" },

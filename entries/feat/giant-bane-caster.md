@@ -2,6 +2,7 @@
 id = "ref/feat/giant-bane-caster"
 kind = "feat"
 title = "Giant-Bane Caster"
+aon = "FeatDisplay.aspx?ItemName=Giant-Bane%20Caster"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_bane_caster", path = "json/feat07.json" },

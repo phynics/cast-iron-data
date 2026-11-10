@@ -2,6 +2,7 @@
 id = "ref/feat/intense-blows"
 kind = "feat"
 title = "Intense Blows"
+aon = "FeatDisplay.aspx?ItemName=Intense%20Blows"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_blows", path = "json/feat09.json" },

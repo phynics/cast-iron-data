@@ -2,6 +2,7 @@
 id = "ref/spell/torpid-reanimation"
 kind = "spell"
 title = "Torpid Reanimation"
+aon = "SpellDisplay.aspx?ItemName=Torpid%20Reanimation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torpid_reanimation", path = "json/spells10.json" },

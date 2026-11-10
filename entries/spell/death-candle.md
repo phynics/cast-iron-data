@@ -2,6 +2,7 @@
 id = "ref/spell/death-candle"
 kind = "spell"
 title = "Death Candle"
+aon = "SpellDisplay.aspx?ItemName=Death%20Candle"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_candle", path = "json/spells3.json" },

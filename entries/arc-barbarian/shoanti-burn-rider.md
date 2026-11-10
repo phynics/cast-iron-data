@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/shoanti-burn-rider"
 kind = "archetype"
 title = "Shoanti Burn Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Shoanti%20Burn%20Rider"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_burn_rider", path = "json/archetypes_barbarian.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/school-savant"
 kind = "archetype"
 title = "School Savant"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20School%20Savant"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school_savant", path = "json/archetypes_arcanist.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/moonflower"
 kind = "creature"
 title = "Moonflower"
+aon = "MonsterDisplay.aspx?ItemName=Moonflower"
 source_ids = ["bestiary-2", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonflower", path = "json/monsters17.json" },

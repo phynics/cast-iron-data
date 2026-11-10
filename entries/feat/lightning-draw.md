@@ -2,6 +2,7 @@
 id = "ref/feat/lightning-draw"
 kind = "feat"
 title = "Lightning Draw"
+aon = "FeatDisplay.aspx?ItemName=Lightning%20Draw"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_draw", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/cartogramancer"
 kind = "feat"
 title = "Cartogramancer"
+aon = "FeatDisplay.aspx?ItemName=Cartogramancer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cartogramancer", path = "json/feat02.json" },

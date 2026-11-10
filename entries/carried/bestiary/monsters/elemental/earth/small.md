@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/elemental/earth/small"
 kind = "creature"
 title = "Elemental, Earth, Small"
+aon = "MonsterDisplay.aspx?ItemName=Small%20Earth%20Elemental"
 source_ids = ["bestiary"]
 section = ["Monsters", "Elemental", "Earth"]
 tags = ["outsider", "earth", "elemental", "extraplanar", "small"]

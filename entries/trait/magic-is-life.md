@@ -2,6 +2,7 @@
 id = "ref/trait/magic-is-life"
 kind = "trait"
 title = "Magic Is Life"
+aon = "TraitDisplay.aspx?ItemName=Magic%20Is%20Life"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_is_life", path = "json/traits03.json" },

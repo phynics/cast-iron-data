@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/maverick"
 kind = "archetype"
 title = "Maverick"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Maverick"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maverick", path = "json/archetypes_gunslinger.json" },

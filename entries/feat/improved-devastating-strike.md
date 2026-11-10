@@ -2,6 +2,7 @@
 id = "ref/feat/improved-devastating-strike"
 kind = "feat"
 title = "Improved Devastating Strike"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Devastating%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_devastating_strike", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/providential-passenger"
 kind = "trait"
 title = "Providential Passenger"
+aon = "TraitDisplay.aspx?ItemName=Providential%20Passenger"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "providential_passenger", path = "json/traits05.json" },

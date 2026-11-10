@@ -2,6 +2,7 @@
 id = "ref/spell/resilient-sphere"
 kind = "spell"
 title = "Resilient Sphere"
+aon = "SpellDisplay.aspx?ItemName=Resilient%20Sphere"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_sphere", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/air-breathing"
 kind = "spell"
 title = "Air Breathing"
+aon = "SpellDisplay.aspx?ItemName=Air%20Breathing"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_breathing", path = "json/spells.json" },

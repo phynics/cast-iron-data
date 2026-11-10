@@ -2,6 +2,7 @@
 id = "ref/feat/quicken-blessing"
 kind = "feat"
 title = "Quicken Blessing"
+aon = "FeatDisplay.aspx?ItemName=Quicken%20Blessing"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicken_blessing", path = "json/feat12.json" },

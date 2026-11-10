@@ -2,6 +2,7 @@
 id = "ref/trait/trailblazer"
 kind = "trait"
 title = "Trailblazer"
+aon = "TraitDisplay.aspx?ItemName=Trailblazer"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trailblazer", path = "json/traits05.json" },

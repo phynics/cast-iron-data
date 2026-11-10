@@ -2,6 +2,7 @@
 id = "ref/spell/contact-other-plane"
 kind = "spell"
 title = "Contact Other Plane"
+aon = "SpellDisplay.aspx?ItemName=Contact%20Other%20Plane"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_other_plane", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/iron-tyrant"
 kind = "archetype"
 title = "Iron Tyrant"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Iron%20Tyrant"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_tyrant", path = "json/archetypes_antipaladin.json" },

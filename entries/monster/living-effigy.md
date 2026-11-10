@@ -2,6 +2,7 @@
 id = "ref/monster/living-effigy"
 kind = "creature"
 title = "Living Effigy"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Effigy"
 source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_effigy", path = "json/monsters16.json" },

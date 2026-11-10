@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/hunting-paladin"
 kind = "archetype"
 title = "Hunting Paladin"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Hunting%20Paladin"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunting_paladin", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/race/samsaran"
 kind = "race"
 title = "Samsaran"
+aon = "RacesDisplay.aspx?ItemName=Samsaran"
 source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-empires-gazetteer", "dragon-empires-primer"]
 race_group = "uncommon_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/feat/entwining-stare"
 kind = "feat"
 title = "Entwining Stare"
+aon = "FeatDisplay.aspx?ItemName=Entwining%20Stare"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entwining_stare", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/hymn-singer"
 kind = "feat"
 title = "Hymn Singer"
+aon = "FeatDisplay.aspx?ItemName=Hymn%20Singer"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_singer", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/believable-veils"
 kind = "feat"
 title = "Believable Veils"
+aon = "FeatDisplay.aspx?ItemName=Believable%20Veils"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "believable_veils", path = "json/feat02.json" },

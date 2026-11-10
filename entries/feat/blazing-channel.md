@@ -2,6 +2,7 @@
 id = "ref/feat/blazing-channel"
 kind = "feat"
 title = "Blazing Channel"
+aon = "FeatDisplay.aspx?ItemName=Blazing%20Channel"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_channel", path = "json/feat02.json" },

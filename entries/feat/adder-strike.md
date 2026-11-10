@@ -2,6 +2,7 @@
 id = "ref/feat/adder-strike"
 kind = "feat"
 title = "Adder Strike"
+aon = "FeatDisplay.aspx?ItemName=Adder%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adder_strike", path = "json/feat01.json" },

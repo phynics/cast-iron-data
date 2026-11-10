@@ -2,6 +2,7 @@
 id = "ref/trait/amoral-mercenary"
 kind = "trait"
 title = "Amoral Mercenary"
+aon = "TraitDisplay.aspx?ItemName=Amoral%20Mercenary"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amoral_mercenary", path = "json/traits02.json" },

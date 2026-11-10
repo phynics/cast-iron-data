@@ -2,6 +2,7 @@
 id = "ref/feat/longshanks"
 kind = "feat"
 title = "Longshanks"
+aon = "FeatDisplay.aspx?ItemName=Longshanks"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longshanks", path = "json/feat10.json" },

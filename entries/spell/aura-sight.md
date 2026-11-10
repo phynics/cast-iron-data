@@ -2,6 +2,7 @@
 id = "ref/spell/aura-sight"
 kind = "spell"
 title = "Aura Sight"
+aon = "SpellDisplay.aspx?ItemName=Aura%20Sight"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_sight", path = "json/spells.json" },

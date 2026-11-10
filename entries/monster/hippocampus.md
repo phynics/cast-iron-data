@@ -2,6 +2,7 @@
 id = "ref/monster/hippocampus"
 kind = "creature"
 title = "Hippocampus"
+aon = "MonsterDisplay.aspx?ItemName=Hippocampus"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippocampus", path = "json/monsters13.json" },

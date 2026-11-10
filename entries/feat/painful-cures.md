@@ -2,6 +2,7 @@
 id = "ref/feat/painful-cures"
 kind = "feat"
 title = "Painful Cures"
+aon = "FeatDisplay.aspx?ItemName=Painful%20Cures"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_cures", path = "json/feat11.json" },

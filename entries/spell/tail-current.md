@@ -2,6 +2,7 @@
 id = "ref/spell/tail-current"
 kind = "spell"
 title = "Tail Current"
+aon = "SpellDisplay.aspx?ItemName=Tail%20Current"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_current", path = "json/spells10.json" },

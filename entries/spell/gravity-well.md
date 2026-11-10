@@ -2,6 +2,7 @@
 id = "ref/spell/gravity-well"
 kind = "spell"
 title = "Gravity Well"
+aon = "SpellDisplay.aspx?ItemName=Gravity%20Well"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_well", path = "json/spells5.json" },

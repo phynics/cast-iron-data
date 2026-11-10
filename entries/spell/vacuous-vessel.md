@@ -2,6 +2,7 @@
 id = "ref/spell/vacuous-vessel"
 kind = "spell"
 title = "Vacuous Vessel"
+aon = "SpellDisplay.aspx?ItemName=Vacuous%20Vessel"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vacuous_vessel", path = "json/spells11.json" },

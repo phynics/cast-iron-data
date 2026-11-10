@@ -2,6 +2,7 @@
 id = "ref/spell/possession"
 kind = "spell"
 title = "Possession"
+aon = "SpellDisplay.aspx?ItemName=Possession"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession", path = "json/spells14.json" },

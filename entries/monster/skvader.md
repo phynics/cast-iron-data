@@ -2,6 +2,7 @@
 id = "ref/monster/skvader"
 kind = "creature"
 title = "Skvader"
+aon = "MonsterDisplay.aspx?ItemName=Skvader"
 source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skvader", path = "json/monsters22.json" },

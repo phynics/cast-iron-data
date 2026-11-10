@@ -2,6 +2,7 @@
 id = "ref/feat/steam-caster"
 kind = "feat"
 title = "Steam Caster"
+aon = "FeatDisplay.aspx?ItemName=Steam%20Caster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_caster", path = "json/feat15.json" },

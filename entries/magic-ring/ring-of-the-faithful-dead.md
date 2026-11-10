@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-faithful-dead"
 kind = "item"
 title = "Ring of the Faithful Dead"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Faithful%20Dead"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_faithful_dead", path = "json/magic_ring.json" },

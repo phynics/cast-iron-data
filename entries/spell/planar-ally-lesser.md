@@ -2,6 +2,7 @@
 id = "ref/spell/planar-ally-lesser"
 kind = "spell"
 title = "Lesser Planar Ally"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Ally%2C%20Lesser"
 source_ids = ["core-rulebook", "adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_ally_lesser", path = "json/spells7.json" },

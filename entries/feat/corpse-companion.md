@@ -2,6 +2,7 @@
 id = "ref/feat/corpse-companion"
 kind = "feat"
 title = "Corpse Companion"
+aon = "FeatDisplay.aspx?ItemName=Corpse%20Companion"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_companion", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/onyx-scourge"
 kind = "creature"
 title = "Onyx Scourge"
+aon = "MonsterDisplay.aspx?ItemName=Onyx%20Scourge"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onyx_scourge", path = "json/monsters18.json" },

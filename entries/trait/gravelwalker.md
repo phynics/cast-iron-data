@@ -2,6 +2,7 @@
 id = "ref/trait/gravelwalker"
 kind = "trait"
 title = "Gravelwalker"
+aon = "TraitDisplay.aspx?ItemName=Gravelwalker"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravelwalker", path = "json/traits04.json" },

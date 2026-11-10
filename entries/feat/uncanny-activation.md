@@ -2,6 +2,7 @@
 id = "ref/feat/uncanny-activation"
 kind = "feat"
 title = "Uncanny Activation"
+aon = "FeatDisplay.aspx?ItemName=Uncanny%20Activation"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_activation", path = "json/feat16.json" },

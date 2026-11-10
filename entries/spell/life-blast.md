@@ -2,6 +2,7 @@
 id = "ref/spell/life-blast"
 kind = "spell"
 title = "Life Blast"
+aon = "SpellDisplay.aspx?ItemName=Life%20Blast"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_blast", path = "json/spells6.json" },

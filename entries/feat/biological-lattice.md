@@ -2,6 +2,7 @@
 id = "ref/feat/biological-lattice"
 kind = "feat"
 title = "Biological Lattice"
+aon = "FeatDisplay.aspx?ItemName=Biological%20Lattice"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biological_lattice", path = "json/feat02.json" },

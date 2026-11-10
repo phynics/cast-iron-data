@@ -2,6 +2,7 @@
 id = "ref/trait/chaldiras-luck"
 kind = "trait"
 title = "Chaldira's Luck"
+aon = "TraitDisplay.aspx?ItemName=Chaldira%27s%20Luck"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaldiras_luck", path = "json/traits03.json" },

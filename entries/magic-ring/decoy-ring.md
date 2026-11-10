@@ -2,6 +2,7 @@
 id = "ref/magic-ring/decoy-ring"
 kind = "item"
 title = "Decoy Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Decoy%20Ring"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoy_ring", path = "json/magic_ring.json" },

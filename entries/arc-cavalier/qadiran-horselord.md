@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/qadiran-horselord"
 kind = "archetype"
 title = "Qadiran Horselord"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Qadiran%20Horselord"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qadiran_horselord", path = "json/archetypes_cavalier.json" },

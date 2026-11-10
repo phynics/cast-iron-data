@@ -2,6 +2,7 @@
 id = "ref/spell/psychic-image"
 kind = "spell"
 title = "Psychic Image"
+aon = "SpellDisplay.aspx?ItemName=Psychic%20Image"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_image", path = "json/spells15.json" },

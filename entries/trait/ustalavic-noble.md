@@ -2,6 +2,7 @@
 id = "ref/trait/ustalavic-noble"
 kind = "trait"
 title = "Ustalavic Noble"
+aon = "TraitDisplay.aspx?ItemName=Ustalavic%20Noble"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ustalavic_noble", path = "json/traits04.json" },

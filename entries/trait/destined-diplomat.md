@@ -2,6 +2,7 @@
 id = "ref/trait/destined-diplomat"
 kind = "trait"
 title = "Destined Diplomat"
+aon = "TraitDisplay.aspx?ItemName=Destined%20Diplomat"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destined_diplomat", path = "json/traits01.json" },

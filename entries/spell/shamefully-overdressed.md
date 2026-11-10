@@ -2,6 +2,7 @@
 id = "ref/spell/shamefully-overdressed"
 kind = "spell"
 title = "Shamefully Overdressed"
+aon = "SpellDisplay.aspx?ItemName=Shamefully%20Overdressed"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shamefully_overdressed", path = "json/spells15.json" },

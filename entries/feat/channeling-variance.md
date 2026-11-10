@@ -2,6 +2,7 @@
 id = "ref/feat/channeling-variance"
 kind = "feat"
 title = "Channeling Variance"
+aon = "FeatDisplay.aspx?ItemName=Channeling%20Variance"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeling_variance", path = "json/feat03.json" },

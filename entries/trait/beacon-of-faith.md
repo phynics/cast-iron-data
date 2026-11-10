@@ -2,6 +2,7 @@
 id = "ref/trait/beacon-of-faith"
 kind = "trait"
 title = "Beacon of Faith"
+aon = "TraitDisplay.aspx?ItemName=Beacon%20of%20Faith"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_faith", path = "json/traits01.json" },

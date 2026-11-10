@@ -2,6 +2,7 @@
 id = "ref/spell/detect-demon"
 kind = "spell"
 title = "Detect Demon"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Demon"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_demon", path = "json/spells3.json" },

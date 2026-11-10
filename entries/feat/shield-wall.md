@@ -2,6 +2,7 @@
 id = "ref/feat/shield-wall"
 kind = "feat"
 title = "Shield Wall"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Wall"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_wall", path = "json/feat14.json" },

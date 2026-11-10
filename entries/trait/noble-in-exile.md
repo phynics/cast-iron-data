@@ -2,6 +2,7 @@
 id = "ref/trait/noble-in-exile"
 kind = "trait"
 title = "Noble-in-Exile"
+aon = "TraitDisplay.aspx?ItemName=Noble-in-Exile"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_in_exile", path = "json/traits04.json" },

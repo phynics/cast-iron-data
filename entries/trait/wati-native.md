@@ -2,6 +2,7 @@
 id = "ref/trait/wati-native"
 kind = "trait"
 title = "Wati Native"
+aon = "TraitDisplay.aspx?ItemName=Wati%20Native"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wati_native", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-with-elemental-might"
 kind = "spell"
 title = "Imbue with Elemental Might"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20with%20Elemental%20Might"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_elemental_might", path = "json/spells14.json" },

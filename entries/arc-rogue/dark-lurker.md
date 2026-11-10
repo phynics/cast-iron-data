@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/dark-lurker"
 kind = "archetype"
 title = "Dark Lurker"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Dark%20Lurker"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_lurker", path = "json/archetypes_rogue.json" },

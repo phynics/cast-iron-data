@@ -2,6 +2,7 @@
 id = "ref/spell/khains-army"
 kind = "spell"
 title = "Khain's Army"
+aon = "SpellDisplay.aspx?ItemName=Khain%27s%20Army"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khains_army", path = "json/spells6.json" },

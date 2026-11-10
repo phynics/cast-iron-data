@@ -2,6 +2,7 @@
 id = "ref/feat/circuitous-shot"
 kind = "feat"
 title = "Circuitous Shot"
+aon = "FeatDisplay.aspx?ItemName=Circuitous%20Shot"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circuitous_shot", path = "json/feat03.json" },

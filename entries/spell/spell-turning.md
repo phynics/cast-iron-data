@@ -2,6 +2,7 @@
 id = "ref/spell/spell-turning"
 kind = "spell"
 title = "Spell Turning"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Turning"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_turning", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/zone-of-silence"
 kind = "spell"
 title = "Zone of Silence"
+aon = "SpellDisplay.aspx?ItemName=Zone%20of%20Silence"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zone_of_silence", path = "json/spells16.json" },

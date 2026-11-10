@@ -2,6 +2,7 @@
 id = "ref/race/rougarou"
 kind = "race"
 title = "Rougarou"
+aon = "RacesDisplay.aspx?ItemName=Rougarou"
 source_ids = ["bestiary-6"]
 race_group = "other_race"
 provenance = [

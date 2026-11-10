@@ -2,6 +2,7 @@
 id = "ref/feat/fast-change"
 kind = "feat"
 title = "Fast Change"
+aon = "FeatDisplay.aspx?ItemName=Fast%20Change"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_change", path = "json/feat06.json" },

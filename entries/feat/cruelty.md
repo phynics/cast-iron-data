@@ -2,6 +2,7 @@
 id = "ref/feat/cruelty"
 kind = "feat"
 title = "Cruelty"
+aon = "FeatDisplay.aspx?ItemName=Cruelty"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruelty", path = "json/feat04.json" },

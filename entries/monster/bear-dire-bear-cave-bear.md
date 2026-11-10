@@ -2,6 +2,7 @@
 id = "ref/monster/bear-dire-bear-cave-bear"
 kind = "creature"
 title = "Dire Bear (Cave Bear)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Bear%20%28Cave%20Bear%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_dire_bear_cave_bear", path = "json/monsters03.json" },

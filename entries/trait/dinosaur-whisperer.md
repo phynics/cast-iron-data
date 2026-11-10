@@ -2,6 +2,7 @@
 id = "ref/trait/dinosaur-whisperer"
 kind = "trait"
 title = "Dinosaur Whisperer"
+aon = "TraitDisplay.aspx?ItemName=Dinosaur%20Whisperer"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_whisperer", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/raging-regeneration"
 kind = "feat"
 title = "Raging Regeneration"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Regeneration"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_regeneration", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/hill-fighter"
 kind = "trait"
 title = "Hill Fighter"
+aon = "TraitDisplay.aspx?ItemName=Hill%20Fighter"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hill_fighter", path = "json/traits01.json" },

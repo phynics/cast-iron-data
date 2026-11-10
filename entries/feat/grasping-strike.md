@@ -2,6 +2,7 @@
 id = "ref/feat/grasping-strike"
 kind = "feat"
 title = "Grasping Strike"
+aon = "FeatDisplay.aspx?ItemName=Grasping%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_strike", path = "json/feat07.json" },

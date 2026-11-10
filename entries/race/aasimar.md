@@ -2,6 +2,7 @@
 id = "ref/race/aasimar"
 kind = "race"
 title = "Aasimar"
+aon = "RacesDisplay.aspx?ItemName=Aasimar"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-angels"]
 race_group = "featured_race"
 provenance = [

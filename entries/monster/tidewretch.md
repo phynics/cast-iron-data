@@ -2,6 +2,7 @@
 id = "ref/monster/tidewretch"
 kind = "creature"
 title = "Tidewretch"
+aon = "MonsterDisplay.aspx?ItemName=Tidewretch"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidewretch", path = "json/monsters39.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/sentinel"
 kind = "prestige_class"
 title = "Sentinel"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Sentinel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentinel", path = "json/prestige_classes3.json" },

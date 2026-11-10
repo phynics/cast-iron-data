@@ -2,6 +2,7 @@
 id = "ref/feat/piercing-gambit"
 kind = "feat"
 title = "Piercing Gambit"
+aon = "FeatDisplay.aspx?ItemName=Piercing%20Gambit"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_gambit", path = "json/feat12.json" },

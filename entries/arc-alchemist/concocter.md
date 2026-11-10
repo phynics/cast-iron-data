@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/concocter"
 kind = "archetype"
 title = "Concocter"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Concocter"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concocter", path = "json/archetypes_alchemist.json" },

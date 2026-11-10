@@ -2,6 +2,7 @@
 id = "ref/monster/warmonger-wasp"
 kind = "creature"
 title = "Warmonger Wasp"
+aon = "MonsterDisplay.aspx?ItemName=Warmonger%20Wasp"
 source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warmonger_wasp", path = "json/monsters25.json" },

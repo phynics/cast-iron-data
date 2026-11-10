@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-aura"
 kind = "spell"
 title = "Elemental Aura"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Aura"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_aura", path = "json/spells4.json" },

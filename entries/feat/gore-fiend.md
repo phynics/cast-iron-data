@@ -2,6 +2,7 @@
 id = "ref/feat/gore-fiend"
 kind = "feat"
 title = "Gore Fiend"
+aon = "FeatDisplay.aspx?ItemName=Gore%20Fiend"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gore_fiend", path = "json/feat07.json" },

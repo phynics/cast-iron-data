@@ -2,6 +2,7 @@
 id = "ref/spell/psychic-asylum"
 kind = "spell"
 title = "Psychic Asylum"
+aon = "SpellDisplay.aspx?ItemName=Psychic%20Asylum"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_asylum", path = "json/spells15.json" },

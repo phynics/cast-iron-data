@@ -2,6 +2,7 @@
 id = "ref/monster/coryphae"
 kind = "creature"
 title = "Coryphae"
+aon = "MonsterDisplay.aspx?ItemName=Coryphae"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coryphae", path = "json/monsters28.json" },

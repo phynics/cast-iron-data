@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/musketeer"
 kind = "archetype"
 title = "Musketeer"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Musketeer"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeer", path = "json/archetypes_cavalier.json" },

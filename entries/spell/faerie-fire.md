@@ -2,6 +2,7 @@
 id = "ref/spell/faerie-fire"
 kind = "spell"
 title = "Faerie Fire"
+aon = "SpellDisplay.aspx?ItemName=Faerie%20Fire"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faerie_fire", path = "json/spells4.json" },

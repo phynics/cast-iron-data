@@ -2,6 +2,7 @@
 id = "ref/feat/draconic-glide"
 kind = "feat"
 title = "Draconic Glide"
+aon = "FeatDisplay.aspx?ItemName=Draconic%20Glide"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_glide", path = "json/feat05.json" },

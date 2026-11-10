@@ -2,6 +2,7 @@
 id = "ref/spell/carve-passage"
 kind = "spell"
 title = "Carve Passage"
+aon = "SpellDisplay.aspx?ItemName=Carve%20Passage"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carve_passage", path = "json/spells2.json" },

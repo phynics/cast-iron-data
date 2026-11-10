@@ -2,6 +2,7 @@
 id = "ref/trait/sword-scion"
 kind = "trait"
 title = "Sword Scion"
+aon = "TraitDisplay.aspx?ItemName=Sword%20Scion"
 source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_scion", path = "json/traits02.json" },

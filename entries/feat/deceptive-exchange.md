@@ -2,6 +2,7 @@
 id = "ref/feat/deceptive-exchange"
 kind = "feat"
 title = "Deceptive Exchange"
+aon = "FeatDisplay.aspx?ItemName=Deceptive%20Exchange"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceptive_exchange", path = "json/feat04.json" },

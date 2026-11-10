@@ -2,6 +2,7 @@
 id = "ref/feat/swords-shadow"
 kind = "feat"
 title = "Sword's Shadow"
+aon = "FeatDisplay.aspx?ItemName=Sword%27s%20Shadow"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swords_shadow", path = "json/feat15.json" },

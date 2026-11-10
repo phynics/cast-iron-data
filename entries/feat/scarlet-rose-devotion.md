@@ -2,6 +2,7 @@
 id = "ref/feat/scarlet-rose-devotion"
 kind = "feat"
 title = "Scarlet Rose Devotion"
+aon = "FeatDisplay.aspx?ItemName=Scarlet%20Rose%20Devotion"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_rose_devotion", path = "json/feat13.json" },

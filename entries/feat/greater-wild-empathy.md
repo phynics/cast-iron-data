@@ -2,6 +2,7 @@
 id = "ref/feat/greater-wild-empathy"
 kind = "feat"
 title = "Greater Wild Empathy"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Wild%20Empathy"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_wild_empathy", path = "json/feat08.json" },

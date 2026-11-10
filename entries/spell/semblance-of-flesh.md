@@ -2,6 +2,7 @@
 id = "ref/spell/semblance-of-flesh"
 kind = "spell"
 title = "Semblance of Flesh"
+aon = "SpellDisplay.aspx?ItemName=Semblance%20of%20Flesh"
 source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "semblance_of_flesh", path = "json/spells15.json" },

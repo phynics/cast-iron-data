@@ -2,6 +2,7 @@
 id = "ref/spell/purify-food-and-drink"
 kind = "spell"
 title = "Purify Food and Drink"
+aon = "SpellDisplay.aspx?ItemName=Purify%20Food%20and%20Drink"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purify_food_and_drink", path = "json/spells15.json" },

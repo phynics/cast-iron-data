@@ -2,6 +2,7 @@
 id = "ref/spell/trail-of-the-rose"
 kind = "spell"
 title = "Trail of the Rose"
+aon = "SpellDisplay.aspx?ItemName=Trail%20of%20the%20Rose"
 source_ids = ["faiths-of-purity", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trail_of_the_rose", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/scarred-legion"
 kind = "feat"
 title = "Scarred Legion"
+aon = "FeatDisplay.aspx?ItemName=Scarred%20Legion"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_legion", path = "json/feat13.json" },

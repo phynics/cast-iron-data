@@ -2,6 +2,7 @@
 id = "ref/spell/pox-pustules"
 kind = "spell"
 title = "Pox Pustules"
+aon = "SpellDisplay.aspx?ItemName=Pox%20Pustules"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pox_pustules", path = "json/spells14.json" },

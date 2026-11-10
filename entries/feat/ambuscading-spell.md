@@ -2,6 +2,7 @@
 id = "ref/feat/ambuscading-spell"
 kind = "feat"
 title = "Ambuscading Spell"
+aon = "FeatDisplay.aspx?ItemName=Ambuscading%20Spell"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambuscading_spell", path = "json/feat01.json" },

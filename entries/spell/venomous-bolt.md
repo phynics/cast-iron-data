@@ -2,6 +2,7 @@
 id = "ref/spell/venomous-bolt"
 kind = "spell"
 title = "Venomous Bolt"
+aon = "SpellDisplay.aspx?ItemName=Venomous%20Bolt"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_bolt", path = "json/spells11.json" },

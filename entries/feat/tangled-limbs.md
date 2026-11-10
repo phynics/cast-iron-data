@@ -2,6 +2,7 @@
 id = "ref/feat/tangled-limbs"
 kind = "feat"
 title = "Tangled Limbs"
+aon = "FeatDisplay.aspx?ItemName=Tangled%20Limbs"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tangled_limbs", path = "json/feat16.json" },

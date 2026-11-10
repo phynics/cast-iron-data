@@ -2,6 +2,7 @@
 id = "ref/trait/buried-anxiety"
 kind = "trait"
 title = "Buried Anxiety"
+aon = "TraitDisplay.aspx?ItemName=Buried%20Anxiety"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buried_anxiety", path = "json/traits05.json" },

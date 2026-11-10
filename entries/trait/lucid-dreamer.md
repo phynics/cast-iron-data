@@ -2,6 +2,7 @@
 id = "ref/trait/lucid-dreamer"
 kind = "trait"
 title = "Lucid Dreamer"
+aon = "TraitDisplay.aspx?ItemName=Lucid%20Dreamer"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucid_dreamer", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/ostentatious-weakness"
 kind = "feat"
 title = "Ostentatious Weakness"
+aon = "FeatDisplay.aspx?ItemName=Ostentatious%20Weakness"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_weakness", path = "json/feat11.json" },

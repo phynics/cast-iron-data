@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-esoteric-dream-adult-dream-dragon"
 kind = "creature"
 title = "Adult Dream Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Dream%20Dragon"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_dream_adult_dream_dragon", path = "json/monsters31.json" },

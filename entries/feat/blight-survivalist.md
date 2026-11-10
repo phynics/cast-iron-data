@@ -2,6 +2,7 @@
 id = "ref/feat/blight-survivalist"
 kind = "feat"
 title = "Blight Survivalist"
+aon = "FeatDisplay.aspx?ItemName=Blight%20Survivalist"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_survivalist", path = "json/feat02.json" },

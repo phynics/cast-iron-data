@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/haunted-doll"
 kind = "item"
 title = "Haunted Doll"
+aon = "MagicCursedDisplay.aspx?ItemName=Haunted%20Doll"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_doll", path = "json/magic_wondrous_slotless03.json" },

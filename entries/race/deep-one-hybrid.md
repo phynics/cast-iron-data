@@ -2,6 +2,7 @@
 id = "ref/race/deep-one-hybrid"
 kind = "race"
 title = "Deep One Hybrid"
+aon = "RacesDisplay.aspx?ItemName=Deep%20One%20Hybrid"
 source_ids = ["bestiary-5"]
 race_group = "other_race"
 provenance = [

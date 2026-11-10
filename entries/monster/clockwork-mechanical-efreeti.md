@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-mechanical-efreeti"
 kind = "creature"
 title = "Mechanical Efreeti"
+aon = "MonsterDisplay.aspx?ItemName=Mechanical%20Efreeti"
 source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_mechanical_efreeti", path = "json/monsters05.json" },

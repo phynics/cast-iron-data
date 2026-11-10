@@ -2,6 +2,7 @@
 id = "ref/trait/slave-runner"
 kind = "trait"
 title = "Slave Runner"
+aon = "TraitDisplay.aspx?ItemName=Slave%20Runner"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave_runner", path = "json/traits01.json" },

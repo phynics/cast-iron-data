@@ -2,6 +2,7 @@
 id = "ref/monster/fext"
 kind = "creature"
 title = "Fext"
+aon = "MonsterDisplay.aspx?ItemName=Fext"
 source_ids = ["bestiary-5", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fext", path = "json/monsters10.json" },

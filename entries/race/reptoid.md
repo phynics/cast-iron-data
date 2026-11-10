@@ -2,6 +2,7 @@
 id = "ref/race/reptoid"
 kind = "race"
 title = "Reptoid"
+aon = "RacesDisplay.aspx?ItemName=Reptoid"
 source_ids = ["bestiary-5"]
 race_group = "other_race"
 provenance = [

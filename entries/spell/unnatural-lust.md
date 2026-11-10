@@ -2,6 +2,7 @@
 id = "ref/spell/unnatural-lust"
 kind = "spell"
 title = "Unnatural Lust"
+aon = "SpellDisplay.aspx?ItemName=Unnatural%20Lust"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unnatural_lust", path = "json/spells11.json" },

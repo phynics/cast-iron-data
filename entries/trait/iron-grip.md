@@ -2,6 +2,7 @@
 id = "ref/trait/iron-grip"
 kind = "trait"
 title = "Iron Grip"
+aon = "TraitDisplay.aspx?ItemName=Iron%20Grip"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_grip", path = "json/traits03.json" },

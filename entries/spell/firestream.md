@@ -2,6 +2,7 @@
 id = "ref/spell/firestream"
 kind = "spell"
 title = "Firestream"
+aon = "SpellDisplay.aspx?ItemName=Firestream"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firestream", path = "json/spells4.json" },

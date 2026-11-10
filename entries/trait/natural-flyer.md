@@ -2,6 +2,7 @@
 id = "ref/trait/natural-flyer"
 kind = "trait"
 title = "Natural Flyer"
+aon = "TraitDisplay.aspx?ItemName=Natural%20Flyer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_flyer", path = "json/traits01.json" },

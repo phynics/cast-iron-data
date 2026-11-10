@@ -2,6 +2,7 @@
 id = "ref/spell/mind-maze"
 kind = "spell"
 title = "Mind Maze"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Maze"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_maze", path = "json/spells14.json" },

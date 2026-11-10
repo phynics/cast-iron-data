@@ -2,6 +2,7 @@
 id = "ref/trait/twisted-transformations"
 kind = "trait"
 title = "Twisted Transformations"
+aon = "TraitDisplay.aspx?ItemName=Twisted%20Transformations"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_transformations", path = "json/traits03.json" },

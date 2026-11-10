@@ -2,6 +2,7 @@
 id = "ref/spell/mantle-of-the-magic-warriors"
 kind = "spell"
 title = "Mantle of the Magic Warriors"
+aon = "SpellDisplay.aspx?ItemName=Mantle%20of%20the%20Magic%20Warriors"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_magic_warriors", path = "json/spells6.json" },

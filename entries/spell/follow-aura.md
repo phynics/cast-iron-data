@@ -2,6 +2,7 @@
 id = "ref/spell/follow-aura"
 kind = "spell"
 title = "Follow Aura"
+aon = "SpellDisplay.aspx?ItemName=Follow%20Aura"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_aura", path = "json/spells13.json" },

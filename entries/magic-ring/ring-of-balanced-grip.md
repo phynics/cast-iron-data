@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-balanced-grip"
 kind = "item"
 title = "Ring of Balanced Grip"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Balanced%20Grip"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_balanced_grip", path = "json/magic_ring.json" },

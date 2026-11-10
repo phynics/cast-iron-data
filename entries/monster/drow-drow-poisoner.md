@@ -2,6 +2,7 @@
 id = "ref/monster/drow-drow-poisoner"
 kind = "creature"
 title = "Drow Poisoner"
+aon = "MonsterDisplay.aspx?ItemName=Drow%20Poisoner"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_drow_poisoner", path = "json/monsters08.json" },

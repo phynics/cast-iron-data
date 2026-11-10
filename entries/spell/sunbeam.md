@@ -2,6 +2,7 @@
 id = "ref/spell/sunbeam"
 kind = "spell"
 title = "Sunbeam"
+aon = "SpellDisplay.aspx?ItemName=Sunbeam"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunbeam", path = "json/spells16.json" },

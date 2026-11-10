@@ -2,6 +2,7 @@
 id = "ref/feat/armored-athlete"
 kind = "feat"
 title = "Armored Athlete"
+aon = "FeatDisplay.aspx?ItemName=Armored%20Athlete"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_athlete", path = "json/feat01.json" },

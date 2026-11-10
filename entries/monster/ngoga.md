@@ -2,6 +2,7 @@
 id = "ref/monster/ngoga"
 kind = "creature"
 title = "Ngoga"
+aon = "MonsterDisplay.aspx?ItemName=Ngoga"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ngoga", path = "json/monsters36.json" },

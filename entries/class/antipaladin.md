@@ -2,6 +2,7 @@
 id = "ref/class/antipaladin"
 kind = "class"
 title = "Antipaladin"
+aon = "ClassDisplay.aspx?ItemName=Antipaladin"
 source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "plane-hoppers-handbook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antipaladin", path = "json/classes.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-witch/season-witch"
 kind = "archetype"
 title = "Season Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Season%20Witch"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "season_witch", path = "json/archetypes_witch.json" },

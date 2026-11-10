@@ -2,6 +2,7 @@
 id = "ref/feat/horn-riders-charge"
 kind = "feat"
 title = "Horn Rider's Charge"
+aon = "FeatDisplay.aspx?ItemName=Horn%20Rider%27s%20Charge"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_riders_charge", path = "json/feat08.json" },

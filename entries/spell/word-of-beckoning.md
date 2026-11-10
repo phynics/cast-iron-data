@@ -2,6 +2,7 @@
 id = "ref/spell/word-of-beckoning"
 kind = "spell"
 title = "Word of Beckoning"
+aon = "SpellDisplay.aspx?ItemName=Word%20of%20Beckoning"
 source_ids = ["core-rulebook", "pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_beckoning", path = "json/spells15.json" },

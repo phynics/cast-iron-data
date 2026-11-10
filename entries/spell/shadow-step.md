@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-step"
 kind = "spell"
 title = "Shadow Step"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Step"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_step", path = "json/spells15.json" },

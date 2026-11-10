@@ -2,6 +2,7 @@
 id = "ref/feat/sorcerous-strike"
 kind = "feat"
 title = "Sorcerous Strike"
+aon = "FeatDisplay.aspx?ItemName=Sorcerous%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerous_strike", path = "json/feat14.json" },

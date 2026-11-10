@@ -2,6 +2,7 @@
 id = "ref/feat/extra-gnome-magic"
 kind = "feat"
 title = "Extra Gnome Magic"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Gnome%20Magic"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_gnome_magic", path = "json/feat06.json" },

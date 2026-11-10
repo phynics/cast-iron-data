@@ -2,6 +2,7 @@
 id = "ref/feat/improved-unarmed-strike"
 kind = "feat"
 title = "Improved Unarmed Strike"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_unarmed_strike", path = "json/feat09.json" },

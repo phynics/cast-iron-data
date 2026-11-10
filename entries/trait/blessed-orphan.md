@@ -2,6 +2,7 @@
 id = "ref/trait/blessed-orphan"
 kind = "trait"
 title = "Blessed Orphan"
+aon = "TraitDisplay.aspx?ItemName=Blessed%20Orphan"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_orphan", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/curse-item"
 kind = "spell"
 title = "Curse Item"
+aon = "SpellDisplay.aspx?ItemName=Curse%20Item"
 source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_item", path = "json/spells3.json" },

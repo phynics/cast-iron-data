@@ -2,6 +2,7 @@
 id = "ref/spell/obscured-script"
 kind = "spell"
 title = "Obscured Script"
+aon = "SpellDisplay.aspx?ItemName=Obscured%20Script"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscured_script", path = "json/spells7.json" },

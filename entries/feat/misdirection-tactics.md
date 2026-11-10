@@ -2,6 +2,7 @@
 id = "ref/feat/misdirection-tactics"
 kind = "feat"
 title = "Misdirection Tactics"
+aon = "FeatDisplay.aspx?ItemName=Misdirection%20Tactics"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection_tactics", path = "json/feat10.json" },

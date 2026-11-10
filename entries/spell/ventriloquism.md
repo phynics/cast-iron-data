@@ -2,6 +2,7 @@
 id = "ref/spell/ventriloquism"
 kind = "spell"
 title = "Ventriloquism"
+aon = "SpellDisplay.aspx?ItemName=Ventriloquism"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ventriloquism", path = "json/spells11.json" },

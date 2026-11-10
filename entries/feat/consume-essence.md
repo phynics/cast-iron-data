@@ -2,6 +2,7 @@
 id = "ref/feat/consume-essence"
 kind = "feat"
 title = "Consume Essence"
+aon = "FeatDisplay.aspx?ItemName=Consume%20Essence"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consume_essence", path = "json/feat03.json" },

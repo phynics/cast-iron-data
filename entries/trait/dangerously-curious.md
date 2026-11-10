@@ -2,6 +2,7 @@
 id = "ref/trait/dangerously-curious"
 kind = "trait"
 title = "Dangerously Curious"
+aon = "TraitDisplay.aspx?ItemName=Dangerously%20Curious"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dangerously_curious", path = "json/traits02.json" },

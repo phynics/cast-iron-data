@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-shot"
 kind = "feat"
 title = "Rapid Shot"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Shot"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_shot", path = "json/feat13.json" },

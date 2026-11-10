@@ -2,6 +2,7 @@
 id = "ref/monster/shenzuzhou"
 kind = "creature"
 title = "Shenzuzhou"
+aon = "MonsterDisplay.aspx?ItemName=Shenzuzhou"
 source_ids = ["the-ruby-phoenix-tournament"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shenzuzhou", path = "json/monsters38.json" },

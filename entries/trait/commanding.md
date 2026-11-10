@@ -2,6 +2,7 @@
 id = "ref/trait/commanding"
 kind = "trait"
 title = "Commanding"
+aon = "TraitDisplay.aspx?ItemName=Commanding"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commanding", path = "json/traits05.json" },

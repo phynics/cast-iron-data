@@ -2,6 +2,7 @@
 id = "ref/trait/zealous-garundi"
 kind = "trait"
 title = "Zealous (Garundi)"
+aon = "TraitDisplay.aspx?ItemName=Zealous%20%28Garundi%29"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zealous_garundi", path = "json/traits05.json" },

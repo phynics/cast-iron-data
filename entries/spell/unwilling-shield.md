@@ -2,6 +2,7 @@
 id = "ref/spell/unwilling-shield"
 kind = "spell"
 title = "Unwilling Shield"
+aon = "SpellDisplay.aspx?ItemName=Unwilling%20Shield"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwilling_shield", path = "json/spells11.json" },

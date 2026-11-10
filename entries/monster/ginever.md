@@ -2,6 +2,7 @@
 id = "ref/monster/ginever"
 kind = "creature"
 title = "Ginever"
+aon = "MonsterDisplay.aspx?ItemName=Ginever"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ginever", path = "json/monsters12.json" },

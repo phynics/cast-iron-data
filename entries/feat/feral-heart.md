@@ -2,6 +2,7 @@
 id = "ref/feat/feral-heart"
 kind = "feat"
 title = "Feral Heart"
+aon = "FeatDisplay.aspx?ItemName=Feral%20Heart"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_heart", path = "json/feat07.json" },

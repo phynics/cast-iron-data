@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-outsiders"
 kind = "spell"
 title = "Protection from Outsiders"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Outsiders"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_outsiders", path = "json/spells15.json" },

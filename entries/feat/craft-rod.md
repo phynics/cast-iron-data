@@ -2,6 +2,7 @@
 id = "ref/feat/craft-rod"
 kind = "feat"
 title = "Craft Rod"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Rod"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_rod", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-other-faerie-dragon"
 kind = "creature"
 title = "Faerie Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Faerie%20Dragon"
 source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_faerie_dragon", path = "json/monsters42.json" },

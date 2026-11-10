@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/umbral-mesmerist"
 kind = "archetype"
 title = "Umbral Mesmerist"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Umbral%20Mesmerist"
 source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_mesmerist", path = "json/archetypes_mesmerist.json" },

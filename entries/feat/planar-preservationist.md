@@ -2,6 +2,7 @@
 id = "ref/feat/planar-preservationist"
 kind = "feat"
 title = "Planar Preservationist"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Preservationist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_preservationist", path = "json/feat12.json" },

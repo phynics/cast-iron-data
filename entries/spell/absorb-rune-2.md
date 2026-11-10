@@ -2,6 +2,7 @@
 id = "ref/spell/absorb-rune-2"
 kind = "spell"
 title = "Absorb Rune II"
+aon = "SpellDisplay.aspx?ItemName=Absorb%20Rune%20II"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_rune_2", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/wrecking-wrath"
 kind = "trait"
 title = "Wrecking Wrath"
+aon = "TraitDisplay.aspx?ItemName=Wrecking%20Wrath"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrecking_wrath", path = "json/traits03.json" },

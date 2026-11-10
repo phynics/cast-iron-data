@@ -2,6 +2,7 @@
 id = "ref/trait/kobold-faith"
 kind = "trait"
 title = "Kobold Faith"
+aon = "TraitDisplay.aspx?ItemName=Kobold%20Faith"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_faith", path = "json/traits05.json" },

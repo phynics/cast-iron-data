@@ -2,6 +2,7 @@
 id = "ref/trait/dark-magic-affinity"
 kind = "trait"
 title = "Dark Magic Affinity"
+aon = "TraitDisplay.aspx?ItemName=Dark%20Magic%20Affinity"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_magic_affinity", path = "json/traits05.json" },

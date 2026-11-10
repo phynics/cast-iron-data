@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/zombie/juju"
 kind = "creature"
 title = "Zombie, Juju"
+aon = "MonsterDisplay.aspx?ItemName=Juju%20Zombie"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Zombie"]
 tags = ["undead", "augmented human", "medium"]

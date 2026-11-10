@@ -2,6 +2,7 @@
 id = "ref/arc-magus/spell-trapper"
 kind = "archetype"
 title = "Spell Trapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Spell%20Trapper"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_trapper", path = "json/archetypes_magus.json" },

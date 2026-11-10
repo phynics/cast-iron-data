@@ -2,6 +2,7 @@
 id = "ref/feat/ooze-whisperer"
 kind = "feat"
 title = "Ooze Whisperer"
+aon = "FeatDisplay.aspx?ItemName=Ooze%20Whisperer"
 source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_whisperer", path = "json/feat11.json" },

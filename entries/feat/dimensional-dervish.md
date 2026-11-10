@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-dervish"
 kind = "feat"
 title = "Dimensional Dervish"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Dervish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_dervish", path = "json/feat04.json" },

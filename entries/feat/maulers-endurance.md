@@ -2,6 +2,7 @@
 id = "ref/feat/maulers-endurance"
 kind = "feat"
 title = "Mauler's Endurance"
+aon = "FeatDisplay.aspx?ItemName=Mauler%27s%20Endurance"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maulers_endurance", path = "json/feat10.json" },

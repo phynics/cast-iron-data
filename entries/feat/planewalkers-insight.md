@@ -2,6 +2,7 @@
 id = "ref/feat/planewalkers-insight"
 kind = "feat"
 title = "Planewalker's Insight"
+aon = "FeatDisplay.aspx?ItemName=Planewalker%27s%20Insight"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planewalkers_insight", path = "json/feat12.json" },

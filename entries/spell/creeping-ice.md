@@ -2,6 +2,7 @@
 id = "ref/spell/creeping-ice"
 kind = "spell"
 title = "Creeping Ice"
+aon = "SpellDisplay.aspx?ItemName=Creeping%20Ice"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping_ice", path = "json/spells3.json" },

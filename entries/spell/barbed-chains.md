@@ -2,6 +2,7 @@
 id = "ref/spell/barbed-chains"
 kind = "spell"
 title = "Barbed Chains"
+aon = "SpellDisplay.aspx?ItemName=Barbed%20Chains"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_chains", path = "json/spells12.json" },

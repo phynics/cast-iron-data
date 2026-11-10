@@ -2,6 +2,7 @@
 id = "ref/trait/eldritch-auditor"
 kind = "trait"
 title = "Eldritch Auditor"
+aon = "TraitDisplay.aspx?ItemName=Eldritch%20Auditor"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_auditor", path = "json/traits02.json" },

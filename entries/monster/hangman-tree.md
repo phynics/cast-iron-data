@@ -2,6 +2,7 @@
 id = "ref/monster/hangman-tree"
 kind = "creature"
 title = "Hangman Tree"
+aon = "MonsterDisplay.aspx?ItemName=Hangman%20Tree"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hangman_tree", path = "json/monsters13.json" },

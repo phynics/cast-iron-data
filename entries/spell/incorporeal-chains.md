@@ -2,6 +2,7 @@
 id = "ref/spell/incorporeal-chains"
 kind = "spell"
 title = "Incorporeal Chains"
+aon = "SpellDisplay.aspx?ItemName=Incorporeal%20Chains"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incorporeal_chains", path = "json/spells14.json" },

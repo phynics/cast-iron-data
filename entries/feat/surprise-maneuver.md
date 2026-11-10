@@ -2,6 +2,7 @@
 id = "ref/feat/surprise-maneuver"
 kind = "feat"
 title = "Surprise Maneuver"
+aon = "FeatDisplay.aspx?ItemName=Surprise%20Maneuver"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprise_maneuver", path = "json/feat15.json" },

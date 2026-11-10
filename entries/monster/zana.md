@@ -2,6 +2,7 @@
 id = "ref/monster/zana"
 kind = "creature"
 title = "Zana"
+aon = "MonsterDisplay.aspx?ItemName=Zana"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zana", path = "json/monsters41.json" },

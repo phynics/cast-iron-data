@@ -2,6 +2,7 @@
 id = "ref/arc-bard/busker"
 kind = "archetype"
 title = "Busker"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Busker"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "busker", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/guardian-of-faith"
 kind = "spell"
 title = "Guardian of Faith"
+aon = "SpellDisplay.aspx?ItemName=Guardian%20of%20Faith"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_of_faith", path = "json/spells5.json" },

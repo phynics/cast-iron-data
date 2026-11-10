@@ -2,6 +2,7 @@
 id = "ref/spell/trial-by-fire"
 kind = "spell"
 title = "Trial by Fire"
+aon = "SpellDisplay.aspx?ItemName=Trial%20by%20Fire"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trial_by_fire", path = "json/spells10.json" },

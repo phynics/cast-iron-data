@@ -2,6 +2,7 @@
 id = "ref/feat/fox-shape"
 kind = "feat"
 title = "Fox Shape"
+aon = "FeatDisplay.aspx?ItemName=Fox%20Shape"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fox_shape", path = "json/feat07.json" },

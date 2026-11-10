@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/pyroclast"
 kind = "archetype"
 title = "Pyroclast"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Pyroclast"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyroclast", path = "json/archetypes_summoner.json" },

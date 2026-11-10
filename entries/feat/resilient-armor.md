@@ -2,6 +2,7 @@
 id = "ref/feat/resilient-armor"
 kind = "feat"
 title = "Resilient Armor"
+aon = "FeatDisplay.aspx?ItemName=Resilient%20Armor"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_armor", path = "json/feat13.json" },

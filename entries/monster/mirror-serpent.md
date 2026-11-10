@@ -2,6 +2,7 @@
 id = "ref/monster/mirror-serpent"
 kind = "creature"
 title = "Mirror Serpent"
+aon = "MonsterDisplay.aspx?ItemName=Mirror%20Serpent"
 source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_serpent", path = "json/monsters17.json" },

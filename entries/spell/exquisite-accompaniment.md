@@ -2,6 +2,7 @@
 id = "ref/spell/exquisite-accompaniment"
 kind = "spell"
 title = "Exquisite Accompaniment"
+aon = "SpellDisplay.aspx?ItemName=Exquisite%20Accompaniment"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exquisite_accompaniment", path = "json/spells4.json" },

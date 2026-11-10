@@ -2,6 +2,7 @@
 id = "ref/feat/healing-potion"
 kind = "feat"
 title = "Healing Potion"
+aon = "FeatDisplay.aspx?ItemName=Healing%20Potion"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_potion", path = "json/feat08.json" },

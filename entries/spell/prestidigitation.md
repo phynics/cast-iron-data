@@ -2,6 +2,7 @@
 id = "ref/spell/prestidigitation"
 kind = "spell"
 title = "Prestidigitation"
+aon = "SpellDisplay.aspx?ItemName=Prestidigitation"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestidigitation", path = "json/spells14.json" },

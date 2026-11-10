@@ -2,6 +2,7 @@
 id = "ref/trait/wolf-cub"
 kind = "trait"
 title = "Wolf Cub"
+aon = "TraitDisplay.aspx?ItemName=Wolf%20Cub"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_cub", path = "json/traits03.json" },

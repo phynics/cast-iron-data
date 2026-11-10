@@ -2,6 +2,7 @@
 id = "ref/spell/minor-creation"
 kind = "spell"
 title = "Minor Creation"
+aon = "SpellDisplay.aspx?ItemName=Minor%20Creation"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_creation", path = "json/spells14.json" },

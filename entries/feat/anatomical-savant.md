@@ -2,6 +2,7 @@
 id = "ref/feat/anatomical-savant"
 kind = "feat"
 title = "Anatomical Savant"
+aon = "FeatDisplay.aspx?ItemName=Anatomical%20Savant"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anatomical_savant", path = "json/feat01.json" },

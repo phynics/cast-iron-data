@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-counterspells"
 kind = "item"
 title = "Ring of Counterspells"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Counterspells"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_counterspells", path = "json/magic_ring.json" },

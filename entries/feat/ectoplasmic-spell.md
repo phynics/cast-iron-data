@@ -2,6 +2,7 @@
 id = "ref/feat/ectoplasmic-spell"
 kind = "feat"
 title = "Ectoplasmic Spell"
+aon = "FeatDisplay.aspx?ItemName=Ectoplasmic%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_spell", path = "json/feat05.json" },

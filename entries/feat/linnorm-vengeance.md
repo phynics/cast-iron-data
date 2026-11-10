@@ -2,6 +2,7 @@
 id = "ref/feat/linnorm-vengeance"
 kind = "feat"
 title = "Linnorm Vengeance"
+aon = "FeatDisplay.aspx?ItemName=Linnorm%20Vengeance"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_vengeance", path = "json/feat10.json" },

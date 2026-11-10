@@ -2,6 +2,7 @@
 id = "ref/feat/juju-way"
 kind = "feat"
 title = "Juju Way"
+aon = "FeatDisplay.aspx?ItemName=Juju%20Way"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juju_way", path = "json/feat09.json" },

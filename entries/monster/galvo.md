@@ -2,6 +2,7 @@
 id = "ref/monster/galvo"
 kind = "creature"
 title = "Galvo"
+aon = "MonsterDisplay.aspx?ItemName=Galvo"
 source_ids = ["bestiary-4", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galvo", path = "json/monsters11.json" },

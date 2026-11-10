@@ -2,6 +2,7 @@
 id = "ref/trait/river-acumen"
 kind = "trait"
 title = "River Acumen"
+aon = "TraitDisplay.aspx?ItemName=River%20Acumen"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_acumen", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/blight-cave-blight"
 kind = "creature"
 title = "Cave Blight"
+aon = "MonsterDisplay.aspx?ItemName=Cave%20Blight"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_cave_blight", path = "json/monsters27.json" },

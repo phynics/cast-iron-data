@@ -2,6 +2,7 @@
 id = "ref/spell/aversion"
 kind = "spell"
 title = "Aversion"
+aon = "SpellDisplay.aspx?ItemName=Aversion"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aversion", path = "json/spells.json" },

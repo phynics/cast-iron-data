@@ -2,6 +2,7 @@
 id = "ref/magic-staff/ember-staff"
 kind = "item"
 title = "Ember Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Ember%20Staff"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ember_staff", path = "json/magic_staff.json" },

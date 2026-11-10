@@ -2,6 +2,7 @@
 id = "ref/spell/telepathic-censure"
 kind = "spell"
 title = "Telepathic Censure"
+aon = "SpellDisplay.aspx?ItemName=Telepathic%20Censure"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_censure", path = "json/spells10.json" },

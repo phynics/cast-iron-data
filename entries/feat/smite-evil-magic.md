@@ -2,6 +2,7 @@
 id = "ref/feat/smite-evil-magic"
 kind = "feat"
 title = "Smite Evil Magic"
+aon = "FeatDisplay.aspx?ItemName=Smite%20Evil%20Magic"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smite_evil_magic", path = "json/feat14.json" },

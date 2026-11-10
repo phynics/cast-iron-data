@@ -2,6 +2,7 @@
 id = "ref/spell/instigate-psychic-duel"
 kind = "spell"
 title = "Instigate Psychic Duel"
+aon = "SpellDisplay.aspx?ItemName=Instigate%20Psychic%20Duel"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instigate_psychic_duel", path = "json/spells14.json" },

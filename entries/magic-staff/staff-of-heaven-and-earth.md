@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-heaven-and-earth"
 kind = "item"
 title = "Staff of Heaven and Earth"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Heaven%20and%20Earth"
 source_ids = ["ultimate-equipment", "pathfinder-4-fortress-of-the-stone-giants", "rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_heaven_and_earth", path = "json/magic_staff.json" },

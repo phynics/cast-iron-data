@@ -2,6 +2,7 @@
 id = "ref/domain/travel"
 kind = "class_option"
 title = "Travel"
+aon = "DomainDisplay.aspx?ItemName=Travel"
 source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travel", path = "json/class_ability_domains3.json" },

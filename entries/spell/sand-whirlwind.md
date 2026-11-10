@@ -2,6 +2,7 @@
 id = "ref/spell/sand-whirlwind"
 kind = "spell"
 title = "Sand Whirlwind"
+aon = "SpellDisplay.aspx?ItemName=Sand%20Whirlwind"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_whirlwind", path = "json/spells8.json" },

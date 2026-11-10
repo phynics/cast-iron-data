@@ -2,6 +2,7 @@
 id = "ref/feat/merciless-beating"
 kind = "feat"
 title = "Merciless Beating"
+aon = "FeatDisplay.aspx?ItemName=Merciless%20Beating"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_beating", path = "json/feat10.json" },

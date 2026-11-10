@@ -2,6 +2,7 @@
 id = "ref/spell/keen-senses"
 kind = "spell"
 title = "Keen Senses"
+aon = "SpellDisplay.aspx?ItemName=Keen%20Senses"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_senses", path = "json/spells6.json" },

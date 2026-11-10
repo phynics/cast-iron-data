@@ -2,6 +2,7 @@
 id = "ref/trait/infernal-influence"
 kind = "trait"
 title = "Infernal Influence"
+aon = "TraitDisplay.aspx?ItemName=Infernal%20Influence"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_influence", path = "json/traits05.json" },

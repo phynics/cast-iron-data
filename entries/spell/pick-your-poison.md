@@ -2,6 +2,7 @@
 id = "ref/spell/pick-your-poison"
 kind = "spell"
 title = "Pick Your Poison"
+aon = "SpellDisplay.aspx?ItemName=Pick%20Your%20Poison"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pick_your_poison", path = "json/spells7.json" },

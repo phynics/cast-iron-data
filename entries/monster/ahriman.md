@@ -2,6 +2,7 @@
 id = "ref/monster/ahriman"
 kind = "creature"
 title = "Ahriman, Lord of All Divs"
+aon = "MonsterDisplay.aspx?ItemName=Ahriman%2C%20Lord%20of%20All%20Divs"
 source_ids = ["mythic-realms", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahriman", path = "json/monsters_unique.json" },

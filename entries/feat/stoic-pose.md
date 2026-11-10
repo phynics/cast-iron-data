@@ -2,6 +2,7 @@
 id = "ref/feat/stoic-pose"
 kind = "feat"
 title = "Stoic Pose"
+aon = "FeatDisplay.aspx?ItemName=Stoic%20Pose"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoic_pose", path = "json/feat15.json" },

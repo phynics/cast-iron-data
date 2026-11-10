@@ -2,6 +2,7 @@
 id = "ref/feat/eclipsed-spell"
 kind = "feat"
 title = "Eclipsed Spell"
+aon = "FeatDisplay.aspx?ItemName=Eclipsed%20Spell"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eclipsed_spell", path = "json/feat05.json" },

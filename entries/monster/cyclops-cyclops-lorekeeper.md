@@ -2,6 +2,7 @@
 id = "ref/monster/cyclops-cyclops-lorekeeper"
 kind = "creature"
 title = "Cyclops Lorekeeper"
+aon = "MonsterDisplay.aspx?ItemName=Cyclops%20Lorekeeper"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_lorekeeper", path = "json/monsters06.json" },

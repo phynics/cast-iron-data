@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/primal-hunter"
 kind = "archetype"
 title = "Primal Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Primal%20Hunter"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_hunter", path = "json/archetypes_barbarian.json" },

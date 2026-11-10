@@ -2,6 +2,7 @@
 id = "ref/trait/unbreakable-survivor"
 kind = "trait"
 title = "Unbreakable Survivor"
+aon = "TraitDisplay.aspx?ItemName=Unbreakable%20Survivor"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_survivor", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/triaza"
 kind = "creature"
 title = "Triaza"
+aon = "MonsterDisplay.aspx?ItemName=Triaza"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaza", path = "json/monsters_unique4.json" },

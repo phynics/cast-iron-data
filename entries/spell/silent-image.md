@@ -2,6 +2,7 @@
 id = "ref/spell/silent-image"
 kind = "spell"
 title = "Silent Image"
+aon = "SpellDisplay.aspx?ItemName=Silent%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_image", path = "json/spells9.json" },

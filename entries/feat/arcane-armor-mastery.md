@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-armor-mastery"
 kind = "feat"
 title = "Arcane Armor Mastery"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Armor%20Mastery"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_armor_mastery", path = "json/feat01.json" },

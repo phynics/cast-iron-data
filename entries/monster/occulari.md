@@ -2,6 +2,7 @@
 id = "ref/monster/occulari"
 kind = "creature"
 title = "Occulari"
+aon = "MonsterDisplay.aspx?ItemName=Occulari"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occulari", path = "json/monsters18.json" },

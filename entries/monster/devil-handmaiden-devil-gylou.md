@@ -2,6 +2,7 @@
 id = "ref/monster/devil-handmaiden-devil-gylou"
 kind = "creature"
 title = "Handmaiden Devil (Gylou)"
+aon = "MonsterDisplay.aspx?ItemName=Handmaiden%20Devil%20%28Gylou%29"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_handmaiden_devil_gylou", path = "json/monsters07.json" },

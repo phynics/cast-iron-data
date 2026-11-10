@@ -2,6 +2,7 @@
 id = "ref/trait/monster-hunter"
 kind = "trait"
 title = "Monster Hunter"
+aon = "TraitDisplay.aspx?ItemName=Monster%20Hunter"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_hunter", path = "json/traits02.json" },

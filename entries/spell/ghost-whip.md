@@ -2,6 +2,7 @@
 id = "ref/spell/ghost-whip"
 kind = "spell"
 title = "Ghost Whip"
+aon = "SpellDisplay.aspx?ItemName=Ghost%20Whip"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_whip", path = "json/spells13.json" },

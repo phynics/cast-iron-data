@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/broom-of-animated-attack"
 kind = "item"
 title = "Broom of Animated Attack"
+aon = "MagicCursedDisplay.aspx?ItemName=Broom%20of%20Animated%20Attack"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broom_of_animated_attack", path = "json/magic_wondrous_slotless01.json" },

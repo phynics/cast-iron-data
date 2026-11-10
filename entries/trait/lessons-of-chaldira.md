@@ -2,6 +2,7 @@
 id = "ref/trait/lessons-of-chaldira"
 kind = "trait"
 title = "Lessons of Chaldira"
+aon = "TraitDisplay.aspx?ItemName=Lessons%20of%20Chaldira"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lessons_of_chaldira", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/pure-legion-enforcer"
 kind = "prestige_class"
 title = "Pure Legion Enforcer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pure%20Legion%20Enforcer"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legion_enforcer", path = "json/prestige_classes4.json" },

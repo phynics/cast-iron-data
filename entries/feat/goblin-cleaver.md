@@ -2,6 +2,7 @@
 id = "ref/feat/goblin-cleaver"
 kind = "feat"
 title = "Goblin Cleaver"
+aon = "FeatDisplay.aspx?ItemName=Goblin%20Cleaver"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_cleaver", path = "json/feat07.json" },

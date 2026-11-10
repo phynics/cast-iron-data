@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/counterfeit-mage"
 kind = "archetype"
 title = "Counterfeit Mage"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Counterfeit%20Mage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterfeit_mage", path = "json/archetypes_rogue.json" },

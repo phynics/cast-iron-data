@@ -2,6 +2,7 @@
 id = "ref/trait/fatal-trapper"
 kind = "trait"
 title = "Fatal Trapper"
+aon = "TraitDisplay.aspx?ItemName=Fatal%20Trapper"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fatal_trapper", path = "json/traits03.json" },

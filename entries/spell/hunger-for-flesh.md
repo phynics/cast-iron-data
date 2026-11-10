@@ -2,6 +2,7 @@
 id = "ref/spell/hunger-for-flesh"
 kind = "spell"
 title = "Hunger for Flesh"
+aon = "SpellDisplay.aspx?ItemName=Hunger%20for%20Flesh"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunger_for_flesh", path = "json/spells5.json" },

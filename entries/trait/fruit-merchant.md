@@ -2,6 +2,7 @@
 id = "ref/trait/fruit-merchant"
 kind = "trait"
 title = "Fruit Merchant"
+aon = "TraitDisplay.aspx?ItemName=Fruit%20Merchant"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fruit_merchant", path = "json/traits04.json" },

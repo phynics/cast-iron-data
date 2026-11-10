@@ -2,6 +2,7 @@
 id = "ref/spell/make-lost"
 kind = "spell"
 title = "Make Lost"
+aon = "SpellDisplay.aspx?ItemName=Make%20Lost"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_lost", path = "json/spells6.json" },

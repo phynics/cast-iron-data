@@ -2,6 +2,7 @@
 id = "ref/feat/insightful-delivery"
 kind = "feat"
 title = "Insightful Delivery"
+aon = "FeatDisplay.aspx?ItemName=Insightful%20Delivery"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insightful_delivery", path = "json/feat09.json" },

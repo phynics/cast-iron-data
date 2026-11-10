@@ -2,6 +2,7 @@
 id = "ref/monster/shipmind"
 kind = "creature"
 title = "Shipmind"
+aon = "MonsterDisplay.aspx?ItemName=Shipmind"
 source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shipmind", path = "json/monsters38.json" },

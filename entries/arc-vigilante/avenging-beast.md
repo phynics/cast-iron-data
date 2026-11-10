@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/avenging-beast"
 kind = "archetype"
 title = "Avenging Beast"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Avenging%20Beast"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avenging_beast", path = "json/archetypes_vigilante.json" },

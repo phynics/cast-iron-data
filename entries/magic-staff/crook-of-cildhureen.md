@@ -2,6 +2,7 @@
 id = "ref/magic-staff/crook-of-cildhureen"
 kind = "item"
 title = "Crook of Cildhureen"
+aon = "MagicStavesDisplay.aspx?ItemName=Crook%20of%20Cildhureen"
 source_ids = ["realm-of-the-fellnight-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crook_of_cildhureen", path = "json/magic_staff.json" },

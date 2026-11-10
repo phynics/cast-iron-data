@@ -2,6 +2,7 @@
 id = "ref/feat/master-of-wonders"
 kind = "feat"
 title = "Master of Wonders"
+aon = "FeatDisplay.aspx?ItemName=Master%20of%20Wonders"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_wonders", path = "json/feat10.json" },

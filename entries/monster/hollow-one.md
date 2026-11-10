@@ -2,6 +2,7 @@
 id = "ref/monster/hollow-one"
 kind = "creature"
 title = "Hollow One"
+aon = "MonsterDisplay.aspx?ItemName=Hollow%20One"
 source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_one", path = "json/monsters13.json" },

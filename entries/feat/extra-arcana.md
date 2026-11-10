@@ -2,6 +2,7 @@
 id = "ref/feat/extra-arcana"
 kind = "feat"
 title = "Extra Arcana"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Arcana"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_arcana", path = "json/feat06.json" },

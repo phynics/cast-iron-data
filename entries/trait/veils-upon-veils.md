@@ -2,6 +2,7 @@
 id = "ref/trait/veils-upon-veils"
 kind = "trait"
 title = "Veils upon Veils"
+aon = "TraitDisplay.aspx?ItemName=Veils%20upon%20Veils"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veils_upon_veils", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/light-gravity-acclimation"
 kind = "feat"
 title = "Light Gravity Acclimation"
+aon = "FeatDisplay.aspx?ItemName=Light%20Gravity%20Acclimation"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_gravity_acclimation", path = "json/feat10.json" },

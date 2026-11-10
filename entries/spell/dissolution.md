@@ -2,6 +2,7 @@
 id = "ref/spell/dissolution"
 kind = "spell"
 title = "Dissolution"
+aon = "SpellDisplay.aspx?ItemName=Dissolution"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissolution", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/tiger-dire-tiger-smilodon"
 kind = "creature"
 title = "Dire Tiger (Smilodon)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Tiger%20%28Smilodon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_dire_tiger_smilodon", path = "json/monsters39.json" },

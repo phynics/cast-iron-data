@@ -2,6 +2,7 @@
 id = "ref/trait/bully-burner"
 kind = "trait"
 title = "Bully Burner"
+aon = "TraitDisplay.aspx?ItemName=Bully%20Burner"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bully_burner", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/boggard-boggard-priest-king"
 kind = "creature"
 title = "Boggard Priest-King"
+aon = "MonsterDisplay.aspx?ItemName=Boggard%20Priest-King"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggard_boggard_priest_king", path = "json/monsters27.json" },

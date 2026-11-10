@@ -2,6 +2,7 @@
 id = "ref/trait/destined-pioneer"
 kind = "trait"
 title = "Destined Pioneer"
+aon = "TraitDisplay.aspx?ItemName=Destined%20Pioneer"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destined_pioneer", path = "json/traits05.json" },

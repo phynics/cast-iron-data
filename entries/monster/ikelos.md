@@ -2,6 +2,7 @@
 id = "ref/monster/ikelos"
 kind = "creature"
 title = "Ikelos"
+aon = "MonsterDisplay.aspx?ItemName=Ikelos"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ikelos", path = "json/monsters14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/manipulative-presence"
 kind = "feat"
 title = "Manipulative Presence"
+aon = "FeatDisplay.aspx?ItemName=Manipulative%20Presence"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manipulative_presence", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/celestial-obedience"
 kind = "feat"
 title = "Celestial Obedience"
+aon = "FeatDisplay.aspx?ItemName=Celestial%20Obedience"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_obedience", path = "json/feat02.json" },

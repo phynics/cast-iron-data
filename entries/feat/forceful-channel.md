@@ -2,6 +2,7 @@
 id = "ref/feat/forceful-channel"
 kind = "feat"
 title = "Forceful Channel"
+aon = "FeatDisplay.aspx?ItemName=Forceful%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forceful_channel", path = "json/feat07.json" },

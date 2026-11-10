@@ -2,6 +2,7 @@
 id = "ref/arc-druid/naga-aspirant"
 kind = "archetype"
 title = "Naga Aspirant"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Naga%20Aspirant"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_aspirant", path = "json/archetypes_druid2.json" },

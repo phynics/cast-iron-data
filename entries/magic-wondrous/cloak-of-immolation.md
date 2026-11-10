@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/cloak-of-immolation"
 kind = "item"
 title = "Cloak of Immolation"
+aon = "MagicCursedDisplay.aspx?ItemName=Cloak%20of%20Immolation"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_immolation", path = "json/magic_wondrous_shoulders_wrists.json" },

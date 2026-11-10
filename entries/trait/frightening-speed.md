@@ -2,6 +2,7 @@
 id = "ref/trait/frightening-speed"
 kind = "trait"
 title = "Frightening Speed"
+aon = "TraitDisplay.aspx?ItemName=Frightening%20Speed"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frightening_speed", path = "json/traits03.json" },

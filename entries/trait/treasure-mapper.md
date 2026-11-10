@@ -2,6 +2,7 @@
 id = "ref/trait/treasure-mapper"
 kind = "trait"
 title = "Treasure Mapper"
+aon = "TraitDisplay.aspx?ItemName=Treasure%20Mapper"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_mapper", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/troll-flood-troll"
 kind = "creature"
 title = "Flood Troll"
+aon = "MonsterDisplay.aspx?ItemName=Flood%20Troll"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_flood_troll", path = "json/monsters39.json" },

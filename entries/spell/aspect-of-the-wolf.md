@@ -2,6 +2,7 @@
 id = "ref/spell/aspect-of-the-wolf"
 kind = "spell"
 title = "Aspect of the Wolf"
+aon = "SpellDisplay.aspx?ItemName=Aspect%20of%20the%20Wolf"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_wolf", path = "json/spells.json" },

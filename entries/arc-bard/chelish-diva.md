@@ -2,6 +2,7 @@
 id = "ref/arc-bard/chelish-diva"
 kind = "archetype"
 title = "Chelish Diva"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Chelish%20Diva"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_diva", path = "json/archetypes_bard.json" },

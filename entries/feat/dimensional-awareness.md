@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-awareness"
 kind = "feat"
 title = "Dimensional Awareness"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Awareness"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_awareness", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/divine-hunter"
 kind = "archetype"
 title = "Divine Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Divine%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_hunter", path = "json/archetypes_hunter.json" },

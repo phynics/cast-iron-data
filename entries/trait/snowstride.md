@@ -2,6 +2,7 @@
 id = "ref/trait/snowstride"
 kind = "trait"
 title = "Snowstride"
+aon = "TraitDisplay.aspx?ItemName=Snowstride"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snowstride", path = "json/traits04.json" },

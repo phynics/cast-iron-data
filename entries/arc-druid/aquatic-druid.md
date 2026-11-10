@@ -2,6 +2,7 @@
 id = "ref/arc-druid/aquatic-druid"
 kind = "archetype"
 title = "Aquatic Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Aquatic%20Druid"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_druid", path = "json/archetypes_druid.json" },

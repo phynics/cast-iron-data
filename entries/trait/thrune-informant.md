@@ -2,6 +2,7 @@
 id = "ref/trait/thrune-informant"
 kind = "trait"
 title = "Thrune Informant"
+aon = "TraitDisplay.aspx?ItemName=Thrune%20Informant"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrune_informant", path = "json/traits02.json" },

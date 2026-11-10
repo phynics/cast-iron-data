@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/fiendflesh-shifter"
 kind = "archetype"
 title = "Fiendflesh Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Fiendflesh%20Shifter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendflesh_shifter", path = "json/archetypes_shifter.json" },

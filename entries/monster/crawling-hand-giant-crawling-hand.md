@@ -2,6 +2,7 @@
 id = "ref/monster/crawling-hand-giant-crawling-hand"
 kind = "creature"
 title = "Giant Crawling Hand"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Crawling%20Hand"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crawling_hand_giant_crawling_hand", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-swarm"
 kind = "spell"
 title = "Elemental Swarm"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Swarm"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_swarm", path = "json/spells4.json" },

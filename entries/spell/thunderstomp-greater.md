@@ -2,6 +2,7 @@
 id = "ref/spell/thunderstomp-greater"
 kind = "spell"
 title = "Greater Thunderstomp"
+aon = "SpellDisplay.aspx?ItemName=Thunderstomp%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstomp_greater", path = "json/spells10.json" },

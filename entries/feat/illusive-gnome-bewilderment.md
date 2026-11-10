@@ -2,6 +2,7 @@
 id = "ref/feat/illusive-gnome-bewilderment"
 kind = "feat"
 title = "Illusive Gnome Bewilderment"
+aon = "FeatDisplay.aspx?ItemName=Illusive%20Gnome%20Bewilderment"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusive_gnome_bewilderment", path = "json/feat08.json" },

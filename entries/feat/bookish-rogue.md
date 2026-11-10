@@ -2,6 +2,7 @@
 id = "ref/feat/bookish-rogue"
 kind = "feat"
 title = "Bookish Rogue"
+aon = "FeatDisplay.aspx?ItemName=Bookish%20Rogue"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bookish_rogue", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-whip-mastery"
 kind = "feat"
 title = "Improved Whip Mastery"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Whip%20Mastery"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_whip_mastery", path = "json/feat09.json" },

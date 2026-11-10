@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/living-avalanche"
 kind = "archetype"
 title = "Living Avalanche"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Living%20Avalanche"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_avalanche", path = "json/archetypes_brawler.json" },

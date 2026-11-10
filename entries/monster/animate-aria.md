@@ -2,6 +2,7 @@
 id = "ref/monster/animate-aria"
 kind = "creature"
 title = "Animate Aria"
+aon = "MonsterDisplay.aspx?ItemName=Animate%20Aria"
 source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_aria", path = "json/monsters02.json" },

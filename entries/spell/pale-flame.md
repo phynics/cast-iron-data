@@ -2,6 +2,7 @@
 id = "ref/spell/pale-flame"
 kind = "spell"
 title = "Pale Flame"
+aon = "SpellDisplay.aspx?ItemName=Pale%20Flame"
 source_ids = ["core-rulebook", "heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pale_flame", path = "json/spells15.json" },

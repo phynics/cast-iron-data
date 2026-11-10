@@ -2,6 +2,7 @@
 id = "ref/feat/electric-eel-style"
 kind = "feat"
 title = "Electric Eel Style"
+aon = "FeatDisplay.aspx?ItemName=Electric%20Eel%20Style"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel_style", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/class/brawler"
 kind = "class"
 title = "Brawler"
+aon = "ClassDisplay.aspx?ItemName=Brawler"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast", "pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawler", path = "json/classes8.json" },

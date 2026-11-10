@@ -2,6 +2,7 @@
 id = "ref/trait/unwelcome-business"
 kind = "trait"
 title = "Unwelcome Business"
+aon = "TraitDisplay.aspx?ItemName=Unwelcome%20Business"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwelcome_business", path = "json/traits01.json" },

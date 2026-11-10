@@ -2,6 +2,7 @@
 id = "ref/arc-bard/provocateur"
 kind = "archetype"
 title = "Provocateur"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Provocateur"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "provocateur", path = "json/archetypes_bard2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/cursed-love"
 kind = "feat"
 title = "Cursed Love"
+aon = "FeatDisplay.aspx?ItemName=Cursed%20Love"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_love", path = "json/feat04.json" },

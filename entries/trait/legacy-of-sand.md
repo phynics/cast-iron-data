@@ -2,6 +2,7 @@
 id = "ref/trait/legacy-of-sand"
 kind = "trait"
 title = "Legacy of Sand"
+aon = "TraitDisplay.aspx?ItemName=Legacy%20of%20Sand"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legacy_of_sand", path = "json/traits05.json" },

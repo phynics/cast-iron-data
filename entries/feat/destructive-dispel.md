@@ -2,6 +2,7 @@
 id = "ref/feat/destructive-dispel"
 kind = "feat"
 title = "Destructive Dispel"
+aon = "FeatDisplay.aspx?ItemName=Destructive%20Dispel"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destructive_dispel", path = "json/feat04.json" },

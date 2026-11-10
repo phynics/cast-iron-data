@@ -2,6 +2,7 @@
 id = "ref/feat/vanguard-ward"
 kind = "feat"
 title = "Vanguard Ward"
+aon = "FeatDisplay.aspx?ItemName=Vanguard%20Ward"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanguard_ward", path = "json/feat17.json" },

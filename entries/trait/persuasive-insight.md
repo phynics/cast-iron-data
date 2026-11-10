@@ -2,6 +2,7 @@
 id = "ref/trait/persuasive-insight"
 kind = "trait"
 title = "Persuasive Insight"
+aon = "TraitDisplay.aspx?ItemName=Persuasive%20Insight"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persuasive_insight", path = "json/traits01.json" },

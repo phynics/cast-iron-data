@@ -2,6 +2,7 @@
 id = "ref/feat/trade-initiative"
 kind = "feat"
 title = "Trade Initiative"
+aon = "FeatDisplay.aspx?ItemName=Trade%20Initiative"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trade_initiative", path = "json/feat16.json" },

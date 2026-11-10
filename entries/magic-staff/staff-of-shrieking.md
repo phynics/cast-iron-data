@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-shrieking"
 kind = "item"
 title = "Staff of Shrieking"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Shrieking"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_shrieking", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/effortless-aid"
 kind = "trait"
 title = "Effortless Aid"
+aon = "TraitDisplay.aspx?ItemName=Effortless%20Aid"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effortless_aid", path = "json/traits05.json" },

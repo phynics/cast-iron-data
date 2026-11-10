@@ -2,6 +2,7 @@
 id = "ref/feat/noble-stipend"
 kind = "feat"
 title = "Noble Stipend"
+aon = "FeatDisplay.aspx?ItemName=Noble%20Stipend"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_stipend", path = "json/feat11.json" },

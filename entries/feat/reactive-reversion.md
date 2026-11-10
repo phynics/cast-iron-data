@@ -2,6 +2,7 @@
 id = "ref/feat/reactive-reversion"
 kind = "feat"
 title = "Reactive Reversion"
+aon = "FeatDisplay.aspx?ItemName=Reactive%20Reversion"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactive_reversion", path = "json/feat13.json" },

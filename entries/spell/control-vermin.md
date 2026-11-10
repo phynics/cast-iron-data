@@ -2,6 +2,7 @@
 id = "ref/spell/control-vermin"
 kind = "spell"
 title = "Control Vermin"
+aon = "SpellDisplay.aspx?ItemName=Control%20Vermin"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_vermin", path = "json/spells12.json" },

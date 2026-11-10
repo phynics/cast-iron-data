@@ -2,6 +2,7 @@
 id = "ref/monster/gillman"
 kind = "creature"
 title = "Gillman"
+aon = "MonsterDisplay.aspx?ItemName=Gillman"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gillman", path = "json/monsters12.json" },

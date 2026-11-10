@@ -2,6 +2,7 @@
 id = "ref/monster/wendigo"
 kind = "creature"
 title = "Wendigo"
+aon = "MonsterDisplay.aspx?ItemName=Wendigo"
 source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendigo", path = "json/monsters25.json" },

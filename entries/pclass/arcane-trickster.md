@@ -2,6 +2,7 @@
 id = "ref/pclass/arcane-trickster"
 kind = "prestige_class"
 title = "Arcane Trickster"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Arcane%20Trickster"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_trickster", path = "json/prestige_classes.json" },

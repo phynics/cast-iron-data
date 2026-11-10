@@ -2,6 +2,7 @@
 id = "ref/spell/ant-haul"
 kind = "spell"
 title = "Ant Haul"
+aon = "SpellDisplay.aspx?ItemName=Ant%20Haul"
 source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_haul", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/versatile-spontaneity"
 kind = "feat"
 title = "Versatile Spontaneity"
+aon = "FeatDisplay.aspx?ItemName=Versatile%20Spontaneity"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_spontaneity", path = "json/feat17.json" },

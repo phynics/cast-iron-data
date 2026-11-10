@@ -2,6 +2,7 @@
 id = "ref/monster/vampiric-mist"
 kind = "creature"
 title = "Vampiric Mist"
+aon = "MonsterDisplay.aspx?ItemName=Vampiric%20Mist"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_mist", path = "json/monsters24.json" },

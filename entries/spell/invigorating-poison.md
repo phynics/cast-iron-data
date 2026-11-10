@@ -2,6 +2,7 @@
 id = "ref/spell/invigorating-poison"
 kind = "spell"
 title = "Invigorating Poison"
+aon = "SpellDisplay.aspx?ItemName=Invigorating%20Poison"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorating_poison", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/master-alchemist"
 kind = "feat"
 title = "Master Alchemist"
+aon = "FeatDisplay.aspx?ItemName=Master%20Alchemist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_alchemist", path = "json/feat10.json" },

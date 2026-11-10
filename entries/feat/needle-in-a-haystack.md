@@ -2,6 +2,7 @@
 id = "ref/feat/needle-in-a-haystack"
 kind = "feat"
 title = "Needle in a Haystack"
+aon = "FeatDisplay.aspx?ItemName=Needle%20in%20a%20Haystack"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "needle_in_a_haystack", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/larva-of-the-outer-gods"
 kind = "creature"
 title = "Larva of the Outer Gods"
+aon = "MonsterDisplay.aspx?ItemName=Larva%20of%20the%20Outer%20Gods"
 source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "larva_of_the_outer_gods", path = "json/monsters34.json" },

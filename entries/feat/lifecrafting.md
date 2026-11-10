@@ -2,6 +2,7 @@
 id = "ref/feat/lifecrafting"
 kind = "feat"
 title = "Lifecrafting"
+aon = "FeatDisplay.aspx?ItemName=Lifecrafting"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifecrafting", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/hostile-juxtaposition"
 kind = "spell"
 title = "Hostile Juxtaposition"
+aon = "SpellDisplay.aspx?ItemName=Hostile%20Juxtaposition"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_juxtaposition", path = "json/spells5.json" },

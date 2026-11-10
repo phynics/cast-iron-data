@@ -2,6 +2,7 @@
 id = "ref/feat/weathered-warrior"
 kind = "feat"
 title = "Weathered Warrior"
+aon = "FeatDisplay.aspx?ItemName=Weathered%20Warrior"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weathered_warrior", path = "json/feat17.json" },

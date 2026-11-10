@@ -2,6 +2,7 @@
 id = "ref/feat/whip-shot-deed"
 kind = "feat"
 title = "Whip-Shot Deed"
+aon = "FeatDisplay.aspx?ItemName=Whip-Shot%20Deed"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_shot_deed", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-monk/hungry-ghost-monk"
 kind = "archetype"
 title = "Hungry Ghost Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Hungry%20Ghost%20Monk"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_ghost_monk", path = "json/archetypes_monk.json" },

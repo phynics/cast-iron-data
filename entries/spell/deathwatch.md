@@ -2,6 +2,7 @@
 id = "ref/spell/deathwatch"
 kind = "spell"
 title = "Deathwatch"
+aon = "SpellDisplay.aspx?ItemName=Deathwatch"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathwatch", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/liberation-channel"
 kind = "feat"
 title = "Liberation Channel"
+aon = "FeatDisplay.aspx?ItemName=Liberation%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberation_channel", path = "json/feat10.json" },

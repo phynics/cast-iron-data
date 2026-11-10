@@ -2,6 +2,7 @@
 id = "ref/monster/wolliped-wolliped-domesticated-or-wild"
 kind = "creature"
 title = "Wolliped (Domesticated or Wild)"
+aon = "MonsterDisplay.aspx?ItemName=Wolliped%20%28Domesticated%20or%20Wild%29"
 source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolliped_wolliped_domesticated_or_wild", path = "json/monsters25.json" },

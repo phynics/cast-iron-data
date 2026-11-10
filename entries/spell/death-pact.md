@@ -2,6 +2,7 @@
 id = "ref/spell/death-pact"
 kind = "spell"
 title = "Death Pact"
+aon = "SpellDisplay.aspx?ItemName=Death%20Pact"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_pact", path = "json/spells3.json" },

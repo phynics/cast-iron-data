@@ -2,6 +2,7 @@
 id = "ref/spell/blood-blaze"
 kind = "spell"
 title = "Blood Blaze"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Blaze"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_blaze", path = "json/spells2.json" },

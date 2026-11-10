@@ -2,6 +2,7 @@
 id = "ref/trait/bestial-wrath"
 kind = "trait"
 title = "Bestial Wrath"
+aon = "TraitDisplay.aspx?ItemName=Bestial%20Wrath"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestial_wrath", path = "json/traits03.json" },

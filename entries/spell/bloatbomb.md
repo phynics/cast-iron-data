@@ -2,6 +2,7 @@
 id = "ref/spell/bloatbomb"
 kind = "spell"
 title = "Bloatbomb"
+aon = "SpellDisplay.aspx?ItemName=Bloatbomb"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatbomb", path = "json/spells2.json" },

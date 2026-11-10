@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/grasp-of-droskar"
 kind = "item"
 title = "Grasp of Droskar"
+aon = "MagicCursedDisplay.aspx?ItemName=Grasp%20of%20Droskar"
 source_ids = ["crown-of-the-kobold-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasp_of_droskar", path = "json/magic_wondrous_eyes_feet_hands.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/exiles-path"
 kind = "feat"
 title = "Exile's Path"
+aon = "FeatDisplay.aspx?ItemName=Exile%27s%20Path"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exiles_path", path = "json/feat06.json" },

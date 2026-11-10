@@ -2,6 +2,7 @@
 id = "ref/spell/atonement"
 kind = "spell"
 title = "Atonement"
+aon = "SpellDisplay.aspx?ItemName=Atonement"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atonement", path = "json/spells.json" },

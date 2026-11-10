@@ -2,6 +2,7 @@
 id = "ref/feat/pack-rat"
 kind = "feat"
 title = "Pack Rat"
+aon = "FeatDisplay.aspx?ItemName=Pack%20Rat"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_rat", path = "json/feat11.json" },

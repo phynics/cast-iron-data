@@ -2,6 +2,7 @@
 id = "ref/trait/blood-resonance"
 kind = "trait"
 title = "Blood Resonance"
+aon = "TraitDisplay.aspx?ItemName=Blood%20Resonance"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_resonance", path = "json/traits03.json" },

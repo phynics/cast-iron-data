@@ -2,6 +2,7 @@
 id = "ref/feat/eyes-of-the-twilight"
 kind = "feat"
 title = "Eyes of the Twilight"
+aon = "FeatDisplay.aspx?ItemName=Eyes%20of%20the%20Twilight"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_twilight", path = "json/feat06.json" },

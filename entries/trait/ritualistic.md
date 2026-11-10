@@ -2,6 +2,7 @@
 id = "ref/trait/ritualistic"
 kind = "trait"
 title = "Ritualistic"
+aon = "TraitDisplay.aspx?ItemName=Ritualistic"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritualistic", path = "json/traits03.json" },

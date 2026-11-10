@@ -2,6 +2,7 @@
 id = "ref/feat/improved-snap-shot"
 kind = "feat"
 title = "Improved Snap Shot"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Snap%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_snap_shot", path = "json/feat09.json" },

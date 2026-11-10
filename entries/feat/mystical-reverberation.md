@@ -2,6 +2,7 @@
 id = "ref/feat/mystical-reverberation"
 kind = "feat"
 title = "Mystical Reverberation"
+aon = "FeatDisplay.aspx?ItemName=Mystical%20Reverberation"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystical_reverberation", path = "json/feat11.json" },

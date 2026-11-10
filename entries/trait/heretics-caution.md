@@ -2,6 +2,7 @@
 id = "ref/trait/heretics-caution"
 kind = "trait"
 title = "Heretic's Caution"
+aon = "TraitDisplay.aspx?ItemName=Heretic%27s%20Caution"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretics_caution", path = "json/traits01.json" },

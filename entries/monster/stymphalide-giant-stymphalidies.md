@@ -2,6 +2,7 @@
 id = "ref/monster/stymphalide-giant-stymphalidies"
 kind = "creature"
 title = "Giant Stymphalidies"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Stymphalidies"
 source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stymphalide_giant_stymphalidies", path = "json/monsters22.json" },

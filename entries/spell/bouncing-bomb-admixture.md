@@ -2,6 +2,7 @@
 id = "ref/spell/bouncing-bomb-admixture"
 kind = "spell"
 title = "Bouncing Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Bouncing%20Bomb%20Admixture"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_bomb_admixture", path = "json/spells2.json" },

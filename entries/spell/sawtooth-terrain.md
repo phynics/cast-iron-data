@@ -2,6 +2,7 @@
 id = "ref/spell/sawtooth-terrain"
 kind = "spell"
 title = "Sawtooth Terrain"
+aon = "SpellDisplay.aspx?ItemName=Sawtooth%20Terrain"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawtooth_terrain", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/horizon-walker"
 kind = "prestige_class"
 title = "Horizon Walker"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Horizon%20Walker"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horizon_walker", path = "json/prestige_classes2.json" },

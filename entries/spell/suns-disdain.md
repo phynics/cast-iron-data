@@ -2,6 +2,7 @@
 id = "ref/spell/suns-disdain"
 kind = "spell"
 title = "Sun's Disdain"
+aon = "SpellDisplay.aspx?ItemName=Sun%27s%20Disdain"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suns_disdain", path = "json/spells16.json" },

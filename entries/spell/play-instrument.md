@@ -2,6 +2,7 @@
 id = "ref/spell/play-instrument"
 kind = "spell"
 title = "Play Instrument"
+aon = "SpellDisplay.aspx?ItemName=Play%20Instrument"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "play_instrument", path = "json/spells7.json" },

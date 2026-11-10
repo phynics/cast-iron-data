@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/dread-vanguard"
 kind = "archetype"
 title = "Dread Vanguard"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Dread%20Vanguard"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_vanguard", path = "json/archetypes_antipaladin.json" },

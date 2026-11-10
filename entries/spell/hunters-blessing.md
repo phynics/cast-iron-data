@@ -2,6 +2,7 @@
 id = "ref/spell/hunters-blessing"
 kind = "spell"
 title = "Hunter's Blessing"
+aon = "SpellDisplay.aspx?ItemName=Hunter%27s%20Blessing"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_blessing", path = "json/spells5.json" },

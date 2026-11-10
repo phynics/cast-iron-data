@@ -2,6 +2,7 @@
 id = "ref/trait/signature-moves"
 kind = "trait"
 title = "Signature Moves"
+aon = "TraitDisplay.aspx?ItemName=Signature%20Moves"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_moves", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/protective-faith"
 kind = "trait"
 title = "Protective Faith"
+aon = "TraitDisplay.aspx?ItemName=Protective%20Faith"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_faith", path = "json/traits03.json" },

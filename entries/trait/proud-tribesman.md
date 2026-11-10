@@ -2,6 +2,7 @@
 id = "ref/trait/proud-tribesman"
 kind = "trait"
 title = "Proud Tribesman"
+aon = "TraitDisplay.aspx?ItemName=Proud%20Tribesman"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proud_tribesman", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/decollate"
 kind = "spell"
 title = "Decollate"
+aon = "SpellDisplay.aspx?ItemName=Decollate"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decollate", path = "json/spells3.json" },

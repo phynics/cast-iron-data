@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/story-summoner"
 kind = "archetype"
 title = "Story Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Story%20Summoner"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "story_summoner", path = "json/archetypes_summoner.json" },

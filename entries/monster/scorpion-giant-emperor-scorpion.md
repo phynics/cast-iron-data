@@ -2,6 +2,7 @@
 id = "ref/monster/scorpion-giant-emperor-scorpion"
 kind = "creature"
 title = "Giant Emperor Scorpion"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Emperor%20Scorpion"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_giant_emperor_scorpion", path = "json/monsters21.json" },

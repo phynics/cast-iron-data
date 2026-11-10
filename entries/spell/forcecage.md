@@ -2,6 +2,7 @@
 id = "ref/spell/forcecage"
 kind = "spell"
 title = "Forcecage"
+aon = "SpellDisplay.aspx?ItemName=Forcecage"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forcecage", path = "json/spells13.json" },

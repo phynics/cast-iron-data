@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-the-unremarkable"
 kind = "spell"
 title = "Aura of the Unremarkable"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20the%20Unremarkable"
 source_ids = ["ultimate-intrigue", "cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_the_unremarkable", path = "json/spells.json" },

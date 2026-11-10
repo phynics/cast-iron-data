@@ -2,6 +2,7 @@
 id = "ref/feat/gunsmithing"
 kind = "feat"
 title = "Gunsmithing"
+aon = "FeatDisplay.aspx?ItemName=Gunsmithing"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunsmithing", path = "json/feat08.json" },

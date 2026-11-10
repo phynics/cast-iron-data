@@ -2,6 +2,7 @@
 id = "ref/feat/ambush-awareness"
 kind = "feat"
 title = "Ambush Awareness"
+aon = "FeatDisplay.aspx?ItemName=Ambush%20Awareness"
 source_ids = ["ultimate-wilderness", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_awareness", path = "json/feat01.json" },

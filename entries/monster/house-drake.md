@@ -2,6 +2,7 @@
 id = "ref/monster/house-drake"
 kind = "creature"
 title = "House Drake"
+aon = "MonsterDisplay.aspx?ItemName=House%20Drake"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_drake", path = "json/monsters14.json" },

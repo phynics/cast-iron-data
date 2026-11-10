@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/thronewarden"
 kind = "archetype"
 title = "Thronewarden"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Thronewarden"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thronewarden", path = "json/archetypes_gunslinger.json" },

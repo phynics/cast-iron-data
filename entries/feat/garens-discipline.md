@@ -2,6 +2,7 @@
 id = "ref/feat/garens-discipline"
 kind = "feat"
 title = "Garen's Discipline"
+aon = "FeatDisplay.aspx?ItemName=Garen%27s%20Discipline"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garens_discipline", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/conjure-deadfall"
 kind = "spell"
 title = "Conjure Deadfall"
+aon = "SpellDisplay.aspx?ItemName=Conjure%20Deadfall"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_deadfall", path = "json/spells12.json" },

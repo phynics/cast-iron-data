@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/psychonaut"
 kind = "archetype"
 title = "Psychonaut"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Psychonaut"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychonaut", path = "json/archetypes_alchemist2.json" },

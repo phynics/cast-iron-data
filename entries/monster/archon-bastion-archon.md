@@ -2,6 +2,7 @@
 id = "ref/monster/archon-bastion-archon"
 kind = "creature"
 title = "Bastion Archon"
+aon = "MonsterDisplay.aspx?ItemName=Bastion%20Archon"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_bastion_archon", path = "json/monsters02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/spark-of-creation"
 kind = "trait"
 title = "Spark of Creation"
+aon = "TraitDisplay.aspx?ItemName=Spark%20of%20Creation"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark_of_creation", path = "json/traits02.json" },

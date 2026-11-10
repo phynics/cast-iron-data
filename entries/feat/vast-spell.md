@@ -2,6 +2,7 @@
 id = "ref/feat/vast-spell"
 kind = "feat"
 title = "Vast Spell"
+aon = "FeatDisplay.aspx?ItemName=Vast%20Spell"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vast_spell", path = "json/feat17.json" },

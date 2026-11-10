@@ -2,6 +2,7 @@
 id = "ref/monster/denizen-of-leng"
 kind = "creature"
 title = "Denizen of Leng"
+aon = "MonsterDisplay.aspx?ItemName=Denizen%20of%20Leng"
 source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "denizen_of_leng", path = "json/monsters06.json" },

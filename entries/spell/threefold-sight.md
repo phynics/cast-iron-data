@@ -2,6 +2,7 @@
 id = "ref/spell/threefold-sight"
 kind = "spell"
 title = "Threefold Sight"
+aon = "SpellDisplay.aspx?ItemName=Threefold%20Sight"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_sight", path = "json/spells10.json" },

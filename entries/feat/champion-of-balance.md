@@ -2,6 +2,7 @@
 id = "ref/feat/champion-of-balance"
 kind = "feat"
 title = "Champion of Balance"
+aon = "FeatDisplay.aspx?ItemName=Champion%20of%20Balance"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_balance", path = "json/feat03.json" },

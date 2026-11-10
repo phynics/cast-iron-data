@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-talker"
 kind = "trait"
 title = "Spirit Talker"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Talker"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_talker", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/swallow-poison"
 kind = "spell"
 title = "Swallow Poison"
+aon = "SpellDisplay.aspx?ItemName=Swallow%20Poison"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swallow_poison", path = "json/spells10.json" },

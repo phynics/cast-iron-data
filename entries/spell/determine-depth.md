@@ -2,6 +2,7 @@
 id = "ref/spell/determine-depth"
 kind = "spell"
 title = "Determine Depth"
+aon = "SpellDisplay.aspx?ItemName=Determine%20Depth"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "determine_depth", path = "json/spells3.json" },

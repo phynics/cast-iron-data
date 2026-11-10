@@ -2,6 +2,7 @@
 id = "ref/spell/resize-item"
 kind = "spell"
 title = "Resize Item"
+aon = "SpellDisplay.aspx?ItemName=Resize%20Item"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resize_item", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/city-sprinter"
 kind = "feat"
 title = "City Sprinter"
+aon = "FeatDisplay.aspx?ItemName=City%20Sprinter"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_sprinter", path = "json/feat03.json" },

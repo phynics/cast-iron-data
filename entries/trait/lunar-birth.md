@@ -2,6 +2,7 @@
 id = "ref/trait/lunar-birth"
 kind = "trait"
 title = "Lunar Birth"
+aon = "TraitDisplay.aspx?ItemName=Lunar%20Birth"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunar_birth", path = "json/traits02.json" },

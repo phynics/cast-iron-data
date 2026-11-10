@@ -2,6 +2,7 @@
 id = "ref/feat/painful-blow"
 kind = "feat"
 title = "Painful Blow"
+aon = "FeatDisplay.aspx?ItemName=Painful%20Blow"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_blow", path = "json/feat11.json" },

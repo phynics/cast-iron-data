@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/divine-numerologist"
 kind = "archetype"
 title = "Divine Numerologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Divine%20Numerologist"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_numerologist", path = "json/archetypes_oracle.json" },

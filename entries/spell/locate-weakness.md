@@ -2,6 +2,7 @@
 id = "ref/spell/locate-weakness"
 kind = "spell"
 title = "Locate Weakness"
+aon = "SpellDisplay.aspx?ItemName=Locate%20Weakness"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_weakness", path = "json/spells6.json" },

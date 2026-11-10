@@ -2,6 +2,7 @@
 id = "ref/arc-ninja/mask-of-the-living-god"
 kind = "archetype"
 title = "Mask of the Living God"
+aon = "ArchetypeDisplay.aspx?FixedName=Ninja%20Mask%20of%20the%20Living%20God"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_living_god", path = "json/archetypes_ninja.json" },

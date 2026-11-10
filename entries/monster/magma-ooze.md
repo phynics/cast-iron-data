@@ -2,6 +2,7 @@
 id = "ref/monster/magma-ooze"
 kind = "creature"
 title = "Magma Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Magma%20Ooze"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magma_ooze", path = "json/monsters16.json" },

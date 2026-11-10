@@ -2,6 +2,7 @@
 id = "ref/spell/false-age"
 kind = "spell"
 title = "False Age"
+aon = "SpellDisplay.aspx?ItemName=False%20Age"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_age", path = "json/spells4.json" },

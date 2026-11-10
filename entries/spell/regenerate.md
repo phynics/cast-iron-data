@@ -2,6 +2,7 @@
 id = "ref/spell/regenerate"
 kind = "spell"
 title = "Regenerate"
+aon = "SpellDisplay.aspx?ItemName=Regenerate"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regenerate", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shared-remembrance"
 kind = "feat"
 title = "Shared Remembrance"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Remembrance"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_remembrance", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/class/skald"
 kind = "class"
 title = "Skald"
+aon = "ClassDisplay.aspx?ItemName=Skald"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "blood-of-the-beast", "blood-of-the-sea", "chronicle-of-legends", "plane-hoppers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skald", path = "json/classes4.json" },

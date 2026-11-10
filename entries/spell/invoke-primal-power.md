@@ -2,6 +2,7 @@
 id = "ref/spell/invoke-primal-power"
 kind = "spell"
 title = "Invoke Primal Power"
+aon = "SpellDisplay.aspx?ItemName=Invoke%20Primal%20Power"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_primal_power", path = "json/spells6.json" },

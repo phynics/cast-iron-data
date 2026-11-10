@@ -2,6 +2,7 @@
 id = "ref/feat/critical-mastery"
 kind = "feat"
 title = "Critical Mastery"
+aon = "FeatDisplay.aspx?ItemName=Critical%20Mastery"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_mastery", path = "json/feat04.json" },

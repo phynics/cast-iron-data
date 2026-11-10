@@ -2,6 +2,7 @@
 id = "ref/monster/narrik"
 kind = "creature"
 title = "Narrik"
+aon = "MonsterDisplay.aspx?ItemName=Narrik"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narrik", path = "json/monsters35.json" },

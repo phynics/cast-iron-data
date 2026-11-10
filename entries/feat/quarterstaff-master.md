@@ -2,6 +2,7 @@
 id = "ref/feat/quarterstaff-master"
 kind = "feat"
 title = "Quarterstaff Master"
+aon = "FeatDisplay.aspx?ItemName=Quarterstaff%20Master"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quarterstaff_master", path = "json/feat12.json" },

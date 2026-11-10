@@ -2,6 +2,7 @@
 id = "ref/feat/cooperative-disabling"
 kind = "feat"
 title = "Cooperative Disabling"
+aon = "FeatDisplay.aspx?ItemName=Cooperative%20Disabling"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_disabling", path = "json/feat03.json" },

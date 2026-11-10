@@ -2,6 +2,7 @@
 id = "ref/monster/blight-sewer-blight"
 kind = "creature"
 title = "Sewer Blight"
+aon = "MonsterDisplay.aspx?ItemName=Sewer%20Blight"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_sewer_blight", path = "json/monsters27.json" },

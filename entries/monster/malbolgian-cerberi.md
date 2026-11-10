@@ -2,6 +2,7 @@
 id = "ref/monster/malbolgian-cerberi"
 kind = "creature"
 title = "Malbolgian Cerberi"
+aon = "MonsterDisplay.aspx?ItemName=Malbolgian%20Cerberi"
 source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malbolgian_cerberi", path = "json/monsters16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stag-horns"
 kind = "feat"
 title = "Stag Horns"
+aon = "FeatDisplay.aspx?ItemName=Stag%20Horns"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stag_horns", path = "json/feat15.json" },

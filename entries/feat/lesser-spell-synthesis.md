@@ -2,6 +2,7 @@
 id = "ref/feat/lesser-spell-synthesis"
 kind = "feat"
 title = "Lesser Spell Synthesis"
+aon = "FeatDisplay.aspx?ItemName=Lesser%20Spell%20Synthesis"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lesser_spell_synthesis", path = "json/feat10.json" },

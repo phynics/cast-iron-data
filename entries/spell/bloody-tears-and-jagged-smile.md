@@ -2,6 +2,7 @@
 id = "ref/spell/bloody-tears-and-jagged-smile"
 kind = "spell"
 title = "Bloody Tears and Jagged Smile"
+aon = "SpellDisplay.aspx?ItemName=Bloody%20Tears%20and%20Jagged%20Smile"
 source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_tears_and_jagged_smile", path = "json/spells2.json" },

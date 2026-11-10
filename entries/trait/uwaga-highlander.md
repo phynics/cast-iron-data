@@ -2,6 +2,7 @@
 id = "ref/trait/uwaga-highlander"
 kind = "trait"
 title = "Uwaga Highlander"
+aon = "TraitDisplay.aspx?ItemName=Uwaga%20Highlander"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uwaga_highlander", path = "json/traits04.json" },

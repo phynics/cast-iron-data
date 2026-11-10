@@ -2,6 +2,7 @@
 id = "ref/monster/malsandra"
 kind = "creature"
 title = "Malsandra"
+aon = "MonsterDisplay.aspx?ItemName=Malsandra"
 source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malsandra", path = "json/monsters_unique3.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dahzagan"
 kind = "creature"
 title = "Dahzagan"
+aon = "MonsterDisplay.aspx?ItemName=Dahzagan"
 source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dahzagan", path = "json/monsters06.json" },

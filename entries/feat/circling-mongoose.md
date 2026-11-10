@@ -2,6 +2,7 @@
 id = "ref/feat/circling-mongoose"
 kind = "feat"
 title = "Circling Mongoose"
+aon = "FeatDisplay.aspx?ItemName=Circling%20Mongoose"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circling_mongoose", path = "json/feat03.json" },

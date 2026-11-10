@@ -2,6 +2,7 @@
 id = "ref/trait/brimstone-seer"
 kind = "trait"
 title = "Brimstone Seer"
+aon = "TraitDisplay.aspx?ItemName=Brimstone%20Seer"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brimstone_seer", path = "json/traits05.json" },

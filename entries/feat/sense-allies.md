@@ -2,6 +2,7 @@
 id = "ref/feat/sense-allies"
 kind = "feat"
 title = "Sense Allies"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Allies"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_allies", path = "json/feat13.json" },

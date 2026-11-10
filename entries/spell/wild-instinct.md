@@ -2,6 +2,7 @@
 id = "ref/spell/wild-instinct"
 kind = "spell"
 title = "Wild Instinct"
+aon = "SpellDisplay.aspx?ItemName=Wild%20Instinct"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_instinct", path = "json/spells16.json" },

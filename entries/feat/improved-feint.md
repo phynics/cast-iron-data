@@ -2,6 +2,7 @@
 id = "ref/feat/improved-feint"
 kind = "feat"
 title = "Improved Feint"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Feint"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_feint", path = "json/feat09.json" },

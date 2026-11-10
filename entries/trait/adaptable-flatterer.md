@@ -2,6 +2,7 @@
 id = "ref/trait/adaptable-flatterer"
 kind = "trait"
 title = "Adaptable Flatterer"
+aon = "TraitDisplay.aspx?ItemName=Adaptable%20Flatterer"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaptable_flatterer", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/slave-to-sin"
 kind = "spell"
 title = "Slave to Sin"
+aon = "SpellDisplay.aspx?ItemName=Slave%20to%20Sin"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave_to_sin", path = "json/spells9.json" },

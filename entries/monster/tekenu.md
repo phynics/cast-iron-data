@@ -2,6 +2,7 @@
 id = "ref/monster/tekenu"
 kind = "creature"
 title = "Tekenu"
+aon = "MonsterDisplay.aspx?ItemName=Tekenu"
 source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tekenu", path = "json/monsters23.json" },

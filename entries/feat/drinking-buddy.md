@@ -2,6 +2,7 @@
 id = "ref/feat/drinking-buddy"
 kind = "feat"
 title = "Drinking Buddy"
+aon = "FeatDisplay.aspx?ItemName=Drinking%20Buddy"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drinking_buddy", path = "json/feat05.json" },

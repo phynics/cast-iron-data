@@ -2,6 +2,7 @@
 id = "ref/feat/deep-diver"
 kind = "feat"
 title = "Deep Diver"
+aon = "FeatDisplay.aspx?ItemName=Deep%20Diver"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_diver", path = "json/feat04.json" },

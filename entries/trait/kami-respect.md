@@ -2,6 +2,7 @@
 id = "ref/trait/kami-respect"
 kind = "trait"
 title = "Kami Respect"
+aon = "TraitDisplay.aspx?ItemName=Kami%20Respect"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_respect", path = "json/traits05.json" },

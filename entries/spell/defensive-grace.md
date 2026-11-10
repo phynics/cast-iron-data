@@ -2,6 +2,7 @@
 id = "ref/spell/defensive-grace"
 kind = "spell"
 title = "Defensive Grace"
+aon = "SpellDisplay.aspx?ItemName=Defensive%20Grace"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_grace", path = "json/spells3.json" },

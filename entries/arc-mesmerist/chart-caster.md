@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/chart-caster"
 kind = "archetype"
 title = "Chart Caster"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Chart%20Caster"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chart_caster", path = "json/archetypes_mesmerist.json" },

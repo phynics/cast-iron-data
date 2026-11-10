@@ -2,6 +2,7 @@
 id = "ref/feat/latent-curse"
 kind = "feat"
 title = "Latent Curse"
+aon = "FeatDisplay.aspx?ItemName=Latent%20Curse"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "latent_curse", path = "json/feat10.json" },

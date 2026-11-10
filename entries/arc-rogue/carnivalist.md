@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/carnivalist"
 kind = "archetype"
 title = "Carnivalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Carnivalist"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivalist", path = "json/archetypes_rogue.json" },

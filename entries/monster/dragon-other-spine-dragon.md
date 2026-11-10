@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-other-spine-dragon"
 kind = "creature"
 title = "Spine Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Spine%20Dragon"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_spine_dragon", path = "json/monsters42.json" },

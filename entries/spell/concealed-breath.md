@@ -2,6 +2,7 @@
 id = "ref/spell/concealed-breath"
 kind = "spell"
 title = "Concealed Breath"
+aon = "SpellDisplay.aspx?ItemName=Concealed%20Breath"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealed_breath", path = "json/spells12.json" },

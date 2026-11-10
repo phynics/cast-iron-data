@@ -2,6 +2,7 @@
 id = "ref/trait/sacred-avenger"
 kind = "trait"
 title = "Sacred Avenger"
+aon = "TraitDisplay.aspx?ItemName=Sacred%20Avenger"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_avenger", path = "json/traits03.json" },

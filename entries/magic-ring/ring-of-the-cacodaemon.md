@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-cacodaemon"
 kind = "item"
 title = "Ring of the Cacodaemon"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Cacodaemon"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_cacodaemon", path = "json/magic_ring.json" },

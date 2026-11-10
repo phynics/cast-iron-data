@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-austere-majesty"
 kind = "item"
 title = "Ring of Austere Majesty"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Austere%20Majesty"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_austere_majesty", path = "json/magic_ring.json" },

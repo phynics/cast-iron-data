@@ -2,6 +2,7 @@
 id = "ref/monster/sirens-bed-anemone"
 kind = "creature"
 title = "Siren's Bed Anemone"
+aon = "MonsterDisplay.aspx?ItemName=Siren%27s%20Bed%20Anemone"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirens_bed_anemone", path = "json/monsters22.json" },

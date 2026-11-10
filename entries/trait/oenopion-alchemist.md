@@ -2,6 +2,7 @@
 id = "ref/trait/oenopion-alchemist"
 kind = "trait"
 title = "Oenopion Alchemist"
+aon = "TraitDisplay.aspx?ItemName=Oenopion%20Alchemist"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oenopion_alchemist", path = "json/traits04.json" },

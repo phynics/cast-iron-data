@@ -2,6 +2,7 @@
 id = "ref/trait/pact-servant"
 kind = "trait"
 title = "Pact Servant"
+aon = "TraitDisplay.aspx?ItemName=Pact%20Servant"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pact_servant", path = "json/traits01.json" },

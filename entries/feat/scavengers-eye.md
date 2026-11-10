@@ -2,6 +2,7 @@
 id = "ref/feat/scavengers-eye"
 kind = "feat"
 title = "Scavenger's Eye"
+aon = "FeatDisplay.aspx?ItemName=Scavenger%27s%20Eye"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavengers_eye", path = "json/feat13.json" },

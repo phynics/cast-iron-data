@@ -2,6 +2,7 @@
 id = "ref/trait/angradds-valor"
 kind = "trait"
 title = "Angradd's Valor"
+aon = "TraitDisplay.aspx?ItemName=Angradd%27s%20Valor"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angradds_valor", path = "json/traits03.json" },

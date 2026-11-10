@@ -2,6 +2,7 @@
 id = "ref/spell/modify-memory"
 kind = "spell"
 title = "Modify Memory"
+aon = "SpellDisplay.aspx?ItemName=Modify%20Memory"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modify_memory", path = "json/spells14.json" },

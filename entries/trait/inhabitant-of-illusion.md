@@ -2,6 +2,7 @@
 id = "ref/trait/inhabitant-of-illusion"
 kind = "trait"
 title = "Inhabitant of Illusion"
+aon = "TraitDisplay.aspx?ItemName=Inhabitant%20of%20Illusion"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inhabitant_of_illusion", path = "json/traits01.json" },

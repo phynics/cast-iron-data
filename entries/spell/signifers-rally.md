@@ -2,6 +2,7 @@
 id = "ref/spell/signifers-rally"
 kind = "spell"
 title = "Signifer's Rally"
+aon = "SpellDisplay.aspx?ItemName=Signifer%27s%20Rally"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifers_rally", path = "json/spells9.json" },

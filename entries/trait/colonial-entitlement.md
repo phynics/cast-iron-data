@@ -2,6 +2,7 @@
 id = "ref/trait/colonial-entitlement"
 kind = "trait"
 title = "Colonial Entitlement"
+aon = "TraitDisplay.aspx?ItemName=Colonial%20Entitlement"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colonial_entitlement", path = "json/traits05.json" },

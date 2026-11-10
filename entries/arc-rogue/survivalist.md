@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/survivalist"
 kind = "archetype"
 title = "Survivalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Survivalist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivalist", path = "json/archetypes_rogue.json" },

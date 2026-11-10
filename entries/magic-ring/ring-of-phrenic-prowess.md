@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-phrenic-prowess"
 kind = "item"
 title = "Ring of Phrenic Prowess"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Phrenic%20Prowess"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_phrenic_prowess", path = "json/magic_ring.json" },

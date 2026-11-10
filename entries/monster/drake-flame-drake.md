@@ -2,6 +2,7 @@
 id = "ref/monster/drake-flame-drake"
 kind = "creature"
 title = "Flame Drake"
+aon = "MonsterDisplay.aspx?ItemName=Flame%20Drake"
 source_ids = ["bestiary-2", "conquest-of-bloodsworn-vale"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_flame_drake", path = "json/monsters31.json" },

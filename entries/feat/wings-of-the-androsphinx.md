@@ -2,6 +2,7 @@
 id = "ref/feat/wings-of-the-androsphinx"
 kind = "feat"
 title = "Wings of the Androsphinx"
+aon = "FeatDisplay.aspx?ItemName=Wings%20of%20the%20Androsphinx"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wings_of_the_androsphinx", path = "json/feat17.json" },

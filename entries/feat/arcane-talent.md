@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-talent"
 kind = "feat"
 title = "Arcane Talent"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Talent"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_talent", path = "json/feat01.json" },

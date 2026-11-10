@@ -2,6 +2,7 @@
 id = "ref/feat/ace-trip"
 kind = "feat"
 title = "Ace Trip"
+aon = "FeatDisplay.aspx?ItemName=Ace%20Trip"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ace_trip", path = "json/feat01.json" },

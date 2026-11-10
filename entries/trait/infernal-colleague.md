@@ -2,6 +2,7 @@
 id = "ref/trait/infernal-colleague"
 kind = "trait"
 title = "Infernal Colleague"
+aon = "TraitDisplay.aspx?ItemName=Infernal%20Colleague"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_colleague", path = "json/traits01.json" },

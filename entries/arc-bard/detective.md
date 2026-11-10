@@ -2,6 +2,7 @@
 id = "ref/arc-bard/detective"
 kind = "archetype"
 title = "Detective"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Detective"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detective", path = "json/archetypes_bard.json" },

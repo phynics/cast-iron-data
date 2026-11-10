@@ -2,6 +2,7 @@
 id = "ref/feat/planar-wanderer"
 kind = "feat"
 title = "Planar Wanderer"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Wanderer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_wanderer", path = "json/feat12.json" },

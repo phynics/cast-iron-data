@@ -2,6 +2,7 @@
 id = "ref/feat/strength-of-wood"
 kind = "feat"
 title = "Strength of Wood"
+aon = "FeatDisplay.aspx?ItemName=Strength%20of%20Wood"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_wood", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/protectors-strike"
 kind = "feat"
 title = "Protector's Strike"
+aon = "FeatDisplay.aspx?ItemName=Protector%27s%20Strike"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protectors_strike", path = "json/feat12.json" },

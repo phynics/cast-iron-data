@@ -2,6 +2,7 @@
 id = "ref/spell/monstrous-physique-1"
 kind = "spell"
 title = "Monstrous Physique I"
+aon = "SpellDisplay.aspx?ItemName=Monstrous%20Physique%20I"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_physique_1", path = "json/spells7.json" },

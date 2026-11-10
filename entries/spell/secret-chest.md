@@ -2,6 +2,7 @@
 id = "ref/spell/secret-chest"
 kind = "spell"
 title = "Secret Chest"
+aon = "SpellDisplay.aspx?ItemName=Secret%20Chest"
 source_ids = ["core-rulebook", "black-markets", "heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_chest", path = "json/spells15.json" },

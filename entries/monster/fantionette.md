@@ -2,6 +2,7 @@
 id = "ref/monster/fantionette"
 kind = "creature"
 title = "Fantionette"
+aon = "MonsterDisplay.aspx?ItemName=Fantionette"
 source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fantionette", path = "json/monsters10.json" },

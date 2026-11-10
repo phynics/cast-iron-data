@@ -2,6 +2,7 @@
 id = "ref/spell/fire-trail"
 kind = "spell"
 title = "Fire Trail"
+aon = "SpellDisplay.aspx?ItemName=Fire%20Trail"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_trail", path = "json/spells4.json" },

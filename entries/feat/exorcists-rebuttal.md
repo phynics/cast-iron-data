@@ -2,6 +2,7 @@
 id = "ref/feat/exorcists-rebuttal"
 kind = "feat"
 title = "Exorcist's Rebuttal"
+aon = "FeatDisplay.aspx?ItemName=Exorcist%27s%20Rebuttal"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcists_rebuttal", path = "json/feat06.json" },

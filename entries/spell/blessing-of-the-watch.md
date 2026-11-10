@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-the-watch"
 kind = "spell"
 title = "Blessing of the Watch"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20the%20Watch"
 source_ids = ["inner-sea-gods", "pathfinder-8-seven-days-to-the-grave", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_watch", path = "json/spells2.json" },

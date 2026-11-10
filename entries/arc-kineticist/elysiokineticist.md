@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/elysiokineticist"
 kind = "archetype"
 title = "Elysiokineticist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Elysiokineticist"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysiokineticist", path = "json/archetypes_kineticist.json" },

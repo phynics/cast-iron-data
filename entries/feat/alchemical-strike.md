@@ -2,6 +2,7 @@
 id = "ref/feat/alchemical-strike"
 kind = "feat"
 title = "Alchemical Strike"
+aon = "FeatDisplay.aspx?ItemName=Alchemical%20Strike"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_strike", path = "json/feat01.json" },

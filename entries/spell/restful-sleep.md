@@ -2,6 +2,7 @@
 id = "ref/spell/restful-sleep"
 kind = "spell"
 title = "Restful Sleep"
+aon = "SpellDisplay.aspx?ItemName=Restful%20Sleep"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restful_sleep", path = "json/spells8.json" },

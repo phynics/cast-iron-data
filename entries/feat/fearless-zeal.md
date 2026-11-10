@@ -2,6 +2,7 @@
 id = "ref/feat/fearless-zeal"
 kind = "feat"
 title = "Fearless Zeal"
+aon = "FeatDisplay.aspx?ItemName=Fearless%20Zeal"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearless_zeal", path = "json/feat06.json" },

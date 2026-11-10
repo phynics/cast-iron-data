@@ -2,6 +2,7 @@
 id = "ref/feat/persistent-spell"
 kind = "feat"
 title = "Persistent Spell"
+aon = "FeatDisplay.aspx?ItemName=Persistent%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persistent_spell", path = "json/feat12.json" },

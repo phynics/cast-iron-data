@@ -2,6 +2,7 @@
 id = "ref/feat/crashing-wave-fist"
 kind = "feat"
 title = "Crashing Wave Fist"
+aon = "FeatDisplay.aspx?ItemName=Crashing%20Wave%20Fist"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave_fist", path = "json/feat03.json" },

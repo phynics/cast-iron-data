@@ -2,6 +2,7 @@
 id = "ref/feat/reactive-arcane-shield"
 kind = "feat"
 title = "Reactive Arcane Shield"
+aon = "FeatDisplay.aspx?ItemName=Reactive%20Arcane%20Shield"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reactive_arcane_shield", path = "json/feat13.json" },

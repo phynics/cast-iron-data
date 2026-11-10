@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-shroud"
 kind = "feat"
 title = "Shadow Shroud"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Shroud"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_shroud", path = "json/feat14.json" },

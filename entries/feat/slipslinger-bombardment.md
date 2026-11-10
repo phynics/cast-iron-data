@@ -2,6 +2,7 @@
 id = "ref/feat/slipslinger-bombardment"
 kind = "feat"
 title = "Slipslinger Bombardment"
+aon = "FeatDisplay.aspx?ItemName=Slipslinger%20Bombardment"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipslinger_bombardment", path = "json/feat14.json" },

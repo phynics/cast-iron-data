@@ -2,6 +2,7 @@
 id = "ref/trait/ironfang-survivor"
 kind = "trait"
 title = "Ironfang Survivor"
+aon = "TraitDisplay.aspx?ItemName=Ironfang%20Survivor"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironfang_survivor", path = "json/traits02.json" },

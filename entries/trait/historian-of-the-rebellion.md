@@ -2,6 +2,7 @@
 id = "ref/trait/historian-of-the-rebellion"
 kind = "trait"
 title = "Historian of the Rebellion"
+aon = "TraitDisplay.aspx?ItemName=Historian%20of%20the%20Rebellion"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "historian_of_the_rebellion", path = "json/traits02.json" },

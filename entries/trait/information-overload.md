@@ -2,6 +2,7 @@
 id = "ref/trait/information-overload"
 kind = "trait"
 title = "Information Overload"
+aon = "TraitDisplay.aspx?ItemName=Information%20Overload"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "information_overload", path = "json/traits03.json" },

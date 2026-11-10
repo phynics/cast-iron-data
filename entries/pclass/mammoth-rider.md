@@ -2,6 +2,7 @@
 id = "ref/pclass/mammoth-rider"
 kind = "prestige_class"
 title = "Mammoth Rider"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Mammoth%20Rider"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_rider", path = "json/prestige_classes2.json" },

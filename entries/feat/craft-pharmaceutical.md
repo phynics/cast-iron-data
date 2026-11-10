@@ -2,6 +2,7 @@
 id = "ref/feat/craft-pharmaceutical"
 kind = "feat"
 title = "Craft Pharmaceutical"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Pharmaceutical"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_pharmaceutical", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hag-blood-hag"
 kind = "creature"
 title = "Blood Hag"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Hag"
 source_ids = ["bestiary-4", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_blood_hag", path = "json/monsters33.json" },

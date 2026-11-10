@@ -2,6 +2,7 @@
 id = "ref/monster/robot-juggernaut-robot"
 kind = "creature"
 title = "Juggernaut Robot"
+aon = "MonsterDisplay.aspx?ItemName=Juggernaut%20Robot"
 source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_juggernaut_robot", path = "json/monsters20.json" },

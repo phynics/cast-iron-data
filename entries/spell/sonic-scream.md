@@ -2,6 +2,7 @@
 id = "ref/spell/sonic-scream"
 kind = "spell"
 title = "Sonic Scream"
+aon = "SpellDisplay.aspx?ItemName=Sonic%20Scream"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_scream", path = "json/spells9.json" },

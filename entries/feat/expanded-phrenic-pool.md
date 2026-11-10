@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-phrenic-pool"
 kind = "feat"
 title = "Expanded Phrenic Pool"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Phrenic%20Pool"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_phrenic_pool", path = "json/feat06.json" },

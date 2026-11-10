@@ -2,6 +2,7 @@
 id = "ref/feat/greater-weapon-of-the-chosen"
 kind = "feat"
 title = "Greater Weapon of the Chosen"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Weapon%20of%20the%20Chosen"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_of_the_chosen", path = "json/feat08.json" },

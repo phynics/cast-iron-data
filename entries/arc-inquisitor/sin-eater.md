@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/sin-eater"
 kind = "archetype"
 title = "Sin Eater"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Sin%20Eater"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_eater", path = "json/archetypes_inquisitor.json" },

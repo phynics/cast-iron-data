@@ -2,6 +2,7 @@
 id = "ref/spell/sympathetic-vibration"
 kind = "spell"
 title = "Sympathetic Vibration"
+aon = "SpellDisplay.aspx?ItemName=Sympathetic%20Vibration"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_vibration", path = "json/spells10.json" },

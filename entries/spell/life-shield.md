@@ -2,6 +2,7 @@
 id = "ref/spell/life-shield"
 kind = "spell"
 title = "Life Shield"
+aon = "SpellDisplay.aspx?ItemName=Life%20Shield"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_shield", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/hunter-of-dahak"
 kind = "feat"
 title = "Hunter of Dahak"
+aon = "FeatDisplay.aspx?ItemName=Hunter%20of%20Dahak"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunter_of_dahak", path = "json/feat08.json" },

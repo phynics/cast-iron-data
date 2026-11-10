@@ -2,6 +2,7 @@
 id = "ref/feat/confusing-stare"
 kind = "feat"
 title = "Confusing Stare"
+aon = "FeatDisplay.aspx?ItemName=Confusing%20Stare"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusing_stare", path = "json/feat03.json" },

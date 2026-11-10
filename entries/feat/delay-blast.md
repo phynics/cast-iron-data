@@ -2,6 +2,7 @@
 id = "ref/feat/delay-blast"
 kind = "feat"
 title = "Delay Blast"
+aon = "FeatDisplay.aspx?ItemName=Delay%20Blast"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_blast", path = "json/feat04.json" },

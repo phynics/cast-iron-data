@@ -2,6 +2,7 @@
 id = "ref/trait/fixer-of-odds"
 kind = "trait"
 title = "Fixer of Odds"
+aon = "TraitDisplay.aspx?ItemName=Fixer%20of%20Odds"
 source_ids = ["varisia-birthplace-of-legends", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fixer_of_odds", path = "json/traits02.json" },

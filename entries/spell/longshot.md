@@ -2,6 +2,7 @@
 id = "ref/spell/longshot"
 kind = "spell"
 title = "Longshot"
+aon = "SpellDisplay.aspx?ItemName=Longshot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longshot", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/weird"
 kind = "spell"
 title = "Weird"
+aon = "SpellDisplay.aspx?ItemName=Weird"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weird", path = "json/spells11.json" },

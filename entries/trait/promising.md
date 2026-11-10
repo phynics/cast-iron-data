@@ -2,6 +2,7 @@
 id = "ref/trait/promising"
 kind = "trait"
 title = "Promising"
+aon = "TraitDisplay.aspx?ItemName=Promising"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promising", path = "json/traits01.json" },

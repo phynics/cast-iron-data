@@ -2,6 +2,7 @@
 id = "ref/feat/warding-blood"
 kind = "feat"
 title = "Warding Blood"
+aon = "FeatDisplay.aspx?ItemName=Warding%20Blood"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warding_blood", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/social-slaver"
 kind = "trait"
 title = "Social Slaver"
+aon = "TraitDisplay.aspx?ItemName=Social%20Slaver"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_slaver", path = "json/traits04.json" },

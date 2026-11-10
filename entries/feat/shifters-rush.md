@@ -2,6 +2,7 @@
 id = "ref/feat/shifters-rush"
 kind = "feat"
 title = "Shifter's Rush"
+aon = "FeatDisplay.aspx?ItemName=Shifter%27s%20Rush"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifters_rush", path = "json/feat14.json" },

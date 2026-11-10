@@ -2,6 +2,7 @@
 id = "ref/feat/find-the-flaw"
 kind = "feat"
 title = "Find the Flaw"
+aon = "FeatDisplay.aspx?ItemName=Find%20the%20Flaw"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_the_flaw", path = "json/feat07.json" },

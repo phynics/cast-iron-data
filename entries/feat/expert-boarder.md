@@ -2,6 +2,7 @@
 id = "ref/feat/expert-boarder"
 kind = "feat"
 title = "Expert Boarder"
+aon = "FeatDisplay.aspx?ItemName=Expert%20Boarder"
 source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_boarder", path = "json/feat06.json" },

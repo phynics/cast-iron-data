@@ -2,6 +2,7 @@
 id = "ref/spell/daylight"
 kind = "spell"
 title = "Daylight"
+aon = "SpellDisplay.aspx?ItemName=Daylight"
 source_ids = ["core-rulebook", "adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daylight", path = "json/spells3.json" },

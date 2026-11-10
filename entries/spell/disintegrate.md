@@ -2,6 +2,7 @@
 id = "ref/spell/disintegrate"
 kind = "spell"
 title = "Disintegrate"
+aon = "SpellDisplay.aspx?ItemName=Disintegrate"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disintegrate", path = "json/spells13.json" },

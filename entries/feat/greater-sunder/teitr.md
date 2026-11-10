@@ -2,6 +2,7 @@
 id = "ref/feat/greater-sunder/teitr"
 kind = "feat"
 title = "Greater Sunder"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Sunder"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-sunder" },

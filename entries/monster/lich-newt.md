@@ -2,6 +2,7 @@
 id = "ref/monster/lich-newt"
 kind = "creature"
 title = "Lich Newt"
+aon = "MonsterDisplay.aspx?ItemName=Lich%20Newt"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_newt", path = "json/monsters16.json" },

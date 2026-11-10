@@ -2,6 +2,7 @@
 id = "ref/feat/motivating-display"
 kind = "feat"
 title = "Motivating Display"
+aon = "FeatDisplay.aspx?ItemName=Motivating%20Display"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "motivating_display", path = "json/feat11.json" },

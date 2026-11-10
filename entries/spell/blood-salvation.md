@@ -2,6 +2,7 @@
 id = "ref/spell/blood-salvation"
 kind = "spell"
 title = "Blood Salvation"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Salvation"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_salvation", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/primal-warden"
 kind = "archetype"
 title = "Primal Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Primal%20Warden"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_warden", path = "json/archetypes_shaman.json" },

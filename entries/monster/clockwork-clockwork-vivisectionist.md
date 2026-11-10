@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-vivisectionist"
 kind = "creature"
 title = "Clockwork Vivisectionist"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Vivisectionist"
 source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_vivisectionist", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/undigested-undigested-swarm"
 kind = "creature"
 title = "Undigested Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Undigested%20Swarm"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undigested_undigested_swarm", path = "json/monsters24.json" },

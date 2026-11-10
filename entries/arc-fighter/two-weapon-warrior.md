@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/two-weapon-warrior"
 kind = "archetype"
 title = "Two-Weapon Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Two-Weapon%20Warrior"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_warrior", path = "json/archetypes_fighter2.json" },

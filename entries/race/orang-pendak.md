@@ -2,6 +2,7 @@
 id = "ref/race/orang-pendak"
 kind = "race"
 title = "Orang-Pendak"
+aon = "RacesDisplay.aspx?ItemName=Orang-Pendak"
 source_ids = ["bestiary-5"]
 race_group = "other_race"
 provenance = [

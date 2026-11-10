@@ -2,6 +2,7 @@
 id = "ref/feat/lovable-scoundrel"
 kind = "feat"
 title = "Lovable Scoundrel"
+aon = "FeatDisplay.aspx?ItemName=Lovable%20Scoundrel"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lovable_scoundrel", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fortuitous-vigor"
 kind = "feat"
 title = "Fortuitous Vigor"
+aon = "FeatDisplay.aspx?ItemName=Fortuitous%20Vigor"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortuitous_vigor", path = "json/feat07.json" },

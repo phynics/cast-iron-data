@@ -2,6 +2,7 @@
 id = "ref/spell/toxic-blood"
 kind = "spell"
 title = "Toxic Blood"
+aon = "SpellDisplay.aspx?ItemName=Toxic%20Blood"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_blood", path = "json/spells10.json" },

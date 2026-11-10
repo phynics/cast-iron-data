@@ -2,6 +2,7 @@
 id = "ref/feat/aquatic-adaption"
 kind = "feat"
 title = "Aquatic Adaption"
+aon = "FeatDisplay.aspx?ItemName=Aquatic%20Adaption"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_adaption", path = "json/feat01.json" },

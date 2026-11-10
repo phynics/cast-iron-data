@@ -2,6 +2,7 @@
 id = "ref/arc-druid/ashvawg-tamer"
 kind = "archetype"
 title = "Ashvawg Tamer"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Ashvawg%20Tamer"
 source_ids = ["pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashvawg_tamer", path = "json/archetypes_druid.json" },

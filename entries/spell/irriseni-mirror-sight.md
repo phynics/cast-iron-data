@@ -2,6 +2,7 @@
 id = "ref/spell/irriseni-mirror-sight"
 kind = "spell"
 title = "Irriseni Mirror Sight"
+aon = "SpellDisplay.aspx?ItemName=Irriseni%20Mirror%20Sight"
 source_ids = ["pathfinder-67-the-snows-of-summer", "cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irriseni_mirror_sight", path = "json/spells6.json" },

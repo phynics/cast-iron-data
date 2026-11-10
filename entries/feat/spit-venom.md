@@ -2,6 +2,7 @@
 id = "ref/feat/spit-venom"
 kind = "feat"
 title = "Spit Venom"
+aon = "FeatDisplay.aspx?ItemName=Spit%20Venom"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spit_venom", path = "json/feat15.json" },

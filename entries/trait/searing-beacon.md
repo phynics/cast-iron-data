@@ -2,6 +2,7 @@
 id = "ref/trait/searing-beacon"
 kind = "trait"
 title = "Searing Beacon"
+aon = "TraitDisplay.aspx?ItemName=Searing%20Beacon"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_beacon", path = "json/traits03.json" },

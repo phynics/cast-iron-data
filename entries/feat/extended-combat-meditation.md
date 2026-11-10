@@ -2,6 +2,7 @@
 id = "ref/feat/extended-combat-meditation"
 kind = "feat"
 title = "Extended Combat Meditation"
+aon = "FeatDisplay.aspx?ItemName=Extended%20Combat%20Meditation"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_combat_meditation", path = "json/feat06.json" },

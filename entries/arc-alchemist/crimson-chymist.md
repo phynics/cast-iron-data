@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/crimson-chymist"
 kind = "archetype"
 title = "Crimson Chymist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Crimson%20Chymist"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_chymist", path = "json/archetypes_alchemist.json" },

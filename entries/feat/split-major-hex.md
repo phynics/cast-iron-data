@@ -2,6 +2,7 @@
 id = "ref/feat/split-major-hex"
 kind = "feat"
 title = "Split Major Hex"
+aon = "FeatDisplay.aspx?ItemName=Split%20Major%20Hex"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "split_major_hex", path = "json/feat15.json" },

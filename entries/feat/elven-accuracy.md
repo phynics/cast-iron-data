@@ -2,6 +2,7 @@
 id = "ref/feat/elven-accuracy"
 kind = "feat"
 title = "Elven Accuracy"
+aon = "FeatDisplay.aspx?ItemName=Elven%20Accuracy"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_accuracy", path = "json/feat05.json" },

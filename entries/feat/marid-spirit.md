@@ -2,6 +2,7 @@
 id = "ref/feat/marid-spirit"
 kind = "feat"
 title = "Marid Spirit"
+aon = "FeatDisplay.aspx?ItemName=Marid%20Spirit"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_spirit", path = "json/feat10.json" },

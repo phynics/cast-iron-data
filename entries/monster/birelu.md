@@ -2,6 +2,7 @@
 id = "ref/monster/birelu"
 kind = "creature"
 title = "Birelu"
+aon = "MonsterDisplay.aspx?ItemName=Birelu"
 source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "birelu", path = "json/monsters03.json" },

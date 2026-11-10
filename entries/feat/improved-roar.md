@@ -2,6 +2,7 @@
 id = "ref/feat/improved-roar"
 kind = "feat"
 title = "Improved Roar"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Roar"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_roar", path = "json/feat09.json" },

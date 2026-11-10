@@ -2,6 +2,7 @@
 id = "ref/spell/face-of-the-devourer"
 kind = "spell"
 title = "Face of the Devourer"
+aon = "SpellDisplay.aspx?ItemName=Face%20of%20the%20Devourer"
 source_ids = ["inner-sea-gods", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "face_of_the_devourer", path = "json/spells4.json" },

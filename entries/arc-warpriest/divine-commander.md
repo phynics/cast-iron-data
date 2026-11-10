@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/divine-commander"
 kind = "archetype"
 title = "Divine Commander"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Divine%20Commander"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_commander", path = "json/archetypes_warpriest.json" },

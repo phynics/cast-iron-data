@@ -2,6 +2,7 @@
 id = "ref/feat/atheist-abjurations"
 kind = "feat"
 title = "Atheist Abjurations"
+aon = "FeatDisplay.aspx?ItemName=Atheist%20Abjurations"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atheist_abjurations", path = "json/feat01.json" },

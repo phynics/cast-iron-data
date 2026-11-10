@@ -2,6 +2,7 @@
 id = "ref/feat/two-handed-thrower"
 kind = "feat"
 title = "Two-Handed Thrower"
+aon = "FeatDisplay.aspx?ItemName=Two-Handed%20Thrower"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_handed_thrower", path = "json/feat16.json" },

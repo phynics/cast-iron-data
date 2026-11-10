@@ -2,6 +2,7 @@
 id = "ref/arc-druid/leshy-warden"
 kind = "archetype"
 title = "Leshy Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Leshy%20Warden"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_warden", path = "json/archetypes_druid.json" },

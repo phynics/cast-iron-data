@@ -2,6 +2,7 @@
 id = "ref/feat/incredible-healer"
 kind = "feat"
 title = "Incredible Healer"
+aon = "FeatDisplay.aspx?ItemName=Incredible%20Healer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incredible_healer", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/rhinoceros-woolly-rhinoceros"
 kind = "creature"
 title = "Woolly Rhinoceros"
+aon = "MonsterDisplay.aspx?ItemName=Woolly%20Rhinoceros"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhinoceros_woolly_rhinoceros", path = "json/monsters20.json" },

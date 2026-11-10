@@ -2,6 +2,7 @@
 id = "ref/spell/mages-crawl-space"
 kind = "spell"
 title = "Mage's Crawl Space"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Crawl%20Space"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_crawl_space", path = "json/spells6.json" },

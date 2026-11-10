@@ -2,6 +2,7 @@
 id = "ref/spell/genius-avaricious"
 kind = "spell"
 title = "Genius Avaricious"
+aon = "SpellDisplay.aspx?ItemName=Genius%20Avaricious"
 source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genius_avaricious", path = "json/spells13.json" },

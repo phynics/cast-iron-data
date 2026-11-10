@@ -2,6 +2,7 @@
 id = "ref/feat/armor-material-expertise"
 kind = "feat"
 title = "Armor Material Expertise"
+aon = "FeatDisplay.aspx?ItemName=Armor%20Material%20Expertise"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_material_expertise", path = "json/feat01.json" },

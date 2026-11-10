@@ -2,6 +2,7 @@
 id = "ref/feat/desert-dweller"
 kind = "feat"
 title = "Desert Dweller"
+aon = "FeatDisplay.aspx?ItemName=Desert%20Dweller"
 source_ids = ["ultimate-wilderness", "pathfinder-campaign-setting", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_dweller", path = "json/feat04.json" },

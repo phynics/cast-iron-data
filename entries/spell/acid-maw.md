@@ -2,6 +2,7 @@
 id = "ref/spell/acid-maw"
 kind = "spell"
 title = "Acid Maw"
+aon = "SpellDisplay.aspx?ItemName=Acid%20Maw"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_maw", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/blood-boil"
 kind = "spell"
 title = "Blood Boil"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Boil"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_boil", path = "json/spells2.json" },

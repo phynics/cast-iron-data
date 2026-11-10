@@ -2,6 +2,7 @@
 id = "ref/feat/sure-handed-alchemy"
 kind = "feat"
 title = "Sure-Handed Alchemy"
+aon = "FeatDisplay.aspx?ItemName=Sure-Handed%20Alchemy"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_handed_alchemy", path = "json/feat15.json" },

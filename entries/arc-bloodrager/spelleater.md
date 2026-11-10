@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/spelleater"
 kind = "archetype"
 title = "Spelleater"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Spelleater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spelleater", path = "json/archetypes_bloodrager.json" },

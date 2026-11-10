@@ -2,6 +2,7 @@
 id = "ref/trait/unabashed-gall"
 kind = "trait"
 title = "Unabashed Gall"
+aon = "TraitDisplay.aspx?ItemName=Unabashed%20Gall"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unabashed_gall", path = "json/traits01.json" },

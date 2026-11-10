@@ -2,6 +2,7 @@
 id = "ref/trait/snake-bleeder"
 kind = "trait"
 title = "Snake Bleeder"
+aon = "TraitDisplay.aspx?ItemName=Snake%20Bleeder"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_bleeder", path = "json/traits04.json" },

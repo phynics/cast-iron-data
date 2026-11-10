@@ -2,6 +2,7 @@
 id = "ref/trait/border-guard"
 kind = "trait"
 title = "Border Guard"
+aon = "TraitDisplay.aspx?ItemName=Border%20Guard"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "border_guard", path = "json/traits04.json" },

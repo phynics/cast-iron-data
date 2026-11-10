@@ -2,6 +2,7 @@
 id = "ref/trait/self-taught-scholar"
 kind = "trait"
 title = "Self-Taught Scholar"
+aon = "TraitDisplay.aspx?ItemName=Self-Taught%20Scholar"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_taught_scholar", path = "json/traits02.json" },

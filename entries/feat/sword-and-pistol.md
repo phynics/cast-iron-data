@@ -2,6 +2,7 @@
 id = "ref/feat/sword-and-pistol"
 kind = "feat"
 title = "Sword and Pistol"
+aon = "FeatDisplay.aspx?ItemName=Sword%20and%20Pistol"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_and_pistol", path = "json/feat15.json" },

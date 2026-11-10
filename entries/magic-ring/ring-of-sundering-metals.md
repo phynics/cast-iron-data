@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-sundering-metals"
 kind = "item"
 title = "Ring of Sundering Metals"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Sundering%20Metals"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_sundering_metals", path = "json/magic_ring.json" },

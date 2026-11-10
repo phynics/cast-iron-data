@@ -2,6 +2,7 @@
 id = "ref/feat/self-sufficient"
 kind = "feat"
 title = "Self-Sufficient"
+aon = "FeatDisplay.aspx?ItemName=Self-Sufficient"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_sufficient", path = "json/feat13.json" },

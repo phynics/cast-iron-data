@@ -2,6 +2,7 @@
 id = "ref/feat/mask-of-virtue"
 kind = "feat"
 title = "Mask of Virtue"
+aon = "FeatDisplay.aspx?ItemName=Mask%20of%20Virtue"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_virtue", path = "json/feat10.json" },

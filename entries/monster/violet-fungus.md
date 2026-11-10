@@ -2,6 +2,7 @@
 id = "ref/monster/violet-fungus"
 kind = "creature"
 title = "Violet Fungus"
+aon = "MonsterDisplay.aspx?ItemName=Violet%20Fungus"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violet_fungus", path = "json/monsters40.json" },

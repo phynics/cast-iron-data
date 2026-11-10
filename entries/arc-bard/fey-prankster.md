@@ -2,6 +2,7 @@
 id = "ref/arc-bard/fey-prankster"
 kind = "archetype"
 title = "Fey Prankster"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Fey%20Prankster"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_prankster", path = "json/archetypes_bard.json" },

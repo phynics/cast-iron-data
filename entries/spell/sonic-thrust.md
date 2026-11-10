@@ -2,6 +2,7 @@
 id = "ref/spell/sonic-thrust"
 kind = "spell"
 title = "Sonic Thrust"
+aon = "SpellDisplay.aspx?ItemName=Sonic%20Thrust"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_thrust", path = "json/spells9.json" },

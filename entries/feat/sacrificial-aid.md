@@ -2,6 +2,7 @@
 id = "ref/feat/sacrificial-aid"
 kind = "feat"
 title = "Sacrificial Aid"
+aon = "FeatDisplay.aspx?ItemName=Sacrificial%20Aid"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_aid", path = "json/feat13.json" },

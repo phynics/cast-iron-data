@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/ectoplasmatist"
 kind = "archetype"
 title = "Ectoplasmatist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Ectoplasmatist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmatist", path = "json/archetypes_spiritualist.json" },

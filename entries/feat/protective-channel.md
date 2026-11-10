@@ -2,6 +2,7 @@
 id = "ref/feat/protective-channel"
 kind = "feat"
 title = "Protective Channel"
+aon = "FeatDisplay.aspx?ItemName=Protective%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_channel", path = "json/feat12.json" },

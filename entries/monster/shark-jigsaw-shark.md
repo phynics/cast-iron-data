@@ -2,6 +2,7 @@
 id = "ref/monster/shark-jigsaw-shark"
 kind = "creature"
 title = "Jigsaw Shark"
+aon = "MonsterDisplay.aspx?ItemName=Jigsaw%20Shark"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_jigsaw_shark", path = "json/monsters38.json" },

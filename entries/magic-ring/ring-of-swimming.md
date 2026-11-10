@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-swimming"
 kind = "item"
 title = "Ring of Swimming"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swimming"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_swimming", path = "json/magic_ring.json" },

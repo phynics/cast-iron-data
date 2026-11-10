@@ -2,6 +2,7 @@
 id = "ref/trait/foreign-tongued"
 kind = "trait"
 title = "Foreign-Tongued"
+aon = "TraitDisplay.aspx?ItemName=Foreign-Tongued"
 source_ids = ["varisia-birthplace-of-legends", "jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foreign_tongued", path = "json/traits02.json" },

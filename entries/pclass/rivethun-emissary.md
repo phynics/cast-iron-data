@@ -2,6 +2,7 @@
 id = "ref/pclass/rivethun-emissary"
 kind = "prestige_class"
 title = "Rivethun Emissary"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Rivethun%20Emissary"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivethun_emissary", path = "json/prestige_classes3.json" },

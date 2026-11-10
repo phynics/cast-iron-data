@@ -2,6 +2,7 @@
 id = "ref/feat/ready-for-pain"
 kind = "feat"
 title = "Ready for Pain"
+aon = "FeatDisplay.aspx?ItemName=Ready%20for%20Pain"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ready_for_pain", path = "json/feat13.json" },

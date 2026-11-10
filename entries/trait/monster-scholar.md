@@ -2,6 +2,7 @@
 id = "ref/trait/monster-scholar"
 kind = "trait"
 title = "Monster Scholar"
+aon = "TraitDisplay.aspx?ItemName=Monster%20Scholar"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_scholar", path = "json/traits01.json" },

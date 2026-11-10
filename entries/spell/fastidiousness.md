@@ -2,6 +2,7 @@
 id = "ref/spell/fastidiousness"
 kind = "spell"
 title = "Fastidiousness"
+aon = "SpellDisplay.aspx?ItemName=Fastidiousness"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fastidiousness", path = "json/spells4.json" },

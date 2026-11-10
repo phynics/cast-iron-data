@@ -2,6 +2,7 @@
 id = "ref/feat/taldan-duelist"
 kind = "feat"
 title = "Taldan Duelist"
+aon = "FeatDisplay.aspx?ItemName=Taldan%20Duelist"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldan_duelist", path = "json/feat15.json" },

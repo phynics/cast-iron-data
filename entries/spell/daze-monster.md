@@ -2,6 +2,7 @@
 id = "ref/spell/daze-monster"
 kind = "spell"
 title = "Daze Monster"
+aon = "SpellDisplay.aspx?ItemName=Daze%20Monster"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daze_monster", path = "json/spells3.json" },

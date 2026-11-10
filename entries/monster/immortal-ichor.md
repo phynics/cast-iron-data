@@ -2,6 +2,7 @@
 id = "ref/monster/immortal-ichor"
 kind = "creature"
 title = "Immortal Ichor"
+aon = "MonsterDisplay.aspx?ItemName=Immortal%20Ichor"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immortal_ichor", path = "json/monsters14.json" },

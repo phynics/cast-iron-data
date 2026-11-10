@@ -2,6 +2,7 @@
 id = "ref/feat/eye-of-the-arclord"
 kind = "feat"
 title = "Eye of the Arclord"
+aon = "FeatDisplay.aspx?ItemName=Eye%20of%20the%20Arclord"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_the_arclord", path = "json/feat06.json" },

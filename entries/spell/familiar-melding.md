@@ -2,6 +2,7 @@
 id = "ref/spell/familiar-melding"
 kind = "spell"
 title = "Familiar Melding"
+aon = "SpellDisplay.aspx?ItemName=Familiar%20Melding"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_melding", path = "json/spells4.json" },

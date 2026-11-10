@@ -2,6 +2,7 @@
 id = "ref/feat/favored-judgment"
 kind = "feat"
 title = "Favored Judgment"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Judgment"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_judgment", path = "json/feat06.json" },

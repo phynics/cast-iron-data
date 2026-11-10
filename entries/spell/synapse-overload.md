@@ -2,6 +2,7 @@
 id = "ref/spell/synapse-overload"
 kind = "spell"
 title = "Synapse Overload"
+aon = "SpellDisplay.aspx?ItemName=Synapse%20Overload"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synapse_overload", path = "json/spells10.json" },

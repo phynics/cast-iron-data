@@ -2,6 +2,7 @@
 id = "ref/spell/commune-with-texts"
 kind = "spell"
 title = "Commune with Texts"
+aon = "SpellDisplay.aspx?ItemName=Commune%20with%20Texts"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_texts", path = "json/spells12.json" },

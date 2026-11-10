@@ -2,6 +2,7 @@
 id = "ref/trait/prolong-magic"
 kind = "trait"
 title = "Prolong Magic"
+aon = "TraitDisplay.aspx?ItemName=Prolong%20Magic"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prolong_magic", path = "json/traits05.json" },

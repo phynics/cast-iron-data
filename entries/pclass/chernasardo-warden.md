@@ -2,6 +2,7 @@
 id = "ref/pclass/chernasardo-warden"
 kind = "prestige_class"
 title = "Chernasardo Warden"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Chernasardo%20Warden"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chernasardo_warden", path = "json/prestige_classes.json" },

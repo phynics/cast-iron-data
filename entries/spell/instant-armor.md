@@ -2,6 +2,7 @@
 id = "ref/spell/instant-armor"
 kind = "spell"
 title = "Instant Armor"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Armor"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_armor", path = "json/spells14.json" },

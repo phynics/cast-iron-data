@@ -2,6 +2,7 @@
 id = "ref/spell/foxs-cunning"
 kind = "spell"
 title = "Fox's Cunning"
+aon = "SpellDisplay.aspx?ItemName=Fox%27s%20Cunning"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxs_cunning", path = "json/spells13.json" },

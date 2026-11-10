@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-temper"
 kind = "trait"
 title = "Arcane Temper"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Temper"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_temper", path = "json/traits02.json" },

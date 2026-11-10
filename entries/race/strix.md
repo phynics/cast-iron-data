@@ -2,6 +2,7 @@
 id = "ref/race/strix"
 kind = "race"
 title = "Strix"
+aon = "RacesDisplay.aspx?ItemName=Strix"
 source_ids = ["inner-sea-races", "advanced-race-guide", "inner-sea-world-guide", "pathfinder-25-the-bastards-of-erebus", "pathfinder-101-the-kintargo-contract"]
 race_group = "uncommon_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/feat/born-of-frost"
 kind = "feat"
 title = "Born of Frost"
+aon = "FeatDisplay.aspx?ItemName=Born%20of%20Frost"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_of_frost", path = "json/feat02.json" },

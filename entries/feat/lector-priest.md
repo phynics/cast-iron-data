@@ -2,6 +2,7 @@
 id = "ref/feat/lector-priest"
 kind = "feat"
 title = "Lector Priest"
+aon = "FeatDisplay.aspx?ItemName=Lector%20Priest"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lector_priest", path = "json/feat10.json" },

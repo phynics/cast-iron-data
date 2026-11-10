@@ -2,6 +2,7 @@
 id = "ref/spell/empathy-conduit"
 kind = "spell"
 title = "Empathy Conduit"
+aon = "SpellDisplay.aspx?ItemName=Empathy%20Conduit"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empathy_conduit", path = "json/spells4.json" },

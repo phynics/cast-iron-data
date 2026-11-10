@@ -2,6 +2,7 @@
 id = "ref/feat/live-off-the-land"
 kind = "feat"
 title = "Live off the Land"
+aon = "FeatDisplay.aspx?ItemName=Live%20off%20the%20Land"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "live_off_the_land", path = "json/feat10.json" },

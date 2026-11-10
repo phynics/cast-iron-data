@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-dead"
 kind = "spell"
 title = "Speak with Dead"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Dead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_dead", path = "json/spells9.json" },

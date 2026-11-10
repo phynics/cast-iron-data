@@ -2,6 +2,7 @@
 id = "ref/spell/reviving-finale"
 kind = "spell"
 title = "Reviving Finale"
+aon = "SpellDisplay.aspx?ItemName=Reviving%20Finale"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_finale", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/holliss-lucky-rock"
 kind = "item"
 title = "Hollis's Lucky Rock"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Hollis%27s%20Lucky%20Rock"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holliss_lucky_rock", path = "json/magic_wondrous_slotless03.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-magus/beastblade"
 kind = "archetype"
 title = "Beastblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Beastblade"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastblade", path = "json/archetypes_magus.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/seducers-eyes"
 kind = "spell"
 title = "Seducer's Eyes"
+aon = "SpellDisplay.aspx?ItemName=Seducer%27s%20Eyes"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seducers_eyes", path = "json/spells15.json" },

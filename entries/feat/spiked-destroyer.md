@@ -2,6 +2,7 @@
 id = "ref/feat/spiked-destroyer"
 kind = "feat"
 title = "Spiked Destroyer"
+aon = "FeatDisplay.aspx?ItemName=Spiked%20Destroyer"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiked_destroyer", path = "json/feat14.json" },

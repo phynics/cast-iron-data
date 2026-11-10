@@ -2,6 +2,7 @@
 id = "ref/spell/vermicious-assumption"
 kind = "spell"
 title = "Vermicious Assumption"
+aon = "SpellDisplay.aspx?ItemName=Vermicious%20Assumption"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermicious_assumption", path = "json/spells11.json" },

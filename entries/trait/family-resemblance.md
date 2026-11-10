@@ -2,6 +2,7 @@
 id = "ref/trait/family-resemblance"
 kind = "trait"
 title = "Family Resemblance"
+aon = "TraitDisplay.aspx?ItemName=Family%20Resemblance"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_resemblance", path = "json/traits03.json" },

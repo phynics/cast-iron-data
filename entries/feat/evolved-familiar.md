@@ -2,6 +2,7 @@
 id = "ref/feat/evolved-familiar"
 kind = "feat"
 title = "Evolved Familiar"
+aon = "FeatDisplay.aspx?ItemName=Evolved%20Familiar"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolved_familiar", path = "json/feat06.json" },

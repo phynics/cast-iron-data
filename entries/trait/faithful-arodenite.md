@@ -2,6 +2,7 @@
 id = "ref/trait/faithful-arodenite"
 kind = "trait"
 title = "Faithful Arodenite"
+aon = "TraitDisplay.aspx?ItemName=Faithful%20Arodenite"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faithful_arodenite", path = "json/traits03.json" },

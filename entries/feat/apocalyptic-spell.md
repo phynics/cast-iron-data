@@ -2,6 +2,7 @@
 id = "ref/feat/apocalyptic-spell"
 kind = "feat"
 title = "Apocalyptic Spell"
+aon = "FeatDisplay.aspx?ItemName=Apocalyptic%20Spell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalyptic_spell", path = "json/feat01.json" },

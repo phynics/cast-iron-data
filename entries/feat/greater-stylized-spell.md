@@ -2,6 +2,7 @@
 id = "ref/feat/greater-stylized-spell"
 kind = "feat"
 title = "Greater Stylized Spell"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Stylized%20Spell"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_stylized_spell", path = "json/feat08.json" },

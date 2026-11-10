@@ -2,6 +2,7 @@
 id = "ref/trait/shadowsight"
 kind = "trait"
 title = "Shadowsight"
+aon = "TraitDisplay.aspx?ItemName=Shadowsight"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowsight", path = "json/traits04.json" },

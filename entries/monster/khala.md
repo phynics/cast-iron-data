@@ -2,6 +2,7 @@
 id = "ref/monster/khala"
 kind = "creature"
 title = "Khala"
+aon = "MonsterDisplay.aspx?ItemName=Khala"
 source_ids = ["bestiary-5", "irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khala", path = "json/monsters15.json" },

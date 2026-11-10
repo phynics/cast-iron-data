@@ -2,6 +2,7 @@
 id = "ref/feat/leaping-shot"
 kind = "feat"
 title = "Leaping Shot"
+aon = "FeatDisplay.aspx?ItemName=Leaping%20Shot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leaping_shot", path = "json/feat10.json" },

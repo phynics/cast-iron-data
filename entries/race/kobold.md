@@ -2,6 +2,7 @@
 id = "ref/race/kobold"
 kind = "race"
 title = "Kobold"
+aon = "RacesDisplay.aspx?ItemName=Kobold"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary", "kobolds-of-golarion", "wilderness-origins"]
 race_group = "featured_race"
 provenance = [

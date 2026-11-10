@@ -2,6 +2,7 @@
 id = "ref/trait/greater-link"
 kind = "trait"
 title = "Greater Link"
+aon = "TraitDisplay.aspx?ItemName=Greater%20Link"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_link", path = "json/traits02.json" },

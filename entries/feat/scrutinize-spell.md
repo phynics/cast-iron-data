@@ -2,6 +2,7 @@
 id = "ref/feat/scrutinize-spell"
 kind = "feat"
 title = "Scrutinize Spell"
+aon = "FeatDisplay.aspx?ItemName=Scrutinize%20Spell"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrutinize_spell", path = "json/feat13.json" },

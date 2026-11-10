@@ -2,6 +2,7 @@
 id = "ref/spell/aqueous-orb"
 kind = "spell"
 title = "Aqueous Orb"
+aon = "SpellDisplay.aspx?ItemName=Aqueous%20Orb"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqueous_orb", path = "json/spells.json" },

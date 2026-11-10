@@ -2,6 +2,7 @@
 id = "ref/spell/summon-flight-of-eagles"
 kind = "spell"
 title = "Summon Flight of Eagles"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Flight%20of%20Eagles"
 source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_flight_of_eagles", path = "json/spells16.json" },

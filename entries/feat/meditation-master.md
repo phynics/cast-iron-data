@@ -2,6 +2,7 @@
 id = "ref/feat/meditation-master"
 kind = "feat"
 title = "Meditation Master"
+aon = "FeatDisplay.aspx?ItemName=Meditation%20Master"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditation_master", path = "json/feat10.json" },

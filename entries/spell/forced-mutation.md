@@ -2,6 +2,7 @@
 id = "ref/spell/forced-mutation"
 kind = "spell"
 title = "Forced Mutation"
+aon = "SpellDisplay.aspx?ItemName=Forced%20Mutation"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_mutation", path = "json/spells13.json" },

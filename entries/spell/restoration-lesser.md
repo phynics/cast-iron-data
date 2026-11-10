@@ -2,6 +2,7 @@
 id = "ref/spell/restoration-lesser"
 kind = "spell"
 title = "Lesser Restoration"
+aon = "SpellDisplay.aspx?ItemName=restoration%2C%20lesser"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_lesser", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-revelation-superior"
 kind = "item"
 title = "Ring of Revelation (superior)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Revelationsuperior"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_revelation_superior", path = "json/magic_ring.json" },

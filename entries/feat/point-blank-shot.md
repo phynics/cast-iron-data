@@ -2,6 +2,7 @@
 id = "ref/feat/point-blank-shot"
 kind = "feat"
 title = "Point-Blank Shot"
+aon = "FeatDisplay.aspx?ItemName=Point-Blank%20Shot"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_shot", path = "json/feat12.json" },

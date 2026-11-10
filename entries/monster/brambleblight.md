@@ -2,6 +2,7 @@
 id = "ref/monster/brambleblight"
 kind = "creature"
 title = "Brambleblight"
+aon = "MonsterDisplay.aspx?ItemName=Brambleblight"
 source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brambleblight", path = "json/monsters04.json" },

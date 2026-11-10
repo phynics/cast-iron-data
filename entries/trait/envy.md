@@ -2,6 +2,7 @@
 id = "ref/trait/envy"
 kind = "trait"
 title = "Envy"
+aon = "TraitDisplay.aspx?ItemName=Envy"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envy", path = "json/traits03.json" },

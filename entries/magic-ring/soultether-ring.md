@@ -2,6 +2,7 @@
 id = "ref/magic-ring/soultether-ring"
 kind = "item"
 title = "Soultether Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Soultether%20Ring"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soultether_ring", path = "json/magic_ring.json" },

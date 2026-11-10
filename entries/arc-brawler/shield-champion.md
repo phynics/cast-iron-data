@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/shield-champion"
 kind = "archetype"
 title = "Shield Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Shield%20Champion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_champion", path = "json/archetypes_brawler.json" },

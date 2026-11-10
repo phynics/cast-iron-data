@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-distraction"
 kind = "spell"
 title = "Aura of Distraction"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20Distraction"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_distraction", path = "json/spells.json" },

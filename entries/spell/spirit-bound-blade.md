@@ -2,6 +2,7 @@
 id = "ref/spell/spirit-bound-blade"
 kind = "spell"
 title = "Spirit-Bound Blade"
+aon = "SpellDisplay.aspx?ItemName=Spirit-Bound%20Blade"
 source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_bound_blade", path = "json/spells9.json" },

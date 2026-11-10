@@ -2,6 +2,7 @@
 id = "ref/trait/twitchy"
 kind = "trait"
 title = "Twitchy"
+aon = "TraitDisplay.aspx?ItemName=Twitchy"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twitchy", path = "json/traits03.json" },

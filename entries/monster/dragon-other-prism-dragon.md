@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-other-prism-dragon"
 kind = "creature"
 title = "Prism Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Prism%20Dragon"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_prism_dragon", path = "json/monsters42.json" },

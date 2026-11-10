@@ -2,6 +2,7 @@
 id = "ref/spell/advanced-scurvy"
 kind = "spell"
 title = "Advanced Scurvy"
+aon = "SpellDisplay.aspx?ItemName=Advanced%20Scurvy"
 source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_scurvy", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/blackfire-adept"
 kind = "prestige_class"
 title = "Blackfire Adept"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Blackfire%20Adept"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfire_adept", path = "json/prestige_classes.json" },

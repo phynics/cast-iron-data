@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-rulership"
 kind = "item"
 title = "Ring of Rulership"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Rulership"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_rulership", path = "json/magic_ring.json" },

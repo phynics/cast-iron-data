@@ -2,6 +2,7 @@
 id = "ref/feat/familiar-spell"
 kind = "feat"
 title = "Familiar Spell"
+aon = "FeatDisplay.aspx?ItemName=Familiar%20Spell"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_spell", path = "json/feat06.json" },

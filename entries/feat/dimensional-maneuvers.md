@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-maneuvers"
 kind = "feat"
 title = "Dimensional Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Maneuvers"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_maneuvers", path = "json/feat04.json" },

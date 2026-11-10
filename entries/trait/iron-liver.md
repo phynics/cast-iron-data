@@ -2,6 +2,7 @@
 id = "ref/trait/iron-liver"
 kind = "trait"
 title = "Iron Liver"
+aon = "TraitDisplay.aspx?ItemName=Iron%20Liver"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_liver", path = "json/traits03.json" },

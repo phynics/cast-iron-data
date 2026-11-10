@@ -2,6 +2,7 @@
 id = "ref/trait/cheat-death"
 kind = "trait"
 title = "Cheat Death"
+aon = "TraitDisplay.aspx?ItemName=Cheat%20Death"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cheat_death", path = "json/traits03.json" },

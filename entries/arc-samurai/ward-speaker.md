@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/ward-speaker"
 kind = "archetype"
 title = "Ward Speaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Ward%20Speaker"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ward_speaker", path = "json/archetypes_samurai.json" },

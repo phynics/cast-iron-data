@@ -2,6 +2,7 @@
 id = "ref/trait/empyreal-pantheon"
 kind = "trait"
 title = "Empyreal Pantheon"
+aon = "TraitDisplay.aspx?ItemName=Empyreal%20Pantheon"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_pantheon", path = "json/traits01.json" },

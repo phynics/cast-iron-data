@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/reincarnated-oracle"
 kind = "archetype"
 title = "Reincarnated Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Reincarnated%20Oracle"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reincarnated_oracle", path = "json/archetypes_oracle.json" },

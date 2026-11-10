@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-vengeance"
 kind = "spell"
 title = "Litany of Vengeance"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Vengeance"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_vengeance", path = "json/spells6.json" },

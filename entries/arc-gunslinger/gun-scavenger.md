@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/gun-scavenger"
 kind = "archetype"
 title = "Gun Scavenger"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Gun%20Scavenger"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_scavenger", path = "json/archetypes_gunslinger.json" },

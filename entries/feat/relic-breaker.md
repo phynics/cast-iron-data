@@ -2,6 +2,7 @@
 id = "ref/feat/relic-breaker"
 kind = "feat"
 title = "Relic Breaker"
+aon = "FeatDisplay.aspx?ItemName=Relic%20Breaker"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_breaker", path = "json/feat13.json" },

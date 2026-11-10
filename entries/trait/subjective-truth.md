@@ -2,6 +2,7 @@
 id = "ref/trait/subjective-truth"
 kind = "trait"
 title = "Subjective Truth"
+aon = "TraitDisplay.aspx?ItemName=Subjective%20Truth"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_truth", path = "json/traits01.json" },

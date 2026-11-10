@@ -2,6 +2,7 @@
 id = "ref/pclass/daivrat"
 kind = "prestige_class"
 title = "Daivrat"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Daivrat"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daivrat", path = "json/prestige_classes.json" },

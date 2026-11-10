@@ -2,6 +2,7 @@
 id = "ref/monster/devil-apostate-devil-deimavigga"
 kind = "creature"
 title = "Apostate Devil (Deimavigga)"
+aon = "MonsterDisplay.aspx?ItemName=Apostate%20Devil%20%28Deimavigga%29"
 source_ids = ["bestiary-5", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_apostate_devil_deimavigga", path = "json/monsters07.json" },

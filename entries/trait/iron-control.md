@@ -2,6 +2,7 @@
 id = "ref/trait/iron-control"
 kind = "trait"
 title = "Iron Control"
+aon = "TraitDisplay.aspx?ItemName=Iron%20Control"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_control", path = "json/traits05.json" },

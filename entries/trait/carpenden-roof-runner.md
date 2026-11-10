@@ -2,6 +2,7 @@
 id = "ref/trait/carpenden-roof-runner"
 kind = "trait"
 title = "Carpenden Roof Runner"
+aon = "TraitDisplay.aspx?ItemName=Carpenden%20Roof%20Runner"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carpenden_roof_runner", path = "json/traits04.json" },

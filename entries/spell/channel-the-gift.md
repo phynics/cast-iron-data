@@ -2,6 +2,7 @@
 id = "ref/spell/channel-the-gift"
 kind = "spell"
 title = "Channel the Gift"
+aon = "SpellDisplay.aspx?ItemName=Channel%20the%20Gift"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_the_gift", path = "json/spells2.json" },

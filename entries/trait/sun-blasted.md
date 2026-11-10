@@ -2,6 +2,7 @@
 id = "ref/trait/sun-blasted"
 kind = "trait"
 title = "Sun-Blasted"
+aon = "TraitDisplay.aspx?ItemName=Sun-Blasted"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_blasted", path = "json/traits04.json" },

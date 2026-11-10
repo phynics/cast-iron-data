@@ -2,6 +2,7 @@
 id = "ref/spell/fiery-body"
 kind = "spell"
 title = "Fiery Body"
+aon = "SpellDisplay.aspx?ItemName=Fiery%20Body"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_body", path = "json/spells4.json" },

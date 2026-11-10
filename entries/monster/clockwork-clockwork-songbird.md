@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-songbird"
 kind = "creature"
 title = "Clockwork Songbird"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Songbird"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_songbird", path = "json/monsters05.json" },

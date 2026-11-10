@@ -2,6 +2,7 @@
 id = "ref/feat/hook-fighter"
 kind = "feat"
 title = "Hook Fighter"
+aon = "FeatDisplay.aspx?ItemName=Hook%20Fighter"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_fighter", path = "json/feat08.json" },

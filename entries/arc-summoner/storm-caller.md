@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/storm-caller"
 kind = "archetype"
 title = "Storm Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Storm%20Caller"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_caller", path = "json/archetypes_summoner.json" },

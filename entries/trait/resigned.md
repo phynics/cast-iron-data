@@ -2,6 +2,7 @@
 id = "ref/trait/resigned"
 kind = "trait"
 title = "Resigned"
+aon = "TraitDisplay.aspx?ItemName=Resigned"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resigned", path = "json/traits03.json" },

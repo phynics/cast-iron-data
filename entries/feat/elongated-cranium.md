@@ -2,6 +2,7 @@
 id = "ref/feat/elongated-cranium"
 kind = "feat"
 title = "Elongated Cranium"
+aon = "FeatDisplay.aspx?ItemName=Elongated%20Cranium"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elongated_cranium", path = "json/feat05.json" },

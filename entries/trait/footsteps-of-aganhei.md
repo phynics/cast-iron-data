@@ -2,6 +2,7 @@
 id = "ref/trait/footsteps-of-aganhei"
 kind = "trait"
 title = "Footsteps of Aganhei"
+aon = "TraitDisplay.aspx?ItemName=Footsteps%20of%20Aganhei"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "footsteps_of_aganhei", path = "json/traits04.json" },

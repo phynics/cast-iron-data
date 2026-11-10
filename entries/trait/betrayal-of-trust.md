@@ -2,6 +2,7 @@
 id = "ref/trait/betrayal-of-trust"
 kind = "trait"
 title = "Betrayal of Trust"
+aon = "TraitDisplay.aspx?ItemName=Betrayal%20of%20Trust"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayal_of_trust", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ride-the-lightning"
 kind = "spell"
 title = "Ride the Lightning"
+aon = "SpellDisplay.aspx?ItemName=Ride%20the%20Lightning"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_the_lightning", path = "json/spells8.json" },

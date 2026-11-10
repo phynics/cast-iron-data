@@ -2,6 +2,7 @@
 id = "ref/feat/raking-claws"
 kind = "feat"
 title = "Raking Claws"
+aon = "FeatDisplay.aspx?ItemName=Raking%20Claws"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raking_claws", path = "json/feat13.json" },

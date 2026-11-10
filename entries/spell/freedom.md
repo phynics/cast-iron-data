@@ -2,6 +2,7 @@
 id = "ref/spell/freedom"
 kind = "spell"
 title = "Freedom"
+aon = "SpellDisplay.aspx?ItemName=Freedom"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom", path = "json/spells13.json" },

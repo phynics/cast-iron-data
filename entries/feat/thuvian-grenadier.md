@@ -2,6 +2,7 @@
 id = "ref/feat/thuvian-grenadier"
 kind = "feat"
 title = "Thuvian Grenadier"
+aon = "FeatDisplay.aspx?ItemName=Thuvian%20Grenadier"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thuvian_grenadier", path = "json/feat16.json" },

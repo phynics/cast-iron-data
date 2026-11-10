@@ -2,6 +2,7 @@
 id = "ref/monster/hunting-horror"
 kind = "creature"
 title = "Hunting Horror"
+aon = "MonsterDisplay.aspx?ItemName=Hunting%20Horror"
 source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunting_horror", path = "json/monsters14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/sandy-ambush"
 kind = "trait"
 title = "Sandy Ambush"
+aon = "TraitDisplay.aspx?ItemName=Sandy%20Ambush"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandy_ambush", path = "json/traits05.json" },

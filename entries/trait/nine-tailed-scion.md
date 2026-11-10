@@ -2,6 +2,7 @@
 id = "ref/trait/nine-tailed-scion"
 kind = "trait"
 title = "Nine-Tailed Scion"
+aon = "TraitDisplay.aspx?ItemName=Nine-Tailed%20Scion"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_tailed_scion", path = "json/traits05.json" },

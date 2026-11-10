@@ -2,6 +2,7 @@
 id = "ref/monster/shabti"
 kind = "creature"
 title = "Shabti"
+aon = "MonsterDisplay.aspx?ItemName=Shabti"
 source_ids = ["bestiary-5", "pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shabti", path = "json/monsters21.json" },

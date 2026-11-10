@@ -2,6 +2,7 @@
 id = "ref/feat/potent-holy-symbol"
 kind = "feat"
 title = "Potent Holy Symbol"
+aon = "FeatDisplay.aspx?ItemName=Potent%20Holy%20Symbol"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "potent_holy_symbol", path = "json/feat12.json" },

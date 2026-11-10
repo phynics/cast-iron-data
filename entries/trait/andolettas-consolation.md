@@ -2,6 +2,7 @@
 id = "ref/trait/andolettas-consolation"
 kind = "trait"
 title = "Andoletta's Consolation"
+aon = "TraitDisplay.aspx?ItemName=Andoletta%27s%20Consolation"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "andolettas_consolation", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/smoke-resistant"
 kind = "trait"
 title = "Smoke Resistant"
+aon = "TraitDisplay.aspx?ItemName=Smoke%20Resistant"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_resistant", path = "json/traits05.json" },

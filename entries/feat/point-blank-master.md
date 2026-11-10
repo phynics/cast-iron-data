@@ -2,6 +2,7 @@
 id = "ref/feat/point-blank-master"
 kind = "feat"
 title = "Point-Blank Master"
+aon = "FeatDisplay.aspx?ItemName=Point-Blank%20Master"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "point_blank_master", path = "json/feat12.json" },

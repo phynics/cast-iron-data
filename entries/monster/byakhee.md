@@ -2,6 +2,7 @@
 id = "ref/monster/byakhee"
 kind = "creature"
 title = "Byakhee"
+aon = "MonsterDisplay.aspx?ItemName=Byakhee"
 source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "byakhee", path = "json/monsters04.json" },

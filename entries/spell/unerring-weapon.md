@@ -2,6 +2,7 @@
 id = "ref/spell/unerring-weapon"
 kind = "spell"
 title = "Unerring Weapon"
+aon = "SpellDisplay.aspx?ItemName=Unerring%20Weapon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unerring_weapon", path = "json/spells11.json" },

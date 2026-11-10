@@ -2,6 +2,7 @@
 id = "ref/feat/worldwound-walker"
 kind = "feat"
 title = "Worldwound Walker"
+aon = "FeatDisplay.aspx?ItemName=Worldwound%20Walker"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worldwound_walker", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/signature-strike-style"
 kind = "feat"
 title = "Signature Strike Style"
+aon = "FeatDisplay.aspx?ItemName=Signature%20Strike%20Style"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_strike_style", path = "json/feat14.json" },

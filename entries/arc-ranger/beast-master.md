@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/beast-master"
 kind = "archetype"
 title = "Beast Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Beast%20Master"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_master", path = "json/archetypes_ranger.json" },

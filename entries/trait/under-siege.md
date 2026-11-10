@@ -2,6 +2,7 @@
 id = "ref/trait/under-siege"
 kind = "trait"
 title = "Under Siege"
+aon = "TraitDisplay.aspx?ItemName=Under%20Siege"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "under_siege", path = "json/traits03.json" },

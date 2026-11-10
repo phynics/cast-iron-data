@@ -2,6 +2,7 @@
 id = "ref/trait/self-aware"
 kind = "trait"
 title = "Self-Aware"
+aon = "TraitDisplay.aspx?ItemName=Self-Aware"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_aware", path = "json/traits05.json" },

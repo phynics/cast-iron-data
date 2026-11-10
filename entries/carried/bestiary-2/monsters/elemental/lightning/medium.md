@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/elemental/lightning/medium"
 kind = "creature"
 title = "Elemental, Lightning, Medium"
+aon = "MonsterDisplay.aspx?ItemName=Medium%20Lightning%20Elemental"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Elemental", "Lightning"]
 tags = ["outsider", "air", "elemental", "extraplanar", "medium"]

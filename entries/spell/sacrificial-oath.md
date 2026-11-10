@@ -2,6 +2,7 @@
 id = "ref/spell/sacrificial-oath"
 kind = "spell"
 title = "Sacrificial Oath"
+aon = "SpellDisplay.aspx?ItemName=Sacrificial%20Oath"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_oath", path = "json/spells8.json" },

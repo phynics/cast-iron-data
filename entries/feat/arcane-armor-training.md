@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-armor-training"
 kind = "feat"
 title = "Arcane Armor Training"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Armor%20Training"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_armor_training", path = "json/feat01.json" },

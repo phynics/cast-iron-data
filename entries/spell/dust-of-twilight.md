@@ -2,6 +2,7 @@
 id = "ref/spell/dust-of-twilight"
 kind = "spell"
 title = "Dust of Twilight"
+aon = "SpellDisplay.aspx?ItemName=Dust%20of%20Twilight"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_twilight", path = "json/spells13.json" },

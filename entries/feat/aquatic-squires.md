@@ -2,6 +2,7 @@
 id = "ref/feat/aquatic-squires"
 kind = "feat"
 title = "Aquatic Squires"
+aon = "FeatDisplay.aspx?ItemName=Aquatic%20Squires"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_squires", path = "json/feat01.json" },

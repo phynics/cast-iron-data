@@ -2,6 +2,7 @@
 id = "ref/spell/secluded-grimoire"
 kind = "spell"
 title = "Secluded Grimoire"
+aon = "SpellDisplay.aspx?ItemName=Secluded%20Grimoire"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secluded_grimoire", path = "json/spells15.json" },

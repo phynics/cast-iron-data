@@ -2,6 +2,7 @@
 id = "ref/monster/ashen-forgemaster"
 kind = "creature"
 title = "Ashen Forgemaster"
+aon = "MonsterDisplay.aspx?ItemName=Ashen%20Forgemaster"
 source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashen_forgemaster", path = "json/monsters02.json" },

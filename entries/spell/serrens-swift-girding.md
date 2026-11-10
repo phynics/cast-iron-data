@@ -2,6 +2,7 @@
 id = "ref/spell/serrens-swift-girding"
 kind = "spell"
 title = "Serren's Swift Girding"
+aon = "SpellDisplay.aspx?ItemName=Serren%27s%20Swift%20Girding"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serrens_swift_girding", path = "json/spells15.json" },

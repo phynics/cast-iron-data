@@ -2,6 +2,7 @@
 id = "ref/monster/exiled-shade"
 kind = "creature"
 title = "Exiled Shade"
+aon = "MonsterDisplay.aspx?ItemName=Exiled%20Shade"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exiled_shade", path = "json/monsters42.json" },

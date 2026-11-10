@@ -2,6 +2,7 @@
 id = "ref/spell/vanish"
 kind = "spell"
 title = "Vanish"
+aon = "SpellDisplay.aspx?ItemName=Vanish"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanish", path = "json/spells11.json" },

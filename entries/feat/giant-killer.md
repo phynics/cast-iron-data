@@ -2,6 +2,7 @@
 id = "ref/feat/giant-killer"
 kind = "feat"
 title = "Giant Killer"
+aon = "FeatDisplay.aspx?ItemName=Giant%20Killer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_killer", path = "json/feat07.json" },

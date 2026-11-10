@@ -2,6 +2,7 @@
 id = "ref/monster/demodand-gristly-demodand"
 kind = "creature"
 title = "Gristly Demodand"
+aon = "MonsterDisplay.aspx?ItemName=Gristly%20Demodand"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_gristly_demodand", path = "json/monsters29.json" },

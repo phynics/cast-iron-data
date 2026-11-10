@@ -2,6 +2,7 @@
 id = "ref/feat/notorious-vigilante"
 kind = "feat"
 title = "Notorious Vigilante"
+aon = "FeatDisplay.aspx?ItemName=Notorious%20Vigilante"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "notorious_vigilante", path = "json/feat11.json" },

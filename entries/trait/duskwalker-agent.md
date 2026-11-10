@@ -2,6 +2,7 @@
 id = "ref/trait/duskwalker-agent"
 kind = "trait"
 title = "Duskwalker Agent"
+aon = "TraitDisplay.aspx?ItemName=Duskwalker%20Agent"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duskwalker_agent", path = "json/traits04.json" },

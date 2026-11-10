@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/id-rager"
 kind = "archetype"
 title = "Id Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Id%20Rager"
 source_ids = ["occult-origins", "psychic-anthology", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_rager", path = "json/archetypes_bloodrager.json" },

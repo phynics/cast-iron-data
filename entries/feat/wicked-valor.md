@@ -2,6 +2,7 @@
 id = "ref/feat/wicked-valor"
 kind = "feat"
 title = "Wicked Valor"
+aon = "FeatDisplay.aspx?ItemName=Wicked%20Valor"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wicked_valor", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/bull-rush-strike"
 kind = "feat"
 title = "Bull Rush Strike"
+aon = "FeatDisplay.aspx?ItemName=Bull%20Rush%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_rush_strike", path = "json/feat02.json" },

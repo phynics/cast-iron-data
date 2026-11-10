@@ -2,6 +2,7 @@
 id = "ref/feat/double-bane"
 kind = "feat"
 title = "Double Bane"
+aon = "FeatDisplay.aspx?ItemName=Double%20Bane"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_bane", path = "json/feat05.json" },

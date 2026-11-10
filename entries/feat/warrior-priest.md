@@ -2,6 +2,7 @@
 id = "ref/feat/warrior-priest"
 kind = "feat"
 title = "Warrior Priest"
+aon = "FeatDisplay.aspx?ItemName=Warrior%20Priest"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior_priest", path = "json/feat17.json" },

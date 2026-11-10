@@ -2,6 +2,7 @@
 id = "ref/spell/shadowbard"
 kind = "spell"
 title = "Shadowbard"
+aon = "SpellDisplay.aspx?ItemName=Shadowbard"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowbard", path = "json/spells15.json" },

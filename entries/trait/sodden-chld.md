@@ -2,6 +2,7 @@
 id = "ref/trait/sodden-chld"
 kind = "trait"
 title = "Sodden Chld"
+aon = "TraitDisplay.aspx?ItemName=Sodden%20Chld"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sodden_chld", path = "json/traits04.json" },

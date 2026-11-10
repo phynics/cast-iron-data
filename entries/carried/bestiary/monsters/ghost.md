@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/ghost"
 kind = "creature"
 title = "Ghost"
+aon = "MonsterDisplay.aspx?ItemName=Ghost"
 source_ids = ["bestiary"]
 section = ["Monsters"]
 tags = ["undead", "augmented humanoid", "incorporeal", "medium"]

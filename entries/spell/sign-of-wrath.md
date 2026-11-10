@@ -2,6 +2,7 @@
 id = "ref/spell/sign-of-wrath"
 kind = "spell"
 title = "Sign of Wrath"
+aon = "SpellDisplay.aspx?ItemName=Sign%20of%20Wrath"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sign_of_wrath", path = "json/spells9.json" },

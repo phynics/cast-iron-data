@@ -2,6 +2,7 @@
 id = "ref/feat/vengeful-banisher"
 kind = "feat"
 title = "Vengeful Banisher"
+aon = "FeatDisplay.aspx?ItemName=Vengeful%20Banisher"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_banisher", path = "json/feat17.json" },

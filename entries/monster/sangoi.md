@@ -2,6 +2,7 @@
 id = "ref/monster/sangoi"
 kind = "creature"
 title = "Sangoi"
+aon = "MonsterDisplay.aspx?ItemName=Sangoi"
 source_ids = ["bestiary-5", "pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sangoi", path = "json/monsters37.json" },

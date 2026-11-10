@@ -2,6 +2,7 @@
 id = "ref/feat/advanced-armor-training"
 kind = "feat"
 title = "Advanced Armor Training"
+aon = "FeatDisplay.aspx?ItemName=Advanced%20Armor%20Training"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_armor_training", path = "json/feat01.json" },

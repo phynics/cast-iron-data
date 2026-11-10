@@ -2,6 +2,7 @@
 id = "ref/trait/brewmaster"
 kind = "trait"
 title = "Brewmaster"
+aon = "TraitDisplay.aspx?ItemName=Brewmaster"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brewmaster", path = "json/traits05.json" },

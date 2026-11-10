@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/hallucinist"
 kind = "archetype"
 title = "Hallucinist"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Hallucinist"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinist", path = "json/archetypes_investigator.json" },

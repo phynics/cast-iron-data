@@ -2,6 +2,7 @@
 id = "ref/arc-witch/mirror-witch"
 kind = "archetype"
 title = "Mirror Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Mirror%20Witch"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_witch", path = "json/archetypes_witch.json" },

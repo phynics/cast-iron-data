@@ -2,6 +2,7 @@
 id = "ref/feat/distracting-explosion"
 kind = "feat"
 title = "Distracting Explosion"
+aon = "FeatDisplay.aspx?ItemName=Distracting%20Explosion"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_explosion", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/poisonous-slayer"
 kind = "trait"
 title = "Poisonous Slayer"
+aon = "TraitDisplay.aspx?ItemName=Poisonous%20Slayer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_slayer", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/bloodsworn-retribution"
 kind = "spell"
 title = "Bloodsworn Retribution"
+aon = "SpellDisplay.aspx?ItemName=Bloodsworn%20Retribution"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodsworn_retribution", path = "json/spells2.json" },

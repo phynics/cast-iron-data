@@ -2,6 +2,7 @@
 id = "ref/monster/deathsnatcher"
 kind = "creature"
 title = "Deathsnatcher"
+aon = "MonsterDisplay.aspx?ItemName=Deathsnatcher"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathsnatcher", path = "json/monsters08.json" },

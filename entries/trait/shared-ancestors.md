@@ -2,6 +2,7 @@
 id = "ref/trait/shared-ancestors"
 kind = "trait"
 title = "Shared Ancestors"
+aon = "TraitDisplay.aspx?ItemName=Shared%20Ancestors"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_ancestors", path = "json/traits03.json" },

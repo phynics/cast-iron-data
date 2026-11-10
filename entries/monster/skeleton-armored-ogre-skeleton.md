@@ -2,6 +2,7 @@
 id = "ref/monster/skeleton-armored-ogre-skeleton"
 kind = "creature"
 title = "Armored Ogre Skeleton"
+aon = "MonsterDisplay.aspx?ItemName=Armored%20Ogre%20Skeleton"
 source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_armored_ogre_skeleton", path = "json/monsters22.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/fiery-shuriken"
 kind = "spell"
 title = "Fiery Shuriken"
+aon = "SpellDisplay.aspx?ItemName=Fiery%20Shuriken"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_shuriken", path = "json/spells4.json" },

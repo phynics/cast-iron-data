@@ -2,6 +2,7 @@
 id = "ref/spell/wing-bounty"
 kind = "spell"
 title = "Wing Bounty"
+aon = "SpellDisplay.aspx?ItemName=Wing%20Bounty"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wing_bounty", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/naturalist"
 kind = "trait"
 title = "Naturalist"
+aon = "TraitDisplay.aspx?ItemName=Naturalist"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naturalist", path = "json/traits04.json" },

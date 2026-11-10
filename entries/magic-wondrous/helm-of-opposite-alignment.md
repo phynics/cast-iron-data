@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/helm-of-opposite-alignment"
 kind = "item"
 title = "Helm of Opposite Alignment"
+aon = "MagicCursedDisplay.aspx?ItemName=Helm%20of%20Opposite%20Alignment"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_opposite_alignment", path = "json/magic_wondrous_head_headband.json" },

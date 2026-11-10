@@ -2,6 +2,7 @@
 id = "ref/spell/harvest-knowledge"
 kind = "spell"
 title = "Harvest Knowledge"
+aon = "SpellDisplay.aspx?ItemName=Harvest%20Knowledge"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_knowledge", path = "json/spells5.json" },

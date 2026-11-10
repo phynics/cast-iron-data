@@ -2,6 +2,7 @@
 id = "ref/trait/lepidstadt-scar"
 kind = "trait"
 title = "Lepidstadt Scar"
+aon = "TraitDisplay.aspx?ItemName=Lepidstadt%20Scar"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lepidstadt_scar", path = "json/traits04.json" },

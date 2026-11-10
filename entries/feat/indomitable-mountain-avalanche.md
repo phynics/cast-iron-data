@@ -2,6 +2,7 @@
 id = "ref/feat/indomitable-mountain-avalanche"
 kind = "feat"
 title = "Indomitable Mountain Avalanche"
+aon = "FeatDisplay.aspx?ItemName=Indomitable%20Mountain%20Avalanche"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mountain_avalanche", path = "json/feat09.json" },

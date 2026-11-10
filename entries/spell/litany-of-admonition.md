@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-admonition"
 kind = "spell"
 title = "Litany of Admonition"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Admonition"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_admonition", path = "json/spells6.json" },

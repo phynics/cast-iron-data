@@ -2,6 +2,7 @@
 id = "ref/feat/maleficium"
 kind = "feat"
 title = "Maleficium"
+aon = "FeatDisplay.aspx?ItemName=Maleficium"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maleficium", path = "json/feat10.json" },

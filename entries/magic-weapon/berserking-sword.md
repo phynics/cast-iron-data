@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/berserking-sword"
 kind = "item"
 title = "Berserking Sword"
+aon = "MagicCursedDisplay.aspx?ItemName=Berserking%20Sword"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "berserking_sword", path = "json/magic_weapon2.json" },

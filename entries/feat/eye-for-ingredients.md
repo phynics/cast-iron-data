@@ -2,6 +2,7 @@
 id = "ref/feat/eye-for-ingredients"
 kind = "feat"
 title = "Eye for Ingredients"
+aon = "FeatDisplay.aspx?ItemName=Eye%20for%20Ingredients"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_for_ingredients", path = "json/feat06.json" },

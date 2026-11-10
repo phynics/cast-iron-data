@@ -2,6 +2,7 @@
 id = "ref/feat/eagle-knight-candidate"
 kind = "feat"
 title = "Eagle Knight Candidate"
+aon = "FeatDisplay.aspx?ItemName=Eagle%20Knight%20Candidate"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_knight_candidate", path = "json/feat05.json" },

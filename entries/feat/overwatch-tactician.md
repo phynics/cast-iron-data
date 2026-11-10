@@ -2,6 +2,7 @@
 id = "ref/feat/overwatch-tactician"
 kind = "feat"
 title = "Overwatch Tactician"
+aon = "FeatDisplay.aspx?ItemName=Overwatch%20Tactician"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwatch_tactician", path = "json/feat11.json" },

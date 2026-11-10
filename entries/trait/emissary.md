@@ -2,6 +2,7 @@
 id = "ref/trait/emissary"
 kind = "trait"
 title = "Emissary"
+aon = "TraitDisplay.aspx?ItemName=Emissary"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissary", path = "json/traits04.json" },

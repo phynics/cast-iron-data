@@ -2,6 +2,7 @@
 id = "ref/trait/expert-distractor"
 kind = "trait"
 title = "Expert Distractor"
+aon = "TraitDisplay.aspx?ItemName=Expert%20Distractor"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_distractor", path = "json/traits05.json" },

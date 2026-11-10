@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/deadly-returns-throwing-axe"
 kind = "item"
 title = "Deadly Returns Throwing Axe"
+aon = "MagicCursedDisplay.aspx?ItemName=Deadly%20Returns%20Throwing%20Axe"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_returns_throwing_axe", path = "json/magic_weapon2.json" },

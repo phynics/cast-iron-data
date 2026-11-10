@@ -2,6 +2,7 @@
 id = "ref/spell/telepathic-bond"
 kind = "spell"
 title = "Telepathic Bond"
+aon = "SpellDisplay.aspx?ItemName=Telepathic%20Bond"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_bond", path = "json/spells10.json" },

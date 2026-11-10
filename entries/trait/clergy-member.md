@@ -2,6 +2,7 @@
 id = "ref/trait/clergy-member"
 kind = "trait"
 title = "Clergy Member"
+aon = "TraitDisplay.aspx?ItemName=Clergy%20Member"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clergy_member", path = "json/traits05.json" },

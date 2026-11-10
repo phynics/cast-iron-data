@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-lichen-leshy"
 kind = "creature"
 title = "Lichen Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Lichen%20Leshy"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_lichen_leshy", path = "json/monsters34.json" },

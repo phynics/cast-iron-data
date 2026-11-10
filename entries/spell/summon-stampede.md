@@ -2,6 +2,7 @@
 id = "ref/spell/summon-stampede"
 kind = "spell"
 title = "Summon Stampede"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Stampede"
 source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_stampede", path = "json/spells16.json" },

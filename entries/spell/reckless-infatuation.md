@@ -2,6 +2,7 @@
 id = "ref/spell/reckless-infatuation"
 kind = "spell"
 title = "Reckless Infatuation"
+aon = "SpellDisplay.aspx?ItemName=Reckless%20Infatuation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_infatuation", path = "json/spells8.json" },

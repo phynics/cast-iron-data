@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/terror-weaver"
 kind = "archetype"
 title = "Terror Weaver"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Terror%20Weaver"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terror_weaver", path = "json/archetypes_psychic.json" },

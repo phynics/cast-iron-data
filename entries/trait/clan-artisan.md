@@ -2,6 +2,7 @@
 id = "ref/trait/clan-artisan"
 kind = "trait"
 title = "Clan Artisan"
+aon = "TraitDisplay.aspx?ItemName=Clan%20Artisan"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clan_artisan", path = "json/traits04.json" },

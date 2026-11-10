@@ -2,6 +2,7 @@
 id = "ref/feat/twinned-feint"
 kind = "feat"
 title = "Twinned Feint"
+aon = "FeatDisplay.aspx?ItemName=Twinned%20Feint"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_feint", path = "json/feat16.json" },

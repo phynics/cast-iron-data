@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/one-way-window"
 kind = "item"
 title = "One-Way Window"
+aon = "MagicCursedDisplay.aspx?ItemName=One-Way%20Window"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_way_window", path = "json/magic_wondrous_slotless04.json" },

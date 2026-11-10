@@ -2,6 +2,7 @@
 id = "ref/monster/kravyad"
 kind = "creature"
 title = "Kravyad"
+aon = "MonsterDisplay.aspx?ItemName=Kravyad"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kravyad", path = "json/monsters15.json" },

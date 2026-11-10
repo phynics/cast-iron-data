@@ -2,6 +2,7 @@
 id = "ref/trait/soldier-of-the-faith"
 kind = "trait"
 title = "Soldier of the Faith"
+aon = "TraitDisplay.aspx?ItemName=Soldier%20of%20the%20Faith"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soldier_of_the_faith", path = "json/traits04.json" },

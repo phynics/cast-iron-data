@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/purifier"
 kind = "archetype"
 title = "Purifier"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Purifier"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purifier", path = "json/archetypes_oracle.json" },

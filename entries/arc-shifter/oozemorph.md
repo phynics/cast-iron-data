@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/oozemorph"
 kind = "archetype"
 title = "Oozemorph"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Oozemorph"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oozemorph", path = "json/archetypes_shifter.json" },

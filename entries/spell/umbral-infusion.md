@@ -2,6 +2,7 @@
 id = "ref/spell/umbral-infusion"
 kind = "spell"
 title = "Umbral Infusion"
+aon = "SpellDisplay.aspx?ItemName=Umbral%20Infusion"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_infusion", path = "json/spells11.json" },

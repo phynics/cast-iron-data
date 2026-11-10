@@ -2,6 +2,7 @@
 id = "ref/feat/ground-grabber"
 kind = "feat"
 title = "Ground-Grabber"
+aon = "FeatDisplay.aspx?ItemName=Ground-Grabber"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ground_grabber", path = "json/feat08.json" },

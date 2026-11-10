@@ -2,6 +2,7 @@
 id = "ref/feat/aquadynamic-focus"
 kind = "feat"
 title = "Aquadynamic Focus"
+aon = "FeatDisplay.aspx?ItemName=Aquadynamic%20Focus"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquadynamic_focus", path = "json/feat01.json" },

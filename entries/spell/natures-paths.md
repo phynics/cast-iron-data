@@ -2,6 +2,7 @@
 id = "ref/spell/natures-paths"
 kind = "spell"
 title = "Nature's Paths"
+aon = "SpellDisplay.aspx?ItemName=Nature%27s%20Paths"
 source_ids = ["villain-codex", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_paths", path = "json/spells7.json" },

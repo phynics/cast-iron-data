@@ -2,6 +2,7 @@
 id = "ref/trait/exposed-to-awfulness"
 kind = "trait"
 title = "Exposed to Awfulness"
+aon = "TraitDisplay.aspx?ItemName=Exposed%20to%20Awfulness"
 source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exposed_to_awfulness", path = "json/traits03.json" },

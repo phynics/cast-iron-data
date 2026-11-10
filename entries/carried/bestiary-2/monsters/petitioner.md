@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/petitioner"
 kind = "creature"
 title = "Petitioner"
+aon = "MonsterDisplay.aspx?ItemName=Petitioner"
 source_ids = ["bestiary-2"]
 section = ["Monsters"]
 tags = ["outsider", "extraplanar", "medium"]

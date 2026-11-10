@@ -2,6 +2,7 @@
 id = "ref/race/naiad"
 kind = "race"
 title = "Naiad"
+aon = "RacesDisplay.aspx?ItemName=Naiad"
 source_ids = ["bestiary-6"]
 race_group = "other_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/feat/greater-hunters-bond"
 kind = "feat"
 title = "Greater Hunter's Bond"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Hunter%27s%20Bond"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_hunters_bond", path = "json/feat08.json" },

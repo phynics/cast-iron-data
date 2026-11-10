@@ -2,6 +2,7 @@
 id = "ref/feat/icy-stare"
 kind = "feat"
 title = "Icy Stare"
+aon = "FeatDisplay.aspx?ItemName=Icy%20Stare"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icy_stare", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-channel-force"
 kind = "feat"
 title = "Improved Channel Force"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Channel%20Force"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_channel_force", path = "json/feat08.json" },

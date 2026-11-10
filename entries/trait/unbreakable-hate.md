@@ -2,6 +2,7 @@
 id = "ref/trait/unbreakable-hate"
 kind = "trait"
 title = "Unbreakable Hate"
+aon = "TraitDisplay.aspx?ItemName=Unbreakable%20Hate"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_hate", path = "json/traits05.json" },

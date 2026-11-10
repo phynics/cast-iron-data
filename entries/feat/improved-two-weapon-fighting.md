@@ -2,6 +2,7 @@
 id = "ref/feat/improved-two-weapon-fighting"
 kind = "feat"
 title = "Improved Two-Weapon Fighting"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Two-Weapon%20Fighting"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_fighting", path = "json/feat09.json" },

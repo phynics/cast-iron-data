@@ -2,6 +2,7 @@
 id = "ref/trait/obsessed-with-success"
 kind = "trait"
 title = "Obsessed with Success"
+aon = "TraitDisplay.aspx?ItemName=Obsessed%20with%20Success"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsessed_with_success", path = "json/traits05.json" },

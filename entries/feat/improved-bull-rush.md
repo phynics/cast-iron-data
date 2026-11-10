@@ -2,6 +2,7 @@
 id = "ref/feat/improved-bull-rush"
 kind = "feat"
 title = "Improved Bull Rush"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Bull%20Rush"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bull_rush", path = "json/feat08.json" },

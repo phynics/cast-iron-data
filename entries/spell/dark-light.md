@@ -2,6 +2,7 @@
 id = "ref/spell/dark-light"
 kind = "spell"
 title = "Dark-Light"
+aon = "SpellDisplay.aspx?ItemName=Dark-Light"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_light", path = "json/spells3.json" },

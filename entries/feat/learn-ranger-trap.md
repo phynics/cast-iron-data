@@ -2,6 +2,7 @@
 id = "ref/feat/learn-ranger-trap"
 kind = "feat"
 title = "Learn Ranger Trap"
+aon = "FeatDisplay.aspx?ItemName=Learn%20Ranger%20Trap"
 source_ids = ["kobolds-of-golarion", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "learn_ranger_trap", path = "json/feat10.json" },

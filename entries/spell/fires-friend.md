@@ -2,6 +2,7 @@
 id = "ref/spell/fires-friend"
 kind = "spell"
 title = "Fire's Friend"
+aon = "SpellDisplay.aspx?ItemName=Fire%27s%20Friend"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fires_friend", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/buccaneers-blood"
 kind = "trait"
 title = "Buccaneer's Blood"
+aon = "TraitDisplay.aspx?ItemName=Buccaneer%27s%20Blood"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buccaneers_blood", path = "json/traits03.json" },

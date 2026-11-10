@@ -2,6 +2,7 @@
 id = "ref/spell/natures-ravages"
 kind = "spell"
 title = "Nature's Ravages"
+aon = "SpellDisplay.aspx?ItemName=Nature%27s%20Ravages"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_ravages", path = "json/spells7.json" },

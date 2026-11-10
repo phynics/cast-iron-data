@@ -2,6 +2,7 @@
 id = "ref/feat/shared-insight"
 kind = "feat"
 title = "Shared Insight"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Insight"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_insight", path = "json/feat14.json" },

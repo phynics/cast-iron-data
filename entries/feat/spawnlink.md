@@ -2,6 +2,7 @@
 id = "ref/feat/spawnlink"
 kind = "feat"
 title = "Spawnlink"
+aon = "FeatDisplay.aspx?ItemName=Spawnlink"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawnlink", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-reinforcement"
 kind = "spell"
 title = "Arcane Reinforcement"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Reinforcement"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_reinforcement", path = "json/spells.json" },

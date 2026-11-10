@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-blood"
 kind = "spell"
 title = "Mark of Blood"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20Blood"
 source_ids = ["adventurers-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_blood", path = "json/spells6.json" },

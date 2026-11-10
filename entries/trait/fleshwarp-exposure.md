@@ -2,6 +2,7 @@
 id = "ref/trait/fleshwarp-exposure"
 kind = "trait"
 title = "Fleshwarp Exposure"
+aon = "TraitDisplay.aspx?ItemName=Fleshwarp%20Exposure"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_exposure", path = "json/traits05.json" },

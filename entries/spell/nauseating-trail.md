@@ -2,6 +2,7 @@
 id = "ref/spell/nauseating-trail"
 kind = "spell"
 title = "Nauseating Trail"
+aon = "SpellDisplay.aspx?ItemName=Nauseating%20Trail"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nauseating_trail", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/encouraging-spell"
 kind = "feat"
 title = "Encouraging Spell"
+aon = "FeatDisplay.aspx?ItemName=Encouraging%20Spell"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "encouraging_spell", path = "json/feat05.json" },

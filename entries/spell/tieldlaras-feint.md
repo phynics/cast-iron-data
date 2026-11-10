@@ -2,6 +2,7 @@
 id = "ref/spell/tieldlaras-feint"
 kind = "spell"
 title = "Tieldlara's Feint"
+aon = "SpellDisplay.aspx?ItemName=Tieldlara%27s%20Feint"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tieldlaras_feint", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/combat-patrol"
 kind = "feat"
 title = "Combat Patrol"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Patrol"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_patrol", path = "json/feat03.json" },

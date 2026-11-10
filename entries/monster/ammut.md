@@ -2,6 +2,7 @@
 id = "ref/monster/ammut"
 kind = "creature"
 title = "Ammut"
+aon = "MonsterDisplay.aspx?ItemName=Ammut"
 source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ammut", path = "json/monsters26.json" },

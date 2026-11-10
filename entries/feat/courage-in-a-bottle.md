@@ -2,6 +2,7 @@
 id = "ref/feat/courage-in-a-bottle"
 kind = "feat"
 title = "Courage in a Bottle"
+aon = "FeatDisplay.aspx?ItemName=Courage%20in%20a%20Bottle"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courage_in_a_bottle", path = "json/feat03.json" },

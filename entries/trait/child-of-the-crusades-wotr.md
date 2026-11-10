@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-the-crusades-wotr"
 kind = "trait"
 title = "Child of the Crusades (WotR)"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20the%20Crusades%20%28WotR%29"
 source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_the_crusades_wotr", path = "json/traits03.json" },

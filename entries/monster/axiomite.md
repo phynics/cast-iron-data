@@ -2,6 +2,7 @@
 id = "ref/monster/axiomite"
 kind = "creature"
 title = "Axiomite"
+aon = "MonsterDisplay.aspx?ItemName=Axiomite"
 source_ids = ["bestiary-2", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axiomite", path = "json/monsters26.json" },

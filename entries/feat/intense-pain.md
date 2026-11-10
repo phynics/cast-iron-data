@@ -2,6 +2,7 @@
 id = "ref/feat/intense-pain"
 kind = "feat"
 title = "Intense Pain"
+aon = "FeatDisplay.aspx?ItemName=Intense%20Pain"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_pain", path = "json/feat09.json" },

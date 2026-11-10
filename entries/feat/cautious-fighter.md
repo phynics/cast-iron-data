@@ -2,6 +2,7 @@
 id = "ref/feat/cautious-fighter"
 kind = "feat"
 title = "Cautious Fighter"
+aon = "FeatDisplay.aspx?ItemName=Cautious%20Fighter"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cautious_fighter", path = "json/feat02.json" },

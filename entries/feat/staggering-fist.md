@@ -2,6 +2,7 @@
 id = "ref/feat/staggering-fist"
 kind = "feat"
 title = "Staggering Fist"
+aon = "FeatDisplay.aspx?ItemName=Staggering%20Fist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_fist", path = "json/feat15.json" },

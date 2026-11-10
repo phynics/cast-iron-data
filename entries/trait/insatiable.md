@@ -2,6 +2,7 @@
 id = "ref/trait/insatiable"
 kind = "trait"
 title = "Insatiable"
+aon = "TraitDisplay.aspx?ItemName=Insatiable"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insatiable", path = "json/traits03.json" },

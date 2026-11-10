@@ -2,6 +2,7 @@
 id = "ref/trait/hex-proof"
 kind = "trait"
 title = "Hex-Proof"
+aon = "TraitDisplay.aspx?ItemName=Hex-Proof"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_proof", path = "json/traits02.json" },

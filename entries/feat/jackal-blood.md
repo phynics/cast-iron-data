@@ -2,6 +2,7 @@
 id = "ref/feat/jackal-blood"
 kind = "feat"
 title = "Jackal Blood"
+aon = "FeatDisplay.aspx?ItemName=Jackal%20Blood"
 source_ids = ["dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jackal_blood", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/prying-eyes-greater"
 kind = "spell"
 title = "Greater Prying Eyes"
+aon = "SpellDisplay.aspx?ItemName=Prying%20Eyes%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prying_eyes_greater", path = "json/spells15.json" },

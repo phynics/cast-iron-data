@@ -2,6 +2,7 @@
 id = "ref/trait/sustaining-performance"
 kind = "trait"
 title = "Sustaining Performance"
+aon = "TraitDisplay.aspx?ItemName=Sustaining%20Performance"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sustaining_performance", path = "json/traits04.json" },

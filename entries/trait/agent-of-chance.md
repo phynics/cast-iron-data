@@ -2,6 +2,7 @@
 id = "ref/trait/agent-of-chance"
 kind = "trait"
 title = "Agent of Chance"
+aon = "TraitDisplay.aspx?ItemName=Agent%20of%20Chance"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_chance", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/qallupilluk"
 kind = "creature"
 title = "Qallupilluk"
+aon = "MonsterDisplay.aspx?ItemName=Qallupilluk"
 source_ids = ["bestiary-4", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qallupilluk", path = "json/monsters19.json" },

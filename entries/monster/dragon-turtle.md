@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-turtle"
 kind = "creature"
 title = "Dragon Turtle"
+aon = "MonsterDisplay.aspx?ItemName=Dragon%20Turtle"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_turtle", path = "json/monsters31.json" },

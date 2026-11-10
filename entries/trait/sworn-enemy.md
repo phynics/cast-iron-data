@@ -2,6 +2,7 @@
 id = "ref/trait/sworn-enemy"
 kind = "trait"
 title = "Sworn Enemy"
+aon = "TraitDisplay.aspx?ItemName=Sworn%20Enemy"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sworn_enemy", path = "json/traits01.json" },

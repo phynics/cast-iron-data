@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/mendevian-priest"
 kind = "archetype"
 title = "Mendevian Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Mendevian%20Priest"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mendevian_priest", path = "json/archetypes_cleric.json" },

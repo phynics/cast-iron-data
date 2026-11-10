@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/first-world-caller"
 kind = "archetype"
 title = "First World Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20First%20World%20Caller"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_caller", path = "json/archetypes_wizard.json" },

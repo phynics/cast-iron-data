@@ -2,6 +2,7 @@
 id = "ref/trait/just-like-new"
 kind = "trait"
 title = "Just Like New"
+aon = "TraitDisplay.aspx?ItemName=Just%20Like%20New"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "just_like_new", path = "json/traits01.json" },

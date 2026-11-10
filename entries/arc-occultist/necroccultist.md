@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/necroccultist"
 kind = "archetype"
 title = "Necroccultist"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Necroccultist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necroccultist", path = "json/archetypes_occultist.json" },

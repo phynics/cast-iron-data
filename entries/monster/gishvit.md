@@ -2,6 +2,7 @@
 id = "ref/monster/gishvit"
 kind = "creature"
 title = "Gishvit"
+aon = "MonsterDisplay.aspx?ItemName=Gishvit"
 source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gishvit", path = "json/monsters12.json" },

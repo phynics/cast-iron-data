@@ -2,6 +2,7 @@
 id = "ref/spell/absorb-toxicity"
 kind = "spell"
 title = "Absorb Toxicity"
+aon = "SpellDisplay.aspx?ItemName=Absorb%20Toxicity"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_toxicity", path = "json/spells.json" },

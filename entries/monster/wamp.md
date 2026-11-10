@@ -2,6 +2,7 @@
 id = "ref/monster/wamp"
 kind = "creature"
 title = "Wamp"
+aon = "MonsterDisplay.aspx?ItemName=Wamp"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wamp", path = "json/monsters32.json" },

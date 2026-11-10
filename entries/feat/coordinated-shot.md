@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-shot"
 kind = "feat"
 title = "Coordinated Shot"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Shot"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_shot", path = "json/feat03.json" },

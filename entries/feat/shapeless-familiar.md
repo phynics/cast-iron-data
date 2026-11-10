@@ -2,6 +2,7 @@
 id = "ref/feat/shapeless-familiar"
 kind = "feat"
 title = "Shapeless Familiar"
+aon = "FeatDisplay.aspx?ItemName=Shapeless%20Familiar"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeless_familiar", path = "json/feat14.json" },

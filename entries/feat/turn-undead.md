@@ -2,6 +2,7 @@
 id = "ref/feat/turn-undead"
 kind = "feat"
 title = "Turn Undead"
+aon = "FeatDisplay.aspx?ItemName=Turn%20Undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turn_undead", path = "json/feat16.json" },

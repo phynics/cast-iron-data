@@ -2,6 +2,7 @@
 id = "ref/spell/natural-rhythm"
 kind = "spell"
 title = "Natural Rhythm"
+aon = "SpellDisplay.aspx?ItemName=Natural%20Rhythm"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_rhythm", path = "json/spells7.json" },

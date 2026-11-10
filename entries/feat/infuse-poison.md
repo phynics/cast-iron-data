@@ -2,6 +2,7 @@
 id = "ref/feat/infuse-poison"
 kind = "feat"
 title = "Infuse Poison"
+aon = "FeatDisplay.aspx?ItemName=Infuse%20Poison"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_poison", path = "json/feat09.json" },

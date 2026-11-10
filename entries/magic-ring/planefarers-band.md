@@ -2,6 +2,7 @@
 id = "ref/magic-ring/planefarers-band"
 kind = "item"
 title = "Planefarer's Band"
+aon = "MagicRingsDisplay.aspx?FinalName=Planefarer%27s%20Band"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planefarers_band", path = "json/magic_ring.json" },

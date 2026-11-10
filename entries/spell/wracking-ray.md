@@ -2,6 +2,7 @@
 id = "ref/spell/wracking-ray"
 kind = "spell"
 title = "Wracking Ray"
+aon = "SpellDisplay.aspx?ItemName=Wracking%20Ray"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wracking_ray", path = "json/spells16.json" },

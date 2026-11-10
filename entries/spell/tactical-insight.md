@@ -2,6 +2,7 @@
 id = "ref/spell/tactical-insight"
 kind = "spell"
 title = "Tactical Insight"
+aon = "SpellDisplay.aspx?ItemName=Tactical%20Insight"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_insight", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/liveoak"
 kind = "spell"
 title = "Liveoak"
+aon = "SpellDisplay.aspx?ItemName=liveoak"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liveoak", path = "json/spells6.json" },

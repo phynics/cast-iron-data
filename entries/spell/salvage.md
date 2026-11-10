@@ -2,6 +2,7 @@
 id = "ref/spell/salvage"
 kind = "spell"
 title = "Salvage"
+aon = "SpellDisplay.aspx?ItemName=Salvage"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salvage", path = "json/spells8.json" },

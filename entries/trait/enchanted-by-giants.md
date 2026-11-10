@@ -2,6 +2,7 @@
 id = "ref/trait/enchanted-by-giants"
 kind = "trait"
 title = "Enchanted by Giants"
+aon = "TraitDisplay.aspx?ItemName=Enchanted%20by%20Giants"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanted_by_giants", path = "json/traits04.json" },

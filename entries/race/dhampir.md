@@ -2,6 +2,7 @@
 id = "ref/race/dhampir"
 kind = "race"
 title = "Dhampir"
+aon = "RacesDisplay.aspx?ItemName=Dhampir"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "blood-of-the-night", "wilderness-origins"]
 race_group = "featured_race"
 provenance = [

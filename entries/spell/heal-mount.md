@@ -2,6 +2,7 @@
 id = "ref/spell/heal-mount"
 kind = "spell"
 title = "Heal Mount"
+aon = "SpellDisplay.aspx?ItemName=Heal%20Mount"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heal_mount", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/perfect-center"
 kind = "feat"
 title = "Perfect Center"
+aon = "FeatDisplay.aspx?ItemName=Perfect%20Center"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_center", path = "json/feat12.json" },

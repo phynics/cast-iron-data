@@ -2,6 +2,7 @@
 id = "ref/monster/rune-guardian"
 kind = "creature"
 title = "Rune Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Rune%20Guardian"
 source_ids = ["the-godsmouth-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_guardian", path = "json/monsters37.json" },

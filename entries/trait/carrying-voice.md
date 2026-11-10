@@ -2,6 +2,7 @@
 id = "ref/trait/carrying-voice"
 kind = "trait"
 title = "Carrying Voice"
+aon = "TraitDisplay.aspx?ItemName=Carrying%20Voice"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrying_voice", path = "json/traits05.json" },

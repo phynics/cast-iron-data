@@ -2,6 +2,7 @@
 id = "ref/spell/ectoplasmic-hand"
 kind = "spell"
 title = "Ectoplasmic Hand"
+aon = "SpellDisplay.aspx?ItemName=Ectoplasmic%20Hand"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasmic_hand", path = "json/spells13.json" },

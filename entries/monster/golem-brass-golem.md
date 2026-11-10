@@ -2,6 +2,7 @@
 id = "ref/monster/golem-brass-golem"
 kind = "creature"
 title = "Brass Golem"
+aon = "MonsterDisplay.aspx?ItemName=Brass%20Golem"
 source_ids = ["bestiary-3", "pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_brass_golem", path = "json/monsters33.json" },

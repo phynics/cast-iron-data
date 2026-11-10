@@ -2,6 +2,7 @@
 id = "ref/feat/street-sweep"
 kind = "feat"
 title = "Street Sweep"
+aon = "FeatDisplay.aspx?ItemName=Street%20Sweep"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_sweep", path = "json/feat15.json" },

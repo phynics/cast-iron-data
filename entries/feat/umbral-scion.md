@@ -2,6 +2,7 @@
 id = "ref/feat/umbral-scion"
 kind = "feat"
 title = "Umbral Scion"
+aon = "FeatDisplay.aspx?ItemName=Umbral%20Scion"
 source_ids = ["advanced-race-guide", "pathfinder-15-the-armageddon-echo", "pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_scion", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/great-rend"
 kind = "feat"
 title = "Great Rend"
+aon = "FeatDisplay.aspx?ItemName=Great%20Rend"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_rend", path = "json/feat07.json" },

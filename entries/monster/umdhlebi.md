@@ -2,6 +2,7 @@
 id = "ref/monster/umdhlebi"
 kind = "creature"
 title = "Umdhlebi"
+aon = "MonsterDisplay.aspx?ItemName=Umdhlebi"
 source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umdhlebi", path = "json/monsters24.json" },

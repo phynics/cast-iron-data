@@ -2,6 +2,7 @@
 id = "ref/feat/heros-fortune"
 kind = "feat"
 title = "Hero's Fortune"
+aon = "FeatDisplay.aspx?ItemName=Hero%27s%20Fortune"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_fortune", path = "json/feat08.json" },

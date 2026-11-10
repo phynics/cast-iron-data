@@ -2,6 +2,7 @@
 id = "ref/feat/extra-blood-hex"
 kind = "feat"
 title = "Extra Blood Hex"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Blood%20Hex"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_blood_hex", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/improved-critical"
 kind = "feat"
 title = "Improved Critical"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Critical"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_critical", path = "json/feat08.json" },

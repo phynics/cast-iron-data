@@ -2,6 +2,7 @@
 id = "ref/spell/wandering-weather"
 kind = "spell"
 title = "Wandering Weather"
+aon = "SpellDisplay.aspx?ItemName=Wandering%20Weather"
 source_ids = ["core-rulebook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_weather", path = "json/spells12.json" },

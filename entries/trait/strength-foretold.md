@@ -2,6 +2,7 @@
 id = "ref/trait/strength-foretold"
 kind = "trait"
 title = "Strength Foretold"
+aon = "TraitDisplay.aspx?ItemName=Strength%20Foretold"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_foretold", path = "json/traits02.json" },

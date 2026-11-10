@@ -2,6 +2,7 @@
 id = "ref/feat/legalistic-reading"
 kind = "feat"
 title = "Legalistic Reading"
+aon = "FeatDisplay.aspx?ItemName=Legalistic%20Reading"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legalistic_reading", path = "json/feat10.json" },

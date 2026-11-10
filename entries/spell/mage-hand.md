@@ -2,6 +2,7 @@
 id = "ref/spell/mage-hand"
 kind = "spell"
 title = "Mage Hand"
+aon = "SpellDisplay.aspx?ItemName=Mage%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_hand", path = "json/spells6.json" },

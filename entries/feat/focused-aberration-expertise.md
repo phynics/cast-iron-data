@@ -2,6 +2,7 @@
 id = "ref/feat/focused-aberration-expertise"
 kind = "feat"
 title = "Focused Aberration Expertise"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Aberration%20Expertise"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_aberration_expertise", path = "json/feat07.json" },

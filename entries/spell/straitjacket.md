@@ -2,6 +2,7 @@
 id = "ref/spell/straitjacket"
 kind = "spell"
 title = "Straitjacket"
+aon = "SpellDisplay.aspx?ItemName=Straitjacket"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "straitjacket", path = "json/spells15.json" },

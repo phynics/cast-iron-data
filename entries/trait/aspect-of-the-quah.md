@@ -2,6 +2,7 @@
 id = "ref/trait/aspect-of-the-quah"
 kind = "trait"
 title = "Aspect of the Quah"
+aon = "TraitDisplay.aspx?ItemName=Aspect%20of%20the%20Quah"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_quah", path = "json/traits01.json" },

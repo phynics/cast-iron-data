@@ -2,6 +2,7 @@
 id = "ref/trait/internal-compass"
 kind = "trait"
 title = "Internal Compass"
+aon = "TraitDisplay.aspx?ItemName=Internal%20Compass"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "internal_compass", path = "json/traits02.json" },

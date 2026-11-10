@@ -2,6 +2,7 @@
 id = "ref/monster/rokurokubi"
 kind = "creature"
 title = "Rokurokubi"
+aon = "MonsterDisplay.aspx?ItemName=Rokurokubi"
 source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rokurokubi", path = "json/monsters20.json" },

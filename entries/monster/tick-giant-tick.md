@@ -2,6 +2,7 @@
 id = "ref/monster/tick-giant-tick"
 kind = "creature"
 title = "Giant Tick"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Tick"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_giant_tick", path = "json/monsters39.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/venomous-bite"
 kind = "spell"
 title = "Venomous Bite"
+aon = "SpellDisplay.aspx?ItemName=Venomous%20Bite"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_bite", path = "json/spells11.json" },

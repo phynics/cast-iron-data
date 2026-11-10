@@ -2,6 +2,7 @@
 id = "ref/monster/giant-frost-frost-giant-ice-mage"
 kind = "creature"
 title = "Frost Giant Ice Mage"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Giant%20Ice%20Mage"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant_ice_mage", path = "json/monsters11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/severed-fate"
 kind = "spell"
 title = "Severed Fate"
+aon = "SpellDisplay.aspx?ItemName=Severed%20Fate"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "severed_fate", path = "json/spells15.json" },

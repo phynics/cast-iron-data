@@ -2,6 +2,7 @@
 id = "ref/feat/extra-surge"
 kind = "feat"
 title = "Extra Surge"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Surge"
 source_ids = ["pathfinder-85-fires-of-creation", "people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_surge", path = "json/feat06.json" },

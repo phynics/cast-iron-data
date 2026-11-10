@@ -2,6 +2,7 @@
 id = "ref/feat/shokis-argument"
 kind = "feat"
 title = "Shoki's Argument"
+aon = "FeatDisplay.aspx?ItemName=Shoki%27s%20Argument"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shokis_argument", path = "json/feat14.json" },

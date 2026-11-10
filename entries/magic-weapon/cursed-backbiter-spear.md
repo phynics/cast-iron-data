@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/cursed-backbiter-spear"
 kind = "item"
 title = "Cursed Backbiter Spear"
+aon = "MagicCursedDisplay.aspx?ItemName=Cursed%20Backbiter%20Spear"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_backbiter_spear", path = "json/magic_weapon2.json" },

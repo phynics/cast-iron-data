@@ -2,6 +2,7 @@
 id = "ref/monster/spellgorger"
 kind = "creature"
 title = "Spellgorger"
+aon = "MonsterDisplay.aspx?ItemName=Spellgorger"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellgorger", path = "json/monsters22.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/stunning-fist/teitr"
 kind = "feat"
 title = "Stunning Fist"
+aon = "FeatDisplay.aspx?ItemName=Stunning%20Fist"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/stunning-fist" },

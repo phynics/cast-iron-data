@@ -2,6 +2,7 @@
 id = "ref/pclass/tattooed-mystic"
 kind = "prestige_class"
 title = "Tattooed Mystic"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Tattooed%20Mystic"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattooed_mystic", path = "json/prestige_classes3.json" },

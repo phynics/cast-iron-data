@@ -2,6 +2,7 @@
 id = "ref/spell/create-treasure-map"
 kind = "spell"
 title = "Create Treasure Map"
+aon = "SpellDisplay.aspx?ItemName=Create%20Treasure%20Map"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_treasure_map", path = "json/spells3.json" },

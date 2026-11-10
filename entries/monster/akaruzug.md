@@ -2,6 +2,7 @@
 id = "ref/monster/akaruzug"
 kind = "creature"
 title = "Akaruzug"
+aon = "MonsterDisplay.aspx?ItemName=Akaruzug"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akaruzug", path = "json/monsters01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/giant-frost-frost-giant-raider"
 kind = "creature"
 title = "Frost Giant Raider"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Giant%20Raider"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant_raider", path = "json/monsters11.json" },

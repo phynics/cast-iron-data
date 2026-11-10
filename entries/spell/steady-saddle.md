@@ -2,6 +2,7 @@
 id = "ref/spell/steady-saddle"
 kind = "spell"
 title = "Steady Saddle"
+aon = "SpellDisplay.aspx?ItemName=Steady%20Saddle"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_saddle", path = "json/spells9.json" },

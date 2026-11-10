@@ -2,6 +2,7 @@
 id = "ref/trait/natures-mimic"
 kind = "trait"
 title = "Nature's Mimic"
+aon = "TraitDisplay.aspx?ItemName=Nature%27s%20Mimic"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_mimic", path = "json/traits01.json" },

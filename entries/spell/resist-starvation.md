@@ -2,6 +2,7 @@
 id = "ref/spell/resist-starvation"
 kind = "spell"
 title = "Resist Starvation"
+aon = "SpellDisplay.aspx?ItemName=Resist%20Starvation"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resist_starvation", path = "json/spells8.json" },

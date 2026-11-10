@@ -2,6 +2,7 @@
 id = "ref/trait/deathtouched"
 kind = "trait"
 title = "Deathtouched"
+aon = "TraitDisplay.aspx?ItemName=Deathtouched"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathtouched", path = "json/traits05.json" },

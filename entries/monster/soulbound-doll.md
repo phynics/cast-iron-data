@@ -2,6 +2,7 @@
 id = "ref/monster/soulbound-doll"
 kind = "creature"
 title = "Soulbound Doll"
+aon = "MonsterDisplay.aspx?ItemName=Soulbound%20Doll"
 source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_doll", path = "json/monsters22.json" },

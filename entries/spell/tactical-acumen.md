@@ -2,6 +2,7 @@
 id = "ref/spell/tactical-acumen"
 kind = "spell"
 title = "Tactical Acumen"
+aon = "SpellDisplay.aspx?ItemName=Tactical%20Acumen"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_acumen", path = "json/spells10.json" },

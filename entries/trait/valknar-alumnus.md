@@ -2,6 +2,7 @@
 id = "ref/trait/valknar-alumnus"
 kind = "trait"
 title = "Valknar Alumnus"
+aon = "TraitDisplay.aspx?ItemName=Valknar%20Alumnus"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valknar_alumnus", path = "json/traits04.json" },

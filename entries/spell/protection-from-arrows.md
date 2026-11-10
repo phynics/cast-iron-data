@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-arrows"
 kind = "spell"
 title = "Protection from Arrows"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Arrows"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_arrows", path = "json/spells15.json" },

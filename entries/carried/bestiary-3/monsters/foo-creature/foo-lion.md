@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-3/monsters/foo-creature/foo-lion"
 kind = "creature"
 title = "Foo Lion"
+aon = "MonsterDisplay.aspx?ItemName=Foo%20Lion"
 source_ids = ["bestiary-3"]
 section = ["Monsters", "Foo Creature"]
 tags = ["outsider", "augmented animal", "good", "extraplanar", "large"]

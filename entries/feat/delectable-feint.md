@@ -2,6 +2,7 @@
 id = "ref/feat/delectable-feint"
 kind = "feat"
 title = "Delectable Feint"
+aon = "FeatDisplay.aspx?ItemName=Delectable%20Feint"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delectable_feint", path = "json/feat04.json" },

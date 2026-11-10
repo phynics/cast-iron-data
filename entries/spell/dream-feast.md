@@ -2,6 +2,7 @@
 id = "ref/spell/dream-feast"
 kind = "spell"
 title = "Dream Feast"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Feast"
 source_ids = ["inner-sea-gods", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_feast", path = "json/spells13.json" },

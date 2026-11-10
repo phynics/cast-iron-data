@@ -2,6 +2,7 @@
 id = "ref/trait/demonblight-reistance"
 kind = "trait"
 title = "Demonblight Reistance"
+aon = "TraitDisplay.aspx?ItemName=Demonblight%20Reistance"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonblight_reistance", path = "json/traits02.json" },

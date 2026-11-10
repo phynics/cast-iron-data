@@ -2,6 +2,7 @@
 id = "ref/arc-magus/kapenia-dancer"
 kind = "archetype"
 title = "Kapenia Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Kapenia%20Dancer"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kapenia_dancer", path = "json/archetypes_magus.json" },

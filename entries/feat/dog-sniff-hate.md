@@ -2,6 +2,7 @@
 id = "ref/feat/dog-sniff-hate"
 kind = "feat"
 title = "Dog-Sniff-Hate"
+aon = "FeatDisplay.aspx?ItemName=Dog-Sniff-Hate"
 source_ids = ["we-be-goblins-free", "we-be-goblins", "we-be-goblins-too"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_sniff_hate", path = "json/feat05.json" },

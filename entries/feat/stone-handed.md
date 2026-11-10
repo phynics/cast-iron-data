@@ -2,6 +2,7 @@
 id = "ref/feat/stone-handed"
 kind = "feat"
 title = "Stone-Handed"
+aon = "FeatDisplay.aspx?ItemName=Stone-Handed"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_handed", path = "json/feat15.json" },

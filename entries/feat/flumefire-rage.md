@@ -2,6 +2,7 @@
 id = "ref/feat/flumefire-rage"
 kind = "feat"
 title = "Flumefire Rage"
+aon = "FeatDisplay.aspx?ItemName=Flumefire%20Rage"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flumefire_rage", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/strong-swimmer"
 kind = "trait"
 title = "Strong Swimmer"
+aon = "TraitDisplay.aspx?ItemName=Strong%20Swimmer"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_swimmer", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/gate-breaker"
 kind = "feat"
 title = "Gate Breaker"
+aon = "FeatDisplay.aspx?ItemName=Gate%20Breaker"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gate_breaker", path = "json/feat07.json" },

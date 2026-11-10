@@ -2,6 +2,7 @@
 id = "ref/spell/beacon-of-guilt"
 kind = "spell"
 title = "Beacon of Guilt"
+aon = "SpellDisplay.aspx?ItemName=Beacon%20of%20Guilt"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_guilt", path = "json/spells12.json" },

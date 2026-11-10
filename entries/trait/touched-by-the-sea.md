@@ -2,6 +2,7 @@
 id = "ref/trait/touched-by-the-sea"
 kind = "trait"
 title = "Touched by the Sea"
+aon = "TraitDisplay.aspx?ItemName=Touched%20by%20the%20Sea"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touched_by_the_sea", path = "json/traits03.json" },

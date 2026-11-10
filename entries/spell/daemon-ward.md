@@ -2,6 +2,7 @@
 id = "ref/spell/daemon-ward"
 kind = "spell"
 title = "Daemon Ward"
+aon = "SpellDisplay.aspx?ItemName=Daemon%20Ward"
 source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_ward", path = "json/spells3.json" },

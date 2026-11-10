@@ -2,6 +2,7 @@
 id = "ref/monster/aerial-servant"
 kind = "creature"
 title = "Aerial Servant"
+aon = "MonsterDisplay.aspx?ItemName=Aerial%20Servant"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_servant", path = "json/monsters01.json" },

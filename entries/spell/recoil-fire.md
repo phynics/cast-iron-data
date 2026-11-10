@@ -2,6 +2,7 @@
 id = "ref/spell/recoil-fire"
 kind = "spell"
 title = "Recoil Fire"
+aon = "SpellDisplay.aspx?ItemName=Recoil%20Fire"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recoil_fire", path = "json/spells8.json" },

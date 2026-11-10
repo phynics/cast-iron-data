@@ -2,6 +2,7 @@
 id = "ref/spell/molten-orb"
 kind = "spell"
 title = "Molten Orb"
+aon = "SpellDisplay.aspx?ItemName=Molten%20Orb"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molten_orb", path = "json/spells14.json" },

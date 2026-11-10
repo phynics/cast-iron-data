@@ -2,6 +2,7 @@
 id = "ref/trait/airship-captain"
 kind = "trait"
 title = "Airship Captain"
+aon = "TraitDisplay.aspx?ItemName=Airship%20Captain"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "airship_captain", path = "json/traits04.json" },

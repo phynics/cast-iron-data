@@ -2,6 +2,7 @@
 id = "ref/spell/rune-of-warding"
 kind = "spell"
 title = "Rune of Warding"
+aon = "SpellDisplay.aspx?ItemName=Rune%20of%20Warding"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_warding", path = "json/spells8.json" },

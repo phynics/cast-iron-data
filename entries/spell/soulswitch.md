@@ -2,6 +2,7 @@
 id = "ref/spell/soulswitch"
 kind = "spell"
 title = "Soulswitch"
+aon = "SpellDisplay.aspx?ItemName=Soulswitch"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulswitch", path = "json/spells9.json" },

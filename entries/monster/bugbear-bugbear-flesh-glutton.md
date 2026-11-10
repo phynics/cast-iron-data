@@ -2,6 +2,7 @@
 id = "ref/monster/bugbear-bugbear-flesh-glutton"
 kind = "creature"
 title = "Bugbear Flesh Glutton"
+aon = "MonsterDisplay.aspx?ItemName=Bugbear%20Flesh%20Glutton"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bugbear_bugbear_flesh_glutton", path = "json/monsters04.json" },

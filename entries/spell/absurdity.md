@@ -2,6 +2,7 @@
 id = "ref/spell/absurdity"
 kind = "spell"
 title = "Absurdity"
+aon = "SpellDisplay.aspx?ItemName=Absurdity"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absurdity", path = "json/spells.json" },

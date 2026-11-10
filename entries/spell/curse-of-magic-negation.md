@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-magic-negation"
 kind = "spell"
 title = "Curse of Magic Negation"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Magic%20Negation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_magic_negation", path = "json/spells3.json" },

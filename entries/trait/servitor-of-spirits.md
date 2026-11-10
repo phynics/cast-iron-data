@@ -2,6 +2,7 @@
 id = "ref/trait/servitor-of-spirits"
 kind = "trait"
 title = "Servitor of Spirits"
+aon = "TraitDisplay.aspx?ItemName=Servitor%20of%20Spirits"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "servitor_of_spirits", path = "json/traits04.json" },

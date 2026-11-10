@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/yojimbo"
 kind = "archetype"
 title = "Yojimbo"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Yojimbo"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yojimbo", path = "json/archetypes_samurai.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/illusion-obsession"
 kind = "trait"
 title = "Illusion Obsession"
+aon = "TraitDisplay.aspx?ItemName=Illusion%20Obsession"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_obsession", path = "json/traits05.json" },

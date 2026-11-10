@@ -2,6 +2,7 @@
 id = "ref/trait/world-traveler"
 kind = "trait"
 title = "World Traveler"
+aon = "TraitDisplay.aspx?ItemName=World%20Traveler"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_traveler", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/magic-aura"
 kind = "spell"
 title = "Magic Aura"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Aura"
 source_ids = ["core-rulebook", "ultimate-intrigue", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_aura", path = "json/spells6.json" },

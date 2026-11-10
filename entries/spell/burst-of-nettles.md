@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-nettles"
 kind = "spell"
 title = "Burst of Nettles"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Nettles"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_nettles", path = "json/spells2.json" },

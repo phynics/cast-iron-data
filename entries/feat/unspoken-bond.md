@@ -2,6 +2,7 @@
 id = "ref/feat/unspoken-bond"
 kind = "feat"
 title = "Unspoken Bond"
+aon = "FeatDisplay.aspx?ItemName=Unspoken%20Bond"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspoken_bond", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/feyspeaker"
 kind = "archetype"
 title = "Feyspeaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Feyspeaker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feyspeaker", path = "json/archetypes_druid.json" },

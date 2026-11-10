@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-mithral-might"
 kind = "item"
 title = "Staff of Mithral Might"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Mithral%20Might"
 source_ids = ["ultimate-equipment", "pathfinder-5-sins-of-the-saviors", "rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_mithral_might", path = "json/magic_staff.json" },

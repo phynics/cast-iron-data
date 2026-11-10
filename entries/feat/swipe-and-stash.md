@@ -2,6 +2,7 @@
 id = "ref/feat/swipe-and-stash"
 kind = "feat"
 title = "Swipe and Stash"
+aon = "FeatDisplay.aspx?ItemName=Swipe%20and%20Stash"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swipe_and_stash", path = "json/feat15.json" },

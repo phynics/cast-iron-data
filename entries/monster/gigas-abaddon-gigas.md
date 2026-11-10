@@ -2,6 +2,7 @@
 id = "ref/monster/gigas-abaddon-gigas"
 kind = "creature"
 title = "Abaddon Gigas"
+aon = "MonsterDisplay.aspx?ItemName=Abaddon%20Gigas"
 source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_abaddon_gigas", path = "json/monsters12.json" },

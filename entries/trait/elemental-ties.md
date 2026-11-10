@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-ties"
 kind = "trait"
 title = "Elemental Ties"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Ties"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_ties", path = "json/traits04.json" },

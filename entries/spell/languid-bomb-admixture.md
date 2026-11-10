@@ -2,6 +2,7 @@
 id = "ref/spell/languid-bomb-admixture"
 kind = "spell"
 title = "Languid Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Languid%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "languid_bomb_admixture", path = "json/spells6.json" },

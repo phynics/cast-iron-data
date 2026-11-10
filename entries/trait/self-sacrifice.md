@@ -2,6 +2,7 @@
 id = "ref/trait/self-sacrifice"
 kind = "trait"
 title = "Self-Sacrifice"
+aon = "TraitDisplay.aspx?ItemName=Self-Sacrifice"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_sacrifice", path = "json/traits03.json" },

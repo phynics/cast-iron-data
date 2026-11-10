@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/anaphexia-thought-killer"
 kind = "archetype"
 title = "Anaphexia Thought-Killer"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Anaphexia%20Thought-Killer"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anaphexia_thought_killer", path = "json/archetypes_vigilante.json" },

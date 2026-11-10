@@ -2,6 +2,7 @@
 id = "ref/feat/imposing-bearing"
 kind = "feat"
 title = "Imposing Bearing"
+aon = "FeatDisplay.aspx?ItemName=Imposing%20Bearing"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imposing_bearing", path = "json/feat08.json" },

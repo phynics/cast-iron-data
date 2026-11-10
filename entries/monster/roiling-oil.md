@@ -2,6 +2,7 @@
 id = "ref/monster/roiling-oil"
 kind = "creature"
 title = "Roiling Oil"
+aon = "MonsterDisplay.aspx?ItemName=Roiling%20Oil"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roiling_oil", path = "json/monsters20.json" },

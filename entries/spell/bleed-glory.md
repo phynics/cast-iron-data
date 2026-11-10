@@ -2,6 +2,7 @@
 id = "ref/spell/bleed-glory"
 kind = "spell"
 title = "Bleed Glory"
+aon = "SpellDisplay.aspx?ItemName=Bleed%20Glory"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed_glory", path = "json/spells12.json" },

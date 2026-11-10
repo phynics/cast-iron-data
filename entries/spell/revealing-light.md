@@ -2,6 +2,7 @@
 id = "ref/spell/revealing-light"
 kind = "spell"
 title = "Revealing Light"
+aon = "SpellDisplay.aspx?ItemName=Revealing%20Light"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revealing_light", path = "json/spells8.json" },

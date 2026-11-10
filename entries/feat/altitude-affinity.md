@@ -2,6 +2,7 @@
 id = "ref/feat/altitude-affinity"
 kind = "feat"
 title = "Altitude Affinity"
+aon = "FeatDisplay.aspx?ItemName=Altitude%20Affinity"
 source_ids = ["inner-sea-world-guide", "pathfinder-6-spires-of-xin-shalast", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altitude_affinity", path = "json/feat01.json" },

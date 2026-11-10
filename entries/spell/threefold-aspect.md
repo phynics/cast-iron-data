@@ -2,6 +2,7 @@
 id = "ref/spell/threefold-aspect"
 kind = "spell"
 title = "Threefold Aspect"
+aon = "SpellDisplay.aspx?ItemName=Threefold%20Aspect"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_aspect", path = "json/spells10.json" },

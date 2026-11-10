@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-grappler"
 kind = "feat"
 title = "Deadly Grappler"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Grappler"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_grappler", path = "json/feat04.json" },

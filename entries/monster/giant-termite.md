@@ -2,6 +2,7 @@
 id = "ref/monster/giant-termite"
 kind = "creature"
 title = "Giant Termite"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Termite"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_termite", path = "json/monsters11.json" },

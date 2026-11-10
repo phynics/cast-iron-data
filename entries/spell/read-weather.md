@@ -2,6 +2,7 @@
 id = "ref/spell/read-weather"
 kind = "spell"
 title = "Read Weather"
+aon = "SpellDisplay.aspx?ItemName=Read%20Weather"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "read_weather", path = "json/spells8.json" },

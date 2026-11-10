@@ -2,6 +2,7 @@
 id = "ref/monster/automaton-master-automaton"
 kind = "creature"
 title = "Master Automaton"
+aon = "MonsterDisplay.aspx?ItemName=Master%20Automaton"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_master_automaton", path = "json/monsters26.json" },

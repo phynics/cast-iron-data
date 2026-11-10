@@ -2,6 +2,7 @@
 id = "ref/monster/jinmenju"
 kind = "creature"
 title = "Jinmenju"
+aon = "MonsterDisplay.aspx?ItemName=Jinmenju"
 source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinmenju", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/bilocation"
 kind = "spell"
 title = "Bilocation"
+aon = "SpellDisplay.aspx?ItemName=Bilocation"
 source_ids = ["occult-adventures", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bilocation", path = "json/spells12.json" },

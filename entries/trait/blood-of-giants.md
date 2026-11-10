@@ -2,6 +2,7 @@
 id = "ref/trait/blood-of-giants"
 kind = "trait"
 title = "Blood of Giants"
+aon = "TraitDisplay.aspx?ItemName=Blood%20of%20Giants"
 source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_giants", path = "json/traits02.json" },

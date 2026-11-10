@@ -2,6 +2,7 @@
 id = "ref/spell/pass-without-trace"
 kind = "spell"
 title = "Pass without Trace"
+aon = "SpellDisplay.aspx?ItemName=Pass%20without%20Trace"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pass_without_trace", path = "json/spells7.json" },

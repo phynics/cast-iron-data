@@ -2,6 +2,7 @@
 id = "ref/feat/natures-freedom"
 kind = "feat"
 title = "Nature's Freedom"
+aon = "FeatDisplay.aspx?ItemName=Nature%27s%20Freedom"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_freedom", path = "json/feat11.json" },

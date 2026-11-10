@@ -2,6 +2,7 @@
 id = "ref/spell/alaznists-jinx"
 kind = "spell"
 title = "Alaznist's Jinx"
+aon = "SpellDisplay.aspx?ItemName=Alaznist%27s%20Jinx"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alaznists_jinx", path = "json/spells.json" },

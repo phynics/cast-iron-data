@@ -2,6 +2,7 @@
 id = "ref/feat/liberator"
 kind = "feat"
 title = "Liberator"
+aon = "FeatDisplay.aspx?ItemName=Liberator"
 source_ids = ["quests-and-campaigns", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberator", path = "json/feat10.json" },

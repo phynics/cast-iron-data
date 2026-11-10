@@ -2,6 +2,7 @@
 id = "ref/trait/focused-mind"
 kind = "trait"
 title = "Focused Mind"
+aon = "TraitDisplay.aspx?ItemName=Focused%20Mind"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_mind", path = "json/traits02.json" },

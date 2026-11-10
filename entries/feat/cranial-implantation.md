@@ -2,6 +2,7 @@
 id = "ref/feat/cranial-implantation"
 kind = "feat"
 title = "Cranial Implantation"
+aon = "FeatDisplay.aspx?ItemName=Cranial%20Implantation"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cranial_implantation", path = "json/feat03.json" },

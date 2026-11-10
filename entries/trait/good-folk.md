@@ -2,6 +2,7 @@
 id = "ref/trait/good-folk"
 kind = "trait"
 title = "Good Folk"
+aon = "TraitDisplay.aspx?ItemName=Good%20Folk"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_folk", path = "json/traits04.json" },

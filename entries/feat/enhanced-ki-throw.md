@@ -2,6 +2,7 @@
 id = "ref/feat/enhanced-ki-throw"
 kind = "feat"
 title = "Enhanced Ki Throw"
+aon = "FeatDisplay.aspx?ItemName=Enhanced%20Ki%20Throw"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_ki_throw", path = "json/feat05.json" },

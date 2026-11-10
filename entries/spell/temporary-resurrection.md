@@ -2,6 +2,7 @@
 id = "ref/spell/temporary-resurrection"
 kind = "spell"
 title = "Temporary Resurrection"
+aon = "SpellDisplay.aspx?ItemName=Temporary%20Resurrection"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporary_resurrection", path = "json/spells10.json" },

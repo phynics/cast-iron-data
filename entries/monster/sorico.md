@@ -2,6 +2,7 @@
 id = "ref/monster/sorico"
 kind = "creature"
 title = "Sorico"
+aon = "MonsterDisplay.aspx?ItemName=Sorico"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorico", path = "json/monsters22.json" },

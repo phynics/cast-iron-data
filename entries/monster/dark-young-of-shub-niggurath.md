@@ -2,6 +2,7 @@
 id = "ref/monster/dark-young-of-shub-niggurath"
 kind = "creature"
 title = "Dark Young of Shub-Niggurath"
+aon = "MonsterDisplay.aspx?ItemName=Dark%20Young%20of%20Shub-Niggurath"
 source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_young_of_shub_niggurath", path = "json/monsters08.json" },

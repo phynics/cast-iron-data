@@ -2,6 +2,7 @@
 id = "ref/feat/gorgons-fist"
 kind = "feat"
 title = "Gorgon's Fist"
+aon = "FeatDisplay.aspx?ItemName=Gorgon%27s%20Fist"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorgons_fist", path = "json/feat07.json" },

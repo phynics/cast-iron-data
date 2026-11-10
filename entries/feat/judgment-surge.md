@@ -2,6 +2,7 @@
 id = "ref/feat/judgment-surge"
 kind = "feat"
 title = "Judgment Surge"
+aon = "FeatDisplay.aspx?ItemName=Judgment%20Surge"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judgment_surge", path = "json/feat09.json" },

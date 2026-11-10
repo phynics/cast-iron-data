@@ -2,6 +2,7 @@
 id = "ref/feat/gilded-weapons"
 kind = "feat"
 title = "Gilded Weapons"
+aon = "FeatDisplay.aspx?ItemName=Gilded%20Weapons"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gilded_weapons", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/teleport-trap"
 kind = "spell"
 title = "Teleport Trap"
+aon = "SpellDisplay.aspx?ItemName=Teleport%20Trap"
 source_ids = ["inner-sea-world-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_trap", path = "json/spells10.json" },

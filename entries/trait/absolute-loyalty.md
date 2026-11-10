@@ -2,6 +2,7 @@
 id = "ref/trait/absolute-loyalty"
 kind = "trait"
 title = "Absolute Loyalty"
+aon = "TraitDisplay.aspx?ItemName=Absolute%20Loyalty"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absolute_loyalty", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/hat-of-hatreds"
 kind = "item"
 title = "Hat of Hatreds"
+aon = "MagicCursedDisplay.aspx?ItemName=Hat%20of%20Hatreds"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hat_of_hatreds", path = "json/magic_wondrous_head_headband.json" },

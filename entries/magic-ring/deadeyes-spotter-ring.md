@@ -2,6 +2,7 @@
 id = "ref/magic-ring/deadeyes-spotter-ring"
 kind = "item"
 title = "Deadeye's Spotter Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Deadeye%27s%20Spotter%20Ring"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeyes_spotter_ring", path = "json/magic_ring.json" },

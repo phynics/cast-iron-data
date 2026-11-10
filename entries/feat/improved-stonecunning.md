@@ -2,6 +2,7 @@
 id = "ref/feat/improved-stonecunning"
 kind = "feat"
 title = "Improved Stonecunning"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Stonecunning"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_stonecunning", path = "json/feat09.json" },

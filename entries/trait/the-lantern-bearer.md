@@ -2,6 +2,7 @@
 id = "ref/trait/the-lantern-bearer"
 kind = "trait"
 title = "The Lantern Bearer"
+aon = "TraitDisplay.aspx?ItemName=The%20Lantern%20Bearer"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lantern_bearer", path = "json/traits03.json" },

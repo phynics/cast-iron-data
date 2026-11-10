@@ -2,6 +2,7 @@
 id = "ref/monster/behemoth-thalassic-behemoth"
 kind = "creature"
 title = "Thalassic Behemoth"
+aon = "MonsterDisplay.aspx?ItemName=Thalassic%20Behemoth"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_thalassic_behemoth", path = "json/monsters03.json" },

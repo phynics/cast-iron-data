@@ -2,6 +2,7 @@
 id = "ref/spell/word-of-resolve"
 kind = "spell"
 title = "Word of Resolve"
+aon = "SpellDisplay.aspx?ItemName=Word%20of%20Resolve"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_resolve", path = "json/spells16.json" },

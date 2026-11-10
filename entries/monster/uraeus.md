@@ -2,6 +2,7 @@
 id = "ref/monster/uraeus"
 kind = "creature"
 title = "Uraeus"
+aon = "MonsterDisplay.aspx?ItemName=Uraeus"
 source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uraeus", path = "json/monsters24.json" },

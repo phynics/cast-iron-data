@@ -2,6 +2,7 @@
 id = "ref/feat/reach-spell"
 kind = "feat"
 title = "Reach Spell"
+aon = "FeatDisplay.aspx?ItemName=Reach%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach_spell", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spell-denial"
 kind = "feat"
 title = "Spell Denial"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Denial"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_denial", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/teleport-greater"
 kind = "spell"
 title = "Greater Teleport"
+aon = "SpellDisplay.aspx?ItemName=Teleport%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_greater", path = "json/spells10.json" },

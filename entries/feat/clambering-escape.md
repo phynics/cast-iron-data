@@ -2,6 +2,7 @@
 id = "ref/feat/clambering-escape"
 kind = "feat"
 title = "Clambering Escape"
+aon = "FeatDisplay.aspx?ItemName=Clambering%20Escape"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clambering_escape", path = "json/feat03.json" },

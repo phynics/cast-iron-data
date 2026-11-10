@@ -2,6 +2,7 @@
 id = "ref/feat/confounding-tumble-deed"
 kind = "feat"
 title = "Confounding Tumble Deed"
+aon = "FeatDisplay.aspx?ItemName=Confounding%20Tumble%20Deed"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confounding_tumble_deed", path = "json/feat03.json" },

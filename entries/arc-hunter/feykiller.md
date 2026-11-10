@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/feykiller"
 kind = "archetype"
 title = "Feykiller"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Feykiller"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feykiller", path = "json/archetypes_hunter.json" },

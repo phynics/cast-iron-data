@@ -2,6 +2,7 @@
 id = "ref/feat/grow-plant-creature"
 kind = "feat"
 title = "Grow Plant Creature"
+aon = "FeatDisplay.aspx?ItemName=Grow%20Plant%20Creature"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grow_plant_creature", path = "json/feat08.json" },

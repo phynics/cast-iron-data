@@ -2,6 +2,7 @@
 id = "ref/spell/entrap-spirit"
 kind = "spell"
 title = "Entrap Spirit"
+aon = "SpellDisplay.aspx?ItemName=Entrap%20Spirit"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entrap_spirit", path = "json/spells4.json" },

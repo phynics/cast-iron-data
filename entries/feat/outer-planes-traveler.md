@@ -2,6 +2,7 @@
 id = "ref/feat/outer-planes-traveler"
 kind = "feat"
 title = "Outer Planes Traveler"
+aon = "FeatDisplay.aspx?ItemName=Outer%20Planes%20Traveler"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outer_planes_traveler", path = "json/feat11.json" },

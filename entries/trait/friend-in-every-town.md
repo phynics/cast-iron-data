@@ -2,6 +2,7 @@
 id = "ref/trait/friend-in-every-town"
 kind = "trait"
 title = "Friend in Every Town"
+aon = "TraitDisplay.aspx?ItemName=Friend%20in%20Every%20Town"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friend_in_every_town", path = "json/traits01.json" },

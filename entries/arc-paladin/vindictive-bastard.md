@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/vindictive-bastard"
 kind = "archetype"
 title = "Vindictive Bastard"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Vindictive%20Bastard"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vindictive_bastard", path = "json/archetypes_paladin.json" },

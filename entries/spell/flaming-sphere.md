@@ -2,6 +2,7 @@
 id = "ref/spell/flaming-sphere"
 kind = "spell"
 title = "Flaming Sphere"
+aon = "SpellDisplay.aspx?ItemName=Flaming%20Sphere"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaming_sphere", path = "json/spells4.json" },

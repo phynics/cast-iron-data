@@ -2,6 +2,7 @@
 id = "ref/spell/denounce"
 kind = "spell"
 title = "Denounce"
+aon = "SpellDisplay.aspx?ItemName=Denounce"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "denounce", path = "json/spells3.json" },

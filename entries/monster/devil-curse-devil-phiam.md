@@ -2,6 +2,7 @@
 id = "ref/monster/devil-curse-devil-phiam"
 kind = "creature"
 title = "Curse Devil (Phiam)"
+aon = "MonsterDisplay.aspx?ItemName=Curse%20Devil%20%28Phiam%29"
 source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_curse_devil_phiam", path = "json/monsters07.json" },

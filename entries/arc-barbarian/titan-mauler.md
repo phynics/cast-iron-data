@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/titan-mauler"
 kind = "archetype"
 title = "Titan Mauler"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Titan%20Mauler"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_mauler", path = "json/archetypes_barbarian.json" },

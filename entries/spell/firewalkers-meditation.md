@@ -2,6 +2,7 @@
 id = "ref/spell/firewalkers-meditation"
 kind = "spell"
 title = "Firewalker's Meditation"
+aon = "SpellDisplay.aspx?ItemName=Firewalker%27s%20Meditation"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firewalkers_meditation", path = "json/spells4.json" },

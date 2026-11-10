@@ -2,6 +2,7 @@
 id = "ref/feat/distracting-charge"
 kind = "feat"
 title = "Distracting Charge"
+aon = "FeatDisplay.aspx?ItemName=Distracting%20Charge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_charge", path = "json/feat04.json" },

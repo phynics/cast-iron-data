@@ -2,6 +2,7 @@
 id = "ref/feat/wind-stance"
 kind = "feat"
 title = "Wind Stance"
+aon = "FeatDisplay.aspx?ItemName=Wind%20Stance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_stance", path = "json/feat17.json" },

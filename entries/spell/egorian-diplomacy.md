@@ -2,6 +2,7 @@
 id = "ref/spell/egorian-diplomacy"
 kind = "spell"
 title = "Egorian Diplomacy"
+aon = "SpellDisplay.aspx?ItemName=Egorian%20Diplomacy"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egorian_diplomacy", path = "json/spells4.json" },

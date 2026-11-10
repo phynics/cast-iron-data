@@ -2,6 +2,7 @@
 id = "ref/spell/defending-bone"
 kind = "spell"
 title = "Defending Bone"
+aon = "SpellDisplay.aspx?ItemName=Defending%20Bone"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defending_bone", path = "json/spells3.json" },

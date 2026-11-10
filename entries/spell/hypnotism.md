@@ -2,6 +2,7 @@
 id = "ref/spell/hypnotism"
 kind = "spell"
 title = "Hypnotism"
+aon = "SpellDisplay.aspx?ItemName=Hypnotism"
 source_ids = ["core-rulebook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotism", path = "json/spells5.json" },

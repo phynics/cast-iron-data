@@ -2,6 +2,7 @@
 id = "ref/feat/heavens-light"
 kind = "feat"
 title = "Heaven's Light"
+aon = "FeatDisplay.aspx?ItemName=Heaven%27s%20Light"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavens_light", path = "json/feat08.json" },

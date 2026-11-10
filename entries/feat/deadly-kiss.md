@@ -2,6 +2,7 @@
 id = "ref/feat/deadly-kiss"
 kind = "feat"
 title = "Deadly Kiss"
+aon = "FeatDisplay.aspx?ItemName=Deadly%20Kiss"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_kiss", path = "json/feat04.json" },

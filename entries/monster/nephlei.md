@@ -2,6 +2,7 @@
 id = "ref/monster/nephlei"
 kind = "creature"
 title = "Nephlei"
+aon = "MonsterDisplay.aspx?ItemName=Nephlei"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nephlei", path = "json/monsters17.json" },

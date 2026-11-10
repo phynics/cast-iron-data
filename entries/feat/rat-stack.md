@@ -2,6 +2,7 @@
 id = "ref/feat/rat-stack"
 kind = "feat"
 title = "Rat Stack"
+aon = "FeatDisplay.aspx?ItemName=Rat%20Stack"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_stack", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/adventurous-explorer"
 kind = "trait"
 title = "Adventurous Explorer"
+aon = "TraitDisplay.aspx?ItemName=Adventurous%20Explorer"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adventurous_explorer", path = "json/traits05.json" },

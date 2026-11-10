@@ -2,6 +2,7 @@
 id = "ref/spell/shillelagh"
 kind = "spell"
 title = "Shillelagh"
+aon = "SpellDisplay.aspx?ItemName=Shillelagh"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shillelagh", path = "json/spells9.json" },

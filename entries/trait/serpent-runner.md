@@ -2,6 +2,7 @@
 id = "ref/trait/serpent-runner"
 kind = "trait"
 title = "Serpent Runner"
+aon = "TraitDisplay.aspx?ItemName=Serpent%20Runner"
 source_ids = ["varisia-birthplace-of-legends", "shattered-star-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_runner", path = "json/traits02.json" },

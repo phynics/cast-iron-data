@@ -2,6 +2,7 @@
 id = "ref/trait/magical-lineage"
 kind = "trait"
 title = "Magical Lineage"
+aon = "TraitDisplay.aspx?ItemName=Magical%20Lineage"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_lineage", path = "json/traits02.json" },

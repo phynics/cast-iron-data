@@ -2,6 +2,7 @@
 id = "ref/feat/diversion-shot"
 kind = "feat"
 title = "Diversion Shot"
+aon = "FeatDisplay.aspx?ItemName=Diversion%20Shot"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diversion_shot", path = "json/feat04.json" },

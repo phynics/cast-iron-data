@@ -2,6 +2,7 @@
 id = "ref/race/triaxian"
 kind = "race"
 title = "Triaxian"
+aon = "RacesDisplay.aspx?ItemName=Triaxian"
 source_ids = ["inner-sea-races", "pathfinder-70-the-frozen-stars", "people-of-the-stars"]
 race_group = "other_race"
 provenance = [

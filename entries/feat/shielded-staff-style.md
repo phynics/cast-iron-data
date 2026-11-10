@@ -2,6 +2,7 @@
 id = "ref/feat/shielded-staff-style"
 kind = "feat"
 title = "Shielded Staff Style"
+aon = "FeatDisplay.aspx?ItemName=Shielded%20Staff%20Style"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_staff_style", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/merchant-of-katheer"
 kind = "trait"
 title = "Merchant of Katheer"
+aon = "TraitDisplay.aspx?ItemName=Merchant%20of%20Katheer"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merchant_of_katheer", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/flickering-lights"
 kind = "spell"
 title = "Flickering Lights"
+aon = "SpellDisplay.aspx?ItemName=Flickering%20Lights"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flickering_lights", path = "json/spells4.json" },

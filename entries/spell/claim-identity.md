@@ -2,6 +2,7 @@
 id = "ref/spell/claim-identity"
 kind = "spell"
 title = "Claim Identity"
+aon = "SpellDisplay.aspx?ItemName=Claim%20Identity"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claim_identity", path = "json/spells2.json" },

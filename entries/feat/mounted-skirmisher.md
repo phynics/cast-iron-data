@@ -2,6 +2,7 @@
 id = "ref/feat/mounted-skirmisher"
 kind = "feat"
 title = "Mounted Skirmisher"
+aon = "FeatDisplay.aspx?ItemName=Mounted%20Skirmisher"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_skirmisher", path = "json/feat11.json" },

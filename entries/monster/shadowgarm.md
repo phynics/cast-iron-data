@@ -2,6 +2,7 @@
 id = "ref/monster/shadowgarm"
 kind = "creature"
 title = "Shadowgarm"
+aon = "MonsterDisplay.aspx?ItemName=Shadowgarm"
 source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowgarm", path = "json/monsters38.json" },

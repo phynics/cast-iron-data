@@ -2,6 +2,7 @@
 id = "ref/spell/crushing-hand"
 kind = "spell"
 title = "Crushing Hand"
+aon = "SpellDisplay.aspx?ItemName=Crushing%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_hand", path = "json/spells3.json" },

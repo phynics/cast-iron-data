@@ -2,6 +2,7 @@
 id = "ref/feat/harmonic-spell"
 kind = "feat"
 title = "Harmonic Spell"
+aon = "FeatDisplay.aspx?ItemName=Harmonic%20Spell"
 source_ids = ["inner-sea-world-guide", "pathfinder-12-crown-of-fangs", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harmonic_spell", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/bellflower-tiller"
 kind = "trait"
 title = "Bellflower Tiller"
+aon = "TraitDisplay.aspx?ItemName=Bellflower%20Tiller"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_tiller", path = "json/traits04.json" },

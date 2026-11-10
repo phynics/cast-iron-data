@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/guerrilla"
 kind = "archetype"
 title = "Guerrilla"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Guerrilla"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guerrilla", path = "json/archetypes_rogue.json" },

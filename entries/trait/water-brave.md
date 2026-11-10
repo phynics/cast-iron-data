@@ -2,6 +2,7 @@
 id = "ref/trait/water-brave"
 kind = "trait"
 title = "Water Brave"
+aon = "TraitDisplay.aspx?ItemName=Water%20Brave"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_brave", path = "json/traits04.json" },

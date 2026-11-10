@@ -2,6 +2,7 @@
 id = "ref/spell/suppress-primal-magic"
 kind = "spell"
 title = "Suppress Primal Magic"
+aon = "SpellDisplay.aspx?ItemName=Suppress%20Primal%20Magic"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_primal_magic", path = "json/spells10.json" },

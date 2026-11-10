@@ -2,6 +2,7 @@
 id = "ref/spell/spontaneous-immolation"
 kind = "spell"
 title = "Spontaneous Immolation"
+aon = "SpellDisplay.aspx?ItemName=Spontaneous%20Immolation"
 source_ids = ["ultimate-combat", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spontaneous_immolation", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/black-marketeer"
 kind = "feat"
 title = "Black Marketeer"
+aon = "FeatDisplay.aspx?ItemName=Black%20Marketeer"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_marketeer", path = "json/feat02.json" },

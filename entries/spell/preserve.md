@@ -2,6 +2,7 @@
 id = "ref/spell/preserve"
 kind = "spell"
 title = "Preserve"
+aon = "SpellDisplay.aspx?ItemName=Preserve"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preserve", path = "json/spells14.json" },

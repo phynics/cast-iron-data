@@ -2,6 +2,7 @@
 id = "ref/monster/devil-executioner-devil-munagola"
 kind = "creature"
 title = "Executioner Devil (Munagola)"
+aon = "MonsterDisplay.aspx?ItemName=Executioner%20Devil%20%28Munagola%29"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_executioner_devil_munagola", path = "json/monsters07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/arrow-of-law"
 kind = "spell"
 title = "Arrow of Law"
+aon = "SpellDisplay.aspx?ItemName=Arrow%20of%20Law"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_of_law", path = "json/spells.json" },

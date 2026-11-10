@@ -2,6 +2,7 @@
 id = "ref/race/reborn-samsaran"
 kind = "race"
 title = "Reborn Samsaran"
+aon = "RacesDisplay.aspx?ItemName=Reborn%20Samsaran"
 source_ids = ["occult-bestiary"]
 race_group = "other_race"
 provenance = [

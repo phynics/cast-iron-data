@@ -2,6 +2,7 @@
 id = "ref/feat/spiritual-balance"
 kind = "feat"
 title = "Spiritual Balance"
+aon = "FeatDisplay.aspx?ItemName=Spiritual%20Balance"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_balance", path = "json/feat15.json" },

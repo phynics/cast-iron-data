@@ -2,6 +2,7 @@
 id = "ref/trait/bladed-magic"
 kind = "trait"
 title = "Bladed Magic"
+aon = "TraitDisplay.aspx?ItemName=Bladed%20Magic"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_magic", path = "json/traits02.json" },

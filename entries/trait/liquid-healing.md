@@ -2,6 +2,7 @@
 id = "ref/trait/liquid-healing"
 kind = "trait"
 title = "Liquid Healing"
+aon = "TraitDisplay.aspx?ItemName=Liquid%20Healing"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_healing", path = "json/traits04.json" },

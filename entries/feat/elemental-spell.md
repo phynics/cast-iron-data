@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-spell"
 kind = "feat"
 title = "Elemental Spell"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_spell", path = "json/feat05.json" },

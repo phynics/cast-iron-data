@@ -2,6 +2,7 @@
 id = "ref/monster/crackling-skull-swarm"
 kind = "creature"
 title = "Crackling Skull Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Crackling%20Skull%20Swarm"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crackling_skull_swarm", path = "json/monsters28.json" },

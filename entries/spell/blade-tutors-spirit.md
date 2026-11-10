@@ -2,6 +2,7 @@
 id = "ref/spell/blade-tutors-spirit"
 kind = "spell"
 title = "Blade Tutor's Spirit"
+aon = "SpellDisplay.aspx?ItemName=Blade%20Tutor%27s%20Spirit"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_tutors_spirit", path = "json/spells12.json" },

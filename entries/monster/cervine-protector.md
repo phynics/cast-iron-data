@@ -2,6 +2,7 @@
 id = "ref/monster/cervine-protector"
 kind = "creature"
 title = "Cervine Protector"
+aon = "MonsterDisplay.aspx?ItemName=Cervine%20Protector"
 source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cervine_protector", path = "json/monsters28.json" },

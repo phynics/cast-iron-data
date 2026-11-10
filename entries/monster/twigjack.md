@@ -2,6 +2,7 @@
 id = "ref/monster/twigjack"
 kind = "creature"
 title = "Twigjack"
+aon = "MonsterDisplay.aspx?ItemName=Twigjack"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twigjack", path = "json/monsters24.json" },

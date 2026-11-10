@@ -2,6 +2,7 @@
 id = "ref/monster/atuikakura"
 kind = "creature"
 title = "Atuikakura"
+aon = "MonsterDisplay.aspx?ItemName=Atuikakura"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atuikakura", path = "json/monsters26.json" },

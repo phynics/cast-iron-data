@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sharper"
 kind = "archetype"
 title = "Sharper"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sharper"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharper", path = "json/archetypes_rogue.json" },

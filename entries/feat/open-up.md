@@ -2,6 +2,7 @@
 id = "ref/feat/open-up"
 kind = "feat"
 title = "Open Up"
+aon = "FeatDisplay.aspx?ItemName=Open%20Up"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_up", path = "json/feat11.json" },

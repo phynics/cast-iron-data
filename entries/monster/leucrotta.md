@@ -2,6 +2,7 @@
 id = "ref/monster/leucrotta"
 kind = "creature"
 title = "Leucrotta"
+aon = "MonsterDisplay.aspx?ItemName=Leucrotta"
 source_ids = ["bestiary-2", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leucrotta", path = "json/monsters16.json" },

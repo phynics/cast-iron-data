@@ -2,6 +2,7 @@
 id = "ref/trait/genie-blood"
 kind = "trait"
 title = "Genie Blood"
+aon = "TraitDisplay.aspx?ItemName=Genie%20Blood"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_blood", path = "json/traits05.json" },

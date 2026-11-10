@@ -2,6 +2,7 @@
 id = "ref/race/hobgoblin"
 kind = "race"
 title = "Hobgoblin"
+aon = "RacesDisplay.aspx?ItemName=Hobgoblin"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide"]
 race_group = "featured_race"
 provenance = [

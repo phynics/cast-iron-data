@@ -2,6 +2,7 @@
 id = "ref/magic-armor/constrictor-armor"
 kind = "item"
 title = "Constrictor Armor"
+aon = "MagicCursedDisplay.aspx?ItemName=Constrictor%20Armor"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constrictor_armor", path = "json/magic_armor.json" },

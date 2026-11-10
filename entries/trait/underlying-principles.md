@@ -2,6 +2,7 @@
 id = "ref/trait/underlying-principles"
 kind = "trait"
 title = "Underlying Principles"
+aon = "TraitDisplay.aspx?ItemName=Underlying%20Principles"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underlying_principles", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/shifting-sand"
 kind = "spell"
 title = "Shifting Sand"
+aon = "SpellDisplay.aspx?ItemName=Shifting%20Sand"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_sand", path = "json/spells9.json" },

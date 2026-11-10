@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/spiritslayer"
 kind = "archetype"
 title = "Spiritslayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Spiritslayer"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritslayer", path = "json/archetypes_slayer.json" },

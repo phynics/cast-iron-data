@@ -2,6 +2,7 @@
 id = "ref/trait/fire-tongued"
 kind = "trait"
 title = "Fire-Tongued"
+aon = "TraitDisplay.aspx?ItemName=Fire-Tongued"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_tongued", path = "json/traits05.json" },

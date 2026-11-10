@@ -2,6 +2,7 @@
 id = "ref/spell/stunning-barrier"
 kind = "spell"
 title = "Stunning Barrier"
+aon = "SpellDisplay.aspx?ItemName=Stunning%20Barrier"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_barrier", path = "json/spells16.json" },

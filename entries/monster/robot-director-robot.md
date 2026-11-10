@@ -2,6 +2,7 @@
 id = "ref/monster/robot-director-robot"
 kind = "creature"
 title = "Director Robot"
+aon = "MonsterDisplay.aspx?ItemName=Director%20Robot"
 source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_director_robot", path = "json/monsters20.json" },

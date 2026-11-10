@@ -2,6 +2,7 @@
 id = "ref/trait/local-tough"
 kind = "trait"
 title = "Local Tough"
+aon = "TraitDisplay.aspx?ItemName=Local%20Tough"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "local_tough", path = "json/traits02.json" },

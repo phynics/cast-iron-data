@@ -2,6 +2,7 @@
 id = "ref/feat/improved-reposition"
 kind = "feat"
 title = "Improved Reposition"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Reposition"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_reposition", path = "json/feat09.json" },

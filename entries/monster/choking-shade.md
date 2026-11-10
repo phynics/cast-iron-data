@@ -2,6 +2,7 @@
 id = "ref/monster/choking-shade"
 kind = "creature"
 title = "Choking Shade"
+aon = "MonsterDisplay.aspx?ItemName=Choking%20Shade"
 source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choking_shade", path = "json/monsters05.json" },

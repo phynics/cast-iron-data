@@ -2,6 +2,7 @@
 id = "ref/spell/sculpt-corpse"
 kind = "spell"
 title = "Sculpt Corpse"
+aon = "SpellDisplay.aspx?ItemName=Sculpt%20Corpse"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpt_corpse", path = "json/spells15.json" },

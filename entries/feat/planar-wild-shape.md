@@ -2,6 +2,7 @@
 id = "ref/feat/planar-wild-shape"
 kind = "feat"
 title = "Planar Wild Shape"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Wild%20Shape"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_wild_shape", path = "json/feat12.json" },

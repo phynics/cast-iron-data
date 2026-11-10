@@ -2,6 +2,7 @@
 id = "ref/feat/stunning-fist"
 kind = "feat"
 title = "Stunning Fist"
+aon = "FeatDisplay.aspx?ItemName=Stunning%20Fist"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_fist", path = "json/feat15.json" },

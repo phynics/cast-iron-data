@@ -2,6 +2,7 @@
 id = "ref/spell/call-the-void"
 kind = "spell"
 title = "Call the Void"
+aon = "SpellDisplay.aspx?ItemName=Call%20the%20Void"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_the_void", path = "json/spells2.json" },

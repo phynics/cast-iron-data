@@ -2,6 +2,7 @@
 id = "ref/spell/hymn-of-mercy"
 kind = "spell"
 title = "Hymn of Mercy"
+aon = "SpellDisplay.aspx?ItemName=Hymn%20of%20Mercy"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_of_mercy", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/whiteout"
 kind = "trait"
 title = "Whiteout"
+aon = "TraitDisplay.aspx?ItemName=Whiteout"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whiteout", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-far-strike"
 kind = "item"
 title = "Ring of Far Strike"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Far%20Strike"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_far_strike", path = "json/magic_ring.json" },

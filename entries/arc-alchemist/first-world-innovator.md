@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/first-world-innovator"
 kind = "archetype"
 title = "First World Innovator"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20First%20World%20Innovator"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_innovator", path = "json/archetypes_alchemist.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-kintargo"
 kind = "trait"
 title = "Child of Kintargo"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Kintargo"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_kintargo", path = "json/traits02.json" },

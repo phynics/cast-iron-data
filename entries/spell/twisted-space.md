@@ -2,6 +2,7 @@
 id = "ref/spell/twisted-space"
 kind = "spell"
 title = "Twisted Space"
+aon = "SpellDisplay.aspx?ItemName=Twisted%20Space"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_space", path = "json/spells10.json" },

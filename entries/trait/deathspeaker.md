@@ -2,6 +2,7 @@
 id = "ref/trait/deathspeaker"
 kind = "trait"
 title = "Deathspeaker"
+aon = "TraitDisplay.aspx?ItemName=Deathspeaker"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathspeaker", path = "json/traits03.json" },

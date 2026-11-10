@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/wildsoul"
 kind = "archetype"
 title = "Wildsoul"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Wildsoul"
 source_ids = ["ultimate-intrigue", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wildsoul", path = "json/archetypes_vigilante.json" },

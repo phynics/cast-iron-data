@@ -2,6 +2,7 @@
 id = "ref/spell/sword-to-snake"
 kind = "spell"
 title = "Sword to Snake"
+aon = "SpellDisplay.aspx?ItemName=Sword%20to%20Snake"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_to_snake", path = "json/spells10.json" },

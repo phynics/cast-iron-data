@@ -2,6 +2,7 @@
 id = "ref/feat/channeling-force"
 kind = "feat"
 title = "Channeling Force"
+aon = "FeatDisplay.aspx?ItemName=Channeling%20Force"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeling_force", path = "json/feat03.json" },

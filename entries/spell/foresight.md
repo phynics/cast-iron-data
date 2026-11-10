@@ -2,6 +2,7 @@
 id = "ref/spell/foresight"
 kind = "spell"
 title = "Foresight"
+aon = "SpellDisplay.aspx?ItemName=Foresight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foresight", path = "json/spells13.json" },

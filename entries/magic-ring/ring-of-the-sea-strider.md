@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-sea-strider"
 kind = "item"
 title = "Ring of the Sea Strider"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Sea%20Strider"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_sea_strider", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/maw-of-chaos"
 kind = "spell"
 title = "Maw of Chaos"
+aon = "SpellDisplay.aspx?ItemName=Maw%20of%20Chaos"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maw_of_chaos", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/diminish-resistance"
 kind = "spell"
 title = "Diminish Resistance"
+aon = "SpellDisplay.aspx?ItemName=Diminish%20Resistance"
 source_ids = ["planar-adventures", "monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminish_resistance", path = "json/spells3.json" },

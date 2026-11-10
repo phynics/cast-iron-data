@@ -2,6 +2,7 @@
 id = "ref/spell/wrathful-mantle"
 kind = "spell"
 title = "Wrathful Mantle"
+aon = "SpellDisplay.aspx?ItemName=Wrathful%20Mantle"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrathful_mantle", path = "json/spells16.json" },

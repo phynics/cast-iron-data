@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/chu-ye-enforcer"
 kind = "archetype"
 title = "Chu Ye Enforcer"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Chu%20Ye%20Enforcer"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chu_ye_enforcer", path = "json/archetypes_vigilante.json" },

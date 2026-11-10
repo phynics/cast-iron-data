@@ -2,6 +2,7 @@
 id = "ref/spell/protective-penumbra"
 kind = "spell"
 title = "Protective Penumbra"
+aon = "SpellDisplay.aspx?ItemName=Protective%20Penumbra"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protective_penumbra", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/blot"
 kind = "spell"
 title = "Blot"
+aon = "SpellDisplay.aspx?ItemName=Blot"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blot", path = "json/spells2.json" },

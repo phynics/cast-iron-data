@@ -2,6 +2,7 @@
 id = "ref/trait/easy-way-or-the-hard-way"
 kind = "trait"
 title = "Easy Way or the Hard Way"
+aon = "TraitDisplay.aspx?ItemName=Easy%20Way%20or%20the%20Hard%20Way"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "easy_way_or_the_hard_way", path = "json/traits01.json" },

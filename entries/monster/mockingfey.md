@@ -2,6 +2,7 @@
 id = "ref/monster/mockingfey"
 kind = "creature"
 title = "Mockingfey"
+aon = "MonsterDisplay.aspx?ItemName=Mockingfey"
 source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mockingfey", path = "json/monsters17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/seasoned-flier"
 kind = "feat"
 title = "Seasoned Flier"
+aon = "FeatDisplay.aspx?ItemName=Seasoned%20Flier"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seasoned_flier", path = "json/feat13.json" },

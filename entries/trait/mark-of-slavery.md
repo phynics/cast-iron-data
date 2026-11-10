@@ -2,6 +2,7 @@
 id = "ref/trait/mark-of-slavery"
 kind = "trait"
 title = "Mark of Slavery"
+aon = "TraitDisplay.aspx?ItemName=Mark%20of%20Slavery"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_slavery", path = "json/traits03.json" },

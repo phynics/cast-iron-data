@@ -2,6 +2,7 @@
 id = "ref/monster/sabosan"
 kind = "creature"
 title = "Sabosan"
+aon = "MonsterDisplay.aspx?ItemName=Sabosan"
 source_ids = ["bestiary-3", "pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabosan", path = "json/monsters37.json" },

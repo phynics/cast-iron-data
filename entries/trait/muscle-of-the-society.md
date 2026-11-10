@@ -2,6 +2,7 @@
 id = "ref/trait/muscle-of-the-society"
 kind = "trait"
 title = "Muscle of the Society"
+aon = "TraitDisplay.aspx?ItemName=Muscle%20of%20the%20Society"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muscle_of_the_society", path = "json/traits01.json" },

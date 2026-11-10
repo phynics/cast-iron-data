@@ -2,6 +2,7 @@
 id = "ref/pclass/sleepless-detective"
 kind = "prestige_class"
 title = "Sleepless Detective"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Sleepless%20Detective"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepless_detective", path = "json/prestige_classes3.json" },

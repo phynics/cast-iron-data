@@ -2,6 +2,7 @@
 id = "ref/feat/manyshot"
 kind = "feat"
 title = "Manyshot"
+aon = "FeatDisplay.aspx?ItemName=Manyshot"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manyshot", path = "json/feat10.json" },

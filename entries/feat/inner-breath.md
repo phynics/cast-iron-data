@@ -2,6 +2,7 @@
 id = "ref/feat/inner-breath"
 kind = "feat"
 title = "Inner Breath"
+aon = "FeatDisplay.aspx?ItemName=Inner%20Breath"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_breath", path = "json/feat09.json" },

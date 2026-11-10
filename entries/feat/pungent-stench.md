@@ -2,6 +2,7 @@
 id = "ref/feat/pungent-stench"
 kind = "feat"
 title = "Pungent Stench"
+aon = "FeatDisplay.aspx?ItemName=Pungent%20Stench"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pungent_stench", path = "json/feat12.json" },

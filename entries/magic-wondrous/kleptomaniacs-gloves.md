@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/kleptomaniacs-gloves"
 kind = "item"
 title = "Kleptomaniac's Gloves"
+aon = "MagicCursedDisplay.aspx?ItemName=Kleptomaniac%27s%20Gloves"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kleptomaniacs_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },

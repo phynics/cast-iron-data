@@ -2,6 +2,7 @@
 id = "ref/feat/illusive-gnome-surprise"
 kind = "feat"
 title = "Illusive Gnome Surprise"
+aon = "FeatDisplay.aspx?ItemName=Illusive%20Gnome%20Surprise"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusive_gnome_surprise", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-dealer"
 kind = "trait"
 title = "Shadow Dealer"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Dealer"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_dealer", path = "json/traits04.json" },

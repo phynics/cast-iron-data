@@ -2,6 +2,7 @@
 id = "ref/arc-magus/soul-forger"
 kind = "archetype"
 title = "Soul Forger"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Soul%20Forger"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_forger", path = "json/archetypes_magus.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/soulbound-summoner"
 kind = "archetype"
 title = "Soulbound Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Soulbound%20Summoner"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_summoner", path = "json/archetypes_summoner_UC.json" },

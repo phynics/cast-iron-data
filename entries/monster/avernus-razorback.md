@@ -2,6 +2,7 @@
 id = "ref/monster/avernus-razorback"
 kind = "creature"
 title = "Avernus Razorback"
+aon = "MonsterDisplay.aspx?ItemName=Avernus%20Razorback"
 source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avernus_razorback", path = "json/monsters26.json" },

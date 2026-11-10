@@ -2,6 +2,7 @@
 id = "ref/feat/gaze-reflection"
 kind = "feat"
 title = "Gaze Reflection"
+aon = "FeatDisplay.aspx?ItemName=Gaze%20Reflection"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaze_reflection", path = "json/feat07.json" },

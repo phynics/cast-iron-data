@@ -2,6 +2,7 @@
 id = "ref/monster/delver"
 kind = "creature"
 title = "Delver"
+aon = "MonsterDisplay.aspx?ItemName=Delver"
 source_ids = ["misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delver", path = "json/monsters08.json" },

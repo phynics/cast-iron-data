@@ -2,6 +2,7 @@
 id = "ref/monster/grassling"
 kind = "creature"
 title = "Grassling"
+aon = "MonsterDisplay.aspx?ItemName=Grassling"
 source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grassling", path = "json/monsters12.json" },

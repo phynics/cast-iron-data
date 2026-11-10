@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/scourge"
 kind = "archetype"
 title = "Scourge"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Scourge"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge", path = "json/archetypes_spiritualist.json" },

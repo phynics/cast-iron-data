@@ -2,6 +2,7 @@
 id = "ref/spell/blade-of-bright-victory"
 kind = "spell"
 title = "Blade of Bright Victory"
+aon = "SpellDisplay.aspx?ItemName=Blade%20of%20Bright%20Victory"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_bright_victory", path = "json/spells12.json" },

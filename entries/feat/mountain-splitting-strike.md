@@ -2,6 +2,7 @@
 id = "ref/feat/mountain-splitting-strike"
 kind = "feat"
 title = "Mountain-Splitting Strike"
+aon = "FeatDisplay.aspx?ItemName=Mountain-Splitting%20Strike"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_splitting_strike", path = "json/feat11.json" },

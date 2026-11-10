@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/grim-apostle"
 kind = "archetype"
 title = "Grim Apostle"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Grim%20Apostle"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_apostle", path = "json/archetypes_spiritualist.json" },

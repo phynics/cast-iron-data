@@ -2,6 +2,7 @@
 id = "ref/spell/find-quarry"
 kind = "spell"
 title = "Find Quarry"
+aon = "SpellDisplay.aspx?ItemName=Find%20Quarry"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_quarry", path = "json/spells4.json" },

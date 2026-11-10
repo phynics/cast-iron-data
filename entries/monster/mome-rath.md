@@ -2,6 +2,7 @@
 id = "ref/monster/mome-rath"
 kind = "creature"
 title = "Mome Rath"
+aon = "MonsterDisplay.aspx?ItemName=Mome%20Rath"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mome_rath", path = "json/monsters17.json" },

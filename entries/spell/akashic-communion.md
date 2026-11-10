@@ -2,6 +2,7 @@
 id = "ref/spell/akashic-communion"
 kind = "spell"
 title = "Akashic Communion"
+aon = "SpellDisplay.aspx?ItemName=Akashic%20Communion"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akashic_communion", path = "json/spells.json" },

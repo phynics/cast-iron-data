@@ -2,6 +2,7 @@
 id = "ref/trait/storm-hunter"
 kind = "trait"
 title = "Storm Hunter"
+aon = "TraitDisplay.aspx?ItemName=Storm%20Hunter"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_hunter", path = "json/traits04.json" },

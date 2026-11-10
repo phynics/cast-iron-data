@@ -2,6 +2,7 @@
 id = "ref/feat/chain-mastery"
 kind = "feat"
 title = "Chain Mastery"
+aon = "FeatDisplay.aspx?ItemName=Chain%20Mastery"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_mastery", path = "json/feat02.json" },

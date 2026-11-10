@@ -2,6 +2,7 @@
 id = "ref/feat/raging-absorption"
 kind = "feat"
 title = "Raging Absorption"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Absorption"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_absorption", path = "json/feat12.json" },

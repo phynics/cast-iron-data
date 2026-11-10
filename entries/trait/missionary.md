@@ -2,6 +2,7 @@
 id = "ref/trait/missionary"
 kind = "trait"
 title = "Missionary"
+aon = "TraitDisplay.aspx?ItemName=Missionary"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missionary", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/golden-guardian"
 kind = "creature"
 title = "Golden Guardian"
+aon = "MonsterDisplay.aspx?ItemName=Golden%20Guardian"
 source_ids = ["city-of-golden-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_guardian", path = "json/monsters12.json" },

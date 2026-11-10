@@ -2,6 +2,7 @@
 id = "ref/pclass/dawnflower-dissident"
 kind = "prestige_class"
 title = "Dawnflower Dissident"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Dawnflower%20Dissident"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_dissident", path = "json/prestige_classes.json" },

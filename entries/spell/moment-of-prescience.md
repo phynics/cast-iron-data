@@ -2,6 +2,7 @@
 id = "ref/spell/moment-of-prescience"
 kind = "spell"
 title = "Moment of Prescience"
+aon = "SpellDisplay.aspx?ItemName=Moment%20of%20Prescience"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moment_of_prescience", path = "json/spells14.json" },

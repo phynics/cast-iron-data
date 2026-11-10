@@ -2,6 +2,7 @@
 id = "ref/feat/unsanctioned-knowledge"
 kind = "feat"
 title = "Unsanctioned Knowledge"
+aon = "FeatDisplay.aspx?ItemName=Unsanctioned%20Knowledge"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unsanctioned_knowledge", path = "json/feat16.json" },

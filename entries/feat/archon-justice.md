@@ -2,6 +2,7 @@
 id = "ref/feat/archon-justice"
 kind = "feat"
 title = "Archon Justice"
+aon = "FeatDisplay.aspx?ItemName=Archon%20Justice"
 source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_justice", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/vile-domain"
 kind = "trait"
 title = "Vile Domain"
+aon = "TraitDisplay.aspx?ItemName=Vile%20Domain"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_domain", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/terrifying-assassination"
 kind = "feat"
 title = "Terrifying Assassination"
+aon = "FeatDisplay.aspx?ItemName=Terrifying%20Assassination"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrifying_assassination", path = "json/feat16.json" },

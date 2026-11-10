@@ -2,6 +2,7 @@
 id = "ref/race/vanara"
 kind = "race"
 title = "Vanara"
+aon = "RacesDisplay.aspx?ItemName=Vanara"
 source_ids = ["inner-sea-races", "bestiary-3", "advanced-race-guide", "blood-of-the-beast", "wilderness-origins"]
 race_group = "uncommon_race"
 provenance = [

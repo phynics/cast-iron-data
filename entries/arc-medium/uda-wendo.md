@@ -2,6 +2,7 @@
 id = "ref/arc-medium/uda-wendo"
 kind = "archetype"
 title = "Uda Wendo"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Uda%20Wendo"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uda_wendo", path = "json/archetypes_medium.json" },

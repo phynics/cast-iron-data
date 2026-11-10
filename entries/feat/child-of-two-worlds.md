@@ -2,6 +2,7 @@
 id = "ref/feat/child-of-two-worlds"
 kind = "feat"
 title = "Child of Two Worlds"
+aon = "FeatDisplay.aspx?ItemName=Child%20of%20Two%20Worlds"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_two_worlds", path = "json/feat03.json" },

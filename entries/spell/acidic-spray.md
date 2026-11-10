@@ -2,6 +2,7 @@
 id = "ref/spell/acidic-spray"
 kind = "spell"
 title = "Acidic Spray"
+aon = "SpellDisplay.aspx?ItemName=Acidic%20Spray"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acidic_spray", path = "json/spells.json" },

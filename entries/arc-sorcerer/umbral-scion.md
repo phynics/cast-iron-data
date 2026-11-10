@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/umbral-scion"
 kind = "archetype"
 title = "Umbral Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Umbral%20Scion"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_scion", path = "json/archetypes_sorcerer.json" },

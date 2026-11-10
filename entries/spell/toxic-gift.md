@@ -2,6 +2,7 @@
 id = "ref/spell/toxic-gift"
 kind = "spell"
 title = "Toxic Gift"
+aon = "SpellDisplay.aspx?ItemName=Toxic%20Gift"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_gift", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/tactical-formation"
 kind = "spell"
 title = "Tactical Formation"
+aon = "SpellDisplay.aspx?ItemName=Tactical%20Formation"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_formation", path = "json/spells10.json" },

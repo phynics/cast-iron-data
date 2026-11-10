@@ -2,6 +2,7 @@
 id = "ref/spell/reveal-true-shape"
 kind = "spell"
 title = "Reveal True Shape"
+aon = "SpellDisplay.aspx?ItemName=Reveal%20True%20Shape"
 source_ids = ["pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_true_shape", path = "json/spells8.json" },

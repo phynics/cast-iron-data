@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/verdant-grappler"
 kind = "archetype"
 title = "Verdant Grappler"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Verdant%20Grappler"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant_grappler", path = "json/archetypes_brawler.json" },

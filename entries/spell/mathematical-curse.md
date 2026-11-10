@@ -2,6 +2,7 @@
 id = "ref/spell/mathematical-curse"
 kind = "spell"
 title = "Mathematical Curse"
+aon = "SpellDisplay.aspx?ItemName=Mathematical%20Curse"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mathematical_curse", path = "json/spells14.json" },

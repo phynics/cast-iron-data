@@ -2,6 +2,7 @@
 id = "ref/spell/splinter-spell-resistance"
 kind = "spell"
 title = "Splinter Spell Resistance"
+aon = "SpellDisplay.aspx?ItemName=Splinter%20Spell%20Resistance"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splinter_spell_resistance", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/contingent-action"
 kind = "spell"
 title = "Contingent Action"
+aon = "SpellDisplay.aspx?ItemName=Contingent%20Action"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_action", path = "json/spells12.json" },

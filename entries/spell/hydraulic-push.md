@@ -2,6 +2,7 @@
 id = "ref/spell/hydraulic-push"
 kind = "spell"
 title = "Hydraulic Push"
+aon = "SpellDisplay.aspx?ItemName=Hydraulic%20Push"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hydraulic_push", path = "json/spells5.json" },

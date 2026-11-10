@@ -2,6 +2,7 @@
 id = "ref/feat/martial-versatility"
 kind = "feat"
 title = "Martial Versatility"
+aon = "FeatDisplay.aspx?ItemName=Martial%20Versatility"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_versatility", path = "json/feat10.json" },

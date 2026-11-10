@@ -2,6 +2,7 @@
 id = "ref/monster/oneirogen"
 kind = "creature"
 title = "Oneirogen"
+aon = "MonsterDisplay.aspx?ItemName=Oneirogen"
 source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneirogen", path = "json/monsters18.json" },

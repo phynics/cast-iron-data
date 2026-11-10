@@ -2,6 +2,7 @@
 id = "ref/spell/enlarge-tail"
 kind = "spell"
 title = "Enlarge Tail"
+aon = "SpellDisplay.aspx?ItemName=Enlarge%20Tail"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_tail", path = "json/spells4.json" },

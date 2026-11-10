@@ -2,6 +2,7 @@
 id = "ref/feat/shatter-resolve"
 kind = "feat"
 title = "Shatter Resolve"
+aon = "FeatDisplay.aspx?ItemName=Shatter%20Resolve"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_resolve", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/robot-scrapyard-robot"
 kind = "creature"
 title = "Scrapyard Robot"
+aon = "MonsterDisplay.aspx?ItemName=Scrapyard%20Robot"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_scrapyard_robot", path = "json/monsters20.json" },

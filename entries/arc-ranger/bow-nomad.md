@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/bow-nomad"
 kind = "archetype"
 title = "Bow Nomad"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Bow%20Nomad"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bow_nomad", path = "json/archetypes_ranger.json" },

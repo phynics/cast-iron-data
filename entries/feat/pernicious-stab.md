@@ -2,6 +2,7 @@
 id = "ref/feat/pernicious-stab"
 kind = "feat"
 title = "Pernicious Stab"
+aon = "FeatDisplay.aspx?ItemName=Pernicious%20Stab"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pernicious_stab", path = "json/feat12.json" },

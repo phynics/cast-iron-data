@@ -2,6 +2,7 @@
 id = "ref/feat/robots-bane"
 kind = "feat"
 title = "Robot's Bane"
+aon = "FeatDisplay.aspx?ItemName=Robot%27s%20Bane"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robots_bane", path = "json/feat13.json" },

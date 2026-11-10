@@ -2,6 +2,7 @@
 id = "ref/pclass/divine-scion"
 kind = "prestige_class"
 title = "Divine Scion"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Divine%20Scion"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_scion", path = "json/prestige_classes4.json" },

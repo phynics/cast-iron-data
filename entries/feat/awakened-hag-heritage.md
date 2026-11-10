@@ -2,6 +2,7 @@
 id = "ref/feat/awakened-hag-heritage"
 kind = "feat"
 title = "Awakened Hag Heritage"
+aon = "FeatDisplay.aspx?ItemName=Awakened%20Hag%20Heritage"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awakened_hag_heritage", path = "json/feat01.json" },

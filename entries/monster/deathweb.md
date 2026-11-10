@@ -2,6 +2,7 @@
 id = "ref/monster/deathweb"
 kind = "creature"
 title = "Deathweb"
+aon = "MonsterDisplay.aspx?ItemName=Deathweb"
 source_ids = ["bestiary-3", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathweb", path = "json/monsters08.json" },

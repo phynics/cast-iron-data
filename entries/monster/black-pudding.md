@@ -2,6 +2,7 @@
 id = "ref/monster/black-pudding"
 kind = "creature"
 title = "Black Pudding"
+aon = "MonsterDisplay.aspx?ItemName=Black%20Pudding"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_pudding", path = "json/monsters03.json" },

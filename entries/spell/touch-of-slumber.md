@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-slumber"
 kind = "spell"
 title = "Touch of Slumber"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Slumber"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_slumber", path = "json/spells10.json" },

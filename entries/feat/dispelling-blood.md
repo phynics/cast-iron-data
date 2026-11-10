@@ -2,6 +2,7 @@
 id = "ref/feat/dispelling-blood"
 kind = "feat"
 title = "Dispelling Blood"
+aon = "FeatDisplay.aspx?ItemName=Dispelling%20Blood"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelling_blood", path = "json/feat04.json" },

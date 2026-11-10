@@ -2,6 +2,7 @@
 id = "ref/feat/purifying-channel"
 kind = "feat"
 title = "Purifying Channel"
+aon = "FeatDisplay.aspx?ItemName=Purifying%20Channel"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purifying_channel", path = "json/feat12.json" },

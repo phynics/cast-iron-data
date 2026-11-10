@@ -2,6 +2,7 @@
 id = "ref/monster/gigas-hell-gigas"
 kind = "creature"
 title = "Hell Gigas"
+aon = "MonsterDisplay.aspx?ItemName=Hell%20Gigas"
 source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_hell_gigas", path = "json/monsters12.json" },

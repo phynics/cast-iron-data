@@ -2,6 +2,7 @@
 id = "ref/trait/covenant-of-abaddon"
 kind = "trait"
 title = "Covenant of Abaddon"
+aon = "TraitDisplay.aspx?ItemName=Covenant%20of%20Abaddon"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covenant_of_abaddon", path = "json/traits03.json" },

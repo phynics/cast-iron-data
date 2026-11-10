@@ -2,6 +2,7 @@
 id = "ref/feat/martial-dominance"
 kind = "feat"
 title = "Martial Dominance"
+aon = "FeatDisplay.aspx?ItemName=Martial%20Dominance"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_dominance", path = "json/feat10.json" },

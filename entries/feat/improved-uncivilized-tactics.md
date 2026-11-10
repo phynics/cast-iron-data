@@ -2,6 +2,7 @@
 id = "ref/feat/improved-uncivilized-tactics"
 kind = "feat"
 title = "Improved Uncivilized Tactics"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Uncivilized%20Tactics"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_uncivilized_tactics", path = "json/feat09.json" },

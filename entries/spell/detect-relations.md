@@ -2,6 +2,7 @@
 id = "ref/spell/detect-relations"
 kind = "spell"
 title = "Detect Relations"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Relations"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_relations", path = "json/spells3.json" },

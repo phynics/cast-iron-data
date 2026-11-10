@@ -2,6 +2,7 @@
 id = "ref/spell/rift-of-ruin"
 kind = "spell"
 title = "Rift of Ruin"
+aon = "SpellDisplay.aspx?ItemName=Rift%20of%20Ruin"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rift_of_ruin", path = "json/spells8.json" },

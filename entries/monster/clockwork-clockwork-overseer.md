@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-overseer"
 kind = "creature"
 title = "Clockwork Overseer"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Overseer"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_overseer", path = "json/monsters05.json" },

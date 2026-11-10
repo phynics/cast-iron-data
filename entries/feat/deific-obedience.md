@@ -2,6 +2,7 @@
 id = "ref/feat/deific-obedience"
 kind = "feat"
 title = "Deific Obedience"
+aon = "FeatDisplay.aspx?ItemName=Deific%20Obedience"
 source_ids = ["faiths-of-golarion", "inner-sea-gods", "inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deific_obedience", path = "json/feat04.json" },

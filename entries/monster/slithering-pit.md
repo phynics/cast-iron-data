@@ -2,6 +2,7 @@
 id = "ref/monster/slithering-pit"
 kind = "creature"
 title = "Slithering Pit"
+aon = "MonsterDisplay.aspx?ItemName=Slithering%20Pit"
 source_ids = ["bestiary-6", "pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_pit", path = "json/monsters22.json" },

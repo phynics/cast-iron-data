@@ -2,6 +2,7 @@
 id = "ref/monster/tullimonstrum"
 kind = "creature"
 title = "Tullimonstrum"
+aon = "MonsterDisplay.aspx?ItemName=Tullimonstrum"
 source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tullimonstrum", path = "json/monsters24.json" },

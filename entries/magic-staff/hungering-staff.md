@@ -2,6 +2,7 @@
 id = "ref/magic-staff/hungering-staff"
 kind = "item"
 title = "Hungering Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Hungering%20Staff"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungering_staff", path = "json/magic_staff.json" },

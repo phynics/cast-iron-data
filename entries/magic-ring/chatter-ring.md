@@ -2,6 +2,7 @@
 id = "ref/magic-ring/chatter-ring"
 kind = "item"
 title = "Chatter Ring"
+aon = "MagicCursedDisplay.aspx?ItemName=Chatter%20Ring"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chatter_ring", path = "json/magic_ring.json" },

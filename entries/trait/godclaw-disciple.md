@@ -2,6 +2,7 @@
 id = "ref/trait/godclaw-disciple"
 kind = "trait"
 title = "Godclaw Disciple"
+aon = "TraitDisplay.aspx?ItemName=Godclaw%20Disciple"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godclaw_disciple", path = "json/traits01.json" },

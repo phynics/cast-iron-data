@@ -2,6 +2,7 @@
 id = "ref/spell/spirit-bonds"
 kind = "spell"
 title = "Spirit Bonds"
+aon = "SpellDisplay.aspx?ItemName=Spirit%20Bonds"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_bonds", path = "json/spells9.json" },

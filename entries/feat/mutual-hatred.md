@@ -2,6 +2,7 @@
 id = "ref/feat/mutual-hatred"
 kind = "feat"
 title = "Mutual Hatred"
+aon = "FeatDisplay.aspx?ItemName=Mutual%20Hatred"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutual_hatred", path = "json/feat11.json" },

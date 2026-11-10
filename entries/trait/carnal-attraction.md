@@ -2,6 +2,7 @@
 id = "ref/trait/carnal-attraction"
 kind = "trait"
 title = "Carnal Attraction"
+aon = "TraitDisplay.aspx?ItemName=Carnal%20Attraction"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnal_attraction", path = "json/traits01.json" },

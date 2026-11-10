@@ -2,6 +2,7 @@
 id = "ref/trait/idealized-campaigner"
 kind = "trait"
 title = "Idealized Campaigner"
+aon = "TraitDisplay.aspx?ItemName=Idealized%20Campaigner"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idealized_campaigner", path = "json/traits05.json" },

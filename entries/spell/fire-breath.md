@@ -2,6 +2,7 @@
 id = "ref/spell/fire-breath"
 kind = "spell"
 title = "Fire Breath"
+aon = "SpellDisplay.aspx?ItemName=Fire%20Breath"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_breath", path = "json/spells4.json" },

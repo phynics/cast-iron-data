@@ -2,6 +2,7 @@
 id = "ref/monster/leech-leech-swarm"
 kind = "creature"
 title = "Leech Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Leech%20Swarm"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leech_leech_swarm", path = "json/monsters34.json" },

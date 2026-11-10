@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/unguent-of-aging"
 kind = "item"
 title = "Unguent of Aging"
+aon = "MagicCursedDisplay.aspx?ItemName=Unguent%20of%20Aging"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unguent_of_aging", path = "json/magic_wondrous_slotless06.json" },

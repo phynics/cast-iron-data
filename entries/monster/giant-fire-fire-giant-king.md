@@ -2,6 +2,7 @@
 id = "ref/monster/giant-fire-fire-giant-king"
 kind = "creature"
 title = "Fire Giant King"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Giant%20King"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant_king", path = "json/monsters11.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/blade-of-mercy"
 kind = "trait"
 title = "Blade of Mercy"
+aon = "TraitDisplay.aspx?ItemName=Blade%20of%20Mercy"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_mercy", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/thuvian-alchemist"
 kind = "prestige_class"
 title = "Thuvian Alchemist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Thuvian%20Alchemist"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thuvian_alchemist", path = "json/prestige_classes3.json" },

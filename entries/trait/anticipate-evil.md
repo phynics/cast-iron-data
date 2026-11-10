@@ -2,6 +2,7 @@
 id = "ref/trait/anticipate-evil"
 kind = "trait"
 title = "Anticipate Evil"
+aon = "TraitDisplay.aspx?ItemName=Anticipate%20Evil"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_evil", path = "json/traits05.json" },

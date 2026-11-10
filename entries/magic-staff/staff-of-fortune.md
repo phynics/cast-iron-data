@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-fortune"
 kind = "item"
 title = "Staff of Fortune"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Fortune"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_fortune", path = "json/magic_staff.json" },

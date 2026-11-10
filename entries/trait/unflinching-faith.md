@@ -2,6 +2,7 @@
 id = "ref/trait/unflinching-faith"
 kind = "trait"
 title = "Unflinching Faith"
+aon = "TraitDisplay.aspx?ItemName=Unflinching%20Faith"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unflinching_faith", path = "json/traits04.json" },

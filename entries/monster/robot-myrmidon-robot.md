@@ -2,6 +2,7 @@
 id = "ref/monster/robot-myrmidon-robot"
 kind = "creature"
 title = "Myrmidon Robot"
+aon = "MonsterDisplay.aspx?ItemName=Myrmidon%20Robot"
 source_ids = ["bestiary-5", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_myrmidon_robot", path = "json/monsters20.json" },

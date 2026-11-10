@@ -2,6 +2,7 @@
 id = "ref/trait/careful-combatant"
 kind = "trait"
 title = "Careful Combatant"
+aon = "TraitDisplay.aspx?ItemName=Careful%20Combatant"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "careful_combatant", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/hagfish-hopeful"
 kind = "trait"
 title = "Hagfish Hopeful"
+aon = "TraitDisplay.aspx?ItemName=Hagfish%20Hopeful"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hagfish_hopeful", path = "json/traits02.json" },

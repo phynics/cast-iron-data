@@ -2,6 +2,7 @@
 id = "ref/feat/camouflaged-trap"
 kind = "feat"
 title = "Camouflaged Trap"
+aon = "FeatDisplay.aspx?ItemName=Camouflaged%20Trap"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camouflaged_trap", path = "json/feat02.json" },

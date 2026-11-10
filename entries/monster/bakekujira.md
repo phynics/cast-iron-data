@@ -2,6 +2,7 @@
 id = "ref/monster/bakekujira"
 kind = "creature"
 title = "Bakekujira"
+aon = "MonsterDisplay.aspx?ItemName=Bakekujira"
 source_ids = ["bestiary-4", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bakekujira", path = "json/monsters03.json" },

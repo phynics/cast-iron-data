@@ -2,6 +2,7 @@
 id = "ref/monster/bear-grizzly-bear"
 kind = "creature"
 title = "Grizzly Bear"
+aon = "MonsterDisplay.aspx?ItemName=Grizzly%20Bear"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_grizzly_bear", path = "json/monsters03.json" },

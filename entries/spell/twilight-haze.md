@@ -2,6 +2,7 @@
 id = "ref/spell/twilight-haze"
 kind = "spell"
 title = "Twilight Haze"
+aon = "SpellDisplay.aspx?ItemName=Twilight%20Haze"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_haze", path = "json/spells10.json" },

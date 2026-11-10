@@ -2,6 +2,7 @@
 id = "ref/feat/decoys-misdirection"
 kind = "feat"
 title = "Decoy's Misdirection"
+aon = "FeatDisplay.aspx?ItemName=Decoy%27s%20Misdirection"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoys_misdirection", path = "json/feat04.json" },

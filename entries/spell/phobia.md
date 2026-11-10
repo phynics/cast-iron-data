@@ -2,6 +2,7 @@
 id = "ref/spell/phobia"
 kind = "spell"
 title = "Phobia"
+aon = "SpellDisplay.aspx?ItemName=Phobia"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phobia", path = "json/spells7.json" },

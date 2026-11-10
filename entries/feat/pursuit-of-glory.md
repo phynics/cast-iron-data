@@ -2,6 +2,7 @@
 id = "ref/feat/pursuit-of-glory"
 kind = "feat"
 title = "Pursuit of Glory"
+aon = "FeatDisplay.aspx?ItemName=Pursuit%20of%20Glory"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pursuit_of_glory", path = "json/feat12.json" },

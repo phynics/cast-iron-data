@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/petrifying-cloak"
 kind = "item"
 title = "Petrifying Cloak"
+aon = "MagicCursedDisplay.aspx?ItemName=Petrifying%20Cloak"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petrifying_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },

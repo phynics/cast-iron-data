@@ -2,6 +2,7 @@
 id = "ref/spell/stumble-gap"
 kind = "spell"
 title = "Stumble Gap"
+aon = "SpellDisplay.aspx?ItemName=Stumble%20Gap"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stumble_gap", path = "json/spells15.json" },

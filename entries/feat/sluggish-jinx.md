@@ -2,6 +2,7 @@
 id = "ref/feat/sluggish-jinx"
 kind = "feat"
 title = "Sluggish Jinx"
+aon = "FeatDisplay.aspx?ItemName=Sluggish%20Jinx"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sluggish_jinx", path = "json/feat14.json" },

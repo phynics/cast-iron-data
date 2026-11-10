@@ -2,6 +2,7 @@
 id = "ref/arc-magus/deep-marshal"
 kind = "archetype"
 title = "Deep Marshal"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Deep%20Marshal"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_marshal", path = "json/archetypes_magus.json" },

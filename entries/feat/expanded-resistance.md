@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-resistance"
 kind = "feat"
 title = "Expanded Resistance"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Resistance"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_resistance", path = "json/feat06.json" },

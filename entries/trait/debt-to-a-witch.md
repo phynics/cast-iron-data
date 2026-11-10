@@ -2,6 +2,7 @@
 id = "ref/trait/debt-to-a-witch"
 kind = "trait"
 title = "Debt to a Witch"
+aon = "TraitDisplay.aspx?ItemName=Debt%20to%20a%20Witch"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debt_to_a_witch", path = "json/traits04.json" },

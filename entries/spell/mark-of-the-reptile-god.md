@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-the-reptile-god"
 kind = "spell"
 title = "Mark of the Reptile God"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20the%20Reptile%20God"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_the_reptile_god", path = "json/spells6.json" },

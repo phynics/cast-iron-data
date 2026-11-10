@@ -2,6 +2,7 @@
 id = "ref/monster/prismatic-orrery"
 kind = "creature"
 title = "Prismatic Orrery"
+aon = "MonsterDisplay.aspx?ItemName=Prismatic%20Orrery"
 source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_orrery", path = "json/monsters_unique3.json" },

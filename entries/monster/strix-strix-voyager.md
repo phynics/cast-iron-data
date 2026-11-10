@@ -2,6 +2,7 @@
 id = "ref/monster/strix-strix-voyager"
 kind = "creature"
 title = "Strix Voyager"
+aon = "MonsterDisplay.aspx?ItemName=Strix%20Voyager"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix_strix_voyager", path = "json/monsters39.json" },

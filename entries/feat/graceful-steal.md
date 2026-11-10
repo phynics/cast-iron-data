@@ -2,6 +2,7 @@
 id = "ref/feat/graceful-steal"
 kind = "feat"
 title = "Graceful Steal"
+aon = "FeatDisplay.aspx?ItemName=Graceful%20Steal"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graceful_steal", path = "json/feat07.json" },

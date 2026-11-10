@@ -2,6 +2,7 @@
 id = "ref/feat/force-shield-mastery"
 kind = "feat"
 title = "Force Shield Mastery"
+aon = "FeatDisplay.aspx?ItemName=Force%20Shield%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_shield_mastery", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sand-whirlwind-greater"
 kind = "spell"
 title = "Greater Sand Whirlwind"
+aon = "SpellDisplay.aspx?ItemName=Sand%20Whirlwind%2C%20Greater"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_whirlwind_greater", path = "json/spells8.json" },

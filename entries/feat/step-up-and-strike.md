@@ -2,6 +2,7 @@
 id = "ref/feat/step-up-and-strike"
 kind = "feat"
 title = "Step Up and Strike"
+aon = "FeatDisplay.aspx?ItemName=Step%20Up%20and%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_up_and_strike", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wave-master"
 kind = "feat"
 title = "Wave Master"
+aon = "FeatDisplay.aspx?ItemName=Wave%20Master"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_master", path = "json/feat17.json" },

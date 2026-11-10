@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/colluding-scoundrel"
 kind = "archetype"
 title = "Colluding Scoundrel"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Colluding%20Scoundrel"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colluding_scoundrel", path = "json/archetypes_hunter.json" },

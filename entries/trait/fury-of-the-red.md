@@ -2,6 +2,7 @@
 id = "ref/trait/fury-of-the-red"
 kind = "trait"
 title = "Fury of the Red"
+aon = "TraitDisplay.aspx?ItemName=Fury%20of%20the%20Red"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_of_the_red", path = "json/traits01.json" },

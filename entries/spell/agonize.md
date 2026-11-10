@@ -2,6 +2,7 @@
 id = "ref/spell/agonize"
 kind = "spell"
 title = "Agonize"
+aon = "SpellDisplay.aspx?ItemName=Agonize"
 source_ids = ["ultimate-magic", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agonize", path = "json/spells.json" },

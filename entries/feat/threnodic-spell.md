@@ -2,6 +2,7 @@
 id = "ref/feat/threnodic-spell"
 kind = "feat"
 title = "Threnodic Spell"
+aon = "FeatDisplay.aspx?ItemName=Threnodic%20Spell"
 source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threnodic_spell", path = "json/feat16.json" },

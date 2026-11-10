@@ -2,6 +2,7 @@
 id = "ref/spell/grease"
 kind = "spell"
 title = "Grease"
+aon = "SpellDisplay.aspx?ItemName=Grease"
 source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grease", path = "json/spells5.json" },

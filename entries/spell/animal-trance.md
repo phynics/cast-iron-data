@@ -2,6 +2,7 @@
 id = "ref/spell/animal-trance"
 kind = "spell"
 title = "Animal Trance"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Trance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_trance", path = "json/spells.json" },

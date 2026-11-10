@@ -2,6 +2,7 @@
 id = "ref/spell/path-of-the-winds"
 kind = "spell"
 title = "Path of the Winds"
+aon = "SpellDisplay.aspx?ItemName=Path%20of%20the%20Winds"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_the_winds", path = "json/spells7.json" },

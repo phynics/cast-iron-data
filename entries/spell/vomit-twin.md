@@ -2,6 +2,7 @@
 id = "ref/spell/vomit-twin"
 kind = "spell"
 title = "Vomit Twin"
+aon = "SpellDisplay.aspx?ItemName=Vomit%20Twin"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vomit_twin", path = "json/spells11.json" },

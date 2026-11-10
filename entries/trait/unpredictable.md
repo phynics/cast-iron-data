@@ -2,6 +2,7 @@
 id = "ref/trait/unpredictable"
 kind = "trait"
 title = "Unpredictable"
+aon = "TraitDisplay.aspx?ItemName=Unpredictable"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unpredictable", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/black-tentacles"
 kind = "spell"
 title = "Black Tentacles"
+aon = "SpellDisplay.aspx?ItemName=Black%20Tentacles"
 source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_tentacles", path = "json/spells12.json" },

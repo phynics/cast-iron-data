@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/unbreakable"
 kind = "archetype"
 title = "Unbreakable"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Unbreakable"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable", path = "json/archetypes_fighter2.json" },

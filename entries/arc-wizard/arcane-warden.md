@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/arcane-warden"
 kind = "archetype"
 title = "Arcane Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Arcane%20Warden"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_warden", path = "json/archetypes_wizard.json" },

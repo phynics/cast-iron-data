@@ -2,6 +2,7 @@
 id = "ref/spell/golden-guise"
 kind = "spell"
 title = "Golden Guise"
+aon = "SpellDisplay.aspx?ItemName=Golden%20Guise"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_guise", path = "json/spells5.json" },

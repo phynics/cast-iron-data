@@ -2,6 +2,7 @@
 id = "ref/spell/lightning-conductor"
 kind = "spell"
 title = "Lightning Conductor"
+aon = "SpellDisplay.aspx?ItemName=Lightning%20Conductor"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_conductor", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/self-doubting"
 kind = "trait"
 title = "Self-Doubting"
+aon = "TraitDisplay.aspx?ItemName=Self-Doubting"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_doubting", path = "json/traits03.json" },

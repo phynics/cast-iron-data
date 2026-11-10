@@ -2,6 +2,7 @@
 id = "ref/spell/unlife-current"
 kind = "spell"
 title = "Unlife Current"
+aon = "SpellDisplay.aspx?ItemName=Unlife%20Current"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlife_current", path = "json/spells6.json" },

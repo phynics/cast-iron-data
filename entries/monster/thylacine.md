@@ -2,6 +2,7 @@
 id = "ref/monster/thylacine"
 kind = "creature"
 title = "Thylacine"
+aon = "MonsterDisplay.aspx?ItemName=Thylacine"
 source_ids = ["bestiary-3", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thylacine", path = "json/monsters23.json" },

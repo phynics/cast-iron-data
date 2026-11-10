@@ -2,6 +2,7 @@
 id = "ref/trait/gemstone-collector"
 kind = "trait"
 title = "Gemstone Collector"
+aon = "TraitDisplay.aspx?ItemName=Gemstone%20Collector"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gemstone_collector", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/orphaned-by-giants"
 kind = "trait"
 title = "Orphaned by Giants"
+aon = "TraitDisplay.aspx?ItemName=Orphaned%20by%20Giants"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orphaned_by_giants", path = "json/traits02.json" },

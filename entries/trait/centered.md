@@ -2,6 +2,7 @@
 id = "ref/trait/centered"
 kind = "trait"
 title = "Centered"
+aon = "TraitDisplay.aspx?ItemName=Centered"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centered", path = "json/traits03.json" },

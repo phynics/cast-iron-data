@@ -2,6 +2,7 @@
 id = "ref/spell/devolution"
 kind = "spell"
 title = "Devolution"
+aon = "SpellDisplay.aspx?ItemName=Devolution"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devolution", path = "json/spells3.json" },

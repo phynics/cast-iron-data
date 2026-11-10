@@ -2,6 +2,7 @@
 id = "ref/race/syrinx"
 kind = "race"
 title = "Syrinx"
+aon = "RacesDisplay.aspx?ItemName=Syrinx"
 source_ids = ["inner-sea-races", "inner-sea-bestiary"]
 race_group = "other_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-suppression"
 kind = "spell"
 title = "Wall of Suppression"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Suppression"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_suppression", path = "json/spells11.json" },

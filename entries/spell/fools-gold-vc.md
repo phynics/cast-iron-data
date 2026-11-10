@@ -2,6 +2,7 @@
 id = "ref/spell/fools-gold-vc"
 kind = "spell"
 title = "Fool's Gold (VC)"
+aon = "SpellDisplay.aspx?ItemName=Fool%27s%20Gold%20%28VC%29"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_gold_vc", path = "json/spells13.json" },

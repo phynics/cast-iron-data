@@ -2,6 +2,7 @@
 id = "ref/trait/demon-smiter"
 kind = "trait"
 title = "Demon Smiter"
+aon = "TraitDisplay.aspx?ItemName=Demon%20Smiter"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_smiter", path = "json/traits01.json" },

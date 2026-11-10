@@ -2,6 +2,7 @@
 id = "ref/trait/red-mantis-bleeding"
 kind = "trait"
 title = "Red Mantis Bleeding"
+aon = "TraitDisplay.aspx?ItemName=Red%20Mantis%20Bleeding"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_mantis_bleeding", path = "json/traits01.json" },

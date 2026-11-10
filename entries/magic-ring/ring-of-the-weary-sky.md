@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-weary-sky"
 kind = "item"
 title = "Ring of the Weary Sky"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Ring%20of%20the%20Weary%20Sky"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_weary_sky", path = "json/magic_ring.json" },

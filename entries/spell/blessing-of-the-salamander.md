@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-the-salamander"
 kind = "spell"
 title = "Blessing of the Salamander"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20the%20Salamander"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_salamander", path = "json/spells2.json" },

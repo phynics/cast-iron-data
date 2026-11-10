@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/false-medium"
 kind = "archetype"
 title = "False Medium"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20False%20Medium"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_medium", path = "json/archetypes_rogue.json" },

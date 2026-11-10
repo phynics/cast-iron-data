@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/wind-listener"
 kind = "archetype"
 title = "Wind Listener"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Wind%20Listener"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_listener", path = "json/archetypes_wizard.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-artifact/balgorrah"
 kind = "item"
 title = "Balgorrah"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Balgorrah"
 source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balgorrah", path = "json/magic_artifact.json" },

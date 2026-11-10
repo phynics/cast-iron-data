@@ -2,6 +2,7 @@
 id = "ref/trait/freed-slave-andoran"
 kind = "trait"
 title = "Freed Slave (Andoran)"
+aon = "TraitDisplay.aspx?ItemName=Freed%20Slave%20%28Andoran%29"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freed_slave_andoran", path = "json/traits04.json" },

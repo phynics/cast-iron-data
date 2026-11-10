@@ -2,6 +2,7 @@
 id = "ref/feat/nightmare-chains"
 kind = "feat"
 title = "Nightmare Chains"
+aon = "FeatDisplay.aspx?ItemName=Nightmare%20Chains"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_chains", path = "json/feat11.json" },

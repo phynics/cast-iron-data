@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-researcher"
 kind = "trait"
 title = "Arcane Researcher"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Researcher"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_researcher", path = "json/traits02.json" },

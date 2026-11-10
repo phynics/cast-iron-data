@@ -2,6 +2,7 @@
 id = "ref/feat/shapeshifting-hunter"
 kind = "feat"
 title = "Shapeshifting Hunter"
+aon = "FeatDisplay.aspx?ItemName=Shapeshifting%20Hunter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifting_hunter", path = "json/feat14.json" },

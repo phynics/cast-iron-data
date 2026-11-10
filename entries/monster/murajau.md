@@ -2,6 +2,7 @@
 id = "ref/monster/murajau"
 kind = "creature"
 title = "Murajau"
+aon = "MonsterDisplay.aspx?ItemName=Murajau"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murajau", path = "json/monsters17.json" },

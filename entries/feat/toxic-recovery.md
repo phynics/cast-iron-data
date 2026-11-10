@@ -2,6 +2,7 @@
 id = "ref/feat/toxic-recovery"
 kind = "feat"
 title = "Toxic Recovery"
+aon = "FeatDisplay.aspx?ItemName=Toxic%20Recovery"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_recovery", path = "json/feat16.json" },

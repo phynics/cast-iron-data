@@ -2,6 +2,7 @@
 id = "ref/feat/gun-twirling"
 kind = "feat"
 title = "Gun Twirling"
+aon = "FeatDisplay.aspx?ItemName=Gun%20Twirling"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_twirling", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/familiar-link"
 kind = "feat"
 title = "Familiar Link"
+aon = "FeatDisplay.aspx?ItemName=Familiar%20Link"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_link", path = "json/feat06.json" },

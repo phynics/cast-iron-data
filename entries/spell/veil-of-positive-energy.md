@@ -2,6 +2,7 @@
 id = "ref/spell/veil-of-positive-energy"
 kind = "spell"
 title = "Veil of Positive Energy"
+aon = "SpellDisplay.aspx?ItemName=Veil%20of%20Positive%20Energy"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_positive_energy", path = "json/spells11.json" },

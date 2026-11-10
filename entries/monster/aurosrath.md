@@ -2,6 +2,7 @@
 id = "ref/monster/aurosrath"
 kind = "creature"
 title = "Aurosrath"
+aon = "MonsterDisplay.aspx?ItemName=Aurosrath"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aurosrath", path = "json/monsters26.json" },

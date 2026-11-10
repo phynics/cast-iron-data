@@ -2,6 +2,7 @@
 id = "ref/trait/alabaster-odalisque"
 kind = "trait"
 title = "Alabaster Odalisque"
+aon = "TraitDisplay.aspx?ItemName=Alabaster%20Odalisque"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alabaster_odalisque", path = "json/traits04.json" },

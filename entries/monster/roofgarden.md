@@ -2,6 +2,7 @@
 id = "ref/monster/roofgarden"
 kind = "creature"
 title = "Roofgarden"
+aon = "MonsterDisplay.aspx?ItemName=Roofgarden"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roofgarden", path = "json/monsters20.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/vigor"
 kind = "spell"
 title = "Vigor"
+aon = "SpellDisplay.aspx?ItemName=Vigor"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigor", path = "json/spells11.json" },

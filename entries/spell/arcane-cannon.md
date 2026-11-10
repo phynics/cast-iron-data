@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-cannon"
 kind = "spell"
 title = "Arcane Cannon"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Cannon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_cannon", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/perceive-cues"
 kind = "spell"
 title = "Perceive Cues"
+aon = "SpellDisplay.aspx?ItemName=Perceive%20Cues"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perceive_cues", path = "json/spells7.json" },

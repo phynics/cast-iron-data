@@ -2,6 +2,7 @@
 id = "ref/spell/transmute-metal-to-wood"
 kind = "spell"
 title = "Transmute Metal to Wood"
+aon = "SpellDisplay.aspx?ItemName=Transmute%20Metal%20to%20Wood"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_metal_to_wood", path = "json/spells10.json" },

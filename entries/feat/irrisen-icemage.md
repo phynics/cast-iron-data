@@ -2,6 +2,7 @@
 id = "ref/feat/irrisen-icemage"
 kind = "feat"
 title = "Irrisen Icemage"
+aon = "FeatDisplay.aspx?ItemName=Irrisen%20Icemage"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irrisen_icemage", path = "json/feat09.json" },

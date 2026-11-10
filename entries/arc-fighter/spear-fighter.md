@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/spear-fighter"
 kind = "archetype"
 title = "Spear Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Spear%20Fighter"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_fighter", path = "json/archetypes_fighter2.json" },

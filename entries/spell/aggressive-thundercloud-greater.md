@@ -2,6 +2,7 @@
 id = "ref/spell/aggressive-thundercloud-greater"
 kind = "spell"
 title = "Greater Aggressive Thundercloud"
+aon = "SpellDisplay.aspx?ItemName=Aggressive%20Thundercloud%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggressive_thundercloud_greater", path = "json/spells.json" },

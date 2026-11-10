@@ -2,6 +2,7 @@
 id = "ref/spell/firebelly"
 kind = "spell"
 title = "Firebelly"
+aon = "SpellDisplay.aspx?ItemName=Firebelly"
 source_ids = ["inner-sea-gods", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebelly", path = "json/spells4.json" },

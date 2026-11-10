@@ -2,6 +2,7 @@
 id = "ref/trait/sacred-orienteer"
 kind = "trait"
 title = "Sacred Orienteer"
+aon = "TraitDisplay.aspx?ItemName=Sacred%20Orienteer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_orienteer", path = "json/traits03.json" },

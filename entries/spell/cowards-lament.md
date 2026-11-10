@@ -2,6 +2,7 @@
 id = "ref/spell/cowards-lament"
 kind = "spell"
 title = "Coward's Lament"
+aon = "SpellDisplay.aspx?ItemName=Coward%27s%20Lament"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowards_lament", path = "json/spells12.json" },

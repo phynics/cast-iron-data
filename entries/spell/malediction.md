@@ -2,6 +2,7 @@
 id = "ref/spell/malediction"
 kind = "spell"
 title = "Malediction"
+aon = "SpellDisplay.aspx?ItemName=Malediction"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malediction", path = "json/spells6.json" },

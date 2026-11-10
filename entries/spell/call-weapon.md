@@ -2,6 +2,7 @@
 id = "ref/spell/call-weapon"
 kind = "spell"
 title = "Call Weapon"
+aon = "SpellDisplay.aspx?ItemName=Call%20Weapon"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_weapon", path = "json/spells2.json" },

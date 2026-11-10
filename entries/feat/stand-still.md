@@ -2,6 +2,7 @@
 id = "ref/feat/stand-still"
 kind = "feat"
 title = "Stand Still"
+aon = "FeatDisplay.aspx?ItemName=Stand%20Still"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stand_still", path = "json/feat15.json" },

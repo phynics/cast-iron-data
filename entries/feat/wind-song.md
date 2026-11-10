@@ -2,6 +2,7 @@
 id = "ref/feat/wind-song"
 kind = "feat"
 title = "Wind Song"
+aon = "FeatDisplay.aspx?ItemName=Wind%20Song"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_song", path = "json/feat17.json" },

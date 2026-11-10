@@ -2,6 +2,7 @@
 id = "ref/feat/create-enhanced-firearm"
 kind = "feat"
 title = "Create Enhanced Firearm"
+aon = "FeatDisplay.aspx?ItemName=Create%20Enhanced%20Firearm"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_enhanced_firearm", path = "json/feat03.json" },

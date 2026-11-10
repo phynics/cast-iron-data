@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/spell-sage"
 kind = "archetype"
 title = "Spell Sage"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Spell%20Sage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_sage", path = "json/archetypes_wizard.json" },

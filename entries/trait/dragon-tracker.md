@@ -2,6 +2,7 @@
 id = "ref/trait/dragon-tracker"
 kind = "trait"
 title = "Dragon Tracker"
+aon = "TraitDisplay.aspx?ItemName=Dragon%20Tracker"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_tracker", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/two-weapon-rend"
 kind = "feat"
 title = "Two-Weapon Rend"
+aon = "FeatDisplay.aspx?ItemName=Two-Weapon%20Rend"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_rend", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/merchants-child"
 kind = "trait"
 title = "Merchant's Child"
+aon = "TraitDisplay.aspx?ItemName=Merchant%27s%20Child"
 source_ids = ["inner-sea-primer", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merchants_child", path = "json/traits04.json" },

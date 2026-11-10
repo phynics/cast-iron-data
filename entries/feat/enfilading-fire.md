@@ -2,6 +2,7 @@
 id = "ref/feat/enfilading-fire"
 kind = "feat"
 title = "Enfilading Fire"
+aon = "FeatDisplay.aspx?ItemName=Enfilading%20Fire"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enfilading_fire", path = "json/feat05.json" },

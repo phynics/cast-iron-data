@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-the-mole"
 kind = "spell"
 title = "Blessing of the Mole"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20the%20Mole"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_mole", path = "json/spells2.json" },

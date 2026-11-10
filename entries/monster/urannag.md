@@ -2,6 +2,7 @@
 id = "ref/monster/urannag"
 kind = "creature"
 title = "Urannag"
+aon = "MonsterDisplay.aspx?ItemName=Urannag"
 source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urannag", path = "json/monsters24.json" },

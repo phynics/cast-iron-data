@@ -2,6 +2,7 @@
 id = "ref/trait/outsider-ties"
 kind = "trait"
 title = "Outsider Ties"
+aon = "TraitDisplay.aspx?ItemName=Outsider%20Ties"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outsider_ties", path = "json/traits02.json" },

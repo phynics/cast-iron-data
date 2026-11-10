@@ -2,6 +2,7 @@
 id = "ref/feat/siege-commander"
 kind = "feat"
 title = "Siege Commander"
+aon = "FeatDisplay.aspx?ItemName=Siege%20Commander"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_commander", path = "json/feat14.json" },

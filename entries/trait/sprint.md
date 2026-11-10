@@ -2,6 +2,7 @@
 id = "ref/trait/sprint"
 kind = "trait"
 title = "Sprint"
+aon = "TraitDisplay.aspx?ItemName=Sprint"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprint", path = "json/traits01.json" },

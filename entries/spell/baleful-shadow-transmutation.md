@@ -2,6 +2,7 @@
 id = "ref/spell/baleful-shadow-transmutation"
 kind = "spell"
 title = "Baleful Shadow Transmutation"
+aon = "SpellDisplay.aspx?ItemName=Baleful%20Shadow%20Transmutation"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_shadow_transmutation", path = "json/spells12.json" },

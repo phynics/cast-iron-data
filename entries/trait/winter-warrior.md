@@ -2,6 +2,7 @@
 id = "ref/trait/winter-warrior"
 kind = "trait"
 title = "Winter Warrior"
+aon = "TraitDisplay.aspx?ItemName=Winter%20Warrior"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_warrior", path = "json/traits04.json" },

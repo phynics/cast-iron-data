@@ -2,6 +2,7 @@
 id = "ref/feat/greater-elemental-focus"
 kind = "feat"
 title = "Greater Elemental Focus"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Elemental%20Focus"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_elemental_focus", path = "json/feat08.json" },

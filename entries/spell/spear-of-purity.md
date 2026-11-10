@@ -2,6 +2,7 @@
 id = "ref/spell/spear-of-purity"
 kind = "spell"
 title = "Spear of Purity"
+aon = "SpellDisplay.aspx?ItemName=Spear%20of%20Purity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_of_purity", path = "json/spells9.json" },

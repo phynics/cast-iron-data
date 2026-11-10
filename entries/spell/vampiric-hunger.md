@@ -2,6 +2,7 @@
 id = "ref/spell/vampiric-hunger"
 kind = "spell"
 title = "Vampiric Hunger"
+aon = "SpellDisplay.aspx?ItemName=Vampiric%20Hunger"
 source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_hunger", path = "json/spells11.json" },

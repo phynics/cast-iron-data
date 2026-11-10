@@ -2,6 +2,7 @@
 id = "ref/race/yaddithian"
 kind = "race"
 title = "Yaddithian"
+aon = "RacesDisplay.aspx?ItemName=Yaddithian"
 source_ids = ["bestiary-6"]
 race_group = "other_race"
 provenance = [

@@ -2,6 +2,7 @@
 id = "ref/trait/alchemical-intuition"
 kind = "trait"
 title = "Alchemical Intuition"
+aon = "TraitDisplay.aspx?ItemName=Alchemical%20Intuition"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_intuition", path = "json/traits02.json" },

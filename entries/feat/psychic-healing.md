@@ -2,6 +2,7 @@
 id = "ref/feat/psychic-healing"
 kind = "feat"
 title = "Psychic Healing"
+aon = "FeatDisplay.aspx?ItemName=Psychic%20Healing"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_healing", path = "json/feat12.json" },

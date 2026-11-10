@@ -2,6 +2,7 @@
 id = "ref/feat/thrill-of-the-hunt"
 kind = "feat"
 title = "Thrill of the Hunt"
+aon = "FeatDisplay.aspx?ItemName=Thrill%20of%20the%20Hunt"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrill_of_the_hunt", path = "json/feat16.json" },

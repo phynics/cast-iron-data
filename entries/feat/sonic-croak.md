@@ -2,6 +2,7 @@
 id = "ref/feat/sonic-croak"
 kind = "feat"
 title = "Sonic Croak"
+aon = "FeatDisplay.aspx?ItemName=Sonic%20Croak"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_croak", path = "json/feat14.json" },

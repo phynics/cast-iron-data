@@ -2,6 +2,7 @@
 id = "ref/feat/totemic-disciple"
 kind = "feat"
 title = "Totemic Disciple"
+aon = "FeatDisplay.aspx?ItemName=Totemic%20Disciple"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totemic_disciple", path = "json/feat16.json" },

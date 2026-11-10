@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/knight-of-the-sepulcher"
 kind = "archetype"
 title = "Knight of the Sepulcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Knight%20of%20the%20Sepulcher"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_the_sepulcher", path = "json/archetypes_antipaladin.json" },

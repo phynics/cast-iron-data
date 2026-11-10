@@ -2,6 +2,7 @@
 id = "ref/trait/stigmatized"
 kind = "trait"
 title = "Stigmatized"
+aon = "TraitDisplay.aspx?ItemName=Stigmatized"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stigmatized", path = "json/traits03.json" },

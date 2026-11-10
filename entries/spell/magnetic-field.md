@@ -2,6 +2,7 @@
 id = "ref/spell/magnetic-field"
 kind = "spell"
 title = "Magnetic Field"
+aon = "SpellDisplay.aspx?ItemName=Magnetic%20Field"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnetic_field", path = "json/spells6.json" },

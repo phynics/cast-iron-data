@@ -2,6 +2,7 @@
 id = "ref/trait/fierce-flanker"
 kind = "trait"
 title = "Fierce Flanker"
+aon = "TraitDisplay.aspx?ItemName=Fierce%20Flanker"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fierce_flanker", path = "json/traits05.json" },

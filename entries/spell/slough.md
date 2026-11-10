@@ -2,6 +2,7 @@
 id = "ref/spell/slough"
 kind = "spell"
 title = "Slough"
+aon = "SpellDisplay.aspx?ItemName=Slough"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slough", path = "json/spells9.json" },

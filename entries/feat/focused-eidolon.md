@@ -2,6 +2,7 @@
 id = "ref/feat/focused-eidolon"
 kind = "feat"
 title = "Focused Eidolon"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Eidolon"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_eidolon", path = "json/feat07.json" },

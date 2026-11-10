@@ -2,6 +2,7 @@
 id = "ref/spell/reinforce-armaments"
 kind = "spell"
 title = "Reinforce Armaments"
+aon = "SpellDisplay.aspx?ItemName=Reinforce%20Armaments"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforce_armaments", path = "json/spells8.json" },

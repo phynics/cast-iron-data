@@ -2,6 +2,7 @@
 id = "ref/pclass/proctor"
 kind = "prestige_class"
 title = "Proctor"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Proctor"
 source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proctor", path = "json/prestige_classes4.json" },

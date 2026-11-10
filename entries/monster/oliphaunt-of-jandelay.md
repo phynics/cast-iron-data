@@ -2,6 +2,7 @@
 id = "ref/monster/oliphaunt-of-jandelay"
 kind = "creature"
 title = "Oliphaunt of Jandelay"
+aon = "MonsterDisplay.aspx?ItemName=Oliphaunt%20of%20Jandelay"
 source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oliphaunt_of_jandelay", path = "json/monsters_unique3.json" },

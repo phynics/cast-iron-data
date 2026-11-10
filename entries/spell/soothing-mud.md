@@ -2,6 +2,7 @@
 id = "ref/spell/soothing-mud"
 kind = "spell"
 title = "Soothing Mud"
+aon = "SpellDisplay.aspx?ItemName=Soothing%20Mud"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_mud", path = "json/spells9.json" },

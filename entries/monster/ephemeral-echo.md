@@ -2,6 +2,7 @@
 id = "ref/monster/ephemeral-echo"
 kind = "creature"
 title = "Ephemeral Echo"
+aon = "MonsterDisplay.aspx?ItemName=Ephemeral%20Echo"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ephemeral_echo", path = "json/monsters42.json" },

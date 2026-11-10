@@ -2,6 +2,7 @@
 id = "ref/spell/getaway"
 kind = "spell"
 title = "Getaway"
+aon = "SpellDisplay.aspx?ItemName=Getaway"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getaway", path = "json/spells13.json" },

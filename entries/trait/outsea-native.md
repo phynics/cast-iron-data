@@ -2,6 +2,7 @@
 id = "ref/trait/outsea-native"
 kind = "trait"
 title = "Outsea Native"
+aon = "TraitDisplay.aspx?ItemName=Outsea%20Native"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outsea_native", path = "json/traits04.json" },

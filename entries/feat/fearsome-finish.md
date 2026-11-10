@@ -2,6 +2,7 @@
 id = "ref/feat/fearsome-finish"
 kind = "feat"
 title = "Fearsome Finish"
+aon = "FeatDisplay.aspx?ItemName=Fearsome%20Finish"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_finish", path = "json/feat07.json" },

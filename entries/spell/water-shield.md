@@ -2,6 +2,7 @@
 id = "ref/spell/water-shield"
 kind = "spell"
 title = "Water Shield"
+aon = "SpellDisplay.aspx?ItemName=Water%20Shield"
 source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_shield", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/devil-belier-devil-bdellavritra"
 kind = "creature"
 title = "Belier Devil (Bdellavritra)"
+aon = "MonsterDisplay.aspx?ItemName=Belier%20Devil%20%28Bdellavritra%29"
 source_ids = ["bestiary-2", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_belier_devil_bdellavritra", path = "json/monsters07.json" },

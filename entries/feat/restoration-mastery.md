@@ -2,6 +2,7 @@
 id = "ref/feat/restoration-mastery"
 kind = "feat"
 title = "Restoration Mastery"
+aon = "FeatDisplay.aspx?ItemName=Restoration%20Mastery"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restoration_mastery", path = "json/feat13.json" },

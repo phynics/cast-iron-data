@@ -2,6 +2,7 @@
 id = "ref/spell/illusory-hoard"
 kind = "spell"
 title = "Illusory Hoard"
+aon = "SpellDisplay.aspx?ItemName=Illusory%20Hoard"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_hoard", path = "json/spells14.json" },

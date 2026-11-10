@@ -2,6 +2,7 @@
 id = "ref/spell/mad-hallucination"
 kind = "spell"
 title = "Mad Hallucination"
+aon = "SpellDisplay.aspx?ItemName=Mad%20Hallucination"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_hallucination", path = "json/spells6.json" },

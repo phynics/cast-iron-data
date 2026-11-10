@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/elemental/magma/medium"
 kind = "creature"
 title = "Elemental, Magma, Medium"
+aon = "MonsterDisplay.aspx?ItemName=Medium%20Magma%20Elemental"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Elemental", "Magma"]
 tags = ["outsider", "earth", "elemental", "extraplanar", "fire", "medium"]

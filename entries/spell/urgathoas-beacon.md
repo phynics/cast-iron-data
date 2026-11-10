@@ -2,6 +2,7 @@
 id = "ref/spell/urgathoas-beacon"
 kind = "spell"
 title = "Urgathoa's Beacon"
+aon = "SpellDisplay.aspx?ItemName=Urgathoa%27s%20Beacon"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoas_beacon", path = "json/spells11.json" },

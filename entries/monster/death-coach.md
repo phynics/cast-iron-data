@@ -2,6 +2,7 @@
 id = "ref/monster/death-coach"
 kind = "creature"
 title = "Death Coach"
+aon = "MonsterDisplay.aspx?ItemName=Death%20Coach"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_coach", path = "json/monsters08.json" },

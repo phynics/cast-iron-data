@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/helm-of-ikimizi"
 kind = "item"
 title = "Helm of Ikimizi"
+aon = "MagicCursedDisplay.aspx?ItemName=Helm%20of%20Ikimizi"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_ikimizi", path = "json/magic_wondrous_head_headband.json" },

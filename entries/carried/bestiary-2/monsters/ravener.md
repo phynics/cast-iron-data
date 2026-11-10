@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/ravener"
 kind = "creature"
 title = "Ravener"
+aon = "MonsterDisplay.aspx?ItemName=Ravener"
 source_ids = ["bestiary-2"]
 section = ["Monsters"]
 tags = ["undead", "fire", "gargantuan"]

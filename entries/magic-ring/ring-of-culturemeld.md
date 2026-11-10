@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-culturemeld"
 kind = "item"
 title = "Ring of Culturemeld"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Culturemeld"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_culturemeld", path = "json/magic_ring.json" },

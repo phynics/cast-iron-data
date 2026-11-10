@@ -2,6 +2,7 @@
 id = "ref/feat/brew-potion"
 kind = "feat"
 title = "Brew Potion"
+aon = "FeatDisplay.aspx?ItemName=Brew%20Potion"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brew_potion", path = "json/feat02.json" },

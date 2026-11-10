@@ -2,6 +2,7 @@
 id = "ref/feat/revered-guidance"
 kind = "feat"
 title = "Revered Guidance"
+aon = "FeatDisplay.aspx?ItemName=Revered%20Guidance"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revered_guidance", path = "json/feat13.json" },

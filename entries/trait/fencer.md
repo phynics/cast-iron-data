@@ -2,6 +2,7 @@
 id = "ref/trait/fencer"
 kind = "trait"
 title = "Fencer"
+aon = "TraitDisplay.aspx?ItemName=Fencer"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fencer", path = "json/traits01.json" },

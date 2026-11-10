@@ -2,6 +2,7 @@
 id = "ref/spell/interposing-hand"
 kind = "spell"
 title = "Interposing Hand"
+aon = "SpellDisplay.aspx?ItemName=Interposing%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interposing_hand", path = "json/spells14.json" },

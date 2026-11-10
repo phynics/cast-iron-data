@@ -2,6 +2,7 @@
 id = "ref/feat/expert-driver"
 kind = "feat"
 title = "Expert Driver"
+aon = "FeatDisplay.aspx?ItemName=Expert%20Driver"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_driver", path = "json/feat06.json" },

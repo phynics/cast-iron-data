@@ -2,6 +2,7 @@
 id = "ref/trait/the-word"
 kind = "trait"
 title = "The Word"
+aon = "TraitDisplay.aspx?ItemName=The%20Word"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_word", path = "json/traits03.json" },

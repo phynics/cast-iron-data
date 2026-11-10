@@ -2,6 +2,7 @@
 id = "ref/feat/engulf-revulsion"
 kind = "feat"
 title = "Engulf Revulsion"
+aon = "FeatDisplay.aspx?ItemName=Engulf%20Revulsion"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engulf_revulsion", path = "json/feat05.json" },

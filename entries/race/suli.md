@@ -2,6 +2,7 @@
 id = "ref/race/suli"
 kind = "race"
 title = "Suli"
+aon = "RacesDisplay.aspx?ItemName=Suli"
 source_ids = ["inner-sea-races", "bestiary-3", "qadira-gateway-to-the-east", "advanced-race-guide"]
 race_group = "uncommon_race"
 provenance = [

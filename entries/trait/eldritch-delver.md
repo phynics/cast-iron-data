@@ -2,6 +2,7 @@
 id = "ref/trait/eldritch-delver"
 kind = "trait"
 title = "Eldritch Delver"
+aon = "TraitDisplay.aspx?ItemName=Eldritch%20Delver"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_delver", path = "json/traits02.json" },

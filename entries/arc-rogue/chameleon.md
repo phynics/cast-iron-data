@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/chameleon"
 kind = "archetype"
 title = "Chameleon"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Chameleon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon", path = "json/archetypes_rogue.json" },

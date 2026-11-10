@@ -2,6 +2,7 @@
 id = "ref/spell/murderous-crow"
 kind = "spell"
 title = "Murderous Crow"
+aon = "SpellDisplay.aspx?ItemName=Murderous%20Crow"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_crow", path = "json/spells7.json" },

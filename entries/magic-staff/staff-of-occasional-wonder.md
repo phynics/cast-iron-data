@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-occasional-wonder"
 kind = "item"
 title = "Staff of Occasional Wonder"
+aon = "MagicCursedDisplay.aspx?ItemName=Staff%20of%20Occasional%20Wonder"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_occasional_wonder", path = "json/magic_staff.json" },

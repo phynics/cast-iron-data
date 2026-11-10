@@ -2,6 +2,7 @@
 id = "ref/pclass/golden-legionnaire"
 kind = "prestige_class"
 title = "Golden Legionnaire"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Golden%20Legionnaire"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_legionnaire", path = "json/prestige_classes2.json" },

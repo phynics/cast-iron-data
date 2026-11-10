@@ -2,6 +2,7 @@
 id = "ref/trait/cyphermage-backer"
 kind = "trait"
 title = "Cyphermage Backer"
+aon = "TraitDisplay.aspx?ItemName=Cyphermage%20Backer"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphermage_backer", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/master-of-the-sudden-strike"
 kind = "trait"
 title = "Master of the Sudden Strike"
+aon = "TraitDisplay.aspx?ItemName=Master%20of%20the%20Sudden%20Strike"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_the_sudden_strike", path = "json/traits05.json" },

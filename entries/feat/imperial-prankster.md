@@ -2,6 +2,7 @@
 id = "ref/feat/imperial-prankster"
 kind = "feat"
 title = "Imperial Prankster"
+aon = "FeatDisplay.aspx?ItemName=Imperial%20Prankster"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperial_prankster", path = "json/feat08.json" },

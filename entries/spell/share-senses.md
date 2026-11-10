@@ -2,6 +2,7 @@
 id = "ref/spell/share-senses"
 kind = "spell"
 title = "Share Senses"
+aon = "SpellDisplay.aspx?ItemName=Share%20Senses"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_senses", path = "json/spells9.json" },

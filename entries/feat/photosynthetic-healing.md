@@ -2,6 +2,7 @@
 id = "ref/feat/photosynthetic-healing"
 kind = "feat"
 title = "Photosynthetic Healing"
+aon = "FeatDisplay.aspx?ItemName=Photosynthetic%20Healing"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "photosynthetic_healing", path = "json/feat12.json" },

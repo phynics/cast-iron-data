@@ -2,6 +2,7 @@
 id = "ref/feat/superintendent"
 kind = "feat"
 title = "Superintendent"
+aon = "FeatDisplay.aspx?ItemName=Superintendent"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superintendent", path = "json/feat15.json" },

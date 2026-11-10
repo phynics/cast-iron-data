@@ -2,6 +2,7 @@
 id = "ref/feat/sympathetic-rage"
 kind = "feat"
 title = "Sympathetic Rage"
+aon = "FeatDisplay.aspx?ItemName=Sympathetic%20Rage"
 source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_rage", path = "json/feat15.json" },

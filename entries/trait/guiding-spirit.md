@@ -2,6 +2,7 @@
 id = "ref/trait/guiding-spirit"
 kind = "trait"
 title = "Guiding Spirit"
+aon = "TraitDisplay.aspx?ItemName=Guiding%20Spirit"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guiding_spirit", path = "json/traits02.json" },

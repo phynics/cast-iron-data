@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/asmodean-advocate"
 kind = "archetype"
 title = "Asmodean Advocate"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Asmodean%20Advocate"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asmodean_advocate", path = "json/archetypes_cleric.json" },

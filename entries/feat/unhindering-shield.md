@@ -2,6 +2,7 @@
 id = "ref/feat/unhindering-shield"
 kind = "feat"
 title = "Unhindering Shield"
+aon = "FeatDisplay.aspx?ItemName=Unhindering%20Shield"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhindering_shield", path = "json/feat16.json" },

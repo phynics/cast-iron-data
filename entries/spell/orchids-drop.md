@@ -2,6 +2,7 @@
 id = "ref/spell/orchids-drop"
 kind = "spell"
 title = "Orchid's Drop"
+aon = "SpellDisplay.aspx?ItemName=Orchid%27s%20Drop"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orchids_drop", path = "json/spells7.json" },

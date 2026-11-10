@@ -2,6 +2,7 @@
 id = "ref/spell/waves-of-fatigue"
 kind = "spell"
 title = "Waves of Fatigue"
+aon = "SpellDisplay.aspx?ItemName=Waves%20of%20Fatigue"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_fatigue", path = "json/spells11.json" },

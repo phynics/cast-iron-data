@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/eyes-of-blindness"
 kind = "item"
 title = "Eyes of Blindness"
+aon = "MagicCursedDisplay.aspx?ItemName=Eyes%20of%20Blindness"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_blindness", path = "json/magic_wondrous_eyes_feet_hands.json" },

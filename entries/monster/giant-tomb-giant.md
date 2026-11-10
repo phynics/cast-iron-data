@@ -2,6 +2,7 @@
 id = "ref/monster/giant-tomb-giant"
 kind = "creature"
 title = "Tomb Giant"
+aon = "MonsterDisplay.aspx?ItemName=Tomb%20Giant"
 source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_tomb_giant", path = "json/monsters32.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/fish-varisian-hagfish"
 kind = "creature"
 title = "Varisian Hagfish"
+aon = "MonsterDisplay.aspx?ItemName=Varisian%20Hagfish"
 source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_varisian_hagfish", path = "json/monsters10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/strand-of-the-tangled-knot"
 kind = "spell"
 title = "Strand of the Tangled Knot"
+aon = "SpellDisplay.aspx?ItemName=Strand%20of%20the%20Tangled%20Knot"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strand_of_the_tangled_knot", path = "json/spells15.json" },

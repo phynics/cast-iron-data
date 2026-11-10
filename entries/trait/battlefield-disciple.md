@@ -2,6 +2,7 @@
 id = "ref/trait/battlefield-disciple"
 kind = "trait"
 title = "Battlefield Disciple"
+aon = "TraitDisplay.aspx?ItemName=Battlefield%20Disciple"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_disciple", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/distant-delivery"
 kind = "feat"
 title = "Distant Delivery"
+aon = "FeatDisplay.aspx?ItemName=Distant%20Delivery"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distant_delivery", path = "json/feat04.json" },

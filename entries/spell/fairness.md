@@ -2,6 +2,7 @@
 id = "ref/spell/fairness"
 kind = "spell"
 title = "Fairness"
+aon = "SpellDisplay.aspx?ItemName=Fairness"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fairness", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/blood-song"
 kind = "spell"
 title = "Blood Song"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Song"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_song", path = "json/spells2.json" },

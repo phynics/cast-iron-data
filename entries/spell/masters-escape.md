@@ -2,6 +2,7 @@
 id = "ref/spell/masters-escape"
 kind = "spell"
 title = "Master's Escape"
+aon = "SpellDisplay.aspx?ItemName=Master%27s%20Escape"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_escape", path = "json/spells14.json" },

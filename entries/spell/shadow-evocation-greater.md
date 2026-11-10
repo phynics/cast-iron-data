@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-evocation-greater"
 kind = "spell"
 title = "Greater Shadow Evocation"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Evocation%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_evocation_greater", path = "json/spells15.json" },

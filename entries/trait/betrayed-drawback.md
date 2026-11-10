@@ -2,6 +2,7 @@
 id = "ref/trait/betrayed-drawback"
 kind = "trait"
 title = "Betrayed (Drawback)"
+aon = "TraitDisplay.aspx?ItemName=Betrayed%20%28Drawback%29"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayed_drawback", path = "json/traits03.json" },

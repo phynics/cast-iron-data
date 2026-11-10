@@ -2,6 +2,7 @@
 id = "ref/feat/soulless-gaze"
 kind = "feat"
 title = "Soulless Gaze"
+aon = "FeatDisplay.aspx?ItemName=Soulless%20Gaze"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulless_gaze", path = "json/feat14.json" },

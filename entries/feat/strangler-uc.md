@@ -2,6 +2,7 @@
 id = "ref/feat/strangler-uc"
 kind = "feat"
 title = "Strangler (UC)"
+aon = "FeatDisplay.aspx?ItemName=Strangler%20%28UC%29"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangler_uc", path = "json/feat15.json" },

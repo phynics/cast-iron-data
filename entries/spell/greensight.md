@@ -2,6 +2,7 @@
 id = "ref/spell/greensight"
 kind = "spell"
 title = "Greensight"
+aon = "SpellDisplay.aspx?ItemName=Greensight"
 source_ids = ["ultimate-wilderness", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greensight", path = "json/spells5.json" },

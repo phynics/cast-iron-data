@@ -2,6 +2,7 @@
 id = "ref/trait/alien-origins"
 kind = "trait"
 title = "Alien Origins"
+aon = "TraitDisplay.aspx?ItemName=Alien%20Origins"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alien_origins", path = "json/traits04.json" },

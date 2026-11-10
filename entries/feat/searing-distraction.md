@@ -2,6 +2,7 @@
 id = "ref/feat/searing-distraction"
 kind = "feat"
 title = "Searing Distraction"
+aon = "FeatDisplay.aspx?ItemName=Searing%20Distraction"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_distraction", path = "json/feat13.json" },

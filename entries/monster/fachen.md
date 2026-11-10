@@ -2,6 +2,7 @@
 id = "ref/monster/fachen"
 kind = "creature"
 title = "Fachen"
+aon = "MonsterDisplay.aspx?ItemName=Fachen"
 source_ids = ["bestiary-4", "pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fachen", path = "json/monsters06.json" },

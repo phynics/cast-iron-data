@@ -2,6 +2,7 @@
 id = "ref/feat/arcane-strike"
 kind = "feat"
 title = "Arcane Strike"
+aon = "FeatDisplay.aspx?ItemName=Arcane%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_strike", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/geomaw"
 kind = "creature"
 title = "Geomaw"
+aon = "MonsterDisplay.aspx?ItemName=Geomaw"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geomaw", path = "json/monsters11.json" },

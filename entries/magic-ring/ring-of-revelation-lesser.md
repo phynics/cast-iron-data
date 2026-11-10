@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-revelation-lesser"
 kind = "item"
 title = "Ring of Revelation (lesser)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Revelationlesser"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_revelation_lesser", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/venomous-stare"
 kind = "feat"
 title = "Venomous Stare"
+aon = "FeatDisplay.aspx?ItemName=Venomous%20Stare"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_stare", path = "json/feat17.json" },

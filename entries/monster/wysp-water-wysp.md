@@ -2,6 +2,7 @@
 id = "ref/monster/wysp-water-wysp"
 kind = "creature"
 title = "Water Wysp"
+aon = "MonsterDisplay.aspx?ItemName=Water%20Wysp"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wysp_water_wysp", path = "json/monsters41.json" },

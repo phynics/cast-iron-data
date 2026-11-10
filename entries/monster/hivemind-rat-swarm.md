@@ -2,6 +2,7 @@
 id = "ref/monster/hivemind-rat-swarm"
 kind = "creature"
 title = "Hivemind Rat Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Hivemind%20Rat%20Swarm"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hivemind_rat_swarm", path = "json/monsters13.json" },

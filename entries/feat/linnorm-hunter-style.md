@@ -2,6 +2,7 @@
 id = "ref/feat/linnorm-hunter-style"
 kind = "feat"
 title = "Linnorm Hunter Style"
+aon = "FeatDisplay.aspx?ItemName=Linnorm%20Hunter%20Style"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_hunter_style", path = "json/feat10.json" },

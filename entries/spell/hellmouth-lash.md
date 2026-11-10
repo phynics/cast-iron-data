@@ -2,6 +2,7 @@
 id = "ref/spell/hellmouth-lash"
 kind = "spell"
 title = "Hellmouth Lash"
+aon = "SpellDisplay.aspx?ItemName=Hellmouth%20Lash"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellmouth_lash", path = "json/spells5.json" },

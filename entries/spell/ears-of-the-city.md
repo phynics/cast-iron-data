@@ -2,6 +2,7 @@
 id = "ref/spell/ears-of-the-city"
 kind = "spell"
 title = "Ears of the City"
+aon = "SpellDisplay.aspx?ItemName=Ears%20of%20the%20City"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ears_of_the_city", path = "json/spells13.json" },

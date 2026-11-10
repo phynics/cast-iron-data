@@ -2,6 +2,7 @@
 id = "ref/spell/strangling-hair"
 kind = "spell"
 title = "Strangling Hair"
+aon = "SpellDisplay.aspx?ItemName=Strangling%20Hair"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangling_hair", path = "json/spells15.json" },

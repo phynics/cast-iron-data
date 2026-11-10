@@ -2,6 +2,7 @@
 id = "ref/monster/impaler-shrike"
 kind = "creature"
 title = "Impaler Shrike"
+aon = "MonsterDisplay.aspx?ItemName=Impaler%20Shrike"
 source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaler_shrike", path = "json/monsters14.json" },

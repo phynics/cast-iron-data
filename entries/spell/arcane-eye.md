@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-eye"
 kind = "spell"
 title = "Arcane Eye"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Eye"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_eye", path = "json/spells.json" },

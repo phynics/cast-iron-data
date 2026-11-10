@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/velvet-blade"
 kind = "archetype"
 title = "Velvet Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Velvet%20Blade"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "velvet_blade", path = "json/archetypes_slayer.json" },

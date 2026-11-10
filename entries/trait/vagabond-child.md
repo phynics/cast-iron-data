@@ -2,6 +2,7 @@
 id = "ref/trait/vagabond-child"
 kind = "trait"
 title = "Vagabond Child"
+aon = "TraitDisplay.aspx?ItemName=Vagabond%20Child"
 source_ids = ["ultimate-campaign", "taldor-echoes-of-glory", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vagabond_child", path = "json/traits04.json" },

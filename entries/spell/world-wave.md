@@ -2,6 +2,7 @@
 id = "ref/spell/world-wave"
 kind = "spell"
 title = "World Wave"
+aon = "SpellDisplay.aspx?ItemName=World%20Wave"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_wave", path = "json/spells16.json" },

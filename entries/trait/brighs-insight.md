@@ -2,6 +2,7 @@
 id = "ref/trait/brighs-insight"
 kind = "trait"
 title = "Brigh's Insight"
+aon = "TraitDisplay.aspx?ItemName=Brigh%27s%20Insight"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brighs_insight", path = "json/traits03.json" },

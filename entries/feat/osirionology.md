@@ -2,6 +2,7 @@
 id = "ref/feat/osirionology"
 kind = "feat"
 title = "Osirionology"
+aon = "FeatDisplay.aspx?ItemName=Osirionology"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osirionology", path = "json/feat11.json" },

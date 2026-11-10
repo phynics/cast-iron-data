@@ -2,6 +2,7 @@
 id = "ref/spell/deivons-parry"
 kind = "spell"
 title = "Deivon's Parry"
+aon = "SpellDisplay.aspx?ItemName=Deivon%27s%20Parry"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deivons_parry", path = "json/spells3.json" },

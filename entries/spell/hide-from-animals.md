@@ -2,6 +2,7 @@
 id = "ref/spell/hide-from-animals"
 kind = "spell"
 title = "Hide from Animals"
+aon = "SpellDisplay.aspx?ItemName=Hide%20from%20Animals"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_animals", path = "json/spells5.json" },

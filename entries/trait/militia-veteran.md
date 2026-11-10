@@ -2,6 +2,7 @@
 id = "ref/trait/militia-veteran"
 kind = "trait"
 title = "Militia Veteran"
+aon = "TraitDisplay.aspx?ItemName=Militia%20Veteran"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militia_veteran", path = "json/traits04.json" },

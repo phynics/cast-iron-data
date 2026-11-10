@@ -2,6 +2,7 @@
 id = "ref/feat/persuasive-performer"
 kind = "feat"
 title = "Persuasive Performer"
+aon = "FeatDisplay.aspx?ItemName=Persuasive%20Performer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persuasive_performer", path = "json/feat12.json" },

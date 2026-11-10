@@ -2,6 +2,7 @@
 id = "ref/trait/preternatural-awareness"
 kind = "trait"
 title = "Preternatural Awareness"
+aon = "TraitDisplay.aspx?ItemName=Preternatural%20Awareness"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preternatural_awareness", path = "json/traits01.json" },

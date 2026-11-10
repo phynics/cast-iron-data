@@ -2,6 +2,7 @@
 id = "ref/monster/yah-thelgaad"
 kind = "creature"
 title = "Yah-Thelgaad"
+aon = "MonsterDisplay.aspx?ItemName=Yah-Thelgaad"
 source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yah_thelgaad", path = "json/monsters41.json" },

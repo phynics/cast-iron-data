@@ -2,6 +2,7 @@
 id = "ref/spell/command"
 kind = "spell"
 title = "Command"
+aon = "SpellDisplay.aspx?ItemName=Command"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command", path = "json/spells12.json" },

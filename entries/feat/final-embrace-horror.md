@@ -2,6 +2,7 @@
 id = "ref/feat/final-embrace-horror"
 kind = "feat"
 title = "Final Embrace Horror"
+aon = "FeatDisplay.aspx?ItemName=Final%20Embrace%20Horror"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace_horror", path = "json/feat07.json" },

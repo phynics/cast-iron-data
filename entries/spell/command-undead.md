@@ -2,6 +2,7 @@
 id = "ref/spell/command-undead"
 kind = "spell"
 title = "Command Undead"
+aon = "SpellDisplay.aspx?ItemName=Command%20Undead"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_undead", path = "json/spells12.json" },

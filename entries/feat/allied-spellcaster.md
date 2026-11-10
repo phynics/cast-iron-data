@@ -2,6 +2,7 @@
 id = "ref/feat/allied-spellcaster"
 kind = "feat"
 title = "Allied Spellcaster"
+aon = "FeatDisplay.aspx?ItemName=Allied%20Spellcaster"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allied_spellcaster", path = "json/feat01.json" },

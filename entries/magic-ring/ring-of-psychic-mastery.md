@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-psychic-mastery"
 kind = "item"
 title = "Ring of Psychic Mastery"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Psychic%20Mastery"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_psychic_mastery", path = "json/magic_ring.json" },

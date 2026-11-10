@@ -2,6 +2,7 @@
 id = "ref/feat/living-fortress"
 kind = "feat"
 title = "Living Fortress"
+aon = "FeatDisplay.aspx?ItemName=Living%20Fortress"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_fortress", path = "json/feat10.json" },

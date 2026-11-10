@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/hag-haunted"
 kind = "archetype"
 title = "Hag-Haunted"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Hag-Haunted"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_haunted", path = "json/archetypes_spiritualist.json" },

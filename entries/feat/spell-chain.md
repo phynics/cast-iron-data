@@ -2,6 +2,7 @@
 id = "ref/feat/spell-chain"
 kind = "feat"
 title = "Spell Chain"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Chain"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_chain", path = "json/feat14.json" },

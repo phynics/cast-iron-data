@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/ferocious-hunter"
 kind = "archetype"
 title = "Ferocious Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Ferocious%20Hunter"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_hunter", path = "json/archetypes_vigilante.json" },

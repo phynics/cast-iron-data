@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/relic-raider"
 kind = "archetype"
 title = "Relic Raider"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Relic%20Raider"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_raider", path = "json/archetypes_rogue.json" },

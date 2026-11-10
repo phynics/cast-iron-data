@@ -2,6 +2,7 @@
 id = "ref/monster/spider-moon-spider"
 kind = "creature"
 title = "Moon Spider"
+aon = "MonsterDisplay.aspx?ItemName=Moon%20Spider"
 source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_moon_spider", path = "json/monsters39.json" },

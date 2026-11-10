@@ -2,6 +2,7 @@
 id = "ref/monster/ogre-ogre-hunter"
 kind = "creature"
 title = "Ogre Hunter"
+aon = "MonsterDisplay.aspx?ItemName=Ogre%20Hunter"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_ogre_hunter", path = "json/monsters18.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/channel-ray"
 kind = "feat"
 title = "Channel Ray"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Ray"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_ray", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/greater-purpose"
 kind = "trait"
 title = "Greater Purpose"
+aon = "TraitDisplay.aspx?ItemName=Greater%20Purpose"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_purpose", path = "json/traits02.json" },

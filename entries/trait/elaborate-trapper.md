@@ -2,6 +2,7 @@
 id = "ref/trait/elaborate-trapper"
 kind = "trait"
 title = "Elaborate Trapper"
+aon = "TraitDisplay.aspx?ItemName=Elaborate%20Trapper"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elaborate_trapper", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/bloodstone-mirror"
 kind = "spell"
 title = "Bloodstone Mirror"
+aon = "SpellDisplay.aspx?ItemName=Bloodstone%20Mirror"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_mirror", path = "json/spells2.json" },

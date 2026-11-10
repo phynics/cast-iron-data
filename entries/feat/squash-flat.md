@@ -2,6 +2,7 @@
 id = "ref/feat/squash-flat"
 kind = "feat"
 title = "Squash Flat"
+aon = "FeatDisplay.aspx?ItemName=Squash%20Flat"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squash_flat", path = "json/feat15.json" },

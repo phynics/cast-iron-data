@@ -2,6 +2,7 @@
 id = "ref/monster/thremindyr"
 kind = "creature"
 title = "Thremindyr"
+aon = "MonsterDisplay.aspx?ItemName=Thremindyr"
 source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thremindyr", path = "json/monsters23.json" },

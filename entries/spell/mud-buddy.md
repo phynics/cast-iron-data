@@ -2,6 +2,7 @@
 id = "ref/spell/mud-buddy"
 kind = "spell"
 title = "Mud Buddy"
+aon = "SpellDisplay.aspx?ItemName=Mud%20Buddy"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_buddy", path = "json/spells7.json" },

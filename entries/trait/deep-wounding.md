@@ -2,6 +2,7 @@
 id = "ref/trait/deep-wounding"
 kind = "trait"
 title = "Deep Wounding"
+aon = "TraitDisplay.aspx?ItemName=Deep%20Wounding"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_wounding", path = "json/traits03.json" },

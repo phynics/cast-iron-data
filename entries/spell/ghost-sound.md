@@ -2,6 +2,7 @@
 id = "ref/spell/ghost-sound"
 kind = "spell"
 title = "Ghost Sound"
+aon = "SpellDisplay.aspx?ItemName=Ghost%20Sound"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_sound", path = "json/spells13.json" },

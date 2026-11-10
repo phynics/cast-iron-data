@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/dragonscale-loyalist"
 kind = "archetype"
 title = "Dragonscale Loyalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Dragonscale%20Loyalist"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonscale_loyalist", path = "json/archetypes_vigilante.json" },

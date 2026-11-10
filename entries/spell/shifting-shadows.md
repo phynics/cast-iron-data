@@ -2,6 +2,7 @@
 id = "ref/spell/shifting-shadows"
 kind = "spell"
 title = "Shifting Shadows"
+aon = "SpellDisplay.aspx?ItemName=Shifting%20Shadows"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_shadows", path = "json/spells9.json" },

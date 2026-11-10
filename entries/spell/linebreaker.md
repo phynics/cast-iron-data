@@ -2,6 +2,7 @@
 id = "ref/spell/linebreaker"
 kind = "spell"
 title = "Linebreaker"
+aon = "SpellDisplay.aspx?ItemName=Linebreaker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linebreaker", path = "json/spells6.json" },

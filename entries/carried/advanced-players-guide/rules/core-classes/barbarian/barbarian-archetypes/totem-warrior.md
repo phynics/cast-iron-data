@@ -2,6 +2,7 @@
 id = "ref/carried/advanced-players-guide/rules/core-classes/barbarian/barbarian-archetypes/totem-warrior"
 kind = "archetype"
 title = "Totem Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Totem%20Warrior"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "Core Classes", "Barbarian", "Barbarian Archetypes"]
 tags = ["barbarian"]

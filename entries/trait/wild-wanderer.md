@@ -2,6 +2,7 @@
 id = "ref/trait/wild-wanderer"
 kind = "trait"
 title = "Wild Wanderer"
+aon = "TraitDisplay.aspx?ItemName=Wild%20Wanderer"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_wanderer", path = "json/traits04.json" },

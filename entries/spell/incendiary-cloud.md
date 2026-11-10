@@ -2,6 +2,7 @@
 id = "ref/spell/incendiary-cloud"
 kind = "spell"
 title = "Incendiary Cloud"
+aon = "SpellDisplay.aspx?ItemName=Incendiary%20Cloud"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incendiary_cloud", path = "json/spells14.json" },

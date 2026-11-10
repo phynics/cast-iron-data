@@ -2,6 +2,7 @@
 id = "ref/spell/glitterdust"
 kind = "spell"
 title = "Glitterdust"
+aon = "SpellDisplay.aspx?ItemName=Glitterdust"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glitterdust", path = "json/spells5.json" },

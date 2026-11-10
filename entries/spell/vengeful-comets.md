@@ -2,6 +2,7 @@
 id = "ref/spell/vengeful-comets"
 kind = "spell"
 title = "Vengeful Comets"
+aon = "SpellDisplay.aspx?ItemName=Vengeful%20Comets"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_comets", path = "json/spells11.json" },

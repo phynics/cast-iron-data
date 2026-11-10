@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-auras"
 kind = "spell"
 title = "Bestow Auras"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Auras"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_auras", path = "json/spells12.json" },

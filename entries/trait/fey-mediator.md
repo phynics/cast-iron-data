@@ -2,6 +2,7 @@
 id = "ref/trait/fey-mediator"
 kind = "trait"
 title = "Fey Mediator"
+aon = "TraitDisplay.aspx?ItemName=Fey%20Mediator"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_mediator", path = "json/traits04.json" },

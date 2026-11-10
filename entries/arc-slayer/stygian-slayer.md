@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/stygian-slayer"
 kind = "archetype"
 title = "Stygian Slayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Stygian%20Slayer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygian_slayer", path = "json/archetypes_slayer.json" },

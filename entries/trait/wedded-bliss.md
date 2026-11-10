@@ -2,6 +2,7 @@
 id = "ref/trait/wedded-bliss"
 kind = "trait"
 title = "Wedded Bliss"
+aon = "TraitDisplay.aspx?ItemName=Wedded%20Bliss"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wedded_bliss", path = "json/traits03.json" },

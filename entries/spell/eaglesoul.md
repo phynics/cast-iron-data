@@ -2,6 +2,7 @@
 id = "ref/spell/eaglesoul"
 kind = "spell"
 title = "Eaglesoul"
+aon = "SpellDisplay.aspx?ItemName=Eaglesoul"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eaglesoul", path = "json/spells13.json" },

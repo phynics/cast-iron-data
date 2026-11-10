@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/carnivorous-jar"
 kind = "item"
 title = "Carnivorous Jar"
+aon = "MagicCursedDisplay.aspx?ItemName=Carnivorous%20Jar"
 source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivorous_jar", path = "json/magic_wondrous_slotless01.json" },

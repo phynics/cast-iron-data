@@ -2,6 +2,7 @@
 id = "ref/monster/kapre"
 kind = "creature"
 title = "Kapre"
+aon = "MonsterDisplay.aspx?ItemName=Kapre"
 source_ids = ["bestiary-4", "pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kapre", path = "json/monsters15.json" },

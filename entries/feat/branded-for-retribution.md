@@ -2,6 +2,7 @@
 id = "ref/feat/branded-for-retribution"
 kind = "feat"
 title = "Branded for Retribution"
+aon = "FeatDisplay.aspx?ItemName=Branded%20for%20Retribution"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "branded_for_retribution", path = "json/feat02.json" },

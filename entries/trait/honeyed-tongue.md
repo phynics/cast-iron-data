@@ -2,6 +2,7 @@
 id = "ref/trait/honeyed-tongue"
 kind = "trait"
 title = "Honeyed Tongue"
+aon = "TraitDisplay.aspx?ItemName=Honeyed%20Tongue"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honeyed_tongue", path = "json/traits04.json" },

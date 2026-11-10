@@ -2,6 +2,7 @@
 id = "ref/monster/sturzstromer"
 kind = "creature"
 title = "Sturzstromer"
+aon = "MonsterDisplay.aspx?ItemName=Sturzstromer"
 source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sturzstromer", path = "json/monsters38.json" },

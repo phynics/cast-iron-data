@@ -2,6 +2,7 @@
 id = "ref/monster/eurypterid-common-eurypterid"
 kind = "creature"
 title = "Common Eurypterid"
+aon = "MonsterDisplay.aspx?ItemName=Common%20Eurypterid"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_common_eurypterid", path = "json/monsters42.json" },

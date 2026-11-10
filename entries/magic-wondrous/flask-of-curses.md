@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/flask-of-curses"
 kind = "item"
 title = "Flask of Curses"
+aon = "MagicCursedDisplay.aspx?ItemName=Flask%20of%20Curses"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flask_of_curses", path = "json/magic_wondrous_slotless03.json" },

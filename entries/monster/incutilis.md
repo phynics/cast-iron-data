@@ -2,6 +2,7 @@
 id = "ref/monster/incutilis"
 kind = "creature"
 title = "Incutilis"
+aon = "MonsterDisplay.aspx?ItemName=Incutilis"
 source_ids = ["bestiary-4", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incutilis", path = "json/monsters14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/courser"
 kind = "archetype"
 title = "Courser"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Courser"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courser", path = "json/archetypes_swashbuckler.json" },

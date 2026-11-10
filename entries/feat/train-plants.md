@@ -2,6 +2,7 @@
 id = "ref/feat/train-plants"
 kind = "feat"
 title = "Train Plants"
+aon = "FeatDisplay.aspx?ItemName=Train%20Plants"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "train_plants", path = "json/feat16.json" },

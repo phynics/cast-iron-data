@@ -2,6 +2,7 @@
 id = "ref/feat/deaths-host"
 kind = "feat"
 title = "Death's Host"
+aon = "FeatDisplay.aspx?ItemName=Death%27s%20Host"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_host", path = "json/feat04.json" },

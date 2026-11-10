@@ -2,6 +2,7 @@
 id = "ref/feat/seeds-of-doubt"
 kind = "feat"
 title = "Seeds of Doubt"
+aon = "FeatDisplay.aspx?ItemName=Seeds%20of%20Doubt"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeds_of_doubt", path = "json/feat13.json" },

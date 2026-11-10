@@ -2,6 +2,7 @@
 id = "ref/spell/chastise"
 kind = "spell"
 title = "Chastise"
+aon = "SpellDisplay.aspx?ItemName=Chastise"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chastise", path = "json/spells2.json" },

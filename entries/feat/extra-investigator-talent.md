@@ -2,6 +2,7 @@
 id = "ref/feat/extra-investigator-talent"
 kind = "feat"
 title = "Extra Investigator Talent"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Investigator%20Talent"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_investigator_talent", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sense-relationships"
 kind = "feat"
 title = "Sense Relationships"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Relationships"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_relationships", path = "json/feat13.json" },

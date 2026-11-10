@@ -2,6 +2,7 @@
 id = "ref/trait/well-prepared"
 kind = "trait"
 title = "Well-Prepared"
+aon = "TraitDisplay.aspx?ItemName=Well-Prepared"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_prepared", path = "json/traits03.json" },

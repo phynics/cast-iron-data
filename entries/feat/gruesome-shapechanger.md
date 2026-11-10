@@ -2,6 +2,7 @@
 id = "ref/feat/gruesome-shapechanger"
 kind = "feat"
 title = "Gruesome Shapechanger"
+aon = "FeatDisplay.aspx?ItemName=Gruesome%20Shapechanger"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_shapechanger", path = "json/feat08.json" },

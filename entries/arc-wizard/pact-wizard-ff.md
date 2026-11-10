@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/pact-wizard-ff"
 kind = "archetype"
 title = "Pact Wizard (FF)"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Pact%20Wizard%20%28FF%29"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pact_wizard_ff", path = "json/archetypes_wizard.json" },

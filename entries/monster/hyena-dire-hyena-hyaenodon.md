@@ -2,6 +2,7 @@
 id = "ref/monster/hyena-dire-hyena-hyaenodon"
 kind = "creature"
 title = "Dire Hyena (Hyaenodon)"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Hyena%20%28Hyaenodon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyena_dire_hyena_hyaenodon", path = "json/monsters14.json" },

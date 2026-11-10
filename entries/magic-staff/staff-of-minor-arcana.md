@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-minor-arcana"
 kind = "item"
 title = "Staff of Minor Arcana"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Minor%20Arcana"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_minor_arcana", path = "json/magic_staff.json" },

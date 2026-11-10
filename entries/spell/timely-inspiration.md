@@ -2,6 +2,7 @@
 id = "ref/spell/timely-inspiration"
 kind = "spell"
 title = "Timely Inspiration"
+aon = "SpellDisplay.aspx?ItemName=Timely%20Inspiration"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timely_inspiration", path = "json/spells10.json" },

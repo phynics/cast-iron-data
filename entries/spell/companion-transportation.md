@@ -2,6 +2,7 @@
 id = "ref/spell/companion-transportation"
 kind = "spell"
 title = "Companion Transportation"
+aon = "SpellDisplay.aspx?ItemName=Companion%20Transportation"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_transportation", path = "json/spells12.json" },

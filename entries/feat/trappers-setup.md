@@ -2,6 +2,7 @@
 id = "ref/feat/trappers-setup"
 kind = "feat"
 title = "Trapper's Setup"
+aon = "FeatDisplay.aspx?ItemName=Trapper%27s%20Setup"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trappers_setup", path = "json/feat16.json" },

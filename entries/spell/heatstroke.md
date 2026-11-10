@@ -2,6 +2,7 @@
 id = "ref/spell/heatstroke"
 kind = "spell"
 title = "Heatstroke"
+aon = "SpellDisplay.aspx?ItemName=Heatstroke"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heatstroke", path = "json/spells5.json" },

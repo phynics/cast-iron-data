@@ -2,6 +2,7 @@
 id = "ref/feat/vulpine-pounce"
 kind = "feat"
 title = "Vulpine Pounce"
+aon = "FeatDisplay.aspx?ItemName=Vulpine%20Pounce"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulpine_pounce", path = "json/feat17.json" },

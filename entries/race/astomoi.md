@@ -2,6 +2,7 @@
 id = "ref/race/astomoi"
 kind = "race"
 title = "Astomoi"
+aon = "RacesDisplay.aspx?ItemName=Astomoi"
 source_ids = ["bestiary-5"]
 race_group = "other_race"
 provenance = [

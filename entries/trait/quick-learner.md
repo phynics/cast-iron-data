@@ -2,6 +2,7 @@
 id = "ref/trait/quick-learner"
 kind = "trait"
 title = "Quick Learner"
+aon = "TraitDisplay.aspx?ItemName=Quick%20Learner"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_learner", path = "json/traits03.json" },

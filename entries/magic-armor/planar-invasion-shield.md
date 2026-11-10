@@ -2,6 +2,7 @@
 id = "ref/magic-armor/planar-invasion-shield"
 kind = "item"
 title = "Planar Invasion Shield"
+aon = "MagicCursedDisplay.aspx?ItemName=Planar%20Invasion%20Shield"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_invasion_shield", path = "json/magic_armor.json" },

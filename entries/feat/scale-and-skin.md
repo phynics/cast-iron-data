@@ -2,6 +2,7 @@
 id = "ref/feat/scale-and-skin"
 kind = "feat"
 title = "Scale and Skin"
+aon = "FeatDisplay.aspx?ItemName=Scale%20and%20Skin"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scale_and_skin", path = "json/feat13.json" },

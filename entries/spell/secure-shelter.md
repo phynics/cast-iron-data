@@ -2,6 +2,7 @@
 id = "ref/spell/secure-shelter"
 kind = "spell"
 title = "Secure Shelter"
+aon = "SpellDisplay.aspx?ItemName=Secure%20Shelter"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secure_shelter", path = "json/spells15.json" },

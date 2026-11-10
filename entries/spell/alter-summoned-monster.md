@@ -2,6 +2,7 @@
 id = "ref/spell/alter-summoned-monster"
 kind = "spell"
 title = "Alter Summoned Monster"
+aon = "SpellDisplay.aspx?ItemName=Alter%20Summoned%20Monster"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_summoned_monster", path = "json/spells.json" },

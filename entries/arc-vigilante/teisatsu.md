@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/teisatsu"
 kind = "archetype"
 title = "Teisatsu"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Teisatsu"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teisatsu", path = "json/archetypes_vigilante.json" },

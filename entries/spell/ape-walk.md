@@ -2,6 +2,7 @@
 id = "ref/spell/ape-walk"
 kind = "spell"
 title = "Ape Walk"
+aon = "SpellDisplay.aspx?ItemName=Ape%20Walk"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ape_walk", path = "json/spells.json" },

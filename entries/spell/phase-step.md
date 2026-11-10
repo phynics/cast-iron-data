@@ -2,6 +2,7 @@
 id = "ref/spell/phase-step"
 kind = "spell"
 title = "Phase Step"
+aon = "SpellDisplay.aspx?ItemName=Phase%20Step"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_step", path = "json/spells3.json" },

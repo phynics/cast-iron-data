@@ -2,6 +2,7 @@
 id = "ref/trait/candidate-for-perfection"
 kind = "trait"
 title = "Candidate for Perfection"
+aon = "TraitDisplay.aspx?ItemName=Candidate%20for%20Perfection"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "candidate_for_perfection", path = "json/traits04.json" },

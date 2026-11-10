@@ -2,6 +2,7 @@
 id = "ref/spell/collaborative-thaumaturgy"
 kind = "spell"
 title = "Collaborative Thaumaturgy"
+aon = "SpellDisplay.aspx?ItemName=Collaborative%20Thaumaturgy"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collaborative_thaumaturgy", path = "json/spells2.json" },

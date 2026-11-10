@@ -2,6 +2,7 @@
 id = "ref/trait/cultist-lineage"
 kind = "trait"
 title = "Cultist Lineage"
+aon = "TraitDisplay.aspx?ItemName=Cultist%20Lineage"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultist_lineage", path = "json/traits04.json" },

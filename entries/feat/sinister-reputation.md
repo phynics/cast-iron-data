@@ -2,6 +2,7 @@
 id = "ref/feat/sinister-reputation"
 kind = "feat"
 title = "Sinister Reputation"
+aon = "FeatDisplay.aspx?ItemName=Sinister%20Reputation"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinister_reputation", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/time-shudder"
 kind = "spell"
 title = "Time Shudder"
+aon = "SpellDisplay.aspx?ItemName=Time%20Shudder"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_shudder", path = "json/spells10.json" },

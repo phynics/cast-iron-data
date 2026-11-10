@@ -2,6 +2,7 @@
 id = "ref/spell/delayed-consumption"
 kind = "spell"
 title = "Delayed Consumption"
+aon = "SpellDisplay.aspx?ItemName=Delayed%20Consumption"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delayed_consumption", path = "json/spells3.json" },

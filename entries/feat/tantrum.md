@@ -2,6 +2,7 @@
 id = "ref/feat/tantrum"
 kind = "feat"
 title = "Tantrum"
+aon = "FeatDisplay.aspx?ItemName=Tantrum"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tantrum", path = "json/feat16.json" },

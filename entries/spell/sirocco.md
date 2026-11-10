@@ -2,6 +2,7 @@
 id = "ref/spell/sirocco"
 kind = "spell"
 title = "Sirocco"
+aon = "SpellDisplay.aspx?ItemName=Sirocco"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirocco", path = "json/spells9.json" },

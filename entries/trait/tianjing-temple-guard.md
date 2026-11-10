@@ -2,6 +2,7 @@
 id = "ref/trait/tianjing-temple-guard"
 kind = "trait"
 title = "Tianjing Temple Guard"
+aon = "TraitDisplay.aspx?ItemName=Tianjing%20Temple%20Guard"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tianjing_temple_guard", path = "json/traits04.json" },

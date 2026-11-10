@@ -2,6 +2,7 @@
 id = "ref/monster/steam-hog"
 kind = "creature"
 title = "Steam Hog"
+aon = "MonsterDisplay.aspx?ItemName=Steam%20Hog"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_hog", path = "json/monsters38.json" },

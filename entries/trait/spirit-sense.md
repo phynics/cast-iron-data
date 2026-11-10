@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-sense"
 kind = "trait"
 title = "Spirit Sense"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Sense"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_sense", path = "json/traits01.json" },

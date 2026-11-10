@@ -2,6 +2,7 @@
 id = "ref/trait/aballonian-resilience"
 kind = "trait"
 title = "Aballonian Resilience"
+aon = "TraitDisplay.aspx?ItemName=Aballonian%20Resilience"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aballonian_resilience", path = "json/traits04.json" },

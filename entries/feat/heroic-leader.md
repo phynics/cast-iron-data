@@ -2,6 +2,7 @@
 id = "ref/feat/heroic-leader"
 kind = "feat"
 title = "Heroic Leader"
+aon = "FeatDisplay.aspx?ItemName=Heroic%20Leader"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_leader", path = "json/feat08.json" },

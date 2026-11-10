@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/blatherskite"
 kind = "archetype"
 title = "Blatherskite"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Blatherskite"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blatherskite", path = "json/archetypes_gunslinger.json" },

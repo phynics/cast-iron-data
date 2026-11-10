@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/divine-champion"
 kind = "archetype"
 title = "Divine Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Divine%20Champion"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_champion", path = "json/archetypes_warpriest.json" },

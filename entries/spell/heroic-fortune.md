@@ -2,6 +2,7 @@
 id = "ref/spell/heroic-fortune"
 kind = "spell"
 title = "Heroic Fortune"
+aon = "SpellDisplay.aspx?ItemName=Heroic%20Fortune"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_fortune", path = "json/spells5.json" },

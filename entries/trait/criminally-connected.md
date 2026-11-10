@@ -2,6 +2,7 @@
 id = "ref/trait/criminally-connected"
 kind = "trait"
 title = "Criminally Connected"
+aon = "TraitDisplay.aspx?ItemName=Criminally%20Connected"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminally_connected", path = "json/traits01.json" },

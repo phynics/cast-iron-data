@@ -2,6 +2,7 @@
 id = "ref/feat/heros-display"
 kind = "feat"
 title = "Hero's Display"
+aon = "FeatDisplay.aspx?ItemName=Hero%27s%20Display"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_display", path = "json/feat08.json" },

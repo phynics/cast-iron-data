@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/green-faith-marshal"
 kind = "archetype"
 title = "Green Faith Marshal"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Green%20Faith%20Marshal"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith_marshal", path = "json/archetypes_inquisitor.json" },

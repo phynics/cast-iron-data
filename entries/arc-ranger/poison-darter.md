@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/poison-darter"
 kind = "archetype"
 title = "Poison Darter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Poison%20Darter"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_darter", path = "json/archetypes_ranger.json" },

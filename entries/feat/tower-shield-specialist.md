@@ -2,6 +2,7 @@
 id = "ref/feat/tower-shield-specialist"
 kind = "feat"
 title = "Tower Shield Specialist"
+aon = "FeatDisplay.aspx?ItemName=Tower%20Shield%20Specialist"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield_specialist", path = "json/feat16.json" },

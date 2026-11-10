@@ -2,6 +2,7 @@
 id = "ref/spell/realm-retribution"
 kind = "spell"
 title = "Realm Retribution"
+aon = "SpellDisplay.aspx?ItemName=Realm%20Retribution"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "realm_retribution", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/connected-criminal"
 kind = "feat"
 title = "Connected Criminal"
+aon = "FeatDisplay.aspx?ItemName=Connected%20Criminal"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "connected_criminal", path = "json/feat03.json" },

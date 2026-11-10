@@ -2,6 +2,7 @@
 id = "ref/trait/family-connections"
 kind = "trait"
 title = "Family Connections"
+aon = "TraitDisplay.aspx?ItemName=Family%20Connections"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_connections", path = "json/traits05.json" },

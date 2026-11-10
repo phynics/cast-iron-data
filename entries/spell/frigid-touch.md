@@ -2,6 +2,7 @@
 id = "ref/spell/frigid-touch"
 kind = "spell"
 title = "Frigid Touch"
+aon = "SpellDisplay.aspx?ItemName=Frigid%20Touch"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frigid_touch", path = "json/spells13.json" },

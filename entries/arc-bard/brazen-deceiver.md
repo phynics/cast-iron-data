@@ -2,6 +2,7 @@
 id = "ref/arc-bard/brazen-deceiver"
 kind = "archetype"
 title = "Brazen Deceiver"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Brazen%20Deceiver"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brazen_deceiver", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/positive-pulse"
 kind = "spell"
 title = "Positive Pulse"
+aon = "SpellDisplay.aspx?ItemName=Positive%20Pulse"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_pulse", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/wolliped-wolliped-combat-trained"
 kind = "creature"
 title = "Wolliped (Combat Trained)"
+aon = "MonsterDisplay.aspx?ItemName=Wolliped%20%28Combat%20Trained%29"
 source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolliped_wolliped_combat_trained", path = "json/monsters25.json" },

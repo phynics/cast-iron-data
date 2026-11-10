@@ -2,6 +2,7 @@
 id = "ref/trait/acknowledged-scion"
 kind = "trait"
 title = "Acknowledged Scion"
+aon = "TraitDisplay.aspx?ItemName=Acknowledged%20Scion"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acknowledged_scion", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/brow-gasher"
 kind = "spell"
 title = "Brow Gasher"
+aon = "SpellDisplay.aspx?ItemName=Brow%20Gasher"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brow_gasher", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/rumormonger"
 kind = "spell"
 title = "Rumormonger"
+aon = "SpellDisplay.aspx?ItemName=Rumormonger"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rumormonger", path = "json/spells8.json" },

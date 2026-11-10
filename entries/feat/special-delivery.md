@@ -2,6 +2,7 @@
 id = "ref/feat/special-delivery"
 kind = "feat"
 title = "Special Delivery"
+aon = "FeatDisplay.aspx?ItemName=Special%20Delivery"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "special_delivery", path = "json/feat14.json" },

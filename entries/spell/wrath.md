@@ -2,6 +2,7 @@
 id = "ref/spell/wrath"
 kind = "spell"
 title = "Wrath"
+aon = "SpellDisplay.aspx?ItemName=Wrath"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrath", path = "json/spells16.json" },

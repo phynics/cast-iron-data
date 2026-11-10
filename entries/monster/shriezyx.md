@@ -2,6 +2,7 @@
 id = "ref/monster/shriezyx"
 kind = "creature"
 title = "Shriezyx"
+aon = "MonsterDisplay.aspx?ItemName=Shriezyx"
 source_ids = ["bestiary-4", "dungeons-of-golarion", "magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shriezyx", path = "json/monsters38.json" },

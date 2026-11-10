@@ -2,6 +2,7 @@
 id = "ref/trait/amiable-briber"
 kind = "trait"
 title = "Amiable Briber"
+aon = "TraitDisplay.aspx?ItemName=Amiable%20Briber"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amiable_briber", path = "json/traits01.json" },

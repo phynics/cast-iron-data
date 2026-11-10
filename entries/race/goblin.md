@@ -2,6 +2,7 @@
 id = "ref/race/goblin"
 kind = "race"
 title = "Goblin"
+aon = "RacesDisplay.aspx?ItemName=Goblin"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-codex", "goblins-of-golarion"]
 race_group = "featured_race"
 provenance = [

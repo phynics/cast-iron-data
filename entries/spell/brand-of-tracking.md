@@ -2,6 +2,7 @@
 id = "ref/spell/brand-of-tracking"
 kind = "spell"
 title = "Brand of Tracking"
+aon = "SpellDisplay.aspx?ItemName=Brand%20of%20Tracking"
 source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand_of_tracking", path = "json/spells2.json" },

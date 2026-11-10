@@ -2,6 +2,7 @@
 id = "ref/spell/sleepwalk"
 kind = "spell"
 title = "Sleepwalk"
+aon = "SpellDisplay.aspx?ItemName=Sleepwalk"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepwalk", path = "json/spells9.json" },

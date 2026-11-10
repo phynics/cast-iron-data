@@ -2,6 +2,7 @@
 id = "ref/monster/paakis-si"
 kind = "creature"
 title = "Paakis-Si"
+aon = "MonsterDisplay.aspx?ItemName=Paakis-Si"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paakis_si", path = "json/monsters_unique3.json" },

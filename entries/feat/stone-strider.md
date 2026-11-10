@@ -2,6 +2,7 @@
 id = "ref/feat/stone-strider"
 kind = "feat"
 title = "Stone Strider"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Strider"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_strider", path = "json/feat15.json" },

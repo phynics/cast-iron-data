@@ -2,6 +2,7 @@
 id = "ref/monster/hive-hive-queen"
 kind = "creature"
 title = "Hive Queen"
+aon = "MonsterDisplay.aspx?ItemName=Hive%20Queen"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_queen", path = "json/monsters13.json" },

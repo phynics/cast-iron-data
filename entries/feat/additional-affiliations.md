@@ -2,6 +2,7 @@
 id = "ref/feat/additional-affiliations"
 kind = "feat"
 title = "Additional Affiliations"
+aon = "FeatDisplay.aspx?ItemName=Additional%20Affiliations"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "additional_affiliations", path = "json/feat01.json" },

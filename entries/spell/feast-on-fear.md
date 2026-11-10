@@ -2,6 +2,7 @@
 id = "ref/spell/feast-on-fear"
 kind = "spell"
 title = "Feast on Fear"
+aon = "SpellDisplay.aspx?ItemName=Feast%20on%20Fear"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_on_fear", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-wati"
 kind = "trait"
 title = "Child of Wati"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Wati"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_wati", path = "json/traits04.json" },

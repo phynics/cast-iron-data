@@ -2,6 +2,7 @@
 id = "ref/spell/abyssal-vermin"
 kind = "spell"
 title = "Abyssal Vermin"
+aon = "SpellDisplay.aspx?ItemName=Abyssal%20Vermin"
 source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal_vermin", path = "json/spells.json" },

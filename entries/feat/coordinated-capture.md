@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-capture"
 kind = "feat"
 title = "Coordinated Capture"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Capture"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_capture", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/chameleon-stride"
 kind = "spell"
 title = "Chameleon Stride"
+aon = "SpellDisplay.aspx?ItemName=Chameleon%20Stride"
 source_ids = ["advanced-players-guide", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_stride", path = "json/spells2.json" },

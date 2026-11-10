@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/two-handed-fighter"
 kind = "archetype"
 title = "Two-Handed Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Two-Handed%20Fighter"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_handed_fighter", path = "json/archetypes_fighter2.json" },

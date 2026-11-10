@@ -2,6 +2,7 @@
 id = "ref/trait/militant-merchant"
 kind = "trait"
 title = "Militant Merchant"
+aon = "TraitDisplay.aspx?ItemName=Militant%20Merchant"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militant_merchant", path = "json/traits05.json" },

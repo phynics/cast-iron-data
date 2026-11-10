@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/exorcist"
 kind = "archetype"
 title = "Exorcist"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Exorcist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcist", path = "json/archetypes_inquisitor.json" },

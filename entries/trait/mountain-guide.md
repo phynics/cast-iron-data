@@ -2,6 +2,7 @@
 id = "ref/trait/mountain-guide"
 kind = "trait"
 title = "Mountain Guide"
+aon = "TraitDisplay.aspx?ItemName=Mountain%20Guide"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_guide", path = "json/traits04.json" },

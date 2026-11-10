@@ -2,6 +2,7 @@
 id = "ref/trait/fearless-defiance"
 kind = "trait"
 title = "Fearless Defiance"
+aon = "TraitDisplay.aspx?ItemName=Fearless%20Defiance"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearless_defiance", path = "json/traits01.json" },

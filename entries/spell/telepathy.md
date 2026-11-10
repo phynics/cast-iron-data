@@ -2,6 +2,7 @@
 id = "ref/spell/telepathy"
 kind = "spell"
 title = "Telepathy"
+aon = "SpellDisplay.aspx?ItemName=Telepathy"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathy", path = "json/spells10.json" },

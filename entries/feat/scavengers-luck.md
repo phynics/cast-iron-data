@@ -2,6 +2,7 @@
 id = "ref/feat/scavengers-luck"
 kind = "feat"
 title = "Scavenger's Luck"
+aon = "FeatDisplay.aspx?ItemName=Scavenger%27s%20Luck"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavengers_luck", path = "json/feat13.json" },

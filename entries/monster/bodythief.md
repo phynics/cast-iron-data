@@ -2,6 +2,7 @@
 id = "ref/monster/bodythief"
 kind = "creature"
 title = "Bodythief"
+aon = "MonsterDisplay.aspx?ItemName=Bodythief"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodythief", path = "json/monsters27.json" },

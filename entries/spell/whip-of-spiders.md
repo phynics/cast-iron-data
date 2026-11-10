@@ -2,6 +2,7 @@
 id = "ref/spell/whip-of-spiders"
 kind = "spell"
 title = "Whip of Spiders"
+aon = "SpellDisplay.aspx?ItemName=Whip%20of%20Spiders"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whip_of_spiders", path = "json/spells11.json" },

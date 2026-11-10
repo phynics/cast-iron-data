@@ -2,6 +2,7 @@
 id = "ref/monster/shell-sentinel"
 kind = "creature"
 title = "Shell Sentinel"
+aon = "MonsterDisplay.aspx?ItemName=Shell%20Sentinel"
 source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shell_sentinel", path = "json/monsters38.json" },

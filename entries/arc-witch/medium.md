@@ -2,6 +2,7 @@
 id = "ref/arc-witch/medium"
 kind = "archetype"
 title = "Medium"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Medium"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medium", path = "json/archetypes_witch.json" },

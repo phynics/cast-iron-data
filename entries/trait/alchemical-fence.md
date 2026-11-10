@@ -2,6 +2,7 @@
 id = "ref/trait/alchemical-fence"
 kind = "trait"
 title = "Alchemical Fence"
+aon = "TraitDisplay.aspx?ItemName=Alchemical%20Fence"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_fence", path = "json/traits04.json" },

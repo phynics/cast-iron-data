@@ -2,6 +2,7 @@
 id = "ref/feat/forge-ring"
 kind = "feat"
 title = "Forge Ring"
+aon = "FeatDisplay.aspx?ItemName=Forge%20Ring"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forge_ring", path = "json/feat07.json" },

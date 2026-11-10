@@ -2,6 +2,7 @@
 id = "ref/spell/rune-of-rule"
 kind = "spell"
 title = "Rune of Rule"
+aon = "SpellDisplay.aspx?ItemName=Rune%20of%20Rule"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_rule", path = "json/spells8.json" },

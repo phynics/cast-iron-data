@@ -2,6 +2,7 @@
 id = "ref/feat/signifer-armor-training"
 kind = "feat"
 title = "Signifer Armor Training"
+aon = "FeatDisplay.aspx?ItemName=Signifer%20Armor%20Training"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signifer_armor_training", path = "json/feat14.json" },

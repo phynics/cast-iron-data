@@ -2,6 +2,7 @@
 id = "ref/spell/illusion-of-calm"
 kind = "spell"
 title = "Illusion of Calm"
+aon = "SpellDisplay.aspx?ItemName=Illusion%20of%20Calm"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_of_calm", path = "json/spells14.json" },

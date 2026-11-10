@@ -2,6 +2,7 @@
 id = "ref/race/android"
 kind = "race"
 title = "Android"
+aon = "RacesDisplay.aspx?ItemName=Android"
 source_ids = ["bestiary-5", "inner-sea-races", "iron-gods-players-guide", "people-of-the-stars", "inner-sea-bestiary"]
 race_group = "other_race"
 provenance = [

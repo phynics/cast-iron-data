@@ -2,6 +2,7 @@
 id = "ref/trait/traumatic-shift"
 kind = "trait"
 title = "Traumatic Shift"
+aon = "TraitDisplay.aspx?ItemName=Traumatic%20Shift"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traumatic_shift", path = "json/traits05.json" },

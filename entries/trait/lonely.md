@@ -2,6 +2,7 @@
 id = "ref/trait/lonely"
 kind = "trait"
 title = "Lonely"
+aon = "TraitDisplay.aspx?ItemName=Lonely"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lonely", path = "json/traits03.json" },

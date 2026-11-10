@@ -2,6 +2,7 @@
 id = "ref/spell/clashing-rocks"
 kind = "spell"
 title = "Clashing Rocks"
+aon = "SpellDisplay.aspx?ItemName=Clashing%20Rocks"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clashing_rocks", path = "json/spells2.json" },

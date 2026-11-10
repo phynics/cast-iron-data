@@ -2,6 +2,7 @@
 id = "ref/spell/amnesia"
 kind = "spell"
 title = "Amnesia"
+aon = "SpellDisplay.aspx?ItemName=Amnesia"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amnesia", path = "json/spells.json" },

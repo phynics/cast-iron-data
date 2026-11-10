@@ -2,6 +2,7 @@
 id = "ref/feat/demonic-nemesis"
 kind = "feat"
 title = "Demonic Nemesis"
+aon = "FeatDisplay.aspx?ItemName=Demonic%20Nemesis"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_nemesis", path = "json/feat04.json" },

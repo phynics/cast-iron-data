@@ -2,6 +2,7 @@
 id = "ref/trait/no-escape"
 kind = "trait"
 title = "No Escape"
+aon = "TraitDisplay.aspx?ItemName=No%20Escape"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "no_escape", path = "json/traits01.json" },

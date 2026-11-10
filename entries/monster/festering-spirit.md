@@ -2,6 +2,7 @@
 id = "ref/monster/festering-spirit"
 kind = "creature"
 title = "Festering Spirit"
+aon = "MonsterDisplay.aspx?ItemName=Festering%20Spirit"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festering_spirit", path = "json/monsters10.json" },

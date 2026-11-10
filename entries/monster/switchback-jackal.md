@@ -2,6 +2,7 @@
 id = "ref/monster/switchback-jackal"
 kind = "creature"
 title = "Switchback Jackal"
+aon = "MonsterDisplay.aspx?ItemName=Switchback%20Jackal"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "switchback_jackal", path = "json/monsters24.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/elder-thing"
 kind = "creature"
 title = "Elder Thing"
+aon = "MonsterDisplay.aspx?ItemName=Elder%20Thing"
 source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elder_thing", path = "json/monsters09.json" },

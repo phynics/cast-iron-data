@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-luck-and-resolve"
 kind = "spell"
 title = "Blessing of Luck and Resolve"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20Luck%20and%20Resolve"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_luck_and_resolve", path = "json/spells2.json" },

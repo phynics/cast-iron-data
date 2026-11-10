@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/hurler"
 kind = "archetype"
 title = "Hurler"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Hurler"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hurler", path = "json/archetypes_barbarian.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/eldritch-researcher"
 kind = "feat"
 title = "Eldritch Researcher"
+aon = "FeatDisplay.aspx?ItemName=Eldritch%20Researcher"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_researcher", path = "json/feat05.json" },

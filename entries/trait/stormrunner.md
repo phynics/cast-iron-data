@@ -2,6 +2,7 @@
 id = "ref/trait/stormrunner"
 kind = "trait"
 title = "Stormrunner"
+aon = "TraitDisplay.aspx?ItemName=Stormrunner"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormrunner", path = "json/traits04.json" },

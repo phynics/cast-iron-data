@@ -2,6 +2,7 @@
 id = "ref/spell/locate-portal"
 kind = "spell"
 title = "Locate Portal"
+aon = "SpellDisplay.aspx?ItemName=Locate%20Portal"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_portal", path = "json/spells6.json" },

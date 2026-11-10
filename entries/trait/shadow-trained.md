@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-trained"
 kind = "trait"
 title = "Shadow Trained"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Trained"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_trained", path = "json/traits01.json" },

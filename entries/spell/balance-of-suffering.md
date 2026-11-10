@@ -2,6 +2,7 @@
 id = "ref/spell/balance-of-suffering"
 kind = "spell"
 title = "Balance of Suffering"
+aon = "SpellDisplay.aspx?ItemName=Balance%20of%20Suffering"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balance_of_suffering", path = "json/spells12.json" },

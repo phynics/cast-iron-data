@@ -2,6 +2,7 @@
 id = "ref/monster/cauldron-bloom"
 kind = "creature"
 title = "Cauldron Bloom"
+aon = "MonsterDisplay.aspx?ItemName=Cauldron%20Bloom"
 source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_bloom", path = "json/monsters04.json" },

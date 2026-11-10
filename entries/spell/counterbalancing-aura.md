@@ -2,6 +2,7 @@
 id = "ref/spell/counterbalancing-aura"
 kind = "spell"
 title = "Counterbalancing Aura"
+aon = "SpellDisplay.aspx?ItemName=Counterbalancing%20Aura"
 source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterbalancing_aura", path = "json/spells12.json" },

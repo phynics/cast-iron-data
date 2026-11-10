@@ -2,6 +2,7 @@
 id = "ref/feat/remote-bomb"
 kind = "feat"
 title = "Remote Bomb"
+aon = "FeatDisplay.aspx?ItemName=Remote%20Bomb"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remote_bomb", path = "json/feat13.json" },

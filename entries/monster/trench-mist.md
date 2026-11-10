@@ -2,6 +2,7 @@
 id = "ref/monster/trench-mist"
 kind = "creature"
 title = "Trench Mist"
+aon = "MonsterDisplay.aspx?ItemName=Trench%20Mist"
 source_ids = ["bestiary-5", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trench_mist", path = "json/monsters23.json" },

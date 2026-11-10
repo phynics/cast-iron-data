@@ -2,6 +2,7 @@
 id = "ref/spell/cursed-treasure"
 kind = "spell"
 title = "Cursed Treasure"
+aon = "SpellDisplay.aspx?ItemName=Cursed%20Treasure"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_treasure", path = "json/spells3.json" },

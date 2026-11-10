@@ -2,6 +2,7 @@
 id = "ref/spell/heat-metal"
 kind = "spell"
 title = "Heat Metal"
+aon = "SpellDisplay.aspx?ItemName=Heat%20Metal"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heat_metal", path = "json/spells5.json" },

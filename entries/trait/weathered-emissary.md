@@ -2,6 +2,7 @@
 id = "ref/trait/weathered-emissary"
 kind = "trait"
 title = "Weathered Emissary"
+aon = "TraitDisplay.aspx?ItemName=Weathered%20Emissary"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weathered_emissary", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/shadow-mastiff"
 kind = "creature"
 title = "Shadow Mastiff"
+aon = "MonsterDisplay.aspx?ItemName=Shadow%20Mastiff"
 source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_mastiff", path = "json/monsters21.json" },

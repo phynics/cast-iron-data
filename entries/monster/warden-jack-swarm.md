@@ -2,6 +2,7 @@
 id = "ref/monster/warden-jack-swarm"
 kind = "creature"
 title = "Warden Jack Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Warden%20Jack%20Swarm"
 source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warden_jack_swarm", path = "json/monsters25.json" },

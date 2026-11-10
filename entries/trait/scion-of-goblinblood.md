@@ -2,6 +2,7 @@
 id = "ref/trait/scion-of-goblinblood"
 kind = "trait"
 title = "Scion of Goblinblood"
+aon = "TraitDisplay.aspx?ItemName=Scion%20of%20Goblinblood"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_goblinblood", path = "json/traits04.json" },

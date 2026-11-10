@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/terrakineticist"
 kind = "archetype"
 title = "Terrakineticist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Terrakineticist"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrakineticist", path = "json/archetypes_kineticist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/angelic-aspect-greater"
 kind = "spell"
 title = "Greater Angelic Aspect"
+aon = "SpellDisplay.aspx?ItemName=Angelic%20Aspect%2C%20Greater"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_aspect_greater", path = "json/spells.json" },

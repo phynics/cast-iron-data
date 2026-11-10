@@ -2,6 +2,7 @@
 id = "ref/spell/eyes-of-the-void"
 kind = "spell"
 title = "Eyes of the Void"
+aon = "SpellDisplay.aspx?ItemName=Eyes%20of%20the%20Void"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_void", path = "json/spells4.json" },

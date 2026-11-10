@@ -2,6 +2,7 @@
 id = "ref/trait/honored-provider"
 kind = "trait"
 title = "Honored Provider"
+aon = "TraitDisplay.aspx?ItemName=Honored%20Provider"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honored_provider", path = "json/traits05.json" },

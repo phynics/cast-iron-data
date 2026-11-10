@@ -2,6 +2,7 @@
 id = "ref/feat/reflexive-trick"
 kind = "feat"
 title = "Reflexive Trick"
+aon = "FeatDisplay.aspx?ItemName=Reflexive%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflexive_trick", path = "json/feat13.json" },

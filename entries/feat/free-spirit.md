@@ -2,6 +2,7 @@
 id = "ref/feat/free-spirit"
 kind = "feat"
 title = "Free Spirit"
+aon = "FeatDisplay.aspx?ItemName=Free%20Spirit"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_spirit", path = "json/feat07.json" },

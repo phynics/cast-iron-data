@@ -2,6 +2,7 @@
 id = "ref/feat/punishing-kick"
 kind = "feat"
 title = "Punishing Kick"
+aon = "FeatDisplay.aspx?ItemName=Punishing%20Kick"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_kick", path = "json/feat12.json" },

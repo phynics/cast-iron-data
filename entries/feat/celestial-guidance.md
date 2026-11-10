@@ -2,6 +2,7 @@
 id = "ref/feat/celestial-guidance"
 kind = "feat"
 title = "Celestial Guidance"
+aon = "FeatDisplay.aspx?ItemName=Celestial%20Guidance"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_guidance", path = "json/feat02.json" },

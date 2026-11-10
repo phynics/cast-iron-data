@@ -2,6 +2,7 @@
 id = "ref/feat/disruptive-spell"
 kind = "feat"
 title = "Disruptive Spell"
+aon = "FeatDisplay.aspx?ItemName=Disruptive%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_spell", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/undeath-ward"
 kind = "spell"
 title = "Undeath Ward"
+aon = "SpellDisplay.aspx?ItemName=Undeath%20Ward"
 source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_ward", path = "json/spells11.json" },

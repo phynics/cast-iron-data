@@ -2,6 +2,7 @@
 id = "ref/spell/strip-scales"
 kind = "spell"
 title = "Strip Scales"
+aon = "SpellDisplay.aspx?ItemName=Strip%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strip_scales", path = "json/spells15.json" },

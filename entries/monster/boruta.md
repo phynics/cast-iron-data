@@ -2,6 +2,7 @@
 id = "ref/monster/boruta"
 kind = "creature"
 title = "Boruta"
+aon = "MonsterDisplay.aspx?ItemName=Boruta"
 source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boruta", path = "json/monsters04.json" },

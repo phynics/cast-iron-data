@@ -2,6 +2,7 @@
 id = "ref/trait/fast-talker"
 kind = "trait"
 title = "Fast Talker"
+aon = "TraitDisplay.aspx?ItemName=Fast%20Talker"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_talker", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/winners-luck"
 kind = "trait"
 title = "Winner's Luck"
+aon = "TraitDisplay.aspx?ItemName=Winner%27s%20Luck"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winners_luck", path = "json/traits04.json" },

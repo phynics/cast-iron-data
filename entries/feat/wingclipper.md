@@ -2,6 +2,7 @@
 id = "ref/feat/wingclipper"
 kind = "feat"
 title = "Wingclipper"
+aon = "FeatDisplay.aspx?ItemName=Wingclipper"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wingclipper", path = "json/feat17.json" },

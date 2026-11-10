@@ -2,6 +2,7 @@
 id = "ref/magic-staff/dragon-staff"
 kind = "item"
 title = "Dragon Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Dragon%20Staff"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_staff", path = "json/magic_staff.json" },

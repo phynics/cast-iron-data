@@ -2,6 +2,7 @@
 id = "ref/feat/psychic-defender"
 kind = "feat"
 title = "Psychic Defender"
+aon = "FeatDisplay.aspx?ItemName=Psychic%20Defender"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_defender", path = "json/feat12.json" },

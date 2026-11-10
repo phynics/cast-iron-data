@@ -2,6 +2,7 @@
 id = "ref/spell/prismatic-wall"
 kind = "spell"
 title = "Prismatic Wall"
+aon = "SpellDisplay.aspx?ItemName=Prismatic%20Wall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_wall", path = "json/spells14.json" },

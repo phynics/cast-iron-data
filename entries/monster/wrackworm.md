@@ -2,6 +2,7 @@
 id = "ref/monster/wrackworm"
 kind = "creature"
 title = "Wrackworm"
+aon = "MonsterDisplay.aspx?ItemName=Wrackworm"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrackworm", path = "json/monsters25.json" },

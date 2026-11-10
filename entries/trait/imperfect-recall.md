@@ -2,6 +2,7 @@
 id = "ref/trait/imperfect-recall"
 kind = "trait"
 title = "Imperfect Recall"
+aon = "TraitDisplay.aspx?ItemName=Imperfect%20Recall"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperfect_recall", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/surface-scout"
 kind = "feat"
 title = "Surface Scout"
+aon = "FeatDisplay.aspx?ItemName=Surface%20Scout"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surface_scout", path = "json/feat15.json" },

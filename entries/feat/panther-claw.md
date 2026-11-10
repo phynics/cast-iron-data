@@ -2,6 +2,7 @@
 id = "ref/feat/panther-claw"
 kind = "feat"
 title = "Panther Claw"
+aon = "FeatDisplay.aspx?ItemName=Panther%20Claw"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_claw", path = "json/feat11.json" },

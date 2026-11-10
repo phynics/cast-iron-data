@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/warrior-poet"
 kind = "archetype"
 title = "Warrior Poet"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Warrior%20Poet"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior_poet", path = "json/archetypes_samurai.json" },

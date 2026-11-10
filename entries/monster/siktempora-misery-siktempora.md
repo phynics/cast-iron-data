@@ -2,6 +2,7 @@
 id = "ref/monster/siktempora-misery-siktempora"
 kind = "creature"
 title = "Misery Siktempora"
+aon = "MonsterDisplay.aspx?ItemName=Misery%20Siktempora"
 source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siktempora_misery_siktempora", path = "json/monsters38.json" },

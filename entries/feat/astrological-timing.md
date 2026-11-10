@@ -2,6 +2,7 @@
 id = "ref/feat/astrological-timing"
 kind = "feat"
 title = "Astrological Timing"
+aon = "FeatDisplay.aspx?ItemName=Astrological%20Timing"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrological_timing", path = "json/feat01.json" },

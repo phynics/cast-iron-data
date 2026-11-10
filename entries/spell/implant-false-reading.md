@@ -2,6 +2,7 @@
 id = "ref/spell/implant-false-reading"
 kind = "spell"
 title = "Implant False Reading"
+aon = "SpellDisplay.aspx?ItemName=Implant%20False%20Reading"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_false_reading", path = "json/spells14.json" },

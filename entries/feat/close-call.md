@@ -2,6 +2,7 @@
 id = "ref/feat/close-call"
 kind = "feat"
 title = "Close Call"
+aon = "FeatDisplay.aspx?ItemName=Close%20Call"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "close_call", path = "json/feat03.json" },

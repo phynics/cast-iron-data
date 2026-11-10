@@ -2,6 +2,7 @@
 id = "ref/feat/shared-judgment"
 kind = "feat"
 title = "Shared Judgment"
+aon = "FeatDisplay.aspx?ItemName=Shared%20Judgment"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_judgment", path = "json/feat14.json" },

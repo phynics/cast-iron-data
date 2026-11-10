@@ -2,6 +2,7 @@
 id = "ref/feat/guided-hand"
 kind = "feat"
 title = "Guided Hand"
+aon = "FeatDisplay.aspx?ItemName=Guided%20Hand"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guided_hand", path = "json/feat08.json" },

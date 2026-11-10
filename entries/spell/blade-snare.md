@@ -2,6 +2,7 @@
 id = "ref/spell/blade-snare"
 kind = "spell"
 title = "Blade Snare"
+aon = "SpellDisplay.aspx?ItemName=Blade%20Snare"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_snare", path = "json/spells12.json" },

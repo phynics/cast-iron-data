@@ -2,6 +2,7 @@
 id = "ref/spell/ban-corruption"
 kind = "spell"
 title = "Ban Corruption"
+aon = "SpellDisplay.aspx?ItemName=Ban%20Corruption"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ban_corruption", path = "json/spells12.json" },

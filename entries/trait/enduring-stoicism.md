@@ -2,6 +2,7 @@
 id = "ref/trait/enduring-stoicism"
 kind = "trait"
 title = "Enduring Stoicism"
+aon = "TraitDisplay.aspx?ItemName=Enduring%20Stoicism"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enduring_stoicism", path = "json/traits03.json" },

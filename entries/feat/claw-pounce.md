@@ -2,6 +2,7 @@
 id = "ref/feat/claw-pounce"
 kind = "feat"
 title = "Claw Pounce"
+aon = "FeatDisplay.aspx?ItemName=Claw%20Pounce"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claw_pounce", path = "json/feat03.json" },

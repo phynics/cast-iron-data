@@ -2,6 +2,7 @@
 id = "ref/monster/ogre-ogre-mancatcher"
 kind = "creature"
 title = "Ogre Mancatcher"
+aon = "MonsterDisplay.aspx?ItemName=Ogre%20Mancatcher"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_ogre_mancatcher", path = "json/monsters18.json" },

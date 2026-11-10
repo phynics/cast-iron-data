@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-forcefangs"
 kind = "item"
 title = "Ring of Forcefangs"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Forcefangs"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_forcefangs", path = "json/magic_ring.json" },

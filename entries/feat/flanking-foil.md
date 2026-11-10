@@ -2,6 +2,7 @@
 id = "ref/feat/flanking-foil"
 kind = "feat"
 title = "Flanking Foil"
+aon = "FeatDisplay.aspx?ItemName=Flanking%20Foil"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flanking_foil", path = "json/feat07.json" },

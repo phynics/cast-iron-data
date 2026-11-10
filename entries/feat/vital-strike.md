@@ -2,6 +2,7 @@
 id = "ref/feat/vital-strike"
 kind = "feat"
 title = "Vital Strike"
+aon = "FeatDisplay.aspx?ItemName=Vital%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vital_strike", path = "json/feat17.json" },

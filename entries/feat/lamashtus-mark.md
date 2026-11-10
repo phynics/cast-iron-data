@@ -2,6 +2,7 @@
 id = "ref/feat/lamashtus-mark"
 kind = "feat"
 title = "Lamashtu's Mark"
+aon = "FeatDisplay.aspx?ItemName=Lamashtu%27s%20Mark"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamashtus_mark", path = "json/feat10.json" },

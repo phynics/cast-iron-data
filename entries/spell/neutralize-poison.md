@@ -2,6 +2,7 @@
 id = "ref/spell/neutralize-poison"
 kind = "spell"
 title = "Neutralize Poison"
+aon = "SpellDisplay.aspx?ItemName=Neutralize%20Poison"
 source_ids = ["core-rulebook", "dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutralize_poison", path = "json/spells7.json" },

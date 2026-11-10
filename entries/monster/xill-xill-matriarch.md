@@ -2,6 +2,7 @@
 id = "ref/monster/xill-xill-matriarch"
 kind = "creature"
 title = "Xill Matriarch"
+aon = "MonsterDisplay.aspx?ItemName=Xill%20Matriarch"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xill_xill_matriarch", path = "json/monsters41.json" },

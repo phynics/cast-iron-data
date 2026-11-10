@@ -2,6 +2,7 @@
 id = "ref/feat/tunnel-rat"
 kind = "feat"
 title = "Tunnel Rat"
+aon = "FeatDisplay.aspx?ItemName=Tunnel%20Rat"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tunnel_rat", path = "json/feat16.json" },

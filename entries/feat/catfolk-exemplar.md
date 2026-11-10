@@ -2,6 +2,7 @@
 id = "ref/feat/catfolk-exemplar"
 kind = "feat"
 title = "Catfolk Exemplar"
+aon = "FeatDisplay.aspx?ItemName=Catfolk%20Exemplar"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk_exemplar", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/blightspawn"
 kind = "creature"
 title = "Blightspawn"
+aon = "MonsterDisplay.aspx?ItemName=Blightspawn"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightspawn", path = "json/monsters27.json" },

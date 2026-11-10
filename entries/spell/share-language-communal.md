@@ -2,6 +2,7 @@
 id = "ref/spell/share-language-communal"
 kind = "spell"
 title = "Communal Share Language"
+aon = "SpellDisplay.aspx?ItemName=Share%20Language%2C%20Communal"
 source_ids = ["advanced-players-guide", "black-markets", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_language_communal", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/majestic-image"
 kind = "spell"
 title = "Majestic Image"
+aon = "SpellDisplay.aspx?ItemName=Majestic%20Image"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "majestic_image", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/favored-community"
 kind = "feat"
 title = "Favored Community"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Community"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_community", path = "json/feat06.json" },

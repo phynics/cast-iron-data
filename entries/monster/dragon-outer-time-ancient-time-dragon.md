@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-outer-time-ancient-time-dragon"
 kind = "creature"
 title = "Ancient Time Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Time%20Dragon"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_outer_time_ancient_time_dragon", path = "json/monsters42.json" },

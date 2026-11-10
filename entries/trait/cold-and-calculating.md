@@ -2,6 +2,7 @@
 id = "ref/trait/cold-and-calculating"
 kind = "trait"
 title = "Cold and Calculating"
+aon = "TraitDisplay.aspx?ItemName=Cold%20and%20Calculating"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_and_calculating", path = "json/traits01.json" },

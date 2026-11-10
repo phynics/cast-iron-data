@@ -2,6 +2,7 @@
 id = "ref/feat/cudgeler-takedown"
 kind = "feat"
 title = "Cudgeler Takedown"
+aon = "FeatDisplay.aspx?ItemName=Cudgeler%20Takedown"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cudgeler_takedown", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/gift-of-the-deep"
 kind = "spell"
 title = "Gift of the Deep"
+aon = "SpellDisplay.aspx?ItemName=Gift%20of%20the%20Deep"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gift_of_the_deep", path = "json/spells5.json" },

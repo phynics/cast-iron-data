@@ -2,6 +2,7 @@
 id = "ref/spell/gaseous-form"
 kind = "spell"
 title = "Gaseous Form"
+aon = "SpellDisplay.aspx?ItemName=Gaseous%20Form"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaseous_form", path = "json/spells13.json" },

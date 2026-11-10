@@ -2,6 +2,7 @@
 id = "ref/spell/grasping-hand"
 kind = "spell"
 title = "Grasping Hand"
+aon = "SpellDisplay.aspx?ItemName=Grasping%20Hand"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_hand", path = "json/spells5.json" },

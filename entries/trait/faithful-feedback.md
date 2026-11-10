@@ -2,6 +2,7 @@
 id = "ref/trait/faithful-feedback"
 kind = "trait"
 title = "Faithful Feedback"
+aon = "TraitDisplay.aspx?ItemName=Faithful%20Feedback"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faithful_feedback", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/cerberus-crush"
 kind = "feat"
 title = "Cerberus Crush"
+aon = "FeatDisplay.aspx?ItemName=Cerberus%20Crush"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_crush", path = "json/feat02.json" },

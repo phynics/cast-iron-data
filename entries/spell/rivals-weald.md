@@ -2,6 +2,7 @@
 id = "ref/spell/rivals-weald"
 kind = "spell"
 title = "Rival's Weald"
+aon = "SpellDisplay.aspx?ItemName=Rival%27s%20Weald"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivals_weald", path = "json/spells8.json" },

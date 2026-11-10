@@ -2,6 +2,7 @@
 id = "ref/pclass/brewkeeper"
 kind = "prestige_class"
 title = "Brewkeeper"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Brewkeeper"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brewkeeper", path = "json/prestige_classes.json" },

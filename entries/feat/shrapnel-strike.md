@@ -2,6 +2,7 @@
 id = "ref/feat/shrapnel-strike"
 kind = "feat"
 title = "Shrapnel Strike"
+aon = "FeatDisplay.aspx?ItemName=Shrapnel%20Strike"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrapnel_strike", path = "json/feat14.json" },

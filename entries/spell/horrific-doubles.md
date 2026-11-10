@@ -2,6 +2,7 @@
 id = "ref/spell/horrific-doubles"
 kind = "spell"
 title = "Horrific Doubles"
+aon = "SpellDisplay.aspx?ItemName=Horrific%20Doubles"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrific_doubles", path = "json/spells5.json" },

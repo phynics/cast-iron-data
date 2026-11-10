@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-vigor"
 kind = "feat"
 title = "Elemental Vigor"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Vigor"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_vigor", path = "json/feat05.json" },

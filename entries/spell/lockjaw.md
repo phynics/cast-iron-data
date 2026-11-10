@@ -2,6 +2,7 @@
 id = "ref/spell/lockjaw"
 kind = "spell"
 title = "Lockjaw"
+aon = "SpellDisplay.aspx?ItemName=Lockjaw"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lockjaw", path = "json/spells6.json" },

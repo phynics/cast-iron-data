@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/urban-ranger"
 kind = "archetype"
 title = "Urban Ranger"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Urban%20Ranger"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_ranger", path = "json/archetypes_ranger.json" },

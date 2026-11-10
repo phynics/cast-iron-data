@@ -2,6 +2,7 @@
 id = "ref/feat/stronghold"
 kind = "feat"
 title = "Stronghold"
+aon = "FeatDisplay.aspx?ItemName=Stronghold"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stronghold", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/pellet-blast"
 kind = "spell"
 title = "Pellet Blast"
+aon = "SpellDisplay.aspx?ItemName=Pellet%20Blast"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pellet_blast", path = "json/spells7.json" },

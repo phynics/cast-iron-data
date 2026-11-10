@@ -2,6 +2,7 @@
 id = "ref/spell/nixies-lure"
 kind = "spell"
 title = "Nixie's Lure"
+aon = "SpellDisplay.aspx?ItemName=Nixie%27s%20Lure"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nixies_lure", path = "json/spells7.json" },

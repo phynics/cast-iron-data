@@ -2,6 +2,7 @@
 id = "ref/monster/gibbering-mouther"
 kind = "creature"
 title = "Gibbering Mouther"
+aon = "MonsterDisplay.aspx?ItemName=Gibbering%20Mouther"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gibbering_mouther", path = "json/monsters32.json" },

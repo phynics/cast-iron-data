@@ -2,6 +2,7 @@
 id = "ref/monster/psychic-stalker"
 kind = "creature"
 title = "Psychic Stalker"
+aon = "MonsterDisplay.aspx?ItemName=Psychic%20Stalker"
 source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_stalker", path = "json/monsters37.json" },

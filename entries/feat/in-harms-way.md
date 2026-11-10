@@ -2,6 +2,7 @@
 id = "ref/feat/in-harms-way"
 kind = "feat"
 title = "In Harm's Way"
+aon = "FeatDisplay.aspx?ItemName=In%20Harm%27s%20Way"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "in_harms_way", path = "json/feat09.json" },

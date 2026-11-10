@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/lycanthrope/wererat/wererat-human-form"
 kind = "creature"
 title = "Wererat (Human Form)"
+aon = "MonsterDisplay.aspx?ItemName=Wererat%20%28Human%20Form%29"
 source_ids = ["bestiary"]
 section = ["Monsters", "Lycanthrope", "Wererat"]
 tags = ["humanoid", "human", "shapechanger", "medium"]

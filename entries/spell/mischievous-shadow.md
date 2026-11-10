@@ -2,6 +2,7 @@
 id = "ref/spell/mischievous-shadow"
 kind = "spell"
 title = "Mischievous Shadow"
+aon = "SpellDisplay.aspx?ItemName=Mischievous%20Shadow"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mischievous_shadow", path = "json/spells14.json" },

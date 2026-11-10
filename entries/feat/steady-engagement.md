@@ -2,6 +2,7 @@
 id = "ref/feat/steady-engagement"
 kind = "feat"
 title = "Steady Engagement"
+aon = "FeatDisplay.aspx?ItemName=Steady%20Engagement"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_engagement", path = "json/feat15.json" },

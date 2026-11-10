@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/feral-gnasher"
 kind = "archetype"
 title = "Feral Gnasher"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Feral%20Gnasher"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_gnasher", path = "json/archetypes_barbarian.json" },

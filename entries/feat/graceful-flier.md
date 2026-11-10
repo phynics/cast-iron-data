@@ -2,6 +2,7 @@
 id = "ref/feat/graceful-flier"
 kind = "feat"
 title = "Graceful Flier"
+aon = "FeatDisplay.aspx?ItemName=Graceful%20Flier"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graceful_flier", path = "json/feat07.json" },

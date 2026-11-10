@@ -2,6 +2,7 @@
 id = "ref/spell/shapechangers-gift-greater"
 kind = "spell"
 title = "Greater Shapechanger's Gift"
+aon = "SpellDisplay.aspx?ItemName=Shapechanger%27s%20Gift%2C%20Greater"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechangers_gift_greater", path = "json/spells9.json" },

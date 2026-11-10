@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/drums-of-lethargy"
 kind = "item"
 title = "Drums of Lethargy"
+aon = "MagicCursedDisplay.aspx?ItemName=Drums%20of%20Lethargy"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drums_of_lethargy", path = "json/magic_wondrous_slotless02.json" },

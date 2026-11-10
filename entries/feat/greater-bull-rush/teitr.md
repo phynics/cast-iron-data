@@ -2,6 +2,7 @@
 id = "ref/feat/greater-bull-rush/teitr"
 kind = "feat"
 title = "Greater Bull Rush"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Bull%20Rush"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-bull-rush" },

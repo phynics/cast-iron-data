@@ -2,6 +2,7 @@
 id = "ref/spell/lullaby"
 kind = "spell"
 title = "Lullaby"
+aon = "SpellDisplay.aspx?ItemName=Lullaby"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lullaby", path = "json/spells6.json" },

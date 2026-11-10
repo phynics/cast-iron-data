@@ -2,6 +2,7 @@
 id = "ref/spell/conditional-favor"
 kind = "spell"
 title = "Conditional Favor"
+aon = "SpellDisplay.aspx?ItemName=Conditional%20Favor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conditional_favor", path = "json/spells12.json" },

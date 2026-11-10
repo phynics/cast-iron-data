@@ -2,6 +2,7 @@
 id = "ref/feat/bolster-jinx"
 kind = "feat"
 title = "Bolster Jinx"
+aon = "FeatDisplay.aspx?ItemName=Bolster%20Jinx"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolster_jinx", path = "json/feat02.json" },

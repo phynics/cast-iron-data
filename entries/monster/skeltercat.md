@@ -2,6 +2,7 @@
 id = "ref/monster/skeltercat"
 kind = "creature"
 title = "Skeltercat"
+aon = "MonsterDisplay.aspx?ItemName=Skeltercat"
 source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeltercat", path = "json/monsters22.json" },

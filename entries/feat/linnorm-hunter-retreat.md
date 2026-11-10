@@ -2,6 +2,7 @@
 id = "ref/feat/linnorm-hunter-retreat"
 kind = "feat"
 title = "Linnorm Hunter Retreat"
+aon = "FeatDisplay.aspx?ItemName=Linnorm%20Hunter%20Retreat"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_hunter_retreat", path = "json/feat10.json" },

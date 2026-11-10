@@ -2,6 +2,7 @@
 id = "ref/feat/conservatory-trained"
 kind = "feat"
 title = "Conservatory-Trained"
+aon = "FeatDisplay.aspx?ItemName=Conservatory-Trained"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conservatory_trained", path = "json/feat03.json" },

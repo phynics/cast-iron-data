@@ -2,6 +2,7 @@
 id = "ref/spell/miasmatic-form"
 kind = "spell"
 title = "Miasmatic Form"
+aon = "SpellDisplay.aspx?ItemName=Miasmatic%20Form"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miasmatic_form", path = "json/spells14.json" },

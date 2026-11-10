@@ -2,6 +2,7 @@
 id = "ref/feat/harrying-partners"
 kind = "feat"
 title = "Harrying Partners"
+aon = "FeatDisplay.aspx?ItemName=Harrying%20Partners"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrying_partners", path = "json/feat08.json" },

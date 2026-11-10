@@ -2,6 +2,7 @@
 id = "ref/feat/monstrous-mount-mastery"
 kind = "feat"
 title = "Monstrous Mount Mastery"
+aon = "FeatDisplay.aspx?ItemName=Monstrous%20Mount%20Mastery"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_mount_mastery", path = "json/feat11.json" },

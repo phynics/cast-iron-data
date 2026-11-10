@@ -2,6 +2,7 @@
 id = "ref/feat/far-shot/teitr"
 kind = "feat"
 title = "Far Shot"
+aon = "FeatDisplay.aspx?ItemName=Far%20Shot"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/far-shot" },

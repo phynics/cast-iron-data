@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/reaper-of-secrets"
 kind = "archetype"
 title = "Reaper of Secrets"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Reaper%20of%20Secrets"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reaper_of_secrets", path = "json/archetypes_inquisitor.json" },

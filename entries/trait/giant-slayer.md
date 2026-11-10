@@ -2,6 +2,7 @@
 id = "ref/trait/giant-slayer"
 kind = "trait"
 title = "Giant Slayer"
+aon = "TraitDisplay.aspx?ItemName=Giant%20Slayer"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_slayer", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/gorums-armor"
 kind = "spell"
 title = "Gorum's Armor"
+aon = "SpellDisplay.aspx?ItemName=Gorum%27s%20Armor"
 source_ids = ["inner-sea-world-guide", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorums_armor", path = "json/spells5.json" },

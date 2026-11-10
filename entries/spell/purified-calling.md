@@ -2,6 +2,7 @@
 id = "ref/spell/purified-calling"
 kind = "spell"
 title = "Purified Calling"
+aon = "SpellDisplay.aspx?ItemName=Purified%20Calling"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purified_calling", path = "json/spells15.json" },

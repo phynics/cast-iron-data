@@ -2,6 +2,7 @@
 id = "ref/spell/nauseating-dart"
 kind = "spell"
 title = "Nauseating Dart"
+aon = "SpellDisplay.aspx?ItemName=Nauseating%20Dart"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nauseating_dart", path = "json/spells7.json" },

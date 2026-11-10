@@ -2,6 +2,7 @@
 id = "ref/feat/large-target"
 kind = "feat"
 title = "Large Target"
+aon = "FeatDisplay.aspx?ItemName=Large%20Target"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "large_target", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/liminal-sprite"
 kind = "creature"
 title = "Liminal Sprite"
+aon = "MonsterDisplay.aspx?ItemName=Liminal%20Sprite"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liminal_sprite", path = "json/monsters16.json" },

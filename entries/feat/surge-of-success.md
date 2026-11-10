@@ -2,6 +2,7 @@
 id = "ref/feat/surge-of-success"
 kind = "feat"
 title = "Surge of Success"
+aon = "FeatDisplay.aspx?ItemName=Surge%20of%20Success"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surge_of_success", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sure-grasp"
 kind = "feat"
 title = "Sure Grasp"
+aon = "FeatDisplay.aspx?ItemName=Sure%20Grasp"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_grasp", path = "json/feat15.json" },

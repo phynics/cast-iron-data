@@ -2,6 +2,7 @@
 id = "ref/spell/tactical-miscalculation"
 kind = "spell"
 title = "Tactical Miscalculation"
+aon = "SpellDisplay.aspx?ItemName=Tactical%20Miscalculation"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_miscalculation", path = "json/spells10.json" },

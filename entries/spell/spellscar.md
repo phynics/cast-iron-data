@@ -2,6 +2,7 @@
 id = "ref/spell/spellscar"
 kind = "spell"
 title = "Spellscar"
+aon = "SpellDisplay.aspx?ItemName=Spellscar"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar", path = "json/spells9.json" },

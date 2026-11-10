@@ -2,6 +2,7 @@
 id = "ref/feat/chance-death"
 kind = "feat"
 title = "Chance Death"
+aon = "FeatDisplay.aspx?ItemName=Chance%20Death"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chance_death", path = "json/feat03.json" },

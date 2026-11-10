@@ -2,6 +2,7 @@
 id = "ref/trait/living-bulwark"
 kind = "trait"
 title = "Living Bulwark"
+aon = "TraitDisplay.aspx?ItemName=Living%20Bulwark"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_bulwark", path = "json/traits03.json" },

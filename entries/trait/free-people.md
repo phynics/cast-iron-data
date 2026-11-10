@@ -2,6 +2,7 @@
 id = "ref/trait/free-people"
 kind = "trait"
 title = "Free People"
+aon = "TraitDisplay.aspx?ItemName=Free%20People"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_people", path = "json/traits04.json" },

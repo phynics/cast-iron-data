@@ -2,6 +2,7 @@
 id = "ref/feat/animal-call"
 kind = "feat"
 title = "Animal Call"
+aon = "FeatDisplay.aspx?ItemName=Animal%20Call"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_call", path = "json/feat01.json" },

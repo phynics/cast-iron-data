@@ -2,6 +2,7 @@
 id = "ref/spell/apparent-master"
 kind = "spell"
 title = "Apparent Master"
+aon = "SpellDisplay.aspx?ItemName=Apparent%20Master"
 source_ids = ["guardians-of-dragonfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparent_master", path = "json/spells.json" },

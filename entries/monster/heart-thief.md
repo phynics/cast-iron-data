@@ -2,6 +2,7 @@
 id = "ref/monster/heart-thief"
 kind = "creature"
 title = "Heart Thief"
+aon = "MonsterDisplay.aspx?ItemName=Heart%20Thief"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_thief", path = "json/monsters13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/project-weakness"
 kind = "spell"
 title = "Project Weakness"
+aon = "SpellDisplay.aspx?ItemName=Project%20Weakness"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "project_weakness", path = "json/spells15.json" },

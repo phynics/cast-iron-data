@@ -2,6 +2,7 @@
 id = "ref/spell/deft-digits"
 kind = "spell"
 title = "Deft Digits"
+aon = "SpellDisplay.aspx?ItemName=Deft%20Digits"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deft_digits", path = "json/spells3.json" },

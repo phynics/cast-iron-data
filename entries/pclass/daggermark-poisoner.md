@@ -2,6 +2,7 @@
 id = "ref/pclass/daggermark-poisoner"
 kind = "prestige_class"
 title = "Daggermark Poisoner"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Daggermark%20Poisoner"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermark_poisoner", path = "json/prestige_classes.json" },

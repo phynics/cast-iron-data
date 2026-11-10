@@ -2,6 +2,7 @@
 id = "ref/trait/blackthorn-rancher"
 kind = "trait"
 title = "Blackthorn Rancher"
+aon = "TraitDisplay.aspx?ItemName=Blackthorn%20Rancher"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackthorn_rancher", path = "json/traits04.json" },

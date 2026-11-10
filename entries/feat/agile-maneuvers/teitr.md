@@ -2,6 +2,7 @@
 id = "ref/feat/agile-maneuvers/teitr"
 kind = "feat"
 title = "Agile Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Agile%20Maneuvers"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/agile-maneuvers" },

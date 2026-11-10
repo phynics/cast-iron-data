@@ -2,6 +2,7 @@
 id = "ref/pclass/duelist"
 kind = "prestige_class"
 title = "Duelist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Duelist"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duelist", path = "json/prestige_classes4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shatter-defenses"
 kind = "feat"
 title = "Shatter Defenses"
+aon = "FeatDisplay.aspx?ItemName=Shatter%20Defenses"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shatter_defenses", path = "json/feat14.json" },

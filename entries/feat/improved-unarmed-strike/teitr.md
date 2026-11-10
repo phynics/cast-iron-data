@@ -2,6 +2,7 @@
 id = "ref/feat/improved-unarmed-strike/teitr"
 kind = "feat"
 title = "Improved Unarmed Strike"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Unarmed%20Strike"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-unarmed-strike", label = "removed" },

@@ -2,6 +2,7 @@
 id = "ref/monster/nukkefeen"
 kind = "creature"
 title = "Nukkefeen"
+aon = "MonsterDisplay.aspx?ItemName=Nukkefeen"
 source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nukkefeen", path = "json/monsters18.json" },

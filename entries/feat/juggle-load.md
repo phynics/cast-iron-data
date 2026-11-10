@@ -2,6 +2,7 @@
 id = "ref/feat/juggle-load"
 kind = "feat"
 title = "Juggle Load"
+aon = "FeatDisplay.aspx?ItemName=Juggle%20Load"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggle_load", path = "json/feat09.json" },

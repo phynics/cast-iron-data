@@ -2,6 +2,7 @@
 id = "ref/feat/elven-battle-torrent"
 kind = "feat"
 title = "Elven Battle Torrent"
+aon = "FeatDisplay.aspx?ItemName=Elven%20Battle%20Torrent"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_torrent", path = "json/feat05.json" },

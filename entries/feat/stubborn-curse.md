@@ -2,6 +2,7 @@
 id = "ref/feat/stubborn-curse"
 kind = "feat"
 title = "Stubborn Curse"
+aon = "FeatDisplay.aspx?ItemName=Stubborn%20Curse"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stubborn_curse", path = "json/feat15.json" },

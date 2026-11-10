@@ -2,6 +2,7 @@
 id = "ref/monster/seugathi"
 kind = "creature"
 title = "Seugathi"
+aon = "MonsterDisplay.aspx?ItemName=Seugathi"
 source_ids = ["bestiary-2", "into-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seugathi", path = "json/monsters21.json" },

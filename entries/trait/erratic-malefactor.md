@@ -2,6 +2,7 @@
 id = "ref/trait/erratic-malefactor"
 kind = "trait"
 title = "Erratic Malefactor"
+aon = "TraitDisplay.aspx?ItemName=Erratic%20Malefactor"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erratic_malefactor", path = "json/traits02.json" },

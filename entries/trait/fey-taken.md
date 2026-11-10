@@ -2,6 +2,7 @@
 id = "ref/trait/fey-taken"
 kind = "trait"
 title = "Fey-Taken"
+aon = "TraitDisplay.aspx?ItemName=Fey-Taken"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_taken", path = "json/traits03.json" },

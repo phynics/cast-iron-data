@@ -2,6 +2,7 @@
 id = "ref/spell/major-creation"
 kind = "spell"
 title = "Major Creation"
+aon = "SpellDisplay.aspx?ItemName=Major%20Creation"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "major_creation", path = "json/spells14.json" },

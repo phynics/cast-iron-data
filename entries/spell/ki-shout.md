@@ -2,6 +2,7 @@
 id = "ref/spell/ki-shout"
 kind = "spell"
 title = "Ki Shout"
+aon = "SpellDisplay.aspx?ItemName=Ki%20Shout"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_shout", path = "json/spells6.json" },

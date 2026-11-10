@@ -2,6 +2,7 @@
 id = "ref/feat/improved-reposition/teitr"
 kind = "feat"
 title = "Improved Reposition"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Reposition"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/improved-reposition", label = "removed" },

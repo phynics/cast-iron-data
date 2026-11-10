@@ -2,6 +2,7 @@
 id = "ref/trait/screaming-leap"
 kind = "trait"
 title = "Screaming Leap"
+aon = "TraitDisplay.aspx?ItemName=Screaming%20Leap"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screaming_leap", path = "json/traits04.json" },

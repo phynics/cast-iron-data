@@ -2,6 +2,7 @@
 id = "ref/feat/ability-focus"
 kind = "feat"
 title = "Ability Focus"
+aon = "FeatDisplay.aspx?ItemName=Ability%20Focus"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_focus", path = "json/feat01.json" },

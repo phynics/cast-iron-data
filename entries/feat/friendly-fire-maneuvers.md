@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-fire-maneuvers"
 kind = "feat"
 title = "Friendly Fire Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Fire%20Maneuvers"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_fire_maneuvers", path = "json/feat07.json" },

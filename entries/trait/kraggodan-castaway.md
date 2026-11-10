@@ -2,6 +2,7 @@
 id = "ref/trait/kraggodan-castaway"
 kind = "trait"
 title = "Kraggodan Castaway"
+aon = "TraitDisplay.aspx?ItemName=Kraggodan%20Castaway"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraggodan_castaway", path = "json/traits02.json" },

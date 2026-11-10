@@ -2,6 +2,7 @@
 id = "ref/trait/acolyte-of-apocrypha"
 kind = "trait"
 title = "Acolyte of Apocrypha"
+aon = "TraitDisplay.aspx?ItemName=Acolyte%20of%20Apocrypha"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acolyte_of_apocrypha", path = "json/traits01.json" },

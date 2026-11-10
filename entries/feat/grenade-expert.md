@@ -2,6 +2,7 @@
 id = "ref/feat/grenade-expert"
 kind = "feat"
 title = "Grenade Expert"
+aon = "FeatDisplay.aspx?ItemName=Grenade%20Expert"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grenade_expert", path = "json/feat08.json" },

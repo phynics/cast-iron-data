@@ -2,6 +2,7 @@
 id = "ref/feat/vampiric-companion"
 kind = "feat"
 title = "Vampiric Companion"
+aon = "FeatDisplay.aspx?ItemName=Vampiric%20Companion"
 source_ids = ["monster-codex", "blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_companion", path = "json/feat17.json" },

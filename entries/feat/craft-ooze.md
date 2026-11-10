@@ -2,6 +2,7 @@
 id = "ref/feat/craft-ooze"
 kind = "feat"
 title = "Craft Ooze"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Ooze"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_ooze", path = "json/feat03.json" },

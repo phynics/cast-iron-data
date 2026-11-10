@@ -2,6 +2,7 @@
 id = "ref/spell/assumed-likeness"
 kind = "spell"
 title = "Assumed Likeness"
+aon = "SpellDisplay.aspx?ItemName=Assumed%20Likeness"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assumed_likeness", path = "json/spells.json" },

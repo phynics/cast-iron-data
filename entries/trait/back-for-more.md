@@ -2,6 +2,7 @@
 id = "ref/trait/back-for-more"
 kind = "trait"
 title = "Back for More"
+aon = "TraitDisplay.aspx?ItemName=Back%20for%20More"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "back_for_more", path = "json/traits01.json" },

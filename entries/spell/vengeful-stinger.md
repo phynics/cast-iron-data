@@ -2,6 +2,7 @@
 id = "ref/spell/vengeful-stinger"
 kind = "spell"
 title = "Vengeful Stinger"
+aon = "SpellDisplay.aspx?ItemName=Vengeful%20Stinger"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_stinger", path = "json/spells11.json" },

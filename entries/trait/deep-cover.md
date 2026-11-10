@@ -2,6 +2,7 @@
 id = "ref/trait/deep-cover"
 kind = "trait"
 title = "Deep Cover"
+aon = "TraitDisplay.aspx?ItemName=Deep%20Cover"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_cover", path = "json/traits01.json" },

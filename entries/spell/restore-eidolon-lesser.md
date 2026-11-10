@@ -2,6 +2,7 @@
 id = "ref/spell/restore-eidolon-lesser"
 kind = "spell"
 title = "Lesser Restore Eidolon"
+aon = "SpellDisplay.aspx?ItemName=Restore%20Eidolon%2C%20Lesser"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_eidolon_lesser", path = "json/spells8.json" },

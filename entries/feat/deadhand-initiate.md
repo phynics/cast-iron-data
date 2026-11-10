@@ -2,6 +2,7 @@
 id = "ref/feat/deadhand-initiate"
 kind = "feat"
 title = "Deadhand Initiate"
+aon = "FeatDisplay.aspx?ItemName=Deadhand%20Initiate"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadhand_initiate", path = "json/feat04.json" },

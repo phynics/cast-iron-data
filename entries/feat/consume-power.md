@@ -2,6 +2,7 @@
 id = "ref/feat/consume-power"
 kind = "feat"
 title = "Consume Power"
+aon = "FeatDisplay.aspx?ItemName=Consume%20Power"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consume_power", path = "json/feat03.json" },

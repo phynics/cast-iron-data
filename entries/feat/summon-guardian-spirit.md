@@ -2,6 +2,7 @@
 id = "ref/feat/summon-guardian-spirit"
 kind = "feat"
 title = "Summon Guardian Spirit"
+aon = "FeatDisplay.aspx?ItemName=Summon%20Guardian%20Spirit"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_guardian_spirit", path = "json/feat15.json" },

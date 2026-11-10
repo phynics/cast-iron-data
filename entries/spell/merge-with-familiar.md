@@ -2,6 +2,7 @@
 id = "ref/spell/merge-with-familiar"
 kind = "spell"
 title = "Merge with Familiar"
+aon = "SpellDisplay.aspx?ItemName=Merge%20with%20Familiar"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merge_with_familiar", path = "json/spells14.json" },

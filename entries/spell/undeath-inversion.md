@@ -2,6 +2,7 @@
 id = "ref/spell/undeath-inversion"
 kind = "spell"
 title = "Undeath Inversion"
+aon = "SpellDisplay.aspx?ItemName=Undeath%20Inversion"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_inversion", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/psychodermist"
 kind = "archetype"
 title = "Psychodermist"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Psychodermist"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychodermist", path = "json/archetypes_occultist.json" },

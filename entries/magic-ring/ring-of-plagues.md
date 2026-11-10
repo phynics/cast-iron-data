@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-plagues"
 kind = "item"
 title = "Ring of Plagues"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Plagues"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_plagues", path = "json/magic_ring.json" },

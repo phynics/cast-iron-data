@@ -2,6 +2,7 @@
 id = "ref/feat/orc-hewer"
 kind = "feat"
 title = "Orc Hewer"
+aon = "FeatDisplay.aspx?ItemName=Orc%20Hewer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_hewer", path = "json/feat11.json" },

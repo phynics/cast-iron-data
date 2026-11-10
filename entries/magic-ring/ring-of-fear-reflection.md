@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-fear-reflection"
 kind = "item"
 title = "Ring of Fear Reflection"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Fear%20Reflection"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_fear_reflection", path = "json/magic_ring.json" },

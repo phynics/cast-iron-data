@@ -2,6 +2,7 @@
 id = "ref/trait/accelerated-drinker"
 kind = "trait"
 title = "Accelerated Drinker"
+aon = "TraitDisplay.aspx?ItemName=Accelerated%20Drinker"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accelerated_drinker", path = "json/traits01.json" },

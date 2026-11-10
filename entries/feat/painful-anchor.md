@@ -2,6 +2,7 @@
 id = "ref/feat/painful-anchor"
 kind = "feat"
 title = "Painful Anchor"
+aon = "FeatDisplay.aspx?ItemName=Painful%20Anchor"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_anchor", path = "json/feat11.json" },

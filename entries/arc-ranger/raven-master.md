@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/raven-master"
 kind = "archetype"
 title = "Raven Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Raven%20Master"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raven_master", path = "json/archetypes_ranger.json" },

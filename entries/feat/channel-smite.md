@@ -2,6 +2,7 @@
 id = "ref/feat/channel-smite"
 kind = "feat"
 title = "Channel Smite"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Smite"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_smite", path = "json/feat03.json" },

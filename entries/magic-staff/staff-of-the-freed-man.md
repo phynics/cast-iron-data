@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-the-freed-man"
 kind = "item"
 title = "Staff of the Freed Man"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Freed%20Man"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_freed_man", path = "json/magic_staff.json" },

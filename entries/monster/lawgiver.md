@@ -2,6 +2,7 @@
 id = "ref/monster/lawgiver"
 kind = "creature"
 title = "Lawgiver"
+aon = "MonsterDisplay.aspx?ItemName=Lawgiver"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawgiver", path = "json/monsters_unique3.json" },

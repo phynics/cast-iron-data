@@ -2,6 +2,7 @@
 id = "ref/spell/body-double"
 kind = "spell"
 title = "Body Double"
+aon = "SpellDisplay.aspx?ItemName=Body%20Double"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_double", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/blighted-myrmidon"
 kind = "archetype"
 title = "Blighted Myrmidon"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Blighted%20Myrmidon"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_myrmidon", path = "json/archetypes_antipaladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/irradiated-dead"
 kind = "creature"
 title = "Irradiated Dead"
+aon = "MonsterDisplay.aspx?ItemName=Irradiated%20Dead"
 source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiated_dead", path = "json/monsters33.json" },

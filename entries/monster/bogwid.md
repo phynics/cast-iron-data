@@ -2,6 +2,7 @@
 id = "ref/monster/bogwid"
 kind = "creature"
 title = "Bogwid"
+aon = "MonsterDisplay.aspx?ItemName=Bogwid"
 source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogwid", path = "json/monsters27.json" },

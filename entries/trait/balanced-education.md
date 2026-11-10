@@ -2,6 +2,7 @@
 id = "ref/trait/balanced-education"
 kind = "trait"
 title = "Balanced Education"
+aon = "TraitDisplay.aspx?ItemName=Balanced%20Education"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balanced_education", path = "json/traits04.json" },

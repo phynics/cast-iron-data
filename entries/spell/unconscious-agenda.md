@@ -2,6 +2,7 @@
 id = "ref/spell/unconscious-agenda"
 kind = "spell"
 title = "Unconscious Agenda"
+aon = "SpellDisplay.aspx?ItemName=Unconscious%20Agenda"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unconscious_agenda", path = "json/spells11.json" },

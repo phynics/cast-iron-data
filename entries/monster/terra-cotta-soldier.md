@@ -2,6 +2,7 @@
 id = "ref/monster/terra-cotta-soldier"
 kind = "creature"
 title = "Terra-Cotta Soldier"
+aon = "MonsterDisplay.aspx?ItemName=Terra-Cotta%20Soldier"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terra_cotta_soldier", path = "json/monsters23.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/fabricate-bullets"
 kind = "spell"
 title = "Fabricate Bullets"
+aon = "SpellDisplay.aspx?ItemName=Fabricate%20Bullets"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate_bullets", path = "json/spells4.json" },

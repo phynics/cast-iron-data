@@ -2,6 +2,7 @@
 id = "ref/feat/loyal-to-the-death"
 kind = "feat"
 title = "Loyal to the Death"
+aon = "FeatDisplay.aspx?ItemName=Loyal%20to%20the%20Death"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyal_to_the_death", path = "json/feat10.json" },

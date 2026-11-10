@@ -2,6 +2,7 @@
 id = "ref/feat/extra-amplification"
 kind = "feat"
 title = "Extra Amplification"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Amplification"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_amplification", path = "json/feat06.json" },

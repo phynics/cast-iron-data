@@ -2,6 +2,7 @@
 id = "ref/spell/mages-private-sanctum"
 kind = "spell"
 title = "Mage's Private Sanctum"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Private%20Sanctum"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_private_sanctum", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-sight"
 kind = "feat"
 title = "Spirit Sight"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Sight"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_sight", path = "json/feat15.json" },

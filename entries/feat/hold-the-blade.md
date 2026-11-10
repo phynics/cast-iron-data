@@ -2,6 +2,7 @@
 id = "ref/feat/hold-the-blade"
 kind = "feat"
 title = "Hold the Blade"
+aon = "FeatDisplay.aspx?ItemName=Hold%20the%20Blade"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_the_blade", path = "json/feat08.json" },

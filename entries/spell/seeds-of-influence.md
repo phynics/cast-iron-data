@@ -2,6 +2,7 @@
 id = "ref/spell/seeds-of-influence"
 kind = "spell"
 title = "Seeds of Influence"
+aon = "SpellDisplay.aspx?ItemName=Seeds%20of%20Influence"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeds_of_influence", path = "json/spells15.json" },

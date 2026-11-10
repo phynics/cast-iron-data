@@ -2,6 +2,7 @@
 id = "ref/monster/kudimmu"
 kind = "creature"
 title = "Kudimmu"
+aon = "MonsterDisplay.aspx?ItemName=Kudimmu"
 source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudimmu", path = "json/monsters15.json" },

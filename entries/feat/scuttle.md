@@ -2,6 +2,7 @@
 id = "ref/feat/scuttle"
 kind = "feat"
 title = "Scuttle"
+aon = "FeatDisplay.aspx?ItemName=Scuttle"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scuttle", path = "json/feat13.json" },

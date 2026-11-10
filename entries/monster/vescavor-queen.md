@@ -2,6 +2,7 @@
 id = "ref/monster/vescavor-queen"
 kind = "creature"
 title = "Vescavor Queen"
+aon = "MonsterDisplay.aspx?ItemName=Vescavor%20Queen"
 source_ids = ["bestiary-5", "pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vescavor_queen", path = "json/monsters40.json" },

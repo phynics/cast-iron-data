@@ -2,6 +2,7 @@
 id = "ref/spell/tap-inner-beauty"
 kind = "spell"
 title = "Tap Inner Beauty"
+aon = "SpellDisplay.aspx?ItemName=Tap%20Inner%20Beauty"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tap_inner_beauty", path = "json/spells10.json" },

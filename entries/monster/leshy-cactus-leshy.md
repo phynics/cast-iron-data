@@ -2,6 +2,7 @@
 id = "ref/monster/leshy-cactus-leshy"
 kind = "creature"
 title = "Cactus Leshy"
+aon = "MonsterDisplay.aspx?ItemName=Cactus%20Leshy"
 source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_cactus_leshy", path = "json/monsters34.json" },

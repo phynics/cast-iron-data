@@ -2,6 +2,7 @@
 id = "ref/pclass/ritualist"
 kind = "prestige_class"
 title = "Ritualist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Ritualist"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritualist", path = "json/prestige_classes3.json" },

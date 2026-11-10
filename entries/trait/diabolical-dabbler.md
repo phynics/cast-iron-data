@@ -2,6 +2,7 @@
 id = "ref/trait/diabolical-dabbler"
 kind = "trait"
 title = "Diabolical Dabbler"
+aon = "TraitDisplay.aspx?ItemName=Diabolical%20Dabbler"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolical_dabbler", path = "json/traits02.json" },

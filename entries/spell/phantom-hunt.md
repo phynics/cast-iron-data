@@ -2,6 +2,7 @@
 id = "ref/spell/phantom-hunt"
 kind = "spell"
 title = "Phantom Hunt"
+aon = "SpellDisplay.aspx?ItemName=Phantom%20Hunt"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_hunt", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/pilfering-hand"
 kind = "spell"
 title = "Pilfering Hand"
+aon = "SpellDisplay.aspx?ItemName=Pilfering%20Hand"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilfering_hand", path = "json/spells7.json" },

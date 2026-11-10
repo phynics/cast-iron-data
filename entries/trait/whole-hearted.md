@@ -2,6 +2,7 @@
 id = "ref/trait/whole-hearted"
 kind = "trait"
 title = "Whole-Hearted"
+aon = "TraitDisplay.aspx?ItemName=Whole-Hearted"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whole_hearted", path = "json/traits04.json" },

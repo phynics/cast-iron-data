@@ -2,6 +2,7 @@
 id = "ref/spell/unsettling-presence"
 kind = "spell"
 title = "Unsettling Presence"
+aon = "SpellDisplay.aspx?ItemName=Unsettling%20Presence"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unsettling_presence", path = "json/spells11.json" },

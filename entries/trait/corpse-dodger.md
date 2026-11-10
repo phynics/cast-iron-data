@@ -2,6 +2,7 @@
 id = "ref/trait/corpse-dodger"
 kind = "trait"
 title = "Corpse Dodger"
+aon = "TraitDisplay.aspx?ItemName=Corpse%20Dodger"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_dodger", path = "json/traits04.json" },

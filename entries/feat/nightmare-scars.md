@@ -2,6 +2,7 @@
 id = "ref/feat/nightmare-scars"
 kind = "feat"
 title = "Nightmare Scars"
+aon = "FeatDisplay.aspx?ItemName=Nightmare%20Scars"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_scars", path = "json/feat11.json" },

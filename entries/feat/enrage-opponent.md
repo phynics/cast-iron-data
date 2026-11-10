@@ -2,6 +2,7 @@
 id = "ref/feat/enrage-opponent"
 kind = "feat"
 title = "Enrage Opponent"
+aon = "FeatDisplay.aspx?ItemName=Enrage%20Opponent"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enrage_opponent", path = "json/feat05.json" },

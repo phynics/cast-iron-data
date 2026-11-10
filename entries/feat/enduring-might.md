@@ -2,6 +2,7 @@
 id = "ref/feat/enduring-might"
 kind = "feat"
 title = "Enduring Might"
+aon = "FeatDisplay.aspx?ItemName=Enduring%20Might"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enduring_might", path = "json/feat05.json" },

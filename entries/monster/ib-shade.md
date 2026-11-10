@@ -2,6 +2,7 @@
 id = "ref/monster/ib-shade"
 kind = "creature"
 title = "Ib Shade"
+aon = "MonsterDisplay.aspx?ItemName=Ib%20Shade"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ib_shade", path = "json/monsters14.json" },

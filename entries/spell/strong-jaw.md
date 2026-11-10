@@ -2,6 +2,7 @@
 id = "ref/spell/strong-jaw"
 kind = "spell"
 title = "Strong Jaw"
+aon = "SpellDisplay.aspx?ItemName=Strong%20Jaw"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_jaw", path = "json/spells15.json" },

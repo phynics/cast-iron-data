@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-wings"
 kind = "spell"
 title = "Shield of Wings"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20Wings"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_wings", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/demon-proof-mind"
 kind = "trait"
 title = "Demon-Proof Mind"
+aon = "TraitDisplay.aspx?ItemName=Demon-Proof%20Mind"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_proof_mind", path = "json/traits04.json" },

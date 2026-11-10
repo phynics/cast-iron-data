@@ -2,6 +2,7 @@
 id = "ref/feat/cold-celerity"
 kind = "feat"
 title = "Cold Celerity"
+aon = "FeatDisplay.aspx?ItemName=Cold%20Celerity"
 source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_celerity", path = "json/feat03.json" },

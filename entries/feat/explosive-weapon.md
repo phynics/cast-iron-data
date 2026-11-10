@@ -2,6 +2,7 @@
 id = "ref/feat/explosive-weapon"
 kind = "feat"
 title = "Explosive Weapon"
+aon = "FeatDisplay.aspx?ItemName=Explosive%20Weapon"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_weapon", path = "json/feat06.json" },

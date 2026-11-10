@@ -2,6 +2,7 @@
 id = "ref/trait/precise-treatment"
 kind = "trait"
 title = "Precise Treatment"
+aon = "TraitDisplay.aspx?ItemName=Precise%20Treatment"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precise_treatment", path = "json/traits02.json" },

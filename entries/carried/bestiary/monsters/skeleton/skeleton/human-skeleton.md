@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/skeleton/skeleton/human-skeleton"
 kind = "creature"
 title = "Human Skeleton"
+aon = "MonsterDisplay.aspx?ItemName=Human%20Skeleton"
 source_ids = ["bestiary"]
 section = ["Monsters", "Skeleton", "Skeleton"]
 tags = ["undead", "medium"]

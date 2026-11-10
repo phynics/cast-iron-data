@@ -2,6 +2,7 @@
 id = "ref/feat/inner-light-uw"
 kind = "feat"
 title = "Inner Light (UW)"
+aon = "FeatDisplay.aspx?ItemName=Inner%20Light%20%28UW%29"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_light_uw", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/vandal"
 kind = "feat"
 title = "Vandal"
+aon = "FeatDisplay.aspx?ItemName=Vandal"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vandal", path = "json/feat17.json" },

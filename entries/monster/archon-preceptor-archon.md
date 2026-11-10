@@ -2,6 +2,7 @@
 id = "ref/monster/archon-preceptor-archon"
 kind = "creature"
 title = "Preceptor Archon"
+aon = "MonsterDisplay.aspx?ItemName=Preceptor%20Archon"
 source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_preceptor_archon", path = "json/monsters02.json" },

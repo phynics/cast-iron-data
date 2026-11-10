@@ -2,6 +2,7 @@
 id = "ref/monster/petromin"
 kind = "creature"
 title = "Petromin"
+aon = "MonsterDisplay.aspx?ItemName=Petromin"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petromin", path = "json/monsters36.json" },

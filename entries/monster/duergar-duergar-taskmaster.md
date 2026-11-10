@@ -2,6 +2,7 @@
 id = "ref/monster/duergar-duergar-taskmaster"
 kind = "creature"
 title = "Duergar Taskmaster"
+aon = "MonsterDisplay.aspx?ItemName=Duergar%20Taskmaster"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_taskmaster", path = "json/monsters08.json" },

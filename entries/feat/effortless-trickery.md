@@ -2,6 +2,7 @@
 id = "ref/feat/effortless-trickery"
 kind = "feat"
 title = "Effortless Trickery"
+aon = "FeatDisplay.aspx?ItemName=Effortless%20Trickery"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effortless_trickery", path = "json/feat05.json" },

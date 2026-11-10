@@ -2,6 +2,7 @@
 id = "ref/feat/modification-trainer"
 kind = "feat"
 title = "Modification Trainer"
+aon = "FeatDisplay.aspx?ItemName=Modification%20Trainer"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modification_trainer", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/obscure-poison"
 kind = "spell"
 title = "Obscure Poison"
+aon = "SpellDisplay.aspx?ItemName=Obscure%20Poison"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscure_poison", path = "json/spells7.json" },

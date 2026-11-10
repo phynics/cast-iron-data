@@ -2,6 +2,7 @@
 id = "ref/trait/jungle-opportunist"
 kind = "trait"
 title = "Jungle Opportunist"
+aon = "TraitDisplay.aspx?ItemName=Jungle%20Opportunist"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_opportunist", path = "json/traits05.json" },

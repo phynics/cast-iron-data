@@ -2,6 +2,7 @@
 id = "ref/spell/create-armaments"
 kind = "spell"
 title = "Create Armaments"
+aon = "SpellDisplay.aspx?ItemName=Create%20Armaments"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_armaments", path = "json/spells12.json" },

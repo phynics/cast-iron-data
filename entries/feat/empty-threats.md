@@ -2,6 +2,7 @@
 id = "ref/feat/empty-threats"
 kind = "feat"
 title = "Empty Threats"
+aon = "FeatDisplay.aspx?ItemName=Empty%20Threats"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_threats", path = "json/feat05.json" },

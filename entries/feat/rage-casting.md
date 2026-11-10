@@ -2,6 +2,7 @@
 id = "ref/feat/rage-casting"
 kind = "feat"
 title = "Rage Casting"
+aon = "FeatDisplay.aspx?ItemName=Rage%20Casting"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage_casting", path = "json/feat12.json" },

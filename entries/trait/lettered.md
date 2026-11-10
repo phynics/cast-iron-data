@@ -2,6 +2,7 @@
 id = "ref/trait/lettered"
 kind = "trait"
 title = "Lettered"
+aon = "TraitDisplay.aspx?ItemName=Lettered"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lettered", path = "json/traits05.json" },

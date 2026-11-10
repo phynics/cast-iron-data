@@ -2,6 +2,7 @@
 id = "ref/feat/tangle-feet"
 kind = "feat"
 title = "Tangle Feet"
+aon = "FeatDisplay.aspx?ItemName=Tangle%20Feet"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tangle_feet", path = "json/feat16.json" },

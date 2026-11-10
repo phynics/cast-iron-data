@@ -2,6 +2,7 @@
 id = "ref/spell/blistering-invective"
 kind = "spell"
 title = "Blistering Invective"
+aon = "SpellDisplay.aspx?ItemName=Blistering%20Invective"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_invective", path = "json/spells2.json" },

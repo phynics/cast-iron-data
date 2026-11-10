@@ -2,6 +2,7 @@
 id = "ref/feat/aphotic-explorer"
 kind = "feat"
 title = "Aphotic Explorer"
+aon = "FeatDisplay.aspx?ItemName=Aphotic%20Explorer"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphotic_explorer", path = "json/feat01.json" },

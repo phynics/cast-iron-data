@@ -2,6 +2,7 @@
 id = "ref/feat/extra-croaking"
 kind = "feat"
 title = "Extra Croaking"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Croaking"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_croaking", path = "json/feat06.json" },

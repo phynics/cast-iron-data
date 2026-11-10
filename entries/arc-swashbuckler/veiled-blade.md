@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/veiled-blade"
 kind = "archetype"
 title = "Veiled Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Veiled%20Blade"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_blade", path = "json/archetypes_swashbuckler.json" },

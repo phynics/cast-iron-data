@@ -2,6 +2,7 @@
 id = "ref/feat/blowout-shot-deed"
 kind = "feat"
 title = "Blowout Shot Deed"
+aon = "FeatDisplay.aspx?ItemName=Blowout%20Shot%20Deed"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blowout_shot_deed", path = "json/feat02.json" },

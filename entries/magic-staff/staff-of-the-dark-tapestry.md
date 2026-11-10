@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-the-dark-tapestry"
 kind = "item"
 title = "Staff of the Dark Tapestry"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Dark%20Tapestry"
 source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_dark_tapestry", path = "json/magic_staff.json" },

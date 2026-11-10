@@ -2,6 +2,7 @@
 id = "ref/spell/shared-sacrifice"
 kind = "spell"
 title = "Shared Sacrifice"
+aon = "SpellDisplay.aspx?ItemName=Shared%20Sacrifice"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_sacrifice", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fey-friend"
 kind = "feat"
 title = "Fey Friend"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Friend"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_friend", path = "json/feat07.json" },

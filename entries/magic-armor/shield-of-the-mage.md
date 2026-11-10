@@ -2,6 +2,7 @@
 id = "ref/magic-armor/shield-of-the-mage"
 kind = "item"
 title = "Shield of the Mage"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Shield%20of%20the%20Mage"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_mage", path = "json/magic_armor.json" },

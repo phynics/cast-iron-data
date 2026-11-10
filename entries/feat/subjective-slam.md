@@ -2,6 +2,7 @@
 id = "ref/feat/subjective-slam"
 kind = "feat"
 title = "Subjective Slam"
+aon = "FeatDisplay.aspx?ItemName=Subjective%20Slam"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_slam", path = "json/feat15.json" },

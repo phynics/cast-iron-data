@@ -2,6 +2,7 @@
 id = "ref/monster/corpse-lotus"
 kind = "creature"
 title = "Corpse Lotus"
+aon = "MonsterDisplay.aspx?ItemName=Corpse%20Lotus"
 source_ids = ["bestiary-5", "pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_lotus", path = "json/monsters28.json" },

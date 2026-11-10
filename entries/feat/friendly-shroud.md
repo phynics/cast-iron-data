@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-shroud"
 kind = "feat"
 title = "Friendly Shroud"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Shroud"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_shroud", path = "json/feat07.json" },

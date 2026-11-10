@@ -2,6 +2,7 @@
 id = "ref/arc-witch/hedge-witch"
 kind = "archetype"
 title = "Hedge Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Hedge%20Witch"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hedge_witch", path = "json/archetypes_witch.json" },

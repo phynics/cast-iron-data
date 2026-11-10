@@ -2,6 +2,7 @@
 id = "ref/spell/gentle-breeze"
 kind = "spell"
 title = "Gentle Breeze"
+aon = "SpellDisplay.aspx?ItemName=Gentle%20Breeze"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gentle_breeze", path = "json/spells13.json" },

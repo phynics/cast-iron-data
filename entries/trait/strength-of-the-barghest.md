@@ -2,6 +2,7 @@
 id = "ref/trait/strength-of-the-barghest"
 kind = "trait"
 title = "Strength of the Barghest"
+aon = "TraitDisplay.aspx?ItemName=Strength%20of%20the%20Barghest"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strength_of_the_barghest", path = "json/traits03.json" },

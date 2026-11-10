@@ -2,6 +2,7 @@
 id = "ref/feat/strike-true"
 kind = "feat"
 title = "Strike True"
+aon = "FeatDisplay.aspx?ItemName=Strike%20True"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strike_true", path = "json/feat15.json" },

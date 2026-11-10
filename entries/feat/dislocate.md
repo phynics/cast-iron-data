@@ -2,6 +2,7 @@
 id = "ref/feat/dislocate"
 kind = "feat"
 title = "Dislocate"
+aon = "FeatDisplay.aspx?ItemName=Dislocate"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dislocate", path = "json/feat04.json" },

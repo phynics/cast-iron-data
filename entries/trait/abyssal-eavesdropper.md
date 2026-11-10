@@ -2,6 +2,7 @@
 id = "ref/trait/abyssal-eavesdropper"
 kind = "trait"
 title = "Abyssal Eavesdropper"
+aon = "TraitDisplay.aspx?ItemName=Abyssal%20Eavesdropper"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abyssal_eavesdropper", path = "json/traits04.json" },

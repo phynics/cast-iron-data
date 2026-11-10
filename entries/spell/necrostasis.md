@@ -2,6 +2,7 @@
 id = "ref/spell/necrostasis"
 kind = "spell"
 title = "Necrostasis"
+aon = "SpellDisplay.aspx?ItemName=Necrostasis"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrostasis", path = "json/spells7.json" },

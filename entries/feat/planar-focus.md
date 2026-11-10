@@ -2,6 +2,7 @@
 id = "ref/feat/planar-focus"
 kind = "feat"
 title = "Planar Focus"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Focus"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_focus", path = "json/feat12.json" },

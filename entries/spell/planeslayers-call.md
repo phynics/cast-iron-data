@@ -2,6 +2,7 @@
 id = "ref/spell/planeslayers-call"
 kind = "spell"
 title = "Planeslayer's Call"
+aon = "SpellDisplay.aspx?ItemName=Planeslayer%27s%20Call"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planeslayers_call", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-the-moon"
 kind = "trait"
 title = "Child of the Moon"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20the%20Moon"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_the_moon", path = "json/traits02.json" },

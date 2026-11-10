@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/shadow-scion"
 kind = "archetype"
 title = "Shadow Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Shadow%20Scion"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_scion", path = "json/archetypes_rogue.json" },

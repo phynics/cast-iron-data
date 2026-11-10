@@ -2,6 +2,7 @@
 id = "ref/monster/barghest-greater-barghest"
 kind = "creature"
 title = "Greater Barghest"
+aon = "MonsterDisplay.aspx?ItemName=Greater%20Barghest"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barghest_greater_barghest", path = "json/monsters03.json" },

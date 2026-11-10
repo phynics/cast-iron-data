@@ -2,6 +2,7 @@
 id = "ref/feat/otherworldly-influence"
 kind = "feat"
 title = "Otherworldly Influence"
+aon = "FeatDisplay.aspx?ItemName=Otherworldly%20Influence"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "otherworldly_influence", path = "json/feat11.json" },

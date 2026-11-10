@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/witchguard"
 kind = "archetype"
 title = "Witchguard"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Witchguard"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchguard", path = "json/archetypes_ranger.json" },

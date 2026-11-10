@@ -2,6 +2,7 @@
 id = "ref/spell/energy-siege-shot-greater"
 kind = "spell"
 title = "Greater Energy Siege Shot"
+aon = "SpellDisplay.aspx?ItemName=Energy%20Siege%20Shot%2C%20Greater"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_siege_shot_greater", path = "json/spells4.json" },

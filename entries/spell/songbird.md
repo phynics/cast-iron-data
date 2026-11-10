@@ -2,6 +2,7 @@
 id = "ref/spell/songbird"
 kind = "spell"
 title = "Songbird"
+aon = "SpellDisplay.aspx?ItemName=Songbird"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "songbird", path = "json/spells9.json" },

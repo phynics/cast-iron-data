@@ -2,6 +2,7 @@
 id = "ref/feat/rime-spell"
 kind = "feat"
 title = "Rime Spell"
+aon = "FeatDisplay.aspx?ItemName=Rime%20Spell"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rime_spell", path = "json/feat13.json" },

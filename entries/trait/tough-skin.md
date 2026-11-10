@@ -2,6 +2,7 @@
 id = "ref/trait/tough-skin"
 kind = "trait"
 title = "Tough Skin"
+aon = "TraitDisplay.aspx?ItemName=Tough%20Skin"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tough_skin", path = "json/traits05.json" },

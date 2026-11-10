@@ -2,6 +2,7 @@
 id = "ref/trait/hedge-magician"
 kind = "trait"
 title = "Hedge Magician"
+aon = "TraitDisplay.aspx?ItemName=Hedge%20Magician"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hedge_magician", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/arodenite-sword-training"
 kind = "trait"
 title = "Arodenite Sword Training"
+aon = "TraitDisplay.aspx?ItemName=Arodenite%20Sword%20Training"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodenite_sword_training", path = "json/traits01.json" },

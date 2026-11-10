@@ -2,6 +2,7 @@
 id = "ref/feat/brackish-spell"
 kind = "feat"
 title = "Brackish Spell"
+aon = "FeatDisplay.aspx?ItemName=Brackish%20Spell"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brackish_spell", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/oasis"
 kind = "spell"
 title = "Oasis"
+aon = "SpellDisplay.aspx?ItemName=Oasis"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oasis", path = "json/spells7.json" },

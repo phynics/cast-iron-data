@@ -2,6 +2,7 @@
 id = "ref/feat/lost-in-the-crowd"
 kind = "feat"
 title = "Lost in the Crowd"
+aon = "FeatDisplay.aspx?ItemName=Lost%20in%20the%20Crowd"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_in_the_crowd", path = "json/feat10.json" },

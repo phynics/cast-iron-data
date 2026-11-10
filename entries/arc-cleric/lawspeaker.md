@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/lawspeaker"
 kind = "archetype"
 title = "Lawspeaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Lawspeaker"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawspeaker", path = "json/archetypes_cleric.json" },

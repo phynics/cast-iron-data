@@ -2,6 +2,7 @@
 id = "ref/spell/dousing-rain"
 kind = "spell"
 title = "Dousing Rain"
+aon = "SpellDisplay.aspx?ItemName=Dousing%20Rain"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dousing_rain", path = "json/spells13.json" },

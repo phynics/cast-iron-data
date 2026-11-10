@@ -2,6 +2,7 @@
 id = "ref/spell/spark"
 kind = "spell"
 title = "Spark"
+aon = "SpellDisplay.aspx?ItemName=Spark"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark", path = "json/spells9.json" },

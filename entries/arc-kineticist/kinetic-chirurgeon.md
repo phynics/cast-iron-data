@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/kinetic-chirurgeon"
 kind = "archetype"
 title = "Kinetic Chirurgeon"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Kinetic%20Chirurgeon"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_chirurgeon", path = "json/archetypes_kineticist.json" },

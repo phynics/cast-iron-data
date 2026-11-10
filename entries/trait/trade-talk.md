@@ -2,6 +2,7 @@
 id = "ref/trait/trade-talk"
 kind = "trait"
 title = "Trade Talk"
+aon = "TraitDisplay.aspx?ItemName=Trade%20Talk"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trade_talk", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/petulengros-validation"
 kind = "spell"
 title = "Petulengro's Validation"
+aon = "SpellDisplay.aspx?ItemName=Petulengro%27s%20Validation"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petulengros_validation", path = "json/spells7.json" },

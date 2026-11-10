@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/siege-mage"
 kind = "archetype"
 title = "Siege Mage"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Siege%20Mage"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_mage", path = "json/archetypes_wizard.json" },

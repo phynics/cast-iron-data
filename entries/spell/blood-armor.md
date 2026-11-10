@@ -2,6 +2,7 @@
 id = "ref/spell/blood-armor"
 kind = "spell"
 title = "Blood Armor"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Armor"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_armor", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/statuesque"
 kind = "trait"
 title = "Statuesque"
+aon = "TraitDisplay.aspx?ItemName=Statuesque"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "statuesque", path = "json/traits05.json" },

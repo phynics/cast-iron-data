@@ -2,6 +2,7 @@
 id = "ref/trait/unnatural-revenge"
 kind = "trait"
 title = "Unnatural Revenge"
+aon = "TraitDisplay.aspx?ItemName=Unnatural%20Revenge"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unnatural_revenge", path = "json/traits01.json" },

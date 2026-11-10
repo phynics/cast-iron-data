@@ -2,6 +2,7 @@
 id = "ref/trait/formerly-mind-swapped"
 kind = "trait"
 title = "Formerly Mind-Swapped"
+aon = "TraitDisplay.aspx?ItemName=Formerly%20Mind-Swapped"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formerly_mind_swapped", path = "json/traits03.json" },

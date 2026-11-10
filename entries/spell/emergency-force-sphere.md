@@ -2,6 +2,7 @@
 id = "ref/spell/emergency-force-sphere"
 kind = "spell"
 title = "Emergency Force Sphere"
+aon = "SpellDisplay.aspx?ItemName=Emergency%20Force%20Sphere"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emergency_force_sphere", path = "json/spells4.json" },

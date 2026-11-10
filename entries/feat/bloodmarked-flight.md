@@ -2,6 +2,7 @@
 id = "ref/feat/bloodmarked-flight"
 kind = "feat"
 title = "Bloodmarked Flight"
+aon = "FeatDisplay.aspx?ItemName=Bloodmarked%20Flight"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodmarked_flight", path = "json/feat02.json" },

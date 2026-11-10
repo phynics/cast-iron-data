@@ -2,6 +2,7 @@
 id = "ref/spell/persuasive-goad"
 kind = "spell"
 title = "Persuasive Goad"
+aon = "SpellDisplay.aspx?ItemName=Persuasive%20Goad"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persuasive_goad", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/unusual-heritage-fetchling"
 kind = "feat"
 title = "Unusual Heritage (Fetchling)"
+aon = "FeatDisplay.aspx?ItemName=Unusual%20Heritage%20%28Fetchling%29"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unusual_heritage_fetchling", path = "json/feat17.json" },

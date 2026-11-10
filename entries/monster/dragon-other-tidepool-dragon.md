@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-other-tidepool-dragon"
 kind = "creature"
 title = "Tidepool Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Tidepool%20Dragon"
 source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_tidepool_dragon", path = "json/monsters42.json" },

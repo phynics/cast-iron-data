@@ -2,6 +2,7 @@
 id = "ref/race/drow-noble"
 kind = "race"
 title = "Drow Noble"
+aon = "RacesDisplay.aspx?ItemName=Drow%20Noble"
 source_ids = ["bestiary"]
 race_group = "other_race"
 provenance = [

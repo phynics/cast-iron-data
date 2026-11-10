@@ -2,6 +2,7 @@
 id = "ref/feat/shield-snag"
 kind = "feat"
 title = "Shield Snag"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Snag"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_snag", path = "json/feat14.json" },

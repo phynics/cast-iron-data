@@ -2,6 +2,7 @@
 id = "ref/feat/ki-diversity"
 kind = "feat"
 title = "Ki Diversity"
+aon = "FeatDisplay.aspx?ItemName=Ki%20Diversity"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_diversity", path = "json/feat09.json" },

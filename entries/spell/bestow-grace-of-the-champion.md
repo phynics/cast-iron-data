@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-grace-of-the-champion"
 kind = "spell"
 title = "Bestow Grace of the Champion"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Grace%20of%20the%20Champion"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_grace_of_the_champion", path = "json/spells12.json" },

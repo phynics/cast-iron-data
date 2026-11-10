@@ -2,6 +2,7 @@
 id = "ref/spell/mad-monkeys"
 kind = "spell"
 title = "Mad Monkeys"
+aon = "SpellDisplay.aspx?ItemName=Mad%20Monkeys"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mad_monkeys", path = "json/spells6.json" },

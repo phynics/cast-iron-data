@@ -2,6 +2,7 @@
 id = "ref/trait/childhood-crush"
 kind = "trait"
 title = "Childhood Crush"
+aon = "TraitDisplay.aspx?ItemName=Childhood%20Crush"
 source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "childhood_crush", path = "json/traits02.json" },

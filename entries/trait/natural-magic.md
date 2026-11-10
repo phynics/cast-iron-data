@@ -2,6 +2,7 @@
 id = "ref/trait/natural-magic"
 kind = "trait"
 title = "Natural Magic"
+aon = "TraitDisplay.aspx?ItemName=Natural%20Magic"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_magic", path = "json/traits03.json" },

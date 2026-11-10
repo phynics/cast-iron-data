@@ -2,6 +2,7 @@
 id = "ref/spell/id-insinuation-4"
 kind = "spell"
 title = "Id Insinuation IV"
+aon = "SpellDisplay.aspx?ItemName=Id%20Insinuation%20IV"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_insinuation_4", path = "json/spells5.json" },

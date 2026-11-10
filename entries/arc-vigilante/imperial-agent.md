@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/imperial-agent"
 kind = "archetype"
 title = "Imperial Agent"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Imperial%20Agent"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imperial_agent", path = "json/archetypes_vigilante.json" },

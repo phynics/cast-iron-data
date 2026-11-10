@@ -2,6 +2,7 @@
 id = "ref/trait/goblin-watcher"
 kind = "trait"
 title = "Goblin Watcher"
+aon = "TraitDisplay.aspx?ItemName=Goblin%20Watcher"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_watcher", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-sphere"
 kind = "spell"
 title = "Telekinetic Sphere"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Sphere"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_sphere", path = "json/spells10.json" },

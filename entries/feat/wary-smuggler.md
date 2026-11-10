@@ -2,6 +2,7 @@
 id = "ref/feat/wary-smuggler"
 kind = "feat"
 title = "Wary Smuggler"
+aon = "FeatDisplay.aspx?ItemName=Wary%20Smuggler"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wary_smuggler", path = "json/feat17.json" },

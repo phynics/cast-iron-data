@@ -2,6 +2,7 @@
 id = "ref/feat/extra-feature"
 kind = "feat"
 title = "Extra Feature"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Feature"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_feature", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/minkai-advocate"
 kind = "trait"
 title = "Minkai Advocate"
+aon = "TraitDisplay.aspx?ItemName=Minkai%20Advocate"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minkai_advocate", path = "json/traits04.json" },

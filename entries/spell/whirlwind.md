@@ -2,6 +2,7 @@
 id = "ref/spell/whirlwind"
 kind = "spell"
 title = "Whirlwind"
+aon = "SpellDisplay.aspx?ItemName=Whirlwind"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind", path = "json/spells16.json" },

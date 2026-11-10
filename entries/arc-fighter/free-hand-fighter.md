@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/free-hand-fighter"
 kind = "archetype"
 title = "Free Hand Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Free%20Hand%20Fighter"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_hand_fighter", path = "json/archetypes_fighter.json" },

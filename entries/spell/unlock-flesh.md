@@ -2,6 +2,7 @@
 id = "ref/spell/unlock-flesh"
 kind = "spell"
 title = "Unlock Flesh"
+aon = "SpellDisplay.aspx?ItemName=Unlock%20Flesh"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlock_flesh", path = "json/spells11.json" },

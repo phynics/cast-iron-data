@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/esoteric-starseeker"
 kind = "archetype"
 title = "Esoteric Starseeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Esoteric%20Starseeker"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_starseeker", path = "json/archetypes_psychic.json" },

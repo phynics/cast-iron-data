@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-the-dawnflower"
 kind = "spell"
 title = "Shield of the Dawnflower"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20the%20Dawnflower"
 source_ids = ["inner-sea-world-guide", "gods-and-magic", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_the_dawnflower", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/larger-than-life"
 kind = "trait"
 title = "Larger Than Life"
+aon = "TraitDisplay.aspx?ItemName=Larger%20Than%20Life"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "larger_than_life", path = "json/traits01.json" },

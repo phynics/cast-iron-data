@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/clocksmith"
 kind = "archetype"
 title = "Clocksmith"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Clocksmith"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clocksmith", path = "json/archetypes_wizard.json" },

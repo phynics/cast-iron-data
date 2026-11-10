@@ -2,6 +2,7 @@
 id = "ref/feat/dragonbane-aura"
 kind = "feat"
 title = "Dragonbane Aura"
+aon = "FeatDisplay.aspx?ItemName=Dragonbane%20Aura"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonbane_aura", path = "json/feat05.json" },

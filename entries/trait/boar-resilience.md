@@ -2,6 +2,7 @@
 id = "ref/trait/boar-resilience"
 kind = "trait"
 title = "Boar Resilience"
+aon = "TraitDisplay.aspx?ItemName=Boar%20Resilience"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_resilience", path = "json/traits05.json" },

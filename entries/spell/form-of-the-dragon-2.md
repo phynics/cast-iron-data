@@ -2,6 +2,7 @@
 id = "ref/spell/form-of-the-dragon-2"
 kind = "spell"
 title = "Form of the Dragon II"
+aon = "SpellDisplay.aspx?ItemName=Form%20of%20the%20Dragon%20II"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_of_the_dragon_2", path = "json/spells13.json" },

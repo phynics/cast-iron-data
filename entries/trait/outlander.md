@@ -2,6 +2,7 @@
 id = "ref/trait/outlander"
 kind = "trait"
 title = "Outlander"
+aon = "TraitDisplay.aspx?ItemName=Outlander"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outlander", path = "json/traits03.json" },

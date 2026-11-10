@@ -2,6 +2,7 @@
 id = "ref/spell/true-prognostication"
 kind = "spell"
 title = "True Prognostication"
+aon = "SpellDisplay.aspx?ItemName=True%20Prognostication"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_prognostication", path = "json/spells13.json" },

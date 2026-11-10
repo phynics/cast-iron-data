@@ -2,6 +2,7 @@
 id = "ref/trait/founders-heritage"
 kind = "trait"
 title = "Founders' Heritage"
+aon = "TraitDisplay.aspx?ItemName=Founders%27%20Heritage"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "founders_heritage", path = "json/traits01.json" },

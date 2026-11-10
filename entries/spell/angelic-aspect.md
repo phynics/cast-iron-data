@@ -2,6 +2,7 @@
 id = "ref/spell/angelic-aspect"
 kind = "spell"
 title = "Angelic Aspect"
+aon = "SpellDisplay.aspx?ItemName=Angelic%20Aspect"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_aspect", path = "json/spells.json" },

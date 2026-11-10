@@ -2,6 +2,7 @@
 id = "ref/feat/war-singer"
 kind = "feat"
 title = "War Singer"
+aon = "FeatDisplay.aspx?ItemName=War%20Singer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_singer", path = "json/feat17.json" },

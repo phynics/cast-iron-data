@@ -2,6 +2,7 @@
 id = "ref/monster/blightspawn-of-ghlaunder"
 kind = "creature"
 title = "Blightspawn of Ghlaunder"
+aon = "MonsterDisplay.aspx?ItemName=Blightspawn%20of%20Ghlaunder"
 source_ids = ["feast-of-ravenmoor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightspawn_of_ghlaunder", path = "json/monsters27.json" },

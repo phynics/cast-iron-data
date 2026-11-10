@@ -2,6 +2,7 @@
 id = "ref/monster/stygira"
 kind = "creature"
 title = "Stygira"
+aon = "MonsterDisplay.aspx?ItemName=Stygira"
 source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygira", path = "json/monsters38.json" },

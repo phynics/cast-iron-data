@@ -2,6 +2,7 @@
 id = "ref/feat/masked-by-fear"
 kind = "feat"
 title = "Masked by Fear"
+aon = "FeatDisplay.aspx?ItemName=Masked%20by%20Fear"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_by_fear", path = "json/feat10.json" },

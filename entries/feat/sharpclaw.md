@@ -2,6 +2,7 @@
 id = "ref/feat/sharpclaw"
 kind = "feat"
 title = "Sharpclaw"
+aon = "FeatDisplay.aspx?ItemName=Sharpclaw"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sharpclaw", path = "json/feat14.json" },

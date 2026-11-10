@@ -2,6 +2,7 @@
 id = "ref/trait/nightstall-urchin"
 kind = "trait"
 title = "Nightstall Urchin"
+aon = "TraitDisplay.aspx?ItemName=Nightstall%20Urchin"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightstall_urchin", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/thriae-thriae-seer"
 kind = "creature"
 title = "Thriae Seer"
+aon = "MonsterDisplay.aspx?ItemName=Thriae%20Seer"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_seer", path = "json/monsters39.json" },

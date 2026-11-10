@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-edict-adult-edict-dragon"
 kind = "creature"
 title = "Adult Edict Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Adult%20Edict%20Dragon"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_edict_adult_edict_dragon", path = "json/monsters30.json" },

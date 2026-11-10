@@ -2,6 +2,7 @@
 id = "ref/feat/wayang-soothsayer"
 kind = "feat"
 title = "Wayang Soothsayer"
+aon = "FeatDisplay.aspx?ItemName=Wayang%20Soothsayer"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang_soothsayer", path = "json/feat17.json" },

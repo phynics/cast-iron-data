@@ -2,6 +2,7 @@
 id = "ref/feat/brisk-spell"
 kind = "feat"
 title = "Brisk Spell"
+aon = "FeatDisplay.aspx?ItemName=Brisk%20Spell"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brisk_spell", path = "json/feat02.json" },

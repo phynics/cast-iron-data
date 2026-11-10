@@ -2,6 +2,7 @@
 id = "ref/spell/lipstitch"
 kind = "spell"
 title = "Lipstitch"
+aon = "SpellDisplay.aspx?ItemName=Lipstitch"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lipstitch", path = "json/spells6.json" },

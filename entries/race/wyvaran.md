@@ -2,6 +2,7 @@
 id = "ref/race/wyvaran"
 kind = "race"
 title = "Wyvaran"
+aon = "RacesDisplay.aspx?ItemName=Wyvaran"
 source_ids = ["inner-sea-races", "bestiary-4", "legacy-of-dragons"]
 race_group = "other_race"
 provenance = [

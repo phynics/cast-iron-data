@@ -2,6 +2,7 @@
 id = "ref/feat/dreadful-carnage"
 kind = "feat"
 title = "Dreadful Carnage"
+aon = "FeatDisplay.aspx?ItemName=Dreadful%20Carnage"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreadful_carnage", path = "json/feat05.json" },

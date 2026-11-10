@@ -2,6 +2,7 @@
 id = "ref/feat/superior-dirty-trick"
 kind = "feat"
 title = "Superior Dirty Trick"
+aon = "FeatDisplay.aspx?ItemName=Superior%20Dirty%20Trick"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_dirty_trick", path = "json/feat15.json" },

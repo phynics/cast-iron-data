@@ -2,6 +2,7 @@
 id = "ref/trait/dwarf-trained"
 kind = "trait"
 title = "Dwarf-Trained"
+aon = "TraitDisplay.aspx?ItemName=Dwarf-Trained"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf_trained", path = "json/traits02.json" },

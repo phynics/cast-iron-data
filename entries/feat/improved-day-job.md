@@ -2,6 +2,7 @@
 id = "ref/feat/improved-day-job"
 kind = "feat"
 title = "Improved Day Job"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Day%20Job"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_day_job", path = "json/feat08.json" },

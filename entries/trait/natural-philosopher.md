@@ -2,6 +2,7 @@
 id = "ref/trait/natural-philosopher"
 kind = "trait"
 title = "Natural Philosopher"
+aon = "TraitDisplay.aspx?ItemName=Natural%20Philosopher"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_philosopher", path = "json/traits03.json" },

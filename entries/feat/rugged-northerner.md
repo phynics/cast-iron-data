@@ -2,6 +2,7 @@
 id = "ref/feat/rugged-northerner"
 kind = "feat"
 title = "Rugged Northerner"
+aon = "FeatDisplay.aspx?ItemName=Rugged%20Northerner"
 source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rugged_northerner", path = "json/feat13.json" },

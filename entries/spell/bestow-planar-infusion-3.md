@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-planar-infusion-3"
 kind = "spell"
 title = "Bestow Planar Infusion III"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Planar%20Infusion%20III"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_planar_infusion_3", path = "json/spells12.json" },

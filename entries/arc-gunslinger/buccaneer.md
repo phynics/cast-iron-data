@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/buccaneer"
 kind = "archetype"
 title = "Buccaneer"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Buccaneer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buccaneer", path = "json/archetypes_gunslinger.json" },

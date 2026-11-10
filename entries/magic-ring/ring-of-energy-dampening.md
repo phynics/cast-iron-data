@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-energy-dampening"
 kind = "item"
 title = "Ring of Energy Dampening"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Energy%20Dampening"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_energy_dampening", path = "json/magic_ring.json" },

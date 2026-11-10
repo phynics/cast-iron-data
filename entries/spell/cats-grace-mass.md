@@ -2,6 +2,7 @@
 id = "ref/spell/cats-grace-mass"
 kind = "spell"
 title = "Mass Cat's Grace"
+aon = "SpellDisplay.aspx?ItemName=Cat%27s%20Grace%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cats_grace_mass", path = "json/spells2.json" },

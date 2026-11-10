@@ -2,6 +2,7 @@
 id = "ref/feat/lucid-dreamer"
 kind = "feat"
 title = "Lucid Dreamer"
+aon = "FeatDisplay.aspx?ItemName=Lucid%20Dreamer"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucid_dreamer", path = "json/feat10.json" },

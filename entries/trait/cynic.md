@@ -2,6 +2,7 @@
 id = "ref/trait/cynic"
 kind = "trait"
 title = "Cynic"
+aon = "TraitDisplay.aspx?ItemName=Cynic"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cynic", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sacred-summons"
 kind = "feat"
 title = "Sacred Summons"
+aon = "FeatDisplay.aspx?ItemName=Sacred%20Summons"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_summons", path = "json/feat13.json" },

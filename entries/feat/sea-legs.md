@@ -2,6 +2,7 @@
 id = "ref/feat/sea-legs"
 kind = "feat"
 title = "Sea Legs"
+aon = "FeatDisplay.aspx?ItemName=Sea%20Legs"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_legs", path = "json/feat13.json" },

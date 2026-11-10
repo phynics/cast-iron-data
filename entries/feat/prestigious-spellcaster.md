@@ -2,6 +2,7 @@
 id = "ref/feat/prestigious-spellcaster"
 kind = "feat"
 title = "Prestigious Spellcaster"
+aon = "FeatDisplay.aspx?ItemName=Prestigious%20Spellcaster"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestigious_spellcaster", path = "json/feat12.json" },

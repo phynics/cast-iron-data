@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/involutionist"
 kind = "archetype"
 title = "Involutionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Involutionist"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "involutionist", path = "json/archetypes_spiritualist.json" },

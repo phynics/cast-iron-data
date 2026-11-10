@@ -2,6 +2,7 @@
 id = "ref/spell/thaumaturgic-circle"
 kind = "spell"
 title = "Thaumaturgic Circle"
+aon = "SpellDisplay.aspx?ItemName=Thaumaturgic%20Circle"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thaumaturgic_circle", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/boarded-in-the-shackles"
 kind = "trait"
 title = "Boarded in the Shackles"
+aon = "TraitDisplay.aspx?ItemName=Boarded%20in%20the%20Shackles"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarded_in_the_shackles", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/boarded-in-cheliax"
 kind = "trait"
 title = "Boarded in Cheliax"
+aon = "TraitDisplay.aspx?ItemName=Boarded%20in%20Cheliax"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarded_in_cheliax", path = "json/traits02.json" },

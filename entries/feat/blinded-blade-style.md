@@ -2,6 +2,7 @@
 id = "ref/feat/blinded-blade-style"
 kind = "feat"
 title = "Blinded Blade Style"
+aon = "FeatDisplay.aspx?ItemName=Blinded%20Blade%20Style"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded_blade_style", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/sun-orchid-harvester"
 kind = "trait"
 title = "Sun Orchid Harvester"
+aon = "TraitDisplay.aspx?ItemName=Sun%20Orchid%20Harvester"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_orchid_harvester", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/dynasty-founder"
 kind = "feat"
 title = "Dynasty Founder"
+aon = "FeatDisplay.aspx?ItemName=Dynasty%20Founder"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dynasty_founder", path = "json/feat05.json" },

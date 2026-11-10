@@ -2,6 +2,7 @@
 id = "ref/monster/agrawgh"
 kind = "creature"
 title = "Agrawgh"
+aon = "MonsterDisplay.aspx?ItemName=Agrawgh"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agrawgh", path = "json/monsters01.json" },

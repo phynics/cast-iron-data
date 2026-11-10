@@ -2,6 +2,7 @@
 id = "ref/trait/flotsam"
 kind = "trait"
 title = "Flotsam"
+aon = "TraitDisplay.aspx?ItemName=Flotsam"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flotsam", path = "json/traits04.json" },

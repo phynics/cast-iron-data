@@ -2,6 +2,7 @@
 id = "ref/feat/heroic-defiance"
 kind = "feat"
 title = "Heroic Defiance"
+aon = "FeatDisplay.aspx?ItemName=Heroic%20Defiance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_defiance", path = "json/feat08.json" },

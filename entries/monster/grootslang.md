@@ -2,6 +2,7 @@
 id = "ref/monster/grootslang"
 kind = "creature"
 title = "Grootslang"
+aon = "MonsterDisplay.aspx?ItemName=Grootslang"
 source_ids = ["bestiary-3", "pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grootslang", path = "json/monsters13.json" },

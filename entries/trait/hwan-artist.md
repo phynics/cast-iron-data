@@ -2,6 +2,7 @@
 id = "ref/trait/hwan-artist"
 kind = "trait"
 title = "Hwan Artist"
+aon = "TraitDisplay.aspx?ItemName=Hwan%20Artist"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hwan_artist", path = "json/traits04.json" },

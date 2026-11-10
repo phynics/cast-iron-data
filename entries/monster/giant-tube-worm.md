@@ -2,6 +2,7 @@
 id = "ref/monster/giant-tube-worm"
 kind = "creature"
 title = "Giant Tube Worm"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Tube%20Worm"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_tube_worm", path = "json/monsters11.json" },

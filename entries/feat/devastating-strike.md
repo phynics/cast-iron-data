@@ -2,6 +2,7 @@
 id = "ref/feat/devastating-strike"
 kind = "feat"
 title = "Devastating Strike"
+aon = "FeatDisplay.aspx?ItemName=Devastating%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastating_strike", path = "json/feat04.json" },

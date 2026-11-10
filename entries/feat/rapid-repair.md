@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-repair"
 kind = "feat"
 title = "Rapid Repair"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Repair"
 source_ids = ["pathfinder-85-fires-of-creation", "people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_repair", path = "json/feat13.json" },

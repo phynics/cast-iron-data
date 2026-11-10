@@ -2,6 +2,7 @@
 id = "ref/feat/blinding-light"
 kind = "feat"
 title = "Blinding Light"
+aon = "FeatDisplay.aspx?ItemName=Blinding%20Light"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_light", path = "json/feat02.json" },

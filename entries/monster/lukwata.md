@@ -2,6 +2,7 @@
 id = "ref/monster/lukwata"
 kind = "creature"
 title = "Lukwata"
+aon = "MonsterDisplay.aspx?ItemName=Lukwata"
 source_ids = ["bestiary-3", "pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lukwata", path = "json/monsters16.json" },

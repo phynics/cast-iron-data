@@ -2,6 +2,7 @@
 id = "ref/spell/languid-venom"
 kind = "spell"
 title = "Languid Venom"
+aon = "SpellDisplay.aspx?ItemName=Languid%20Venom"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "languid_venom", path = "json/spells6.json" },
