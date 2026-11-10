@@ -4,6 +4,7 @@ kind = "race"
 title = "Halfling"
 aon = "RacesDisplay.aspx?ItemName=Halfling"
 source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "horror-adventures", "heroes-of-the-wild", "advanced-players-guide", "legacy-of-the-first-world", "legacy-of-dragons", "heroes-of-the-streets", "halflings-of-golarion", "blood-of-shadows", "heroes-of-the-high-court", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling", path = "json/races2.json" },
 ]

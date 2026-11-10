@@ -4,6 +4,7 @@ kind = "race"
 title = "Reborn Samsaran"
 aon = "RacesDisplay.aspx?ItemName=Reborn%20Samsaran"
 source_ids = ["occult-bestiary"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reborn_samsaran", path = "json/races4.json" },
 ]

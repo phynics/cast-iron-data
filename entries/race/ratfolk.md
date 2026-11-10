@@ -4,6 +4,7 @@ kind = "race"
 title = "Ratfolk"
 aon = "RacesDisplay.aspx?ItemName=Ratfolk"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-3", "monster-codex", "blood-of-the-beast", "wilderness-origins"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk", path = "json/races3.json" },
 ]

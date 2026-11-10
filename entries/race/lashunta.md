@@ -4,6 +4,7 @@ kind = "race"
 title = "Lashunta"
 aon = "RacesDisplay.aspx?ItemName=Lashunta"
 source_ids = ["inner-sea-races", "people-of-the-stars", "inner-sea-bestiary"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashunta", path = "json/races2.json" },
 ]

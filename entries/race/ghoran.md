@@ -4,6 +4,7 @@ kind = "race"
 title = "Ghoran"
 aon = "RacesDisplay.aspx?ItemName=Ghoran"
 source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-5", "inner-sea-bestiary", "wilderness-origins"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoran", path = "json/races3.json" },
 ]

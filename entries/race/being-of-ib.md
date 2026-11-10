@@ -4,6 +4,7 @@ kind = "race"
 title = "Being of Ib"
 aon = "RacesDisplay.aspx?ItemName=Being%20of%20Ib"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "being_of_ib", path = "json/races.json" },
 ]

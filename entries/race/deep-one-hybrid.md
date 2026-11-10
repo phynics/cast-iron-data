@@ -4,6 +4,7 @@ kind = "race"
 title = "Deep One Hybrid"
 aon = "RacesDisplay.aspx?ItemName=Deep%20One%20Hybrid"
 source_ids = ["bestiary-5"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one_hybrid", path = "json/races.json" },
 ]

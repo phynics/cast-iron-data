@@ -4,6 +4,7 @@ kind = "race"
 title = "Munavri"
 aon = "RacesDisplay.aspx?ItemName=Munavri"
 source_ids = ["bestiary-6", "occult-bestiary", "darklands-revisited"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "munavri", path = "json/races2.json" },
 ]

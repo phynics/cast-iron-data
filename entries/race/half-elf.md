@@ -4,6 +4,7 @@ kind = "race"
 title = "Half-Elf"
 aon = "RacesDisplay.aspx?ItemName=Half-Elf"
 source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes-from-the-fringe", "bastards-of-golarion", "legacy-of-the-first-world", "advanced-players-guide", "blood-of-shadows", "darklands-revisited", "horror-adventures", "legacy-of-dragons", "heroes-of-the-wild", "heroes-of-the-high-court", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf", path = "json/races3.json" },
 ]

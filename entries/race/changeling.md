@@ -4,6 +4,7 @@ kind = "race"
 title = "Changeling"
 aon = "RacesDisplay.aspx?ItemName=Changeling"
 source_ids = ["inner-sea-races", "bestiary-4", "pathfinder-43-haunting-of-harrowstone", "advanced-race-guide", "blood-of-the-coven", "agents-of-evil", "cheliax-the-infernal-empire"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changeling", path = "json/races.json" },
 ]

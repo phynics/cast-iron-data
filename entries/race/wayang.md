@@ -4,6 +4,7 @@ kind = "race"
 title = "Wayang"
 aon = "RacesDisplay.aspx?ItemName=Wayang"
 source_ids = ["inner-sea-races", "advanced-race-guide", "dragon-empires-primer", "dragon-empires-gazetteer", "bestiary-4", "blood-of-shadows"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang", path = "json/races4.json" },
 ]

@@ -4,6 +4,7 @@ kind = "race"
 title = "Tiefling"
 aon = "RacesDisplay.aspx?ItemName=Tiefling"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-fiends", "agents-of-evil", "blood-of-shadows", "wilderness-origins"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiefling", path = "json/races4.json" },
 ]

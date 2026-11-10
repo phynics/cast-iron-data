@@ -4,6 +4,7 @@ kind = "race"
 title = "Gathlain"
 aon = "RacesDisplay.aspx?ItemName=Gathlain"
 source_ids = ["ultimate-wilderness", "inner-sea-races", "bestiary-4", "legacy-of-the-first-world", "wilderness-origins"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gathlain", path = "json/races3.json" },
 ]

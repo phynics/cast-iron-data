@@ -4,6 +4,7 @@ kind = "race"
 title = "Ifrit"
 aon = "RacesDisplay.aspx?ItemName=Ifrit"
 source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hoppers-handbook"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ifrit", path = "json/races2.json" },
 ]

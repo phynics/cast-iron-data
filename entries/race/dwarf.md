@@ -4,6 +4,7 @@ kind = "race"
 title = "Dwarf"
 aon = "RacesDisplay.aspx?ItemName=Dwarf"
 source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "heroes-of-the-wild", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "legacy-of-the-first-world", "rival-guide", "heroes-of-the-streets", "legacy-of-dragons", "heroes-of-the-high-court", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf", path = "json/races.json" },
 ]

@@ -4,6 +4,7 @@ kind = "race"
 title = "Reptoid"
 aon = "RacesDisplay.aspx?ItemName=Reptoid"
 source_ids = ["bestiary-5"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reptoid", path = "json/races3.json" },
 ]

@@ -4,6 +4,7 @@ kind = "race"
 title = "Drow"
 aon = "RacesDisplay.aspx?ItemName=Drow"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-shadows", "agents-of-evil", "wilderness-origins"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow", path = "json/races.json" },
 ]

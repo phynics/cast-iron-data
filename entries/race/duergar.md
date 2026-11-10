@@ -4,6 +4,7 @@ kind = "race"
 title = "Duergar"
 aon = "RacesDisplay.aspx?ItemName=Duergar"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-codex", "darklands-revisited"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar", path = "json/races.json" },
 ]

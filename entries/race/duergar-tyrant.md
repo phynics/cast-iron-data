@@ -3,6 +3,7 @@ id = "ref/race/duergar-tyrant"
 kind = "race"
 title = "Duergar Tyrant"
 source_ids = ["occult-bestiary", "advanced-race-guide"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_tyrant", path = "json/races.json" },
 ]
