@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/arcane-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/disruptive", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ normal = "A summoning or calling spell can be disrupted only by a failed concent
 +++
 
 ## Dimensional Disruption (Combat)
-
-**Sources:** Monster Summoner's Handbook pg 9
 
 You've become so adept at combating summoned creatures that you can interrupt the magical energies
 that summon them to your plane.\

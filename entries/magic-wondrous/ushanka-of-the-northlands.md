@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ushanka_of_the_northlands", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 61\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** head; **Price** 4,500 gp; **Weight** -
 

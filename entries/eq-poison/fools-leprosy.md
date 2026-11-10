@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_leprosy", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "432"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "10,000 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Curse of the Crimson Throne pg 432
 
 **Price** 10,000 gp; **Weight** —
 

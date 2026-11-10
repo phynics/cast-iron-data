@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "generating_manifestation_points", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 201
 
 Psychic manifestations are fueled by psychic energy, represented by manifestation points (MP). Each
 combatant has a manifesting level equal either to its highest caster level or half its number of Hit

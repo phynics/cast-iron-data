@@ -6,6 +6,12 @@ source_ids = ["horror-adventures", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrowing_claws", path = "json/magic_fleshcrafting.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "167"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "22,500 gp"
 slot = "hands"
 +++
 
-**Sources:** Horror Adventures pg 167, Pathfinder \#16: Endless Night pg 63\
 **Price** 22,500 gp; **Elixir Price** 500 gp\
 **Saving Throw DC** 15; **Slot** hands; **Temporary Duration** 1 hour
 

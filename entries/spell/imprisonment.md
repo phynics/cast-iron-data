@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imprisonment", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "300"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates; see text
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 300
 
 When you cast imprisonment and touch a creature, it is entombed in a state of suspended animation
 (see the [temporal stasis](ref/spell/temporal-stasis) spell) in a small sphere far beneath the

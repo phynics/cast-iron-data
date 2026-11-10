@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammon", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Argent Prince
 
-**Sources:** Inner Sea Gods pg 318\
 **Monster Link** [Mammon](ref/monster/archdevil-mammon)
 
 ### Details

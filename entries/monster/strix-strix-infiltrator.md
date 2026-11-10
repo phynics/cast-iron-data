@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix_strix_infiltrator", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _Seemingly human at first glance, this feathered woman conceals wings beneath a 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 54\
 **Subtype:** Strix\
 **Experience points:** 800
 

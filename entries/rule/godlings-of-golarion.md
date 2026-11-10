@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godlings_of_golarion", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 5
 
 While _Mythic Adventures_ touches on the subject of mythic characters gaining their power as a
 result of being directly descended from deities, this section expands on that idea by offering rules

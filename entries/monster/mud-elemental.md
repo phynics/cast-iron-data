@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_elemental", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "120"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ dripping sludge._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 120\
 **Subtype:** Earth, Elemental, Extraplanar, Water
 
 **tremorsense:** 30

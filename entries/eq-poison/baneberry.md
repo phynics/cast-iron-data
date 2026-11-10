@@ -6,6 +6,9 @@ source_ids = ["guide-to-the-river-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baneberry", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "guide-to-the-river-kingdoms"
+page = "14"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "90 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Guide to the River Kingdoms pg 14
 
 **Price** 90 gp; **Weight** —
 

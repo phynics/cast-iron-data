@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girtablilu_quick_striker", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Foul liquid drips in equal measure from this scorpion-woman's fearsome spear an
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 38\
 **tremorsense:** 30
 
 **Experience points:** 19,200

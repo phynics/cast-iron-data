@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_metal", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
+[[sources]]
+publication = "faiths-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Spell resistance: yes (object)
 Target: one melee weapon
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Combat pg 245, Faiths of Purity pg 28
 
 The target weapon ignites into flame that does not hurt the weapon or the wielder, but damages those
 hit by the weapon. When the weapon's wielder hits with this weapon, it deals an additional 1d4

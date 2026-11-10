@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoes_of_lightning_leaping", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "233"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 233\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** feet; **Price** 10,500 gp; **Weight** 1 lb.
 

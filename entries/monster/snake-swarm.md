@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_swarm", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "249"
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _Hissing menacingly, this mass of snakes resembles a pile of slithering tentacle
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 249, Pathfinder \#39: The City of Seven Spears pg 82\
 **Subtype:** Swarm
 
 **Size:** tiny

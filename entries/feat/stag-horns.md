@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stag_horns", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Attempting a grapple requires a standard action, which provokes an att
 +++
 
 ## Stag Horns (Combat)
-
-**Sources:** Heroes of the Wild pg 23
 
 You've learned to gain the upper hand against your enemies by charging at them with feigned abandon,
 yet gaining a strong grip on them after attacking.\

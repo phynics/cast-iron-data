@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moon_clock", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and illusion"
 caster_level = "13th"
 +++
 
-**Sources:** Blood of the Moon pg 31\
 **Aura** moderate divination and illusion; **CL** 13th\
 **Slot** none; **Price** 2,650 gp; **Weight** -
 

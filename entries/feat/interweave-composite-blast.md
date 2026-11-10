@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interweave_composite_blast", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are within 15 feet of another character who has this fea
 +++
 
 ## Interweave Composite Blast (Combat, Teamwork)
-
-**Sources:** Occult Adventures pg 135
 
 You can combine your blasts with those of another kineticist.\
 **Prerequisites:** Kinetic blast class feature.\

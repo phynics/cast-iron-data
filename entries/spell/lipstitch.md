@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lipstitch", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 57
 
 A rare spell without verbal components, lipstitch sews the target's lips tightly together if it
 fails a saving throw, such that no clear speech, bite attacks, spellcasting, or use of command words

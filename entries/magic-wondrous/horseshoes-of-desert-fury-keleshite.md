@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_desert_fury_keleshite", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 232\
 **Aura** moderate conjuration and evocation; **CL** 8th\
 **Slot** feet; **Price** 88,000 gp; **Weight** 12 lbs.
 

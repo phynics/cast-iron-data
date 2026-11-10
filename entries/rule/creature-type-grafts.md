@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creature_type_grafts", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 204
 
 Altering an array by creature type is a simple process that typically adds or changes some of the
 monster's statistics. Each creature type includes at least the first two entries.

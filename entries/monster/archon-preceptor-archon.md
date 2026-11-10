@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_preceptor_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ white robes contrast starkly with its black feathers, and its willow staff sheds
 
 **Senses:** Darkvision 60 ft., Detect evil
 
-**Sources:** Heaven Unleashed pg 21\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **thoughtsense:** 60

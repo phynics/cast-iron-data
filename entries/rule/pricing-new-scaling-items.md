@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pricing_new_scaling_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 161
 
 To determine the price when creating a new scaling item, determine the cost of the base item without
 any of the level-based upgrades, and increase that price based on each additional ability as

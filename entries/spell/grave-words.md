@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grave_words", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: one dead creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Occult Adventures pg 172
 
 With this spell and a touch, you can force a corpse talk to you, but you can't ask it specific
 questions or communicate with it at all. The corpse will start babbling for 1 round, spitting out

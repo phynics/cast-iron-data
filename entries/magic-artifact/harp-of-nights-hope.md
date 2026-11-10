@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harp_of_nights_hope", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Nidal, Land of Shadows pg 39\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 75 lbs.
 

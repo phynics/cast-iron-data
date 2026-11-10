@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_statistics", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 180
 
 Below are explanations of some of the traits noted in vehicle statistics. If information for a given
 category is not listed in a given stat block, it is not applicable.

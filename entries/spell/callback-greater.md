@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/callback" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -47,7 +50,5 @@ Subschool: Teleportation
 :::
 
 ### Greater Callback
-
-**Sources:** Ultimate Wilderness pg 228
 
 This spell functions as [callback](ref/spell/callback), except as noted above.

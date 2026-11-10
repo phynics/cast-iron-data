@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 195
 
 Hands include most extremities used for fine manipulation. Called shots to the hand are tricky (-5
 penalty).

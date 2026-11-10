@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a grapple check while using this style, your oppo
 +++
 
 ## Kraken Style (Combat, Style)
-
-**Sources:** Melee Tactics Toolbox pg 13
 
 You savagely squeeze and twist when grappling.\
 **Prerequisites:** Wis 13, [Improved Grapple](ref/feat/improved-grapple),

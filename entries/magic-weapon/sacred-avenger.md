@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_avenger", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "145"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 145\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** 202,630 gp; **Weight** 4 lbs.
 

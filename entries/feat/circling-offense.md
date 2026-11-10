@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circling_offense", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "35"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You receive a +1 dodge bonus to your Armor Class against attacks of o
 +++
 
 ## Circling Offense (Combat, Teamwork)
-
-**Sources:** Rival Guide pg 35
 
 You are skilled at approaching large foes with an ally in a way that makes it difficult for your
 foes to find an advantage against you or your ally.\

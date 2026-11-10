@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_markets", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 4
 
 Not everyone willingly accepts the limits of the law. Criminals and conspiracies carve out secret
 alliances shaken by periodic betrayals, power grabs, and turf struggles. Even reputable groups make

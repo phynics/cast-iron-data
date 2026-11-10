@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_sophisticate", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "176"
+[[sources]]
+publication = "advanced-race-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation and divination"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 176, Advanced Race Guide pg 48\
 **Aura** moderate transmutation and divination; **CL** 8th\
 **Slot** ring; **Price** 11,000 gp; **Weight** -
 

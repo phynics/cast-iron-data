@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analyze_dweomer", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none or Will negates; see text
 Spell resistance: no
 Targets: one object or creature per caster level
 :::
-
-**Sources:** PRPG Core Rulebook pg 240
 
 You can observe magical auras. Each round, you may examine a single creature or object that you can
 see as a free action. In the case of a magic item, you learn its functions (including any curse

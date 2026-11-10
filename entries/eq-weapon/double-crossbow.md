@@ -6,15 +6,30 @@ source_ids = ["ranged-tactics-toolbox", "classic-monsters-revisited", "pathfinde
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_crossbow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "classic-monsters-revisited"
+page = "42"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "advanced-players-guide"
+page = "178"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "18 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Classic Monsters Revisited pg 42, Pathfinder Campaign
-Setting pg 209, Adventurer's Armory pg 18, Advanced Player's Guide pg 178, Ultimate Equipment pg 21
 
 This heavy weapon fires a pair of iron-tipped bolts with a single squeeze of the trigger. Because of
 its size and weight, you take a -4 penalty on your attack roll if you're proficient with it, or -8

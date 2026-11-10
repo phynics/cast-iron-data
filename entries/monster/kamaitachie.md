@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kamaitachie", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "176"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ the air astride a vortex of dust._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 176\
 **Subtype:** Air
 
 **Experience points:** 25,600

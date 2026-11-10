@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "player_interactions", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 70
 
 > _"The wisest of the wise will never make a crab walk straight." - Aristophenes_
 

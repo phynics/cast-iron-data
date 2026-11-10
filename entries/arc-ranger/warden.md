@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "68"
 
 [fields]
 kind = "archetype"
 replaces = ["1st favored enemy", "All combat style feats", "Hunter's bond", "2nd, 3rd, and 4th favored enemies", "5th favored enemy", "master hunter"]
 +++
 
-**Sources:** Ultimate Combat pg 68\
 All rangers have a bond with the wilderness, but the warden may have the strongest. This protector
 sits guard in the middle of the wilderness, keeping a lookout for any dangers that might spill from
 the deeper wilderness beyond, and protecting civilization from the savagery of nature - and vice

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liminal_sprite", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "158"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ wings on its back._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 158\
 **Size:** tiny
 
 **Experience points:** 600

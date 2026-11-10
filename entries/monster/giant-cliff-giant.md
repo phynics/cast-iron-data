@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_cliff_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "126"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ with streaks of shimmering color._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 126\
 **Subtype:** Giant
 
 **tremorsense:** 30

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_weapon", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: one-handed improvised weapon
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Intrigue pg 210
 
 You create a one-handed object that you might expect to see in your current surroundings, which you
 can then use as an improvised weapon. The spell conjures such an object near your hand such that you

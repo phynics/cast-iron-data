@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/stoneskin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Target: creature touched
 :::
 
 ### Communal Stoneskin
-
-**Sources:** Ultimate Combat pg 245
 
 This spell functions like [stoneskin](ref/spell/stoneskin), except you divide the duration in 10
 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per

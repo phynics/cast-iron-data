@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_dungeons", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "410"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 410
 
 The four basic dungeon types are defined by their current status. Many dungeons are variations on
 these basic types or combinations of more than one of them. Sometimes old dungeons are used again

@@ -6,11 +6,13 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/artful-dodge", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 20\
 You can spend 5 stamina points to gain a +1 dodge bonus for each opponent that you threaten that no
 other ally threatens.

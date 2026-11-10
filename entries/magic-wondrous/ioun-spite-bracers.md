@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_spite_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "36"
+[[sources]]
+publication = "agents-of-evil"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Adventurer's Guide pg 36, Agents of Evil pg 29\
 **Aura** strong evocation; **CL** 12th\
 **Slot** wrists; **Price** 15,000 gp; **Weight** 2 lbs.
 

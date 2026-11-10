@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scroll_of_kakishon", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "44"
+[[sources]]
+publication = "pathfinder-21-the-jackals-price"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "overwhelming conjuration"
 caster_level = "23rd"
 +++
 
-**Sources:** Artifacts and Legends pg 44, Pathfinder \#21: The Jackal's Price pg 9\
 **Aura** overwhelming conjuration; **CL** 23rd\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

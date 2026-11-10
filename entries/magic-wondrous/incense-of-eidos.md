@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_eidos", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Advanced Class Guide pg 231\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

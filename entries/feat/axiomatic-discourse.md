@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axiomatic_discourse", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can activate this feat's benefits as part of a Diplomacy check to
 +++
 
 ## Axiomatic Discourse (Conduit)
-
-**Sources:** Planar Adventures pg 25
 
 You take inspiration from the greatest debaters and speakers of Axis and weave words with precision,
 limiting misunderstandings and sharpening comprehension.\

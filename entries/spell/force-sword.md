@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_sword", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: one sword-shaped weapon of force
 Descriptors: force
 :::
-
-**Sources:** Arcane Anthology pg 8
 
 You create a +1 longsword of pure force sized appropriately for you that you can wield or give to
 another creature like any other longsword. At 8th level, the sword functions as a +2 longsword. At

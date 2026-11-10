@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature sense", "Spontaneous casting", "Resist nature's lure", "A thousand faces"]
 +++
 
-**Sources:** Healer's Handbook pg 22\
 Restorers carefully tend to the health of both the environment and creatures in it. Restorers in the
 most remote places often choose druidic herbalism as their nature bond option.
 

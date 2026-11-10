@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_skill_bonuses", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 68
 
 When running a prebuilt monster, the GM can convert core skills to consolidated skills on the fly.
 The GM can choose one of two paths: either use the monster's highest printed bonus as its bonus with

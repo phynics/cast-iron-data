@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You can grab and constrict creatures one size smaller than you."
 +++
 
 ## Final Embrace (Combat)
-
-**Sources:** Ultimate Combat pg 101
 
 Your coils are particularly deadly, allowing you to constrict opponents of your size or smaller.\
 **Prerequisites:** Str 13, Int 3; naga, [serpentfolk](ref/monster/serpentfolk), or creature that has

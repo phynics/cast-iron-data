@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypercognition", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "172"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 172
 
 You rapidly catalog and collate all available data on a person, place, thing, or event, calling to
 mind scraps of memory and assembling clues in a logical and systematic order. Immediately after

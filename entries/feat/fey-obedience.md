@@ -6,14 +6,15 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_obedience", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "17"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (planes) 3 ranks, must worship one of the Eldest."
 benefit = "Each Eldest requires a different obedience, but each obedience takes only 1 hour to perform. Once you've performed the obedience, you gain the benefit of a special ability or resistance as indicated in the \"Obedience\" entry for that Eldest."
 +++
-
-**Sources:** The First World, Realm of the Fey pg 17
 
 Your devotion to one of the Eldest is so great that daily prayer and offerings grant you special
 boons.\

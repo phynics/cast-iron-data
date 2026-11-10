@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_brute", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Str 21, ogre."
 benefit = "Select one rage power. Once per day as a free action, you can enter a state of fury and gain the effects of this rage power for 1 minute. If the rage power normally ends a barbarian rage when used, the ability ends after it's used and you immediately become fatigued. You don't otherwise become fatigued at the end of this ability's duration."
 special = "You can take this feat multiple times. Each time you do, choose another rage power and gain one additional use per day of this feat. Each time you activate this feat, you can use any or all of your rage powers gained from this feat."
 +++
-
-**Sources:** Monster Codex pg 153
 
 You are able to harness the rage that burns inside you and fuels your might.\
 **Prerequisites:** Str 21, [ogre](ref/monster/ogre).\

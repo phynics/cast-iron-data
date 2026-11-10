@@ -6,6 +6,8 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_of_restorative_harmonics", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Hymn of Restorative Harmonics (Sing, Wind)
-
-**Sources:** Divine Anthology
 
 You perform a song of such beauty that it touches the soul of any who hear it, allowing them to
 recover from any adverse conditions.

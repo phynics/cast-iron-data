@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_qualities_disadvantages_feats", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "7"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 7
 
 In addition to [settlement](ref/rule/settlements-in-play) qualities, black markets can have any of
 the following qualities.

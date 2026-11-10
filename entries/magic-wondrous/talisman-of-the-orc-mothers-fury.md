@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_the_orc_mothers_fury", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 59\
 **Aura** faint conjuration; **CL** 4th\
 **Slot** neck; **Price** 12,000 gp; **Weight** 2 lbs.
 

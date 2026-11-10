@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sequester", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none or Will negates (object)
 Spell resistance: no or yes (object)
 Target: one willing creature or object (up to a 2-ft. cube/level) touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 340
 
 When cast, this spell prevents divination spells from detecting or locating the target and also
 renders the affected target invisible (as the [invisibility](ref/spell/invisibility) spell). The

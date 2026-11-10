@@ -6,13 +6,15 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "55"
 
 [fields]
 kind = "class_option"
 group = "occultist-implement"
 +++
 
-**Sources:** Occult Adventures pg 55\
 Illusion implements allow the occultist to distort the senses and cloak creatures from sight.
 
 **Implements**

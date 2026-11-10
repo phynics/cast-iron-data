@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_earth", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 190
 
 The Plane of Earth is a solid place made of soil and stone. An unwary traveler might find himself
 entombed within this vast solidity of material and crushed into nothingness, with his powdered

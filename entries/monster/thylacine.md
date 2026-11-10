@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thylacine", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "191"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ sharp teeth._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 191, Pathfinder \#31: Stolen Land pg 86\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

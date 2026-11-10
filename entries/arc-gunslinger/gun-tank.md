@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "50"
 
 [fields]
 kind = "archetype"
 replaces = ["Gunslinger's dodge deed", "Evasive deed", "Nimble", "All bonus combat/grit feats"]
 +++
 
-**Sources:** Ultimate Combat pg 50\
 Gunslingers usually don't use heavy armor, but there are a few who use and modify their armor to
 protect themselves from both traditional weapons and gunfire. These gun tanks trundle into battle
 with barrels blazing, dealing out punishment with their firearms while knowing few can penetrate

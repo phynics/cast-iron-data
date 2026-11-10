@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysteries", path = "json/class_abilities4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "45"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Mysteries
 
-**Sources:** Advanced Player's Guide pg 45\
 Each oracle must choose from among the following mysteries. Unless otherwise noted, the DC to save
 against these revelations is equal to 10 + 1/2 the oracle's level + the oracle's Charisma modifier.
 

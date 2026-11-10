@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_magnificent_mansion", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "307"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: extradimensional mansion, up to three 10-ft. cubes/level (S)
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 307
 
 You conjure up an extradimensional dwelling that has a single entrance on the plane from which the
 spell was cast. The entry point looks like a faint shimmering in the air that is 4 feet wide and 8

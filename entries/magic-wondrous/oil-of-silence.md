@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oil_of_silence", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "313"
+[[sources]]
+publication = "ultimate-combat"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 313, Ultimate Combat pg 143\
 **Aura** faint illusion; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

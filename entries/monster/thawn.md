@@ -6,6 +6,9 @@ source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thawn", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ strangled wheezing issues from its deformed lips._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#31: Stolen Land pg 84\
 **Subtype:** Giant
 
 **Experience points:** 600

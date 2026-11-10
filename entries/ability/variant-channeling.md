@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_channeling", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 28
 
 An iconic ability of clerics is their power to
 [channel positive or negative energy](ref/ability/channel-energy), whether for healing, for damage,

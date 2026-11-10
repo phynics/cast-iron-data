@@ -6,14 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_gold_crown", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "72"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (arcana) 5 ranks, Survival 5 ranks."
 benefit = "You can use the remains of a dragon or magical beast that you helped to defeat to craft a crown, as if you were harvesting and creating a trophy. If you successfully create the trophy, it has no monetary value but it functions for you as a headband of alluring charisma. The bonus the trophy provides to you is based on the creature's base CR (not including class levels) or your character level at the time the crown was created, whichever is lower: +2 at CR 5 or 5th level, +4 at CR 10 or 10th level, and +6 at CR 15 or 15th level."
 +++
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 72
 
 Inspired by tales of First Emperor Taldaris pulling the gold from the gullet of the terrible dragon
 Verksaris to forge the Primogen Crown, you have learned to fashion potent headgear from the remains

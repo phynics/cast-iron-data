@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Weapon training 1", "Armor training 2", "Armor training 3"]
 +++
 
-**Sources:** Inner Sea Primer pg 25\
 Taldor's warriors have perfected the art of fighting with the [falcata](ref/eq-weapon/falcata) and
 [buckler](ref/eq-armor/buckler) in an art they call rondelero. They use their bucklers both to
 defend themselves and to launch unexpected strikes while chopping and hewing at their foes'

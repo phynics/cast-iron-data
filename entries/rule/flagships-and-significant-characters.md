@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagships_and_significant_characters", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "66"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 66\
 A flagship is the ship on which the fleet's admiral is located. A flagship moves around during a
 fleet battle, issuing orders and providing support as needed, but does not itself belong to a
 specific squadron. A flagship cannot be damaged or sunk during a fleet battle, and is generally

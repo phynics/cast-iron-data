@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_table", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "165"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Effect: see text
 :::
-
-**Sources:** Villain Codex pg 165
 
 Sand table allows you to create a scale model of the battlefield surrounding your position, showing
 numbers of troops, their relative positions, and their movement as if you were observing from a

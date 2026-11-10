@@ -6,14 +6,18 @@ source_ids = ["bestiary-6", "bestiary-2", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Daemon
-
-**Sources:** Bestiary 6, Bestiary 2, Bestiary 3
 
 [Daemons](ref/family/daemon) are neutral evil outsiders that eat souls and thrive on disaster and
 ruin. They have the following traits unless otherwise noted.

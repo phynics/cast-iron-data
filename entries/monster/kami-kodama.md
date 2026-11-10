@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_kodama", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "162"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hollow pits for eyes._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 162\
 **Subtype:** Kami, Native
 
 **Experience points:** 1,600

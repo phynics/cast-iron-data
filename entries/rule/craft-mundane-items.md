@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_mundane_items", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 84
 
 The Craft skill allows you to spend time creating mundane items such as armor, weapons, and
 alchemist's fire. The standard rules presented in the Core Rulebook assume you spend a week on

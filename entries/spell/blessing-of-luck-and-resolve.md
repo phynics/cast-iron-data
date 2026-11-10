@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_luck_and_resolve", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one living creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 68
 
 > _[Halflings](ref/race/halfling) have access to the following spells._
 

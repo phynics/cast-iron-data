@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-4-fortres
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeslave_cauldron", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "424"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "91"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 424, Pathfinder \#4: Fortress of the Stone
-Giants pg 91\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 900 lbs.
 

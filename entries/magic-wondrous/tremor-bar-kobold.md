@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tremor_bar_kobold", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Inner Sea Races pg 235\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** 70,000 gp; **Weight** 2 lbs.
 

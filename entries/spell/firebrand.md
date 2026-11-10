@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firebrand", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature/4 levels, no two of which can be more than 30 ft. apart
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 222
 
 You mark several allies with a flaming rune. This rune does not cause damage, and sheds light as if
 it were a torch. While the firebrand burns, any creature it marks is immune to damage from any fire

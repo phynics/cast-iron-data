@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunmans_duster", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 215\
 **Aura** strong abjuration; **CL** 12th\
 **Slot** body; **Price** 36,000 gp; **Weight** 5 lbs.
 

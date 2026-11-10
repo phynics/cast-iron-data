@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_magic_armor_and_shields", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 162
 
 The following section includes armor and shields with unusual powers and magical abilities. Magic
 armor can have abilities that need to be activated to function or powers that work passively and

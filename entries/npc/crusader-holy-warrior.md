@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusader_holy_warrior", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "269"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** GameMastery Guide pg 269\
 **XP** 2,400\
 Human [paladin](ref/class/paladin) 7\
 LG Medium humanoid\

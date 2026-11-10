@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_6_gear", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "453"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 453
 
 After recording all of the NPC's class features, the next step is to outfit the character with gear
 appropriate to his level. Note that NPCs receive less gear than PCs of an equal level. If an NPC is

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/feast-of-ashes", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 93\
 On a failed save, the target immediately takes 1d6 points of nonlethal damage per tier. Add your
 tier to the DC of any further Constitution checks the target attempts to resist the effects of
 starvation as part of this spell's effects. While the curse is in effect, the target gains no

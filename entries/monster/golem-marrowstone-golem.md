@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_marrowstone_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "17"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Thin veins of black rock crisscross the frame of this hulking construct._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 17\
 **Experience points:** 4,800
 
 **Armor class:** 21/9/21

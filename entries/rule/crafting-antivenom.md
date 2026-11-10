@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_antivenom", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 143
 
 While [antitoxin](ref/eq-misc/antitoxin), as presented in the Pathfinder RPG Core Rulebook, presents
 a generalized tool for protecting oneself from poison, more specialized antivenoms can provide even

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensified_spell", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "163"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "An intensified spell increases the maximum number of damage dice by 5
 +++
 
 ## Intensified Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 163
 
 Your spells can go beyond several normal limitations.\
 **Benefit:** An intensified spell increases the maximum number of damage dice by 5 levels. You must

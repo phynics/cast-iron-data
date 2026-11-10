@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "messenger_per_mile", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "-"
 
 ## Messenger
 
-**Sources:** Ultimate Equipment pg 99, PRPG Core Rulebook pg 159\
 **Price** 2 cp per mile; **Weight** -\
 **Category** Lodging/Services
 

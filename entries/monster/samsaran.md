@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samsaran", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "230"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ simple robes._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 230\
 **Subtype:** Samsaran
 
 **Experience points:** 200

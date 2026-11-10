@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irori", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "84"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Irori**
 
 **Sub:** Master of Masters
-
-**Sources:** Inner Sea Gods pg 84
 
 ### Details
 

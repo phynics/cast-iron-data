@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_chain", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you make a successful caster level check to overcome a targe
 +++
 
 ## Spell Chain (Teamwork)
-
-**Sources:** Demon Hunter's Handbook pg 21
 
 You help your allies bypass your foes' magical defenses.\
 **Prerequisites:** [Spell Penetration](ref/feat/spell-penetration).\

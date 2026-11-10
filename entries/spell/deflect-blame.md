@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflect_blame", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 210
 
 You can cast this spell immediately after attacking a creature, causing that creature to believe
 that a different creature that threatens it was responsible for the attack rather than you. You can

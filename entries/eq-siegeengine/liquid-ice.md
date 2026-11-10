@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_ice", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "20 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 This hard, ceramic canister filled with alchemical liquid ice can be used as ammunition in catapults
 and trebuchets. When it hits its target square, it deals 4d6 points of cold damage to each creature

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_windsight", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [windsight](ref/kinetic/windsight)
-
-**Source:** Occult Adventures/29
 
 You can send a slight breeze in a path up to 480 feet long and then back to where you wait. This
 allows you to use your _windsight_ wild talent to catch a quick glimpse and hear a tiny snippet from

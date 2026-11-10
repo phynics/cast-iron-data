@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_of_light", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: one melee weapon
 Descriptors: good
 :::
-
-**Sources:** Adventurer's Guide pg 16
 
 This spell infuses a weapon with pure sunlight (the weapon need not be a bladed weapon). A weapon
 enhanced by this spell sheds light as if [daylight](ref/spell/daylight) had been cast on it. It

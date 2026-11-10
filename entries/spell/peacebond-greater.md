@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/peacebond" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (object)
 :::
 
 ### Greater Peacebond
-
-**Sources:** Ultimate Intrigue pg 221
 
 If a target weapon is sheathed or slung as the spell is cast, this functions as
 [peacebond](ref/spell/peacebond), locking the target's weapon in place on its owner's body or within

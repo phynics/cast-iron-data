@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fachen", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "95"
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ unusual grace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 95, Pathfinder \#63: The Asylum Stone pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

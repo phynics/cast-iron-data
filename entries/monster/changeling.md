@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changeling", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "29"
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ different color._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 29, Pathfinder \#43: Haunting of Harrowstone pg 84\
 **Subtype:** Changeling
 
 **Experience points:** 200

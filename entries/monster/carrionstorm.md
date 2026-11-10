@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-2-the-ski
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carrionstorm", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "408"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -39,8 +45,6 @@ eyes staring out from the chaos._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 408, Pathfinder \#2: The Skinsaw Murders
-pg 83\
 **Subtype:** Swarm
 
 **Size:** tiny

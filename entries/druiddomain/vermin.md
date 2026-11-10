@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "46"
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "35"
 
 [fields]
 kind = "class_option"
@@ -13,8 +19,6 @@ group = "druid-domain"
 +++
 
 ## Vermin Domain
-
-**Sources:** Ultimate Wilderness pg 46, Inner Sea Monster Codex pg 35
 
 **Granted Powers:** You see the perfection of nature in the spindly limbs and strange forms of all
 vermin, great and small alike.

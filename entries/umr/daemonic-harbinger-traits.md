@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_harbinger_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "62"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Daemonic Harbinger Traits (Su)
 
-**Sources:** Inner Sea Bestiary pg 62\
 A daemonic harbinger is a powerful [daemon](ref/family/daemon) that has not yet made the full
 transition from unique daemon to a horseman. It possesses several traits, as summarized here.
 

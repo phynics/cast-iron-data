@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retrocognition", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "185"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 185
 
 This spell allows you to gain psychic impressions from past events that occurred in your current
 location. Retrocognition reveals psychic impressions from events that occurred over the course of

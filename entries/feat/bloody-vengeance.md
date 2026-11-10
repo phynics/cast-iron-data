@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_vengeance", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "208"
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "If an opponent within line of sight has damaged you within the last m
 +++
 
 ## Bloody Vengeance (Combat)
-
-**Sources:** Inner Sea Gods pg 208, Faiths of Balance pg 24
 
 Your retaliatory strikes have long-lasting effects.\
 **Prerequisites:** Base attack bonus +1, worshiper of [Calistria](ref/faith/calistria).\

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisible_stalker", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "181"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ creature's presence._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 181\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 3,200

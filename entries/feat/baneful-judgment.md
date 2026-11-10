@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baneful_judgment", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can declare a specialized judgment against a creature as a swift 
 +++
 
 ## Baneful Judgment (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 5
 
 You dole out judgment to a particular foe.\
 **Prerequisites:** Bane class feature, judgment class feature, monster lore class feature.\

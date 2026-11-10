@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "pathfinder-campaign-setting", "inner-sea-wor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_dueling_mastery", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "67"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "284"
 
 [fields]
 kind = "feat"
@@ -16,9 +25,6 @@ benefit = "You gain a +2 bonus on initiative checks as long as you start combat 
 +++
 
 ## Aldori Dueling Mastery (Combat)
-
-**Sources:** Adventurer's Guide pg 24, Pathfinder Campaign Setting pg 67, Inner Sea World Guide pg
-284
 
 You have mastered the impenetrable Aldori fighting style.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)

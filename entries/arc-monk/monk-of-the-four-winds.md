@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "112"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Abundant step", "Timeless body", "Perfect self"]
 +++
 
-**Sources:** Advanced Player's Guide pg 112\
 The monk of the four winds is connected to the natural world in a way few other creatures - even
 other monks - can hope to match. He can call upon the elements and the spirits of the world in times
 of need, and as he nears his goal of perfection, he gains the ability to slow down time and even

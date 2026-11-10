@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_scout", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "67"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one incorporeal animal of size Tiny or smaller
 Subschool: Creation
 :::
-
-**Sources:** Pathfinder \#116: Fangs of War pg 67
 
 You summon a spectral creature in the shape of the Tiny or smaller animal of your choice, which
 always appears in your square. The creature emits a faint glow of a color you choose at the time of

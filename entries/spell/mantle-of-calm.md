@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_calm", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 186
 
 You surround yourself with a mantle of calm serenity. You take a -2 penalty on attack rolls, and
 opponents gain a +2 bonus on saving throws against spells you cast. Any creature affected by a rage

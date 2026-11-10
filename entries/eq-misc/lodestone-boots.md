@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lodestone_boots", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "60 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Giant Hunter's Handbook pg 25\
 **Price** 60 gp; **Weight** 4 lbs.\
 **Category** Clothing
 

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "everburning_lantern", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "151"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Mythic Adventures pg 151\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 3,000 gp; **Weight** 2 lbs.
 

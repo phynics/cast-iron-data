@@ -6,6 +6,9 @@ source_ids = ["horror-adventures", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "appearance_of_life", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "108"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one or more undead creatures
 Subschool: Glamer
 Descriptors: evil, glamer
 :::
-
-**Sources:** Horror Adventures pg 108
 
 The illusion makes undead creatures of Medium size or smaller appear as if they were living humanoid
 creatures. You can target a number of undead creatures whose total number of Hit Dice is no greater

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Alchemy", "Trapfinding", "Trap sense", "Swift alchemy"]
 alters = ["Inspiration"]
 +++
 
-**Sources:** Blood of the Ancients pg 21\
 Lung Wa's corruption and political decay led to its eventual collapse, but the empire did not spend
 its last decades in surrender. A special task force of secret police, known as the jinyiwei, was one
 of Lung Wa's last bulwarks against this decline. The jinyiwei were unable to save the empire; they

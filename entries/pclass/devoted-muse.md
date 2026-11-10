@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devoted_muse", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "14"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of the Righteous pg 14
 
 With Aroden's death came the Age of Lost Omens, the tumultuous time in which imperial Lung Wa
 collapsed, and its half-millennium of art and culture was threatened by aggressive warlords and

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "280"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: up to 10 cu. ft./level; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 280
 
 You convert material of one sort into a product that is of the same material. Creatures or magic
 items cannot be created or transmuted by the fabricate spell. The quality of items made by this

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altering_traits", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 68
 
 Many traits offer a +1 trait bonus on core skill checks and make those skills class skills. With the
 consolidated skills system, those traits instead grant a +1 trait bonus on traits involving the

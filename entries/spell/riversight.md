@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riversight", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: nonmagical freshwater waterway
 Effect: magical sensor
 Subschool: Scrying
 :::
-
-**Sources:** People of the River pg 27
 
 You can view events transpiring along a natural watercourse you touch. You can see anything on or
 within the river as if you were present at that location, or you can observe anything happening

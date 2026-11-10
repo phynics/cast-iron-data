@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/lost-passage" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: mind-affecting
 :::
 
 ### Lost Locale
-
-**Sources:** Inner Sea Races pg 220
 
 This spell functions as [lost passage](ref/spell/lost-passage), except that it affects a larger
 area. Lost locale can be made permanent with [permanency](ref/spell/permanency) at a cost of 90,000

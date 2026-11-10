@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giving_a_monster_more_attacks", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 241
 
 If a monster needs more attacks than the array allows, calculate the damage yourself. Start by
 combining the damage values in the monster's array: a monster that deals 20 points of damage with

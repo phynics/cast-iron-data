@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_body", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Occult Adventures pg 186
 
 You exchange the crude matter of your material body with the insubstantial essence of the Plane of
 Shadow, becoming a living shadow yourself. You are visible as an unattached shadow in bright light

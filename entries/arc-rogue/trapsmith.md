@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "135"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Player's Guide pg 135\
 Some rogues are not content with just disabling traps - they love to build them, finding a
 captivating beauty in the turning of gears and the slither of ropes over pulleys. The trapsmith may
 have started out putting together traps in order to better understand how to disable them, but for

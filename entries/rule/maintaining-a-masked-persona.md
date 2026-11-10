@@ -6,12 +6,13 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maintaining_a_masked_persona", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Intrigue pg 12
 
 At any point, any character can don a disguise to confront foes or conduct affairs. What makes a
 full masked persona stand apart from a simple disguise is consistency and obfuscation. A character

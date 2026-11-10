@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_phylacator", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ dire flail in its gauntlets, and several pairs of manacles on its belt writhe of
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 88\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 153,600

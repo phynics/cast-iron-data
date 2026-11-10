@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_talon", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "72"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 72
 
 Of all the members of the [Eagle Knights](ref/rule/aff-vangard), Twilight Talons often pay the
 highest price for the freedom the Eagle Knights work so hard to achieve, sacrificing years of their

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopic_jar", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 148\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 24,000 gp; **Weight** 2 lbs.
 

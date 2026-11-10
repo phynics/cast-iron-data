@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_eagle_epaulets", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "77"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 77, Andoran, Spirit of Liberty pg 26\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 4,500 gp; **Weight** 1 lb.
 

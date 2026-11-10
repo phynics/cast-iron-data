@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lilitu", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "84"
+[[sources]]
+publication = "the-worldwound"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ her most disturbing feature._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 6 pg 84, The Worldwound pg 48\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar, Shapechanger
 
 **Experience points:** 102,400

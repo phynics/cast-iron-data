@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-13-shadow-in-the-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_crawler", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "127"
+[[sources]]
+publication = "pathfinder-13-shadow-in-the-sky"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _This giant fanged cricket is caked in pungent fungal growths and topped with a 
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 127, Pathfinder \#13: Shadow in the Sky pg 82\
 **Experience points:** 800
 
 **Armor class:** 16/16/11

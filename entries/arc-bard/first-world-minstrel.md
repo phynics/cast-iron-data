@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bardic knowledge", "Inspire courage", "Dirge of doom", "Well-versed
 alters = ["Spell list"]
 +++
 
-**Sources:** Legacy of the First World pg 11\
 Most cultures tell stories of people stolen away by the fey, only to return years later, forever
 changed. The First World minstrel was changed in such a way by the fey, and his performances channel
 the mysterious powers of the First World.

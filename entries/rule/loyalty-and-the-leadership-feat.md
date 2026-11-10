@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loyalty_and_the_leadership_feat", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "131"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 131
 
 Conflicting loyalties and potential betrayals are part of the excitement of the
 [Leadership](ref/feat/leadership) feat. Having fully loyal followers weakens the tension of the

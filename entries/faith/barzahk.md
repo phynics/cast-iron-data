@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals", "pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barzahk", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "6"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Passage
 
-**Sources:** Concordance of Rivals pg 6\
 **Monster Link** [Barzahk](ref/monster/psychopomp-usher-barzahk)
 
 ### Details

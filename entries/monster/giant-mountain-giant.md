@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_mountain_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "133"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ visible, is gray and warty._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** Bestiary 6 pg 133\
 **Subtype:** Giant
 
 **Experience points:** 153,600

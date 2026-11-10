@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warding_lips", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 29\
 **Aura** moderate conjuration and necromancy; **CL** 7th\
 **Slot** none; **Price** 1,900 gp; **Weight** -
 

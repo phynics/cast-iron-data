@@ -6,14 +6,15 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolas_bolts", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "44"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Monster Codex pg 44
 
 Bolas bolts are bolas-like projectiles used as ammunition for slaver's crossbows. If you hit a
 target with a bolas bolt fired from a slaver's crossbow, attempt a [trip](ref/rule/trip) combat

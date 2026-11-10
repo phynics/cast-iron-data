@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippers_of_scampering", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Villain Codex pg 237\
 **Aura** faint transmutation; **CL** 4th\
 **Slot** feet; **Price** 1,200 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_of_entanglement", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "318"
+[[sources]]
+publication = "core-rulebook"
+page = "529"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 318, PRPG Core Rulebook pg 529\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 21,000 gp; **Weight** 5 lbs.
 

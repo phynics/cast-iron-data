@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsemen_of_the_apocalypse_apollyon", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ unholy aura (DC 29)
 
 **Senses:** Darkvision 60 ft., Detect good, True seeing
 
-**Sources:** Bestiary 6 pg 160\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,553,600

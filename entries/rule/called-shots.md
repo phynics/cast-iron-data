@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "called_shots", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 193
 
 The Pathfinder Roleplaying Game deals with hits and damage in a rather abstract way, treating almost
 all hits the same except for the amount and type of damage dealt. With these optional called shot

@@ -6,13 +6,14 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_reins", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "31"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Merchant's Manifest pg 31
 
 The cavaliers of the order of the reins hold a strong rapport not just with their mounts, but with
 all tamed and domesticated animals on Golarion. From camels and horses to teams of sled dogs, these

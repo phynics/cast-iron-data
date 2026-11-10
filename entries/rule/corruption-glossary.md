@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corruption_glossary", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 14
 
 A short list of terms related to corruptions follows.
 

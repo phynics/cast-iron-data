@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terminology", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 63\
 Listed below are key terms for describing fleet battles.
 
 **Admiral:** Commander of a single fleet. An admiral influences a fleet's morale score and

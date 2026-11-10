@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_giant_blowfish", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A blowfish the size of a horse drifts through the water, its quills the size of
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 83\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

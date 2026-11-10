@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upsetting_shield_style", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can shield bash with a buckler as if it were a light shield, and 
 +++
 
 ## Upsetting Shield Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 12
 
 You can strike at weapons to upset enemy attacks.\
 **Prerequisites:** Dex 13, proficiency with bucklers.\

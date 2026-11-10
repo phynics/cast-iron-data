@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-intrigue", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nondetection", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: creature or object touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 The warded creature or object becomes difficult to detect by divination spells such as
 clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by

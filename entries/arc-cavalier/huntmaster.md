@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mount", "Cavalier's charge", "Banner", "Cavalier bonus feats", "Mig
 alters = ["Challenge", "Tactician", "greater tactician", "master tactician", "Expert trainer"]
 +++
 
-**Sources:** Animal Archive pg 6\
 Huntmasters train the beasts favored by lordly castes into swift and deadly trackers.
 
 **Gained class skills:** kna, stl, sur

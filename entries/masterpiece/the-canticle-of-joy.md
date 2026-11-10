@@ -6,6 +6,8 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_canticle_of_joy", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Canticle of Joy (Sing)
-
-**Sources:** Bastards of Golarion
 
 Your haunting melody is capable of shattering the very minds of those who hear it.
 

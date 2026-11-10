@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_coin", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 63\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 3,000 gp; **Weight** -
 

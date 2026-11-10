@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "109"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The phantom's emotional focus"]
 alters = ["Phantom", "Bonded manifestation", "Phantom"]
 +++
 
-**Sources:** Occult Adventures pg 109\
 Some phantoms retain less of their personalities and memories than others. Though most phantoms
 maintain some semblance of their former selves, others of their kind, known as
 [geists](ref/monster/geist), came close to being lost forever before they became phantoms. Incapable

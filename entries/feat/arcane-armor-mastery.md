@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_armor_mastery", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a swift action, reduce the arcane spell failure chance due to the 
 +++
 
 ## Arcane Armor Mastery (Combat)
-
-**Sources:** PRPG Core Rulebook pg 118
 
 You have mastered the ability to cast spells while wearing armor.\
 **Prerequisites:** [Arcane Armor Training](ref/feat/arcane-armor-training),

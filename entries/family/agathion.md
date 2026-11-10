@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Agathions are a race of beast-aspect outsiders native to the plane of [Nirvana](ref/rule/nirvana), a
 realm of pure good unconcerned with the dogma of law (represented by [Heaven](ref/rule/heaven)) or

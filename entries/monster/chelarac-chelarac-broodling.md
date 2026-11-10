@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelarac_chelarac_broodling", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ holding squirming young cover the creature's abdomen._
 
 **Size:** small
 
-**Sources:** Pathfinder \#144: Midwives to Death pg 80\
 **Experience points:** 600
 
 **Armor class:** 15/15/11

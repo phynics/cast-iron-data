@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robotic_reactivation", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 63\
 When an ancient starship crashed on Numerian soil millennia ago, countless robots emerged,
 terrorizing anyone unfortunate enough to cross their paths. Some robots still lie dormant within the
 scattered wreckage, waiting for a signal or a stray surge of power to reactivate.

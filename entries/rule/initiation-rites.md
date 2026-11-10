@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "initiation_rites", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 12
 
 In most cultures and communities, rites or rituals accompany the transition from childhood into
 adolescence, even if such customs are informal or unstructured. The formal traditions are usually

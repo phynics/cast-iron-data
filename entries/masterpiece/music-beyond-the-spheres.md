@@ -6,6 +6,8 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "music_beyond_the_spheres", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "horror-realms"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Music Beyond the Spheres (Dance, Sing, String)
-
-**Sources:** Horror Realms
 
 You use your own life force to create a phantasmagorical impression of eldritch vibrations with your
 wild, flailing dance and erratic tones. The performance unravels and remakes the fabric of reality

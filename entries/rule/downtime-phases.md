@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_phases", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "81"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 81
 
 The GM tells you when you have downtime available and how many days you can use for downtime. For
 example, after returning to town after a long adventure, if the GM says you have 10 days before you

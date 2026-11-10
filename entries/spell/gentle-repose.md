@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gentle_repose", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "289"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: corpse touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 289
 
 You preserve the remains of a dead creature so that they do not decay. Doing so effectively extends
 the time limit on raising that creature from the dead (see [raise dead](ref/spell/raise-dead)). Days

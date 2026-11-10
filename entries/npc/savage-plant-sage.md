@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_plant_sage", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 63\
 **XP** 800\
 Half-orc [druid](ref/class/druid) 4\
 CN Medium humanoid (human, orc)\

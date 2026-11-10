@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "item_quirks", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "355"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 355
 
 Many intelligent items have personalities as quirky and robust as any other NPC. Roll on the
 following table to determine one or more personality quirks for intelligent items.

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarded_charge", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat counts as having a Strength score of 13 and Power Attack fo
 +++
 
 ## Guarded Charge (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 18
 
 Your raised shield protects you as you charge forward.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6 or fighter level 4th.\

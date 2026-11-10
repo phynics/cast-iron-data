@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_vaulting", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 227\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
 

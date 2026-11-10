@@ -6,6 +6,9 @@ source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nutrient_training_node", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
+page = "61"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "25 lbs."
 slot = "none"
 +++
 
-**Sources:** Pathfinder \#87: The Choking Tower pg 61\
 **Price** 30,000 gp\
 **Slot** none; **Weight** 25 lbs.\
 **Capacity** 100; **Usage** 1 charge

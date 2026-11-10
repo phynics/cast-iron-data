@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["Maker's call", "Transposition", "Greater shield ally"]
 +++
 
-**Sources:** Ultimate Magic pg 79\
 Changing an eidolon's evolutions is normally a slow process. As a summoner progresses in levels, his
 control over his eidolon's abilities increases. But an evolutionist possesses greater power over his
 eidolon's form, and is able to evolve his eidolon and its abilities to meet any challenge or face

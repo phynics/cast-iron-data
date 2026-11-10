@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_undead", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "269"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 269
 
 You can detect the aura that surrounds undead creatures. The amount of information revealed depends
 on how long you study a particular area.

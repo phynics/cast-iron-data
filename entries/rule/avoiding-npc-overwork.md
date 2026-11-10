@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avoiding_npc_overwork", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 85
 
 A lovingly crafted, fully realized NPC can take almost as long to create as a player character.
 While the players only need to create one character each at any time, the GM might need to create

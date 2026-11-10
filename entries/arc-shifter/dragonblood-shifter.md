@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shifter aspect", "Chimeric aspect", "Greater chimeric aspect", "Fin
 alters = ["Wild shape"]
 +++
 
-**Sources:** Wilderness Origins pg 5\
 Dragonblood shifters draw upon the inherent strength and majesty of the true dragons, gaining a
 measure of their powers from their association.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_claws", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You natural weapons are considered both magic and silver for purpose 
 +++
 
 ## Eldritch Claws (Combat)
-
-**Sources:** Advanced Player's Guide pg 158
 
 Who needs magic weapons? Eldritch tricks are no match for your bestial ferocity.\
 **Prerequisites:** Str 15, natural weapons, base attack bonus +6.\

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_paths", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 11
 
 Every mythic character belongs to a mythic path. Each path represents a journey into legend, and
 each tier in that path grants abilities and features related to that pursuit. Upon achieving his 1st

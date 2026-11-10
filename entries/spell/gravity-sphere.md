@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravity_sphere", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none (see text)
 Spell resistance: no
 Effect: 30-ft.-radius sphere of altered gravity
 :::
-
-**Sources:** People of the Stars pg 28
 
 You affect the local gravity field in a 30-foot-radius sphere around the spell's designated point of
 origin. Creatures in the affected area can be weighed down by high gravity, lightened by low

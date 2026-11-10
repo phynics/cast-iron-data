@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_katpaskir", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ membranous dragonfly wings._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder \#78: City of Locusts pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 153,600

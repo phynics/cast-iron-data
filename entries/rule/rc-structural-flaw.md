@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_structural_flaw", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 185\
 Partway through the creation process, you notice a flaw in the item's physical design.
 
 ### Tasks

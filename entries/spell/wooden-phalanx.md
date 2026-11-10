@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden_phalanx", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: three or more wood golems, no two of which can be more than 30 ft. apart (see text)
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You create 1d4+2 wood golems with the advanced template. The golems willingly aid you in combat or
 battle, perform a specific mission, or serve as bodyguards. You can only have one wooden phalanx

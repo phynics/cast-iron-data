@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_style", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your thrown weapons glow with holy light, illuminating a 20-foot-radi
 +++
 
 ## Lantern Style (Combat, Style)
-
-**Sources:** Distant Realms pg 33
 
 Your thrown weapons shine with a divine light that dazzles their targets.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot), good or lawful alignment, caster

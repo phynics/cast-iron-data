@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_hog", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ including a pair of razor-sharp metal tusks._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Monster Codex pg 64\
 **Experience points:** 3,200
 
 **Armor class:** 19/8/19

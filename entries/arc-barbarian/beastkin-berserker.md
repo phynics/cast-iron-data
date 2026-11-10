@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "4th, 8th, and 12th level rage powers"]
 +++
 
-**Sources:** Heroes of the Darklands pg 21\
 While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so
 deeply into primal fury that she actually transforms into an animal. Berserkers of the surface world
 often associate with predators such as bears or wolves, and are sometimes mistaken for lycanthropes.

@@ -6,6 +6,15 @@ source_ids = ["inner-sea-world-guide", "pathfinder-17-a-memory-of-darkness", "go
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lovers_vengeance", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "296"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "62"
+[[sources]]
+publication = "gods-and-magic"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -49,9 +58,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea World Guide pg 296, Pathfinder \#17: A Memory of Darkness pg 62, Gods and
-Magic pg 9
 
 You inspire yourself or a lover to a vengeful rage against a chosen enemy, who must be a creature
 that has wronged you in some way. If cast on you, the next time you are in combat with that enemy,

@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herbs_of_the_primal_beast", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 152\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
 

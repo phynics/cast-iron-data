@@ -6,6 +6,9 @@ source_ids = ["distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aballonian", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "distant-worlds"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ eyes searching._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Distant Worlds pg 58\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/18

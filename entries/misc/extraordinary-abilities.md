@@ -6,11 +6,12 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extraordinary_abilities", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 Extraordinary abilities are unusual abilities that do not rely on magic to function.

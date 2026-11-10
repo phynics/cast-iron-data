@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathtrap_ooze", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The killing blade of this horrific trap drips with an animated sheen of foul br
 
 **Perception:** -5
 
-**Sources:** Bestiary 3 pg 64\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

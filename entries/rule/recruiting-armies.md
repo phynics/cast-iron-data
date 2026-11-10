@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruiting_armies", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 241
 
 If you are a leader of a kingdom, that fact is sufficient for you to recruit armies from your
 citizens. If you are not the leader of a kingdom, the GM may decide that you need to achieve some

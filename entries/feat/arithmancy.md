@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arithmancy", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "48"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Int 13, Spell Focus (divination), Spellcraft 3 ranks."
 prerequisite_feats = ["ref/feat/spell-focus"]
 benefit = "Immediately before casting a spell, as a swift action, you can attempt to augment a spell's casting using Arithmancy. To do so, determine the digital root of the name of the spell you are casting."
 +++
-
-**Sources:** Occult Mysteries pg 48
 
 You are able to unravel the hidden meanings behind words by translating them into numerical
 equations. You can apply this insight to empower your magical effects.\

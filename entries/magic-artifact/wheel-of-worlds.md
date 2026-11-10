@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wheel_of_worlds", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "199"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Sources:** Book of the Damned pg 199\
 **Aura** overwhelming conjuration \[evil, lawful\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

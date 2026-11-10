@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_chariot", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: one quasi-real chariot and draft team
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Combat pg 239
 
 You conjure a quasi-real heavy chariot with four horse-like creatures in a team to pull it. (The
 exact description can be customized as you wish.) The chariot has all the normal qualities of a

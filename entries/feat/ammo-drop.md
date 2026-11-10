@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ammo_drop", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can load a sling or one end of a double sling with one hand as a 
 +++
 
 ## Ammo Drop (Combat)
-
-**Sources:** Halflings of Golarion pg 23
 
 Your coordination is so perfect that you can simply drop ammunition from your hand at the exact
 moment required for it to fall into an open sling as your twirl it around.\

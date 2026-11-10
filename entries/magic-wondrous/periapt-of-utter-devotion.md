@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_utter_devotion", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Villain Codex pg 213\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** neck; **Price** 33,000 gp; **Weight** -
 

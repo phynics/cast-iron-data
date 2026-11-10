@@ -6,14 +6,14 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Oni
-
-**Sources:** Bestiary 3
 
 An [oni](ref/family/oni) is an evil spirit who takes humanoid form to become a
 [native](ref/subtype/native) [outsider](ref/type/outsider). All oni have the following traits,

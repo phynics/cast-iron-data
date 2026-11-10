@@ -6,6 +6,8 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lance_of_the_leaping_lion", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch\
 **Suitable For** (not given)\
 **Aura** strong evocation\
 **Slot** none; **CL** 15th\

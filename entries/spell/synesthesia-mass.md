@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/synesthesia" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -47,7 +50,5 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Synesthesia
-
-**Sources:** Occult Adventures pg 188
 
 This spell functions like [synesthesia](ref/spell/synesthesia), except as noted above.

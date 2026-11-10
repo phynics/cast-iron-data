@@ -6,6 +6,12 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "striped_toadstool", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
+[[sources]]
+publication = "ultimate-equipment"
+page = "111"
 
 [fields]
 kind = "item"
@@ -13,8 +19,6 @@ category = "Poisons"
 price = "180 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** PRPG Core Rulebook pg 560, Ultimate Equipment pg 111
 
 **Price** 180 gp; **Weight** —
 

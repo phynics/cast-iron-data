@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "religion_and_ritual", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 12
 
 Parents usually pass their religious beliefs to their children by instructing them in the customs,
 dogma, practices, rituals, and traditions of their faith. Tradition and ritual play a major part in

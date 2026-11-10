@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_of_bakrakhan", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Origins pg 29\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
 

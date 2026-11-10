@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_sworn_vengeance", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "272"
+[[sources]]
+publication = "advanced-race-guide"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 272, Advanced Race Guide pg 28\
 **Aura** strong evocation; **CL** 15th\
 **Slot** wrists; **Price** 25,000 gp; **Weight** 1 lb.
 

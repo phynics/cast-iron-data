@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/divination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you
 :::
 
 ### Prognostication
-
-**Sources:** Ultimate Intrigue pg 223
 
 You glimpse the future. Prognostication functions as [divination](ref/spell/divination) except that
 the spell can see up to a year and a day into the future. Because of the increased unpredictability

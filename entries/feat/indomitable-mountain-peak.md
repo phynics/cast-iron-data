@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mountain_peak", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent succeeds at a combat maneuver against you or at 
 +++
 
 ## Indomitable Mountain Peak (Combat)
-
-**Sources:** Ultimate Wilderness pg 114
 
 You become more difficult to move or pass, an elusive peak your enemies cannot surmount.\
 **Prerequisites:** Wis 15, [Combat Reflexes](ref/feat/combat-reflexes),

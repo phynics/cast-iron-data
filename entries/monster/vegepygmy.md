@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vegepygmy", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ arms, midsection, and legs._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 273\
 **Experience points:** 200
 
 **Armor class:** 16/13/14

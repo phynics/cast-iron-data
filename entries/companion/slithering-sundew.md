@@ -6,13 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_sundew", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "183"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Ultimate Wilderness pg 183
 
 **Companion Type**
 

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biting_words", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: language-dependant, sonic
 :::
-
-**Sources:** Magic Tactics Toolbox pg 9
 
 Your voice becomes suffused with magic so that you can harm your opponents with but a word. As a
 standard action, you can target one opponent within 30 feet with a ranged touch attack by speaking

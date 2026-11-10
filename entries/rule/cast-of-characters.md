@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cast_of_characters", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 80
 
 For every player character with complete statistics and volumes of background there exist countless
 NPCs, some just as nuanced and well developed as veteran heroes, others two-dimensional and

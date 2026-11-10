@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_coffee_cup", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1/2 lb."
 
 ## Mwangi coffee
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 3 cp/cup; **Weight** 1/2 lb.\
 **Category** Food/Drink
 

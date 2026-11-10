@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-6-spires-of-xin-shalast", "rise-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talons_of_leng", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "239"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "65"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "427"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 239, Pathfinder \#6: Spires of Xin-Shalast pg 65, Rise of the
-Runelords Anniversary Edition pg 427\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** hands; **Price** 67,000 gp; **Weight** 1 lb.
 

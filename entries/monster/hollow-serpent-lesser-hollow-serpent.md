@@ -6,6 +6,9 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_serpent_lesser_hollow_serpent", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["17", "19", "-", "2", "11", "12"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86\
 **Subtype:** Reptilian
 
 **Type:** undead

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firearm_rules", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 135
 
 Firearms work differently from other ranged projectile weapons - they instead use the following
 rules.

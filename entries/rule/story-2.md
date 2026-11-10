@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "story_2", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 20
 
 You may or may not want to include story content in your campaign guide, depending on the type of
 game you want to run. You may find it helpful to fill the players in on the type of story you want

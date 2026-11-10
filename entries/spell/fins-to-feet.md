@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fins_to_feet", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "195"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: willing creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Race Guide pg 195
 
 > _[Merfolk](ref/race/merfolk) have access to the following spell._
 

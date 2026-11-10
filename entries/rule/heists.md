@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heists", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 118
 
 Movies, television series, and novels frequently depict the same scenario: a team of experts, each
 of its members able to contribute a specific and unique skill set, tries to pull off a complex

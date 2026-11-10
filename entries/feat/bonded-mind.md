@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonded_mind", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "As long as you can see each other, you and an ally who also has this 
 +++
 
 ## Bonded Mind (Teamwork)
-
-**Sources:** Distant Shores pg 63
 
 You and your partner are so close that you can almost read each other's minds.\
 **Benefit:** As long as you can see each other, you and an ally who also has this feat can trade

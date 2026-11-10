@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature bond", "resist nature's lure"]
 alters = ["Venom immunity"]
 +++
 
-**Sources:** Ultimate Intrigue pg 27\
 When an urushiol druid forms a bond with nature, it takes a vastly different form than for most
 druids. His body becomes increasingly toxic, allowing him to secrete a deadly poison through his
 pores.

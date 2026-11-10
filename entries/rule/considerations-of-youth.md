@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "considerations_of_youth", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 195
 
 You might choose to play a young character to gain insight into your PC's life or indulge a
 character concept you haven't tried. A GM might start your campaign at a young age to mimic

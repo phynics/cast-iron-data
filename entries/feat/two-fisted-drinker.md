@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_fisted_drinker", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "76"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can draw two potions or other beverages - mundane or magical - fr
 +++
 
 ## Two-Fisted Drinker (Mythic)
-
-**Sources:** Mythic Adventures pg 76
 
 You can pound down drinks with amazing verve.\
 **Prerequisites:** [Quick Draw](ref/feat/quick-draw).\

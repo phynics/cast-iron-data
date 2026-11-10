@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_one", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ an invisible frame._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 26/16/20

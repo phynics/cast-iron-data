@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_taskmaster", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "111"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
 **Senses:** Darkvision 60 ft., Hive mind
 
-**Sources:** Bestiary 4 pg 111\
 **Experience points:** 3,200
 
 **Armor class:** 20/12/18

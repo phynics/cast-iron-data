@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_gallery", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "254"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 254
 
 For every player character adventuring through a fantasy world, there exist dozens if not hundreds
 of non-player characters, each existing to provide vital services to characters, progress important

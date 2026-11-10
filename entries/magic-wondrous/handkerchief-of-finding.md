@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handkerchief_of_finding", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 230\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 15,000 gp; **Weight** -
 

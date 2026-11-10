@@ -6,12 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "9"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Combat pg 9\
 These are standalone classes whose basic ideas are very close to established base classes, yet whose
 required alterations would be too expansive for an archetype. In this case, that's the
 [samurai](ref/class/samurai) and the [ninja](ref/class/ninja) - specifically Asian-themed classes

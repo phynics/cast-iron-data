@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forsaken_legion_forsaken_foot_soldier", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ arm._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 87\
 **Type:** undead
 
 **Experience points:** 600

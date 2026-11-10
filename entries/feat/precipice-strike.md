@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "precipice_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you and the target of your attack are both in difficult terrain,
 +++
 
 ## Precipice Strike (Combat)
-
-**Sources:** Heroes from the Fringe pg 26
 
 Rough mountain roads are as smooth as cobblestone to you. Enemies challenge you in your home
 territory at their peril.\

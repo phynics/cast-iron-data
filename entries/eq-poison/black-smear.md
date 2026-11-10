@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_smear", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "54"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 54
 
 **Price** N/A; **Weight** —
 

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_traits_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 237
 
 Magic - particularly psychic magic - behaves in odd ways within a mindscape. In addition to the
 options below, see the [Psychic Duels](ref/rule/psychic-duels) section for further discussion on how

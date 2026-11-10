@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_hound", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "281"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ _Green smoke billows from the bared teeth and flared nostrils of this muscular, 
 
 **Senses:** Greater arcane sight, Low-light vision, Scent, See in darkness, See invisibility
 
-**Sources:** Bestiary 6 pg 281\
 **Subtype:** Wild hunt
 
 **Experience points:** 9,600

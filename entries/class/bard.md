@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-race-guide", "m
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bard", path = "json/classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "34"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 34
 
 Untold wonders and secrets exist for those skillful enough to discover them. Through cleverness,
 talent, and magic, these cunning few unravel the wiles of the world, becoming adept in the arts of

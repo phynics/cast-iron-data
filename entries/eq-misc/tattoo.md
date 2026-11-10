@@ -6,6 +6,18 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattoo", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,8 +26,6 @@ price = "1 cp-20 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 58, Adventurer's Armory pg 19, Advanced Player's Guide pg 183,
-Pirates of the Inner Sea pg 21\
 **Price** 1 cp-20 gp; **Weight** -\
 **Category** Adventuring Gear
 

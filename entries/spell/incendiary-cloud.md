@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incendiary_cloud", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "300"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 300
 
 An incendiary cloud spell creates a cloud of roiling smoke shot through with white-hot embers. The
 smoke obscures all sight as a fog cloud does. In addition, the white-hot embers within the cloud

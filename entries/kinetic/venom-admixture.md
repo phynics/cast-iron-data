@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venom_admixture", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Prerequisite:** [venom speaker](ref/kinetic/venom-speaker)
 
 **Saving throw:** see text
-
-**Source:** Heroes of Golarion/26
 
 You can infuse your kinetic blast with poison. To use this infusion, you must be holding a dose of
 poison or have at least one use of a feat or racial trait that produces poison (such as the

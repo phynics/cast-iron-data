@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_burst", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one plant creature; see text
 Descriptors: poison
 :::
-
-**Sources:** Cohorts and Companions pg 21
 
 You cause a willing plant creature's body to sprout small, puffy mushrooms that remain for 1 round
 per caster level or until the creature uses them. As a standard action, the target can cause these

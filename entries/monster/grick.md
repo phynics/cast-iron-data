@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grick", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tentacles and hooked jaws._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 2 pg 146\
 **Experience points:** 800
 
 **Armor class:** 15/12/13

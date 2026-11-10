@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-genie-lesser" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Subschool: Summoning
 :::
 
 ### Greater Summon Genie
-
-**Sources:** People of the Sands pg 11
 
 This spell functions like [lesser summon genie](ref/spell/summon-genie-lesser), except you can
 summon one shaitan, 1d3 djnn or 1d4+1 jann.

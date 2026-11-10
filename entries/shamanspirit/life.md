@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "41"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 41\
 A shaman who selects the life spirit appears more vibrant than most mortals. Her skin seems to glow,
 and her teeth are a pearly white. When she calls upon one of this spirit's abilities, her eyes and
 hair shimmer in the light.

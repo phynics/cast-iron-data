@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_backbiter_spear", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "345"
+[[sources]]
+publication = "core-rulebook"
+page = "542"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate evocation"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 345, PRPG Core Rulebook pg 542
 
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Weight** 3 lbs.

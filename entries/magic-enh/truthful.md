@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truthful", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "239"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 239\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

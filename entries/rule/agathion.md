@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 103
 
 Creatures of good with little regard for the cosmic struggles of law against chaos, agathions take
 on bestial aspects that reflect both their nature and their goals as negotiators and meddlers for

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_intuition", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "81"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you ready an action, you do not need to declare what action you 
 +++
 
 ## Cunning Intuition (Combat)
-
-**Sources:** Ultimate Intrigue pg 81
 
 You can read your foe's body language to gauge your foe and gain an edge in combat.\
 **Prerequisites:** [Alertness](ref/feat/alertness),

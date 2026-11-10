@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efreeti_stance", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using E
 +++
 
 ## Efreeti Stance (Combat)
-
-**Sources:** Ultimate Combat pg 99
 
 Calling upon the burning spirits of incarnate flame, you can manipulate fire to protect yourself and
 immolate your foes.\

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_hope", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "291"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Targets: one living creature/level, no two of which can be more than 30 ft. apar
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 291
 
 This spell instills powerful hope in the subjects. Each affected creature gains a +2 morale bonus on
 saving throws, attack rolls, ability checks, skill checks, and weapon damage rolls.

@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_clans", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 24\
 **Pathfinder Name:** Kusari-Gama\
 **Goal:** Martial arts mastery, in preparation for a prophesized war of immense scale\
 **Alignment:** LN\

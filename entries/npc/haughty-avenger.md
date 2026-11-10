@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haughty_avenger", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** NPC Codex pg 113\
 **XP** 600\
 Half-elf [paladin](ref/class/paladin) 3\
 LG Medium humanoid (elf, human)\

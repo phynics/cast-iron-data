@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starsling_buckler", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Seers of the Drowned City pg 55\
 **Aura** moderate evocation and transmutation; **CL** 6th\
 **Slot** none; **Price** 14,000 gp; **Weight** 5 lbs.
 

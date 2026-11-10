@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heighten_spell", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A heightened spell has a higher spell level than normal (up to a maxi
 +++
 
 ## Heighten Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 You can cast spells as if they were a higher level.\
 **Benefit:** A heightened spell has a higher spell level than normal (up to a maximum of 9th level).

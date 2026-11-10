@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_curse", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -42,7 +45,5 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Advanced Player's Guide pg 213
 
 The target of crafter's curse takes a -5 penalty on all Craft skill checks while the spell lasts.

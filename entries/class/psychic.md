@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-shadows",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "60"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 60
 
 Within the mind of any sentient being lies power to rival that of the greatest magical artifact or
 holy site. By accessing these staggering vaults of mental energy, the psychic can shape the world

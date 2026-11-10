@@ -6,6 +6,9 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphergull", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hooked, and its webbed feet bear sharp talons._
 
 **Senses:** Arcane sight, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 82\
 **Size:** tiny
 
 **Experience points:** 600

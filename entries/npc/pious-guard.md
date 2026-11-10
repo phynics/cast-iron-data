@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pious_guard", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** NPC Codex pg 117\
 **XP** 6,400\
 Human [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 10\
 LG Medium humanoid (human)\

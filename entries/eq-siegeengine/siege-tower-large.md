@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_tower_large", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "166"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Siege Tower
-
-**Sources:** Ultimate Combat pg 166
 
 A wooden gallery of stout construction, a siege tower consists of a tall protective shell with a
 roof section. The lower story of the tower contains the crew members who propel the tower, and

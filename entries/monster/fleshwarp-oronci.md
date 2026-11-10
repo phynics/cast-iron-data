@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_oronci", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ the sinewy shape of a centipede._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Bestiary pg 36\
 **tremorsense:** 60
 
 **Experience points:** 1,600

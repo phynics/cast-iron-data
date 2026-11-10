@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confused", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "566"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 566\
 A confused creature is mentally befuddled and cannot act normally. A confused creature cannot tell
 the difference between ally and foe, treating all creatures as enemies. Allies wishing to cast a
 beneficial spell that requires a touch on a confused creature must succeed on a melee touch attack.

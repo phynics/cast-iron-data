@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_music", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "150"
 
 [fields]
 kind = "feat"
 prerequisites = "Spellcraft 5 ranks, ability to cast bard spells, ability to cast an arcane fire spell from some other spellcasting class."
 benefit = "When you cast a bard spell that deals damage, you may replace the spell's normal damage with fire damage or split the spell's damage so that half of it is the normal damage type and half is fire damage."
 +++
-
-**Sources:** Ultimate Magic pg 150
 
 Your ability to command fire and bardic music has created a strange blend of both magics.\
 **Prerequisites:** Spellcraft 5 ranks, ability to cast bard spells, ability to cast an arcane fire

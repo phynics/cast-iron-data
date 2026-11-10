@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "realm_traits", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 59
 
 Planes come in a variety of sizes and shapes. Many planes are so large that they may as well be
 infinite in size, while others (particularly in the case of demiplanes) can be quite small.

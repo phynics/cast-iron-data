@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cage_of_captivity", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Cohorts and Companions pg 11\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** none; **Price** 160,000 gp; **Weight** 1 lb.
 

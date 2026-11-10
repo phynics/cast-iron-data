@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fastidiousness", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Disciple's Doctrine pg 13
 
 While protected by fastidiousness, your person and your equipment stay clean and dry. Dust and
 moisture slough off immediately; even when you are completely soiled, your appearance reverts to a

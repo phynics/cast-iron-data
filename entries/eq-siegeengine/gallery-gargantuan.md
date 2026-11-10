@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gallery_gargantuan", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "166"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Gallery
-
-**Sources:** Ultimate Combat pg 166
 
 A mobile temporary defense, a gallery is similar to a building made of hide or wood. Most are of
 flimsy construction, but rare examples are more stoutly built (use the rules for giving siege

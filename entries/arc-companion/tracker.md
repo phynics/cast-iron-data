@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracker", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "189"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Devotion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 189\
 Some companions are expert trackers, able to use their scent ability to follow any trail.
 
 **Keen Nose:** A tracker must be an animal companion with the [scent](ref/umr/scent) ability.

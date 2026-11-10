@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey", "ultimate-int
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_person", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one humanoid creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 254
 
 This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's
 attitude as friendly). If the creature is currently being threatened or attacked by you or your

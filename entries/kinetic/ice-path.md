@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_path", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [icewalker](ref/kinetic/icewalker)
-
-**Source:** Occult Adventures/25
 
 You freeze water vapor in the air, allowing you to travel above the ground as
 [air walk](ref/spell/air-walk) by walking along the ice, and leaving a path of ice behind you that

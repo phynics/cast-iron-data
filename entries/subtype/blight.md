@@ -6,14 +6,14 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Blight
-
-**Sources:** Bestiary 6
 
 A blight is an evil and intelligent [ooze](ref/type/ooze) that infects entire ecosystems. Unless
 otherwise noted in a creature's entry, blights have the following traits.

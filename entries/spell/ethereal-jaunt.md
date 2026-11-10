@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_jaunt", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "279"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 279
 
 You become ethereal, along with your equipment. For the duration of the spell, you are in the
 Ethereal Plane, which overlaps the Material Plane. When the spell expires, you return to material

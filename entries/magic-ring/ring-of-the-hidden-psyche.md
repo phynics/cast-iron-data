@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_hidden_psyche", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "252"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "18th"
 +++
 
-**Sources:** Occult Adventures pg 252\
 **Aura** strong (no school); **CL** 18th\
 **Slot** ring; **Price** 160,000 gp; **Weight** -
 

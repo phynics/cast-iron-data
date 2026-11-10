@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ventriloquism", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: intelligible sound, usually speech
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 You can make your voice (or any sound that you can normally make vocally) seem to issue from
 someplace else. You can speak in any language you know. With respect to such voices and sounds,

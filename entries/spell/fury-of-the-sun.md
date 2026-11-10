@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_of_the_sun", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "131"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Targets: one creature
 Descriptors: curse, fire
 :::
-
-**Sources:** Advanced Race Guide pg 131
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 

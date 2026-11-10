@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "295"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Pathfinder RPG Bestiary/295
 
 Creatures with the giant template are larger and stronger than their normal-sized kin. This template
 cannot be applied to creatures that are Colossal.

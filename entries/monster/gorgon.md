@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gorgon", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "165"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ smoke puff from its mouth._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 165\
 **Experience points:** 4,800
 
 **Armor class:** 20/9/20

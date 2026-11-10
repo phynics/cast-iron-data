@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_movement_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 232
 
 **Expert Climber (4 RP):** **Prerequisite:** Climb racial trait; **Benefit:** Members of this race
 can cling to cave walls and even ceilings as long as the surface has hand- and footholds. In effect,

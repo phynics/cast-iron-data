@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_gauge", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "242"
+[[sources]]
+publication = "faiths-of-balance"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 242, Faiths of Balance pg 29
 
 You immediately discover some of the spells that the target knows or has prepared. The number of
 spells revealed to you is equal to your caster level. The target's lowest-level spells are revealed

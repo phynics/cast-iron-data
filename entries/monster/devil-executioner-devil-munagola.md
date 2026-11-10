@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_executioner_devil_munagola", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "247"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ black eyes smolder like coals._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Book of the Damned pg 247\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 12,800

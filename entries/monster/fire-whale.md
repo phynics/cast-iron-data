@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_whale", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "128"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormou
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 128\
 **Subtype:** Extraplanar
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_hug", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt to initiate a grapple against a foe trapped by your B
 +++
 
 ## Bear Hug (Combat)
-
-**Sources:** Blood of the Moon pg 11
 
 You can crush your foes with your powerful arms.\
 **Prerequisites:** Str 17, [Beartrap Bite](ref/feat/beartrap-bite),

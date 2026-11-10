@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_components", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "115"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 115
 
 An enhanced component is a specialized reagent used to improve a spell. The exact effects of such a
 component are up to the GM, but may include a small increase to save DC, caster level, damage,

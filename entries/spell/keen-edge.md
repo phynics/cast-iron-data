@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keen_edge", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "303"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Targets: one weapon or 50 projectiles, all of which must be together at the time of casting
 :::
-
-**Sources:** PRPG Core Rulebook pg 303
 
 This spell makes a weapon magically keen, improving its ability to deal telling blows. This
 transmutation doubles the threat range of the weapon. A threat range of 20 becomes 19-20, a threat

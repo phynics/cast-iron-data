@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloud", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/18
 
 You release your power in a diffuse cloud. You can center this 20-foot-radius
 [spread](ref/misc/spread) anywhere within 120 feet of you. All creatures and objects within the

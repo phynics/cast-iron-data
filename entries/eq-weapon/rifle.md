@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rifle", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "139"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 139
 
 This improvement on the [musket](ref/eq-weapon/musket) features a grooved barrel that imparts a
 twisting, spiral motion to the bullet as it exits, stabilizing it and preventing the end-over-end

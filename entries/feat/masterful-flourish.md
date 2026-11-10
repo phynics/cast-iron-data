@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterful_flourish", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When wielding a weapon with the performance weapon special quality th
 +++
 
 ## Masterful Flourish (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 Your training with gladiatorial weapons gives you the upper hand when using them in performance
 combat.\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_sentient_wax_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["14", "9", "-", "10", "11", "1"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 1,200
 
 **Armor class:** 15/9/15

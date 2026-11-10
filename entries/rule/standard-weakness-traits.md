@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_weakness_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 237
 
 **Light Blindness (-2 RP):** **Prerequisite:** [Darkvision](ref/rule/darkvision) or see in darkness
 trait; **Weakness:** Abrupt exposure to bright light blinds members of this race for 1 round; on

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stage_fright", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: 1 creature/level, no two of which may be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Arcane Anthology pg 27
 
 You fill your targets with the sudden fear of failure. A creature that fails its saving throw takes
 a -4 penalty on ability checks, skill checks, and any checks that require concentration (such as

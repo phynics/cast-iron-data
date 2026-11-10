@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "far_reaching_sight", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "297"
+[[sources]]
+publication = "ultimate-combat"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 297, Ultimate Combat pg 143\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
 

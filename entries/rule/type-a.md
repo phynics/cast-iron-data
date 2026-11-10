@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_a", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "362"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 362
 
 Treasure of this type is made up entirely of coins. While it usually does not make a difference to
 their overall value, the GM may wish to consider the origin of the coins and what is minted on each

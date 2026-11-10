@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shawl_of_shadowy_disguise", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of Shadows pg 27\
 **Aura** faint illusion; **CL** 5th\
 **Slot** head; **Price** 1,350 gp; **Weight** 1 lb.
 

@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "90"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "278"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 90, Inner Sea World Guide pg 278
 
 Not all who start as novice armigers have what it takes to become a full-fledged
 [Hellknight](ref/rule/aff-lawknights), but those who do receive a wide array of abilities as they

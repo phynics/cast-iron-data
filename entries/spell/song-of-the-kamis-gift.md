@@ -6,12 +6,14 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "song_of_the_kamis_gift", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "32"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Disciple's Doctrine pg 32\
 **School** conjuration (summoning); **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (an offering of food, artwork, or clothing valued at 100 gp), F (a

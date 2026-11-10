@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jealous_rage", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Origins pg 28
 
 You fill the target with a sense of entitled self-importance, making the subject unable to bear the
 indignity of another creature getting something that it doesn't have. Whenever an ally of the target

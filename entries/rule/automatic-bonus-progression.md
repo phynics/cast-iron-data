@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automatic_bonus_progression", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 156
 
 In order to face the dangers of the game, characters in the Pathfinder RPG normally need items that
 grant bonuses to their statistics. With this variant, characters instead gain those bonuses

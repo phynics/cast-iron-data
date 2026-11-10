@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_d_potions_and_oils", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "370"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 370
 
 This treasure is made up coins and small magic items, such as potions, scrolls, and wands. The exact
 magic items included in these rewards are determined using the tables listed. The specific table

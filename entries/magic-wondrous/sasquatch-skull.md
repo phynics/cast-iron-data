@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sasquatch_skull", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 43\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

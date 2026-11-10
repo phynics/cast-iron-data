@@ -6,6 +6,9 @@ source_ids = ["fangwood-keep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrow_hound", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "fangwood-keep"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and retie themselves on their own._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Fangwood Keep pg 29\
 **Experience points:** 2,400
 
 **Armor class:** 20/12/17

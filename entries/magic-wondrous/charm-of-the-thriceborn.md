@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_of_the_thriceborn", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Legacy of the First World pg 25\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 2,400 gp; **Weight** -
 

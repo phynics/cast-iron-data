@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A 5th-level monk or character with the weapon training (monk) class f
 +++
 
 ## Ascetic Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 You blend arms and martial arts, using weapons with the same ease as unarmed strikes.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with the chosen melee weapon; base attack

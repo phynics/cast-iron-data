@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/teleport" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Teleportation
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 224
 
 This spell functions as [teleport](ref/spell/teleport), except you use it to teleport yourself or
 one other creature to a safe location you specify (the target can bring along objects as long as

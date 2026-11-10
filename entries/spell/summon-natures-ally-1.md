@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_natures_ally_1", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "354"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 354
 
 This spell summons to your side a natural creature (typically an animal, fey, magical beast,
 outsider with the elemental subtype, or a giant). The summoned ally appears where you designate and

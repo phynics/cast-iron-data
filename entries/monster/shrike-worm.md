@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrike_worm", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its throat, below a circular, toothy maw dripping with luminescent spittle._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 90\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

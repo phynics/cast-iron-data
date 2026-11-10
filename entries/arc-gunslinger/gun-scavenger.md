@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "38"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Quick clear deed", "Targeting deed", "Nimble"]
 alters = ["Gunsmith"]
 +++
 
-**Sources:** Inner Sea Combat pg 38\
 Although Alkenstar is the center of firearm production and innovation in the Inner Sea, the crack of
 flint and tang of gun smoke is enough to inspire enthusiasts elsewhere to try their hand at making
 their own guns using intuition instead of blueprints. A gun scavenger collects scraps, spare parts,

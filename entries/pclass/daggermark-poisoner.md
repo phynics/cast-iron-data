@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermark_poisoner", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "18"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 18
 
 Poison is a common weapon of cultures and nations across Golarion, but the craft reaches its acme in
 the city of Daggermark, the festering heart of the chaotic and war-torn River Kingdoms. Members of

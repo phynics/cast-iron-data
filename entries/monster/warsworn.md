@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warsworn", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "272"
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ steel-girded flesh._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 272, Pathfinder \#35: War of the River Kings pg 88\
 **Type:** undead
 
 **Experience points:** 76,800

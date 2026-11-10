@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demiplanes_and_dimensions", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 208
 
 The planes of the Inner Sphere and the Outer Sphere form the overarching structure of the
 multiverse. With their unimaginably ancient histories and vast scales, they contain most of reality

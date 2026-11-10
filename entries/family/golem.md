@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 Golems are magically created automatons of great power. They stand apart from other constructs in
 the nature of their animating force - golems are granted their magical life via an elemental spirit,

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_challenger", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "98"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Effect: one called bearded devil and testing ground; see text
 Subschool: Calling
 Descriptors: lawful
 :::
-
-**Sources:** Adventurer's Guide pg 98, Path of the Hellknight pg 60
 
 This spell summons a bearded devil, causing it to appear where you designate. The area within a
 50-foot radius of where the devil appears is ringed with a smoldering, red glow. This area is the

@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gavidya", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "110"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Gavidya**
 
 **Sub:** The Numberless
-
-**Sources:** Book of the Damned pg 110
 
 ### Details
 

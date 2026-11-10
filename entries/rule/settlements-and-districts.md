@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlements_and_districts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "211"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 211
 
 The greatest assets of your kingdom are its settlements. Most settlements start as simple villages,
 and some grow over time into bustling cities. You can use the District Grid \[found in the physical

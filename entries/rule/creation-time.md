@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creation_time", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 181
 
 The default amount of time it takes to create an item with this system is the same as in the
 [normal item creation rules](ref/rule/magic-item-creation). The process can't be accelerated by

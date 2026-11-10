@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glowing_glove", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "238"
+[[sources]]
+publication = "advanced-players-guide"
+page = "305"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 238, Advanced Player's Guide pg 305\
 **Aura** faint universal; **CL** 1st\
 **Slot** hands; **Price** 2,000 gp; **Weight** -
 

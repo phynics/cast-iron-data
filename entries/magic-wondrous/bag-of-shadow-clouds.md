@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_shadow_clouds", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "211"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Race Guide pg 211\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 30,240 gp; **Weight** 1 lb.
 

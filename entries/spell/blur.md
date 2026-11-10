@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blur", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 The subject's outline appears blurred, shifting, and wavering. This distortion grants the subject
 concealment (20% miss chance).

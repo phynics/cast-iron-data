@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clamor_box", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "289"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 289, Advanced Player's Guide pg 303\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.
 

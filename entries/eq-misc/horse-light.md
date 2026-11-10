@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory", "knig
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_light", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "2,000 lbs. (heavy), 3,000 lbs. (heavy, combat trained), 900 lbs. (ligh
 
 ## Horse
 
-**Sources:** Ultimate Equipment pg 81, PRPG Core Rulebook pg 159, Adventurer's Armory pg 19\
 **Price** 200 gp (heavy), 300 gp (heavy, combat trained), 75 gp (light), 110 gp (light, combat
 trained), 30 gp (pony), 45 gp (pony, combat trained); **Weight** 2,000 lbs. (heavy), 3,000 lbs.
 (heavy, combat trained), 900 lbs. (light), 1,200 lbs. (light, combat trained), 800 lbs. (pony), 900

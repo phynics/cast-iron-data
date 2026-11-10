@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "structural_traits", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 60
 
 The underlying rules of reality that govern how the denizens and landscape of a plane function are
 described by a plane's structural traits. Regardless of the nature of a plane's structural traits,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: one summoned vanth psychopomp
 Subschool: Summoning
 :::
-
-**Sources:** Pathfinder \#80: Empty Graves pg 28
 
 This spell functions like [summon monster](ref/spell/summon-monster), except that it summons a
 single [vanth psychopomp](ref/monster/psychopomp-vanth).

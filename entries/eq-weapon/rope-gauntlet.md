@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_gauntlet", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "23"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 4, Legacy of Fire Player's Guide pg 23
 
 By wrapping your hands and forearms in thin but tough hemp ropes and then soaking the makeshift
 gloves in water for weight and expansion, you can transform your fists into rock-hard weapons easily

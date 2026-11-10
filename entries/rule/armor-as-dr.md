@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_as_dr", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 191
 
 Armor in this system keeps all of its normal statistics and qualities, but its armor bonus
 (including any enhancement bonus added to armor bonus and natural armor bonus) is converted to

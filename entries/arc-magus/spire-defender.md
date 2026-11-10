@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon proficiencies", "Armor proficiencies", "Spell recall"]
 +++
 
-**Sources:** Inner Sea Magic pg 39\
 Spire defenders are magi who train themselves to accompany sages and archaeologists who venture from
 the Mordant Spire, acting as aids and bodyguards. Because they often operate in
 [difficult terrain](ref/rule/terrain-and-obstacles) - narrow trenches in dig sites, flooded

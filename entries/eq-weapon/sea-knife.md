@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_knife", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "189"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Advanced Race Guide pg 189
 
 A sea-knife is a long-handled weapon with a short blade. It is designed to be strapped to the ankle
 or foot of the wielder, pointing downward and jutting out beyond the wearer's leg. Donning or

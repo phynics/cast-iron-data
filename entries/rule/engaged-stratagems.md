@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engaged_stratagems", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 138
 
 Engaged stratagems are more personal and costly than simmering stratagems, evidencing the nemesis's
 attention and a growing, vicious grudge.

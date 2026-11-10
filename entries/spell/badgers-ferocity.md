@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/keen-edge" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one weapon/3 levels
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 This functions like [keen edge](ref/spell/keen-edge), except it affects multiple weapons and
 requires your concentration. You select the weapons to be affected, and can only affect one weapon

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "field_repair", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Craft 4 ranks."
 benefit = "If you are trained in a Craft skill appropriate to a broken item, you can repair that item with no raw material cost and no penalty on your Craft skill check for using improvised tools. If you spend a day, the item regains 1 hit point plus one-quarter of its original hit points. Alternatively, if the item gained the broken condition because it is a firearm that has misfired or a siege engine that suffered a mishap, or has the broken condition because it has the fragile weapon quality (or some similar quality), you can make a Craft check with the DC it takes to craft that item (see table below). If the check succeeds, the item loses the broken condition."
 normal = "Improvised tools impose a -2 penalty on Craft checks. Items require raw materials to repair."
 +++
-
-**Sources:** Ultimate Combat pg 101
 
 You can repair your [broken](ref/misc/broken) weapon or armor to serviceability even without the
 benefits of artisan tools.\

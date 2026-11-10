@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "Thrown splash weapons are not considered improvised weapons for the p
 +++
 
 ## Improvisational Focus (Combat)
-
-**Sources:** Martial Arts Handbook pg 8
 
 A makeshift weapon in your hands is as dangerous as any other instrument of violence.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard) or

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yhohm", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "307"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ blazing white flames._
 
 **Senses:** Darkvision 60 ft., Detect poison, Low-light vision
 
-**Sources:** Inner Sea Gods pg 307\
 **Subtype:** Extraplanar, Fire, Good
 
 **Size:** tiny

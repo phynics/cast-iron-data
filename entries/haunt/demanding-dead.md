@@ -6,12 +6,14 @@ source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demanding_dead", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "230"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 230\
 Some haunts influence the thoughts and actions of those in the mortal realms to communicate their
 anger, desires, or goals, which can lead to instances of direct-voice channeling and automatic
 writing. While the demanding dead are sometimes malevolent, more often there is a method to their

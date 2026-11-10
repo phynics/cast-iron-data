@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "motivating_display", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Dazzling Display to demoralize foes, you can motivat
 +++
 
 ## Motivating Display (Combat)
-
-**Sources:** Blood of the Moon pg 23
 
 You can empower your allies through their fear of you.\
 **Prerequisites:** Cha 13, [Dazzling Display](ref/feat/dazzling-display),

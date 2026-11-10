@@ -6,6 +6,9 @@ source_ids = ["city-of-strangers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_head_talisman_18_hd", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "city-of-strangers"
+page = "11"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th (10 HD), 7th (14 HD), 9th (18 HD), 12th (24 HD)"
 
 ## Death's Head Talisman
 
-**Sources:** City of Strangers pg 11\
 **Aura** varies; **CL** 5th (10 HD), 7th (14 HD), 9th (18 HD), 12th (24 HD)\
 **Slot** amulet; **Price** 1,000 gp (10 HD), 1,400 gp (14 HD), 1,800 gp (18 HD), 2,400 gp (24 HD);
 **Weight** -

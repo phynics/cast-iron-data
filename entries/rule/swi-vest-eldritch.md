@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swi_vest_eldritch", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 168
 
 **Slot** chest; CL 9th; **Weight** 1 lb.\
 **Aura** moderate abjuration; **Price** 8,000 gp; **Scaling** prize

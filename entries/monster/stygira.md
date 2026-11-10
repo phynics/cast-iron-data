@@ -6,6 +6,9 @@ source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stygira", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ a high, scarred brow devoid of nose or eyes._
 
 **Senses:** Scent
 
-**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 88\
 **Experience points:** 3,200
 
 **Armor class:** 19/13/16

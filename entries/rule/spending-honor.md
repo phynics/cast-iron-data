@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spending_honor", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 161
 
 You can spend honor points once per game session to gain a temporary advantage for yourself, such as
 a gift, loan, or introduction to an important person. Each expenditure reduces your honor score by

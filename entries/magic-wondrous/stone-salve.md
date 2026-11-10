@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_salve", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "321"
+[[sources]]
+publication = "core-rulebook"
+page = "530"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 321, PRPG Core Rulebook pg 530\
 **Aura** strong abjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

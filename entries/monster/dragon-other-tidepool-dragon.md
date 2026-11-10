@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_tidepool_dragon", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ it snaps crustacean-like claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

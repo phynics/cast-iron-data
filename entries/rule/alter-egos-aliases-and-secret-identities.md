@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_egos_aliases_and_secret_identities", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 185
 
 Throughout the course of your adventuring career, your public persona and your true personality
 might drift begin to drift apart or become notably disparate. When this occurs, you may change your

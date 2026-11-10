@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "plane-hop
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undine", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "advanced-race-guide"
+page = "174"
+[[sources]]
+publication = "bestiary-2"
+page = "275"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Advanced Race Guide pg 174, Bestiary 2 pg 275\
 Undines are humans who trace their ancestry to creatures from the Plane of Water. Even at first
 glance, one notices the potency of their ancestry, for an undine's very flesh mimics the color of
 lakes, seas, and oceans. Whether they have the blood of marids or water mephits as their kin, all

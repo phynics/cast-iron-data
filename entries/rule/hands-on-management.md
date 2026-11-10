@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hands_on_management", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 93
 
 As every villain knows, minions cannot be trusted. Some are disloyal, many are incompetent, and the
 rest are too lazy to do a good job. This gives the PCs a chance to see the villain before the final

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/form-of-the-exotic-dragon-2" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Polymorph
 :::
 
 ### Form of the Exotic Dragon III
-
-**Sources:** Legacy of Dragons pg 31
 
 This spell functions as per [form of the exotic dragon II](ref/spell/form-of-the-exotic-dragon-2)
 except that it also allows you to take the form of a Huge imperial or primal dragon. Druids can

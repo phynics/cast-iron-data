@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_gancanagh", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This incredibly handsome man's pointed ears and otherworldly grace betray an in
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 38\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Experience points:** 1,200

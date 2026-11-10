@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breach_to_the_quickening", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 60\
 The Quickening is the most chaotic portion of the First World, a region so unstable that most of the
 denizens of [the First World](ref/rule/the-first-world) give it a wide berth. Even a brief journey
 into the Quickening is enough to transform body and mind in unforeseeable ways. Connections between

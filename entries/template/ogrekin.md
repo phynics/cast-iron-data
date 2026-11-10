@@ -6,6 +6,9 @@ source_ids = ["bestiary-2", "inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogrekin", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "204"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1 (minimum 2)
 
 **Inherited:** present
-
-**Source:** Bestiary 2/204
 
 The result of an unfortunate union between an ogre and a humanoid, the ogrekin (or
 half-ogre^[1](ref/template/ogrekin#footnote-h)^) is cursed with horrific malformations due to its

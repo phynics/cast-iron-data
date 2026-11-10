@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archmages_vestments", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 24
 
 Consisting of everything a truly legendary wizard might need to overcome his rivals, the Archmage's
 Vestments enhance the wearer's spellcasting abilities.

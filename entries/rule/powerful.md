@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "powerful", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 234
 
 These options are most appropriate for monsters with high Strength or that rely on overwhelming
 physical attacks.

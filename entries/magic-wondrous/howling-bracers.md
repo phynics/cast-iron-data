@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howling_bracers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 230\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** wrists; **Price** 7,000 gp; **Weight** 1 lb.
 

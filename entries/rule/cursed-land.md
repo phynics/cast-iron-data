@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_land", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 143
 
 Cursed land is a region marked by divine judgment, scarred by a great tragedy, or wounded by
 intentional malice. Common causes of such a regional curse include undead hauntings in the area, a

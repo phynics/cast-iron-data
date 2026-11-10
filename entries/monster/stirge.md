@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stirge", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "260"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ proboscis._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 260\
 **Size:** tiny
 
 **Experience points:** 200

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rigor_mortis", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "126"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: pain
 :::
-
-**Sources:** Horror Adventures pg 126
 
 The joints of a creature affected by this spell stiffen and swell, making movement painful and slow.
 The target takes 1d6 points of nonlethal damage per caster level. Additionally, the target takes a

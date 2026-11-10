@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/animal-aspect", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 84
 
 You gain [low-light vision](ref/rule/low-light-vision), a +2 size bonus to the physical ability
 score of your choice, and a +1 enhancement bonus to your natural armor. Alternatively, you may cast

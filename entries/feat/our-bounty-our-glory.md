@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "our_bounty_our_glory", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "77"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You add 1 day to the time you can go without food or water before mak
 +++
 
 ## Our Bounty, Our Glory (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 77
 
 You can ignore privation and channel your emotions to prepare for a later bounty.\
 **Prerequisites:** Be a member of House Denzarni, or have The Omen

@@ -6,12 +6,12 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_events_cr_7_to_9", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#51: The Hungry Storm
 
 **Blizzard (CR 7):** A bitter storm of driving wind and snow engulfs the caravan for 1d4 days.
 During this time, the caravan takes a -2 penalty to AC and on Attack and Security checks because of

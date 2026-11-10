@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/modify-memory", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 102\
 You can modify an additional 5 minutes of the subject's memory per tier. You may affect multiple
 memories with one casting of the spell, as long as the total number of minutes doesn't exceed this
 limit. Each affected memory counts as a minimum of 5 minutes. For example, you could implant a

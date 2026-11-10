@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sepia-snake-sigil" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Reflex negates
 Spell resistance: no
 Target: one touched book or written work
 :::
-
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 75
 
 > _Priests of [Lissala](ref/faith/lissala) have access to the following spell._
 

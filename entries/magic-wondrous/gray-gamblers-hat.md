@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_gamblers_hat", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "264"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Gods pg 264\
 **Aura** faint illusion and transmutation; **CL** 1st\
 **Slot** head; **Price** 2,400 gp; **Weight** -
 

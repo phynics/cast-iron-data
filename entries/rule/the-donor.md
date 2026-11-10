@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_donor", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "81"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 81
 
 **The Donor:** A typical character in folktales, often appearing as a wise and subtly powerful
 figure, the donor is usually limited in her actions, either because she is old or because she is a

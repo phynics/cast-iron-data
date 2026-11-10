@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_smite", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "297"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft.-radius burst
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 297
 
 You draw down holy power to smite your enemies. Only evil and neutral creatures are harmed by the
 spell; good creatures are unaffected.

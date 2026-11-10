@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_desert_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "105"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ its lissome back._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 105\
 **Subtype:** Earth
 
 **tremorsense:** 30

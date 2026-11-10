@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hemlock", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "111"
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "item"
@@ -13,8 +19,6 @@ category = "Poisons"
 price = "2,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Ultimate Equipment pg 111, PRPG Core Rulebook pg 559
 
 **Price** 2,500 gp; **Weight** —
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_counter", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 151
 
 Each participant in a duel can take a special action called a dueling counter. A dueling counter is
 similar to a counterspell, but is easier to use.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_orm", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ considerable size._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 280\
 **Subtype:** Aquatic
 
 **Experience points:** 9,600

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "536"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 536
 
 Cursed items are magic items with some sort of potentially negative impact. Occasionally they mix
 bad with good, forcing characters to make difficult choices. Cursed items are almost never made

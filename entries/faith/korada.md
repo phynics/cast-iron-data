@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "korada", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Open Hand of Harmony
 
-**Sources:** Inner Sea Gods pg 322\
 **Monster Link** [Korada](ref/monster/empyreal-lord-korada)
 
 ### Details

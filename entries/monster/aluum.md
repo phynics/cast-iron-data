@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aluum", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "306"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ that glow with blue light._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea World Guide pg 306, Dark Markets - A Guide to Katapesh pg 58\
 **Experience points:** 9,600
 
 **Armor class:** 25/10/24

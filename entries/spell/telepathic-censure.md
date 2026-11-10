@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_censure", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature (see text)
 :::
-
-**Sources:** Demon Hunter's Handbook pg 27
 
 This spell creates an invisible psychic interference that inhibits telepathic communication. When
 cast upon a creature that can communicate via telepathy, this spell prevents that ability's use:

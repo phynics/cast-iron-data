@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recall_knowledge_religion", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 63
 
 Religion can be used to recall knowledge on the subjects of gods, ecclesiastic tradition, holy
 symbols, mythic history, the planes, and planar magic. See

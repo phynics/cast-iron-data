@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_undead", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "260"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: up to 2 HD/level of undead creatures, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 260
 
 This spell enables you to control undead creatures for a short period of time. You command them by
 voice and they understand you, no matter what language you speak. Even if vocal communication is

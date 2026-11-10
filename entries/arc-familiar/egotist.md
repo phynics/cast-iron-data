@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egotist", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "210"
 
 [fields]
 kind = "archetype"
@@ -13,7 +16,6 @@ replaces = ["Deliver touch spells", "Scry on familiar"]
 alters = ["Alertness", "the variable familiar bonus", "Speak with master"]
 +++
 
-**Sources:** Ultimate Wilderness pg 210\
 An egotist believes itself to be the real master in the relationship - the power behind the throne.
 It often attempts to communicate "orders" for its master as best it can, interfering in matters
 ranging from spell choices and tactical combat decisions to its master's love life.

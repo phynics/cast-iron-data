@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_delver", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "138"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "58"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 138, Seekers of Secrets pg 58
 
 Not all Pathfinders are concerned with cataloging their exploits. Some are most at home treading
 ground untouched in years or even centuries, in search of the next challenge, the next dungeon, or

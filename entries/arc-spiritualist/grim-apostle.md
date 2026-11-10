@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The phantom's emotional focus", "Shared consciousness", "fused cons
 alters = ["Phantom"]
 +++
 
-**Sources:** Pathfinder \#144: Midwives to Death pg 72\
 Some devotees of the Four Horsemen can form spiritual manifestations of the daemonic demigods.
 
 **Grim Phantom (Su)**

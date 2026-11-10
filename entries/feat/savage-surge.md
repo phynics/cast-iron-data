@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_surge", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When attempting a performance combat check while raging, you may, as 
 +++
 
 ## Savage Surge (Combat, Performance)
-
-**Sources:** Inner Sea Combat pg 12
 
 You can channel your rage into crowd-pleasing displays of brutality that aid you in the arena.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess), rage class feature.\

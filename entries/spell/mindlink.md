@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindlink", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 177
 
 You link your mind to that of a touched creature to swiftly communicate a large amount of complex
 information in an instant. You decide what the target learns, limited to any amount of information

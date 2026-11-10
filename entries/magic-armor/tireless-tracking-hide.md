@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tireless_tracking_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "212"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Guide pg 212\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 11,165 gp; **Weight** 25 lbs.
 

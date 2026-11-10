@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude half; see text
 Spell resistance: yes
 Target: plant touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 250
 
 This spell withers a single plant of any size. An affected plant creature takes 1d6 points of damage
 per level (maximum 15d6) and may attempt a Fortitude saving throw for half damage. A plant that

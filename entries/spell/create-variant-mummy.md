@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-undead" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: 1 corpse steeped in a peat bog for at least 24 hours
 Descriptors: evil
 :::
-
-**Sources:** Pathfinder \#81: Shifting Sands pg 73
 
 This spell functions as [create undead](ref/spell/create-undead), except it creates one of the
 following variant mummies: bog mummy, ice mummy, or Osirian tomb guardian.

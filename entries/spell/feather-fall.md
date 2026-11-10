@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feather_fall", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "281"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless) or Will negates (object)
 Spell resistance: yes (object)
 Targets: one Medium or smaller freefalling object or creature/level, no two of which may be more than 20 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 281
 
 The affected creatures or objects fall slowly. Feather fall instantly changes the rate at which the
 targets fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet), and the

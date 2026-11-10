@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sotto_voce", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one humanoid creature of 4 HD or less
 Descriptors: fear, mind-affecting, sonic
 :::
-
-**Sources:** Faction Guide pg 61
 
 Your dry, rasping whisper fills a living creature of 4 or fewer Hit Dice with unnatural dread. The
 affected creature must make a Will save or be shaken for 1 round.

@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militias", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 48
 
 When playing in a campaign that involves directly opposing a powerful organization or force, the
 players may wish to build a substantial militia that can help them in their cause. To that end, the

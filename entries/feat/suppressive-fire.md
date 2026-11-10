@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppressive_fire", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "209"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you damage a target using a ranged attack, that target can't
 +++
 
 ## Suppressive Fire (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 209
 
 Your well-timed ranged attacks protect your allies as they advance on the battlefield.\
 **Prerequisites:** [Far Shot](ref/feat/far-shot), [Precise Shot](ref/feat/precise-shot), keen senses

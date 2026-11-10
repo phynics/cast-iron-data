@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "machete_of_clearing_normal", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "29"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd"
 
 ## Machete of Clearing
 
-**Sources:** Sargava, the Lost Colony pg 29\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** normal (5,550 gp), animal or plant [bane](ref/magic-enh/bane) (11,550 gp);
 **Weight** 2 lbs.

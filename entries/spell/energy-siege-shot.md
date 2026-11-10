@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_siege_shot", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one Large siege engine
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 This spell transforms any ammunition fired by the target ranged siege engine into ammunition made of
 pure energy. When casting the spell, the caster picks a one of the following energy types: acid,

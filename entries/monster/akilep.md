@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akilep", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This beautiful female sphinx appears both wise and thoughtful._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mythical Monsters Revisited pg 57\
 **Experience points:** 25,600
 
 **Armor class:** 28/5/28

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promote_a_business", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 85
 
 You can spend 1 day of downtime to increase interest in a business, temple, organization, or other
 local fixture. You can also spend one type of capital, depending on how you want to promote the

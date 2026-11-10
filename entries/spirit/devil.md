@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "15"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Psychic Anthology pg 15\
 A [devil](ref/family/devil) is a legalistic fiend from Hell, nothing less than absolute law and
 order incarnate.
 

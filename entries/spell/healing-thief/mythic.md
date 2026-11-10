@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/healing-thief", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "97"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 97\
 Instead of stealing half the target's healing, you steal all of it. The amount of damage you steal
 before the spell is discharged increases to 10 points per caster level (maximum 100 points).
 

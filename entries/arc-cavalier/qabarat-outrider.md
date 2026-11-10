@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "greater tactician", "master tactician", "Banner", "Greater banner"]
 +++
 
-**Sources:** People of the Stars pg 11\
 The war colleges of the Castrovelian city-state of Qabarat produce a distinctive breed of cavalier
 known as the Qabarat outrider. In defense of the lashunta city-states, outriders lead small units of
 regular troops, the members of which can link minds with one another to form bonds in battle few can

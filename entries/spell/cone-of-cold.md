@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cone_of_cold", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "258"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 258
 
 Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a
 cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6).

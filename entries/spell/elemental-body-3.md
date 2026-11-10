@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/elemental-body-2" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "276"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Elemental Body III
-
-**Sources:** PRPG Core Rulebook pg 276
 
 This spell functions as [elemental body II](ref/spell/elemental-body-2), except that it also allows
 you to assume the form of a Large air, earth, fire, or water elemental. The abilities you gain

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_skill", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Intrigue pg 63
 
 When faced with an important situation, you grant yourself a magical edge to ensure your success.
 When casting this spell, select one skill for which you can attempt a skill check. The next time you

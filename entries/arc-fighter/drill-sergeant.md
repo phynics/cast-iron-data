@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bravery", "Weapon training 2", "Weapon training 3", "Weapon trainin
 alters = ["Weapon training 1"]
 +++
 
-**Sources:** Melee Tactics Toolbox pg 11\
 Drill sergeants excel at training other combatants in fighting techniques.
 
 **Tactician (Ex)**

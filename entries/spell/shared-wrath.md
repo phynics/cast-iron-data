@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/wrath" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Descriptors: emotion, mind-affecting
 :::
 
 ### Shared Wrath
-
-**Sources:** Advanced Player's Guide pg 243
 
 This spell functions as [wrath](ref/spell/wrath), except that you grant multiple creatures the
 bonuses against your designated foe. All subjects of shared wrath receive their bonuses against the

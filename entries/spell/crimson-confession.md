@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_confession", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target or Area: object touched or up to 1 sq. ft.
 :::
-
-**Sources:** Advanced Class Guide pg 179
 
 You ward an object or an area with your personal rune or mark. You can choose for the writing to be
 visible or invisible, and it doesn't harm the material upon which it is placed. A detect magic spell

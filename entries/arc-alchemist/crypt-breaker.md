@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "33"
 
 [fields]
 kind = "archetype"
 replaces = ["Bombs", "Mutagen", "Brew potion", "Persistent mutagen"]
 +++
 
-**Sources:** Inner Sea Magic pg 33\
 Crypt breakers are most common in Osirion, where they use their powers of perception and alchemical
 adaptation to safely investigate the mysteries of that lands' past. They are often involved in
 expeditions into dangerous tombs and catacombs, where their ability to create alchemical devices

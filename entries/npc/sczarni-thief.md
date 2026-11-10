@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sczarni_thief", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** Inner Sea NPC Codex pg 49\
 **XP** 600\
 Human [rogue](ref/class/rogue) 3\
 CN Medium humanoid (human)\

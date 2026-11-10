@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_shell", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the Snapping Turtle Style feat, the shield bonus 
 +++
 
 ## Snapping Turtle Shell (Combat)
-
-**Sources:** Ultimate Combat pg 120
 
 Your guarding hand is almost magical in its skill at deflecting incoming blows.\
 **Prerequisites:** [Snapping Turtle Clutch](ref/feat/snapping-turtle-clutch),

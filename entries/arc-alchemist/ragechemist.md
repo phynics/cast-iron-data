@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "Swift poisoning", "Poison immunity"]
 +++
 
-**Sources:** Ultimate Combat pg 25\
 Some alchemists create mutagens that tap into a primal anger that fuels their physical
 transformation. These alchemists have little control over their altered selves.
 

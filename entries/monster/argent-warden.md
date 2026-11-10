@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argent_warden", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ glowing golden light within._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Planar Adventures pg 228\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

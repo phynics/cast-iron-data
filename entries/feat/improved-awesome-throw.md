@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you make an awesome throw combat maneuver, for every 5 by which 
 +++
 
 ## Improved Awesome Throw (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 When you perform an awesome throw, you knock opponents back farther.\
 **Prerequisites:** Str 25, [Awesome Throw](ref/feat/awesome-throw),

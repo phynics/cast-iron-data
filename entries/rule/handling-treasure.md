@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handling_treasure", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "66"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 66
 
 Over the course of any adventure, there are treasures to find and rewards to win. While the shape of
 these [rewards](ref/rule/rewards) can vary wildly, the way PCs handle such rewards can create a host

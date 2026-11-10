@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_gun", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Occult Bestiary pg 63\
 **Aura** strong evocation; **CL** 17th\
 **Slot** none; **Price** 95,000 gp; **Weight** 15 lbs.
 

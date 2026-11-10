@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "116"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Bestiary 4/116
 
 A fungal creature is an animate plant with the appearance of a living creature. It grows from spores
 implanted in the dead body of a host creature, and takes on the host creature's basic form and many

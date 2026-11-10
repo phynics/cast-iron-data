@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpt_simulacrum", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: simulacrum touched
 :::
-
-**Sources:** Ultimate Magic pg 236
 
 You create cosmetic changes to a simulacrum, similar to disguise self, except the changes are
 physical rather than illusory. This does not change any of the simulacrum's abilities.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_kaminari", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ ring of huge drums and storm clouds._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 86\
 **Subtype:** Air, Kami, Native
 
 **Experience points:** 102,400

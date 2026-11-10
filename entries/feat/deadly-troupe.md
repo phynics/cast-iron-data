@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_troupe", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When at least one ally who also has this feat is threatening a foe, y
 +++
 
 ## Deadly Troupe (Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 You combine elements of dance and acting with your combat style to distract your enemies.\
 **Prerequisites:** Perform (act) or Perform (dance) 3 ranks, [human](ref/race/human) (Varisian).\

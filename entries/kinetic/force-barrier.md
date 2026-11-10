@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_barrier", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [force ward](ref/kinetic/force-ward)
-
-**Source:** Occult Adventures/25
 
 You create an immobile sphere or hemisphere of force around your square or squares. The force
 barrier functions as a [wall of force](ref/spell/wall-of-force) in all other ways. Activating this

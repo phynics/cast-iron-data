@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blunt_arrows", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.15 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 22, Advanced Player's Guide pg 176
 
 These arrows have rounded wooden tips that deal bludgeoning damage rather than piercing. An archer
 can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal

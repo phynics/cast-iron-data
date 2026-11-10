@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "take_the_hit", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As long as an ally with the Bonded Mind feat is adjacent to you, you 
 +++
 
 ## Take the Hit (Teamwork)
-
-**Sources:** Distant Shores pg 63
 
 You can shield your partner's body with your own.\
 **Prerequisites:** [Bonded Mind](ref/feat/bonded-mind), base attack bonus +6.\

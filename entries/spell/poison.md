@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "323"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: poison
 :::
-
-**Sources:** PRPG Core Rulebook pg 323
 
 Calling upon the venomous powers of natural predators, you infect the subject with a horrible poison
 by making a successful melee touch attack. This poison deals 1d3 Constitution damage per round for 6

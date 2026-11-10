@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickle", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 17, PRPG Core Rulebook pg 142
 
 Originating as a farming tool used for reaping grain, this one-handed weapon has a blade with a
 strong curve that can easily catch an opponent's limb or armor. Its blade can be either smooth or

@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "flight-of-the-red-raven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vernal_key", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "63"
+[[sources]]
+publication = "flight-of-the-red-raven"
+page = "3"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 63, Flight of the Red Raven pg 3\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

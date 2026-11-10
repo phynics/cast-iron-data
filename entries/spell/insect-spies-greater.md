@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/insect-spies" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 :::
 
 ### Greater Insect Spies
-
-**Sources:** Ultimate Intrigue pg 217
 
 As [insect spies](ref/spell/insect-spies), but you can also borrow the senses of the summoned
 insects. As a move action, you can choose to receive sensory input from one of the insects, seeing

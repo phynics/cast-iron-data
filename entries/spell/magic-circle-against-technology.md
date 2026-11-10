@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_circle_against_technology", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless), see text
 Spell resistance: no
 Area: 10-ft.-radius emanation from touched creature
 :::
-
-**Sources:** Technology Guide pg 9
 
 All creatures within the area gain the effects of a protection from technology spell. Creatures in
 the area, or that later enter the area, receive only one attempt to suppress technological effects

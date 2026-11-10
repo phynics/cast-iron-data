@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flashfire", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (object)
 Area: one 5-ft. square/2 levels
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Wilderness pg 231
 
 You cause flames to spring up in the area of effect. These flames deal 1d6 points of fire damage for
 every 3 caster levels you have (maximum 5d6) to each creature that enters a burning area or begins

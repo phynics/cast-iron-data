@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xenopterid", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ merely patterns on its head._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 283\
 **Type:** vermin
 
 **Experience points:** 3,200

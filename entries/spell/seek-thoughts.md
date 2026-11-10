@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seek_thoughts", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: no
 Area: 40-ft.-radius emanation centered on you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 242
 
 Similar to detect thoughts, seek thoughts allows you to sift through the surface thoughts of those
 around you. You may scan for either the answer to a simple question (such as "Where is the hidden

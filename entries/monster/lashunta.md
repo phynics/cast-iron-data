@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashunta", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Delicate antennae extend from the forehead of this lithe woman._
 
 **Perception:** +2
 
-**Sources:** Inner Sea Bestiary pg 25\
 **Subtype:** Lashunta\
 **Experience points:** 200
 

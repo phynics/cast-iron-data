@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_reality", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 60
 
 You cause the target to perceive the world as if in a dream. When the spell ends, the target forgets
 all identifying details of events that transpired while the spell lasted. The memories were not

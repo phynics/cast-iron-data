@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mirror-image" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: you
 Subschool: Figment
 Descriptors: electricity
 :::
-
-**Sources:** Ultimate Combat pg 243
 
 This spell works like [mirror image](ref/spell/mirror-image), except the illusory doubles it creates
 discharge an electric shock when destroyed. An opponent that uses a melee attack to destroy one of

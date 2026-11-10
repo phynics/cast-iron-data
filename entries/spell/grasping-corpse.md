@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_corpse", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "118"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: one corpse
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 118
 
 You can cause one nearby corpse to animate for a brief moment. Choose a creature within 30 feet of
 the corpse (even if the creature is outside the spell's range). The corpse shambles toward the

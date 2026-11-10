@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "droskar", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Droskar**
 
 **Sub:** The Dark Smith
-
-**Sources:** Inner Sea Gods pg 320
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_reaper_lesser_death", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "134"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved 
 
 **Senses:** Darkvision 60 ft., See invisibility, Status sight
 
-**Sources:** Bestiary 5 pg 134\
 **Subtype:** Extraplanar
 
 **Type:** undead

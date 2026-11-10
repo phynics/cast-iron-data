@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mace_of_blood", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "347"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate abjuration"
 caster_level = "8th"
 +++
-
-**Sources:** Ultimate Equipment pg 347, PRPG Core Rulebook pg 541
 
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Weight** 8 lbs.

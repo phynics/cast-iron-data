@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nyzams_remedies", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "5"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _The first three pages of this book contain pressed flowers and botanical diagrams relating to
 brewing Thuvian remedies._
-
-**Sources:** Arcane Anthology pg 5
 
 **Value** 50 gp (115 gp with the preparation ritual)
 

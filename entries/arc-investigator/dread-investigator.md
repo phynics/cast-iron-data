@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison lore", "Poison resistance", "immunity", "Investigator talent
 alters = ["Inspiration", "studied combat", "studied strike"]
 +++
 
-**Sources:** Cohorts and Companions pg 14\
 The dread investigator observes human behavior after the fact, honing their intuition by delving
 into the mysteries of death. They breach sealed tombs to recover research material rather than
 riches. Many join - or found - cults dedicated to [Urgathoa](ref/faith/urgathoa), while others are

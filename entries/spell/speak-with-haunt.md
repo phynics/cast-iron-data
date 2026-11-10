@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_haunt", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "193"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: one haunt
 Descriptors: language-dependant
 :::
-
-**Sources:** Advanced Class Guide pg 193
 
 You stir a haunt to a limited sense of awareness and consciousness, allowing it to answer questions.
 The spell's range must reach any square within 10 feet of the haunt's area. You must be aware of the

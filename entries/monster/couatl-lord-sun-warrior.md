@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_lord_sun_warrior", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This brilliantly colored couatl radiates a palpable air of peace and wisdom._
 
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
-**Sources:** Mythical Monsters Revisited pg 14\
 **Subtype:** Native
 
 **Experience points:** 51,200

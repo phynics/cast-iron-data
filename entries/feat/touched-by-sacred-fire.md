@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touched_by_sacred_fire", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain fire resistance 5 and a +2 bonus on all saving throws to res
 +++
 
 ## Touched by Sacred Fire (Faction)
-
-**Sources:** Faction Guide pg 57
 
 Regular contact with an elemental guardian of the Ruby Prince (such as Khemet's invisible fire
 elemental cohort Janhelia) has left you able to shrug off many sources of unnatural heat, even if

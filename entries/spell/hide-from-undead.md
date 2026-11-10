@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_undead", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless); see text
 Spell resistance: yes
 Targets: one touched creature/level
 :::
-
-**Sources:** PRPG Core Rulebook pg 296
 
 Undead cannot see, hear, or smell creatures warded by this spell. Even extraordinary or supernatural
 sensory capabilities, such as [blindsense](ref/rule/blindsight-and-blindsense), blindsight, scent,

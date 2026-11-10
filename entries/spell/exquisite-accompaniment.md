@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exquisite_accompaniment", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Effect: phantom instrument
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Ultimate Magic pg 219
 
 You create a phantom instrument, a glowing construct of magic in the form of a portable musical
 instrument of your choice. The instrument floats beside you, moving as you move (even if you

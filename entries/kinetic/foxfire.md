@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxfire", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "58"
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -28,8 +34,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Ultimate Wilderness/58, Psychic Anthology/22
 
 You surround a creature with glowing flames that outline it, as per
 [faerie fire](ref/spell/faerie-fire).

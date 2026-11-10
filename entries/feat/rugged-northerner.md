@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rugged_northerner", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "133"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "288"
 
 [fields]
 kind = "feat"
 prerequisites = "Con 13, Survival 1 rank."
 benefit = "You treat extreme cold conditions as severe cold, and severe cold as cold weather conditions. You are not impacted at all by normal cold weather conditions. In addition, you do not become fatigued by frostbite or hypothermia."
 +++
-
-**Sources:** Adventurer's Guide pg 133, Inner Sea World Guide pg 288
 
 You live a hard life in a cold climate, and after enduring the hardships of many brutal winters,
 you've gained some benefit from the frozen environs.\

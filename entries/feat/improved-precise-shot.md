@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_precise_shot", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "See the normal rules on the effects of cover and concealment in Combat
 +++
 
 ## Improved Precise Shot (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 Your ranged attacks ignore anything but total concealment and cover.\
 **Prerequisites:** Dex 19, [Precise Shot](ref/feat/precise-shot), base attack bonus +11.\

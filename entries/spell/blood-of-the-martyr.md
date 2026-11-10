@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_the_martyr", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Chronicle of the Righteous pg 50
 
 You cause the target to bleed from every orifice, and her organs and blood become suffused with
 positive energy. If the subject fails her Fortitude save, she takes 1d6 points of bleed damage per 4

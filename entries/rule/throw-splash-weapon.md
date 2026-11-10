@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throw_splash_weapon", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 202
 
 A splash weapon is a ranged weapon that breaks on impact, splashing or scattering its contents over
 its target and nearby creatures or objects. To attack with a splash weapon, make a ranged touch

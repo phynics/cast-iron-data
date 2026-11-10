@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imago_lens", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming illusion (chaotic, evil)"
 caster_level = "25th"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 60\
 **Aura** overwhelming illusion (chaotic, evil); **CL** 25th\
 **Slot** none; **Price** -; **Weight** 80 lbs.
 

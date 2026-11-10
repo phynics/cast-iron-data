@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Mounted archer", "Bonus feats gained at 6th, 12th, and 18th level"]
 +++
 
-**Sources:** Legacy of Dragons pg 14\
 In Tian Xia, many samurai are tutored in the ways of honor using lessons that originate from
 sovereign dragons and their dedication to safeguarding harmony.
 

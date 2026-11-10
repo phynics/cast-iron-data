@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outbreak", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Area: 20-ft. burst
 :::
-
-**Sources:** Villain Codex pg 69
 
 You cause any diseased creatures in the area to become extremely contagious. Any affected creature
 is overcome by a fit of wracking coughs, causing it to become fatigued and exposing any creatures

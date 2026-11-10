@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_weapon", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ prerequisite_feats = ["ref/feat/arcing-weapon"]
 +++
 
 ## Explosive Weapon (Combat)
-
-**Sources:** Chronicle of Legends pg 8
 
 You can channel magical power through your weapon to devastating effect.\
 **Prerequisites:** [Arcing Weapon](ref/feat/arcing-weapon).

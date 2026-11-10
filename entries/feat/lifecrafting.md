@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifecrafting", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ prerequisite_feats = ["ref/feat/craft-construct", "ref/feat/leadership"]
 +++
 
 ## Lifecrafting (Item Creation)
-
-**Sources:** Heroes of Golarion pg 7
 
 Your crafting skill and the secret knowledge of your people allows you to create new wyrwoods.\
 **Prerequisites:** [Craft Construct](ref/feat/craft-construct), [Leadership](ref/feat/leadership).

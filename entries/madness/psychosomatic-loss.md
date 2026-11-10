@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychosomatic_loss", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "187"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 187\
 **Type** greater madness; **Save DC** 20\
 **Onset** immediate\
 **Effect** The afflicted character becomes [blinded](ref/misc/blinded) or

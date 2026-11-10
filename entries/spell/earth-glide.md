@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_glide", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 205
 
 > _[Svirfneblin](ref/race/svirfneblin) have access to the following spell._
 

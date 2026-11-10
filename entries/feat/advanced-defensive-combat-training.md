@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_defensive_combat_training", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +4 bonus to your CMD."
 +++
 
 ## Advanced Defensive Combat Training (Combat, Faction)
-
-**Sources:** Faction Guide pg 56
 
 You are a master at defending yourself from all manner of combat maneuvers.\
 **Prerequisites:** [Defensive Combat Training](ref/feat/defensive-combat-training),

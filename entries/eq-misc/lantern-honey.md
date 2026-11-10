@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_honey", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "114"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Guide pg 114\
 **Price** 150 gp; **Weight** -\
 **Category** Alchemical Remedies
 

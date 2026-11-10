@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "essence_of_wandering_dreams", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and divination"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Origins pg 18\
 **Aura** moderate conjuration and divination; **CL** 9th\
 **Slot** none; **Price** 5,000 gp; **Weight** -
 

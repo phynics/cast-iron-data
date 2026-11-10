@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_cord_normal", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "60"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "8th"
 
 ## Infernal Cord
 
-**Sources:** Inner Sea Combat pg 60\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** belt; **Price** 5,000 gp (Normal), 31,000 gp (Greater); **Weight** 1 lb.
 

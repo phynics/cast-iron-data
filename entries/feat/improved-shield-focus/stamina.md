@@ -6,10 +6,12 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/improved-shield-focus", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 21\
 You can spend 3 stamina points to negate your shield's armor check penalty for one skill check.

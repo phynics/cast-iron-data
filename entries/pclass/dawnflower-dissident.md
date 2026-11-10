@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_dissident", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "20"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 20
 
 The church of Sarenrae is known across Golarion for its benevolence. In some regions, it is a faith
 that seeks little more than the succor and relief of suffering wherever it can be found, a warming

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarping", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 164
 
 While the pain of physical torture and of a ghoul stripping flesh from the bones of its
 alive-but-paralyzed prey are horrible ends, few fates are as ghastly as the dire transformations

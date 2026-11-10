@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adherer", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "8"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ stink clinging to it._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 8, Misfit Monsters Redeemed pg 9\
 **Experience points:** 800
 
 **Armor class:** 17/13/14

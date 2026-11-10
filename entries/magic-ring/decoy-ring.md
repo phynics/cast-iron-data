@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoy_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "166"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 166\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** ring; **Price** 12,000 gp; **Weight** -
 

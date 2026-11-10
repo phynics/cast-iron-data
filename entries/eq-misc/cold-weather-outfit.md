@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm", "core-rule
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_weather_outfit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "67"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "8 gp"
 weight = "7 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 89, Pathfinder \#51: The Hungry Storm pg 67, PRPG Core Rulebook
-pg 159\
 **Price** 8 gp; **Weight** 7 lbs.\
 **Category** Clothing
 

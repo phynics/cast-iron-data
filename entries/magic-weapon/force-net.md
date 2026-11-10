@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_net", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Blood of the Night pg 31\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 10,320 gp; **Weight** 6 lbs.
 

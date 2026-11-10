@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Aura of justice", "Holy champion"]
 +++
 
-**Sources:** Healer's Handbook pg 24\
 Invigorators devote themselves to keeping their allies bodily whole. These selfless paladins believe
 the best way to combat evil is by bolstering the health and spirits of those who fight alongside
 them. They play vital roles and often command troops among martial faiths, such as those of

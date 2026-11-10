@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_innards", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 59
 
 For the duration of this spell, your vital organs writhe, shift, and move about, making it difficult
 to strike you in a vulnerable area. While this spell is in effect, critical hits and sneak attacks

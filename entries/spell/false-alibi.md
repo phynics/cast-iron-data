@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/modify-memory" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "234"
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 234, Pathfinder \#59: The Price of Infamy pg 75
 
 This spell functions similarly to [modify memory](ref/spell/modify-memory), except you can modify
 the target's memory only in a specific way. In response to a triggering condition you determine, up

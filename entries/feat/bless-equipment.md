@@ -6,14 +6,15 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless_equipment", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
 prerequisites = "Caster level 3rd, channel energy class feature."
 benefit = "As a standard action, you may expend uses of your channel energy ability to touch a single weapon, suit of armor, or shield and temporarily grant it one weapon, armor, or shield special ability. To bless a piece of equipment with a particular blessing, you must expend a number of uses of channel energy equal to the number listed in the table above, and your caster level must be equal to or greater than that listed for the selected blessing."
 +++
-
-**Sources:** Undead Slayer's Handbook pg 7
 
 You can bless armor and weapons with a touch to imbue them with magical properties.\
 **Prerequisites:** Caster level 3rd, [channel energy](ref/ability/channel-energy) class feature.\

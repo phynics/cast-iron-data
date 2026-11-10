@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arbitrament", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "39"
+[[sources]]
+publication = "champions-of-balance"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Spell resistance: yes
 Target: non-neutral creatures in a 40-ft.-radius spread centered on you
 Descriptors: sonic
 :::
-
-**Sources:** Planar Adventures pg 39, Champions of Balance pg 26
 
 All chaotic evil, chaotic good, lawful evil, and lawful good creatures within the area of this spell
 suffer the following conditions, based on their Hit Dice.

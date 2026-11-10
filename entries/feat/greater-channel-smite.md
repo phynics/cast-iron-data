@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_channel_smite", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "102"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Channel energy class feature, Channel Smite, base attack bonus 
 prerequisite_feats = ["ref/feat/channel-smite"]
 benefit = "Before making any melee attacks on your turn, you can use a swift action to expend one daily use of your channel energy class feature. The dice from your channel energy feature form a pool of damage dice you can access to further damage creatures normally harmed by the energy you are channeling - undead for positive energy, living creatures for negative energy. Prior to making each melee attack, allocate dice from the pool to be used as extra damage dice if you hit. Your target can make a Will save, as normal, to halve this extra damage. This extra damage is not multiplied when you score a critical hit. If you miss, the extra damage dice remain in your pool, but any dice left unexpended at the end of your turn are wasted."
 +++
-
-**Sources:** Ultimate Combat pg 102
 
 You empower your weapon with the might of your deity, which you discharge as you strike your foes.\
 **Prerequisites:** [Channel energy](ref/ability/channel-energy) class feature,

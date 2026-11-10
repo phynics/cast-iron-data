@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "room_augmentations", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 104
 
 Augmentations modify a room to be more productive, durable, or useful. Augmentations are permanent
 and can't be removed. If you upgrade a room you have augmented, the augmentation carries over to the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_chelonidal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ heavy shell covering its back._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 80\
 **Subtype:** Agathion, Aquatic, Extraplanar, Good
 
 **Experience points:** 3,200

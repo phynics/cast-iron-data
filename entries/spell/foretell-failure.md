@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foretell_failure", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Arcane Anthology pg 24
 
 You cast this spell immediately before you would take an action that requires a d20 roll, such as a
 skill check, attack roll, or ability check. The action must be something you can complete in a

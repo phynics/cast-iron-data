@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_laboratories", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 16\
 Although there is a wide range of technological items, the types of laboratories needed to craft
 objects are relatively limited. Crafting laboratories are, unfortunately, incredibly rare, and those
 whose locations are currently known and found in relatively safe regions are firmly controlled. A

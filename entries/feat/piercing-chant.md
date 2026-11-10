@@ -6,14 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_chant", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "9"
 
 [fields]
 kind = "feat"
 prerequisites = "Goblin."
 benefit = "As a full-round action, you can sing a song so terrible and ear-splitting that each enemy within 15 feet of you that hears it must succeed at a Will save or be dazed for 1 round. The DC of this saving throw is equal to 10 + half your level + your Charisma modifier. Whether or not the initial save is successful, a creature cannot be affected by this ability again for 24 hours. This is a mind-affecting effect."
 +++
-
-**Sources:** Heroes of Golarion pg 9
 
 Music plays a key role in goblin culture - at the very least, goblins are fond of cacophonous chants
 describing the last enemy they slew or what they're roasting for dinner. You have gathered, however,

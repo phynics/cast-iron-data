@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_scavenger", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can harvest the ectoplasmic remains of haunts, incorporeal undead
 +++
 
 ## Haunt Scavenger (Item Creation)
-
-**Sources:** Haunted Heroes Handbook pg 30
 
 You can use spiritual essence to craft magic items.\
 **Prerequisites:** Any one item creation feat or Craft (alchemy) 3 ranks.\

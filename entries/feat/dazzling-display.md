@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_display", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wielding the weapon in which you have Weapon Focus, you can per
 +++
 
 ## Dazzling Display (Combat)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 Your skill with your favored weapon can frighten enemies.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus), proficiency with the selected weapon.\

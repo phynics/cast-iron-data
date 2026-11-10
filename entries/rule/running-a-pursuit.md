@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_a_pursuit", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 143
 
 Pursuits proceed in 1-hour pursuit phases, during which each group (or the group that is moving, if
 one group is resting) makes progress toward completing its current terrain tile. The group can

@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_of_peace", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: 40-ft.-radius burst centered on you
 Descriptors: good
 :::
-
-**Sources:** Champions of Purity pg 29
 
 Each time a subject of this spell attempts to attack another creature or object, or otherwise
 perform an aggressive or damaging action toward a creature or object, it must attempt a Will save.

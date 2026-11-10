@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "60"
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +31,6 @@ group = "kineticist-wild-talent"
 [Winter Blast](ref/kinetic/winter-blast), [Wood Blast](ref/kinetic/wood-blast)
 
 **Saving throw:** Fortitude negates
-
-**Source:** Ultimate Wilderness/60, Psychic Anthology/21
 
 Creatures that take piercing or slashing damage from your blast are infected with spores. If a
 target fails its Fortitude save, it takes 1d6 points of damage per round for 10 rounds as plants and

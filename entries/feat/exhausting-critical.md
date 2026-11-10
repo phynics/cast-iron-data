@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exhausting_critical", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Exhausting Critical (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 123
 
 Your critical hits cause opponents to become exhausted.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus),

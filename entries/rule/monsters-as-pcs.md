@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monsters_as_pcs", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "313"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 313
 
 Using one of the monsters presented as a character can be very rewarding, but weighing such a
 character against others is challenging. Monsters are not designed with the rules for players in

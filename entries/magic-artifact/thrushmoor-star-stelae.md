@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrushmoor_star_stelae", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 8\
 **Aura** faint conjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 44,000 lbs. each
 

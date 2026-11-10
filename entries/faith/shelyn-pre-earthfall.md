@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shelyn_pre_earthfall", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "74"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Shelyn (pre-Earthfall)**
 
 **Sub:** Song of the Prism
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 74
 
 ### Details
 

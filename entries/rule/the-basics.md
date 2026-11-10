@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_basics", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 110
 
 When making a full attack, roll only one attack roll and compare your result to the target's AC. If
 your attack result is lower than the target's AC by 6 or more, you miss and deal no damage. If your

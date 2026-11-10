@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "who_rolls_the_kingdom_check", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 Running a kingdom is more fun if all the players are involved and each is responsible for making
 some of the kingdom checks. Who makes each roll depends on the players in your group and what roles

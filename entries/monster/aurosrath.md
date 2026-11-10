@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aurosrath", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ and from the exposed wounds that cover its hideously distended body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Druma, Profit and Prophecy pg 56\
 **Type:** undead
 
 **Experience points:** 1,600

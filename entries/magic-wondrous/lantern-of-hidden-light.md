@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_of_hidden_light", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 115\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.
 

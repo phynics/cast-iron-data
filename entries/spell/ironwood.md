@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironwood", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "303"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Effect: an ironwood object weighing up to 5 lbs./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 303
 
 Ironwood is a magical substance created by druids from normal wood. While remaining natural wood in
 almost every way, ironwood is as strong, heavy, and resistant to fire as steel. Spells that affect

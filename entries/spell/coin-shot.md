@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coin_shot", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: yes (object)
 Target: up to three coins touched
 :::
-
-**Sources:** Heroes of the Streets pg 30
 
 You turn up to three coins into deadly projectiles that gain the velocity of a bullet when thrown.
 The coins retain their normal appearance but can be used as simple thrown weapons with a range

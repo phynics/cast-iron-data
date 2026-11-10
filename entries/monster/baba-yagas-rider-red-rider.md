@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baba_yagas_rider_red_rider", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ a goat, ending in cloven hooves._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Irrisen - Land of Eternal Winter pg 54\
 **Experience points:** 19,200
 
 **Armor class:** 29/15/24

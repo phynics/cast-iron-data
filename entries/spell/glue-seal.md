@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glue_seal", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: one object or one 5-ft. square
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 183
 
 You cover a solid surface with a layer of sticky glue. Anyone in the area when the spell is cast
 must attempt a Reflex save. Those who fail become entangled, but can break free by succeeding at a

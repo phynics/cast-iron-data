@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "114"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Slow fall", "High jump", "Improved evasion", "Tongue of the sun and the moon"]
 +++
 
-**Sources:** Advanced Player's Guide pg 114\
 The monk of the sacred mountain finds strength and power in the earth beneath his feet. Rather than
 spinning though the battlefield with the fluid motion of the river, he roots himself to the ground,
 as immovable and unshakable as the stones of the mountain. A monk of the sacred mountain has the

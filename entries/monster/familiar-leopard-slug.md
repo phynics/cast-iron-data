@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_leopard_slug", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "200"
+[[sources]]
+publication = "familiar-folio"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -37,7 +43,6 @@ _This dark-yellow, hand-length slug is covered in a pattern of black spots and s
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Wilderness pg 200, Familiar Folio pg 30\
 **Type:** vermin
 
 **Experience points:** 0

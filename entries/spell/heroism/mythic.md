@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/heroism", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 98
 
 The morale bonus increases to +4 and applies on all checks, attack rolls, saves, and weapon damage
 rolls. Allies adjacent to the target gain a +4 morale bonus on saves against fear effects.

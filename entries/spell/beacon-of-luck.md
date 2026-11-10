@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_of_luck", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 229
 
 You send out a burst of luck with a 30-foot radius centered around you. While the beacon of luck is
 in effect, you gain a +2 sacred bonus on all saving throws. As an immediate action before a saving

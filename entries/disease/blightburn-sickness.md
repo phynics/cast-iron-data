@@ -6,12 +6,16 @@ source_ids = ["undead-unleashed", "mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_sickness", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "15"
+[[sources]]
+publication = "mythic-realms"
+page = "21"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Undead Unleashed pg 15, Mythic Realms pg 21
 
 **Type:** Disease (Contact (see text))
 

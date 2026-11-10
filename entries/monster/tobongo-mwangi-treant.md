@@ -6,6 +6,9 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tobongo_mwangi_treant", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ into arms ending in massive claws._
 
 **Type:** plant
 
-**Sources:** Heart of the Jungle pg 61\
 **Experience points:** 19,200
 
 **Armor class:** 27/5/27

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/weapon-focus", label = "or" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You gain a +1 bonus on damage rolls made with all types of slings, an
 +++
 
 ## Slipslinger Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 13
 
 You can fire all manner of slings and sling-like weapons.\
 **Prerequisites:**

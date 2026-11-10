@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_scribe_quill", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Planar Adventures pg 55\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 4,500 gp; **Weight** -
 

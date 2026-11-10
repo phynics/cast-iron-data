@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "batrachian_surge", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Blood of the Beast pg 11
 
 > _Drawing on aspects of their amphibious animal counterparts, the following spell is more common
 > among [grippli](ref/race/grippli) spellcasters than among those of other races._

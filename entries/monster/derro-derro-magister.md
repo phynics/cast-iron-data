@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_magister", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "92"
+[[sources]]
+publication = "occult-bestiary"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ gem-encrusted coronet._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 92, Occult Bestiary pg 20\
 **Subtype:** Derro
 
 **Experience points:** 1,600

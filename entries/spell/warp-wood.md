@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warp_wood", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "368"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 Small wooden object/level, all within a 20-ft. radius
 :::
-
-**Sources:** PRPG Core Rulebook pg 368
 
 You cause wood to bend and warp, permanently destroying its straightness, form, and strength. A
 warped door springs open (or becomes stuck, requiring a Strength check to open, at your option). A

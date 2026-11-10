@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "88"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Unarmed strike", "brawler's flurry", "AC bonus", "Awesome blow", "i
 alters = ["Knockout"]
 +++
 
-**Sources:** Advanced Class Guide pg 88\
 A strangler is trained to choke the life out of her victims with her vise-like grip. Some stranglers
 are self-taught and are little more than brutish murderers, unhinged sociopaths, or opportunistic
 alley-bashers. Others are members of murder cults or specialized schools of assassination, trained

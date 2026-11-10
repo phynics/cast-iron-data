@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pursuit", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 142
 
 Hunting down your enemies across hill and dale is a classic fantasy trope, and a deeply satisfying
 part of many books and films, yet difficult to simulate using only the Pathfinder RPG combat rules.

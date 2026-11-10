@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thin_man", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hands with wickedly sharp nails._
 
 **Senses:** Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 52\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

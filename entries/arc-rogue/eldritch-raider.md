@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "189"
 
 [fields]
 kind = "archetype"
 replaces = ["Rogue talent rogues gained at 2nd level", "Trap sense"]
 +++
 
-**Sources:** Advanced Race Guide pg 189\
 An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's
 homeland. They explore old ruins that date back to the days of the old human empire and track down
 relics and lore from its glory days. An eldritch raider has the following class features.

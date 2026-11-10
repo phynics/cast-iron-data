@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_leap", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Savage Slam, you can move yourself and your target up to
 +++
 
 ## Savage Leap (Combat)
-
-**Sources:** Martial Arts Handbook pg 23
 
 You leap into the air while holding your opponent and slam him to the ground.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

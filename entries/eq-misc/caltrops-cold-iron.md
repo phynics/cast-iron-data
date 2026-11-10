@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caltrops_cold_iron", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "18"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Demon Hunter's Handbook pg 18\
 **Price** 2 gp; **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_rods", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 167
 
 Rods are scepter-like devices that have unique magical powers and usually do not have any charges.
 Anyone can use a rod.

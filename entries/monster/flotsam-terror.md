@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flotsam_terror", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ humanoid shape roughly the size of a child._
 
 **Size:** small
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 86\
 **Type:** undead
 
 **Experience points:** 1,200

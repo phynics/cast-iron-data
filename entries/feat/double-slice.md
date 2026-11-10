@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_slice", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You normally add only half of your Strength modifier to damage rolls m
 +++
 
 ## Double Slice (Combat)
-
-**Sources:** PRPG Core Rulebook pg 122
 
 Your off-hand weapon while dual-wielding strikes with greater power.\
 **Prerequisites:** Dex 15, [Two-Weapon Fighting](ref/feat/two-weapon-fighting).\

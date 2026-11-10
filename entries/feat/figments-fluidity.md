@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figments_fluidity", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, your familiar can spend a full-round action to manually
 +++
 
 ## Figment's Fluidity (Familiar)
-
-**Sources:** Familiar Folio pg 19
 
 Your familiar can rework the dream-stuff it is made of.\
 **Prerequisites:** Must have a [familiar](ref/ability/familiars) with the

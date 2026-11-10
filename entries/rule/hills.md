@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hills", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 222
 
 Hills can be of many different types. They might be rolling hills in a broad grassland, or they can
 be the transitional point between plains and more rugged mountains. They could be small, craggy

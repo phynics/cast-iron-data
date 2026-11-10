@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_reverberation", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: creature touched
 :::
-
-**Sources:** Ultimate Combat pg 233
 
 This spell converts the momentum and force from melee attacks made against the target of the spell,
 reflecting them back upon the attacker's weapon. After making a successful melee attack against the

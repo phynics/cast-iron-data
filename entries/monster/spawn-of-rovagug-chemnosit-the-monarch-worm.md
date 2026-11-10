@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_of_rovagug_chemnosit_the_monarch_worm", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ center of its maw rests a glowing evil eye._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 47\
 **tremorsense:** 180
 
 **Experience points:** 819,200

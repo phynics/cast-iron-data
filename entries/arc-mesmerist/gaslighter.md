@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "60"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "Touch treatment (minor)", "Touch treatment (mode
 alters = ["Painful stare"]
 +++
 
-**Sources:** Horror Adventures pg 60\
 A gaslighter takes joy in others' suffering, delighting in driving them to madness.
 
 **Alignment**

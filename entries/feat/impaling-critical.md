@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaling_critical", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you score a critical hit with the selected piercing melee we
 +++
 
 ## Impaling Critical (Combat, Critical)
-
-**Sources:** Ultimate Combat pg 105
 
 Your critical hits can skewer your foes.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus),

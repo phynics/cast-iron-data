@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "despair", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "81"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 81\
 Some creatures die in such horrific ways, or live such pointless and senseless lives, that despair
 grips their very beings. Phantoms with this focus use misery as a weapon, inflicting the living with
 the gloom of the phantoms' continued existence. Despair phantoms often appear twisted or wounded,

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calling_off_a_session", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 14
 
 After how many bail-outs do you call off the game for the night? The answer to this question may
 depend on the size of your group. Obviously, if you have only one or two players, then a single

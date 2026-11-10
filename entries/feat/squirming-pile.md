@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squirming_pile", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While sharing a square with an ally who has this feat, you gain a 25%
 +++
 
 ## Squirming Pile (Combat, Teamwork)
-
-**Sources:** Blood of the Beast pg 23
 
 Your body is easily lost in the muddy chaos of fighting as a swarm, making your vital areas
 difficult to target.\

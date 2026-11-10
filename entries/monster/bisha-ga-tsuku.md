@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bisha_ga_tsuku", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "42"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ DC 20)
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 42\
 **Subtype:** Cold, Native
 
 **Experience points:** 6,400

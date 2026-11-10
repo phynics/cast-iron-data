@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vicious_link", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Path of the Hellknight pg 21\
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 400 lbs.
 

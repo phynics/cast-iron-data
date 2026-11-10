@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "senses_and_communication", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "533"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 533
 
 Every intelligent magic item begins with the ability to see and hear within 30 feet, as well as the
 ability to communicate empathically with its owner. Empathy only allows the item to encourage or

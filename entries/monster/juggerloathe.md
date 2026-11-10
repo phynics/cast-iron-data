@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggerloathe", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ appears to be an armored cobra._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Scent
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 62\
 **tremorsense:** 120
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_amargasaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of the creature's neck._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 94\
 **Experience points:** 2,400
 
 **Armor class:** 18/10/16

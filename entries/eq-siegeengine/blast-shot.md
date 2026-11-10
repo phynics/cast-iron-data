@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_shot", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "25 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 Instead of a single hard ball, this ammunition is a bundle of large pellets, balls, or pieces of
 scrap metal, propelled a short distance by black powder and attacking all creatures and objects

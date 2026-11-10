@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "124"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Charmed life", "Swashbuckler initiative", "Menacing swordplay", "Bl
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 124\
 Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses
 stealth, disguise, and ruthless guile to pursue her goals. Some of these swashbucklers work to
 undermine evil organizations, while others are master thieves or mysterious assassins.

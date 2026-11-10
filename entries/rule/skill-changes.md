@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_changes", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "46"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 46
 
 Appraise, Craft, Handle Animal, Linguistics, Perform, Profession, and some Knowledge specialties are
 all background skills. While all of these skills can be useful, or even necessary, in certain types

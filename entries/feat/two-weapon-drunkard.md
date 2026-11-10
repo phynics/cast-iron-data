@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_drunkard", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A tankard wielded as an improvised weapon normally functions as a gaun
 +++
 
 ## Two-Weapon Drunkard (Combat)
-
-**Sources:** Paths of the Righteous pg 7
 
 You effortlessly wield tankards in your off hand, and can use them to drink from and as deadly
 weapons in a battle with equal ease.\

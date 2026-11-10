@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjuration_uw_1", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 156
 
 The benefit of many low-level conjuration spells is that they grant a wider range of versatility,
 letting the characters focus the spending of their hard-earned gold on items with effects that can't

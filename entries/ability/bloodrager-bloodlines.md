@@ -6,12 +6,12 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodrager_bloodlines", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Class Guide
 
 When a bloodrager enters a bloodrage, he often takes on a physical transformation influenced by his
 bloodline and powered by the magic that roils within him. Unless otherwise specified, he gains the

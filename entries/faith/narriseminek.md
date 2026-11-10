@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "narriseminek", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "14"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Narriseminek**
 
 **Sub:** The Crownless, the Maker of Kings
-
-**Sources:** Concordance of Rivals pg 14
 
 ### Details
 

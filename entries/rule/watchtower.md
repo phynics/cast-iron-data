@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchtower", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "211"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 211
 
 A Watchtower flies your flag, is a safe place for your patrols, and establishes your power on the
 frontier. A Watchtower cannot share a hex with a Fort or another Watchtower.

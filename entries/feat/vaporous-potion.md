@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vaporous_potion", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Brew Potion."
 prerequisite_feats = ["ref/feat/brew-potion"]
 benefit = "When you brew a potion, you can brew it in such a way that when exposed suddenly to air and force, it diffuses into a cloud of vapor that can be inhaled. The potion can still be consumed normally, but it can also be delivered by throwing it at another creature as a splash weapon. The potion vial has a range increment of 10 feet and is considered an improvised weapon. On impact, the vial breaks and a cloud of barely visible potion vapor fills the square it lands in (this vapor does not obscure normal sight in any way). If a creature is in that square, it gains the benefits of the potion immediately as though it had imbibed the potion."
 +++
-
-**Sources:** Potions and Poisons pg 17
 
 You know how to brew potions that can be delivered as a gaseous cloud.\
 **Prerequisites:** [Brew Potion](ref/feat/brew-potion).\

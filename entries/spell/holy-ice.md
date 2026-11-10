@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_ice", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: wall of ice or flying ice javelins (see text)
 Descriptors: cold, good, water
 :::
-
-**Sources:** Ultimate Magic pg 223
 
 This spell creates a large mass of frozen holy water that can be used for one of two effects.
 

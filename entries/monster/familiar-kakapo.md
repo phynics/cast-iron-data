@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_kakapo", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "198"
+[[sources]]
+publication = "familiar-folio"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ whiskers._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 198, Familiar Folio pg 24\
 **Size:** tiny
 
 **Experience points:** 50

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_pursuit", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 142
 
 Once the GM knows the progress numbers for both the pursuers and quarries, she is ready to construct
 the overall structure of the pursuit. Building a pursuit is fairly simple, but the process depends

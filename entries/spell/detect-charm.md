@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-magic" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "77"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -62,8 +68,6 @@ Area: cone-shaped emanation
 :::
 
 ### Detect Charm
-
-**Sources:** Adventurer's Guide pg 77, Andoran, Spirit of Liberty pg 27
 
 This spell functions as per _[detect magic](ref/spell/detect-magic),_ except that it detects only
 charm, compulsion, and possession effects. You immediately detect the strength and location of each

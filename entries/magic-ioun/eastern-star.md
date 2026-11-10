@@ -6,6 +6,12 @@ source_ids = ["the-emerald-spire-superdungeon", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eastern_star", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "129"
+[[sources]]
+publication = "occult-mysteries"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** The Emerald Spire Superdungeon pg 129, Occult Mysteries pg 29\
 **Aura** faint divination; **CL** 1st\
 **Slot** none; **Price** 6,000 gp; **Weight** —
 

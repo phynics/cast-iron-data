@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloaker", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ menacing tail of segmented bone._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 47\
 **Experience points:** 1,600
 
 **Armor class:** 19/12/16

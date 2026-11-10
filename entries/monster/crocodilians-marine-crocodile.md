@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodilians_marine_crocodile", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tail that it uses to propel itself through the water._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 85\
 **Experience points:** 800
 
 **Armor class:** 14/10/13

@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frigid_souls", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 27
 
 You harness the Irriseni people's palpable fear of their frozen environment and cruel Jadwiga
 overlords into a haunt that withers defenses against the cold. Any creature that enters the affected

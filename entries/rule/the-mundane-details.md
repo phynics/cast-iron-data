@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_mundane_details", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "143"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 143
 
 Once you have the key heroic details figured out, you have a rough sketch of an adventuring world.
 Now you're going to have to think about the run-of-the-mill folk who populate it. Some NPCs may be

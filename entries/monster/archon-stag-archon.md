@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_stag_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "287"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This stag-headed humanoid has large, sweeping antlers and wields a finely-craft
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Inner Sea Gods pg 287\
 **Subtype:** Archon, Extraplanar, Good, Lawful, Shapechanger
 
 **Experience points:** 1,200

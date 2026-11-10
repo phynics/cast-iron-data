@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_transformation", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "56"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 56\
 **School** transmutation \[evil\]; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (powdered obsidian, vial of unholy water), F (the severed head of a

@@ -6,12 +6,12 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_true", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 True [dragons](ref/type/dragon) are divided into two broad categories: chromatic and metallic.
 Chromatic dragons are almost universally evil, seeking only to slake their endless lust for food,

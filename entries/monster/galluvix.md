@@ -6,6 +6,9 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galluvix", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ of a fox from the neck up._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 84\
 **Size:** tiny
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_bomb", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "432"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Curse of the Crimson Throne pg 432\
 **Price** 100 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

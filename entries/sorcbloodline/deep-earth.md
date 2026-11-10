@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_earth", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "137"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 137\
 The echoing cave-songs and the rumble and creak of primal spirits deep below the ground thrum in
 your soul and in all your family line. You are likely slow, steady, and stable in your thinking,
 little prone to wandering and preferring to instead find depth in contemplation.

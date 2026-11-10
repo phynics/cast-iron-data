@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_seven_virtues", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 56\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** ring; **Price** 10,000 gp; **Weight** -
 

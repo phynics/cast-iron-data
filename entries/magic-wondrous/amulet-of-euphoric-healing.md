@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_euphoric_healing", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Champions of Corruption pg 30\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** neck; **Price** 12,000 gp; **Weight** 1 lb.
 

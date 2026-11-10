@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "141"
+[[sources]]
+publication = "advanced-players-guide"
+page = "287"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 141, Advanced Player's Guide pg 287\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** weapon quality; **Price** +14,000 gp; **Weight** -
 

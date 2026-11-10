@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "53"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expert trainer"]
 alters = ["Armor proficiency", "Mount"]
 +++
 
-**Sources:** Aquatic Adventures pg 53\
 Oceanriders are underwater cavaliers who ride dolphins, orcas, or seahorses.
 
 **Armor Proficiency**

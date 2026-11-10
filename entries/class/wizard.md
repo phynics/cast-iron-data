@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "advanced-race-guide", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizard", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "77"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 77
 
 Beyond the veil of the mundane hide the secrets of absolute power. The works of beings beyond
 mortals, the legends of realms where gods and spirits tread, the lore of creations both wondrous and

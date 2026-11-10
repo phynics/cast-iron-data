@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_squamous_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "244"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ and a toothy, toad-like head._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, True seeing
 
-**Sources:** Book of the Damned pg 244\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 307,200

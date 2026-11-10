@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_books_of_rul_thaven", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "126"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This trio of books is bound in leather as black as a starless night, clasped together with gleaming
 silver. The pages are filled with notes and errata. The handwriting becomes more hurried toward the
 end of the trilogy, and the final page says, "I have found her!"_
-
-**Sources:** Ultimate Magic pg 126
 
 **Opposition** Illusion, transmutation\
 **Protection** Each book features a [superior lock](ref/eq-misc/lock-superior) (DC 40); secret page

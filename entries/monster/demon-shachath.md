@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_shachath", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ beautiful visage with an expression of horror bulges from the back of its skull.
 
 **Senses:** All-around vision, Darkvision 60 ft., Detect good
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

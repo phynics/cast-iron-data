@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technology_adept", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attack with a technological firearm that consumes charges, t
 +++
 
 ## Technology Adept (Combat)
-
-**Sources:** Technology Guide pg 7
 
 You utilize high-tech firearms to maximum effect.\
 **Prerequisites:** Dex 13, [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)

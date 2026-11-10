@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Resolve", "greater resolve", "true resolve"]
 alters = ["Honorable stand"]
 +++
 
-**Sources:** Disciple's Doctrine pg 26\
 The ward speaker draws power from simple rituals to honor the spirits found throughout the world so
 that he might better protect those entrusted to his care.
 

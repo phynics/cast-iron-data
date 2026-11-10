@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_swap_places", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Using Swap Places requires you and your ally to be the same size, and 
 +++
 
 ## Improved Swap Places (Combat, Teamwork)
-
-**Sources:** Advanced Class Guide pg 150
 
 When you switch places with your comrade, your sizes don't matter.\
 **Prerequisites:** [Swap Places](ref/feat/swap-places).\

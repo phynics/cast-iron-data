@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_bone", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: yes; see text
 Effect: solid wall of humanoid bones with an area of up to one 5-ft. square/level
 :::
-
-**Sources:** Magic Tactics Toolbox pg 13
 
 This spell creates a vertical wall of skeletal arms that attaches itself to any solid surface. The
 wall of bone works identically to wall of stone except as noted above and in this spell description.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_faithful_dead", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Temples pg 42\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** ring; **Price** 1,000 gp; **Weight** -
 

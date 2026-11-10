@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_quick_reflexes_4_5r", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "149"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Cloak of Quick Reflexes
 
-**Sources:** Mythic Adventures pg 149\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** shoulders; **Price** 1,500 gp (+1, +2R), 6,000 gp (+2, +3R), 13,500 gp (+3, +4R), 24,000 gp
 (+4, +5R), 37,500 gp (+5/+6 Reflex); **Weight** 1 lb.

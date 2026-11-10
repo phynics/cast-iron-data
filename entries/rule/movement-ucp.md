@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "movement_ucp", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 154
 
 Each hex on the map is 12 miles across from corner to corner, representing an area just under 95
 square miles. The hexes are used to track the party's movement while exploring, and as a means to

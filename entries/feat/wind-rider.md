@@ -6,14 +6,15 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_rider", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "29"
 
 [fields]
 kind = "feat"
 prerequisites = "Acrobatics or Fly 3 ranks."
 benefit = "When flying within strong winds, you gain a +15 foot bonus to your fly speed. For every wind strength category above strong, you gain an additional +15 foot bonus to your fly speed (for a total of +30 feet in severe winds, +45 feet in a windstorm, and +60 feet in tornadoes). This feat does not give you any bonuses on Fly or Strength checks to determine if you are potentially checked or blown away."
 +++
-
-**Sources:** Blood of the Ancients pg 29
 
 You have trained yourself to move and fight in strong winds, allowing you to use their elemental
 power to boost your own speed.\

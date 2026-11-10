@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impress_audiences", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 62
 
 By performing a speech, song, play, or other artistic work, you can impress an audience. If you're
 in a prosperous city, you gain money for spending a day at this task. The amount depends on the

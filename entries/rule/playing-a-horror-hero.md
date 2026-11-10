@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "playing_a_horror_hero", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 8
 
 To run an effective horror-themed adventure, the GM has to think about her game in a different
 light. In the same way, to get the most out of their characters, players in a horror game should

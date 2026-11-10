@@ -6,6 +6,9 @@ source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chime_of_storm_calling", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ire-of-the-storm"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ire of the Storm pg 41\
 **Aura** faint conjuration and evocation; **CL** 5th\
 **Slot** none; **Price** 6,750 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_basilosaurus", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ filled with sharp teeth._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 193\
 **Experience points:** 19,200
 
 **Armor class:** 27/7/26

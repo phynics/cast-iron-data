@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "going_home", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 169
 
 While it's possible that your players may fall so deeply in love with your parallel universe that
 they don't want to go home (in which case, you now have a new campaign setting!), for most

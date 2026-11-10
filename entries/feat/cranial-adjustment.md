@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/deft-hands", label = "or" },
   { kind = "prerequisite", target = "ref/feat/trepanation", label = "or" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisites = "Deft Hands or Trepanation."
 prerequisite_feats = ["ref/feat/deft-hands", "ref/feat/trepanation"]
 benefit = "You can perform the hypnotism occult skill unlock even if you can't use psychic magic. If you can cast psychic spells or have the Psychic Sensitivity feat, you can use hypnotism one additional time per day."
 +++
-
-**Sources:** Occult Origins pg 24
 
 You have learned to manually adjust the plates that make up the skull, inducing altered states in
 your subjects.\

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channeling_force", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "A swift action, you can expend one use of channel energy to grant you
 +++
 
 ## Channeling Force (Combat)
-
-**Sources:** Advanced Class Guide pg 143
 
 You distill your channeled energy into a sheen of force that surrounds your weapon for a limited
 time.\

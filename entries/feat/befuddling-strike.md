@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddling_strike", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "142"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Befuddling Strike forces a foe damaged by your unarmed attack to atte
 +++
 
 ## Befuddling Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 142
 
 You know just where to strike to temporarily send your enemy into a confused stupor.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

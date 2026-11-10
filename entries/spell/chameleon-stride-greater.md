@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/chameleon-stride" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Descriptors: glamer
 :::
 
 ### Greater Chameleon Stride
-
-**Sources:** Advanced Class Guide pg 177
 
 This spell functions as [chameleon stride](ref/spell/chameleon-stride), except it confers its
 bonuses upon all allies within 10 feet of you at the time the spell is cast. Those affected by this

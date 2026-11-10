@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_winds_of_the_five_heavens", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Winds of the Five Heavens (Act, Oratory)
-
-**Sources:** Ultimate Magic
 
 You control the wind by telling a tale demonstrating the hubris of mortals.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dazzling-blade" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Pattern
 :::
 
 ### Mass Dazzling Blade
-
-**Sources:** Rival Guide pg 5
 
 This spell functions like [dazzling blade](ref/spell/dazzling-blade), except that it affects
 multiple weapons. Each wielder of a dazzling blade can discharge the weapon's effect to attempt to

@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hudima", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hudima**
 
 **Sub:** Kinslayer
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

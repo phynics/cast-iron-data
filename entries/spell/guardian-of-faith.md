@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_of_faith", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: one ally
 :::
-
-**Sources:** Advanced Class Guide pg 183
 
 The target gains the benefit of [shield of faith](ref/spell/shield-of-faith) and your choice of
 [protection from chaos, evil, good, or law](ref/spell/protection-from-chaos-evil-good-law). As a

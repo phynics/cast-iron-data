@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "5"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Wilderness Origins pg 5\
 The octopus is a cunning hunter, able to contort its malleable body with ease.
 
 **Minor Form**

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pocketful_of_vipers", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: object touched
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Intrigue pg 222
 
 You set a magical ward upon the object touched, which must be a container such as a pouch, bag,
 backpack, or pocket. If any creature opens the container without first speaking a command word, 1d3

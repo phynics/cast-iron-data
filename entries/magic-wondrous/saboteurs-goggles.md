@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saboteurs_goggles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "234"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 234\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** eyes; **Price** 16,000 gp; **Weight** -
 

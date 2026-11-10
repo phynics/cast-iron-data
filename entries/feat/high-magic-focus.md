@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_magic_focus", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "206"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "With the help of allies who also have this feat, you can spontaneousl
 +++
 
 ## High Magic Focus (Teamwork)
-
-**Sources:** Inner Sea Races pg 206
 
 With the help of your fellow scholars, you can cast higher forms of magic, enhancing your spells by
 drawing upon their magical reserves rather than your own.\

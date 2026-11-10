@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malediction", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "184"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "46"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: yes
 Target: 1 creature touched
 Descriptors: curse, evil
 :::
-
-**Sources:** Book of the Damned pg 184, Book of the Damned - Volume 1: Princes of Darkness pg 46
 
 Channeling the blasphemy of fiends into your hand, you mark your target with a brief but fundamental
 corruption, causing its soul to be irretrievably damned should it die within the next minute. If you

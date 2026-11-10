@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spell-absorption" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 :::
 
 ### Greater Spell Absorption
-
-**Sources:** Inner Sea Magic pg 61
 
 This spell functions as [spell absorption](ref/spell/spell-absorption), save that you can absorb
 countered spells of 6th level or lower.

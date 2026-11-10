@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activate_black_market", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 55
 
 **Activate Black Market** **(Black Marketeers):** To activate a black market, the PCs attempt a DC
 20 Secrecy check and spend 50 gp to smuggle goods and bribe officials. On a successful check, the

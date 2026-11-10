@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compassionate_ally", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 At the sight of an injured ally, the target immediately disengages from its current course of action
 and rushes to provide aid. If the target possesses curative spells or magic items, it utilizes them

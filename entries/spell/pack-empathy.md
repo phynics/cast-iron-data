@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_empathy", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you plus one willing living creature per 3 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Ultimate Intrigue pg 221
 
 You create an instinctual connection between the targets. Each can sense the others' overall
 emotional states, which allows them to communicate basic emotional concepts (such as alerting each

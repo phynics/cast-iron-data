@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blizzard_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** half piercing, half cold
 
 **Prerequisite:** [air blast](ref/kinetic/air-blast), [cold blast](ref/kinetic/cold-blast)
-
-**Source:** Occult Adventures/16
 
 You unleash a directed blizzard at a single target.

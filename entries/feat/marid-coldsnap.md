@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marid_coldsnap", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Marid Style, as a standard action, you can spend two Elem
 +++
 
 ## Marid Coldsnap (Combat)
-
-**Sources:** Ultimate Combat pg 108
 
 You can summon a torrent of water to blast your enemies, chilling them to the bone.\
 **Prerequisites:** Con 15, Wis 17, [Elemental Fist](ref/feat/elemental-fist),

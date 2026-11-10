@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_splendid_security", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "435"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 435, Pathfinder \#12: Crown of Fangs pg 60\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** ring; **Price** 180,000 gp; **Weight** -
 

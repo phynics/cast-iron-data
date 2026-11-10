@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_ectoplasmic_invigoration", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "169"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 169\
 **Aura** moderate conjuration; **CL** 6th\
 **Slot** ring; **Price** 12,000 gp; **Weight** -
 

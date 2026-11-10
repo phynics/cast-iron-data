@@ -6,6 +6,9 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baba_yagas_rider_white_rider", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _A tall, handsome woman sits astride a white horse. She grips an elegant longbow
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Irrisen - Land of Eternal Winter pg 55\
 **Experience points:** 12,800
 
 **Armor class:** 27/17/20

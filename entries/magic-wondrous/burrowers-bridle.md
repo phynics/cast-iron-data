@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burrowers_bridle", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** People of the Sands pg 29\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** neck; **Price** 6,000 gp; **Weight** 2 lbs.
 

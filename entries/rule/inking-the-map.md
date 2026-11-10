@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inking_the_map", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "175"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 175
 
 Once you're happy with your map sketch, grab your pens and start inking it. You can use different
 pens to denote different features on your map; a wide felt-tip pen works well for thick walls, for

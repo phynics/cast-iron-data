@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manual_of_calm_reflection_irori", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Faiths of Balance pg 26\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 4,000 gp; **Weight** 2 lbs.
 

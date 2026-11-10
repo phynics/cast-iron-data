@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "palm_of_decadent_feasts", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "249"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Wilderness pg 249\
 **Aura** strong conjuration; **CL** 11th\
 **Slot** none; **Price** 9,600 gp; **Weight** 500 lbs.
 

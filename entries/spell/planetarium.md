@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planetarium", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: 15-ft.-radius spherical projection of night sky
 Subschool: Figment
 :::
-
-**Sources:** People of the Stars pg 28
 
 You project an image of the night sky based on your current location and the local time, allowing
 you to observe the heavens and all of its celestial bodies and features even during the daytime,

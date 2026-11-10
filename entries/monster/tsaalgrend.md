@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsaalgrend", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "251"
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ through the air._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 251, Pathfinder \#85: Fires of Creation pg 88\
 **Experience points:** 600
 
 **Armor class:** 14/13/12

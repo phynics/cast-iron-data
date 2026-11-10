@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "how_planes_interact", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "441"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 441
 
 Two planes that are separate do not overlap or directly connect to each other. They are like planets
 in different orbits. The only way to get from one separate plane to the other is to go through a

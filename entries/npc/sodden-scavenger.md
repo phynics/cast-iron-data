@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sodden_scavenger", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** Inner Sea NPC Codex pg 56\
 **XP** 1,200\
 Human [fighter](ref/class/fighter) 2/[rogue](ref/class/rogue) 3\
 CN Medium humanoid (human)\

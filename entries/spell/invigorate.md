@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorate", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Figment
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 This spell banishes feelings of weariness. For the duration, the subject takes no penalties from the
 fatigued or exhausted conditions. The effect of invigorate is merely an illusion, however, not a

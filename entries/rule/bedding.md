@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bedding", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 199
 
 ### Bedding
 

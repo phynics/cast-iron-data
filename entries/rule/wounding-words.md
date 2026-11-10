@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounding_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 187
 
 Wounding words afflict the target with cuts and bruises, causing pain and tearing at its flesh.
 

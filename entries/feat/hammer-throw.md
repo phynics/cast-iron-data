@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_throw", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single ranged attack with a weap
 +++
 
 ## Hammer Throw (Combat)
-
-**Sources:** Heroes from the Fringe pg 9
 
 You can throw a hammer with such force that it knocks your foes over.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

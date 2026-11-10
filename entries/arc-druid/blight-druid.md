@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Trackless step", "resist nature's lure", "Venom imm
 alters = ["Nature bond"]
 +++
 
-**Sources:** Advanced Player's Guide pg 98\
 The devoted servants of nature corrupted, ruined, and destroyed, blight druids are the caretakers of
 lands ravaged by natural disaster. While some are devoted to reforming and reclaiming lands
 despoiled by the ravages of civilization, others seek out the more rapacious violence inherent in

@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_sailor", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This rugged character is clad in colorful, mismatched clothing, his hair tied b
 
 **Challenge rating:** 1/2
 
-**Sources:** Isles of the Shackles pg 57\
 **XP** 200\
 Human [rogue](ref/class/rogue) 1\
 CN Medium humanoid (human)\

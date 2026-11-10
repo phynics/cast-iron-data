@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feint", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 201
 
 Feinting is a standard action. To feint, make a Bluff skill check. The DC of this check is equal to
 10 + your opponent's base attack bonus + your opponent's Wisdom modifier. If your opponent is

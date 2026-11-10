@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_leaves_of_the_autumn_dryad", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "307"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 307\
 **Aura** moderate divination and transmutation; **CL** 8th\
 **Slot** none; **Price** 52,000 gp; **Weight** -
 

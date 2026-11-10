@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/sling-flail", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 132\
 You can spend 2 stamina points to increase the damage dealt by the melee attacks you make with a
 loaded sling as if your sling were [one size category larger](ref/misc/damage-die-adjustments) than
 its actual size. For example, a Small sling would deal 1d4 points of damage, while a Medium one

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_angheuvore", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ blood._
 
 **Senses:** Carrion sense, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#139: The Dead Road pg 86\
 **Subtype:** Elf, Mortic
 
 **Experience points:** 600

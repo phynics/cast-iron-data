@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics_logic", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 178
 
 When you use logic, you present facts, figures, and expert testimony. While logic can still be used
 to mislead your adversary or the audience, unlike most other tactics, it still requires a strong

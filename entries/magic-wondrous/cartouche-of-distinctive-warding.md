@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cartouche_of_distinctive_warding", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 60\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** neck; **Price** 24,000 gp; **Weight** -
 

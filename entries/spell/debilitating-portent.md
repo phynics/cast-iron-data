@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_portent", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 227
 
 The target is surrounded by a glowing green aura of ill fate. Each time the spell's subject makes an
 attack or casts a spell, it must succeed at a Will saving throw with a DC = 10 + 1/2 caster level +

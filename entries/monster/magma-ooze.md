@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magma_ooze", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "184"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This seething mass of bubbling molten rock churns and moves of its own hungry a
 
 **Perception:** -5
 
-**Sources:** Bestiary 2 pg 184\
 **Subtype:** Fire
 
 **Experience points:** 3,200

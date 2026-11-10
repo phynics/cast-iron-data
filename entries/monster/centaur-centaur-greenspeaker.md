@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_greenspeaker", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "6"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ carries a variety of wands and talismans in addition to his weapons._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 6\
 **Experience points:** 1,200
 
 **Armor class:** 13/12/10

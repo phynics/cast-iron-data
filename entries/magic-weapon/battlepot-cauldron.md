@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlepot_cauldron", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Blood of the Coven pg 30\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 9,312 gp; **Weight** 8 lbs.
 

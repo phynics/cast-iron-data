@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_lucubration", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "306"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 306
 
 You instantly prepare any one spell of 5th level or lower that you have used during the past 24
 hours. The spell must have been actually cast during that period. The chosen spell is stored in your

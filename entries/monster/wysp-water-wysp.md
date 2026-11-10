@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wysp_water_wysp", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This sphere of elemental matter emits a strange hum that resonates with element
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 283\
 **Subtype:** Elemental, Water
 
 **Size:** tiny

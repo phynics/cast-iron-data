@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "ultimate-wilderness", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "46"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 46
 
 **Granted Powers:** You find solace in the green, can grow defensive thorns, and can communicate
 with plants.

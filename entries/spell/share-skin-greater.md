@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/share-skin" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -37,7 +40,5 @@ Spell resistance: no
 :::
 
 ### Greater Share Skin
-
-**Sources:** Blood of the Moon pg 11
 
 This spell functions like [share skin](ref/spell/share-skin), except as noted here.

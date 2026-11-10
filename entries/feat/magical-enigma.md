@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_enigma", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Select a class feature from the following list: one bloodline power, 
 +++
 
 ## Magical Enigma (Story)
-
-**Sources:** Spymaster's Handbook pg 16
 
 A troubling mystery lurks around you, tied to the origin of your magic or your family's legacy, and
 you seek the truth at all costs.\

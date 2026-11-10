@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "briar", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration, necromancy, transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 17\
 **Aura** strong conjuration, necromancy, transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

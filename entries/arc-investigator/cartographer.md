@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "56"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Keen recollection", "Swift alchemy"]
 +++
 
-**Sources:** Ultimate Wilderness pg 56\
 Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new
 paths through the wilderness. They record this information meticulously so that those who follow in
 their footsteps can travel swiftly and safely within the studied area. Rather than studying poisons

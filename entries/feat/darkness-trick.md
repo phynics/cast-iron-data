@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkness_trick", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "81"
 
 [fields]
 kind = "feat"
 prerequisites = "Use Magic Device 5 ranks, ability to cast darkness."
 benefit = "When wielding a magic weapon that sheds light or that features a luminescent quality, such as a flaming or brilliant energy weapon, you can deactivate that illumination as a swift action. You can reignite the illumination at any time as a free action. Any intrinsic magic properties that would force the weapon to shed light, such as the extra damage of a flaming weapon, do not function while the illumination is deactivated, and the \"significant portion\" of a brilliant energy weapon that is normally made of light ceases to exist."
 +++
-
-**Sources:** Ultimate Intrigue pg 81
 
 You can manipulate the luminescence of magic weapons.\
 **Prerequisites:** Use Magic Device 5 ranks, ability to cast darkness.\

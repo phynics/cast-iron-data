@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_erinat", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _The pockets of this urchin are stuffed with worthless objects._
 
 **Senses:** Low-light vision
 
-**Sources:** Andoran, Birthplace of Freedom pg 56\
 **Size:** tiny
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tigers_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Blood of the Moon pg 23\
 **Aura** moderate abjuration and transmutation; **CL** 10th\
 **Slot** armor; **Price** 54,115 gp; **Weight** 25 lbs.
 

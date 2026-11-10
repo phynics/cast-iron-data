@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_ebon", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "148"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 148, Seekers of Secrets pg 50\
 **Aura** faint evocation and transmutation; **CL** 5th\
 **Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
 

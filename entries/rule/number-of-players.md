@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "number_of_players", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 12
 
 Before a game ever begins it's up to the GM to decide how many players to invite to play. While
 there is no firm minimum or maximum limit to how many players a game can accommodate, this choice is

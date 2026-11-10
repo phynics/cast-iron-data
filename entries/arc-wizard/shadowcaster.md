@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat"]
 +++
 
-**Sources:** Inner Sea Magic pg 39\
 Trained in the dark mysteries of Nidal's Umbral Court and its Kuthonite dogma, your training allows
 you to harness the power of shadows to bolster your spellcasting. A shadowcaster has the following
 class features.

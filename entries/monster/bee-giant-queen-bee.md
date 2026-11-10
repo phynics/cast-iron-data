@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bee_giant_queen_bee", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This giant bee is as large as a horse and unusually fat, with light brown strip
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 43\
 **Type:** vermin
 
 **Experience points:** 1,600

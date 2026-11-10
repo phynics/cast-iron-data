@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_steed", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Gleaming gears whir and buzz in an orchestra of motion whenever this red-eyed s
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 33\
 **Subtype:** Clockwork
 
 **Experience points:** 2,400

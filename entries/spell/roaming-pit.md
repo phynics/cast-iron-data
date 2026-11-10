@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-pit" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: mobile 10-ft.-by-10-ft. hold, 10 ft. deep/2 levels
 Subschool: Creation
 :::
-
-**Sources:** Magic Tactics Toolbox pg 13
 
 This spell functions as [create pit](ref/spell/create-pit), except the pit is capable of movement.
 As a move action, you can direct the pit to move up to 20 feet, though it must always remain on a

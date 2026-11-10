@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "122"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Cavalier's charge", "Expert trainer", "Banner", "Mighty charge", "G
 alters = ["Mount"]
 +++
 
-**Sources:** Advanced Race Guide pg 122\
 The fell rider rides a bestial steed, a mount mastered by him alone. He tramples his enemies down,
 leaving twisted bodies in his wake, and fear rides with him.
 

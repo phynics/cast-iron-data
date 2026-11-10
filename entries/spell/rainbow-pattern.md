@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rainbow_pattern", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "329"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: colorful lights with a 20-ft.-radius spread
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 329
 
 A glowing, rainbow-hued pattern of interweaving colors fascinates those within it. Rainbow pattern
 fascinates a maximum of 24 HD of creatures. Creatures with the fewest HD are affected first. Among

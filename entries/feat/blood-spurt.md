@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_spurt", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "82"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever a creature adjacent to you hits you with a melee attack that
 +++
 
 ## Blood Spurt (Combat)
-
-**Sources:** Horror Adventures pg 82
 
 When cut in combat, you spray your blood into the faces of your foes.\
 **Prerequisites:** Base attack bonus +2, susceptibility to [bleed](ref/rule/bleed) damage.\

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anesthetic_wine", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 29\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Alchemical Remedies
 

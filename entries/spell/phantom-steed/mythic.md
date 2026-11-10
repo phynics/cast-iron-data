@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/phantom-steed", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 103
 
 The steed's rider automatically succeeds at Ride checks to remain mounted. The mount's hit points
 increase to 10 plus 2 per caster level, and its speed increases to 30 feet per 2 caster levels

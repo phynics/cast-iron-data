@@ -6,6 +6,18 @@ source_ids = ["bestiary", "ultimate-magic", "pathfinder-30-the-twice-damned-prin
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated_object", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "14"
+[[sources]]
+publication = "ultimate-magic"
+page = "111"
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "68"
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -42,8 +54,6 @@ new prisoners._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 14, Ultimate Magic pg 111, Pathfinder \#30: The Twice-Damned
-Prince pg 68, Pathfinder \#43: Haunting of Harrowstone pg 80\
 **Experience points:** 800
 
 **Armor class:** 14/10/12

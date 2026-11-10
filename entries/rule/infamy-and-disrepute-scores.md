@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infamy_and_disrepute_scores", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 63\
 In a method similar to the tracking system for [Fame](ref/rule/fame) and
 [Prestige Points](ref/rule/prestige-points), a party has two related scores, **Infamy** and
 **Disrepute**. Infamy tracks how many points of Infamy the crew has gained over its career - think

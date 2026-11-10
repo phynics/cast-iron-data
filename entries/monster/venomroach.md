@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomroach", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _The brown and black exoskeleton of this roach gleams when exposed to the light.
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#116: Fangs of War pg 85\
 **Type:** vermin
 
 **Experience points:** 800

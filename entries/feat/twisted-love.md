@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_love", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on saving throws against enchantment effects and 
 +++
 
 ## Twisted Love (Story)
-
-**Sources:** Horror Adventures pg 95
 
 An evil person or entity has become obsessed with your resemblance to a lost loved one.\
 **Prerequisites:** You resemble a lost loved one of an evil creature who would otherwise be a

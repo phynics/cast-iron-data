@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_adventures", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 214
 
 An aquatic adventure can take place anywhere that water is the primary terrain feature. This
 includes marshlands, rivers, lakes, pools, oceans, the Plane of Water, and the like. Aquatic

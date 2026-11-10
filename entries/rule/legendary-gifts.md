@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_gifts", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 156
 
 The character gains three legendary gifts at 19th level and five more at 20th level. (If you're
 using the variant with no magic treasure, characters gain seven more legendary gifts when their

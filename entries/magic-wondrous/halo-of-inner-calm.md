@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halo_of_inner_calm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "242"
+[[sources]]
+publication = "advanced-race-guide"
+page = "173"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 242, Advanced Race Guide pg 173\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** head; **Price** 16,000 gp; **Weight** 1 lb.
 

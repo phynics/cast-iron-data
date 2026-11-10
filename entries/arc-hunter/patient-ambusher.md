@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "53"
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature training", "wild empathy", "Hunter tactics", "Teamwork feats", "Raise animal companion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 53, Magic Tactics Toolbox pg 14\
 Wandering the wilds, some hunters eschew the bond of innate teamwork with their animal companions.
 Instead, these hunters master the creation and deployment of intricate ranger traps, often using
 themselves or their animal companions to lure foes into their snares.

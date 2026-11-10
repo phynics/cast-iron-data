@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_goods_and_services", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "155"
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 155, Ultimate Equipment pg 56
 
 **Adventuring Gear:** Beyond armor and weapons, a character can carry a whole variety of useful
 adventuring gear.

@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spontaneous_alchemy", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 4
 
 Characters versed in spontaneous alchemy can concoct alchemical items more quickly than through
 normal use of the Craft (alchemy) skill. However, instead of simply making skill checks and spending

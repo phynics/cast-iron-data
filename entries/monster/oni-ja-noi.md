@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_ja_noi", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ wears elaborate heavy armor, and wields an ornate metal club._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 90\
 **Subtype:** Goblinoid, Native, Oni, Shapechanger
 
 **Experience points:** 1,600

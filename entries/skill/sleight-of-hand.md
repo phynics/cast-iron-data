@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "spymasters-handbook", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleight_of_hand", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "104"
+[[sources]]
+publication = "spymasters-handbook"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 104, Spymaster's Handbook pg 9
 
 **Associated Skill**
 

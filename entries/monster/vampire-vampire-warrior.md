@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_vampire_warrior", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["20", "20", "-", "10", "15", "18"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 240\
 **Subtype:** Augmented humanoid, Vishkanya
 
 **Type:** undead

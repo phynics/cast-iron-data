@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_collecting", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Armor Master's Handbook pg 26\
 **Aura** moderate abjuration and evocation; **CL** 11th\
 **Slot** armor quality; **Price** +3 bonus; **Weight** -
 

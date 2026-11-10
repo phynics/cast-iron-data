@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "41"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Hunter's bond", "Woodland stride"]
 alters = ["Favored enemy"]
 +++
 
-**Sources:** Ultimate Intrigue pg 41\
 Some rangers aren't the type to put their steel and sweat behind fighting particular kinds of
 creatures. Instead, these shrewd warriors alter their focus and dedicate their efforts to
 dismantling enemy organizations. Guildbreakers stoke their enmity for their foes, and they train to

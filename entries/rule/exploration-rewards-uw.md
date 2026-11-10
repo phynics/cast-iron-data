@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exploration_rewards_uw", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "125"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 125
 
 Finding a location is often its own reward, but given the time, energy, and sometimes the resources
 needed to successfully conduct an exploration, you should consider the following additional rewards

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_new_race", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 214
 
 This race builder allows you to create a new race by buying racial qualities and racial traits with
 Race Points (RP). There are a number of differences between racial qualities and racial traits. The

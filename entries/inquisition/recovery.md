@@ -6,13 +6,14 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recovery", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Champions of Purity pg 22
 
 **Associated Deities**
 

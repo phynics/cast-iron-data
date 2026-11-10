@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "37"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Trap sense", "Damage reduction"]
 +++
 
-**Sources:** Ultimate Wilderness pg 37\
 Unused to the light of the sun, cave dwellers use their subterranean expertise to protect their
 clans from the manifold dangers of deep caverns and tunnels. The typical cave dweller is perfectly
 content to live his entire life underground, and he may even view the light of the sun as

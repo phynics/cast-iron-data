@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ace_trip", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You don't take the -2 penalty for making trip attempts with a ranged 
 +++
 
 ## Ace Trip (Targeting, Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 20
 
 You can trip flying opponents with your ranged attacks.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), [Ranged Trip](ref/feat/ranged-trip),

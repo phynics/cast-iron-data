@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_crusader", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "125"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 125\
 **XP** 102,400\
 Halfling [paladin](ref/class/paladin) of [Iomedae](ref/faith/iomedae) 18\
 LG Small humanoid (halfling)\

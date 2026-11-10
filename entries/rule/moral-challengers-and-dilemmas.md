@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moral_challengers_and_dilemmas", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 95
 
 During the course of play, characters fight monsters, find treasure, and decide to take the left
 fork or the right, but there are other choices that come up in a game as well: moral choices. In

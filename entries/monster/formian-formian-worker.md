@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_worker", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This small, centaur-like ant creature bears a huge, bulging sack on its armored
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 113\
 **Experience points:** 200
 
 **Armor class:** 12/11/12

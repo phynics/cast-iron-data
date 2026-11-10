@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_servant_coffin_guard", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["12", "18", "12", "12", "13", "8"]
 
 **Senses:** Low-light vision
 
-**Sources:** Monster Codex pg 238\
 **Subtype:** Elf
 
 **Experience points:** 800

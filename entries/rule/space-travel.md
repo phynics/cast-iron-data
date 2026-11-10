@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "space_travel", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 165
 
 If your solar system has multiple worlds, the next question is how beings can travel between them.
 

@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_champion_automaton", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ glows with an unrivaled ferocity._
 
 **Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
-**Sources:** Construct Handbook pg 22\
 **Subtype:** Automaton, Extraplanar
 
 **Experience points:** 9,600

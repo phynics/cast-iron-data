@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sound_burst", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "346"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 10-ft.-radius spread
 Descriptors: sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 346
 
 You blast an area with a tremendous cacophony. Every creature in the area takes 1d8 points of sonic
 damage and must succeed on a Fortitude save to avoid being stunned for 1 round. Creatures that

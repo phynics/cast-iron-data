@@ -6,6 +6,9 @@ source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impede_speech", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Second Darkness Player's Guide pg 27
 
 This minor curse interferes with the target's ability to speak. On a failed save, the target has
 difficulty stringing words together. Only with great concentration can he communicate intelligibly.

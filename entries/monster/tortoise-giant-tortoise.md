@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tortoise_giant_tortoise", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ neck._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 263\
 **Experience points:** 400
 
 **Armor class:** 16/8/16

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/tower-of-iron-will-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 10-ft.-radius emanation centered on you
 :::
 
 ### Tower of Iron Will III
-
-**Sources:** Occult Adventures pg 190
 
 This functions as [tower of iron will I](ref/spell/tower-of-iron-will-1), except as noted above.
 This spell can be undercast.

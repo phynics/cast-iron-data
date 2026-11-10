@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "fascinate", "Inspire competence", "Soothing performance", "Inspire heroics", "Lore master", "Jack-of-all-trades"]
 +++
 
-**Sources:** Kobolds of Golarion pg 22\
 Dragon heralds are messengers and evangelists of true dragonkind. They carry the word of their
 dragon patrons far and wide, whether that's a message of peace or a declaration of war. A kobold
 whose scales already associate her with a revered dragon is often trained as her tribe's dragon

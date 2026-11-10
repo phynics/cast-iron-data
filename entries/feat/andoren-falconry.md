@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "andoren_falconry", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "284"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Cha 13, Animal Affinity, animal companion class feature."
 prerequisite_feats = ["ref/feat/animal-affinity"]
 benefit = "You improve your affinity with birds of prey, such as eagles, falcons, hawks, and owls. You gain a +2 bonus on Animal Handling checks made to train or control birds of prey. In addition, if you have a bird of prey as an animal companion, your animal companion gains one of the following bonuses chosen at the time this animal companion is gained: a +1 dodge bonus to AC, a +1 morale bonus on all attack rolls, or a +2 morale bonus on all Will saves."
 +++
-
-**Sources:** Inner Sea World Guide pg 284, Pathfinder Campaign Setting pg 63
 
 You know the secret Andoren arts of falconry developed by the Novotnian family of Darkmoon Vale.\
 **Prerequisites:** Cha 13, [Animal Affinity](ref/feat/animal-affinity), animal companion class

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_growth", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "322"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target or Area: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 322
 
 Plant growth has different effects depending on the version chosen.
 

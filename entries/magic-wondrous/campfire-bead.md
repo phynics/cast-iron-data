@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "campfire_bead", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "286"
+[[sources]]
+publication = "advanced-players-guide"
+page = "302"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 286, Advanced Player's Guide pg 302\
 **Aura** faint evocation; **CL** 1st\
 **Slot** none; **Price** 720 gp; **Weight** -
 

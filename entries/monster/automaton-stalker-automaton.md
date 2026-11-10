@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_stalker_automaton", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ head constantly shift in color._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Construct Handbook pg 30\
 **Subtype:** Automaton, Extraplanar
 
 **Experience points:** 1,600

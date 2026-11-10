@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothers_gift", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "185"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Changeling."
 benefit = "Your dark legacy manifests in one of the following ways. You choose the manifestation when you choose the feat, and once selected it cannot be changed."
 special = "You can gain this feat up to three times. Its effects do not stack. Each time you take the feat, you must select a different manifestation."
 +++
-
-**Sources:** Advanced Race Guide pg 185
 
 You inherit a special boon from your hag parent.\
 **Prerequisites:** [Changeling](ref/race/changeling).\

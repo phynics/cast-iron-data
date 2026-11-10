@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_the_void", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Effect: 1-ft.-diameter sphere
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 You create a small weightless sphere of pure negative energy. As a move action, you can move it up
 to 30 feet per round in any direction. If it enters a space with a living creature, it stops moving

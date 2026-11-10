@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighter", path = "json/classes2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "55"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d10"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 55
 
 Some take up arms for glory, wealth, or revenge. Others do battle to prove themselves, to protect
 others, or because they know nothing else. Still others learn the ways of weaponcraft to hone their

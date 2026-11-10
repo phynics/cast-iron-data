@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immured", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ breathe._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Daughters of Fury pg 55\
 **Type:** undead
 
 **Experience points:** 800

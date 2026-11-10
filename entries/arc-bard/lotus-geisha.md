@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Well-versed", "Bardic knowledge", "lore master"]
 alters = ["Weapon proficiencies"]
 +++
 
-**Sources:** Dragon Empires Primer pg 22\
 The lotus geisha of Minkai are renowned for their powers of seduction, and tales tell of lotus
 geisha disarming foes and bolstering allies. The lotus geisha is an archetype of the bard class.
 

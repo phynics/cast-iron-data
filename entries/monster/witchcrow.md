@@ -6,6 +6,12 @@ source_ids = ["pathfinder-67-the-snows-of-summer", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchcrow", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "88"
+[[sources]]
+publication = "bestiary-5"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ unnatural gleam in its otherworldly eyes._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 88, Bestiary 5 pg 277\
 **Size:** tiny
 
 **Experience points:** 400

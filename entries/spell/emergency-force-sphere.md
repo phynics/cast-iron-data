@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/wall-of-force" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 5-ft.-radius hemisphere of force centered on you
 Descriptors: force
 :::
-
-**Sources:** Cheliax, Empire of Devils pg 23
 
 As [wall of force](ref/spell/wall-of-force), except you create a hemispherical dome of force with
 [hardness](ref/umr/hardness) 20 and a number of hit points equal to 10 per caster level. The bottom

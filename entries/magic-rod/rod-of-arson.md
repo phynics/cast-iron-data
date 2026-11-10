@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_arson", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "350"
+[[sources]]
+publication = "advanced-players-guide"
+page = "311"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "strong evocation"
 caster_level = "12th"
 +++
-
-**Sources:** Ultimate Equipment pg 350, Advanced Player's Guide pg 311
 
 **Aura** strong evocation; **CL** 12th\
 **Slot** none; **Weight** 5 lbs.

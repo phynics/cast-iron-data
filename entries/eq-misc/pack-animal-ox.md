@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_animal_ox", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pac
 
 ## Pack Animal
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 8 gp Pack animal (donkey/mule), 15 gp Pack animal (ox), 24 gp Pack animal (yak);
 **Weight** 600 lbs. Pack animal (donkey/mule), 1 ton Pack animal (ox), 2 tons Pack animal (yak)
 

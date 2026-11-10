@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/teleport" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "359"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Subschool: Teleportation
 :::
 
 ### Greater Teleport
-
-**Sources:** PRPG Core Rulebook pg 359
 
 This spell functions like [teleport](ref/spell/teleport), except that there is no range limit and
 there is no chance you arrive off target. In addition, you need not have seen the destination, but

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consort", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 201
 
 The Consort is usually the spouse of the Ruler, and spends time attending court, speaking with and
 advising nobles, touring the kingdom to lift the spirits of the people, and so on. In most kingdoms,

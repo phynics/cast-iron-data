@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "adventurers-armor
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earplugs", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "advanced-players-guide"
+page = "181"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "3 cp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 56, Advanced Player's Guide pg 181, Adventurer's Armory pg 19\
 **Price** 3 cp; **Weight** -\
 **Category** Adventuring Gear
 

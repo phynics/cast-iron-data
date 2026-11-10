@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archetype", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 189
 
 You can use the retraining rules to acquire an archetype for your class or abandon an archetype you
 have.

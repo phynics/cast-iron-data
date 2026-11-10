@@ -6,6 +6,8 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallavi_of_nirvanas_blossoming", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Pallavi of Nirvana's Blossoming (Dance)
-
-**Sources:** Blood of Angels
 
 The divine sunlight caused by this dance banishes darkness and causes flowers to bloom.
 

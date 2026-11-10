@@ -6,6 +6,9 @@ source_ids = ["pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_atamahuta", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and tattoos decorating its forehead._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#51: The Hungry Storm pg 86\
 **Subtype:** Oni, Giant, Native, Shapechanger
 
 **Experience points:** 12,800

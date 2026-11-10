@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_trail_rations", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "95"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 gp"
 weight = "1-1/2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 95\
 **Price** 2 gp; **Weight** 1-1/2 lbs.\
 **Category** Food/Drink
 

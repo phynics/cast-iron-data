@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tap_inner_beauty", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
+[[sources]]
+publication = "faiths-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 243, Faiths of Purity pg 29
 
 This spell allows you to tap into the natural beauty of your soul and let it shine from your eyes
 and your speech. While the spell is active, you gain a +2 insight bonus on all Charisma ability

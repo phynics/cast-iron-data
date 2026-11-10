@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-4" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Magical Beast Shape
-
-**Sources:** Ultimate Wilderness pg 231
 
 This spell functions as [beast shape IV](ref/spell/beast-shape-4) except you can assume the form of
 only a magical beast of a size between Diminutive and Huge. If the form you assume has any of the

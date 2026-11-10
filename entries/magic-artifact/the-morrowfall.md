@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_morrowfall", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 50\
 **Aura** strong evocation; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

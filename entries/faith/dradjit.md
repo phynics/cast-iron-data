@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dradjit", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "130"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Dradjit**
 
 **Sub:** The Godslayer
-
-**Sources:** Book of the Damned pg 130
 
 ### Details
 

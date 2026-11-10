@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "77"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 77\
 The taint of the grave runs through your family. Perhaps one of your ancestors became a powerful
 lich or vampire, or maybe you were born dead before suddenly returning to life. Either way, the
 forces of death move through you and touch your every action.

@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gown_of_graceful_petiteness", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Merchant's Manifest pg 12\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** body; **Price** 3,500 gp; **Weight** 1 lb.
 

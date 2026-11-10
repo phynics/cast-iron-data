@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensified_spell_like_ability", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Intensified Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 88
 
 Your [spell-like ability](ref/umr/spell-like-abilities) deals more damage.\
 **Prerequisites:** Spell-like ability at caster level 4th or higher.\

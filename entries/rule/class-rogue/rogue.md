@@ -8,12 +8,13 @@ parent = "ref/class/rogue"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes8.json#rogue|section:rogue", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 67
 
 Life is an endless adventure for those who live by their wits. Ever just one step ahead of danger,
 rogues bank on their cunning, skill, and charm to bend fate to their favor. Never knowing what to

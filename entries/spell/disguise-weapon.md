@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disguise_weapon", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "180"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: manufactured weapon touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Class Guide pg 180
 
 You make one manufactured weapon look like a different manufactured weapon of the same size and
 relative encumbrance (light, one-handed, or two-handed). For example, you could make a Small

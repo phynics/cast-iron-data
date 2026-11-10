@@ -6,6 +6,12 @@ source_ids = ["quests-and-campaigns", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberator", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "11"
+[[sources]]
+publication = "ultimate-campaign"
+page = "70"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "You gain a +1 bonus on attack rolls, weapon damage rolls, and skill c
 +++
 
 ## Liberator (Story)
-
-**Sources:** Quests and Campaigns pg 11, Ultimate Campaign pg 70
 
 Your time in shackles has forever marked your soul.\
 **Prerequisites:** You must have been enslaved for at least 6 months, or have the Imprisoned or

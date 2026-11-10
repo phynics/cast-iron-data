@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cliffhangers", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "32"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 32
 
 Leaving the outcome of any suspenseful moment in doubt is a time-honored technique from the early
 days of movies and literature, and the same trick works just as well for RPGs. When time's running

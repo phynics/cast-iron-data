@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chivalric_code", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 162
 
 These events apply to a chivalric or Arthurian knight's code.
 

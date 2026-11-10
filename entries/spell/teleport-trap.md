@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_trap", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "296"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -38,8 +44,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: one 40-ft. cube/level (S)
 :::
-
-**Sources:** Inner Sea World Guide pg 296, Seekers of Secrets pg 18
 
 Teleport trap wards an area, redirecting all teleportation into or out of the area to a specific
 point within the area determined by you at the time of casting. The destination must be an open

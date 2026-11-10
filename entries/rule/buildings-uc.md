@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buildings_uc", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 167
 
 Buildings are sizable structures with many hit points and very poor ACs (a Large building is AC 4, a
 Huge building is AC 3, and a Gargantuan or larger building is AC 0). When a building is reduced to

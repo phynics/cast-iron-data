@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_fire_salamander", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "196"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Yellow spots and stripes run from this amphibian's wide snout to the tip of its
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Ultimate Wilderness pg 196\
 **Experience points:** 135
 
 **Armor class:** 16/16/14

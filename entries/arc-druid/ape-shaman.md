@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "A thousand faces", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Ultimate Combat pg 42\
 A shaman with this totem calls upon the mighty ape, a peaceful but powerful simian whose strength is
 beyond compare. An ape shaman is a friendly protector of the forest, but will crush those enemies
 who rouse her anger.

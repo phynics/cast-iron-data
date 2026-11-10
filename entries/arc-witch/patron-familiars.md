@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Familiar Folio pg 17\
 Witches' familiars are often tied to their patrons, enhancing and reinforcing the spellcasters'
 connections to the sources of their magical might. Just as a [sorcerer](ref/class/sorcerer) can gain
 a [bloodline familiar](ref/arc-sorcerer/bloodline-familiars), a witch can gain a patron familiar by

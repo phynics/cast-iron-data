@@ -6,6 +6,9 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopic_jar_of_unlife", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 60\
 **Aura** strong conjuration and necromancy; **CL** 13th\
 **Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.
 

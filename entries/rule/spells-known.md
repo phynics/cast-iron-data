@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spells_known", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 191
 
 If you are a spontaneous spellcaster (such as a bard, oracle, sorcerer, or summoner), you can
 retrain a spell known. This retraining takes 2 days per spell level of the new spell (or 1 day in

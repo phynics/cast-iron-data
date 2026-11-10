@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_cryptic_cross_reference", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "182"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 182\
 You're having trouble figuring out where to find the information you need across multiple volumes.
 
 ### Tasks

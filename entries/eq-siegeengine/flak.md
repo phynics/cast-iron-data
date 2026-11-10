@@ -6,14 +6,15 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flak", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "30 lbs."
 +++
-
-**Sources:** Dragonslayer's Handbook pg 27
 
 Flak ammunition is a type of short-fused bomb, specifically designed to explode in midair. Flak
 ammunition is packed with steel balls and black powder, and may be fired from a bombard or catapult.

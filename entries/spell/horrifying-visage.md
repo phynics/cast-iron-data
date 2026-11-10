@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrifying_visage", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level (S)
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 28
 
 You channel residual feelings of terror into the minds of creatures within the area, causing those
 fears to manifest when confronted with a specific object. All creatures in the area must succeed at

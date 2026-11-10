@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_shikigami", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "163"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This tiny, crudely carved statue of a robed man has glowing runes running acros
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 163\
 **Subtype:** Kami, Native
 
 **Size:** tiny

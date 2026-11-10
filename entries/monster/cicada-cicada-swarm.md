@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cicada_cicada_swarm", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A loud droning buzz accompanies this mass of flying insects._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#116: Fangs of War pg 84\
 **Subtype:** Swarm
 
 **Type:** vermin

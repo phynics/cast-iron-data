@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fate_woven_braid_of_the_norns", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation"
 caster_level = "16th"
 +++
 
-**Sources:** Seers of the Drowned City pg 54\
 **Aura** strong abjuration and evocation; **CL** 16th\
 **Slot** wrists; **Price** 9,000 gp; **Weight** -
 

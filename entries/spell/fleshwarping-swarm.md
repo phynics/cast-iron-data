@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-swarm" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: one swarm of bats, rats, or spiders
 Subschool: Summoning
 :::
-
-**Sources:** Inner Sea Races pg 220
 
 > _The following spell is available to the indicated race or ethnicity: [Drow](ref/race/drow)_
 

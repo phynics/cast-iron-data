@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcaster_array", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 202
 
 With a large selection of spells, a spellcaster might be weak in combat, or could focus on powerful
 offensive spells. A spellcaster monster typically has a high spellcasting ability modifier:

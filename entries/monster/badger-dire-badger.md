@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badger_dire_badger", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ its streaked and shaggy fur._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 40\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

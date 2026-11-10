@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulshear", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration [evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 63\
 **Aura** strong conjuration \[evil\]; **CL** 15th\
 **Slot** none; **Price** 45,508 gp; **Weight** 10 lbs.
 

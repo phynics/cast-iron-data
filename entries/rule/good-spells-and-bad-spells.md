@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_spells_and_bad_spells", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 114
 
 The best spells do something interesting even when the casting isn't fully successful. They should
 have fairly simple mechanics without many ambiguities, special cases, or qualifications. If a spell

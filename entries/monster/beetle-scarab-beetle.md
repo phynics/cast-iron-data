@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_scarab_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "5"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This glossy blue-black beetle is the size of a cow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 5\
 **Type:** vermin
 
 **Experience points:** 2,400

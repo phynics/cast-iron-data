@@ -6,6 +6,9 @@ source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_shield", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Descriptors: acid, water
 :::
-
-**Sources:** Pathfinder \#24: The Final Wish pg 61
 
 This spell surrounds you in a spout of clear acid that aids in deflecting attacks and damages
 creatures that attack you in melee. The constantly upward-rushing waters grant you a measure of

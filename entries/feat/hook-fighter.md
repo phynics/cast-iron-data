@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_fighter", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You treat a grappling hook as a one-handed weapon that deals piercing
 +++
 
 ## Hook Fighter (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 22
 
 In your deft hands, a climbing tool becomes a deadly weapon.\
 **Prerequisites:** Base attack bonus +1.\

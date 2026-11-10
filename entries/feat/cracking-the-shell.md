@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cracking_the_shell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you deal damage with a melee attack with a piercing weapon to an
 +++
 
 ## Cracking the Shell (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 The tip of your weapon pierces both the body and the spirit.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with piercing weapon.\

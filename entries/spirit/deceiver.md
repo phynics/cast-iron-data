@@ -6,13 +6,15 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceiver", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "58"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Horror Adventures pg 58\
 The Deceiver is the prince of prevarication.
 
 **Base Legend**

@@ -6,12 +6,13 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reagents", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Alchemy Manual pg 4
 
 The following reagents are purified through long processes from their raw states for use in
 alchemical recipes. Each alchemical reagent may also be used as an

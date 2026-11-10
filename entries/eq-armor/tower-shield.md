@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "core-rulebook"
+page = "151"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, PRPG Core Rulebook pg 151\
 **Cost** 30 gp **Weight** 45 lbs.\
 **Shield Bonus** +4; **Max Dex Bonus** +2; **Armor Check Penalty** -10\
 **Arcane Spell Failure Chance** 50%

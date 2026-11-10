@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_determine_treasure_type", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "360"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 360
 
 To determine the type of treasures gained from an encounter, examine the types of creatures in the
 encounter and the general setting of the encounter. The types of treasure garnered from encounters

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "composite_kinetic_blasts", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Composite Kinetic Blasts
 
-**Sources:** Occult Adventures pg 15\
 Composite blasts combine elements to form a new blast. When a kineticist gains a new element through
 expanded element, she gains access to all composite blasts for which she qualifies. Most composite
 blasts are either physical or energy blasts, like simple blasts. Physical composite blasts deal an

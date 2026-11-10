@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curative_myrrh", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "29"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 29, Qadira, Gateway to the East pg 19\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Remedies
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cheetahs_sprint", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the Wild pg 30
 
 A wild surge of energy courses through your body and propels you into a sprint. If you take a charge
 or run action before the end of your turn, you can move a total distance of up to 10 times your base

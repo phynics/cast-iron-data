@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_the_void", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 181
 
 You gain [darkvision](ref/rule/darkvision), the ability to see 60 feet even in total darkness,
 including that created by deeper darkness. Darkvision is black-and-white only, but otherwise like

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleric_oracle_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 189
 
 **0-Level Cleric/Oracle Words:** Bleeding Wounds (Wounding), Cramp (Pain), Decipher (Language),
 Force Block (Armor), Sense Magic (Detection), Soothing Touch (Healing)

@@ -6,14 +6,15 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cecaelia_focus_tattoo", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "6"
 
 [fields]
 kind = "feat"
 prerequisites = "Cecaelia."
 benefit = "Select one of the cecaelia focus tattoos below; you gain its benefits while it is active. While you can have any number of focus tattoos, only one can be active at a time. You activate a focus tattoo by concentrating on its importance to you for 1 hour without interruption. Once a focus tattoo is active, it remains so until you activate a new tattoo."
 +++
-
-**Sources:** Blood of the Sea pg 6
 
 You have tattooed the humanoid portion of your skin with a swirling mark that provides you with
 focus and pride.\

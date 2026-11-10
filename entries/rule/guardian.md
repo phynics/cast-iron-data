@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "26"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 26\
 Not all mythic characters seek glory and fame for themselves. Some take a more humble route,
 watching over those dear to them or the lands they call home. Guardians seek connections with those
 around them, even the beasts, and draw their power from the trust of such bonds. This doesn't mean

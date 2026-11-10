@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindwipe", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 178
 
 You erase a portion of the target's mind and experiences, inflicting 2 temporary negative levels on
 the target for 1 day per caster level. If the target is a spellcaster who must choose and prepare

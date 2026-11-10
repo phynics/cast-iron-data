@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidewretch", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ clumps of seaweed serve as her hair._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 90\
 **Type:** undead
 
 **Experience points:** 2,400

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceitful_veneer", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 210
 
 You subtly alter both the target's aura and subtle cues in its body language, tone of voice, and
 word choice, which makes everything that the target says seem to be a lie. Every statement that the

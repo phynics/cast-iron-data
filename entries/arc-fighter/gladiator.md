@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with heavy armor and tower shields", "Bravery"]
 +++
 
-**Sources:** Ultimate Combat pg 47\
 Most fighters battle out of necessity, with each battle a contest of life and death. Some, however,
 fight for glory and for the adulation of the crowd. The gladiator is both a cunning warrior and a
 consummate performer, knowing life and death are balanced not only on a sword's edge, but also on

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychonaut_manifestation", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Origins pg 31
 
 You take a mental journey through the doors of perception to enter an altered state of
 consciousness. Despite this hallucinatory transmigration being entirely unreal, your mind and body

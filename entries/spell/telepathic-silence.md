@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathic_silence", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: 60-ft.-radius emanation centered on a point in space
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Monster Hunter's Handbook pg 31
 
 Creatures within the area cannot send or receive telepathic messages, and anyone in the area casting
 a spell with a thought component must succeed at a [concentration](ref/rule/concentration) check (DC

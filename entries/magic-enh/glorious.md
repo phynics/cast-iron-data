@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glorious", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 142\
 **Aura** moderate evocation; **CL** 5th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

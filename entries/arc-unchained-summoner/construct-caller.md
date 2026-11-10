@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/unchained-summoner" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Summon monster I"]
 alters = ["Eidolon"]
 +++
 
-**Sources:** Construct Handbook pg 10\
 Construct callers use their mechanical and planar understandings to work planar energies as a
 tinkerer works parts. They use this understanding to hand-craft unique, constructed eidolons.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_combat", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per round when your mount is hit in combat, you may attempt a Ri
 +++
 
 ## Mounted Combat (Combat)
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You are adept at guiding your mount through combat.\
 **Prerequisites:** Ride 1 rank.\

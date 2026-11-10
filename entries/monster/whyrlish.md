@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whyrlish", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sports a nest of sting-tipped tendrils._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Planar Adventures pg 248\
 **Subtype:** Extraplanar
 
 **Experience points:** 51,200

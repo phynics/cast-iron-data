@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grinding_joint_paste", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "18"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "2,100 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Adventurer's Armory 2 pg 18
 
 **Price** 2,100 gp; **Weight** —
 

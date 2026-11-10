@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circle_of_clarity", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Effect: 20-ft.-radius emanation centered on a creature, object or point in space
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 You create a magical emanation that interferes with all figments and glamers within it, giving
 creatures a +4 bonus on saving throws to recognize them as illusions. The emanation negates

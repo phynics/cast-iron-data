@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_oitos", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "249"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ skirt adorned with gold pendants._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Book of the Damned pg 249\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 12,800

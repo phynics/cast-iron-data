@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abandoned_armory", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ iron and eldritch sparks._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 82\
 **Experience points:** 25,600
 
 **Armor class:** 29/8/28

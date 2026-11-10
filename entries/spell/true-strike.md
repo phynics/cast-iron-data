@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_strike", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "363"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 363
 
 You gain temporary, intuitive insight into the immediate future during your next attack. Your next
 single attack roll (if it is made before the end of the next round) gains a +20 insight bonus.

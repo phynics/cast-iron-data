@@ -6,12 +6,13 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_crawlers", path = "json/infestations.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "25"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Numeria, Land of Fallen Stars pg 25
 
 **Type:** Infestation (nanite, injury)
 

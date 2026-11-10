@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genghryl", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ of frightful fangs line the maw beneath its sharp beak._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 86\
 **tremorsense:** 60
 
 **Experience points:** 12,800

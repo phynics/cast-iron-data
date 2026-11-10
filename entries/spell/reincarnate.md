@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-races", "arcane-anthology", "ultimate-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reincarnate", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "331"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none, see text
 Spell resistance: yes
 Target: dead creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 331
 
 With this spell, you bring back a dead creature in another body, provided that its death occurred no
 more than 1 week before the casting of the spell and the subject's soul is free and willing to

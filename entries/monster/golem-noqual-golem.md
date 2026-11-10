@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_noqual_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ lithe quickness._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Bestiary pg 18\
 **Experience points:** 153,600
 
 **Armor class:** 32/10/30

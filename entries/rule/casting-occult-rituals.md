@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casting_occult_rituals", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 208
 
 Before performing an occult ritual, the primary caster must assemble and ready all the components
 needed as well as any secondary casters. Some occult rituals require the casting to occur at a

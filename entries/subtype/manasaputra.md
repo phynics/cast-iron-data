@@ -6,14 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manasaputra", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Manasaputra
-
-**Sources:** Bestiary 5
 
 [Manasaputras](ref/family/manasaputra) are lawful good spirits ascending to a new stage of existence
 on the [Positive Energy Plane](ref/rule/positive-energy-plane). They have the following traits.

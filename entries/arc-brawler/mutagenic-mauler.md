@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "86"
 
 [fields]
 kind = "archetype"
 replaces = ["Martial flexibility", "AC bonus"]
 +++
 
-**Sources:** Advanced Class Guide pg 86\
 Not content with perfecting her body with natural methods, a mutagenic mauler resorts to alchemy to
 unlock the primal beast within.
 

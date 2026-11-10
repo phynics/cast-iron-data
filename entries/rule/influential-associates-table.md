@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influential_associates_table", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "44"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 44
 
 Influential associates are people who had (or continue to have) a strong influence upon your
 development. They are archetypes and templates for NPCs that you can customize to fit your

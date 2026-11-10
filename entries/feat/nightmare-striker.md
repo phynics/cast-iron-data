@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightmare_striker", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While a *faerie fire* you have cast (not one cast from a spell comple
 +++
 
 ## Nightmare Striker (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 Your faerie fire not only illuminates your foes, but it also shows you their weaknesses.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

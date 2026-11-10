@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_storm", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Descriptors: disease, evil
 :::
-
-**Sources:** Ultimate Magic pg 231
 
 You create a hideous gray cloud, similar to fog cloud, that occasionally crackles with foul-smelling
 bolts of sickly green lightning. Creatures in the area must save or contract one of the following

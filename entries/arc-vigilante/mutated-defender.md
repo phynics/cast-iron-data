@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "9"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante specialization"]
 alters = ["Vigilante talent"]
 +++
 
-**Sources:** People of the Wastes pg 9\
 Occasionally a mutation takes hold of the body of a vigilante, but he learns to hide his maladies,
 usually through alchemical concoctions or magical concealment. Unlike other mutants, who are usually
 shunned in Alkenstar and other settlements, mutated defenders can appear in public without revealing

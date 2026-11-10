@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "307"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 307
 
 A dragon is a reptile-like creature, usually winged, with magical or unusual abilities.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 249
 
 You cause a living creature that is below 0 hit points but stabilized to resume dying. Upon casting
 this spell, you target a living creature that has -1 or fewer hit points. That creature begins

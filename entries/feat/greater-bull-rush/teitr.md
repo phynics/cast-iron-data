@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-bull-rush" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "You receive a +2 bonus on checks made to bull rush a foe. This bonus 
 normal = "Creatures moved by bull rush do not provoke attacks of opportunity."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Your bull rush attacks throw enemies off balance.\
 **Prerequisites:** [Powerful Maneuvers](ref/rule/powerful-maneuvers), base attack bonus +6, Str 13.\
 **Benefit:** You receive a +2 bonus on checks made to [bull rush](ref/rule/bull-rush) a foe. This

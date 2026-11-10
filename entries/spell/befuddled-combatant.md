@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddled_combatant", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, mind-affecting
 :::
-
-**Sources:** Healer's Handbook pg 17
 
 As a way to befuddle your target, you fill its mind with all manner of swirling images as well as
 baffling and incoherent thoughts, making the target an ineffective combatant and rendering its

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "published_adventures", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "396"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 396
 
 Published adventures are your friend. As a Game Master, you're going to be spending a lot of time as
 it is preparing for games - and when you don't have time to come up with an adventure, a published

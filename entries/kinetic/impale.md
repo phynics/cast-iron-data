@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impale", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Metal Blast](ref/kinetic/metal-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/20
 
 You extend a long, sharp spike of elemental matter along a line, impaling multiple foes. Make a
 single attack roll against each creature or object in a 30-foot line, starting with the closest

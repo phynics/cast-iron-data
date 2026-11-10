@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firefighting_magic", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 60\
 A number of spells have the potential to affect areas that have caught fire and can serve to reduce
 the seriousness of a blaze. While these are by no means all the spells that might aid a
 fire-fighting spellcaster, these account for the majority of the magical effects that can be brought

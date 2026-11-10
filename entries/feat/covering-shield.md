@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_shield", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using a shield of the type to which your Shield Focus feat appl
 +++
 
 ## Covering Shield (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 24
 
 You can use your shield to protect your most vulnerable parts from area effects.\
 **Prerequisites:** Dex 13, [Shield Focus](ref/feat/shield-focus),

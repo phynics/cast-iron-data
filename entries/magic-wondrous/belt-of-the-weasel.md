@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_the_weasel", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "210"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 210\
 **Aura** moderate transmutation; **CL** 4th\
 **Slot** belt; **Price** 10,000 gp; **Weight** 1 lb.
 

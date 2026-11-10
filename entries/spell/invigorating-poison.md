@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorating_poison", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 28
 
 The body of the target creature gains a metabolic response that allows it to benefit from normally
 deadly toxins. When a poison would cause ability damage to the target creature, the target instead

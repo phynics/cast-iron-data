@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_of_diplomatic_relationships", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "229"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 229
 
 You use Diplomatic edicts to establish an embassy, treaty, or alliance; each is a closer relation
 than the previous one.

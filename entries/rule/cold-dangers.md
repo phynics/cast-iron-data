@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_dangers", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "442"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 442
 
 Cold and exposure deal nonlethal damage to the victim. A character cannot recover from the damage
 dealt by a cold environment until she gets out of the cold and warms up again. Once a character has

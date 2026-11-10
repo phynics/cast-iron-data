@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_enforcer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** Inner Sea NPC Codex pg 52\
 **XP** 1,600\
 Human [monk](ref/class/monk) 6\
 LE Medium humanoid (human)\

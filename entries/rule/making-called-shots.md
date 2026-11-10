@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_called_shots", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 193
 
 A called shot is an attack aimed at a particular part of the body, in the hope of gaining some extra
 effect from the attack. The smaller or better guarded the area, the more difficult the called shot.

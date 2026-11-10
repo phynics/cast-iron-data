@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_giant_anaconda", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "252"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ it scans the area for prey._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 252\
 **Experience points:** 9,600
 
 **Armor class:** 25/9/22

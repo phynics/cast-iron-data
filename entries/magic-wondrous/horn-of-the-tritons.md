@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_the_tritons", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "303"
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 303, Pathfinder \#58: Island of Empty Eyes pg 60\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.
 

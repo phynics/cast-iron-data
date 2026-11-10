@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ozimat", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _Chunks of rock spin about a humanoid form of vibrant green light._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planes of Power pg 62\
 **Subtype:** Earth, Elemental, Extraplanar, Incorporeal
 
 **Experience points:** 12,800

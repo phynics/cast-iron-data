@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_restoration", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 1
-
-**Source:** Healer's Handbook/15
 
 You recover from 1d4 points of [ability score damage](ref/rule/ability-damage-drain) to one of your
 physical ability scores (Strength, Dexterity, or Constitution). This also eliminates any

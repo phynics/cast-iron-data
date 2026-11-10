@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Stern gaze", "Solo tactics"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 17\
 Masters of mind tricks and deception, these divine assassins track down and kill anyone who has
 forbidden knowledge about their faiths.
 

@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_last_will", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Sources:** Tears at Bitter Manor pg 54\
 **Aura** faint necromancy; **CL** 1st\
 **Slot** none; **Price** 150 gp; **Weight** -
 

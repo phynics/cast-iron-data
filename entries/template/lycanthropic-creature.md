@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthropic_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "249"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/249
 
 Lycanthropic creatures can act as simpler variants of any sort of lycanthrope in hybrid form, but
 the default is for a werewolf-like creature, so if the base lycanthrope has different features,

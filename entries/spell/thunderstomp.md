@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstomp", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: earth
 :::
-
-**Sources:** Advanced Class Guide pg 196
 
 You stomp your foot or strike your weapon against the ground or floor, creating a ripple of power
 that you can use to trip a creature. Attempt the combat maneuver check to trip the target, but

@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enforce_order", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 11
 
 Your team keeps the black market relatively safe for customers and vendors for 1 day. Enforcing
 order requires a successful Influence or Labor check against the black market's access DC. Success

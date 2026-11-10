@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "specialty_smoke_pellet_pepper", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (Pepper), - (Smog)"
 
 ## Specialty smoke pellet (Pepper)
 
-**Sources:** Dungeoneer's Handbook pg 27\
 **Price** 60 gp (Pepper), 40 gp (Smog); **Weight** - (Pepper), - (Smog)
 
 Like standard [smoke pellets](ref/eq-misc/smoke-pellet), these specialty pellets fill a single

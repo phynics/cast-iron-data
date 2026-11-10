@@ -6,14 +6,15 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paddle_foot_pistol", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "15"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** People of the Wastes pg 15
 
 This early firearm has four barrels, each of which can be fired one at a time with a single
 adjustable flintlock. The paddle-foot pistol fires in a 20-foot cone when making a scattering shot,

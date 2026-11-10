@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steam_ray_fusillade", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire, water
 :::
-
-**Sources:** Aquatic Adventures pg 61
 
 For the duration of the spell, you can fire three rays of steam once per round as a standard action
 (and you also fire three such rays as part of casting the spell). These rays function similarly to

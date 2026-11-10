@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riding_rat_combat_trained", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "177"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "50 lbs. (combat trained), 50 lbs. (common)"
 
 ## Riding rat
 
-**Sources:** Monster Codex pg 177\
 **Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs.
 (common)
 

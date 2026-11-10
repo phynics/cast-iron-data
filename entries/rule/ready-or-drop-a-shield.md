@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ready_or_drop_a_shield", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 187
 
 Strapping a shield to your arm to gain its shield bonus to your AC, or unstrapping and dropping a
 shield so you can use your shield hand for another purpose, requires a move action. If you have a

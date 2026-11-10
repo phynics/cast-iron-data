@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghole", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "132"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ visage._
 
 **Senses:** Darkvision 60 ft., Scent sickness
 
-**Sources:** Bestiary 6 pg 132\
 **Experience points:** 19,200
 
 **Armor class:** 26/14/22

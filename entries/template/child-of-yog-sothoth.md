@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_yog_sothoth", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "82"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Pathfinder \#113: What Grows Within/82
 
 Creatures born of mortal flesh infused with the essence of the outer god
 [Yog-Sothoth](ref/faith/yog-sothoth), these deviant children are often tasked with preparing the

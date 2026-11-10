@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_lifeleecher", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ are thick and corded, and its hate-flled eyes seem to reflect death wherever the
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#141: Last Watch pg 80\
 **Subtype:** Mortic, Orc
 
 **Experience points:** 4,800

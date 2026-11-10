@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dahak", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "35"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Dahak**
 
 **Sub:** The Endless Destruction
-
-**Sources:** Inner Sea Faiths pg 35
 
 ### Details
 

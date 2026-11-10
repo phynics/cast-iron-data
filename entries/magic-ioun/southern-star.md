@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "southern_star", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Heroes from the Fringe pg 15\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 8,000 gp; **Weight** —
 

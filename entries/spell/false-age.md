@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_age", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes from the Fringe pg 23
 
 Half-elves are accustomed to aging at a different rate from those close to them and can temporarily
 present themselves at a different age. Select an age category within one step of your actual age

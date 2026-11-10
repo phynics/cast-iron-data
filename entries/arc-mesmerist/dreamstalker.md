@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "60"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level mesmerist trick", "Towering ego", "Manifold tricks", "Gli
 alters = ["Painful stare", "Mesmerist tricks", "Touch treatment"]
 +++
 
-**Sources:** Horror Adventures pg 60\
 Many mesmerists concentrate their studies on conscious, rational thought, but dreamstalkers instead
 delve into the unleashed unconscious mind that wanders free in dreams.
 

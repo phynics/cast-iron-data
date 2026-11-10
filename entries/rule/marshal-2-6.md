@@ -6,12 +6,17 @@ source_ids = ["mythic-adventures", "mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshal_2_6", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "35"
+[[sources]]
+publication = "mythic-origins"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 35, Mythic Origins pg 27\
 You must be at least 6th tier to select these path abilities.
 
 **Beacon of Hope (Su):** You radiate a supernatural aura that fills your allies with hope and

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mastery_of_word_and_thought", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "127"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This massive tome is the size of four normal spellbooks, bound in leather as hard as plate armor
 and stitched together with strands of thin, pliable metal rather than thread. Toward the end is a
 list of names, each crossed out._
-
-**Sources:** Ultimate Magic pg 127
 
 **Opposition** Conjuration, illusion\
 **Protection** [Symbol of death](ref/spell/symbol-of-death) on the first page of the book (Fort DC

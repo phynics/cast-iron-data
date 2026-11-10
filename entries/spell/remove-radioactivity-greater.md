@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/remove-radioactivity" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Subschool: Healing
 :::
 
 ### Greater Remove Radioactivity
-
-**Sources:** Technology Guide pg 11
 
 This spell functions like [remove radioactivity](ref/spell/remove-radioactivity), save that it cures
 all ability damage and drain due to radioactivity that the target has taken. In addition, you can

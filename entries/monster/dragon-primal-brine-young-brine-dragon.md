@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_primal_brine_young_brine_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and fin-like crests._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 2 pg 94\
 **Subtype:** Extraplanar, Water
 
 **Experience points:** 3,200

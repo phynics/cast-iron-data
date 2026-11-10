@@ -6,6 +6,8 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clamor_of_the_heavens", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Clamor of the Heavens (Percussion, Sing)
-
-**Sources:** Champions of Purity
 
 This confusing dirge of melody and counter-melody was composed for choirs celebrating the various
 martyrs of Ragathiel. It is intended to praise and magnify the glory of the empyreal lord, but to

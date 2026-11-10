@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "104"
 
 [fields]
 kind = "archetype"
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 104\
 The amnesiac once possessed great psychic power, but mental blocks - resulting from either a
 traumatic event or intentional implantation - have caused her to forget what she knew before. The
 amnesiac's struggle to control her psychic magic leads to wild and unpredictable results.

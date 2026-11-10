@@ -6,6 +6,15 @@ source_ids = ["ultimate-combat", "ultimate-equipment", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_powder_keg", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
+[[sources]]
+publication = "ultimate-equipment"
+page = "41"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ weight = "- (dose)/5 lbs. (keg)"
 +++
 
 ## Black Powder
-
-**Sources:** Ultimate Combat pg 141, Ultimate Equipment pg 41, Inner Sea World Guide pg 292
 
 Black powder is the key explosive component within a firearm that enables it to function, but in
 larger amounts this alchemical material can be quite destructive on its own as well. A single dose

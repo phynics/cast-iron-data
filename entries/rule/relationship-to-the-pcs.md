@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relationship_to_the_pcs", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 186
 
 You need to consider your retired PC's relationship with the remaining PCs, including your new
 character if you have one. If your PC left on good terms, the party members now have a friendly

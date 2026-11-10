@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retraining", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 188
 
 If you are unsatisfied with a feat, skill, archetype, or class ability you chose, you may spend time
 in intense training to trade the old ability for a new one. Though it is time-consuming and

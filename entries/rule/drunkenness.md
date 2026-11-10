@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide", "inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunkenness", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 237
 
 Just like drugs, alcohol can be abused and have significant negative effects. In general, a
 character can consume a number of alcoholic beverages equal to 1 plus double his Constitution

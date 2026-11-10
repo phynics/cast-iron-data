@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_false_reading", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: object touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Occult Adventures pg 173
 
 You implant a false psychometric reading into an object, imbuing the item with misleading
 information that might be learned from the [object reading](ref/spell/object-reading) spell or

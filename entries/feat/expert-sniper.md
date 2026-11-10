@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_sniper", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You take a -20 penalty on Stealth checks to stay hidden while sniping.
 +++
 
 ## Expert Sniper (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 10
 
 Your quick ranged attacks make you difficult to locate.\
 **Prerequisites:** Stealth 3 ranks.\

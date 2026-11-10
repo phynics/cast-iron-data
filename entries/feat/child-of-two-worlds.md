@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_two_worlds", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You gain the amphibious subtype (and the aquatic subtype, if you don'
 +++
 
 ## Child of Two Worlds (Story)
-
-**Sources:** Aquatic Adventures pg 57
 
 You are the child of a land-dwelling creature and an aquatic creature, struggling to reconcile your
 dual heritage.\

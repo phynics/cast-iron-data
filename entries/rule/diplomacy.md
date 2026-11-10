@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diplomacy", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 184
 
 Due to its ability to convince people without using either deception or coercion - and risking their
 negative consequences - the Diplomacy skill is one of the most commonly used forms of persuasion in

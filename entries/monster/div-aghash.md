@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_aghash", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ for a large eye ringed by fangs._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 3 pg 83\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 1,200

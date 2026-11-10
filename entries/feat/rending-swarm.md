@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_swarm", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +1 bonus on all melee damage rolls for each allied creatur
 +++
 
 ## Rending Swarm (Combat, Teamwork)
-
-**Sources:** Blood of the Beast pg 23
 
 Together, you and your allies tear through enemies' defenses.\
 **Prerequisites:** Dex 15, [Rat Stack](ref/feat/rat-stack), swarming racial trait.\

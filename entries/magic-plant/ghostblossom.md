@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostblossom", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Wilderness Origins pg 16\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 10,500 gp; **Weight** 50 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_crow", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: one crow
 Subschool: Summoning
 :::
-
-**Sources:** Inner Sea Races pg 221
 
 > _The following spell is available to the indicated race or ethnicity: [Orc](ref/race/orc)_
 

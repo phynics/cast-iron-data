@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadows_shroud", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "Unlike spells like shadow walk, which require you to be on a plane th
 +++
 
 ## Shadow's Shroud (Conduit)
-
-**Sources:** Planar Adventures pg 32
 
 You can camouflage yourself in shadows and gloom.\
 **Prerequisites:** Knowledge (planes) 5 ranks.\

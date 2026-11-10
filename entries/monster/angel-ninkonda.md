@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_ninkonda", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ shoulders._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 86\
 **Subtype:** Angel, Extraplanar, Good, Lawful
 
 **Experience points:** 102,400

@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/mounted-shield", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "127"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 127\
 As long as you have at least 1 stamina point in your stamina pool, you can add your shield's
 enhancement bonus to your mount's Armor Class.

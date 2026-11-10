@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "me_ogre_mage", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "243"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 243
 
 The ogre mage oni are devious shapeshifters who combine martial prowess with magical threats.
 

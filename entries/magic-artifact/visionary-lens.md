@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "realm-of-the-fellnight-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visionary_lens", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "63"
+[[sources]]
+publication = "realm-of-the-fellnight-queen"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination, enchantment, and illusion"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 63, Realm of the Fellnight Queen pg 29\
 **Aura** strong divination, enchantment, and illusion; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 50 lbs.
 

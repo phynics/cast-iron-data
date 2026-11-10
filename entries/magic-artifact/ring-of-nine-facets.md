@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_nine_facets", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "40"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "19th"
 +++
 
-**Sources:** Artifacts and Legends pg 40\
 **Aura** strong abjuration, conjuration, and transmutation; **CL** 19th\
 **Slot** ring; **Price** -; **Weight** -
 

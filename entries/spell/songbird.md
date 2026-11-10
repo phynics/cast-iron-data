@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "songbird", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "44"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: you
 Descriptors: good
 :::
-
-**Sources:** Planar Adventures pg 44
 
 You conjure uplifting music from the wilds of Elysium, Heaven, or Nirvana to bolster other musical
 activities.

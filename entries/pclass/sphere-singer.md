@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_singer", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "28"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of the Righteous pg 28
 
 The faithful of Desna are legendary for their love of wayfaring, but the sphere singer takes this
 wanderlust to almost extreme lengths. Sphere singers combine faith and song to help them in their

@@ -6,12 +6,12 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dares", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Class Guide
 
 Dares are similar to deeds in that they grant a gunslinger or a swashbuckler extra abilities based
 on either grit or panache, but unlike deeds, dares become active when a member of these classes runs

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_mist", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 60-ft. radius
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Magic pg 209
 
 This spell summons forth a misty cloud of rust-red toxic algae. Any creature within the mist is
 coated by it, turning the creature the same reddish color. All targets within the mist gain

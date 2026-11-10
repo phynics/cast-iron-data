@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunbaked_zombie", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "88"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Pathfinder \#80: Empty Graves/88
 
 Sun-baked zombies most often rise near pyramids and other burial sites in hot deserts, where latent
 necromantic energy lingers from countless arcane rituals and restless spirits. As such, sunbaked

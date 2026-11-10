@@ -6,6 +6,9 @@ source_ids = ["carnival-of-tears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_ice_shard", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "carnival-of-tears"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and enchantment"
 caster_level = "17th"
 +++
 
-**Sources:** Carnival of Tears pg 28\
 **Aura** strong necromancy and enchantment; **CL** 17th\
 **Slot** none; **Price** lesser artifact; **Weight** -
 

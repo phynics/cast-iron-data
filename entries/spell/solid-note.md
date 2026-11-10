@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_note", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: one solidified musical note
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 245
 
 You give temporary physical form to a single musical note and can hang it, suspended, wherever you
 wish within range, allowing you to use it as hook, pulley, door blocker, or anything else your

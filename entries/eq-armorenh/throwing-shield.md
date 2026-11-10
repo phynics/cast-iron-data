@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throwing_shield", path = "json/equipment_armor_enhancements.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor Modifications"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory pg 19\
 **Cost** +50 gp **Weight** -\
 **Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B; **Special**
 performance, trip\

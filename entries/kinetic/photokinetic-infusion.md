@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "photokinetic_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "24"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** Positive Blast
 
 **Saving throw:** none
-
-**Source:** Ultimate Wilderness/24
 
 Your blast damages living creatures with light. This deals normal damage to undead creatures but
 also deals minimum damage (1 point of damage per d6, can't be increased by the 9th-level improvement

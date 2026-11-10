@@ -6,14 +6,15 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kunai", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 18
 
 Crafted from a single piece of iron, a kunai has a leaf-shaped blade and a ring for a pommel.
 Adapted from the common trowel, the kunai has a thick blade that is sharpened only near the tip.

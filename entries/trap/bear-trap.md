@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_trap", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 184
 
 **Bear Trap**
 

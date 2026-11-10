@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hold-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 296
 
 This spell functions like [hold person](ref/spell/hold-person), except that it affects an animal
 instead of a humanoid.

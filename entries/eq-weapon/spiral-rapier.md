@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_rapier", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "9"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 9
 
 This rapier like weapon has a thicker blade than normal, which is shaped into a corkscrewing spiral
 of sharpened edges. These edges can catch enemy weapons, making it ideal for disarming or parrying.

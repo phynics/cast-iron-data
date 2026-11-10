@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wealth_and_money", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "40"
+[[sources]]
+publication = "ultimate-equipment"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 40, Ultimate Equipment pg 93
 
 Each character begins play with a number of gold pieces that he can spend on weapons, armor, and
 other equipment. As a character adventures, he accumulates more wealth that can be spent on better

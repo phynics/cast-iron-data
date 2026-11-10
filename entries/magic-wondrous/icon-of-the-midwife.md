@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icon_of_the_midwife", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "265"
+[[sources]]
+publication = "gods-and-magic"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 265, Gods and Magic pg 57\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 3,500 gp; **Weight** 2 lbs.
 

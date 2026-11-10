@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_familiars", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 The [Improved Familiar](ref/feat/improved-familiar) feat allows you to acquire a powerful familiar,
 but only when you could normally acquire a new familiar.
 

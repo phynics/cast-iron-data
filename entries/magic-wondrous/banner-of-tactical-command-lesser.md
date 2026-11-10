@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banner_of_tactical_command_lesser", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "31"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Banner of Tactical Command
 
-**Sources:** Quests and Campaigns pg 31\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 20,000 gp (Lesser), 100,000 gp (Normal); **Weight** 3 lbs.
 

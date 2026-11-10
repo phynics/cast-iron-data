@@ -6,13 +6,14 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_blossom", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "27"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Legacy of the First World pg 27
 
 Cavaliers of the order of the blossom dedicate their lives to protecting fey, especially those
 visiting the Material Plane from the First World. These cavaliers might be fey themselves, but even

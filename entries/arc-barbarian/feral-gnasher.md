@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "116"
 
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "2nd-level rage power", "Trap sense +1", "Improved uncanny dodge", "Trap sense +2", "Trap sense +3", "trap sense +5", "Trap sense +4"]
 +++
 
-**Sources:** Advanced Race Guide pg 116\
 Feral gnashers grow up in the wild, either raised by animals or scraping by on their own, and soon
 learn to fend for themselves. These barbarians often utilize pieced-together armor and fight with
 their sharp teeth and whatever improvised weapons are within reach. A feral gnasher has the

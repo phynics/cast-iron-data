@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_fire_maneuvers", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Allies who also have this feat cannot provide soft cover to enemies, 
 +++
 
 ## Friendly Fire Maneuvers (Combat, Teamwork)
-
-**Sources:** Ranged Tactics Toolbox pg 14
 
 You and your teammates can anticipate one another's ranged attacks and stay out of each others' way.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

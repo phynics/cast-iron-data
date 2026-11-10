@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruthless_opportunist", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When a Chelish ally with this feat hits with an attack of opportunity
 +++
 
 ## Ruthless Opportunist (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 Your timing and fierceness take the enemy by surprise.\
 **Prerequisites:** [Human](ref/race/human) (Chelaxian).\

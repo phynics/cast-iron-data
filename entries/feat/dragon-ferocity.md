@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_ferocity", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Taking this feat allows you to qualify for the Elemental Fist feat ev
 +++
 
 ## Dragon Ferocity (Combat)
-
-**Sources:** Ultimate Combat pg 98
 
 You attack with the strength of a dragon, your telling blows striking fear into your enemies.\
 **Prerequisites:** Str 15, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

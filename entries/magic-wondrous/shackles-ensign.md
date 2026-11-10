@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackles_ensign", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 58\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 10,800 gp; **Weight** 3 lbs.
 

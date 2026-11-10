@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_dead", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "346"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: one dead creature
 Descriptors: language-dependant
 :::
-
-**Sources:** PRPG Core Rulebook pg 346
 
 You grant the semblance of life to a corpse, allowing it to answer questions. You may ask one
 question per two caster levels. The corpse's knowledge is limited to what it knew during life,

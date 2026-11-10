@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shelana_the_mother_deck", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 21\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

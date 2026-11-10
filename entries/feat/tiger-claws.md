@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_claws", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using the Tiger Style feat and have both hands free, yo
 +++
 
 ## Tiger Claws (Combat)
-
-**Sources:** Ultimate Combat pg 122
 
 You can sacrifice multiple attacks to make a single devastating strike.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

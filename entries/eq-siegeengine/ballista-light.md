@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ballista_light", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "160"
+[[sources]]
+publication = "core-rulebook"
+page = "435"
 
 [fields]
 kind = "item"
@@ -14,8 +20,6 @@ weight = "-"
 +++
 
 ## Ballista
-
-**Sources:** Ultimate Combat pg 160, PRPG Core Rulebook pg 435
 
 Resembling a massive crossbow, a ballista's power is provided by twisted skeins of animal sinew used
 as torsion springs driving a pair of adjustable arms. A cord attached to both arms is winched back

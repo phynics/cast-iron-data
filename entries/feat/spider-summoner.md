@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_summoner", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "106"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to cast *summon monster or *summon nature's ally* spells, drow."
 benefit = "When casting either a *summon monster* spell or a *summon nature's ally* spell, your options increase. Depending on the level of the spell, you can summon the spiders listed below."
 +++
-
-**Sources:** Advanced Race Guide pg 106
 
 You gain the ability to summon powerful spiders.\
 **Prerequisites:** Ability to cast \*summon monster or

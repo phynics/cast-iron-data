@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravitic_boost", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Damage:** see text
 
 **Prerequisite:** [gravity blast](ref/kinetic/gravity-blast), any other physical simple blast
-
-**Source:** Occult Origins/7
 
 You infuse a simple physical blast with added gravity, increasing its damage dice from d6s to d8s;
 it otherwise deals damage as per the simple blast.

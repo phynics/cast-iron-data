@@ -6,6 +6,9 @@ source_ids = ["the-dragons-demand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_light", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "the-dragons-demand"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: 10-ft.-high vertical sheet of light up to 5 ft. long/level
 Descriptors: light
 :::
-
-**Sources:** The Dragon's Demand pg 24
 
 An immobile, blinding curtain of white light that blocks line of sight springs into existence. The
 wall sheds bright light to a range of 60 feet in all directions. A creature adjacent to the wall is

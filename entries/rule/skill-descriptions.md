@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_descriptions", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 87
 
 This section describes each skill, including common uses and typical modifiers. Characters can
 sometimes use skills for purposes other than those noted here, at the GM's discretion. For a

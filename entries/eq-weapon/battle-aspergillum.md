@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_aspergillum", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 17, Advanced Player's Guide pg 176
 
 Named for the common aspergillum, a mace-like tool used by priests to sprinkle holy water, this
 light mace has a hollow head and a metal plug closing off the hole through which the head is filled.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "66"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic circles", "fast circles", "Outside contact", "Binding circles
 alters = ["Mental focus"]
 +++
 
-**Sources:** Ultimate Wilderness pg 66\
 A naturalist eschews the contact with outsiders that other occultists use as the core of their work.
 Instead, he attunes his mind to the natural spirits that exist everywhere, just out of sight for the
 unawakened mind.

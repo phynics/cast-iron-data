@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scal", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "73"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Scal**
 
 **Sub:** Calm after the Storm
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 73
 
 ### Details
 

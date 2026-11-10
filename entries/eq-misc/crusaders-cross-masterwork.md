@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_cross_masterwork", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (masterwork), - (standard)"
 
 ## Crusader's cross (standard)
 
-**Sources:** Demon Hunter's Handbook pg 18\
 **Price** PFS Legal 50 gp (masterwork), PFS Legal 1 gp (standard); **Weight** - (masterwork), -
 (standard)
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaotic_good", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 135
 
 My soul is good, but free. Laws have no conscience. Blind order promotes disorder. Goodness cannot
 be learned just from a book of prayer. Compassion does not wear a uniform. The smallest act of

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_improvements", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 210
 
 Terrain improvements are changes to a hex that improve the land for your kingdom's use, such as
 cultivating fields, digging mines, and clearing forests for lumber. The following list describes

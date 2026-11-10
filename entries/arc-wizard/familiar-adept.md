@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe scroll, 5th- and 10th-level bonus feats"]
 alters = ["Arcane bond", "Spellbook"]
 +++
 
-**Sources:** Familiar Folio pg 8\
 Many wizards employ familiars to assist them, but only a few have unlocked the true power of their
 school of magic through the familiar itself.
 

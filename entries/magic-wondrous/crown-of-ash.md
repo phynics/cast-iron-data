@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_ash", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "66"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 66\
 **Aura** strong divination and transmutation; **CL** 12th\
 **Slot** head; **Price** 29,900 gp; **Weight** 2 lbs.
 

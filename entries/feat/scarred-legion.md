@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_legion", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You gain a +2 bonus on Intimidate checks. You also gain a +2 morale b
 +++
 
 ## Scarred Legion (Teamwork)
-
-**Sources:** Monster Codex pg 164
 
 Your ritual scars make you more fearsome, and allies with similar scars grow bolder when they're
 near you.\

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_armor_focus", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Improved Armor Focus (Combat)
-
-**Sources:** Armor Master's Handbook pg 16
 
 Your mastery makes the most of your armor.\
 **Prerequisites:** [Armor Focus](ref/feat/armor-focus), base attack bonus +6, proficiency with

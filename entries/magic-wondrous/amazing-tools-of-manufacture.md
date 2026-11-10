@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amazing_tools_of_manufacture", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "37"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 37\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
 

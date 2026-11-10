@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_7_monster_options", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 228
 
 Options are the main way to specialize your monster. They represent feats, universal monster rules,
 magic items, and all the other abilities a monster has at its disposal beyond its statistics. There

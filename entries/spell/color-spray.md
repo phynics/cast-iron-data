@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "color_spray", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: cone-shaped burst
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 256
 
 A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned,
 perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is

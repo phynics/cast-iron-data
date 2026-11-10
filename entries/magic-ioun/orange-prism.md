@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "core-rulebook", "ultimate-equipment", "seeke
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orange_prism", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "149"
+[[sources]]
+publication = "core-rulebook"
+page = "521"
+[[sources]]
+publication = "ultimate-equipment"
+page = "305"
 
 [fields]
 kind = "item"
@@ -17,7 +26,6 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Sources:** Adventurer's Guide pg 149, PRPG Core Rulebook pg 521, Ultimate Equipment pg 305\
 **Aura** strong varied; **CL** 12th\
 **Slot** none; **Price** 30,000 gp; **Weight** —
 

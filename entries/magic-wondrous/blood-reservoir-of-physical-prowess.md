@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_reservoir_of_physical_prowess", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "283"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 283\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

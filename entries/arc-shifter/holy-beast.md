@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "track", "woodland stride", "trackless step"]
 alters = ["Shifter claws"]
 +++
 
-**Sources:** Heroes of Golarion pg 12\
 Thousands of gods are venerated in Vudra, and devoted followers might have personal relationships
 with their chosen deities. Holy beast shifters pledge to hunt down their deity's enemies to earn
 that deity's blessing. These shifters tend to take on the aspect of their deity's sacred animal, and

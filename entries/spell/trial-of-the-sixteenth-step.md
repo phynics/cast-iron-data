@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trial_of_the_sixteenth_step", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "58"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 58\
 **School** necromancy \[evil\]; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, F (a ring or amulet worth at least 5,000 gp), SC (up to 4)\

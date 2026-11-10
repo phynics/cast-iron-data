@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thanatotic_fury", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you (see text)
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 71
 
 You may cast this spell only if you have the giant subtype. When casting this spell, you channel the
 fury and the abilities of thanatotic titans, gaining some of their abilities for a short period of

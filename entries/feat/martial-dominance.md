@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_dominance", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can use your base attack bonus in place of your ranks in Intimida
 +++
 
 ## Martial Dominance (Combat)
-
-**Sources:** Ultimate Intrigue pg 86
 
 Your skill at arms intimidates your foes.\
 **Prerequisites:** Base attack bonus +5, Intimidate 1 rank.\

@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_spray", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spit poison using the ability granted by the Spit Venom feat
 +++
 
 ## Toxic Spray (Combat)
-
-**Sources:** Potions and Poisons pg 5
 
 You produce enough venom to cast a web of poison over your hapless victims.\
 **Prerequisites:** [Spit Venom](ref/feat/spit-venom), [Viscous Venom](ref/feat/viscous-venom),

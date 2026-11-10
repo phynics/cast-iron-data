@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_trip", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "128"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a trip combat man
 +++
 
 ## Improved Trip (Combat)
-
-**Sources:** PRPG Core Rulebook pg 128
 
 You are skilled at sending your opponents to the ground.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

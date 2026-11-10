@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardians_return", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day when you take damage from a melee attack, as long as you
 +++
 
 ## Guardian's Return (Familiar)
-
-**Sources:** Familiar Folio pg 19
 
 Your familiar can teleport to you when you're in need.\
 **Prerequisites:** Must have a [familiar](ref/ability/familiars) with the

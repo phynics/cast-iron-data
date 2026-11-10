@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pup_shape", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one animal
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Combat pg 240
 
 You transform the subject animal into a Small magical beast (or a magical beast one size category
 smaller than the original creature, whichever is smaller), creating a young magical version of

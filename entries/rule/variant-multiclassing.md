@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_multiclassing", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 88
 
 Under the core rules, multiclassing can lead to a wide disparity in character ability. With this
 system, each character can choose a secondary class at 1st level that she trains in throughout her

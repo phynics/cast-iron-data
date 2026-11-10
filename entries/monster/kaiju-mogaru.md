@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju_mogaru", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "170"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ glowing with red energy._
 
 **Senses:** Darkvision 600 ft., Low-light vision, See invisibility, Sense kaiju
 
-**Sources:** Bestiary 4 pg 170\
 **Subtype:** Kaiju, Water
 
 **Experience points:** 4,915,200

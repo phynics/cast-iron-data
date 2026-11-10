@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "62"
 
 [fields]
 kind = "archetype"
 replaces = ["Heavy Armor Proficiency", "Aura of courage", "Divine bond", "6th-level mercy", "Aura of resolve", "Aura of justice", "Aura of righteousness"]
 +++
 
-**Sources:** Ultimate Combat pg 62\
 Most paladins rush into battle, meeting evil toe-to-toe. The divine hunter prefers to engage evil
 from afar, striking down her foes before they can threaten her allies.
 

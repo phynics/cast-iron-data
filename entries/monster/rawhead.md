@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rawhead", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "241"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ oversized, boneless index finger._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 6 pg 241\
 **Experience points:** 38,400
 
 **Armor class:** 29/17/22

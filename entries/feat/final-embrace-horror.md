@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace_horror", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "A creature that takes damage from your constrict attack is also shake
 +++
 
 ## Final Embrace Horror (Combat)
-
-**Sources:** Ultimate Combat pg 101
 
 Your constricting attack has become stronger and more lethal.\
 **Prerequisites:** Str 15, Int 3; naga, [serpentfolk](ref/monster/serpentfolk), or creature that has

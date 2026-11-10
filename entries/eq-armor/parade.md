@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parade", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Adventurer's Armory pg 5\
 **Cost** 25 gp **Weight** 20 lbs.\
 **Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1\
 **Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\

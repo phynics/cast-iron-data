@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_sesquipedalian_elucidation", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 185\
 The instructions for your next component are nearly impossible to understand due to abstruse
 language.
 

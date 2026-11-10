@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactics_emotional_appeal", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 178
 
 You make an argument appealing to the emotional desires of your opponent or audience. This tactic is
 particularly useful against an opponent with an advantage in status or knowledge; raising the

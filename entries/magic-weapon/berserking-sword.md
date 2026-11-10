@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "berserking_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "343"
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate evocation"
 caster_level = "8th"
 +++
-
-**Sources:** Ultimate Equipment pg 343, PRPG Core Rulebook pg 543
 
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Weight** 8 lbs.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fickle_winds", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Targets: one or more Medium creatures/level, no two of which can be more than 30 ft. apart
 Descriptors: air
 :::
-
-**Sources:** Ultimate Magic pg 219
 
 You create a mobile cylinder of wind encompassing every target of the spell and protecting them as
 wind wall, but not interfering with them in any way. For example, arrows and bolts fired at the

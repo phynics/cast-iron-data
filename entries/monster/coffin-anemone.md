@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coffin_anemone", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ surrounding a soft, pale blue center._
 
 **Perception:** +0
 
-**Sources:** Bestiary 6 pg 248\
 **Subtype:** Aquatic
 
 **Type:** vermin

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/song-of-discord" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Descriptors: mind-affecting, sonic
 :::
 
 ### Greater Song of Discord
-
-**Sources:** Chronicle of Legends pg 14
 
 This spell functions as [song of discord](ref/spell/song-of-discord) except that affected creatures
 automatically attack the nearest target each round. In addition, all affected creatures gain a +4

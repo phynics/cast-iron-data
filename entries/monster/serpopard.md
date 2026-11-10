@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpopard", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ neck stretches over twice the length of its body, ending in a snarling leopard's
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 86\
 **Experience points:** 3,200
 
 **Armor class:** 20/15/15

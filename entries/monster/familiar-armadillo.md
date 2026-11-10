@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_armadillo", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "192"
+[[sources]]
+publication = "animal-archive"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This round, dust-colored creature's snout pokes out of its bony armor shell._
 
 **Senses:** Scent
 
-**Sources:** Ultimate Wilderness pg 192, Animal Archive pg 30\
 **Size:** tiny
 
 **Experience points:** 100

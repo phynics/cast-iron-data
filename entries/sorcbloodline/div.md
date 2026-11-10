@@ -6,13 +6,15 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "23"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** People of the Sands pg 23\
 You can trace your ancestry to one of the foul, corrupted genies known as [divs](ref/family/div).
 
 **Gained class skills:** kp

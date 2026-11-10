@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_vampire_squid", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This eerie-looking squid has red eyes and webbing between its hook-lined tentac
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Ultimate Wilderness pg 208\
 **Size:** tiny
 
 **Experience points:** 200

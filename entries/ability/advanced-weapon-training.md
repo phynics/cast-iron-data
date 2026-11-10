@@ -6,12 +6,14 @@ source_ids = ["weapon-masters-handbook", "blood-of-the-beast", "magic-tactics-to
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_weapon_training", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "18-19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Weapon Master's Handbook pg. 18-19\
 Highly skilled and experienced fighters can gain _advanced weapon training,_ learning techniques and
 applications of the _weapon training_ class feature that give them special benefits in exchange for
 specializing in a smaller number of [fighter weapon groups](ref/ability/weapon-groups). Beginning at

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sivanah", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "83"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Sivanah**
 
 **Sub:** The Seventh Veil
-
-**Sources:** Inner Sea Faiths pg 83
 
 ### Details
 

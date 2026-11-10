@@ -6,13 +6,18 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figment", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "211"
+[[sources]]
+publication = "familiar-folio"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Improved evasion", "Deliver touch spells", "speak with animals of its kind", "scry on familiar"]
 +++
 
-**Sources:** Ultimate Wilderness pg 211, Familiar Folio pg 10\
 Figments are born from their masters' imaginations rather than being ordinary creatures that are
 awakened.
 

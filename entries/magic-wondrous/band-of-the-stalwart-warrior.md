@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_the_stalwart_warrior", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Ultimate Equipment pg 248\
 **Aura** strong abjuration; **CL** 16th\
 **Slot** headband; **Price** 14,000 gp; **Weight** 1 lb.
 

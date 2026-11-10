@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lymirin_discourses", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "68"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 68\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 15,000 gp; **Weight** 3 lbs.
 

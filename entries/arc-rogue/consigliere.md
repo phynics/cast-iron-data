@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "evasion", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "Rogue talent normally gained at 10th level"]
 +++
 
-**Sources:** Ultimate Intrigue pg 44\
 Consiglieres act as trusted mediators and administrators for crime families and various criminal
 organizations, and many serve as the right hand to the leaders of such groups. Other consiglieres
 prefer to work as independent operators and sell their advice and expertise to the highest bidder.

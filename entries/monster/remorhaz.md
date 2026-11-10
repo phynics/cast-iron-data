@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remorhaz", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "233"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ red-hot._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 233\
 **tremorsense:** 60
 
 **Experience points:** 3,200

@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pirates-of-the-inner-sea", "adventurers-arm
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prosthetic_hand", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)"
 
 ## Prosthetic
 
-**Sources:** Ultimate Equipment pg 57, Pirates of the Inner Sea pg 21, Adventurer's Armory pg 19\
 **Price** 10 gp (arm), 1 gp (foot), 1 gp (hand), 20 gp (leg); **Weight** 3 lbs. (arm), 2 lbs.
 (foot), 1 lb. (hand), 6 lbs. (leg)
 

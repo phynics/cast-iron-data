@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "common_benefits", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 114
 
 The following benefits appear in many organizations' stat blocks, and are defined below.
 

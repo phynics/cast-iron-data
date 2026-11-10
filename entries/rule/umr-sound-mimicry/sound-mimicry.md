@@ -8,12 +8,14 @@ parent = "ref/umr/sound-mimicry"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#sound_mimicry|section:sound-mimicry", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "299"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 4 pg 299\
 The creature perfectly imitates certain sounds or even specific voices. The creature attempts a
 Bluff check opposed by the listener's Sense Motive check to recognize the mimicry, although if the
 listener isn't familiar with the person or type of creatures mimicked, it takes a -8 penalty on its

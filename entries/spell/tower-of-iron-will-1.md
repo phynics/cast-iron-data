@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_of_iron_will_1", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 10-ft.-radius emanation centered on you
 :::
-
-**Sources:** Occult Adventures pg 190
 
 You project a fortress of mental power that blocks out the psychic energy of others, granting mental
 strength and resiliency to all inside the area. All creatures inside the area gain

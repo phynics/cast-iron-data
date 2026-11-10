@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bristling_bull_rush", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully bull rush a creature, it takes 1d4 points of da
 +++
 
 ## Bristling Bull Rush (Combat)
-
-**Sources:** Ultimate Wilderness pg 108
 
 You deal damage to opponents when bull rushing them through difficult terrain, using the environment
 itself to harm your targets.\

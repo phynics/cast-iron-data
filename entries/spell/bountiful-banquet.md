@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bountiful_banquet", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: feast for two creatures/level
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Intrigue pg 205
 
 You conjure a beautiful and delicious feast with hors d-oeuvres, four courses worth of food, and
 plentiful drink. The food appears on ornate serving trays or in exquisite covered tureens, as

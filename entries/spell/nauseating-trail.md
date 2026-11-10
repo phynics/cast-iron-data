@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nauseating_trail", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one willing creature
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Advanced Class Guide pg 189
 
 The target exudes stinking vapors that fill its space. The vapors do not obscure sight, but it
 nauseates creatures as stinking cloud. The target is immune to these vapors. These vapors persist as

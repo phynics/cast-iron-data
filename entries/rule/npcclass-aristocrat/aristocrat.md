@@ -8,12 +8,13 @@ parent = "ref/npcclass/aristocrat"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/npc_classes.json#aristocrat|section:aristocrat", path = "json/npc_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "449"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 449
 
 **Hit Die:** d8.
 

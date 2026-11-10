@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "motes_of_dusk_and_dawn", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Effect: Up to four motes, all within a 10-ft.-radius area
 Descriptors: darkness, light
 :::
-
-**Sources:** Blood of Shadows pg 28
 
 When you cast this spell, you create up to four motes that shed light or darkness in a
 20-foot-radius, increasing or decreasing the illumination level by up to two categories. You decide

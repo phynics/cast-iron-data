@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_voice", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one plant creature
 :::
-
-**Sources:** Cohorts and Companions pg 21
 
 You grant one plant creature the ability to speak, hear, and understand any of the languages you
 know. If you know more than one language, you may grant the plant creature up to one language per 2

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impositions", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "65"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 65\
 The following benefits can be purchased by groups that spend the listed amount of Disrepute and have
 achieved the requisite amount of Infamy. Over the course of the _Skull & Shackles_ Adventure Path,
 characters might find other ways to spend their Disrepute. GMs are also encouraged to create their

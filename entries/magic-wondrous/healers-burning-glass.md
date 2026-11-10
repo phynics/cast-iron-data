@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healers_burning_glass", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Magical Marketplace pg 11\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 32,400 gp; **Weight** 1/2 lb.
 

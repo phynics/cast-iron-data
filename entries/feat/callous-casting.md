@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callous_casting", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You initiate this feat by including an abetting ally in the area of a
 +++
 
 ## Callous Casting (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 20
 
 You don't care if your allies are harmed by your spells. The smart ones know this and start running.\
 **Prerequisites:** Spellcraft 1 rank.\

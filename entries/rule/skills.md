@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skills", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 86
 
 Each level, your character gains a number of skill ranks dependent upon your class plus your
 Intelligence modifier. Investing a rank in a skill represents a measure of training in that skill.

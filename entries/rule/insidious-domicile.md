@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insidious_domicile", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Insidious Domicile (CR 4):** The dwellings of some powerful evil creatures impose pervasive
 effects on those who disturb the restless hate that dwells within. These areas are typically single

@@ -6,14 +6,15 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_hammer", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "207"
 
 [fields]
 kind = "feat"
 prerequisites = "Ability to cast 3rd-level divine spells, proficient with warhammer, worshiper of Torag."
 benefit = "You can use any warhammer you wield as a holy symbol when casting spells that require a divine focus or when you channel energy."
 +++
-
-**Sources:** Inner Sea Gods pg 207
 
 Your god's power radiates from your warhammer.\
 **Prerequisites:** Ability to cast 3rd-level divine spells, proficient with

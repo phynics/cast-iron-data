@@ -6,14 +6,16 @@ source_ids = ["bestiary-4", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Kyton
-
-**Sources:** Bestiary 4, Bestiary 3
 
 Kytons are a race of lawful evil outsiders native to the Shadow Plane who feed on fear and pain.
 Kytons possess the following traits (unless otherwise noted in a creature's entry).

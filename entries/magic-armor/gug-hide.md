@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gug_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Planar Adventures pg 47\
 **Aura** strong abjuration and transmutation; **CL** 13th\
 **Slot** armor; **Price** 22,165 gp; **Weight** 25 lbs.
 

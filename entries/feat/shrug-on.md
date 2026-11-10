@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrug_on", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you can shrug yourself into the largest and m
 +++
 
 ## Shrug On (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 15
 
 You can throw on the most important element of your armor in a flash.\
 **Prerequisites:** Base attack bonus +1, medium armor proficiency.\

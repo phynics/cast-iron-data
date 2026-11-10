@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_reposition", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Creatures moved by reposition do not provoke attacks of opportunity."
 +++
 
 ## Greater Reposition (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 When you reposition foes, they are left vulnerable to the attacks of your allies.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

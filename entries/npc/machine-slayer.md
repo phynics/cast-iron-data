@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "machine_slayer", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ Kellid's many mechanical kills._
 
 **Challenge rating:** 8
 
-**Sources:** Numeria, Land of Fallen Stars pg 51\
 **XP** 4,800\
 Human [ranger](ref/class/ranger) 9\
 CN Medium humanoid (human)\

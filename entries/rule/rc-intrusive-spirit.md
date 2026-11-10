@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_intrusive_spirit", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 184\
 Your item's creation draws the attention of a wandering spirit with some affinity for the item.
 
 ### Tasks

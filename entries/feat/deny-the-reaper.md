@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deny_the_reaper", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Heal checks. If you have 10 or more ranks in H
 +++
 
 ## Deny the Reaper (Story)
-
-**Sources:** Ultimate Campaign pg 68
 
 The lives you could not save stay with you to your final breath.\
 **Prerequisites:** You must have witnessed the death of a close companion in battle - a death that

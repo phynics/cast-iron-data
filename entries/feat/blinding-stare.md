@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_stare", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target must succeed at a Wil
 +++
 
 ## Blinding Stare (Combat, Stare)
-
-**Sources:** Psychic Anthology pg 16
 
 Your stare robs your foe of all sight.\
 **Prerequisites:** Mesmerist level 7th, painful stare class feature.\

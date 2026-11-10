@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinking_coffin_trap", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 162
 
 **Sinking Coffin Trap**
 

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_move", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you are the only character threatening an opponent and that oppone
 +++
 
 ## Mirror Move (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 By tracking an opponent's movements, you can attempt to duplicate his techniques.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise), base attack bonus +4.\

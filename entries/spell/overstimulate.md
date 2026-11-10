@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overstimulate", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Inner Sea Temples pg 13
 
 You deprive a creature of the blissful oblivion of unconsciousness, either to keep it going despite
 grievous injuries or to prolong its suffering. For the duration of the spell, the target gains the

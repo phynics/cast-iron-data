@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Sacred armor", "Channel energy"]
 alters = ["Blessing", "Sacred weapon"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 6\
 Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster
 their nation's military by focusing on the militant aspects of their gods.
 

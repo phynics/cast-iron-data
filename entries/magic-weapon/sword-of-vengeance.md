@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_vengeance", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Sources:** Chronicle of the Righteous pg 53\
 **Aura** moderate evocation \[good\]; **CL** 9th\
 **Slot** none; **Price** 32,350 gp; **Weight** 8 lbs.
 

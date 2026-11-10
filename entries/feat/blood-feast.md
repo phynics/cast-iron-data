@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_feast", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "82"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you damage a living creature with your bite attack, you gain a +
 +++
 
 ## Blood Feast (Combat)
-
-**Sources:** Horror Adventures pg 82
 
 You become more aggressive and vicious when you taste living flesh and blood.\
 **Prerequisites:** Bite attack.\

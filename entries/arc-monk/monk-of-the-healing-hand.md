@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "113"
 
 [fields]
 kind = "archetype"
 replaces = ["Wholeness of body", "Diamond body", "quivering palm", "Perfect self"]
 +++
 
-**Sources:** Advanced Player's Guide pg 113\
 Monks of the healing hand seek perfection through helping others. By focusing their meditations on
 the flow of life within themselves and all creation they gain an understanding of how to share their
 ki with others, healing wounds and even bringing the dead back to life. For such a monk, sacrificing

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagship_boons", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "66"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 66\
 Flagship boons must be chosen when the fleet is created, and once chosen, they cannot generally be
 changed. Adding a new significant character to the group allows a new boon to be selected, but
 otherwise, you must decommission the current flagship and place a new flagship in command of the

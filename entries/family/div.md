@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 While [demons](ref/family/demon) exist to destroy, [devils](ref/family/devil) yearn to corrupt and
 control, and [daemons](ref/family/daemon) seek the death of all things, the foul beings known as

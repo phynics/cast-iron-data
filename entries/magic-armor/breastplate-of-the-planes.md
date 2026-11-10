@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breastplate_of_the_planes", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Planar Adventures pg 47\
 **Aura** strong evocation; **CL** 15th\
 **Slot** armor; **Price** 11,350 gp; **Weight** 30 lbs.
 

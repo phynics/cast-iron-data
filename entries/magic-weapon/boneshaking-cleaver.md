@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boneshaking_cleaver", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy [evil]"
 caster_level = "15th"
 +++
 
-**Sources:** Horror Adventures pg 214\
 **Aura** strong necromancy \[evil\]; **CL** 15th\
 **Slot** none; **Price** 90,320 gp; **Weight** 12 lbs.
 

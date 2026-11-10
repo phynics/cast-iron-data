@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "press_to_the_wall", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you are the only character threatening an opponent, you can treat 
 +++
 
 ## Press to the Wall (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 You gain an advantage when your opponent can't easily retreat.\
 **Prerequisites:** [Step Up](ref/feat/step-up), base attack bonus +3.\

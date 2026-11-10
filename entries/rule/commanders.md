@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commanders", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 239
 
 An army's commander helps maximize its effectiveness and can provide special bonuses to an army. The
 commander can be a PC or NPC. Unless you decide to command an army personally or the GM allows you

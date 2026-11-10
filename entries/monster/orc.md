@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ greasy black hair._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 222\
 **Experience points:** 135
 
 **Armor class:** 13/10/13

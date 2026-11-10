@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_thiefs_satchel", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 24\
 **Aura** moderate conjuration and divination; **CL** 9th\
 **Slot** none; **Price** 10,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoke_the_inner_fire", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "66"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: fire
 :::
-
-**Sources:** Pathfinder \#95: Anvil of Fire pg 66
 
 > _Priests of [Zursvaater](ref/faith/zursvaater) have access to the following spell._
 

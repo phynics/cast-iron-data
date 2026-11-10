@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viceroy", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 203
 
 The Viceroy represents the Ruler's interests on an ongoing basis in a specific location such as a
 colony or vassal state (see the optional [Vassalage edict](ref/rule/vassalage-edicts)). The Viceroy

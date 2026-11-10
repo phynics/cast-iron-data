@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_walk", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "341"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Targets: up to one touched creature/level
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 341
 
 To use the shadow walk spell, you must be in an area of dim light. You and any creature you touch
 are then transported along a coiling path of shadowstuff to the edge of the Material Plane where it

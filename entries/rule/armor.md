@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 149
 
 For most, armor is the simplest way to protect oneself in a world of rampant threats and dangers.
 Many characters can wear only the simplest of armors, and only some can use shields. To wear heavier

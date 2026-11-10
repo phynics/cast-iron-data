@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_monadic_deva", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ mace._
 
 **Senses:** Darkvision 60 ft., Detect evil, Low-light vision
 
-**Sources:** Bestiary 2 pg 27\
 **Subtype:** Angel, Aquatic, Extraplanar, Good
 
 **Experience points:** 19,200

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucerne_hammer", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Adventurer's Armory pg 4, Advanced Player's Guide pg 179
 
 This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and
 peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon.

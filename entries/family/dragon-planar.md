@@ -6,13 +6,17 @@ source_ids = ["bestiary-6", "pathfinder-137-the-city-outside-of-time", "pathfind
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "96"
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 96, Pathfinder \#137: The City Outside of Time, Pathfinder \#131: The
-Reaper's Right Hand
 
 Planar dragons originate in the outer Planes, but migrate via portals or other methods to the
 Material Plane. There, they reshape their lairs to reflect their home planes.

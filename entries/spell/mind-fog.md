@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_fog", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "313"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Effect: fog spreads in 20-ft. radius, 20 ft. high
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 313
 
 Mind fog produces a bank of thin mist that weakens the mental resistance of those caught in it.
 Creatures in the mind fog take a -10 penalty on Wisdom checks and Will saves. (A creature that

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doors", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "412"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 412
 
 Doors in dungeons are much more than mere entrances and exits. Often they can be encounters all by
 themselves. Dungeon doors come in three basic types: wooden, stone, and iron.

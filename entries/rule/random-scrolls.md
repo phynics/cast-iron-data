@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_scrolls", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "125"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 125
 
 ### Table 5-24: Random Scrolls
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_rhinoceros", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ flesh billows from its smokestack horns._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 86\
 **Experience points:** 12,800
 
 **Armor class:** 25/9/24

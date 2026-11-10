@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kelksiomides", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Heroes of Golarion pg 14\
 Kelksiomides spent his early years working in his family's vineyard. He was selected by his village
 to be blessed by the [cyclopes](ref/monster/cyclops) of the isle, who told the young vintner that
 tragedy would precede his mythic ascension. Sure enough, Kelksiomides returned home to find his

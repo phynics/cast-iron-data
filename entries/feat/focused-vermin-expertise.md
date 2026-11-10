@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_vermin_expertise", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain DR/- equal to half your favored enemy (vermin) bonus against
 +++
 
 ## Focused Vermin Expertise (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 23
 
 Your experience with vermin resists the attacks of swarms.\
 **Prerequisites:** [Favored enemy](ref/ability/favored-enemy) (vermin) class feature.\

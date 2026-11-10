@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_earth", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "81"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Area: 20-foot-radius spread
 :::
-
-**Sources:** Monster Codex pg 81
 
 The ground attempts to pull creatures beneath its surface as if hungry for the flesh of mortals.
 

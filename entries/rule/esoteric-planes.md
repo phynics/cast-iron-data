@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_planes", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 238
 
 The planes of the Great Beyond encompass all of existence, from the simple and sublime wonders of
 the material world to the impossibilities of heavens, hells, and everything in between. Arcane

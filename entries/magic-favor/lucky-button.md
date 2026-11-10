@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_button", path = "json/magic_favor.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the High Court pg 13\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 1,200 gp; **Weight** -
 

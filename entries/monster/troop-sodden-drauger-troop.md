@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_sodden_drauger_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This mob of undead is draped in soggy seaweed._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#141: Last Watch pg 91\
 **Subtype:** Troop
 
 **Type:** undead

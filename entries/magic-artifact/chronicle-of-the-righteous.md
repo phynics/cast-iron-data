@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chronicle_of_the_righteous", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "52"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "overwhelming (all schools) [good]"
 caster_level = "25th"
 +++
-
-**Sources:** Chronicle of the Righteous pg 52
 
 **Aura** overwhelming (all schools) \[good\]; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 12 lbs.

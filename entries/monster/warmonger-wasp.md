@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warmonger_wasp", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "274"
+[[sources]]
+publication = "the-worldwound"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ it buzzes through the air._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 274, The Worldwound pg 61\
 **Subtype:** Extraplanar
 
 **Experience points:** 3,200

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insect_plague", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "301"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one swarm of wasps per three levels, each of which be adjacent to at least one other swarm
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 301
 
 You summon a number of swarms of wasps (one per three levels, to a maximum of six swarms at 18th
 level). The swarms must be summoned so that each one is adjacent to at least one other swarm (that

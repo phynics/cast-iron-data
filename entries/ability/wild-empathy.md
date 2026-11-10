@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_empathy", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 A character with this ability can improve the initial attitude of an animal. This ability functions
 as a [Diplomacy](ref/skill/diplomacy) check to improve the attitude of a person. The character rolls
 1d20 and adds their class level (the level of the class that grants them wild empathy) and their

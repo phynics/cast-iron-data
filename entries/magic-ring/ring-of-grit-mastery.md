@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_grit_mastery", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "171"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 171\
 **Aura** faint abjuration and evocation; **CL** 3rd\
 **Slot** ring; **Price** 6,840 gp; **Weight** -
 

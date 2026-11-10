@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rusalka", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ her as if she were underwater._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 232\
 **Subtype:** Aquatic
 
 **Experience points:** 19,200

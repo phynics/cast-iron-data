@@ -8,12 +8,13 @@ parent = "ref/pclass/mystic-theurge"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/prestige_classes2.json#mystic_theurge|section:mystic-theurge", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "387"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 387
 
 Mystic theurges place no boundaries on their magical abilities and find no irreconcilable paradox in
 devotion to the arcane as well as the divine. They seek magic in all of its forms, finding no reason

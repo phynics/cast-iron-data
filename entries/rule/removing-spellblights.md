@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "removing_spellblights", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "94"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 94
 
 While the most severe symptoms of a spellblight may manifest only episodically, the condition is
 often tenacious and difficult to remove. Each spellblight lists conditions for its removal, and can

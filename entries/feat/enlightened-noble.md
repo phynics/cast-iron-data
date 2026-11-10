@@ -6,14 +6,15 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_noble", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "4"
 
 [fields]
 kind = "feat"
 prerequisites = "Cha 13, Noble Scion, Knowledge (nobility) 1 rank."
 benefit = "You gain an additional benefit based on the flavor of your noble family chosen with the Noble Scion feat."
 +++
-
-**Sources:** Heroes of the High Court pg 4
 
 You to excel in a particular area thanks to your noble family's field of expertise.\
 **Prerequisites:** Cha 13, [Noble Scion](ref/feat/noble-scion), Knowledge (nobility) 1 rank.\

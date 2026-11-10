@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/form-of-the-alien-dragon-1" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Polymorph
 :::
 
 ### Form of the Alien Dragon II
-
-**Sources:** Legacy of Dragons pg 30
 
 This spell functions as per [form of the alien dragon I](ref/spell/form-of-the-alien-dragon-1),
 except it also allows you to assume the form of a Large esoteric or outer dragon. Psychics can

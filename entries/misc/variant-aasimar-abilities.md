@@ -6,12 +6,14 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_aasimar_abilities", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
+page = "18"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of Angels pg 18\
 Some aasimars are blessed or cursed with unusual abilities. GMs may customize their aasimar NPCs
 using the following chart, or allow their players to do so by rolling a d%. Players with a
 particular character concept in mind may consult their GM if they want to select a specific variant

@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ophidian_coil", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Down the Blighted Path pg 62\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** ring; **Price** 15,000 gp; **Weight** -
 

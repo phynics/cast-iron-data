@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerological_resistance", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "51"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: see text
 :::
-
-**Sources:** Occult Mysteries pg 51
 
 Numerological resistance allows numerologists to use the Path of Numbers to grant their allies
 resilience in the face of elemental dangers. Roll 5d8; this is your dice pool. You will use each die

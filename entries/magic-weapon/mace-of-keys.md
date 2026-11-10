@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mace_of_keys", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Temples pg 33\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 50,312 gp; **Weight** 8 lbs.
 

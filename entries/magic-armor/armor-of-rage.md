@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_rage", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "342"
+[[sources]]
+publication = "core-rulebook"
+page = "538"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "armor"
 aura = "strong necromancy"
 caster_level = "16th"
 +++
-
-**Sources:** Ultimate Equipment pg 342, PRPG Core Rulebook pg 538
 
 **Aura** strong necromancy; **CL** 16th\
 **Slot** armor; **Weight** 50 lbs.

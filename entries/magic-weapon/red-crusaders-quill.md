@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_crusaders_quill", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch pg 32\
 **Aura** moderate necromancy and transmutation; **CL** 10th\
 **Slot** none; **Price** 25,320 gp; **Weight** 2 lbs.
 

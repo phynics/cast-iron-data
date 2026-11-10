@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 242
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except all creatures within
 the radius of a symbol of strife are compelled to attack the nearest conscious creature for 1 round

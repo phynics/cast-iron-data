@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "identify_magic", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 64
 
 By succeeding at a Spellcraft check, you can determine specific types of spells as they're being
 cast or while they are in effect. You can also pinpoint magical auras in this manner, or decipher

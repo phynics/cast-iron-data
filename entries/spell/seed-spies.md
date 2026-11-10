@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/insect-spies" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Effect: up to one insect spy/4 levels
 :::
-
-**Sources:** Ultimate Wilderness pg 14
 
 > _[Gathlains](ref/race/gathlain) have access to the following spell._
 

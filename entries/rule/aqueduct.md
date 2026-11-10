@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqueduct", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 210
 
 An Aqueduct brings water from alpine lakes and rivers to lowland cities where water is scarce or
 insufficient for the local populace. A finished series of Aqueduct hexes must connect to a hill or

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_salikotal", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ while in one hand it clutches the twisted, dagger-like horn of some infernal ter
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#26: The Sixfold Trial pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

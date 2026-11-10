@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "candle_of_abaddon", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "196"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "40"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Sources:** Book of the Damned pg 196, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-40\
 **Aura** strong necromancy \[evil\]; **CL** 13th\
 **Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
 

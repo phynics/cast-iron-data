@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Alchemy", "bombs", "extracts", "mutagen", "Throw Anything", "Swift alchemy", "swift poisoning", "instant alchemy"]
 +++
 
-**Sources:** Ultimate Intrigue pg 19\
 Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of
 living forms.
 

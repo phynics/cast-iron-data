@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivorous_jar", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "75"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 75\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** none; **Weight** 10 lbs.
 

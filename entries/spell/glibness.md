@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glibness", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "290"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 290
 
 Your speech becomes fluent and more believable, causing those who hear you to believe every word you
 say. You gain a +20 bonus on Bluff checks made to convince another of the truth of your words. This

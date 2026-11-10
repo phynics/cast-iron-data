@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_agent", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "53"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ a fine rapier at his side._
 
 **Challenge rating:** 4
 
-**Sources:** Magnimar, City of Monuments pg 53\
 **XP** 1,200\
 Male human [bard](ref/class/bard) 5\
 LE Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plane_of_air", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "6"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Plane of Air Domain
-
-**Sources:** Planes of Power pg 6
 
 **Granted Powers:** You draw your power from the
 [boundless expanse of air and clouds](ref/rule/plane-of-air).

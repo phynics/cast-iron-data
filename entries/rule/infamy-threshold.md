@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infamy_threshold", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "64"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 64\
 The following benefits are available to groups that achieve the listed amount of Infamy.
 
 **Disgraceful (10+ Infamy):**

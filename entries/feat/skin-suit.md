@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_suit", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day as a full-round action, you can cloak your body in a thi
 +++
 
 ## Skin Suit (Monster)
-
-**Sources:** Horror Adventures pg 93
 
 During the daylight hours, you can cloak your unnatural form beneath a veil of flesh and blood.\
 **Prerequisites:** Int 7, undead creature that was originally humanoid.\

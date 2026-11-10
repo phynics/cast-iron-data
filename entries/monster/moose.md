@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moose", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ ungulate._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Animal Archive pg 28\
 **Experience points:** 800
 
 **Armor class:** 14/11/12

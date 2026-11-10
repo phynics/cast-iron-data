@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peluda", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "212"
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ quills._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 212, Pathfinder \#33: The Varnhold Vanishing pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 24/10/23

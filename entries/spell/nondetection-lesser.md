@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/nondetection" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Magic Tactics Toolbox pg 25
 
 This spell functions like [nondetection](ref/spell/nondetection), except it blocks the effects of
 only divination spells and effects that target an area, rather than you or an object in your

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["The cavalier's normal armor proficiencies", "Tactician", "banner", "greater banner", "Bonus feats gained at 6th, 12th, and 18th levels", "Greater tactician", "Master tactician"]
 +++
 
-**Sources:** Ultimate Intrigue pg 25\
 Agile and maneuverable cavalry, hussars make up for their relatively light armor with their speed
 and cunning. They are known for doggedly pursuing their foes even in tight spaces, across rooftops,
 and in other places that mounted cavalry could normally never reach.

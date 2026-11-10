@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_violence", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 11
 
 You order a team to capture, intimidate, or slay a target team or creature with a CR at least 3 less
 than your character level. With a successful Labor check against a DC of 11 + double the target's CR

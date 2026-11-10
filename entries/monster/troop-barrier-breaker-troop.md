@@ -6,6 +6,9 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_barrier_breaker_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This wretched collection of undead have tight leathery skin, sunken eyes, and e
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#141: Last Watch pg 90\
 **Subtype:** Troop
 
 **Type:** undead

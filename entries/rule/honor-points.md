@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honor_points", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 160
 
 Honor is represented by points on a scale from 0 to 100. A score of 0 represents a person who is
 seen as completely untrustworthy, willing to sacrifice anything and anyone for even a momentary

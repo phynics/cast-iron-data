@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_stone_colossus_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ _This immense stone figure appears to be a keep that uprooted itself and went fo
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 37\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 204,800

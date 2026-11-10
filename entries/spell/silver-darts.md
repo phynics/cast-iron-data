@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_darts", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Subschool: Creation
 :::
-
-**Sources:** Advanced Class Guide pg 192
 
 A cone of silver darts springs from your hand. These darts act as a silver weapon that deals 1d6
 points of piercing damage per caster level (maximum 10d6). Any creature with an armor bonus greater

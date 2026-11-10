@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gentle_breeze", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: one creature or object
 Descriptors: air
 :::
-
-**Sources:** Advanced Class Guide pg 183
 
 You create a light wind that blows only against the target, from a direction of your choice. The
 breeze grants the target a +2 circumstance bonus on saves against very hot conditions, severe heat,

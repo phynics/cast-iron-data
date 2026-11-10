@@ -6,6 +6,9 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osa_painting", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and divination"
 caster_level = "15th"
 +++
 
-**Sources:** Horror Realms pg 41\
 **Aura** strong conjuration and divination; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

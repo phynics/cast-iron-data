@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_thrust", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (object) (see text)
 Target: see text
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 239
 
 You produce a sweeping rush of sound that can hurl creatures or objects away from you, like the
 violent thrust version of telekinesis. You can hurl one object or creature per caster level (maximum

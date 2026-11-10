@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "blood-of-an
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aasimar", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "238"
+[[sources]]
+publication = "bestiary"
+page = "7"
+[[sources]]
+publication = "advanced-race-guide"
+page = "84"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 238, Pathfinder RPG Bestiary pg 7, Advanced Race Guide pg 84\
 Aasimars are humans with a significant amount of celestial or other good outsider blood in their
 ancestry. While not always benevolent, aasimars are more inclined toward acts of kindness rather
 than evil, and they gravitate toward faiths or organizations associated with celestials. Aasimar

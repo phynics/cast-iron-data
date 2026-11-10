@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/audiovisual-hallucination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: mind-affecting
 :::
 
 ### Scripted Hallucination
-
-**Sources:** Ultimate Intrigue pg 224
 
 This spell functions as [audiovisual hallucination](ref/spell/audiovisual-hallucination), except
 that the phantasm includes visual, auditory, olfactory, tactile, and thermal components, and the

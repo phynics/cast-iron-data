@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_puzzles", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "249"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 249
 
 Noted here are three classic types of fantasy riddles. If you're looking for more riddles, a simple
 online search for fantasy puzzles and riddles can reveal hundreds more.

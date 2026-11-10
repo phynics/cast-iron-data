@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Inspire greatness", "Inspire heroics", "Well-versed", "Versatile pe
 alters = ["Bardic knowledge"]
 +++
 
-**Sources:** Planar Adventures pg 11\
 In eons past, the angel Tabris was tasked with cataloging all knowledge of the Great Beyond, only to
 eventually be cast from Heaven for penning the
 [Book of the Damned](ref/magic-artifact/book-of-the-damned), the perfect catalog of all planar evil.

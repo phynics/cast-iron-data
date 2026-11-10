@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changing_alignment", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "69"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 69
 
 While alignment is often a static trait, options and effects exist that might cause it to change,
 and players might seek to change their PCs' alignments for a variety of reasons.

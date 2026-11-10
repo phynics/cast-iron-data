@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mind-thrust-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mind Thrust IV
-
-**Sources:** Occult Adventures pg 177
 
 This functions as [mind thrust I](ref/spell/mind-thrust-1), but the target takes 1d8 points of
 damage per caster level (maximum 15d8) and is fatigued for 1 round if it fails its save. This spell

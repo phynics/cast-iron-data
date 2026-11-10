@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "72"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 72
 
 Becoming a spiritualist is not a calling: it's a phenomenon. When a creature dies, its spirit flees
 its body and begins the next stage of its existence. Debilitating emotional attachments during life

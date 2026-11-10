@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pepperbox_rifle", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "140"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "15 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 140
 
 The four barrels of this rifle are set into a turnable housing that can be quickly rotated by hand
 (a free action) between shots. A pepperbox rifle uses

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angels", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 104
 
 All angels have numerous immunities and damage resistances, allowing them to travel across many
 planes of the multiverse without fear of damage. Interestingly, they can still take damage from

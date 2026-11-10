@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ninja" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "38"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Ability to treat Acrobatics jump checks as if he had a running star
 alters = ["Ki pool"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 38\
 Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated to the Lands of the
 Linnorm Kings decades ago. Most members are Tian, Ulfen, and Varki humans, and they work as thieves,
 power brokers, and spies loosely guided by secretive masters with unknown agendas.

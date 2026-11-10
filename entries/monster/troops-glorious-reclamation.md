@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_glorious_reclamation", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ swords and armor are polished to a mirror-bright sheen._
 
 **Perception:** +27
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 90\
 **Subtype:** Human, Troop
 
 **Experience points:** 38,400

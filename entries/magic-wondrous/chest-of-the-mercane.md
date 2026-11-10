@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chest_of_the_mercane", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Lost Treasures pg 12\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 30,000 gp; **Weight** 250 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_strike", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Spell resistance: no
 Target: you
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Wilderness pg 237, Melee Tactics Toolbox pg 31
 
 Bristles burst from your body, lodging in your opponent and blossoming into entangling vines as you
 pummel your target. While this spell is in effect, one of your natural attacks or unarmed strikes

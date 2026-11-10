@@ -6,13 +6,14 @@ source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_armor", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "dungeon-denizens-revisited"
+page = "7"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Dungeon Denizens Revisited pg 7
 
 Dwarves have long treasured [bulettes](ref/monster/bulette) for their thick hides and armor plating.
 In fact, some dwarf clans require their young to travel on long pilgrimages to areas thick with land

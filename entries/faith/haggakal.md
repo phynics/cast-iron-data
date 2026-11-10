@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haggakal", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Haggakal**
 
 **Sub:** Father Moon
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Challenge", "Cavalier's charge", "Mighty charge", "Demanding challenge", "Supreme charge"]
 +++
 
-**Sources:** Ultimate Combat pg 38\
 Those who study the perfection of strategy and tactics know that picking the battlefield can grant
 advantages that only overwhelming numbers of allies can eclipse. The luring cavalier is a special
 type of cavalier that helps accomplish that goal. Typically, he uses a bow or other ranged weapon to

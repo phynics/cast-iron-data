@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_components", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 174
 
 This section lists conventional and commonly known talismanic components. GMs should invent many
 other strange and mythical components such as "the first scent of the day" or "the sound of a cat's

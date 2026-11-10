@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_map", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** The First World, Realm of the Fey pg 13\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 16,200 gp; **Weight** -
 

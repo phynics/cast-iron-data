@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/mocking-dance", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "127"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 127\
 When using this feat, you can spend 5 stamina points to move up to half your speed (instead of only
 5 feet) without provoking attacks of opportunity.

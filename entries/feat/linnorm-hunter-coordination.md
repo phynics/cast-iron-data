@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_hunter_coordination", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Animal companions with an Intelligence score of 1 or 2 can take this 
 +++
 
 ## Linnorm Hunter Coordination (Combat, Teamwork)
-
-**Sources:** Martial Arts Handbook pg 14
 
 You are adept at working with your animal companion to strike the same location and deal increased
 damage.\

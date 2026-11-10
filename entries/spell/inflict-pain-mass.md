@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/inflict-pain" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -54,7 +57,5 @@ Spell resistance: yes
 Target: one creature/level, no two of which can be more than 30 ft. apart.
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Occult Adventures pg 174
 
 This spell functions like [inflict pain](ref/spell/inflict-pain) except as noted above.

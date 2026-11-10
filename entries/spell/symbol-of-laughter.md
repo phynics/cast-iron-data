@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Effect: one symbol
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 196
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within 60 feet are affected with uncontrollable laughter (as

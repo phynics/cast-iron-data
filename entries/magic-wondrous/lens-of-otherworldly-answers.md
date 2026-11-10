@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lens_of_otherworldly_answers", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Planar Adventures pg 54\
 **Aura** strong divination; **CL** 13th\
 **Slot** none; **Price** 1,150 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "measure_foe", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt a Sense Motive check as a free action to deduce a foe
 +++
 
 ## Measure Foe (Combat)
-
-**Sources:** Ultimate Intrigue pg 86
 
 You can read a foe's martial skill from its body language.\
 **Prerequisites:** [Street Smarts](ref/feat/street-smarts), base attack bonus +1.\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_procyal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ darting eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#99: Dance of the Damned pg 84\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 4,800

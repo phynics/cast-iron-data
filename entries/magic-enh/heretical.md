@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretical", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Quests and Campaigns pg 30\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

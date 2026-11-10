@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thundering_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "172"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell to deafen a creature damaged by the spell. Whe
 +++
 
 ## Thundering Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 172
 
 You can conjure your spells into existence with blaring thunder or fearful shrieks, deafening
 creatures damaged by their effects.\

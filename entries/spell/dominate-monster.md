@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dominate-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "274"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 274
 
 This spell functions like [dominate person](ref/spell/dominate-person), except that the spell is not
 restricted by creature type.

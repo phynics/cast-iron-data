@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualism", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "52"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 52
 
 Not all who seek to pierce the veil of death are foul necromancers. Instead, there are those who
 proceed with respect and caution. The practice of attempting to establish such benign communication

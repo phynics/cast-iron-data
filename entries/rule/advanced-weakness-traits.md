@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_weakness_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 237
 
 **Elemental Vulnerability (-2 RP):** **Prerequisite:** Outsider (native) with ties to an elemental
 plane; **Weakness:** Pick one of the following energy types: acid, cold, electricity, or fire.

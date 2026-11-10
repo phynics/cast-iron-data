@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Etheric tether", "phantom", "shared consciousness", "fused consciousness", "spiritual bond", "empowered consciousness", "Bonded manifestation", "phantom recall", "dual bond", "Spiritual interference", "greater spiritual interference"]
 +++
 
-**Sources:** Occult Adventures pg 108\
 Instead of calling upon a phantom from the Ethereal Plane, an ectoplasmatist infuses herself with
 the mysterious substance called ectoplasm.
 

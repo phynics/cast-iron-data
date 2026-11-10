@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_resistance_5", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "264"
+[[sources]]
+publication = "core-rulebook"
+page = "507"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "5th"
 
 ## Cloak of Resistance
 
-**Sources:** Ultimate Equipment pg 264, PRPG Core Rulebook pg 507\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** shoulders; **Price** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp
 (+5); **Weight** 1 lb.

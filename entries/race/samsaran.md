@@ -6,13 +6,26 @@ source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-em
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samsaran", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "247"
+[[sources]]
+publication = "bestiary-4"
+page = "230"
+[[sources]]
+publication = "advanced-race-guide"
+page = "198"
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "11"
+[[sources]]
+publication = "dragon-empires-primer"
+page = "5"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 247, Bestiary 4 pg 230, Advanced Race Guide pg 198, Dragon Empires
-Gazetteer pg 11, Dragon Empires Primer pg 5\
 Mysterious humanoids with pale blue flesh and transparent blood like the waters of a trickling
 brook, samsarans are ancient creatures even in their youth. A samsaran's life is not a linear
 progression from birth to death, but rather a circle of birth to death to rebirth. Whenever a

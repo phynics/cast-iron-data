@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_danger", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 56
 
 **Reduce Danger** **(Defenders, Guardians, Infiltrators, or Specialists):** With a successful DC 15
 Security check, the team attacks a secured settlement with hit-and-run tactics, temporarily

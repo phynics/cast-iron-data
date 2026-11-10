@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_shaggy_demodand", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "69"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ two immense bat wings._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Bestiary 3 pg 69\
 **Subtype:** Chaotic, Demodand, Evil, Extraplanar
 
 **Experience points:** 153,600

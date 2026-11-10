@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidate", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "60"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 60
 
 You can force an opponent to act friendly toward you for 1d6 × 10 minutes with a successful
 Influence check. The DC of this check is equal to 10 + the target's Hit Dice + the target's Wisdom

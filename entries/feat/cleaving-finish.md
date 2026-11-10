@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleaving_finish", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you make a melee attack, and your target drops to 0 or fewer hit p
 +++
 
 ## Cleaving Finish (Combat)
-
-**Sources:** Ultimate Combat pg 92
 
 When you strike down an opponent, you can continue your swing into another target.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack).\

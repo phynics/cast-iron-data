@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "134"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Utility shot deed", "Targeting deed", "Bonus feats the gunslinger g
 alters = ["Grit", "Deeds"]
 +++
 
-**Sources:** Advanced Race Guide pg 134\
 The bushwhacker specializes in the art of the ambush. For her, gunplay works best when it comes from
 a concealed position and is directed against a target that falls with the very first volley and is
 dead before the smoke clears. A bushwhacker has the following class features.

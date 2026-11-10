@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot charge or run through difficult terrain, and you cannot cha
 +++
 
 ## Dragon Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 98
 
 You call upon the spirit of dragonkind, gaining greater resilience, mobility, and fierceness from
 the blessing of these great beings.\

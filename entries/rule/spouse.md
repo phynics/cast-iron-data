@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spouse", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 179
 
 Romantic entanglements can be the stuff of roleplaying dreams. They add drama, tension, and
 excitement, and can raise the campaign stakes to unprecedented levels. Perhaps the most important

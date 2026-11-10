@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "into_the_great_beyond", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 221
 
 GMs who explore the Power and Price of Knowledge and Unseen Realms elements will eventually reveal
 the presence of parallel realities to this Material Plane. Rather than venturing outward to distant

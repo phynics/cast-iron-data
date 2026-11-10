@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zoog", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "288"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tendrils extending from a mole-like nose._
 
 **Senses:** Darkvision 60 ft., Detect magic, Low-light vision, Scent, Spell sight
 
-**Sources:** Bestiary 3 pg 288\
 **Size:** tiny
 
 **Experience points:** 400

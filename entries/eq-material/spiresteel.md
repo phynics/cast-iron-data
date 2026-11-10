@@ -6,13 +6,14 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiresteel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "64"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 64
 
 Philosophers speculate that the Spire upon which the Boneyard rests is composed of a condensed form
 of pure quintessence, but those brave enough to acquire some the substance report that ore mined

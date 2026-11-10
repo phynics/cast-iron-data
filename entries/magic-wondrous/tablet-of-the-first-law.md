@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tablet_of_the_first_law", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Combat pg 63\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.
 

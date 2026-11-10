@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diminish_plants", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "270"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target or Area: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 270
 
 This spell has two versions.
 

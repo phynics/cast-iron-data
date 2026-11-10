@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breathless_orchid", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ elegantly toward the sky._
 
 **Type:** plant
 
-**Sources:** Gallows of Madness pg 58\
 **Experience points:** 600
 
 **Armor class:** 13/13/10

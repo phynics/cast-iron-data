@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sigils_of_the_great_cataclysm", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment, evocation, necromancy, and transmutation [evil]"
 caster_level = "18th"
 +++
 
-**Sources:** Villain Codex pg 213\
 **Aura** strong enchantment, evocation, necromancy, and transmutation \[evil\]; **CL** 18th\
 **Slot** none; **Price** -; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_level_play_1_6", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 154
 
 At early levels, the number of spells available is smaller, but these are sometimes the most
 important spells to understand. Low-level spells of intrigue (typically 3rd level or lower) can

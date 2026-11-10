@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_extremities", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "237"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Spell resistance: yes
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Inner Sea Gods pg 237, Faiths of Corruption pg 28
 
 You change one of the extremities of the creature touched-arms or legs only-into another shape of
 approximately the same size and mass. You can choose a tentacle, a hoof, or a wing. The subject must

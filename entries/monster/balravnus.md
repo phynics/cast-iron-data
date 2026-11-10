@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balravnus", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ helm made of greasy green metal._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Demons Revisited pg 26\
 **Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 153,600

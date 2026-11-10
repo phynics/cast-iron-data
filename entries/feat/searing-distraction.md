@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_distraction", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make an attack using a light source such as a sunrod or torc
 +++
 
 ## Searing Distraction (Combat)
-
-**Sources:** Heroes of the Darklands pg 5
 
 You harry your foes with the light and heat of your weapon.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard).\

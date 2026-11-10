@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "94"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Gunsmith", "Deadeye", "Quick clear", "Utility shot", "Startling sho
 alters = ["Weapon proficiencies", "Grit"]
 +++
 
-**Sources:** Advanced Class Guide pg 94\
 While gunslingers are full of sound and fury, there is a class of gunslingers that never soil their
 hands with powder or feel the sting of gun smoke. They commit their deeds in a more hushed manner,
 but with just as much flair.

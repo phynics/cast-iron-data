@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_undead", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates; see text
 Spell resistance: yes
 Targets: one undead creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 257
 
 This spell allows you a degree of control over an undead creature. If the subject is intelligent, it
 perceives your words and actions favorably (treat its attitude as friendly). It will not attack you

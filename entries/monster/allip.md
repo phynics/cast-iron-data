@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allip", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "12"
+[[sources]]
+publication = "bonus-bestiary"
+page = "4"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ creature's claws manifest from the darkness._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 12, Bonus Bestiary pg 4\
 **Subtype:** Incorporeal
 
 **Type:** undead

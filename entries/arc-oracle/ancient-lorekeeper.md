@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "Bonus spells gained from the oracle's mystery"]
 +++
 
-**Sources:** Advanced Race Guide pg 24\
 The ancient lorekeeper is a repository for all the beliefs and vast knowledge of an
 [elven](ref/race/elf) people. She shows a strong interest in and understanding of histories and
 creation legends at a young age, and as she matures her calling to serve as the memory of her

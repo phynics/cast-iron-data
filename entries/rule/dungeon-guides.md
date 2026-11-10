@@ -6,12 +6,13 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_guides", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Dungeoneer's Handbook pg 14
 
 Vast dungeons, megalithic towers, and submerged tombs are the focus of generations of scholarship
 and research. Any number of books have been written about these forsaken places - most, it must be

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_turn_sequence", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 205
 
 A kingdom's growth occurs during four phases, which together make up 1 kingdom turn (1 month of game
 time). The four phases are as follows:

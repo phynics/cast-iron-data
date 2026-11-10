@@ -6,6 +6,8 @@ source_ids = ["pathfinder-society-s03-10-the-immortal-connundrum"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_book", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-s03-10-the-immortal-connundrum"
 
 [fields]
 kind = "spell"
@@ -40,8 +42,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one book touched
 :::
-
-**Sources:** Pathfinder Society S03-10 The Immortal Connundrum
 
 This spell allows you to copy the contents of one book, folio, scroll, or other text to a blank one
 of suffient size. In doing so, the original pages are wiped blank, though any covers or bindings

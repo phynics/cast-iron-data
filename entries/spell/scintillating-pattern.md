@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scintillating_pattern", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "336"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: colorful lights in a 20-ft.-radius spread
 Subschool: Pattern
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 336
 
 A twisting pattern of coruscating colors weaves through the air, affecting creatures within. The
 spell affects a total number of HD of creatures equal to your caster level (maximum 20). Creatures

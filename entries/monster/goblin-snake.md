@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_snake", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "132"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ greasy-scaled snake._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 132, Pathfinder \#1: Burnt Offerings pg 88\
 **Experience points:** 400
 
 **Armor class:** 14/13/12

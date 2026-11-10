@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nycar", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "207"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ fangs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 207\
 **Subtype:** Aquatic
 
 **Size:** tiny

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erages_journeymans_manual", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "5"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _This book is bound in glittering silver bark, and its title is printed in golden calligraphy in
 both Elven and Common._
-
-**Sources:** Arcane Anthology pg 5
 
 **Value** 575 gp (1,100 gp with the preparation ritual)
 

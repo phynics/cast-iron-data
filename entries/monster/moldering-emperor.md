@@ -6,6 +6,12 @@ source_ids = ["pathfinder-18-descent-into-midnight", "bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moldering_emperor", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "82"
+[[sources]]
+publication = "bestiary"
+page = "214"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ experimentation with the black blood has perverted the beast into a terrible new
 
 **Senses:** Trace teleport 60 ft.
 
-**Sources:** Pathfinder \#18: Descent into Midnight pg 82, Pathfinder RPG Bestiary pg 214\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

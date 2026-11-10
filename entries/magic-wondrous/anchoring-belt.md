@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anchoring_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "147"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 147\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** belt; **Price** 60,000 gp; **Weight** 10 lbs.
 

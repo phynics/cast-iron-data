@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_piscodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and writhing tentacles._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Bestiary 2 pg 72\
 **Subtype:** Aquatic, Daemon, Evil, Extraplanar
 
 **Experience points:** 9,600

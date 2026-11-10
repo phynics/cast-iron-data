@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_unlocks", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 82
 
 Skill unlocks give characters new abilities and ways to use their skills upon reaching 5, 10, 15,
 and 20 ranks in a skill. Any character with the [Signature Skill](ref/feat/signature-skill) feat can

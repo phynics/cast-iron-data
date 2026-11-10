@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "5"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Mount", "Cavalier's charge", "Expert trainer", "Mighty charge"]
 +++
 
-**Sources:** Inner Sea Monster Codex pg 5\
 No warrior better epitomizes the centaur's devastating martial power than the charger. Born to the
 swiftest and most powerful of their kind, these natural cavaliers can achieve unparalleled feats of
 equestrian combat. Chargers rush headlong into the heart of any conflict to swiftly close on and

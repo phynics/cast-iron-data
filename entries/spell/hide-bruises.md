@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_bruises", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Villain Codex pg 20
 
 The target's wounds to seem to disappear. A creature attempting a Heal check to tell the severity of
 the target's injuries takes a -10 penalty on that check. A creature that physically touches the

@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "additional_factors", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "125"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 125
 
 Some factors can affect both the rate and effectiveness of exploration, as detailed below.
 

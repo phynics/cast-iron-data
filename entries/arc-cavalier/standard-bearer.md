@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "39"
+[[sources]]
+publication = "chronicle-of-legends"
+page = "4"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Banner", "Mighty charge", "Supreme charge"]
 +++
 
-**Sources:** Ultimate Combat pg 39, Chronicle of Legends pg 4\
 Not all cavaliers are content to ride at the head of a charge, leading from the front and facing
 down their enemies directly. Some prefer to stand away from the fray, their banners a beacon shining
 brightly over the battlefield, rallying their troops to victory. The standard bearer employs the

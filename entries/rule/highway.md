@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "highway", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 210
 
 A highway is a paved and well-maintained version of a Road. You may upgrade a Road into a Highway.
 You must have a kingdom of Size 26 or greater to build a Highway.

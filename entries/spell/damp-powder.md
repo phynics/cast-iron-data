@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damp_powder", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 loaded firearm
 :::
-
-**Sources:** Ultimate Combat pg 226
 
 This spell causes ammunition already loaded into the target firearm is ruined with moisture. Any
 attempt to fire that ammunition fails, with no chance for misfire, and the user must then take a

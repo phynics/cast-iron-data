@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "31"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Ultimate Combat pg 31\
 Rages are barely controlled, but there are those who wholly give in to their more savage side,
 letting their rages take them to a confusing and uncontrolled place of terrible savagery. These
 barbarians become beasts, consumed with absolute bloodlust to the point where they cannot tell

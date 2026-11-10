@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worg", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This unusually large wolf has an evil, almost intelligent light shining in its 
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 280\
 **Experience points:** 600
 
 **Armor class:** 14/12/12

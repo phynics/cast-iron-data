@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_invisibility", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "171"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 171, PRPG Core Rulebook pg 479\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** ring; **Price** 20,000 gp; **Weight** -
 

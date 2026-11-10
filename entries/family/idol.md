@@ -6,12 +6,12 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#27: What Lies in Dust
 
 The trappings of strange cultures and jealous mystics, isolated natives and sinister beliefs, idols
 symbolize the might of enigmatic and often bloody faiths. As the focus of cultish tribes and

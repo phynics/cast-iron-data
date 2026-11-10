@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "portunus_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ its head independently._
 
 **Senses:** Arcane sight, Darkvision 60 ft., Mistsight
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 90\
 **Subtype:** Elemental, Extraplanar, Mythic, Water
 
 **Experience points:** 76,800

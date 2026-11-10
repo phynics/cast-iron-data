@@ -6,13 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whimsey", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "17"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Heroes from the Fringe pg 17\
 Phantoms with this emotional focus carry a simplistic, childlike wonder and are fond of games and
 playing tricks. Whimsical phantoms are often the ghosts of [gnomes](ref/race/gnome); in the case of
 bleachling spiritualists, the phantom may even be a psychic vestige of the bleachling's own lost

@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "237"
+[[sources]]
+publication = "core-rulebook"
+page = "23"
+[[sources]]
+publication = "advanced-race-guide"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 237, PRPG Core Rulebook pg 23, Advanced Race Guide pg 30\
 Gnomes are distant relatives of the fey, and their history tells of a time when they lived in the
 fey's mysterious realm, a place where colors are brighter, the wildlands wilder, and emotions more
 primal. Unknown forces drove the ancient gnomes from that realm long ago, forcing them to seek

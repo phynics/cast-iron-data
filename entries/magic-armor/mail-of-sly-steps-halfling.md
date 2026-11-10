@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mail_of_sly_steps_halfling", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Inner Sea Races pg 225\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** armor; **Price** 25,900 gp; **Weight** 5 lbs.
 

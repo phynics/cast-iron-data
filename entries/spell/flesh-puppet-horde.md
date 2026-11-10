@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/flesh-puppet" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "117"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: evil
 :::
 
 ### Flesh Puppet Horde
-
-**Sources:** Horror Adventures pg 117
 
 This spell functions as [flesh puppet](ref/spell/flesh-puppet), but can animate multiple zombies. As
 noted in animate dead, you can't control more than 4 HD per caster level worth of undead in total,

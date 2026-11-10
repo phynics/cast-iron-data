@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/contagion", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 89
 
 The affected target is highly contagious. Any creature it touches or that touches it with natural
 weapons or unarmed strikes must save or contract the disease. The save DC for these targets is equal

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bully_breed", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Your animal companion or mount gains Intimidate as a class skill. It 
 normal = "Animal companions and mounts with an Intelligence score of 2 or less must select feats from a limited list."
 special = "Your animal companion can select the Dazzling Display and Shatter Defenses feats if it meets the prerequisites. This feat does not allow your animal companion to use Intimidate to make a target friendly or gain their assistance."
 +++
-
-**Sources:** Horror Adventures pg 83
 
 Your animal companion can terrify as well as fight.\
 **Prerequisites:** Handle Animal 4 ranks, Intimidate 4 ranks, animal companion or mount class

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_marut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "166"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ revealing flesh of black stone._
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Bestiary 2 pg 166\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 51,200

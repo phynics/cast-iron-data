@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "labyrinthine_wilds", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "238"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 238\
 **School** illusion (glamer); **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (the bones of local wildlife carved into divining runes and daubed in

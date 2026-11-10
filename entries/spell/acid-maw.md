@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_maw", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: your animal companion
 Descriptors: acid
 :::
-
-**Sources:** Advanced Class Origins pg 30
 
 Your animal companion's bite attack deals an additional 1d4 points of acid damage, and the acid
 deals another 1d4 points of acid damage to the target on the next round. The acid continues to deal

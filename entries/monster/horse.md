@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "177"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ loose-fitting barding._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 177\
 **Experience points:** 400
 
 **Armor class:** 11/11/9

@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphere_of_warding", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Effect: 10-ft.-radius sphere emanating from point touched
 :::
-
-**Sources:** Undead Slayer's Handbook pg 19
 
 You create a luminescent sphere of orbiting energy that harms incorporeal creatures and dispossesses
 them of any stolen bodies. An incorporeal creature must succeed at a Will save to enter a space

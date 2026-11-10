@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_4_size", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "290"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 290
 
 Now that you have the creature's average statistics, it's time to pick its size. Most creatures
 range in size from Small to Huge, but other sizes are not uncommon. A creature's size sets a

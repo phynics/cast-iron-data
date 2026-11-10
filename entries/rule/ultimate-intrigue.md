@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ultimate_intrigue", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 101
 
 In a campaign that fully embraces all the diverse elements of intrigue, all of the previous themes
 come together. On the one side, there are scheming nobles seeking to gain advantage, and on the

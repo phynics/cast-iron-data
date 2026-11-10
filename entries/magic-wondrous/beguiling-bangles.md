@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beguiling_bangles", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Faction Guide pg 58\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** neck; **Price** 11,000 gp; **Weight** -
 

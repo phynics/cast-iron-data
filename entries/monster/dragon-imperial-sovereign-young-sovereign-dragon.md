@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sovereign_young_sovereign_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "100"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ crown._
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 3 pg 100\
 **Experience points:** 12,800
 
 **Armor class:** 23/10/22

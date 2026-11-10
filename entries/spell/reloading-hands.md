@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reloading_hands", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: projectile weapon touched
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Combat pg 242
 
 Once per round, phantom hands load a single ranged weapon or firearm with conjured ammunition. This
 ammunition counts as magical for overcoming [damage reduction](ref/rule/damage-reduction) and

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amateur_gunslinger", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you gain levels in a class that grants the grit class feature, you
 +++
 
 ## Amateur Gunslinger (Combat)
-
-**Sources:** Ultimate Combat pg 89
 
 Although you are not a gunslinger, you have and can use grit.\
 **Prerequisites:** You have no levels in a class that has the grit class feature.\

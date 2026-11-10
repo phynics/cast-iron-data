@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evasion", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 A character with evasion can avoid damage from many area-effect attacks. If they succeed at a Reflex
 saving throw against an attack that normally deals half damage on a successful save, they instead
 take no damage. Evasion can be used only if a character is wearing light armor or no armor. A

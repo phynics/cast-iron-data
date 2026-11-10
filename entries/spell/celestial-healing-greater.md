@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/celestial-healing" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: creature touched
 Subschool: Healing
 Descriptors: good
 :::
-
-**Sources:** Arcane Anthology pg 13
 
 As per [celestial healing](ref/spell/celestial-healing), except the target gains
 [fast healing](ref/umr/fast-healing) 4 and the target radiates the aura of a good cleric.

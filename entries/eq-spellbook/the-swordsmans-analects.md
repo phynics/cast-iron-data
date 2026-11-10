@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_swordsmans_analects", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "6"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ category = "Spellbooks"
 ### Level 3 Universalist
 
 _This book's worn leather cover is emblazoned with a winged sword with an eye at its hilt._
-
-**Sources:** Arcane Anthology pg 6
 
 **Value** 250 gp (400 gp with the preparation ritual)
 

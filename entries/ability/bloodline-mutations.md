@@ -6,12 +6,13 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodline_mutations", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Magic Tactics Toolbox pg 10
 
 Although heirs to similar arcane bloodlines may share commonalities, the unique circumstances in
 which a bloodline enters a [bloodrager](ref/class/bloodrager) or sorcerer's lineage can result in

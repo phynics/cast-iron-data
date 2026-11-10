@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon proficiencies", "Trapfinding", "Trap sense", "rogue talent g
 alters = ["Sneak attack"]
 +++
 
-**Sources:** People of the Wastes pg 13\
 Alkenstar protects the secrets of gunpowder and controls the sale of firearms, creating lucrative
 opportunities for those who can sneak the technology beyond the Mana Wastes. Gun smugglers are adept
 at procuring firearms and concealing their secret weapons.

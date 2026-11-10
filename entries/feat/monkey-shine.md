@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_shine", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot enter an opponent's space."
 +++
 
 ## Monkey Shine (Combat)
-
-**Sources:** Ultimate Combat pg 110
 
 You combine acrobatics and opportunity to devastating effect against your opponent.\
 **Prerequisites:** Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

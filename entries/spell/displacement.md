@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "displacement", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 The subject of this spell appears to be about 2 feet away from its true location. The creature
 benefits from a 50% miss chance as if it had [total concealment](ref/rule/concealment). Unlike

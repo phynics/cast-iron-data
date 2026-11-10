@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlements_8", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 208
 
 NG thorp\
 **Corruption** -4; **Crime** -4; **Economy** -4; **Law** -6; **Lore** -5; **Society** 1\

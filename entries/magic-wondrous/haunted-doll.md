@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_doll", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "265"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate divination and necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Occult Adventures pg 265\
 **Aura** moderate divination and necromancy; **CL** 11th\
 **Slot** none; **Weight** 1 lb.
 

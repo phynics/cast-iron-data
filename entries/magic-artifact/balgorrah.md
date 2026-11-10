@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balgorrah", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 13\
 **Aura** strong necromancy; **CL** 17th\
 **Slot** weapon; **Price** -; **Weight** 2 lbs.
 

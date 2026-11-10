@@ -6,6 +6,12 @@ source_ids = ["pathfinder-society-field-guide", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterproof_lantern_miners", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "47"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "2 lbs."
 
 ## Miner's lantern
 
-**Sources:** Pathfinder Society Field Guide pg 47, Adventurer's Armory pg 19\
 **Price** 15 gp (normal), 20 gp (waterproof); **Weight** 2 lbs.\
 **Category** Adventuring Gear
 

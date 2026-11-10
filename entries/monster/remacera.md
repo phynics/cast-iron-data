@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remacera", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This enormous, fleshy green caterpillar has the face of a serene human woman._
 
 **Senses:** Low-light vision
 
-**Sources:** The First World, Realm of the Fey pg 63\
 **Experience points:** 2,400
 
 **Armor class:** 18/11/15

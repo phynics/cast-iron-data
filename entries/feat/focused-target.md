@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_target", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you study a target, you can reduce the number of additional targ
 +++
 
 ## Focused Target (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 5
 
 You pour your entire focus into slaying your chosen target.\
 **Prerequisites:** Studied target class feature (second studied target).\

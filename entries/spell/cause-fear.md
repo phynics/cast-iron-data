@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cause_fear", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Spell resistance: yes
 Target: one living creature with 5 or fewer HD
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 252
 
 The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1
 round. Creatures with 6 or more HD are immune to this effect. Cause fear counters and dispels

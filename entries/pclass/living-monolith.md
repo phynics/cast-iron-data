@@ -6,14 +6,18 @@ source_ids = ["people-of-the-sands", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_monolith", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "25"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** People of the Sands pg 25, Osirion, Land of the Pharaohs pg 22
 
 The lands of Osirion, Rahadoum, and Thuvia - all once part of the realm of Ancient Osirion - are
 rife with aged ruins guarded by stony sentinels from bygone days, whose implacable gaze can still

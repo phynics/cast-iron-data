@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gathering_a_group", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 64
 
 There's an important step between creating characters and having that first adventure: forming an
 adventuring party. Unless your players have discussed connections between their characters in

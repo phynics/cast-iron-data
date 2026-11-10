@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_reference", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 61\
 The following terms feature prominently in the plunder and Infamy subsystems, and are called out for
 ease of reference.
 

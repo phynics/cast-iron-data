@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvesting_trophies", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 162
 
 When a monster is defeated in combat, the process of identifying what portions of the creature can
 serve as a trophy and harvesting the trophy are somewhat abstracted; there's no need to track the

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fuming_blood_sabre", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "255"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and illusion"
 caster_level = "12th"
 +++
 
-**Sources:** Inner Sea Gods pg 255\
 **Aura** strong evocation and illusion; **CL** 12th\
 **Slot** none; **Price** 11,035 gp; **Weight** 2 lbs.
 

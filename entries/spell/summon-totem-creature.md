@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-natures-ally-3" },
 ]
+[[sources]]
+publication = "humans-of-golarion"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Effect: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** Humans of Golarion pg 29
 
 The Shoanti revere more than the deities of distant planes, but also the animals and natural forces
 of the rugged lands they call home. Shoanti spellcasters have learned ways to call upon the might of

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleportation_circle", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "359"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: 5-ft.-radius circle that teleports those who activate it
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 359
 
 You create a circle on the floor or other horizontal surface that teleports, as
 [greater teleport](ref/spell/teleport-greater), any creature who stands on it to a designated spot.

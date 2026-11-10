@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burdensome_treasure", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 111
 
 The difficulty of moving treasure out of a dungeon and back to home base might in itself inspire
 scenes of challenging adventure. Large or unwieldy furnishings, antiquities, or art objects may

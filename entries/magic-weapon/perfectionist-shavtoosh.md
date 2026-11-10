@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfectionist_shavtoosh", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "256"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 256\
 **Aura** faint conjuration and divination; **CL** 3rd\
 **Slot** none; **Price** 4,461 gp; **Weight** 2 lbs.
 

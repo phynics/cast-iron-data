@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manacles_of_cooperation", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "274"
+[[sources]]
+publication = "advanced-players-guide"
+page = "307"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 274, Advanced Player's Guide pg 307\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** wrists; **Price** 2,000 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gming_style_choices", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "24"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 24
 
 Before you run your first session, there are a number of decisions you need to make regarding the
 nature of your game. Is your table a serious roleplaying experience, with players staying in

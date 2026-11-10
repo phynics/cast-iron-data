@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brines_sting", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 56\
 **Aura** moderate necromancy; **CL** 8th\
 **Slot** none; **Price** 10,320 gp; **Weight** 2 lbs.
 

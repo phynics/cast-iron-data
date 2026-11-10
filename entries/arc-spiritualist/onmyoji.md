@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "111"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shared consciousness", "fused consciousness", "Spiritual interferen
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 111\
 Though most spiritualists are chosen by their phantoms, others deliberately call phantoms to them
 through years of careful preparation and study in obscure divine traditions. These spiritualists,
 known as onmyoji, form close bonds with their phantoms, as any other spiritualist does, but see the

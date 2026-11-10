@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tamers_lash", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: a whip of magical sound
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Wilderness pg 236
 
 A 15-foot-long whip of sonic energy springs from your hand, delivering a loud crack when you strike
 with it. The tamer's lash acts as a [whip](ref/eq-weapon/whip) that deals 1d4 points of sonic damage

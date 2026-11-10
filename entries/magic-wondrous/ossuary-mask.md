@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ossuary_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and divination"
 caster_level = "5th"
 +++
 
-**Sources:** Tombs of Golarion pg 43\
 **Aura** faint abjuration and divination; **CL** 5th\
 **Slot** head; **Price** 3,100 gp; **Weight** 1 lb.
 

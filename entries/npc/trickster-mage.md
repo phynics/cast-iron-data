@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickster_mage", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "165"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 165\
 **XP** 3,200\
 Gnome [sorcerer](ref/class/sorcerer) 8\
 CE Small humanoid (gnome)\

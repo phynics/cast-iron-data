@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "make_lost", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Monster Codex pg 41
 
 You strip the targets of their senses of direction and recent memories of travel. They immediately
 forget the route they took in the last hour (but not details of encounters along the way) and become

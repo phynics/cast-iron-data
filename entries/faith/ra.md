@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ra", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "71"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ra**
 
 **Sub:** King of the Heavens
-
-**Sources:** Pathfinder \#80: Empty Graves pg 71
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_limb", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Origins pg 31
 
 This spell creates a semi-visible psychic manifestation that allows a creature to replace a missing
 body part or parts. This could be as simple as a missing finger or toe or as complex as one or more

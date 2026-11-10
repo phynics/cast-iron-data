@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "187"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 187
 
 Some planes have a predisposition to a certain alignment. Most of the inhabitants of these planes
 also have the plane's particular alignment, even powerful creatures such as deities. The alignment

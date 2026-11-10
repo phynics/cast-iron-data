@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/violent-misfire" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -43,7 +46,5 @@ Spell resistance: yes (object)
 :::
 
 ### Greater Violent Misfire
-
-**Sources:** People of the Wastes pg 29
 
 This spell functions as [violent misfire](ref/spell/violent-misfire) except as noted above.

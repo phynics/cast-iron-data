@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_gnome_shroud", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain another independent use of your gnome magic like that which 
 +++
 
 ## Haunted Gnome Shroud (Combat)
-
-**Sources:** Ultimate Combat pg 104
 
 Your disturbing glamer expands to make your exact location hard to pinpoint.\
 **Prerequisites:** Cha 13, gnome magic racial trait, [Haunted Gnome](ref/feat/haunted-gnome),

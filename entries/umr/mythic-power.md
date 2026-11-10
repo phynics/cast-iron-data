@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_power", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Mythic Power (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 The mythic monster can draw upon a wellspring of power to accomplish amazing deeds and cheat fate.
 Each day, it can expend a number of uses of mythic power equal to its mythic rank. This amount is
 its maximum amount of mythic power. If an ability allows it to regain mythic power, it can never

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daring_bravo", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 80\
 **XP** 400\
 Gnome [fighter](ref/class/fighter) 2\
 CN Small humanoid (gnome)\

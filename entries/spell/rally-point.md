@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rally_point", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Area: one 5-ft. square
 Subschool: Compulsion
 Descriptors: emotion, good, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 You create a spot that has the power to briefly hearten any good creature who comes into contact
 with it. A good creature who enters this square (even if simply as part of its normal move) gains a

@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timeworn_technology", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "55"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 55\
 The technology found in the hands of Numeria's denizens isn't usually pristine. Between languishing
 in forgotten ruins open to the elements, being used by those ignorant of the nature of this
 technology, and having no one skilled at building, maintaining, or repairing such devices, most

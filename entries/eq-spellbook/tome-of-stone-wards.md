@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_stone_wards", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This heavy book is bound between a pair of thin stone tablets, its title carved in gold lettering.
 Scribed completely in the Dwarven tongue, the text contains numerous tips regarding the construction
 and upkeep of nearly every corridor, path, and tunnel in the Five Kings Mountains._
-
-**Sources:** Arcane Anthology pg 28
 
 **Value** 4,385 gp (8,385 gp with the preparation ritual)
 

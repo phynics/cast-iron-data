@@ -8,12 +8,13 @@ parent = "ref/class/sorcerer"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes4.json#sorcerer|section:sorcerer", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 70
 
 Scions of innately magical bloodlines, the chosen of deities, the spawn of monsters, pawns of fate
 and destiny, or simply flukes of fickle magic, sorcerers look within themselves for arcane prowess

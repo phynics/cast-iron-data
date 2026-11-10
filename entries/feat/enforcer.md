@@ -6,6 +6,12 @@ source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enforcer", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "159"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "Whenever you deal nonlethal damage with a melee weapon, you can make 
 +++
 
 ## Enforcer (Combat)
-
-**Sources:** Advanced Player's Guide pg 159, Pathfinder Campaign Setting pg 125
 
 You are skilled at causing fear in those you brutalize.\
 **Prerequisites:** Intimidate 1 rank.\

@@ -6,6 +6,9 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury_of_the_tainted", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "While raging, you gain a +4 competence bonus on saving throws made ag
 +++
 
 ## Fury of the Tainted (Combat)
-
-**Sources:** Blood of Fiends pg 25
 
 The unstoppable anger you feel toward do-gooders and self-proclaimed saints makes you a force to be
 reckoned with.\

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_fell_seasons", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "114"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 2-mile radius emanating from the touched point
 Descriptors: curse, darkness
 :::
-
-**Sources:** Horror Adventures pg 114
 
 By touching the ground, you drastically change the weather in the area, as the unseasonable weather
 curse (see below). The focus merges into the cursed area as part of the spell and can only be

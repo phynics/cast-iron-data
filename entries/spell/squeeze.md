@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squeeze", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "209"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Race Guide pg 209
 
 > _[Vishkanyas](ref/race/vishkanya) have access to the following spell._
 

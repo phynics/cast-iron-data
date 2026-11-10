@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_cubes_of_force", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 14\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 66,000 gp; **Weight** 1/2 lb.
 

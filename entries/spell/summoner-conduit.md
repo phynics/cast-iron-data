@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner_conduit", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one summoned creature or eidolon
 :::
-
-**Sources:** Ultimate Combat pg 245
 
 You exploit the invisible, mystic connection between the target creature and its summoner to harm
 that summoner. Whenever the target's summoned creature is the target of a spell that deals damage,

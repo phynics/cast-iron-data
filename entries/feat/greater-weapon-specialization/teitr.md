@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-weapon-specialization" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "You gain a +2 bonus on all damage rolls you make using any weapon fro
 special = "You can gain Greater Weapon Specialization multiple times. Its effects do not stack. Each time you take the feat, it applies to a new weapon group."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose one [weapon group](ref/ability/weapon-groups) listed under the fighter's Weapon Training
 class feature for which you possess the Weapon Specialization feat. Your attacks with these weapons
 are more devastating than normal.\

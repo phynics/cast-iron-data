@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_spell", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You may cause an instantaneous spell that affects an area to persist 
 +++
 
 ## Lingering Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 164
 
 You spell clings to existence, slowly fading from the world.\
 **Benefit:** You may cause an instantaneous spell that affects an area to persist until the

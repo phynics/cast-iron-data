@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pursuit_tactics", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 146
 
 Tactics are the key to shaking a tenacious pursuer or capturing an elusive quarry. The following
 tactics present many of the most basic methods for doing so, but if the PCs come up with a new

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlemind_link", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: you and 1 ally
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 207
 
 You fuse your thoughts with an ally's, allowing the two of you to fight in tandem, perfectly
 coordinated. You and the ally each roll initiative in combat and use the higher die result before

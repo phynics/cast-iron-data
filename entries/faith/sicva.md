@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sicva", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "74"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Sicva**
 
 **Sub:** Mistress of All
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 74
 
 ### Details
 

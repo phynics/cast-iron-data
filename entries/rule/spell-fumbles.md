@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_fumbles", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "149"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 149
 
 Spells have a chance to automatically miss, just like any other attack. Normally, this is
 represented by the target rolling a natural 20 on its save. However, you might be interested in a

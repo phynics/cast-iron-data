@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_dirty_trick", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "114"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A dirty trick combat maneuver is a standard action."
 +++
 
 ## Quick Dirty Trick (Combat)
-
-**Sources:** Ultimate Combat pg 114
 
 You can perpetrate a dirty trick and deliver an attack before your opponent is the wiser.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

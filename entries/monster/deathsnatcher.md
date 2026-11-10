@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathsnatcher", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "81"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ four arms ends in a clawed hand._
 
 **Senses:** Deathwatch, Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 81\
 **Experience points:** 153,600
 
 **Armor class:** 33/21/27

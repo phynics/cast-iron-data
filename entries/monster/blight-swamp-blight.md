@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_swamp_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ five tentacles tipped with stingers._
 
 **Perception:** +25
 
-**Sources:** Bestiary 6 pg 44\
 **Subtype:** Aquatic, Blight
 
 **Experience points:** 102,400

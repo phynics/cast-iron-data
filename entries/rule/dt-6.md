@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dt_6", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "183"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 183
 
 ### Table 7-14: Unholy Temple
 

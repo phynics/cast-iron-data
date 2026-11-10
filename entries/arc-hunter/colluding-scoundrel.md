@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Animal focus", "Second animal focus", "Master hunter"]
 +++
 
-**Sources:** Antihero's Handbook pg 11\
 The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging
 her allies for her own benefit. A Free Captain ordering her crew to occupy foes and thus expose the
 enemy to her attacks might take this archetype, and colluding scoundrels have proven to be

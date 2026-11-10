@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_order", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "225"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 225
 
 Following a series of disasters or a virulent plague, the desperate populace places its faith in a
 fanatical faction of an otherwise reputable church. With great resources now at their disposal, the

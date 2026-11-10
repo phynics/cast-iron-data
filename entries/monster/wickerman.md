@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wickerman", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This humanoid-shaped colossus is a towering fury of burning wicker and wood._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 277\
 **Subtype:** Fire
 
 **Experience points:** 25,600

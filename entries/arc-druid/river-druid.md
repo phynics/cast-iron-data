@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "48"
+[[sources]]
+publication = "people-of-the-river"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Nature sense", "Woodland stride", "Trackless step", "Resist nature'
 alters = ["Class skills", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 48, People of the River pg 14\
 These druids are the guardians of rivers and the creatures that depend on them. Just as rivers pour
 from mountains to seas, river druids adapt to many environments and cultures. They can be found
 wherever water flows, even among underground rivers or sewer systems.

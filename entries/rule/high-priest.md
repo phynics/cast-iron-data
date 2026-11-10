@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_priest", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 202
 
 The High Priest tends to the kingdom's religious needs and guides its growth. If the kingdom has an
 official religion, the High Priest may also be the highest-ranking member of that religion in the

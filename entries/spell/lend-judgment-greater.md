@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/lend-judgment" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Lend Judgment
-
-**Sources:** Ultimate Magic pg 227
 
 This functions as [lend judgment](ref/spell/lend-judgment), except the ally gains the benefit of all
 your active judgments.

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stag_submission", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "After successfully maintaining a grapple on a target, you can choose t
 +++
 
 ## Stag Submission (Combat)
-
-**Sources:** Heroes of the Wild pg 23
 
 You can quickly subdue an opponent you've charged using a special submission hold.\
 **Prerequisites:** [Charging Stag Style](ref/feat/charging-stag-style), [Dodge](ref/feat/dodge),

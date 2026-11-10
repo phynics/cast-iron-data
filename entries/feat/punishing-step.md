@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "punishing_step", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your bonus to AC from the Dodge feat increases to +2 when calculating
 +++
 
 ## Punishing Step (Combat)
-
-**Sources:** Monster Hunter's Handbook pg 15
 
 You can hurt a foe that uses a combat maneuver against you.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge).\

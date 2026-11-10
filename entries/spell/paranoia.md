@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paranoia", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 179
 
 The target believes everyone it sees is an enemy. The target becomes hostile to all creatures,
 treating all creatures as enemies and only itself as an ally. The target must attempt attacks of

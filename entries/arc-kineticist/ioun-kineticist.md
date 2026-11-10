@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The ability score boosts granted by elemental overflow"]
 alters = ["Elemental focus", "Basic telekinesis utility wild talent granted by the aether element", "Internal buffer"]
 +++
 
-**Sources:** Blood of the Ancients pg 12\
 Among the greatest technologies to come from Azlant are ioun stones, small crystalline minerals
 imbued with magical energies that modern scholars still struggle to dissect. Some kineticists
 dedicate themselves to unlocking ioun stones' cosmic secrets and seemingly limitless potential.

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_lingering_blood_magic", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "217"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Class Guide pg 217\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** ring; **Price** 2,000 gp; **Weight** -
 

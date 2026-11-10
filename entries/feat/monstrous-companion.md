@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_companion", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Handle Animal 7 ranks; class feature that functions as the drui
 benefit = "You can select a magical beast as a cohort in place of your animal companion class feature. The following chart determines the effective cohort level for your monstrous companion based on your effective druid level."
 special = "This feat counts as the Leadership feat for the purposes of prerequisites. A character cannot have both Leadership and Monstrous Companion."
 +++
-
-**Sources:** Cohorts and Companions pg 9
 
 You have formed a bond with a creature far more exotic than an animal.\
 **Prerequisites:** Handle Animal 7 ranks; class feature that functions as the druid animal companion

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_hatred", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "37"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain an additional +1 bonus on melee and thrown weapon attacks ag
 +++
 
 ## Great Hatred (Combat)
-
-**Sources:** Advanced Race Guide pg 37
 
 Your rage burns with vast intensity.\
 **Prerequisites:** [Gnome](ref/race/gnome), hatred racial trait.\

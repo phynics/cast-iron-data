@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "227"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ musical cry as it takes to the air._
 
 **Senses:** Darkvision 60 ft., Detect magic, Detect poison, Low-light vision, See invisibility
 
-**Sources:** Pathfinder RPG Bestiary pg 227\
 **Subtype:** Fire
 
 **Experience points:** 51,200

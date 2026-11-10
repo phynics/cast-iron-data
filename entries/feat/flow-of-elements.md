@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flow_of_elements", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "206"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you're adjacent to an ifrit, oread, sylph, or undine ally wh
 +++
 
 ## Flow of Elements (Teamwork)
-
-**Sources:** Inner Sea Races pg 206
 
 You can spontaneously channel your ally's elemental essence, be it burning fire, freezing ice,
 crackling lightning, or searing acid.\

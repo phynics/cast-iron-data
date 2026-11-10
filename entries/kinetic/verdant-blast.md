@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "61"
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -27,8 +33,6 @@ group = "kineticist-wild-talent"
 **Damage:** bludgeoning, piercing, slashing, and optionally positive energy
 
 **Prerequisite:** primary element (wood), expanded element (wood)
-
-**Source:** Ultimate Wilderness/61, Psychic Anthology/21
 
 You blast your foes with fanciful wild growth overflowing with positive energy from
 [the First World](ref/rule/the-first-world). Verdant blast's damage counts as positive energy damage

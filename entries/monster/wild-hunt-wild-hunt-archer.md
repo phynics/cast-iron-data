@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_archer", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "279"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ slender hand._
 
 **Senses:** Low-light vision, Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 279\
 **Subtype:** Wild hunt
 
 **Experience points:** 25,600

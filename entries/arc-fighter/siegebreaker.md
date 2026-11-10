@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The feat gained at 1st level", "Bravery", "The feat gained at 2nd l
 alters = ["The feat gained at 4th level"]
 +++
 
-**Sources:** Heroes of the Streets pg 11\
 The siegebreaker is trained to break through lines of enemy soldiers.
 
 **Breaker Rush (Ex)**

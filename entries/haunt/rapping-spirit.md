@@ -6,12 +6,14 @@ source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapping_spirit", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "230"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 230\
 The most common haunts are rapping spirits: unquiet dead with just enough substance to produce
 disembodied knocking and bumps in the night. Characters can attempt communication with these
 intelligent spirits by working out codes the spirits can use to convey cryptic messages, or by using

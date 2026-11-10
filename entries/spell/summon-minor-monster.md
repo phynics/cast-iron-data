@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster-1" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: no
 Effect: 1d3 summoned creatures
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 This spell functions as [summon monster I](ref/spell/summon-monster-1), except you can summon 1d3
 Tiny or smaller animals, such as bats, lizards, monkeys, rats, ravens, toads, or weasels. The

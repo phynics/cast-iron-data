@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seductive_enchanter", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "183"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 183\
 **XP** 3,200\
 Elf enchanter 8\
 NE Medium humanoid (elf)\

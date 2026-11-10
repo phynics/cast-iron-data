@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_soap", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "320"
+[[sources]]
+publication = "advanced-players-guide"
+page = "309"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 320, Advanced Player's Guide pg 309\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** none; **Price** 200 gp; **Weight** 2 lbs.
 

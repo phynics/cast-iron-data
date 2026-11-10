@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystical_reverberation", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, select an ally within 30 feet who also has this
 +++
 
 ## Mystical Reverberation (Teamwork)
-
-**Sources:** Heroes of the Wild pg 18
 
 Your ritualistic training has taught you to join in with the magic of others.\
 **Prerequisites:** Ability to spontaneously cast spells.\

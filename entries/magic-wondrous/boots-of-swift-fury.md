@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_swift_fury", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Class Guide pg 227\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** feet; **Price** 7,500 gp; **Weight** 2 lbs.
 

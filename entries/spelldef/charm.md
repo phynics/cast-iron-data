@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Charm (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 A charm spell changes how the subject views you, typically making it see you as a good friend.
 

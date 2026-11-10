@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_battle_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wielding a longsword, a rapier, or any melee weapon that has \"
 +++
 
 ## Elven Battle Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 12
 
 You wield traditional elven weapons with grace.\
 **Prerequisites:** [Elven Battle Training](ref/feat/elven-battle-training),

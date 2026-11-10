@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "53"
 
 [fields]
 kind = "archetype"
 replaces = ["Opportune parry and riposte", "Menacing swordplay", "Swashbuckler's grace", "Swashbuckler's edge"]
 +++
 
-**Sources:** Ultimate Intrigue pg 53\
 Veiled blades specialize in subtlety, not through clandestine sneaking but simply by appearing to be
 someone harmless and unarmed. When a fight breaks out, a veiled blade doffs that facade and pulls
 out her hidden trump cards. Those who have mastered the art of the veiled blade can even hide their

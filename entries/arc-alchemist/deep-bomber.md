@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "205"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison use", "Instant alchemy", "Swift poisoning"]
 alters = ["Swift alchemy"]
 +++
 
-**Sources:** Advanced Race Guide pg 205\
 Consumed with keeping hidden from the horrors below the surface, svirfneblin use their racial
 proclivity for alchemy and their inherent talent for obfuscation to strike their enemies from the
 darkness and retreat unseen. A deep bomber has the following class features.

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devils_spit", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "92"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 92\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 60 gp; **Weight** -
 

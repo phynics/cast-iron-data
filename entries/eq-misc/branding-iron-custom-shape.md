@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "branding_iron_custom_shape", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "96"
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "63"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "5 lbs. (common), 5 lbs. (custom shape)"
 
 ## Branding iron
 
-**Sources:** Adventurer's Guide pg 96, Path of the Hellknight pg 63\
 **Price** 2 gp (common), 10 gp (custom shape); **Weight** 5 lbs. (common), 5 lbs. (custom shape)
 
 This length of bare metal is 2 to 4 feet long. One end serves as a handle, while the other forms a

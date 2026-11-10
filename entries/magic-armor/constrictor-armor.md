@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constrictor_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "75"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 75\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** body; **Weight** 30 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/evolution-surge-lesser" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 :::
 
 ### Greater Evolution Surge
-
-**Sources:** Advanced Player's Guide pg 220
 
 This spell functions as [lesser evolution surge](ref/spell/evolution-surge-lesser), except that you
 can grant any two evolutions whose total cost does not exceed 6 evolution points.

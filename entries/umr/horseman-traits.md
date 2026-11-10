@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseman_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Horseman Traits (Ex, Sp, or Su)
 
-**Sources:** Bestiary 6 pg 294\
 A Horseman is a powerful, unique [daemon](ref/family/daemon) that rules a major portion of Abaddon
 and personifies Death, Famine, Pestilence, or War. All Horsemen are evil outsiders that are, at a
 minimum, CR 27. Horsemen have a particular suite of traits (unless otherwise noted in a creature's

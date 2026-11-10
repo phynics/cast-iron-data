@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_necromancer", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 193\
 **XP** 102,400\
 Human necromancer 18\
 NE Medium humanoid (human)\

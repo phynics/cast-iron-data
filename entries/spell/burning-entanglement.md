@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/entangle" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "140"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: plants in a 40-ft.-radius spread
 :::
 
 ### Burning Entanglement
-
-**Sources:** Villain Codex pg 140
 
 This spell functions as per [entangle](ref/spell/entangle), except it sets the foliage on fire. A
 creature that begins its turn entangled by the spell takes 4d6 points of fire damage (Reflex half),

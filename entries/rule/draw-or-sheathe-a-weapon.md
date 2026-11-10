@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draw_or_sheathe_a_weapon", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 186
 
 Drawing a weapon so that you can use it in combat, or putting it away so that you have a free hand,
 requires a move action. This action also applies to weapon-like objects carried in easy reach, such

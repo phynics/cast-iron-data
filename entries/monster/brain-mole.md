@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brain_mole", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ circular mouth._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, Second sight 60 ft.
 
-**Sources:** Bestiary 5 pg 46\
 **Size:** tiny
 
 **tremorsense:** 15

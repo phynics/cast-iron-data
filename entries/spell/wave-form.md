@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_form", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Descriptors: water
 :::
-
-**Sources:** Aquatic Adventures pg 61
 
 You transform into a wave of frothing water up to 15 feet wide and 15 feet tall, as space permits,
 and then surge forth in a straight line in the direction of your choice, moving up to twice your

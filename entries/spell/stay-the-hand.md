@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stay_the_hand", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 246
 
 You cause a creature's arm to waver and prevent it from striking another creature. You can cast this
 spell when the target is about to make a melee attack against another creature. On a failed saving

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "level", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 A character's level represents his overall ability and power. There are three types of levels. Class
 level is the number of levels of a specific [class](ref/misc/class) possessed by a character.

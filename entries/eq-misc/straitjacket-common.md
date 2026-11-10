@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "straitjacket_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "250"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (common), 1 lb. (masterwork)"
 
 ## Straitjacket
 
-**Sources:** Occult Adventures pg 250\
 **Price** 5 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)
 
 Fashioned of durable canvas and leather straps, this instrument of restraint prevents its wearer

@@ -6,14 +6,15 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "center_of_power", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "26"
 
 [fields]
 kind = "feat"
 prerequisites = "Leadership score 13, hold a leadership role related to running a kingdom."
 benefit = "Choose a building in your kingdom as your center of power, and dedicate one of the followers granted to you by the Leadership feat to overseeing that location. For every kingdom turn in which that follower does nothing but oversee that location, the benefits that building grants to your kingdom's Economy, Fame, Loyalty, and Stability are doubled and any penalties are negated. This feat does not allow a building to grant benefits it does not normally provide, and has no effect on a building's other effects."
 +++
-
-**Sources:** Quests and Campaigns pg 26
 
 You have posted loyal followers in the most vital places.\
 **Prerequisites:** [Leadership](ref/feat/leadership) score 13, hold a leadership role related to

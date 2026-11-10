@@ -6,6 +6,12 @@ source_ids = ["monster-codex", "pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodfeast_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "237"
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Monster Codex pg 237, Pathfinder \#48: Shadows of Gallowspire pg 65\
 **Aura** strong necromancy; **CL** 12th\
 **Slot** shield; **Price** 18,770 gp; **Weight** 15 lbs.
 

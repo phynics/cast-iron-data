@@ -6,12 +6,13 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faction_costs", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Faction Guide pg 54
 
 ### Total Prestige Award and Item Purchases
 

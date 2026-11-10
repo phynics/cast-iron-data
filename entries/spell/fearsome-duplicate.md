@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_duplicate", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Effect: monstrously distorted duplicate of you
 Subschool: Figment
 :::
-
-**Sources:** Advanced Race Guide pg 68
 
 > _[Halflings](ref/race/halfling) have access to the following spell._
 

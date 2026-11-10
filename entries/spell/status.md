@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "status", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "349"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one living creature touched per three levels
 :::
-
-**Sources:** PRPG Core Rulebook pg 349
 
 When you need to keep track of comrades who may get separated, status allows you to mentally monitor
 their relative positions and general condition. You are aware of direction and distance to the

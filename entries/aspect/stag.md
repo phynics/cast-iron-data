@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stag", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "30"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Ultimate Wilderness pg 30\
 The stag can outrun or stand its ground against almost any foe. This aspect offers majestic grace
 and swift speed.
 

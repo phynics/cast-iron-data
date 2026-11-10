@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_sealing", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one symbol
 Descriptors: force
 :::
-
-**Sources:** Ultimate Magic pg 242
 
 This spell allows you to scribe a potent rune of power upon or above a door or other opening
 measuring no more than 20 square feet/level in size. When the casting is completed, the symbol

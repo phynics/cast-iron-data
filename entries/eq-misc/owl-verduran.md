@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_verduran", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1-3 lbs. (common), 3 lbs. (Verduran)"
 
 ## Owl
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 20 gp (common), 20 gp (Verduran); **Weight** 1-3 lbs. (common), 3 lbs. (Verduran)
 
 These Tiny birds of prey are mainly nocturnal and are known for their keen eyes and near-silent

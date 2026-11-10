@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_leader_commanders", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 240
 
 If you have a kingdom leadership role (Ruler, High Priest, Grand Diplomat, and so on), you may take
 the role of an army commander. To determine your bonus on Morale checks and the maximum number of

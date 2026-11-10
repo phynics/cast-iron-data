@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drag_down", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent successfully trips you, you can attempt to trip 
 +++
 
 ## Drag Down (Combat)
-
-**Sources:** Ultimate Combat pg 98
 
 When you are knocked prone, you are skilled at bringing your opponent down with you.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

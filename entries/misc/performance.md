@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performance", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 22
 
 Some weapons have special features in addition to those noted in their descriptions.
 

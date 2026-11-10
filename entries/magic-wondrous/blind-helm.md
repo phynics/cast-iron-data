@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blind_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "147"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Sources:** Mythic Adventures pg 147\
 **Aura** strong divination; **CL** 13th\
 **Slot** head; **Price** 85,000 gp; **Weight** 3 lbs.
 

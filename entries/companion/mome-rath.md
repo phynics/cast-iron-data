@@ -6,13 +6,14 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mome_rath", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 83
 
 **Companion Type**
 

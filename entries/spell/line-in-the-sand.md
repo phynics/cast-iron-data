@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "line_in_the_sand", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "186"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: 5-ft. burst centered on you
 :::
-
-**Sources:** Advanced Class Guide pg 186
 
 You create a glowing crimson line around the area. Against creatures in the area, you can attempt a
 number of additional attacks of opportunity per round equal to your spellcasting ability score

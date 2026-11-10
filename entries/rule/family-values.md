@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_values", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "167"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 167
 
 You can create and describe the individual members of your character's family using rules in
 [Non-Player Characters](ref/rule/non-player-characters) and the guidelines earlier in this section,

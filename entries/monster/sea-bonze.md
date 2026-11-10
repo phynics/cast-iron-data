@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_bonze", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "239"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ immense, hate-filled eyes._
 
 **Perception:** +33
 
-**Sources:** Bestiary 3 pg 239\
 **Subtype:** Aquatic
 
 **Type:** undead

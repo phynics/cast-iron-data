@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellcat", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "153"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ fire and seething with smoke._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 2 pg 153\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_eye", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Effect: magical sensor
 :::
-
-**Sources:** Advanced Player's Guide pg 217
 
 Eagle eye creates a magical sensor directly above you. The sensor can appear anywhere above you, to
 a maximum height equal to the spell's range. You can see from this vantage as if you were actually

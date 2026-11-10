@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slow", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "344"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 344
 
 An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this
 spell are staggered and can take only a single move action or standard action each turn, but not

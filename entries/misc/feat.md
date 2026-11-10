@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feat", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 A feat is an ability a [creature](ref/misc/creature) has mastered. Feats often allow creatures to
 circumvent rules or restrictions. Creatures receive a number of feats based off their

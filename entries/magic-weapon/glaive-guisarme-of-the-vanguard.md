@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glaive_guisarme_of_the_vanguard", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Knights of the Inner Sea pg 30\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Price** 9,512 gp; **Weight** 10 lbs.
 

@@ -6,13 +6,14 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_spell_combat", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Blood of the Moon pg 21
 
 **Natural Spell Combat (Ex):**
 

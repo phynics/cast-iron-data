@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_gaseous_form", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Vampire."
 benefit = "As a standard action, you can assume *gaseous form* at will (caster level 5th), but can remain gaseous indefinitely and have a fly speed of 20 feet with perfect maneuverability. This is a supernatural ability."
 special = "You can gain this feat multiple times. Each time you take this feat, choose another swarm type."
 +++
-
-**Sources:** Blood of the Night pg 17
 
 Your gaseous state is more potent than that of your peers.\
 **Prerequisites:** [Vampire](ref/template/vampire).\

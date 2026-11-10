@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaorhaz", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ visage. Huge black wings fan behind its back, and flickering black blades burn i
 
 **Senses:** Darkvision 120 ft., Low-light vision, True seeing
 
-**Sources:** Demons Revisited pg 44\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 819,200

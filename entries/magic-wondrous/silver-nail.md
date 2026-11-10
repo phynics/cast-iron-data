@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_nail", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "223"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Horror Adventures pg 223\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** none; **Price** 2,100 gp; **Weight** -
 

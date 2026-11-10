@@ -6,14 +6,15 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crossbow_of_the_crab", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "46"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "24 lbs."
 +++
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 46
 
 This Large [masterwork](ref/rule/masterwork-weapons)
 [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) is powered by a system of

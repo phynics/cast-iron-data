@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_veranallia", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "34"
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ gently swaying vines._
 
 **Senses:** Darkvision 60 ft., Detect animals or plants, Detect evil, Low-light vision, True seeing
 
-**Sources:** Bestiary 6 pg 34, Chronicle of the Righteous pg 62\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **tremorsense:** 60

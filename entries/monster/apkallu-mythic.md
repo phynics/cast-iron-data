@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apkallu_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ crafted from opalescent scales._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, Mistsight, True seeing
 
-**Sources:** Bestiary 5 pg 32\
 **Subtype:** Extraplanar, Lawful, Mythic, Water
 
 **Experience points:** 819,200

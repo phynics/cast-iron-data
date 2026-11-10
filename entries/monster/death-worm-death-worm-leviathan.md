@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_worm_death_worm_leviathan", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This enormous worm has stony hide and acid-dripping jaws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Mystery Monsters Revisited pg 21\
 **tremorsense:** 60
 
 **Experience points:** 12,800

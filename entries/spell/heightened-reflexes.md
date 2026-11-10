@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heightened_reflexes", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Area: allies within a 30-ft.-radius burst centered on you
 :::
-
-**Sources:** Advanced Class Guide pg 184
 
 You grant each of your allies within the area a +10 competence bonus on a single Reflex saving
 throw. Each ally must decide whether to use the bonus before making the roll to which it applies.

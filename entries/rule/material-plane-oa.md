@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "material_plane_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 240
 
 The Material Plane is the realm of physical sensation and incarnate existence. Souls manifest here
 in the shell of a physical body, a union so complete that most living creatures do not spend much

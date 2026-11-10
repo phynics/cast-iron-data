@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_open_thoughts", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Occult Adventures pg 259\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 2,800 gp; **Weight** 1 lb.
 

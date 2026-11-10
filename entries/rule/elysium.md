@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysium", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 191
 
 A vast land of untamed wilderness and wild passions, Elysium is the plane of benevolent chaos.
 Freedom and self-sufficiency abound here, personified in the [azatas](ref/family/azata) native to

@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_gluttony_ungarato", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "16th"
 +++
 
-**Sources:** Artifacts and Legends pg 53\
 **Aura** strong necromancy; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exit_rewards", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 113
 
 As your campaign reaches a final climax, you may choose to lay the groundwork for story rewards that
 change the characters forever, bringing closure to their personal narratives. You may do this when

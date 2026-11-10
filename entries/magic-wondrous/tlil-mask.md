@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tlil_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 25\
 **Aura** faint divination; **CL** 3rd\
 **Slot** head; **Price** 3,700 gp; **Weight** 1 lb.
 

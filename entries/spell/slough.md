@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slough", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "128"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 128
 
 The target takes 1d4 points of Constitution damage each round as its skin loosens and splits. Once
 it has taken 5 or more points of Constitution damage in this way, its skin falls off to reveal its

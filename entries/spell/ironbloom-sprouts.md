@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/goodberry" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: 2d4 fresh mushrooms touched
 :::
-
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 75
 
 This spell functions like [goodberry](ref/spell/goodberry), except as noted above and that it
 transforms 2d4 mushrooms into magical ironbloom mushrooms rather than transforming common berries

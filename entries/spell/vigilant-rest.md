@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_rest", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will (harmless)
 Spell resistance: yes
 Target: 1 living creature touche
 :::
-
-**Sources:** Ultimate Wilderness pg 237
 
 While the target of this spell is asleep, she retains some of her normal powers of perception. While
 she tunes out harmless sounds such as the crackling of the campfire, crickets, or light breezes, she

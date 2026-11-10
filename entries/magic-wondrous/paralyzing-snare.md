@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralyzing_snare", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Kobolds of Golarion pg 31\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 2,250 gp; **Weight** 2 lbs.
 

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/silent-image", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 108\
 The duration increases to concentration + 1 round per caster level, and the effect increases to a
 visual figment that can't extend beyond eight 10-foot cubes + 1 10-foot cube per caster level.
 

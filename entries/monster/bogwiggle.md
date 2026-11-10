@@ -6,6 +6,12 @@ source_ids = ["monster-codex", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogwiggle", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "16"
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ fangs._
 
 **Size:** small
 
-**Sources:** Monster Codex pg 16, Pathfinder \#62: Curse of the Lady's Light pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 400

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_fortune", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "NPCs who take this feat receive 1 hero point and can have up to 3 (no
 +++
 
 ## Hero's Fortune (Hero Point)
-
-**Sources:** Advanced Player's Guide pg 324
 
 Even at the start of your career, it was clear that you had a chance at greatness, and your legend
 continues to grow with every adventure.\

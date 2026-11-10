@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_tangle_tender", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ belt, not the least of which is its mechanical monstrosity of a crossbow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 44\
 **Experience points:** 9,600
 
 **Armor class:** 23/13/20

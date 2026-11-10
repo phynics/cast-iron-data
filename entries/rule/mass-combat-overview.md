@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mass_combat_overview", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 234
 
 The key parts of the mass combat rules that you'll reference often are:
 

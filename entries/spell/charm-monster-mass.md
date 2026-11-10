@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/charm-monster" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Charm Monster
-
-**Sources:** PRPG Core Rulebook pg 254
 
 This spell functions like [charm monster](ref/spell/charm-monster), except that mass charm monster
 affects a number of creatures whose combined HD do not exceed twice your level, or at least one

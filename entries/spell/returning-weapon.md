@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "returning_weapon", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes (harmless) (object)
 Target: one weapon that can be thrown
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Combat pg 242
 
 For the duration of the spell, the target weapon acts as if it had the returning weapon special
 ability.

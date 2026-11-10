@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icon_of_aspects", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 54\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 5,500 gp; **Weight** 1 lb.
 

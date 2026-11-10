@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galundari", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "14"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ a whip of flames._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Demons Revisited pg 14\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,638,400

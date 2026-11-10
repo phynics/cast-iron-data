@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_training", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Targets: you plus one willing creature per 3 levels, no two of which can be more than 30 ft. apart
 Descriptors: mind-affecting
 :::
-
-**Sources:** Blood of the Ancients pg 15
 
 Select one teamwork feat you have. You can grant this feat to allies within range for the duration
 of the spell. Allies do not need to meet the prerequisites of this teamwork feat. At caster level

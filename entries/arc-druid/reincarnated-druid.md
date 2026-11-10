@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Woodland stride", "Resist nature's lure", "Wild shape", "Venom immunity", "Timeless body"]
 +++
 
-**Sources:** Ultimate Magic pg 39\
 Spun off into the endless circle of life, an incarnate druid is an embodiment of nature's eternal
 renewal. She lives many lives and wanders the world devoid of attachments, a stranger to all yet one
 with all life.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_vilsteth", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ Its eyes glow an eerie yellow, and horns curl from its eerie, mouthless head._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

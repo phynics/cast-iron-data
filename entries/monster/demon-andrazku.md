@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_andrazku", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and skin the color of a snow-buried corpse._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 84\
 **Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
 
 **Experience points:** 1,600

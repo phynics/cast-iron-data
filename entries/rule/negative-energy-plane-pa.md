@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_energy_plane_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 112
 
 **Negative Energy Plane**
 

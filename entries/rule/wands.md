@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wands", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "496"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 496
 
 A wand is a thin baton that contains a single spell of 4th level or lower. A wand has 50 charges
 when created - each charge allows the use of the wand's spell one time. A wand that runs out of

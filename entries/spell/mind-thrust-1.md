@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_thrust_1", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 177
 
 You divine the most vulnerable portions of your opponent's mind and overload it with a glut of
 psychic information. This attack deals 1d6 points of damage per caster level (maximum 5d6). The

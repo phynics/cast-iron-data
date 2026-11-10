@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_jaunt", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "81"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: you
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Villain Codex pg 81
 
 You instantly travel between shadows to a point within range, though line of sight is not necessary.
 You leave a shadowy image of yourself in your former location and are wrapped in shadow at your

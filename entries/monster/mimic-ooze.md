@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mimic_ooze", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ moves, and tendrils of hair flow around its expressionless face._
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 90\
 **Experience points:** 6,400
 
 **Armor class:** 18/18/10

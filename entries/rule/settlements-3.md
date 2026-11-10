@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlements_3", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 208
 
 LE metropolis\
 **Corruption** +7; **Crime** +5; **Economy** +2; **Law** +0; **Lore** +5; **Society** +1\

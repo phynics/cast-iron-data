@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_focus", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** People of the Sands pg 21
 
 For the duration of this spell, you may ignore any divine focus components of your spells, allowing
 you to cast such spells without holding or revealing your holy or unholy symbol.

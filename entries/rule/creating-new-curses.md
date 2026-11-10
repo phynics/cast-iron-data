@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_new_curses", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 140
 
 Curses needn't be limited to the effects listed under [Afflictions](ref/rule/afflictions). When
 designing a new curse, though, be careful not to go too far. A devastating curse can have

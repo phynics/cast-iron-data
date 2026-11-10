@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godstar", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Disciple's Doctrine pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.
 

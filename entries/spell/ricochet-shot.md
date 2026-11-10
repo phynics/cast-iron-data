@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ricochet_shot", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one projectile weapon
 :::
-
-**Sources:** Ultimate Combat pg 243
 
 You imbue a projectile weapon with the ability to ricochet any projectiles that hit one target so
 that they also hit another. When the wielder ricochets a projectile, she selects a primary target to

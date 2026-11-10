@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_mist", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "277"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A cloud of crimson vapor reeking of fresh blood hangs in the air, reaching out 
 
 **Senses:** Darkvision 60 ft., Sense blood
 
-**Sources:** Bestiary 2 pg 277\
 **Subtype:** Air, Water
 
 **Experience points:** 800

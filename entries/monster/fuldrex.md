@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fuldrex", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ malevolently from beneath layers of dripping, fungal hair._
 
 **Size:** small
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 84\
 **Experience points:** 12,800
 
 **Armor class:** 27/12/26

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_of_weight_loadstone", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
+[[sources]]
+publication = "core-rulebook"
+page = "543"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "faint transmutation"
 caster_level = "5th"
 +++
-
-**Sources:** Ultimate Equipment pg 351, PRPG Core Rulebook pg 543
 
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Weight** 1 lb.

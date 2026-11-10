@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disfiguring_touch", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "48"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Ultimate Magic pg 217, Book of the Damned - Volume 2: Lords of Chaos pg 48
 
 With a touch, you cause the victim of this spell to suffer a painful curse that causes it to grow
 hideously disfigured. The physical appearance of the deformity is subject to the caster's whim (most

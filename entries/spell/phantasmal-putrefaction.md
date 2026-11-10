@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_putrefaction", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "124"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature/level, no two of which can be omore than 30 ft. apart
 Subschool: Phantasm
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 124
 
 You implant within the minds of your targets the illusion that their skin is rotting away, large
 rents are appearing all over their bodies, and their internal organs are spilling out into a putrid

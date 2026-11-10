@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolflords_fang", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Seers of the Drowned City pg 55\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 34,335 gp; **Weight** 6 lbs.
 

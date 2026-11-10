@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_static_aura", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "295"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Mental Static Aura (Su)
 
-**Sources:** Bestiary 5 pg 295\
 A creature with this ability creates a field around itself that makes concentrating difficult for
 those without this ability. Living creatures within 30 feet must succeed at a
 [concentration](ref/rule/concentration) check (DC = 10 + 1/2 the HD of the creature with the mental

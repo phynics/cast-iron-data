@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_cobra", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "182"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ its eyes are pinpoints of red light._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 182\
 **Experience points:** 600
 
 **Armor class:** 20/13/18

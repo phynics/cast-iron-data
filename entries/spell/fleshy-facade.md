@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshy_facade", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "81"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: corporeal undead creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Monster Codex pg 81
 
 The target's flesh fills out and gains a healthy, natural color. This gives the target the
 appearance of a living creature of the type it was when it was still alive (if applicable).

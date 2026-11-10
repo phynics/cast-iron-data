@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "128"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellcasting ability"]
 +++
 
-**Sources:** Advanced Player's Guide pg 128\
 Many rangers rely on spells, but there are some who eschew aid from divine powers for their own
 reasons. Skirmishers rely on their wits, their wisdom, and sometimes even instinct to aid in their
 quests. A skirmisher has the following class features.

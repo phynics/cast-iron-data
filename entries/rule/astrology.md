@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astrology", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "36"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 36
 
 The practice of astrology on Golarion hinges on the core belief that the movements of the cosmos
 directly affect the lives of Golarion's inhabitants. Though the movements of celestial bodies seem

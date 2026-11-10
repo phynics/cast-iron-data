@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_peerage", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 218
 
 You impart your knowledge of nobility and peerage to the target, allowing her to recognize members
 of noble households, differentiate one set of heraldry from another, and otherwise identify who's

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cudgeler_style", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit with a charge attack to deal nonlethal damage while usin
 +++
 
 ## Cudgeler Style (Combat, Style)
-
-**Sources:** Melee Tactics Toolbox pg 13
 
 You have learned how to rush your foe and deliver an incapacitating blow.\
 **Prerequisites:** [Bludgeoner](ref/feat/bludgeoner).\

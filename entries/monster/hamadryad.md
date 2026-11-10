@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamadryad", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This regal woman exhibits the grace and pride of the forest's most ancient tree
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 148\
 **Experience points:** 51,200
 
 **Armor class:** 29/17/22

@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightstalls", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 8
 
 **Associated Trait:** [Nightstalls Navigator](ref/trait/nightstalls-navigator)
 

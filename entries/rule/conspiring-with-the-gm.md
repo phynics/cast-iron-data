@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conspiring_with_the_gm", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 9
 
 Sometimes, your choices might mean playing along with the GM. The GM is not your opponent - she's
 the conductor of a symphony in which you're a star performer. If she seems to be hinting hard toward

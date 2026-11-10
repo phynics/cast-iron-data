@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karkadann", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _A single wicked horn grows from the forehead of this stocky, oryx-like creature
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 148\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recentering_drone", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/2 levels (no two of which may be more than 30 ft. apart)
 :::
-
-**Sources:** Champions of Balance pg 27
 
 You emit a calming subsonic drone that allows the targets to temporarily refocus and restore their
 balance when they're suffering from debilitating conditions. A target with the dazzled, fatigued,

@@ -6,6 +6,8 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_leitmotif", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Lingering Leitmotif (Oratory, Sing)
-
-**Sources:** Merchant's Manifest
 
 Your clever turn of words or catchy musical jingle sticks in people's heads long after they have
 heard it.

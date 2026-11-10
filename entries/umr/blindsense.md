@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blindsense", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "290"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Blindsense (Ex)
 
-**Sources:** Bestiary 5 pg 290\
 A creature with blindsense notices things it cannot see. The creature usually does not need to
 succeed at Perception checks to pinpoint the location of a creature within range of its blindsense
 ability, provided that it has line of effect to that creature. Any opponent the creature with

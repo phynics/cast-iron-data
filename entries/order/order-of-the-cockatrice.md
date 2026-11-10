@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_cockatrice", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "34"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Player's Guide pg 34
 
 A cavalier who belongs to this order serves only himself, working to further his own aims and
 increase his own prestige. Cavaliers of this order tend to be selfish and concerned only with

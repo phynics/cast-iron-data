@@ -6,6 +6,9 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_kilt_of_sarenrae", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Qadira, Gateway to the East pg 23\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** waist; **Price** 13,000 gp; **Weight** 5 lbs.
 

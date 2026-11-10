@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_sculptor", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -21,7 +24,5 @@ group = "kineticist-wild-talent"
 **Level:** 5
 
 **Burn:** 0
-
-**Source:** Occult Adventures/27
 
 You can sculpt earth into any shape, as the spell [stone shape](ref/spell/stone-shape).

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_forward", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: no
 Target: you
 Subschool: Teleportation
 :::
-
-**Sources:** Magic Tactics Toolbox pg 5
 
 You cheat the laws of time and enter into combat before reverting back to your original position. As
 part of the action to cast the spell, you make a charge attack against an enemy. You make this

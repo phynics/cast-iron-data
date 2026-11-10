@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_mammoth", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "134"
+[[sources]]
+publication = "people-of-the-north"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Effect: one frost mammoth
 Subschool: Creation
 Descriptors: cold
 :::
-
-**Sources:** Adventurer's Guide pg 134, People of the North pg 26
 
 A blast of snow suddenly fills an area with a space of 15 feet, immediately taking the shape of a
 woolly mammoth made of snow with tusks of solid ice. The mammoth has statistics identical to those

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_eldests_blessing_gnome", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "228"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Races pg 228\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
 

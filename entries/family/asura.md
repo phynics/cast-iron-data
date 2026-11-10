@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Asuras are immortal beings whose origins are rooted in rejection and destruction. They are
 manifestations of divine accident, living blasphemies risen from mistakes made by the gods

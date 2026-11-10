@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_worlds_reaction", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "123"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 123
 
 Amazing powers and impressive foes are only part of a mythic story. The world's reaction to such
 heroes is also a significant part of making a campaign actually feel mythic. The NPCs encountered in

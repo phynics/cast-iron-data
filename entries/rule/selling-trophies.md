@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selling_trophies", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 163
 
 Once a trophy is created, it can be kept or sold. Generally, a trophy can be sold to any merchant
 for its full value, as if it were an art object, but at the GM's discretion, certain trophies may

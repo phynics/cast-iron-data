@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_gauntlet_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using this style, if you begin your turn wearing a gauntlet or s
 +++
 
 ## Shield Gauntlet Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 12
 
 You use your gauntlet to shield you from harm.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (gauntlet or spiked gauntlet), proficiency

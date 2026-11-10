@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fair_gameplay", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 59
 
 In a game featuring as many rules and options as the Pathfinder Roleplaying Game, the concept of
 "fairness" has a number of different interpretations. For players, though, fairness largely relates

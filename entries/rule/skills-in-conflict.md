@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skills_in_conflict", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 182
 
 When skills come into conflict with each other, it can lead to extremely complex interactions, often
 well beyond the scope of the short skill descriptions in the Pathfinder RPG Core Rulebook. The

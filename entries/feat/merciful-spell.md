@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_spell", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter spells that inflict damage to inflict nonlethal damage 
 +++
 
 ## Merciful Spell (Metamagic)
-
-**Sources:** Advanced Player's Guide pg 165
 
 Your damaging spells subdue rather than kill.\
 **Benefit:** You can alter spells that inflict damage to inflict nonlethal damage instead. Spells

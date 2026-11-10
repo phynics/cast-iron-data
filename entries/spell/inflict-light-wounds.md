@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_light_wounds", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "300"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will half
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 300
 
 When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +
 1 point per caster level (maximum +5).

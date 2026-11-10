@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "codex_of_conversations", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "245"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 245\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 10,000 gp; **Weight** 3 lbs.
 

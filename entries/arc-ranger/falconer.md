@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "67"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "6th-level combat style feat"]
 +++
 
-**Sources:** Ultimate Combat pg 67\
 Rangers have always enjoyed a special bond with a specific animal, but the falconer takes this bond
 to a deeper level. Falconers begin with their companion earlier than other rangers, and have the
 ability to teach their companions special tricks.

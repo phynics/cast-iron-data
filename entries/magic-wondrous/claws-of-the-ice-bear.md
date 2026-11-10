@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claws_of_the_ice_bear", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "234"
+[[sources]]
+publication = "pathfinder-51-the-hungry-storm"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 234, Pathfinder \#51: The Hungry Storm pg 62\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** hands; **Price** 1,300 gp; **Weight** 1 lb.
 

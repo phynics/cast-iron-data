@@ -6,6 +6,9 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blue_lily_extract", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "29"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Horror Realms pg 29
 
 **Price** N/A; **Weight** —
 

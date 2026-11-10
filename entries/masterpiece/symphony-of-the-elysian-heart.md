@@ -6,6 +6,8 @@ source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symphony_of_the_elysian_heart", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-angels"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Symphony of the Elysian Heart (Keyboard, Wind)
-
-**Sources:** Blood of Angels
 
 You spark notes of joy and freedom in your listeners.
 

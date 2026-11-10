@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corset_of_delicate_moves", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 28\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** chest; **Price** 2,000 gp; **Weight** -
 

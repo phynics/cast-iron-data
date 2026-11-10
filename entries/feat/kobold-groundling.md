@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_groundling", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Prone creatures are denied their Dexterity bonus to AC against your a
 +++
 
 ## Kobold Groundling (Combat)
-
-**Sources:** Kobolds of Golarion pg 25
 
 Your small size grants you superiority over grounded foes.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

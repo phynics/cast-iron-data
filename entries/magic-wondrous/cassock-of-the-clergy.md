@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cassock_of_the_clergy", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 214\
 **Aura** moderate abjuration; **CL** 1st\
 **Slot** body; **Price** 4,600 gp; **Weight** 1 lb.
 

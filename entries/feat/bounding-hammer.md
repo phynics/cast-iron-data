@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bounding_hammer", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "A thrown weapon drops in the square where it hit its target."
 +++
 
 ## Bounding Hammer (Combat)
-
-**Sources:** Dwarves of Golarion pg 20
 
 You can throw a hammer so it rebounds near you.\
 **Prerequisites:** Proficiency with hammer, base attack bonus +6.\

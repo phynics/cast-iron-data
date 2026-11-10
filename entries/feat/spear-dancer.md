@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_dancer", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "216"
+[[sources]]
+publication = "faiths-of-purity"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "Each time you hit a creature with a two-handed reach weapon that you 
 +++
 
 ## Spear Dancer (Combat)
-
-**Sources:** Inner Sea Gods pg 216, Faiths of Purity pg 25
 
 You incorporate your two-handed reach weapon into a dizzying martial dance.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (any two-handed reach weapon), Perform

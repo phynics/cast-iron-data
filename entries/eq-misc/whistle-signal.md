@@ -6,6 +6,18 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "core-rulebook", "
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whistle_signal", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "advanced-players-guide"
+page = "183"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,8 +28,6 @@ weight = "- (signal), - (silent)"
 
 ## Whistle
 
-**Sources:** Ultimate Equipment pg 57, Advanced Player's Guide pg 183, PRPG Core Rulebook pg 158,
-Adventurer's Armory pg 19\
 **Price** 8 sp (signal), 9 sp (silent); **Weight** - (signal), - (silent)
 
 With a DC 5 Perform (wind) check, you can use a whistle to signal the same sorts of situations as

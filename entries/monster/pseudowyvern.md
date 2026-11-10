@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pseudowyvern", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _The sinuous tail of this cat-sized winged, armless dragon is tipped with a scor
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Legacy of Dragons pg 27\
 **Size:** tiny
 
 **Experience points:** 600

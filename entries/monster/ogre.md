@@ -6,6 +6,9 @@ source_ids = ["bestiary", "monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "220"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ mouth with ill-fitting teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 220\
 **Subtype:** Giant
 
 **Experience points:** 800

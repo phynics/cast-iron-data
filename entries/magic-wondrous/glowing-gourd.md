@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glowing_gourd", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 230\
 **Aura** moderate evocation \[good\]; **CL** 9th\
 **Slot** none; **Price** 4,250 gp; **Weight** 8 lbs.
 

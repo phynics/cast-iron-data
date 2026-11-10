@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilo", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ air around it._
 
 **Size:** small
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 82\
 **Experience points:** 600
 
 **Armor class:** 14/12/13

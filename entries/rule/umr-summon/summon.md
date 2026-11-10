@@ -8,12 +8,14 @@ parent = "ref/umr/summon"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#summon|section:summon", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "300"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 300\
 A creature with the summon ability can summon other specific creatures of its kind much as though
 casting a [summon monster](ref/spell/summon-monster) spell, but it usually has only a limited chance
 of success (as specified in the creature's entry). Roll d%; on a failure, no creature answers the

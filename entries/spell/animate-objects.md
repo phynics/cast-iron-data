@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_objects", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one Small object per caster level; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 242
 
 You imbue inanimate objects with mobility and a semblance of life. Each such animated object then
 immediately attacks whomever or whatever you initially designate.

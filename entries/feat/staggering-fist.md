@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_fist", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you damage a foe with your unarmed attack, you can also cause it
 +++
 
 ## Staggering Fist (Combat)
-
-**Sources:** Advanced Class Guide pg 157
 
 When you engage in unarmed combat, you know just where to strike to stagger your foe.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

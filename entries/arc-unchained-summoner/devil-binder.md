@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/unchained-summoner" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "94"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Summon monster I", "Bond senses", "shield ally", "transposition", "
 alters = ["Eidolon"]
 +++
 
-**Sources:** Adventurer's Guide pg 94\
 While many assume [Hellknights](ref/rule/aff-lawknights) are worshipers or agents of devilkind - or,
 at best, duped puppets of the infernal realm - most Hellknights see Hell and its native devils as a
 challenge to be conquered. If one can dominate these beings of pure (albeit cruel) law, then the

@@ -6,6 +6,12 @@ source_ids = ["sargava-the-lost-colony", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaava_musk", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "40 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Sargava, the Lost Colony pg 24, Adventurer's Armory pg 19\
 **Price** 40 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

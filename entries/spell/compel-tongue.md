@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/share-language" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Target: creature touched
 :::
 
 ### Compel Tongue
-
-**Sources:** Black Markets pg 24
 
 This spell functions as [share language](ref/spell/share-language), granting a creature the ability
 to read, understand, and communicate to the best of its ability in any one language you know. For

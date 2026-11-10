@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lesser_horn_of_the_tritons", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Plunder and Peril pg 33\
 **Aura** faint conjuration; **CL** 6th\
 **Slot** none; **Price** 6,600 gp; **Weight** 2 lbs.
 

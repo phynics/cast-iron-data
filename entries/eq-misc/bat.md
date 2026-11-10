@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "80"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "5 gp, 50 gp (Uskwood)"
 weight = "1 lb., 2 lbs. (Uskwood)"
 +++
 
-**Sources:** Ultimate Equipment pg 80, Adventurer's Armory pg 19\
 **Price** 5 gp, 50 gp (Uskwood); **Weight** 1 lb., 2 lbs. (Uskwood)
 
 These Diminutive rodents are nocturnal fliers that eat insects and fruit. They rely primarily on

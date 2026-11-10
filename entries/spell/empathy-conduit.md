@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empathy_conduit", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: an animal companion, familiar, or other bonded creature and its master (which may be no more than 30 ft. apart)
 :::
-
-**Sources:** Familiar Folio pg 23
 
 You make a conduit between the targeted master and her familiar, allowing you to target the master
 or the familiar with your spells in order to affect the other. If the master succeeds at its save to

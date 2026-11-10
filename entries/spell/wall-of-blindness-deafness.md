@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_blindness_deafness", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "198"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Effect: translucent wall 20 ft. long/level or a translucent ring with a radius of up to 5 ft./two levels; either form 20 ft. high
 :::
-
-**Sources:** Advanced Class Guide pg 198
 
 You create a translucent wall of energy, within which can be seen indistinct images of faces with
 their eyes or ears sewn shut. When you create the wall, decide whether it blinds or deafens. Any

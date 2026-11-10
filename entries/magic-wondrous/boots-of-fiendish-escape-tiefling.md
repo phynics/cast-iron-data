@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_fiendish_escape_tiefling", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Inner Sea Races pg 229\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** feet; **Price** 45,000 gp; **Weight** 2 lbs.
 

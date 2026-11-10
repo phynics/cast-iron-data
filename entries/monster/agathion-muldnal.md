@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_muldnal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ dirt-stained smock; its pink nose twitches ceaselessly._
 
 **Size:** small
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 80\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 800

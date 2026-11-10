@@ -6,6 +6,9 @@ source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gem_of_dreams", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Dungeons of Golarion pg 43\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

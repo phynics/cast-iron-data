@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_kindlers_rod", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "185"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Adventurer's Guide pg 185\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

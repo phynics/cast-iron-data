@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "When you wield an improvised weapon, it gains the disarm and trip wea
 +++
 
 ## Makeshift Maneuvers (Combat)
-
-**Sources:** Martial Arts Handbook pg 9
 
 Your skill with improvised weapons allows you to use them to hamper your opponents.\
 **Prerequisites:** [Catch Off-Guard](ref/feat/catch-off-guard) or

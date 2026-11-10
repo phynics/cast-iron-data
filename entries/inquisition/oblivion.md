@@ -6,13 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oblivion", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "43"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Ultimate Magic pg 43
 
 **Associated Deities**
 

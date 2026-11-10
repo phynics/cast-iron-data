@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_gg", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 68
 
 Alignment is easily one of the most debated topics in roleplaying, and straddles the line between
 descriptive element and rules element. How it is treated varies wildly; for some GMs it's merely a

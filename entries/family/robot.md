@@ -6,12 +6,12 @@ source_ids = ["inner-sea-bestiary", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Bestiary
 
 Products of technology advanced far beyond even those of the gunsmiths of Alkenstar,
 [robots](ref/subtype/robot) represent [constructs](ref/type/construct) animated by engineering and

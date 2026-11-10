@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 557, Inner Sea Intrigue pg 51
 
 No other affliction is so prevalent as poison. From the fangs of a viper to the ichor-stained
 assassin's blade, poison is a constant threat. Poisons can be cured by successful saving throws and

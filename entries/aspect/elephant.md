@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "22"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Heroes of Golarion pg 22\
 The elephant is a symbol of both power and wisdom in Garund and Vudra. Shifters who take this aspect
 learn the value of applying their strength with precision. An elephant's alternate attacks are gore
 (P) and slam (B).

@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_tactics", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 147
 
 These tactics apply to the group, and can be used only if all characters agree to do so.
 

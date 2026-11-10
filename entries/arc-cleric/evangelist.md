@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "40"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The 1st-, 9th-, and 15th-level channel energy abilities"]
 alters = ["Spontaneous casting"]
 +++
 
-**Sources:** Ultimate Combat pg 40\
 The evangelist is the voice of her religion in the world. Where others nurture the faith among
 believers, an evangelist proclaims the coming glory of her deific patron and issues the clarion call
 to all around to heed the truth, or obey the call to war and crusade against the enemies of the

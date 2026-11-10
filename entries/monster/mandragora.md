@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mandragora", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "185"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ dirt, and pallid tubers._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 185, Pathfinder \#17: A Memory of Darkness pg 84\
 **Experience points:** 1,200
 
 **Armor class:** 17/15/13

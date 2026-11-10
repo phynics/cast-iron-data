@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reducing_magic_with_rules_adjustments", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 106
 
 Certain classes, like spellcasters, lose some of their effectiveness when deprived of magic items.
 If you restrict PC access to magic items, be sure to revisit all other aspects of the game system

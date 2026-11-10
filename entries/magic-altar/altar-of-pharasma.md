@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_pharasma", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "249"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 249\
 **Aura** moderate abjuration and conjuration; **CL** 7th\
 **Slot** none; **Price** 5,380 gp; **Weight** 1,000 lbs.
 

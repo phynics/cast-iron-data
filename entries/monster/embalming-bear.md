@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embalming_bear", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ pungent chemical fluid._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tears at Bitter Manor pg 60\
 **Experience points:** 3,200
 
 **Armor class:** 20/8/20

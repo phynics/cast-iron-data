@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_runes", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "279"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one touched object weighing no more than 10 lbs.
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 279
 
 You trace mystic runes upon a book, map, scroll, or similar object bearing written information. The
 explosive runes detonate when read, dealing 6d6 points of force damage. Anyone next to the explosive

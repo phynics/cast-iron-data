@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_gaze", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 135
 
 Not too far from the city is a famous holy site dedicated to a powerful deity. Pilgrims constantly
 trek to the site to receive the god's blessing, but recently those pilgrims have been found turned

@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditative_concentration", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "For 1 round per character level after you perform combat meditation, 
 +++
 
 ## Meditative Concentration (Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 Meditation clears your mind, allowing you to concentrate on your spells as if not distracted.\
 **Prerequisites:** Wis 13, [Combat Meditation](ref/feat/combat-meditation),

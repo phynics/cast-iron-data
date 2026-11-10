@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "A character with this feat and Equipment Trick who uses magical equip
 +++
 
 ## Shikigami Manipulation (Combat)
-
-**Sources:** Martial Arts Handbook pg 9
 
 You channel a magic item's power to enhance its improvised attacks, even though it was never meant
 to be used as a weapon.\

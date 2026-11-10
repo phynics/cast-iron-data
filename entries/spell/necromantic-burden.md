@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromantic_burden", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one undead creature
 :::
-
-**Sources:** Undead Slayer's Handbook pg 27
 
 You make an undead creature more difficult for necromancers and clerics to control via effects such
 as Command Undead or control undead. If the target fails its Will save, the target's effective

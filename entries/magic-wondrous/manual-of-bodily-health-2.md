@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manual_of_bodily_health_2", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "309"
+[[sources]]
+publication = "core-rulebook"
+page = "522"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "17th"
 
 ## Manual of Bodily Health
 
-**Sources:** Ultimate Equipment pg 309, PRPG Core Rulebook pg 522\
 **Aura** strong universal; **CL** 17th\
 **Slot** none; **Price** 27,500 gp (+1), 55,000 gp (+2), 82,500 gp (+3), 110,000 gp (+4), 137,500 gp
 (+5); **Weight** 5 lbs.

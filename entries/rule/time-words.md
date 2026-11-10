@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 185
 
 Spells containing time words alter the flow of time, speeding it up or slowing it down.
 

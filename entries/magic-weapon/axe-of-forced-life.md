@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_of_forced_life", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 28\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 45,310 gp; **Weight** 6 lbs.
 

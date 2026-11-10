@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "84"
 
 [fields]
 kind = "archetype"
 replaces = ["Countersong", "Inspire competence", "Suggestion", "Mass suggestion", "Bardic knowledge", "Versatile performance", "Well-versed"]
 +++
 
-**Sources:** Advanced Player's Guide pg 84\
 The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good
 fortune for their crew and hull as they ply the tradewinds far and wide.
 

@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnarled_tree", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Gnarled Tree (CR 5):** Some trees become poisoned and malignant, tainted by the corrupt land
 around them, and spring to a macabre semblance of animation to attack those who trespass on their

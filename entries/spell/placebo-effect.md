@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "placebo_effect", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "180"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: creature touched
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 180
 
 The subject temporarily ceases to feel the ill effects of a single ongoing affliction or condition
 from the following list: blinded, cursed, dazed, deafened, diseased, fatigued, frightened,

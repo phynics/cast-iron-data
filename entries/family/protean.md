@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Beings of pure chaos, the serpentine proteans slither through the anarchic improbabilities of
 [Limbo](ref/rule/limbo), remaking reality according to their whims. According to their own history,

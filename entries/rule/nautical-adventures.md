@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nautical_adventures", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "214"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 214
 
 Water can also provide the setting for a different and unique game experience: the nautical
 adventure. In such a scenario, the effects and dangers of underwater adventuring are replaced by

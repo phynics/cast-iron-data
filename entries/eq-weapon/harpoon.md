@@ -6,15 +6,21 @@ source_ids = ["ultimate-equipment", "pirates-of-the-inner-sea", "skull-and-shack
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harpoon", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "16 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pirates of the Inner Sea pg 19, Skull and Shackles Player's
-Guide pg 6
 
 A harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have
 metal points, but some use ivory or are made entirely of wood. If you are proficient with the

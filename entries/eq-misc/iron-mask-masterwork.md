@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_mask_masterwork", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "15"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "10 lbs. (common), 15 lbs. (masterwork)"
 
 ## Iron mask
 
-**Sources:** Path of the Hellknight pg 15\
 **Price** 75 gp (common), 150 gp (masterwork); **Weight** 10 lbs. (common), 15 lbs. (masterwork)
 
 This plain but heavy iron helmet covers the entire head and fastens around the neck and shoulders.

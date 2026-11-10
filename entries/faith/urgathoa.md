@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urgathoa", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "156"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Urgathoa**
 
 **Sub:** The Pallid Princess
-
-**Sources:** Inner Sea Gods pg 156
 
 ### Details
 

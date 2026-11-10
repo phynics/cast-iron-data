@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yai_mimic_spell", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can modify a ray spell to issue from the center of your forehead,
 +++
 
 ## Yai-Mimic Spell (Metamagic)
-
-**Sources:** Giant Hunter's Handbook pg 23
 
 You have studied the magical nature of giant oni and can use your spells to imitate their esoteric
 features.\

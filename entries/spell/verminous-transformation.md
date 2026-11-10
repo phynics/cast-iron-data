@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verminous_transformation", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "130"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Horror Adventures pg 130
 
 You partially transform your body into a swarm of bats, insects, rats, and spiders. As a standard
 action, you can send out a piece of your body to attack up to four Medium or smaller creatures (or

@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pickles_goblin_1_jar", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "12"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb."
 
 ## Pickles, Goblin (1 jar)
 
-**Sources:** Goblins of Golarion pg 12\
 **Price** 4 sp; **Weight** 1 lb.\
 **Category** Food/Drink
 

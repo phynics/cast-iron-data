@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "301"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Target: you or a creature or object weighing no more than 100 lbs./level
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 301
 
 The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that
 vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the

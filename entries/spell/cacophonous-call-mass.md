@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/cacophonous-call" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Cacophonous Call
-
-**Sources:** Advanced Player's Guide pg 208
 
 This spell functions as [cacophonous call](ref/spell/cacophonous-call), except that it affects
 multiple creatures.

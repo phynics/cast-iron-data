@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beldam_i", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "70"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 70\
 History has a divided memory when it comes to Grand Prince Beldam I. Scholars of the schism that
 took place between Taldor and its erstwhile territories paint a picture of a diplomatic emperor
 whose insightful approach resulted in a largely bloodless transition from a monolithic empire to a

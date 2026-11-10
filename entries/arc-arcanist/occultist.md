@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "78"
 
 [fields]
 kind = "archetype"
@@ -18,7 +21,6 @@ replaces = ["The arcanist exploit gained at 1st level", "The arcanist exploit ga
 > _**Note:** This is an arcanist archetype, and has no relation to the
 > [occultist](ref/class/occultist) occult class._
 
-**Sources:** Advanced Class Guide pg 78\
 Not all arcanists peer inward to discern the deepest secrets of magic. Some look outward, connecting
 with extraplanar creatures and bartering for secrets, power, and favor.
 

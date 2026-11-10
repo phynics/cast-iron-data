@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Bane", "greater bane", "Exploit weakness"]
 +++
 
-**Sources:** Ultimate Intrigue pg 29\
 Secret seekers are trained in the art of extracting answers from intransigent foes. Recognizing that
 torture is a poor method of securing truthful intelligence, secret seekers instead prefer magical
 means of inquiry.

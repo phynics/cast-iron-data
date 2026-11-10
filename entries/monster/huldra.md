@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huldra", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "151"
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _This woman's fox-like tail and the wood-lined hollow inside her back reveal her
 
 **Senses:** Darkvision 60 ft., Detect snares and pits, Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 151, Lands of the Linnorm Kings pg 59\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/13

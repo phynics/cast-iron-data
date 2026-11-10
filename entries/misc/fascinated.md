@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fascinated", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "567"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 567\
 A fascinated creature is entranced by a supernatural or spell effect. The creature stands or sits
 quietly, taking no actions other than to pay attention to the fascinating effect, for as long as the
 effect lasts. It takes a -4 penalty on skill checks made as reactions, such as Perception checks.

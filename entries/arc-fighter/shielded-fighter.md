@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "108"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1, 2, 3, and 4", "Weapon training 1", "Weapon training 2 and 3", "Weapon training 4", "Armor mastery", "Weapon mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 108\
 A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect
 balance to impede his enemies while delivering deadly blows, and even turning the shield itself into
 a formidable weapon. These fighting school benefits apply when wielding a weapon and a shield

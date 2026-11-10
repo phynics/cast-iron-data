@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shobhad", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "242"
+[[sources]]
+publication = "distant-worlds"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ leather chest harness._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 242, Distant Worlds pg 63\
 **Experience points:** 1,200
 
 **Armor class:** 18/10/17

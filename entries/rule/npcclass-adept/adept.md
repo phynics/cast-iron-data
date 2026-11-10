@@ -8,12 +8,13 @@ parent = "ref/npcclass/adept"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/npc_classes.json#adept|section:adept", path = "json/npc_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "448"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 448
 
 **Hit Die:** d6.
 

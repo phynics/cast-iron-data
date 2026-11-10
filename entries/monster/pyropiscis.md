@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyropiscis", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ from between its jagged teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 90\
 **Subtype:** Fire
 
 **tremorsense:** 60

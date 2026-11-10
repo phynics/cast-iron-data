@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firbolg", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "116"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ long, red hair and a bushy beard._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 116\
 **Subtype:** Giant
 
 **Experience points:** 1,200

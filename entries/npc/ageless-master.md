@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ageless_master", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "111"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 111\
 **XP** 204,800\
 Human [monk](ref/class/monk) 20\
 LN Medium outsider (human)\

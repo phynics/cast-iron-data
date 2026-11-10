@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negative_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "7"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Damage type:** energy
 
 **Damage:** negative energy
-
-**Source:** Occult Origins/7
 
 You blast your foe with negative energy. This blast and its composite blasts never heal creatures,
 even if they would normally be healed by negative energy (though such creatures still take no

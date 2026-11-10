@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dianxue_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Merchant's Manifest pg 10\
 **Aura** faint divination; **CL** 5th\
 **Slot** hands; **Price** 3,000 gp; **Weight** -
 

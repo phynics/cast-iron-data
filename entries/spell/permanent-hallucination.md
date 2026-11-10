@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/audiovisual-hallucination" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: mind-affecting
 :::
 
 ### Permanent Hallucination
-
-**Sources:** Ultimate Intrigue pg 221
 
 This spell functions as [audiovisual hallucination](ref/spell/audiovisual-hallucination), except
 that the phantasm you create includes visual, auditory, olfactory, tactile, and thermal components,

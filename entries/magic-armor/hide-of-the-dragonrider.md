@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_of_the_dragonrider", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 63\
 **Aura** moderate abjuration and enchantment; **CL** 8th\
 **Slot** armor; **Price** 18,480 gp; **Weight** 25 lbs.
 

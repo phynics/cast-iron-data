@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_athlete", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Each time you take the feat, i
 +++
 
 ## Armored Athlete (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 9
 
 You have experience using a skill while armored.\
 **Prerequisites:** Light armor proficiency, medium armor proficiency, 3 ranks in any Dexterity- or

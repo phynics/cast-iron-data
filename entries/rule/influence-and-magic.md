@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence_and_magic", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 103
 
 PCs can also use magic to assist in gaining influence over key NPCs. In most cases, casting
 mind-affecting or other intrusive spells is socially unacceptable or even criminal, so PCs who wish

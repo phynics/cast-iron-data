@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvaran", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "281"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ snarl._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 281\
 **Experience points:** 200
 
 **Armor class:** 17/12/15

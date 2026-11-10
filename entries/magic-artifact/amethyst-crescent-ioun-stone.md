@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amethyst_crescent_ioun_stone", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 23\
 **Aura** strong varied; **CL** 12th\
 **Slot** none; **Price** -; **Weight** -
 

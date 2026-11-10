@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_justice", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
+[[sources]]
+publication = "blood-of-angels"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "You no longer take a penalty to AC for using Archon Style to grant ne
 +++
 
 ## Archon Justice (Combat)
-
-**Sources:** Planar Adventures pg 25, Blood of Angels pg 24
 
 Attacking you during your period of vigilance opens foes up to allies' strikes.\
 **Prerequisites:** [Archon Diversion](ref/feat/archon-diversion);

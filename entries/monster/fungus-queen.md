@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungus_queen", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "130"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ pulsating mound of fungus._
 
 **Senses:** Darkvision 60 ft., Detect good, Low-light vision
 
-**Sources:** Bestiary 6 pg 130, Inner Sea Bestiary pg 12\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

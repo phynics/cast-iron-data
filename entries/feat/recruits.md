@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recruits", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "134"
+[[sources]]
+publication = "cohorts-and-companions"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "Cha 13, character level 5th."
 benefit = "You gain a number of cohorts (as per the Leadership feat) that represent NPCs you are responsible for instructing and overseeing. You have a number of such cohorts equal to half your character level. Unlike normal cohorts, these recruits must be at least 4 levels lower than your level. Since these recruits must spend most of their time studying and gaining experience, only one recruit can travel with you at a time (though they all gain experience at the same rate, as those not present are assumed to be studying and growing independently). Whenever you are in a major town or city, you can exchange the recruit currently accompanying you for a different member of your recruits."
 special = "The Recruits feat counts as the Leadership feat for purposes of fulfilling prerequisites. A character cannot have both Leadership and Recruits. A character with Recruits who later qualifies for Leadership can exchange this feat for Leadership immediately upon qualifying (selecting one minor cohort to become a full cohort, while the rest move on)."
 +++
-
-**Sources:** Ultimate Intrigue pg 134, Cohorts and Companions pg 30
 
 Be they students, retainers, new recruits to your order, or neophyte members of your faith, you have
 access to a small set of dedicated servants.\

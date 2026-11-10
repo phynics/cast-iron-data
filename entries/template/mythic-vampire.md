@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_vampire", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "220"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Mythic Adventures/220
 
 _This aristocratic figure could easily pass for human if not for the grave-pale skin, red eyes, and
 long fangs._

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarmbane_clasp", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "261"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 261\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** neck; **Price** 3,000 gp; **Weight** 1/2 lb.
 

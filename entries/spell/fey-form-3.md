@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fey-form-2" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Polymorph
 :::
 
 ### Fey Form III
-
-**Sources:** Ultimate Wilderness pg 230
 
 This spell functions as [fey form II](ref/spell/fey-form-2) except it allows you to assume the form
 of a Diminutive or Huge creature of the fey type. If the form you assume has any of the following

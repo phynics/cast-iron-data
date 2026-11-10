@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "westcrown_devil", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "48"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 48
 
 The [Council of Thieves'](ref/rule/aff-thieves) premier agents - called "devils" as an ironic nod to
 Cheliax's infernal rulers - are steeped in the lore and mystery of the Council's home city of

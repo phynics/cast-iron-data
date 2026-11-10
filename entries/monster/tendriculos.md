@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tendriculos", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "259"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ ravenous purple maw._
 
 **Type:** plant
 
-**Sources:** Bestiary 2 pg 259\
 **Experience points:** 2,400
 
 **Armor class:** 19/7/19

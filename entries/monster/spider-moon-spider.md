@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_moon_spider", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "156"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ malign intelligence._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** The Emerald Spire Superdungeon pg 156\
 **tremorsense:** 60
 
 **Experience points:** 600

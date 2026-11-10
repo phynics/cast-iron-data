@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_pin", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you [pin](ref/rule/grapple) an opponent, you can spend a swi
 +++
 
 ## Stunning Pin (Combat)
-
-**Sources:** Ultimate Combat pg 122
 
 You can render a pinned foe temporarily incapacitated.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

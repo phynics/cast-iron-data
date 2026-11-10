@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_far_traveler", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Planar Adventures pg 54\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** head; **Price** 38,000 gp; **Weight** 1/2 lb.
 

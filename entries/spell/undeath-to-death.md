@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/circle-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "363"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: several undead creatures within a 40-ft.-radius burst
 :::
-
-**Sources:** PRPG Core Rulebook pg 363
 
 This spell functions like [circle of death](ref/spell/circle-of-death), except that it destroys
 undead creatures as noted above.

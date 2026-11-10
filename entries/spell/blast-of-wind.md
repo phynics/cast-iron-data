@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/gust-of-wind" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Descriptors: air
 :::
 
 ### Blast of Wind
-
-**Sources:** Elemental Master's Handbook pg 17
 
 With a spiraling gesture of your hand and a forceful exhalation, you create a brief but fierce (90
 mph) blast of wind. This spell functions as [gust of wind](ref/spell/gust-of-wind), except all

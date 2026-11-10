@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_stand", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a swift action, you can prevent yourself or an adjacent ally from 
 +++
 
 ## Shielded Stand (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 You can cover an effort to regain your feet.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +3 or fighter level 1st.\

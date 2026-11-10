@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eloko_bell", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 41\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 5,000 gp; **Weight** -
 

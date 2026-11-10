@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarenrae", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "132"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Sarenrae**
 
 **Sub:** The Dawnflower
-
-**Sources:** Inner Sea Gods pg 132
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_hound", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ body._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 62\
 **Subtype:** Clockwork
 
 **Experience points:** 1,600

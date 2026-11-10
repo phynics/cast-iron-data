@@ -6,14 +6,15 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upion_and_warrik", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "74"
 
 [fields]
 kind = "none"
 +++
 
 **Upion and Warrik**
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 74
 
 ### Details
 

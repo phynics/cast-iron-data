@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unshakable_chill", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 246
 
 The target is filled with an unshakable chill for the duration of the spell, and suffers from the
 effects of severe cold. Severe cold means if the initial saving throw fails, the target takes 1d6

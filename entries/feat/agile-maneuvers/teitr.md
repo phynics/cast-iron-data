@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/agile-maneuvers" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ normal = "You add your Strength bonus to your base attack bonus and size bonus w
 special = "With or without this feat, when you are using a finesse weapon, you may use your Dexterity bonus in place of your Strength bonus when attempting a disarm, sunder, or trip maneuver."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 This feat is renamed **Agile Combatant**.
 
 You've learned to use your quickness in place of brute force when performing combat maneuvers.\

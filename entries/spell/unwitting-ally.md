@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwitting_ally", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "253"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one living creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 253
 
 You befuddle the target's mind. The target has difficulty telling friend from foe for a short period
 of time. The subject is considered your ally and not your enemies' ally while determining flanking.

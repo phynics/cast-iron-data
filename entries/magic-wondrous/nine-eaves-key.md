@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_eaves_key", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "37"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 37\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

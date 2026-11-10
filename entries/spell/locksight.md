@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locksight", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Heroes of the Streets pg 31
 
 The target can observe for 1 full round a lock that he is aware of (or object that includes a lock,
 such as a chest or door) that is within 60 feet to automatically determine whether it is open,

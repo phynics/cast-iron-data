@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "Track"]
 alters = ["Alignment requirements"]
 +++
 
-**Sources:** Merchant's Manifest pg 30\
 Servants of gods who hold oaths to be sacrosanct, oathkeepers formally oversee the creation of
 bargains and personally hunt down those who dare to violate them. Many of these inquisitors
 previously oversaw religious vows in more formal settings, though more pursue more lucrative

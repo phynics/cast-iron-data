@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_dancer", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ dark cloth._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 43\
 **Subtype:** Dark folk
 
 **Experience points:** 400

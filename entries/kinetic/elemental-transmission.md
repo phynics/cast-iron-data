@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_transmission", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Will negates
 
 **Spell resistance:** yes
-
-**Source:** Wilderness Origins/28
 
 You reach out to a creature with which you are familiar by using a conduit through an elemental
 plane.

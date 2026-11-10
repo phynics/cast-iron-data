@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbiosis", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "93"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Ultimate Wilderness pg 93\
 Like pollen on the wind or the roots of plants in the ground, your thoughts permeate your
 surroundings, allowing you to study and manipulate the world around you.
 

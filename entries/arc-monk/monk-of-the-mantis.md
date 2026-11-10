@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-, 6th-, 10th-, 14th-, and 18th-level bonus feats", "Wholeness o
 alters = ["Quivering palm"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 11\
 A body contains many points where the flesh, mind, and spirit coincide. A monk of the mantis is
 skilled at manipulating these points. With precise strikes, she temporarily disrupts a body's
 connection with the rest of the self.

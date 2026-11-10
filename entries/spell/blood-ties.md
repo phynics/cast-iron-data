@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_ties", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "110"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: two living creatures
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 110
 
 One of the targets of this spell must be a hostage - a bound, pinned, or helpless creature within
 your reach (though the spell doesn't end if the hostage later moves beyond your reach). The second

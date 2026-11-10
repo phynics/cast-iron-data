@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rings_pu", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 159
 
 Rings work in much the same way as wondrous items.
 

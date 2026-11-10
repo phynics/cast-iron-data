@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal", path = "json/class_ability_domains.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "41"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 41
 
 **Granted Powers:** You can speak with and befriend animals with ease.
 

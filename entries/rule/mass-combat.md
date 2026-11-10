@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mass_combat", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 234
 
 Sooner or later, even the most peaceable kingdom will find itself faced with the prospect of war.
 While some kingdoms at odds with your own might be willing to compromise, others are not amenable to

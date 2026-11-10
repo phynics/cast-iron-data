@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balance", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 55
 
 You can attempt an Acrobatics check to keep your balance while crossing narrow surfaces or
 treacherous ground. If you fail, you fall or are knocked prone. You move at half speed while

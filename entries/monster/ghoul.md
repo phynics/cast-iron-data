@@ -6,6 +6,9 @@ source_ids = ["bestiary", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ starved frame._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 146\
 **Type:** undead
 
 **Experience points:** 400

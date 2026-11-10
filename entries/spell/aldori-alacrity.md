@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_alacrity", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 27
 
 This spell's energy quickens your steps, allowing fancy footwork. You gain a +10 foot enhancement
 bonus to your speed and a dodge bonus to your AC. These bonuses do not stack with those granted by

@@ -6,14 +6,15 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surface_scout", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "15"
 
 [fields]
 kind = "feat"
 prerequisites = "Drow, spell-like abilities drow racial trait."
 benefit = "You can use fear the sun and ignoble form each once per day as a spell-like ability. Your caster level is equal to your character level."
 +++
-
-**Sources:** Blood of Shadows pg 15
 
 You were trained from youth to infiltrate and ambush aboveground settlements.\
 **Prerequisites:** [Drow](ref/race/drow), [spell-like abilities](ref/umr/spell-like-abilities) drow

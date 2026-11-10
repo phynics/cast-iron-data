@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_moon_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ craters on its rock-like surface._
 
 **Senses:** Low-light vision, True seeing
 
-**Sources:** Bestiary 5 pg 122\
 **Subtype:** Giant
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taxidermic_creature", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "240"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Bestiary 5/240
 
 Taxidermic creatures are the work of obsessed individuals seeking to use their alchemical or occult
 talents to preserve and reanimate lifeless beings. The abilities of taxidermic creatures often pale

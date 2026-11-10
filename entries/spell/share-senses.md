@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_senses", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: your familiar
 Subschool: Scrying
 :::
-
-**Sources:** Advanced Player's Guide pg 243
 
 Spending a moment in meditation and conjuring an image of the creature to mind, you reshape your
 link with your familiar, causing it to functions like a scrying sensor. Upon casting this spell you

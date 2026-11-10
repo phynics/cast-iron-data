@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rust_monster", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ and two long, feathery antennae._
 
 **Senses:** Darkvision 60 ft., Scent metals 90 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 238\
 **Experience points:** 800
 
 **Armor class:** 18/13/15

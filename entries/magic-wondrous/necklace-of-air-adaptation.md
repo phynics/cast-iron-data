@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_air_adaptation", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 29\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_channeled_life", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "100"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Advanced Race Guide pg 100\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** neck; **Price** 12,000 gp; **Weight** 1/2 lb.
 

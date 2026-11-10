@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-thoughts" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "164"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates, see text
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** Occult Adventures pg 164
 
 This spell functions similarly to [detect thoughts](ref/spell/detect-thoughts), allowing you to
 sense when one or more creatures' consciousnesses are inside a [mindscape](ref/rule/mindscapes). The

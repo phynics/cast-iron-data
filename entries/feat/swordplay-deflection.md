@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordplay_deflection", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Swordplay Style, when you make one or more melee attacks,
 +++
 
 ## Swordplay Deflection (Combat)
-
-**Sources:** Weapon Master's Handbook pg 17
 
 You can deflect incoming attacks.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

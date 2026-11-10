@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_megatherium", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "187"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ foliage._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 187\
 **Experience points:** 1,600
 
 **Armor class:** 18/8/18

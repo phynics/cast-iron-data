@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_blast", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "121"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will half
 Spell resistance: yes
 Area: 150 ft. line
 :::
-
-**Sources:** Horror Adventures pg 121
 
 This spell must be cast in an area with vegetation or it has no effect. When you cast this spell,
 you draw the life force from the surrounding land and hurl it at your enemies, dealing 1d6 points of

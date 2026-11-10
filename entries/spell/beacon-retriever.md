@@ -6,12 +6,14 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beacon_retriever", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "75"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 75\
 **School** conjuration (calling) \[chaotic, evil\]; **Level** 8\
 **Casting Time** 8 hours\
 **Components** V, S, M (rare incenses and expensive phosphorescent inks used to scribe a conjuring

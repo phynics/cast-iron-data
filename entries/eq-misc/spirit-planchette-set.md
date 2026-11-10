@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_planchette_set", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 19\
 **Price** 25 gp; **Weight** 5 lbs.\
 **Category** Adventuring Gear
 

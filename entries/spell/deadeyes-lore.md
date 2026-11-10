@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadeyes_lore", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "226"
+[[sources]]
+publication = "faiths-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 226, Faiths of Purity pg 28
 
 While subject to this spell, you take upon yourself the mantle of the hunter, channeling the
 insights of the spirits of the wild. You gain a +4 sacred bonus on all Survival checks for the

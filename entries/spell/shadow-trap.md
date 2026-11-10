@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_trap", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Shadow
 :::
-
-**Sources:** Blood of Shadows pg 31
 
 You pin the target's shadow to its current location, causing the target to become entangled and
 preventing it from moving farther than 5 feet from its original position, as if its shadow were

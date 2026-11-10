@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_backgrounds", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 59
 
 Every player is different when it comes to creating character backgrounds. Some like to write whole
 novels, while others just want a name and a weapon. Both approaches are completely valid, but come

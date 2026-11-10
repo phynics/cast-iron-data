@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/raise-dead" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "334"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: dead creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 334
 
 This spell functions like [raise dead](ref/spell/raise-dead), except that you are able to restore
 life and complete strength to any deceased creature.

@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrying", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Scrying (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 A scrying spell creates an invisible magical sensor that sends you information. Unless noted
 otherwise, the sensor has the same powers of sensory acuity that you possess. This level of acuity

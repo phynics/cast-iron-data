@@ -6,6 +6,12 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove", "artifacts-and-legends"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_pride_baraket", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "51"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "50"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ slot = "none"
 caster_level = "16th"
 +++
 
-**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 51, Artifacts and Legends pg 50\
 **Aura**; **CL** 16th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

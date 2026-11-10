@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_innocuity", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Targets: one willing creature plus one/2 caster levels, no two of which can be m
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Heroes of the High Court pg 10
 
 All affected creatures are veiled with a commonplace appearance. This appearance varies based on the
 viewer, but is always an ordinary member of that viewer's race, ethnicity, or nationality. This

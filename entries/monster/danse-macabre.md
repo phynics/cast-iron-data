@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwal
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "danse_macabre", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "470"
+[[sources]]
+publication = "pathfinder-11-skeletons-of-scarwall"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Curse of the Crimson Throne pg 470, Pathfinder \#11: Skeletons of Scarwall pg 80\
 **Subtype:** Incorporeal
 
 **Type:** undead

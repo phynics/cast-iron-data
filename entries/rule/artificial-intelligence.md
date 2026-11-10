@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artificial_intelligence", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 58\
 Among the most marvelous of technological wonders are artificial intelligences. Each artificial
 intelligence (or AI) has its own personality and interests, but its actual ability to interact with
 the world requires a being installed into a robot or structure (known as a host).

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_dancer", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "99"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 99\
 **XP** 3,200\
 Half-orc [monk](ref/class/monk) 8\
 LE Medium humanoid (human, orc)\

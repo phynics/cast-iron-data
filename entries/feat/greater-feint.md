@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_feint", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "A creature you feint loses its Dexterity bonus against your next attac
 +++
 
 ## Greater Feint (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 You are skilled at making foes overreact to your attacks.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "core-ruleboo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_curve_blade", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "7 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder Campaign Setting pg 209, PRPG Core Rulebook pg 143
 
 Essentially a longer version of a [scimitar](ref/eq-weapon/scimitar), but with a thinner blade, the
 elven curve blade is exceptionally rare. You receive a +2 circumstance bonus to your CMD whenever a

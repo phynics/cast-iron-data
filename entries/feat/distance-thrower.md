@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distance_thrower", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "With a thrown weapon, you reduce your penalty on ranged attack rolls 
 +++
 
 ## Distance Thrower (Combat)
-
-**Sources:** Ultimate Combat pg 97
 
 You are accurate with thrown weapons at longer ranges than normal.\
 **Prerequisites:** Str 13.\

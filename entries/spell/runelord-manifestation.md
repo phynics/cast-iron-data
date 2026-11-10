@@ -6,12 +6,14 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runelord_manifestation", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "77"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 77\
 **School** divination (scrying); **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (a pool of water), F (a silver mirror worth 5,000 gp), SC (up to 8)\

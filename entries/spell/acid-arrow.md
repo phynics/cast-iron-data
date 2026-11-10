@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_arrow", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: one arrow of acid
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** PRPG Core Rulebook pg 239
 
 An arrow of acid springs from your hand and speeds to its target. You must succeed on a ranged touch
 attack to hit your target. The arrow deals 2d4 points of acid damage with no splash damage. For

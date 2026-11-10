@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disheartening_display", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully use Dazzling Display against any shaken, fright
 +++
 
 ## Disheartening Display (Combat)
-
-**Sources:** Advanced Class Guide pg 144
 
 Your show of prowess further demoralizes others.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

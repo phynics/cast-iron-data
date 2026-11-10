@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/endurance", label = "or" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "For the purpose of class features (such as a ranger's combat style, a
 +++
 
 ## Agile Maiden (Combat)
-
-**Sources:** Adventurer's Guide pg 84
 
 The [Gray Maidens'](ref/rule/aff-scarred-ladies) signature armor hinders you less than others.\
 **Prerequisites:** Str 13; Dex 13; [Endurance](ref/feat/endurance) or armor training class feature;

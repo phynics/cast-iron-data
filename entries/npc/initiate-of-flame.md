@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "initiate_of_flame", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 62\
 **XP** 200\
 Dwarf [druid](ref/class/druid) 1\
 LN Medium humanoid (dwarf)\

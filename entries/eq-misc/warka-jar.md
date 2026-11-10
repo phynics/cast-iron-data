@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warka_jar", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "26"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Merchant's Manifest pg 26\
 **Price** 2 gp; **Weight** 1/2 lb.\
 **Category** Adventuring Gear
 

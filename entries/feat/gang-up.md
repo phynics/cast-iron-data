@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gang_up", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You must be positioned opposite an ally to flank an opponent."
 +++
 
 ## Gang Up (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 You are adept at using greater numbers against foes.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise).\

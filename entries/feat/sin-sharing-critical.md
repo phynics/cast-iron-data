@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_sharing_critical", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can apply the effects of only one critical feat to a given critic
 +++
 
 ## Sin-Sharing Critical (Combat, Critical)
-
-**Sources:** Blood of the Coven pg 20
 
 Your hateful focus can sometimes spread your own misfortune to others in combat.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +13.\

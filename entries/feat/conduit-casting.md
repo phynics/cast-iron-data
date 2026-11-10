@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conduit_casting", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are within 30 feet of an ally who also has this feat, yo
 +++
 
 ## Conduit Casting (Teamwork)
-
-**Sources:** Legacy of the First World pg 19
 
 Your magic flows through your ally.\
 **Prerequisites:** Spellcraft 3 ranks.\

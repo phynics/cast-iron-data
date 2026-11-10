@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simple_actions", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 103
 
 The following are some of the more common actions. To take any of them, you need to commit only 1
 act (though some can be taken as free actions under special circumstances).

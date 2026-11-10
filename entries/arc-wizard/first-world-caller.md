@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Arcane school", "Scribe Scroll", "10th- and 15th-level bonus feats"
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Heroes from the Fringe pg 17\
 Some wizards, typically First World [gnomes](ref/race/gnome), have mystical ties with the First
 World, the primordial home of the fey. This bond allows them to more easily conjure creatures and
 effects from the First World, giving them the nickname of First World callers.

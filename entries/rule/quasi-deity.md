@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quasi_deity", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 70
 
 Quasi deities are the least powerful of the divine, and the most eclectic in their nature. A quasi
 deity has a stat block, and can be of any CR (although the vast majority lie in the CR 21-25 range).

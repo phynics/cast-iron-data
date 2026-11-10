@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/alter-self" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "108"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Horror Adventures pg 108
 
 This spell functions similarly to [alter self](ref/spell/alter-self), except for the following
 differences. You assume the exact form of a deceased Small or Medium creature of the humanoid type.

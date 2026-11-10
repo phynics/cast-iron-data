@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tdw_4", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "386"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 386
 
 ### Table 7-48: 4th-Level Wands
 

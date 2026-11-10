@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orynox_marchelin", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ his prowess as a warrior._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 21\
 **Subtype:** Fire, Giant
 
 **Experience points:** 204,800

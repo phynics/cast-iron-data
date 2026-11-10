@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eclipse_strike", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "205"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can attack with an eclipse strike as a standard action if you and
 +++
 
 ## Eclipse Strike (Teamwork)
-
-**Sources:** Inner Sea Races pg 205
 
 A sudden darkness disorients your foe, leaving it unprotected against your blinding attack.\
 **Prerequisites:** [Tiefling](ref/race/tiefling), darkness racial

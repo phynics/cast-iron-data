@@ -6,6 +6,9 @@ source_ids = ["murders-mark"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarf_of_the_suggestive_dance", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "murders-mark"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Sources:** Murder's Mark pg 17\
 **Aura** faint enchantment; **CL** 1st\
 **Slot** belt; **Price** 3,000 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urburg_armbreaker", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ studded with dragon's teeth._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 33\
 **Subtype:** Giant
 
 **Experience points:** 25,600

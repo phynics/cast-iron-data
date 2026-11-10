@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reputation_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 50
 
 **Reputation:** The militia's reputation represents how the militia (and the PCs) are viewed in
 different cities - many cities will be indifferent toward it, while others may be friendly,

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spark", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (object)
 Target: one Fine object
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 246
 
 You can make an unattended Fine flammable object catch on fire. This works as if you were using
 flint and steel except that you can use spark in any sort of weather and it takes much less time to

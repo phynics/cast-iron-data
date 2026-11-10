@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elephant", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "128"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _These thick-skinned animals bear large ivory tusks flanking a long, prehensile 
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 128\
 **Experience points:** 3,200
 
 **Armor class:** 17/8/17

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slick_walls", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: 30-ft.-radius emanation centered on a point in space
 Subschool: Creation
 :::
-
-**Sources:** Monster Hunter's Handbook pg 31
 
 You coat all walls and ceilings within the spell's area with a slick substance. The DC of all Climb
 checks for the affected surfaces increases by twice your caster level (maximum +20). Creatures

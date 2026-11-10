@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormbolts", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: a 30-ft.-radius spread, centered on you
 Descriptors: electricity
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 When you cast this spell, lightning spills forth from your body in all directions. The bolts do not
 harm natural vegetation or creatures in the area you wish to exclude from damage. Any other

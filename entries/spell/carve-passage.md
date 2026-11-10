@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carve_passage", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Area: dirt or loose rock in one 5-ft. cube/level
 Descriptors: earth
 :::
-
-**Sources:** Inner Sea Races pg 218
 
 > _The following spell is available to the indicated race or ethnicity: [Kobold](ref/race/kobold)_
 

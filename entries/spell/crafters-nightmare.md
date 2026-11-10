@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_nightmare", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Area: one 5-ft. cube/level (S)
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 27
 
 You concentrate feelings of competitiveness, envy, and ill will into a poltergeist-like haunt that
 wreaks havoc on its victim's long-term endeavors. Every time a creature in the affected area

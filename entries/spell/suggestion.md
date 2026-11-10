@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suggestion", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 350
 
 You influence the actions of the target creature by suggesting a course of activity (limited to a
 sentence or two). The suggestion must be worded in such a manner as to make the activity sound

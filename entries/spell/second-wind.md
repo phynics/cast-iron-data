@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_wind", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: you
 Subschool: Healing
 Descriptors: air
 :::
-
-**Sources:** Elemental Master's Handbook pg 18
 
 You can cast this spell only when you have fewer than one-quarter of your total hit points. With a
 gasping utterance, you summon invigorating air to fill your lungs. You heal 2d8 points of damage + 1

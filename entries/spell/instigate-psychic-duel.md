@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instigate_psychic_duel", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Targets: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 174
 
 You begin a [psychic duel](ref/rule/psychic-duels) with a creature. This psychic duel takes place on
 a [binary mindscape](ref/rule/binary-mindscapes) that includes only two minds: yours and the

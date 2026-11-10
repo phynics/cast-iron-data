@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_projection", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Descriptors: evil
 :::
-
-**Sources:** Advanced Player's Guide pg 243
 
 With this spell, you infuse your life force and psyche into your shadow, giving it independent life
 and movement as if it were an undead [shadow](ref/monster/shadow). Your physical body lies comatose

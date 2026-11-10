@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_sword", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "297"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: melee weapon touched
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 297
 
 This spell allows you to channel holy power into your sword, or any other melee weapon you choose.
 The weapon acts as a +5 [holy](ref/magic-enh/holy) weapon (+5 enhancement bonus on attack and damage

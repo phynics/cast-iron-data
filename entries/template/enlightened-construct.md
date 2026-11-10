@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_construct", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "40"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1, +2, or +3
-
-**Source:** Construct Handbook/40
 
 Infused with powerful psychic energy, enlightened constructs have access to strange and deadly
 mental powers. Highly intelligent and secretive, these constructs typically serve as henchmen to

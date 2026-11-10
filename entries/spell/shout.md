@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shout", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (object)
 Area: cone-shaped burst
 Descriptors: sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 343
 
 You emit an ear-splitting yell that deafens and damages creatures in its path. Any creature within
 the area is deafened for 2d6 rounds and takes 5d6 points of sonic damage. A successful save negates

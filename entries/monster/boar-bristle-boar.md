@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_bristle_boar", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ eyes._
 
 **Senses:** Low-light vision
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 56\
 **Experience points:** 800
 
 **Armor class:** 16/10/16

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "76"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense"]
 +++
 
-**Sources:** Ultimate Wilderness pg 76\
 Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders
 are tribespeople who raid to supplement their hardscrabble existence, while others are career
 thieves who take to the desert to avoid the noose. To survive, a desert raider must learn the

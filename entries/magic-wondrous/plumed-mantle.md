@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plumed_mantle", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 69\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** shoulders; **Price** 39,550 gp; **Weight** -
 

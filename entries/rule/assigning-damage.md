@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assigning_damage", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 241
 
 For each of the monster's attacks, cross-reference the total amount of damage dealt with its
 appropriate die size on the table below. This will assign a value of damage dice to roll plus a flat

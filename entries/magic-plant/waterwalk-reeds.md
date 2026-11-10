@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterwalk_reeds", path = "json/magic_plant.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Wilderness pg 250\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 30,000 gp; **Weight** 50 lbs.
 

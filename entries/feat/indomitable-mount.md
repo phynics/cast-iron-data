@@ -6,6 +6,9 @@ source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mount", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "cities-of-golarion"
+page = "50"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round when your mount must make a saving throw, you can make
 +++
 
 ## Indomitable Mount (Combat)
-
-**Sources:** Cities of Golarion pg 50
 
 Your skill at riding helps your mount avoid attacks.\
 **Prerequisites:** [Mounted Combat](ref/feat/mounted-combat), Handle Animal 5 ranks, Ride 5 ranks,

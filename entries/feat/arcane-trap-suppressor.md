@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_trap_suppressor", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Ability to cast dispel magic or greater dispel magic as a spell
 benefit = "When you target a magic trap with *dispel magic* or *greater dispel magic,* if your caster level check exceeds the Disable Device DC of the trap, the trap is disabled for 1d4 minutes."
 normal = "*Dispel magic* suppresses an item's magical properties for 1d4 rounds."
 +++
-
-**Sources:** Dungeoneer's Handbook pg 8
 
 Your magic can suppress magic traps longer than usual.\
 **Prerequisites:** Ability to cast [dispel magic](ref/spell/dispel-magic) or

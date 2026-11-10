@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/aspect-of-the-beast", label = "or" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ normal = "Charging is a special full-round action that limits you to a single at
 +++
 
 ## Claw Pounce (Combat)
-
-**Sources:** Advanced Race Guide pg 94
 
 You can charge and make an attack with your paws.\
 **Prerequisites:** Str 13, Dex 15, [Nimble Striker](ref/feat/nimble-striker), base attack bonus +10,

@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hataam", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "132"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hataam**
 
 **Sub:** The River Eater
-
-**Sources:** Book of the Damned pg 132
 
 ### Details
 

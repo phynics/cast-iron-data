@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cecaelia", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _In place of legs, this handsome humanoid sports an octopus's eight writhing ten
 
 **Senses:** Darkvision 60 ft., Tentacle sense 10 ft.
 
-**Sources:** Bestiary 3 pg 49\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

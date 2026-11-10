@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathweb", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "65"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ from its body like drops of blood._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 65, Pathfinder \#4: Fortress of the Stone Giants pg 79\
 **Type:** undead
 
 **Experience points:** 2,400

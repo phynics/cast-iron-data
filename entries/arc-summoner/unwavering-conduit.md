@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "17"
 
 [fields]
 kind = "archetype"
 alters = ["Eidolon", "Summon monster", "Spells known"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 17\
 Unwavering conduits work to keep everything ordered and regimented, drawing on power from the
 Eternal City of Axis, Heaven, or Hell to enforce whichever laws the summoner finds paramount. Lawful
 good unwavering conduits often work with Riftwardens to protect the integrity of the Great Beyond,

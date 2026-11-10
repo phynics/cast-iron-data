@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_rider", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "14"
 
 **Challenge rating:** 14
 
-**Sources:** Inner Sea NPC Codex pg 36\
 **XP** 38,400\
 Human [barbarian](ref/class/barbarian) 3/[druid](ref/class/druid) 6/mammoth rider 6\
 CN Medium humanoid (human)\

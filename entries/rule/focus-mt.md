@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focus_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 49
 
 **Focus:** When the PCs create a militia, the party members as a group must decide which
 organization check they want their organization to concentrate on. Their bonuses for that

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stacking", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 13
 
 Stacking refers to the act of adding together bonuses or penalties that apply to one particular
 check or statistic. Generally speaking, most [bonuses](ref/misc/bonus) of the same type do not

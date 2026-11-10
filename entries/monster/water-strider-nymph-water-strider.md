@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_strider_nymph_water_strider", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "273"
 
 [fields]
 kind = "creature"
@@ -38,8 +41,6 @@ _These small, immature water insects are easily supported by the water's surface
 **Senses:** Darkvision 60 ft.
 
 **Size:** small
-
-**Sources:** Bestiary 4 pg 273
 
 **tremorsense:** 60 ft. (see [giant water strider](ref/monster/water-strider-giant-water-strider))
 

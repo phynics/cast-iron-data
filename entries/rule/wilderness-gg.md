@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_gg", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 220
 
 Game Masters frequently use wilderness travel simply as a means for the PCs to get from point A to
 point B, with an occasional random encounter thrown in to liven up the proceedings. But the

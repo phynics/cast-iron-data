@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_blade", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "283"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: sword-like beam
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 283
 
 A 3-foot-long, blazing beam of red-hot fire springs forth from your hand. You wield this blade-like
 beam as if it were a scimitar. Attacks with the flame blade are melee touch attacks. The blade deals

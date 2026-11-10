@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "32"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "poison lore", "poison resistance", "poison immunity"
 alters = ["Class skills", "inspiration", "Studied strike", "the investigator talent gained at 5th level"]
 +++
 
-**Sources:** Ultimate Intrigue pg 32\
 A cipher is a student of nonexistence. He trains himself to remain undetected and ignored in order
 to conduct his investigations without opposition or bothersome questions. By staying unseen, a
 cipher can follow and observe his quarry; being overlooked in a crowd suits him just fine.

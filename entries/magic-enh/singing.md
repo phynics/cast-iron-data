@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "singing", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 26\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anemos", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ along her skin._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 20\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 153,600

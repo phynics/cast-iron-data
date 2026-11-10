@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_harrow", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 40
 
 The modern [harrow deck](ref/eq-misc/harrow-deck) is the culmination of millennia of storytelling,
 travel, arcane research, and shared tragedy. Though many wanderers and gamblers claim to read the

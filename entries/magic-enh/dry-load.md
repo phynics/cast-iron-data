@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dry_load", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "140"
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 140, Ultimate Combat pg 141\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** weapon quality; **Price** +1,500 gp; **Weight** -
 

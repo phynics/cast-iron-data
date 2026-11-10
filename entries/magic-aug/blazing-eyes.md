@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_eyes", path = "json/magic_elemental_augmentations.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "13th"
 +++
-
-**Sources:** Elemental Master's Handbook pg 24
 
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 42,000 gp; **Weight** —

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spinning_throw", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Per the Ki Throw feat, a monk can use ki to affect creatures larger t
 +++
 
 ## Spinning Throw (Combat)
-
-**Sources:** Ultimate Combat pg 120
 
 You whirl your foe around and then let go.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

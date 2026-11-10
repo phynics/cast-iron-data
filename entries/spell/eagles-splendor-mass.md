@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/eagles-splendor" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "275"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 275
 
 This spell functions like [eagle's splendor](ref/spell/eagles-splendor), except that it affects
 multiple creatures.

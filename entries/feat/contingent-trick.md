@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_trick", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can implant a contingent trick in a target's mind, following the 
 +++
 
 ## Contingent Trick (Trick)
-
-**Sources:** Psychic Anthology pg 16
 
 You implant a flexible mesmerist trick in the target, triggering the more beneficial trick when the
 time is right.\

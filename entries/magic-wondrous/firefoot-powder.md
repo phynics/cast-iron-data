@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firefoot_powder", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Rival Guide pg 17\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

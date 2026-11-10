@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooded_harbinger", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ dislocated and hanging freely. A hood of the same jaundiced fabric obscures its 
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 88\
 **Experience points:** 19,200
 
 **Armor class:** 27/17/23

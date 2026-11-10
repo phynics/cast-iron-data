@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pick_your_poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "238"
+[[sources]]
+publication = "gods-and-magic"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Target: creature touched
 Subschool: Healing
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 238, Gods and Magic pg 11
 
 This spell temporarily converts even the deadliest poison affecting a creature into an intoxicating
 alcohol. If the subject is affected by a poison effect while under the effects of this spell,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_oracular_cyclops", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "73"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 73\
 **Subtype:** Giant
 
 **Experience points:** 3,200

@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/improved-unarmed-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/weapon-focus", label = "or" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "A monk of at least 6th level with this feat can select Vital Strike a
 +++
 
 ## Diabolic Style (Combat, Style)
-
-**Sources:** Planar Adventures pg 27
 
 You utilize combat as an opportunity to inflict humiliation upon those who provoke your attacks of
 opportunity.\

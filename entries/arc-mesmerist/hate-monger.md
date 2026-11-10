@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "61"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "Mental potency", "manifold tricks", "7th-level b
 alters = ["Mesmerist tricks", "Touch treatment"]
 +++
 
-**Sources:** Horror Adventures pg 61\
 Hate-mongers are xenophobic and judgmental rabblerousers who whip up mobs against enemies real or
 imagined.
 

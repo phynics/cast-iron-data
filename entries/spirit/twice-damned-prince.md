@@ -6,13 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twice_damned_prince", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "52"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Adventurer's Guide pg 52\
 Eccardian Drovenge, son of [Mammon](ref/monster/archdevil-mammon), was slain atop the Arodennama
 during a bid for rulership of Westcrown, in a battle that saw the collapse of the Council of
 Thieves. It was Aspexia's accidental communion with his spirit during a recent _seance_ at the

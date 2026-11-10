@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designated_antagonist", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a skill check using Antagonize, you can cause the
 +++
 
 ## Designated Antagonist (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 When you antagonize your foes, you can redirect their enmity to your ally.\
 **Prerequisites:** [Antagonize](ref/feat/antagonize).\

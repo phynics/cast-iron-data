@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Damage reduction"]
 +++
 
-**Sources:** Advanced Player's Guide pg 79\
 Many barbarians distrust magic. While most just shy away from magic, others focus their rage on
 users of such foul arts. These barbarians are naturally distrusting, and develop keen senses to
 protect them from harm. A superstitious barbarian has the following class features.

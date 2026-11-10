@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reapers_lantern", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Villain Codex pg 69\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 9,515 gp; **Weight** 10 lbs.
 

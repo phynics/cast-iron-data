@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_d_scrolls", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "372"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 372
 
 ### Table 7-20: Random Scrolls
 

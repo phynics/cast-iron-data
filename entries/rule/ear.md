@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 194
 
 Ears are the organs used to hear. Creatures without visible ears generally aren't susceptible to
 called shots to that location. Called shots to the ear are challenging (-10 penalty).

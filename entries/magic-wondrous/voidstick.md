@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voidstick", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "91"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy [evil]"
 caster_level = "5"
 +++
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 91\
 **Aura** faint necromancy \[evil\]; **CL** 5\
 **Slot** special; **Price** 2,500 gp; **Weight** 1 lb.
 

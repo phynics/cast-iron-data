@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_stygian_lesser", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "51"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Stygian
 
-**Sources:** Planar Adventures pg 51\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 9,000 gp (lesser \[up to 3rd-level spells\]), 32,500 gp (normal \[up to
 6th-level spells\]), 73,000 gp (greater \[all spells\]); **Weight** 5 lbs.

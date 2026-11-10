@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zeal", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 83\
 A phantom with this emotional focus fixates on every task given as if it were the phantom's last.
 The most basic commands are treated as life-and-death situations, and the truly dangerous ones are
 faced with a resolve and tenacity that sometimes defies common sense. Zeal phantoms take the form of

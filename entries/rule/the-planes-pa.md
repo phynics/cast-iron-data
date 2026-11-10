@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_planes_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 92
 
 Each of the planes explored in this section begins with a short stat block of key information,
 organized as follows.

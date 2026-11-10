@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "swift poisoning"]
 +++
 
-**Sources:** Heroes of the High Court pg 11\
 Paranoia runs rampant among the noble courts of the Inner Sea. On account of this distrust, many
 rulers often hire specialized alchemists capable of concocting protections from both poisons and
 diseases for the nobles and their guests. The royal alchemist tradition began in the nation of

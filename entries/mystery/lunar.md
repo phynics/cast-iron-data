@@ -6,13 +6,14 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunar", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "28"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Blood of the Moon pg 28
 
 **Deities**
 

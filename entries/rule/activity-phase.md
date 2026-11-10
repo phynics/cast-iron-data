@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activity_phase", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 82
 
 During the Activity phase, you declare new downtime activities or continue existing ones. Activities
 like beginning construction on a new building, continuing construction on an existing building,

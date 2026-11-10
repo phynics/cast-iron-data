@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furys_fall", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When making a trip attack, add your Dexterity bonus to your CMB."
 +++
 
 ## Fury's Fall (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 You can use strength and agility to send foes crashing to the ground.\
 **Prerequisites:** [Improved Trip](ref/feat/improved-trip).\

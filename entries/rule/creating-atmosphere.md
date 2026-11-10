@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_atmosphere", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 204
 
 An adventure might be a masterpiece of terror, but if it's being played on a sunny day with people
 laughing in the background, the players still might not be able to feel the mood. The surroundings

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Studied combat", "Studied strike"]
 +++
 
-**Sources:** Magic Tactics Toolbox pg 18\
 Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep
 expertise regarding their anatomy, habits, and ecology. Most cryptid scholars are affiliated with
 the University of Lepidstadt, but spend more time away performing field work than they do consorting

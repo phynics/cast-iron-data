@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "35"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Mutagen, 2nd-level discovery", "Poison resistance", "poison use", "
 alters = ["Bombs"]
 +++
 
-**Sources:** Ultimate Wilderness pg 35, Heroes of the Wild pg 24\
 A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment
 with strange and wondrous herbal concoctions.
 

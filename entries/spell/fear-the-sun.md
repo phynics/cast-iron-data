@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear_the_sun", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: up to one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Blood of Shadows pg 15
 
 Each target that fails its saving throw gains [light blindness](ref/umr/light-blindness). When
 exposed to bright light, affected targets are blinded for 1 full round and are dazzled in successive

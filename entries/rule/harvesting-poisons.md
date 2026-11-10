@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvesting_poisons", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 142
 
 While some think of poison as an assassin's tool, the herbalists and naturalists of the world know
 that poison carries in it no more inherent evil than fire or water. Indeed, in the wildlands of the

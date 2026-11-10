@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leviathans_terror", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Seers of the Drowned City pg 54\
 **Aura** faint evocation and necromancy; **CL** 5th\
 **Slot** none; **Price** 22,105 gp; **Weight** 16 lbs.
 

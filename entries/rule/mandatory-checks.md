@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mandatory_checks", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 157
 
 The following performance combat checks must be attempted whenever possible. These checks don't
 improve a crowd's attitude, and the combatant gains no benefit from performance feats with these

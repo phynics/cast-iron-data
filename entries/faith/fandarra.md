@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fandarra", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Fandarra**
 
 **Sub:** Blood Mother
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

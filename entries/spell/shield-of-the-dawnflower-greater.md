@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-of-the-dawnflower" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: fire, good, light
 :::
 
 ### Greater Shield of the Dawnflower
-
-**Sources:** Inner Sea Gods pg 240
 
 You create a disk of sunlight on one arm. Any creature that strikes you with a melee attack deals
 normal damage, but also takes 1d6 points of damage + 1 point per caster level. Half of this damage

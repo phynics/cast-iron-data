@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_villains_escape_kit", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 93
 
 Sometimes a villain needs to appear and then get away. With all the versatility and options at the
 hands of a capable party of adventurers, this can prove quite difficult for the villain and

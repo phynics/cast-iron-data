@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/unchained-summoner" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "83"
 
 [fields]
 kind = "archetype"
 alters = ["Eidolon", "Life link"]
 +++
 
-**Sources:** Pathfinder \#144: Midwives to Death pg 83\
 Not everyone who becomes a summoner is an intentional dabbler in the arcane arts. Soulbound
 summoners, as a rule, never set out to bind their soul to a dangerous and enigmatic power. Rather,
 they have found themselves unintentional masters of eidolons through incredible circumstances. Most

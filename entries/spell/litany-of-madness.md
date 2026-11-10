@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_madness", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Charm
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 This litany is a sermon of madness. The target is confused. At the start of each of its turns, it
 can make a Will saving throw against the confused effect (DC of the spell). If the target fails the

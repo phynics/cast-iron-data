@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_lord", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "235"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Horror Adventures/235
 
 Cursed lords gain dominion over their lands through evil deeds that result in powerful curses that
 trap them within their realms. They have all the abilities of

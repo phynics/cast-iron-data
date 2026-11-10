@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_bubble", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (harmless)
 Target: one creature or one object no larger than a Large two-handed weapon
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Combat pg 222
 
 Air bubble creates a small pocket of breathable air that surrounds the touched creature's head or
 the touched object. The air bubble allows the creature touched to breathe underwater or in similar

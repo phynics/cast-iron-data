@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambassador", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "210"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "The familiar's Intelligence score advancement"]
 +++
 
-**Sources:** Ultimate Wilderness pg 210\
 An ambassador speaks on its master's behalf and sometimes on behalf of its master's patron or other
 extraplanar contacts.
 

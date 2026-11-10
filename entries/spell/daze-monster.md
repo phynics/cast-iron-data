@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/daze" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Target: one living creature of 6 HD or less
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 This spell functions like [daze](ref/spell/daze), but can affect any one living creature of any
 type. Creatures of 7 or more HD are not affected.

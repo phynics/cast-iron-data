@@ -6,15 +6,27 @@ source_ids = ["ultimate-equipment", "pathfinder-9-escape-from-old-korvosa", "pat
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pata", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-9-escape-from-old-korvosa"
+page = "83"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder \#9: Escape from Old Korvosa pg 83, Pathfinder
-Campaign Setting pg 209, Adventurer's Armory pg 18, Ultimate Combat pg 144
 
 An evolution of the [punching dagger](ref/eq-weapon/punching-dagger), the pata is a
 [short sword](ref/eq-weapon/short-sword) that ends in a full, fingerless gauntlet hilt. You punch

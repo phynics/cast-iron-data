@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifty_noble", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ observes._
 
 **Challenge rating:** 2
 
-**Sources:** Magnimar, City of Monuments pg 58\
 **XP** 600\
 Female human [aristocrat](ref/npcclass/aristocrat) 2/[rogue](ref/class/rogue) 1\
 LN Medium humanoid (human)\

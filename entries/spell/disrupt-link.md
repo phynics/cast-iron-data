@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_link", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: one creature and her animal companion, familiar, or other bonded creature (which may be no more than 30 ft. apart)
 :::
-
-**Sources:** Familiar Folio pg 22
 
 The target has her link with her bonded creature temporarily severed. If the subject has a familiar,
 she loses the benefits of the alertness, deliver touch spells, empathic link, scry on familiar,

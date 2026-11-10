@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_pyre", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "178"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 178\
 An eternal pyre is formed from the spirits of people who were burned alive during an overzealous
 witch trial. It hates all living beings, but it has a strong bond of kinship with the
 [witchfire](ref/monster/witchfire) who arose from the most powerful of those spirits. The witchfire

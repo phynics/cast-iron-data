@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chelish_listening_trumpet", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 53\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 10,800 gp; **Weight** 1 lb.
 

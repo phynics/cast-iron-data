@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maximize_surge", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can take this feat multiple times. Each time you do, you gain an 
 +++
 
 ## Maximize Surge (Mythic)
-
-**Sources:** Mythic Adventures pg 69
 
 In times of dire need, you can burn your mythic power to ensure success.\
 **Prerequisites:** 6th mythic tier.\

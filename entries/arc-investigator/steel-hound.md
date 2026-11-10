@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "103"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies", "Poison lore", "Swift alchemy"]
 alters = ["Investigator talents"]
 +++
 
-**Sources:** Advanced Class Guide pg 103\
 Black powder and firearms are a natural extension of the alchemical experimentation that
 investigators use on a regular basis. Steel hounds are investigators who have taken to using
 firearms in place of the more mundane weapons their counterparts favor.

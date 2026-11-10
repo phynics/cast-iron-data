@@ -6,6 +6,9 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cetacean_crimson_whale", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ menacingly strong jaws, and blood-red skin._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 87\
 **Experience points:** 4,800
 
 **Armor class:** 22/4/22

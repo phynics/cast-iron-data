@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_engineer", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Each siege engine is an exotic weapon."
 +++
 
 ## Siege Engineer (Combat)
-
-**Sources:** Ultimate Combat pg 118
 
 You are proficient with all siege weaponry.\
 **Prerequisites:** Knowledge (engineering) 5 ranks or Profession (siege engineer) 5 ranks,

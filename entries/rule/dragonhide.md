@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonhide", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 199
 
 If the dragonhide used to construct this armor comes from a dragon that had immunity to an energy
 type, the armor pieces also have immunity to that energy type. A piece of dragonhide armor costs

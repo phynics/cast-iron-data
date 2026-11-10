@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "analyze_aura", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "156"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature or object
 :::
-
-**Sources:** Occult Adventures pg 156
 
 You peer into the aura of one target creature or object, gaining valuable information about its
 condition and nature. Each round, choose one of the target's four auras. This spell functions

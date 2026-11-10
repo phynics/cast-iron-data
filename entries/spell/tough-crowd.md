@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tough_crowd", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: 1 creature/level
 :::
-
-**Sources:** Arcane Anthology pg 27
 
 You fortify your allies against attempts to control or mislead them. Each ally in the spell's range
 gains a +4 insight bonus on the saving throw to resist the next enchantment or illusion spell cast

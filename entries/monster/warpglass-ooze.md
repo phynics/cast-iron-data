@@ -6,6 +6,9 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warpglass_ooze", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ another reality._
 
 **Perception:** +4
 
-**Sources:** Pathfinder \#133: Secrets of Roderic's Cove pg 88\
 **Experience points:** 600
 
 **Armor class:** 7/7/7

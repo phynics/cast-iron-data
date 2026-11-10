@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dull_gray_stone", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "149"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "44"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint universal"
 caster_level = "12th"
 +++
 
-**Sources:** Adventurer's Guide pg 149, Seekers of Secrets pg 44\
 **Aura** faint universal; **CL** 12th\
 **Slot** none; **Price** 25 gp; **Weight** —
 

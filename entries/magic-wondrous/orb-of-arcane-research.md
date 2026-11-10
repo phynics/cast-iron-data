@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_arcane_research", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "5th"
 +++
 
-**Sources:** Quests and Campaigns pg 31\
 **Aura** moderate divination; **CL** 5th\
 **Slot** none; **Price** 7,000 gp; **Weight** 6 lbs.
 

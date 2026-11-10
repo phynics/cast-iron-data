@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_dweomer_cap", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "195"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _Undulating patterns of purple and orange luminescence play across this strange 
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 195\
 **Size:** tiny
 
 **Experience points:** 50

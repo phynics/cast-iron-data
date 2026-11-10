@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "groetus", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "47"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Groetus**
 
 **Sub:** God of the End Times
-
-**Sources:** Inner Sea Faiths pg 47
 
 ### Details
 

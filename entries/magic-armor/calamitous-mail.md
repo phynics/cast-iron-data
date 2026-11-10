@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calamitous_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 250\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** armor; **Price** 3,750 gp; **Weight** 25 lbs.
 

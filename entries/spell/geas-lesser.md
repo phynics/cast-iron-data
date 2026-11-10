@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geas_lesser", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "288"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Subschool: Compulsion
 Descriptors: curse, language-dependant, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 288
 
 A lesser geas places a magical command on a creature to carry out some service or to refrain from
 some action or course of activity, as desired by you. The creature must have 7 or fewer HD and be

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation_strike", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take it, you app
 +++
 
 ## Revelation Strike (Combat)
-
-**Sources:** Ultimate Combat pg 116
 
 Your unarmed strike brings a revelation down upon your foe.\
 **Prerequisites:** Revelation class feature,

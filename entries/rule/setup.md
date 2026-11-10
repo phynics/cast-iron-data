@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setup", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 136
 
 In the wound thresholds variant, a character divides her hit point total into four quarters, and
 takes penalties whenever she's not in her top quarter. A character at 3/4 of her maximum hit points

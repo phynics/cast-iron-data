@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/stinking-cloud" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "73"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: cloud spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 73
 
 > _This spell is associated with [Besmara](ref/faith/besmara), but there are no restrictions on its
 > use by others._

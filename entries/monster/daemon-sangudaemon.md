@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "book-of-the-damned-volume-3-horsemen-of-the-apocaly
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_sangudaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "75"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ dripping crimson streamers._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 6 pg 75, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 54\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 6,400

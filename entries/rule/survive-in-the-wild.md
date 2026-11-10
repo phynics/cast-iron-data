@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survive_in_the_wild", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "66"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 66
 
 You can keep yourself and others fed and safe in the wilderness. Use the following DCs for certain
 tasks.

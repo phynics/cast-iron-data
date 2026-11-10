@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pickin_ogre", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "152"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Inherited:** present
 
 **Simple:** present
-
-**Source:** Monster Codex/152
 
 These tall, bone-thin ogres have thick, bark-like skin and spiked growths all over their bodies, and
 their hands end in sharp, thorn-like claws.

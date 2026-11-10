@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gashadokuro", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "121"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ massive skeleton._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 121, Pathfinder \#54: The Empty Throne pg 84\
 **Type:** undead
 
 **Experience points:** 25,600

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_rider", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A creature with this feat can take the Mounted Archery feat without p
 +++
 
 ## Horn Rider (Combat)
-
-**Sources:** Monster Codex pg 164
 
 You can defend yourself using the horn or tusk of a creature you're lashed to.\
 **Prerequisites:** Base attack bonus +1.\

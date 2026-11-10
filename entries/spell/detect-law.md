@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-evil" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "267"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: cone-shaped emanation
 :::
 
 ### Detect Law
-
-**Sources:** PRPG Core Rulebook pg 267
 
 This spell functions like _[detect evil](ref/spell/detect-evil),_ except that it detects the auras
 of lawful creatures, clerics of lawful deities, lawful spells, and lawful magic items, and you are

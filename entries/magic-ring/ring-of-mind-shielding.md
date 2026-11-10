@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_mind_shielding", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "172"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 172, PRPG Core Rulebook pg 479\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** ring; **Price** 8,000 gp; **Weight** -
 

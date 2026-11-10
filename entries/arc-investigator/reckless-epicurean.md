@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Investigator talent gained at 5th level", "Investiga
 alters = ["Poison resistance", "poison immunity"]
 +++
 
-**Sources:** Potions and Poisons pg 14\
 Reckless epicureans are investigators who, for whatever reason, tend to test unknown concoctions on
 themselves. Whether an obsessive scientist, a healer determined to ensure the safety of her
 tinctures, or a seeker of new and interesting potions, a reckless epicurean's body is saturated with

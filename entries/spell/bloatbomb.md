@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloatbomb", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: acid, death
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 The target creature dies if it fails a Fortitude saving throw and its Hit Dice are no more than half
 your caster level. If it dies, its corpse rapidly putrefies. The next creature to touch the corpse

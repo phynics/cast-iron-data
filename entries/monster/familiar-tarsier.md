@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_tarsier", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This small, furry creature has enormous glossy eyes, long legs, and elongated f
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 208\
 **Experience points:** 65
 
 **Armor class:** 17/17/14

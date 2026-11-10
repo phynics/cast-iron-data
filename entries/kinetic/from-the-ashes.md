@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "from_the_ashes", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 9
 
 **Burn:** 2
-
-**Source:** Occult Adventures/25
 
 When you are about to fall unconscious or die from hit point damage, as an **immediate action** you
 can burst into flames that leave behind only ash, which cannot be appreciably affected by most

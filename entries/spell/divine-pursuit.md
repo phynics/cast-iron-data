@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_pursuit", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Magic pg 217
 
 Select one creature within 60 feet that you have damaged. If that creature has a burrow, climb, fly,
 or swim speed, you gain that form of movement for the duration of the spell at the same speed and

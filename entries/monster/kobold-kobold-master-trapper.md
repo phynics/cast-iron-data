@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_kobold_master_trapper", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "133"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth,
 
 **Size:** small
 
-**Sources:** Monster Codex pg 133\
 **Subtype:** Reptilian
 
 **Experience points:** 1,200

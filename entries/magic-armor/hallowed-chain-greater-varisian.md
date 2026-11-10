@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallowed_chain_greater_varisian", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Inner Sea Races pg 225\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** armor; **Price** 43,300 gp; **Weight** 40 lbs.
 

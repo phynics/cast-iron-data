@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "80"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Suggestion", "Mass suggestion", "Versatile performance", "Well-versed", "Lore master", "Jack of all trades"]
 +++
 
-**Sources:** Advanced Player's Guide pg 80\
 Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic
 brethren.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "115"
 
 [fields]
 kind = "archetype"
 replaces = ["Suggestion", "Inspire greatness", "Mass suggestion", "Well-versed", "The 2nd-level versatile performance"]
 +++
 
-**Sources:** Occult Adventures pg 115\
 The bright purity of silver makes beautiful music, and its vibrations are also anathema to unnatural
 creatures. Some bards use a mixture of silver-stringed instruments and esoteric knowledge to battle
 the dark forces of the world.

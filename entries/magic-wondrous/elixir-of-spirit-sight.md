@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_spirit_sight", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 55\
 **Aura** faint divination and transmutation; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

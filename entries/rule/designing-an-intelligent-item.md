@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_an_intelligent_item", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 532
 
 Creating a magic item with intelligence follows these simple guidelines. Intelligent items must have
 an alignment, mental ability scores, languages, senses, and at least one other special ability.

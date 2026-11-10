@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purify_body", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Healing
 :::
-
-**Sources:** Healer's Handbook pg 9
 
 You align the target's chakras and soothe any unwanted imperfections found within its physical form,
 leaving its body pristine and without any pain or weakness.

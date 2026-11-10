@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/unchained-summoner" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "71"
 
 [fields]
 kind = "archetype"
 alters = ["Summon monster"]
 +++
 
-**Sources:** Ultimate Intrigue pg 71\
 The strange creatures known as fey hail from a variety of places, including the natural world and
 their own domains on other planes. Fey callers are summoners whose voices reach out into those
 strange faerie realms and call forth the fey who dwell there. The touch of the fey makes the fey

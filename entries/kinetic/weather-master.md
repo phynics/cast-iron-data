@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_master", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 8
 
 **Burn:** 0
-
-**Source:** Occult Adventures/29
 
 By focusing on your connection to air and seeding the air around you for 10 minutes, you can create
 powerful weather effects, as [control weather](ref/spell/control-weather). You can create tornadoes

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/whispering-wind" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: 10-ft.-radius spread
 Descriptors: air
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 30
 
 This spell functions as [whispering wind](ref/spell/whispering-wind), except it can carry responses
 and doesn't end after delivering its first message. After the wind completes its initial message, it

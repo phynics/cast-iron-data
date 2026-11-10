@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_trap", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 224
 
 The PCs find a remarkable amount of success during their exploits, but all is not as it seems.
 

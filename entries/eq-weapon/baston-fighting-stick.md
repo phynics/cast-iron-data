@@ -6,14 +6,15 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baston_fighting_stick", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "11"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Merchant's Manifest pg 11
 
 These weapons are treated sticks of wood, either left bare or covered in elaborate decorative
 designs. Baston fighting sticks vary in length from 2 to 4 feet, with thicknesses varying between 1

@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monastic_warden", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
+[[sources]]
+publication = "inner-sea-combat"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Adventurer's Guide pg 107, Inner Sea Combat pg 55\
 **Aura** moderate evocation and transmutation; **CL** 8th\
 **Slot** none; **Price** 23,530 gp; **Weight** 3 lbs.
 

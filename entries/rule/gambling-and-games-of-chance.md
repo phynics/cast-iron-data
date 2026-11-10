@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gambling_and_games_of_chance", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 240
 
 Gambling is a staple of fantasy roleplaying, from elaborate games of chance in a glittering high-end
 casino in the wealthy part of the city to a dangerous high-stakes card game in a tavern's back room.

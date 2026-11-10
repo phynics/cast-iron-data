@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invisibility" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "302"
 
 [fields]
 kind = "spell"
@@ -63,8 +66,6 @@ Descriptors: glamer
 :::
 
 ### Greater Invisibility
-
-**Sources:** PRPG Core Rulebook pg 302
 
 This spell functions like [invisibility](ref/spell/invisibility), except that it doesn't end if the
 subject attacks.

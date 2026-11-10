@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enticing_adulation", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Agents of Evil pg 30
 
 A targeted creature that fails its saving throw is filled with a deep desire to protect and care for
 you, fawning over your needs and ensuring your comfort. If another creature harms you, the target is

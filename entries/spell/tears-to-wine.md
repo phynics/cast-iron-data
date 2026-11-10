@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tears_to_wine", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 cu. ft./2 levels of liquid (see text)
 :::
-
-**Sources:** Arcane Anthology pg 22
 
 Legend claims runelords used this spell to literally benefit from drinking the tears of their
 captured foes. This spell turns nonmagic liquids - including spoiled, rotten, diseased, poisonous,

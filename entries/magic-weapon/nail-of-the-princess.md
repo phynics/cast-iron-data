@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nail_of_the_princess", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "256"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Gods pg 256\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 5,318 gp; **Weight** 10 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_tricorne", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "261"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 261, Pathfinder \#55: The Wormwood Mutiny pg 58\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 2,600 gp; **Weight** 1 lb.
 

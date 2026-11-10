@@ -6,6 +6,12 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_spiny_eurypterid", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "78"
+[[sources]]
+publication = "bestiary-6"
+page = "122"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ abilities = ["26", "9", "20", "-", "13", "2"]
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 78, Bestiary 6 pg 122\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

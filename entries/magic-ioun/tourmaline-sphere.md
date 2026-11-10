@@ -6,6 +6,12 @@ source_ids = ["pathfinder-122-into-the-shattered-continent", "pathfinder-society
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tourmaline_sphere", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "21"
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 21, Pathfinder Society Primer pg 23\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 1,000 gp; **Weight** —
 

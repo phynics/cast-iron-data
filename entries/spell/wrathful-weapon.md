@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrathful_weapon", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will (harmless, object)
 Spell resistance: yes (object)
 Target: melee weapon touched (see text)
 :::
-
-**Sources:** Advanced Class Origins pg 31
 
 You grant the targeted weapon one of the following weapon special abilities:
 [anarchic](ref/magic-enh/anarchic), [axiomatic](ref/magic-enh/axiomatic),

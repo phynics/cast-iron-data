@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadened_shadows_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Intrigue pg 246\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** shoulders; **Price** 63,250 gp; **Weight** 2 lbs.
 

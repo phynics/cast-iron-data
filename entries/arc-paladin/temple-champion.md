@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "107"
 
 [fields]
 kind = "archetype"
 replaces = ["Divine bond", "aura of justice"]
 +++
 
-**Sources:** Advanced Class Guide pg 107\
 A temple champion is a powerful warrior dedicated to a good or lawful deity. She thinks of herself
 primarily as a servant of her deity and secondarily as an agent of her deity's church. She has a
 refined understanding of a specific aspect of that faith and gives up standard paladin spellcasting

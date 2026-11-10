@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_background_skills", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "47"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 47
 
 In addition to their normal allotment of regular skill ranks, all characters gain 2 background skill
 ranks each time they gain a level in a PC class. The character's Intelligence modifier doesn't

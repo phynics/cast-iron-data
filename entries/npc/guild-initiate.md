@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guild_initiate", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 146\
 **XP** 1,200\
 Halfling [rogue](ref/class/rogue) 5\
 LE Small humanoid (halfling)\

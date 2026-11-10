@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_shape_of_civilization", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 202
 
 If you're building a settlement from scratch, you'll first need to determine how many people live
 there. Is it a tiny collection of houses along a lonely stretch of road? Is it a bustling village

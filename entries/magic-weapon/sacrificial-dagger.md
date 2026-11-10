@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_dagger", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Sources:** Horror Adventures pg 215\
 **Aura** faint necromancy \[evil\]; **CL** 3rd\
 **Slot** none; **Price** 7,302 gp; **Weight** 1 lb.
 

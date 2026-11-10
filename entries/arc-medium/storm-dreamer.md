@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "182"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit surge", "Haunt channeler", "Location channel", "Connection channel"]
 +++
 
-**Sources:** Adventurer's Guide pg 182\
 Storm dreamers serve the [Storm Kindlers](ref/rule/aff-storms) by communing with their mystical
 predecessors. They serve as spiritual advisors for the organization, and are valued for the lore and
 wisdom they gain during their trances. During such a trance, a single storm dreamer can easily

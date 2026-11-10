@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_spot", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Pirates of the Inner Sea pg 28
 
 The black spot is a specific and feared pirate curse. An intangible, illusory black spot manifests
 above the target's head and remains until the target dies or the curse is lifted. The black spot

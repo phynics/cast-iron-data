@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "356"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 356
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within the radius of the symbol of insanity instead become permanently insane (as the

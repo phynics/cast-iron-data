@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allied_spellcaster", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "150"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you rece
 +++
 
 ## Allied Spellcaster (Teamwork)
-
-**Sources:** Advanced Player's Guide pg 150
 
 With the aid of an ally, you are skilled at piercing the protections of other creatures with your
 spells.\

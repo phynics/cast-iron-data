@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_strike", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can take this feat multiple times. Each time you take it, you app
 +++
 
 ## Hex Strike (Combat)
-
-**Sources:** Ultimate Combat pg 104
 
 Chanting and cursing, you put a hex on your enemy as part of your unarmed strike.\
 **Prerequisites:** Hex class feature, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

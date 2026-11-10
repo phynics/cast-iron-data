@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curses_ha", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 138
 
 Curses are among the oldest and most deeply feared types of magic. They linger far beyond the
 original malicious words or grave deeds that spawned them. Although the most well-known and easily

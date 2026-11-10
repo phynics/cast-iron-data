@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_reminder", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Magic Tactics Toolbox pg 26
 
 You create a memory loop of a successful attack made against the target, forcing its conscious mind
 to recall the details of the attack in such excruciating detail that its physical body is racked by

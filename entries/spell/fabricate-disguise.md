@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fabricate_disguise", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Intrigue pg 214
 
 You change outfits or create a disguise out of materials you are wearing or carrying (potentially
 including a disguise kit). The spell can't alter your body or change the structure of objects, but

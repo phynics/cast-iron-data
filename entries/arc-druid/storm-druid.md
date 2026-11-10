@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["Spontaneous casting", "Woodland stride", "Trackless step", "Resist nature's lure", "Venom immunity", "A thousand faces"]
 +++
 
-**Sources:** Ultimate Magic pg 40\
 While most druids focus their attention upon the rich earth and the bounty of nature that springs
 forth from it, the storm druid's eyes have ever been cast to the skies and the endless expanse of
 blue, channeling the most raw and untamed aspects of nature.

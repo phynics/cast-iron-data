@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyful_thing", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ lolling tongue drips with thick saliva._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Nidal, Land of Shadows pg 57\
 **Subtype:** Native
 
 **Experience points:** 2,400

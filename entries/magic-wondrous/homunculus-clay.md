@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homunculus_clay", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Magical Marketplace pg 21\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 4,100 gp; **Weight** 1 lb.
 

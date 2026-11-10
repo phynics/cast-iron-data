@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_grimoire", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** Horror Adventures pg 227\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

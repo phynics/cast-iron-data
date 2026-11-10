@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regenerate", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "331"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 331
 
 The subject's severed body members (fingers, toes, hands, feet, arms, legs, tails, or even heads of
 multiheaded creatures), broken bones, and ruined organs grow back. After the spell is cast, the

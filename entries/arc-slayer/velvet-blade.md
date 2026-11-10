@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "70"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Swift tracker"]
 alters = ["Armor proficiency", "Studied target"]
 +++
 
-**Sources:** Ultimate Intrigue pg 70\
 Velvet blades specialize in infiltrating the upper echelons of society, mingling with nobles and
 courtiers, and killing them. Velvet blades are often born into the aristocracy, with an intricate
 understanding of the inner workings of upper-class society. Though a few velvet blades are unhinged

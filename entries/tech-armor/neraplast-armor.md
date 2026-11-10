@@ -6,14 +6,15 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neraplast_armor", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "60"
 
 [fields]
 kind = "item"
 category = "Technological Armor"
 weight = "5 lbs."
 +++
-
-**Sources:** Pathfinder \#85: Fires of Creation pg 60
 
 **Cost** 1,200 gp\
 **Type** Light; **Weight** 5 lbs.; **Armor Bonus** +2\

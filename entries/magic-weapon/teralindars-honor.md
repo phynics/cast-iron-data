@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teralindars_honor", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and divination"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#113: What Grows Within pg 35\
 **Aura** strong conjuration and divination; **CL** 13th\
 **Slot** none; **Price** 48,535 gp; **Weight** 6 lbs.
 

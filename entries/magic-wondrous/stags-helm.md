@@ -6,6 +6,9 @@ source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stags_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+page = "52"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#31: Stolen Land pg 52\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.
 

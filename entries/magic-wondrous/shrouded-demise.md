@@ -6,6 +6,9 @@ source_ids = ["heaven-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrouded_demise", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "heaven-unleashed"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy, strong evil"
 caster_level = "3rd"
 +++
 
-**Sources:** Heaven Unleashed pg 55\
 **Aura** faint necromancy, strong evil; **CL** 3rd\
 **Slot** none; **Price** 4,410 gp; **Weight** -
 

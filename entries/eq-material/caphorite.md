@@ -6,13 +6,14 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caphorite", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Heroes of the Darklands pg 24
 
 Caphorite, also known as drowstone, is a supernatural metallic ore found in large deposits in
 Sekamina. This radioactive mineral emits a magical radiation that registers a faint aura of

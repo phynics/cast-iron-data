@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_shield_specialization", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "162"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Greater Shield Specialization (Combat)
-
-**Sources:** Advanced Player's Guide pg 162
 
 Your masterful shieldwork provides even greater protection to your vital areas.\
 **Prerequisites:** Proficiency with selected shield,

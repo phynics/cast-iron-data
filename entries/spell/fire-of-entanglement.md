@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_of_entanglement", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Reflex partial
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 221
 
 The next creature you attack using your smite evil class ability is wreathed in flames that impede
 its movement. Until the end of the spell's duration, the target is entangled. If the target starts

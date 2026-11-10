@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "satchel_of_plentiful_feed_type_4", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "165"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Satchel of Plentiful Feed
 
-**Sources:** Villain Codex pg 165\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 2,000 gp (Type I), 4,000 gp (Type II), 7,500 gp (Type III), 15,000 gp (Type
 IV); **Weight** varies

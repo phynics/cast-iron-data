@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_hand_of_the_inheritor", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "292"
+[[sources]]
+publication = "pathfinder-26-the-sixfold-trial"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ radiant shield._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 292, Pathfinder \#26: The Sixfold Trial pg 86\
 **Subtype:** Angel, Extraplanar, Good, Herald, Lawful
 
 **Experience points:** 51,200

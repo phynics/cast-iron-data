@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festering_spirit", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "98"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This ghost-like creature reeks of the grave and drips with putrescent goo._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 98\
 **Subtype:** Incorporeal
 
 **Type:** undead

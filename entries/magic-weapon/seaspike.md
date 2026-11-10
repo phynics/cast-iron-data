@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seaspike", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 42\
 **Aura** strong conjuration and transmutation; **CL** 12th\
 **Slot** weapon; **Price** 70,338 gp; **Weight** 3 lbs.
 

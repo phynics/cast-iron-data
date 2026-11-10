@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_of_judgment", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 221
 
 After casting this spell, the next creature you attack using your smite evil class ability is
 engulfed in flames of positive energy. At the start of its turn, the target takes 1d6 points of

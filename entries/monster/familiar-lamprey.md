@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_lamprey", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "199"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This serpentine fish has a horrific circular mouth filled with hook-like teeth.
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 199\
 **Subtype:** Aquatic
 
 **Size:** tiny

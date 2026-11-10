@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underfoot", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "173"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You receive a +4 dodge bonus on Acrobatics checks to move past oppone
 +++
 
 ## Underfoot (Combat)
-
-**Sources:** Advanced Player's Guide pg 173
 
 You slip under and around your larger foes.\
 **Prerequisites:** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), Small size or smaller.\

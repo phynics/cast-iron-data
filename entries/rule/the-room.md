@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_room", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "13"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 13
 
 The traditional gaming space is a table big enough to seat all the players and the GM, but that's
 not strictly necessary. The dinner table is often the surface of choice because it provides enough

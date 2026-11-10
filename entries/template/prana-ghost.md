@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prana_ghost", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "41"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Occult Bestiary/41
 
 The typical [ghost](ref/template/ghost) is a nightmarish creature of dark emotion, with an undying
 thirst for justice or vengeance. These ghosts are often warped by deep emotional turmoil, madness,

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corruption", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "60"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Aura of courage", "Aura of justice", "Holy champion"]
 +++
 
-**Sources:** Ultimate Magic pg 60\
 More insidious than meddling devils and more destructive than rampaging hordes are the strange alien
 entities that bubble up from the deep earth and the strange places beyond the sky. When a paladin
 takes this oath, she becomes a hunter of aberrations, protecting the common people from these

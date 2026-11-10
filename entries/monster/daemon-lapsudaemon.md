@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_lapsudaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ spraying blood._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 88\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 38,400

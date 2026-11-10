@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "123"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["6th-level mercy", "9th-level mercy"]
 alters = ["Smite evil"]
 +++
 
-**Sources:** Occult Adventures pg 123\
 Ghost hunters devote their lives to eliminating malevolent spirits and putting them to rest.
 
 **Ghostly Smite (Su)**

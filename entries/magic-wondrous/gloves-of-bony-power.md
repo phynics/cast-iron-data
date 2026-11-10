@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_bony_power", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "264"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 264\
 **Aura** faint conjuration and necromancy; **CL** 3rd\
 **Slot** hands; **Price** 5,400 gp; **Weight** -
 

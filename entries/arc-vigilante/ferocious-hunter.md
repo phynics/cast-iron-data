@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante talent gained at 2nd level", "Unshakable", "Vigilante tal
 alters = ["Dual identity"]
 +++
 
-**Sources:** Heroes from the Fringe pg 26\
 Half-orcs with more distant orc ancestry often look almost indistinguishable from humans, aside from
 a slightly greenish tint to their skin or sharp teeth. The ability to move through the world without
 experiencing the same discrimination many of their kin face opens doors that might otherwise be

@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_evoker_mastery", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action while wielding a magic weapon with a weapon special
 +++
 
 ## Weapon Evoker Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 31
 
 You rack opponents with eldritch power coursing from your magic weapons.\
 **Prerequisites:** Use Magic Device 2 ranks, base Fortitude saving throw bonus +3.\

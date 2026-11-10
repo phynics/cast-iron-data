@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_stance", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you move more than 5 feet this turn, you gain 20% concealment for 
 +++
 
 ## Wind Stance (Combat)
-
-**Sources:** PRPG Core Rulebook pg 137
 
 Your erratic movements make it difficult for enemies to pinpoint your location.\
 **Prerequisites:** Dex 15, [Dodge](ref/feat/dodge), base attack bonus +6.\

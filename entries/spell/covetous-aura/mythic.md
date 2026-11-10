@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/covetous-aura", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 12
 
 The duration of the covetous aura increases to 1 minute per level or until discharged. You may gain
 the benefits of spells of 5th level or lower cast within the aura's area of effect. You can gain the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kapre_cigar", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "87"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and necromancy"
 caster_level = "7"
 +++
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 87\
 **Aura** faint evocation and necromancy; **CL** 7\
 **Slot** none; **Price** 2,250 gp; **Weight** 4 lbs.
 

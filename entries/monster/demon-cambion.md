@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_cambion", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "75"
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ brow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 75, Pathfinder \#76: The Midnight Isles pg 84\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 600

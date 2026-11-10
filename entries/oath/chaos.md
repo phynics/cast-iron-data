@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Detect evil", "Smite evil", "Channel positive energy"]
 +++
 
-**Sources:** Inner Sea Combat pg 15\
 Despite the seemingly inherent contradiction, the militant [Hellknights](ref/rule/aff-lawknights) of
 Cheliax count a number of paladins among their ranks, especially the
 [Order of the Godclaw](ref/hkorder/order-of-the-godclaw). Typically these paladins reconcile their

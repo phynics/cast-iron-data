@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_self", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 240
 
 When you cast this spell, you can assume the form of any Small or Medium creature of the humanoid
 type. If the form you assume has any of the following abilities, you gain the listed ability:

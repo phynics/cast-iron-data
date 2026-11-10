@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attacks_of_opportunity", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 180
 
 Sometimes a combatant in a melee lets her guard down or takes a reckless action. In this case,
 combatants near her can take advantage of her lapse in defense to attack her for free. These free

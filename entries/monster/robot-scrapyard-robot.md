@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_scrapyard_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ arms ends in a spinning blade._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Numeria, Land of Fallen Stars pg 58\
 **Subtype:** Robot
 
 **Experience points:** 800

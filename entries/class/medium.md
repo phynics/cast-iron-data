@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legen
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medium", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "30"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 30
 
 Mediums channel spirits into themselves, using their own bodies as vessels for astral entities
 spawned from myths and legends. A medium balances his need for the spirits' power with the danger of

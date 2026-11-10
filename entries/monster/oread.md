@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oread", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ almost like a statue brought to life._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 205\
 **Subtype:** Native
 
 **Experience points:** 200

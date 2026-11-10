@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_wasps", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 You summon a wasp swarm, which fills your space (up to 5 feet by 5 feet) but does not attack you.
 The dense cloud of vermin gives you partial [concealment](ref/rule/concealment) against ranged

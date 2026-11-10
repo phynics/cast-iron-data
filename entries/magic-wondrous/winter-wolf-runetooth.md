@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_wolf_runetooth", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Codex pg 69\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blodeuwedd", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-33-the-varnhold-vanishing"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ itself whispers around her feet as patches of clover, heather, and milkweed mark
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#33: The Varnhold Vanishing pg 80\
 **Experience points:** 2,400
 
 **Armor class:** 20/16/14

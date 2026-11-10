@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "book-of-the-damned-volume
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abraxas", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "318"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Abraxas**
 
 **Sub:** Master of the Final Incantation
-
-**Sources:** Inner Sea Gods pg 318
 
 ### Details
 

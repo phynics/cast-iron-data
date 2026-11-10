@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pnakotic_record", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "73"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2,000 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 73\
 **Price** 2,000 gp; **Weight** 10 lbs.\
 **Category** Tools
 

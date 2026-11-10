@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noxious_aromatic_flask", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Animal Archive pg 13\
 **Price** 15 gp; **Weight** 1 lb.\
 **Category** Alchemical Weapons
 

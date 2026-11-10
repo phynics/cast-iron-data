@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_lichen", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "153"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "2,000 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Wilderness pg 153\
 **Price** 2,000 gp; **Weight** -\
 **Category** [Herbs](ref/rule/herbalism)\
 **Gather** DC 30; **Yield** 1 dose\

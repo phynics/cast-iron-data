@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seismic_fissure", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: 10-ft.-by-80-ft. fissure in the earth, 40 ft. deep
 Descriptors: earth
 :::
-
-**Sources:** Wilderness Origins pg 27
 
 With a thrust of tectonic energy, you split the earth. Each creature standing in the area where the
 fissure opens must succeed at a Reflex saving throw to avoid falling into the rift. Those standing

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_and_dagger_style", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "In addition to the chosen weapon, a character with the weapon trainin
 +++
 
 ## Cloak and Dagger Style (Combat, Style)
-
-**Sources:** Blood of Shadows pg 24
 
 Your attacks effortlessly inflict debilitating conditions on unaware opponents.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

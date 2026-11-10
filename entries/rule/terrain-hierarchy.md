@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrain_hierarchy", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 146
 
 When it comes to drawing your map, keep in mind that the world's shape follows a specific hierarchy.
 As you draw your map, it's best to follow the steps below and make your decisions in this order;

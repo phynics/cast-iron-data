@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/disguise-self" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "339"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Targets: one creature per two levels, no two of which can be more than 30 ft. ap
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 339
 
 This spell functions like [disguise self](ref/spell/disguise-self), except that you can change the
 appearance of other people as well. Affected creatures resume their normal appearances if slain.

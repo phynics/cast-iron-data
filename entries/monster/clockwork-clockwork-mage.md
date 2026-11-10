@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_mage", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This faceless construct has a crystal wand set into its chest, bristling with a
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 32\
 **Subtype:** Clockwork
 
 **Experience points:** 6,400

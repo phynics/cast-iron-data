@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virtuous_creed", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "You must be good."
 benefit = "When using a weapon that deals lethal damage to instead deal nonlethal damage, you take no penalty on your attack roll."
 special = "You can gain this feat multiple times. Each time you take this feat, you must choose a new virtue."
 +++
-
-**Sources:** Champions of Purity pg 16
 
 You accept a creed to guide your destiny toward good.\
 **Prerequisites:** You must be good.\

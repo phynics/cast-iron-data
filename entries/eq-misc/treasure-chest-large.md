@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_chest_large", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "12"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "50 lbs. (medium), 250 lbs. (huge), 100 lbs. (large), 25 lbs. (small)"
 
 ## Treasure chest
 
-**Sources:** Adventurer's Armory 2 pg 12\
 **Price** 7 gp (medium), 37 gp (huge), 15 gp (large), 3 gp (small); **Weight** 50 lbs. (medium), 250
 lbs. (huge), 100 lbs. (large), 25 lbs. (small)
 

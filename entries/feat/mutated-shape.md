@@ -6,14 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutated_shape", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "115"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 19, base attack bonus +6, wild shape class feature."
 benefit = "When you use wild shape, you grow an additional appendage of your choice that can be used to make one of the following attacks: bite, claw, gore, slam, sting, or talons. The appendage can be used as part of a full attack using your highest base attack bonus, and it deals damage as described in the table below. This appendage lasts for as long as you stay in the same form with this use of wild shape."
 +++
-
-**Sources:** Ultimate Wilderness pg 115
 
 Your wild shape form gains an additional appendage you can use to attack your foes.\
 **Prerequisites:** Wis 19, base attack bonus +6, wild shape class feature.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlet_of_rust_greater", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "235"
+[[sources]]
+publication = "core-rulebook"
+page = "514"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "7th"
 
 ## Gauntlet of Rust
 
-**Sources:** Ultimate Equipment pg 235, PRPG Core Rulebook pg 514\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** hands; **Price** 11,500 gp (normal), 34,500 gp (greater); **Weight** 2 lbs. (normal), 1 lb.
 (greater)

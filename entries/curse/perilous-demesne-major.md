@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_demesne_major", path = "json/curses.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 145
 
 **Type:** Curse (Regional curse)
 

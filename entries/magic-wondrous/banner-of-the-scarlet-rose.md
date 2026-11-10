@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banner_of_the_scarlet_rose", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "86"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Adventurer's Guide pg 86\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 18,000 gp; **Weight** 3 lbs.
 

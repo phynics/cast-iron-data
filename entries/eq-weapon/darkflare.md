@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkflare", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "25"
+[[sources]]
+publication = "faction-guide"
+page = "55"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 25, Faction Guide pg 55\
 **Price** 1 gp; **Weight** -\
 **Category** Alchemical Weapons
 

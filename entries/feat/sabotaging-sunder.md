@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabotaging_sunder", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "A successful sunder attempt deals weapon damage to the sundered item."
 +++
 
 ## Sabotaging Sunder (Combat)
-
-**Sources:** Ultimate Intrigue pg 90
 
 Your can quickly sabotage a foe's worn or carried equipment.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

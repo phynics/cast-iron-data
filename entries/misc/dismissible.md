@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dismissible", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 215
 
 **(D) Dismissible:** If the duration line ends with "(D)", you can dismiss the spell at will. You
 must be within range of the spell's effect and must speak words of dismissal, which are usually a

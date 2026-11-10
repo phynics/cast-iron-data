@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single unarmed strike at your fu
 +++
 
 ## Cerberus Style (Combat, Style)
-
-**Sources:** Plane-Hopper's Handbook pg 9
 
 You rain blows upon your enemies from three directions, like the three heads of the cerberus
 guardians of Hell.\

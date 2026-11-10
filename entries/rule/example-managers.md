@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_managers", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "88"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 88
 
 The following managers are examples of individuals you can hire to manage a business or look after
 your building or organization.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Spiritual interference", "Devotion", "Calm spirit", "Greater spiritual interference"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 22\
 Scourges are students of pain and have a rare connection to tormented and wracked spirits. Most are
 worshipers of [Zon-Kuthon](ref/faith/zon-kuthon) who are more attracted to his mastery of pain than
 his lordship over darkness. As a result, scourges are found not only in Nidal, but also in Cheliax,

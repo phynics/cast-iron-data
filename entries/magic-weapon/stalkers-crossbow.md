@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalkers_crossbow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "14th"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 61\
 **Aura** strong divination; **CL** 14th\
 **Slot** none; **Price** 54,735 gp; **Weight** 4 lbs.
 

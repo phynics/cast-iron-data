@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_display", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "116"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spend a swift action to make a performance combat check, you
 +++
 
 ## Savage Display (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 116
 
 With your victory and a roar, you push yourself on with increased savagery.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display).\

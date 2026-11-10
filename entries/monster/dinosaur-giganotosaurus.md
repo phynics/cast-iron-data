@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_giganotosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This bipedal dinosaur has a large head and cavernous jaws full of large, sharp 
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 94\
 **Experience points:** 25,600
 
 **Armor class:** 27/2/27

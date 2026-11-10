@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "4"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Wilderness Origins pg 4\
 The aspect of the electric eel imparts the ability to charge attacks with electricity and to slip
 effortlessly out of danger.
 

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindscapes", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 234
 
 Mindscapes are temporary constructs of the mind that come into being on the Astral Plane and fade
 away again, in much the same way a sleeping person's imagined landscape forms and dissolves while he

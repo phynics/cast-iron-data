@@ -6,6 +6,12 @@ source_ids = ["heroes-of-the-high-court", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "28"
+[[sources]]
+publication = "people-of-the-sands"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Sources:** Heroes of the High Court pg 28, People of the Sands pg 29\
 **Price** 40 gp; **Weight** -\
 **Category** Clothing
 

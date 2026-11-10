@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Trackless step", "Venom immunity", "A thousand face
 alters = ["Spontaneous casting", "Resist nature's lure"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 10\
 Some druids specialize in protecting Golarion from the threat of First World inhabitants. They are
 devoted to tracking down, diverting, and slaying fey threats.
 

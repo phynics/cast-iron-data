@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undrella", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wicked-looking longbow._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Mythical Monsters Revisited pg 27\
 **Experience points:** 12,800
 
 **Armor class:** 24/17/18

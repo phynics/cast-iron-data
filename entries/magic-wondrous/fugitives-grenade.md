@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fugitives_grenade", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 60\
 **Aura** faint conjuration and transmutation; **CL** 3rd\
 **Slot** none; **Price** 750 gp; **Weight** -
 

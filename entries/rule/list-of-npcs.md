@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "list_of_npcs", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "255"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 255
 
 - Adventurer:
 

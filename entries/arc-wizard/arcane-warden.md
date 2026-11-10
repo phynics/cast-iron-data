@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll, 5th-, 10th-, 15th-, and 20th-level bonus feats", "Ha
 alters = ["Arcane school"]
 +++
 
-**Sources:** Blood of the Ancients pg 14\
 In the aftermath of Earthfall, some elven wizards from Mierani chose to remain behind and provide
 aid to others. These elves were and still are highly honored by their kin, as they sacrificed the
 easy comfort and refuge of Castrovel to brave the wreckage of Earthfall in order to save what

@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seraphic_pistol", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Champions of Purity pg 31\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 37,550 gp; **Weight** 5 lbs.
 

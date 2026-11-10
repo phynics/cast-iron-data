@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rubble_skirmisher", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "117"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are in a square that has naturally occurring difficult terra
 +++
 
 ## Rubble Skirmisher (Combat)
-
-**Sources:** Ultimate Wilderness pg 117
 
 You use difficult terrain to your advantage when performing combat maneuvers.\
 **Prerequisites:** Dex 13, [Nimble Moves](ref/feat/nimble-moves), base attack bonus +2.\

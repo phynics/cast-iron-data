@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tranquility", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "69"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 69\
 Psychic magic flows through you when you attain a peaceful mental state. Regular meditation expands
 your mind, allowing new powers to develop.
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorb_rune_1", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one spell effect
 :::
-
-**Sources:** Adventurer's Guide pg 60
 
 This spell allows you to lay your hand upon a magical glyph, symbol, or other magical spell effect
 (referred to in this spell description as a "rune") and attempt to absorb the essence of its effect.

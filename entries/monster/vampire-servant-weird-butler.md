@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_servant_weird_butler", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "238"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["6", "16", "12", "13", "10", "18"]
 
 **Size:** small
 
-**Sources:** Monster Codex pg 238\
 **Subtype:** Halfling
 
 **Experience points:** 1,200

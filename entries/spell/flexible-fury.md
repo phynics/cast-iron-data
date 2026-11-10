@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexible_fury", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "182"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 182
 
 You swap one of your current rage powers for another rage power you qualify for. If the rage power
 granted by this spell has a use limitation (such as once per rage or a number of times per day), any

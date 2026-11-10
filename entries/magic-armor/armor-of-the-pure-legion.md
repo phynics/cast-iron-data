@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_pure_legion", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Armor Master's Handbook pg 27\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** armor; **Price** 18,300 gp; **Weight** 30 lbs.
 

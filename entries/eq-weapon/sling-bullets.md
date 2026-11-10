@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sling_bullets", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "22"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 22, PRPG Core Rulebook pg 142
 
 Sling bullets are shaped metal balls, designed to be used by a [sling](ref/eq-weapon/sling) or
 [halfling sling staff](ref/eq-weapon/halfling-sling-staff). Bullets come in a leather pouch that

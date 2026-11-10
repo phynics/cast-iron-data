@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defoliant_polish", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "291"
+[[sources]]
+publication = "advanced-players-guide"
+page = "304"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 291, Advanced Player's Guide pg 304\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 800 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyplate_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 63\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** armor; **Price** 30,300 gp; **Weight** 20 lbs.
 

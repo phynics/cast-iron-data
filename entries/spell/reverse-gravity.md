@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reverse_gravity", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "335"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none, see text
 Spell resistance: no
 Area: up to one 10-ft. cube/level (S)
 :::
-
-**Sources:** PRPG Core Rulebook pg 335
 
 This spell reverses gravity in an area, causing unattached objects and creatures in the area to fall
 upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maw_of_the_wyrm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 246\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** head; **Price** 18,000 gp; **Weight** 3 lbs.
 

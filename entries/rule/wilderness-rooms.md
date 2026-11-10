@@ -6,12 +6,13 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_rooms", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of the Wild pg 14
 
 The rooms below can help characters survive in the wild.
 

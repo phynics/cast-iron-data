@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed_glory", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "113"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: one mythic creature
 Descriptors: curse
 :::
-
-**Sources:** Mythic Adventures pg 113
 
 The mythic power cost for all path abilities, feats, spells, and other effects used by the target
 increases by 1.

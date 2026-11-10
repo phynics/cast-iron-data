@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** Reflex negates
-
-**Source:** Occult Adventures/21
 
 You send an elemental mass, energy ball, or object into a particular square within 30 feet, dealing
 [one-fourth](ref/misc/fractions-and-rounding) of the normal amount of damage (or half the normal

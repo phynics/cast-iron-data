@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consumption", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A shaman or witch can use this [blood hex](ref/rule/feats-class) as a
 +++
 
 ## Consumption (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 You cause your rivals to spend additional precious resources while wounded.\
 **Prerequisites:** Int 13, Use Magic Device 5 ranks.\

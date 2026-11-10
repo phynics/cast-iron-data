@@ -6,12 +6,16 @@ source_ids = ["game-mastery-guide", "occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_rules", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "242"
+[[sources]]
+publication = "occult-adventures"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 242, Occult Adventures pg 228
 
 Although haunts function like traps, they are difficult to detect since they cannot be easily
 observed until the round in which they manifest. [Detect undead](ref/spell/detect-undead) or

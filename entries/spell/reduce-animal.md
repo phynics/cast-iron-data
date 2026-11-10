@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/reduce-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "330"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one willing animal of Small, Medium, Large, or Huge size
 :::
-
-**Sources:** PRPG Core Rulebook pg 330
 
 This spell functions like [reduce person](ref/spell/reduce-person), except that it affects a single
 willing animal. Reduce the damage dealt by the animal's natural attacks

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screen", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "337"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: 30-ft. cube/level (S)
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 337
 
 This spell creates a powerful protection from scrying and observation. When casting the spell, you
 dictate what will and will not be observed in the spell's area. The illusion created must be stated

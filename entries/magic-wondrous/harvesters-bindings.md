@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvesters_bindings", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjurationa and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 31\
 **Aura** faint abjurationa and transmutation; **CL** 5th\
 **Slot** wrists; **Price** 8,500 gp; **Weight** -
 

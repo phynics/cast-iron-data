@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discharge", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Fortitude negates
 Spell resistance: no
 Target: one creature or technological object
 :::
-
-**Sources:** Technology Guide pg 9
 
 Discharge dissipates the charges from one technical object, temporarily depowers one electrically
 powered technological object that does not use charges, or severely hinders a creature with the

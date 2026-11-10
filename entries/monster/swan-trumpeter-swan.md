@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swan_trumpeter_swan", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ neck._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 257\
 **Experience points:** 135
 
 **Armor class:** 13/13/11

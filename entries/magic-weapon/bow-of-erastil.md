@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bow_of_erastil", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 19,500 gp; **Weight** 5 lbs.
 

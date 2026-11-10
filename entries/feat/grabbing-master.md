@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grabbing_master", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "148"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are grabbing two opponents while using Grabbing Style, you c
 +++
 
 ## Grabbing Master (Combat)
-
-**Sources:** Advanced Class Guide pg 148
 
 You can grapple two foes as easily as one.\
 **Prerequisites:** [Grabbing Drag](ref/feat/grabbing-drag),

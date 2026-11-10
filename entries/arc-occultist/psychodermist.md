@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic item skill", "Object reading", "Aura sight", "Outside contact
 alters = ["Implements"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 25\
 Rather than tapping the psychic energy residing within esoteric items, psychodermists form
 supernatural bonds with trophies taken from creatures they have slain. Through these mementos, these
 occultists manifest not only their own magic, but also the unique powers of their fallen foes.

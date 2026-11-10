@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steelbone_frame", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** People of the River pg 29\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 6,000 gp; **Weight** 35 lbs.
 

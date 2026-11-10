@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_homeland_family_childhood", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 16
 
 The tables below determine the basics of your family and homeland. These establish the circumstances
 of your upbringing, the composition of your family, and your family's social standing, as well as a

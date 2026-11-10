@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Summon monster", "Bond senses", "Aspect", "Greater aspect"]
 +++
 
-**Sources:** Monster Summoner's Handbook pg 8\
 While most summoners excel at conjuring monsters, there are those who focus instead on disrupting
 the conjurations of opponents. The counter-summoner harnesses powerful abjuration magic to instantly
 thwart the conjuration and summoning abilities of other casters, though at the cost of weakening his

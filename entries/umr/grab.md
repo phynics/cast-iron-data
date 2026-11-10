@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grab", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "294"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Grab (Ex)
 
-**Sources:** Bestiary 5 pg 294\
 If the creature hits with the indicated attack, it deals the normal amount of damage and tries to
 start a grapple as a free action without provoking an attack of opportunity. Unless otherwise noted,
 grab works only against opponents the same size category as the creature or smaller. The creature

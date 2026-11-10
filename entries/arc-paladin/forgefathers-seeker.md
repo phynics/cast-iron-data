@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Aura of faith", "Holy champion"]
 alters = ["Smite evil", "Aura of justice"]
 +++
 
-**Sources:** Construct Handbook pg 13\
 Torag constantly seeks those who would use the power of creation to threaten or harm others. To this
 end, he sends his seekers to locate constructs that are used for evil or that become uncontrollable.
 These paladins are adept at battling constructed foes and guarding those threatened by such

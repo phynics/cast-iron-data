@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrific_gorging", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a full-round action, you can completely consume a dead, unconsciou
 +++
 
 ## Horrific Gorging (Combat)
-
-**Sources:** Horror Adventures pg 88
 
 In the space of a few horrific seconds, you can chew up and gulp down an entire humanoid body.\
 **Prerequisites:** Bite attack, Large or larger, [swallow whole](ref/umr/swallow-whole) universal

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "33"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison lore", "Poison resistance", "Trap sense"]
 +++
 
-**Sources:** Blood of the Ancients pg 33\
 The Tekritanin League facilitated trade and settled disputes between a vast array of diverse
 cultures. The arbiters were the first line of diplomatic defense, solving problems before they could
 become disruptive.

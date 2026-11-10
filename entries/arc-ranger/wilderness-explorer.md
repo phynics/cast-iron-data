@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "74"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Hunter's bond", "Swift tracker", "Quarry", "Improve
 alters = ["Favored terrain", "Favored terrain", "Favored terrain"]
 +++
 
-**Sources:** Ultimate Wilderness pg 74\
 Wilderness explorers are adept at making peaceful contact with remote societies.
 
 **Gained class skills:** diplo, kl

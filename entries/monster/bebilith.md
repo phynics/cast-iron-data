@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bebilith", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ its barbed and razor-edged front claws._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 32\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 9,600

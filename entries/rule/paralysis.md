@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralysis", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "565"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 565
 
 Some monsters and spells have the supernatural or [spell-like ability](ref/umr/spell-like-abilities)
 to paralyze their victims, immobilizing them through magical means. Paralysis from poison is

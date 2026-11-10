@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manteau_of_the_mouse", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 29\
 **Aura** strong transmutation; **CL** 10th\
 **Slot** chest; **Price** 12,500 gp; **Weight** 5 lbs.
 

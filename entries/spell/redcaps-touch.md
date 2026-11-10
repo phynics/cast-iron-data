@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redcaps_touch", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one non-magical hat touched
 :::
-
-**Sources:** Heroes from the Fringe pg 18
 
 You infuse the target with the blood used as a material component, imparting malicious power. As
 long as the hat is worn (occupying the wearer's [head slot](ref/rule/magic-items-on-the-body) as

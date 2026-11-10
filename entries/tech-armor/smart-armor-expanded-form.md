@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smart_armor_expanded_form", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "20 lbs."
 +++
 
 ## Smart armor (compact form)
-
-**Sources:** Technology Guide pg 30
 
 **Cost** 16,500 gp\
 **Type** Light; **Weight** 20 lbs.; **Armor Bonus** +4 (compact) or +8 (expanded)\

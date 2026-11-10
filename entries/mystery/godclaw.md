@@ -6,13 +6,14 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godclaw", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "26"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Path of the Hellknight pg 26
 
 Many Godclaw signifers are oracles who embrace the unique Godclaw mystery. Oracles with the Godclaw
 mystery often take the [clouded vision](ref/oraclecurse/clouded-vision) or

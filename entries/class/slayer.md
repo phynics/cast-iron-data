@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayer", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "53"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 53
 
 Skilled at tracking down targets, slayers are consummate hunters, living for the chase and the
 deadly stroke that brings it to a close. Slayers spend most of their time honing their weapon

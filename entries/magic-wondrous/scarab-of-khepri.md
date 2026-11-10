@@ -6,6 +6,12 @@ source_ids = ["pathfinder-84-pyramid-of-the-sky-pharaoh", "osirion-land-of-the-p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_of_khepri", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
+page = "61"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#84: Pyramid of the Sky Pharaoh pg 61, Osirion, Land of the Pharaohs pg 25\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 7,800 gp; **Weight** -
 

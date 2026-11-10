@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "117"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine health", "Aura of justice"]
 alters = ["Divine bond"]
 +++
 
-**Sources:** Advanced Player's Guide pg 117\
 While paladins often are seen mounted atop a loyal steed, the shining knight is the true symbol of
 mounted bravery. They are never far from their steeds and are always clad in brightly polished
 armor. The shining knight has the following class features.

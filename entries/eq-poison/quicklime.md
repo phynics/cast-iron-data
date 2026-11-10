@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicklime", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "29"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "N/A"
 weight = "&mdash;"
 +++
-
-**Sources:** Pathfinder \#95: Anvil of Fire pg 29
 
 **Price** N/A; **Weight** —
 

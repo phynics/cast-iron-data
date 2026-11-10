@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_assessor", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: one elemental ray
 Descriptors: acid, cold, electricity, fire
 :::
-
-**Sources:** Chronicle of the Righteous pg 50
 
 Azata champions developed this spell to deal with fiends with unknown resistances. A ray of
 spiraling colors springs from your hand and streaks to its target. You must make a successful ranged

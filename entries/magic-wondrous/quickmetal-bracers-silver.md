@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quickmetal_bracers_silver", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "23"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "9th"
 
 ## Quickmetal Bracers
 
-**Sources:** Adventurer's Armory 2 pg 23\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** wrists; **Price** 1,000 gp (Silver), 2,000 gp (Cold Iron), 5,000 gp (Adamantine);
 **Weight** 1 lb.

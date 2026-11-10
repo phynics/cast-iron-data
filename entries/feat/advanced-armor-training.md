@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advanced_armor_training", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken more than once, but at most once per 3 fighter
 +++
 
 ## Advanced Armor Training (Combat)
-
-**Sources:** Armor Master's Handbook pg 15
 
 You are specially trained to use your armor proficiencies in new ways.\
 **Prerequisites:** Armor training class feature, fighter level 3rd.\

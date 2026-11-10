@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_catcher", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 dodge bonus against attacks made by creatures at least 
 +++
 
 ## Rat Catcher (Combat)
-
-**Sources:** Heroes of the Streets pg 29
 
 You have a great deal of experience dealing with the subterranean pests common in cities.\
 **Prerequisites:** Knowledge (dungeoneering) 1 rank, base attack bonus +1.\

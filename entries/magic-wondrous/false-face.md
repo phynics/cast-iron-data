@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_face", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "none (see text)"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 229\
 **Aura** none (see text); **CL** 3rd\
 **Slot** head; **Price** 1,600 gp; **Weight** 1/2 lb.
 

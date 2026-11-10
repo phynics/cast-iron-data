@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_revenge", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: dead body touched
 Subschool: Phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 235
 
 When you cast this eerie spell upon a recently slain creature, you cause a ghastly, spectral image
 of it to rise up from its corpse, shrieking for vengeance before it vanishes in a burst of unnatural

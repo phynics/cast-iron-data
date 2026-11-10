@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tophet", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "271"
+[[sources]]
+publication = "pathfinder-21-the-jackals-price"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ rotund iron effigy._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 271, Pathfinder \#21: The Jackal's Price pg 86\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

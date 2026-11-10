@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can declare a single combat challenge to one f
 +++
 
 ## Champion (Story)
-
-**Sources:** Ultimate Campaign pg 67
 
 You must prove yourself through single combat.\
 **Prerequisites:** You must have defeated a single challenging foe without any aid from another, or

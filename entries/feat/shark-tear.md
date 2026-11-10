@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_tear", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "59"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While in Shark Style, you gain scent while in water, but only against
 +++
 
 ## Shark Tear (Combat)
-
-**Sources:** Aquatic Adventures pg 59
 
 You tear into bleeding foes and can smell their blood in the water.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

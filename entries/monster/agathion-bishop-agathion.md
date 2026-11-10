@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_bishop_agathion", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ its stately mouth, and its human-like hands and feet end in stubby but sharp cla
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 80\
 **Subtype:** Aquatic, Extraplanar, Good
 
 **Experience points:** 1,200

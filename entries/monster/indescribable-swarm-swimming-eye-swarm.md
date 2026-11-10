@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indescribable_swarm_swimming_eye_swarm", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _At the heart of each of these tiny blobs of slime and tentacles is a single, ee
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 87\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

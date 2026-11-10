@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piranha_swarm_megapiranha_swarm", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _Within this mass of primeval fish glint innumerable savagely gnashing teeth._
 
 **Perception:** +6
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 83\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

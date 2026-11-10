@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_coral_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "131"
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "47"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ its creased body and claw-like hands._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 131, Isles of the Shackles pg 47\
 **Experience points:** 6,400
 
 **Armor class:** 21/9/21

@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadfall_dweller", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shambles like a spider._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Tears at Bitter Manor pg 58\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

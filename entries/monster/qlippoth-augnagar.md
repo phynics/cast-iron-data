@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_augnagar", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "219"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ webs of flesh._
 
 **Senses:** Darkvision 60 ft., Scent, True seeing
 
-**Sources:** Bestiary 2 pg 219\
 **Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 38,400

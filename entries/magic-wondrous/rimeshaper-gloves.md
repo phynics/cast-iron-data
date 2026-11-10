@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rimeshaper_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 13\
 **Aura** faint abjuration and transmutation; **CL** 3rd\
 **Slot** hands; **Price** 3,000 gp; **Weight** 1 lb.
 

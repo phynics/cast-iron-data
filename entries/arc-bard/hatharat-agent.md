@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "47"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Well-versed", "Dirge of doom"]
 +++
 
-**Sources:** Qadira, Jewel of the East pg 47\
 Although the Hatharat employs all manner of specialists, bards who take up the role of agent are
 among its most infamous and widespread.
 

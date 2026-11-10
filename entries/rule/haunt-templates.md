@@ -6,12 +6,16 @@ source_ids = ["occult-adventures", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_templates", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "228"
+[[sources]]
+publication = "horror-adventures"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 228, Horror Adventures pg 172
 
 ### Item-Bound Haunts
 

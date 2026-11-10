@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atlach_nacha", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "64"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Atlach-Nacha**
 
 **Sub:** The Void Weaver
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 64
 
 ### Details
 

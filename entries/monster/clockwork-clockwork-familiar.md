@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_familiar", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "57"
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ articulated plates._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 57, Pathfinder \#63: The Asylum Stone pg 86\
 **Subtype:** Clockwork
 
 **Size:** tiny

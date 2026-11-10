@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-demiplane-lesser" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Creation
 :::
 
 ### Create Demiplane
-
-**Sources:** Ultimate Magic pg 213
 
 This spell functions as [create lesser demiplane](ref/spell/create-demiplane-lesser), except the
 area is larger and you can add more features to the plane. You can use this spell to expand a

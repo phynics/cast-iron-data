@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_viduus", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "223"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "41"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This dour being has a mostly humanoid form with its lower body wrapped in a coc
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Bestiary 6 pg 223, Inner Sea Bestiary pg 41\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 1,200

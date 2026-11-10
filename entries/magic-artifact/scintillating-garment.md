@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scintillating_garment", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 70\
 **Aura** strong abjuration and conjuration; **CL** 20th\
 **Slot** body; **Price** -; **Weight** 1 lb.
 

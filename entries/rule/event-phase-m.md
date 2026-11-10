@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "event_phase_m", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 Once all militia actions during the Activity phase are resolved, the GM rolls percentile dice to see
 whether any special events occur that week. The percentage chance of an event occurring is equal to

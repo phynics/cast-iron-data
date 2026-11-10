@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "307"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Construct
-
-**Sources:** Pathfinder RPG Bestiary pg 307
 
 A construct is an animated object or artificially created creature.
 

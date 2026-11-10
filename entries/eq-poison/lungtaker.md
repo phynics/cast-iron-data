@@ -6,6 +6,9 @@ source_ids = ["magnimar-city-of-monuments"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lungtaker", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "45"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,200 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Magnimar, City of Monuments pg 45
 
 **Price** 1,200 gp; **Weight** —
 

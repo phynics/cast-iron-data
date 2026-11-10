@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_goblin", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "32"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ dogslicer._
 
 **Size:** small
 
-**Sources:** Construct Handbook pg 32\
 **Subtype:** Clockwork
 
 **Experience points:** 800

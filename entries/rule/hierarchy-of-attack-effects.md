@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hierarchy_of_attack_effects", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 135
 
 When it comes to attack spells, there is a clear hierarchy of what kinds of effects are better than
 others. Here are the attack effects in order of best effect to worst, assuming all other factors

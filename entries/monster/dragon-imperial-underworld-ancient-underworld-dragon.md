@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_underworld_ancient_underworld_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "103"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["35", "8", "25", "20", "21", "20"]
 
 **Senses:** Dragon senses, Smoke vision
 
-**Sources:** Bestiary 3 pg 103\
 **Subtype:** Fire
 
 **Experience points:** 76,800

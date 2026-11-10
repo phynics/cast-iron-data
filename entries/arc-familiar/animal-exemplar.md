@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_exemplar", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "210"
 
 [fields]
 kind = "archetype"
@@ -13,7 +16,6 @@ replaces = ["Deliver touch spells", "spell resistance", "scry on familiar"]
 alters = ["Speak with animals of its kind"]
 +++
 
-**Sources:** Ultimate Wilderness pg 210\
 An animal exemplar is a paragon of its species, able to command the loyalty of others of its kind.
 
 **Special Requirement:** An animal exemplar familiar cannot be an improved familiar, plant, vermin,

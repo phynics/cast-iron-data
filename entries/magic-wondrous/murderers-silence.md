@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderers_silence", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "249"
+[[sources]]
+publication = "magical-marketplace"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Intrigue pg 249, Magical Marketplace pg 25\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** none; **Price** 900 gp; **Weight** 1 lb.
 

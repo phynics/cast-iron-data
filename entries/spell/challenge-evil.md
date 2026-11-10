@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenge_evil", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one evil creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 210
 
 You challenge an evil creature to bring the fight to you, or suffer the consequences. You gain a +2
 sacred bonus on all melee attacks against the subject of the spell. At the end of its turn, if the

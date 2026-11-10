@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_spell", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can enhance any spell that inflicts hit point damage to become a 
 +++
 
 ## Crypt Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 26
 
 You can infuse your magic with the unswayable power of the Boneyard, sending foes to face
 ineluctable judgment.\

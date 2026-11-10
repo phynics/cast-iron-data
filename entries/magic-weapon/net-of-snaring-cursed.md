@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_of_snaring_cursed", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "348"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -18,7 +24,6 @@ caster_level = "8th"
 
 ## Net of Snaring
 
-**Sources:** Ultimate Equipment pg 348, PRPG Core Rulebook pg 541\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Weight** 1 lb.
 

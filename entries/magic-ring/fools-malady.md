@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_malady", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 33\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** ring; **Price** 900 gp; **Weight** -
 

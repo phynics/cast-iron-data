@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empower_spell", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "All variable, numeric effects of an empowered spell are increased by 
 +++
 
 ## Empower Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 122
 
 You can increase the power of your spells, causing them to deal more damage.\
 **Benefit:** All variable, numeric effects of an empowered spell are increased by half including

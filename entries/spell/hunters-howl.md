@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_howl", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Area: 20-ft.-radius burst
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 228
 
 With a single primal howl, you strike fear in your opponents. Until the end of the spell's duration,
 you treat those affected by it as if they were your [favored enemy](ref/ability/favored-enemy),

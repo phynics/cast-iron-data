@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mathematical_spellcasting", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "48"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 48
 
 For many, mathematics and magic are worlds apart. For numerologists, however, the two go hand in
 hand. Mathematical spellcasters use their knowledge of engineering and spellcraft to calculate how

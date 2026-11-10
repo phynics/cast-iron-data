@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fall_guy", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "An ally who also has this feat can spend a standard action bumbling a
 +++
 
 ## Fall Guy (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 Your ally plays the part of a bumbling fool, making you look good in comparison.\
 **Prerequisites:** Bluff 1 rank.\

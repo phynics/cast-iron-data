@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_size", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 146
 
 The kind of campaign you want to run should inform the scope of the map you need to create. If your
 game focuses entirely on a small valley in a mountain range, you might not even need to create a

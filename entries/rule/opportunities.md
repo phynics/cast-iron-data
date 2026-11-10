@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunities", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 136
 
 An opportunity is the PCs' chance to strike back at their nemesis. Each time you choose a stratagem,
 decide what sort of opportunity, vulnerability, or clue the PCs might be able to discover as a

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drums_of_panic", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "292"
+[[sources]]
+publication = "core-rulebook"
+page = "510"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 292, PRPG Core Rulebook pg 510\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
 

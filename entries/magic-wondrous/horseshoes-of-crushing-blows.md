@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_crushing_blows", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "231"
+[[sources]]
+publication = "advanced-race-guide"
+page = "125"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 231, Advanced Race Guide pg 125\
 **Aura** faint evocation; **CL** 5th\
 **Slot** feet; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
 (+5); **Weight** 4 lbs.

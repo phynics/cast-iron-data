@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_whip", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/21
 
 You form a long tendril of energy or elemental matter. This functions as _kinetic blade_ but counts
 as a [reach](ref/misc/reach) weapon appropriate for your size. Unlike most reach weapons, the

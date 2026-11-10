@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiroskek", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ propels itself forward with balance and grace._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Down the Blighted Path pg 59\
 **tremorsense:** 60
 
 **Experience points:** 2,400

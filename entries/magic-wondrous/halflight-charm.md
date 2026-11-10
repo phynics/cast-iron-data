@@ -6,6 +6,12 @@ source_ids = ["pathfinder-63-the-asylum-stone", "city-of-strangers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halflight_charm", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "58"
+[[sources]]
+publication = "city-of-strangers"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 58, City of Strangers pg 50\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 2,500 gp; **Weight** -
 

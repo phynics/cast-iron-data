@@ -6,13 +6,14 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reaper", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "66"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Pathfinder \#139: The Dead Road pg 66
 
 Oracles with the reaper mystery strive to quiet restless souls, end lives, and send souls to their
 final reward.

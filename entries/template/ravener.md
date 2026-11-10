@@ -6,6 +6,9 @@ source_ids = ["bestiary-2", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ravener", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "230"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 2/230
 
 Most evil dragons spend their lifetimes coveting and amassing wealth, but when the end draws near,
 some come to realize that all the wealth in the world cannot forestall death. Faced with this truth,

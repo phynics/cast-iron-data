@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_taiga_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "184"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ scales and vicious black barbs._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 3 pg 184\
 **Experience points:** 204,800
 
 **Armor class:** 34/9/27

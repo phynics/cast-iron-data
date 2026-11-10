@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bath_public", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "99"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (cold, hot, public)"
 
 ## Bath
 
-**Sources:** Ultimate Equipment pg 99\
 **Price** 2 cp (cold), 6 cp (hot), 2 sp-1 gp (public); **Weight** - (cold, hot, public)\
 **Category** Lodging/Services
 

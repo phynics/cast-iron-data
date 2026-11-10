@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biting_battleaxe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "343"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "moderate evocation"
 caster_level = "8th"
 +++
-
-**Sources:** Ultimate Equipment pg 343
 
 **Aura** moderate evocation; **CL** 8th\
 **Slot** none; **Weight** 6 lbs.

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_requirements", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 156
 
 While smaller settlements like towns and forts can sometimes exist in barely tenable situations,
 often for strategic military reasons, most realistic cities have a few basic requirements that must

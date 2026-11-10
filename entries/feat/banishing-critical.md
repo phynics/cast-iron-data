@@ -10,6 +10,12 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/arcane-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/disruptive", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "8"
+[[sources]]
+publication = "blood-of-angels"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -20,8 +26,6 @@ benefit = "When you confirm a critical hit against a target while using Arcane S
 +++
 
 ## Banishing Critical (Critical)
-
-**Sources:** Monster Summoner's Handbook pg 8, Blood of Angels pg 24
 
 Your familiarity with summoning creatures has taught you how to send them away with a well-timed
 strike.\

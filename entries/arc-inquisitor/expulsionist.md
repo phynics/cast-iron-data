@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Monster lore", "Discern lies"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 14\
 Most common among [Pharasmins](ref/faith/pharasma) but found within any faith that loathes undead or
 evil spirits, expulsionists are inquisitors who seek to rid the material world of the corrupting
 influences of wicked spirits that twist mortals to their own ends.

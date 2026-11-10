@@ -6,6 +6,9 @@ source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talmandor", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "andoran-birthplace-of-freedom"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ DC 30, 10 rounds), quell the profane
 
 **Senses:** Darkvision 60 ft., See invisibility, True seeing
 
-**Sources:** Andoran, Birthplace of Freedom pg 62\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 819,200

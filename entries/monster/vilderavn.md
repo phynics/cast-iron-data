@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vilderavn", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ gauntlets fit for oversized talons._
 
 **Senses:** Deathwatch, Low-light vision, See in darkness, True seeing
 
-**Sources:** Bestiary 5 pg 268\
 **Subtype:** Shapechanger
 
 **Experience points:** 76,800

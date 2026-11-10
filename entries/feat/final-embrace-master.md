@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace_master", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "102"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Double the number of damage dice for your constrict special attack."
 +++
 
 ## Final Embrace Master (Combat)
-
-**Sources:** Ultimate Combat pg 102
 
 Few creatures can survive the crushing horror of your Final Embrace.\
 **Prerequisites:** Str 17, Int 3; naga, [serpentfolk](ref/monster/serpentfolk), or creature that has

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotive_block", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "169"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 169
 
 You create an emotional block in the target's mind, adding an emotion component to each spell or
 [spell-like ability](ref/umr/spell-like-abilities) he uses. This is in addition to any other

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_chicome", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ head and crest. Its wings let forth thin clouds of golden pollen and showers of 
 
 **Senses:** Darkvision 120 ft., Detect chaos/evil/good/law
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 82\
 **Subtype:** Native
 
 **Experience points:** 76,800

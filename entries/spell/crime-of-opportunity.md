@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/crime-wave" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Descriptors: mind-affecting
 :::
 
 ### Crime of Opportunity
-
-**Sources:** Ultimate Intrigue pg 208
 
 You awaken a sudden criminal impulse in the target, compelling it to commit a criminal act as if
 affected by the [crime wave](ref/spell/crime-wave) spell.

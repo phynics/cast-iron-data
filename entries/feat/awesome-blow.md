@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awesome_blow", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "314"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, the creature may perform an awesome blow combat
 +++
 
 ## Awesome Blow (Combat, Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 314
 
 This creature can send opponents flying.\
 **Prerequisites:** Str 25, [Power Attack](ref/feat/power-attack),

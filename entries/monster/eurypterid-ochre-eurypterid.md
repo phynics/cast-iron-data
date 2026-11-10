@@ -6,6 +6,9 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_ochre_eurypterid", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ long, thin stinger rises from behind._
 
 **Size:** small
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 78\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

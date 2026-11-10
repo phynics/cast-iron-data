@@ -6,13 +6,14 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "succor", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "20"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Healer's Handbook pg 20
 
 **Deities**
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neckbreaker", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you have an opponent your size or smaller helpless or pinned, afte
 +++
 
 ## Neckbreaker (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 With a quick jerk, you snap an enemy's neck.\
 **Prerequisites:** [Bonebreaker](ref/feat/bonebreaker), [Greater Grapple](ref/feat/greater-grapple),

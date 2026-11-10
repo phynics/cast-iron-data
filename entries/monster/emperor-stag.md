@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emperor_stag", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A wide rack of ivory-white antlers crowns the head of this majestic tawny stag.
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 800
 
 **Armor class:** 15/14/11

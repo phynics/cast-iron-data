@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_sea_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "109"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ arms serve as both wings and flippers._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 109\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

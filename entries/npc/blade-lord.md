@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_lord", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "159"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 159\
 **XP** 204,800\
 Elf [rogue](ref/class/rogue) 20\
 NE Medium humanoid (elf)\

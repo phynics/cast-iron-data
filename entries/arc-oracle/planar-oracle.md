@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "59"
 
 [fields]
 kind = "archetype"
 replaces = ["All bonus spells from the oracle's mystery", "3rd-level revelation", "Final revelation"]
 +++
 
-**Sources:** Ultimate Magic pg 59\
 A planar oracle has an affinity with one of the Outer Planes. She is at home on the multiple planes
 of the Great Beyond, and can eventually become an outsider herself.
 

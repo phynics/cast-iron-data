@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockroach_giant_cockroach", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _A dog-sized cockroach skitters forth, greedily clicking its filth-slicked mandi
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 58\
 **tremorsense:** 60
 
 **Type:** vermin

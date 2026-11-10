@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_disease", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "155"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** Advanced Race Guide pg 155
 
 > _[Ratfolk](ref/race/ratfolk) have access to the following spell._
 

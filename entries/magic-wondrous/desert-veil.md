@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_veil", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "4"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 4\
 **Aura** moderate abjuration and conjuration; **CL** 7th\
 **Slot** head; **Price** 11,000 gp; **Weight** -
 

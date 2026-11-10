@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_barrier", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: wall of whirling blades up to 20 ft. long/level, or a ringed wall of whirling blades with a radius of up to 5 ft. per two levels; either form is 20 ft. high
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 249
 
 An immobile, vertical curtain of whirling blades shaped of pure force springs into existence. Any
 creature passing through the wall takes 1d6 points of damage per caster level (maximum 15d6), with a

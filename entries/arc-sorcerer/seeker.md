@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Eschew Materials", "3rd-level bloodline power", "15th-level bloodline power"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 29\
 Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen
 by fate or blood. While most might be content with their strange powers, some oracles and sorcerers
 join the [Pathfinders](ref/rule/aff-scholars) specifically to find out more about their mysteries

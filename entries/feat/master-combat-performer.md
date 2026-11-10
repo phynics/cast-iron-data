@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/performing-combatant", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can make performance combat checks as a free action. You are prof
 +++
 
 ## Master Combat Performer (Combat)
-
-**Sources:** Ultimate Combat pg 109
 
 You are a master of the techniques and weapons of the arena and the stage.\
 **Prerequisites:** [Performing Combatant](ref/feat/performing-combatant) or at least three

@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_figment", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: your familiar
 Subschool: Figment
 :::
-
-**Sources:** Animal Archive pg 24
 
 You create an illusory duplicate of your familiar that moves erratically around your familiar's
 space, frequently moving through the familiar's body with a blurring effect that makes it

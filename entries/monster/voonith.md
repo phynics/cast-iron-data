@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voonith", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ running down its spine._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 283\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

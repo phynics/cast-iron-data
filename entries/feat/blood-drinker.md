@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_drinker", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "99"
 
 [fields]
 kind = "feat"
 prerequisites = "Dhampir."
 benefit = "Choose one humanoid subtype, such as \"goblinoid\" (this subtype cannot be \"dhampir\"). You have acquired a taste for the blood of creatures with this subtype. Whenever you drink fresh blood from such a creature, you gain 5 temporary hit points and a +1 bonus on checks and saves based on Constitution. The effects last 1 hour. If you feed multiple times, you continue to gain hit points to a maximum of 5 temporary hit points for every three Hit Dice you have, but the +1 bonus on Constitution-based skill checks and saving throws does not stack."
 +++
-
-**Sources:** Advanced Race Guide pg 99
 
 Consuming blood reinvigorates you.\
 **Prerequisites:** [Dhampir](ref/race/dhampir).\

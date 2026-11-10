@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_woodland_creatures", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 53\
 **Aura** faint abjuration and conjuration; **CL** 5th\
 **Slot** shoulders; **Price** 3,500 gp; **Weight** 1 lb.
 

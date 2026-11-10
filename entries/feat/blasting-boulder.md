@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasting_boulder", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Smoking Boulder, base attack bonus +13, heated rock special att
 prerequisite_feats = ["ref/feat/smoking-boulder"]
 benefit = "You can infuse rocks thrown as part of an attack action with volatile fire energies, adding one of the following effects to a thrown rock affected by your Smoking Boulder feat."
 +++
-
-**Sources:** Giants Revisited pg 19
 
 The boulders you hurl explode upon impact, laying waste to nearby creatures.\
 **Prerequisites:** [Smoking Boulder](ref/feat/smoking-boulder), base attack bonus +13, heated rock

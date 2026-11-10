@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fossegrim", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "114"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This striking, blue-eyed man with luminous skin and flowing white hair holds an
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 114\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

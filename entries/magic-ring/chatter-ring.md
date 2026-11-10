@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chatter_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Antihero's Handbook pg 31\
 **Aura** faint divination; **CL** 3rd\
 **Slot** ring; **Weight** -
 

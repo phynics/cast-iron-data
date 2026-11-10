@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crisis_of_conscience", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you've already completed this feat by changing to the opposite mor
 +++
 
 ## Crisis of Conscience (Story)
-
-**Sources:** Champions of Balance pg 5
 
 Your internal struggle and contradictory actions have left you teetering on a knife's edge between
 good and evil. You must choose which path you will make your own.\

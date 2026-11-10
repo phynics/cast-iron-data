@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quetzutrhul", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ proboscis clutching a dagger._
 
 **Size:** small
 
-**Sources:** Darklands Revisited pg 27\
 **Experience points:** 12,800
 
 **Armor class:** 28/23/16

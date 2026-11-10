@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "72"
 
 [fields]
 kind = "archetype"
 replaces = ["1st favored terrain", "wild empathy", "Hunter's bond", "Woodland stride"]
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 72\
 Cinderwalkers traverse burning wastelands and restless mountains, thriving in lands most creatures
 avoid.
 

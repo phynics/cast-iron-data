@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirocco", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: cylinder (20-ft. radius, 60 ft. high)
 Descriptors: air, fire
 :::
-
-**Sources:** Advanced Player's Guide pg 244
 
 A blast of furnace-hot wind blasts downward, inflicting 4d6 fire damage +1 point per caster level to
 all creatures in the area and knocking them prone. A successful Fortitude save halves the fire

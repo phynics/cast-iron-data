@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothman", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "194"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ from its narrow face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 194, Pathfinder \#16: Endless Night pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 20/14/16

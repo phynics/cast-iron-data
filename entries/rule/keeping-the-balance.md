@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeping_the_balance", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "117"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 117
 
 Watch out for magic items that provide benefits beyond the calculated price. Keep an eye toward
 preserving the existing power level of magic items in the game.

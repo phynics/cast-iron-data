@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verbose_performer", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "58"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Double the range of any bardic performance ability that possesses a r
 +++
 
 ## Verbose Performer (Faction)
-
-**Sources:** Faction Guide pg 58
 
 The range of your bardic performances increases.\
 **Prerequisites:** Bardic performance class feature,

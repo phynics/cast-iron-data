@@ -6,6 +6,12 @@ source_ids = ["rival-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_lash", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "23"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "As a standard action, you can make a disarm or trip maneuver with you
 +++
 
 ## Serpent Lash (Combat)
-
-**Sources:** Rival Guide pg 23, Osirion, Land of the Pharaohs pg 29
 
 You are adept at vexing multiple foes with your whip.\
 **Prerequisites:** [Weapon Finesse](ref/feat/weapon-finesse), proficient in

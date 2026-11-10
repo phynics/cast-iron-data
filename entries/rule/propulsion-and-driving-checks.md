@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "propulsion_and_driving_checks", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 171
 
 Every vehicle has a method of propulsion. Creatures pull chariots and wagons. Boats and ships are
 propelled by water currents, wind, muscle, or all three forces. Fantastical airships are held aloft

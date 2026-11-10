@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_pulverizing_disruption", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 26\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** hands; **Price** 9,400 gp; **Weight** -
 

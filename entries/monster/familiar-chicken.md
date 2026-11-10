@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "familiar-folio", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_chicken", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "193"
+[[sources]]
+publication = "familiar-folio"
+page = "24"
+[[sources]]
+publication = "bestiary-5"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -39,7 +48,6 @@ of its head._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 193, Familiar Folio pg 24, Bestiary 5 pg 112\
 **Size:** tiny
 
 **Experience points:** 65

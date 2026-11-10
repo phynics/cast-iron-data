@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balance_of_suffering", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes; see text
 Targets: 1 living creature and another single living or undead creature
 Subschool: Healing
 :::
-
-**Sources:** Healer's Handbook pg 8
 
 You borrow life force from a living creature and infuse it into another living creature, potentially
 wreaking destruction on the former and bolstering the life of the latter.

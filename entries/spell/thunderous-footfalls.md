@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderous_footfalls", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: no (harmless)
 Target: one Large or larger creature
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 71
 
 This spell makes the target creature's footfalls shake the ground violently as he trundles, which
 may knock down smaller creatures as he passes by, though it also makes the target slower on land.

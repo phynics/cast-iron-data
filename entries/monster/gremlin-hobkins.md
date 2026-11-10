@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_hobkins", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "131"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This small, blue-gray humanoid has glowing eyes and huge ears on its round, ove
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 131\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

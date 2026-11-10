@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ramming", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 14\
 To ram a target, a ship must move at least 30 feet and end with its forward square in a square
 adjacent to the target. The ship's pilot must make a ramming combat maneuver check against the
 target's CMD, using the base CMB of the ship plus the pilot's sailing skill modifier (or Wisdom

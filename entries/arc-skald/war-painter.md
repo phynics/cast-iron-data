@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spell kenning", "Lore master"]
 alters = ["Raging song"]
 +++
 
-**Sources:** Blood of the Beast pg 10\
 The gripplis of the Valashmai Jungle exhibit savage strength for their size - attributed in part to
 the frightful magical pigments applied to their skin by the tribes' mystical lore keepers.
 

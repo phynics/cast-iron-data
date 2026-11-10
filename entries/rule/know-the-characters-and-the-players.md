@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_characters_and_the_players", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 16
 
 Sit down with all the character sheets and look them over carefully. Consider what each character
 can do in the game: major powers, secondary powers, special abilities, and inherent traits. This

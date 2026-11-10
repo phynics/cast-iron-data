@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_carnage", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Street Style, the critical multiplier of your unarmed str
 +++
 
 ## Street Carnage (Combat)
-
-**Sources:** Ultimate Intrigue pg 92
 
 For you, the urban environment becomes another brutal weapon you can use to shred flesh and break
 bones.\

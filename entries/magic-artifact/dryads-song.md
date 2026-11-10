@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dryads_song", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 49\
 **Aura** strong conjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

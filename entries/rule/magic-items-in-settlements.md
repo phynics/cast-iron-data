@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_in_settlements", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 213
 
 In addition to the commonly available items in a settlement as determined by its
 [base value](ref/rule/the-settlement-stat-block), some buildings increase the likelihood of having

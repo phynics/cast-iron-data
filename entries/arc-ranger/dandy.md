@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "41"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Favored enemy", "Wild empathy", "Woodland stride"]
 alters = ["Favored terrain", "Hunter's bond", "Spellcasting"]
 +++
 
-**Sources:** Ultimate Intrigue pg 41\
 The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette
 of noble courts, the whispers of dark rumors, and the customs of the cultured world. Nonetheless, he
 is still a ranger at heart, and he hunts for rumors and gossip throughout the grand ballrooms of the

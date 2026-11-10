@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azathoth", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "65"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Azathoth**
 
 **Sub:** The Daemon Sultan
-
-**Sources:** Pathfinder \#109: In Search of Sanity pg 65
 
 ### Details
 

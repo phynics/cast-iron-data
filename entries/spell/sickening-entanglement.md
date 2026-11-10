@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/entangle" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "192"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: plants in a 40-ft.-radius spread
 :::
 
 ### Sickening Entanglement
-
-**Sources:** Advanced Class Guide pg 192
 
 This spell functions as [entangle](ref/spell/entangle), except the plants are coated with an
 irritating sap that creates a painful, itching rash on creatures that touch them. Any creature that

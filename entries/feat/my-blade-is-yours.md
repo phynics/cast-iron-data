@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "my_blade_is_yours", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When adjacent to an ally with this feat who is wielding a weapon with
 +++
 
 ## My Blade is Yours (Combat, Teamwork)
-
-**Sources:** Ultimate Intrigue pg 87
 
 You fight with seamless grace alongside your allies, complementing the inherent strengths of your
 weaponry.\

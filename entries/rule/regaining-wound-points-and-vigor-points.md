@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regaining_wound_points_and_vigor_points", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 206
 
 A creature can regain wound and vigor points in a number of ways, but in general it is easier to
 regain vigor points.

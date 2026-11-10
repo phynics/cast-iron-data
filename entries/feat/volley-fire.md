@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volley_fire", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +1 bonus on ranged attack rolls for each ally with this fe
 +++
 
 ## Volley Fire (Combat, Teamwork)
-
-**Sources:** Ranged Tactics Toolbox pg 10
 
 You have trained to work in ranks of archers to rain arrows down upon your foes.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot).\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cut_scenes", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "32"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 32
 
 When you flash from the main party scene to a secondary view (a lone PC scouting, or events
 happening somewhere else entirely) you can create tension by flipping back and forth between the

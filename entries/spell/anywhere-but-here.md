@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/plane-shift" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: you and up to four willing creatures, none of whom can be on their home plane
 Subschool: Teleportation
 :::
-
-**Sources:** Planar Adventures pg 38
 
 This spell functions similarly to [plane shift](ref/spell/plane-shift), but instead of transporting
 the targets to a destination near an intended location on a specific plane, anywhere but here

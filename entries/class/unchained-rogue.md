@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_rogue", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "20"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "unchained"
 hit_die = "d8"
 skill_ranks = "8 + Int modifier"
 +++
-
-**Sources:** Pathfinder Unchained pg 20
 
 Thief, sneak, charmer, diplomat - all of these and more describe the rogue. When not skulking in the
 shadows, disarming traps, and stealing from the unaware, rogues may rub shoulders with powerful

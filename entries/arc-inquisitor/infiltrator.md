@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "45"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "Track", "Discern lies"]
 alters = ["Stern gaze"]
 +++
 
-**Sources:** Ultimate Magic pg 45\
 This inquisitor uses guile and deception to blend in among the enemies of the faith rather than
 confronting them head-on.
 

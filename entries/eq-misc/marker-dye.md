@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "pathfinder-campaign-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marker_dye", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "103"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "213"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 103, Adventurer's Armory pg 19, Pathfinder Campaign Setting pg
-213\
 **Price** 15 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

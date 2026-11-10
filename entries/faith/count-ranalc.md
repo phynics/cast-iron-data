@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "count_ranalc", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "18"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Count Ranalc**
 
 **Sub:** The Traitor
-
-**Sources:** The First World, Realm of the Fey pg 18
 
 ### Details
 

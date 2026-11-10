@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramble_sorcerer", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "162"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 162\
 **XP** 1,200\
 Half-elf [sorcerer](ref/class/sorcerer) 5\
 LE Medium humanoid (elf, human)\

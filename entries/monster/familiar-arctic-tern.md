@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "reign-of-winter-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_arctic_tern", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "192"
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ _This white-and-gray bird has a reddish-orange beak._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 192, Reign of Winter Player's Guide pg 10\
 **Size:** tiny
 
 **Experience points:** 65

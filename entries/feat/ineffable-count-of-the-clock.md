@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/fey-obedience", label = "or" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Three times per day as a free action, you can increase your speed by 
 +++
 
 ## Ineffable Count of the Clock (Gathlain Court Title)
-
-**Sources:** Plane-Hopper's Handbook pg 22
 
 You realize that the endless march of time is more of a drunkard's lurch, and this grants you status
 in the eyes of [the Many](ref/faith/shyka).\

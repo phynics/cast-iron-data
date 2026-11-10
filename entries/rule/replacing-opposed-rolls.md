@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replacing_opposed_rolls", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 189
 
 Especially in intrigue-based games, there are situations in which many different creatures might
 normally need to roll an opposed skill check against a PC. For instance, if the rogue sneaks into a

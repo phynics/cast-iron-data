@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/two-weapon-fighting", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Once per round, when wielding a bludgeoning weapon in each hand again
 +++
 
 ## Twin Thunders (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 When you fight giants, your powerful blows combine with skills learned from generations of your
 people to quickly even the odds.\

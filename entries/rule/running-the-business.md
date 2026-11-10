@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_the_business", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "78"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 78
 
 Running a business using the Profession skill requires a great amount of time, and as such, most
 heroes don't maintain an active operation. Those who do often turn over most of the day-to-day tasks

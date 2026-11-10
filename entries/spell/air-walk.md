@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_walk", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: creature (Gargantuan or smaller) touched
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 239
 
 The subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a
 hill. The maximum upward or downward angle possible is 45 degrees, at a rate equal to half the air

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "247"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2 or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/247
 
 A [monk](ref/class/monk) creature gains extra attacks with unarmed strikes or natural attacks, an
 increase in damage with those attacks, and defensive abilities. A monk creature's CR increases by 3

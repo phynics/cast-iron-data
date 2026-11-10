@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "153"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Poison resistance", "poison immunity"]
 +++
 
-**Sources:** Advanced Race Guide pg 153\
 The plague bringer sees disease as the ultimate weapon, and has worked tirelessly to master new
 diseases and disease-delivery systems. A plague bringer feels no more remorse at unleashing his
 armaments on his enemies than an archer does when firing an arrow in the heat of battle. Disease is

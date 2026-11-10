@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouting_leather", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 53\
 **Aura** moderate illusion and transmutation; **CL** 10th\
 **Slot** armor; **Price** 8,750 gp; **Weight** 15 lbs.
 

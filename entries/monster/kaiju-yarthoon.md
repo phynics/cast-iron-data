@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju_yarthoon", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ amid a ring of glowing eyes._
 
 **Senses:** Low-light vision, Mistsight, See in darkness
 
-**Sources:** Bestiary 6 pg 174\
 **Subtype:** Air, Kaiju
 
 **tremorsense:** 300

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/damnation-stride", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 90\
 The burst of fire created reeks of sulfur and brimstone and also acts like stinking cloud (with the
 same duration as that spell and a separate Fortitude save).
 

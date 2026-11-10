@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_hellgrammite", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "14"
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ sides._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 14, Pathfinder \#49: The Brinewall Legacy pg 83\
 **Subtype:** Aquatic
 
 **Type:** vermin

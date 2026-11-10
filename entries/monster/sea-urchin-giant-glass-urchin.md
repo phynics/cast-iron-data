@@ -6,6 +6,9 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_glass_urchin", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ abilities = ["31", "3", "22", "-", "15", "2"]
 
 **Senses:** All-around vision, Low-light vision, Scent
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 84\
 **Subtype:** Aquatic
 
 **tremorsense:** 30

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "105"
 
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Ki pool", "high jump", "All instances of slow fall", "Improved evasion", "abundant step", "Diamond soul", "Empty body"]
 +++
 
-**Sources:** Advanced Class Guide pg 105\
 A wildcat is a student of the school of hard knocks, who dedicates himself to learning how to take
 down foes by any means necessary. A wildcat isn't afraid to smash a tankard over a foe's head, stomp
 an opponent's foot, gouge an eye, or generally create mayhem to gain any possible advantage.

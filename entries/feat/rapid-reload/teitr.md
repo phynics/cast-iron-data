@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/rapid-reload" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ normal = "A character without this feat needs a move action to reload a hand cro
 special = "You can gain Rapid Reload multiple times. Each time you take the feat, it applies to a new weapon group."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 Choose the crossbows or thrown [weapon groups](ref/ability/weapon-groups) listed under the fighter's
 Weapon Training class feature. You can reload such weapons quickly.\
 **Prerequisites:** Proficiency with at least one weapon from the selected weapon group.\

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "athletics_str", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 56
 
 ### Athletics (Str; Armor Check Penalty)
 

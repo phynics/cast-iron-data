@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestial_rags", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Wilderness pg 251\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** body; **Price** 8,000 gp; **Weight** 2 lbs.
 

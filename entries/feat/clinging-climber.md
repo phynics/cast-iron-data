@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clinging_climber", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "108"
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "As a move action while climbing, you can cling to your climbing surfa
 +++
 
 ## Clinging Climber (Combat)
-
-**Sources:** Ultimate Wilderness pg 108, Ranged Tactics Toolbox pg 14
 
 Using leverage and pure brawn, you can cling to a cliff face, ladder, or rope with your legs to free
 both of your hands to take other actions.\

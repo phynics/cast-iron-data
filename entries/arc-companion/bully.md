@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bully", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "187"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Multiattack"]
 +++
 
-**Sources:** Ultimate Wilderness pg 187\
 Bigger than others of its kind, a bully is used to winning fights and displays of dominance for its
 choice of mates, territory, or other privileges.
 

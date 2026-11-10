@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_energy", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "327"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 327
 
 Protection from energy grants temporary immunity to the type of energy you specify when you cast it
 (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of

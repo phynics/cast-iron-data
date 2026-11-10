@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/naga-shape-1" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Polymorph
 :::
 
 ### Naga Shape II
-
-**Sources:** Blood of the Beast pg 19
 
 This spell functions as [naga shape I](ref/spell/naga-shape-1). Additionally, if the form you assume
 has any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly

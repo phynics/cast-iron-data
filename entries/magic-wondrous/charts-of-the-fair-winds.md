@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charts_of_the_fair_winds", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 58\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 3,200 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distressing_tone", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: 1d4 living creatures
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 217
 
 You create a powerful tone that vibrates living flesh. Targets must save or gain the sickened
 condition. Creatures that are immune to critical hits are immune to this spell.

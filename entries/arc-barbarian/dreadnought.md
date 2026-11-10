@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement", "Indomitable will", "Tireless rage"]
 alters = ["Rage"]
 +++
 
-**Sources:** Horror Adventures pg 47\
 Unstoppable and fearless, the dreadnought turns the terror of her enemies into violent physical
 power.
 

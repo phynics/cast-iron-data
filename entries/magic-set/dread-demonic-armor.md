@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_demonic_armor", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "26"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 26
 
 As [Deskari's](ref/faith/deskari) dread hordes surged forth from the Worldwound, many mortals joined
 the demon lord's forces, some willingly and some through the most wicked coercions. To the most

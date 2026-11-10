@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-19-howl-of-the-carrion-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_doru", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "86"
+[[sources]]
+publication = "pathfinder-19-howl-of-the-carrion-king"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ _This disembodied and bestial head covered in lashing hair and curling horns fli
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Bestiary 3 pg 86, Pathfinder \#19: Howl of the Carrion King pg 80\
 **Subtype:** Div, Evil, Extraplanar
 
 **Size:** tiny

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Sources:** Advanced Class Guide pg 215\
 **Aura** strong transmutation; **CL** 16th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

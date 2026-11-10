@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "band_of_triumph", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment and evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 35\
 **Aura** strong enchantment and evocation; **CL** 13th\
 **Slot** ring; **Price** 50,000 gp; **Weight** -
 

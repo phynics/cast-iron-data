@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_chameleon_combat_trained", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "14"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Riding Animals
 
-**Sources:** Animal Archive pg 14\
 **Price** Varies; **Weight** -
 
 When reared from birth, these animals can easily be ridden by Small or Medium humanoids, depending

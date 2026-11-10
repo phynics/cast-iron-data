@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pile_on", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round when you damage a creature that is shaken, frightened,
 +++
 
 ## Pile On (Combat)
-
-**Sources:** Monster Codex pg 20
 
 You can keep a foe shuddering in fear.\
 **Prerequisites:** Str 13, [Hurtful](ref/feat/hurtful), [Power Attack](ref/feat/power-attack).\

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/web", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "112"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 112\
 The webs are filled with spider swarms (one spider swarm for each 10-foot-by-10-foot area covered in
 webs). Any creature caught in or moving through the webs is attacked by a spider swarm (or multiple
 swarms, if it passes through the space of more than one swarm). The spiders don't leave the area of

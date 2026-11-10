@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "44"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Still mind", "Slow fall", "Tongue of the sun and moon"]
 alters = ["Perfect self"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 44\
 Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of
 knowledge. They study and annotate the holy texts of Irori and other philosophies as well as collect
 lore on anatomy, medicine, philosophy, martial arts, and history, among other topics of erudition.

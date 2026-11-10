@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splash_volley", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You initiate this feat whenever you throw a splash weapon into a squa
 +++
 
 ## Splash Volley (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 21
 
 Your allies are used to being in the splash zone of your hurled weapons, and try to ensure that at
 least your opponent gets hit.\

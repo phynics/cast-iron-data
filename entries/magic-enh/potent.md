@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "potent", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Sources:** Mythic Adventures pg 143\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

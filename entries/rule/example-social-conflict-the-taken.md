@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_social_conflict_the_taken", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "173"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 173
 
 The following serialized social conflict serves as an extended example of how to build a satisfying
 series of encounters and adventures using the guidelines presented throughout this section. Since

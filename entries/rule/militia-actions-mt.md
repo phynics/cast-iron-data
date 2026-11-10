@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "militia_actions_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "50"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 50
 
 **Militia Actions:** Every week, the militia can take actions like drilling and sabotaging foes. Its
 maximum number of actions per week depends on its rank (see

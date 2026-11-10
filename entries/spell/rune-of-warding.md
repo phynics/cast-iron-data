@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/glyph-of-warding" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Reflex half
 Spell resistance: no (object) and yes (see text)
 Target: doorway or portal touched
 :::
-
-**Sources:** Dwarves of Golarion pg 25
 
 You inscribe a series of runes upon the surface of a door or around the border of an entryway. They
 function as a [glyph of warding](ref/spell/glyph-of-warding) (blast glyph), though unlike a glyph of

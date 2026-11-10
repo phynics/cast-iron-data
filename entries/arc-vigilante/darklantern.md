@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level social talent", "Vigilante talent gained at 4th level"]
 alters = ["Dual identity"]
 +++
 
-**Sources:** Heroes of the Darklands pg 11\
 The [Lantern Bearers](ref/rule/aff-lights) are an elite group of elves dedicated to the containment
 and eradication of the drow. However, some Lantern Bearers are tasked with the unthinkable
 assignment of infiltrating drow society so as to relay information to the Winter Council - a secret

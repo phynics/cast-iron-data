@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_strike", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can take 1 minute to tightly embed sand into the joints and crevi
 +++
 
 ## Sand Strike (Combat)
-
-**Sources:** Heroes from the Fringe pg 9
 
 You can incorporate sand as part of your unarmed fighting techniques.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

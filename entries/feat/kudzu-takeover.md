@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_takeover", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "All opponents are considered to have total concealment (50% miss chanc
 +++
 
 ## Kudzu Takeover (Combat)
-
-**Sources:** Wilderness Origins pg 14
 
 Your magical nature infuses your vines, further obscuring grappled foes' vision - even for opponents
 with enhanced senses.\

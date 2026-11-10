@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mihstu", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "190"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ talons and claws._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 190\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 4,800

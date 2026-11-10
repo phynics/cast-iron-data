@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindrust", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "45"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,600 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Path of the Hellknight pg 45
 
 **Price** 1,600 gp; **Weight** —
 

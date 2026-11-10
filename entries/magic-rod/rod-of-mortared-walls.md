@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_mortared_walls", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 25\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
 

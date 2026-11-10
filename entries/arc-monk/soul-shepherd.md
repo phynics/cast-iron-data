@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "65"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Evasion", "improved evasion", "Abundant step", "Quivering palm"]
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 65\
 Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and
 methods, soul shepherds believe in safeguarding the Cycle of Souls.
 

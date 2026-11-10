@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkeys_paw", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 56\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** neck; **Price** 12,000 gp; **Weight** -
 

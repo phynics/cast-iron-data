@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramblelash", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A blue-green vine covered with stiff, verdant leaves and barbed thorns protrude
 
 **Type:** plant
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 84\
 **tremorsense:** 10
 
 **Experience points:** 400

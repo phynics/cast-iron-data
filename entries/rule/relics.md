@@ -6,12 +6,13 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relics", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 77
 
 This article introduces relics: magic items that grow in power the more they are used in the pursuit
 of a specific cause. Each relic was once a typical magic item that played a central role in a

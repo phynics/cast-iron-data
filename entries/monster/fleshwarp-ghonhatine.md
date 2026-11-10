@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarp_ghonhatine", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "102"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ protruding teeth snapping wildly._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 4 pg 102, Pathfinder \#16: Endless Night pg 84\
 **Experience points:** 9,600
 
 **Armor class:** 24/7/24

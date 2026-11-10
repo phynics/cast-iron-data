@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_cairn_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "182"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 3 pg 182\
 **Experience points:** 153,600
 
 **Armor class:** 35/13/28

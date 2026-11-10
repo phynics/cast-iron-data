@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_honorblade", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** NPC Codex pg 118\
 **XP** 9,600\
 Elf [paladin](ref/class/paladin) 11\
 LG Medium humanoid (elf)\

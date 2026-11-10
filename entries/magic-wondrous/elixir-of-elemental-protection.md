@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_elemental_protection", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 30\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 1,800 gp; **Weight** -
 

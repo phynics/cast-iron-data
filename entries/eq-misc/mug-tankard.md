@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mug_tankard", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "2 cp"
 weight = "1 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 57, PRPG Core Rulebook pg 158\
 **Price** 2 cp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apparatus_of_the_crab", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "281"
+[[sources]]
+publication = "core-rulebook"
+page = "500"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Sources:** Ultimate Equipment pg 281, PRPG Core Rulebook pg 500\
 **Aura** strong evocation and transmutation; **CL** 19th\
 **Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.
 

@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stavian_i", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "71"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 71\
 The Bounty Prince was blessed with many advantages: great charm, noble leadership, and adamant will.
 His stalwart defense of Taldor against the perceived incursions and offenses of the Sarenites -
 starting with those whose divinations sparked strife between Stavian and his own brothers - showed

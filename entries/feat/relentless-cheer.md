@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_cheer", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Adjacent allies who also have this feat gain a +1 morale bonus on all
 +++
 
 ## Relentless Cheer (Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 Your undying optimism keeps you and your companions going even when things get rough.\
 **Prerequisites:** [Halfling](ref/race/halfling), fearless and halfling luck racial traits.\

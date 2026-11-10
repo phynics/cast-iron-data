@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissarys_sash", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "27"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "3 lbs."
 +++
 
-**Sources:** Blood of the Elements pg 27\
 **Price** 500 gp; **Weight** 3 lbs.\
 **Category** Clothing
 

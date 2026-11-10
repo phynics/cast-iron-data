@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunge", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can increase the reach of your melee attacks by 5 feet until the 
 +++
 
 ## Lunge (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 You can strike foes that would normally be out of reach.\
 **Prerequisites:** Base attack bonus +6.\

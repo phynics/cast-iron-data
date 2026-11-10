@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_stairs_and_stars", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "259"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation, illusion, and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 259\
 **Aura** faint evocation, illusion, and transmutation; **CL** 3rd\
 **Slot** ring; **Price** 3,820 gp; **Weight** -
 

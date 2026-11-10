@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinsaw_cultist", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** Inner Sea NPC Codex pg 54\
 **XP** 600\
 Human [cleric](ref/class/cleric) of [Norgorber](ref/faith/norgorber) 3\
 NE Medium humanoid (human)\

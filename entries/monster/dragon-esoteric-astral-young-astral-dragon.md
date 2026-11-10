@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_astral_young_astral_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This majestic dragon seems to shimmer as if surrounded by thousands of eddies o
 
 **Senses:** See invisibility
 
-**Sources:** Bestiary 5 pg 88\
 **Subtype:** Extraplanar
 
 **Experience points:** 6,400

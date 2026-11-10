@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hierophant_starstone", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "16"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ### 1st-Tier Hierophant Path Abilities
 
-**Sources:** Mythic Realms pg 16\
 When you ascend to mythic power with the Starstone, you most likely gain tiers of the hierophant
 path and can entreat a deity for aid, swearing to further her goals in return for a measure of her
 power. The deity might immediately accept or reject you. If you're accepted, you can take the

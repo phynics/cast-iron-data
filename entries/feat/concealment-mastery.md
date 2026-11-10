@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concealment_mastery", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has an illusion spell of 1st level or high
 +++
 
 ## Concealment Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can use illusion magic items to conceal your presence, or possibly even your true nature.\
 **Prerequisites:** Stealth 3 ranks, Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.\

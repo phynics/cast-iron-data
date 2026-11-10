@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_value", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** Dungeoneer's Handbook pg 30
 
 You can quickly analyze the monetary value of objects and identify which are most valuable to an
 average trader. You must specify a minimum value to detect when you cast this spell (such as 1 gp,

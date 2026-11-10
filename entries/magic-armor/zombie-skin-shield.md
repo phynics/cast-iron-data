@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zombie_skin_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "133"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 133\
 **Aura** moderate abjuration; **CL** 5th\
 **Slot** shield; **Price** 2,159 gp; **Weight** 15 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_ambassador", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "204"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one Medium or smaller animal
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 204
 
 You compel a single animal to travel to a spot you designate and deliver a message to a creature you
 identify. This spell is similar to animal messenger, but can affect larger animals. In addition, the

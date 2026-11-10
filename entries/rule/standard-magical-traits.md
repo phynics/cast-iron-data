@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_magical_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "227"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 227
 
 **Arcane Focus (1 RP):** **Prerequisites:** None; **Benefit:** Members of this race gain a +2 racial
 bonus on [concentration](ref/rule/concentration) checks made to cast arcane spells defensively.

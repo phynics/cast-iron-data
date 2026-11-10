@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_iguanodon", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ cruel-looking, thumb-like spike._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 78\
 **Experience points:** 2,400
 
 **Armor class:** 19/10/17

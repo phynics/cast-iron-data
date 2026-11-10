@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "downtime_experience", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "103"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 103
 
 Track experience points as they accrue. Whenever the party stops in a safe haven, or the story leaps
 forward in time and place, announce a period of downtime. All of the XP accumulated since the last

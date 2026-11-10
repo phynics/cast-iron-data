@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pavbagha", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "295"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ radiates an aura of calm._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Gods pg 295\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

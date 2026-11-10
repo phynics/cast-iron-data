@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thief_of_legend", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day when you attempt a Disable Device check to open a lock o
 +++
 
 ## Thief of Legend (Story)
-
-**Sources:** Ultimate Campaign pg 73
 
 More than just a burglar, you aspire to commit crimes of legendary stature.\
 **Prerequisites:** You must have stolen at least 1,000 gp worth of treasure without being caught and

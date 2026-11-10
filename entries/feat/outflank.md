@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outflank", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you and an ally who also has this feat are flanking the same
 +++
 
 ## Outflank (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 165
 
 You look for every edge when flanking an enemy.\
 **Prerequisites:** Base attack bonus +4.\

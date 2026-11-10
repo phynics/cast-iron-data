@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_popoto", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ rounded black dorsal fin._
 
 **Size:** small
 
-**Sources:** Familiar Folio pg 26\
 **Experience points:** 135
 
 **Armor class:** 15/14/12

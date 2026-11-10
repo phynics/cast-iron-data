@@ -6,6 +6,9 @@ source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owb_owb_prophet", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "cradle-of-night"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ liquid shadow._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Cradle of Night pg 64\
 **Subtype:** Extraplanar
 
 **Experience points:** 25,600

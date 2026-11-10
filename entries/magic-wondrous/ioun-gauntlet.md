@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ioun_gauntlet", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 23\
 **Aura** faint divination and evocation; **CL** 5th\
 **Slot** hands; **Price** 1,600 gp; **Weight** 5 lbs.
 

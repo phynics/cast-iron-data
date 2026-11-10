@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rovagug", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "124"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Rovagug**
 
 **Sub:** The Rough Beast
-
-**Sources:** Inner Sea Gods pg 124
 
 ### Details
 

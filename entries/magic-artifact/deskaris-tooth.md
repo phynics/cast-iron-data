@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deskaris_tooth", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and necromancy (evil)"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 62\
 **Aura** strong conjuration and necromancy (evil); **CL** 20th\
 **Slot** weapon; **Price** -; **Weight** 2 lbs.
 

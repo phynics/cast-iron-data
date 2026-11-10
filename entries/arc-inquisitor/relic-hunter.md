@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "119"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Judgment", "Domain", "bane", "greater bane", "second judgment", "th
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 119\
 Some inquisitors specialize in the use and recovery of long-lost relics of their faiths, drawing
 forth divine might from the recovered items in order to restore their sanctity and wield these
 artifacts against the enemies of their gods.

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_synergy", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat and both 
 +++
 
 ## Spell Synergy (Teamwork)
-
-**Sources:** Legacy of the First World pg 19
 
 You and an ally can amplify the effects of beneficial spells.\
 **Prerequisites:** Spellcraft 5 ranks.\

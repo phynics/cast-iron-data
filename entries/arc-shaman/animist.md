@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "110"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit magic spells gained from the shaman's spirit", "2nd-level hex", "Hex gained at 8th level", "Hex gained at 10th level", "Hex gained at 12th level", "Hex gained at 18th level", "Manifestation"]
 +++
 
-**Sources:** Advanced Class Guide pg 110\
 Even among mystical practitioners, the animist has a strange perspective and even stranger magic.
 The animist perceives that all things have a spirit, including objects, constructs, illnesses,
 buildings, and the environment.

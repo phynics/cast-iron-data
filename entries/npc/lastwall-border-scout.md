@@ -6,6 +6,9 @@ source_ids = ["castles-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_border_scout", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "castles-of-the-inner-sea"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** Castles of the Inner Sea pg 10\
 **XP** 800\
 Human [ranger](ref/class/ranger) 4\
 LG Medium humanoid (human)\

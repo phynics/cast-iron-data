@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "2nd-level hex"]
 +++
 
-**Sources:** The Harrow Handbook pg 15\
 More than mere playing cards, harrow decks allow individuals to communicate with powers beyond
 mortal ken. A witch who serves the spirits of the harrow in exchange for mystical power is known as
 a cartomancer. Rather than connecting with a familiar, a cartomancer communes with her patron

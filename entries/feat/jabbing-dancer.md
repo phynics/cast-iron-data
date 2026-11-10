@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_dancer", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Each time you hit with an unarmed strike while using Jabbing Style, y
 +++
 
 ## Jabbing Dancer (Combat)
-
-**Sources:** Advanced Class Guide pg 151
 
 You've learned to bend and shift your body to avoid attacks and reposition yourself advantageously.\
 **Prerequisites:** [Dodge](ref/feat/dodge),

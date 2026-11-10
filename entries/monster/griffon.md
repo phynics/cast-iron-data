@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "griffon", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "168"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ pair of feathered wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 168\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/15

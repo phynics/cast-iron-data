@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulsight_goggles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 39\
 **Aura** strong divination; **CL** 15th\
 **Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.
 

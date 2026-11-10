@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_talent", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are within 30 feet of an ally who also has this feat, yo
 +++
 
 ## Inspiring Talent (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 Your innate adaptability allows you to imitate others of your kind nearly flawlessly, to the extent
 that you can utilize their mastery over skills almost as if you had personally trained in their use.\

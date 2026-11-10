@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "148"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ be made of fire._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 148\
 **Subtype:** Fire, Giant
 
 **Experience points:** 9,600

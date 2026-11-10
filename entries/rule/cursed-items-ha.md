@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_items_ha", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 142
 
 Cursed items most commonly result from something going horribly wrong during the creation of a
 normal magic item. However, it is also possible for such items to carry a curse to punish a death or

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "58"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus spells gained at 2nd, 4th, and 6th levels from the oracle
 alters = ["Oracle's curse"]
 +++
 
-**Sources:** Ultimate Magic pg 58\
 All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly
 afflicted with supernatural or physical hindrances, a dual-cursed oracle can manipulate fortune and
 gains greater insights into her mystery.

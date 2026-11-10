@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "face_cards", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "35"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 35
 
 A picture is worth a thousand words, and even the most descriptive GM may have to deal with players
 who have a hard time remembering a specific NPC, as it's a person they've never seen. To remedy this

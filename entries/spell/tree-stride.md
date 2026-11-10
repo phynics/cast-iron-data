@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_stride", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "362"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 362
 
 When you cast this spell, you gain the ability to step into a tree, magically infusing yourself with
 the plant. Once within a tree, you can teleport from that particular tree to another tree. The trees

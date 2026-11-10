@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intercept_charge", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When an opponent charges your ally with this feat, as an immediate ac
 +++
 
 ## Intercept Charge (Combat, Teamwork)
-
-**Sources:** Advanced Class Guide pg 151
 
 You can get in the way of an opponent charging your ally.\
 **Benefit:** When an opponent [charges](ref/rule/charge) your ally with this feat, as an immediate

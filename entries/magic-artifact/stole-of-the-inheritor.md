@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stole_of_the_inheritor", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 63\
 **Aura** overwhelming abjuration; **CL** 20th\
 **Slot** shoulders; **Price** -; **Weight** 2 lbs.
 

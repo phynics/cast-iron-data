@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/fey-obedience", label = "or" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You claim ownership of that which you strike. If you have dealt hit p
 +++
 
 ## Marcher-Lord of the Cerulean Abyss (Gathlain Court Title)
-
-**Sources:** Plane-Hopper's Handbook pg 22
 
 You've made your case to become one of [Ragadahn's](ref/faith/ragadahn) nobles in the traditional
 way-by carving your sigil and the Water Lord's ouroboros in the flesh of a living dragon or of

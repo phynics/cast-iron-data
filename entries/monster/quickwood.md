@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quickwood", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ like any other ragged oak tree._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Oaksight
 
-**Sources:** Bestiary 2 pg 228\
 **Experience points:** 4,800
 
 **Armor class:** 19/7/19

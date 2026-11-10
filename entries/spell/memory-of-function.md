@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_of_function", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: object or construct touched
 :::
-
-**Sources:** Technology Guide pg 10
 
 Even a broken object remembers what it means to be a functioning whole. You restore a broken object
 or damaged construct to a functional state, as if it were new and intact. Any pieces missing from

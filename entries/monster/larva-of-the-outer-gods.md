@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "larva_of_the_outer_gods", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ writhing tentacles._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 88\
 **Experience points:** 51,200
 
 **Armor class:** 32/17/24

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "presenting_the_planes", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "83"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 83
 
 There's a significant reason that most campaigns take place on an earth-like world: it's
 predictable. Gravity works as expected, there are 24 hours in a day, seasons exist, and weather

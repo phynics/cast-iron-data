@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_shield", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are the target of a melee or ranged attack and are adjac
 +++
 
 ## Ally Shield (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 20
 
 You are willing to use your allies as shields to ward off attacks aimed at you.\
 **Benefit:** Whenever you are the target of a melee or ranged attack and are adjacent to an ally who

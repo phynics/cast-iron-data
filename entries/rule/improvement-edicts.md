@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvement_edicts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 208
 
 Improvements are physical improvements you can make to your kingdom: founding new settlements,
 adding buildings to a settlement, building roads, creating facilities such as mines to tap natural

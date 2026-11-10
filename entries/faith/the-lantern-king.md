@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lantern_king", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "24"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **The Lantern King**
 
 **Sub:** The Laughing Lie
-
-**Sources:** The First World, Realm of the Fey pg 24
 
 ### Details
 

@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/magic-missile", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 100\
 The damage dealt by each missile increases to 2d4+1. The missiles bypass the shield spell and
 similar effects that block the non-mythic version of this spell.
 

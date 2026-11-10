@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purify_food_and_drink", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "328"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 cu. ft./level of contaminated food and water
 :::
-
-**Sources:** PRPG Core Rulebook pg 328
 
 This spell makes spoiled, rotten, diseased, poisonous, or otherwise contaminated food and water pure
 and suitable for eating and drinking. This spell does not prevent subsequent natural decay or

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "face_of_the_devourer", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "233"
+[[sources]]
+publication = "pathfinder-23-the-impossible-eye"
+page = "65"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** Inner Sea Gods pg 233, Pathfinder \#23: The Impossible Eye pg 65
 
 You transform the target's face into a hideous shape, such as a half-melted visage with insect legs
 instead of teeth, seeping pits instead of eyes, and suckered tongues dangling from its misshapen

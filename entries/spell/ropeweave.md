@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ropeweave", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: one rope
 :::
-
-**Sources:** Ultimate Wilderness pg 233
 
 You cause the target rope to grow in length and weave itself into one of several forms, each of
 which can support up to 1,000 pounds, plus 200 pounds per caster level (maximum 3,000 pounds at 10th

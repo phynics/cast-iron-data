@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_mesh", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "63"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "&mdash;"
 slot = "none"
 +++
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 63\
 **Price** 5,000 gp\
 **Slot** none; **Weight** —\
 **Install** DC 30; **Implantation** 2

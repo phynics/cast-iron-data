@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_black_scorpion", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 240\
 **tremorsense:** 60
 
 **Type:** vermin

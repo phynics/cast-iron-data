@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splitting_the_party", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 65
 
 "Don't split the party" is practically an RPG mantra. But sometimes players do it anyway, or a split
 is forced upon them by a sudden avalanche, a [teleport](ref/spell/teleport) spell gone awry, or the

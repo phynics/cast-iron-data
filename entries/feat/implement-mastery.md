@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implement_mastery", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "An occultist who has this feat can select item mastery feats in place
 +++
 
 ## Implement Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can use your implements to unlock secrets of mastering relics and other items of power.\
 **Prerequisites:** Implements class feature, mental focus class feature.\

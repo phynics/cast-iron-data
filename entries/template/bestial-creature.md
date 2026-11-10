@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestial_creature", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "17"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0
 
 **Simple:** present
-
-**Source:** Lost Treasures/17
 
 Bestial is an acquired simple template that can be applied to any [humanoid](ref/type/humanoid) that
 doesn't possess the [wild empathy](ref/ability/wild-empathy) class feature. Humanoids afflicted with

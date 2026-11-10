@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallowed_blows", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 Target: one undead creature/level, no two of which can be more than 30 ft. apart
 Descriptors: evil
 :::
-
-**Sources:** People of the Wastes pg 29
 
 This spell empowers the natural attacks or unarmed strikes of undead creatures, granting a +1
 enhancement bonus on attack and damage rolls made by the target with its unarmed strikes or attacks

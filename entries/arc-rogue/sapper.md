@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "2nd-level rogue talent", "4th-level rogue talent"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 21\
 The sapper is a trained siege engineer and can deal with traps and other obstacles given plenty of
 time.
 

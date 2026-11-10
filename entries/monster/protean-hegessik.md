@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_hegessik", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "209"
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ its back._
 
 **Senses:** Darkvision 60 ft., Detect law
 
-**Sources:** Bestiary 6 pg 209, Pathfinder \#101: The Kintargo Contract pg 84\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 51,200

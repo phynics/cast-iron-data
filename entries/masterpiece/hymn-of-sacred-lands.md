@@ -6,6 +6,8 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_of_sacred_lands", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Hymn of Sacred Lands (Oratory, Sing)
-
-**Sources:** Heroes from the Fringe
 
 You cherish and love your home with such strength that your words weave protective magic around your
 dwelling.

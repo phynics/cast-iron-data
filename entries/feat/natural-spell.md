@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_spell", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "131"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 13, wild shape class feature."
 benefit = "You can complete the verbal and somatic components of spells while using wild shape. You substitute various noises and gestures for the normal verbal and somatic components of a spell."
 +++
-
-**Sources:** PRPG Core Rulebook pg 131
 
 You can cast spells even while in a form that cannot normally cast spells.\
 **Prerequisites:** Wis 13, wild shape class feature.\

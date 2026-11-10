@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Expert trainer"]
 +++
 
-**Sources:** Ultimate Combat pg 38\
 Some cavaliers are entrusted by their masters with the care and use of expensive and powerful
 oddities: firearms. Capable of inflicting shocking amounts of destruction without the aid of magic,
 these musketeers lead the advance of their troops, firing devastating fusillades long before the

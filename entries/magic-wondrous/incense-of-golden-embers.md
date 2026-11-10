@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_golden_embers", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 17\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 2,800 gp; **Weight** -
 

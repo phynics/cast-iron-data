@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whistle_of_calling", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "237"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 237\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 6,300 gp; **Weight** -
 

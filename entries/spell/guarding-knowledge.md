@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guarding_knowledge", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Monster Hunter's Handbook pg 30
 
 Upon casting this spell, choose a specific variety of monster ([red dragon](ref/family/dragon-red)
 rather than [dragon](ref/family/dragon-true)) and one of its special attacks that you have

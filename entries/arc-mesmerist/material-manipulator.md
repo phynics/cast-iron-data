@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "mesmerist trick gained at 2nd level", "manifold 
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Psychic Anthology pg 18\
 Rather than waste time limiting himself to ruling minds, a material manipulator forces his whims
 upon reality and uses his magic to ensure that those around him comply with his demands.
 

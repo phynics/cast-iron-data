@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Hunter tactics", "teamwork feat", "Woodland stride", "One with the 
 alters = ["Animal companion"]
 +++
 
-**Sources:** Heroes of the Streets pg 25\
 Urban hunters help guards track down and apprehend criminals or spies, find lost children and
 disaster victims, and protect animals from abuse in the city. They still draw their inspiration and
 strength from the natural world, marveling at how nature flourishes wherever the city allows.

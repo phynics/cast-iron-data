@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forests_sense", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Scrying
 :::
-
-**Sources:** Ultimate Wilderness pg 231
 
 You can sense the location of a target creature within range if it is also within 10 feet of a
 living plant or fungus. You must be able to target the creature by tangible qualities such as its

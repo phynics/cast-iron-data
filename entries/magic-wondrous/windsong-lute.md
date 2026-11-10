@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windsong_lute", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Elements pg 31\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 4,250 gp; **Weight** 3 lbs.
 

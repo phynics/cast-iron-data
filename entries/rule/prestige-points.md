@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestige_points", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 182
 
 Prestige Points represent your ability to leverage your Fame. You earn Prestige Points (PP) by
 completing objectives during the course of play. The GM decides which deeds, goals, or story

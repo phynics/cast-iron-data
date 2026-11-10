@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "40"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Transposition", "Aspect", "Greater aspect", "Twin eidolon"]
 alters = ["Life link"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 40\
 God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They
 speak to an assortment of ancient divine powers to lead their communities and sometimes stir up
 reformations in faiths with ideals similar to their personal convictions.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_comets", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: 1 comet per 4 levels
 Descriptors: cold
 :::
-
-**Sources:** Inner Sea Magic pg 62
 
 This spell causes a number of miniature comets (up to one per four caster levels) to orbit in the
 air above your head. Bits of snow and cold wind drift down from the orbiting comets, granting you a

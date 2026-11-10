@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor and weapon proficiencies", "Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Weapon mastery"]
 +++
 
-**Sources:** Inner Sea Combat pg 36\
 Not every [Calistrian](ref/faith/calistria) who dedicates himself to the goddess can channel divine
 magic to track down those who deserve punishment. Like a bounty hunter following his own rules, a
 Calistrian hunter tracks down elusive prey using his wits and delivers long-overdue retribution

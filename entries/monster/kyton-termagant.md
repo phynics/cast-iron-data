@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_termagant", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tentacles._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Bestiary pg 24\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 102,400

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_cavalry", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "227"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: 1 hippocampus plus 1 hippocampus/3 caster levels
 Subschool: Summoning
 :::
-
-**Sources:** Ultimate Wilderness pg 227
 
 You summon a school of hippocampi (one plus one per 3 caster levels, to a maximum of six at 15th
 level) to serve as combat-trained mounts. The hippocampi avoid combat if possible but defend

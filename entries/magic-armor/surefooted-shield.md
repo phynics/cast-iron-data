@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surefooted_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 18\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** shield; **Price** 14,200 gp; **Weight** 15 lbs.
 

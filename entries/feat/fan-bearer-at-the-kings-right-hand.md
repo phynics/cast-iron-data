@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fan_bearer_at_the_kings_right_hand", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a swift action, you can designate an adjacent ally as your charge.
 +++
 
 ## Fan-Bearer at the King's Right Hand (Origin)
-
-**Sources:** Pathfinder \#139: The Dead Road pg 73
 
 Your creator was an aide and bodyguard, and your memories are filled with the sight of that charge.\
 **Prerequisites:** [Shabti](ref/race/shabti).\

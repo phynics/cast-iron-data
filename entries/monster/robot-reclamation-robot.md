@@ -6,6 +6,9 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_reclamation_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ four legs and has a strange bell-shaped head._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 84\
 **Subtype:** Robot
 
 **Experience points:** 19,200

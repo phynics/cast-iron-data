@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 169
 
 These words create translucent armor made of solid magic, protecting without weight or obstruction.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indescribable_swarm_patchwork_insect_swarm", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ which bears humanoid arms, legs, eyes, or even faces._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm
 
 **Type:** vermin

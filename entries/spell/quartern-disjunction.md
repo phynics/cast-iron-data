@@ -6,12 +6,14 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quartern_disjunction", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "187"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Book of the Damned pg 187\
 **School** transmutation; **Level** 9\
 **Casting Time** 90 minutes\
 **Components** V, S, M (9 doses of holy water), F (the complete

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_killer", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "319"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 319
 
 You create a phantasmal image of the most fearsome creature imaginable to the subject simply by
 forming the fears of the subject's subconscious mind into something that its conscious mind can

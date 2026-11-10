@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "74"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** PRPG Core Rulebook pg 74\
 Your bloodline is blessed by a celestial power, either from a celestial ancestor or through divine
 intervention. Although this power drives you along the path of good, your fate (and alignment) is
 your own to determine.

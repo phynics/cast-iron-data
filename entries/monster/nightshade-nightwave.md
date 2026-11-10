@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade_nightwave", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "202"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ island heaved up from below._
 
 **Senses:** Darksense, Darkvision 120 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 2 pg 202\
 **Subtype:** Aquatic, Extraplanar, Nightshade
 
 **Type:** undead

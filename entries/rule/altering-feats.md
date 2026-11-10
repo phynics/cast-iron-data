@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altering_feats", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 68
 
 Feats that give bonuses on skill checks need to be adjusted or removed in the consolidated skills
 system. This section presents a list of the skill feats in the Core Rulebook that shouldn't be used

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "70"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante specialization", "1st-level social talent", "Unshakable",
 alters = ["Weapon and armor proficiencies"]
 +++
 
-**Sources:** Horror Adventures pg 70\
 Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.
 
 **Gained class skills:** ka, kd, ke, kg, kh, kl, kna, kno, kp, kr

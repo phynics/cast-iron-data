@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_invasion_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "shield"
 aura = "strong conjuration"
 caster_level = "17th"
 +++
-
-**Sources:** Ultimate Equipment pg 349, Advanced Player's Guide pg 310
 
 **Aura** strong conjuration; **CL** 17th\
 **Slot** shield; **Weight** 15 lbs.

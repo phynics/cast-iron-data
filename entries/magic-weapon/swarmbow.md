@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarmbow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 59\
 **Aura** moderate conjuration; **CL** 6th\
 **Slot** none; **Price** 11,275 gp; **Weight** 2 lbs.
 

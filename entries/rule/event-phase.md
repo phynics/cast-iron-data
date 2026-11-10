@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "event_phase", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "83"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 83
 
 During the Event phase, a random event might affect your downtime. This could be a generic event or
 an event relating specifically to one of your buildings or organizations.

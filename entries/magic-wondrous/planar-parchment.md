@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_parchment", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 250\
 **Aura** moderate conjuration and evocation; **CL** 11th\
 **Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
 

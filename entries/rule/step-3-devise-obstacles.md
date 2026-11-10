@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_devise_obstacles", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "120"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 120
 
 Even the most complex heist can and should be broken down into smaller, more manageable chunks of
 work that eliminate obstacles standing between the crew and their goal. Most should be suitable for

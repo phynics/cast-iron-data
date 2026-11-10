@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_roll", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When grappling a foe of your size or smaller, you can attempt to perf
 +++
 
 ## Death Roll (Combat)
-
-**Sources:** Inner Sea Races pg 204
 
 Like an alligator, you twist and wrench your foe, forcing him to the ground.\
 **Prerequisites:** Bite attack, reptilian subtype.\

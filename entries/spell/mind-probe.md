@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_probe", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 176
 
 You gain access to the subject's memories and knowledge. You can attempt to learn the answer to one
 question per round. A successful Will save ends the spell. Otherwise, the creature can attempt a

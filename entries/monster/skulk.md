@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skulk", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ mimic his surroundings._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 248\
 **Subtype:** Skulk\
 **Experience points:** 400
 

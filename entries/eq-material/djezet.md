@@ -6,13 +6,14 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "djezet", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "70"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 70
 
 One of the strangest of the seven known types of [skymetal](ref/eq-material/skymetal), rust-red
 djezet is liquid at all temperatures. This makes the metal relatively useless for crafting metal

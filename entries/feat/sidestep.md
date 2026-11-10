@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sidestep", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an opponent misses you with a melee attack, you may move 5 f
 +++
 
 ## Sidestep (Combat)
-
-**Sources:** Advanced Player's Guide pg 169
 
 You can reposition yourself after a foe's missed swing.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility).\

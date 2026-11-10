@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_shield", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Effect: stone wall whose area is one 5-ft. square
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 149
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 

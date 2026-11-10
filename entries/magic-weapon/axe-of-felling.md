@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_of_felling", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 28\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 11,330 gp; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_spine", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Legacy of the First World pg 13
 
 You launch an ingot of iron at the target. If you succeed at a ranged touch attack, the target's
 skeleton or exoskeleton turns into jagged shards of cold iron. Whenever the target moves, it takes

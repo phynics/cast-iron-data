@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ebon_thorn", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Lost Treasures pg 26\
 **Aura** moderate enchantment and necromancy; **CL** 7th\
 **Slot** armor; **Price** 60,500 gp; **Weight** 6 lbs.
 

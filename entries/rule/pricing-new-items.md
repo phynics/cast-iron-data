@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pricing_new_items", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 170
 
 The correct way to price an item is by comparing its abilities to similar items in the Core Rulebook
 (see [Magic Item Gold Piece Values](ref/rule/magic-item-gold-piece-values)), and only if there are

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_lantern_archon", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ otherworldly grace._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 20\
 **Subtype:** Archon, Extraplanar, Good, Lawful
 
 **Experience points:** 600

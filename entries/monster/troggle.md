@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troggle", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ tail, and gait give it a degenerate, bestial appearance._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 160\
 **Subtype:** Giant
 
 **Experience points:** 1,200

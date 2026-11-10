@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stereotypes", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 85
 
 One danger a GM might encounter when designing NPCs is to rely too heavily on the stereotypes drawn
 from well-known characters in fantasy stories. Myths and folktales prove rife with repetition and

@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huecuva", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "150"
+[[sources]]
+publication = "bonus-bestiary"
+page = "12"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ in a silent scream._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 150, Bonus Bestiary pg 12\
 **Type:** undead
 
 **Experience points:** 600

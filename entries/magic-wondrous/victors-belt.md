@@ -6,6 +6,9 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victors_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 13\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** belt; **Price** 5,000 gp; **Weight** 1 lb.
 

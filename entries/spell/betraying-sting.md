@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betraying_sting", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Inner Sea Temples pg 62
 
 You unleash divine power to smite those who wrongly trusted you. The power takes the form of a
 yellow-and-black bolt of energy that makes the sound of a thousand angry, swarming wasps. This spell

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wing_bounty", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: 2d4 berries + 2 berries/level
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Wilderness pg 14
 
 > _[Gathlains](ref/race/gathlain) have access to the following spell._
 

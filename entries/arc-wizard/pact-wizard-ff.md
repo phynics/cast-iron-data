@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "8"
 
 [fields]
 kind = "archetype"
 alters = ["Arcane bond", "Arcane school"]
 +++
 
-**Sources:** Familiar Folio pg 8\
 Some wizards make bargains with beings from other realms in order to gain arcane power. These pact
 wizards have unparalleled access to extraplanar allies, but these bonds never come without strings
 attached.

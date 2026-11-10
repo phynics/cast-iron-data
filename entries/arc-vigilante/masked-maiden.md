@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "82"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Seamless guise", "Social talents gained at 3rd, 7th, 11th, 15th, an
 alters = ["Weapon and armor proficiencies", "Dual identity"]
 +++
 
-**Sources:** Adventurer's Guide pg 82\
 In the wake of Ileosa's death, some of the surviving [Gray Maidens](ref/rule/aff-scarred-ladies)
 attempted to return to their former lives - a task made difficult by the physical and emotional
 scars of their indoctrination. For a few, suppressing the indoctrination's effects seemed to work.

@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auspice", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "187"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 187\
 Auspices were born with a birthmark or other feature that seems to be in the shape of their master's
 deity's holy symbol; they are usually animal sacred to that deity's religion.
 

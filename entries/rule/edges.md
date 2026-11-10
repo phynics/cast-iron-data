@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "edges", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 177
 
 Edges are gained either by seeding a bias, using some trick of a verbal dueling tactic, when an
 opponent decides to end an exchange, or due to some other effect. A duelist can spend an edge to

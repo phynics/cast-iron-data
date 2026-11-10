@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malsandra", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ with arcane energy._
 
 **Senses:** Low-light vision
 
-**Sources:** Fey Revisited pg 50\
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

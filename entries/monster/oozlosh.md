@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oozlosh", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ it isn't bedecked in gaudy jewelry._
 
 **Senses:** Low-light vision
 
-**Sources:** Giants Revisited pg 38\
 **Subtype:** Giant
 
 **Experience points:** 38,400

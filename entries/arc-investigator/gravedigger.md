@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "54"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies", "Trapfinding", "trap sense", "Pois
 alters = ["Alchemy", "investigator talents", "Investigator talents", "Studied combat", "studied strike"]
 +++
 
-**Sources:** Horror Adventures pg 54\
 Gravediggers pursue long buried mysteries, figuratively and literally digging up the truth and
 finding answers to secrets only moldering corpses and dry bones can tell.
 

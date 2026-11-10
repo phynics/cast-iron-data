@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mome_rath", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ prehensile tail hold it in the trees._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 82\
 **Experience points:** 600
 
 **Armor class:** 12/11/11

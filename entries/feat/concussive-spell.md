@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concussive_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "With sonic damage comes a concussive wave of energy that rattles crea
 +++
 
 ## Concussive Spell (Metamagic)
-
-**Sources:** Ultimate Magic pg 143
 
 You cause creatures to be disoriented when you affect them with a spell that has the sonic
 descriptor.\

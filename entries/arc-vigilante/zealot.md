@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "62"
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "33"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigil
 alters = ["Weapon proficiencies", "Vigilante talents"]
 +++
 
-**Sources:** Ultimate Intrigue pg 62, Inner Sea Intrigue pg 33\
 Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his
 religion is outlawed or persecuted in the region.
 

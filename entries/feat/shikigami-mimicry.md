@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/catch-off-guard", label = "or" },
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "While in Shikigami Style, you can take a -2 penalty on attack rolls t
 +++
 
 ## Shikigami Mimicry (Combat)
-
-**Sources:** Martial Arts Handbook pg 9
 
 Your unique understanding of improvised tools enables you to turn the intrinsic form of all manner
 of objects to your advantage in combat.\

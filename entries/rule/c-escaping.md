@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "c_escaping", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 27\
 If your caravan is already relatively damaged, avoiding or escaping combat is often a better choice
 than battle. If you wish to try to evade a foe, you can't make an Attack check in that round of
 combat - instead, you must make a Security check to outmaneuver your foe. Your enemy still gets to

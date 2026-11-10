@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "law_and_order", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "101"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 101
 
 In a campaign where characters serve as part of the criminal justice system, such as detectives or
 lawyers, Measures and Countermeasures and The Power of Secrets are the two most important intrigue

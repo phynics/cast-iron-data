@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus combat feat gained at 2nd level", "Knockout", "Close weap
 alters = ["The brawler's armor proficiencies"]
 +++
 
-**Sources:** Blood of the Ancients pg 11\
 After Yamasa seceded from Lirgen, their elite combatants formed a military caste, called hinyasi,
 who protected Yamasa for centuries. Their martial traditions were centered on the use of farming
 tools and on other improvised weapons.

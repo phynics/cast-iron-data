@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primeval_sea_creature_nothosaur", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ long and slender tail behind it as it gnashes its sharp, needle-like teeth._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 18/10/17

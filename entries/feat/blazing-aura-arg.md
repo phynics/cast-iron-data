@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_aura_arg", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Scorching Weapons, on your turn as a free action, you ma
 +++
 
 ## Blazing Aura (ARG) (Combat)
-
-**Sources:** Advanced Race Guide pg 130
 
 An inferno rages inside you, causing your body to radiate intense heat.\
 **Prerequisites:** [Inner Flame](ref/feat/inner-flame),

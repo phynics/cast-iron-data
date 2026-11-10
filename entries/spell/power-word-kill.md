@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_kill", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one living creature with 100 hp or less
 Subschool: Compulsion
 Descriptors: death, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 324
 
 You utter a single word of power that instantly kills one creature of your choice, whether the
 creature can hear the word or not. Any creature that currently has 101 or more hit points is

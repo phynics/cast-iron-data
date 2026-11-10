@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_shield", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Occult Origins pg 28
 
 You ward the target's mind against intrusion and influence while she is unconscious. While sleeping,
 the target is protected against divinations such as nondetection and gains

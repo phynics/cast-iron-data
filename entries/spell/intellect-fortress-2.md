@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/intellect-fortress-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 20-ft.-radius emanation centered on you
 :::
 
 ### Intellect Fortress II
-
-**Sources:** Occult Adventures pg 175
 
 This spell functions as [intellect fortress I](ref/spell/intellect-fortress-1), but in addition, any
 mind-affecting effects that deal damage have their damage reduced by half (before any reduction due

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "risk", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 148
 
 **Risk** represents the potential danger of various tasks. Like a Trust score, Risk is measured on a
 scale of 1 to 5, with 1 representing little or no risk and 5 representing serious danger. Each level

@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-4-fortres
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgefiend_scanderig", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "409"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,8 +49,6 @@ end in razor-sharp claws._
 
 **Senses:** See in darkness
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 409, Pathfinder \#4: Fortress of the Stone
-Giants pg 86\
 **Subtype:** Earth, Extraplanar
 
 **Experience points:** 9,600

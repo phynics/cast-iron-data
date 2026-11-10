@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_array", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 200
 
 Possessing in-depth knowledge, experts often appear as leaders, trusted advisors, or elite
 operatives. An expert monster typically has a high Intelligence modifier, but its other statistics

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrathful_mantle", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (harmless)
 Target: creature touched or all creatures within 5 ft.; see text
 Descriptors: force, light
 :::
-
-**Sources:** Advanced Player's Guide pg 257
 
 A shimmering mantle of light shrouds the subject, casting light like a torch. The subject of the
 spell gains a +1 resistance bonus on all saving throws per four caster levels (maximum +5 at 20th

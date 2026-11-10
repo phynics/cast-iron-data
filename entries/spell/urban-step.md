@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_step", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: two doors or other portals in range
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Intrigue pg 228
 
 You set up a magical connection between two doors (or other physical portals, such as windows) that
 both must be within range, line of sight, and line of effect. During the spell's duration, you can

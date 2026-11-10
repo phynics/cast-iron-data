@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_human_guise", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "264"
+[[sources]]
+publication = "advanced-race-guide"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 264, Advanced Race Guide pg 58\
 **Aura** faint illusion; **CL** 1st\
 **Slot** shoulders; **Price** 900 gp; **Weight** 1 lb.
 

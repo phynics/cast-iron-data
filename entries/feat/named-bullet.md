@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "Whenever you craft ammunition using Gunsmithing, you may inscribe a b
 +++
 
 ## Named Bullet (Grit)
-
-**Sources:** Champions of Balance pg 19
 
 You can craft ammunition intended to kill specific foes.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat or grit class feature,

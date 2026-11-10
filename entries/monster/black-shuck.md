@@ -6,6 +6,9 @@ source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_shuck", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ in filth and gore._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#129: The Twilight Child pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 20/16/13

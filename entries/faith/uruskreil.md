@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uruskreil", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Uruskreil**
 
 **Sub:** The Metal Wing
-
-**Sources:** Inner Sea Gods pg 326
 
 ### Details
 

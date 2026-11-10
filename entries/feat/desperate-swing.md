@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_swing", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "66"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per day, you can make a single melee attack while taking the tot
 +++
 
 ## Desperate Swing (Combat)
-
-**Sources:** Advanced Race Guide pg 66
 
 You land your most telling blows in desperate situations.\
 **Prerequisites:** [Cautious Fighter](ref/feat/cautious-fighter), base attack bonus +1,

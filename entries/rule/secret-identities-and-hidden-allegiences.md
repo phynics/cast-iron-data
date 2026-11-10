@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_identities_and_hidden_allegiences", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 104
 
 When an NPC is being deceptive, it is possible that the PCs never discover the NPC's true
 allegiance - even in the case of a recurring villain, as such an NPC's exceptional skills may render

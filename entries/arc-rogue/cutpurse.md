@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "132"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 132\
 Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse
 while wandering the streets and markets. Cutpurses are often trained by guilds to collect the
 guild's tax from local businesses on a daily basis, whether through intimidation or pickpocketing.

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_fire_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ its carapace._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 33\
 **Type:** vermin
 
 **Experience points:** 135

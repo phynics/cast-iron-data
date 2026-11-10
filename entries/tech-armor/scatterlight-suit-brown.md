@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scatterlight_suit_brown", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "30"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "5 lbs."
 +++
 
 ## Scatterlight suit
-
-**Sources:** Technology Guide pg 30
 
 **Cost** (see below)\
 **Type** Light; **Weight** 5 lbs.; **Armor Bonus** +1 (and see text)\

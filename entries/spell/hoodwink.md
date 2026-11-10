@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hoodwink", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: up to one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Villain Codex pg 212
 
 You befuddle the targets' senses, preventing the targets from clearly perceiving their surroundings.
 Instead, hoodwinked creatures see only the roughest shapes and details and hear only muffled noises.

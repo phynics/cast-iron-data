@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_overrun", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Creatures knocked prone by your overrun do not provoke an attack of op
 +++
 
 ## Greater Overrun (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 Enemies must dive to avoid your dangerous move.\
 **Prerequisites:** [Improved Overrun](ref/feat/improved-overrun),

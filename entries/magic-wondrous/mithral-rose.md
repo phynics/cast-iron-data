@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral_rose", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Mythic Adventures pg 154\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 9,000 gp; **Weight** -
 

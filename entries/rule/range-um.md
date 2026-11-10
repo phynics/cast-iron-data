@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "range_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 130
 
 Spell range plays a significant part in the power of a spell. Requiring the caster to touch a target
 with a hostile spell means the caster is in or very close to melee combat, and is risking

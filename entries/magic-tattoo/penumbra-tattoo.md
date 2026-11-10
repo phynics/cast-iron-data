@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penumbra_tattoo", path = "json/magic_tattoo.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of Shadows pg 12\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 24,000 gp; **Weight** -
 

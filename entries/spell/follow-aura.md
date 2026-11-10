@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_aura", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 224
 
 _Choose one alignment type:_ chaotic, evil, good, or lawful. You gain the ability to follow the
 trail of a strong or overwhelming aura of that alignment (see [detect evil](ref/spell/detect-evil)).

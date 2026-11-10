@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_drums_of_savagery", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "165"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Codex pg 165\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 35,000 gp; **Weight** 20 lbs.
 

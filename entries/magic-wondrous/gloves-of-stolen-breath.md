@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_stolen_breath", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Healer's Handbook pg 28\
 **Aura** moderate conjuration and necromancy; **CL** 9th\
 **Slot** hands; **Price** 54,000 gp; **Weight** -
 

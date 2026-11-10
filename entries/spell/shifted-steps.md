@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifted_steps", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Target: one creature or object up to 10 feet across
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 225
 
 You cause the target to sound as if it is elsewhere within range, including its movements, speech,
 and all other sounds. As long as you concentrate, you can cause the sound's apparent location to

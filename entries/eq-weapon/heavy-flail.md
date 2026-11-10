@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_flail", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, PRPG Core Rulebook pg 143
 
 Similar to a [light flail](ref/eq-weapon/light-flail), a heavy flail has a larger metal ball and a
 longer handle.

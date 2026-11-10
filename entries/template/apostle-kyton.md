@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apostle_kyton", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "240"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Horror Adventures/240
 
 Not all victims of a [kyton's](ref/family/kyton) torturous transformations perish from their
 captors' exacting ministrations. Some creatures are transfigured into hybrids of their past selves

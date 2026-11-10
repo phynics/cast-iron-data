@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cape_of_effulgent_escape", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "262"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 262\
 **Aura** faint evocation and illusion; **CL** 3rd\
 **Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
 

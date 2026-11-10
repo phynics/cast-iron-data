@@ -6,13 +6,17 @@ source_ids = ["ranged-tactics-toolbox", "bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_shifter", path = "json/class_ability_magus_arcana.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "13"
+[[sources]]
+publication = "bastards-of-golarion"
+page = "9"
 
 [fields]
 kind = "class_option"
 group = "magus-arcana"
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 13, Bastards of Golarion pg 9
 
 **Dark Shifter (Su):**
 

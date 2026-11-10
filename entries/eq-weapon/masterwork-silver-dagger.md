@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterwork_silver_dagger", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "157"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 157, PRPG Core Rulebook pg 471
 
 As a [masterwork weapon](ref/rule/masterwork-weapons), this
 [alchemical silver](ref/eq-material/alchemical-silver) [dagger](ref/eq-weapon/dagger) has a +1

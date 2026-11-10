@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Elemental Bloodline
-
-**Sources:** Advanced Class Guide pg 20
 
 The power of the elements resides in you, and at times you can hardly control its fury. This
 influence comes either from an elemental outsider in your family history or from a moment when you

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_scout", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "284"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns._
 
 **Senses:** Low-light vision, Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 284\
 **Subtype:** Wild hunt
 
 **Experience points:** 51,200

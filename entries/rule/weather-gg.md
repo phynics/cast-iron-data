@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_gg", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 220
 
 Weather is a topic that rarely receives much attention in adventures, but it can make encounters
 much more memorable. A fight while ascending a cliff becomes more treacherous if the party must

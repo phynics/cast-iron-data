@@ -6,6 +6,9 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_fury_of_the_tainted", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While raging, you gain spell resistance equal to 10 + your class leve
 +++
 
 ## Improved Fury of the Tainted (Combat)
-
-**Sources:** Blood of Fiends pg 25
 
 Your hatred for goodness is rivaled only by your ability to repel it.\
 **Prerequisites:** Cha 13, [Fury of the Tainted](ref/feat/fury-of-the-tainted), base attack bonus

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_rings_forest", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 165
 
 **Slot** ring; CL 9th; **Weight** -\
 **Aura** moderate abjuration; **Price** 6,000 gp; **Scaling** prize

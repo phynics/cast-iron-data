@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banner_of_the_ancient_kings", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Lands of the Linnorm Kings pg 50\
 **Aura** moderate abjuration; **CL** 8th\
 **Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
 

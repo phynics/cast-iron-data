@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_blood", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Target: you
 Descriptors: acid
 :::
-
-**Sources:** Inner Sea Gods pg 230
 
 You imbue your blood with corrosive acid. Any time you take piercing or slashing damage, a spray of
 acidic blood spurts from your body in the direction of the opponent who inflicted the wound, dealing

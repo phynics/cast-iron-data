@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_striker", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You do not take a -2 penalty to AC when you use the Cleave feat, Lung
 +++
 
 ## Nimble Striker (Combat)
-
-**Sources:** Advanced Race Guide pg 94
 
 You were born to charge your enemies and nobody does it better.\
 **Prerequisites:** Dex 13, base attack bonus +1, [catfolk](ref/race/catfolk), sprinter racial trait.\

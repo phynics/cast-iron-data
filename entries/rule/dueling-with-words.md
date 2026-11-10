@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_with_words", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 177
 
 Often, how a duel starts and which duelist goes first is determined by the particulars of the scene.
 For instance, if the dueling PC is the defendant in a court case, she may be on the defensive, being

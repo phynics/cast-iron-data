@@ -6,6 +6,12 @@ source_ids = ["pathfinder-122-into-the-shattered-continent", "pathfinder-15-the-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_shadow", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "21"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -38,8 +44,6 @@ abilities = ["15", "18", "-", "10", "13", "16"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 21, Pathfinder \#15: The Armageddon
-Echo pg 82\
 **Subtype:** Fire
 
 **Type:** undead

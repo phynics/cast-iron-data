@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelfall_bow", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Daughters of Fury pg 49\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 26,900 gp; **Weight** 3 lbs.
 

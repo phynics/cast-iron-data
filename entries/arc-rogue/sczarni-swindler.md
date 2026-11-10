@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** The Harrow Handbook pg 13\
 If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the
 best option.
 

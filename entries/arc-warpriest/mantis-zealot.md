@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "157"
+[[sources]]
+publication = "advanced-class-origins"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Weapon and armor proficiencies", "Sacred weapon", "Sacred armor"]
 alters = ["Aspect of war"]
 +++
 
-**Sources:** Adventurer's Guide pg 157, Advanced Class Origins pg 25\
 Among the [Red Mantis](ref/rule/aff-assassins) worshipers of Achaekek, some hold such strong faith
 in their assassin god that they gain divine power. They forge themselves into perfect killers in
 honor of He Who Walks in Blood. These warpriests are a relatively recent addition to the Red Mantis

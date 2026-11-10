@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_appearance", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: you
 Subschool: Polymorph
 Descriptors: mind-affecting
 :::
-
-**Sources:** Pathfinder \#135: Runeplague pg 74
 
 When under the effects of this spell, your face and body appear subtly wrong, though you are still
 recognizable as yourself. You gain a +4 circumstance bonus on Intimidate checks but take a -4

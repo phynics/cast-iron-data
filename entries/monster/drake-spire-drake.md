@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_spire_drake", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "81"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ stretch out from its torso._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 81\
 **Experience points:** 3,200
 
 **Armor class:** 20/10/19

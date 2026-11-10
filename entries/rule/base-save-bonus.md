@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_save_bonus", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 40
 
 There are only two base saving throw progressions: good and poor. Good saves progress at a rate of
 +1/2 per level, while poor saves progress at +1/3 per level. Additionally, saving throw bonuses with

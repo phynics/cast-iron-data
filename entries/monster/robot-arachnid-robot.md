@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_arachnid_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ claws on its forelegs._
 
 **Size:** small
 
-**Sources:** Numeria, Land of Fallen Stars pg 56\
 **Subtype:** Robot
 
 **Experience points:** 200

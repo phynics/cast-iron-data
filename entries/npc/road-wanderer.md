@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "road_wanderer", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "290"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** GameMastery Guide pg 290\
 **XP** 600\
 Human [bard](ref/class/bard) 1/[rogue](ref/class/rogue) 2\
 N Medium humanoid\

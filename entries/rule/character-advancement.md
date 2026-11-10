@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_advancement", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 30
 
 As player characters overcome challenges, they gain experience points. As these points accumulate,
 PCs advance in level and power. The rate of this advancement depends on the type of game that your

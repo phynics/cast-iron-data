@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "pathfinder-77-herald-of-t
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baphomet", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Lord of the Minotaurs
 
-**Sources:** Inner Sea Gods pg 320\
 **Monster Link** [Baphomet](ref/monster/demon-lord-baphomet)
 
 ### Details

@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "innocent_blood", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Intimidate checks. If you have 10 or more rank
 +++
 
 ## Innocent Blood (Story)
-
-**Sources:** Ultimate Campaign pg 69
 
 With their deaths, the pitiful wretches that inhabit this world open your path to greatness.\
 **Prerequisites:** You must slay at least 50 intelligent noncombatants for either your own personal

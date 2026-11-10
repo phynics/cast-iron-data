@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_trance", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Targets: animals or magical beasts with Intelligence 1 or 2
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 241
 
 Your swaying motions and music (or singing, or chanting) compel animals and magical beasts to do
 nothing but watch you. Only a creature with an Intelligence score of 1 or 2 can be fascinated by

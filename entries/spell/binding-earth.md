@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "binding_earth", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature or unattended object (see text)
 Descriptors: earth
 :::
-
-**Sources:** Advanced Race Guide pg 149
 
 > _[Oreads](ref/race/oread) have access to the following spell._
 

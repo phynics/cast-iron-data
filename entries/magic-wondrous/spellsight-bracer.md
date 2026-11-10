@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsight_bracer", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "269"
+[[sources]]
+publication = "gods-and-magic"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 269, Gods and Magic pg 60\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** wrists; **Price** 2,100 gp; **Weight** 1 lb.
 

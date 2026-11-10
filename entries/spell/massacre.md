@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "massacre", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "122"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: 60-ft. line
 Descriptors: death
 :::
-
-**Sources:** Horror Adventures pg 122
 
 You unleash a wave of necromantic energy that snuffs out the life force of those in its path. This
 wave pulses out from you in a line 5 feet wide and 30 feet long. The wave visibly rips the souls

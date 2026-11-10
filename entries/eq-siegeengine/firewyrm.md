@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firewyrm", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "163"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Ultimate Combat pg 163
 
 This siege engine is a larger version of the firedrake. A firewyrm is too large to be transported to
 the battlefield in one piece and must be assembled once the component parts reach the battlefield. A

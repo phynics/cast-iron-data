@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elohim_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ single winged entity._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 86\
 **Subtype:** Extraplanar, Mythic
 
 **Experience points:** 819,200

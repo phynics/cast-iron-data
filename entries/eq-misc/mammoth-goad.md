@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mammoth_goad", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "28"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** People of the North pg 28\
 **Price** 5 gp; **Weight** 10 lbs.\
 **Category** Animal Gear
 

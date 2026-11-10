@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "109"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Adventures pg 109\
 Most spiritualists harbor the spirits of the deceased in their psyches, but a small number of them -
 known as fractured minds - draw their powers instead from a fraction of their own souls that
 resonates with extremely powerful emotions. These spiritualists' phantoms are not spiritual allies,

@@ -6,10 +6,12 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/two-weapon-rend", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "135"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 135\
 You can spend 5 stamina points to use this feat's benefit a second time in a single round.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "19"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Sacred armor", "Channel energy"]
 alters = ["Spellcasting", "Fervor"]
 +++
 
-**Sources:** People of the Wastes pg 19\
 A proclaimer is the polar opposite of a
 [faithful wanderer (paladin)](ref/arc-paladin/faithful-wanderer), rushing into Abyss-twisted wastes
 with nothing but his weapon in his hand and his faith in his heart, shouting his deity's name to the

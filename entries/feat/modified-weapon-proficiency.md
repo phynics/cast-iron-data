@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modified_weapon_proficiency", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A warpriest with the focus weapon class feature can gain this feat wi
 +++
 
 ## Modified Weapon Proficiency (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You know how to use a specific weapon skillfully, even when it has undergone modification.\
 **Prerequisites:** Proficiency with the selected weapon.\

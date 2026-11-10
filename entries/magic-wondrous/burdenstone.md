@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burdenstone", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 26\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** -
 

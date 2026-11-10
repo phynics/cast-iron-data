@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_fog", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ voracity._
 
 **Perception:** -5
 
-**Sources:** Bestiary 3 pg 152\
 **Experience points:** 2,400
 
 **Armor class:** 5/5/5

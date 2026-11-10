@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_crusader_host", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea Combat pg 62\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** chest; **Price** 95,000 gp; **Weight** -
 

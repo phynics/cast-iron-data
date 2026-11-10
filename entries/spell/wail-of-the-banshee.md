@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wail_of_the_banshee", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "365"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one living creature/level within a 40-ft.-radius spread
 Descriptors: death, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 365
 
 When you cast this spell, you emit a terrible, soul-chilling scream that possibly kills creatures
 that hear it (except for yourself). The spell affects up to one creature per caster level,

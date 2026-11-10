@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshcurdle", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "55"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one living or undead creature
 Subschool: Polymorph
 :::
-
-**Sources:** Inner Sea Magic pg 55
 
 You warp the target creature's flesh, discoloring it and causing it to become misshapen and
 impairing its function. When you cast this spell, you must choose one of three types of effects to

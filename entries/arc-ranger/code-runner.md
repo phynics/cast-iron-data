@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Hunter's bond"]
 +++
 
-**Sources:** Ultimate Intrigue pg 40\
 A code runner specializes in the subtle and speedy transfer of secret messages. He performs long
 runs between distant lands, sometimes spanning continents and often traversing difficult terrain. He
 trains his mind both to memorize long messages and to resist any attempts to steal his covert

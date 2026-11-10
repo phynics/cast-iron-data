@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_in_the_family", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "169"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 169
 
 When a GM kills your PC's family members, it carries just as much risk as using your PC's family
 members as villains, and yields far fewer benefits. The death of a loved one at an enemy's hand can

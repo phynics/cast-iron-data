@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slick_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 [Ice Blast](ref/kinetic/ice-blast), [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** Reflex negates
-
-**Source:** Psychic Anthology/21
 
 Your blast leaves behind slippery water or ice in its area for as long as the blast is in that area
 and for 1 round thereafter, making the area [difficult terrain](ref/rule/terrain-and-obstacles) and

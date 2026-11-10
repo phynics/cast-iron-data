@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_initiative", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 171
 
 When you're running a freeform challenge where wits and charm are more effective than quick
 reflexes, it might become important to determine the order in which different characters (both PCs

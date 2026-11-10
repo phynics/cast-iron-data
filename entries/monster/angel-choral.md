@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel_choral", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "23"
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ slowly ripples through the air._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 23, Chronicle of the Righteous pg 60\
 **Subtype:** Angel, Extraplanar, Good
 
 **Experience points:** 2,400

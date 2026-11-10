@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Discern lies"]
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Blood of the Sea pg 24\
 Aquatic creatures worship many different deities and powers based on their alignment, their
 community, and their culture, including [Gozreh](ref/faith/gozreh), [Hei Feng](ref/faith/hei-feng),
 [Kelizandri](ref/faith/kelizandri), and the fearsome demon lord [Dagon](ref/faith/dagon). These

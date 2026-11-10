@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_teeth_masterwork", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "13"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1/2 lb. (clockwork), - (common), - (masterwork)"
 
 ## False teeth
 
-**Sources:** Adventurer's Armory 2 pg 13\
 **Price** 100 gp (clockwork), 5 gp (common), 50 gp (masterwork); **Weight** 1/2 lb. (clockwork), -
 (common), - (masterwork)
 

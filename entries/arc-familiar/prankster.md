@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prankster", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "212"
 
 [fields]
 kind = "archetype"
@@ -13,7 +16,6 @@ replaces = ["Alertness", "Improved evasion", "share spells", "Deliver touch spel
 alters = ["Empathic link", "Scry on familiar"]
 +++
 
-**Sources:** Ultimate Wilderness pg 212\
 Some familiars love to perform pranks on their unsuspecting masters, as well as on those around
 their masters - allies and enemies alike. While good-aligned pranksters' tricks are usually good
 natured except against foes, evil pranksters play tricks that are mean spirited or even downright

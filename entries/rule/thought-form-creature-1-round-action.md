@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_form_creature_1_round_action", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "204"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 204
 
 A thought-form creature is a mentally constructed thrall that takes any form its creator desires.
 Creating a thought-form creature takes 1 full round (as if the creator were casting a spell with a

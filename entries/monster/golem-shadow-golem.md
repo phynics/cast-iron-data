@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_shadow_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ otherwise blank visage._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See in darkness
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 88\
 **Experience points:** 38,400
 
 **Armor class:** 29/19/25

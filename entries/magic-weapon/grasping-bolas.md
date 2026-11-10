@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_bolas", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 28\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 3,805 gp; **Weight** 2 lbs.
 

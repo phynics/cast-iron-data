@@ -6,14 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_sense", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "73"
 
 [fields]
 kind = "feat"
 prerequisites = "Wis 15, Iron Will."
 prerequisite_feats = ["ref/feat/iron-will"]
 +++
-
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 73
 
 You take Grand Prince Beldam I's insistence upon the resilience of simple creatures to heart,
 emulating them to shield yourself from complex mental effects.\

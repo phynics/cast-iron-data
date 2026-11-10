@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osirian_spirit_jars", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 58\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 26,250 gp; **Weight** 2 lbs. a piece
 

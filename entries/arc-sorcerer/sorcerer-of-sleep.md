@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Bloodline arcana", "Eschew materials", "1st-level bloodline power"]
 +++
 
-**Sources:** Black Markets pg 26\
 Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them.
 For a sorcerer of sleep, the mind-altering drug [pesh](ref/drug/pesh) is the key. The garbled
 visions the drug provides allow a sorcerer of sleep to reach an ideal state for channeling her

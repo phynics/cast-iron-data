@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hat_of_infinite_disguises", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 54\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** head; **Price** 25,000 gp; **Weight** 1 lb.
 

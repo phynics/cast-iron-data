@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_establishment", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 15
 
 If you're pressed for time or you're looking to create the basics of a character as simply as
 possible, establish the essence of your personality by thinking of two quirks and a flaw. Quirks are

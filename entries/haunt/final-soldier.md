@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_soldier", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "179"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 179\
 The ancient antipaladin general responsible for this haunt ruled through fear, and forbade his
 soldiers from accepting surrender or showing mercy. His favorite way to end a battle was to order
 his soldiers to kill everyone but the opposing army's commander, then offer a rich reward to

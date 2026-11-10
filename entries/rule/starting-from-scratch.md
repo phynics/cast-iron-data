@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_from_scratch", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 205
 
 It's not easy to start a kingdom - probably the reason everyone doesn't have one. If you are
 founding a kingdom on your own, without an external sponsor or a fantastic windfall of resources,

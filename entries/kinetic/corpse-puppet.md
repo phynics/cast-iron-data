@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_puppet", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 4
 
 **Burn:** 0
-
-**Source:** Psychic Anthology/22
 
 You draw upon negative energy to animate a nearby corpse as a
 [zombie or a fast zombie](ref/template/zombie) (your choice). You can animate a zombie only if its

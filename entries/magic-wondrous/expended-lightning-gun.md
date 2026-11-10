@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expended_lightning_gun", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#113: What Grows Within pg 45\
 **Aura** strong evocation; **CL** 17th\
 **Slot** none; **Price** 15,000 gp; **Weight** 15 lbs.
 

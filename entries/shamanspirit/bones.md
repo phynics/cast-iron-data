@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bones", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "38"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Advanced Class Guide pg 38\
 A shaman who selects the bones spirit is cadaverously thin, with sunken eye sockets and dead eyes
 that stare off into the distance. Her body has a faint smell of the grave. When she calls upon one
 of this spirit's abilities, a ghostly wind whips her hair and clothes about, and the unpleasant

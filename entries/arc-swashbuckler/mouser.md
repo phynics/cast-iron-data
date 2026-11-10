@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "125"
 
 [fields]
 kind = "archetype"
 replaces = ["Opportune parry and riposte", "Menacing swordplay", "Targeted strike", "Bleeding wound"]
 +++
 
-**Sources:** Advanced Class Guide pg 125\
 In the hands of a trained warrior, a well-sharpened blade is deadly regardless of size. A mouser
 moves in close, using her size and skill as an advantage.
 

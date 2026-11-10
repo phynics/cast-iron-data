@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_hazards", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "244"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 244
 
 Presented here are a variety of unusual hazards.
 

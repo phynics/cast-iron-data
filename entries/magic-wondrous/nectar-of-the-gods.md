@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nectar_of_the_gods", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "155"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Mythic Adventures pg 155\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
 

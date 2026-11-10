@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elusion_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Heroes from the Fringe pg 29\
 **Aura** faint illusion and transmutation; **CL** 1st\
 **Slot** shoulders; **Price** 3,600 gp; **Weight** 1 lb.
 

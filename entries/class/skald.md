@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "blood-of-the-be
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skald", path = "json/classes4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "49"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 49
 
 Skalds are poets, historians, and keepers of lore who use their gifts for oration and song to
 inspire allies into a frenzied rage. They balance a violent spirit with the veneer of civilization,

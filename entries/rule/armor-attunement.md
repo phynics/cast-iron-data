@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_attunement", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 156
 
 The character can attune herself to one suit of armor or one shield in her possession; she can
 change that attunement once per day. If she selects a normal set of clothing as her armor, it counts

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_weakness", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you successfully identify a creature with the appropriate Knowle
 +++
 
 ## Know Weakness (Combat)
-
-**Sources:** Advanced Class Origins pg 27
 
 You are well versed in the susceptibilities of your foes.\
 **Prerequisites:** Bardic knowledge class feature.\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "104"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "persistent mutagen"]
 +++
 
-**Sources:** Monster Codex pg 104\
 Goblin alchemists have created a mixture of pheromones that they use to manipulate and entice giant
 vultures or dire bats to do their bidding. These goblins strap harnesses to the chests of these
 flying animals and hang beneath them, dropping flaming alchemical solutions on the helpless folks

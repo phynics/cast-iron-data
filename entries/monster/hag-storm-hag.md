@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-72-the-witch-queens-revenge", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_storm_hag", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "235"
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ from her brow like a thunderhead._
 
 **Senses:** Child-scent, Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 235, Pathfinder \#72: The Witch Queen's Revenge pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 21/13/18

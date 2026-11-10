@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_giant_octopus", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "219"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ body of this gigantic octopus._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 219\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_obvious_ethics", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Advanced Class Guide pg 187
 
 You mark one creature with a glowing sigil. The target's alignment must be opposite yours on at
 least one alignment axis - if you are neutral with no other alignment components, the target must

@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_signifer", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "92"
+[[sources]]
+publication = "paths-of-prestige"
+page = "28"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 92, Paths of Prestige pg 28
 
 Hellknight signifers form the spellcasting arm of the [Hellknight](ref/rule/aff-lawknights) orders.
 They serve as faceless enforcers of order and use their magical powers to relentlessly root out and

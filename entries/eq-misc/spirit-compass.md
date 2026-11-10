@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_compass", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Haunted Heroes Handbook pg 13\
 **Price** 20 gp; **Weight** 1 lb.\
 **Category** Adventuring Gear
 

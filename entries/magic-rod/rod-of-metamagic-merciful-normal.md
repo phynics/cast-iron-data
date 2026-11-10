@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_merciful_normal", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "190"
+[[sources]]
+publication = "advanced-players-guide"
+page = "295"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Merciful
 
-**Sources:** Ultimate Equipment pg 190, Advanced Player's Guide pg 295\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 1,500 gp (lesser \[up to 3rd-level spells\]), 5,500 gp (normal \[up to
 6th-level spells\]), 12,250 gp (greater \[all spells\]); **Weight** 5 lbs.

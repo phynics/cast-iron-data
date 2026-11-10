@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_lion", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "36"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Player's Guide pg 36
 
 A cavalier who belongs to this order has pledged himself to a sovereign; be it a king, queen, or
 even the local warlord. Cavaliers of this order are stalwart and dedicated to their cause, willing

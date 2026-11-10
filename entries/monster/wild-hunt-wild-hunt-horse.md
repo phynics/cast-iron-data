@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunt_wild_hunt_horse", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ in the wind._
 
 **Senses:** Low-light vision, Scent, See in darkness
 
-**Sources:** Bestiary 6 pg 280\
 **Subtype:** Wild hunt
 
 **Experience points:** 12,800

@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "full_pouch", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: no
 Target: 1 object touched
 :::
-
-**Sources:** Arcane Anthology pg 20
 
 You cast this spell as you draw out a consumable alchemical item to use. The object must be an
 alchemical item, but not a dose of disease, a poison, a magic potion, or another type of consumable

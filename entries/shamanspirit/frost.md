@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "10"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Heroes of Golarion pg 10\
 Far to the north, Erutaki tribes have adapted to life in the bitter cold of the Crown of the World.
 The frost spirit is seen by some Erutaki as a protector of their way of life, and shamans who
 commune with the spirit are shown great respect in their communities.

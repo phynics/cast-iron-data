@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense (for a core rogue)", "danger sense (for an unchained rogue)", "Rogue talents gained at 4th and 12th levels", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
-**Sources:** Antihero's Handbook pg 25\
 Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient
 witnesses, and other loose ends. Many organizations employ them to cover up activities that might be
 unpopular - should they become known to the general populace.

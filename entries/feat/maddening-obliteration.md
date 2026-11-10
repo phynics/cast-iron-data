@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_obliteration", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "89"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you damage a living creature with an unarmed strike while using 
 +++
 
 ## Maddening Obliteration (Combat)
-
-**Sources:** Horror Adventures pg 89
 
 With a mighty killing blow, your unsettling punch vaporizes your foe.\
 **Prerequisites:** Wis 19, Cha 15, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

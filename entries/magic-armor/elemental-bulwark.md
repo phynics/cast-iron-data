@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_bulwark", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Armor Master's Handbook pg 27\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** armor; **Price** 12,300 gp; **Weight** 40 lbs.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "38"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "The 6th-level additional use of wild shape"]
 +++
 
-**Sources:** Ultimate Magic pg 38\
 Some druids bond with many animal companions rather than just one, achieving a level of communion
 rare even in druidic circles and leading their pack brothers and pack sisters with total authority.
 

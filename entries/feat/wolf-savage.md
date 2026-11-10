@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_savage", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "120"
+[[sources]]
+publication = "blood-of-the-moon"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "While using Wolf Style, when you deal at least 10 points of damage to
 +++
 
 ## Wolf Savage (Combat)
-
-**Sources:** Ultimate Wilderness pg 120, Blood of the Moon pg 25
 
 You savage your foes so badly that they can become supernaturally disfigured.\
 **Prerequisites:** Wis 17, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

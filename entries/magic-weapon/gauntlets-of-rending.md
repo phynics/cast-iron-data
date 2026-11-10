@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_rending", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "225"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 225\
 **Aura** faint evocation; **CL** 5th\
 **Slot** hands; **Price** 8,000 gp; **Weight** 4 lbs.
 

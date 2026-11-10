@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowform", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: creature touched
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Blood of Shadows pg 31
 
 You replace the target's body with mystic shadow material drawn from the Shadow Plane, rendering the
 target's physical form only quasi-real. Whenever a foe tries to directly attack the target of the

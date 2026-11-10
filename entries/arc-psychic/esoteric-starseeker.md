@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/psychic" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "30"
 
 [fields]
 kind = "archetype"
 replaces = ["Discipline spells, 1st- and 11th-level phrenic amplifications"]
 +++
 
-**Sources:** Wilderness Origins pg 30\
 The celestial bodies travel through the sky in fixed patterns, and knowledgeable astrologers rely on
 these stellar constants to make accurate predictions, but the constellations can also be a source of
 power. An esoteric starseeker is a psychic who focuses her studies on uncovering the secrets of the

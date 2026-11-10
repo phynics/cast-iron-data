@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_dreams", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Area: 5-ft.-radius emanation centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 211
 
 You are surrounded by a soporific aroma that causes living creatures that begin their turn or end
 their movement within 5 feet of you to fall asleep for 1 minute. Creatures must save each time they

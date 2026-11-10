@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "48"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "weapon mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 48\
 Many fighters believe the [tower shield](ref/eq-armor/tower-shield) is a tool suitable only for
 troops on the battlefield, claiming it is too large and bulky to use in skirmishes or within dungeon
 corridors. Tower shield specialists defy those notions, using their massive shields with startling

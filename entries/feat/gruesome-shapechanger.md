@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_shapechanger", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The gruesome way you change shape is tiring. Once you've used your ch
 +++
 
 ## Gruesome Shapechanger (Monster)
-
-**Sources:** Horror Adventures pg 88
 
 When you change shape, it is a violent and bloody affair.\
 **Prerequisites:** Shapechanger subtype.\

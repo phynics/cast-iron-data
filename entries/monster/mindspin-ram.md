@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindspin_ram", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ surface._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 82\
 **Experience points:** 600
 
 **Armor class:** 14/13/11

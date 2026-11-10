@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_transmutation", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "202"
+[[sources]]
+publication = "core-rulebook"
+page = "495"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 202, PRPG Core Rulebook pg 495\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavenly_aegis_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "216"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [good]"
 caster_level = "10th"
 +++
 
-**Sources:** Horror Adventures pg 216\
 **Aura** moderate evocation \[good\]; **CL** 10th\
 **Slot** ring; **Price** 16,000 gp; **Weight** -
 

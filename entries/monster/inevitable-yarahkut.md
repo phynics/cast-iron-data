@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_yarahkut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ back, and its head bears three faces._
 
 **Senses:** Arcane sight, Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 38,400

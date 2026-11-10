@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_breath", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "95"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: air
 :::
-
-**Sources:** Advanced Race Guide pg 95
 
 > _[Catfolk](ref/race/catfolk) have access to the following spell._
 

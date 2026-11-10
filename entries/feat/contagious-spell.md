@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ special = "A contagious spell can be identified normally as it is being cast wit
 +++
 
 ## Contagious Spell (Metamagic)
-
-**Sources:** Horror Adventures pg 84
 
 Your spells are dangerous to dispel and likely to backfire upon those who try.\
 **Benefit:** A caster level check to [dispel](ref/spell/dispel-magic) or remove a contagious spell

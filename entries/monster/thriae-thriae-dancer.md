@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_dancer", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "245"
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ covers most of her face._
 
 **Senses:** Darkvision 60 ft., Detect secret doors
 
-**Sources:** Bestiary 5 pg 245, Pathfinder \#81: Shifting Sands pg 90\
 **Experience points:** 2,400
 
 **Armor class:** 19/13/16

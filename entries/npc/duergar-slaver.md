@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_slaver", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "20"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "2"
 
 **Challenge rating:** 2
 
-**Sources:** Inner Sea NPC Codex pg 20\
 **XP** 600\
 Duergar [ranger](ref/class/ranger) 3\
 LE Medium humanoid (dwarf)\

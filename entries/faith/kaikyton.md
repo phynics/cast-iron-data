@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaikyton", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "120"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kaikyton**
 
 **Sub:** The Stitchweaver
-
-**Sources:** Book of the Damned pg 120
 
 ### Details
 

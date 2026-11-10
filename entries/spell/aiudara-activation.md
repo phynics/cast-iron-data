@@ -6,12 +6,14 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aiudara_activation", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "54"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Realms pg 54\
 **School** conjuration (calling); **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (a diamond-tipped stone chisel worth at least 500 gp), SC (up to 4)\

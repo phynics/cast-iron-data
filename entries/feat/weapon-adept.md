@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_adept", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times, choosing a different weapon mo
 +++
 
 ## Weapon Adept (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You are skilled at using customized weaponry.\
 **Benefit:** Choose a weapon modification (such as [jagged hooks](ref/eq-weaponenh/jagged-hooks)).

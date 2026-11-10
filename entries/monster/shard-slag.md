@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_slag", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "240"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ burning-hot sword blade._
 
 **Perception:** -5
 
-**Sources:** Bestiary 4 pg 240\
 **Subtype:** Fire
 
 **tremorsense:** 60

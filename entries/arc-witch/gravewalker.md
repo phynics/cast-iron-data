@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "84"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Familiar", "1st-level hex", "4th-level hex", "8th-level hex"]
 alters = ["Patron spells"]
 +++
 
-**Sources:** Ultimate Magic pg 84\
 Having much in common with necromancers, the gravewalker is obsessed with the occult manipulations
 of the dead, particularly mindless undead such as zombies. Unlike the creations of standard
 necromancers, a gravewalker's creations remain forever tied to her will, and she can produce vile

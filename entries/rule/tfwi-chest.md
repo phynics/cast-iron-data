@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_chest", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "221"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 221
 
 ### Table 5-4: Chest Slot Wondrous Items
 

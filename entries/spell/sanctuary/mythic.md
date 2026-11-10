@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sanctuary", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 If an attacker succeeds at its Will save to attack the protected target, add your tier to the
 target's AC against the attack. If the target uses a healing spell or ability on another creature,
 that creature gains the benefit of non-mythic sanctuary for 1 round. If the creature breaks the

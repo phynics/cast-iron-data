@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordbreaker_dagger", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Adventurer's Armory pg 5, Advanced Player's Guide pg 179
 
 You can use this dagger to disarm or sunder enemy blades by catching them in the grooves on the back
 of the blade and using your weapon as a lever. If you are proficient with this weapon, add a +4

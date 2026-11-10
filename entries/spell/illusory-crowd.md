@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_crowd", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one 10-ft. cube of illusory people
 Subschool: Figment
 :::
-
-**Sources:** Heroes of the Streets pg 30
 
 This spell creates an illusion of a stationary group of people milling about. They can be of any
 humanoid race or ethnicity you are familiar with, and they speak a language of your choice that you

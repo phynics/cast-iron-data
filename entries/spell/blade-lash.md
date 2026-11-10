@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_lash", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: your melee weapon
 :::
-
-**Sources:** Advanced Class Guide pg 175
 
 Your weapon elongates and becomes whip-like. As part of casting this spell, you can use this weapon
 to attempt a trip combat maneuver against one creature within 20 feet, and you gain a +10 bonus on

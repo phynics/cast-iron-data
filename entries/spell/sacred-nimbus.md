@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_nimbus", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "126"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: good
 :::
-
-**Sources:** Horror Adventures pg 126
 
 You are surrounded by a nimbus of golden light shaped like your god's holy symbol or a symbol of
 your faith. Any evil creature striking you with unarmed strikes, natural weapons, or a handheld

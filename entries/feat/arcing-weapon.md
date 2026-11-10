@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcing_weapon", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can cast a ray spell that requires a ranged
 +++
 
 ## Arcing Weapon (Combat)
-
-**Sources:** Chronicle of Legends pg 8
 
 You can send magical blasts through your weapon.\
 **Prerequisites:** Diverse training class feature.\

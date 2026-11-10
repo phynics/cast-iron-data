@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "adventurers-guide", "advanced-players-guide", "i
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "81"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 81\
 Illusionists use magic to weave confounding images, figments, and phantoms to baffle and vex their
 foes.
 

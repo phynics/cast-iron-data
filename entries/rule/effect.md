@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effect", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "418"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 418
 
 The effect of a trap is what happens to those who spring it. This often takes the form of either
 damage or a spell effect, but some traps have special effects. A trap usually either makes an attack

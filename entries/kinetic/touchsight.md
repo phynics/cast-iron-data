@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touchsight", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Adventures/28
 
 You attach strands of aether to everything your telekinesis touches. Any time you damage a creature
 using your [telekinetic blast](ref/kinetic/telekinetic-blast), as long as that creature doesn't use

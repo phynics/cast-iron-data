@@ -6,12 +6,13 @@ source_ids = ["pathfinder-13-shadow-in-the-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_flu", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-13-shadow-in-the-sky"
+page = "81"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#13: Shadow in the Sky pg 81
 
 **Type:** Disease (Inhaled)
 

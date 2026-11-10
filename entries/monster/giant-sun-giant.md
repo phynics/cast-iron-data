@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sun_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "123"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ amplify the light around her._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 123\
 **Subtype:** Giant
 
 **Experience points:** 76,800

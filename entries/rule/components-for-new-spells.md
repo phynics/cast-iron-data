@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "components_for_new_spells", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "115"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 115
 
 Two principles of magic to remember when considering spell components are that of
 _[contagion](ref/spell/contagion)_ (a part retains a connection to the whole) and

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devastating_strike", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Vital Strike, Improved Vital Strike, or Greater Vita
 +++
 
 ## Devastating Strike (Combat)
-
-**Sources:** Ultimate Combat pg 95
 
 Pitting all of your strength and resolve against your enemy, you deliver a strike that is impossible
 to ignore.\

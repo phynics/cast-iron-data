@@ -6,14 +6,15 @@ source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daivrat", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "20"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Qadira, Gateway to the East pg 20
 
 The empire of Kelesh is built by genies, who create towering spires and opulent palaces for the
 padishah emperor in the hopes that a future ruler will set their kinsfolk free. But not all Qadiran

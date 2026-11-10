@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_tank_per_gallon", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1/2 lb./gallon"
 
 ## Air tank
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 5 sp/ gallon; **Weight** 1/2 lb./gallon\
 **Category** Adventuring Gear
 

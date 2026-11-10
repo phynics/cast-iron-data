@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 102
 
 Jockeying for position and favor is natural part of human social dynamics, as common in the armies
 of high-minded crusaders as in the courts of wicked nobles. The resulting web of allegiances lies at

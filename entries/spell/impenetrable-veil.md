@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impenetrable_veil", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Magic Tactics Toolbox pg 25
 
 You enchant the target so it is nearly impossible to detect by both magical and mundane means,
 granting it the following benefits. The target gains a bonus on Stealth checks equal to half your

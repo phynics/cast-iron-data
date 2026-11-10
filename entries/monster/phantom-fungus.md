@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_fungus", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "219"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gapes along its entire front._
 
 **Type:** plant
 
-**Sources:** Bestiary 3 pg 219\
 **tremorsense:** 60
 
 **Experience points:** 800

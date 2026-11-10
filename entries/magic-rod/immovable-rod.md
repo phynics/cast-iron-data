@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immovable_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "178"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 178, PRPG Core Rulebook pg 485\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.
 

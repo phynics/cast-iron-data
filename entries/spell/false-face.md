@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_face", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Heroes of the High Court pg 25
 
 This spell alters details of your appearance so that you are no longer recognizable as yourself.
 Your new appearance is within the norms for your race, ethnicity, and gender. You lack control over

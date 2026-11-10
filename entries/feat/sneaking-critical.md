@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaking_critical", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can apply the effects of only one critical feat to a given critic
 +++
 
 ## Sneaking Critical (Combat, Critical)
-
-**Sources:** Dirty Tactics Toolbox pg 11
 
 Your critical hits are particularly deadly.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +9,

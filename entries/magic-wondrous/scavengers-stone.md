@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavengers_stone", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Goblins of Golarion pg 29\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

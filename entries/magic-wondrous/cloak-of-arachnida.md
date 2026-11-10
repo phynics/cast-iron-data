@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_arachnida", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "262"
+[[sources]]
+publication = "core-rulebook"
+page = "506"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 262, PRPG Core Rulebook pg 506\
 **Aura** moderate conjuration and transmutation; **CL** 6th\
 **Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
 

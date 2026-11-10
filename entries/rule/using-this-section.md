@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "using_this_section", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 9
 
 The rest of this section dives deep into your background, starting from birth and early childhood
 through adolescence and into early adulthood. Each bit has a number of questions to think (or write)

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-thoughts" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Descriptors: mind-affecting
 :::
 
 ### Detect Anxieties
-
-**Sources:** Ultimate Intrigue pg 211
 
 This spell functions as [detect thoughts](ref/spell/detect-thoughts) except that you sense
 significant anxieties of creatures with an Intelligence score of 1 or higher, regardless of whether

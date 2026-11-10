@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_candle_wax", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 20\
 **Price** 150 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_maneuvers", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you rece
 +++
 
 ## Coordinated Maneuvers (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 156
 
 You are skilled at working with your allies to perform dangerous combat maneuvers.\
 **Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +2

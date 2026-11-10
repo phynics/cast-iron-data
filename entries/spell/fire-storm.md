@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_storm", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "282"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Area: two 10-ft. cubes per level (S)
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 282
 
 When a fire storm spell is cast, the whole area is shot through with sheets of roaring flame. The
 raging flames do not harm natural vegetation, ground cover, or any plant creatures in the area that

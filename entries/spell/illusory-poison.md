@@ -6,6 +6,9 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_poison", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: weapon touched
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Gnomes of Golarion pg 27
 
 You create a phantasm of an oily green phantasmal poison on the target weapon. The first creature
 hit by the poisoned weapon must make a Will save against the illusion spell; success means the spell

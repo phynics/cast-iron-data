@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "universal_options", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 239
 
 A universal option can be taken in place of any option granted by an array or graft, regardless of
 the intended option type. These abilities are suitable for multiple arrays and roles.

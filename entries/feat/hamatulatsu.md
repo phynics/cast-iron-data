@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatulatsu", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "287"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "83"
 
 [fields]
 kind = "feat"
@@ -17,8 +23,6 @@ special = "Hamatulatsu may be selected as a substitute bonus feat at 6th level b
 +++
 
 ## Hamatulatsu (Combat)
-
-**Sources:** Inner Sea World Guide pg 287, Pathfinder Campaign Setting pg 83
 
 You have mastered a deadly fighting form inspired by the hideous attacks of the
 [barbed devil](ref/monster/devil-barbed-devil-hamatula).\

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "a_brace_of_imps", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 223
 
 Rumors of the corpses of strange creatures appearing for sale in the city are confirmed with the
 display of a brace of dead [imps](ref/monster/devil-imp) in a local market. Where are they from, and

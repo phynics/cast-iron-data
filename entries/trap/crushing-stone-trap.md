@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_stone_trap", path = "json/traps.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 422
 
 **Crushing Stone Trap**
 

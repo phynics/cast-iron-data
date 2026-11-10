@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_strike", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 236
 
 You briefly alter the flow of time to split a melee attack into two attacks. Before the end of your
 next turn, when you make your next melee attack roll, compare the result to the AC of two opponents

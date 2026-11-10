@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkness", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Target: object touched
 Descriptors: darkness
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 This spell causes an object to radiate darkness out to a 20-foot radius. This darkness causes the
 illumination level in the area to drop one step, from bright light to normal light, from normal

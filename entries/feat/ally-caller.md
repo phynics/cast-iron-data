@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_caller", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Triton, summon nature's ally II spell-like ability, character l
 benefit = "You gain two additional uses of *summon nature's ally II* per day."
 special = "You may take this feat multiple times. Each time you select it, you gain two additional uses of *summon nature's ally II."
 +++
-
-**Sources:** Blood of the Sea pg 15
 
 You can draw upon aid from the ocean more frequently.\
 **Prerequisites:** [Triton](ref/race/triton),

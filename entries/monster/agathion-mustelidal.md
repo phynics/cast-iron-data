@@ -6,6 +6,9 @@ source_ids = ["pathfinder-108-hell-comes-to-westcrown"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion_mustelidal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-108-hell-comes-to-westcrown"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ strike at a moment's notice._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#108: Hell Comes to Westcrown pg 84\
 **Subtype:** Agathion, Extraplanar, Good
 
 **Experience points:** 76,800

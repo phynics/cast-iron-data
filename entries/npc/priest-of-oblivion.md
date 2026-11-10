@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "priest_of_oblivion", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** NPC Codex pg 60\
 **XP** 153,600\
 Human [cleric](ref/class/cleric) of [Zon-Kuthon](ref/faith/zon-kuthon) 19\
 NE Medium humanoid (human)\

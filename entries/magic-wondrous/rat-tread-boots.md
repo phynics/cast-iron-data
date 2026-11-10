@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_tread_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Tears at Bitter Manor pg 55\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** feet; **Price** 8,500 gp; **Weight** 1 lb.
 

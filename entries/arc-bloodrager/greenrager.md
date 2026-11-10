@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "83"
 
 [fields]
 kind = "archetype"
 replaces = ["Blood sanctuary", "The bloodline feat gained at 6th level", "The bloodline feat at 9th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 83\
 Typically, nature finds its greatest harmony with divine magic, but sometimes a connection with the
 natural world manifest itself through the arcane current in the veins of the bloodragers called
 greenragers. These bloodragers funnel their eldritch heritage into abilities that allow them to call

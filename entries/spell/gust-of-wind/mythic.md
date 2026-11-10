@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/gust-of-wind", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 97
 
 The force of the wind increases to [windstorm](ref/rule/winds) (approximately 70 mph). All effects
 described in the spell affect creatures one size larger. Ranged attacks can't be attempted in the

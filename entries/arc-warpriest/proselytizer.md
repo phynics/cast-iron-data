@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Sacred armor, 3rd-level bonus feat"]
 alters = ["Weapon and armor proficiencies", "Sacred weapon", "Blessings", "Blessings (major)"]
 +++
 
-**Sources:** Cohorts and Companions pg 24\
 The proselytizer is the perfect militant missionary. He seeks to win the hearts and lay claim to the
 souls of those he meets, and - failing that - spreads the word of his deity at the edge of the
 sword.

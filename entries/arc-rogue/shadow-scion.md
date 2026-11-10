@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Rogue talent gained at 8th level", "Rogue talent gained at 14th level", "Master strike"]
 +++
 
-**Sources:** Legacy of the First World pg 15\
 Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets
 that might one day free their patron from his mysterious exile. Shadow scions have learned some of
 these secrets and draw power from the shadows themselves. Many shadow scions are dedicated

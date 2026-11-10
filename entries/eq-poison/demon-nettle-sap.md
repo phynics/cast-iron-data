@@ -6,6 +6,9 @@ source_ids = ["the-moonscar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_nettle_sap", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "the-moonscar"
+page = "7"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** The Moonscar pg 7
 
 **Price** 1,500 gp; **Weight** —
 

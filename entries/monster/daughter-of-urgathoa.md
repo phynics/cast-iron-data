@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daughter_of_urgathoa", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "309"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ scythe-like claw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea World Guide pg 309, Pathfinder \#8: Seven Days to the Grave pg 82\
 **Type:** undead
 
 **Experience points:** 4,800

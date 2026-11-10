@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_swimming_and_climbing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "237"
+[[sources]]
+publication = "core-rulebook"
+page = "515"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 237, PRPG Core Rulebook pg 515\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** hands; **Price** 6,250 gp; **Weight** -
 

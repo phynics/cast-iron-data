@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexile_curse", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** Magic Tactics Toolbox pg 21
 
 You curse your target with a withering aura that degrades its armor and shield (if any). This
 reduces the [hardness](ref/umr/hardness), armor bonus, and enhancement bonus of any armor or shield

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/plane-shift" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Subschool: Teleportation
 :::
 
 ### Janni's Jaunt
-
-**Sources:** Planes of Power pg 9
 
 This spell functions as per [plane shift](ref/spell/plane-shift), but with the following exceptions.
 First, you are able to transport only willing creatures. Second, the spell can transport you and any

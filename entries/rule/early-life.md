@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "early_life", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 9
 
 Experiences in childhood have a monumental impact on the person you become later in life. Family,
 social class, region, family trade or profession, religion, culture, and major events that occur

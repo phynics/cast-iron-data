@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getting_started", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 8
 
 While everyone at the table plays the game, the Game Master creates the world, breathing life into
 it in front of a small audience enraptured by his story. The Game Master works the hardest of

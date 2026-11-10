@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_nabasu", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "64"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ scaly hide._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 64\
 **Subtype:** Chaotic, Demon, Evil, Native
 
 **Experience points:** 4,800

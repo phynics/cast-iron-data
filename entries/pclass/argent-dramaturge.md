@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "argent_dramaturge", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "172"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Adventurer's Guide pg 172
 
 The city of Kintargo has a long and proud association with the arts, particularly the theater and
 the opera. The fascination with operatic performances is well established throughout the nation of

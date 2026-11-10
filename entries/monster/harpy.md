@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harpy", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ look about her._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 172\
 **Experience points:** 1,200
 
 **Armor class:** 16/13/13

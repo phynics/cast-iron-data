@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "69"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd, 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery", "Oracle's curse", "Final revelation"]
 +++
 
-**Sources:** Ultimate Wilderness pg 69\
 Tree souls develop an affinity not just with trees but also with objects carved from them, feeling
 the essence of the tree's spirit living within. By bonding to trees, they learn to manipulate the
 trees' power to produce divine energy. The type of tree a tree soul oracle bonds to often seems to

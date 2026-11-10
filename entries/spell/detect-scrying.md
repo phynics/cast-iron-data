@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_scrying", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "268"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Area: 40-ft.-radius emanation centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 268
 
 You immediately become aware of any attempt to observe you by means of a divination (scrying) spell
 or effect. The spell's area radiates from you and moves as you move. You know the location of every

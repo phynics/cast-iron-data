@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victory", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "68"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 68\
 A fleet wins a battle once all of the enemy's ships are removed from play, either by disabling or
 sinking all the ships in play or by causing squadrons to mutiny. When victory is secured, the enemy
 fleet's flagship is rendered defenseless, allowing the victors to board the flagship at once.

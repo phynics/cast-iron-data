@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/nature-magic", label = "or" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "147"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you use Vital Strike (or Improved Vital Strike or Greater Vital 
 +++
 
 ## Faerie's Strike (Combat)
-
-**Sources:** Advanced Class Guide pg 147
 
 Ephemeral wisps of nature spirits dance about those you strike.\
 **Prerequisites:** [Nature Magic](ref/feat/nature-magic) or the ability to cast druid or ranger

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplified_radiance", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "201"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you are within 15 feet of an aasimar ally who has both the d
 +++
 
 ## Amplified Radiance (Teamwork)
-
-**Sources:** Inner Sea Races pg 201
 
 The vicinity of another of your kind ignites your inner light into a shining aurora.\
 **Prerequisites:** [Aasimar](ref/race/aasimar), daylight racial

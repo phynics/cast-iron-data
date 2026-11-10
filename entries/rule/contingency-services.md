@@ -6,12 +6,13 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingency_services", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Cohorts and Companions pg 28
 
 Contingency services are similar to contacts, but represent paying hirelings in advance for future
 services that begin after a specified signal or time limit. Unlike contacts, most contingency

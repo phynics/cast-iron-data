@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smash", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "170"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "The benefits of this feat do not apply to sunder attempts or attacks 
 +++
 
 ## Smash (Combat)
-
-**Sources:** Advanced Player's Guide pg 170
 
 You overcome obstacles by breaking them.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack), [half-orc](ref/race/half-orc).\

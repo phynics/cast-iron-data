@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_ingredients_develop_quasi_sentience", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 184\
 Somehow, one or more of your item's components have developed a limited intelligence.
 
 ### Tasks

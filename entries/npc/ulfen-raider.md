@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ulfen_raider", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ battleaxe clenched in one hand._
 
 **Challenge rating:** 1/2
 
-**Sources:** Lands of the Linnorm Kings pg 63\
 **XP** 200\
 Human [barbarian](ref/class/barbarian) 1\
 CN Medium humanoid (human)\

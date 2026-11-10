@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_bushyasta", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ save for her wide, fang-filled mouth._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Book of the Damned pg 248\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 2,400

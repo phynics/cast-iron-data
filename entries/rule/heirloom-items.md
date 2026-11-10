@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heirloom_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 108
 
 When characters start play with magical items, ask players to create a brief story explaining how
 they got them. The story should not only reveal something about the item, but also about the person

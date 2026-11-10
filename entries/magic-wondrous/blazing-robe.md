@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "214"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 214\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** body; **Price** 11,000 gp; **Weight** 1 lb.
 

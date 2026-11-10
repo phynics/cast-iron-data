@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "85"
 
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "damage reduction", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Class Guide pg 85\
 Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into
 the power of their bloodline in order to heal damage as it comes, and can even cannibalize their own
 magical energy to heal more damage and continue taking the fight to the enemy.

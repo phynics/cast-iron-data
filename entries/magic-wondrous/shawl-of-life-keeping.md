@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shawl_of_life_keeping", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "268"
+[[sources]]
+publication = "advanced-race-guide"
+page = "178"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 268, Advanced Race Guide pg 178\
 **Aura** faint conjuration; **CL** 3rd\
 **Slot** shoulders; **Price** 1,000 gp; **Weight** 1 lb.
 

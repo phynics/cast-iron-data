@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "excoriating_stare", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you trigger a painful stare, the target must succeed at a Wi
 +++
 
 ## Excoriating Stare (Combat, Stare)
-
-**Sources:** Occult Adventures pg 133
 
 Your painful stare burns through your opponents.\
 **Prerequisites:** Mesmerist level 11th, painful stare class feature.\

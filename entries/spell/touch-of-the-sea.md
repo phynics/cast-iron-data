@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_the_sea", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "250"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 250
 
 You cause webs to grow between the target's fingers and its feet to transform into flippers,
 granting a swim speed of 30 feet along with the standard +8 bonus on Swim checks and the ability to

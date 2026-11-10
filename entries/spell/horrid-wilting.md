@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrid_wilting", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "298"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude half
 Spell resistance: yes
 Targets: living creatures, no two of which can be more than 60 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 298
 
 This spell evaporates moisture from the body of each subject living creature, causing flesh to
 wither and crack and crumble to dust. This deals 1d6 points of damage per caster level (maximum

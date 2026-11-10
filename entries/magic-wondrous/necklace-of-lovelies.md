@@ -6,6 +6,9 @@ source_ids = ["pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_lovelies", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "abjuration (evil)"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 21\
 **Aura** abjuration (evil); **CL** 17th\
 **Slot** neck; **Price** 36,000 gp; **Weight** 4 lbs.
 

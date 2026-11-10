@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alkenstar_fortress_plate", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "6"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Armor"
 weight = "75 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 6\
 **Cost** 2,100 gp **Weight** 75 lbs.\
 **Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
 **Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerer_bloodlines", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 The following bloodlines represent only some of the possible sources of power that a sorcerer can
 draw upon. Unless otherwise noted, most sorcerers are assumed to have the
 [arcane](ref/sorcbloodline/arcane) bloodline.

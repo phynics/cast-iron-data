@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buckler_gun", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "137"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 137
 
 The front of this [buckler](ref/eq-armor/buckler) is fitted with a small, double-barreled gun that
 can be shot while wearing the buckler. Unlike with a

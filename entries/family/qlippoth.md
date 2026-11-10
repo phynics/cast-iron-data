@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Before [the Abyss](ref/rule/the-abyss) was taught how to process and transform larvae into
 [demons](ref/family/demon) - indeed, before larvae even existed or the idea of mortal life had been

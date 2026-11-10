@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanglefoot_bundle", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "72"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "250 gp"
 weight = "20 lbs."
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 72\
 **Price** 250 gp; **Weight** 20 lbs.\
 **Category** Alchemical Weapons
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qlippoth_lord_oaur_ooung", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ pulsing blisters._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Bestiary 6 pg 236\
 **Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
 
 **Experience points:** 819,200

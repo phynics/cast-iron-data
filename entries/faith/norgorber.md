@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "norgorber", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "108"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Norgorber**
 
 **Sub:** The Reaper of Reputation
-
-**Sources:** Inner Sea Gods pg 108
 
 ### Details
 

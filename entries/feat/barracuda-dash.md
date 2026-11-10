@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barracuda_dash", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a swim speed equal to your base speed. When you attack on a 
 +++
 
 ## Barracuda Dash (Combat)
-
-**Sources:** Pathfinder \#124: City in the Deep pg 81
 
 You use powerful, deadly bursts of speed to charge and attack an additional foe.\
 **Prerequisites:** Wis 13, [Barracuda Slam](ref/feat/barracuda-slam),

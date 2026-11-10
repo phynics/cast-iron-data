@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_janni", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "141"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ strange light._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 141\
 **Subtype:** Native
 
 **Experience points:** 1,200

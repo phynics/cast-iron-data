@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saddle_shrieker", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -1 penalty on all attack rolls and combat ma
 +++
 
 ## Saddle Shrieker (Combat)
-
-**Sources:** Goblins of Golarion pg 25
 
 You sometimes get carried away when encouraging your mount to fight.\
 **Prerequisites:** [Goblin](ref/race/goblin), Ride 1 rank.\

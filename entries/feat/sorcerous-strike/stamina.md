@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/sorcerous-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 132\
 After hitting with an unarmed strike, you can spend 2 stamina points to apply the effects of your
 chosen bloodline power as a free action instead of a swift action.

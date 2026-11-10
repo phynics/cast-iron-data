@@ -6,6 +6,12 @@ source_ids = ["occult-mysteries", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_saluqi", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "58"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -39,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one spectral dog
 :::
-
-**Sources:** Occult Mysteries pg 58, Osirion, Land of the Pharaohs pg 27
 
 This spell creates a spectral saluqi, an undead canine resembling an oversized hound with black fur,
 a gray ruff and tail, and milky gray eyes. The hound shares your alignment and can converse with you

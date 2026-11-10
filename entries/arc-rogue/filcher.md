@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "64"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Trap sense +1, +2, +3, +4, +5, and +6", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Race Guide pg 64\
 A filcher steals valuables without their owners even realizing it. Whether cutting purses in the
 midst of combat or replacing prized items with fakes under the noses of their owners, the filcher is
 the master of the quick and quiet steal. A filcher has the following class features.

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocker_lizard", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "248"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with sparks of lightning._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 248\
 **Experience points:** 600
 
 **Armor class:** 16/13/14

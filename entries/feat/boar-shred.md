@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_shred", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can make an Intimidate check to demoralize an opponent as a move 
 +++
 
 ## Boar Shred (Combat)
-
-**Sources:** Ultimate Combat pg 90
 
 The wounds you inflict with your unarmed strikes bleed, giving you renewed vigor.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

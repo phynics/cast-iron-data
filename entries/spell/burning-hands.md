@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_hands", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes
 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames

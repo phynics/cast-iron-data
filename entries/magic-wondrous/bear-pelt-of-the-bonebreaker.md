@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_pelt_of_the_bonebreaker", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "260"
+[[sources]]
+publication = "gods-and-magic"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 260, Gods and Magic pg 54\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** shoulders; **Price** 3,300 gp; **Weight** 10 lbs.
 

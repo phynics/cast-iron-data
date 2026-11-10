@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aetheric_boost", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ group = "kineticist-wild-talent"
 **Damage:** see text
 
 **Prerequisite:** [telekinetic blast](ref/kinetic/telekinetic-blast), expanded element (any)
-
-**Source:** Occult Adventures/15
 
 You infuse a simple blast you know with aether, causing it to deal 1 additional point of damage of
 the same type for each of its damage dice; it otherwise acts as the simple blast.

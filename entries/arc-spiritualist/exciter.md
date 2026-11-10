@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "68"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["6th-level phantom recall", "Ability to manifest his phantom", "abil
 alters = ["Phantom", "emotional focus"]
 +++
 
-**Sources:** Horror Adventures pg 68\
 Psychic magic draws upon the twin and sometimes opposed powers of thought and emotion, but an
 exciter cares little for rationality. The phantom that accompanies him fills him with unbridled
 exultation, as he lets feeling and passion rule and sharpen his mind and body into a glorious

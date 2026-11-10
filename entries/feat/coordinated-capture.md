@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_capture", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "44"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you and one or more allies with this feat threaten the same 
 +++
 
 ## Coordinated Capture (Combat, Teamwork)
-
-**Sources:** Villain Codex pg 44
 
 You work with allies to prevent foes from escaping.\
 **Prerequisites:** Base attack bonus +1.\

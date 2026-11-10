@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "117"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Smite evil", "Aura of resolve"]
 alters = ["Divine bond"]
 +++
 
-**Sources:** Advanced Player's Guide pg 117\
 Paladins as a general rule, venerate the gods of good and purity, but some take this a step further,
 dedicating themselves to a specific deity and furthering the cause of the faith. These sacred
 servants are rewarded for their devotion with additional spells and powerful allies. A sacred

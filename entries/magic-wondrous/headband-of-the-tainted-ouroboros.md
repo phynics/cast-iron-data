@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_the_tainted_ouroboros", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 31\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** headband; **Price** 4,500 gp; **Weight** -
 

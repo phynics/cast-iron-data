@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_metamagic_tumultuous_normal", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "52"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Tumultuous
 
-**Sources:** Planar Adventures pg 52\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 3,000 gp (lesser \[up to 3rd-level spells\]), 11,000 gp (normal \[up to
 6th-level spells\]), 24,500 gp (greater \[all spells\]); **Weight** 5 lbs.

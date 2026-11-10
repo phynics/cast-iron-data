@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "berserker_cannibal", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -18,7 +21,6 @@ _This howling berserker has milky white eyes and an enormous axe wielded by musc
 
 **Challenge rating:** 3
 
-**Sources:** Lands of the Linnorm Kings pg 54\
 **XP** 800\
 Human [barbarian](ref/class/barbarian) 4\
 CE Medium humanoid\

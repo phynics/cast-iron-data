@@ -6,12 +6,17 @@ source_ids = ["inner-sea-races", "bestiary-4", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvaran", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "bestiary-4"
+page = "281"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 281\
 This dragon-like humanoid brandishes its spear, spreads its wings, and shows its fangs in an angry
 snarl.
 

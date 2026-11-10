@@ -6,6 +6,9 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proximity_helmet", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "61"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "2 lbs."
 slot = "head"
 +++
 
-**Sources:** Pathfinder \#85: Fires of Creation pg 61\
 **Price** 4,000 gp\
 **Slot** head; **Weight** 2 lbs.\
 **Capacity** 10; **Usage** 1 charge/hour

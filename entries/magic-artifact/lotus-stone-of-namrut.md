@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lotus_stone_of_namrut", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "72"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 72\
 **Aura** overwhelming conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

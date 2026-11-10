@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "challenges_pu", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 180
 
 Each challenge the PCs face represents a setback or opportunity in the magic item creation process.
 This system assumes that the PCs involved are gathering exotic ingredients, searching through the

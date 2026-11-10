@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explode_head", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "171"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: special, see text
 Spell resistance: yes
 Target: one living corporeal creature
 :::
-
-**Sources:** Occult Adventures pg 171
 
 You cause incredible pressure to build in the target's head; this spell works only on a creature
 that has a head and would die from the loss of a head. The spell kills any such target that has 20

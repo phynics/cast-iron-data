@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "widen_spell", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter a burst, emanation, or spread-shaped spell to increase 
 +++
 
 ## Widen Spell (Metamagic)
-
-**Sources:** PRPG Core Rulebook pg 137
 
 You can cast your spells so that they occupy a larger space.\
 **Benefit:** You can alter a [burst, emanation, or spread](ref/misc/burst)-shaped spell to increase

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pipes_of_haunting", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "315"
+[[sources]]
+publication = "core-rulebook"
+page = "526"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Sources:** Ultimate Equipment pg 315, PRPG Core Rulebook pg 526\
 **Aura** faint necromancy; **CL** 4th\
 **Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.
 

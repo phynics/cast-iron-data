@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_paragon", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "123"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 123\
 **XP** 51,200\
 Human [paladin](ref/class/paladin) 16\
 LG Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trappings_of_the_warrior", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ group = "occultist-implement"
 
 ## Trappings of the Warrior
 
-**Sources:** Psychic Anthology pg 28\
 This panoply is associated with brave and stalwart warriors, martial skill, and the defense of one's
 allies.
 

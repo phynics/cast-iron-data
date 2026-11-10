@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gag_of_silence", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 21\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** head; **Price** 500 gp; **Weight** 1 lb.
 

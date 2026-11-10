@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lungchuan_tamo", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "ultimate-combat"
+page = "133"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Ultimate Combat pg 133
 
 What seems to be an ordinary baton sheaths a pair of matching slender-bladed daggers - perfectly
 balanced throwing blades.

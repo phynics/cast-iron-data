@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rivethun_emissary", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "164"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 164
 
 [Rivethun](ref/rule/aff-animists) teachings cultivate strength and empathy through knowledge,
 self-control, and willpower. At their culmination lies the ability to invest pain and discord into a

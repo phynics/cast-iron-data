@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melancholia", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 185\
 **Type** lesser madness; **Save DC** 14\
 **Onset** 1d4 days\
 **Effect** -2 penalty on initiative checks, and morale bonuses are halved (minimum +0)\

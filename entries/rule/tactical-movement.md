@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_movement", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 170
 
 Tactical movement is used for combat. Characters generally don't walk during combat, for obvious
 reasons - they hustle or run instead. A character who moves his speed and takes some action is

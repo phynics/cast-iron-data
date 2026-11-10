@@ -6,6 +6,15 @@ source_ids = ["bestiary-4", "dungeons-of-golarion", "magnimar-city-of-monuments"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shriezyx", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "244"
+[[sources]]
+publication = "dungeons-of-golarion"
+page = "31"
+[[sources]]
+publication = "magnimar-city-of-monuments"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +51,6 @@ dripping with green venom._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 244, Dungeons of Golarion pg 31, Magnimar, City of Monuments pg 60\
 **tremorsense:** 60
 
 **Experience points:** 1,200

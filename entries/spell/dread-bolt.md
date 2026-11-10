@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_bolt", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Effect: arrow-shaped projectile of evil energy
 Descriptors: evil
 :::
-
-**Sources:** Ultimate Magic pg 217
 
 You unleash a crackling missile of darkness from your unholy symbol at any one target in range as a
 ranged touch attack.

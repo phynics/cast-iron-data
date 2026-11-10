@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hunger-for-flesh" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "121"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: evil, mind-affecting
 :::
 
 ### Mass Hunger for Flesh
-
-**Sources:** Horror Adventures pg 121
 
 This spell functions like [hunger for flesh](ref/spell/hunger-for-flesh), except that it affects
 multiple targets. When forced to feed by the spell, affected creatures attack creatures not affected

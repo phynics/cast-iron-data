@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frog_goliath_frog", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This massive, mottled amphibian glistens with slime, and its tongue drips with 
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 117\
 **Experience points:** 800
 
 **Armor class:** 15/10/14

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowbound", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "34-35"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 34-35\
 Darkness and fear are all that guide you. As the shadow consumes you, you are becoming a gaunt
 caricature of your former self, emptied of life and color.
 

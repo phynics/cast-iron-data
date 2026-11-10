@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 Shield creates an invisible shield of force that hovers in front of you. It negates
 [magic missile](ref/spell/magic-missile) attacks directed at you. The disk also provides a +4 shield

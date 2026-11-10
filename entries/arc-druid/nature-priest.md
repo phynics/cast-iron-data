@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "Resist nature's lure", "Venom immunity"]
 alters = ["Weapon proficiencies", "Nature bond"]
 +++
 
-**Sources:** Healer's Handbook pg 23\
 Nature priests serve two masters: their deities and nature itself, and can call upon the power of
 both to fuel their divine abilities.
 

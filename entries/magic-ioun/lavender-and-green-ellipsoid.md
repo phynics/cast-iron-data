@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "core-rulebook", "ultimate-equipment", "seeke
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lavender_and_green_ellipsoid", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "149"
+[[sources]]
+publication = "core-rulebook"
+page = "521"
+[[sources]]
+publication = "ultimate-equipment"
+page = "305"
 
 [fields]
 kind = "item"
@@ -19,7 +28,6 @@ caster_level = "12th"
 
 ## Pale Lavender Ellipsoid; Lavender and Green Ellipsoid
 
-**Sources:** Adventurer's Guide pg 149, PRPG Core Rulebook pg 521, Ultimate Equipment pg 305\
 **Aura** strong varied; **CL** 12th\
 **Slot** none; **Price** 20,000 gp (pale lavender), 40,000 gp (lavender and green); **Weight** —
 

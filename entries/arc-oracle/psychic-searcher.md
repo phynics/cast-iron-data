@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "106"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus spells gained at 4th, 6th, 8th, 12th, 16th, and 18th leve
 alters = ["Revelations gained after 3rd level"]
 +++
 
-**Sources:** Advanced Class Guide pg 106\
 A psychic searcher is devoted to revealing the hidden within the world around her by sensing and
 communing with residual mental energy, haunts, and fragments of living spirits that can dwell in
 objects or rooms.

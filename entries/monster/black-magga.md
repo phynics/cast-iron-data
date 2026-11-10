@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-3-the-hoo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_magga", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "406"
+[[sources]]
+publication = "pathfinder-3-the-hook-mountain-massacre"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,8 +50,6 @@ wriggling mass of tentacles._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 406, Pathfinder \#3: The Hook Mountain
-Massacre pg 88\
 **Subtype:** Aquatic, Native
 
 **Experience points:** 51,200

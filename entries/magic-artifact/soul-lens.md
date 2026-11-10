@@ -6,6 +6,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_lens", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "426"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 426\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

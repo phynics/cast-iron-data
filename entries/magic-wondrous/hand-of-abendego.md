@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand_of_abendego", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 56\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** neck; **Price** 20,258 gp; **Weight** 2 lbs.
 

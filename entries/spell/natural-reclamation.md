@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_reclamation", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "140"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 140\
 **School** conjuration; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, M (a small model of the settlement worth 500 gp and the sacrifice of one

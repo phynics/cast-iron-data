@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spire_transport_token", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** The Emerald Spire Superdungeon pg 20\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 600 gp; **Weight** -
 

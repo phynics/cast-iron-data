@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/murderous-command", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "102"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 102\
 This spell lasts for a number of rounds equal to your tier. Each round after the first, the target
 can attempt a new saving throw at the beginning of its turn to break free of the spell.
 

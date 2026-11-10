@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/efreeti-touch", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "119"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 119\
 Instead of spending two uses of Elemental Fist to unleash a cone of flame, you can spend one use of
 Elemental Fist and 2 stamina points.

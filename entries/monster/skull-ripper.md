@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-3-the-hoo
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skull_ripper", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "415"
+[[sources]]
+publication = "pathfinder-3-the-hook-mountain-massacre"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,8 +50,6 @@ and human skulls._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 415, Pathfinder \#3: The Hook Mountain
-Massacre pg 84\
 **Experience points:** 6,400
 
 **Armor class:** 24/12/21

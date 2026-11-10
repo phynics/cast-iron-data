@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "5th- and 15th-level bonus feats", "10th-level bonu
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Cohorts and Companions pg 17\
 Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic
 union.
 

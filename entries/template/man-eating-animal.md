@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "man_eating_animal", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "89"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1, +2, or +3
 
 **Inherited:** present
-
-**Source:** Pathfinder \#74: Sword of Valor/89
 
 Scholars will explain that though many animals fight to defend their territory and their young, only
 a few apex predators hunt humanoids for food. Yet any villager across the Inner Sea region can

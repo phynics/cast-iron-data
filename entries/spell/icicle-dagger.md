@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icicle_dagger", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: one icicle
 Subschool: Creation
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 224
 
 You create a masterwork dagger out of ice. The dagger deals 1 point of cold damage in addition to
 normal dagger damage. If the dagger leaves your hand for more than 1 round, it melts and the spell

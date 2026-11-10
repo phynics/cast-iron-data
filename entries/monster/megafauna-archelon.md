@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_archelon", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "192"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hooked beak._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 192\
 **Experience points:** 1,600
 
 **Armor class:** 19/9/18

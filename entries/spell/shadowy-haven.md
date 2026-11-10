@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/rope-trick" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "113"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: one 5-foot square of floor touched
 :::
-
-**Sources:** Advanced Race Guide pg 113
 
 > _[Fetchlings](ref/race/fetchling) have access to the following spell._
 

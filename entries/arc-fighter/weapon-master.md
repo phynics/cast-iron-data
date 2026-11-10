@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "109"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Armor mastery"]
 +++
 
-**Sources:** Advanced Player's Guide pg 109\
 Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored
 weapon border on the obsessive, but none can deny his consummate skill.
 

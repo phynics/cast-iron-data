@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purgatorys_cowl", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Planar Adventures pg 47\
 **Aura** moderate abjuration and necromancy; **CL** 11th\
 **Slot** armor; **Price** 24,175 gp; **Weight** 30 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_light", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: all living creatures without light sensitivity in a 20-ft.-radius burst
 Descriptors: light
 :::
-
-**Sources:** Kobolds of Golarion pg 26
 
 You evoke a powerful light that affects all sighted creatures that do not posses light sensitivity.
 Those that succeed on their saves are dazzled for 1 round per level; those who fail are blinded for

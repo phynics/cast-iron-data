@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rot_grubs", path = "json/infestations.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "244"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 244
 
 **Type:** Infestation
 

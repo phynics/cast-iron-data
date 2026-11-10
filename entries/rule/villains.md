@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "villains", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "90"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 90
 
 A good villain has to be more than just an evil, high-level NPC or monster at the end of a dungeon
 bash. While the basics of NPC creation covered earlier in this section offer advice in developing

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivors_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "18th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 56\
 **Aura** strong illusion; **CL** 18th\
 **Slot** ring; **Price** 56,160 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_erinyes", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "75"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ eyes search for a target._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 75\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 4,800

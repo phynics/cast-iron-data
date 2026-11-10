@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_earth_and_wind", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "147"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Mythic Adventures pg 147\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** feet; **Price** 20,000 gp; **Weight** 3 lbs.
 

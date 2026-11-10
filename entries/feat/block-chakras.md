@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Psychic Sensitivity or levels in an occult class, brawler's flu
 prerequisite_feats = ["ref/feat/psychic-sensitivity"]
 benefit = "As a standard action, you can spend 1 ki point to make a single unarmed strike that attempts to block one of the target's chakras. If you hit the target and deal damage, you can select either the root, sacral, or navel chakra, as long as you can open that chakra yourself. The target suffers a specific effect based on the chosen chakra (see below), though it can reduce these effects with a successful Fortitude save (DC = 10 + half your character level + the ability modifier you use to calculate your ki pool)."
 +++
-
-**Sources:** Martial Arts Handbook pg 28
 
 You've learned how to block the lower chakras of your foes.\
 **Prerequisites:** [Psychic Sensitivity](ref/feat/psychic-sensitivity) or levels in an occult class,

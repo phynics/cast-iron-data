@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_admonition", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Disciple's Doctrine pg 13
 
 You point out your target's faults and failures, staggering the target for 1 round. While subject to
 this spell, the target cannot be the target of another spell that has the word "litany" in the

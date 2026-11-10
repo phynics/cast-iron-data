@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_fame", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 185
 
 Sometimes situations should take into account the Fame values of multiple characters. This usually
 occurs when all the PCs continually operate as a single entity, such as King Arthur's Knights of the

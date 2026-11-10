@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/invisibility" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "302"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Area: 10-ft.-radius emanation around the creature
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 302
 
 This spell functions like [invisibility](ref/spell/invisibility), except that this spell confers
 invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The

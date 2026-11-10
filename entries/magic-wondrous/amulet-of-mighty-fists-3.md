@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_mighty_fists_3", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "255"
+[[sources]]
+publication = "core-rulebook"
+page = "496"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "5th"
 
 ## Amulet of Mighty Fists
 
-**Sources:** Ultimate Equipment pg 255, PRPG Core Rulebook pg 496\
 **Aura** faint evocation; **CL** 5th\
 **Slot** neck; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
 (+5); **Weight** -

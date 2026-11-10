@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titan_danava_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ mace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 246\
 **Subtype:** Extraplanar, Lawful, Mythic
 
 **Experience points:** 1,228,800

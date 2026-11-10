@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "121"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature bond", "Nature sense", "Wild empathy", "Spontaneous casting"
 alters = ["Class skills"]
 +++
 
-**Sources:** Adventurer's Guide pg 121\
 Druids of the Halcyon Circle embrace [the teachings of Old-Mage Jatembe](ref/rule/aff-i-school),
 combining them with traditional druidic practices. Though they revere the natural world, halcyon
 druids are less focused on emulating its inhabitants. Instead, like Old-Mage Jatembe, they treat

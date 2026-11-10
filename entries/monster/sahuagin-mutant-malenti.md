@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin_mutant_malenti", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _A predatory gleam glints in the eyes of this stern-looking aquatic elf._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_recovery", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one target creature and all its allies within 60 feet; see text
 Subschool: Healing
 Descriptors: mind-affecting
 :::
-
-**Sources:** Healer's Handbook pg 9
 
 You can heal a creature, harm an undead creature, or call upon a very recently dead creature to
 fight beyond death's reach. The target creature regains 1d8 hit points per 2 caster levels (maximum

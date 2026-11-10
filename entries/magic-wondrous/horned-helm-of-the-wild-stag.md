@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horned_helm_of_the_wild_stag", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Daughters of Fury pg 60\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** head; **Price** 14,000 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "graceful_steal", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When attempting Sleight of Hand checks to lift or palm objects, you c
 +++
 
 ## Graceful Steal (Combat)
-
-**Sources:** Ultimate Intrigue pg 84
 
 You can steal with surprising subtlety.\
 **Prerequisites:** Dex 13, [Agile Maneuvers](ref/feat/agile-maneuvers),

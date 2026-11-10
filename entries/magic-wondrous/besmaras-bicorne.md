@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_bicorne", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "260"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 260, Gods and Magic pg 55\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** head; **Price** 1,700 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_cuffs", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Combat pg 59\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.
 

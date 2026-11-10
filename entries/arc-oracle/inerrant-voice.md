@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 2nd, 4th, 8th, and 14th levels from the oracle's mystery"]
 +++
 
-**Sources:** Heroes of the High Court pg 17\
 An inerrant voice serves as a spiritual advisor to either a monarch or noble. Most Qadiran nobles
 retain one's services, for both guidance and protection.
 

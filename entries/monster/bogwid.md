@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogwid", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ nauseating vitality, like sentient oily bubbles threatening to burst._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 84\
 **Experience points:** 1,600
 
 **Armor class:** 19/14/15

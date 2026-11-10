@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Resist nature's lure"]
 alters = ["Nature's bond", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 47\
 A dinosaur druid speaks for the spirit of prehistoric nature, even taking the form of great beasts
 of legend.
 

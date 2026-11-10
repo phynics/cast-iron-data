@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_polish", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: yes (object)
 Spell resistance: yes (object)
 Target: one metal item of up to 1 sq. ft.
 :::
-
-**Sources:** Advanced Class Guide pg 188
 
 You polish a metal item until it is reflective enough to be used as a mirror. This does not prevent
 the item from later damage or corrosion that would ruin the mirrored surface. The spell can be cast

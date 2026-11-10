@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_consortium_spy", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** Inner Sea NPC Codex pg 9\
 **XP** 9,600\
 Halfling [bard](ref/class/bard) 7/master spy 4\
 NE Small humanoid (halfling)\

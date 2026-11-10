@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investigator", path = "json/classes2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "30"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 30
 
 Whether on the trail of a fugitive, a long-lost treasure trove, or a criminal mastermind,
 investigators are motivated by an intense curiosity about the world and use knowledge of it as a

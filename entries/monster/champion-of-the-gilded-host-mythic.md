@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_the_gilded_host_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _This towering humanoid creature is made almost entirely of gold and radiates a 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Lost Treasures pg 23\
 **Subtype:** Colossus, Mythic
 
 **Experience points:** 153,600

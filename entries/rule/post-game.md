@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "post_game", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "26"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 26
 
 Once the game session is done, there are still several tasks that need to be taken care of. First,
 award the players any experience earned during play, and allow them to divide up any loot earned.

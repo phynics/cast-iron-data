@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_blade_dervish", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you cast flame blade, you gain a +10 enhancement bonus to your b
 +++
 
 ## Flame Blade Dervish (Combat)
-
-**Sources:** Paths of the Righteous pg 13
 
 You move effortlessly when wielding a flame blade.\
 **Prerequisites:** Ability to cast flame blade as a spell or

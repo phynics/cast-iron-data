@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petulengros_validation", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 58
 
 After a particularly harrowing brush with death at the hands of doppelgangers, Venture-Captain Eliza
 Petulengro devised a means of being sure her companions were actually who they appeared to be. To

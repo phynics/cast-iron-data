@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_artistry", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can select this feat multiple times, choosing a different combat 
 +++
 
 ## Aldori Artistry (Combat)
-
-**Sources:** Adventurer's Guide pg 24
 
 You can do more with your blade than slash and stab.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency)

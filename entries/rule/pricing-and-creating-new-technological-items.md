@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pricing_and_creating_new_technological_items", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 17\
 New technological items can and should be created, using existing items for inspiration. A new item
 may resemble an existing magic item, such as how [jetpacks](ref/tech-misc/jetpack) function like
 [winged boots](ref/magic-wondrous/winged-boots), but there should be differences beyond just battery

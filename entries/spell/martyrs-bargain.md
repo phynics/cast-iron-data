@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyrs_bargain", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: good
 :::
-
-**Sources:** Inner Sea Magic pg 58
 
 Among the faithful followers of the gods of purity - whether they be the servants of Desna in Nidal,
 zealous followers of Milani struggling against Cheliax's government, paladins of Iomedae fighting

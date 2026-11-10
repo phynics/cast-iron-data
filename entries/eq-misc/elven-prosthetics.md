@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_prosthetics", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "22"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Heroes from the Fringe pg 22\
 **Price** 250 gp; **Weight** 1 lb.\
 **Category** Clothing
 

@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolts_heartstake", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "99"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.6 lbs."
 +++
-
-**Sources:** Advanced Race Guide pg 99
 
 Specially crafted from solid darkwood, heartstake bolts are specifically designed to slay
 [vampires](ref/template/vampire). A heartstake bolt can be fired from any crossbow, but it imposes a

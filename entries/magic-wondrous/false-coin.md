@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_coin", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Occult Adventures pg 257\
 **Aura** faint divination; **CL** 1st\
 **Slot** none; **Price** 375 gp; **Weight** -
 

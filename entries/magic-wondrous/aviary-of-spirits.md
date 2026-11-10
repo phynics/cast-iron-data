@@ -6,6 +6,9 @@ source_ids = ["ships-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aviary_of_spirits", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ships-of-the-inner-sea"
+page = "44"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Ships of the Inner Sea pg 44\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.
 

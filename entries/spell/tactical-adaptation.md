@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_adaptation", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 27
 
 This spell was developed by an Aldori Academy student after several weeks of observing (and
 occasionally joining) Restov barroom brawls. You draw on your mind's hidden reserves,

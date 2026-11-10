@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["The fighter's 2nd-level bonus feat", "Armor training", "The fighter's 6th-level bonus feat"]
 +++
 
-**Sources:** Pirates of the Inner Sea pg 22\
 A corsair is a pirate who focuses on shipboard combat, relying on his strength of arms over his
 agility. He specializes in traditional pirate weapons, but often wears heavier armor than is
 normally seen on a ship. A corsair moves and fights easily in his armor, however, even in the water.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/interposing-hand" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "285"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: 10-ft. hand
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 285
 
 This spell functions as [interposing hand](ref/spell/interposing-hand), except that it can also
 pursue and bull rush one opponent you select. The forceful hand gets one bull rush attack per round.

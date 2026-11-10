@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_calling", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Effect: one Spawn of Rovagug
 Subschool: Calling
 Descriptors: chaotic, evil
 :::
-
-**Sources:** Inner Sea Gods pg 241
 
 Having attained the highest and most profane form of magical achievement in the Great Destroyer's
 service, you are able to call forth his most dreaded creations: the Spawn of Rovagug. Casting this

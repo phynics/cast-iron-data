@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_blanch_cold_iron", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "103"
+[[sources]]
+publication = "advanced-players-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)"
 
 ## Weapon blanch
 
-**Sources:** Ultimate Equipment pg 103, Advanced Player's Guide pg 184\
 **Price** 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); **Weight** 1/2 lb. (adamantine),
 1/2 lb. (cold iron), 1/2 lb. (silver)
 

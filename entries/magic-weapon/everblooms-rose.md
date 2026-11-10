@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "everblooms_rose", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 60\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** 6 lbs.
 

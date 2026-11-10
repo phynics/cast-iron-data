@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unerring_weapon", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Targets: one weapon or 20 projectiles, all of which must be together at the time of casting
 :::
-
-**Sources:** Ultimate Combat pg 248
 
 This spell causes a weapon to veer closer to vital areas, improving the result of a critical threat.
 This transmutation grants a +2 bonus on attack rolls to confirm critical hits plus 1 additional

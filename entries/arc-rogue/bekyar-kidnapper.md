@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "36"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Inner Sea Combat pg 36\
 One of the many ethnicities found in the Mwangi Expanse, the Bekyar people are slavers and demon
 worshipers. A Bekyar kidnapper is not only adept at hiding herself in thick jungles and quickly
 subduing her prey, but also at spreading rumors of hidden ruins, buried treasure, and other such

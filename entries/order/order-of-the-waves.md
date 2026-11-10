@@ -6,13 +6,14 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_waves", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "53"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Aquatic Adventures pg 53
 
 Cavaliers of the order of the waves explore the secrets under the sea.
 

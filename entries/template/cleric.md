@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleric", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "246"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1, +2, or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/246
 
 As a conduit of divine power, a [cleric](ref/class/cleric) creature is often viewed with great
 respect by its community. A cleric creature's CR increases by 2 if the creature has 7 or more HD,

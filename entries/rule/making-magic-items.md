@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "making_magic_items", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "116"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 116
 
 In every campaign, there comes a time when the PCs are no longer satisfied with the magic items
 available to their characters. Whether looking for a power to complement their skills, a new twist

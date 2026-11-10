@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_focus", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "The Martial Focus feat counts as the weapon training class feature wi
 +++
 
 ## Martial Focus (Combat)
-
-**Sources:** Weapon Master's Handbook pg 20
 
 You have honed your skills with a group of related weapons.\
 **Prerequisites:** Base attack bonus +5.\

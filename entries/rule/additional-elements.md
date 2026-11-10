@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "additional_elements", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 151
 
 Libraries can be further customized to make research more challenging, rewarding, or dangerous by
 incorporating the following elements.

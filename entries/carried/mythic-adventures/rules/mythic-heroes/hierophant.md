@@ -8,12 +8,14 @@ parent = "ref/rule/mythic-heroes"
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Rules/Mythic Heroes/Hierophant", path = "mythic_adventures/rules/mythic_heroes.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "32"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 32\
 Those who draw upon a god's power find themselves becoming closer to the divine. Some aspire to
 become immortal servants of their gods, and others reach for apotheosis itself. A hierophant could
 be either of these, channeling divine power directly or indirectly—whether from a deity, the spirit

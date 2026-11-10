@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_structure", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "214"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 214\
 **School** illusion (glamer); **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (a half-gallon of water from a fresh spring and a

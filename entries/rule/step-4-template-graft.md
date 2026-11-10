@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_4_template_graft", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 216
 
 These optional grafts replicate popular monster templates, and are applied on top of the creature
 type or class graft chosen for the monster. Template graft entries follow a format similar to

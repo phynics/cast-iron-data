@@ -6,6 +6,12 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills", "tome-of-horrors-compl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_rat_swarm", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "52"
+[[sources]]
+publication = "tome-of-horrors-complete-pf"
+page = "586"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ eyes moves toward you. Their semi-translucent skin shows discolored bones and mu
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 52, Tome of Horrors Complete (PF) pg 586\
 **Subtype:** Swarm
 
 **Size:** tiny

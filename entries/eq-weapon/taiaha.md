@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taiaha", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20
 
 The Stone Age taiaha is a long, heavy stick, club-shaped at one end and tipped with a wooden or
 metal spear point at the other. You wield it with a combination of solid strikes with the club and

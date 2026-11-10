@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level bloodline power"]
 +++
 
-**Sources:** Familiar Folio pg 16\
 Those with an inherent connection to magic often attract creatures who feel a similar instinctive
 pull toward magical forces. At 1st level, a sorcerer, bloodrager, or any other character with one of
 the following bloodlines can choose to gain a bloodline familiar.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malbolgian_cerberi", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's 
 
 **Senses:** Darkvision 60 ft., Soul scent
 
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 84\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 19,200

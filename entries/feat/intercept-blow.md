@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intercept_blow", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "219"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever the animal companion is adjacent to its master and its maste
 +++
 
 ## Intercept Blow (Combat)
-
-**Sources:** Ultimate Wilderness pg 219
 
 The animal willingly throws itself in harm's way to defend its master.\
 **Prerequisites:** Base attack bonus +1, [animal companion](ref/sidekick/animal-companion).\

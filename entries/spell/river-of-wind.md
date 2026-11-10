@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_of_wind", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: 120-ft. line
 Descriptors: air
 :::
-
-**Sources:** Advanced Player's Guide pg 240
 
 Summoning up the power of the tempest, you direct a current of forceful winds where you please. This
 spell creates a 5-foot-diameter line of wind - the direction of the wind is away from your location

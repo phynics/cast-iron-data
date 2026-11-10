@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_battery", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 19\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 22,000 gp; **Weight** -
 

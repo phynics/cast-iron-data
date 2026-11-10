@@ -6,12 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inquisitions", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "42"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 42\
 While inquisitors often take on the domains permitted to the clerics of the faith, they are privy to
 special lore not open to priests and other agents of their religion. These divine pursuits, called
 inquisitions, grant inquisitors the tools necessary for the fight against enemies of the faith. An

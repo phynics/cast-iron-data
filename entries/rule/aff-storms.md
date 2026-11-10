@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_storms", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "178"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 178\
 **Pathfinder Name:** Storm Kindlers\
 **Scope:** regional\
 **Alignment:** CN\

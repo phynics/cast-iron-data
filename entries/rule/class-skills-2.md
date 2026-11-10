@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_skills_2", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 67
 
 The bonus from class skills functions the same way under this system, and provides the same +3
 bonus. However, the class skill lists change, with the following entries replacing the normal class

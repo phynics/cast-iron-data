@@ -6,6 +6,15 @@ source_ids = ["ultimate-magic", "book-of-the-damned-volume-2-lords-of-chaos", "i
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermin_shape_1", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "48"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "297"
 
 [fields]
 kind = "spell"
@@ -49,9 +58,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Magic pg 246, Book of the Damned - Volume 2: Lords of Chaos pg 48, Inner Sea
-World Guide pg 297
 
 When you cast this spell, you assume the form of any Small or Medium creature of the vermin type. If
 the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet,

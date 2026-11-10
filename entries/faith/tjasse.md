@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tjasse", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Tjasse**
 
 **Sub:** Lord of Talons
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

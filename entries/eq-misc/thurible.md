@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-8-seven-days-to-the-grave", "adv
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thurible", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "61"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 58, Pathfinder \#8: Seven Days to the Grave pg 61, Adventurer's
-Armory pg 19\
 **Price** 50 gp; **Weight** 3 lbs.\
 **Category** Adventuring Gear
 

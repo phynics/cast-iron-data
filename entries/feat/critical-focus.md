@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "critical_focus", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You receive a +4 circumstance bonus on attack rolls made to confirm c
 +++
 
 ## Critical Focus (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 120
 
 You are trained in the art of causing pain.\
 **Prerequisites:** Base attack bonus +9.\

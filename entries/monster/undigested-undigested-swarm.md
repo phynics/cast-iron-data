@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undigested_undigested_swarm", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ disgusting communal mass._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 258\
 **Subtype:** Swarm
 
 **Size:** tiny

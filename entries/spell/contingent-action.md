@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_action", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one willing creature
 :::
-
-**Sources:** Advanced Class Guide pg 178
 
 The target gains an extra action that becomes available when a condition which you dictate is met.
 At the time of casting, you dictate the condition, and the target specifies a readied action that

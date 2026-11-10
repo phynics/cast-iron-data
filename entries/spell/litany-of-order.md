@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_order", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant, lawful
 :::
-
-**Sources:** Disciple's Doctrine pg 13
 
 By shouting a forceful litany of strictures, you make a chaotic creature more susceptible to the
 attacks of lawful creatures. If the target is chaotic, it takes double the normal damage from

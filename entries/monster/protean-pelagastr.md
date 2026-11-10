@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_pelagastr", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "214"
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ ever-changing patterns._
 
 **Senses:** Darkvision 60 ft., Detect law
 
-**Sources:** Bestiary 6 pg 214, Pathfinder \#99: Dance of the Damned pg 88\
 **Subtype:** Chaotic, Extraplanar, Incorporeal, Protean, Shapechanger
 
 **Experience points:** 4,800

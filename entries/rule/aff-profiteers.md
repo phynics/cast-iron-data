@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_profiteers", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 28\
 **Pathfinder Name:** Aspis Consortium\
 **Scope:** global\
 **Alignment:** NE\

@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "galvo", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "120"
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ shape, crackling with energy._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 120, Pathfinder \#59: The Price of Infamy pg 88\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_feasting", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "220"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Horror Adventures pg 220\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** hands; **Price** 8,400 gp; **Weight** 1/2 lb.
 

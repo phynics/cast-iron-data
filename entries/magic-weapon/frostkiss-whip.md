@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frostkiss_whip", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 56\
 **Aura** strong necromancy and transmutation; **CL** 18th\
 **Slot** none; **Price** 128,300 gp; **Weight** 2 lbs.
 

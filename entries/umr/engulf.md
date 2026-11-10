@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "engulf", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "293"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Engulf (Ex)
 
-**Sources:** Bestiary 4 pg 293\
 The creature can engulf creatures in its path as part of a standard action. It cannot make other
 attacks during a round in which it engulfs. The creature merely has to move over its opponents,
 affecting as many as it can cover. Targeted creatures can make attacks of opportunity against the

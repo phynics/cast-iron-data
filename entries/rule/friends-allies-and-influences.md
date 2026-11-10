@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friends_allies_and_influences", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 12
 
 Desire for acceptance and recognition among one's peers drive the decisions of most adolescents.
 Some adolescents seek acceptance wherever it's given freely, while others strive to prove themselves

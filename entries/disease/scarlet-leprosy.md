@@ -6,12 +6,13 @@ source_ids = ["undead-unleashed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_leprosy", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "undead-unleashed"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Undead Unleashed pg 15
 
 **Type:** Disease (Contact)
 

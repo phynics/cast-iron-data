@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_horror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 192
 
 The body is a frail, little-understood thing that might betray its host-consciousness at any moment.
 This visceral subgenre concerns itself with the organic terror of the flesh, including disease,

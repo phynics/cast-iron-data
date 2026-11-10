@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advancing_companions", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "142"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 142
 
 Another issue is who gets to control the companion's advancement. Animal companions, eidolons, and
 cohorts all advance much like PCs, making choices about feats, skills, special abilities, and (in

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_statistics", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 215
 
 A vast variety of boats and ships exist in the real world, from small rafts and longboats to
 intimidating galleons and swift galleys. To represent the numerous distinctions of shape and size

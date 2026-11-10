@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dt_5", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 182
 
 ### Table 7-11: Lost Jungle City
 

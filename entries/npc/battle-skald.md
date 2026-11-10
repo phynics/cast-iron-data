@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_skald", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "235"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 235\
 **XP** 204,800\
 Human [barbarian](ref/class/barbarian) 6/[bard](ref/class/bard) 4/Pathfinder chronicler 10\
 N Medium humanoid (human)\

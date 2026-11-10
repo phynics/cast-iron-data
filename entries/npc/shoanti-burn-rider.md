@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_burn_rider", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** Inner Sea NPC Codex pg 51\
 **XP** 1,200\
 Human [barbarian](ref/class/barbarian) 5\
 CN Medium humanoid (human)\

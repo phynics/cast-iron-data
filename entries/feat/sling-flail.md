@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sling_flail", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "Any feats you have that apply when you use a flail also apply when yo
 +++
 
 ## Sling Flail (Combat)
-
-**Sources:** Ultimate Combat pg 119
 
 You can use your loaded sling to effectively strike at nearby foes.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (sling), base attack bonus +1.\

@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_creation", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "290"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 290
 
 Creating a monster is part science and part art. While most monsters follow a general pattern of
 their overall power and abilities as related to their Challenge Rating (CR), there are many

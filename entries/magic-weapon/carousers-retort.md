@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carousers_retort", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "254"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 254\
 **Aura** faint abjuration and transmutation; **CL** 3rd\
 **Slot** none; **Price** 3,060 gp; **Weight** 2 lbs.
 

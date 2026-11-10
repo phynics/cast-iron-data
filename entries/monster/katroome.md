@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "katroome", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This large, plump caterpillar is brilliantly colored and has a strangely self-i
 
 **Size:** small
 
-**Sources:** Gallows of Madness pg 62\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

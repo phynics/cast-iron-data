@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tree_step", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "61"
+[[sources]]
+publication = "psychic-anthology"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -24,8 +30,6 @@ group = "kineticist-wild-talent"
 
 **Prerequisite:** [greater woodland step](ref/kinetic/greater-woodland-step),
 [woodland step](ref/kinetic/woodland-step)
-
-**Source:** Ultimate Wilderness/61, Psychic Anthology/23
 
 You can enter a tree and magically transport to a different tree of the same type within range, as
 per [tree stride](ref/spell/tree-stride). Each time you activate this ability, it lasts until you

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-mouth" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one skull
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 This spell functions as [magic mouth](ref/spell/magic-mouth), except rather than creating an
 illusory mouth on any surface, it affects a skull. In addition, when the skull's magic is triggered,

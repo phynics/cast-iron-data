@@ -6,6 +6,9 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kongmato", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ moves, the air around it thrums with a high-pitched wail._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 88\
 **Experience points:** 51,200
 
 **Armor class:** 29/11/26

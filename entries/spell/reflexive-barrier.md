@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflexive_barrier", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no (harmless)
 Target: one creature
 Descriptors: force
 :::
-
-**Sources:** Psychic Anthology pg 10
 
 In the blink of an eye, you erect a deflective barrier of force to protect one target. The target
 gains a deflection bonus to its AC equal to half your caster level. This bonus lasts until the

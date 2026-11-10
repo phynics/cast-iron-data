@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ride_the_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "26"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 6
 
 **Burn:** 0
-
-**Source:** Occult Adventures/26
 
 You can use this wild talent as part of activating a kinetic blast other than
 [telekinetic blast](ref/kinetic/telekinetic-blast). You transform yourself into your element or

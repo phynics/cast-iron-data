@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "48"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The bonus feat at 1st level", "Bravery", "Armor training 1", "Weapo
 alters = ["Weapon mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 48\
 Not all fighters need weapons to make their mark on the world. The unarmed fighter picks up a weapon
 only rarely, and when he does, he prefers the weapons of the monk. There are even those who mistake
 them for monks, but these fighters enter the fight without ki, and instead have a tough perseverance

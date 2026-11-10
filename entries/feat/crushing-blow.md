@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_blow", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can make a Stunning Fist attempt as a full-round action. If succe
 +++
 
 ## Crushing Blow (Combat)
-
-**Sources:** Ultimate Combat pg 94
 
 Your focus allows you to smash your enemy's defenses.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

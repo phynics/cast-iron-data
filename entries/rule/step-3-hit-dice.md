@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_hit_dice", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "290"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 290
 
 The next step in creating a monster is to determine the approximate number of Hit Dice it has. Hit
 Dice determine a wide variety of other statistics, including the creature's feats, skills, hit

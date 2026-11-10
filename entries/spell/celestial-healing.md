@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_healing", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: creature touched
 Subschool: Healing
 Descriptors: good
 :::
-
-**Sources:** Arcane Anthology pg 13
 
 You anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel)
 or holy water, giving it [fast healing](ref/umr/fast-healing) 1. The target radiates the aura of a

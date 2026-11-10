@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triton", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 14\
 Tritons first came to Golarion centuries ago from the Plane of Water, but most of them now consider
 the Material Plane their home. They live in many of the oceans, seas, and even rivers of Golarion,
 though they dislike settling in lightless oceanic depths. They are kind and good-natured creatures

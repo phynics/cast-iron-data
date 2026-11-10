@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_minion_repeatedly_drained", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "236"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** -1
 
 **Simple:** present
-
-**Source:** Monster Codex/236
 
 [Vampires](ref/template/vampire) can change mortals that they frequently come into contact with.
 This and [Addle-Minded](ref/template/vampire-minion-addle-minded) are indicative of such phenomena,

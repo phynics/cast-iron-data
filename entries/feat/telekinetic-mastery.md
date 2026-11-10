@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_mastery", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has a transmutation spell of 4th level or 
 +++
 
 ## Telekinetic Mastery (Combat, Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 27
 
 You can coax telekinesis from transmutation magic items.\
 **Prerequisites:** Use Magic Device 5 ranks, base Fortitude save bonus +7.\

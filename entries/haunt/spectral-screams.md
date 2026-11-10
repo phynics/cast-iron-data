@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_screams", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "175"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 175\
 Some spirits take joy in terrifying the living. Spectral screams are collections of lesser spirits
 who have banded together to increase the amount of terror they can spread.
 

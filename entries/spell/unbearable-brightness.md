@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbearable_brightness", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "197"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no and yes (see text)
 Area: 30-ft.-radius emanation centered on you
 Descriptors: light
 :::
-
-**Sources:** Advanced Class Guide pg 197
 
 Your body glows with a terrible light. Creatures within 30 feet of you that can see you are dazzled
 (no saving throw). Creatures with light sensitivity must succeed at a Reflex saving throw or be

@@ -6,6 +6,8 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grace_of_the_last_azlanti", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch\
 **Suitable For** (not given)\
 **Aura** strong abjuration\
 **Slot** neck; **CL** 13th\

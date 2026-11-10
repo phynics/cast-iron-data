@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "under_and_over", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "173"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If an opponent larger than you attempts to grapple you and fails, you
 +++
 
 ## Under and Over (Combat)
-
-**Sources:** Advanced Player's Guide pg 173
 
 You can slip under a foe trying to grab you, knocking him off balance.\
 **Prerequisites:** [Agile Maneuvers](ref/feat/agile-maneuvers), Small size or smaller.\

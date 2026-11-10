@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_parallel_worlds", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 168
 
 The following are several alternate reality archetypes. Of course, these are just a smattering of
 different possibilities to get you thinking - literally any world you could want to play in is

@@ -6,13 +6,14 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druchite", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "43"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Distant Realms pg 43
 
 The black-and-violet ore known as druchite is synonymous with Shadow Absalom's towering spires. The
 ore is so dark that even creatures that are adapted to see in lightless conditions can have extreme

@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baetriov", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ speak to great age and danger._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Taldor, the First Empire pg 56\
 **Type:** undead
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_bloom", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can create a 50-foot-radius spread of prima
 +++
 
 ## Primal Bloom (Conduit)
-
-**Sources:** Planar Adventures pg 31
 
 With a ferocious cry, you call to the First World to render magic unpredictable.\
 **Prerequisites:** Knowledge (planes) 10 ranks.\

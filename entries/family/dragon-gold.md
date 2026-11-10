@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_gold", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "108"
 
 [fields]
 kind = "none"
 +++
 
 ## Gold Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 108
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

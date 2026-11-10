@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ssilameshnik", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "17"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ssila'meshnik**
 
 **Sub:** The Colorless Lord
-
-**Sources:** Concordance of Rivals pg 17
 
 ### Details
 

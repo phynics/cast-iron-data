@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_terraformer_robot", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "209"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This large robot's arms end in an assortment of drills, torches, hammers, and v
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 209\
 **Subtype:** Robot
 
 **Experience points:** 3,200

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_engine_rules", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 158
 
 All siege engines are at least size Large devices and often much larger. Unless stated otherwise in
 an individual siege engine description, all siege engines use the following rules.

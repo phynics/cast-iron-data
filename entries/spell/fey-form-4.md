@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fey-form-3" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Subschool: Polymorph
 :::
 
 ### Fey Form IV
-
-**Sources:** Ultimate Wilderness pg 230
 
 This spell functions as [fey form III](ref/spell/fey-form-3) except it doesn't limit your base speed
 and also allows you to use more abilities. If the form you assume has any of the following

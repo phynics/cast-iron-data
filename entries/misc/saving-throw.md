@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_throw", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 When a [creature](ref/misc/creature) is the subject of a dangerous spell or effect, it often
 receives a [saving throw](ref/rule/saving-throws) to mitigate the damage or result. Saving throws

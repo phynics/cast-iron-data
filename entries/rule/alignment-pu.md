@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_pu", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "95"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 95
 
 Many campaigns treat alignment mechanically - as a class prerequisite, a rough concept of moral
 standing (often open to much bickering and debate), and a benchmark for letting you know what

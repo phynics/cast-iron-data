@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Still mind", "Purity of body", "Wholeness of body", "Improved evasion"]
 +++
 
-**Sources:** Advanced Race Guide pg 92\
 Some catfolk monks dedicate their graceful prowess to the defense of others, especially those
 dedicated to a similar ethos or who prove themselves as stalwart allies of the monk's cause. A
 nimble guardian has the following class features.

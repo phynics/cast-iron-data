@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/two-weapon-fighting" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "Your penalties on attack rolls for fighting with two weapons are redu
 normal = "If you wield a second weapon in your off hand, you can get one extra attack per round with that weapon. When fighting in this way you suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10 penalty to the attack with your off hand. If your off-hand weapon is a finesse weapon, the penalties are reduced by 2 each. An unarmed strike is always considered a finesse weapon."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can fight with a weapon wielded in each of your hands. You can make one extra attack each round
 with the secondary weapon.\
 **Prerequisites:** Dex 15.\

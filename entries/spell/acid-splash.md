@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_splash", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: one missile of acid
 Subschool: Creation
 Descriptors: acid
 :::
-
-**Sources:** PRPG Core Rulebook pg 239
 
 You fire a small orb of acid at the target. You must succeed on a ranged touch attack to hit your
 target. The orb deals 1d3 points of acid damage. This acid disappears after 1 round.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_strip", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "245"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Ultimate Wilderness pg 245\
 **Price** 5 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

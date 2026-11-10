@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_staff_ambush", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While in Shielded Staff Style, if you hit a target with a shielded st
 +++
 
 ## Shielded Staff Ambush (Combat)
-
-**Sources:** Martial Arts Handbook pg 15
 
 You can hit an enemy unexpectedly with a maneuver.\
 **Prerequisites:** Dex 15, [Shielded Staff Style](ref/feat/shielded-staff-style), base attack bonus

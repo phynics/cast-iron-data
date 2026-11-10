@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_collar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Coven pg 30\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** neck; **Price** 900 gp; **Weight** -
 

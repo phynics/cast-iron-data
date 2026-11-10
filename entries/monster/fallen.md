@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fallen", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "126"
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ armor and weapons seem quite solid._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 126, Pathfinder \#75: Demon's Heresy pg 90\
 **Subtype:** Incorporeal
 
 **Type:** undead

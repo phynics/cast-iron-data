@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinogenic_smoke", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: you
 Descriptors: poison
 :::
-
-**Sources:** Faiths and Philosophies pg 28
 
 Dark gray smoke seeps from your eyes, ears, and mouth for the spell's duration, though the smoke
 doesn't significantly hamper your vision. Upon casting the spell, you may immediately exhale the

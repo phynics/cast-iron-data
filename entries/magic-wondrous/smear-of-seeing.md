@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smear_of_seeing", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 29\
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
 

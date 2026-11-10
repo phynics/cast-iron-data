@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indescribable_swarm_pallid_wriggler_swarm", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ constant, droning snorting._
 
 **Senses:** Scent
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 86\
 **Subtype:** Swarm
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["feast-of-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaghal", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "feast-of-dust"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ dust._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Feast of Dust pg 63\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 4,800

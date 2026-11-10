@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tainted_sorcerer", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "161"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 161\
 **XP** 800\
 Gnome [sorcerer](ref/class/sorcerer) 4\
 CE Small humanoid (gnome)\

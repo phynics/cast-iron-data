@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_magic", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "227"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Mythic Magic (Su) \[Mythic\]
 
-**Sources:** Mythic Adventures pg 227\
 Up to three times per day, when the creature casts a spell, it can cast the mythic version instead
 (as with all mythic spells, the creature must expend mythic power to cast a mythic spell in this
 way).

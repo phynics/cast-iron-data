@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_fist", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A monk of the four winds receives Elemental Fist as a bonus feat at 1
 +++
 
 ## Elemental Fist (Combat)
-
-**Sources:** Advanced Player's Guide pg 158
 
 You empower your strike with elemental energy\
 **Prerequisites:** Con 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

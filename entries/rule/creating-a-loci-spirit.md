@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_loci_spirit", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 228
 
 To make your own loci spirit like the examples below, follow these steps.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jingasa_of_the_fortunate_soldier", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "245"
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 245, Pathfinder \#52: Forest of Spirits pg 60\
 **Aura** strong divination; **CL** 15th\
 **Slot** head; **Price** 5,000 gp; **Weight** 3 lbs.
 

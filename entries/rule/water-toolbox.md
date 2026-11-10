@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_toolbox", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "216"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 216
 
 From adventures on the open ocean or under the sea, upon uncharted coasts or in maze-like river
 country, the potential for peril and discovery upon the waves is endless. The tables here present

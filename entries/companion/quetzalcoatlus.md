@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quetzalcoatlus", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "312"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "83"
 
 [fields]
 kind = "class_option"
@@ -13,8 +19,6 @@ group = "animal-companion"
 +++
 
 ## Pterosaur (Quetzalcoatlus)
-
-**Sources:** Bestiary 6 pg 312, Pathfinder \#37: Souls for Smuggler's Shiv pg 83
 
 **Companion Type**
 

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-67-the-snows-of-summer", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_spirit", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#67: The Snows of Summer, Bestiary 5
 
 These sometimes-helpful fey creatures bind themselves to rural families and live among them. Some
 bear a resemblance to the family's ancestors, a similarity that grows more obvious the longer they

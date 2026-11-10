@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_plants", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Targets: one Large plant per three caster levels or all plants within range; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 242
 
 You imbue inanimate plants with mobility and a semblance of life. Each animated plant then
 immediately attacks whomever or whatever you initially designate as though it were an animated

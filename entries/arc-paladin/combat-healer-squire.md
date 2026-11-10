@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Detect evil", "Divine grace", "Divine health"]
 +++
 
-**Sources:** Knights of the Inner Sea pg 20\
 Always ready with bandages and potions, the combat healer squire keeps her knight on his feet
 against all odds, and always has just the right remedy on hand.
 

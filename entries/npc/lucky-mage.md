@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_mage", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "168"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "10"
 
 **Challenge rating:** 10
 
-**Sources:** NPC Codex pg 168\
 **XP** 9,600\
 Halfling [sorcerer](ref/class/sorcerer) 11\
 N Small humanoid (halfling)\

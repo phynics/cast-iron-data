@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_shape_1", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 247
 
 When you cast this spell, you can assume the form of any Small or Medium creature of the animal
 type. If the form you assume has any of the following abilities, you gain the listed ability: climb

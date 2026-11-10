@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jesters_jaunt", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one living creature
 Subschool: Teleportation
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 You teleport the target to a space you can see within 30 feet of the target. The destination must be
 on solid ground, and the teleportation cannot end in a space that is by nature hazardous to the

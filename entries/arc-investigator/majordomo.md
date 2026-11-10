@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "35"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "All instances of trap sense"]
 alters = ["Alchemy", "swift alchemy"]
 +++
 
-**Sources:** Ultimate Intrigue pg 35\
 A majordomo is a skilled individual able to keep the complex operations of a noble's holdings
 running on a day-to-day basis. In a world of intrigue where the loyalties of staff can be bought and
 sold, sometimes it takes the skills of an investigator to follow the byzantine paper trails and

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragathiel", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** General of Vengeance
 
-**Sources:** Inner Sea Gods pg 322\
 **Monster Link** [Ragathiel](ref/monster/empyreal-lord-ragathiel)
 
 ### Details

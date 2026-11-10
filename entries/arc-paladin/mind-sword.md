@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Lay on hands", "Mercy", "Channel positive energy"]
 +++
 
-**Sources:** Occult Origins pg 20\
 Veterans of mystical battles against demons of the Worldwound, mind swords merge psychic and divine
 power, probing and cleansing minds while their telekinetic blades cleave demonic flesh.
 

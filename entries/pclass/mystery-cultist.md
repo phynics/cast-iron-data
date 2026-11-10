@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mystery_cultist", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "48"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Chronicle of the Righteous pg 48
 
 Among the most pious worshipers of the empyreal lords are those known as mystery cultists. These
 zealots hone their spellcasting powers in honor of their patron empyreal lord and dedicate their

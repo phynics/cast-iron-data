@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planned_encounters", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 156
 
 A specific, planned encounter for a hex does not have to be especially complicated. It can be as
 simple as a quick meeting with an explorer who can sell the PCs some necessary supplies or the

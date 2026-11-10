@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_breath", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "217"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Reflex half
 Spell resistance: yes
 Area: cone-shaped burst or line
 :::
-
-**Sources:** Advanced Player's Guide pg 217
 
 You breathe out a blast of energy. Creatures in the affected area take 1d6 points of energy damage
 per caster level (maximum of 12d6). A successful Reflex save results in half damage. The spell's

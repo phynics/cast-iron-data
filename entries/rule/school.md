@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "school", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "133"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 133
 
 In terms of balancing the power of a spell, its **school** isn't very important - a 6th-level
 conjuration attack spell should be about as powerful as a 6th-level evocation attack spell. Deciding

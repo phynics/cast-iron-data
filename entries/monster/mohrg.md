@@ -6,6 +6,9 @@ source_ids = ["bestiary", "undead-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mohrg", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ loll from its jaw like a clawed tongue._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 208\
 **Type:** undead
 
 **Experience points:** 4,800

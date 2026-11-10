@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead_inside", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are the target of a spell or spell-like ability with the emo
 +++
 
 ## Dead Inside (Story)
-
-**Sources:** Agents of Evil pg 8
 
 You are devoid of both hatred and joy. While many regard you as callous, you have no particular
 malice in your heart.\

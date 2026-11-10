@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligent_items", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 532
 
 Magic items sometimes have intelligence of their own. Magically imbued with sentience, these items
 think and feel the same way characters do and should be treated as NPCs. Intelligent items have

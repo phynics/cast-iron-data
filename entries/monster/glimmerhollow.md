@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimmerhollow", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ as large as a human head._
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 88\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

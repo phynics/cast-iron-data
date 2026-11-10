@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarzari_shadow_memory", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no (harmless)
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 160
 
 While casting this spell, you slowly destroy a piece of art bearing your victim's likeness and
 beseech Achaekek to grant you access to the knowledge and lore contained within the innermost

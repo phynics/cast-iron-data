@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_freed_man", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate varies"
 caster_level = "17th"
 +++
-
-**Sources:** Champions of Purity pg 31
 
 **Aura** moderate varies; **CL** 17th\
 **Slot** none; **Price** 51,688 gp; **Weight** 5 lbs.

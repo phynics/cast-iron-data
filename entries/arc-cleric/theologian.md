@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Domains"]
 +++
 
-**Sources:** Ultimate Magic pg 32\
 A theologian is an expert on one particular area of her religion. She is so focused on that area
 that she eschews the broader sweep of her deity's dogma and focuses intensely upon that aspect of
 it, embodying its power in all she does. Theologians tend to be more zealous than other clerics, and

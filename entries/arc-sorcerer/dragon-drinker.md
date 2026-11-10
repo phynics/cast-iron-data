@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Bloodline arcana", "1st-level bloodline power", "7th-level bloodline feat", "13th-level bloodline feat", "19th-level bloodline feat"]
 +++
 
-**Sources:** Dragonslayer's Handbook pg 22\
 The blood of dragons not only flows through a dragon drinker's veins, but also empowers her spells
 and magical abilities when consumed. Dragon drinkers have the following class features.
 

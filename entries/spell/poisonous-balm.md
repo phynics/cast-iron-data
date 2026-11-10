@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_balm", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Healing
 Descriptors: poison, ruse
 :::
-
-**Sources:** Ultimate Intrigue pg 222
 
 You mend the target's injuries, curing 3d8 hit points + 1 point per caster level (maximum +15) as
 cure serious wounds, but leaving its body laced with a subtle toxin that remains inert until you

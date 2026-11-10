@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_of_the_four_elements_standard", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "29"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Lantern of the Four Elements
 
-**Sources:** Disciple's Doctrine pg 29\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 1,500 gp (standard), 6,500 gp (greater); **Weight** 2 lbs.
 

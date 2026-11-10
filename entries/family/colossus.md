@@ -6,12 +6,13 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 4\
 For as long as mortals have known magic, magicians have created constructs to serve them. From the
 mightiest [golem](ref/family/golem) forged of nearly indestructible material and elemental energies,
 to a clockwork minion cunningly built from countless metal gears, to a humble animated broom that

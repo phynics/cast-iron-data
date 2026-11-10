@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/two-weapon-fighting", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ normal = "Applying poison to a weapon or single piece of ammunition is a standar
 +++
 
 ## Pinpoint Poisoner (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 You deftly use specially prepared needles to apply poison for maximum effect.\
 **Prerequisites:** [Poison use](ref/ability/poison-use) class feature, Craft (alchemy) 6 ranks,

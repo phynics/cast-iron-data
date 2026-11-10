@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_fighting", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "If you wield a second weapon in your off hand, you can get one extra a
 +++
 
 ## Two-Weapon Fighting (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 You can fight with a weapon wielded in each of your hands. You can make one extra attack each round
 with the secondary weapon.\

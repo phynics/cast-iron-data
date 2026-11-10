@@ -6,6 +6,12 @@ source_ids = ["ultimate-combat", "advanced-class-guide", "advanced-players-guide
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunslinger", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "9"
+[[sources]]
+publication = "advanced-class-guide"
+page = "56"
 
 [fields]
 kind = "class"
@@ -13,8 +19,6 @@ class_type = "base"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Ultimate Combat pg 9, Advanced Class Guide pg 56
 
 For a renegade few, battle sounds different than it does for the typical fighter. The clash of steel
 and the sizzle of spell energy are drowned out by the thunderous rhythm of gunfire - the pounding

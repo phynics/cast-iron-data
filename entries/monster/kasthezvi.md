@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasthezvi", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ above its grotesque, misshapen head and its mouth is open in a silent scream._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#135: Runeplague pg 88\
 **Subtype:** Shapechanger
 
 **Experience points:** 19,200

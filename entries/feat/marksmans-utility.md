@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marksmans_utility", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A gunslinger can ignore the weapon training class feature prerequisit
 +++
 
 ## Marksman's Utility (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 21
 
 Your mastery of ranged weapons enables you to use them to perform deeds that you would normally need
 a firearm to accomplish.\

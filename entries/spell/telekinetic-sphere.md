@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/resilient-sphere" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "358"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (object)
 Effect: 1-ft.-diameter/level sphere, centered around creatures or objects
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 358
 
 This spell functions like [resilient sphere](ref/spell/resilient-sphere), but the creatures or
 objects caught inside the globe created by the spell are made nearly weightless. Anything contained

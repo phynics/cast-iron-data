@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nisid", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ brown skin. His hair is unkempt and his flesh is weathered, but his large eyes g
 
 **Size:** small
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 83\
 **Experience points:** 1,200
 
 **Armor class:** 17/14/14

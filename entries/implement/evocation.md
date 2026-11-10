@@ -6,13 +6,15 @@ source_ids = ["occult-adventures", "occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evocation", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "54"
 
 [fields]
 kind = "class_option"
 group = "occultist-implement"
 +++
 
-**Sources:** Occult Adventures pg 54\
 Implements focused on evocation grant the ability to create and direct energy to protect and to
 destroy.
 

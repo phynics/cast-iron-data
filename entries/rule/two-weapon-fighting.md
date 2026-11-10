@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_fighting", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 202
 
 If you wield a second weapon in your off hand, you can get one extra attack per round with that
 weapon. You suffer a -6 penalty with your regular attack or attacks with your primary hand and a -10

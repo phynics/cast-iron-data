@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiplying", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 12
 
 When you are asked to apply more than one multiplier to a roll, the multipliers are not multiplied
 by one another. Instead, you combine them into a single multiplier, with each extra multiple adding

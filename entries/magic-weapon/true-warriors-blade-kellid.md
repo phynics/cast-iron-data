@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_warriors_blade_kellid", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "227"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Races pg 227\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 50,350 gp; **Weight** 8 lbs.
 

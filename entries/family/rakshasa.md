@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Rakshasas are born on the Material Plane, but they are not of it. They possess the powers and shapes
 of fiends, but their fates are inexorably tied to the mortal world, and it is there that they seek

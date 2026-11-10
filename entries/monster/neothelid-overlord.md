@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neothelid_overlord", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ tentacles._
 
 **Senses:** Trace teleport 60 ft.
 
-**Sources:** Occult Bestiary pg 36\
 **Experience points:** 307,200
 
 **Armor class:** 34/6/34

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_the_devoured_dawn", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 63\
 **Aura** moderate illusion and transmutation; **CL** 10th\
 **Slot** rod; **Price** 20,000 gp; **Weight** 10 lbs.
 

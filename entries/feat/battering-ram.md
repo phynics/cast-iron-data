@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can ignore the broken condition of a firearm you're wielding to p
 +++
 
 ## Battering Ram (Grit)
-
-**Sources:** People of the Wastes pg 10
 
 Sometimes smacking your firearm against a solid surface is all that's needed to unjam it. Sometimes
 that solid surface is a creature.\

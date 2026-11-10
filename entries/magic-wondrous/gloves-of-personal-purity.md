@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_personal_purity", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Faiths and Philosophies pg 30\
 **Aura** faint divination; **CL** 1st\
 **Slot** hands; **Price** 1,000 gp; **Weight** -
 

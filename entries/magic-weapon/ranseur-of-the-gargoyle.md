@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranseur_of_the_gargoyle", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 65\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 4,310 gp; **Weight** 12 lbs.
 

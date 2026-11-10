@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loci_spirits", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "226"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 226
 
 Loci spirits form when excess psychic energy becomes saturated with powerful positive emotional
 resonances. Loci spirits typically arise in places with connections to previous miracles, benevolent

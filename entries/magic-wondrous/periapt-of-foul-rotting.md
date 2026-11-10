@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_foul_rotting", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "348"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "neck"
 aura = "moderate abjuration"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 348, PRPG Core Rulebook pg 541
 
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** neck; **Weight** -

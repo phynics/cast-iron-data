@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weasel_giant_weasel", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "275"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ body, and belligerent hiss._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 275, Pathfinder \#67: The Snows of Summer pg 82\
 **Experience points:** 400
 
 **Armor class:** 15/14/11

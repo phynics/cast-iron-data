@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_pursuit", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: 3 peals of a horn
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 223
 
 You create the sound of a large hunting horn, blowing up to three notes as loud as a roaring dragon.
 These notes can be heard up to 2 miles away in typical outdoor conditions. You can make these sounds

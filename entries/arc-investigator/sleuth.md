@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "101"
 
 [fields]
 kind = "archetype"
 replaces = ["Alchemy", "Swift alchemy"]
 +++
 
-**Sources:** Advanced Class Guide pg 101\
 A sleuth is an investigator who relies on good fortune and guile rather than alchemy. Having no
 mystical energy intrinsic to her, she must forgo the more magical aspects of alchemy to solve her
 mysteries with wits, gumption, and the fickle consideration of luck.

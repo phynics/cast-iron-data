@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vic_taking_control_of_a_vehicle", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 174
 
 If a vehicle has no driver, any creature can take control of the vehicle as long as the creature is
 within the driving space of the vehicle and makes a driving check as a free action. The vehicle's

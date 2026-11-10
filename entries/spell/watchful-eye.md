@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-other" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Dwarves of Golarion pg 23
 
 > _In order to prepare this spell, the caster must spend an hour performing a ritual in which he
 > beseeches [Torag](ref/faith/torag) (or a member of his family) for the aid of

@@ -6,14 +6,15 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciless_precision", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
 prerequisites = "Sneak attack class feature, kobold."
 benefit = "Your sneak attack damage increases by 1d6 against targets that are already afflicted with any of the following conditions: blinded, dying, entangled, exhausted, frightened, helpless, nauseated, panicked, paralyzed, or stunned."
 +++
-
-**Sources:** Kobolds of Golarion pg 24
 
 You delight and excel in bringing down hobbled targets.\
 **Prerequisites:** [Sneak attack](ref/ability/sneak-attack) class feature,

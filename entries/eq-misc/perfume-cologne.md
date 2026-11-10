@@ -6,6 +6,15 @@ source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting", "curse-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfume_cologne", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "213"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Pe
 weight = "- Perfume (common), - Perfume (exotic), - Perfume (rare)"
 +++
 
-**Sources:** Inner Sea World Guide pg 293, Pathfinder Campaign Setting pg 213, Curse of the Crimson
-Throne Player's Guide pg 12\
 **Price** 1 gp/dose Perfume (common), 100 gp/dose Perfume (exotic), 10 gp/dose Perfume (rare);
 **Weight** - Perfume (common), - Perfume (exotic), - Perfume (rare)
 

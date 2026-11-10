@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_npcs", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "80"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 80
 
 NPCs are a pivotal element in many Pathfinder adventures, especially those in which the PCs must
 deal with crucial non-combat situations or act in a civilized area. Like the supporting cast in a

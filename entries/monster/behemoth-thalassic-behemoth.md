@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_thalassic_behemoth", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "38"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ sea._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 38\
 **Subtype:** Aquatic, Behemoth, Water
 
 **Experience points:** 307,200

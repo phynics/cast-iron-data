@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "going_cosmic", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 98
 
 Morality and alignment in Pathfinder are about more than just everyday actions. When you truly
 pledge yourself to an alignment, you become part of a timeless struggle of ideas that transcends

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_stylus", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#136: Temple of the Peacock Spirit pg 54\
 **Aura** strong illusion; **CL** 12th\
 **Slot** none; **Price** 48,000 gp; **Weight** -
 

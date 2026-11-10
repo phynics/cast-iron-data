@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_skin", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When using Perfect Style, you gain an amount of DR/adamantine equal t
 +++
 
 ## Untwisting Iron Skin (Combat)
-
-**Sources:** Adventurer's Guide pg 107, Inner Sea Combat pg 13
 
 Your training has tempered your flesh to resist blows as though it were forged iron.\
 **Prerequisites:** Str 15; Wis 13; [Perfect Style](ref/feat/perfect-style);

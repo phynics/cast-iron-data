@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "70"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-level vigilante talent", "Unshakable", "4th-level vigilante tal
 alters = ["Weapon and armor proficiencies", "Vigilante specialization"]
 +++
 
-**Sources:** Horror Adventures pg 70\
 Wherever the guilty walk free, the hangman brings judgment.
 
 **Weapon and Armor Proficiency**

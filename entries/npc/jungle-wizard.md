@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_wizard", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "180"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 180\
 **XP** 1,200\
 Elf transmuter 5\
 NE Medium humanoid (elf)\

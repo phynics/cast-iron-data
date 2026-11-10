@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "new_diseases", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 148
 
 The following diseases blend the [traditional style of diseases](ref/rule/afflictions) found in the
 Pathfinder RPG Core Rulebook with the [disease progressions](ref/rule/diseases-and-poisons). Each of

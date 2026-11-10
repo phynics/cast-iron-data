@@ -6,6 +6,9 @@ source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_beads", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "35"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 35\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** wrists; **Price** 6,000 gp; **Weight** -
 

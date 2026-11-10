@@ -6,6 +6,9 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_tag", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no (object), yes (creature)
 Target: 1 beverage or piece of food touched
 Descriptors: emotion, fear, haunted, mind-affecting
 :::
-
-**Sources:** Haunted Heroes Handbook pg 28
 
 You mix a malign spirit into a piece of food, a drink, or some other item to be consumed (including
 alchemical items, potions, elixirs, or similar items). The skin tag spell discharges when the item

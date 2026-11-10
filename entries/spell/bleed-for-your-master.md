@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleed_for_your_master", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "227"
+[[sources]]
+publication = "animal-archive"
+page = "24"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Target: your animal companion, familiar, or fiendish servant
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Wilderness pg 227, Animal Archive pg 24
 
 When you would be hit by an attack that requires an attack roll, or when you are within an area of
 effect that allows you to attempt a Reflex saving throw, with a single touch you compel the target

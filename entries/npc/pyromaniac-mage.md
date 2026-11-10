@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyromaniac_mage", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "188"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 188\
 **XP** 19,200\
 Human evoker 13\
 CE Medium humanoid (human)\

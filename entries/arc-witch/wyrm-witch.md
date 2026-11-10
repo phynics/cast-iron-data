@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Witch's familiar"]
 +++
 
-**Sources:** Legacy of Dragons pg 15\
 Though a dragon derives no power from accumulating precious metals and gems, its desire to acquire
 and maintain vast piles of valuables is an important part of its personality. Some witch covens,
 particularly those in rich mercantile nations like Druma or Katapesh, have learned to use treasure

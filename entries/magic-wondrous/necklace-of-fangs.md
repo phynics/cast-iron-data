@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_fangs", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Night pg 31\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** neck; **Price** 1,800 gp; **Weight** 1 lb.
 

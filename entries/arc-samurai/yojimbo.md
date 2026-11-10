@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Weapon expertise", "Mounted archer"]
 +++
 
-**Sources:** Armor Master's Handbook pg 7\
 Yojimbo are highly trained bodyguards favored by the nobles and warlords of distant Minkai. Yojimbo
 who follow the order of the warrior loyally guard a single master, while ronin serve whoever can pay
 for their protection. Yojimbo often accompany visitors to the Inner Sea region from Tian Xia; a few

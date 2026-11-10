@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rubberskin", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: see text
 :::
-
-**Sources:** Melee Tactics Toolbox pg 31
 
 Your skin becomes more elastic, distributing crushing damage efficiently. For the duration of the
 spell, all bludgeoning and falling damage you take is converted into nonlethal damage. This spell

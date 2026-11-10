@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_hide_armor_cloud_giant", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "127"
+[[sources]]
+publication = "advanced-players-guide"
+page = "284"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "15th"
 
 ## Giant-Hide Armor
 
-**Sources:** Ultimate Equipment pg 127, Advanced Player's Guide pg 284\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant
 (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_subtype", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "226"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 226
 
 A creature with this subtype is infused with mythic power and is capable of terrible and
 awe-inspiring feats. Creatures with the mythic subtype gain the following abilities.

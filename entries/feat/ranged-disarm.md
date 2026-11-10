@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_disarm", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you can attempt to perform a disarm combat ma
 +++
 
 ## Ranged Disarm (Combat, Targeting)
-
-**Sources:** Ranged Tactics Toolbox pg 8
 
 A well-placed shot disarms your foe.\
 **Prerequisites:** Dex 13, [Deadly Aim](ref/feat/deadly-aim), base attack bonus +1.\

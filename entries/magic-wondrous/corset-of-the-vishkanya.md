@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corset_of_the_vishkanya", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "214"
+[[sources]]
+publication = "advanced-race-guide"
+page = "209"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 214, Advanced Race Guide pg 209\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** body; **Price** 3,000 gp; **Weight** 1 lb.
 

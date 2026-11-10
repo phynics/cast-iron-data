@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "research", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 148
 
 Knowledge is power, and this is just as true in an ancient dungeon as in a queen's court. In the
 Pathfinder Roleplaying Game, the various Knowledge skills represent a character's familiarity with

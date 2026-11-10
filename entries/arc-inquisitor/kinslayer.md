@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Destruction judgment", "Detect alignment"]
 alters = ["Teamwork feats"]
 +++
 
-**Sources:** Advanced Race Guide pg 98\
 Appalled and guilt-ridden by the horrific circumstances of her birth, a kinslayer dedicates herself
 to eradicating the very creatures whose blood flows within her veins. She spends her life hunting
 and slaying those vampiric monsters for whom humans have become prey. A kinslayer has the following

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_staff_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you enter this style, you attach your buckler or light shield to
 +++
 
 ## Shielded Staff Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 15
 
 You can attack and defend effectively with a shield attached to your staff or spear.\
 **Prerequisites:** Dex 15, [Two-Weapon Fighting](ref/feat/two-weapon-fighting),

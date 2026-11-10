@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_invocation", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one or more creatures, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 231
 
 Using worlds of ancient power, you bestow heroic powers on all creatures subject to this spell. They
 gain a +4 morale bonus on attack and damage rolls, gain 2d8+4 temporary hit points, and become

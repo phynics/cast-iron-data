@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_from_above", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you charge an opponent from higher ground, or from above whi
 +++
 
 ## Death from Above (Combat)
-
-**Sources:** Ultimate Combat pg 94
 
 You allow gravity to add extra force to your charges.\
 **Benefit:** Whenever you charge an opponent from higher ground, or from above while flying, you

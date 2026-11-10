@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_repentance", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one evil creature without the evil subtype
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 224
 
 You force an evil creature that does not have the evil subtype to momentarily reflect on its past
 actions and be overcome by grief and conscience. The target immediately drops prone and begins to

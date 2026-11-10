@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "physicians_spectacles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "233"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 233\
 **Aura** faint conjuration and divination; **CL** 3rd\
 **Slot** eyes; **Price** 4,900 gp; **Weight** -
 

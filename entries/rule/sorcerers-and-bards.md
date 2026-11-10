@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerers_and_bards", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 220
 
 Sorcerers and bards cast arcane spells, but they do not use spellbooks or prepare spells. Their
 class level limits the number of spells she can cast (see these class descriptions). Her high

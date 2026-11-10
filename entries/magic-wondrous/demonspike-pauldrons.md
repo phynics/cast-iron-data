@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonspike_pauldrons", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "265"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 265\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** shoulders; **Price** 14,350 gp; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aggravate_affliction", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: see text
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 75
 
 All recurring afflictions (those with a frequency, including curses, diseases, and poison) possessed
 by the targeted creature immediately trigger, requiring an immediate saving throw (as described in

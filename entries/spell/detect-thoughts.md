@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_thoughts", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "268"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: no
 Area: cone-shaped emanation
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 268
 
 You detect surface thoughts. The amount of information revealed depends on how long you study a
 particular area or subject.

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "crown-of-the-kobold-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slurk", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "251"
+[[sources]]
+publication = "crown-of-the-kobold-king"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ its upper jaw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 251, Crown of the Kobold King pg 33\
 **Experience points:** 600
 
 **Armor class:** 15/12/13

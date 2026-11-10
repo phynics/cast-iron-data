@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mithral_horseshoes", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "14"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "550 gp"
 weight = "4 lbs."
 +++
 
-**Sources:** Adventurer's Guide pg 14\
 **Price** 550 gp; **Weight** 4 lbs.\
 **Category** Animal Gear
 

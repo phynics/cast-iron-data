@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legs", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "202"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 202
 
 Heavier leg armor pieces slow down their wearers and provide higher armor check penalties, but are
 less restrictive to spellcasters than heavier arm armor pieces.

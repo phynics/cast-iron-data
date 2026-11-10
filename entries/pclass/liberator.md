@@ -6,14 +6,15 @@ source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberator", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "22"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Second Darkness Player's Guide pg 22
 
 Liberators fight to free the wrongfully imprisoned-be they slaves, political prisoners, or
 princesses locked in towers. They rely on physical strength - but also quick wits - to overcome

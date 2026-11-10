@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_encounters", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 155
 
 Natural disasters can occur anywhere. Untamed regions are often home to a wide variety of monsters.
 You can instill a bit of additional danger into your exploration sessions by including random

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "24-25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 24-25\
 Your body is a vessel for an invasive otherworldly species that seek to spread across the stars and
 devour all other life.
 

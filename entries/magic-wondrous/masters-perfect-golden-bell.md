@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masters_perfect_golden_bell", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "310"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 310\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** none; **Price** 20,000 gp; **Weight** 10 lbs.
 

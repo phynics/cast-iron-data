@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_wall", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "370"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes
 Effect: wall up to 10 ft./level long and 5 ft./level high (S)
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 370
 
 An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It
 is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and

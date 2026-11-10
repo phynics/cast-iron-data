@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quicken_spell_like_ability", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat can be taken multiple times. Each time it is taken, the cre
 +++
 
 ## Quicken Spell-Like Ability (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 This creature can use one of its [spell-like abilities](ref/umr/spell-like-abilities) with next to
 no effort.\

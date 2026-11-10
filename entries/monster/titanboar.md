@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanboar", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ up from its jaw, guarding its eyes._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Taldor, the First Empire pg 61\
 **Experience points:** 2,400
 
 **Armor class:** 18/9/18

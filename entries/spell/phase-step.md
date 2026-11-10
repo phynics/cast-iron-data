@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dimension-door" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Subschool: Teleportation
 :::
 
 ### Phase Step
-
-**Sources:** Potions and Poisons pg 17
 
 You instantly transfer the touched creature to a point you designate within range. This otherwise
 functions as [the spell dimension door](ref/spell/dimension-door), except that you must have line of

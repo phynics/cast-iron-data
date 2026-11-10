@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muleback_cords", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "267"
+[[sources]]
+publication = "advanced-players-guide"
+page = "308"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 267, Advanced Player's Guide pg 308\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** shoulders; **Price** 1,000 gp; **Weight** 1/4 lb.
 

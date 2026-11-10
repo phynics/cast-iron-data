@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foxfire_lantern", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Blood of the Coven pg 31\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
 

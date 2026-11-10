@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Undead Bloodline
-
-**Sources:** Advanced Class Guide pg 22
 
 The foul corruption of undeath is a part of you. Somewhere in the past, death became infused with
 your lineage. Your connection to the attributes of the undead bestows frightening power when your

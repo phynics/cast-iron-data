@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_lava", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: lava wall whose area is up to one 5-ft. square/level (S)
 Subschool: Creation
 Descriptors: earth, fire
 :::
-
-**Sources:** Advanced Player's Guide pg 255
 
 This spell creates a vertical wall of lava that is 1 inch thick for every 4 caster levels and
 composed of up to one 5-foot square per level. A wall of lava's maximum height cannot exceed half of

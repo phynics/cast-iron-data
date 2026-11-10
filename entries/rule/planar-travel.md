@@ -6,12 +6,13 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_travel", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 4
 
 Planar travel requires far more planning than a simple trip to another nation. The first hurdle for
 explorers to overcome is reaching their desired plane in the first place. Travel methods fall into

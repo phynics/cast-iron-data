@@ -6,14 +6,14 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Div
-
-**Sources:** Bestiary 3
 
 [Divs](ref/family/div) are neutral evil outsiders that sow misfortune and ruin. They have the
 following traits unless otherwise noted.

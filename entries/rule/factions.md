@@ -6,12 +6,13 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "factions", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Faction Guide pg 2
 
 Prepare for your PCs to step into a larger world. In the classic roleplaying tradition, the PCs are
 independent heroes, and though they may undertake missions for powerful patrons, their association

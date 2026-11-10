@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "folding_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "126"
+[[sources]]
+publication = "advanced-players-guide"
+page = "284"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 126, Advanced Player's Guide pg 284\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** armor; **Price** 12,650 gp; **Weight** 50 lbs.
 

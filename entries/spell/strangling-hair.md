@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strangling_hair", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Magic pg 240
 
 Your hair animates and extends to grapple and constrict an opponent. Make a grapple check against
 the target using your caster level as the base attack bonus plus a bonus equal to your Intelligence

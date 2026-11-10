@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bull_catcher_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can ready yourself against oncoming foes. U
 +++
 
 ## Bull-Catcher Style (Combat, Style)
-
-**Sources:** Monster Hunter's Handbook pg 8
 
 You brace yourself to catch oncoming foes.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

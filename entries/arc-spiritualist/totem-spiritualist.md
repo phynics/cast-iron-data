@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Phantom", "See invisibility", "Dual bond"]
 alters = ["Shared consciousness"]
 +++
 
-**Sources:** Psychic Anthology pg 6\
 The god callers of Sarkoris had numerous traditions mixing naturalism with the arcane and occult
 arts. One of the few traditions to survive to the present day is that of the totem spiritualists.
 These specialized spiritualists call upon phantoms that are manifestations of animals and

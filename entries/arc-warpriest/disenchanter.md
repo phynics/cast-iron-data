@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "129"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Channel energy", "Bonus feat gained at 6th level"]
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Advanced Class Guide pg 129\
 While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind
 and the soul. Using the power of his patron, the disenchanter seeks to keep the powers of magic in
 check.

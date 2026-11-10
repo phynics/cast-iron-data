@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nehushtan", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ unseen light._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 86\
 **Size:** tiny
 
 **Experience points:** 600

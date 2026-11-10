@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "example_heist", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 126
 
 The following example illustrates the step-by-step process of building a heist, and how a group
 might tackle the heist during a game session.

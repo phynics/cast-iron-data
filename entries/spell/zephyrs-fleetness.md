@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zephyrs_fleetness", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes (harmless)
 Targets: one creature/2 levels
 Descriptors: air
 :::
-
-**Sources:** Inner Sea Races pg 223
 
 > _The following spell is available to the indicated race or ethnicity: Keleshite_
 

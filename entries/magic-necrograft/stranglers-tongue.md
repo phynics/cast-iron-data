@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stranglers_tongue", path = "json/magic_necrografts.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint enchantment and necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Black Markets pg 15\
 **Aura** faint enchantment and necromancy; **CL** 5th\
 **Slot**; **Price** 36,000 gp; **Weight** —
 

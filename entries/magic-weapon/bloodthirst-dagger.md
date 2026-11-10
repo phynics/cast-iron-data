@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodthirst_dagger", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "152"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 152\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 60,802 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pulura", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Pulura**
 
 **Sub:** The Shimmering Maiden
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

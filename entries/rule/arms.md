@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arms", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 200
 
 With the smallest area to protect, arm armor pieces tend to have the lowest armor value of all the
 piecemeal armor types, with light armor pieces offering little to no protection unless they are part

@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "82"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 82\
 A phantom with this emotional focus suffered from overwhelming fear in life. As a phantom, it is
 able to channel that fear into a terrifying weapon. Fear phantoms are often horrifying to behold.
 Sometimes they appear as ghostly figures in tattered funeral garb or wrapped in chains or other

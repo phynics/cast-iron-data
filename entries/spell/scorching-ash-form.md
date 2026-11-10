@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/gaseous-form" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "131"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: willing corporeal creature touched
 Descriptors: fire
 :::
-
-**Sources:** Advanced Race Guide pg 131
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 

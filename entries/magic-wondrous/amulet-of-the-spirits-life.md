@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_spirits_life", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "224"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Amulet of the Spirits
 
-**Sources:** Advanced Class Guide pg 224\
 **Aura** varies; **CL** varies\
 **Slot** neck; **Price** 8,000 gp (Heavens), 8,000 gp (Wind), 10,000 gp (Flame), 10,000 gp (Stone),
 10,000 gp (Waves), 12,000 gp (Battle), 12,000 gp (Bones), 12,000 gp (Life); **Weight** 1 lb.

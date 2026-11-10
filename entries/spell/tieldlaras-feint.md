@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tieldlaras_feint", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Adventurer's Guide pg 27
 
 With a lascivious wink and a sensuous sway, you flood a foe's mind with lustful thoughts of you,
 distracting your target and rendering that creature vulnerable to your attacks. An affected creature

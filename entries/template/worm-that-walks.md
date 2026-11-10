@@ -6,6 +6,9 @@ source_ids = ["bestiary-2", "pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worm_that_walks", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "286"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 2/286
 
 When a powerful spellcaster with a strong personality, a lust for life, and a remorselessly evil
 soul dies and is buried in a graveyard infused with eldritch magic, a strange phenomenon sometimes

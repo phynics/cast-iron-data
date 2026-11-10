@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underfoot_botb", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "This feat counts as the Disruptive feat for the purpose of qualifying
 +++
 
 ## Underfoot (BotB) (Combat)
-
-**Sources:** Blood of the Beast pg 23
 
 You clamber in and around your enemies' personal space to devastating effect.\
 **Prerequisites:** [Dodge](ref/feat/dodge), swarming racial trait.\

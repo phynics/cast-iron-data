@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_dwellers_greataxe", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "213"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Monster Codex pg 213\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 8,305 gp; **Weight** 9 lbs.
 

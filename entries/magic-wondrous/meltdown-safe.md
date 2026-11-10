@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meltdown_safe", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Temples pg 32\
 **Aura** strong conjuration; **CL** 3rd\
 **Slot** none; **Price** 10,000 gp; **Weight** 10 lbs.
 

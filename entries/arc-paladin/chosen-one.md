@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "6"
 
 [fields]
 kind = "archetype"
 alters = ["Divine grace", "smite evil", "Lay on hands", "channel positive energy"]
 +++
 
-**Sources:** Familiar Folio pg 6\
 Most paladins train for years at a temple to attain a holy status, but rarely, an emissary of the
 divine appears to one of humble origins and calls her directly to the charge. These chosen ones may
 lack experience, but their teamwork with their emissaries allows them to defeat any evil.

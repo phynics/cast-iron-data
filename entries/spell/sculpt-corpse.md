@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sculpt_corpse", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will partial, see text
 Spell resistance: no
 Target: one dead creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 241
 
 With a clammy caress and a word to the powers lurking beyond death, you can reshape a dead body look
 like another creature or even a specific person so long as you have first-hand knowledge of how that

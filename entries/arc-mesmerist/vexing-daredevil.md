@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "98"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-level mesmerist trick", "Touch treatment", "Bold stare", "Glib lie"]
 +++
 
-**Sources:** Occult Adventures pg 98\
 Vexing daredevils train their psychic powers for combat, specializing in momentarily blinding and
 confusing their foes with sudden feints and tricks.
 

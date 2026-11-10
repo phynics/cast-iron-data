@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_plate_goblin", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "224"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 224\
 **Aura** faint evocation; **CL** 5th\
 **Slot** armor; **Price** 23,650 gp; **Weight** 25 lbs.
 

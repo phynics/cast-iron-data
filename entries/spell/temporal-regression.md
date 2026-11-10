@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_regression", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: see text
 Subschool: Teleportation
 :::
-
-**Sources:** Legacy of the First World pg 31
 
 When you complete this spell, note your current location and condition, including your hit point
 total and any ongoing conditions affecting you as well as their durations (e.g. poison, sickened,

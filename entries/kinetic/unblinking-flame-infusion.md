@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "class_option"
@@ -27,8 +30,6 @@ Flame
 [Fire Blast](ref/kinetic/fire-blast)
 
 **Saving throw:** none
-
-**Source:** Martial Arts Handbook/30
 
 The flame of your infused blast illuminates and reveals the target as it really is.
 

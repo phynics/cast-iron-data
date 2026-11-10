@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sonic_scream", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "193"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Class Guide pg 193
 
 Up to three times during this spell's duration, you can emit a cone of powerful sound as a standard
 action. The first cone deals 4d4 points of sonic damage to every creature in the area. The second

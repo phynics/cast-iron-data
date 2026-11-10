@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Divine grace", "6th-level mercy", "Aura of justice"]
 +++
 
-**Sources:** Inner Sea Magic pg 39\
 The goddess Iomedae was once a mortal paladin, and those holy champions who follow her path seek to
 uphold her specific code of conduct in the hopes of honoring her name and destroying evil. Valor,
 justice, and honor are their lifeblood, and they would sooner cut out their own hearts than betray

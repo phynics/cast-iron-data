@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobbe_hound", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and jagged teeth lend rodent-like qualities to the imposing war beast._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 88\
 **Experience points:** 600
 
 **Armor class:** 14/11/13

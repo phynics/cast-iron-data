@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ghostbane-dirge" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 :::
 
 ### Mass Ghostbane Dirge
-
-**Sources:** Advanced Player's Guide pg 225
 
 This spell functions as [ghostbane dirge](ref/spell/ghostbane-dirge), except that it affects
 multiple targets.

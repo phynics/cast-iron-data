@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_occult_underworld", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 220
 
 The Unseen Realms and Strange Rules and Peculiar Patterns elements introduce an occult underworld
 that operates beneath the veneer of everyday life. Members of the occult underworld masquerade as

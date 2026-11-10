@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_inspiration", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "207"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Advanced Player's Guide pg 207
 
 You open a link between your mind and the subject's mind, giving advice and encouragement for as
 long as the spell is in effect. Each time the subject of the spell makes an attack roll, ability

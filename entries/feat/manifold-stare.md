@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manifold_stare", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken once by a 3rd-level mesmerist, and again when 
 +++
 
 ## Manifold Stare (Combat, Stare)
-
-**Sources:** Magic Tactics Toolbox pg 9
 
 Your hypnotic gaze causes tremendous pain in its victims.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 3rd, painful stare class feature.\

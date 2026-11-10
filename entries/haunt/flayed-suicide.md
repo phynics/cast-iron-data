@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flayed_suicide", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "180"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 180\
 A flayed suicide haunt arises from the spirits of people tortured beyond insanity, until no remnants
 of their former essence remain. Only [kytons](ref/family/kyton) are capable of the depths of
 depravity required to produce this powerful, disturbing vestige of suffering.

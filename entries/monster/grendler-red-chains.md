@@ -6,6 +6,9 @@ source_ids = ["fey-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grendler_red_chains", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "fey-revisited"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ face and neck, soaking its tangled white beard; in its arms looms a rusty but cl
 
 **Senses:** Low-light vision
 
-**Sources:** Fey Revisited pg 44\
 **Experience points:** 12,800
 
 **Armor class:** 26/14/22

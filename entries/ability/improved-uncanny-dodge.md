@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_uncanny_dodge", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 A character with this ability can no longer be flanked. This defense denies rogues (or other classes
 with the [sneak attack](ref/ability/sneak-attack) ability) the ability to sneak attack them by
 flanking them, unless the attacker has at least four more rogue levels (or levels in the class

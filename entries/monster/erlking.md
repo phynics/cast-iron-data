@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erlking", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "94"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ regal, elf-like humanoid._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 94\
 **Experience points:** 153,600
 
 **Armor class:** 34/15/29

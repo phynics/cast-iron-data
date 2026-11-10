@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Area: The caster and all allies within a 50-ft. burst, centered on the caster
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 249
 
 Bless fills your allies with courage. Each ally gains a +1 morale bonus on attack rolls and on
 saving throws against fear effects.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/unhallowed-blows" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Descriptors: evil
 :::
 
 ### Greater Unhallowed Blows
-
-**Sources:** People of the Wastes pg 29
 
 This spell functions as [unhallowed blows](ref/spell/unhallowed-blows), except the enhancement bonus
 is +1 per 4 caster levels (maximum +5). Alternatively, you can imbue all of a creature's natural

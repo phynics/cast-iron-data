@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vehicle_facing_and_movement", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 172
 
 Vehicles do not move like creatures, even when they use creatures as propulsion. They tend to move
 in the direction of their forward facing, and do so quickly.

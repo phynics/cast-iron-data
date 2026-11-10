@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_blades", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: weapon or ammunition touched; see text
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Magic Tactics Toolbox pg 25
 
 You render a target weapon or up to 50 pieces of ammunition invisible, granting the wielder a +20
 bonus on Sleight of Hand checks made to conceal the weapon or ammunition and a +5 circumstance bonus

@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jarl_gnargorak", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ humanoid has a regal presence._
 
 **Senses:** Low-light vision
 
-**Sources:** Mythic Realms pg 52\
 **Subtype:** Cold, Giant
 
 **Experience points:** 1,638,400

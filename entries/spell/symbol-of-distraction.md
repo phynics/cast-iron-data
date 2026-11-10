@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Magic Tactics Toolbox pg 26
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within the radius of a symbol of distraction instead become fascinated by the symbol for 10 minutes

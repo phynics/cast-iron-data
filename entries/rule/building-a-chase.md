@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_a_chase", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 232
 
 To simulate a chase, you'll need to do a little bit of prep work. Take about 10 small pieces of
 paper; pieces the size of playing cards or sticky notes work perfectly. These "chase cards"

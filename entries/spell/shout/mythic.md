@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/shout", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 108
 
 The duration that creatures in the area are deafened increases to 4d6 rounds, and the damage dealt
 increases to 5d8 points of sonic damage. The damage dealt to crystalline creatures and exposed

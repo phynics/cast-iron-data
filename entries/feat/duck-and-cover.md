@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duck_and_cover", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, and both
 +++
 
 ## Duck and Cover (Teamwork)
-
-**Sources:** Advanced Player's Guide pg 158
 
 Your allies assist you in avoiding certain attacks.\
 **Benefit:** Whenever you are adjacent to an ally who also has this feat, and both of you are

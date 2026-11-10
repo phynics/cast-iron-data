@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "events", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 220
 
 Listed below are unusual events that can happen during a kingdom's Event phase. Most events occur
 immediately and are instantaneous or terminate at the end of the Event phase.

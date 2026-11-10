@@ -6,14 +6,18 @@ source_ids = ["bestiary-5", "bestiary-4", "mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "mythic-adventures"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Mythic
-
-**Sources:** Bestiary 5, Bestiary 4, Mythic Adventures
 
 A creature with this subtype is infused with mythic power and is capable of terrible and
 awe-inspiring feats. Some mythic creatures are powerful versions of existing monsters (such as

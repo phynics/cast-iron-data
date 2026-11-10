@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rubicante", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Rubicante**
 
 **Sub:** He Who Grows Red
-
-**Sources:** Inner Sea Gods pg 328
 
 ### Details
 

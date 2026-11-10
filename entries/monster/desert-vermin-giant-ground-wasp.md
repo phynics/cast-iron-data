@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_vermin_giant_ground_wasp", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ stinger._
 
 **Size:** small
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 83\
 **Type:** vermin
 
 **Experience points:** 1,200

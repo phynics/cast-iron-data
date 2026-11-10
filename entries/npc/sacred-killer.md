@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_killer", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 208\
 **XP** 4,800\
 Half-orc [cleric](ref/class/cleric) of [Norgorber](ref/faith/norgorber) 1/[rogue](ref/class/rogue)
 6/assassin 2\

@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-5-sins-of-the-saviors", "rise-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_mithral_might", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "198"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "36"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "427"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 198, Pathfinder \#5: Sins of the Saviors pg 36, Rise of the
-Runelords Anniversary Edition pg 427\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 58,000 gp; **Weight** 7 lbs.
 

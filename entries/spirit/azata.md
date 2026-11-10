@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "14"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Psychic Anthology pg 14\
 An [azata](ref/family/azata) is a whimsical outsider from Elysium, a living embodiment of freedom
 and goodness.
 

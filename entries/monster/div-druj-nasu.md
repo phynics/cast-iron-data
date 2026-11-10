@@ -6,6 +6,9 @@ source_ids = ["pathfinder-113-what-grows-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_druj_nasu", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ wings fill the air with a dreadful drone even when the creature is still._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
 
-**Sources:** Pathfinder \#113: What Grows Within pg 84\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tullimonstrum", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _This small cylindrical creature has two eyestalks extending straight off to eac
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#124: City in the Deep pg 87\
 **Subtype:** Aquatic
 
 **Size:** tiny

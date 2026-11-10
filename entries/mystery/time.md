@@ -6,13 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "56"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Ultimate Magic pg 56
 
 **Deities**
 

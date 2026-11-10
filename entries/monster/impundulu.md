@@ -6,6 +6,9 @@ source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impundulu", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ scalloped with vicious, jagged barbs._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#40: Vaults of Madness pg 80\
 **Subtype:** Evil, Extraplanar, Shapechanger
 
 **Experience points:** 12,800

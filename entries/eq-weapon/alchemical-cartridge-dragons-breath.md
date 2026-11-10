@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat", "heroes-of-golarion", "pe
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_cartridge_dragons_breath", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "41"
+[[sources]]
+publication = "ultimate-combat"
+page = "140"
 
 [fields]
 kind = "item"
@@ -14,8 +20,6 @@ weight = "-"
 +++
 
 ## Alchemical cartridge
-
-**Sources:** Ultimate Equipment pg 41, Ultimate Combat pg 140
 
 An alchemical cartridge is a prepared bundle of [black powder](ref/eq-weapon/black-powder-dose) with
 a [bullet](ref/eq-weapon/firearm-bullet) or [pellets](ref/eq-weapon/pellets-handful), sometimes with

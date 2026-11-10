@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dagger_pistol", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "139"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 139
 
 A combination of a coat pistol and a blade, the dagger pistol can be used as both weapons. The
 awkwardness of the configuration means you do not gain the bonus on Sleight of Hand checks that

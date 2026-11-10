@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_of_a_virtuous_emperor", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "17th"
 +++
 
-**Sources:** Blood of the Ancients pg 23\
 **Aura** strong divination; **CL** 17th\
 **Slot** none; **Price** 87,000 gp; **Weight** 1 lb.
 

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "119"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 119
 
 At the start of the campaign, the PCs should be normal adventurers, developing and advancing without
 the aid of mythic power. This gives them a chance to experience life as mundane heroes, struggling

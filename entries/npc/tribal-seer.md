@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_seer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "181"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 181\
 **XP** 1,600\
 Half-orc diviner 6\
 N Medium humanoid (human, orc)\

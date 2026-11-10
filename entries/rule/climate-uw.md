@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climate_uw", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 165
 
 Your first step in determining a region's baseline weather is to decide upon the region's climate.
 Climate is split up into one of three categories: cold, temperate and tropical. These types

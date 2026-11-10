@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_akhana", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ appendage dangles._
 
 **Senses:** Darkvision 60 ft., Deathwatch
 
-**Sources:** Bestiary 2 pg 9\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 19,200

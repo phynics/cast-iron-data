@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "45"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "The versatile performance gained at 2nd level", "Suggestion", "mass suggestion"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 45\
 Provocateurs are bards who use their art to make controversial political statements, undermine
 enemies' reputations, and upset the status quo on a large scale. They can be found most often in
 areas of political unrest such as the unruly Chelish city of Kintargo, throughout rebellion-fraught

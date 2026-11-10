@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zoic_fetish", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "114"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "299"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Adventurer's Guide pg 114, Inner Sea World Guide pg 299\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 7,500 gp; **Weight** -
 

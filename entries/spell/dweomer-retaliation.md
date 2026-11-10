@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dweomer_retaliation", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one creature you counterspelled since your last turn
 :::
-
-**Sources:** Cheliax, Empire of Devils pg 22
 
 You may only cast this spell immediately after successfully counterspelling an opponent. Drawing
 upon the residual energy of the countered spells, you gain a number of temporary hit points equal to

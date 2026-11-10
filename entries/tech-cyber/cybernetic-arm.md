@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cybernetic_arm", path = "json/equipment_tech_cybertech.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "36"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ weight = "9 lbs."
 slot = "arm"
 +++
 
-**Sources:** Technology Guide pg 36\
 **Price** 4,750 gp\
 **Slot** arm; **Weight** 9 lbs.\
 **Install** DC 28; **Implantation** 2

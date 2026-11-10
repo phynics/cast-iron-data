@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consume spells", "The arcanist exploit gained at 11th level", "Magi
 alters = ["The arcanist exploit gained at 1st level"]
 +++
 
-**Sources:** Advanced Class Origins pg 6\
 The twilight sages of Geb carry out experiments to solve the ultimate puzzle and unlock the secrets
 of life and death. While the twilight sages generally aren't actively malicious, most are willing to
 perform human experimentation in pursuit of knowledge with little regard for the casualties.

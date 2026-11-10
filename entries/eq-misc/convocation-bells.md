@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "convocation_bells", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "28"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Disciple's Doctrine pg 28\
 **Price** 100 gp; **Weight** 10 lbs.\
 **Category** Tools
 

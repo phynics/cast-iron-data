@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_seraptis", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "76"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ slashes on her four arms._
 
 **Senses:** Darkvision 60 ft., Deathwatch, True seeing
 
-**Sources:** Bestiary 5 pg 76, Book of the Damned - Volume 2: Lords of Chaos pg 58\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_reality", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: you
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Origins pg 29
 
 Choose one object, creature, or force you can see within long range (400 ft. + 40 ft./level). You
 alter your perceptions to become convinced the target is an illusion. For you, the target becomes

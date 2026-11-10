@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster-1" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Subschool: Summoning
 :::
-
-**Sources:** People of the Sands pg 11
 
 This spell functions like [summon monster I](ref/spell/summon-monster-1), except you can summon one
 janni.

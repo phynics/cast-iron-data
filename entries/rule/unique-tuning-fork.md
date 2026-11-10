@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unique_tuning_fork", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 86
 
 For lost or forgotten demiplanes or deliberately difficult-to-reach dimensions, the appropriate
 tuning forks should be priceless. Their acquisition forces the players either to go on a quest to

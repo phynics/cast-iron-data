@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_deflection", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 7
 
 **Burn:** 0
-
-**Source:** Occult Adventures/27
 
 You weave strands of aether around yourself in order to deflect targeted magic back at the caster.
 Until the beginning of your next turn, every time you are targeted by a spell that could be affected

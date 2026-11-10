@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grabbing_style", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "148"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Without two hands free, you take a -4 penalty on the combat maneuver r
 +++
 
 ## Grabbing Style (Combat, Style)
-
-**Sources:** Advanced Class Guide pg 148
 
 You are adept at the one-handed grab.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple); base attack bonus +6, brawler's

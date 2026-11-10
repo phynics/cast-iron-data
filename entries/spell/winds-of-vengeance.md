@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winds_of_vengeance", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Descriptors: air
 :::
-
-**Sources:** Advanced Player's Guide pg 256
 
 You surround yourself with a buffeting shroud of supernatural, tornado-force winds. These winds
 grant you a fly speed of 60 feet with perfect maneuverability. Neither your armor nor your load

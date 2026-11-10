@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker_thrash", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Skyseeker Style, you gain a cumulative +1 bonus on melee 
 +++
 
 ## Skyseeker Thrash (Combat)
-
-**Sources:** Blood of the Ancients pg 30
 
 Your fighting style is enhanced by sheer fortitude in the face of intimidating foes.\
 **Prerequisites:** Con 13, [Skyseeker Style](ref/feat/skyseeker-style), [Step Up](ref/feat/step-up),

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 24\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 916 gp; **Weight** 1/20 lb.
 

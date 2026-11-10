@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/desperate-swing", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "117"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 117\
 You can spend 5 stamina points to use this feat an additional time per day. Each time you use this
 combat trick, you must spend 5 stamina points.

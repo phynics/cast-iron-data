@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ratfolk_ratfolk_warden", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "179"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ tail._
 
 **Size:** small
 
-**Sources:** Monster Codex pg 179\
 **Subtype:** Ratfolk
 
 **Experience points:** 1,200

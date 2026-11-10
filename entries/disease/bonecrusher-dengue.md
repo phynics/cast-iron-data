@@ -6,12 +6,13 @@ source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonecrusher_dengue", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "6"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heart of the Jungle pg 6
 
 **Type:** Disease (Injury)
 

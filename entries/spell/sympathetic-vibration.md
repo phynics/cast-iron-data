@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sympathetic_vibration", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "357"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Target: one freestanding structure
 Descriptors: sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 357
 
 By attuning yourself to a freestanding structure, you can create a damaging vibration within it.
 Once it begins, the vibration deals 2d10 points of damage per round to the target structure,

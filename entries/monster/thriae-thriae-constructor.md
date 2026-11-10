@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_constructor", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "244"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A droning hum surrounds this gargantuan half-bee, half-woman with insectile win
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 244\
 **Experience points:** 38,400
 
 **Armor class:** 30/6/30

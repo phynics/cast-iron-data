@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "144"
 
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery and the fighter bonus feat gained at 2nd level", "Armor training", "armor mastery"]
 +++
 
-**Sources:** Adventurer's Guide pg 144\
 Quick wits and deceptive techniques can often succeed where brute force might not. A lore warden is
 the consummate warrior-scholar of the [Pathfinder Society](ref/rule/aff-scholars), outsmarting her
 competition even when locking blades with powerful foes. Outside of combat, a lore warden's

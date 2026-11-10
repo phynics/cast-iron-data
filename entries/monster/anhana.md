@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anhana", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gardening shears._
 
 **Size:** small
 
-**Sources:** Pathfinder \#116: Fangs of War pg 82\
 **Experience points:** 800
 
 **Armor class:** 15/15/11

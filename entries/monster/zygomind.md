@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zygomind", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "286"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ _This enormous fungus looks like a cage, and a strange glow emanates from within
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 286\
 **Experience points:** 153,600
 
 **Armor class:** 24/9/17

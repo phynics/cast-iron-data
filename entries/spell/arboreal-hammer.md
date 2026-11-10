@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arboreal_hammer", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: one Huge or larger tree
 :::
-
-**Sources:** Ultimate Magic pg 206
 
 This spell animates a tree's branch and directs it against your foes. At caster level 10th or lower,
 you can target a Huge tree. At caster level 11th-15th, you can target a Gargantuan tree, and at

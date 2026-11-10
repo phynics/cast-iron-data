@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapdragon_fireworks", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: dragon-shaped fireworks
 Descriptors: fire, light
 :::
-
-**Sources:** Ultimate Magic pg 239
 
 A favorite display at halfling midsummer festivals, this spell lets you create fireworks in the
 shape of tiny dragons. Once per round, as a move action, you may designate a target 5-foot-square

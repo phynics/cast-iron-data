@@ -6,6 +6,9 @@ source_ids = ["pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_blooded", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "82"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +3
-
-**Source:** Pathfinder \#18: Descent into Midnight/82
 
 None can claim to fully understand all of the properties of the
 [black blood](ref/magic-artifact/black-blood-of-orv) that courses through the depths of the

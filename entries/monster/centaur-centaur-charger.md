@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_charger", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ and shield with the majesty and prowess of any human knight._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 9\
 **Experience points:** 38,400
 
 **Armor class:** 27/13/24

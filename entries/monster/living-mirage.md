@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_mirage", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "159"
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ not exist._
 
 **Perception:** -5
 
-**Sources:** Bestiary 5 pg 159, Osirion, Legacy of the Pharaohs pg 58\
 **Experience points:** 6,400
 
 **Armor class:** 6/6/6

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_vengeance", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "350"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: 360-ft.-radius storm cloud
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 350
 
 You create a huge black storm cloud in the air. Each creature under the cloud must succeed on a
 Fortitude save or be deafened for 1d4 × 10 minutes. Each round you continue to concentrate, the

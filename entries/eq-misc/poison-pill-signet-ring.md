@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_pill_signet_ring", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "181"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "+20 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 57, Adventurer's Armory pg 19, Advanced Player's Guide pg 181\
 **Price** +20 gp; **Weight** -\
 **Category** Adventuring Gear
 

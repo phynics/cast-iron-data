@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_elasmosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ powerful flippers._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 84\
 **Experience points:** 3,200
 
 **Armor class:** 20/11/17

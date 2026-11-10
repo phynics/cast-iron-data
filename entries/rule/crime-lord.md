@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crime_lord", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "90"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 90
 
 Crime lords are usually rogues or multiclassed characters with their highest level in the rogue
 class. A crime lord sits at the heart of a shadowy web, taking a cut from all illegal activity

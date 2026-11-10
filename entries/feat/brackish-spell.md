@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brackish_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "This feat can be applied only to spells with the water descriptor. Yo
 +++
 
 ## Brackish Spell (Metamagic)
-
-**Sources:** Elemental Master's Handbook pg 15
 
 You can conjure a seawater orb to protect yourself.\
 **Benefit:** This feat can be applied only to spells with the water descriptor. You can modify the

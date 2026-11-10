@@ -6,6 +6,12 @@ source_ids = ["pathfinder-42-sanctum-of-the-serpent-god", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_serpent", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "86"
+[[sources]]
+publication = "bestiary-3"
+page = "149"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ serpent slithers forward with a silent, unearthly grace._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#42: Sanctum of the Serpent God pg 86, Bestiary 3 pg 149\
 **Subtype:** Reptilian
 
 **Type:** undead

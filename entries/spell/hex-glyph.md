@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/glyph-of-warding" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: see text
 Spell resistance: no (object) and yes (see text)
 Target or Area: object touched or up to 5 sq. ft./level
 :::
-
-**Sources:** Advanced Class Guide pg 184
 
 This spell functions like the spell glyph version of [glyph of warding](ref/spell/glyph-of-warding),
 except you can store a hex you know (but not a major hex or a grand hex) instead of a spell. If the

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysteries_of_shadow", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "125"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _Each volume of this three-book set is written in gold ink on jetblack paper. Illusory script hides
 descriptions of the geography and denizens of the Shadow Plane._
-
-**Sources:** Ultimate Magic pg 125
 
 **Opposition** Divination, evocation\
 **Protection** illusory script (Will DC 16; on failure the suggestion is "Forget the existence of

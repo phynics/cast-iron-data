@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sanctuary" },
 ]
+[[sources]]
+publication = "orcs-of-golarion"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates
 Spell resistance: no
 Target: object touched
 :::
-
-**Sources:** Orcs of Golarion pg 29
 
 This spell is used to protect one of a tribe's most valuable possessions: its tribal banner. Any
 creature (other than a member of the tribe which the standard represents) attempting to directly

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bestow-curse" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -59,8 +62,6 @@ Descriptors: curse
 :::
 
 ### Major Curse
-
-**Sources:** Ultimate Magic pg 215
 
 This spell functions as [bestow curse](ref/spell/bestow-curse), except the DC to remove the curse is
 equal to the save DC + 5.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_light_wounds", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "263"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Spell resistance: yes (harmless); see text
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 263
 
 When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of
 damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this

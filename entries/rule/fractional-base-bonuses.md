@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractional_base_bonuses", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 40
 
 Multiclass characters in the core rules are at a slight disadvantage when it comes to their
 statistics. This fractional base bonuses variant is designed to help multiclass characters fulfill

@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_vest", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Seekers of Secrets pg 56\
 **Aura** moderate conjuration and transmutation; **CL** 9th\
 **Slot** chest; **Price** 2,000 gp; **Weight** 1 lb.
 

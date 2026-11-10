@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_unshakeable_resolve", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 251\
 **Aura** moderate abjuration and transmutation; **CL** 8th\
 **Slot** headband; **Price** 5,600 gp; **Weight** 1 lb.
 

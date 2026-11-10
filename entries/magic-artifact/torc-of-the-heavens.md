@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_the_heavens", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "162"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 162\
 **Aura** strong divination and transmutation; **CL** 20th\
 **Slot** neck; **Price** -; **Weight** 1 lb.
 

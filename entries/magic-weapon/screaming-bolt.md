@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screaming_bolt", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "159"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 159, PRPG Core Rulebook pg 471\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 267 gp; **Weight** 1/10 lb.
 

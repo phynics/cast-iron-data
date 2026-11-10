@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brooch_of_blending", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 47\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** neck; **Price** 2,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ink_of_stolen_secrets", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Antihero's Handbook pg 28\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

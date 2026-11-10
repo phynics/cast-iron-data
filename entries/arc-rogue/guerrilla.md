@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "41"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 41\
 Guerrillas fight against oppressive leadership and governments - often under cover of night -
 including Chelish colonization in Sargava and the power structures in Cheliax proper, Nidal, and
 Razmiran. Any rogue (including the unchained rogue) can select the guerrilla archetype.

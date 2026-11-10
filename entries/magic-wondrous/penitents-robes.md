@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "penitents_robes", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "155"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong varied"
 caster_level = "16th"
 +++
 
-**Sources:** Mythic Adventures pg 155\
 **Aura** strong varied; **CL** 16th\
 **Slot** body; **Price** 95,000 gp; **Weight** 1 lb.
 

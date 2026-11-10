@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_savage_great_cyclops", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "72"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ in his single, rage-filled eye._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 72\
 **Subtype:** Giant
 
 **Experience points:** 153,600

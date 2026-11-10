@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/heroic-fortune" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -46,7 +49,5 @@ Spell resistance: no
 :::
 
 ### Mass Heroic Fortune
-
-**Sources:** Advanced Player's Guide pg 324
 
 This spell functions like [heroic fortune](ref/spell/heroic-fortune), except as noted above.

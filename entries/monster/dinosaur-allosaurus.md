@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_allosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ sharp claws._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 19/9/18

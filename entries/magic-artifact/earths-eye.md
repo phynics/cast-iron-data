@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earths_eye", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "79"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 79\
 **Aura** strong transmutation; **CL** 18th\
 **Slot** headband; **Price** -; **Weight** -
 

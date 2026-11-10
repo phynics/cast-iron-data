@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "117"
 
 [fields]
 kind = "archetype"
 replaces = ["Rage power gained at 3rd level", "Uncanny dodge", "improved uncanny dodge", "Spell kenning"]
 +++
 
-**Sources:** Advanced Class Guide pg 117\
 The totemic skald forms a close connection to an animal totem. Through the power of this mystical
 ally, the skald can change shapes, assuming its form as his own. Additionally, the totem animal
 grants the skald a measure of its spiritual power that he can share with his allies.

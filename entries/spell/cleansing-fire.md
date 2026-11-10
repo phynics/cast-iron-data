@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_fire", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: 30-ft. rdius emanating from the touched point
 Descriptors: fire, good
 :::
-
-**Sources:** Adventurer's Guide pg 17
 
 A ring of fire surrounds the area affected by the spell. The flames radiate heat, but not enough to
 damage adjacent creatures. The flames deal 2d6 points of fire damage to any creatures that pass

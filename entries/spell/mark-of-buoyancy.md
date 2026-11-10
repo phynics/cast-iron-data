@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_buoyancy", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: touched object weighing up to 10 lbs./level
 :::
-
-**Sources:** Blood of the Ancients pg 28
 
 You cause the touched object to become lighter than air, such that it floats if not weighted down.
 The object is effectively weightless and, if left unattended, will rise to a number of feet off the

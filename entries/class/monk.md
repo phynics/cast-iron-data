@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "blood-of-the-beast", "pl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "56"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 56
 
 For the truly exemplary, martial skill transcends the battlefield - it is a lifestyle, a doctrine, a
 state of mind. These warrior-artists search out methods of battle beyond swords and shields, finding

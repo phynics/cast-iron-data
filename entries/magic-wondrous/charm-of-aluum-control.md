@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_of_aluum_control", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "298"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea World Guide pg 298, Dark Markets - A Guide to Katapesh pg 59\
 **Aura** moderate transmutation; **CL** 20th\
 **Slot** neck; **Price** 20,000 gp; **Weight** -
 

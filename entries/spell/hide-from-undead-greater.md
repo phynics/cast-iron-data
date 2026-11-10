@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hide-from-undead" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 :::
 
 ### Greater Hide from Undead
-
-**Sources:** People of the Wastes pg 29
 
 This spell functions as [hide from undead](ref/spell/hide-from-undead), except the spell does not
 immediately end if a warded creature attempts to turn or command undead, channels positive energy,

@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bardiche", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "14 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Adventurer's Armory pg 2, Advanced Player's Guide pg 176
 
 The crescent axe-blade of this polearm is attached to the haft at two points: the center of the
 blade attaches to a socket at the top of the haft, and the lower point of the blade attaches to a

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_pit", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: 10-ft.-by-10-ft. hole, 10 ft. deep/2 levels
 Subschool: Creation
 :::
-
-**Sources:** Advanced Player's Guide pg 213
 
 You create a 10-foot-by-10-foot extradimensional hole with a depth of 10 feet per two caster levels
 (maximum 30 feet). You must create the pit on a horizontal surface of sufficient size. Since it

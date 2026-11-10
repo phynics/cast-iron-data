@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knights_pennon_parley", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "307"
+[[sources]]
+publication = "advanced-players-guide"
+page = "307"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "6th"
 
 ## Knight's Pennon
 
-**Sources:** Ultimate Equipment pg 307, Advanced Player's Guide pg 307\
 **Aura** moderate abjuration or transmutation; **CL** 6th\
 **Slot** none; **Price** 2,200 gp (Honor), 4,500 gp (Battle), 4,500 gp (Parley); **Weight** 1 lb.
 

@@ -6,6 +6,12 @@ source_ids = ["occult-bestiary", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alghollthu_omnipath", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "38"
+[[sources]]
+publication = "bestiary-6"
+page = "204"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This monstrous eel-like creature has jaws within jaws, each bearing transparent
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 38, Bestiary 6 pg 204\
 **Subtype:** Aquatic
 
 **Experience points:** 153,600

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_desert_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "128"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ nearly the length of a human._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 128\
 **Subtype:** Giant
 
 **Experience points:** 6,400

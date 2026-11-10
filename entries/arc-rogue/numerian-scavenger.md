@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "13"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Technology Guide pg 13\
 A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of
 the strange ruins, metal caverns, and outlandish junkyards of Numeria. She is well-versed in all the
 ways that technology can be used to protect sites, as well as the ways in which it can malfunction.

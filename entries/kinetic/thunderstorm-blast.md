@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstorm_blast", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -27,7 +30,5 @@ group = "kineticist-wild-talent"
 **Damage:** half bludgeoning, half electricity
 
 **Prerequisite:** primary element (air), expanded element (air)
-
-**Source:** Occult Adventures/16
 
 You batter a single foe with a gust of air crackling with electricity.

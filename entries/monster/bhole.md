@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bhole", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "18"
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ a massive set of hooked jaws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 18, Pathfinder \#65: Into the Nightmare Rift pg 84\
 **Experience points:** 102,400
 
 **Armor class:** 33/1/33

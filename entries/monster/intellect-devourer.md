@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intellect_devourer", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "180"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ looks like a large, glistening brain._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 180\
 **Experience points:** 4,800
 
 **Armor class:** 22/17/16

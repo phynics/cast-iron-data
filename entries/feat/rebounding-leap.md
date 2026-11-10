@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebounding_leap", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "115"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you succeed at the Acrobatics check to jump as part of your leap
 +++
 
 ## Rebounding Leap (Combat)
-
-**Sources:** Ultimate Combat pg 115
 
 Your riding and lancing expertise allows you to enter and leave the saddle with great speed.\
 **Prerequisites:** \[Leaping lance class feature\][dragoon](ref/arc-fighter/dragoon), Acrobatics 5

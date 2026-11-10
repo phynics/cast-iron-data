@@ -6,6 +6,9 @@ source_ids = ["faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triple_stinging_blade_calistria", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "faiths-of-balance"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Faiths of Balance pg 27\
 **Aura** faint evocation; **CL** 7th\
 **Slot** none; **Price** 11,702 gp; **Weight** 1 lb.
 

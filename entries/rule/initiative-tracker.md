@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "initiative_tracker", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "35"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 35
 
 Combat is the most complex part of the game, and the easiest place for a session to bog down.
 Anything that helps speed up combat means everyone gets more done and has more opportunities for

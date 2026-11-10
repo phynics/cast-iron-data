@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_building", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 140
 
 Creating a setting from scratch can also be intimidating. This section provides you with tools to
 help take the guesswork out of world building, breaking down monumental considerations into small,

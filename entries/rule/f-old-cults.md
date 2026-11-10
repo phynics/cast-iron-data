@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_old_cults", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "34"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 34\
 **Pathfinder Name:** Old Cults\
 **Goal:** Prepare the world for the coming of the Great Old Ones, and hasten their arrival\
 **Alignment:** CE\

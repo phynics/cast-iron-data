@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "53"
 
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Detect alignment", "discern lies", "true judgment", "Track", "Exploit weakness"]
 +++
 
-**Sources:** Ultimate Combat pg 53\
 When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and
 other practitioners of arcane magic - but especially witches, since their devotion to a patron is
 often seen as suspect by many religions.

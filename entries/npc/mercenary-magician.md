@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mercenary_magician", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1/2"
 
 **Challenge rating:** 1/2
 
-**Sources:** NPC Codex pg 160\
 **XP** 200\
 Human [sorcerer](ref/class/sorcerer) 1\
 LN Medium humanoid (human)\

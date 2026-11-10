@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "36"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Wolf Domain
-
-**Sources:** Ultimate Magic pg 36
 
 **Granted Powers:** You run with the pack and are the master of the cold hunt of your spirit totem.
 

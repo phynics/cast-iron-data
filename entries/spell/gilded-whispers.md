@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gilded_whispers", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: a gold or platinum coin
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 57
 
 Developed by priests of Abadar to catch thieves and skimmers, gilded whispers later spread to other
 faiths and was adapted to the arcane arts through the combined efforts of Aram Zey and Kreighton

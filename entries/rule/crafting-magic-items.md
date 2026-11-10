@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_magic_items", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 154
 
 Scrolls, wands, and magic items can be crafted using esoteric components. This increases the cost of
 the item accordingly. If a wizard expends 56 gp worth of prismatic sand while creating a

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jack_o_lantern", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ leering, crudely carved face._
 
 **Type:** plant
 
-**Sources:** Bestiary 4 pg 160\
 **tremorsense:** 30
 
 **Experience points:** 400

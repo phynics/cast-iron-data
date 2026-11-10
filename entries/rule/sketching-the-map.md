@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sketching_the_map", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 174
 
 Using a pencil, sketch out the basic shape of your map. You can indicate the position and relative
 size of rooms by simply drawing rough shapes and circles and then labeling each "kitchen,"

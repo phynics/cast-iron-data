@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/faerie-fire", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 93\
 Outlined creatures are dazzled. The spell outlines figment illusions in the burst, revealing them as
 such. This effect applies only to figments with a caster level equal to or less than your tier.
 

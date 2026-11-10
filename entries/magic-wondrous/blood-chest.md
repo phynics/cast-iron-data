@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_chest", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Lost Treasures pg 12\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 42,000 gp; **Weight** 50 lbs.
 

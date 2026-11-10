@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "212"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler"]
 alters = ["Spirit", "Spirit surge", "Taboo"]
 +++
 
-**Sources:** Villain Codex pg 212\
 Some mediums delve deeply into the spirit world and make contact with entities that exist outside
 the boundaries of the sane multiverse. Ageless and forever waiting, these beings offer immense
 power, but the risks are also great.

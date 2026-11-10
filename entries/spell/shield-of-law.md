@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_law", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "342"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Targets: one creature/level in a 20-ft.-radius burst centered on you
 Descriptors: lawful
 :::
-
-**Sources:** PRPG Core Rulebook pg 342
 
 A dim, blue glow surrounds the subjects, protecting them from attacks, granting them resistance to
 spells cast by chaotic creatures, and slowing chaotic creatures when they strike the subjects. This

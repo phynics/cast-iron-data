@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "180"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 180
 
 You attempt to possess a creature by projecting your soul into its body. The target creature must be
 within spell range and you must know where it is, though you do not need line of sight or line of

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "called_shot_effects", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 193
 
 The consequences of a successful called shot vary depending on whether the hit is a normal hit, a
 critical hit, or a debilitating blow (a hit for 50 points of damage or more). When more than one

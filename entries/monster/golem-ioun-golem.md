@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_ioun_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ grooves visible above, below, and between its twin sets of arms._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 88\
 **Experience points:** 102,400
 
 **Armor class:** 33/18/24

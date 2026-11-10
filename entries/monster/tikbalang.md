@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tikbalang", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "260"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ long forelimbs with clawed fingers._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 260\
 **Experience points:** 6,400
 
 **Armor class:** 22/13/18

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spore_zombie", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "287"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 6/287
 
 There are certain evil fungal creatures (such as [fungus queens](ref/monster/fungus-queen), but also
 rare fungal growths or extraplanar blights upon the wild) that can infest vermin with spores that

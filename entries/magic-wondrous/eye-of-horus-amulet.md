@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_horus_amulet", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 62\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** neck; **Price** 23,000 gp; **Weight** -
 

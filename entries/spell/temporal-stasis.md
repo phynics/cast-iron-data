@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "temporal_stasis", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "359"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 359
 
 You must succeed on a melee touch attack. You place the subject into a state of suspended animation.
 For the creature, time ceases to flow, and its condition becomes fixed. The creature does not grow

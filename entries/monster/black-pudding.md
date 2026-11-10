@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_pudding", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ darkly before surging forward._
 
 **Perception:** -5
 
-**Sources:** Pathfinder RPG Bestiary pg 35\
 **Experience points:** 3,200
 
 **Armor class:** 3/3/3

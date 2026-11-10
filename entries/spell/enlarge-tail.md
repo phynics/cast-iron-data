@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlarge_tail", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: your tail
 :::
-
-**Sources:** Kobolds of Golarion pg 27
 
 When attacking with your tail or tail weapons, you gain 5 feet of reach, a +1 bonus on attack rolls,
 and a +2 bonus on damage rolls.

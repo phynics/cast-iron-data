@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getting_lost_ucp", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 155
 
 While moving through the wilderness, there is the possibility of adventurers losing track of where
 they're going. The lack of a clear path, coupled with low visibility due to terrain or weather, can

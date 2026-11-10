@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quivering_palm_versatility", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "After successfully using your quivering palm attack on a creature, yo
 +++
 
 ## Quivering Palm Versatility (Combat)
-
-**Sources:** Dragon Empires Primer pg 25
 
 You can alter the way you apply a quivering palm's vibrations to an opponent's body to cause extreme
 pain, put it in a coma, or destroy its memories.\

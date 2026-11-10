@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pushing_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -29,8 +32,6 @@ group = "kineticist-wild-talent"
 [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/21
 
 The momentum of your kinetic blast knocks foes back. Attempt a [bull rush](ref/rule/bull-rush)
 combat maneuver check against each target damaged by your infused blast, using your Constitution

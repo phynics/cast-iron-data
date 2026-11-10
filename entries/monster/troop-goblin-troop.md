@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_goblin_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "267"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ jagged teeth._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 267\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 1,600

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warmonger", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "59"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "medium-spirit"
 alters = ["Inspiring call"]
 +++
 
-**Sources:** Horror Adventures pg 59\
 The Warmonger is a spirit of unbridled strife, inspiring others to throw their lives away in pursuit
 of hatred and vengeance.
 

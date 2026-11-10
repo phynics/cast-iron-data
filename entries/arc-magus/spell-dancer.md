@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["The magus's ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute", "5th-level bonus feat", "Medium armor", "Heavy armor"]
 +++
 
-**Sources:** Advanced Race Guide pg 24\
 The strong emphasis on wizards within elven culture influences how even non-wizard elves see
 themselves. Many elven magi do not consider themselves masters of a blend of martial and magical
 talents, but rather a sub-category of wizards who study the effect of physical movement and

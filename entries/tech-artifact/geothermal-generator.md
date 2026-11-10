@@ -6,13 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geothermal_generator", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "63"
 
 [fields]
 kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Sources:** Technology Guide pg 63\
 **Yield** 200; **Fort** +4; **[Hardness](ref/umr/hardness)** 10; **HP** 1,000; **Explosion** 10d6
 bludgeoning and 10d6 fire (60-ft. radius; Reflex DC 15 half); **Perception Penalty** -5
 

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_heart", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "296"
+[[sources]]
+publication = "gods-and-magic"
+page = "37"
 
 [fields]
 kind = "spell"
@@ -49,8 +55,6 @@ Effect: 1 creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea World Guide pg 296, Gods and Magic pg 37
 
 The target creature gains a +4 morale bonus on saving throws against mind-affecting effects that
 rely on negative emotions (such as crushing despair, rage, or fear effects) or that would force him

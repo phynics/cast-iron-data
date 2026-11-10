@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nachzehrer", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ long, sharp fangs protruding from a breathless mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 90\
 **Type:** undead
 
 **Experience points:** 19,200

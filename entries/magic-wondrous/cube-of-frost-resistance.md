@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cube_of_frost_resistance", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "290"
+[[sources]]
+publication = "core-rulebook"
+page = "508"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 290, PRPG Core Rulebook pg 508\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 27,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_mantis", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Adventurer's Guide pg 160
 
 Whenever the target of this spell looks into a mirror or other reflective surface where it can see
 its own visage clearly, it sees a Red Mantis assassin (in full armor, face hidden by a mantis mask)

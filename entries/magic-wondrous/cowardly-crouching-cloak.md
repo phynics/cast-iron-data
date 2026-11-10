@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowardly_crouching_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "265"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 265, Advanced Player's Guide pg 303\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** shoulders; **Price** 1,800 gp; **Weight** 4 lbs.
 

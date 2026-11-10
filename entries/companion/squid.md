@@ -6,13 +6,14 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "squid", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "259"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 259
 
 **Companion Type**
 

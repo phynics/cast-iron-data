@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taxation_edicts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "209"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 209
 
 Setting the tax level determines how much revenue you collect from taxes in the Income phase. Higher
 taxes increase your kingdom's Economy (making it easier for you to succeed at Economy checks to

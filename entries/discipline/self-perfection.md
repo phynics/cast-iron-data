@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "self_perfection", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "68"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 68\
 You take a holistic view of psychic power, believing that you must hone both your mental and
 physical attributes to remain in balance. The focus you find while exercising, fasting, and
 otherwise tending to your body broadens your psychic powers.

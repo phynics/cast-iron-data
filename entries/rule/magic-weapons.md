@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapons", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "468"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 468
 
 A magic weapon is enhanced to strike more truly and deliver more damage. Magic weapons have
 enhancement bonuses ranging from +1 to +5. They apply these bonuses to both attack and damage rolls

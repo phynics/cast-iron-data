@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_stamina", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 112
 
 When you have an ability that grants you stamina points, you gain a stamina pool with a maximum
 number of stamina points equal to your base attack bonus + your Constitution modifier. During

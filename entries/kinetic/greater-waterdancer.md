@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_waterdancer", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "29"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [waterdancer](ref/kinetic/waterdancer)
-
-**Source:** Occult Adventures/29
 
 You can move across water (as [water walk](ref/spell/water-walk)) at will and breathe underwater,
 and your slashing and bludgeoning attacks don't take the usual penalties when you're underwater.

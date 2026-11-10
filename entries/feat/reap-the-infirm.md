@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reap_the_infirm", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you hit a diseased creature with a weapon attack, you deal an ad
 +++
 
 ## Reap the Infirm (Combat)
-
-**Sources:** Villain Codex pg 68
 
 You can use a creature's diseased state against it.\
 **Prerequisites:** Base attack bonus +3.\

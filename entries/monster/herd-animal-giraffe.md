@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_giraffe", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "150"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tower over other animals._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 150\
 **Experience points:** 800
 
 **Armor class:** 16/10/14

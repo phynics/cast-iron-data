@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_torment", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Stunning Fist attempt per day. While using Ma
 +++
 
 ## Mantis Torment (Combat)
-
-**Sources:** Ultimate Combat pg 108
 
 Your knowledge of the mysteries of anatomy allows you to cause debilitating pain with a simple
 touch.\

@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_slam", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While on a plane with subjective directional gravity, you halve all d
 +++
 
 ## Subjective Slam (Combat)
-
-**Sources:** Planar Adventures pg 32
 
 When in control of gravity, you can use your momentum to cause brutal impacts, transforming the very
 act of falling into a devastating weapon.\

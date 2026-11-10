@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_true_form", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Blood of the Moon pg 30\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** neck; **Price** 6,500 gp; **Weight** -
 

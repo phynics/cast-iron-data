@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knocking_blows", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you hit a creature that is no more than one size category larger t
 +++
 
 ## Knocking Blows (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 The weight of your blows overwhelms your opponents.\
 **Prerequisites:** Str 13, [Intense Blows](ref/feat/intense-blows),

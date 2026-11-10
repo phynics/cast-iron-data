@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masking_scent_magical_beast", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "207"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (animal), - (humanoid), - (magical beast)"
 
 ## Masking scent
 
-**Sources:** Advanced Class Guide pg 207\
 **Price** 25 gp (animal), 50 gp (humanoid), 100 gp (magical beast); **Weight** - (animal), -
 (humanoid), - (magical beast)
 

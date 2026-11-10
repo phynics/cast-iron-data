@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_terminology", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 128
 
 It is essential for you to understand the terminology used in the game to describe spells and the
 effects they can create. Before designing a new spell, familiarize yourself with

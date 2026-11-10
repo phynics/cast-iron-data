@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_fantasy", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 194
 
 As its name implies, dark fantasy isn't a subgenre of horror but rather a fantasy subgenre that
 relies on horror themes. Dark fantasies typically involve the same tropes as fantasy tales - swords,

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confrontation", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 82
 
 Outsiders are among the oldest and most dangerous creatures in the multiverse, and many interfere
 with mortal worlds to secure devotion for their divine patrons, favorably aligned souls, more power,

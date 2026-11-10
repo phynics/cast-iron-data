@@ -9,12 +9,13 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/pclass/arcane-archer" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "374"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 374
 
 Dedicated followers of [Erastil](ref/faith/erastil) become closer to their god by mastering archery
 and caring for each other. They can tap into the power of the Elk Father, who guides and empowers

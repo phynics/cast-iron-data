@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/telempathic-projection" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: emotion, mind-affecting
 :::
 
 ### Implanted Projection
-
-**Sources:** Occult Origins pg 13
 
 This spell functions as [telempathic projection](ref/spell/telempathic-projection), except its
 mood-altering effects remain dormant in the target's mind. Upon casting this spell, the caster

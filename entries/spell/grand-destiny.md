@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_destiny", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: one willing creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Arcane Anthology pg 8
 
 You inspire the target with the power to seize a grand destiny. The target gains a +4 competence
 bonus that it can choose to apply before rolling any attack roll, caster level check, saving throw,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hallucinatory-terrain" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "314"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Area: one 20-ft. cube/level (S)
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 314
 
 This spell functions like [hallucinatory terrain](ref/spell/hallucinatory-terrain), except that it
 enables you to make any area appear to be something other than it is. The illusion includes audible,

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_governance", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 55\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 3 lbs.
 

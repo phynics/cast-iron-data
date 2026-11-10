@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapsmith", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "147"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** NPC Codex pg 147\
 **XP** 3,200\
 Gnome [rogue](ref/class/rogue) 8\
 NE Small humanoid (gnome)\

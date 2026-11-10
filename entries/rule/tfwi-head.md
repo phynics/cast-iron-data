@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_head", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 241
 
 ### Table 5-8: Head Slot Wondrous Items
 

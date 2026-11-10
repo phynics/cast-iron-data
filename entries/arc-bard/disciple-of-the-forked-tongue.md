@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire greatness", "Versatile performance"]
 +++
 
-**Sources:** Potions and Poisons pg 7\
 Studied in venomous words as well as venomous blood, a disciple of the forked tongue knows just the
 right phrase to slowly poison the soul. His voice can sink deep into his victims' hearts, destroying
 friendships and devouring the mind.

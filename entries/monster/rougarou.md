@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rougarou", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This muscular, wolf-headed humanoid is covered in brown and gray fur._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 6 pg 242\
 **Subtype:** Shapechanger
 
 **Experience points:** 200

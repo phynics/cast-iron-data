@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "31"
 
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery 1", "Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 31\
 Quick thinking and deception can often carry the day where raw force might not. Lore wardens are the
 bodyguards, guardians, and soldiers of the [Pathfinder Society](ref/rule/aff-scholars). Not only are
 they often called upon to protect and watch over important repositories of lore, but they themselves

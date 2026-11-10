@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_kindler", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "180"
+[[sources]]
+publication = "paths-of-prestige"
+page = "54"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 180, Paths of Prestige pg 54
 
 Those who focus their studies on the Eye of Abendego can unlock and master potent techniques to
 augment their already impressive command of storm and wind. These scions of the hurricane take the

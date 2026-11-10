@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boreal_creature", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "72"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Pathfinder \#67: The Snows of Summer/72
 
 In realms where the icy hand of winter seldom (or never) releases its frigid grasp, some
 particularly hardy creatures have evolved to better survive in these harsh environments, becoming

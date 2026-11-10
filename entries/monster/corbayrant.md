@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corbayrant", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ tail drips foul-smelling venom and its wide mouth has multiple hinged jaws._
 
 **Perception:** +30
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 84\
 **Experience points:** 76,800
 
 **Armor class:** 30/14/24

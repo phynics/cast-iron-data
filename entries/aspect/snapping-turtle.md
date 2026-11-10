@@ -6,13 +6,15 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "23"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Heroes of Golarion pg 23\
 Long-lived and resilient, turtles embody wisdom and endurance in many cultures. Those who take this
 aspect gain profound insight as well as remarkable resilience.
 

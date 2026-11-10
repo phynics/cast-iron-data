@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/fog-cloud" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Subschool: Creation
 :::
 
 ### Poisonous Cloud
-
-**Sources:** Potions and Poisons pg 11
 
 Poisonous cloud creates a bank of fog like that created by [fog cloud](ref/spell/fog-cloud), except
 that the vapors are toxic. The cloud deals 1d2 points of Constitution damage per round to living

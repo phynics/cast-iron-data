@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deflection", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: you
 Descriptors: force
 :::
-
-**Sources:** Advanced Player's Guide pg 215
 
 You surround yourself in a whirling barrier of force that sends any attack that misses you hurling
 back toward its source. This applies to any melee or ranged attack directed against you so long as

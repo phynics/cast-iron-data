@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "notorious_vigilante", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your presence can act as a fast and effective Dazzling Display. As a 
 +++
 
 ## Notorious Vigilante (Combat)
-
-**Sources:** Ultimate Intrigue pg 87
 
 You are widely known as dangerous and fearsome.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display),

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_grafts", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 206
 
 Class grafts are more detailed than creature type grafts, ensuring that they more closely represent
 a PC class of the appropriate level. Each class graft is divided into the following sections.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "18"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "Poison resistance +4", "Poison immunity"]
 +++
 
-**Sources:** Ultimate Magic pg 18\
 An alchemist who studies anatomy and uses this knowledge to heal is a chirurgeon. A chirurgeon has
 the following class features.
 

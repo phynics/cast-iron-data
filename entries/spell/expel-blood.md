@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expel_blood", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one Small or larger living creature
 Descriptors: evil, water
 :::
-
-**Sources:** Elemental Master's Handbook pg 13
 
 You animate a portion of the target's blood, causing it to force itself out of the victim's body and
 form a corrupted water elemental. The target takes 2d4 points of Constitution damage unless it

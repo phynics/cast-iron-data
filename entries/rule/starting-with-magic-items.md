@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starting_with_magic_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 108
 
 Giving each of the PCs a starting magic item makes them more robust and capable from the jump, and
 can be useful for smaller groups. Campaign concepts in which the characters already enjoy wealth,

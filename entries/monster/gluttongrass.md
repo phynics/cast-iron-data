@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gluttongrass", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "137"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ wind._
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 137\
 **Experience points:** 400
 
 **Armor class:** 12/11/11

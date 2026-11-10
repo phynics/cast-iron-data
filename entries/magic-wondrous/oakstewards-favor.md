@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oakstewards_favor", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** People of the River pg 29\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** neck; **Price** 6,550 gp; **Weight** -
 

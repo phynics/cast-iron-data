@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "pathfinder-71-rasputin-mu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "szuriel", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** Angel of Desolation
 
-**Sources:** Inner Sea Gods pg 326\
 **Monster Link** [Szuriel](ref/monster/horsemen-of-the-apocalypse-szuriel)
 
 ### Details

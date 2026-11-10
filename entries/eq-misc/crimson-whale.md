@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_whale", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "14"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "-"
 
 ## Aquatic Animals
 
-**Sources:** Animal Archive pg 14\
 **Price** Varies; **Weight** -\
 **Category** Mounts/Pets
 

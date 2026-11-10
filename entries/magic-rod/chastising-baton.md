@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chastising_baton", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes of the High Court pg 30\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
 

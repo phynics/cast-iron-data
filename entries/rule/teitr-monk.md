@@ -6,12 +6,12 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teitr_monk", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder
 
 The bonus feat for the monk's unarmed strike class feature has been changed from Improved Unarmed
 Strike to [Unarmed Combatant](ref/rule/unarmed-combatant). Additional, the monk's bonus feats have

@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veil_of_attentiveness", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Merchant's Manifest pg 12\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** head; **Price** 750 gp; **Weight** -
 

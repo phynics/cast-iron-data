@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_life", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (harmless) or yes, see text
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 This spell cures 5d8 points of damage + 1 point per caster level (maximum +25).
 

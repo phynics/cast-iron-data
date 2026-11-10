@@ -6,6 +6,9 @@ source_ids = ["faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grandmother_spider", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "faiths-of-golarion"
+page = "11"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Grandmother Spider**
 
 **Sub:** The Weaver
-
-**Sources:** Faiths of Golarion pg 11
 
 ### Details
 

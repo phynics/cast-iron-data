@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_bear", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Player's Guide pg 203
 
 You take on an aspect of a bear. You gain a +2 enhancement bonus to natural armor and a +2
 enhancement bonus on CMB rolls. You can also perform bull rush, grapple, and overrun combat

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felhart", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 55\
 **Aura** moderate divination; **CL** 6th\
 **Slot** none; **Price** 22,375 gp; **Weight** 4 lbs.
 

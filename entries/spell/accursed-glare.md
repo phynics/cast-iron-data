@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accursed_glare", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Blood of the Moon pg 9
 
 > _The following spell is common among [werebats](ref/template/lycanthrope), bloodmarked
 > [skinwalkers](ref/race/skinwalker), and those who associate with them._

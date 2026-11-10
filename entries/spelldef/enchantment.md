@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Enchantment (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 Enchantment spells affect the minds of others, influencing or controlling their behavior. All
 enchantments are [mind-affecting](ref/spelldef/mind-affecting) spells. Two subschools of enchantment

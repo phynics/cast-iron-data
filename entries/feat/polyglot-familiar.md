@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polyglot_familiar", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times, choosing a different category 
 +++
 
 ## Polyglot Familiar (Familiar)
-
-**Sources:** Familiar Folio pg 19
 
 Your familiar can speak with animals other than those of its own kind.\
 **Prerequisites:** Must have a familiar.\

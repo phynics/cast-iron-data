@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyricas", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "70"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 70\
 Cyricas the Leaping Lion is a favorite hero among Taldan youth, due to both his miraculous recovery
 from a childhood ailment and his wild adventures with his ape companion Mardu. Most tales of Cyricas
 carry some lesson, whether encouraging kindness to animals or bravery in the face of adversity. Many

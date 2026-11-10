@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huntmasters_spear", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: nonmagical spear touched
 :::
-
-**Sources:** Monster Hunter's Handbook pg 30
 
 Choose one creature type (and subtype, if applicable) from the ranger's
 [favored enemy](ref/ability/favored-enemy) list. When you cast this spell, the targeted spear hums

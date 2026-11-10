@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runic_charge", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As long as two of your hands are free, you can cast a spell with a ra
 +++
 
 ## Runic Charge (Combat)
-
-**Sources:** People of the Wastes pg 5
 
 You can deliver touch spells with frightful ferocity.\
 **Prerequisites:** Caster level 5th.\

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "participating_in_horror_adventures", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 8
 
 First and foremost, understand that horror games are meant to be creepy. If you don't want to risk
 being actually frightened, you don't have to play. If you do want to play, make sure you're familiar

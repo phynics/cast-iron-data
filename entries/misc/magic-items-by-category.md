@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_by_category", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "460"
+[[sources]]
+publication = "ultimate-equipment"
+page = "360"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 460, Ultimate Equipment pg 360
 
 The distinction between "minor", "medium" and "major" magic items is blurry, and never outright
 stated in any core book. But there are inferences we can make from the tables given in these books.

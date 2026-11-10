@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trail_of_flames", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Occult Adventures/28
 
 When you take the [withdraw](ref/rule/withdraw) or [run](ref/rule/run) action, you can leave a
 [wall of fire](ref/spell/wall-of-fire) in all squares you exit that lasts for 1 round.

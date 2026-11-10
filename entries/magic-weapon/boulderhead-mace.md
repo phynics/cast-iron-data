@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boulderhead_mace", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "152"
+[[sources]]
+publication = "advanced-players-guide"
+page = "290"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 152, Advanced Player's Guide pg 290\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 6,812 gp; **Weight** 8 lbs.
 

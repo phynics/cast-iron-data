@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-riven-sky"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_of_the_eye", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "curse-of-the-riven-sky"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Curse of the Riven Sky pg 30\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 19,000 gp; **Weight** 5 lbs.
 

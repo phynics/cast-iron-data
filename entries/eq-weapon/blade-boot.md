@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blade_boot", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 2
 
 Blade boots come with a spring-mounted knife that pops out when triggered with the right combination
 of toe presses. You can use a blade boot as an off-hand weapon. Releasing the knife is a swift

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fallback_strategy", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "233"
+[[sources]]
+publication = "gods-and-magic"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -41,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 233, Gods and Magic pg 39
 
 While this spell is active, you may reroll one attack roll, combat maneuver check, or skill check
 before the result of the roll or check is known. You must take the result of the reroll, even if

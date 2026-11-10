@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memoriam_root", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Healer's Handbook pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclone", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Sandstorm Blast](ref/kinetic/sandstorm-blast), [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Adventures/18
 
 You create a circular rush of wind. All creatures and objects within a 20-foot-radius
 [burst](ref/misc/burst) centered on you take [half](ref/misc/fractions-and-rounding) your blast's

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_storing_stone", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Magical Marketplace pg 19\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 900 gp; **Weight** 1/2 lb.
 

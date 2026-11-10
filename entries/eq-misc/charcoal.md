@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charcoal", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "12"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "42"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory 2 pg 12, Seekers of Secrets pg 42\
 **Price** 5 sp; **Weight** -\
 **Category** Adventuring Gear
 

@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hpt_crowns", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 43
 
 Cards in the suit of crowns are tied to Charisma.
 

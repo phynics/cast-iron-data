@@ -6,6 +6,9 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_ephialtes", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ iron bands, matching the fiend's tail as they writhe like snakes in search of pr
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 76,800

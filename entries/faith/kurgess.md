@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kurgess", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "65"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Kurgess**
 
 **Sub:** The Strong Man
-
-**Sources:** Inner Sea Faiths pg 65
 
 ### Details
 

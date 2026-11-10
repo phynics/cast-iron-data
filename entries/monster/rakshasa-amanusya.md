@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rakshasa_amanusya", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ long, lolling tongue._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 48\
 **Subtype:** Native, Rakshasa, Shapechanger
 
 **Experience points:** 2,400

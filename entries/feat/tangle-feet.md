@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tangle_feet", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully make an Acrobatics check to avoid provoking an 
 +++
 
 ## Tangle Feet (Combat)
-
-**Sources:** Advanced Race Guide pg 118
 
 Creatures who cross your path find themselves tripping over their own feet.\
 **Prerequisites:** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

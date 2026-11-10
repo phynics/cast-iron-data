@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eudranis", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ In one hand, he clutches a great blade, while his other hand holds an idol of so
 
 **Senses:** Darkvision 120 ft., Scent
 
-**Sources:** Darklands Revisited pg 33\
 **Experience points:** 1,600
 
 **Armor class:** 20/12/18

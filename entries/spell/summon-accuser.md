@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_accuser", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Effect: 1 accuser devil
 Subschool: Summoning
 Descriptors: evil, lawful
 :::
-
-**Sources:** Rival Guide pg 59
 
 This spell summons a single [accuser devil](ref/monster/devil-accuser-devil-zebub) from Hell to do
 the spellcaster's bidding, similar to how summon monster spells function. Accuser devils, known to

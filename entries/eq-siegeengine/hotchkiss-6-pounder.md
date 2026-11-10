@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hotchkiss_6_pounder", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "64"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "Special"
 +++
 
 ## Hotchkiss 6-Pounder
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 64
 
 The Hotchkiss 6 pounder gun is a shortened version of the Hotchkiss 6 pounder naval gun, designed
 for use in the sponsons of World War I-era tanks such as the Mark IV. The Hotchkiss 6 pounder is a

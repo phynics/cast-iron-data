@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iconoclast", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you succeed at a sunder combat maneuver against a holy or unholy
 +++
 
 ## Iconoclast (Combat)
-
-**Sources:** Faiths and Philosophies pg 7
 
 You know how to turn a holy symbol into a weapon against her followers.\
 **Prerequisites:** [Divine Defiance](ref/feat/divine-defiance),

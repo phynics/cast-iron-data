@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_deed", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Pick a deed that you have access to and that you must spend grit to p
 +++
 
 ## Signature Deed (Grit)
-
-**Sources:** Ultimate Combat pg 119
 
 You are known for performing a particular deed, and can perform it with greater ease.\
 **Prerequisites:** Grit class feature, [gunslinger](ref/class/gunslinger) level 11th.\

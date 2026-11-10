@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrmwraith", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ less noble._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 280\
 **Subtype:** Incorporeal
 
 **Type:** undead

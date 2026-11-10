@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggart", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "50"
+[[sources]]
+publication = "occult-bestiary"
+page = "11"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ a mane of lank hair._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 50, Occult Bestiary pg 11\
 **Experience points:** 1,200
 
 **Armor class:** 16/16/11

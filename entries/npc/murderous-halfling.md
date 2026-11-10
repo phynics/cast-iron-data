@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "murderous_halfling", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "81"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 81\
 **XP** 800\
 Halfling [fighter](ref/class/fighter) 4\
 CE Small humanoid (halfling)\

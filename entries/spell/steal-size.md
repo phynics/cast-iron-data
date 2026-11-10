@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_size", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Targets: one humanoid creature larger than you
 :::
-
-**Sources:** Giant Hunter's Handbook pg 27
 
 This spell reduces the target's size by one size category, as if it were affected by reduce person.
 You grow in size by one category, as if affected by enlarge person (if you can be targeted by that

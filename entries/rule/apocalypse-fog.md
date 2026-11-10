@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse_fog", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Apocalypse Fog (CR 12):** An apocalypse fog is an augmented and highly dangerous form of
 [animating fog](ref/rule/animating-fog) often called into being by some foul deity. Its radius is 20

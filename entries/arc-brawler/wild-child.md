@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "89"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels", "Clo
 alters = ["Maneuver training"]
 +++
 
-**Sources:** Advanced Class Guide pg 89\
 The wild child works with his sworn animal friend to conquer the challenges that lay before them.
 This kinship could come from being lost in the wilderness and raised by animals or growing up with
 an exotic pet.

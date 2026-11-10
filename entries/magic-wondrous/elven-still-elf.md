@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_still_elf", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "231"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 231\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 7,500 gp; **Weight** 2 lbs.
 

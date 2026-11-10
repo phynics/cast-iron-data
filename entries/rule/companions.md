@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companions", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "140"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 140
 
 In a typical campaign, each player controls one character. However, there are several ways for you
 to temporarily or permanently gain the assistance of a companion, such as an animal companion, a

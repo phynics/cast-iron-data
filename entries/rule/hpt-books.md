@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hpt_books", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "42"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 42
 
 Cards in the suit of Books are tied to Intelligence.
 

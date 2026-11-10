@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_sentinel_iron_sentinel", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _An ape-like head with demonic features cast in black iron sits on six segmented
 
 **Size:** small
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 90\
 **Experience points:** 1,600
 
 **Armor class:** 19/15/15

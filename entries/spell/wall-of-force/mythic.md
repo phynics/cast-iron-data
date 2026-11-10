@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/wall-of-force", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "111"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 111\
 The wall's [hardness](ref/umr/hardness) increases to 40, and its hit points increase to 30 per
 caster level. A non-mythic [disintegrate](ref/spell/disintegrate) spell or
 [rod of cancellation](ref/magic-rod/rod-of-cancellation) negates a 10-foot-square section of a

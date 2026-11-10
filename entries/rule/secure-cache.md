@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secure_cache", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 57
 
 **Secure Cache** **(Moles, Propagandists, Saboteurs, and Spies):** The team can arrange for a cache
 of equipment to be hidden near a place of the PCs' choosing, or retrieve a cache from within a

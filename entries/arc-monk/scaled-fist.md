@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "14"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Still mind", "Maneuver training", "Quivering palm"]
 alters = ["Bonus feats"]
 +++
 
-**Sources:** Legacy of Dragons pg 14\
 Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage
 of draconic masters in Tian Xia, scaled fists eschew passive introspection in favor of unshakable
 confidence. Scaled fists learn to combine brutal intimidation with the brazen ferocity of an ancient

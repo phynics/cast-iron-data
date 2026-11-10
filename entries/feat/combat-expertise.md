@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_expertise", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "119"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can choose to take a -1 penalty on melee attack rolls and combat 
 +++
 
 ## Combat Expertise (Combat)
-
-**Sources:** PRPG Core Rulebook pg 119
 
 You can increase your defense at the expense of your accuracy.\
 **Prerequisites:** Int 13.\

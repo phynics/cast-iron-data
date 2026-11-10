@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "33"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Trap sense", "investigator talent gained at 7th leve
 alters = ["Inspiration"]
 +++
 
-**Sources:** Ultimate Intrigue pg 33\
 A conspirator uses his knowledge of investigations to make sure he avoids any investigations that
 his rivals perform, carefully plotting acts of intrigue behind closed doors. Paranoid to a fault, a
 conspirator always seems to know when someone else is watching him, and he takes numerous

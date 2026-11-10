@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_sealed_souls", path = "json/magic_legacy_items.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "21"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Chronicle of Legends pg 21\
 **Slot** ring; **CL** 15th; **Weight** -\
 **Aura** strong abjuration
 

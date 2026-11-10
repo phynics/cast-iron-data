@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligent_item_powers", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "535"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 535
 
 Each intelligent item should possess at least one power, although more powerful items might possess
 a host of powers. To find the item's specific powers, choose or roll on Table 15-24. All powers

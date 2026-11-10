@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_moves", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you are adjacent to an ally who also has this feat, you can initia
 +++
 
 ## Reckless Moves (Betrayal, Teamwork)
-
-**Sources:** Champions of Corruption pg 21
 
 You and your teammates push and pull each other to maintain your balance in precarious
 circumstances.\

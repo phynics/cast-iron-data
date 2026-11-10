@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rimepelt", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 61\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** shoulders; **Price** 3,350 gp; **Weight** 5 lbs.
 

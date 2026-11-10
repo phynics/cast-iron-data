@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storytellers_dust", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "236"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "2nd"
 +++
 
-**Sources:** Advanced Class Guide pg 236\
 **Aura** faint illusion; **CL** 2nd\
 **Slot** none; **Price** 600 gp; **Weight** -
 

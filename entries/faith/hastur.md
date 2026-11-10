@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hastur", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "73"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The King in Yellow
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 73\
 **Monster Link** [Hastur](ref/monster/great-old-one-hastur)
 
 ### Details

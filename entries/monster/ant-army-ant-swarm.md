@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ant_army_ant_swarm", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A writhing carpet of ants seethes over the ground, consuming everything in its 
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 16\
 **Subtype:** Swarm
 
 **Type:** vermin

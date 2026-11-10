@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tangled_limbs", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "In addition to the chosen weapon, a character with the weapon trainin
 +++
 
 ## Tangled Limbs (Combat)
-
-**Sources:** Martial Arts Handbook pg 25
 
 You twist your long weapon among your target's legs, knocking your foe off-balance.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

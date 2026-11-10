@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colour_out_of_space", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "38"
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ of latent malignancy._
 
 **Perception:** +18
 
-**Sources:** Bestiary 4 pg 38, Pathfinder \#46: Wake of the Watcher pg 76\
 **Subtype:** Incorporeal
 
 **Experience points:** 9,600

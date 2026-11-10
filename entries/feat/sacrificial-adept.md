@@ -6,14 +6,15 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_adept", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "92"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (arcana) 4 ranks, Knowledge (planes) 4 ranks, Knowledge (religion) 4 ranks, Spellcraft 4 ranks, ability to cast 3rd-level spells, evil alignment."
 benefit = "By partaking in a heinous ritual that takes at least 10 minutes to complete and which requires you to perform a successful coup de grace upon a sacrifice, you can enhance the power of a single spell you know or have prepared for the next 24 hours, regardless of how many times you cast it within that period. Your sacrifice must be a sentient creature with a total number of Hit Dice greater than or equal to your caster level, and it must die from your *coup de grace;* if it doesn't die or comes back to life, you lose all benefits related to that sacrifice."
 +++
-
-**Sources:** Horror Adventures pg 92
 
 The deaths of living, sentient creatures fuel your spells and heighten their potency.\
 **Prerequisites:** Knowledge (arcana) 4 ranks, Knowledge (planes) 4 ranks, Knowledge (religion) 4

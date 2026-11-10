@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "varisia-birthplace-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarf", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "15"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "1 sp-5 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19, Varisia, Birthplace of Legends pg
-15\
 **Price** 1 sp-5 gp; **Weight** 1/2 lb.\
 **Category** Clothing
 

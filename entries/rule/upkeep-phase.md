@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upkeep_phase", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "81"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 81
 
 If you have never performed any downtime activities in the settlement where you currently are, skip
 this phase and proceed to the Activity phase.

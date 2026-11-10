@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "release_the_hounds", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: one pack of canines
 Subschool: Summoning
 :::
-
-**Sources:** Magic Tactics Toolbox pg 10
 
 This spell summons a pack of canines that respond to the spellcaster's commands and act in perfect
 unison, causing them to function like a swarm. The pack uses the statistics for a winter wolf,

@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hologram_generator_orange", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## Hologram generator
 
-**Sources:** Technology Guide pg 47\
 **Price** 1,000 gp (black), 50,000 gp (blue), 500 gp (brown), 4,000 gp (gray), 30,000 gp (green),
 60,000 gp (orange), 90,000 gp (prismatic), 40,000 gp (red), 2,000 gp (white)\
 **Slot** none; **Weight** 1 lb. (all)\

@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compelling_harmonies", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you may expend one round of bardic performance 
 +++
 
 ## Compelling Harmonies (Teamwork)
-
-**Sources:** Cohorts and Companions pg 7
 
 Your harmonies reinforce and empower your allies' magic.\
 **Prerequisites:** [Basic Harmony](ref/feat/basic-harmony), Perform (keyboard, percussion, sing,

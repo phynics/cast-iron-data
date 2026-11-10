@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_strike", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a move action, you can phase out one manufactured weapon or piece 
 +++
 
 ## Phase Strike (Combat, Conduit)
-
-**Sources:** Planar Adventures pg 31
 
 You strike through the Ethereal Plane so your weapon phases through obstacles, armor, and even thick
 hide to strike true.\

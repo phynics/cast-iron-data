@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_fey", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "91"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Pathfinder \#68: The Shackled Hut/91
 
 "Winter fey" is an inherited template that can be added to any [fey](ref/type/fey) creature without
 the fire subtype, referred to hereafter as the base creature. A winter fey uses all the base

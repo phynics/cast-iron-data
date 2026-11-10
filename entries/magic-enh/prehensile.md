@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prehensile", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "215"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 215\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** +2,500 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prosperous_room", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: yes
 Target: room you own; see text
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 The targeted room is enchanted to have magical appeal for customers, an increase in the workflow of
 its employees, or the generation of additional materials to work with. While this spell is in

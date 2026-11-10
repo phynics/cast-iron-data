@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "heroes-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshal_2_3", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "41"
+[[sources]]
+publication = "mythic-origins"
+page = "29"
+[[sources]]
+publication = "mythic-realms"
+page = "13"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "30"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 41, Mythic Origins pg 29, Mythic Realms pg 13, Heroes of Golarion
-pg 30\
 You must be at least 3rd tier to select these path abilities.
 
 **Aura of Perseverance (Ex):** Your leadership keeps your allies going even when they're at death's

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "the-great-beyond-a-guide-to-the-multiverse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ayrzul", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "322"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ayrzul**
 
 **Sub:** The Fossilized King
-
-**Sources:** Inner Sea Gods pg 322
 
 ### Details
 

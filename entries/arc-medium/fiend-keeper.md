@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "location channel", "connection channel", "ask th
 alters = ["Spirit"]
 +++
 
-**Sources:** Blood of the Beast pg 8\
 Among the most sacred roles a grippli can play is that of fiend keeper, a vessel to contain one of
 the world's evil spirits so that it cannot inflict further harm. As the host performs goodly acts,
 he slowly cleanses the spirit, continuing this process over many generations, until the entity's

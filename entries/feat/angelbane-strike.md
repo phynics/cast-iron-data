@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelbane_strike", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "32"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Channel Smite, divine caster level 5th, channel negative energy
 prerequisite_feats = ["ref/feat/channel-smite"]
 benefit = "When you use Channel Smite against a living creature with a good alignment, you treat all 1s on the channel smite damage dice as 2s."
 +++
-
-**Sources:** Monster Codex pg 32
 
 You channel the power of your Abyssal patron through your weapon to punish the righteous.\
 **Prerequisites:** [Channel Smite](ref/feat/channel-smite), divine caster level 5th,

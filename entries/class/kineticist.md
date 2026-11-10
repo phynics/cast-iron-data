@@ -6,6 +6,9 @@ source_ids = ["occult-adventures", "advanced-players-guide", "blood-of-shadows",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kineticist", path = "json/classes2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "10"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "occult"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Occult Adventures pg 10
 
 Kineticists are living channels for elemental matter and energy, manipulating the world around them
 by drawing upon inner reserves from their own bodies. Kineticists often awaken to their kinetic

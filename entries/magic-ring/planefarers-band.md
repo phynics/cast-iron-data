@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planefarers_band", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "9"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Planes of Power pg 9\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** ring; **Price** 30,000 gp; **Weight** -
 

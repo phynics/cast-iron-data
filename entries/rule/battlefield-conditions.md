@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battlefield_conditions", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 237
 
 In some mass combats, the specifics of a battlefield won't impact either army, but sometimes the
 battlefield will itself decide the outcome. The modifiers listed below apply only for the duration

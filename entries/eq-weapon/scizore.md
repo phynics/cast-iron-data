@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scizore", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Adventurer's Armory pg 4, Ultimate Combat pg 144
 
 The scizore is a hardened tube that fits over the forearm, ending in a semi-circular blade used for
 devastating bladed punch attacks. The scizore grants a +1 shield bonus to AC, but if you attack with

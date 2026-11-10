@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunder_blessing", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can attempt to sunder an ongoing divine spell effect or divine sp
 +++
 
 ## Sunder Blessing (Combat)
-
-**Sources:** Agents of Evil pg 19
 
 Your disdain for authority allows you to tear away the blessings of the gods.\
 **Prerequisites:** [Disruptive](ref/feat/disruptive), fighter level 8th.\

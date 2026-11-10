@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_surprise_follow_through", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Great Cleave, each opponent you attack on your turn (other
 +++
 
 ## Improved Surprise Follow-Through (Combat)
-
-**Sources:** Advanced Race Guide pg 57
 
 You follow up an attack with a surprising series of sweeping blows.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Great Cleave](ref/feat/great-cleave),

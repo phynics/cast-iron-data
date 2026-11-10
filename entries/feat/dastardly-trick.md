@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-swashbuckler", label = "or" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "When you attempt a dirty trick combat maneuver check and expend 1 poi
 +++
 
 ## Dastardly Trick (Combat, Panache)
-
-**Sources:** Dirty Tactics Toolbox pg 14
 
 Your confident attacks leave your foes wavering and unable to regain their composure.\
 **Prerequisites:** Int 13; [Amateur Swashbuckler](ref/feat/amateur-swashbuckler) or panache class

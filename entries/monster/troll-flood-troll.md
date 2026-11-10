@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_flood_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ for eyes; and large, powerful hands that end in wicked claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 88\
 **Subtype:** Giant
 
 **Experience points:** 600

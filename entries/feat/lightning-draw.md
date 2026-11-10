@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_draw", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can spend 1 panache point to draw one or more light or one-handed
 +++
 
 ## Lightning Draw (Combat, Panache)
-
-**Sources:** Ultimate Intrigue pg 86
 
 You can draw your weapon with startling speed.\
 **Prerequisites:** [Quick Draw](ref/feat/quick-draw),

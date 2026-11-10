@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vomit_swarm", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: no
 Effect: one swarm of spiders
 Subschool: Summoning
 :::
-
-**Sources:** Advanced Player's Guide pg 254
 
 You vomit forth a [swarm of spiders](ref/monster/spider-spider-swarm) that attacks all other
 creatures within its area. The swarm begins adjacent to you, but if no living creatures are within

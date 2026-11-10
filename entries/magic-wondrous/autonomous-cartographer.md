@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "autonomous_cartographer", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Seekers of Secrets pg 55\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 2,000 gp; **Weight** 1/2 lb.
 

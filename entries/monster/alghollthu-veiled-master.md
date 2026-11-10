@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alghollthu_veiled_master", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "270"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ with what look like hands._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 6 pg 270, Inner Sea Bestiary pg 56\
 **Subtype:** Aquatic, Shapechanger
 
 **Experience points:** 38,400

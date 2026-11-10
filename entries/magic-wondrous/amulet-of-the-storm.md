@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_storm", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "184"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Adventurer's Guide pg 184\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** neck; **Price** 36,000 gp; **Weight** -
 

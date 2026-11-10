@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_swing", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, make a single attack with your chosen weapon. I
 +++
 
 ## Meteor Swing (Combat)
-
-**Sources:** Martial Arts Handbook pg 26
 
 The power of your blow leaves your enemies reeling.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) with bludgeoning weapon, base attack bonus

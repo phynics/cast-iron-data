@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saga_of_the_linnorm_kings", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** People of the North pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 26,000 gp; **Weight** 5 lbs.
 

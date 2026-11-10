@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scribe_scroll", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create a scroll of any spell that you know. Scribing a scroll
 +++
 
 ## Scribe Scroll (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 132
 
 You can create magic scrolls.\
 **Prerequisites:** Caster level 1st.\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "board_game", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "92"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1 sp-10 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 92, Adventurer's Armory pg 19\
 **Price** 1 sp-10 gp; **Weight** 2 lbs.\
 **Category** Entertainment
 

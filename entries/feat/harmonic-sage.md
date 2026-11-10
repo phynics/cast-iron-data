@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harmonic_sage", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "104"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Bardic performance class feature, Knowledge (engineering) 5 ran
 benefit = "While inside an artificial structure, you can spend a free action to make a DC 15 Knowledge (engineering) check when you begin your bardic performance. Success on this check allows you to do one of the following."
 normal = "A bardic performance lasts only as long as you maintain it."
 +++
-
-**Sources:** Ultimate Combat pg 104
 
 Your thorough understanding of acoustics in artificial surroundings allows you to improve the power
 of your bardic performance.\

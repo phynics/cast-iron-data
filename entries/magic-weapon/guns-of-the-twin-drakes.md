@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guns_of_the_twin_drakes", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Antihero's Handbook pg 30\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 18,600 gp; **Weight** 8 lbs.
 

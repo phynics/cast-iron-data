@@ -6,6 +6,9 @@ source_ids = ["we-be-goblins-too"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gourd_of_fire_burping", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "we-be-goblins-too"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Sources:** We Be Goblins Too! pg 12\
 **Aura** faint evocation; **CL** 4th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

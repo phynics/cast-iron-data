@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recall_knowledge_spellcraft", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 65
 
 Spellcraft can be used to recall knowledge on the subjects of ancient mysteries, arcane symbols, and
 magic traditions. See [Recall Knowledge](ref/rule/skill-descriptions-pu) for details. Use the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courage_heart", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ trickles down her arm._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 84\
 **Subtype:** Chaotic, Extraplanar, Good
 
 **Experience points:** 51,200

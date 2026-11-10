@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ogre_crush", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "153"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Str 25, Improved Grapple, Improved Unarmed Strike, ogre, size L
 prerequisite_feats = ["ref/feat/improved-grapple", "ref/feat/improved-unarmed-strike"]
 benefit = "Your unarmed strike damage increases by one step when you're grappling creatures smaller than you. You gain the constrict monster special ability, dealing an amount of damage equal to either the slam damage for a creature of your size or your unarmed strike damage, whichever is greater."
 +++
-
-**Sources:** Monster Codex pg 153
 
 Your thick, muscular arms are capable of landing powerful blows and crushing the life out of the
 smaller creatures you embrace.\

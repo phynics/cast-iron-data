@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_clock", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "58"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "1,000 gp"
 weight = "200 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 58, PRPG Core Rulebook pg 158\
 **Price** 1,000 gp; **Weight** 200 lbs.\
 **Category** Adventuring Gear
 

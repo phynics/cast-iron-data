@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shearing_sword", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Combat pg 57\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 8,350 gp; **Weight** 8 lbs.
 

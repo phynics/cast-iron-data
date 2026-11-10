@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firesight", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "25"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Adventures/25
 
 You can see through flames and smoke as if they were transparent. Creatures that are on fire or have
 the fire subtype never benefit from [concealment](ref/rule/concealment) or total concealment against

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_conduit", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "54"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Inner Sea Magic pg 54
 
 Originally created by a disciple of the archwizard Nex, this spell was used to turn enemy soldiers
 in Geb's undead armies into conduits capable of blasting spell energy back into the far reaches of

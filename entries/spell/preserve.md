@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preserve", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one or more objects, up to 1 lb./level
 :::
-
-**Sources:** Inner Sea Temples pg 43
 
 You imbue one or more objects with magic that dramatically slows down natural processes that lead to
 decay and spoilage. For the duration of the spell, food, water, plants, and other perishable objects

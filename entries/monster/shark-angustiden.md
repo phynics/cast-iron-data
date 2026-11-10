@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_angustiden", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ enough for a human to stand in, and its body stretches back more than 20 feet._
 
 **Perception:** +19
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 84\
 **Subtype:** Aquatic
 
 **Experience points:** 3,200

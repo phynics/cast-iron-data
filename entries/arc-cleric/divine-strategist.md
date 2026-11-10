@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "40"
 
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
 +++
 
-**Sources:** Ultimate Combat pg 40\
 The divine strategist leads the armies of the faithful, not from the front lines but through her
 clever strategy and tactical acumen.
 

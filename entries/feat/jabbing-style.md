@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jabbing_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "152"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit a target with an unarmed strike and you have hit that ta
 +++
 
 ## Jabbing Style (Combat, Style)
-
-**Sources:** Advanced Class Guide pg 152
 
 A cluster of quick strikes deals more damage than a single roundhouse swing.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike); base attack bonus

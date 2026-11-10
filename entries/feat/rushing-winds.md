@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rushing_winds", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a full-round action, you can fly up to twice your Fly speed in a s
 +++
 
 ## Rushing Winds (Combat)
-
-**Sources:** Blood of the Ancients pg 29
 
 You can fly through the air at high speed, creating a column of wind in your path that destabilizes
 other fliers.\

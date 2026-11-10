@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_haniver", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "143"
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ burning with malevolence._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 143, Pathfinder \#25: The Bastards of Erebus pg 76\
 **Subtype:** Aquatic
 
 **Size:** tiny

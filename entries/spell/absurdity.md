@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absurdity", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "108"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: up to one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Phantasm
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 108
 
 Your targets perceive intimidation and threats as laughably absurd. A character attempting to
 intimidate your targets is instead perceived as having exaggerated facial features or babbling and

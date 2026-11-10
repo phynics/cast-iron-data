@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trollhound", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "274"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ vaguely canine beast._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 274, Pathfinder \#32: Rivers Run Red pg 88\
 **Experience points:** 800
 
 **Armor class:** 15/11/14

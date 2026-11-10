@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-conjuration" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Effect: see text
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** PRPG Core Rulebook pg 340
 
 This spell functions like [shadow conjuration](ref/spell/shadow-conjuration), except that it mimics
 conjuration spells of 8th level or lower. The illusory conjurations created deal four-fifths (80%)

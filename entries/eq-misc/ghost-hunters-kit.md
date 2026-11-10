@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_hunters_kit", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "670 gp"
 weight = "22 lbs."
 +++
 
-**Sources:** Undead Slayer's Handbook pg 13\
 **Price** 670 gp; **Weight** 22 lbs.\
 **Category** Kits
 

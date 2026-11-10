@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dream-travel" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "167"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: you and one creature/level
 Subschool: Teleportation
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 167
 
 This spell functions as [dream travel](ref/spell/dream-travel), but you and your companions travel
 through the Dimension of Dreams in a fantastical vehicle of your own devising that halves the travel

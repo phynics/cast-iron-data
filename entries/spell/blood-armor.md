@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_armor", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 176
 
 Your blood becomes as hard as iron upon contact with air. Each time you take at least 5 points of
 piercing or slashing damage, your armor gains a +1 enhancement bonus to your AC. An outfit of

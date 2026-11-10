@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_beast", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "218"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "An animal companion can't take both Ferocious Beast and Intimidating 
 +++
 
 ## Ferocious Beast (Combat)
-
-**Sources:** Ultimate Wilderness pg 218
 
 Through training or natural ability, the animal is skilled at unnerving its enemies.\
 **Prerequisites:** Intimidate 1 rank, [animal companion](ref/sidekick/animal-companion).\

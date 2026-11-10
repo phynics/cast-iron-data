@@ -6,12 +6,13 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "idol_sacrifices", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Realms pg 61
 
 Sacrifices come in a number of forms; sacred feasts, magic items, the weapons of slain enemies,
 gold, and the blood of slaughtered creatures are just a few possibilities. For an idol to benefit

@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_pa", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 100
 
 **Realm of the Fey**
 

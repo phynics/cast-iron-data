@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rending_claw_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "95"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Advanced Race Guide pg 95\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 10,305 gp; **Weight** 1 lb.
 

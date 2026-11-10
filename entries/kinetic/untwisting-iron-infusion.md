@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ Iron
 **Associated:** [Earth Blast](ref/kinetic/earth-blast), [Metal Blast](ref/kinetic/metal-blast)
 
 **Saving throw:** none
-
-**Source:** Martial Arts Handbook/30
 
 Each time you hit a foe with an unarmed strike with your infused blast, increase your DR/adamantine
 from [flesh of stone](ref/kinetic/flesh-of-stone) by 1 until the start of your next turn. You can

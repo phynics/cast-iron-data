@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dullahan", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "111"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ of menace._
 
 **Perception:** +16
 
-**Sources:** Bestiary 2 pg 111\
 **Type:** undead
 
 **Experience points:** 3,200

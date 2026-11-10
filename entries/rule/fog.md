@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fog", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "439"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 439
 
 Whether in the form of a low-lying cloud or a mist rising from the ground, fog obscures all sight
 beyond 5 feet, including [darkvision](ref/rule/darkvision). Creatures 5 feet away have

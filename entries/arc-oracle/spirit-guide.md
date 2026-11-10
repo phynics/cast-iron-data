@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "106"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "Revelations gained at 3rd, 7th, and 15th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 106\
 Through her exploration of the universe's mysteries, a spirit guide opens connections to the spirit
 world and forms bonds with the entities that inhabit it.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nobles_outfit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "75 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 89, PRPG Core Rulebook pg 159\
 **Price** 75 gp; **Weight** 10 lbs.\
 **Category** Clothing
 

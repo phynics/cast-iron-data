@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastion_banner", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate varies"
 caster_level = "10th"
 +++
 
-**Sources:** Demon Hunter's Handbook pg 28\
 **Aura** moderate varies; **CL** 10th\
 **Slot** none; **Price** 182,000 gp; **Weight** 3 lbs.
 

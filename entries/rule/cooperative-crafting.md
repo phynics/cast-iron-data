@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_crafting", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "170"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 170
 
 If you need another character to supply one of an item's requirements (such as if you're a wizard
 creating an item with a divine spell), both you and the other character must be present for the

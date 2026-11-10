@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bombard_standard", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "161"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Bombard
-
-**Sources:** Ultimate Combat pg 161
 
 Resembling either large cauldrons or more traditional cannons, these firearms lob their ammunition
 in an arc in order to deliver their deadly payloads over troops or castle walls. Bombards are

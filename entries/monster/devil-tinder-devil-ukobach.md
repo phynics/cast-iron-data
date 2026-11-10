@@ -6,6 +6,9 @@ source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_tinder_devil_ukobach", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ flickering with wild flames._
 
 **Size:** small
 
-**Sources:** Pathfinder \#25: The Bastards of Erebus pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,200

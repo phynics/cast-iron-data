@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/deep-slumber", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 90\
 This spell works like mythic sleep, except that it affects up to 20 Hit Dice of creatures.
 Alternatively, you may target one creature rather than an area, increasing the duration to 1 hour
 per level.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adlet", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ fist._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 9\
 **Subtype:** Adlet, Cold
 
 **Experience points:** 9,600

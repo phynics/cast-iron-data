@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "satyr", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "241"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ from his temples._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 241\
 **Experience points:** 1,200
 
 **Armor class:** 18/13/15

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shambling_mound", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ turned earth._
 
 **Type:** plant
 
-**Sources:** Pathfinder RPG Bestiary pg 246\
 **Experience points:** 2,400
 
 **Armor class:** 19/9/19

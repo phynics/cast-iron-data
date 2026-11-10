@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "81"
 
 [fields]
 kind = "archetype"
 replaces = ["Countersong", "Inspire competence", "Suggestion", "Dirge of doom"]
 +++
 
-**Sources:** Advanced Class Guide pg 81\
 A flame dancer studies the movements of fire, adding its grace to his repertoire. He seeks truth in
 fire's burning essence, and uses his performance to unleash the power of fire against those who dare
 oppose him.

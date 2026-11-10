@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_prosthesis", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Magical Marketplace pg 23\
 **Aura** strong conjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 6,400 gp; **Weight** 25 lbs.
 

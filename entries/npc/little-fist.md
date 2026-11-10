@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "little_fist", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "105"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "13"
 
 **Challenge rating:** 13
 
-**Sources:** NPC Codex pg 105\
 **XP** 25,600\
 Halfling [monk](ref/class/monk) 14\
 LN Small humanoid (halfling)\

@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrapnel_strike", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attempt a Strength check to break an object that can shatter
 +++
 
 ## Shrapnel Strike (Combat)
-
-**Sources:** Champions of Corruption pg 23
 
 You can bash things to damage nearby opponents.\
 **Prerequisites:** Str 15, [Improved Sunder](ref/feat/improved-sunder),

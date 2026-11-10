@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_darkness", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Targets: one creature/3 levels, no two of which can be more than 30 ft. apart
 Descriptors: darkness
 :::
-
-**Sources:** Inner Sea Temples pg 13
 
 With a dark incantation and a gesture of your hand over your eyes, you cause a shroud of darkness to
 descend upon the targets of this spell. The subjects treat the light level as two steps lower than

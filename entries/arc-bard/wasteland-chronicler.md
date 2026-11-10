@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence"]
 +++
 
-**Sources:** People of the Wastes pg 25\
 Some explore the farthest reaches of desolate wastelands, seeking to unlock the mysteries found
 there and meet the inhabitants of such regions, and chronicle their findings. The wasteland
 chronicler has discovered a connection to the wastelands and can use his performance to guide

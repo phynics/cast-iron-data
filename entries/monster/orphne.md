@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orphne", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ palpable aura of death._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Down the Blighted Path pg 58\
 **Experience points:** 1,200
 
 **Armor class:** 18/14/14

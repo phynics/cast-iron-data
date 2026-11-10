@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manual_of_binding", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "126"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _The three volumes of this set are bound in black sharkskin, the spells inscribed in purple ink on
 fine paper. Spells conceal extensive notes on constructing a lich's phylactery._
-
-**Sources:** Ultimate Magic pg 126
 
 **Opposition** Abjuration, enchantment\
 **Protection** [magic aura](ref/spell/magic-aura) (spellbook appears nonmagical),

@@ -6,6 +6,15 @@ source_ids = ["alchemy-manual", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitoxin", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "30"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
+[[sources]]
+publication = "ultimate-equipment"
+page = "101"
 
 [fields]
 kind = "item"
@@ -14,7 +23,6 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Sources:** Alchemy Manual pg 30, PRPG Core Rulebook pg 158, Ultimate Equipment pg 101\
 **Price** 50 gp; **Weight** -\
 **Category** Alchemical Remedies
 

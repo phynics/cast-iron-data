@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/antimagic-field" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "52"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: see text
 Area: 10-ft.-radius emanation, centered on you
 :::
-
-**Sources:** Inner Sea Magic pg 52
 
 One of many spells originally created by the Last Azlanti before he became a god, Aroden's spellbane
 creates an area within which spells selected by you simply do not function. Select one spell per

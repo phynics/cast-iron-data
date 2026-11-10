@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayfinder_of_the_planes", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder Society Primer pg 21\
 **Aura** moderate abjuration; **CL** 6th\
 **Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zenj_spirit_fetish", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 29\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** 4,500 gp; **Weight** -
 

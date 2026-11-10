@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirroring_belt", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Sources:** Mythic Adventures pg 154\
 **Aura** moderate illusion; **CL** 6th\
 **Slot** belt; **Price** 36,000 gp; **Weight** 2 lbs.
 

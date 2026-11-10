@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_child", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and smoldering ash._
 
 **Size:** small
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 58\
 **Subtype:** Fire
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_manhunter", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 bonus on Bluff, Knowledge, Perception, Sense Motive, an
 +++
 
 ## Bloodstone Manhunter (Faction)
-
-**Sources:** Faction Guide pg 56
 
 You are skilled at fighting criminal humans such as bandits.\
 **Prerequisites:** [Bloodstone Swords](ref/rule/f-merceneries) 10 TPA.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mocking_dance", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "110"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you spend a swift action to make a performance combat check, bef
 +++
 
 ## Mocking Dance (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 110
 
 You do a little dance that mocks your foe and entertains the crowd.\
 **Prerequisites:** Acrobatics 4 ranks or Perform (dance) 4 ranks.\

@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solidify_earth", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Area: up to two 10-foot cubes per level (S)
 Descriptors: earth
 :::
-
-**Sources:** Monster Hunter's Handbook pg 31
 
 Stone, dirt, and other types of earth within the area become more tightly packed. Burrowing creature
 (including those using earth glide) treat the area as difficult terrain. Any creature that begins

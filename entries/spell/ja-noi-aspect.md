@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ja_noi_aspect", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 74
 
 You gain some of the appearance and qualities of the ja noi, oni who take hobgoblin form. Your skin
 turns a fiery red color and you gain [fast healing](ref/umr/fast-healing) 3, although this ability

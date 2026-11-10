@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_copper", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "106"
 
 [fields]
 kind = "none"
 +++
 
 ## Copper Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 106
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

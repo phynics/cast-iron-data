@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dahzagan", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ body of a giant wolf._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Scent
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 59\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 2,400

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_shell", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 45\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 3,000 gp; **Weight** -
 

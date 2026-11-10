@@ -6,12 +6,14 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_damned", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 17\
 **School** necromancy; **Level** 4\
 **Casting Time** 30 minutes\
 **Components** V, S, M (a blade worth 150 gp and a parchment), SC (up to the Intelligence modifier

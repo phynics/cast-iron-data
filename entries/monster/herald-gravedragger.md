@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_gravedragger", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ upper half is humanoid-shaped and wields an enormous pick made from a giant's ri
 
 **Senses:** Darkvision 60 ft., Scent, See in darkness
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 86\
 **Subtype:** Evil
 
 **Experience points:** 51,200

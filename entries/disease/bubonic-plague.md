@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bubonic_plague", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 557
 
 **Type:** Disease (Injury or inhaled)
 

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucination", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "184"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 184\
 **Type** lesser madness; **Save DC** 14\
 **Onset** 2d6 days\
 **Effect** -4 penalty on any Will saving throw against or to disbelieve illusions, and illusions of

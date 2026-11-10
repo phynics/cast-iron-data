@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_age_of_the_world", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 163
 
 Time isn't just about holidays, calendars, and politics. On a more cosmic level, the tone of the
 campaign may depend on how old or young the world is, and what this means to the people, places, and

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-cacodaemon" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: evil
 :::
 
 ### Greater Summon Cacodaemon
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 39
 
 This spell functions like [summon cacodaemon](ref/spell/summon-cacodaemon), except that it summons
 1d4+1 cacodaemons.

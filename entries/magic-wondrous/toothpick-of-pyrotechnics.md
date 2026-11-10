@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toothpick_of_pyrotechnics", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "236"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Class Guide pg 236\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 400 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torc_of_enmity", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 22\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** neck; **Price** 9,500 gp; **Weight** 5 lbs.
 

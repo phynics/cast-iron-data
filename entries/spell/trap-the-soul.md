@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_the_soul", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "362"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes; see text
 Target: one creature
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 362
 
 Trap the soul forces a creature's life force (and its material body) into a gem. The gem holds the
 trapped entity indefinitely or until the gem is broken and the life force is released, which allows

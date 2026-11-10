@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/stone-tell" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: you
 :::
 
 ### Speak with Waves
-
-**Sources:** Elemental Master's Handbook pg 14
 
 This spell functions as [stone tell](ref/spell/stone-tell) but allows conversations only with a body
 of standing or flowing fresh water at least as large as you are. Flowing water can generally speak

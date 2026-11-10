@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iroris_meditation", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 27
 
 As a mortal, [Irori](ref/faith/irori) committed to a lifestyle of intense discipline and
 self-actualization, a dedication that persists through Irori's followers to this day. Legends state

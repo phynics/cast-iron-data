@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_shield_mastery", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has an abjuration spell of 1st level or hi
 +++
 
 ## Force Shield Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can create barriers of force with abjuration magic items.\
 **Prerequisites:** Use Magic Device 3 ranks, base Fortitude saving throw bonus +3.\

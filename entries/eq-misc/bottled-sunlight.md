@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottled_sunlight", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Undead Slayer's Handbook pg 13\
 **Price** 200 gp; **Weight** 2 lbs.\
 **Category** Alchemical Tools
 

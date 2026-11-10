@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness", "wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspects", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+[[sources]]
+publication = "wilderness-origins"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness, Wilderness Origins
 
 A shifter draws her primary strength from an association with a specific type of animal. As a
 result, when a shifter uses her shifter aspect or wild shape class features, she can assume only the

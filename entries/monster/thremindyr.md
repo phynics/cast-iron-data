@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thremindyr", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Blustering winds and snow swirl around this white, almost transparent fey-like 
 
 **Senses:** Darkvision 60 ft., Sense protection
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 90\
 **Subtype:** Air, Cold, Native
 
 **Experience points:** 6,400

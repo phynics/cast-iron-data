@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suli", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "258"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ blaze of crackling flames._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 258, Qadira, Gateway to the East pg 28\
 **Subtype:** Native
 
 **Experience points:** 200

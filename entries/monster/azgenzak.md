@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azgenzak", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ orange flame._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 82\
 **Subtype:** Aquatic
 
 **Experience points:** 4,800

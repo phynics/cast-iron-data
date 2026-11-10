@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/gorums-armor", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 12\
 The damage to attackers increases to 1d4 points of piercing damage and affects creatures that attack
 the wearer with a melee weapon, an unarmed strike, or a natural weapon. Melee weapons with reach do
 not endanger a creature in this way. If you're wearing the armor and are taking bleed damage, the

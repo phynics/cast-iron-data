@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "translators_cap_human", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 235\
 **Aura** faint divination; **CL** 5th\
 **Slot** head; **Price** 14,000 gp; **Weight** 1 lb.
 

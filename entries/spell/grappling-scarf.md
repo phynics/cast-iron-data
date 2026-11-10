@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_scarf", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Armory 2 pg 21
 
 A scarf you are wearing frays at the end into hook-like shapes and can extend to incredible lengths.
 Although your scarf retains its weight, its frayed ends function as a grappling hook that can be

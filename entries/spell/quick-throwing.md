@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_throwing", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "71"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 71
 
 Those under the effects of this spell become faster in the use of thrown weapons. They can draw
 thrown weapons (including rocks if they have the rock throwing ability) on their bodies or within

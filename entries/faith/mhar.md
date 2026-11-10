@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mhar", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "68"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The World Thunder
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 68\
 **Monster Link** [Mhar](ref/monster/great-old-one-mhar)
 
 ### Details

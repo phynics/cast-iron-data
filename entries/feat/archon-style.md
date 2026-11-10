@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archon_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
+[[sources]]
+publication = "blood-of-angels"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "While using this style, as a move action, you can protect adjacent al
 +++
 
 ## Archon Style (Combat, Style)
-
-**Sources:** Planar Adventures pg 25, Blood of Angels pg 24
 
 You protect your allies from harm, even at the cost of your own safety.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise);

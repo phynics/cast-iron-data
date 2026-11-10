@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imposing_bearing", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You treat your size as two categories larger for the purposes of dete
 +++
 
 ## Imposing Bearing (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 17
 
 Your armor allows you to push your opponents around.\
 **Prerequisites:** [Poised Bearing](ref/feat/poised-bearing), base attack bonus +11 or fighter level

@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_generator", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "360"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 360
 
 The following system gives GMs a way to generate random treasure to reward players after completing
 an encounter or otherwise recovering valuables. While [Table 12-5](ref/rule/placing-treasure) of the

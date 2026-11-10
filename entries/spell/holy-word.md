@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_word", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "297"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: nongood creatures in a 40-ft.-radius spread centered on you
 Descriptors: good, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 297
 
 Any nongood creature within the area of a holy word spell suffers the following ill effects.
 

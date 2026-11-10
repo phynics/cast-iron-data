@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wandering_punishment", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Martial Arts Handbook pg 31\
 **Aura** strong transmutation; **CL** 15th\
 **Slot** none; **Price** 30,320 gp; **Weight** 10 lbs.
 

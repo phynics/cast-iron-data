@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore", path = "json/class_ability_mysteries.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "49"
 
 [fields]
 kind = "class_option"
 group = "oracle-mystery"
 +++
-
-**Sources:** Advanced Player's Guide pg 49
 
 **Deities**
 

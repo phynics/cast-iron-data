@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonflower", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "192"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ whole._
 
 **Type:** plant
 
-**Sources:** Bestiary 2 pg 192, Pathfinder \#14: Children of the Void pg 82\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/21

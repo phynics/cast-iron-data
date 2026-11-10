@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_graves", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Grasping Graves (CR 4):** Treading on the burial sites of the unquiet dead can be treacherous, as
 the buried dead seek to drag the living down into their restless graves. These patches of shallow

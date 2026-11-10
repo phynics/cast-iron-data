@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanting_demise", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "133"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 133
 
 **Enchanting Demise**
 

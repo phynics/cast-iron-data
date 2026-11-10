@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reserve_army", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 246
 
 The costs in this section assume an active, deployed army. You may instead convert an army into a
 reserve army, placing it in a settlement. This reduces the Consumption cost for the army to once per

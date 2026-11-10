@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_block", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 176
 
 You lock access to the target's procedural memories, preventing it from drawing upon its experience
 and expertise. The target loses all skill ranks, spells known, spells prepared, and activated feats,

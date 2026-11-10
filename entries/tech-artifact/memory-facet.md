@@ -6,6 +6,9 @@ source_ids = ["pathfinder-86-lords-of-rust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_facet", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "pathfinder-86-lords-of-rust"
+page = "62"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ slot = "none"
 
 ## Memory Facet
 
-**Sources:** Pathfinder \#86: Lords of Rust pg 62\
 **Slot** none; **Weight** —\
 **Capacity** -; **Usage** -
 

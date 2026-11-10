@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "faiths-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nivi_rhombodazzle", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "184"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nivi Rhombodazzle**
 
 **Sub:** The Gray Polychrome
-
-**Sources:** Inner Sea Gods pg 184
 
 ### Details
 

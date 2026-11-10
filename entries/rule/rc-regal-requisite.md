@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_regal_requisite", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "185"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 185\
 Your item requires a king's hair, a prince's kiss, or some other participation from high-ranking
 nobility.
 

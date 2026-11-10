@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replay_tracks", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "233"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Wilderness pg 233
 
 This spell allows you to reconstruct past events that occurred in your current location based on the
 tracks and other signs left behind. Replay tracks reveals events that occurred while the tracks that

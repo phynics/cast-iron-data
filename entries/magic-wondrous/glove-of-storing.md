@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glove_of_storing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "236"
+[[sources]]
+publication = "core-rulebook"
+page = "515"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 236, PRPG Core Rulebook pg 515\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** hands; **Price** 10,000 gp; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "head", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 195
 
 Called shots to the head are tricky (-5 penalty), as most creatures show some skill at dodging
 attacks aimed at their faces. Some creatures, such as otyughs and purple worms, lack a proper head

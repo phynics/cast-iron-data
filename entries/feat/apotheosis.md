@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apotheosis", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Constitution checks to stabilize while dying. 
 +++
 
 ## Apotheosis (Story)
-
-**Sources:** Quests and Campaigns pg 6
 
 You are marked by fate as a future deity - even before this destiny is realized, fate bends to your
 will.\

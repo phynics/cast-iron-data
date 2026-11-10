@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nodachi", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "19"
+[[sources]]
+publication = "ultimate-combat"
+page = "133"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 19, Ultimate Combat pg 133
 
 This very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It
 is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders

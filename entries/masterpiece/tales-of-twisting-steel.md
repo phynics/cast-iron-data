@@ -6,6 +6,8 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tales_of_twisting_steel", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Tales of Twisting Steel (Act, Oratory)
-
-**Sources:** The Harrow Handbook
 
 This medley of tales inspires listeners to new heights of bravery and self sacrifice.
 

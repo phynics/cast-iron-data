@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Negative Blast](ref/kinetic/negative-blast), [Void Blast](ref/kinetic/void-blast)
 
 **Saving throw:** none
-
-**Source:** Elemental Master's Handbook/22
 
 Your kinetic blast can drain your foes' vitality to replenish your own.
 

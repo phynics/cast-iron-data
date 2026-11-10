@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion", path = "json/class_ability_aspects.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "5"
 
 [fields]
 kind = "class_option"
 group = "shifter-aspect"
 +++
 
-**Sources:** Wilderness Origins pg 5\
 The aspect of the scorpion invokes a hidden menace with a poisonous sting.
 
 **Minor Form**

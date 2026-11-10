@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_skill_unlocks", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 194
 
 Characters capable of casting psychic spells or who have the
 [Psychic Sensitivity](ref/feat/psychic-sensitivity) feat gain access to skill unlocks - a host of

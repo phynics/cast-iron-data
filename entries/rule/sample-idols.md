@@ -6,12 +6,13 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_idols", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Realms pg 63
 
 The following are examples of specific idols.
 

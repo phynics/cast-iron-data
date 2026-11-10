@@ -6,12 +6,13 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodily_possession", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "59"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 59
 
 A fiend possesses a creature's body not only to torture its victim, but to torment the possessed
 creature's loved ones. More often than not, a fiend aggressively inhabits a host, but sometimes a

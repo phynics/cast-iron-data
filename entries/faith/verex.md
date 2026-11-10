@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verex", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Verex**
 
 **Sub:** The Despoiler
-
-**Sources:** Inner Sea Gods pg 328
 
 ### Details
 

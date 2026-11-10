@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_tuning_forks", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 85
 
 [Plane shift](ref/spell/plane-shift) requires a specific tuning fork attuned to the destination
 plane, and while the Core Rulebook lists this as a spell focus with no listed price (implying that

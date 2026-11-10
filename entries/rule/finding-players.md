@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finding_players", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 12
 
 Once you know how many players you'd like to have, it's time to organize a group. Start by talking
 to friends and family members you'd like to include. Mixing ages is fine so long as there are enough

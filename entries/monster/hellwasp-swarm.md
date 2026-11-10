@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellwasp_swarm", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "146"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 146\
 **Subtype:** Extraplanar, Swarm
 
 **Type:** vermin

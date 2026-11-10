@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promethean", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "32-33"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 32-33\
 Your body is slowly wasting away. As your body decays, you must gradually replace more and more of
 it with artificial components - corpse flesh, bone, wood, metal, or other exotic materials.
 

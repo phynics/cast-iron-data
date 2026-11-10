@@ -6,6 +6,9 @@ source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_aurochs", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-96-shadow-of-the-storm-tyrant"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ clouds._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#96: Shadow of the Storm Tyrant pg 90\
 **Experience points:** 6,400
 
 **Armor class:** 23/11/20

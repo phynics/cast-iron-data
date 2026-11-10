@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insomnia_powder", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "26"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "60 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Dungeoneer's Handbook pg 26\
 **Price** 60 gp; **Weight** 2 lbs.\
 **Category** Alchemical Weapons
 

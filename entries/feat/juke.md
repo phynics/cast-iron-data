@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juke", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an opponent charges you, you gain a +4 dodge bonus to your AC. I
 +++
 
 ## Juke (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 15
 
 You can avoid a charge, leaving your opponent vulnerable to attacks by you or your allies.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),

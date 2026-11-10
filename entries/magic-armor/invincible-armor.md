@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invincible_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "127"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 127\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** armor; **Price** 137,650 gp; **Weight** 50 lbs.
 

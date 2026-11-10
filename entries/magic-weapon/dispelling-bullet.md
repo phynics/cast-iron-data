@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelling_bullet", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "mild abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Heroes of Golarion pg 18\
 **Aura** mild abjuration; **CL** 5th\
 **Slot** none; **Price** 250 gp; **Weight** -
 

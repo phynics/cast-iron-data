@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_throttle", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "The damage that you deal with the Kraken Style feat on a successful g
 +++
 
 ## Kraken Throttle (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 13
 
 You tighten your grip around your target's throat.\
 **Prerequisites:** Wis 13, [Improved Grapple](ref/feat/improved-grapple),

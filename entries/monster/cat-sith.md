@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_sith", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ eerily human._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Familiar Folio pg 28\
 **Size:** tiny
 
 **Experience points:** 600

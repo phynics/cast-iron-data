@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favors", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 112
 
 Favors lie at the heart of the organizational influence system. When the PCs perform a favor for an
 organization, they can either gain influence points, or they can earn a favor from the organization

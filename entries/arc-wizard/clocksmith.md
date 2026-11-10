@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["School powers granted by the wizard's arcane school", "Scribe Scrol
 alters = ["Arcane bond"]
 +++
 
-**Sources:** Construct Handbook pg 10\
 Clocksmiths are oddities among wizard communities, pursuing the study and creation of clockwork
 constructs to near obsession. These wizards favor mechanical experiments over other arcane pursuits.
 

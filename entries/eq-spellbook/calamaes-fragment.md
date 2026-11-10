@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calamaes_fragment", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _Two gold-plated bronze covers bind this gaudy tome. Several synonyms for "wealth" are neatly
 chiseled in different languages on the cover._
-
-**Sources:** Arcane Anthology pg 18
 
 **Value** 1,565 gp
 

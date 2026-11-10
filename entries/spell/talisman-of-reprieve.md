@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_reprieve", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: 20-ft.-radius emanation centered on an item
 :::
-
-**Sources:** Plane-Hopper's Handbook pg 12
 
 You imbue an item with an aura of divine amnesty, allowing all allies within the aura's area to
 ignore penalties to Intelligence-, Wisdom-, and Charisma-based checks resulting from a plane's

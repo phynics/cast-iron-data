@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mounted_shield", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "165"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You may add your base shield bonus (including the bonus from Shield F
 +++
 
 ## Mounted Shield (Combat)
-
-**Sources:** Advanced Player's Guide pg 165
 
 Your defensive tactics defend both you and your mount.\
 **Prerequisites:** [Mounted Combat](ref/feat/mounted-combat), [Shield Focus](ref/feat/shield-focus).\

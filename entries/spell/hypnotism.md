@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotism", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "298"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Area: several living creatures, no two of which may be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 298
 
 Your gestures and droning incantation fascinate nearby creatures, causing them to stop and stare
 blankly at you. In addition, you can use their rapt attention to make your suggestions and requests

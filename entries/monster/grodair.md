@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grodair", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "143"
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ from its back._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 143, Pathfinder \#36: Sound of a Thousand Screams pg 84\
 **Subtype:** Aquatic, Extraplanar
 
 **Experience points:** 1,600

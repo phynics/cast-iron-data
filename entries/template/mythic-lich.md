@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_lich", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "206"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** Varies
-
-**Source:** Mythic Adventures/206
 
 _This armored undead human wields a heavy mace and wears the trappings of a devil-worshiper._
 

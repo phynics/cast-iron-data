@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "the-first-world-realm-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gate", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "287"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: see text
 Subschool: Creation, Calling
 :::
-
-**Sources:** PRPG Core Rulebook pg 287
 
 Casting a gate spell has two effects. First, it creates an interdimensional connection between your
 plane of existence and a plane you specify, allowing travel between those two planes in either

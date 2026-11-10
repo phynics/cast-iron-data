@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_spirit_magic", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 191
 
 You gain greater sensitivity to magic associated with your primary spirit and wandering spirits (any
 spells on the spirit magic spell lists for these spirits, as well as

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cap_of_darkest_dreams_changeling", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion and necromancy"
 caster_level = "14th"
 +++
 
-**Sources:** Inner Sea Races pg 230\
 **Aura** strong illusion and necromancy; **CL** 14th\
 **Slot** head; **Price** 90,000 gp; **Weight** -
 

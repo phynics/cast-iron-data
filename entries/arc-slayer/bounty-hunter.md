@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "118"
 
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Slayer talent gained at 2nd level", "Slayer talent gained at 6th level", "The advanced slayer talent gained at 10th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 118\
 Whether tasked with bringing in wanted criminals or paid to drag debtors back to their loan sharks,
 bounty hunters are valued for their ability to capture targets alive.
 

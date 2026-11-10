@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marrowcracker", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Magical Marketplace pg 15\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** none; **Price** 28,312 gp; **Weight** 5 lbs.
 

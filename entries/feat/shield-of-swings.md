@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_swings", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you take a full-attack action while wielding a two-handed weapon
 +++
 
 ## Shield of Swings (Combat)
-
-**Sources:** Advanced Player's Guide pg 169
 
 A wild frenzy of attacks serves to bolster your defenses.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +1.\

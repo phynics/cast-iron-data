@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_channeler", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "159"
 
 [fields]
 kind = "feat"
 prerequisites = "Channel energy class feature, necromancer or neutrally aligned cleric (see below)."
 benefit = "You may make a choice whenever you use your channel energy class feature."
 +++
-
-**Sources:** Ultimate Magic pg 159
 
 You can choose to channel positive and negative energy.\
 **Prerequisites:** [Channel energy](ref/ability/channel-energy) class feature, necromancer or

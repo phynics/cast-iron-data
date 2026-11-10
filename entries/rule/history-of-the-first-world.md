@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "history_of_the_first_world", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 128
 
 To account for the full history of the First World is to look back before the beginning of time
 itself, to a period in history before history when the Material Plane did not yet exist. Ancient

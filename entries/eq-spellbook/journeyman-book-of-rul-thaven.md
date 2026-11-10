@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "journeyman_book_of_rul_thaven", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "123"
 
 [fields]
 kind = "item"
@@ -19,8 +22,6 @@ away in certain spots, tiny pinhole burns pock the surface, and a brass lock hol
 woman's portrait has been bound into the front cover, and text covers almost all of the image except
 her face: text in circles, with arrows pointing to new circles with suppositions. Underneath the
 woman's chin are the words "Diabolist sacrifice?"_
-
-**Sources:** Ultimate Magic pg 123
 
 **Opposition** Illusion, transmutation\
 **Protection** [Average lock](ref/eq-misc/lock-average) (DC 25), and the 5th-level spells are hidden

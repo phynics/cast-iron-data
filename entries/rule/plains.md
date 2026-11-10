@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plains", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 223
 
 Plains are large swaths of flat terrain with few trees. Several types of plains exist in different
 climates: prairie, savanna, steppe, and the like. The most common place for people to live, plains

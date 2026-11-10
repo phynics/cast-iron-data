@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Only enchantment spells that affect a single target and can be negate
 +++
 
 ## Trick Spell (Metamagic)
-
-**Sources:** Dirty Tactics Toolbox pg 17
 
 The vengeful nature of your goddess flows through your magic, turning your enemies against
 themselves.\

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupting_fist", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "On a confirmed critical hit using an unarmed strike against an undead
 +++
 
 ## Disrupting Fist (Combat)
-
-**Sources:** Horror Adventures pg 85
 
 Your powerful fists can reduce undead foes to dust.\
 **Prerequisites:** [Channel Smite](ref/feat/channel-smite),

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_power_and_price_of_knowledge", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 219
 
 The quest for knowledge features prominently in occult adventures. Knowledge and power invariably
 come at a price, however, even if the cost isn't immediately evident. Calamity strikes when mortals

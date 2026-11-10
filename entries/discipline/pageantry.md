@@ -6,13 +6,15 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pageantry", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "16"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Heroes of the High Court pg 16\
 The act of ritual, no matter how ostentatious, can be a route to mental strength. By engaging in
 esoteric and intricate routines, you have unlocked potent psychic power.
 

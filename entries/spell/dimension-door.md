@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimension_door", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "269"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no and yes (object)
 Target: you and touched objects or other touched willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 269
 
 You instantly transfer yourself from your current location to any other spot within range. You
 always arrive at exactly the spot desired - whether by simply visualizing the area or by stating

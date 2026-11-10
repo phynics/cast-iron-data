@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thespian", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 77
 
 It's hardly surprising that actors would be drawn to roleplaying games. After all, while some
 roleplayers are interested solely in leveling up and getting cool new abilities, many take it to the

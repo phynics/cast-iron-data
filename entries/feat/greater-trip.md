@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_trip", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Creatures do not provoke attacks of opportunity from being tripped."
 +++
 
 ## Greater Trip (Combat)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 You can make free attacks on foes that you knock down.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

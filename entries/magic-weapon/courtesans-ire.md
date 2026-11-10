@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courtesans_ire", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "239"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Intrigue pg 239\
 **Aura** faint conjuration and illusion; **CL** 5th\
 **Slot** none; **Price** 10,305 gp; **Weight** -
 

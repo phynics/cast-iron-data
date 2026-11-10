@@ -8,12 +8,14 @@ parent = "ref/umr/curse"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#curse|section:curse", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 291\
 The creature can inflict a curse upon its enemies. The effects, including its save, frequency, and
 cure, are included in the creature's description. If a curse allows a saving throw, it is usually a
 Will save (DC = 10 + 1/2 the cursing creature's racial HD + that creature's Charisma modifier; the

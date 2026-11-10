@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_crawl_space", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 5-foot sphere centered on yourself
 :::
-
-**Sources:** Heroes of the Darklands pg 9
 
 When you cast this spell, you merge with an adjacent natural stone surface, forming a 5-foot pocket
 within. If the stone surface does not have enough volume to safely contain a 5-foot sphere of empty

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/thought-worm-1" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Psychic Anthology pg 11
 
 This spell functions as per [thought worm I](ref/spell/thought-worm-1), but the penalty on Will
 saves is -4. This spell can be undercast.

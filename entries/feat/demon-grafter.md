@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_grafter", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 bonus on Heal checks regarding evil outsiders or creatu
 +++
 
 ## Demon Grafter (Item Creation)
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 73
 
 Your studies into demonic anatomy and physiology allow you to graft their immortal tissues onto
 mortal flesh.\

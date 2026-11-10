@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "social_structure_and_economy", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "155"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 155
 
 Since farms are an integral part of any civilization, the question for a world-builder is just how
 much of the society focuses on agriculture. In an early feudal society, most of the peasants and

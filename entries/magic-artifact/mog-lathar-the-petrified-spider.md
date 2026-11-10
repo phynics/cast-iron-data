@@ -6,6 +6,9 @@ source_ids = ["the-house-on-hook-street"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mog_lathar_the_petrified_spider", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "the-house-on-hook-street"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Sources:** The House on Hook Street pg 30\
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 6,000 lbs.
 

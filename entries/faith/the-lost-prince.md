@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lost_prince", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "26"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **The Lost Prince**
 
 **Sub:** The Melancholy Lord
-
-**Sources:** The First World, Realm of the Fey pg 26
 
 ### Details
 

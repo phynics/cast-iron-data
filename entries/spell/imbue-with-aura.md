@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_aura", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (see text)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Ultimate Magic pg 225
 
 You infuse another creature with your divine aura, causing the target to radiate an aura identical
 to your own clerical aura. The target's actual alignment is not changed, but spells like

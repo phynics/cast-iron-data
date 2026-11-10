@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scabbard_of_pain", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "269"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 269\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
 

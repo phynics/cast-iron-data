@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_knuckles_gloves", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "209"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (1 vial), - (diamond dust vial), 0.5 lb. (gloves)"
 
 ## Dust knuckles
 
-**Sources:** Advanced Class Guide pg 209\
 **Price** 1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves); **Weight** - (1 vial), - (diamond dust
 vial), 0.5 lb. (gloves)
 

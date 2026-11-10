@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_blanch_ghost_salt", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "48"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 48\
 **Price** 200 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

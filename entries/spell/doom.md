@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doom", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "274"
 
 [fields]
 kind = "spell"
@@ -45,7 +48,5 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 274
 
 This spell fills a single subject with a feeling of horrible dread that causes it to become shaken.

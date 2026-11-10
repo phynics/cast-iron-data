@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wizards_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 23\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** armor; **Price** 52,100 gp; **Weight** 5 lbs.
 

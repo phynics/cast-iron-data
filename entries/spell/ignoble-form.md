@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ignoble_form", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Target: one drow
 Subschool: Polymorph
 :::
-
-**Sources:** Blood of Shadows pg 16
 
 The target takes on the form of a half-elf from the surface world. Its skin, hair, and eyes change
 to match a specific human ethnicity. You can even change the target's facial features or produce

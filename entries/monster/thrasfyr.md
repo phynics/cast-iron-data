@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrasfyr", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ covered with scintillating red scales._
 
 **Senses:** Darkvision 120 ft., Low-light vision, See invisibility
 
-**Sources:** Bestiary 2 pg 263\
 **Subtype:** Fire
 
 **Experience points:** 102,400

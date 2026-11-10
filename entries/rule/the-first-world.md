@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_first_world", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 128
 
 Located before, between, and beyond the Material Plane, the First World is a dimension of extremes
 and unpredictability. While the Shadow Plane straddles the metaphysical gulf between the Material

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lens_of_detection", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "522"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** PRPG Core Rulebook pg 522\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 3,500 gp; **Weight** 1 lb.
 

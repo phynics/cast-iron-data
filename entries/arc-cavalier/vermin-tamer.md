@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expert training", "Demanding challenge"]
 alters = ["Mount"]
 +++
 
-**Sources:** Heroes of the Darklands pg 17\
 Due to the strange terrain, the lack of sunlight, and numerous other hazards, keeping a traditional
 mount in the Darklands can prove difficult. Cavaliers native to or traveling the region may choose
 to tame local creatures instead. Those who can overcome their revulsion and distrust of Sekamina's

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_9_damage", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 241
 
 Each weapon and type of natural attack has a damage dice value associated with it. The values in the
 monster arrays from Step 1 give only the total amount of damage each attack deals. Assigning the

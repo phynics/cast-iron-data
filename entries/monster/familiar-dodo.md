@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "pathfinder-55-the-wormwood-mutiny", "besti
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_dodo", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "194"
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "88"
+[[sources]]
+publication = "bestiary-4"
+page = "96"
 
 [fields]
 kind = "creature"
@@ -41,8 +50,6 @@ beak._
 
 **Size:** small
 
-**Sources:** Ultimate Wilderness pg 194, Pathfinder \#55: The Wormwood Mutiny pg 88, Bestiary 4 pg
-96\
 **Experience points:** 100
 
 **Armor class:** 11/11/11

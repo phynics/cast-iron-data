@@ -6,12 +6,13 @@ source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_up_a_bar_fight", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Taverns pg 55
 
 More so than many other optional systems, these bar fight rules require the players' and their
 characters' buy-in. A bar fight represents a riotous clashing among the entire (usually) drunken

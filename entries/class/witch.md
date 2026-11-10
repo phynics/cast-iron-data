@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "advanced-race-guide", "blood-of-shadows
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "65"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d6"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 65
 
 Some gain power through study, some through devotion, others through blood, but the witch gains
 power from her communion with the unknown. Generally feared and misunderstood, the witch draws her

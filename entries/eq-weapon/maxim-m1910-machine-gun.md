@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maxim_m1910_machine_gun", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "64"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "140 lbs."
 +++
 
 ## Maxim M1910 Machine Gun
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 64
 
 This heavy machine gun uses 7.6254mmR ammunition in 250-round belts. Although a single person can
 fire a Maxim, it typically has a two-person crew: the gunner, and a loader who assists with feeding

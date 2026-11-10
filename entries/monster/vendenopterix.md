@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vendenopterix", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "281"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This elven woman's allure is obfuscated by her ragged insectile wings and long,
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 281\
 **Subtype:** Chaotic, Extraplanar, Shapechanger
 
 **Experience points:** 1,200

@@ -6,6 +6,15 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwal
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serithtial", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "435"
+[[sources]]
+publication = "pathfinder-11-skeletons-of-scarwall"
+page = "56"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 435, Pathfinder \#11: Skeletons of Scarwall pg 56,
-Artifacts and Legends pg 61\
 **Aura** strong abjuration; **CL** 17th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

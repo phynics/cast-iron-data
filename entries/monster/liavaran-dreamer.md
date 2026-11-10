@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liavaran_dreamer", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "31"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tentacles dangling down in a line._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 31\
 **Experience points:** 4,800
 
 **Armor class:** 19/9/19

@@ -6,12 +6,13 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_paradise", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 6 pg 104
 
 Paradise dragons create holy sanctums of light and harmony to shield their followers from the
 multiverse's evil.

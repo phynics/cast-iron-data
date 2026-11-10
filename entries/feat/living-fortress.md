@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_fortress", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "207"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you fight defensively and you're adjacent to an ally who als
 +++
 
 ## Living Fortress (Teamwork)
-
-**Sources:** Inner Sea Races pg 207
 
 Stubborn, tenacious, and proud, you're all but immovable when you have kin to back you up.\
 **Prerequisites:** [Dwarf](ref/race/dwarf), hardy racial trait.\

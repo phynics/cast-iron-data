@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threatening_negotiator", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/nerve-racking-negotiator", "ref/feat/persuasive"
 benefit = "When you successfully use the Intimidate skill to force an opponent to act friendly toward you, the duration of the attitude change lasts 2d6 hours."
 normal = "Changing an opponent's attitude with Intimidate normally changes the foe's attitude to friendly for 1d6&times;10 minutes."
 +++
-
-**Sources:** Ultimate Intrigue pg 94
 
 Those who you intimidate know that you'll go through with your threats.\
 **Prerequisites:** [Nerve-Racking Negotiator](ref/feat/nerve-racking-negotiator),

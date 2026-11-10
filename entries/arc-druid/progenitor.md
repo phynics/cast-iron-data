@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "19"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature bond"]
 alters = ["Spontaneous casting", "Wild shape"]
 +++
 
-**Sources:** Planar Adventures pg 19\
 Some druids forge powerful bonds with the raw, natural power of the First World. Progenitors are
 druids who tap into the vibrant power of the First World to propagate natural and supernatural
 wonders.

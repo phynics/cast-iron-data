@@ -6,12 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grindylow", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "17"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 17\
 A grindylow looks like a wide-mouthed goblin from the waist up and a writhing, slimy octopus from
 the waist down. They have deep-green skin, gray or green tentacles, and mouths full of sharp teeth.
 Grindylows prefer to attack in packs, making them more dangerous than they appear individually.

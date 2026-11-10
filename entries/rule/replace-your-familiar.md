@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replace_your_familiar", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 86
 
 The Core Rulebook allows you to replace a familiar if at least 1 week has passed since it was
 dismissed or lost. Doing so requires you to spend 1 day performing a specialized ritual to summon a

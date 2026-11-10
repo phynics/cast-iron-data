@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_hydrokinesis", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 1
 
 **Burn:** 0
-
-**Source:** Occult Adventures/23
 
 You can create water as the cantrip [create water](ref/spell/create-water), purify water as if using
 [purify food and drink](ref/spell/purify-food-and-drink), and dry wet creatures and objects as if

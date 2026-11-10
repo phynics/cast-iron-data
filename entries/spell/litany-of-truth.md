@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_truth", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "33"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: language-dependant
 :::
-
-**Sources:** Qadira, Jewel of the East pg 33
 
 With a tirade against deceit, you strip the target of any illusions cloaking it. Any illusion spells
 or effects affecting the target are suppressed for the spell's duration. In addition, the target

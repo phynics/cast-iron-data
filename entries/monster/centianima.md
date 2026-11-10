@@ -6,6 +6,9 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centianima", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ claw-tipped legs carry its centipede-like form._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Pathfinder \#103: The Hellfire Compact pg 84\
 **Type:** undead
 
 **Experience points:** 1,200

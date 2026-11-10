@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_of_bullies", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you fail a combat maneuver check, your allies within 30 feet
 +++
 
 ## Crowd of Bullies (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 Your failed attempt to humiliate a foe reveals its weaknesses to your allies.\
 **Prerequisites:** [Half-orc](ref/race/half-orc).\

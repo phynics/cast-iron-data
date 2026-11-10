@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_spells_to_a_wizards_spellbook", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 219
 
 Wizards can add new spells to their spellbooks through several methods. A wizard can only learn new
 spells that belong to the wizard spell lists.

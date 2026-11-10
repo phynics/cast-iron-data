@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuke_technology", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one technological object or creature
 :::
-
-**Sources:** Technology Guide pg 10
 
 You shroud the targeted technological object or creature (such as a robot or a nanotech swarm) with
 magical energy. If the targeted creature fails to resist the spell, it is rendered inert and

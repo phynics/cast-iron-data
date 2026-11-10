@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_goddesss_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "144"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Mythic Adventures pg 144\
 **Aura** strong conjuration and transmutation; **CL** 18th\
 **Slot** none; **Price** 33,315 gp; **Weight** 4 lbs.
 

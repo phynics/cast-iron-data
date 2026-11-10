@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_mastery", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Each combat feat you have that applies to a specific weapon (e.g., We
 +++
 
 ## Martial Mastery (Combat)
-
-**Sources:** Advanced Race Guide pg 78
 
 You broaden your study of weapons to encompass multiple similar weapons.\
 **Prerequisites:** [Martial Versatility](ref/feat/martial-versatility), fighter level 16th,

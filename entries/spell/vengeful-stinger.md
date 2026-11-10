@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_stinger", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you
 Subschool: Polymorph
 Descriptors: poison
 :::
-
-**Sources:** Inner Sea Gods pg 245
 
 You grow a long, wasp-like tail complete with stinger that can strike those who dare attack you.
 While you are under the effects of this spell, when a creature adjacent to you hits you with a melee

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivorous_crystal", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The facets of this crystalline formation shift and vibrate, as though in antici
 
 **Perception:** -5
 
-**Sources:** Bestiary 3 pg 45\
 **Subtype:** Earth, Extraplanar
 
 **Experience points:** 12,800

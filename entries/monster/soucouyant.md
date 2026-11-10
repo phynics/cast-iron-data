@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soucouyant", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ alive, her bloody muscles and sinews pulsing grotesquely._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic
 
-**Sources:** Isles of the Shackles pg 61\
 **Experience points:** 4,800
 
 **Armor class:** 23/17/16

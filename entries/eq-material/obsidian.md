@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obsidian", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "53"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 53
 
 This black volcanic glass is extremely sharp, and can be shaped into a variety of weapons that deal
 piercing and slashing damage. Bits of obsidian inserted into a length of tempered wood create

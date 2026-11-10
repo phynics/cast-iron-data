@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafting_scaling_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 161
 
 Scaling items must be crafted at their highest level of power, with a cost determined by referencing
 [Table 4-13](ref/rule/adjusting-treasure). Start with the value listed on the table for the item's

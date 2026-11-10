@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visceral_threat", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You may use Intimidate, rather than Bluff, to attempt a feint against
 +++
 
 ## Visceral Threat (Combat)
-
-**Sources:** Monster Codex pg 21
 
 Your ability to threaten foes is great enough to make them hesitate.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess).\

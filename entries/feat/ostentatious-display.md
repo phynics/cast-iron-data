@@ -6,13 +6,14 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_display", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "12"
 
 [fields]
 kind = "feat"
 benefit = "As long as you are wearing a valuable nonmagical item in a magic item slot, you gain a +1 bonus on skill checks with a corresponding skill. Bonuses from wearing items in multiple slots that affect the same skill do not stack."
 +++
-
-**Sources:** Dungeoneer's Handbook pg 12
 
 Your extravagant jewelry and accessories give you an air of importance you can use to your advantage
 in many social situations.\

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligence", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 16
 
 Intelligence determines how well your character learns and reasons. This ability is important for
 wizards because it affects their spellcasting ability in many ways. Creatures of animal-level

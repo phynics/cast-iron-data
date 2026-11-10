@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "94"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit bonus", "spirit surge", "Shared seance", "Trance of three", 
 alters = ["Spirit"]
 +++
 
-**Sources:** Occult Adventures pg 94\
 A spirit dancer enacts an exuberant dance to the spirits, accepting many roles in the shifting dance
 and changing dance partners quickly.
 

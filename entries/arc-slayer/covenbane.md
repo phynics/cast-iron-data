@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "26"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Slayer talent gained at 2nd level", "Stalker", "Swift trac
 alters = ["Studied target"]
 +++
 
-**Sources:** Blood of the Coven pg 26\
 Covenbane slayers are scarred by arcane magic at a young age, and that resonance gives them
 supernatural insight into the psychic bonds between others. They are adept at fighting tight-knit
 groups, exploiting their connections to hunt and wound teams. The churches of

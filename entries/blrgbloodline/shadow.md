@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "16"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Shadow Bloodline
-
-**Sources:** Blood of Shadows pg 16
 
 Because of your heritage, you can move and see through shadows as if you are part of them. Your fury
 absorbs light, warmth, and strength.

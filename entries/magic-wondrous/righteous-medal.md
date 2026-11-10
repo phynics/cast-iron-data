@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_medal", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 62\
 **Aura** moderate abjuration and transmutation; **CL** 11th\
 **Slot** none; **Price** 6,000 gp; **Weight** -
 

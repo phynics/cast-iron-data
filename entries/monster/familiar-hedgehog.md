@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_hedgehog", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "119"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ abilities = ["1", "16", "6", "2", "12", "7"]
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Magic pg 119\
 **Experience points:** 50
 
 **Armor class:** 18/17/15

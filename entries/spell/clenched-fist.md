@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/interposing-hand" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Effect: 10-ft. hand
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 255
 
 This spell functions like [interposing hand](ref/spell/interposing-hand), except that the hand can
 also push or strike one opponent that you select. The floating hand can move as far as 60 feet and

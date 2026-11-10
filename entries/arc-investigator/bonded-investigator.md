@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "38"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison lore", "poison resistance", "poison immunity", "Studied stri
 alters = ["Studied strike"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 38\
 Bonded investigators use intelligent familiars to assist them in their investigations. They are
 common in the Inner Sea region's bustling cities, where a rat, cat, raven, or another small animal
 can go largely unnoticed.

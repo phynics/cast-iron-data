@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_egg", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment and transmutation"
 caster_level = "15th"
 +++
 
-**Sources:** Lost Treasures pg 27\
 **Aura** strong enchantment and transmutation; **CL** 15th\
 **Slot** none; **Price** 240,000 gp; **Weight** 100 lbs.
 

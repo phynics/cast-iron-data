@@ -6,13 +6,14 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_eel", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "24"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Blood of the Sea pg 24
 
 Cavaliers who join the order of the eel believe communication and negotiation are the true paths to
 greatness and success for all. They seek out new individuals to befriend, offer their services as

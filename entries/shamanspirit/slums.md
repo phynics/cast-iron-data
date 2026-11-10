@@ -6,13 +6,15 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slums", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "21"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Heroes of the Streets pg 21\
 A shaman who selects the slums spirit gains the city's alleys and avenues as steadfast allies. The
 rats in the gutter, the torches along the walls, the coins that flow through the market are all a
 part of her and serve her whim.

@@ -6,6 +6,12 @@ source_ids = ["advanced-players-guide", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_delayed_doom", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
+[[sources]]
+publication = "ultimate-equipment"
+page = "169"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Player's Guide pg 292, Ultimate Equipment pg 169\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** ring; **Price** 5,000 gp (1 stone), 10,000 gp (2 stones), 15,000 gp (3 stones), 20,000 gp
 (4 stones), 25,000 gp (5 stones), 30,000 gp (6 stones), 35,000 gp (7 stones), 40,000 gp (8 stones),

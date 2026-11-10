@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/antipaladin" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "64"
 
 [fields]
 kind = "archetype"
 alters = ["Code of conduct and associated abilities", "ex-antipaladins", "Fiendish boon"]
 +++
 
-**Sources:** Ultimate Intrigue pg 64\
 Evil arises in every form imaginable, not just in hearts full of destruction and chaos. Tyrants are
 manipulative and lawful antipaladins, chess masters who arrange things behind the scenes to ensure
 that whatever happens, evil always wins, and the tyrant along with it. Unlike other antipaladins,

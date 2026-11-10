@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Effect: one symbol
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 243
 
 You conjure a sizable symbol into being, a rune suggestive of bloated bodies, flung food, and
 flowing wine. This spell functions as [symbol of death](ref/spell/symbol-of-death), except that all

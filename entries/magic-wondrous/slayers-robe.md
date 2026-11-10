@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slayers_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Class Guide pg 235\
 **Aura** moderate divination; **CL** 9th\
 **Slot** body; **Price** 15,000 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artrosa_ring", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "60"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "ring"
 aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 60
 
 **Aura** strong abjuration, conjuration, and transmutation; **CL** 20th\
 **Slot** ring; **Price** -; **Weight** -

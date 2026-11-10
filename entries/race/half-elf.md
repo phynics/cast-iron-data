@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "237"
+[[sources]]
+publication = "advanced-race-guide"
+page = "40"
+[[sources]]
+publication = "core-rulebook"
+page = "24"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 237, Advanced Race Guide pg 40, PRPG Core Rulebook pg 24\
 Elves have long drawn the covetous gazes of other races. Their generous lifespans, magical affinity,
 and inherent grace each contribute to the admiration or bitter envy of their neighbors. Of all their
 traits, however, none so entrance their human associates as their beauty. Since the two races first

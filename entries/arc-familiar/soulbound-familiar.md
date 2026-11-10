@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_familiar", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "213"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "Speak with animals of its kind", "scry on familiar"]
 +++
 
-**Sources:** Ultimate Wilderness pg 213\
 Soulbound familiars are born when a master uses the magical principles behind soulbound dolls to
 bind a soul fragment to an animal.
 

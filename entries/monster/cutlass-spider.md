@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutlass_spider", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "69"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ ending in curved blades._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 69, Pathfinder \#15: The Armageddon Echo pg 84\
 **Experience points:** 2,400
 
 **Armor class:** 19/12/16

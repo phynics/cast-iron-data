@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrivelblade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Giant Hunter's Handbook pg 29\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 9,810 gp; **Weight** 3 lbs.
 

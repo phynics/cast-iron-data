@@ -6,14 +6,15 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmic_gate", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "29"
 
 [fields]
 kind = "feat"
 prerequisites = "Lady Luck's Guidance, Knowledge (planes) 10 ranks."
 prerequisite_feats = ["ref/feat/lady-lucks-guidance"]
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 29
 
 You know that the stars shining in Cynosure's pools aren't reflections, but are gateways, and you
 can use this knowledge in your travels.\

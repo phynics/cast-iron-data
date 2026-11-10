@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barracuda_style", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Attacks with bludgeoning weapons (such as unarmed strikes) deal half d
 +++
 
 ## Barracuda Style (Combat, Style)
-
-**Sources:** Pathfinder \#124: City in the Deep pg 81
 
 You study a combat style consisting of fluid, circular motions suited for moving and fighting
 underwater.\

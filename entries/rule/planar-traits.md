@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "184"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 184
 
 Each plane of existence has its own properties - the natural laws of its universe. Planar traits are
 broken down into a number of general areas. All planes have the following kinds of traits.

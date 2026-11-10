@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "70"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["1st-level use of smite evil", "Aura of resolve"]
 alters = ["Armor proficiencies", "Detect evil", "Smite evil", "Spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 70\
 Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.
 
 **Gained class skills:** kna, per, stl, sur

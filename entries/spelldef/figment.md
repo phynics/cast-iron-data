@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figment", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Figment (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 A figment spell creates a false sensation. Those who perceive the figment perceive the same thing,
 not their own slightly different versions of the figment. It is not a personalized mental

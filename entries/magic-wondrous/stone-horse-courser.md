@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_horse_courser", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "320"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "14th"
 
 ## Stone Horse
 
-**Sources:** Ultimate Equipment pg 320\
 **Aura** strong transmutation; **CL** 14th\
 **Slot** none; **Price** 10,000 gp (Courser), 14,800 gp (Destrier); **Weight** 6,000 lbs.
 

@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firearm_bullet_silver", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "141"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.0166 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 141
 
 This ammunition is specifically crafted from silver, and though nonmagical, it is particularly
 detrimental to lycanthropes, automatically confirming any critical threats against such creatures. A

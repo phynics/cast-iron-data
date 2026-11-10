@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "104"
 
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
 +++
 
-**Sources:** Advanced Race Guide pg 104\
 In order to survive, the drow threw in their lot with demon lords. Thus, demon worship is common
 among the drow, and so are ranks of demonic apostles, who gain magical insight from their dark lords
 and crush their chaotic masters' enemies by channeling demonic energy. A demonic apostle has the

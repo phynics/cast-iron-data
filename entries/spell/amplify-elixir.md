@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplify_elixir", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "201"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 201
 
 This extract greatly enhances the effects of any potion or elixir you consume. For the duration of
 this extract, any potion or elixir you consume is treated as if it were empowered. Increase all

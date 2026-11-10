@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerebrum_drill", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 43\
 **Aura** strong abjuration and conjuration; **CL** 15th\
 **Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.
 

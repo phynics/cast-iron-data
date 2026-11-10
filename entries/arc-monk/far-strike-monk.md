@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning Fist", "Still mind", "Purity of body", "Diamond body"]
 alters = ["Flurry of blows"]
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 9\
 Far strike monks are masters of thrown weapons, from [shuriken](ref/eq-weapon/shuriken) to
 [throwing axes](ref/eq-weapon/throwing-axe) to [spears](ref/eq-weapon/spear). The far strike school
 views thrown attacks as an extension of unarmed strikes, and masters of this school can infuse

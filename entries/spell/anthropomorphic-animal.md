@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anthropomorphic_animal", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: animal touched
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Magic pg 206
 
 You transform the touched animal into a bipedal hybrid of its original form with a humanoid form,
 similar to how a lycanthrope's hybrid form is a mix of a humanoid and animal form. The animal's

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_infestation", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: disease
 :::
-
-**Sources:** Ultimate Magic pg 221
 
 You coat the target in necrotic fungus that makes its flesh soft and fragile. Toadstools, ringworm,
 and other disgusting fungal growths sprout from its skin. The target takes 1d3 points of Charisma

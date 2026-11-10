@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You gain a +1 bonus on Perform (act, comedy, oratory, and sing) skill
 +++
 
 ## Fabulist (Grit)
-
-**Sources:** Champions of Balance pg 19
 
 You enjoy telling tall tales and gain confidence when others believe them.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat or grit class feature.\

@@ -6,10 +6,12 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/anticipate-peril", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 84\
 Add your tier to the spell's initiative bonus and the maximum initiative bonus the spell can grant.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_quiet", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 221
 
 With a gesture, you muffle sound around the target, making it unable to yell or otherwise make loud
 noises. This does not affect spellcasting by the target. The target can still use sonic effects, but

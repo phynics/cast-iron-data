@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_reservoir", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "49"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none (see below)
 Spell resistance: yes
 Area: special, see text
 :::
-
-**Sources:** Advanced Race Guide pg 49
 
 > _[Half-elves](ref/race/half-elf) have access to the following spell._
 

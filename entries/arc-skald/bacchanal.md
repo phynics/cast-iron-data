@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "84"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "Versatile performance", "Song of marching", "Dirge of doom"]
 +++
 
-**Sources:** Ultimate Wilderness pg 84\
 Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of
 listeners. To these skalds, the passionate frenzy of a celebration or feast shares many features
 with the violence of combat, and several of their talents blur the line between festival and battle

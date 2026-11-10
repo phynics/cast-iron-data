@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_communion", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "212"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 212\
 **School** necromancy; **Level** 7\
 **Casting Time** 70 minutes\
 **Components** V, S, M (special paints and a small, salted pastry), F (silver bell worth 500 gp), SC

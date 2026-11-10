@@ -6,12 +6,13 @@ source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adapting_scaling_items", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
+page = "78"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#128: Songbird, Scion, Saboteur pg 78
 
 Relics work much like [scaling items](ref/rule/scaling-items), with the exceptions that they don't
 cost a share of your treasure and they scale up due to story events rather than at certain levels.

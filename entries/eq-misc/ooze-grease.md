@@ -6,6 +6,9 @@ source_ids = ["dungeon-denizens-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_grease", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "dungeon-denizens-revisited"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Dungeon Denizens Revisited pg 19\
 **Price** 50 gp; **Weight** 1 lb.\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mamiwa", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "ire-of-the-storm"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _The tail of this shimmering, salamander-like creature is composed entirely of w
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ire of the Storm pg 63\
 **Subtype:** Air, Elemental, Native, Water
 
 **Size:** tiny

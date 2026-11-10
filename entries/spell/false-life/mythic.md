@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/false-life", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 93
 
 The temporary hit points gained increase to 2d8 + 2 per caster level (maximum +20). As an immediate
 action, you can dismiss the remaining duration of the spell to prevent 1 point of Strength,

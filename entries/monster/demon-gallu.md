@@ -6,6 +6,9 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_gallu", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ spiky armor._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** The Worldwound pg 44\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 204,800

@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackled_sorcerer", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ upon enemy vessels and water-dwelling monsters alike._
 
 **Challenge rating:** 5
 
-**Sources:** Isles of the Shackles pg 60\
 **XP** 1,600\
 Human [sorcerer](ref/class/sorcerer) 6\
 CN Medium humanoid (human)\

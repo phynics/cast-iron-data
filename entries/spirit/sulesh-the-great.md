@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sulesh_the_great", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "11"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ replaces = ["Arcane surge"]
 alters = ["Archmage arcana"]
 +++
 
-**Sources:** Occult Realms pg 11\
 A powerful genie binder from the Padishah Empire of Kelesh, Sulesh the Great created many famed
 genie seals, including the artifact known as the
 [Bottle of the Bound](ref/magic-artifact/bottle-of-the-bound), which houses 666 fiends.

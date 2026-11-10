@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusa_eygreas", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ body of an enormous serpent._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Mythical Monsters Revisited pg 44\
 **Experience points:** 25,600
 
 **Armor class:** 29/14/24

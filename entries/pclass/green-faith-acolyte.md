@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith_acolyte", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "26"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 26
 
 All followers of the Green Faith appreciate and respect nature, but for a Green Faith acolyte this
 admiration blossoms into a profound reverence for the power and infinite majesty of the natural

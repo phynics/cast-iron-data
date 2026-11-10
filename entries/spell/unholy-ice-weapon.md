@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/holy-ice-weapon" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "198"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Descriptors: cold, good, water
 :::
 
 ### Unholy Ice Weapon
-
-**Sources:** Advanced Class Guide pg 198
 
 This spell functions as [holy ice weapon](ref/spell/holy-ice-weapon), except the weapon is made of
 frozen unholy water, and instead deals additional damage to creatures that are susceptible to unholy

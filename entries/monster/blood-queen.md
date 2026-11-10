@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_queen", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ arch from its hindquarters._
 
 **Senses:** Surrogate senses
 
-**Sources:** Isles of the Shackles pg 44\
 **Subtype:** Native
 
 **Experience points:** 819,200

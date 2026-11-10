@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_stare", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "129"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target must succeed at a Wil
 +++
 
 ## Demoralizing Stare (Combat, Stare)
-
-**Sources:** Occult Adventures pg 129
 
 Your painful stare inspires fear in your foes.\
 **Prerequisites:** Mesmerist level 9th, painful stare class feature.\

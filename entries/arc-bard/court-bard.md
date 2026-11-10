@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "81"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire competence", "Dirge of doom", "Frightening tune", "Bardic knowledge", "Lore master", "jack of all trades"]
 +++
 
-**Sources:** Advanced Player's Guide pg 81\
 Spending years studying all of the finer points of erudition and etiquette, the court bard takes up
 the role of resplendent proclaimer and artist-in-residence at the hand of nobility, royalty, and the
 well-moneyed elite who aspire to join their ranks.

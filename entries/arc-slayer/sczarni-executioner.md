@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "21"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Swift tracker", "Quarry", "improved quarry"]
 alters = ["Studied target", "Slayer talent received at 4th level", "Slayer talent received at 10th level"]
 +++
 
-**Sources:** Advanced Class Origins pg 21\
 These professional killers are trained and used almost exclusively by the various Sczarni crime
 families. Streetwise and ruthless, they operate independently, often making their talents available
 to the highest bidder. Though a few unscrupulous Sczarni executioners exploit this arrangement and

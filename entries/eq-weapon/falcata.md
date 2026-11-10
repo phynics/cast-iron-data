@@ -6,15 +6,24 @@ source_ids = ["ultimate-equipment", "pathfinder-campaign-setting", "adventurers-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falcata", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "adventurers-armory"
+page = "33"
+[[sources]]
+publication = "advanced-players-guide"
+page = "178"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Pathfinder Campaign Setting pg 209, Adventurer's Armory pg
-33, Advanced Player's Guide pg 178
 
 This heavy blade has a single sharp edge, concave at the bottom and convex at the top, with a
 hook-shaped hilt. Its shape distributes the weight to give it the momentum of an axe with the

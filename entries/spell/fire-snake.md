@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_snake", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: see text
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 222
 
 You create a sinuous line of flames that you may shape as desired. The fire snake affects one 5-foot
 square per caster level, and each square must be adjacent to the previous square, starting with you.

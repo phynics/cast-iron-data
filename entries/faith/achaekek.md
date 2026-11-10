@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "achaekek", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "5"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Achaekek**
 
 **Sub:** He Who Walks in Blood
-
-**Sources:** Inner Sea Faiths pg 5
 
 ### Details
 

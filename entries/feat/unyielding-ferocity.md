@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unyielding_ferocity", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "When using the ferocity ability, you are staggered while you have fewe
 +++
 
 ## Unyielding Ferocity (Combat)
-
-**Sources:** Horror Adventures pg 95
 
 When near the brink of death, you fight ferociously until the bitter end.\
 **Prerequisites:** Con 19, ferocity.\

@@ -9,13 +9,18 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "105"
+[[sources]]
+publication = "advanced-class-origins"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats gained at 2nd, 8th, and 14th levels", "AC bonus"]
 +++
 
-**Sources:** Adventurer's Guide pg 105, Advanced Class Origins pg 11\
 In the sacred text Unbinding the Fetters, Irori teaches that the path to transcendence can be
 straight or twisted. Those who follow the straight path adhere to the traditions and techniques
 perfected by others who have traveled before them, while those who seek the twisted path abandon

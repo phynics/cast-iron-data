@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_storm_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sparkling green eyes._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 152\
 **Subtype:** Giant
 
 **Experience points:** 25,600

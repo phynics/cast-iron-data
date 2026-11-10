@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osirionologist", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ keeps her tools, sheathed weapons, and vials within easy reach._
 
 **Challenge rating:** 7
 
-**Sources:** Osirion, Legacy of the Pharaohs pg 59\
 **XP** 3,200\
 Human [bard](ref/class/bard) ([archaeologist](ref/arc-bard/archaeologist)) 8\
 N Medium humanoid (human)\

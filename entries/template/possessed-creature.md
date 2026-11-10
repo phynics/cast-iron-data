@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possessed_creature", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "250"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/250
 
 While there are rules for when a creature is [possessed](ref/rule/possession) and totally controlled
 by a specific spell, sometimes a creature is possessed by a vague entity (hereafter called a spirit)

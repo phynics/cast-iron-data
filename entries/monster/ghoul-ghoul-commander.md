@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoul_ghoul_commander", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["20", "17", "-", "13", "16", "18"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 84\
 **Type:** undead
 
 **Experience points:** 4,800

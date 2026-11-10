@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning fist", "Slow fall", "The ability to spend ki to increase h
 alters = ["Ki pool"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 17\
 Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step.
 Windstep masters train in mountaintop monasteries and other holy houses dedicated to the wind, such
 as the Monastery of Unfolding Wind in Niswan.

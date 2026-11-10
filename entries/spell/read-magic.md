@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "read_magic", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "330"
 
 [fields]
 kind = "spell"
@@ -61,8 +64,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 330
 
 You can decipher magical inscriptions on objects-books, scrolls, weapons, and the like-that would
 otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the

@@ -6,12 +6,13 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tears_of_razmir", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea World Guide pg 293
 
 **Type:** ingested
 

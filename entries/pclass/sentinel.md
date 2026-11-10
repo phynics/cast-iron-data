@@ -6,14 +6,15 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentinel", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "202"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Inner Sea Gods pg 202
 
 Every major deity boasts champions of some type, whether they are paladins sworn to Iomedae or
 barbarians who channel their destructive rage from Rovagug. The sentinel is a warrior who receives

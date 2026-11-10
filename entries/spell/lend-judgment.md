@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lend_judgment", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one ally
 :::
-
-**Sources:** Ultimate Magic pg 226
 
 You create a conduit of divine knowledge and outrage between you and an ally. That ally gains the
 benefit of one of your active judgments (as do you). If you cannot use a judgment (for example, if

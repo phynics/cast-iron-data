@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_sharpstones", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.5 lbs."
 +++
-
-**Sources:** Halflings of Golarion pg 23
 
 A thin layer of baked clay covers the spikes and jagged ridges covering this specially designed
 bullet. A proficient user knows how to crack the clay (a free action) so that it peels off from

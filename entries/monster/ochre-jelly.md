@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ochre_jelly", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "218"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ slow approach._
 
 **Perception:** -5
 
-**Sources:** Pathfinder RPG Bestiary pg 218\
 **Experience points:** 1,600
 
 **Armor class:** 4/4/4

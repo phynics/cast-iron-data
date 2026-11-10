@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This great serpent has multicolored wings and eyes that glimmer with intense aw
 
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
 
-**Sources:** Pathfinder RPG Bestiary pg 49\
 **Subtype:** Native
 
 **Experience points:** 9,600

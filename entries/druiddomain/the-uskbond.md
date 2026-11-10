@@ -6,6 +6,9 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_uskbond", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "45"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## The Uskbond Domain
-
-**Sources:** Horror Realms pg 45
 
 **Prerequisites:** Must be neutral evil, worship [Zon-Kuthon](ref/faith/zon-kuthon), and have the
 _nature bond_ class feature.

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gather_information", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 85
 
 Using the Diplomacy skill to gather information normally requires 1d4 hours to search for rumors and
 informants. When using the downtime system, you have three options for gathering information.

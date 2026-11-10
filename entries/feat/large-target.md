@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "large_target", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your attacks with all kinds of slings add a +1 bonus on damage rolls 
 +++
 
 ## Large Target (Combat)
-
-**Sources:** Halflings of Golarion pg 23
 
 The larger a creature is, the easier you find it to strike a vulnerable spot when attacking with a
 sling.\

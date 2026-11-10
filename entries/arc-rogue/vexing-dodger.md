@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 +++
 
-**Sources:** Giant Hunter's Handbook pg 21\
 Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants.
 Vexing dodgers have the following class features.
 

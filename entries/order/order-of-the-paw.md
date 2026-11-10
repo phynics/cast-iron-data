@@ -6,13 +6,14 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_paw", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Race Guide pg 64
 
 **Prerequisites:** Halfling; Mount is a dog or wolf
 

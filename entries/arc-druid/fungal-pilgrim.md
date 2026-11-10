@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild shape", "Wild shape", "Timeless body"]
 alters = ["Nature bond"]
 +++
 
-**Sources:** Heroes of the Darklands pg 16\
 Druids often work to preserve the natural world, but some seek to further emulate it. Fungal
 pilgrims are druids seeking transformation into a more plant-like existence. These unique adherents
 of nature's creed see fungi as the means to such ends, as many fungi - particularly those of the

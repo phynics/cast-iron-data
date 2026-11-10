@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/close-quarters-thrower", label = "or" },
   { kind = "prerequisite", target = "ref/feat/point-blank-master", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "100"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ benefit = "Choose a ranged weapon or a thrown weapon. When you make a ranged att
 +++
 
 ## False Opening (Combat)
-
-**Sources:** Ultimate Combat pg 100
 
 When you make a ranged attack while threatened, you can fool your opponent into thinking he has an
 opening.\

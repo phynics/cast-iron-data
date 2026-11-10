@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urdefhan_half_fiend_scion", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ her lean form._
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Inner Sea Monster Codex pg 63\
 **Subtype:** Native
 
 **Experience points:** 51,200

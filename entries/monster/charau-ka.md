@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "308"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ man._
 
 **Size:** small
 
-**Sources:** Inner Sea World Guide pg 308\
 **Subtype:** Charau-ka\
 **Experience points:** 600
 

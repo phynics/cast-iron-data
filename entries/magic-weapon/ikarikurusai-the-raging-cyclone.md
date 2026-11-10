@@ -6,6 +6,9 @@ source_ids = ["pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ikarikurusai_the_raging_cyclone", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#54: The Empty Throne pg 60\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** none; **Price** 90,308 gp; **Weight** 3 lbs.
 

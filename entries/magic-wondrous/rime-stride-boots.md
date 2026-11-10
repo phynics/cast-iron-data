@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rime_stride_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 27\
 **Aura** moderate conjuration; **CL** 10th\
 **Slot** feet; **Price** 27,000 gp; **Weight** -
 

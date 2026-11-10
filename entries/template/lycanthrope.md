@@ -6,6 +6,9 @@ source_ids = ["bestiary", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthrope", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "196"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Pathfinder RPG Bestiary/196
 
 Lycanthropes are humanoids with the ability to turn into animals and animal-humanoid hybrid shapes.
 Natural lycanthropes are born with this ability and have perfect control over their shapechanging.

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_sting", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Wyvern Fury Style, if you successfully attack a foe with 
 +++
 
 ## Wyvern Sting (Combat)
-
-**Sources:** Legacy of Dragons pg 21
 
 You can use your whip like a wyvern's sting, forcing foes to give it their undivided attention.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (whip),

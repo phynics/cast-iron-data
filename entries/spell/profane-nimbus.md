@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "profane_nimbus", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "125"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 125
 
 You are surrounded by a nimbus of shadow shaped like your god's unholy symbol or a symbol of your
 faith. Any good creature striking you with unarmed strikes, natural weapons, or a handheld weapon

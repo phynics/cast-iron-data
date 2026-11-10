@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_faithful_vessel", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "153"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment and necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Mythic Adventures pg 153\
 **Aura** faint enchantment and necromancy; **CL** 3rd\
 **Slot** chest; **Price** 10,000 gp; **Weight** 2 lbs.
 

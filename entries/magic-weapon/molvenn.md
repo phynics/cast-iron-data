@@ -6,6 +6,9 @@ source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molvenn", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
+page = "68"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "15th"
 
 ## Molvënn
 
-**Sources:** Pathfinder \#34: Blood for Blood pg 68\
 **Aura** strong necromancy and transmutation; **CL** 15th\
 **Slot** none; **Price** 63,312 gp; **Weight** 5 lbs.
 

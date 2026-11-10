@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nauseating_dart", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Effect: one poisonous stinger
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Advanced Class Guide pg 189
 
 You spit a poisonous stinger around the size of a quill at a creature within range, as though you
 had fired a dart from a blowgun. You must succeed at a ranged attack to hit your target. The stinger

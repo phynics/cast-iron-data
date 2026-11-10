@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_ghalzarokh", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "246"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sprout from its back._
 
 **Senses:** Darkvision 60 ft., Scent, See invisibility
 
-**Sources:** Book of the Damned pg 246\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 51,200

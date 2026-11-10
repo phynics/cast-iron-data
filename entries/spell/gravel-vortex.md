@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravel_vortex", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: cylinder (20-ft. radius, 40 ft. high)
 Subschool: Creation
 Descriptors: earth
 :::
-
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 74
 
 You create a hail of tiny pieces of rock and dust that batter and scrape against all things in the
 area, dealing 5d6 points of bludgeoning damage. This damage is dealt only once, on the round the

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_haze", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "197"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: fog spreads in 20-ft. radius
 Subschool: Shadow
 Descriptors: darkness, shadow
 :::
-
-**Sources:** Advanced Class Guide pg 197
 
 You create a gray haze that obscures sight (as fog cloud) and causes the illumination level within
 it to drop one step (as darkness). Since this spell produces an illusion rather than a true physical

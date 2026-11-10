@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "565"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 565\
 The creature cannot see. It takes a -2 penalty to Armor Class, loses its Dexterity bonus to AC (if
 any), and takes a -4 penalty on most Strength- and Dexterity-based skill checks and on opposed
 Perception skill checks. All checks and activities that rely on vision (such as reading and

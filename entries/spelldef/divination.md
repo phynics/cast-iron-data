@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
 ## Divination (school of magic)
-
-**Sources:** PRPG Core Rulebook pg 210
 
 Divination spells enable you to learn secrets long forgotten, predict the future, find hidden
 things, and foil deceptive spells.

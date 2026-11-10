@@ -6,12 +6,14 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vows", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "50"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 50\
 A monk can discipline his body to hold more ki by upholding the strict tenets of a vow. By adhering
 to his vow's tenets, the monk's ki pool increases by the amount listed in the vow's description.
 Every vow comes with a penalty or limitation to offset this increase in ki. A monk can take a vow at

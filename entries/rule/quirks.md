@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quirks", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "189"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 189
 
 Quirks are oddities that make an item unusual in a way that's generally neither positive nor
 negative, or may be a little of both. The more beneficial or double-edged quirks are higher on the

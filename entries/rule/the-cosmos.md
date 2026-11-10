@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_cosmos", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 164
 
 Space. In many fantasy games, it's not even the final frontier, but rather completely beyond the
 bounds of the campaign setting. Yet mankind has always looked to the sky for escape and adventure,

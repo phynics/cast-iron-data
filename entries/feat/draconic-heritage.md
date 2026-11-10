@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_heritage", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 13."
 benefit = "Choose one type of dragon from the options presented below. You gain the draconic heritage ability from your chosen dragon type. The save DCs of any associated ability are equal to 10 + 1/2 your Hit Dice + your Charisma modifier."
 special = "If you are a shaman or a witch, you can use this curse a number of times per day equal to half your class level (minimum 1), plus one more time per day for every 4 levels you have in other classes."
 +++
-
-**Sources:** Legacy of Dragons pg 16
 
 The power of dragons flows through your veins and you have awakened its potential.\
 **Prerequisites:** Cha 13.\

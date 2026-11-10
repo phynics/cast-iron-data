@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explorer", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can provide twice as much food and water for other people when at
 +++
 
 ## Explorer (Story)
-
-**Sources:** Quests and Campaigns pg 10
 
 You dream of discovering new vistas.\
 **Prerequisites:** You must have crossed at least 30 miles of wilderness without map or guide.\

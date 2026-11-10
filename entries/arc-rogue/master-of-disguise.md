@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "46"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "rogue talent gained at 2nd level", "Rogue talent gained at 10th level"]
 +++
 
-**Sources:** Ultimate Intrigue pg 46\
 A master of disguise feels no need to advertise her skills to build a reputation. Instead, she
 believes that never letting her adversaries know her true identity protects her from bad luck or
 missteps on a job.

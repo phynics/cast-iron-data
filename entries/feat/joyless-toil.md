@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "joyless_toil", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Joyless Toil forces a foe damaged by your unarmed attack to attempt a
 +++
 
 ## Joyless Toil (Combat)
-
-**Sources:** Elemental Master's Handbook pg 11
 
 Your strikes render your enemy distracted and unable to focus on productive action.\
 **Prerequisites:** Dex 13, Wis 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base

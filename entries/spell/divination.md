@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 Similar to augury but more powerful, a divination spell can provide you with a useful piece of
 advice in reply to a question concerning a specific goal, event, or activity that is to occur within

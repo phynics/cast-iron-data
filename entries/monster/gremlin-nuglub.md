@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_nuglub", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "143"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ back, covering it like a cloak._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 143\
 **Experience points:** 600
 
 **Armor class:** 18/15/14

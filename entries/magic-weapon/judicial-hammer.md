@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "judicial_hammer", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Sources:** Champions of Balance pg 29\
 **Aura** faint enchantment; **CL** 4th\
 **Slot** none; **Price** 5,220 gp; **Weight** 14 lbs.
 

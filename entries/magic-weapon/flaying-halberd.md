@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaying_halberd", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 61\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 24,310 gp; **Weight** 12 lbs.
 

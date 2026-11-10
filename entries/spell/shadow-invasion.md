@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_invasion", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "44"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: 30-ft. radius emanation centered on you
 Subschool: Summoning
 :::
-
-**Sources:** Planar Adventures pg 44
 
 Using a slashing motion with the spell's focus as part of the casting of shadow invasion, you cut
 open a rift to the Plane of Shadow that fills a 30-foot area with shadowy energies. This area is

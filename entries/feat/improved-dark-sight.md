@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_dark_sight", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Dark Sight, Gloom Sight, fetchling."
 prerequisite_feats = ["ref/feat/dark-sight", "ref/feat/gloom-sight"]
 benefit = "You gain the see in darkness ability and lose the light sensitivity weakness, but gain the light blindness weakness."
 +++
-
-**Sources:** Advanced Race Guide pg 112
 
 With further modification, your eyes see clearly in not only normal darkness, but in magical
 darkness as well.\

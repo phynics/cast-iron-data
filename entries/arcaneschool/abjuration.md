@@ -6,13 +6,15 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abjuration", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "79"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** PRPG Core Rulebook pg 79\
 The abjurer uses magic against itself, and masters the art of defensive and warding magics.
 
 **Resistance (Ex)**

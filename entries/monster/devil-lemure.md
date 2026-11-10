@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_lemure", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ dripping tumorous face._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 79\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 400

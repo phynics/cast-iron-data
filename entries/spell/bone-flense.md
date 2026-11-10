@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_flense", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates
 Spell resistance: no
 Target: one living creature
 :::
-
-**Sources:** Adventurer's Guide pg 160
 
 Choose a creature that you can see. When that creature is struck by a weapon wielded by a member of
 the [Red Mantis](ref/rule/aff-assassins), a sawtooth sabre, or by the claw of a giant mantis, the

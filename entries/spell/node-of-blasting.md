@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "node_of_blasting", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "178"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: one touched object weighing no more than 10 lbs.
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 178
 
 You imbue an object with psychic energy. The node of blasting unleashes a mental blast when a
 creature with a mind touches the object, dealing 6d6 points of damage to the creature touching the

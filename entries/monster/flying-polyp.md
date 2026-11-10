@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-65-into-the-nightmare-rift"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_polyp", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "106"
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ vortex of sucking wind._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 106, Pathfinder \#65: Into the Nightmare Rift pg 86\
 **Subtype:** Air
 
 **Experience points:** 38,400

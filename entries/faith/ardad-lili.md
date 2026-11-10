@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ardad_lili", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "328"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ardad Lili**
 
 **Sub:** The End of Innocence
-
-**Sources:** Inner Sea Gods pg 328
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tortoise_immense_tortoise", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "263"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ placid eyes._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 263\
 **Experience points:** 4,800
 
 **Armor class:** 25/0/25

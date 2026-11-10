@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overrun", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 201
 
 As a standard action, taken during your move or as part of a charge, you can attempt to overrun your
 target, moving through its square. You can only overrun an opponent who is no more than one size

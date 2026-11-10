@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mercenary_bounty_hunter", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "283"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** GameMastery Guide pg 283\
 **XP** 12,800\
 Human [ranger](ref/class/ranger) 12\
 N Medium humanoid\

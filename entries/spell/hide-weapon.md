@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_weapon", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 30
 
 Upon casting this spell, a light or one-handed melee weapon in your hand melds with your flesh,
 accompanied by a disgusting sucking sound. The weapon disappears completely inside your arm, and

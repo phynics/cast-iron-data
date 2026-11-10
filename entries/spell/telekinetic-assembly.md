@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_assembly", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one disassembled siege engine
 :::
-
-**Sources:** Ultimate Combat pg 246
 
 You assemble a siege engine, using up to one fewer worker per two caster levels you possess. You can
 do without one additional worker if you have any ranks in Knowledge (engineering), plus one

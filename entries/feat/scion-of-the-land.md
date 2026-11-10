@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_land", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "117"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When traveling through terrain in which you can leave no trail and be
 +++
 
 ## Scion of the Land (Teamwork)
-
-**Sources:** Ultimate Wilderness pg 117, Heroes of the Wild pg 19
 
 You are strongly linked to natural terrain and to others who share your link.\
 **Prerequisites:** Survival 1 rank.\

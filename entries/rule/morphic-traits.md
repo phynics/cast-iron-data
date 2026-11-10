@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morphic_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 186
 
 This trait measures how easily the basic nature of a plane can be changed. Some planes are
 responsive to sentient thought, while some respond to physical or magical efforts. Others can only

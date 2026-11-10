@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "badge_of_veiled_authority", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 14\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 3,500 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undersized_weapons", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "301"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Undersized Weapons (Ex)
 
-**Sources:** Bestiary 5 pg 301\
 The creature uses manufactured weapons as if it were one size category smaller it is.
 
 **Format**

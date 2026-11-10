@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forming_a_union", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "232"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 232
 
 Just as a kingdom can divide into separate pieces, kingdoms may want to unite to become a more
 powerful political entity. If the leaders in each kingdom agree to the union, the process is

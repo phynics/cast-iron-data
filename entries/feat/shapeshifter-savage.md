@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_savage", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with the wild shape class feature counts as having the ch
 +++
 
 ## Shapeshifter Savage (Combat)
-
-**Sources:** Martial Arts Handbook pg 19
 
 You have enough control over your transformations that you can lash out at an opponent while
 assuming your alternate form.\

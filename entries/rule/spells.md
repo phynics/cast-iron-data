@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spells", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 While various spells have different effects underwater, the most fundamental hindrance to
 spellcasting, at least at low levels, is the fact that a creature holding its breath must succeed at
 a [concentration](ref/rule/concentration) check (DC = 15 + spell level) to cast a spell at all,

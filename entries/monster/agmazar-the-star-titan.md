@@ -6,6 +6,9 @@ source_ids = ["mythic-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agmazar_the_star_titan", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "mythic-realms"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ arms move with supple grace._
 
 **Senses:** Creaturesense, See in darkness
 
-**Sources:** Mythic Realms pg 46\
 **Subtype:** Cold, Kaiju
 
 **Type:** undead

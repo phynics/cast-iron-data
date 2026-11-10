@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_bearer", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "238"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: disease, evil
 :::
-
-**Sources:** Inner Sea Gods pg 238
 
 You make the target an asymptomatic carrier for a host of virulent diseases. Creatures that end
 their turn adjacent to the target must succeed at a Fortitude save or be affected as if by the spell

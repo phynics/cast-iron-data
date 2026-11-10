@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torso", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 203
 
 The torso armor piece provides the most protection, but also usually provides the most hindrances to
 the wearer.

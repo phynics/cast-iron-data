@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damage_fatigue_and_exhaustion", path = "json/rules_adv_gm02.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 147
 
 Damage taken during a pursuit follows all the normal rules for damage. A healer can use the
 [recovery tactic](ref/rule/group-tactics) to take a break and cast healing spells (or spells that

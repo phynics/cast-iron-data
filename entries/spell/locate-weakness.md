@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locate_weakness", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 236
 
 You can sense your foes' weak points, granting you greater damage with critical hits. Whenever you
 score a critical hit, roll the attack's damage dice (but not extra or precision damage dice) twice

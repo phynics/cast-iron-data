@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fame", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 181
 
 You begin play with a Fame equal to your character level + your Charisma modifier. Your Fame ranges
 from -100 to 100, with 0 representing a lack of any notoriety. Through the course of the campaign,

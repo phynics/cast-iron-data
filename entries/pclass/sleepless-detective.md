@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepless_detective", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "52"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of Prestige pg 52
 
 Although it operates mainly in the mist-shrouded principality of Ustalav, the Sleepless Agency
 provides unscrupulous security and investigative services to clientele all across Avistan. Whether

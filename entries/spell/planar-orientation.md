@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/know-direction" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** The First World, Realm of the Fey pg 13
 
 This spell helps creatures accustomed to the concrete reality of the Material Plane to navigate
 within the confusing realities of other planes. When cast, it functions as

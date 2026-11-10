@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "withdraw", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 188
 
 Withdrawing from melee combat is a full-round action. When you withdraw, you can move up to double
 your speed. The square you start out in is not considered threatened by any opponent you can see,

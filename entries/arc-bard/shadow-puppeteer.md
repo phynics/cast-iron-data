@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "210"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "inspire competence"]
 +++
 
-**Sources:** Advanced Race Guide pg 210\
 A shadow puppeteer invokes amazing and terrifying shadow puppet shows, producing supernatural
 effects by creating and manipulating shadow. A shadow puppeteer has the following class feature.
 

@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-cod
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "244"
+[[sources]]
+publication = "bestiary"
+page = "156"
+[[sources]]
+publication = "advanced-race-guide"
+page = "114"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 244, Pathfinder RPG Bestiary pg 156, Advanced Race Guide pg 114\
 Goblins are a race of childlike creatures with a destructive and voracious nature that makes them
 almost universally despised. Weak and cowardly, goblins are frequently manipulated or enslaved by
 stronger creatures that need destructive, disposable foot soldiers. Those goblins that rely on their

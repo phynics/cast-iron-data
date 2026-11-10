@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decompose_corpse", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: one corpse or corporeal undead
 :::
-
-**Sources:** Ultimate Magic pg 216
 
 Using this spell, the caster rapidly decomposes the flesh from a single corpse of size Huge or
 smaller, leaving behind a perfectly cleaned skeleton. If it is cast on a non-skeletal corporeal

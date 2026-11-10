@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "new_language", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 191
 
 You can spend time to learn an additional language. It takes 20 days of training to gain a bonus
 language, and these days need not be consecutive. Each language requires a trainer who shares a

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightpiercer", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Temples pg 42\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** wrists; **Price** 12,700 gp; **Weight** 12 lbs.
 

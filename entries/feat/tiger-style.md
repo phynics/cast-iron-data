@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiger_style", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "122"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Unarmed strikes deal bludgeoning damage."
 +++
 
 ## Tiger Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 122
 
 Your unarmed fighting style emulates the strength and ferocity of a tiger.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), base attack bonus +3

@@ -6,6 +6,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betraying_blow", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use a melee attack to deal nonlethal damage to a creatur
 +++
 
 ## Betraying Blow (Combat)
-
-**Sources:** Bastards of Golarion pg 23
 
 When you break an alliance, you make sure it's broken for good.\
 **Prerequisites:** [Solo Maneuvers](ref/feat/solo-maneuvers), base attack bonus +8.\

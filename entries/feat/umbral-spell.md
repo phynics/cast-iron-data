@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "An umbral spell gains the darkness descriptor. As long as the spell i
 +++
 
 ## Umbral Spell (Metamagic)
-
-**Sources:** Inner Sea Magic pg 15
 
 Targets of your darkness spells radiate darkness.\
 **Prerequisites:** [Tenebrous Spell](ref/feat/tenebrous-spell).\

@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "everdawn_pool", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "433"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 433\
 **Aura** strong enchantment, illusion, and necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1,200 lbs.
 

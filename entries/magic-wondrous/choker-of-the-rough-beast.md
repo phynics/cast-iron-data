@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choker_of_the_rough_beast", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea Combat pg 58\
 **Aura** strong abjuration and conjuration; **CL** 20th\
 **Slot** neck; **Price** 100,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untold_wonder", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Heroes from the Fringe pg 19
 
 You fill the target's mind with childlike wonder, allowing that creature to marvel at things that
 would be debilitating to others. Penalties that the target would take as a result of an emotion

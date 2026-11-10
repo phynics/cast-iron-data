@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "add_spells_to_your_spellbook", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 84
 
 If you're a magus or wizard, you can spend 1 day of downtime to copy up to eight spells from other
 sources into your spellbook (see

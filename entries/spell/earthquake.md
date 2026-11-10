@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthquake", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "275"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Area: 80-ft.-radius spread (S)
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 275
 
 When you cast earthquake, an intense but highly localized tremor rips the ground. The powerful
 shockwave created by this spell knocks creatures down, collapses structures, opens cracks in the

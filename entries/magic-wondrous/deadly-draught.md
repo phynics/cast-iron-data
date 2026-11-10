@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_draught", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Blood of the Night pg 31\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 900 gp; **Weight** -
 

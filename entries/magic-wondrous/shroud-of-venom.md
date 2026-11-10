@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_venom", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 29\
 **Aura** faint abjuration and transmutation; **CL** 5th\
 **Slot** shoulders; **Price** 4,500 gp; **Weight** 3 lbs.
 

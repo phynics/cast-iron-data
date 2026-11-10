@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowards_lament", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 212
 
 You compel an opponent to face you in combat, or suffer for its cowardice. Each round that the
 target fails to attack you in melee, it receives a cumulative -1 penalty to its Armor Class, attack

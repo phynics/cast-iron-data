@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_slam", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you begin your turn grappling an opponent, instead of attempting
 +++
 
 ## Savage Slam (Combat)
-
-**Sources:** Martial Arts Handbook pg 23
 
 Using your lock on the enemy's body, you forcefully hurl your opponent to the ground.\
 **Prerequisites:** [Improved Grapple](ref/feat/improved-grapple),

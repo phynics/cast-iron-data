@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_attacks_pu", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 110
 
 If a creature with at least three natural attacks makes a full attack using only natural weapons,
 the creature has a maximum number of hits equal to the number of secondary attacks plus 1/2 the

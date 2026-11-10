@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_will", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "68"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 68
 
 Many players tend to focus more on creating characters with consistent, specific personalities
 rather than alignments. These players envision their heroes' backgrounds, personality traits,

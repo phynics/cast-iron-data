@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed_keepsake", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "261"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and divination"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Gods pg 261\
 **Aura** faint abjuration and divination; **CL** 1st\
 **Slot** neck; **Price** 8,000 gp; **Weight** -
 

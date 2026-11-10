@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exploration_ucp", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 154
 
 Exploration is the epitome of adventuring. An explorer strikes out into the uncharted wild to pursue
 fortune and glory, facing off against a world of unknown perils that can strike at any time. Beyond

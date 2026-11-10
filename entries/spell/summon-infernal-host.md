@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster-5" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Effect: 1d4+1 lesser host devils or 1 greater host devil
 Subschool: Summoning
 Descriptors: evil, lawful
 :::
-
-**Sources:** Rival Guide pg 59
 
 This spell functions as [summon monster V](ref/spell/summon-monster-5), save that it can only be
 used to summon host devils, noxious flying devils, known also as

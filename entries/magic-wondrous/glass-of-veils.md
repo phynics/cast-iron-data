@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glass_of_veils", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Intrigue pg 247\
 **Aura** moderate illusion; **CL** 11th\
 **Slot** none; **Price** 53,000 gp; **Weight** 40 lbs.
 

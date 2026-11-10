@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canny_tumble", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "143"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use Acrobatics to move through an opponent's threatened area
 +++
 
 ## Canny Tumble (Combat)
-
-**Sources:** Advanced Class Guide pg 143
 
 Your acrobatic prowess distracts your foes.\
 **Prerequisites:** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), Acrobatics 5 ranks.\

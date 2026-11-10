@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_enemy", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature that is not your favored enemy.
 :::
-
-**Sources:** Advanced Player's Guide pg 229
 
 With this spell you designate the target as your [favored enemy](ref/ability/favored-enemy) for the
 remainder of its duration. Select one of your favored enemy types. For the duration of the spell,

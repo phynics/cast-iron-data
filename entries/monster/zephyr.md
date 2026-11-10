@@ -6,6 +6,9 @@ source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zephyr", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ intelligence._
 
 **Senses:** Low-light vision, Wind senses
 
-**Sources:** Pathfinder \#101: The Kintargo Contract pg 90\
 **Subtype:** Air, Shapechanger
 
 **Experience points:** 19,200

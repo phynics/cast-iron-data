@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_scrutiny", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "182"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 182
 
 You gain heightened sensitivity to the mannerisms, reactions, and body language of one creature you
 can perceive, allowing you to sense its state of mind and easily influence it. You gain a +10 bonus

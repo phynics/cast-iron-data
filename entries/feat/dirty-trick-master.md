@@ -6,6 +6,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_trick_master", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you successfully perform a dirty trick combat maneuver again
 +++
 
 ## Dirty Trick Master (Combat)
-
-**Sources:** Bastards of Golarion pg 25
 
 You are adept at stifling your enemies and can expertly make a bad situation even worse.\
 **Prerequisites:** [Greater Dirty Trick](ref/feat/greater-dirty-trick),

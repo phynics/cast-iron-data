@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barghest", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hands than a wolf's paws._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 27\
 **Subtype:** Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 1,200

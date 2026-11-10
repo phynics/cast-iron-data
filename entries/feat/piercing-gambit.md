@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/spell-penetration", label = "or" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can expend one prepared spell or spell slot, as if you had cast t
 +++
 
 ## Piercing Gambit (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 You cast a spell destined to fail in order to help your ally overcome an enemy's
 [spell resistance](ref/rule/spell-resistance).\

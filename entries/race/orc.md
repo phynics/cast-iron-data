@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "wilderness-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "246"
+[[sources]]
+publication = "bestiary"
+page = "222"
+[[sources]]
+publication = "advanced-race-guide"
+page = "138"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 246, Pathfinder RPG Bestiary pg 222, Advanced Race Guide pg 138\
 Orcs are aggressive, callous, and domineering. Bullies by nature, they respect strength and power as
 the highest virtues. On an almost instinctive level, orcs believe they are entitled to anything they
 want unless someone stronger can stop them from seizing it. They rarely exert themselves off the

@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 The empyreal lords are the primal forces of good given physical form. Though not as powerful as
 gods, they are ancient celestials with legendary abilities.

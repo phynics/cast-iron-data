@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mount", "tactician", "expert trainer", "banner", "greater tactician
 alters = ["Cavalier's charge"]
 +++
 
-**Sources:** Legacy of Dragons pg 24\
 While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the
 reality involves far more effort than they had expected. Unlike other cavaliers, drakeriders must
 train their mounts from hatchlings, fighting and toiling alongside their drakes for years through

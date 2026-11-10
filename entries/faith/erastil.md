@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "divine-anthology", "pathfi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erastil", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "52"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Erastil**
 
 **Sub:** Old Deadeye
-
-**Sources:** Inner Sea Gods pg 52
 
 ### Details
 

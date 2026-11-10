@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restrictions_on_trait_selection", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "326"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 326
 
 There are a few rules governing trait selection. To begin with, your GM controls how many bonus
 traits a PC begins with; the default assumption is two traits. When selecting traits, you may not

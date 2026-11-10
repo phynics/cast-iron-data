@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lurking_ray_trapper", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "187"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ abilities = ["30", "12", "19", "14", "17", "13"]
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 4 pg 187, Misfit Monsters Redeemed pg 50\
 **Experience points:** 4,800
 
 **Armor class:** 21/9/20

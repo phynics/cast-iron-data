@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashen_path", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "15"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: living creature touched
 :::
-
-**Sources:** Blood of the Ancients pg 15
 
 You grant the creature touched the ability to breathe with ease air that is contaminated with ash,
 spores, smoke, dust, or the like. The creature suffers no ill effects from natural airborne

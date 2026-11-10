@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlpool_maw", path = "json/magic_elemental_augmentations.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate conjuration"
 caster_level = "7th"
 +++
-
-**Sources:** Elemental Master's Handbook pg 25
 
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 19,000 gp; **Weight** —

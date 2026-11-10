@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_vitals", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 31
 
 This spell makes your eyes shine blood red and allows you to see the vital areas and weak points of
 creatures within 30 feet of you as a warm glow. This allows you to use any manufactured weapon to

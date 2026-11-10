@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "net_trickery", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "111"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "In place of one of your melee attacks, you can use your net to attemp
 +++
 
 ## Net Trickery (Combat)
-
-**Sources:** Ultimate Combat pg 111
 
 You have become very proficient at using your net to hinder your enemies.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (net),

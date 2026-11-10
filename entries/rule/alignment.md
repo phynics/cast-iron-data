@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 166
 
 A creature's general moral and personal attitudes are represented by its alignment: lawful good,
 neutral good, chaotic good, lawful neutral, neutral, chaotic neutral, lawful evil, neutral evil, or

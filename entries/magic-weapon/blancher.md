@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blancher", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 60\
 **Aura** strong necromancy; **CL** 15th\
 **Slot** none; **Price** 63,312 gp; **Weight** 25 lbs.
 

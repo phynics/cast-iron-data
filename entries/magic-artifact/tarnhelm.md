@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tarnhelm", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "168"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration, illusion, and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 168\
 **Aura** strong conjuration, illusion, and transmutation; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 2 lbs.
 

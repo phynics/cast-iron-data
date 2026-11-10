@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_golem_manual", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "42"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration, enchantment, and evocation"
 caster_level = "18th"
 +++
 
-**Sources:** Lost Kingdoms pg 42\
 **Aura** strong conjuration, enchantment, and evocation; **CL** 18th\
 **Slot** none; **Price** 70,000 gp; **Weight** 5 lbs.
 

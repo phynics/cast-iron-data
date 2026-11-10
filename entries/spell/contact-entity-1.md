@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_entity_1", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "112"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: up to 20 entities of 6 HD or fewer; see text
 :::
-
-**Sources:** Horror Adventures pg 112
 
 You send out a magical message to any eldritch entities of a particular kind within a 100-mile
 radius, which can be delivered to up to 20 such creatures, starting with the nearest creatures until

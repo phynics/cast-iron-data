@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrias_guardian_wasps", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: Swarm of wasps that builds a nest; see text
 Subschool: Summoning
 :::
-
-**Sources:** Inner Sea Intrigue pg 58
 
 You summon a [wasp swarm](ref/monster/wasp-wasp-swarm) that builds a 10-foot-by-10-foot nest in the
 place you designate - typically under the eaves of a house, amid the rafters of a tavern, or in

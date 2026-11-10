@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ teeth._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 88\
 **Experience points:** 200
 
 **Armor class:** 13/12/11

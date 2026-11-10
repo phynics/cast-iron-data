@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/scouring-winds", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "107"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 107\
 The spell's damage increases to 4d8 points of piercing damage. Any creature in the area at the start
 of your turn must succeed at a Reflex save or be blinded for as long as it remains in the area and
 for 1d4 rounds after it leaves.

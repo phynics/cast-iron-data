@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disruptive_spell_like_ability", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat can be taken multiple times. Each time it is taken, you can
 +++
 
 ## Disruptive Spell-Like Ability (Monster)
-
-**Sources:** Horror Adventures pg 85
 
 Your [spell-like ability](ref/umr/spell-like-abilities) clings to affected targets and interferes
 with their spellcasting.\

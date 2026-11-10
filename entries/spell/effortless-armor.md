@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effortless_armor", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 Armor you wear no longer reduces your speed. You also reduce the armor's armor check penalty by 1 +
 1 per five caster levels (maximum 5).

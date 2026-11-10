@@ -6,12 +6,13 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar_fever", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 63
 
 **Type:** Disease (Ingested or inhaled)
 

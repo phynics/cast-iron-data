@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staves", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "491"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 491
 
 A staff is a long shaft that stores several spells. Unlike wands, which can contain a wide variety
 of spells, each staff is of a certain kind and holds specific spells. A staff has 10 charges when

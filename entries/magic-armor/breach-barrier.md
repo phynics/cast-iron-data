@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breach_barrier", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Down the Blighted Path pg 60\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 2,370 gp; **Weight** 15 lbs.
 

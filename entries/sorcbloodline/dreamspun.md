@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamspun", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "137"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Advanced Player's Guide pg 137\
 Your family is a long line of dreamers, who dream not as ordinary mortals do but rather as those who
 reach through and touch the supernal realm of dreams and the farthest shores of night. Whether it is
 a gift or curse is not always clear, but your visions of the past and future call you ineluctably to

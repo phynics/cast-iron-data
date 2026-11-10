@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/riving-strike", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "130"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 130\
 When you use this feat, you can spend up to 3 stamina points to increase the duration of the effect
 by 1 round for each stamina point spent.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thremyrs_beard_greater", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-94-ice-tomb-of-the-giant-queen"
+page = "33"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "13th"
 
 ## Thremyr's Beard
 
-**Sources:** Pathfinder \#94: Ice Tomb of the Giant Queen pg 33\
 **Aura** strong evocation; **CL** 13th\
 **Slot** head; **Price** 32,250 gp (Lesser), 42,250 gp (Greater); **Weight** 2 lbs.
 

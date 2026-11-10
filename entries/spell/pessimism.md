@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pessimism", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "123"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 123
 
 You erode the target's confidence and instill a sense of despair. This fear of failure manifests as
 a -2 penalty on attack rolls, saving throws, ability checks, skill checks, and weapon damage rolls.

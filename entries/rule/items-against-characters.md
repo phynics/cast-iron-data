@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "items_against_characters", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "535"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 535
 
 When an item has an Ego of its own, it has a will of its own. The item is absolutely true to its
 alignment. If the character who possesses the item is not true to that alignment's goals or the

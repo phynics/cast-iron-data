@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_chain", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** strong evocation; **CL** 13th\
 **Slot** none; **Price** 8,825 gp; **Weight** 10 lbs.
 

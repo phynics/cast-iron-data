@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_watersense", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "66"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [watersense](ref/kinetic/watersense)
-
-**Source:** Ultimate Intrigue/66
 
 You project your _watersense_ outward through the tides and water around you, allowing you to spy on
 others at a distance.

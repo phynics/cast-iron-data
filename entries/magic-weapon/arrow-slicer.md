@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arrow_slicer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Sources:** Antihero's Handbook pg 30\
 **Aura** moderate evocation; **CL** 6th\
 **Slot** none; **Price** 21,310 gp; **Weight** 2 lbs.
 

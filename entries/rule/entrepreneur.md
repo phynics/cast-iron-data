@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entrepreneur", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 72
 
 The economic heart of most pseudo-medieval campaigns is their businesses, each creating revenue for
 the local lord and providing specialty shops, guilds, taverns, and other structures needed by

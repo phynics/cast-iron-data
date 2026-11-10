@@ -6,6 +6,9 @@ source_ids = ["plunder-and-peril"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_arm", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "plunder-and-peril"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Plunder and Peril pg 47\
 **Aura** strong conjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 6,400 gp; **Weight** 25 lbs.
 

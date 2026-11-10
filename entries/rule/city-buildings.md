@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "city_buildings", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "437"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 437
 
 Most city buildings fall into three categories. The majority of buildings in the city are two to
 five stories high, built side-by-side to form long rows separated by secondary or main streets.

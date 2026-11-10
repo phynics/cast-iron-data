@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "66"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Magic item skill", "Aura sight", "7th-level focus power", "13th-lev
 alters = ["Mental focus", "Implements"]
 +++
 
-**Sources:** Ultimate Wilderness pg 66\
 A geomancer studies every type of land, deriving power from the differences between types of
 terrain.
 

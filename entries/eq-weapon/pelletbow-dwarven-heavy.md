@@ -6,14 +6,15 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelletbow_dwarven_heavy", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Heroes from the Fringe pg 8
 
 The dwarven pelletbow is a crossbow-like weapon that is loaded with and fires
 [sling bullets](ref/eq-weapon/sling-bullets) rather than bolts. A dwarven heavy pelletbow takes the

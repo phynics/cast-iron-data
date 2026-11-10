@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unstoppable_esotery", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "154"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you use esoteric material components as part of casting a spell,
 +++
 
 ## Unstoppable Esotery (Esoteric)
-
-**Sources:** Pathfinder Unchained pg 154
 
 When you cast a spell using esoteric materials, you reinforce your spell's magical structure, making
 the spell difficult to stop or remove.\

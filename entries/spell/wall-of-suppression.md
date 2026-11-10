@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_suppression", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Effect: anti-magic wall occupying up to two 5 ft. cubes/level (S)
 :::
-
-**Sources:** Advanced Player's Guide pg 255
 
 You create a wall of glittering motes that suppresses or even negates any magical effect passing
 through it. The wall appears to have no actual substance and does not physically obstruct or impede

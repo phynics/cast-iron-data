@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girtablilu_raging_sting", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "36"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ against the leather of his armor._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 36\
 **tremorsense:** 30
 
 **Experience points:** 6,400

@@ -6,14 +6,15 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragoon_cartridge", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "57"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Villain Codex pg 57
 
 These clips of [alchemical cartridges](ref/eq-weapon/alchemical-cartridge) hold three
 [bullets](ref/eq-weapon/firearm-bullet) and fit the slot of either the

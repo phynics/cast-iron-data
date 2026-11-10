@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purging_flame", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "9"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 6
 
 **Burn:** 1
-
-**Source:** Occult Realms/9
 
 You can purge yourself or another with flame, removing all impurities. This functions as
 [break enchantment](ref/spell/break-enchantment) on a single target. The target must be willing and

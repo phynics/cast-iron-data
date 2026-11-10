@@ -6,6 +6,12 @@ source_ids = ["quests-and-campaigns", "ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foeslayer", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "10"
+[[sources]]
+publication = "ultimate-campaign"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "The save DCs for any of your spells or abilities increase by 1 when u
 +++
 
 ## Foeslayer (Story)
-
-**Sources:** Quests and Campaigns pg 10, Ultimate Campaign pg 69
 
 Your feud with your enemies can be quenched only with blood.\
 **Prerequisites:** You must have been defeated and robbed of at least half your possessions by a

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winter_collector", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "68"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong conjuration and evocation"
 caster_level = "20th"
 +++
-
-**Sources:** Pathfinder \#72: The Witch Queen's Revenge pg 68
 
 **Aura** strong conjuration and evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** varies

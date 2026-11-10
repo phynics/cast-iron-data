@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalyptic_spell", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can alter a spell with an area of effect and a duration of instan
 +++
 
 ## Apocalyptic Spell (Metamagic)
-
-**Sources:** Planar Adventures pg 22
 
 Your spell becomes infused with the devastating horror personified by the Horsemen of the
 Apocalypse, temporarily transforming reality into a treacherous ruin.\

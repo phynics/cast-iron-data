@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "run_a_business", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 86
 
 If you have a building and that building generates any kind of capital, you can spend 1 day of
 downtime working at your building - increasing its productivity by inspiring your employees to work

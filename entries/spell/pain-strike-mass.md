@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/pain-strike" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -49,7 +52,5 @@ Descriptors: evil, pain
 :::
 
 ### Mass Pain Strike
-
-**Sources:** Advanced Player's Guide pg 234
 
 This spell works like [pain strike](ref/spell/pain-strike), except as noted above.

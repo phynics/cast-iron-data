@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consume_essence", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "84"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you are of the undead type, each time a swallowed creature gains a
 +++
 
 ## Consume Essence (Combat)
-
-**Sources:** Horror Adventures pg 84
 
 Creatures that you swallow are quickly absorbed and soon utterly annihilated.\
 **Prerequisites:** Base attack bonus +6; evil alignment; [swallow whole](ref/umr/swallow-whole)

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_conflicting_energies", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "266"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Gods pg 266\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** head; **Price** 4,000 gp; **Weight** 1 lb.
 

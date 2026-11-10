@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prestidigitation", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "325"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: see text
 Spell resistance: no
 Effect: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 325
 
 Prestidigitations are minor tricks that novice spellcasters use for practice. Once cast, a
 prestidigitation spell enables you to perform simple magical effects for 1 hour. The effects are

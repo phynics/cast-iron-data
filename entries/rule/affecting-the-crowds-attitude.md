@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "affecting_the_crowds_attitude", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 156
 
 For a combatant to affect the crowd's reaction in some way, he must usually accomplish some visible
 combat display that has a chance of motivating the crowd toward a new attitude. If the crowd cannot

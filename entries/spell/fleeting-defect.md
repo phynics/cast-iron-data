@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_defect", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (harmless, object), see text
 Spell resistance: no
 Target: one solid object that does not have the broken condition, or one construct
 :::
-
-**Sources:** Black Markets pg 31
 
 You cause a single object to temporarily gain the broken condition. The target must be a single
 solid object, regardless of its composition, weighing up to 10 pounds per caster level. Attended

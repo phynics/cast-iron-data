@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_reposition", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever an ally with this feat who is threatening a creature you are
 +++
 
 ## Coordinated Reposition (Teamwork)
-
-**Sources:** Monster Codex pg 92
 
 You are skilled in coordinating combat positioning with your allies.\
 **Prerequisites:** [Step-Up](ref/feat/step-up).\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysteries_and_investigations", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 246
 
 A favorite weapon inexplicably stained in blood, a treasure purloined despite the best defenses, a
 locked room with a mangled corpse within - such elements might seem more at home in tales of crime

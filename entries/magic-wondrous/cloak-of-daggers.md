@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_daggers", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Heroes of the Streets pg 14\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** shoulders; **Price** 18,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_of_movement", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "287"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: you or creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 287
 
 This spell enables you or a creature you touch to move and attack normally for the duration of the
 spell, even under the influence of magic that usually impedes movement, such as paralysis,

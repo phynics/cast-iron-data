@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_spells", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "328"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: up to one creature touched per four levels
 :::
-
-**Sources:** PRPG Core Rulebook pg 328
 
 The subject gains a +8 resistance bonus on saving throws against spells and
 [spell-like abilities](ref/umr/spell-like-abilities) (but not against supernatural and extraordinary

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorthact", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Unraveler
 
-**Sources:** Inner Sea Gods pg 326\
 **Monster Link** [Lorthact](ref/monster/lorthact)
 
 ### Details

@@ -6,12 +6,12 @@ source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baba_yagas_rider", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Irrisen - Land of Eternal Winter
 
 Many fey creatures aided Baba Yaga's invasion of the eastern Linnorm Kingdoms, doing so for the
 sheer love of carnage and chaos. Others, however, possessed more inscrutable motives. Every century,

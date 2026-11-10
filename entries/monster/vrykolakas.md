@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vrykolakas", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "273"
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ mouth full of fangs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 273, Pathfinder \#29: Mother of Flies pg 88\
 **Subtype:** Shapechanger
 
 **Type:** undead

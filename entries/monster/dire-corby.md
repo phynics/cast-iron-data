@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_corby", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "80"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "18"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ beak._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 80, Misfit Monsters Redeemed pg 18\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

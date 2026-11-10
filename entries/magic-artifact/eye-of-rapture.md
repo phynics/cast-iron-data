@@ -6,6 +6,9 @@ source_ids = ["carnival-of-tears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_rapture", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "carnival-of-tears"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "20th"
 +++
 
-**Sources:** Carnival of Tears pg 17\
 **Aura** strong illusion; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

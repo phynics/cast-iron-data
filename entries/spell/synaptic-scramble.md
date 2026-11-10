@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synaptic_scramble", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 187
 
 You scramble the synaptic connections of your target, causing it to lose the ability to coherently
 communicate and to take unintended actions when it meant to perform others. The target cannot

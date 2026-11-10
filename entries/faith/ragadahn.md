@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragadahn", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "32"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ragadahn**
 
 **Sub:** The Water Lord
-
-**Sources:** The First World, Realm of the Fey pg 32
 
 ### Details
 

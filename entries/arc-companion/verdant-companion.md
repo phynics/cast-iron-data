@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "189"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells", "Evasion", "Devotion", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 189\
 Favorites of druids who balance their responsibilities between flora and fauna, verdant companions
 are animals with some of the abilities and physical aspects of plants.
 

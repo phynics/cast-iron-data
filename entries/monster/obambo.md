@@ -6,6 +6,9 @@ source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obambo", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-40-vaults-of-madness"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ ghostly body, which appears stuffed with decaying leaves and other plant matter.
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#40: Vaults of Madness pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

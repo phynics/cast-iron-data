@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "52"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "strong evocation [fire]"
 caster_level = "13th"
 +++
-
-**Sources:** Chronicle of the Righteous pg 52
 
 **Aura** strong evocation \[fire\]; **CL** 13th\
 **Slot** armor; **Price** 100,050 gp; **Weight** 50 lbs.

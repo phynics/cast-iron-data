@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rules_lawyer", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "76"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 76
 
 All players like to know that there are universal rules to level the playing field, but the rules
 lawyer takes it a step farther. He knows every obscure rule, and insists that each one work exactly

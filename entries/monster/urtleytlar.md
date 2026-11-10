@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urtleytlar", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "68"
 
 [fields]
 kind = "creature"
@@ -51,7 +54,6 @@ welcoming._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 68\
 **Subtype:** Aquatic
 
 **Experience points:** 307,200

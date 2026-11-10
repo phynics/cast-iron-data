@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emblem_of_lost_lives", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Disciple's Doctrine pg 29\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 12,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_bonds", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 13
 
 You heighten your awareness of up to one willing creature or object per 3 caster levels, each of
 which must be within 30 feet of you during the entire hour you spend preparing spells and casting

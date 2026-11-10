@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "non_adventuring_magic_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 111
 
 The magical objects detailed by the game rules are, for obvious reasons, restricted to items useful
 to adventurers. It stands to reason, though, that in a world of readily available enchantment, many

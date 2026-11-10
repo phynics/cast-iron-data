@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather_baseline", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 165
 
 When determining weather for a region in your campaign, your first step is to establish the weather
 baseline for the region. The weather baseline is influenced by the region's climate (this sets the

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_master", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You do not suffer any penalties on attack rolls made with a shield wh
 +++
 
 ## Shield Master (Combat)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 Your mastery of the shield allows you to fight with it without hindrance.\
 **Prerequisites:** [Improved Shield Bash](ref/feat/improved-shield-bash),

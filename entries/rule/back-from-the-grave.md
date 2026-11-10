@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "back_from_the_grave", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "67"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 67
 
 Sometimes a group's favorite character dies and for one reason or another can't be resurrected.
 While there's nothing preventing a player from tacking a "II" to the end of his character's name and

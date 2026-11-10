@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fangwood_clasp", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Origins pg 28\
 **Aura** faint illusion; **CL** 5th\
 **Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.
 

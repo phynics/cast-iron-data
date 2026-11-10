@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khala", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "151"
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ hissing, triangular heads._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 151, Irrisen - Land of Eternal Winter pg 59\
 **Subtype:** Cold
 
 **Experience points:** 102,400

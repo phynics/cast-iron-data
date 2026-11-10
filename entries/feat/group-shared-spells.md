@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_shared_spells", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "113"
+[[sources]]
+publication = "familiar-folio"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "You and any of your allies with this feat can cast spells with a targ
 +++
 
 ## Group Shared Spells (Teamwork)
-
-**Sources:** Ultimate Wilderness pg 113, Familiar Folio pg 18
 
 You and your allies can cast spells through each other's familiars as if they were your own.\
 **Prerequisites:** [Familiar](ref/ability/familiars) with the share spells ability.\

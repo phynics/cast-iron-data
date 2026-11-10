@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonstone_cat", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Mythic Adventures pg 154\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
 

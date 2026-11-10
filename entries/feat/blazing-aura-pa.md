@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_aura_pa", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a standard action, you can shroud yourself in fire. Until the end 
 +++
 
 ## Blazing Aura (PA) (Combat, Conduit)
-
-**Sources:** Planar Adventures pg 26
 
 You cover yourself in coils of flame drawn from the Plane of Fire.\
 **Prerequisites:** Knowledge (planes) 3 ranks.\

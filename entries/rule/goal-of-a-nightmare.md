@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goal_of_a_nightmare", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 163
 
 Each nightmare dreamscape has a particular action that can be completed to allow the dreamer to
 escape the nightmare. This goal may or may not be immediately obvious. If the dreamer is unable to

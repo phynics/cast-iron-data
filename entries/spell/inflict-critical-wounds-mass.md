@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/inflict-light-wounds-mass" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "300"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 :::
 
 ### Mass Inflict Critical Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
 
 This spell functions like [mass inflict light wounds](ref/spell/inflict-light-wounds-mass), except
 that it deals 4d8 points of damage + 1 point per caster level (maximum +40).

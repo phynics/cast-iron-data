@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "45"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", 
 alters = ["Banner"]
 +++
 
-**Sources:** Inner Sea Combat pg 45\
 The Spellscar Desert is a dangerous wasteland into which few venture without a guide. Spellscar
 drifters have made themselves at home in these badlands. When not scouring the desert for forgotten
 treasures or magic hidden by the region's shifting magic-dead zones, a Spellscar drifter might hire

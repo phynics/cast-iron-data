@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "70"
 
 [fields]
 kind = "archetype"
 replaces = ["Aura of courage", "Divine health", "Channel positive energy", "Aura of resolve", "Aura of justice", "Aura of faith"]
 +++
 
-**Sources:** Ultimate Wilderness pg 70\
 Forest preservers are sacred defenders of the woodlands and of the wild creatures and natural beauty
 within them.
 

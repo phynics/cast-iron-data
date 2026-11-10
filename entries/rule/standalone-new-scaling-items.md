@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standalone_new_scaling_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 163
 
 A GM can include specific scaling items as individual pieces of treasure even if she isn't using the
 scaling items system in her game. The base item can be used without any of the higher-level

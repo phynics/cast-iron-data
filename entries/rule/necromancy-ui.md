@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necromancy_ui", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 158
 
 There are a few necromancy spells that are similar enough to divinations that their
 information-gathering ability is worth considering.

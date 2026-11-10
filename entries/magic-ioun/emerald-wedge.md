@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emerald_wedge", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "77"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "12th"
 
 ### Emerald Wedge Ioun Stone
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 77\
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Price** 32,000 gp; **Weight** —
 

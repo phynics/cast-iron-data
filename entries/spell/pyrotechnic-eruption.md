@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrotechnic_eruption", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "125"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: fire
 :::
-
-**Sources:** Horror Adventures pg 125
 
 The caster causes jets of flame to erupt from the ground and surround the target. The target takes
 1d6 points of damage per caster level (maximum 15d6) unless it succeeds at a Reflex save for half

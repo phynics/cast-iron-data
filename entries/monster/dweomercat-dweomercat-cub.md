@@ -6,6 +6,9 @@ source_ids = ["pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dweomercat_dweomercat_cub", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ yellow eyes and stands calmly, as though fearless._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Size:** tiny
 
 **Experience points:** 600

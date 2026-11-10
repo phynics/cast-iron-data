@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timing_and_focus", path = "json/rules_opt_alignment01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 97
 
 Nearly every adventure has the potential for moral conflicts, but you should be careful not to
 spring them on your players too often; otherwise you risk creating conflict fatigue or lessening the

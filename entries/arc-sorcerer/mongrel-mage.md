@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "122"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bloodline feats gained at 7th, 13th, and 19th level"]
 alters = ["Bloodline", "bloodline powers", "bloodline spells"]
 +++
 
-**Sources:** Advanced Class Guide pg 122\
 A mongrel mage is a sorcerer whose bloodline is so weak, or mixed with so many others, that her
 power isn't clearly associated with any bloodline source. A mongrel mage's bloodline powers can
 change on a daily basis, but always fall short of those of a full-blooded sorcerer's powers. A

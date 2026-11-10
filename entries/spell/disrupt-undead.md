@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_undead", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "273"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: yes
 Effect: ray
 :::
-
-**Sources:** PRPG Core Rulebook pg 273
 
 You direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits
 an undead creature, it deals 1d6 points of damage to it.

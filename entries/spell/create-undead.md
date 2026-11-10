@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_undead", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "262"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: one corpse
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 262
 
 A much more potent spell than [animate dead](ref/spell/animate-dead), this evil spell allows you to
 infuse a dead body with negative energy to create more powerful sorts of undead: ghouls, ghasts,

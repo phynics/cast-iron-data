@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_damage_drain", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "555"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 555
 
 Diseases, poisons, spells, and other abilities can all deal damage directly to your ability scores.
 This damage does not actually reduce an ability, but it does apply a penalty to the skills and

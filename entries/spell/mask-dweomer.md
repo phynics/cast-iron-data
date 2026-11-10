@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_dweomer", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: creature or object touched
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 You mask and manipulate a spell's magic aura to make it harder to detect. Select one spell effect on
 the target creature or object. You must have either cast this spell yourself or have perceived it by

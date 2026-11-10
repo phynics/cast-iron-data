@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maidens_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "87"
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Sources:** Adventurer's Guide pg 87, Pathfinder \#62: Curse of the Lady's Light pg 62\
 **Aura** moderate enchantment; **CL** 6th\
 **Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.
 

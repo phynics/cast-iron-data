@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanctify_weapons", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "50"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Area: 20-ft.-radius spread
 :::
-
-**Sources:** Chronicle of the Righteous pg 50
 
 This spell originated among the armies of Heaven. Choose a specific subtype of evil outsider when
 you cast this spell, such as daemon, demon, devil, or div. All manufactured weapons in the area of

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_giant_strength_2", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "208"
+[[sources]]
+publication = "core-rulebook"
+page = "502"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "8th"
 
 ## Belt of Giant Strength
 
-**Sources:** Ultimate Equipment pg 208, PRPG Core Rulebook pg 502\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** belt; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
 

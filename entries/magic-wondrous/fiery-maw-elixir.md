@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiery_maw_elixir", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Potions and Poisons pg 20\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 800 gp; **Weight** -
 

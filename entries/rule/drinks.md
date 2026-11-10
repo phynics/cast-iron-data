@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drinks", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 198
 
 The vast majority of taverns serve drinks (whether alcoholic or not) made from local ingredients. In
 a temperate climate, wheat, hops, and barley are the most likely ingredients, and a tavern in such

@@ -6,13 +6,15 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestors", path = "json/class_ability_shaman_spirits.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "19"
 
 [fields]
 kind = "class_option"
 group = "shaman-spirit"
 +++
 
-**Sources:** Cohorts and Companions pg 19\
 A shaman that selects the ancestors spirit has wise eyes and thick white or silver hair. Fine
 wrinkles line the shaman's face, becoming more obvious when she smiles or glowers. When she calls
 upon one of this spirit's abilities, her hair glows as though lit from within, rustling of its own

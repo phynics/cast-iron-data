@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repairing_constructs", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 113
 
 Even with the best of care, most constructs will eventually become damaged. Unless a construct
 suffers some sort of structural damage that radically alters its physical form, the construct

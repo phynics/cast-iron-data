@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loci_spirit_rules", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "226"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 226
 
 The emanating feelings of peace and protective warmth make a loci spirit obvious to those within its
 area. A loci spirit is always LG, NG, or CG in alignment and has the aura of a good outsider for the

@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fencing_grace", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "83"
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When wielding a rapier one-handed, you can add your Dexterity modifie
 +++
 
 ## Fencing Grace (Combat)
-
-**Sources:** Ultimate Intrigue pg 83, Advanced Class Origins pg 27
 
 Your dashing style and fluid rapier forms allow you to use agility rather than brute force to fell
 your foes.\

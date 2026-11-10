@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "26"
 
 [fields]
 kind = "archetype"
 alters = ["Spellcasting", "Hexes"]
 +++
 
-**Sources:** Healer's Handbook pg 26\
 Though most shamans dole out banes and boons equally, a benefactor seeks to improve the lives of
 others by primarily offering powerful supportive abilities and magic to her allies and others she
 deems worthy.

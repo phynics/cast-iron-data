@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mid_level_play_levels_7_12", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "159"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 159
 
 At the middle tier of spellcasting, many spells with wilderness themes revolve around control
 effects. While most of them have been previously detailed (see

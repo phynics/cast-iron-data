@@ -6,6 +6,9 @@ source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyperboreal_robe", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-68-the-shackled-hut"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#68: The Shackled Hut pg 60\
 **Aura** moderate abjuration and necromancy; **CL** 6th\
 **Slot** body; **Price** 7,000 gp; **Weight** 1 lb.
 

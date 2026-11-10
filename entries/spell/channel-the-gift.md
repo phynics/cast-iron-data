@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_the_gift", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
+[[sources]]
+publication = "gods-and-magic"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Saving throw: Will negates (harmless) or none
 Spell resistance: yes (harmless) or no
 Target: ally spellcaster touched
 :::
-
-**Sources:** Inner Sea Gods pg 230, Gods and Magic pg 27
 
 You channel your magical power to fuel the target's spellcasting. The next spell the target casts of
 3rd level or lower does not expend a spell slot; in effect, you are using your spell slot to power

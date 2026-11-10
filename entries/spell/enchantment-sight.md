@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment_sight", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the High Court pg 10
 
 Your irises take on a purplish tinge and you can see whether creatures within 60 feet of you are
 affected by an enchantment effect. To your eyes only, a creature under the effects of an enchantment

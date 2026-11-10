@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "house_spirit_ovinnik", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "143"
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ hand._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 143, Pathfinder \#67: The Snows of Summer pg 87\
 **Size:** tiny
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chitikin", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ are scythe-like claws, and its slender antennae end in glowing green bulbs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 82\
 **Type:** vermin
 
 **Experience points:** 1,200

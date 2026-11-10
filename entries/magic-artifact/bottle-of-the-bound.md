@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "artifacts-and-leg
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bottle_of_the_bound", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "335"
+[[sources]]
+publication = "advanced-players-guide"
+page = "316"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "16"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "none"
 aura = "strong abjuration"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 335, Advanced Player's Guide pg 316, Artifacts and Legends pg 16
 
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.

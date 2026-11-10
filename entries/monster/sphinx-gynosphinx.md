@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_gynosphinx", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "257"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ human woman._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 257\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/20

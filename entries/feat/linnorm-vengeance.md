@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_vengeance", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you're using the Linnorm Style feat and an enemy hits you with 
 +++
 
 ## Linnorm Vengeance (Combat)
-
-**Sources:** Legacy of Dragons pg 20
 
 Your rigorous training allows you to redirect some of the energy from blows you take, turning your
 enemies' strength against them. Even death can't stop you from having your revenge.\

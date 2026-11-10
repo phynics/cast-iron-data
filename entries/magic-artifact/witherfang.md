@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witherfang", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "163"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 163\
 **Aura** strong necromancy and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

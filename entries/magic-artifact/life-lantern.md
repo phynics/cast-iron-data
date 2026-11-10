@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_lantern", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 62\
 **Aura** strong evocation and necromancy; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

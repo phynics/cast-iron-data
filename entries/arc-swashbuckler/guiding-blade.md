@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feats, 1st-, 7th-, and 15th-level deeds", "Nimble", "Kip-up"]
 alters = ["Panache", "Charmed life"]
 +++
 
-**Sources:** Ultimate Intrigue pg 52\
 While some swashbucklers are loners or glory hounds, always trying to take the credit for finishing
 off a foe with little regard for their allies, guiding blades focus their swordplay and panache on
 helping their allies. For a guiding blade, anything is possible when the right team comes together,

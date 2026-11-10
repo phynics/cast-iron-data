@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "22"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Improved empathic link"]
 alters = ["Animal focus", "Wild Empathy"]
 +++
 
-**Sources:** Blood of the Sea pg 22\
 Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working
 alongside their animal companions to eradicate threats. Although many aquatic beastmasters simply
 want to be left alone in the areas they have claimed as their own, others use their abilities to

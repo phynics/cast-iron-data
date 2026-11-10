@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "broken-chains"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_yaenit", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "91"
+[[sources]]
+publication = "broken-chains"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed 
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Bestiary 6 pg 91, Broken Chains pg 29\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 2,400

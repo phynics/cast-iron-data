@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_feint", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "158"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you have the Improved Feint feat, you can use this feat as a move 
 +++
 
 ## Twinned Feint (Combat)
-
-**Sources:** Advanced Class Guide pg 158
 
 You can fool two opponents with a single feint.\
 **Prerequisites:** Cha 13.\

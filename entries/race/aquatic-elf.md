@@ -6,12 +6,17 @@ source_ids = ["blood-of-the-sea", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_elf", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "4"
+[[sources]]
+publication = "inner-sea-races"
+page = "242"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Blood of the Sea pg 4, Inner Sea Races pg 242\
 Aquatic elves can live either in or out of the water, but most prefer homes in the watery depths of
 oceans and seas. They establish small communities, uniting with other aquatic elves as needed for
 protection but remaining largely independent. Some of these communities are built partly above and

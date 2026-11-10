@@ -6,14 +6,15 @@ source_ids = ["the-house-on-hook-street"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_leg_sickle", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "the-house-on-hook-street"
+page = "13"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** The House on Hook Street pg 13
 
 This wickedly curved sickle is cast in the form of a segmented spider's leg. It has the same
 statistics as a normal [sickle](ref/eq-weapon/sickle) and can trip opponents, but deals piercing

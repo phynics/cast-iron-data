@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_bomb_greater", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "251"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th (normal), 13th (greater)"
 
 ## Time Bomb
 
-**Sources:** Ultimate Intrigue pg 251\
 **Aura** faint (normal) or strong (greater) evocation; **CL** 5th (normal), 13th (greater)\
 **Slot** none; **Price** 1,000 gp (normal), 6,000 gp (greater); **Weight** 1 lb.
 

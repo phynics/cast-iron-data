@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscuring_mist", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: cloud spreads in 20-ft. radius from you, 20 ft. high
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 A misty vapor arises around you. It is stationary. The vapor obscures all sight, including
 [darkvision](ref/rule/darkvision), beyond 5 feet. A creature 5 feet away has concealment (attacks

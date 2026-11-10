@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "5"
 
 [fields]
 kind = "archetype"
 alters = ["Combat style feats", "Favored terrain"]
 +++
 
-**Sources:** Disciple's Doctrine pg 5\
 An elemental envoy travels the Elemental Planes. He has learned to protect himself from their many
 dangers, and he models his fighting style after their teachings.
 

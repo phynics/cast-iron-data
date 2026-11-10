@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/shield-other", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 108
 
 Increase the range to long (400 feet + 40 feet per caster level). Subtract your tier from any damage
 transmitted to you through the mystical connection before applying the damage (minimum 1 hp of

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashing_shadowcraft_weapon", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Blood of Shadows pg 22\
 **Aura** moderate illusion and transmutation; **CL** 10th\
 **Slot** none; **Price** 14,500 gp; **Weight** varies
 

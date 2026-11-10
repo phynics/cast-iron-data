@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goodberry", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "291"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: yes
 Targets: 2d4 fresh berries touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 291
 
 Casting goodberry makes 2d4 freshly picked berries magical. You (as well as any other druid of 3rd
 or higher level) can immediately discern which berries are affected. Each transmuted berry provides

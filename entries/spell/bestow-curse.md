@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_curse", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** PRPG Core Rulebook pg 247
 
 You place a curse on the subject. Choose one of the following.
 

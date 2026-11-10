@@ -6,6 +6,9 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_bombardment", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: one or more summoned elementals
 Subschool: Summoning
 :::
-
-**Sources:** Mythic Origins pg 14
 
 You summon elementals from their elemental planes and hurl them onto your enemies with great force.
 You must have line of effect to a point at least 60 feet above your intended targets and within the

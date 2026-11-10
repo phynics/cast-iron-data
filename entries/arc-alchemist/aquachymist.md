@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "49"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["The discovery at 2nd level"]
 alters = ["Alchemy", "Bombs"]
 +++
 
-**Sources:** Aquatic Adventures pg 49\
 The principles of alchemy work equally well underwater and on land, but mixing solutions and keeping
 them pure is a tougher task beneath the waves. Aquachymists are those rare few alchemists of
 land-dwelling and aquatic races alike who strive to unlock new and fantastic secrets of alchemy that

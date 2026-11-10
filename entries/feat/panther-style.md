@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panther_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "112"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, when an opponent makes an attack of opportuni
 +++
 
 ## Panther Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 112
 
 You can strike back at enemies who attack you when you move.\
 **Prerequisites:** Wis 13, [Combat Reflexes](ref/feat/combat-reflexes),

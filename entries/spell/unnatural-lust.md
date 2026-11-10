@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unnatural_lust", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "245"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 245
 
 Your target is filled with lust and desire for a single creature or object as designated by you at
 the time of casting. That creature or object must be within the spell's range and perceivable by the

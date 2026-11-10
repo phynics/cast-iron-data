@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoulish_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/248
 
 Ghoulish creatures have succumbed to [ghoul fever](ref/disease/ghoul-fever) and transformed into
 cannibalistic undead versions of their previous selves.

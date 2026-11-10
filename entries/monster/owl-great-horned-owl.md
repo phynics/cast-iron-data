@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owl_great_horned_owl", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "213"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ most owls._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 213\
 **Experience points:** 200
 
 **Armor class:** 15/13/13

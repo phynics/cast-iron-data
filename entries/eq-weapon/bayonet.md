@@ -6,16 +6,30 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "pirates-of-the-inner-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bayonet", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "67"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, Adventurer's Armory pg 2, Pirates of the Inner Sea pg 19,
-Advanced Player's Guide pg 176, Skull and Shackles Player's Guide pg 6, Pathfinder \#71: Rasputin
-Must Die! pg 67
 
 Bayonets are close combat weapons designed to fit into the grooves or muzzles of crossbows and
 firearms. They allow you to make melee attacks with these weapons but render them temporarily

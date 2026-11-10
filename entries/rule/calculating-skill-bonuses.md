@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calculating_skill_bonuses", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "70"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 70
 
 If a character has a specialty in a skill and that skill is also in a skill group she's trained in,
 her bonus on checks using the skill is equal to her relevant ability modifier + her character level.

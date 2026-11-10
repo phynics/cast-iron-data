@@ -6,6 +6,15 @@ source_ids = ["bestiary-3", "lost-cities-of-golarion", "crucible-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derhii", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "75"
+[[sources]]
+publication = "lost-cities-of-golarion"
+page = "23"
+[[sources]]
+publication = "crucible-of-chaos"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -44,7 +53,6 @@ its simian hands._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 3 pg 75, Lost Cities of Golarion pg 23, Crucible of Chaos pg 28\
 **Experience points:** 1,600
 
 **Armor class:** 18/12/15

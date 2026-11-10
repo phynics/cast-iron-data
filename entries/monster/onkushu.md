@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onkushu", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ humanoid face._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planes of Power pg 61\
 **Subtype:** Extraplanar, Fire, Good
 
 **Experience points:** 25,600

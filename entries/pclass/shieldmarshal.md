@@ -6,14 +6,15 @@ source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldmarshal", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "paths-of-prestige"
+page = "48"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Paths of Prestige pg 48
 
 Shieldmarshals are the chieflaw enforcement officials of the Grand Duchy of Alkenstar, gunsmithing
 capital of the Inner Sea. They conduct both overt and discreet investigations of crimes within

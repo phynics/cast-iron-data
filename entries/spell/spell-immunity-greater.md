@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spell-immunity" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "347"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Spell Immunity
-
-**Sources:** PRPG Core Rulebook pg 347
 
 This spell functions like [spell immunity](ref/spell/spell-immunity), except the immunity applies to
 spells of 8th level or lower. A creature can have only one spell immunity or greater spell immunity

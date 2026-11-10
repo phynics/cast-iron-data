@@ -9,6 +9,15 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/vermin-shape-1" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "297"
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "49"
 
 [fields]
 kind = "spell"
@@ -54,9 +63,6 @@ Subschool: Polymorph
 :::
 
 ### Vermin Shape II
-
-**Sources:** Ultimate Magic pg 246, Inner Sea World Guide pg 297, Book of the Damned - Volume 2:
-Lords of Chaos pg 49
 
 This spell functions as [vermin shape I](ref/spell/vermin-shape-1), except it also allows you to
 assume the form of a Tiny or Large creature of the vermin type. If the form you assume has any of

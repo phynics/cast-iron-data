@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garden_of_peril", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Effect: one poisonous mushroom/level, no two of which can be more than 30 ft. ap
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 28
 
 Vividly colored poisonous mushrooms instantly spring into existence in squares you select. The
 mushrooms can appear on any solid surface, even growing horizontally from walls or upside down from

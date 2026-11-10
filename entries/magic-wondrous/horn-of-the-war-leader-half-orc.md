@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horn_of_the_war_leader_half_orc", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Races pg 232\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.
 

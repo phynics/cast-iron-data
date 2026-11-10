@@ -6,12 +6,20 @@ source_ids = ["bestiary-6", "inner-sea-bestiary", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_goblin", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "138"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "16"
+[[sources]]
+publication = "inner-sea-races"
+page = "244"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 6 pg 138, Inner Sea Bestiary pg 16, Inner Sea Races pg 244\
 Monkey goblins are an offshoot of the goblin race adapted for life in the high leafy canopies of
 Golarion's tropical forests. Equipped with rat-like prehensile tails, monkey goblins are as at home
 in the trees as they are on the ground.

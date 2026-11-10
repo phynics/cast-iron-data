@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/throw-anything", label = "or" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "69"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As a standard action, you can perform the awesome throw combat maneuv
 +++
 
 ## Awesome Throw (Combat)
-
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 69
 
 Your ranged attacks can send smaller opponents flying.\
 **Prerequisites:** Str 25, [Throw Anything](ref/feat/throw-anything) or rock throwing,

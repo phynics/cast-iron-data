@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_monument_lesser", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Duration: 1 hour/level
 Saving throw: Will negates (harmless)
 Spell resistance: yes
 :::
-
-**Sources:** Arcane Anthology pg 8
 
 You touch an unattended, nonmagical object to create a touchstone for humans defending the area.
 Such human defenders are protected by a shimmering aura as long as they are in the area. The spell

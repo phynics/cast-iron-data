@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slasher_horror", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "197"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 197
 
 Violent stories that pit relentless murderers against defenseless victims, slasher horror is the
 home of some of film's most brutal killers. These tales typically follow the rampage of a single

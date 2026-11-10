@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pierce_facade", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Heroes of the High Court pg 25
 
 The target gains a +5 insight bonus on Perception checks to see through disguises. This bonus
 increases to +10 at caster level 7th.

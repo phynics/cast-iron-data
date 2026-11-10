@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosion_pocket", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Sources:** Goblins of Golarion pg 29\
 **Aura** faint evocation; **CL** 1st\
 **Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
 

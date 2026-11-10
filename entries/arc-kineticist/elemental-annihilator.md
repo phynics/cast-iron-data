@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "89"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["2nd-, 8th-, 10th-, 14th-, and 18th-level utility wild talents", "3r
 alters = ["1st-level infusion", "the basic utility wild talent normally granted by selecting an element"]
 +++
 
-**Sources:** Occult Adventures pg 89\
 For some kineticists, nothing in life is as sweet as destruction and pain. Elemental annihilators
 pursue only uses of their powers that harm others.
 

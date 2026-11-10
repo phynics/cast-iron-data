@@ -6,14 +6,15 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_animal_companion", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "47"
 
 [fields]
 kind = "feat"
 prerequisites = "Vampire, Charisma 18, animal companion class ability, sufficiently high level (see below)."
 benefit = "A vampire with this feat can elect to use its create spawn ability on an animal summoned using the child of the night ability (such as a dire bat, dire rat, or wolf) to create a vampiric animal companion. This decision must be made as a free action as the vampire slays the animal with its blood drain or energy drain ability. The animal rises from death in 1d4 days as a vampiric animal bonded with the vampire who spawned it. Thereafter, the vampiric animal advances in abilities like a normal animal companion as the vampire gains further class levels in the class that granted the animal companion."
 +++
-
-**Sources:** Rival Guide pg 47
 
 As a vampire, you may use your create spawn ability to transform a dire bat, dire rat, or wolf into
 a more powerful vampiric companion.\

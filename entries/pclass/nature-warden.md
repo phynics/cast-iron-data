@@ -6,14 +6,15 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_warden", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "272"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Advanced Player's Guide pg 272
 
 Nature wardens are guardians of the wild places of the world, hunters and explorers par excellence,
 highly skilled in negotiating their way among the non-human inhabitants of the wild. Nature wardens

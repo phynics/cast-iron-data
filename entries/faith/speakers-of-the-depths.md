@@ -6,14 +6,15 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speakers_of_the_depths", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "188"
 
 [fields]
 kind = "none"
 +++
 
 **Speakers of the Depths**
-
-**Sources:** Planar Adventures pg 188
 
 ### Details
 

@@ -6,13 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eschew_materials", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "123"
 
 [fields]
 kind = "feat"
 benefit = "You can cast any spell with a material component costing 1 gp or less without needing that component. The casting of the spell still provokes attacks of opportunity as normal. If the spell requires a material component that costs more than 1 gp, you must have the material component on hand to cast the spell, as normal."
 +++
-
-**Sources:** PRPG Core Rulebook pg 123
 
 You can cast many spells without needing to utilize minor material components.\
 **Benefit:** You can cast any spell with a material component costing 1 gp or less without needing

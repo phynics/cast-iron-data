@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sureseal_bladder_mundane", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (mundane), - (potion)"
 
 ## Sureseal bladder
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)
 
 While [potion sponges](ref/eq-misc/potion-sponge) are a reasonable enough method for air-breathers

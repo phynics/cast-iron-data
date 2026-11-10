@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "determining_wound_points_and_vigor_points", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 206
 
 Instead of hit points, creatures using this system have a number of wound points and vigor points.
 These two replacement scores are kept track of separately, and represent different ways a character

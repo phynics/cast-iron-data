@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "usij_cabalist", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** Inner Sea NPC Codex pg 59\
 **XP** 1,200\
 Human [cleric](ref/class/cleric) of [Ahriman](ref/faith/ahriman) 5\
 NE Medium humanoid (human)\

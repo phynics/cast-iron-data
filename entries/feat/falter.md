@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falter", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A shaman or witch with this [blood hex](ref/rule/feats-class) can use
 +++
 
 ## Falter (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 You curse the blood of your foes, forcing them to falter in their subsequent actions.\
 **Prerequisites:** Int 13, Spellcraft 5 ranks, Use Magic Device 5 ranks.\

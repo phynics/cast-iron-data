@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_wings", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "53"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong illusion and transmutation"
 caster_level = "13th"
 +++
-
-**Sources:** Chronicle of the Righteous pg 53
 
 **Aura** strong illusion and transmutation; **CL** 13th\
 **Slot** none; **Price** 59,400 gp; **Weight** 5 lbs.

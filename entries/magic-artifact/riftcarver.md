@@ -6,6 +6,9 @@ source_ids = ["pathfinder-78-city-of-locusts"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftcarver", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-78-city-of-locusts"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and evocation [earth]"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#78: City of Locusts pg 63\
 **Aura** strong conjuration and evocation \[earth\]; **CL** 20th\
 **Slot** weapon; **Price** -; **Weight** 80 lbs.
 

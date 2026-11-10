@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_leaf_leshy", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "179"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ makeshift spear._
 
 **Size:** small
 
-**Sources:** Bestiary 3 pg 179\
 **Subtype:** Leshy, Shapechanger
 
 **Experience points:** 200

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrostasis", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "42"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: one undead creature
 :::
-
-**Sources:** Inner Sea Temples pg 42
 
 You drain necromantic energy from an undead creature, inducing a sluggish stupor. The target becomes
 staggered. For the duration of the spell, dark wisps of energy seep out of the target creature. If

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanguard_ward", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Vanguard Style, when an adjacent ally is attacked or requ
 +++
 
 ## Vanguard Ward (Combat)
-
-**Sources:** Armor Master's Handbook pg 13
 
 You strongly defend your allies.\
 **Prerequisites:** [Bodyguard](ref/feat/bodyguard), [Combat Reflexes](ref/feat/combat-reflexes),

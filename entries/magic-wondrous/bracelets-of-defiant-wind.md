@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracelets_of_defiant_wind", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and evocation [air]"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 69\
 **Aura** moderate conjuration and evocation \[air\]; **CL** 10th\
 **Slot** wrists; **Price** 9,000 gp; **Weight** -
 

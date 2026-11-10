@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebirthing_chamber", path = "json/equipment_tech_artifacts.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "61"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ weight = "1,200 lbs."
 slot = "none"
 +++
 
-**Sources:** Technology Guide pg 61\
 **Slot** none; **Weight** 1,200 lbs.\
 **Capacity** -; **Usage** 200 charges/day
 

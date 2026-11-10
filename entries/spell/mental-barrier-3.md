@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mental-barrier-1" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 :::
 
 ### Mental Barrier III
-
-**Sources:** Occult Adventures pg 175
 
 This spell functions as [mental barrier I](ref/spell/mental-barrier-1), but the shield bonus to AC
 increases to +8. In addition, you are immune to mine thrust I, and you take half damage from mind

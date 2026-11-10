@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visualization_of_the_body", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: meditative
 :::
-
-**Sources:** Divine Anthology pg 13
 
 You focus your mind on one aspect of your body, aligning the energies within your body to enhance
 that element. Choose a single physical ability score (Constitution, Dexterity, or Strength). If you

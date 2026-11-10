@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fierani_demon_hunter", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** Inner Sea NPC Codex pg 21\
 **XP** 12,800\
 Elf [ranger](ref/class/ranger) 12\
 CG Medium humanoid (elf)\

@@ -6,6 +6,12 @@ source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemys_heart", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "143"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: death, evil
 :::
-
-**Sources:** Advanced Race Guide pg 143, Orcs of Golarion pg 28
 
 > _[Orcs](ref/race/orc) have access to the following spell._
 

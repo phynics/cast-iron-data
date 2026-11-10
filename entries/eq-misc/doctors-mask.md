@@ -6,6 +6,15 @@ source_ids = ["adventurers-armory", "pathfinder-8-seven-days-to-the-grave", "cur
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "doctors_mask", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "61"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,8 +23,6 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Adventurer's Armory pg 19, Pathfinder \#8: Seven Days to the Grave pg 61, Curse of the
-Crimson Throne Player's Guide pg 12\
 **Price** 50 gp; **Weight** 2 lbs.\
 **Category** Tools
 

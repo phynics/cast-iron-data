@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guillotine", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 208
 
 Simple and relatively clean, execution by guillotine proves as humane as it is grisly. But when the
 PCs need to prevent such an execution, the rules and timing become more important.

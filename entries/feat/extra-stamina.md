@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_stamina", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can select this feat up to three times. Each time you do, your st
 +++
 
 ## Extra Stamina (Combat)
-
-**Sources:** Pathfinder Unchained pg 113
 
 You can push yourself to higher limits.\
 **Prerequisites:** [Combat Stamina](ref/feat/combat-stamina), base attack bonus +5.\

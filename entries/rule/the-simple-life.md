@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_simple_life", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "186"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 186
 
 When most people think of retired adventurers, they think of the explorer-turned-tavern owner or the
 seasoned veteran who now patrols the streets as sheriff. These are characters who turned away from

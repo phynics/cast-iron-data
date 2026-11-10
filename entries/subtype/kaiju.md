@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kaiju", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Kaiju
-
-**Sources:** Bestiary 6, Bestiary 4
 
 These Colossal creatures inhabit the most desolate places of a world. They are often associated with
 elemental subtypes, and while they are only barely smarter than the typical beast, many feature

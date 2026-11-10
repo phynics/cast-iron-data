@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse_box", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "163"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration and necromancy"
 caster_level = "25th"
 +++
 
-**Sources:** Mythic Adventures pg 163\
 **Aura** overwhelming conjuration and necromancy; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

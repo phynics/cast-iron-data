@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overhead_flip", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Savage Slam, if you succeed at your grapple comba
 +++
 
 ## Overhead Flip (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 You hoist your opponent above your head before slamming him to the ground, temporarily staggering
 the foe.\

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_class", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 31
 
 Each character begins play with a single favored class of his choosing - typically, this is the same
 class as the one he chooses at 1st level. Whenever a character gains a level in his favored class,

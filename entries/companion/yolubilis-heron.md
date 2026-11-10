@@ -6,13 +6,14 @@ source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yolubilis_heron", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 83
 
 **Companion Type**
 

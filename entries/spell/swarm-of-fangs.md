@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_of_fangs", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "213"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: one swarm of animate teeth
 Subschool: Summoning
 :::
-
-**Sources:** Monster Codex pg 213
 
 You summon a swarm consisting of thousands of animate, flying teeth in a 10-foot-by-10-foot cube.
 These fangs attack all creatures within the swarm's area. You can summon the swarm so that it shares

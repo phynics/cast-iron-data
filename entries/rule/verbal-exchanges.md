@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verbal_exchanges", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "180"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 180
 
 Verbal duels are fought in a series of exchanges. Each exchange is an argumentative back-and-forth
 in which each duelist attempts to gain the upper hand over her opponent and decrease the opponent's

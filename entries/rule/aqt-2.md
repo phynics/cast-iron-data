@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqt_2", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "217"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 217
 
 ### Table 7-52: Ghost Ships and Shipwrecks
 

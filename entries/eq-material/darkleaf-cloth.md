@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkleaf_cloth", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "49"
+[[sources]]
+publication = "advanced-race-guide"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 49, Advanced Race Guide pg 27
 
 Darkleaf cloth is a special form of flexible material made by weaving together leaves and thin
 strips of bark from darkwood trees, then treating the resulting fabric with special alchemical

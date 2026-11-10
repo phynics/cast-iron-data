@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "not_just_another_dungeon", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "83"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 83
 
 Wherever the PCs go, there will be creatures, dangerous sites, and places to congregate - the
 dungeons, NPCs, and settlements that are central to nearly every adventure. The temptation might be

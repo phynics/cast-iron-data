@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/scrying" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "337"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Subschool: Scrying
 :::
 
 ### Greater Scrying
-
-**Sources:** PRPG Core Rulebook pg 337
 
 This spell functions like [scrying](ref/spell/scrying), except as noted above. Additionally, all of
 the following spells function reliably through the sensor: [detect chaos](ref/spell/detect-chaos),

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_burst", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "59"
+[[sources]]
+publication = "psychic-anthology"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -28,8 +34,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Ultimate Wilderness/59, Psychic Anthology/23
 
 You use _kinetic healer_ or _void healer_ (whichever you have, or either if you have both) to heal
 all creatures in a 30-foot radius around you. _Healing burst_ heals half as much damage as normal,

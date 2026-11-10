@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacekeeping_pistol", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Combat pg 55\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 11,700 gp; **Weight** 4 lbs.
 

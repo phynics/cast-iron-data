@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girtablilu_dune_strider", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ has a wicked bow and a scorpion-like lower body._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 37\
 **tremorsense:** 30
 
 **Experience points:** 12,800

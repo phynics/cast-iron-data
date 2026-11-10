@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ninja" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Poison use", "Spend ki to make an additional attack", "No trace"]
 alters = ["Weapon and armor proficiency", "Ki pool"]
 +++
 
-**Sources:** Disciple's Doctrine pg 20\
 When the Living God needs to silence the voices of those heretics who question too loudly, these
 enforcers are the tools he employs.
 

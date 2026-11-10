@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/lightning-bolt", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 100\
 The damage dealt increases to 1d8 points of electricity damage per caster level (maximum 10d8). Any
 creature that fails its save is staggered for 1 round.
 

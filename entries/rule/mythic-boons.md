@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_boons", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 132
 
 Mythic boons are special rewards given for moments of dramatic achievement. Mythic PCs should
 repeatedly act in a heroic fashion, charging boldly into danger with confidence, and they should be

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_bull_shark", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "241"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This sleek, gray predator weaves back and forth through the water with savage g
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 241\
 **Subtype:** Aquatic
 
 **Experience points:** 600

@@ -6,13 +6,14 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_eclipse", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "32"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Distant Shores pg 32
 
 [Hobgoblins](ref/race/hobgoblin) have long taken advantage of the tactical edge
 [darkvision](ref/rule/darkvision) gives them when fighting in darkness, particularly against elves,

@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abandoned_one", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ its is expression lost and forlorn._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Tears at Bitter Manor pg 56\
 **Type:** undead
 
 **Experience points:** 1,200

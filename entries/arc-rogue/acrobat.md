@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "132"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 132\
 Agility and daring are both excellent rogue traits, and their confluence can create spectacular
 feats of acrobatics. Whether they are daring thieves, infiltrating assassins, or intrepid spies,
 proper training in acrobatics is a valuable boon for rogues.

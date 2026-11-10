@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "new_players", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "63"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 63
 
 Even a group that's been playing together for years occasionally finds itself in need of new
 players. Teaching newcomers, rather than finding established players, brings several challenges but

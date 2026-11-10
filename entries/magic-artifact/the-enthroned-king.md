@@ -6,6 +6,9 @@ source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_enthroned_king", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-118-siege-of-stone"
+page = "50"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#118: Siege of Stone pg 50\
 **Aura** strong evocation and necromancy; **CL** 13th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

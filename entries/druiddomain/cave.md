@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "33"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Cave Domain
-
-**Sources:** Ultimate Magic pg 33
 
 **Granted Powers:** The wonders and dark secrets of the deepest caves give you strength.
 

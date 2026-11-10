@@ -6,12 +6,14 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacock_spirits_tranquil_roar", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "27"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Origins pg 27\
 **School** abjuration; **Level** 8\
 **Casting Time** 80 minutes\
 **Components** V, S, M (a peacock feather and powdered malachite worth 500 gp), F (a copper and

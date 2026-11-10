@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "command_plants", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "257"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: up to 2 HD/level of plant creatures, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 257
 
 This spell allows you some degree of control over one or more plant creatures. Affected plant
 creatures can understand you, and they perceive your words and actions in the most favorable way

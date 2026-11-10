@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lead_plating", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (harmless) (object)
 Target: a creature or object weighing up to 100 lbs./level
 Subschool: Creation
 :::
-
-**Sources:** Kobolds of Golarion pg 27
 
 You enclose the target in a thin sheath of lead. This doesn't restrict the target's movement or
 functionality, but protects it from the effects of radiation and prevents the penetration of many

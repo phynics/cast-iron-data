@@ -6,6 +6,9 @@ source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skin_stealer", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-44-trial-of-the-beast"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ stripped of its skin, its pulsing muscles completely exposed._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#44: Trial of the Beast pg 88\
 **Experience points:** 600
 
 **Armor class:** 15/13/12

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_hobgoblin_phalanx_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["20", "19", "20", "13", "22", "9"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 90\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 9,600

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/age-resistance-lesser" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Target: you
 :::
 
 ### Age Resistance
-
-**Sources:** Ultimate Magic pg 205
 
 This spell functions as [lesser age resistance](ref/spell/age-resistance-lesser), except you ignore
 the Strength, Dexterity, and Constitution penalties gained at middle and old age.

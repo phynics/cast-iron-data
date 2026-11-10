@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "42"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 6th, 10th, 12th, 16th, and 18th levels from the oracle's mystery"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 42\
 Keleshite prophets help guide and serve the vast Padishah Empire of Kelesh and its interests across
 Golarion.
 

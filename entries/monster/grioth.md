@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "the-dragons-demand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grioth", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "137"
+[[sources]]
+publication = "the-dragons-demand"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _This silent bat-like humanoid has a long, rat-like tail and four narrow eyes._
 
 **Senses:** See in darkness
 
-**Sources:** Bestiary 5 pg 137, The Dragon's Demand pg 62\
 **Experience points:** 400
 
 **Armor class:** 14/14/10

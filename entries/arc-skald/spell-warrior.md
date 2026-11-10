@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "116"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "Inspired rage", "Spell kenning", "Dirge of doom", "Master skald"]
 +++
 
-**Sources:** Advanced Class Guide pg 116\
 The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor
 of himself and his allies. With a clash of bracers and a sonorous chant, the Spell Warrior's song
 reaches out to touch the weapons of his allies, lending them arcane power. While his song does not

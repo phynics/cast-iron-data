@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "71"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Unshakable", "4th- and 14th-level vigilante talents, 9th- and 19th-
 alters = ["Vigilante specialization"]
 +++
 
-**Sources:** Horror Adventures pg 71\
 Some vigilantes adopt an innocent guise to cloak their acts of brutal murder.
 
 **Alignment**

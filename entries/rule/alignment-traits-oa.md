@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_traits_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "237"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 237
 
 Some mindscapes exhibit a palpable resonance that reflects the creator's alignment. This might be
 intentional or unintentional. Most mindscapes aren't aligned.

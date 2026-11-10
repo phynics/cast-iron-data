@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planestriking", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "48"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Planar Adventures pg 48\
 **Aura** moderate abjuration; **CL** 9th\
 **Slot** none; **Price** +2 bonus; **Weight** -
 

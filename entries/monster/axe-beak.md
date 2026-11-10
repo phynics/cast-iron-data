@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_beak", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "28"
+[[sources]]
+publication = "bonus-bestiary"
+page = "7"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ looks the most ferocious._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 28, Bonus Bestiary pg 7\
 **Experience points:** 600
 
 **Armor class:** 14/12/11

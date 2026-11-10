@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_fist", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "106"
+[[sources]]
+publication = "inner-sea-combat"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "When using Perfect Style, the save DC of your stunning fist attack in
 +++
 
 ## Unblinking Flame Fist (Combat)
-
-**Sources:** Adventurer's Guide pg 106, Inner Sea Combat pg 13
 
 You can exploit the weaknesses in your opponents' defenses, like a flame seeking fuel to consume.\
 **Prerequisites:** Int 13; Wis 13; [Combat Expertise](ref/feat/combat-expertise);

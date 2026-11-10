@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd-level hex", "8th-level hex", "12th-level hex"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 28\
 While dimensional occultist witches are not all associated with the Pathfinders, enough of them are
 to warrant mention here. A dimensional occultist sacrifices some of her mastery over hexes in return
 for increased planar lore. She spends much of her time researching and communing with otherplanar

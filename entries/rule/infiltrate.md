@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrate", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 11
 
 You spend 1 day of downtime to insert one of your teams into another organization to feed you
 information or steal resources. Doing so requires a successful Disguise or Bluff check against a DC

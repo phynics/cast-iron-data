@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_brawler", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "103"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** NPC Codex pg 103\
 **XP** 12,800\
 Human [monk](ref/class/monk) 12\
 LN Medium humanoid (human)\

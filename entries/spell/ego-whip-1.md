@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ego_whip_1", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "169"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 169
 
 You can use your psychic power to overwhelm the target's ego, leaving the target feeling hopeless
 and unsure of itself. Choose Intelligence, Wisdom, or Charisma. The target takes a -2 penalty to

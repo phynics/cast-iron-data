@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_wrath", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "130"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use the full-attack action and make at least one unarmed
 +++
 
 ## Medusa's Wrath (Combat)
-
-**Sources:** PRPG Core Rulebook pg 130
 
 You can take advantage of your opponent's confusion, delivering multiple blows.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

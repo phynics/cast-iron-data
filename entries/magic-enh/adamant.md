@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adamant", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 24\
 **Aura** moderate conjuration; **CL** 9th\
 **Price** +2 bonus; **Weight** -
 

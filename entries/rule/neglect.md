@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neglect", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "106"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 106
 
 Over time, a PC's influence over an NPC is likely to wane if the PC doesn't keep in contact with her
 (and continue making influence checks every once in a while), depending on the influence's nature.

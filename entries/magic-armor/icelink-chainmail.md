@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "icelink_chainmail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "61"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "moderate evocation"
 caster_level = "6th"
 +++
-
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 61
 
 **Aura** moderate evocation; **CL** 6th\
 **Slot** armor; **Price** 15,100 gp; **Weight** 20 lbs.

@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startoss_shower", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit an opponent while using the Startoss Comet feat, you can
 +++
 
 ## Startoss Shower (Combat)
-
-**Sources:** Weapon Master's Handbook pg 15
 
 You can strike multiple opponents with thrown weapons.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot),

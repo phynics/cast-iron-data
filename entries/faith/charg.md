@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charg", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "132"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Charg**
 
 **Sub:** The Typhon Wheel
-
-**Sources:** Book of the Damned pg 132
 
 ### Details
 

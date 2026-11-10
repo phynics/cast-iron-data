@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "artifacts-and-legends", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "axe_of_the_dwarvish_lords", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "335"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "11"
+[[sources]]
+publication = "core-rulebook"
+page = "547"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "none"
 aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 335, Artifacts and Legends pg 11, PRPG Core Rulebook pg 547
 
 **Aura** strong conjuration and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 12 lbs.

@@ -6,6 +6,9 @@ source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marionette_crux", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "rival-guide"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Rival Guide pg 17\
 **Aura** strong enchantment; **CL** 9th\
 **Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.
 

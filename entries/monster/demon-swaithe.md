@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_swaithe", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "297"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, s
 
 **Size:** small
 
-**Sources:** Inner Sea Gods pg 297\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 1,200

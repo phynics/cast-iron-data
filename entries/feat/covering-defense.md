@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_defense", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the total defense action while using a light, heavy, or 
 +++
 
 ## Covering Defense (Combat)
-
-**Sources:** Advanced Player's Guide pg 156
 
 You are skilled at protecting yourself and your allies with your shield.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus), base attack bonus +6.\

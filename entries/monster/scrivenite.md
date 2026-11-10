@@ -6,6 +6,9 @@ source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrivenite", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ the open cover of some great tome like a metal- and leather-bound mask._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 86\
 **Subtype:** Extraplanar, Lawful
 
 **Experience points:** 1,200

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_role_of_rewards", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 102
 
 Rewards mark the PCs' victories. The act of scribbling down a new item or quantity of coins on a
 character sheet solidifies one of the game's key pleasures. These moments cement the players'

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xtabay", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "289"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ seem to bear tiny faces._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 289\
 **tremorsense:** 30
 
 **Experience points:** 200

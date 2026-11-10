@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanity", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 12
 
 An abundance of horrors can scar a being. Wounds and fatigue can ravage the flesh. Poisons and
 venoms can putrefy a creature from within. Curses and hexes can assault the body and soul through

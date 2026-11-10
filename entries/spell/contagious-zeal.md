@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_zeal", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "162"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 162
 
 The target gains a +2 morale bonus on attack rolls and weapon damage rolls, 1d6 temporary hit
 points, and a +4 morale bonus on saving throws against fear effects and to the DC of Intimidate

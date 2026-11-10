@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornugon_shield", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a spiked chain, you gain a +1 shield bonus to your AC. 
 +++
 
 ## Cornugon Shield (Combat)
-
-**Sources:** Cheliax, Empire of Devils pg 26
 
 You can use your [spiked chain](ref/eq-weapon/spiked-chain) as both armor and weapon.\
 **Prerequisites:** Dex 15, [Weapon Focus](ref/feat/weapon-focus) (spiked chain).\

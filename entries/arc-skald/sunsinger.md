@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "33"
 
 [fields]
 kind = "archetype"
 replaces = ["Song of marching", "Spell kenning"]
 +++
 
-**Sources:** Qadira, Jewel of the East pg 33\
 Qadiran sunsingers are particularly religious skalds of Sarenrae who call down their goddess's glory
 to fill soldiers with fire.
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clambering_escape", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "80"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully use your evasion class feature to avoid taking 
 +++
 
 ## Clambering Escape (Combat)
-
-**Sources:** Ultimate Intrigue pg 80
 
 You can escape an area effect by throwing an enemy in its path to shield yourself.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

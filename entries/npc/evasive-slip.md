@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evasive_slip", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "65"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "5"
 
 **Challenge rating:** 5
 
-**Sources:** NPC Codex pg 65\
 **XP** 1,600\
 Halfling [druid](ref/class/druid) 6\
 NE Small humanoid (halfling)\

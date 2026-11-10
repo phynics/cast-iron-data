@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_of_soul_eating", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "197"
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Book of the Damned pg 197, Book of the Damned - Volume 3: Horsemen of the Apocalypse pg
-41\
 **Aura** faint necromancy \[evil\]; **CL** 5th\
 **Slot** neck; **Price** 5,400 gp; **Weight** 3 lbs.
 

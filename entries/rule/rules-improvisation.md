@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rules_improvisation", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 206
 
 It's impossible to predict every character action, and Game Masters often have to improvise when a
 party follows an unanticipated plot thread. While GMs can cultivate the ability to remain flexible

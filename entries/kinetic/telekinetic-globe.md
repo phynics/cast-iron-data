@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_globe", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [force barrier](ref/kinetic/force-barrier), [force ward](ref/kinetic/force-ward)
-
-**Source:** Occult Adventures/28
 
 You can create a globe of force, as the [telekinetic sphere](ref/spell/telekinetic-sphere) spell,
 that lasts as long as you concentrate as a **standard action**, and you can move the globe as a

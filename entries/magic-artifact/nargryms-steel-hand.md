@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nargryms_steel_hand", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 13\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_sniper", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You take a -20 penalty on your Stealth check to maintain your obscured
 +++
 
 ## Kobold Sniper (Combat)
-
-**Sources:** Advanced Race Guide pg 137
 
 You snipe quickly, making it harder for others to find the location of your attack.\
 **Prerequisites:** Stealth 1 rank, [kobold](ref/race/kobold).\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_strike", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "pathfinder-77-herald-of-the-ivory-labyrinth"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Effect: one slashing melee weapon touched
 :::
-
-**Sources:** Pathfinder \#77: Herald of the Ivory Labyrinth pg 75
 
 > _Priests of [Baphomet](ref/faith/baphomet) have access to the following spell._
 

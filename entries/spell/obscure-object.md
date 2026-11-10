@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscure_object", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "317"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: one object touched of up to 100 lbs./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 317
 
 This spell hides an object from location by divination (scrying) effects, such as the
 [scrying](ref/spell/scrying) spell or a [crystal ball](ref/magic-wondrous/crystal-ball). Such an

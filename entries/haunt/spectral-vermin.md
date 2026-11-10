@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectral_vermin", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "231"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 231\
 Overwhelming, unresolved guilt - or horrific death by thousands of tiny teeth - can lead to the
 manifestation of ghostly vermin swarms. The haunted area often displays signs of ancient rodent
 infestation.

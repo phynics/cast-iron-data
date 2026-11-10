@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bronze_skinning_knife", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "262"
+[[sources]]
+publication = "gods-and-magic"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 262, Gods and Magic pg 55\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 3,300 gp; **Weight** 1 lb.
 

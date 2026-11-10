@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/orb-of-the-void", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 103\
 A creature that fails its save against the orb gains 2 negative levels rather than 1. A successful
 Fortitude save reduces this to 1 negative level.
 

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspired rage", "song of strength", "dirge of doom", "Versatile performance", "well-versed", "Lore master", "Master skald"]
 +++
 
-**Sources:** Heroes from the Fringe pg 12\
 From the extraordinarily reclusive Snowcaster elves come the twilight speakers, who consider it a
 sacred duty to seek out and befriend non-elven communities. These elves travel among outsiders as
 envoys, diplomats, traders, and even spies as events demand. Deeply devoted to the elven goddess

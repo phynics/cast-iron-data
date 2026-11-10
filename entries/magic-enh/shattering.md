@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shattering", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 28\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** weapon quality; **Price** +2 bonus; **Weight** -
 

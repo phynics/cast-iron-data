@@ -6,6 +6,9 @@ source_ids = ["pathfinder-23-the-impossible-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_impossible_eye", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-23-the-impossible-eye"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming divination"
 caster_level = "21st"
 +++
 
-**Sources:** Pathfinder \#23: The Impossible Eye pg 51\
 **Aura** overwhelming divination; **CL** 21st\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

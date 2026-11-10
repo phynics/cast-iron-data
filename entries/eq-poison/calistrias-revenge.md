@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrias_revenge", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "51"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Inner Sea Intrigue pg 51
 
 **Price** 500 gp; **Weight** —
 

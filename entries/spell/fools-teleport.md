@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_teleport", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Target: you and other touched willing creatures
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Occult Origins pg 13
 
 This spell instantly renders you unseen as per invisibility, but creates a visual and auditory
 display that makes it appear as if you had teleported away. You can affect one additional Medium or

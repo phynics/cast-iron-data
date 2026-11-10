@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_giant_tardigrade", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ water._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Wilderness pg 208\
 **Subtype:** Aquatic
 
 **Type:** vermin

@@ -6,14 +6,15 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarissa", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Giant Hunter's Handbook pg 24
 
 This spear-like weapon is about 15 feet long. Its unwieldy length is counterbalanced by a heavy
 brass base. A sarissa provides extended reach - tripling your reach rather than doubling it. A

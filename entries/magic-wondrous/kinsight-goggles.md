@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinsight_goggles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "226"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "2nd"
 +++
 
-**Sources:** Ultimate Equipment pg 226\
 **Aura** faint divination; **CL** 2nd\
 **Slot** eyes; **Price** 7,500 gp; **Weight** 1 lb.
 

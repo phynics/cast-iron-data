@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jaidi", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "70"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Jaidi**
 
 **Sub:** The Blessing and Bounty
-
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 70
 
 ### Details
 

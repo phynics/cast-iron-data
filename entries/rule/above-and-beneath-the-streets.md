@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "above_and_beneath_the_streets", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "437"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 437
 
 **Rooftops:** Getting to a roof usually requires climbing a wall (see the
 [Walls](ref/rule/walls-and-gates) section), unless the character can reach a roof by jumping down

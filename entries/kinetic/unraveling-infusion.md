@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unraveling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -24,8 +27,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/22
 
 Your kinetic blast burns so hot that it melts away your foe's magical effects.
 

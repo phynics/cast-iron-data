@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_climb", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "347"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 347
 
 The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider
 does. The affected creature must have its hands free to climb in this manner. The subject gains a

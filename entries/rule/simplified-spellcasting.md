@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simplified_spellcasting", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 144
 
 For a 1st-level wizard who knows only a small handful of spells, it isn't too hard to decide which
 spells to prepare each day. But a 20th-level wizard could easily have more than 60 spells from which

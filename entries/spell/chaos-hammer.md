@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_hammer", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft.-radius burst
 Descriptors: chaotic
 :::
-
-**Sources:** PRPG Core Rulebook pg 254
 
 You unleash chaotic power to smite your enemies. The power takes the form of a multicolored
 explosion of leaping, ricocheting energy. Only lawful and neutral (not chaotic) creatures are harmed

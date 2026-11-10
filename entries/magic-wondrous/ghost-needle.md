@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_needle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "246"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Intrigue pg 246\
 **Aura** strong illusion and transmutation; **CL** 13th\
 **Slot** none; **Price** 3,600 gp; **Weight** -
 

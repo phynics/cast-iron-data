@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moit_of_shub_niggurath_spawning_canker", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ deeper into and escape from its fleshy husk._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 88\
 **Experience points:** 6,400
 
 **Armor class:** 21/17/16

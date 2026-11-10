@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one symbol
 :::
-
-**Sources:** Inner Sea Gods pg 243
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within 40 feet of the symbol of dispelling are instead affected as if by the area dispel function of

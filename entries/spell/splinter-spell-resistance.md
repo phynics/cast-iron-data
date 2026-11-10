@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splinter_spell_resistance", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates
 Spell resistance: no
 Targets: melee or thrown weapon or up to 50 pieces of ammunition touched
 :::
-
-**Sources:** Arcane Anthology pg 9
 
 You create an aura around the target weapon that weakens a foe's magical defenses. The first time
 each round the weapon damages a creature with [spell resistance](ref/rule/spell-resistance), that

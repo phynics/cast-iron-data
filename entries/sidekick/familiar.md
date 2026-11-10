@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook\
 A familiar is an animal chosen by a spellcaster to aid him in his study of magic. It retains the
 appearance, Hit Dice, base attack bonus, base save bonuses, skills, and feats of the normal animal
 it once was, but is now a magical beast for the purpose of effects that depend on its type. Only a

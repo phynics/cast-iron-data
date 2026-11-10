@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crashing_wave_style", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully drag or reposition an opponent while using this
 +++
 
 ## Crashing Wave Style (Combat, Style)
-
-**Sources:** Ultimate Wilderness pg 109
 
 You relentlessly push your enemies around, as the sea moves those within and upon it against their
 will.\

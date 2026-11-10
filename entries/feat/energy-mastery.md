@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_mastery", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can cause an item that has a 1st level or higher evocation spell 
 +++
 
 ## Energy Mastery (Item Mastery)
-
-**Sources:** Weapon Master's Handbook pg 26
 
 You can project energy from evocation magic items.\
 **Prerequisites:** Use Magic Device 1 rank, base Fortitude save bonus +4.\

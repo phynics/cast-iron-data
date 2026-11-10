@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_dragonflies", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: air, curse
 :::
-
-**Sources:** Blood of the Coven pg 21
 
 You invest a target with cursed elemental energy, making the open skies anathema to it. If the
 affected creature ever tries to fly more than 5 feet above the ground, paper insects erupt from the

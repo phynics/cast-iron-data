@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_thanadaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "74"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ seething glow burns in its eye sockets._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 2 pg 74\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 25,600

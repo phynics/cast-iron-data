@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimension_of_dreams", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "210"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 210
 
 **Dimension of Dreams**
 

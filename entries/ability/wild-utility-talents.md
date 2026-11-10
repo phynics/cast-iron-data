@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_utility_talents", path = "json/class_abilities5.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Utility Wild Talents
 
-**Sources:** Occult Adventures pg 22\
 A kineticist can select one of the following wild talents at each even level, provided she meets the
 prerequisites.
 

@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abrogalian_corset", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 20\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** armor; **Price** 17,175 gp; **Weight** 10 lbs.
 

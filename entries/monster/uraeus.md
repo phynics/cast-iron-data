@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uraeus", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "259"
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ serpentine body._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 259, Osirion, Legacy of the Pharaohs pg 63\
 **Experience points:** 1,600
 
 **Armor class:** 19/13/16

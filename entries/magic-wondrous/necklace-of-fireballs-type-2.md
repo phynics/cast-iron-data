@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_fireballs_type_2", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "259"
+[[sources]]
+publication = "core-rulebook"
+page = "524"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "10th"
 
 ## Necklace of Fireballs
 
-**Sources:** Ultimate Equipment pg 259, PRPG Core Rulebook pg 524\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** neck or none (see text); **Price** 1,650 gp (Type I), 2,700 gp (Type II), 4,350 gp (Type
 III), 5,400 gp (Type IV), 5,850 gp (Type V), 8,100 gp (Type VI), 8,700 gp (Type VII); **Weight** 1

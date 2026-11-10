@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_material_mastery", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the ability granted by Armor Material Expertise two addit
 +++
 
 ## Armor Material Mastery (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 16
 
 You bring the most out of your armor's special material.\
 **Prerequisites:** [Armor Material Expertise](ref/feat/armor-material-expertise), base attack bonus

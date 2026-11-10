@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ant-haul" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Target: creature touched
 :::
 
 ### Communal Ant Haul
-
-**Sources:** Ultimate Combat pg 223
 
 This spell functions like [ant haul](ref/spell/ant-haul), except you may divide the duration in
 2-hour intervals among the creatures touched.

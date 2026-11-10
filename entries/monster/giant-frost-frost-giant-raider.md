@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant_raider", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "70"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["39", "11", "28", "10", "16", "8"]
 
 **Senses:** Low-light vision
 
-**Sources:** Monster Codex pg 70\
 **Subtype:** Cold, Giant
 
 **Experience points:** 12,800

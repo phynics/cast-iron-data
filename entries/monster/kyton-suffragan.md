@@ -6,6 +6,9 @@ source_ids = ["nidal-land-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_suffragan", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "nidal-land-of-shadows"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ Elongated saw blades loll out of its distended mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Nidal, Land of Shadows pg 58\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 1,600

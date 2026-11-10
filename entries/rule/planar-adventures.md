@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_adventures", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 8
 
 The Great Beyond is a place of unmatched beauty, boundless opportunity, and overwhelming magic, but
 those boons are more than matched by the dangers that await travelers and explorers of planes far

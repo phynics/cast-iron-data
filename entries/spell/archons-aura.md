@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archons_aura", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Area: 20-ft. radius centered on you
 Descriptors: good, lawful
 :::
-
-**Sources:** Ultimate Magic pg 206
 
 You gain a powerful aura, similar to an archon's aura of menace. Any hostile creature within a
 20-foot radius of you must make a Will save to resist the effects of this aura. If the creature

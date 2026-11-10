@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skunk", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "247"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ its fluffy tail, which is raised in warning._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 3 pg 247\
 **Size:** tiny
 
 **Experience points:** 100

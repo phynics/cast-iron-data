@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drain", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "292"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Energy Drain (Su)
 
-**Sources:** Bestiary 5 pg 292\
 This attack happens automatically when a melee or ranged attack hits. Each successful energy drain
 bestows one or more [negative levels](ref/rule/energy-drain-and-negative-levels) (the creature's
 description specifies how many). If the creature confirms a critical hit with an attack that

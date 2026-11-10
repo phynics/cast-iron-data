@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyes_of_doom", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "224"
+[[sources]]
+publication = "core-rulebook"
+page = "512"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 224, PRPG Core Rulebook pg 512\
 **Aura** moderate necromancy; **CL** 11th\
 **Slot** eyes; **Price** 25,000 gp; **Weight** -
 

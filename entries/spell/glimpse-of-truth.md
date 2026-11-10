@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/true-seeing" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -64,7 +67,5 @@ Target: creature touched
 :::
 
 ### Glimpse of Truth
-
-**Sources:** Ultimate Intrigue pg 215
 
 This spell functions like [true seeing](ref/spell/true-seeing), except as noted above.

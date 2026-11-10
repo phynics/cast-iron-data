@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_hykariut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ hammer._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Low-light vision, True seeing
 
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 84\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 153,600

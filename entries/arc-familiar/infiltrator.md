@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrator", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "211"
+[[sources]]
+publication = "animal-archive"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -13,7 +19,6 @@ replaces = ["Improved evasion", "Speak with animals of its kind", "Spell resista
 alters = ["Alertness", "Share spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 211, Animal Archive pg 20\
 Familiars can be skilled spies, and infiltrators are the very best of their kind at the subtle art
 of espionage.
 

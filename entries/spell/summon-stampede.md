@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_stampede", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "chronicle-of-the-righteous"
+page = "51"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: 20-ft.-radius herd of animals
 Subschool: Summoning
 :::
-
-**Sources:** Chronicle of the Righteous pg 51
 
 You conjure a herd of aurochs or similar herd animal that immediately stampedes in the direction you
 indicate. The herd takes up a 20-foot-radius space and moves at a rate of 120 feet per round in a

@@ -6,12 +6,12 @@ source_ids = ["bestiary", "bestiary-2", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary
 
 An elemental is a being composed entirely from one of the four classical elements:
 [air](ref/monster/air-elemental), [earth](ref/monster/earth-elemental),

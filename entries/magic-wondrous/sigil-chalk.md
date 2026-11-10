@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sigil_chalk", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Magic Tactics Toolbox pg 18\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 2,000 gp; **Weight** -
 

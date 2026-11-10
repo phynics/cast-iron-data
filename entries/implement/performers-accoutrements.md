@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "performers_accoutrements", path = "json/class_ability_implements.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -14,7 +17,6 @@ group = "occultist-implement"
 
 ## Performer's Accoutrements
 
-**Sources:** Psychic Anthology pg 27\
 This panoply is associated with those who deceive as well as those who entertain.
 
 **Implements**

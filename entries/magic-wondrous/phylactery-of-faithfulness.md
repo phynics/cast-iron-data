@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phylactery_of_faithfulness", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "252"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 252, PRPG Core Rulebook pg 525\
 **Aura** faint divination; **CL** 1st\
 **Slot** headband; **Price** 1,000 gp; **Weight** -
 

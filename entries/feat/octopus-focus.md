@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_focus", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using this style, you gain a cumulative +1 bonus on melee attack
 +++
 
 ## Octopus Focus (Combat)
-
-**Sources:** Martial Arts Handbook pg 14
 
 The more enemies that surround you, the more accurate your attacks become.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Octopus Style](ref/feat/octopus-style),

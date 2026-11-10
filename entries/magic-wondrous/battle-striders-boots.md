@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_striders_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "177"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Villain Codex pg 177\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
 

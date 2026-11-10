@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saltspray_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 54\
 **Aura** faint conjuration and transmutation; **CL** 5th\
 **Slot** ring; **Price** 4,500 gp; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construction_and_recruitment_delays", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 93
 
 If the settlement's nature is contrary to the kind of building or organization you're trying to
 construct or create (such as a Black Market or Thieves' Guild in a settlement with low Crime and

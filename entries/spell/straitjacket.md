@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "straitjacket", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "128"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature
 Subschool: Creation
 :::
-
-**Sources:** Horror Adventures pg 128
 
 You cause a straitjacket to spring into existence to restrain the target creature. You attempt a
 combat maneuver against the target's CMD. Your CMB for this check is equal to your caster level + 5

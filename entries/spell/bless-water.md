@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless_water", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes (object)
 Target: flask of water touched
 Descriptors: good
 :::
-
-**Sources:** PRPG Core Rulebook pg 249
 
 This transmutation imbues a flask (1 pint) of water with positive energy, turning it into holy
 water.

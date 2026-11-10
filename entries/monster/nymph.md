@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nymph", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "217"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ painful in its perfection._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 217\
 **Experience points:** 3,200
 
 **Armor class:** 23/23/17

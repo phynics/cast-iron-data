@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diplomatic_edicts", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "228"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 228
 
 Diplomatic edicts are special edicts that allow you to establish an embassy, treaty, or alliance
 with another kingdom. You must have an official representative of your kingdom, such as an

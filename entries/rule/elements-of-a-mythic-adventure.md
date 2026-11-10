@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elements_of_a_mythic_adventure", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "122"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 122
 
 Beyond the story, there are a wide variety of elements you can add to give your campaign a mythic
 feel. These elements are different ways of looking at various parts of an adventure. A mythic

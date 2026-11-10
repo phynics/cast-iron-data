@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When you cast a tenebrous spell in darkness or dim light, the spell's
 +++
 
 ## Tenebrous Spell (Metamagic)
-
-**Sources:** Inner Sea Magic pg 15
 
 You blend shadow into your spells, increasing their efficacy at the price of susceptibility to
 light.\

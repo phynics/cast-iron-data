@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apprentice_chapbook_of_rul_thaven", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "121"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _This slim book is carefully but amateurishly bound, with leather stretched tigh
 boards. The writing inside is fussy and crammed together, with words that are occasionally
 illegible. Eight of its pages contain spells; the final 10 pages are blank. A portrait of a plain
 woman, unsmiling, has been bound into the inside front cover._
-
-**Sources:** Ultimate Magic pg 121
 
 **Opposition** Illusion, transmutation\
 **Value** 195 gp

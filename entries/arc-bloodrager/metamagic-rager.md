@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "83"
 
 [fields]
 kind = "archetype"
 replaces = ["Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Class Guide pg 83\
 While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel
 their bloodrage in ways that push their spells to impressive ends.
 

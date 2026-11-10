@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/animate-dead" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "130"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Target: one or more corpses touched
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 130
 
 This spell works like [animate dead](ref/spell/animate-dead) except you set a specific condition for
 when the animation occurs and you do not immediately have control of the creatures. The condition

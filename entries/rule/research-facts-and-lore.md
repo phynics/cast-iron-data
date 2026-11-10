@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "research_facts_and_lore", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 86
 
 You can use downtime and capital to learn more about the campaign or the game world. This is similar
 to the gather information activity, except instead of looking for rumors and gossip in town, you are

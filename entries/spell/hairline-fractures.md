@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hairline_fractures", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "235"
+[[sources]]
+publication = "faiths-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Spell resistance: yes (object)
 Target: 5-foot-square section of stone or a creature with the earth subtype
 Descriptors: earth
 :::
-
-**Sources:** Inner Sea Gods pg 235, Faiths of Purity pg 28
 
 With a single touch, you create temporary hairline fractures in a piece of stone or a creature with
 the earth subtype. If you cast this spell on a section of stone, you reduce its

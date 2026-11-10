@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disabled", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "566"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 566\
 A character with 0 hit points, or one who has negative hit points but has become stable and
 conscious, is disabled. A disabled character may take a single move action or standard action each
 round (but not both, nor can he take full-round actions, but he can still take swift, immediate, and

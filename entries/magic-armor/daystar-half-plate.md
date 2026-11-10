@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daystar_half_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "125"
+[[sources]]
+publication = "advanced-players-guide"
+page = "284"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Sources:** Ultimate Equipment pg 125, Advanced Player's Guide pg 284\
 **Aura** strong evocation; **CL** 15th\
 **Slot** armor; **Price** 81,250 gp; **Weight** 50 lbs.
 

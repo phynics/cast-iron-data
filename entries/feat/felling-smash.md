@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felling_smash", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you use the attack action to make a single melee attack at your hi
 +++
 
 ## Felling Smash (Combat)
-
-**Sources:** Ultimate Combat pg 101
 
 You commit all your focus to a devastating blow, trying to crush your opponent to the ground.\
 **Prerequisites:** Int 13, Str 13, [Combat Expertise](ref/feat/combat-expertise),

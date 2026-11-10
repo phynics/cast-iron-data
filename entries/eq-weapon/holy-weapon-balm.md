@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_weapon_balm", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "209"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "30 gp"
 weight = "0.5 lb."
 +++
 
-**Sources:** Advanced Class Guide pg 209\
 **Price** 30 gp; **Weight** 0.5 lb.\
 **Category** Alchemical Weapons
 

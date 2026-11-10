@@ -6,6 +6,9 @@ source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampiric_hunger", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "faiths-of-corruption"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Polymorph
 Descriptors: evil
 :::
-
-**Sources:** Faiths of Corruption pg 29
 
 The target of this spell grows the fangs of a vampire, as well as a thirst for blood. For the
 duration of this spell, the target gains the ability to drain an opponent's blood during a grapple;

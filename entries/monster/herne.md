@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herne", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ sports a pair of stag's antlers upon his brow._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/17

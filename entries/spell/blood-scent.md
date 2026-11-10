@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_scent", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "143"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature/2 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Advanced Race Guide pg 143
 
 > _[Orcs](ref/race/orc) have access to the following spell._
 

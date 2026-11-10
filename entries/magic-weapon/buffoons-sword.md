@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buffoons_sword", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "moderate divination"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 344, Advanced Player's Guide pg 310
 
 **Aura** moderate divination; **CL** 10th\
 **Slot** none; **Weight** 2 lbs.

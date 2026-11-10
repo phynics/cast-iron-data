@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "euphoric_tranquility", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: creature touched
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 219
 
 A creature under the effect of this enchantment enters a state of euphoria. The target treats all
 creatures as dear friends and abhors violence, but may rise up to protect itself if violence is

@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_contract_devil_phistophilus", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "76"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ lengthy contracts._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 3 pg 76, Pathfinder \#12: Crown of Fangs pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 9,600

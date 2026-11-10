@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roll_with_it", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you are struck by a melee weapon you can try to convert some or al
 +++
 
 ## Roll With It (Combat)
-
-**Sources:** Goblins of Golarion pg 25
 
 You know how to take a hit, even if your reaction sends you bouncing and flying out of battle while
 shrieking at the top of your lungs.\

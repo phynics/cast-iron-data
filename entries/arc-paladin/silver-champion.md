@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "25"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine bond", "channel energy", "aura of justice", "aura of righteo
 alters = ["Smite evil", "mercy", "Spellcasting"]
 +++
 
-**Sources:** Legacy of Dragons pg 25\
 Paladins who serve as priests of Apsu are almost always on the move, wandering from place to place
 and trying to show their dedication to the Waybringer in their deeds rather than depending on mere
 words. Good-aligned dragons are more likely to treat such paladins as they would treat other dragons

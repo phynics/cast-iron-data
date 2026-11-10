@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skittergoat", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ tiny bull._
 
 **Size:** small
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 82\
 **Experience points:** 200
 
 **Armor class:** 13/13/11

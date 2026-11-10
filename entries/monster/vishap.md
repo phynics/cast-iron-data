@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishap", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "270"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This slender dragon is covered in vivid cerulean scales with four powerful wing
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 270\
 **Subtype:** Extraplanar
 
 **Experience points:** 204,800

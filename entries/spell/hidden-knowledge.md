@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_knowledge", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "60"
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Adventurer's Guide pg 60, Second Darkness Player's Guide pg 26
 
 This subtle but useful spell allows you to safeguard important knowledge - even from yourself. While
 casting this spell, you recite one piece of knowledge (up to a maximum of 50 words). Upon completion

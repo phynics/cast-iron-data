@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_kill", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you kill a creature during a surprise round, you can attempt a S
 +++
 
 ## Silent Kill (Combat)
-
-**Sources:** Advanced Class Guide pg 156
 
 You are quite adept at killing your prey without making noise or alerting others.\
 **Prerequisites:** Stealth 12 ranks; _assassinate_

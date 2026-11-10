@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Deadeye deed", "Dead shot deed", "Bonus feats gained at 4th, 8th, 1
 alters = ["Gunsmith", "Grit"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 4\
 Where other gunslingers rely on precision shooting, the firebrand instead masters explosive
 ordnance. Firebrands tend to be passionate, devil-may-care wanderers living each day to the fullest.
 

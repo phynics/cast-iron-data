@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_weather", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "261"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Area: 2-mile-radius circle, centered on you; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 261
 
 You change the weather in the local area. It takes 10 minutes to cast the spell and an additional 10
 minutes for the effects to manifest. You can call forth weather appropriate to the climate and

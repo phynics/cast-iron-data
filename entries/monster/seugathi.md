@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "into-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seugathi", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "243"
+[[sources]]
+publication = "into-the-darklands"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ its twin tentacle tails._
 
 **Senses:** Darkvision 120 ft., Detect thoughts
 
-**Sources:** Bestiary 2 pg 243, Into the Darklands pg 58\
 **tremorsense:** 30
 
 **Experience points:** 2,400

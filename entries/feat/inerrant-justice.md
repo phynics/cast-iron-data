@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inerrant_justice", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can choose to take the maximum possible weapon dama
 +++
 
 ## Inerrant Justice (Story)
-
-**Sources:** Spymaster's Handbook pg 15
 
 You will punish the guilty without letting any innocents be harmed as a result.\
 **Prerequisites:** Must have witnessed or suffered a grave injustice that went unpunished, or have

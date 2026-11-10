@@ -6,6 +6,9 @@ source_ids = ["pathfinder-109-in-search-of-sanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bokrug", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
+page = "65"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Water Lizard
 
-**Sources:** Pathfinder \#109: In Search of Sanity pg 65\
 **Monster Link** [Bokrug](ref/monster/great-old-one-bokrug)
 
 ### Details

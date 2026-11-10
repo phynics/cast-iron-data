@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_strike", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you deal sneak attack damage, you fluster your foe, causing 
 +++
 
 ## Mind Strike (Combat)
-
-**Sources:** Chronicle of Legends pg 9
 
 Your [sneak attacks](ref/ability/sneak-attack) strike not only your target's body but also their
 willpower.\

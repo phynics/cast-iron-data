@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tracer_fire", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a single ranged attack at your hig
 +++
 
 ## Tracer Fire (Combat)
-
-**Sources:** Heroes of the Darklands pg 5
 
 You highlight the path of your projectile with light, allowing your allies to better spot the
 target.\

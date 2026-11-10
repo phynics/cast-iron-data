@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_structure", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes (object)
 Target: one building
 Subschool: Teleportation
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 You instantly teleport a building in a settlement you control to another lot or series of lots in
 the same settlement district. The building to be teleported must be unoccupied, and the area to

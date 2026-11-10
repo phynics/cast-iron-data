@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "75"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "5th-, 10th-, and 15th-level bonus feats", "20th-le
 alters = ["Arcane school", "alignment", "Arcane bond"]
 +++
 
-**Sources:** Horror Adventures pg 75\
 Undead masters have great power over undeath.
 
 **Necromantic Focus**

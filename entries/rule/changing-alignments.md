@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changing_alignments", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 168
 
 Alignment is a tool, a convenient shorthand you can use to summarize the general attitude of an NPC,
 region, religion, organization, monster, or even magic item.

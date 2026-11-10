@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "humbaba", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "151"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of plate armor._
 
 **Senses:** Darkvision 120 ft., True seeing
 
-**Sources:** Bestiary 3 pg 151\
 **Experience points:** 204,800
 
 **Armor class:** 34/2/34

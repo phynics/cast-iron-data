@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morlock_hide", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "128"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 128\
 **Aura** moderate illusion and transmutation; **CL** 10th\
 **Slot** armor; **Price** 8,910 gp; **Weight** 15 lbs.
 

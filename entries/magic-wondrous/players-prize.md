@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "players_prize", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** People of the River pg 28\
 **Aura** moderate necromancy; **CL** 5th\
 **Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "senate_aid_badge", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#127: Crownfall pg 11\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 1,500 gp; **Weight** -
 

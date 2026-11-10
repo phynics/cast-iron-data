@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_ward", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 Target: you
 Descriptors: evil
 :::
-
-**Sources:** Agents of Evil pg 19
 
 This spell grants you resistance to the holy powers of good-aligned deities and their servants. You
 resist 10 points of damage from holy sources (divine power damage from flame strike, additional

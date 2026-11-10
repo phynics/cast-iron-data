@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_crafting_rules", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "72"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 72
 
 While the rules for crafting in the Core Rulebook are perfectly suitable for the needs of most
 campaigns, they can sometimes be cumbersome to use. Those rules assume that a character spends a

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "Sneak attack", "Stalker", "swift tracker", "quarry", "Impr
 alters = ["Studied target", "Slayer talents"]
 +++
 
-**Sources:** Heroes of the High Court pg 24\
 Followers of a tradition dating back to the ancient empire of Yixing, the yellow-robed agents known
 as butterfly blades now operate primarily in Goka, where many serve the city's politically savvy
 ruler. Butterfly blades work in the shadows, eliminating threats with their namesake weapons and

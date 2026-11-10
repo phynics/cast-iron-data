@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hemochem_grave_v", path = "json/equipment_tech_pharmaceuticals.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "34"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ price = "250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grad
 
 ## Hemochem (Grade I)
 
-**Sources:** Technology Guide pg 34\
 **Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp
 (Grade V)
 

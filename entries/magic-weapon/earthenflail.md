@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthenflail", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "154"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 154\
 **Aura** strong evocation and transmutation; **CL** 13th\
 **Slot** none; **Price** 11,315 gp; **Weight** 10 lbs.
 

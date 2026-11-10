@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_items_on_the_body", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "459"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 459
 
 Many magic items need to be donned by a character who wants to employ them or benefit from their
 abilities. It's possible for a creature with a humanoid-shaped body to wear as many as 15 magic

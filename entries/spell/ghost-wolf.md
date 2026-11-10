@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/phantom-steed" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "58"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Spell resistance: no
 Target: one quasi-real wolf-like creature
 Subschool: Creation
 :::
-
-**Sources:** Advanced Race Guide pg 58, Orcs of Golarion pg 28
 
 > _[Half-orcs](ref/race/half-orc) have access to the following spell._
 

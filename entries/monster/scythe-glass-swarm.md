@@ -6,6 +6,9 @@ source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scythe_glass_swarm", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _The razor-sharp wings of a thousand stained glass insects jingle with a resonan
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#101: The Kintargo Contract pg 86\
 **Subtype:** Swarm
 
 **Experience points:** 6,400

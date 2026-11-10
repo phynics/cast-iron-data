@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/instant-summons" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: construct touched
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Magic pg 210
 
 This spell functions as [instant summons](ref/spell/instant-summons), except it can only summon a
 construct you control. For constructs such as golems that are immune to magic, the value of the

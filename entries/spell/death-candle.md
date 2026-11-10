@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/death-knell" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "131"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: death, evil, fire
 :::
-
-**Sources:** Advanced Race Guide pg 131
 
 > _[Ifrits](ref/race/ifrit) have access to the following spell._
 

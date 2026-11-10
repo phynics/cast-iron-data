@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horde_charge", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When charging during the same round as an ally with this feat, you ga
 +++
 
 ## Horde Charge (Teamwork)
-
-**Sources:** Advanced Race Guide pg 57
 
 When you charge with an ally, you are more deadly.\
 **Prerequisites:** Base attack bonus +1, [half-orc](ref/race/half-orc) or [orc](ref/race/orc).\

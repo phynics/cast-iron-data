@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaled_sash", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 31\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** chest; **Price** 73,000 gp; **Weight** 1 lb.
 

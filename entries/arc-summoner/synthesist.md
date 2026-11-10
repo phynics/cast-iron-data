@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "81"
 
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "bond senses", "life bond", "Life link", "Shield ally", "Maker's call", "transposition", "Greater shield ally", "Merge forms"]
 +++
 
-**Sources:** Ultimate Magic pg 81\
 Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to
 his own. Instead of two creatures, the synthesist is a fusion of the summoner and eidolon into a
 single being.

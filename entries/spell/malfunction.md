@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/confusion" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Area: one construct
 :::
-
-**Sources:** Ultimate Magic pg 228
 
 This functions as [confusion](ref/spell/confusion), except it only affects constructs, and instead
 of babbling incoherently, the construct takes no actions on its turn (but may still make attacks of

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "level", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "212"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 212
 
 The next line of a spell description gives the spell's level, a number between 0 and 9 that defines
 the spell's relative power. This number is preceded by a list of classes whose members can cast the

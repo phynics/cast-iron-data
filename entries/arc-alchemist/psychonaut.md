@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Bombs", "Poison resistance +4", "Poison resistance +6", "Poison immunity", "15th-level bomb damage increase", "17th-level bomb damage increase"]
 +++
 
-**Sources:** Ultimate Magic pg 19\
 A psychonaut uses his knowledge to explore altered states of consciousness and even other planes of
 existence. A psychonaut has the following class features.
 

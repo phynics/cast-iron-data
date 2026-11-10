@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stonemeld_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Heroes of the Darklands pg 8\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
 

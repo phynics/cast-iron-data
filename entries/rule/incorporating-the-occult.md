@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incorporating_the_occult", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 218
 
 Incorporating occult themes into games where magic is commonplace requires careful consideration.
 Think of the occult like layers of an onion. By peeling back these layers one at a time, PCs can be

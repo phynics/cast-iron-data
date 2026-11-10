@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimbus_of_radiant_truth", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "165"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 165\
 **Aura** strong evocation; **CL** 20th\
 **Slot** headband; **Price** -; **Weight** -
 

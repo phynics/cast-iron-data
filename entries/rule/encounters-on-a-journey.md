@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "encounters_on_a_journey", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 223
 
 Depending on how they're handled, cross-country journeys, voyages by sea, or treks between
 communities can be time consuming and difficult to run. Properly managed, though, they can be an

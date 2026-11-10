@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_abyss", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 191
 
 Surrounding the Outer Sphere like the impossibly deep kin of an onion, the layered plane of the
 Abyss begins as gargantuan canyons and yawning chasms in the fabric of the other Outer Planes,

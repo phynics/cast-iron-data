@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reversing_relationships", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 177
 
 If you want to deliberately change a relationship from friendly to competitive, you can do so by
 insulting or rejecting the NPC. This also automatically reduces your Relationship Score with that

@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "the-demon-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hourglass_of_shadows", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "58"
+[[sources]]
+publication = "the-demon-within"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy [evil]"
 caster_level = "17th"
 +++
 
-**Sources:** Artifacts and Legends pg 58, The Demon Within pg 29\
 **Aura** strong necromancy \[evil\]; **CL** 17th\
 **Slot** none; **Price** -; **Weight** 350 lbs.
 

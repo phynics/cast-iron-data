@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preserve_grace", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one good-aligned creature
 Descriptors: good
 :::
-
-**Sources:** Adventurer's Guide pg 115
 
 The [Lantern Bearers](ref/rule/aff-lights) must often make difficult decisions during their
 missions, such as determining what to do with captured enemies-should they be executed, imprisoned,

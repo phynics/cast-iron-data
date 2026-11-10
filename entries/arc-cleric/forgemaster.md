@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
 +++
 
-**Sources:** Advanced Race Guide pg 15\
 Forgemasters are priestly dwarves who are ritual casters and expert enchanters, able to produce
 their rune-graven armaments with astonishing speed.
 

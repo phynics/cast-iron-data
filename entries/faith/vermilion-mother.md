@@ -6,14 +6,15 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vermilion_mother", path = "json/faiths9.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
 **Vermilion Mother**
-
-**Sources:** Book of the Damned pg 132
 
 ### Details
 

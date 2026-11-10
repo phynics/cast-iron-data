@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_magi", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "333"
+[[sources]]
+publication = "core-rulebook"
+page = "546"
 
 [fields]
 kind = "item"
@@ -16,8 +22,6 @@ slot = "none"
 aura = "strong (all schools)"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 333, PRPG Core Rulebook pg 546
 
 **Aura** strong (all schools); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_collar_greater", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "229"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "3rd (normal), 9th (greater)"
 
 ## Dire Collar
 
-**Sources:** Advanced Class Guide pg 229\
 **Aura** faint transmutation (normal), moderate transmutation (greater); **CL** 3rd (normal), 9th
 (greater)\
 **Slot** neck; **Price** 1,000 gp (normal), 14,000 gp (greater); **Weight** 2 lbs.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lute_of_discord", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "358"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "moderate enchantment"
 caster_level = "12th"
 +++
-
-**Sources:** Ultimate Equipment pg 358
 
 **Aura** moderate enchantment; **CL** 12th\
 **Slot** none; **Price** 37,900 gp; **Weight** 3 lbs.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_strangulation", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "347"
+[[sources]]
+publication = "core-rulebook"
+page = "541"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "neck"
 aura = "strong conjuration"
 caster_level = "18th"
 +++
-
-**Sources:** Ultimate Equipment pg 347, PRPG Core Rulebook pg 541
 
 **Aura** strong conjuration; **CL** 18th\
 **Slot** neck; **Weight** -

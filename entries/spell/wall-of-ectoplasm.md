@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_ectoplasm", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none, and Will negates, see text
 Spell resistance: yes
 Effect: opaque sheet of ectoplasm up to 10 ft. square/level or a sphere or hemisphere with a radius of up to 1 ft./level
 :::
-
-**Sources:** Occult Adventures pg 190
 
 You draw forth a massive veil of ectoplasm that roils with restless spirits. Immovable once formed,
 the wall of ectoplasm is 1 inch thick per caster level and covers up to a 10-foot-square area per

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "41"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Uncanny dodge"]
 +++
 
-**Sources:** Inner Sea Combat pg 41\
 The sight of yellow sails on the Inner Sea signals the approach of a ship from Okeno, home port of
 the most ruthless and feared of all slaving operations. Most who see these sails flee in terror, but
 some freedom fighters actually endeavor to be captured, knowing that being taken to Stonespine

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_forceful_exhalation", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "160"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Advanced Race Guide pg 160\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 900 gp; **Weight** 1 lb.
 

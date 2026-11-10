@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_profession", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "53"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 53
 
 A profession often encompasses many smaller areas of expertise, and these auxiliary skills can come
 in handy in situations beyond just making money or answering tradespecific questions. Below are some

@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_flash_and_shadow", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "minor illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Cheliax, Empire of Devils pg 20\
 **Aura** minor illusion; **CL** 3rd\
 **Slot** cloak; **Price** 11,000 gp; **Weight** 1 lb.
 

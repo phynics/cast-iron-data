@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freezing_sphere", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "287"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: yes
 Effect: see text
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 287
 
 Freezing sphere creates a frigid globe of cold energy that streaks from your fingertips to the
 location you select, where it explodes in a 40-foot-radius burst, dealing 1d6 points of cold damage

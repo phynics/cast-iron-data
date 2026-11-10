@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "story", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 19
 
 Many campaigns run on indefinitely until the group breaks up due to changing lives and priorities.
 There's nothing wrong with that, so long as running the campaign - and playing in it - don't become

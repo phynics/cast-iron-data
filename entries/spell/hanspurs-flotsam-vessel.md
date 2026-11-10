@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hanspurs_flotsam_vessel", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Effect: raft large enough for caster and one passenger/2 levels
 Subschool: Creation
 :::
-
-**Sources:** People of the River pg 26
 
 This spell assembles a sturdy raft and oars from driftwood, reeds, and other river detritus. The
 smallest raft created by the spell is roughly 5 feet square, increasing by an additional 5 feet

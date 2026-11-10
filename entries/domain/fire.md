@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "book-of-the-damned", "goblins-of-golarion", "inn
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire", path = "json/class_ability_domains.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "44"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 44
 
 **Granted Powers:** You can call forth fire, command creatures of the inferno, and your flesh does
 not burn.

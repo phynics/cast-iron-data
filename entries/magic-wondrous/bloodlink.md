@@ -6,6 +6,12 @@ source_ids = ["inner-sea-intrigue", "pathfinder-16-endless-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodlink", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "52"
+[[sources]]
+publication = "pathfinder-16-endless-night"
+page = "11"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation and illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Intrigue pg 52, Pathfinder \#16: Endless Night pg 11\
 **Aura** faint evocation and illusion; **CL** 3rd\
 **Slot** neck; **Price** 4,800 gp; **Weight** -
 

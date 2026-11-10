@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "misdirection_redirection", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully use the Misdirection Tactics feat to negate a m
 +++
 
 ## Misdirection Redirection (Combat)
-
-**Sources:** Ultimate Intrigue pg 87
 
 After misdirecting your opponent's weapon attack, you trick it into striking someone else.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

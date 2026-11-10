@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numbing_blow", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you succeed at a combat maneuver check to disarm an opponent
 +++
 
 ## Numbing Blow (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 You strike the weapons of your opponents so forcefully that they are unable to quickly recover or
 counterattack.\

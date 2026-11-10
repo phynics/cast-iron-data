@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Well known for their mischievous natures, their nasty senses of humor, and their destructive habits,
 the [fey](ref/type/fey) creatures known as gremlins rightfully earn their reputations as cruel

@@ -6,14 +6,15 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritualist", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "12"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Chronicle of Legends pg 12
 
 Long-forgotten occult rituals offer great power at a terrible price. While most traditional
 spellcasters consider these occult rituals dangerous and unreliable, some spellcasters hone their

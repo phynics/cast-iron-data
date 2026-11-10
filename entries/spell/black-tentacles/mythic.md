@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/black-tentacles", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "85"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 85
 
 Add your tier to the base attack bonus of the tentacles. The tentacles also deal an additional 2d6
 points of acid damage with a successful grapple.

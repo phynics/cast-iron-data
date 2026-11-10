@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 Despicably cruel and equally horrible to gaze upon, kytons are evil fiends who feed on the fear and
 suffering of mortals through painful supernatural means. Their monstrous appearances vary, but their

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-fang" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "309"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Greater Magic Fang
-
-**Sources:** PRPG Core Rulebook pg 309
 
 This spell functions like [magic fang](ref/spell/magic-fang), except that the enhancement bonus on
 attack and damage rolls is +1 per four caster levels (maximum +5). This bonus does not allow a

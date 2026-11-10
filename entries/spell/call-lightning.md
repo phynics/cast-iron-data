@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_lightning", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "251"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: one or more 30-ft.-long vertical lines of lightning
 Descriptors: electricity
 :::
-
-**Sources:** PRPG Core Rulebook pg 251
 
 Immediately upon completion of the spell, and once per round thereafter, you may call down a
 5-foot-wide, 30-foot-long, vertical bolt of lightning that deals 3d6 points of electricity damage.

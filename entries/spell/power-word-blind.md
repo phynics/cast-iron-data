@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_blind", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "324"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one creature with 200 hp or less
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 324
 
 You utter a single word of power that causes a creature to become blinded, whether the creature can
 hear the word or not. The duration of the spell depends on the target's current hit point total. Any

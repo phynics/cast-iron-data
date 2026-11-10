@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divide_mind", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "164"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 164
 
 You partition your mind to maximize your mental power. Until the spell ends, you roll twice and use
 the higher result for all Will saves, Intelligence checks, and Intelligence-based skill checks. In

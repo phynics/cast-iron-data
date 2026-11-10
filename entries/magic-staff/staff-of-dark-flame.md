@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_dark_flame", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "196"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 196\
 **Aura** moderate evocation and necromancy; **CL** 8th\
 **Slot** none; **Price** 47,000 gp; **Weight** 4 lbs.
 

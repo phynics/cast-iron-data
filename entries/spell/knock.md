@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knock", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "303"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: one door, box, or chest with an area of up to 10 sq. ft./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 303
 
 Knock opens stuck, barred, or locked doors, as well as those subject to
 [hold portal](ref/spell/hold-portal) or [arcane lock](ref/spell/arcane-lock). When you complete the

@@ -6,6 +6,9 @@ source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phoenix_pyralisia", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "mythical-monsters-revisited"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ billowing behind it._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
 
-**Sources:** Mythical Monsters Revisited pg 50\
 **Subtype:** Fire
 
 **Experience points:** 153,600

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 203
 
 By choosing to delay, you take no action and then act normally on whatever initiative count you
 decide to act. When you delay, you voluntarily reduce your own initiative result for the rest of the

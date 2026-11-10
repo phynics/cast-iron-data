@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_steward_of_the_skein", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "302"
+[[sources]]
+publication = "pathfinder-44-trial-of-the-beast"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -48,7 +54,6 @@ glowing eyes._
 
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, Spiritsense
 
-**Sources:** Inner Sea Gods pg 302, Pathfinder \#44: Trial of the Beast pg 90\
 **Subtype:** Extraplanar, Herald, Psychopomp, Shapechanger
 
 **Experience points:** 51,200

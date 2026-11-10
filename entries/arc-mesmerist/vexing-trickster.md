@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "19"
 
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "Towering ego", "Touch treatment (minor)", "touch treatment (greater)", "Touch treatment (moderate)", "touch treatment (break enchantment)"]
 +++
 
-**Sources:** Psychic Anthology pg 19\
 While many mesmerists are called to embrace the art of deception, using their mind-binding powers to
 make their foes believe that even the most outrageous realities are actually true, others indulge in
 the various hijinks their power enables. These mesmerists are known as vexing tricksters.

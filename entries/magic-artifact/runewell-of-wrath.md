@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runewell_of_wrath", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 70\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 900 lbs.
 

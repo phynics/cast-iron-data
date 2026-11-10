@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_sentinel_bronze_sentinel", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ legs, its eyes intermittently shining with an orange glow._
 
 **Size:** small
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 90\
 **Experience points:** 800
 
 **Armor class:** 18/14/15

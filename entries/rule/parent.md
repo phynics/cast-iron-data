@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parent", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 177
 
 Whether a progenitor or a parental figure (like a mentor or teacher), a parent often embodies the
 sense of debt and responsibility a character has for his origins and past.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antilife_shell", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: yes
 Area: 10-ft.-radius emanation, centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 242
 
 You bring into being a mobile, hemispherical energy field that prevents the entrance of most types
 of living creatures.

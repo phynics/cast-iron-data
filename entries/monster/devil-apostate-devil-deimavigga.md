@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_apostate_devil_deimavigga", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "78"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ fingers on gauntleted hands._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 5 pg 78, Book of the Damned - Volume 1: Princes of Darkness pg 54\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 102,400

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gryph", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "150"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ its beak is razor-sharp._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 150\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

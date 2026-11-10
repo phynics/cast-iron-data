@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_darkness", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Descriptors: darkness, shadow
 :::
-
-**Sources:** Blood of Shadows pg 29
 
 You shield yourself with darkness, reducing the illumination level in your space to magical darkness
 and granting you [total concealment](ref/rule/concealment). Your opponents are automatically aware

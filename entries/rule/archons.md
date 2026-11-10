@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archons", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "104"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 104
 
 As creatures of law and good, archons seek order, justice, and the protection of the weak against
 the depredations of the strong. They believe in transformation from within, whether through

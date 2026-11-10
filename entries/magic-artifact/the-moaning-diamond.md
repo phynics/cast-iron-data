@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "advanced-players-guide", "artifacts-and-leg
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_moaning_diamond", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "338"
+[[sources]]
+publication = "advanced-players-guide"
+page = "317"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +26,6 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Ultimate Equipment pg 338, Advanced Player's Guide pg 317, Artifacts and Legends pg 31\
 **Aura** overwhelming transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

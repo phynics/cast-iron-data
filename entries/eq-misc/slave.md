@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling),
 weight = "175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)"
 +++
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp
 (specialized); **Weight** 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip,
 halfling), 160 lbs. (specialized)

@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_stabbing_beast", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "300"
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ _This towering, scorpion-tailed man stalks with a soundless grace and murderous 
 
 **Senses:** Darkvision 60 ft., Low-light vision, See in darkness, See invisibility
 
-**Sources:** Inner Sea Gods pg 300, Pathfinder \#59: The Price of Infamy pg 90\
 **Subtype:** Evil, Extraplanar, Herald, Shapechanger
 
 **Experience points:** 51,200

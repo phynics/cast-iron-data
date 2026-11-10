@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "128"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Dirge of doom"]
 +++
 
-**Sources:** Monster Codex pg 128\
 Kobolds' yammering songs distract opponents in combat, hindering their ability to attack.
 
 **Prerequisites:** Kobold

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "274"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trai
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 274\
 **Subtype:** Wayang
 
 **Experience points:** 200

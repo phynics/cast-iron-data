@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_items", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 160
 
 Typically, player characters find themselves buying and selling magic items as they gain levels to
 keep up with the increasing threats they face. Items come and go from each character's inventory

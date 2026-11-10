@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chariot", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "87"
 
 [fields]
 kind = "item"
@@ -13,7 +16,6 @@ category = "Miscellaneous Equipment"
 price = "200 gp (heavy), 50 gp (light), 100 gp (medium)"
 +++
 
-**Sources:** Ultimate Equipment pg 87\
 **Price** 200 gp (heavy), 50 gp (light), 100 gp (medium); **Price of Passage** 2 cp (heavy), 2 cp
 (light), 2 cp (medium)\
 **Category** Transport, Land

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trebuchet_heavy", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "163"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Trebuchet
-
-**Sources:** Ultimate Combat pg 163
 
 Trebuchets are similar in form to catapults, with the payload placed into a basket, cup, or sling at
 the end of a long lever, and a counterweight (often with crew or animals pulling attached ropes)

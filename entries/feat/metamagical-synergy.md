@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagical_synergy", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If all three coven members with this feat cast the same spell in the 
 +++
 
 ## Metamagical Synergy (Coven, Teamwork)
-
-**Sources:** Blood of the Coven pg 13
 
 You and the other members of your coven can weave your spells together to great effect.\
 **Prerequisites:** [Allied Spellcaster](ref/feat/allied-spellcaster).\

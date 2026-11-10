@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reading_a_madness_stat_block", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 182
 
 Madnesses are formatted in the same way as other [afflictions](ref/rule/afflictions), with the
 following changes.

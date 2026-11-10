@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide", "adventurers-armory", "wilderness-origin
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_traits", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "326"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 326
 
 There are five original types of character traits to choose from: basic (split among four
 categories: Combat, Faith, Magic, and Social), campaign, race, regional, and religion.

@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitoxin_touch", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Potions and Poisons pg 11
 
 The target's skin secretes a small amount of venom-resistant oils for the spell's duration. The
 target cannot accidentally poison itself while applying poison. Additionally, the target does not

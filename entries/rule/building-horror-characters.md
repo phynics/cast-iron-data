@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_horror_characters", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 8
 
 Characters in horror-themed campaigns are usually no less skilled or powerful than those in other
 Pathfinder RPG campaigns. The GM might also have special guidelines or expectations for the game's

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_striker", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "217"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you confirm a critical hit against an undead creature, your 
 +++
 
 ## Sun Striker (Combat, Critical)
-
-**Sources:** Inner Sea Gods pg 217
 
 Called by the Dawnflower to strike down the undead, your scimitar becomes an agent of her burning
 will.\

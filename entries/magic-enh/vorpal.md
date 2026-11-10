@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorpal", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "149"
+[[sources]]
+publication = "core-rulebook"
+page = "469"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Sources:** Ultimate Equipment pg 149, PRPG Core Rulebook pg 469\
 **Aura** strong necromancy and transmutation; **CL** 18th\
 **Slot** weapon quality; **Price** +5 bonus; **Weight** -
 

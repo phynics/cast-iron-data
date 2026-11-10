@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/slayer" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "15"
 
 [fields]
 kind = "archetype"
 replaces = ["Slayer talent gained at 2nd level", "Stalker"]
 +++
 
-**Sources:** Haunted Heroes Handbook pg 15\
 Originally trained and employed by the enforcers of the Pure Legion seeking to defend Rahadoum from
 divine spellcasters, Rahadoumi spiritslayers have proven so invaluable in culling ghosts, shadow
 demons, and other incorporeal creatures that their techniques have spread across the Inner Sea

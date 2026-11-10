@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "movers_and_shakers", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 19
 
 Preparation is great, but sometimes you just want to play. Published adventures are perfect for
 this, but even those require a bit of reading ahead of time. If you want to truly wing it, with

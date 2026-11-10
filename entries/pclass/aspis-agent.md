@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspis_agent", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "30"
+[[sources]]
+publication = "paths-of-prestige"
+page = "8"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Adventurer's Guide pg 30, Paths of Prestige pg 8
 
 The [Aspis Consortium](ref/rule/aff-profiteers) employs many unscrupulous individuals in its ongoing
 plots to achieve wealth and dominion throughout the Inner Sea region. Aspis agents are the

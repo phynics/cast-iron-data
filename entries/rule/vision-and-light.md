@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_and_light", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 172
 
 Dwarves and half-orcs have [darkvision](ref/rule/darkvision), but other races need light to see by.
 See Table 7-10 for the radius that a light source illuminates and how long it lasts. The increased

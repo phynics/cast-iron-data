@@ -6,14 +6,15 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flechette_bolt", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "27"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "20 lbs."
 +++
-
-**Sources:** Dragonslayer's Handbook pg 27
 
 This ballista bolt consists of dozens of small steel darts, called flechettes, which break away
 after the bolt is released. If the bolt impacts anything before it reaches a distance of 30 feet, it

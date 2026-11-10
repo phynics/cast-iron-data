@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_feint", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Two-Weapon Fighting to make melee attacks, you can forgo 
 +++
 
 ## Improved Two-Weapon Feint (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 Your primary weapon keeps a foe off balance, allowing you to slip your off-hand weapon past his
 defenses.\

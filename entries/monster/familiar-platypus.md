@@ -6,6 +6,15 @@ source_ids = ["ultimate-wilderness", "animal-archive", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_platypus", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "203"
+[[sources]]
+publication = "animal-archive"
+page = "30"
+[[sources]]
+publication = "bestiary-4"
+page = "96"
 
 [fields]
 kind = "creature"
@@ -40,7 +49,6 @@ webbed feet._
 
 **Senses:** Electrolocation 30 ft., Low-light vision
 
-**Sources:** Ultimate Wilderness pg 203, Animal Archive pg 30, Bestiary 4 pg 96\
 **Size:** tiny
 
 **Experience points:** 65

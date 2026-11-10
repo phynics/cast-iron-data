@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paladin", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +2 or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/248
 
 [Paladin](ref/class/paladin) creatures can battle evil using smite evil and heal using
 [lay on hands](ref/ability/lay-on-hands), and they possesses some defensive abilities as well. A

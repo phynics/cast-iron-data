@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_chaos", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "255"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Targets: one creature/level in a 20-ft.-radius burst centered on you
 Descriptors: chaotic
 :::
-
-**Sources:** PRPG Core Rulebook pg 255
 
 A random pattern of color surrounds the subjects, protecting them from attacks, granting them
 resistance to spells cast by lawful creatures, and causing lawful creatures that strike the subjects

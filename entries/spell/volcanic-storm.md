@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volcanic_storm", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Area: cylinder (20-ft. radius, 40 ft. high)
 Descriptors: fire
 :::
-
-**Sources:** Ultimate Magic pg 248
 
 Chunks of hot volcanic rock and clumps of ash pound down when this spell is cast, dealing 3d6 points
 of bludgeoning damage and 2d6 points of fire damage to every creature in the area. This damage only

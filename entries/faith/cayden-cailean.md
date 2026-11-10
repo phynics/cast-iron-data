@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cayden_cailean", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "36"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Cayden Cailean**
 
 **Sub:** The Drunken Hero
-
-**Sources:** Inner Sea Gods pg 36
 
 ### Details
 

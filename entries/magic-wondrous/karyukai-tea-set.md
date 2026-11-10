@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "karyukai_tea_set", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 60\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 38,160 gp; **Weight** 4 lbs.
 

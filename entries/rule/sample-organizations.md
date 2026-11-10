@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sample_organizations", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 114
 
 The sample organizations in this section span all possible levels of influence. The organizations
 that are relevant to each GM depend upon the campaign.

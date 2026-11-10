@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/shot-on-the-run", label = "or" },
   { kind = "prerequisite", target = "ref/feat/spring-attack", label = "or" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "A character with the armor training class feature can use Spring-Heel
 +++
 
 ## Spring-Heeled Style (Combat, Style)
-
-**Sources:** Armor Master's Handbook pg 11
 
 You cunningly dart across the battlefield from foe to foe, taking advantage of your armor's
 flexibility to duck blows.\

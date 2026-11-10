@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_toolbox", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 194
 
 The planes offer limitless possibilities for destinations, inhabitants, and adventures. What PCs
 might find on the other side of a portal might be an exotic foray in a wondrous land, or a

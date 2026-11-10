@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_beyond_the_veil", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "210"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 210\
 **School** conjuration (calling); **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, F (either an object once possessed by the spirit or entity called, or the name

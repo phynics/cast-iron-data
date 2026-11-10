@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restore_corpse", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: corpse touched
 :::
-
-**Sources:** Ultimate Magic pg 235
 
 You grow flesh on a decomposed or skeletonized corpse of a Medium or smaller creature, providing it
 with sufficient flesh that it can be animated as a zombie rather than a skeleton. The corpse looks

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "20"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Phantom", "etheric tether", "shared consciousness", "spiritual inte
 alters = ["Bonded senses", "phantom recall"]
 +++
 
-**Sources:** Planar Adventures pg 20\
 Normally, the bond a spiritualist shares with his phantom persists for the duration of the
 spiritualist's life, but in certain rare instances, a spiritualist can guide the phantom hiding
 within her on to the afterlife, choosing to release the phantom and abandoning many of the classic

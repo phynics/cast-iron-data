@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_desert_blight", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "40"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tentacles._
 
 **Perception:** +19
 
-**Sources:** Bestiary 6 pg 40\
 **Subtype:** Blight
 
 **Experience points:** 25,600

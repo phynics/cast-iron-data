@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anger", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "80"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Occult Adventures pg 80\
 Phantoms with this emotional focus are filled with seething anger from events in their past lives.
 Phantoms with this focus often take the form of hulking brutes with furrowed brows or of frenzied
 creatures that always seem ready to strike down those who come too near. Many times, these phantoms

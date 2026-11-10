@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_blue_ringed_octopus", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "117"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["8", "21", "10", "2", "13", "3"]
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Magic pg 117\
 **Subtype:** Aquatic
 
 **Size:** tiny

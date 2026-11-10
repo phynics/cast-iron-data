@@ -6,6 +6,9 @@ source_ids = ["pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_dragons_breath", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#70: The Frozen Stars pg 62\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** neck; **Price** 4,800 gp; **Weight** -
 

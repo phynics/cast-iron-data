@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glittering_trinket", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "247"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Intrigue pg 247\
 **Aura** faint illusion; **CL** 1st\
 **Slot** none; **Price** 120 gp; **Weight** 1/2 lb.
 

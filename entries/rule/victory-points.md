@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victory_points", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 157
 
 When a side is benefiting from a helpful crowd reaction and succeeds at a performance combat check,
 that side gains a victory point. Victory points are kept in a pool, and can be spent by anyone on a

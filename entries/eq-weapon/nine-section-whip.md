@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nine_section_whip", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "133"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 133
 
 The nine-section whip consists of steel bars linked together. The final bar is a 6-inch weighted
 spike. This weapon can be wielded as a single-handed weapon, a two-handed weapon, or in pairs.

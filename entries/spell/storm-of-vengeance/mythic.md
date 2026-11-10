@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/storm-of-vengeance", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "109"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 109\
 The acid damage dealt increases to 1d8 points of acid damage. The lightning damage dealt increases
 to 10d8 points of electricity damage. You can call down a bolt of lightning on the 2nd and 4th
 rounds (equivalent to those on the 3rd round). You can strike the same target with a bolt more than

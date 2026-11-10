@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_nupperibo", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["10", "10", "10", "-", "11", "4"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 44\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 400

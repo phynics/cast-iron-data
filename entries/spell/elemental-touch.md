@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_touch", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: see text
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 218
 
 Upon completing the casting of this spell, elemental energy infuses your hands. Choose an energy
 type: acid, cold, electricity, or fire. You gain a melee touch attack causing 1d6 points of damage

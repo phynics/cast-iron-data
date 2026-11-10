@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_flowering_lattice", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "196"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This scuttling patchwork plant features flowers of many different shapes and co
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 196\
 **Experience points:** 65
 
 **Armor class:** 15/15/14

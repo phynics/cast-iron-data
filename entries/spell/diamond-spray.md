@@ -6,6 +6,9 @@ source_ids = ["pathfinder-24-the-final-wish"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diamond_spray", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "pathfinder-24-the-final-wish"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: earth
 :::
-
-**Sources:** Pathfinder \#24: The Final Wish pg 60
 
 A cone of tiny, sparkling slivers as hard and sharp as filed diamonds springs from your outstretched
 fingers at tremendous speed. Any creature in the area of the torrent takes 1d6 points of slashing

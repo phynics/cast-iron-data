@@ -6,13 +6,14 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_sword", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "37"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Advanced Player's Guide pg 37
 
 Cavaliers who join the order of the sword dedicate their lives to the code of chivalry, living a
 life of honor, valor, and fairness. Cavaliers of this order tend to swear service to a lord or a

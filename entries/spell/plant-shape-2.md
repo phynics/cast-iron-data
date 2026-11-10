@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/plant-shape-1" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "323"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Polymorph
 :::
 
 ### Plant Shape II
-
-**Sources:** PRPG Core Rulebook pg 323
 
 This spell functions as [plant shape I](ref/spell/plant-shape-1) except that it also allows you to
 assume the form of a Large creature of the plant type. If the creature has immunity or resistance to

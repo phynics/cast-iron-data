@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hemorhaging_venom", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your ability to spit poison granted by the Spit Venom feat deals 2d6 
 +++
 
 ## Hemorhaging Venom (Combat)
-
-**Sources:** Potions and Poisons pg 5
 
 Your venom destroys blood vessels and melts bone.\
 **Prerequisites:** [Spit Venom](ref/feat/spit-venom), [Virulent Venom](ref/feat/virulent-venom),

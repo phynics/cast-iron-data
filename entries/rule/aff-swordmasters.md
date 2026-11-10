@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_swordmasters", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "18"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 18\
 **Pathfinder Name:** Aldori Swordlords\
 **Scope:** national\
 **Alignment:** N\

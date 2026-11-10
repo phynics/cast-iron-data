@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/combat-expertise", label = "or" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ special = "In addition to the chosen weapon, a character with the weapon trainin
 +++
 
 ## Outslug Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 16
 
 You dart in and out of combat.\
 **Prerequisites:** Int 13; [Combat Expertise](ref/feat/combat-expertise) or brawler's cunning class

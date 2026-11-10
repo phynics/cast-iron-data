@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "particulate_form", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "6"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Targets: 1 creature/level, no two of which can be more than 30 feet apart
 :::
-
-**Sources:** Magic Tactics Toolbox pg 6
 
 The targets' physical forms undergo a bizarre transformation. They look and function normally, but
 are composed of countless particles that separate and reconnect to remain whole. Each target gains

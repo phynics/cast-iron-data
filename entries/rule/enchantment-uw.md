@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantment_uw", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 157
 
 Low-level enchantment spells that are appropriate for wilderness campaigns most often focus on the
 manipulation of animal minds. Keep in mind that animals are often simple creatures, with simple

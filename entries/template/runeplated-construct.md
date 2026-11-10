@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeplated_construct", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "58"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** Construct Handbook/58
 
 Wizards in ancient Thassilon each specialized in one of seven schools of magic, a practice that
 carried over to their production of magical constructs.

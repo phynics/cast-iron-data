@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_bliss_ancient_bliss_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This serene dragon's feathered form emits a comforting warmth._
 
 **Senses:** Dragon senses
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 91\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 409,600

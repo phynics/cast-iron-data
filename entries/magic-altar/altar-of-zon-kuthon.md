@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_zon_kuthon", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "249"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and enchantment [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Gods pg 249\
 **Aura** moderate abjuration and enchantment \[evil, lawful\]; **CL** 10th\
 **Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.
 

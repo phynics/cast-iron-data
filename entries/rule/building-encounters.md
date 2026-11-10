@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "building_encounters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "40"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 40
 
 One of the ironies of being a GM is that it's not your job to create a fair fight between the PCs
 and monsters: if it were a _fair_ fight, the PCs would lose half the time, and that makes for a very

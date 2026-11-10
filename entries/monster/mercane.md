@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mercane", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "188"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and its hands have too few fingers._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 188\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

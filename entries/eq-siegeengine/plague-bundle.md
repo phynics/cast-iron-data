@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_bundle", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "164"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "20 lbs."
 +++
-
-**Sources:** Ultimate Combat pg 164
 
 This hard, ceramic canister is filled with a noxious mass of diseased carrion and offal that can be
 used as ammunition for a catapult or a trebuchet. It deals only half damage, but every creature hit

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reapers_coterie", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: weapon touched
 Descriptors: evil
 :::
-
-**Sources:** Melee Tactics Toolbox pg 31
 
 The target weapon becomes a reservoir of spiritual energy, fueling its destructive power by drawing
 in a tiny fragment of the essence of each creature it is used to defeat. When the targeted weapon is

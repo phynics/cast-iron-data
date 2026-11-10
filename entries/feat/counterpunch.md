@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterpunch", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "144"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Once per round, when you are fighting unarmed with both hands free an
 +++
 
 ## Counterpunch (Combat)
-
-**Sources:** Advanced Class Guide pg 144
 
 With deft reflexes, you capitalize on opponents' mistake.\
 **Prerequisites:** Dex 18, [Combat Reflexes](ref/feat/combat-reflexes),

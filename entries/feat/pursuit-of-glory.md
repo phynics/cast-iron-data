@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pursuit_of_glory", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "208"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you start or end a charge attack in a space adjacent to an a
 +++
 
 ## Pursuit of Glory (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 208
 
 You know that daring deeds and heroics live forever in song, and sagas will carry your deeds into
 immortality.\

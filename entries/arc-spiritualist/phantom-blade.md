@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Phantom", "phantom recall", "spiritual bond", "dual bond", "Etheric
 alters = ["Weapon", "armor proficiency"]
 +++
 
-**Sources:** Psychic Anthology pg 4\
 A small selection of spiritualists are connected to spirits of combat and warfare, and manifest a
 weapon instead of a phantom. These spiritualists are known as phantom blades and fight with
 ectoplasmic weapons. Phantom blades are often found in Mendev and the Worldwound, where

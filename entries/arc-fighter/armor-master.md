@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "44"
 
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1 and 3", "armor mastery", "Weapon training 2 and 4", "Weapon mastery"]
 +++
 
-**Sources:** Ultimate Combat pg 44\
 All fighters have two main tools of their trade: weapons and armor. While many fighters hone their
 weapon skills to a point of inescapable grace and lethality, there are those who live under the
 maxim that a good offense can be accomplished though an impenetrable defense. To these fighters,

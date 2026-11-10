@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tech_misc", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "39"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 39\
 Most of the technological treasures that await discovery in Numeria fall into this catch-all
 category. Each piece of technological gear detailed here has a full description, including a set of
 abbreviated statistics. This information is organized as follows.

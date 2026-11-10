@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strix_strix_voyager", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ stark-white bones commonly worn by his people._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 55\
 **Subtype:** Strix\
 **Experience points:** 1,600
 

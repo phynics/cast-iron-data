@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_the_transmuter", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "123"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _This simple book is bound in white leather with a silver clasp. Careful notes on economic theory in
 a crisp and precise hand occupy the last few written pages, after which there is a page stained with
 a dark reddish-brown smear. The rest of the pages are blank._
-
-**Sources:** Ultimate Magic pg 123
 
 **Opposition** Illusion, necromancy\
 **Protection** [Good lock](ref/eq-misc/lock-good) (DC 30),

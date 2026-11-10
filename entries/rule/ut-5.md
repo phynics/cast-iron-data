@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ut_5", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 213
 
 ### Table 7-46: Slum
 

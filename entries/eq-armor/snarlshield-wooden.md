@@ -6,6 +6,12 @@ source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snarlshield_wooden", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "6"
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
@@ -13,7 +19,6 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Sources:** Adventurer's Armory 2 pg 6, Gnomes of Golarion pg 22\
 **Cost** 37 gp **Weight** 15 lbs.\
 **Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -3\
 **Arcane Spell Failure Chance** 15%

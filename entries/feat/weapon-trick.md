@@ -6,6 +6,12 @@ source_ids = ["martial-arts-handbook", "weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_trick", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "12"
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "8-9"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ special = "You can gain Weapon Trick multiple times. Each time you take the feat
 +++
 
 ## Weapon Trick (Combat)
-
-**Sources:** Martial Arts Handbook pg 12, Weapon Master's Handbook pg. 8-9
 
 Choose one weapon trick option (one-handed weapon, polearm, ranged, two-handed weapon, two-weapon,
 or weapon and shield). You can perform weapon tricks in combat when armed appropriately for that

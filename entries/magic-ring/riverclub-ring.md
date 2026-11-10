@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riverclub_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Sources:** People of the River pg 29\
 **Aura** faint conjuration; **CL** 1st\
 **Slot** ring; **Price** 1,000 gp; **Weight** -
 

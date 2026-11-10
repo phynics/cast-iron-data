@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnalis", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "154"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ cobra._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 154\
 **Subtype:** Extraplanar
 
 **Experience points:** 1,600

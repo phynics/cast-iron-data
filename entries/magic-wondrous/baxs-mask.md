@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baxs_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Daughters of Fury pg 45\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** head; **Price** 9,100 gp; **Weight** 2 lbs.
 

@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Kami
-
-**Sources:** Bestiary 5, Bestiary 3
 
 Kami are a race of native outsiders who serve to protect what they refer to as "wards" - animals,
 plants, objects, and even locations - from being harmed or dishonored. All kami are outsiders with

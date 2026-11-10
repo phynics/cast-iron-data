@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "142"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Advanced Player's Guide pg 142\
 The earth elementalist draws power from the stone around him, shaping it, shattering it, and bending
 it to his will. He can use it to defend himself or cause it to rise up and crush his foes.
 

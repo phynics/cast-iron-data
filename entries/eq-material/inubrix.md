@@ -6,13 +6,14 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inubrix", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "71"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 71
 
 This metal's structure allows it to pass through iron and steel without touching them, seemingly
 shifting in and out of phase with reality. This quality earned the pale metal the nickname "ghost

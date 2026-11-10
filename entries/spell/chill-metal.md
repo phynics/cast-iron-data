@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chill_metal", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (object)
 Target: metal equipment of one creature per two levels, no two of which can be more than 30 ft. apart; or 25 lbs. of metal/level, none of which can be more than 30 ft. away from any of the rest
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 254
 
 Chill metal makes metal extremely cold. Unattended, nonmagical metal gets no saving throw. Magical
 metal is allowed a saving throw against the spell. An item in a creature's possession uses the

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackles_of_durance_vile", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "274"
+[[sources]]
+publication = "advanced-race-guide"
+page = "125"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 274, Advanced Race Guide pg 125\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** wrists; **Price** 16,200 gp; **Weight** 2 lbs.
 

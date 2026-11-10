@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "rise-of-the-runelords-anniversary-edition"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mountain_travel", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "430"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 430
 
 High altitude travel can be extremely fatiguing - and sometimes deadly - to creatures that aren't
 used to it. [Cold](ref/rule/cold-dangers) becomes extreme, and the lack of oxygen in the air can

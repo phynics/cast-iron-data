@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_performance_combat", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "153"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 153
 
 When creating a performance combat, it is important to determine the goals and rules of that combat.
 The following are the major examples of performance combat, but you should feel free to mix and

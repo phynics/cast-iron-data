@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unconscious_agenda", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "419"
+[[sources]]
+publication = "pathfinder-5-sins-of-the-saviors"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -46,9 +52,6 @@ Target: One humanoid
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Rise of the Runelords Anniversary Edition pg 419, Pathfinder \#5: Sins of the Saviors
-pg 61
 
 This spell plants a subconscious directive in the target's mind that forces him to act as you
 dictate when specific circumstances arise. The target humanoid can be either conscious or

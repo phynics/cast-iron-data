@@ -6,6 +6,9 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifecollar_coat", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** Undead Slayer's Handbook pg 29\
 **Aura** moderate abjuration and necromancy; **CL** 7th\
 **Slot** chest and neck (see text); **Price** 18,200 gp; **Weight** 10 lbs.
 

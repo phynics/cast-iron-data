@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_armor_phantom_lancer", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["17", "15", "-", "7", "11", "18"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Type:** undead
 
 **Experience points:** 2,400

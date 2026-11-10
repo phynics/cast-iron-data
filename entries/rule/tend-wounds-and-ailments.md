@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tend_wounds_and_ailments", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "66"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 66
 
 This use of Survival functions as the [Heal core skill](ref/skill/heal).
 

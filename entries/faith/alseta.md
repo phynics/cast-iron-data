@@ -6,6 +6,9 @@ source_ids = ["inner-sea-faiths", "inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alseta", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-faiths"
+page = "11"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Alseta**
 
 **Sub:** The Welcomer
-
-**Sources:** Inner Sea Faiths pg 11
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathbalm_talisman", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#62: Curse of the Lady's Light pg 62\
 **Aura** moderate conjuration; **CL** 5th\
 **Slot** neck; **Price** 5,000 gp; **Weight** 1 lb.
 

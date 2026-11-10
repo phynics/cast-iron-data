@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_ward_of_the_ostiarius", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "222"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 222\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.
 

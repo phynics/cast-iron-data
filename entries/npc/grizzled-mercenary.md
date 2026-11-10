@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grizzled_mercenary", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "268"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** NPC Codex pg 268\
 **XP** 1,200\
 Human [warrior](ref/npcclass/warrior) 6\
 CN Medium humanoid (human)\

@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_other_faerie_dragon", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "91"
+[[sources]]
+publication = "bonus-bestiary"
+page = "9"
 
 [fields]
 kind = "creature"
@@ -38,7 +44,6 @@ _A pair of brightly colored butterfly wings sprouts from the back of this miniat
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 91, Bonus Bestiary pg 9\
 **Size:** tiny
 
 **Experience points:** 600

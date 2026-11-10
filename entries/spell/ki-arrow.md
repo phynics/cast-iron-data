@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_arrow", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude (object)
 Spell resistance: yes (object)
 Target: 1 arrow touched
 :::
-
-**Sources:** Ultimate Magic pg 225
 
 You imbue an arrow with your power and throw it at a target up to 100 feet away. Make a ranged
 attack roll. If it hits, the target takes damage from the arrow as if you had hit it with a single

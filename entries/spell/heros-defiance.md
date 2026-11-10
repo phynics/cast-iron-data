@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_defiance", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Advanced Player's Guide pg 226
 
 The instant before you are reduced to 0 or fewer hit points, you can expend a use of your lay on
 hands ability to heal yourself as if you had used lay on hands, plus an additional 1d6 hit points.

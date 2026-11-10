@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spotlight", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: darkness, light
 :::
-
-**Sources:** Blood of Shadows pg 29
 
 You create a mobile area of bright light centered on one target while simultaneously suppressing
 other light sources surrounding it. The light level in the target's space increases to bright light,

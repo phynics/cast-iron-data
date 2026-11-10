@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_treasure", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (object), then yes (see text)
 Target: unattended object touched
 Descriptors: curse
 :::
-
-**Sources:** Villain Codex pg 188
 
 You touch a piece of treasure or container filled with treasure and place a terrible curse upon it,
 choosing from any option available with bestow curse. The next creature to take the treasure or

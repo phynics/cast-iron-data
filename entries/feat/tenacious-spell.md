@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenacious_spell", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Increase the DC of caster level checks to counter or dispel a tenacio
 +++
 
 ## Tenacious Spell (Metamagic)
-
-**Sources:** Ultimate Intrigue pg 94
 
 Your magic is difficult to unravel.\
 **Benefit:** Increase the DC of caster level checks to counter or dispel a tenacious spell by 2. If

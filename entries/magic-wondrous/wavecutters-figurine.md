@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wavecutters_figurine", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#124: City in the Deep pg 81\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
 

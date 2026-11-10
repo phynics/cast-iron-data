@@ -6,14 +6,15 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangling_bolt", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "39"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "25 lbs."
 +++
-
-**Sources:** Belkzen, Hold of the Orc Hordes pg 39
 
 When launched from a ballista, this specialized bolt unfurls into a large net. An attack with
 entangling ammunition is a ranged touch attack, but it's only effective within one range increment.

@@ -6,13 +6,15 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffering", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "18"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Antihero's Handbook pg 18\
 Phantoms with this focus stand on trembling legs, with hands quivering and tears constantly
 streaming from their eyes. Their auras are typically a blue or purple, but the phantoms have vividly
 glowing scars and bruises that pulse and throb with their motion. When addressed, they tend to

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannon_master", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 competence bonus on any Craft (siege engine) checks mad
 +++
 
 ## Cannon Master (Combat)
-
-**Sources:** Inner Sea Combat pg 17
 
 You have learned how to keep firearm siege engines ready for battle despite harrowing circumstances.\
 **Prerequisites:** [Siege Engineer](ref/feat/siege-engineer), Knowledge (engineering) or Profession

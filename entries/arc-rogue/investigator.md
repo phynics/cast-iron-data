@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "133"
 
 [fields]
 kind = "archetype"
@@ -18,7 +21,6 @@ replaces = ["Trapfinding"]
 > _**Note:** This is a rogue archetype, and has no relation to the
 > [investigator](ref/class/investigator) hybrid class._
 
-**Sources:** Advanced Player's Guide pg 133\
 Not all rogues work against the law. Investigators use their skills to serve the law, often in the
 employ of nobles or in the pursuit of noble causes. In some cities cabals of investigators work for
 rulers or bureaucracies, but often an investigator is a free agent who pursues whatever mysteries

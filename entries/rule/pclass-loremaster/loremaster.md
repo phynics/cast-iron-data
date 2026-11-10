@@ -8,12 +8,13 @@ parent = "ref/pclass/loremaster"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/prestige_classes2.json#loremaster|section:loremaster", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "385"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 385
 
 The loremaster is a gatherer and keeper of secrets. He is often obsessed by the written word, with
 cryptic and arcane lore serving as his devoted mistress. Holding to the adage that knowledge is

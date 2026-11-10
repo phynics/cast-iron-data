@@ -6,14 +6,15 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chernasardo_warden", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "68"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder \#116: Fangs of War pg 68
 
 Chernasardo warden is a title that few can reasonably hope to earn. Among the freedom fighters,
 wardens have proven themselves again and again, taking on enemies that threaten the fate of

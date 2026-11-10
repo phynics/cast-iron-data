@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_the_unchained", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Champions of Balance pg 28\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** hands; **Price** 13,200 gp; **Weight** 6 lbs.
 

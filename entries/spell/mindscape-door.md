@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindscape_door", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Effect: one illusory portal
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 177
 
 You or other creatures enter into or escape from a [mindscape](ref/rule/mindscapes) through an
 imaginary doorway. This doorway takes on any form of your choosing, but can be no larger than a

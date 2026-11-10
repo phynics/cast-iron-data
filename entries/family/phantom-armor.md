@@ -6,12 +6,12 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_armor", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#47: Ashes at Dawn
 
 Raised from the corpses of knights and soldiers slain by treachery rather than battle or conflicts
 considered crimes even in the heat of war, phantom armors appear as suits of animate armor, walking

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_shield", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As an immediate action while you are grappling an adjacent creature, 
 +++
 
 ## Body Shield (Combat)
-
-**Sources:** Ultimate Combat pg 90
 
 With a sly maneuver, you force a grappled opponent into the path of an incoming attack.\
 **Prerequisites:** Dex 13, [Improved Grapple](ref/feat/improved-grapple),

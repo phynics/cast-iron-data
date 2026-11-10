@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_charging_hurler", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Using Charging Hurler requires you to end your movement within 30 feet
 +++
 
 ## Improved Charging Hurler (Combat)
-
-**Sources:** Ultimate Combat pg 105
 
 Every muscle in your body adds its force to your thrown weapons.\
 **Prerequisites:** [Charging Hurler](ref/feat/charging-hurler).\

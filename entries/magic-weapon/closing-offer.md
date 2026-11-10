@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "closing_offer", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Sources:** Agents of Evil pg 27\
 **Aura** moderate enchantment; **CL** 10th\
 **Slot** none; **Price** 15,310 gp; **Weight** 2 lbs.
 

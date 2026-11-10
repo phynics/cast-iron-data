@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_bomb", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "152"
 
 [fields]
 kind = "feat"
 prerequisites = "Heal 5 ranks, delayed bomb alchemist discovery."
 benefit = "You may implant a bomb in a willing or helpless creature (a mindless creature under your control, such as a zombie, counts as willing for this purpose). This takes 1 hour and expends 1 use of your bomb ability for the day. When the implanted creature dies or is destroyed, the bomb detonates in the creature's square as if it were a delayed bomb set by you (though you can set the bomb's damage to less than your normal bomb damage). You can use any bomb-affecting discoveries on this implanted bomb (acid bomb, frost bomb, smoke bomb, and so on) as normal. The bomb automatically detonates 24 hours after you implant it in the creature."
 +++
-
-**Sources:** Ultimate Magic pg 152
 
 You can attach a bomb to a creature that explodes when the creature dies or after 24 hours.\
 **Prerequisites:** Heal 5 ranks, [delayed bomb](ref/discovery/delayed-bomb) alchemist discovery.\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-animals-or-plants" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: cone-shaped emanation
 :::
 
 ### Detect Aberration
-
-**Sources:** Advanced Player's Guide pg 215
 
 This spell functions like _[detect animals or plants](ref/spell/detect-animals-or-plants),_ except
 it detects creatures of the aberration type.

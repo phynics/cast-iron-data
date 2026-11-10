@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swords_shadow", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully damage an enemy with the first attack of a full
 +++
 
 ## Sword's Shadow (Combat)
-
-**Sources:** Heroes of Golarion pg 7
 
 You attack with a second strike before your opponent can recover from the first.\
 **Prerequisites:** [Deft Hands](ref/feat/deft-hands).\

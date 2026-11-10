@@ -6,6 +6,9 @@ source_ids = ["pathfinder-52-forest-of-spirits"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kikuyas_sensu", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-52-forest-of-spirits"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#52: Forest of Spirits pg 61\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** none; **Price** 30,840 gp; **Weight** 1 lb.
 

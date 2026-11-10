@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsemen_of_the_apocalypse_szuriel", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ spreads from her shoulders._
 
 **Senses:** Darkvision 60 ft., Detect good, True seeing
 
-**Sources:** Bestiary 6 pg 164\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

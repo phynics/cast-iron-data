@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_gasping_pearl", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Aquatic Adventures pg 62\
 **Aura** overwhelming transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bar_fights", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Taverns pg 55
 
 Whether or not the player characters start it, an evening of drunken antics can often culminate in a
 chaotic brawl. Most times such a fight can be handled with the standard combat rules, especially

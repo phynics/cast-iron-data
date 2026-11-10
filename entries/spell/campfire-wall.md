@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "campfire_wall", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: 20-ft.-radius sphere centered on fire source
 Descriptors: fire, light
 :::
-
-**Sources:** Advanced Player's Guide pg 210
 
 You can create a barrier around a fire of at least campfire size that shelters everyone inside so
 long as the fire continues to burn. The barrier appears as a crackling sphere of light and fire that

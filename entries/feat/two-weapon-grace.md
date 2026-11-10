@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/starry-grace", label = "or" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "224"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ normal = "You gain no benefit from the listed feats if you don't have a free han
 +++
 
 ## Two-Weapon Grace (Combat)
-
-**Sources:** Villain Codex pg 224
 
 You can fight using agility instead of brute strength, even while fighting with two weapons.\
 **Prerequisites:** Dex 15; [Fencing Grace](ref/feat/fencing-grace),

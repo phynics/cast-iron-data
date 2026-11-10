@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plunder_and_infamy_2", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "64"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 64\
 [Plunder](ref/rule/plunder) can modify a PC's attempt to gain Infamy in two ways. Before making an
 Infamy check for the day, the party can choose to spend plunder to influence the result - any tale
 is more believable when it comes from someone throwing around her wealth and buying drinks for the

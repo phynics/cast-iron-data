@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_aberrant_mutation", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "182"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 182\
 The item's components have mutated, and so has your item, evolving in strange new ways.
 
 ### Tasks

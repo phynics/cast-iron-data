@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_spell_ability", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "299"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched; see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 299
 
 You transfer some of your currently prepared spells, and the ability to cast them, to another
 creature. Only a creature with an Intelligence score of at least 5 and a Wisdom score of at least 9

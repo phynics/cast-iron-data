@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liveoak", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "305"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: tree touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 305
 
 This spell turns an oak tree into a protector or guardian. The spell can only be cast on a single
 tree at a time; while liveoak is in effect, you can't cast it again on another tree. Liveoak must be

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "99"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, your defensive training dodge bonus to AC inc
 +++
 
 ## Earth Child Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 99
 
 Your martial training makes you a dangerous and elusive target for giants.\
 **Prerequisites:** Wis 13, [dwarf](ref/race/dwarf) or [gnome](ref/race/gnome), defensive training

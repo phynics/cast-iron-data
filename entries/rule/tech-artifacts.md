@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tech_artifacts", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 60\
 In the case of technological items, artifact status refers to an item that is beyond the means of
 anyone on Golarion to create or replicate, as well as beyond conventional measures of value. Unlike
 magical artifacts, technological artifacts can be destroyed just as other items could, and indeed

@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magus_words", path = "json/rules_opt_magic03.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 191
 
 **0-Level Magus Words:** Acid Burn (Acid), Cold Snap (Cold), Decipher (Language), Flame Jet (Fire),
 Force Block (Armor), Lift (Gravity), Sense Magic (Detection), Spark (Electricity)

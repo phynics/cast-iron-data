@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterwork_special_material_and_magic_armor", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 199
 
 Any individual armor piece can be of masterwork construction or constructed of special materials,
 or, if it is of masterwork construction, it can be magically enchanted at the standard cost listed

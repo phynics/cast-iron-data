@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/eldritch-conduit" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "54"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 :::
 
 ### Greater Eldritch Conduit
-
-**Sources:** Inner Sea Magic pg 54
 
 This spell functions like [eldritch conduit](ref/spell/eldritch-conduit) save for the differences
 listed above and that the target must be within medium range (100 ft. + 10 ft./level) in order for

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "15"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine health", "Aura of faith"]
 alters = ["Smite evil", "Divine bond"]
 +++
 
-**Sources:** Blood of the Sea pg 15\
 Triton kraken slayers oppose all underwater threats, but they especially target the tentacled
 monstrosities called [krakens](ref/monster/kraken). Kraken slayers develop specialized tactics to
 defeat their hated enemies as well as learn to recognize the signs of kraken activity in an area. A

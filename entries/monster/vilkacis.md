@@ -6,6 +6,9 @@ source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vilkacis", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-45-broken-moon"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ smoldering malevolence._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#45: Broken Moon pg 84\
 **Subtype:** Incorporeal
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighting_frenzy", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are in a rage and an ally with this feat within 60 feet is i
 +++
 
 ## Fighting Frenzy (Combat, Teamwork)
-
-**Sources:** Advanced Class Origins pg 27
 
 You feed off the rage of your allies.\
 **Prerequisites:** Cha 13, rage class feature.\

@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castaway", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "71"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "11"
 
 **Challenge rating:** 11
 
-**Sources:** NPC Codex pg 71\
 **XP** 12,800\
 Half-orc [druid](ref/class/druid) 12\
 LN Medium humanoid (human, orc)\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_swarm_bat_plague_swarm_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "193"
 
 [fields]
 kind = "creature"
@@ -52,7 +55,6 @@ deities._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 193\
 **Subtype:** Mythic, Swarm
 
 **Experience points:** 102,400

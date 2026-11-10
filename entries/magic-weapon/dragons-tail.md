@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_tail", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Dragonslayer's Handbook pg 30\
 **Aura** strong conjuration and transmutation; **CL** 13th\
 **Slot** none; **Price** 32,310 gp; **Weight** 12 lbs.
 

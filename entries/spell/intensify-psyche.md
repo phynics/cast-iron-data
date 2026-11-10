@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensify_psyche", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Effect: one creature
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Heroes of the Darklands pg 20
 
 A sense of euphoria suffuses the target, amplifying all sensations, good or bad. The target creature
 gains a +2 competence bonus on Diplomacy, Handle Animal, Perform, and Sense Motive checks. In

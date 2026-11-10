@@ -6,6 +6,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rations_space_per_day", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** People of the Stars pg 19\
 **Price** 1 gp; **Weight** 1/2 lb.\
 **Category** Food/Drink
 

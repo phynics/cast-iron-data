@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_spheres", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "43"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 43\
 **Aura** strong transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

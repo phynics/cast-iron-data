@@ -6,6 +6,9 @@ source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "copsewight", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-119-prisoners-of-the-blight"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ and covered in splotches of black rot._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#119: Prisoners of the Blight pg 80\
 **Type:** undead
 
 **Experience points:** 12,800

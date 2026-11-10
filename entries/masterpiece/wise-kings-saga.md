@@ -6,6 +6,8 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wise_kings_saga", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Wise King's Saga (Oratory, Sing)
-
-**Sources:** Heroes of the High Court
 
 Your saga magically weaves the counsel of sagacious ancestors into the telling.
 

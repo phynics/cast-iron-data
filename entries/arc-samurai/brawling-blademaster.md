@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/samurai" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mount", "Weapon expertise", "Mounted archer", "Banner", "Greater ba
 alters = ["Weapon and armor proficiency"]
 +++
 
-**Sources:** Martial Arts Handbook pg 10\
 While some martial arts traditions focus on the strength of the body, most schools of combat and
 self-defense know the importance of using weapons as well. Brawling blademaster samurai use weapon
 strikes and unarmed attacks in equal measure - foes expecting to defend themselves against a dagger

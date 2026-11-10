@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_menhir", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "224"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 224
 
 Every generation, the people of a village on a windswept moor venture out to a solitary menhir,
 where they join hands and say old words in a language that's been passed down from generation to

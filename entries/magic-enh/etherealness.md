@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etherealness", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "118"
+[[sources]]
+publication = "core-rulebook"
+page = "463"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 118, PRPG Core Rulebook pg 463\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** armor quality; **Price** +49,000 gp; **Weight** -
 

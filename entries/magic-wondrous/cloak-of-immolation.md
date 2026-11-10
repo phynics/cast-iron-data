@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_immolation", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "344"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "shoulders"
 aura = "strong evocation"
 caster_level = "12th"
 +++
-
-**Sources:** Ultimate Equipment pg 344, Advanced Player's Guide pg 310
 
 **Aura** strong evocation; **CL** 12th\
 **Slot** shoulders; **Weight** 1 lb.

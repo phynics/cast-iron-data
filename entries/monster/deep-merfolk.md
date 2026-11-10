@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_merfolk", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 172\
 **Subtype:** Aquatic
 
 **Experience points:** 800

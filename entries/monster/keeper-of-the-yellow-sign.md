@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_the_yellow_sign", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ parts intensity and insanity._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 88\
 **Type:** undead
 
 **Experience points:** 2,400

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xacarba", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "288"
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ together into one body._
 
 **Senses:** Arcane sight, Darkvision 120 ft., Detect good, Low-light vision, Scent, True seeing
 
-**Sources:** Bestiary 2 pg 288, Pathfinder \#18: Descent into Midnight pg 88\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 51,200

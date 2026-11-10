@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foresight", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "285"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none or Will negates (harmless)
 Spell resistance: no or yes (harmless)
 Target: see text
 :::
-
-**Sources:** PRPG Core Rulebook pg 285
 
 This spell grants you a powerful sixth sense in relation to yourself or another. Once foresight is
 cast, you receive instantaneous warnings of impending danger or harm to the subject of the spell.

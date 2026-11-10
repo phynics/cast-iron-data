@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_spell", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "If you are a spontaneous caster, you must select a specific spell wit
 +++
 
 ## Familiar Spell (Metamagic)
-
-**Sources:** Animal Archive pg 18
 
 You can imbue your familiar with a spell.\
 **Prerequisites:** Spellcaster with [familiar](ref/ability/familiars) class feature.\

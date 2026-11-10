@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wings_of_the_androsphinx", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 bonus to AC against charge attacks. If a creature charg
 +++
 
 ## Wings of the Androsphinx (Combat)
-
-**Sources:** People of the Sands pg 13
 
 You can reshape the kinetic energy of foes' charges.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

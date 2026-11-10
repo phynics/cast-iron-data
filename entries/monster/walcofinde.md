@@ -6,6 +6,9 @@ source_ids = ["pathfinder-127-crownfall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walcofinde", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-127-crownfall"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ patterned with the texture of the structure around it._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#127: Crownfall pg 88\
 **Type:** undead
 
 **Experience points:** 600

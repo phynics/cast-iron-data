@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contemplative_enlightened_contemplative", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "17"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ pulses with energy._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Occult Bestiary pg 17\
 **thoughtsense:** 60
 
 **Experience points:** 1,600

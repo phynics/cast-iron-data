@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleepless_detective", path = "json/npcs3.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "9"
 
 **Challenge rating:** 9
 
-**Sources:** Inner Sea NPC Codex pg 55\
 **XP** 6,400\
 Human [alchemist](ref/class/alchemist) 5/Sleepless detective 5\
 N Medium humanoid (human)\

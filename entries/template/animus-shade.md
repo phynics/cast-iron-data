@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animus_shade", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "11"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 6/11
 
 The typical intelligent mind exists as a war of aspects - primitive survival urges and base wants
 opposing intellectual reason and high-minded goals. Some of these aspects dominate the mind,

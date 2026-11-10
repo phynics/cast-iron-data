@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discern_lies", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "270"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates
 Spell resistance: no
 Targets: one creature/level, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 270
 
 Each round, you concentrate on one target, who must be within range. You know if the target
 deliberately and knowingly speaks a lie by discerning disturbances in its aura caused by lying. The

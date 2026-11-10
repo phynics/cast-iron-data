@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/seeds-of-influence" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: emotion, mind-affecting
 :::
 
 ### Greater Seeds of Influence
-
-**Sources:** Inner Sea Intrigue pg 62
 
 This spell functions as [seeds of influence](ref/spell/seeds-of-influence), except that if the
 target is protected by a spell that grants immunity, [spell resistance](ref/rule/spell-resistance),

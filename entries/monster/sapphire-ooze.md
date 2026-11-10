@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sapphire_ooze", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "244"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _This glittering ooze suddenly flexes and bulges as portions of it begin to crys
 
 **Perception:** +3
 
-**Sources:** Planar Adventures pg 244\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 600

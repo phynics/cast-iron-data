@@ -6,6 +6,9 @@ source_ids = ["the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_gibrileth", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "the-worldwound"
+page = "46"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ face._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** The Worldwound pg 46\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 12,800

@@ -6,13 +6,14 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horacalcum", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "71"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 71
 
 The rarest of the known [skymetals](ref/eq-material/skymetal), this dull, coppery substance warps
 time around it, making things seem to speed up or slow down. Horacalcum is associated with illusion

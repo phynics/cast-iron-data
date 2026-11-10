@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_conductor", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: air
 :::
-
-**Sources:** Elemental Master's Handbook pg 18
 
 You become capable of absorbing electricity with your body. For the duration, you absorb all
 electricity damage dealt to you until you have stored a total of 18 points of damage. Any excess

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_bane", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 21\
 **Aura** moderate conjuration; **CL** 8th\
 **Slot** none; **Price** +1 bonus; **Weight** -
 

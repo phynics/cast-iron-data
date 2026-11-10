@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_shape", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "349"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: stone or stone object touched, up to 10 cu. ft. + 1 cu. ft./level
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 349
 
 You can form an existing piece of stone into any shape that suits your purpose. While it's possible
 to make crude coffers, doors, and so forth with stone shape, fine detail isn't possible. There is a

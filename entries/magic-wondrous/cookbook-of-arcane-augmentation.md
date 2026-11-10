@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cookbook_of_arcane_augmentation", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 60\
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Price** 21,500 gp; **Weight** 5 lbs.
 

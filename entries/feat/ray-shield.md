@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_shield", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "168"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You must be using a light, heavy, or tower shield to use this feat. O
 +++
 
 ## Ray Shield (Combat)
-
-**Sources:** Advanced Player's Guide pg 168
 
 You can even deflect rays with your shield.\
 **Prerequisites:** Dex 15, [Missile Shield](ref/feat/missile-shield),

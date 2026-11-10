@@ -6,12 +6,14 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untangle_ley_lines", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "75"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 75\
 **School** transmutation; **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, M (incense ground from First World plants), SC (up to 8)\

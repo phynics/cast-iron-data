@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_low_blow", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "66"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your bonus to confirm critical hits against opponents larger than you
 +++
 
 ## Improved Low Blow (Combat)
-
-**Sources:** Advanced Race Guide pg 66
 
 You are adept at hitting larger opponents where it hurts.\
 **Prerequisites:** Base attack bonus +4, [halfling](ref/race/halfling), low-blow racial trait.\

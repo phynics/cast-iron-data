@@ -6,14 +6,23 @@ source_ids = ["book-of-the-damned", "inner-sea-world-guide", "pathfinder-37-soul
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scalykind", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "181"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "216"
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "69"
+[[sources]]
+publication = "gods-and-magic"
+page = "51"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** Book of the Damned pg 181, Inner Sea World Guide pg 216, Pathfinder \#37: Souls for
-Smuggler's Shiv pg 69, Gods and Magic pg 51
 
 **Granted Powers:** You are a true lord of reptiles, and your gaze can drive weak creatures into
 unconsciousness.

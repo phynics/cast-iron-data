@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_apocrisiarius", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ Slender surgical lancets pierce her body in numerous locations, yet these wounds
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#98: Turn of the Torrent pg 84\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 3,200

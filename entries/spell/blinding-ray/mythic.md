@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/blinding-ray", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 86\
 On a successful saving throw, the target is dazzled for 1 round. On a failed saving throw, the
 target is instead blinded for 1d4 rounds.
 

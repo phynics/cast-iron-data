@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_of_heroes", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Death of Heroes (Oratory, Sing)
-
-**Sources:** Blood of the Ancients
 
 You speak of the Worldwound's horrors, retelling tales of helpless warriors watching their loved
 ones die.

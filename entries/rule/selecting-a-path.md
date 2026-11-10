@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selecting_a_path", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 11
 
 Once you gain mythic power, you select a mythic path, which is much like an additional class. It
 determines the majority of your mythic abilities. But instead of gaining levels in a mythic path,

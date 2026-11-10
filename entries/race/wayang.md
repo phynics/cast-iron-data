@@ -6,13 +6,26 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "dragon-empires-primer",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "advanced-race-guide"
+page = "210"
+[[sources]]
+publication = "dragon-empires-primer"
+page = "6"
+[[sources]]
+publication = "dragon-empires-gazetteer"
+page = "13"
+[[sources]]
+publication = "bestiary-4"
+page = "274"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Advanced Race Guide pg 210, Dragon Empires Primer pg 6, Dragon
-Empires Gazetteer pg 13, Bestiary 4 pg 274\
 The wayangs are a race of small supernatural humanoids who trace their ancestry to the Plane of
 Shadows. They are extremely gaunt, with pixie-like stature and skin the color of deep shadow. Deeply
 spiritual, they follow a philosophy known as "The Dissolution," which teaches that in passing they

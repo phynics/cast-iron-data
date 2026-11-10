@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_object", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "161"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none, see text
 Spell resistance: no
 Target: object touched
 :::
-
-**Sources:** Occult Adventures pg 161
 
 You charge an item with minor psychic energy. The item can be detected by the
 [detect psychic significance](ref/spell/detect-psychic-significance) spell. If you wish, you can

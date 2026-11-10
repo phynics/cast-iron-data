@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elixir_of_darksight", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Advanced Race Guide pg 19\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 1,200 gp; **Weight** -
 

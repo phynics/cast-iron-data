@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "advanced-race-guide", "ultimate-equipme
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snag_net", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "advanced-race-guide"
+page = "201"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Advanced Race Guide pg 201, Ultimate Equipment pg 21
 
 This short, wide net is covered in barbed loops and slipknots. It works like a typical
 [net](ref/eq-weapon/net), except it has the trip weapon special feature. If you entangle an opponent

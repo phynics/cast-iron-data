@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/create-pit" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Subschool: Creation
 :::
 
 ### Hungry Pit
-
-**Sources:** Advanced Player's Guide pg 228
 
 This spell functions as [create pit](ref/spell/create-pit), except that the pit has the ability to
 squeeze and crush any creature trapped within it and has a maximum depth of 100 feet. Creatures who

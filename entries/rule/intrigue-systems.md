@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrigue_systems", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "98"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 98
 
 Any adventure can contain elements of intrigue, and even the most combat-filled dungeon crawl often
 benefits from breaking up the action with more nuanced encounters as a change of pace. Because it's

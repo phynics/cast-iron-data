@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savith", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "11"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "medium-spirit"
 alters = ["Champion's prowess", "Legendary champion"]
 +++
 
-**Sources:** Occult Realms pg 11\
 Savith was the Azlanti hero who, during the Age of Legend, descended into the serpentfolk city of
 Ilmurea and beheaded the evil creatures' god, [Ydersius](ref/faith/ydersius).
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanter_heron", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ glows with a pale, sapphire light._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 82\
 **Experience points:** 800
 
 **Armor class:** 15/11/13

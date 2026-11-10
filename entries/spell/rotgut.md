@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rotgut", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes (object)
 Target: 1 gallon of water/level
 :::
-
-**Sources:** Villain Codex pg 188
 
 You transform the target into a cheap alcohol of your choice, such as beer, grog, mead, rum, or
 wine. The alcohol doesn't taste good, but it's drinkable and just as effective as normal alcohol in

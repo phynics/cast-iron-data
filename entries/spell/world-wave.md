@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "world_wave", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "256"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: see text
 Descriptors: earth, water
 :::
-
-**Sources:** Advanced Player's Guide pg 256
 
 You cause any sort of natural terrain (including water, forest, desert, tundra, and so on) to surge
 beneath your feet and safely propel you with devastating force over great distances. This wave of

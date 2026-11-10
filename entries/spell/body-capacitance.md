@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_capacitance", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: electricity
 :::
-
-**Sources:** Advanced Class Guide pg 176
 
 If you take electricity damage while this spell is active, some of the energy is stored on your
 skin, as with holding the charge on a touch spell. You can release this stored electricity by making

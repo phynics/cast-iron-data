@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_of_dancing_shadows", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "113"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Advanced Race Guide pg 113\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** none; **Price** 41,000 gp; **Weight** 2 lbs.
 

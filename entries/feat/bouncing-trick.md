@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_trick", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you implant a mesmerist trick in a target's mind, you can sp
 +++
 
 ## Bouncing Trick (Trick)
-
-**Sources:** Psychic Anthology pg 16
 
 Your mesmerist trick jumps to a new target after the trick is triggered.\
 **Prerequisites:** Mesmerist trick class feature.\

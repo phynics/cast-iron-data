@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-undead" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "18"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Area: cone-shaped emanation
 :::
 
 ### Undeath Sense
-
-**Sources:** Potions and Poisons pg 18
 
 You grant the target the ability to pick up on the subtle scents and disturbances to the natural
 order that are specific to the living dead, granting the target the ability to sense the presence of

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/break", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 87
 
 You can target up to 1 Medium or smaller object per caster level.
 

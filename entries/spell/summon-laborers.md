@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_laborers", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: one summoned petitioner/caster level
 Subschool: Summoning
 :::
-
-**Sources:** Monster Summoner's Handbook pg 23
 
 Summon laborers summons one humanoid petitioner per caster level. These petitioners hail from one
 plane of your choice and perform tasks at your direction. The petitioners cannot fight or travel to

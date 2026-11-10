@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "pathfinder-131-the-reapers-right-hand", "gods-a
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thamir_gixx", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "324"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Thamir Gixx**
 
 **Sub:** The Silent Blade
-
-**Sources:** Inner Sea Gods pg 324
 
 ### Details
 

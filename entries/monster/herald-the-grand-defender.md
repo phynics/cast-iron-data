@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_grand_defender", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "310"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shield bearing Torag's symbol._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 310\
 **Subtype:** Extraplanar, Herald
 
 **Experience points:** 51,200

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoph_keh", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-46-wake-of-the-watcher"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ protrudes from its snarling face._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Snow vision
 
-**Sources:** Pathfinder \#46: Wake of the Watcher pg 84\
 **Subtype:** Cold
 
 **Experience points:** 12,800

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aram_zeys_focus", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "56"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Pathfinder Society Field Guide pg 56
 
 Aram Zey created this spell for use by his students, both to increase their confidence in their
 skills and to ensure more of them survived encounters with deadly traps. If you don't have the

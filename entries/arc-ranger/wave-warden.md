@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "194"
 
 [fields]
 kind = "archetype"
 replaces = ["Track", "All combat style bonus feats", "Favored terrain", "Woodland stride", "Swift tracker"]
 +++
 
-**Sources:** Advanced Race Guide pg 194\
 The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities.
 Though he fares best beneath the water, dry land is no haven to his quarry.
 

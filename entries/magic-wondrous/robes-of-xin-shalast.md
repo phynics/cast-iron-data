@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robes_of_xin_shalast", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "423"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "65"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 423, Pathfinder \#6: Spires of Xin-Shalast
-pg 65\
 **Aura** strong abjuration and conjuration; **CL** 16th\
 **Slot** body; **Price** 198,000 gp; **Weight** 1 lb.
 

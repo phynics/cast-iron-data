@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjustments", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "181"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 181
 
 The first challenge, preparing the vessel, sets some base statistics for the new magic item. Further
 challenges can cause adjustments to the magic item. The GM can create her own challenges, and should

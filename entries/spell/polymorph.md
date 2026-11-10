@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "323"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes (harmless)
 Target: living creature touched
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 323
 
 This spell transforms a willing creature into an animal, humanoid or elemental of your choosing; the
 spell has no effect on unwilling creatures, nor can the creature being targeted by this spell

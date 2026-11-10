@@ -6,6 +6,9 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uskroths_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 55\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** armor; **Price** 11,350 gp; **Weight** 100 lbs.
 

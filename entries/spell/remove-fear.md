@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_fear", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "332"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Targets: one creature plus one additional creature per four levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** PRPG Core Rulebook pg 332
 
 You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10
 minutes. If the subject is under the influence of a fear effect when receiving the spell, that

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-weapon-greater" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "254"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one weapon or 50 projectiles, all of which must be together at the time of casting
 :::
-
-**Sources:** Advanced Player's Guide pg 254
 
 You transform the physical makeup of a weapon as you desire. This spell functions like
 [greater magic weapon](ref/spell/magic-weapon-greater), except that it subtly alters the physical

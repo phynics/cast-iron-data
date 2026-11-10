@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "book-of-the-damned", "divi
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asmodeus", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "20"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Asmodeus**
 
 **Sub:** Prince of Darkness
-
-**Sources:** Inner Sea Gods pg 20
 
 ### Details
 

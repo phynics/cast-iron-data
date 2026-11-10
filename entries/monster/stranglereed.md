@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stranglereed", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "237"
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This tangled mass of thick reeds extends from a bulbous pod split by a wide, th
 
 **Type:** plant
 
-**Sources:** Bestiary 5 pg 237, Pathfinder \#82: Secrets of the Sphinx pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 6,400

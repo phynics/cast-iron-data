@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-14-children-of-the-void"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siren", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "247"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ _This creature has the body of a hawk and the head of a beautiful woman with lon
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 247, Pathfinder \#14: Children of the Void pg 84\
 **Experience points:** 1,600
 
 **Armor class:** 18/14/14

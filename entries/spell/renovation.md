@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "renovation", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none (object
 Spell resistance: no
 Target: one unoccupied structure
 :::
-
-**Sources:** Quests and Campaigns pg 29
 
 Upon casting this spell, you permanently rearrange and resize the rooms in a building you
 constructed as a [downtime activity](ref/rule/downtime-activities). You may reorganize and remap the

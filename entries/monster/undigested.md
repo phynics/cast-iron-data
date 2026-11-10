@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undigested", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "258"
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "125"
 
 [fields]
 kind = "creature"
@@ -36,7 +42,6 @@ _A jumble of melted bones and skull fragments float amid an oozing brown and yel
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 258, Pathfinder \#1: Burnt Offerings pg 125\
 **Size:** tiny
 
 **Type:** undead

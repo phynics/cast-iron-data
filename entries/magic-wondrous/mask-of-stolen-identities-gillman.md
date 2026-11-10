@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_stolen_identities_gillman", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "233"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Races pg 233\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** eyes; **Price** 20,000 gp; **Weight** 1/2 lb.
 

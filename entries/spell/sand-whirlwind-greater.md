@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sand-whirlwind" },
 ]
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -45,7 +48,5 @@ Subschool: Creation
 :::
 
 ### Greater Sand Whirlwind
-
-**Sources:** Taldor, Echoes of Glory pg 25
 
 This spell functions as [sand whirlwind](ref/spell/sand-whirlwind) except as noted above.

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_rp_types", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "217"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 217
 
 These types cost more than 10 RP and do not have Constitution scores. See the note at the end for
 more information on what this means for character creation.

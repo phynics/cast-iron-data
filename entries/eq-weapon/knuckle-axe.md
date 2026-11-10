@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knuckle_axe", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 144
 
 Knuckle axes, usually used in pairs, resemble axe blades mounted on brass knuckles. You may hold,
 but not wield, a weapon or other object in a hand wearing a knuckle axe. Unlike when wearing

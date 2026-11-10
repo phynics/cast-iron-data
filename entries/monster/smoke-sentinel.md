@@ -6,6 +6,9 @@ source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_sentinel", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-122-into-the-shattered-continent"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ it whirs as if mechanical._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See alignment
 
-**Sources:** Pathfinder \#122: Into the Shattered Continent pg 88\
 **Experience points:** 6,400
 
 **Armor class:** 20/20/14

@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_control_rod", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "47"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Tombs of Golarion pg 47\
 **Aura** strong conjuration and evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

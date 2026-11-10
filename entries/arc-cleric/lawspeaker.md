@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "11"
 
 [fields]
 kind = "archetype"
 alters = ["Domains"]
 +++
 
-**Sources:** Blood of the Ancients pg 11\
 The Umani priest-judges presided over justice in ancient Yamasa, driven by a zeal for discovering
 the truth. After the fall of Yamasa and the rise of hostile Koboto tribes in its place, the
 surviving Umani spread their philosophy of certain and unwavering justice throughout the Inner Sea

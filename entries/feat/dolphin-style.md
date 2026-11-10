@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "57"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +1 bonus on melee attack rolls against any creature adjace
 +++
 
 ## Dolphin Style (Combat, Style)
-
-**Sources:** Aquatic Adventures pg 57
 
 You fight like a dolphin, bunching your enemies up together to make it easier to pick them off.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Swim 3 ranks, base

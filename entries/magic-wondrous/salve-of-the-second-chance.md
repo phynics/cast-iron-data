@@ -6,6 +6,9 @@ source_ids = ["guide-to-the-river-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "salve_of_the_second_chance", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "guide-to-the-river-kingdoms"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Guide to the River Kingdoms pg 62\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 1,600 gp; **Weight** -
 

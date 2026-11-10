@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forked_rod", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Planar Adventures pg 51\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.
 

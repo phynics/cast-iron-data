@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aqt_3", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "218"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 218
 
 |d%|Name and Description|
 | --- | --- |

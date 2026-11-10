@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runic_overload", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: see text
 Target: one creature or object
 Descriptors: sonic
 :::
-
-**Sources:** Giant Hunter's Handbook pg 26
 
 This spell charges magical runes to an explosive degree. If cast on a creature with magical runes on
 its body, such as a rune giant or a runescarred creature, it deals 1d6 points of sonic damage per

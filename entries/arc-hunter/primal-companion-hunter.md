@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "97"
 
 [fields]
 kind = "archetype"
 replaces = ["Animal focus", "Second animal focus", "Master hunter"]
 +++
 
-**Sources:** Advanced Class Guide pg 97\
 Most hunters are skilled at awakening the primal beasts inside themselves. However, some can instead
 activate the primal essence within their animal companion. These primal companion hunters bestow
 upon their companions the ability to suddenly manifest new and terrifying powers - throwbacks to

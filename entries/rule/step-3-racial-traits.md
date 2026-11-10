@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_3_racial_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "220"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 220
 
 Once you have chosen all your racial qualities, you may then choose your racial traits with your
 remaining RP.

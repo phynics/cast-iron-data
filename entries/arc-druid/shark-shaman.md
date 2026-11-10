@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "40"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Ultimate Magic pg 40\
 Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true
 shark, a shark shaman leaves blood and fear in her wake.
 

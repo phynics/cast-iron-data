@@ -6,6 +6,9 @@ source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_yzobu_rider_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-120-vault-of-the-onyx-citadel"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _These hobgoblin knights ride atop brutish stinking yaks that paw the ground ang
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#120: Vault of the Onyx Citadel pg 89\
 **Subtype:** Goblinoid, Troop
 
 **Experience points:** 153,600

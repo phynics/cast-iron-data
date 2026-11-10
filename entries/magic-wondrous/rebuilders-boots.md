@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuilders_boots", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Merchant's Manifest pg 7\
 **Aura** faint transmutation; **CL** 4th\
 **Slot** feet; **Price** 14,500 gp; **Weight** 2 lbs.
 

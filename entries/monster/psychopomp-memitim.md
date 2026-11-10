@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_memitim", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "219"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ black-winged woman._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Spiritsense, True seeing
 
-**Sources:** Bestiary 6 pg 219, Inner Sea Bestiary pg 39\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 51,200

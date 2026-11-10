@@ -6,12 +6,17 @@ source_ids = ["inner-sea-races", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trox", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "253"
+[[sources]]
+publication = "bestiary-4"
+page = "264"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 253, Bestiary 4 pg 264\
 Trox were once members of a much smaller and more docile race of subterranean burrowers, but were
 long ago enslaved by the duergar and bred into useful brutes. Eventually, several clans of trox were
 able to escape their slavers and reach the surface world, though they found the creatures above were

@@ -6,14 +6,15 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashavic_dancer", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "4"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Paths of the Righteous pg 4
 
 Worshiped throughout the Inner Sea region, but particularly along Varisia's Lost Coast, the empyreal
 lord Ashava inspires her followers to leave the safety of cities and caravans to venture into the

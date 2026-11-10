@@ -6,14 +6,15 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_geometry", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "49"
 
 [fields]
 kind = "feat"
 prerequisites = "Int 13, Knowledge (engineering) 2 ranks"
 benefit = "When you take this feat, select two metamagic feats you do not yet have. When casting a spell, you can perform the steps below to spontaneously apply the effects of either or both of these metamagic feats, as well as any other metamagic feats you have, to the spell without expending a higher-level spell slot. Using a feat in this way increases the spell's casting time to the casting time it would take if the character were a sorcerer or bard (sorcerers and bards using this ability increase the spell's casting time [by two categories](ref/rule/cast-a-spell-2)); applying the Quicken Spell metamagic effect negates the increased casting time but still contributes to the modified spell's effective spell level. You can take this feat more than once; each time, select two additional metamagic feats, adding their effects to the list of possible effects you can apply to spells with this ability."
 +++
-
-**Sources:** Occult Mysteries pg 49
 
 You can use your mathematical prowess to add metamagic effects to your spells without using a
 higher-level spell slot.\

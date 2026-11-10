@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tillers_gum", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "45"
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "75"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Guide pg 45, Pathfinder \#106: For Queen and Empire pg 75\
 **Price** 100 gp; **Weight** -\
 **Category** Alchemical Tools
 

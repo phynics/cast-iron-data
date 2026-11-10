@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This magnificent bird of prey has dark feathers save for those on its head, whi
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 118\
 **Experience points:** 200
 
 **Armor class:** 14/13/12

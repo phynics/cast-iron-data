@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarring_spell", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "139"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When a creature fails a saving throw against a scarring spell, for th
 +++
 
 ## Scarring Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 139
 
 Your emotion-affecting magic causes psychic trauma in your opponents.\
 **Benefit:** When a creature fails a saving throw against a scarring spell, for the next 24 hours

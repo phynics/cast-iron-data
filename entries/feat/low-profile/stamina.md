@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/low-profile", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "125"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 125\
 When targeted by a ranged attack, you can spend a number of stamina points up to your Dexterity
 bonus. For each stamina point you spend in this way, your dodge bonus to AC against that attack
 increases by 1.

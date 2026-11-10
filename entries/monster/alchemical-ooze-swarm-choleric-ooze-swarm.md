@@ -6,6 +6,9 @@ source_ids = ["pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_ooze_swarm_choleric_ooze_swarm", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-43-haunting-of-harrowstone"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ abilities = ["16", "1", "19", "-", "1", "1"]
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#43: Haunting of Harrowstone pg 79\
 **Subtype:** Swarm
 
 **Size:** tiny

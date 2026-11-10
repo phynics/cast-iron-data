@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aristocrat", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 89
 
 [Aristocrats](ref/npcclass/aristocrat) vary in rank from village squires to emperors, with most
 having wealth and position that grants them great influence in a community.

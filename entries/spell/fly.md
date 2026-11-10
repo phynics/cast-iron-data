@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "284"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 284
 
 The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it
 carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its

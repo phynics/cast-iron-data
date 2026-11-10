@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benthic_spell", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You can modify a spell that deals acid, cold, electricity, or fire da
 +++
 
 ## Benthic Spell (Metamagic)
-
-**Sources:** Elemental Master's Handbook pg 14
 
 Explorers in the depths of the Arcadian Ocean have learned that deadly pressure can be just as
 lethal as any flame.\

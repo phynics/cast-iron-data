@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_vigor", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "231"
+[[sources]]
+publication = "gods-and-magic"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 231, Gods and Magic pg 23
 
 You focus the energy of your mind, body, and spirit into a specific part of your being, granting
 yourself an exceptional ability to perform certain tasks. When you cast the spell, choose one of the

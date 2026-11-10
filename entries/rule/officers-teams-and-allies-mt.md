@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "officers_teams_and_allies_mt", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 51
 
 **Officers:** Several officer roles are available to PCs and designated NPCs (see the
 [Officers](ref/rule/officers) section for more information). Record the name of the PC (or a proxy

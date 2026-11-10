@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/blink", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 86\
 You may spend a move action to remain corporeal or incorporeal until the end of your turn (you
 automatically resume blinking at the end of your turn).
 

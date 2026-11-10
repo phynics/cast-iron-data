@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_caress", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "119"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: one living creature
 :::
-
-**Sources:** Horror Adventures pg 119
 
 You cause the target to transform into a plant over time. You must succeed at a melee touch attack
 to infect the target. If the target succeeds at its Fortitude saving throw, it takes 1d4 points of

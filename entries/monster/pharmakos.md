@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharmakos", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "475"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ upper torso of a deformed man._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Curse of the Crimson Throne pg 475\
 **Subtype:** Aquatic
 
 **tremorsense:** 120

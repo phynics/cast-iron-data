@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_token", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (object)
 Target: one touched holy symbol per 3 caster levels
 Subschool: Healing
 :::
-
-**Sources:** Healer's Handbook pg 9
 
 You imbue one touched holy symbol per 3 caster levels with a connection to your own divine power,
 turning the touched holy symbols into tokens of healing. Each of the targeted holy symbols can

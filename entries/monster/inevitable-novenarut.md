@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inevitable_novenarut", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "236"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gemstone eyes._
 
 **Senses:** Darkvision 60 ft., Deathwatch, Detect chaos, Low-light vision
 
-**Sources:** Planar Adventures pg 236\
 **Subtype:** Extraplanar, Inevitable, Lawful
 
 **Experience points:** 1,200

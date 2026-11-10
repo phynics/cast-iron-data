@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clasp_of_the_mind_scream", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 54\
 **Aura** moderate evocation; **CL** 8th\
 **Slot** head; **Price** 12,800 gp; **Weight** 1 lb.
 

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_withering", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "185"
+[[sources]]
+publication = "core-rulebook"
+page = "485"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 185, PRPG Core Rulebook pg 485\
 **Aura** strong necromancy; **CL** 13th\
 **Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
 

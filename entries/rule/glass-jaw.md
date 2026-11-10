@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glass_jaw", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "73"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 73
 
 Some characters have a weakness that constantly reveals itself or is easily exploited in virtually
 every encounter. Examples include characters with ultra-low ability scores, those unable to defend

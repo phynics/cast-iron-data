@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelm", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "You must be positioned opposite an ally to flank an opponent."
 +++
 
 ## Overwhelm (Combat, Teamwork)
-
-**Sources:** Dragonslayer's Handbook pg 21
 
 You can overwhelm large foes with sheer numbers.\
 **Benefit:** You are considered to be [flanking](ref/rule/flanking) an opponent if at least one ally

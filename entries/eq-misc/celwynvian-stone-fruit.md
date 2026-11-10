@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celwynvian_stone_fruit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "500 gp"
 weight = "1 lb."
 +++
 
-**Sources:** Merchant's Manifest pg 21\
 **Price** 500 gp; **Weight** 1 lb.\
 **Category** Food/Drink
 

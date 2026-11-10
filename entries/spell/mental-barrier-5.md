@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mental-barrier-3" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "176"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: you
 :::
 
 ### Mental Barrier V
-
-**Sources:** Occult Adventures pg 176
 
 This functions as [mental barrier III](ref/spell/mental-barrier-3), but if you are struck by a
 critical hit or sneak attack, there is a 50% chance that the additional damage is negated (as

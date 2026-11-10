@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Rage power gained at 3rd level"]
 alters = ["Versatile performance", "Rage powers gained at 6th and 9th levels"]
 +++
 
-**Sources:** Advanced Class Origins pg 18\
 While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible
 price.
 

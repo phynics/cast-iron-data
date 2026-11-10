@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_sensitivity", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "64"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Knowledge (planes) 3 ranks."
 benefit = "You gain access to the gatefinder and gatekeeper skill unlocks (see below)."
 special = "Sentient outsiders who have one or more ranks in Knowledge (planes) and who lack the native subtype are treated as having this feat."
 +++
-
-**Sources:** Pathfinder \#105: The Inferno Gate pg 64
 
 You can sense and manipulate connections between the planes.\
 **Prerequisites:** Knowledge (planes) 3 ranks.\

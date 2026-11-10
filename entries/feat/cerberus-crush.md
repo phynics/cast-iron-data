@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberus_crush", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can apply the benefits of Vital Strike, Improved Vital Strike, an
 +++
 
 ## Cerberus Crush (Combat)
-
-**Sources:** Plane-Hopper's Handbook pg 9
 
 When you strike from three directions, you channel deadly force into each blow.\
 **Prerequisites:** [Cerberus Snare](ref/feat/cerberus-snare),

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choosing_a_spell", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 206
 
 First you must choose which spell to cast. If you're a cleric, druid, experienced paladin,
 experienced ranger, or wizard, you select from among spells prepared earlier in the day and not yet

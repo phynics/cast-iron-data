@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_cleric", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 59\
 **XP** 102,400\
 Elf [cleric](ref/class/cleric) of [Norgorber](ref/faith/norgorber) 18\
 NE Medium humanoid (elf)\

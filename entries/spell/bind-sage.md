@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planar-binding" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no and yes; see text
 Target: one caulborn
 Subschool: Calling
 :::
-
-**Sources:** Magic Tactics Toolbox pg 17
 
 This variant of planar binding is specifically used to call one of the most knowledgeable types of
 outsiders: the immortal and prophetic caulborn. This spell calls a single caulborn into a specially

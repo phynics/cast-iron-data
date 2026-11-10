@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_breath", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 28
 
 You expel a cone-shaped burst of toxic mist from your mouth, subjecting everyone caught in the area
 to a deadly poison, as per the poison spell.

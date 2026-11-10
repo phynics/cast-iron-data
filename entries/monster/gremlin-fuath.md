@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_fuath", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "142"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This waterlogged gremlin has lobster claws for hands and an almost canine face 
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 142\
 **Subtype:** Aquatic
 
 **Size:** tiny

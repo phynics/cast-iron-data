@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["High jump", "wholeness of body", "abundant step", "empty body", "th
 alters = ["Ki pool"]
 +++
 
-**Sources:** Horror Realms pg 12\
 Scarred monks find unique clarity in physical discomfort. For monks who seek the truth hidden in
 pain, the practice of mortifications of the flesh helps to achieve enlightenment and acquire
 disturbing powers. Those who worship [Zon-Kuthon](ref/faith/zon-kuthon) tend to be particularly

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruciarus", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "pathfinder-102-breaking-the-bones-of-hell"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ within its glaring eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#102: Breaking the Bones of Hell pg 84\
 **Subtype:** Incorporeal
 
 **Type:** undead

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_queen", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "110"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ brood._
 
 **Senses:** Darkvision 60 ft., Hive mind
 
-**Sources:** Bestiary 4 pg 110\
 **tremorsense:** 60
 
 **Experience points:** 102,400

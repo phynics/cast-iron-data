@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "25"
 
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Well-versed", "Inspire competence", "Suggestion", "Mass suggestion"]
 +++
 
-**Sources:** Ultimate Magic pg 25\
 An animal speaker focuses not on the ears and minds of humans, but on the creatures of the wild and
 those in the underbellies of cities.
 

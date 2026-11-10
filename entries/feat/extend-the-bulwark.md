@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extend_the_bulwark", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "6"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "If you are wearing medium or heavy armor and are adjacent to an ally 
 +++
 
 ## Extend the Bulwark (Combat, Teamwork)
-
-**Sources:** Magical Marketplace pg 6
 
 You can bolster a trained ally's defenses by interposing your own armored body.\
 **Benefit:** If you are wearing medium or heavy armor and are adjacent to an ally who also has this

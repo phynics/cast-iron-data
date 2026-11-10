@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_mantis_shrimp", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "232"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This brightly colored crustacean looks like a large lobster with cruel pincers 
 
 **Senses:** Darkvision 60 ft., Incredible sight
 
-**Sources:** Bestiary 5 pg 232\
 **Subtype:** Aquatic
 
 **Type:** vermin

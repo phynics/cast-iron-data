@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/summoner" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shield ally", "greater shield ally", "Maker's call", "transposition
 alters = ["Eidolon"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 16\
 Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm
 callers, who channel the elemental energies of the Plane of Air. Storm callers are most commonly
 encountered in areas where thunderstorms appear frequently, including supernaturally stormy places

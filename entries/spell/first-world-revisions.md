@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/ancestral-regression" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes (harmless)
 Target: willing wayang touched
 Subschool: Polymorph
 :::
-
-**Sources:** Blood of Shadows pg 11
 
 > _[Wayangs](ref/race/wayang) have access to the following spell. Because it draws on the wayangs'
 > unique physiology, spellcasters of other races cannot cast this spell._

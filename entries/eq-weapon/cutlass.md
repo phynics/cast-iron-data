@@ -6,15 +6,24 @@ source_ids = ["adventurers-armory-2", "pirates-of-the-inner-sea", "skull-and-sha
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutlass", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
+[[sources]]
+publication = "villain-codex"
+page = "188"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "4 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Pirates of the Inner Sea pg 19, Skull and Shackles Player's
-Guide pg 6, Villain Codex pg 188
 
 This short, curved sword is favored by seafarers for close-quarters combat. It is treated as a
 [scimitar](ref/eq-weapon/scimitar) for any effects that apply to scimitars.

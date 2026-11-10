@@ -6,6 +6,9 @@ source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorvorak", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ and green hide, and a muscular tail sways menacingly behind it._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#129: The Twilight Child pg 90\
 **Experience points:** 9,600
 
 **Armor class:** 24/10/22

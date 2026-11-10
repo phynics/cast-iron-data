@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lab_journal_of_constance_inflix", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "122"
 
 [fields]
 kind = "item"
@@ -18,8 +21,6 @@ _The steel cover of this slim journal has taken its fair share of abuse; acid sc
 spots show where the journal was subjected to intense working conditions. Equations, balances, and
 chemical notations mark the margins of the pages - with some formulae, it is difficult to tell where
 the notes end and the formula begins._
-
-**Sources:** Ultimate Magic pg 122
 
 **Value** 395 gp (770 gp with the preparation ritual)
 

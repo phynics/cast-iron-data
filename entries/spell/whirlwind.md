@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "369"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Effect: cyclone 10 ft. wide at base, 30 ft. wide at top, and 30 ft. tall
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 369
 
 This spell creates a powerful cyclone of raging wind that moves through the air, along the ground,
 or over water at a speed of 60 feet per round. You can concentrate on controlling the cyclone's

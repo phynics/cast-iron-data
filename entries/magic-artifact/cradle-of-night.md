@@ -6,6 +6,9 @@ source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cradle_of_night", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "cradle-of-night"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion [evil]"
 caster_level = "20th"
 +++
 
-**Sources:** Cradle of Night pg 57\
 **Aura** strong illusion \[evil\]; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 5 lbs.
 

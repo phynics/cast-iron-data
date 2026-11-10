@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawnlink", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "94"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As a full-round action, you can create a link with one of your spawn 
 +++
 
 ## Spawnlink (Monster)
-
-**Sources:** Horror Adventures pg 94
 
 You can see through the eyes of your spawned minions.\
 **Prerequisites:** Int 13, create spawn monster ability.\

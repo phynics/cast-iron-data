@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "236"
+[[sources]]
+publication = "core-rulebook"
+page = "21"
+[[sources]]
+publication = "advanced-race-guide"
+page = "10"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 236, PRPG Core Rulebook pg 21, Advanced Race Guide pg 10\
 Dwarves are a stoic but stern race, ensconced in cities carved from the hearts of mountains and
 fiercely determined to repel the depredations of savage races like orcs and goblins. More than any
 other race, dwarves have acquired a reputation as dour and humorless artisans of the earth. It could

@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angel", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Psychic Anthology pg 13\
 An [angel](ref/family/angel) is a servant of the good-aligned planes, a voice of unity and
 cooperation among celestial beings.
 

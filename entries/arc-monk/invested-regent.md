@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "22"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 1st level", "Bonus feat the invested regent gives up for the vested power"]
 +++
 
-**Sources:** Heroes of the High Court pg 22\
 The invested regent has been handpicked by inscrutable divine forces to command others - either at
 the present or at some future time. The invested regent can harness a divine spark to perform
 superhuman stunts, influence others, and escape injury. Invested regents come from all races and

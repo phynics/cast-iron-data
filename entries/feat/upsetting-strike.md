@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upsetting_strike", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Upsetting Shield Style, if a foe is taking a pena
 +++
 
 ## Upsetting Strike (Combat)
-
-**Sources:** Armor Master's Handbook pg 13
 
 You can turn the tables on disoriented opponents.\
 **Prerequisites:** Dex 15, [Combat Reflexes](ref/feat/combat-reflexes),

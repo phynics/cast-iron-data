@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_counterspells", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "168"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 168, PRPG Core Rulebook pg 479\
 **Aura** moderate evocation; **CL** 11th\
 **Slot** ring; **Price** 4,000 gp; **Weight** -
 

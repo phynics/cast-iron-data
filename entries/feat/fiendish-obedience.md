@@ -6,14 +6,15 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_obedience", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "178"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (religion) 3 ranks; must worship a fiendish deity, demigod, or quasi deity."
 benefit = "Each fiend requires a different daily obedience, but all obediences take no more than 1 hour per day to perform. You can combine the ritual of obedience with the time needed to prepare your spellcasting for the day. Once you've performed an obedience, you gain the benefit of a special ability or defense as indicated in the \"Obedience\" entry for the fiend to whom you performed the obedience."
 +++
-
-**Sources:** Book of the Damned pg 178
 
 Your devotion to a fiendish patron (be it a deity, demigod, or quasi deity) is so great that daily
 prayer and minor sacrifices grant you special boons.\

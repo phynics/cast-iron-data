@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_winds", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Descriptors: air
 :::
-
-**Sources:** Advanced Player's Guide pg 211
 
 You shroud a creature in a whirling screen of strong, howling wind. The subject is never checked or
 blown away by strong winds of windstorm or lesser strength (whether natural or magically created),

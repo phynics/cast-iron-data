@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blot", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Area: 10 ft.-radius burst
 :::
-
-**Sources:** Goblins of Golarion pg 28
 
 This spell reduces all types of writing and other recognizable symbols found on any sort of surface
 within range into illegible smears. It affects books, carvings on stone, or even tattoos with equal

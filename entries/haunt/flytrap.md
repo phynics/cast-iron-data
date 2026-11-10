@@ -6,12 +6,13 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flytrap", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#144: Midwives to Death pg 65
 
 **Flytrap**
 

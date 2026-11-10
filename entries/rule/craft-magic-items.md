@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_magic_items", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 84
 
 The Core Rulebook details how to [craft magic items](ref/rule/craft-magic-items). As magic item
 crafting and the downtime rules both use days as time increments for all but the cheapest potions

@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traitorous_blaster", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Champions of Balance pg 29\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 7,050 gp; **Weight** 5 lbs.
 

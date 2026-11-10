@@ -6,13 +6,14 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorico", path = "json/class_ability_druid_companions.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "83"
 
 [fields]
 kind = "class_option"
 group = "animal-companion"
 +++
-
-**Sources:** Pathfinder \#85: Fires of Creation pg 83
 
 **Companion Type**
 

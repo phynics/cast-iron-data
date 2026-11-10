@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowfire_creature", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "157"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Inherited:** present
-
-**Source:** The Emerald Spire Superdungeon/157
 
 Created through rituals that suffused elemental fire with the dark corruption of shadow, shadowfire
 creatures were spawned from an evil cult. Cruelly transformed from their true forms by their ancient

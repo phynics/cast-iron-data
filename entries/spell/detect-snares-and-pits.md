@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_snares_and_pits", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "268"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 268
 
 You can detect simple pits, deadfalls, and snares as well as mechanical traps constructed of natural
 materials. The spell does not detect complex traps, including trapdoor traps.

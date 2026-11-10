@@ -6,6 +6,9 @@ source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proto_shoggoth", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-112-the-whisper-out-of-time"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ form and dissolve over this monster's surface._
 
 **Senses:** All-around vision, Low-light vision
 
-**Sources:** Pathfinder \#112: The Whisper Out of Time pg 90\
 **tremorsense:** 60
 
 **Experience points:** 12,800

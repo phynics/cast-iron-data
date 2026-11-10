@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_barreled_pistol", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "139"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 139
 
 This pistol has two parallel barrels; each barrel can be fired independently as separate attacks, or
 both can be fired at once as a standard action (the attack action). If both barrels are shot at

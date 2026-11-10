@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mosquito_giant_mosquito", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "1933"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _A bloated, red belly dangles beneath the furiously beating wings of this massiv
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 2 pg 1933\
 **Type:** vermin
 
 **Experience points:** 2,400

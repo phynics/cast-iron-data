@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_rock_troll", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "272"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ underbite holds large, crystalline teeth._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 2 pg 272\
 **Subtype:** Earth, Giant
 
 **Experience points:** 2,400

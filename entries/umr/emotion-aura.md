@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotion_aura", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "292"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Emotion Aura (Su)
 
-**Sources:** Bestiary 5 pg 292\
 A creature with this ability surrounds itself with an area of swirling, chaotic emotions. These
 emotions make it difficult for spellcasters to cast spells with the
 [emotion component](ref/rule/components-oa). Living creatures within 30 feet must succeed at a

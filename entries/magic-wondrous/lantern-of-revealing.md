@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_of_revealing", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "307"
+[[sources]]
+publication = "core-rulebook"
+page = "522"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 307, PRPG Core Rulebook pg 522\
 **Aura** faint evocation; **CL** 5th\
 **Slot** none; **Price** 30,000 gp; **Weight** 2 lbs.
 

@@ -6,14 +6,15 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Martial Arts Handbook pg 30
 
 This long, heavy spear has a point at each end, allowing it to be used as a double weapon.
 

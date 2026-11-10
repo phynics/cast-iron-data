@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide", "pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flag_personal_signal_small", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "293"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "3 lbs."
 
 ## Flag
 
-**Sources:** Inner Sea World Guide pg 293\
 **Price** 10 gp; **Weight** 3 lbs.\
 **Category** Adventuring Gear
 

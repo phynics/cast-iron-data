@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_adhukait", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "21"
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ with their twin curved knives._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 21, Pathfinder \#28: The Infernal Syndrome pg 82\
 **Subtype:** Asura, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

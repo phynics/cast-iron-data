@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stamina_and_combat_tricks", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 112
 
 While magic deals with complex formulae, precise manipulation of components, and intense
 concentration, martial acumen often relies on seizing opportunities and pushing the body and the

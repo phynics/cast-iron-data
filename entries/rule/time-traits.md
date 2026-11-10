@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_traits", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 185
 
 The rate at which time passes can vary on different planes, though it remains constant within any
 particular plane. Time is always subjective for the viewer. The same subjectivity applies to various

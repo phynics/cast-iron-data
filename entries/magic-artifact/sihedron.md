@@ -6,6 +6,12 @@ source_ids = ["pathfinder-137-the-city-outside-of-time", "pathfinder-66-the-dead
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sihedron", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "71"
+[[sources]]
+publication = "pathfinder-66-the-dead-heart-of-xin"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "overwhelming (all schools)"
 caster_level = "25th"
 +++
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 71, Pathfinder \#66: The Dead Heart of
-Xin pg 59\
 **Aura** overwhelming (all schools); **CL** 25th\
 **Slot** none; **Price** -; **Weight** 7 lbs.
 

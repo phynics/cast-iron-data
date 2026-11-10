@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_traps", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 172
 
 Skilled survivalists and trappers are adept at fashioning effective, if simple, traps from humble
 materials. A wilderness trap has an associated terrain wherein the raw materials for the trap are

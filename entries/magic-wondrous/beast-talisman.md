@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_talisman", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** People of the Wastes pg 30\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** neck; **Price** 18,900 gp; **Weight** -
 

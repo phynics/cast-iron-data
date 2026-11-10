@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "175"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Swift tracker", "Camouflage"]
 alters = ["Wild empathy", "Hunter's bond", "Spellcasting"]
 +++
 
-**Sources:** Adventurer's Guide pg 175\
 While the [Silver Ravens](ref/rule/aff-rebels) adopted their name as a way to honor the group of
 adventurers who defended Kintargo during the Chelish Civil War, some Silver Ravens have gone even
 farther, breeding and training actual ravens to serve both as living symbols of the organization and

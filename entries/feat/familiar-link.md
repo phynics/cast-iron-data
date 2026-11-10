@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/coven-touched", label = "or" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "13"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You share an empathic link with the familiars of all other witches in
 +++
 
 ## Familiar Link (Coven, Teamwork)
-
-**Sources:** Blood of the Coven pg 13
 
 Within your coven, you have formed a bond with your fellow witches' familiars.\
 **Prerequisites:** [Coven](ref/hex/coven) hex or [Coven-Touched](ref/feat/coven-touched), familiar

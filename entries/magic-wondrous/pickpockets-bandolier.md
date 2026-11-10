@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pickpockets_bandolier", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Heroes of the Streets pg 15\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** chest; **Price** 12,500 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akitonian_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 24\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 8,311 gp; **Weight** 2 lbs.
 

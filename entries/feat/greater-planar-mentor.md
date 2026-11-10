@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_planar_mentor", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "26"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Improved Planar Mentor, Planar Mentor, character level 13th."
 prerequisite_feats = ["ref/feat/improved-planar-mentor", "ref/feat/planar-mentor"]
 benefit = "You can benefit from your Planar Mentor feat one additional time per day. You add the following to the list of spell-like abilities you can cast using Improved Planar Mentor for their respective alignments, each of which affects only a single target within 30 feet: blasphemy (evil), dictum (lawful), holy word (good), slay living (neutral), and word of chaos (chaotic)."
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 26
 
 Your mentor begins to look upon you as an equal and can even answer your call.\
 **Prerequisites:** [Improved Planar Mentor](ref/feat/improved-planar-mentor),

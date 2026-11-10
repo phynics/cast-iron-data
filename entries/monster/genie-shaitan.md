@@ -6,6 +6,12 @@ source_ids = ["bestiary", "pathfinder-18-descent-into-midnight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_shaitan", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "143"
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ _This being resembles a towering human with skin of polished stone and glitterin
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 143, Pathfinder \#18: Descent into Midnight pg 86\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 60

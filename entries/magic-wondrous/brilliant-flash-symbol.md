@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_flash_symbol", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "219"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Horror Adventures pg 219\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** none; **Price** 1,600 gp; **Weight** 1/2 lb.
 

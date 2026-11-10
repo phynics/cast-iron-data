@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gambling_and_skill_checks", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 240
 
 There is a reason you don't see the word "Gambling" in the Pathfinder RPG skill list, and that's
 because gambling is not a skill. With the exception of mislabeled skill games such as poker, a

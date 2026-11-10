@@ -6,12 +6,13 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "researching_contracts", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "203"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Book of the Damned pg 203
 
 An infernal contract is a baffling linguistic labyrinth, rife with eons-old legalese, otherworldly
 citations, and near-endless clauses and counter-clauses. One might consist of single scroll covered

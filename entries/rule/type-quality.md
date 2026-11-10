@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "type_quality", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 215
 
 This is the race's creature type. A race's creature type is similar to the corresponding creature
 type found in a monster's entry, with a few important differences. The first difference is that each

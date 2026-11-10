@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiral_ascent", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes (object)
 Target: you and touched objects
 Subschool: Teleportation
 :::
-
-**Sources:** Inner Sea Temples pg 43
 
 You transform yourself into a helical beam of divine energy that instantly transports you upward to
 a spot within range. The destination must be a square in the spell's range that's within 10 feet of

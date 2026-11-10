@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyena_shawl", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and necromancy"
 caster_level = "8th"
 +++
 
-**Sources:** Monster Codex pg 93\
 **Aura** moderate abjuration and necromancy; **CL** 8th\
 **Slot** head; **Price** 11,000 gp; **Weight** -
 

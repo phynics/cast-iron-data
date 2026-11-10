@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic", "advanced-players-guide", "chronicle-of-legends"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magus", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "9"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** Ultimate Magic pg 9
 
 There are those who spend their lives poring over ancient tomes and texts, unlocking the power of
 magic, and there are those who spend their time perfecting the use of individual weapons, becoming

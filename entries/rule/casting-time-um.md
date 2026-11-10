@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casting_time_um", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 132
 
 Almost all spells meant to be cast in combat should have a casting time of 1 standard action. Avoid
 the temptation to invent spells with a casting time of 1 move action, 1 swift action, or 1 immediate

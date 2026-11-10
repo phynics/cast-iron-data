@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_cackling_wrath", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "195"
+[[sources]]
+publication = "advanced-players-guide"
+page = "296"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate varies"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 195, Advanced Player's Guide pg 296\
 **Aura** moderate varies; **CL** 9th\
 **Slot** none; **Price** 56,700 gp; **Weight** 5 lbs.
 

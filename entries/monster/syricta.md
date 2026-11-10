@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syricta", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "239"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ while the other is two snake heads._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 5 pg 239\
 **Experience points:** 19,200
 
 **Armor class:** 29/11/27

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-65-into-the-nightmare-rift", "pathfinder-46-wake-of-th
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nyarlathotep_faceless_sphinx", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-65-into-the-nightmare-rift"
+page = "41"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nyarlathotep**
 
 **Sub:** Faceless Sphinx
-
-**Sources:** Pathfinder \#65: Into the Nightmare Rift pg 41
 
 ### Details
 

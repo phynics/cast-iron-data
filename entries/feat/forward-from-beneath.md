@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forward_from_beneath", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "78"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Your experience with infiltrating your own family or organization giv
 +++
 
 ## Forward from Beneath (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 78
 
 You have vowed to infiltrate your wicked kin and redeem your family's reputation.\
 **Prerequisites:** Be a member of House Kastner, be a good-aligned member of a family or

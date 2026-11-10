@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "134"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
 +++
 
-**Sources:** Advanced Player's Guide pg 134\
 Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows
 and then strikes from a distance without remorse. Snipers, of course, understand that such
 protestations about "cowardice" and "honor" regarding their profession are in fact merely the

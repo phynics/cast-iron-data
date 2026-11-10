@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hathor", path = "json/faiths4.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "68"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Hathor**
 
 **Sub:** Mistress of Jubilation
-
-**Sources:** Pathfinder \#80: Empty Graves pg 68
 
 ### Details
 

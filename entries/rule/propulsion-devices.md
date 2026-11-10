@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "propulsion_devices", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 176
 
 Squares of propulsion devices have their own statistics, separate from the vehicle's. Use the
 following rules to determine those statistics.

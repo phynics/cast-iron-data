@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "writhing_armor", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 23\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** armor; **Price** 9,480 gp; **Weight** 5 lbs.
 

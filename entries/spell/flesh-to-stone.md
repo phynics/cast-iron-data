@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_to_stone", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "284"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 284
 
 The subject, along with all its carried gear, turns into a mindless, inert statue. If the statue
 resulting from this spell is broken or damaged, the subject (if ever returned to its original state)

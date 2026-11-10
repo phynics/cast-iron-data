@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petrified", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "568"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 568
 
 **Petrified:** A petrified character has been turned to stone and is considered unconscious. If a
 petrified character cracks or breaks, but the broken pieces are joined with the body as he returns

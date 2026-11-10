@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweeping_dodge", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a dueling dodge while wearing a cloak, you gain evasion
 +++
 
 ## Sweeping Dodge (Combat)
-
-**Sources:** People of the River pg 12
 
 A quick sweep of your cloak deflects an incoming attack.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge).\

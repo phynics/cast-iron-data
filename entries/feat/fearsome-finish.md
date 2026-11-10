@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_finish", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "212"
+[[sources]]
+publication = "faiths-of-corruption"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "Upon reducing an enemy to 0 or fewer hit points, for the remaining du
 +++
 
 ## Fearsome Finish (Combat)
-
-**Sources:** Inner Sea Gods pg 212, Faiths of Corruption pg 24
 
 When you slay enemies, you frighten other opponents.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess), worshiper of

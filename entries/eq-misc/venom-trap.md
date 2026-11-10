@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venom_trap", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "300 gp"
 weight = "10 lbs."
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 21\
 **Price** 300 gp; **Weight** 10 lbs.\
 **Category** Adventuring Gear
 

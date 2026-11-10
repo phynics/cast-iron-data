@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zoic_of_the_primeval", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment (compulsion)"
 caster_level = "17th"
 +++
 
-**Sources:** Lost Treasures pg 63\
 **Aura** strong enchantment (compulsion); **CL** 17th\
 **Slot** neck; **Price** 50,000 gp; **Weight** 1 lb.
 

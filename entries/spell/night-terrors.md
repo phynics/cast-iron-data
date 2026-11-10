@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_terrors", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "123"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: intelligent creature touched
 Subschool: Phantasm
 Descriptors: emotion, evil, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 123
 
 The target of this spell gains no benefit from normal or magical sleep, writhing in a series of
 nightmares that torture its psyche and diminish its ability to perform strenuous tasks. The target

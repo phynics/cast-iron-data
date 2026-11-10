@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surcease_of_sorrows", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "91"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming all"
 caster_level = "27th"
 +++
 
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 91\
 **Aura** overwhelming all; **CL** 27th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

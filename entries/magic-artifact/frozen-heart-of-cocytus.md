@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frozen_heart_of_cocytus", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "164"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Mythic Adventures pg 164\
 **Aura** strong divination; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

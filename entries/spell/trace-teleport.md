@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trace_teleport", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "226"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Area: 40-ft.-radius emanation centered on you
 :::
-
-**Sources:** Ultimate Intrigue pg 226
 
 You immediately become aware of any teleportation effects that begin or end within the spell's area.
 The spell's area radiates from you and moves as you move. You know the exact origin point of any

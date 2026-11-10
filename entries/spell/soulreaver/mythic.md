@@ -6,12 +6,14 @@ source_ids = ["mythic-origins"]
 relations = [
   { kind = "addon", target = "ref/spell/soulreaver", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "15"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Origins pg 15\
 You can expend one use of mythic power to raise creatures killed by this effect as undead thralls.
 You can animate a number of Hit Dice worth of undead up to double your tier as if you had animated
 them with [animate dead](ref/spell/animate-dead). The undead created by this spell count toward the

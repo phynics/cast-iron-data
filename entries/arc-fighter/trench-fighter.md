@@ -9,13 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "67"
 
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1, 2, 3, and 4"]
 +++
-
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 67
 
 Advances in technology have made archaic armors obsolete by the twentieth century, and modern
 soldiers concentrate training on firearms and swift feet.

@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_fangs", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "432"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 432, Pathfinder \#12: Crown of Fangs pg 64\
 **Aura** strong enchantment, illusion, and necromancy; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 4 lbs.
 

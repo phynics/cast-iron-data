@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nereid", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "198"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ diaphanous, wet shawl._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 198\
 **Subtype:** Water
 
 **Experience points:** 9,600

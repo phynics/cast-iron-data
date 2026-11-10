@@ -6,6 +6,9 @@ source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caltrop_bead_cold_iron", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "7th"
 
 ## Caltrop Bead
 
-**Sources:** Demon Hunter's Handbook pg 28\
 **Aura** faint conjuration; **CL** 7th\
 **Slot** none; **Price** 40 gp (Iron), 80 gp (Cold Iron); **Weight** 2 lbs.
 

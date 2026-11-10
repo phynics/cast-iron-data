@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lithomancy_stones", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "260"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Occult Adventures pg 260\
 **Aura** moderate divination; **CL** 7th\
 **Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.
 

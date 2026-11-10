@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_elemental_counterspell", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Two basic blast wild talents from two different elements, expan
 benefit = "You can use a readied kinetic blast to counterspell any spell of equal or lower level, provided that the target spell has any of the following descriptors: air, cold, darkness, earth, electricity, fire, force, light, or water."
 normal = "A readied kinetic blast can be used to counterspell spells that share its descriptor."
 +++
-
-**Sources:** Elemental Master's Handbook pg 23
 
 You can charge your kinetic blast with disruptive elemental energy that tears apart elemental
 spells.\

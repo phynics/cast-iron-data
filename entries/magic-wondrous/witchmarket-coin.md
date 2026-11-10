@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchmarket_coin", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Lost Treasures pg 61\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 8,100 gp; **Weight** -
 

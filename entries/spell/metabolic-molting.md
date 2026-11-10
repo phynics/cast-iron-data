@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metabolic_molting", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: willing creature or dead body touched
 :::
-
-**Sources:** Blood of the Beast pg 19
 
 > _The following spell is the result of generations of [nagaji](ref/race/nagaji) tradition, but
 > spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them

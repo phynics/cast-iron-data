@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gelugon_plate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "97"
+[[sources]]
+publication = "inner-sea-combat"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Adventurer's Guide pg 97, Inner Sea Combat pg 51\
 **Aura** moderate conjuration and transmutation; **CL** 7th\
 **Slot** armor; **Price** 60,950 gp; **Weight** 50 lbs.
 

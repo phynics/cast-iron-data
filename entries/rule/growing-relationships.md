@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "growing_relationships", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "177"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 177
 
 You can change your Relationship Score with an NPC in the following ways.
 

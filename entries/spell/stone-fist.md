@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_fist", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: you
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 247
 
 This spell transforms your hands into living stone. While this spell is in effect, your unarmed
 strikes do not provoke attacks of opportunity and deal 1d6 points of lethal bludgeoning damage (1d4

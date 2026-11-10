@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "track_ship", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (object)
 Effect: magical icon
 Subschool: Scrying
 :::
-
-**Sources:** Pirates of the Inner Sea pg 29
 
 In order to cast this spell, you must have a piece of the ship you wish to track. Merchants often
 preserve slivers from their trade ships specifically for this purpose. You also need a nautical

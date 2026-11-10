@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/quick-reposition", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "129"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 129\
 You can select this feat even if you don't meet the ability score prerequisite (Intelligence 13).
 You gain the benefits of this feat only as long as you have at least 1 stamina point in your stamina
 pool. You can spend 2 stamina points to change an attack that does not have your highest base attack

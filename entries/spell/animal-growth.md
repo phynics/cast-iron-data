@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_growth", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one animal (Gargantuan or smaller)
 :::
-
-**Sources:** PRPG Core Rulebook pg 240
 
 The target animal grows to twice its normal size and eight times its normal weight. This alteration
 changes the animal's size category to the next largest, grants it a +8 size bonus to Strength and a

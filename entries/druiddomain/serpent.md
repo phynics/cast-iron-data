@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "35"
 
 [fields]
 kind = "class_option"
@@ -14,8 +17,6 @@ replaces = ["Venom immunity"]
 +++
 
 ## Serpent Domain
-
-**Sources:** Ultimate Magic pg 35
 
 **Granted Powers:** You serve ancient serpentine mysteries whose coils still encircle the world.
 

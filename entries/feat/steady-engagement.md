@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steady_engagement", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "216"
+[[sources]]
+publication = "faiths-of-balance"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "If you use Stand Still to prevent an opponent from moving, you may ma
 +++
 
 ## Steady Engagement (Combat)
-
-**Sources:** Inner Sea Gods pg 216, Faiths of Balance pg 24
 
 You can draw on your excellent balance to trip or disarm opponents when they try to disengage.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes), [Stand Still](ref/feat/stand-still),

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ideas_for_mythic_adventures", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 135
 
 Creating an adventure that feels mythic can be a daunting task, as there are a lot of factors to
 consider. The following ideas give you something to work with when designing your campaign. Each

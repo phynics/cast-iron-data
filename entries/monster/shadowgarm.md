@@ -6,6 +6,9 @@ source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowgarm", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ writhing form makes it difficult to identify from a distance._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#25: The Bastards of Erebus pg 80\
 **Subtype:** Extraplanar
 
 **Experience points:** 600

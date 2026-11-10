@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brazen_egg", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "335"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "overwhelming conjuration"
 caster_level = "25th"
 +++
-
-**Sources:** Ultimate Equipment pg 335
 
 **Aura** overwhelming conjuration; **CL** 25th\
 **Slot** none; **Price** -; **Weight** 2 tons

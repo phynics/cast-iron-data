@@ -6,6 +6,21 @@ source_ids = ["ultimate-equipment", "core-rulebook", "andoran-spirit-of-liberty"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feather_token_anchor", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "297"
+[[sources]]
+publication = "core-rulebook"
+page = "512"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "26"
+[[sources]]
+publication = "inner-sea-combat"
+page = "59"
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "24"
 
 [fields]
 kind = "item"
@@ -19,8 +34,6 @@ caster_level = "varies"
 
 ## Feather Tokens
 
-**Sources:** Ultimate Equipment pg 297, PRPG Core Rulebook pg 512, Andoran, Spirit of Liberty pg 26,
-Inner Sea Combat pg 59, Pathfinder Society Primer pg 24\
 **Aura** varies; **CL** varies\
 **Slot** -; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp
 (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp

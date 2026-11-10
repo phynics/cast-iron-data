@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antimagic_field", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: see text
 Area: 10-ft.-radius emanation, centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 242
 
 An invisible barrier surrounds you and moves with you. The space within this barrier is impervious
 to most magical effects, including spells, [spell-like abilities](ref/umr/spell-like-abilities), and

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscure_poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Target: one dose of poison or one venomous creature touched
 :::
-
-**Sources:** Ultimate Intrigue pg 220
 
 You make the touched poison difficult to detect or identify. Detect poison and similar effects
 detect an obscured poison only with a successful caster level check against a DC equal to 15 + your

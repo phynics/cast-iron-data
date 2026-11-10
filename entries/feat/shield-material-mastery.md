@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_material_mastery", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use the ability granted by Shield Material Expertise two addi
 +++
 
 ## Shield Material Mastery (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 Your extraordinary understanding of the special materials from which your shield is made lets you
 take advantage of it more often.\

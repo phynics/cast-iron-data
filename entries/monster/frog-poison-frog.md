@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frog_poison_frog", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "135"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This small frog is bright green and red, with electric-blue stripes on its hind
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 135\
 **Size:** tiny
 
 **Experience points:** 200

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draghignazzo", path = "json/faiths3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "326"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Draghignazzo**
 
 **Sub:** Devil-Dragon of Devastation
-
-**Sources:** Inner Sea Gods pg 326
 
 ### Details
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crimson_breath", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "160"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Saving throw: Fortitude negates
 Spell resistance: no
 Target: one creature
 :::
-
-**Sources:** Adventurer's Guide pg 160
 
 When you cast this spell, your salivary glands transform and instantly fill with potent venom. Make
 a ranged touch attack against a single target in range; if you hit, the target is affected by a dose

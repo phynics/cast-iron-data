@@ -6,14 +6,15 @@ source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inferno_pistol", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-85-fires-of-creation"
+page = "60"
 
 [fields]
 kind = "item"
 category = "Technological Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Pathfinder \#85: Fires of Creation pg 60
 
 **Cost** 5,000 gp\
 **Type** one-handed ranged; **Proficiency** exotic (firearms); **Weight** 2 lbs.\

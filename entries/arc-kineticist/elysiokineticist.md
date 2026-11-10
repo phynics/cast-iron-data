@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "18"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expanded element", "Basic phytokinesis utility wild talent granted 
 alters = ["Elemental focus"]
 +++
 
-**Sources:** People of the Wastes pg 18\
 Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their
 abilities to the riotous wilderness of the plane known as Elysium. Many such kineticists vow to
 fight against evil planar intrusions into the Material Plane, particularly the Worldwound.

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit animal", "Wandering spirit", "wandering hex", "8th-level hex"]
 +++
 
-**Sources:** Occult Origins pg 23\
 Members in good standing who have risen to a prestigious rank within the Esoteric Order of the
 Palatine Eye, true silvered thrones have managed to discover rituals and occult secrets within the
 lore of their order. They are scholars of ancient mysteries and keepers of forbidden secrets who go

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ocean_giant", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "127"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This blue-skinned giant's clothing and beard whip about like sails caught in a 
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 4 pg 127\
 **Subtype:** Aquatic, Giant
 
 **Experience points:** 38,400

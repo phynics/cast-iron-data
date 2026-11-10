@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_doll", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Watchful Doll (CR 1):** These porcelain dolls resemble young children, and stare forward with
 blank, glassy expressions on their stylized yet eerily lifelike faces. Whenever a creature moves

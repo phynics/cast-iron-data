@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volume_and_style", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "29"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 29
 
 Stage presence is as important to GMing as dice. Though many GMs hide behind their screens and only
 venture out to move minis, others are animated, gesturing and using strange accents to demand

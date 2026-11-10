@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "action_types_and_subtypes", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 102
 
 This section describes the various actions in the game, their costs within this system, and new
 rules on how each one works.

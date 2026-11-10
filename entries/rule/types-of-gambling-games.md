@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "types_of_gambling_games", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "240"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 240
 
 There are thousands of gambling games, but all of them fall into a few basic categories or types.
 Many games combine elements of these types. Different players like different kinds of games, so it's

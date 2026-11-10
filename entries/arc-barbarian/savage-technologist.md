@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "13"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Uncanny Dodge", "Improved Uncanny Dodge"]
 alters = ["Rage"]
 +++
 
-**Sources:** Technology Guide pg 13\
 Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But
 rather than rejecting technology, they wield the League's own weapons against it. A savage
 technologist has the following class features.

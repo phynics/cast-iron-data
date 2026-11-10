@@ -6,12 +6,16 @@ source_ids = ["core-rulebook", "heroes-of-the-wild", "aquatic-adventures", "occu
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survival", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "107"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "8"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 107, Heroes of the Wild pg 8
 
 **Associated Skill**
 

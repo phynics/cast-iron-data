@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parchment_swarm", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "180"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Reflex half, see text
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** Occult Adventures pg 180
 
 When you cast this spell, you quickly tear a parchment into shreds, releasing the flying fragments
 to swarm around a target creature and deliver thousands of tiny paper cuts. Using normal parchment,

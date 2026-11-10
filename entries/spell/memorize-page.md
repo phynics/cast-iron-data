@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memorize_page", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 Target: one living creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 187
 
 The target gains a perfect memory of the page you used as a focus component. The target can
 visualize this page as easily as looking at it in person, including minute details visible to close

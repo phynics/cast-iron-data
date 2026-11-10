@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harp_of_charming", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "301"
+[[sources]]
+publication = "core-rulebook"
+page = "516"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 301, PRPG Core Rulebook pg 516\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** none; **Price** 7,500 gp; **Weight** 5 lbs.
 

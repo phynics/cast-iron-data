@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_cosmologies", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 86
 
 The Pathfinder RPG assumes a cosmology centered on the Great Beyond, a concept that not only
 contextualizes the alignment system, the functionality of certain spells (such as

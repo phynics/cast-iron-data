@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizardmarked_blade", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Magical Marketplace pg 15\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** none; **Price** 15,715 gp; **Weight** 3 lbs.
 

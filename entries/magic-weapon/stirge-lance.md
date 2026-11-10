@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stirge_lance", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Spymaster's Handbook pg 31\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 8,500 gp; **Weight** -
 

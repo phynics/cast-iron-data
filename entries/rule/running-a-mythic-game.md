@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_a_mythic_game", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 118
 
 Running a mythic game has many similarities to running other games. The PCs still go on adventures,
 fight monsters, discover treasure, and gain experience. The difference is that mythic games have an

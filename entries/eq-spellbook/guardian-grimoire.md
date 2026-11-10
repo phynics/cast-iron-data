@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_grimoire", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "125"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _These three well-made books are covered with [runes of warding](ref/spell/rune-of-warding) against
 outsiders and undead. The pages inside show water damage along the edges._
-
-**Sources:** Ultimate Magic pg 125
 
 **Opposition** Illusion, necromancy\
 **Protection** Explosive runes (Reflex DC 16) and fire trap (Reflex DC 17)\

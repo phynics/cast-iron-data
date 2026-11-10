@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_charming", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "195"
+[[sources]]
+publication = "core-rulebook"
+page = "492"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 195, PRPG Core Rulebook pg 492\
 **Aura** moderate enchantment; **CL** 8th\
 **Slot** none; **Price** 17,600 gp; **Weight** 5 lbs.
 

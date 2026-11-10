@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_cultist_troop", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "266"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _A band of violet-skinned elves raises their hands high as vile magic swirls in 
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Bestiary 6 pg 266\
 **Subtype:** Elf, Troop
 
 **Experience points:** 12,800

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/tireless-pursuit" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -43,7 +46,5 @@ Target: you
 :::
 
 ### Tireless Pursuers
-
-**Sources:** Advanced Player's Guide pg 249
 
 This spell functions as [tireless pursuit](ref/spell/tireless-pursuit), except as noted above.

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sisterhood_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style and wielding a longsword and either a light or
 +++
 
 ## Sisterhood Style (Combat, Style)
-
-**Sources:** Adventurer's Guide pg 86
 
 The [Gray Maidens](ref/rule/aff-scarred-ladies) are more than just soldiers - they drill
 relentlessly to fight as a team and to protect their bodies and minds. A Gray Maiden using the

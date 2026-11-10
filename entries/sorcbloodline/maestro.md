@@ -6,13 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maestro", path = "json/class_ability_sorcerer_bloodlines.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "67"
 
 [fields]
 kind = "class_option"
 group = "sorcerer-bloodline"
 +++
 
-**Sources:** Ultimate Magic pg 67\
 The spiritual power of art and song runs strongly through your family line. This may be the result
 of ancient pacts made with [azata](ref/family/azata) patrons, or even an inheritance from a lillend
 or trumpet [archon](ref/family/archon) ancestor. It could also be the lingering taint of a less

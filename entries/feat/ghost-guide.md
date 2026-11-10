@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_guide", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "87"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you communicate with a ghost or haunt, whether while adventu
 +++
 
 ## Ghost Guide (Story)
-
-**Sources:** Horror Adventures pg 87
 
 You have made it your life's work to put the dead to rest.\
 **Prerequisites:** You have encountered a ghost or haunt.\

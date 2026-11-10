@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fan_of_autumn", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Sources:** Heroes of the Wild pg 28\
 **Aura** faint illusion; **CL** 3rd\
 **Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
 

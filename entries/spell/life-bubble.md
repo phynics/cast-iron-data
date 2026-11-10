@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_bubble", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creatures touched, up to one/level
 :::
-
-**Sources:** Advanced Player's Guide pg 230
 
 You surround the touched creatures with a constant and moveable 1-inch shell of tolerable living
 conditions. This shell enables the subjects to breathe freely, even underwater or in a vacuum, as

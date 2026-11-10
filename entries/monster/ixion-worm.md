@@ -6,6 +6,9 @@ source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ixion_worm", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-106-for-queen-and-empire"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel o
 
 **Senses:** Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Pathfinder \#106: For Queen and Empire pg 90\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 25,600

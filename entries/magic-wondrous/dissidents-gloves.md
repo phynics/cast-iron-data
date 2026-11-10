@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissidents_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Sources:** Black Markets pg 23\
 **Aura** faint evocation; **CL** 1st\
 **Slot** hands; **Price** 1,200 gp; **Weight** 1 lb.
 

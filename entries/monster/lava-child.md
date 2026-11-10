@@ -6,6 +6,9 @@ source_ids = ["misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_child", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "43"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of a fanged and insane human baby, and its mouth opens far wider than it should.
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Misfit Monsters Redeemed pg 43\
 **Subtype:** Earth, Fire
 
 **tremorsense:** 30

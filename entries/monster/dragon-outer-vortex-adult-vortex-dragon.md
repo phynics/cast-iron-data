@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_outer_vortex_adult_vortex_dragon", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "74"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["27", "12", "21", "20", "19", "20"]
 
 **Senses:** Dragon senses, See in darkness
 
-**Sources:** Bestiary 4 pg 74\
 **Subtype:** Fire
 
 **Experience points:** 38,400

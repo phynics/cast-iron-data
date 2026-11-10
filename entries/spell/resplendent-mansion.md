@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resplendent_mansion", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Effect: opulent mansion, up to 300 feet on a side and one story tall/4 levels
 Subschool: Creation
 :::
-
-**Sources:** Ultimate Intrigue pg 224
 
 This spell creates a towering mansion. While casting the spell, you hold an image of the mansion and
 its desired appearance in your mind. The mansion can contain as many or as few rooms as you desire,

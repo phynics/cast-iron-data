@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tew_ammunition", path = "json/rules_adv_gm05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 141
 
 ### Table 3-11: Ammunition Special Abilities
 

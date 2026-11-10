@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desnas_coin", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Antihero's Handbook pg 30\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 8,000 gp; **Weight** -
 

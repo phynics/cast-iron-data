@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "midnight_dancer", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 237\
 **XP** 19,200\
 Half-orc [bard](ref/class/bard) 9/shadowdancer 4\
 NE Medium humanoid (human, orc)\

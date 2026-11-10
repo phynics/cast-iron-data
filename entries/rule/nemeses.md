@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nemeses", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "136"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 136
 
 Over the course of their adventuring careers, player characters face many obstacles and enemies.
 Only a true nemesis, though, continually tests the PCs, seeking to foil them at every turn. Whether

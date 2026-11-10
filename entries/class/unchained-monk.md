@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_monk", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "14"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "unchained"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Pathfinder Unchained pg 14
 
 Physical and mental perfection: that is the life goal of every monk. For these skilled warriors,
 martial prowess and mental clarity are one and the same. Capable of pummeling foes with both fist

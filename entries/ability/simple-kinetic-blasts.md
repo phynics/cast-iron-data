@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simple_kinetic_blasts", path = "json/class_abilities3.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "15"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Simple Kinetic Blasts
 
-**Sources:** Occult Adventures pg 15\
 A kineticist gains a simple blast from her primary element at 1st level. Some elements offer more
 than one option. When a kineticist gains a new element via the expanded element class feature, she
 gains a simple blast from that element as well. Each simple blast is either a physical blast or an

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythopoeic_sphinx", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 63\
 **Aura** moderate divination; **CL** 11th\
 **Slot** none; **Price** 13,000 gp; **Weight** 2 lbs.
 

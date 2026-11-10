@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal", path = "json/class_ability_bloodrager_bloodlines.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "bloodrager-bloodline"
 +++
 
 ## Infernal Bloodline
-
-**Sources:** Advanced Class Guide pg 21
 
 The Pit lives in your blood. Maybe one of your ancestors was seduced by the powers of
 [Hell](ref/rule/hell) or made a deal with a [devil](ref/family/devil). Either way, its corruption

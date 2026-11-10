@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snorkel_common", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (common), - (masterwork)"
 
 ## Snorkel
 
-**Sources:** Ultimate Equipment pg 57\
 **Price** 5 sp (common), 5 gp (masterwork); **Weight** - (common), - (masterwork)
 
 This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your

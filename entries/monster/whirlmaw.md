@@ -6,6 +6,9 @@ source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlmaw", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ with rows of razor-sharp teeth._
 
 **Senses:** Darkvision 60 ft., Keen sight
 
-**Sources:** Inner Sea Bestiary pg 60\
 **tremorsense:** 30
 
 **Experience points:** 4,800

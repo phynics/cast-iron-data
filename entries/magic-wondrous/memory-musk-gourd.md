@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_musk_gourd", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 55\
 **Aura** strong enchantment; **CL** 16th\
 **Slot** none; **Price** 4,800 gp; **Weight** 1 lb.
 

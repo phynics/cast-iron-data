@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archmage", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 14\
 For most practitioners of the arcane arts, learning magic requires a great deal of study and
 practice. Even for those who draw magic from their blood, the effort can be taxing. Not so for the
 archmage. This master of the arcane draws power from the very fabric of reality itself, learning to

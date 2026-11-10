@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scroll_of_blood_ink", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "143"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Sources:** Horror Adventures pg 143\
 **Aura** varies; **CL** varies\
 **Slot** none; **Weight** -
 

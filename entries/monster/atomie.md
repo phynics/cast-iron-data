@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atomie", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ the wee creature aloft._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 27\
 **Experience points:** 400
 
 **Armor class:** 17/17/14

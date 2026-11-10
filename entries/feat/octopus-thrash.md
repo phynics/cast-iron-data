@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_thrash", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Octopus Style, when you threaten two enemies who are adja
 +++
 
 ## Octopus Thrash (Combat)
-
-**Sources:** Martial Arts Handbook pg 15
 
 Your arms flail about in a confusing pattern of strikes that trips and batters your foes.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Improved Trip](ref/feat/improved-trip),

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "bonus feat gained at 1st level", "Bonus feat gained at 2nd level", "Slow fall", "high jump", "Bonus feat gained at 6th level", "Wholeness of body", "Bonus feats gained at 10th, 14th, and 18th level"]
 +++
 
-**Sources:** Occult Origins pg 20\
 A serpent-fire adept embraces the secrets of her chakras and mastery of their energetic flow.
 
 **Gained class skills:** app, diplo, fly, heal, ka, ling, sur

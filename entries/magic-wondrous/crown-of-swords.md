@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_swords", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "242"
+[[sources]]
+publication = "advanced-race-guide"
+page = "78"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 242, Advanced Race Guide pg 78\
 **Aura** faint evocation; **CL** 3rd\
 **Slot** head; **Price** 6,000 gp; **Weight** 3 lbs.
 

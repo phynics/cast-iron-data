@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ground_grabber", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 competence bonus to your Combat Maneuver Defense agains
 +++
 
 ## Ground-Grabber (Combat)
-
-**Sources:** Giant Hunter's Handbook pg 23
 
 When pressed by big opponents, you hunker down to more easily keep your feet.\
 **Prerequisites:** Con 13.\

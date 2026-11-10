@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawback_sword", path = "json/equipment_weapon_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "+5 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Equipment pg 57, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Adventuring Gear
 

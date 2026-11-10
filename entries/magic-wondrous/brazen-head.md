@@ -6,6 +6,9 @@ source_ids = ["pathfinder-73-the-worldwound-incursion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brazen_head", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-73-the-worldwound-incursion"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination (evil) and enchantment (evil)"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#73: The Worldwound Incursion pg 64\
 **Aura** faint divination (evil) and enchantment (evil); **CL** 5th\
 **Slot** none; **Price** 6,500 gp; **Weight** 10 lbs.
 

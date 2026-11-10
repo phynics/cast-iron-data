@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bit_of_luck", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Blood of the Beast pg 7
 
 > _The following spell was created by [catfolk](ref/race/catfolk) and make use of their inherent
 > luck._

@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travelers_wet_suit", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Aquatic Adventures pg 63\
 **Aura** faint divination; **CL** 3rd\
 **Slot** body; **Price** 2,750 gp; **Weight** 3 lbs.
 

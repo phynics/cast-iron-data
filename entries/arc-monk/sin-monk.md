@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "14"
 
 [fields]
 kind = "archetype"
 replaces = ["Ki pool", "alters high jump", "Wholeness of body", "Abundant step", "Empty body", "Perfect self"]
 +++
 
-**Sources:** Antihero's Handbook pg 14\
 Some vices prove too tempting even to those who have trained their minds and bodies against such
 corruptions, and the seven sins of ancient Thassilon stand among the most alluring. Martial experts
 who have allowed such passions to lead them astray may find themselves gaining powers drawn from

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 156
 
 A [desert](ref/rule/desert-terrain) is any sort of terrain that receives very little rainfall. It
 can be warm, temperate, or cold.

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slippers_of_the_primordial_wilds", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Wilderness pg 14\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** feet; **Price** 24,000 gp; **Weight** 1/2 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_guards_the_anvil", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Creatures threatened by an ally with this feat cannot make attacks of
 +++
 
 ## Hammer Guards the Anvil (Teamwork)
-
-**Sources:** Elemental Master's Handbook pg 7
 
 Your allies cover you when your guard is down.\
 **Benefit:** Creatures threatened by an ally with this feat cannot make attacks of opportunity

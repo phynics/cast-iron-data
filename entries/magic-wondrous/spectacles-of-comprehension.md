@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spectacles_of_comprehension", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Disciple's Doctrine pg 30\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** eyes; **Price** 2,500 gp; **Weight** -
 

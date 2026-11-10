@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_themes", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "123"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 123
 
 Mythic adventures can gain their legendary powers in a variety of ways, from a gift from the gods,
 to the influence of ancient magic thought lost to the world, to traveling to a distant land filled

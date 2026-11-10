@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindlocked_messenger", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "187"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: one willing living creature
 Subschool: Compulsion
 Descriptors: language-dependant, mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 187
 
 You speak a short message (up to 10 words per caster level), implanting both it and the identity of
 the message's intended recipient in the mind of a willing creature. The creature is aware of the

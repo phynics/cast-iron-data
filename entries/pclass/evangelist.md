@@ -6,14 +6,15 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evangelist", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "198"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Inner Sea Gods pg 198
 
 Though all faiths have their dedicated priests and righteous warriors, gods inspire devotion from a
 wide range of individuals. Rogues who specialize in stealth and poisons might swear allegiance to

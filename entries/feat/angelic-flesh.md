@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_flesh", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Angelic Blood, aasimar."
 prerequisite_feats = ["ref/feat/angelic-blood"]
 benefit = "You take a -2 penalty on Disguise and Stealth checks but gain one of the following benefits, depending on the metallic affinity of your flesh (choose one)."
 +++
-
-**Sources:** Advanced Race Guide pg 88
 
 Your skin shines like burnished metal.\
 **Prerequisites:** [Angelic Blood](ref/feat/angelic-blood), [aasimar](ref/race/aasimar).\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_gm_as_host", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 12
 
 The GM's primary job is to run the game, but there's more to that task than just rolling dice and
 orchestrating ingame challenges. As the group member most responsible for the game's success, the GM

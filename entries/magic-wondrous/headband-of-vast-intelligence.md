@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_vast_intelligence", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "251"
+[[sources]]
+publication = "core-rulebook"
+page = "517"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 251, PRPG Core Rulebook pg 517\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** headband; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawgiver", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This titanic golden statue of a great knight moves of its own accord and hefts 
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
 
-**Sources:** Inner Sea Gods pg 276\
 **Subtype:** Extraplanar, Herald, Lawful
 
 **Experience points:** 51,200

@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathion", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "13"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Psychic Anthology pg 13\
 An [agathion](ref/family/agathion) is an animal-like spirit from Nirvana, a defender of innocence
 and a champion of good.
 

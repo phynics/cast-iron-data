@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slashing_grace", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Choose one kind of light or one-handed slashing weapon (such as the l
 +++
 
 ## Slashing Grace (Combat)
-
-**Sources:** Advanced Class Guide pg 156
 
 You can stab your enemies with your sword or another slashing weapon.\
 **Prerequisites:** Dex 13, [Weapon Finesse](ref/feat/weapon-finesse),

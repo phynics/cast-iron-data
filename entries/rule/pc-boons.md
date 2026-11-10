@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pc_boons", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 51
 
 Each time the militia gains a rank (with the exception of rank 1), all associated PCs gain a boon
 (see [Table 6-1](ref/rule/militia-terminology)). These boons are applied immediately and are

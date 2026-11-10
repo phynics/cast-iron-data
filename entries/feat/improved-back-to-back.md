@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_back_to_back", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are adjacent to an ally who is flanked and also has this fe
 +++
 
 ## Improved Back to Back (Teamwork)
-
-**Sources:** Ultimate Combat pg 105
 
 After much practice, you and an ally have become adept at fighting in close proximity to one
 another.\

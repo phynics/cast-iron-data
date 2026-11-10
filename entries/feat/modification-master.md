@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/creative-weaponsmith", label = "or" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "You can use Creative Armorsmith or Creative Weaponsmith to add a modi
 +++
 
 ## Modification Master (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You can create inconceivable bastardizations of the smith's art.\
 **Prerequisites:** [Creative Armorsmith](ref/feat/creative-armorsmith),

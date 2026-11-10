@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antitech_field", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude partial (see text)
 Spell resistance: yes
 Target: 10-ft.-radius emanation centered on you
 :::
-
-**Sources:** Technology Guide pg 8
 
 You bring into being a mobile, hemispherical energy field that prevents technological objects,
 signals, and creatures from entering.

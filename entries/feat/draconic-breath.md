@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_breath", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ prerequisite_feats = ["ref/feat/draconic-aspect"]
 benefit = "You gain a +2 bonus against sleep and paralysis effects. You gain a breath weapon that is determined by your scale coloration by either the Draconic Aspect feat or the dragon-scaled racial trait. Using a breath weapon is a standard action that does not provoke attacks of opportunity. You can use your breath weapon once per day. Creatures within the area of your breath weapon who succeed at a Reflex saving throw (DC 10 + your character level + your Constitution modifier) take only half damage."
 special = "Kobold sorcerers with either the Draconic or Kobold Sorcerer bloodline can use their Charisma modifier instead of their Constitution to determine the DC of this breath weapon."
 +++
-
-**Sources:** Advanced Race Guide pg 136
 
 You possess draconic defenses and a draconic breath weapon.\
 **Prerequisites:** [Draconic Aspect](ref/feat/draconic-aspect), [kobold](ref/race/kobold).\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarify", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "13"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Inner Sea Temples pg 13
 
 Your touch causes a single creature's skin to produce fibrous tissue that sutures the creature's
 wounds, rapidly closing them and leaving jagged scars where the wounds were. The process is painful,

@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "core_mechanic_and_clarification", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 205
 
 The [possession](ref/spell/possession) spell contains the core mechanics for possession. The
 description of the [magic jar](ref/spell/magic-jar) spell states the possessing creature can use her

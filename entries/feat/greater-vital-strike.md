@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_vital_strike", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "126"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use the attack action, you can make one attack at your highe
 +++
 
 ## Greater Vital Strike (Combat)
-
-**Sources:** PRPG Core Rulebook pg 126
 
 You can make a single attack that deals incredible damage.\
 **Prerequisites:** [Improved Vital Strike](ref/feat/improved-vital-strike),

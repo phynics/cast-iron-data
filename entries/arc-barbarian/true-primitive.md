@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement", "Trap sense"]
 alters = ["The barbarian's armor and weapon proficiencies"]
 +++
 
-**Sources:** Ultimate Combat pg 30\
 Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from
 cities and organized settlements as strange, dangerous, and decadent. They gain power from their
 truly primitive nature; their bodies and spirits are hardened by the wild and untainted existence

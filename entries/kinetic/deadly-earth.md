@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_earth", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "18"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Metal Blast](ref/kinetic/metal-blast), [Mud Blast](ref/kinetic/mud-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/18
 
 You infuse the ground in a 20-foot radius anywhere within 120 feet of you on an earthen surface (if
 you are using a metal blast, this infusion affects a metal surface instead). The ground roils and

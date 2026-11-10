@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svirfneblin", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "261"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ expressive._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 261\
 **Subtype:** Gnome
 
 **Experience points:** 400

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_strike", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "283"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Area: cylinder (10-ft. radius, 40-ft. high)
 Descriptors: fire
 :::
-
-**Sources:** PRPG Core Rulebook pg 283
 
 A flame strike evokes a vertical column of divine fire. The spell deals 1d6 points of damage per
 caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly

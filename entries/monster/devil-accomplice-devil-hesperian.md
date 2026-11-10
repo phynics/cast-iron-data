@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_accomplice_devil_hesperian", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "279"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ occasional dart of a forked tongue._
 
 **Senses:** Darkvision 60 ft., Detect good, See in darkness
 
-**Sources:** Inner Sea Gods pg 279\
 **Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
 
 **Experience points:** 1,200

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_lance", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "231"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: no
 Effect: lance of light
 Descriptors: good, light
 :::
-
-**Sources:** Advanced Player's Guide pg 231
 
 You create a glorious beam of brilliant radiance that acts as a +1 [holy](ref/magic-enh/holy)
 [lance](ref/eq-weapon/lance) suitable for your size. You must have a free hand when casting the

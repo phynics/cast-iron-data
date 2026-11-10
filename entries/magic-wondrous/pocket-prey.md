@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pocket_prey", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Monster Hunter's Handbook pg 29\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.
 

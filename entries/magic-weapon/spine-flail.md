@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spine_flail", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 59\
 **Aura** faint necromancy; **CL** 4th\
 **Slot** none; **Price** 13,308 gp; **Weight** 10 lbs.
 

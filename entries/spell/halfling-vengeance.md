@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_vengeance", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "72"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one Small or smaller creature touched
 :::
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 72
 
 You grant the touched target the ability to ascertain the weaknesses of foes. The target deals an
 additional 1d6 points of precision damage on successful attacks with daggers or slings against foes

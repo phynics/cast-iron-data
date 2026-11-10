@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boro_bead_2nd", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "284"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "16th"
 
 ## Boro Bead
 
-**Sources:** Ultimate Equipment pg 284\
 **Aura** strong transmutation; **CL** 16th\
 **Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
 (5th), 36,000 gp (6th); **Weight** -

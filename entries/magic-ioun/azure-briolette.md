@@ -6,6 +6,9 @@ source_ids = ["pathfinder-125-tower-of-the-drowned-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azure_briolette", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "pathfinder-125-tower-of-the-drowned-dead"
+page = "36"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ aura = "strong enchantment and necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#125: Tower of the Drowned Dead pg 36\
 **Aura** strong enchantment and necromancy; **CL** 12th\
 Price 15,000 gp; Weight —
 

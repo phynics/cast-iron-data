@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "convention_play", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "44"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 44
 
 Conventions are hotbeds of gaming opportunity. While many RPG events available at game conventions
 are single-session adventures, timed dungeon runs, or tournaments, others are run through organized

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping_doom", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "262"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Effect: four swarms of insects
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 262
 
 This spell summons four massive swarms of biting and stinging insects. These swarms appear adjacent
 to one another, but can be directed to move independently. Treat these swarms as centipede swarms

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "find_the_path", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "281"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: none or Will negates (harmless)
 Spell resistance: no or yes (harmless)
 Target: you or creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 281
 
 The recipient of this spell can find the shortest, most direct physical route to a prominent
 specified destination, such as a city, keep, lake, or dungeon. The locale can be outdoors or

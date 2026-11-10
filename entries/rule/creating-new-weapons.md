@@ -6,12 +6,14 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_new_weapons", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "28"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Weapon Master's Handbook pg 28\
 It is next to impossible for any game to cover every conceivable weapon from all cultures, eras,
 works of fiction, and players' imaginations. In many cases, new weapons can be represented as
 slightly different versions of existing weapons, such as a Chinese dao that uses the shortsword

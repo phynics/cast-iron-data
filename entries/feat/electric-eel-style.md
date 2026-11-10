@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel_style", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While you are
 +++
 
 ## Electric Eel Style (Combat, Style)
-
-**Sources:** Blood of the Sea pg 11
 
 You have learned how to harness electrical energy to momentarily disorient your foes.\
 **Prerequisites:** Wis 13, [Elemental Fist](ref/feat/elemental-fist),

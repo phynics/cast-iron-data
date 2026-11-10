@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "background_skills", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "46"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 46
 
 The skill system presented in the Core Rulebook has a lot of versatility. It allows characters to
 overcome various challenges related to their diverse talents, with simple rules for dealing with

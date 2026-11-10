@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duration_2", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "417"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 417
 
 Unless otherwise stated, most traps have a duration of instantaneous; once triggered, they have
 their effect and then stop functioning. Some traps have a duration measured in rounds. Such traps

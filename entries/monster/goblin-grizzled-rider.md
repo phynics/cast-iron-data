@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_grizzled_rider", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "106"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ abilities = ["14", "18", "13", "10", "12", "6"]
 
 **Size:** small
 
-**Sources:** Monster Codex pg 106\
 **Subtype:** Goblinoid
 
 **Experience points:** 1,600

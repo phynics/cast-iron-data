@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_apocalypse_young_apocalypse_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _Gangrenous wounds mar this dragon's twisted body._
 
 **Senses:** Dragon sense
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 88\
 **Subtype:** Evil, Extraplanar
 
 **Experience points:** 19,200

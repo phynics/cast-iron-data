@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maftet", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "188"
+[[sources]]
+publication = "pathfinder-15-the-armageddon-echo"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ of a tawny, bipedal lion._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 188, Pathfinder \#15: The Armageddon Echo pg 88\
 **Experience points:** 2,400
 
 **Armor class:** 20/13/17

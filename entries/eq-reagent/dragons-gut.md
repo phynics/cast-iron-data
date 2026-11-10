@@ -6,13 +6,14 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragons_gut", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Alchemical Reagents"
 +++
-
-**Sources:** Dragonslayer's Handbook pg 19
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

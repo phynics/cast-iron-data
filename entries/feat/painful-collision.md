@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "painful_collision", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you bull rush an enemy into another creature, both creatures tak
 +++
 
 ## Painful Collision (Combat)
-
-**Sources:** Martial Arts Handbook pg 24
 
 You shove your opponents into each other, causing painful and damaging collisions.\
 **Prerequisites:** Str 13, [Improved Bull Rush](ref/feat/improved-bull-rush),

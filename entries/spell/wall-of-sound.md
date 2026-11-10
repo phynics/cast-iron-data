@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_sound", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "248"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Effect: translucent wall of sound up to 20 ft. long/level or a ring of sound with a radius of up to 5 ft./two levels; either form 20 ft. high
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 248
 
 A translucent barrier of pure sound springs into existence. This wall is silent except for a faint
 hum, but bursts with discordant noise when touched by an object or creature. The wall deflects

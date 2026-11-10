@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locathah", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "179"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ face of a fish._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 2 pg 179\
 **Subtype:** Aquatic
 
 **Experience points:** 200

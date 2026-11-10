@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_doldrums", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ hum._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 88\
 **Subtype:** Air, Elemental, Extraplanar
 
 **Experience points:** 19,200

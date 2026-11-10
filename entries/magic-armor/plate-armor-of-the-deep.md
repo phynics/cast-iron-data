@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plate_armor_of_the_deep", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "128"
+[[sources]]
+publication = "core-rulebook"
+page = "464"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 128, PRPG Core Rulebook pg 464\
 **Aura** moderate abjuration; **CL** 11th\
 **Slot** armor; **Price** 24,650 gp; **Weight** 50 lbs.
 

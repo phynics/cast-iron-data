@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escorite", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ drizzle a cascade of shimmering dust._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** The First World, Realm of the Fey pg 61\
 **Experience points:** 4,800
 
 **Armor class:** 21/14/16

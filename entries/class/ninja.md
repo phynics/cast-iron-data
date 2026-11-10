@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat", "advanced-players-guide", "chronicle-of-legends
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ninja", path = "json/classes3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "13"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "alternate"
 hit_die = "d8"
 skill_ranks = "8 + Int modifier"
 +++
-
-**Sources:** Ultimate Combat pg 13
 
 When the wealthy and the powerful need an enemy eliminated quietly and without fail, they call upon
 the ninja. When a general needs to sabotage the siege engines of his foes before they can reach the

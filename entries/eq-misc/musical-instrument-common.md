@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musical_instrument_common", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "3 lbs. (common), 3 lbs. (masterwork)"
 
 ## Musical instrument
 
-**Sources:** Ultimate Equipment pg 77, PRPG Core Rulebook pg 158\
 **Price** 5 gp (common), 100 gp (masterwork); **Weight** 3 lbs. (common), 3 lbs. (masterwork)
 
 If you want to perform using a Perform skill associated with a musical instrument (keyboard,

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giantkin_ogre", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "152"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Inherited:** present
 
 **Simple:** present
-
-**Source:** Monster Codex/152
 
 [Ogres](ref/monster/ogre) sometimes interbreed with other giants. The result of such crossbreeding
 is a giantkin ogre, which gains some abilities from its non-ogre parents. In areas where ogre clans

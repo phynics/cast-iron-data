@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "ultimate-wilderness", "pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "handle_animal", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 97
 
 **Associated Skill**
 

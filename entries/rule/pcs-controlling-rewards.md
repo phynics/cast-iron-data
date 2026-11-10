@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pcs_controlling_rewards", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "114"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 114
 
 In some cases, the PCs themselves can take on the responsibility of providing their own rewards,
 using character abilities and resources gained from their adventures to create exactly the weapons,

@@ -6,6 +6,9 @@ source_ids = ["no-response-from-deepmar"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillesh_zombie", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "no-response-from-deepmar"
+page = "21"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** No Response from Deepmar/21
 
 The cytillesh zombies presented here use a hybrid monster template that is easy to duplicate. The
 base creature gains the [fast zombie template](ref/template/zombie). It also gains +4

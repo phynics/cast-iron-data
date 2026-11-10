@@ -6,12 +6,12 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 4
 
 All life has its beginning and its end. From the moment of birth, everything that shrieks and
 struggles upon the Material Plane crawls toward a singular finale, that fatal climax that grants

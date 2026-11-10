@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_chieftain", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "214"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 214\
 **XP** 76,800\
 Half-orc [bard](ref/class/bard) 10/dragon disciple 7\
 CE Medium humanoid (human, orc)\

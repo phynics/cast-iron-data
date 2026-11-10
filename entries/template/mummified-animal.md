@@ -6,6 +6,9 @@ source_ids = ["pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummified_animal", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "pathfinder-81-shifting-sands"
+page = "84"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Pathfinder \#81: Shifting Sands/84
 
 When explorers find tombs housing the mummified remains of important and powerful beings, they often
 find those mummies accompanied by animals - ones that the interred found significant or that

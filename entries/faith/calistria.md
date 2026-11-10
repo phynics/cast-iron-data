@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "weapon-masters-handbook", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistria", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "28"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Calistria**
 
 **Sub:** The Savored Sting
-
-**Sources:** Inner Sea Gods pg 28
 
 ### Details
 

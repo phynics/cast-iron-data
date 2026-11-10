@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunpowder_ooze", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "139"
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ shudders with concussive energy._
 
 **Perception:** -5
 
-**Sources:** Bestiary 5 pg 139, Wardens of the Reborn Forge pg 63\
 **Experience points:** 38,400
 
 **Armor class:** 9/9/9

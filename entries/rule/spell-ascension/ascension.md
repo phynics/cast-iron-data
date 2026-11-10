@@ -8,12 +8,13 @@ parent = "ref/spell/ascension"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/spells.json#ascension|section:ascension", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 113
 
 You imbue a number of creatures with mythic power, granting each of them 1st tier in a mythic path
 of its choice. The creatures immediately gain the benefits of their chosen paths. Divide the

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_air_shroud", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Burn:** 0
 
 **Prerequisite:** [air shroud](ref/kinetic/air-shroud)
-
-**Source:** Occult Adventures/23
 
 Your _air shroud_ improves, granting you the benefits of [life bubble](ref/spell/life-bubble). When
 you accept burn to grant the benefit to others, the benefit lasts until the next time your burn is

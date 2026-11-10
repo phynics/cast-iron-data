@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_bane", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "202"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "16"
 
 **Challenge rating:** 16
 
-**Sources:** NPC Codex pg 202\
 **XP** 76,800\
 Human [ranger](ref/class/ranger) 9/[sorcerer](ref/class/sorcerer) 1/arcane archer 7\
 N Medium humanoid (human)\

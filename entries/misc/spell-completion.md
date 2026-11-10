@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_completion", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "458"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Spell Completion
 
-**Sources:** PRPG Core Rulebook pg 458\
 This is the activation method for [scrolls](ref/rule/scrolls). A scroll is a spell that is mostly
 finished. The preparation is done for the caster, so no preparation time is needed beforehand as
 with normal spellcasting. All that's left to do is perform the finishing parts of the spellcasting

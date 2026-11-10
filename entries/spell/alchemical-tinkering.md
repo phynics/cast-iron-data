@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_tinkering", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "155"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude negates (object)
 Spell resistance: yes
 Target: firearm or alchemical item touched
 :::
-
-**Sources:** Advanced Race Guide pg 155
 
 > _[Ratfolk](ref/race/ratfolk) have access to the following spell._
 

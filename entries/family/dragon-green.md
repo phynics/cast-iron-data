@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_green", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "96"
 
 [fields]
 kind = "none"
 +++
 
 ## Green Dragon
-
-**Sources:** Pathfinder RPG Bestiary pg 96
 
 |Age Category|Special Abilities|Caster Level|
 | --- | --- | --- |

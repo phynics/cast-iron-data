@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Diviner's fortune (if a diviner) or hand of the apprentice (if a universalist)", "5th-level bonus feat", "The normal addition of a new 4th-level spell slot; from this point on", "the wizard has one fewer 4th-level spell slot than other wizards"]
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 26\
 A scroll scholar values knowledge and learning as much as her other abilities, trading a portion of
 her potential in her chosen class for greater breadth of skill at deciphering old texts, piecing
 together strange fragments of esoteric lore, and deciphering the hidden qualities of strange and

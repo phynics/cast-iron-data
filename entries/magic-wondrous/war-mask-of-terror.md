@@ -6,6 +6,9 @@ source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_mask_of_terror", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
+page = "39"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#38: Racing to Ruin pg 39\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.
 

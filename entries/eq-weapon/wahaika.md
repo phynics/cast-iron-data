@@ -6,14 +6,15 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wahaika", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20
 
 This short and broad Stone Age club is made of hardened wood or bone. It has a notch on one side
 that is used for catching weapons. If you are proficient with the weapon, you can use the notch in

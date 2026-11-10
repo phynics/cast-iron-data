@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hand_of_glory", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "259"
+[[sources]]
+publication = "core-rulebook"
+page = "516"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint varied"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 259, PRPG Core Rulebook pg 516\
 **Aura** faint varied; **CL** 5th\
 **Slot** neck; **Price** 8,000 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberi", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "51"
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ tendons exposed._
 
 **Senses:** Soul scent
 
-**Sources:** Bestiary 3 pg 51, Pathfinder \#28: The Infernal Syndrome pg 84\
 **Subtype:** Evil, Extraplanar, Lawful
 
 **Experience points:** 2,400

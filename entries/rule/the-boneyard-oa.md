@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_boneyard_oa", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "245"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 245
 
 A massive spire stretches deep into the sliver expanse of the Astral Plane from the surface of the
 Outer Sphere, beckoning unfettered monads on the River of Souls toward their final destinations in

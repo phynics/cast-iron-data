@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "andoren_emancipation_hammer", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "4"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Merchant's Manifest pg 4\
 **Aura** moderate abjuration and evocation; **CL** 9th\
 **Slot** weapon; **Price** 13,312 gp; **Weight** 5 lbs.
 

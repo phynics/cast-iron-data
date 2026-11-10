@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "converting_content_from_35_or_other_systems", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 51
 
 Roleplaying games have been around for over 30 years, and there's a huge library of materials out
 there for other games which you can use in your campaign. One particularly easy conversion is from

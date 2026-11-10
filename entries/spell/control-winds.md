@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_winds", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "261"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Area: 40 ft./level radius cylinder 40 ft. high
 Descriptors: air
 :::
-
-**Sources:** PRPG Core Rulebook pg 261
 
 You alter wind force in the area surrounding you. You can make the wind blow in a certain direction
 or manner, increase its strength, or decrease its strength. The new wind direction and strength

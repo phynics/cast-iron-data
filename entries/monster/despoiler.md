@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "despoiler", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "56"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Three spears of obsidian energy skewer this cadaverous figure._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Seers of the Drowned City pg 56\
 **Type:** undead
 
 **Experience points:** 3,200

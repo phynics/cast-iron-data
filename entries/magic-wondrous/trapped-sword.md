@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapped_sword", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Sources:** Kobolds of Golarion pg 31\
 **Aura** faint evocation; **CL** 1st\
 **Slot** none; **Price** 850 gp; **Weight** 4 lbs.
 

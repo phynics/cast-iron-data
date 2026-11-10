@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chains_of_light", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Creation
 Descriptors: good
 :::
-
-**Sources:** Champions of Purity pg 29
 
 A creature targeted by this spell is held immobile by glowing golden chains composed of pure light.
 The creature is paralyzed and held in place, but may attempt a new saving throw each round to end

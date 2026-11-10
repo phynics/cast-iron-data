@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "running_horror_adventures", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 190
 
 Game Masters don't have to run a horror-themed Pathfinder adventure differently from how they would
 any other adventure - but they can. Before running a horror adventure, though, the GM should

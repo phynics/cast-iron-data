@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "112"
 
 [fields]
 kind = "archetype"
 replaces = ["Spirit magic spells gained from the shaman's spirit", "Hex gained at 2nd level", "Hex gained at 10th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 112\
 Not all spirits deserve reverence and respect. Some are twisted and despicable. It's a spirit
 warden's duty to end these spirits' existence.
 

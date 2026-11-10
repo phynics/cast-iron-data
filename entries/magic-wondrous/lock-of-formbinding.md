@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lock_of_formbinding", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Blood of the Coven pg 31\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** none; **Price** 50,000 gp; **Weight** 2 lbs.
 

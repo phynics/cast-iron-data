@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_settlement_stat_block", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "203-205, 207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg. 203-205, 207
 
 A settlement stat block is organized as follows.
 

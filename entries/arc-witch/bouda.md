@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "1st-level hex", "10th-level major hex"]
 +++
 
-**Sources:** Monster Codex pg 92\
 These strange and often solitary witches have a strong connection to curses, the evil eye, and
 hyenas.
 

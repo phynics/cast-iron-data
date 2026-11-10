@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creativity_between_sessions", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "62"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 62
 
 Just because the session ends, that doesn't mean the game can't follow a player home. Many players
 make their most meaningful contributions to a game between sessions. Literary-minded or artistic

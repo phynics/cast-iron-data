@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/planetary-adaptation" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes (harmless)
 :::
 
 ### Mass Planetary Adaptation
-
-**Sources:** People of the Stars pg 29
 
 This spell functions as [planetary adaptation](ref/spell/planetary-adaptation), except as noted
 above.

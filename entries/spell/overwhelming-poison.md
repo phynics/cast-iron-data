@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_poison", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: one creature or one dose of poison; see text
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Intrigue pg 221
 
 This spell increases the virulence of the targeted dose of poison, making the poison more difficult
 to resist. The poison is unaffected by delay poison, and the DC to remove it with neutralize poison

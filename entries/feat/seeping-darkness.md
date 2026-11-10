@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeping_darkness", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "209"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you're adjacent to a drow ally who also has this feat, you c
 +++
 
 ## Seeping Darkness (Teamwork)
-
-**Sources:** Inner Sea Races pg 209
 
 Your innate magical darkness seeps through your skin and strengthens when you're near another
 creature whose soul is as wicked as yours.\

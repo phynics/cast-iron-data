@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minderhal", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "70, 74-75"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Minderhal**
 
 **Sub:** He Who Makes and Unmakes
-
-**Sources:** Pathfinder \#93: Forge of the Giant God pg. 70, 74-75
 
 ### Details
 

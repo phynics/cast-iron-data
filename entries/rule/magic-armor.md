@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_armor", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "461"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 461
 
 In general, magic armor protects the wearer to a greater extent than nonmagical armor. Magic armor
 bonuses are enhancement bonuses, never rise above +5, and stack with regular armor bonuses (and with

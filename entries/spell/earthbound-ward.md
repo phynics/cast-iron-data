@@ -6,12 +6,14 @@ source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthbound_ward", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "haunted-heroes-handbook"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Haunted Heroes Handbook pg 16\
 **School** abjuration; **Level** 5\
 **Casting Time** 10 minutes per 10-ft.-cube affected by the ritual (minimum of 50 minutes)\
 **Components** V, S, M (materials worth 500 gp per 10-ft.-cube of the ritual's area), SC (up to 8)\

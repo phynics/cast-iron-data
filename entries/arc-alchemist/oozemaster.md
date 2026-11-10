@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "17"
 
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Poison resistance", "poison immunity"]
 +++
 
-**Sources:** Monster Hunter's Handbook pg 17\
 The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully
 studies the characteristics of the oozes he hunts to help him create new and more effective mutagens
 and bombs.

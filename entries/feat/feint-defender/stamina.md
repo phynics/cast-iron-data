@@ -6,11 +6,13 @@ source_ids = ["armor-masters-handbook"]
 relations = [
   { kind = "addon", target = "ref/feat/feint-defender", label = "stamina" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "20"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Armor Master's Handbook pg 20\
 You can spend 5 stamina points to force a foe to attempt two Bluff checks when trying to feint
 against you in combat, and use the lower of the two results.

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_of_appearance", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "293"
+[[sources]]
+publication = "core-rulebook"
+page = "510"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 293, PRPG Core Rulebook pg 510\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 1,800 gp; **Weight** -
 

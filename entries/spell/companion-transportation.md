@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_transportation", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Target: yourself and one animal companion, familiar, or spirit animal within range
 Subschool: Teleportation
 :::
-
-**Sources:** Ultimate Wilderness pg 228
 
 You trade places with the other target, teleporting as if you were both affected by dimension door.
 Both you and the other target arrive in a square you choose in the other's former space. If the

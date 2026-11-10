@@ -6,6 +6,9 @@ source_ids = ["pathfinder-48-shadows-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coldfire_wrappings", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-48-shadows-of-gallowspire"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation [cold]"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#48: Shadows of Gallowspire pg 29\
 **Aura** moderate evocation \[cold\]; **CL** 10th\
 **Slot** body; **Price** 2,000 gp; **Weight** 1 lb.
 

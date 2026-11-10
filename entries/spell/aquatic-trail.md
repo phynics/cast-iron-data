@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_trail", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: circle centered on you, with a radius of 100 feet + 10 feet per level
 Descriptors: water
 :::
-
-**Sources:** Aquatic Adventures pg 59
 
 You use divination magic to enhance the underwater trails in the area around you, allowing you to
 track creatures through the water as if across soft ground as long as they passed through the area

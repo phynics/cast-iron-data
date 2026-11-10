@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "adventurers-guide", "andoran-spirit-of-liberty",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_magic", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "267"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** PRPG Core Rulebook pg 267
 
 You detect magical auras. The amount of information revealed depends on how long you study a
 particular area or subject.

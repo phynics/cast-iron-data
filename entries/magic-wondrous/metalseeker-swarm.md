@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metalseeker_swarm", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** People of the River pg 28\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 5,500 gp; **Weight** 3 lbs.
 

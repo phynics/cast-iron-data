@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iadaran_dress_uniform", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "12"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Merchant's Manifest pg 12\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** armor; **Price** 2,625 gp; **Weight** 5 lbs.
 

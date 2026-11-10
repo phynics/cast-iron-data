@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greathelm_of_the_mammoth_lord", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "133"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Adventurer's Guide pg 133\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** head; **Price** 24,700 gp; **Weight** 5 lbs.
 

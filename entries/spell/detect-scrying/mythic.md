@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/detect-scrying", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 90\
 This spell automatically gives you a visual image of the creature scrying you. If it's using a
 non-mythic means of scrying, you also gain an accurate sense of its direction and distance from you.
 You automatically succeed at caster level checks to overcome nondetection or similar effects (other

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_gift", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: poison
 :::
-
-**Sources:** Ultimate Magic pg 243
 
 You can cast this spell only if you are currently poisoned. You draw upon the poison in your body
 and duplicate its effects in the target, which is affected by the same poison you are, except it

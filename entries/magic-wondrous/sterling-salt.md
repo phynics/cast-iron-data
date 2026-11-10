@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sterling_salt", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "177"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Adventurer's Guide pg 177\
 **Aura** faint transmutation; **CL** 7th\
 **Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
 

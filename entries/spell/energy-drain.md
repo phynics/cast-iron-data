@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/enervation" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "277"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude partial; see text for enervation
 Spell resistance: yes
 Effect: ray of negative energy
 :::
-
-**Sources:** PRPG Core Rulebook pg 277
 
 This spell functions like [enervation](ref/spell/enervation), except that the creature struck gains
 2d4 temporary negative levels. Twenty-four hours after gaining them, the subject must make a

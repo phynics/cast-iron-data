@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taking_10_and_taking_20", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "86"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 86
 
 A skill check represents an attempt to accomplish some goal, usually while under some sort of time
 pressure or distraction. Sometimes, though, a character can use a skill under more favorable

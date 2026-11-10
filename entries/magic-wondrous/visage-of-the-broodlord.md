@@ -6,6 +6,9 @@ source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "visage_of_the_broodlord", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "lost-kingdoms"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "6th"
 +++
 
-**Sources:** Lost Kingdoms pg 51\
 **Aura** strong conjuration; **CL** 6th\
 **Slot** head; **Price** 9,600 gp; **Weight** 1 lb.
 

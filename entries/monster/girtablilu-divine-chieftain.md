@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "girtablilu_divine_chieftain", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This authoritative, scorpion-bodied woman is bedecked with amulets and other re
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Inner Sea Monster Codex pg 39\
 **tremorsense:** 30
 
 **Experience points:** 38,400

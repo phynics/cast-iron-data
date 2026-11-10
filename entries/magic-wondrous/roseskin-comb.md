@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roseskin_comb", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Merchant's Manifest pg 8\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** head; **Price** 37,000 gp; **Weight** 1/2 lb.
 

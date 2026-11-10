@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spells_of_intrigue", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "154"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 154
 
 Magic influences nearly everything in the Pathfinder Roleplaying Game. In an intrigue-based
 campaign, the principal focus shifts from exploration and dungeon-delving - where magic is primarily

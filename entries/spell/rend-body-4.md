@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/rend-body-3" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "10"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one creature
 :::
 
 ### Rend Body IV
-
-**Sources:** Psychic Anthology pg 10
 
 This functions as per [rend body III](ref/spell/rend-body-3), but the target takes 1d8 points of
 damage per caster level (maximum 20d8), and one of the target's limbs is ripped off if the amount of

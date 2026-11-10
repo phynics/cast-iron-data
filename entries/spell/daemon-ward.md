@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/death-ward" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "38"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creature touched
 :::
-
-**Sources:** Book of the Damned - Volume 3: Horsemen of the Apocalypse pg 38
 
 This spell functions like [death ward](ref/spell/death-ward), except as noted above and it only
 protects against these attacks from daemons.

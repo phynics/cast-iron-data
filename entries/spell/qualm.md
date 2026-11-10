@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qualm", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Combat pg 241
 
 The target is suddenly beset with unexplainable doubts about the effectiveness of its actions and
 the righteousness of its cause. The creature takes a -10 penalty on its ability checks, skill

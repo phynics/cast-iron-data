@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrefy_food_and_drink", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes (object)
 Target: 1 cu. ft./level of food and water or one potion; see text
 Descriptors: poison
 :::
-
-**Sources:** Advanced Player's Guide pg 237
 
 This spell causes otherwise edible food to rot and spoil instantly, and water and other liquids to
 become brackish and undrinkable. Holy water and similar food and drink of significance are spoiled

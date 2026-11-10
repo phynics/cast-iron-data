@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "player_absence", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 14
 
 What happens to a character when its player is absent from a session? Below are some of the most
 common solutions.

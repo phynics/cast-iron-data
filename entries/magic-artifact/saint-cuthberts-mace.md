@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saint_cuthberts_mace", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 41\
 **Aura** strong abjuration, conjuration, and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 8 lbs.
 

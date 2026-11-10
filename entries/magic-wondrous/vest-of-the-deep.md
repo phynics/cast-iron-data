@@ -6,6 +6,9 @@ source_ids = ["pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vest_of_the_deep", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Pathfinder \#99: Dance of the Damned pg 16\
 **Aura** moderate abjuration; **CL** 7th\
 **Slot** chest; **Price** 2,000 gp; **Weight** 1 lb.
 

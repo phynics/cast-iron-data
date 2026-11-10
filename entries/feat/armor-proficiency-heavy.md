@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_proficiency_heavy", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "Antipaladins, aristocrats, cavaliers, fighters, paladins, samurai, wa
 +++
 
 ## Heavy Armor Proficiency (Combat)
-
-**Sources:** PRPG Core Rulebook pg 118
 
 You are skilled at wearing heavy armor.\
 **Prerequisites:** [Light Armor Proficiency](ref/feat/armor-proficiency-light),

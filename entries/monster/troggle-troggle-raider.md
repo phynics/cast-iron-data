@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troggle_troggle_raider", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ back._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 160\
 **Subtype:** Giant
 
 **Experience points:** 2,400

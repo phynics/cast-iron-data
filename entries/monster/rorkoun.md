@@ -6,6 +6,9 @@ source_ids = ["pathfinder-32-rivers-run-red"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rorkoun", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ with incredible speed the next._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#32: Rivers Run Red pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

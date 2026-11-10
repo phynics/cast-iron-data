@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrest_charge", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "7"
 
 [fields]
 kind = "feat"
 prerequisites = "Disable Device 5 ranks, Knowledge (engineering) 5 ranks"
 benefit = "With a successful DC 20 Disable Device check, you can jury-rig a depleted (but not destroyed) battery so it provides 1 more charge. Using this charge or failing your check by 5 or more permanently depletes the battery."
 +++
-
-**Sources:** Technology Guide pg 7
 
 You can extract a charge from otherwise depleted technology.\
 **Prerequisites:** Disable Device 5 ranks, Knowledge (engineering) 5 ranks\

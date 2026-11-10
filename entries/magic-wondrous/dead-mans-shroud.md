@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dead_mans_shroud", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Seekers of Secrets pg 55\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.
 

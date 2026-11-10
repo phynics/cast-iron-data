@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_ice_devil_gelugon", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "77"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A pair of frozen, multifaceted eyes coldly judge all before this towering, inse
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 77\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 25,600

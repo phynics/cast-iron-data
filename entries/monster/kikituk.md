@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kikituk", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "177"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ scrimshaw patterns._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 177\
 **Experience points:** 25,600
 
 **Armor class:** 28/14/26

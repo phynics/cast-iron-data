@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "circuitous_shot", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "80"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can choose to take a -2 penalty on a ranged weapon attack to rico
 +++
 
 ## Circuitous Shot (Combat)
-
-**Sources:** Ultimate Intrigue pg 80
 
 You can bounce ranged attacks off objects to obscure their point of origin and surprise foes.\
 **Prerequisites:** Dex 19, [Blind-Fight](ref/feat/blind-fight)

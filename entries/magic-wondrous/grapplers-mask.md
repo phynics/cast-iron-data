@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grapplers_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "242"
+[[sources]]
+publication = "advanced-players-guide"
+page = "306"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Sources:** Ultimate Equipment pg 242, Advanced Player's Guide pg 306\
 **Aura** faint transmutation; **CL** 1st\
 **Slot** head; **Price** 5,000 gp; **Weight** 2 lbs.
 

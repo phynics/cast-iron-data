@@ -6,6 +6,9 @@ source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primeval_sea_creature_kronosaurus", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ incredible speed._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder \#60: From Hell's Heart pg 88\
 **Experience points:** 9,600
 
 **Armor class:** 23/7/22

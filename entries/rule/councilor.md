@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "councilor", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 201
 
 The Councilor acts as a liaison between the citizenry and the other kingdom leaders, parsing
 requests from the commonwealth and presenting the leaders' proclamations to the people in

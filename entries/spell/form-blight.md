@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "form_blight", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "238"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 238\
 **School** necromancy; **Level** 9\
 **Casting Time** 9 hours\
 **Components** V, S, M (the hearts of one or more creatures native to the environment associated

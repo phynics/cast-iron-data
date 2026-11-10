@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arachnid_harness", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Armor Master's Handbook pg 25\
 **Aura** faint transmutation; **CL** 4th\
 **Slot** armor; **Price** 6,160 gp; **Weight** 15 lbs.
 

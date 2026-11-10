@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "setting_up_shop", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 77
 
 The full function of the Profession skill allows you to run a business of the appropriate type
 successfully. Professions in most cases can be operated from static locations (such as store fronts

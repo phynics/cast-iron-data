@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_across_time", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Effect: one 5-ft. cube of temporal possibility/2 levels
 Subschool: Summoning
 :::
-
-**Sources:** Legacy of the First World pg 30
 
 You create one or more 5-foot cubes of temporal possibility where your timeline overlaps with those
 of your parallel existences. As a free action, you can summon a duplicate of yourself (not including

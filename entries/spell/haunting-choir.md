@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_choir", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Spell resistance: yes
 Area: 30-ft.-radius emanation
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Ultimate Magic pg 222
 
 You create a spectral choir and conduct its tortured, ghostly moans, deluding listeners into
 believing they are suffering the torments of the dead. The transparent singers occupy a 10-foot

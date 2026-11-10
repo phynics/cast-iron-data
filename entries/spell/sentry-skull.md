@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sentry_skull", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "143"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: severed head touched
 Descriptors: evil
 :::
-
-**Sources:** Advanced Race Guide pg 143
 
 > _[Orcs](ref/race/orc) have access to the following spell._
 

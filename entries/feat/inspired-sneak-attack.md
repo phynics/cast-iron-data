@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_sneak_attack", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When dealing sneak attack or studied strike damage, you can expend a 
 +++
 
 ## Inspired Sneak Attack (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 11
 
 Your brilliant insight makes you more dangerous in combat.\
 **Prerequisites:** Inspiration pool; [sneak attack](ref/ability/sneak-attack) or studied strike

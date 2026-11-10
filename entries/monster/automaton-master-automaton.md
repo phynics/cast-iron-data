@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_master_automaton", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ in its head glows with light._
 
 **Senses:** Automaton sense, Darkvision 60 ft., Low-light vision, True seeing
 
-**Sources:** Construct Handbook pg 26\
 **Subtype:** Automaton, Extraplanar
 
 **Experience points:** 307,200

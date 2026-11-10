@@ -6,6 +6,9 @@ source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalice_of_communal_dweomer", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Tears at Bitter Manor pg 54\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 3,750 gp; **Weight** 1 lb.
 

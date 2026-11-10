@@ -6,13 +6,14 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_forged_steel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 50
 
 This material is the same substance as fire-forged steel with a subtle difference in the alignment
 of the metal during crafting. Instead of channeling heat away from the wearer, it channels heat

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/minor-image" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Spell resistance: no
 Effect: visual figment that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
 Subschool: Shadow
 :::
-
-**Sources:** Blood of the Night pg 30
 
 This spell functions like [minor image](ref/spell/minor-image), except it always creates an animated
 illusion of you presenting to a vampire a material, object, or sound that it is averse to, such as

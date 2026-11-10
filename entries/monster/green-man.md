@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_man", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "152"
 
 [fields]
 kind = "creature"
@@ -51,7 +54,6 @@ vine._
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 152\
 **Subtype:** Shapechanger
 
 **Experience points:** 2,457,600

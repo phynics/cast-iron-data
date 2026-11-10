@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_storm", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "174"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 174\
 Each spell, no matter how weak, leaves its signature on the world for a short time, which
 spellcasters can perceive as a lingering magical aura. When dozens of powerful spells are hurled
 against each other over a small area, reality itself can form scars that affect all who come near

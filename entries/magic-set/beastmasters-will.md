@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmasters_will", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "25"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 25
 
 At times, nature will grant its greatest champions gifts in the form of magical relics. Among these
 gifts, nature bestows Beastmaster's Will to those who defend animal life.

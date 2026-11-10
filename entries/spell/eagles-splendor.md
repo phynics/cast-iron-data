@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagles_splendor", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "275"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 275
 
 The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a
 +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other

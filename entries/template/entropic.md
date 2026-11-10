@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entropic", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "292"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +0 or +1
 
 **Simple:** present
-
-**Source:** Bestiary 2/292
 
 **Summonable:** present
 

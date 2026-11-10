@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/baleful-polymorph", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 84\
 The saving throw changes to Fortitude (partial) and Will (partial). A creature that fails the
 Fortitude save automatically fails the Will save. A target with the shapechanger subtype that fails
 its save can't use its shapechanging to shift out of its new form. A creature that succeeds at the

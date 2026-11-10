@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paired_opportunists", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "166"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you rece
 +++
 
 ## Paired Opportunists (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 166
 
 You know how to make an enemy pay for lax defenses.\
 **Benefit:** Whenever you are adjacent to an ally who also has this feat, you receive a +4

@@ -6,14 +6,15 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_spongestones", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "0.2 lbs."
 +++
-
-**Sources:** Halflings of Golarion pg 23
 
 These bullets are actually made from a porous stone or heavy wood that absorbs liquids and shatters
 on impact. Spongestones are often used to deliver poison or burning oil. A flask of

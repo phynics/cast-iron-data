@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "100"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ special = "If you possess levels in the gunslinger class, you can take this feat
 +++
 
 ## Extra Grit (Grit)
-
-**Sources:** Ultimate Combat pg 100
 
 You have more grit than the ordinary gunslinger.\
 **Prerequisites:** Grit class feature or the [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat.\

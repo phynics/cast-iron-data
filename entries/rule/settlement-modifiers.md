@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_modifiers", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "205"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 205
 
 Life in a settlement is represented by six modifiers, each of which adjusts the use of specific
 skills within the city.

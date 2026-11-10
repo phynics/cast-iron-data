@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_scatter", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "For each ally who has this feat and is adjacent to you, you gain a +1
 +++
 
 ## Swarm Scatter (Teamwork)
-
-**Sources:** Blood of the Moon pg 19
 
 You have studied the habits of swarming rats for defensive tactics.\
 **Benefit:** For each ally who has this feat and is adjacent to you, you gain a +1 circumstance

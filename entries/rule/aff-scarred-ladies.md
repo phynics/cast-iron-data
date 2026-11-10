@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_scarred_ladies", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "78"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 78\
 **Pathfinder Name:** Gray Maidens (Erinyes Company and Scarlet Rose)\
 **Subgroups:** The Sisterhood and The Rebloomers\
 **Scope:** regional\

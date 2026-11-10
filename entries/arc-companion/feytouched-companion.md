@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feytouched_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "188"
 
 [fields]
 kind = "archetype"
 replaces = ["The 4th- or 7th-level ability score and size advancement", "Share Spells", "Multiattack", "Evasion", "Devotion", "Improved Evasion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 188\
 Feytouched companions are strangely colored fauna native to the First World, the primal realm of the
 fey. They gain strange abilities tied to the fey.
 

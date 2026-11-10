@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_spells", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 128
 
 Designing spells for the Pathfinder Roleplaying Game is a complex task that is part art, part
 science. This section describes what you need to think about when designing balanced, playable

@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reptoid", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "202"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 202\
 Reptoids are bipedal reptiles from another planet, or perhaps even another plane - they refuse to
 reveal their origins to humanoids, even under duress. Disguised as members of others races, the
 reptoids seek positions of power in order to secretly prepare for an invasion from their homeworld.

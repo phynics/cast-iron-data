@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_wish", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "181"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 181\
 A twisted wish haunt can only arise in the most extraordinary circumstances, when a genie noble of
 considerable power dies with vengeance in its heart. It rests in places like wells or fountains
 where people go to make wishes, so it can use its powers frequently.

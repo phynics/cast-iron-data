@@ -6,6 +6,9 @@ source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feranth", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-90-the-divinity-drive"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ beneath its mottled black hide._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#90: The Divinity Drive pg 82\
 **tremorsense:** 120
 
 **Experience points:** 38,400

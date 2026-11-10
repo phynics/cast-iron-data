@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furcifer", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ sickly-sweet scent fills the swirling air around it._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#142: Gardens of Gallowspire pg 90\
 **Experience points:** 25,600
 
 **Armor class:** 27/13/22

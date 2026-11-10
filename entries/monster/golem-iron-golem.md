@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_iron_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "162"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with bone-jarring force._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 162\
 **Experience points:** 25,600
 
 **Armor class:** 28/8/28

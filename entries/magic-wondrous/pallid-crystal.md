@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_crystal", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "267"
+[[sources]]
+publication = "gods-and-magic"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 267, Gods and Magic pg 59\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** neck; **Price** 3,300 gp; **Weight** -
 

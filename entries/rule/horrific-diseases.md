@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrific_diseases", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "146"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 146
 
 Diseases hold great potential for horror. They often strike at abilities or traits people value
 dearly but take for granted. They can leave victims unable to walk or speak, radically change a

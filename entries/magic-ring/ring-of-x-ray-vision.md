@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_x_ray_vision", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "177"
+[[sources]]
+publication = "core-rulebook"
+page = "479"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 177, PRPG Core Rulebook pg 479\
 **Aura** moderate divination; **CL** 6th\
 **Slot** ring; **Price** 25,000 gp; **Weight** -
 

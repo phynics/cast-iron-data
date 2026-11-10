@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_and_shut", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one door, window, or similar portal no more than 10 feet by 10 feet in a
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Ultimate Intrigue pg 220
 
 You alter the appearance of a door and disguise whether it is open or closed. You can cause the
 touched door to appear closed regardless of whether it is open or closed, to appear open regardless

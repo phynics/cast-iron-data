@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "23"
 
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "poison resistance +2", "Poison resistance +4", "poison resistance +6", "Swift poisoning", "Poison immunity"]
 +++
 
-**Sources:** Dungeoneer's Handbook pg 23\
 Trap breakers forgo the study of poison to instead master the construction and deployment of traps,
 using their nimble fingers to disable dangerous devices and their alchemical knowledge to create
 devastating land mines.

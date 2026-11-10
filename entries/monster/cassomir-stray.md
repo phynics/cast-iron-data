@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cassomir_stray", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This mangy stray animal growls and whimpers miserably. Stinking blue drool drip
 
 **Size:** small
 
-**Sources:** Taldor, the First Empire pg 57\
 **Experience points:** 1,200
 
 **Armor class:** 17/12/16

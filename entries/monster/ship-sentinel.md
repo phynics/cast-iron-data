@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_sentinel", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ coating her frame encrusted in years' worth of sea salt._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Ship sight
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 88\
 **Experience points:** 3,200
 
 **Armor class:** 20/14/15

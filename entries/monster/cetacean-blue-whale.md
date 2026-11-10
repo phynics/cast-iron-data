@@ -6,6 +6,12 @@ source_ids = ["pathfinder-59-the-price-of-infamy", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cetacean_blue_whale", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "86"
+[[sources]]
+publication = "bestiary-5"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ with layers of baleen._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 86, Bestiary 5 pg 276\
 **Experience points:** 19,200
 
 **Armor class:** 26/1/26

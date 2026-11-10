@@ -6,13 +6,15 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gennaris_iii", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "71"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 71\
 If Taldaris was the greatest leader of the empire's history, then Grand Prince Gennaris III was
 unquestionably Taldor's greatest general. No one before or since led as effective a campaign against
 the Qadiran encroachment as Gennaris, and the brevity of his time as an emperor only strengthened

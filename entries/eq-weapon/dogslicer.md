@@ -6,16 +6,30 @@ source_ids = ["ultimate-equipment", "rise-of-the-runelords-players-guide", "path
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dogslicer", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "rise-of-the-runelords-players-guide"
+page = "11"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "209"
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "290"
+[[sources]]
+publication = "adventurers-armory"
+page = "0"
+[[sources]]
+publication = "advanced-race-guide"
+page = "117"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 18, Rise of the Runelords Player's Guide pg 11, Pathfinder
-Campaign Setting pg 209, Inner Sea World Guide pg 290, Adventurer's Armory pg 0, Advanced Race Guide
-pg 117
 
 This short, curved blade was created by goblins, who often drill numerous holes into it in an
 attempt to reduce its weight. Most dogslicers are sized for Small creatures.

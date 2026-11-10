@@ -6,12 +6,13 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 61
 
 A fiend possesses objects either as a way to control them or as a way to infiltrate a body in a
 clandestine manner. A fiend in possession of an object can perform the following possession actions.

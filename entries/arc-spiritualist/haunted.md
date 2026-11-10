@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/spiritualist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "110"
 
 [fields]
 kind = "archetype"
 replaces = ["Dual bond", "Bonded manifestation"]
 +++
 
-**Sources:** Occult Adventures pg 110\
 The haunted are a dangerous breed of spellcasters bound to temperamental and unpredictable phantoms
 that leech power from their spiritualists.
 

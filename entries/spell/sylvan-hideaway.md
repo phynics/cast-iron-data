@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sylvan_hideaway", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "67"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: no
 Target: one 5-foot square of touched earth
 Subschool: Creation
 :::
-
-**Sources:** Pathfinder \#116: Fangs of War pg 67
 
 When this spell is cast on a natural, unworked surface, it creates an extradimensional underground
 space large enough to comfortably hold two creatures of any size per caster level (maximum 12). The

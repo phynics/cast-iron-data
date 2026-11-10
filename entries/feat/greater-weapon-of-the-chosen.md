@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_weapon_of_the_chosen", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "149"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you use your deity's favored weapon to attempt a single attack w
 +++
 
 ## Greater Weapon of the Chosen (Combat)
-
-**Sources:** Advanced Class Guide pg 149
 
 Your deity guides your hand when you fight with her favored weapon.\
 **Prerequisites:** [Improved Weapon of the Chosen](ref/feat/improved-weapon-of-the-chosen),

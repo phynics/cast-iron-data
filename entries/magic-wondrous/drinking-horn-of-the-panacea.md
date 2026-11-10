@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drinking_horn_of_the_panacea", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Advanced Class Guide pg 229\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
 

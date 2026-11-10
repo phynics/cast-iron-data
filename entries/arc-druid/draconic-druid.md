@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "24"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "wild empathy", "woodland stride", "venom immunity", "a thousand faces", "timeless body", "Nature sense", "Resist nature's lure"]
 +++
 
-**Sources:** Legacy of Dragons pg 24\
 Some druids believe that dragons are the ultimate expression of nature, combining elemental fury
 with majestic beauty. These druids consort with dragons and eventually transform into draconic
 forms.

@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_lyrakien", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "38"
+[[sources]]
+publication = "pathfinder-2-the-skinsaw-murders"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ lights and gentle rainbow arcs._
 
 **Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
 
-**Sources:** Bestiary 2 pg 38, Pathfinder \#2: The Skinsaw Murders pg 86\
 **Subtype:** Azata, Chaotic, Extraplanar, Good
 
 **Size:** tiny

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incite_paranoia", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you successfully feint in combat, if you succeed by 5 or more, t
 +++
 
 ## Incite Paranoia (Combat)
-
-**Sources:** Ultimate Intrigue pg 85
 
 You can convince anyone of her allies' ill intent.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

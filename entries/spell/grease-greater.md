@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/grease" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Subschool: Creation
 :::
 
 ### Greater Grease
-
-**Sources:** Dirty Tactics Toolbox pg 30
 
 This spell functions like [grease](ref/spell/grease), except as noted here. When you use this spell
 to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each

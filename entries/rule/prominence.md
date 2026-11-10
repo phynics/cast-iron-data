@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prominence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 111
 
 An organization's prominence represents the political and social power of that organization in its
 home community or area of influence. The categories of prominence are weak, moderate, strong, and

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "8"
 
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Uncanny dodge", "improved uncanny dodge"]
 +++
 
-**Sources:** Planes of Power pg 8\
 A planar sneak finds creative ways to defy conventional limitations when trying to overcome
 extraplanar obstacles.
 

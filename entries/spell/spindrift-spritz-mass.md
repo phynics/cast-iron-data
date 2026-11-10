@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spindrift-spritz" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -55,7 +58,5 @@ Descriptors: water
 :::
 
 ### Mass Spindrift Spritz
-
-**Sources:** Elemental Master's Handbook pg 14
 
 This spell functions as [spindrift spritz](ref/spell/spindrift-spritz), except as noted above.

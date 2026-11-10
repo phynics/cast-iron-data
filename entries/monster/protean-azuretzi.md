@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protean_azuretzi", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "208"
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ reptilian maw is filled with tiny, sharp teeth._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 208, Pathfinder \#98: Turn of the Torrent pg 86\
 **Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
 
 **Experience points:** 1,600

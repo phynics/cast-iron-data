@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firefall", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "222"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: one fire source, up to a 20-foot cube
 Descriptors: fire
 :::
-
-**Sources:** Advanced Player's Guide pg 222
 
 Firefall causes a fire to erupt into a geyser of dazzlingly bright liquid flame. The spell uses one
 fire source, which is immediately extinguished. A fire larger than a 20-foot cube is only partly

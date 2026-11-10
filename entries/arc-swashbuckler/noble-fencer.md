@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "52"
 
 [fields]
 kind = "archetype"
 replaces = ["Dodging panache", "Superior feint", "Subtle blade", "Charmed life"]
 +++
 
-**Sources:** Ultimate Intrigue pg 52\
 The noble fencer is an aristocrat or other upper-class socialite who trained in dueling from a young
 age. Noble fencers fight with their own style, with distinct differences from those of alley bravos
 or gladiatorial duelists. They use their quick wits and panache in both physical and social

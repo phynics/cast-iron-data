@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkness", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "442"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 442
 
 [Darkvision](ref/rule/darkvision) allows many characters and monsters to see perfectly well without
 any light at all, but characters with normal or [low-light vision](ref/rule/low-light-vision) can be

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
 alters = ["Channel energy", "Domains"]
 +++
 
-**Sources:** Healer's Handbook pg 6\
 Stoic caregivers are champions of life in defiance of untimely death as well as undeath. Stoic
 caregivers are sent to protect and help those who find themselves in dangerous situations,
 especially children and expectant mothers, and they provide aid and comfort to individuals acting to

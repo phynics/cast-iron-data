@@ -6,14 +6,22 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-3", "bestiary-5"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Swarm
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 3, Bestiary 5
 
 A swarm is a collection of Fine, Diminutive, or Tiny creatures that acts as a single creature. A
 swarm has the characteristics of its type, except as noted here. A swarm has a single pool of Hit

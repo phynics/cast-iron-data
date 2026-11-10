@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "legacy-of-fire-player
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "madu_shield_leather", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "9"
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "22"
 
 [fields]
 kind = "item"
@@ -13,7 +22,6 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 9, Adventurer's Armory pg 5, Legacy of Fire Player's Guide pg 22\
 **Cost** 40 gp **Weight** 5 lbs.\
 **Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -2\
 **Arcane Spell Failure Chance** 5%

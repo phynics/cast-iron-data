@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hex-glyph" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no (object) and yes (see text)
 :::
 
 ### Greater Hex Glyph
-
-**Sources:** Advanced Class Guide pg 184
 
 This spell functions as [hex glyph](ref/spell/hex-glyph), except you can store a hex or a major hex
 (but not a grand hex). You trace the glyph with incense, which must first be sprinkled with powdered

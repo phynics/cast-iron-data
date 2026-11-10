@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/charm-person" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: mind-affecting
 :::
 
 ### Charm Fey
-
-**Sources:** The First World, Realm of the Fey pg 12
 
 This spell functions as [charm person](ref/spell/charm-person), except it affects a fey instead of a
 humanoid.

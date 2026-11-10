@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_versus_non_mythic", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 5
 
 As you make your way through these rules, you will see a number of abilities, feats, spells, magic
 items, and monsters refer to "mythic" versus "non-mythic" creatures and sources. For the purposes of

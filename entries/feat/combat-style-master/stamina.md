@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/combat-style-master", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "115"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 115\
 When it is not your turn, you can spend 2 stamina points to take the free action to switch your
 style.

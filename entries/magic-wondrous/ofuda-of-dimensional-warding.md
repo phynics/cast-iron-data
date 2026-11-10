@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ofuda_of_dimensional_warding", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Blood of the Ancients pg 23\
 **Aura** strong abjuration; **CL** 15th\
 **Slot** none; **Price** 80,000 gp; **Weight** -
 

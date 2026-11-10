@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "read_weather", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "238"
+[[sources]]
+publication = "faiths-of-balance"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 238, Faiths of Balance pg 28
 
 This spell allows you to forecast the weather at your location for the next 48 hours, providing you
 with advance warning of storms, tornadoes, and so on. This forecast reveals only the weather that

@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harp_of_storms", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Lands of the Linnorm Kings pg 51\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** none; **Price** 22,000 gp; **Weight** 2 lbs.
 

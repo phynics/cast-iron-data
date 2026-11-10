@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats gained at 1st level, 6th level, 10th level, and 12th level", "weapon training", "weapon mastery", "Armor training"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 7\
 Free-style fighters are most common in Varisia, where their training - with multiple teachers, or
 perhaps instruction in the anything-goes mentality of the Price of Freedom school in Kaer Maga -
 allows them to blend fighting styles into a greater whole.

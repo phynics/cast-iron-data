@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_body_1", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "275"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** PRPG Core Rulebook pg 275
 
 When you cast this spell, you can assume the form of a Small air, earth, fire, or water elemental.
 The abilities you gain depend upon the type of elemental into which you change. Elemental abilities

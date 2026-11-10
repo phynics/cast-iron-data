@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinx_eater", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ He wields a long, curved sword and wears brightly colored studded leather armor.
 
 **Challenge rating:** 2
 
-**Sources:** Isles of the Shackles pg 50\
 **XP** 600\
 Male [rogue](ref/class/rogue) ([charlatan](ref/arc-rogue/charlatan)) 3\
 CN Medium humanoid (tengu)\

@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_offensive_traits", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "236"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 236
 
 **Elemental Weapons (6 RP):** **Prerequisite:** Outsider (native) with ties to an elemental plane;
 **Benefit:** Pick one of the following energy types that corresponds to the plane the race has ties

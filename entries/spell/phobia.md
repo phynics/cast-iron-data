@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phobia", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "124"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one intelligent creature
 Subschool: Compulsion
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 124
 
 You instill the target with an intense, instinctual fear of a condition or circumstance, more
 powerful than the phobia lesser [madness](ref/rule/madness). You can name an energy type (acid,

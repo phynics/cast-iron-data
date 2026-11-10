@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leshy_mulch_manual_gourd_leshy", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "30"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Leshy Mulch Manual
 
-**Sources:** Faiths and Philosophies pg 30\
 **Aura** varies; **CL** varies\
 **Slot** none; **Price** 800 gp (Leaf Leshy), 1,125 gp (Gourd Leshy), 1,875 gp (Fungus Leshy), 3,600
 gp (Seaweed Leshy); **Weight** 5 lbs.

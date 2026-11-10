@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_hunter", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "127"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 127\
 **XP** 204,800\
 Human [paladin](ref/class/paladin) 20\
 LG Medium humanoid (human)\

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thassilonian_sentinel_ivory_sentinel", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-134-it-came-from-hollow-mountain"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ whitened bone._
 
 **Size:** small
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 90\
 **Experience points:** 3,200
 
 **Armor class:** 21/17/15

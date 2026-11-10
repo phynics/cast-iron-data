@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "chronicle-of-le
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawler", path = "json/classes8.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "23"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d10"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 23
 
 Deadly even with nothing in her hands, a brawler eschews using the fighter's heavy armor and the
 monk's mysticism, focusing instead on perfecting many styles of brutal unarmed combat. Versatile,

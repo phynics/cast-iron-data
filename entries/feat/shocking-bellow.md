@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_bellow", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "20"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you act in the surprise round of a combat, as a free action you ca
 +++
 
 ## Shocking Bellow (Combat)
-
-**Sources:** Monster Codex pg 20
 
 You can demoralize a foe with a sudden ferocious scream.\
 **Prerequisites:** [Intimidating Prowess](ref/feat/intimidating-prowess).\

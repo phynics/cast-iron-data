@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_the_magic_warriors", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "220"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes (harmless)
 Target: one good-aligned creature/3 levels
 Descriptors: good
 :::
-
-**Sources:** Inner Sea Races pg 220
 
 > _The following spell is available to the indicated race or ethnicity: Mwangi_
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/hold-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "296"
 
 [fields]
 kind = "spell"
@@ -51,7 +54,5 @@ Descriptors: mind-affecting
 :::
 
 ### Mass Hold Person
-
-**Sources:** PRPG Core Rulebook pg 296
 
 This spell functions like [hold person](ref/spell/hold-person), except as noted above.

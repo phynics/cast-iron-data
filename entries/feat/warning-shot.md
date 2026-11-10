@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warning_shot", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a standard action, you can make a ranged touch attack using a rang
 +++
 
 ## Warning Shot (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 11
 
 An intentional near-miss demonstrates your frightening skill at range.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot),

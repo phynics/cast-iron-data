@@ -6,6 +6,9 @@ source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_seven_veils", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "pathfinder-135-runeplague"
+page = "67"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion and transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#135: Runeplague pg 67\
 **Aura** moderate illusion and transmutation; **CL** 9th\
 **Slot** head or neck; **Price** 27,000 gp; **Weight** -
 

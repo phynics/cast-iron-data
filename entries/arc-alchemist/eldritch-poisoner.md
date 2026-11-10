@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "28"
 
 [fields]
 kind = "archetype"
 replaces = ["Bomb", "Throw Anything", "Mutagen", "persistent mutagen", "The discovery gained at 4th level"]
 +++
 
-**Sources:** Black Markets pg 28\
 Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons
 with uncanny speed and expertise.
 

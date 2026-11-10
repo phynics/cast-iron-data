@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "287"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: one creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 287
 
 The subject is freed from spells and effects that restrict movement, including binding, entangle,
 grappling, imprisonment, maze, paralysis, petrification, pinning, sleep, slow, stunning, temporal

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/enlarge-person" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "278"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 :::
 
 ### Mass Enlarge Person
-
-**Sources:** PRPG Core Rulebook pg 278
 
 This spell functions like [enlarge person](ref/spell/enlarge-person), except that it affects
 multiple creatures.

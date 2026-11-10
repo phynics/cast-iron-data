@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_attack_rolls", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 148
 
 When casting a spell or using a magical effect that allows a saving throw, the caster makes a spell
 attack roll, rolling 1d20 with a bonus equal to her spellcasting ability modifier plus the spell's

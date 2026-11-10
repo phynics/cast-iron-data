@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/surmount-affliction", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 110\
 You can cast this spell with no verbal or somatic component, and even if you're helpless (but not
 unconscious). You temporarily overcome a number of additional harmful conditions equal to half your
 tier.

@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_squire", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: see text
 Descriptors: force
 :::
-
-**Sources:** Armor Master's Handbook pg 23
 
 This spell causes an ally made of pure force to appear in a single 5-foot square within range. The
 ally takes the form of a servant of your god (if any) or an ancestor. The spiritual squire occupies

@@ -6,6 +6,9 @@ source_ids = ["cheliax-the-infernal-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_infused", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "cheliax-the-infernal-empire"
+page = "61"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +2
 
 **Inherited:** present
-
-**Source:** Cheliax, the Infernal Empire/61
 
 Although most golems are animated by the spirits of elementals, certain reckless or daring golem
 crafters instead bind evil outsiders such as [daemons](ref/family/daemon),

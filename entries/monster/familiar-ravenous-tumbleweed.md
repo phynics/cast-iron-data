@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_ravenous_tumbleweed", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This tangle of dry-looking vegetation has grown into a spherical ball of thorny
 
 **Type:** plant
 
-**Sources:** Ultimate Wilderness pg 205\
 **Size:** tiny
 
 **Experience points:** 135

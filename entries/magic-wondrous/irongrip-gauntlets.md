@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irongrip_gauntlets", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Monster Codex pg 69\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** hands; **Price** 4,000 gp; **Weight** 2 lbs.
 

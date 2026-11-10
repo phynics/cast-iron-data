@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "range", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "213"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 213
 
 A spell's range indicates how far from you it can reach, as defined in the range entry of the spell
 description. A spell's range is the maximum distance from you that the spell's effect can occur, as

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belkzen_battle_standard_orc", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "229"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Races pg 229\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
 

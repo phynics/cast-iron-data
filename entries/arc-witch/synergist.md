@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/witch" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "9"
 
 [fields]
 kind = "archetype"
 replaces = ["1st-, 8th-, and 14th-level hexes"]
 +++
 
-**Sources:** Familiar Folio pg 9\
 Synergists gain the ability to combine their forms with their familiars' in order to create
 something more powerful than either alone.
 

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tumbling_upset", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "If you fail a trip combat maneuver check by 10 or more, you are knocke
 +++
 
 ## Tumbling Upset (Combat)
-
-**Sources:** Martial Arts Handbook pg 25
 
 You nimbly dodge beneath your opponent, creating an opportunity to upend your foe.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

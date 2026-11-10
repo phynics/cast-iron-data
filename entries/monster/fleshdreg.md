@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshdreg", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "100"
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +47,6 @@ jagged teeth and a slavering tongue._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 100, Pathfinder \#61: Shards of Sin pg 82\
 **Experience points:** 400
 
 **Armor class:** 14/12/13

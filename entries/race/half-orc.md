@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "heroes
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_orc", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "237"
+[[sources]]
+publication = "advanced-race-guide"
+page = "50"
+[[sources]]
+publication = "core-rulebook"
+page = "25"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 237, Advanced Race Guide pg 50, PRPG Core Rulebook pg 25\
 As seen by civilized races, half-orcs are monstrosities, the result of perversion and violence -
 whether or not this is actually true. Half-orcs are rarely the result of loving unions, and as such
 are usually forced to grow up hard and fast, constantly fighting for protection or to make names for

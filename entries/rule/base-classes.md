@@ -6,13 +6,23 @@ source_ids = ["advanced-players-guide", "ultimate-combat", "ultimate-intrigue", 
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "base_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "26"
+[[sources]]
+publication = "ultimate-combat"
+page = "9"
+[[sources]]
+publication = "ultimate-intrigue"
+page = "9"
+[[sources]]
+publication = "ultimate-magic"
+page = "9"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Player's Guide pg 26, Ultimate Combat pg 9, Ultimate Intrigue pg 9, Ultimate
-Magic pg 9\
 While most common folk have shared ale with a fighter or perhaps even seen a wizard perform an
 awesome act of magic, these are not the only adventurers known to legends and history. The following
 character classes present new options for players and greater variety for a Game Master's cast of

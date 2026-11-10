@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entrap_spirit", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "170"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: incorporeal creature or haunt
 :::
-
-**Sources:** Occult Adventures pg 170
 
 You trap the target in the mirror used as the spell's focus. The target cannot be affected by any
 means while inside the mirror. If the mirror is destroyed, any incorporeal creature within is

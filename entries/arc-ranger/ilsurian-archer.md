@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "6"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Track", "wild empathy", "Spellcasting ability", "Swift tracking", "
 alters = ["Combat style"]
 +++
 
-**Sources:** Weapon Master's Handbook pg 6\
 Ilsurian archers maintain the strong tradition of archery first developed by soldiers in the service
 of Ilsur, who raised a small army with which he intended to overthrow the monarch of Korvosa after
 the fall of the Chelish Empire. Though Ilsur's Arena teaches only the basics of these techniques, a

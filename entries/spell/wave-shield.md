@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_shield", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Descriptors: water
 :::
-
-**Sources:** Advanced Class Guide pg 199
 
 You create a rushing torrent of water in the rough outline of a shield. The water protects you from
 one physical or fire attack, granting you DR/- and fire resistance equal to half your caster level

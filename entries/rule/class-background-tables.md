@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_background_tables", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "25-43"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg. 25-43
 
 ### Alchemist
 

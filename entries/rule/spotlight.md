@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spotlight", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "32"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 32
 
 There are many in-game tricks that a GM can use to convey information or rework elements of his
 game, including those mentioned above. The most powerful technique, though, is simply describing a

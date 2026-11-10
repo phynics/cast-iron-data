@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "book-of-the-damned-volume-2-lords-of-chaos", "b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kostchtchie", path = "json/faiths5.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "320"
 
 [fields]
 kind = "none"
@@ -15,7 +18,6 @@ kind = "none"
 
 **Sub:** The Deathless Frost
 
-**Sources:** Inner Sea Gods pg 320\
 **Monster Link** [Kostchtchie](ref/monster/demon-lord-kostchtchie)
 
 ### Details

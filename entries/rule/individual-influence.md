@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "individual_influence", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "102"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 102
 
 The most common model for social encounters involves a single exchange involving a Bluff, Diplomacy,
 or Intimidate check. The following influence system serves as a more robust replacement for that

@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_disciple", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "380"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d12."
 +++
-
-**Sources:** PRPG Core Rulebook pg 380
 
 As some of the most ancient, powerful, and capricious creatures in existence, dragons occasionally
 enter into trysts with unsuspecting mortals or sire offspring with exceptional individuals.

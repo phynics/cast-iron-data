@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayed", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are in a harmful area of effect created by an ally (through 
 +++
 
 ## Betrayed (Story)
-
-**Sources:** Agents of Evil pg 8
 
 Believing in a just cause left you with a knife in your back. Now you hoard your trust in others,
 rarely sharing it.\

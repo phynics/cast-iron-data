@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_form_1", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "229"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Ultimate Wilderness pg 229
 
 You assume the form of a Small or Medium creature of the fey type. Your base speed changes to match
 the new form's base speed, with a maximum speed of 60 feet (even if the chosen fey form has a base

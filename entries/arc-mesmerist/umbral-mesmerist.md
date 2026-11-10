@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mesmerist tricks gained at 1st, 4th, 8th, 12th, 16th, and 20th leve
 alters = ["Spellcasting"]
 +++
 
-**Sources:** Occult Realms pg 16\
 Trained in secret, umbral mesmerists are clandestine weapons who spend years learning how to shape
 terrifying creatures from the inky darkness in which they revel.
 

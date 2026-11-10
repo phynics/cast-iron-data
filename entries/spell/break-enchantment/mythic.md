@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/break-enchantment", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 Against non-mythic effects, the spell automatically succeeds without requiring a caster level check.
 Against mythic effects, add your tier to your caster level check. The maximum level of spell this
 spell can remove is 5 + half your tier.

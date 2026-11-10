@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lens_of_galundari", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming abjuration"
 caster_level = "22nd"
 +++
 
-**Sources:** Artifacts and Legends pg 30\
 **Aura** overwhelming abjuration; **CL** 22nd\
 **Slot** none; **Price** -; **Weight** 10 lbs.
 

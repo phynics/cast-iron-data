@@ -6,12 +6,13 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_buildings", path = "json/rules_subsystems03.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "16"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of the Wild pg 16
 
 The following buildings are found in Golarion's wilds.
 

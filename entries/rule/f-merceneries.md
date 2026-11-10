@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_merceneries", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "12"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 12\
 **Pathfinder Name:** Bloodstone Swords\
 **Goal:** make a living as merceneries, but preferring to do so without harming common folk\
 **Alignment:** N\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/heal" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "294"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Subschool: Healing
 :::
 
 ### Mass Heal
-
-**Sources:** PRPG Core Rulebook pg 294
 
 This spell functions like [heal](ref/spell/heal), except as noted above. The maximum number of hit
 points restored to each creature is 250.

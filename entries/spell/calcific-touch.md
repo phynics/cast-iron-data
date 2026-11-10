@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calcific_touch", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "208"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: creature or creatures touched (up to one per level)
 Descriptors: earth
 :::
-
-**Sources:** Advanced Player's Guide pg 208
 
 Your touch progressively transmutes the substance of creatures you touch into stone. Once per round,
 you may deliver a touch attack that inflicts 1d4 points of Dexterity damage and

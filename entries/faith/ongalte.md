@@ -6,6 +6,9 @@ source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ongalte", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "pathfinder-144-midwives-to-death"
+page = "75-76"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ongalte**
 
 **Sub:** Death of Divinity
-
-**Sources:** Pathfinder \#144: Midwives to Death pg. 75-76
 
 ### Details
 

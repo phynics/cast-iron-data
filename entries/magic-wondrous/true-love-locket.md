@@ -6,6 +6,12 @@ source_ids = ["pathfinder-92-the-hill-giants-pledge", "pathfinder-91-battle-of-b
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_love_locket", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-92-the-hill-giants-pledge"
+page = "19"
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#92: The Hill Giant's Pledge pg 19, Pathfinder \#91: Battle of Bloodmarch
-Hills pg 61\
 **Aura** faint divination; **CL** 3rd\
 **Slot** neck; **Price** 6,000 gp; **Weight** -
 

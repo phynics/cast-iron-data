@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pooka", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "216"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ grin gleams on her face._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 216\
 **Size:** tiny
 
 **Experience points:** 600

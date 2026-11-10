@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_magic", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "144"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 144
 
 Wizards study ancient tomes to unlock arcane secrets of the universe, and clerics pray to distant
 deities to grant them divine power. Yet there is a third, more esoteric kind of magic, connected to

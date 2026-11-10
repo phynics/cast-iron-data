@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "termite_swarm", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "242"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _The ground teems with crawling termites, biting and stinging as they come._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 5 pg 242\
 **Subtype:** Swarm
 
 **tremorsense:** 60

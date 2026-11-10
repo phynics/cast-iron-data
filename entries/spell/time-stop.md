@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_stop", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "359"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 359
 
 This spell seems to make time cease to flow for everyone but you. In fact, you speed up so greatly
 that all other creatures seem frozen, though they are actually still moving at their normal speeds.

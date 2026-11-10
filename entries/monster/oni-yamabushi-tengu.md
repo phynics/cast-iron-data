@@ -6,6 +6,9 @@ source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_yamabushi_tengu", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-49-the-brinewall-legacy"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ prodigious nose, and large raven-like wings._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Pathfinder \#49: The Brinewall Legacy pg 88\
 **Subtype:** Native, Oni, Shapechanger
 
 **Experience points:** 1,600

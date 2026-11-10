@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/dispel-magic" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "206"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: none
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Ultimate Magic pg 206
 
 This spell functions as a targeted [dispel magic](ref/spell/dispel-magic) spell, except it only
 affects creatures and it requires a melee touch attack. If the melee touch attack is successful and

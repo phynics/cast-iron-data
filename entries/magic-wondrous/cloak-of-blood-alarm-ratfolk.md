@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_blood_alarm_ratfolk", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Sources:** Inner Sea Races pg 230\
 **Aura** moderate divination; **CL** 8th\
 **Slot** shoulders; **Price** 3,200 gp; **Weight** 1 lb.
 

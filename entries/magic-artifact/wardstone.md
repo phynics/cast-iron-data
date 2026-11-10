@@ -6,6 +6,12 @@ source_ids = ["inner-sea-world-guide", "the-demon-within"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wardstone", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "301"
+[[sources]]
+publication = "the-demon-within"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Sources:** Inner Sea World Guide pg 301, The Demon Within pg 31\
 **Aura** strong abjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2,500 lbs.
 

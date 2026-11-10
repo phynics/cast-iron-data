@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shield-other" },
 ]
+[[sources]]
+publication = "gods-and-magic"
+page = "43"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: evil
 :::
-
-**Sources:** Gods and Magic pg 43
 
 This spell functions like [shield other](ref/spell/shield-other), except some of your wounds
 transfer to the targeted creature rather than some of their wounds transferring to you. For example,

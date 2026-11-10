@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sundering_strike", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "171"
 
 [fields]
 kind = "feat"
@@ -18,8 +21,6 @@ special = "You can only apply the effects of one of the following feats to a giv
 +++
 
 ## Sundering Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 171
 
 Your critical hits can sunder your foes' weapons.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

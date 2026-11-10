@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Inspire competence", "Lore master"]
 +++
 
-**Sources:** Heroes of the High Court pg 6\
 Arguably the oldest and most widespread role for a court entertainer is that of the court jester or
 fool. This role arose from the need to offset the intense, even deadly, seriousness of court
 business. The court fool serves as an outlet for the constant pressure of aristocratic dealings,

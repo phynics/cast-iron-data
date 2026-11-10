@@ -6,6 +6,9 @@ source_ids = ["bestiary-2", "pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juju_zombie", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "291"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Bestiary 2/291
 
 A juju zombie is an animated corpse of a creature, created to serve as an undead minion, that
 retains the skills and abilities it possessed in life.

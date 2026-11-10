@@ -6,6 +6,9 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accept_affliction", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: creature touched
 Subschool: Healing
 Descriptors: good
 :::
-
-**Sources:** Champions of Purity pg 28
 
 The caster can transfer the effects of afflictions such as curses, diseases, and poisons from the
 target creature to himself. This spell can also transfer the blinded, deafened, fatigued, nauseated,

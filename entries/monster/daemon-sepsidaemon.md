@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_sepsidaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "243"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ and then, a grasping claw extends forth._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Book of the Damned pg 243\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 3,200

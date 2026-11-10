@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_breathing", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "368"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: living creatures touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 368
 
 The transmuted creatures can breathe water freely. Divide the duration evenly among all the
 creatures you touch. The spell does not make creatures unable to breathe air.

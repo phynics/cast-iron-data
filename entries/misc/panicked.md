@@ -6,12 +6,14 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panicked", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "568"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** PRPG Core Rulebook pg 568\
 A panicked creature must drop anything it holds and flee at top speed from the source of its fear,
 as well as any other dangers it encounters, along a random path. It can't take any other actions. In
 addition, the creature takes a -2 penalty on all saving throws, skill checks, and ability checks. If

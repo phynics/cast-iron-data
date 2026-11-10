@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marshes_swamps_and_bogs", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "222"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 222
 
 Swamps are forested lowland marshes that sit at the junctures of multiple sources of water,
 maintaining a constant seep and flow that filters water from higher elevations. Bogs differ from

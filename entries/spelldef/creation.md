@@ -6,14 +6,15 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creation", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "209"
 
 [fields]
 kind = "none"
 +++
 
 ## Creation (subschool of magic)
-
-**Sources:** PRPG Core Rulebook pg 209
 
 A creation spell manipulates matter to create an object or creature in the place the spellcaster
 designates. If the spell has a duration other than instantaneous, magic holds the creation together,

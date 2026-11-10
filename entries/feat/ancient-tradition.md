@@ -6,14 +6,15 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_tradition", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "8"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (history) 3 ranks, must have a connection to a lost culture (see text)."
 benefit = "Each lost culture has its own daily ritual, but none of them take more than 1 hour per day to perform. Once you've performed the daily ritual, you gain the benefit of a special ability or resistance as indicated in the Daily Ritual entry for the culture in question. Specific cultures and their rituals are listed below."
 +++
-
-**Sources:** Blood of the Ancients pg 8
 
 You have devoted yourself to keeping the traditions of an ancient or lost culture alive and well,
 and you gain strength from your devotion to the old ways.\

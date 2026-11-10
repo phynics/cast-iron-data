@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrewd_tactician", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "289"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Opponents do not gain a +2 bonus on attack rolls for flanking you, al
 +++
 
 ## Shrewd Tactician (Combat)
-
-**Sources:** Inner Sea World Guide pg 289
 
 Your dealings with pirates, thieves, and assassins have taught you to be exceedingly careful.\
 **Prerequisites:** [Alertness](ref/feat/alertness), [Combat Reflexes](ref/feat/combat-reflexes).\

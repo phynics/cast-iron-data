@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisdom_of_jatembe_nine_warriors_edition", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "13"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ category = "Spellbooks"
 
 _The cover of this thick tome a patchwork of sections of different hides, whose colors and textures
 form a stylized depiction of an animal face._
-
-**Sources:** Arcane Anthology pg 13
 
 **Value** 13,415 gp (38,415 gp with the preparation ritual)
 

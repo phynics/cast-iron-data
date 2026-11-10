@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifact_hunter", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Use Magic Device checks when emulating a class
 +++
 
 ## Artifact Hunter (Story)
-
-**Sources:** Quests and Campaigns pg 7
 
 You seek an artifact - either a specific one or merely any item of legendary prowess - with dogged
 tenacity.\

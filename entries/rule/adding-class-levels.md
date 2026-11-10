@@ -6,12 +6,13 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adding_class_levels", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "296"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder RPG Bestiary pg 296
 
 Of all the methods of advancing a monster, adding class levels requires the most adjudication and
 careful comparison. Some classes truly add to the power and abilities of some monster types, while

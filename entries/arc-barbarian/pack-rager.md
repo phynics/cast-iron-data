@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "92"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd, 6th, 10th, 14th, and 18th level rage powers", "Damage reduction"]
 +++
 
-**Sources:** Monster Codex pg 92\
 Barbarian rages can be a thing of savage beauty, exhibiting a lethal grace. While such uncontrolled
 displays of carnage often disregard group tactics, there are those barbarians whose rages inspire
 and spur on their allies during the ferocious dance of death.

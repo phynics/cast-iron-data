@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paladins_sacrifice", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Fortitude negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 234
 
 You open up a brief but powerful divine conduit between you and another creature, taking on the
 damage and any other effects that creature suffers. When a creature in range is hit by an attack or

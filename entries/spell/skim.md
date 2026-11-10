@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skim", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Blood of the Ancients pg 19
 
 This spell allows you to read written material in a quarter of the time it would normally take to
 read it. If you use this spell in conjunction with comprehend languages, you can read otherwise

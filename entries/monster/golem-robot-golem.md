@@ -6,6 +6,9 @@ source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_robot_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ some force other than its own rattling gears._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Numeria, Land of Fallen Stars pg 49\
 **Experience points:** 12,800
 
 **Armor class:** 27/9/27

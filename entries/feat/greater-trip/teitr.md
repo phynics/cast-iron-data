@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-trip" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -15,7 +17,6 @@ benefit = "You receive a +2 bonus on checks made to trip a foe. This bonus stack
 normal = "Creatures do not provoke attacks of opportunity from being tripped."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can make free attacks on foes that you knock down.\
 **Prerequisites:** [Deft Maneuvers](ref/rule/deft-maneuvers), base attack bonus +6, Int 13.\
 **Benefit:** You receive a +2 bonus on checks made to [trip](ref/rule/trip) a foe. This bonus stacks

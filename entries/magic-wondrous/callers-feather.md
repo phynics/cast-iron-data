@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callers_feather", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 20\
 **Aura** strong conjuration; **CL** 15th\
 **Slot** head; **Price** 2,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrotechnics", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "328"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates or Fortitude negates; see text
 Spell resistance: yes or no; see text
 Target: one fire source, up to a 20-ft. cube
 :::
-
-**Sources:** PRPG Core Rulebook pg 328
 
 Pyrotechnics turns a fire into a burst of blinding fireworks or a thick cloud of choking smoke,
 depending on your choice. The spell uses one fire source, which is immediately extinguished. A fire

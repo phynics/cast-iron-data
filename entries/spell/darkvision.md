@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvision", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "264"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 264
 
 The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white
 only but otherwise like normal sight.

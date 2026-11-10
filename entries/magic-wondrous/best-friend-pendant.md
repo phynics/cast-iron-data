@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "best_friend_pendant", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "243"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration and transmutation (normal), moderate conjuration and t
 caster_level = "5th (normal), 7th (greater)"
 +++
 
-**Sources:** Ultimate Intrigue pg 243\
 **Aura** faint conjuration and transmutation (normal), moderate conjuration and transmutation
 (greater); **CL** 5th (normal), 7th (greater)\
 **Slot** neck; **Price** 5,000 gp (normal), 9,000 gp (greater); **Weight** -

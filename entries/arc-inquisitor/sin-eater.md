@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "46"
 
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Teamwork feat gained at 6th level", "Exploit weakness"]
 +++
 
-**Sources:** Ultimate Magic pg 46\
 There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies
 of the church - one must also devour those enemies' sins. More benign versions of the practice
 believe that sin, or evil, is taken out of the world when a sin is devoured, denying the enemy's

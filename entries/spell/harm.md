@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harm", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Will half; see text
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 Harm charges a subject with negative energy that deals 10 points of damage per caster level (to a
 maximum of 150 points at 15th level). If the creature successfully saves, harm deals half this

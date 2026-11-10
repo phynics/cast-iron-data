@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impressive_grit", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "21"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can select Impressive Grit up to three times. Each time you selec
 +++
 
 ## Impressive Grit (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 21
 
 Your mastery of ranged weapons allows you to perform impressive deeds.\
 **Prerequisites:** Base attack bonus +11, weapon training class feature with a ranged weapon.\

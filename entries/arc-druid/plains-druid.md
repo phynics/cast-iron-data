@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "100"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom 
 alters = ["Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 100\
 Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands.
 These druids range far and wide, watching over nomadic tribes and wandering herds and preserving the
 sometimes fragile ecosystem of the wide open spaces.

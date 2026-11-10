@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon_ceustodaemon", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "65"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ horned ape._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
 
-**Sources:** Bestiary 2 pg 65\
 **Subtype:** Daemon, Evil, Extraplanar
 
 **Experience points:** 2,400

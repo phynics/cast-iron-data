@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plagued", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "58-59"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg. 58-59\
 Disease can become a corruption when it causes long-lasting and physical changes to the body.
 
 ### Catalyst

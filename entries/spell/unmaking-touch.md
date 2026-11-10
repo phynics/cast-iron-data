@@ -6,12 +6,14 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unmaking_touch", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "47"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Concordance of Rivals pg 47\
 **School** transmutation; **Level** 5\
 **Casting Time** 50 minutes\
 **Components** V, S, F (a [chaos emerald](ref/magic-wondrous/chaos-emerald)), SC (up to the Charisma

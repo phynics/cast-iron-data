@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weeping_waste", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 132
 
 **CR 10**
 

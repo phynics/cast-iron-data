@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_warrior", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "237"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ it has a long, bladed tail._
 
 **Senses:** Hive mind
 
-**Sources:** Horror Adventures pg 237\
 **Subtype:** Hive
 
 **Experience points:** 1,600

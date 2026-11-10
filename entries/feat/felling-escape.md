@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felling_escape", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "101"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you break an opponent's grapple with a combat maneuver check or 
 +++
 
 ## Felling Escape (Combat)
-
-**Sources:** Ultimate Combat pg 101
 
 Through the use of fluid contortions and manipulations of leverage, you can throw your opponent to
 the ground after escaping a grapple.\

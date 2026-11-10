@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusa", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "201"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ hair._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 201\
 **Experience points:** 3,200
 
 **Armor class:** 15/12/13

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_mud_to_rock", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "361"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Area: up to two 10-ft. cubes/level (S)
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 361
 
 This spell permanently transforms normal mud or quicksand of any depth into soft stone (sandstone or
 a similar mineral).

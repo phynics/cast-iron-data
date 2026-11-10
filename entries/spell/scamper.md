@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scamper", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "234"
+[[sources]]
+publication = "animal-archive"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -38,8 +44,6 @@ Saving throw: none
 Spell resistance: no
 Target: your animal companion
 :::
-
-**Sources:** Ultimate Wilderness pg 234, Animal Archive pg 25
 
 Your animal companion moves with astonishing agility and speed until the end of its turn. It can
 move at full speed while using Acrobatics, and it gains a competence bonus equal to twice your

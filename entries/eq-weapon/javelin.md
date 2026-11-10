@@ -6,15 +6,24 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-combat", "ult
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "javelin", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, PRPG Core Rulebook pg 142, Ultimate Combat pg 144,
-Ultimate Equipment pg 17
 
 A javelin is a thin throwing spear. Since it is not designed for melee, you are treated as
 nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.

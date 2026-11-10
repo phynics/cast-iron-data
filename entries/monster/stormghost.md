@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-70-the-frozen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stormghost", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "236"
+[[sources]]
+publication = "pathfinder-70-the-frozen-stars"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ atop its humanoid torso._
 **Senses:** All-around vision, Darkvision 90 ft., Low-light vision, Mistsight, Scent, See in
 darkness
 
-**Sources:** Bestiary 5 pg 236, Pathfinder \#70: The Frozen Stars pg 84\
 **Experience points:** 51,200
 
 **Armor class:** 30/18/21

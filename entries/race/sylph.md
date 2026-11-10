@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hop
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sylph", path = "json/races4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "250"
+[[sources]]
+publication = "bestiary-2"
+page = "258"
+[[sources]]
+publication = "advanced-race-guide"
+page = "156"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 250, Bestiary 2 pg 258, Advanced Race Guide pg 156\
 Born from the descendants of humans and beings of elemental air such as djinn, sylphs are a shy and
 reclusive race consumed by intense curiosity. Sylphs spend their lives blending into the crowd,
 remaining unnoticed as they spy and eavesdrop on the people around them. They call this hobby

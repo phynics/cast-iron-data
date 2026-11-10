@@ -6,14 +6,15 @@ source_ids = ["pathfinder-88-valley-of-the-brain-collectors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshnet_cannon", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
+page = "63"
 
 [fields]
 kind = "item"
 category = "Technological Weapons"
 weight = "11 lbs."
 +++
-
-**Sources:** Pathfinder \#88: Valley of the Brain Collectors pg 63
 
 **Cost** 3,000 gp\
 **Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.\

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "75"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Swift tracker", "Quarry", "Improved quarry", "Master hunter"]
 +++
 
-**Sources:** Ultimate Wilderness pg 75\
 Hailing from primitive roots in the wild, some rangers venture to more civilized lands and learn
 their ways. Wild souls carry these more refined teachings back to the frontier lands of their birth,
 and they employ that knowledge in defense of their homes.

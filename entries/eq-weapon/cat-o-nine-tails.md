@@ -6,15 +6,21 @@ source_ids = ["adventurers-armory-2", "pirates-of-the-inner-sea", "skull-and-sha
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_o_nine_tails", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "19"
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "6"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Pirates of the Inner Sea pg 19, Skull and Shackles Player's
-Guide pg 6
 
 This short whip is made of nine knotted thongs about 3 feet in length. A cat-o'-nine-tails deals no
 damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher.

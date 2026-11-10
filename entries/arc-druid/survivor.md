@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Resist nature's lure", "Wild shape", "Venom immunity"]
 alters = ["Spellcasting", "Nature bond"]
 +++
 
-**Sources:** Champions of Balance pg 24\
 The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of
 more pragmatic and worldly survival methods.
 

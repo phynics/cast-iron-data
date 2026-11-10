@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_suppression", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one dragon
 :::
-
-**Sources:** Dragonslayer's Handbook pg 28
 
 A dragon that fails its saving throw cannot use its breath weapon for the duration of the spell and
 is treated as one age category younger for determining which special abilities it can use. For

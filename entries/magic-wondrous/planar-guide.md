@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_guide", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "13"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Sources:** The First World, Realm of the Fey pg 13\
 **Aura** faint divination; **CL** 3rd\
 **Slot** none; **Price** 5,400 gp; **Weight** 1/2 lb.
 

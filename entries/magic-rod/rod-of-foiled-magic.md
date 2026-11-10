@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_foiled_magic", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "350"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "strong (no school)"
 caster_level = "17th"
 +++
-
-**Sources:** Ultimate Equipment pg 350
 
 **Aura** strong (no school); **CL** 17th\
 **Slot** none; **Weight** 5 lbs.

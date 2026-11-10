@@ -6,12 +6,13 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "language_quality", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Race Guide pg 219
 
 The next step is to pick the race's language quality. This quality determines the starting languages
 and bonus languages for the race. There are three options. In cases where the language trait

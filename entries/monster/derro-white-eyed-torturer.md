@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_white_eyed_torturer", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "27"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ three of this wild-haired man's limbs._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 27\
 **Subtype:** Derro
 
 **Experience points:** 19,200

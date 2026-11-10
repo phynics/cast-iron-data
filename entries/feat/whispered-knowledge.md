@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispered_knowledge", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "58"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can gain this feat multiple times. Its effects do not stack. Each
 +++
 
 ## Whispered Knowledge (Faction)
-
-**Sources:** Faction Guide pg 58
 
 You possess secret knowledge that enhances and helps perfect your undead form.\
 **Prerequisites:** Corporeal undead, [Whispering Way](ref/rule/f-gravepath) 15 TPA.\

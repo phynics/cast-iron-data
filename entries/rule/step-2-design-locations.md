@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_design_locations", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "126"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 126
 
 As a general rule, each territory should contain at least one location to discover; otherwise
 there's little point to exploring a territory. In some cases, you need to design only a single

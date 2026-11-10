@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "myceloid", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "196"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ cap for a head._
 
 **Type:** plant
 
-**Sources:** Bestiary 3 pg 196\
 **Experience points:** 1,200
 
 **Armor class:** 16/10/16

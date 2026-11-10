@@ -6,12 +6,14 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiversal_knowledge", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "46"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Concordance of Rivals pg 46\
 **School** divination; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (a spool of silver wire), F (a compendium, encyclopedia, or similar book

@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reach_defense", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "This feat counts as Dodge for the purposes of qualifying for the Mobi
 +++
 
 ## Reach Defense (Combat)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 You are proficient at avoiding polearms and long-limbed creatures.\
 **Prerequisites:** Dex 15\

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_horned_devil_cornugon", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "76"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ whirling barbed chain._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder RPG Bestiary pg 76\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 76,800

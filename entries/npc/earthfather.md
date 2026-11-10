@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthfather", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "79"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 79\
 **XP** 204,800\
 Dwarf [druid](ref/class/druid) 20\
 NE Medium humanoid (dwarf)\

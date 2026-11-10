@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_encounters", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "397"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 397
 
 The heart of any adventure is its encounters. An encounter is any event that puts a specific problem
 before the PCs that they must solve. Most encounters present combat with monsters or hostile NPCs,

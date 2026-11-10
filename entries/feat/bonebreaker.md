@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonebreaker", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you make a successful Stunning Fist attempt against an opponent 
 +++
 
 ## Bonebreaker (Combat)
-
-**Sources:** Ultimate Combat pg 90
 
 When your opponent is unable to adequately defend against them, your precise unarmed strikes break
 bone and tear tissue.\

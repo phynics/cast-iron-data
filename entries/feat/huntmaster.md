@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huntmaster", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "77"
 
 [fields]
 kind = "feat"
 prerequisites = "Handle Animal 1 rank; either the animal companion, divine bond (mount), or mount class feature; human."
 benefit = "If you have the animal companion class feature, pick one of the following types of animal companions that this feat affects: bird, dog, small cat, or horse. If you have the divine bond (mount) or mount class feature, this feat always affects horses."
 +++
-
-**Sources:** Advanced Race Guide pg 77
 
 You are an expert trainer of horses, hounds, falcons, or hunting cats.\
 **Prerequisites:** Handle Animal 1 rank; either the animal companion, divine bond (mount), or mount

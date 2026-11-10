@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erosion", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "46"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Erosion Domain
-
-**Sources:** Ultimate Wilderness pg 46
 
 **Granted Powers:** You command the crumbling of stone and revel in rust; the decay and destruction
 of metal and stone over time appeals to and delights you.

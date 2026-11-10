@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_grapple", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "127"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "You provoke an attack of opportunity when performing a grapple combat 
 +++
 
 ## Improved Grapple (Combat)
-
-**Sources:** PRPG Core Rulebook pg 127
 
 You are skilled at grappling opponents.\
 **Prerequisites:** Dex 13, [Improved Unarmed Strike](ref/feat/improved-unarmed-strike).\

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "music", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 31
 
 Watch a movie sometime with subtitles instead of sound, and you'll quickly realize just how much
 emotional weight the music carries. The acting, images, and words are important, but the music pulls

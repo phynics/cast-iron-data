@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_varisian_hagfish", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _A mouth like a lamprey's gnashes curved teeth at one end of this slimy, eel-lik
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 82\
 **Subtype:** Aquatic
 
 **Size:** tiny

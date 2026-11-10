@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/detect-evil" },
 ]
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none (see text)
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** Demon Hunter's Handbook pg 26
 
 You sense the presence of a specific kind of evil-that of demons, their servants, and the Abyss. The
 amount of information revealed depends on how long you study a particular area or subject.

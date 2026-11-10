@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseat", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When charging an opponent while mounted and wielding a lance, resolve
 +++
 
 ## Unseat (Combat)
-
-**Sources:** PRPG Core Rulebook pg 136
 
 You are skilled at unseating your mounted opponents.\
 **Prerequisites:** Str 13, Ride 1 rank, [Mounted Combat](ref/feat/mounted-combat),

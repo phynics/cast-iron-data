@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaki", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "118"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ elongated, showing sharp, worn teeth._
 
 **Senses:** Darkvision 60 ft., Detect evil
 
-**Sources:** Bestiary 4 pg 118\
 **Type:** undead
 
 **Experience points:** 3,200

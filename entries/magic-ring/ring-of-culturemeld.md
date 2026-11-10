@@ -6,6 +6,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_culturemeld", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "5"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Bastards of Golarion pg 5\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** ring; **Price** 7,800 gp; **Weight** -
 

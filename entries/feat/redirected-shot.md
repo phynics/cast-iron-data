@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As long as you have at least 1 grit point, after an ally has made a r
 +++
 
 ## Redirected Shot (Combat, Grit)
-
-**Sources:** Inner Sea Combat pg 17
 
 You can redirect your allies' poorly aimed ranged attacks with incredible accuracy.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) or the grit class feature,

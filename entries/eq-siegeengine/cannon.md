@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannon", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "162"
 
 [fields]
 kind = "item"
 category = "Siege Engines"
 weight = "-"
 +++
-
-**Sources:** Ultimate Combat pg 162
 
 Cannons are crafted of metal - some are cast in one piece, others welded with iron bands - and
 mounted either in the ground or on wooden frames. Cannons use black powder to propel their

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_telling", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "238"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 238
 
 Fortune-telling conjures images of hazy tents, mysterious women shrouded in shawls, and portents
 wafting through the air like incense.

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_interlocutor", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ veins, organs, and twisted flesh._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 174\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 19,200

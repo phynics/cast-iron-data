@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rogue", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "248"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 or +2
 
 **Simple:** present
-
-**Source:** Monster Codex/248
 
 A [rogue](ref/class/rogue) creature gains [sneak attack](ref/ability/sneak-attack). It also gains
 defensive abilities and rogue talents if it has 10 or more Hit Dice. A rogue creature's CR increases

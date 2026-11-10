@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_master", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you are at 0 or fewer hit points, you do not lose 1 hit point wh
 +++
 
 ## Deathless Master (Combat)
-
-**Sources:** Ultimate Combat pg 95
 
 Even if you suffer a grievous wound, you can shrug off the damage and continue your relentless
 assault.\

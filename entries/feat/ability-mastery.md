@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ability_mastery", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Once per day, you can focus your thoughts for 10 minutes on a suit of
 +++
 
 ## Ability Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can augment your inherent abilities with transmutation magic items.\
 **Prerequisites:** Use Magic Device 3 ranks, base Fortitude saving throw bonus +4.\

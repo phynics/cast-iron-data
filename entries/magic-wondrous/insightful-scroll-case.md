@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insightful_scroll_case", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "34"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 34\
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
 

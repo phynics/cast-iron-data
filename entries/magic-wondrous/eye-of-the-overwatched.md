@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_the_overwatched", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "6"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Occult Realms pg 6\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
 

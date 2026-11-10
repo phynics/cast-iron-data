@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoll", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "155"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ human._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 155\
 **Subtype:** Gnoll\
 **Experience points:** 400
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_hand_smoke_pellet", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "251"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Intrigue pg 251\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 800 gp; **Weight** -
 

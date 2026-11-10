@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_pale_horse", path = "json/faiths8.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "15"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **The Pale Horse**
 
 **Sub:** The Lash and the Plough
-
-**Sources:** Concordance of Rivals pg 15
 
 ### Details
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_makes_a_great_adventure", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "172"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 172
 
 The question of what defines a great Pathfinder Roleplaying Game adventure conjures to mind a wide
 variety of potential answers, from artistic ideas regarding the combination of great storytelling

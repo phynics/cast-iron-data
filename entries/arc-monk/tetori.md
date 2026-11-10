@@ -9,13 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "61"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats", "Flurry of blows", "Slow fall", "High jump", "Abundant step", "improved evasion", "timeless body", "tongue of sun and moon", "Diamond soul", "Empty body"]
 +++
-
-**Sources:** Ultimate Combat pg 61
 
 The style of the tetori is that of the majestic wrestler - a warrior with a dizzying array of grabs,
 holds, and locks with which to bewilder and incapacitate his foes.

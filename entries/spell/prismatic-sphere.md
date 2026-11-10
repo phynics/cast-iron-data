@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/prismatic-wall" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "325"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: see text
 Spell resistance: see text
 Effect: 10-ft.-radius sphere centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 325
 
 This spell functions like [prismatic wall](ref/spell/prismatic-wall), except you conjure up an
 immobile, opaque globe of shimmering, multicolored light that surrounds you and protects you from

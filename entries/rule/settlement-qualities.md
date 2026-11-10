@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "settlement_qualities", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 207
 
 Settlements often have unusual qualities that make them unique. Listed below are several different
 qualities that can further modify a community's statistics. A settlement's type determines how many

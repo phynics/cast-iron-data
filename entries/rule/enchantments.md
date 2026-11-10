@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchantments", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 157
 
 The main danger with enchantments lies in removing agency from a character, either a PC or NPC, and
 the main difficulty in running them is adjudicating just how much they do so. As such, they are much

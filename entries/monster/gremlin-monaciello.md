@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gremlin_monaciello", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "144"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ flips a gold coin in its hand._
 
 **Size:** small
 
-**Sources:** Bestiary 4 pg 144\
 **Experience points:** 400
 
 **Armor class:** 13/13/11

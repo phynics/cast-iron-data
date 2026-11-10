@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "espionage_teams", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "52"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 52
 
 Espionage teams help undermine and infiltrate enemies.
 

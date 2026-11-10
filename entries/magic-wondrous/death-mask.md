@@ -6,6 +6,9 @@ source_ids = ["daughters-of-fury"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "daughters-of-fury"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Sources:** Daughters of Fury pg 58\
 **Aura** moderate necromancy; **CL** 6th\
 **Slot** head; **Price** 16,000 gp; **Weight** 4 lbs.
 

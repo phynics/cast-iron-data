@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodybalm", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Adventurer's Armory pg 19\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Tools
 

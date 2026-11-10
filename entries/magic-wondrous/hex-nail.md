@@ -6,6 +6,12 @@ source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_nail", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "reign-of-winter-players-guide"
+page = "6"
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Reign of Winter Player's Guide pg 6, People of the North pg 29\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** none; **Price** 20 gp; **Weight** -
 

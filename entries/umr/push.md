@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "push", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Push (Ex)
 
-**Sources:** Bestiary 4 pg 298\
 A creature with the push ability can choose to attempt a free combat maneuver check with a certain
 successful attack (often a slam attack). If successful, this check pushes a creature directly away
 as with a bull rush, but the distance moved is set by this ability. The type of attack that causes

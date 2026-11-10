@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyshroud", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Effect: hemisphere that cannot extend beyond four 10-ft. cubes + one 10-ft. cube/level (S)
 Subschool: Scrying
 :::
-
-**Sources:** Heroes of the Darklands pg 9
 
 The caster designates the area of a hemisphere within the spell's range. If a solid object would
 block the creation of the hemisphere (such as a ceiling or wall), the spell instead conforms to the

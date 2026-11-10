@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/whirlwind", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "112"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 112\
 The cyclone becomes 15 feet wide at the base, 40 feet wide at the top, and 40 feet tall. The
 cyclone's effect on Large or smaller creatures also applies to Huge creatures, and its damage
 increases to 3d8 points of damage. The effect on Medium or smaller creatures also applies to Large

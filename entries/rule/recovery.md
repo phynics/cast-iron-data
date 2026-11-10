@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recovery", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "239"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 239
 
 Each day that an army spends at rest (no movement and no battle), it heals a number of hit points
 equal to its ACR. Once per day, you may attempt a Loyalty Check against your kingdom's Control DC.

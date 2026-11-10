@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runes_of_wealth", path = "json/equipment_spellbooks.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "18"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ category = "Spellbooks"
 _Golden arcane runes and sigils seem to change or move constantly across the green leather cover of
 this remarkably well-preserved text. Each page is edged in thin silver, and a luxurious silk ribbon
 trapped between the pages flutters of its own accord._
-
-**Sources:** Arcane Anthology pg 18
 
 **Protection** [Superior lock](ref/eq-misc/lock-superior) with [arcane lock](ref/spell/arcane-lock)
 (DC 50), polymorph (appears as a different spellbook each evening if no spells have been prepared

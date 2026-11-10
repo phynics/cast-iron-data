@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellsword", path = "json/npcs4.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "15"
 
 **Challenge rating:** 15
 
-**Sources:** NPC Codex pg 39\
 **XP** 51,200\
 Elf [bard](ref/class/bard) 16\
 N Medium humanoid (elf)\

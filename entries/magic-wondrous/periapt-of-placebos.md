@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_placebos", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "44"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#116: Fangs of War pg 44\
 **Aura** faint enchantment; **CL** 5th\
 **Slot** neck; **Price** 3,600 gp; **Weight** 1 lb.
 

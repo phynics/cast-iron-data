@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_energy_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 188
 
 The Positive Energy Plane has no surface and is akin to the Plane of Air with its wide-open nature.
 However, every bit of this plane glows brightly with innate power. This power is dangerous to mortal

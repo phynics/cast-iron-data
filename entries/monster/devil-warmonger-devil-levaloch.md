@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_warmonger_devil_levaloch", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "81"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ upon six bladed, beetle-like legs._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Bestiary 5 pg 81, Book of the Damned - Volume 1: Princes of Darkness pg 60\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 3,200

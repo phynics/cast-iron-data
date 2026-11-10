@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catatonia", path = "json/madness.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "186"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 186\
 **Type** greater madness; **Save DC** 24\
 **Onset** immediate\
 **Effect** The afflicted character acts as if she were [cowering](ref/misc/cowering), but this is

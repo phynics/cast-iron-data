@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_subtlety", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "162"
+[[sources]]
+publication = "core-rulebook"
+page = "471"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 162, PRPG Core Rulebook pg 471\
 **Aura** moderate illusion; **CL** 7th\
 **Slot** none; **Price** 22,310 gp; **Weight** 2 lbs.
 

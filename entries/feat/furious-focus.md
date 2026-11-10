@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_focus", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you are wielding a two-handed weapon or a one-handed weapon with
 +++
 
 ## Furious Focus (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 Even in the midst of fierce and furious blows, you can find focus in the carnage and your seemingly
 wild blows strike home.\

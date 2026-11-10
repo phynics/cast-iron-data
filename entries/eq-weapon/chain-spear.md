@@ -6,15 +6,27 @@ source_ids = ["ultimate-equipment", "crown-of-the-kobold-king", "revenge-of-the-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_spear", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "crown-of-the-kobold-king"
+page = "17"
+[[sources]]
+publication = "revenge-of-the-kobold-king"
+page = "13"
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
+[[sources]]
+publication = "advanced-players-guide"
+page = "178"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "13 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Crown of the Kobold King pg 17, Revenge of the Kobold King pg
-13, Adventurer's Armory pg 3, Advanced Player's Guide pg 178
 
 This vicious weapon is often used in gladiatorial events due to its versatility. The body of the
 weapon is a standard [shortspear](ref/eq-weapon/shortspear), primarily used for thrusting. The butt

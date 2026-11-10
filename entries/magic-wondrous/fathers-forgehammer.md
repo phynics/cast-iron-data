@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fathers_forgehammer", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "264"
+[[sources]]
+publication = "gods-and-magic"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 264, Gods and Magic pg 56\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** none; **Price** 4,800 gp; **Weight** 2 lbs.
 

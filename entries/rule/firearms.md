@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firearms", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "135"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 135
 
 Guns are not strangers to fantasy. The earliest authors of fantasy and weird fiction often included
 guns in their stories. Heroes like Burroughs's John Carter or Howard's Solomon Kane carried pistols

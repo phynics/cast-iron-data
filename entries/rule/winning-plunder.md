@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winning_plunder", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "61"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 61\
 What gains a group plunder is largely decided by the GM or is noted at the relevant points
 throughout the _Skull & Shackles_ Adventure Path. Typically, at any point the PCs claim a ship's
 cargo, conquer an enemy's hideout, or find a significant treasure, there's the potential for a

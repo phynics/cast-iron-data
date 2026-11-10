@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_wax_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "133"
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ oily sheen._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 133, Pathfinder \#47: Ashes at Dawn pg 90\
 **Experience points:** 800
 
 **Armor class:** 15/9/15

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiclassing", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "30"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 30
 
 Instead of gaining the abilities granted by the next level in your character's current class, he can
 instead gain the 1st-level abilities of a new class, adding all of those abilities to his existing

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "89"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 89
 
 Skilled craftsmen, professionals, and learned members of society, the
 [experts](ref/npcclass/expert), regularly have a wide range of specific talents and obscure

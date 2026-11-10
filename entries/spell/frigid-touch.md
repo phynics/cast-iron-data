@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frigid_touch", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: cold
 :::
-
-**Sources:** Ultimate Magic pg 221
 
 This spell causes your hand to glow with a pale blue radiance. Your melee touch attack deals 4d6
 points of cold damage and causes the target to be staggered for 1 round. If the attack is a critical

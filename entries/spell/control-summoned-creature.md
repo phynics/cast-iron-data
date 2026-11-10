@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_summoned_creature", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "212"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Target: one summoned creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 212
 
 You seize control of a summoned creature by disrupting the bond between it and the caster who
 summoned it. If the creature fails its save, you may command it as if you had summoned it. The

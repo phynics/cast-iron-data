@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "out_of_character_talking", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "15"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 15
 
 Roleplaying requires lots of in-character conversation, but plenty of out-of-character chatter
 happens at the game table as well. It's not usually difficult to separate them when the table talk

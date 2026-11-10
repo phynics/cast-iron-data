@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_sands", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "16"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: 20-ft. radius
 Subschool: Creation
 Descriptors: earth, fire
 :::
-
-**Sources:** Adventurer's Guide pg 16
 
 You cause sheets of hot sand to spread over the ground in the area of effect. This layer of sand is
 1 foot deep and constantly shifts and churns, transforming the ground in the area into difficult

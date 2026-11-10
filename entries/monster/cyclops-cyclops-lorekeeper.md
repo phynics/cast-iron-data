@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_cyclops_lorekeeper", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ his toned muscles and a lingering stench of blood._
 
 **Senses:** Low-light vision
 
-**Sources:** Inner Sea Monster Codex pg 21\
 **Subtype:** Giant
 
 **Experience points:** 25,600

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foe_throw", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** [Telekinetic Blast](ref/kinetic/telekinetic-blast)
 
 **Saving throw:** Fortitude negates; see text
-
-**Source:** Occult Adventures/20
 
 Your telekinetic blast can throw a Large or smaller creature instead of an unattended object; you
 can increase the burn cost by 1 to affect a creature of a larger size. If the creature you attempt

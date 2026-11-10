@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_guard_of_absalom", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "22"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** Inner Sea NPC Codex pg 22\
 **XP** 400\
 Human [fighter](ref/class/fighter) 2\
 LN Medium humanoid (human)\

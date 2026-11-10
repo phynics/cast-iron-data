@@ -6,14 +6,15 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hard_light_shield", path = "json/equipment_tech_armor.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "30"
 
 [fields]
 kind = "item"
 category = "Technological Armor"
 weight = "1 lbs."
 +++
-
-**Sources:** Technology Guide pg 30
 
 **Cost** 6,400 gp\
 **Type** Shield; **Weight** 1 lbs.; **Armor Bonus** +2\

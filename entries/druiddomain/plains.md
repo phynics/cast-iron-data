@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plains", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "35"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Plains Domain
-
-**Sources:** Ultimate Magic pg 35
 
 **Granted Powers:** The wide open spaces of the prairie, savanna, and steppe are yours to master.
 

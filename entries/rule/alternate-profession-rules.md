@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_profession_rules", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "77"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 77
 
 While the rules for the Profession skill in the Core Rulebook are perfectly suitable for the needs
 of most campaigns, there is little opportunity to make them a meaningful part of play. Those rules

@@ -6,6 +6,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_saddle", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Knights of the Inner Sea pg 31\
 **Aura** faint divination; **CL** 5th\
 **Slot** belt; **Price** 5,000 gp; **Weight** 20 lbs.
 

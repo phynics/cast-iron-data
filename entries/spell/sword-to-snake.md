@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_to_snake", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (object)
 Target: one Medium or smaller item
 Descriptors: poison
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 29
 
 When you make an undulating gesture using your hand, the target item changes slightly in shape and
 appearance to resemble a cross between its original form and that of a venomous animal. For example,

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reavers_scythe", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "325"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Advanced Player's Guide pg 325\
 **Aura** moderate necromancy; **CL** 12th\
 **Slot** none; **Price** 80,318 gp; **Weight** 10 lbs.
 

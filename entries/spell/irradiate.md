@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiate", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 Effect: special (see below)
 Subschool: Creation
 :::
-
-**Sources:** Technology Guide pg 9
 
 The spell's area of effect floods with dangerous radiation. The strength of the radiation you create
 depends on your caster level, as detailed below. The central irradiated area is always a

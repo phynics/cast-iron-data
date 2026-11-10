@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_animal_training", path = "json/magic_rod.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Animal Archive pg 27\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 12,300 gp; **Weight** 5 lbs.
 

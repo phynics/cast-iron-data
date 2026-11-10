@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dead", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Targets: one or more corpses touched
 Descriptors: evil
 :::
-
-**Sources:** PRPG Core Rulebook pg 241
 
 This spell turns corpses into undead [skeletons](ref/template/skeleton) or
 [zombies](ref/template/zombie) that obey your spoken commands.

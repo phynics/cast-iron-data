@@ -8,12 +8,13 @@ parent = "ref/class/cleric"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes5.json#cleric|section:cleric", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "38"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 38
 
 In faith and the miracles of the divine, many find a greater purpose. Called to serve powers beyond
 most mortal understanding, all priests preach wonders and provide for the spiritual needs of their

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grisantian_lion", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This massive lion's fur and skin shimmer with a golden sheen._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 86\
 **Experience points:** 38,400
 
 **Armor class:** 29/13/24

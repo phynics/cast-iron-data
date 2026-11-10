@@ -6,6 +6,9 @@ source_ids = ["belkzen-hold-of-the-orc-hordes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ankhrav", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "belkzen-hold-of-the-orc-hordes"
+page = "57"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ mandibles._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Belkzen, Hold of the Orc Hordes pg 57\
 **Experience points:** 6,400
 
 **Armor class:** 24/8/24

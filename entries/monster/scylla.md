@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scylla", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "241"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ heads and writhing tentacles._
 
 **Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Bestiary 2 pg 241\
 **Subtype:** Aquatic
 
 **Experience points:** 76,800

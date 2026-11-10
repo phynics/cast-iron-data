@@ -6,6 +6,9 @@ source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_armor_hollow_helm", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-47-ashes-at-dawn"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ lumbering movements slow and methodical._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#47: Ashes at Dawn pg 84\
 **Size:** tiny
 
 **Type:** undead

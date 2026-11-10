@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woad_painting_kit", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "208"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (kit), - (paint, 1 block)"
 
 ## Woad painting
 
-**Sources:** Advanced Class Guide pg 208\
 **Price** 300 gp (kit), 60 gp (paint, 1 block); **Weight** 1 lb. (kit), - (paint, 1 block)
 
 Though associated with the woad plant, the alchemical ingredients of this blue paste can vary

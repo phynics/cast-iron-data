@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_cabal_devil_uniila", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ the faintest outlines of a veiled face and a pair of eyes flickering with barely
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 86\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 9,600

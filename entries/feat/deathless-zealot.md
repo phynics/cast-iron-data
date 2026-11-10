@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_zealot", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "95"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever a creature rolls to confirm a critical hit against you, it m
 +++
 
 ## Deathless Zealot (Combat)
-
-**Sources:** Ultimate Combat pg 95
 
 Only the most serious wounds can stop you.\
 **Prerequisites:** Str 13, Con 17, [orc](ref/race/orc) or [half-orc](ref/race/half-orc),

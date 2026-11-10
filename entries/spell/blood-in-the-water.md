@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_in_the_water", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "189"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless)
 Area: 20-ft.-radius emanation centered on you
 Descriptors: emotion
 :::
-
-**Sources:** Monster Codex pg 189
 
 As part of the casting of this spell, you must deal 1 point of piercing or slashing damage to
 yourself to release your blood. This causes you to take 1 point of bleed damage. While the spell is

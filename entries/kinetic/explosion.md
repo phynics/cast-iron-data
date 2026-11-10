@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "19"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 [Fire Blast](ref/kinetic/fire-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Adventures/19
 
 You focus your energy on a point in space and create a controlled explosion. You can center the
 explosion anywhere within 120 feet of you, and you can choose the radius of the

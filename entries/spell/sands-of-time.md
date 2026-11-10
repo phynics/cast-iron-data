@@ -6,6 +6,12 @@ source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sands_of_time", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
+[[sources]]
+publication = "osirion-land-of-the-pharaohs"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Saving throw: none
 Spell resistance: yes
 Target: touched creature or object
 :::
-
-**Sources:** Ultimate Magic pg 236, Osirion, Land of the Pharaohs pg 27
 
 You temporarily age the target, immediately advancing it to the next age category. The target
 immediately takes the age penalties to Strength, Dexterity, and Constitution for its new age

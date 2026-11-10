@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mancatcher", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
+[[sources]]
+publication = "adventurers-armory"
+page = "4"
+[[sources]]
+publication = "advanced-players-guide"
+page = "179"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 21, Adventurer's Armory pg 4, Advanced Player's Guide pg 179
 
 This polearm consists of two curved metal bands that close around a target when you attack, allowing
 you to bind an opponent. A mancatcher is built to capture a creature of a particular size category

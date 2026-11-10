@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_strike", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "169"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can deal precision damage, such as sneak attack damage, against t
 +++
 
 ## Shadow Strike (Combat)
-
-**Sources:** Advanced Player's Guide pg 169
 
 You accurately strike even those you cannot clearly see.\
 **Prerequisites:** Base attack bonus +1.\

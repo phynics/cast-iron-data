@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_construct", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none (see text)
 Spell resistance: no
 Target: one construct
 :::
-
-**Sources:** Ultimate Magic pg 211
 
 You wrest the control of a construct from its master. For as long as you concentrate, you can
 control the construct as if you were its master. You must make a Spellcraft check each round to

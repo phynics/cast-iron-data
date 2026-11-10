@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decollate", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "116"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one willing humanoid or monstrous humanoid creature
 :::
-
-**Sources:** Horror Adventures pg 116
 
 A thin red line circles the target's neck. The target's head becomes detachable so long as she
 removes it willingly. While the target's head is detached, she gains DR 2/- and immunity to

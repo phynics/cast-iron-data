@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sibiling", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "178"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 178
 
 Sibling relationships have been the basis of folklore and mythology for ages, and for good reason.
 Unlike a parent, a sibling is your direct peer, a living mirror who forces you to confront your past

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_trick", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "335"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one touched piece of rope from 5 ft. to 30 ft. long
 :::
-
-**Sources:** PRPG Core Rulebook pg 335
 
 When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into
 the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end. The

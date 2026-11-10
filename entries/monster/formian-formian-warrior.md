@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_warrior", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ wickedly barbed stinger._
 
 **Senses:** Darkvision 60 ft., Hive mind
 
-**Sources:** Bestiary 4 pg 112\
 **Experience points:** 800
 
 **Armor class:** 17/13/14

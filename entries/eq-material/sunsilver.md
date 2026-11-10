@@ -6,13 +6,14 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunsilver", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "29"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Adventurer's Armory 2 pg 29
 
 An advanced form of alchemical silver, sunsilver is the pride of the Padishah Empire's war smiths. A
 weapon made of sunsilver counts as [alchemical silver](ref/eq-material/alchemical-silver) for all

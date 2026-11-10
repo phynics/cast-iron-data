@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leech_giant_leech", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "187"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ teeth._
 
 **Senses:** Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 187\
 **Subtype:** Aquatic
 
 **Type:** vermin

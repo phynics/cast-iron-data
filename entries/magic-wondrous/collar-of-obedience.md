@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collar_of_obedience", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "26"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Animal Archive pg 26\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** neck; **Price** 5,000 gp; **Weight** 3 lbs.
 

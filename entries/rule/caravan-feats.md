@@ -6,12 +6,14 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_feats", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "22"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Jade Regent Player's Guide pg 22\
 A caravan has a number of feats equal to its level. When you first gain access to Sandru's caravan,
 you as a party may pick the caravan's first feat from the list below - provided that the caravan
 qualifies for the feat, of course!

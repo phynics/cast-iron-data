@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holiday_edicts", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "208"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 208
 
 Holidays are general celebrations or observances that take place across the kingdom. The BP
 expenditure includes lost revenue from citizens not working during the holidays, preparations and

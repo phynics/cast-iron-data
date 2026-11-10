@@ -6,13 +6,14 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "order_of_the_seal", path = "json/class_ability_orders.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "34"
 
 [fields]
 kind = "class_option"
 group = "order"
 +++
-
-**Sources:** Ultimate Combat pg 34
 
 Cavaliers of the order of the seal are a secretive order, each charged with the protection of a
 specific object (such as a dangerous magic item), place (a lost temple), or secret (that a certain

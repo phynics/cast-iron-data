@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "37"
 
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "greater tactician", "master tactician", "cavalier bonus feats", "Supreme charge"]
 +++
 
-**Sources:** Ultimate Combat pg 37\
 The gendarme cares less for the finer points of tactical precision than he does for the exhilaration
 of the charge: the rush of wind through the visor of his helmet, the feel of his couched lance, the
 satisfying shriek of armor giving way before his weapon's force as the point drives past metal into

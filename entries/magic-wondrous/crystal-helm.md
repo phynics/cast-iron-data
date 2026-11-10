@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Blood of the Sea pg 20\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** head; **Price** 24,000 gp; **Weight** 3 lbs.
 

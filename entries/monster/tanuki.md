@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanuki", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "259"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ intoxicated._
 
 **Senses:** Darkvision 60 ft., Detect poison, Low-light vision
 
-**Sources:** Bestiary 3 pg 259\
 **Subtype:** Shapechanger
 
 **Experience points:** 1,200

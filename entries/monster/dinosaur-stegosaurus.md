@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_stegosaurus", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ terminating in a set of bony spikes._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 85\
 **Experience points:** 3,200
 
 **Armor class:** 22/10/20

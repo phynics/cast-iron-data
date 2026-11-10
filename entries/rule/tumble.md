@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tumble", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "56"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 56
 
 You can attempt an Acrobatics check to avoid provoking an attack of opportunity when moving through
 a threatened square. If you fail, your movement ends and you provoke an attack of opportunity from

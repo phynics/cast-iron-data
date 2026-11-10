@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racial_item_mastery", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can focus on an item associated with your race to use a racial sp
 +++
 
 ## Racial Item Mastery (Item Mastery)
-
-**Sources:** Magic Tactics Toolbox pg 30
 
 You can use certain magic items to fuel your innate powers.\
 **Prerequisites:** Use Magic Device 6 ranks, base Fortitude saving throw bonus +3.\

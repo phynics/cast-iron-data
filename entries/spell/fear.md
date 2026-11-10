@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fear", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "252"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Spell resistance: yes
 Area: cone-shaped burst
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 252
 
 An invisible cone of terror causes each living creature in the area to become
 [panicked](ref/misc/panicked) unless it succeeds on a Will save. If cornered, a panicked creature

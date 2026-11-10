@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heavy_hammer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "346"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 346\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** none; **Weight** 20 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hell", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "192"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 192
 
 The nine layers of Hell form a structured labyrinth of calculated evil where torment goes hand in
 hand with purification. A plane of iron cities, burning wastelands, frozen glaciers, and endless

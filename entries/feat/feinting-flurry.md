@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feinting_flurry", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using flurry of blows to make melee attacks, you can forgo your
 +++
 
 ## Feinting Flurry (Combat)
-
-**Sources:** Dragon Empires Primer pg 24
 
 Your subtle flourishes mislead your enemy, tricking it into changing its footing.\
 **Prerequisites:** Dex 15, flurry of blows class feature,

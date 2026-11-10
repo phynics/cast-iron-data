@@ -6,14 +6,15 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_bow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "24"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Merchant's Manifest pg 24
 
 The horse bow functions like a [composite longbow](ref/eq-weapon/composite-longbow), but it is
 designed to be used on horseback. A rider using a horse bow can make ranged attacks while mounted;

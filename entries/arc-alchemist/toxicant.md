@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Persistent mutagen"]
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 7\
 In lands such as Daggermark and Katapesh where poisons are legal and may be openly studied and sold,
 some alchemists obsess over the myriad ways that poisons and venoms can be applied and delivered.
 Known as toxicants, these deadly artists induce the production of deadly secretions within their own

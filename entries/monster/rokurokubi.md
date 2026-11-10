@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-54-the-empty-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rokurokubi", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "227"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ teeth filling her gaping maw._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 227, Pathfinder \#54: The Empty Throne pg 90\
 **Experience points:** 38,400
 
 **Armor class:** 28/16/22

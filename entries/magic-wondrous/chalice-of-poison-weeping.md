@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chalice_of_poison_weeping", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "288"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 288\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
 

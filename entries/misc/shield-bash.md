@@ -6,12 +6,16 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_bash", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "11-12"
+[[sources]]
+publication = "core-rulebook"
+page = "152"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg. 11-12, PRPG Core Rulebook pg 152
 
 Shield bashes can be done with light shields or heavy shields.
 

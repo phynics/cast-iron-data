@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_presence", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: up to one creature per 3 caster levels
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Ultimate Intrigue pg 216
 
 You prevent the targets from having conscious awareness of your presence. You make yourself
 completely undetectable to the subjects by erasing all awareness of your presence from their minds.

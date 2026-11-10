@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-aura" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "37"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Descriptors: glamer
 :::
 
 ### Sympathetic Aura
-
-**Sources:** Adventurer's Guide pg 37
 
 This spell functions like [magic aura](ref/spell/magic-aura), except it extends its altered aura to
 similar items in a 5-foot radius. For this purpose, similar items must be alike in approximate

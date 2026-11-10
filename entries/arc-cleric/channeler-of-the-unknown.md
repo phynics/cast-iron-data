@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aura"]
 alters = ["Weapon and armor proficiency", "Spells", "Channel energy", "Domains", "Spontaneous casting"]
 +++
 
-**Sources:** Antihero's Handbook pg 12\
 While most clerics who fall out of favor with their deities simply lose their divine connection and
 the powers it granted, a few continue to go through the motions of prayer and obedience, persisting
 in the habits of faith even when their faith itself has faded. Among these, an even smaller number

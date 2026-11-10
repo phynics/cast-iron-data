@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "statue_disguise_kit", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "13"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "50 gp"
 weight = "8 lbs."
 +++
 
-**Sources:** Heroes of the Streets pg 13\
 **Price** 50 gp; **Weight** 8 lbs.\
 **Category** Tools
 

@@ -6,14 +6,15 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze", path = "json/monster_types.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "308"
 
 [fields]
 kind = "none"
 +++
 
 ## Type: Ooze
-
-**Sources:** Pathfinder RPG Bestiary pg 308
 
 An ooze is an amorphous or mutable creature, usually mindless.
 

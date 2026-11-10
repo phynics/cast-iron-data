@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/mesmerist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "98"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Consummate liar", "Hypnotic stare", "Painful stare", "Bold stare", 
 alters = ["Touch treatment"]
 +++
 
-**Sources:** Occult Adventures pg 98\
 Toxiticians forgo the mesmerist's stare, instead combining their psychic power with their alchemical
 knowledge to craft injections that torment their foes and bolster themselves and their allies.
 

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yzobu", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "124"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ long-haired yak._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Monster Codex pg 124\
 **Experience points:** 400
 
 **Armor class:** 13/10/12

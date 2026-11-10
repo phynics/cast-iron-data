@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_flood", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can make a grapple combat maneuver check to mount a prone Medium 
 +++
 
 ## Kobold Flood (Combat)
-
-**Sources:** Kobolds of Golarion pg 25
 
 You are an expert at keeping creatures on the ground.\
 **Prerequisites:** [Combat Expertise](ref/feat/combat-expertise),

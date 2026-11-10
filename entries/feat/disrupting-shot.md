@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupting_shot", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you ready an action to shoot an opponent casting a spell within 30
 +++
 
 ## Disrupting Shot (Combat)
-
-**Sources:** Advanced Player's Guide pg 157
 
 With a well-placed shot, you make it harder for a nearby opponent to cast spells.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot), fighter level 6th.\

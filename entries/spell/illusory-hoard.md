@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_hoard", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Target: one creature
 Subschool: Phantasm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Dragonslayer's Handbook pg 29
 
 The spell forces the target to believe that nothing in its hoard is missing or has been disturbed.
 This spell fools all the senses, convincing the target that its hoard feels and behaves as it

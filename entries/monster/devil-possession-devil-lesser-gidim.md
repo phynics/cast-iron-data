@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_possession_devil_lesser_gidim", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ looming malevolence and faint foul breath._
 
 **Senses:** Darkvision 60 ft., See in darkness
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 82\
 **Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
 
 **Experience points:** 2,400

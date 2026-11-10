@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_record", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "269"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Sources:** Occult Adventures pg 269\
 **Aura** strong divination; **CL** 15th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

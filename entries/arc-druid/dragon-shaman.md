@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "37"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "A thousand faces", "Wild shape", "The additional
 alters = ["Nature bond", "Wild empathy"]
 +++
 
-**Sources:** Ultimate Magic pg 37\
 Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of
 pure magic and raw elemental fury, bound within a shell of fangs, claws, and scales that few dare to
 challenge. Though your initial focus is on dragons' mundane cousins, as your powers grow you become

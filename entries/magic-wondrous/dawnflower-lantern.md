@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawnflower_lantern", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "262"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint evocation and enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Gods pg 262\
 **Aura** faint evocation and enchantment; **CL** 5th\
 **Slot** none; **Price** 6,400 gp; **Weight** 2 lbs.
 

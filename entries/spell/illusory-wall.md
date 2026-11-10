@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_wall", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "299"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Effect: image 1 ft. by 10 ft. by 10 ft.
 Subschool: Figment
 :::
-
-**Sources:** PRPG Core Rulebook pg 299
 
 This spell creates the illusion of a wall, floor, ceiling, or similar surface. It appears absolutely
 real when viewed, but physical objects can pass through it without difficulty. When the spell is

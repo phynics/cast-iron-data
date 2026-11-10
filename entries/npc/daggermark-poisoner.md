@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daggermark_poisoner", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "17"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "7"
 
 **Challenge rating:** 7
 
-**Sources:** Inner Sea NPC Codex pg 17\
 **XP** 3,200\
 Gnome [rogue](ref/class/rogue) ([poisoner](ref/arc-rogue/poisoner)) 5/Daggermark poisoner 3\
 LE Small humanoid (gnome)\

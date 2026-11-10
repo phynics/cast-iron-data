@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_wisdom", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "108"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Treat half your levels in classes other than monk as monk levels for 
 +++
 
 ## Mantis Wisdom (Combat)
-
-**Sources:** Ultimate Combat pg 108
 
 Your knowledge of vital areas allows you to land debilitating strikes with precision.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dorvae", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ nightmare._
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Bestiary 4 pg 62\
 **Subtype:** Evil
 
 **Experience points:** 12,800

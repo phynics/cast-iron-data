@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_plane", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "188"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 188
 
 The Shadow Plane is a dimly lit dimension that is both coterminous to and coexistent with the
 Material Plane. It overlaps the Material Plane much as the Ethereal Plane does, so a planar traveler

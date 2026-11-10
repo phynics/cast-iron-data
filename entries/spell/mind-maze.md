@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_maze", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Monster Codex pg 41
 
 This spell causes the target to act as though it's wandering through a maze. While under the effects
 of the spell, the target can't make attacks or cast spells and must take at least one move action

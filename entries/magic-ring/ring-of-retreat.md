@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_retreat", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "115"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Sources:** Adventurer's Guide pg 115\
 **Aura** strong conjuration; **CL** 12th\
 **Slot** ring; **Price** 12,000 gp; **Weight** -
 

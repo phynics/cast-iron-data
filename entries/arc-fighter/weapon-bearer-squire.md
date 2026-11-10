@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/fighter" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["The 1st-level fighter bonus combat feat", "The 2nd-level fighter bonus combat feat", "Armor training 1"]
 +++
 
-**Sources:** Knights of the Inner Sea pg 21\
 With myriad weapons, armor, and useful gear always on hand, the weapon bearer squire ensures her
 knight is equipped for any task.
 

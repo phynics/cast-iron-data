@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/improved-rending-fury", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "123"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 123\
 As long as you have at least 1 stamina point in your stamina pool, the extra damage from this feat
 is multiplied on a critical hit.

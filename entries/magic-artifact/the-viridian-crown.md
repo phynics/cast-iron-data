@@ -6,6 +6,9 @@ source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_viridian_crown", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "elves-of-golarion"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration, conjuration (healing), and divination"
 caster_level = "20th"
 +++
 
-**Sources:** Elves of Golarion pg 31\
 **Aura** strong abjuration, conjuration (healing), and divination; **CL** 20th\
 **Slot** head; **Price** -; **Weight** 3 lbs.
 

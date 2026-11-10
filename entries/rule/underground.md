@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underground", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "223"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 223
 
 Caves form under a huge variety of circumstances: by the action of waves along the shore, internal
 erosion from underground streams, or acidic air and water, as well as by tectonic action. Unless

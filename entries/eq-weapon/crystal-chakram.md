@@ -6,14 +6,15 @@ source_ids = ["classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crystal_chakram", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "classic-horrors-revisited"
+page = "8"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Classic Horrors Revisited pg 8
 
 Shaped and carved from quartz or stranger subterranean crystals, these circular throwing discs have
 jagged razor-sharp edges. When a crystal chakram strikes a foe, the weapon shatters into tiny sharp

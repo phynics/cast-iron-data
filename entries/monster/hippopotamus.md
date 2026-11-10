@@ -6,6 +6,12 @@ source_ids = ["heart-of-the-jungle", "bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippopotamus", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "60"
+[[sources]]
+publication = "bestiary-2"
+page = "157"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ challenge, exposing massive, tusk-like teeth._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Heart of the Jungle pg 60, Bestiary 2 pg 157\
 **Experience points:** 1,600
 
 **Armor class:** 17/9/17

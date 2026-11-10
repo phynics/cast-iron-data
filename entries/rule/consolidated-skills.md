@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consolidated_skills", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "54"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 54
 
 The skills in the Core Rulebook allow for complex specialization. In some games, the GM might wish
 to use a smaller list to make characters more broadly talented, to group skills that characters

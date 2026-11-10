@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shepherd_of_souls", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -23,8 +26,6 @@ group = "kineticist-wild-talent"
 **Associated:** any simple
 
 **Saving throw:** Will negates
-
-**Source:** Plane-Hopper's Handbook/8
 
 When your blast kills a living creature, it helps shepherd the creature's soul to the Boneyard,
 warding against effects of spells that would attempt to restore the creature to life. Spellcasters

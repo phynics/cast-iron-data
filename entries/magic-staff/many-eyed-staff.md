@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "many_eyed_staff", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "217"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Horror Adventures pg 217\
 **Aura** moderate divination; **CL** 9th\
 **Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.
 

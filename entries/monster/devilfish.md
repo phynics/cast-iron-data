@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devilfish", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "88"
+[[sources]]
+publication = "pathfinder-7-edge-of-anarchy"
+page = "80"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ cold, blue eyes._
 
 **Senses:** Low-light vision, See in darkness
 
-**Sources:** Bestiary 2 pg 88, Pathfinder \#7: Edge of Anarchy pg 80\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

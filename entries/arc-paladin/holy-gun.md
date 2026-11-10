@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "63"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Detect evil", "Smite evil", "Divine bond"]
 alters = ["Holy champion"]
 +++
 
-**Sources:** Ultimate Combat pg 63\
 Not all paladins are knights in shining armor. Holy guns roam the world searching for evil. And
 where they find it, they put it down.
 

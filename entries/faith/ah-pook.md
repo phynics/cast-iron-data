@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ah_pook", path = "json/faiths.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "72"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Ah Pook**
 
 **Sub:** The Destroyer
-
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 72
 
 ### Details
 

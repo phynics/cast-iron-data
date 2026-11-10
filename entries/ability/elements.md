@@ -6,12 +6,14 @@ source_ids = ["occult-adventures", "occult-origins", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elements", path = "json/class_abilities8.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "14"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 14\
 A kineticist can choose from among the following elements. Infusion wild talents are marked with a
 dagger (†); all other wild talents listed below from 1st-9th are utility wild talents.
 

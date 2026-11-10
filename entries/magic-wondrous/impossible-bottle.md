@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impossible_bottle", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 60\
 **Aura** faint abjuration and transmutation; **CL** 5th\
 **Slot** none; **Price** 20,000 gp; **Weight** 1 lb.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-93-forge-of-the-giant-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_great_elder_iuu", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-93-forge-of-the-giant-god"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ glinting metallic ore._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder \#93: Forge of the Giant God pg 86\
 **Subtype:** Evil, Giant, Lawful
 
 **Experience points:** 51,200

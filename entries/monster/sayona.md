@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sayona", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "231"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fresh blood._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 231\
 **Type:** undead
 
 **Experience points:** 19,200

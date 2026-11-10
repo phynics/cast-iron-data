@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agile_maneuvers", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "117"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ normal = "You add your Strength bonus to your base attack bonus and size bonus w
 +++
 
 ## Agile Maneuvers (Combat)
-
-**Sources:** PRPG Core Rulebook pg 117
 
 You've learned to use your quickness in place of brute force when performing combat maneuvers.\
 **Benefit:** You add your Dexterity bonus to your base attack bonus and size bonus when determining

@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_fang_style", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "105"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Each time you make a full attack wielding a pair of daggers or a pair
 +++
 
 ## Twin Fang Style (Combat, Style)
-
-**Sources:** Villain Codex pg 105
 
 Your paired blades rend through armor.\
 **Prerequisites:** Dex 15, [Quick Draw](ref/feat/quick-draw), base attack bonus +1, Acrobatics 1

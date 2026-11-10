@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contest_of_skill", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Adventurer's Guide pg 27
 
 The randomness of critical hits has long vexed certain duelists in the Aldori school who consider
 luck to be an unwelcome addition to duels, which they view as contests of skill rather than chance.

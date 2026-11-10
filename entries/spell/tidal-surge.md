@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_surge", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "237"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Area: cone-shaped burst or line; see text
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Ultimate Wilderness pg 237
 
 If you cast tidal surge on land, you create an onrushing surge of water 10 feet high in a 30-foot
 cone that deals 1d6 points of bludgeoning damage for every 2 caster levels you have (maximum 10d6 at

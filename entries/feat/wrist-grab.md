@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrist_grab", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When an opponent's attack misses you by 5 or more, you can attempt a 
 +++
 
 ## Wrist Grab (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 When an enemy overextends to attack you, you quickly catch its arm and knock its weapon loose.\
 **Prerequisites:** Dex 13, Int 13, [Combat Expertise](ref/feat/combat-expertise),

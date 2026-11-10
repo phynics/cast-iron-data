@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gholdako", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "125"
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "49"
 
 [fields]
 kind = "creature"
@@ -40,7 +46,6 @@ strips of bloody linen._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 125, Isles of the Shackles pg 49\
 **Type:** undead
 
 **Experience points:** 9,600

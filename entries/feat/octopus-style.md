@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_style", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "As a move action when using this style, you can select a number of cr
 +++
 
 ## Octopus Style (Combat, Style)
-
-**Sources:** Martial Arts Handbook pg 15
 
 You anticipate the attacks of more than one enemy at once.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge),

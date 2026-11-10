@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_tube", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Sources:** Legacy of the First World pg 7\
 **Price** 40 gp; **Weight** -\
 **Category** Alchemical Tools
 

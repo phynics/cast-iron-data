@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/shadow-evocation" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "340"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Descriptors: shadow
 :::
 
 ### Greater Shadow Evocation
-
-**Sources:** PRPG Core Rulebook pg 340
 
 This spell functions like [shadow evocation](ref/spell/shadow-evocation), except that it enables you
 to create partially real, illusory versions of sorcerer or wizard evocation spells of 7th level or

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "15"
 
 [fields]
 kind = "archetype"
 alters = ["Aura", "Channel energy", "Alignment", "spells", "Domains"]
 +++
 
-**Sources:** Agents of Evil pg 15\
 A rare few seek the power of dark forces for brighter ends by focusing on the utilitarian aspects of
 a god's portfolio, appeasing their deities through high praise and glorifying their chosen gods'
 unaligned aspects.

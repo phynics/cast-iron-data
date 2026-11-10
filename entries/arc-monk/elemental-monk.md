@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Alignment requirement", "All bonus feats", "stunning fist", "Evasio
 alters = ["Ki pool"]
 +++
 
-**Sources:** Disciple's Doctrine pg 4\
 Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and
 versatility make them capable of serving as emissaries of elemental balance.
 

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replacing_and_copying_spellbooks", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "219"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 219
 
 A wizard can use the procedure for learning a spell to reconstruct a lost spellbook. If he already
 has a particular spell prepared, he can write it directly into a new book at the same cost required

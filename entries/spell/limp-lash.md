@@ -6,6 +6,9 @@ source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limp_lash", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "28"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: yes
 Target: 1 creature
 :::
-
-**Sources:** Goblins of Golarion pg 28
 
 You create a dark whip-shaped field of energy that wraps around an enemy's neck, leaving everything
 except his head paralyzed until you let go of the whip or it is destroyed. You must make a ranged

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_insults", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "124"
+[[sources]]
+publication = "advanced-players-guide"
+page = "283"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 124, Advanced Player's Guide pg 283\
 **Aura** moderate enchantment; **CL** 7th\
 **Slot** armor; **Price** 16,175 gp; **Weight** 20 lbs.
 

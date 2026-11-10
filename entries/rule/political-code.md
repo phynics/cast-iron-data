@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "political_code", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "162"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 162
 
 These events apply to cultures favoring political intrigue, espionage, and diplomacy.
 

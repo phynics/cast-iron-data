@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_channel_brick", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "289"
+[[sources]]
+publication = "advanced-players-guide"
+page = "303"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Ultimate Equipment pg 289, Advanced Player's Guide pg 303\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
 

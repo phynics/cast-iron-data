@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "refuge", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "331"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: object touched
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 331
 
 When you cast this spell, you create powerful magic in a specially prepared object. This object
 contains the power to instantly transport its possessor across any distance within the same plane to

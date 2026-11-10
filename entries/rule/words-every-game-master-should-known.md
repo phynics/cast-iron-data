@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "words_every_game_master_should_known", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 55
 
 Abase, abash, abattoir, abhorrent, ablution, abscess, abstemious, abstersion, abstruse, accoutre,
 acephalous, acrid, aesculapian, affusion, ague, alembic, alluvium, amanuensis, ambergris, ambrosia,

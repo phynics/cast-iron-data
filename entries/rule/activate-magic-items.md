@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "activate_magic_items", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "64"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 64
 
 This use of Spellcraft functions as the [Use Magic Device core skill](ref/skill/use-magic-device),
 but uses Intelligence instead of Charisma.

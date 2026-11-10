@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_urgrosh", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "core-rulebook"
+page = "143"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, PRPG Core Rulebook pg 143
 
 A dwarven urgrosh is a double weapon: an axe head and a spear point on opposite ends of a long haft.
 The urgrosh's axe head is a slashing weapon that deals 1d8 points of damage. Its spear head is a

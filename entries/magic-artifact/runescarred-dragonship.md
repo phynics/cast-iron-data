@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runescarred_dragonship", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "332"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "strong divination and necromancy"
 caster_level = "13th"
 +++
-
-**Sources:** Ultimate Equipment pg 332
 
 **Aura** strong divination and necromancy; **CL** 13th\
 **Slot** none; **Price** -; **Weight** 26 tons

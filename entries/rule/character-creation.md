@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_creation", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 14
 
 From the sly rogue to the stalwart paladin, the Pathfinder RPG allows you to make the character you
 want to play. When generating a character, start with your character's concept. Do you want a

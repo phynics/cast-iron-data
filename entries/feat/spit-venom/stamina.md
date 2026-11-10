@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/spit-venom", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "132"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 132\
 When you spit poison, you can spend up to 5 stamina points. For each stamina point spent, you can
 increase the range of the attack by 5 feet.

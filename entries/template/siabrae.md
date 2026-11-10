@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siabrae", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "251"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Bestiary 6/251
 
 When [druids](ref/class/druid) are faced with threats to the natural world, they are steadfast and,
 at times, relentless in their defense of the land. Even in the face of overwhelming odds - an

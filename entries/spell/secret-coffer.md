@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/secret-chest" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +56,6 @@ Subschool: Summoning
 :::
 
 ### Secret Coffer
-
-**Sources:** Black Markets pg 31, Heroes of the Streets pg 31
 
 This spell functions like [secret chest](ref/spell/secret-chest), except the coffer is only 1 foot
 square and can contain only 1 cubic foot of goods, and the container can remain safely hidden on the

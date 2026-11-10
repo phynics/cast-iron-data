@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspiring_noble", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You have learned to further your name among the people. Choose a sett
 +++
 
 ## Aspiring Noble (Story)
-
-**Sources:** Heroes of the High Court pg 4
 
 You strive to be seen as a legitimate noble.\
 **Prerequisites:** Must be a member of an established family that is yet unrecognized as nobility.\

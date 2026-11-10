@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valorous_blade", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Sources:** Weapon Master's Handbook pg 31\
 **Aura** moderate enchantment; **CL** 9th\
 **Slot** none; **Price** 20,315 gp; **Weight** 5 lbs.
 

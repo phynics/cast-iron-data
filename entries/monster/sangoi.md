@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sangoi", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "219"
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ long fingers and nails._
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 219, Pathfinder \#69: Maiden, Mother, Crone pg 88\
 **Experience points:** 3,200
 
 **Armor class:** 21/18/14

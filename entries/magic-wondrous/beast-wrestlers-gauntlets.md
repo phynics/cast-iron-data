@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_wrestlers_gauntlets", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Advanced Class Origins pg 28\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** hands; **Price** 7,500 gp; **Weight** 1 lb.
 

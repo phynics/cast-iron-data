@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "12"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Improved uncanny dodge", "uncanny dodge"]
 +++
 
-**Sources:** Potions and Poisons pg 12\
 Poisons are common tools in a rogue's trade, and some poison-using rogues are so frequently exposed
 to these toxins that they have developed resistances to particular poisons. Known as rotdrinkers,
 these rogues purposefully consume poisons to augment their minds and bodies, though they do so at

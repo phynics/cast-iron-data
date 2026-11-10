@@ -6,6 +6,9 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seer_medium", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "299"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "4"
 
 **Challenge rating:** 4
 
-**Sources:** GameMastery Guide pg 299\
 **XP** 1,200\
 Human [cleric](ref/class/cleric) 5\
 N Medium humanoid\

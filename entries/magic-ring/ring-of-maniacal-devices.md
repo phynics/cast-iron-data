@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_maniacal_devices", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "172"
+[[sources]]
+publication = "advanced-players-guide"
+page = "292"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Equipment pg 172, Advanced Player's Guide pg 292\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** ring; **Price** 5,000 gp; **Weight** -
 

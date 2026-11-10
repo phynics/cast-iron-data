@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parallel_worlds", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "168"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 168
 
 In physics, a theory called the "many-worlds interpretation" asserts that for any given choice or
 event, a separate reality is created for each possible outcome. Under this model, history is not a

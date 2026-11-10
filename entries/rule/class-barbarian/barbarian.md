@@ -8,12 +8,13 @@ parent = "ref/class/barbarian"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/classes7.json#barbarian|section:barbarian", path = "json/classes7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "31"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 31
 
 For some, there is only rage. In the ways of their people, in the fury of their passion, in the howl
 of battle, conflict is all these brutal souls know. Savages, hired muscle, masters of vicious

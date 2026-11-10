@@ -6,12 +6,17 @@ source_ids = ["occult-bestiary", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_tyrant", path = "json/races.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "23"
+[[sources]]
+publication = "advanced-race-guide"
+page = "186"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Bestiary pg 23, Advanced Race Guide pg 186\
 Duergar tyrants are defined by their class levels - they do not have racial Hit Dice. Duergar
 tyrants have all of the racial traits of [duergar](ref/race/duergar) characters except
 [spell-like abilities](ref/umr/spell-like-abilities), in addition to the following.

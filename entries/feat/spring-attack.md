@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_attack", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot move before and after an attack."
 +++
 
 ## Spring Attack (Combat)
-
-**Sources:** PRPG Core Rulebook pg 134
 
 You can deftly move up to a foe, strike, and withdraw before he can react.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), base attack bonus

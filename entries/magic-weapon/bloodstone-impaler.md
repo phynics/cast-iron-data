@@ -6,6 +6,9 @@ source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodstone_impaler", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "giants-revisited"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Giants Revisited pg 61\
 **Aura** strong transmutation; **CL** 11th\
 **Slot** none; **Price** 23,302 gp; **Weight** 9 lbs.
 

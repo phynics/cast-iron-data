@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trial_of_fire_and_acid", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: acid, fire
 :::
-
-**Sources:** Monster Codex pg 225
 
 The target creature is covered in burning acid that deals 1d6 points of acid damage and 1d6 points
 of fire damage each round. The subject can attempt a Fortitude saving throw each round to reduce the

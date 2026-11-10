@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultivate_magic_plants", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can cultivate magic plants. Cultivating a magic plant takes 1 wee
 +++
 
 ## Cultivate Magic Plants (Item Creation)
-
-**Sources:** Ultimate Wilderness pg 109
 
 You combine a natural green thumb and knowledge of magic in order to grow magic plants.\
 **Prerequisites:** [Brew Potion](ref/feat/brew-potion),

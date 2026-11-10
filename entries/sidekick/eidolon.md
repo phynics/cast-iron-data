@@ -6,12 +6,14 @@ source_ids = ["advanced-players-guide", "ultimate-magic", "cohorts-and-companion
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "58"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Player's Guide pg 58\
 An eidolon's abilities are determined by the [summoner's](ref/class/summoner) level and by the
 choices made using its evolution pool. Each eidolon possesses a base form that modifies these base
 statistics. Eidolons are outsiders for the purpose of determining which spells affect them.

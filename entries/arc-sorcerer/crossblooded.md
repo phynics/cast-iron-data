@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "69"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Magic pg 69\
 A crossblooded bloodline combines the powers of two distinct heritages. In most cases, sorcerers
 with this bloodline are the offspring of two sorcerers from different ancestries, but occasionally a
 crossblooded sorcerer arises from the conjunction of other powers. A draconic sorcerer who is also

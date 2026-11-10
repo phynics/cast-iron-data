@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owls_wisdom", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "318"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 318
 
 The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the
 usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based

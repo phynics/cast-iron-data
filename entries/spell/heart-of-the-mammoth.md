@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_the_mammoth", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will (harmless)
 Spell resistance: no
 Target: creature touched
 :::
-
-**Sources:** Dragonslayer's Handbook pg 29
 
 The target creature becomes stronger, hardier, and imbued with the courage of the greatest megafauna
 of the tundra. The spell grants a +8 enhancement bonus to Strength and Constitution, immunity to

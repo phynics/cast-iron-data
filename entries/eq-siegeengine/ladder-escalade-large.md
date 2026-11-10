@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ladder_escalade_large", path = "json/equipment_siege_engines.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "166"
 
 [fields]
 kind = "item"
@@ -14,8 +17,6 @@ weight = "-"
 +++
 
 ## Ladder, escalade
-
-**Sources:** Ultimate Combat pg 166
 
 Escalade ladders have spiked bases for stability, and the upper 5 feet are metal-shod, with
 [hardness](ref/umr/hardness) 10 and 20 hit points. The remainder of the ladder is wooden and has

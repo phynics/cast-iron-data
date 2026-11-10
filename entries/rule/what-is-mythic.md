@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "what_is_mythic", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "4"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 4
 
 Everyone knows the story of the blacksmith's son who, after taking up arms to defend his village,
 continues on to become a renowned adventurer. And of the young elf who spends years studying musty

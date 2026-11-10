@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_mischief", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Azata Style, whenever an opponent misses you with an atta
 +++
 
 ## Azata Mischief (Combat)
-
-**Sources:** Planar Adventures pg 25
 
 You move with uncommon grace that disorients enemies, causing foes that strike at you to overreach
 and stumble.\

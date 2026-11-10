@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_shoulders", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "263"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 263
 
 ### Table 5-11: Shoulders Slot Wondrous Items
 

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_infusion", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes
 Target: one mindless undead creature
 Descriptors: shadow
 :::
-
-**Sources:** Blood of Shadows pg 31
 
 You infuse the target mindless undead creature with power drawn from the Shadow Plane, immediately
 granting it the advanced creature simple template. It gains a +2 bonus on all rolls, including

@@ -9,6 +9,15 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bless" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "230"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "71"
+[[sources]]
+publication = "gods-and-magic"
+page = "5"
 
 [fields]
 kind = "spell"
@@ -47,9 +56,6 @@ Area: The caster and all allies within a 50-ft. burst, centered on the caster
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Inner Sea Gods pg 230, Pathfinder \#8: Seven Days to the Grave pg 71, Gods and Magic pg
-5
 
 This spell functions like [bless](ref/spell/bless), except as noted. It works only in the caster's
 home city, and in areas under the jurisdiction of the city watch. For example, if the watch patrols

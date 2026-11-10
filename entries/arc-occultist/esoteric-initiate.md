@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "8"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Aura sight"]
 alters = ["Mental focus", "implements", "shift focus"]
 +++
 
-**Sources:** Disciple's Doctrine pg 8\
 While most occultists learn to draw power from a variety of implements and objects, esoteric
 initiates have focused their study entirely on items of antiquity connected to the teachings of the
 Esoteric Order of the Palatine Eye, believing such items to be more powerful than mundane items.

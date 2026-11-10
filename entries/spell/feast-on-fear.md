@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feast_on_fear", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Targets: one or more living creatures (see text)
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** Advanced Class Guide pg 181
 
 Each round, as a standard action, you can target a single living creature of up to 9 HD and strike
 it with terrifying waves of power. If the target fails its saving throw, it becomes panicked for 1d4

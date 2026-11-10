@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "adventurers-armory", "knig
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_riding", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "25 lbs. (guard), 5 lbs. (lap), 50 lbs. (riding)"
 
 ## Dog
 
-**Sources:** Ultimate Equipment pg 81, PRPG Core Rulebook pg 159, Adventurer's Armory pg 19\
 **Price** 25 gp (guard), 15 gp (lap), 150 gp (riding); **Weight** 25 lbs. (guard), 5 lbs. (lap), 50
 lbs. (riding)
 

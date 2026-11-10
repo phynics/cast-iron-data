@@ -6,15 +6,24 @@ source_ids = ["ranged-tactics-toolbox", "adventurers-armory", "advanced-players-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lasso", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "33"
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
+[[sources]]
+publication = "advanced-players-guide"
+page = "178"
+[[sources]]
+publication = "ultimate-equipment"
+page = "21"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 33, Adventurer's Armory pg 3, Advanced Player's Guide pg 178,
-Ultimate Equipment pg 21
 
 This thrown weapon is a length of rope with a simple open knot on one end that allows you entangle a
 foe like you would using a [net](ref/eq-weapon/net). The DC to cast a spell while entangled with a

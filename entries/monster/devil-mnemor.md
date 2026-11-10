@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_mnemor", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "21"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ tongue snaking out over its distended jaw._
 
 **Senses:** Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
 
-**Sources:** Occult Bestiary pg 21\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 1,600

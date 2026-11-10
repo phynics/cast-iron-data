@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "28"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stern gaze", "Monster lore", "Solo tactics", "teamwork feats"]
 alters = ["Cunning initiative"]
 +++
 
-**Sources:** Ultimate Intrigue pg 28\
 Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and
 take their enemies by surprise.
 

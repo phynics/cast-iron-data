@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_the_jungle", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Sargava, the Lost Colony pg 28\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** shoulders; **Price** 2,400 gp; **Weight** 1 lb.
 

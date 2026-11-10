@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legionnaire", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "45"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** Inner Sea NPC Codex pg 45\
 **XP** 2,400\
 Human [ranger](ref/class/ranger) ([skirmisher](ref/arc-ranger/skirmisher)) 7\
 LN Medium humanoid (human)\

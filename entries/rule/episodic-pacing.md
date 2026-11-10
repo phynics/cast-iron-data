@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "episodic_pacing", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "166"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 166
 
 When you're running a game with episodic pacing, you inject minor incidents of social conflict into
 the normal course of exploration and adventure. This typically requires you to introduce a minor

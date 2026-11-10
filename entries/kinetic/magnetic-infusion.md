@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnetic_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "21"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 [Plasma Blast](ref/kinetic/plasma-blast), [Thunderstorm Blast](ref/kinetic/thunderstorm-blast)
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/21
 
 Your kinetic blast causes your foes to become mildly magnetic. Whenever an infused blast deals
 damage to a foe, attacks made with metal weapons (including

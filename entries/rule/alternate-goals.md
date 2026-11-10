@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alternate_goals", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "128"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 128
 
 An infiltration might have one of the same goals as a [normal heist](ref/rule/heists), or it could
 aim at one of the following goals instead. Because it is less complicated than a heist, an

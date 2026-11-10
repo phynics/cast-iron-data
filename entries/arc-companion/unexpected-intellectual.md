@@ -6,13 +6,15 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unexpected_intellectual", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Share Spells"]
 +++
 
-**Sources:** Wilderness Origins pg 20\
 Sometimes, when an insect or other vermin is chosen to be an animal companion, it proves cleverer
 than expected. On occasion, it proves much cleverer.
 

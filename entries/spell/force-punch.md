@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_punch", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "221"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: force
 :::
-
-**Sources:** Ultimate Magic pg 221
 
 This spell charges your hand with telekinetic force. Your successful melee touch attack deals 1d4
 points of force damage per level (maximum 10d4) and causes the target to be pushed away from you in

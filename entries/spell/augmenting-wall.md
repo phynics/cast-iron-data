@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augmenting_wall", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no (object)
 Effect: 20-ft.-high wall of energy whose area is up to one 10-ft. square/level
 :::
-
-**Sources:** Ranged Tactics Toolbox pg 30
 
 You create a wall of faintly shimmering elemental energy. Upon casting the spell, choose either
 acid, cold, electricity, or fire. The spell gains the chosen descriptor, and any thrown weapons or

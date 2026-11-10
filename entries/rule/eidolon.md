@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "145"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 145
 
 An eidolon has the same mystery as a cohort, except its origins are far weirder. It might have been
 linked to another summoner before its bond with you. It might be a natural creature altered by

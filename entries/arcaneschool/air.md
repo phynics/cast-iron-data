@@ -6,13 +6,15 @@ source_ids = ["advanced-players-guide", "elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air", path = "json/class_ability_arcane_schools.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "142"
 
 [fields]
 kind = "class_option"
 group = "arcane-school"
 +++
 
-**Sources:** Advanced Player's Guide pg 142\
 The air elementalist uses the forces of the wind, sky, clouds, and lightning to confuse and destroy
 his foes, all while flying through the air with ease.
 

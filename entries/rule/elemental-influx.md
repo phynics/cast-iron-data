@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_influx", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 147
 
 **CR Varies**
 

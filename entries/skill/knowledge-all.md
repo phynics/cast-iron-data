@@ -6,12 +6,13 @@ source_ids = ["core-rulebook", "spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowledge_all", path = "json/skills.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "99"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 99
 
 **Associated Skill**
 

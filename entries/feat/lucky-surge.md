@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_surge", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "68"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use your surge ability, you can roll your surge dice twi
 +++
 
 ## Lucky Surge (Mythic)
-
-**Sources:** Mythic Adventures pg 68
 
 Your surges defy the odds.\
 **Prerequisites:** [Potent Surge](ref/feat/potent-surge), 3rd mythic tier.\

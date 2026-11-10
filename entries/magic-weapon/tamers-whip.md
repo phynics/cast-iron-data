@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tamers_whip", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and enchantment [mind-affecting, sonic]"
 caster_level = "8th"
 +++
 
-**Sources:** Animal Archive pg 27\
 **Aura** moderate conjuration and enchantment \[mind-affecting, sonic\]; **CL** 8th\
 **Slot** none; **Price** 11,901 gp; **Weight** 2 lbs.
 

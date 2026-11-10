@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resonating_word", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: sonic
 :::
-
-**Sources:** Ultimate Magic pg 235
 
 You speak a terrible word of power, setting up potentially lethal vibrations in the chosen target.
 The target must save once each round on your turn, and the effects grow stronger for each saving

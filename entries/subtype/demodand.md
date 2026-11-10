@@ -6,14 +6,16 @@ source_ids = ["bestiary-5", "bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Demodand
-
-**Sources:** Bestiary 5, Bestiary 3
 
 [Demodands](ref/family/demodand) are chaotic evil outsiders who stalk
 [the Abyss](ref/rule/the-abyss). Unless otherwise noted in the creature's entry, a demodand has the

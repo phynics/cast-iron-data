@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_shadow_lord", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "356"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "moderate illusion"
 caster_level = "8th"
 +++
-
-**Sources:** Ultimate Equipment pg 356
 
 **Aura** moderate illusion; **CL** 8th\
 **Slot** armor; **Price** 117,160 gp; **Weight** 15 lbs.

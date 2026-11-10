@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-20-house-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_sunlord_thalachos", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "306"
+[[sources]]
+publication = "pathfinder-20-house-of-the-beast"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ flaming scimitars and a bow._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Inner Sea Gods pg 306, Pathfinder \#20: House of the Beast pg 86\
 **Subtype:** Angel, Extraplanar, Good, Herald, Shapechanger
 
 **Experience points:** 51,200

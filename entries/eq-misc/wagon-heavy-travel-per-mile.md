@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wagon_heavy_travel_per_mile", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "87"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "400 lbs."
 
 ## Wagon
 
-**Sources:** Ultimate Equipment pg 87\
 **Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Price of Passage** 3 cp (heavy), 2 cp
 (light), 2 cp (medium) **Category** Transport, Land
 

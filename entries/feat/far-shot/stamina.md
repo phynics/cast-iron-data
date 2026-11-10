@@ -6,11 +6,13 @@ source_ids = ["pathfinder-unchained"]
 relations = [
   { kind = "addon", target = "ref/feat/far-shot", label = "stamina" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "119"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 119\
 When making a single ranged attack as a standard action, you can spend 5 stamina points to ignore
 all range penalties on that attack.

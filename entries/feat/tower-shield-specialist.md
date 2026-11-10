@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield_specialist", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You reduce the armor check penalty for tower shields by 3, and if you
 +++
 
 ## Tower Shield Specialist (Combat, Shield Mastery)
-
-**Sources:** Armor Master's Handbook pg 19
 
 You wield tower shields with ease.\
 **Prerequisites:** [Shield Focus](ref/feat/shield-focus),

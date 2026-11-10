@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/telekinesis", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "110"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 110\
 The duration of this spell changes to 1 round per level. You may spend a move action to use the
 sustained force or combat maneuver effects of the spell.
 

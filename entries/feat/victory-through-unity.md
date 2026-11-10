@@ -6,6 +6,9 @@ source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victory_through_unity", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "pathfinder-131-the-reapers-right-hand"
+page = "79"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you gain this feat, choose an animal aspect granted by the hunte
 +++
 
 ## Victory Through Unity (Story)
-
-**Sources:** Pathfinder \#131: The Reaper's Right Hand pg 79
 
 You have practiced your family's genetic experimentations upon your own familiar.\
 **Prerequisites:** You must have a familiar, and you must either be a member of House Merrosett or

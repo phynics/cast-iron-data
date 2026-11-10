@@ -6,6 +6,9 @@ source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomwasp", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "down-the-blighted-path"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _The stinger and antennae of this dog-sized wasp pulsate with a dim, violet ligh
 
 **Size:** small
 
-**Sources:** Down the Blighted Path pg 55\
 **Experience points:** 2,400
 
 **Armor class:** 23/17/17

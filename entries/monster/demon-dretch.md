@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_dretch", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ moves with surprising quickness._
 
 **Size:** small
 
-**Sources:** Pathfinder RPG Bestiary pg 60\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 600

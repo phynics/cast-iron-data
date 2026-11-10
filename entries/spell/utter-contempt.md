@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "utter_contempt", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: emotion
 :::
-
-**Sources:** Ultimate Magic pg 246
 
 You fill the target's heart with malice for all other creatures. The target's attitude toward all
 creatures other than itself worsens by two steps.

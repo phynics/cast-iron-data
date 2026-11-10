@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smother", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "228"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Smother (Ex)
 
-**Sources:** Mythic Adventures pg 228\
 If the creature's grappled opponent is holding its breath, the monster can force that opponent to
 expel or consume some of its breath, or can otherwise reduce the time remaining until the target has
 to attempt checks to avoid [suffocation](ref/rule/suffocation).

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linebreaker", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "59"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 59
 
 > _[Half-orcs](ref/race/half-orc) have access to the following spell._
 

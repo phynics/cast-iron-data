@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_sweep", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "92"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using Street Style, the first time each round that you deal dam
 +++
 
 ## Street Sweep (Combat)
-
-**Sources:** Ultimate Intrigue pg 92
 
 After driving your foe back, you can quickly knock it to the ground and slow it down.\
 **Prerequisites:** Str 15, [Improved Bull Rush](ref/feat/improved-bull-rush),

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_rings", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "551"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 551
 
 To create a magic ring, a character needs a heat source. He also needs a supply of materials, the
 most obvious being a ring or the pieces of the ring to be assembled. The cost for the materials is

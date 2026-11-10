@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_unexpected_death", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: living creature touched
 Descriptors: curse, death
 :::
-
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 74
 
 > _Clerics of [Zyphus](ref/faith/zyphus) have access to the following spell._
 

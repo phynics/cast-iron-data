@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_adaptation", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Player's Guide pg 236
 
 Planar adaptation grants you immunity to the harmful environmental effects of a particular plane of
 existence, including such hazards as toxicity, extreme temperatures, and lack of air. Additionally,

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "130"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Endurance", "Woodland stride", "Camouflage", "Hide in plain sight"]
 +++
 
-**Sources:** Advanced Player's Guide pg 130\
 For the urban ranger, the streets and sewers of the city are just as dangerous as the barren
 wastelands or the deep forests. An urban ranger has the following class features.
 

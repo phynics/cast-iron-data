@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "15"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Expert trainer", "Tactician", "banner", "greater tactician", "great
 alters = ["Mount", "Cavalier's charge"]
 +++
 
-**Sources:** Wilderness Origins pg 15\
 Some [vine leshy](ref/race/vine-leshy) spirits are vibrant enough to project this animus beyond
 their own bodies. Called verdivants, these leshys explore the world atop unique companions formed
 from the leshy's vines and animated by their nearly boundless energy. Both mount and rider brim with

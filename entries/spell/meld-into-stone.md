@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meld_into_stone", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "312"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: you
 Descriptors: earth
 :::
-
-**Sources:** PRPG Core Rulebook pg 312
 
 Meld into stone enables you to meld your body and possessions into a single block of stone. The
 stone must be large enough to accommodate your body in all three dimensions. When the casting is

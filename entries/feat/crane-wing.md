@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crane_wing", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "93"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When fighting defensively with at least one hand free, you gain a +4 
 +++
 
 ## Crane Wing (Combat)
-
-**Sources:** Ultimate Combat pg 93
 
 You move with the speed and finesse of an avian hunter, your sweeping blocks and graceful motions
 allowing you to deflect melee attacks with ease.\

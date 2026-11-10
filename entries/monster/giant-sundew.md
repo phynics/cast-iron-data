@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sundew", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "258"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ Whip-like fronds unfurl from the center._
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 258\
 **tremorsense:** 60
 
 **Experience points:** 19,200

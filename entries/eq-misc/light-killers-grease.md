@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_killers_grease", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Sources:** Monster Codex pg 33\
 **Price** 25 gp; **Weight** -\
 **Category** Alchemical Tools
 

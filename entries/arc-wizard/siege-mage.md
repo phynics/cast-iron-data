@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "75"
 
 [fields]
 kind = "archetype"
 replaces = ["Scribe scroll", "Arcane bond", "Cantrips", "Arcane school"]
 +++
 
-**Sources:** Ultimate Combat pg 75\
 The siege mage combines his arcane mastery with a supernatural link to
 [siege engines](ref/rule/siege-engines).
 

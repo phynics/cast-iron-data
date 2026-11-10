@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nonlethal_damage", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 191
 
 Nonlethal damage represents harm to a character that is not life-threatening. Unlike normal damage,
 nonlethal damage is healed quickly with rest.

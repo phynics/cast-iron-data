@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-3" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Subschool: Polymorph
 :::
 
 ### Animal Shapes
-
-**Sources:** PRPG Core Rulebook pg 241
 
 As [beast shape III](ref/spell/beast-shape-3), except you change the form of up to one willing
 creature per caster level into an animal of your choice; the spell has no effect on unwilling

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slick", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "27"
 
 [fields]
 kind = "class_option"
@@ -25,8 +28,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** Reflex negates
 
 **Spell resistance:** no
-
-**Source:** Occult Adventures/27
 
 As a **standard action**, you call forth slippery water or ice, creating any of the effects of the
 [grease](ref/spell/grease) spell for 1 round. You can accept 1 point of burn at the start of your

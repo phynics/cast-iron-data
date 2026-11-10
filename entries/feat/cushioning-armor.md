@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cushioning_armor", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "16"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you take falling damage, you can direct half of the damage to yo
 +++
 
 ## Cushioning Armor (Armor Mastery, Combat)
-
-**Sources:** Armor Master's Handbook pg 16
 
 You twist in your armor, allowing it to mitigate your fall.\
 **Prerequisites:** Armor training class feature, proficiency with medium or heavy armor.\

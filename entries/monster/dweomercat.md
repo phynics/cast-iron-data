@@ -6,6 +6,9 @@ source_ids = ["pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dweomercat", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-36-sound-of-a-thousand-screams"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ abilities = ["15", "23", "16", "13", "16", "16"]
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#36: Sound of a Thousand Screams pg 82\
 **Experience points:** 3,200
 
 **Armor class:** 23/17/16

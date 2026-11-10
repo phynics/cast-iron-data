@@ -6,6 +6,9 @@ source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghristah", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "darklands-revisited"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -49,7 +52,6 @@ and bone and the skull of a larger reptile as a menacing mask._
 
 **Senses:** Darkvision 90 ft.
 
-**Sources:** Darklands Revisited pg 51\
 **Subtype:** Reptilian
 
 **Experience points:** 4,800

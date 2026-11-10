@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mass_combat_quick_reference_guide", path = "json/rules_campaign_types05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "235"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 235
 
 These mass combat rules treat armies as if they were individual creatures. Instead of making 100
 attack rolls for each side of a battle between elves and orcs, you treat the elf army as one unit

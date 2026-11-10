@@ -6,14 +6,21 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brass_knuckles", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
+[[sources]]
+publication = "adventurers-armory"
+page = "2"
+[[sources]]
+publication = "advanced-players-guide"
+page = "176"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Ultimate Equipment pg 17, Adventurer's Armory pg 2, Advanced Player's Guide pg 176
 
 These weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed
 strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You

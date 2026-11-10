@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_brown_sphere", path = "json/magic_ioun_stones.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Sources:** Dungeoneer's Handbook pg 28\
 **Aura** strong divination; **CL** 12th\
 **Slot** none; **Price** 10,000 gp; **Weight** —
 

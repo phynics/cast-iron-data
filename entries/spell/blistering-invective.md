@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blistering_invective", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: special, see below
 Area: 30-ft. radius
 Descriptors: fire, language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 224
 
 You unleash an insulting tirade so vicious and spiteful that enemies who hear it are physically
 scorched by your fury. When you cast this spell, make an Intimidate check to demoralize each enemy

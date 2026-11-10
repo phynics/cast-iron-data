@@ -6,14 +6,21 @@ source_ids = ["ranged-tactics-toolbox", "core-rulebook", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sling", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "0"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
+[[sources]]
+publication = "ultimate-equipment"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "-"
 +++
-
-**Sources:** Ranged Tactics Toolbox pg 0, PRPG Core Rulebook pg 142, Ultimate Equipment pg 17
 
 A sling is little more than a leather cup attached to a pair of strings. Your Strength modifier
 applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but

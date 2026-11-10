@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shock_shield", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "243"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Target: you
 Descriptors: electricity, force
 :::
-
-**Sources:** Ultimate Combat pg 243
 
 This spell creates an invisible shield similar to but not as strong as the
 [shield](ref/spell/shield) spell. This shield hovers in front of you and negates

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pearl_of_power", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "315"
+[[sources]]
+publication = "core-rulebook"
+page = "525"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 315, PRPG Core Rulebook pg 525\
 **Aura** strong transmutation; **CL** 17th\
 **Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
 (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 70,000 gp (Two Spells), 81,000 gp (9th);

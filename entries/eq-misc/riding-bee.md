@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riding_bee", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "12"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000
 weight = "140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs. (queen), 60 lbs. (worker)"
 +++
 
-**Sources:** Ultimate Wilderness pg 12\
 **Price** 12,000 gp (combat-trained queen), 450 gp (combat-trained worker), 8,000 gp (queen), 300 gp
 (worker); **Weight** 140 lbs. (combat-trained queen), 60 lbs. (combat-trained worker), 140 lbs.
 (queen), 60 lbs. (worker)

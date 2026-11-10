@@ -6,12 +6,13 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "currents_and_running_water", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Aquatic Adventures\
 Currents in the ocean (or a similarly large body of water) work similarly to
 [rivers](ref/rule/aquatic-terrain). Each current has a particular speed (measured in feet per
 round), width, and direction, and at the beginning of a creature's turn, the current pushes it that

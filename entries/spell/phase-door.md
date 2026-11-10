@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phase_door", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "320"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Effect: ethereal 5-ft.-by-8-ft. opening, 10 ft. deep + 5 ft. deep per three levels
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 320
 
 This spell creates an ethereal passage through wooden, plaster, or stone walls, but not other
 materials. The phase door is invisible and inaccessible to all creatures except you, and only you

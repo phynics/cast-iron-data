@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "32"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire courage", "Versatile performance", "Well-versed", "Lore master"]
 +++
 
-**Sources:** Ultimate Combat pg 32\
 As quick at wordplay as at swordplay, daredevils are dashing heroes, inspiring their allies to match
 their clever repartee and acrobatic feats. Daredevils often lean toward comedy, dance, oratory, and
 singing.

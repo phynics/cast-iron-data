@@ -6,14 +6,15 @@ source_ids = ["book-of-the-damned-volume-2-lords-of-chaos"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonic_obedience", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned-volume-2-lords-of-chaos"
+page = "8"
 
 [fields]
 kind = "feat"
 prerequisites = "3 ranks in Knowledge (planes), must worship a demon lord."
 benefit = "Each demon lord requires a different obedience, but all obediences take only an hour to perform. Once the obedience has been performed, you gain the benefit of a resistance to some element or attack associated with your demon lord, as indicated in the \"Obedience\" entry for the demon lord."
 +++
-
-**Sources:** Book of the Damned - Volume 2: Lords of Chaos pg 8
 
 You physically defile yourself, others, or holy objects in order to prove your blasphemous devotion
 to a demon lord and gain special boons.\

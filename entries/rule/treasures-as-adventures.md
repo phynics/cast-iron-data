@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasures_as_adventures", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "113"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 113
 
 Treasures usually appear as the capper to a successful encounter or adventure. Though their
 appearance may mark the end of one story, they can also serve as springboards to further events.

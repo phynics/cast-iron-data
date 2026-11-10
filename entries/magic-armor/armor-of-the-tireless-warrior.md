@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_of_the_tireless_warrior", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 60\
 **Aura** moderate necromancy; **CL** 9th\
 **Slot** armor; **Price** 25,900 gp; **Weight** 15 lbs.
 

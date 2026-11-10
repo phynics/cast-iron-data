@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "57"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Vigilante specialization", "Unshakable"]
 alters = ["Weapon and armor proficiencies", "Vigilante talents"]
 +++
 
-**Sources:** Ultimate Intrigue pg 57\
 Firearms can be potent tools for striking fear into the hearts of enemies, and canny vigilantes use
 this to their advantage. Gunmasters brandish firearms like extensions of their will, taking down
 their foes with deadly accuracy and skill.

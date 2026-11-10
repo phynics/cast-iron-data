@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_revelation_greater", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "173"
+[[sources]]
+publication = "advanced-players-guide"
+page = "293"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "11th"
 
 ## Ring of Revelation
 
-**Sources:** Ultimate Equipment pg 173, Advanced Player's Guide pg 293\
 **Aura** moderate varies; **CL** 11th\
 **Slot** ring; **Price** 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); **Weight** -
 

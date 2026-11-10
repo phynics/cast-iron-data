@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_reading", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "183"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: yes
 Target: one humanoid creature
 :::
-
-**Sources:** Occult Adventures pg 183
 
 You are able to read a person's surface thoughts and take cues from the person's appearance, body
 language, and manner of speech to infer a great deal of information about the person, even if that

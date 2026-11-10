@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suspension_piercings_major", path = "json/magic_shadow_piercings.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,8 +20,6 @@ aura = "faint transmutation (minor and major), moderate transmutation (greater) 
 +++
 
 ## Suspension Piercings
-
-**Sources:** Champions of Corruption pg 29
 
 **Aura** faint transmutation (minor and major), moderate transmutation (greater) CL 7th\
 **Slot** belt or shoulders; **Price** 6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater);

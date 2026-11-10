@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "froghemoth", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "136"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ huge tentacles thrash and writhe._
 
 **Senses:** All-around vision, Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 136\
 **Experience points:** 25,600
 
 **Armor class:** 28/9/27

@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_giant_stag_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "33"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ defense of its territory._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 33\
 **Type:** vermin
 
 **Experience points:** 1,200

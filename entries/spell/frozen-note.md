@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frozen_note", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Area: 30-ft.-radius emanation centered on you
 Subschool: Compulsion
 Descriptors: mind-affecting, sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 224
 
 You produce and sustain a single perfect musical note that holds nearby creatures, friend as well as
 foe, utterly spellbound until you stop singing. Affected creatures are both paralyzed and oblivious

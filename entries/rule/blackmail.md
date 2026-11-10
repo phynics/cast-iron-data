@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackmail", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "10"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 10
 
 You can spend 1 day of downtime to learn an incriminating secret about someone. To learn a secret
 about your target, you or a team must succeed at a Diplomacy (gather information) or Influence check

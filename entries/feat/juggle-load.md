@@ -6,6 +6,9 @@ source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juggle_load", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "halflings-of-golarion"
+page = "23"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can load a sling or double sling as a free action. This does not 
 +++
 
 ## Juggle Load (Combat)
-
-**Sources:** Halflings of Golarion pg 23
 
 Your fingers are so nimble that reloading your sling is almost effortless for you.\
 **Prerequisites:** [Ammo Drop](ref/feat/ammo-drop), Sleight of Hand 1 rank, proficient with

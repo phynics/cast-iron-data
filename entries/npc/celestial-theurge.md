@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_theurge", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "228"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "8"
 
 **Challenge rating:** 8
 
-**Sources:** NPC Codex pg 228\
 **XP** 4,800\
 Human [cleric](ref/class/cleric) of Sarenrae 3/[sorcerer](ref/class/sorcerer) 4/mystic theurge 2\
 NG Medium humanoid (human)\

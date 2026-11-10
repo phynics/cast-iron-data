@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manifestations", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "14"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 14
 
 You gain a manifestation of your curse when you first contract a corruption, and gain more at later
 levels. Each manifestation includes both a gift and a stain (though campaign variants can change how

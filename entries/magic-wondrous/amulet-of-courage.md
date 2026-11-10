@@ -6,6 +6,9 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_courage", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
+page = "8"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Sources:** Divine Anthology pg 8\
 **Aura** faint abjuration; **CL** 3rd\
 **Slot** neck; **Price** 6,000 gp; **Weight** -
 

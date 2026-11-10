@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buccaneers_breastplate", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "124"
+[[sources]]
+publication = "advanced-players-guide"
+page = "284"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 124, Advanced Player's Guide pg 284\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** armor; **Price** 23,850 gp; **Weight** 30 lbs.
 

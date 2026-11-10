@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_pufferfish", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "203"
+[[sources]]
+publication = "familiar-folio"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ from its body._
 
 **Senses:** Low-light vision
 
-**Sources:** Ultimate Wilderness pg 203, Familiar Folio pg 25\
 **Size:** tiny
 
 **Experience points:** 100

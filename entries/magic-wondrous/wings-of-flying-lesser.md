@@ -6,6 +6,9 @@ source_ids = ["pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wings_of_flying_lesser", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
+page = "59"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#63: The Asylum Stone pg 59\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** shoulders; **Price** 22,000 gp; **Weight** 10 lbs.
 

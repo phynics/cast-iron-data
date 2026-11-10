@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prone_shooter", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "113"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "If you have been prone since the end of your last turn, the penalty t
 +++
 
 ## Prone Shooter (Combat)
-
-**Sources:** Ultimate Combat pg 113
 
 Take a reduced penalty to your AC against melee attacks while prone\
 **Prerequisites:** Base attack bonus +1.\

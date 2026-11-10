@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_protection", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "8"
 
 [fields]
 kind = "class_option"
@@ -29,8 +32,6 @@ Nirvana)
 **Saving throw:** none
 
 **Spell resistance:** none
-
-**Source:** Plane-Hopper's Handbook/8
 
 When you use _kinetic healer,_ the target of the healing gains the benefits of
 [protection from evil](ref/spell/protection-from-evil) for 1 round.

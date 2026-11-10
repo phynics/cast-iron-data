@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_2_determine_scope", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "119"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 119
 
 When figuring out how large and involved the heist will be, a GM should consider how much time she
 wants to invest in the encounter, both in preparation and at the table. The relative importance the

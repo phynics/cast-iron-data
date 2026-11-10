@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_disgust", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "215"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: curse, emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 215
 
 You place a curse upon a creature, causing it to avoid the sight of a specific trigger, which is a
 kind of creature, object, or condition designated by you. When the target is within 30 feet of a

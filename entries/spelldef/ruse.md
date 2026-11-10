@@ -6,14 +6,15 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruse", path = "json/spell_definitions.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "192"
 
 [fields]
 kind = "none"
 +++
 
 ## Ruse (spell discriptor)
-
-**Sources:** Ultimate Intrigue pg 192
 
 Spells with the ruse descriptor are easily mistaken for other spells and are intended to confuse
 even onlookers trained in Spellcraft or Knowledge (arcana). Attempts to identify a ruse spell by its

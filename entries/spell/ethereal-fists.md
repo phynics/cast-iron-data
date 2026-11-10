@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_fists", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "171"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 171
 
 Your hands reach simultaneously into the Ethereal and Material planes, allowing you to deal normal
 damage with claws, unarmed strikes, and touch spells or effects to ethereal creatures. Miss chance

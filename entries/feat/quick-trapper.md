@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/learn-ranger-trap", label = "or" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ prerequisites = "Learn Ranger Trap or trap class feature, Survival 5 ranks."
 prerequisite_feats = ["ref/feat/learn-ranger-trap"]
 benefit = "When setting a ranger trap, you can do so as a standard action rather than a full-round action. If you do so, the trap DC is reduced by 5."
 +++
-
-**Sources:** Pathfinder \#116: Fangs of War pg 67
 
 Your trap-making proficiency improves greatly.\
 **Prerequisites:** [Learn Ranger Trap](ref/feat/learn-ranger-trap) or trap class feature, Survival 5

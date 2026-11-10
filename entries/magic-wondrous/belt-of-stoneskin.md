@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belt_of_stoneskin", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "210"
+[[sources]]
+publication = "advanced-race-guide"
+page = "148"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 210, Advanced Race Guide pg 148\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** belt; **Price** 60,000 gp; **Weight** 10 lbs.
 

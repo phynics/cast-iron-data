@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_fire_vc", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "56"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you hit a foe with a firearm for which you have Weapon Focus, th
 +++
 
 ## Covering Fire (VC) (Combat, Teamwork)
-
-**Sources:** Villain Codex pg 56
 
 Your shot can put an enemy off guard, giving your teammates the opportunity to act.\
 **Prerequisites:** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (firearms),

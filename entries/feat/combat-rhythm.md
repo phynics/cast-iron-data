@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_rhythm", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you deal damage with a melee attack to an opponent you have alre
 +++
 
 ## Combat Rhythm (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 The more your attacks land, the more confident your strikes.\
 **Prerequisites:** base attack bonus +6 or monk level 6.\

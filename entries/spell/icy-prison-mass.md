@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/icy-prison" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -45,7 +48,5 @@ Descriptors: cold
 :::
 
 ### Mass Icy Prison
-
-**Sources:** Ultimate Magic pg 224
 
 This spell functions as [icy prison](ref/spell/icy-prison), except as noted above.

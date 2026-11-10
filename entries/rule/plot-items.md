@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plot_items", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "108"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 108
 
 Plot items work like setting items, except that, instead of referring to great events of the past,
 they set up future developments in the PCs' personal stories. Introduce them to the players before

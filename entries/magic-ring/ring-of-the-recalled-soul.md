@@ -6,6 +6,9 @@ source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_recalled_soul", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-132-the-six-legend-soul"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#132: The Six-Legend Soul pg 28\
 **Aura** moderate illusion; **CL** 18th\
 **Slot** ring; **Price** 150,000 gp; **Weight** -
 

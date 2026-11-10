@@ -6,6 +6,9 @@ source_ids = ["castles-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sky_mine", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "castles-of-the-inner-sea"
+page = "40"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "1,000 gp"
 weight = "500 lbs."
 +++
 
-**Sources:** Castles of the Inner Sea pg 40\
 **Price** 1,000 gp; **Weight** 500 lbs.\
 **Category** Tools
 

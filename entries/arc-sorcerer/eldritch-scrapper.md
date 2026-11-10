@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/sorcerer" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "122"
 
 [fields]
 kind = "archetype"
 replaces = ["Bloodline powers gained at 1st, 9th, and 15th level"]
 +++
 
-**Sources:** Advanced Class Guide pg 122\
 An eldritch scrapper is usually spoiling for a fight, looking to prove that she's just as tough as a
 martial character. A veteran of many brawls against opponents who were suspicious of her manifesting
 magic, an eldritch scrapper has a thick skin and a fighting style that blends weapons with spells.

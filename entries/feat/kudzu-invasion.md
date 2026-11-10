@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_invasion", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "14"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you blind a creature using your Kudzu Grappler feat, you can als
 +++
 
 ## Kudzu Invasion (Combat)
-
-**Sources:** Wilderness Origins pg 14
 
 In addition to obscuring creatures' vision, your vines crush their bodies.\
 **Prerequisites:** Dex 13, [Greater Grapple](ref/feat/greater-grapple),

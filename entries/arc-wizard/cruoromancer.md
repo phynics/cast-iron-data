@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "98"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat", "15th-level bonus feat", "The 20th-level wizard bonus spell"]
 +++
 
-**Sources:** Advanced Race Guide pg 98\
 To those who know how to manipulate it, the blood of a dhampir can be a powerful component to magic.
 A cruoromancer infuses his necromantic magic with the power of his unique mixture of living blood
 and undead ichor. As his power increases in this strange arcane art, a cruoromancer finds potent

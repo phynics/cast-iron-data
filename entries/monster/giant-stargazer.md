@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_stargazer", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ protruding._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#124: City in the Deep pg 86\
 **Subtype:** Aquatic
 
 **Experience points:** 1,200

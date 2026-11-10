@@ -6,6 +6,9 @@ source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspidochelone", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-27-what-lies-in-dust"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ plunging beneath the waves._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Pathfinder \#27: What Lies in Dust pg 78\
 **Subtype:** Aquatic
 
 **Experience points:** 102,400

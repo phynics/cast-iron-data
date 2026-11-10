@@ -6,12 +6,14 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_forgotten_life", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "31"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Disciple's Doctrine pg 31\
 **School** divination \[mind-affecting\]; **Level** 6\
 **Casting Time** 60 minutes\
 **Components** V, S, M (a token of a past life), F (an elegant mirror), SC (up to 8)\

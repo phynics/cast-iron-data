@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devouring_maws", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "177"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 177\
 A pack of ravenous [ghouls](ref/monster/ghoul) descended upon a once-peaceful town, killing or
 transforming all of its denizens who were not fast enough to flee. The ghouls' unending hunger
 blended with the townsfolk's horrifying memories of death to produce the devouring maws haunt.

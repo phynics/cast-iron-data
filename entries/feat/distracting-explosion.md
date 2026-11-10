@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distracting_explosion", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "74"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Bomb class feature, hobgoblin."
 benefit = "You can reduce your bomb damage by one die to give it the ability to distract the creature it strikes. If a creature takes a direct hit from your bomb, it must succeed at a Reflex saving throw against the bomb's DC or be unable to make attacks of opportunity for 1 round. This is in addition to any other effects the bomb would normally have."
 normal = "The target of a bomb does not get a saving throw to avoid the bomb's effects."
 +++
-
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 74
 
 Your bombs explode with such force that they throw targets off their guard and provides an opening
 for your allies.\

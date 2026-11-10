@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searching_shadows", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Effect: shadows in a 10-foot-radius spread
 Subschool: Shadow
 Descriptors: shadow
 :::
-
-**Sources:** Inner Sea Intrigue pg 62
 
 Strands of shadow probe an area, searching for a creature or object you specify by shape, size, or
 texture. Each round, the shadows attempt a Perception check on the squares they touch with a total

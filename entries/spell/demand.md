@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/sending" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "265"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 265
 
 This spell functions like [sending](ref/spell/sending), but the message can also contain a
 suggestion (see the [suggestion](ref/spell/suggestion) spell), which the subject does its best to

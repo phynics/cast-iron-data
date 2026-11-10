@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless) (see text)
 Effect: one symbol
 Subschool: Healing
 :::
-
-**Sources:** Ultimate Magic pg 241
 
 This spell functions as [symbol of death](ref/spell/symbol-of-death), except all creatures within 60
 feet of the symbol of healing instead are bathed in positive energy and heal 2d8 points + 1 point of

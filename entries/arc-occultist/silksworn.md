@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/occultist" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "29"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Knacks", "Outside contact", "Magic circles", "Binding circles", "Fa
 alters = ["Spells", "Implements", "Mental focus", "Implements", "weapon and armor proficiencies", "Implement mastery"]
 +++
 
-**Sources:** Heroes of the High Court pg 29\
 Occultists who recognize that flashy garb and fashionable accoutrements can be just as powerful as
 psychically charged relics in the right situations are known as silksworn. They draw their power
 from wearing luxurious garments and can be found in many noble courts throughout Golarion, though

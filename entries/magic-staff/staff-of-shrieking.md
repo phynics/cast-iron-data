@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_shrieking", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "200"
+[[sources]]
+publication = "advanced-players-guide"
+page = "298"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 200, Advanced Player's Guide pg 298\
 **Aura** moderate evocation; **CL** 10th\
 **Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.
 

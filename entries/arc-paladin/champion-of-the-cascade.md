@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/paladin" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Divine health", "Mercy", "Divine bond"]
 alters = ["Armor proficiency"]
 +++
 
-**Sources:** Wilderness Origins pg 30\
 Great civilizations may rise and fall, but water will always mark the places where cities grow.
 Rivers carve trails through the ground, enabling travel and trade and delivering the fresh water
 necessary to make agrarian society possible. Champions of the cascade are paladins who defend the

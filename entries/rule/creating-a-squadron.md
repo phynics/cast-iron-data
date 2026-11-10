@@ -6,12 +6,14 @@ source_ids = ["pathfinder-59-the-price-of-infamy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creating_a_squadron", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "65"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 65\
 A squadron consists of a number of individual ships, each commanded by a captain. The squadron (and
 its captains) are in turn commanded by a single commodore. A squadron can have no more ships than
 its commodore's Charisma modifier + 3.

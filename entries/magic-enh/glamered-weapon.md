@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glamered_weapon", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "142"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "10th"
 
 ## Glamered
 
-**Sources:** Ultimate Equipment pg 142\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** weapon quality; **Price** +4,000 gp; **Weight** -
 

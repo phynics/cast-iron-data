@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_stare", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you trigger your painful stare, the target immediately becomes e
 +++
 
 ## Venomous Stare (Stare)
-
-**Sources:** Blood of the Beast pg 17
 
 Your stare is toxic to your enemies.\
 **Prerequisites:** [Mesmerist](ref/class/mesmerist) level 11th, painful stare class feature.\

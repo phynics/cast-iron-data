@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_flail", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "18"
+[[sources]]
+publication = "core-rulebook"
+page = "142"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "5 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 18, PRPG Core Rulebook pg 142
 
 A light flail consists of a weighted striking end connected to a handle by a sturdy chain. Though
 often imagined as a ball, sometimes spiked like the head of a

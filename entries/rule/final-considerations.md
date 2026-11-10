@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_considerations", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "109"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 109
 
 Some spells and abilities in the game grant extra actions. The two benchmark abilities are the
 [Combat Reflexes](ref/feat/combat-reflexes) feat and the [haste](ref/spell/haste) spell. The

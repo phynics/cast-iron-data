@@ -6,6 +6,9 @@ source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barracuda_slam", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+page = "81"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You cannot charge or run underwater unless you have a swim speed. With
 +++
 
 ## Barracuda Slam (Combat)
-
-**Sources:** Pathfinder \#124: City in the Deep pg 81
 
 You learn to ram the whole weight of your body into an opponent to take it by surprise.\
 **Prerequisites:** Wis 13, [Barracuda Style](ref/feat/barracuda-style),

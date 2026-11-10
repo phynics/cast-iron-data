@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cage_tiny", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "advanced-players-guide"
+page = "185"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium),
 
 ## Cage
 
-**Sources:** Ultimate Equipment pg 81, Adventurer's Armory pg 19, Advanced Player's Guide pg 185\
 **Price** 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp
 (Huge); **Weight** 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs.
 (Large), 960 lbs. (Huge)

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "usaro_rebel", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "6"
 
 **Challenge rating:** 6
 
-**Sources:** Inner Sea NPC Codex pg 58\
 **XP** 2,400\
 Charau-ka [druid](ref/class/druid) 5\
 NE Small humanoid (charau-ka)\

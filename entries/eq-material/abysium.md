@@ -6,13 +6,14 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abysium", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "70"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Pathfinder \#61: Shards of Sin pg 70
 
 Known also as feverstone (a somewhat misleading name, as abysium is a metal like all the others),
 this glowing, blue-green substance can be a source of great energy. However, it also causes those

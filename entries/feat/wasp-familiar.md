@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_familiar", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Chaotic neutral alignment, worshiper of Calistria."
 benefit = "You gain a familiar as per the arcane bond class feature, using your character level as your wizard level. The familiar is a cat-sized, chaotic neutral wasp loyal to you. Use the statistics for a greensting scorpion familiar, but give it a base speed of 10 feet, a fly speed of 40 feet (average), no Climb bonus, and Fly +7. If you have the ability to gain a familiar through other means (such as the arcane bond class feature), and you are at least 5th level, instead use the statistics for an imp, but replace the *invisibility* spell-like ability with an unnatural lust (DC 14) spell-like ability usable three times per day. You can have only one familiar."
 special = "This feat can be taken a second time by characters of 7th or higher level if they do not otherwise have access to familiars. Such characters have access to a wasp familiar that uses the statistics for an imp, as described above."
 +++
-
-**Sources:** Dirty Tactics Toolbox pg 17
 
 The goddess of lust, revenge, and trickery has granted you a living sting to show her favor in you.\
 **Prerequisites:** Chaotic neutral alignment, worshiper of [Calistria](ref/faith/calistria).\

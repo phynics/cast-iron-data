@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "adventurers-armory", "pathfinder-campaign-s
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coffin_common", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
+[[sources]]
+publication = "pathfinder-campaign-setting"
+page = "213"
 
 [fields]
 kind = "item"
@@ -16,7 +25,6 @@ weight = "30 lbs. (common), 50 lbs. (ornate)"
 
 ## Coffin
 
-**Sources:** Ultimate Equipment pg 56, Adventurer's Armory pg 19, Pathfinder Campaign Setting pg 213\
 **Price** 10 gp (common), 100 gp (ornate); **Weight** 30 lbs. (common), 50 lbs. (ornate)
 
 A plain coffin is made of simple wood and has a loose, flat lid that can be nailed onto it. Ornate

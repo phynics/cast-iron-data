@@ -6,6 +6,12 @@ source_ids = ["advanced-class-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "euphoric_cloud", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "181"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "57"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Effect: fog spreads in 20-ft. radius, 20 ft. high
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Advanced Class Guide pg 181, Dark Markets - A Guide to Katapesh pg 57
 
 You create a bank of fog similar to that created by fog cloud except its vapors are intoxicating.
 Living creatures in the cloud become fascinated. This condition lasts as long as a creature is in

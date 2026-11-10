@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tds_3_divine", path = "json/rules_adv_gm06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "379"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 379
 
 ### Table 7-35: 3rd-Level Divine Scrolls
 

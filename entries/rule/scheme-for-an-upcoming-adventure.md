@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scheme_for_an_upcoming_adventure", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 87
 
 You can use downtime to prepare for an upcoming adventure or event. For example, if you know you
 have to crash the baron's fancy party in 2 days, you can spend downtime watching the baron's manor,

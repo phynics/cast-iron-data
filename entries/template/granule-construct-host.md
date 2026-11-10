@@ -6,6 +6,9 @@ source_ids = ["seven-swords-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "granule_construct_host", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "seven-swords-of-sin"
+page = "31"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +0
-
-**Source:** Seven Swords of Sin/31
 
 Granule construct swarms are the product of powerful artificers pushing the boundaries of their
 craft. Alone, each individual is a barely sentient construct so tiny as to be practically invisible,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus skills from the oracle's mystery", "Revelation gained at 1st 
 alters = ["Bonus spells granted by the oracle's mystery", "Revelations"]
 +++
 
-**Sources:** Inner Sea Monster Codex pg 17\
 A cyclopean seer draws power from the mysterious prophetic abilities of ancient giants.
 
 **Recommended Mysteries:** [Ancestor](ref/mystery/ancestor), [lore](ref/mystery/lore),

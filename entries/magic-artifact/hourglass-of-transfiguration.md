@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hourglass_of_transfiguration", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong all schools"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 7\
 **Aura** strong all schools; **CL** 20th\
 **Slot** none; **Price** -; **Weight** -
 

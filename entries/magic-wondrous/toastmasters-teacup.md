@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toastmasters_teacup", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 56\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 1/4 lb.
 

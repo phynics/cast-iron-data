@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_domains", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 161
 
 Though many dread lords so embrace their inherent evil that they slowly corrupt the lands around
 them, others perform deeds so horrendous that gods, the universe, fate, or another powerful force

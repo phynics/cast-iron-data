@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holdout_wand_wrap", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 54\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** none; **Price** 4,000 gp; **Weight** -
 

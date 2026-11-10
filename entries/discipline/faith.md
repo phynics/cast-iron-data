@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "65"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 65\
 Your belief in a higher power fuels your psychic abilities. Whether your mental abilities truly come
 to you as a divine gift or are simply enhanced by the power of your belief, none can say. In many
 ways, you resemble a divine caster, and prayers often factor into your casting of psychic spells.

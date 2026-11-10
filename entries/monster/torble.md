@@ -6,6 +6,9 @@ source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torble", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-25-the-bastards-of-erebus"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ surprisingly swift scuttle._
 
 **Senses:** Darkvision 30 ft.
 
-**Sources:** Pathfinder \#25: The Bastards of Erebus pg 84\
 **Type:** vermin
 
 **Experience points:** 50

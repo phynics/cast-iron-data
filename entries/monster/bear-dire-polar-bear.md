@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_dire_polar_bear", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "41"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Fearsome bony growths protrude from several spots in this massive animal's snow
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 41\
 **Experience points:** 4,800
 
 **Armor class:** 22/12/19

@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nephlei", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _A mighty woman of refined beauty hovers in the air, her skin whorled with blue 
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Planes of Power pg 60\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 6,400

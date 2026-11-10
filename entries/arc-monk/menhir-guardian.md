@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "64"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Weapon and armor proficiency", "Unarmed strike", "ki strike", "Stun
 alters = ["Alignment requirement", "Ki pool", "Furry of blows"]
 +++
 
-**Sources:** Ultimate Wilderness pg 64\
 Menhir guardians are ascetic protectors of sacred druidic sites, less concerned with structure and
 maintaining internal order than they are with preserving the natural balance of the world.
 

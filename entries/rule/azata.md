@@ -6,12 +6,13 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "105"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Magic pg 105
 
 Those who follow the precepts of freedom, individuality, and goodness find that summoning azatas is
 the best course in finding extraplanar allies. Few azatas agree on the particulars of specific

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/air-walk" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Spell resistance: no
 Target: you
 Descriptors: air
 :::
-
-**Sources:** Advanced Class Guide pg 173
 
 This spell functions as [air walk](ref/spell/air-walk), except you can rise no higher than 1 foot
 off the ground, you cannot pass over liquid, and the air you walk on is less stable than solid

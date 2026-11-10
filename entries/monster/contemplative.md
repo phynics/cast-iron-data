@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contemplative", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "41"
+[[sources]]
+publication = "distant-worlds"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ it._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 41, Distant Worlds pg 60\
 **Experience points:** 600
 
 **Armor class:** 12/12/10

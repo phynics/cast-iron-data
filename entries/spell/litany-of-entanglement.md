@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_entanglement", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "234"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Calling
 Descriptors: language-dependant
 :::
-
-**Sources:** Ultimate Combat pg 234
 
 Your litany conjures chains of energy that lash upward from the ground and hamper the target's
 movement. The target is entangled. This spell has no effect on flying creatures, or creatures not

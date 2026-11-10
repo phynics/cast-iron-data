@@ -6,13 +6,14 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_bounty", path = "json/magic_set.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "26"
 
 [fields]
 kind = "item"
 category = "Item Sets"
 +++
-
-**Sources:** Chronicle of Legends pg 26
 
 The [Pirate Queen](ref/faith/besmara) has few priests but many devoted followers. It is said that
 the collection of magical items collectively known as Besmara's Bounty can be completely assembled

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide", "horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanity_and_madness", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "250"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 250
 
 Insanity is an affliction inflicted upon those who suffer from extraordinary physical, mental, or
 spiritual anguishes and trials. Insanity can also be caused by exposure to particularly potent

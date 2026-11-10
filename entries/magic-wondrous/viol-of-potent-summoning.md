@@ -6,6 +6,9 @@ source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viol_of_potent_summoning", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "pathfinder-114-black-stars-beckon"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#114: Black Stars Beckon pg 31\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** none; **Price** 24,400 gp; **Weight** 1 lb.
 

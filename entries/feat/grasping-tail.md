@@ -6,6 +6,12 @@ source_ids = ["planar-adventures", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_tail", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "28"
+[[sources]]
+publication = "advanced-race-guide"
+page = "174"
 
 [fields]
 kind = "feat"
@@ -13,8 +19,6 @@ prerequisites = "You must have a tail."
 benefit = "You can use your tail to grab stowed items. While you cannot wield weapons with your tail, you can use it to retrieve small, stowed objects carried on your person as a swift action."
 special = "If you have the prehensile tail tiefling racial trait, you can use your tail to grab unattended items within 5 feet or stowed objects carried on your person as a swift action; you can hold such objects with your tail, though you cannot manipulate them with it (other than to put them in your hand)."
 +++
-
-**Sources:** Planar Adventures pg 28, Advanced Race Guide pg 174
 
 Your tail becomes more useful, and can be used to grab or hold small items.\
 **Prerequisites:** You must have a tail.\

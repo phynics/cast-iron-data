@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_fancy", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Spymaster's Handbook pg 29
 
 Taldor's infamous Lion Blades imported this spell from the ninja clans of Minkai, and both groups
 use it to great effect when maneuvering among the shallow upper classes. When you cast the spell,

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Countersong", "Dirge of doom"]
 alters = ["Spellcasting", "Bardic performance"]
 +++
 
-**Sources:** Heroes of the Darklands pg 11\
 Once practiced by the dwarves in their Quest for Sky, the traditions of the stonesinger bards
 changed when the dwarves arrived on the surface. The tradition still hearkens back to its
 subterranean origins, however, and is practiced as a form of meditation or worship by many dwarves.

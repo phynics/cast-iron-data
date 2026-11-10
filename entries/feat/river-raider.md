@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_raider", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "117"
+[[sources]]
+publication = "people-of-the-river"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ normal = "You can take only a move or a standard action if you can act in the su
 +++
 
 ## River Raider (Combat)
-
-**Sources:** Ultimate Wilderness pg 117, People of the River pg 24
 
 You're skilled at creeping up on watercraft without being noticed and getting the jump on their
 occupants.\

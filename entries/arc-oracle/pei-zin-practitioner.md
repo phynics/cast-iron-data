@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "20"
 
 [fields]
 kind = "archetype"
 replaces = ["Class skills gained from the oracle's mystery", "Revelation gained at 1st level", "Revelation gained at 7th level"]
 +++
 
-**Sources:** Healer's Handbook pg 20\
 In distant Tian Xia, herbalists practice an obscure alchemical art known as
 [Pei Zin herbalism](ref/rule/pei-zin-herbalism), which involves medicinal and restorative techniques
 that are used throughout much of that continent. A few practitioners develop a talent for Pei Zin

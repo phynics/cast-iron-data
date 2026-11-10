@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you can attempt to perform a dirty trick in p
 +++
 
 ## Kitsune Style (Combat, Style)
-
-**Sources:** Dirty Tactics Toolbox pg 15
 
 Your quick movement and trickery allow you to catch opponents off guard.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

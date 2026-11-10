@@ -8,12 +8,14 @@ parent = "ref/umr/capsize"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/umr.json#capsize|section:capsize", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 291\
 A creature with this special quality can attempt to capsize a boat or a ship by ramming it as a
 charge attack and attempting a combat maneuver check. The DC of this check is 25 or the result of
 the captain's Profession (sailor) check, whichever is higher. For each size category the ship is

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "249"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/249
 
 While it might not have followed the traditional path to lichdom, which requires a strong aptitude
 for magic, a lich creature's connection to an object allows it to survive as an undead indefinitely,

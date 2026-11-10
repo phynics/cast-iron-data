@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sweeping_disarm", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you succeed at a combat maneuver check to disarm an opponent
 +++
 
 ## Sweeping Disarm (Combat)
-
-**Sources:** Martial Arts Handbook pg 22
 
 When you knock a weapon from an opponent's grasp, the errant weapon may disarm another foe.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

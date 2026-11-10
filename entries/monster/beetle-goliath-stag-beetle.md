@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_goliath_stag_beetle", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "44"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ hungry fervor._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 44\
 **Type:** vermin
 
 **Experience points:** 4,800

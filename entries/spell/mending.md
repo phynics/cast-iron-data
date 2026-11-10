@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mending", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "312"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one object up to 1 lb./level
 :::
-
-**Sources:** PRPG Core Rulebook pg 312
 
 This spell repairs damaged objects, restoring 1d4 hit points to the object. If the object has the
 broken condition, this condition is removed if the object is restored to at least half its original

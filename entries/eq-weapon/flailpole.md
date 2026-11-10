@@ -6,14 +6,15 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flailpole", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "10 lbs."
 +++
-
-**Sources:** Gnomes of Golarion pg 22
 
 This is simply a [heavy flail](ref/eq-weapon/heavy-flail) mounted on the end of a long polearm. It
 has the reach and trip weapon qualities.

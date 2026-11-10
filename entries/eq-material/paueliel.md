@@ -6,13 +6,14 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paueliel", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "255"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Inner Sea World Guide pg 255
 
 Towering above most other trees, the lofty paueliel are widely held as the "first trees."
 Lumberjacks superstitiously connect them to the fey races of the woodlands and, despite the strength

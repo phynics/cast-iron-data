@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grappling_infusion", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "20"
 
 [fields]
 kind = "class_option"
@@ -26,8 +29,6 @@ group = "kineticist-wild-talent"
 **Associated:** any
 
 **Saving throw:** none
-
-**Source:** Occult Adventures/20
 
 Your _cloud, deadly earth,_ or _wall_ blast grows tendrils that hold your enemies in place.
 

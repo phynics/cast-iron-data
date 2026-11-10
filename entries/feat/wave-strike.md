@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/quick-draw", label = "or" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "123"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "If on your first turn of combat you draw a melee weapon to attack an 
 +++
 
 ## Wave Strike (Combat)
-
-**Sources:** Ultimate Combat pg 123
 
 You present a serene facade until you unsheathe your weapon and strike in one fluid motion.\
 **Prerequisites:** Weapon expertise class feature or [Quick Draw](ref/feat/quick-draw), Bluff 1

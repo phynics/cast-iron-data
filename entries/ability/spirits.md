@@ -6,12 +6,14 @@ source_ids = ["occult-adventures", "occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirits", path = "json/class_abilities6.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "33"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 33\
 A medium's spirits are entities from the Astral Plane - the clinging echoes of heroes and villains
 from the distant past, sustained throughout time by myths and legends. The number of spirits is
 countless, and each has its own idiosyncrasies that make it distinct. Nonetheless, all spirits arise

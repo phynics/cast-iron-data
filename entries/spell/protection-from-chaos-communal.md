@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/protection-from-chaos" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "240"
 
 [fields]
 kind = "spell"
@@ -57,8 +60,6 @@ Descriptors: good
 :::
 
 ### Communal Protection from Chaos
-
-**Sources:** Ultimate Combat pg 240
 
 This spell functions like _[protection from chaos](ref/spell/protection-from-chaos),_ except you
 divide the duration in 1-minute intervals among the creatures touched.

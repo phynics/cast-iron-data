@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_jinushigami", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ equally huge staff._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 3 pg 160\
 **Subtype:** Earth, Kami, Native
 
 **tremorsense:** 60

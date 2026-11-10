@@ -6,6 +6,9 @@ source_ids = ["masks-of-the-living-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_mask_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "masks-of-the-living-god"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ sapphire set into its brow. At the creature moves, the masks seem to shift and s
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Masks of the Living God pg 30\
 **Experience points:** 1,200
 
 **Armor class:** 17/13/14

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "film_of_filth", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: poison
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 74
 
 You cause the target's flesh to exude a layer of putrescent slime so foul that the target is
 sickened (Fortitude negates) for the duration of the spell and for 1d4 rounds thereafter. All

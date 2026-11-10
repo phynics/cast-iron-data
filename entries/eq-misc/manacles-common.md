@@ -6,6 +6,18 @@ source_ids = ["path-of-the-hellknight", "core-rulebook", "ultimate-equipment", "
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "manacles_common", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "15"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
+[[sources]]
+publication = "ultimate-equipment"
+page = "57"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,8 +28,6 @@ weight = "2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)"
 
 ## Manacles
 
-**Sources:** Path of the Hellknight pg 15, PRPG Core Rulebook pg 158, Ultimate Equipment pg 57,
-Adventurer's Armory pg 19\
 **Price** 15 gp (common), 50 gp (masterwork), 1,000 gp (mithral); **Weight** 2 lbs. (common), 2 lbs.
 (masterwork), 2 lbs. (mithral) **Category** Adventuring Gear
 

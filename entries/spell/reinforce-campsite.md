@@ -6,12 +6,14 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforce_campsite", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "238"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Ultimate Wilderness pg 238\
 **School** abjuration; **Level** 4\
 **Casting Time** 40 minutes\
 **Components** V, S, M (flint and steel, tent), F (a set of magically attuned stones to encircle the

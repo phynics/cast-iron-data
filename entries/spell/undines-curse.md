@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undines_curse", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, evil
 :::
-
-**Sources:** Advanced Race Guide pg 179
 
 > _[Undines](ref/race/undine) have access to the following spell._
 

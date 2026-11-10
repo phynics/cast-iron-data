@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_the_gilded_host", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and enchantment"
 caster_level = "14th"
 +++
 
-**Sources:** Lost Treasures pg 22\
 **Aura** strong abjuration and enchantment; **CL** 14th\
 **Slot** none; **Price** 500,000 gp; **Weight** 600 tons
 

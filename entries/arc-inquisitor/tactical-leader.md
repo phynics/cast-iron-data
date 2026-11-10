@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "29"
 
 [fields]
 kind = "archetype"
 replaces = ["Stern gaze", "Solo tactics", "teamwork feats", "Exploit weakness"]
 +++
 
-**Sources:** Ultimate Intrigue pg 29\
 Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working
 with like-minded allies to accomplish mutual goals.
 

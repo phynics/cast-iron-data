@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "menacing", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "145"
+[[sources]]
+publication = "advanced-players-guide"
+page = "288"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 145, Advanced Player's Guide pg 288\
 **Aura** moderate illusion; **CL** 10th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

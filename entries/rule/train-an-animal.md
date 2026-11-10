@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "train_an_animal", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "87"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 87
 
 You can use the Handle Animal skill to train an animal, as described in the Core Rulebook. The rules
 for training assume the training period is continuous. However, you can break this training into

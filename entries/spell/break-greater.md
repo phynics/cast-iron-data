@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/break" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "205"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (object)
 :::
 
 ### Greater Break
-
-**Sources:** Ultimate Intrigue pg 205
 
 You release a burst of destructive energy. Each Medium or smaller object in the area gains the
 broken condition unless it succeeds at a Fortitude saving throw. If a broken object fails this save,

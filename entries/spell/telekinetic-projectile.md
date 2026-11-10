@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_projectile", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "188"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: N/A (not listed in spell, assumed one creature or object)
 :::
-
-**Sources:** Occult Adventures pg 188
 
 You fling an object weighing up to 5 pounds at the target. You must succeed at a ranged attack (not
 a ranged touch attack) to hit your target; if you hit, you deal 1d6 points of bludgeoning damage to

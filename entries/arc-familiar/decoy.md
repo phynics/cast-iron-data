@@ -6,13 +6,15 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decoy", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["Alertness", "Speak with master", "speak with animals of its kind", "Spell resistance"]
 +++
 
-**Sources:** Familiar Folio pg 10\
 A decoy misdirects its master's enemies, allowing the master to strike by surprise.
 
 **Gained class skills:** bluff

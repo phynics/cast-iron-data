@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barbed_pentacle_of_asmodeus", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "260"
+[[sources]]
+publication = "gods-and-magic"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Gods pg 260, Gods and Magic pg 54\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** neck; **Price** 3,000 gp; **Weight** 1 lb.
 

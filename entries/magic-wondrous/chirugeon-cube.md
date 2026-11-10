@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chirugeon_cube", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Construct Handbook pg 16\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 9,800 gp; **Weight** -
 

@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "double_barreled_shotgun", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "43"
+[[sources]]
+publication = "ultimate-combat"
+page = "140"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "15 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 43, Ultimate Combat pg 140
 
 This twin-barreled shotgun can be shot one barrel at a time, or both together as one attack. A
 double shot that fires bullets is inaccurate, and takes a -4 penalty on both attacks. A double shot

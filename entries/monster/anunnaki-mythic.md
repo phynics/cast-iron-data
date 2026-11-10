@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anunnaki_mythic", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "28"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ back._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Bestiary 5 pg 28\
 **Subtype:** Mythic, Shapechanger
 
 **Experience points:** 153,600

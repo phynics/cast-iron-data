@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_iron", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "49"
+[[sources]]
+publication = "core-rulebook"
+page = "154"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 49, PRPG Core Rulebook pg 154
 
 This iron, mined deep underground and known for its effectiveness against demons and fey creatures,
 is forged at a lower temperature to preserve its delicate properties. Weapons made of cold iron cost

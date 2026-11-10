@@ -6,6 +6,9 @@ source_ids = ["gallows-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hook_fly_hook_fly_swarm", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "gallows-of-madness"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ miniscule, proboscises._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Gallows of Madness pg 60\
 **Subtype:** Swarm
 
 **Type:** vermin

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lawful_good", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "134"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 134
 
 Justice is all. Honor is my armor. He who commits a crime will pay. Without law and truth, there is
 only chaos. I am the light, I am the sword of righteousness. My enemy shall pay in the end. Right is

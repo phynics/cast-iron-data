@@ -6,6 +6,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "call_the_void", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: Reflex for half, see text
 Spell resistance: yes
 Target: you
 :::
-
-**Sources:** Dragon Empires Primer pg 29
 
 This spell surrounds you with an aura of nothingness that channels the mysterious energies of the
 Dark Tapestry. Creatures adjacent to you when this spell is cast and at the start of your turn take

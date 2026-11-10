@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_servant", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "88"
 
 [fields]
 kind = "feat"
 prerequisites = "Aasimar, animal companion, familiar, or mount class feature."
 benefit = "Your animal companion, familiar, or mount gains the celestial template and becomes a magical beast, though you may still treat it as an animal when using Handle Animal, wild empathy, or any other spells or class abilities that specifically affect animals."
 +++
-
-**Sources:** Advanced Race Guide pg 88
 
 Rather than being a normal animal or beast, your companion or familiar hails from the heavenly
 realms.\

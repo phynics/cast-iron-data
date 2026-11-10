@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_social_competence", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** Heroes of the High Court pg 28\
 **Aura** faint divination; **CL** 1st\
 **Slot** headband; **Price** 1,000 gp; **Weight** -
 

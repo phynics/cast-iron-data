@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_blood", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "160"
+[[sources]]
+publication = "faction-guide"
+page = "61"
 
 [fields]
 kind = "spell"
@@ -43,8 +49,6 @@ Spell resistance: yes
 Target: one weapon touched
 Descriptors: curse
 :::
-
-**Sources:** Adventurer's Guide pg 160, Faction Guide pg 61
 
 You place a drop of your blood on a weapon and charge it with magic so that you transfer a small
 amount of your life essence to the next living creature you strike with the weapon. Thereafter, you

@@ -6,12 +6,14 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "f_vangard", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Faction Guide pg 16\
 **Pathfinder Name:** Eagle Knights\
 **Goal:** Liberty, equality, unity, an end to piracy and slavery\
 **Alignment:** NG\

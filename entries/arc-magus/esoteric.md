@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "120"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spell recall", "Bonus feats", "Medium armor", "heavy armor", "Impro
 alters = ["Weapon and armor proficiency", "Spellcasting", "Arcane pool", "Spellstrike"]
 +++
 
-**Sources:** Occult Adventures pg 120\
 Esoterics are drawn to the mysticism of the occult and spend their lives delving into forgotten
 texts and forbidden tomes. Each esoteric learns to inscribe his spells on his flesh in a complex
 series of occult symbols and arcane equations.

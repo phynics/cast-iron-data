@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyphermage", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "57"
+[[sources]]
+publication = "inner-sea-magic"
+page = "44"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d6."
 +++
-
-**Sources:** Adventurer's Guide pg 57, Inner Sea Magic pg 44
 
 Based in the pirate city of Riddleport, [Cyphermages](ref/rule/aff-i-tradition) are students of
 ancient history and runic lore, with a particular focus on the monuments and magics of Thassilon.

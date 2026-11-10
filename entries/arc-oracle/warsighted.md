@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "106"
 
 [fields]
 kind = "archetype"
 replaces = ["Revelations gained at 1st, 7th, 11th, and 15th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 106\
 A warsighted's unique gifts are not in strange magical revelations, but in her ability to adapt in
 the midst of a battle with new fighting techniques. The warsighted is a master of combat, as
 dedicated as a fighter and as flexible as a brawler.

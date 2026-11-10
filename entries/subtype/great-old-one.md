@@ -6,14 +6,16 @@ source_ids = ["bestiary-6", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Great Old One
-
-**Sources:** Bestiary 6, Bestiary 4
 
 A [Great Old One](ref/family/great-old-one) is a powerful, alien entity. All Great Old Ones are
 chaotic, and most of them are also evil. They can be any creature type, but most are

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_fantasy_mystery", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "246"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 246
 
 At the root of any fantasy mystery is a puzzle that needs to be solved. In laying such a foundation,
 a GM can take inspiration from traditional tales of conspiracy and deception. Once he has a basic

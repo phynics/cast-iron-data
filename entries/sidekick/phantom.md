@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom", path = "json/sidekicks.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures\
 A phantom's abilities are determined by the spiritualist's level and the choice of manifestations
 the spiritualist makes when she performs the manifestation ritual. Each phantom possesses an
 [emotional focus](ref/ability/emotional-focus) that modifies these base statistics and abilities.

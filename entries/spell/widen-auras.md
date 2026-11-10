@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "widen_auras", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "199"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 199
 
 The range of your antipaladin or paladin auras doubles. For example, if you're a paladin, your aura
 of courage affects allies within 20 feet instead of within 10 feet.

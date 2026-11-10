@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/oneiric-horror" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: mind-affecting
 :::
 
 ### Greater Oneiric Horror
-
-**Sources:** Occult Adventures pg 179
 
 This spell functions as [oneiric horror](ref/spell/oneiric-horror) except each round the subject
 fails its Will save, it takes 1 point of Strength damage, and after the spell ends, the subject must

@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/heal", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "97"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 97
 
 The damage cured increases to 15 points of damage per caster level (maximum 225 points).
 

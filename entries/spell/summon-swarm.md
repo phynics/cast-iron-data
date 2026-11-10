@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_swarm", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "354"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: no
 Effect: one swarm of bats, rats, or spiders
 Subschool: Summoning
 :::
-
-**Sources:** PRPG Core Rulebook pg 354
 
 You summon a swarm of [bats](ref/monster/bat-bat-swarm), [rats](ref/monster/rat-rat-swarm), or
 [spiders](ref/monster/spider-spider-swarm) (your choice), which attacks all other creatures within

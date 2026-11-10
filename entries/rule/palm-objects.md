@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "palm_objects", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "58"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 58
 
 Performing a minor feat of legerdemain or palming a coin-sized, unattended object requires a
 successful DC 10 Finesse check. If you're under close observation, the observer notices your action

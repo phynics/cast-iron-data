@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/resist-energy" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "242"
 
 [fields]
 kind = "spell"
@@ -62,8 +65,6 @@ Target: creature touched
 :::
 
 ### Communal Resist Energy
-
-**Sources:** Ultimate Combat pg 242
 
 This spell functions like [resist energy](ref/spell/resist-energy), except you divide the duration
 in 10-minute intervals among the creatures touched.

@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "droughts_end", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "62"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 62\
 The dualistic deity Gozreh, as ancient as the sky and the sea themselves, rarely interferes directly
 in mortal affairs. He is a gentle breeze and a fierce hurricane, speaking in the whisper of wind
 through rustling leaves and the ground-shaking rumble of thunder. When Gozreh answered the prayers

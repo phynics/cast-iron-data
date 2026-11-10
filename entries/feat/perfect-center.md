@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_center", path = "json/feat12.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can take 10 on any skill check or concentration check, even if it
 +++
 
 ## Perfect Center (Combat, Meditation)
-
-**Sources:** Faiths and Philosophies pg 19
 
 You can ignore almost any distraction.\
 **Prerequisites:** Wis 21, [Combat Meditation](ref/feat/combat-meditation),

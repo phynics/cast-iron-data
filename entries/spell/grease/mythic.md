@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/grease", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "96"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 96
 
 If you cast mythic grease on an area, add your tier to the Acrobatics DC to move within or through
 the area. If you cast it on a creature's armor or clothing, add your tier to its Escape Artist

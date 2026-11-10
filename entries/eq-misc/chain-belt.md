@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_belt", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "177"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "15 gp"
 weight = "1/4 lb."
 +++
 
-**Sources:** Advanced Race Guide pg 177\
 **Price** 15 gp; **Weight** 1/4 lb.\
 **Category** Clothing
 

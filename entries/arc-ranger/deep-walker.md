@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "66"
 
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Woodland stride", "Camouflage", "Hide in plain sight"]
 +++
 
-**Sources:** Ultimate Combat pg 66\
 Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides
 among its diverse terrain types. The deep walker is instead a master of the strange terrain of the
 deep earth, exploring its caverns and caves, becoming a master of the dark corridors most surface

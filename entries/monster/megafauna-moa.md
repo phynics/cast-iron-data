@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "megafauna_moa", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "171"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ height of a man._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 5 pg 171\
 **Experience points:** 600
 
 **Armor class:** 15/12/12

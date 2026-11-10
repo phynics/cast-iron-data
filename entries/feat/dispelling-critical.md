@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelling_critical", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you have *dispel magic* prepared or can cast it spontaneously, whe
 +++
 
 ## Dispelling Critical (Critical)
-
-**Sources:** Ultimate Combat pg 97
 
 Your blows attack the physical and arcane forms of your enemies at the same time.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike), base attack bonus +11, ability to cast

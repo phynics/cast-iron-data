@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_blooded_sorcerer", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "175"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "17"
 
 **Challenge rating:** 17
 
-**Sources:** NPC Codex pg 175\
 **XP** 102,400\
 Half-orc [sorcerer](ref/class/sorcerer) 18\
 CE Medium humanoid (human, orc)\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broadsheet", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "50"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "6 sp"
 weight = "-"
 +++
 
-**Sources:** Inner Sea Intrigue pg 50\
 **Price** 6 sp; **Weight** -\
 **Category** Adventuring Gear
 

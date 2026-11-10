@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_glabrezu", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ intelligence and cruelty._
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Pathfinder RPG Bestiary pg 61\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 25,600

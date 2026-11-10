@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/imbue-with-spell-ability" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "203"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched; see text
 :::
-
-**Sources:** Advanced Race Guide pg 203
 
 This spell functions like [imbue with spell ability](ref/spell/imbue-with-spell-ability), except you
 transfer the use of your elemental assault ability to the target. The target must have an

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "68"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ fish-like maw._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 68\
 **Subtype:** Aquatic, Deep one
 
 **Experience points:** 400

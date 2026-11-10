@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advancing_armor", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "28"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Advancing
 
-**Sources:** Armor Master's Handbook pg 28\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** armor quality; **Price** +1 bonus; **Weight** -
 

@@ -6,12 +6,13 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faction_prestige", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Faction Guide pg 3
 
 A character's **Prestige Award (PA)** is an abstract way to track his growing renown and reputation
 within a faction.

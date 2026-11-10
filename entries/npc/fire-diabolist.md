@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_diabolist", path = "json/npcs6.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "19"
 
 **Challenge rating:** 19
 
-**Sources:** NPC Codex pg 61\
 **XP** 204,800\
 Human [cleric](ref/class/cleric) of Asmodeus 20\
 LE Medium humanoid (human)\

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jaguar_pounce", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "115"
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When making a charge or using Spring Attack against an opponent who i
 +++
 
 ## Jaguar Pounce (Combat)
-
-**Sources:** Ultimate Wilderness pg 115, Sargava, the Lost Colony pg 24
 
 Your ambushes are especially lethal.\
 **Prerequisites:** Base attack bonus +4.\

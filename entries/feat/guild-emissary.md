@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/leadership", label = "or" },
   { kind = "prerequisite", target = "ref/feat/underworld-connections", label = "or" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ prerequisites = "Leadership or Underworld Connections (see below)."
 prerequisite_feats = ["ref/feat/leadership", "ref/feat/underworld-connections"]
 benefit = "You can attempt a special character level check (1d20 + your Charisma modifier + your character level) in place of a Diplomacy check when attempting to gather information. You can ask local contacts to find information for you. While this still takes the normal amount of time (typically 1d4 hours), you can gather information about multiple topics at once (up to a maximum number of topics equal to 3 + your Charisma bonus)."
 +++
-
-**Sources:** Heroes of the Streets pg 29
 
 Not only are you associated with a powerful thieves' guild or similar shadowy group, you are
 well-enough connected to gain benefits when dealing with the underworld in any settlement.\

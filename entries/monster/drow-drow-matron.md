@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_drow_matron", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "39"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes w
 
 **Senses:** Darkvision 120 ft.
 
-**Sources:** Monster Codex pg 39\
 **Subtype:** Elf
 
 **Experience points:** 51,200

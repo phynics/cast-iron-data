@@ -6,12 +6,13 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/animate-dead", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Adventures pg 84
 
 Add your tier to your caster level when determining how many Hit Dice of undead you can animate with
 a single casting of this spell. This doesn't increase the total number of Hit Dice worth of undead

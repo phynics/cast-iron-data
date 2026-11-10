@@ -6,6 +6,9 @@ source_ids = ["pathfinder-71-rasputin-must-die"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trench_mist_trench_zombie", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-71-rasputin-must-die"
+page = "91"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ abilities = ["17", "18", "-", "10", "12", "8"]
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#71: Rasputin Must Die! pg 91\
 **Subtype:** Augmented humanoid, Human
 
 **Type:** undead

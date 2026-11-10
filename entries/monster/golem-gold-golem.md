@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_gold_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "140"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ out, ending in an upraised fist._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 6 pg 140\
 **Experience points:** 51,200
 
 **Armor class:** 30/13/26

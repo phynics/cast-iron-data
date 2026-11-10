@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_trance", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "58"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Target: you
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Race Guide pg 58
 
 > _[Half-orcs](ref/race/half-orc) have access to the following spell._
 

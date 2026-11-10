@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/warpriest" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th level a
 alters = ["Blessings"]
 +++
 
-**Sources:** Disciple's Doctrine pg 12\
 Devoted to the divine control of law above all else, these zealots seek to establish absolute order.
 Disciplined and precise, they lead their allies against the chaotic hordes.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrants_friend", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-field-guide"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder Society Field Guide pg 54\
 **Aura** faint divination; **CL** 5th\
 **Slot** ring; **Price** 3,000 gp; **Weight** -
 

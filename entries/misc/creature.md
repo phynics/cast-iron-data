@@ -6,11 +6,12 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creature", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "11"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 11
 
 A creature is an active participant in the story or world. This includes PCs, NPCs, and monsters.

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_anonymity", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: you
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Inner Sea Intrigue pg 60
 
 You swear an oath not to reveal your identity, magically preventing anyone from discovering it so
 long as you avoid revealing your face or other easily identifiable features. The spell distorts your

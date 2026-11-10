@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intelligent_item_ability_scores", path = "json/rules_basics02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "533"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 533
 
 Intelligent magic items possess all three mental ability scores: Intelligence, Wisdom, and Charisma.
 Each one of these ability scores begins at a value of 10, but can be increased to as high as 20.

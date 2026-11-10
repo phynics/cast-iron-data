@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "135"
 
 [fields]
 kind = "archetype"
@@ -18,7 +21,6 @@ replaces = ["Trapfinding", "Trap sense"]
 > _**Note:** This is a rogue archetype, and has no relation to the
 > [swashbuckler](ref/class/swashbuckler) hybrid class._
 
-**Sources:** Advanced Player's Guide pg 135\
 A paragon of mobile swordplay, the swashbuckler is a rogue who focuses almost exclusively on honing
 her skill at arms and perfecting daring acrobatic moves and elaborate flourishes that border on
 performance.

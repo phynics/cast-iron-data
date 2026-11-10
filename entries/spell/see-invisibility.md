@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_invisibility", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "339"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 339
 
 You can see any objects or beings that are invisible within your range of vision, as well as any
 that are ethereal, as if they were normally visible. Such creatures are visible to you as

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "84"
 
 [fields]
 kind = "archetype"
 replaces = ["Blood sanctuary", "Improved uncanny dodge"]
 +++
 
-**Sources:** Advanced Class Guide pg 84\
 All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust.
 For most, their rage is a conduit for the eldritch power locked in their heritage, but for a
 rageshaper, the latent magical energies in his blood bring about physical transformations and

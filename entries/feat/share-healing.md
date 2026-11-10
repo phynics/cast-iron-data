@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_healing", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you and your companion creature have this feat, your companion c
 +++
 
 ## Share Healing (Teamwork)
-
-**Sources:** Advanced Class Guide pg 156
 
 Your link with your companion creature allows you to share with it any healing magic that's cast
 upon you.\

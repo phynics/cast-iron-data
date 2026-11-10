@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hags_shabble", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "265"
+[[sources]]
+publication = "gods-and-magic"
+page = "57"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 265, Gods and Magic pg 57\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** body; **Price** 3,400 gp; **Weight** 3 lbs.
 

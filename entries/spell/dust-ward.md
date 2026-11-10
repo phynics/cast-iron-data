@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dust_ward", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: one magic item
 :::
-
-**Sources:** Monster Codex pg 45
 
 You ward a magic item against other creatures who try to learn to use or copy it. When you cast the
 spell, you designate one creature type, subtype, or a specific individual. If the item is worn or

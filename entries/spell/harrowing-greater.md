@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/harrowing" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 :::
 
 ### Greater Harrowing
-
-**Sources:** The Harrow Handbook pg 9
 
 This spell functions as [harrowing](ref/spell/harrowing), except it can affect an entire group of
 creatures and allows its subjects some measure of control over their destiny. Subjects of a greater

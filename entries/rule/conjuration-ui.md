@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjuration_ui", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "158"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 158
 
 Teleportation effects have a big impact on your game because they can foil situations such as being
 tracked or followed, and can bypass protections, such as locks and walls. These kinds of effects

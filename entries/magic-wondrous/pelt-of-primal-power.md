@@ -6,6 +6,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelt_of_primal_power", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** People of the North pg 29\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** shoulders; **Price** 26,000 gp; **Weight** 10 lbs.
 

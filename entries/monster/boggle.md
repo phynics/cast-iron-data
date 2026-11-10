@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggle", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This small, goat-like man has curved horns, hoofed feet, and a rat-like tail._
 
 **Size:** small
 
-**Sources:** Bestiary 6 pg 51\
 **Subtype:** Shapechanger
 
 **Experience points:** 4,800

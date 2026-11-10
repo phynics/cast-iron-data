@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startoss_style", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "In addition to the chosen weapon, a character with this feat and the 
 +++
 
 ## Startoss Style (Combat, Style)
-
-**Sources:** Weapon Master's Handbook pg 15
 
 Your thrown weapons become more deadly.\
 **Prerequisites:** Dex 13, [Point-Blank Shot](ref/feat/point-blank-shot),

@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_deliver_touch_spells", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You and any allies with this feat can cast spells through one another
 +++
 
 ## Group Deliver Touch Spells (Teamwork)
-
-**Sources:** Familiar Folio pg 18
 
 You and your teammates can deliver touch spells through each other's familiars.\
 **Prerequisites:** [Group Shared Spells](ref/feat/group-shared-spells), must have a

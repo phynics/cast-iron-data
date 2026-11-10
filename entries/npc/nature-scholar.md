@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_scholar", path = "json/npcs8.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "225"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "12"
 
 **Challenge rating:** 12
 
-**Sources:** NPC Codex pg 225\
 **XP** 19,200\
 Elf [druid](ref/class/druid) 9/loremaster 4\
 N Medium humanoid (elf)\

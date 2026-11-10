@@ -6,13 +6,15 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kindness", path = "json/class_ability_emotional_focus.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "4"
 
 [fields]
 kind = "class_option"
 group = "emotional-focus"
 +++
 
-**Sources:** Psychic Anthology pg 4\
 A phantom with this emotional focus was a being with a generous heart in life and continues to
 remain that way well after death. The phantom's intense generosity compels it to remain a phantom
 and continue assisting the living, especially relatives or those who had been its good friends

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_of_adoration", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ the air around her with swirls and flourishes of magical energy._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 90\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 51,200

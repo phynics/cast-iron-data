@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foe_to_friend", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "224"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 224
 
 Cast this spell when an enemy is about to make an attack against an ally. The creature makes the
 attack against a valid target of your choice instead or the attack is negated. In addition, the

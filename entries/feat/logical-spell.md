@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "logical_spell", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "137"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "A logical spell can be cast without emotion components. Spells that d
 +++
 
 ## Logical Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 137
 
 You can eschew emotional components by exercising logic.\
 **Benefit:** A logical spell can be cast without emotion components. Spells that don't require

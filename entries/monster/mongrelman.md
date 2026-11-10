@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mongrelman", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "191"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ shape._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 191\
 **Experience points:** 400
 
 **Armor class:** 13/11/12

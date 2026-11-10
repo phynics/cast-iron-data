@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_thoughts", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "157"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 157
 
 This spell taps into the target's mind so you get an impression of the actions it will take. You
 gain a +2 insight bonus to AC against the target's attacks. If the target fails its Will save, you

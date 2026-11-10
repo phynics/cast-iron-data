@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finding_a_replacement", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "147"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 147
 
 In some cases, replacing an animal companion or familiar can be as easy as purchasing an animal of
 the desired type and declaring it your new companion.

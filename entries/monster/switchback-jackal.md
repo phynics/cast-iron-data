@@ -6,6 +6,9 @@ source_ids = ["pathfinder-115-trail-of-the-hunted"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "switchback_jackal", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ hunger._
 
 **Size:** small
 
-**Sources:** Pathfinder \#115: Trail of the Hunted pg 83\
 **Experience points:** 200
 
 **Armor class:** 14/13/12

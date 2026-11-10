@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transformation", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "360"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 360
 
 You become a fighting machine - stronger, tougher, faster, and more skilled in combat. Your mindset
 changes so that you relish combat and you can't cast spells, even from magic items.

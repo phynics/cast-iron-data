@@ -6,6 +6,9 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gate_breaker", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "38"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you would deal damage to an object, you deal normal damage p
 +++
 
 ## Gate Breaker (Combat)
-
-**Sources:** Path of the Hellknight pg 38
 
 Your strikes against objects are especially vicious.\
 **Prerequisites:** Str 13, [Improved Sunder](ref/feat/improved-sunder),

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-110-the-thrushmoor-terror"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_mordiggian", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-110-the-thrushmoor-terror"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ into its body to be forever extinguished._
 
 **Senses:** All-around vision, Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Pathfinder \#110: The Thrushmoor Terror pg 86\
 **Subtype:** Chaotic, Evil, Great Old One, Incorporeal
 
 **Experience points:** 9,830,400

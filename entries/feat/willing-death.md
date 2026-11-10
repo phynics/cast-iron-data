@@ -6,6 +6,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "willing_death", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Twice per day, when an ally within 30 feet would die as a result of a
 +++
 
 ## Willing Death (Origin)
-
-**Sources:** Plane-Hopper's Handbook pg 17
 
 You might have been a soldier in an army, a self-sacrificing lover, or a hero who rushed in where
 even angels feared to tread. You died because you valued someone else's life above your own.\

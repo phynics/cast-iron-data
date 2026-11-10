@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lizard_giant_gecko", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "186"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ padded feet and a toothy maw._
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 186\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

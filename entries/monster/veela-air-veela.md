@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veela_air_veela", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "264"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This lithe, androgynous humanoid has unusually colored skin and an otherworldly
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 264\
 **Subtype:** Air, Extraplanar
 
 **Experience points:** 3,200

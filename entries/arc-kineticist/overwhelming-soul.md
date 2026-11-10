@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/kineticist" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "91"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Internal buffer", "Elemental overflow"]
 alters = ["Key ability score of wild talents", "Burn"]
 +++
 
-**Sources:** Occult Adventures pg 91\
 Some kineticists have such a powerful personality that they can seize control of their element with
 their minds alone, without endangering their bodies.
 

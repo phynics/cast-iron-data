@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_starknife", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation and necromancy"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Combat pg 55\
 **Aura** moderate evocation and necromancy; **CL** 10th\
 **Slot** none; **Price** 36,324 gp; **Weight** 3 lbs.
 

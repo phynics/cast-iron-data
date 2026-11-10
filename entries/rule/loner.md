@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loner", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "74"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 74
 
 The loner can be one of the most disruptive forces around the gaming table. She has little regard
 for group cohesion, and seizes every opportunity to go off alone, heedless of the effect on other

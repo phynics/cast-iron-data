@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_1_establish_a_goal", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "118"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 118
 
 Objectives for a heist come in many shapes and sizes. Some heists might even have a combined goal or
 multiple goals.

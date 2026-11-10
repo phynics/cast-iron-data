@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidate_animals", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "115"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You add your Wisdom modifier on Intimidate checks against animals in 
 +++
 
 ## Intimidate Animals (Combat)
-
-**Sources:** Ultimate Wilderness pg 115
 
 You are skilled at intimidating animals with your bluster and fury.\
 **Prerequisites:** [Greater Wild Empathy](ref/feat/greater-wild-empathy), Intimidate 5 ranks,

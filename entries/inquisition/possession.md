@@ -6,13 +6,14 @@ source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possession", path = "json/class_ability_inquisitions.json" },
 ]
+[[sources]]
+publication = "blood-of-fiends"
+page = "27"
 
 [fields]
 kind = "class_option"
 group = "inquisition"
 +++
-
-**Sources:** Blood of Fiends pg 27
 
 **Associated Deities**
 

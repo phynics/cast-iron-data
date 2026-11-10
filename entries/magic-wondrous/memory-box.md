@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_box", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration and enchantment"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Intrigue pg 248\
 **Aura** strong conjuration and enchantment; **CL** 12th\
 **Slot** none; **Price** 28,000 gp; **Weight** -
 

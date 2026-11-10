@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choker_of_the_queen_bee", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "53"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Sources:** Seers of the Drowned City pg 53\
 **Aura** moderate transmutation; **CL** 6th\
 **Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
 

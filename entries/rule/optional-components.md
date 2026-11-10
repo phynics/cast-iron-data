@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optional_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 151
 
 The esoteric material components system can be added directly on top of the normal spellcasting
 system. Spells don't need esoteric components to be cast, and normal material components function as

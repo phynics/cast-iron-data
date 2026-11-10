@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follow_the_pcs_lead", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 28
 
 If you enjoy improvisational play, the best move may be to temporarily drop the planned plotline (or
 at least the planned plot hook) and follow your players' lead. Are they more interested in the dark,

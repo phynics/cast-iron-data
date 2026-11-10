@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "government_and_law", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 148
 
 When cultures break down into nations, whether from tribal loyalties or other shifts in thinking, or
 grow too large for simple meetings or councils to oversee, they require more formal governance.

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeon_ecology", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "176"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 176
 
 Once you've created your dungeon map, you're ready to populate it. If you're building a static
 dungeon, you can simply fill it with traps and guardians and other challenges as you wish, with

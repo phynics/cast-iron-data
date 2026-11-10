@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods", "planar-adventures", "pathfinder-41-the-thousand
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nethys", path = "json/faiths6.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "100"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Nethys**
 
 **Sub:** The All-Seeing Eye
-
-**Sources:** Inner Sea Gods pg 100
 
 ### Details
 

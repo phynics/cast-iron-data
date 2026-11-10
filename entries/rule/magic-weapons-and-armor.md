@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_weapons_and_armor", path = "json/rules_opt_pc_adv01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 157
 
 In this system, magic weapons, armor, and shields never have enhancement bonuses of their own; those
 bonuses are granted only through attunement. Any weapon, armor, or shield special abilities on

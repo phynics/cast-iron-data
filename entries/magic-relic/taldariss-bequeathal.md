@@ -6,6 +6,8 @@ source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taldariss_bequeathal", path = "json/magic_relics.json" },
 ]
+[[sources]]
+publication = "pathfinder-141-last-watch"
 
 [fields]
 kind = "item"
@@ -16,7 +18,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Pathfinder \#141: Last Watch\
 **Suitable For** (not given)\
 **Aura** moderate evocation\
 **Slot** armor; **CL** 9th\

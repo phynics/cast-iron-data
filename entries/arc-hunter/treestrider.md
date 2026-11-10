@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/hunter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "55"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Animal focus", "second animal focus", "Precise companion", "Raise a
 alters = ["Animal companion"]
 +++
 
-**Sources:** Ultimate Wilderness pg 55\
 Some hunters are masters of the wild. Whether raised by apes or having some other link with simian
 creatures, these hunters glide through the wilderness with ease.
 

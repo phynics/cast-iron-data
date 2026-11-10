@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "founding_a_settlement", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "212"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 212
 
 Before you can start your own kingdom, you first need a base of operations - a fort, village, or
 other settlement - where you can rest between adventures and where your citizens know they can find

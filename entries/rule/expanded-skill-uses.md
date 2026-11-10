@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_skill_uses", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 51
 
 Skills such as Craft, Perform, and Profession already include basic uses, such as crafting objects
 and making money. However, they can also be useful for other tasks related to practicing those

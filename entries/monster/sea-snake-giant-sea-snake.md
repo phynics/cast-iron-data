@@ -6,6 +6,9 @@ source_ids = ["isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_snake_giant_sea_snake", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ flipper-like tail to aid it as it swims._
 
 **Senses:** Low-light vision
 
-**Sources:** Isles of the Shackles pg 59\
 **Experience points:** 3,200
 
 **Armor class:** 20/10/18

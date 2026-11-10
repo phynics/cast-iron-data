@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_villains", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "93"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 93
 
 Spells like [detect evil](ref/spell/detect-evil) are the bane of any villain whose identity needs to
 be a surprise. There are spells and magic items that can conceal a character's alignment and even

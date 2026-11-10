@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_critical", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Bleeding Critical (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 118
 
 Your critical hits cause opponents to bleed profusely.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +11.\

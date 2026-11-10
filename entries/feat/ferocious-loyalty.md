@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_loyalty", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 morale bonus on attack rolls against any foe that curre
 +++
 
 ## Ferocious Loyalty (Teamwork)
-
-**Sources:** Blood of the Moon pg 11
 
 You have a powerful sense of responsibility for your allies.\
 **Prerequisites:** [Werebear-kin](ref/race/skinwalker), werebear, or someone who associates with

@@ -6,13 +6,15 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthquake", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "97"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Ultimate Wilderness pg 97\
 **Deities:** Evil deities that offer the [Earth](ref/blessing/earth) blessing or nonevil deities
 with disasters in their portfolios
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-61-shards-of-sin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skvader", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "pathfinder-61-shards-of-sin"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ grouse._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#61: Shards of Sin pg 86\
 **Size:** tiny
 
 **Experience points:** 200

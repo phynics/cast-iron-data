@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vukodlak", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "272"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ fanged muzzle and glowing red eyes._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 5 pg 272\
 **Type:** undead
 
 **Experience points:** 800

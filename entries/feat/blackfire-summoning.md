@@ -6,14 +6,15 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackfire_summoning", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "5"
 
 [fields]
 kind = "feat"
 prerequisites = "Sacred Summons."
 prerequisite_feats = ["ref/feat/sacred-summons"]
 +++
-
-**Sources:** Plane-Hopper's Handbook pg 5
 
 You have learned to make your summons destructive to the fabric of the planes, bringing blackfire in
 the wake of your magic.\

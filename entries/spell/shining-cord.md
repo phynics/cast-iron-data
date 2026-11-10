@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shining_cord", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Spell resistance: yes
 Target: 1 creature
 Descriptors: force
 :::
-
-**Sources:** Inner Sea Magic pg 60
 
 When you cast this spell, you make a ranged touch attack against a single opponent within 30 feet.
 If you hit, a thin silver strand extends from your body to its, forming a connection that allows you

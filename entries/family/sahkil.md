@@ -6,12 +6,12 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 5
 
 [Psychopomps](ref/family/psychopomp) oversee one of the most fundamental functions of the
 multiverse: the progress of mortal souls. Through this infinite cycle of lives, deaths, and

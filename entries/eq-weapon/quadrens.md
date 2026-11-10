@@ -6,14 +6,18 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quadrens", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "20"
+[[sources]]
+publication = "ultimate-combat"
+page = "144"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Ultimate Equipment pg 20, Ultimate Combat pg 144
 
 A quadrens looks similar to a sturdy dagger, but with four spikes mounted in a square pattern in
 place of a blade. When you score a critical hit with a quadrens, the resulting gaping wound causes 1

@@ -6,6 +6,9 @@ source_ids = ["ships-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firework_flashing_fiend", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "ships-of-the-inner-sea"
+page = "29"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Sources:** Ships of the Inner Sea pg 29\
 **Price** 100 gp; **Weight** -\
 **Category** Alchemical Weapons
 

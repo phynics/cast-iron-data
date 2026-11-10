@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_hags", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Sources:** People of the River pg 29\
 **Aura** moderate necromancy; **CL** 7th\
 **Slot** shield; **Price** 20,273 gp; **Weight** 5 lbs.
 

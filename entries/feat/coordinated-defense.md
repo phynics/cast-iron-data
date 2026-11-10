@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_defense", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "156"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are adjacent to an ally who also has this feat, you rece
 +++
 
 ## Coordinated Defense (Combat, Teamwork)
-
-**Sources:** Advanced Player's Guide pg 156
 
 You are adept at working with allies to avoid being tripped, grappled, and subjected to other
 maneuvers.\

@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_balance", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a +2 bonus on Intimidate checks when not raging. When you fa
 +++
 
 ## Bear's Balance (Combat)
-
-**Sources:** The Harrow Handbook pg 19
 
 Your anger is always available below the surface, but can be carefully directed. Those who would
 force you to lose control encounter an unpleasant surprise.\

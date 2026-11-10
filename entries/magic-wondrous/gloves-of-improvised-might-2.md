@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_improvised_might_2", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "23"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "5th"
 
 ## Gloves of Improvised Might
 
-**Sources:** Adventurer's Armory 2 pg 23\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** hands; **Price** 4,000 gp (+1), 16,000 gp (+2), 36,000 gp (+3), 64,000 gp (+4), 100,000 gp
 (+5); **Weight** 1 lb.

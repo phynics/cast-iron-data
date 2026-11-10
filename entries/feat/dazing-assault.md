@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazing_assault", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "157"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can choose to take a -5 penalty on all melee attack rolls and com
 +++
 
 ## Dazing Assault (Combat)
-
-**Sources:** Advanced Player's Guide pg 157
 
 You can daze foes with wild attacks.\
 **Prerequisites:** Str 13, [Power Attack](ref/feat/power-attack), base attack bonus +11.\

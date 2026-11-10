@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cornucopia_of_plenty", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "150"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Sources:** Mythic Adventures pg 150\
 **Aura** moderate conjuration; **CL** 11th\
 **Slot** none; **Price** 35,000 gp; **Weight** 5 lbs.
 

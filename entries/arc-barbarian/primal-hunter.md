@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Fast movement"]
 alters = ["Rage"]
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 11\
 Rather than exploding with anger, primal hunters focus their rage to strike distant targets. Though
 able to hold their own in melee, primal hunters specialize in using some of the oldest of ranged
 weapons: bows, slings, and spears.

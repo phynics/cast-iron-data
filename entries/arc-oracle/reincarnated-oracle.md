@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "199"
 
 [fields]
 kind = "archetype"
 replaces = ["The bonus spells gained at 2nd, 4th, 10th, 16th, and 18th levels from the oracle's mystery"]
 +++
 
-**Sources:** Advanced Race Guide pg 199\
 A reincarnated oracle draws her knowledge and power from the experiences of her previous lives. Her
 memories guide her through a spiritual ascension leading the way to her ultimate incarnation. A
 reincarnated oracle has the following class features.

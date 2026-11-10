@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beartrap_bite", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you confirm a critical hit against a foe with your bite atta
 +++
 
 ## Beartrap Bite (Combat)
-
-**Sources:** Blood of the Moon pg 11
 
 You can hold your foes even if you do not manage to grapple them.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (bite), base attack bonus +6, be

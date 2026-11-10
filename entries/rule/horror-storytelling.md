@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horror_storytelling", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "200"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 200
 
 The promise of fear is often obvious from the first glimpse of a horror film or story, as subtly
 abnormal choices in the ambience set the mood for terror. Horror adventures should feel much the

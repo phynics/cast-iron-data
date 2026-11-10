@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dampening_ointment", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "63"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "250 gp"
 weight = "1/2 lb."
 +++
 
-**Sources:** Pathfinder \#139: The Dead Road pg 63\
 **Price** 250 gp; **Weight** 1/2 lb.\
 **Category** Alchemical Tools
 

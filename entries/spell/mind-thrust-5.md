@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/mind-thrust-4" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "177"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Descriptors: mind-affecting
 :::
 
 ### Mind Thrust V
-
-**Sources:** Occult Adventures pg 177
 
 This functions as [mind thrust IV](ref/spell/mind-thrust-4), but the target is also exhausted for 1
 round if it fails its save and fatigued for 1 round if it succeeds at its save. This spell can be

@@ -6,12 +6,13 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faction_basics", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Faction Guide pg 3
 
 PCs improve their standing within their faction by succeeding in missions relating to or coming from
 a faction. In a given adventure, or even in between adventures, you should think about the factions

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "21"
 
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "Woodland stride", "Nature sense", "Resist nature's lure", "The normal wild shape options gained at 12th level"]
 +++
 
-**Sources:** Blood of the Beast pg 21\
 Swarm mongers are unparalleled survivors, thriving on the filthy fringes of society. Whereas other
 druids commune with nature or even the spirit of a city, swarm mongers find beauty and strength in
 decay, and they draw their power from fungus, disease, and their own singular will to survive.

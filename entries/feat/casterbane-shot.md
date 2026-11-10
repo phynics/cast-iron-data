@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "If you ready a ranged attack with a firearm to attack a spellcaster w
 +++
 
 ## Casterbane Shot (Combat, Grit)
-
-**Sources:** Inner Sea Combat pg 17
 
 Life in the Mana Wastes, where magic has unpredictable and often fatal effects, has taught you to
 disable spellcasters with your firearms.\

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_accuser_devil_zebub", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ gore-fattened fly._
 
 **Size:** small
 
-**Sources:** Bestiary 2 pg 84\
 **Subtype:** Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 800

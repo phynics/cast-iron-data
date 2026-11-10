@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "learn_or_borrow_spells", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "65"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 65
 
 To add new spells to your spellbook, or to prepare a spell out of someone else's spellbook, you must
 succeed at a Spellcraft check.

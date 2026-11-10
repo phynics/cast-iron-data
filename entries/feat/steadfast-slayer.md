@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_slayer", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "If you are the only character threatening an opponent and you success
 +++
 
 ## Steadfast Slayer (Combat)
-
-**Sources:** Melee Tactics Toolbox pg 7
 
 Like the dragonslayers and giantslayers of legend, you stand alone against creatures far larger than
 you.\

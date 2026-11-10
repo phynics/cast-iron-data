@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_of_the_corps", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "117"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever you are within 10 feet of an ally benefiting from a spell or
 +++
 
 ## Spirit of the Corps (Combat, Teamwork)
-
-**Sources:** Monster Codex pg 117
 
 You find inspiration in your fellow soldiers, trusting that your shared training and dedication will
 bring you victory on the battlefield.\

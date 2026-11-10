@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_the_menotherian", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "280"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ stingers the length of a human arm._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Gods pg 280\
 **Subtype:** Chaotic, Extraplanar, Herald, Shapechanger
 
 **Experience points:** 51,200

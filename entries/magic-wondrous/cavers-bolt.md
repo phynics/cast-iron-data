@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavers_bolt", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 33\
 **Aura** moderate evocation; **CL** 5th\
 **Slot** none; **Price** 6,000 gp; **Weight** 1/2 lb.
 

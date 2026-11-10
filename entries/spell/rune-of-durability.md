@@ -6,6 +6,9 @@ source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_durability", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: weapon touched
 :::
-
-**Sources:** Dwarves of Golarion pg 25
 
 You inscribe an angular rune upon the surface of a weapon, increasing its hit points. A weapon that
 bears this rune multiplies its hit points by 2, as if it were one size category larger than it

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molech", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "pathfinder-105-the-inferno-gate"
+page = "70"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment and evocation [evil]"
 caster_level = "12th"
 +++
 
-**Sources:** Pathfinder \#105: The Inferno Gate pg 70\
 **Aura** strong enchantment and evocation \[evil\]; **CL** 12th\
 **Slot** none; **Price** 10,000 gp; **Weight** 2,000 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adjusting_treasure", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 160
 
 Since scaling items improve as characters level up, they effectively add wealth to their owners over
 time. To balance this out, the Game Master should reduce treasure awards in proportion to how many

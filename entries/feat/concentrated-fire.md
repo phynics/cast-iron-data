@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concentrated_fire", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "204"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "If you and a single ally who also has this feat both ready an action 
 +++
 
 ## Concentrated Fire (Combat, Teamwork)
-
-**Sources:** Inner Sea Races pg 204
 
 Your simultaneous ranged attacks punch through your foe's defenses with ease.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot), [elf](ref/race/elf), weapon

@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chroma_grenade", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "7"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "75 gp"
 weight = "2 lbs."
 +++
 
-**Sources:** Legacy of the First World pg 7\
 **Price** 75 gp; **Weight** 2 lbs.\
 **Category** Alchemical Weapons
 

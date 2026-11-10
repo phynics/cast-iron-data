@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "annihilation_spectacles", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "224"
+[[sources]]
+publication = "advanced-players-guide"
+page = "300"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 224, Advanced Player's Guide pg 300\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** eyes; **Price** 25,000 gp; **Weight** 1/4 lb.
 

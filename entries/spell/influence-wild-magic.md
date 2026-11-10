@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "influence_wild_magic", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Saving throw: none
 Spell resistance: no (harmless)
 Effect: 20-foot-radius burst of stabilizing magic centered on you
 :::
-
-**Sources:** People of the Wastes pg 29
 
 This spell creates an area of stabilizing magical energy that emanates from you. Any creature within
 this area that fails a [concentration](ref/rule/concentration) check to cast a spell normally in an

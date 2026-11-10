@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tarantula_tree", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "260"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _This towering mass of vegetation balances itself upon several long and misshape
 
 **Type:** plant
 
-**Sources:** Bestiary 6 pg 260\
 **tremorsense:** 90
 
 **Experience points:** 204,800

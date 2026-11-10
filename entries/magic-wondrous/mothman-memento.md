@@ -6,6 +6,9 @@ source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothman_memento", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "mystery-monsters-revisited"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "12th"
 +++
 
-**Sources:** Mystery Monsters Revisited pg 31\
 **Aura** strong enchantment, illusion, and necromancy; **CL** 12th\
 **Slot** neck; **Price** 28,800 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lotus_tree", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "160"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ scent._
 
 **Senses:** Detect thoughts, Low-light vision
 
-**Sources:** Bestiary 5 pg 160\
 **thoughtsense:** 60
 
 **tremorsense:** 120

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaling_magic_weapons_spear_of_the_huntsman", path = "json/rules_opt_magic02.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "163"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 163
 
 **Slot** none; CL 6th; **Weight** 6 lbs.\
 **Aura** moderate divination; **Price** 2,650 gp; **Scaling** prize

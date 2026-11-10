@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garden_of_sulesh", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Sources:** Lost Treasures pg 31\
 **Aura** strong enchantment; **CL** 15th\
 **Slot** genie seal; **Price** 56,000 gp; **Weight** -
 

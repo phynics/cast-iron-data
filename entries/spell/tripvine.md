@@ -6,6 +6,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripvine", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: Reflex negates
 Spell resistance: no
 Target: 10-foot-long rope or vine
 :::
-
-**Sources:** Faction Guide pg 62
 
 You animate a rope, vine, or similar object so that it attempts to trip any creature that comes
 near. The rope attacks anything in a 10-foot-square area you designate. The rope does not provoke an

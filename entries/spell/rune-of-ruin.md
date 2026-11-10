@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_of_ruin", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: no
 Target: 1 object
 Descriptors: curse
 :::
-
-**Sources:** Arcane Anthology pg 22
 
 You curse a magic item, such as magical clothing, a suit of armor, or a weapon. The object is
 reduced to 1/4 its normal hit point total, gains the broken condition, and appears damaged and worn.

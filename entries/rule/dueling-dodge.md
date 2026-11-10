@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dueling_dodge", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 151
 
 Each participant in a duel can take a special action called a dueling dodge. This special maneuver
 gives a duelist a temporary bonus to his AC and on Reflex saves, but leaves him vulnerable to other

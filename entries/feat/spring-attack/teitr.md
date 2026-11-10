@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/spring-attack" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "As a full-round action, you can move up to your speed and make a sing
 normal = "You cannot move before and after an attack."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You can deftly move up to a foe, strike, and withdraw before he can react.\
 **Prerequisites:** Dex 13, [Dodge](ref/feat/dodge), base attack bonus +4.\
 **Benefit:** As a full-round action, you can move up to your speed and make a single melee attack

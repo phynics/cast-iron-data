@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/dominate-person", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "92"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 92\
 The Sense Motive DC to notice your target is dominated increases by double your tier. You can give
 orders to the target even if it's protected by non-mythic effects that block magical control, such
 as protection from evil. If the target is protected by a mythic effect, you can attempt to overcome

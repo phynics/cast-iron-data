@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monastic_legacy", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Add half the levels you have in classes other than monk to your monk 
 +++
 
 ## Monastic Legacy (Combat)
-
-**Sources:** Ultimate Combat pg 109
 
 Your formal unarmed training continues to bolster your training in other areas.\
 **Prerequisites:** Still mind class feature,

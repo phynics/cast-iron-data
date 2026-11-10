@@ -6,6 +6,9 @@ source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redkind", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ _Vicious shadows wrap around the form of this pudgy, white-eyed child._
 
 **Size:** small
 
-**Sources:** Taldor, the First Empire pg 62\
 **Experience points:** 600
 
 **Armor class:** 17/15/13

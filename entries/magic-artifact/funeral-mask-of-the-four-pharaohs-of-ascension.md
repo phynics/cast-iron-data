@@ -6,6 +6,9 @@ source_ids = ["entombed-with-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "funeral_mask_of_the_four_pharaohs_of_ascension", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "entombed-with-the-pharaohs"
+page = "10"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation [law]"
 caster_level = "17th"
 +++
 
-**Sources:** Entombed with the Pharaohs pg 10\
 **Aura** strong transmutation \[law\]; **CL** 17th\
 **Slot** head and eyes; **Price** minor artifact; **Weight** -
 

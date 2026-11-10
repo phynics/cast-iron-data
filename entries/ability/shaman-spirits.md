@@ -6,12 +6,14 @@ source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaman_spirits", path = "json/class_abilities3.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "37"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide pg 37\
 Each shaman must select from the following spirits. Unless otherwise noted, the DC to save against
 the special abilities granted by a spirit is equal to 10 + 1/2 the shaman's level + the shaman's
 Wisdom modifier.

@@ -6,14 +6,15 @@ source_ids = ["construct-handbook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "complex_modifications", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
 ### Alarm Link
-
-**Sources:** Construct Handbook pg 8
 
 |Type|Cost|Requirements|CR Increase|
 | --- | --- | --- | --- |

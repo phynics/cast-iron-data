@@ -6,14 +6,15 @@ source_ids = ["pathfinder-45-broken-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agent_of_the_grave", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "pathfinder-45-broken-moon"
+page = "67"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder \#45: Broken Moon pg 67
 
 On their twisted route to immortality, adherents of the [Whispering Way](ref/rule/f-gravepath) learn
 secret rites that aid them on their path. Every step brings a member that much closer to the final

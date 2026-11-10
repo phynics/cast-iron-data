@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "54"
 
 [fields]
 kind = "archetype"
 replaces = ["2nd, 8th, 14th, and 20th level rage powers", "Improved uncanny dodge", "Trap sense +3"]
 +++
 
-**Sources:** Advanced Race Guide pg 54\
 From a young age, many half-orcs are treated cruelly, bullied, ridiculed, and made outcasts. While
 some hide their shame, others foster a deep, burning hatred that they channel into a raw fury and
 unleash against their enemies. These half-orcs are called hateful ragers. A hateful rager has the

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locket_of_true_and_false_friends_half_elf", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "232"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Sources:** Inner Sea Races pg 232\
 **Aura** moderate divination; **CL** 9th\
 **Slot** neck; **Price** 10,000 gp; **Weight** -
 

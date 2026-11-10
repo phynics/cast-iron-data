@@ -6,6 +6,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burdened_thoughts", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Giant Hunter's Handbook pg 26
 
 You fill a creature's mind with the realization of its earthly weight and responsibilities.
 Disheartened and wearied by these thoughts, the creature gains heavy encumbrance and is unable to

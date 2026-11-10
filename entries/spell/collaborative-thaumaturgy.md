@@ -6,6 +6,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collaborative_thaumaturgy", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: none
 Spell resistance: no
 Target: one creature
 :::
-
-**Sources:** Pathfinder Society Primer pg 12
 
 You tap into the magical resonance between you and your allies to enhance one another's magic. Cast
 this spell when an ally casts a spell at least 1 level lower than the highest-level spell she can

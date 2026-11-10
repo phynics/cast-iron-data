@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_preservation_banded_mail", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "30"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "armor"
 aura = "strong conjuration and divination"
 caster_level = "18th"
 +++
-
-**Sources:** Dragonslayer's Handbook pg 30
 
 **Aura** strong conjuration and divination; **CL** 18th\
 **Slot** armor; **Price** 22,400 gp; **Weight** 35 lbs.

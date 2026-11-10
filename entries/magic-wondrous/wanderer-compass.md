@@ -6,6 +6,9 @@ source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderer_compass", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "wardens-of-the-reborn-forge"
+page = "14"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Wardens of the Reborn Forge pg 14\
 **Aura** moderate divination; **CL** 6th\
 **Slot** none; **Price** 18,000 gp; **Weight** 2 lbs.
 

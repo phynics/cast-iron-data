@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_mental_resilience", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "250"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and transmutation"
 caster_level = "16th"
 +++
 
-**Sources:** Ultimate Equipment pg 250\
 **Aura** strong abjuration and transmutation; **CL** 16th\
 **Slot** headband; **Price** 64,000 gp; **Weight** 1 lb.
 

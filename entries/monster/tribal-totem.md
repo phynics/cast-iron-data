@@ -6,6 +6,9 @@ source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_totem", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ of lacquer and resin assaults the senses as it draws near with a menacing, ponde
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#39: The City of Seven Spears pg 86\
 **Experience points:** 2,400
 
 **Armor class:** 19/12/17

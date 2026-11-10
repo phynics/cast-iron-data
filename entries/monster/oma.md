@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "distant-worlds"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oma", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "209"
+[[sources]]
+publication = "distant-worlds"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ down its body._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 209, Distant Worlds pg 62\
 **Experience points:** 76,800
 
 **Armor class:** 30/0/30

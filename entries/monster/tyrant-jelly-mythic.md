@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrant_jelly_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "266"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ brain._
 
 **Perception:** +11
 
-**Sources:** Bestiary 4 pg 266\
 **Subtype:** Mythic
 
 **Experience points:** 6,400

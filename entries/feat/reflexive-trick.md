@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflexive_trick", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "17"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever the triggering condition for one mesmerist trick that you ha
 +++
 
 ## Reflexive Trick (Trick)
-
-**Sources:** Psychic Anthology pg 17
 
 You are able to implant tricks in yourself in the blink of an eye.\
 **Prerequisites:** Mesmerist tricks class feature.\

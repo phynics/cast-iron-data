@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/arcane-cannon", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "84"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 84\
 The cannon deals 6d10 points of damage on a successful hit. Add your tier to the cannon's
 [hardness](ref/umr/hardness) and your tier × 5 to its hit points. Its conductive property can
 channel any spell with a range of touch (you have to expend only one spell for this, not two). You

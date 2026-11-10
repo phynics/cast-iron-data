@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_rush", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Potions and Poisons pg 21\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 2,400 gp; **Weight** -
 

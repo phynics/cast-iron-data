@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/pernicious-poison", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "103"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 103\
 The number of successful saving throws needed to cure a poison increases by one. If the poison deals
 ability damage on a failed saving throw, that ability damage increases by 1.
 

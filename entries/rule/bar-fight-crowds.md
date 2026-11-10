@@ -6,12 +6,13 @@ source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bar_fight_crowds", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Inner Sea Taverns pg 57
 
 ## Spells and the Crowd
 

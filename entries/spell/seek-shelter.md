@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seek_shelter", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Targets: all non-hostile creatures with 4 or fewer HD in a 30-ft.-radius spread
 Subschool: Compulsion
 Descriptors: fear, mind-affecting
 :::
-
-**Sources:** Inner Sea Intrigue pg 62
 
 You send an empathic urge to seek safety both as fast as possible and in an orderly fashion, and to
 remain in such secure locations for the duration of the spell. Targets with 5 or more Hit Dice are

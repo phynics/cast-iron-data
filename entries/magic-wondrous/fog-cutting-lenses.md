@@ -6,6 +6,15 @@ source_ids = ["monster-codex", "pathfinder-4-fortress-of-the-stone-giants", "ris
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fog_cutting_lenses", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "50"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "421"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 69, Pathfinder \#4: Fortress of the Stone Giants pg 50, Rise of the
-Runelords Anniversary Edition pg 421\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** face; **Price** 8,000 gp; **Weight** 1 lb.
 

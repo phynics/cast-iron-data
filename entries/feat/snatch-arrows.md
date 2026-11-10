@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_arrows", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "134"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using the Deflect Arrows feat you may choose to catch the weapon
 +++
 
 ## Snatch Arrows (Combat)
-
-**Sources:** PRPG Core Rulebook pg 134
 
 Instead of knocking an arrow or ranged attack aside, you can catch it in mid-flight.\
 **Prerequisites:** Dex 15, [Deflect Arrows](ref/feat/deflect-arrows),

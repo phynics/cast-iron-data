@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enthrall", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "278"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Targets: any number of creatures
 Subschool: Charm
 Descriptors: language-dependant, mind-affecting, sonic
 :::
-
-**Sources:** PRPG Core Rulebook pg 278
 
 If you have the attention of a group of creatures, you can use this spell to hold them enthralled.
 To cast the spell, you must speak or sing without interruption for 1 full round. Thereafter, those

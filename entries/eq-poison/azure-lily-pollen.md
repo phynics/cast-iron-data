@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azure_lily_pollen", path = "json/equipment_poisons.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "111"
 
 [fields]
 kind = "item"
@@ -13,8 +16,6 @@ category = "Poisons"
 price = "1,500 gp"
 weight = "&mdash;"
 +++
-
-**Sources:** Ultimate Equipment pg 111
 
 **Price** 1,500 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pharaohs_key", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-83-the-slave-trenches-of-hakotep"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#83: The Slave Trenches of Hakotep pg 63\
 **Aura** strong abjuration; **CL** 17th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

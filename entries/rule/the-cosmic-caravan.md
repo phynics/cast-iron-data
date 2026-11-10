@@ -6,12 +6,13 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_cosmic_caravan", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "36"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Mysteries pg 36
 
 Astrology on Golarion has many traditions, but the most common around the Inner Sea is that of the
 Cosmic Caravan. This system partitions Golarion's night sky into 13 equal longitudinal sections,

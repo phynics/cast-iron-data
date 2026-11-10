@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/infernal-healing" },
 ]
+[[sources]]
+publication = "hells-vengeance-players-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Descriptors: evil
 :::
 
 ### Greater Infernal Healing
-
-**Sources:** Hell's Vengeance Player's Guide pg 11
 
 As per [infernal healing](ref/spell/infernal-healing), except the target gains
 [fast healing](ref/umr/fast-healing) 4 and the target detects as an evil cleric.

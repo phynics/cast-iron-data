@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook", "classic-treasures-revisite
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helm_of_brilliance_lesser", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "243"
+[[sources]]
+publication = "core-rulebook"
+page = "518"
 
 [fields]
 kind = "item"
@@ -19,7 +25,6 @@ caster_level = "13th"
 
 ## Helm of Brilliance
 
-**Sources:** Ultimate Equipment pg 243, PRPG Core Rulebook pg 518\
 **Aura** strong varied; **CL** 13th\
 **Slot** head; **Price** 125,000 gp; **Weight** 3 lbs.
 

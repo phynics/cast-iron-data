@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_style_conquest", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you attempt to parry an attack using Aldori Style Aegis, you do 
 +++
 
 ## Aldori Style Conquest (Combat)
-
-**Sources:** Adventurer's Guide pg 25
 
 Defense is now second nature to you, and your blade punishes those who try to attack and fail.\
 **Prerequisites:** [Aldori Style](ref/feat/aldori-style),

@@ -6,6 +6,9 @@ source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agrawgh", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "planes-of-power"
+page = "52"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ bubbling at the back of its mouth._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Planes of Power pg 52\
 **Subtype:** Earth, Extraplanar
 
 **tremorsense:** 100

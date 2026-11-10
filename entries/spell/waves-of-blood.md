@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_blood", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "130"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: no
 Area: cone-shaped burst
 Subschool: Creation
 :::
-
-**Sources:** Horror Adventures pg 130
 
 You cause torrents of roiling blood to push your opponents away from you. This wave attempts a bull
 rush combat maneuver against all creatures within its area of effect, and you bull rush creatures of

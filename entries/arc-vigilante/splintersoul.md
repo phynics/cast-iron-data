@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/vigilante" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "17"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Unshakable"]
 alters = ["Dual identity", "Social talents gained at 3rd and 7th levels", "Startling appearance", "frightening appearance", "stunning appearance"]
 +++
 
-**Sources:** Antihero's Handbook pg 17\
 A splintersoul pushes the boundaries of what it means to have two separate identities. One may be
 kind and calm while the other is angry and heartless, and the change from one identity to another is
 sudden and frightening. The splintersoul is torn by conflicting emotions and thoughts, but because

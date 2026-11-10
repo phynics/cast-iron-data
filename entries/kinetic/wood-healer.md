@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood_healer", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "61"
+[[sources]]
+publication = "psychic-anthology"
+page = "23"
 
 [fields]
 kind = "class_option"
@@ -27,8 +33,6 @@ group = "kineticist-wild-talent"
 **Saving throw:** none
 
 **Spell resistance:** yes
-
-**Source:** Ultimate Wilderness/61, Psychic Anthology/23
 
 This functions as [kinetic healer](ref/kinetic/kinetic-healer), but you must base the amount of
 healing on your _positive blast,_ not _wood blast._ A phytokineticist with _positive blast_ as her

@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cuero", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _The pink, fleshy underside of this flat, aquatic creature features a large circ
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 62\
 **Subtype:** Aquatic
 
 **Experience points:** 1,600

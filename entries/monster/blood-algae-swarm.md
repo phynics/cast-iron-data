@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_algae_swarm", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _An oily substance in the water surrounds this seething red mass of worm-like lu
 
 **Type:** plant
 
-**Sources:** Pathfinder \#130: City in the Lion's Eye pg 86\
 **Subtype:** Swarm
 
 **Experience points:** 4,800

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_glance", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Attempting to demoralize an opponent is a standard action."
 +++
 
 ## Intimidating Glance (Combat)
-
-**Sources:** Occult Adventures pg 135
 
 Your gaze strikes fear into your enemies.\
 **Prerequisites:** Hypnotic stare class feature.\

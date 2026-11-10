@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "125"
 
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "Camouflage", "Hide in plain sight"]
 +++
 
-**Sources:** Advanced Player's Guide pg 125\
 Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical
 relationship with their mounts. Horse lords are unparalleled mounted combatants, the envy of even
 the most dedicated cavalier. Though called "horse lords" as a generic term, these rangers are not

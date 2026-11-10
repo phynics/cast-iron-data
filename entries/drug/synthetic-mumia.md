@@ -6,12 +6,13 @@ source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synthetic_mumia", path = "json/drugs.json" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "9"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Undead Slayer's Handbook pg 9
 
 **Type:** Ingested or injury
 

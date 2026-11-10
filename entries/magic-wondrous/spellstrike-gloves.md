@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellstrike_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "239"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Sources:** Ultimate Equipment pg 239\
 **Aura** strong (no school); **CL** 17th\
 **Slot** hands; **Price** 8,000 gp; **Weight** -
 

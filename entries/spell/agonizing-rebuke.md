@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agonizing_rebuke", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "126"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one living creature
 Subschool: Phantasm
 Descriptors: emotion, mind-affecting, pain
 :::
-
-**Sources:** Advanced Race Guide pg 126
 
 > _[Hobgoblins](ref/race/hobgoblin) have access to the following spell._
 

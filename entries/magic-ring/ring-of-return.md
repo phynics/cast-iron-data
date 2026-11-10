@@ -6,6 +6,12 @@ source_ids = ["qadira-jewel-of-the-east", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_return", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "9"
+[[sources]]
+publication = "ultimate-equipment"
+page = "173"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Qadira, Jewel of the East pg 9, Ultimate Equipment pg 173\
 **Aura** strong conjuration; **CL** 13th\
 **Slot** ring; **Price** 6,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_olethros", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "220"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ mirrors._
 
 **Senses:** Darkvision 60 ft., Discern next of kin, Low-light vision, Spiritsense, True seeing
 
-**Sources:** Bestiary 6 pg 220\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 102,400

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envious_urge", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Targets: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 You fill creatures with feelings of seething envy. Affected targets turn upon the nearest creature
 (whether an ally or enemy) and attempt to disarm it of a valuable weapon, steal something it is

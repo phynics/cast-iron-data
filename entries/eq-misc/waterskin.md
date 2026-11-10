@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterskin", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "75"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "4 lbs."
 
 ## Waterskin (or wineskin)
 
-**Sources:** Ultimate Equipment pg 75, PRPG Core Rulebook pg 158\
 **Price** 1 gp; **Weight** 4 lbs.\
 **Category** Adventuring Gear
 

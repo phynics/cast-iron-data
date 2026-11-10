@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_dirty_trick", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "161"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "The condition imposed by a dirty trick lasts for 1 round plus 1 round 
 +++
 
 ## Greater Dirty Trick (Combat)
-
-**Sources:** Advanced Player's Guide pg 161
 
 When you pull a dirty trick, your foe is truly hindered.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

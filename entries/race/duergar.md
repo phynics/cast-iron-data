@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-cod
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar", path = "json/races.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "241"
+[[sources]]
+publication = "bestiary"
+page = "117"
+[[sources]]
+publication = "advanced-race-guide"
+page = "186"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 241, Pathfinder RPG Bestiary pg 117, Advanced Race Guide pg 186\
 Duergar dwell in subterranean caverns far from the touch of light. They detest all races living
 beneath the sun, but that hatred pales beside their loathing of their surface-dwarf cousins. Dwarves
 and duergar once were one race, but the dwarves left the deeps for their mountain strongholds.

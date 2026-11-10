@@ -6,14 +6,15 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disposable_weapon", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "97"
 
 [fields]
 kind = "feat"
 prerequisites = "Base attack bonus +1, proficient with weapon."
 benefit = "Whenever you use a melee or thrown weapon with the fragile weapon special quality to score a critical threat against an opponent, you can give your weapon the broken condition to automatically confirm the critical hit."
 +++
-
-**Sources:** Ultimate Combat pg 97
 
 You ignore the limitations of your equipment, striking harder despite the damage it does to your
 weapon.\

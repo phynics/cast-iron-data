@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dt_2", path = "json/rules_gm05.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "179"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 179
 
 ### Table 7-4: Dungeon Rooms
 

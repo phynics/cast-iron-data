@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_ooze", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can create living oozes as though they were magical items. Creati
 +++
 
 ## Craft Ooze (Item Creation)
-
-**Sources:** Alchemy Manual pg 22
 
 You can use alchemy to create dangerous ooze creatures.\
 **Prerequisites:** [Brew Potion](ref/feat/brew-potion),

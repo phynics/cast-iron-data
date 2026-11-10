@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alignment_aura", path = "json/rules_campaign_types08.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "198"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 198
 
 A creature's alignment aura reflects the true nature of its beliefs and inner soul. This aura
 resembles a churning mist that suffuses the health aura. Close observation of the strange currents

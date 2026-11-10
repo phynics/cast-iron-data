@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/breath-of-life", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "87"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 87\
 The spell heals 5d12 points of damage + 1 point per caster level (maximum +25). It can revive a
 creature that died of hp damage within the past 2 rounds. If the target was slain by a death effect
 that allows a saving throw, this spell allows the creature to attempt another save against that

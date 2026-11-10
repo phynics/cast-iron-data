@@ -6,6 +6,12 @@ source_ids = ["curse-of-the-crimson-throne", "pathfinder-8-seven-days-to-the-gra
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deaths_head_coffer", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "433"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
+page = "32"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Curse of the Crimson Throne pg 433, Pathfinder \#8: Seven Days to the Grave pg 32\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.
 

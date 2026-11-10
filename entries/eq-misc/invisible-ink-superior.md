@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisible_ink_superior", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "103"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -16,7 +22,6 @@ weight = "- (average), - (good), - (simple), - (superior)"
 
 ## Invisible ink
 
-**Sources:** Ultimate Equipment pg 103, Adventurer's Armory pg 19\
 **Price** 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior); **Weight** - (average), -
 (good), - (simple), - (superior)
 

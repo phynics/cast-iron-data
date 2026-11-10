@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ahool", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "15"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ in sharp claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 15\
 **Experience points:** 6,400
 
 **Armor class:** 22/12/19

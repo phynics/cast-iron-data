@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "247"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ countless teeth._
 
 **Perception:** +8
 
-**Sources:** Pathfinder RPG Bestiary pg 247\
 **Subtype:** Aquatic
 
 **Experience points:** 600

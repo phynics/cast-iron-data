@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_spiny_starfish", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "206"
 
 [fields]
 kind = "creature"
@@ -37,7 +40,6 @@ _This brightly colored, star-shaped creature has many spines growing from its fi
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Ultimate Wilderness pg 206\
 **Size:** tiny
 
 **tremorsense:** 20

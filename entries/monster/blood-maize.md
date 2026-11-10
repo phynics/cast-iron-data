@@ -6,6 +6,9 @@ source_ids = ["pathfinder-121-the-lost-outpost"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_maize", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-121-the-lost-outpost"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ digs into the soft ground._
 
 **Type:** plant
 
-**Sources:** Pathfinder \#121: The Lost Outpost pg 84\
 **tremorsense:** 60
 
 **Experience points:** 600

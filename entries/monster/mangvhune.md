@@ -6,6 +6,9 @@ source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mangvhune", path = "json/monsters_unique3.json" },
 ]
+[[sources]]
+publication = "demons-revisited"
+page = "8"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ layer of crimson slime glistens on its flesh, dripping over its armor in red riv
 
 **Senses:** Darkvision 60 ft., See invisibility
 
-**Sources:** Demons Revisited pg 8\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 76,800

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throw_back_arrows", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "9"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using the Snatch Arrows feat, you can throw a caught piece of ra
 +++
 
 ## Throw Back Arrows (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 9
 
 When you catch arrows and other ranged ammunition, you can immediately hurl them at your enemies.\
 **Prerequisites:** Dex 17, [Deflect Arrows](ref/feat/deflect-arrows),

@@ -6,12 +6,14 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rc_fragile_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "182"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder Unchained pg 182\
 Some of the most important components of your item are extremely fragile.
 
 ### Tasks

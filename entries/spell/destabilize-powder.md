@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destabilize_powder", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "228"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (object)
 Spell resistance: yes (object)
 Target: 1 loaded firearm
 :::
-
-**Sources:** Ultimate Combat pg 228
 
 This spell makes the ammunition in the target firearm is prone to misfire. Increase the misfire
 range by 1 + 1 per five caster levels (maximum +5) for the ammunition currently loaded into that

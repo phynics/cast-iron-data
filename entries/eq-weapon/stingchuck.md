@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stingchuck", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "9 lbs."
 +++
-
-**Sources:** Adventurer's Armory pg 5
 
 A stingchuck is a foul bag made of a humanoid's head with the brain removed and the skull heavily
 scored so that it bursts open when thrown. Normally filled with biting vermin, it acts as a

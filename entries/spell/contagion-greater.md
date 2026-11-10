@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/contagion" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "211"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: disease, evil
 :::
 
 ### Greater Contagion
-
-**Sources:** Ultimate Magic pg 211
 
 This spell functions as [contagion](ref/spell/contagion), except the victim cannot overcome the
 disease without magic-making the required number of saves does not cure it. The DC to remove the

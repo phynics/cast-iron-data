@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bag_of_concealment", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "7"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Classic Treasures Revisited pg 7\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** none; **Price** 5,000 gp (Type I), 10,000 gp (Type II), 14,800 gp (Type III), 20,000 gp
 (Type IV); **Weight** 15 lbs. (type I), 25 lbs. (type II), 35 lbs. (type III), 60 lbs. (type IV)

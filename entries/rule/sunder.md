@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunder", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 201
 
 You can attempt to sunder an item held or worn by your opponent as part of an attack action in place
 of a melee attack. If you do not have the [Improved Sunder](ref/feat/improved-sunder) feat, or a

@@ -6,12 +6,13 @@ source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_hot_spots", path = "json/rules_campaign_types06.json" },
 ]
+[[sources]]
+publication = "mythic-origins"
+page = "5"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Mythic Origins pg 5
 
 Golarion is rife with mysterious locations, long-forgotten kingdoms, and buried secrets just waiting
 for mythic characters to discover. The following are but a few of the locations in or around the

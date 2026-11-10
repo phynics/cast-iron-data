@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purge_spirit", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "184"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will partial
 Spell resistance: yes
 Target: one creature or haunt
 :::
-
-**Sources:** Occult Adventures pg 184
 
 Purge spirit rips away at the target's spiritual substance, scattering it over a wide area and
 hampering the target's ability to reform. The target takes 1d6 points of damage per caster level

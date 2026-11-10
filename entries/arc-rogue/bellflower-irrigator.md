@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "43"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "rogue talent gained at 4th level", "Improved uncanny dodge"]
 +++
 
-**Sources:** Adventurer's Guide pg 43\
 Bellflower irrigators take on tasks that many other agents of the
 [Bellflower Network](ref/rule/aff-antislavery) find distasteful. Rather than focusing on saving
 slaves, Bellflower irrigators seek to defeat slavery by aiming to eliminate the source. They gauge

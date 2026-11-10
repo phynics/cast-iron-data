@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cognitive_block", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "161"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 161
 
 You create a mental block in the target's mind, impeding the flow of his mental spellcasting process
 and forcing him to incorporate a thought component into any spell or

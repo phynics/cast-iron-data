@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garrote", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "3"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory pg 3
 
 A garrote is a length of wire or thin rope with wooden handles at both ends. The wire is placed
 across a victim's throat and crossed behind the neck; when the handles are pulled tight, the garrote

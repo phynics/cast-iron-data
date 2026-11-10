@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "59"
 
 [fields]
 kind = "archetype"
 replaces = ["Spellstrike", "Medium armor", "heavy armor"]
 +++
 
-**Sources:** Adventurer's Guide pg 59\
 Traditionally, the [Cyphermages](ref/rule/aff-i-tradition) have harbored something of a resistance
 toward physical combat, preferring to rely upon the power of magic to solve problems and defeat
 foes. Many of the organization's traditionalists hold prejudices against those who rely upon martial

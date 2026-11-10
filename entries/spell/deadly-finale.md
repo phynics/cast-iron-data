@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_finale", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "214"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: yes
 Targets: 1 creature/3 levels no two of which can be more than 30 ft. apart
 Descriptors: sonic
 :::
-
-**Sources:** Advanced Player's Guide pg 214
 
 You must have a bardic performance in effect to cast this spell. With a flourish, you immediately
 end your performance, dealing 2d8 points of sonic damage to each target. In addition, each target

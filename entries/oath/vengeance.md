@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeance", path = "json/class_ability_oaths.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "63"
 
 [fields]
 kind = "class_option"
@@ -13,7 +16,6 @@ group = "paladin-oath"
 replaces = ["Channel positive energy", "Aura of justice"]
 +++
 
-**Sources:** Ultimate Magic pg 63\
 While all paladins uphold the principals of law and good, sometimes these ideas must have a ruthless
 and dangerous side. It often falls upon a paladin to bring justice in the form of vengeance upon
 heinous transgressors against law and good. These oathbound paladins are always on the hunt for

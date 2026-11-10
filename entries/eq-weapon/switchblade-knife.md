@@ -6,14 +6,15 @@ source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "switchblade_knife", path = "json/equipment_weapons.json" },
 ]
+[[sources]]
+publication = "adventurers-armory"
+page = "5"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "1 lb."
 +++
-
-**Sources:** Adventurer's Armory pg 5
 
 This knife has a springloaded blade hidden inside the handle. It can be designed to look like
 another type of object (a DC 15 Perception check reveals the deception). If held in your hand, you

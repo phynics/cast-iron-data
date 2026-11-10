@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable_construct", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "244"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no
 Target: one construct
 :::
-
-**Sources:** Ultimate Magic pg 244
 
 This spell increases the target's DR/adamantine by 5 or its [hardness](ref/umr/hardness) by 5. If
 the target does not have DR/adamantine or hardness, this spell has no effect.

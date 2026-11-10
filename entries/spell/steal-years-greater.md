@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/steal-years" },
 ]
+[[sources]]
+publication = "blood-of-the-night"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 :::
 
 ### Greater Steal Years
-
-**Sources:** Blood of the Night pg 30
 
 This spell functions like [steal years](ref/spell/steal-years), except you drain 1d6 years per two
 caster levels (maximum 10d6).

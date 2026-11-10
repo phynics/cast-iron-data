@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforce_armaments", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Target: one armor suit or weapon touched
 :::
-
-**Sources:** Ultimate Combat pg 241
 
 You reinforce a weapon or armor suit to give it a temporarily upgrade or mitigate the
 [fragile](ref/misc/fragile) quality. A suit of armor or weapon touched that has the fragile quality

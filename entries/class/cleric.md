@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "chronicle-of-legends", "advanced-race-guide", "p
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleric", path = "json/classes5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "38"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "core"
 hit_die = "d8"
 skill_ranks = "2 + Int modifier"
 +++
-
-**Sources:** PRPG Core Rulebook pg 38
 
 In faith and the miracles of the divine, many find a greater purpose. Called to serve powers beyond
 most mortal understanding, all priests preach wonders and provide for the spiritual needs of their

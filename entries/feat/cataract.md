@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cataract", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "A shaman or witch with this [blood hex](ref/rule/feats-class) can use
 +++
 
 ## Cataract (Blood Hex)
-
-**Sources:** Magic Tactics Toolbox pg 29
 
 You can curse the eyes of a wounded enemy.\
 **Prerequisites:** Int 13, Perception 5 ranks, Use Magic Device 1 rank.\

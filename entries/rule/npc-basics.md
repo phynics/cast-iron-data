@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "npc_basics", path = "json/rules_gm02.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 82
 
 Once a GM knows what role his NPC needs to fulfill, the character's details can begin taking shape.
 While not every NPC needs to be a unique masterpiece of imagination, every character the PCs

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/discharge" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "9"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: no
 :::
 
 ### Greater Discharge
-
-**Sources:** Technology Guide pg 9
 
 This spell functions as [discharge](ref/spell/discharge), except it can discharge multiple
 technological objects and can be used to target an area.

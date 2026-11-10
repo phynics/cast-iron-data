@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbreakable", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "86"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you gain 1 hit point as a fighter favored class benefit, you
 +++
 
 ## Unbreakable (Combat)
-
-**Sources:** Adventurer's Guide pg 86
 
 As a veteran [Gray Maiden](ref/rule/aff-scarred-ladies), you can endure a staggering amount of
 punishment.\

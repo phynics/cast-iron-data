@@ -6,6 +6,9 @@ source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "censuring_placard", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-temples"
+page = "22"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Inner Sea Temples pg 22\
 **Aura** moderate abjuration; **CL** 10th\
 **Slot** none; **Price** 14,300 gp; **Weight** 2 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unknown", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "244"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +2
-
-**Source:** Horror Adventures/244
 
 The unknown are terrifying fey creatures that feed off the mental energies of other creatures.
 Scholars studying the behavior and organization of the unknown speculate they may have originally

@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_gracelessness", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Advanced Player's Guide pg 249
 
 With a single touch, you reduce a creature to a fumbling clown. The target takes a penalty to its
 Dexterity equal to 1d6+1 per two caster levels (maximum 1d6+5). This penalty cannot drop the

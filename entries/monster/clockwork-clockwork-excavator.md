@@ -6,6 +6,9 @@ source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_excavator", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-117-assault-on-longshadow"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ arm._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Metal sense 120 ft.
 
-**Sources:** Pathfinder \#117: Assault on Longshadow pg 84\
 **Subtype:** Clockwork
 
 **Experience points:** 9,600

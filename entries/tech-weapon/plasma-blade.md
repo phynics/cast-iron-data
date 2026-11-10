@@ -6,14 +6,15 @@ source_ids = ["pathfinder-100-a-song-of-silver"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plasma_blade", path = "json/equipment_tech_weapons.json" },
 ]
+[[sources]]
+publication = "pathfinder-100-a-song-of-silver"
+page = "105"
 
 [fields]
 kind = "item"
 category = "Technological Weapons"
 weight = "3 lbs."
 +++
-
-**Sources:** Pathfinder \#100: A Song of Silver pg 105
 
 **Cost** 12,000 gp\
 **Type** one-handed melee; **Proficiency** exotic; **Weight** 3 lbs.\

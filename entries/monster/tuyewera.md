@@ -6,6 +6,9 @@ source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tuyewera", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ some deranged beast._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#37: Souls for Smuggler's Shiv pg 86\
 **Type:** undead
 
 **Experience points:** 1,200

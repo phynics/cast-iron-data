@@ -6,6 +6,9 @@ source_ids = ["artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_dragon_mastery", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 33\
 **Aura** strong enchantment; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

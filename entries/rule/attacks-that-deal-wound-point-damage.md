@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attacks_that_deal_wound_point_damage", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 207
 
 Some attacks can be used to deal wound points damage directly.
 

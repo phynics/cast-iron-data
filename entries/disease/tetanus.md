@@ -6,12 +6,16 @@ source_ids = ["pathfinder-1-burnt-offerings", "bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetanus", path = "json/diseases.json" },
 ]
+[[sources]]
+publication = "pathfinder-1-burnt-offerings"
+page = "43"
+[[sources]]
+publication = "bestiary-4"
+page = "132"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#1: Burnt Offerings pg 43, Bestiary 4 pg 132
 
 **Type:** Disease (Injury)
 

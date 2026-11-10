@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_strike", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "12"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "An alchemist can take this feat in place of an alchemist discovery. H
 +++
 
 ## Alchemical Strike (Combat)
-
-**Sources:** Magic Tactics Toolbox pg 12
 
 By focusing all your attention into a single attack, you vastly increase the effectiveness of thrown
 alchemical items.\

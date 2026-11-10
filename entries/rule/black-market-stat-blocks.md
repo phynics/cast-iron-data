@@ -6,12 +6,13 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_market_stat_blocks", path = "json/rules_rulesets01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "6"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Black Markets pg 6
 
 Black markets have stat blocks similar to those of [settlements](ref/rule/settlements-in-play) and
 function as settlements except as noted here. A black market is tied to a settlement that must have

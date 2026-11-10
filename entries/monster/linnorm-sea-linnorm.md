@@ -6,6 +6,9 @@ source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_sea_linnorm", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-126-beyond-the-veiled-past"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ pulsating orange light accented by regular electrical discharges._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
 
-**Sources:** Pathfinder \#126: Beyond the Veiled Past pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 614,400

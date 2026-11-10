@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feeblemind", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "281"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 281
 
 Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable
 to use Intelligence- or Charisma-based skills, cast spells, understand language, or communicate

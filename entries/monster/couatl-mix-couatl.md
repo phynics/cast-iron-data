@@ -6,6 +6,9 @@ source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_mix_couatl", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-140-eulogy-for-roslars-coffer"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ span the length of its body._
 
 **Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, See in darkness
 
-**Sources:** Pathfinder \#140: Eulogy for Roslar's Coffer pg 84\
 **Subtype:** Native
 
 **Experience points:** 4,800

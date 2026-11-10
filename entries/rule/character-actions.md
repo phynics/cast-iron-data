@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "character_actions", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 124
 
 At the start of each day, each character must decide if she will spend the day documenting the
 territory, exploring, seeking a location, or taking another action (such as crafting magic items,

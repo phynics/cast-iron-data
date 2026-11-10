@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/restoration" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "235"
 
 [fields]
 kind = "spell"
@@ -44,7 +47,5 @@ Subschool: Healing
 :::
 
 ### Restore Eidolon
-
-**Sources:** Ultimate Magic pg 235
 
 This spell functions as [restoration](ref/spell/restoration), except it only affects an eidolon.

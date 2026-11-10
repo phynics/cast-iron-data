@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "38"
+[[sources]]
+publication = "champions-of-corruption"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage red
 alters = ["The barbarian's 2nd-level rage power"]
 +++
 
-**Sources:** Ultimate Wilderness pg 38, Champions of Corruption pg 27\
 While savagery is not inherently evil, some barbaric cultures thrive on depravity and welcome the
 act of feeding on their own kind. The raging cannibal is a barbarian who feasts upon her fallen
 opponents not out of hunger, or even a taste for flesh, but rather because she believes consuming

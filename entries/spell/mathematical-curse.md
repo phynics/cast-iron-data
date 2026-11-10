@@ -6,6 +6,9 @@ source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mathematical_curse", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-mysteries"
+page = "51"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 Target: one living creature
 Descriptors: curse
 :::
-
-**Sources:** Occult Mysteries pg 51
 
 Using the Path of Numbers, you are able to influence the seemingly random elements in the
 environment around a creature, reducing that creature's efficacy. Roll 3d8 and choose one of the

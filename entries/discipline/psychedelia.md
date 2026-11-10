@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychedelia", path = "json/class_ability_disciplines.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "67"
 
 [fields]
 kind = "class_option"
 group = "psychic-discipline"
 +++
 
-**Sources:** Occult Adventures pg 67\
 You ingest hallucinogens to expand your mind. Experimentation and study show you which ones will
 have the greatest effect. Your psychedelic forays put you into a different mental space from others,
 and normal people don't really understand you.

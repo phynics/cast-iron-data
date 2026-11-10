@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_self", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "41"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Planar Adventures pg 41
 
 When you cast this spell, you assume the form of a native outsider from the following list: aasimar,
 aphorite, duskwalker, fetchling, ganzi, ifrit, oread, shabti, suli, sylph, tiefling, or undine. You

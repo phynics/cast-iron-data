@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_sight", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Class Guide pg 174
 
 This spell makes your eyes glow and allows you to see alignment auras within 120 feet of you. The
 effect is similar to that of a [detect chaos/evil/good/law](ref/spell/detect-chaos-evil-good-law)

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shockwave_blunderbuss", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "18th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 23\
 **Aura** strong evocation; **CL** 18th\
 **Slot** none; **Price** 87,300 gp; **Weight** 8 lbs.
 

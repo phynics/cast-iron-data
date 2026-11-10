@@ -6,6 +6,9 @@ source_ids = ["pathfinder-64-beyond-the-doomsday-door"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_kere", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-64-beyond-the-doomsday-door"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ a lengthy black veil._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
 
-**Sources:** Pathfinder \#64: Beyond the Doomsday Door pg 88\
 **Subtype:** Psychopomp, Extraplanar
 
 **Experience points:** 9,600

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "99"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Nature sense", "Woodland stride", "Trackless step", "Resist nature'
 alters = ["Nature bond", "Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Advanced Player's Guide pg 99\
 Far from the green fields of the world above lies a lightless expanse beneath the surface. This
 darkling fairyland is not without beauty and natural wonders of its own, and a few druids seek to
 preserve this hidden realm and purge it of the fell horrors that creep up from below.

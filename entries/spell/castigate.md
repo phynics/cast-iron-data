@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castigate", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Target: one living creature
 Subschool: Compulsion
 Descriptors: emotion, fear, language-dependant, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 210
 
 You compel the target to beg for forgiveness. On a failed save, the target cowers with fear. On a
 successful save, it is shaken for 1 round. Each round on its turn, a cowering subject may attempt a

@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boots_of_dancing", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "343"
+[[sources]]
+publication = "core-rulebook"
+page = "539"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "feet"
 aura = "strong enchantment"
 caster_level = "16th"
 +++
-
-**Sources:** Ultimate Equipment pg 343, PRPG Core Rulebook pg 539
 
 **Aura** strong enchantment; **CL** 16th\
 **Slot** feet; **Weight** 1 lb.

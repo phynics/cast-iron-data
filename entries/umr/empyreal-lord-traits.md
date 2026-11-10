@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_lord_traits", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "293"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Empyreal Lord Traits (Ex, Sp, or Su)
 
-**Sources:** Bestiary 4 pg 293\
 Empyreal lords are the greatest members of the agathion, angel, archon, and azata races. All
 empyreal lords are good outsiders that are, at a minimum, CR 21 (most are at least CR 26 or higher).
 Empyreal lords have a particular suite of traits (unless otherwise noted in an empyreal lord's

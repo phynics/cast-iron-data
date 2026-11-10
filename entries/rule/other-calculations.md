@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_calculations", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "195"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 195
 
 The monster statistics below aren't defined in the individual steps. Calculate them at the end of
 the process.

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_eye", path = "json/magic_demonic_implants.json" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "72"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation [evil]"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#74: Sword of Valor pg 72\
 **Aura** faint transmutation \[evil\]; **CL** 5th\
 **Slot** none; **Price** 7,000 gp; **Weight** 1 lb.
 

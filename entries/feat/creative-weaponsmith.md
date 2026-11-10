@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creative_weaponsmith", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "11"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "With an hour of work, you can temporarily add a weapon modification o
 +++
 
 ## Creative Weaponsmith (Combat)
-
-**Sources:** Adventurer's Armory 2 pg 11
 
 You can temporarily customize your own weapons.\
 **Prerequisites:** Craft (weapons) 3 ranks, Knowledge (engineering) 3 ranks.\

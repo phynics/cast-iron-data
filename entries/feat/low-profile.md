@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_profile", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +1 dodge bonus to AC against ranged attacks. In addition, 
 +++
 
 ## Low Profile (Combat)
-
-**Sources:** Advanced Player's Guide pg 164
 
 Yours small stature helps you avoid ranged attacks.\
 **Prerequisites:** Dex 13, Small size or smaller.\

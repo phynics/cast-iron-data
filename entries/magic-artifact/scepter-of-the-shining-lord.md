@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scepter_of_the_shining_lord", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "166"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and enchantment"
 caster_level = "20th"
 +++
 
-**Sources:** Mythic Adventures pg 166\
 **Aura** strong abjuration and enchantment; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 4 lbs.
 

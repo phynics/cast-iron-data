@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/medium" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "12"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Haunt channeler", "connection channel", "Location channel", "Astral
 alters = ["Spirit", "spirit power (intermediate)", "Taboo", "Shared seance", "Ask the spirits"]
 +++
 
-**Sources:** Psychic Anthology pg 12\
 Rather than invite strange entities and departed souls into their bodies, outer channelers invite
 extraplanar entities to inhabit them, allowing the likes of angels and demons to use them as vessels
 in exchange for power. However, this bond always comes with a cost.

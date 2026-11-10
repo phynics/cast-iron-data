@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_grasp", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: creature or object touched
 Descriptors: electricity
 :::
-
-**Sources:** PRPG Core Rulebook pg 343
 
 Your successful melee touch attack deals 1d6 points of electricity damage per caster level (maximum
 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is wearing metal

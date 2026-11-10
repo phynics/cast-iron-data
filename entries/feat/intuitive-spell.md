@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intuitive_spell", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "136"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "An intuitive spell can be cast with no thought components. Spells wit
 +++
 
 ## Intuitive Spell (Metamagic)
-
-**Sources:** Occult Adventures pg 136
 
 You can avoid the need for thought components by trusting your instincts.\
 **Benefit:** An intuitive spell can be cast with no thought components. Spells without thought

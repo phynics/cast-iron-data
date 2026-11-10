@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandals_of_interception", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 29\
 **Aura** strong abjuration; **CL** 13th\
 **Slot** feet; **Price** 8,000 gp; **Weight** 1 lb.
 

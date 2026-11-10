@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiberolith", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "259"
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ down its shuddering body._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 259, Pathfinder \#56: Raiders of the Fever Sea pg 90\
 **Experience points:** 9,600
 
 **Armor class:** 24/8/24

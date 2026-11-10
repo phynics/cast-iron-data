@@ -6,14 +6,14 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tengu", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Tengu
-
-**Sources:** Advanced Race Guide
 
 This [humanoid](ref/type/humanoid) subtype is applied to [tengus](ref/race/tengu) and creatures
 related to tengus.

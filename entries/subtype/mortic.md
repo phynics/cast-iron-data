@@ -6,14 +6,14 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Mortic
-
-**Sources:** Pathfinder \#139: The Dead Road
 
 A mortic is a [humanoid](ref/type/humanoid) creature infused with necromantic energy but not truly
 undead. Although mortics reproduce to create others of their kind, usually living in tight-knit

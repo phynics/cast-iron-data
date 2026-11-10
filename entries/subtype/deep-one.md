@@ -6,14 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Deep One
-
-**Sources:** Bestiary 5
 
 This subtype is applied to [deep ones](ref/monster/deep-one) and creatures related to deep ones,
 such as [deep one hybrids](ref/monster/deep-one-deep-one-hybrid). Creatures with the deep one

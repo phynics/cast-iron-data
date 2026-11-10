@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid", path = "json/monster_template1.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "247"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1, +2, or +3
 
 **Simple:** present
-
-**Source:** Monster Codex/247
 
 Drawn to the raw might and power of nature, a [druid](ref/class/druid) creature gains the ability to
 change shape and cast druid spells. A druid creature's CR increases by 2 if the creature has 7 or

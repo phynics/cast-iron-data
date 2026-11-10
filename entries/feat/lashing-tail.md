@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashing_tail", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "30"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain a tail slap natural attack that deals damage as appropriate 
 +++
 
 ## Lashing Tail (Combat)
-
-**Sources:** Planar Adventures pg 30
 
 Your tail is either thick and heavy enough to serve as a weapon, or else is adorned with barbs or
 quills that weaponize its lashing length.\

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rusting_teeth_of_the_rough_beast", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "257"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Gods pg 257\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** none; **Price** 8,320 gp; **Weight** 12 lbs.
 

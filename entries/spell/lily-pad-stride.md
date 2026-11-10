@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lily_pad_stride", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: none
 Spell resistance: no
 Effect: trail of lily pads behind you
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 Your every footstep creates aquatic plants capable of supporting your weight and that of any
 creature of your size or smaller that is following you. These lily pads only appear when you cross

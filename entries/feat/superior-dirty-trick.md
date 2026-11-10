@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superior_dirty_trick", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can gain this feat multiple times. Each time you take the feat, i
 +++
 
 ## Superior Dirty Trick (Combat)
-
-**Sources:** Dirty Tactics Toolbox pg 15
 
 Your training in a particular dirty trick makes it especially effective.\
 **Prerequisites:** Int 13, [Combat Expertise](ref/feat/combat-expertise),

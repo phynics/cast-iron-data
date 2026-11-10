@@ -6,6 +6,9 @@ source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spartoi_seeds", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "pathfinder-28-the-infernal-syndrome"
+page = "89"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "varies"
 +++
 
-**Sources:** Pathfinder \#28: The Infernal Syndrome pg 89\
 **Aura** strong conjuration; **CL** varies\
 **Slot** none; **Price** 3,300 gp; **Weight** -
 

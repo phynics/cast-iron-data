@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_gold_aa", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "20"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates (object, see text)
 Spell resistance: yes
 Target: 1 gold piece/level touched
 :::
-
-**Sources:** Arcane Anthology pg 20
 
 You cast this spell on one or more gold pieces, which make those who have them more vulnerable to
 your magics. A creature with one or more of these gold pieces in its possession must attempt a Will

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-142-gardens-of-gallowspire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rampant", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "pathfinder-142-gardens-of-gallowspire"
+page = "67"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Pathfinder \#142: Gardens of Gallowspire/67
 
 The [Positive Energy Plane](ref/rule/positive-energy-plane) is a font of growth, life, and souls,
 and metaphysical currents bear these resources through the hearts of stars and onto the Material

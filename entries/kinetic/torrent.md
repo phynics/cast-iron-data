@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torrent", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -29,8 +32,6 @@ group = "kineticist-wild-talent"
 [Water Blast](ref/kinetic/water-blast)
 
 **Saving throw:** Reflex half
-
-**Source:** Occult Adventures/22
 
 A torrent of energy buffets or burns all foes in a 30-foot line, dealing
 [half](ref/misc/fractions-and-rounding) your normal amount of blast damage (or full damage for

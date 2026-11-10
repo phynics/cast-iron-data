@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "romantic_relationships", path = "json/rules_basics03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "48-49"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg. 48-49
 
 Roll on the table below to determine the kinds of romantic relationships you have had in the past.
 You might have a background that requires you to roll a d12 on this table instead of a d20.

@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passing_grace", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "33"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "Whenever a healing spell or an effect would restore you to above your
 +++
 
 ## Passing Grace (Teamwork)
-
-**Sources:** Distant Realms pg 33
 
 Your bond with your allies allows you to share positive energy between yourselves.\
 **Benefit:** Whenever a healing spell or an effect would restore you to above your maximum hit

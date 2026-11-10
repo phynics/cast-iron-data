@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "active_spellcasting", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "148"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 148
 
 Under the core rules, a spellcaster is largely passive when resolving the effects of her spells. She
 announces which spell she's casting, and the targets roll their saves in response. Compare this with

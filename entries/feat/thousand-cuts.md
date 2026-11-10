@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thousand_cuts", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "27"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you deal damage with a melee attack with a slashing weapon to an
 +++
 
 ## Thousand Cuts (Combat, Combination)
-
-**Sources:** Martial Arts Handbook pg 27
 
 Your attacks are calculated to draw the most blood possible. With every swing, you open persistent,
 vicious wounds that drain the life from your enemies.\

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dramatic_display", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spend a swift action to make a performance check, you exude 
 +++
 
 ## Dramatic Display (Combat, Performance)
-
-**Sources:** Ultimate Combat pg 98
 
 Your skill with your weapon is obvious to enemies and onlookers alike.\
 **Prerequisites:** [Dazzling Display](ref/feat/dazzling-display).\

@@ -6,12 +6,14 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defense_wild_talents", path = "json/class_abilities.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "16"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Occult Adventures pg 16\
 A kineticist gains the defense wild talent from her primary element at 2nd level.
 
 |Defense|Element|Burn|

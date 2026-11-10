@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulbound_eye", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "253"
+[[sources]]
+publication = "rival-guide"
+page = "41"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "16th"
 +++
 
-**Sources:** Ultimate Equipment pg 253, Rival Guide pg 41\
 **Aura** strong necromancy; **CL** 16th\
 **Slot** headband; **Price** 30,000 gp; **Weight** -
 

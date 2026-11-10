@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lock_coder_red", path = "json/equipment_tech_misc.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ slot = "none"
 
 ## Lock coder
 
-**Sources:** Technology Guide pg 49\
 **Price** 2,000 gp (black), 72,000 gp (blue), 600 gp (brown), 18,000 gp (gray), 32,000 gp (green),
 98,000 gp (orange), 200,000 gp (prismatic), 50,000 gp (red), 8,000 gp (white)\
 **Slot** none; **Weight** 5 lbs. (all)\

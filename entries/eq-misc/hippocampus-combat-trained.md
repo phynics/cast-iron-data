@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hippocampus_combat_trained", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "56"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1,300 lbs. (combat-trained), 1,000 lbs. (common)"
 
 ## Hippocampus
 
-**Sources:** Aquatic Adventures pg 56\
 **Price** 750 gp (combat-trained), 500 gp (common); **Weight** 1,300 lbs. (combat-trained), 1,000
 lbs. (common)
 

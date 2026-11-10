@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/magus" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "5"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Medium armor", "heavy armor", "Knowledge pool", "Counterstrike"]
 alters = ["Weapon proficiency", "Spellcasting", "Arcane pool", "Spellstrike", "5th-level bonus feat"]
 +++
 
-**Sources:** Martial Arts Handbook pg 5\
 Practitioners of this martial art, powered by arcane magic, wear an iron ring on the finger of one
 hand. This legacy has been handed down from the tradition's Vudrani founders.
 

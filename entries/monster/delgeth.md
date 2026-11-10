@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delgeth", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "71"
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ and bursts into flame._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 71, Tears at Bitter Manor pg 59\
 **Experience points:** 2,400
 
 **Armor class:** 18/12/16

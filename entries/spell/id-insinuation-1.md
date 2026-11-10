@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "id_insinuation_1", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "173"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 173
 
 By invading the mind of a creature with your psychic presence, you can isolate parts of its mind,
 preventing the target from functioning in a coherent manner. The target is confused as long as you

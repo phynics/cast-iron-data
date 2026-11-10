@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mask_of_the_cursed_eye", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "54"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Inner Sea Intrigue pg 54\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** face; **Price** 2,500 gp; **Weight** 1 lb.
 

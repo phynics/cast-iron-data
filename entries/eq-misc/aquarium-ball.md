@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquarium_ball", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "20"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "80 gp"
 weight = "20 lbs."
 +++
 
-**Sources:** Familiar Folio pg 20\
 **Price** 80 gp; **Weight** 20 lbs.\
 **Category** Animal Gear
 

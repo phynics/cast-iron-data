@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "personalizing_published_adventures", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "51"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 51
 
 It's not easy to be a Game Master; of all the roles in the game, the GM has to put in the most work,
 and sometimes you'll want to relax and use a published adventure instead of creating your own. While

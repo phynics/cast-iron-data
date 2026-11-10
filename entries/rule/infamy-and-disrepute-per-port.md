@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infamy_and_disrepute_per_port", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "63"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 63\
 No matter how impressionable (or drunk) the crowd, no one wants to hear the same tales and boasts
 over and over again. Thus, a group can only gain a maximum of 5 points of Infamy and Disrepute from
 any particular port. However, this amount resets every time a group reaches a new Infamy threshold.

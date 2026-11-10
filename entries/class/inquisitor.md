@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-g
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inquisitor", path = "json/classes2.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "38"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "base"
 hit_die = "d8"
 skill_ranks = "6 + Int modifier"
 +++
-
-**Sources:** Advanced Player's Guide pg 38
 
 Grim and determined, the inquisitor roots out enemies of the faith, using trickery and guile when
 righteousness and purity is not enough. Although inquisitors are dedicated to a deity, they are

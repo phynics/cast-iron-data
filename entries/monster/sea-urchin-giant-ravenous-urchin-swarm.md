@@ -6,6 +6,9 @@ source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_urchin_giant_ravenous_urchin_swarm", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-56-raiders-of-the-fever-sea"
+page = "89"
 
 [fields]
 kind = "creature"
@@ -39,7 +42,6 @@ _A wave of swift-moving spines rushes forward - a roiling tide of dangerously fa
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#56: Raiders of the Fever Sea pg 89\
 **Subtype:** Aquatic, Swarm
 
 **Size:** tiny

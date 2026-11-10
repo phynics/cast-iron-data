@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retributive_reparations", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "29"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one object
 Descriptors: curse
 :::
-
-**Sources:** Occult Origins pg 29
 
 If a creature successfully takes the item targeted by this spell while you are holding, wearing, or
 wielding it, the creature must attempt a Will save. If the creature fails its save, it becomes

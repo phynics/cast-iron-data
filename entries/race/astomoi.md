@@ -6,12 +6,14 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astomoi", path = "json/races.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "37"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Bestiary 5 pg 37\
 These mysterious humanoids require no food - indeed, they have no mouths - and they have no eyes
 with which to survey their environment. Instead, they rely on their powerful minds to sense the
 world around them, and subsist on nutrients absorbed from the air. This can turn against them,

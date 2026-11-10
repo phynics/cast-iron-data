@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_might", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "335"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 335
 
 Your height immediately doubles, and your weight increases by a factor of eight. This increase
 changes your size category to the next larger one. You gain a +4 size bonus to Strength and

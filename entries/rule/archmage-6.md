@@ -6,12 +6,17 @@ source_ids = ["mythic-adventures", "mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archmage_6", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "19"
+[[sources]]
+publication = "mythic-origins"
+page = "21"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 19, Mythic Origins pg 21\
 You must be at least 6th tier to select these path abilities.
 
 **Channel Power (Su):** You gain the ability to channel raw arcane power into a spell. You can also

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattoo_potion", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Effect: one spell tattoo
 :::
-
-**Sources:** Inner Sea Magic pg 62
 
 When you cast this spell, you mix special tattoo inks into a potion of your choice. Once you finish
 casting tattoo potion, the potion begins bubbling and fizzing - if no one drinks the potion within 1

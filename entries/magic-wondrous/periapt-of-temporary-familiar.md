@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "periapt_of_temporary_familiar", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "20"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Sources:** Monster Summoner's Handbook pg 20\
 **Aura** moderate conjuration; **CL** 9th\
 **Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
 

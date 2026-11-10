@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "class_specific_challenges", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "185"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 185
 
 To generate a class-specific challenge, determine which of the following challenges applies to at
 least one creator working on the item and pick one randomly from among those options. If none of

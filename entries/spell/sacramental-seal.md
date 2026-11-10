@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacramental_seal", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "126"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Target: creature touched
 :::
-
-**Sources:** Horror Adventures pg 126
 
 You trap the target in an object decorated with the holy symbols of your god or faith. While trapped
 in the object, the creature can't take any actions and is immune to spells and

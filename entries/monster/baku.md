@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baku", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ elongated trunk for a snout._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 30\
 **Experience points:** 4,800
 
 **Armor class:** 15/15/10

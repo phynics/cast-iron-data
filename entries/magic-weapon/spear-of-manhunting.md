@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spear_of_manhunting", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 61\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** none; **Price** 3,925 gp; **Weight** 8 lbs.
 

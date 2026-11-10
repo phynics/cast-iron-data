@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_animal_focus", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Animal companion class feature, animal focus class feature."
 benefit = "Choose one animal focus. When you apply that animal focus to your animal companion, the benefits increase by one step. For example, if you are 6th level and choose the bear animal focus, then when you apply the animal focus to your animal companion, it gains a +4 enhancement bonus to Constitution instead of +2."
 special = "You can gain this feat multiple times. Each time you take this feat, you must select a new animal focus."
 +++
-
-**Sources:** Wilderness Origins pg 22
 
 Your companion is unusually comfortable wearing another (metaphorical) skin.\
 **Prerequisites:** Animal companion class feature, [animal focus](ref/ability/animal-foci) class

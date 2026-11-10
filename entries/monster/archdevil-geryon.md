@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archdevil_geryon", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "24"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ immense serpents._
 
 **Senses:** Darkvision 60 ft., Detect chaos, Detect good, Scent, See in darkness, True seeing
 
-**Sources:** Bestiary 6 pg 24\
 **Subtype:** Aquatic, Devil, Evil, Extraplanar, Lawful
 
 **Experience points:** 6,553,600

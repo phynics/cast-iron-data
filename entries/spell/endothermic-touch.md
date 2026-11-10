@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endothermic_touch", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "141"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one living creature that has the dragon type or the reptilian subtype
 :::
-
-**Sources:** Monster Codex pg 141
 
 This spell slows the metabolism and other bodily functions of a creature for a short amount of time.
 The target is staggered and moves at half its normal speed (round down to the next 5-foot

@@ -6,6 +6,15 @@ source_ids = ["pathfinder-95-anvil-of-fire", "advanced-players-guide", "ultimate
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_thunderbolts", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "53"
+[[sources]]
+publication = "advanced-players-guide"
+page = "314"
+[[sources]]
+publication = "ultimate-equipment"
+page = "330"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "strong evocation, necromancy, and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 53, Advanced Player's Guide pg 314, Ultimate
-Equipment pg 330\
 **Aura** strong evocation, necromancy, and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 15 lbs.
 

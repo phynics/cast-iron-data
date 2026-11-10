@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasp_of_torment", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "196"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Sources:** Book of the Damned pg 196\
 **Aura** moderate transmutation; **CL** 11th\
 **Slot** none; **Price** 17,025 gp; **Weight** 10 lbs.
 

@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunted_dungeon", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "180"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg 180\
 When enough haunts gather in a single dungeon, they can combine into a gestalt haunt that infuses
 the entire structure with a single, malevolent will. The haunt's source typically rests in the most
 difficult to find or obscure location within the structure, but it moves if it senses creatures

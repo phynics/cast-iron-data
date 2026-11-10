@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dousing_a_fire", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 60\
 Dousing a fire requires a large amount of water or other non-flammable material, such as dirt, to be
 deposited on the burning area. One effective strategy for extinguishing a fire quickly is to
 surround the burning area with nonflammable material. PCs doing this must make a ranged touch attack

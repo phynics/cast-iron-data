@@ -6,6 +6,9 @@ source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horseshoes_of_great_burden", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "seekers-of-secrets"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Seekers of Secrets pg 55\
 **Aura** faint transmutation; **CL** 3rd\
 **Slot** feet; **Price** 2,500 gp; **Weight** 24 lbs. (for four)
 

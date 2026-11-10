@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/defile-armor", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "90"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 90\
 You gain DR 5/good while wearing the target armor. While using your judgment or smite ability, this
 improves to DR 10/good.
 

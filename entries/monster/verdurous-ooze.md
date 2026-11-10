@@ -6,6 +6,9 @@ source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdurous_ooze", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-35-war-of-the-river-kings"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ forward with an ameboid life._
 
 **Perception:** -5
 
-**Sources:** Pathfinder \#35: War of the River Kings pg 86\
 **tremorsense:** 60
 
 **Experience points:** 2,400

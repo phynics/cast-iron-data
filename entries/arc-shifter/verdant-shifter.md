@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "83"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Shifter aspect", "Defensive instinct", "Chimeric fo
 alters = ["Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 83\
 Verdant shifters have an affinity for plants rather than animals and gain a plant-like form that
 grows in power as they do. Verdant shifters are the enemies of creatures that would despoil the
 natural world, and they seek to maintain balance with civilization and industry to ensure the

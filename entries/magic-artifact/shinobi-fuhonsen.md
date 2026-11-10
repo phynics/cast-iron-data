@@ -6,6 +6,9 @@ source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shinobi_fuhonsen", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-53-tide-of-honor"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong illusion"
 caster_level = "15th"
 +++
 
-**Sources:** Pathfinder \#53: Tide of Honor pg 24\
 **Aura** strong illusion; **CL** 15th\
 **Slot** neck; **Price** -; **Weight** -
 

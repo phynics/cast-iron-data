@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honorable_outcast", path = "json/npcs.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "112"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "1"
 
 **Challenge rating:** 1
 
-**Sources:** NPC Codex pg 112\
 **XP** 400\
 Half-orc [paladin](ref/class/paladin) of [Torag](ref/faith/torag) 2\
 LG Medium humanoid (human, orc)\

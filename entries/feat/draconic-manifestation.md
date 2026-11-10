@@ -6,14 +6,15 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_manifestation", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "5"
 
 [fields]
 kind = "feat"
 prerequisites = "Access to natural claw attacks, bloodrager or sorcerer with the draconic bloodline."
 benefit = "As a free action when manifesting claws (as per the sorcerer bloodline ability), you infuse yourself with other dormant powers of your draconic bloodline. If you're a bloodrager, you gain the benefits of this feat as a free action, but only while bloodraging; the ability lasts for a number of rounds per day equal to 3 + your Charisma modifier. These rounds need not be used consecutively. Depending on the specific draconic bloodline you have, you gain one of the following abilities."
 +++
-
-**Sources:** Legacy of Dragons pg 5
 
 You've unlocked more than just the ability to emulate the claws of your draconic forebear.\
 **Prerequisites:** Access to natural claw attacks, [bloodrager](ref/class/bloodrager) or

@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_goo", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "130"
+[[sources]]
+publication = "numeria-land-of-fallen-stars"
+page = "50"
 
 [fields]
 kind = "creature"
@@ -42,7 +48,6 @@ _Droplets of a silvery gray, slightly grainy goo gleam dully as they hang in the
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 5 pg 130, Numeria, Land of Fallen Stars pg 50\
 **Subtype:** Swarm
 
 **Experience points:** 38,400

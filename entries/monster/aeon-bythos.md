@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon_bythos", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "10"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ in its torso._
 
 **Senses:** Darkvision 90 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 10\
 **Subtype:** Aeon, Extraplanar
 
 **Experience points:** 76,800

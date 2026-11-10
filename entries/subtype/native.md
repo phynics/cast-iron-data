@@ -6,14 +6,24 @@ source_ids = ["bestiary-6", "bestiary", "bestiary-2", "bestiary-3", "bestiary-4"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "native", path = "json/monster_subtypes.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+[[sources]]
+publication = "bestiary"
+[[sources]]
+publication = "bestiary-2"
+[[sources]]
+publication = "bestiary-3"
+[[sources]]
+publication = "bestiary-4"
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"
 +++
 
 ## Subtype: Native
-
-**Sources:** Bestiary 6, Pathfinder RPG Bestiary, Bestiary 2, Bestiary 3, Bestiary 4, Bestiary 5
 
 This subtype is applied only to [outsiders](ref/type/outsider). Creatures with this subtype are
 native to the Material Plane. These creatures have mortal ancestors or a strong connection to the

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nahyndrian_crystal", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-76-the-midnight-isles"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "overwhelming conjuration and necromancy [evil]"
 caster_level = "30th"
 +++
 
-**Sources:** Pathfinder \#76: The Midnight Isles pg 60\
 **Aura** overwhelming conjuration and necromancy \[evil\]; **CL** 30th\
 **Slot** none; **Price** -; **Weight** 3 lbs.
 

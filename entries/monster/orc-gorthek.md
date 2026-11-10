@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orc_gorthek", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "172"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ leonine face._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Monster Codex pg 172\
 **Experience points:** 3,200
 
 **Armor class:** 18/8/18

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodilians_deinosuchus", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ snapping jaws that grind menacingly between each bite._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#58: Island of Empty Eyes pg 84\
 **Experience points:** 4,800
 
 **Armor class:** 21/7/20

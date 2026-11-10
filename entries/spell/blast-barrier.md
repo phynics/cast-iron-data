@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blast_barrier", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "52"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (see below)
 Effect: 1-ft.-thick wall up to 10 ft. high by 20 ft. wide
 Descriptors: sonic
 :::
-
-**Sources:** Inner Sea Magic pg 52
 
 Originally used by the winter witches on the field of battle in the early days of Irrisen, blast
 barrier has entered the oral traditions of many northern barbarian tribes as legends of winter

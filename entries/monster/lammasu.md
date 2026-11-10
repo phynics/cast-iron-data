@@ -6,6 +6,12 @@ source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lammasu", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "175"
+[[sources]]
+publication = "bonus-bestiary"
+page = "13"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ man._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 175, Bonus Bestiary pg 13\
 **Experience points:** 4,800
 
 **Armor class:** 21/10/20

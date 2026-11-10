@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spellcasting-contract-lesser" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: creature touched; see text
 :::
 
 ### Spellcasting Contract
-
-**Sources:** Pathfinder \#29: Mother of Flies pg 68
 
 This spell functions like [lesser spellcasting contract](ref/spell/spellcasting-contract-lesser),
 except if the target has 9 HD or more, you can imbue him with one or two 2nd-level spells and one

@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_defense", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "67"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While fighting defensively or taking the total defense action, you ga
 +++
 
 ## Uncanny Defense (Combat)
-
-**Sources:** Advanced Race Guide pg 67
 
 Your instinct for self-preservation gives you many advantages.\
 **Prerequisites:** [Cautious Fighter](ref/feat/cautious-fighter), base attack bonus +3,

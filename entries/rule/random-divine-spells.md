@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "random_divine_spells", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "130"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 130
 
 ### Table 5-37: 0-Level Divine Spells
 

@@ -6,6 +6,9 @@ source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kanabo", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "distant-shores"
+page = "32"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Challenge rating:** +0 or +1
 
 **Inherited:** present
-
-**Source:** Distant Shores/32
 
 Within Kaoling, those [oni](ref/family/oni) that take the form of
 [hobgoblins](ref/monster/hobgoblin) - known as ja noi - are treated as honored champions. While ja

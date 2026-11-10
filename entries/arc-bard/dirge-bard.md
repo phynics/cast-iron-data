@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Jack-of-all-trades", "Well-versed", "Versatile performance", "Lore master"]
 +++
 
-**Sources:** Ultimate Magic pg 26\
 A composer of sonorous laments for the dead and elaborate requiems for those lost yet long
 remembered, dirge bards master musical tools and tropes that must appeal to the ears and hearts of
 both the living and the dead.

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grapple", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "199"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 199
 
 As a standard action, you can attempt to grapple a foe, hindering his combat options. If you do not
 have [Improved Grapple](ref/feat/improved-grapple), grab, or a similar ability, attempting to

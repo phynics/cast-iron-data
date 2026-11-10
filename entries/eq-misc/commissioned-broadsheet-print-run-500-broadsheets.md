@@ -6,6 +6,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commissioned_broadsheet_print_run_500_broadsheets", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "5"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "- (print run (500 broadsheets)), - (setup and proof print)"
 
 ## Commissioned broadsheet
 
-**Sources:** Merchant's Manifest pg 5\
 **Price** 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print); **Weight** - (print
 run (500 broadsheets)), - (setup and proof print)
 

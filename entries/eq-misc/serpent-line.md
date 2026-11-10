@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_line", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "28"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "12 gp"
 weight = "5 lbs."
 +++
 
-**Sources:** People of the Sands pg 28\
 **Price** 12 gp; **Weight** 5 lbs.\
 **Category** Alchemical Tools
 

@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gauntlets_of_the_weaponmaster", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "235"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong conjuration"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 235\
 **Aura** strong conjuration; **CL** 10th\
 **Slot** hands; **Price** 110,000 gp; **Weight** 5 lbs.
 

@@ -6,13 +6,14 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cytillesh_spores", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "11"
 
 [fields]
 kind = "item"
 category = "Alchemical Reagents"
 +++
-
-**Sources:** Alchemy Manual pg 11
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

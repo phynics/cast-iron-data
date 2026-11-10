@@ -6,12 +6,14 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "traps_and_technology", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "56"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Technology Guide pg 56\
 Mundane and magical traps can incorporate technological elements in their construction. Computers
 and AIs can also be connected to traps, allowing them to selectively trigger the traps remotely.
 Traps that incorporate technology gain the technological type, in addition to their normal type (see

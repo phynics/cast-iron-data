@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recharging_charged_items", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "171"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 171
 
 The Core Rulebook doesn't allow item creation feats to recharge charged items such as wands. This is
 because wands are the most cost-effective form of expendable spellcasting in the game (the minimum

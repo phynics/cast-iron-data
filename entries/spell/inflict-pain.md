@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inflict_pain", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "174"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: mind-affecting, pain
 :::
-
-**Sources:** Occult Adventures pg 174
 
 You telepathically wrack the target's mind and body with agonizing pain that imposes a -4 penalty on
 attack rolls, skill checks, and ability checks. A successful Will save reduces the duration to 1

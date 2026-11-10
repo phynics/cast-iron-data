@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_cartridges", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While your gun is imbued with power from the Arcane Strike feat, you 
 +++
 
 ## Spell Cartridges (Combat)
-
-**Sources:** Heroes of Golarion pg 4
 
 You can fire bullets of arcane energy when your ammunition runs low.\
 **Prerequisites:** [Arcane Strike](ref/feat/arcane-strike), ability to cast arcane spells,

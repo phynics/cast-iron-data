@@ -6,12 +6,13 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hero_points", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "322"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Advanced Player's Guide pg 322
 
 There are moments in any struggle that influence the outcome. Does the brave warrior lay low the
 villain before he can finish casting a devastating spell? Does the sly rogue avoid detection as she

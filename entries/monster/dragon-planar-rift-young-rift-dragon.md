@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_rift_young_rift_dragon", path = "json/monsters30.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "106"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This dark-scaled dragon has massive claws, and foul-smelling acid drips from it
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 6 pg 106\
 **Subtype:** Chaotic, Evil, Extraplanar
 
 **Experience points:** 19,200

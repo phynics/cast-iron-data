@@ -6,6 +6,9 @@ source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necklace_of_construct_aversion", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "19"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination and enchantment"
 caster_level = "11th"
 +++
 
-**Sources:** Construct Handbook pg 19\
 **Aura** moderate divination and enchantment; **CL** 11th\
 **Slot** neck; **Price** 132,000 gp; **Weight** 1 lb.
 

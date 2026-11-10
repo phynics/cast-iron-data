@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natron_fang", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#80: Empty Graves pg 63\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** weapon; **Price** 7,280 gp; **Weight** 8 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nihiloi", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-29-mother-of-flies"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ strange, wriggling wings._
 
 **Senses:** Darkvision 90 ft., See in darkness
 
-**Sources:** Pathfinder \#29: Mother of Flies pg 86\
 **Subtype:** Extraplanar
 
 **Experience points:** 12,800

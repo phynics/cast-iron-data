@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astomoi", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "37"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ _This humanoid appears to be made of darkness, and has no discernible ears, eyes
 
 **Senses:** Darkvision 60 ft., Scent, Telepathic senses
 
-**Sources:** Bestiary 5 pg 37\
 **Subtype:** Astomoi
 
 **Experience points:** 200

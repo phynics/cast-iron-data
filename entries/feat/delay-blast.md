@@ -6,14 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_blast", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "129"
 
 [fields]
 kind = "feat"
 prerequisites = "Base attack bonus +3, kinetic blast class feature."
 benefit = "When you use a kinetic blast, you can specify a number of rounds between 1 and 5. When that number of rounds has passed, the kinetic blast takes effect at the beginning of your turn. In the interim, you can take a standard action that provokes attacks of opportunity to cause the blast to take effect earlier than you initially selected. If you delay another blast while you already have a delayed blast pending, the previous delayed blast dissipates harmlessly."
 +++
-
-**Sources:** Occult Adventures pg 129
 
 You can delay your kinetic blasts.\
 **Prerequisites:** Base attack bonus +3, kinetic blast class feature.\

@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atropos", path = "json/faiths2.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "6"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Atropos**
 
 **Sub:** The Last Sister
-
-**Sources:** Concordance of Rivals pg 6
 
 ### Details
 

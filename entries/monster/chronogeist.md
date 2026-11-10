@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chronogeist", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ a twisted mask of confusion and terror and its vestments surround it like a ghos
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 82\
 **Subtype:** Incorporeal
 
 **Type:** undead

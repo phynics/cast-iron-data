@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothe_construct", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "239"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: one construct
 :::
-
-**Sources:** Ultimate Magic pg 239
 
 You soothe the elemental spirit of a targeted construct, reducing its chance of going berserk by
 1d4% per four caster levels (maximum 5d4%). If cast on a construct that has already gone berserk and

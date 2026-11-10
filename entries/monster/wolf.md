@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "278"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ white teeth._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 278\
 **Experience points:** 400
 
 **Armor class:** 14/12/12

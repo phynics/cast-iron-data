@@ -6,14 +6,15 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_double_waraxe", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "17"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "12 lbs."
 +++
-
-**Sources:** Advanced Race Guide pg 17
 
 This hefty waraxe is similar to the common [dwarven waraxe](ref/eq-weapon/dwarven-waraxe), but its
 recurved blade spans forward and back from its head like a deadly butterfly. A dwarven double waraxe

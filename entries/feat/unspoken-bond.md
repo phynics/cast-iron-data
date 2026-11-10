@@ -6,6 +6,9 @@ source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspoken_bond", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can communicate with another ally who has this feat without speak
 +++
 
 ## Unspoken Bond (Teamwork)
-
-**Sources:** Druma, Profit and Prophecy pg 19
 
 You've gained the ability to read your most trusted companions' nonverbal acts.\
 **Prerequisites:** Bluff 4 ranks, Sense Motive 4 ranks.\

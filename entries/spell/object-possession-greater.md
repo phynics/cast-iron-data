@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/object-possession" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "179"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 :::
 
 ### Greater Object Possession
-
-**Sources:** Occult Adventures pg 179
 
 This spell functions as [object possession](ref/spell/object-possession), except as noted above. The
 possessed animated object has a number of Construction Points appropriate for its size (up to 5 CP

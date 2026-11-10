@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_commixture", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "28"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ special = "An inquisitor or any other character with the solo tactics class feat
 +++
 
 ## Elemental Commixture (Teamwork)
-
-**Sources:** Blood of the Elements pg 28
 
 You can combine your elemental spells with those of your allies to produce entirely new and
 synergistic magical effects.\

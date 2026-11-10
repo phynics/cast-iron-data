@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barding", path = "json/equipment_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "81"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "&times;4 (Large creature), &times;2 (Medium creature)"
 weight = "&times;2 (Large creature), &times;1 (Medium creature)"
 +++
 
-**Sources:** Ultimate Equipment pg 81, PRPG Core Rulebook pg 159\
 **Price** ×4 (Large creature), ×2 (Medium creature); **Weight** ×2 (Large creature), ×1 (Medium
 creature)
 

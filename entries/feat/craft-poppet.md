@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_poppet", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "31"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can craft poppets and add augmentations to existing poppets that 
 +++
 
 ## Craft Poppet (Item Creation)
-
-**Sources:** Adventurer's Armory 2 pg 31
 
 Some construct builders learn their art by creating poppets.\
 **Prerequisites:** Caster level 1st.\

@@ -6,13 +6,15 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos", path = "json/class_ability_blessings.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "64"
 
 [fields]
 kind = "class_option"
 group = "warpriest-blessing"
 +++
 
-**Sources:** Advanced Class Guide pg 64\
 **Deities:** [Calistria](ref/faith/calistria), [Cayden Cailean](ref/faith/cayden-cailean),
 [Desna](ref/faith/desna), [Gorum](ref/faith/gorum), [Lamashtu](ref/faith/lamashtu),
 [Rovagug](ref/faith/rovagug)

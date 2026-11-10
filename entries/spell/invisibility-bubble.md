@@ -6,6 +6,9 @@ source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_bubble", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "aquatic-adventures"
+page = "60"
 
 [fields]
 kind = "spell"
@@ -56,8 +59,6 @@ Area: touched creature's space, up to one 5-foot-cube
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Aquatic Adventures pg 60
 
 A glamered bubble surrounds the target's space, rendering her completely invisible underwater by
 hiding both the target and any water she displaces. Because of the bubble's size limit, this spell

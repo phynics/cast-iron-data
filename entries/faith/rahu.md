@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rahu", path = "json/faiths7.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "110"
 
 [fields]
 kind = "none"
@@ -14,8 +17,6 @@ kind = "none"
 **Rahu**
 
 **Sub:** The Sun Eater
-
-**Sources:** Book of the Damned pg 110
 
 ### Details
 

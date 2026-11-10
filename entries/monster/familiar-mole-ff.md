@@ -6,6 +6,9 @@ source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "familiar_mole_ff", path = "json/monsters10.json" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "25"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ thick paws that end in digging claws._
 
 **Senses:** Low-light vision
 
-**Sources:** Familiar Folio pg 25\
 **Size:** tiny
 
 **Experience points:** 65

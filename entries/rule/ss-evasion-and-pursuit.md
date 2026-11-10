@@ -6,12 +6,14 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ss_evasion_and_pursuit", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "11"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Skull and Shackles Player's Guide pg 11\
 On the wide, open sea, one ship can spot another from miles away, making it virtually impossible to
 surprise another ship. If both ships want to engage in combat, the ships close with one another and
 begin ship-to-ship combat normally. If one ship wants to avoid combat, however, a chase ensues. At

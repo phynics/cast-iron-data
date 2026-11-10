@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "undead-slayers-handbook"
+page = "18"
 
 [fields]
 kind = "archetype"
 alters = ["Domains", "channel energy", "armor proficiency"]
 +++
 
-**Sources:** Undead Slayer's Handbook pg 18\
 The roaming exorcist travels far and wide to root out possessions, hauntings, and hidden evils. The
 roaming exorcist extracts unruly spirits from not only victims of possession, but also haunted sites
 and accursed items.

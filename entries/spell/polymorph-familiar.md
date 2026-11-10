@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/beast-shape-1" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "190"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Target: your familiar
 Subschool: Polymorph
 :::
-
-**Sources:** Advanced Class Guide pg 190
 
 This spell functions as [beast shape I](ref/spell/beast-shape-1), except it grants your familiar the
 form of any Small animal. Your familiar retains all of its special abilities and continues to grant

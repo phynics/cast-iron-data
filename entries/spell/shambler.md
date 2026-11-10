@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shambler", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "341"
 
 [fields]
 kind = "spell"
@@ -39,8 +42,6 @@ Spell resistance: no
 Effect: three or more shambling mounds, no two of which can be more than 30 ft. apart; see text
 Subschool: Creation
 :::
-
-**Sources:** PRPG Core Rulebook pg 341
 
 The shambler spell creates 1d4+2 shambling mounds with the advanced template. The creatures
 willingly aid you in combat or battle, perform a specific mission, or serve as bodyguards. The

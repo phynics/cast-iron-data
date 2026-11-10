@@ -6,6 +6,9 @@ source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ohancanu", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-116-fangs-of-war"
+page = "88"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ of shaggy hair, and the lower half of his face is obscured by a bristly, dark be
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#116: Fangs of War pg 88\
 **Experience points:** 1,600
 
 **Armor class:** 17/11/15

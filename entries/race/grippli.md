@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "blood-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grippli", path = "json/races3.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "244"
+[[sources]]
+publication = "advanced-race-guide"
+page = "190"
+[[sources]]
+publication = "bestiary-2"
+page = "149"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 244, Advanced Race Guide pg 190, Bestiary 2 pg 149\
 Gripplis stand just over 2 feet tall and have mottled green-and-brown skin. Most gripplis are
 primitive hunter gatherers, living on large insects and fish found near their treetop homes, and are
 unconcerned about events outside their swamps. The rare grippli who leaves the safety of the swamp

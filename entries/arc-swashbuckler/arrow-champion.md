@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/swashbuckler" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "95"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Opportune parry and riposte", "Swashbuckler initiative", "Superior 
 alters = ["Panache", "Precise strike", "Swashbuckler weapon mastery"]
 +++
 
-**Sources:** Ultimate Wilderness pg 95\
 While the swashbuckler's agile style of combat is equally suited to urban settings and wilderness,
 the bow and arrow is an indispensable asset in open areas and harsh terrain where fancy footwork
 isn't enough to close the distance or dodge the enemy's arrows.

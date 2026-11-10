@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_burn", path = "json/misc.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 234
 
 **Alchemical Burn:** Some alchemical items allow you to accept alchemical burn. To accept alchemical
 burn, you voluntarily take 1 point of nonlethal damage per character level when imbibing the item to

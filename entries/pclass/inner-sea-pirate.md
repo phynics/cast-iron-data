@@ -6,14 +6,15 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_sea_pirate", path = "json/prestige_classes2.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "24"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pirates of the Inner Sea pg 24
 
 Pirates of the Inner Sea region sail many different bodies of water in search of plunder, from the
 most common Shackles pirates to the privateers of Andoran and the fast-moving brigands of the River

@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinded_master", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While you are using Blinded Blade Style and you are blinded or unable
 +++
 
 ## Blinded Master (Combat)
-
-**Sources:** Blood of Shadows pg 24
 
 Your skill at arms while unable to see is astounding.\
 **Prerequisites:** [Blind-Fight](ref/feat/blind-fight),

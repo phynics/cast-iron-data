@@ -6,14 +6,15 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_obedience", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
+page = "62"
 
 [fields]
 kind = "feat"
 prerequisites = "Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order."
 benefit = "Upon taking this feat, you gain proficiency in all of your Hellknight order's favored weapons. Additionally, by meditating and inflicting strenuous reckonings upon yourself, you unlock the power behind your order's doctrine. Each Hellknight order has its own unique reckoning - a trial of obedience and pain. When coupled with the necessary reflection and meditation, this reckoning takes 1 hour per day to perform. Once you have performed your order's reckoning, you gain the benefit of a special ability as indicated in the Reckoning entry for the Hellknight order to which you've sworn allegiance. If you have at least 12 Hit Dice, you also gain the first boon granted by the Hellknight order. If you have at least 16 Hit Dice, you also gain the Hellknight order's second boon. If you have 20 Hit Dice or more, you also gain the Hellknight order's third boon. Unless a specific duration or number of uses per day is listed in a boon's description, the boon's effects are constant."
 +++
-
-**Sources:** Path of the Hellknight pg 62
 
 Performing daily [Hellknight](ref/rule/aff-lawknights) reckonings grants you special boons.\
 **Prerequisites:** Knowledge (planes) 3 ranks, must swear allegiance to a single Hellknight order.\

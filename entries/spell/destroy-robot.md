@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroy_robot", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "8"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Saving throw: Fortitude partial
 Spell resistance: yes
 Target: one robot (see below)
 :::
-
-**Sources:** Technology Guide pg 8
 
 You attempt to destroy any one robot in range. When you cast this spell, your hand crackles with
 electricity. You must succeed at a ranged touch attack to affect the target. The target takes 12d6

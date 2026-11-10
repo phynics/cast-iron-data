@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_sight", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Legacy of the First World pg 25
 
 You view several possible futures at once, allowing you to thread a needle around disasters by
 taking a middle path. For the duration of this spell, whenever you roll for an attack, saving throw,

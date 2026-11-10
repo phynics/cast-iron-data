@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infestations", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "245"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 245
 
 Parasites such as ear seekers or rot grubs cause infestations, a type of affliction similar to
 diseases. Infestations can only be cured through specific means; no matter how many saving throws

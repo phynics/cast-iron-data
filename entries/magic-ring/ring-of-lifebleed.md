@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_lifebleed", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "349"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "ring"
 aura = "moderate necromancy"
 caster_level = "10th"
 +++
-
-**Sources:** Ultimate Equipment pg 349
 
 **Aura** moderate necromancy; **CL** 10th\
 **Slot** ring; **Weight** -

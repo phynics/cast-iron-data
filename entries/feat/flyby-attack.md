@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flyby_attack", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "315"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "Without this feat, the creature takes a standard action either before 
 +++
 
 ## Flyby Attack (Monster)
-
-**Sources:** Pathfinder RPG Bestiary pg 315
 
 This creature can make an attack before and after it moves while flying.\
 **Prerequisites:** Fly speed.\

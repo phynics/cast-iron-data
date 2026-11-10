@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_forest_ancient_forest_dragon", path = "json/monsters31.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "95"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ abilities = ["37", "8", "26", "20", "21", "20"]
 
 **Senses:** Dragon senses
 
-**Sources:** Bestiary 3 pg 95\
 **Subtype:** Earth
 
 **tremorsense:** 60

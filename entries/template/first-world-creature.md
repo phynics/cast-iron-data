@@ -6,6 +6,9 @@ source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "57"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Inherited:** present
 
 **Simple:** present
-
-**Source:** The First World, Realm of the Fey/57
 
 **Summonable:** present
 

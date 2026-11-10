@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wand_protector", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "31"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Sources:** People of the Wastes pg 31\
 **Aura** faint abjuration; **CL** 5th\
 **Slot** none; **Price** 18,500 gp; **Weight** -
 

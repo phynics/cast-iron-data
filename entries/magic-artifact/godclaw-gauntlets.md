@@ -6,6 +6,9 @@ source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "godclaw_gauntlets", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-107-scourge-of-the-godclaw"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration, evocation, and transmutation"
 caster_level = "17th"
 +++
 
-**Sources:** Pathfinder \#107: Scourge of the Godclaw pg 16\
 **Aura** strong abjuration, evocation, and transmutation; **CL** 17th\
 **Slot** hands; **Price** -; **Weight** 1 lb. each
 

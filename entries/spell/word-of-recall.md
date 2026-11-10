@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_recall", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "371"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no or yes (harmless, object)
 Target: you and touched objects or other willing creatures
 Subschool: Teleportation
 :::
-
-**Sources:** PRPG Core Rulebook pg 371
 
 Word of recall teleports you instantly back to your sanctuary when the word is uttered. You must
 designate the sanctuary when you prepare the spell, and it must be a very familiar place. The actual

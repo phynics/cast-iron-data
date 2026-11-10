@@ -6,6 +6,9 @@ source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_radioactivity", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes (object)
 Target: creature or object touched
 Subschool: Healing
 :::
-
-**Sources:** Technology Guide pg 11
 
 You remove all ongoing radiation effects, both primary and secondary, on a single target if you
 succeed at a caster level check (DC = the Fortitude DC associated with the radiation effect). In

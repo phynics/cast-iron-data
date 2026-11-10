@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloves_of_marking", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "230"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy and transmutation"
 caster_level = "4th"
 +++
 
-**Sources:** Advanced Class Guide pg 230\
 **Aura** faint necromancy and transmutation; **CL** 4th\
 **Slot** hands; **Price** 7,200 gp; **Weight** 1 lb.
 

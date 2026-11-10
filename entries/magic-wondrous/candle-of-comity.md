@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "candle_of_comity", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "244"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Sources:** Ultimate Intrigue pg 244\
 **Aura** faint enchantment; **CL** 3rd\
 **Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
 

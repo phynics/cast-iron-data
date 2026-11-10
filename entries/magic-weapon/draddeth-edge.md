@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draddeth_edge", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Lost Treasures pg 25\
 **Aura** moderate conjuration and transmutation; **CL** 10th\
 **Slot** none; **Price** 58,312 gp; **Weight** 5 lbs.
 

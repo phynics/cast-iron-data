@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "79"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploits gained at 1st and 9th levels"]
 +++
 
-**Sources:** Advanced Class Guide pg 79\
 A white mage is an arcanist touched by a divine power and gifted with the ability to heal others.
 
 **Spontaneous Healing (Su)**

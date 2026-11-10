@@ -6,13 +6,17 @@ source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whipwood", path = "json/equipment_special_materials.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "52"
+[[sources]]
+publication = "advanced-race-guide"
+page = "207"
 
 [fields]
 kind = "item"
 category = "Special Materials"
 +++
-
-**Sources:** Ultimate Equipment pg 52, Advanced Race Guide pg 207
 
 Vanara woodworkers craft this extremely flexible material in a time-consuming process. Whipwood is
 actually a composite of several bendable wooden fibers woven and fused together to form a flexible

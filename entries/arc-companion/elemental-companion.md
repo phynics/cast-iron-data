@@ -6,13 +6,15 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_companion", path = "json/archetypes_COMPANION.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Improved Evasion", "Multiattack"]
 +++
 
-**Sources:** Plane-Hopper's Handbook pg 26\
 The heart of this companion beats with primal energy.
 
 **Elemental Type (Ex)**

@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baykok", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "35"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This howling corpse swoops through the air with hideously elongated legs and a 
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 3 pg 35\
 **Type:** undead
 
 **Experience points:** 6,400

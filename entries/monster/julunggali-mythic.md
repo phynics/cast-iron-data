@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "julunggali_mythic", path = "json/monsters_mythic2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "164"
 
 [fields]
 kind = "creature"
@@ -50,7 +53,6 @@ crown its head._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent, See in darkness
 
-**Sources:** Bestiary 4 pg 164\
 **Subtype:** Aquatic, Extraplanar, Mythic, Shapechanger
 
 **Experience points:** 409,600

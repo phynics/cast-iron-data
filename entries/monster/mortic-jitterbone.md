@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortic_jitterbone", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "87"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ from its hands and arms._
 
 **Size:** small
 
-**Sources:** Pathfinder \#139: The Dead Road pg 87\
 **Subtype:** Halfling, Mortic
 
 **Experience points:** 1,200

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swim", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "57"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 57
 
 A successful Athletics check while you're in the water allows you to swim at either half your speed
 as a full-round action or one-quarter your speed as a move action. If you fail by 4 or less, you

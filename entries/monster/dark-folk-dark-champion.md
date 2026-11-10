@@ -6,6 +6,9 @@ source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_folk_dark_champion", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "cradle-of-night"
+page = "62"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ pale skin and shallow, fleshy hollows where its eyes should be._
 
 **Perception:** +8
 
-**Sources:** Cradle of Night pg 62\
 **Subtype:** Dark folk
 
 **Experience points:** 1,600

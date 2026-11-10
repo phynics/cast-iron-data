@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cherry_blossom_spell", path = "json/feat03.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "When a living creature takes damage from the affected spell, that cre
 +++
 
 ## Cherry Blossom Spell (Metamagic)
-
-**Sources:** Wilderness Origins pg 10
 
 You can infuse your spells with the ability to cripple your targets with old age or regress them to
 the folly of youth.\

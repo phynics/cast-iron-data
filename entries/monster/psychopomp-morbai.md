@@ -6,6 +6,9 @@ source_ids = ["concordance-of-rivals"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_morbai", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ opposite sides of her head._
 
 **Size:** small
 
-**Sources:** Concordance of Rivals pg 59\
 **Subtype:** Extraplanar, Psychopomp
 
 **Experience points:** 2,400

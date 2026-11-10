@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amulet_of_the_blooded_destined", path = "json/magic_wondrous_neck.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "222"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "varies"
 
 ## Amulet of the Blooded
 
-**Sources:** Advanced Class Guide pg 222\
 **Aura** varies; **CL** varies\
 **Slot** neck; **Price** 10,000 gp (Destined), 10,000 gp (Fey), 12,000 gp (Abyssal), 12,000 gp
 (Accursed), 12,000 gp (Celestial), 12,000 gp (Draconic), 12,000 gp (Elemental), 12,000 gp

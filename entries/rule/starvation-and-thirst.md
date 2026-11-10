@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starvation_and_thirst", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "444"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 444
 
 Characters might find themselves without food or water and with no means to obtain them. In normal
 climates, Medium characters need at least a gallon of fluids and about a pound of decent food per

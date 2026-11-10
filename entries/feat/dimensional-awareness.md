@@ -10,6 +10,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/arcane-strike", label = "or" },
   { kind = "prerequisite", target = "ref/feat/disruptive", label = "or" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -21,8 +24,6 @@ normal = "A summoned or called creature appears instantly when the spell used to
 +++
 
 ## Dimensional Awareness (Combat)
-
-**Sources:** Monster Summoner's Handbook pg 8
 
 Your exposure to summoned creatures allows you to predict where conjured opponents will likely
 appear.\

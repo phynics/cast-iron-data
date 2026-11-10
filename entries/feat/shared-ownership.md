@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_ownership", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "209"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you're within 30 feet of a halfling ally who also has this f
 +++
 
 ## Shared Ownership (Teamwork)
-
-**Sources:** Inner Sea Races pg 209
 
 The concept of ownership is rather flexible among you and your friends.\
 **Prerequisites:** [Well-Prepared](ref/feat/well-prepared), Sleight of Hand 1 rank,

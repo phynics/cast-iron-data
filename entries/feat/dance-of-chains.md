@@ -6,6 +6,9 @@ source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_chains", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "178"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When wielding a spiked chain one-handed, you can add your Dexterity m
 +++
 
 ## Dance of Chains (Combat)
-
-**Sources:** Book of the Damned pg 178
 
 In your hands, a spiked chain dances like a living thing.\
 **Prerequisites:** Dex 15, [Chain Mastery](ref/feat/chain-mastery),

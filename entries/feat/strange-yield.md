@@ -6,14 +6,15 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strange_yield", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "8"
 
 [fields]
 kind = "feat"
 prerequisites = "Craft (alchemy) 5 ranks, gathlain, racial fly speed."
 benefit = "Your vines produce fruit with helpful properties. Once per day as a full-round action, you can withdraw a small fruit from your symbiotic vines. Roll d% on the table below; the fruit functions as the result of that roll. After 24 hours, the fruit loses its magic."
 +++
-
-**Sources:** Legacy of the First World pg 8
 
 Your vines produce fruit with helpful properties.\
 **Prerequisites:** Craft (alchemy) 5 ranks, [gathlain](ref/race/gathlain), racial fly speed.\

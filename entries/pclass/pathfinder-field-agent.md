@@ -6,14 +6,15 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_field_agent", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "18"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Pathfinder Society Primer pg 18
 
 Equipped with a variety of skills and trained to keep a cool head even in the most dire
 circumstances, a practiced Pathfinder field agent is a boon to any adventuring party.

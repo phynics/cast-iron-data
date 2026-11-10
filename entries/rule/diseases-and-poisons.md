@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diseases_and_poisons", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "138"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 138
 
 The basic Pathfinder rules for diseases and poisons don't necessarily mimic the progression of these
 afflictions in a believable way; a character with a few

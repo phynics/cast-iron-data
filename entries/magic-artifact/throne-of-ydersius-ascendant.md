@@ -6,6 +6,9 @@ source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throne_of_ydersius_ascendant", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "pathfinder-41-the-thousand-fangs-below"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "stong abjuration"
 caster_level = "18th"
 +++
 
-**Sources:** Pathfinder \#41: The Thousand Fangs Below pg 64\
 **Aura** stong abjuration; **CL** 18th\
 **Slot** none; **Price** -; **Weight** 2,000 lbs.
 

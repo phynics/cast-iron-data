@@ -6,6 +6,12 @@ source_ids = ["ultimate-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_the_faithful", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "212"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -44,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Area: cone-shaped emanation
 :::
-
-**Sources:** Ultimate Intrigue pg 212, Taldor, Echoes of Glory pg 25
 
 You can detect other worshipers of your deity (mortal worshipers, outsider servants, and so on). The
 amount of information revealed depends on how long you focus on a particular area or subject.

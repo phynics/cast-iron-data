@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intangible_benefits", path = "json/rules_gm03.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 112
 
 Other rewards provide benefits with no cash trade-in value. Kings or other rulers might confer noble
 titles, granting the characters status and specific legal rights forbidden to commoners. These may

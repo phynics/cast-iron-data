@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "word_of_resolve", path = "json/spells16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one ally
 :::
-
-**Sources:** Ultimate Magic pg 249
 
 You focus your aura on one ally, allowing it to reroll a failed saving throw against a charm or fear
 effect with a +4 sacred bonus. If you do not have the aura of courage class ability, this spell has

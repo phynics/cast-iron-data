@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/message" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "210"
 
 [fields]
 kind = "spell"
@@ -55,8 +58,6 @@ Descriptors: language-dependant
 :::
 
 ### Demanding Message
-
-**Sources:** Ultimate Intrigue pg 210
 
 This spell initially functions as [message (allowing no](ref/spell/message) save or
 [spell resistance](ref/rule/spell-resistance)). Once during the message effect, you can concentrate

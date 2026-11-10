@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/brawler" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "4"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brawler's cunning", "AC bonus", "Knockout"]
 alters = ["The brawler's armor proficiencies", "Brawler's flurry"]
 +++
 
-**Sources:** Martial Arts Handbook pg 4\
 Originating among the Mwangi tribes of Sargava, battle dancers practice a martial art that
 emphasizes constant motion, hiding their training from colonial oppressors by presenting it as an
 acrobatic dance. Sargava's alliance with the Shackles has led to a proliferation of the art there,

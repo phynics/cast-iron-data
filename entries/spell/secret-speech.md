@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-17-a-memory-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_speech", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "240"
+[[sources]]
+publication = "pathfinder-17-a-memory-of-darkness"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: no (harmless)
 Target: creature touched
 :::
-
-**Sources:** Inner Sea Gods pg 240, Pathfinder \#17: A Memory of Darkness pg 62
 
 This spell grants the target the ability to send secret messages embedded within normal speech. This
 is similar to the secret messages ability of the Bluff skill, but no check is needed; the speaker's

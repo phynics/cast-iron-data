@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casting_conduit", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When casting a spell with a range of touch that deals hit point damag
 +++
 
 ## Casting Conduit (Teamwork)
-
-**Sources:** Antihero's Handbook pg 10
 
 You can use an ally as a conduit to convey spells to an enemy she can touch.\
 **Prerequisites:** Spellcraft 1 rank.\

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shaman" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "24"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Spirit", "spirit animal", "hexes gained at 4th and 10th levels"]
 alters = ["Spirit magic"]
 +++
 
-**Sources:** Legacy of Dragons pg 24\
 In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods
 and imperial dragons who act as mentors. Some of these shamans draw their powers from the might of
 dragons, rather than from spirits. These shamans each gain a powerful drake as an ally, and view

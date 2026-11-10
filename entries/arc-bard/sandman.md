@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "82"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Suggestion", "Inspire greatness", "Inspire heroics", "Mass suggestion", "Deadly performance", "Bardic knowledge", "Versatile performance", "Inspire competence", "Lore master"]
 +++
 
-**Sources:** Advanced Player's Guide pg 82\
 Combining performance with stealth, trickery, and guile, the sandman uses cleverness to keep others
 off-balance.
 

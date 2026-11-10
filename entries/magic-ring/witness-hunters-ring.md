@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witness_hunters_ring", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Sources:** Inner Sea Intrigue pg 56\
 **Aura** moderate divination; **CL** 7th\
 **Slot** ring; **Price** 25,200 gp; **Weight** -
 

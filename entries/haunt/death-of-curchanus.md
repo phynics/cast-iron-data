@@ -6,12 +6,14 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_of_curchanus", path = "json/haunts.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "62"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Realms pg 62\
 Long ago, the god Curchanus was the patron of beasts and travel. The demon lord Lamashtu envied
 Curchanus's power and seized an opportunity to lead Curchanus into a trap. With the god in her
 clutches, Lamashtu wrenched away his dominion over beasts and claimed it for herself by murdering

@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_latch_needle", path = "json/equipment_misc3.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "21"
 
 [fields]
 kind = "item"
@@ -14,7 +17,6 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Sources:** Black Markets pg 21\
 **Price** 200 gp; **Weight** -\
 **Category** Adventuring Gear
 

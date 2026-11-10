@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reliable", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "146"
+[[sources]]
+publication = "ultimate-combat"
+page = "142"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Sources:** Ultimate Equipment pg 146, Ultimate Combat pg 142\
 **Aura** moderate transmutation; **CL** 8th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_bodysnatcher", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ crossbow and blood-stained manacles enhance his aura of quiet menace._
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 26\
 **Subtype:** Derro
 
 **Experience points:** 9,600

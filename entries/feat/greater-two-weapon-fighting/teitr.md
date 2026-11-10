@@ -6,6 +6,8 @@ source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/greater-two-weapon-fighting" },
 ]
+[[sources]]
+publication = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
 
 [fields]
 kind = "feat"
@@ -16,7 +18,6 @@ benefit = "In addition to the standard single extra attack you get with an off-h
 normal = "Without this feat, you can only get a single extra attack with an off-hand weapon."
 +++
 
-**Sources:** The Elephant in the Room: Feat Taxes in Pathfinder\
 You are skilled at fighting with two weapons.\
 **Prerequisites:** Dex 15, Two-Weapon Fighting, base attack bonus +6.\
 **Benefit:** In addition to the standard single extra attack you get with an off-hand weapon, you

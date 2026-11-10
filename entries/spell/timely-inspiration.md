@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "timely_inspiration", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "249"
 
 [fields]
 kind = "spell"
@@ -37,8 +40,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Advanced Player's Guide pg 249
 
 A word of arcane-empowered inspiration can snatch victory from seeming defeat. Cast this spell when
 a creature fails an attack roll or skill check. The target gains a +1 competence bonus per five

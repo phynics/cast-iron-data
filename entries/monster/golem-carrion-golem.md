@@ -6,6 +6,12 @@ source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_carrion_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "136"
+[[sources]]
+publication = "pathfinder-7-edge-of-anarchy"
+page = "78"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ of death and decay._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 136, Pathfinder \#7: Edge of Anarchy pg 78\
 **Experience points:** 1,200
 
 **Armor class:** 17/11/16

@@ -6,6 +6,9 @@ source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhino_charge", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "sargava-the-lost-colony"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Charging is a full-round action and allows you to move twice your spee
 +++
 
 ## Rhino Charge (Combat)
-
-**Sources:** Sargava, the Lost Colony pg 24
 
 Your charges are both violent and unpredictable.\
 **Prerequisites:** [Power Attack](ref/feat/power-attack),

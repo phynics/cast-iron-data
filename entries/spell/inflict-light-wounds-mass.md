@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/inflict-light-wounds" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "300"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Spell resistance: yes
 :::
 
 ### Mass Inflict Light Wounds
-
-**Sources:** PRPG Core Rulebook pg 300
 
 Negative energy spreads out in all directions from the point of origin, dealing 1d8 points of
 damage + 1 point per caster level (maximum +25) to nearby living enemies.

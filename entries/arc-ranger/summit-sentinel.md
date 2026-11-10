@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/ranger" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "72"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Combat style feats", "Swift tracker", "Hide in plain sight"]
 alters = ["Favored terrain", "Spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 72\
 Some rangers eschew the path of the swift skirmisher and embrace the implacable strength of the
 mountain.
 

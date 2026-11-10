@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weasel_dire_weasel", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "275"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with its glistening fangs._
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Bestiary 4 pg 275\
 **Experience points:** 800
 
 **Armor class:** 17/12/14

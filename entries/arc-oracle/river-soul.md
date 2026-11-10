@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/oracle" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "68"
 
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "The bonus spells gained at 2nd, 6th, 8th, 10th, and 18th levels from the oracle's mystery", "Oracle's curse", "Revelations gained at 1st and 11th levels", "Final revelation"]
 +++
 
-**Sources:** Ultimate Wilderness pg 68\
 River soul oracles derive their powers from their bonds with rivers, whether these waterways are
 rapid cascades or lazy channels plied by boats. The powerful bond formed with a river is also the
 river soul oracle's curse, as he must always carry water from the river with him, and his fate is

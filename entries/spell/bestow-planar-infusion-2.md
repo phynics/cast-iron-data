@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/bestow-planar-infusion-1" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "39"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Target: creature touched
 :::
 
 ### Bestow Planar Infusion II
-
-**Sources:** Planar Adventures pg 39
 
 This functions as [bestow planar infusion I](ref/spell/bestow-planar-infusion-1), except that the
 touched creature gains the improved infusion of the current plane.

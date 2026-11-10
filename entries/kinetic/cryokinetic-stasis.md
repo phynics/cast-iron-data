@@ -6,6 +6,9 @@ source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cryokinetic_stasis", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "psychic-anthology"
+page = "22"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 8
 
 **Burn:** 1
-
-**Source:** Psychic Anthology/22
 
 You encase yourself or a willing target in an icy sheen, placing the target in a state of suspended
 animation, as per [temporal stasis](ref/spell/temporal-stasis) except fire spells and

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yolubilis_heron", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "83"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ with a slim but wicked beak._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 83\
 **Experience points:** 2,400
 
 **Armor class:** 18/10/16

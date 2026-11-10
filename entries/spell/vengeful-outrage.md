@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vengeful_outrage", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "246"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, language-dependant, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 246
 
 You place a magical command upon a creature to seek out and destroy a single enemy that has
 inflicted some perceived or actual harm to the target. You designate the enemy at the time of

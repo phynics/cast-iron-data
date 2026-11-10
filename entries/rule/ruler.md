@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruler", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "201"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 201
 
 The Ruler is the highest-ranking person in the kingdom, above even the other kingdom leaders, and is
 expected to embody the values of the kingdom. The Ruler performs the kingdom's most important

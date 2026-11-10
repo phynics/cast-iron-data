@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focusing_blow", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "An ally who also has this feat can deal damage to you in order to bre
 +++
 
 ## Focusing Blow (Teamwork)
-
-**Sources:** Advanced Race Guide pg 124
 
 You and your allies work together to shake off mental effects.\
 **Prerequisites:** [Hobgoblin Discipline](ref/feat/hobgoblin-discipline),

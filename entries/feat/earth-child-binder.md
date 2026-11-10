@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_binder", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "98"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "You can only trip opponents who are one size category larger than you.
 +++
 
 ## Earth Child Binder (Combat)
-
-**Sources:** Ultimate Combat pg 98
 
 Even the greatest giants fear your technique.\
 **Prerequisites:** Wis 13, [dwarf](ref/race/dwarf) or [gnome](ref/race/gnome), defensive training

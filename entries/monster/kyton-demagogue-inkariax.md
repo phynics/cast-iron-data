@@ -6,6 +6,9 @@ source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_demagogue_inkariax", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "pathfinder-137-the-city-outside-of-time"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ cloak around his waist and legs._
 
 **Senses:** Darkvision 60 ft., Discern lies, Low-light vision, See in darkness, True seeing
 
-**Sources:** Pathfinder \#137: The City Outside of Time pg 86\
 **Subtype:** Evil, Extraplanar, Kyton, Lawful
 
 **Experience points:** 2,457,600

@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mascot", path = "json/archetypes_FAMILIAR.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "211"
+[[sources]]
+publication = "familiar-folio"
+page = "11"
 
 [fields]
 kind = "archetype"
@@ -13,7 +19,6 @@ replaces = ["Alertness", "Improved evasion", "Speak with master", "speak with an
 alters = ["Empathic link", "Share spells", "Deliver touch spells"]
 +++
 
-**Sources:** Ultimate Wilderness pg 211, Familiar Folio pg 11\
 A familiar sometimes serves as the centerpiece of an adventuring party. Known as a mascot, this type
 of familiar eventually treats the entire party as its master.
 

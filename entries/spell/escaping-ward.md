@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escaping_ward", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "68"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Advanced Race Guide pg 68
 
 > _[Halflings](ref/race/halfling) have access to the following spell._
 

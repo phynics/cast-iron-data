@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "133"
 
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "Arcane school"]
 +++
 
-**Sources:** Advanced Class Guide pg 133\
 A spell sage has mastered spells of all types, and is able to increase the effectiveness of his own
 spells and eventually even cast spells from other classes' spell lists. While most wizards focus on
 a school, the spell sage looks at the particular aspects of individual spells and is not afraid to

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "farspear", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "15"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Sources:** Heroes from the Fringe pg 15\
 **Aura** moderate conjuration; **CL** 7th\
 **Slot** none; **Price** 53,801 gp; **Weight** 3 lbs.
 

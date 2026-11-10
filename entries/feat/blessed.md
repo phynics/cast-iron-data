@@ -6,6 +6,9 @@ source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessed", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "quests-and-campaigns"
+page = "8"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You gain a +2 bonus on Charisma-based checks involving good-aligned o
 +++
 
 ## Blessed (Story)
-
-**Sources:** Quests and Campaigns pg 8
 
 The repeated notice and boons of celestials have marked you as one of their chosen agents.\
 **Prerequisites:** You must have had friendly contact with a good outsider that would qualify as a

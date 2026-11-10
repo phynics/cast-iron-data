@@ -6,6 +6,9 @@ source_ids = ["pathfinder-75-demons-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_lord_sifkesh", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "pathfinder-75-demons-heresy"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ that float nearby as if they were still attached._
 
 **Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
 
-**Sources:** Pathfinder \#75: Demon's Heresy pg 86\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 4,915,200

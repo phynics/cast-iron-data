@@ -6,6 +6,9 @@ source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_painajai", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "occult-bestiary"
+page = "19"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ dozens of sharp teeth. It carries a barbed spear with a long, clinking chain att
 
 **Senses:** Darkvision 60 ft., True seeing
 
-**Sources:** Occult Bestiary pg 19\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 38,400

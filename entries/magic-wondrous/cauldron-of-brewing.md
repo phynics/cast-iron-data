@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cauldron_of_brewing", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "287"
+[[sources]]
+publication = "advanced-players-guide"
+page = "302"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 287, Advanced Player's Guide pg 302\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.
 

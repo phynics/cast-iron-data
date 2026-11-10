@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk_serpentfolk_bone_prophet", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "205"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ abilities = ["12", "19", "20", "18", "19", "20"]
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Monster Codex pg 205\
 **Experience points:** 12,800
 
 **Armor class:** 23/13/20

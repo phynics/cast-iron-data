@@ -6,6 +6,15 @@ source_ids = ["adventurers-guide", "artifacts-and-legends", "pathfinder-39-the-c
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_blade", path = "json/magic_artifact.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "159"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "60"
+[[sources]]
+publication = "pathfinder-39-the-city-of-seven-spears"
+page = "56"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Sources:** Adventurer's Guide pg 159, Artifacts and Legends pg 60, Pathfinder \#39: The City of
-Seven Spears pg 56\
 **Aura** strong evocation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 2 lbs.
 

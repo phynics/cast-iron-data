@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bodyguard", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "151"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Aid another is a standard action."
 +++
 
 ## Bodyguard (Combat)
-
-**Sources:** Advanced Player's Guide pg 151
 
 Your swift strikes ward off enemies attacking nearby allies.\
 **Prerequisites:** [Combat Reflexes](ref/feat/combat-reflexes).\

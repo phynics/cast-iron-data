@@ -6,13 +6,13 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ballad_of_the_homesick_wanderer", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
 
 [fields]
 kind = "class_option"
 group = "bardic-masterpiece"
 +++
-
-**Sources:** Monster Summoner's Handbook
 
 This poem of sadness and longing was developed by a Riftwarden bard seeking a way to fight summoned
 creatures without violence. Its otherworldly lyrics drive outsiders to return to their planes of

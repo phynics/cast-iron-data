@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repulsion", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "333"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Area: up to 10-ft.-radius/level emanation centered on you
 :::
-
-**Sources:** PRPG Core Rulebook pg 333
 
 An invisible, mobile field surrounds you and prevents creatures from approaching you. You decide how
 big the field is at the time of casting (to the limit your level allows). Any creature within or

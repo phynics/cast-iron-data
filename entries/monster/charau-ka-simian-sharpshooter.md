@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka_simian_sharpshooter", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "13"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ _This long-furred ape-person wears a battered snakeskin poncho and carries a wor
 
 **Size:** small
 
-**Sources:** Inner Sea Monster Codex pg 13\
 **Subtype:** Charau-ka\
 **Experience points:** 2,400
 

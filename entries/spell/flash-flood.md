@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flash_flood", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Area: cone-shaped burst
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Wilderness Origins pg 27
 
 You call forth a fast-moving wave that batters all creatures in its path and leaves the target area
 flooded. Each creature in the area must succeed at a Reflex save or take 1d6 points of bludgeoning

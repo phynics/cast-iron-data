@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "div_akvan", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ crowning its broad head._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Bestiary 3 pg 84\
 **Subtype:** Div, Evil, Extraplanar
 
 **Experience points:** 307,200

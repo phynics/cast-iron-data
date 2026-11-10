@@ -6,12 +6,13 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tfwi_hands", path = "json/rules_adv_gm07.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Equipment pg 206
 
 ### Table 5-7: Hand Slot Wondrous Items
 

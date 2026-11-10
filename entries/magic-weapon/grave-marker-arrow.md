@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grave_marker_arrow", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "27"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Agents of Evil pg 27\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 307 gp; **Weight** 1/10 lb.
 

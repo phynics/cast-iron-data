@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophetic_lore", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "11"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Disciple's Doctrine pg 11
 
 You call to mind prophecies regarding a person, place, item, or event. These might be predictions
 made in the past, lost to history, or entirely new. If the person or item is present or if you are

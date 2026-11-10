@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide", "advanced-players-guide", "blood-of-shadow
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaman", path = "json/classes6.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "35"
 
 [fields]
 kind = "class"
@@ -13,8 +16,6 @@ class_type = "hybrid"
 hit_die = "d8"
 skill_ranks = "4 + Int modifier"
 +++
-
-**Sources:** Advanced Class Guide pg 35
 
 While some heroes speak to gods or consort with otherworldly muses, shamans commune with the spirits
 of the world and the energies that exist in every living thing. These divine adventurers draw upon

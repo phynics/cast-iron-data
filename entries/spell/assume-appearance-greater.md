@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/assume-appearance" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "109"
 
 [fields]
 kind = "spell"
@@ -58,8 +61,6 @@ Subschool: Polymorph
 :::
 
 ### Greater Assume Appearance
-
-**Sources:** Horror Adventures pg 109
 
 This spell functions similar to [assume appearance](ref/spell/assume-appearance), except that you
 can imitate a creature even if you have only a likeness (such as a sketch or painting) that is

@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_shot", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "While wielding a ranged weapon, you threaten no squares and cannot mak
 +++
 
 ## Relentless Shot (Combat)
-
-**Sources:** Ranged Tactics Toolbox pg 7
 
 You keep your aim steady on a downed foe.\
 **Prerequisites:** [Point-Blank Shot](ref/feat/point-blank-shot), base attack bonus +6.\

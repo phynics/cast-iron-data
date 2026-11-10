@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_in_your_eye", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "29"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "A character with favored terrain (as the ranger class feature) can us
 +++
 
 ## Mud in Your Eye (Combat)
-
-**Sources:** Heroes of the Streets pg 29
 
 You are used to fighting in muck and slime, and happily hurl it in your foes' eyes in the heat of
 battle.\

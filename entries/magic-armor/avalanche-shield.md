@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avalanche_shield", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "130"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Sources:** Ultimate Equipment pg 130\
 **Aura** strong evocation; **CL** 12th\
 **Slot** shield; **Price** 19,170 gp; **Weight** 10 lbs.
 

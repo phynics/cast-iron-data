@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlucky_figurine", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "moderate enchantment"
 caster_level = "11th"
 +++
-
-**Sources:** Ultimate Equipment pg 351
 
 **Aura** moderate enchantment; **CL** 11th\
 **Slot** none; **Weight** 1 lb.

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_5_class_features", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "453"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 453
 
 After determining feats, the next step is to fill in all the class features possessed by the NPC.
 This is the time to make decisions about the NPC's spell selection, rage powers, rogue talents, and

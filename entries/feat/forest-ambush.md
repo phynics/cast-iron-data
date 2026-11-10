@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_ambush", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "In natural environments, you can spend 5 minutes to cover yourself in
 +++
 
 ## Forest Ambush (Combat)
-
-**Sources:** Heroes of the Wild pg 22
 
 Your deep knowledge of natural environments allows you to take your enemy by surprise, dealing a
 deadly blow.\

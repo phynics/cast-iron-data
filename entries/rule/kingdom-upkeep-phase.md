@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_upkeep_phase", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 206
 
 During the Upkeep phase, you adjust your kingdom's scores based on what's happened in the past
 month, how happy the people are, how much they've consumed and are taxed, and so on.

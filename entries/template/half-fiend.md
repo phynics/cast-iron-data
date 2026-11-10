@@ -6,6 +6,9 @@ source_ids = ["bestiary", "demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_fiend", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "171"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1 to +3
 
 **Inherited:** present
-
-**Source:** Pathfinder RPG Bestiary/171
 
 Half-fiends are creatures heavily tainted with demonic, infernal, or other evil power.
 

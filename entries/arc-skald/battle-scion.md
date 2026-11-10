@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "48"
 
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Rage power", "Dirge of doom", "song of the fallen", "Master skald"]
 +++
 
-**Sources:** Ultimate Intrigue pg 48\
 The battle scion possesses a unique mixture of courtly grace alongside martial and magical prowess.
 She is a warrior-poet, as skilled with her words as she is with blades. Battle scions sometimes rule
 as queens over courts of brave knights who scour the world championing bold quests.

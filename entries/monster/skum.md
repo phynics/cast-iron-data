@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skum", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "253"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ of a toothy fish._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 253\
 **Subtype:** Aquatic
 
 **Experience points:** 600

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perceive_betrayal", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "25"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Heroes of the High Court pg 25
 
 By donning a silver circlet anointed with blood, you gain the ability to sense traitorous intent
 toward a single person to whom you defer, designated when you cast the spell. The spell alerts you

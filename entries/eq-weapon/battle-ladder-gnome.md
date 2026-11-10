@@ -6,14 +6,18 @@ source_ids = ["adventurers-armory-2", "gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_ladder_gnome", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "8"
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "22"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "8 lbs."
 +++
-
-**Sources:** Adventurer's Armory 2 pg 8, Gnomes of Golarion pg 22
 
 Gnomes use these narrow, reinforced, 4-foot ladders as weapons. Fighting with a battle ladder is
 like fighting with a quarterstaff, except that the spaces in the ladder can be used to entangle

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_up", path = "json/feat15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "135"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever an adjacent foe attempts to take a 5-foot step away from you
 +++
 
 ## Step Up (Combat)
-
-**Sources:** PRPG Core Rulebook pg 135
 
 You can close the distance when a foe tries to move away.\
 **Prerequisites:** Base attack bonus +1.\

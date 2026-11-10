@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seamantle", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "241"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Target: you
 Subschool: Creation
 Descriptors: water
 :::
-
-**Sources:** Advanced Player's Guide pg 241
 
 You sheathe yourself within a churning column of pure elemental water up to 30 feet high that fills
 your space. You gain a swim speed equal to your land speed and can see, hear, and breathe normally

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_and_losing_honor", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "161"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 161
 
 You gain and lose honor points through events. Some events affect all PCs in the party (such as
 destroying a demon that's attacking a village), and others only affect you (such as losing a duel

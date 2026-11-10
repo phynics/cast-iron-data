@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howling_agony", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "223"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes
 Target: one living creature/level, no two of which can be more than 30 ft. apart
 Descriptors: death, pain
 :::
-
-**Sources:** Ultimate Magic pg 223
 
 You send wracking pains through the targets' bodies. Because of the pain, affected creatures take a
 -2 penalty to AC, attacks, melee damage rolls, and Reflex saving throws, and must succeed at a

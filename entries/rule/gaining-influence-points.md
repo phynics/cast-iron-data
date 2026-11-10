@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gaining_influence_points", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "110"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 110
 
 As the PCs perform tasks that benefit an organization, they gain influence points. Performing favors
 requested by an organization is the most effective way for the PCs to accrue influence points with

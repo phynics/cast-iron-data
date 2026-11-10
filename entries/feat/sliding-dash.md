@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sliding_dash", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "91"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ normal = "When charging, you must end the movement part of a charge in the close
 +++
 
 ## Sliding Dash (Combat)
-
-**Sources:** Ultimate Intrigue pg 91
 
 Your seemingly reckless advance becomes an agile strike at the last moment.\
 **Prerequisites:** Dex 15, Acrobatics 10 ranks or acrobatic charge class feature, Bluff 3 ranks.\

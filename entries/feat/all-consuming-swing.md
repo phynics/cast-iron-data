@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "all_consuming_swing", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you use Cleave or Great Cleave, you can apply the additional
 +++
 
 ## All-Consuming Swing (Combat)
-
-**Sources:** The Harrow Handbook pg 19
 
 You deliver unchecked destruction when you stand against multiple foes, sometimes to your own
 detriment.\

@@ -6,12 +6,12 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 3
 
 In an ancient war forgotten by most mortals, the thanatotic titans rose up against the gods in a
 horrific war. When the titans who launched this war were defeated, the gods banished them to

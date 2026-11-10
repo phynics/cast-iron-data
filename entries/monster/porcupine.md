@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "porcupine", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "222"
 
 [fields]
 kind = "creature"
@@ -38,7 +41,6 @@ _This small-eyed rodent has a rounded body with numerous quills running all over
 
 **Senses:** Low-light vision
 
-**Sources:** Bestiary 3 pg 222\
 **Size:** tiny
 
 **Experience points:** 100

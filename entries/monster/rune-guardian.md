@@ -6,6 +6,9 @@ source_ids = ["the-godsmouth-heresy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_guardian", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "the-godsmouth-heresy"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ energy._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** The Godsmouth Heresy pg 29\
 **Size:** tiny
 
 **Experience points:** 400

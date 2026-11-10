@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divination_uw", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "157"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 157
 
 There are only a few low-level divination spells specifically related to wilderness environments.
 Characters often ignore these spells, and instead they rely on class abilities or skills to

@@ -6,6 +6,9 @@ source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alter_summoned_monster", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "monster-summoners-handbook"
+page = "22"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: yes
 Target: one summoned creature
 Subschool: Summoning
 :::
-
-**Sources:** Monster Summoner's Handbook pg 22
 
 You swap a creature summoned by a conjuration (summoning) spell for a creature you could summon with
 a [summon monster](ref/spell/summon-monster) or

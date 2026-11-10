@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin_hobgoblin_battle_priest", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "121"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ eyes._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Monster Codex pg 121\
 **Subtype:** Goblinoid
 
 **Experience points:** 4,800

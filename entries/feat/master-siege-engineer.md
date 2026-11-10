@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_siege_engineer", path = "json/feat10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "109"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ normal = "Full-round actions are required to load and aim siege engines."
 +++
 
 ## Master Siege Engineer (Combat)
-
-**Sources:** Ultimate Combat pg 109
 
 You are significantly faster at loading a siege engine, as well as a better shot.\
 **Prerequisites:** [Siege Engineer](ref/feat/siege-engineer), Knowledge (engineering) 10 ranks.\

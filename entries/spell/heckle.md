@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heckle", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "26"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Target: 1 creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Arcane Anthology pg 26
 
 You badger and nitpick the subject of your spell until its mood sours. The target's attitude shifts
 one category toward hostile regarding you and everyone within 30 feet of the target at the time the

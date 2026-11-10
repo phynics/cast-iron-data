@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interposing_hand", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "301"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: 10-ft. hand
 Descriptors: force
 :::
-
-**Sources:** PRPG Core Rulebook pg 301
 
 Interposing hand creates a Large magic hand that appears between you and one opponent. This
 floating, disembodied hand then moves to remain between the two of you, regardless of where you move

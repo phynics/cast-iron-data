@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_channeling", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "132"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Cha 13, channel energy class feature."
 benefit = "When you channel energy, you can choose a number of targets in the area up to your Charisma modifier. These targets are not affected by your channeled energy."
 normal = "All targets in a 30-foot burst are affected when you channel energy. You can only choose whether or not you are affected."
 +++
-
-**Sources:** PRPG Core Rulebook pg 132
 
 You can choose whom to affect when you channel energy.\
 **Prerequisites:** Cha 13, [channel energy](ref/ability/channel-energy) class feature.\

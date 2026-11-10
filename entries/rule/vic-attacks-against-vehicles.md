@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vic_attacks_against_vehicles", path = "json/rules_rulesets02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 174
 
 A vehicle has a base Armor Class based on its size and other defenses the vehicle has. To calculate
 the vehicle's actual AC, add the current driver's driving skill modifier (or Wisdom modifier, if it

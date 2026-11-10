@@ -6,6 +6,12 @@ source_ids = ["adventurers-guide", "andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_charms_and_compulsions", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "77"
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -47,8 +53,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature plus one additional creature per 4 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Adventurer's Guide pg 77, Andoran, Spirit of Liberty pg 27
 
 You bolster the subject's sense of willpower and self-worth when you cast this spell. As you cast
 it, you must decide if you want to grant a bonus to saving throws against charms and compulsions or

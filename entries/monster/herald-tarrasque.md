@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_tarrasque", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "304"
+[[sources]]
+publication = "bestiary"
+page = "262"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ thrashing spiked tail._
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Inner Sea Gods pg 304, Pathfinder RPG Bestiary pg 262\
 **Subtype:** Spawn of Rovagug
 
 **Experience points:** 1,638,400

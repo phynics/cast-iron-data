@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_cleaver", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "18"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When using Cleave or Great Cleave, if your initial attack hits, you m
 +++
 
 ## Goblin Cleaver (Combat)
-
-**Sources:** Advanced Race Guide pg 18
 
 You are ferocious at hewing smaller opponents.\
 **Prerequisites:** Str 13, [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack),

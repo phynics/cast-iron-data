@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/inquisitor" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "52"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Monster lore", "stern gaze", "Cunning initiative", "Teamwork feats"
 alters = ["Domain", "Spellcasting"]
 +++
 
-**Sources:** Horror Adventures pg 52\
 Some inquisitors embrace the dark powers of their traditional foes, turning such powers toward their
 own ends in order to pronounce judgment on those who oppose them. These inquisitors learn to use the
 hexes and some spells of witches, but must pay the price for dealing with supernatural powers, as

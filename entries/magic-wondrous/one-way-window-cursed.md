@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_way_window_cursed", path = "json/magic_wondrous_slotless04.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "348"
+[[sources]]
+publication = "advanced-players-guide"
+page = "310"
 
 [fields]
 kind = "item"
@@ -15,8 +21,6 @@ slot = "none"
 aura = "faint divination"
 caster_level = "5th"
 +++
-
-**Sources:** Ultimate Equipment pg 348, Advanced Player's Guide pg 310
 
 **Aura** faint divination; **CL** 5th\
 **Slot** none; **Weight** 1 lb.

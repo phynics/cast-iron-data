@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_arcane_mastery", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "167"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong abjuration and evocation"
 caster_level = "11th"
 +++
 
-**Sources:** Ultimate Equipment pg 167\
 **Aura** strong abjuration and evocation; **CL** 11th\
 **Slot** ring; **Price** 20,000 gp; **Weight** -
 

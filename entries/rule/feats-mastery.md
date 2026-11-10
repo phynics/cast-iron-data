@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook", "armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feats_mastery", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "20"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ### Weapon Mastery Feats
 
-**Sources:** Weapon Master's Handbook pg 20\
 Although most combat techniques are general enough to be categorized as combat feats, some require
 such a high level of martial skill that they are instead categorized as weapon mastery feats. Weapon
 mastery feats (17 feats) count as combat feats for all purposes, including which classes can select

@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "preparing_for_the_game", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "401"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 401
 
 Your job as Game Master begins well before the game session does. Your most important duty before a
 game is, of course, to prepare for that game. This means reading up on the adventure you'll be

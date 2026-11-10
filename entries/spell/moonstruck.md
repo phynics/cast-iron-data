@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonstruck", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "232"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Target: one humanoid creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Advanced Player's Guide pg 232
 
 You invoke the mystical power of the moon to drive the target into a mad, bestial frenzy. If the
 target fails its save, it is dazed for 1 round, dropping held items as its nails and teeth elongate

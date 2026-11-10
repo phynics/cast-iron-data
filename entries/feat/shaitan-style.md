@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_style", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "118"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. While using t
 +++
 
 ## Shaitan Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 118
 
 You strike with the caustic forces from within the earth.\
 **Prerequisites:** Con 13, Wis 15, [Elemental Fist](ref/feat/elemental-fist),

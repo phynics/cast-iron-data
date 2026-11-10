@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counterspells", path = "json/rules_basics04.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "207"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 207
 
 It is possible to cast any spell as a counterspell. By doing so, you are using the spell's energy to
 disrupt the casting of the same spell by another character. Counterspelling works even if one spell

@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delusional_pride", path = "json/spells3.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "216"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 216
 
 The target becomes so distracted by an overblown sense of its worth that it takes a -2 penalty on
 attacks and skill checks. However, this feeling also gives the target a +2 morale bonus on saves

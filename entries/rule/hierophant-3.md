@@ -6,13 +6,23 @@ source_ids = ["mythic-adventures", "mythic-origins", "mythic-realms", "heroes-of
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hierophant_3", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "35"
+[[sources]]
+publication = "mythic-origins"
+page = "26"
+[[sources]]
+publication = "mythic-realms"
+page = "7"
+[[sources]]
+publication = "heroes-of-golarion"
+page = "29"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 35, Mythic Origins pg 26, Mythic Realms pg 7, Heroes of Golarion
-pg 29\
 You must be at least 3rd tier to select these path abilities.
 
 **Abundant Healing (Su):** When you use a spell or class ability to heal a creature's hit point

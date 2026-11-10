@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forge_ring", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "124"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "You can create magic rings. Crafting a ring takes 1 day for each 1,00
 +++
 
 ## Forge Ring (Item Creation)
-
-**Sources:** PRPG Core Rulebook pg 124
 
 You can create magic rings.\
 **Prerequisites:** Caster level 7th.\

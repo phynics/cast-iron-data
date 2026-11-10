@@ -6,14 +6,15 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoughtful_discernment", path = "json/feat16.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "157"
 
 [fields]
 kind = "feat"
 prerequisites = "Discern lies class feature."
 benefit = "Once per day as a free action, you can think back about a single statement you heard in the last day and determine if it was a lie. This acts like the discern lies spell, but instead of affecting a creature, it affects a single statement a creature has made."
 +++
-
-**Sources:** Ultimate Magic pg 157
 
 Thinking back, you discover a lie in what you once thought to be words of truth.\
 **Prerequisites:** Discern lies class feature.\

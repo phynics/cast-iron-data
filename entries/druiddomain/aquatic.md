@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic", path = "json/class_ability_druid_domains.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "33"
 
 [fields]
 kind = "class_option"
@@ -13,8 +16,6 @@ group = "druid-domain"
 +++
 
 ## Aquatic Domain
-
-**Sources:** Ultimate Magic pg 33
 
 **Granted Powers:** You master the deeps of the sea, raging rivers, flowing falls, and relentless
 tides.

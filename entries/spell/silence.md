@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silence", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "343"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Area: 20-ft.-radius emanation centered on a creature, object, or point in space
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 343
 
 Upon the casting of this spell, complete silence prevails in the affected area. All sound is
 stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise

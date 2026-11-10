@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combusted", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "63"
+[[sources]]
+publication = "occult-bestiary"
+page = "16"
 
 [fields]
 kind = "creature"
@@ -44,7 +50,6 @@ surrounded by greasy black smoke._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 63, Occult Bestiary pg 16\
 **Subtype:** Fire
 
 **Type:** undead

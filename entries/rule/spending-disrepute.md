@@ -6,12 +6,14 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spending_disrepute", path = "json/rules_campaign_types10.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "64"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 64\
 A group's Disrepute can be spent to buy beneficial effects called **impositions,** though some
 impositions might only be available in certain places - such as at port - or might have additional
 costs - like forcing a prisoner to walk the plank. Spending Disrepute to purchase an imposition

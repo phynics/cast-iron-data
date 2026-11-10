@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "core-rulebook", "artifacts-and-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowstaff", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "339"
+[[sources]]
+publication = "core-rulebook"
+page = "548"
+[[sources]]
+publication = "artifacts-and-legends"
+page = "46"
 
 [fields]
 kind = "item"
@@ -16,8 +25,6 @@ slot = "none"
 aura = "strong conjuration"
 caster_level = "20th"
 +++
-
-**Sources:** Ultimate Equipment pg 339, PRPG Core Rulebook pg 548, Artifacts and Legends pg 46
 
 **Aura** strong conjuration; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 1 lb.

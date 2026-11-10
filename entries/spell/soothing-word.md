@@ -6,6 +6,9 @@ source_ids = ["gamemastery-condition-cards"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_word", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "gamemastery-condition-cards"
+page = "0"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes (harmless)
 Target: 1 creature
 Subschool: Healing
 :::
-
-**Sources:** GameMastery Condition Cards pg 0
 
 The target of this spell causes several conditions that he suffers from to be lessened in severity
 by one step. If he is nauseated, he is instead sickened. If he is stunned, he is instead dazed. If

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "babble", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "158"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature; see text
 Subschool: Compulsion
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Adventures pg 158
 
 This spell causes the target to break into a fit of bizarre, uncontrollable babbling. The target
 also becomes nauseated. If the target succeeds at its save, the effects end. If not, the creature

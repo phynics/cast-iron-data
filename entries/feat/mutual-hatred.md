@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutual_hatred", path = "json/feat11.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "164"
 
 [fields]
 kind = "feat"
@@ -14,8 +17,6 @@ benefit = "You gain a +1 bonus on attack rolls and damage rolls against creature
 +++
 
 ## Mutual Hatred (Combat)
-
-**Sources:** Monster Codex pg 164
 
 Others hate you, and their hatred feeds your own.\
 **Benefit:** You gain a +1 bonus on attack rolls and damage rolls against creatures whose hatred

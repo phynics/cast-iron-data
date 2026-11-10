@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poppet_poppet_tiny", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "30"
 
 [fields]
 kind = "creature"
@@ -36,7 +39,6 @@ abilities = ["8", "14", "-", "-", "5", "1"]
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Adventurer's Armory 2 pg 30\
 **Size:** tiny
 
 **Experience points:** 135

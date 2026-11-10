@@ -6,14 +6,15 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exalted", path = "json/prestige_classes4.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "200"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d8."
 +++
-
-**Sources:** Inner Sea Gods pg 200
 
 The exalted exemplifies the teachings of her faith. More than a religious leader, she is the
 embodiment of faith that all members of the religion strive to emulate. She may be part of the

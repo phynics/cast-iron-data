@@ -6,6 +6,9 @@ source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_tsathoggua", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ on its bat-like face._
 
 **Senses:** Darkvision 60 ft., See in darkness, True seeing
 
-**Sources:** Pathfinder \#111: Dreams of the Yellow King pg 84\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **Experience points:** 6,553,600

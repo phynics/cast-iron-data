@@ -6,6 +6,8 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_dumbshow_of_gorroc", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## The Dumbshow of Gorroc (Act, Comedy)
-
-**Sources:** Ultimate Magic
 
 Your acting conjures hellfire and salt to destroy plants.
 

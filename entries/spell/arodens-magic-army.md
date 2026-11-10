@@ -6,6 +6,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_magic_army", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "7"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: Will negates (harmless) (object)
 Spell resistance: yes (harmless) (object)
 Targets: weapons carried by allies
 :::
-
-**Sources:** Arcane Anthology pg 7
 
 You imbue all manufactured weapons carried by allies within range with magic, granting each weapon a
 +1 enhancement bonus on attack rolls and damage rolls per 5 caster levels (maximum +4).

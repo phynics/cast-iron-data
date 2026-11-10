@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peuchen", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "189"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ _This enormous snake has glowing green eyes, large fangs, and wide, membranous w
 
 **Senses:** Darkvision 60 ft., Low-light vision, Scent
 
-**Sources:** Bestiary 5 pg 189\
 **Subtype:** Shapechanger
 
 **Experience points:** 9,600

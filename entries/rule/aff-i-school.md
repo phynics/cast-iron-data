@@ -6,12 +6,14 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aff_i_school", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "116"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Adventurer's Guide pg 116\
 **Pathfinder Name:** Magaambya\
 **Scope:** regional\
 **Alignment:** NG\

@@ -6,14 +6,18 @@ source_ids = ["monster-codex", "classic-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flindbar", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "93"
+[[sources]]
+publication = "classic-monsters-revisited"
+page = "14"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "6 lbs."
 +++
-
-**Sources:** Monster Codex pg 93, Classic Monsters Revisited pg 14
 
 This one-handed weapon is similar to a [nunchaku](ref/eq-weapon/nunchaku) in that it consists of a
 pair of bars linked with heavy chain. However, a flindbar's bars are made of iron and are capped

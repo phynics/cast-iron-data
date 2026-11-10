@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/intellect-fortress-2" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "175"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Area: 20-ft.-radius emanation centered on you
 :::
 
 ### Intellect Fortress III
-
-**Sources:** Occult Adventures pg 175
 
 This spell functions as [intellect fortress II](ref/spell/intellect-fortress-2), but creatures
 within the area who succeed at a saving throw against a fear or emotion effect suffer no effects,

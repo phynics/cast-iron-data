@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wings_of_flying", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "269"
+[[sources]]
+publication = "core-rulebook"
+page = "532"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Sources:** Ultimate Equipment pg 269, PRPG Core Rulebook pg 532\
 **Aura** moderate transmutation; **CL** 10th\
 **Slot** shoulders; **Price** 54,000 gp; **Weight** 2 lbs.
 

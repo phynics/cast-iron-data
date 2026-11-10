@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viscous_venom", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "5"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "When you spit poison using the ability granted by the Spit Venom feat
 +++
 
 ## Viscous Venom (Combat)
-
-**Sources:** Potions and Poisons pg 5
 
 Your venom is abnormally thick and adhesive.\
 **Prerequisites:** [Spit Venom](ref/feat/spit-venom), [nagaji](ref/race/nagaji).\

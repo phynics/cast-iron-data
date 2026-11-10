@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "violent_accident", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "63"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse
 :::
-
-**Sources:** Inner Sea Intrigue pg 63
 
 You curse the target to suffer a violent accident within the next 24 hours. You have no control over
 the form the accident takes or when it strikes. The target can avoid being cursed with

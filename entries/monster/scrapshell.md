@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrapshell", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "60"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ between the shell halves._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Seers of the Drowned City pg 60\
 **Subtype:** Aquatic
 
 **Type:** vermin

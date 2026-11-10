@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "78"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Wild empathy", "Shifter claws", "Chimeric aspect", "greater chimeri
 alters = ["Languages", "Shifter aspect", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 78\
 Rather than drawing power from bestial aspects, elementalist shifters channel power from the Inner
 Sphere and can take on powerful elemental forms at the cost of the greater diversity available to
 traditional shifters. Although the elementalist shifter's powers seem more outlandish and

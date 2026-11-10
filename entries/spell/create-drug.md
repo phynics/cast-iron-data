@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "pathfinder-99-dance-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_drug", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "183"
+[[sources]]
+publication = "pathfinder-99-dance-of-the-damned"
+page = "74"
 
 [fields]
 kind = "spell"
@@ -46,8 +52,6 @@ Spell resistance: no
 Effect: 1 dose of a drug/3 levels
 Subschool: Creation
 :::
-
-**Sources:** Book of the Damned pg 183, Pathfinder \#99: Dance of the Damned pg 74
 
 The caster conjures into being one of the following drugs: [aether](ref/drug/aether),
 [flayleaf](ref/drug/flayleaf), [opium](ref/drug/opium), [pesh](ref/drug/pesh),

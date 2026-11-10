@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_ice", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "366"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: yes
 Effect: anchored plane of ice, up to one 10-ft. square/level, or hemisphere of ice with a radius of up to 3 ft. + 1 ft./level
 Descriptors: cold
 :::
-
-**Sources:** PRPG Core Rulebook pg 366
 
 This spell creates an anchored plane of ice or a hemisphere of ice, depending on the version
 selected. A wall of ice cannot form in an area occupied by physical objects or creatures. Its

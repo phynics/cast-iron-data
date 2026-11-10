@@ -6,14 +6,15 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_perfection", path = "json/prestige_classes3.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "102"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 102
 
 Even the masters of the [Houses of Perfection](ref/rule/aff-monasteries) consider themselves
 students, as imperfect beings always have more to learn. As a result of their continued training,

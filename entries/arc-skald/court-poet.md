@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/skald" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "6"
 
 [fields]
 kind = "archetype"
 replaces = ["Inspired rage", "Song of strength", "Well-versed"]
 +++
 
-**Sources:** Heroes of the High Court pg 6\
 Many courts are places of artistic refinement, attracting those performers who wish to revel in an
 aristocratic art scene. Such artists may aim to become a darling of the court, focusing on the
 aesthetic requirements of a particular tradition as well as learning details about that court's

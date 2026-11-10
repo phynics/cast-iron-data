@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel_shock", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-sea"
+page = "10"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You gain one additional Elemental Fist attempt per day. Creatures tha
 +++
 
 ## Electric Eel Shock (Combat)
-
-**Sources:** Blood of the Sea pg 10
 
 You can stagger your opponents with jolts of electricity.\
 **Prerequisites:** Wis 15, [Electric Eel Style](ref/feat/electric-eel-style),

@@ -6,12 +6,13 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_kineticists", path = "json/rules_campaign_types07.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "28"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Heroes of Golarion pg 28
 
 In much the same way that kineticists can channel elemental energy, a tiny number of them are
 eventually able to master the ability to channel the strange energy that empowers mythic creatures.

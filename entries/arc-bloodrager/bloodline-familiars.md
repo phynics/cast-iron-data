@@ -9,13 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "familiar-folio"
+page = "16"
 
 [fields]
 kind = "archetype"
 replaces = ["The 1st-level bloodline power"]
 +++
-
-**Sources:** Familiar Folio pg 16
 
 **Prerequisites:** Must have one of these bloodlines: aberrant, abyssal, arcane, celestial,
 destined, draconic, elemental, fey, infernal, or undead.

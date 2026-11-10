@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honor", path = "json/rules_subsystems01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "160"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 160
 
 Beyond life and death, beyond good and evil, there is honor. It is the abode of the eternal, which
 none can take but which can be destroyed through a single rash act. It is a measure of one's place

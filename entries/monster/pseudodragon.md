@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pseudodragon", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "229"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ tipped with a barbed stinger._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder RPG Bestiary pg 229\
 **Size:** tiny
 
 **Experience points:** 400

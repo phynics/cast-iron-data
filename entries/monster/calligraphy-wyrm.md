@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calligraphy_wyrm", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "26"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ _The feet and tongue of this minuscule gold-scaled dragon are stained with ink._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Legacy of Dragons pg 26\
 **Experience points:** 600
 
 **Armor class:** 17/17/14

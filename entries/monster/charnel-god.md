@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_god", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ looking longbow in her hands._
 
 **Senses:** Darkvision 60 ft., Divine sense, Low-light vision, True seeing
 
-**Sources:** Bestiary 6 pg 54\
 **Experience points:** 819,200
 
 **Armor class:** 42/32/31

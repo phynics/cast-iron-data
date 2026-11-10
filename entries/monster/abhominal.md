@@ -6,6 +6,9 @@ source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abhominal", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "pathfinder-123-the-flooded-cathedral"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ feet. A mass of barbed, black tentacles extends from its exposed abdomen._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#123: The Flooded Cathedral pg 84\
 **Type:** undead
 
 **Experience points:** 2,400

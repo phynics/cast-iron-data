@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-42-sanctum-of-the-serpent-god
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totem_of_angazhan", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "62"
+[[sources]]
+publication = "pathfinder-42-sanctum-of-the-serpent-god"
+page = "62"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 62, Pathfinder \#42: Sanctum of the Serpent God pg 62\
 **Aura** strong necromancy and transmutation; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 150 lbs.
 

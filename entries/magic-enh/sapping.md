@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sapping", path = "json/magic_enhancements2.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Dirty Tactics Toolbox pg 24\
 **Aura** faint enchantment; **CL** 5th\
 **Price** +1 bonus; **Weight** -
 

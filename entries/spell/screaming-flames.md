@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screaming_flames", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "126"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Effect: a sheet of flames up to 15 ft. long and 10 ft. high that moves 15 ft. in a straight line
 Descriptors: evil, fire, mind-affecting
 :::
-
-**Sources:** Horror Adventures pg 126
 
 A sheer wall of flame appears and rushes away from you. Tendrils of fire reach out of it, shaped
 into skulls screaming in agony. When the wall passes through a creature's space, that creature must

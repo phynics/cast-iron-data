@@ -6,6 +6,9 @@ source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shark_helicoprion", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "pathfinder-57-tempest-rising"
+page = "85"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ brutal farther out._
 
 **Perception:** +12
 
-**Sources:** Pathfinder \#57: Tempest Rising pg 85\
 **Subtype:** Aquatic
 
 **Experience points:** 2,400

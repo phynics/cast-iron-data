@@ -6,6 +6,9 @@ source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolical_masquerade_mask", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "263"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration, enchantment, and illusion"
 caster_level = "1st"
 +++
 
-**Sources:** Inner Sea Gods pg 263\
 **Aura** faint conjuration, enchantment, and illusion; **CL** 1st\
 **Slot** head; **Price** 2,900 gp; **Weight** 1 lb.
 

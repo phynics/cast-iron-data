@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning", path = "json/magic_enhancements.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "138"
+[[sources]]
+publication = "advanced-players-guide"
+page = "287"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Ultimate Equipment pg 138, Advanced Player's Guide pg 287\
 **Aura** moderate divination; **CL** 6th\
 **Slot** weapon quality; **Price** +1 bonus; **Weight** -
 

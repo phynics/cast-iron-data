@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightshade_nightwing", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "203"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ blackest night._
 
 **Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
 
-**Sources:** Bestiary 2 pg 203\
 **Subtype:** Extraplanar, Nightshade
 
 **Type:** undead

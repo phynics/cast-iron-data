@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remarkable_legerdemain", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -40,8 +43,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Black Markets pg 31
 
 While this spell is in effect, your body and clothing flutter and distort subtly, allowing you to
 conceal items with uncanny skill. You treat any object you can hold in one hand as a coin-sized

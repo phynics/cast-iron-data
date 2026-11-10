@@ -6,14 +6,15 @@ source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auspicious_birth", path = "json/feat01.json" },
 ]
+[[sources]]
+publication = "blood-of-the-ancients"
+page = "10"
 
 [fields]
 kind = "feat"
 prerequisites = "Must be taken at 1st level."
 benefit = "Choose one of the following benefits based on the astrological event that occurred during your birth."
 +++
-
-**Sources:** Blood of the Ancients pg 10
 
 You were born under favorable astrological conditions, such as during a celestial conjunction.\
 **Prerequisites:** Must be taken at 1st level.\

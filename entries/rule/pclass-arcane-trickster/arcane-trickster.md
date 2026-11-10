@@ -8,12 +8,13 @@ parent = "ref/pclass/arcane-trickster"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "json/prestige_classes.json#arcane_trickster|section:arcane-trickster", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "376"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 376
 
 Few can match the guile and craftiness of arcane tricksters. These prodigious thieves blend the
 subtlest aspects of the arcane with the natural cunning of the bandit and the scoundrel, using

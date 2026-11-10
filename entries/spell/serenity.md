@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serenity", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "236"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Targets: one creature/level, no two of which can be more than 30 ft. apart
 Subschool: Compulsion
 Descriptors: emotion, mind-affecting
 :::
-
-**Sources:** Ultimate Magic pg 236
 
 You fill the targets' minds with feelings of tranquility. Those attempting to commit violence become
 stricken with wracking pain and take 3d6 points of nonlethal damage each round they attempt to harm

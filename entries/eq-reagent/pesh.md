@@ -6,13 +6,14 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pesh", path = "json/equipment_alchemical_reagents.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "19"
 
 [fields]
 kind = "item"
 category = "Alchemical Reagents"
 +++
-
-**Sources:** Alchemy Manual pg 19
 
 |Price|Weight|Equipment|
 | --- | --- | --- |

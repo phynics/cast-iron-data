@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kirin_style", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "107"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While using this style, you can spend a swift action to make a Knowle
 +++
 
 ## Kirin Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 107
 
 Your study and your grace allows you to exploit your enemies' weaknesses.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Knowledge (arcana) 6

@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "effects_of_sanity_damage", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "12"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 12
 
 When you experience a potential sanity attack, you must typically succeed at a Will saving throw to
 shake off or reduce the sanity attack's damage. Whether this saving throw is successful or not, if

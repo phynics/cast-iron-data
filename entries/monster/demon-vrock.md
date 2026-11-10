@@ -6,6 +6,9 @@ source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demon_vrock", path = "json/monsters29.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "69"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ vulture._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 69\
 **Subtype:** Chaotic, Demon, Evil, Extraplanar
 
 **Experience points:** 6,400

@@ -6,6 +6,9 @@ source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swindlers_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "seers-of-the-drowned-city"
+page = "55"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Sources:** Seers of the Drowned City pg 55\
 **Aura** moderate illusion; **CL** 9th\
 **Slot** hands; **Price** 9,000 gp; **Weight** 1 lb.
 

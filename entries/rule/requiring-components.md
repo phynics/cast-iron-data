@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "requiring_components", path = "json/rules_adv_magic01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "174"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 174
 
 The GM might decide that some or all magic item creation requires talismanic components. These
 components could be available for purchase in civilized areas, or could be acquired only by hunting

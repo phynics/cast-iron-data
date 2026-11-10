@@ -6,12 +6,13 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rescue", path = "json/rules_campaign_types09.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "82"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Planar Adventures pg 82
 
 Two facts bear repeating: the planes are dangerous, and souls are valuable. Unpredictable and
 titanic weather events can shatter even the mightiest magical vehicles or scatter travelers.

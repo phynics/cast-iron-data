@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scabbard_of_true_death", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Sources:** Magical Marketplace pg 25\
 **Aura** faint necromancy; **CL** 5th\
 **Slot** none; **Price** 32,000 gp; **Weight** 2 lbs.
 

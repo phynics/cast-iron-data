@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caterpillar_horn_caterpillar", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "51"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _This monstrous caterpillar's dark-scarlet bristles drip with thick, dangerous-l
 
 **Size:** small
 
-**Sources:** Bestiary 5 pg 51\
 **Type:** vermin
 
 **Experience points:** 400

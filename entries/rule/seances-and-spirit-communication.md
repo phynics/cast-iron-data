@@ -6,12 +6,13 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seances_and_spirit_communication", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "230"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Occult Adventures pg 230
 
 Some PCs may wish to establish communication with haunts that have been neutralized (reduced to 0
 hit points) but not yet destroyed. Regardless of the haunts' original powers or CRs, GMs may elect

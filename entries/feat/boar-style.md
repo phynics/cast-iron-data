@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_style", path = "json/feat02.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "90"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can deal bludgeoning damage or slashing damage with your unarmed 
 +++
 
 ## Boar Style (Combat, Style)
-
-**Sources:** Ultimate Combat pg 90
 
 Your sharp teeth and nails rip your foes open.\
 **Prerequisites:** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), Intimidate 3 ranks.\

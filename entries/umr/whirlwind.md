@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlwind", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "301"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Whirlwind (Su)
 
-**Sources:** Bestiary 3 pg 301\
 Some creatures can transform themselves into whirlwinds and remain in that form for up to 1 round
 for every 2 HD they have. If the creature has a fly speed, it can continue to fly at that same speed
 while in whirlwind form, otherwise it gains a fly speed equal to its base land speed (average

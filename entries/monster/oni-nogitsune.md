@@ -6,6 +6,9 @@ source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_nogitsune", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "pathfinder-50-night-of-frozen-shadows"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -46,7 +49,6 @@ teeth flecked with blood._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Pathfinder \#50: Night of Frozen Shadows pg 86\
 **Subtype:** Kitsune, Native, Oni, Shapechanger
 
 **Experience points:** 3,200

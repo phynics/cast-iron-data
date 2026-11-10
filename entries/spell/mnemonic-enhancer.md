@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemonic_enhancer", path = "json/spells14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "315"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** PRPG Core Rulebook pg 315
 
 Casting this spell allows you to prepare additional spells or retain spells recently cast. Pick one
 of these two versions when the spell is cast.

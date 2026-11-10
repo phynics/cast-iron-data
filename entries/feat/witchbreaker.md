@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchbreaker", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "120"
+[[sources]]
+publication = "people-of-the-north"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -16,8 +22,6 @@ benefit = "You gain a +2 bonus on saving throws against the hexes, spells, spell
 +++
 
 ## Witchbreaker (Combat)
-
-**Sources:** Ultimate Wilderness pg 120, People of the North pg 24
 
 You are trained to be resilient to and disrupt the magic of hags and witches.\
 **Prerequisites:** [Iron Will](ref/feat/iron-will).\

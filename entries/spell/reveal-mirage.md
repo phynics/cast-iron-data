@@ -6,6 +6,9 @@ source_ids = ["osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reveal_mirage", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "osirion-legacy-of-the-pharaohs"
+page = "46"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Osirion, Legacy of the Pharaohs pg 46
 
 You can focus upon a single point within line of sight and discern if the terrain or geographic
 features of that point are illusory. This ability allows you a Will save to disbelieve a

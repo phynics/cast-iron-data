@@ -6,12 +6,20 @@ source_ids = ["inner-sea-races", "bestiary-4", "people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasatha", path = "json/races2.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "245"
+[[sources]]
+publication = "bestiary-4"
+page = "174"
+[[sources]]
+publication = "people-of-the-stars"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Inner Sea Races pg 245, Bestiary 4 pg 174, People of the Stars pg 8\
 Kasathas are a four-armed nomadic humanoid race from a desert world that orbits a red sun far beyond
 Golarion's own solar system. The kasathas of Golarion have a cultural tradition of exploration, and
 when they come of age, they leave their clan, usually for 1 year, then return to their people with

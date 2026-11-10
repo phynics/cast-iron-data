@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rain_of_gore", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Rain of Gore (CR 3):** This unusual and unsettling phenomenon results in the corpses of small
 animals (ranging from Diminutive to Small) falling from the sky in a localized area. A rain of gore

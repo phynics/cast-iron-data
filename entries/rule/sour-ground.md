@@ -6,12 +6,12 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sour_ground", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures
 
 **Sour Ground (CR varies):** These corrupted holy sites usually feature long-toppled standing stones
 and spiraling rock paths carefully arranged by a forgotten culture to invoke powerful divine magic.

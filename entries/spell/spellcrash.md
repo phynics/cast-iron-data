@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/spellcrash-lesser" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "193"
 
 [fields]
 kind = "spell"
@@ -48,8 +51,6 @@ Target: one creature
 :::
 
 ### Spellcrash
-
-**Sources:** Advanced Class Guide pg 193
 
 This spell functions as [lesser spellcrash](ref/spell/spellcrash-lesser), except that it affects
 5th-level or lower prepared spells or spell slots.

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/magic-stone" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -45,8 +48,6 @@ Spell resistance: yes (harmless) (object)
 Targets: up to three boulders touched
 Descriptors: earth
 :::
-
-**Sources:** Monster Codex pg 69
 
 This spell works like [magic stone](ref/spell/magic-stone), except you transmute as many as three
 boulders (rocks up to two size categories smaller than yourself) to use with the

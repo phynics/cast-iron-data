@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sirrush", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "245"
 
 [fields]
 kind = "creature"
@@ -47,7 +50,6 @@ appear to be made of solid sunlight._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Planar Adventures pg 245\
 **Subtype:** Extraplanar, Good
 
 **Experience points:** 409,600

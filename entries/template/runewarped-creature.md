@@ -6,6 +6,9 @@ source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runewarped_creature", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-133-secrets-of-roderics-cove"
+page = "87"
 
 [fields]
 kind = "none"
@@ -16,8 +19,6 @@ kind = "none"
 **Acquired:** present
 
 **Challenge rating:** +1
-
-**Source:** Pathfinder \#133: Secrets of Roderic's Cove/87
 
 Before Alaznist created the first [sinspawn](ref/monster/sinspawn) through the use of her runewell,
 she experimented with several techniques to create sin-twisted servants. One foundation of the

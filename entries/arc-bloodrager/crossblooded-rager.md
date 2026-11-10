@@ -9,12 +9,14 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bloodrager" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "83"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide pg 83\
 While most bloodragers manifest only one bloodline, there are some that, through some quirk of
 heredity or the conjunction of other powers, manifest two. This combination of two distinct
 bloodlines can create a versatile and powerful rager who stands out among the horde.

@@ -6,6 +6,9 @@ source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retrieve_item", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "classic-treasures-revisited"
+page = "27"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Spell resistance: no
 Target: an unattended object weighing 1 lb. or less whose longest dimension is 6 inches or less
 Subschool: Calling
 :::
-
-**Sources:** Classic Treasures Revisited pg 27
 
 You call a specific nonliving item directly to your hand from a nearby location. First, you must
 cast the spell on the item while holding it. Thereafter, you can summon the item by speaking a

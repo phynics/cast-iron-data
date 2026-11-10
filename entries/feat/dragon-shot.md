@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/amateur-gunslinger", label = "or" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "4"
 
 [fields]
 kind = "feat"
@@ -19,8 +22,6 @@ benefit = "As a swift action, you can spend 1 grit point to convert your gun's d
 +++
 
 ## Dragon Shot (Combat, Grit)
-
-**Sources:** Heroes of Golarion pg 4
 
 You instinctively channel your latent magical abilities through your firearm.\
 **Prerequisites:** [Amateur Gunslinger](ref/feat/amateur-gunslinger) feat or grit class feature,

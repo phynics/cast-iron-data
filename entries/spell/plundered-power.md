@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plundered_power", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "124"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: no
 Target: one creature
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 124
 
 You must sacrifice a creature just as you finish casting this spell. When the sacrifice dies, its
 blood or ichor pools and hardens into a single red bloodstone. This bloodstone contains the essence

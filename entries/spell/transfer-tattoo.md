@@ -6,6 +6,9 @@ source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_tattoo", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "62"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one magic tattoo
 :::
-
-**Sources:** Inner Sea Magic pg 62
 
 With this spell, you can transfer one magic tattoo from one creature to another. A target that isn't
 willing to have his tattoo removed or to receive the transferred tattoo can resist this spell with a

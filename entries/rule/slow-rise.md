@@ -6,12 +6,14 @@ source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slow_rise", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "pathfinder-30-the-twice-damned-prince"
+page = "60"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Pathfinder \#30: The Twice-Damned Prince pg 60\
 Floods can easily turn structures into watery deathtraps. Characters trapped in an underground
 complex or even merely a structure at a low elevation when a flood occurs might find themselves
 facing rising waters, dwindling pockets of air, and the risk of drowning.

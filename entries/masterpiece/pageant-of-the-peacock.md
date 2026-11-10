@@ -6,6 +6,8 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pageant_of_the_peacock", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Pageant of the Peacock (Act, Dance)
-
-**Sources:** Dragonslayer's Handbook
 
 Your elegant movements cause you to seem to be more than you are.
 

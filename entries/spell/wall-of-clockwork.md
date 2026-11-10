@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_clockwork", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "23"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: yes
 Effect: wall of bronze clockworks whose area is up to one 5-ft.-square/level (S)
 Subschool: Creation
 :::
-
-**Sources:** Heroes of the Streets pg 23
 
 An immobile, vertical wall of spinning cogs and gears springs into existence. Any creature passing
 through the wall takes 1d6 points of piercing and slashing damage per 2 caster levels (maximum

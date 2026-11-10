@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "39"
 
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 4th level", "Rogue talent gained at 8th level", "Rogue talent gained at 12th level"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 39\
 Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the
 tumultuous nation of Galt. Any rogue (including unchained rogues) can select the Galtan agitator
 archetype.

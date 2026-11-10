@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/symbol-of-death" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "356"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Spell resistance: yes
 Effect: one symbol
 Descriptors: emotion, fear, mind-affecting
 :::
-
-**Sources:** PRPG Core Rulebook pg 356
 
 This spell functions like [symbol of death](ref/spell/symbol-of-death), except that all creatures
 within 60 feet of the symbol of fear instead become panicked for 1 round per caster level.

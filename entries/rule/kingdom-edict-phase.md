@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kingdom_edict_phase", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "206"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 206
 
 The Edict phase is when you make proclamations on expansion, improvements, taxation, holidays, and
 so on.

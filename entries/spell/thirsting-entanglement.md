@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/entangle" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "17"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Area: plants in a 40-ft.-radius spread
 :::
 
 ### Thirsting Entanglement
-
-**Sources:** Legacy of the First World pg 17
 
 This spell functions as [entangle](ref/spell/entangle), except the plants latch on to targets and
 drain away their vitality. Any creature that fails a save to avoid becoming entangled or fails a

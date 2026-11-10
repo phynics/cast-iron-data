@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshwarped_creature", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "250"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Horror Adventures/250
 
 These creatures are twisted by [fleshwarping](ref/rule/fleshwarping), grants horrific abilities by
 perverting creatures' original forms. This template can be applied only to corporeal living

@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_killer", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate conjuration and evocation"
 caster_level = "8th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 24\
 **Aura** moderate conjuration and evocation; **CL** 8th\
 **Slot** none; **Price** 19,305 gp; **Weight** 8 lbs.
 

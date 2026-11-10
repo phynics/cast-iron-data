@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_whip_mastery", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "106"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "While wielding a whip, you threaten the area of your natural reach pl
 +++
 
 ## Improved Whip Mastery (Combat)
-
-**Sources:** Ultimate Combat pg 106
 
 You are able to entangle opponents with the coils of your whip.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (whip),

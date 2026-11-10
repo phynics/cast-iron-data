@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "backpack", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "core-rulebook"
+page = "158"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 
 weight = "5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs. (weaponrack)"
 +++
 
-**Sources:** Ultimate Equipment pg 56, PRPG Core Rulebook pg 158\
 **Price** 25 gp (carrier), 2 gp (common), 40 gp (hydration), 50 gp (masterwork), 25 gp (weaponrack);
 **Weight** 5 lbs. (carrier), 2 lbs. (common), 4 lbs. (hydration), 4 lbs. (masterwork), 5 lbs.
 (weaponrack)

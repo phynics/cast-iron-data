@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_adamantine_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "134"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ burn atop its crown and back._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 134\
 **Experience points:** 204,800
 
 **Armor class:** 33/7/33

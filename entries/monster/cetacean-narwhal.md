@@ -6,6 +6,12 @@ source_ids = ["pathfinder-59-the-price-of-infamy", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cetacean_narwhal", path = "json/monsters28.json" },
 ]
+[[sources]]
+publication = "pathfinder-59-the-price-of-infamy"
+page = "87"
+[[sources]]
+publication = "bestiary-5"
+page = "276"
 
 [fields]
 kind = "creature"
@@ -45,7 +51,6 @@ single tusk protruding from its nose, easily as long as a human._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#59: The Price of Infamy pg 87, Bestiary 5 pg 276\
 **Experience points:** 800
 
 **Armor class:** 16/12/13

@@ -6,12 +6,12 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemon", path = "json/monster_families.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Bestiary 2
 
 Harbingers of ruin and embodiments of the worst ways to die, [daemons](ref/family/daemon) epitomize
 painful death, the all-consuming hunger of evil, and the utter annihilation of life. While demons

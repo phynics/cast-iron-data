@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "other_worlds", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "164"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 164
 
 While solitary planets are common in our universe, why restrict yourself to one world? Try roughing
 in some other planets in your solar system; such worlds spawn strange beasts and give you entirely

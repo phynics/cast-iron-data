@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "getaway", path = "json/spells13.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Targets: you and one willing creature/2 levels, all of which must be within 30 feet of you
 Subschool: Teleportation
 :::
-
-**Sources:** Advanced Player's Guide pg 225
 
 Getaway teleports you and allies you designate at the time of casting to a predetermined location.
 You must initially cast the spell at that location-all creatures affected by the spell must be

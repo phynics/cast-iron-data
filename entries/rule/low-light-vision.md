@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_light_vision", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "565"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 565
 
 Characters with low-light vision have eyes that are so sensitive to light that they can see twice as
 far as normal in dim light. Low-light vision is color vision. A spellcaster with low-light vision

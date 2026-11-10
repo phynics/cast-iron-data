@@ -6,12 +6,12 @@ source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_bred_animal", path = "json/monster_families2.json" },
 ]
+[[sources]]
+publication = "pathfinder-103-the-hellfire-compact"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder \#103: The Hellfire Compact
 
 Fiend-bred animals are pedigreed varieties of animals whose bloodlines include an animal-like fiend.
 The breeders of these creatures typically use a conjuration spell of the calling subschool, such as

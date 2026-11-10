@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/sanctify-armor", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "106"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 106\
 You gain DR 5/evil while wearing the target armor. While you're using your judgment or smite
 ability, this improves to DR 10/evil.
 

@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adroit_retrieval", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** Black Markets pg 30
 
 You instill the target with the ability to withdraw small items from her pockets or packs with
 supernatural swiftness. When the target retrieves an item stored on itself, it can retrieve the item

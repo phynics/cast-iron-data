@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "122"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Stunning fist", "Still mind", "7th- and 10th-level ki pool abilitie
 alters = ["Alignment requirement", "Slow fall", "Perfect self"]
 +++
 
-**Sources:** Occult Adventures pg 122\
 A karmic monk contemplates the myriad harmonies that guide existence. He learns to use the
 disharmony in others against them, and to alter his own inner harmonies to exploit weaknesses in his
 opponents' defenses.

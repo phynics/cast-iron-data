@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ornery_pistol", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "348"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "strong transmutation"
 caster_level = "12th"
 +++
-
-**Sources:** Ultimate Equipment pg 348
 
 **Aura** strong transmutation; **CL** 12th\
 **Slot** none; **Weight** 4 lbs.

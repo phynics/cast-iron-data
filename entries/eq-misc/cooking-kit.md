@@ -6,6 +6,12 @@ source_ids = ["ultimate-equipment", "adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooking_kit", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "56"
+[[sources]]
+publication = "adventurers-armory"
+page = "19"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "3 gp"
 weight = "16 lbs."
 +++
 
-**Sources:** Ultimate Equipment pg 56, Adventurer's Armory pg 19\
 **Price** 3 gp; **Weight** 16 lbs.\
 **Category** Kits
 

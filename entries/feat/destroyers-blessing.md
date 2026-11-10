@@ -6,6 +6,12 @@ source_ids = ["advanced-race-guide", "orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroyers_blessing", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "56"
+[[sources]]
+publication = "orcs-of-golarion"
+page = "24"
 
 [fields]
 kind = "feat"
@@ -15,8 +21,6 @@ benefit = "When you are raging and you succeed at a sunder combat maneuver, you 
 +++
 
 ## Destroyer's Blessing (Combat)
-
-**Sources:** Advanced Race Guide pg 56, Orcs of Golarion pg 24
 
 Breaking things adds to your power.\
 **Prerequisites:** [Half-orc](ref/race/half-orc) or [orc](ref/race/orc), rage class feature.\

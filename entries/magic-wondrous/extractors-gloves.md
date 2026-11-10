@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extractors_gloves", path = "json/magic_wondrous_eyes_feet_hands.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "33"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Monster Codex pg 33\
 **Aura** moderate transmutation; **CL** 5th\
 **Slot** hands; **Price** 5,000 gp; **Weight** -
 

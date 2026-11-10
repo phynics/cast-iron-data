@@ -6,12 +6,13 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discovery_and_exploration", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "124"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Wilderness pg 124
 
 Unspoiled wilderness and uncharted lands represent an opportunity for exploration and the discovery
 of ancient secrets, lost treasures, natural wonders, and the remote lairs of terrible beasts. As

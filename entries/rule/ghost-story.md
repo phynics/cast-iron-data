@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_story", path = "json/rules_campaign_types03.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "194"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 194
 
 These stories feature ghosts - whether they're actual spirits or the characters simply believe in
 those spirits. Usually relatively short tales, stories in this subgenre focus on wayward souls and

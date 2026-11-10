@@ -6,6 +6,8 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wildsoul_aria", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Wildsoul Aria (Sing, Wind)
-
-**Sources:** Heroes from the Fringe
 
 Channeling the mysterious power of [the First World](ref/rule/the-first-world), you grant the
 listener the gift - or curse - of an animal's shape.

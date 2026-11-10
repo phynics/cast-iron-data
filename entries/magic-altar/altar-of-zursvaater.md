@@ -6,6 +6,9 @@ source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altar_of_zursvaater", path = "json/magic_altar.json" },
 ]
+[[sources]]
+publication = "pathfinder-95-anvil-of-fire"
+page = "45"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Sources:** Pathfinder \#95: Anvil of Fire pg 45\
 **Aura** moderate abjuration \[evil, lawful\]; **CL** 10th\
 **Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.
 

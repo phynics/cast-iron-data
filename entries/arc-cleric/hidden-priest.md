@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cleric" },
 ]
+[[sources]]
+publication = "inner-sea-magic"
+page = "35"
 
 [fields]
 kind = "archetype"
 replaces = ["One of the cleric's two 1st-level domain powers (her choice)", "One of the cleric's two 8th-level domain powers (his choice)"]
 +++
 
-**Sources:** Inner Sea Magic pg 35\
 Practicing one's religion is not always legal. For example, most lands outlaw worshiping fiends.
 Taldor has banned the faith of [Sarenrae](ref/faith/sarenrae) from being openly worshiped. Rahadoum
 flat-out forbids all religions within its borders. But as time has shown again and again, mere laws

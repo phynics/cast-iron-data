@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melee_and_ranged_attacks", path = "json/rules_combat01.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "182"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 182
 
 **Melee Attacks:** With a normal melee weapon, you can strike any opponent within 5 feet. (Opponents
 within 5 feet are considered adjacent to you.) Some melee weapons have [reach](ref/misc/reach), as

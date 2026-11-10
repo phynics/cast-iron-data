@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "33"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Trap sense", "investigator talent gained at 3rd leve
 alters = ["Inspiration"]
 +++
 
-**Sources:** Ultimate Intrigue pg 33\
 A forensic physician specializes in analyzing medical details in order to solve crimes and uncover
 evidence. Whether it is a disease, blood work, a poison, or bones, the forensic physician's medical
 expertise allows him great insight into his cases, much to the chagrin of criminals who seek to

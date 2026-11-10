@@ -6,6 +6,9 @@ source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tome_of_heretical_revelation", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "faiths-and-philosophies"
+page = "31"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Sources:** Faiths and Philosophies pg 31\
 **Aura** strong abjuration; **CL** 17th\
 **Slot** none; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repair_undead", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "191"
 
 [fields]
 kind = "spell"
@@ -38,8 +41,6 @@ Saving throw: Will half (harmless)
 Spell resistance: yes (harmless)
 Target: one undead creature touched (see text)
 :::
-
-**Sources:** Advanced Class Guide pg 191
 
 When you touch an undead creature, you channel negative energy that heals 1d8 points of damage + 1
 point per caster level (maximum +5). This spell has no effect on living creatures, except those that

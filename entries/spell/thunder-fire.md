@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunder_fire", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "247"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: Will negates (object), see text
 Spell resistance: yes (object), see text
 Target: 1 loaded firearm
 :::
-
-**Sources:** Ultimate Combat pg 247
 
 The firearm targeted creates a thunderous report, even if the firearm is not loaded. Every creature
 within 15 feet of the creature wielding or carrying the firearm must succeed at a Fortitude save or

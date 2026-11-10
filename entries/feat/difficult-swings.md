@@ -6,6 +6,9 @@ source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "difficult_swings", path = "json/feat04.json" },
 ]
+[[sources]]
+publication = "weapon-masters-handbook"
+page = "22"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "When you make a full attack with an appropriate melee weapon, you can
 +++
 
 ## Difficult Swings (Weapon Mastery)
-
-**Sources:** Weapon Master's Handbook pg 22
 
 You can force foes to move cautiously when near you.\
 **Prerequisites:** Base attack bonus +5, weapon training class feature with a melee weapon.\

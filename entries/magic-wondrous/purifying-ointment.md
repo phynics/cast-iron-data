@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purifying_ointment", path = "json/magic_wondrous_slotless05.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "223"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Horror Adventures pg 223\
 **Aura** faint abjuration and conjuration; **CL** 5th\
 **Slot** none; **Price** 4,000 gp; **Weight** 1/2 lb.
 

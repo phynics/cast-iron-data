@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinatory_terrain", path = "json/spells5.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "293"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Area: one 30-ft. cube/level (S)
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** PRPG Core Rulebook pg 293
 
 You make natural terrain look, sound, and smell like some other sort of natural terrain. Structures,
 equipment, and creatures within the area are not hidden or changed in appearance.

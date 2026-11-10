@@ -6,6 +6,9 @@ source_ids = ["pathfinder-55-the-wormwood-mutiny"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hospitalitys_hammock", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-55-the-wormwood-mutiny"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#55: The Wormwood Mutiny pg 58\
 **Aura** faint conjuration; **CL** 5th\
 **Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
 

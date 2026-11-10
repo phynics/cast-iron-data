@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "working_weekends", path = "json/rules_subsystems02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "79"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 79
 
 The Craft and Profession skills in the Pathfinder RPG Core Rulebook allow you to attempt a skill
 check once per week, earning an amount of gp equal to 1/2 your check result. If you were to divide

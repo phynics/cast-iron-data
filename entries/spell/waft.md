@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waft", path = "json/spells11.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "14"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Saving throw: Will negates
 Spell resistance: yes
 Targets: up to one creature per 2 levels, no two of which can be more than 30 ft. apart
 :::
-
-**Sources:** Ultimate Wilderness pg 14
 
 > _[Gathlains](ref/race/gathlain) have access to the following spell._
 

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_scabbard", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "16"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Sources:** Magical Marketplace pg 16\
 **Aura** moderate transmutation; **CL** 7th\
 **Slot** belt; **Price** 8,500 gp; **Weight** 3 lbs.
 

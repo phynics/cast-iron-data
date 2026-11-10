@@ -6,12 +6,13 @@ source_ids = ["lands-of-conflict"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covert_action", path = "json/rules_campaign_types01.json" },
 ]
+[[sources]]
+publication = "lands-of-conflict"
+page = "55"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Lands of Conflict pg 55
 
 **Covert Action** **(Spies):** A team of spies works with any other team to hide evidence that they
 or the militia were involved in an operation. All d20 rolls to resolve a militia action taken

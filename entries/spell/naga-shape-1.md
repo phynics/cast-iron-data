@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_shape_1", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: no
 Target: you
 Subschool: Polymorph
 :::
-
-**Sources:** Blood of the Beast pg 19
 
 > _The following spells are the result of generations of [nagaji](ref/race/nagaji) tradition, but
 > spellcasters from elsewhere in Tian Xia have begun to learn these techniques and spread them

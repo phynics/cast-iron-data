@@ -6,6 +6,9 @@ source_ids = ["ire-of-the-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_inurement", path = "json/magic_ring.json" },
 ]
+[[sources]]
+publication = "ire-of-the-storm"
+page = "51"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Sources:** Ire of the Storm pg 51\
 **Aura** faint abjuration; **CL** 1st\
 **Slot** ring; **Price** 1,000 gp; **Weight** -
 

@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirgesingers_choir", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "30"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Sources:** Champions of Corruption pg 30\
 **Aura** strong necromancy \[evil\]; **CL** 13th\
 **Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
 

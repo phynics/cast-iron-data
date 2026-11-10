@@ -6,12 +6,14 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "18-19"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Horror Adventures pg. 18-19\
 The waves call to you, like a siren's song echoing across crashing surf.
 
 ### Catalyst

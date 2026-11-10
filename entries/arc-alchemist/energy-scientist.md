@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "30"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Brew potion", "Poison resistance", "poison immunity", "Poison use",
 alters = ["Bombs", "Alchemy"]
 +++
 
-**Sources:** Elemental Master's Handbook pg 30\
 Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so
 that they can traverse the Elemental Planes in search of novel discoveries and reagents.
 

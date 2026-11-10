@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorn_javelin", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "196"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Effect: javelin-like thorn
 Subschool: Creation
 Descriptors: poison
 :::
-
-**Sources:** Advanced Class Guide pg 196
 
 A wooden thorn the size of a javelin (appropriate for your size) appears in your open hand. You can
 wield this thorn as a javelin, and you are proficient in its use. Any creature struck by the javelin

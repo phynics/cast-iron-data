@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akashic_form", path = "json/spells.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "156"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Occult Adventures pg 156
 
 You create a perfect record of your physical body in the [Akashic Record](ref/rule/akashic-record)
 at the time the spell is cast. This record includes your current hit point total, physical ability

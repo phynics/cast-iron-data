@@ -6,6 +6,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grog_cup", path = "json/equipment_misc2.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "21"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ weight = "1 lb. (cup), 8 lbs. (gallon), 1/2 lb. (mug)"
 
 ## Grog
 
-**Sources:** Pirates of the Inner Sea pg 21\
 **Price** 1 cp (cup), 1 sp (gallon), 2 cp (mug); **Weight** 1 lb. (cup), 8 lbs. (gallon), 1/2 lb.
 (mug)
 

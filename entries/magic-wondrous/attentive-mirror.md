@@ -6,6 +6,9 @@ source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attentive_mirror", path = "json/magic_wondrous_slotless01.json" },
 ]
+[[sources]]
+publication = "pathfinder-67-the-snows-of-summer"
+page = "60"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint abjuration and divination"
 caster_level = "5th"
 +++
 
-**Sources:** Pathfinder \#67: The Snows of Summer pg 60\
 **Aura** faint abjuration and divination; **CL** 5th\
 **Slot** none; **Price** 1,800 gp; **Weight** 1/2 lb.
 

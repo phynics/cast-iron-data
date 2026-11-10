@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_fortune", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "325"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "evocation (moderate)"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Player's Guide pg 325\
 **Aura** evocation (moderate); **CL** 9th\
 **Slot** none; **Price** 44,400 gp; **Weight** 3 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yurei", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "286"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ jerks._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 6 pg 286\
 **Type:** undead
 
 **Experience points:** 19,200

@@ -6,6 +6,9 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tremorsense", path = "json/class_ability_kinetic_talents.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "28"
 
 [fields]
 kind = "class_option"
@@ -21,8 +24,6 @@ group = "kineticist-wild-talent"
 **Level:** 3
 
 **Burn:** 0
-
-**Source:** Occult Adventures/28
 
 You can take a **move action** to gain [tremorsense](ref/umr/tremorsense) 30 feet for 1 round on any
 earth or stone surface that you touch. You can accept 1 point of burn to increase the duration to 1

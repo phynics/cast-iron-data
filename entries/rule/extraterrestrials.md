@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extraterrestrials", path = "json/rules_gm04.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "165"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 165
 
 When creating alien races, first decide how alien you want them to be. Strangely colored humanoids
 serve their purpose, but given the biodiversity on even one world, why not try something bizarre?

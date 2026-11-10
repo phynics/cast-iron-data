@@ -6,6 +6,9 @@ source_ids = ["pathfinder-89-palace-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gammenore", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "pathfinder-89-palace-of-fallen-stars"
+page = "84"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ large - flex in anticipation of combat._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#89: Palace of Fallen Stars pg 84\
 **Subtype:** Cold
 
 **Experience points:** 4,800

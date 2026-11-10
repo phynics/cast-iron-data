@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "20"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 20
 
 Voice is how the guide conveys the content to the reader. It includes choices like viewpoint, tone,
 and style, which can not only affect how the content is conveyed, but can also provide additional

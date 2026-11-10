@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "11"
 
 [fields]
 kind = "archetype"
 replaces = ["Dirge of doom", "frightening tune", "Inspire heroics", "Versatile performance", "Inspire competence"]
 +++
 
-**Sources:** Ultimate Wilderness pg 11\
 Fey who associate with courts often become bards skilled at navigating the inhuman societies of the
 trackless wilds.
 

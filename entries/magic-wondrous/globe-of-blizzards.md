@@ -6,6 +6,9 @@ source_ids = ["pathfinder-69-maiden-mother-crone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "globe_of_blizzards", path = "json/magic_wondrous_slotless03.json" },
 ]
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
+page = "61"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Pathfinder \#69: Maiden, Mother, Crone pg 61\
 **Aura** strong transmutation; **CL** 13th\
 **Slot** none; **Price** 4,550 gp; **Weight** 1 lb.
 

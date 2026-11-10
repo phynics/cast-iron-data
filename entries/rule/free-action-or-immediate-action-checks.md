@@ -6,12 +6,13 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_action_or_immediate_action_checks", path = "json/rules_adv_gm01.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "156"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Combat pg 156
 
 The following triggers allow a combatant to make a performance combat check as a free action or an
 immediate action. A combatant may also opt to make any of these performance combat checks as a swift

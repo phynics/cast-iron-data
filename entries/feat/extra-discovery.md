@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_discovery", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "160"
 
 [fields]
 kind = "feat"
@@ -13,8 +16,6 @@ prerequisites = "Discovery class feature."
 benefit = "You gain one additional discovery. You must meet all of the prerequisites for this discovery."
 special = "You can gain Extra Discovery multiple times."
 +++
-
-**Sources:** Advanced Player's Guide pg 160
 
 You have made a new alchemical discovery.\
 **Prerequisites:** Discovery class feature.\

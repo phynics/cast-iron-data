@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracles_vessel", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "230"
 
 [fields]
 kind = "spell"
@@ -36,8 +39,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: one creature
 :::
-
-**Sources:** Ultimate Magic pg 230
 
 The target gains all the benefits of your oracle's curse, with none of the penalties. In some cases,
 this has no effect (for example, a fighter with your haunted curse can't cast spells and doesn't

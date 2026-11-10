@@ -6,12 +6,13 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clandestine_operations", path = "json/rules_subsystems04.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "112"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Intrigue pg 112
 
 The base organizational influence system assumes that the PCs act as a unified group and do not take
 extraordinary effort to conceal their identities and activities. In an intrigue-based campaign,

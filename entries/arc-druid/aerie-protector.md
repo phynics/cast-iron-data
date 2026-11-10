@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/druid" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Woodland stride", "Resist nature's lure", "Venom immunity"]
 alters = ["Weapon and armor proficiency", "Nature bond", "Wild empathy", "Wild shape"]
 +++
 
-**Sources:** Ultimate Wilderness pg 47\
 The aerie protector guards nature's nests and lairs in the highest mountains, and she is only ever
 truly at ease when under vast expanses of open sky.
 

@@ -6,6 +6,9 @@ source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restful_cloak", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "adventurers-armory-2"
+page = "21"
 
 [fields]
 kind = "spell"
@@ -46,8 +49,6 @@ Spell resistance: no
 Target: you
 Subschool: Healing
 :::
-
-**Sources:** Adventurer's Armory 2 pg 21
 
 A cloak you are wearing transforms into a canvas tent large enough to hold four Medium creatures,
 firmly pitched in a flat area adjacent to you (if there is no such area, this spell simply fails). A

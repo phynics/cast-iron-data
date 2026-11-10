@@ -6,6 +6,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liquid_influence", path = "json/magic_infused_poisons.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "13"
 
 [fields]
 kind = "item"
@@ -16,7 +19,6 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Sources:** Black Markets pg 13\
 **Aura** faint enchantment; **CL** 5th\
 **Slot**; **Price** 900 gp; **Weight** —
 

@@ -6,6 +6,9 @@ source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_bottle", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "alchemy-manual"
+page = "17"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "3rd"
 +++
 
-**Sources:** Alchemy Manual pg 17\
 **Aura** moderate evocation; **CL** 3rd\
 **Slot** none; **Price** 1,620 gp; **Weight** 1 lb.
 

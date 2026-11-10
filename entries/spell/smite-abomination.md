@@ -6,6 +6,12 @@ source_ids = ["inner-sea-gods", "pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smite_abomination", path = "json/spells9.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "241"
+[[sources]]
+publication = "pathfinder-44-trial-of-the-beast"
+page = "69"
 
 [fields]
 kind = "spell"
@@ -40,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Gods pg 241, Pathfinder \#44: Trial of the Beast pg 69
 
 Drawing upon positive energy, you emulate some of a paladin's power to smite undead. Choose one
 undead creature as your target. Your melee attacks against that target gain a bonus equal to your

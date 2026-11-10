@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_fever", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "218"
 
 [fields]
 kind = "spell"
@@ -43,7 +46,5 @@ Spell resistance: yes
 Target: one creature
 Descriptors: curse, disease, evil
 :::
-
-**Sources:** Ultimate Magic pg 218
 
 The target gains the [eldritch ague spellblight](ref/rule/minor-spellblights).

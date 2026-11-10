@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/gunslinger" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "23"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Startling shot deed", "Lightning reload deed", "Menacing shot deed"
 alters = ["Gun training"]
 +++
 
-**Sources:** Dragonslayer's Handbook pg 23\
 These long-shot artists are masters at taking down dragons with sharp shooting and light siege
 weaponry.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winging_it", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "19"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 19
 
 Even though you're the GM, you don't have to do everything yourself. You can pass along any number
 of tasks to your players.

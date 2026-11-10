@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "etheroot", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "233"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ mouth at the end of a long stalk._
 
 **Senses:** Darkvision 60 ft., Low-light vision, See invisibility
 
-**Sources:** Planar Adventures pg 233\
 **Subtype:** Extraplanar
 
 **Experience points:** 4,800

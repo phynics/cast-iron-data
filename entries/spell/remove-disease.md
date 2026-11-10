@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_disease", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "332"
 
 [fields]
 kind = "spell"
@@ -50,8 +53,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 332
 
 Remove disease can cure all diseases from which the subject is suffering. You must make a caster
 level check (1d20 + caster level) against the DC of each disease affecting the target. Success means

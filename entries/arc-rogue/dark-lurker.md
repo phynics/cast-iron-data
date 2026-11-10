@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/rogue" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "26"
 
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Rogue talent gained at 2nd level", "Rogue talent gained at 8th level", "Rogue talent gained at 14th level", "Rogue talent gained at 20th level"]
 +++
 
-**Sources:** Heroes of the Streets pg 26\
 Dark lurkers use darkness as an ally. They are widely feared in many major metropolises, spoken of
 as "living shadows" by guards of Magnimar who patrol under the Irespan and called "the hungry night"
 by citizens of Absalom who mistake them for fetchling assassins.

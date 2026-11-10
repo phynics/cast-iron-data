@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blend_with_surroundings", path = "json/spells12.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "30"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Targets: one creature
 Subschool: Glamer
 Descriptors: glamer
 :::
-
-**Sources:** Dirty Tactics Toolbox pg 30
 
 This spell changes the appearance of the affected creature so that it better blends in with its
 surroundings. As chosen by you, the affected creature takes on the appearance of a statue,

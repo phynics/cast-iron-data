@@ -6,6 +6,15 @@ source_ids = ["ultimate-equipment", "pathfinder-4-fortress-of-the-stone-giants",
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_heaven_and_earth", path = "json/magic_staff.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "197"
+[[sources]]
+publication = "pathfinder-4-fortress-of-the-stone-giants"
+page = "23"
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "427"
 
 [fields]
 kind = "item"
@@ -17,8 +26,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Ultimate Equipment pg 197, Pathfinder \#4: Fortress of the Stone Giants pg 23, Rise of
-the Runelords Anniversary Edition pg 427\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.
 

@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kbuildings1", path = "json/rules_campaign_types04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "215"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 215
 
 ### Academy (52 BP, 2 Lots)
 

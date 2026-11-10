@@ -6,6 +6,12 @@ source_ids = ["book-of-the-damned", "book-of-the-damned-volume-1-princes-of-dark
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrifice", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "book-of-the-damned"
+page = "185"
+[[sources]]
+publication = "book-of-the-damned-volume-1-princes-of-darkness"
+page = "47"
 
 [fields]
 kind = "spell"
@@ -45,8 +51,6 @@ Target: one summoned elemental or outsider (see text)
 Subschool: Charm
 Descriptors: mind-affecting
 :::
-
-**Sources:** Book of the Damned pg 185, Book of the Damned - Volume 1: Princes of Darkness pg 47
 
 You make a sacrifice to aid in conjuring and commanding a creature called with
 [planar ally](ref/spell/planar-ally), [planar binding](ref/spell/planar-binding), or a similar

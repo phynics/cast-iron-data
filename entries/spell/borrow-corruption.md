@@ -6,6 +6,9 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "borrow_corruption", path = "json/spells2.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "111"
 
 [fields]
 kind = "spell"
@@ -51,8 +54,6 @@ Spell resistance: no
 Target: creature touched
 Descriptors: evil
 :::
-
-**Sources:** Horror Adventures pg 111
 
 You touch a creature with at least one manifestation from a [corruption](ref/rule/corruption). You
 temporarily gain any stains and gifts that corruption grants to the creature, and the creature

@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilding_strike", path = "json/feat17.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "120"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "The damage die of your unarmed strikes increases to 1d6 (or 1d4 if yo
 +++
 
 ## Wilding Strike (Combat)
-
-**Sources:** Ultimate Wilderness pg 120
 
 Filled with the might of nature, you need no weapons of steel or wood. Your fists and feet are as
 potent as any creation of the forge.\

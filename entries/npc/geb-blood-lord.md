@@ -6,6 +6,9 @@ source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geb_blood_lord", path = "json/npcs7.json" },
 ]
+[[sources]]
+publication = "inner-sea-npc-codex"
+page = "23"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "18"
 
 **Challenge rating:** 18
 
-**Sources:** Inner Sea NPC Codex pg 23\
 **XP** 153,600\
 Human lich [aristocrat](ref/npcclass/aristocrat) 4/necromancer 13\
 LE Medium undead (augmented humanoid)\

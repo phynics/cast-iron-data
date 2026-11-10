@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oni_kuwa", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ four-fingered claws._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 3 pg 208\
 **Subtype:** Human, Native, Oni, Shapechanger
 
 **Experience points:** 1,200

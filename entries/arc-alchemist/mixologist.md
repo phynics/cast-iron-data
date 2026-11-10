@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/alchemist" },
 ]
+[[sources]]
+publication = "inner-sea-taverns"
+page = "57"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Mutagen", "The discovery gained at 2nd level", "Persistent mutagen"
 alters = ["Alchemy", "brew potion", "Poison resistance"]
 +++
 
-**Sources:** Inner Sea Taverns pg 57\
 Certain alchemists focus on mastering the chemical reactions between alcohol and the physical body.
 Though the powerful potions they brew can have drawbacks, they are at least pleasurable.
 

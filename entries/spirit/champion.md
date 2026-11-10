@@ -6,13 +6,15 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion", path = "json/class_ability_spirits.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "34"
 
 [fields]
 kind = "class_option"
 group = "medium-spirit"
 +++
 
-**Sources:** Occult Adventures pg 34\
 A champion spirit is a paragon of skill at arms.
 
 **Spirit Bonus**

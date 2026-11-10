@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "volcanoes", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "234"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 234
 
 When the world's crust ruptures and expels its molten heart, one of the most dramatic natural
 disasters results: a volcano. Volcanic eruptions offer a wide range of options for the GM, including

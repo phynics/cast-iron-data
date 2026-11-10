@@ -6,6 +6,9 @@ source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aiudara", path = "json/magic_artifact3.json" },
 ]
+[[sources]]
+publication = "elves-of-golarion"
+page = "18"
 
 [fields]
 kind = "item"
@@ -16,8 +19,6 @@ slot = "none"
 aura = "not stated, presumably conjuration (teleportation)"
 caster_level = "-"
 +++
-
-**Sources:** Elves of Golarion pg 18
 
 **Aura** not stated, presumably conjuration (teleportation); **CL** -\
 **Slot** none; **Price** -; **Weight** -

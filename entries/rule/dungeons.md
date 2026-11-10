@@ -6,12 +6,13 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeons", path = "json/rules_gm08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "410"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** PRPG Core Rulebook pg 410
 
 Of all the strange places that an adventurer might explore, none is deadlier than the dungeon. These
 labyrinths, full of deadly traps, hungry monsters, and priceless treasure, test every skill a

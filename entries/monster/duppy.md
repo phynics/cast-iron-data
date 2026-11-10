@@ -6,6 +6,12 @@ source_ids = ["bestiary-5", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duppy", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "100"
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "48"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ the creature's legs._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 5 pg 100, Isles of the Shackles pg 48\
 **Subtype:** Incorporeal
 
 **Type:** undead

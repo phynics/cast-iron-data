@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/cavalier" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "12"
+[[sources]]
+publication = "inner-sea-combat"
+page = "42"
 
 [fields]
 kind = "archetype"
@@ -16,7 +22,6 @@ replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", 
 alters = ["Mount"]
 +++
 
-**Sources:** Adventurer's Guide pg 12, Inner Sea Combat pg 42\
 The traditions of the Qadiran horselords are now spread throughout Qadira and the lands beyond in
 the Inner Sea region, but they originated among the horse-breeders and mounted-combat specialists of
 the [Al-Zabriti](ref/rule/aff-deserts); the name "horselord" was applied by outlanders. Qadiran

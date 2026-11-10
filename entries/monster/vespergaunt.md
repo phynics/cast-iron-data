@@ -6,6 +6,12 @@ source_ids = ["bestiary-6", "inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vespergaunt", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "272"
+[[sources]]
+publication = "inner-sea-bestiary"
+page = "58"
 
 [fields]
 kind = "creature"
@@ -46,7 +52,6 @@ vapor._
 
 **Senses:** True seeing
 
-**Sources:** Bestiary 6 pg 272, Inner Sea Bestiary pg 58\
 **Experience points:** 19,200
 
 **Armor class:** 24/16/18

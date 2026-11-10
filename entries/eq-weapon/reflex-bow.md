@@ -6,14 +6,15 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reflex_bow", path = "json/equipment_weapons2.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "11"
 
 [fields]
 kind = "item"
 category = "Weapons"
 weight = "2 lbs."
 +++
-
-**Sources:** Merchant's Manifest pg 11
 
 These C-shaped bows are most often used in the Hongal tundra by the outriders of Tianjing, and in
 rare cases by the nobility of Xa Hoi. The unique shape and craft of these bows allows them to shoot

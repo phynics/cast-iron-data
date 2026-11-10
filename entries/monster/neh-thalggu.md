@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neh_thalggu", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "197"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ along its back that hold human brains._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 2 pg 197\
 **Experience points:** 4,800
 
 **Armor class:** 21/19/18

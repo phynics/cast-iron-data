@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/barbarian" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "47"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Improved uncanny dodge", "Greater rage", "Mighty rage"]
 alters = ["Rage"]
 +++
 
-**Sources:** Horror Adventures pg 47\
 Some barbarians exhibit an unusual form of lycanthropy powered by their fury. Such a character
 transforms willfully but can maintain her animal or hybrid forms only while raging.
 

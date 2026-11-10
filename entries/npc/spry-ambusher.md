@@ -6,6 +6,9 @@ source_ids = ["npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spry_ambusher", path = "json/npcs5.json" },
 ]
+[[sources]]
+publication = "npc-codex"
+page = "97"
 
 [fields]
 kind = "creature"
@@ -16,7 +19,6 @@ cr = "3"
 
 **Challenge rating:** 3
 
-**Sources:** NPC Codex pg 97\
 **XP** 800\
 Gnome [monk](ref/class/monk) 4\
 LN Small humanoid (gnome)\

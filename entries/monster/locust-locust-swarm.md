@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_locust_swarm", path = "json/monsters16.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "183"
 
 [fields]
 kind = "creature"
@@ -40,7 +43,6 @@ _Thousands upon thousands of locusts dance and drone in a dark and ravenous clou
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Bestiary 4 pg 183\
 **Subtype:** Swarm
 
 **Type:** vermin

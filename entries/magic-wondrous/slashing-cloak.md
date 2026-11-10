@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slashing_cloak", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "268"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ultimate Equipment pg 268\
 **Aura** faint illusion and transmutation; **CL** 5th\
 **Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
 

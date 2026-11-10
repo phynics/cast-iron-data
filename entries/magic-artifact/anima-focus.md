@@ -6,6 +6,12 @@ source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anima_focus", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
+page = "420"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
+page = "58"
 
 [fields]
 kind = "item"
@@ -17,8 +23,6 @@ aura = "strong (conjuration and necromancy)"
 caster_level = "20th"
 +++
 
-**Sources:** Rise of the Runelords Anniversary Edition pg 420, Pathfinder \#6: Spires of Xin-Shalast
-pg 58\
 **Aura** strong (conjuration and necromancy); **CL** 20th\
 **Slot** none; **Price** -; **Weight** 9 tons
 

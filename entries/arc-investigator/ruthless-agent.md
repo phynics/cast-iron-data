@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/investigator" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "27"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Trapfinding", "Trap sense", "Swift alchemy", "Investigator talent g
 alters = ["Inspiration"]
 +++
 
-**Sources:** Antihero's Handbook pg 27\
 Ruthless agents are often called upon for their skills at extracting information by any means
 necessary. Though some view their methods as extreme, ruthless agents prize getting the job done at
 all costs. Ruthless agents can be found in the employ of nearly any organization - even goodly

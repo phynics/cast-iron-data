@@ -6,6 +6,9 @@ source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dual_path", path = "json/feat05.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "63"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Select a mythic path other than the path you selected at your moment 
 +++
 
 ## Dual Path (Mythic)
-
-**Sources:** Mythic Adventures pg 63
 
 You follow two mythic paths.\
 **Prerequisites:** 1st mythic tier.\

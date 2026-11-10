@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwieldy_glaive", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "351"
 
 [fields]
 kind = "item"
@@ -15,8 +18,6 @@ slot = "none"
 aura = "faint transmutation"
 caster_level = "5th"
 +++
-
-**Sources:** Ultimate Equipment pg 351
 
 **Aura** faint transmutation; **CL** 5th\
 **Slot** none; **Weight** 10 lbs.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_penetrating_strike", path = "json/feat08.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "125"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Your attacks with weapons selected with Weapon Focus ignore up to 10 
 +++
 
 ## Greater Penetrating Strike (Combat)
-
-**Sources:** PRPG Core Rulebook pg 125
 
 Your attacks penetrate the defenses of most foes.\
 **Prerequisites:** [Penetrating Strike](ref/feat/penetrating-strike),

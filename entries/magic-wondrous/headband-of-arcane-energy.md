@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "headband_of_arcane_energy", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "248"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Sources:** Ultimate Equipment pg 248\
 **Aura** strong evocation; **CL** 13th\
 **Slot** headband; **Price** 20,000 gp; **Weight** 1 lb.
 

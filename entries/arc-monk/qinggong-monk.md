@@ -9,13 +9,21 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/monk" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "51"
+[[sources]]
+publication = "martial-arts-handbook"
+page = "21"
+[[sources]]
+publication = "advanced-race-guide"
+page = "149"
 
 [fields]
 kind = "archetype"
 replaces = ["The monk class abilities the qinggong monk gives up for a ki power"]
 +++
 
-**Sources:** Ultimate Magic pg 51, Martial Arts Handbook pg 21, Advanced Race Guide pg 149\
 The qinggong monk is a master of her ki, using it to perform superhuman stunts or even blast
 opponents with supernatural energy. Some achieve their power over ki through extreme discipline,
 while others attain this power by intentionally or accidentally ingesting rare herbs or strange

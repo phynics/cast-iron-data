@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/wizard" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "74"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Scribe Scroll", "the 5th- and 10th-level bonus feats", "The school 
 alters = ["Arcane bond", "The 1st-level arcane school ability", "Spellbook"]
 +++
 
-**Sources:** Horror Adventures pg 74\
 Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond
 the stars.
 

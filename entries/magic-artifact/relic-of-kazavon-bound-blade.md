@@ -6,6 +6,12 @@ source_ids = ["artifacts-and-legends", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_of_kazavon_bound_blade", path = "json/magic_artifact2.json" },
 ]
+[[sources]]
+publication = "artifacts-and-legends"
+page = "36"
+[[sources]]
+publication = "pathfinder-12-crown-of-fangs"
+page = "64"
 
 [fields]
 kind = "item"
@@ -17,7 +23,6 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Sources:** Artifacts and Legends pg 36, Pathfinder \#12: Crown of Fangs pg 64\
 **Aura** strong necromancy; **CL** 20th\
 **Slot** none; **Price** -; **Weight** 6 lbs.
 

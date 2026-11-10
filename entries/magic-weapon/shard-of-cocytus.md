@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shard_of_cocytus", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "49"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Sources:** Planar Adventures pg 49\
 **Aura** moderate evocation; **CL** 7th\
 **Slot** weapon; **Price** 16,302 gp; **Weight** 1 lb.
 

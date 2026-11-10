@@ -6,6 +6,9 @@ source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roseling", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "planar-adventures"
+page = "243"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ wings fluttering from its shoulders._
 
 **Size:** small
 
-**Sources:** Planar Adventures pg 243\
 **Subtype:** Extraplanar, Shapechanger
 
 **Experience points:** 3,200

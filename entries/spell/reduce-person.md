@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "330"
 
 [fields]
 kind = "spell"
@@ -49,8 +52,6 @@ Saving throw: Fortitude negates
 Spell resistance: yes
 Target: one humanoid creature
 :::
-
-**Sources:** PRPG Core Rulebook pg 330
 
 This spell causes instant diminution of a humanoid creature, halving its height, length, and width
 and dividing its weight by 8. This decrease changes the creature's size category to the next smaller

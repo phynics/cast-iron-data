@@ -6,6 +6,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifting_jerkin", path = "json/magic_armor.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "25"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint illusion and transmutation"
 caster_level = "3rd"
 +++
 
-**Sources:** Armor Master's Handbook pg 25\
 **Aura** faint illusion and transmutation; **CL** 3rd\
 **Slot** armor; **Price** 5,965 gp; **Weight** 8 lbs.
 

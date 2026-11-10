@@ -6,6 +6,9 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dossal_of_salt_and_tears", path = "json/magic_wondrous_slotless02.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
+page = "24"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate abjuration and transmutation [lawful]"
 caster_level = "10th"
 +++
 
-**Sources:** Lost Treasures pg 24\
 **Aura** moderate abjuration and transmutation \[lawful\]; **CL** 10th\
 **Slot** none; **Price** 50,000 gp; **Weight** 10 lbs.
 

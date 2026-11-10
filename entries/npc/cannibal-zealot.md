@@ -6,6 +6,9 @@ source_ids = ["tombs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannibal_zealot", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "tombs-of-golarion"
+page = "61"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ rugged-looking human, whose grinning mouth is filled with sharp, filed teeth._
 
 **Challenge rating:** 6
 
-**Sources:** Tombs of Golarion pg 61\
 **XP** 2,400\
 Human [barbarian](ref/class/barbarian) 3/[inquisitor](ref/class/inquisitor) 4\
 NE Medium humanoid (human)\

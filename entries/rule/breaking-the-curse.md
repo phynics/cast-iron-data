@@ -6,12 +6,13 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breaking_the_curse", path = "json/rules_campaign_types02.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "141"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Horror Adventures pg 141
 
 The most conventional way to rid a victim of a curse is the spell
 [remove curse](ref/spell/remove-curse), occasionally with the aid of other or more powerful magic.

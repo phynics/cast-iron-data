@@ -9,6 +9,12 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/gate" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "230"
+[[sources]]
+publication = "the-first-world-realm-of-the-fey"
+page = "12"
 
 [fields]
 kind = "spell"
@@ -48,8 +54,6 @@ Subschool: Creation, Calling
 :::
 
 ### Fey Gate
-
-**Sources:** Ultimate Wilderness pg 230, The First World, Realm of the Fey pg 12
 
 This spell functions as [the planar travel function of gate](ref/spell/gate), except it can be used
 to travel only between points on the Material Plane and the First World, and it comes with

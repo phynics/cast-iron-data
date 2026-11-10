@@ -6,6 +6,9 @@ source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_helm", path = "json/magic_wondrous_head_headband.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "124"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Sources:** The Emerald Spire Superdungeon pg 124\
 **Aura** faint divination; **CL** 1st\
 **Slot** head; **Price** 5,600 gp; **Weight** 5 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungoid", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "131"
 
 [fields]
 kind = "none"
@@ -18,8 +21,6 @@ kind = "none"
 **Challenge rating:** +1
 
 **Simple:** present
-
-**Source:** Bestiary 6/131
 
 Creatures with the fungoid simple template appear as they did in life, save that their flesh is
 pallid and moist and mushrooms and mold cake their bodies. This template can be applied to any

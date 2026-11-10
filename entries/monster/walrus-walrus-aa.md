@@ -6,6 +6,9 @@ source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walrus_walrus_aa", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "animal-archive"
+page = "29"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ like a coarse mustache._
 
 **Senses:** Low-light vision
 
-**Sources:** Animal Archive pg 29\
 **Experience points:** 1,200
 
 **Armor class:** 17/9/17

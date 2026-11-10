@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ant_spore_zombie", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "287"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ of the gap._
 
 **Senses:** Darkvision 60 ft., Scent
 
-**Sources:** Bestiary 6 pg 287\
 **Subtype:** Augmented vermin
 
 **Type:** undead

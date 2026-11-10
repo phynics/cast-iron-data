@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "prerequisite", target = "ref/feat/psychic-sensitivity", label = "or" },
 ]
+[[sources]]
+publication = "occult-adventures"
+page = "139"
 
 [fields]
 kind = "feat"
@@ -20,8 +23,6 @@ special = "If you possess the Third Eye feat, your opponent's mental mask is sha
 +++
 
 ## Shatter Mental Mask (Combat)
-
-**Sources:** Occult Adventures pg 139
 
 You are adept at ripping away an opponent's mental mask, exposing its true visage during a psychic
 duel.\

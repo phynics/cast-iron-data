@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entangling_aiguillette", path = "json/magic_wondrous_shoulders_wrists.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "28"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Sources:** Ranged Tactics Toolbox pg 28\
 **Aura** faint transmutation; **CL** 5th\
 **Slot** shoulders; **Price** 2,000 gp; **Weight** 1 lb.
 

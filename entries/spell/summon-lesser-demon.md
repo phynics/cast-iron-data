@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/summon-monster" },
 ]
+[[sources]]
+publication = "pathfinder-74-sword-of-valor"
+page = "75"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Effect: one summoned creature
 Subschool: Summoning
 Descriptors: chaotic, evil
 :::
-
-**Sources:** Pathfinder \#74: Sword of Valor pg 75
 
 This spell functions like [summon monster](ref/spell/summon-monster), except it allows you to summon
 a single brimorak, one incubus, one thoxel demon, 1d3 schir demons, or 1d4+1 vermlek demons.

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_justice", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "312"
 
 [fields]
 kind = "spell"
@@ -44,8 +47,6 @@ Spell resistance: yes
 Target: creature touched
 Descriptors: curse
 :::
-
-**Sources:** PRPG Core Rulebook pg 312
 
 You mark a subject and state some behavior on the part of the subject that will activate the mark.
 When activated, the mark curses the subject. Typically, you designate some sort of undesirable

@@ -6,13 +6,14 @@ source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "madness", path = "json/class_ability_domains2.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "45"
 
 [fields]
 kind = "class_option"
 group = "cleric-domain"
 +++
-
-**Sources:** PRPG Core Rulebook pg 45
 
 **Granted Powers:** You embrace the madness that lurks deep in your heart, and can unleash it to
 drive your foes insane or to sacrifice certain abilities to hone others.

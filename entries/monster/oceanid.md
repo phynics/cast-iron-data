@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oceanid", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "208"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ body._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 208\
 **Subtype:** Water
 
 **tremorsense:** 30 ft. (in water only)

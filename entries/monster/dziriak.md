@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dziriak", path = "json/monsters06.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "113"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ and arms display glowing runes._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 113\
 **Subtype:** Extraplanar
 
 **Experience points:** 800

@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_lattice_2nd", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "235"
 
 [fields]
 kind = "item"
@@ -19,7 +22,6 @@ caster_level = "17th"
 
 ## Spell Lattice
 
-**Sources:** Advanced Class Guide pg 235\
 **Aura** varies (see text); **CL** 17th\
 **Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
 (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** 1 lb.

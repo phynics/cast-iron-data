@@ -6,6 +6,9 @@ source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestments_of_war", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "melee-tactics-toolbox"
+page = "29"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Sources:** Melee Tactics Toolbox pg 29\
 **Aura** moderate evocation; **CL** 9th\
 **Slot** body; **Price** 14,000 gp; **Weight** -
 

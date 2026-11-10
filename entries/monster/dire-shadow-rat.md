@@ -6,6 +6,12 @@ source_ids = ["pathfinder-91-battle-of-bloodmarch-hills", "tome-of-horrors-compl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_shadow_rat", path = "json/monsters09.json" },
 ]
+[[sources]]
+publication = "pathfinder-91-battle-of-bloodmarch-hills"
+page = "54"
+[[sources]]
+publication = "tome-of-horrors-complete-pf"
+page = "504"
 
 [fields]
 kind = "creature"
@@ -39,7 +45,6 @@ Its semi-translucent skin shows discolored bones and muscles._
 
 **Size:** small
 
-**Sources:** Pathfinder \#91: Battle of Bloodmarch Hills pg 54, Tome of Horrors Complete (PF) pg 504\
 **Type:** undead
 
 **Experience points:** 400

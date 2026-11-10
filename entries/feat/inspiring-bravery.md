@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_bravery", path = "json/feat09.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "85"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "As long as you are conscious and not stunned, dazed, or confused, all
 +++
 
 ## Inspiring Bravery (Combat)
-
-**Sources:** Ultimate Intrigue pg 85
 
 Your bravery inspires bravery in others.\
 **Prerequisites:** Cha 13, bravery class feature.\

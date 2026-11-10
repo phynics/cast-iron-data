@@ -6,6 +6,12 @@ source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seaweed_siren", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "235"
+[[sources]]
+publication = "pathfinder-60-from-hells-heart"
+page = "90"
 
 [fields]
 kind = "creature"
@@ -47,7 +53,6 @@ split by a wide, toothy mouth._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 235, Pathfinder \#60: From Hell's Heart pg 90\
 **Subtype:** Aquatic
 
 **Experience points:** 25,600

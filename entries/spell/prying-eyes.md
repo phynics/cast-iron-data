@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prying_eyes", path = "json/spells15.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "326"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Effect: 10 or more levitating eyes
 :::
-
-**Sources:** PRPG Core Rulebook pg 326
 
 You create a number of semi-tangible, visible magical orbs (called "eyes") equal to 1d4 + your
 caster level. These eyes move out, scout around, and return as you direct them when casting the

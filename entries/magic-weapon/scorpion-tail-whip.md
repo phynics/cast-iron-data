@@ -6,6 +6,9 @@ source_ids = ["pathfinder-82-secrets-of-the-sphinx"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorpion_tail_whip", path = "json/magic_weapon.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
+page = "63"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Sources:** Pathfinder \#82: Secrets of the Sphinx pg 63\
 **Aura** moderate divination; **CL** 6th\
 **Slot** none; **Price** 12,305 gp; **Weight** 3 lbs.
 

@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/curse-terrain-lesser" },
 ]
+[[sources]]
+publication = "horror-adventures"
+page = "115"
 
 [fields]
 kind = "spell"
@@ -52,8 +55,6 @@ Descriptors: curse, evil
 :::
 
 ### Supreme Curse Terrain
-
-**Sources:** Horror Adventures pg 115
 
 By touching the ground, you curse the land with seven unnatural hazards. This functions as
 [lesser curse terrain](ref/spell/curse-terrain-lesser), but with the effects of the grand perilous

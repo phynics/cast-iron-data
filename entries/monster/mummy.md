@@ -6,6 +6,9 @@ source_ids = ["bestiary", "pathfinder-81-shifting-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "110"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ gait._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder RPG Bestiary pg 110\
 **Type:** undead
 
 **Experience points:** 1,600

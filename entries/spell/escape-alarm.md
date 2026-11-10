@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/alarm" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "45"
 
 [fields]
 kind = "spell"
@@ -53,8 +56,6 @@ Area: 20-ft.-radius emanation centered on a point in space
 :::
 
 ### Escape Alarm
-
-**Sources:** Villain Codex pg 45
 
 You place a ward on an area that notifies you when a creature exits it. This functions as
 [alarm](ref/spell/alarm), except as noted. It alerts you when a creature leaves, rather than enters,

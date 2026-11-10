@@ -6,6 +6,9 @@ source_ids = ["pathfinder-143-borne-by-the-suns-grace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keyhole", path = "json/spells6.json" },
 ]
+[[sources]]
+publication = "pathfinder-143-borne-by-the-suns-grace"
+page = "78"
 
 [fields]
 kind = "spell"
@@ -42,8 +45,6 @@ Saving throw: special (see text)
 Spell resistance: no
 Target: one touched door or portal
 :::
-
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 78
 
 By touching a single door, gate, or other portal, you create a keyhole where none existed before or
 double the size of an existing keyhole. A conjured keyhole allows you to peer through the door,

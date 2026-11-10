@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hit_points_ucp", path = "json/rules_adv_pc01.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "191"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 191
 
 Sometimes the dice aren't in your favor when you gain a level and the hit points you roll are
 especially low. Unlike retraining other character abilities, retraining hit points doesn't involve

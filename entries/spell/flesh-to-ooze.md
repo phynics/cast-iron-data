@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "variant", target = "ref/spell/baleful-polymorph" },
 ]
+[[sources]]
+publication = "dungeon-denizens-revisited"
+page = "19"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Spell resistance: no
 Target: 1 creature or see text
 Subschool: Polymorph
 :::
-
-**Sources:** Dungeon Denizens Revisited pg 19
 
 This functions like [baleful polymorph](ref/spell/baleful-polymorph), except the target becomes an
 ooze. A creature of 3 HD or less becomes a gray ooze, 4-9 HD becomes a gelatinous cube or ochre

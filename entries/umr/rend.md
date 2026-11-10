@@ -6,6 +6,9 @@ source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rend", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "298"
 
 [fields]
 kind = "none"
@@ -13,7 +16,6 @@ kind = "none"
 
 ## Rend (Ex)
 
-**Sources:** Bestiary 5 pg 298\
 If it hits with two or more natural attacks in 1 round, a creature with the rend special attack can
 cause tremendous damage by latching on to the opponent's body and tearing flesh. This attack deals
 an additional amount of damage, but no more than once per round. The type of attacks that must hit

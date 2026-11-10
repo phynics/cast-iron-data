@@ -6,6 +6,9 @@ source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bastards_sting", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "150"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Sources:** Ultimate Equipment pg 150\
 **Aura** strong necromancy; **CL** 18th\
 **Slot** none; **Price** 123,035 gp; **Weight** 6 lbs.
 

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_mhar", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-138-rise-of-new-thassilon"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -48,7 +51,6 @@ spews smoke and roiling lava._
 
 **Senses:** Darkvision 60 ft.
 
-**Sources:** Pathfinder \#138: Rise of New Thassilon pg 86\
 **Subtype:** Chaotic, Evil, Great Old One
 
 **tremorsense:** 600

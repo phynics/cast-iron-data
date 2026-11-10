@@ -6,6 +6,9 @@ source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_falcon", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-79-the-half-dead-city"
+page = "86"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ shimmers with heat._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Pathfinder \#79: The Half-Dead City pg 86\
 **Subtype:** Fire
 
 **Size:** tiny

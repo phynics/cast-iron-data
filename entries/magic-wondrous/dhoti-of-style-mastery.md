@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dhoti_of_style_mastery", path = "json/magic_wondrous_belt_body_chest.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "107"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Sources:** Adventurer's Guide pg 107\
 **Aura** faint necromancy; **CL** 3rd\
 **Slot** body; **Price** 5,400 gp; **Weight** 1 lb.
 

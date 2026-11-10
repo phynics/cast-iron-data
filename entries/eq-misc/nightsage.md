@@ -6,6 +6,12 @@ source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightsage", path = "json/equipment_misc4.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "155"
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "10"
 
 [fields]
 kind = "item"
@@ -14,7 +20,6 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Sources:** Ultimate Wilderness pg 155, Heroes of the Wild pg 10\
 **Price** 100 gp; **Weight** -\
 **Category** [Herbs](ref/rule/herbalism)\
 **Gather** DC 14; **Yield** 1 dose\

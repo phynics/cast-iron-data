@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "variant_mobile_melee", path = "json/rules_opt_combat01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "111"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 111
 
 This variant modification to removing iterative attacks allows a character greater mobility during a
 melee full attack rather than forcing them to stay put. When a character declares a melee full

@@ -6,6 +6,9 @@ source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_glass_golem", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "138"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ another in a spike of glass._
 
 **Senses:** Darkvision 60 ft., Low-light vision
 
-**Sources:** Bestiary 2 pg 138\
 **Experience points:** 4,800
 
 **Armor class:** 21/8/21

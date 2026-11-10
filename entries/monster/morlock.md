@@ -6,6 +6,12 @@ source_ids = ["bestiary", "into-the-darklands", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morlock", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "209"
+[[sources]]
+publication = "into-the-darklands"
+page = "54"
 
 [fields]
 kind = "creature"
@@ -43,7 +49,6 @@ but its shape is hideously humanoid._
 
 **Senses:** Darkvision 120 ft., Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 209, Into the Darklands pg 54\
 **Experience points:** 600
 
 **Armor class:** 15/14/11

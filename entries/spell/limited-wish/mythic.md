@@ -6,12 +6,14 @@ source_ids = ["mythic-adventures"]
 relations = [
   { kind = "addon", target = "ref/spell/limited-wish", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "100"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Mythic Adventures pg 100\
 When using mythic limited wish to duplicate another spell, you can duplicate a mythic spell you know
 (if you're a spontaneous caster) or have prepared (if you're a caster who prepares spells). If you
 don't know or haven't prepared the mythic spell, you can expend a second use of mythic power

@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/arcanist" },
 ]
+[[sources]]
+publication = "construct-handbook"
+page = "10"
 
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploit gained at 1st level", "The arcanist exploits gained at 5th and 11th level"]
 +++
 
-**Sources:** Construct Handbook pg 10\
 All constructs are animated by magic in some capacity. Arcane tinkerers use their knowledge and
 understanding of magic to disrupt or even destroy constructs.
 

@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fixing_a_broken_game", path = "json/rules_gm01.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "45"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 45
 
 Roleplaying games require flexibility and must be open to interpretation. Sometimes this means one
 element of a campaign can overshadow the rest of it, or a simple mistake can grow over time until

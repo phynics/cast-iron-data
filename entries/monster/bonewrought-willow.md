@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonewrought_willow", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ forms, and long branches made of bones and fibrous fronds._
 
 **Senses:** Low-light vision, Spiritsense
 
-**Sources:** Pathfinder \#139: The Dead Road pg 82\
 **Subtype:** Extraplanar
 
 **Experience points:** 800

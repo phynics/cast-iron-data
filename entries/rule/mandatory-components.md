@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mandatory_components", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "151"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 151
 
 If esoteric components are mandatory, casting any spell that requires a material component requires
 expending the proper amount of esoteric material components instead. A 6th-level wizard casting

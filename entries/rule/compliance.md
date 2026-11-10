@@ -6,12 +6,13 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compliance", path = "json/rules_adv_gm04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "193"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Ultimate Campaign pg 193
 
 Forcing taxes on adventurers carries a certain amount of risk. Low-level PCs who avoid paying taxes
 likely face arrest, heavy fines, and possibly imprisonment if caught. Of course, they might be able

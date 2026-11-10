@@ -6,6 +6,9 @@ source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapmakers_sack", path = "json/magic_wondrous_slotless06.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "137"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Sources:** Advanced Race Guide pg 137\
 **Aura** moderate transmutation; **CL** 9th\
 **Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
 

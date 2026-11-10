@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_critical", path = "json/feat14.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "133"
 
 [fields]
 kind = "feat"
@@ -17,8 +20,6 @@ special = "You can only apply the effects of one critical feat to a given critic
 +++
 
 ## Sickening Critical (Combat, Critical)
-
-**Sources:** PRPG Core Rulebook pg 133
 
 Your critical hits cause opponents to become sickened.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +11.\

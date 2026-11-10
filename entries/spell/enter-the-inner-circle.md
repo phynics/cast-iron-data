@@ -6,12 +6,14 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enter_the_inner_circle", path = "json/occult_rituals.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "200"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Villain Codex pg 200\
 **School** divination; **Level** 4\
 **Casting Time** 40 minuets\
 **Components** V, S, M (initiate's blood), F (membership token), SC (at least 1 - the initiate - and

@@ -6,6 +6,8 @@ source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ballad_of_the_warding_princess", path = "json/class_ability_bardic_masterpieces.json" },
 ]
+[[sources]]
+publication = "lost-treasures"
 
 [fields]
 kind = "class_option"
@@ -13,8 +15,6 @@ group = "bardic-masterpiece"
 +++
 
 ## Ballad of the Warding Princess (Oratory, Sing)
-
-**Sources:** Lost Treasures
 
 The words of your poem weave around your allies and deflect attacks.
 

@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "recall_knowledge_nature", path = "json/rules_opt_skills01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "61"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 61
 
 Nature can be used to recall knowledge on the subjects of animals, climate, plants, seasons and
 cycles, spelunking, terrain, and weather. See [Recall Knowledge](ref/rule/skill-descriptions-pu) for

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "out_of_sight", path = "json/spells7.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "31"
 
 [fields]
 kind = "spell"
@@ -41,8 +44,6 @@ Spell resistance: yes
 Target: you
 Descriptors: mind-affecting
 :::
-
-**Sources:** Occult Origins pg 31
 
 The spell inhibits the memories of creatures that perceive you. While creatures can perceive you
 normally, when a creature stops observing you, it must attempt a Will save

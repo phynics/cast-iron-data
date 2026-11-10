@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trident_of_the_storm_captain", path = "json/magic_weapon2.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "21"
 
 [fields]
 kind = "item"
@@ -17,7 +20,6 @@ aura = "strong evocation and transmutation"
 caster_level = "13th"
 +++
 
-**Sources:** Blood of the Moon pg 21\
 **Aura** strong evocation and transmutation; **CL** 13th\
 **Slot** none; **Price** 109,665 gp; **Weight** 4 lbs.
 

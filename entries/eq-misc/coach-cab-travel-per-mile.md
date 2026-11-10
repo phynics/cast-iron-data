@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coach_cab_travel_per_mile", path = "json/equipment_misc.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "159"
 
 [fields]
 kind = "item"
@@ -15,7 +18,6 @@ price = "-"
 
 ## Coach cab
 
-**Sources:** PRPG Core Rulebook pg 159\
 **Price** -; **Price of Passage** (per mile) 3 cp\
 **Category** Transport, Land
 

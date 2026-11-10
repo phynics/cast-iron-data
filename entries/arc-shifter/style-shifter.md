@@ -9,6 +9,9 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/shifter" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "16"
 
 [fields]
 kind = "archetype"
@@ -16,7 +19,6 @@ replaces = ["Shifter aspect", "chimeric aspect", "greater chimeric aspect", "fin
 alters = ["Armor proficiencies", "Shifter claws", "Wild shape"]
 +++
 
-**Sources:** Martial Arts Handbook pg 16\
 Among the many warriors that train on Tian Xia's Wall of Heaven, a select few have been able to
 perfect their combat techniques to the point where they can augment a combat style by partially
 transforming into the creature that inspired it. These style shifters have honed their techniques

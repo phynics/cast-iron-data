@@ -6,6 +6,9 @@ source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blackraven_scout", path = "json/npcs2.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "55"
 
 [fields]
 kind = "creature"
@@ -19,7 +22,6 @@ dark leather armor._
 
 **Challenge rating:** 5
 
-**Sources:** Lands of the Linnorm Kings pg 55\
 **XP** 1,600\
 Human [ranger](ref/class/ranger) 6\
 CN Medium humanoid\

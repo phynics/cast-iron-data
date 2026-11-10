@@ -6,12 +6,13 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaws", path = "json/rules_opt_magic01.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "190"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** Pathfinder Unchained pg 190
 
 Flaws are adjustments to an item that are detrimental in nature. Most are similar to curses, but not
 nearly as damaging or restrictive to the bearer. Whenever a challenge would add a flaw to an item,

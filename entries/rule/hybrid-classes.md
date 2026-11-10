@@ -6,12 +6,14 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hybrid_classes", path = "json/rules_basics01.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "8"
 
 [fields]
 kind = "none"
 +++
 
-**Sources:** Advanced Class Guide pg 8\
 Most heroes progress along a single path - choosing to become a fearsome fighter, pious cleric, or
 mighty wizard - but some are drawn to many roads. For them, it can be hard to find a balance between
 abilities offered by disparate classes. Hybrid classes solve this dilemma by blending features from

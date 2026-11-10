@@ -6,6 +6,9 @@ source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_assassin", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "59"
 
 [fields]
 kind = "creature"
@@ -45,7 +48,6 @@ compact crossbow bolt launcher._
 
 **Senses:** Darkvision 120 ft., Low-light vision, Mistsight
 
-**Sources:** Bestiary 6 pg 59\
 **Subtype:** Clockwork
 
 **Experience points:** 25,600

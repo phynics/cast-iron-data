@@ -6,6 +6,9 @@ source_ids = ["pathfinder-97-in-hells-bright-shadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impaler_shrike", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "pathfinder-97-in-hells-bright-shadow"
+page = "82"
 
 [fields]
 kind = "creature"
@@ -41,7 +44,6 @@ _This large bird has brown and gray feathers and a vicious hooked beak._
 
 **Senses:** Low-light vision
 
-**Sources:** Pathfinder \#97: In Hell's Bright Shadow pg 82\
 **Experience points:** 800
 
 **Armor class:** 15/12/12

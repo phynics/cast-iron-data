@@ -6,12 +6,13 @@ source_ids = ["game-mastery-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designing_a_gambling_game", path = "json/rules_gm06.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
+page = "241"
 
 [fields]
 kind = "none"
 +++
-
-**Sources:** GameMastery Guide pg 241
 
 A gambling game has five distinct elements: the house, the equipment, the mechanic, the odds, and
 the payout.

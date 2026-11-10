@@ -6,6 +6,9 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "remove_blindness_deafness", path = "json/spells8.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "332"
 
 [fields]
 kind = "spell"
@@ -47,8 +50,6 @@ Spell resistance: yes (harmless)
 Target: creature touched
 Subschool: Healing
 :::
-
-**Sources:** PRPG Core Rulebook pg 332
 
 Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or
 magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them

@@ -6,6 +6,9 @@ source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "277"
 
 [fields]
 kind = "spell"
@@ -54,8 +57,6 @@ Saving throw: Will negates (harmless)
 Spell resistance: yes (harmless)
 Target: creature touched
 :::
-
-**Sources:** PRPG Core Rulebook pg 277
 
 A creature protected by endure elements suffers no harm from being in a hot or cold environment. It
 can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make

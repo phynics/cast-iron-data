@@ -9,13 +9,15 @@ provenance = [
 relations = [
   { kind = "archetype", target = "ref/class/bard" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "46"
 
 [fields]
 kind = "archetype"
 replaces = ["Distraction", "Suggestion", "jack-of-all-trades", "Dirge of doom", "Mass suggestion", "Deadly performance"]
 +++
 
-**Sources:** Inner Sea Intrigue pg 46\
 Studious librarians are bards that have studied long in great libraries of the Inner Sea region,
 such as Taldor's [Kitharodian Academy](ref/rule/f-bards) in Oppara, Forae Logos and the
 [Pathfinder Society's](ref/rule/aff-scholars) Skyreach in Absalom, and the Grand Library of Eto in

@@ -6,6 +6,9 @@ source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xanthos", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "282"
 
 [fields]
 kind = "creature"
@@ -42,7 +45,6 @@ head, neck, and back._
 
 **Senses:** Darkvision 120 ft., Low-light vision
 
-**Sources:** Bestiary 4 pg 282\
 **Experience points:** 38,400
 
 **Armor class:** 31/11/28

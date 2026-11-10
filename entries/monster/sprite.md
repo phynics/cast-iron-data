@@ -6,6 +6,9 @@ source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sprite", path = "json/monsters38.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "256"
 
 [fields]
 kind = "creature"
@@ -43,7 +46,6 @@ ears._
 
 **Senses:** Detect evil, Detect good, Low-light vision
 
-**Sources:** Bestiary 3 pg 256\
 **Experience points:** 135
 
 **Armor class:** 17/17/14

@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_regeneration", path = "json/spells10.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "225"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: 1 willing living creature
 :::
-
-**Sources:** Monster Codex pg 225
 
 You bestow your regenerative abilities on the target. Your regeneration stops functioning for the
 duration of the spell, and the target gains your regeneration. For example, if you have regeneration

@@ -6,14 +6,18 @@ source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_swordlord", path = "json/prestige_classes.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "20"
+[[sources]]
+publication = "paths-of-prestige"
+page = "4"
 
 [fields]
 kind = "class"
 class_type = "prestige"
 hit_die = "d10."
 +++
-
-**Sources:** Adventurer's Guide pg 20, Paths of Prestige pg 4
 
 The [Aldori swordlords](ref/rule/aff-swordmasters) follow no singular path to dueling mastery - some
 of those who take up the blade only dabble in its use, while others explore swordplay with the

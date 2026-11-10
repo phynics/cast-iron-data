@@ -6,6 +6,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_mastery", path = "json/spells4.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "219"
 
 [fields]
 kind = "spell"
@@ -43,8 +46,6 @@ Saving throw: none
 Spell resistance: no
 Target: you
 :::
-
-**Sources:** Inner Sea Races pg 219
 
 > _The following spell is available to the indicated races or ethnicities: [Ifrit](ref/race/ifrit),
 > [Oread](ref/race/oread), [Suli](ref/race/suli), [Sylph](ref/race/sylph),

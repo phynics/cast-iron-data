@@ -6,6 +6,9 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erastils_blessing", path = "json/feat06.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
+page = "19"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "You can use your Wisdom modifier instead of your Dexterity modifier o
 +++
 
 ## Erastil's Blessing (Combat)
-
-**Sources:** Paths of the Righteous pg 19
 
 Old Deadeye's favor grants you prowess with a bow that far exceeds your own physical capabilities.\
 **Prerequisites:** [Weapon Focus](ref/feat/weapon-focus) (longbow), must be a worshiper of

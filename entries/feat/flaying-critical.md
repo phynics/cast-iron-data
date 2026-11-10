@@ -6,6 +6,9 @@ source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flaying_critical", path = "json/feat07.json" },
 ]
+[[sources]]
+publication = "dragonslayers-handbook"
+page = "25"
 
 [fields]
 kind = "feat"
@@ -16,8 +19,6 @@ benefit = "Whenever you score a critical hit, your opponent takes a -1 penalty t
 +++
 
 ## Flaying Critical (Combat, Critical)
-
-**Sources:** Dragonslayer's Handbook pg 25
 
 Your critical hits weaken your opponents' defenses.\
 **Prerequisites:** [Critical Focus](ref/feat/critical-focus), base attack bonus +11.\

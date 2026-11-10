@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "servant_in_the_house_of_truth", path = "json/feat13.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "73"
 
 [fields]
 kind = "feat"
@@ -15,8 +18,6 @@ benefit = "Whenever you attempt a check for a Knowledge skill in which you have 
 +++
 
 ## Servant in the House of Truth (Origin)
-
-**Sources:** Pathfinder \#139: The Dead Road pg 73
 
 Your creator was a scholar and a seeker of lore, and your memories are filled with the feel of
 papyrus and ink.\
