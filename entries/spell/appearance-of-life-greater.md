@@ -2,6 +2,7 @@
 id = "ref/spell/appearance-of-life-greater"
 kind = "spell"
 title = "Greater Appearance of Life"
+aon = "SpellDisplay.aspx?ItemName=Appearance%20of%20Life%2C%20Greater"
 source_ids = ["horror-adventures", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "appearance_of_life_greater", path = "json/spells.json" },

@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/rules/new-rules/hero-points/hero-point-spells/malediction"
 kind = "spell"
 title = "Malediction"
-aon = "SpellDisplay.aspx?ItemName=Malediction"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "New Rules", "Hero Points", "Hero Point Spells"]
 tags = ["necromancy", "death", "evil"]

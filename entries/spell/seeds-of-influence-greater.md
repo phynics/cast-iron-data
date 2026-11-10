@@ -2,6 +2,7 @@
 id = "ref/spell/seeds-of-influence-greater"
 kind = "spell"
 title = "Greater Seeds of Influence"
+aon = "SpellDisplay.aspx?ItemName=Seeds%20of%20Influence%2C%20Greater"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeds_of_influence_greater", path = "json/spells15.json" },

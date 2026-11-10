@@ -2,7 +2,6 @@
 id = "ref/carried/bestiary-2/monsters/ray/stingray"
 kind = "creature"
 title = "Ray, Stingray"
-aon = "MonsterDisplay.aspx?ItemName=Stingray"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Ray"]
 tags = ["animal", "aquatic", "medium"]

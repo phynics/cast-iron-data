@@ -2,7 +2,6 @@
 id = "ref/arc-fighter/qadira-dawnflower-dervish"
 kind = "archetype"
 title = "Qadira: Dawnflower Dervish"
-aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Qadira%20%20Dawnflower%20Dervish"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "qadira_dawnflower_dervish", path = "json/archetypes_fighter2.json" },

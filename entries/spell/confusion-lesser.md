@@ -2,6 +2,7 @@
 id = "ref/spell/confusion-lesser"
 kind = "spell"
 title = "Lesser Confusion"
+aon = "SpellDisplay.aspx?ItemName=Confusion%2C%20Lesser"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusion_lesser", path = "json/spells12.json" },

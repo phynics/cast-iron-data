@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-transmutation-greater"
 kind = "spell"
 title = "Greater Shadow Transmutation"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Transmutation%2C%20Greater"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_transmutation_greater", path = "json/spells15.json" },

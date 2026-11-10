@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-race-guide/races/halflings/alternate-racial-rules/alternate-racial-traits/ingratiating"
 kind = "racial_trait"
 title = "Ingratiating"
-aon = "TraitDisplay.aspx?ItemName=Ingratiating"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Halflings", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "halfling"]

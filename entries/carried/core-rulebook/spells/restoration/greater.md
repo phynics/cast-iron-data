@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/restoration/greater"
 kind = "spell"
 title = "Restoration, Greater"
-aon = "SpellDisplay.aspx?ItemName=Restoration%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Restoration"]
 tags = ["conjuration", "healing"]

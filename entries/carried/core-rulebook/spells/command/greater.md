@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/command/greater"
 kind = "spell"
 title = "Command, Greater"
-aon = "SpellDisplay.aspx?ItemName=Command%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Command"]
 tags = ["enchantment", "compulsion", "language-dependent", "mind-affecting"]

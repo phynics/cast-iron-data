@@ -2,6 +2,7 @@
 id = "ref/spell/repair-undead-mass"
 kind = "spell"
 title = "Mass Repair Undead"
+aon = "SpellDisplay.aspx?ItemName=Repair%20Undead%2C%20Mass"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repair_undead_mass", path = "json/spells8.json" },

@@ -2,7 +2,6 @@
 id = "ref/carried/bestiary-4/monsters/fungal-creature"
 kind = "creature"
 title = "Fungal Creature"
-aon = "MonsterDisplay.aspx?ItemName=Fungal%20Nymph"
 source_ids = ["bestiary-4"]
 section = ["Monsters"]
 tags = ["plant", "augmented fey", "medium"]

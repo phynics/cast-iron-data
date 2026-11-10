@@ -2,7 +2,7 @@
 id = "ref/spell/dispel-magic-greater"
 kind = "spell"
 title = "Greater Dispel Magic"
-aon = "SpellDisplay.aspx?ItemName=dispel%20magic"
+aon = "SpellDisplay.aspx?ItemName=Dispel%20Magic%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_magic_greater", path = "json/spells13.json" },

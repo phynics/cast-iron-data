@@ -2,7 +2,6 @@
 id = "ref/blessing/weather"
 kind = "class_option"
 title = "Weather"
-aon = "DomainDisplay.aspx?ItemName=Weather"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather", path = "json/class_ability_blessings.json" },

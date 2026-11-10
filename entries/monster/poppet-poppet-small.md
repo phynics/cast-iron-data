@@ -2,6 +2,7 @@
 id = "ref/monster/poppet-poppet-small"
 kind = "creature"
 title = "Small Poppet"
+aon = "MonsterDisplay.aspx?ItemName=Poppet%2C%20Small"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poppet_poppet_small", path = "json/monsters37.json" },

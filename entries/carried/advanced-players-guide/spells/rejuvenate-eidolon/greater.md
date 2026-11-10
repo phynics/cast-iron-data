@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/spells/rejuvenate-eidolon/greater"
 kind = "spell"
 title = "Rejuvenate Eidolon, Greater"
-aon = "SpellDisplay.aspx?ItemName=Rejuvenate%20Eidolon%2C%20Greater"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Rejuvenate Eidolon"]
 tags = ["conjuration", "healing"]

@@ -2,7 +2,6 @@
 id = "ref/patron/trickery"
 kind = "class_option"
 title = "Trickery"
-aon = "DomainDisplay.aspx?ItemName=Trickery"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trickery", path = "json/class_ability_patrons.json" },

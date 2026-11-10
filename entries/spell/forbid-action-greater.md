@@ -2,6 +2,7 @@
 id = "ref/spell/forbid-action-greater"
 kind = "spell"
 title = "Greater Forbid Action"
+aon = "SpellDisplay.aspx?ItemName=Forbid%20Action%2C%20Greater"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbid_action_greater", path = "json/spells13.json" },

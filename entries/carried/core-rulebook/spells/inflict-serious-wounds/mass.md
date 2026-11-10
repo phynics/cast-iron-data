@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/inflict-serious-wounds/mass"
 kind = "spell"
 title = "Inflict Serious Wounds, Mass"
-aon = "SpellDisplay.aspx?ItemName=Inflict%20Serious%20Wounds%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Inflict Serious Wounds"]
 tags = ["necromancy"]

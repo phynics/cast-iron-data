@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-arrows-communal"
 kind = "spell"
 title = "Communal Protection from Arrows"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Arrows%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_arrows_communal", path = "json/spells15.json" },

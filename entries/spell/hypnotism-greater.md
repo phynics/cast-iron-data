@@ -2,6 +2,7 @@
 id = "ref/spell/hypnotism-greater"
 kind = "spell"
 title = "Greater Hypnotism"
+aon = "SpellDisplay.aspx?ItemName=Hypnotism%2C%20Greater"
 source_ids = ["core-rulebook", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnotism_greater", path = "json/spells5.json" },

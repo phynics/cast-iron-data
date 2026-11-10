@@ -2,7 +2,6 @@
 id = "ref/carried/monster-codex/rules/goblins/example-goblins/goblin-vulture-pilot/giant-vulture"
 kind = "creature"
 title = "Giant Vulture"
-aon = "MonsterDisplay.aspx?ItemName=Giant%20Vulture"
 source_ids = ["monster-codex"]
 section = ["Rules", "Goblins", "Example Goblins", "Goblin Vulture Pilot"]
 tags = ["animal", "medium"]

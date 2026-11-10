@@ -2,6 +2,7 @@
 id = "ref/monster/dolphin-popoto"
 kind = "creature"
 title = "Popoto (Dolphin)"
+aon = "MonsterDisplay.aspx?ItemName=Popoto%20Dolphin"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin_popoto", path = "json/monsters41.json" },

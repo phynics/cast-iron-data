@@ -2,6 +2,7 @@
 id = "ref/spell/dazzling-blade-mass"
 kind = "spell"
 title = "Mass Dazzling Blade"
+aon = "SpellDisplay.aspx?ItemName=Dazzling%20Blade%2C%20Mass"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_blade_mass", path = "json/spells3.json" },

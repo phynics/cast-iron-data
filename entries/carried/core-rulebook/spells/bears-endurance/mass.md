@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/bears-endurance/mass"
 kind = "spell"
 title = "Bear's Endurance, Mass"
-aon = "SpellDisplay.aspx?ItemName=Bear%27s%20Endurance%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Bears Endurance"]
 tags = ["transmutation"]

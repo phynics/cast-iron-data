@@ -2,7 +2,6 @@
 id = "ref/carried/technology-guide/rules/technology-in-the-world/spells/make-whole/greater"
 kind = "spell"
 title = "Make Whole, Greater"
-aon = "SpellDisplay.aspx?ItemName=Make%20Whole%2C%20Greater"
 source_ids = ["technology-guide"]
 section = ["Rules", "Technology in the world", "Spells", "Make Whole"]
 tags = ["transmutation"]

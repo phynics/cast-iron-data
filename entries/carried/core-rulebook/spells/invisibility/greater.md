@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/invisibility/greater"
 kind = "spell"
 title = "Invisibility, Greater"
-aon = "SpellDisplay.aspx?ItemName=Invisibility%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Invisibility"]
 tags = ["illusion", "glamer"]

@@ -2,6 +2,7 @@
 id = "ref/spell/share-skin-greater"
 kind = "spell"
 title = "Greater Share Skin"
+aon = "SpellDisplay.aspx?ItemName=Share%20Skin%2C%20Greater"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_skin_greater", path = "json/spells9.json" },

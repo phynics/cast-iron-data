@@ -2,7 +2,6 @@
 id = "ref/carried/bestiary-4/monsters/vampire/nosferatu"
 kind = "creature"
 title = "Vampire, Nosferatu"
-aon = "MonsterDisplay.aspx?ItemName=Nosferatu"
 source_ids = ["bestiary-4"]
 section = ["Monsters", "Vampire"]
 tags = ["undead", "augmented humanoid", "human", "medium"]

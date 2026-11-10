@@ -2,6 +2,7 @@
 id = "ref/spell/simulacrum-lesser"
 kind = "spell"
 title = "Lesser Simulacrum"
+aon = "SpellDisplay.aspx?ItemName=Simulacrum%2C%20Lesser"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "simulacrum_lesser", path = "json/spells9.json" },

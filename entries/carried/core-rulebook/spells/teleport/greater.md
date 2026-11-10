@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/teleport/greater"
 kind = "spell"
 title = "Teleport, Greater"
-aon = "SpellDisplay.aspx?ItemName=Teleport%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Teleport"]
 tags = ["conjuration", "teleportation"]

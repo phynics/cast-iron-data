@@ -2,6 +2,7 @@
 id = "ref/spell/mind-blank-communal"
 kind = "spell"
 title = "Communal Mind Blank"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Blank%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_blank_communal", path = "json/spells14.json" },

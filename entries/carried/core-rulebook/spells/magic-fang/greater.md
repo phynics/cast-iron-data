@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/magic-fang/greater"
 kind = "spell"
 title = "Magic Fang, Greater"
-aon = "SpellDisplay.aspx?ItemName=Magic%20Fang%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Magic Fang"]
 tags = ["transmutation"]

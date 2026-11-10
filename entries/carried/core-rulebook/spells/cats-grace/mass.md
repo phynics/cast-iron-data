@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/cats-grace/mass"
 kind = "spell"
 title = "Cat's Grace, Mass"
-aon = "SpellDisplay.aspx?ItemName=Cat%27s%20Grace%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Cats Grace"]
 tags = ["transmutation"]

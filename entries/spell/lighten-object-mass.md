@@ -2,6 +2,7 @@
 id = "ref/spell/lighten-object-mass"
 kind = "spell"
 title = "Mass Lighten Object"
+aon = "SpellDisplay.aspx?ItemName=Lighten%20Object%2C%20Mass"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lighten_object_mass", path = "json/spells6.json" },

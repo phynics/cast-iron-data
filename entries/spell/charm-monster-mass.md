@@ -2,6 +2,7 @@
 id = "ref/spell/charm-monster-mass"
 kind = "spell"
 title = "Mass Charm Monster"
+aon = "SpellDisplay.aspx?ItemName=Charm%20Monster%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm_monster_mass", path = "json/spells2.json" },

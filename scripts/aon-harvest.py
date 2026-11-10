@@ -265,6 +265,15 @@ class Listing:
 
 
 @dataclass
+class Candidate:
+    href: str
+    page: str
+    name: str
+    prefix: str | None = None
+    group: str | None = None
+
+
+@dataclass
 class Coverage:
     matched: int = 0
     ambiguous: int = 0
@@ -289,6 +298,83 @@ def normalize_title(value: str) -> str:
     value = value.replace("\u201c", '"').replace("\u201d", '"')
     value = value.casefold()
     return " ".join(value.split())
+
+
+ROMAN_NUMERALS = {
+    "i": "1",
+    "ii": "2",
+    "iii": "3",
+    "iv": "4",
+    "v": "5",
+    "vi": "6",
+    "vii": "7",
+    "viii": "8",
+    "ix": "9",
+    "x": "10",
+}
+
+
+def match_key(value: str) -> tuple[str, ...]:
+    """The strict match key: normalized words, order-insensitive.
+
+    `Restoration, Lesser` and `Lesser Restoration` are the same name; `Summon Monster I`
+    and `Summon Monster 1` are the same name; `Greater Dispel Magic` and `Dispel Magic`
+    are not.
+    """
+    words = re.findall(r"[a-z0-9]+", normalize_title(value))
+    return tuple(sorted(ROMAN_NUMERALS.get(word, word) for word in words))
+
+
+def href_key(href: str) -> str:
+    """AoN serves the same page with case variants; compare hrefs case-insensitively."""
+    page, _, query = href.partition("?")
+    return (page + "?" + query).casefold()
+
+
+# A class-option page type names one option group. Matching requires the entry's `group`
+# to agree, so `Domain Air` cannot serve `Blessing Air`.
+PAGE_GROUPS: dict[str, str] = {
+    "DomainDisplay.aspx": "cleric-domain",
+    "BlessingDisplay.aspx": "warpriest-blessing",
+    "ArcaneSchoolDisplay.aspx": "arcane-school",
+    "InquisitionDisplay.aspx": "inquisition",
+    "PatronDisplay.aspx": "witch-patron",
+    "MysteryDisplay.aspx": "oracle-mystery",
+    "BloodlineDisplay.aspx": "sorcerer-bloodline",
+    "HexDisplay.aspx": "witch-hex",
+    "RagePowerDisplay.aspx": "rage-power",
+    "DiscoveryDisplay.aspx": "alchemist-discovery",
+    "KineticistTalentsDisplay.aspx": "kineticist-wild-talent",
+    "EvolutionDisplay.aspx": "summoner-evolution",
+    "MasterpieceDisplay.aspx": "bardic-masterpiece",
+    "MercyDisplay.aspx": "mercy",
+    "OrderDisplay.aspx": "order",
+    "AspectDisplay.aspx": "shifter-aspect",
+    "StareDisplay.aspx": "mesmerist-stare",
+    "OccultRitualDisplay.aspx": "occult-ritual",
+    "HexDisplay.aspx": "witch-hex",
+}
+
+
+def record_names(page: str, anchor_text: str, value: str) -> list[tuple[str, str | None]]:
+    """The exact name(s) an anchor may contribute, and an archetype class prefix.
+
+    One anchor contributes one name. The page's query value is the record name, except:
+    archetypes prefix the class to `FixedName`, and `MagicRingsDisplay`'s `FinalName`
+    drops parentheses, so its anchor text is the printed name.
+    """
+    normalized_value = normalize_title(value)
+    normalized_anchor = normalize_title(anchor_text)
+    if page == "ArchetypeDisplay.aspx":
+        if normalized_value.endswith(normalized_anchor) and len(normalized_value) > len(
+            normalized_anchor
+        ):
+            prefix = normalized_value[: len(normalized_value) - len(normalized_anchor)].strip()
+            return [(normalized_anchor, prefix)]
+        return [(normalized_value, None)]
+    if page == "MagicRingsDisplay.aspx":
+        return [(normalized_anchor, None)]
+    return [(normalized_value, None)]
 
 
 def relative_link(href: str) -> str | None:
@@ -506,9 +592,13 @@ def aon_class_names(listing: Listing) -> list[str]:
 
 def build_entry_index(
     listings: Iterable[Listing],
-) -> tuple[dict[tuple[str, str], list[str]], dict[str, int]]:
-    """kind plus normalized title -> the distinct AoN paths the listings show."""
-    index: dict[tuple[str, str], list[str]] = defaultdict(list)
+) -> tuple[dict[tuple[str, tuple[str, ...]], list[Candidate]], dict[str, int]]:
+    """(kind, exact name words) -> the AoN candidates the listings show.
+
+    The index holds one name per anchor. It never indexes the anchor text when it names a
+    different record from the query value, so a table cell cannot lend its neighbour's link.
+    """
+    index: dict[tuple[str, tuple[str, ...]], list[Candidate]] = defaultdict(list)
     seen: dict[str, int] = defaultdict(int)
     for listing in listings:
         for anchor in listing.anchors:
@@ -519,19 +609,19 @@ def build_entry_index(
             kinds = page_kinds(page)
             if not kinds:
                 continue
-            # Archetype pages prefix the class name to the value; their anchor text is the
-            # bare archetype title. Other pages use the query value or the anchor text,
-            # depending on the table layout, so accept both spellings.
-            titles = (
-                {normalize_title(anchor.text)}
-                if page == "ArchetypeDisplay.aspx"
-                else {normalize_title(anchor.text), normalize_title(value)}
-            )
-            for kind in kinds:
-                for title in titles:
-                    key = (kind, title)
-                    if href not in index[key]:
-                        index[key].append(href)
+            for name, prefix in record_names(page, anchor.text, value):
+                key = match_key(name)
+                candidate = Candidate(
+                    href=href,
+                    page=page,
+                    name=name,
+                    prefix=prefix,
+                    group=PAGE_GROUPS.get(page),
+                )
+                for kind in kinds:
+                    bucket = index[(kind, key)]
+                    if not any(href_key(row.href) == href_key(href) for row in bucket):
+                        bucket.append(candidate)
                 seen[kind] += 1
     return index, seen
 
@@ -659,6 +749,145 @@ def pick(values: list[str]) -> tuple[str, str]:
     return "unmatched", ""
 
 
+PAGE_ID_SEGMENTS: dict[str, set[str]] = {
+    "SpellDisplay.aspx": {"spell"},
+    "FeatDisplay.aspx": {"feat"},
+    "MonsterDisplay.aspx": {"monster"},
+    "EquipmentWeaponsDisplay.aspx": {"eq-weapon"},
+    "EquipmentArmorDisplay.aspx": {"eq-armor"},
+    "EquipmentMiscDisplay.aspx": {"eq-misc"},
+    "MagicRingsDisplay.aspx": {"magic-ring"},
+    "MagicWeaponsDisplay.aspx": {"magic-weapon"},
+    "MagicArmorDisplay.aspx": {"magic-armor"},
+    "MagicWondrousDisplay.aspx": {"magic-wondrous"},
+    "MagicCursedDisplay.aspx": {"magic-cursed"},
+    "MagicIntelligentDisplay.aspx": {"magic-intelligent"},
+    "MagicPotionsDisplay.aspx": {"magic-potion"},
+    "MagicStavesDisplay.aspx": {"magic-staff"},
+    "ClassDisplay.aspx": {"class"},
+    "PrestigeClassesDisplay.aspx": {"pclass"},
+    "RacesDisplay.aspx": {"race"},
+    "TraitDisplay.aspx": {"trait", "racial-trait"},
+    "SkillDisplay.aspx": {"skill"},
+}
+
+
+def entry_candidates(
+    front: dict,
+    index: dict[tuple[str, tuple[str, ...]], list[Candidate]],
+    class_titles: dict[str, str],
+) -> list[Candidate]:
+    """The exact-name candidates for one entry, with the corpus-side qualifiers applied."""
+    kind = str(front.get("kind", ""))
+    title = str(front.get("title", ""))
+    candidates = index.get((kind, match_key(title)), [])
+    if kind == "archetype":
+        wanted = {
+            match_key(class_titles[relation["target"]])
+            for relation in front.get("relations", [])
+            if relation.get("kind") == "archetype"
+            and relation.get("target") in class_titles
+        }
+        candidates = [
+            candidate
+            for candidate in candidates
+            if candidate.prefix and match_key(candidate.prefix) in wanted
+        ]
+    elif kind == "class_option":
+        group = front.get("fields", {}).get("group")
+        candidates = [
+            candidate
+            for candidate in candidates
+            if candidate.group is None or candidate.group == group
+        ]
+    by_href: dict[str, Candidate] = {}
+    for candidate in candidates:
+        by_href.setdefault(href_key(candidate.href), candidate)
+    return list(by_href.values())
+
+
+def entry_score(eid: str, candidate: Candidate) -> tuple[int, str]:
+    """A deterministic preference for the single best entry behind one href."""
+    segments = set(eid.split("/"))
+    score = 0
+    if "carried" in segments:
+        score += 1000
+    if segments & PAGE_ID_SEGMENTS.get(candidate.page, set()):
+        score -= 100
+    score += len(eid)
+    return score, eid
+
+
+def revision_components(
+    eids: set[str], fronts: dict[str, dict]
+) -> list[set[str]]:
+    """Connect entries that carry a `revision` relation to one another."""
+    remaining = set(eids)
+    components: list[set[str]] = []
+    while remaining:
+        start = remaining.pop()
+        component = {start}
+        changed = True
+        while changed:
+            changed = False
+            for eid in list(remaining):
+                linked = False
+                for other in component:
+                    for row in fronts[eid].get("relations", []):
+                        if row.get("kind") == "revision" and row.get("target") == other:
+                            linked = True
+                    for row in fronts[other].get("relations", []):
+                        if row.get("kind") == "revision" and row.get("target") == eid:
+                            linked = True
+                if linked:
+                    component.add(eid)
+                    remaining.remove(eid)
+                    changed = True
+        components.append(component)
+    return components
+
+
+def resolve_shared_hrefs(
+    assignments: dict[str, Candidate], fronts: dict[str, dict]
+) -> tuple[dict[str, Candidate], list[tuple[str, list[str], str]]]:
+    """Drop a shared href from every entry except the best same-name/same-kind one.
+
+    A base and its revision are the same thing; they may keep the same href. Otherwise
+    one revision-connected component wins and every other component loses the link.
+    """
+    by_href: dict[str, list[str]] = defaultdict(list)
+    for eid, candidate in assignments.items():
+        by_href[candidate.href].append(eid)
+    resolved = dict(assignments)
+    kept_shared: list[tuple[str, list[str], str]] = []
+    for href, eids in by_href.items():
+        if len(eids) < 2:
+            continue
+        kinds = {fronts[eid].get("kind") for eid in eids}
+        keys = {match_key(str(fronts[eid].get("title", ""))) for eid in eids}
+        components = revision_components(set(eids), fronts)
+        if len(kinds) == 1 and len(keys) == 1 and len(components) == 1 and len(eids) > 1:
+            kept_shared.append((href, sorted(eids), "base and revision share the same text"))
+            continue
+        best_component = min(
+            components,
+            key=lambda component: min(
+                entry_score(eid, assignments[eid]) for eid in component
+            ),
+        )
+        kept = sorted(best_component)
+        reason = (
+            "base and revision share the same text"
+            if len(kept) > 1
+            else "single best exact-name match"
+        )
+        kept_shared.append((href, kept, reason))
+        for eid in eids:
+            if eid not in best_component:
+                del resolved[eid]
+    return resolved, kept_shared
+
+
 def unique_publication_titles() -> dict[str, str]:
     """Normalized `publications.toml` title -> publication id."""
     with PUBLICATIONS.open("rb") as handle:
@@ -703,6 +932,7 @@ def write_report(
     listings: list[Listing],
     actions: Counter,
     unmatched_publications: list[str],
+    shared: list[tuple[str, list[str], str]],
 ) -> None:
     lines = [
         "# AoN link harvest",
@@ -738,6 +968,10 @@ def write_report(
     if unmatched_publications:
         lines.extend(["", "## Unmatched publications", ""])
         lines.extend(f"- {title}" for title in unmatched_publications[:50])
+    if shared:
+        lines.extend(["", "## Remaining shared hrefs", ""])
+        for href, kept, reason in shared:
+            lines.append(f"- `{href}`: {', '.join(kept)} ({reason})")
     for kind, coverage in sorted(entry_coverage.items()):
         if not coverage.examples:
             continue
@@ -789,33 +1023,47 @@ def main(argv: list[str]) -> int:
     source_index = build_source_index(listings)
     publications_by_title = unique_publication_titles()
 
+    entry_fronts: dict[str, dict] = {}
+    entry_paths: dict[str, Path] = {}
+    for path in sorted(ENTRIES.rglob("*.md")):
+        front = read_front_matter(path)
+        eid = str(front.get("id", ""))
+        entry_fronts[eid] = front
+        entry_paths[eid] = path
+
+    assignments: dict[str, Candidate] = {}
+    ambiguous: set[str] = set()
+    for eid, front in entry_fronts.items():
+        if not front.get("title"):
+            continue
+        candidates = entry_candidates(front, entry_index, classes)
+        if len(candidates) == 1:
+            assignments[eid] = candidates[0]
+        elif len(candidates) > 1:
+            ambiguous.add(eid)
+    assignments, shared = resolve_shared_hrefs(assignments, entry_fronts)
+
     entry_coverage: dict[str, Coverage] = defaultdict(Coverage)
+    for eid, front in sorted(entry_fronts.items()):
+        kind = str(front.get("kind", ""))
+        title = str(front.get("title", ""))
+        coverage = entry_coverage[kind]
+        if not title:
+            coverage.add("unmatched", f"{entry_paths[eid]}: no title")
+        elif eid in assignments:
+            coverage.add("matched", title)
+        elif eid in ambiguous:
+            coverage.add("ambiguous", title)
+        else:
+            coverage.add("unmatched", title)
+
     actions: Counter = Counter()
     if not args.dry_run:
-        for path in sorted(ENTRIES.rglob("*.md")):
-            front = read_front_matter(path)
-            kind = str(front.get("kind", ""))
-            title = str(front.get("title", ""))
-            coverage = entry_coverage[kind]
-            if not title:
-                coverage.add("unmatched", f"{path}: no title")
-                continue
-            values = entry_index.get((kind, normalize_title(title)), [])
-            status, href = pick(values)
-            coverage.add(status, title)
-            actions[set_entry_aon(path, href or None, args.prune)] += 1
+        for eid, path in entry_paths.items():
+            candidate = assignments.get(eid)
+            actions[set_entry_aon(path, candidate.href if candidate else None, args.prune)] += 1
     else:
-        for path in sorted(ENTRIES.rglob("*.md")):
-            front = read_front_matter(path)
-            kind = str(front.get("kind", ""))
-            title = str(front.get("title", ""))
-            coverage = entry_coverage[kind]
-            if not title:
-                coverage.add("unmatched", f"{path}: no title")
-                continue
-            status, _href = pick(entry_index.get((kind, normalize_title(title)), []))
-            coverage.add(status, title)
-            actions["unchanged"] += 1
+        actions["unchanged"] += len(entry_fronts)
 
     source_by_publication: dict[str, list[str]] = defaultdict(list)
     for source_title, values in source_index.items():
@@ -852,6 +1100,7 @@ def main(argv: list[str]) -> int:
         listings,
         actions,
         unmatched_publications,
+        shared,
     )
     print(f"report: {args.report}")
     for listing in listings:

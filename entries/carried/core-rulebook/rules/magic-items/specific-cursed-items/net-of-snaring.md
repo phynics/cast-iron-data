@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/rules/magic-items/specific-cursed-items/net-of-snaring"
 kind = "item"
 title = "Net of Snaring"
-aon = "MagicCursedDisplay.aspx?ItemName=Net%20of%20Snaring"
 source_ids = ["core-rulebook"]
 section = ["Rules", "Magic Items", "Specific Cursed Items"]
 provenance = [

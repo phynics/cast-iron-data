@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/owls-wisdom/mass"
 kind = "spell"
 title = "Owl's Wisdom, Mass"
-aon = "SpellDisplay.aspx?ItemName=Owl%27s%20Wisdom%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Owls Wisdom"]
 tags = ["transmutation"]

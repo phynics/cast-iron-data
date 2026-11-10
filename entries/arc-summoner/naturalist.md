@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/naturalist"
 kind = "archetype"
 title = "Naturalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Naturalist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naturalist", path = "json/archetypes_summoner.json" },

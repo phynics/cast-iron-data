@@ -2,7 +2,6 @@
 id = "ref/arc-familiar/emissary"
 kind = "archetype"
 title = "Emissary"
-aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Emissary"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissary", path = "json/archetypes_FAMILIAR.json" },

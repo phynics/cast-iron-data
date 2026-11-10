@@ -2,7 +2,6 @@
 id = "ref/trait/secret-keeper"
 kind = "trait"
 title = "Secret Keeper"
-aon = "TraitDisplay.aspx?ItemName=Secret%20Keeper"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_keeper", path = "json/traits01.json" },

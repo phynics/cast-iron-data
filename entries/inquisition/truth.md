@@ -2,7 +2,6 @@
 id = "ref/inquisition/truth"
 kind = "class_option"
 title = "Truth"
-aon = "DomainDisplay.aspx?ItemName=Madness"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truth", path = "json/class_ability_inquisitions.json" },

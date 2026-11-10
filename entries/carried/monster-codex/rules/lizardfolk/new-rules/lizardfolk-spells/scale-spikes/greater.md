@@ -2,7 +2,6 @@
 id = "ref/carried/monster-codex/rules/lizardfolk/new-rules/lizardfolk-spells/scale-spikes/greater"
 kind = "spell"
 title = "Scale Spikes, Greater"
-aon = "SpellDisplay.aspx?ItemName=Scale%20Spikes%2C%20Greater"
 source_ids = ["monster-codex"]
 section = ["Rules", "Lizardfolk", "New Rules", "Lizardfolk Spells", "Scale Spikes"]
 tags = ["transmutation"]

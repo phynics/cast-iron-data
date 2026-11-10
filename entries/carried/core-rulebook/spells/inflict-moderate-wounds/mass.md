@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/inflict-moderate-wounds/mass"
 kind = "spell"
 title = "Inflict Moderate Wounds, Mass"
-aon = "SpellDisplay.aspx?ItemName=Inflict%20Moderate%20Wounds%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Inflict Moderate Wounds"]
 tags = ["necromancy"]

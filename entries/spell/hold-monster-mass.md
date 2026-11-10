@@ -2,6 +2,7 @@
 id = "ref/spell/hold-monster-mass"
 kind = "spell"
 title = "Mass Hold Monster"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Monster%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_monster_mass", path = "json/spells5.json" },

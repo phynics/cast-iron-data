@@ -2,6 +2,7 @@
 id = "ref/spell/brand-greater"
 kind = "spell"
 title = "Greater Brand"
+aon = "SpellDisplay.aspx?ItemName=Brand%2C%20Greater"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brand_greater", path = "json/spells2.json" },

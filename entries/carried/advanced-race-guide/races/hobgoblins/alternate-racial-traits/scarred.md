@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-race-guide/races/hobgoblins/alternate-racial-traits/scarred"
 kind = "racial_trait"
 title = "Scarred"
-aon = "TraitDisplay.aspx?ItemName=Scarred"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Hobgoblins", "Alternate Racial Traits"]
 tags = ["alternate", "hobgoblin"]

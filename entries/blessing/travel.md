@@ -2,7 +2,6 @@
 id = "ref/blessing/travel"
 kind = "class_option"
 title = "Travel"
-aon = "DomainDisplay.aspx?ItemName=Travel"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "travel", path = "json/class_ability_blessings.json" },

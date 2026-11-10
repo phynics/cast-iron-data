@@ -2,6 +2,7 @@
 id = "ref/spell/atavism-mass"
 kind = "spell"
 title = "Mass Atavism"
+aon = "SpellDisplay.aspx?ItemName=Atavism%2C%20Mass"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atavism_mass", path = "json/spells.json" },

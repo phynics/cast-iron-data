@@ -2,6 +2,7 @@
 id = "ref/monster/chuul-chuul-lesser"
 kind = "creature"
 title = "Lesser Chuul"
+aon = "MonsterDisplay.aspx?ItemName=Chuul%2C%20Lesser"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chuul_chuul_lesser", path = "json/monsters05.json" },

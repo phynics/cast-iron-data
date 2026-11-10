@@ -2,6 +2,7 @@
 id = "ref/spell/illusion-of-treachery-greater"
 kind = "spell"
 title = "Greater Illusion of Treachery"
+aon = "SpellDisplay.aspx?ItemName=Illusion%20of%20Treachery%2C%20Greater"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_of_treachery_greater", path = "json/spells14.json" },

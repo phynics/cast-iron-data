@@ -2,6 +2,7 @@
 id = "ref/spell/endure-elements-communal"
 kind = "spell"
 title = "Communal Endure Elements"
+aon = "SpellDisplay.aspx?ItemName=Endure%20Elements%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_elements_communal", path = "json/spells4.json" },

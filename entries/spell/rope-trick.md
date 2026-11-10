@@ -2,6 +2,7 @@
 id = "ref/spell/rope-trick"
 kind = "spell"
 title = "Rope Trick"
+aon = "SpellDisplay.aspx?ItemName=Rope%20Trick"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rope_trick", path = "json/spells8.json" },

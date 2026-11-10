@@ -2,6 +2,7 @@
 id = "ref/spell/debilitating-pain-mass"
 kind = "spell"
 title = "Mass Debilitating Pain"
+aon = "SpellDisplay.aspx?ItemName=Debilitating%20Pain%2C%20Mass"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "debilitating_pain_mass", path = "json/spells3.json" },

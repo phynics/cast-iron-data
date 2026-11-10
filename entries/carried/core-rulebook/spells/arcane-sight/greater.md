@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/arcane-sight/greater"
 kind = "spell"
 title = "Arcane Sight, Greater"
-aon = "SpellDisplay.aspx?ItemName=Arcane%20Sight%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Arcane Sight"]
 tags = ["divination"]

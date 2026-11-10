@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/elemental/fire/large"
 kind = "creature"
 title = "Elemental, Fire, Large"
+aon = "MonsterDisplay.aspx?ItemName=Large%20Fire%20Elemental"
 source_ids = ["bestiary"]
 section = ["Monsters", "Elemental", "Fire"]
 tags = ["outsider", "elemental", "extraplanar", "fire", "large"]

@@ -2,7 +2,6 @@
 id = "ref/blessing/death"
 kind = "class_option"
 title = "Death"
-aon = "DomainDisplay.aspx?ItemName=Death"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death", path = "json/class_ability_blessings.json" },

@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/heal/mass"
 kind = "spell"
 title = "Heal, Mass"
-aon = "SpellDisplay.aspx?ItemName=Heal%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Heal"]
 tags = ["conjuration", "healing"]

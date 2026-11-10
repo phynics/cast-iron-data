@@ -2,6 +2,7 @@
 id = "ref/spell/life-conduit-improved"
 kind = "spell"
 title = "Improved Life Conduit"
+aon = "SpellDisplay.aspx?ItemName=Life%20Conduit%2C%20Improved"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_conduit_improved", path = "json/spells6.json" },

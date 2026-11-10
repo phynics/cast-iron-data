@@ -2,7 +2,6 @@
 id = "ref/patron/protection"
 kind = "class_option"
 title = "Protection"
-aon = "DomainDisplay.aspx?ItemName=Protection"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection", path = "json/class_ability_patrons.json" },

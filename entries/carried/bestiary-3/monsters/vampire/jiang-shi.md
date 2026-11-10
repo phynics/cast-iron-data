@@ -2,7 +2,6 @@
 id = "ref/carried/bestiary-3/monsters/vampire/jiang-shi"
 kind = "creature"
 title = "Vampire, Jiang-Shi"
-aon = "MonsterDisplay.aspx?ItemName=Jiang-Shi"
 source_ids = ["bestiary-3"]
 section = ["Monsters", "Vampire"]
 tags = ["undead", "augmented humanoid", "medium"]

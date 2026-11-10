@@ -2,6 +2,7 @@
 id = "ref/spell/bears-endurance-mass"
 kind = "spell"
 title = "Mass Bear's Endurance"
+aon = "SpellDisplay.aspx?ItemName=Bear%27s%20Endurance%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_endurance_mass", path = "json/spells12.json" },

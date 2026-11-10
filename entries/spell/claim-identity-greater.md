@@ -2,6 +2,7 @@
 id = "ref/spell/claim-identity-greater"
 kind = "spell"
 title = "Greater Claim Identity"
+aon = "SpellDisplay.aspx?ItemName=Claim%20Identity%2C%20Greater"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claim_identity_greater", path = "json/spells2.json" },

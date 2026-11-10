@@ -2,7 +2,6 @@
 id = "ref/spell/summon-monster"
 kind = "spell"
 title = "Summon Monster"
-aon = "SpellDisplay.aspx?ItemName=summon%20monster%201"
 source_ids = ["core-rulebook", "monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_monster", path = "json/spells16.json" },

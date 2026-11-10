@@ -2,6 +2,7 @@
 id = "ref/spell/hide-from-undead-greater"
 kind = "spell"
 title = "Greater Hide from Undead"
+aon = "SpellDisplay.aspx?ItemName=Hide%20from%20Undead%2C%20Greater"
 source_ids = ["core-rulebook", "people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_from_undead_greater", path = "json/spells5.json" },

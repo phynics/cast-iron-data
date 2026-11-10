@@ -2,6 +2,7 @@
 id = "ref/spell/glyph-of-warding-greater"
 kind = "spell"
 title = "Greater Glyph of Warding"
+aon = "SpellDisplay.aspx?ItemName=Glyph%20of%20Warding%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glyph_of_warding_greater", path = "json/spells5.json" },

@@ -2,7 +2,6 @@
 id = "ref/patron/death"
 kind = "class_option"
 title = "Death"
-aon = "DomainDisplay.aspx?ItemName=Death"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death", path = "json/class_ability_patrons.json" },

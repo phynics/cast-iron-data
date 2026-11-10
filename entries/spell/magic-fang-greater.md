@@ -2,6 +2,7 @@
 id = "ref/spell/magic-fang-greater"
 kind = "spell"
 title = "Greater Magic Fang"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Fang%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_fang_greater", path = "json/spells6.json" },

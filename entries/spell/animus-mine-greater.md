@@ -2,6 +2,7 @@
 id = "ref/spell/animus-mine-greater"
 kind = "spell"
 title = "Greater Animus Mine"
+aon = "SpellDisplay.aspx?ItemName=Animus%20Mine%2C%20Greater"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animus_mine_greater", path = "json/spells.json" },

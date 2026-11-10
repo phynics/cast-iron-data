@@ -2,6 +2,7 @@
 id = "ref/spell/darkvision-greater"
 kind = "spell"
 title = "Greater Darkvision"
+aon = "SpellDisplay.aspx?ItemName=Darkvision%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-combat", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvision_greater", path = "json/spells3.json" },

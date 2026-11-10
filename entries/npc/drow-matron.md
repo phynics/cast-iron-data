@@ -2,7 +2,6 @@
 id = "ref/npc/drow-matron"
 kind = "creature"
 title = "Drow Matron"
-aon = "MonsterDisplay.aspx?ItemName=Drow%20Matron"
 source_ids = ["inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_matron", path = "json/npcs4.json" },

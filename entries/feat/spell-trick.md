@@ -2,7 +2,6 @@
 id = "ref/feat/spell-trick"
 kind = "feat"
 title = "Spell Trick"
-aon = "FeatDisplay.aspx?ItemName=Spell%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_trick", path = "json/feat14.json" },

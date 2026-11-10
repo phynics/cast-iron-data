@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-4/monsters/spider/scarlet"
 kind = "creature"
 title = "Spider, Scarlet"
+aon = "MonsterDisplay.aspx?ItemName=Scarlet%20Spider"
 source_ids = ["bestiary-4"]
 section = ["Monsters", "Spider"]
 tags = ["vermin", "tiny"]

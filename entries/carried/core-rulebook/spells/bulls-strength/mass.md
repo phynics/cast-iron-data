@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/bulls-strength/mass"
 kind = "spell"
 title = "Bull's Strength, Mass"
-aon = "SpellDisplay.aspx?ItemName=Bull%27s%20Strength%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Bulls Strength"]
 tags = ["transmutation"]

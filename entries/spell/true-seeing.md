@@ -2,6 +2,7 @@
 id = "ref/spell/true-seeing"
 kind = "spell"
 title = "True Seeing"
+aon = "SpellDisplay.aspx?ItemName=True%20Seeing"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_seeing", path = "json/spells10.json" },

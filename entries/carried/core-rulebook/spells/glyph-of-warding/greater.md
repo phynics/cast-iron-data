@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/glyph-of-warding/greater"
 kind = "spell"
 title = "Glyph Of Warding, Greater"
-aon = "SpellDisplay.aspx?ItemName=Glyph%20of%20Warding%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Glyph Of Warding"]
 tags = ["abjuration"]

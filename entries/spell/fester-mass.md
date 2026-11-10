@@ -2,6 +2,7 @@
 id = "ref/spell/fester-mass"
 kind = "spell"
 title = "Mass Fester"
+aon = "SpellDisplay.aspx?ItemName=Fester%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fester_mass", path = "json/spells4.json" },

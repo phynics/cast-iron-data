@@ -2,6 +2,7 @@
 id = "ref/spell/steal-years-greater"
 kind = "spell"
 title = "Greater Steal Years"
+aon = "SpellDisplay.aspx?ItemName=Steal%20Years%2C%20Greater"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_years_greater", path = "json/spells9.json" },

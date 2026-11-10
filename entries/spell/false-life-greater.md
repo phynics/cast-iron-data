@@ -2,6 +2,7 @@
 id = "ref/spell/false-life-greater"
 kind = "spell"
 title = "Greater False Life"
+aon = "SpellDisplay.aspx?ItemName=False%20Life%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_life_greater", path = "json/spells4.json" },

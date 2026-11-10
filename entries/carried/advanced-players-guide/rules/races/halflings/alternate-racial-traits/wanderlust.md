@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/rules/races/halflings/alternate-racial-traits/wanderlust"
 kind = "racial_trait"
 title = "Wanderlust"
-aon = "TraitDisplay.aspx?ItemName=Wanderlust"
 source_ids = ["advanced-players-guide"]
 section = ["Rules", "Races", "Halflings", "Alternate Racial Traits"]
 tags = ["alternate", "halfling"]

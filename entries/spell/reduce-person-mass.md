@@ -2,6 +2,7 @@
 id = "ref/spell/reduce-person-mass"
 kind = "spell"
 title = "Mass Reduce Person"
+aon = "SpellDisplay.aspx?ItemName=Reduce%20Person%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reduce_person_mass", path = "json/spells8.json" },

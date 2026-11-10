@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/spells/ghostbane-dirge/mass"
 kind = "spell"
 title = "Ghostbane Dirge, Mass"
-aon = "SpellDisplay.aspx?ItemName=Ghostbane%20Dirge%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Ghostbane Dirge"]
 tags = ["transmutation"]

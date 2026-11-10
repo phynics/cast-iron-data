@@ -2,7 +2,6 @@
 id = "ref/spell/flesh-to-stone"
 kind = "spell"
 title = "Flesh to Stone"
-aon = "SpellDisplay.aspx?ItemName=Flesh%20to%20Stone"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_to_stone", path = "json/spells4.json" },

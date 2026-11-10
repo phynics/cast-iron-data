@@ -2,6 +2,7 @@
 id = "ref/spell/delay-poison-communal"
 kind = "spell"
 title = "Communal Delay Poison"
+aon = "SpellDisplay.aspx?ItemName=Delay%20Poison%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_poison_communal", path = "json/spells3.json" },

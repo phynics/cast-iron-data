@@ -2,7 +2,6 @@
 id = "ref/spell/spirit-call"
 kind = "spell"
 title = "Spirit Call"
-aon = "SpellDisplay.aspx?ItemName=Spirit%20Call"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_call", path = "json/spells9.json" },

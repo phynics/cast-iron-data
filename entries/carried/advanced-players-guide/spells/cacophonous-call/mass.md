@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/spells/cacophonous-call/mass"
 kind = "spell"
 title = "Cacophonous Call, Mass"
-aon = "SpellDisplay.aspx?ItemName=Cacophonous%20Call%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Cacophonous Call"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

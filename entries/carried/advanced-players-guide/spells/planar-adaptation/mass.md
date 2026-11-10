@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/spells/planar-adaptation/mass"
 kind = "spell"
 title = "Planar Adaptation, Mass"
-aon = "SpellDisplay.aspx?ItemName=Planar%20Adaptation%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Planar Adaptation"]
 tags = ["transmutation"]

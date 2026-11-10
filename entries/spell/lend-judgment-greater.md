@@ -2,6 +2,7 @@
 id = "ref/spell/lend-judgment-greater"
 kind = "spell"
 title = "Greater Lend Judgment"
+aon = "SpellDisplay.aspx?ItemName=Lend%20Judgment%2C%20Greater"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lend_judgment_greater", path = "json/spells6.json" },

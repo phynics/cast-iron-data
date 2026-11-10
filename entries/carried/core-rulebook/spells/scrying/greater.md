@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/scrying/greater"
 kind = "spell"
 title = "Scrying, Greater"
-aon = "SpellDisplay.aspx?ItemName=Scrying%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Scrying"]
 tags = ["divination", "scrying"]

@@ -2,7 +2,6 @@
 id = "ref/spell/transmute-rock-to-mud"
 kind = "spell"
 title = "Transmute Rock to Mud"
-aon = "SpellDisplay.aspx?ItemName=Transmute%20Rock%20to%20Mud"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmute_rock_to_mud", path = "json/spells10.json" },

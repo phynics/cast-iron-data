@@ -2,7 +2,6 @@
 id = "ref/patron/plague"
 kind = "class_option"
 title = "Plague"
-aon = "DomainDisplay.aspx?ItemName=Death"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague", path = "json/class_ability_patrons.json" },

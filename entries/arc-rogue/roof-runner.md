@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/roof-runner"
 kind = "archetype"
 title = "Roof Runner"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Roof%20Runner"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roof_runner", path = "json/archetypes_rogue.json" },

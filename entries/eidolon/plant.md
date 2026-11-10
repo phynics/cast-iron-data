@@ -2,7 +2,6 @@
 id = "ref/eidolon/plant"
 kind = "class_option"
 title = "Plant"
-aon = "DomainDisplay.aspx?ItemName=Plant"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant", path = "json/class_ability_unchained_eidolons.json" },

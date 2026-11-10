@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/suggestion/mass"
 kind = "spell"
 title = "Suggestion, Mass"
-aon = "SpellDisplay.aspx?ItemName=Suggestion%2C%20Mass"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Suggestion"]
 tags = ["enchantment", "compulsion", "language-dependent", "mind-affecting"]

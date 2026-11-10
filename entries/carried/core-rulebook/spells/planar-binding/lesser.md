@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/planar-binding/lesser"
 kind = "spell"
 title = "Planar Binding, Lesser"
-aon = "SpellDisplay.aspx?ItemName=Planar%20Binding%2C%20Lesser"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Planar Binding"]
 tags = ["conjuration", "calling", "see text"]

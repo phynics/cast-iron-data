@@ -2,7 +2,6 @@
 id = "ref/feat/conduit-casting"
 kind = "feat"
 title = "Conduit Casting"
-aon = "FeatDisplay.aspx?ItemName=Conduit%20Casting"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conduit_casting", path = "json/feat03.json" },

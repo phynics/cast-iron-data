@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-race-guide/races/drow/new-racial-rules/drow-feats/spider-step"
 kind = "feat"
 title = "Spider Step"
-aon = "FeatDisplay.aspx?ItemName=Spider%20Step"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Drow", "New Racial Rules", "Drow Feats"]
 tags = ["general"]

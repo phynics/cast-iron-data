@@ -2,6 +2,7 @@
 id = "ref/monster/eidolon-unfettered"
 kind = "creature"
 title = "Unfettered Eidolon"
+aon = "MonsterDisplay.aspx?ItemName=Eidolon%2C%20Unfettered"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidolon_unfettered", path = "json/monsters09.json" },

@@ -2,7 +2,6 @@
 id = "ref/shamanhex/charm"
 kind = "class_option"
 title = "Charm"
-aon = "DomainDisplay.aspx?ItemName=Charm"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charm", path = "json/class_ability_shaman_hexes.json" },

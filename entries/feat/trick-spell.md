@@ -2,7 +2,6 @@
 id = "ref/feat/trick-spell"
 kind = "feat"
 title = "Trick Spell"
-aon = "FeatDisplay.aspx?ItemName=Trick%20Spell"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_spell", path = "json/feat16.json" },

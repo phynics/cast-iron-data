@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/confusion/lesser"
 kind = "spell"
 title = "Confusion, Lesser"
-aon = "SpellDisplay.aspx?ItemName=Confusion%2C%20Lesser"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Confusion"]
 tags = ["enchantment", "compulsion", "mind-affecting"]

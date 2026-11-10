@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/shadow-conjuration/greater"
 kind = "spell"
 title = "Shadow Conjuration, Greater"
-aon = "SpellDisplay.aspx?ItemName=Shadow%20Conjuration%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Shadow Conjuration"]
 tags = ["illusion", "shadow"]

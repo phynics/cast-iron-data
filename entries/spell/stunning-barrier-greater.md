@@ -2,6 +2,7 @@
 id = "ref/spell/stunning-barrier-greater"
 kind = "spell"
 title = "Greater Stunning Barrier"
+aon = "SpellDisplay.aspx?ItemName=Stunning%20Barrier%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_barrier_greater", path = "json/spells16.json" },

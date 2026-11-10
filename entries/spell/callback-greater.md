@@ -2,6 +2,7 @@
 id = "ref/spell/callback-greater"
 kind = "spell"
 title = "Greater Callback"
+aon = "SpellDisplay.aspx?ItemName=Callback%2C%20Greater"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "callback_greater", path = "json/spells2.json" },

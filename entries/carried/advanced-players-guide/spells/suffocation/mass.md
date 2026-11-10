@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-players-guide/spells/suffocation/mass"
 kind = "spell"
 title = "Suffocation, Mass"
-aon = "SpellDisplay.aspx?ItemName=Suffocation%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 section = ["Spells", "Suffocation"]
 tags = ["necromancy"]

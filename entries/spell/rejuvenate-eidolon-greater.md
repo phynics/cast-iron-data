@@ -2,6 +2,7 @@
 id = "ref/spell/rejuvenate-eidolon-greater"
 kind = "spell"
 title = "Greater Rejuvenate Eidolon"
+aon = "SpellDisplay.aspx?ItemName=Rejuvenate%20Eidolon%2C%20Greater"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rejuvenate_eidolon_greater", path = "json/spells8.json" },

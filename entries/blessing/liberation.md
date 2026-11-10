@@ -2,7 +2,6 @@
 id = "ref/blessing/liberation"
 kind = "class_option"
 title = "Liberation"
-aon = "DomainDisplay.aspx?ItemName=Liberation"
 source_ids = ["advanced-class-guide", "healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberation", path = "json/class_ability_blessings.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/planar-adaptation-mass"
 kind = "spell"
 title = "Mass Planar Adaptation"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Adaptation%2C%20Mass"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_adaptation_mass", path = "json/spells7.json" },

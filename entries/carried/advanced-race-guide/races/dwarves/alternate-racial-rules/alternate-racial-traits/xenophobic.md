@@ -2,7 +2,6 @@
 id = "ref/carried/advanced-race-guide/races/dwarves/alternate-racial-rules/alternate-racial-traits/xenophobic"
 kind = "racial_trait"
 title = "Xenophobic"
-aon = "TraitDisplay.aspx?ItemName=Xenophobic"
 source_ids = ["advanced-race-guide"]
 section = ["Races", "Dwarves", "Alternate Racial Rules", "Alternate Racial Traits"]
 tags = ["alternate", "dwarf"]

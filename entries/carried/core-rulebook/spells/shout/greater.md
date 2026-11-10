@@ -2,7 +2,6 @@
 id = "ref/carried/core-rulebook/spells/shout/greater"
 kind = "spell"
 title = "Shout, Greater"
-aon = "SpellDisplay.aspx?ItemName=Shout%2C%20Greater"
 source_ids = ["core-rulebook"]
 section = ["Spells", "Shout"]
 tags = ["evocation", "sonic"]
