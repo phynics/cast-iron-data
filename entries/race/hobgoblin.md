@@ -3,6 +3,7 @@ id = "ref/race/hobgoblin"
 kind = "race"
 title = "Hobgoblin"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobgoblin", path = "json/races2.json" },
 ]

@@ -3,6 +3,7 @@ id = "ref/race/goblin"
 kind = "race"
 title = "Goblin"
 source_ids = ["inner-sea-races", "bestiary", "advanced-race-guide", "monster-codex", "goblins-of-golarion"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin", path = "json/races3.json" },
 ]

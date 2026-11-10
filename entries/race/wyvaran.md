@@ -3,6 +3,7 @@ id = "ref/race/wyvaran"
 kind = "race"
 title = "Wyvaran"
 source_ids = ["inner-sea-races", "bestiary-4", "legacy-of-dragons"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvaran", path = "json/races4.json" },
 ]

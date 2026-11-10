@@ -3,6 +3,7 @@ id = "ref/race/triton"
 kind = "race"
 title = "Triton"
 source_ids = ["blood-of-the-sea"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triton", path = "json/races4.json" },
 ]

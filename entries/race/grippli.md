@@ -3,6 +3,7 @@ id = "ref/race/grippli"
 kind = "race"
 title = "Grippli"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary-2", "blood-of-the-beast", "wilderness-origins"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grippli", path = "json/races3.json" },
 ]

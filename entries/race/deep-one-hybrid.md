@@ -3,6 +3,7 @@ id = "ref/race/deep-one-hybrid"
 kind = "race"
 title = "Deep One Hybrid"
 source_ids = ["bestiary-5"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_one_hybrid", path = "json/races.json" },
 ]

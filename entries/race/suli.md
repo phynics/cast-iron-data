@@ -3,6 +3,7 @@ id = "ref/race/suli"
 kind = "race"
 title = "Suli"
 source_ids = ["inner-sea-races", "bestiary-3", "qadira-gateway-to-the-east", "advanced-race-guide"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suli", path = "json/races4.json" },
 ]

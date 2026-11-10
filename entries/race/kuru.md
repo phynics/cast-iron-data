@@ -3,6 +3,7 @@ id = "ref/race/kuru"
 kind = "race"
 title = "Kuru"
 source_ids = ["isles-of-the-shackles"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kuru", path = "json/races2.json" },
 ]

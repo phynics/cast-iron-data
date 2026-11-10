@@ -3,6 +3,7 @@ id = "ref/race/merfolk"
 kind = "race"
 title = "Merfolk"
 source_ids = ["blood-of-the-sea", "inner-sea-races", "advanced-race-guide", "bestiary", "heroes-from-the-fringe"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merfolk", path = "json/races2.json" },
 ]

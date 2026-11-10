@@ -3,6 +3,7 @@ id = "ref/race/svirfneblin"
 kind = "race"
 title = "Svirfneblin"
 source_ids = ["inner-sea-races", "advanced-race-guide", "bestiary"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "svirfneblin", path = "json/races4.json" },
 ]

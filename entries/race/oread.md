@@ -3,6 +3,7 @@ id = "ref/race/oread"
 kind = "race"
 title = "Oread"
 source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hoppers-handbook", "blood-of-the-elements"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oread", path = "json/races3.json" },
 ]

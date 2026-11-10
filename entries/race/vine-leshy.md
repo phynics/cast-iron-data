@@ -3,6 +3,7 @@ id = "ref/race/vine-leshy"
 kind = "race"
 title = "Vine Leshy"
 source_ids = ["ultimate-wilderness", "wilderness-origins"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vine_leshy", path = "json/races4.json" },
 ]

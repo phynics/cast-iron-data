@@ -3,6 +3,7 @@ id = "ref/race/fetchling"
 kind = "race"
 title = "Fetchling"
 source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "blood-of-shadows", "agents-of-evil"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fetchling", path = "json/races3.json" },
 ]

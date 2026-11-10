@@ -3,6 +3,7 @@ id = "ref/race/ifrit"
 kind = "race"
 title = "Ifrit"
 source_ids = ["inner-sea-races", "bestiary-2", "advanced-race-guide", "plane-hoppers-handbook"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ifrit", path = "json/races2.json" },
 ]

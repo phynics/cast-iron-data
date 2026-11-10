@@ -3,6 +3,7 @@ id = "ref/race/yaddithian"
 kind = "race"
 title = "Yaddithian"
 source_ids = ["bestiary-6"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yaddithian", path = "json/races4.json" },
 ]

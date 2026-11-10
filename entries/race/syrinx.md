@@ -3,6 +3,7 @@ id = "ref/race/syrinx"
 kind = "race"
 title = "Syrinx"
 source_ids = ["inner-sea-races", "inner-sea-bestiary"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syrinx", path = "json/races4.json" },
 ]

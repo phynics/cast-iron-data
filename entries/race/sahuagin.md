@@ -3,6 +3,7 @@ id = "ref/race/sahuagin"
 kind = "race"
 title = "Sahuagin"
 source_ids = ["blood-of-the-sea", "heroes-from-the-fringe"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahuagin", path = "json/races4.json" },
 ]
