@@ -19,7 +19,7 @@ env:
   # The Cast Iron revision whose `cast-iron-corpus` reads this corpus. Change it in the same
   # pull request that migrates the corpus to a newer format. This rev holds schema 4 (attached
   # entries: `variant`, `addon`, `revision`).
-  CAST_IRON_REV: 6c816fdc08ff61ee72f92903a22732f244b8dce0
+  CAST_IRON_REV: d75dddd6348d29b85dd7997e2a63a67673fafe7c
   # The Rust toolchain: the version in Cast Iron's rust-toolchain.toml at that revision.
   RUST_TOOLCHAIN: 1.99.1
 
