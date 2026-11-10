@@ -17,6 +17,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Haunt channeler", "location channel", "connection channel", "propitiation", "ask the spirits", "astral journey", "trance of three", "spacious soul", "Spirit mastery", "Astral beacon"]
 alters = ["Spirit", "Knacks", "taboo"]
+replaces_features = ["haunt-channeler", "location-channel", "connection-channel", "propitiation", "ask-the-spirits", "astral-journey", "trance-of-three", "spacious-soul", "spirit-mastery", "astral-beacon"]
+alters_features = ["spirit", "knacks", "taboo"]
 +++
 
 Normally, storied figures who simply disappear don't form legendary spirits, but the archmage Nex

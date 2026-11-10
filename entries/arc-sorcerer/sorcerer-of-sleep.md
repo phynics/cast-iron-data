@@ -16,6 +16,7 @@ page = "26"
 [fields]
 kind = "archetype"
 replaces = ["Bloodline arcana", "Eschew materials", "1st-level bloodline power"]
+replaces_features = ["eschew-materials"]
 +++
 
 Some sorcerers have trouble accessing their innate gifts and must find another way to unlock them.

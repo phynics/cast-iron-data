@@ -16,6 +16,7 @@ page = "19"
 [fields]
 kind = "archetype"
 replaces = ["Alchemy", "bombs", "extracts", "mutagen", "Throw Anything", "Swift alchemy", "swift poisoning", "instant alchemy"]
+replaces_features = ["alchemy", "extracts", "mutagen", "throw-anything", "swift-alchemy", "swift-poisoning", "instant-alchemy"]
 +++
 
 Metamorphs eschew traditional alchemy, focusing on internal chemistry and the transfiguration of

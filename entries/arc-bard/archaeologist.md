@@ -16,6 +16,7 @@ page = "32"
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Well-versed"]
+replaces_features = ["versatile-performance", "well-versed"]
 +++
 
 No stodgy researcher, this archaeologist meets his research head-on in the field. Archaeologists

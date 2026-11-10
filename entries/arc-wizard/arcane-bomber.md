@@ -16,6 +16,7 @@ page = "75"
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "Cantrips", "Arcane school"]
+replaces_features = ["arcane-bond", "cantrips", "arcane-school"]
 +++
 
 To many wizards, the experimentation of the alchemist seems quaint, if not dangerous or frightening.

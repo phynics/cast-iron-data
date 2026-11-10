@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Mount", "tactician", "expert trainer", "banner", "greater tactician", "greater banner", "master tactician"]
 alters = ["Cavalier's charge"]
+replaces_features = ["mount", "tactician", "expert-trainer", "banner", "greater-tactician", "greater-banner", "master-tactician"]
+alters_features = ["cavalier-s-charge"]
 +++
 
 While many cavaliers dream of riding a dragon into battle, drakeriders come to learn that the

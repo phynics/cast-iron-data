@@ -16,6 +16,7 @@ page = "4"
 [fields]
 kind = "archetype"
 replaces = ["Touch of corruption", "Cruelty", "Channel negative energy", "Fiendish boon"]
+replaces_features = ["touch-of-corruption", "cruelty", "channel-negative-energy", "fiendish-boon"]
 +++
 
 Covered from head to toe in blackened armor decorated with grotesque shapes and bristling with

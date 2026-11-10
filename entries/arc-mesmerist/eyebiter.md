@@ -16,6 +16,7 @@ page = "36"
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "mesmerist trick gained at 1st level", "All instances of touch treatment", "Mental potency", "Glib lie"]
+replaces_features = ["consummate-liar", "mental-potency", "glib-lie"]
 +++
 
 Mesmerists focus their abilities through the eyes, drawing forth their power as the windows to the

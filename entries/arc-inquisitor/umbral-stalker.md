@@ -17,6 +17,8 @@ page = "31"
 kind = "archetype"
 replaces = ["Justice judgment", "Stern gaze"]
 alters = ["Domain", "Exploit weakness"]
+replaces_features = ["stern-gaze"]
+alters_features = ["domain", "exploit-weakness"]
 +++
 
 As a consummate lurker in the shadows, an umbral stalker observes the enemies of her faith and

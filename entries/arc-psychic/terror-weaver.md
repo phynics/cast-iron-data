@@ -16,6 +16,7 @@ page = "26"
 [fields]
 kind = "archetype"
 replaces = ["Detect thoughts", "Telepathic bond, 11th- and 19th-level phrenic amplifications", "15th-level phrenic amplification"]
+replaces_features = ["detect-thoughts", "telepathic-bond"]
 +++
 
 A number of exceptional Darklands half-orcs have developed potent psychic abilities, unlocked by

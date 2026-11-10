@@ -17,6 +17,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Wild empathy", "Favored terrain", "Woodland stride", "Swift tracker", "camouflage", "Hide in plain sight"]
 alters = ["Favored enemy"]
+replaces_features = ["wild-empathy", "favored-terrain", "woodland-stride", "swift-tracker", "camouflage", "hide-in-plain-sight"]
+alters_features = ["favored-enemy"]
 +++
 
 The transformation of the great warlord Kevoth-Kul into the hedonistic Black Sovereign a few decades

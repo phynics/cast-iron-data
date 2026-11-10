@@ -17,6 +17,8 @@ page = "140"
 kind = "archetype"
 replaces = ["Wild empathy", "Trackless step", "woodland stride", "Spontaneous casting", "Resist nature's lure", "A thousand faces"]
 alters = ["Weapon proficiencies", "Nature bond"]
+replaces_features = ["wild-empathy", "trackless-step", "woodland-stride", "spontaneous-casting", "resist-nature-s-lure", "a-thousand-faces"]
+alters_features = ["nature-bond"]
 +++
 
 Ancient guardians revere nature and draw power from its divine energies, but also protect the

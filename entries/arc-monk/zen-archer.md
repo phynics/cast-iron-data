@@ -17,6 +17,8 @@ page = "115"
 kind = "archetype"
 replaces = ["The monk's normal bonus feats", "Stunning Fist", "Evasion", "Maneuver training", "Still mind", "Purity of body", "Improved evasion", "Diamond body", "Tongue of the sun and moon"]
 alters = ["Flurry of blows", "Ki pool"]
+replaces_features = ["stunning-fist", "evasion", "maneuver-training", "still-mind", "purity-of-body", "improved-evasion", "diamond-body", "tongue-of-the-sun-and-moon"]
+alters_features = ["flurry-of-blows", "ki-pool"]
 +++
 
 Some monks seek to become one with another weapon entirely - the bow. The zen archer takes a weapon

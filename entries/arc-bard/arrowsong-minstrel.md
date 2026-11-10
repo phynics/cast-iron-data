@@ -17,6 +17,7 @@ page = "30"
 kind = "archetype"
 replaces = ["Bardic knowledge", "dirge of doom", "distraction", "fascinate", "inspire competence", "lore master", "soothing performance", "The versatile performance gained at 2nd level", "well-versed", "Suggestion", "mass suggestion"]
 alters = ["Weapon proficiencies", "Spellcasting"]
+replaces_features = ["bardic-knowledge", "lore-master", "well-versed"]
 +++
 
 Originating from the wooded wilds of Hymbria, Arrowsong minstrels combine the elven traditions of

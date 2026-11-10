@@ -14,6 +14,7 @@ relations = [
 kind = "archetype"
 replaces = ["Deadeye deed", "Startling shot deed", "Bleeding wound deed", "Gun training 1-4"]
 alters = ["Gunsmith"]
+alters_features = ["gunsmith"]
 +++
 
 **Source** Ultimate Combat pg. 51

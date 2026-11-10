@@ -17,6 +17,8 @@ page = "35"
 kind = "archetype"
 replaces = ["Trapfinding", "All instances of trap sense"]
 alters = ["Alchemy", "swift alchemy"]
+replaces_features = ["trapfinding"]
+alters_features = ["alchemy", "swift-alchemy"]
 +++
 
 A majordomo is a skilled individual able to keep the complex operations of a noble's holdings

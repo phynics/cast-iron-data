@@ -17,6 +17,8 @@ page = "45"
 kind = "archetype"
 replaces = ["Monster lore", "Track", "Discern lies"]
 alters = ["Stern gaze"]
+replaces_features = ["monster-lore", "track", "discern-lies"]
+alters_features = ["stern-gaze"]
 +++
 
 This inquisitor uses guile and deception to blend in among the enemies of the faith rather than

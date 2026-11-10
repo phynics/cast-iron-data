@@ -16,6 +16,7 @@ page = "15"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "poison resistance", "poison immunity", "Swift alchemy", "investigator talent gained at 5th level"]
+replaces_features = ["trapfinding", "trap-sense", "poison-resistance", "swift-alchemy"]
 +++
 
 The ability of investigators trained at the University of Lepidstadt to get to the bottom of a

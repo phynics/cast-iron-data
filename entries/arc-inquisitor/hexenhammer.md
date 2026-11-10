@@ -17,6 +17,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Monster lore", "stern gaze", "Cunning initiative", "Teamwork feats", "Solo tactics"]
 alters = ["Domain", "Spellcasting"]
+replaces_features = ["monster-lore", "stern-gaze", "cunning-initiative", "solo-tactics"]
+alters_features = ["domain"]
 +++
 
 Some inquisitors embrace the dark powers of their traditional foes, turning such powers toward their

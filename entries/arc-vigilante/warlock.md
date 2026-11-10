@@ -17,6 +17,7 @@ page = "60"
 kind = "archetype"
 replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigilante specialization", "Unshakable"]
 alters = ["Skill ranks per level", "Armor proficiencies", "Vigilante talents"]
+replaces_features = ["vigilante-specialization", "unshakable"]
 +++
 
 Practicing magic in secret, the warlock obscures her arcane scholarship from public view. Her study

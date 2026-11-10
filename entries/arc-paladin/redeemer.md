@@ -16,6 +16,7 @@ page = "55"
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Detect evil", "Aura of resolve", "Aura of justice"]
+replaces_features = ["smite-evil", "detect-evil", "aura-of-resolve", "aura-of-justice"]
 +++
 
 As most half-orcs are outcasts, a half-orc paladin recognizes that often those who are monstrous are

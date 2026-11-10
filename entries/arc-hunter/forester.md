@@ -17,6 +17,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Precise companion", "Hunter tactics", "Improved empathic link", "Animal companion", "Bonus tricks", "Raise animal companion", "Speak with master", "Greater empathic link"]
 alters = ["Animal focus"]
+replaces_features = ["precise-companion", "hunter-tactics", "improved-empathic-link", "animal-companion", "bonus-tricks", "raise-animal-companion", "speak-with-master", "greater-empathic-link"]
+alters_features = ["animal-focus"]
 +++
 
 While all hunters have a bond with the natural world, a forester has a stronger tie to her

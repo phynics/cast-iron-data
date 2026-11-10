@@ -16,6 +16,7 @@ page = "53"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Detect alignment", "discern lies", "true judgment", "Track", "Exploit weakness"]
+replaces_features = ["monster-lore", "detect-alignment", "discern-lies", "true-judgment", "track", "exploit-weakness"]
 +++
 
 When pursuing justice for their faith, inquisitors sometimes hunt sorcerers, witches, wizards, and

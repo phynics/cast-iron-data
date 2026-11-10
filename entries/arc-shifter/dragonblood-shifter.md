@@ -17,6 +17,8 @@ page = "5"
 kind = "archetype"
 replaces = ["Shifter aspect", "Chimeric aspect", "Greater chimeric aspect", "Final aspect"]
 alters = ["Wild shape"]
+replaces_features = ["shifter-aspect", "chimeric-aspect", "greater-chimeric-aspect", "final-aspect"]
+alters_features = ["wild-shape"]
 +++
 
 Dragonblood shifters draw upon the inherent strength and majesty of the true dragons, gaining a

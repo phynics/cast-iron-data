@@ -16,6 +16,7 @@ page = "92"
 [fields]
 kind = "archetype"
 replaces = ["Arcane pool", "Spell recall", "Knowledge pool", "Improved spell recall"]
+replaces_features = ["arcane-pool", "spell-recall", "knowledge-pool", "improved-spell-recall"]
 +++
 
 A nature-bonded magus synergizes arcane magic and the divine magic traditions of druids into a

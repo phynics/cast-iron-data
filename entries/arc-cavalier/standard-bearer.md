@@ -19,6 +19,7 @@ page = "4"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Banner", "Mighty charge", "Supreme charge"]
+replaces_features = ["mount", "banner", "mighty-charge", "supreme-charge"]
 +++
 
 Not all cavaliers are content to ride at the head of a charge, leading from the front and facing

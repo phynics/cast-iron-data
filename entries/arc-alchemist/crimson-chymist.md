@@ -16,6 +16,7 @@ page = "156"
 [fields]
 kind = "archetype"
 alters = ["Mutagen", "Discovery"]
+alters_features = ["mutagen", "discovery"]
 +++
 
 [Red Mantis](ref/rule/aff-assassins) agents are easily identifiable by their iconic equipment. Yet

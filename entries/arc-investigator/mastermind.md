@@ -17,6 +17,8 @@ page = "101"
 kind = "archetype"
 replaces = ["Trapfinding", "trap sense", "Swift alchemy", "Investigator talent gained at 9th level"]
 alters = ["Inspiration"]
+replaces_features = ["trapfinding", "trap-sense", "swift-alchemy"]
+alters_features = ["inspiration"]
 +++
 
 Although some investigators use their honed senses and cunning insight for personal gain, no one

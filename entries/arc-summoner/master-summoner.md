@@ -16,6 +16,7 @@ page = "80"
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "Summon monster I", "shield ally", "Bond senses"]
+replaces_features = ["eidolon", "summon-monster-i", "shield-ally", "bond-senses"]
 +++
 
 Most summoners forge a bond with a single, powerful eidolon, but some summoners seek to control a

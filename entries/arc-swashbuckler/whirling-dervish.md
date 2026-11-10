@@ -17,6 +17,7 @@ page = "23"
 kind = "archetype"
 replaces = ["Superior feint", "targeted strike", "Bleeding wound", "Deadly stab"]
 alters = ["Swashbuckler finesse", "Panache"]
+alters_features = ["swashbuckler-finesse", "panache"]
 +++
 
 In Qadira and throughout the Padishah Empire, [Sarenrae's](ref/faith/sarenrae) worshipers praise the

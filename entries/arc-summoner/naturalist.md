@@ -16,6 +16,7 @@ page = "123"
 [fields]
 kind = "archetype"
 replaces = ["Summon monster I", "Shield ally", "greater shield ally", "Aspect", "Life bond", "Greater aspect"]
+replaces_features = ["summon-monster-i", "shield-ally", "greater-shield-ally", "aspect", "life-bond", "greater-aspect"]
 +++
 
 A naturalist is a summoner who is in tune with the natural world, using his magic like a lens to

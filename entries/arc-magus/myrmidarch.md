@@ -16,6 +16,7 @@ page = "56"
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "improved spell recall", "Magus arcana gained at 6th, 12th, and 18th levels", "Knowledge pool, 10th-level fighter training", "Improved spell combat", "greater spell combat", "True magus"]
+replaces_features = ["spell-recall", "improved-spell-recall", "knowledge-pool", "improved-spell-combat", "greater-spell-combat", "true-magus"]
 +++
 
 The myrmidarch is a skilled specialist, using magic to supplement and augment his martial mastery.

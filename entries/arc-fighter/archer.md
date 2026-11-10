@@ -17,6 +17,8 @@ page = "104"
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Armor mastery"]
 alters = ["Weapon mastery"]
+replaces_features = ["bravery", "armor-mastery"]
+alters_features = ["weapon-mastery"]
 +++
 
 The archer is dedicated to the careful mastery of the bow, perfecting his skills with years of

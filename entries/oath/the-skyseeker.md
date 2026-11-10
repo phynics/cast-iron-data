@@ -15,6 +15,8 @@ kind = "class_option"
 group = "paladin-oath"
 replaces = ["Aura of justice", "Aura of faith"]
 alters = ["Smite evil", "Divine bond"]
+replaces_features = ["aura-of-justice", "aura-of-faith"]
+alters_features = ["smite-evil", "divine-bond"]
 +++
 
 The dwarven people look to the legendary Sky Citadels as beacons of dwarven culture. Paladins with

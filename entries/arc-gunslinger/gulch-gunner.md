@@ -17,6 +17,7 @@ page = "152"
 kind = "archetype"
 replaces = ["The ability to regain grit from a critical hit with a firearm", "Deadeye deed", "Pistol whip deed", "Menacing shot deed", "Gun training ability gained at 9th, 13th, and 17th level"]
 alters = ["Grit"]
+alters_features = ["grit"]
 +++
 
 Ratfolk warfare often occurs in cramped, claustrophobic spaces such as the ratfolk's own underground

@@ -17,6 +17,7 @@ page = "28"
 kind = "archetype"
 replaces = ["Magus arcana gained at 3rd level"]
 alters = ["Armor proficiencies", "medium armor", "heavy armor", "Spellcasting", "Arcane pool", "spell combat", "spellstrike"]
+alters_features = ["medium-armor", "heavy-armor", "arcane-pool", "spell-combat", "spellstrike"]
 +++
 
 According to dwarven legend, the first deep marshals were handpicked by King Taargick himself to

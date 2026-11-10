@@ -16,6 +16,7 @@ page = "109"
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1 and 2", "Weapon training 1", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Armor mastery"]
+replaces_features = ["armor-mastery"]
 +++
 
 Trained under great masters who preached the simple truth that two are better than one when it comes

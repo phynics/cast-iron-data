@@ -16,6 +16,7 @@ page = "109"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Armor mastery"]
+replaces_features = ["bravery", "armor-mastery"]
 +++
 
 Devoted to the perfection of a single weapon, the weapon master's meditations upon his favored

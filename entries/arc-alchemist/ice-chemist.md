@@ -17,6 +17,7 @@ page = "35"
 kind = "archetype"
 replaces = ["Poison resistance", "poison immunity", "2nd-level discovery"]
 alters = ["Bombs"]
+replaces_features = ["poison-resistance"]
 +++
 
 Reclusive alchemists who dwell in the highest mountains or on the frozen tundra devote their skills

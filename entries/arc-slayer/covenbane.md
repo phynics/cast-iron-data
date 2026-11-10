@@ -17,6 +17,8 @@ page = "26"
 kind = "archetype"
 replaces = ["Track", "Slayer talent gained at 2nd level", "Stalker", "Swift tracker"]
 alters = ["Studied target"]
+replaces_features = ["track", "stalker", "swift-tracker"]
+alters_features = ["studied-target"]
 +++
 
 Covenbane slayers are scarred by arcane magic at a young age, and that resonance gives them

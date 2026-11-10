@@ -16,6 +16,7 @@ page = "23"
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "poison resistance +2", "Poison resistance +4", "poison resistance +6", "Swift poisoning", "Poison immunity"]
+replaces_features = ["poison-use", "swift-poisoning"]
 +++
 
 Trap breakers forgo the study of poison to instead master the construction and deployment of traps,

@@ -17,6 +17,7 @@ page = "50"
 kind = "archetype"
 replaces = ["The fighter feat gained at 1st level"]
 alters = ["Armor proficiency", "Weapon training"]
+alters_features = ["weapon-training"]
 +++
 
 A tribal fighter knows that it is not the weapon that matters but the hand that wields it. Instead

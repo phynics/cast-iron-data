@@ -20,6 +20,7 @@ page = "27"
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage reduction"]
 alters = ["The barbarian's 2nd-level rage power"]
+replaces_features = ["uncanny-dodge", "trap-sense", "improved-uncanny-dodge", "damage-reduction"]
 +++
 
 While savagery is not inherently evil, some barbaric cultures thrive on depravity and welcome the

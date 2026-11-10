@@ -16,6 +16,7 @@ page = "117"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Tactician", "greater tactician", "master tactician", "Cavalier's charge", "Expert trainer", "banner", "Mighty charge", "greater banner"]
+replaces_features = ["mount", "tactician", "greater-tactician", "master-tactician", "cavalier-s-charge", "expert-trainer", "banner", "mighty-charge", "greater-banner"]
 +++
 
 Ghost riders are conflicted warriors who use the powers of the phantasmal dead even while seeking

@@ -17,6 +17,8 @@ page = "31"
 kind = "archetype"
 replaces = ["Stern gaze", "Exploit weakness"]
 alters = ["Judgment", "True judgment"]
+replaces_features = ["stern-gaze", "exploit-weakness"]
+alters_features = ["judgment", "true-judgment"]
 +++
 
 Some inquisitors focus more on protecting those who share their faiths and their ideals than on

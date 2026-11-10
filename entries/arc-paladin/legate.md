@@ -16,6 +16,7 @@ page = "6"
 [fields]
 kind = "archetype"
 replaces = ["Mercy"]
+replaces_features = ["mercy"]
 +++
 
 The first legates in the Inner Sea region were ambassadors from Holomog, a celestial-worshiping

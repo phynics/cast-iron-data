@@ -17,6 +17,7 @@ page = "30"
 kind = "archetype"
 replaces = ["Versatile performance", "Inspire courage", "suggestion"]
 alters = ["Weapon and armor proficiency"]
+replaces_features = ["versatile-performance"]
 +++
 
 A dwarven scholar researches the lineage of the kings of the old dwarven empires and learns their

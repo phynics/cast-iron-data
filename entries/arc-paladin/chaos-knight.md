@@ -16,6 +16,7 @@ page = "18"
 [fields]
 kind = "archetype"
 replaces = ["Lay on hands", "Mercy", "Aura of faith"]
+replaces_features = ["lay-on-hands", "mercy", "aura-of-faith"]
 +++
 
 Despite the entropic forces inherent in ganzis, some forgo a life of chaos, instead harnessing their

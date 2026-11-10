@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Shared consciousness", "Detect undead", "Calm spirit", "See invisibility", "Fused consciousness", "Call spirit"]
+replaces_features = ["shared-consciousness", "detect-undead", "calm-spirit", "see-invisibility", "fused-consciousness", "call-spirit"]
 +++
 
 Sometimes a spiritualist is so haunted by a past life's failure to reach enlightenment that the past

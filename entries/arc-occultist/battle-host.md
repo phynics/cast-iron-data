@@ -17,6 +17,8 @@ page = "100"
 kind = "archetype"
 replaces = ["Weapon and armor proficiency", "Shift focus", "magic circles", "binding circles", "fast circles", "Aura sight", "Outside contact"]
 alters = ["Implements", "mental focus", "spellcasting", "implement mastery", "Magic item skill", "Object reading"]
+replaces_features = ["shift-focus", "magic-circles", "binding-circles", "fast-circles", "aura-sight", "outside-contact"]
+alters_features = ["implements", "mental-focus", "implement-mastery", "magic-item-skill", "object-reading"]
 +++
 
 Well versed in military history, battlefield lore, and the occult, a battle host forms a

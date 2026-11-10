@@ -16,6 +16,7 @@ page = "104"
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
+replaces_features = ["channel-energy"]
 +++
 
 In order to survive, the drow threw in their lot with demon lords. Thus, demon worship is common

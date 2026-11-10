@@ -17,6 +17,7 @@ page = "6"
 kind = "archetype"
 replaces = ["Consume spells", "The arcanist exploit gained at 11th level", "Magical supremacy"]
 alters = ["The arcanist exploit gained at 1st level"]
+replaces_features = ["consume-spells", "magical-supremacy"]
 +++
 
 The twilight sages of Geb carry out experiments to solve the ultimate puzzle and unlock the secrets

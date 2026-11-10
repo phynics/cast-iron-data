@@ -17,6 +17,8 @@ page = "50"
 kind = "archetype"
 replaces = ["Shared consciousness", "Etheric tether", "Phantom recall", "See invisibility", "Fused consciousness", "Empowered consciousness"]
 alters = ["Spellcasting", "Phantom"]
+replaces_features = ["shared-consciousness", "etheric-tether", "phantom-recall", "see-invisibility", "fused-consciousness", "empowered-consciousness"]
+alters_features = ["phantom"]
 +++
 
 While most spiritualists form a bond with the remnants of a creature's soul, some explore ways to

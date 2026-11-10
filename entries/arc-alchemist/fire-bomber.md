@@ -17,6 +17,8 @@ page = "117"
 kind = "archetype"
 replaces = ["The alchemist's 4th-level discovery", "Poison resistance +6", "Poison immunity", "Persistent mutagen"]
 alters = ["Bomb", "throw anything"]
+replaces_features = ["persistent-mutagen"]
+alters_features = ["bomb", "throw-anything"]
 +++
 
 Fire bombers are exceptionally good at using bombs to burn creatures and blow things up, but are not

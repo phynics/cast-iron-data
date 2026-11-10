@@ -17,6 +17,8 @@ page = "36"
 kind = "archetype"
 replaces = ["Consummate liar", "Painful stare", "Manifold tricks", "Glib lie", "Rule minds"]
 alters = ["Hypnotic stare", "Touch treatment"]
+replaces_features = ["consummate-liar", "painful-stare", "manifold-tricks", "glib-lie", "rule-minds"]
+alters_features = ["hypnotic-stare", "touch-treatment"]
 +++
 
 An enigma spends his life dedicated to developing psychic abilities that allow him to operate

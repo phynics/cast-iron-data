@@ -17,6 +17,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Knacks"]
 alters = ["Spells", "Focus powers", "Implements", "Mental focus"]
+replaces_features = ["knacks"]
+alters_features = ["spells", "focus-powers", "implements", "mental-focus"]
 +++
 
 Not all occultists derive their power from psychic impressions left on objects. Some find faith

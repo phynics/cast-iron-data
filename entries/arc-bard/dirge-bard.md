@@ -16,6 +16,7 @@ page = "26"
 [fields]
 kind = "archetype"
 replaces = ["Jack-of-all-trades", "Well-versed", "Versatile performance", "Lore master"]
+replaces_features = ["jack-of-all-trades", "well-versed", "versatile-performance", "lore-master"]
 +++
 
 A composer of sonorous laments for the dead and elaborate requiems for those lost yet long

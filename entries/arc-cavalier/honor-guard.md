@@ -17,6 +17,8 @@ page = "37"
 kind = "archetype"
 replaces = ["Cavalier's charge", "Mighty charge", "Demanding challenge"]
 alters = ["Challenge"]
+replaces_features = ["cavalier-s-charge", "mighty-charge", "demanding-challenge"]
+alters_features = ["challenge"]
 +++
 
 Certain cavaliers are trained not as advance combatants, but as loyal guards, standing as firm

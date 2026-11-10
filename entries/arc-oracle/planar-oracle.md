@@ -16,6 +16,7 @@ page = "59"
 [fields]
 kind = "archetype"
 replaces = ["All bonus spells from the oracle's mystery", "3rd-level revelation", "Final revelation"]
+replaces_features = ["final-revelation"]
 +++
 
 A planar oracle has an affinity with one of the Outer Planes. She is at home on the multiple planes

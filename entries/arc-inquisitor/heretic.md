@@ -16,6 +16,7 @@ page = "45"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore"]
+replaces_features = ["monster-lore"]
 +++
 
 While all inquisitors hunt the enemies of the faith, sometimes, either through political maneuvering

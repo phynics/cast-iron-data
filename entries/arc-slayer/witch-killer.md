@@ -17,6 +17,7 @@ page = "67"
 kind = "archetype"
 replaces = ["Slayer talent gained at 4th level", "Slayer talent gained at 10th level"]
 alters = ["Studied target", "Slayer talents"]
+alters_features = ["studied-target", "slayer-talents"]
 +++
 
 Born into cultures where magic users are hated and feared, witch killers devote their lives to purge

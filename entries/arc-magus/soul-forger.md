@@ -17,6 +17,8 @@ page = "57"
 kind = "archetype"
 replaces = ["Knowledge pool", "Spell recall", "Improved spell recall", "Counterstrike", "Greater spell access"]
 alters = ["Spell combat", "Spellstrike"]
+replaces_features = ["knowledge-pool", "spell-recall", "improved-spell-recall", "counterstrike", "greater-spell-access"]
+alters_features = ["spell-combat", "spellstrike"]
 +++
 
 The soul forger has learned the skill of infusing the raw magical essence of his soul into armaments

@@ -17,6 +17,8 @@ page = "78"
 kind = "archetype"
 replaces = ["Wild empathy", "Shifter claws", "Chimeric aspect", "greater chimeric aspect"]
 alters = ["Languages", "Shifter aspect", "Wild shape"]
+replaces_features = ["wild-empathy", "shifter-claws", "chimeric-aspect", "greater-chimeric-aspect"]
+alters_features = ["shifter-aspect", "wild-shape"]
 +++
 
 Rather than drawing power from bestial aspects, elementalist shifters channel power from the Inner

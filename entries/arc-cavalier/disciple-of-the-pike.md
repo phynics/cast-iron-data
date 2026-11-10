@@ -16,6 +16,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Banner", "greater banner", "Mighty charge", "Supreme charge"]
+replaces_features = ["mount", "cavalier-s-charge", "expert-trainer", "banner", "greater-banner", "mighty-charge", "supreme-charge"]
 +++
 
 The [Hellknight](ref/rule/aff-lawknights)

@@ -17,6 +17,7 @@ page = "18"
 kind = "archetype"
 replaces = ["Mesmerist tricks gained at 4th and 8th levels", "Mental potency"]
 alters = ["Spellcasting"]
+replaces_features = ["mental-potency"]
 +++
 
 Not content to simply command others from afar, a projectionist is able to use his mesmerizing

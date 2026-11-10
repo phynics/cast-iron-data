@@ -16,6 +16,7 @@ page = "85"
 [fields]
 kind = "archetype"
 replaces = ["Spells", "blood casting", "eschew materials", "bloodline spells"]
+replaces_features = ["spells", "blood-casting", "eschew-materials"]
 +++
 
 While most bloodragers are known for their inexplicable ability to focus their bloodline into a

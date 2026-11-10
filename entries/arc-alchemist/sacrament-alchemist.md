@@ -16,6 +16,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Swift alchemy"]
+replaces_features = ["mutagen", "swift-alchemy"]
 +++
 
 Sacrament alchemists serve in a great variety of priestly roles for their deities. A sacrament

@@ -17,6 +17,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Detect alignment", "True judgment"]
 alters = ["Judgment", "second judgment", "third judgment"]
+replaces_features = ["detect-alignment", "true-judgment"]
+alters_features = ["judgment", "second-judgment", "third-judgment"]
 +++
 
 Though surrounded by meaning and tradition revered by most harrowers, the harrow is a tool that

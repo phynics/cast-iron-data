@@ -16,6 +16,7 @@ page = "43"
 [fields]
 kind = "archetype"
 replaces = ["Aura of cowardice", "Aura of despair", "Aura of sin"]
+replaces_features = ["aura-of-cowardice", "aura-of-despair", "aura-of-sin"]
 +++
 
 Rough rampagers venerate [Rovagug](ref/faith/rovagug), reveling in the destruction the dark god

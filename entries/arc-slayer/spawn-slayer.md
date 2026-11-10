@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["The ability to study an opponent as a swift action at 7th level", "Stalker", "Master slayer"]
 alters = ["Studied target"]
+replaces_features = ["stalker", "master-slayer"]
+alters_features = ["studied-target"]
 +++
 
 Generations of Ninshaburian warriors fought the Spawn of Rovagug, holding the line against

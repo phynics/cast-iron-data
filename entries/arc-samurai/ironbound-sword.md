@@ -16,6 +16,7 @@ page = "20"
 [fields]
 kind = "archetype"
 replaces = ["Weapon expertise", "Banner", "Greater banner"]
+replaces_features = ["weapon-expertise", "banner", "greater-banner"]
 +++
 
 The ironbound sword's fighting style, focused on incapacitating opponents rather than killing them,

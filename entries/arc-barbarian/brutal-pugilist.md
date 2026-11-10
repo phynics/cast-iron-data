@@ -16,6 +16,7 @@ page = "78"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 Some barbarians focus on using their bare hands to tear their opponents limb from limb. These brutal

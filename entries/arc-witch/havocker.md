@@ -17,6 +17,7 @@ page = "11"
 kind = "archetype"
 replaces = ["1st-level hex", "All 2nd-level and higher hexes", "major hex", "grand hex"]
 alters = ["Familiar"]
+replaces_features = ["major-hex", "grand-hex"]
 +++
 
 Although most witches are guided to subtle curses and debilitating hexes by their mysterious

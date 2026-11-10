@@ -16,6 +16,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Animal focus", "Second animal focus", "Master hunter"]
+replaces_features = ["animal-focus", "second-animal-focus", "master-hunter"]
 +++
 
 The colluding scoundrel is a canny and conniving skirmisher, manipulating her enemies and leveraging

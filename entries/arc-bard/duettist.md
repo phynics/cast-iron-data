@@ -17,6 +17,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Bardic knowledge", "Lore master", "Dirge of doom", "Frightening tune"]
 alters = ["Versatile performance"]
+replaces_features = ["bardic-knowledge", "lore-master"]
+alters_features = ["versatile-performance"]
 +++
 
 Whether singing a delicate duo with a nightingale or slipping coins from purses while a trained

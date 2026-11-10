@@ -17,6 +17,8 @@ page = "111"
 kind = "archetype"
 replaces = ["Weapon proficiencies", "Still mind", "Purity of body", "diamond body"]
 alters = ["Flurry of blows"]
+replaces_features = ["still-mind", "purity-of-body", "diamond-body"]
+alters_features = ["flurry-of-blows"]
 +++
 
 The monk of the empty hand eschews normal weapons in favor of whatever is lying around - rocks,

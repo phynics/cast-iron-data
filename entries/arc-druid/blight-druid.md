@@ -17,6 +17,8 @@ page = "98"
 kind = "archetype"
 replaces = ["Wild empathy", "Trackless step", "resist nature's lure", "Venom immunity", "A thousand faces"]
 alters = ["Nature bond"]
+replaces_features = ["wild-empathy", "trackless-step", "resist-nature-s-lure", "venom-immunity", "a-thousand-faces"]
+alters_features = ["nature-bond"]
 +++
 
 The devoted servants of nature corrupted, ruined, and destroyed, blight druids are the caretakers of

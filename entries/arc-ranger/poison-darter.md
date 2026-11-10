@@ -17,6 +17,8 @@ page = "9"
 kind = "archetype"
 replaces = ["Favored enemy", "master hunter", "Wild empathy", "Hunter's bond"]
 alters = ["Combat style feat"]
+replaces_features = ["favored-enemy", "master-hunter", "wild-empathy", "hunter-s-bond"]
+alters_features = ["combat-style-feat"]
 +++
 
 In dense jungles, foliage and tight spaces hinder all but the most deceptively humble weapons:

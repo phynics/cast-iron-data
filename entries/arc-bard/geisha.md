@@ -17,6 +17,7 @@ page = "27"
 kind = "archetype"
 replaces = ["Bardic knowledge"]
 alters = ["Armor and weapon proficiencies"]
+replaces_features = ["bardic-knowledge"]
 +++
 
 In some cultures, the professional entertainer is a prestigious role. Specially trained entertainers

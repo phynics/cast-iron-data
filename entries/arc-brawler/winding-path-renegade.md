@@ -19,6 +19,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats gained at 2nd, 8th, and 14th levels", "AC bonus"]
+replaces_features = ["ac-bonus"]
 +++
 
 In the sacred text Unbinding the Fetters, Irori teaches that the path to transcendence can be

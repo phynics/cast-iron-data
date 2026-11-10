@@ -16,6 +16,7 @@ page = "31"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Rages are barely controlled, but there are those who wholly give in to their more savage side,

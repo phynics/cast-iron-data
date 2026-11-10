@@ -16,6 +16,7 @@ page = "44"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "4th, 8th, 12th, and 16th level rage powers", "Improved uncanny dodge"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 The Shoanti tribes who live in the Cinderlands have turned the deadly emberstorms that plague the

@@ -16,6 +16,7 @@ page = "108"
 [fields]
 kind = "archetype"
 replaces = ["Armor training 1, 2, 3, and 4", "Weapon training 1", "Weapon training 2 and 3", "Weapon training 4", "Armor mastery", "Weapon mastery"]
+replaces_features = ["armor-mastery", "weapon-mastery"]
 +++
 
 A shielded fighter focuses on both offense and defense, blending weapon and shield in perfect

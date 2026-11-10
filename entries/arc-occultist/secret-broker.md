@@ -17,6 +17,8 @@ page = "68"
 kind = "archetype"
 replaces = ["Magic item skill", "Shift focus", "Magic circles", "Binding circles", "Fast circles"]
 alters = ["Implements", "implement mastery"]
+replaces_features = ["magic-item-skill", "shift-focus", "magic-circles", "binding-circles", "fast-circles"]
+alters_features = ["implements", "implement-mastery"]
 +++
 
 Whether as spymasters, extortionists, political fixers, or puppet masters, secret brokers use their

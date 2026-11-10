@@ -17,6 +17,7 @@ page = "30"
 kind = "archetype"
 replaces = ["Divine health", "Mercy", "Divine bond"]
 alters = ["Armor proficiency"]
+replaces_features = ["divine-health", "mercy", "divine-bond"]
 +++
 
 Great civilizations may rise and fall, but water will always mark the places where cities grow.

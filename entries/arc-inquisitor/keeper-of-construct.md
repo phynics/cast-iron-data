@@ -16,6 +16,7 @@ page = "27"
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Stern gaze", "Monster lore", "Exploit weakness"]
+replaces_features = ["domain", "stern-gaze", "monster-lore", "exploit-weakness"]
 +++
 
 Some of Brigh's inquisitors, and occasionally those who follow Torag, track down malicious construct

@@ -16,6 +16,7 @@ page = "85"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "damage reduction", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "damage-reduction", "improved-uncanny-dodge"]
 +++
 
 Where other bloodragers learn to avoid or shrug off minor damage of all sorts, spelleaters tap into

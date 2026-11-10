@@ -16,6 +16,7 @@ page = "189"
 [fields]
 kind = "archetype"
 replaces = ["Rogue talent rogues gained at 2nd level", "Trap sense"]
+replaces_features = ["trap-sense"]
 +++
 
 An eldritch raider is a rogue who seeks to unravel the mysteries of the destruction of the gillmen's

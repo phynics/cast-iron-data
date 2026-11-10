@@ -17,6 +17,8 @@ page = "9"
 kind = "archetype"
 replaces = ["Scribe Scroll", "bonus feats"]
 alters = ["Arcane bond", "Arcane school"]
+replaces_features = ["scribe-scroll", "bonus-feats"]
+alters_features = ["arcane-bond", "arcane-school"]
 +++
 
 While most wizards learn their arts through gradual study, spirit binders have made a sudden arcane

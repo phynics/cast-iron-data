@@ -16,6 +16,7 @@ page = "64"
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Divine health", "divine bond", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
+replaces_features = ["smite-evil", "divine-health", "divine-bond", "aura-of-courage", "aura-of-resolve", "aura-of-justice", "holy-champion"]
 +++
 
 The holy tactician inspires her allies on the field of battle. Her place is at their side against

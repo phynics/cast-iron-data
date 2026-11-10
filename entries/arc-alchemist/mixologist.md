@@ -17,6 +17,8 @@ page = "57"
 kind = "archetype"
 replaces = ["Mutagen", "The discovery gained at 2nd level", "Persistent mutagen"]
 alters = ["Alchemy", "brew potion", "Poison resistance"]
+replaces_features = ["mutagen", "persistent-mutagen"]
+alters_features = ["alchemy", "brew-potion", "poison-resistance"]
 +++
 
 Certain alchemists focus on mastering the chemical reactions between alcohol and the physical body.

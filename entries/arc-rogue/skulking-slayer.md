@@ -16,6 +16,7 @@ page = "55"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense +1 and +4", "Trap sense +2", "Trap sense +3"]
+replaces_features = ["trapfinding"]
 +++
 
 Pushed into a life of crime by the society around them, half-orcs gravitate toward criminal

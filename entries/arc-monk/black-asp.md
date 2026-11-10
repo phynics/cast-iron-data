@@ -16,6 +16,7 @@ page = "67"
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "still mind"]
+replaces_features = ["stunning-fist", "still-mind"]
 +++
 
 The black asps are a sinister order of monks who train as assassins and infiltrators with no need

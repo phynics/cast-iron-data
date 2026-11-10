@@ -17,6 +17,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Fast movement"]
 alters = ["Rage"]
+replaces_features = ["fast-movement"]
+alters_features = ["rage"]
 +++
 
 Rather than exploding with anger, primal hunters focus their rage to strike distant targets. Though

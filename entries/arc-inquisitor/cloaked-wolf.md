@@ -17,6 +17,8 @@ page = "28"
 kind = "archetype"
 replaces = ["Stern gaze", "Monster lore", "Solo tactics", "teamwork feats"]
 alters = ["Cunning initiative"]
+replaces_features = ["stern-gaze", "monster-lore", "solo-tactics"]
+alters_features = ["cunning-initiative"]
 +++
 
 Some inquisitors are adept at appearing harmless until they throw off their unassuming facades and

@@ -16,6 +16,7 @@ page = "48"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 Many fighters believe the [tower shield](ref/eq-armor/tower-shield) is a tool suitable only for

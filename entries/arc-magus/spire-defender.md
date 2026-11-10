@@ -16,6 +16,7 @@ page = "39"
 [fields]
 kind = "archetype"
 replaces = ["Weapon proficiencies", "Armor proficiencies", "Spell recall"]
+replaces_features = ["spell-recall"]
 +++
 
 Spire defenders are magi who train themselves to accompany sages and archaeologists who venture from

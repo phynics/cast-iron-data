@@ -17,6 +17,8 @@ page = "49"
 kind = "archetype"
 replaces = ["Wild empathy", "Trackless step", "venom immunity", "Resist nature's lure", "Wild shape"]
 alters = ["Spontaneous casting", "Nature bond"]
+replaces_features = ["wild-empathy", "trackless-step", "venom-immunity", "resist-nature-s-lure", "wild-shape"]
+alters_features = ["spontaneous-casting", "nature-bond"]
 +++
 
 Harbingers of decay, rot wardens live in damp lands where insects and rot break down the dead to

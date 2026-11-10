@@ -17,6 +17,8 @@ page = "21"
 kind = "archetype"
 replaces = ["Poison lore", "Poison resistance", "poison immunity"]
 alters = ["Alchemy", "Inspiration"]
+replaces_features = ["poison-lore", "poison-resistance"]
+alters_features = ["alchemy", "inspiration"]
 +++
 
 Scavengers are masters of systems: how they fit together, why they work, and how to make the most of

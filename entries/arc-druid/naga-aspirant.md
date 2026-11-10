@@ -16,6 +16,7 @@ page = "196"
 [fields]
 kind = "archetype"
 replaces = ["Spontaneous casting", "Resist nature's lure", "Wild Shape", "Venom immunity", "a thousand faces", "timeless body", "Wildshape (at will)"]
+replaces_features = ["spontaneous-casting", "resist-nature-s-lure", "wild-shape", "venom-immunity", "a-thousand-faces", "timeless-body"]
 +++
 
 The naga aspirant follows the ancient beliefs and engages in the rituals of a druidic sect dedicated

@@ -17,6 +17,7 @@ page = "121"
 kind = "archetype"
 replaces = ["Nature bond", "Nature sense", "Wild empathy", "Spontaneous casting", "Wild shape", "Resist nature's lure", "A thousand faces"]
 alters = ["Class skills"]
+replaces_features = ["nature-bond", "nature-sense", "wild-empathy", "spontaneous-casting", "wild-shape", "resist-nature-s-lure", "a-thousand-faces"]
 +++
 
 Druids of the Halcyon Circle embrace [the teachings of Old-Mage Jatembe](ref/rule/aff-i-school),

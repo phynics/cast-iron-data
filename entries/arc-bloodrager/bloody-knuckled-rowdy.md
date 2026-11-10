@@ -17,6 +17,7 @@ page = "13"
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge"]
 alters = ["Spellcasting"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Bloodragers are frequently rough-and-ready, untrained scrappers who learn to exploit any advantage

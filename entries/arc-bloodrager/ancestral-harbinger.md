@@ -16,6 +16,7 @@ page = "6"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "bloodline feats gained at 6th and 18th levels", "Improved uncanny dodge", "the bloodline feat gained at 12th level"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 While all bloodragers tap into their bloodlines to fuel the arcane energies they use in battle, some

@@ -16,6 +16,7 @@ page = "36"
 [fields]
 kind = "archetype"
 replaces = ["Armor and weapon proficiencies", "Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 Not every [Calistrian](ref/faith/calistria) who dedicates himself to the goddess can channel divine

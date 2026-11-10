@@ -17,6 +17,7 @@ page = "5"
 kind = "archetype"
 replaces = ["Bravery", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level"]
 alters = ["Bonus feat gained at 1st level"]
+replaces_features = ["bravery"]
 +++
 
 The venomblade has learned to take full advantage of his toxic spittle, blinding his targets and

@@ -16,6 +16,7 @@ page = "47"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Well-versed", "Dirge of doom"]
+replaces_features = ["bardic-knowledge", "well-versed"]
 +++
 
 Although the Hatharat employs all manner of specialists, bards who take up the role of agent are

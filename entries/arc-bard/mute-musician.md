@@ -16,6 +16,7 @@ page = "9"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence", "Frightening tune", "Inspire heroics", "Mass suggestion", "Versatile performance", "Well-versed", "Jack-of-all-trades"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "well-versed", "jack-of-all-trades"]
 +++
 
 A mute musician forswears speech for the unnatural songs and thunderous silences of the depths of

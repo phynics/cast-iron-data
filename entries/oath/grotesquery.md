@@ -14,6 +14,7 @@ page = "15"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Divine health", "Aura of faith"]
+replaces_features = ["divine-health", "aura-of-faith"]
 +++
 
 For paladins of the Eternal Rose, beauty is synonymous with virtue, and it is the lens through which

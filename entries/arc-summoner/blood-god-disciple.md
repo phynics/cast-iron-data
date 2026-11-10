@@ -16,6 +16,7 @@ page = "53"
 [fields]
 kind = "archetype"
 replaces = ["Summon monster I", "III", "V", "VII", "and IX", "Summon monster II", "Summon monster IV", "Summon monster VI and VIII spell-like abilities"]
+replaces_features = ["summon-monster-i"]
 +++
 
 A half-orc summoner who devotes himself to one of the bloody orc gods may believe his eidolon is an

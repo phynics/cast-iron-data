@@ -16,6 +16,7 @@ page = "79"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "improved uncanny dodge", "damage reduction", "Trap sense"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge", "damage-reduction", "trap-sense"]
 +++
 
 Some barbarians learn to take whatever comes their way, shrugging off mortal wounds with ease. These

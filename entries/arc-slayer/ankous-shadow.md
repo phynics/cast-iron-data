@@ -17,6 +17,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Studied target", "Stalker"]
 alters = ["Quarry", "improved quarry"]
+replaces_features = ["studied-target", "stalker"]
+alters_features = ["quarry", "improved-quarry"]
 +++
 
 Ankous are terrifying, winged fey assassins dispatched by the greatest lords of the First World to

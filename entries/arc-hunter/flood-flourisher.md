@@ -16,6 +16,7 @@ page = "20"
 [fields]
 kind = "archetype"
 replaces = ["Hunter tactics", "The teamwork feat gained at 3rd level", "Woodland stride", "The teamwork feat gained at 6th level", "Swift tracker", "The teamwork feat gained at 9th level", "The teamwork feat gained at 12th level", "The teamwork feat gained at 15th level", "The teamwork feat gained at 18th level"]
+replaces_features = ["hunter-tactics", "woodland-stride", "swift-tracker"]
 +++
 
 Well adapted to their drenched surroundings, flood flourishers coordinate deadly ambushes with their

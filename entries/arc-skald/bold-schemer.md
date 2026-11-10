@@ -17,6 +17,8 @@ page = "48"
 kind = "archetype"
 replaces = ["Uncanny dodge", "improved uncanny dodge", "damage reduction", "Dirge of doom"]
 alters = ["Bardic knowledge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge", "damage-reduction", "dirge-of-doom"]
+alters_features = ["bardic-knowledge"]
 +++
 
 The bold schemer combines wrath, wits, and daring to win battles and wars in unconventional ways,

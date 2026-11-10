@@ -16,6 +16,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["trapfinding", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 A Numerian scavenger lives for the discovery of new technological wonders scraped from the depths of

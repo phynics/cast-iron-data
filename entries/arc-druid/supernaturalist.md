@@ -17,6 +17,8 @@ page = "21"
 kind = "archetype"
 replaces = ["Nature sense", "trackless step", "resist nature's lure", "Wild shape", "Nature bond", "Wild empathy"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["nature-sense", "trackless-step", "resist-nature-s-lure", "wild-shape", "nature-bond", "wild-empathy"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Supernaturalists wholly embrace paranormal phenomena as extensions of nature.

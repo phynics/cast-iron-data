@@ -16,6 +16,7 @@ page = "108"
 [fields]
 kind = "archetype"
 replaces = ["Etheric tether", "phantom", "shared consciousness", "fused consciousness", "spiritual bond", "empowered consciousness", "Bonded manifestation", "phantom recall", "dual bond", "Spiritual interference", "greater spiritual interference"]
+replaces_features = ["etheric-tether", "phantom", "shared-consciousness", "fused-consciousness", "spiritual-bond", "empowered-consciousness", "bonded-manifestation", "phantom-recall", "dual-bond", "spiritual-interference", "greater-spiritual-interference"]
 +++
 
 Instead of calling upon a phantom from the Ethereal Plane, an ectoplasmatist infuses herself with

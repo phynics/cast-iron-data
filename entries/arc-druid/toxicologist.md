@@ -17,6 +17,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Spontaneous casting", "Wild empathy", "woodland stride", "Trackless step", "resist nature's lure"]
 alters = ["Spells", "Wild shape"]
+replaces_features = ["spontaneous-casting", "wild-empathy", "woodland-stride", "trackless-step", "resist-nature-s-lure"]
+alters_features = ["spells", "wild-shape"]
 +++
 
 Druids protect the natural environs of the world, and sometimes that requires forcibly expelling

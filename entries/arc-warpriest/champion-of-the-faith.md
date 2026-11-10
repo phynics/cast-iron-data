@@ -17,6 +17,8 @@ page = "128"
 kind = "archetype"
 replaces = ["Bonus feat gained at 3rd level", "Channel energy"]
 alters = ["Sacred weapon"]
+replaces_features = ["channel-energy"]
+alters_features = ["sacred-weapon"]
 +++
 
 Champions of the faith are crusaders who use the power of their divine patron to annihilate the

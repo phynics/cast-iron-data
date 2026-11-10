@@ -16,6 +16,7 @@ page = "112"
 [fields]
 kind = "archetype"
 alters = ["The cleric's armor proficiencies", "Alignment", "Channel energy", "domains"]
+alters_features = ["channel-energy", "domains"]
 +++
 
 There are some clerics who take their pursuit of purity and light to extremes. These clerics are

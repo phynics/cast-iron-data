@@ -16,6 +16,7 @@ page = "99"
 [fields]
 kind = "archetype"
 replaces = ["Judgment 1/day", "Later iterations of the judgment ability", "Second judgment", "third judgment", "slayer", "true judgment"]
+replaces_features = ["second-judgment", "third-judgment", "slayer", "true-judgment"]
 +++
 
 While all inquisitors root out enemies of the faith, in many orders and churches there's a select

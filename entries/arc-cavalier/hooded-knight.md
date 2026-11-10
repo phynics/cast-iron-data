@@ -17,6 +17,7 @@ page = "26"
 kind = "archetype"
 replaces = ["Tactician", "Greater tactician", "Master tactician"]
 alters = ["The cavalier's mount"]
+replaces_features = ["tactician", "greater-tactician", "master-tactician"]
 +++
 
 Some cavaliers wander the lonely roads of the world - any world, including the First World -

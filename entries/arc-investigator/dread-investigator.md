@@ -17,6 +17,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Poison lore", "Poison resistance", "immunity", "Investigator talents gained at 7th, 13th, and 19th level"]
 alters = ["Inspiration", "studied combat", "studied strike"]
+replaces_features = ["poison-lore", "poison-resistance"]
+alters_features = ["inspiration", "studied-combat", "studied-strike"]
 +++
 
 The dread investigator observes human behavior after the fact, honing their intuition by delving

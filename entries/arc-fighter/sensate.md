@@ -16,6 +16,7 @@ page = "118"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiency", "Bravery", "Armor training 1", "Weapon training 2, 3, and 4", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery", "Weapon mastery"]
+replaces_features = ["bravery", "armor-mastery", "weapon-mastery"]
 +++
 
 A sensate perceives battle through senses beyond mortal ken, anticipating his opponents' movements

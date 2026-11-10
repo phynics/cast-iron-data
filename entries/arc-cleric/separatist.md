@@ -16,6 +16,7 @@ page = "32"
 [fields]
 kind = "archetype"
 replaces = ["Domains"]
+replaces_features = ["domains"]
 +++
 
 A radical cleric, unsatisfied with the orthodoxy of her deity's teachings, forges her own path of

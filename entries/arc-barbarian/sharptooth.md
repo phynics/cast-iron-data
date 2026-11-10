@@ -16,6 +16,7 @@ page = "39"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "6th- and 12th-level rage powers"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge", "trap-sense"]
 +++
 
 Coastal hunters and agents of the ocean's rage, sharptooth barbarians emulate the greatest predators

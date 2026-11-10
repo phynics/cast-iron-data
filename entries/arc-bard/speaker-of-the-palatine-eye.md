@@ -17,6 +17,8 @@ page = "8"
 kind = "archetype"
 replaces = ["Countersong", "Jack-of-all-trades"]
 alters = ["The bard's class skills", "Spells"]
+replaces_features = ["jack-of-all-trades"]
+alters_features = ["spells"]
 +++
 
 Working from the shadows of Ustalav's high society, the Esoteric Order of the Palatine

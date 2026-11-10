@@ -17,6 +17,7 @@ page = "24"
 kind = "archetype"
 replaces = ["1st-level social talent", "Unshakable", "Startling appearance", "Frightening appearance", "Stunning appearance"]
 alters = ["Social talents"]
+replaces_features = ["unshakable", "startling-appearance", "frightening-appearance", "stunning-appearance"]
 +++
 
 Since the disappearance of the Rogarvias, Brevoy draws ever closer to civil war. The rule of

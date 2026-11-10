@@ -17,6 +17,8 @@ page = "92"
 kind = "archetype"
 replaces = ["Haunt channeler", "location channel", "connection channel", "Ask the spirits", "Astral journey"]
 alters = ["Spirit", "Taboo", "Spellcasting"]
+replaces_features = ["haunt-channeler", "location-channel", "connection-channel", "ask-the-spirits", "astral-journey"]
+alters_features = ["spirit", "taboo"]
 +++
 
 Some mediums channel the power of nature spirits called [kami](ref/family/kami) rather than the

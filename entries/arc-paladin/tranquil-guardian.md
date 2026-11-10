@@ -16,6 +16,7 @@ page = "86"
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Aura of courage", "Aura of resolve", "Aura of justice", "Holy champion"]
+replaces_features = ["smite-evil", "aura-of-courage", "aura-of-resolve", "aura-of-justice", "holy-champion"]
 +++
 
 A tranquil guardian is a missionary of peace and tranquility, a soothing voice of succor in a

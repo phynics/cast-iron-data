@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Order"]
 alters = ["The cavalier's weapon proficiencies", "Mount"]
+replaces_features = ["order"]
+alters_features = ["mount"]
 +++
 
 Nagajor legend states that when [Nalinivati](ref/faith/nalinivati) created the first

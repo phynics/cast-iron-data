@@ -16,6 +16,7 @@ page = "45"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "The versatile performance gained at 2nd level", "Suggestion", "mass suggestion"]
+replaces_features = ["bardic-knowledge"]
 +++
 
 Provocateurs are bards who use their art to make controversial political statements, undermine

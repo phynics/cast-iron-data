@@ -17,6 +17,8 @@ page = "38"
 kind = "archetype"
 replaces = ["Ability to treat Acrobatics jump checks as if he had a running start", "ability to reduce Acrobatics jump checks by half", "Uncanny dodge", "Improved uncanny dodge"]
 alters = ["Ki pool"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
+alters_features = ["ki-pool"]
 +++
 
 Frozen shadows belong to a rare ninja clan operating in Avistan, having migrated to the Lands of the

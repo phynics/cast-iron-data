@@ -17,6 +17,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Touch treatment"]
 alters = ["Mesmerist tricks", "manifold tricks"]
+replaces_features = ["touch-treatment"]
+alters_features = ["mesmerist-tricks", "manifold-tricks"]
 +++
 
 Lirgeni astrologists would divine their futures by consulting star charts, but some had no talent

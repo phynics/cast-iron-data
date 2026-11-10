@@ -17,6 +17,7 @@ page = "45"
 kind = "archetype"
 replaces = ["2nd-level discovery", "4th-level discovery"]
 alters = ["Alchemy", "Mutagen"]
+alters_features = ["alchemy", "mutagen"]
 +++
 
 The mad scientist's colleagues laughed at her insights, mocked her theories, and hounded her from

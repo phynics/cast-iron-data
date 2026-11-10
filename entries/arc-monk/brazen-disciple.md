@@ -17,6 +17,7 @@ page = "104"
 kind = "archetype"
 replaces = ["Bonus feats gained at 1st level and at 6th level", "Still mind", "Abundant step", "Perfect self"]
 alters = ["Bonus feats"]
+replaces_features = ["still-mind", "abundant-step", "perfect-self"]
 +++
 
 Of the three monasteries, the Monastery of Unblinking Flame has been the most successful in

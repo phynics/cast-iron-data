@@ -16,6 +16,7 @@ page = "17"
 [fields]
 kind = "archetype"
 replaces = ["Track", "Stalker", "Quarry", "improved quarry"]
+replaces_features = ["track", "stalker", "quarry", "improved-quarry"]
 +++
 
 In Sekamina, betraying others before they have the chance to betray you can be a necessary survival

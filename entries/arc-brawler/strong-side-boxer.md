@@ -16,6 +16,7 @@ page = "16"
 [fields]
 kind = "archetype"
 replaces = ["The brawler's AC bonus", "Maneuver training", "Close weapon mastery"]
+replaces_features = ["maneuver-training", "close-weapon-mastery"]
 +++
 
 A strong-side boxer employs a unique fighting style that incorporates a rope or cord wound around

@@ -17,6 +17,7 @@ page = "97"
 kind = "archetype"
 replaces = ["Consummate liar", "mental potency", "3rd- and 14th-level touch treatments", "6th- and 10th-level touch treatments", "Rule minds"]
 alters = ["Spell list"]
+replaces_features = ["consummate-liar", "mental-potency", "rule-minds"]
 +++
 
 Some mesmerists specialize in dominating and controlling undead rather than the living.

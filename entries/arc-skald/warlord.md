@@ -16,6 +16,7 @@ page = "49"
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll feat", "Well-versed", "Spell kenning", "Lore master", "Improved uncanny dodge"]
+replaces_features = ["well-versed", "spell-kenning", "lore-master", "improved-uncanny-dodge"]
 +++
 
 The warlord wields his force of personality like a weapon, intimidating his allies and ensuring that

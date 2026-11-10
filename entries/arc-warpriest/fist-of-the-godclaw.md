@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Bonus feat gained at 3rd level", "Bonus feats gained at 6th level and 12th level", "Aspect of war"]
 alters = ["Blessings"]
+replaces_features = ["aspect-of-war"]
+alters_features = ["blessings"]
 +++
 
 Devoted to the divine control of law above all else, these zealots seek to establish absolute order.

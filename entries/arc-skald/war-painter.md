@@ -17,6 +17,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Spell kenning", "Lore master"]
 alters = ["Raging song"]
+replaces_features = ["spell-kenning", "lore-master"]
+alters_features = ["raging-song"]
 +++
 
 The gripplis of the Valashmai Jungle exhibit savage strength for their size - attributed in part to

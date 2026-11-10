@@ -17,6 +17,7 @@ page = "10"
 kind = "archetype"
 replaces = ["Mount", "Weapon expertise", "Mounted archer", "Banner", "Greater banner"]
 alters = ["Weapon and armor proficiency"]
+replaces_features = ["mount", "weapon-expertise", "mounted-archer", "banner", "greater-banner"]
 +++
 
 While some martial arts traditions focus on the strength of the body, most schools of combat and

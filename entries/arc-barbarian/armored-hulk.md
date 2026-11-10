@@ -16,6 +16,7 @@ page = "28"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 Some barbarians disdain the hides and leather used as armor by most of their kin. Instead they

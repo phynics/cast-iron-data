@@ -16,6 +16,7 @@ page = "80"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Suggestion", "Mass suggestion", "Versatile performance", "Well-versed", "Lore master", "Jack of all trades"]
+replaces_features = ["versatile-performance", "well-versed", "lore-master", "jack-of-all-trades"]
 +++
 
 Some bards greatly prefer academic pursuits to the drama (and sometimes melodrama) of their artistic

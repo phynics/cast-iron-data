@@ -17,6 +17,8 @@ page = "100"
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thousand faces"]
 alters = ["Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "a-thousand-faces"]
+alters_features = ["wild-shape"]
 +++
 
 The fecund jungles of the equatorial regions are rich in life and ancient tradition; druidical

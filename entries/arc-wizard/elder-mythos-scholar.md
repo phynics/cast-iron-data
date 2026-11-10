@@ -17,6 +17,8 @@ page = "74"
 kind = "archetype"
 replaces = ["Scribe Scroll", "the 5th- and 10th-level bonus feats", "The school ability gained at 8th level"]
 alters = ["Arcane bond", "The 1st-level arcane school ability", "Spellbook"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Elder Mythos scholars risk their sanity to seek knowledge of alien and awful entities from beyond

@@ -17,6 +17,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Woodland stride", "A thousand faces", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy", "Wild shape"]
+replaces_features = ["woodland-stride", "a-thousand-faces", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy", "wild-shape"]
 +++
 
 A shaman with this totem calls upon the mighty ape, a peaceful but powerful simian whose strength is

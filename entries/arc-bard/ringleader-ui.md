@@ -17,6 +17,7 @@ page = "21"
 kind = "archetype"
 replaces = ["Dirge of doom", "frightening tune", "Versatile performance", "Well-versed", "Lore master"]
 alters = ["Inspire competence"]
+replaces_features = ["versatile-performance", "well-versed", "lore-master"]
 +++
 
 Ringleaders are adept in getting the most out of their allies, and they excel at planning for

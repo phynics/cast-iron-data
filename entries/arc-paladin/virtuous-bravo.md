@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Mercy", "Spellcasting", "Aura of justice", "Holy champion"]
 alters = ["Armor proficiency", "Smite evil"]
+replaces_features = ["mercy", "aura-of-justice", "holy-champion"]
+alters_features = ["smite-evil"]
 +++
 
 Although no less a beacon of hope and justice than other paladins, virtuous bravos rely on their wit

@@ -17,6 +17,8 @@ page = "41"
 kind = "archetype"
 replaces = ["Favored enemy", "Wild empathy", "Woodland stride"]
 alters = ["Favored terrain", "Hunter's bond", "Spellcasting"]
+replaces_features = ["favored-enemy", "wild-empathy", "woodland-stride"]
+alters_features = ["favored-terrain", "hunter-s-bond"]
 +++
 
 The antithesis of the gruff and wild woodsmen, a dandy takes effort to master the subtle etiquette

@@ -16,6 +16,7 @@ page = "78"
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "Life link", "Life bond", "Merge forms"]
+replaces_features = ["eidolon", "life-link", "life-bond", "merge-forms"]
 +++
 
 Most summoners bond with one eidolon for their entire lives, but the broodmaster forges a link with

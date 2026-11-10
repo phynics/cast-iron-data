@@ -16,6 +16,7 @@ page = "93"
 [fields]
 kind = "archetype"
 replaces = ["Weapon training", "weapon mastery"]
+replaces_features = ["weapon-training", "weapon-mastery"]
 +++
 
 There are those who learn the fighting arts though countless hours of repetition and training, while

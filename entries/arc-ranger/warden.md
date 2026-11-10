@@ -16,6 +16,7 @@ page = "68"
 [fields]
 kind = "archetype"
 replaces = ["1st favored enemy", "All combat style feats", "Hunter's bond", "2nd, 3rd, and 4th favored enemies", "5th favored enemy", "master hunter"]
+replaces_features = ["hunter-s-bond", "master-hunter"]
 +++
 
 All rangers have a bond with the wilderness, but the warden may have the strongest. This protector

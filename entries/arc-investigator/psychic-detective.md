@@ -17,6 +17,7 @@ page = "119"
 kind = "archetype"
 replaces = ["Alchemy", "Poison lore", "poison resistance", "swift alchemy", "poison immunity", "Investigator talent gained at 3rd level"]
 alters = ["Investigator talents"]
+replaces_features = ["alchemy", "poison-lore", "poison-resistance", "swift-alchemy"]
 +++
 
 A psychic detective supplements her keen insight with occult skill to unravel mysteries both

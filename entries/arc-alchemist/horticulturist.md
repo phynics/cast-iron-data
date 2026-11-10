@@ -20,6 +20,7 @@ page = "24"
 kind = "archetype"
 replaces = ["Mutagen, 2nd-level discovery", "Poison resistance", "poison use", "poison immunity", "The discovery gained at 4th level", "Persistent mutagen"]
 alters = ["Bombs"]
+replaces_features = ["mutagen", "poison-resistance", "poison-use", "persistent-mutagen"]
 +++
 
 A horticulturist spends his time cultivating plants and plant creatures, allowing him to experiment

@@ -16,6 +16,7 @@ page = "60"
 [fields]
 kind = "archetype"
 replaces = ["Flurry of blows", "fast movement", "improved evasion", "Evasion", "bonus feat gained at 2nd level", "Bonus feats gained at 6th, 10th, and 14th level"]
+replaces_features = ["flurry-of-blows", "fast-movement", "improved-evasion", "evasion"]
 +++
 
 The sensei is a revered teacher who imparts lessons on the oneness of mind, body, and spirit, along

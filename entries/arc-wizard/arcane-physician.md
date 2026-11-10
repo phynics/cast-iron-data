@@ -16,6 +16,7 @@ page = "6"
 [fields]
 kind = "archetype"
 replaces = ["Arcane school", "Scribe scroll"]
+replaces_features = ["arcane-school", "scribe-scroll"]
 +++
 
 Arcane physicians use their scholarly knowledge and arcane mastery to achieve incredible feats of

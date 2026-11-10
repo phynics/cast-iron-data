@@ -16,6 +16,7 @@ page = "4"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense (core rogue)", "danger sense (unchained rogue)"]
+replaces_features = ["trapfinding"]
 +++
 
 Swamp poisoners use their own toxins to defend their homes and level the playing field. The swamp

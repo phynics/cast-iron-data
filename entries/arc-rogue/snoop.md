@@ -16,6 +16,7 @@ page = "47"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "evasion", "Uncanny dodge", "improved uncanny dodge", "Rogue talent gained at 8th level"]
+replaces_features = ["trapfinding", "evasion", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Snoops are the underworld's version of detectives. They often act as information peddlers,

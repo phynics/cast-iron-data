@@ -17,6 +17,8 @@ page = "71"
 kind = "archetype"
 replaces = ["Unshakable", "4th- and 14th-level vigilante talents, 9th- and 19th-level social talents", "Startling appearance", "6th-level vigilante talent", "7th-level social talent", "Frightening appearance", "12th-level vigilante talent", "Stunning appearance"]
 alters = ["Vigilante specialization"]
+replaces_features = ["unshakable", "startling-appearance", "frightening-appearance", "stunning-appearance"]
+alters_features = ["vigilante-specialization"]
 +++
 
 Some vigilantes adopt an innocent guise to cloak their acts of brutal murder.

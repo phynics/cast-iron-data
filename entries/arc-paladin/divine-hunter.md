@@ -16,6 +16,7 @@ page = "62"
 [fields]
 kind = "archetype"
 replaces = ["Heavy Armor Proficiency", "Aura of courage", "Divine bond", "6th-level mercy", "Aura of resolve", "Aura of justice", "Aura of righteousness"]
+replaces_features = ["aura-of-courage", "divine-bond", "aura-of-resolve", "aura-of-justice", "aura-of-righteousness"]
 +++
 
 Most paladins rush into battle, meeting evil toe-to-toe. The divine hunter prefers to engage evil

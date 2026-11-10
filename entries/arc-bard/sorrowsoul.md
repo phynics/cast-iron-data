@@ -17,6 +17,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Soothing performance", "versatile performance", "Well-versed", "Lore master"]
 alters = ["Bardic performance"]
+replaces_features = ["versatile-performance", "well-versed", "lore-master"]
+alters_features = ["bardic-performance"]
 +++
 
 It isn't uncommon for a bard to, on occasion, sing mournful tunes or craft elegies that depict the

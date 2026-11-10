@@ -16,6 +16,7 @@ page = "108"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy at 1st level", "Wild empathy", "endurance", "evasion", "improved evasion"]
+replaces_features = ["wild-empathy", "endurance", "evasion", "improved-evasion"]
 +++
 
 The hooded champion lives on the periphery of civilized lands, and is often at odds with the forces

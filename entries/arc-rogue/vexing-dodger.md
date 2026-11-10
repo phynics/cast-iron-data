@@ -16,6 +16,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["trapfinding", "trap-sense", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Vexing dodgers take advantage of their smaller size to outmaneuver larger foes such as giants.

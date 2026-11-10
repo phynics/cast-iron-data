@@ -16,6 +16,7 @@ page = "71"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Bandits, brigands, and highwaymen hone their craft along the roadsides and byways of the world,

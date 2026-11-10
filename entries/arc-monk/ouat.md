@@ -16,6 +16,7 @@ page = "41"
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "and the greed and hatred dwarf racial traits", "The defensive training", "stonecunning", "and weapon familiarity dwarf racial traits", "Wholeness of body"]
+replaces_features = ["stunning-fist", "wholeness-of-body"]
 +++
 
 The ascetic, desert-dwelling dwarves known as the Ouat have eschewed dwarven traditions, whose

@@ -16,6 +16,7 @@ page = "20"
 [fields]
 kind = "archetype"
 replaces = ["Bomb"]
+replaces_features = ["bomb"]
 +++
 
 A vivisectionist studies bodies to better understand their function. Unlike a

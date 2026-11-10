@@ -17,6 +17,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Detect evil", "Smite evil"]
 alters = ["Aura of faith", "Aura of righteousness", "holy champion"]
+replaces_features = ["detect-evil", "smite-evil"]
+alters_features = ["aura-of-faith", "aura-of-righteousness", "holy-champion"]
 +++
 
 Since the publication of The Majestic Book of the Prime Ascended, certain paladins have taken "Prime

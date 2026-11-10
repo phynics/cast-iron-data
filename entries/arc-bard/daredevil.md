@@ -16,6 +16,7 @@ page = "32"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire courage", "Versatile performance", "Well-versed", "Lore master"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "well-versed", "lore-master"]
 +++
 
 As quick at wordplay as at swordplay, daredevils are dashing heroes, inspiring their allies to match

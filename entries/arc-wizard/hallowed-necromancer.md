@@ -17,6 +17,8 @@ page = "74"
 kind = "archetype"
 replaces = ["Grave touch necromancy school ability", "Scribe Scroll", "5th-level bonus feat", "10th-level bonus feat", "15th-level bonus feat"]
 alters = ["Arcane school", "spells", "Power over undead necromancy school ability"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-school", "spells"]
 +++
 
 Many wizards study necromancy to create undead, but some study the same arts to purge the stain of

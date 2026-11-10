@@ -17,6 +17,8 @@ page = "20"
 kind = "archetype"
 replaces = ["Touch of corruption"]
 alters = ["Cruelty"]
+replaces_features = ["touch-of-corruption"]
+alters_features = ["cruelty"]
 +++
 
 The fearmonger wants to do more than cause pain, misery, and confusion. He wishes to spread fear

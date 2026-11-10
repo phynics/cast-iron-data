@@ -16,6 +16,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Uncanny dodge", "Rogue talent gained at 6th level", "Improved uncanny dodge"]
+replaces_features = ["evasion", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 While some assassins and killers prefer to be up front with their poison use, others favor a covert

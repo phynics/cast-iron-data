@@ -17,6 +17,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Summon monster I"]
 alters = ["Eidolon"]
+replaces_features = ["summon-monster-i"]
+alters_features = ["eidolon"]
 +++
 
 Construct callers use their mechanical and planar understandings to work planar energies as a

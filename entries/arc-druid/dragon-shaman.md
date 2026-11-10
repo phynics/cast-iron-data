@@ -17,6 +17,8 @@ page = "37"
 kind = "archetype"
 replaces = ["Woodland stride", "A thousand faces", "Wild shape", "The additional use of wild shape at 8th level", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "a-thousand-faces", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 Your totem is the legendary dragon, fearsome and deadly yet cunning and wise, a creature born of

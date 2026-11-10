@@ -16,6 +16,7 @@ page = "84"
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "Versatile performance", "Song of marching", "Dirge of doom"]
+replaces_features = ["scribe-scroll", "versatile-performance", "song-of-marching", "dirge-of-doom"]
 +++
 
 Bacchanals are skalds who use ecstatic dancing and ribald songs to influence the primal instincts of

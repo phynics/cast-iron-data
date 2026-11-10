@@ -16,6 +16,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Bombs", "Brew Potion", "Throw Anything", "Poison resistance", "Swift poisoning"]
+replaces_features = ["weapon-and-armor-proficiencies", "brew-potion", "throw-anything", "poison-resistance", "swift-poisoning"]
 +++
 
 Simple alchemists may dabble in explosives, but for the rare gun chemist, a firearm's barrel is his

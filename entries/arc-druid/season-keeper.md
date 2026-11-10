@@ -17,6 +17,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Trackless step", "venom immunity", "timeless body"]
 alters = ["Nature bond", "Wild shape"]
+replaces_features = ["trackless-step", "venom-immunity", "timeless-body"]
+alters_features = ["nature-bond", "wild-shape"]
 +++
 
 Imbued with the primeval potency of their planet's seasons, those druids known as season keepers

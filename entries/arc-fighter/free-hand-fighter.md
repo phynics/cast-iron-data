@@ -16,6 +16,7 @@ page = "105"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "Weapon training 1 and 4", "Weapon training 2", "Weapon training 3", "Armor mastery"]
+replaces_features = ["bravery", "armor-mastery"]
 +++
 
 The free hand fighter specializes in the delicate art of handling a single weapon in one hand while

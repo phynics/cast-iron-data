@@ -17,6 +17,8 @@ page = "8"
 kind = "archetype"
 replaces = ["Haunt channeler", "location channel", "connection channel", "ask the spirits"]
 alters = ["Spirit"]
+replaces_features = ["haunt-channeler", "location-channel", "connection-channel", "ask-the-spirits"]
+alters_features = ["spirit"]
 +++
 
 Among the most sacred roles a grippli can play is that of fiend keeper, a vessel to contain one of

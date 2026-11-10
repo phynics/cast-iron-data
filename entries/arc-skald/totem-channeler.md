@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Bardic knowledge", "Spell kenning", "Damage reduction"]
 alters = ["Rage powers"]
+replaces_features = ["bardic-knowledge", "spell-kenning", "damage-reduction"]
+alters_features = ["rage-powers"]
 +++
 
 Some Shoanti skalds discover deeper truths in their tribes' totems. These skalds, known as totem

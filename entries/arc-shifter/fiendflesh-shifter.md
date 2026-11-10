@@ -17,6 +17,8 @@ page = "80"
 kind = "archetype"
 replaces = ["Wild shape", "shifter aspect", "Defensive instinct", "Chimeric aspect", "Greater chimeric aspect"]
 alters = ["Alignment", "Shifter claws"]
+replaces_features = ["wild-shape", "shifter-aspect", "defensive-instinct", "chimeric-aspect", "greater-chimeric-aspect"]
+alters_features = ["shifter-claws"]
 +++
 
 By forging dark pacts with extraplanar forces, fiendflesh shifters invoke sinister powers to assume

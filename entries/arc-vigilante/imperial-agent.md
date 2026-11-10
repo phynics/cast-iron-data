@@ -16,6 +16,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Social talent gained at 1st level", "Unshakable", "Social talent gained at 5th level"]
+replaces_features = ["unshakable"]
 +++
 
 Many residents of Lung Wa's successor states refuse to admit the empire has truly fallen, but the

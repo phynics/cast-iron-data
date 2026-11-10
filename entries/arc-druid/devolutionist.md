@@ -17,6 +17,8 @@ page = "50"
 kind = "archetype"
 replaces = ["Resist nature's lure", "Venom immunity"]
 alters = ["Nature bond"]
+replaces_features = ["resist-nature-s-lure", "venom-immunity"]
+alters_features = ["nature-bond"]
 +++
 
 Full of simmering hatred toward civilization and those who dwell within it, devolutionists believe

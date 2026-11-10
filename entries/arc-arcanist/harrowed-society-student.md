@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["The 1st-level arcanist exploit", "Consume spells", "The 9th-level arcanist exploit"]
+replaces_features = ["consume-spells"]
 +++
 
 Based out of Varisia's Twilight Academy, the secretive Harrowed Society focuses its efforts on the

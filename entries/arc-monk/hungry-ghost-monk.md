@@ -16,6 +16,7 @@ page = "110"
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Purity of body", "Wholeness of body", "Diamond body", "Diamond soul"]
+replaces_features = ["stunning-fist", "purity-of-body", "wholeness-of-body", "diamond-body", "diamond-soul"]
 +++
 
 The hungry ghost monk looks to spirits that prey upon the living as models of perfection. He sees

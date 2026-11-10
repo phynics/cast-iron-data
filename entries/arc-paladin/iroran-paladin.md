@@ -16,6 +16,7 @@ page = "39"
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Aura of good", "Detect evil", "Smite evil", "Aura of courage", "Channel positive energy", "Divine bond", "Aura of justice"]
+replaces_features = ["aura-of-good", "detect-evil", "smite-evil", "aura-of-courage", "channel-positive-energy", "divine-bond", "aura-of-justice"]
 +++
 
 Iroran paladins meditate on self-perfection and train relentlessly, knowing that their example can

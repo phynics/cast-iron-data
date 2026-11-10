@@ -17,6 +17,8 @@ page = "103"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 A shaman with this totem calls upon the cunning serpent, the stealthy deceiver who draws the weak

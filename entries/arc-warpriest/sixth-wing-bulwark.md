@@ -17,6 +17,8 @@ page = "32"
 kind = "archetype"
 replaces = ["Focus weapon", "Sacred weapon", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level", "Bonus feat gained at 18th level"]
 alters = ["Weapon and armor proficiencies", "Sacred armor"]
+replaces_features = ["focus-weapon", "sacred-weapon"]
+alters_features = ["weapon-and-armor-proficiencies", "sacred-armor"]
 +++
 
 Many are the followers of Ragathiel who lead in battle. Far fewer, but no less crucial to a

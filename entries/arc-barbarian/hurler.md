@@ -16,6 +16,7 @@ page = "78"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement"]
+replaces_features = ["fast-movement"]
 +++
 
 A raging barbarian is frightening enough in melee, but some become skilled at throwing objects at

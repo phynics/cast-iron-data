@@ -17,6 +17,8 @@ page = "33"
 kind = "archetype"
 replaces = ["Well-versed", "Versatile performance", "Suggestion", "mass suggestion", "soothing performance"]
 alters = ["Bardic performance"]
+replaces_features = ["well-versed", "versatile-performance"]
+alters_features = ["bardic-performance"]
 +++
 
 The [Aspis Consortium's](ref/rule/aff-profiteers) global operations are too extensive to conduct

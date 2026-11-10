@@ -17,6 +17,8 @@ page = "8"
 kind = "archetype"
 replaces = ["Magic circles", "outside contact", "binding circles", "fast circles"]
 alters = ["Weapon proficiencies", "Mental focus", "Shift focus"]
+replaces_features = ["magic-circles", "outside-contact", "binding-circles", "fast-circles"]
+alters_features = ["mental-focus", "shift-focus"]
 +++
 
 Extemporaneous channelers study the power of transformation and use items in unintended ways to

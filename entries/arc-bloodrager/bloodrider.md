@@ -16,6 +16,7 @@ page = "82"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "The bloodline feat gained at 9th level"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 In the world's wild lands, a mount is an advantage in both everyday life and the dealing of death.

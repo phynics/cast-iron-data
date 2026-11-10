@@ -16,6 +16,7 @@ page = "39"
 [fields]
 kind = "archetype"
 replaces = ["Divine grace", "6th-level mercy", "Aura of justice"]
+replaces_features = ["divine-grace", "aura-of-justice"]
 +++
 
 The goddess Iomedae was once a mortal paladin, and those holy champions who follow her path seek to

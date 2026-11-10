@@ -17,6 +17,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Bonus feats gained at 2nd and 5th levels", "The brawler's AC bonus", "Awesome blow", "Improved awesome blow"]
 alters = ["Maneuver training"]
+replaces_features = ["awesome-blow", "improved-awesome-blow"]
+alters_features = ["maneuver-training"]
 +++
 
 When a living avalanche is on the move, no one can stand in her way.

@@ -17,6 +17,7 @@ page = "14"
 kind = "archetype"
 replaces = ["Detect evil", "Smite evil", "Divine grace", "Lay on hands", "Divine health", "Mercy", "channel energy", "Divine bond", "Aura of justice", "Aura of faith", "Aura of righteousness", "Holy champion"]
 alters = ["Aura"]
+replaces_features = ["detect-evil", "smite-evil", "divine-grace", "lay-on-hands", "divine-health", "mercy", "channel-energy", "divine-bond", "aura-of-justice", "aura-of-faith", "aura-of-righteousness", "holy-champion"]
 +++
 
 While paladins often collaborate with less righteous adventurers in order to further their causes,

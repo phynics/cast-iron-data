@@ -17,6 +17,7 @@ page = "119"
 kind = "archetype"
 replaces = ["Judgment", "Domain", "bane", "greater bane", "second judgment", "third judgment"]
 alters = ["Spellcasting"]
+replaces_features = ["judgment", "domain", "bane", "greater-bane", "second-judgment", "third-judgment"]
 +++
 
 Some inquisitors specialize in the use and recovery of long-lost relics of their faiths, drawing

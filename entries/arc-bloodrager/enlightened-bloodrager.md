@@ -20,6 +20,7 @@ page = "16"
 kind = "archetype"
 replaces = ["1st-level bloodline power", "bloodline bonus spells", "The bloodline power gained at 4th level", "Damage reduction the bloodrager gains at 7th, 13th, and 19th levels"]
 alters = ["Spellcasting", "Bloodrage", "The bloodrager's bloodline powers"]
+alters_features = ["bloodrage"]
 +++
 
 Troubled by overwhelming rage and mystic forces beyond their comprehension, bloodragers have been

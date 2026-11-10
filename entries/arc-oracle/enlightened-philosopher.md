@@ -16,6 +16,7 @@ page = "58"
 [fields]
 kind = "archetype"
 replaces = ["Bonus skills from the oracle's mystery", "All bonus spells gained from the oracle's mystery after 2nd level", "Final revelation"]
+replaces_features = ["final-revelation"]
 +++
 
 The enlightened philosopher seeks enlightenment through compassion, moderation, and humility. By

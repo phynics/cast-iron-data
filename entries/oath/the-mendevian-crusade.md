@@ -15,6 +15,8 @@ kind = "class_option"
 group = "paladin-oath"
 replaces = ["Aura of resolve", "9th-level mercy"]
 alters = ["Divine bond"]
+replaces_features = ["aura-of-resolve"]
+alters_features = ["divine-bond"]
 +++
 
 The Worldwound threatens all of Golarion with the uttermost depths of depravity, and so paladins

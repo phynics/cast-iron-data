@@ -17,6 +17,7 @@ page = "6"
 kind = "archetype"
 replaces = ["Wild shape"]
 alters = ["Nature's bond"]
+replaces_features = ["wild-shape"]
 +++
 
 Droviers view their allies and adventuring companions as a herd or pack to be protected and

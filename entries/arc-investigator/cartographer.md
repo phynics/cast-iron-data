@@ -16,6 +16,7 @@ page = "56"
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Keen recollection", "Swift alchemy"]
+replaces_features = ["poison-lore", "poison-resistance", "keen-recollection", "swift-alchemy"]
 +++
 
 Cartographers are eager trailblazers who explore uncharted terrain, study landmarks, and find new

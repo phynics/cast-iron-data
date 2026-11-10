@@ -17,6 +17,8 @@ page = "64"
 kind = "archetype"
 replaces = ["Smite evil", "Divine grace", "Divine health"]
 alters = ["Aura of courage", "aura of resolve", "aura of righteousness", "Lay on hands", "mercy"]
+replaces_features = ["smite-evil", "divine-grace", "divine-health"]
+alters_features = ["aura-of-courage", "aura-of-resolve", "aura-of-righteousness", "lay-on-hands", "mercy"]
 +++
 
 Every paladin's code instructs him to put the welfare of others before his own, but some paladins

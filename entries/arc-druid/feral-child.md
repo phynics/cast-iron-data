@@ -16,6 +16,7 @@ page = "74"
 [fields]
 kind = "archetype"
 replaces = ["Trackless step", "a thousand faces", "Wild shape", "Resist nature's lure", "Venom immunity", "timeless body"]
+replaces_features = ["trackless-step", "a-thousand-faces", "wild-shape", "resist-nature-s-lure", "venom-immunity", "timeless-body"]
 +++
 
 Some youths, abandoned in the wilderness and then raised by animals, are so connected with their

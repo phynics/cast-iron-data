@@ -17,6 +17,8 @@ page = "59"
 kind = "archetype"
 replaces = ["Social talent gained at 1st level", "Vigilante talents gained at 2nd, 6th, 12th, and 18th levels", "Unshakable"]
 alters = ["Vengeance strike"]
+replaces_features = ["unshakable"]
+alters_features = ["vengeance-strike"]
 +++
 
 Wise vigilantes know that there is power in certain seemingly unremarkable items. Psychometrists

@@ -17,6 +17,7 @@ page = "16"
 kind = "archetype"
 replaces = ["Spirit magic spells granted by the shaman's spirit", "Shaman's hex gained at 2nd level", "Shaman's hex gained at 8th level"]
 alters = ["Spirit animal"]
+alters_features = ["spirit-animal"]
 +++
 
 Grasping vine shamans are typically adherents of one of several scattered sects dedicated to the

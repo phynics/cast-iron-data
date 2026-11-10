@@ -16,6 +16,7 @@ page = "18"
 [fields]
 kind = "archetype"
 alters = ["Domains", "channel energy", "armor proficiency"]
+alters_features = ["domains", "channel-energy"]
 +++
 
 The roaming exorcist travels far and wide to root out possessions, hauntings, and hidden evils. The

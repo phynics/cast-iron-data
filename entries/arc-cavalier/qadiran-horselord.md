@@ -20,6 +20,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", "The bonus feat gained at 6th level", "Greater tactician", "Master tactician"]
 alters = ["Mount"]
+replaces_features = ["weapon-and-armor-proficiencies", "tactician", "cavalier-s-charge", "greater-tactician", "master-tactician"]
+alters_features = ["mount"]
 +++
 
 The traditions of the Qadiran horselords are now spread throughout Qadira and the lands beyond in

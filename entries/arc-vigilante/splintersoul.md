@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Unshakable"]
 alters = ["Dual identity", "Social talents gained at 3rd and 7th levels", "Startling appearance", "frightening appearance", "stunning appearance"]
+replaces_features = ["unshakable"]
+alters_features = ["dual-identity", "startling-appearance", "frightening-appearance", "stunning-appearance"]
 +++
 
 A splintersoul pushes the boundaries of what it means to have two separate identities. One may be

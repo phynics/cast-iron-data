@@ -17,6 +17,7 @@ page = "66"
 kind = "archetype"
 replaces = ["Slayer talent gained at 2nd level", "Slayer talent gained at 6th level"]
 alters = ["Sneak attack", "Studied target"]
+alters_features = ["sneak-attack", "studied-target"]
 +++
 
 Most slayers focus their efforts on single targets, but family hunters try to root out every branch

@@ -16,6 +16,7 @@ page = "77"
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploit gained at 3rd level", "The arcanist exploit gained at 7th level", "The arcanist exploit gained at 13th level", "Magical supremacy"]
+replaces_features = ["magical-supremacy"]
 +++
 
 For some arcanists, the power bubbling up from within is nearly too much to contain. They become

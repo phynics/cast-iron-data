@@ -16,6 +16,7 @@ page = "105"
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Ki pool", "high jump", "All instances of slow fall", "Improved evasion", "abundant step", "Diamond soul", "Empty body"]
+replaces_features = ["still-mind", "ki-pool", "high-jump", "improved-evasion", "abundant-step", "diamond-soul", "empty-body"]
 +++
 
 A wildcat is a student of the school of hard knocks, who dedicates himself to learning how to take

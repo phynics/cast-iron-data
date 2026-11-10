@@ -16,6 +16,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Lore master", "Dirge of doom"]
+replaces_features = ["lore-master"]
 +++
 
 Known for being known, a celebrity bard is a master of performance who captures the imagination and

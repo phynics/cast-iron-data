@@ -16,6 +16,7 @@ page = "176"
 [fields]
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Wild shape", "Venom immunity"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "wild-shape", "venom-immunity"]
 +++
 
 An undine adept dedicates herself to preserving the knowledge of the first undines and ensuring her

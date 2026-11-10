@@ -16,6 +16,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["3rd-, 9th- and 15th-level focus powers", "Magic circles", "outside contact", "binding circles", "fast circles"]
+replaces_features = ["magic-circles", "outside-contact", "binding-circles", "fast-circles"]
 +++
 
 Trapped within each construct is a spiritual presence, be it a bound elemental or raw magical

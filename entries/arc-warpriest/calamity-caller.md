@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Focus weapon", "sacred weapon", "bonus feats", "Aspect of war"]
 alters = ["Blessings"]
+replaces_features = ["focus-weapon", "sacred-weapon", "bonus-feats", "aspect-of-war"]
+alters_features = ["blessings"]
 +++
 
 While all elves feel a deep connection to nature, some elven priests take this bond further, using

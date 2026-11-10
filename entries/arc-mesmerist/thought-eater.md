@@ -16,6 +16,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "Towering ego", "Touch treatment", "Rule minds"]
+replaces_features = ["consummate-liar", "towering-ego", "touch-treatment", "rule-minds"]
 +++
 
 Mesmerists that learn to pierce deep into the minds of their victims are known as thought eaters,

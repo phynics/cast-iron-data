@@ -17,6 +17,7 @@ page = "36"
 kind = "archetype"
 replaces = ["Bravery", "The bonus feat gained at 4th level", "The bonus feat gained at 8th level", "The bonus feat gained at 12th level", "The bonus feat gained at 16th level"]
 alters = ["Bonus fighter feats"]
+replaces_features = ["bravery"]
 +++
 
 Known as the Blackjackets, the elite soldiers of Druma are and always have been mercenaries rather

@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Wild empathy", "track", "woodland stride", "trackless step"]
 alters = ["Shifter claws"]
+replaces_features = ["wild-empathy", "track", "woodland-stride", "trackless-step"]
+alters_features = ["shifter-claws"]
 +++
 
 Thousands of gods are venerated in Vudra, and devoted followers might have personal relationships

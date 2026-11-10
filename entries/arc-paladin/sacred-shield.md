@@ -16,6 +16,7 @@ page = "65"
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Channel positive energy", "Aura of justice", "Holy champion"]
+replaces_features = ["smite-evil", "channel-positive-energy", "aura-of-justice", "holy-champion"]
 +++
 
 When faced by evil, the sacred shield reaches first not for a weapon, but for her trusty shield.

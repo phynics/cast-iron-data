@@ -17,6 +17,7 @@ page = "236"
 kind = "archetype"
 replaces = ["Brew Potion", "Throw Anything", "Poison use"]
 alters = ["Discoveries", "Bombs", "Bombs"]
+replaces_features = ["brew-potion", "throw-anything", "poison-use"]
 +++
 
 The vaultbreaker combines stealth with his bomb-making talents to construct special focused charges

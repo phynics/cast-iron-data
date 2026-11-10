@@ -17,6 +17,8 @@ page = "100"
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom immunity", "A thousand faces"]
 alters = ["Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "venom-immunity", "a-thousand-faces"]
+alters_features = ["wild-shape"]
 +++
 
 Out upon the wide and rolling prairies and savannahs, plains druids stand guard over the grasslands.

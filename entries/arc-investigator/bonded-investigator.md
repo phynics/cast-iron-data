@@ -17,6 +17,8 @@ page = "38"
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "poison immunity", "Studied strike damage gained at 4th level", "Investigator talent gained at 7th level"]
 alters = ["Studied strike"]
+replaces_features = ["poison-lore", "poison-resistance"]
+alters_features = ["studied-strike"]
 +++
 
 Bonded investigators use intelligent familiars to assist them in their investigations. They are

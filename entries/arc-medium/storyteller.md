@@ -17,6 +17,8 @@ page = "95"
 kind = "archetype"
 replaces = ["Spirit bonus", "Shared seance", "taboo", "haunt channeler", "propitiation", "trance of three", "Connection channel", "spirit mastery", "Astral beacon"]
 alters = ["Spirit", "Spirit surge"]
+replaces_features = ["spirit-bonus", "shared-seance", "taboo", "haunt-channeler", "propitiation", "trance-of-three", "connection-channel", "spirit-mastery", "astral-beacon"]
+alters_features = ["spirit", "spirit-surge"]
 +++
 
 While all mediums connect to legendary spirits, storyteller mediums take their obsession with

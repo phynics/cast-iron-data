@@ -16,6 +16,7 @@ page = "112"
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Abundant step", "Timeless body", "Perfect self"]
+replaces_features = ["stunning-fist", "abundant-step", "timeless-body", "perfect-self"]
 +++
 
 The monk of the four winds is connected to the natural world in a way few other creatures - even

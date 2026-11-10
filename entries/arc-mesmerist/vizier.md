@@ -16,6 +16,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "bold stare improvement gained at 3rd level", "Towering ego", "mental potency"]
+replaces_features = ["consummate-liar", "towering-ego", "mental-potency"]
 +++
 
 While many mesmerists focus on beguiling their foes or taking overt control of others with their

@@ -17,6 +17,8 @@ page = "65"
 kind = "archetype"
 replaces = ["Detect evil", "divine grace", "Aura of justice"]
 alters = ["Spellcasting", "smite evil", "lay on hands", "Class skills", "skill ranks per level", "Smite evil", "Lay on hands", "channel energy", "divine bond", "aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Lay on hands", "mercy"]
+replaces_features = ["detect-evil", "divine-grace", "aura-of-justice"]
+alters_features = ["smite-evil", "lay-on-hands", "smite-evil", "lay-on-hands", "channel-energy", "divine-bond", "aura-of-courage", "aura-of-resolve", "aura-of-faith", "aura-of-righteousness", "lay-on-hands", "mercy"]
 +++
 
 Though tortured crusaders may be beaten and battered, body, mind, and soul, they still somehow

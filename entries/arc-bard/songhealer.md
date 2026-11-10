@@ -16,6 +16,7 @@ page = "27"
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Frightening tune", "Deadly performance"]
+replaces_features = ["versatile-performance"]
 +++
 
 Words can harm, but they also heal. The songhealer brings peace and surcease of pain, calming wild

@@ -16,6 +16,7 @@ page = "43"
 [fields]
 kind = "archetype"
 replaces = ["Aura of cowardice", "Fiendish boon", "Aura of despair", "Aura of vengeance"]
+replaces_features = ["aura-of-cowardice", "fiendish-boon", "aura-of-despair", "aura-of-vengeance"]
 +++
 
 Seal-breakers are dedicated to [the Whispering Tyrant](ref/monster/the-whispering-tyrant) and have

@@ -16,6 +16,7 @@ page = "18"
 [fields]
 kind = "archetype"
 replaces = ["Bomb", "Poison resistance", "poison use", "swift poisoning"]
+replaces_features = ["bomb", "poison-resistance", "poison-use", "swift-poisoning"]
 +++
 
 A breakthrough in Nidalese alchemy led to the creation of glooms, magical fields of darkness from

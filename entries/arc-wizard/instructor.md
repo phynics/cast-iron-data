@@ -17,6 +17,7 @@ page = "31"
 kind = "archetype"
 replaces = ["Arcane bond"]
 alters = ["5th-, 10th-, 15th-, and 20th-level bonus feats"]
+replaces_features = ["arcane-bond"]
 +++
 
 Whether serving as staff at a formal school of magic or simply acting as a wandering teacher, an

@@ -17,6 +17,8 @@ page = "50"
 kind = "archetype"
 replaces = ["Wild shape", "Venom immunity"]
 alters = ["Alignment requirements", "Nature bond"]
+replaces_features = ["wild-shape", "venom-immunity"]
+alters_features = ["nature-bond"]
 +++
 
 Life channelers take the natural cycle to what they believe is its logical conclusion. By

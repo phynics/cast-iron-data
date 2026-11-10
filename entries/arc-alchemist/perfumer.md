@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Brew potion", "Mutagen", "Persistent mutagen"]
 alters = ["Extracts", "Bomb"]
+replaces_features = ["brew-potion", "mutagen", "persistent-mutagen"]
+alters_features = ["extracts", "bomb"]
 +++
 
 While most alchemists focus on the flash of loud explosions, full-bodied potions, and dramatically

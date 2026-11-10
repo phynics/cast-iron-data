@@ -16,6 +16,7 @@ page = "44"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Bombs"]
+replaces_features = ["mutagen"]
 +++
 
 Most alchemists can transform matter and energy into other forms, but some wicked specialists

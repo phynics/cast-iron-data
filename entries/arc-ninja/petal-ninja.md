@@ -16,6 +16,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Ninja trick gained at 2nd level", "No trace", "uncanny dodge", "improved uncanny dodge", "Light steps"]
+replaces_features = ["no-trace", "uncanny-dodge", "improved-uncanny-dodge", "light-steps"]
 +++
 
 Petal ninjas are a secretive clan of [ghoran](ref/race/ghoran) infiltrators, in touch with their

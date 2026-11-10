@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Track", "5th-level favored enemy", "10th-level favored enemy", "15th-level favored enemy", "20th-level favored enemy"]
+replaces_features = ["track"]
 +++
 
 The quintessential dragonslayers, dragon hunters are experts at forging through the wilds in search

@@ -17,6 +17,8 @@ page = "67"
 kind = "archetype"
 replaces = ["Object reading", "Outside contact"]
 alters = ["Implements"]
+replaces_features = ["object-reading", "outside-contact"]
+alters_features = ["implements"]
 +++
 
 It is common for a noble to possess a deep pride for his family's past, but when such

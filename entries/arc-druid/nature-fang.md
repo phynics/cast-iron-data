@@ -16,6 +16,7 @@ page = "92"
 [fields]
 kind = "archetype"
 replaces = ["Nature sense", "wild empathy", "woodland stride", "Wild shape", "Resist nature's lure", "Venom immunity"]
+replaces_features = ["nature-sense", "wild-empathy", "woodland-stride", "wild-shape", "resist-nature-s-lure", "venom-immunity"]
 +++
 
 A nature fang is a druid who stalks and slays those who despoil nature, kill scarce animals, or

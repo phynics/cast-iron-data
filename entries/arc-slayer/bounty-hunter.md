@@ -16,6 +16,7 @@ page = "118"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Slayer talent gained at 2nd level", "Slayer talent gained at 6th level", "The advanced slayer talent gained at 10th level"]
+replaces_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Whether tasked with bringing in wanted criminals or paid to drag debtors back to their loan sharks,

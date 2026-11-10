@@ -16,6 +16,7 @@ page = "121"
 [fields]
 kind = "archetype"
 replaces = ["Track", "Slayer talent gained at 2nd level", "Slayer talent gained at 4th level", "Stalker"]
+replaces_features = ["track", "stalker"]
 +++
 
 Vanguards are battlefield commanders who focus on the brutality of combat and lead their allies to

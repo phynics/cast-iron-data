@@ -17,6 +17,8 @@ page = "18"
 kind = "archetype"
 replaces = ["Expanded element", "Basic phytokinesis utility wild talent granted by the wood element", "Infusion gained at 1st level", "Flesh of wood defense wild talent granted by the wood element"]
 alters = ["Elemental focus"]
+replaces_features = ["expanded-element"]
+alters_features = ["elemental-focus"]
 +++
 
 Similar to how phytokineticists draw their power from the First World, elysiokineticists trace their

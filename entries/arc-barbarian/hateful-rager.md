@@ -16,6 +16,7 @@ page = "54"
 [fields]
 kind = "archetype"
 replaces = ["2nd, 8th, 14th, and 20th level rage powers", "Improved uncanny dodge", "Trap sense +3"]
+replaces_features = ["improved-uncanny-dodge"]
 +++
 
 From a young age, many half-orcs are treated cruelly, bullied, ridiculed, and made outcasts. While

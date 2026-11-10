@@ -16,6 +16,7 @@ page = "104"
 [fields]
 kind = "archetype"
 replaces = ["No trace", "Uncanny dodge", "improved uncanny dodge", "ninja tricks gained at 12th and 16th levels", "Ninja trick gained at 10th level"]
+replaces_features = ["no-trace", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 The order dispatches specially trained killers to hunt relentlessly and fight from the shadows.

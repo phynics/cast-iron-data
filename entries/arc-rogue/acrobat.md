@@ -16,6 +16,7 @@ page = "132"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Agility and daring are both excellent rogue traits, and their confluence can create spectacular

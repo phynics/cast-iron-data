@@ -17,6 +17,7 @@ page = "18"
 kind = "archetype"
 replaces = ["Social talent gained at 1st level", "Vigilante talents gained at 4th, 14th, and 18th levels", "Vigilante talent gained at 6th level", "Vigilante talent gained at 12th level"]
 alters = ["Dual identity"]
+alters_features = ["dual-identity"]
 +++
 
 In the despotic nation of Chu Ye, merciless [oni](ref/family/oni) oppress the human populace. Some

@@ -17,6 +17,8 @@ page = "166"
 kind = "archetype"
 replaces = ["Trap sense", "4th, 8th, and 12th level rage powers"]
 alters = ["The barbarian's class skills", "alignment", "Rage"]
+replaces_features = ["trap-sense"]
+alters_features = ["rage"]
 +++
 
 Geminate invokers are barbarians who use [Rivethun](ref/rule/aff-animists) traditions to invite

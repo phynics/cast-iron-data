@@ -16,6 +16,7 @@ page = "105"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1, 2, 3, and 4", "Armor training 3", "Armor training 4", "Weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 Where some fighters focus on strength and raw power, the mobile fighter relies on swiftness and

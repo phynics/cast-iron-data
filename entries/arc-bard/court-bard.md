@@ -16,6 +16,7 @@ page = "81"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire competence", "Dirge of doom", "Frightening tune", "Bardic knowledge", "Lore master", "jack of all trades"]
+replaces_features = ["bardic-knowledge", "lore-master", "jack-of-all-trades"]
 +++
 
 Spending years studying all of the finer points of erudition and etiquette, the court bard takes up

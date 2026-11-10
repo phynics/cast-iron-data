@@ -17,6 +17,8 @@ page = "18"
 kind = "archetype"
 replaces = ["Bonded senses", "phantom recall", "greater spiritual interference"]
 alters = ["Phantom", "Spellcasting"]
+replaces_features = ["bonded-senses", "phantom-recall", "greater-spiritual-interference"]
+alters_features = ["phantom"]
 +++
 
 While many spiritualists are bound to a departed spirit, a condition more likely to be the result of

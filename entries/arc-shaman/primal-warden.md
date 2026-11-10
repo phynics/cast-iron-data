@@ -17,6 +17,7 @@ page = "7"
 kind = "archetype"
 replaces = ["Abilities the spirit animal gains from the shaman's chosen spirit", "Hex gained at 8th level", "Hexes gained at 4th and 12th levels"]
 alters = ["Spirit magic", "Hexes"]
+alters_features = ["spirit-magic"]
 +++
 
 The influence of [primal magic](ref/rule/primal-magic) extends beyond what is visible and material.

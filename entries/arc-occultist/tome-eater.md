@@ -17,6 +17,8 @@ page = "102"
 kind = "archetype"
 replaces = ["Shift focus, 6th-level implement", "magic circles", "outside contact", "binding circles", "fast circles", "Aura sight"]
 alters = ["Implements", "mental focus", "spellcasting", "implement mastery"]
+replaces_features = ["shift-focus", "magic-circles", "outside-contact", "binding-circles", "fast-circles", "aura-sight"]
+alters_features = ["implements", "mental-focus", "implement-mastery"]
 +++
 
 Tome eaters have learned how to tap into the latent psychic energy of the written word by physically

@@ -17,6 +17,8 @@ page = "4"
 kind = "archetype"
 replaces = ["The ability to spend ki to gain an extra attack during a flurry of blows", "Purity of body", "Diamond body", "Diamond soul"]
 alters = ["Ki pool"]
+replaces_features = ["purity-of-body", "diamond-body", "diamond-soul"]
+alters_features = ["ki-pool"]
 +++
 
 Disciples of wholeness train to bring themselves and others closer to physical and spiritual

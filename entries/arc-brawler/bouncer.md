@@ -17,6 +17,7 @@ page = "58"
 kind = "archetype"
 replaces = ["The bonus feat gained at 2nd level"]
 alters = ["Martial flexibility", "Close weapon mastery"]
+alters_features = ["martial-flexibility", "close-weapon-mastery"]
 +++
 
 Some taverns employ bouncers to keep out undesirables or for when their customers get too rowdy.

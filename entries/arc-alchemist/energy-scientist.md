@@ -17,6 +17,8 @@ page = "30"
 kind = "archetype"
 replaces = ["Brew potion", "Poison resistance", "poison immunity", "Poison use", "swift poisoning"]
 alters = ["Bombs", "Alchemy"]
+replaces_features = ["brew-potion", "poison-resistance", "poison-use", "swift-poisoning"]
+alters_features = ["alchemy"]
 +++
 
 Energy scientists fervently prepare themselves to overcome exposure to specific elemental hazards so

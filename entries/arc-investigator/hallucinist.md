@@ -17,6 +17,8 @@ page = "34"
 kind = "archetype"
 replaces = ["Trapfinding, 3rd-level trap sense boost", "investigator talents gained at 3rd, 7th, 11th, and 15th levels", "Poison lore", "All instances of poison resistance", "poison immunity", "Keen recollection", "investigator talents gained at 5th and 9th levels", "All remaining trap sense"]
 alters = ["Studied combat"]
+replaces_features = ["trapfinding", "poison-lore", "keen-recollection"]
+alters_features = ["studied-combat"]
 +++
 
 A hallucinist imbibes magical drugs to expand his mind into the psychedelic world, extending his

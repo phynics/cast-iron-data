@@ -17,6 +17,7 @@ page = "23"
 kind = "archetype"
 replaces = ["Startling shot deed", "Lightning reload deed", "Menacing shot deed"]
 alters = ["Gun training"]
+alters_features = ["gun-training"]
 +++
 
 These long-shot artists are masters at taking down dragons with sharp shooting and light siege

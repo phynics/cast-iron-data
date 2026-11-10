@@ -16,6 +16,7 @@ page = "50"
 [fields]
 kind = "archetype"
 replaces = ["Countersong", "distraction", "Bardic knowledge", "Well-versed", "Versatile performance", "Lore master"]
+replaces_features = ["bardic-knowledge", "well-versed", "versatile-performance", "lore-master"]
 +++
 
 Where other thieves use stealth or intimidation to achieve their goals, the brazen deceiver depends

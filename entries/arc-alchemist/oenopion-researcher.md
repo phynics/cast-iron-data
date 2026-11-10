@@ -16,6 +16,7 @@ page = "37"
 [fields]
 kind = "archetype"
 replaces = ["Poison use", "Swift alchemy"]
+replaces_features = ["poison-use", "swift-alchemy"]
 +++
 
 Nex is known for its advanced magical lore, and the alchemists of Oenopion are incredibly skilled at

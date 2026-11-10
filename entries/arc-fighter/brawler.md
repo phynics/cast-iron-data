@@ -17,6 +17,8 @@ page = "44"
 kind = "archetype"
 replaces = ["Armor training 1", "Weapon training 1 and 2", "Armor training 2, 3, and 4", "armor mastery", "Weapon training 3 and 4"]
 alters = ["Weapon mastery"]
+replaces_features = ["armor-mastery"]
+alters_features = ["weapon-mastery"]
 +++
 
 > _**Note:** This is a fighter archetype, and has no relation to the [brawler](ref/class/brawler)

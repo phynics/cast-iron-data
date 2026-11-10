@@ -16,6 +16,7 @@ page = "8"
 [fields]
 kind = "archetype"
 replaces = ["1st-level social talent", "Frightening appearance", "2nd-level vigilante talent"]
+replaces_features = ["frightening-appearance"]
 +++
 
 Sometimes the best place to hide is in plain sight. The hidden current operates above and below the

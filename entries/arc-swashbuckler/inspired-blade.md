@@ -17,6 +17,8 @@ page = "125"
 kind = "archetype"
 replaces = ["Swashbuckler finesse", "Bleeding wound", "Swashbuckler weapon training", "Swashbuckler weapon mastery"]
 alters = ["Panache"]
+replaces_features = ["swashbuckler-finesse", "swashbuckler-weapon-training", "swashbuckler-weapon-mastery"]
+alters_features = ["panache"]
 +++
 
 An inspired blade is both a force of personality and a sage of swordplay dedicated to the perfection

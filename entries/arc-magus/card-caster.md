@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Spellstrike", "Magus arcana gained at 3rd level"]
 alters = ["Arcane pool"]
+replaces_features = ["spellstrike"]
+alters_features = ["arcane-pool"]
 +++
 
 Though it is known primarily as a tool of knowledge, the harrow is also an instrument of defense and

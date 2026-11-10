@@ -17,6 +17,7 @@ page = "46"
 kind = "archetype"
 replaces = ["Debilitating injury", "sneak attack", "trapfinding", "Trap sense", "Master strike"]
 alters = ["Rogue's edge (unchained rogue only)", "Rogue talent"]
+replaces_features = ["sneak-attack", "trapfinding", "trap-sense", "master-strike"]
 +++
 
 Also known as gentleman thieves or lady thieves, phantom thieves don't know the desperation of a

@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Bond senses", "Shield ally", "Greater shield ally", "Transposition"]
 alters = ["Eidolon", "Summon monster"]
+replaces_features = ["bond-senses", "shield-ally", "greater-shield-ally", "transposition"]
+alters_features = ["eidolon"]
 +++
 
 Some summoners can't abide the cruelty of devils, or simply can't outwit them, but must appear to do

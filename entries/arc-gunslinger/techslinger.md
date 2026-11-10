@@ -16,6 +16,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Deadeye", "Quick clear", "Expert loading", "Gun training"]
+replaces_features = ["gun-training"]
 +++
 
 Techslingers spurn unreliable gunpowder weapons in favor of high-tech armaments. They learn to

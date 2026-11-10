@@ -17,6 +17,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Weapon proficiency", "Bonus feats gained at 6th and 10th levels", "Empty body"]
 alters = ["Unarmed strike", "Wholeness of body", "Quivering palm"]
+replaces_features = ["empty-body"]
+alters_features = ["unarmed-strike", "wholeness-of-body", "quivering-palm"]
 +++
 
 The practices of softstrike monks date back to the peaceful eras of Imperial Lung Wa. Still common

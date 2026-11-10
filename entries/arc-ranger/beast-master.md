@@ -16,6 +16,7 @@ page = "124"
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "6th-level combat style feat", "Camouflage"]
+replaces_features = ["hunter-s-bond", "camouflage"]
 +++
 
 Some rangers, particularly those in primitive lands or who were raised by animals, have unusually

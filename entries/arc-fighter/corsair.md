@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["The fighter's 2nd-level bonus feat", "Armor training", "The fighter's 6th-level bonus feat"]
+replaces_features = ["armor-training"]
 +++
 
 A corsair is a pirate who focuses on shipboard combat, relying on his strength of arms over his

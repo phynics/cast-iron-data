@@ -17,6 +17,8 @@ page = "47"
 kind = "archetype"
 replaces = ["Woodland stride", "Resist nature's lure", "Venom immunity"]
 alters = ["Weapon and armor proficiency", "Nature bond", "Wild empathy", "Wild shape"]
+replaces_features = ["woodland-stride", "resist-nature-s-lure", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy", "wild-shape"]
 +++
 
 The aerie protector guards nature's nests and lairs in the highest mountains, and she is only ever

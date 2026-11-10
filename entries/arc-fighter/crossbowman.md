@@ -17,6 +17,8 @@ page = "104"
 kind = "archetype"
 replaces = ["Armor training 1", "Weapon training 1", "Armor training 2", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Armor mastery"]
 alters = ["Weapon mastery"]
+replaces_features = ["armor-mastery"]
+alters_features = ["weapon-mastery"]
 +++
 
 The crossbowman has perfected the deadly use of the crossbow, a simple but cruelly efficient weapon,

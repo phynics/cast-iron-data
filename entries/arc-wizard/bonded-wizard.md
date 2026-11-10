@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Scribe Scroll", "5th- and 15th-level bonus feats", "10th-level bonus feat"]
 alters = ["Arcane bond"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Many wizards form an arcane bond with an item, but for some this bond becomes a powerful mystic

@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Still mind", "Maneuver training", "Purity of body", "Wholeness of body", "Quivering palm", "Empty body", "Perfect self"]
+replaces_features = ["still-mind", "maneuver-training", "purity-of-body", "wholeness-of-body", "quivering-palm", "empty-body", "perfect-self"]
 +++
 
 Spirit masters are monks who specialize in combating the undead, laying their corpses to rest, and

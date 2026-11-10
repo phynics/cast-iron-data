@@ -17,6 +17,7 @@ page = "20"
 kind = "archetype"
 replaces = ["Scribe Scroll", "5th-, 10th-, 15th-, and 20th-level bonus feats"]
 alters = ["Spellcasting"]
+replaces_features = ["scribe-scroll"]
 +++
 
 While the art of wizardry is usually a scholar's pursuit, there are those who seek mastery of arcane

@@ -17,6 +17,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Bardic knowledge", "Dirge of doom", "Soothing performance", "Well-versed"]
 alters = ["Bardic performance", "Fascinate"]
+replaces_features = ["bardic-knowledge", "well-versed"]
+alters_features = ["bardic-performance"]
 +++
 
 Some bards have an exceptional ability to use their musical performances to entrance the world's

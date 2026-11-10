@@ -17,6 +17,8 @@ page = "158"
 kind = "archetype"
 replaces = ["Woodland stride", "Resist nature's lure", "Trackless step", "Wild shape", "Venom immunity", "A thousand faces"]
 alters = ["Nature bond"]
+replaces_features = ["woodland-stride", "resist-nature-s-lure", "trackless-step", "wild-shape", "venom-immunity", "a-thousand-faces"]
+alters_features = ["nature-bond"]
 +++
 
 Some druids develop ties not to a particular landscape, but instead to the endless blue expanse of

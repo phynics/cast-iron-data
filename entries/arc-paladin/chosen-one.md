@@ -16,6 +16,7 @@ page = "6"
 [fields]
 kind = "archetype"
 alters = ["Divine grace", "smite evil", "Lay on hands", "channel positive energy"]
+alters_features = ["divine-grace", "smite-evil", "lay-on-hands", "channel-positive-energy"]
 +++
 
 Most paladins train for years at a temple to attain a holy status, but rarely, an emissary of the

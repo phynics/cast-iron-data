@@ -16,6 +16,7 @@ page = "15"
 [fields]
 kind = "archetype"
 alters = ["Aura", "Channel energy", "Alignment", "spells", "Domains"]
+alters_features = ["aura", "channel-energy", "spells", "domains"]
 +++
 
 A rare few seek the power of dark forces for brighter ends by focusing on the utilitarian aspects of

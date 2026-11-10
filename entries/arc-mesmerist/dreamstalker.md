@@ -17,6 +17,8 @@ page = "60"
 kind = "archetype"
 replaces = ["1st-level mesmerist trick", "Towering ego", "Manifold tricks", "Glib lie"]
 alters = ["Painful stare", "Mesmerist tricks", "Touch treatment"]
+replaces_features = ["towering-ego", "manifold-tricks", "glib-lie"]
+alters_features = ["painful-stare", "mesmerist-tricks", "touch-treatment"]
 +++
 
 Many mesmerists concentrate their studies on conscious, rational thought, but dreamstalkers instead

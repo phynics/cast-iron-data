@@ -17,6 +17,7 @@ page = "89"
 kind = "archetype"
 replaces = ["1st-level hex", "6th-level hex", "10th-level hex"]
 alters = ["Patron spells"]
+alters_features = ["patron-spells"]
 +++
 
 Witches who dwell in floodplains or along the banks of predictably dangerous rivers can tap into the

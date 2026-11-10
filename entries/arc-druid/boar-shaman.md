@@ -17,6 +17,8 @@ page = "43"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 A boar shaman chooses the stolid and ferocious boar as her totem. Content to be left alone, she

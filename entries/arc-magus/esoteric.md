@@ -17,6 +17,8 @@ page = "120"
 kind = "archetype"
 replaces = ["Spell recall", "Bonus feats", "Medium armor", "heavy armor", "Improved spell recall"]
 alters = ["Weapon and armor proficiency", "Spellcasting", "Arcane pool", "Spellstrike"]
+replaces_features = ["spell-recall", "bonus-feats", "medium-armor", "heavy-armor", "improved-spell-recall"]
+alters_features = ["arcane-pool", "spellstrike"]
 +++
 
 Esoterics are drawn to the mysticism of the occult and spend their lives delving into forgotten

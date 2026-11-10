@@ -17,6 +17,8 @@ page = "126"
 kind = "archetype"
 replaces = ["Nimble", "4th-level bonus feat", "Swashbuckler weapon training"]
 alters = ["Weapon and armor proficiency", "Swashbuckler finesse"]
+replaces_features = ["nimble", "swashbuckler-weapon-training"]
+alters_features = ["swashbuckler-finesse"]
 +++
 
 While some swashbucklers fight for queen and country, and others for coin, glory, or just the

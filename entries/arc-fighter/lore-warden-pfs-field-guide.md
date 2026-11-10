@@ -16,6 +16,7 @@ page = "31"
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Bravery 1", "Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery"]
+replaces_features = ["armor-mastery"]
 +++
 
 Quick thinking and deception can often carry the day where raw force might not. Lore wardens are the

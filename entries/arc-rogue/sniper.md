@@ -16,6 +16,7 @@ page = "134"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Some say that the sniper is the worst kind of assassin: a killer who waits silently in the shadows

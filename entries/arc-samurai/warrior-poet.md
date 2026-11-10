@@ -17,6 +17,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Proficiency with medium armor", "heavy armor", "and shields", "Mount", "weapon expertise", "banner", "greater banner", "Mounted archer", "demanding challenge", "Bonus combat feats"]
 alters = ["Challenge"]
+replaces_features = ["mount", "weapon-expertise", "banner", "greater-banner", "mounted-archer", "demanding-challenge"]
+alters_features = ["challenge"]
 +++
 
 Warrior poets often study calligraphy, flower arrangement, poetry, and other courtly arts, but when

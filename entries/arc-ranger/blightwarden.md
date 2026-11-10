@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Wild empathy", "1st favored terrain", "Endurance"]
 alters = ["Favored enemy", "Favored terrain"]
+replaces_features = ["wild-empathy", "endurance"]
+alters_features = ["favored-enemy", "favored-terrain"]
 +++
 
 Some rangers feel so closely connected to their homelands that they stand as guardians against

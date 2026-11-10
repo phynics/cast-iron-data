@@ -16,6 +16,7 @@ page = "182"
 [fields]
 kind = "archetype"
 replaces = ["Spirit surge", "Haunt channeler", "Location channel", "Connection channel"]
+replaces_features = ["spirit-surge", "haunt-channeler", "location-channel", "connection-channel"]
 +++
 
 Storm dreamers serve the [Storm Kindlers](ref/rule/aff-storms) by communing with their mystical

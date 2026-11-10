@@ -17,6 +17,8 @@ page = "61"
 kind = "archetype"
 replaces = ["Consummate liar", "Mental potency", "manifold tricks", "7th-level bold stare", "Glib lie"]
 alters = ["Mesmerist tricks", "Touch treatment"]
+replaces_features = ["consummate-liar", "mental-potency", "manifold-tricks", "glib-lie"]
+alters_features = ["mesmerist-tricks", "touch-treatment"]
 +++
 
 Hate-mongers are xenophobic and judgmental rabblerousers who whip up mobs against enemies real or

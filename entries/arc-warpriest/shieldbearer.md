@@ -17,6 +17,8 @@ page = "7"
 kind = "archetype"
 replaces = ["Focus weapon"]
 alters = ["Sacred weapon", "sacred armor"]
+replaces_features = ["focus-weapon"]
+alters_features = ["sacred-weapon", "sacred-armor"]
 +++
 
 Shieldbearers are divine warriors who stand on the front lines of battle, shoulder to shoulder with

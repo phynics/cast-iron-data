@@ -17,6 +17,8 @@ page = "20"
 kind = "archetype"
 replaces = ["Poison use", "Spend ki to make an additional attack", "No trace"]
 alters = ["Weapon and armor proficiency", "Ki pool"]
+replaces_features = ["poison-use", "no-trace"]
+alters_features = ["ki-pool"]
 +++
 
 When the Living God needs to silence the voices of those heretics who question too loudly, these

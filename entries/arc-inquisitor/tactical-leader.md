@@ -16,6 +16,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Stern gaze", "Solo tactics", "teamwork feats", "Exploit weakness"]
+replaces_features = ["stern-gaze", "solo-tactics", "exploit-weakness"]
 +++
 
 Rather than pursuing their holy missions alone, some inquisitors see the inherent value of working

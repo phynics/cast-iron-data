@@ -16,6 +16,7 @@ page = "5"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "lore master", "Inspire courage", "Versatile performance"]
+replaces_features = ["bardic-knowledge", "lore-master", "versatile-performance"]
 +++
 
 The flamesinger finds inspiration in the mesmerizing beauty of fire. While the flamesinger's

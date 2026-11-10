@@ -17,6 +17,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Teamwork feats", "hunter's tactics", "Wild empathy", "Precise companion", "Woodland stride", "Raise animal companion"]
 alters = ["One with the wild"]
+replaces_features = ["wild-empathy", "precise-companion", "woodland-stride", "raise-animal-companion"]
+alters_features = ["one-with-the-wild"]
 +++
 
 Some hunters are masters of blending into every situation, even making their companions appear

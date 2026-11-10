@@ -16,6 +16,7 @@ page = "115"
 [fields]
 kind = "archetype"
 replaces = ["Suggestion", "Inspire greatness", "Mass suggestion", "Well-versed", "The 2nd-level versatile performance"]
+replaces_features = ["well-versed"]
 +++
 
 The bright purity of silver makes beautiful music, and its vibrations are also anathema to unnatural

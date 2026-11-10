@@ -17,6 +17,8 @@ page = "45"
 kind = "archetype"
 replaces = ["Order", "Tactician", "greater tactician", "master tactician", "Banner", "Greater banner"]
 alters = ["Weapon and armor proficiencies", "Challenge", "Mount"]
+replaces_features = ["order", "tactician", "greater-tactician", "master-tactician", "banner", "greater-banner"]
+alters_features = ["weapon-and-armor-proficiencies", "challenge", "mount"]
 +++
 
 These primeval cavaliers idolize dinosaurs as apex predators and value them as powerful, oversized

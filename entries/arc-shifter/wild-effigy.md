@@ -16,6 +16,7 @@ page = "15"
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "track", "woodland stride", "trackless step", "Defensive instinct"]
+replaces_features = ["wild-empathy", "track", "woodland-stride", "trackless-step", "defensive-instinct"]
 +++
 
 A wild effigy still takes on the shapes of natural animals, but rather than transforming her body

@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 alters = ["Dual identity"]
+alters_features = ["dual-identity"]
 +++
 
 Many half-elves who live in human or elven societies try to blend in, hiding their true ancestry.

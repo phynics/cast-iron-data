@@ -16,6 +16,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["The trapfinding", "poison lore", "poison resistance", "Trap sense"]
+replaces_features = ["poison-lore", "poison-resistance", "trap-sense"]
 +++
 
 A number of investigators use their vast knowledge to build machines that replicate the intricacies

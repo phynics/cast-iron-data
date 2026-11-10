@@ -17,6 +17,8 @@ page = "18"
 kind = "archetype"
 replaces = ["Phantom's antagonistic ability", "See invisibility", "Call spirit"]
 alters = ["Bonded manifestation"]
+replaces_features = ["see-invisibility", "call-spirit"]
+alters_features = ["bonded-manifestation"]
 +++
 
 Not all phantoms are restless dead escaping the afterlife. On rare occasions,

@@ -16,6 +16,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["Judgment", "Discern lies", "second judgment", "third judgment", "slayer", "true judgment"]
+replaces_features = ["judgment", "discern-lies", "second-judgment", "third-judgment", "slayer", "true-judgment"]
 +++
 
 While most inquisitors have learned to take advantage of the movements of their opponents and allies

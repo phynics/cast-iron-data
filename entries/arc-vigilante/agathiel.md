@@ -17,6 +17,7 @@ page = "25"
 kind = "archetype"
 replaces = ["Vigilante talents gained at 4th, 8th, 12th, and 16th levels", "Vigilante talent gained at 2nd level"]
 alters = ["Dual identity"]
+alters_features = ["dual-identity"]
 +++
 
 The legends of Golarion teem with intelligent beasts who emerge from the wild to right wrongs

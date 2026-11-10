@@ -17,6 +17,7 @@ page = "11"
 kind = "archetype"
 replaces = ["The bonus combat feat gained at 2nd level", "Knockout", "Close weapon mastery"]
 alters = ["The brawler's armor proficiencies"]
+replaces_features = ["knockout", "close-weapon-mastery"]
 +++
 
 After Yamasa seceded from Lirgen, their elite combatants formed a military caste, called hinyasi,

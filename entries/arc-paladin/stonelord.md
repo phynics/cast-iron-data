@@ -16,6 +16,7 @@ page = "16"
 [fields]
 kind = "archetype"
 replaces = ["Smite evil", "Divine grace", "Divine health, 3rd-, 9th-, and 15th-level mercies", "Spells", "Channel positive energy", "Divine bond", "Aura of justice", "12th-level mercy", "18th-level mercy", "Holy champion"]
+replaces_features = ["smite-evil", "divine-grace", "divine-health", "spells", "channel-positive-energy", "divine-bond", "aura-of-justice", "holy-champion"]
 +++
 
 A stonelord is a devoted sentinel of dwarven enclaves, drawing the power of the earth and ancient

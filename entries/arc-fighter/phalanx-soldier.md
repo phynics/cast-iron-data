@@ -16,6 +16,7 @@ page = "105"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Weapon training 1", "Armor training 2 and 3", "Weapon training 2, 3, and 4", "Armor training 4", "Weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 The phalanx soldier specializes in defensive tactics, using his shield to guard himself and his

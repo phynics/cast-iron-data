@@ -16,6 +16,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison resistance", "Swift alchemy", "Investigator talent gained at 7th level"]
+replaces_features = ["trapfinding", "poison-resistance", "swift-alchemy"]
 +++
 
 The skeptic accepts the existence of the occult world while challenging claims that the supernatural

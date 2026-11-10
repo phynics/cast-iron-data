@@ -16,6 +16,7 @@ page = "45"
 [fields]
 kind = "archetype"
 replaces = ["Rogue talent gained at 2nd level", "Uncanny dodge", "rogue talent gained at 4th level", "Improved uncanny dodge", "rogue talent gained at 8th level"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Notorious for their stealth, imagination, and elaborately planned thefts and capers, heisters

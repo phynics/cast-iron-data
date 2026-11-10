@@ -16,6 +16,7 @@ page = "100"
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Swift alchemy", "True inspiration"]
+replaces_features = ["poison-lore", "poison-resistance", "swift-alchemy", "true-inspiration"]
 +++
 
 Champions of deductive reasoning and logical insight, empiricists put their faith in facts, data,

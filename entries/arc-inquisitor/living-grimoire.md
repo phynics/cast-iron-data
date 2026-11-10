@@ -17,6 +17,8 @@ page = "53"
 kind = "archetype"
 replaces = ["Monster lore", "Cunning initiative", "Judgment", "Bane", "greater bane", "second judgment", "third judgment", "True judgment"]
 alters = ["Orisons", "spellcasting"]
+replaces_features = ["monster-lore", "cunning-initiative", "judgment", "bane", "greater-bane", "second-judgment", "third-judgment", "true-judgment"]
+alters_features = ["orisons"]
 +++
 
 The living grimoire literally wields the sacred word of his deity, using his holy tome to smite the

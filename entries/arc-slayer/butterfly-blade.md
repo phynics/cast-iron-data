@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Track", "Sneak attack", "Stalker", "swift tracker", "quarry", "Improved quarry"]
 alters = ["Studied target", "Slayer talents"]
+replaces_features = ["track", "sneak-attack", "stalker", "swift-tracker", "quarry", "improved-quarry"]
+alters_features = ["studied-target", "slayer-talents"]
 +++
 
 Followers of a tradition dating back to the ancient empire of Yixing, the yellow-robed agents known

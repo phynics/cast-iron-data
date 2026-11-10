@@ -16,6 +16,7 @@ page = "224"
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Resist nature's lure", "Venom immunity"]
+replaces_features = ["wild-empathy", "resist-nature-s-lure", "venom-immunity"]
 +++
 
 Troll furies combine a druid's love of natural balance with a single-minded devotion to the welfare

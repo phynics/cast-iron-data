@@ -16,6 +16,7 @@ page = "117"
 [fields]
 kind = "archetype"
 replaces = ["Rage power gained at 3rd level", "Uncanny dodge", "improved uncanny dodge", "Spell kenning"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge", "spell-kenning"]
 +++
 
 The totemic skald forms a close connection to an animal totem. Through the power of this mystical

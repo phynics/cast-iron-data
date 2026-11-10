@@ -16,6 +16,7 @@ page = "47"
 [fields]
 kind = "archetype"
 replaces = ["Proficiency with heavy armor and tower shields", "Bravery"]
+replaces_features = ["bravery"]
 +++
 
 Most fighters battle out of necessity, with each battle a contest of life and death. Some, however,

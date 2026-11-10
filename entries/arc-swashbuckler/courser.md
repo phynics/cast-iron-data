@@ -17,6 +17,7 @@ page = "24"
 kind = "archetype"
 replaces = ["Opportune parry and riposte", "4th-level bonus feat", "Menacing swordplay", "Superior feint", "Bleeding wound"]
 alters = ["Nimble"]
+alters_features = ["nimble"]
 +++
 
 Many [tengus](ref/race/tengu) still hold some bitterness at their lack of wings, and while a small

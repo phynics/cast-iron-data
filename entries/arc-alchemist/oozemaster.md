@@ -16,6 +16,7 @@ page = "17"
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Poison resistance", "poison immunity"]
+replaces_features = ["brew-potion", "poison-resistance"]
 +++
 
 The oozemaster is a specialized alchemist who fights and ensnares oozes. An oozemaster carefully

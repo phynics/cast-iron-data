@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Sacred armor, 3rd-level bonus feat"]
 alters = ["Weapon and armor proficiencies", "Sacred weapon", "Blessings", "Blessings (major)"]
+replaces_features = ["sacred-armor"]
+alters_features = ["weapon-and-armor-proficiencies", "sacred-weapon", "blessings"]
 +++
 
 The proselytizer is the perfect militant missionary. He seeks to win the hearts and lay claim to the

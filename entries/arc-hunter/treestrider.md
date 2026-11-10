@@ -17,6 +17,8 @@ page = "55"
 kind = "archetype"
 replaces = ["Animal focus", "second animal focus", "Precise companion", "Raise animal companion"]
 alters = ["Animal companion"]
+replaces_features = ["animal-focus", "second-animal-focus", "precise-companion", "raise-animal-companion"]
+alters_features = ["animal-companion"]
 +++
 
 Some hunters are masters of the wild. Whether raised by apes or having some other link with simian

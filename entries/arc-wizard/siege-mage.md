@@ -16,6 +16,7 @@ page = "75"
 [fields]
 kind = "archetype"
 replaces = ["Scribe scroll", "Arcane bond", "Cantrips", "Arcane school"]
+replaces_features = ["scribe-scroll", "arcane-bond", "cantrips", "arcane-school"]
 +++
 
 The siege mage combines his arcane mastery with a supernatural link to

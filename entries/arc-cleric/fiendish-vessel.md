@@ -16,6 +16,7 @@ page = "170"
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
+replaces_features = ["channel-energy"]
 +++
 
 Many clerics pray to or make evil bargains with fiendish powers, devoting body and soul to the

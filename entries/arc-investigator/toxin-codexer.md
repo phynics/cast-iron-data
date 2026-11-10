@@ -17,6 +17,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Keen recollection", "trap sense"]
 alters = ["Poison lore", "Alchemy and replaces", "trapfinding", "investigator talent gained at 3rd level"]
+replaces_features = ["keen-recollection", "trap-sense"]
+alters_features = ["poison-lore", "trapfinding"]
 +++
 
 While most investigators are well versed in the knowledge of poisons, the toxin codexer has made it

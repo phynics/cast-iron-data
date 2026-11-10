@@ -16,6 +16,7 @@ page = "24"
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "wild empathy", "woodland stride", "venom immunity", "a thousand faces", "timeless body", "Nature sense", "Resist nature's lure"]
+replaces_features = ["nature-bond", "wild-empathy", "woodland-stride", "venom-immunity", "a-thousand-faces", "timeless-body", "nature-sense", "resist-nature-s-lure"]
 +++
 
 Some druids believe that dragons are the ultimate expression of nature, combining elemental fury

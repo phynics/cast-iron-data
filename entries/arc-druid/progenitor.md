@@ -17,6 +17,8 @@ page = "19"
 kind = "archetype"
 replaces = ["Nature bond"]
 alters = ["Spontaneous casting", "Wild shape"]
+replaces_features = ["nature-bond"]
+alters_features = ["spontaneous-casting", "wild-shape"]
 +++
 
 Some druids forge powerful bonds with the raw, natural power of the First World. Progenitors are

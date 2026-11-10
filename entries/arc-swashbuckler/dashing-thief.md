@@ -17,6 +17,8 @@ page = "51"
 kind = "archetype"
 replaces = ["Regain panache from a killing blow", "Bonus feats", "Menacing swordplay", "Dizzying defense"]
 alters = ["Derring-do", "swashbuckler's edge", "Panache"]
+replaces_features = ["bonus-feats"]
+alters_features = ["panache"]
 +++
 
 The dashing thief relies on swift swordplay, dazzling charm, and spirited courage to commit

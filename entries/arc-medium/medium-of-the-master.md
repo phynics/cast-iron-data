@@ -17,6 +17,8 @@ page = "5"
 kind = "archetype"
 replaces = ["Shared seance", "Trance of three"]
 alters = ["Armor proficiency", "Spirit", "Spirit surge", "Spirit power (lesser)", "Spirit power (intermediate)", "Spirit power (supreme)"]
+replaces_features = ["shared-seance", "trance-of-three"]
+alters_features = ["spirit", "spirit-surge"]
 +++
 
 A medium of the master forgoes a connection with most spirits to form a bond with the spirits of

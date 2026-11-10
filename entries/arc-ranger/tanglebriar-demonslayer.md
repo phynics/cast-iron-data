@@ -16,6 +16,7 @@ page = "46"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Endurance", "Quarry", "Improved quarry"]
+replaces_features = ["favored-enemy", "endurance", "quarry", "improved-quarry"]
 +++
 
 During the elves' long absence from Golarion, the nascent demon lord

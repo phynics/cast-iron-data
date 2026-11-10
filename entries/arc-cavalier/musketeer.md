@@ -16,6 +16,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Expert trainer"]
+replaces_features = ["mount", "expert-trainer"]
 +++
 
 Some cavaliers are entrusted by their masters with the care and use of expensive and powerful

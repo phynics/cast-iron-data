@@ -16,6 +16,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Weapon training 1", "Armor training 2", "Armor training 3"]
+replaces_features = ["bravery"]
 +++
 
 Taldor's warriors have perfected the art of fighting with the [falcata](ref/eq-weapon/falcata) and

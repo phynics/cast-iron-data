@@ -16,6 +16,7 @@ page = "10"
 [fields]
 kind = "archetype"
 replaces = ["Maneuver training", "AC bonus"]
+replaces_features = ["maneuver-training", "ac-bonus"]
 +++
 
 For these mighty grapplers, wrestling normal opponents has lost its challenge - they seek greater

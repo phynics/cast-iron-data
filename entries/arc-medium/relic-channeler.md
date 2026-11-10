@@ -17,6 +17,8 @@ page = "93"
 kind = "archetype"
 replaces = ["Haunt channeler", "Location channel"]
 alters = ["Spirit", "Spirit", "Connection channel"]
+replaces_features = ["haunt-channeler", "location-channel"]
+alters_features = ["spirit", "spirit", "connection-channel"]
 +++
 
 A relic channeler carries relics of legend around with her. She need not rely on locating the

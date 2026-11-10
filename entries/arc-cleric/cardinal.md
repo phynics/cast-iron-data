@@ -17,6 +17,7 @@ page = "64"
 kind = "archetype"
 replaces = ["Armor proficiencies", "Spontaneous casting ability"]
 alters = ["Domains", "class skills", "skill ranks per level", "base attack bonus"]
+alters_features = ["domains"]
 +++
 
 While a cleric's faith is her highest priority, her church may wield significant political power in

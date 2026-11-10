@@ -16,6 +16,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Swift alchemy", "Swift poisoning", "Poison resistance +2, +4, and +6", "poison immunity", "Persistent mutagen"]
+replaces_features = ["swift-alchemy", "swift-poisoning", "persistent-mutagen"]
 +++
 
 Beastmorphs study the anatomy of monsters, learning how they achieve their strange powers. They use

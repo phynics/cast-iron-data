@@ -16,6 +16,7 @@ page = "130"
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Endurance", "Woodland stride", "Camouflage", "Hide in plain sight"]
+replaces_features = ["favored-terrain", "endurance", "woodland-stride", "camouflage", "hide-in-plain-sight"]
 +++
 
 For the urban ranger, the streets and sewers of the city are just as dangerous as the barren

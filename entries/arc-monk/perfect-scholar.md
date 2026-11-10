@@ -17,6 +17,8 @@ page = "44"
 kind = "archetype"
 replaces = ["Still mind", "Slow fall", "Tongue of the sun and moon"]
 alters = ["Perfect self"]
+replaces_features = ["still-mind", "slow-fall", "tongue-of-the-sun-and-moon"]
+alters_features = ["perfect-self"]
 +++
 
 Perfect scholars, often worshipers of Irori, hone their minds and bodies through the accumulation of

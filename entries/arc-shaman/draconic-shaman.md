@@ -17,6 +17,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Spirit", "spirit animal", "hexes gained at 4th and 10th levels"]
 alters = ["Spirit magic"]
+replaces_features = ["spirit", "spirit-animal"]
+alters_features = ["spirit-magic"]
 +++
 
 In some regions of Tian Xia, shamans are unusually common, and may have strong ties to dragon gods

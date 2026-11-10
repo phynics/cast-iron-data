@@ -17,6 +17,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Domain", "Teamwork feat gained at 3rd level"]
 alters = ["Spells"]
+replaces_features = ["domain"]
+alters_features = ["spells"]
 +++
 
 Throughout the Mwangi Expanse, cults of [Angazhan](ref/faith/angazhan) pollute the pristine jungle

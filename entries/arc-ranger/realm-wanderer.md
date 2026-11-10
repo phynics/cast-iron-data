@@ -17,6 +17,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Track", "Swift tracker", "Master hunter"]
 alters = ["Hunter's bond"]
+replaces_features = ["track", "swift-tracker", "master-hunter"]
+alters_features = ["hunter-s-bond"]
 +++
 
 Some of the most free-roaming rangers are those who tread between locales so varied that they may as

@@ -17,6 +17,7 @@ page = "23"
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence", "dirge of doom", "frightening tune", "Versatile performance", "Lore master", "Jack-of-all-trades"]
 alters = ["Countersong"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "lore-master", "jack-of-all-trades"]
 +++
 
 The wit is a master of clever repartee and verbal dueling, moving through noble courts like a fish

@@ -16,6 +16,7 @@ page = "111"
 [fields]
 kind = "archetype"
 replaces = ["Familiar", "Wandering spirit", "wandering hex"]
+replaces_features = ["wandering-spirit", "wandering-hex"]
 +++
 
 A speaker for the past is a shaman who specifically serves as the voice for spirits from her

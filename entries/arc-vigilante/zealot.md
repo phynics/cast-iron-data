@@ -20,6 +20,7 @@ page = "33"
 kind = "archetype"
 replaces = ["4th-, 8th-, 10th-, 14th-, and 16th-level vigilante talents", "Vigilante specialization"]
 alters = ["Weapon proficiencies", "Vigilante talents"]
+replaces_features = ["vigilante-specialization"]
 +++
 
 Dedicated to a single deity, the zealot hunts the enemies of his faith in secret, often because his

@@ -17,6 +17,8 @@ page = "27"
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Swift alchemy", "Investigator talent gained at 7th level", "Investigator talents gained at 11th and 17th levels"]
 alters = ["Inspiration"]
+replaces_features = ["trapfinding", "trap-sense", "swift-alchemy"]
+alters_features = ["inspiration"]
 +++
 
 Ruthless agents are often called upon for their skills at extracting information by any means

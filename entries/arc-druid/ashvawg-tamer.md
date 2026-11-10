@@ -16,6 +16,7 @@ page = "71"
 [fields]
 kind = "archetype"
 replaces = ["Resist nature's lure", "Daily use of wild shape at 6th level", "venom immunity", "Venom immunity"]
+replaces_features = ["resist-nature-s-lure", "venom-immunity", "venom-immunity"]
 +++
 
 The ashvawg tamer is a variant class that allows a druid to bond with strange and monstrous

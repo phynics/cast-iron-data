@@ -17,6 +17,8 @@ page = "212"
 kind = "archetype"
 replaces = ["Haunt channeler"]
 alters = ["Spirit", "Spirit surge", "Taboo"]
+replaces_features = ["haunt-channeler"]
+alters_features = ["spirit", "spirit-surge", "taboo"]
 +++
 
 Some mediums delve deeply into the spirit world and make contact with entities that exist outside

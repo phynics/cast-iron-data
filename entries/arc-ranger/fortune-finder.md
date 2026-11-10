@@ -16,6 +16,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Track", "Hunter's bond", "Woodland stride", "Quarry", "improved quarry", "Master hunter"]
+replaces_features = ["track", "hunter-s-bond", "woodland-stride", "quarry", "improved-quarry", "master-hunter"]
 +++
 
 Vanaras often leave home to seek fortune and sate their curiosity regarding the mysterious lands

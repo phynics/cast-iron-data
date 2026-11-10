@@ -16,6 +16,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Weapon training 1", "Armor training 2 and 4", "Armor mastery"]
+replaces_features = ["armor-mastery"]
 +++
 
 Cyber-soldiers replace fallible flesh with precision-crafted machinery. Some seek to exceed the

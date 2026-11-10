@@ -17,6 +17,8 @@ page = "39"
 kind = "archetype"
 replaces = ["Expert trainer", "Greater banner", "The cavalier's 18th-level bonus feat"]
 alters = ["Tactician"]
+replaces_features = ["expert-trainer", "greater-banner"]
+alters_features = ["tactician"]
 +++
 
 Some cavaliers make a lifelong mission out of their exceptional ability to direct troops on the

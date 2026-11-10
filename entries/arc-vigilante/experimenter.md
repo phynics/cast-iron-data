@@ -17,6 +17,8 @@ page = "70"
 kind = "archetype"
 replaces = ["Vigilante specialization", "1st-level social talent", "Unshakable", "Startling appearance", "Frightening appearance", "Stunning appearance"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["vigilante-specialization", "unshakable", "startling-appearance", "frightening-appearance", "stunning-appearance"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Some vigilantes adopt lives of secrecy to hide their strange experiments from public view.

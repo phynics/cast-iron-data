@@ -17,6 +17,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Song of marching", "damage reduction", "Dirge of doom"]
 alters = ["Weapon and armor proficiencies", "Inspired rage"]
+replaces_features = ["song-of-marching", "damage-reduction", "dirge-of-doom"]
+alters_features = ["weapon-and-armor-proficiencies", "inspired-rage"]
 +++
 
 The urban skald finds that challenging and mocking foes is sometimes more effective than inspiring

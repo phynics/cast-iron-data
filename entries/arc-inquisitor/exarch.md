@@ -17,6 +17,7 @@ page = "13"
 kind = "archetype"
 replaces = ["Monster lore", "Detect alignment", "Bane", "Second judgment", "Greater bane", "Third judgment"]
 alters = ["Spellcasting"]
+replaces_features = ["monster-lore", "detect-alignment", "bane", "second-judgment", "greater-bane", "third-judgment"]
 +++
 
 The gruff traditionalism of most dwarves finds its apex in those who adhere to a strict orthodoxy

@@ -16,6 +16,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Nimble", "Swashbuckler initiative", "Targeted strike"]
+replaces_features = ["nimble"]
 +++
 
 While it doesn't take much more than a ship and a crew in the Shackles to become a pirate, Shackles

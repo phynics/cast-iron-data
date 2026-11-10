@@ -16,6 +16,7 @@ page = "99"
 [fields]
 kind = "archetype"
 replaces = ["Judgment 1/day", "Solo tactics", "Later iterations of the judgment ability", "Second judgment", "Third judgment", "Slayer", "True judgment"]
+replaces_features = ["solo-tactics", "second-judgment", "third-judgment", "slayer", "true-judgment"]
 +++
 
 Some inquisitors create a strong bond with an animal companion, and they hunt and punish threats to

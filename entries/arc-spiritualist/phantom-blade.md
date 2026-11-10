@@ -17,6 +17,7 @@ page = "4"
 kind = "archetype"
 replaces = ["Phantom", "phantom recall", "spiritual bond", "dual bond", "Etheric tether", "shared consciousness", "fused consciousness", "empowered consciousness", "Bonded senses", "Bonded manifestation", "Spiritual interference", "greater spiritual interference"]
 alters = ["Weapon", "armor proficiency"]
+replaces_features = ["phantom", "phantom-recall", "spiritual-bond", "dual-bond", "etheric-tether", "shared-consciousness", "fused-consciousness", "empowered-consciousness", "bonded-senses", "bonded-manifestation", "spiritual-interference", "greater-spiritual-interference"]
 +++
 
 A small selection of spiritualists are connected to spirits of combat and warfare, and manifest a

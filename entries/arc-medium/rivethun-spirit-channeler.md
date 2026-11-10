@@ -17,6 +17,8 @@ page = "21"
 kind = "archetype"
 replaces = ["Spirit bonus", "spirit surge", "Taboo", "Connection channel"]
 alters = ["Spellcasting", "Spirit"]
+replaces_features = ["spirit-bonus", "spirit-surge", "taboo", "connection-channel"]
+alters_features = ["spirit"]
 +++
 
 [Rivethun](ref/rule/aff-animists) spirit channelers are mediums who practice the ancient dwarven

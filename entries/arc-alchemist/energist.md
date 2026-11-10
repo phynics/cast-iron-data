@@ -17,6 +17,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Poison immunity", "2nd-level discovery", "swift poisoning", "Poison resistance"]
 alters = ["Extracts", "Bombs", "Throw anything"]
+replaces_features = ["swift-poisoning", "poison-resistance"]
+alters_features = ["extracts", "throw-anything"]
 +++
 
 While most alchemists experiment mainly with chemicals and physical materials to create disparate

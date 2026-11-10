@@ -16,6 +16,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge", "12th-level rage power"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 These hotheaded, hard-drinking ruffians and brawlers are as dangerous in the midst of combat as they

@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Stunning fist", "Slow fall", "The ability to spend ki to increase his base speed"]
 alters = ["Ki pool"]
+replaces_features = ["stunning-fist", "slow-fall"]
+alters_features = ["ki-pool"]
 +++
 
 Most monks are agile and fleet of foot, but few can rival a windstep master's lightness of step.

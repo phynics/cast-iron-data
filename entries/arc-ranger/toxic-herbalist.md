@@ -16,6 +16,7 @@ page = "74"
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "Hunter's bond", "Swift tracker", "Quarry", "Improved quarry"]
+replaces_features = ["wild-empathy", "endurance", "hunter-s-bond", "swift-tracker", "quarry", "improved-quarry"]
 +++
 
 Saviors and destroyers in equal measure, toxic herbalists use nature's bounty to craft remedies and

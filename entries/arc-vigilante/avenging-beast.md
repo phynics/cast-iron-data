@@ -17,6 +17,8 @@ page = "96"
 kind = "archetype"
 replaces = ["Vigilante talents gained at 4th, 8th, 10th, 14th, and 16th level", "Vigilante specialization", "Startling appearance", "frightening appearance", "stunning appearance"]
 alters = ["Skill ranks per level", "Dual identity"]
+replaces_features = ["vigilante-specialization", "startling-appearance", "frightening-appearance", "stunning-appearance"]
+alters_features = ["dual-identity"]
 +++
 
 Some vigilantes turn to natural traditions and supernatural forces to transform into beasts,

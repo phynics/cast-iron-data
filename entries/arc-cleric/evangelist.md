@@ -17,6 +17,7 @@ page = "40"
 kind = "archetype"
 replaces = ["The 1st-, 9th-, and 15th-level channel energy abilities"]
 alters = ["Spontaneous casting"]
+alters_features = ["spontaneous-casting"]
 +++
 
 The evangelist is the voice of her religion in the world. Where others nurture the faith among

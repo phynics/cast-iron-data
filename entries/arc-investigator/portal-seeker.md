@@ -16,6 +16,7 @@ page = "18"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Poison resistance", "Poison lore", "Studied strike", "Poison immunity"]
+replaces_features = ["trapfinding", "poison-resistance", "poison-lore", "studied-strike"]
 +++
 
 While most investigators seek answers to mundane mysteries, portal seekers chase more unusual

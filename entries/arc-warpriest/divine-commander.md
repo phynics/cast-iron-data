@@ -16,6 +16,7 @@ page = "129"
 [fields]
 kind = "archetype"
 replaces = ["Blessings", "Bonus feat gained at 3rd level", "Bonus feat gained at 6th level", "Bonus feat gained at 12th level", "Bonus feat gained at 15th level"]
+replaces_features = ["blessings"]
 +++
 
 Some warpriests are called to lead great armies and face legions of foes. These divine commanders

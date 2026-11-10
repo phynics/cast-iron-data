@@ -16,6 +16,7 @@ page = "53"
 [fields]
 kind = "archetype"
 alters = ["Phantom"]
+alters_features = ["phantom"]
 +++
 
 When the pressure to grow wars with a personal need for simplicity, a mortal soul can split between

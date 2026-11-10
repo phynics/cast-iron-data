@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Mental potency"]
 alters = ["Hypnotic stare"]
+replaces_features = ["mental-potency"]
+alters_features = ["hypnotic-stare"]
 +++
 
 An autohypnotist has incredibly powerful psychic abilities that he can't entirely control. As a

@@ -16,6 +16,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["The bonus feat gained at 1st level", "The bonus feat gained at 2nd level", "Bravery"]
+replaces_features = ["bravery"]
 +++
 
 Eldritch guardians are trained to detect and give warning about magic threats to the people and

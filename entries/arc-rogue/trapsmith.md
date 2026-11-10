@@ -16,6 +16,7 @@ page = "135"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Some rogues are not content with just disabling traps - they love to build them, finding a

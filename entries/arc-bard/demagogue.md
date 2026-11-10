@@ -16,6 +16,7 @@ page = "26"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage +1", "Lore master", "Suggestion", "Mass suggestion"]
+replaces_features = ["lore-master"]
 +++
 
 Not content with providing amusing and occasionally instructive performances, the demagogue seeks to

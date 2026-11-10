@@ -16,6 +16,7 @@ page = "20"
 [fields]
 kind = "archetype"
 replaces = ["Detect evil", "Divine grace", "Divine health"]
+replaces_features = ["detect-evil", "divine-grace", "divine-health"]
 +++
 
 Always ready with bandages and potions, the combat healer squire keeps her knight on his feet

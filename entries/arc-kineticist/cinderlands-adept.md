@@ -17,6 +17,7 @@ page = "28"
 kind = "archetype"
 replaces = ["Infusion gained at 1st level", "Utility wild talents gained at 4th, 8th, and 12th levels"]
 alters = ["Elemental focus", "expanded element", "Gather power"]
+alters_features = ["elemental-focus", "expanded-element", "gather-power"]
 +++
 
 Among the Sun Clan's most noted champions are those who can tame the flames and bend them to their

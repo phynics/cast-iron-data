@@ -16,6 +16,7 @@ page = "5"
 [fields]
 kind = "archetype"
 replaces = ["Scribe scroll", "lore master", "Inspired rage", "Song of strength", "Dirge of doom", "Spell kenning"]
+replaces_features = ["scribe-scroll", "lore-master", "inspired-rage", "song-of-strength", "dirge-of-doom", "spell-kenning"]
 +++
 
 Some who have survived the Mana Wastes cannot accept defeat, and those who have learned to speak the

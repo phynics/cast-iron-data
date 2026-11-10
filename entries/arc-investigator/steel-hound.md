@@ -17,6 +17,7 @@ page = "103"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Poison lore", "Swift alchemy"]
 alters = ["Investigator talents"]
+replaces_features = ["weapon-and-armor-proficiencies", "poison-lore", "swift-alchemy"]
 +++
 
 Black powder and firearms are a natural extension of the alchemical experimentation that

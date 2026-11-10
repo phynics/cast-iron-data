@@ -17,6 +17,8 @@ page = "62"
 kind = "archetype"
 replaces = ["Internal buffer", "Elemental defense", "Omnikinesis"]
 alters = ["Alignment", "Gather power", "The key ability score of wild talents", "elemental overflow"]
+replaces_features = ["internal-buffer", "elemental-defense", "omnikinesis"]
+alters_features = ["gather-power", "elemental-overflow"]
 +++
 
 A few kineticists have developed the ability to steal the life force from the surrounding land in

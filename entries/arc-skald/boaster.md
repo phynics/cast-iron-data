@@ -17,6 +17,8 @@ page = "84"
 kind = "archetype"
 replaces = ["Scribe Scroll", "Uncanny dodge", "Lore master", "Song of the fallen", "Rage power gained at 6th level"]
 alters = ["Song of marching", "Rage powers"]
+replaces_features = ["scribe-scroll", "uncanny-dodge", "lore-master", "song-of-the-fallen"]
+alters_features = ["song-of-marching", "rage-powers"]
 +++
 
 Boasters use incredible tales and claims to challenge themselves and their allies to accomplish

@@ -16,6 +16,7 @@ page = "112"
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Throw Anything", "Bombs", "mutagen"]
+replaces_features = ["brew-potion", "throw-anything", "mutagen"]
 +++
 
 Obsessed with discovering the origins of life, promethean alchemists build constructs they gradually

@@ -17,6 +17,8 @@ page = "104"
 kind = "archetype"
 replaces = ["Psychic discipline", "discipline powers", "1st-level phrenic amplification", "Discipline spells", "15th-level phrenic amplification", "Remade self"]
 alters = ["Phrenic pool"]
+replaces_features = ["psychic-discipline", "remade-self"]
+alters_features = ["phrenic-pool"]
 +++
 
 Formless adepts master their psychic powers to unshackle themselves from the confines of the flesh

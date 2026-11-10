@@ -17,6 +17,8 @@ page = "93"
 kind = "archetype"
 replaces = ["Haunt channeler", "Location channel", "Connection channel", "spacious soul", "Astral beacon"]
 alters = ["Spirit"]
+replaces_features = ["haunt-channeler", "location-channel", "connection-channel", "spacious-soul", "astral-beacon"]
+alters_features = ["spirit"]
 +++
 
 Sometimes a departed soul destined for legend gains a second chance at life by possessing his own

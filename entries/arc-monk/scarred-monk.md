@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["High jump", "wholeness of body", "abundant step", "empty body", "the ability to spend ki points to do anything other than what's described below"]
 alters = ["Ki pool"]
+replaces_features = ["high-jump", "wholeness-of-body", "abundant-step", "empty-body"]
+alters_features = ["ki-pool"]
 +++
 
 Scarred monks find unique clarity in physical discomfort. For monks who seek the truth hidden in

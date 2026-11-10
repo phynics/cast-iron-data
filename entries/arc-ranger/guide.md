@@ -16,6 +16,7 @@ page = "125"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Hunter's bond", "Evasion", "Quarry", "improved quarry", "Improved evasion"]
+replaces_features = ["favored-enemy", "hunter-s-bond", "evasion", "quarry", "improved-quarry", "improved-evasion"]
 +++
 
 Many rangers are loners, but some choose to use their familiarity with the land to guide others

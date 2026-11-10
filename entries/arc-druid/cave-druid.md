@@ -17,6 +17,8 @@ page = "99"
 kind = "archetype"
 replaces = ["Nature sense", "Woodland stride", "Trackless step", "Resist nature's lure"]
 alters = ["Nature bond", "Wild empathy", "Wild shape"]
+replaces_features = ["nature-sense", "woodland-stride", "trackless-step", "resist-nature-s-lure"]
+alters_features = ["nature-bond", "wild-empathy", "wild-shape"]
 +++
 
 Far from the green fields of the world above lies a lightless expanse beneath the surface. This

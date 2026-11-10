@@ -17,6 +17,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Inspire greatness", "Inspire heroics", "Well-versed", "Versatile performance"]
 alters = ["Bardic knowledge"]
+replaces_features = ["well-versed", "versatile-performance"]
+alters_features = ["bardic-knowledge"]
 +++
 
 In eons past, the angel Tabris was tasked with cataloging all knowledge of the Great Beyond, only to

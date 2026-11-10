@@ -17,6 +17,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Bonus feats, 1st-, 7th-, and 15th-level deeds", "Nimble", "Kip-up"]
 alters = ["Panache", "Charmed life"]
+replaces_features = ["bonus-feats", "nimble"]
+alters_features = ["panache", "charmed-life"]
 +++
 
 While some swashbucklers are loners or glory hounds, always trying to take the credit for finishing

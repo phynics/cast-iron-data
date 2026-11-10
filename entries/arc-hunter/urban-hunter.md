@@ -17,6 +17,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Hunter tactics", "teamwork feat", "Woodland stride", "One with the wild"]
 alters = ["Animal companion"]
+replaces_features = ["hunter-tactics", "teamwork-feat", "woodland-stride", "one-with-the-wild"]
+alters_features = ["animal-companion"]
 +++
 
 Urban hunters help guards track down and apprehend criminals or spies, find lost children and

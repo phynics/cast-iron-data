@@ -17,6 +17,8 @@ page = "44"
 kind = "archetype"
 replaces = ["Spontaneous casting", "Resist nature's lure"]
 alters = ["Nature bond"]
+replaces_features = ["spontaneous-casting", "resist-nature-s-lure"]
+alters_features = ["nature-bond"]
 +++
 
 Nithveil adepts learn the secret magic of the First World fey in the moving, reality-phasing city of

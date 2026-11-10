@@ -17,6 +17,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Arcane school", "Scribe Scroll", "10th- and 15th-level bonus feats"]
 alters = ["Arcane bond"]
+replaces_features = ["arcane-school", "scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Some wizards, typically First World [gnomes](ref/race/gnome), have mystical ties with the First

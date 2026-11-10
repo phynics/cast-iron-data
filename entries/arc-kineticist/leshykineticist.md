@@ -17,6 +17,8 @@ page = "23"
 kind = "archetype"
 replaces = ["6th- and 10th-level utility wild talents", "maximize metakinesis", "Omnikinesis"]
 alters = ["Element", "expanded element", "Basic phytokinesis", "Internal buffer"]
+replaces_features = ["omnikinesis"]
+alters_features = ["expanded-element", "internal-buffer"]
 +++
 
 Of all those who pursue the path of a kineticist, only leshykineticists are both made of plant

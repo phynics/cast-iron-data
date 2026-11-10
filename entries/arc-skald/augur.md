@@ -16,6 +16,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Well-versed", "All types of versatile performance", "Spell kenning"]
+replaces_features = ["well-versed", "spell-kenning"]
 +++
 
 Tales of Merivesta Olinchi are surprisingly common among the Bekyar of the Mwangi Expanse, who claim

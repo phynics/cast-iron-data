@@ -20,6 +20,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Vigilante specialization", "Social talent gained at 1st level", "Vigilante talent gained at 2nd level"]
 alters = ["Dual identity"]
+replaces_features = ["vigilante-specialization"]
+alters_features = ["dual-identity"]
 +++
 
 Bellflower harvesters are the front-line operatives of the secretive

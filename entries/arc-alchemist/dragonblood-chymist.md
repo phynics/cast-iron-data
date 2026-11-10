@@ -17,6 +17,8 @@ page = "12"
 kind = "archetype"
 replaces = ["2nd-, 12th-, 16th-level discoveries", "Throw Anything", "Poison resistance", "poison use", "swift poisoning"]
 alters = ["Mutagen"]
+replaces_features = ["throw-anything", "poison-resistance", "poison-use", "swift-poisoning"]
+alters_features = ["mutagen"]
 +++
 
 For alchemists, the key to effective mixtures lies in potent ingredients, and what could be more

@@ -16,6 +16,7 @@ page = "58"
 [fields]
 kind = "archetype"
 replaces = ["Flurry of blows", "Still mind", "Slow fall", "Purity of body", "Diamond body", "Quivering palm"]
+replaces_features = ["flurry-of-blows", "still-mind", "slow-fall", "purity-of-body", "diamond-body", "quivering-palm"]
 +++
 
 The maneuver master specializes in more complicated moves than simple damage-dealing strikes.

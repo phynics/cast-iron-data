@@ -17,6 +17,8 @@ page = "28"
 kind = "archetype"
 replaces = ["Trapfinding", "trap sense", "Alchemy", "Poison resistance", "Poison immunity"]
 alters = ["Inspiration"]
+replaces_features = ["trapfinding", "trap-sense", "alchemy", "poison-resistance"]
+alters_features = ["inspiration"]
 +++
 
 A lock of hair, a bit of blood, even a footprint is enough to grant a wily witch hunter an edge.

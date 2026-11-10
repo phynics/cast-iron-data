@@ -16,6 +16,7 @@ page = "15"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Damage reduction"]
+replaces_features = ["uncanny-dodge", "trap-sense", "improved-uncanny-dodge", "damage-reduction"]
 +++
 
 There are no rules in the wild. Some barbarians enter combat with only victory in mind and do

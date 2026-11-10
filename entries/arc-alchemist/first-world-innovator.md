@@ -17,6 +17,7 @@ page = "6"
 kind = "archetype"
 replaces = ["Brew Potion", "poison use", "swift poisoning", "poison immunity", "Poison resistance"]
 alters = ["Bombs"]
+replaces_features = ["brew-potion", "poison-use", "swift-poisoning", "poison-resistance"]
 +++
 
 The First World's energies slowly leak into the Material Plane, haphazardly infusing mundane

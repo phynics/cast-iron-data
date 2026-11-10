@@ -17,6 +17,7 @@ page = "25"
 kind = "archetype"
 replaces = ["Basic geokinesis wild talent", "Utility wild talent gained at 2nd level", "Ability score boosts granted by elemental overflow", "earth's elemental defense"]
 alters = ["Elemental focus", "Gather power", "internal buffer"]
+alters_features = ["elemental-focus", "gather-power", "internal-buffer"]
 +++
 
 Darklands geokineticists sometimes exhibit supernatural powers associated with

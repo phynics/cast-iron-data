@@ -17,6 +17,8 @@ page = "105"
 kind = "archetype"
 replaces = ["Stunning fist", "Still mind", "Wholeness of body", "Quivering palm"]
 alters = ["Ki pool"]
+replaces_features = ["stunning-fist", "still-mind", "wholeness-of-body", "quivering-palm"]
+alters_features = ["ki-pool"]
 +++
 
 The kata master takes the visual aspect of his martial art to its logical extreme, harnessing her

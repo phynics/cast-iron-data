@@ -17,6 +17,8 @@ page = "5"
 kind = "archetype"
 replaces = ["Medium armor", "heavy armor", "Knowledge pool", "Counterstrike"]
 alters = ["Weapon proficiency", "Spellcasting", "Arcane pool", "Spellstrike", "5th-level bonus feat"]
+replaces_features = ["medium-armor", "heavy-armor", "knowledge-pool", "counterstrike"]
+alters_features = ["arcane-pool", "spellstrike"]
 +++
 
 Practitioners of this martial art, powered by arcane magic, wear an iron ring on the finger of one

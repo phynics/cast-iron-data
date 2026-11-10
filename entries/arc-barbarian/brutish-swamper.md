@@ -16,6 +16,7 @@ page = "37"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Trap sense", "6th-level rage power"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge", "trap-sense"]
 +++
 
 The hardy and insular denizens of the swamp produce warriors of narrow focus and great strength. The

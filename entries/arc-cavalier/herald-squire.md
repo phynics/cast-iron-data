@@ -16,6 +16,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "The 2nd-level order ability", "Cavalier's charge"]
+replaces_features = ["tactician", "cavalier-s-charge"]
 +++
 
 The herald squire is the eyes and ears of a traveling knight, often arriving ahead of her liege to

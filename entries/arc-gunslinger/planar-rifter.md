@@ -17,6 +17,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Deadeye deed", "Dead shot deed", "Menacing shot deed", "Death's shot deed", "Nimble", "Gun training"]
 alters = ["Grit"]
+replaces_features = ["nimble", "gun-training"]
+alters_features = ["grit"]
 +++
 
 Followers of the daemonic harbinger [Cixyron](ref/faith/cixyron) invented a method of harvesting

@@ -16,6 +16,7 @@ page = "19"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Scribe Scroll", "Lore master", "7th-level versatile performance gained benefit"]
+replaces_features = ["bardic-knowledge", "scribe-scroll", "lore-master"]
 +++
 
 These fierce drummers are equally adept at tapping out a driving rhythm and rapping enemies upside

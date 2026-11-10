@@ -17,6 +17,8 @@ page = "45"
 kind = "archetype"
 replaces = ["Hunter's bond", "Woodland stride", "Quarry", "Camouflage", "Improved quarry"]
 alters = ["Track", "wild empathy", "Favored terrain"]
+replaces_features = ["hunter-s-bond", "woodland-stride", "quarry", "camouflage", "improved-quarry"]
+alters_features = ["track", "wild-empathy", "favored-terrain"]
 +++
 
 The isolation that some [half-elves](ref/race/half-elf) feel leads them to live a life of isolation

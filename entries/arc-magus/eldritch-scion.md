@@ -17,6 +17,8 @@ page = "104"
 kind = "archetype"
 replaces = ["Spells", "Spell recall", "Arcane pool", "Knowledge pool"]
 alters = ["Spell combat", "Improved spell combat", "Greater spell combat"]
+replaces_features = ["spells", "spell-recall", "arcane-pool", "knowledge-pool"]
+alters_features = ["spell-combat", "improved-spell-combat", "greater-spell-combat"]
 +++
 
 Unlike typical magi, eldritch scions do not study tomes of magic or spend time learning to combine

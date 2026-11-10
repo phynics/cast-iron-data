@@ -17,6 +17,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Improved empathic link"]
 alters = ["Animal focus", "Wild Empathy"]
+replaces_features = ["improved-empathic-link"]
+alters_features = ["animal-focus", "wild-empathy"]
 +++
 
 Hunters beneath the sea are just as committed as their surface-dwelling counterparts to working

@@ -17,6 +17,8 @@ page = "16"
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thousand faces"]
 alters = ["Bonus languages", "Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "a-thousand-faces"]
+alters_features = ["bonus-languages", "wild-shape"]
 +++
 
 Some druids draw upon power irreverently stolen from one of the most dangerous creatures of the

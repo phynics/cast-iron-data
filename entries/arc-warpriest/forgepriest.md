@@ -17,6 +17,8 @@ page = "130"
 kind = "archetype"
 replaces = ["2nd blessing normally gained by a warpriest", "Bonus feat gained at 3rd level", "Channel energy", "Bonus feat gained at 6th level"]
 alters = ["Blessings", "Bonus feats"]
+replaces_features = ["channel-energy"]
+alters_features = ["blessings", "bonus-feats"]
 +++
 
 Armorers of exquisite skill, forgepriests take inspiration from their deity to produce the most

@@ -17,6 +17,7 @@ page = "50"
 kind = "archetype"
 replaces = ["Vigilante talent gained at 2nd level", "Social talents gained at 5th, 11th, and 17th levels", "Vigilante talent gained at 6th level"]
 alters = ["Weapon and armor proficiencies", "Dual identity"]
+alters_features = ["weapon-and-armor-proficiencies", "dual-identity"]
 +++
 
 Unyielding warriors, faceless enforcers lock their identities behind implacable helms. While their

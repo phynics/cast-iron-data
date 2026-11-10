@@ -17,6 +17,8 @@ page = "62"
 kind = "archetype"
 replaces = ["Divine grace", "Mercy", "Lay on hands", "channel positive energy", "Holy champion"]
 alters = ["Divine bond"]
+replaces_features = ["divine-grace", "mercy", "lay-on-hands", "channel-positive-energy", "holy-champion"]
+alters_features = ["divine-bond"]
 +++
 
 The empyreal knight dedicates her life to serving the celestial beings that guide mortals in their

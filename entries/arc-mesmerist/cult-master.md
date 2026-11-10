@@ -17,6 +17,8 @@ page = "96"
 kind = "archetype"
 replaces = ["Consummate liar", "Painful stare", "3rd- and 6th-level touch treatments", "7th-level bold stare", "10th- and 14th-level touch treatments", "Rule minds"]
 alters = ["Mesmerist tricks", "Masterful tricks"]
+replaces_features = ["consummate-liar", "painful-stare", "rule-minds"]
+alters_features = ["mesmerist-tricks", "masterful-tricks"]
 +++
 
 The leaders of some cults are simply charlatans, bathing in the adulation of their followers. Others
