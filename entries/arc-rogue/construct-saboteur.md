@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/construct-saboteur"
 kind = "archetype"
 title = "Construct Saboteur"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Construct%20Saboteur"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_saboteur", path = "json/archetypes_rogue.json" },

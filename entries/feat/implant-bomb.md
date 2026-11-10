@@ -2,6 +2,7 @@
 id = "ref/feat/implant-bomb"
 kind = "feat"
 title = "Implant Bomb"
+aon = "FeatDisplay.aspx?ItemName=Implant%20Bomb"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "implant_bomb", path = "json/feat08.json" },

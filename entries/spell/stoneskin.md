@@ -2,6 +2,7 @@
 id = "ref/spell/stoneskin"
 kind = "spell"
 title = "Stoneskin"
+aon = "SpellDisplay.aspx?ItemName=Stoneskin"
 source_ids = ["core-rulebook", "potions-and-poisons", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stoneskin", path = "json/spells9.json" },

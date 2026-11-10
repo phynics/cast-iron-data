@@ -2,6 +2,7 @@
 id = "ref/trait/stubborn"
 kind = "trait"
 title = "Stubborn"
+aon = "TraitDisplay.aspx?ItemName=Stubborn"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stubborn", path = "json/traits05.json" },

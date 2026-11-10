@@ -2,6 +2,7 @@
 id = "ref/class/medium"
 kind = "class"
 title = "Medium"
+aon = "ClassDisplay.aspx?ItemName=Medium"
 source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast", "blood-of-the-sea", "plane-hoppers-handbook", "blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medium", path = "json/classes6.json" },

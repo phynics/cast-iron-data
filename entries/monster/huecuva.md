@@ -2,6 +2,7 @@
 id = "ref/monster/huecuva"
 kind = "creature"
 title = "Huecuva"
+aon = "MonsterDisplay.aspx?ItemName=Huecuva"
 source_ids = ["bestiary-3", "bonus-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "huecuva", path = "json/monsters13.json" },

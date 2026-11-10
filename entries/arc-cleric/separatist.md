@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/separatist"
 kind = "archetype"
 title = "Separatist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Separatist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "separatist", path = "json/archetypes_cleric.json" },

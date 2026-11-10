@@ -2,6 +2,7 @@
 id = "ref/trait/eye-for-plunder"
 kind = "trait"
 title = "Eye for Plunder"
+aon = "TraitDisplay.aspx?ItemName=Eye%20for%20Plunder"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_for_plunder", path = "json/traits03.json" },

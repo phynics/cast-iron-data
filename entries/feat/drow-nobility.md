@@ -2,6 +2,7 @@
 id = "ref/feat/drow-nobility"
 kind = "feat"
 title = "Drow Nobility"
+aon = "FeatDisplay.aspx?ItemName=Drow%20Nobility"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_nobility", path = "json/feat05.json" },

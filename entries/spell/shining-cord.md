@@ -2,6 +2,7 @@
 id = "ref/spell/shining-cord"
 kind = "spell"
 title = "Shining Cord"
+aon = "SpellDisplay.aspx?ItemName=Shining%20Cord"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shining_cord", path = "json/spells9.json" },

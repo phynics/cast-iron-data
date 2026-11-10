@@ -2,6 +2,7 @@
 id = "ref/spell/expeditious-excavation"
 kind = "spell"
 title = "Expeditious Excavation"
+aon = "SpellDisplay.aspx?ItemName=Expeditious%20Excavation"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expeditious_excavation", path = "json/spells4.json" },

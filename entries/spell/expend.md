@@ -2,6 +2,7 @@
 id = "ref/spell/expend"
 kind = "spell"
 title = "Expend"
+aon = "SpellDisplay.aspx?ItemName=Expend"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expend", path = "json/spells4.json" },

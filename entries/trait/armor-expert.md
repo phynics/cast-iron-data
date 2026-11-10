@@ -2,6 +2,7 @@
 id = "ref/trait/armor-expert"
 kind = "trait"
 title = "Armor Expert"
+aon = "TraitDisplay.aspx?ItemName=Armor%20Expert"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_expert", path = "json/traits01.json" },

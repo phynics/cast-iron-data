@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-dependability"
 kind = "spell"
 title = "Litany of Dependability"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Dependability"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_dependability", path = "json/spells6.json" },

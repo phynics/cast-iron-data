@@ -2,6 +2,7 @@
 id = "ref/feat/waterway-caster"
 kind = "feat"
 title = "Waterway Caster"
+aon = "FeatDisplay.aspx?ItemName=Waterway%20Caster"
 source_ids = ["ultimate-wilderness", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waterway_caster", path = "json/feat17.json" },

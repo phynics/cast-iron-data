@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/hangman"
 kind = "archetype"
 title = "Hangman"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Hangman"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hangman", path = "json/archetypes_vigilante.json" },

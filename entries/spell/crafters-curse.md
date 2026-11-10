@@ -2,6 +2,7 @@
 id = "ref/spell/crafters-curse"
 kind = "spell"
 title = "Crafter's Curse"
+aon = "SpellDisplay.aspx?ItemName=Crafter%27s%20Curse"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_curse", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-cantrips-or-orisons"
 kind = "feat"
 title = "Extra Cantrips or Orisons"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Cantrips%20or%20Orisons"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_cantrips_or_orisons", path = "json/feat06.json" },

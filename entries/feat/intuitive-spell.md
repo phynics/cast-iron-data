@@ -2,6 +2,7 @@
 id = "ref/feat/intuitive-spell"
 kind = "feat"
 title = "Intuitive Spell"
+aon = "FeatDisplay.aspx?ItemName=Intuitive%20Spell"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intuitive_spell", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ray-manta-ray"
 kind = "creature"
 title = "Manta Ray"
+aon = "MonsterDisplay.aspx?ItemName=Manta%20Ray"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ray_manta_ray", path = "json/monsters20.json" },

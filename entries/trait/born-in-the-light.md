@@ -2,6 +2,7 @@
 id = "ref/trait/born-in-the-light"
 kind = "trait"
 title = "Born in the Light"
+aon = "TraitDisplay.aspx?ItemName=Born%20in%20the%20Light"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_in_the_light", path = "json/traits05.json" },

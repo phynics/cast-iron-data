@@ -2,6 +2,7 @@
 id = "ref/spell/babble"
 kind = "spell"
 title = "Babble"
+aon = "SpellDisplay.aspx?ItemName=Babble"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "babble", path = "json/spells12.json" },

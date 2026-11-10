@@ -2,6 +2,7 @@
 id = "ref/feat/cultivate-magic-plants"
 kind = "feat"
 title = "Cultivate Magic Plants"
+aon = "FeatDisplay.aspx?ItemName=Cultivate%20Magic%20Plants"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultivate_magic_plants", path = "json/feat04.json" },

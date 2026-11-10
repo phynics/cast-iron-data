@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/hooded-knight"
 kind = "archetype"
 title = "Hooded Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Hooded%20Knight"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooded_knight", path = "json/archetypes_cavalier.json" },

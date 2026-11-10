@@ -2,6 +2,7 @@
 id = "ref/feat/sensory-control"
 kind = "feat"
 title = "Sensory Control"
+aon = "FeatDisplay.aspx?ItemName=Sensory%20Control"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensory_control", path = "json/feat13.json" },

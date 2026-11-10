@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/witch-killer"
 kind = "archetype"
 title = "Witch Killer"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Witch%20Killer"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witch_killer", path = "json/archetypes_slayer.json" },

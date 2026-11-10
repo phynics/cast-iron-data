@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/bloody-mantis"
 kind = "item"
 title = "Bloody Mantis"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Bloody%20Mantis"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_mantis", path = "json/magic_wondrous_head_headband.json" },

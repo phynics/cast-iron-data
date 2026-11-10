@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/pirate"
 kind = "archetype"
 title = "Pirate"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Pirate"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate", path = "json/archetypes_rogue.json" },

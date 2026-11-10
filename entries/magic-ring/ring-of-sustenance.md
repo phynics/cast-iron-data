@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-sustenance"
 kind = "item"
 title = "Ring of Sustenance"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Sustenance"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_sustenance", path = "json/magic_ring.json" },

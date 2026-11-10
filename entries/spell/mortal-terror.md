@@ -2,6 +2,7 @@
 id = "ref/spell/mortal-terror"
 kind = "spell"
 title = "Mortal Terror"
+aon = "SpellDisplay.aspx?ItemName=Mortal%20Terror"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortal_terror", path = "json/spells7.json" },

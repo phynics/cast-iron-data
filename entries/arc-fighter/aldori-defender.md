@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/aldori-defender"
 kind = "archetype"
 title = "Aldori Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Aldori%20Defender"
 source_ids = ["adventurers-guide", "inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aldori_defender", path = "json/archetypes_fighter.json" },

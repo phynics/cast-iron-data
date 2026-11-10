@@ -2,6 +2,7 @@
 id = "ref/feat/mental-derail"
 kind = "feat"
 title = "Mental Derail"
+aon = "FeatDisplay.aspx?ItemName=Mental%20Derail"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_derail", path = "json/feat10.json" },

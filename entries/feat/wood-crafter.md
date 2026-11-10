@@ -2,6 +2,7 @@
 id = "ref/feat/wood-crafter"
 kind = "feat"
 title = "Wood Crafter"
+aon = "FeatDisplay.aspx?ItemName=Wood%20Crafter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wood_crafter", path = "json/feat17.json" },

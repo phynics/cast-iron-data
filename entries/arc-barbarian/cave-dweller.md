@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/cave-dweller"
 kind = "archetype"
 title = "Cave Dweller"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Cave%20Dweller"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cave_dweller", path = "json/archetypes_barbarian.json" },

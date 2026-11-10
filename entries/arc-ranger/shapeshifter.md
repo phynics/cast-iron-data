@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/shapeshifter"
 kind = "archetype"
 title = "Shapeshifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Shapeshifter"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter", path = "json/archetypes_ranger.json" },

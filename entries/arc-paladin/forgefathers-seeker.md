@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/forgefathers-seeker"
 kind = "archetype"
 title = "Forgefather's Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Forgefather%27s%20Seeker"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgefathers_seeker", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/gunmaster"
 kind = "archetype"
 title = "Gunmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Gunmaster"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunmaster", path = "json/archetypes_vigilante.json" },

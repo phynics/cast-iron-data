@@ -2,6 +2,7 @@
 id = "ref/spell/bone-flense"
 kind = "spell"
 title = "Bone Flense"
+aon = "SpellDisplay.aspx?ItemName=Bone%20Flense"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_flense", path = "json/spells2.json" },

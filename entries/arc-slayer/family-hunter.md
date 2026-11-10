@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/family-hunter"
 kind = "archetype"
 title = "Family Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Family%20Hunter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_hunter", path = "json/archetypes_slayer.json" },

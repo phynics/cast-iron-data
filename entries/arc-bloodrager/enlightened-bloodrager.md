@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/enlightened-bloodrager"
 kind = "archetype"
 title = "Enlightened Bloodrager"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Enlightened%20Bloodrager"
 source_ids = ["adventurers-guide", "arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_bloodrager", path = "json/archetypes_bloodrager.json" },

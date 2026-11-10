@@ -2,6 +2,7 @@
 id = "ref/monster/ship-sentinel"
 kind = "creature"
 title = "Ship Sentinel"
+aon = "MonsterDisplay.aspx?ItemName=Ship%20Sentinel"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ship_sentinel", path = "json/monsters38.json" },

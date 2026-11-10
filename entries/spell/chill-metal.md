@@ -2,6 +2,7 @@
 id = "ref/spell/chill-metal"
 kind = "spell"
 title = "Chill Metal"
+aon = "SpellDisplay.aspx?ItemName=Chill%20Metal"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chill_metal", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/tower-shield-specialist"
 kind = "archetype"
 title = "Tower Shield Specialist"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Tower%20Shield%20Specialist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tower_shield_specialist", path = "json/archetypes_fighter2.json" },

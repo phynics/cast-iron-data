@@ -2,6 +2,7 @@
 id = "ref/spell/blend-with-surroundings"
 kind = "spell"
 title = "Blend with Surroundings"
+aon = "SpellDisplay.aspx?ItemName=Blend%20with%20Surroundings"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blend_with_surroundings", path = "json/spells12.json" },

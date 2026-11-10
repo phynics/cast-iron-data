@@ -2,6 +2,7 @@
 id = "ref/feat/esoteric-linguistics"
 kind = "feat"
 title = "Esoteric Linguistics"
+aon = "FeatDisplay.aspx?ItemName=Esoteric%20Linguistics"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_linguistics", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/pressure-adept"
 kind = "feat"
 title = "Pressure Adept"
+aon = "FeatDisplay.aspx?ItemName=Pressure%20Adept"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pressure_adept", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-plane"
 kind = "spell"
 title = "Speak with Plane"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Plane"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_plane", path = "json/spells9.json" },

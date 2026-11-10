@@ -2,6 +2,7 @@
 id = "ref/arc-monk/windstep-master"
 kind = "archetype"
 title = "Windstep Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Windstep%20Master"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "windstep_master", path = "json/archetypes_monk2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/roll-with-it"
 kind = "trait"
 title = "Roll With It"
+aon = "TraitDisplay.aspx?ItemName=Roll%20With%20It"
 source_ids = ["giantslayer-players-guide", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roll_with_it", path = "json/traits02.json" },

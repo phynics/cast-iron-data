@@ -2,6 +2,7 @@
 id = "ref/spell/titanic-anchoring"
 kind = "spell"
 title = "Titanic Anchoring"
+aon = "SpellDisplay.aspx?ItemName=Titanic%20Anchoring"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "titanic_anchoring", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/die-for-your-master"
 kind = "spell"
 title = "Die for Your Master"
+aon = "SpellDisplay.aspx?ItemName=Die%20for%20Your%20Master"
 source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "die_for_your_master", path = "json/spells12.json" },

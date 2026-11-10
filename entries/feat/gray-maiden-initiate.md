@@ -2,6 +2,7 @@
 id = "ref/feat/gray-maiden-initiate"
 kind = "feat"
 title = "Gray Maiden Initiate"
+aon = "FeatDisplay.aspx?ItemName=Gray%20Maiden%20Initiate"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_maiden_initiate", path = "json/feat07.json" },

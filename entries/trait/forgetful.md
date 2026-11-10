@@ -2,6 +2,7 @@
 id = "ref/trait/forgetful"
 kind = "trait"
 title = "Forgetful"
+aon = "TraitDisplay.aspx?ItemName=Forgetful"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgetful", path = "json/traits03.json" },

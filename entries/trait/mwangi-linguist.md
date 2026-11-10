@@ -2,6 +2,7 @@
 id = "ref/trait/mwangi-linguist"
 kind = "trait"
 title = "Mwangi Linguist"
+aon = "TraitDisplay.aspx?ItemName=Mwangi%20Linguist"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_linguist", path = "json/traits04.json" },

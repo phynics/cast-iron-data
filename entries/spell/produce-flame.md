@@ -2,6 +2,7 @@
 id = "ref/spell/produce-flame"
 kind = "spell"
 title = "Produce Flame"
+aon = "SpellDisplay.aspx?ItemName=Produce%20Flame"
 source_ids = ["core-rulebook", "heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "produce_flame", path = "json/spells15.json" },

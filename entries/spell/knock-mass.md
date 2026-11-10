@@ -2,6 +2,7 @@
 id = "ref/spell/knock-mass"
 kind = "spell"
 title = "Mass Knock"
+aon = "SpellDisplay.aspx?ItemName=Knock%2C%20Mass"
 source_ids = ["core-rulebook", "inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knock_mass", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/scamper"
 kind = "spell"
 title = "Scamper"
+aon = "SpellDisplay.aspx?ItemName=Scamper"
 source_ids = ["ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scamper", path = "json/spells8.json" },

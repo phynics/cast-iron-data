@@ -2,6 +2,7 @@
 id = "ref/trait/insular-dwarf"
 kind = "trait"
 title = "Insular (Dwarf)"
+aon = "TraitDisplay.aspx?ItemName=Insular%20%28Dwarf%29"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insular_dwarf", path = "json/traits05.json" },

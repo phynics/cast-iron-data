@@ -2,6 +2,7 @@
 id = "ref/monster/gray-render"
 kind = "creature"
 title = "Gray Render"
+aon = "MonsterDisplay.aspx?ItemName=Gray%20Render"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_render", path = "json/monsters12.json" },

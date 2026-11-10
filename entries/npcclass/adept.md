@@ -2,6 +2,7 @@
 id = "ref/npcclass/adept"
 kind = "class"
 title = "Adept"
+aon = "ClassDisplay.aspx?ItemName=Adept"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adept", path = "json/npc_classes.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/longstrider"
 kind = "spell"
 title = "Longstrider"
+aon = "SpellDisplay.aspx?ItemName=Longstrider"
 source_ids = ["core-rulebook", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longstrider", path = "json/spells6.json" },

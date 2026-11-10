@@ -2,6 +2,7 @@
 id = "ref/feat/siphon-channel"
 kind = "feat"
 title = "Siphon Channel"
+aon = "FeatDisplay.aspx?ItemName=Siphon%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_channel", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/sea-singer"
 kind = "archetype"
 title = "Sea Singer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Sea%20Singer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_singer", path = "json/archetypes_bard2.json" },

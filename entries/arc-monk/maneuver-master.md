@@ -2,6 +2,7 @@
 id = "ref/arc-monk/maneuver-master"
 kind = "archetype"
 title = "Maneuver Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Maneuver%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maneuver_master", path = "json/archetypes_monk.json" },

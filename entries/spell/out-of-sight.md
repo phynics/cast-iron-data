@@ -2,6 +2,7 @@
 id = "ref/spell/out-of-sight"
 kind = "spell"
 title = "Out of Sight"
+aon = "SpellDisplay.aspx?ItemName=Out%20of%20Sight"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "out_of_sight", path = "json/spells7.json" },

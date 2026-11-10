@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/blazing-torchbearer"
 kind = "archetype"
 title = "Blazing Torchbearer"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Blazing%20Torchbearer"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_torchbearer", path = "json/archetypes_alchemist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/condensed-ether"
 kind = "spell"
 title = "Condensed Ether"
+aon = "SpellDisplay.aspx?ItemName=Condensed%20Ether"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "condensed_ether", path = "json/spells12.json" },

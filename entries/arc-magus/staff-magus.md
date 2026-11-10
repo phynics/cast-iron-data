@@ -2,6 +2,7 @@
 id = "ref/arc-magus/staff-magus"
 kind = "archetype"
 title = "Staff Magus"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Staff%20Magus"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_magus", path = "json/archetypes_magus.json" },

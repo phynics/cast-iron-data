@@ -2,6 +2,7 @@
 id = "ref/feat/tenebrous-spell"
 kind = "feat"
 title = "Tenebrous Spell"
+aon = "FeatDisplay.aspx?ItemName=Tenebrous%20Spell"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenebrous_spell", path = "json/feat16.json" },

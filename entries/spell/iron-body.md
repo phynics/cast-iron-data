@@ -2,6 +2,7 @@
 id = "ref/spell/iron-body"
 kind = "spell"
 title = "Iron Body"
+aon = "SpellDisplay.aspx?ItemName=Iron%20Body"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_body", path = "json/spells6.json" },

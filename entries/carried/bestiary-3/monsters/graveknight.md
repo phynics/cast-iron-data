@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-3/monsters/graveknight"
 kind = "creature"
 title = "Graveknight"
+aon = "MonsterDisplay.aspx?ItemName=Graveknight"
 source_ids = ["bestiary-3"]
 section = ["Monsters"]
 tags = ["undead", "augmented humanoid", "medium"]

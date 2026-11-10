@@ -2,6 +2,7 @@
 id = "ref/spell/create-food-and-water"
 kind = "spell"
 title = "Create Food and Water"
+aon = "SpellDisplay.aspx?ItemName=Create%20Food%20and%20Water"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_food_and_water", path = "json/spells12.json" },

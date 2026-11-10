@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/gravedigger"
 kind = "archetype"
 title = "Gravedigger"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Gravedigger"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravedigger", path = "json/archetypes_investigator.json" },

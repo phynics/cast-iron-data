@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/deep-shaman"
 kind = "archetype"
 title = "Deep Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Deep%20Shaman"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_shaman", path = "json/archetypes_shaman.json" },

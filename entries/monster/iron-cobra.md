@@ -2,6 +2,7 @@
 id = "ref/monster/iron-cobra"
 kind = "creature"
 title = "Iron Cobra"
+aon = "MonsterDisplay.aspx?ItemName=Iron%20Cobra"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_cobra", path = "json/monsters33.json" },

@@ -18,8 +18,9 @@ env:
   CARGO_TERM_COLOR: always
   # The Cast Iron revision whose `cast-iron-corpus` reads this corpus. Change it in the same
   # pull request that migrates the corpus to a newer format. This rev holds schema 4 (attached
-  # entries: `variant`, `addon`, `revision`).
-  CAST_IRON_REV: 6c816fdc08ff61ee72f92903a22732f244b8dce0
+  # entries: `variant`, `addon`, `revision`), `race_group` (phynics/cast-iron#379), `aon`
+  # (#380), and `replaces_features` / `alters_features` (#378).
+  CAST_IRON_REV: 47c0e41b33b816b5f9d60b197f8e239845e82da9
   # The Rust toolchain: the version in Cast Iron's rust-toolchain.toml at that revision.
   RUST_TOOLCHAIN: 1.99.1
 

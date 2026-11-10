@@ -2,6 +2,7 @@
 id = "ref/feat/banishing-critical"
 kind = "feat"
 title = "Banishing Critical"
+aon = "FeatDisplay.aspx?ItemName=Banishing%20Critical"
 source_ids = ["monster-summoners-handbook", "blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishing_critical", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/feral-combat-training"
 kind = "feat"
 title = "Feral Combat Training"
+aon = "FeatDisplay.aspx?ItemName=Feral%20Combat%20Training"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_combat_training", path = "json/feat07.json" },

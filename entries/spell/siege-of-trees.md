@@ -2,6 +2,7 @@
 id = "ref/spell/siege-of-trees"
 kind = "spell"
 title = "Siege of Trees"
+aon = "SpellDisplay.aspx?ItemName=Siege%20of%20Trees"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_of_trees", path = "json/spells9.json" },

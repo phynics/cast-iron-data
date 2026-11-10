@@ -2,6 +2,7 @@
 id = "ref/spell/dahaks-release"
 kind = "spell"
 title = "Dahak's Release"
+aon = "SpellDisplay.aspx?ItemName=Dahak%27s%20Release"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dahaks_release", path = "json/spells3.json" },

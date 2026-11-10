@@ -2,6 +2,7 @@
 id = "ref/monster/robot-collector-robot"
 kind = "creature"
 title = "Collector Robot"
+aon = "MonsterDisplay.aspx?ItemName=Collector%20Robot"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_collector_robot", path = "json/monsters20.json" },

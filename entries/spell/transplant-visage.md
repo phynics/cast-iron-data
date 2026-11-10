@@ -2,6 +2,7 @@
 id = "ref/spell/transplant-visage"
 kind = "spell"
 title = "Transplant Visage"
+aon = "SpellDisplay.aspx?ItemName=Transplant%20Visage"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transplant_visage", path = "json/spells10.json" },

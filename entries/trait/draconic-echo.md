@@ -2,6 +2,7 @@
 id = "ref/trait/draconic-echo"
 kind = "trait"
 title = "Draconic Echo"
+aon = "TraitDisplay.aspx?ItemName=Draconic%20Echo"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_echo", path = "json/traits05.json" },

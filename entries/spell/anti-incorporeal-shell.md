@@ -2,6 +2,7 @@
 id = "ref/spell/anti-incorporeal-shell"
 kind = "spell"
 title = "Anti-Incorporeal Shell"
+aon = "SpellDisplay.aspx?ItemName=Anti-Incorporeal%20Shell"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anti_incorporeal_shell", path = "json/spells.json" },

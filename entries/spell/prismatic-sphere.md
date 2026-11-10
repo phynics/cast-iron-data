@@ -2,6 +2,7 @@
 id = "ref/spell/prismatic-sphere"
 kind = "spell"
 title = "Prismatic Sphere"
+aon = "SpellDisplay.aspx?ItemName=Prismatic%20Sphere"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismatic_sphere", path = "json/spells14.json" },

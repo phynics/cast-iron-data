@@ -2,6 +2,7 @@
 id = "ref/spell/shield-companion-aa"
 kind = "spell"
 title = "Shield Companion (AA)"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Companion%20%28AA%29"
 source_ids = ["core-rulebook", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_companion_aa", path = "json/spells9.json" },

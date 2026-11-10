@@ -2,6 +2,7 @@
 id = "ref/feat/threatening-illusion"
 kind = "feat"
 title = "Threatening Illusion"
+aon = "FeatDisplay.aspx?ItemName=Threatening%20Illusion"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threatening_illusion", path = "json/feat16.json" },

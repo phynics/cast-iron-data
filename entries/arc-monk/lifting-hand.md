@@ -2,6 +2,7 @@
 id = "ref/arc-monk/lifting-hand"
 kind = "archetype"
 title = "Lifting Hand"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Lifting%20Hand"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifting_hand", path = "json/archetypes_monk.json" },

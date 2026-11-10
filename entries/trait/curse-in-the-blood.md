@@ -2,6 +2,7 @@
 id = "ref/trait/curse-in-the-blood"
 kind = "trait"
 title = "Curse in the Blood"
+aon = "TraitDisplay.aspx?ItemName=Curse%20in%20the%20Blood"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_in_the_blood", path = "json/traits05.json" },

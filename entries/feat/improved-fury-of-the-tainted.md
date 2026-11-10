@@ -2,6 +2,7 @@
 id = "ref/feat/improved-fury-of-the-tainted"
 kind = "feat"
 title = "Improved Fury of the Tainted"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Fury%20of%20the%20Tainted"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_fury_of_the_tainted", path = "json/feat09.json" },

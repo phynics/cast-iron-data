@@ -2,7 +2,9 @@
 id = "ref/race/caligni"
 kind = "race"
 title = "Caligni"
+aon = "RacesDisplay.aspx?ItemName=Caligni"
 source_ids = ["bestiary-5"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caligni", path = "json/races.json" },
 ]

@@ -2,6 +2,7 @@
 id = "ref/spell/spellcrash"
 kind = "spell"
 title = "Spellcrash"
+aon = "SpellDisplay.aspx?ItemName=Spellcrash"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcrash", path = "json/spells9.json" },

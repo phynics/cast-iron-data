@@ -2,6 +2,7 @@
 id = "ref/feat/ritual-hex"
 kind = "feat"
 title = "Ritual Hex"
+aon = "FeatDisplay.aspx?ItemName=Ritual%20Hex"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritual_hex", path = "json/feat13.json" },

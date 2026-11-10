@@ -2,6 +2,7 @@
 id = "ref/feat/craft-shoddy-item"
 kind = "feat"
 title = "Craft Shoddy Item"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Shoddy%20Item"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_shoddy_item", path = "json/feat03.json" },

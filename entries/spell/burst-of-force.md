@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-force"
 kind = "spell"
 title = "Burst of Force"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Force"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_force", path = "json/spells2.json" },

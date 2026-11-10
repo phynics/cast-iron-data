@@ -2,6 +2,7 @@
 id = "ref/spell/silent-table"
 kind = "spell"
 title = "Silent Table"
+aon = "SpellDisplay.aspx?ItemName=Silent%20Table"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_table", path = "json/spells9.json" },

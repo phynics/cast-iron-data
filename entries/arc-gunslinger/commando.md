@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/commando"
 kind = "archetype"
 title = "Commando"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Commando"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commando", path = "json/archetypes_gunslinger.json" },

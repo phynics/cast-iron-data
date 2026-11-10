@@ -2,6 +2,7 @@
 id = "ref/trait/thirst-for-knowledge"
 kind = "trait"
 title = "Thirst for Knowledge"
+aon = "TraitDisplay.aspx?ItemName=Thirst%20for%20Knowledge"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thirst_for_knowledge", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wilderness-medic"
 kind = "archetype"
 title = "Wilderness Medic"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wilderness%20Medic"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_medic", path = "json/archetypes_ranger.json" },

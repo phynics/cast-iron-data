@@ -2,6 +2,7 @@
 id = "ref/spell/legendary-proportions"
 kind = "spell"
 title = "Legendary Proportions"
+aon = "SpellDisplay.aspx?ItemName=Legendary%20Proportions"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_proportions", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/hallowed-necromancer"
 kind = "archetype"
 title = "Hallowed Necromancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Hallowed%20Necromancer"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallowed_necromancer", path = "json/archetypes_wizard.json" },

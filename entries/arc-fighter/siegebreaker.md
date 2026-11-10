@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/siegebreaker"
 kind = "archetype"
 title = "Siegebreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Siegebreaker"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siegebreaker", path = "json/archetypes_fighter2.json" },

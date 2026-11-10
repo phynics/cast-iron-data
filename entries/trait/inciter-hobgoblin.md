@@ -2,6 +2,7 @@
 id = "ref/trait/inciter-hobgoblin"
 kind = "trait"
 title = "Inciter (Hobgoblin)"
+aon = "TraitDisplay.aspx?ItemName=Inciter%20%28Hobgoblin%29"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inciter_hobgoblin", path = "json/traits05.json" },

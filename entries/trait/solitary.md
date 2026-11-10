@@ -2,6 +2,7 @@
 id = "ref/trait/solitary"
 kind = "trait"
 title = "Solitary"
+aon = "TraitDisplay.aspx?ItemName=Solitary"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solitary", path = "json/traits01.json" },

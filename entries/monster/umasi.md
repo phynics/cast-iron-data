@@ -2,6 +2,7 @@
 id = "ref/monster/umasi"
 kind = "creature"
 title = "Umasi"
+aon = "MonsterDisplay.aspx?ItemName=Umasi"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umasi", path = "json/monsters24.json" },

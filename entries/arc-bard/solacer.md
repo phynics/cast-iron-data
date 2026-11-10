@@ -2,6 +2,7 @@
 id = "ref/arc-bard/solacer"
 kind = "archetype"
 title = "Solacer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Solacer"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solacer", path = "json/archetypes_bard2.json" },

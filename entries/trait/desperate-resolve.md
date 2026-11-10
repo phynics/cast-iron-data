@@ -2,6 +2,7 @@
 id = "ref/trait/desperate-resolve"
 kind = "trait"
 title = "Desperate Resolve"
+aon = "TraitDisplay.aspx?ItemName=Desperate%20Resolve"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_resolve", path = "json/traits02.json" },

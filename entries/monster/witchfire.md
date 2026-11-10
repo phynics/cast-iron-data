@@ -2,6 +2,7 @@
 id = "ref/monster/witchfire"
 kind = "creature"
 title = "Witchfire"
+aon = "MonsterDisplay.aspx?ItemName=Witchfire"
 source_ids = ["bestiary-2", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchfire", path = "json/monsters25.json" },

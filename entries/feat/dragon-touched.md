@@ -2,6 +2,7 @@
 id = "ref/feat/dragon-touched"
 kind = "feat"
 title = "Dragon-Touched"
+aon = "FeatDisplay.aspx?ItemName=Dragon-Touched"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_touched", path = "json/feat05.json" },

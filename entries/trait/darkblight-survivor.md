@@ -2,6 +2,7 @@
 id = "ref/trait/darkblight-survivor"
 kind = "trait"
 title = "Darkblight Survivor"
+aon = "TraitDisplay.aspx?ItemName=Darkblight%20Survivor"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkblight_survivor", path = "json/traits04.json" },

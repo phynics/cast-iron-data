@@ -2,6 +2,7 @@
 id = "ref/trait/shield-bearer"
 kind = "trait"
 title = "Shield Bearer"
+aon = "TraitDisplay.aspx?ItemName=Shield%20Bearer"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_bearer", path = "json/traits05.json" },

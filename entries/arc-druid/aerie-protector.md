@@ -2,6 +2,7 @@
 id = "ref/arc-druid/aerie-protector"
 kind = "archetype"
 title = "Aerie Protector"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Aerie%20Protector"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerie_protector", path = "json/archetypes_druid.json" },

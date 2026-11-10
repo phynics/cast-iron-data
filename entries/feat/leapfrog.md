@@ -2,6 +2,7 @@
 id = "ref/feat/leapfrog"
 kind = "feat"
 title = "Leapfrog"
+aon = "FeatDisplay.aspx?ItemName=Leapfrog"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leapfrog", path = "json/feat10.json" },

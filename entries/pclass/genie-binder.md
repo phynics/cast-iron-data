@@ -2,6 +2,7 @@
 id = "ref/pclass/genie-binder"
 kind = "prestige_class"
 title = "Genie Binder"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Genie%20Binder"
 source_ids = ["elemental-masters-handbook", "pathfinder-22-the-end-of-eternity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie_binder", path = "json/prestige_classes2.json" },

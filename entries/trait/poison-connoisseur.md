@@ -2,6 +2,7 @@
 id = "ref/trait/poison-connoisseur"
 kind = "trait"
 title = "Poison Connoisseur"
+aon = "TraitDisplay.aspx?ItemName=Poison%20Connoisseur"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_connoisseur", path = "json/traits04.json" },

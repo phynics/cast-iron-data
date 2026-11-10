@@ -2,6 +2,7 @@
 id = "ref/spell/erase"
 kind = "spell"
 title = "Erase"
+aon = "SpellDisplay.aspx?ItemName=Erase"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erase", path = "json/spells4.json" },

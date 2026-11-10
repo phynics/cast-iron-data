@@ -2,6 +2,7 @@
 id = "ref/feat/thoughtful-discernment"
 kind = "feat"
 title = "Thoughtful Discernment"
+aon = "FeatDisplay.aspx?ItemName=Thoughtful%20Discernment"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoughtful_discernment", path = "json/feat16.json" },

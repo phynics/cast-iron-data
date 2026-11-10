@@ -2,6 +2,7 @@
 id = "ref/monster/giant-stargazer"
 kind = "creature"
 title = "Giant Stargazer"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Stargazer"
 source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_stargazer", path = "json/monsters11.json" },

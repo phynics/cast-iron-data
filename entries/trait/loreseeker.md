@@ -2,6 +2,7 @@
 id = "ref/trait/loreseeker"
 kind = "trait"
 title = "Loreseeker"
+aon = "TraitDisplay.aspx?ItemName=Loreseeker"
 source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loreseeker", path = "json/traits03.json" },

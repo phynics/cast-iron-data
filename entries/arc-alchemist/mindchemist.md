@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/mindchemist"
 kind = "archetype"
 title = "Mindchemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Mindchemist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindchemist", path = "json/archetypes_alchemist2.json" },

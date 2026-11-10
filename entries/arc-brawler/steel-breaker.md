@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/steel-breaker"
 kind = "archetype"
 title = "Steel-Breaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Steel-Breaker"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steel_breaker", path = "json/archetypes_brawler.json" },

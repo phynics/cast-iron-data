@@ -2,6 +2,7 @@
 id = "ref/spell/infuse-decay"
 kind = "spell"
 title = "Infuse Decay"
+aon = "SpellDisplay.aspx?ItemName=Infuse%20Decay"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_decay", path = "json/spells14.json" },

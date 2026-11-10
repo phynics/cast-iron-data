@@ -2,6 +2,7 @@
 id = "ref/spell/creeping-doom"
 kind = "spell"
 title = "Creeping Doom"
+aon = "SpellDisplay.aspx?ItemName=Creeping%20Doom"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creeping_doom", path = "json/spells3.json" },

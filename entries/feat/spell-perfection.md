@@ -2,6 +2,7 @@
 id = "ref/feat/spell-perfection"
 kind = "feat"
 title = "Spell Perfection"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Perfection"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_perfection", path = "json/feat14.json" },

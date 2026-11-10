@@ -2,6 +2,7 @@
 id = "ref/trait/wanderers-shroud"
 kind = "trait"
 title = "Wanderer's Shroud"
+aon = "TraitDisplay.aspx?ItemName=Wanderer%27s%20Shroud"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wanderers_shroud", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/lunging-spell-touch"
 kind = "feat"
 title = "Lunging Spell Touch"
+aon = "FeatDisplay.aspx?ItemName=Lunging%20Spell%20Touch"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lunging_spell_touch", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/musketeers-daring"
 kind = "feat"
 title = "Musketeer's Daring"
+aon = "FeatDisplay.aspx?ItemName=Musketeer%27s%20Daring"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeers_daring", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/hive-hive-larva-swarm"
 kind = "creature"
 title = "Hive Larva Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Hive%20Larva%20Swarm"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hive_hive_larva_swarm", path = "json/monsters13.json" },

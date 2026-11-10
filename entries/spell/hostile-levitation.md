@@ -2,6 +2,7 @@
 id = "ref/spell/hostile-levitation"
 kind = "spell"
 title = "Hostile Levitation"
+aon = "SpellDisplay.aspx?ItemName=Hostile%20Levitation"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hostile_levitation", path = "json/spells5.json" },

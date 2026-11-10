@@ -2,6 +2,7 @@
 id = "ref/feat/diverse-obedience"
 kind = "feat"
 title = "Diverse Obedience"
+aon = "FeatDisplay.aspx?ItemName=Diverse%20Obedience"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diverse_obedience", path = "json/feat04.json" },

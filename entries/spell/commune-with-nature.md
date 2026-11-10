@@ -2,6 +2,7 @@
 id = "ref/spell/commune-with-nature"
 kind = "spell"
 title = "Commune with Nature"
+aon = "SpellDisplay.aspx?ItemName=Commune%20with%20Nature"
 source_ids = ["core-rulebook", "ultimate-wilderness", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "commune_with_nature", path = "json/spells12.json" },

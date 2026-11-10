@@ -2,6 +2,7 @@
 id = "ref/arc-ninja/hunting-serpent"
 kind = "archetype"
 title = "Hunting Serpent"
+aon = "ArchetypeDisplay.aspx?FixedName=Ninja%20Hunting%20Serpent"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunting_serpent", path = "json/archetypes_ninja.json" },

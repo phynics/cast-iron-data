@@ -2,6 +2,7 @@
 id = "ref/trait/shadow-child"
 kind = "trait"
 title = "Shadow Child"
+aon = "TraitDisplay.aspx?ItemName=Shadow%20Child"
 source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_child", path = "json/traits02.json" },

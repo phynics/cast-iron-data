@@ -2,6 +2,7 @@
 id = "ref/class/ranger"
 kind = "class"
 title = "Ranger"
+aon = "ClassDisplay.aspx?ItemName=Ranger"
 source_ids = ["core-rulebook", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "monster-codex", "advanced-race-guide", "blood-of-shadows", "advanced-players-guide", "ultimate-wilderness", "goblins-of-golarion", "horror-adventures", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranger", path = "json/classes7.json" },

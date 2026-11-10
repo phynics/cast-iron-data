@@ -2,6 +2,7 @@
 id = "ref/trait/healthy"
 kind = "trait"
 title = "Healthy"
+aon = "TraitDisplay.aspx?ItemName=Healthy"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healthy", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shielded-caster"
 kind = "feat"
 title = "Shielded Caster"
+aon = "FeatDisplay.aspx?ItemName=Shielded%20Caster"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_caster", path = "json/feat14.json" },

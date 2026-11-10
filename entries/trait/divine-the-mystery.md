@@ -2,6 +2,7 @@
 id = "ref/trait/divine-the-mystery"
 kind = "trait"
 title = "Divine the Mystery"
+aon = "TraitDisplay.aspx?ItemName=Divine%20the%20Mystery"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_the_mystery", path = "json/traits05.json" },

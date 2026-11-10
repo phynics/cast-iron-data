@@ -2,6 +2,7 @@
 id = "ref/trait/water-shaping"
 kind = "trait"
 title = "Water Shaping"
+aon = "TraitDisplay.aspx?ItemName=Water%20Shaping"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_shaping", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/walking-sleight"
 kind = "feat"
 title = "Walking Sleight"
+aon = "FeatDisplay.aspx?ItemName=Walking%20Sleight"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "walking_sleight", path = "json/feat17.json" },

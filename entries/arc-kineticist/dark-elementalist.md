@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/dark-elementalist"
 kind = "archetype"
 title = "Dark Elementalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Dark%20Elementalist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_elementalist", path = "json/archetypes_kineticist.json" },

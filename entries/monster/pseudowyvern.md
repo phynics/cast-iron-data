@@ -2,6 +2,7 @@
 id = "ref/monster/pseudowyvern"
 kind = "creature"
 title = "Pseudowyvern"
+aon = "MonsterDisplay.aspx?ItemName=Pseudowyvern"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pseudowyvern", path = "json/monsters37.json" },

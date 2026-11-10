@@ -2,6 +2,7 @@
 id = "ref/spell/incessant-buzzing"
 kind = "spell"
 title = "Incessant Buzzing"
+aon = "SpellDisplay.aspx?ItemName=Incessant%20Buzzing"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incessant_buzzing", path = "json/spells14.json" },

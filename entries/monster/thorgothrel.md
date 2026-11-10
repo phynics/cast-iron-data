@@ -2,6 +2,7 @@
 id = "ref/monster/thorgothrel"
 kind = "creature"
 title = "Thorgothrel"
+aon = "MonsterDisplay.aspx?ItemName=Thorgothrel"
 source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thorgothrel", path = "json/monsters23.json" },

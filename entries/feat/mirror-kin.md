@@ -2,6 +2,7 @@
 id = "ref/feat/mirror-kin"
 kind = "feat"
 title = "Mirror Kin"
+aon = "FeatDisplay.aspx?ItemName=Mirror%20Kin"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_kin", path = "json/feat10.json" },

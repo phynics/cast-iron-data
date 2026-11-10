@@ -2,6 +2,7 @@
 id = "ref/spell/oath-of-anonymity"
 kind = "spell"
 title = "Oath of Anonymity"
+aon = "SpellDisplay.aspx?ItemName=Oath%20of%20Anonymity"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_anonymity", path = "json/spells7.json" },

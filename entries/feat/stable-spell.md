@@ -2,6 +2,7 @@
 id = "ref/feat/stable-spell"
 kind = "feat"
 title = "Stable Spell"
+aon = "FeatDisplay.aspx?ItemName=Stable%20Spell"
 source_ids = ["wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stable_spell", path = "json/feat15.json" },

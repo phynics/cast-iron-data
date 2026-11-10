@@ -2,6 +2,7 @@
 id = "ref/feat/dragon-style"
 kind = "feat"
 title = "Dragon Style"
+aon = "FeatDisplay.aspx?ItemName=Dragon%20Style"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_style", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/lion-blade"
 kind = "prestige_class"
 title = "Lion Blade"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Lion%20Blade"
 source_ids = ["inner-sea-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lion_blade", path = "json/prestige_classes2.json" },

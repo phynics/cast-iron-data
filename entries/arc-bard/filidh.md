@@ -2,6 +2,7 @@
 id = "ref/arc-bard/filidh"
 kind = "archetype"
 title = "Filidh"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Filidh"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "filidh", path = "json/archetypes_bard.json" },

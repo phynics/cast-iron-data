@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/blood-god-disciple"
 kind = "archetype"
 title = "Blood God Disciple"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Blood%20God%20Disciple"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_god_disciple", path = "json/archetypes_summoner.json" },

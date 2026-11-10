@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/dirty-fighter"
 kind = "archetype"
 title = "Dirty Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Dirty%20Fighter"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_fighter", path = "json/archetypes_fighter.json" },

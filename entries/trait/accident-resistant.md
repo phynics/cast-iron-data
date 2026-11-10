@@ -2,6 +2,7 @@
 id = "ref/trait/accident-resistant"
 kind = "trait"
 title = "Accident Resistant"
+aon = "TraitDisplay.aspx?ItemName=Accident%20Resistant"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accident_resistant", path = "json/traits03.json" },

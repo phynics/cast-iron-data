@@ -2,6 +2,7 @@
 id = "ref/monster/ubashki-ubashki-lynx"
 kind = "creature"
 title = "Ubashki Lynx"
+aon = "MonsterDisplay.aspx?ItemName=Ubashki%20Lynx"
 source_ids = ["lost-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ubashki_ubashki_lynx", path = "json/monsters24.json" },

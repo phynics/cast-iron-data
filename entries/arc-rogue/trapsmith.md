@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/trapsmith"
 kind = "archetype"
 title = "Trapsmith"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Trapsmith"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trapsmith", path = "json/archetypes_rogue.json" },

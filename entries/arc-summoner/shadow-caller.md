@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/shadow-caller"
 kind = "archetype"
 title = "Shadow Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Shadow%20Caller"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_caller", path = "json/archetypes_summoner.json" },

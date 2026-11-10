@@ -2,6 +2,7 @@
 id = "ref/feat/grisly-ornament"
 kind = "feat"
 title = "Grisly Ornament"
+aon = "FeatDisplay.aspx?ItemName=Grisly%20Ornament"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grisly_ornament", path = "json/feat08.json" },

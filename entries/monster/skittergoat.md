@@ -2,6 +2,7 @@
 id = "ref/monster/skittergoat"
 kind = "creature"
 title = "Skittergoat"
+aon = "MonsterDisplay.aspx?ItemName=Skittergoat"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skittergoat", path = "json/monsters22.json" },

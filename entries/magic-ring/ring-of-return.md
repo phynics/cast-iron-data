@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-return"
 kind = "item"
 title = "Ring of Return"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Return"
 source_ids = ["qadira-jewel-of-the-east", "ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_return", path = "json/magic_ring.json" },

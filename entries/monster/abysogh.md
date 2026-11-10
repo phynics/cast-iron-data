@@ -2,6 +2,7 @@
 id = "ref/monster/abysogh"
 kind = "creature"
 title = "Abysogh"
+aon = "MonsterDisplay.aspx?ItemName=Abysogh"
 source_ids = ["pathfinder-96-shadow-of-the-storm-tyrant"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abysogh", path = "json/monsters01.json" },

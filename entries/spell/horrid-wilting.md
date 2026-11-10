@@ -2,6 +2,7 @@
 id = "ref/spell/horrid-wilting"
 kind = "spell"
 title = "Horrid Wilting"
+aon = "SpellDisplay.aspx?ItemName=Horrid%20Wilting"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrid_wilting", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/waldgeist"
 kind = "creature"
 title = "Waldgeist"
+aon = "MonsterDisplay.aspx?ItemName=Waldgeist"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waldgeist", path = "json/monsters38.json" },

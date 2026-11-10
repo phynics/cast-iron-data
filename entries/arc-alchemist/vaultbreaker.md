@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/vaultbreaker"
 kind = "archetype"
 title = "Vaultbreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Vaultbreaker"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vaultbreaker", path = "json/archetypes_alchemist2.json" },

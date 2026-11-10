@@ -2,6 +2,7 @@
 id = "ref/feat/mobile-gathering"
 kind = "feat"
 title = "Mobile Gathering"
+aon = "FeatDisplay.aspx?ItemName=Mobile%20Gathering"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_gathering", path = "json/feat11.json" },

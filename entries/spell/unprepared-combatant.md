@@ -2,6 +2,7 @@
 id = "ref/spell/unprepared-combatant"
 kind = "spell"
 title = "Unprepared Combatant"
+aon = "SpellDisplay.aspx?ItemName=Unprepared%20Combatant"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unprepared_combatant", path = "json/spells11.json" },

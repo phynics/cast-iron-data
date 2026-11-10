@@ -2,7 +2,9 @@
 id = "ref/race/kitsune"
 kind = "race"
 title = "Kitsune"
+aon = "RacesDisplay.aspx?ItemName=Kitsune"
 source_ids = ["inner-sea-races", "bestiary-4", "advanced-race-guide", "dragon-empires-gazetteer", "dragon-empires-primer", "blood-of-the-beast", "wilderness-origins"]
+race_group = "uncommon_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune", path = "json/races2.json" },
 ]

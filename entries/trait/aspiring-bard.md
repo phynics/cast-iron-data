@@ -2,6 +2,7 @@
 id = "ref/trait/aspiring-bard"
 kind = "trait"
 title = "Aspiring Bard"
+aon = "TraitDisplay.aspx?ItemName=Aspiring%20Bard"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspiring_bard", path = "json/traits05.json" },

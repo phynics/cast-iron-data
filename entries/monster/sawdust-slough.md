@@ -2,6 +2,7 @@
 id = "ref/monster/sawdust-slough"
 kind = "creature"
 title = "Sawdust Slough"
+aon = "MonsterDisplay.aspx?ItemName=Sawdust%20Slough"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sawdust_slough", path = "json/monsters21.json" },

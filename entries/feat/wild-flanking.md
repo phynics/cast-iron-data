@@ -2,6 +2,7 @@
 id = "ref/feat/wild-flanking"
 kind = "feat"
 title = "Wild Flanking"
+aon = "FeatDisplay.aspx?ItemName=Wild%20Flanking"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_flanking", path = "json/feat17.json" },

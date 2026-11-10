@@ -2,6 +2,7 @@
 id = "ref/spell/fleeting-defect"
 kind = "spell"
 title = "Fleeting Defect"
+aon = "SpellDisplay.aspx?ItemName=Fleeting%20Defect"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleeting_defect", path = "json/spells4.json" },

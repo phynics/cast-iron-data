@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-swarming-stabs"
 kind = "item"
 title = "Ring of Swarming Stabs"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Swarming%20Stabs"
 source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_swarming_stabs", path = "json/magic_ring.json" },

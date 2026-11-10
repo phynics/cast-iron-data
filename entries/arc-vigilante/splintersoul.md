@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/splintersoul"
 kind = "archetype"
 title = "Splintersoul"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Splintersoul"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splintersoul", path = "json/archetypes_vigilante.json" },

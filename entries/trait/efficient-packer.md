@@ -2,6 +2,7 @@
 id = "ref/trait/efficient-packer"
 kind = "trait"
 title = "Efficient Packer"
+aon = "TraitDisplay.aspx?ItemName=Efficient%20Packer"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "efficient_packer", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/step-of-the-flighty-fey"
 kind = "feat"
 title = "Step of the Flighty Fey"
+aon = "FeatDisplay.aspx?ItemName=Step%20of%20the%20Flighty%20Fey"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "step_of_the_flighty_fey", path = "json/feat15.json" },

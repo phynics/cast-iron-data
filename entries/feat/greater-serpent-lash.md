@@ -2,6 +2,7 @@
 id = "ref/feat/greater-serpent-lash"
 kind = "feat"
 title = "Greater Serpent Lash"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Serpent%20Lash"
 source_ids = ["rival-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_serpent_lash", path = "json/feat08.json" },

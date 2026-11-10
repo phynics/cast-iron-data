@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/usher-of-lost-souls"
 kind = "archetype"
 title = "Usher of Lost Souls"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Usher%20of%20Lost%20Souls"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "usher_of_lost_souls", path = "json/archetypes_spiritualist.json" },

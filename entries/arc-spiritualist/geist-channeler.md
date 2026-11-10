@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/geist-channeler"
 kind = "archetype"
 title = "Geist Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Geist%20Channeler"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geist_channeler", path = "json/archetypes_spiritualist.json" },

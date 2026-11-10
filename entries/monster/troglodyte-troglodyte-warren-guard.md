@@ -2,6 +2,7 @@
 id = "ref/monster/troglodyte-troglodyte-warren-guard"
 kind = "creature"
 title = "Troglodyte Warren Guard"
+aon = "MonsterDisplay.aspx?ItemName=Troglodyte%20Warren%20Guard"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troglodyte_troglodyte_warren_guard", path = "json/monsters39.json" },

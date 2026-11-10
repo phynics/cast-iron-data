@@ -2,6 +2,7 @@
 id = "ref/trait/disdainful-defender"
 kind = "trait"
 title = "Disdainful Defender"
+aon = "TraitDisplay.aspx?ItemName=Disdainful%20Defender"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disdainful_defender", path = "json/traits01.json" },

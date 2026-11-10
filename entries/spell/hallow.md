@@ -2,6 +2,7 @@
 id = "ref/spell/hallow"
 kind = "spell"
 title = "Hallow"
+aon = "SpellDisplay.aspx?ItemName=Hallow"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallow", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-chaos-communal"
 kind = "spell"
 title = "Communal Protection from Chaos"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Chaos%2C%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_chaos_communal", path = "json/spells15.json" },

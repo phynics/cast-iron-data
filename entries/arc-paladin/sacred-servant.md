@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/sacred-servant"
 kind = "archetype"
 title = "Sacred Servant"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Sacred%20Servant"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_servant", path = "json/archetypes_paladin.json" },

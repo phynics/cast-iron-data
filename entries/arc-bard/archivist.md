@@ -2,6 +2,7 @@
 id = "ref/arc-bard/archivist"
 kind = "archetype"
 title = "Archivist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Archivist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "archivist", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/eldritch-scoundrel"
 kind = "archetype"
 title = "Eldritch Scoundrel"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Eldritch%20Scoundrel"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_scoundrel", path = "json/archetypes_rogue.json" },

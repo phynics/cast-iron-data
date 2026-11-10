@@ -2,6 +2,7 @@
 id = "ref/feat/inner-flame"
 kind = "feat"
 title = "Inner Flame"
+aon = "FeatDisplay.aspx?ItemName=Inner%20Flame"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_flame", path = "json/feat09.json" },

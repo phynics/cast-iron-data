@@ -2,6 +2,7 @@
 id = "ref/spell/calm-air"
 kind = "spell"
 title = "Calm Air"
+aon = "SpellDisplay.aspx?ItemName=Calm%20Air"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_air", path = "json/spells2.json" },

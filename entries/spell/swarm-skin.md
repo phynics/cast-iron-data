@@ -2,6 +2,7 @@
 id = "ref/spell/swarm-skin"
 kind = "spell"
 title = "Swarm Skin"
+aon = "SpellDisplay.aspx?ItemName=Swarm%20Skin"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_skin", path = "json/spells10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/martial-mastery/teitr"
 kind = "feat"
 title = "Martial Mastery"
+aon = "FeatDisplay.aspx?ItemName=Martial%20Mastery"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/martial-mastery", label = "removed" },

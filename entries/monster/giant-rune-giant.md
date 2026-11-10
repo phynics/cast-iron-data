@@ -2,6 +2,7 @@
 id = "ref/monster/giant-rune-giant"
 kind = "creature"
 title = "Rune Giant"
+aon = "MonsterDisplay.aspx?ItemName=Rune%20Giant"
 source_ids = ["bestiary-2", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_rune_giant", path = "json/monsters32.json" },

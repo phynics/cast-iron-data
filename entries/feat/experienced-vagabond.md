@@ -2,6 +2,7 @@
 id = "ref/feat/experienced-vagabond"
 kind = "feat"
 title = "Experienced Vagabond"
+aon = "FeatDisplay.aspx?ItemName=Experienced%20Vagabond"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experienced_vagabond", path = "json/feat06.json" },

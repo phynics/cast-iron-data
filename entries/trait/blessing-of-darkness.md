@@ -2,6 +2,7 @@
 id = "ref/trait/blessing-of-darkness"
 kind = "trait"
 title = "Blessing of Darkness"
+aon = "TraitDisplay.aspx?ItemName=Blessing%20of%20Darkness"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_darkness", path = "json/traits05.json" },

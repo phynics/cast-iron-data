@@ -2,6 +2,7 @@
 id = "ref/feat/shaitan-skin"
 kind = "feat"
 title = "Shaitan Skin"
+aon = "FeatDisplay.aspx?ItemName=Shaitan%20Skin"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_skin", path = "json/feat14.json" },

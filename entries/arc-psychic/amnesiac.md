@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/amnesiac"
 kind = "archetype"
 title = "Amnesiac"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Amnesiac"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amnesiac", path = "json/archetypes_psychic.json" },

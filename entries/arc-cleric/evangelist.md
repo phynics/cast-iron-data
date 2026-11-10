@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/evangelist"
 kind = "archetype"
 title = "Evangelist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Evangelist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evangelist", path = "json/archetypes_cleric.json" },

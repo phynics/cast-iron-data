@@ -2,6 +2,7 @@
 id = "ref/spell/shroud-of-innocuity"
 kind = "spell"
 title = "Shroud of Innocuity"
+aon = "SpellDisplay.aspx?ItemName=Shroud%20of%20Innocuity"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shroud_of_innocuity", path = "json/spells9.json" },

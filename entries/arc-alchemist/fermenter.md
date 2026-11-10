@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/fermenter"
 kind = "archetype"
 title = "Fermenter"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Fermenter"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fermenter", path = "json/archetypes_alchemist.json" },

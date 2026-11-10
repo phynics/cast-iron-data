@@ -2,6 +2,7 @@
 id = "ref/feat/redistributed-might"
 kind = "feat"
 title = "Redistributed Might"
+aon = "FeatDisplay.aspx?ItemName=Redistributed%20Might"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redistributed_might", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/underling"
 kind = "trait"
 title = "Underling"
+aon = "TraitDisplay.aspx?ItemName=Underling"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underling", path = "json/traits05.json" },

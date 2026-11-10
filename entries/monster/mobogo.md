@@ -2,6 +2,7 @@
 id = "ref/monster/mobogo"
 kind = "creature"
 title = "Mobogo"
+aon = "MonsterDisplay.aspx?ItemName=Mobogo"
 source_ids = ["bestiary-3", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobogo", path = "json/monsters17.json" },

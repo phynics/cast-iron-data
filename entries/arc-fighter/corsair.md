@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/corsair"
 kind = "archetype"
 title = "Corsair"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Corsair"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corsair", path = "json/archetypes_fighter.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/crusaders-scabbard"
 kind = "item"
 title = "Crusader's Scabbard"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Crusader%27s%20Scabbard"
 source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_scabbard", path = "json/magic_wondrous_belt_body_chest.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/barrow-haze"
 kind = "spell"
 title = "Barrow Haze"
+aon = "SpellDisplay.aspx?ItemName=Barrow%20Haze"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrow_haze", path = "json/spells12.json" },

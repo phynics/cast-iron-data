@@ -2,6 +2,7 @@
 id = "ref/trait/siege-defender"
 kind = "trait"
 title = "Siege Defender"
+aon = "TraitDisplay.aspx?ItemName=Siege%20Defender"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_defender", path = "json/traits01.json" },

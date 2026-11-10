@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/libertys-blade"
 kind = "archetype"
 title = "Liberty's Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Liberty%27s%20Blade"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "libertys_blade", path = "json/archetypes_warpriest.json" },

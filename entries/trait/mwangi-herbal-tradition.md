@@ -2,6 +2,7 @@
 id = "ref/trait/mwangi-herbal-tradition"
 kind = "trait"
 title = "Mwangi Herbal Tradition"
+aon = "TraitDisplay.aspx?ItemName=Mwangi%20Herbal%20Tradition"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_herbal_tradition", path = "json/traits04.json" },

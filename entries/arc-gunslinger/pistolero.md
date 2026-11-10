@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/pistolero"
 kind = "archetype"
 title = "Pistolero"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Pistolero"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pistolero", path = "json/archetypes_gunslinger.json" },

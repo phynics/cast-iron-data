@@ -2,6 +2,7 @@
 id = "ref/pclass/justicar"
 kind = "prestige_class"
 title = "Justicar"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Justicar"
 source_ids = ["pathfinder-8-seven-days-to-the-grave"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "justicar", path = "json/prestige_classes2.json" },

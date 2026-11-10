@@ -2,6 +2,7 @@
 id = "ref/monster/death-worm-death-worm-leviathan"
 kind = "creature"
 title = "Death Worm Leviathan"
+aon = "MonsterDisplay.aspx?ItemName=Death%20Worm%20Leviathan"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_worm_death_worm_leviathan", path = "json/monsters08.json" },

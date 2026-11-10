@@ -2,6 +2,7 @@
 id = "ref/arc-ninja/frozen-shadow"
 kind = "archetype"
 title = "Frozen Shadow"
+aon = "ArchetypeDisplay.aspx?FixedName=Ninja%20Frozen%20Shadow"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frozen_shadow", path = "json/archetypes_ninja.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/embalming-bear"
 kind = "creature"
 title = "Embalming Bear"
+aon = "MonsterDisplay.aspx?ItemName=Embalming%20Bear"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embalming_bear", path = "json/monsters42.json" },

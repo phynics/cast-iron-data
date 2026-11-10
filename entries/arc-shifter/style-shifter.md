@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/style-shifter"
 kind = "archetype"
 title = "Style Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Style%20Shifter"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "style_shifter", path = "json/archetypes_shifter.json" },

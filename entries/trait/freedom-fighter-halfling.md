@@ -2,6 +2,7 @@
 id = "ref/trait/freedom-fighter-halfling"
 kind = "trait"
 title = "Freedom Fighter (Halfling)"
+aon = "TraitDisplay.aspx?ItemName=Freedom%20Fighter%20%28Halfling%29"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_fighter_halfling", path = "json/traits05.json" },

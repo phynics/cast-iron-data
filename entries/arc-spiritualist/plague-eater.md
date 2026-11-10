@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/plague-eater"
 kind = "archetype"
 title = "Plague Eater"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Plague%20Eater"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_eater", path = "json/archetypes_spiritualist.json" },

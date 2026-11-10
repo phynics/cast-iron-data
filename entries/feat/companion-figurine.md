@@ -2,6 +2,7 @@
 id = "ref/feat/companion-figurine"
 kind = "feat"
 title = "Companion Figurine"
+aon = "FeatDisplay.aspx?ItemName=Companion%20Figurine"
 source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "companion_figurine", path = "json/feat03.json" },

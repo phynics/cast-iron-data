@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/phantom-thief"
 kind = "archetype"
 title = "Phantom Thief"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Phantom%20Thief"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_thief", path = "json/archetypes_rogue.json" },

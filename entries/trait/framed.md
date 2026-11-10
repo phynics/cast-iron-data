@@ -2,6 +2,7 @@
 id = "ref/trait/framed"
 kind = "trait"
 title = "Framed"
+aon = "TraitDisplay.aspx?ItemName=Framed"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "framed", path = "json/traits02.json" },

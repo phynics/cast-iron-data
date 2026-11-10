@@ -2,6 +2,7 @@
 id = "ref/spell/frozen-note"
 kind = "spell"
 title = "Frozen Note"
+aon = "SpellDisplay.aspx?ItemName=Frozen%20Note"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frozen_note", path = "json/spells13.json" },

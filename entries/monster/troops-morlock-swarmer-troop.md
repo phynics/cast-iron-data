@@ -2,6 +2,7 @@
 id = "ref/monster/troops-morlock-swarmer-troop"
 kind = "creature"
 title = "Morlock Swarmer Troop"
+aon = "MonsterDisplay.aspx?ItemName=Morlock%20Swarmer%20Troop"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_morlock_swarmer_troop", path = "json/monsters24.json" },

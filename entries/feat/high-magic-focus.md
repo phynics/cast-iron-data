@@ -2,6 +2,7 @@
 id = "ref/feat/high-magic-focus"
 kind = "feat"
 title = "High Magic Focus"
+aon = "FeatDisplay.aspx?ItemName=High%20Magic%20Focus"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "high_magic_focus", path = "json/feat08.json" },

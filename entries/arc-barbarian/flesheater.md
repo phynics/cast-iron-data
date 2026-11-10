@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/flesheater"
 kind = "archetype"
 title = "Flesheater"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Flesheater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesheater", path = "json/archetypes_barbarian.json" },

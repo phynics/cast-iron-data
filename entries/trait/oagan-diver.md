@@ -2,6 +2,7 @@
 id = "ref/trait/oagan-diver"
 kind = "trait"
 title = "Oagan Diver"
+aon = "TraitDisplay.aspx?ItemName=Oagan%20Diver"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oagan_diver", path = "json/traits04.json" },

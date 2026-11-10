@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/tactical-leader"
 kind = "archetype"
 title = "Tactical Leader"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Tactical%20Leader"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_leader", path = "json/archetypes_inquisitor.json" },

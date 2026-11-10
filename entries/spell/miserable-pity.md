@@ -2,6 +2,7 @@
 id = "ref/spell/miserable-pity"
 kind = "spell"
 title = "Miserable Pity"
+aon = "SpellDisplay.aspx?ItemName=Miserable%20Pity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "miserable_pity", path = "json/spells14.json" },

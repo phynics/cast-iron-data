@@ -5,6 +5,7 @@ copyright = "Pathfinder Module: Academy of Secrets. © 2011, Paizo Publishing, L
 category = "Module"
 publication_date = "2011-05-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Academy%20of%20Secrets"
 
 [[publication]]
 id = "advanced-class-guide"
@@ -12,6 +13,7 @@ title = "Advanced Class Guide"
 copyright = "Pathfinder Roleplaying Game Advanced Class Guide © 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Jesse Benner, Savannah Broadway, Jason Bulmahn, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan H. Keith, Will McCardell, Dale C. McCoy, Jr., Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Sean K Reynolds, Tork Shaw, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2014-08-14"
+aon = "SourceDisplay.aspx?FixedSource=Advanced%20Class%20Guide"
 
 [[publication]]
 id = "advanced-class-origins"
@@ -19,6 +21,7 @@ title = "Advanced Class Origins"
 copyright = "© 2014, Paizo Inc.; Authors: Dennis Baker, Ross Byers, Tom Phillips, Stephen Radney-MacFarland, and Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2014-10-22"
+aon = "SourceDisplay.aspx?FixedSource=Advanced%20Class%20Origins"
 
 [[publication]]
 id = "advanced-players-guide"
@@ -26,6 +29,7 @@ title = "Advanced Player's Guide"
 copyright = "Advanced Player’s Guide. Copyright 2010, Paizo Publishing, LLC; Author: Jason Bulmahn."
 category = "RPG"
 publication_date = "2010-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Advanced%20Player%27s%20Guide"
 
 [[publication]]
 id = "advanced-race-guide"
@@ -33,6 +37,7 @@ title = "Advanced Race Guide"
 copyright = "Pathfinder Roleplaying Game Advanced Race Guide © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Jim Groves, Tim Hitchcock, Hal MacLean, Jason Nelson, Stephen Radney-MacFarland, Owen K.C. Stephens, Todd Stewart, and Russ Taylor."
 category = "RPG"
 publication_date = "2012-05-01"
+aon = "SourceDisplay.aspx?FixedSource=Advanced%20Race%20Guide"
 
 [[publication]]
 id = "adventurers-armory"
@@ -40,6 +45,7 @@ title = "Adventurer's Armory"
 copyright = "Pathfinder Companion: Adventurer’s Armory. Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Jeff Quick, Christopher Self, JD Wiker, and Keri Wiker."
 category = "Player Companion"
 publication_date = "2010-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Adventurer%27s%20Armory"
 
 [[publication]]
 id = "adventurers-armory-2"
@@ -47,6 +53,7 @@ title = "Adventurer's Armory 2"
 copyright = "© 2017, Paizo Inc.; Authors: Jenny Jarzabski, Mikko Kallio, Isabelle Lee, Luis Loza, Joe Pasini, David N. Ross, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-06-14"
+aon = "SourceDisplay.aspx?FixedSource=Adventurer%27s%20Armory%202"
 
 [[publication]]
 id = "adventurers-guide"
@@ -54,6 +61,7 @@ title = "Adventurer's Guide"
 copyright = "© 2017, Paizo Inc.; Authors: Benjamin Bruck, John Compton, Crystal Frasier, Tim Hitchcock, Jenny Jarzabski, Isabelle Lee, Joe Pasini, Jessica Price, David Schwartz, and Josh Vogt."
 category = "RPG"
 publication_date = "2017-05-31"
+aon = "SourceDisplay.aspx?FixedSource=Adventurer%27s%20Guide"
 
 [[publication]]
 id = "agents-of-evil"
@@ -61,6 +69,7 @@ title = "Agents of Evil"
 copyright = "© 2015, Paizo Inc.; Author: Thurston Hillman."
 category = "Player Companion"
 publication_date = "2015-12-16"
+aon = "SourceDisplay.aspx?FixedSource=Agents%20of%20Evil"
 
 [[publication]]
 id = "alchemy-manual"
@@ -68,6 +77,7 @@ title = "Alchemy Manual"
 copyright = "© 2014, Paizo Inc.; Authors: Jason Nelson, Patrick Renie, and David N. Ross."
 category = "Player Companion"
 publication_date = "2014-04-30"
+aon = "SourceDisplay.aspx?FixedSource=Alchemy%20Manual"
 
 [[publication]]
 id = "andoran-birthplace-of-freedom"
@@ -75,6 +85,7 @@ title = "Andoran, Birthplace of Freedom"
 copyright = "© 2015, Paizo Inc.; Authors: Tim Hitchcock and Jason Nelson."
 category = "Campaign Setting"
 publication_date = "2015-05-29"
+aon = "SourceDisplay.aspx?FixedSource=Andoran%2C%20Birthplace%20of%20Freedom"
 
 [[publication]]
 id = "andoran-spirit-of-liberty"
@@ -82,6 +93,7 @@ title = "Andoran, Spirit of Liberty"
 copyright = "Pathfinder Companion: Andoran, Spirit of Liberty. Copyright 2010, Paizo Publishing, LLC; Authors: Jonathan Keith, Hal Maclean, Colin Moulder-McComb, Jason Nelson, and Hank Woon."
 category = "Player Companion"
 publication_date = "2010-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Andoran%2C%20Spirit%20of%20Liberty"
 
 [[publication]]
 id = "animal-archive"
@@ -89,6 +101,7 @@ title = "Animal Archive"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Amanda Hamon, Philip Minchin, Jason Nelson, Patrick Renie, Owen K.C. Stephens, and Christina Stiles."
 category = "Player Companion"
 publication_date = "2013-02-13"
+aon = "SourceDisplay.aspx?FixedSource=Animal%20Archive"
 
 [[publication]]
 id = "antiheros-handbook"
@@ -96,6 +109,7 @@ title = "Antihero's Handbook"
 copyright = "Pathfinder Player Companion: Antihero’s Handbook © 2017, Paizo Inc.; Authors: Emily Brumfield, Violet Hargrave, Susann Hessen, Mikko Kallio, Lyz Liddell, Adrian Ng, Joe Pasini, Lacy Pellazar, Kyle T. Raes, David N. Ross, and Kendra Leigh Speedling."
 category = "Player Companion"
 publication_date = "2017-09-14"
+aon = "SourceDisplay.aspx?FixedSource=Antihero%27s%20Handbook"
 
 [[publication]]
 id = "aquatic-adventures"
@@ -103,6 +117,7 @@ title = "Aquatic Adventures"
 copyright = "© 2017, Paizo Inc.; Authors: Amber E. Scott and Mark Seifter."
 category = "Campaign Setting"
 publication_date = "2017-06-14"
+aon = "SourceDisplay.aspx?FixedSource=Aquatic%20Adventures"
 
 [[publication]]
 id = "arcane-anthology"
@@ -110,6 +125,7 @@ title = "Arcane Anthology"
 copyright = "Pathfinder Player Companion: Arcane Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, and David N. Ross."
 category = "Player Companion"
 publication_date = "2016-01-16"
+aon = "SourceDisplay.aspx?FixedSource=Arcane%20Anthology"
 
 [[publication]]
 id = "armor-masters-handbook"
@@ -117,6 +133,7 @@ title = "Armor Master's Handbook"
 copyright = "Pathfinder Player Companion: Armor Master’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Anthony Li, Luis Loza, and David Schwartz."
 category = "Player Companion"
 publication_date = "2016-04-27"
+aon = "SourceDisplay.aspx?FixedSource=Armor%20Master%27s%20Handbook"
 
 [[publication]]
 id = "artifacts-and-legends"
@@ -131,6 +148,7 @@ title = "Bastards of Golarion"
 copyright = "Pathfinder Player Companion: Bastards of Golarion © 2014, Paizo Publishing, LLC; Authors: Judy Bauer, Neal Litherland, Ryan Macklin, and David N. Ross."
 category = "Player Companion"
 publication_date = "2014-02-06"
+aon = "SourceDisplay.aspx?FixedSource=Bastards%20of%20Golarion"
 
 [[publication]]
 id = "belkzen-hold-of-the-orc-hordes"
@@ -138,6 +156,7 @@ title = "Belkzen, Hold of the Orc Hordes"
 copyright = "Pathfinder Campaign Setting: Belkzen, Hold of the Orc Hordes © 2015, Paizo Inc.; Authors: Tyler Beck, Jason Garrett, Alex Greenshields, and David Schwartz."
 category = "Campaign Setting"
 publication_date = "2015-01-17"
+aon = "SourceDisplay.aspx?FixedSource=Belkzen%2C%20Hold%20of%20the%20Orc%20Hordes"
 
 [[publication]]
 id = "bestiary"
@@ -145,6 +164,7 @@ title = "Bestiary"
 copyright = "Pathfinder RPG Bestiary, © 2009, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2009-08-02"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20RPG%20Bestiary"
 
 [[publication]]
 id = "bestiary-2"
@@ -152,6 +172,7 @@ title = "Bestiary 2"
 copyright = "Pathfinder Roleplaying Game Bestiary 2 © 2010, Paizo Publishing, LLC; Authors: Wolfgang Baur, Jason Bulmahn, Adam Daigle, Graeme Davis, Crystal Frasier, Joshua J. Frost, Tim Hitchcock, Brandon Hodge, James Jacobs, Steve Kenson, Hal MacLean, Martin Mason, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Greg A. Vaughan, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2010-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Bestiary%202"
 
 [[publication]]
 id = "bestiary-3"
@@ -159,6 +180,7 @@ title = "Bestiary 3"
 copyright = "Pathfinder Roleplaying Game Bestiary 3, © 2011, Paizo Publishing, LLC; Authors Jesse Benner, Jason Bulmahn, Adam Daigle, James Jacobs, Michael Kenway, Rob McCreary, Patrick Renie, Chris Sims, F. Wesley Schneider, James L. Sutter, and Russ Taylor, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2012-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Bestiary%203"
 
 [[publication]]
 id = "bestiary-4"
@@ -166,6 +188,7 @@ title = "Bestiary 4"
 copyright = "Pathfinder Roleplaying Game Bestiary 4 © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Savannah Broadway, Ross Byers, Adam Daigle, Tim Hitchcock, Tracy Hurley, James Jacobs, Matt James, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, F. Wesley Schneider, Tork Shaw, and Russ Taylor."
 category = "RPG"
 publication_date = "2013-10-20"
+aon = "SourceDisplay.aspx?FixedSource=Bestiary%204"
 
 [[publication]]
 id = "bestiary-5"
@@ -173,6 +196,7 @@ title = "Bestiary 5"
 copyright = "Pathfinder Roleplaying Game Bestiary 5 © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, John Bennett, Logan Bonner, Creighton Broadhurst, Robert Brookes, Benjamin Bruck, Jason Bulmahn, Adam Daigle, Thurston Hillman, Eric Hindley, Joe Homes, James Jacobs, Amanda Hamon Kunz, Ben McFarland, Jason Nelson, Thom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, Wes Schneider, David Schwartz, Mark Seifter, Mike Shel, James L. Sutter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2015-11-18"
+aon = "SourceDisplay.aspx?FixedSource=Bestiary%205"
 
 [[publication]]
 id = "bestiary-6"
@@ -180,6 +204,7 @@ title = "Bestiary 6"
 copyright = "Pathfinder Roleplaying Game Bestiary 6 © 2017, Paizo Inc.; Authors: Robert Brookes, Benjamin Bruck, John Compton, Paris Crenshaw, Adam Daigle, Crystal Frasier, James Jacobs, Thurston Hillman, Tim Hitchcock, Brandon Hodge, Jason Keeley, Isabelle Lee, Jason Nelson, Tim Nightengale, F. Wesley Schneider, David Schwartz, Mark Seifter, Todd Stewart, Josh Vogt, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2017-04-26"
+aon = "SourceDisplay.aspx?FixedSource=Bestiary%206"
 
 [[publication]]
 id = "beyond-the-vault-of-souls"
@@ -188,6 +213,7 @@ copyright = "Pathfinder Module J5: Beyond the Vault of Souls, Copyright 2009, Pa
 category = "Module"
 publication_date = "2009-07-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Beyond%20the%20Vault%20of%20Souls"
 
 [[publication]]
 id = "black-markets"
@@ -195,6 +221,7 @@ title = "Black Markets"
 copyright = "© 2015, Paizo Inc.; Authors: Ron Lundeen, Jason Nelson, David N. Ross, and David Schwartz."
 category = "Player Companion"
 publication_date = "2015-11-18"
+aon = "SourceDisplay.aspx?FixedSource=Black%20Markets"
 
 [[publication]]
 id = "blood-of-angels"
@@ -202,6 +229,7 @@ title = "Blood of Angels"
 copyright = "Pathfinder Player Companion: Blood of Angels © 2012, Paizo Publishing, LLC; Author: Amber E. Scott."
 category = "Player Companion"
 publication_date = "2012-06-01"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20Angels"
 
 [[publication]]
 id = "blood-of-dragonscar"
@@ -210,6 +238,7 @@ copyright = "Pathfinder Module E2: Blood of Dragonscar, Copyright 2009, Paizo Pu
 category = "Module"
 publication_date = "2009-06-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20Dragonscar"
 
 [[publication]]
 id = "blood-of-fiends"
@@ -217,6 +246,7 @@ title = "Blood of Fiends"
 copyright = "Pathfinder Player Companion: Blood of Fiends © 2012, Paizo Publishing, LLC; Authors: Hal Maclean and Colin McComb."
 category = "Player Companion"
 publication_date = "2012-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20Fiends"
 
 [[publication]]
 id = "blood-of-shadows"
@@ -224,6 +254,7 @@ title = "Blood of Shadows"
 copyright = "Pathfinder Player Companion: Blood of Shadows © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Luis Loza, and Ron Lundeen."
 category = "Player Companion"
 publication_date = "2016-02-24"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20Shadows"
 
 [[publication]]
 id = "blood-of-the-ancients"
@@ -231,6 +262,7 @@ title = "Blood of the Ancients"
 copyright = "Pathfinder Player Companion: Blood of the Ancients © 2018, Paizo Inc.; Authors: John Compton, Andrew Hoskins, James Jacobs, Mikko Kallo, Alex Riggs, Stephen Rowe, and Jeffrey Swank."
 category = "Player Companion"
 publication_date = "2018-05-15"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Ancients"
 
 [[publication]]
 id = "blood-of-the-beast"
@@ -238,6 +270,7 @@ title = "Blood of the Beast"
 copyright = "© 2016, Paizo Inc.; Authors: Alexander Augunas, John Compton, and Crystal Frasier."
 category = "Player Companion"
 publication_date = "2016-11-21"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Beast"
 
 [[publication]]
 id = "blood-of-the-coven"
@@ -245,6 +278,7 @@ title = "Blood of the Coven"
 copyright = "Pathfinder Player Companion: Blood of the Coven © 2017, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Crystal Frasier, Lissa Guillet, Elisa Mader, Adrian Ng, Mark Seifter, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-10-14"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Coven"
 
 [[publication]]
 id = "blood-of-the-elements"
@@ -252,6 +286,7 @@ title = "Blood of the Elements"
 copyright = "Pathfinder Player Companion: Blood of the Elements © 2014, Paizo Inc.; Authors: Tim Akers, Judy Bauer, Jim Groves, Chris Lites, Dale C. McCoy, Jr., and Cassidy Werner."
 category = "Player Companion"
 publication_date = "2014-06-25"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Elements"
 
 [[publication]]
 id = "blood-of-the-moon"
@@ -259,6 +294,7 @@ title = "Blood of the Moon"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Tim Akers, Neal Litherland, David N. Ross, and Tork Shaw."
 category = "Player Companion"
 publication_date = "2013-10-21"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Moon"
 
 [[publication]]
 id = "blood-of-the-night"
@@ -266,6 +302,7 @@ title = "Blood of the Night"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Tork Shaw."
 category = "Player Companion"
 publication_date = "2012-12-06"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Night"
 
 [[publication]]
 id = "blood-of-the-sea"
@@ -273,6 +310,7 @@ title = "Blood of the Sea"
 copyright = "© 2017, Paizo Inc.; Author: Amber E. Scott."
 category = "Player Companion"
 publication_date = "2017-07-14"
+aon = "SourceDisplay.aspx?FixedSource=Blood%20of%20the%20Sea"
 
 [[publication]]
 id = "bonus-bestiary"
@@ -280,6 +318,7 @@ title = "Bonus Bestiary"
 copyright = "Pathfinder Roleplaying Game: Bonus Bestiary, Copyright 2009, Paizo Publishing, LLC; Author: Jason Bulmahn."
 category = "RPG"
 publication_date = "2009-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Bonus%20Bestiary"
 
 [[publication]]
 id = "book-of-the-damned"
@@ -287,6 +326,7 @@ title = "Book of the Damned"
 copyright = "Pathfinder Roleplaying Game Book of the Damned © 2017, Paizo Inc.; Authors: John Compton, Adam Daigle, Amanda Hamon Kunz, James Jacobs, Isabelle Lee, F. Wesley Schneider, Todd Stewart, and Josh Vogt."
 category = "RPG"
 publication_date = "2017-09-20"
+aon = "SourceDisplay.aspx?FixedSource=Book%20of%20the%20Damned"
 
 [[publication]]
 id = "book-of-the-damned-volume-1-princes-of-darkness"
@@ -294,6 +334,7 @@ title = "Book of the Damned - Volume 1: Princes of Darkness"
 copyright = "Pathfinder Chronicles: Princes of Darkness, Book of the Damned, Vol. I. Copyright 2009, Paizo Publishing, LLC; Author: F. Wesley Schneider."
 category = "Campaign Setting"
 publication_date = "2009-10-01"
+aon = "SourceDisplay.aspx?FixedSource=Book%20of%20the%20Damned%20-%20Volume%201%20%20Princes%20of%20Darkness"
 
 [[publication]]
 id = "book-of-the-damned-volume-2-lords-of-chaos"
@@ -301,6 +342,7 @@ title = "Book of the Damned - Volume 2: Lords of Chaos"
 copyright = "Pathfinder Campaign Setting: Lords of Chaos: Book of the Damned, Vol. 2. Copyright 2010, Paizo Publishing, LLC; Author: James Jacobs."
 category = "Campaign Setting"
 publication_date = "2010-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Book%20of%20the%20Damned%20-%20Volume%202%20%20Lords%20of%20Chaos"
 
 [[publication]]
 id = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
@@ -308,6 +350,7 @@ title = "Book of the Damned - Volume 3: Horsemen of the Apocalypse"
 copyright = "Pathfinder Campaign Setting: Horsemen of the Apocalypse: Book of the Damned, Vol. 3 © 2011, Paizo Publishing, LLC; Author: Todd Stewart."
 category = "Campaign Setting"
 publication_date = "2011-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Book%20of%20the%20Damned%20-%20Volume%203%20%20Horsemen%20of%20the%20Apocalypse"
 
 [[publication]]
 id = "broken-chains"
@@ -316,6 +359,7 @@ copyright = "© 2013, Paizo Publishing, LLC; Author: Tim Hitchcock."
 category = "Module"
 publication_date = "2013-03-26"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Broken%20Chains"
 
 [[publication]]
 id = "carnival-of-tears"
@@ -324,6 +368,7 @@ copyright = "GameMastery Module E1: Carnival of Tears, Copyright 2007 Paizo Publ
 category = "Module"
 publication_date = "2008-05-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Carnival%20of%20Tears"
 
 [[publication]]
 id = "carrion-crown-players-guide"
@@ -331,6 +376,7 @@ title = "Carrion Crown Player's Guide"
 copyright = "Carrion Crown Player’s Guide. © 2011, Paizo Publishing, LLC; Author: Mark Moreland."
 category = "Adventure Path"
 publication_date = "2011-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Carrion%20Crown%20Player%27s%20Guide"
 
 [[publication]]
 id = "carrion-hill"
@@ -339,6 +385,7 @@ copyright = "Pathfinder Module: Carrion Hill. Copyright 2009, Paizo Publishing, 
 category = "Module"
 publication_date = "2009-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Carrion%20Hill"
 
 [[publication]]
 id = "castles-of-the-inner-sea"
@@ -346,6 +393,7 @@ title = "Castles of the Inner Sea"
 copyright = "Pathfinder Campaign Setting: Castles of the Inner Sea © 2013, Paizo Publishing, LLC; Authors: Alyssa Faden and Tim Hitchcock."
 category = "Campaign Setting"
 publication_date = "2013-06-13"
+aon = "SourceDisplay.aspx?FixedSource=Castles%20of%20the%20Inner%20Sea"
 
 [[publication]]
 id = "champions-of-balance"
@@ -353,6 +401,7 @@ title = "Champions of Balance"
 copyright = "Pathfinder Player Companion: Champions of Balance © 2014, Paizo Publishing, LLC; Authors: Matt Goodall, Ron Lundeen, Philip Minchin, Patrick Renie, Jason Ridler, and David Schwartz."
 category = "Player Companion"
 publication_date = "2014-03-25"
+aon = "SourceDisplay.aspx?FixedSource=Champions%20of%20Balance"
 
 [[publication]]
 id = "champions-of-corruption"
@@ -360,6 +409,7 @@ title = "Champions of Corruption"
 copyright = "Pathfinder Player Companion: Champions of Corruption © 2014, Paizo Inc.; Authors: Paris Crenshaw, Jim Groves, Sean McGowen, and Philip Minchin."
 category = "Player Companion"
 publication_date = "2014-09-10"
+aon = "SourceDisplay.aspx?FixedSource=Champions%20of%20Corruption"
 
 [[publication]]
 id = "champions-of-purity"
@@ -367,6 +417,7 @@ title = "Champions of Purity"
 copyright = "Pathfinder Player Companion: Champions of Purity © 2013, Paizo Publishing, LLC; Authors: Jessica Blomstrom, Adam Daigle, Shaun Hocking, Daniel Marthaler, Tork Shaw, and Christina Stiles."
 category = "Player Companion"
 publication_date = "2013-04-16"
+aon = "SourceDisplay.aspx?FixedSource=Champions%20of%20Purity"
 
 [[publication]]
 id = "cheliax-empire-of-devils"
@@ -374,6 +425,7 @@ title = "Cheliax, Empire of Devils"
 copyright = "Pathfinder Companion: Cheliax, Empire of Devils. Copyright 2009, Paizo Publishing, LLC; Authors: Jonathan H. Keith, Colin McComb, Steven E. Schend, Leandra Christine Schneider, and Amber E. Scott."
 category = "Player Companion"
 publication_date = "2009-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Cheliax%2C%20Empire%20of%20Devils"
 
 [[publication]]
 id = "cheliax-the-infernal-empire"
@@ -381,6 +433,7 @@ title = "Cheliax, the Infernal Empire"
 copyright = "Pathfinder Campaign Setting: Cheliax, The Infernal Empire © 2015, Paizo Inc.; Authors: Amanda Hamon Kunz, Ron Lundeen, and Mark Moreland."
 category = "Campaign Setting"
 publication_date = "2015-12-16"
+aon = "SourceDisplay.aspx?FixedSource=Cheliax%2C%20the%20Infernal%20Empire"
 
 [[publication]]
 id = "chronicle-of-legends"
@@ -388,6 +441,7 @@ title = "Chronicle of Legends"
 copyright = "© 2019, Paizo Inc.; Authors: Calder CaDavid, Vanessa Hoskins, Mike Kimmel, Isabelle Lee, Matt Morris, Mikhail Rekun, and Michael Sayre."
 category = "Player Companion"
 publication_date = "2019-05-29"
+aon = "SourceDisplay.aspx?FixedSource=Chronicle%20of%20Legends"
 
 [[publication]]
 id = "chronicle-of-the-righteous"
@@ -395,6 +449,7 @@ title = "Chronicle of the Righteous"
 copyright = "Pathfinder Campaign Setting: Chronicle of the Righteous © 2013 Paizo Publishing, LLC; Author: Amber Scott."
 category = "Campaign Setting"
 publication_date = "2013-05-17"
+aon = "SourceDisplay.aspx?FixedSource=Chronicle%20of%20the%20Righteous"
 
 [[publication]]
 id = "cities-of-golarion"
@@ -402,6 +457,7 @@ title = "Cities of Golarion"
 copyright = "Pathfinder Chronicles: Cities of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: Joshua J. Frost, Tim Hitchcock, Jonathan Keith, Rob McCreary, Jason Nelson, and Jeff Quick."
 category = "Campaign Setting"
 publication_date = "2009-11-01"
+aon = "SourceDisplay.aspx?FixedSource=Cities%20of%20Golarion"
 
 [[publication]]
 id = "city-of-golden-death"
@@ -410,6 +466,7 @@ copyright = "Pathfinder Module: City of Golden Death. Copyright 2010, Paizo Publ
 category = "Module"
 publication_date = "2010-04-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=City%20of%20Golden%20Death"
 
 [[publication]]
 id = "city-of-strangers"
@@ -417,6 +474,7 @@ title = "City of Strangers"
 copyright = "Pathfinder Chronicles: City of Strangers. Copyright 2010, Paizo Publishing, LLC; Author: James L. Sutter."
 category = "Campaign Setting"
 publication_date = "2010-06-30"
+aon = "SourceDisplay.aspx?FixedSource=City%20of%20Strangers"
 
 [[publication]]
 id = "classic-horrors-revisited"
@@ -424,6 +482,7 @@ title = "Classic Horrors Revisited"
 copyright = "Pathfinder Chronicles: Classic Horrors Revisited. Copyright 2009, Paizo Publishing, LLC; Authors: James Jacobs, Rob McCreary, and F. Wesley Schneider."
 category = "Campaign Setting"
 publication_date = "2010-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Classic%20Horrors%20Revisited"
 
 [[publication]]
 id = "classic-monsters-revisited"
@@ -431,6 +490,7 @@ title = "Classic Monsters Revisited"
 copyright = "Classic Monsters Revisited. Copyright 2008, Paizo Publishing, LLC; Authors: Wolfgang Baur, Jason Bulmahn, Joshua J. Frost, James Jacobs, Nicolas Logue, Mike McArtor, James L. Sutter, Greg A. Vaughan, Jeremy Walker."
 category = "Campaign Setting"
 publication_date = "2008-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Classic%20Monsters%20Revisited"
 
 [[publication]]
 id = "classic-treasures-revisited"
@@ -438,6 +498,7 @@ title = "Classic Treasures Revisited"
 copyright = "Pathfinder Chronicles: Classic Treasures Revisited. Copyright 2010, Paizo Publishing, LLC; Authors: Jacob Burgess, Brian Cortijo, Jonathan H. Keith, Michael Kortes, Jeff Quick, Amber Scott, Todd Stewart, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2010-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Classic%20Treasures%20Revisited"
 
 [[publication]]
 id = "cohorts-and-companions"
@@ -445,6 +506,7 @@ title = "Cohorts and Companions"
 copyright = "© 2015, Paizo Inc.; Authors: Brian Duckwitz, Philip Minchin, and Jason Nelson."
 category = "Player Companion"
 publication_date = "2015-05-29"
+aon = "SourceDisplay.aspx?FixedSource=Cohorts%20and%20Companions"
 
 [[publication]]
 id = "concordance-of-rivals"
@@ -452,6 +514,7 @@ title = "Concordance of Rivals"
 copyright = "© 2019, Paizo Inc.; Authors: John Compton, Crystal Frasier, Ron Lundeen, and Amber Stewart."
 category = "Campaign Setting"
 publication_date = "2019-04-24"
+aon = "SourceDisplay.aspx?FixedSource=Concordance%20of%20Rivals"
 
 [[publication]]
 id = "conquest-of-bloodsworn-vale"
@@ -460,6 +523,7 @@ copyright = "GameMastery Module W1: Conquest Of Bloodsworn Vale. Copyright 2007,
 category = "Module"
 publication_date = "2007-11-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Conquest%20of%20Bloodsworn%20Vale"
 
 [[publication]]
 id = "construct-handbook"
@@ -467,6 +531,7 @@ title = "Construct Handbook"
 copyright = "© 2018, Paizo Inc.; Authors: Brian Duckwitz, Andrew Hoskins, Nathan King, Kris Leonard, Luis Loza, Adrian Ng, Tom Phillips, Alex Riggs, and Nicholas Wasko."
 category = "Campaign Setting"
 publication_date = "2018-11-14"
+aon = "SourceDisplay.aspx?FixedSource=Construct%20Handbook"
 
 [[publication]]
 id = "core-rulebook"
@@ -474,6 +539,7 @@ title = "Core Rulebook"
 copyright = "Pathfinder Roleplaying Game Core Rulebook © 2011, Paizo Publishing, LLC; Author: Jason Bulmahn, based on material by Jonathan Tweet, Monte Cook, and Skip Williams."
 category = "RPG"
 publication_date = "2009-08-01"
+aon = "SourceDisplay.aspx?FixedSource=PRPG%20Core%20Rulebook"
 
 [[publication]]
 id = "council-of-thieves-players-guide"
@@ -481,6 +547,7 @@ title = "Council of Thieves Player's Guide"
 copyright = "© 2009, Paizo Publishing, LLC; Author: James Jacobs, F. Wesley Schneider, Amber Scott, and Hank Woon.; Council of Thieves Player’s Guide. Copyright 2009, Paizo Publishing, LLC; Author: James Jacobs, F. Wesley Schneider, Amber Scott, and Hank Woon."
 category = "Adventure Path"
 publication_date = "2009-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Council%20of%20Thieves%20Player%27s%20Guide"
 
 [[publication]]
 id = "cradle-of-night"
@@ -489,6 +556,7 @@ copyright = "© 2018, Paizo Inc.; Authors: James Jacobs, F. Wesley Schneider, Ne
 category = "Module"
 publication_date = "2018-09-15"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Cradle%20of%20Night"
 
 [[publication]]
 id = "crown-of-the-kobold-king"
@@ -497,6 +565,7 @@ copyright = "GameMastery Module D1: Crown of the Kobold King, Copyright 2007 Pai
 category = "Module"
 publication_date = "2007-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Crown%20of%20the%20Kobold%20King"
 
 [[publication]]
 id = "crucible-of-chaos"
@@ -505,6 +574,7 @@ copyright = "GameMastery Module J3: Crucible of Chaos, Copyright 2008, Paizo Pub
 category = "Module"
 publication_date = "2008-08-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Crucible%20of%20Chaos"
 
 [[publication]]
 id = "cult-of-the-ebon-destroyers"
@@ -513,6 +583,7 @@ copyright = "Pathfinder Module: Cult of the Ebon Destroyers. © 2011, Paizo Publ
 category = "Module"
 publication_date = "2011-02-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Cult%20of%20the%20Ebon%20Destroyers"
 
 [[publication]]
 id = "curse-of-the-crimson-throne"
@@ -527,6 +598,7 @@ title = "Curse of the Crimson Throne Player's Guide"
 copyright = "Curse of the Crimson Throne Player’s Guide. Copyright 2008 Paizo Publishing, LLC; Author: James Jacobs and Mike McArtor."
 category = "Adventure Path"
 publication_date = "2008-02-01"
+aon = "SourceDisplay.aspx?FixedSource=Curse%20of%20the%20Crimson%20Throne%20Player%27s%20Guide"
 
 [[publication]]
 id = "curse-of-the-riven-sky"
@@ -535,6 +607,7 @@ copyright = "Pathfinder Module: Curse of the Riven Sky. © 2010, Paizo Publishin
 category = "Module"
 publication_date = "2010-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Curse%20of%20the%20Riven%20Sky"
 
 [[publication]]
 id = "dark-markets-a-guide-to-katapesh"
@@ -542,6 +615,7 @@ title = "Dark Markets - A Guide to Katapesh"
 copyright = "Pathfinder Chronicles: Dark Markets, A Guide to Katapesh. Copyright 2009, Paizo Publishing, LLC; Authors: Stephen S. Greer, Amber Scott, Greg A. Vaughan, and Sean K Reynolds."
 category = "Campaign Setting"
 publication_date = "2009-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Dark%20Markets%20-%20A%20Guide%20to%20Katapesh"
 
 [[publication]]
 id = "darklands-revisited"
@@ -549,6 +623,7 @@ title = "Darklands Revisited"
 copyright = "Pathfinder Campaign Setting: Darklands Revisited © 2016, Paizo Inc.; Author: Thurston Hillman."
 category = "Campaign Setting"
 publication_date = "2016-02-24"
+aon = "SourceDisplay.aspx?FixedSource=Darklands%20Revisited"
 
 [[publication]]
 id = "daughters-of-fury"
@@ -557,6 +632,7 @@ copyright = '© 2015, Paizo Inc.; Authors: Victoria Jaczko, with Tyler Beck, Rob
 category = "Module"
 publication_date = "2015-02-25"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Daughters%20of%20Fury"
 
 [[publication]]
 id = "demon-hunters-handbook"
@@ -564,6 +640,7 @@ title = "Demon Hunter's Handbook"
 copyright = "Pathfinder Player Companion: Demon Hunter’s Handbook © 2013, Paizo Publishing, LLC; Authors: Philip Minchin, F. Wesley Schneider, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-08-17"
+aon = "SourceDisplay.aspx?FixedSource=Demon%20Hunter%27s%20Handbook"
 
 [[publication]]
 id = "demons-revisited"
@@ -571,6 +648,7 @@ title = "Demons Revisited"
 copyright = "Pathfinder Campaign Setting: Demons Revisited © 2013, Paizo Publishing, LLC; Author: James Jacobs."
 category = "Campaign Setting"
 publication_date = "2013-08-19"
+aon = "SourceDisplay.aspx?FixedSource=Demons%20Revisited"
 
 [[publication]]
 id = "dirty-tactics-toolbox"
@@ -578,6 +656,7 @@ title = "Dirty Tactics Toolbox"
 copyright = "Pathfinder Player Companion: Dirty Tactics Toolbox © 2015, Paizo Inc.; Authors: Alexander Augunas, Mikko Kallio, Anthony Li, Luis Loza, and Andrew Marlowe."
 category = "Player Companion"
 publication_date = "2015-08-29"
+aon = "SourceDisplay.aspx?FixedSource=Dirty%20Tactics%20Toolbox"
 
 [[publication]]
 id = "disciples-doctrine"
@@ -585,6 +664,7 @@ title = "Disciple's Doctrine"
 copyright = "© 2018, Paizo Inc.; Authors: Saif Ansari, Mara Lynn Butler, Jeffrey Hersh, Andrew Hoskins, Lyz Liddell, Luis Loza, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2018-01-31"
+aon = "SourceDisplay.aspx?FixedSource=Disciple%27s%20Doctrine"
 
 [[publication]]
 id = "distant-realms"
@@ -592,6 +672,7 @@ title = "Distant Realms"
 copyright = "Pathfinder Campaign Setting: Distant Realms © 2018, Paizo Inc.; Authors: John Compton, Crystal Frasier, Thurston Hillman, Amanda Hamon Kunz, Lyz Liddell, and David Schwartz."
 category = "Campaign Setting"
 publication_date = "2018-06-15"
+aon = "SourceDisplay.aspx?FixedSource=Distant%20Realms"
 
 [[publication]]
 id = "distant-shores"
@@ -599,6 +680,7 @@ title = "Distant Shores"
 copyright = "Pathfinder Campaign Setting: Distant Shores © 2015, Paizo Inc.; Authors: John Compton, Adam Daigle, Crystal Frasier, Amanda Hamon Kunz, Rob McCreary, Mark Moreland, James L. Sutter, and Owen K.C. Stephens."
 category = "Campaign Setting"
 publication_date = "2015-10-21"
+aon = "SourceDisplay.aspx?FixedSource=Distant%20Shores"
 
 [[publication]]
 id = "distant-worlds"
@@ -606,6 +688,7 @@ title = "Distant Worlds"
 copyright = "© 2012, Paizo Publishing, LLC; Author: James L. Sutter."
 category = "Campaign Setting"
 publication_date = "2012-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Distant%20Worlds"
 
 [[publication]]
 id = "divine-anthology"
@@ -613,6 +696,7 @@ title = "Divine Anthology"
 copyright = "Pathfinder Player Companion: Divine Anthology © 2016, Paizo Inc.; Authors: Alexander Augunas, Russ Brown, John Compton, Alex Riggs, and David Ross."
 category = "Player Companion"
 publication_date = "2016-09-28"
+aon = "SourceDisplay.aspx?FixedSource=Divine%20Anthology"
 
 [[publication]]
 id = "doom-comes-to-dustpawn"
@@ -621,6 +705,7 @@ copyright = "© 2013, Paizo Publishing, LLC; Author: Mike Welham."
 category = "Module"
 publication_date = "2013-06-15"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Doom%20Comes%20to%20Dustpawn"
 
 [[publication]]
 id = "down-the-blighted-path"
@@ -629,6 +714,7 @@ copyright = "© 2016, Paizo Inc.; Author: Monica Marlowe."
 category = "Module"
 publication_date = "2016-02-24"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Down%20the%20Blighted%20Path"
 
 [[publication]]
 id = "dragon-empires-gazetteer"
@@ -636,6 +722,7 @@ title = "Dragon Empires Gazetteer"
 copyright = "Pathfinder Campaign Setting: Dragon Empires Gazetteer © 2011, Paizo Publishing, LLC; Authors: Matthew Goodall, Dave Gross, James Jacobs, Steve Kenson, Michael Kortes, Colin McComb, Rob McCreary, Richard Pett, F. Wesley Schneider, Mike Shel, and Todd Stewart.; © 2011, Paizo Publishing, LLC; Authors: Matthew Goodall, Dave Gross, James Jacobs, Steve Kenson, Michael Kortes, Colin McComb, Rob McCreary, Richard Pett, F. Wesley Schneider, Mike Shel, and Todd Stewart."
 category = "Campaign Setting"
 publication_date = "2012-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Dragon%20Empires%20Gazetteer"
 
 [[publication]]
 id = "dragon-empires-primer"
@@ -643,6 +730,7 @@ title = "Dragon Empires Primer"
 copyright = "Pathfinder Player Companion: Dragon Empires Primer © 2011, Paizo Publishing, LLC; Authors: Tim Hitchcock and Colin McComb."
 category = "Player Companion"
 publication_date = "2011-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Dragon%20Empires%20Primer"
 
 [[publication]]
 id = "dragonslayers-handbook"
@@ -650,6 +738,7 @@ title = "Dragonslayer's Handbook"
 copyright = "Pathfinder Player Companion: Dragonslayer's Handbook © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Marie Small, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-07-11"
+aon = "SourceDisplay.aspx?FixedSource=Dragonslayer%27s%20Handbook"
 
 [[publication]]
 id = "druma-profit-and-prophecy"
@@ -657,6 +746,7 @@ title = "Druma, Profit and Prophecy"
 copyright = "© 2019, Paizo Inc.; Authors: John Compton and Thurston Hillman."
 category = "Campaign Setting"
 publication_date = "2019-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Druma%2C%20Profit%20and%20Prophecy"
 
 [[publication]]
 id = "dungeon-denizens-revisited"
@@ -664,6 +754,7 @@ title = "Dungeon Denizens Revisited"
 copyright = "Pathfinder Chronicles: Dungeon Denizens Revisited. Copyright 2009, Paizo Publishing, LLC; Authors: Clinton Boomer, Jason Bulmahn, Joshua J. Frost, Nicolas Logue, Robert McCreary, Jason Nelson, Richard Pett, Sean K Reynolds, James L. Sutter, and Greg A. Vaughan."
 category = "Campaign Setting"
 publication_date = "2009-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Dungeon%20Denizens%20Revisited"
 
 [[publication]]
 id = "dungeoneers-handbook"
@@ -671,6 +762,7 @@ title = "Dungeoneer's Handbook"
 copyright = "Pathfinder Player Companion: Dungeoneer's Handbook © 2013, Paizo Publishing, LLC; Authors: Amanda Hamon, Gareth Hanrahan, David Ross, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-03-08"
+aon = "SourceDisplay.aspx?FixedSource=Dungeoneer%27s%20Handbook"
 
 [[publication]]
 id = "dungeons-of-golarion"
@@ -678,6 +770,7 @@ title = "Dungeons of Golarion"
 copyright = "Pathfinder Campaign Setting: Dungeons of Golarion. © 2011, Paizo Publishing, LLC. Authors: Jason Bulmahn, Matthew Goodall, Brandon Hodge, Anthony Pryor, and Mike Shel."
 category = "Campaign Setting"
 publication_date = "2011-07-06"
+aon = "SourceDisplay.aspx?FixedSource=Dungeons%20of%20Golarion"
 
 [[publication]]
 id = "dwarves-of-golarion"
@@ -685,6 +778,7 @@ title = "Dwarves of Golarion"
 copyright = "Pathfinder Companion: Dwarves of Golarion. Copyright 2009, Paizo Publishing, LLC; Authors: David A. Eitelbach, Russ Taylor, JD Wiker, Keri Wiker, and Hank Woon."
 category = "Player Companion"
 publication_date = "2009-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Dwarves%20of%20Golarion"
 
 [[publication]]
 id = "elemental-masters-handbook"
@@ -692,6 +786,7 @@ title = "Elemental Master's Handbook"
 copyright = "© 2017, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Mikko Kallio, Jason Keeley, Isabelle Lee, and Christopher Wasko."
 category = "Player Companion"
 publication_date = "2017-08-14"
+aon = "SourceDisplay.aspx?FixedSource=Elemental%20Master%27s%20Handbook"
 
 [[publication]]
 id = "elves-of-golarion"
@@ -699,6 +794,7 @@ title = "Elves of Golarion"
 copyright = "Pathfinder Companion: Elves of Golarion, Copyright 2008, Paizo Publishing, LLC; Authors Jeff Quick and Hal Maclean."
 category = "Player Companion"
 publication_date = "2008-10-02"
+aon = "SourceDisplay.aspx?FixedSource=Elves%20of%20Golarion"
 
 [[publication]]
 id = "entombed-with-the-pharaohs"
@@ -707,6 +803,7 @@ copyright = "GameMastery Module J1: Entombed with the Pharaohs, Copyright 2007 P
 category = "Module"
 publication_date = "2008-02-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Entombed%20with%20the%20Pharaohs"
 
 [[publication]]
 id = "faction-guide"
@@ -714,6 +811,7 @@ title = "Faction Guide"
 copyright = "Pathfinder Chronicles: Faction Guide. Copyright 2010, Paizo Publishing, LLC; Authors: Joshua J. Frost, Jason Nelson, and Sean K Reynolds.; © 2010, Paizo Publishing, LLC; Authors: Joshua J. Frost, Jason Nelson, and Sean K Reynolds."
 category = "Campaign Setting"
 publication_date = "2010-05-01"
+aon = "SourceDisplay.aspx?FixedSource=Faction%20Guide"
 
 [[publication]]
 id = "faiths-and-philosophies"
@@ -721,6 +819,7 @@ title = "Faiths and Philosophies"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Savannah Broadway, Paris Crenshaw, Neall Raemonn Price, David Ross, Owen K.C. Stepehens, and James L. Sutter."
 category = "Player Companion"
 publication_date = "2013-08-19"
+aon = "SourceDisplay.aspx?FixedSource=Faiths%20and%20Philosophies"
 
 [[publication]]
 id = "faiths-of-balance"
@@ -728,6 +827,7 @@ title = "Faiths of Balance"
 copyright = "Pathfinder Player Companion: Faiths of Balance. © 2011, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2011-07-06"
+aon = "SourceDisplay.aspx?FixedSource=Faiths%20of%20Balance"
 
 [[publication]]
 id = "faiths-of-corruption"
@@ -735,6 +835,7 @@ title = "Faiths of Corruption"
 copyright = "Pathfinder Player Companion: Faiths of Corruption © 2011, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2011-10-01"
+aon = "SourceDisplay.aspx?FixedSource=Faiths%20of%20Corruption"
 
 [[publication]]
 id = "faiths-of-golarion"
@@ -742,6 +843,7 @@ title = "Faiths of Golarion"
 copyright = "© 2018, Paizo Inc.; Authors: Kate Baker, John Compton, Adam Daigle, Crystal Frasier, Ron Lundeen, Liane Merciel, Michael Sayre, and Owen K.C. Stephens."
 category = "Campaign Setting"
 publication_date = "2018-12-12"
+aon = "SourceDisplay.aspx?FixedSource=Faiths%20of%20Golarion"
 
 [[publication]]
 id = "faiths-of-purity"
@@ -749,6 +851,7 @@ title = "Faiths of Purity"
 copyright = "Pathfinder Player Companion: Faiths of Purity. © 2011, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2011-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Faiths%20of%20Purity"
 
 [[publication]]
 id = "familiar-folio"
@@ -756,6 +859,7 @@ title = "Familiar Folio"
 copyright = "© 2015, Paizo Inc.; Authors: Will McCardell, Philip Minchin, Mark Seifter, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2015-01-17"
+aon = "SourceDisplay.aspx?FixedSource=Familiar%20Folio"
 
 [[publication]]
 id = "fangwood-keep"
@@ -764,6 +868,7 @@ copyright = "© 2013, Paizo Publishing, LLC; Author: Alex Greenshields."
 category = "Module"
 publication_date = "2013-05-04"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Fangwood%20Keep"
 
 [[publication]]
 id = "feast-of-dust"
@@ -772,6 +877,7 @@ copyright = "© 2015, Paizo Inc.; Author: Nicolas Logue."
 category = "Module"
 publication_date = "2015-10-21"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Feast%20of%20Dust"
 
 [[publication]]
 id = "feast-of-ravenmoor"
@@ -780,6 +886,7 @@ copyright = "Pathfinder Module: Feast of Ravenmoor. © 2011, Paizo Publishing, L
 category = "Module"
 publication_date = "2011-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Feast%20of%20Ravenmoor"
 
 [[publication]]
 id = "fey-revisited"
@@ -787,6 +894,7 @@ title = "Fey Revisited"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Savannah Broadway, Amanda Hamon, Tim Hitchcock, Levi Miles, Ray Vallese, and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2013-05-17"
+aon = "SourceDisplay.aspx?FixedSource=Fey%20Revisited"
 
 [[publication]]
 id = "flight-of-the-red-raven"
@@ -795,6 +903,7 @@ copyright = "© 2008, Paizo Publishing, LLC. Author: David Schwartz."
 category = "Module"
 publication_date = "2008-12-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Flight%20of%20the%20Red%20Raven"
 
 [[publication]]
 id = "from-shore-to-sea"
@@ -803,6 +912,7 @@ copyright = "Pathfinder Module: From Shore to Sea. © 2010, Paizo Publishing, LL
 category = "Module"
 publication_date = "2010-06-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=From%20Shore%20to%20Sea"
 
 [[publication]]
 id = "gallery-of-evil"
@@ -811,6 +921,7 @@ copyright = "GameMastery Module U1: Gallery of Evil. Copyright 2007 Paizo Publis
 category = "Module"
 publication_date = "2008-01-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Gallery%20of%20Evil"
 
 [[publication]]
 id = "gallows-of-madness"
@@ -819,6 +930,7 @@ copyright = "© 2016, Paizo Inc.; Authors: Benjamin Bruck, Mikko Kallio, and Mik
 category = "Module"
 publication_date = "2016-07-28"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Gallows%20of%20Madness"
 
 [[publication]]
 id = "game-mastery-guide"
@@ -826,11 +938,13 @@ title = "Game Mastery Guide"
 copyright = "Pathfinder RPG GameMastery Guide, © 2010, Paizo Publishing, LLC; Author: Cam Banks, Wolfgang Baur, Jason Bulmahn, Jim Butler, Eric Cagle, Graeme Davis, Adam Daigle, Joshua J. Frost, James Jacobs, Kenneth Hite, Steven Kenson, Robin Laws, Tito Leati, Rob McCreary, Hal Maclean, Colin McComb, Jason Nelson, David Noonan, Richard Pett, Rich Redman, Sean K Reynolds, F. Wesley Schneider, Amber Scott, Doug Seacat, Mike Selinker, Lisa Stevens, James L. Sutter, Russ Taylor, Penny Williams, Skip Williams, Teeuwynn Woodruff."
 category = "RPG"
 publication_date = "2010-06-01"
+aon = "SourceDisplay.aspx?FixedSource=GameMastery%20Guide"
 
 [[publication]]
 id = "gamemastery-condition-cards"
 title = "GameMastery Condition Cards"
 copyright = "Condition Cards.  Copyright 2010, Paizo Publishing, LLC.  Author: Jason Bulmahn.; © 2010, Paizo Publishing, LLC. Author: Jason Bulmahn."
+aon = "SourceDisplay.aspx?FixedSource=GameMastery%20Condition%20Cards"
 
 [[publication]]
 id = "giant-hunters-handbook"
@@ -838,6 +952,7 @@ title = "Giant Hunter's Handbook"
 copyright = "Pathfinder Player Companion: Giant Hunter's Handbook © 2014, Paizo Inc.; Authors: Alexander Augunas, Luis Loza, Ron Lundeen, and David Ross."
 category = "Player Companion"
 publication_date = "2014-12-17"
+aon = "SourceDisplay.aspx?FixedSource=Giant%20Hunter%27s%20Handbook"
 
 [[publication]]
 id = "giants-revisited"
@@ -845,6 +960,7 @@ title = "Giants Revisited"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Ryan Costello, Brian R. James, Jason Nelson, Russ Taylor, and Ray Vallese."
 category = "Campaign Setting"
 publication_date = "2012-05-01"
+aon = "SourceDisplay.aspx?FixedSource=Giants%20Revisited"
 
 [[publication]]
 id = "giantslayer-players-guide"
@@ -852,6 +968,7 @@ title = "Giantslayer Player's Guide"
 copyright = "© 2015, Paizo Inc.; Authors: Adam Daigle and Rob McCreary."
 category = "Adventure Path"
 publication_date = "2015-01-25"
+aon = "SourceDisplay.aspx?FixedSource=Giantslayer%20Player%27s%20Guide"
 
 [[publication]]
 id = "gnomes-of-golarion"
@@ -859,6 +976,7 @@ title = "Gnomes of Golarion"
 copyright = "Pathfinder Companion: Gnomes of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Hal Maclean, Colin McComb, Mark Moreland, Jeff Quick, Sean K Reynolds, Steven Schend, and Owen K. C. Stephens."
 category = "Player Companion"
 publication_date = "2010-05-01"
+aon = "SourceDisplay.aspx?FixedSource=Gnomes%20of%20Golarion"
 
 [[publication]]
 id = "goblins-of-golarion"
@@ -866,6 +984,7 @@ title = "Goblins of Golarion"
 copyright = "Pathfinder Player Companion: Goblins of Golarion. © 2011, Paizo Publishing, LLC; Author: James Jacobs, Hal Maclean, and Richard Pett."
 category = "Player Companion"
 publication_date = "2011-07-27"
+aon = "SourceDisplay.aspx?FixedSource=Goblins%20of%20Golarion"
 
 [[publication]]
 id = "gods-and-magic"
@@ -881,6 +1000,7 @@ copyright = "GameMastery Module J2: Guardians of Dragonfall, Copyright 2007, Pai
 category = "Module"
 publication_date = "2008-06-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Guardians%20of%20Dragonfall"
 
 [[publication]]
 id = "guide-to-darkmoon-vale"
@@ -888,6 +1008,7 @@ title = "Guide to Darkmoon Vale"
 copyright = "Guide to Darkmoon Vale. Copyright 2008, Paizo Publishing, LLC; Author: Mike McArtor."
 category = "Campaign Setting"
 publication_date = "2008-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Guide%20to%20Darkmoon%20Vale"
 
 [[publication]]
 id = "guide-to-the-river-kingdoms"
@@ -895,6 +1016,7 @@ title = "Guide to the River Kingdoms"
 copyright = "Pathfinder Chronicles: Guide to the River Kingdoms. Copyright 2010, Paizo Publishing, LLC; Authors: Eric Bailey, Kevin Carter, Elaine Cunningham, Adam Daigle, Mike Ferguson, Joshua J. Frost, Steve Kenson, Rob Manning, Alison McKenzie, Colin Moulder-McComb, China Miéville, Brock Mitchel-Slentz, Jason Nelson, Richard Pett, Chris Pramas, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Lisa Stevens, Neil Spicer, Matthew Stinson, and John Wick."
 category = "Campaign Setting"
 publication_date = "2010-02-01"
+aon = "SourceDisplay.aspx?FixedSource=Guide%20to%20the%20River%20Kingdoms"
 
 [[publication]]
 id = "halflings-of-golarion"
@@ -902,6 +1024,7 @@ title = "Halflings of Golarion"
 copyright = "Pathfinder Player Companion: Halflings of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Hal MacLean and Amber E. Scott."
 category = "Player Companion"
 publication_date = "2011-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Halflings%20of%20Golarion"
 
 [[publication]]
 id = "haunted-heroes-handbook"
@@ -909,6 +1032,7 @@ title = "Haunted Heroes Handbook"
 copyright = "Pathfinder Player Companion: Haunted Heroes Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, Thurston Hillman, Isabelle Lee, Stephen Rowe, and Christopher Wasko."
 category = "Player Companion"
 publication_date = "2016-08-31"
+aon = "SourceDisplay.aspx?FixedSource=Haunted%20Heroes%20Handbook"
 
 [[publication]]
 id = "healers-handbook"
@@ -916,6 +1040,7 @@ title = "Healer's Handbook"
 copyright = "Pathfinder Player Companion: Healer’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Stephen Rowe."
 category = "Player Companion"
 publication_date = "2017-01-25"
+aon = "SourceDisplay.aspx?FixedSource=Healer%27s%20Handbook"
 
 [[publication]]
 id = "heart-of-the-jungle"
@@ -923,6 +1048,7 @@ title = "Heart of the Jungle"
 copyright = "Pathfinder Chronicles: Heart of the Jungle. Copyright 2010, Paizo Publishing, LLC; Authors: Tim Hitchcock, Jason Nelson, Amber Scott, Chris Self, and Todd Stewart."
 category = "Campaign Setting"
 publication_date = "2010-06-01"
+aon = "SourceDisplay.aspx?FixedSource=Heart%20of%20the%20Jungle"
 
 [[publication]]
 id = "heaven-unleashed"
@@ -930,6 +1056,7 @@ title = "Heaven Unleashed"
 copyright = "Pathfinder Campaign Setting: Heaven Unleashed © 2016, Paizo Inc.; Authors: Judy Bauer, Crystal Frasier, Jim Groves, Amanda Hamon Kunz, Jenny Jarzabski, Jason Keeley, Luis Loza, Ron Lundeen, and Jessica Price."
 category = "Campaign Setting"
 publication_date = "2016-04-27"
+aon = "SourceDisplay.aspx?FixedSource=Heaven%20Unleashed"
 
 [[publication]]
 id = "hell-unleashed"
@@ -937,6 +1064,7 @@ title = "Hell Unleashed"
 copyright = "© 2015, Paizo Inc.; Authors: F. Wesley Schneider and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2015-07-29"
+aon = "SourceDisplay.aspx?FixedSource=Hell%20Unleashed"
 
 [[publication]]
 id = "hells-rebels-players-guide"
@@ -944,6 +1072,7 @@ title = "Hell's Rebels Player's Guide"
 copyright = "© 2015, Paizo Inc.; Author: James Jacobs."
 category = "Adventure Path"
 publication_date = "2015-09-01"
+aon = "SourceDisplay.aspx?FixedSource=Hell%27s%20Rebels%20Player%27s%20Guide"
 
 [[publication]]
 id = "hells-vengeance-players-guide"
@@ -951,6 +1080,7 @@ title = "Hell's Vengeance Player's Guide"
 copyright = "© 2016, Paizo Inc.; Authors: Adam Daigle and Rob McCreary."
 category = "Adventure Path"
 publication_date = "2016-02-25"
+aon = "SourceDisplay.aspx?FixedSource=Hell%27s%20Vengeance%20Player%27s%20Guide"
 
 [[publication]]
 id = "heroes-from-the-fringe"
@@ -958,6 +1088,7 @@ title = "Heroes from the Fringe"
 copyright = "Pathfinder Player Companion: Heroes from the Fringe © 2018, Paizo Inc.; Authors: Saif Ansari, Kate Baker, Michelle Jones, Isabelle Lee, Adrian Ng, Alex Riggs, Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2018-08-30"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20from%20the%20Fringe"
 
 [[publication]]
 id = "heroes-of-golarion"
@@ -965,6 +1096,7 @@ title = "Heroes of Golarion"
 copyright = "Pathfinder Player Companion: Heroes of Golarion © 2019, Paizo Inc.; Authors: Saif Ansari, Alexander Augunas, Mara Lynn Butler, Michelle Jones, Avi Kool, and Alex Riggs."
 category = "Player Companion"
 publication_date = "2019-03-27"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20of%20Golarion"
 
 [[publication]]
 id = "heroes-of-the-darklands"
@@ -972,6 +1104,7 @@ title = "Heroes of the Darklands"
 copyright = "© 2017, Paizo Inc.; Authors: Robert Brookes, Eleanor Ferron, Michelle Jones, Alex Riggs, and Nicholas Wasko."
 category = "Player Companion"
 publication_date = "2017-04-26"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20of%20the%20Darklands"
 
 [[publication]]
 id = "heroes-of-the-high-court"
@@ -979,6 +1112,7 @@ title = "Heroes of the High Court"
 copyright = "© 2017, Paizo Inc.; Authors: Isabelle Lee, Luis Loza, Ron Lundeen, and Jacob W. Michaels."
 category = "Player Companion"
 publication_date = "2017-02-08"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20of%20the%20High%20Court"
 
 [[publication]]
 id = "heroes-of-the-streets"
@@ -986,6 +1120,7 @@ title = "Heroes of the Streets"
 copyright = "© 2015, Paizo Inc.; Authors: John Compton, Mikko Kallio, Nicolas Logue, Michael McCarthy, Mike Myler, and David N. Ross."
 category = "Player Companion"
 publication_date = "2015-09-30"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20of%20the%20Streets"
 
 [[publication]]
 id = "heroes-of-the-wild"
@@ -993,6 +1128,7 @@ title = "Heroes of the Wild"
 copyright = "© 2015, Paizo Inc.; Authors: Tyler Beck, Pedro Coelho, Justin Juan, Mikko Kallio, Jason Keeley, Nick Salestrom, and William Thrasher."
 category = "Player Companion"
 publication_date = "2015-04-29"
+aon = "SourceDisplay.aspx?FixedSource=Heroes%20of%20the%20Wild"
 
 [[publication]]
 id = "hollows-last-hope"
@@ -1001,6 +1137,7 @@ copyright = "GameMastery Module D0: Hollow’s Last Hope, Copyright 2007 Paizo P
 category = "Module"
 publication_date = "2007-09-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Hollow%27s%20Last%20Hope"
 
 [[publication]]
 id = "horror-adventures"
@@ -1008,6 +1145,7 @@ title = "Horror Adventures"
 copyright = "Pathfinder Roleplaying Game Horror Adventures © 2016, Paizo Inc.; Authors: John Bennett, Clinton J. Boomer, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Jim Groves, Steven Helt, Thurston Hillman, Eric Hindley, Brandon Hodge, Mikko Kallio, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Alistair Rigg, Alex Riggs, David N. Ross, F. Wesley Schneider, David Schwartz, Mark Seifter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-08-07"
+aon = "SourceDisplay.aspx?FixedSource=Horror%20Adventures"
 
 [[publication]]
 id = "horror-realms"
@@ -1015,6 +1153,7 @@ title = "Horror Realms"
 copyright = "Pathfinder Campaign Setting: Horror Realms © 2016, Paizo Inc.; Authors: Thurston Hillman, Tim Hitchcock, James Jacobs, Patrick Renie, David N. Ross, and Linda Zayas-Palmer."
 category = "Campaign Setting"
 publication_date = "2016-11-21"
+aon = "SourceDisplay.aspx?FixedSource=Horror%20Realms"
 
 [[publication]]
 id = "humans-of-golarion"
@@ -1022,6 +1161,7 @@ title = "Humans of Golarion"
 copyright = "Pathfinder Player Companion: Humans of Golarion. © 2011, Paizo Publishing, LLC; Authors: James Jacobs, Colin McComb, Sean K Reynolds, Amber Scott, and Larry Wilhelm."
 category = "Player Companion"
 publication_date = "2011-06-10"
+aon = "SourceDisplay.aspx?FixedSource=Humans%20of%20Golarion"
 
 [[publication]]
 id = "hungry-are-the-dead"
@@ -1030,6 +1170,7 @@ copyright = "Pathfinder Module D4: Hungry Are the Dead, Copyright 2008, Paizo Pu
 category = "Module"
 publication_date = "2009-03-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Hungry%20are%20the%20Dead"
 
 [[publication]]
 id = "inner-sea-bestiary"
@@ -1037,6 +1178,7 @@ title = "Inner Sea Bestiary"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Jim Groves, James Jacobs, Rob McCreary, Erik Mona, Jason Nelson, Patrick Renie, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Greg A. Vaughan."
 category = "Campaign Setting"
 publication_date = "2012-11-15"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Bestiary"
 
 [[publication]]
 id = "inner-sea-combat"
@@ -1044,6 +1186,7 @@ title = "Inner Sea Combat"
 copyright = "Pathfinder Campaign Setting: Inner Sea Combat © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, John Compton, and Thurston Hillman.; © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, John Compton, and Thurston Hillman."
 category = "Campaign Setting"
 publication_date = "2014-04-30"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Combat"
 
 [[publication]]
 id = "inner-sea-faiths"
@@ -1051,6 +1194,7 @@ title = "Inner Sea Faiths"
 copyright = "© 2016, Paizo Inc.; Authors: Robert Brookes, Benjamin Bruck, Crystal Frasier, Thurston Hillman, Brandon Hodge, James Jacobs, Jessica Price, Patrick Renie, and David N. Ross."
 category = "Campaign Setting"
 publication_date = "2016-03-23"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Faiths"
 
 [[publication]]
 id = "inner-sea-gods"
@@ -1058,6 +1202,7 @@ title = "Inner Sea Gods"
 copyright = "Pathfinder Campaign Setting: Inner Sea Gods © 2014, Paizo Publishing, LLC; Authors: Sean K Reynolds, with Amanda Hamon, James Jacobs, John Ling, Mark Moreland, David N. Ross, F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2014-04-30"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Gods"
 
 [[publication]]
 id = "inner-sea-intrigue"
@@ -1065,6 +1210,7 @@ title = "Inner Sea Intrigue"
 copyright = "© 2016, Paizo Inc.; Authors: David N. Ross, with Ross Byers."
 category = "Campaign Setting"
 publication_date = "2016-05-27"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Intrigue"
 
 [[publication]]
 id = "inner-sea-magic"
@@ -1072,6 +1218,7 @@ title = "Inner Sea Magic"
 copyright = "Pathfinder Campaign Setting: Inner Sea Magic. © 2011, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Nelson, Sean K Reynolds, Owen K.C. Stephens, Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2011-07-27"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Magic"
 
 [[publication]]
 id = "inner-sea-monster-codex"
@@ -1079,6 +1226,7 @@ title = "Inner Sea Monster Codex"
 copyright = "Pathfinder Campaign Setting: Inner Sea Monster Codex © 2015, Paizo Inc.; Authors: John Compton, Paris Crenshaw, Mike Myler, Tork Shaw, and Larry Wilhelm."
 category = "Campaign Setting"
 publication_date = "2015-06-29"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Monster%20Codex"
 
 [[publication]]
 id = "inner-sea-npc-codex"
@@ -1086,6 +1234,7 @@ title = "Inner Sea NPC Codex"
 copyright = "Pathfinder Campaign Setting: Inner Sea NPC Codex © 2013, Paizo Publishing, LLC; Authors: John Compton, Paris Crenshaw, Adam Daigle, Josh Foster, Rob McCreary, Mark Moreland, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2013-12-11"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20NPC%20Codex"
 
 [[publication]]
 id = "inner-sea-primer"
@@ -1093,6 +1242,7 @@ title = "Inner Sea Primer"
 copyright = "Pathfinder Player Companion: Inner Sea Primer. Copyright 2010, Paizo Publishing, LLC; Author: Colin McComb."
 category = "Player Companion"
 publication_date = "2010-11-01"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Primer"
 
 [[publication]]
 id = "inner-sea-races"
@@ -1100,6 +1250,7 @@ title = "Inner Sea Races"
 copyright = "Pathfinder Campaign Setting: Inner Sea Races © 2015, Paizo Inc.; Authors: Ross Byers, John Compton, Adam Daigle, Crystal Frasier, Matthew Goodall, Alex Greenshields, James Jacobs, Amanda Hamon Kunz, Ron Lundeen, Rob McCreary, Jessica Price, David N. Ross, Owen K.C. Stephens, James L. Sutter, Russ Taylor, and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2015-09-30"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Races"
 
 [[publication]]
 id = "inner-sea-taverns"
@@ -1107,6 +1258,7 @@ title = "Inner Sea Taverns"
 copyright = "Pathfinder Campaign Setting: Inner Sea Taverns © 2018, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Michelle Jones, Jason Keeley, Luis Loza, Jacob W. Michaels, Joe Pasini, and David N. Ross."
 category = "Campaign Setting"
 publication_date = "2018-02-28"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Taverns"
 
 [[publication]]
 id = "inner-sea-temples"
@@ -1114,6 +1266,7 @@ title = "Inner Sea Temples"
 copyright = "© 2016, Paizo Inc.; Authors: Robert Brookes, Liz Courts, Mikko Kallio, Jeffrey Swank, and Larry Wilhelm."
 category = "Campaign Setting"
 publication_date = "2016-10-15"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20Temples"
 
 [[publication]]
 id = "inner-sea-world-guide"
@@ -1121,6 +1274,7 @@ title = "Inner Sea World Guide"
 copyright = "Pathfinder Campaign Setting: The Inner Sea World Guide. © 2011, Paizo Publishing, LLC; Authors: Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, and JD Wiker."
 category = "Campaign Setting"
 publication_date = "2011-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Inner%20Sea%20World%20Guide"
 
 [[publication]]
 id = "into-the-darklands"
@@ -1128,6 +1282,7 @@ title = "Into the Darklands"
 copyright = "Into the Darklands. Copyright 2008, Paizo Publishing, LLC; Authors: James Jacobs and Greg A. Vaughan."
 category = "Campaign Setting"
 publication_date = "2008-11-01"
+aon = "SourceDisplay.aspx?FixedSource=Into%20the%20Darklands"
 
 [[publication]]
 id = "ire-of-the-storm"
@@ -1136,6 +1291,7 @@ copyright = "© 2016, Paizo Inc.; Author: Thurston Hillman."
 category = "Module"
 publication_date = "2016-03-25"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Ire%20of%20the%20Storm"
 
 [[publication]]
 id = "iron-gods-players-guide"
@@ -1143,6 +1299,7 @@ title = "Iron Gods Player's Guide"
 copyright = "© 2014, Paizo Inc.; Authors: Adam Daigle and James Jacobs."
 category = "Adventure Path"
 publication_date = "2014-08-15"
+aon = "SourceDisplay.aspx?FixedSource=Iron%20Gods%20Player%27s%20Guide"
 
 [[publication]]
 id = "ironfang-invasion-players-guide"
@@ -1150,6 +1307,7 @@ title = "Ironfang Invasion Player's Guide"
 copyright = "© 2017, Paizo Inc.; Author: Crystal Frasier."
 category = "Adventure Path"
 publication_date = "2017-03-16"
+aon = "SourceDisplay.aspx?FixedSource=Ironfang%20Invasion%20Player%27s%20Guide"
 
 [[publication]]
 id = "irrisen-land-of-eternal-winter"
@@ -1157,6 +1315,7 @@ title = "Irrisen - Land of Eternal Winter"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Mike Shel."
 category = "Campaign Setting"
 publication_date = "2013-01-22"
+aon = "SourceDisplay.aspx?FixedSource=Irrisen%20-%20Land%20of%20Eternal%20Winter"
 
 [[publication]]
 id = "isles-of-the-shackles"
@@ -1164,6 +1323,7 @@ title = "Isles of the Shackles"
 copyright = "Pathfinder Campaign Setting: Isles of the Shackles © 2012, Paizo Publishing, LLC; Author: Mike Shel."
 category = "Campaign Setting"
 publication_date = "2012-04-01"
+aon = "SourceDisplay.aspx?FixedSource=Isles%20of%20the%20Shackles"
 
 [[publication]]
 id = "jade-regent-players-guide"
@@ -1171,6 +1331,7 @@ title = "Jade Regent Player's Guide"
 copyright = "© 2011, Paizo Publishing, LLC; Authors: James Jacobs and Patrick Renie.; Jade Regent Player’s Guide © 2011, Paizo Publishing, LL C; Authors: James Jacobs and Patrick Renie."
 category = "Adventure Path"
 publication_date = "2011-07-27"
+aon = "SourceDisplay.aspx?FixedSource=Jade%20Regent%20Player%27s%20Guide"
 
 [[publication]]
 id = "kingmaker-players-guide"
@@ -1178,6 +1339,7 @@ title = "Kingmaker Player's Guide"
 copyright = "Kingmaker Player's Guide: Section 15 notice pending; Open Game Content used under the OGL."
 category = "Adventure Path"
 publication_date = "2010-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Kingmaker%20Player%27s%20Guide"
 
 [[publication]]
 id = "knights-of-the-inner-sea"
@@ -1185,6 +1347,7 @@ title = "Knights of the Inner Sea"
 copyright = "Pathfinder Player Companion: Knights of the Inner Sea © 2012, Paizo Publishing, LLC; Authors: Gareth Hanrahan, Steve Kenson, Patrick Renie, Tork Shaw, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2012-09-01"
+aon = "SourceDisplay.aspx?FixedSource=Knights%20of%20the%20Inner%20Sea"
 
 [[publication]]
 id = "kobolds-of-golarion"
@@ -1192,6 +1355,7 @@ title = "Kobolds of Golarion"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Tork Shaw, Mat Smith, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-06-13"
+aon = "SourceDisplay.aspx?FixedSource=Kobolds%20of%20Golarion"
 
 [[publication]]
 id = "lands-of-conflict"
@@ -1199,6 +1363,7 @@ title = "Lands of Conflict"
 copyright = "© 2017, Paizo Inc.; Authors: Lissa Guillet and Amber E. Scott."
 category = "Campaign Setting"
 publication_date = "2017-02-22"
+aon = "SourceDisplay.aspx?FixedSource=Lands%20of%20Conflict"
 
 [[publication]]
 id = "lands-of-the-linnorm-kings"
@@ -1206,6 +1371,7 @@ title = "Lands of the Linnorm Kings"
 copyright = "Pathfinder Campaign Setting: Lands of the Linnorm Kings © 2011, Paizo Publishing, LLC; Authors: Matthew Goodall, Jonathan Keith, Colin McComb, and Rob McCreary.; © 2011, Paizo Publishing, LLC; Authors: Matthew Goodall, Jonathan Keith, Colin McComb, and Rob McCreary."
 category = "Campaign Setting"
 publication_date = "2011-10-01"
+aon = "SourceDisplay.aspx?FixedSource=Lands%20of%20the%20Linnorm%20Kings"
 
 [[publication]]
 id = "legacy-of-dragons"
@@ -1213,6 +1379,7 @@ title = "Legacy of Dragons"
 copyright = "Pathfinder Player Companion: Legacy of Dragons © 2016, Paizo Inc.; Authors: Alexander Augunas, Robert Brookes, Thurston Hillman, Michelle Jones, Mikko Kallio, and Mark Seifter."
 category = "Player Companion"
 publication_date = "2016-07-28"
+aon = "SourceDisplay.aspx?FixedSource=Legacy%20of%20Dragons"
 
 [[publication]]
 id = "legacy-of-fire-players-guide"
@@ -1220,6 +1387,7 @@ title = "Legacy of Fire Player's Guide"
 copyright = "© 2009, Paizo Publishing, LLC; Authors: Brian Cortijo, Stephen S. Greer, James Jacobs, Jonathan H. Keith, F. Wesley Schneider, Amber E. Scott, and James L. Sutter.; Pathfinder Companion: Legacy of Fire Player’s Guide. Copyright 2009, Paizo Publishing, LLC; Authors: Brian Cortijo, Stephen S. Greer, James Jacobs, Jonathan H. Keith, F. Wesley Schneider, Amber E. Scott, and James L. Sutter."
 category = "Adventure Path"
 publication_date = "2009-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Legacy%20of%20Fire%20Player%27s%20Guide"
 
 [[publication]]
 id = "legacy-of-the-first-world"
@@ -1227,6 +1395,7 @@ title = "Legacy of the First World"
 copyright = "Pathfinder Player Companion: Legacy of the First World © 2017, Paizo Inc.; Authors: Jake Alley, Judy Bauer, John Compton, Mikko Kallio, Jason Keeley, Joe Pasini, Mark Seifter, Kendra Leigh Speedling, Josh Vogt, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-05-14"
+aon = "SourceDisplay.aspx?FixedSource=Legacy%20of%20the%20First%20World"
 
 [[publication]]
 id = "lost-cities-of-golarion"
@@ -1234,6 +1403,7 @@ title = "Lost Cities of Golarion"
 copyright = "Pathfinder Campaign Setting: Lost Cities of Golarion. © 2011, Paizo Publishing, LLC. Authors: Tim Hitchcock, Brandon Hodge, Michael Kortes, Jason Nelson, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2011-01-01"
+aon = "SourceDisplay.aspx?FixedSource=Lost%20Cities%20of%20Golarion"
 
 [[publication]]
 id = "lost-kingdoms"
@@ -1241,6 +1411,7 @@ title = "Lost Kingdoms"
 copyright = "Pathfinder Campaign Setting: Lost Kingdoms © 2012, Paizo Publishing, LLC; Authors: Wolfgang Baur, Adam Daigle, Jeff Erwin, and F. Wesley Schneider."
 category = "Campaign Setting"
 publication_date = "2012-06-01"
+aon = "SourceDisplay.aspx?FixedSource=Lost%20Kingdoms"
 
 [[publication]]
 id = "lost-treasures"
@@ -1248,6 +1419,7 @@ title = "Lost Treasures"
 copyright = "Pathfinder Campaign Setting: Lost Treasures © 2014, Paizo Inc.; Authors: Judy Bauer, Savannah Broadway, John Compton, Ron Lundeen, Levi Miles, Justin Riddler, F. Wesley Schneider, Mike Shel, Christina Stiles, James L. Sutter, and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2014-12-17"
+aon = "SourceDisplay.aspx?FixedSource=Lost%20Treasures"
 
 [[publication]]
 id = "magic-of-thassilon"
@@ -1260,6 +1432,7 @@ title = "Magic Tactics Toolbox"
 copyright = "Pathfinder Player Companion: Magic Tactics Toolbox © 2016, Paizo Inc.; Authors: Alexander Augunas, Steven T. Helt, Thurston Hillman, and Ron Lundeen."
 category = "Player Companion"
 publication_date = "2016-05-27"
+aon = "SourceDisplay.aspx?FixedSource=Magic%20Tactics%20Toolbox"
 
 [[publication]]
 id = "magical-marketplace"
@@ -1267,6 +1440,7 @@ title = "Magical Marketplace"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: John Ling, Ron Lundeen, Patrick Renie, David Schwartz, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2013-12-11"
+aon = "SourceDisplay.aspx?FixedSource=Magical%20Marketplace"
 
 [[publication]]
 id = "magnimar-city-of-monuments"
@@ -1274,6 +1448,7 @@ title = "Magnimar, City of Monuments"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Adam Daigle and James Jacobs."
 category = "Campaign Setting"
 publication_date = "2012-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Magnimar%2C%20City%20of%20Monuments"
 
 [[publication]]
 id = "martial-arts-handbook"
@@ -1281,6 +1456,7 @@ title = "Martial Arts Handbook"
 copyright = "© 2018, Paizo Inc.; Authors: Thurston Hillman, Mikko Kallio, Jacob W. Michaels, Matt Morris, Daniel Reed, Mikhail Rekun, Mark Seifter, and Jeffrey Swank."
 category = "Player Companion"
 publication_date = "2018-11-14"
+aon = "SourceDisplay.aspx?FixedSource=Martial%20Arts%20Handbook"
 
 [[publication]]
 id = "masks-of-the-living-god"
@@ -1289,6 +1465,7 @@ copyright = "Pathfinder Module: Masks of the Living God. Copyright 2009, Paizo P
 category = "Module"
 publication_date = "2009-12-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Masks%20of%20the%20Living%20God"
 
 [[publication]]
 id = "melee-tactics-toolbox"
@@ -1296,6 +1473,7 @@ title = "Melee Tactics Toolbox"
 copyright = "Pathfinder Player Companion: Melee Tactics Toolbox © 2015, Paizo Inc.; Authors: Paris Crenshaw, Ron Lundeen, and David Schwartz."
 category = "Player Companion"
 publication_date = "2015-03-25"
+aon = "SourceDisplay.aspx?FixedSource=Melee%20Tactics%20Toolbox"
 
 [[publication]]
 id = "merchants-manifest"
@@ -1303,6 +1481,7 @@ title = "Merchant's Manifest"
 copyright = "© 2018, Paizo Inc.; Authors: John Compton, Eleanor Ferron, Thurston Hillman, Nathan King, Isabelle Lee, Jacob W. Michaels, Adrian Ng, David N. Ross, and Mike Welham."
 category = "Player Companion"
 publication_date = "2018-03-15"
+aon = "SourceDisplay.aspx?FixedSource=Merchant%27s%20Manifest"
 
 [[publication]]
 id = "misfit-monsters-redeemed"
@@ -1310,6 +1489,7 @@ title = "Misfit Monsters Redeemed"
 copyright = "Pathfinder Campaign Setting: Misfit Monsters Redeemed. Copyright 2010, Paizo Publishing, LLC; Authors: Adam Daigle, Crystal Frasier, Colin McComb, Rob McCreary, Jason Nelson, and James L. Sutter."
 category = "Campaign Setting"
 publication_date = "2010-10-01"
+aon = "SourceDisplay.aspx?FixedSource=Misfit%20Monsters%20Redeemed"
 
 [[publication]]
 id = "monster-codex"
@@ -1317,6 +1497,7 @@ title = "Monster Codex"
 copyright = "Pathfinder Roleplaying Game Monster Codex © 2014, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Logan Bonner, Jason Bulmahn, Ross Byers, John Compton, Robert N. Emerson, Jonathan H. Keith, Dale C. McCoy, Jr., Mark Moreland, Tom Phillips, Stephen Radney-MacFarland, Sean K Reynolds, Thomas M. Reid, Patrick Renie, Mark Seifter, Tork Shaw, Neil Spicer, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2014-10-22"
+aon = "SourceDisplay.aspx?FixedSource=Monster%20Codex"
 
 [[publication]]
 id = "monster-hunters-handbook"
@@ -1324,6 +1505,7 @@ title = "Monster Hunter's Handbook"
 copyright = "© 2017, Paizo Inc.; Authors: Eric Hindley, Mikko Kallio, Luis Loza, and Christopher Wasko."
 category = "Player Companion"
 publication_date = "2017-03-14"
+aon = "SourceDisplay.aspx?FixedSource=Monster%20Hunter%27s%20Handbook"
 
 [[publication]]
 id = "monster-summoners-handbook"
@@ -1331,6 +1513,7 @@ title = "Monster Summoner's Handbook"
 copyright = "© 2015, Paizo Inc.; Authors: Alexander Augunas, Tyler Beck, Anthony Li, Luis Loza, David N. Ross, Owen K.C. Stephens, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2015-06-29"
+aon = "SourceDisplay.aspx?FixedSource=Monster%20Summoner%27s%20Handbook"
 
 [[publication]]
 id = "mummys-mask-players-guide"
@@ -1338,6 +1521,7 @@ title = "Mummy's Mask Player's Guide"
 copyright = "© 2014, Paizo Inc.; Authors: Adam Daigle and Rob McCreary."
 category = "Adventure Path"
 publication_date = "2014-03-01"
+aon = "SourceDisplay.aspx?FixedSource=Mummy%27s%20Mask%20Player%27s%20Guide"
 
 [[publication]]
 id = "murders-mark"
@@ -1346,6 +1530,7 @@ copyright = "Pathfinder Module: Murder's Mark © 2012, Paizo Publishing, LLC; Au
 category = "Module"
 publication_date = "2012-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Murder%27s%20Mark"
 
 [[publication]]
 id = "mystery-monsters-revisited"
@@ -1353,6 +1538,7 @@ title = "Mystery Monsters Revisited"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Richard Pett, Anthony Pryor, Amber Scott, and Ray Vallese."
 category = "Campaign Setting"
 publication_date = "2012-12-06"
+aon = "SourceDisplay.aspx?FixedSource=Mystery%20Monsters%20Revisited"
 
 [[publication]]
 id = "mythic-adventures"
@@ -1360,6 +1546,7 @@ title = "Mythic Adventures"
 copyright = "Pathfinder Roleplaying Game Mythic Adventures © 2013, Paizo Publishing, LLC; Authors: Jason Bulmahn, Stephen Radney-MacFarland, Sean K Reynolds, Dennis Baker, Jesse Benner, Ben Bruck, Jim Groves, Tim Hitchcock, Tracy Hurley, Jonathan Keith, Jason Nelson, Tom Phillips, Ryan Macklin, F. Wesley Schneider, Amber Scott, Tork Shaw, Russ Taylor, and Ray Vallese."
 category = "RPG"
 publication_date = "2013-08-19"
+aon = "SourceDisplay.aspx?FixedSource=Mythic%20Adventures"
 
 [[publication]]
 id = "mythic-origins"
@@ -1367,6 +1554,7 @@ title = "Mythic Origins"
 copyright = "Pathfinder Player Companion: Mythic Origins © 2013, Paizo Publishing, LLC; Authors: Dennis Baker, Philip Minchin, and Russ Taylor."
 category = "Player Companion"
 publication_date = "2013-09-25"
+aon = "SourceDisplay.aspx?FixedSource=Mythic%20Origins"
 
 [[publication]]
 id = "mythic-realms"
@@ -1374,6 +1562,7 @@ title = "Mythic Realms"
 copyright = "Pathfinder Campaign Setting: Mythic Realms © 2013, Paizo Publishing, LLC; Authors: Benjamin Bruck, Jason Bulmahn, Amanda Hamon, Nicolas Logue, Jason Nelson, F. Wesley Schneider, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2013-09-25"
+aon = "SourceDisplay.aspx?FixedSource=Mythic%20Realms"
 
 [[publication]]
 id = "mythical-monsters-revisited"
@@ -1381,6 +1570,7 @@ title = "Mythical Monsters Revisited"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jonathan H. Keith, Michael Kenway, Jason Nelson, Anthony Pryor, and Greg A. Vaughan."
 category = "Campaign Setting"
 publication_date = "2012-02-01"
+aon = "SourceDisplay.aspx?FixedSource=Mythical%20Monsters%20Revisited"
 
 [[publication]]
 id = "nidal-land-of-shadows"
@@ -1388,6 +1578,7 @@ title = "Nidal, Land of Shadows"
 copyright = "© 2018, Paizo Inc.; Authors: Liane Merciel, with Lyz Liddell, Ron Lundeen, and Mark Moreland."
 category = "Campaign Setting"
 publication_date = "2018-04-15"
+aon = "SourceDisplay.aspx?FixedSource=Nidal%2C%20Land%20of%20Shadows"
 
 [[publication]]
 id = "no-response-from-deepmar"
@@ -1396,6 +1587,7 @@ copyright = "© 2012, Paizo Publishing, LLC; Author: Stephen S. Greer."
 category = "Module"
 publication_date = "2012-04-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=No%20Response%20from%20Deepmar"
 
 [[publication]]
 id = "npc-codex"
@@ -1403,6 +1595,7 @@ title = "NPC Codex"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Jesse Benner, Jason Bulmahn, Adam Daigle, Alex Greenshields, Rob McCreary, Mark Moreland, Jason Nelson, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, and Russ Taylor."
 category = "RPG"
 publication_date = "2012-11-15"
+aon = "SourceDisplay.aspx?FixedSource=NPC%20Codex"
 
 [[publication]]
 id = "numeria-land-of-fallen-stars"
@@ -1410,6 +1603,7 @@ title = "Numeria, Land of Fallen Stars"
 copyright = "Pathfinder Campaign Setting: Numeria, Land of Fallen Stars © 2014, Paizo Inc.; Authors: Jim Groves and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2014-06-25"
+aon = "SourceDisplay.aspx?FixedSource=Numeria%2C%20Land%20of%20Fallen%20Stars"
 
 [[publication]]
 id = "occult-adventures"
@@ -1417,6 +1611,7 @@ title = "Occult Adventures"
 copyright = "Pathfinder Roleplaying Game Occult Adventures © 2015, Paizo Inc.; Authors: John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, John Compton, Adam Daigle, Jim Groves, Thurston Hillman, Eric Hindley, Brandon Hodge, Ben McFarland, Erik Mona, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alex Riggs, Robert Schwalb, Mark Seifter, Russ Taylor, and Steve Townshend."
 category = "RPG"
 publication_date = "2015-07-29"
+aon = "SourceDisplay.aspx?FixedSource=Occult%20Adventures"
 
 [[publication]]
 id = "occult-bestiary"
@@ -1424,6 +1619,7 @@ title = "Occult Bestiary"
 copyright = "Pathfinder Campaign Setting: Occult Bestiary © 2015, Paizo Inc.; Authors: Josh Colon, John Compton, Paris Crenshaw, Adam Daigle, Eleanor Ferron, James Jacobs, Joe Homes, Mikko Kallio, Mike Kimmel, Ron Lundeen, Kate Marshall, Kalervo Oikarinen, Stephen Radney-MacFarland, and F. Wesley Schneider."
 category = "Campaign Setting"
 publication_date = "2015-08-29"
+aon = "SourceDisplay.aspx?FixedSource=Occult%20Bestiary"
 
 [[publication]]
 id = "occult-mysteries"
@@ -1431,6 +1627,7 @@ title = "Occult Mysteries"
 copyright = "Pathfinder Campaign Setting: Occult Mysteries © 2014, Paizo Inc.; Authors: Jason Bulmahn, Crystal Frasier, Jim Groves, Brandon Hodge, James Jacobs, Erik Mona, F. Wesley Schneider, and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2014-05-28"
+aon = "SourceDisplay.aspx?FixedSource=Occult%20Mysteries"
 
 [[publication]]
 id = "occult-origins"
@@ -1438,6 +1635,7 @@ title = "Occult Origins"
 copyright = "Pathfinder Player Companion: Occult Origins © 2015, Paizo Inc.; Authors: Robert Brookes, Ben McFarland, Jason Nelson, and Mark Seifter."
 category = "Player Companion"
 publication_date = "2015-10-21"
+aon = "SourceDisplay.aspx?FixedSource=Occult%20Origins"
 
 [[publication]]
 id = "occult-realms"
@@ -1445,6 +1643,7 @@ title = "Occult Realms"
 copyright = "Pathfinder Campaign Setting: Occult Realms © 2015, Paizo Inc.; Authors: Robert Brookes, Thurston Hillman, Thomas M. Reed, and Mark Seifter."
 category = "Campaign Setting"
 publication_date = "2015-11-18"
+aon = "SourceDisplay.aspx?FixedSource=Occult%20Realms"
 
 [[publication]]
 id = "orcs-of-golarion"
@@ -1452,6 +1651,7 @@ title = "Orcs of Golarion"
 copyright = "Pathfinder Companion: Orcs of Golarion. Copyright 2010, Paizo Publishing, LLC; Authors: Steve Kenson, Rob McCreary, Richard Pett, Sean K Reynolds, and JD Wiker."
 category = "Player Companion"
 publication_date = "2010-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Orcs%20of%20Golarion"
 
 [[publication]]
 id = "osirion-land-of-the-pharaohs"
@@ -1459,6 +1659,7 @@ title = "Osirion, Land of the Pharaohs"
 copyright = "Pathfinder Companion: Osirion, Land of Pharaohs, Copyright 2008, Paizo Publishing, LLC; Authors: Jason Nelson and Todd Stewart."
 category = "Player Companion"
 publication_date = "2008-12-01"
+aon = "SourceDisplay.aspx?FixedSource=Osirion%2C%20Land%20of%20the%20Pharaohs"
 
 [[publication]]
 id = "osirion-legacy-of-the-pharaohs"
@@ -1466,6 +1667,7 @@ title = "Osirion, Legacy of the Pharaohs"
 copyright = "Pathfinder Campaign Setting: Osirion, Legacy of Pharaohs © 2014, Paizo Publishing, LLC; Authors: Alex Greenshields, Amanda Hamon, Jonathan H. Keith, Ron Lundeen, and David N. Ross."
 category = "Campaign Setting"
 publication_date = "2014-01-09"
+aon = "SourceDisplay.aspx?FixedSource=Osirion%2C%20Legacy%20of%20the%20Pharaohs"
 
 [[publication]]
 id = "path-of-the-hellknight"
@@ -1473,6 +1675,7 @@ title = "Path of the Hellknight"
 copyright = "Pathfinder Campaign Setting: Path of the Hellknight © 2016, Paizo Inc.; Author: F. Wesley Schneider."
 category = "Campaign Setting"
 publication_date = "2016-06-27"
+aon = "SourceDisplay.aspx?FixedSource=Path%20of%20the%20Hellknight"
 
 [[publication]]
 id = "pathfinder-1-burnt-offerings"
@@ -1483,6 +1686,7 @@ publication_date = "2007-09-02"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%201%20%20Burnt%20Offerings"
 
 [[publication]]
 id = "pathfinder-10-a-history-of-ashes"
@@ -1493,6 +1697,7 @@ publication_date = "2008-06-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2010%20%20A%20History%20of%20Ashes"
 
 [[publication]]
 id = "pathfinder-100-a-song-of-silver"
@@ -1503,6 +1708,7 @@ publication_date = "2015-12-16"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20100%20%20A%20Song%20of%20Silver"
 
 [[publication]]
 id = "pathfinder-101-the-kintargo-contract"
@@ -1513,6 +1719,7 @@ publication_date = "2016-01-16"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20101%20%20The%20Kintargo%20Contract"
 
 [[publication]]
 id = "pathfinder-102-breaking-the-bones-of-hell"
@@ -1523,6 +1730,7 @@ publication_date = "2016-02-01"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20102%20%20Breaking%20the%20Bones%20of%20Hell"
 
 [[publication]]
 id = "pathfinder-103-the-hellfire-compact"
@@ -1533,6 +1741,7 @@ publication_date = "2016-02-24"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20103%20%20The%20Hellfire%20Compact"
 
 [[publication]]
 id = "pathfinder-104-wrath-of-thrune"
@@ -1543,6 +1752,7 @@ publication_date = "2016-03-23"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20104%20%20Wrath%20of%20Thrune"
 
 [[publication]]
 id = "pathfinder-105-the-inferno-gate"
@@ -1553,6 +1763,7 @@ publication_date = "2016-04-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20105%20%20The%20Inferno%20Gate"
 
 [[publication]]
 id = "pathfinder-106-for-queen-and-empire"
@@ -1563,6 +1774,7 @@ publication_date = "2016-05-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20106%20%20For%20Queen%20and%20Empire"
 
 [[publication]]
 id = "pathfinder-107-scourge-of-the-godclaw"
@@ -1573,6 +1785,7 @@ publication_date = "2016-06-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20107%20%20Scourge%20of%20the%20Godclaw"
 
 [[publication]]
 id = "pathfinder-108-hell-comes-to-westcrown"
@@ -1583,6 +1796,7 @@ publication_date = "2016-07-27"
 series_kind = "adventure-path"
 series = "Hell's Vengeance"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20108%20%20Hell%20Comes%20to%20Westcrown"
 
 [[publication]]
 id = "pathfinder-109-in-search-of-sanity"
@@ -1593,6 +1807,7 @@ publication_date = "2016-08-31"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20109%20%20In%20Search%20of%20Sanity"
 
 [[publication]]
 id = "pathfinder-11-skeletons-of-scarwall"
@@ -1603,6 +1818,7 @@ publication_date = "2008-07-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2011%20%20Skeletons%20of%20Scarwall"
 
 [[publication]]
 id = "pathfinder-110-the-thrushmoor-terror"
@@ -1613,6 +1829,7 @@ publication_date = "2016-09-28"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20110%20%20The%20Thrushmoor%20Terror"
 
 [[publication]]
 id = "pathfinder-111-dreams-of-the-yellow-king"
@@ -1623,6 +1840,7 @@ publication_date = "2016-11-09"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20111%20%20Dreams%20of%20the%20Yellow%20King"
 
 [[publication]]
 id = "pathfinder-112-the-whisper-out-of-time"
@@ -1633,6 +1851,7 @@ publication_date = "2016-12-14"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20112%20%20The%20Whisper%20Out%20of%20Time"
 
 [[publication]]
 id = "pathfinder-113-what-grows-within"
@@ -1643,6 +1862,7 @@ publication_date = "2017-01-25"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20113%20%20What%20Grows%20Within"
 
 [[publication]]
 id = "pathfinder-114-black-stars-beckon"
@@ -1653,6 +1873,7 @@ publication_date = "2017-02-22"
 series_kind = "adventure-path"
 series = "Strange Aeons"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20114%20%20Black%20Stars%20Beckon"
 
 [[publication]]
 id = "pathfinder-115-trail-of-the-hunted"
@@ -1663,6 +1884,7 @@ publication_date = "2017-03-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20115%20%20Trail%20of%20the%20Hunted"
 
 [[publication]]
 id = "pathfinder-116-fangs-of-war"
@@ -1673,6 +1895,7 @@ publication_date = "2017-03-24"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20116%20%20Fangs%20of%20War"
 
 [[publication]]
 id = "pathfinder-117-assault-on-longshadow"
@@ -1683,6 +1906,7 @@ publication_date = "2017-04-26"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20117%20%20Assault%20on%20Longshadow"
 
 [[publication]]
 id = "pathfinder-118-siege-of-stone"
@@ -1693,6 +1917,7 @@ publication_date = "2017-05-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20118%20%20Siege%20of%20Stone"
 
 [[publication]]
 id = "pathfinder-119-prisoners-of-the-blight"
@@ -1703,6 +1928,7 @@ publication_date = "2017-06-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20119%20%20Prisoners%20of%20the%20Blight"
 
 [[publication]]
 id = "pathfinder-12-crown-of-fangs"
@@ -1713,6 +1939,7 @@ publication_date = "2008-08-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2012%20%20Crown%20of%20Fangs"
 
 [[publication]]
 id = "pathfinder-120-vault-of-the-onyx-citadel"
@@ -1723,6 +1950,7 @@ publication_date = "2017-07-14"
 series_kind = "adventure-path"
 series = "Ironfang Invasion"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20120%20%20Vault%20of%20the%20Onyx%20Citadel"
 
 [[publication]]
 id = "pathfinder-121-the-lost-outpost"
@@ -1733,6 +1961,7 @@ publication_date = "2017-08-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20121%20%20The%20Lost%20Outpost"
 
 [[publication]]
 id = "pathfinder-122-into-the-shattered-continent"
@@ -1743,6 +1972,7 @@ publication_date = "2017-09-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20122%20%20Into%20the%20Shattered%20Continent"
 
 [[publication]]
 id = "pathfinder-123-the-flooded-cathedral"
@@ -1753,6 +1983,7 @@ publication_date = "2017-10-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20123%20%20The%20Flooded%20Cathedral"
 
 [[publication]]
 id = "pathfinder-124-city-in-the-deep"
@@ -1763,6 +1994,7 @@ publication_date = "2017-11-13"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20124%20%20City%20in%20the%20Deep"
 
 [[publication]]
 id = "pathfinder-125-tower-of-the-drowned-dead"
@@ -1783,6 +2015,7 @@ publication_date = "2018-01-31"
 series_kind = "adventure-path"
 series = "Ruins of Azlant"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20126%20%20Beyond%20the%20Veiled%20Past"
 
 [[publication]]
 id = "pathfinder-127-crownfall"
@@ -1793,6 +2026,7 @@ publication_date = "2018-02-28"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20127%20%20Crownfall"
 
 [[publication]]
 id = "pathfinder-128-songbird-scion-saboteur"
@@ -1803,6 +2037,7 @@ publication_date = "2018-03-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20128%20%20Songbird%2C%20Scion%2C%20Saboteur"
 
 [[publication]]
 id = "pathfinder-129-the-twilight-child"
@@ -1813,6 +2048,7 @@ publication_date = "2018-04-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20129%20%20The%20Twilight%20Child"
 
 [[publication]]
 id = "pathfinder-13-shadow-in-the-sky"
@@ -1823,6 +2059,7 @@ publication_date = "2008-08-02"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2013%20%20Shadow%20in%20the%20Sky"
 
 [[publication]]
 id = "pathfinder-130-city-in-the-lions-eye"
@@ -1833,6 +2070,7 @@ publication_date = "2018-05-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20130%20%20City%20in%20the%20Lion%27s%20Eye"
 
 [[publication]]
 id = "pathfinder-131-the-reapers-right-hand"
@@ -1843,6 +2081,7 @@ publication_date = "2018-06-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20131%20%20The%20Reaper%27s%20Right%20Hand"
 
 [[publication]]
 id = "pathfinder-132-the-six-legend-soul"
@@ -1853,6 +2092,7 @@ publication_date = "2018-07-15"
 series_kind = "adventure-path"
 series = "War for the Crown"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20132%20%20The%20Six-Legend%20Soul"
 
 [[publication]]
 id = "pathfinder-133-secrets-of-roderics-cove"
@@ -1863,6 +2103,7 @@ publication_date = "2018-08-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20133%20%20Secrets%20of%20Roderic%27s%20Cove"
 
 [[publication]]
 id = "pathfinder-134-it-came-from-hollow-mountain"
@@ -1873,6 +2114,7 @@ publication_date = "2018-09-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20134%20%20It%20Came%20from%20Hollow%20Mountain"
 
 [[publication]]
 id = "pathfinder-135-runeplague"
@@ -1883,6 +2125,7 @@ publication_date = "2018-10-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20135%20%20Runeplague"
 
 [[publication]]
 id = "pathfinder-136-temple-of-the-peacock-spirit"
@@ -1893,6 +2136,7 @@ publication_date = "2018-11-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20136%20%20Temple%20of%20the%20Peacock%20Spirit"
 
 [[publication]]
 id = "pathfinder-137-the-city-outside-of-time"
@@ -1903,6 +2147,7 @@ publication_date = "2018-12-15"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20137%20%20The%20City%20Outside%20of%20Time"
 
 [[publication]]
 id = "pathfinder-138-rise-of-new-thassilon"
@@ -1913,6 +2158,7 @@ publication_date = "2019-01-30"
 series_kind = "adventure-path"
 series = "Return of the Runelords"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20138%20%20Rise%20of%20New%20Thassilon"
 
 [[publication]]
 id = "pathfinder-139-the-dead-road"
@@ -1933,6 +2179,7 @@ publication_date = "2008-09-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2014%20%20Children%20of%20the%20Void"
 
 [[publication]]
 id = "pathfinder-140-eulogy-for-roslars-coffer"
@@ -1943,6 +2190,7 @@ publication_date = "2019-03-27"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20140%20%20Eulogy%20for%20Roslar%27s%20Coffer"
 
 [[publication]]
 id = "pathfinder-141-last-watch"
@@ -1953,6 +2201,7 @@ publication_date = "2019-04-24"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20141%20%20Last%20Watch"
 
 [[publication]]
 id = "pathfinder-142-gardens-of-gallowspire"
@@ -1963,6 +2212,7 @@ publication_date = "2019-05-29"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20142%20%20Gardens%20of%20Gallowspire"
 
 [[publication]]
 id = "pathfinder-143-borne-by-the-suns-grace"
@@ -1973,6 +2223,7 @@ publication_date = "2019-06-26"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20143%20%20Borne%20by%20the%20Sun%27s%20Grace"
 
 [[publication]]
 id = "pathfinder-144-midwives-to-death"
@@ -1983,6 +2234,7 @@ publication_date = "2019-07-26"
 series_kind = "adventure-path"
 series = "Tyrant's Grasp"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%20144%20%20Midwives%20to%20Death"
 
 [[publication]]
 id = "pathfinder-15-the-armageddon-echo"
@@ -1993,6 +2245,7 @@ publication_date = "2008-10-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2015%20%20The%20Armageddon%20Echo"
 
 [[publication]]
 id = "pathfinder-16-endless-night"
@@ -2003,6 +2256,7 @@ publication_date = "2008-11-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2016%20%20Endless%20Night"
 
 [[publication]]
 id = "pathfinder-17-a-memory-of-darkness"
@@ -2013,6 +2267,7 @@ publication_date = "2008-12-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2017%20%20A%20Memory%20of%20Darkness"
 
 [[publication]]
 id = "pathfinder-18-descent-into-midnight"
@@ -2023,6 +2278,7 @@ publication_date = "2009-01-01"
 series_kind = "adventure-path"
 series = "Second Darkness"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2018%20%20Descent%20into%20Midnight"
 
 [[publication]]
 id = "pathfinder-19-howl-of-the-carrion-king"
@@ -2033,6 +2289,7 @@ publication_date = "2009-03-02"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2019%20%20Howl%20of%20the%20Carrion%20King"
 
 [[publication]]
 id = "pathfinder-2-the-skinsaw-murders"
@@ -2043,6 +2300,7 @@ publication_date = "2007-10-01"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%202%20%20The%20Skinsaw%20Murders"
 
 [[publication]]
 id = "pathfinder-20-house-of-the-beast"
@@ -2053,6 +2311,7 @@ publication_date = "2009-03-03"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2020%20%20House%20of%20the%20Beast"
 
 [[publication]]
 id = "pathfinder-21-the-jackals-price"
@@ -2063,6 +2322,7 @@ publication_date = "2009-04-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2021%20%20The%20Jackal%27s%20Price"
 
 [[publication]]
 id = "pathfinder-22-the-end-of-eternity"
@@ -2073,6 +2333,7 @@ publication_date = "2009-05-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2022%20%20The%20End%20of%20Eternity"
 
 [[publication]]
 id = "pathfinder-23-the-impossible-eye"
@@ -2083,6 +2344,7 @@ publication_date = "2009-06-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2023%20%20The%20Impossible%20Eye"
 
 [[publication]]
 id = "pathfinder-24-the-final-wish"
@@ -2093,6 +2355,7 @@ publication_date = "2009-07-01"
 series_kind = "adventure-path"
 series = "Legacy of Fire"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2024%20%20The%20Final%20Wish"
 
 [[publication]]
 id = "pathfinder-25-the-bastards-of-erebus"
@@ -2103,6 +2366,7 @@ publication_date = "2009-08-02"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2025%20%20The%20Bastards%20of%20Erebus"
 
 [[publication]]
 id = "pathfinder-26-the-sixfold-trial"
@@ -2113,6 +2377,7 @@ publication_date = "2009-10-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2026%20%20The%20Sixfold%20Trial"
 
 [[publication]]
 id = "pathfinder-27-what-lies-in-dust"
@@ -2123,6 +2388,7 @@ publication_date = "2009-11-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2027%20%20What%20Lies%20in%20Dust"
 
 [[publication]]
 id = "pathfinder-28-the-infernal-syndrome"
@@ -2133,6 +2399,7 @@ publication_date = "2009-12-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2028%20%20The%20Infernal%20Syndrome"
 
 [[publication]]
 id = "pathfinder-29-mother-of-flies"
@@ -2143,6 +2410,7 @@ publication_date = "2010-01-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2029%20%20Mother%20of%20Flies"
 
 [[publication]]
 id = "pathfinder-3-the-hook-mountain-massacre"
@@ -2153,6 +2421,7 @@ publication_date = "2007-11-01"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%203%20%20The%20Hook%20Mountain%20Massacre"
 
 [[publication]]
 id = "pathfinder-30-the-twice-damned-prince"
@@ -2163,6 +2432,7 @@ publication_date = "2010-02-01"
 series_kind = "adventure-path"
 series = "Council of Thieves"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2030%20%20The%20Twice-Damned%20Prince"
 
 [[publication]]
 id = "pathfinder-31-stolen-land"
@@ -2173,6 +2443,7 @@ publication_date = "2010-03-02"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2031%20%20Stolen%20Land"
 
 [[publication]]
 id = "pathfinder-32-rivers-run-red"
@@ -2183,6 +2454,7 @@ publication_date = "2010-04-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2032%20%20Rivers%20Run%20Red"
 
 [[publication]]
 id = "pathfinder-33-the-varnhold-vanishing"
@@ -2193,6 +2465,7 @@ publication_date = "2010-05-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2033%20%20The%20Varnhold%20Vanishing"
 
 [[publication]]
 id = "pathfinder-34-blood-for-blood"
@@ -2203,6 +2476,7 @@ publication_date = "2010-06-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2034%20%20Blood%20for%20Blood"
 
 [[publication]]
 id = "pathfinder-35-war-of-the-river-kings"
@@ -2213,6 +2487,7 @@ publication_date = "2010-06-30"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2035%20%20War%20of%20the%20River%20Kings"
 
 [[publication]]
 id = "pathfinder-36-sound-of-a-thousand-screams"
@@ -2223,6 +2498,7 @@ publication_date = "2010-07-01"
 series_kind = "adventure-path"
 series = "Kingmaker"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2036%20%20Sound%20of%20a%20Thousand%20Screams"
 
 [[publication]]
 id = "pathfinder-37-souls-for-smugglers-shiv"
@@ -2233,6 +2509,7 @@ publication_date = "2010-07-02"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2037%20%20Souls%20for%20Smuggler%27s%20Shiv"
 
 [[publication]]
 id = "pathfinder-38-racing-to-ruin"
@@ -2243,6 +2520,7 @@ publication_date = "2010-09-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2038%20%20Racing%20to%20Ruin"
 
 [[publication]]
 id = "pathfinder-39-the-city-of-seven-spears"
@@ -2253,6 +2531,7 @@ publication_date = "2010-10-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2039%20%20The%20City%20of%20Seven%20Spears"
 
 [[publication]]
 id = "pathfinder-4-fortress-of-the-stone-giants"
@@ -2263,6 +2542,7 @@ publication_date = "2007-12-01"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%204%20%20Fortress%20of%20the%20Stone%20Giants"
 
 [[publication]]
 id = "pathfinder-40-vaults-of-madness"
@@ -2273,6 +2553,7 @@ publication_date = "2010-12-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2040%20%20Vaults%20of%20Madness"
 
 [[publication]]
 id = "pathfinder-41-the-thousand-fangs-below"
@@ -2283,6 +2564,7 @@ publication_date = "2011-01-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2041%20%20The%20Thousand%20Fangs%20Below"
 
 [[publication]]
 id = "pathfinder-42-sanctum-of-the-serpent-god"
@@ -2293,6 +2575,7 @@ publication_date = "2011-02-01"
 series_kind = "adventure-path"
 series = "Serpent's Skull"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2042%20%20Sanctum%20of%20the%20Serpent%20God"
 
 [[publication]]
 id = "pathfinder-43-haunting-of-harrowstone"
@@ -2303,6 +2586,7 @@ publication_date = "2011-03-02"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2043%20%20Haunting%20of%20Harrowstone"
 
 [[publication]]
 id = "pathfinder-44-trial-of-the-beast"
@@ -2313,6 +2597,7 @@ publication_date = "2011-04-01"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2044%20%20Trial%20of%20the%20Beast"
 
 [[publication]]
 id = "pathfinder-45-broken-moon"
@@ -2323,6 +2608,7 @@ publication_date = "2011-05-10"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2045%20%20Broken%20Moon"
 
 [[publication]]
 id = "pathfinder-46-wake-of-the-watcher"
@@ -2333,6 +2619,7 @@ publication_date = "2011-06-10"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2046%20%20Wake%20of%20the%20Watcher"
 
 [[publication]]
 id = "pathfinder-47-ashes-at-dawn"
@@ -2343,6 +2630,7 @@ publication_date = "2011-07-06"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2047%20%20Ashes%20at%20Dawn"
 
 [[publication]]
 id = "pathfinder-48-shadows-of-gallowspire"
@@ -2353,6 +2641,7 @@ publication_date = "2011-07-26"
 series_kind = "adventure-path"
 series = "Carrion Crown"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2048%20%20Shadows%20of%20Gallowspire"
 
 [[publication]]
 id = "pathfinder-49-the-brinewall-legacy"
@@ -2363,6 +2652,7 @@ publication_date = "2011-07-28"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2049%20%20The%20Brinewall%20Legacy"
 
 [[publication]]
 id = "pathfinder-5-sins-of-the-saviors"
@@ -2373,6 +2663,7 @@ publication_date = "2008-01-01"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%205%20%20Sins%20of%20the%20Saviors"
 
 [[publication]]
 id = "pathfinder-50-night-of-frozen-shadows"
@@ -2383,6 +2674,7 @@ publication_date = "2011-09-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2050%20%20Night%20of%20Frozen%20Shadows"
 
 [[publication]]
 id = "pathfinder-51-the-hungry-storm"
@@ -2393,6 +2685,7 @@ publication_date = "2011-10-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2051%20%20The%20Hungry%20Storm"
 
 [[publication]]
 id = "pathfinder-52-forest-of-spirits"
@@ -2403,6 +2696,7 @@ publication_date = "2011-11-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2052%20%20Forest%20of%20Spirits"
 
 [[publication]]
 id = "pathfinder-53-tide-of-honor"
@@ -2413,6 +2707,7 @@ publication_date = "2011-12-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2053%20%20Tide%20of%20Honor"
 
 [[publication]]
 id = "pathfinder-54-the-empty-throne"
@@ -2423,6 +2718,7 @@ publication_date = "2012-01-01"
 series_kind = "adventure-path"
 series = "Jade Regent"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2054%20%20The%20Empty%20Throne"
 
 [[publication]]
 id = "pathfinder-55-the-wormwood-mutiny"
@@ -2433,6 +2729,7 @@ publication_date = "2012-02-02"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2055%20%20The%20Wormwood%20Mutiny"
 
 [[publication]]
 id = "pathfinder-56-raiders-of-the-fever-sea"
@@ -2443,6 +2740,7 @@ publication_date = "2012-03-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2056%20%20Raiders%20of%20the%20Fever%20Sea"
 
 [[publication]]
 id = "pathfinder-57-tempest-rising"
@@ -2453,6 +2751,7 @@ publication_date = "2012-04-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2057%20%20Tempest%20Rising"
 
 [[publication]]
 id = "pathfinder-58-island-of-empty-eyes"
@@ -2463,6 +2762,7 @@ publication_date = "2012-05-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2058%20%20Island%20of%20Empty%20Eyes"
 
 [[publication]]
 id = "pathfinder-59-the-price-of-infamy"
@@ -2473,6 +2773,7 @@ publication_date = "2012-06-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2059%20%20The%20Price%20of%20Infamy"
 
 [[publication]]
 id = "pathfinder-6-spires-of-xin-shalast"
@@ -2483,6 +2784,7 @@ publication_date = "2008-02-01"
 series_kind = "adventure-path"
 series = "Rise of the Runelords"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%206%20%20Spires%20of%20Xin-Shalast"
 
 [[publication]]
 id = "pathfinder-60-from-hells-heart"
@@ -2493,6 +2795,7 @@ publication_date = "2012-07-01"
 series_kind = "adventure-path"
 series = "Skull & Shackles"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2060%20%20From%20Hell%27s%20Heart"
 
 [[publication]]
 id = "pathfinder-61-shards-of-sin"
@@ -2503,6 +2806,7 @@ publication_date = "2012-08-02"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2061%20%20Shards%20of%20Sin"
 
 [[publication]]
 id = "pathfinder-62-curse-of-the-ladys-light"
@@ -2513,6 +2817,7 @@ publication_date = "2012-09-01"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2062%20%20Curse%20of%20the%20Lady%27s%20Light"
 
 [[publication]]
 id = "pathfinder-63-the-asylum-stone"
@@ -2523,6 +2828,7 @@ publication_date = "2012-10-11"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2063%20%20The%20Asylum%20Stone"
 
 [[publication]]
 id = "pathfinder-64-beyond-the-doomsday-door"
@@ -2533,6 +2839,7 @@ publication_date = "2012-11-15"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2064%20%20Beyond%20the%20Doomsday%20Door"
 
 [[publication]]
 id = "pathfinder-65-into-the-nightmare-rift"
@@ -2543,6 +2850,7 @@ publication_date = "2012-12-06"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2065%20%20Into%20the%20Nightmare%20Rift"
 
 [[publication]]
 id = "pathfinder-66-the-dead-heart-of-xin"
@@ -2553,6 +2861,7 @@ publication_date = "2013-01-22"
 series_kind = "adventure-path"
 series = "Shattered Star"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2066%20%20The%20Dead%20Heart%20of%20Xin"
 
 [[publication]]
 id = "pathfinder-67-the-snows-of-summer"
@@ -2563,6 +2872,7 @@ publication_date = "2013-02-13"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2067%20%20The%20Snows%20of%20Summer"
 
 [[publication]]
 id = "pathfinder-68-the-shackled-hut"
@@ -2573,6 +2883,7 @@ publication_date = "2013-03-08"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2068%20%20The%20Shackled%20Hut"
 
 [[publication]]
 id = "pathfinder-69-maiden-mother-crone"
@@ -2583,6 +2894,7 @@ publication_date = "2013-04-16"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2069%20%20Maiden%2C%20Mother%2C%20Crone"
 
 [[publication]]
 id = "pathfinder-7-edge-of-anarchy"
@@ -2593,6 +2905,7 @@ publication_date = "2008-02-02"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%207%20%20Edge%20of%20Anarchy"
 
 [[publication]]
 id = "pathfinder-70-the-frozen-stars"
@@ -2603,6 +2916,7 @@ publication_date = "2013-05-17"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2070%20%20The%20Frozen%20Stars"
 
 [[publication]]
 id = "pathfinder-71-rasputin-must-die"
@@ -2613,6 +2927,7 @@ publication_date = "2013-06-13"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2071%20%20Rasputin%20Must%20Die%21"
 
 [[publication]]
 id = "pathfinder-72-the-witch-queens-revenge"
@@ -2623,6 +2938,7 @@ publication_date = "2013-07-11"
 series_kind = "adventure-path"
 series = "Reign of Winter"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2072%20%20The%20Witch%20Queen%27s%20Revenge"
 
 [[publication]]
 id = "pathfinder-73-the-worldwound-incursion"
@@ -2633,6 +2949,7 @@ publication_date = "2013-08-19"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2073%20%20The%20Worldwound%20Incursion"
 
 [[publication]]
 id = "pathfinder-74-sword-of-valor"
@@ -2643,6 +2960,7 @@ publication_date = "2013-09-25"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2074%20%20Sword%20of%20Valor"
 
 [[publication]]
 id = "pathfinder-75-demons-heresy"
@@ -2653,6 +2971,7 @@ publication_date = "2013-10-21"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2075%20%20Demon%27s%20Heresy"
 
 [[publication]]
 id = "pathfinder-76-the-midnight-isles"
@@ -2663,6 +2982,7 @@ publication_date = "2013-12-11"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2076%20%20The%20Midnight%20Isles"
 
 [[publication]]
 id = "pathfinder-77-herald-of-the-ivory-labyrinth"
@@ -2673,6 +2993,7 @@ publication_date = "2014-01-09"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2077%20%20Herald%20of%20the%20Ivory%20Labyrinth"
 
 [[publication]]
 id = "pathfinder-78-city-of-locusts"
@@ -2683,6 +3004,7 @@ publication_date = "2014-02-06"
 series_kind = "adventure-path"
 series = "Wrath of the Righteous"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2078%20%20City%20of%20Locusts"
 
 [[publication]]
 id = "pathfinder-79-the-half-dead-city"
@@ -2693,6 +3015,7 @@ publication_date = "2014-03-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2079%20%20The%20Half-Dead%20City"
 
 [[publication]]
 id = "pathfinder-8-seven-days-to-the-grave"
@@ -2703,6 +3026,7 @@ publication_date = "2008-04-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%208%20%20Seven%20Days%20to%20the%20Grave"
 
 [[publication]]
 id = "pathfinder-80-empty-graves"
@@ -2713,6 +3037,7 @@ publication_date = "2014-04-29"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2080%20%20Empty%20Graves"
 
 [[publication]]
 id = "pathfinder-81-shifting-sands"
@@ -2723,6 +3048,7 @@ publication_date = "2014-05-28"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2081%20%20Shifting%20Sands"
 
 [[publication]]
 id = "pathfinder-82-secrets-of-the-sphinx"
@@ -2733,6 +3059,7 @@ publication_date = "2014-06-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2082%20%20Secrets%20of%20the%20Sphinx"
 
 [[publication]]
 id = "pathfinder-83-the-slave-trenches-of-hakotep"
@@ -2743,6 +3070,7 @@ publication_date = "2014-07-25"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2083%20%20The%20Slave%20Trenches%20of%20Hakotep"
 
 [[publication]]
 id = "pathfinder-84-pyramid-of-the-sky-pharaoh"
@@ -2753,6 +3081,7 @@ publication_date = "2014-08-14"
 series_kind = "adventure-path"
 series = "Mummy's Mask"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2084%20%20Pyramid%20of%20the%20Sky%20Pharaoh"
 
 [[publication]]
 id = "pathfinder-85-fires-of-creation"
@@ -2763,6 +3092,7 @@ publication_date = "2014-09-10"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2085%20%20Fires%20of%20Creation"
 
 [[publication]]
 id = "pathfinder-86-lords-of-rust"
@@ -2773,6 +3103,7 @@ publication_date = "2014-10-05"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2086%20%20Lords%20of%20Rust"
 
 [[publication]]
 id = "pathfinder-87-the-choking-tower"
@@ -2783,6 +3114,7 @@ publication_date = "2014-10-22"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2087%20%20The%20Choking%20Tower"
 
 [[publication]]
 id = "pathfinder-88-valley-of-the-brain-collectors"
@@ -2793,6 +3125,7 @@ publication_date = "2014-11-22"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2088%20%20Valley%20of%20the%20Brain%20Collectors"
 
 [[publication]]
 id = "pathfinder-89-palace-of-fallen-stars"
@@ -2803,6 +3136,7 @@ publication_date = "2014-12-17"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2089%20%20Palace%20of%20Fallen%20Stars"
 
 [[publication]]
 id = "pathfinder-9-escape-from-old-korvosa"
@@ -2813,6 +3147,7 @@ publication_date = "2008-05-01"
 series_kind = "adventure-path"
 series = "Curse of the Crimson Throne"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%209%20%20Escape%20from%20Old%20Korvosa"
 
 [[publication]]
 id = "pathfinder-90-the-divinity-drive"
@@ -2823,6 +3158,7 @@ publication_date = "2015-01-17"
 series_kind = "adventure-path"
 series = "Iron Gods"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2090%20%20The%20Divinity%20Drive"
 
 [[publication]]
 id = "pathfinder-91-battle-of-bloodmarch-hills"
@@ -2833,6 +3169,7 @@ publication_date = "2015-02-25"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2091%20%20Battle%20of%20Bloodmarch%20Hills"
 
 [[publication]]
 id = "pathfinder-92-the-hill-giants-pledge"
@@ -2843,6 +3180,7 @@ publication_date = "2015-04-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2092%20%20The%20Hill%20Giant%27s%20Pledge"
 
 [[publication]]
 id = "pathfinder-93-forge-of-the-giant-god"
@@ -2853,6 +3191,7 @@ publication_date = "2015-05-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2093%20%20Forge%20of%20the%20Giant%20God"
 
 [[publication]]
 id = "pathfinder-94-ice-tomb-of-the-giant-queen"
@@ -2863,6 +3202,7 @@ publication_date = "2015-06-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "4"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2094%20%20Ice%20Tomb%20of%20the%20Giant%20Queen"
 
 [[publication]]
 id = "pathfinder-95-anvil-of-fire"
@@ -2873,6 +3213,7 @@ publication_date = "2015-07-29"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "5"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2095%20%20Anvil%20of%20Fire"
 
 [[publication]]
 id = "pathfinder-96-shadow-of-the-storm-tyrant"
@@ -2883,6 +3224,7 @@ publication_date = "2015-08-15"
 series_kind = "adventure-path"
 series = "Giantslayer"
 series_number = "6"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2096%20%20Shadow%20of%20the%20Storm%20Tyrant"
 
 [[publication]]
 id = "pathfinder-97-in-hells-bright-shadow"
@@ -2893,6 +3235,7 @@ publication_date = "2015-09-10"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "1"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2097%20%20In%20Hell%27s%20Bright%20Shadow"
 
 [[publication]]
 id = "pathfinder-98-turn-of-the-torrent"
@@ -2903,6 +3246,7 @@ publication_date = "2015-09-30"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "2"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2098%20%20Turn%20of%20the%20Torrent"
 
 [[publication]]
 id = "pathfinder-99-dance-of-the-damned"
@@ -2913,6 +3257,7 @@ publication_date = "2015-11-18"
 series_kind = "adventure-path"
 series = "Hell's Rebels"
 series_number = "3"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20%2099%20%20Dance%20of%20the%20Damned"
 
 [[publication]]
 id = "pathfinder-campaign-setting"
@@ -2920,6 +3265,7 @@ title = "Pathfinder Campaign Setting"
 copyright = "Pathfinder Chronicles Campaign Setting. Copyright 2008, Paizo Publishing, LLC; Authors: Mike McArtor, Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, F. Wesley Schneider, Leandra Christine Schneider, David Schwartz, Amber E. Scott, Stan!, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, JD Wiker.; The Pathfinder Chronicles Campaign Setting Copyright 2008, Paizo Publishing; Author: Stan!, Keith Baker, Wolfgang Baur, Clinton J. Boomer, Jason Bulmahn, Joshua J. Frost, Ed Greenwood, Stephen S. Greer, Jeff Grubb, James Jacobs, Michael Kortes, Tito Leati, Mike McArtor, Rob McCreary, Erik Mona, Jason Eric Nelson, Jeff Quick, Sean K Reynolds, David Schwartz, Leandra Christine Schneider, F. Wesley Schneider, Amber E. Scott, Owen K.C. Stephens, Todd Stewart, James L. Sutter, Greg A. Vaughan, Jeremy Walker, JD Wiker."
 category = "Campaign Setting"
 publication_date = "2008-09-01"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20Campaign%20Setting"
 
 [[publication]]
 id = "pathfinder-society-field-guide"
@@ -2927,6 +3273,7 @@ title = "Pathfinder Society Field Guide"
 copyright = "Pathfinder Campaign Setting: Pathfinder Society Field Guide. © 2011, Paizo Publishing, LLC. Authors: Erik Mona, Mark Moreland, Russ Taylor, and Larry Wilhelm."
 category = "Campaign Setting"
 publication_date = "2011-07-27"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20Society%20Field%20Guide"
 
 [[publication]]
 id = "pathfinder-society-primer"
@@ -2934,6 +3281,7 @@ title = "Pathfinder Society Primer"
 copyright = "Pathfinder Player Companion: Pathfinder Society Primer © 2013, Paizo Publishing, LLC; Authors: John Compton and Mark Moreland."
 category = "Player Companion"
 publication_date = "2013-07-11"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20Society%20Primer"
 
 [[publication]]
 id = "pathfinder-society-s03-10-the-immortal-connundrum"
@@ -2949,6 +3297,7 @@ title = "Pathfinder Unchained"
 copyright = "Pathfinder Roleplaying Game Pathfinder Unchained © 2015, Paizo Inc.; Authors: Dennis Baker, Jesse Benner, Ross Beyers, Logan Bonner, Jason Bulmahn, Robert Emerson, Tim Hitchcock, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Robert Schwalb, Mark Seifter, and Russ Taylor."
 category = "RPG"
 publication_date = "2015-04-29"
+aon = "SourceDisplay.aspx?FixedSource=Pathfinder%20Unchained"
 
 [[publication]]
 id = "paths-of-prestige"
@@ -2956,6 +3305,7 @@ title = "Paths of Prestige"
 copyright = "Pathfinder Campaign Setting: Paths of Prestige © 2012, Paizo Publishing, LLC; Authors: Benjamin Bruck, Jason Bulmahn, Matt Goodall, and Jason Nelson."
 category = "Campaign Setting"
 publication_date = "2012-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Paths%20of%20Prestige"
 
 [[publication]]
 id = "paths-of-the-righteous"
@@ -2963,6 +3313,7 @@ title = "Paths of the Righteous"
 copyright = "© 2016, Paizo Inc.; Authors: Alexander Augunas, John Compton, Jenny Jarzabski, Isabelle Lee, Stephen Rowe, and Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2016-12-14"
+aon = "SourceDisplay.aspx?FixedSource=Paths%20of%20the%20Righteous"
 
 [[publication]]
 id = "people-of-the-north"
@@ -2970,6 +3321,7 @@ title = "People of the North"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Matthew Goodall, Shaun Hocking, Rob McCreary, Philip Minchin, and William Thrasher."
 category = "Player Companion"
 publication_date = "2013-01-22"
+aon = "SourceDisplay.aspx?FixedSource=People%20of%20the%20North"
 
 [[publication]]
 id = "people-of-the-river"
@@ -2977,6 +3329,7 @@ title = "People of the River"
 copyright = "Pathfinder Player Companion: People of the River © 2014, Paizo Inc.; Authors: Tim Akers, Jason Brick, Ethan Day-Jones, James Jacobs, Nick Salestrom, David Schwartz, and William Thrasher."
 category = "Player Companion"
 publication_date = "2014-07-25"
+aon = "SourceDisplay.aspx?FixedSource=People%20of%20the%20River"
 
 [[publication]]
 id = "people-of-the-sands"
@@ -2984,6 +3337,7 @@ title = "People of the Sands"
 copyright = "Pathfinder Player Companion: People of the Sands © 2013, Paizo Publishing, LLC; Authors: Shaun Hocking, Rob McCreary, and Jason Nelson."
 category = "Player Companion"
 publication_date = "2014-01-09"
+aon = "SourceDisplay.aspx?FixedSource=People%20of%20the%20Sands"
 
 [[publication]]
 id = "people-of-the-stars"
@@ -2991,6 +3345,7 @@ title = "People of the Stars"
 copyright = "© 2014, Paizo Inc.; Authors: Ethan Day-Jones, Jim Groves, Jonathan H. Keith, Andrew Romine, David N. Ross, and James L. Sutter."
 category = "Player Companion"
 publication_date = "2014-08-14"
+aon = "SourceDisplay.aspx?FixedSource=People%20of%20the%20Stars"
 
 [[publication]]
 id = "people-of-the-wastes"
@@ -2998,6 +3353,7 @@ title = "People of the Wastes"
 copyright = "Pathfinder Player Companion: People of the Wastes © 2017, Paizo Inc.; Authors: Logan Bonner, John Compton, Nathan King, Luis Loza, Christopher Wasko, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2017-11-14"
+aon = "SourceDisplay.aspx?FixedSource=People%20of%20the%20Wastes"
 
 [[publication]]
 id = "pirates-of-the-inner-sea"
@@ -3005,6 +3361,7 @@ title = "Pirates of the Inner Sea"
 copyright = "© 2012, Paizo Publishing, LLC. All Rights Reserved. Paizo Publishing, LLC, the Paizo golem logo, Pathfinder, and GameMastery are registered trademarks of Paizo Publishing, LLC; Pathfinder Adventure Path, Pathfinder Campaign Setting, Pathfinder Module, Pathfinder Player Companion, Pathfinder Roleplaying Game, Pathfinder Society, and Pathfinder Tales are trademarks of Paizo Publishing, LLC."
 category = "Player Companion"
 publication_date = "2012-02-02"
+aon = "SourceDisplay.aspx?FixedSource=Pirates%20of%20the%20Inner%20Sea"
 
 [[publication]]
 id = "planar-adventures"
@@ -3012,6 +3369,7 @@ title = "Planar Adventures"
 copyright = "Pathfinder Roleplaying Game Planar Adventures © 2018, Paizo Inc.; Authors: Robert Brookes, John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, James Jacobs, Isabelle Lee, Lyz Liddell, Ron Lundeen, Joe Pasini, Lacy Pellazar, Jessica Price, Mark Seifter, F. Wesley Schneider, Todd Stewart, James L. Sutter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2018-06-21"
+aon = "SourceDisplay.aspx?FixedSource=Planar%20Adventures"
 
 [[publication]]
 id = "plane-hoppers-handbook"
@@ -3019,6 +3377,7 @@ title = "Plane-Hopper's Handbook"
 copyright = "Pathfinder Player Companion: Plane-Hopper’s Handbook © 2018, Paizo Inc.; Authors: James Case, John Compton, Leo Glass, Avi Kool, Adrian Ng, Lacy Pellazar, Daniel Reed, Mikhail Rekun, Amber E. Scott, Tork Shaw, and Linda Zayas-Palmer."
 category = "Player Companion"
 publication_date = "2018-09-15"
+aon = "SourceDisplay.aspx?FixedSource=Plane-Hopper%27s%20Handbook"
 
 [[publication]]
 id = "planes-of-power"
@@ -3026,6 +3385,7 @@ title = "Planes of Power"
 copyright = "Pathfinder Campaign Setting: Planes of Power © 2016, Paizo Inc.; Authors: John Compton, Paris Crenshaw, Eleanor Ferron, Thurston Hillman, and Jessica Price."
 category = "Campaign Setting"
 publication_date = "2016-09-28"
+aon = "SourceDisplay.aspx?FixedSource=Planes%20of%20Power"
 
 [[publication]]
 id = "plunder-and-peril"
@@ -3041,6 +3401,7 @@ title = "Potions and Poisons"
 copyright = "Pathfinder Player Companion: Potions & Poisons © 2017, Paizo Inc.; Authors: Kate Baker, Eleanor Ferron, Nathan King, Lyz Liddell, Luis Loza, Alex Putnam, Alex Riggs, and David Schwartz."
 category = "Player Companion"
 publication_date = "2017-12-13"
+aon = "SourceDisplay.aspx?FixedSource=Potions%20and%20Poisons"
 
 [[publication]]
 id = "psychic-anthology"
@@ -3048,6 +3409,7 @@ title = "Psychic Anthology"
 copyright = "© 2017, Paizo Inc.; Authors: Alexander Augunas, Isabelle Lee, Luis Loza, Alex Riggs, Mark Seifter, Loren Sieg, and Jeremy Smith."
 category = "Player Companion"
 publication_date = "2017-02-08"
+aon = "SourceDisplay.aspx?FixedSource=Psychic%20Anthology"
 
 [[publication]]
 id = "qadira-gateway-to-the-east"
@@ -3055,6 +3417,7 @@ title = "Qadira, Gateway to the East"
 copyright = "Pathfinder Companion: Qadira, Gateway to the East. Copyright 2009, Paizo Publishing, LLC; Author: Brian Cortijo."
 category = "Player Companion"
 publication_date = "2009-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Qadira%2C%20Gateway%20to%20the%20East"
 
 [[publication]]
 id = "qadira-jewel-of-the-east"
@@ -3062,6 +3425,7 @@ title = "Qadira, Jewel of the East"
 copyright = "© 2016, Paizo Inc.; Authors: Jessica Price, with John Compton."
 category = "Campaign Setting"
 publication_date = "2017-01-25"
+aon = "SourceDisplay.aspx?FixedSource=Qadira%2C%20Jewel%20of%20the%20East"
 
 [[publication]]
 id = "quests-and-campaigns"
@@ -3076,6 +3440,7 @@ title = "Ranged Tactics Toolbox"
 copyright = "Pathfinder Player Companion: Ranged Tactics Toolbox © 2014, Paizo Inc.; Authors: David N. Ross, David Schwartz, and Kaitlyn Sprague."
 category = "Player Companion"
 publication_date = "2014-11-22"
+aon = "SourceDisplay.aspx?FixedSource=Ranged%20Tactics%20Toolbox"
 
 [[publication]]
 id = "realm-of-the-fellnight-queen"
@@ -3084,6 +3449,7 @@ copyright = "Pathfinder Module: Realm of the Fellknight Queen. © 2010, Paizo Pu
 category = "Module"
 publication_date = "2010-02-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Realm%20of%20the%20Fellnight%20Queen"
 
 [[publication]]
 id = "reign-of-winter-players-guide"
@@ -3091,6 +3457,7 @@ title = "Reign of Winter Player's Guide"
 copyright = "© 2013, Paizo Publishing, LLC; Author: Adam Daigle et al."
 category = "Adventure Path"
 publication_date = "2013-02-01"
+aon = "SourceDisplay.aspx?FixedSource=Reign%20of%20Winter%20Player%27s%20Guide"
 
 [[publication]]
 id = "return-of-the-runelords-players-guide"
@@ -3098,6 +3465,7 @@ title = "Return of the Runelords Players Guide"
 copyright = "© 2018, Paizo Inc.; Author: James Jacobs."
 category = "Adventure Path"
 publication_date = "2018-09-05"
+aon = "SourceDisplay.aspx?FixedSource=Return%20of%20the%20Runelords%20Players%20Guide"
 
 [[publication]]
 id = "revenge-of-the-kobold-king"
@@ -3106,6 +3474,7 @@ copyright = "Pathfinder Module D1.5: Revenge of the Kobold King, Copyright 2008,
 category = "Module"
 publication_date = "2008-11-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Revenge%20of%20the%20Kobold%20King"
 
 [[publication]]
 id = "rise-of-the-runelords-anniversary-edition"
@@ -3113,6 +3482,7 @@ title = "Rise of the Runelords Anniversary Edition"
 copyright = "Pathfinder Adventure Path: Rise of the Runelords Anniversary Edition © 2012, Paizo Publishing, LLC; Authors: Wolfgang Baur, Stephen S. Greer, James Jacobs, Nicolas Logue, Richard Pett, and Greg A. Vaughan.; © 2012, Paizo Publishing, LLC; Authors: Wolfgang Baur, Stephen S. Greer, James Jacobs, Nicolas Logue, Richard Pett, and Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2012-09-02"
+aon = "SourceDisplay.aspx?FixedSource=Rise%20of%20the%20Runelords%20Anniversary%20Edition"
 
 [[publication]]
 id = "rise-of-the-runelords-anniversary-edition-players-guide"
@@ -3120,6 +3490,7 @@ title = "Rise of the Runelords Anniversary Edition Player's Guide"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: Adam Daigle and James L. Sutter."
 category = "Adventure Path"
 publication_date = "2012-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Rise%20of%20the%20Runelords%20Anniversary%20Edition%20Player%27s%20Guide"
 
 [[publication]]
 id = "rise-of-the-runelords-players-guide"
@@ -3127,6 +3498,7 @@ title = "Rise of the Runelords Player's Guide"
 copyright = "© 2007, Paizo Publishing LLC. Author: James Jacobs and Mike McArtor.; Rise of the Runelords Player’s Guide. Copyright 2007 Paizo Publishing LLC. Author F. Wesley Schneider."
 category = "Adventure Path"
 publication_date = "2007-09-01"
+aon = "SourceDisplay.aspx?FixedSource=Rise%20of%20the%20Runelords%20Player%27s%20Guide"
 
 [[publication]]
 id = "rival-guide"
@@ -3134,6 +3506,7 @@ title = "Rival Guide"
 copyright = "Pathfinder Campaign Setting: Rival Guide. © 2011, Paizo Publishing, LLC. Authors: Brian Cortijo, Adam Daigle, Tim Hitchcock, Brandon Hodge, Colin McComb, Jason Nelson, Amber Scott, Neil Spicer, and Todd Stewart."
 category = "Campaign Setting"
 publication_date = "2011-05-10"
+aon = "SourceDisplay.aspx?FixedSource=Rival%20Guide"
 
 [[publication]]
 id = "rivers-into-darkness"
@@ -3149,6 +3522,7 @@ title = "Ruins of Azlant Player's Guide"
 copyright = "© 2017, Paizo Inc.; Author: Adam Daigle."
 category = "Adventure Path"
 publication_date = "2017-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Ruins%20of%20Azlant%20Player%27s%20Guide"
 
 [[publication]]
 id = "sargava-the-lost-colony"
@@ -3156,6 +3530,7 @@ title = "Sargava, the Lost Colony"
 copyright = "Pathfinder Companion: Sargava, the Lost Colony. Copyright 2010, Paizo Publishing, LLC; Author: JD Wiker."
 category = "Player Companion"
 publication_date = "2010-06-01"
+aon = "SourceDisplay.aspx?FixedSource=Sargava%2C%20the%20Lost%20Colony"
 
 [[publication]]
 id = "second-darkness-players-guide"
@@ -3163,6 +3538,7 @@ title = "Second Darkness Player's Guide"
 copyright = "© 2008, Paizo Publishing, LLC; Authors: James Jacobs, F. Wesley Schneider, Amber Scott, Greg A. Vaughan.; Pathfinder Companion: Second Darkness Player’s Guide. Copyright 2008, Paizo Publishing, LLC; Authors: James Jacobs, F. Wesley Schneider, Amber Scott, Greg A. Vaughan."
 category = "Adventure Path"
 publication_date = "2008-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Second%20Darkness%20Player%27s%20Guide"
 
 [[publication]]
 id = "seekers-of-secrets"
@@ -3170,6 +3546,7 @@ title = "Seekers of Secrets"
 copyright = "Pathfinder Chronicles: Seekers of Secrets. Copyright 2009, Paizo Publishing, LLC; Authors: Tim Hitchcock, Erik Mona, Sean K Reynolds, James L. Sutter, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2009-10-01"
+aon = "SourceDisplay.aspx?FixedSource=Seekers%20of%20Secrets"
 
 [[publication]]
 id = "seers-of-the-drowned-city"
@@ -3178,6 +3555,7 @@ copyright = "© 2016, Paizo Inc.; Author: Nicholas Wasko."
 category = "Module"
 publication_date = "2016-11-21"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Seers%20of%20the%20Drowned%20City"
 
 [[publication]]
 id = "serpents-skull-players-guide"
@@ -3185,6 +3563,7 @@ title = "Serpent's Skull Player's Guide"
 copyright = "Serpent's Skull Player's Guide: Section 15 notice pending; Open Game Content used under the OGL."
 category = "Adventure Path"
 publication_date = "2010-07-01"
+aon = "SourceDisplay.aspx?FixedSource=Serpent%27s%20Skull%20Player%27s%20Guide"
 
 [[publication]]
 id = "seven-swords-of-sin"
@@ -3193,6 +3572,7 @@ copyright = "GameMastery Module D2: Seven Swords of Sin. Copyright 2007 Paizo Pu
 category = "Module"
 publication_date = "2007-12-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Seven%20Swords%20of%20Sin"
 
 [[publication]]
 id = "shattered-star-players-guide"
@@ -3200,6 +3580,7 @@ title = "Shattered Star Player's Guide"
 copyright = "© 2012, Paizo Publishing, LLC; Author: Adam Daigle, Mark Moreland, F. Wesley Schneider, James L Sutter."
 category = "Adventure Path"
 publication_date = "2012-08-01"
+aon = "SourceDisplay.aspx?FixedSource=Shattered%20Star%20Player%27s%20Guide"
 
 [[publication]]
 id = "ships-of-the-inner-sea"
@@ -3207,6 +3588,7 @@ title = "Ships of the Inner Sea"
 copyright = "Pathfinder Campaign Setting: Ships of the Inner Sea © 2014, Paizo Inc.; Authors: Benjamin Bruck, Paris Crenshaw, Chris A. Jackson, Amanda Hamon Kunz, Philip A. Lee, and John Mangrum."
 category = "Campaign Setting"
 publication_date = "2014-10-22"
+aon = "SourceDisplay.aspx?FixedSource=Ships%20of%20the%20Inner%20Sea"
 
 [[publication]]
 id = "skull-and-shackles-players-guide"
@@ -3221,6 +3603,7 @@ title = "Spymaster's Handbook"
 copyright = "Pathfinder Player Companion: Spymaster’s Handbook © 2016, Paizo Inc.; Authors: Alexander Augunas, David N. Ross, and Owen K.C. Stephens."
 category = "Player Companion"
 publication_date = "2016-06-27"
+aon = "SourceDisplay.aspx?FixedSource=Spymaster%27s%20Handbook"
 
 [[publication]]
 id = "strange-aeons-players-guide"
@@ -3228,6 +3611,7 @@ title = "Strange Aeons Player's Guide"
 copyright = "© 2016, Paizo Inc.; Author: Adam Daigle."
 category = "Adventure Path"
 publication_date = "2016-08-17"
+aon = "SourceDisplay.aspx?FixedSource=Strange%20Aeons%20Player%27s%20Guide"
 
 [[publication]]
 id = "taldor-echoes-of-glory"
@@ -3235,6 +3619,7 @@ title = "Taldor, Echoes of Glory"
 copyright = "Pathfinder Companion: Taldor, Echoes of Glory. Copyright 2009, Paizo Publishing, LLC; Author: Joshua J. Frost."
 category = "Player Companion"
 publication_date = "2009-06-01"
+aon = "SourceDisplay.aspx?FixedSource=Taldor%2C%20Echoes%20of%20Glory"
 
 [[publication]]
 id = "taldor-the-first-empire"
@@ -3242,6 +3627,7 @@ title = "Taldor, the First Empire"
 copyright = "Pathfinder Campaign Setting: Taldor, The First Empire © 2017, Paizo Inc.; Authors: Mark Moreland, with Crystal Frasier, Violet Hargrave, and Isabelle Lee."
 category = "Campaign Setting"
 publication_date = "2017-12-13"
+aon = "SourceDisplay.aspx?FixedSource=Taldor%2C%20the%20First%20Empire"
 
 [[publication]]
 id = "tears-at-bitter-manor"
@@ -3250,6 +3636,7 @@ copyright = "© 2014, Paizo Publishing, LLC; Authors: Pedro Coelho, Christopher 
 category = "Module"
 publication_date = "2014-03-25"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Tears%20at%20Bitter%20Manor"
 
 [[publication]]
 id = "technology-guide"
@@ -3257,6 +3644,7 @@ title = "Technology Guide"
 copyright = "© 2014, Paizo Inc.; Authors: James Jacobs and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2014-08-14"
+aon = "SourceDisplay.aspx?FixedSource=Technology%20Guide"
 
 [[publication]]
 id = "the-demon-within"
@@ -3265,6 +3653,7 @@ copyright = "GameMastery Module D3: The Demon Within, Copyright 2008, Paizo Publ
 category = "Module"
 publication_date = "2008-10-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Demon%20Within"
 
 [[publication]]
 id = "the-dragons-demand"
@@ -3273,6 +3662,7 @@ copyright = "Pathfinder Module: The Dragon's Demand © 2013, Paizo Publishing, L
 category = "Module"
 publication_date = "2013-09-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Dragon%27s%20Demand"
 
 [[publication]]
 id = "the-elephant-in-the-room-feat-taxes-in-pathfinder"
@@ -3288,6 +3678,7 @@ copyright = "Pathfinder Module: The Emerald Spire Superdungeon © 2014, Paizo In
 category = "Module"
 publication_date = "2014-06-25"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Emerald%20Spire%20Superdungeon"
 
 [[publication]]
 id = "the-first-world-realm-of-the-fey"
@@ -3295,6 +3686,7 @@ title = "The First World, Realm of the Fey"
 copyright = "Pathfinder Campaign Setting: The First World, Realm of the Fey © 2016, Paizo Inc.; Author: James L. Sutter."
 category = "Campaign Setting"
 publication_date = "2016-12-14"
+aon = "SourceDisplay.aspx?FixedSource=The%20First%20World%2C%20Realm%20of%20the%20Fey"
 
 [[publication]]
 id = "the-godsmouth-heresy"
@@ -3303,6 +3695,7 @@ copyright = "Pathfinder Module: The Godsmouth Heresy. © 2010, Paizo Publishing,
 category = "Module"
 publication_date = "2011-01-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Godsmouth%20Heresy"
 
 [[publication]]
 id = "the-great-beyond-a-guide-to-the-multiverse"
@@ -3310,6 +3703,7 @@ title = "The Great Beyond - A Guide to the Multiverse"
 copyright = "Pathfinder Chronicles: The Great Beyond, A Guide to the Multiverse. Copyright 2009, Paizo Publishing, LLC; Author: Todd Stewart."
 category = "Campaign Setting"
 publication_date = "2009-06-01"
+aon = "SourceDisplay.aspx?FixedSource=The%20Great%20Beyond%20-%20A%20Guide%20to%20the%20Multiverse"
 
 [[publication]]
 id = "the-harrow-handbook"
@@ -3317,6 +3711,7 @@ title = "The Harrow Handbook"
 copyright = "Pathfinder Player Companion: The Harrow Handbook © 2014, Paizo Inc.; Authors: Crystal Frasier, Will McCardell, and David Schwartz."
 category = "Player Companion"
 publication_date = "2014-05-28"
+aon = "SourceDisplay.aspx?FixedSource=The%20Harrow%20Handbook"
 
 [[publication]]
 id = "the-harrowing"
@@ -3325,6 +3720,7 @@ copyright = "Pathfinder Module: The Harrowing. © 2011, Paizo Publishing, LLC; A
 category = "Module"
 publication_date = "2011-07-22"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Harrowing"
 
 [[publication]]
 id = "the-house-on-hook-street"
@@ -3333,6 +3729,7 @@ copyright = "© 2015, Paizo Inc.; Author: Brandon Hodge."
 category = "Module"
 publication_date = "2015-11-18"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20House%20on%20Hook%20Street"
 
 [[publication]]
 id = "the-midnight-mirror"
@@ -3341,6 +3738,7 @@ copyright = "© 2012, Paizo Publishing, LLC; Author: Sam Zeitlin."
 category = "Module"
 publication_date = "2012-02-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Midnight%20Mirror"
 
 [[publication]]
 id = "the-moonscar"
@@ -3349,6 +3747,7 @@ copyright = "Pathfinder Module: The Moonscar © 2012, Paizo Publishing, LLC; Aut
 category = "Module"
 publication_date = "2012-08-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Moonscar"
 
 [[publication]]
 id = "the-pact-stone-pyramid"
@@ -3357,6 +3756,7 @@ copyright = "Pathfinder Module J4: The Pact Stone Pyramid, Copyright 2008, Paizo
 category = "Module"
 publication_date = "2009-04-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Pact%20Stone%20Pyramid"
 
 [[publication]]
 id = "the-ruby-phoenix-tournament"
@@ -3365,6 +3765,7 @@ copyright = "Pathfinder Module: The Ruby Phoenix Tournament © 2012, Paizo Publi
 category = "Module"
 publication_date = "2011-12-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Ruby%20Phoenix%20Tournament"
 
 [[publication]]
 id = "the-witchwar-legacy"
@@ -3373,6 +3774,7 @@ copyright = "Pathfinder Module: The Witchwar Legacy. © 2010, Paizo Publishing, 
 category = "Module"
 publication_date = "2010-11-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=The%20Witchwar%20Legacy"
 
 [[publication]]
 id = "the-worldwound"
@@ -3380,6 +3782,7 @@ title = "The Worldwound"
 copyright = "Pathfinder Campaign Setting: The Worldwound © 2013. Paizo Publishing, LLC; Authors: James Jacobs, Jonathan Keith, Jason Nelson, Todd Stewart, and Tanith Tyrr."
 category = "Campaign Setting"
 publication_date = "2013-07-11"
+aon = "SourceDisplay.aspx?FixedSource=The%20Worldwound"
 
 [[publication]]
 id = "tomb-of-the-iron-medusa"
@@ -3388,6 +3791,7 @@ copyright = "Pathfinder Module: Tomb of the Iron Medusa. © 2011, Paizo Publishi
 category = "Module"
 publication_date = "2011-04-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Tomb%20of%20the%20Iron%20Medusa"
 
 [[publication]]
 id = "tombs-of-golarion"
@@ -3395,6 +3799,7 @@ title = "Tombs of Golarion"
 copyright = "© 2015, Paizo Inc.; Authors: Scott Fernandez, Ron Lundeen, and Larry Wilhelm."
 category = "Campaign Setting"
 publication_date = "2015-03-15"
+aon = "SourceDisplay.aspx?FixedSource=Tombs%20of%20Golarion"
 
 [[publication]]
 id = "tome-of-horrors-complete-pf"
@@ -3409,6 +3814,7 @@ copyright = "Pathfinder Module LB2: Treasure of Chimera Cove, Copyright 2008, Pa
 category = "Module"
 publication_date = "2009-02-01"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Treasure%20of%20Chimera%20Cove"
 
 [[publication]]
 id = "tyrants-grasp-players-guide"
@@ -3416,6 +3822,7 @@ title = "Tyrant's Grasp Player's Guide"
 copyright = "© 2018, Paizo Inc.; Author: Crystal Frasier."
 category = "Adventure Path"
 publication_date = "2019-02-08"
+aon = "SourceDisplay.aspx?FixedSource=Tyrant%27s%20Grasp%20Player%27s%20Guide"
 
 [[publication]]
 id = "ultimate-campaign"
@@ -3423,6 +3830,7 @@ title = "Ultimate Campaign"
 copyright = "Pathfinder Roleplaying Game Ultimate Campaign © 2013, Paizo Publishing, LLC; Authors: Jesse Benner, Benjamin Bruck, Jason Bulmahn, Ryan Costello, Adam Daigle, Matt Goetz, Tim Hitchcock, James Jacobs, Ryan Macklin, Colin McComb, Jason Nelson, Richard Pett, Stephen Radney-MacFarland, Patrick Renie, Sean K Reynolds, F. Wesley Schneider, James L. Sutter, Russ Taylor, and Stephen Townshend."
 category = "RPG"
 publication_date = "2013-05-17"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Campaign"
 
 [[publication]]
 id = "ultimate-combat"
@@ -3430,6 +3838,7 @@ title = "Ultimate Combat"
 copyright = "Pathfinder Roleplaying Game Ultimate Combat. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor"
 category = "RPG"
 publication_date = "2011-07-27"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Combat"
 
 [[publication]]
 id = "ultimate-equipment"
@@ -3437,6 +3846,7 @@ title = "Ultimate Equipment"
 copyright = "Pathfinder Roleplaying Game Ultimate Equipment © 2012, Paizo Publishing, LLC; Authors: Dennis Baker, Jesse Benner, Benjamin Bruck, Ross Byers, Brian J. Cortijo, Ryan Costello, Mike Ferguson, Matt Goetz, Jim Groves, Tracy Hurley, Matt James, Jonathan H. Keith, Michael Kenway, Hal MacLean, Jason Nelson, Tork Shaw, Owen KC Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2012-09-03"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Equipment"
 
 [[publication]]
 id = "ultimate-intrigue"
@@ -3444,6 +3854,7 @@ title = "Ultimate Intrigue"
 copyright = "Pathfinder Roleplaying Game Ultimate Intrigue © 2016, Paizo Inc.; Authors: Jesse Benner, John Bennett, Logan Bonner, Robert Brookes, Jason Bulmahn, Ross Byers, Robert N. Emerson, Amanda Hamon Kunz, Steven Helt, Thurston Hillman, Tim Hitchcock, Mikko Kallio, Rob McCreary, Jason Nelson, Tom Phillips, Stephen Radney-MacFarland, Thomas M. Reid, Alexander Riggs, David N. Ross, David Schwartz, Mark Seifter, Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-03-23"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Intrigue"
 
 [[publication]]
 id = "ultimate-magic"
@@ -3451,6 +3862,7 @@ title = "Ultimate Magic"
 copyright = "Pathfinder Roleplaying Game Ultimate Magic. © 2011, Paizo Publishing, LLC; Authors: Jason Bulmahn, Tim Hitchcock, Colin McComb, Rob McCreary, Jason Nelson, Stephen Radney-MacFarland, Sean K Reynolds, Owen K.C. Stephens, and Russ Taylor."
 category = "RPG"
 publication_date = "2011-05-10"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Magic"
 
 [[publication]]
 id = "ultimate-wilderness"
@@ -3458,6 +3870,7 @@ title = "Ultimate Wilderness"
 copyright = "Pathfinder Roleplaying Game Ultimate Wilderness © 2017, Paizo Inc.; Authors: Alexander Augunas, John Bennett, Robert Brookes, John Compton, Dan Dillon, Steven T. Helt, Thurston Hillman, Eric Hindley, Mikko Kallio, Jason Keeley, Isabelle Lee, Jason Nelson, Stephen Radney-MacFarland, Alex Riggs, David N. Ross, David Schwartz, Mark Seifter, Jeffery Swank, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2017-11-15"
+aon = "SourceDisplay.aspx?FixedSource=Ultimate%20Wilderness"
 
 [[publication]]
 id = "undead-revisited"
@@ -3465,6 +3878,7 @@ title = "Undead Revisited"
 copyright = "Pathfinder Campaign Setting: Undead Revisited. © 2011, Paizo Publishing, LLC. Authors: Eric Cagle, Brian Cortijo, Brandon Hodge, Steve Kenson, Hal Maclean, Colin McComb, Jason Nelson, Todd Stewart, and Russ Taylor."
 category = "Campaign Setting"
 publication_date = "2011-06-10"
+aon = "SourceDisplay.aspx?FixedSource=Undead%20Revisited"
 
 [[publication]]
 id = "undead-slayers-handbook"
@@ -3472,6 +3886,7 @@ title = "Undead Slayer's Handbook"
 copyright = "© 2014, Paizo Publishing, LLC; Authors: Dennis Baker, Jay Loomis, Alex Putnam, Adam Roy, Tork Shaw, and Larry Wilhelm."
 category = "Player Companion"
 publication_date = "2014-04-30"
+aon = "SourceDisplay.aspx?FixedSource=Undead%20Slayer%27s%20Handbook"
 
 [[publication]]
 id = "undead-unleashed"
@@ -3479,6 +3894,7 @@ title = "Undead Unleashed"
 copyright = "Pathfinder Campaign Setting: Undead Unleashed © 2014, Paizo Inc.; Authors: Adam Daigle, Dave Gross, Mark Moreland, David N. Ross, Todd Stewart, and Jerome Virnich."
 category = "Campaign Setting"
 publication_date = "2014-09-10"
+aon = "SourceDisplay.aspx?FixedSource=Undead%20Unleashed"
 
 [[publication]]
 id = "varisia-birthplace-of-legends"
@@ -3486,6 +3902,7 @@ title = "Varisia, Birthplace of Legends"
 copyright = "© 2012, Paizo Publishing, LLC; Authors: F. Wesley Schneider, Amber E. Scott, Tork Shaw, James L. Sutter, and Jerome Virnich."
 category = "Player Companion"
 publication_date = "2012-08-02"
+aon = "SourceDisplay.aspx?FixedSource=Varisia%2C%20Birthplace%20of%20Legends"
 
 [[publication]]
 id = "villain-codex"
@@ -3493,6 +3910,7 @@ title = "Villain Codex"
 copyright = "Pathfinder Roleplaying Game Villain Codex © 2016, Paizo Inc.; Authors: Alexander Augunas, Logan Bonner, Paris Crenshaw, Dan Dillon, Crystal Frasier, Amanda Hamon Kunz, Eric Hindley, Mikko Kallio, Dale C. McCoy, Jr., Stephen Radney-MacFarland, Thomas M. Reid, Alistair Rigg, Alex Riggs, Mark Seifter, and Linda Zayas-Palmer."
 category = "RPG"
 publication_date = "2016-10-15"
+aon = "SourceDisplay.aspx?FixedSource=Villain%20Codex"
 
 [[publication]]
 id = "war-for-the-crown-players-guide"
@@ -3500,6 +3918,7 @@ title = "War for the Crown Player's Guide"
 copyright = "© 2018, Paizo Inc.; Author: Crystal Frasier."
 category = "Adventure Path"
 publication_date = "2018-03-22"
+aon = "SourceDisplay.aspx?FixedSource=War%20for%20the%20Crown%20Player%27s%20Guide"
 
 [[publication]]
 id = "wardens-of-the-reborn-forge"
@@ -3508,6 +3927,7 @@ copyright = "© 2013, Paizo Publishing, LLC; Author: Patrick Renie."
 category = "Module"
 publication_date = "2014-01-09"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=Wardens%20of%20the%20Reborn%20Forge"
 
 [[publication]]
 id = "we-be-goblins"
@@ -3516,6 +3936,7 @@ copyright = "Pathfinder Module: We Be Goblins! © 2011, Paizo Publishing, LLC; A
 category = "Module"
 publication_date = "2011-06-10"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=We%20Be%20Goblins%21"
 
 [[publication]]
 id = "we-be-goblins-free"
@@ -3524,6 +3945,7 @@ copyright = "© 2015, Paizo Inc.; Author: Richard Pett."
 category = "Module"
 publication_date = "2015-07-29"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=We%20Be%20Goblins%20Free%21"
 
 [[publication]]
 id = "we-be-goblins-too"
@@ -3532,6 +3954,7 @@ copyright = "© 2013, Paizo Publishing, LLC; Author: Richard Pett."
 category = "Module"
 publication_date = "2013-06-15"
 series_kind = "module"
+aon = "SourceDisplay.aspx?FixedSource=We%20Be%20Goblins%20Too%21"
 
 [[publication]]
 id = "weapon-masters-handbook"
@@ -3539,6 +3962,7 @@ title = "Weapon Master's Handbook"
 copyright = "Pathfinder Player Companion: Weapon Master’s Handbook © 2015, Paizo Inc.; Authors: Alexander Augunas and David N. Ross."
 category = "Player Companion"
 publication_date = "2015-11-30"
+aon = "SourceDisplay.aspx?FixedSource=Weapon%20Master%27s%20Handbook"
 
 [[publication]]
 id = "wilderness-origins"
@@ -3546,6 +3970,7 @@ title = "Wilderness Origins"
 copyright = "© 2019, Paizo Inc.; Authors: Kim Frandsen, Sasha Hall, Violet Hargrave, Andrew Mullen, Jessica Redekop, Mikhail Rekun, Sean K. Reynolds, and Rodney Sloan."
 category = "Player Companion"
 publication_date = "2019-01-30"
+aon = "SourceDisplay.aspx?FixedSource=Wilderness%20Origins"
 
 [[publication]]
 id = "wrath-of-the-righteous-players-guide"
@@ -3553,3 +3978,4 @@ title = "Wrath of the Righteous Player's Guide"
 copyright = "© 2013, Paizo Publishing, LLC; Authors: Adam Daigle and Jay Loomis.; Wrath of the Righteous Player’s Guide © 2013, Paizo Publishing, LLC; Authors: Adam Daigle and Jay Loomis."
 category = "Adventure Path"
 publication_date = "2013-08-18"
+aon = "SourceDisplay.aspx?FixedSource=Wrath%20of%20the%20Righteous%20Player%27s%20Guide"

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/incense-of-obsession"
 kind = "item"
 title = "Incense of Obsession"
+aon = "MagicCursedDisplay.aspx?ItemName=Incense%20of%20Obsession"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incense_of_obsession", path = "json/magic_wondrous_slotless03.json" },

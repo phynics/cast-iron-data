@@ -2,6 +2,7 @@
 id = "ref/feat/ostentatious-display"
 kind = "feat"
 title = "Ostentatious Display"
+aon = "FeatDisplay.aspx?ItemName=Ostentatious%20Display"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ostentatious_display", path = "json/feat11.json" },

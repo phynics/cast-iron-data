@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/clarity"
 kind = "item"
 title = "Clarity"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Clarity"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clarity", path = "json/magic_weapon2.json" },

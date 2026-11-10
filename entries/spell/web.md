@@ -2,6 +2,7 @@
 id = "ref/spell/web"
 kind = "spell"
 title = "Web"
+aon = "SpellDisplay.aspx?ItemName=Web"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/ashullian"
 kind = "creature"
 title = "Ashullian"
+aon = "MonsterDisplay.aspx?ItemName=Ashullian"
 source_ids = ["pathfinder-135-runeplague"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ashullian", path = "json/monsters02.json" },

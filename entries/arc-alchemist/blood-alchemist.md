@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/blood-alchemist"
 kind = "archetype"
 title = "Blood Alchemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Blood%20Alchemist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_alchemist", path = "json/archetypes_alchemist.json" },

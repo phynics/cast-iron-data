@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-endowment"
 kind = "trait"
 title = "Elemental Endowment"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Endowment"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_endowment", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/second-tongue"
 kind = "trait"
 title = "Second Tongue"
+aon = "TraitDisplay.aspx?ItemName=Second%20Tongue"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "second_tongue", path = "json/traits01.json" },

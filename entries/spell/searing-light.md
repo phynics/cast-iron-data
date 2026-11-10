@@ -2,6 +2,7 @@
 id = "ref/spell/searing-light"
 kind = "spell"
 title = "Searing Light"
+aon = "SpellDisplay.aspx?ItemName=Searing%20Light"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_light", path = "json/spells15.json" },

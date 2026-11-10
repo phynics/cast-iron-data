@@ -2,6 +2,7 @@
 id = "ref/spell/medusas-bane"
 kind = "spell"
 title = "Medusa's Bane"
+aon = "SpellDisplay.aspx?ItemName=Medusa%27s%20Bane"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medusas_bane", path = "json/spells14.json" },

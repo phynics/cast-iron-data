@@ -2,6 +2,7 @@
 id = "ref/arc-druid/halcyon-druid"
 kind = "archetype"
 title = "Halcyon Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Halcyon%20Druid"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halcyon_druid", path = "json/archetypes_druid.json" },

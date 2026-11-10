@@ -2,6 +2,7 @@
 id = "ref/spell/phasic-challenge"
 kind = "spell"
 title = "Phasic Challenge"
+aon = "SpellDisplay.aspx?ItemName=Phasic%20Challenge"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phasic_challenge", path = "json/spells7.json" },

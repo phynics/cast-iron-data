@@ -2,6 +2,7 @@
 id = "ref/spell/night-of-blades"
 kind = "spell"
 title = "Night of Blades"
+aon = "SpellDisplay.aspx?ItemName=Night%20of%20Blades"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_of_blades", path = "json/spells7.json" },

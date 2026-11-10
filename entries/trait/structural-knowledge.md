@@ -2,6 +2,7 @@
 id = "ref/trait/structural-knowledge"
 kind = "trait"
 title = "Structural Knowledge"
+aon = "TraitDisplay.aspx?ItemName=Structural%20Knowledge"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "structural_knowledge", path = "json/traits03.json" },

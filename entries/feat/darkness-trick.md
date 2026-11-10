@@ -2,6 +2,7 @@
 id = "ref/feat/darkness-trick"
 kind = "feat"
 title = "Darkness Trick"
+aon = "FeatDisplay.aspx?ItemName=Darkness%20Trick"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkness_trick", path = "json/feat04.json" },

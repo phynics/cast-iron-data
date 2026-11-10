@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-continuation"
 kind = "item"
 title = "Ring of Continuation"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Continuation"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_continuation", path = "json/magic_ring.json" },

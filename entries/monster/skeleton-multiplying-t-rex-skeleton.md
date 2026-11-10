@@ -2,6 +2,7 @@
 id = "ref/monster/skeleton-multiplying-t-rex-skeleton"
 kind = "creature"
 title = "Multiplying T-Rex Skeleton"
+aon = "MonsterDisplay.aspx?ItemName=Multiplying%20T-Rex%20Skeleton"
 source_ids = ["pathfinder-44-trial-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skeleton_multiplying_t_rex_skeleton", path = "json/monsters22.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/evolved-summoned-monster"
 kind = "feat"
 title = "Evolved Summoned Monster"
+aon = "FeatDisplay.aspx?ItemName=Evolved%20Summoned%20Monster"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolved_summoned_monster", path = "json/feat06.json" },

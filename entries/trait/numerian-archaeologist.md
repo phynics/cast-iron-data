@@ -2,6 +2,7 @@
 id = "ref/trait/numerian-archaeologist"
 kind = "trait"
 title = "Numerian Archaeologist"
+aon = "TraitDisplay.aspx?ItemName=Numerian%20Archaeologist"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_archaeologist", path = "json/traits02.json" },

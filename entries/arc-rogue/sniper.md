@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sniper"
 kind = "archetype"
 title = "Sniper"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sniper"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sniper", path = "json/archetypes_rogue.json" },

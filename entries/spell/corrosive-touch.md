@@ -2,6 +2,7 @@
 id = "ref/spell/corrosive-touch"
 kind = "spell"
 title = "Corrosive Touch"
+aon = "SpellDisplay.aspx?ItemName=Corrosive%20Touch"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrosive_touch", path = "json/spells12.json" },

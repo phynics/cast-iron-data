@@ -2,6 +2,7 @@
 id = "ref/monster/unfettered-phantom"
 kind = "creature"
 title = "Unfettered Phantom"
+aon = "MonsterDisplay.aspx?ItemName=Unfettered%20Phantom"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfettered_phantom", path = "json/monsters24.json" },

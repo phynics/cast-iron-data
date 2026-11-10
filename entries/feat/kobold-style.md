@@ -2,6 +2,7 @@
 id = "ref/feat/kobold-style"
 kind = "feat"
 title = "Kobold Style"
+aon = "FeatDisplay.aspx?ItemName=Kobold%20Style"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_style", path = "json/feat09.json" },

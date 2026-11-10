@@ -2,6 +2,7 @@
 id = "ref/spell/forced-quiet"
 kind = "spell"
 title = "Forced Quiet"
+aon = "SpellDisplay.aspx?ItemName=Forced%20Quiet"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forced_quiet", path = "json/spells13.json" },

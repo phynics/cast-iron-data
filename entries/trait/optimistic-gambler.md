@@ -2,6 +2,7 @@
 id = "ref/trait/optimistic-gambler"
 kind = "trait"
 title = "Optimistic Gambler"
+aon = "TraitDisplay.aspx?ItemName=Optimistic%20Gambler"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "optimistic_gambler", path = "json/traits02.json" },

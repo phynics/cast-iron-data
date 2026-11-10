@@ -2,6 +2,7 @@
 id = "ref/trait/heart-of-two-worlds"
 kind = "trait"
 title = "Heart of Two Worlds"
+aon = "TraitDisplay.aspx?ItemName=Heart%20of%20Two%20Worlds"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_two_worlds", path = "json/traits01.json" },

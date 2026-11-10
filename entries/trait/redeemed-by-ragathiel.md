@@ -2,6 +2,7 @@
 id = "ref/trait/redeemed-by-ragathiel"
 kind = "trait"
 title = "Redeemed by Ragathiel"
+aon = "TraitDisplay.aspx?ItemName=Redeemed%20by%20Ragathiel"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redeemed_by_ragathiel", path = "json/traits03.json" },

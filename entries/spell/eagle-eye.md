@@ -2,6 +2,7 @@
 id = "ref/spell/eagle-eye"
 kind = "spell"
 title = "Eagle Eye"
+aon = "SpellDisplay.aspx?ItemName=Eagle%20Eye"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_eye", path = "json/spells13.json" },

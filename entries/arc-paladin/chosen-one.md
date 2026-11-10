@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/chosen-one"
 kind = "archetype"
 title = "Chosen One"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Chosen%20One"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chosen_one", path = "json/archetypes_paladin.json" },

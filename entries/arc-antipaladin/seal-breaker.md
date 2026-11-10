@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/seal-breaker"
 kind = "archetype"
 title = "Seal-Breaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Seal-Breaker"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seal_breaker", path = "json/archetypes_antipaladin.json" },

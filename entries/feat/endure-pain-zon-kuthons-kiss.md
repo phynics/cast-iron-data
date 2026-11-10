@@ -2,6 +2,7 @@
 id = "ref/feat/endure-pain-zon-kuthons-kiss"
 kind = "feat"
 title = "Endure Pain (Zon-Kuthon's Kiss)"
+aon = "FeatDisplay.aspx?ItemName=Endure%20Pain%20%28Zon-Kuthon%27s%20Kiss%29"
 source_ids = ["cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endure_pain_zon_kuthons_kiss", path = "json/feat05.json" },

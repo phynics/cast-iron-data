@@ -2,6 +2,7 @@
 id = "ref/feat/wrest-charge"
 kind = "feat"
 title = "Wrest Charge"
+aon = "FeatDisplay.aspx?ItemName=Wrest%20Charge"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrest_charge", path = "json/feat17.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/azata-mischief"
 kind = "feat"
 title = "Azata Mischief"
+aon = "FeatDisplay.aspx?ItemName=Azata%20Mischief"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azata_mischief", path = "json/feat01.json" },

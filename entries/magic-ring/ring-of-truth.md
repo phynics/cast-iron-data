@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-truth"
 kind = "item"
 title = "Ring of Truth"
+aon = "MagicCursedDisplay.aspx?ItemName=Ring%20of%20Truth"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_truth", path = "json/magic_ring.json" },

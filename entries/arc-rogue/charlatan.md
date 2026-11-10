@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/charlatan"
 kind = "archetype"
 title = "Charlatan"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Charlatan"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charlatan", path = "json/archetypes_rogue.json" },

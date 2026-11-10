@@ -2,6 +2,7 @@
 id = "ref/feat/lucky-healer"
 kind = "feat"
 title = "Lucky Healer"
+aon = "FeatDisplay.aspx?ItemName=Lucky%20Healer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_healer", path = "json/feat10.json" },

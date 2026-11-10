@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/avalancher"
 kind = "archetype"
 title = "Avalancher"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Avalancher"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avalancher", path = "json/archetypes_slayer.json" },

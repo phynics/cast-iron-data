@@ -2,6 +2,7 @@
 id = "ref/spell/aram-zeys-focus"
 kind = "spell"
 title = "Aram Zey's Focus"
+aon = "SpellDisplay.aspx?ItemName=Aram%20Zey%27s%20Focus"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aram_zeys_focus", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/snake-hater"
 kind = "trait"
 title = "Snake Hater"
+aon = "TraitDisplay.aspx?ItemName=Snake%20Hater"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snake_hater", path = "json/traits05.json" },

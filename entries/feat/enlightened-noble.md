@@ -2,6 +2,7 @@
 id = "ref/feat/enlightened-noble"
 kind = "feat"
 title = "Enlightened Noble"
+aon = "FeatDisplay.aspx?ItemName=Enlightened%20Noble"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_noble", path = "json/feat05.json" },

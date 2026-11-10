@@ -2,6 +2,7 @@
 id = "ref/class/mesmerist"
 kind = "class"
 title = "Mesmerist"
+aon = "ClassDisplay.aspx?ItemName=Mesmerist"
 source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends", "horror-adventures", "legacy-of-the-first-world", "ultimate-wilderness", "blood-of-the-beast", "blood-of-the-sea", "legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mesmerist", path = "json/classes8.json" },

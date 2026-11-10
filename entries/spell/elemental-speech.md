@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-speech"
 kind = "spell"
 title = "Elemental Speech"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Speech"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_speech", path = "json/spells4.json" },

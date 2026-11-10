@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/foundation-of-faith"
 kind = "archetype"
 title = "Foundation of Faith"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Foundation%20of%20Faith"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "foundation_of_faith", path = "json/archetypes_cleric.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/flames-of-the-faithful"
 kind = "spell"
 title = "Flames of the Faithful"
+aon = "SpellDisplay.aspx?ItemName=Flames%20of%20the%20Faithful"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flames_of_the_faithful", path = "json/spells4.json" },

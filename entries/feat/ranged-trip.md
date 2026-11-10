@@ -2,6 +2,7 @@
 id = "ref/feat/ranged-trip"
 kind = "feat"
 title = "Ranged Trip"
+aon = "FeatDisplay.aspx?ItemName=Ranged%20Trip"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ranged_trip", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/cavern-sniper"
 kind = "archetype"
 title = "Cavern Sniper"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Cavern%20Sniper"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavern_sniper", path = "json/archetypes_fighter.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/strange-yield"
 kind = "feat"
 title = "Strange Yield"
+aon = "FeatDisplay.aspx?ItemName=Strange%20Yield"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strange_yield", path = "json/feat15.json" },

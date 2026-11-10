@@ -2,6 +2,7 @@
 id = "ref/feat/hellcat-stealth"
 kind = "feat"
 title = "Hellcat Stealth"
+aon = "FeatDisplay.aspx?ItemName=Hellcat%20Stealth"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellcat_stealth", path = "json/feat08.json" },

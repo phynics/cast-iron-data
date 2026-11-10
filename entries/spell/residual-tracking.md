@@ -2,6 +2,7 @@
 id = "ref/spell/residual-tracking"
 kind = "spell"
 title = "Residual Tracking"
+aon = "SpellDisplay.aspx?ItemName=Residual%20Tracking"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "residual_tracking", path = "json/spells8.json" },

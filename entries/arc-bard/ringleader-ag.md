@@ -2,6 +2,7 @@
 id = "ref/arc-bard/ringleader-ag"
 kind = "archetype"
 title = "Ringleader (AG)"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Ringleader%20%28AG%29"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ringleader_ag", path = "json/archetypes_bard2.json" },

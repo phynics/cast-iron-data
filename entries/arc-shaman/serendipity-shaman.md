@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/serendipity-shaman"
 kind = "archetype"
 title = "Serendipity Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Serendipity%20Shaman"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serendipity_shaman", path = "json/archetypes_shaman.json" },

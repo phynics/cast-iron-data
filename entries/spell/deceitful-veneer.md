@@ -2,6 +2,7 @@
 id = "ref/spell/deceitful-veneer"
 kind = "spell"
 title = "Deceitful Veneer"
+aon = "SpellDisplay.aspx?ItemName=Deceitful%20Veneer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deceitful_veneer", path = "json/spells3.json" },

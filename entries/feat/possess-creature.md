@@ -2,6 +2,7 @@
 id = "ref/feat/possess-creature"
 kind = "feat"
 title = "Possess Creature"
+aon = "FeatDisplay.aspx?ItemName=Possess%20Creature"
 source_ids = ["pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_creature", path = "json/feat12.json" },

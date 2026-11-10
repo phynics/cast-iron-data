@@ -2,6 +2,7 @@
 id = "ref/feat/compulsion-mastery"
 kind = "feat"
 title = "Compulsion Mastery"
+aon = "FeatDisplay.aspx?ItemName=Compulsion%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compulsion_mastery", path = "json/feat03.json" },

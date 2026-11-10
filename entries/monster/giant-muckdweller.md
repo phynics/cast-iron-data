@@ -2,6 +2,7 @@
 id = "ref/monster/giant-muckdweller"
 kind = "creature"
 title = "Giant Muckdweller"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Muckdweller"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_muckdweller", path = "json/monsters11.json" },

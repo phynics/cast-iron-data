@@ -2,6 +2,7 @@
 id = "ref/arc-druid/undine-adept"
 kind = "archetype"
 title = "Undine Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Undine%20Adept"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undine_adept", path = "json/archetypes_druid2.json" },

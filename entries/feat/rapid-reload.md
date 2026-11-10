@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-reload"
 kind = "feat"
 title = "Rapid Reload"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Reload"
 source_ids = ["ultimate-combat", "inner-sea-world-guide", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rapid_reload", path = "json/feat13.json" },

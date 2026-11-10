@@ -2,6 +2,7 @@
 id = "ref/spell/emblazon-crest"
 kind = "spell"
 title = "Emblazon Crest"
+aon = "SpellDisplay.aspx?ItemName=Emblazon%20Crest"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emblazon_crest", path = "json/spells4.json" },

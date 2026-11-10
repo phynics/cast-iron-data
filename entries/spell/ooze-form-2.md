@@ -2,6 +2,7 @@
 id = "ref/spell/ooze-form-2"
 kind = "spell"
 title = "Ooze Form II"
+aon = "SpellDisplay.aspx?ItemName=Ooze%20Form%20II"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ooze_form_2", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/golden-legions-stayed-blade"
 kind = "feat"
 title = "Golden Legion's Stayed Blade"
+aon = "FeatDisplay.aspx?ItemName=Golden%20Legion%27s%20Stayed%20Blade"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_legions_stayed_blade", path = "json/feat07.json" },

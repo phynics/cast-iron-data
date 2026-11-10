@@ -2,6 +2,7 @@
 id = "ref/monster/adaro"
 kind = "creature"
 title = "Adaro"
+aon = "MonsterDisplay.aspx?ItemName=Adaro"
 source_ids = ["bestiary-3", "pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaro", path = "json/monsters01.json" },

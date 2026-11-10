@@ -2,6 +2,7 @@
 id = "ref/trait/generous"
 kind = "trait"
 title = "Generous"
+aon = "TraitDisplay.aspx?ItemName=Generous"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "generous", path = "json/traits05.json" },

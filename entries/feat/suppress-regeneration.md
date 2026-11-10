@@ -2,6 +2,7 @@
 id = "ref/feat/suppress-regeneration"
 kind = "feat"
 title = "Suppress Regeneration"
+aon = "FeatDisplay.aspx?ItemName=Suppress%20Regeneration"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppress_regeneration", path = "json/feat15.json" },

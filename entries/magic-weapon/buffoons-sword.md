@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/buffoons-sword"
 kind = "item"
 title = "Buffoon's Sword"
+aon = "MagicCursedDisplay.aspx?ItemName=Buffoon%27s%20Sword"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buffoons_sword", path = "json/magic_weapon2.json" },

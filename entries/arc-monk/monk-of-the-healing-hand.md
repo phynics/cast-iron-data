@@ -2,6 +2,7 @@
 id = "ref/arc-monk/monk-of-the-healing-hand"
 kind = "archetype"
 title = "Monk of the Healing Hand"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Monk%20of%20the%20Healing%20Hand"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_of_the_healing_hand", path = "json/archetypes_monk.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/needler"
 kind = "archetype"
 title = "Needler"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Needler"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "needler", path = "json/archetypes_rogue.json" },

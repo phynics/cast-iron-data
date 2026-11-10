@@ -2,6 +2,7 @@
 id = "ref/trait/tusked"
 kind = "trait"
 title = "Tusked"
+aon = "TraitDisplay.aspx?ItemName=Tusked"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tusked", path = "json/traits05.json" },

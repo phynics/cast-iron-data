@@ -2,6 +2,7 @@
 id = "ref/monster/giant-fire-fire-giant-magmablade"
 kind = "creature"
 title = "Fire Giant Magmablade"
+aon = "MonsterDisplay.aspx?ItemName=Fire%20Giant%20Magmablade"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_fire_fire_giant_magmablade", path = "json/monsters11.json" },

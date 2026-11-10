@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/wild-caller-hotw"
 kind = "archetype"
 title = "Wild Caller (HotW)"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Wild%20Caller%20%28HotW%29"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_caller_hotw", path = "json/archetypes_summoner.json" },

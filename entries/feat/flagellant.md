@@ -2,6 +2,7 @@
 id = "ref/feat/flagellant"
 kind = "feat"
 title = "Flagellant"
+aon = "FeatDisplay.aspx?ItemName=Flagellant"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flagellant", path = "json/feat07.json" },

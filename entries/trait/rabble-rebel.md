@@ -2,6 +2,7 @@
 id = "ref/trait/rabble-rebel"
 kind = "trait"
 title = "Rabble Rebel"
+aon = "TraitDisplay.aspx?ItemName=Rabble%20Rebel"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rabble_rebel", path = "json/traits04.json" },

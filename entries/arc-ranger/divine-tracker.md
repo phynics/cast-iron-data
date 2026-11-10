@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/divine-tracker"
 kind = "archetype"
 title = "Divine Tracker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Divine%20Tracker"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_tracker", path = "json/archetypes_ranger.json" },

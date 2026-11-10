@@ -2,6 +2,7 @@
 id = "ref/arc-medium/vessel-of-the-failed"
 kind = "archetype"
 title = "Vessel of the Failed"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Vessel%20of%20the%20Failed"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vessel_of_the_failed", path = "json/archetypes_medium.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/unspeakable-bond"
 kind = "trait"
 title = "Unspeakable Bond"
+aon = "TraitDisplay.aspx?ItemName=Unspeakable%20Bond"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unspeakable_bond", path = "json/traits03.json" },

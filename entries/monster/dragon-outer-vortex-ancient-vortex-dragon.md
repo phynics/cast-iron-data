@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-outer-vortex-ancient-vortex-dragon"
 kind = "creature"
 title = "Ancient Vortex Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Vortex%20Dragon"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_outer_vortex_ancient_vortex_dragon", path = "json/monsters42.json" },

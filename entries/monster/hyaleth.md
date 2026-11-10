@@ -2,6 +2,7 @@
 id = "ref/monster/hyaleth"
 kind = "creature"
 title = "Hyaleth"
+aon = "MonsterDisplay.aspx?ItemName=Hyaleth"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hyaleth", path = "json/monsters14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/imprisonment"
 kind = "spell"
 title = "Imprisonment"
+aon = "SpellDisplay.aspx?ItemName=Imprisonment"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imprisonment", path = "json/spells14.json" },

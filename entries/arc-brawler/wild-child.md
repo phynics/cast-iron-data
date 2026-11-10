@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/wild-child"
 kind = "archetype"
 title = "Wild Child"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Wild%20Child"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_child", path = "json/archetypes_brawler.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/desert-druid"
 kind = "archetype"
 title = "Desert Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Desert%20Druid"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desert_druid", path = "json/archetypes_druid.json" },

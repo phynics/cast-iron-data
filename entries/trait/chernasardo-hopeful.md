@@ -2,6 +2,7 @@
 id = "ref/trait/chernasardo-hopeful"
 kind = "trait"
 title = "Chernasardo Hopeful"
+aon = "TraitDisplay.aspx?ItemName=Chernasardo%20Hopeful"
 source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chernasardo_hopeful", path = "json/traits02.json" },

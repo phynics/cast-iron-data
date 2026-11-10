@@ -2,6 +2,7 @@
 id = "ref/monster/guardian-doll"
 kind = "creature"
 title = "Guardian Doll"
+aon = "MonsterDisplay.aspx?ItemName=Guardian%20Doll"
 source_ids = ["irrisen-land-of-eternal-winter"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_doll", path = "json/monsters13.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-armor/gravesoul-armor"
 kind = "item"
 title = "Gravesoul Armor"
+aon = "MagicCursedDisplay.aspx?ItemName=Gravesoul%20Armor"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravesoul_armor", path = "json/magic_armor.json" },

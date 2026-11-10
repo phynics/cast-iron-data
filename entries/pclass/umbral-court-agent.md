@@ -2,6 +2,7 @@
 id = "ref/pclass/umbral-court-agent"
 kind = "prestige_class"
 title = "Umbral Court Agent"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Umbral%20Court%20Agent"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_court_agent", path = "json/prestige_classes4.json" },

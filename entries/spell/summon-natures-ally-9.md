@@ -2,6 +2,7 @@
 id = "ref/spell/summon-natures-ally-9"
 kind = "spell"
 title = "Summon Nature's Ally IX"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Nature%27s%20Ally%209"
 source_ids = ["core-rulebook", "inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_natures_ally_9", path = "json/spells16.json" },

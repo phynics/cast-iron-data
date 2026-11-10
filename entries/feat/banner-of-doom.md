@@ -2,6 +2,7 @@
 id = "ref/feat/banner-of-doom"
 kind = "feat"
 title = "Banner of Doom"
+aon = "FeatDisplay.aspx?ItemName=Banner%20of%20Doom"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banner_of_doom", path = "json/feat01.json" },

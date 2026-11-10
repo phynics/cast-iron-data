@@ -2,6 +2,7 @@
 id = "ref/feat/open-conduit"
 kind = "feat"
 title = "Open Conduit"
+aon = "FeatDisplay.aspx?ItemName=Open%20Conduit"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_conduit", path = "json/feat11.json" },

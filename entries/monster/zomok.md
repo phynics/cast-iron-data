@@ -2,6 +2,7 @@
 id = "ref/monster/zomok"
 kind = "creature"
 title = "Zomok"
+aon = "MonsterDisplay.aspx?ItemName=Zomok"
 source_ids = ["bestiary-4", "pathfinder-36-sound-of-a-thousand-screams"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zomok", path = "json/monsters41.json" },

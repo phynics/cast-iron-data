@@ -2,6 +2,7 @@
 id = "ref/feat/ally-shield"
 kind = "feat"
 title = "Ally Shield"
+aon = "FeatDisplay.aspx?ItemName=Ally%20Shield"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ally_shield", path = "json/feat01.json" },

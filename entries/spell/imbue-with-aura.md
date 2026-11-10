@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-with-aura"
 kind = "spell"
 title = "Imbue with Aura"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20with%20Aura"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_aura", path = "json/spells14.json" },

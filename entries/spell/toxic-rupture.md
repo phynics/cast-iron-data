@@ -2,6 +2,7 @@
 id = "ref/spell/toxic-rupture"
 kind = "spell"
 title = "Toxic Rupture"
+aon = "SpellDisplay.aspx?ItemName=Toxic%20Rupture"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_rupture", path = "json/spells10.json" },

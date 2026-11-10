@@ -2,6 +2,7 @@
 id = "ref/feat/mental-stare"
 kind = "feat"
 title = "Mental Stare"
+aon = "FeatDisplay.aspx?ItemName=Mental%20Stare"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_stare", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/practiced-impression"
 kind = "trait"
 title = "Practiced Impression"
+aon = "TraitDisplay.aspx?ItemName=Practiced%20Impression"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "practiced_impression", path = "json/traits05.json" },

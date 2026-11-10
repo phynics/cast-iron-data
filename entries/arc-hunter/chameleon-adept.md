@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/chameleon-adept"
 kind = "archetype"
 title = "Chameleon Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Chameleon%20Adept"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chameleon_adept", path = "json/archetypes_hunter.json" },

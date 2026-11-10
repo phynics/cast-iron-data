@@ -2,6 +2,7 @@
 id = "ref/trait/slave-smuggler"
 kind = "trait"
 title = "Slave Smuggler"
+aon = "TraitDisplay.aspx?ItemName=Slave%20Smuggler"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slave_smuggler", path = "json/traits05.json" },

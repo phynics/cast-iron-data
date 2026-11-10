@@ -2,6 +2,7 @@
 id = "ref/feat/covering-fire-vc"
 kind = "feat"
 title = "Covering Fire (VC)"
+aon = "FeatDisplay.aspx?ItemName=Covering%20Fire%20%28VC%29"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_fire_vc", path = "json/feat03.json" },

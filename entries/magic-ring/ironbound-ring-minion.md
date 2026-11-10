@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ironbound-ring-minion"
 kind = "item"
 title = "Ironbound Ring (Minion)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ironbound%20RingMinion"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbound_ring_minion", path = "json/magic_ring.json" },

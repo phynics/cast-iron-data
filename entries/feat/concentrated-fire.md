@@ -2,6 +2,7 @@
 id = "ref/feat/concentrated-fire"
 kind = "feat"
 title = "Concentrated Fire"
+aon = "FeatDisplay.aspx?ItemName=Concentrated%20Fire"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concentrated_fire", path = "json/feat03.json" },

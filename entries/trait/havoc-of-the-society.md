@@ -2,6 +2,7 @@
 id = "ref/trait/havoc-of-the-society"
 kind = "trait"
 title = "Havoc of the Society"
+aon = "TraitDisplay.aspx?ItemName=Havoc%20of%20the%20Society"
 source_ids = ["shattered-star-players-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "havoc_of_the_society", path = "json/traits01.json" },

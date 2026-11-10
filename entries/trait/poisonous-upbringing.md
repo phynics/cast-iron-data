@@ -2,6 +2,7 @@
 id = "ref/trait/poisonous-upbringing"
 kind = "trait"
 title = "Poisonous Upbringing"
+aon = "TraitDisplay.aspx?ItemName=Poisonous%20Upbringing"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisonous_upbringing", path = "json/traits05.json" },

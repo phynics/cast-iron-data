@@ -2,6 +2,7 @@
 id = "ref/spell/righteous-blood"
 kind = "spell"
 title = "Righteous Blood"
+aon = "SpellDisplay.aspx?ItemName=Righteous%20Blood"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_blood", path = "json/spells8.json" },

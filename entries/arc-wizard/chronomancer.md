@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/chronomancer"
 kind = "archetype"
 title = "Chronomancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Chronomancer"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chronomancer", path = "json/archetypes_wizard.json" },

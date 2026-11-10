@@ -2,6 +2,7 @@
 id = "ref/feat/breadth-of-experience"
 kind = "feat"
 title = "Breadth of Experience"
+aon = "FeatDisplay.aspx?ItemName=Breadth%20of%20Experience"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breadth_of_experience", path = "json/feat02.json" },

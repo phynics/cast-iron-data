@@ -2,6 +2,7 @@
 id = "ref/spell/web-cloud"
 kind = "spell"
 title = "Web Cloud"
+aon = "SpellDisplay.aspx?ItemName=Web%20Cloud"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "web_cloud", path = "json/spells11.json" },

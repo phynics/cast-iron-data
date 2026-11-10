@@ -2,6 +2,7 @@
 id = "ref/feat/sure-on-ice"
 kind = "feat"
 title = "Sure on Ice"
+aon = "FeatDisplay.aspx?ItemName=Sure%20on%20Ice"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sure_on_ice", path = "json/feat15.json" },

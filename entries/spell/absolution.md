@@ -2,6 +2,7 @@
 id = "ref/spell/absolution"
 kind = "spell"
 title = "Absolution"
+aon = "SpellDisplay.aspx?ItemName=Absolution"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absolution", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/marked-by-natures-magic"
 kind = "trait"
 title = "Marked by Nature's Magic"
+aon = "TraitDisplay.aspx?ItemName=Marked%20by%20Nature%27s%20Magic"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marked_by_natures_magic", path = "json/traits05.json" },

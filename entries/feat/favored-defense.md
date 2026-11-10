@@ -2,6 +2,7 @@
 id = "ref/feat/favored-defense"
 kind = "feat"
 title = "Favored Defense"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Defense"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_defense", path = "json/feat06.json" },

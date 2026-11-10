@@ -2,6 +2,7 @@
 id = "ref/feat/octopus-style"
 kind = "feat"
 title = "Octopus Style"
+aon = "FeatDisplay.aspx?ItemName=Octopus%20Style"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "octopus_style", path = "json/feat11.json" },

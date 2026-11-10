@@ -2,6 +2,7 @@
 id = "ref/spell/pierce-facade"
 kind = "spell"
 title = "Pierce Facade"
+aon = "SpellDisplay.aspx?ItemName=Pierce%20Facade"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pierce_facade", path = "json/spells7.json" },

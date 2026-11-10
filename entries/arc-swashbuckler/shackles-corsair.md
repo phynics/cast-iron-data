@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/shackles-corsair"
 kind = "archetype"
 title = "Shackles Corsair"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Shackles%20Corsair"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shackles_corsair", path = "json/archetypes_swashbuckler.json" },

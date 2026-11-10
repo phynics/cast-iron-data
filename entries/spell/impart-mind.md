@@ -2,6 +2,7 @@
 id = "ref/spell/impart-mind"
 kind = "spell"
 title = "Impart Mind"
+aon = "SpellDisplay.aspx?ItemName=Impart%20Mind"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impart_mind", path = "json/spells14.json" },

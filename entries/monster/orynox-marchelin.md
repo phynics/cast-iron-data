@@ -2,6 +2,7 @@
 id = "ref/monster/orynox-marchelin"
 kind = "creature"
 title = "Orynox Marchelin, Fire Giant King"
+aon = "MonsterDisplay.aspx?ItemName=Orynox%20Marchelin%2C%20Fire%20Giant%20King"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orynox_marchelin", path = "json/monsters_unique3.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fiend-sight"
 kind = "feat"
 title = "Fiend Sight"
+aon = "FeatDisplay.aspx?ItemName=Fiend%20Sight"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_sight", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/aberration-hunter"
 kind = "trait"
 title = "Aberration Hunter"
+aon = "TraitDisplay.aspx?ItemName=Aberration%20Hunter"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberration_hunter", path = "json/traits04.json" },

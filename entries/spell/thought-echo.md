@@ -2,6 +2,7 @@
 id = "ref/spell/thought-echo"
 kind = "spell"
 title = "Thought Echo"
+aon = "SpellDisplay.aspx?ItemName=Thought%20Echo"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_echo", path = "json/spells10.json" },

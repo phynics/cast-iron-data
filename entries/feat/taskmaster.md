@@ -2,6 +2,7 @@
 id = "ref/feat/taskmaster"
 kind = "feat"
 title = "Taskmaster"
+aon = "FeatDisplay.aspx?ItemName=Taskmaster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taskmaster", path = "json/feat16.json" },

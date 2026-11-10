@@ -2,6 +2,7 @@
 id = "ref/magic-ring/sihedron-ring"
 kind = "item"
 title = "Sihedron Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Sihedron%20Ring"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-6-spires-of-xin-shalast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sihedron_ring", path = "json/magic_ring.json" },

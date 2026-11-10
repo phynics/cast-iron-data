@@ -2,6 +2,7 @@
 id = "ref/feat/blustering-bluff"
 kind = "feat"
 title = "Blustering Bluff"
+aon = "FeatDisplay.aspx?ItemName=Blustering%20Bluff"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blustering_bluff", path = "json/feat02.json" },

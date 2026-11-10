@@ -2,6 +2,7 @@
 id = "ref/spell/reincarnate"
 kind = "spell"
 title = "Reincarnate"
+aon = "SpellDisplay.aspx?ItemName=Reincarnate"
 source_ids = ["core-rulebook", "inner-sea-races", "arcane-anthology", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reincarnate", path = "json/spells8.json" },

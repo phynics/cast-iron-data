@@ -2,6 +2,7 @@
 id = "ref/spell/sickening-entanglement"
 kind = "spell"
 title = "Sickening Entanglement"
+aon = "SpellDisplay.aspx?ItemName=Sickening%20Entanglement"
 source_ids = ["core-rulebook", "villain-codex", "advanced-class-guide", "legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sickening_entanglement", path = "json/spells4.json" },

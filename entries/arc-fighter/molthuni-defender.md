@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/molthuni-defender"
 kind = "archetype"
 title = "Molthuni Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Molthuni%20Defender"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molthuni_defender", path = "json/archetypes_fighter.json" },

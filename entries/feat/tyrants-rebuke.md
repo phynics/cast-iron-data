@@ -2,6 +2,7 @@
 id = "ref/feat/tyrants-rebuke"
 kind = "feat"
 title = "Tyrant's Rebuke"
+aon = "FeatDisplay.aspx?ItemName=Tyrant%27s%20Rebuke"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tyrants_rebuke", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/faith-singer"
 kind = "archetype"
 title = "Faith Singer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Faith%20Singer"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith_singer", path = "json/archetypes_bard.json" },

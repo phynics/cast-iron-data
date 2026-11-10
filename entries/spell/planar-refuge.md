@@ -2,6 +2,7 @@
 id = "ref/spell/planar-refuge"
 kind = "spell"
 title = "Planar Refuge"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Refuge"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_refuge", path = "json/spells7.json" },

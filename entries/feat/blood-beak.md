@@ -2,6 +2,7 @@
 id = "ref/feat/blood-beak"
 kind = "feat"
 title = "Blood Beak"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Beak"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_beak", path = "json/feat02.json" },

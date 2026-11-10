@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/sword-saint"
 kind = "archetype"
 title = "Sword Saint"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Sword%20Saint"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_saint", path = "json/archetypes_samurai.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/spirit-of-adoration"
 kind = "creature"
 title = "Spirit of Adoration"
+aon = "MonsterDisplay.aspx?ItemName=Spirit%20of%20Adoration"
 source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_of_adoration", path = "json/monsters22.json" },

@@ -2,7 +2,9 @@
 id = "ref/race/kasatha"
 kind = "race"
 title = "Kasatha"
+aon = "RacesDisplay.aspx?ItemName=Kasatha"
 source_ids = ["inner-sea-races", "bestiary-4", "people-of-the-stars"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kasatha", path = "json/races2.json" },
 ]

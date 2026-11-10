@@ -2,6 +2,7 @@
 id = "ref/feat/improved-sabotaging-sunder"
 kind = "feat"
 title = "Improved Sabotaging Sunder"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Sabotaging%20Sunder"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sabotaging_sunder", path = "json/feat09.json" },

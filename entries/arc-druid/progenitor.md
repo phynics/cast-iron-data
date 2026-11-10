@@ -2,6 +2,7 @@
 id = "ref/arc-druid/progenitor"
 kind = "archetype"
 title = "Progenitor"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Progenitor"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "progenitor", path = "json/archetypes_druid2.json" },

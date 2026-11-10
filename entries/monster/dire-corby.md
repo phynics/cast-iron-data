@@ -2,6 +2,7 @@
 id = "ref/monster/dire-corby"
 kind = "creature"
 title = "Dire Corby"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Corby"
 source_ids = ["bestiary-3", "misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dire_corby", path = "json/monsters08.json" },

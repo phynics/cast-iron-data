@@ -2,6 +2,7 @@
 id = "ref/monster/bore-worm-bore-worm-monarch"
 kind = "creature"
 title = "Bore Worm Monarch"
+aon = "MonsterDisplay.aspx?ItemName=Bore%20Worm%20Monarch"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bore_worm_bore_worm_monarch", path = "json/monsters04.json" },

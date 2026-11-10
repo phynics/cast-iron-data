@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/viking"
 kind = "archetype"
 title = "Viking"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Viking"
 source_ids = ["ultimate-wilderness", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viking", path = "json/archetypes_fighter2.json" },

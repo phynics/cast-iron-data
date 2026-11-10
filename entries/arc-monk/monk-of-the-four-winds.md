@@ -2,6 +2,7 @@
 id = "ref/arc-monk/monk-of-the-four-winds"
 kind = "archetype"
 title = "Monk of the Four Winds"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Monk%20of%20the%20Four%20Winds"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_of_the_four_winds", path = "json/archetypes_monk.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/skyseeker-thrash"
 kind = "feat"
 title = "Skyseeker Thrash"
+aon = "FeatDisplay.aspx?ItemName=Skyseeker%20Thrash"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker_thrash", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sunder-blessing"
 kind = "feat"
 title = "Sunder Blessing"
+aon = "FeatDisplay.aspx?ItemName=Sunder%20Blessing"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunder_blessing", path = "json/feat15.json" },

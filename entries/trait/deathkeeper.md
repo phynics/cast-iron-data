@@ -2,6 +2,7 @@
 id = "ref/trait/deathkeeper"
 kind = "trait"
 title = "Deathkeeper"
+aon = "TraitDisplay.aspx?ItemName=Deathkeeper"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathkeeper", path = "json/traits05.json" },

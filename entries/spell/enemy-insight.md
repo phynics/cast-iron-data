@@ -2,6 +2,7 @@
 id = "ref/spell/enemy-insight"
 kind = "spell"
 title = "Enemy Insight"
+aon = "SpellDisplay.aspx?ItemName=Enemy%20Insight"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_insight", path = "json/spells4.json" },

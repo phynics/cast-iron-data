@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/adaptive-shifter"
 kind = "archetype"
 title = "Adaptive Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Adaptive%20Shifter"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaptive_shifter", path = "json/archetypes_shifter.json" },

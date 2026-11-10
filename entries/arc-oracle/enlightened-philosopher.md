@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/enlightened-philosopher"
 kind = "archetype"
 title = "Enlightened Philosopher"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Enlightened%20Philosopher"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enlightened_philosopher", path = "json/archetypes_oracle.json" },

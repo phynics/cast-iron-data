@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-natural-attunement-kami"
 kind = "item"
 title = "Ring of Natural Attunement (Kami)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Natural%20Attunement%20%28Kami%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_natural_attunement_kami", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/eye-for-quality"
 kind = "trait"
 title = "Eye for Quality"
+aon = "TraitDisplay.aspx?ItemName=Eye%20for%20Quality"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_for_quality", path = "json/traits03.json" },

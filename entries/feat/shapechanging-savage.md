@@ -2,6 +2,7 @@
 id = "ref/feat/shapechanging-savage"
 kind = "feat"
 title = "Shapechanging Savage"
+aon = "FeatDisplay.aspx?ItemName=Shapechanging%20Savage"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapechanging_savage", path = "json/feat14.json" },

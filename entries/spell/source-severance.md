@@ -2,6 +2,7 @@
 id = "ref/spell/source-severance"
 kind = "spell"
 title = "Source Severance"
+aon = "SpellDisplay.aspx?ItemName=Source%20Severance"
 source_ids = ["core-rulebook", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "source_severance", path = "json/spells.json" },

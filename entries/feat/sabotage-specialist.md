@@ -2,6 +2,7 @@
 id = "ref/feat/sabotage-specialist"
 kind = "feat"
 title = "Sabotage Specialist"
+aon = "FeatDisplay.aspx?ItemName=Sabotage%20Specialist"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sabotage_specialist", path = "json/feat13.json" },

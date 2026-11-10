@@ -2,6 +2,7 @@
 id = "ref/monster/cassomir-stray"
 kind = "creature"
 title = "Cassomir Stray"
+aon = "MonsterDisplay.aspx?ItemName=Cassomir%20Stray"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cassomir_stray", path = "json/monsters04.json" },

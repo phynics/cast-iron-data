@@ -2,6 +2,7 @@
 id = "ref/feat/kudzu-invasion"
 kind = "feat"
 title = "Kudzu Invasion"
+aon = "FeatDisplay.aspx?ItemName=Kudzu%20Invasion"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_invasion", path = "json/feat10.json" },

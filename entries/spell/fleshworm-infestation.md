@@ -2,6 +2,7 @@
 id = "ref/spell/fleshworm-infestation"
 kind = "spell"
 title = "Fleshworm Infestation"
+aon = "SpellDisplay.aspx?ItemName=Fleshworm%20Infestation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshworm_infestation", path = "json/spells4.json" },

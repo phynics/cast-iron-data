@@ -2,6 +2,7 @@
 id = "ref/trait/the-snoop"
 kind = "trait"
 title = "The Snoop"
+aon = "TraitDisplay.aspx?ItemName=The%20Snoop"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_snoop", path = "json/traits03.json" },

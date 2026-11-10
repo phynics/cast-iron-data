@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/hateful-rager"
 kind = "archetype"
 title = "Hateful Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Hateful%20Rager"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hateful_rager", path = "json/archetypes_barbarian.json" },

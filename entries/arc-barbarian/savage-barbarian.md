@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/savage-barbarian"
 kind = "archetype"
 title = "Savage Barbarian"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Savage%20Barbarian"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_barbarian", path = "json/archetypes_barbarian.json" },

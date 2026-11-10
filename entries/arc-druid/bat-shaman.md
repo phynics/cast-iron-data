@@ -2,6 +2,7 @@
 id = "ref/arc-druid/bat-shaman"
 kind = "archetype"
 title = "Bat Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Bat%20Shaman"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_shaman", path = "json/archetypes_druid.json" },

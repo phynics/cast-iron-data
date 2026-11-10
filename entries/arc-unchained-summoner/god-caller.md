@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/god-caller"
 kind = "archetype"
 title = "God Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20God%20Caller"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "god_caller", path = "json/archetypes_summoner_UC.json" },

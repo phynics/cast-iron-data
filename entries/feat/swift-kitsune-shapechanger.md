@@ -2,6 +2,7 @@
 id = "ref/feat/swift-kitsune-shapechanger"
 kind = "feat"
 title = "Swift Kitsune Shapechanger"
+aon = "FeatDisplay.aspx?ItemName=Swift%20Kitsune%20Shapechanger"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_kitsune_shapechanger", path = "json/feat15.json" },

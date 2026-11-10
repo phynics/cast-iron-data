@@ -2,6 +2,7 @@
 id = "ref/spell/certain-grip"
 kind = "spell"
 title = "Certain Grip"
+aon = "SpellDisplay.aspx?ItemName=Certain%20Grip"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "certain_grip", path = "json/spells2.json" },

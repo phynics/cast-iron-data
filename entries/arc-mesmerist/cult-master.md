@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/cult-master"
 kind = "archetype"
 title = "Cult Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Cult%20Master"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cult_master", path = "json/archetypes_mesmerist.json" },

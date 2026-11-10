@@ -2,6 +2,7 @@
 id = "ref/monster/robot-gladiator-robot"
 kind = "creature"
 title = "Gladiator Robot"
+aon = "MonsterDisplay.aspx?ItemName=Gladiator%20Robot"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_gladiator_robot", path = "json/monsters20.json" },

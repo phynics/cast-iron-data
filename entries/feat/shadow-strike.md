@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-strike"
 kind = "feat"
 title = "Shadow Strike"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_strike", path = "json/feat14.json" },

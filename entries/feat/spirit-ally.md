@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-ally"
 kind = "feat"
 title = "Spirit Ally"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Ally"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_ally", path = "json/feat14.json" },

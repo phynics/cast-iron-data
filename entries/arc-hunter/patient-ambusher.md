@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/patient-ambusher"
 kind = "archetype"
 title = "Patient Ambusher"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Patient%20Ambusher"
 source_ids = ["ultimate-wilderness", "magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_ambusher", path = "json/archetypes_hunter.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/fan-bearer-at-the-kings-right-hand"
 kind = "feat"
 title = "Fan-Bearer at the King's Right Hand"
+aon = "FeatDisplay.aspx?ItemName=Fan-Bearer%20at%20the%20King%27s%20Right%20Hand"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fan_bearer_at_the_kings_right_hand", path = "json/feat06.json" },

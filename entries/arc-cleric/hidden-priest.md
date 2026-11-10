@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/hidden-priest"
 kind = "archetype"
 title = "Hidden Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Hidden%20Priest"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_priest", path = "json/archetypes_cleric.json" },

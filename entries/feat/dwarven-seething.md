@@ -2,6 +2,7 @@
 id = "ref/feat/dwarven-seething"
 kind = "feat"
 title = "Dwarven Seething"
+aon = "FeatDisplay.aspx?ItemName=Dwarven%20Seething"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_seething", path = "json/feat05.json" },

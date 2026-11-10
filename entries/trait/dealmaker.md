@@ -2,6 +2,7 @@
 id = "ref/trait/dealmaker"
 kind = "trait"
 title = "Dealmaker"
+aon = "TraitDisplay.aspx?ItemName=Dealmaker"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dealmaker", path = "json/traits03.json" },

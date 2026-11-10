@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/woodland-sniper"
 kind = "archetype"
 title = "Woodland Sniper"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Woodland%20Sniper"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "woodland_sniper", path = "json/archetypes_slayer.json" },

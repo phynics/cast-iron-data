@@ -2,6 +2,7 @@
 id = "ref/monster/lotus-tree"
 kind = "creature"
 title = "Lotus Tree"
+aon = "MonsterDisplay.aspx?ItemName=Lotus%20Tree"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lotus_tree", path = "json/monsters16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/voracious-blade"
 kind = "feat"
 title = "Voracious Blade"
+aon = "FeatDisplay.aspx?ItemName=Voracious%20Blade"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voracious_blade", path = "json/feat17.json" },

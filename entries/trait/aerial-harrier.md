@@ -2,6 +2,7 @@
 id = "ref/trait/aerial-harrier"
 kind = "trait"
 title = "Aerial Harrier"
+aon = "TraitDisplay.aspx?ItemName=Aerial%20Harrier"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_harrier", path = "json/traits05.json" },

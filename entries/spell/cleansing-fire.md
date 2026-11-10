@@ -2,6 +2,7 @@
 id = "ref/spell/cleansing-fire"
 kind = "spell"
 title = "Cleansing Fire"
+aon = "SpellDisplay.aspx?ItemName=Cleansing%20Fire"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_fire", path = "json/spells2.json" },

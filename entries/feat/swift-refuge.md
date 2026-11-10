@@ -2,6 +2,7 @@
 id = "ref/feat/swift-refuge"
 kind = "feat"
 title = "Swift Refuge"
+aon = "FeatDisplay.aspx?ItemName=Swift%20Refuge"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_refuge", path = "json/feat15.json" },

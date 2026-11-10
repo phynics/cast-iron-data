@@ -2,6 +2,7 @@
 id = "ref/arc-bard/buccaneer"
 kind = "archetype"
 title = "Buccaneer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Buccaneer"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buccaneer", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sunder-breaker"
 kind = "spell"
 title = "Sunder Breaker"
+aon = "SpellDisplay.aspx?ItemName=Sunder%20Breaker"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunder_breaker", path = "json/spells16.json" },

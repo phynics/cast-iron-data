@@ -2,6 +2,7 @@
 id = "ref/trait/sacred-smasher"
 kind = "trait"
 title = "Sacred Smasher"
+aon = "TraitDisplay.aspx?ItemName=Sacred%20Smasher"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_smasher", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shield-slam/teitr"
 kind = "feat"
 title = "Shield Slam"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Slam"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/shield-slam" },

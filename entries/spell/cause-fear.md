@@ -2,6 +2,7 @@
 id = "ref/spell/cause-fear"
 kind = "spell"
 title = "Cause Fear"
+aon = "SpellDisplay.aspx?ItemName=Cause%20Fear"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cause_fear", path = "json/spells2.json" },

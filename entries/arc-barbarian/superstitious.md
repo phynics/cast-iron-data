@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/superstitious"
 kind = "archetype"
 title = "Superstitious"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Superstitious"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superstitious", path = "json/archetypes_barbarian.json" },

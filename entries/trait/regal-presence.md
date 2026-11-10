@@ -2,6 +2,7 @@
 id = "ref/trait/regal-presence"
 kind = "trait"
 title = "Regal Presence"
+aon = "TraitDisplay.aspx?ItemName=Regal%20Presence"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "regal_presence", path = "json/traits03.json" },

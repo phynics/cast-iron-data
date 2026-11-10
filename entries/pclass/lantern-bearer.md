@@ -2,6 +2,7 @@
 id = "ref/pclass/lantern-bearer"
 kind = "prestige_class"
 title = "Lantern Bearer"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Lantern%20Bearer"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_bearer", path = "json/prestige_classes2.json" },

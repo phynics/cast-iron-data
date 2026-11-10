@@ -2,6 +2,7 @@
 id = "ref/spell/ferment"
 kind = "spell"
 title = "Ferment"
+aon = "SpellDisplay.aspx?ItemName=Ferment"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferment", path = "json/spells4.json" },

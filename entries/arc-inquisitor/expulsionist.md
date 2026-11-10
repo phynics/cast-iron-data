@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/expulsionist"
 kind = "archetype"
 title = "Expulsionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Expulsionist"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expulsionist", path = "json/archetypes_inquisitor.json" },

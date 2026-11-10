@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/priest-of-the-fallen"
 kind = "archetype"
 title = "Priest of the Fallen"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Priest%20of%20the%20Fallen"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "priest_of_the_fallen", path = "json/archetypes_spiritualist.json" },

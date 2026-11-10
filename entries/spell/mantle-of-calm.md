@@ -2,6 +2,7 @@
 id = "ref/spell/mantle-of-calm"
 kind = "spell"
 title = "Mantle of Calm"
+aon = "SpellDisplay.aspx?ItemName=Mantle%20of%20Calm"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantle_of_calm", path = "json/spells6.json" },

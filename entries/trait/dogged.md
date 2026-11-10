@@ -2,6 +2,7 @@
 id = "ref/trait/dogged"
 kind = "trait"
 title = "Dogged"
+aon = "TraitDisplay.aspx?ItemName=Dogged"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dogged", path = "json/traits01.json" },

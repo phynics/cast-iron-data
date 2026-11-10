@@ -2,6 +2,7 @@
 id = "ref/spell/chaos-hammer"
 kind = "spell"
 title = "Chaos Hammer"
+aon = "SpellDisplay.aspx?ItemName=Chaos%20Hammer"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_hammer", path = "json/spells2.json" },

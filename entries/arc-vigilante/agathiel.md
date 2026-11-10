@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/agathiel"
 kind = "archetype"
 title = "Agathiel"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Agathiel"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agathiel", path = "json/archetypes_vigilante.json" },

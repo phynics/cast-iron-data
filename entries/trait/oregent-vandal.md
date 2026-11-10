@@ -2,6 +2,7 @@
 id = "ref/trait/oregent-vandal"
 kind = "trait"
 title = "Oregent Vandal"
+aon = "TraitDisplay.aspx?ItemName=Oregent%20Vandal"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oregent_vandal", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/cannon-master"
 kind = "feat"
 title = "Cannon Master"
+aon = "FeatDisplay.aspx?ItemName=Cannon%20Master"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannon_master", path = "json/feat02.json" },

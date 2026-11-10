@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-familiar"
 kind = "creature"
 title = "Clockwork Familiar"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Familiar"
 source_ids = ["bestiary-5", "pathfinder-63-the-asylum-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_familiar", path = "json/monsters05.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/mivoni-duelist"
 kind = "trait"
 title = "Mivoni Duelist"
+aon = "TraitDisplay.aspx?ItemName=Mivoni%20Duelist"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mivoni_duelist", path = "json/traits04.json" },

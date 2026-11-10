@@ -2,6 +2,7 @@
 id = "ref/trait/iron-lungs"
 kind = "trait"
 title = "Iron Lungs"
+aon = "TraitDisplay.aspx?ItemName=Iron%20Lungs"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_lungs", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/student-of-sulunai"
 kind = "feat"
 title = "Student of Sulunai"
+aon = "FeatDisplay.aspx?ItemName=Student%20of%20Sulunai"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "student_of_sulunai", path = "json/feat15.json" },

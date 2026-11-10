@@ -2,6 +2,7 @@
 id = "ref/spell/grace"
 kind = "spell"
 title = "Grace"
+aon = "SpellDisplay.aspx?ItemName=Grace"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grace", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/molthuni-arsenal-chaplain"
 kind = "archetype"
 title = "Molthuni Arsenal Chaplain"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Molthuni%20Arsenal%20Chaplain"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "molthuni_arsenal_chaplain", path = "json/archetypes_warpriest.json" },

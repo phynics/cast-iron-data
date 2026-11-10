@@ -2,6 +2,7 @@
 id = "ref/trait/offspring-of-the-ascension"
 kind = "trait"
 title = "Offspring of the Ascension"
+aon = "TraitDisplay.aspx?ItemName=Offspring%20of%20the%20Ascension"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "offspring_of_the_ascension", path = "json/traits04.json" },

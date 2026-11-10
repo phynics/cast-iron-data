@@ -2,6 +2,7 @@
 id = "ref/feat/burning-amplification"
 kind = "feat"
 title = "Burning Amplification"
+aon = "FeatDisplay.aspx?ItemName=Burning%20Amplification"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_amplification", path = "json/feat02.json" },

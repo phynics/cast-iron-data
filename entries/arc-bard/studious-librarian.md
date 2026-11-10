@@ -2,6 +2,7 @@
 id = "ref/arc-bard/studious-librarian"
 kind = "archetype"
 title = "Studious Librarian"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Studious%20Librarian"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "studious_librarian", path = "json/archetypes_bard2.json" },

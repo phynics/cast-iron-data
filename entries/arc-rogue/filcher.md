@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/filcher"
 kind = "archetype"
 title = "Filcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Filcher"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "filcher", path = "json/archetypes_rogue.json" },

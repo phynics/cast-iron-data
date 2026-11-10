@@ -2,6 +2,7 @@
 id = "ref/arc-bard/silver-balladeer"
 kind = "archetype"
 title = "Silver Balladeer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Silver%20Balladeer"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_balladeer", path = "json/archetypes_bard2.json" },

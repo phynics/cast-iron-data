@@ -2,6 +2,7 @@
 id = "ref/feat/shot-on-the-run"
 kind = "feat"
 title = "Shot on the Run"
+aon = "FeatDisplay.aspx?ItemName=Shot%20on%20the%20Run"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shot_on_the_run", path = "json/feat14.json" },

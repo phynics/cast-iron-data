@@ -2,6 +2,7 @@
 id = "ref/feat/ki-channel"
 kind = "feat"
 title = "Ki Channel"
+aon = "FeatDisplay.aspx?ItemName=Ki%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_channel", path = "json/feat09.json" },

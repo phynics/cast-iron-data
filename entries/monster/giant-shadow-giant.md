@@ -2,6 +2,7 @@
 id = "ref/monster/giant-shadow-giant"
 kind = "creature"
 title = "Shadow Giant"
+aon = "MonsterDisplay.aspx?ItemName=Shadow%20Giant"
 source_ids = ["inner-sea-bestiary", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_shadow_giant", path = "json/monsters32.json" },

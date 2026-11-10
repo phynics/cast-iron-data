@@ -2,6 +2,7 @@
 id = "ref/feat/concentrated-splash"
 kind = "feat"
 title = "Concentrated Splash"
+aon = "FeatDisplay.aspx?ItemName=Concentrated%20Splash"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concentrated_splash", path = "json/feat03.json" },

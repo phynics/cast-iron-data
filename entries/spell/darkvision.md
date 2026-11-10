@@ -2,6 +2,7 @@
 id = "ref/spell/darkvision"
 kind = "spell"
 title = "Darkvision"
+aon = "SpellDisplay.aspx?ItemName=Darkvision"
 source_ids = ["core-rulebook", "ultimate-combat", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darkvision", path = "json/spells3.json" },

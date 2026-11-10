@@ -2,6 +2,7 @@
 id = "ref/feat/fey-spell-versatility"
 kind = "feat"
 title = "Fey Spell Versatility"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Spell%20Versatility"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_spell_versatility", path = "json/feat07.json" },

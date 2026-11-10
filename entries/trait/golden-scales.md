@@ -2,6 +2,7 @@
 id = "ref/trait/golden-scales"
 kind = "trait"
 title = "Golden Scales"
+aon = "TraitDisplay.aspx?ItemName=Golden%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golden_scales", path = "json/traits05.json" },

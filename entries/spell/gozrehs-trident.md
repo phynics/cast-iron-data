@@ -2,6 +2,7 @@
 id = "ref/spell/gozrehs-trident"
 kind = "spell"
 title = "Gozreh's Trident"
+aon = "SpellDisplay.aspx?ItemName=Gozreh%27s%20Trident"
 source_ids = ["inner-sea-gods", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gozrehs_trident", path = "json/spells5.json" },

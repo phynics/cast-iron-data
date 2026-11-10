@@ -2,6 +2,7 @@
 id = "ref/trait/fools-for-friends"
 kind = "trait"
 title = "Fools for Friends"
+aon = "TraitDisplay.aspx?ItemName=Fools%20for%20Friends"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_for_friends", path = "json/traits02.json" },

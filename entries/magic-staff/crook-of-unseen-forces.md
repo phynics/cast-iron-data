@@ -2,6 +2,7 @@
 id = "ref/magic-staff/crook-of-unseen-forces"
 kind = "item"
 title = "Crook of Unseen Forces"
+aon = "MagicStavesDisplay.aspx?ItemName=Crook%20of%20Unseen%20Forces"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crook_of_unseen_forces", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/scarred-by-war"
 kind = "trait"
 title = "Scarred by War"
+aon = "TraitDisplay.aspx?ItemName=Scarred%20by%20War"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_by_war", path = "json/traits03.json" },

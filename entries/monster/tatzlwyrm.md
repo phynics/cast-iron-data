@@ -2,6 +2,7 @@
 id = "ref/monster/tatzlwyrm"
 kind = "creature"
 title = "Tatzlwyrm"
+aon = "MonsterDisplay.aspx?ItemName=Tatzlwyrm"
 source_ids = ["bestiary-3", "pathfinder-31-stolen-land", "hollows-last-hope"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm", path = "json/monsters23.json" },

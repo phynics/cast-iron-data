@@ -2,6 +2,7 @@
 id = "ref/monster/indarugant"
 kind = "creature"
 title = "Indarugant"
+aon = "MonsterDisplay.aspx?ItemName=Indarugant"
 source_ids = ["pathfinder-94-ice-tomb-of-the-giant-queen"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indarugant", path = "json/monsters14.json" },

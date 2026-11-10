@@ -2,6 +2,7 @@
 id = "ref/trait/ambassador"
 kind = "trait"
 title = "Ambassador"
+aon = "TraitDisplay.aspx?ItemName=Ambassador"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambassador", path = "json/traits03.json" },

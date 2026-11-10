@@ -2,6 +2,7 @@
 id = "ref/feat/improved-plane-shift"
 kind = "feat"
 title = "Improved Plane Shift"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Plane%20Shift"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_plane_shift", path = "json/feat09.json" },

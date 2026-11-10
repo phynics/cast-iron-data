@@ -2,6 +2,7 @@
 id = "ref/feat/truth-in-wine"
 kind = "feat"
 title = "Truth in Wine"
+aon = "FeatDisplay.aspx?ItemName=Truth%20in%20Wine"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "truth_in_wine", path = "json/feat16.json" },

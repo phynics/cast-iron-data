@@ -2,6 +2,7 @@
 id = "ref/spell/seeming"
 kind = "spell"
 title = "Seeming"
+aon = "SpellDisplay.aspx?ItemName=Seeming"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeming", path = "json/spells15.json" },

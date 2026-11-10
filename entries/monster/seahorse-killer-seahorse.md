@@ -2,6 +2,7 @@
 id = "ref/monster/seahorse-killer-seahorse"
 kind = "creature"
 title = "Killer Seahorse"
+aon = "MonsterDisplay.aspx?ItemName=Killer%20Seahorse"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seahorse_killer_seahorse", path = "json/monsters21.json" },

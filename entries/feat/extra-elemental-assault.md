@@ -2,6 +2,7 @@
 id = "ref/feat/extra-elemental-assault"
 kind = "feat"
 title = "Extra Elemental Assault"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Elemental%20Assault"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_elemental_assault", path = "json/feat06.json" },

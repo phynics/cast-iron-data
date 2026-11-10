@@ -2,6 +2,7 @@
 id = "ref/monster/robot-arachnid-robot"
 kind = "creature"
 title = "Arachnid Robot"
+aon = "MonsterDisplay.aspx?ItemName=Arachnid%20Robot"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_arachnid_robot", path = "json/monsters20.json" },

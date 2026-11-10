@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/sixth-wing-bulwark"
 kind = "archetype"
 title = "Sixth Wing Bulwark"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Sixth%20Wing%20Bulwark"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sixth_wing_bulwark", path = "json/archetypes_warpriest.json" },

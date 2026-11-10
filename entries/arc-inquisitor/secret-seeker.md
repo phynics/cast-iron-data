@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/secret-seeker"
 kind = "archetype"
 title = "Secret Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Secret%20Seeker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_seeker", path = "json/archetypes_inquisitor.json" },

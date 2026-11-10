@@ -2,6 +2,7 @@
 id = "ref/spell/speak-with-haunt"
 kind = "spell"
 title = "Speak with Haunt"
+aon = "SpellDisplay.aspx?ItemName=Speak%20with%20Haunt"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_with_haunt", path = "json/spells9.json" },

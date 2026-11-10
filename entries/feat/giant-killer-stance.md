@@ -2,6 +2,7 @@
 id = "ref/feat/giant-killer-stance"
 kind = "feat"
 title = "Giant-Killer Stance"
+aon = "FeatDisplay.aspx?ItemName=Giant-Killer%20Stance"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_killer_stance", path = "json/feat07.json" },

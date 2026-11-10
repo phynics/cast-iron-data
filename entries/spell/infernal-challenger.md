@@ -2,6 +2,7 @@
 id = "ref/spell/infernal-challenger"
 kind = "spell"
 title = "Infernal Challenger"
+aon = "SpellDisplay.aspx?ItemName=Infernal%20Challenger"
 source_ids = ["adventurers-guide", "path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_challenger", path = "json/spells14.json" },

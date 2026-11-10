@@ -2,6 +2,7 @@
 id = "ref/monster/vendenopterix"
 kind = "creature"
 title = "Vendenopterix"
+aon = "MonsterDisplay.aspx?ItemName=Vendenopterix"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vendenopterix", path = "json/monsters40.json" },

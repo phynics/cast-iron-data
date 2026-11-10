@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/psychic-duelist"
 kind = "archetype"
 title = "Psychic Duelist"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Psychic%20Duelist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_duelist", path = "json/archetypes_psychic.json" },

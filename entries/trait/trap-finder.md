@@ -2,6 +2,7 @@
 id = "ref/trait/trap-finder"
 kind = "trait"
 title = "Trap Finder"
+aon = "TraitDisplay.aspx?ItemName=Trap%20Finder"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trap_finder", path = "json/traits02.json" },

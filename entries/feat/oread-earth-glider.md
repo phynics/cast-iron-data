@@ -2,6 +2,7 @@
 id = "ref/feat/oread-earth-glider"
 kind = "feat"
 title = "Oread Earth Glider"
+aon = "FeatDisplay.aspx?ItemName=Oread%20Earth%20Glider"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oread_earth_glider", path = "json/feat11.json" },

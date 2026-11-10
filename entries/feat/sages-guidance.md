@@ -2,6 +2,7 @@
 id = "ref/feat/sages-guidance"
 kind = "feat"
 title = "Sage's Guidance"
+aon = "FeatDisplay.aspx?ItemName=Sage%27s%20Guidance"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sages_guidance", path = "json/feat13.json" },

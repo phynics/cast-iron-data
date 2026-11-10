@@ -2,6 +2,7 @@
 id = "ref/spell/steal-breath"
 kind = "spell"
 title = "Steal Breath"
+aon = "SpellDisplay.aspx?ItemName=Steal%20Breath"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steal_breath", path = "json/spells9.json" },

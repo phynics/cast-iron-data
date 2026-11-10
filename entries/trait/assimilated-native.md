@@ -2,6 +2,7 @@
 id = "ref/trait/assimilated-native"
 kind = "trait"
 title = "Assimilated Native"
+aon = "TraitDisplay.aspx?ItemName=Assimilated%20Native"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "assimilated_native", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/thought-eater"
 kind = "archetype"
 title = "Thought Eater"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Thought%20Eater"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_eater", path = "json/archetypes_mesmerist.json" },

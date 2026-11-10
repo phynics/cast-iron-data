@@ -2,6 +2,7 @@
 id = "ref/spell/surface-excursion"
 kind = "spell"
 title = "Surface Excursion"
+aon = "SpellDisplay.aspx?ItemName=Surface%20Excursion"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surface_excursion", path = "json/spells10.json" },

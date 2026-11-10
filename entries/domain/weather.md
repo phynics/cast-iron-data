@@ -2,6 +2,7 @@
 id = "ref/domain/weather"
 kind = "class_option"
 title = "Weather"
+aon = "DomainDisplay.aspx?ItemName=Weather"
 source_ids = ["core-rulebook", "divine-anthology", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weather", path = "json/class_ability_domains3.json" },

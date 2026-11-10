@@ -2,6 +2,7 @@
 id = "ref/monster/formian-formian-queen"
 kind = "creature"
 title = "Formian Queen"
+aon = "MonsterDisplay.aspx?ItemName=Formian%20Queen"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "formian_formian_queen", path = "json/monsters31.json" },

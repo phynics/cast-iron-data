@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-endurance"
 kind = "spell"
 title = "Shadow Endurance"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Endurance"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_endurance", path = "json/spells15.json" },

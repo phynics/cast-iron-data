@@ -2,6 +2,7 @@
 id = "ref/spell/entomb"
 kind = "spell"
 title = "Entomb"
+aon = "SpellDisplay.aspx?ItemName=Entomb"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entomb", path = "json/spells4.json" },

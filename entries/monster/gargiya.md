@@ -2,6 +2,7 @@
 id = "ref/monster/gargiya"
 kind = "creature"
 title = "Gargiya"
+aon = "MonsterDisplay.aspx?ItemName=Gargiya"
 source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gargiya", path = "json/monsters11.json" },

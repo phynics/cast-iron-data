@@ -2,6 +2,7 @@
 id = "ref/feat/startoss-shower"
 kind = "feat"
 title = "Startoss Shower"
+aon = "FeatDisplay.aspx?ItemName=Startoss%20Shower"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startoss_shower", path = "json/feat15.json" },

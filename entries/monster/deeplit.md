@@ -2,6 +2,7 @@
 id = "ref/monster/deeplit"
 kind = "creature"
 title = "Deeplit"
+aon = "MonsterDisplay.aspx?ItemName=Deeplit"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deeplit", path = "json/monsters08.json" },

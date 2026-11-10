@@ -2,6 +2,7 @@
 id = "ref/monster/astral-leviathan"
 kind = "creature"
 title = "Astral Leviathan"
+aon = "MonsterDisplay.aspx?ItemName=Astral%20Leviathan"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "astral_leviathan", path = "json/monsters02.json" },

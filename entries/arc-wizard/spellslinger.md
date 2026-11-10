@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/spellslinger"
 kind = "archetype"
 title = "Spellslinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Spellslinger"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellslinger", path = "json/archetypes_wizard.json" },

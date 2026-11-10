@@ -2,6 +2,7 @@
 id = "ref/trait/water-lurker"
 kind = "trait"
 title = "Water Lurker"
+aon = "TraitDisplay.aspx?ItemName=Water%20Lurker"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_lurker", path = "json/traits05.json" },

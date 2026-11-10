@@ -2,6 +2,7 @@
 id = "ref/arc-druid/sunrider"
 kind = "archetype"
 title = "Sunrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Sunrider"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunrider", path = "json/archetypes_druid2.json" },

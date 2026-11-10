@@ -2,6 +2,7 @@
 id = "ref/feat/great-expectations"
 kind = "feat"
 title = "Great Expectations"
+aon = "FeatDisplay.aspx?ItemName=Great%20Expectations"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_expectations", path = "json/feat07.json" },

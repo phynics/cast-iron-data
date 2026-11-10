@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/tidal-hunter"
 kind = "archetype"
 title = "Tidal Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Tidal%20Hunter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_hunter", path = "json/archetypes_ranger.json" },

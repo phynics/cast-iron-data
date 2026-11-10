@@ -2,6 +2,7 @@
 id = "ref/trait/bellflower-contact"
 kind = "trait"
 title = "Bellflower Contact"
+aon = "TraitDisplay.aspx?ItemName=Bellflower%20Contact"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_contact", path = "json/traits05.json" },

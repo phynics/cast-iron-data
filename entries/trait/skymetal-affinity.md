@@ -2,6 +2,7 @@
 id = "ref/trait/skymetal-affinity"
 kind = "trait"
 title = "Skymetal Affinity"
+aon = "TraitDisplay.aspx?ItemName=Skymetal%20Affinity"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skymetal_affinity", path = "json/traits04.json" },

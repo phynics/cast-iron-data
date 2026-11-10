@@ -2,6 +2,7 @@
 id = "ref/feat/natural-charmer"
 kind = "feat"
 title = "Natural Charmer"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Charmer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_charmer", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/monster-codex/rules/vampires/example-vampires/vampire-spawn/vampire-spawn"
 kind = "creature"
 title = "Vampire Spawn"
+aon = "MonsterDisplay.aspx?ItemName=Vampire%20Spawn"
 source_ids = ["monster-codex"]
 section = ["Rules", "Vampires", "Example Vampires", "Vampire Spawn"]
 tags = ["undead", "human", "medium"]

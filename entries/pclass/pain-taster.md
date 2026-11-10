@@ -2,6 +2,7 @@
 id = "ref/pclass/pain-taster"
 kind = "prestige_class"
 title = "Pain Taster"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pain%20Taster"
 source_ids = ["occult-mysteries", "pathfinder-15-the-armageddon-echo"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_taster", path = "json/prestige_classes4.json" },

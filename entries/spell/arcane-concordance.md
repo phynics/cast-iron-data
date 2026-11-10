@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-concordance"
 kind = "spell"
 title = "Arcane Concordance"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Concordance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_concordance", path = "json/spells.json" },

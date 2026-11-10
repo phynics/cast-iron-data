@@ -2,6 +2,7 @@
 id = "ref/spell/sending"
 kind = "spell"
 title = "Sending"
+aon = "SpellDisplay.aspx?ItemName=Sending"
 source_ids = ["core-rulebook", "pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sending", path = "json/spells15.json" },

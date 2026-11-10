@@ -2,6 +2,7 @@
 id = "ref/spell/bards-escape"
 kind = "spell"
 title = "Bard's Escape"
+aon = "SpellDisplay.aspx?ItemName=Bard%27s%20Escape"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bards_escape", path = "json/spells12.json" },

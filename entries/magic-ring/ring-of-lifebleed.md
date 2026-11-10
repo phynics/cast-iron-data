@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-lifebleed"
 kind = "item"
 title = "Ring of Lifebleed"
+aon = "MagicCursedDisplay.aspx?ItemName=Ring%20of%20Lifebleed"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_lifebleed", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/cecaelia-focus-tattoo"
 kind = "feat"
 title = "Cecaelia Focus Tattoo"
+aon = "FeatDisplay.aspx?ItemName=Cecaelia%20Focus%20Tattoo"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cecaelia_focus_tattoo", path = "json/feat02.json" },

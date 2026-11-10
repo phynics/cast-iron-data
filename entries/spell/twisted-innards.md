@@ -2,6 +2,7 @@
 id = "ref/spell/twisted-innards"
 kind = "spell"
 title = "Twisted Innards"
+aon = "SpellDisplay.aspx?ItemName=Twisted%20Innards"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twisted_innards", path = "json/spells10.json" },

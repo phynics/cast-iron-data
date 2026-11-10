@@ -2,6 +2,7 @@
 id = "ref/feat/magical-enigma"
 kind = "feat"
 title = "Magical Enigma"
+aon = "FeatDisplay.aspx?ItemName=Magical%20Enigma"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_enigma", path = "json/feat10.json" },

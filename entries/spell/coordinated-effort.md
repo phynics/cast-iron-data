@@ -2,6 +2,7 @@
 id = "ref/spell/coordinated-effort"
 kind = "spell"
 title = "Coordinated Effort"
+aon = "SpellDisplay.aspx?ItemName=Coordinated%20Effort"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_effort", path = "json/spells12.json" },

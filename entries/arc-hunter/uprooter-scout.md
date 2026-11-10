@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/uprooter-scout"
 kind = "archetype"
 title = "Uprooter Scout"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Uprooter%20Scout"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uprooter_scout", path = "json/archetypes_hunter.json" },

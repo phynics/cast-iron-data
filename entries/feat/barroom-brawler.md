@@ -2,6 +2,7 @@
 id = "ref/feat/barroom-brawler"
 kind = "feat"
 title = "Barroom Brawler"
+aon = "FeatDisplay.aspx?ItemName=Barroom%20Brawler"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barroom_brawler", path = "json/feat01.json" },

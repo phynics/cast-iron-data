@@ -2,6 +2,7 @@
 id = "ref/feat/cooperative-swarmer"
 kind = "feat"
 title = "Cooperative Swarmer"
+aon = "FeatDisplay.aspx?ItemName=Cooperative%20Swarmer"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_swarmer", path = "json/feat03.json" },

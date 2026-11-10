@@ -2,6 +2,7 @@
 id = "ref/spell/hunters-lore"
 kind = "spell"
 title = "Hunter's Lore"
+aon = "SpellDisplay.aspx?ItemName=Hunter%27s%20Lore"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunters_lore", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/mobile-stronghold"
 kind = "feat"
 title = "Mobile Stronghold"
+aon = "FeatDisplay.aspx?ItemName=Mobile%20Stronghold"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_stronghold", path = "json/feat11.json" },

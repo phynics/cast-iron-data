@@ -2,6 +2,7 @@
 id = "ref/trait/jungle-diplomat"
 kind = "trait"
 title = "Jungle Diplomat"
+aon = "TraitDisplay.aspx?ItemName=Jungle%20Diplomat"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_diplomat", path = "json/traits04.json" },

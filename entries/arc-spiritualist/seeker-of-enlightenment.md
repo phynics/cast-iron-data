@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/seeker-of-enlightenment"
 kind = "archetype"
 title = "Seeker of Enlightenment"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Seeker%20of%20Enlightenment"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeker_of_enlightenment", path = "json/archetypes_spiritualist.json" },

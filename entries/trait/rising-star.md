@@ -2,6 +2,7 @@
 id = "ref/trait/rising-star"
 kind = "trait"
 title = "Rising Star"
+aon = "TraitDisplay.aspx?ItemName=Rising%20Star"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rising_star", path = "json/traits03.json" },

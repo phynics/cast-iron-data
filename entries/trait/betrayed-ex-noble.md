@@ -2,6 +2,7 @@
 id = "ref/trait/betrayed-ex-noble"
 kind = "trait"
 title = "Betrayed Ex-Noble"
+aon = "TraitDisplay.aspx?ItemName=Betrayed%20Ex-Noble"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betrayed_ex_noble", path = "json/traits04.json" },

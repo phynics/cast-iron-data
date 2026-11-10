@@ -2,6 +2,7 @@
 id = "ref/feat/thunder-and-fang"
 kind = "feat"
 title = "Thunder and Fang"
+aon = "FeatDisplay.aspx?ItemName=Thunder%20and%20Fang"
 source_ids = ["varisia-birthplace-of-legends", "pathfinder-10-a-history-of-ashes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunder_and_fang", path = "json/feat16.json" },

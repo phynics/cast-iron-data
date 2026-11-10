@@ -2,6 +2,7 @@
 id = "ref/spell/illusory-poison"
 kind = "spell"
 title = "Illusory Poison"
+aon = "SpellDisplay.aspx?ItemName=Illusory%20Poison"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_poison", path = "json/spells14.json" },

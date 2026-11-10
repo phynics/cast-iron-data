@@ -2,6 +2,7 @@
 id = "ref/monster/living-mirage"
 kind = "creature"
 title = "Living Mirage"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Mirage"
 source_ids = ["bestiary-5", "osirion-legacy-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_mirage", path = "json/monsters16.json" },

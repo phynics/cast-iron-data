@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/sacred-huntsmaster"
 kind = "archetype"
 title = "Sacred Huntsmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Sacred%20Huntsmaster"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_huntsmaster", path = "json/archetypes_inquisitor.json" },

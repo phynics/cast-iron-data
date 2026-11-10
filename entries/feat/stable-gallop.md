@@ -2,6 +2,7 @@
 id = "ref/feat/stable-gallop"
 kind = "feat"
 title = "Stable Gallop"
+aon = "FeatDisplay.aspx?ItemName=Stable%20Gallop"
 source_ids = ["animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stable_gallop", path = "json/feat15.json" },

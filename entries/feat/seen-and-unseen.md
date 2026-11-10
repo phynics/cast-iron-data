@@ -2,6 +2,7 @@
 id = "ref/feat/seen-and-unseen"
 kind = "feat"
 title = "Seen and Unseen"
+aon = "FeatDisplay.aspx?ItemName=Seen%20and%20Unseen"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seen_and_unseen", path = "json/feat13.json" },

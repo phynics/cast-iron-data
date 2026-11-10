@@ -2,6 +2,7 @@
 id = "ref/feat/nameless-servitor"
 kind = "feat"
 title = "Nameless Servitor"
+aon = "FeatDisplay.aspx?ItemName=Nameless%20Servitor"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nameless_servitor", path = "json/feat11.json" },

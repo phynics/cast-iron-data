@@ -2,6 +2,7 @@
 id = "ref/trait/improvised-defense"
 kind = "trait"
 title = "Improvised Defense"
+aon = "TraitDisplay.aspx?ItemName=Improvised%20Defense"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvised_defense", path = "json/traits01.json" },

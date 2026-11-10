@@ -2,6 +2,7 @@
 id = "ref/trait/oral-historian"
 kind = "trait"
 title = "Oral Historian"
+aon = "TraitDisplay.aspx?ItemName=Oral%20Historian"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oral_historian", path = "json/traits05.json" },

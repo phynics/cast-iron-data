@@ -2,6 +2,7 @@
 id = "ref/feat/shot-on-the-run/teitr"
 kind = "feat"
 title = "Shot on the Run"
+aon = "FeatDisplay.aspx?ItemName=Shot%20on%20the%20Run"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/shot-on-the-run" },

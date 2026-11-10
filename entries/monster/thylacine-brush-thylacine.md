@@ -2,6 +2,7 @@
 id = "ref/monster/thylacine-brush-thylacine"
 kind = "creature"
 title = "Brush Thylacine"
+aon = "MonsterDisplay.aspx?ItemName=Brush%20Thylacine"
 source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thylacine_brush_thylacine", path = "json/monsters23.json" },

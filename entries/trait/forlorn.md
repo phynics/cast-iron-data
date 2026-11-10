@@ -2,6 +2,7 @@
 id = "ref/trait/forlorn"
 kind = "trait"
 title = "Forlorn"
+aon = "TraitDisplay.aspx?ItemName=Forlorn"
 source_ids = ["ultimate-campaign", "legacy-of-fire-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forlorn", path = "json/traits05.json" },

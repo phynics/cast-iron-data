@@ -2,6 +2,7 @@
 id = "ref/monster/lava-child"
 kind = "creature"
 title = "Lava Child"
+aon = "MonsterDisplay.aspx?ItemName=Lava%20Child"
 source_ids = ["misfit-monsters-redeemed"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lava_child", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/hatharat-agent"
 kind = "archetype"
 title = "Hatharat Agent"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Hatharat%20Agent"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hatharat_agent", path = "json/archetypes_bard2.json" },

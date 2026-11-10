@@ -2,6 +2,7 @@
 id = "ref/feat/combat-expertise/teitr"
 kind = "feat"
 title = "Combat Expertise"
+aon = "FeatDisplay.aspx?ItemName=Combat%20Expertise"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/combat-expertise", label = "removed" },

@@ -2,6 +2,7 @@
 id = "ref/monster/charnel-colossus"
 kind = "creature"
 title = "Charnel Colossus"
+aon = "MonsterDisplay.aspx?ItemName=Charnel%20Colossus"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_colossus", path = "json/monsters05.json" },

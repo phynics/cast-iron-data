@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/construct-caller"
 kind = "archetype"
 title = "Construct Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Construct%20Caller"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_caller", path = "json/archetypes_summoner_UC.json" },

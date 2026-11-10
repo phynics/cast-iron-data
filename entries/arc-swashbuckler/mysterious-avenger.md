@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/mysterious-avenger"
 kind = "archetype"
 title = "Mysterious Avenger"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Mysterious%20Avenger"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysterious_avenger", path = "json/archetypes_swashbuckler.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/divert-harm"
 kind = "feat"
 title = "Divert Harm"
+aon = "FeatDisplay.aspx?ItemName=Divert%20Harm"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divert_harm", path = "json/feat04.json" },

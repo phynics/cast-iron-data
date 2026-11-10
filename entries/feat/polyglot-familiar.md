@@ -2,6 +2,7 @@
 id = "ref/feat/polyglot-familiar"
 kind = "feat"
 title = "Polyglot Familiar"
+aon = "FeatDisplay.aspx?ItemName=Polyglot%20Familiar"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polyglot_familiar", path = "json/feat12.json" },

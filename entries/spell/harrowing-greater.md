@@ -2,6 +2,7 @@
 id = "ref/spell/harrowing-greater"
 kind = "spell"
 title = "Greater Harrowing"
+aon = "SpellDisplay.aspx?ItemName=Harrowing%2C%20Greater"
 source_ids = ["inner-sea-world-guide", "the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowing_greater", path = "json/spells5.json" },

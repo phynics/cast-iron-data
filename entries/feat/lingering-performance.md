@@ -2,6 +2,7 @@
 id = "ref/feat/lingering-performance"
 kind = "feat"
 title = "Lingering Performance"
+aon = "FeatDisplay.aspx?ItemName=Lingering%20Performance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_performance", path = "json/feat10.json" },

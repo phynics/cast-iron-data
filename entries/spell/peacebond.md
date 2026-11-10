@@ -2,6 +2,7 @@
 id = "ref/spell/peacebond"
 kind = "spell"
 title = "Peacebond"
+aon = "SpellDisplay.aspx?ItemName=Peacebond"
 source_ids = ["ultimate-combat", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peacebond", path = "json/spells7.json" },

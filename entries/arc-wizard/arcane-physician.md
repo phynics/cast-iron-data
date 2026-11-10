@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/arcane-physician"
 kind = "archetype"
 title = "Arcane Physician"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Arcane%20Physician"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_physician", path = "json/archetypes_wizard.json" },

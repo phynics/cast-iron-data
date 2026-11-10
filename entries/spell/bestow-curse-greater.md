@@ -2,6 +2,7 @@
 id = "ref/spell/bestow-curse-greater"
 kind = "spell"
 title = "Greater Bestow Curse"
+aon = "SpellDisplay.aspx?ItemName=Bestow%20Curse%2C%20Greater"
 source_ids = ["core-rulebook", "pathfinder-82-secrets-of-the-sphinx", "ultimate-intrigue", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_curse_greater", path = "json/spells12.json" },

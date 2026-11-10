@@ -2,6 +2,7 @@
 id = "ref/monster/cerynitis"
 kind = "creature"
 title = "Cerynitis"
+aon = "MonsterDisplay.aspx?ItemName=Cerynitis"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerynitis", path = "json/monsters28.json" },

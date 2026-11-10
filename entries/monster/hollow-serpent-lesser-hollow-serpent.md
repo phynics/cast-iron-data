@@ -2,6 +2,7 @@
 id = "ref/monster/hollow-serpent-lesser-hollow-serpent"
 kind = "creature"
 title = "Lesser Hollow Serpent"
+aon = "MonsterDisplay.aspx?ItemName=Lesser%20Hollow%20Serpent"
 source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_serpent_lesser_hollow_serpent", path = "json/monsters13.json" },

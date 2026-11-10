@@ -2,7 +2,9 @@
 id = "ref/race/human"
 kind = "race"
 title = "Human"
+aon = "RacesDisplay.aspx?ItemName=Human"
 source_ids = ["inner-sea-races", "advanced-race-guide", "core-rulebook", "legacy-of-dragons", "advanced-players-guide", "horror-adventures", "heroes-of-the-high-court", "blood-of-shadows", "heroes-of-the-wild", "legacy-of-the-first-world", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human", path = "json/races2.json" },
 ]

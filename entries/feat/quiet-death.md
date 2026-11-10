@@ -2,6 +2,7 @@
 id = "ref/feat/quiet-death"
 kind = "feat"
 title = "Quiet Death"
+aon = "FeatDisplay.aspx?ItemName=Quiet%20Death"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quiet_death", path = "json/feat12.json" },

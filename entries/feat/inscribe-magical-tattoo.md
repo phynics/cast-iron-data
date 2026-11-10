@@ -2,6 +2,7 @@
 id = "ref/feat/inscribe-magical-tattoo"
 kind = "feat"
 title = "Inscribe Magical Tattoo"
+aon = "FeatDisplay.aspx?ItemName=Inscribe%20Magical%20Tattoo"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inscribe_magical_tattoo", path = "json/feat09.json" },

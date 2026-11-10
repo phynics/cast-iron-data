@@ -2,6 +2,7 @@
 id = "ref/spell/psychic-leech"
 kind = "spell"
 title = "Psychic Leech"
+aon = "SpellDisplay.aspx?ItemName=Psychic%20Leech"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_leech", path = "json/spells15.json" },

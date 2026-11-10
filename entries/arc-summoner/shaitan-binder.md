@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/shaitan-binder"
 kind = "archetype"
 title = "Shaitan Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Shaitan%20Binder"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_binder", path = "json/archetypes_summoner.json" },

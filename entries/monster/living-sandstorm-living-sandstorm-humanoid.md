@@ -2,6 +2,7 @@
 id = "ref/monster/living-sandstorm-living-sandstorm-humanoid"
 kind = "creature"
 title = "Living Sandstorm (Humanoid)"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Sandstorm%20%28Humanoid%29"
 source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_sandstorm_living_sandstorm_humanoid", path = "json/monsters16.json" },

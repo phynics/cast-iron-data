@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/keeper-of-the-current"
 kind = "archetype"
 title = "Keeper of the Current"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Keeper%20of%20the%20Current"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_the_current", path = "json/archetypes_inquisitor.json" },

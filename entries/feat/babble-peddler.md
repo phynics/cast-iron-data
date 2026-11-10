@@ -2,6 +2,7 @@
 id = "ref/feat/babble-peddler"
 kind = "feat"
 title = "Babble-Peddler"
+aon = "FeatDisplay.aspx?ItemName=Babble-Peddler"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "babble_peddler", path = "json/feat01.json" },

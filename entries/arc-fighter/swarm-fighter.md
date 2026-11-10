@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/swarm-fighter"
 kind = "archetype"
 title = "Swarm Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Swarm%20Fighter"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_fighter", path = "json/archetypes_fighter2.json" },

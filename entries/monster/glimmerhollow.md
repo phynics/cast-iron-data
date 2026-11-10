@@ -2,6 +2,7 @@
 id = "ref/monster/glimmerhollow"
 kind = "creature"
 title = "Glimmerhollow"
+aon = "MonsterDisplay.aspx?ItemName=Glimmerhollow"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimmerhollow", path = "json/monsters12.json" },

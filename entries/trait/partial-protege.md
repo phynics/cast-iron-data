@@ -2,6 +2,7 @@
 id = "ref/trait/partial-protege"
 kind = "trait"
 title = "Partial Protege"
+aon = "TraitDisplay.aspx?ItemName=Partial%20Protege"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "partial_protege", path = "json/traits02.json" },

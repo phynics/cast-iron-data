@@ -2,6 +2,7 @@
 id = "ref/spell/retrieve-item"
 kind = "spell"
 title = "Retrieve Item"
+aon = "SpellDisplay.aspx?ItemName=Retrieve%20Item"
 source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retrieve_item", path = "json/spells8.json" },

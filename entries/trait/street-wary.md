@@ -2,6 +2,7 @@
 id = "ref/trait/street-wary"
 kind = "trait"
 title = "Street Wary"
+aon = "TraitDisplay.aspx?ItemName=Street%20Wary"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_wary", path = "json/traits04.json" },

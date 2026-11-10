@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/bracers-of-defenselessness"
 kind = "item"
 title = "Bracers of Defenselessness"
+aon = "MagicCursedDisplay.aspx?ItemName=Bracers%20of%20Defenselessness"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bracers_of_defenselessness", path = "json/magic_wondrous_shoulders_wrists.json" },

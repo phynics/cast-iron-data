@@ -2,6 +2,7 @@
 id = "ref/feat/diva-advance"
 kind = "feat"
 title = "Diva Advance"
+aon = "FeatDisplay.aspx?ItemName=Diva%20Advance"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva_advance", path = "json/feat04.json" },

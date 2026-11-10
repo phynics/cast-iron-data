@@ -2,6 +2,7 @@
 id = "ref/monster/putrid-ooze"
 kind = "creature"
 title = "Putrid Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Putrid%20Ooze"
 source_ids = ["bestiary-5", "pathfinder-76-the-midnight-isles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "putrid_ooze", path = "json/monsters19.json" },

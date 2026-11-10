@@ -2,6 +2,7 @@
 id = "ref/feat/sacrificial-potency"
 kind = "feat"
 title = "Sacrificial Potency"
+aon = "FeatDisplay.aspx?ItemName=Sacrificial%20Potency"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacrificial_potency", path = "json/feat13.json" },

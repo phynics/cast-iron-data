@@ -2,6 +2,7 @@
 id = "ref/spell/sepia-snake-sigil"
 kind = "spell"
 title = "Sepia Snake Sigil"
+aon = "SpellDisplay.aspx?ItemName=Sepia%20Snake%20Sigil"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sepia_snake_sigil", path = "json/spells15.json" },

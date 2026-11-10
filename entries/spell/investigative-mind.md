@@ -2,6 +2,7 @@
 id = "ref/spell/investigative-mind"
 kind = "spell"
 title = "Investigative Mind"
+aon = "SpellDisplay.aspx?ItemName=Investigative%20Mind"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "investigative_mind", path = "json/spells14.json" },

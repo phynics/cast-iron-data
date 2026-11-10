@@ -2,6 +2,7 @@
 id = "ref/spell/beast-shape-3"
 kind = "spell"
 title = "Beast Shape III"
+aon = "SpellDisplay.aspx?ItemName=Beast%20Shape%20III"
 source_ids = ["core-rulebook", "ultimate-wilderness", "animal-archive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_shape_3", path = "json/spells12.json" },

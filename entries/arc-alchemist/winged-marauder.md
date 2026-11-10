@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/winged-marauder"
 kind = "archetype"
 title = "Winged Marauder"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Winged%20Marauder"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "winged_marauder", path = "json/archetypes_alchemist2.json" },

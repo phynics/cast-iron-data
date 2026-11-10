@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/brute"
 kind = "archetype"
 title = "Brute"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Brute"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brute", path = "json/archetypes_vigilante.json" },

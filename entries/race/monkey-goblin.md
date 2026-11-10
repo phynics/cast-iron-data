@@ -2,7 +2,9 @@
 id = "ref/race/monkey-goblin"
 kind = "race"
 title = "Monkey Goblin"
+aon = "RacesDisplay.aspx?ItemName=Monkey%20Goblin"
 source_ids = ["bestiary-6", "inner-sea-bestiary", "inner-sea-races"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monkey_goblin", path = "json/races2.json" },
 ]

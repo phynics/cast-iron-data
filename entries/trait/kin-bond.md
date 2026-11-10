@@ -2,6 +2,7 @@
 id = "ref/trait/kin-bond"
 kind = "trait"
 title = "Kin Bond"
+aon = "TraitDisplay.aspx?ItemName=Kin%20Bond"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kin_bond", path = "json/traits02.json" },

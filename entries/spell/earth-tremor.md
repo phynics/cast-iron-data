@@ -2,6 +2,7 @@
 id = "ref/spell/earth-tremor"
 kind = "spell"
 title = "Earth Tremor"
+aon = "SpellDisplay.aspx?ItemName=Earth%20Tremor"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_tremor", path = "json/spells13.json" },

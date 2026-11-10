@@ -2,6 +2,7 @@
 id = "ref/spell/holy-aura"
 kind = "spell"
 title = "Holy Aura"
+aon = "SpellDisplay.aspx?ItemName=Holy%20Aura"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_aura", path = "json/spells5.json" },

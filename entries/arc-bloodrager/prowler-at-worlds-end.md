@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/prowler-at-worlds-end"
 kind = "archetype"
 title = "Prowler at World's End"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Prowler%20at%20World%27s%20End"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prowler_at_worlds_end", path = "json/archetypes_bloodrager.json" },

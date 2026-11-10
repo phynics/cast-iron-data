@@ -2,6 +2,7 @@
 id = "ref/spell/burst-of-adrenaline"
 kind = "spell"
 title = "Burst of Adrenaline"
+aon = "SpellDisplay.aspx?ItemName=Burst%20of%20Adrenaline"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burst_of_adrenaline", path = "json/spells2.json" },

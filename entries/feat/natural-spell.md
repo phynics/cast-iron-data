@@ -2,6 +2,7 @@
 id = "ref/feat/natural-spell"
 kind = "feat"
 title = "Natural Spell"
+aon = "FeatDisplay.aspx?ItemName=Natural%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_spell", path = "json/feat11.json" },

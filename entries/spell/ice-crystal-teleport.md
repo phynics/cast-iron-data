@@ -2,6 +2,7 @@
 id = "ref/spell/ice-crystal-teleport"
 kind = "spell"
 title = "Ice Crystal Teleport"
+aon = "SpellDisplay.aspx?ItemName=Ice%20Crystal%20Teleport"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_crystal_teleport", path = "json/spells5.json" },

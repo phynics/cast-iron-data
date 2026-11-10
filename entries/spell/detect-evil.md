@@ -2,6 +2,7 @@
 id = "ref/spell/detect-evil"
 kind = "spell"
 title = "Detect Evil"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Evil"
 source_ids = ["core-rulebook", "agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_evil", path = "json/spells3.json" },

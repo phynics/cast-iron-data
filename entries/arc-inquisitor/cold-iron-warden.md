@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/cold-iron-warden"
 kind = "archetype"
 title = "Cold Iron Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Cold%20Iron%20Warden"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_iron_warden", path = "json/archetypes_inquisitor.json" },

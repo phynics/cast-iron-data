@@ -2,6 +2,7 @@
 id = "ref/trait/get-the-cargo-through"
 kind = "trait"
 title = "Get the Cargo Through"
+aon = "TraitDisplay.aspx?ItemName=Get%20the%20Cargo%20Through"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "get_the_cargo_through", path = "json/traits02.json" },

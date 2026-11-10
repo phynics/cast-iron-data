@@ -2,6 +2,7 @@
 id = "ref/monster/living-topiary"
 kind = "creature"
 title = "Living Topiary"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Topiary"
 source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_topiary", path = "json/monsters16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/respectful-quiet"
 kind = "spell"
 title = "Respectful Quiet"
+aon = "SpellDisplay.aspx?ItemName=Respectful%20Quiet"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "respectful_quiet", path = "json/spells8.json" },

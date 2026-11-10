@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-the-outcast"
 kind = "spell"
 title = "Curse of the Outcast"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20the%20Outcast"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_the_outcast", path = "json/spells3.json" },

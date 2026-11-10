@@ -2,6 +2,7 @@
 id = "ref/feat/swap-trick"
 kind = "feat"
 title = "Swap Trick"
+aon = "FeatDisplay.aspx?ItemName=Swap%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swap_trick", path = "json/feat15.json" },

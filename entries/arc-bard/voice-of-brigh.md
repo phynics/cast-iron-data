@@ -2,6 +2,7 @@
 id = "ref/arc-bard/voice-of-brigh"
 kind = "archetype"
 title = "Voice of Brigh"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Voice%20of%20Brigh"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_brigh", path = "json/archetypes_bard2.json" },

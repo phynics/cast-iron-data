@@ -2,6 +2,7 @@
 id = "ref/trait/alluring"
 kind = "trait"
 title = "Alluring"
+aon = "TraitDisplay.aspx?ItemName=Alluring"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alluring", path = "json/traits03.json" },

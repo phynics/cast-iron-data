@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/natural-philosopher"
 kind = "archetype"
 title = "Natural Philosopher"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Natural%20Philosopher"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natural_philosopher", path = "json/archetypes_investigator.json" },

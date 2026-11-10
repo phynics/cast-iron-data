@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/ectoplasm-master"
 kind = "archetype"
 title = "Ectoplasm Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Ectoplasm%20Master"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectoplasm_master", path = "json/archetypes_alchemist.json" },

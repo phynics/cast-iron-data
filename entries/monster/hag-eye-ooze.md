@@ -2,6 +2,7 @@
 id = "ref/monster/hag-eye-ooze"
 kind = "creature"
 title = "Hag Eye Ooze"
+aon = "MonsterDisplay.aspx?ItemName=Hag%20Eye%20Ooze"
 source_ids = ["pathfinder-72-the-witch-queens-revenge", "bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_eye_ooze", path = "json/monsters33.json" },

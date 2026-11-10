@@ -2,6 +2,7 @@
 id = "ref/arc-bard/cultivator"
 kind = "archetype"
 title = "Cultivator"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Cultivator"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cultivator", path = "json/archetypes_bard.json" },

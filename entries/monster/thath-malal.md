@@ -2,6 +2,7 @@
 id = "ref/monster/thath-malal"
 kind = "creature"
 title = "Thath-Malal, the Eyeless Prince"
+aon = "MonsterDisplay.aspx?ItemName=Thath-Malal%2C%20the%20Eyeless%20Prince"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thath_malal", path = "json/monsters_unique3.json" },

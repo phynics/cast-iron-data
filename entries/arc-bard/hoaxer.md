@@ -2,6 +2,7 @@
 id = "ref/arc-bard/hoaxer"
 kind = "archetype"
 title = "Hoaxer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Hoaxer"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hoaxer", path = "json/archetypes_bard2.json" },

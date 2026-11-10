@@ -2,6 +2,7 @@
 id = "ref/trait/ozem-inspired"
 kind = "trait"
 title = "Ozem-Inspired"
+aon = "TraitDisplay.aspx?ItemName=Ozem-Inspired"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ozem_inspired", path = "json/traits01.json" },

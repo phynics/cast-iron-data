@@ -2,6 +2,7 @@
 id = "ref/spell/microcosm"
 kind = "spell"
 title = "Microcosm"
+aon = "SpellDisplay.aspx?ItemName=Microcosm"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "microcosm", path = "json/spells14.json" },

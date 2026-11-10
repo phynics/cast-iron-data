@@ -2,6 +2,7 @@
 id = "ref/feat/charging-stag-style"
 kind = "feat"
 title = "Charging Stag Style"
+aon = "FeatDisplay.aspx?ItemName=Charging%20Stag%20Style"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charging_stag_style", path = "json/feat03.json" },

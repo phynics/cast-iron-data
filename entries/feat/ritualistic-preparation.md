@@ -2,6 +2,7 @@
 id = "ref/feat/ritualistic-preparation"
 kind = "feat"
 title = "Ritualistic Preparation"
+aon = "FeatDisplay.aspx?ItemName=Ritualistic%20Preparation"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ritualistic_preparation", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/memorize-page"
 kind = "spell"
 title = "Memorize Page"
+aon = "SpellDisplay.aspx?ItemName=Memorize%20Page"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memorize_page", path = "json/spells14.json" },

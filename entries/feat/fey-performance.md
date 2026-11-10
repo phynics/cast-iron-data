@@ -2,6 +2,7 @@
 id = "ref/feat/fey-performance"
 kind = "feat"
 title = "Fey Performance"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Performance"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_performance", path = "json/feat07.json" },

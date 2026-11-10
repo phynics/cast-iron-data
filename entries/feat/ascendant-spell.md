@@ -2,6 +2,7 @@
 id = "ref/feat/ascendant-spell"
 kind = "feat"
 title = "Ascendant Spell"
+aon = "FeatDisplay.aspx?ItemName=Ascendant%20Spell"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascendant_spell", path = "json/feat01.json" },

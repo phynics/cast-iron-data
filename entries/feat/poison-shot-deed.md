@@ -2,6 +2,7 @@
 id = "ref/feat/poison-shot-deed"
 kind = "feat"
 title = "Poison Shot Deed"
+aon = "FeatDisplay.aspx?ItemName=Poison%20Shot%20Deed"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_shot_deed", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/elemental/mud/huge"
 kind = "creature"
 title = "Elemental, Mud, Huge"
+aon = "MonsterDisplay.aspx?ItemName=Huge%20Mud%20Elemental"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Elemental", "Mud"]
 tags = ["outsider", "earth", "elemental", "extraplanar", "water", "huge"]

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/varisian-free-style-fighter"
 kind = "archetype"
 title = "Varisian Free-Style Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Varisian%20Free-Style%20Fighter"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_free_style_fighter", path = "json/archetypes_fighter2.json" },

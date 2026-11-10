@@ -2,6 +2,7 @@
 id = "ref/feat/two-weapon-drunkard"
 kind = "feat"
 title = "Two-Weapon Drunkard"
+aon = "FeatDisplay.aspx?ItemName=Two-Weapon%20Drunkard"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "two_weapon_drunkard", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-volley"
 kind = "spell"
 title = "Telekinetic Volley"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Volley"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_volley", path = "json/spells10.json" },

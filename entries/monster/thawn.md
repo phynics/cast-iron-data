@@ -2,6 +2,7 @@
 id = "ref/monster/thawn"
 kind = "creature"
 title = "Thawn"
+aon = "MonsterDisplay.aspx?ItemName=Thawn"
 source_ids = ["pathfinder-31-stolen-land"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thawn", path = "json/monsters23.json" },

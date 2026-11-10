@@ -2,6 +2,7 @@
 id = "ref/monster/turtle"
 kind = "creature"
 title = "Turtle"
+aon = "MonsterDisplay.aspx?ItemName=Turtle"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turtle", path = "json/monsters24.json" },

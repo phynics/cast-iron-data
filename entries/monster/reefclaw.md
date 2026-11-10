@@ -2,6 +2,7 @@
 id = "ref/monster/reefclaw"
 kind = "creature"
 title = "Reefclaw"
+aon = "MonsterDisplay.aspx?ItemName=Reefclaw"
 source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reefclaw", path = "json/monsters20.json" },

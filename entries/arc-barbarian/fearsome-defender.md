@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/fearsome-defender"
 kind = "archetype"
 title = "Fearsome Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Fearsome%20Defender"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearsome_defender", path = "json/archetypes_barbarian.json" },

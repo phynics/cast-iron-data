@@ -2,6 +2,7 @@
 id = "ref/trait/inspired-by-greatness"
 kind = "trait"
 title = "Inspired by Greatness"
+aon = "TraitDisplay.aspx?ItemName=Inspired%20by%20Greatness"
 source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_by_greatness", path = "json/traits02.json" },

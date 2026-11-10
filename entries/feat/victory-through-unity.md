@@ -2,6 +2,7 @@
 id = "ref/feat/victory-through-unity"
 kind = "feat"
 title = "Victory Through Unity"
+aon = "FeatDisplay.aspx?ItemName=Victory%20Through%20Unity"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "victory_through_unity", path = "json/feat17.json" },

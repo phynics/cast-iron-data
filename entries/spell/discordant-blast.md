@@ -2,6 +2,7 @@
 id = "ref/spell/discordant-blast"
 kind = "spell"
 title = "Discordant Blast"
+aon = "SpellDisplay.aspx?ItemName=Discordant%20Blast"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discordant_blast", path = "json/spells3.json" },

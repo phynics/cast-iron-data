@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/wildborn"
 kind = "archetype"
 title = "Wildborn"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Wildborn"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wildborn", path = "json/archetypes_barbarian.json" },

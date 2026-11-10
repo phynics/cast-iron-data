@@ -2,6 +2,7 @@
 id = "ref/spell/defoliate"
 kind = "spell"
 title = "Defoliate"
+aon = "SpellDisplay.aspx?ItemName=Defoliate"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defoliate", path = "json/spells3.json" },

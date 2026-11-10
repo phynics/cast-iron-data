@@ -2,6 +2,7 @@
 id = "ref/feat/marcher-lord-of-the-cerulean-abyss"
 kind = "feat"
 title = "Marcher-Lord of the Cerulean Abyss"
+aon = "FeatDisplay.aspx?ItemName=Marcher-Lord%20of%20the%20Cerulean%20Abyss"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marcher_lord_of_the_cerulean_abyss", path = "json/feat10.json" },

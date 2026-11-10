@@ -2,6 +2,7 @@
 id = "ref/spell/invoke-deity"
 kind = "spell"
 title = "Invoke Deity"
+aon = "SpellDisplay.aspx?ItemName=Invoke%20Deity"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_deity", path = "json/spells6.json" },

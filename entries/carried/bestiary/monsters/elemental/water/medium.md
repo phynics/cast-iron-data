@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/elemental/water/medium"
 kind = "creature"
 title = "Elemental, Water, Medium"
+aon = "MonsterDisplay.aspx?ItemName=Medium%20Water%20Elemental"
 source_ids = ["bestiary"]
 section = ["Monsters", "Elemental", "Water"]
 tags = ["outsider", "elemental", "extraplanar", "water", "medium"]

@@ -2,6 +2,7 @@
 id = "ref/spell/waves-of-blood"
 kind = "spell"
 title = "Waves of Blood"
+aon = "SpellDisplay.aspx?ItemName=Waves%20of%20Blood"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waves_of_blood", path = "json/spells11.json" },

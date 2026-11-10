@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/poleiheira-adherent"
 kind = "archetype"
 title = "Poleiheira Adherent"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Poleiheira%20Adherent"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poleiheira_adherent", path = "json/archetypes_wizard.json" },

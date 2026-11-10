@@ -2,6 +2,7 @@
 id = "ref/monster/baregara"
 kind = "creature"
 title = "Baregara"
+aon = "MonsterDisplay.aspx?ItemName=Baregara"
 source_ids = ["bestiary-3", "pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baregara", path = "json/monsters03.json" },

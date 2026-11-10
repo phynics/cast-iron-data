@@ -2,6 +2,7 @@
 id = "ref/feat/aberrant-tumor"
 kind = "feat"
 title = "Aberrant Tumor"
+aon = "FeatDisplay.aspx?ItemName=Aberrant%20Tumor"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aberrant_tumor", path = "json/feat01.json" },

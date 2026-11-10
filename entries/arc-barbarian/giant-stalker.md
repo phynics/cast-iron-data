@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/giant-stalker"
 kind = "archetype"
 title = "Giant Stalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Giant%20Stalker"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_stalker", path = "json/archetypes_barbarian.json" },

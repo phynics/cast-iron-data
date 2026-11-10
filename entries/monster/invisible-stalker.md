@@ -2,6 +2,7 @@
 id = "ref/monster/invisible-stalker"
 kind = "creature"
 title = "Invisible Stalker"
+aon = "MonsterDisplay.aspx?ItemName=Invisible%20Stalker"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisible_stalker", path = "json/monsters14.json" },

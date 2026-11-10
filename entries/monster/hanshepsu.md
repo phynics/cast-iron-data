@@ -2,6 +2,7 @@
 id = "ref/monster/hanshepsu"
 kind = "creature"
 title = "Hanshepsu"
+aon = "MonsterDisplay.aspx?ItemName=Hanshepsu"
 source_ids = ["pathfinder-83-the-slave-trenches-of-hakotep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hanshepsu", path = "json/monsters13.json" },

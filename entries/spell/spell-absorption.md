@@ -2,6 +2,7 @@
 id = "ref/spell/spell-absorption"
 kind = "spell"
 title = "Spell Absorption"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Absorption"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_absorption", path = "json/spells9.json" },

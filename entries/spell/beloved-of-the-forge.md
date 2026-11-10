@@ -2,6 +2,7 @@
 id = "ref/spell/beloved-of-the-forge"
 kind = "spell"
 title = "Beloved of the Forge"
+aon = "SpellDisplay.aspx?ItemName=Beloved%20of%20the%20Forge"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beloved_of_the_forge", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/hidden-blades"
 kind = "spell"
 title = "Hidden Blades"
+aon = "SpellDisplay.aspx?ItemName=Hidden%20Blades"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_blades", path = "json/spells5.json" },

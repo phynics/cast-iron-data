@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/fractured-mind"
 kind = "archetype"
 title = "Fractured Mind"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Fractured%20Mind"
 source_ids = ["occult-adventures", "psychic-anthology", "occult-origins", "heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fractured_mind", path = "json/archetypes_spiritualist.json" },

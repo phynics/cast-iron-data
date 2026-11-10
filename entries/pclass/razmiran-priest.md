@@ -2,6 +2,7 @@
 id = "ref/pclass/razmiran-priest"
 kind = "prestige_class"
 title = "Razmiran Priest"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Razmiran%20Priest"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razmiran_priest", path = "json/prestige_classes3.json" },

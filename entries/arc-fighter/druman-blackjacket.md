@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/druman-blackjacket"
 kind = "archetype"
 title = "Druman Blackjacket"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Druman%20Blackjacket"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druman_blackjacket", path = "json/archetypes_fighter.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/reloading-hands"
 kind = "spell"
 title = "Reloading Hands"
+aon = "SpellDisplay.aspx?ItemName=Reloading%20Hands"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reloading_hands", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/minotaur-labyrinth-minotaur"
 kind = "creature"
 title = "Labyrinth Minotaur"
+aon = "MonsterDisplay.aspx?ItemName=Labyrinth%20Minotaur"
 source_ids = ["pathfinder-77-herald-of-the-ivory-labyrinth"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minotaur_labyrinth_minotaur", path = "json/monsters35.json" },

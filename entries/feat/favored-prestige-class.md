@@ -2,6 +2,7 @@
 id = "ref/feat/favored-prestige-class"
 kind = "feat"
 title = "Favored Prestige Class"
+aon = "FeatDisplay.aspx?ItemName=Favored%20Prestige%20Class"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_prestige_class", path = "json/feat06.json" },

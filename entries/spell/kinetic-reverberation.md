@@ -2,6 +2,7 @@
 id = "ref/spell/kinetic-reverberation"
 kind = "spell"
 title = "Kinetic Reverberation"
+aon = "SpellDisplay.aspx?ItemName=Kinetic%20Reverberation"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_reverberation", path = "json/spells6.json" },

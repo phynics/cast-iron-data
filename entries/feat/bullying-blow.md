@@ -2,6 +2,7 @@
 id = "ref/feat/bullying-blow"
 kind = "feat"
 title = "Bullying Blow"
+aon = "FeatDisplay.aspx?ItemName=Bullying%20Blow"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullying_blow", path = "json/feat02.json" },

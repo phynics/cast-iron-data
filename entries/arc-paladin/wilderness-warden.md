@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/wilderness-warden"
 kind = "archetype"
 title = "Wilderness Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Wilderness%20Warden"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_warden", path = "json/archetypes_paladin.json" },

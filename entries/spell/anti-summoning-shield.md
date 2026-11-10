@@ -2,6 +2,7 @@
 id = "ref/spell/anti-summoning-shield"
 kind = "spell"
 title = "Anti-Summoning Shield"
+aon = "SpellDisplay.aspx?ItemName=Anti-Summoning%20Shield"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anti_summoning_shield", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/moonrise-arrow"
 kind = "spell"
 title = "Moonrise Arrow"
+aon = "SpellDisplay.aspx?ItemName=Moonrise%20Arrow"
 source_ids = ["pathfinder-134-it-came-from-hollow-mountain"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonrise_arrow", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/merciful-healer"
 kind = "archetype"
 title = "Merciful Healer"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Merciful%20Healer"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_healer", path = "json/archetypes_cleric.json" },

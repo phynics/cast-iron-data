@@ -2,7 +2,9 @@
 id = "ref/race/cecaelia"
 kind = "race"
 title = "Cecaelia"
+aon = "RacesDisplay.aspx?ItemName=Cecaelia"
 source_ids = ["blood-of-the-sea"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cecaelia", path = "json/races.json" },
 ]

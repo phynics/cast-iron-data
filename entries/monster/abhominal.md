@@ -2,6 +2,7 @@
 id = "ref/monster/abhominal"
 kind = "creature"
 title = "Abhominal"
+aon = "MonsterDisplay.aspx?ItemName=Abhominal"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abhominal", path = "json/monsters01.json" },

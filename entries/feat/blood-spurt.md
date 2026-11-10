@@ -2,6 +2,7 @@
 id = "ref/feat/blood-spurt"
 kind = "feat"
 title = "Blood Spurt"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Spurt"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_spurt", path = "json/feat02.json" },

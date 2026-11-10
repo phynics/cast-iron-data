@@ -2,6 +2,7 @@
 id = "ref/feat/vishkanya-perfume"
 kind = "feat"
 title = "Vishkanya Perfume"
+aon = "FeatDisplay.aspx?ItemName=Vishkanya%20Perfume"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vishkanya_perfume", path = "json/feat17.json" },

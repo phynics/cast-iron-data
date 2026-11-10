@@ -2,6 +2,7 @@
 id = "ref/spell/banish-seeming"
 kind = "spell"
 title = "Banish Seeming"
+aon = "SpellDisplay.aspx?ItemName=Banish%20Seeming"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banish_seeming", path = "json/spells12.json" },

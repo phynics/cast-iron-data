@@ -2,6 +2,7 @@
 id = "ref/arc-witch/ley-line-guardian"
 kind = "archetype"
 title = "Ley Line Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Ley%20Line%20Guardian"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ley_line_guardian", path = "json/archetypes_witch.json" },

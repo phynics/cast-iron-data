@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/material-manipulator"
 kind = "archetype"
 title = "Material Manipulator"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Material%20Manipulator"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "material_manipulator", path = "json/archetypes_mesmerist.json" },

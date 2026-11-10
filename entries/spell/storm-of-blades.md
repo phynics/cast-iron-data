@@ -2,6 +2,7 @@
 id = "ref/spell/storm-of-blades"
 kind = "spell"
 title = "Storm of Blades"
+aon = "SpellDisplay.aspx?ItemName=Storm%20of%20Blades"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_blades", path = "json/spells9.json" },

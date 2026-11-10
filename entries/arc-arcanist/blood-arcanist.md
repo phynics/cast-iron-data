@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/blood-arcanist"
 kind = "archetype"
 title = "Blood Arcanist"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Blood%20Arcanist"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_arcanist", path = "json/archetypes_arcanist.json" },

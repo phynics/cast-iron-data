@@ -2,6 +2,7 @@
 id = "ref/feat/oread-burrower"
 kind = "feat"
 title = "Oread Burrower"
+aon = "FeatDisplay.aspx?ItemName=Oread%20Burrower"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oread_burrower", path = "json/feat11.json" },

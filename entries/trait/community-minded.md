@@ -2,6 +2,7 @@
 id = "ref/trait/community-minded"
 kind = "trait"
 title = "Community-Minded"
+aon = "TraitDisplay.aspx?ItemName=Community-Minded"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "community_minded", path = "json/traits04.json" },

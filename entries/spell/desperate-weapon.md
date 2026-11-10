@@ -2,6 +2,7 @@
 id = "ref/spell/desperate-weapon"
 kind = "spell"
 title = "Desperate Weapon"
+aon = "SpellDisplay.aspx?ItemName=Desperate%20Weapon"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_weapon", path = "json/spells3.json" },

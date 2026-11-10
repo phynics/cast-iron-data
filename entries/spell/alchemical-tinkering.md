@@ -2,6 +2,7 @@
 id = "ref/spell/alchemical-tinkering"
 kind = "spell"
 title = "Alchemical Tinkering"
+aon = "SpellDisplay.aspx?ItemName=Alchemical%20Tinkering"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_tinkering", path = "json/spells.json" },

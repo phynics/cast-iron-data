@@ -2,6 +2,7 @@
 id = "ref/monster/freezing-flow"
 kind = "creature"
 title = "Freezing Flow"
+aon = "MonsterDisplay.aspx?ItemName=Freezing%20Flow"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freezing_flow", path = "json/monsters31.json" },

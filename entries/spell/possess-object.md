@@ -2,6 +2,7 @@
 id = "ref/spell/possess-object"
 kind = "spell"
 title = "Possess Object"
+aon = "SpellDisplay.aspx?ItemName=Possess%20Object"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "possess_object", path = "json/spells6.json" },

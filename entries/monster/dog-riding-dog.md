@@ -2,6 +2,7 @@
 id = "ref/monster/dog-riding-dog"
 kind = "creature"
 title = "Riding Dog"
+aon = "MonsterDisplay.aspx?ItemName=Riding%20Dog"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dog_riding_dog", path = "json/monsters41.json" },

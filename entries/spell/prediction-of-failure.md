@@ -2,6 +2,7 @@
 id = "ref/spell/prediction-of-failure"
 kind = "spell"
 title = "Prediction of Failure"
+aon = "SpellDisplay.aspx?ItemName=Prediction%20of%20Failure"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prediction_of_failure", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/strongarm"
 kind = "feat"
 title = "Strongarm"
+aon = "FeatDisplay.aspx?ItemName=Strongarm"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strongarm", path = "json/feat15.json" },

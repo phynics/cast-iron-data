@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/spy"
 kind = "archetype"
 title = "Spy"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Spy"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spy", path = "json/archetypes_rogue.json" },

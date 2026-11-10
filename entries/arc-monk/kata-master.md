@@ -2,6 +2,7 @@
 id = "ref/arc-monk/kata-master"
 kind = "archetype"
 title = "Kata Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Kata%20Master"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kata_master", path = "json/archetypes_monk.json" },

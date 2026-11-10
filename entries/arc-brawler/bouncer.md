@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/bouncer"
 kind = "archetype"
 title = "Bouncer"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Bouncer"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncer", path = "json/archetypes_brawler.json" },

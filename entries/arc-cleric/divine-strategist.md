@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/divine-strategist"
 kind = "archetype"
 title = "Divine Strategist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Divine%20Strategist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_strategist", path = "json/archetypes_cleric.json" },

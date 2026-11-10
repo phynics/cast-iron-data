@@ -2,6 +2,7 @@
 id = "ref/spell/improve-trap"
 kind = "spell"
 title = "Improve Trap"
+aon = "SpellDisplay.aspx?ItemName=Improve%20Trap"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improve_trap", path = "json/spells14.json" },

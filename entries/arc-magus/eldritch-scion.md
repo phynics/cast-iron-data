@@ -2,6 +2,7 @@
 id = "ref/arc-magus/eldritch-scion"
 kind = "archetype"
 title = "Eldritch Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Eldritch%20Scion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_scion", path = "json/archetypes_magus.json" },

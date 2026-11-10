@@ -2,7 +2,9 @@
 id = "ref/race/catfolk"
 kind = "race"
 title = "Catfolk"
+aon = "RacesDisplay.aspx?ItemName=Catfolk"
 source_ids = ["inner-sea-races", "bestiary-3", "advanced-race-guide", "blood-of-the-beast", "wilderness-origins"]
+race_group = "featured_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk", path = "json/races.json" },
 ]

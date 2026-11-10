@@ -2,6 +2,7 @@
 id = "ref/trait/arodenite-historian"
 kind = "trait"
 title = "Arodenite Historian"
+aon = "TraitDisplay.aspx?ItemName=Arodenite%20Historian"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodenite_historian", path = "json/traits01.json" },

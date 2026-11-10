@@ -2,6 +2,7 @@
 id = "ref/spell/illusory-wall"
 kind = "spell"
 title = "Illusory Wall"
+aon = "SpellDisplay.aspx?ItemName=Illusory%20Wall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_wall", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-toxins"
 kind = "item"
 title = "Staff of Toxins"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Toxins"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_toxins", path = "json/magic_staff.json" },

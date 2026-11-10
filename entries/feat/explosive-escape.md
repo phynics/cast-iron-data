@@ -2,6 +2,7 @@
 id = "ref/feat/explosive-escape"
 kind = "feat"
 title = "Explosive Escape"
+aon = "FeatDisplay.aspx?ItemName=Explosive%20Escape"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosive_escape", path = "json/feat06.json" },

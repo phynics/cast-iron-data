@@ -2,6 +2,7 @@
 id = "ref/feat/greater-grapple"
 kind = "feat"
 title = "Greater Grapple"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Grapple"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_grapple", path = "json/feat08.json" },

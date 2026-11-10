@@ -2,6 +2,7 @@
 id = "ref/spell/programmed-image"
 kind = "spell"
 title = "Programmed Image"
+aon = "SpellDisplay.aspx?ItemName=Programmed%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "programmed_image", path = "json/spells15.json" },

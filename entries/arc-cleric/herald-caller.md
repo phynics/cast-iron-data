@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/herald-caller"
 kind = "archetype"
 title = "Herald Caller"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Herald%20Caller"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_caller", path = "json/archetypes_cleric.json" },

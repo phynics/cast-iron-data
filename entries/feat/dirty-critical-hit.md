@@ -2,6 +2,7 @@
 id = "ref/feat/dirty-critical-hit"
 kind = "feat"
 title = "Dirty Critical Hit"
+aon = "FeatDisplay.aspx?ItemName=Dirty%20Critical%20Hit"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_critical_hit", path = "json/feat04.json" },

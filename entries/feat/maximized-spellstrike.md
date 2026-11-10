@@ -2,6 +2,7 @@
 id = "ref/feat/maximized-spellstrike"
 kind = "feat"
 title = "Maximized Spellstrike"
+aon = "FeatDisplay.aspx?ItemName=Maximized%20Spellstrike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maximized_spellstrike", path = "json/feat10.json" },

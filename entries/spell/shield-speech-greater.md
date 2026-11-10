@@ -2,6 +2,7 @@
 id = "ref/spell/shield-speech-greater"
 kind = "spell"
 title = "Greater Shield Speech"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Speech%2C%20Greater"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_speech_greater", path = "json/spells9.json" },

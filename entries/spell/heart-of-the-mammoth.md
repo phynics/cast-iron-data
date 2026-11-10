@@ -2,6 +2,7 @@
 id = "ref/spell/heart-of-the-mammoth"
 kind = "spell"
 title = "Heart of the Mammoth"
+aon = "SpellDisplay.aspx?ItemName=Heart%20of%20the%20Mammoth"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heart_of_the_mammoth", path = "json/spells5.json" },

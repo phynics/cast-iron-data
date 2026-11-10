@@ -2,6 +2,7 @@
 id = "ref/trait/abolitionist-hunter"
 kind = "trait"
 title = "Abolitionist Hunter"
+aon = "TraitDisplay.aspx?ItemName=Abolitionist%20Hunter"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abolitionist_hunter", path = "json/traits04.json" },

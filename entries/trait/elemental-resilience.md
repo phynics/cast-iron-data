@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-resilience"
 kind = "trait"
 title = "Elemental Resilience"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Resilience"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_resilience", path = "json/traits03.json" },

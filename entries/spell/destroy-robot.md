@@ -2,6 +2,7 @@
 id = "ref/spell/destroy-robot"
 kind = "spell"
 title = "Destroy Robot"
+aon = "SpellDisplay.aspx?ItemName=Destroy%20Robot"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destroy_robot", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/survivalist"
 kind = "trait"
 title = "Survivalist"
+aon = "TraitDisplay.aspx?ItemName=Survivalist"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivalist", path = "json/traits05.json" },

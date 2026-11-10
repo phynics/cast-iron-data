@@ -2,6 +2,7 @@
 id = "ref/spell/true-strike"
 kind = "spell"
 title = "True Strike"
+aon = "SpellDisplay.aspx?ItemName=True%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_strike", path = "json/spells10.json" },

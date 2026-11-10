@@ -2,6 +2,7 @@
 id = "ref/feat/unconquerable-resolve"
 kind = "feat"
 title = "Unconquerable Resolve"
+aon = "FeatDisplay.aspx?ItemName=Unconquerable%20Resolve"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unconquerable_resolve", path = "json/feat16.json" },

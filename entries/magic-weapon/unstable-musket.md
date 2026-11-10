@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/unstable-musket"
 kind = "item"
 title = "Unstable Musket"
+aon = "MagicCursedDisplay.aspx?ItemName=Unstable%20Musket"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unstable_musket", path = "json/magic_weapon2.json" },

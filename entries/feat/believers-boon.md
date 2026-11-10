@@ -2,6 +2,7 @@
 id = "ref/feat/believers-boon"
 kind = "feat"
 title = "Believer's Boon"
+aon = "FeatDisplay.aspx?ItemName=Believer%27s%20Boon"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "believers_boon", path = "json/feat02.json" },

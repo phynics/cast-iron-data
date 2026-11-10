@@ -2,6 +2,7 @@
 id = "ref/magic-ring/bloodletting-thimble"
 kind = "item"
 title = "Bloodletting Thimble"
+aon = "MagicRingsDisplay.aspx?FinalName=Bloodletting%20Thimble"
 source_ids = ["monster-codex", "blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting_thimble", path = "json/magic_ring.json" },

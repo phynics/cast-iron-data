@@ -2,6 +2,7 @@
 id = "ref/feat/final-embrace"
 kind = "feat"
 title = "Final Embrace"
+aon = "FeatDisplay.aspx?ItemName=Final%20Embrace"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_embrace", path = "json/feat07.json" },

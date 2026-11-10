@@ -2,6 +2,7 @@
 id = "ref/feat/improved-bestial-transformation"
 kind = "feat"
 title = "Improved Bestial Transformation"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Bestial%20Transformation"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_bestial_transformation", path = "json/feat08.json" },

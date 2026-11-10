@@ -2,6 +2,7 @@
 id = "ref/trait/questing-hellknight"
 kind = "trait"
 title = "Questing Hellknight"
+aon = "TraitDisplay.aspx?ItemName=Questing%20Hellknight"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "questing_hellknight", path = "json/traits01.json" },

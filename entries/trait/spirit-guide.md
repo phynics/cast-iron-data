@@ -2,6 +2,7 @@
 id = "ref/trait/spirit-guide"
 kind = "trait"
 title = "Spirit Guide"
+aon = "TraitDisplay.aspx?ItemName=Spirit%20Guide"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_guide", path = "json/traits03.json" },

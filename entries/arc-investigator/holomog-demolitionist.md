@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/holomog-demolitionist"
 kind = "archetype"
 title = "Holomog Demolitionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Holomog%20Demolitionist"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holomog_demolitionist", path = "json/archetypes_investigator.json" },

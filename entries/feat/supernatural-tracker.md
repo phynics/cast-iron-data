@@ -2,6 +2,7 @@
 id = "ref/feat/supernatural-tracker"
 kind = "feat"
 title = "Supernatural Tracker"
+aon = "FeatDisplay.aspx?ItemName=Supernatural%20Tracker"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernatural_tracker", path = "json/feat15.json" },

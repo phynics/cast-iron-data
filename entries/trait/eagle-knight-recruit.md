@@ -2,6 +2,7 @@
 id = "ref/trait/eagle-knight-recruit"
 kind = "trait"
 title = "Eagle Knight Recruit"
+aon = "TraitDisplay.aspx?ItemName=Eagle%20Knight%20Recruit"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_knight_recruit", path = "json/traits02.json" },

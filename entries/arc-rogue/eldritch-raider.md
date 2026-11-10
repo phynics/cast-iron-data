@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/eldritch-raider"
 kind = "archetype"
 title = "Eldritch Raider"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Eldritch%20Raider"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_raider", path = "json/archetypes_rogue.json" },

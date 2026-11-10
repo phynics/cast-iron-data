@@ -2,6 +2,7 @@
 id = "ref/monster/wisagatcak"
 kind = "creature"
 title = "Wisagatcak"
+aon = "MonsterDisplay.aspx?ItemName=Wisagatcak"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wisagatcak", path = "json/monsters25.json" },

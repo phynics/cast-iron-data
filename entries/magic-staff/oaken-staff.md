@@ -2,6 +2,7 @@
 id = "ref/magic-staff/oaken-staff"
 kind = "item"
 title = "Oaken Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Oaken%20Staff"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oaken_staff", path = "json/magic_staff.json" },

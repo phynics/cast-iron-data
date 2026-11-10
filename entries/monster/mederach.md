@@ -2,6 +2,7 @@
 id = "ref/monster/mederach"
 kind = "creature"
 title = "Mederach"
+aon = "MonsterDisplay.aspx?ItemName=Mederach"
 source_ids = ["pathfinder-105-the-inferno-gate"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mederach", path = "json/monsters35.json" },

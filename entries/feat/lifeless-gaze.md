@@ -2,6 +2,7 @@
 id = "ref/feat/lifeless-gaze"
 kind = "feat"
 title = "Lifeless Gaze"
+aon = "FeatDisplay.aspx?ItemName=Lifeless%20Gaze"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifeless_gaze", path = "json/feat10.json" },

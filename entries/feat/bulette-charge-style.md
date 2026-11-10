@@ -2,6 +2,7 @@
 id = "ref/feat/bulette-charge-style"
 kind = "feat"
 title = "Bulette Charge Style"
+aon = "FeatDisplay.aspx?ItemName=Bulette%20Charge%20Style"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bulette_charge_style", path = "json/feat02.json" },

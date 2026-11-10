@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/poisoner"
 kind = "archetype"
 title = "Poisoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Poisoner"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoner", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/polymorph"
 kind = "spell"
 title = "Polymorph"
+aon = "SpellDisplay.aspx?ItemName=Polymorph"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph", path = "json/spells7.json" },

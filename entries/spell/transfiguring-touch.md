@@ -2,6 +2,7 @@
 id = "ref/spell/transfiguring-touch"
 kind = "spell"
 title = "Transfiguring Touch"
+aon = "SpellDisplay.aspx?ItemName=Transfiguring%20Touch"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfiguring_touch", path = "json/spells10.json" },

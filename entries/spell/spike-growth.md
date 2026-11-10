@@ -2,6 +2,7 @@
 id = "ref/spell/spike-growth"
 kind = "spell"
 title = "Spike Growth"
+aon = "SpellDisplay.aspx?ItemName=Spike%20Growth"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spike_growth", path = "json/spells9.json" },

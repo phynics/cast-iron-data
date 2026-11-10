@@ -2,6 +2,7 @@
 id = "ref/arc-bard/duettist"
 kind = "archetype"
 title = "Duettist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Duettist"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duettist", path = "json/archetypes_bard.json" },

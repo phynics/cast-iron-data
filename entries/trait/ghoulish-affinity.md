@@ -2,6 +2,7 @@
 id = "ref/trait/ghoulish-affinity"
 kind = "trait"
 title = "Ghoulish Affinity"
+aon = "TraitDisplay.aspx?ItemName=Ghoulish%20Affinity"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghoulish_affinity", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/kobold-sniper"
 kind = "feat"
 title = "Kobold Sniper"
+aon = "FeatDisplay.aspx?ItemName=Kobold%20Sniper"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_sniper", path = "json/feat09.json" },

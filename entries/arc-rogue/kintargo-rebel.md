@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/kintargo-rebel"
 kind = "archetype"
 title = "Kintargo Rebel"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Kintargo%20Rebel"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kintargo_rebel", path = "json/archetypes_rogue.json" },

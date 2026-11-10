@@ -2,6 +2,7 @@
 id = "ref/feat/shake-it-off"
 kind = "feat"
 title = "Shake It Off"
+aon = "FeatDisplay.aspx?ItemName=Shake%20It%20Off"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shake_it_off", path = "json/feat14.json" },

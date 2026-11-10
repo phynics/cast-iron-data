@@ -2,6 +2,7 @@
 id = "ref/monster/hooded-harbinger"
 kind = "creature"
 title = "Hooded Harbinger"
+aon = "MonsterDisplay.aspx?ItemName=Hooded%20Harbinger"
 source_ids = ["pathfinder-112-the-whisper-out-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hooded_harbinger", path = "json/monsters32.json" },

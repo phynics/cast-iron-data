@@ -2,6 +2,7 @@
 id = "ref/arc-witch/flood-walker"
 kind = "archetype"
 title = "Flood Walker"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Flood%20Walker"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flood_walker", path = "json/archetypes_witch.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/pinpoint-targeting"
 kind = "feat"
 title = "Pinpoint Targeting"
+aon = "FeatDisplay.aspx?ItemName=Pinpoint%20Targeting"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pinpoint_targeting", path = "json/feat12.json" },

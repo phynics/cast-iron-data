@@ -2,6 +2,7 @@
 id = "ref/spell/swarm-of-fangs"
 kind = "spell"
 title = "Swarm of Fangs"
+aon = "SpellDisplay.aspx?ItemName=Swarm%20of%20Fangs"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_of_fangs", path = "json/spells10.json" },

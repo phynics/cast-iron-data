@@ -2,6 +2,7 @@
 id = "ref/feat/shielded-staff-ambush"
 kind = "feat"
 title = "Shielded Staff Ambush"
+aon = "FeatDisplay.aspx?ItemName=Shielded%20Staff%20Ambush"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_staff_ambush", path = "json/feat14.json" },

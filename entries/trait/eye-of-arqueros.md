@@ -2,6 +2,7 @@
 id = "ref/trait/eye-of-arqueros"
 kind = "trait"
 title = "Eye of Arqueros"
+aon = "TraitDisplay.aspx?ItemName=Eye%20of%20Arqueros"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eye_of_arqueros", path = "json/traits03.json" },

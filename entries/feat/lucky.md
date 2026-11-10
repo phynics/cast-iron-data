@@ -2,6 +2,7 @@
 id = "ref/feat/lucky"
 kind = "feat"
 title = "Lucky"
+aon = "FeatDisplay.aspx?ItemName=Lucky"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky", path = "json/feat10.json" },

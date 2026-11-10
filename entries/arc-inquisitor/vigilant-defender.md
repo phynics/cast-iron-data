@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/vigilant-defender"
 kind = "archetype"
 title = "Vigilant Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Vigilant%20Defender"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_defender", path = "json/archetypes_inquisitor.json" },

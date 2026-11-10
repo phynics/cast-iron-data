@@ -2,6 +2,7 @@
 id = "ref/spell/fluid-form"
 kind = "spell"
 title = "Fluid Form"
+aon = "SpellDisplay.aspx?ItemName=Fluid%20Form"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fluid_form", path = "json/spells4.json" },

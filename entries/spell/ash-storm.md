@@ -2,6 +2,7 @@
 id = "ref/spell/ash-storm"
 kind = "spell"
 title = "Ash Storm"
+aon = "SpellDisplay.aspx?ItemName=Ash%20Storm"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ash_storm", path = "json/spells.json" },

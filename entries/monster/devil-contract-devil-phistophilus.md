@@ -2,6 +2,7 @@
 id = "ref/monster/devil-contract-devil-phistophilus"
 kind = "creature"
 title = "Contract Devil (Phistophilus)"
+aon = "MonsterDisplay.aspx?ItemName=Contract%20Devil%20%28Phistophilus%29"
 source_ids = ["bestiary-3", "pathfinder-12-crown-of-fangs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_contract_devil_phistophilus", path = "json/monsters07.json" },

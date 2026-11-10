@@ -2,6 +2,7 @@
 id = "ref/feat/slipslinger-grenadier"
 kind = "feat"
 title = "Slipslinger Grenadier"
+aon = "FeatDisplay.aspx?ItemName=Slipslinger%20Grenadier"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipslinger_grenadier", path = "json/feat14.json" },

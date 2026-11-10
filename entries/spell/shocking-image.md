@@ -2,6 +2,7 @@
 id = "ref/spell/shocking-image"
 kind = "spell"
 title = "Shocking Image"
+aon = "SpellDisplay.aspx?ItemName=Shocking%20Image"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_image", path = "json/spells9.json" },

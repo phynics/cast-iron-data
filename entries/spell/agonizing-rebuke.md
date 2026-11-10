@@ -2,6 +2,7 @@
 id = "ref/spell/agonizing-rebuke"
 kind = "spell"
 title = "Agonizing Rebuke"
+aon = "SpellDisplay.aspx?ItemName=Agonizing%20Rebuke"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "agonizing_rebuke", path = "json/spells.json" },

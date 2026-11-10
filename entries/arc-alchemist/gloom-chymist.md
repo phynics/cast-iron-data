@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/gloom-chymist"
 kind = "archetype"
 title = "Gloom Chymist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Gloom%20Chymist"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloom_chymist", path = "json/archetypes_alchemist.json" },

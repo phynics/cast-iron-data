@@ -2,6 +2,7 @@
 id = "ref/feat/verdant-spell"
 kind = "feat"
 title = "Verdant Spell"
+aon = "FeatDisplay.aspx?ItemName=Verdant%20Spell"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verdant_spell", path = "json/feat17.json" },

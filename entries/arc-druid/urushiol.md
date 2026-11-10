@@ -2,6 +2,7 @@
 id = "ref/arc-druid/urushiol"
 kind = "archetype"
 title = "Urushiol"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Urushiol"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urushiol", path = "json/archetypes_druid2.json" },

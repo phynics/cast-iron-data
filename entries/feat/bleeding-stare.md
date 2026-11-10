@@ -2,6 +2,7 @@
 id = "ref/feat/bleeding-stare"
 kind = "feat"
 title = "Bleeding Stare"
+aon = "FeatDisplay.aspx?ItemName=Bleeding%20Stare"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bleeding_stare", path = "json/feat02.json" },

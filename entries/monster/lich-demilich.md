@@ -2,6 +2,7 @@
 id = "ref/monster/lich-demilich"
 kind = "creature"
 title = "Demilich"
+aon = "MonsterDisplay.aspx?ItemName=Demilich"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lich_demilich", path = "json/monsters16.json" },

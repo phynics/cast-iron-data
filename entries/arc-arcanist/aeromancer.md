@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/aeromancer"
 kind = "archetype"
 title = "Aeromancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Aeromancer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeromancer", path = "json/archetypes_arcanist.json" },

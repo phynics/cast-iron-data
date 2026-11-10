@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/scroll-scholar"
 kind = "archetype"
 title = "Scroll Scholar"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Scroll%20Scholar"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scroll_scholar", path = "json/archetypes_wizard.json" },

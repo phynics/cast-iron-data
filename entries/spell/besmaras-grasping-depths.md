@@ -2,6 +2,7 @@
 id = "ref/spell/besmaras-grasping-depths"
 kind = "spell"
 title = "Besmara's Grasping Depths"
+aon = "SpellDisplay.aspx?ItemName=Besmara%27s%20Grasping%20Depths"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "besmaras_grasping_depths", path = "json/spells12.json" },

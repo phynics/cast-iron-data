@@ -2,6 +2,7 @@
 id = "ref/monster/belostomatid"
 kind = "creature"
 title = "Belostomatid"
+aon = "MonsterDisplay.aspx?ItemName=Belostomatid"
 source_ids = ["pathfinder-49-the-brinewall-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belostomatid", path = "json/monsters03.json" },

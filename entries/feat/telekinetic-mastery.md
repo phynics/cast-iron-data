@@ -2,6 +2,7 @@
 id = "ref/feat/telekinetic-mastery"
 kind = "feat"
 title = "Telekinetic Mastery"
+aon = "FeatDisplay.aspx?ItemName=Telekinetic%20Mastery"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_mastery", path = "json/feat16.json" },

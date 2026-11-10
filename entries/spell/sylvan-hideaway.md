@@ -2,6 +2,7 @@
 id = "ref/spell/sylvan-hideaway"
 kind = "spell"
 title = "Sylvan Hideaway"
+aon = "SpellDisplay.aspx?ItemName=Sylvan%20Hideaway"
 source_ids = ["pathfinder-116-fangs-of-war"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sylvan_hideaway", path = "json/spells10.json" },

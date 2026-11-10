@@ -2,6 +2,7 @@
 id = "ref/monster/egophage"
 kind = "creature"
 title = "Egophage"
+aon = "MonsterDisplay.aspx?ItemName=Egophage"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "egophage", path = "json/monsters09.json" },

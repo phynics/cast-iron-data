@@ -2,6 +2,7 @@
 id = "ref/arc-druid/supernaturalist"
 kind = "archetype"
 title = "Supernaturalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Supernaturalist"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernaturalist", path = "json/archetypes_druid2.json" },

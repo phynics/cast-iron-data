@@ -2,6 +2,7 @@
 id = "ref/trait/neutralizing-gut"
 kind = "trait"
 title = "Neutralizing Gut"
+aon = "TraitDisplay.aspx?ItemName=Neutralizing%20Gut"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neutralizing_gut", path = "json/traits05.json" },

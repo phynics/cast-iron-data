@@ -2,6 +2,7 @@
 id = "ref/feat/pacify-animal"
 kind = "feat"
 title = "Pacify Animal"
+aon = "FeatDisplay.aspx?ItemName=Pacify%20Animal"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pacify_animal", path = "json/feat11.json" },

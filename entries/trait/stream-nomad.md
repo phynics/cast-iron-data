@@ -2,6 +2,7 @@
 id = "ref/trait/stream-nomad"
 kind = "trait"
 title = "Stream Nomad"
+aon = "TraitDisplay.aspx?ItemName=Stream%20Nomad"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stream_nomad", path = "json/traits04.json" },

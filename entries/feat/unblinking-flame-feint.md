@@ -2,6 +2,7 @@
 id = "ref/feat/unblinking-flame-feint"
 kind = "feat"
 title = "Unblinking Flame Feint"
+aon = "FeatDisplay.aspx?ItemName=Unblinking%20Flame%20Feint"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblinking_flame_feint", path = "json/feat16.json" },

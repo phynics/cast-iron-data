@@ -2,6 +2,7 @@
 id = "ref/monster/attic-whisperer"
 kind = "creature"
 title = "Attic Whisperer"
+aon = "MonsterDisplay.aspx?ItemName=Attic%20Whisperer"
 source_ids = ["bestiary-2", "pathfinder-1-burnt-offerings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "attic_whisperer", path = "json/monsters26.json" },

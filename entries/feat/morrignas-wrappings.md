@@ -2,6 +2,7 @@
 id = "ref/feat/morrignas-wrappings"
 kind = "feat"
 title = "Morrigna's Wrappings"
+aon = "FeatDisplay.aspx?ItemName=Morrigna%27s%20Wrappings"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morrignas_wrappings", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/aspect-of-the-nightingale"
 kind = "spell"
 title = "Aspect of the Nightingale"
+aon = "SpellDisplay.aspx?ItemName=Aspect%20of%20the%20Nightingale"
 source_ids = ["inner-sea-gods", "pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspect_of_the_nightingale", path = "json/spells.json" },

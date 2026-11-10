@@ -2,6 +2,7 @@
 id = "ref/trait/improvisational-equipment"
 kind = "trait"
 title = "Improvisational Equipment"
+aon = "TraitDisplay.aspx?ItemName=Improvisational%20Equipment"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvisational_equipment", path = "json/traits03.json" },

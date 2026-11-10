@@ -2,6 +2,7 @@
 id = "ref/feat/perfect-style"
 kind = "feat"
 title = "Perfect Style"
+aon = "FeatDisplay.aspx?ItemName=Perfect%20Style"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_style", path = "json/feat12.json" },

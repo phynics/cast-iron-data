@@ -2,6 +2,7 @@
 id = "ref/arc-monk/scaled-fist"
 kind = "archetype"
 title = "Scaled Fist"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Scaled%20Fist"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scaled_fist", path = "json/archetypes_monk2.json" },

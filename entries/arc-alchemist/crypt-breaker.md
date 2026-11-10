@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/crypt-breaker"
 kind = "archetype"
 title = "Crypt Breaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Crypt%20Breaker"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_breaker", path = "json/archetypes_alchemist.json" },

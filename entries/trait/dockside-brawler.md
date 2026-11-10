@@ -2,6 +2,7 @@
 id = "ref/trait/dockside-brawler"
 kind = "trait"
 title = "Dockside Brawler"
+aon = "TraitDisplay.aspx?ItemName=Dockside%20Brawler"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dockside_brawler", path = "json/traits03.json" },

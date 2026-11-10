@@ -2,6 +2,7 @@
 id = "ref/trait/sphinxfriend"
 kind = "trait"
 title = "Sphinxfriend"
+aon = "TraitDisplay.aspx?ItemName=Sphinxfriend"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinxfriend", path = "json/traits05.json" },

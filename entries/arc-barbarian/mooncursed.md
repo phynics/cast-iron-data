@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/mooncursed"
 kind = "archetype"
 title = "Mooncursed"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Mooncursed"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mooncursed", path = "json/archetypes_barbarian.json" },

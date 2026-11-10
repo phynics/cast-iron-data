@@ -2,6 +2,7 @@
 id = "ref/spell/enhanced-diplomacy"
 kind = "spell"
 title = "Enhanced Diplomacy"
+aon = "SpellDisplay.aspx?ItemName=Enhanced%20Diplomacy"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_diplomacy", path = "json/spells4.json" },

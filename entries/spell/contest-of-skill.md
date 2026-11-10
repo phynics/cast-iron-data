@@ -2,6 +2,7 @@
 id = "ref/spell/contest-of-skill"
 kind = "spell"
 title = "Contest of Skill"
+aon = "SpellDisplay.aspx?ItemName=Contest%20of%20Skill"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contest_of_skill", path = "json/spells12.json" },

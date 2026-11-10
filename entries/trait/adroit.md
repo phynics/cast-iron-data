@@ -2,6 +2,7 @@
 id = "ref/trait/adroit"
 kind = "trait"
 title = "Adroit"
+aon = "TraitDisplay.aspx?ItemName=Adroit"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adroit", path = "json/traits05.json" },

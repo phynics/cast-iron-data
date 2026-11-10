@@ -2,6 +2,7 @@
 id = "ref/trait/lost-role-model"
 kind = "trait"
 title = "Lost Role Model"
+aon = "TraitDisplay.aspx?ItemName=Lost%20Role%20Model"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_role_model", path = "json/traits04.json" },

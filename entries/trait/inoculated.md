@@ -2,6 +2,7 @@
 id = "ref/trait/inoculated"
 kind = "trait"
 title = "Inoculated"
+aon = "TraitDisplay.aspx?ItemName=Inoculated"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inoculated", path = "json/traits03.json" },

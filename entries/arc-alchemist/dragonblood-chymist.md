@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/dragonblood-chymist"
 kind = "archetype"
 title = "Dragonblood Chymist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Dragonblood%20Chymist"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonblood_chymist", path = "json/archetypes_alchemist.json" },

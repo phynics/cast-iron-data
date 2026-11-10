@@ -2,6 +2,7 @@
 id = "ref/trait/poisoned-blade-resistance"
 kind = "trait"
 title = "Poisoned Blade Resistance"
+aon = "TraitDisplay.aspx?ItemName=Poisoned%20Blade%20Resistance"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoned_blade_resistance", path = "json/traits04.json" },

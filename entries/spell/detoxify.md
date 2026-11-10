@@ -2,6 +2,7 @@
 id = "ref/spell/detoxify"
 kind = "spell"
 title = "Detoxify"
+aon = "SpellDisplay.aspx?ItemName=Detoxify"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detoxify", path = "json/spells3.json" },

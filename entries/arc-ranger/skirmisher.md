@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/skirmisher"
 kind = "archetype"
 title = "Skirmisher"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Skirmisher"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skirmisher", path = "json/archetypes_ranger.json" },

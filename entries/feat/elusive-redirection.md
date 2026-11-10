@@ -2,6 +2,7 @@
 id = "ref/feat/elusive-redirection"
 kind = "feat"
 title = "Elusive Redirection"
+aon = "FeatDisplay.aspx?ItemName=Elusive%20Redirection"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elusive_redirection", path = "json/feat05.json" },

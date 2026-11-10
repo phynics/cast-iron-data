@@ -2,6 +2,7 @@
 id = "ref/spell/righteous-might"
 kind = "spell"
 title = "Righteous Might"
+aon = "SpellDisplay.aspx?ItemName=Righteous%20Might"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_might", path = "json/spells8.json" },

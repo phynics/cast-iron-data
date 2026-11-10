@@ -2,6 +2,7 @@
 id = "ref/arc-medium/spirit-dancer"
 kind = "archetype"
 title = "Spirit Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Spirit%20Dancer"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_dancer", path = "json/archetypes_medium.json" },

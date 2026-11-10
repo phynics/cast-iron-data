@@ -2,6 +2,7 @@
 id = "ref/feat/improved-initiative"
 kind = "feat"
 title = "Improved Initiative"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Initiative"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_initiative", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/know-the-land"
 kind = "trait"
 title = "Know the Land"
+aon = "TraitDisplay.aspx?ItemName=Know%20the%20Land"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "know_the_land", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/frost-fir"
 kind = "creature"
 title = "Frost Fir"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Fir"
 source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_fir", path = "json/monsters42.json" },

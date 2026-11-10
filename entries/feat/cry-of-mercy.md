@@ -2,6 +2,7 @@
 id = "ref/feat/cry-of-mercy"
 kind = "feat"
 title = "Cry of Mercy"
+aon = "FeatDisplay.aspx?ItemName=Cry%20of%20Mercy"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cry_of_mercy", path = "json/feat04.json" },

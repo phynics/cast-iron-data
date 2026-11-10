@@ -2,6 +2,7 @@
 id = "ref/spell/invisibility-bubble-mass"
 kind = "spell"
 title = "Mass Invisibility Bubble"
+aon = "SpellDisplay.aspx?ItemName=Invisibility%20Bubble%2C%20Mass"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invisibility_bubble_mass", path = "json/spells14.json" },

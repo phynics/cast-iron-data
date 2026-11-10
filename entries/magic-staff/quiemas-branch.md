@@ -2,6 +2,7 @@
 id = "ref/magic-staff/quiemas-branch"
 kind = "item"
 title = "Quiema's Branch"
+aon = "MagicStavesDisplay.aspx?ItemName=Quiema%27s%20Branch"
 source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quiemas_branch", path = "json/magic_staff.json" },

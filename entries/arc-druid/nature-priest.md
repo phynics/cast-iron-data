@@ -2,6 +2,7 @@
 id = "ref/arc-druid/nature-priest"
 kind = "archetype"
 title = "Nature Priest"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Nature%20Priest"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_priest", path = "json/archetypes_druid2.json" },

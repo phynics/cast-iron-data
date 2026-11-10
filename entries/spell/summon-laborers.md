@@ -2,6 +2,7 @@
 id = "ref/spell/summon-laborers"
 kind = "spell"
 title = "Summon Laborers"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Laborers"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_laborers", path = "json/spells16.json" },

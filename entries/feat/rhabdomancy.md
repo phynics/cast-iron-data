@@ -2,6 +2,7 @@
 id = "ref/feat/rhabdomancy"
 kind = "feat"
 title = "Rhabdomancy"
+aon = "FeatDisplay.aspx?ItemName=Rhabdomancy"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhabdomancy", path = "json/feat13.json" },

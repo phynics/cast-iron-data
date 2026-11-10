@@ -2,6 +2,7 @@
 id = "ref/feat/shikigami-mimicry"
 kind = "feat"
 title = "Shikigami Mimicry"
+aon = "FeatDisplay.aspx?ItemName=Shikigami%20Mimicry"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shikigami_mimicry", path = "json/feat14.json" },

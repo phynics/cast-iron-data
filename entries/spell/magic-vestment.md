@@ -2,6 +2,7 @@
 id = "ref/spell/magic-vestment"
 kind = "spell"
 title = "Magic Vestment"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Vestment"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_vestment", path = "json/spells6.json" },

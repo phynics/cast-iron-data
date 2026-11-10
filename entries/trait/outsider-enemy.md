@@ -2,6 +2,7 @@
 id = "ref/trait/outsider-enemy"
 kind = "trait"
 title = "Outsider Enemy"
+aon = "TraitDisplay.aspx?ItemName=Outsider%20Enemy"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outsider_enemy", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/wooden-phalanx"
 kind = "spell"
 title = "Wooden Phalanx"
+aon = "SpellDisplay.aspx?ItemName=Wooden%20Phalanx"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wooden_phalanx", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/repel-metal-or-stone"
 kind = "spell"
 title = "Repel Metal or Stone"
+aon = "SpellDisplay.aspx?ItemName=Repel%20Metal%20or%20Stone"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repel_metal_or_stone", path = "json/spells8.json" },

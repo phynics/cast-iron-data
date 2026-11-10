@@ -2,6 +2,7 @@
 id = "ref/feat/defensive-combat-training"
 kind = "feat"
 title = "Defensive Combat Training"
+aon = "FeatDisplay.aspx?ItemName=Defensive%20Combat%20Training"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "defensive_combat_training", path = "json/feat04.json" },

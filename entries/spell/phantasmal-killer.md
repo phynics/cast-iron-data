@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-killer"
 kind = "spell"
 title = "Phantasmal Killer"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Killer"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_killer", path = "json/spells7.json" },

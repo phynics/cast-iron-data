@@ -2,6 +2,7 @@
 id = "ref/feat/electric-eel-conduit"
 kind = "feat"
 title = "Electric Eel Conduit"
+aon = "FeatDisplay.aspx?ItemName=Electric%20Eel%20Conduit"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electric_eel_conduit", path = "json/feat05.json" },

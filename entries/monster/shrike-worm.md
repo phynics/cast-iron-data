@@ -2,6 +2,7 @@
 id = "ref/monster/shrike-worm"
 kind = "creature"
 title = "Shrike Worm"
+aon = "MonsterDisplay.aspx?ItemName=Shrike%20Worm"
 source_ids = ["pathfinder-114-black-stars-beckon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shrike_worm", path = "json/monsters38.json" },

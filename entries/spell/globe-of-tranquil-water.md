@@ -2,6 +2,7 @@
 id = "ref/spell/globe-of-tranquil-water"
 kind = "spell"
 title = "Globe of Tranquil Water"
+aon = "SpellDisplay.aspx?ItemName=Globe%20of%20Tranquil%20Water"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "globe_of_tranquil_water", path = "json/spells5.json" },

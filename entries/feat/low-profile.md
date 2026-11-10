@@ -2,6 +2,7 @@
 id = "ref/feat/low-profile"
 kind = "feat"
 title = "Low Profile"
+aon = "FeatDisplay.aspx?ItemName=Low%20Profile"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_profile", path = "json/feat10.json" },

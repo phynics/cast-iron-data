@@ -2,6 +2,7 @@
 id = "ref/feat/deconstruct-spell"
 kind = "feat"
 title = "Deconstruct Spell"
+aon = "FeatDisplay.aspx?ItemName=Deconstruct%20Spell"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deconstruct_spell", path = "json/feat04.json" },

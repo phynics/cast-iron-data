@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/blood-summoner"
 kind = "archetype"
 title = "Blood Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Blood%20Summoner"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_summoner", path = "json/archetypes_summoner.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-the-recalled-soul"
 kind = "item"
 title = "Ring of the Recalled Soul"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20the%20Recalled%20Soul"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_the_recalled_soul", path = "json/magic_ring.json" },

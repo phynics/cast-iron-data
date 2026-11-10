@@ -2,6 +2,7 @@
 id = "ref/spell/soulreaver"
 kind = "spell"
 title = "Soulreaver"
+aon = "SpellDisplay.aspx?ItemName=Soulreaver"
 source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulreaver", path = "json/spells9.json" },

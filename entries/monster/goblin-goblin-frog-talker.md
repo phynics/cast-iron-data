@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-goblin-frog-talker"
 kind = "creature"
 title = "Goblin Frog-Talker"
+aon = "MonsterDisplay.aspx?ItemName=Goblin%20Frog-Talker"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_goblin_frog_talker", path = "json/monsters12.json" },

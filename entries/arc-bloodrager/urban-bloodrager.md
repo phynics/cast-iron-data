@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/urban-bloodrager"
 kind = "archetype"
 title = "Urban Bloodrager"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Urban%20Bloodrager"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_bloodrager", path = "json/archetypes_bloodrager.json" },

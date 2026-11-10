@@ -2,6 +2,7 @@
 id = "ref/feat/shielded-mage"
 kind = "feat"
 title = "Shielded Mage"
+aon = "FeatDisplay.aspx?ItemName=Shielded%20Mage"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shielded_mage", path = "json/feat14.json" },

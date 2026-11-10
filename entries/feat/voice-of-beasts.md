@@ -2,6 +2,7 @@
 id = "ref/feat/voice-of-beasts"
 kind = "feat"
 title = "Voice of Beasts"
+aon = "FeatDisplay.aspx?ItemName=Voice%20of%20Beasts"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_beasts", path = "json/feat17.json" },

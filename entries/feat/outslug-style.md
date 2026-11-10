@@ -2,6 +2,7 @@
 id = "ref/feat/outslug-style"
 kind = "feat"
 title = "Outslug Style"
+aon = "FeatDisplay.aspx?ItemName=Outslug%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outslug_style", path = "json/feat11.json" },

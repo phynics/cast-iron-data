@@ -2,6 +2,7 @@
 id = "ref/spell/instrument-of-agony"
 kind = "spell"
 title = "Instrument of Agony"
+aon = "SpellDisplay.aspx?ItemName=Instrument%20of%20Agony"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instrument_of_agony", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/soul-searchers-strength"
 kind = "trait"
 title = "Soul-Searcher's Strength"
+aon = "TraitDisplay.aspx?ItemName=Soul-Searcher%27s%20Strength"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_searchers_strength", path = "json/traits01.json" },

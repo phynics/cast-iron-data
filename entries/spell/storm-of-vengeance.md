@@ -2,6 +2,7 @@
 id = "ref/spell/storm-of-vengeance"
 kind = "spell"
 title = "Storm of Vengeance"
+aon = "SpellDisplay.aspx?ItemName=Storm%20of%20Vengeance"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_of_vengeance", path = "json/spells9.json" },

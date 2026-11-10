@@ -2,6 +2,7 @@
 id = "ref/trait/unflappable-arrogance"
 kind = "trait"
 title = "Unflappable Arrogance"
+aon = "TraitDisplay.aspx?ItemName=Unflappable%20Arrogance"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unflappable_arrogance", path = "json/traits05.json" },

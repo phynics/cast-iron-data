@@ -2,6 +2,7 @@
 id = "ref/spell/overwhelming-poison"
 kind = "spell"
 title = "Overwhelming Poison"
+aon = "SpellDisplay.aspx?ItemName=Overwhelming%20Poison"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overwhelming_poison", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/negate-aroma"
 kind = "spell"
 title = "Negate Aroma"
+aon = "SpellDisplay.aspx?ItemName=Negate%20Aroma"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negate_aroma", path = "json/spells7.json" },

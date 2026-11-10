@@ -2,6 +2,7 @@
 id = "ref/spell/gird-ally"
 kind = "spell"
 title = "Gird Ally"
+aon = "SpellDisplay.aspx?ItemName=Gird%20Ally"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gird_ally", path = "json/spells5.json" },

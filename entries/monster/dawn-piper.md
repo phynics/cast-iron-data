@@ -2,6 +2,7 @@
 id = "ref/monster/dawn-piper"
 kind = "creature"
 title = "Dawn Piper"
+aon = "MonsterDisplay.aspx?ItemName=Dawn%20Piper"
 source_ids = ["pathfinder-68-the-shackled-hut"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawn_piper", path = "json/monsters08.json" },

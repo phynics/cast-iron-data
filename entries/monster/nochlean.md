@@ -2,6 +2,7 @@
 id = "ref/monster/nochlean"
 kind = "creature"
 title = "Nochlean"
+aon = "MonsterDisplay.aspx?ItemName=Nochlean"
 source_ids = ["pathfinder-133-secrets-of-roderics-cove"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nochlean", path = "json/monsters18.json" },

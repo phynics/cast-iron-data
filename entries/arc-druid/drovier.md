@@ -2,6 +2,7 @@
 id = "ref/arc-druid/drovier"
 kind = "archetype"
 title = "Drovier"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Drovier"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drovier", path = "json/archetypes_druid.json" },

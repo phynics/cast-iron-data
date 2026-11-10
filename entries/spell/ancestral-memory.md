@@ -2,6 +2,7 @@
 id = "ref/spell/ancestral-memory"
 kind = "spell"
 title = "Ancestral Memory"
+aon = "SpellDisplay.aspx?ItemName=Ancestral%20Memory"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_memory", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/legate"
 kind = "archetype"
 title = "Legate"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Legate"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legate", path = "json/archetypes_paladin.json" },

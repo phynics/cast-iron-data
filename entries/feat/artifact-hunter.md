@@ -2,6 +2,7 @@
 id = "ref/feat/artifact-hunter"
 kind = "feat"
 title = "Artifact Hunter"
+aon = "FeatDisplay.aspx?ItemName=Artifact%20Hunter"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "artifact_hunter", path = "json/feat01.json" },

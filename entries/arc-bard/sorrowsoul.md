@@ -2,6 +2,7 @@
 id = "ref/arc-bard/sorrowsoul"
 kind = "archetype"
 title = "Sorrowsoul"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Sorrowsoul"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorrowsoul", path = "json/archetypes_bard2.json" },

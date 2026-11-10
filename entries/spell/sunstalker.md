@@ -2,6 +2,7 @@
 id = "ref/spell/sunstalker"
 kind = "spell"
 title = "Sunstalker"
+aon = "SpellDisplay.aspx?ItemName=Sunstalker"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunstalker", path = "json/spells10.json" },

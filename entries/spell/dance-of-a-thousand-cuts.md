@@ -2,6 +2,7 @@
 id = "ref/spell/dance-of-a-thousand-cuts"
 kind = "spell"
 title = "Dance of a Thousand Cuts"
+aon = "SpellDisplay.aspx?ItemName=Dance%20of%20a%20Thousand%20Cuts"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dance_of_a_thousand_cuts", path = "json/spells3.json" },

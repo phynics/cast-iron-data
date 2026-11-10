@@ -2,6 +2,7 @@
 id = "ref/trait/allies-in-the-deep"
 kind = "trait"
 title = "Allies in the Deep"
+aon = "TraitDisplay.aspx?ItemName=Allies%20in%20the%20Deep"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allies_in_the_deep", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/positive-pulse-greater"
 kind = "spell"
 title = "Greater Positive Pulse"
+aon = "SpellDisplay.aspx?ItemName=Positive%20Pulse%2C%20Greater"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "positive_pulse_greater", path = "json/spells14.json" },

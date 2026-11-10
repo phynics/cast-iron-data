@@ -2,6 +2,7 @@
 id = "ref/spell/geomessage"
 kind = "spell"
 title = "Geomessage"
+aon = "SpellDisplay.aspx?ItemName=Geomessage"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geomessage", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/strong-comeback"
 kind = "feat"
 title = "Strong Comeback"
+aon = "FeatDisplay.aspx?ItemName=Strong%20Comeback"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_comeback", path = "json/feat15.json" },

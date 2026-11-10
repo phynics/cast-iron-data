@@ -2,6 +2,7 @@
 id = "ref/spell/acid-fog"
 kind = "spell"
 title = "Acid Fog"
+aon = "SpellDisplay.aspx?ItemName=Acid%20Fog"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_fog", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/power-word-stun"
 kind = "spell"
 title = "Power Word Stun"
+aon = "SpellDisplay.aspx?ItemName=Power%20Word%20Stun"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_word_stun", path = "json/spells14.json" },

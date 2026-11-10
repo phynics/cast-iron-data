@@ -2,6 +2,7 @@
 id = "ref/spell/barghest-feast"
 kind = "spell"
 title = "Barghest Feast"
+aon = "SpellDisplay.aspx?ItemName=Barghest%20Feast"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barghest_feast", path = "json/spells12.json" },

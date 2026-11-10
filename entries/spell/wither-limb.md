@@ -2,6 +2,7 @@
 id = "ref/spell/wither-limb"
 kind = "spell"
 title = "Wither Limb"
+aon = "SpellDisplay.aspx?ItemName=Wither%20Limb"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wither_limb", path = "json/spells16.json" },

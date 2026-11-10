@@ -2,6 +2,7 @@
 id = "ref/arc-witch/seducer"
 kind = "archetype"
 title = "Seducer"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Seducer"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seducer", path = "json/archetypes_witch.json" },

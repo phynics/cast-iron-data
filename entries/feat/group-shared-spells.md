@@ -2,6 +2,7 @@
 id = "ref/feat/group-shared-spells"
 kind = "feat"
 title = "Group Shared Spells"
+aon = "FeatDisplay.aspx?ItemName=Group%20Shared%20Spells"
 source_ids = ["ultimate-wilderness", "familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "group_shared_spells", path = "json/feat08.json" },

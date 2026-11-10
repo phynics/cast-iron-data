@@ -2,6 +2,7 @@
 id = "ref/spell/massacre"
 kind = "spell"
 title = "Massacre"
+aon = "SpellDisplay.aspx?ItemName=Massacre"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "massacre", path = "json/spells14.json" },

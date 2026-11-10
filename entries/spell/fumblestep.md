@@ -2,6 +2,7 @@
 id = "ref/spell/fumblestep"
 kind = "spell"
 title = "Fumblestep"
+aon = "SpellDisplay.aspx?ItemName=Fumblestep"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fumblestep", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/borrowed-time"
 kind = "spell"
 title = "Borrowed Time"
+aon = "SpellDisplay.aspx?ItemName=Borrowed%20Time"
 source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "borrowed_time", path = "json/spells2.json" },

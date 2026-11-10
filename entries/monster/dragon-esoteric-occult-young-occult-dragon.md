@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-esoteric-occult-young-occult-dragon"
 kind = "creature"
 title = "Young Occult Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Young%20Occult%20Dragon"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_esoteric_occult_young_occult_dragon", path = "json/monsters31.json" },

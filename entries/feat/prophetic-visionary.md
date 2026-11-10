@@ -2,6 +2,7 @@
 id = "ref/feat/prophetic-visionary"
 kind = "feat"
 title = "Prophetic Visionary"
+aon = "FeatDisplay.aspx?ItemName=Prophetic%20Visionary"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophetic_visionary", path = "json/feat12.json" },

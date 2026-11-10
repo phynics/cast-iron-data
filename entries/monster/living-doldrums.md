@@ -2,6 +2,7 @@
 id = "ref/monster/living-doldrums"
 kind = "creature"
 title = "Living Doldrums"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Doldrums"
 source_ids = ["pathfinder-123-the-flooded-cathedral"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_doldrums", path = "json/monsters16.json" },

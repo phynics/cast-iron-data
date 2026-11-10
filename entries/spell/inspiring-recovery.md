@@ -2,6 +2,7 @@
 id = "ref/spell/inspiring-recovery"
 kind = "spell"
 title = "Inspiring Recovery"
+aon = "SpellDisplay.aspx?ItemName=Inspiring%20Recovery"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_recovery", path = "json/spells14.json" },

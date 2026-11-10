@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/silver-champion"
 kind = "archetype"
 title = "Silver Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Silver%20Champion"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silver_champion", path = "json/archetypes_paladin.json" },

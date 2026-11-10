@@ -2,6 +2,7 @@
 id = "ref/feat/cleaving-finish"
 kind = "feat"
 title = "Cleaving Finish"
+aon = "FeatDisplay.aspx?ItemName=Cleaving%20Finish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleaving_finish", path = "json/feat03.json" },

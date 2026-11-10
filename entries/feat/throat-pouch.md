@@ -2,6 +2,7 @@
 id = "ref/feat/throat-pouch"
 kind = "feat"
 title = "Throat Pouch"
+aon = "FeatDisplay.aspx?ItemName=Throat%20Pouch"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throat_pouch", path = "json/feat16.json" },

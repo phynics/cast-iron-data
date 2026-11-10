@@ -2,6 +2,7 @@
 id = "ref/trait/pathfinders-focus"
 kind = "trait"
 title = "Pathfinder's Focus"
+aon = "TraitDisplay.aspx?ItemName=Pathfinder%27s%20Focus"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinders_focus", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/slithering-tracker"
 kind = "creature"
 title = "Slithering Tracker"
+aon = "MonsterDisplay.aspx?ItemName=Slithering%20Tracker"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slithering_tracker", path = "json/monsters22.json" },

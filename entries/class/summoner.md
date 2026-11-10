@@ -2,6 +2,7 @@
 id = "ref/class/summoner"
 kind = "class"
 title = "Summoner"
+aon = "ClassDisplay.aspx?ItemName=Summoner"
 source_ids = ["advanced-players-guide", "chronicle-of-legends", "advanced-race-guide", "blood-of-the-sea", "blood-of-shadows", "ultimate-wilderness", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoner", path = "json/classes8.json" },

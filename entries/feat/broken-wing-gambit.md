@@ -2,6 +2,7 @@
 id = "ref/feat/broken-wing-gambit"
 kind = "feat"
 title = "Broken Wing Gambit"
+aon = "FeatDisplay.aspx?ItemName=Broken%20Wing%20Gambit"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "broken_wing_gambit", path = "json/feat02.json" },

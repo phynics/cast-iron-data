@@ -2,6 +2,7 @@
 id = "ref/arc-magus/card-caster"
 kind = "archetype"
 title = "Card Caster"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Card%20Caster"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "card_caster", path = "json/archetypes_magus.json" },

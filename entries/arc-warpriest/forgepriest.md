@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/forgepriest"
 kind = "archetype"
 title = "Forgepriest"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Forgepriest"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forgepriest", path = "json/archetypes_warpriest.json" },

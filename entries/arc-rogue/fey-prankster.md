@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/fey-prankster"
 kind = "archetype"
 title = "Fey Prankster"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Fey%20Prankster"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_prankster", path = "json/archetypes_rogue.json" },

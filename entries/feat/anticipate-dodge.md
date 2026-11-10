@@ -2,6 +2,7 @@
 id = "ref/feat/anticipate-dodge"
 kind = "feat"
 title = "Anticipate Dodge"
+aon = "FeatDisplay.aspx?ItemName=Anticipate%20Dodge"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anticipate_dodge", path = "json/feat01.json" },

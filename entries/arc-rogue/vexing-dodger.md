@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/vexing-dodger"
 kind = "archetype"
 title = "Vexing Dodger"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Vexing%20Dodger"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_dodger", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/climbing-vine"
 kind = "feat"
 title = "Climbing Vine"
+aon = "FeatDisplay.aspx?ItemName=Climbing%20Vine"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "climbing_vine", path = "json/feat03.json" },

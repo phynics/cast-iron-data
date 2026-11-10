@@ -2,6 +2,7 @@
 id = "ref/trait/promising-peacemaker"
 kind = "trait"
 title = "Promising Peacemaker"
+aon = "TraitDisplay.aspx?ItemName=Promising%20Peacemaker"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "promising_peacemaker", path = "json/traits05.json" },

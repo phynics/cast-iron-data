@@ -2,6 +2,7 @@
 id = "ref/trait/mwangi-scholar"
 kind = "trait"
 title = "Mwangi Scholar"
+aon = "TraitDisplay.aspx?ItemName=Mwangi%20Scholar"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_scholar", path = "json/traits02.json" },

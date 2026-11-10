@@ -2,7 +2,9 @@
 id = "ref/race/aquatic-elf"
 kind = "race"
 title = "Aquatic Elf"
+aon = "RacesDisplay.aspx?ItemName=Aquatic%20Elf"
 source_ids = ["blood-of-the-sea", "inner-sea-races"]
+race_group = "other_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquatic_elf", path = "json/races3.json" },
 ]

@@ -2,6 +2,7 @@
 id = "ref/spell/heroism-greater"
 kind = "spell"
 title = "Greater Heroism"
+aon = "SpellDisplay.aspx?ItemName=Heroism%2C%20Greater"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroism_greater", path = "json/spells5.json" },

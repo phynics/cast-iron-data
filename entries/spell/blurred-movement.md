@@ -2,6 +2,7 @@
 id = "ref/spell/blurred-movement"
 kind = "spell"
 title = "Blurred Movement"
+aon = "SpellDisplay.aspx?ItemName=Blurred%20Movement"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blurred_movement", path = "json/spells2.json" },

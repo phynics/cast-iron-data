@@ -2,6 +2,7 @@
 id = "ref/feat/studied-expertise"
 kind = "feat"
 title = "Studied Expertise"
+aon = "FeatDisplay.aspx?ItemName=Studied%20Expertise"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "studied_expertise", path = "json/feat15.json" },

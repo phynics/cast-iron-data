@@ -2,6 +2,7 @@
 id = "ref/spell/stone-throwing"
 kind = "spell"
 title = "Stone Throwing"
+aon = "SpellDisplay.aspx?ItemName=Stone%20Throwing"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_throwing", path = "json/spells9.json" },

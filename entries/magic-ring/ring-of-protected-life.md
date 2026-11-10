@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-protected-life"
 kind = "item"
 title = "Ring of Protected Life"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Protected%20Life"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_protected_life", path = "json/magic_ring.json" },

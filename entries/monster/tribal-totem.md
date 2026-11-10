@@ -2,6 +2,7 @@
 id = "ref/monster/tribal-totem"
 kind = "creature"
 title = "Tribal Totem"
+aon = "MonsterDisplay.aspx?ItemName=Tribal%20Totem"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_totem", path = "json/monsters23.json" },

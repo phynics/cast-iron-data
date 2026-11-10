@@ -2,6 +2,7 @@
 id = "ref/trait/favored-champion"
 kind = "trait"
 title = "Favored Champion"
+aon = "TraitDisplay.aspx?ItemName=Favored%20Champion"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_champion", path = "json/traits05.json" },

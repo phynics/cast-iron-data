@@ -2,6 +2,7 @@
 id = "ref/spell/jatembes-ire"
 kind = "spell"
 title = "Jatembe's Ire"
+aon = "SpellDisplay.aspx?ItemName=Jatembe%27s%20Ire"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jatembes_ire", path = "json/spells6.json" },

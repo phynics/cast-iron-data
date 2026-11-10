@@ -2,6 +2,7 @@
 id = "ref/feat/juke"
 kind = "feat"
 title = "Juke"
+aon = "FeatDisplay.aspx?ItemName=Juke"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "juke", path = "json/feat09.json" },

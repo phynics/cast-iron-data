@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/scarab-stalker"
 kind = "archetype"
 title = "Scarab Stalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Scarab%20Stalker"
 source_ids = ["ultimate-wilderness", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarab_stalker", path = "json/archetypes_hunter.json" },

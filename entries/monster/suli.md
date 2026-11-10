@@ -2,6 +2,7 @@
 id = "ref/monster/suli"
 kind = "creature"
 title = "Suli"
+aon = "MonsterDisplay.aspx?ItemName=Suli"
 source_ids = ["bestiary-3", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suli", path = "json/monsters22.json" },

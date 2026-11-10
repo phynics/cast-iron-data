@@ -2,6 +2,7 @@
 id = "ref/trait/augmented-spell-poisons"
 kind = "trait"
 title = "Augmented Spell Poisons"
+aon = "TraitDisplay.aspx?ItemName=Augmented%20Spell%20Poisons"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augmented_spell_poisons", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/lamplighter"
 kind = "archetype"
 title = "Lamplighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Lamplighter"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamplighter", path = "json/archetypes_investigator.json" },

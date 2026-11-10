@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/arcane-tinkerer"
 kind = "archetype"
 title = "Arcane Tinkerer"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Arcane%20Tinkerer"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_tinkerer", path = "json/archetypes_arcanist.json" },

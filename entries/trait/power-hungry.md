@@ -2,6 +2,7 @@
 id = "ref/trait/power-hungry"
 kind = "trait"
 title = "Power-Hungry"
+aon = "TraitDisplay.aspx?ItemName=Power-Hungry"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_hungry", path = "json/traits03.json" },

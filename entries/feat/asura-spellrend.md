@@ -2,6 +2,7 @@
 id = "ref/feat/asura-spellrend"
 kind = "feat"
 title = "Asura Spellrend"
+aon = "FeatDisplay.aspx?ItemName=Asura%20Spellrend"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_spellrend", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/green-caress"
 kind = "spell"
 title = "Green Caress"
+aon = "SpellDisplay.aspx?ItemName=Green%20Caress"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_caress", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-psychic/psychic-marauder"
 kind = "archetype"
 title = "Psychic Marauder"
+aon = "ArchetypeDisplay.aspx?FixedName=Psychic%20Psychic%20Marauder"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_marauder", path = "json/archetypes_psychic.json" },

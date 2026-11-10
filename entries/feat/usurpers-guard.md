@@ -2,6 +2,7 @@
 id = "ref/feat/usurpers-guard"
 kind = "feat"
 title = "Usurper's Guard"
+aon = "FeatDisplay.aspx?ItemName=Usurper%27s%20Guard"
 source_ids = ["pathfinder-132-the-six-legend-soul"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "usurpers_guard", path = "json/feat17.json" },

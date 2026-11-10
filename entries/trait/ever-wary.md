@@ -2,6 +2,7 @@
 id = "ref/trait/ever-wary"
 kind = "trait"
 title = "Ever Wary"
+aon = "TraitDisplay.aspx?ItemName=Ever%20Wary"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ever_wary", path = "json/traits05.json" },

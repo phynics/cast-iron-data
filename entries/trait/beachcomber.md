@@ -2,6 +2,7 @@
 id = "ref/trait/beachcomber"
 kind = "trait"
 title = "Beachcomber"
+aon = "TraitDisplay.aspx?ItemName=Beachcomber"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beachcomber", path = "json/traits04.json" },

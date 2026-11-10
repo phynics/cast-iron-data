@@ -2,6 +2,7 @@
 id = "ref/spell/bone-fists"
 kind = "spell"
 title = "Bone Fists"
+aon = "SpellDisplay.aspx?ItemName=Bone%20Fists"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bone_fists", path = "json/spells2.json" },

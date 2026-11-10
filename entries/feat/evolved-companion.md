@@ -2,6 +2,7 @@
 id = "ref/feat/evolved-companion"
 kind = "feat"
 title = "Evolved Companion"
+aon = "FeatDisplay.aspx?ItemName=Evolved%20Companion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolved_companion", path = "json/feat06.json" },

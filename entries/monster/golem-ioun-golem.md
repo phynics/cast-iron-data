@@ -2,6 +2,7 @@
 id = "ref/monster/golem-ioun-golem"
 kind = "creature"
 title = "Ioun Golem"
+aon = "MonsterDisplay.aspx?ItemName=Ioun%20Golem"
 source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_ioun_golem", path = "json/monsters33.json" },

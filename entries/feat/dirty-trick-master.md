@@ -2,6 +2,7 @@
 id = "ref/feat/dirty-trick-master"
 kind = "feat"
 title = "Dirty Trick Master"
+aon = "FeatDisplay.aspx?ItemName=Dirty%20Trick%20Master"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_trick_master", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/conversing-wind"
 kind = "spell"
 title = "Conversing Wind"
+aon = "SpellDisplay.aspx?ItemName=Conversing%20Wind"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conversing_wind", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/reckless-rage"
 kind = "feat"
 title = "Reckless Rage"
+aon = "FeatDisplay.aspx?ItemName=Reckless%20Rage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_rage", path = "json/feat13.json" },

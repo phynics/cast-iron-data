@@ -2,6 +2,7 @@
 id = "ref/spell/blood-rage"
 kind = "spell"
 title = "Blood Rage"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Rage"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_rage", path = "json/spells2.json" },

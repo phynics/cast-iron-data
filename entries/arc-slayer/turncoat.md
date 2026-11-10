@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/turncoat"
 kind = "archetype"
 title = "Turncoat"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Turncoat"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "turncoat", path = "json/archetypes_slayer.json" },

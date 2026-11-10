@@ -2,6 +2,7 @@
 id = "ref/monster/siabrae"
 kind = "creature"
 title = "Siabrae"
+aon = "MonsterDisplay.aspx?ItemName=Siabrae"
 source_ids = ["bestiary-6", "the-worldwound"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siabrae", path = "json/monsters38.json" },

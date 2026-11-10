@@ -2,6 +2,7 @@
 id = "ref/trait/advantageous-distraction"
 kind = "trait"
 title = "Advantageous Distraction"
+aon = "TraitDisplay.aspx?ItemName=Advantageous%20Distraction"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "advantageous_distraction", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/elementalist-shifter"
 kind = "archetype"
 title = "Elementalist Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Elementalist%20Shifter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elementalist_shifter", path = "json/archetypes_shifter.json" },

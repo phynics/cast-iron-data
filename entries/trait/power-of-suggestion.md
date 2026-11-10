@@ -2,6 +2,7 @@
 id = "ref/trait/power-of-suggestion"
 kind = "trait"
 title = "Power of Suggestion"
+aon = "TraitDisplay.aspx?ItemName=Power%20of%20Suggestion"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "power_of_suggestion", path = "json/traits03.json" },

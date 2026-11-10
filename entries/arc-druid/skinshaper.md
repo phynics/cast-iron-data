@@ -2,6 +2,7 @@
 id = "ref/arc-druid/skinshaper"
 kind = "archetype"
 title = "Skinshaper"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Skinshaper"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinshaper", path = "json/archetypes_druid2.json" },

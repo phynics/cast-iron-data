@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/numerian-scavenger"
 kind = "archetype"
 title = "Numerian Scavenger"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Numerian%20Scavenger"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_scavenger", path = "json/archetypes_rogue.json" },

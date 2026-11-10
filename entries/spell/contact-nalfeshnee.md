@@ -2,6 +2,7 @@
 id = "ref/spell/contact-nalfeshnee"
 kind = "spell"
 title = "Contact Nalfeshnee"
+aon = "SpellDisplay.aspx?ItemName=Contact%20Nalfeshnee"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contact_nalfeshnee", path = "json/spells12.json" },

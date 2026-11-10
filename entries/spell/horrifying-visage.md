@@ -2,6 +2,7 @@
 id = "ref/spell/horrifying-visage"
 kind = "spell"
 title = "Horrifying Visage"
+aon = "SpellDisplay.aspx?ItemName=Horrifying%20Visage"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horrifying_visage", path = "json/spells5.json" },

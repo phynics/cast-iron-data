@@ -2,6 +2,7 @@
 id = "ref/pclass/enchanting-courtesan"
 kind = "prestige_class"
 title = "Enchanting Courtesan"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Enchanting%20Courtesan"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enchanting_courtesan", path = "json/prestige_classes4.json" },

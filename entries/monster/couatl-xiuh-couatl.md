@@ -2,6 +2,7 @@
 id = "ref/monster/couatl-xiuh-couatl"
 kind = "creature"
 title = "Xiuh Couatl"
+aon = "MonsterDisplay.aspx?ItemName=Xiuh%20Couatl"
 source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_xiuh_couatl", path = "json/monsters28.json" },

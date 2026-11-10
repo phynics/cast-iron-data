@@ -2,6 +2,7 @@
 id = "ref/trait/swamp-rebel"
 kind = "trait"
 title = "Swamp Rebel"
+aon = "TraitDisplay.aspx?ItemName=Swamp%20Rebel"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_rebel", path = "json/traits04.json" },

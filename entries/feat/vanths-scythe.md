@@ -2,6 +2,7 @@
 id = "ref/feat/vanths-scythe"
 kind = "feat"
 title = "Vanth's Scythe"
+aon = "FeatDisplay.aspx?ItemName=Vanth%27s%20Scythe"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vanths_scythe", path = "json/feat17.json" },

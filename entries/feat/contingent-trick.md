@@ -2,6 +2,7 @@
 id = "ref/feat/contingent-trick"
 kind = "feat"
 title = "Contingent Trick"
+aon = "FeatDisplay.aspx?ItemName=Contingent%20Trick"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_trick", path = "json/feat03.json" },

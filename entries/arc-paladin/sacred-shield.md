@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/sacred-shield"
 kind = "archetype"
 title = "Sacred Shield"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Sacred%20Shield"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_shield", path = "json/archetypes_paladin.json" },

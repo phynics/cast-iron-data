@@ -2,6 +2,7 @@
 id = "ref/trait/weapon-of-peace"
 kind = "trait"
 title = "Weapon of Peace"
+aon = "TraitDisplay.aspx?ItemName=Weapon%20of%20Peace"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_of_peace", path = "json/traits01.json" },

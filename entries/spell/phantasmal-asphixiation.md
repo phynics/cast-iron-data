@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-asphixiation"
 kind = "spell"
 title = "Phantasmal Asphixiation"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Asphixiation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_asphixiation", path = "json/spells7.json" },

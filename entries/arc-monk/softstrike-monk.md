@@ -2,6 +2,7 @@
 id = "ref/arc-monk/softstrike-monk"
 kind = "archetype"
 title = "Softstrike Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Softstrike%20Monk"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "softstrike_monk", path = "json/archetypes_monk2.json" },

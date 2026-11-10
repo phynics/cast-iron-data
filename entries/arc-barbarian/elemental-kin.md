@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/elemental-kin"
 kind = "archetype"
 title = "Elemental Kin"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Elemental%20Kin"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_kin", path = "json/archetypes_barbarian.json" },

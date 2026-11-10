@@ -2,6 +2,7 @@
 id = "ref/spell/aura-of-inviolate-ownership"
 kind = "spell"
 title = "Aura of Inviolate Ownership"
+aon = "SpellDisplay.aspx?ItemName=Aura%20of%20Inviolate%20Ownership"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_of_inviolate_ownership", path = "json/spells.json" },

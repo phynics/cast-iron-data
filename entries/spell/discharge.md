@@ -2,6 +2,7 @@
 id = "ref/spell/discharge"
 kind = "spell"
 title = "Discharge"
+aon = "SpellDisplay.aspx?ItemName=Discharge"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discharge", path = "json/spells3.json" },

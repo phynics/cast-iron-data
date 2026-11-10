@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/cutpurse"
 kind = "archetype"
 title = "Cutpurse"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Cutpurse"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutpurse", path = "json/archetypes_rogue.json" },

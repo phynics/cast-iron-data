@@ -2,6 +2,7 @@
 id = "ref/trait/pomp-and-pageantry"
 kind = "trait"
 title = "Pomp and Pageantry"
+aon = "TraitDisplay.aspx?ItemName=Pomp%20and%20Pageantry"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pomp_and_pageantry", path = "json/traits04.json" },

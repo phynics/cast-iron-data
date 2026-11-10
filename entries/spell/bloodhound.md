@@ -2,6 +2,7 @@
 id = "ref/spell/bloodhound"
 kind = "spell"
 title = "Bloodhound"
+aon = "SpellDisplay.aspx?ItemName=Bloodhound"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodhound", path = "json/spells2.json" },

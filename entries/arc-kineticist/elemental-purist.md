@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/elemental-purist"
 kind = "archetype"
 title = "Elemental Purist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Elemental%20Purist"
 source_ids = ["planes-of-power"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_purist", path = "json/archetypes_kineticist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/damnation"
 kind = "spell"
 title = "Damnation"
+aon = "SpellDisplay.aspx?ItemName=Damnation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damnation", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/signs-of-the-land"
 kind = "spell"
 title = "Signs of the Land"
+aon = "SpellDisplay.aspx?ItemName=Signs%20of%20the%20Land"
 source_ids = ["core-rulebook", "ultimate-wilderness", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signs_of_the_land", path = "json/spells12.json" },

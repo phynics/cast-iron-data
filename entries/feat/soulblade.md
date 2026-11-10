@@ -2,6 +2,7 @@
 id = "ref/feat/soulblade"
 kind = "feat"
 title = "Soulblade"
+aon = "FeatDisplay.aspx?ItemName=Soulblade"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulblade", path = "json/feat14.json" },

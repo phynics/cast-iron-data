@@ -2,6 +2,7 @@
 id = "ref/feat/osyluth-guile"
 kind = "feat"
 title = "Osyluth Guile"
+aon = "FeatDisplay.aspx?ItemName=Osyluth%20Guile"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "osyluth_guile", path = "json/feat11.json" },

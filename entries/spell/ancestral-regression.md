@@ -2,6 +2,7 @@
 id = "ref/spell/ancestral-regression"
 kind = "spell"
 title = "Ancestral Regression"
+aon = "SpellDisplay.aspx?ItemName=Ancestral%20Regression"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_regression", path = "json/spells.json" },

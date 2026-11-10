@@ -2,6 +2,7 @@
 id = "ref/trait/permanent-scars"
 kind = "trait"
 title = "Permanent Scars"
+aon = "TraitDisplay.aspx?ItemName=Permanent%20Scars"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "permanent_scars", path = "json/traits01.json" },

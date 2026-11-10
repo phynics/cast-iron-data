@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/gun-smuggler"
 kind = "archetype"
 title = "Gun Smuggler"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Gun%20Smuggler"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_smuggler", path = "json/archetypes_rogue.json" },

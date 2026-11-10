@@ -2,6 +2,7 @@
 id = "ref/feat/mobile-fortress"
 kind = "feat"
 title = "Mobile Fortress"
+aon = "FeatDisplay.aspx?ItemName=Mobile%20Fortress"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_fortress", path = "json/feat10.json" },

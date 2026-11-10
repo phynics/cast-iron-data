@@ -2,6 +2,7 @@
 id = "ref/monster/fading-fox"
 kind = "creature"
 title = "Fading Fox"
+aon = "MonsterDisplay.aspx?ItemName=Fading%20Fox"
 source_ids = ["taldor-the-first-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fading_fox", path = "json/monsters06.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/light-of-iomedae"
 kind = "spell"
 title = "Light of Iomedae"
+aon = "SpellDisplay.aspx?ItemName=Light%20of%20Iomedae"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_of_iomedae", path = "json/spells6.json" },

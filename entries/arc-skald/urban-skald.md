@@ -2,6 +2,7 @@
 id = "ref/arc-skald/urban-skald"
 kind = "archetype"
 title = "Urban Skald"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Urban%20Skald"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_skald", path = "json/archetypes_skald.json" },

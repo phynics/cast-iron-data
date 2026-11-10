@@ -2,6 +2,7 @@
 id = "ref/spell/rigor-mortis"
 kind = "spell"
 title = "Rigor Mortis"
+aon = "SpellDisplay.aspx?ItemName=Rigor%20Mortis"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rigor_mortis", path = "json/spells8.json" },

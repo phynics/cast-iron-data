@@ -2,6 +2,7 @@
 id = "ref/monster/serpentfolk-serpentfolk-spellblade"
 kind = "creature"
 title = "Serpentfolk Spellblade"
+aon = "MonsterDisplay.aspx?ItemName=Serpentfolk%20Spellblade"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentfolk_serpentfolk_spellblade", path = "json/monsters21.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-shade"
 kind = "spell"
 title = "Cloak of Shade"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Shade"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_shade", path = "json/spells2.json" },

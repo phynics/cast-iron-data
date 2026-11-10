@@ -2,6 +2,7 @@
 id = "ref/feat/indomitable-mountain-style"
 kind = "feat"
 title = "Indomitable Mountain Style"
+aon = "FeatDisplay.aspx?ItemName=Indomitable%20Mountain%20Style"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indomitable_mountain_style", path = "json/feat09.json" },

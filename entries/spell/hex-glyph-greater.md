@@ -2,6 +2,7 @@
 id = "ref/spell/hex-glyph-greater"
 kind = "spell"
 title = "Greater Hex Glyph"
+aon = "SpellDisplay.aspx?ItemName=Hex%20Glyph%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hex_glyph_greater", path = "json/spells5.json" },

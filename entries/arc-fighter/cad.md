@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/cad"
 kind = "archetype"
 title = "Cad"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Cad"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cad", path = "json/archetypes_fighter.json" },

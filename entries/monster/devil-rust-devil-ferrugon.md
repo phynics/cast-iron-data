@@ -2,6 +2,7 @@
 id = "ref/monster/devil-rust-devil-ferrugon"
 kind = "creature"
 title = "Rust Devil (Ferrugon)"
+aon = "MonsterDisplay.aspx?ItemName=Rust%20Devil%20%28Ferrugon%29"
 source_ids = ["pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_rust_devil_ferrugon", path = "json/monsters07.json" },

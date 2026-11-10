@@ -2,6 +2,7 @@
 id = "ref/feat/designated-antagonist"
 kind = "feat"
 title = "Designated Antagonist"
+aon = "FeatDisplay.aspx?ItemName=Designated%20Antagonist"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "designated_antagonist", path = "json/feat04.json" },

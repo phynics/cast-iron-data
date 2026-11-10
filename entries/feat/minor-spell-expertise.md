@@ -2,6 +2,7 @@
 id = "ref/feat/minor-spell-expertise"
 kind = "feat"
 title = "Minor Spell Expertise"
+aon = "FeatDisplay.aspx?ItemName=Minor%20Spell%20Expertise"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "minor_spell_expertise", path = "json/feat10.json" },

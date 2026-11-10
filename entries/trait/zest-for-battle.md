@@ -2,6 +2,7 @@
 id = "ref/trait/zest-for-battle"
 kind = "trait"
 title = "Zest for Battle"
+aon = "TraitDisplay.aspx?ItemName=Zest%20for%20Battle"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zest_for_battle", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/phantom-armor-giant"
 kind = "creature"
 title = "Giant Phantom Armor"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Phantom%20Armor"
 source_ids = ["bestiary-4", "pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_armor_giant", path = "json/monsters36.json" },

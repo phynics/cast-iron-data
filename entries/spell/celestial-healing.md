@@ -2,6 +2,7 @@
 id = "ref/spell/celestial-healing"
 kind = "spell"
 title = "Celestial Healing"
+aon = "SpellDisplay.aspx?ItemName=Celestial%20Healing"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_healing", path = "json/spells2.json" },

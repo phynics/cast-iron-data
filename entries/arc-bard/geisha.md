@@ -2,6 +2,7 @@
 id = "ref/arc-bard/geisha"
 kind = "archetype"
 title = "Geisha"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Geisha"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geisha", path = "json/archetypes_bard2.json" },

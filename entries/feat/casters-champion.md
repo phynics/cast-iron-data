@@ -2,6 +2,7 @@
 id = "ref/feat/casters-champion"
 kind = "feat"
 title = "Caster's Champion"
+aon = "FeatDisplay.aspx?ItemName=Caster%27s%20Champion"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casters_champion", path = "json/feat02.json" },

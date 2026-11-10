@@ -2,6 +2,7 @@
 id = "ref/arc-skald/battle-scion"
 kind = "archetype"
 title = "Battle Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Battle%20Scion"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_scion", path = "json/archetypes_skald.json" },

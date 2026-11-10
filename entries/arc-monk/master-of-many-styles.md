@@ -2,6 +2,7 @@
 id = "ref/arc-monk/master-of-many-styles"
 kind = "archetype"
 title = "Master of Many Styles"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Master%20of%20Many%20Styles"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_many_styles", path = "json/archetypes_monk.json" },

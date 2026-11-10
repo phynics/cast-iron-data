@@ -2,6 +2,7 @@
 id = "ref/magic-staff/shory-acolytes-staff"
 kind = "item"
 title = "Shory Acolyte's Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Shory%20Acolyte%27s%20Staff"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shory_acolytes_staff", path = "json/magic_staff.json" },

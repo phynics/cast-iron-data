@@ -2,6 +2,7 @@
 id = "ref/spell/bombers-eye"
 kind = "spell"
 title = "Bomber's Eye"
+aon = "SpellDisplay.aspx?ItemName=Bomber%27s%20Eye"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bombers_eye", path = "json/spells2.json" },

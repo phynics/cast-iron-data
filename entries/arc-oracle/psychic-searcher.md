@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/psychic-searcher"
 kind = "archetype"
 title = "Psychic Searcher"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Psychic%20Searcher"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_searcher", path = "json/archetypes_oracle.json" },

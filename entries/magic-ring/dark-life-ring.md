@@ -2,6 +2,7 @@
 id = "ref/magic-ring/dark-life-ring"
 kind = "item"
 title = "Dark Life Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Dark%20Life%20Ring"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_life_ring", path = "json/magic_ring.json" },

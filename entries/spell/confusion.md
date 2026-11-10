@@ -2,6 +2,7 @@
 id = "ref/spell/confusion"
 kind = "spell"
 title = "Confusion"
+aon = "SpellDisplay.aspx?ItemName=Confusion"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "confusion", path = "json/spells12.json" },

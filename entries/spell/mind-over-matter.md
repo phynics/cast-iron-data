@@ -2,6 +2,7 @@
 id = "ref/spell/mind-over-matter"
 kind = "spell"
 title = "Mind Over Matter"
+aon = "SpellDisplay.aspx?ItemName=Mind%20Over%20Matter"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mind_over_matter", path = "json/spells14.json" },

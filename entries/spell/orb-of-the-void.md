@@ -2,6 +2,7 @@
 id = "ref/spell/orb-of-the-void"
 kind = "spell"
 title = "Orb of the Void"
+aon = "SpellDisplay.aspx?ItemName=Orb%20of%20the%20Void"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orb_of_the_void", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/rat-squeeze"
 kind = "trait"
 title = "Rat Squeeze"
+aon = "TraitDisplay.aspx?ItemName=Rat%20Squeeze"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_squeeze", path = "json/traits05.json" },

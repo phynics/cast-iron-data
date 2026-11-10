@@ -2,6 +2,7 @@
 id = "ref/feat/dispel-synergy"
 kind = "feat"
 title = "Dispel Synergy"
+aon = "FeatDisplay.aspx?ItemName=Dispel%20Synergy"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_synergy", path = "json/feat04.json" },

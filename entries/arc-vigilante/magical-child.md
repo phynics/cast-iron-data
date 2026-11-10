@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/magical-child"
 kind = "archetype"
 title = "Magical Child"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Magical%20Child"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magical_child", path = "json/archetypes_vigilante.json" },

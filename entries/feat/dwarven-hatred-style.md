@@ -2,6 +2,7 @@
 id = "ref/feat/dwarven-hatred-style"
 kind = "feat"
 title = "Dwarven Hatred Style"
+aon = "FeatDisplay.aspx?ItemName=Dwarven%20Hatred%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_hatred_style", path = "json/feat05.json" },

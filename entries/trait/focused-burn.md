@@ -2,6 +2,7 @@
 id = "ref/trait/focused-burn"
 kind = "trait"
 title = "Focused Burn"
+aon = "TraitDisplay.aspx?ItemName=Focused%20Burn"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_burn", path = "json/traits02.json" },

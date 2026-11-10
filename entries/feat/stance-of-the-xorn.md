@@ -2,6 +2,7 @@
 id = "ref/feat/stance-of-the-xorn"
 kind = "feat"
 title = "Stance of the Xorn"
+aon = "FeatDisplay.aspx?ItemName=Stance%20of%20the%20Xorn"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stance_of_the_xorn", path = "json/feat15.json" },

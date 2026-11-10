@@ -2,6 +2,7 @@
 id = "ref/monster/ixion-worm"
 kind = "creature"
 title = "Ixion Worm"
+aon = "MonsterDisplay.aspx?ItemName=Ixion%20Worm"
 source_ids = ["pathfinder-106-for-queen-and-empire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ixion_worm", path = "json/monsters32.json" },

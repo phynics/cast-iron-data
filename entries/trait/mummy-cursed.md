@@ -2,6 +2,7 @@
 id = "ref/trait/mummy-cursed"
 kind = "trait"
 title = "Mummy-Cursed"
+aon = "TraitDisplay.aspx?ItemName=Mummy-Cursed"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_cursed", path = "json/traits02.json" },

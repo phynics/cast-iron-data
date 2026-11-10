@@ -2,6 +2,7 @@
 id = "ref/feat/sense-loyalties"
 kind = "feat"
 title = "Sense Loyalties"
+aon = "FeatDisplay.aspx?ItemName=Sense%20Loyalties"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sense_loyalties", path = "json/feat13.json" },

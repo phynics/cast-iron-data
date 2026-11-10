@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/realm-wanderer"
 kind = "archetype"
 title = "Realm Wanderer"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Realm%20Wanderer"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "realm_wanderer", path = "json/archetypes_ranger.json" },

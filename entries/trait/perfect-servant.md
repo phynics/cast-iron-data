@@ -2,6 +2,7 @@
 id = "ref/trait/perfect-servant"
 kind = "trait"
 title = "Perfect Servant"
+aon = "TraitDisplay.aspx?ItemName=Perfect%20Servant"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_servant", path = "json/traits05.json" },

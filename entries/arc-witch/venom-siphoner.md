@@ -2,6 +2,7 @@
 id = "ref/arc-witch/venom-siphoner"
 kind = "archetype"
 title = "Venom Siphoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Venom%20Siphoner"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venom_siphoner", path = "json/archetypes_witch.json" },

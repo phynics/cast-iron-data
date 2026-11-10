@@ -2,6 +2,7 @@
 id = "ref/spell/rune-trace"
 kind = "spell"
 title = "Rune Trace"
+aon = "SpellDisplay.aspx?ItemName=Rune%20Trace"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rune_trace", path = "json/spells8.json" },

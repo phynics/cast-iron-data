@@ -2,6 +2,7 @@
 id = "ref/feat/improvisational-healer"
 kind = "feat"
 title = "Improvisational Healer"
+aon = "FeatDisplay.aspx?ItemName=Improvisational%20Healer"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improvisational_healer", path = "json/feat09.json" },

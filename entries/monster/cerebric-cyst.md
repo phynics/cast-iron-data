@@ -2,6 +2,7 @@
 id = "ref/monster/cerebric-cyst"
 kind = "creature"
 title = "Cerebric Cyst"
+aon = "MonsterDisplay.aspx?ItemName=Cerebric%20Cyst"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerebric_cyst", path = "json/monsters28.json" },

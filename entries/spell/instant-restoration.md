@@ -2,6 +2,7 @@
 id = "ref/spell/instant-restoration"
 kind = "spell"
 title = "Instant Restoration"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Restoration"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_restoration", path = "json/spells14.json" },

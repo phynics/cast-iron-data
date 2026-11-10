@@ -2,6 +2,7 @@
 id = "ref/feat/rhetorical-flourish"
 kind = "feat"
 title = "Rhetorical Flourish"
+aon = "FeatDisplay.aspx?ItemName=Rhetorical%20Flourish"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rhetorical_flourish", path = "json/feat13.json" },

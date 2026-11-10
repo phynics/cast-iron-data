@@ -2,6 +2,7 @@
 id = "ref/feat/revelation-strike"
 kind = "feat"
 title = "Revelation Strike"
+aon = "FeatDisplay.aspx?ItemName=Revelation%20Strike"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "revelation_strike", path = "json/feat13.json" },

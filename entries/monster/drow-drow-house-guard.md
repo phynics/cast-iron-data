@@ -2,6 +2,7 @@
 id = "ref/monster/drow-drow-house-guard"
 kind = "creature"
 title = "Drow House Guard"
+aon = "MonsterDisplay.aspx?ItemName=Drow%20House%20Guard"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_drow_house_guard", path = "json/monsters08.json" },

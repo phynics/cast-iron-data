@@ -2,6 +2,7 @@
 id = "ref/spell/scourge-of-the-horsemen"
 kind = "spell"
 title = "Scourge of the Horsemen"
+aon = "SpellDisplay.aspx?ItemName=Scourge%20of%20the%20Horsemen"
 source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge_of_the_horsemen", path = "json/spells8.json" },

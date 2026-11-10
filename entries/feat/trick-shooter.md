@@ -2,6 +2,7 @@
 id = "ref/feat/trick-shooter"
 kind = "feat"
 title = "Trick Shooter"
+aon = "FeatDisplay.aspx?ItemName=Trick%20Shooter"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trick_shooter", path = "json/feat16.json" },

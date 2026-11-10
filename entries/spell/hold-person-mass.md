@@ -2,6 +2,7 @@
 id = "ref/spell/hold-person-mass"
 kind = "spell"
 title = "Mass Hold Person"
+aon = "SpellDisplay.aspx?ItemName=Hold%20Person%2C%20Mass"
 source_ids = ["core-rulebook", "the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hold_person_mass", path = "json/spells5.json" },

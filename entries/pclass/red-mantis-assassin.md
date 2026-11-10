@@ -2,6 +2,7 @@
 id = "ref/pclass/red-mantis-assassin"
 kind = "prestige_class"
 title = "Red Mantis Assassin"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Red%20Mantis%20Assassin"
 source_ids = ["adventurers-guide", "pathfinder-9-escape-from-old-korvosa", "pathfinder-campaign-setting", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_mantis_assassin", path = "json/prestige_classes3.json" },

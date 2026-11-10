@@ -2,6 +2,7 @@
 id = "ref/monster/tear-of-nuruugal"
 kind = "creature"
 title = "Tear of Nuruu'gal"
+aon = "MonsterDisplay.aspx?ItemName=Tear%20of%20Nuruu%27gal"
 source_ids = ["lost-cities-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tear_of_nuruugal", path = "json/monsters23.json" },

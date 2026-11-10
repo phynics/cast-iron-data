@@ -2,6 +2,7 @@
 id = "ref/feat/death-or-glory"
 kind = "feat"
 title = "Death or Glory"
+aon = "FeatDisplay.aspx?ItemName=Death%20or%20Glory"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_or_glory", path = "json/feat04.json" },

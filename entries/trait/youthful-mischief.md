@@ -2,6 +2,7 @@
 id = "ref/trait/youthful-mischief"
 kind = "trait"
 title = "Youthful Mischief"
+aon = "TraitDisplay.aspx?ItemName=Youthful%20Mischief"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_mischief", path = "json/traits05.json" },

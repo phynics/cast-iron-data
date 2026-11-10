@@ -2,6 +2,7 @@
 id = "ref/monster/boggard"
 kind = "creature"
 title = "Boggard"
+aon = "MonsterDisplay.aspx?ItemName=Boggard"
 source_ids = ["bestiary", "pathfinder-2-the-skinsaw-murders"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boggard", path = "json/monsters27.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/brightest-night"
 kind = "spell"
 title = "Brightest Night"
+aon = "SpellDisplay.aspx?ItemName=Brightest%20Night"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brightest_night", path = "json/spells2.json" },

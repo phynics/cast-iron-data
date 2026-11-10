@@ -2,6 +2,7 @@
 id = "ref/spell/contagious-suggestion"
 kind = "spell"
 title = "Contagious Suggestion"
+aon = "SpellDisplay.aspx?ItemName=Contagious%20Suggestion"
 source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contagious_suggestion", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-planar-tumult-ancient-tumult-dragon"
 kind = "creature"
 title = "Ancient Tumult Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Tumult%20Dragon"
 source_ids = ["pathfinder-138-rise-of-new-thassilon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_planar_tumult_ancient_tumult_dragon", path = "json/monsters30.json" },

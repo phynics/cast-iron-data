@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-gambit"
 kind = "feat"
 title = "Shadow Gambit"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Gambit"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_gambit", path = "json/feat13.json" },

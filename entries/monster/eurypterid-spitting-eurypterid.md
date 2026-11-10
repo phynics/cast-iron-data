@@ -2,6 +2,7 @@
 id = "ref/monster/eurypterid-spitting-eurypterid"
 kind = "creature"
 title = "Spitting Eurypterid"
+aon = "MonsterDisplay.aspx?ItemName=Spitting%20Eurypterid"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_spitting_eurypterid", path = "json/monsters42.json" },

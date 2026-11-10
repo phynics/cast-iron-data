@@ -2,6 +2,7 @@
 id = "ref/feat/authoritative-spell"
 kind = "feat"
 title = "Authoritative Spell"
+aon = "FeatDisplay.aspx?ItemName=Authoritative%20Spell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "authoritative_spell", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/motes-of-dusk-and-dawn"
 kind = "spell"
 title = "Motes of Dusk and Dawn"
+aon = "SpellDisplay.aspx?ItemName=Motes%20of%20Dusk%20and%20Dawn"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "motes_of_dusk_and_dawn", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/slowing-mud"
 kind = "spell"
 title = "Slowing Mud"
+aon = "SpellDisplay.aspx?ItemName=Slowing%20Mud"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slowing_mud", path = "json/spells9.json" },

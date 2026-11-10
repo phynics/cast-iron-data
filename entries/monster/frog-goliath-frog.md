@@ -2,6 +2,7 @@
 id = "ref/monster/frog-goliath-frog"
 kind = "creature"
 title = "Goliath Frog"
+aon = "MonsterDisplay.aspx?ItemName=Goliath%20Frog"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frog_goliath_frog", path = "json/monsters31.json" },

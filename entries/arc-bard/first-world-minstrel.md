@@ -2,6 +2,7 @@
 id = "ref/arc-bard/first-world-minstrel"
 kind = "archetype"
 title = "First World Minstrel"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20First%20World%20Minstrel"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_minstrel", path = "json/archetypes_bard.json" },

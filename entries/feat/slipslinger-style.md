@@ -2,6 +2,7 @@
 id = "ref/feat/slipslinger-style"
 kind = "feat"
 title = "Slipslinger Style"
+aon = "FeatDisplay.aspx?ItemName=Slipslinger%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slipslinger_style", path = "json/feat14.json" },

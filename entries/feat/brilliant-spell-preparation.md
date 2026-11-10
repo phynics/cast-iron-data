@@ -2,6 +2,7 @@
 id = "ref/feat/brilliant-spell-preparation"
 kind = "feat"
 title = "Brilliant Spell Preparation"
+aon = "FeatDisplay.aspx?ItemName=Brilliant%20Spell%20Preparation"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_spell_preparation", path = "json/feat02.json" },

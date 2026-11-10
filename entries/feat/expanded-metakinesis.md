@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-metakinesis"
 kind = "feat"
 title = "Expanded Metakinesis"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Metakinesis"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_metakinesis", path = "json/feat06.json" },

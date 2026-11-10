@@ -2,6 +2,7 @@
 id = "ref/trait/deep-marker"
 kind = "trait"
 title = "Deep Marker"
+aon = "TraitDisplay.aspx?ItemName=Deep%20Marker"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_marker", path = "json/traits05.json" },

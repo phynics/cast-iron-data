@@ -2,6 +2,7 @@
 id = "ref/monster/charau-ka"
 kind = "creature"
 title = "Charau-ka"
+aon = "MonsterDisplay.aspx?ItemName=Charau-ka"
 source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charau_ka", path = "json/monsters28.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/discordant-voice"
 kind = "feat"
 title = "Discordant Voice"
+aon = "FeatDisplay.aspx?ItemName=Discordant%20Voice"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discordant_voice", path = "json/feat04.json" },

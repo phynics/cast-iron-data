@@ -2,6 +2,7 @@
 id = "ref/monster/lorelei"
 kind = "creature"
 title = "Lorelei"
+aon = "MonsterDisplay.aspx?ItemName=Lorelei"
 source_ids = ["bestiary-4", "pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lorelei", path = "json/monsters16.json" },

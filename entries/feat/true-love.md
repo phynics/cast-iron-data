@@ -2,6 +2,7 @@
 id = "ref/feat/true-love"
 kind = "feat"
 title = "True Love"
+aon = "FeatDisplay.aspx?ItemName=True%20Love"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_love", path = "json/feat16.json" },

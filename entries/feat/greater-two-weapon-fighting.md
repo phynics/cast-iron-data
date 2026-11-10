@@ -2,6 +2,7 @@
 id = "ref/feat/greater-two-weapon-fighting"
 kind = "feat"
 title = "Greater Two-Weapon Fighting"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Two-Weapon%20Fighting"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_two_weapon_fighting", path = "json/feat08.json" },

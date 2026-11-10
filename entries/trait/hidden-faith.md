@@ -2,6 +2,7 @@
 id = "ref/trait/hidden-faith"
 kind = "trait"
 title = "Hidden Faith"
+aon = "TraitDisplay.aspx?ItemName=Hidden%20Faith"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hidden_faith", path = "json/traits01.json" },

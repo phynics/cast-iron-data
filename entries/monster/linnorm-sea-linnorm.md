@@ -2,6 +2,7 @@
 id = "ref/monster/linnorm-sea-linnorm"
 kind = "creature"
 title = "Sea Linnorm"
+aon = "MonsterDisplay.aspx?ItemName=Sea%20Linnorm"
 source_ids = ["pathfinder-126-beyond-the-veiled-past"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_sea_linnorm", path = "json/monsters35.json" },

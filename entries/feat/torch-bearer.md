@@ -2,6 +2,7 @@
 id = "ref/feat/torch-bearer"
 kind = "feat"
 title = "Torch Bearer"
+aon = "FeatDisplay.aspx?ItemName=Torch%20Bearer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torch_bearer", path = "json/feat16.json" },

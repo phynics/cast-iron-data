@@ -2,6 +2,7 @@
 id = "ref/arc-witch/tatterdemalion"
 kind = "archetype"
 title = "Tatterdemalion"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Tatterdemalion"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatterdemalion", path = "json/archetypes_witch.json" },

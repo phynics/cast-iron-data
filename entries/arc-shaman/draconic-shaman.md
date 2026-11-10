@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/draconic-shaman"
 kind = "archetype"
 title = "Draconic Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Draconic%20Shaman"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconic_shaman", path = "json/archetypes_shaman.json" },

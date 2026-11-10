@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/mantis-zealot"
 kind = "archetype"
 title = "Mantis Zealot"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Mantis%20Zealot"
 source_ids = ["adventurers-guide", "advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_zealot", path = "json/archetypes_warpriest.json" },

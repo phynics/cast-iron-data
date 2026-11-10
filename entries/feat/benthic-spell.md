@@ -2,6 +2,7 @@
 id = "ref/feat/benthic-spell"
 kind = "feat"
 title = "Benthic Spell"
+aon = "FeatDisplay.aspx?ItemName=Benthic%20Spell"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "benthic_spell", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/emergency-attunement"
 kind = "feat"
 title = "Emergency Attunement"
+aon = "FeatDisplay.aspx?ItemName=Emergency%20Attunement"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emergency_attunement", path = "json/feat05.json" },

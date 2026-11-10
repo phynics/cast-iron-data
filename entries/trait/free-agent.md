@@ -2,6 +2,7 @@
 id = "ref/trait/free-agent"
 kind = "trait"
 title = "Free Agent"
+aon = "TraitDisplay.aspx?ItemName=Free%20Agent"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_agent", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/gusting-sphere"
 kind = "spell"
 title = "Gusting Sphere"
+aon = "SpellDisplay.aspx?ItemName=Gusting%20Sphere"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gusting_sphere", path = "json/spells5.json" },

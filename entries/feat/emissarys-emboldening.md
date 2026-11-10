@@ -2,6 +2,7 @@
 id = "ref/feat/emissarys-emboldening"
 kind = "feat"
 title = "Emissary's Emboldening"
+aon = "FeatDisplay.aspx?ItemName=Emissary%27s%20Emboldening"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissarys_emboldening", path = "json/feat05.json" },

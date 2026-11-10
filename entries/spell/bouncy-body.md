@@ -2,6 +2,7 @@
 id = "ref/spell/bouncy-body"
 kind = "spell"
 title = "Bouncy Body"
+aon = "SpellDisplay.aspx?ItemName=Bouncy%20Body"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncy_body", path = "json/spells2.json" },

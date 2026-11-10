@@ -2,6 +2,7 @@
 id = "ref/spell/antimagic-field"
 kind = "spell"
 title = "Antimagic Field"
+aon = "SpellDisplay.aspx?ItemName=Antimagic%20Field"
 source_ids = ["core-rulebook", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antimagic_field", path = "json/spells.json" },

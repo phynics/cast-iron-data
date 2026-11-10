@@ -2,6 +2,7 @@
 id = "ref/feat/kick-up"
 kind = "feat"
 title = "Kick Up"
+aon = "FeatDisplay.aspx?ItemName=Kick%20Up"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kick_up", path = "json/feat09.json" },

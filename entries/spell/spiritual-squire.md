@@ -2,6 +2,7 @@
 id = "ref/spell/spiritual-squire"
 kind = "spell"
 title = "Spiritual Squire"
+aon = "SpellDisplay.aspx?ItemName=Spiritual%20Squire"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_squire", path = "json/spells9.json" },

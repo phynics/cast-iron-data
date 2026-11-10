@@ -2,6 +2,7 @@
 id = "ref/trait/unbalanced-insight"
 kind = "trait"
 title = "Unbalanced Insight"
+aon = "TraitDisplay.aspx?ItemName=Unbalanced%20Insight"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbalanced_insight", path = "json/traits01.json" },

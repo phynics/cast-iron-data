@@ -2,6 +2,7 @@
 id = "ref/trait/pearl-diver-xidao"
 kind = "trait"
 title = "Pearl Diver (Xidao)"
+aon = "TraitDisplay.aspx?ItemName=Pearl%20Diver%20%28Xidao%29"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pearl_diver_xidao", path = "json/traits04.json" },

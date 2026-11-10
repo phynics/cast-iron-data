@@ -2,6 +2,7 @@
 id = "ref/feat/fateful-channel"
 kind = "feat"
 title = "Fateful Channel"
+aon = "FeatDisplay.aspx?ItemName=Fateful%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fateful_channel", path = "json/feat06.json" },

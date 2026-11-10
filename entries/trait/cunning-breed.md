@@ -2,6 +2,7 @@
 id = "ref/trait/cunning-breed"
 kind = "trait"
 title = "Cunning Breed"
+aon = "TraitDisplay.aspx?ItemName=Cunning%20Breed"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_breed", path = "json/traits03.json" },

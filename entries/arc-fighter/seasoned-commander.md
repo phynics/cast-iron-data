@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/seasoned-commander"
 kind = "archetype"
 title = "Seasoned Commander"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Seasoned%20Commander"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seasoned_commander", path = "json/archetypes_fighter2.json" },

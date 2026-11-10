@@ -2,6 +2,7 @@
 id = "ref/monster/giant-sea-anemone"
 kind = "creature"
 title = "Giant Sea Anemone"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Sea%20Anemone"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_sea_anemone", path = "json/monsters11.json" },

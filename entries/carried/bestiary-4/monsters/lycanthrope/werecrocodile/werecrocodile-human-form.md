@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-4/monsters/lycanthrope/werecrocodile/werecrocodile-human-form"
 kind = "creature"
 title = "Werecrocodile (Human Form)"
+aon = "MonsterDisplay.aspx?ItemName=Werecrocodile%20%28Human%20Form%29"
 source_ids = ["bestiary-4"]
 section = ["Monsters", "Lycanthrope", "Werecrocodile"]
 tags = ["humanoid", "human", "shapechanger", "medium"]

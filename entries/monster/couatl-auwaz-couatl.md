@@ -2,6 +2,7 @@
 id = "ref/monster/couatl-auwaz-couatl"
 kind = "creature"
 title = "Auwaz Couatl"
+aon = "MonsterDisplay.aspx?ItemName=Auwaz%20Couatl"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "couatl_auwaz_couatl", path = "json/monsters28.json" },

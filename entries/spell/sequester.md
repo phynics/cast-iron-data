@@ -2,6 +2,7 @@
 id = "ref/spell/sequester"
 kind = "spell"
 title = "Sequester"
+aon = "SpellDisplay.aspx?ItemName=Sequester"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sequester", path = "json/spells15.json" },

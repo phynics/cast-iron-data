@@ -2,6 +2,7 @@
 id = "ref/spell/polymorph-greater"
 kind = "spell"
 title = "Greater Polymorph"
+aon = "SpellDisplay.aspx?ItemName=Polymorph%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polymorph_greater", path = "json/spells7.json" },

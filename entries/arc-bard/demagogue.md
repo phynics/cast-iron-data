@@ -2,6 +2,7 @@
 id = "ref/arc-bard/demagogue"
 kind = "archetype"
 title = "Demagogue"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Demagogue"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demagogue", path = "json/archetypes_bard.json" },

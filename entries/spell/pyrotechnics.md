@@ -2,6 +2,7 @@
 id = "ref/spell/pyrotechnics"
 kind = "spell"
 title = "Pyrotechnics"
+aon = "SpellDisplay.aspx?ItemName=Pyrotechnics"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyrotechnics", path = "json/spells15.json" },

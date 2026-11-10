@@ -2,6 +2,7 @@
 id = "ref/trait/ex-sczarni"
 kind = "trait"
 title = "Ex-Sczarni"
+aon = "TraitDisplay.aspx?ItemName=Ex-Sczarni"
 source_ids = ["varisia-birthplace-of-legends", "shattered-star-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ex_sczarni", path = "json/traits02.json" },

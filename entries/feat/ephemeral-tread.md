@@ -2,6 +2,7 @@
 id = "ref/feat/ephemeral-tread"
 kind = "feat"
 title = "Ephemeral Tread"
+aon = "FeatDisplay.aspx?ItemName=Ephemeral%20Tread"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ephemeral_tread", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/covering-shield"
 kind = "feat"
 title = "Covering Shield"
+aon = "FeatDisplay.aspx?ItemName=Covering%20Shield"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_shield", path = "json/feat03.json" },

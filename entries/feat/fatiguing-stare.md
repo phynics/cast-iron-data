@@ -2,6 +2,7 @@
 id = "ref/feat/fatiguing-stare"
 kind = "feat"
 title = "Fatiguing Stare"
+aon = "FeatDisplay.aspx?ItemName=Fatiguing%20Stare"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fatiguing_stare", path = "json/feat06.json" },

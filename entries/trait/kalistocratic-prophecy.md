@@ -2,6 +2,7 @@
 id = "ref/trait/kalistocratic-prophecy"
 kind = "trait"
 title = "Kalistocratic Prophecy"
+aon = "TraitDisplay.aspx?ItemName=Kalistocratic%20Prophecy"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kalistocratic_prophecy", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/flensing-strike"
 kind = "feat"
 title = "Flensing Strike"
+aon = "FeatDisplay.aspx?ItemName=Flensing%20Strike"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flensing_strike", path = "json/feat07.json" },

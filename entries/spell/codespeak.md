@@ -2,6 +2,7 @@
 id = "ref/spell/codespeak"
 kind = "spell"
 title = "Codespeak"
+aon = "SpellDisplay.aspx?ItemName=Codespeak"
 source_ids = ["ultimate-intrigue", "second-darkness-players-guide", "black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "codespeak", path = "json/spells2.json" },

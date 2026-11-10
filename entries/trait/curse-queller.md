@@ -2,6 +2,7 @@
 id = "ref/trait/curse-queller"
 kind = "trait"
 title = "Curse Queller"
+aon = "TraitDisplay.aspx?ItemName=Curse%20Queller"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_queller", path = "json/traits04.json" },

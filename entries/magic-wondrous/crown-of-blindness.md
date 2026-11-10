@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/crown-of-blindness"
 kind = "item"
 title = "Crown of Blindness"
+aon = "MagicCursedDisplay.aspx?ItemName=Crown%20of%20Blindness"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crown_of_blindness", path = "json/magic_wondrous_head_headband.json" },

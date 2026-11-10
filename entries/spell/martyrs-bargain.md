@@ -2,6 +2,7 @@
 id = "ref/spell/martyrs-bargain"
 kind = "spell"
 title = "Martyr's Bargain"
+aon = "SpellDisplay.aspx?ItemName=Martyr%27s%20Bargain"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martyrs_bargain", path = "json/spells6.json" },

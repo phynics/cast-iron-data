@@ -2,6 +2,7 @@
 id = "ref/trait/sacred-conduit"
 kind = "trait"
 title = "Sacred Conduit"
+aon = "TraitDisplay.aspx?ItemName=Sacred%20Conduit"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_conduit", path = "json/traits01.json" },

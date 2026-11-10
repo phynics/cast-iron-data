@@ -2,6 +2,7 @@
 id = "ref/feat/flexible-hex"
 kind = "feat"
 title = "Flexible Hex"
+aon = "FeatDisplay.aspx?ItemName=Flexible%20Hex"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flexible_hex", path = "json/feat07.json" },

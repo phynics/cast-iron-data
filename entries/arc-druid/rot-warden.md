@@ -2,6 +2,7 @@
 id = "ref/arc-druid/rot-warden"
 kind = "archetype"
 title = "Rot Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Rot%20Warden"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rot_warden", path = "json/archetypes_druid2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/scrapper"
 kind = "archetype"
 title = "Scrapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Scrapper"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrapper", path = "json/archetypes_fighter2.json" },

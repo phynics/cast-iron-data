@@ -2,6 +2,7 @@
 id = "ref/monster/fish-swordfish"
 kind = "creature"
 title = "Swordfish"
+aon = "MonsterDisplay.aspx?ItemName=Swordfish"
 source_ids = ["pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fish_swordfish", path = "json/monsters10.json" },

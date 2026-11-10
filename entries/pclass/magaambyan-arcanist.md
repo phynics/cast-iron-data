@@ -2,6 +2,7 @@
 id = "ref/pclass/magaambyan-arcanist"
 kind = "prestige_class"
 title = "Magaambyan Arcanist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Magaambyan%20Arcanist"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magaambyan_arcanist", path = "json/prestige_classes2.json" },

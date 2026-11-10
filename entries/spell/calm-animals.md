@@ -2,6 +2,7 @@
 id = "ref/spell/calm-animals"
 kind = "spell"
 title = "Calm Animals"
+aon = "SpellDisplay.aspx?ItemName=Calm%20Animals"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_animals", path = "json/spells2.json" },

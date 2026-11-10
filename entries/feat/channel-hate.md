@@ -2,6 +2,7 @@
 id = "ref/feat/channel-hate"
 kind = "feat"
 title = "Channel Hate"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Hate"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_hate", path = "json/feat03.json" },

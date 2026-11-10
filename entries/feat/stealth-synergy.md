@@ -2,6 +2,7 @@
 id = "ref/feat/stealth-synergy"
 kind = "feat"
 title = "Stealth Synergy"
+aon = "FeatDisplay.aspx?ItemName=Stealth%20Synergy"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stealth_synergy", path = "json/feat15.json" },

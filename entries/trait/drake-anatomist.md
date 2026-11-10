@@ -2,6 +2,7 @@
 id = "ref/trait/drake-anatomist"
 kind = "trait"
 title = "Drake Anatomist"
+aon = "TraitDisplay.aspx?ItemName=Drake%20Anatomist"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_anatomist", path = "json/traits01.json" },

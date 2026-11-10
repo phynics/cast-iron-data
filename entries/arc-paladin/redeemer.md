@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/redeemer"
 kind = "archetype"
 title = "Redeemer"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Redeemer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redeemer", path = "json/archetypes_paladin.json" },

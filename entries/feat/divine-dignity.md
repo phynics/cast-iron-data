@@ -2,6 +2,7 @@
 id = "ref/feat/divine-dignity"
 kind = "feat"
 title = "Divine Dignity"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Dignity"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_dignity", path = "json/feat05.json" },

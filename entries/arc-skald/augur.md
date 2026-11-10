@@ -2,6 +2,7 @@
 id = "ref/arc-skald/augur"
 kind = "archetype"
 title = "Augur"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Augur"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augur", path = "json/archetypes_skald.json" },

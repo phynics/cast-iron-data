@@ -2,6 +2,7 @@
 id = "ref/trait/shenmen-prospector"
 kind = "trait"
 title = "Shenmen Prospector"
+aon = "TraitDisplay.aspx?ItemName=Shenmen%20Prospector"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shenmen_prospector", path = "json/traits04.json" },

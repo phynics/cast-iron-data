@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/sovereign-blade"
 kind = "archetype"
 title = "Sovereign Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Sovereign%20Blade"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sovereign_blade", path = "json/archetypes_samurai.json" },

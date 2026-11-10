@@ -2,6 +2,7 @@
 id = "ref/trait/asmodean-acolyte"
 kind = "trait"
 title = "Asmodean Acolyte"
+aon = "TraitDisplay.aspx?ItemName=Asmodean%20Acolyte"
 source_ids = ["hells-vengeance-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asmodean_acolyte", path = "json/traits02.json" },

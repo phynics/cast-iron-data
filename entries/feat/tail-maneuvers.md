@@ -2,6 +2,7 @@
 id = "ref/feat/tail-maneuvers"
 kind = "feat"
 title = "Tail Maneuvers"
+aon = "FeatDisplay.aspx?ItemName=Tail%20Maneuvers"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tail_maneuvers", path = "json/feat15.json" },

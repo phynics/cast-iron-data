@@ -2,6 +2,7 @@
 id = "ref/spell/substitute-trail"
 kind = "spell"
 title = "Substitute Trail"
+aon = "SpellDisplay.aspx?ItemName=Substitute%20Trail"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "substitute_trail", path = "json/spells16.json" },

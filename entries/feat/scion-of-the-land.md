@@ -2,6 +2,7 @@
 id = "ref/feat/scion-of-the-land"
 kind = "feat"
 title = "Scion of the Land"
+aon = "FeatDisplay.aspx?ItemName=Scion%20of%20the%20Land"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_the_land", path = "json/feat13.json" },

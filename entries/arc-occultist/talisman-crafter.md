@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/talisman-crafter"
 kind = "archetype"
 title = "Talisman Crafter"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Talisman%20Crafter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talisman_crafter", path = "json/archetypes_occultist.json" },

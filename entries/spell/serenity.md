@@ -2,6 +2,7 @@
 id = "ref/spell/serenity"
 kind = "spell"
 title = "Serenity"
+aon = "SpellDisplay.aspx?ItemName=Serenity"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serenity", path = "json/spells15.json" },

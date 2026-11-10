@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/noble-fencer"
 kind = "archetype"
 title = "Noble Fencer"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Noble%20Fencer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_fencer", path = "json/archetypes_swashbuckler.json" },

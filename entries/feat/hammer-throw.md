@@ -2,6 +2,7 @@
 id = "ref/feat/hammer-throw"
 kind = "feat"
 title = "Hammer Throw"
+aon = "FeatDisplay.aspx?ItemName=Hammer%20Throw"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_throw", path = "json/feat08.json" },

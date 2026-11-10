@@ -2,6 +2,7 @@
 id = "ref/spell/summon-giant-ally-2"
 kind = "spell"
 title = "Summon Giant Ally II"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Giant%20Ally%20II"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_giant_ally_2", path = "json/spells16.json" },

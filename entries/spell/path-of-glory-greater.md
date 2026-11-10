@@ -2,6 +2,7 @@
 id = "ref/spell/path-of-glory-greater"
 kind = "spell"
 title = "Greater Path of Glory"
+aon = "SpellDisplay.aspx?ItemName=Path%20of%20Glory%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "path_of_glory_greater", path = "json/spells7.json" },

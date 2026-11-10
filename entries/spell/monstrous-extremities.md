@@ -2,6 +2,7 @@
 id = "ref/spell/monstrous-extremities"
 kind = "spell"
 title = "Monstrous Extremities"
+aon = "SpellDisplay.aspx?ItemName=Monstrous%20Extremities"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous_extremities", path = "json/spells14.json" },

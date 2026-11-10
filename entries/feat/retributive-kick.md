@@ -2,6 +2,7 @@
 id = "ref/feat/retributive-kick"
 kind = "feat"
 title = "Retributive Kick"
+aon = "FeatDisplay.aspx?ItemName=Retributive%20Kick"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retributive_kick", path = "json/feat13.json" },

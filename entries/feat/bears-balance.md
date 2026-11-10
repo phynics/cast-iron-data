@@ -2,6 +2,7 @@
 id = "ref/feat/bears-balance"
 kind = "feat"
 title = "Bear's Balance"
+aon = "FeatDisplay.aspx?ItemName=Bear%27s%20Balance"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bears_balance", path = "json/feat02.json" },

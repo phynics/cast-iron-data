@@ -2,6 +2,7 @@
 id = "ref/trait/erutaki-sky-reader"
 kind = "trait"
 title = "Erutaki Sky Reader"
+aon = "TraitDisplay.aspx?ItemName=Erutaki%20Sky%20Reader"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erutaki_sky_reader", path = "json/traits04.json" },

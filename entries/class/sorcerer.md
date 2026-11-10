@@ -2,6 +2,7 @@
 id = "ref/class/sorcerer"
 kind = "class"
 title = "Sorcerer"
+aon = "ClassDisplay.aspx?ItemName=Sorcerer"
 source_ids = ["core-rulebook", "advanced-players-guide", "advanced-race-guide", "blood-of-the-beast", "chronicle-of-legends", "goblins-of-golarion", "horror-adventures", "legacy-of-dragons", "legacy-of-the-first-world", "plane-hoppers-handbook", "ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerer", path = "json/classes4.json" },

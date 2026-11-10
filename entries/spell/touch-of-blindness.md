@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-blindness"
 kind = "spell"
 title = "Touch of Blindness"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Blindness"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_blindness", path = "json/spells10.json" },

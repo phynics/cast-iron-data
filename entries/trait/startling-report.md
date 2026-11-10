@@ -2,6 +2,7 @@
 id = "ref/trait/startling-report"
 kind = "trait"
 title = "Startling Report"
+aon = "TraitDisplay.aspx?ItemName=Startling%20Report"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startling_report", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/siphon-magic"
 kind = "spell"
 title = "Siphon Magic"
+aon = "SpellDisplay.aspx?ItemName=Siphon%20Magic"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_magic", path = "json/spells9.json" },

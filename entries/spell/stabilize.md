@@ -2,6 +2,7 @@
 id = "ref/spell/stabilize"
 kind = "spell"
 title = "Stabilize"
+aon = "SpellDisplay.aspx?ItemName=Stabilize"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stabilize", path = "json/spells9.json" },

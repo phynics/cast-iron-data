@@ -2,6 +2,7 @@
 id = "ref/feat/arcing-weapon"
 kind = "feat"
 title = "Arcing Weapon"
+aon = "FeatDisplay.aspx?ItemName=Arcing%20Weapon"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcing_weapon", path = "json/feat01.json" },

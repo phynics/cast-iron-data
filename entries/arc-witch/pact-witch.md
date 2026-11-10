@@ -2,6 +2,7 @@
 id = "ref/arc-witch/pact-witch"
 kind = "archetype"
 title = "Pact Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Pact%20Witch"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pact_witch", path = "json/archetypes_witch.json" },

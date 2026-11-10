@@ -2,6 +2,7 @@
 id = "ref/monster/thought-eater"
 kind = "creature"
 title = "Thought Eater"
+aon = "MonsterDisplay.aspx?ItemName=Thought%20Eater"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thought_eater", path = "json/monsters23.json" },

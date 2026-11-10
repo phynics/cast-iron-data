@@ -2,6 +2,7 @@
 id = "ref/feat/subjective-mobility"
 kind = "feat"
 title = "Subjective Mobility"
+aon = "FeatDisplay.aspx?ItemName=Subjective%20Mobility"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subjective_mobility", path = "json/feat15.json" },

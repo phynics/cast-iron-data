@@ -2,6 +2,7 @@
 id = "ref/monster/caypup"
 kind = "creature"
 title = "Caypup"
+aon = "MonsterDisplay.aspx?ItemName=Caypup"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caypup", path = "json/monsters04.json" },

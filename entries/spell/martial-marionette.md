@@ -2,6 +2,7 @@
 id = "ref/spell/martial-marionette"
 kind = "spell"
 title = "Martial Marionette"
+aon = "SpellDisplay.aspx?ItemName=Martial%20Marionette"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_marionette", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/reanimator"
 kind = "archetype"
 title = "Reanimator"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Reanimator"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reanimator", path = "json/archetypes_alchemist2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/sargavan-guard"
 kind = "trait"
 title = "Sargavan Guard"
+aon = "TraitDisplay.aspx?ItemName=Sargavan%20Guard"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sargavan_guard", path = "json/traits04.json" },

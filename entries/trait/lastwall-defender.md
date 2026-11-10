@@ -2,6 +2,7 @@
 id = "ref/trait/lastwall-defender"
 kind = "trait"
 title = "Lastwall Defender"
+aon = "TraitDisplay.aspx?ItemName=Lastwall%20Defender"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_defender", path = "json/traits01.json" },

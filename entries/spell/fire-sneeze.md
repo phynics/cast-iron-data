@@ -2,6 +2,7 @@
 id = "ref/spell/fire-sneeze"
 kind = "spell"
 title = "Fire Sneeze"
+aon = "SpellDisplay.aspx?ItemName=Fire%20Sneeze"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fire_sneeze", path = "json/spells4.json" },

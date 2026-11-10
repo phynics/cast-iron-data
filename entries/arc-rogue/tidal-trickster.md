@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/tidal-trickster"
 kind = "archetype"
 title = "Tidal Trickster"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Tidal%20Trickster"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_trickster", path = "json/archetypes_rogue.json" },

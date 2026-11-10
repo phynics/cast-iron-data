@@ -2,6 +2,7 @@
 id = "ref/spell/polar-midnight"
 kind = "spell"
 title = "Polar Midnight"
+aon = "SpellDisplay.aspx?ItemName=Polar%20Midnight"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polar_midnight", path = "json/spells7.json" },

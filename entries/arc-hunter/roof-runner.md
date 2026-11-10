@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/roof-runner"
 kind = "archetype"
 title = "Roof Runner"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Roof%20Runner"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roof_runner", path = "json/archetypes_hunter.json" },

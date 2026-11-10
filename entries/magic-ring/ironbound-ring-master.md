@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ironbound-ring-master"
 kind = "item"
 title = "Ironbound Ring (Master)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ironbound%20RingMaster"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbound_ring_master", path = "json/magic_ring.json" },

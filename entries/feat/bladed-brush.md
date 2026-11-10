@@ -2,6 +2,7 @@
 id = "ref/feat/bladed-brush"
 kind = "feat"
 title = "Bladed Brush"
+aon = "FeatDisplay.aspx?ItemName=Bladed%20Brush"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladed_brush", path = "json/feat02.json" },

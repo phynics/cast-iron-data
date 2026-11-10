@@ -2,6 +2,7 @@
 id = "ref/arc-monk/flowing-monk"
 kind = "archetype"
 title = "Flowing Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Flowing%20Monk"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flowing_monk", path = "json/archetypes_monk.json" },

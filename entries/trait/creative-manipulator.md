@@ -2,6 +2,7 @@
 id = "ref/trait/creative-manipulator"
 kind = "trait"
 title = "Creative Manipulator"
+aon = "TraitDisplay.aspx?ItemName=Creative%20Manipulator"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creative_manipulator", path = "json/traits05.json" },

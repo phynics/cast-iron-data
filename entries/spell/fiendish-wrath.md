@@ -2,6 +2,7 @@
 id = "ref/spell/fiendish-wrath"
 kind = "spell"
 title = "Fiendish Wrath"
+aon = "SpellDisplay.aspx?ItemName=Fiendish%20Wrath"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_wrath", path = "json/spells4.json" },

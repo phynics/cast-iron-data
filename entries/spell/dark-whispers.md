@@ -2,6 +2,7 @@
 id = "ref/spell/dark-whispers"
 kind = "spell"
 title = "Dark Whispers"
+aon = "SpellDisplay.aspx?ItemName=Dark%20Whispers"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dark_whispers", path = "json/spells3.json" },

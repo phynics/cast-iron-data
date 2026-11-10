@@ -2,6 +2,7 @@
 id = "ref/spell/mnemonic-siphon"
 kind = "spell"
 title = "Mnemonic Siphon"
+aon = "SpellDisplay.aspx?ItemName=Mnemonic%20Siphon"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemonic_siphon", path = "json/spells14.json" },

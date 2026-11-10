@@ -2,6 +2,7 @@
 id = "ref/spell/seek-shelter"
 kind = "spell"
 title = "Seek Shelter"
+aon = "SpellDisplay.aspx?ItemName=Seek%20Shelter"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seek_shelter", path = "json/spells15.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/ignoble-form"
 kind = "spell"
 title = "Ignoble Form"
+aon = "SpellDisplay.aspx?ItemName=Ignoble%20Form"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ignoble_form", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/swamp-druid"
 kind = "archetype"
 title = "Swamp Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Swamp%20Druid"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_druid", path = "json/archetypes_druid2.json" },

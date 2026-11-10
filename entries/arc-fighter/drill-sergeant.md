@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/drill-sergeant"
 kind = "archetype"
 title = "Drill Sergeant"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Drill%20Sergeant"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drill_sergeant", path = "json/archetypes_fighter.json" },

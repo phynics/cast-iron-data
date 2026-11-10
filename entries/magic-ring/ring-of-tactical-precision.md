@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-tactical-precision"
 kind = "item"
 title = "Ring of Tactical Precision"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Tactical%20Precision"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_tactical_precision", path = "json/magic_ring.json" },

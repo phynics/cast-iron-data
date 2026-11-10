@@ -2,6 +2,7 @@
 id = "ref/monster/tuyewera"
 kind = "creature"
 title = "Tuyewera"
+aon = "MonsterDisplay.aspx?ItemName=Tuyewera"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tuyewera", path = "json/monsters24.json" },

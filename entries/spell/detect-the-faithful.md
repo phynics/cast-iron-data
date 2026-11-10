@@ -2,6 +2,7 @@
 id = "ref/spell/detect-the-faithful"
 kind = "spell"
 title = "Detect the Faithful"
+aon = "SpellDisplay.aspx?ItemName=Detect%20the%20Faithful"
 source_ids = ["ultimate-intrigue", "taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_the_faithful", path = "json/spells3.json" },

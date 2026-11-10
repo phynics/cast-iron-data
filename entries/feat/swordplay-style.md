@@ -2,6 +2,7 @@
 id = "ref/feat/swordplay-style"
 kind = "feat"
 title = "Swordplay Style"
+aon = "FeatDisplay.aspx?ItemName=Swordplay%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swordplay_style", path = "json/feat15.json" },

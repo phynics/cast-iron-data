@@ -2,6 +2,7 @@
 id = "ref/arc-magus/armored-battlemage"
 kind = "archetype"
 title = "Armored Battlemage"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Armored%20Battlemage"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_battlemage", path = "json/archetypes_magus.json" },

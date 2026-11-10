@@ -2,6 +2,7 @@
 id = "ref/feat/devotion-against-the-unnatural"
 kind = "feat"
 title = "Devotion Against the Unnatural"
+aon = "FeatDisplay.aspx?ItemName=Devotion%20against%20the%20Unnatural"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devotion_against_the_unnatural", path = "json/feat04.json" },

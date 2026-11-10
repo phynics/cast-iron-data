@@ -2,6 +2,7 @@
 id = "ref/feat/rebuffing-reduction"
 kind = "feat"
 title = "Rebuffing Reduction"
+aon = "FeatDisplay.aspx?ItemName=Rebuffing%20Reduction"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rebuffing_reduction", path = "json/feat13.json" },

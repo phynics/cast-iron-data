@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/elementalist-oracle"
 kind = "archetype"
 title = "Elementalist Oracle"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Elementalist%20Oracle"
 source_ids = ["ultimate-wilderness", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elementalist_oracle", path = "json/archetypes_oracle.json" },

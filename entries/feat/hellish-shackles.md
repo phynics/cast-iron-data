@@ -2,6 +2,7 @@
 id = "ref/feat/hellish-shackles"
 kind = "feat"
 title = "Hellish Shackles"
+aon = "FeatDisplay.aspx?ItemName=Hellish%20Shackles"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellish_shackles", path = "json/feat08.json" },

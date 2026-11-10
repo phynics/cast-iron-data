@@ -2,6 +2,7 @@
 id = "ref/spell/dream-council"
 kind = "spell"
 title = "Dream Council"
+aon = "SpellDisplay.aspx?ItemName=Dream%20Council"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dream_council", path = "json/spells13.json" },

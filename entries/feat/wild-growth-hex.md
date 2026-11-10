@@ -2,6 +2,7 @@
 id = "ref/feat/wild-growth-hex"
 kind = "feat"
 title = "Wild Growth Hex"
+aon = "FeatDisplay.aspx?ItemName=Wild%20Growth%20Hex"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_growth_hex", path = "json/feat17.json" },

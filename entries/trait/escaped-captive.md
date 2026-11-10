@@ -2,6 +2,7 @@
 id = "ref/trait/escaped-captive"
 kind = "trait"
 title = "Escaped Captive"
+aon = "TraitDisplay.aspx?ItemName=Escaped%20Captive"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escaped_captive", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/unseen-engineers"
 kind = "spell"
 title = "Unseen Engineers"
+aon = "SpellDisplay.aspx?ItemName=Unseen%20Engineers"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseen_engineers", path = "json/spells11.json" },

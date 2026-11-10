@@ -2,6 +2,7 @@
 id = "ref/trait/crocodile-swim"
 kind = "trait"
 title = "Crocodile Swim"
+aon = "TraitDisplay.aspx?ItemName=Crocodile%20Swim"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crocodile_swim", path = "json/traits05.json" },

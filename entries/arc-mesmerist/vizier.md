@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/vizier"
 kind = "archetype"
 title = "Vizier"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Vizier"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vizier", path = "json/archetypes_mesmerist.json" },

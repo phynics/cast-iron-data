@@ -2,6 +2,7 @@
 id = "ref/spell/sow-thought"
 kind = "spell"
 title = "Sow Thought"
+aon = "SpellDisplay.aspx?ItemName=Sow%20Thought"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sow_thought", path = "json/spells9.json" },

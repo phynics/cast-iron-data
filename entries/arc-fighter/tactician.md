@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/tactician"
 kind = "archetype"
 title = "Tactician"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Tactician"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactician", path = "json/archetypes_fighter2.json" },

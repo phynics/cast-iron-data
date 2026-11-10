@@ -2,6 +2,7 @@
 id = "ref/spell/spotlight"
 kind = "spell"
 title = "Spotlight"
+aon = "SpellDisplay.aspx?ItemName=Spotlight"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spotlight", path = "json/spells9.json" },

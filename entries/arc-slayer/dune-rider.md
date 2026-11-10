@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/dune-rider"
 kind = "archetype"
 title = "Dune Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Dune%20Rider"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dune_rider", path = "json/archetypes_slayer.json" },

@@ -2,6 +2,7 @@
 id = "ref/domain/healing"
 kind = "class_option"
 title = "Healing"
+aon = "DomainDisplay.aspx?ItemName=Healing"
 source_ids = ["core-rulebook", "divine-anthology", "advanced-players-guide", "haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing", path = "json/class_ability_domains3.json" },

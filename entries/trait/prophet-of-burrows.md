@@ -2,6 +2,7 @@
 id = "ref/trait/prophet-of-burrows"
 kind = "trait"
 title = "Prophet of Burrows"
+aon = "TraitDisplay.aspx?ItemName=Prophet%20of%20Burrows"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prophet_of_burrows", path = "json/traits04.json" },

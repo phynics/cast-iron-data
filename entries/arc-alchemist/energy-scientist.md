@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/energy-scientist"
 kind = "archetype"
 title = "Energy Scientist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Energy%20Scientist"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_scientist", path = "json/archetypes_alchemist.json" },

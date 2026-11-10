@@ -2,6 +2,7 @@
 id = "ref/spell/shadowform"
 kind = "spell"
 title = "Shadowform"
+aon = "SpellDisplay.aspx?ItemName=Shadowform"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowform", path = "json/spells15.json" },

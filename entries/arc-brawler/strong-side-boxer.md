@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/strong-side-boxer"
 kind = "archetype"
 title = "Strong-Side Boxer"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Strong-Side%20Boxer"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strong_side_boxer", path = "json/archetypes_brawler.json" },

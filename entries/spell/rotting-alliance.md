@@ -2,6 +2,7 @@
 id = "ref/spell/rotting-alliance"
 kind = "spell"
 title = "Rotting Alliance"
+aon = "SpellDisplay.aspx?ItemName=Rotting%20Alliance"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rotting_alliance", path = "json/spells8.json" },

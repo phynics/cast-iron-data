@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/forensic-physician"
 kind = "archetype"
 title = "Forensic Physician"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Forensic%20Physician"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forensic_physician", path = "json/archetypes_investigator.json" },

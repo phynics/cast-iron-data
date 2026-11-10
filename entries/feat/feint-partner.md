@@ -2,6 +2,7 @@
 id = "ref/feat/feint-partner"
 kind = "feat"
 title = "Feint Partner"
+aon = "FeatDisplay.aspx?ItemName=Feint%20Partner"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feint_partner", path = "json/feat07.json" },

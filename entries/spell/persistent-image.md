@@ -2,6 +2,7 @@
 id = "ref/spell/persistent-image"
 kind = "spell"
 title = "Persistent Image"
+aon = "SpellDisplay.aspx?ItemName=Persistent%20Image"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persistent_image", path = "json/spells7.json" },

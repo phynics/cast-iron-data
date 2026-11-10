@@ -2,6 +2,7 @@
 id = "ref/feat/unraveling-blood"
 kind = "feat"
 title = "Unraveling Blood"
+aon = "FeatDisplay.aspx?ItemName=Unraveling%20Blood"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unraveling_blood", path = "json/feat16.json" },

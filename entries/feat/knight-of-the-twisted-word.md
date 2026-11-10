@@ -2,6 +2,7 @@
 id = "ref/feat/knight-of-the-twisted-word"
 kind = "feat"
 title = "Knight of the Twisted Word"
+aon = "FeatDisplay.aspx?ItemName=Knight%20of%20the%20Twisted%20Word"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_the_twisted_word", path = "json/feat09.json" },

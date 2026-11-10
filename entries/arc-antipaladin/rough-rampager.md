@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/rough-rampager"
 kind = "archetype"
 title = "Rough Rampager"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Rough%20Rampager"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rough_rampager", path = "json/archetypes_antipaladin.json" },

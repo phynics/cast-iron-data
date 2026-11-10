@@ -2,6 +2,7 @@
 id = "ref/trait/cavern-survivor"
 kind = "trait"
 title = "Cavern Survivor"
+aon = "TraitDisplay.aspx?ItemName=Cavern%20Survivor"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cavern_survivor", path = "json/traits04.json" },

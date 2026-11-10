@@ -2,6 +2,7 @@
 id = "ref/arc-skald/court-poet"
 kind = "archetype"
 title = "Court Poet"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Court%20Poet"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "court_poet", path = "json/archetypes_skald.json" },

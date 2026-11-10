@@ -2,6 +2,7 @@
 id = "ref/feat/one-inch-punch"
 kind = "feat"
 title = "One-Inch Punch"
+aon = "FeatDisplay.aspx?ItemName=One-Inch%20Punch"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_inch_punch", path = "json/feat11.json" },

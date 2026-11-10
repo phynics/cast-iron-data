@@ -2,6 +2,7 @@
 id = "ref/spell/gilded-whispers"
 kind = "spell"
 title = "Gilded Whispers"
+aon = "SpellDisplay.aspx?ItemName=Gilded%20Whispers"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gilded_whispers", path = "json/spells5.json" },

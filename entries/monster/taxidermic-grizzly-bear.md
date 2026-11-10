@@ -2,6 +2,7 @@
 id = "ref/monster/taxidermic-grizzly-bear"
 kind = "creature"
 title = "Taxidermic Grizzly Bear"
+aon = "MonsterDisplay.aspx?ItemName=Taxidermic%20Grizzly%20Bear"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "taxidermic_grizzly_bear", path = "json/monsters23.json" },

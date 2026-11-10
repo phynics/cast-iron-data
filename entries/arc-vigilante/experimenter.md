@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/experimenter"
 kind = "archetype"
 title = "Experimenter"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Experimenter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experimenter", path = "json/archetypes_vigilante.json" },

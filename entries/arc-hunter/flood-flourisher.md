@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/flood-flourisher"
 kind = "archetype"
 title = "Flood Flourisher"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Flood%20Flourisher"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flood_flourisher", path = "json/archetypes_hunter.json" },

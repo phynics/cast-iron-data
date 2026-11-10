@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/tattooed-sorcerer"
 kind = "archetype"
 title = "Tattooed Sorcerer"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Tattooed%20Sorcerer"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattooed_sorcerer", path = "json/archetypes_sorcerer.json" },

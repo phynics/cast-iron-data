@@ -2,6 +2,7 @@
 id = "ref/monster/living-wall"
 kind = "creature"
 title = "Living Wall"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Wall"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_wall", path = "json/monsters16.json" },

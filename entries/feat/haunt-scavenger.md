@@ -2,6 +2,7 @@
 id = "ref/feat/haunt-scavenger"
 kind = "feat"
 title = "Haunt Scavenger"
+aon = "FeatDisplay.aspx?ItemName=Haunt%20Scavenger"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_scavenger", path = "json/feat08.json" },

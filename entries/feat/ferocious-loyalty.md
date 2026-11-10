@@ -2,6 +2,7 @@
 id = "ref/feat/ferocious-loyalty"
 kind = "feat"
 title = "Ferocious Loyalty"
+aon = "FeatDisplay.aspx?ItemName=Ferocious%20Loyalty"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ferocious_loyalty", path = "json/feat07.json" },

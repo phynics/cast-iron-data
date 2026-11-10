@@ -2,6 +2,7 @@
 id = "ref/feat/conversion-channel"
 kind = "feat"
 title = "Conversion Channel"
+aon = "FeatDisplay.aspx?ItemName=Conversion%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conversion_channel", path = "json/feat03.json" },

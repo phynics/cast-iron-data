@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-rat-fangs"
 kind = "item"
 title = "Ring of Rat Fangs"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Rat%20Fangs"
 source_ids = ["ultimate-equipment", "advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_rat_fangs", path = "json/magic_ring.json" },

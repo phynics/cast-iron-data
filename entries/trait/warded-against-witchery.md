@@ -2,6 +2,7 @@
 id = "ref/trait/warded-against-witchery"
 kind = "trait"
 title = "Warded against Witchery"
+aon = "TraitDisplay.aspx?ItemName=Warded%20against%20Witchery"
 source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warded_against_witchery", path = "json/traits02.json" },

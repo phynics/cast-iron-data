@@ -2,6 +2,7 @@
 id = "ref/feat/frozen-skin"
 kind = "feat"
 title = "Frozen Skin"
+aon = "FeatDisplay.aspx?ItemName=Frozen%20Skin"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frozen_skin", path = "json/feat07.json" },

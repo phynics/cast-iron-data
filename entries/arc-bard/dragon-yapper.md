@@ -2,6 +2,7 @@
 id = "ref/arc-bard/dragon-yapper"
 kind = "archetype"
 title = "Dragon Yapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Dragon%20Yapper"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_yapper", path = "json/archetypes_bard.json" },

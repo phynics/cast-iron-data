@@ -2,6 +2,7 @@
 id = "ref/spell/ice-armor"
 kind = "spell"
 title = "Ice Armor"
+aon = "SpellDisplay.aspx?ItemName=Ice%20Armor"
 source_ids = ["inner-sea-gods", "pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_armor", path = "json/spells5.json" },

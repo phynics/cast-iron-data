@@ -2,6 +2,7 @@
 id = "ref/spell/awaken-the-devoured"
 kind = "spell"
 title = "Awaken the Devoured"
+aon = "SpellDisplay.aspx?ItemName=Awaken%20the%20Devoured"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awaken_the_devoured", path = "json/spells.json" },

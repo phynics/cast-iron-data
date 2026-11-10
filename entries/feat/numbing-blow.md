@@ -2,6 +2,7 @@
 id = "ref/feat/numbing-blow"
 kind = "feat"
 title = "Numbing Blow"
+aon = "FeatDisplay.aspx?ItemName=Numbing%20Blow"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numbing_blow", path = "json/feat11.json" },

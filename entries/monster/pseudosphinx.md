@@ -2,6 +2,7 @@
 id = "ref/monster/pseudosphinx"
 kind = "creature"
 title = "Pseudosphinx"
+aon = "MonsterDisplay.aspx?ItemName=Pseudosphinx"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pseudosphinx", path = "json/monsters37.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/death-from-below"
 kind = "spell"
 title = "Death from Below"
+aon = "SpellDisplay.aspx?ItemName=Death%20from%20Below"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_from_below", path = "json/spells3.json" },

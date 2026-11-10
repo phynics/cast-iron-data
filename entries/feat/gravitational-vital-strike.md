@@ -2,6 +2,7 @@
 id = "ref/feat/gravitational-vital-strike"
 kind = "feat"
 title = "Gravitational Vital Strike"
+aon = "FeatDisplay.aspx?ItemName=Gravitational%20Vital%20Strike"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravitational_vital_strike", path = "json/feat07.json" },

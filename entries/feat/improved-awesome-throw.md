@@ -2,6 +2,7 @@
 id = "ref/feat/improved-awesome-throw"
 kind = "feat"
 title = "Improved Awesome Throw"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Awesome%20Throw"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_awesome_throw", path = "json/feat08.json" },

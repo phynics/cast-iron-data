@@ -2,6 +2,7 @@
 id = "ref/trait/undaunted"
 kind = "trait"
 title = "Undaunted"
+aon = "TraitDisplay.aspx?ItemName=Undaunted"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undaunted", path = "json/traits01.json" },

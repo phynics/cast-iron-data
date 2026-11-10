@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/acrobat"
 kind = "archetype"
 title = "Acrobat"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Acrobat"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acrobat", path = "json/archetypes_rogue.json" },

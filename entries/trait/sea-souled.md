@@ -2,6 +2,7 @@
 id = "ref/trait/sea-souled"
 kind = "trait"
 title = "Sea-Souled"
+aon = "TraitDisplay.aspx?ItemName=Sea-Souled"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_souled", path = "json/traits04.json" },

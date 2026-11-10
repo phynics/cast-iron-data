@@ -2,6 +2,7 @@
 id = "ref/trait/solidarity"
 kind = "trait"
 title = "Solidarity"
+aon = "TraitDisplay.aspx?ItemName=Solidarity"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solidarity", path = "json/traits04.json" },

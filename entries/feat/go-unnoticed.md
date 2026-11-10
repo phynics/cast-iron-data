@@ -2,6 +2,7 @@
 id = "ref/feat/go-unnoticed"
 kind = "feat"
 title = "Go Unnoticed"
+aon = "FeatDisplay.aspx?ItemName=Go%20Unnoticed"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "go_unnoticed", path = "json/feat07.json" },

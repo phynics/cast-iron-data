@@ -2,6 +2,7 @@
 id = "ref/trait/guerrilla-mender"
 kind = "trait"
 title = "Guerrilla Mender"
+aon = "TraitDisplay.aspx?ItemName=Guerrilla%20Mender"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guerrilla_mender", path = "json/traits04.json" },

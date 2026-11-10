@@ -2,6 +2,7 @@
 id = "ref/spell/silverlight"
 kind = "spell"
 title = "Silverlight"
+aon = "SpellDisplay.aspx?ItemName=Silverlight"
 source_ids = ["guide-to-the-river-kingdoms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silverlight", path = "json/spells9.json" },

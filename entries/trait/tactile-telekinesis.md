@@ -2,6 +2,7 @@
 id = "ref/trait/tactile-telekinesis"
 kind = "trait"
 title = "Tactile Telekinesis"
+aon = "TraitDisplay.aspx?ItemName=Tactile%20Telekinesis"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactile_telekinesis", path = "json/traits05.json" },

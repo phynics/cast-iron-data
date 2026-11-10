@@ -2,6 +2,7 @@
 id = "ref/feat/suppressive-fire"
 kind = "feat"
 title = "Suppressive Fire"
+aon = "FeatDisplay.aspx?ItemName=Suppressive%20Fire"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suppressive_fire", path = "json/feat15.json" },

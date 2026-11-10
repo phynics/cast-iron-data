@@ -2,6 +2,7 @@
 id = "ref/feat/fey-spell-lore"
 kind = "feat"
 title = "Fey Spell Lore"
+aon = "FeatDisplay.aspx?ItemName=Fey%20Spell%20Lore"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_spell_lore", path = "json/feat07.json" },

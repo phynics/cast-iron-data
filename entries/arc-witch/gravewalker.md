@@ -2,6 +2,7 @@
 id = "ref/arc-witch/gravewalker"
 kind = "archetype"
 title = "Gravewalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Gravewalker"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gravewalker", path = "json/archetypes_witch.json" },

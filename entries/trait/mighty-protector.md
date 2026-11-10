@@ -2,6 +2,7 @@
 id = "ref/trait/mighty-protector"
 kind = "trait"
 title = "Mighty Protector"
+aon = "TraitDisplay.aspx?ItemName=Mighty%20Protector"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_protector", path = "json/traits03.json" },

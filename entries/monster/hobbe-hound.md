@@ -2,6 +2,7 @@
 id = "ref/monster/hobbe-hound"
 kind = "creature"
 title = "Hobbe Hound"
+aon = "MonsterDisplay.aspx?ItemName=Hobbe%20Hound"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hobbe_hound", path = "json/monsters13.json" },

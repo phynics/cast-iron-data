@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/unlucky-figurine"
 kind = "item"
 title = "Unlucky Figurine"
+aon = "MagicCursedDisplay.aspx?ItemName=Unlucky%20Figurine"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unlucky_figurine", path = "json/magic_wondrous_slotless06.json" },

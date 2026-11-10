@@ -2,6 +2,7 @@
 id = "ref/feat/spell-drinker"
 kind = "feat"
 title = "Spell Drinker"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Drinker"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_drinker", path = "json/feat14.json" },

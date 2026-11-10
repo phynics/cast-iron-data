@@ -2,6 +2,7 @@
 id = "ref/feat/andoren-falconry"
 kind = "feat"
 title = "Andoren Falconry"
+aon = "FeatDisplay.aspx?ItemName=Andoren%20Falconry"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "andoren_falconry", path = "json/feat01.json" },

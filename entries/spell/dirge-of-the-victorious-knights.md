@@ -2,6 +2,7 @@
 id = "ref/spell/dirge-of-the-victorious-knights"
 kind = "spell"
 title = "Dirge of the Victorious Knights"
+aon = "SpellDisplay.aspx?ItemName=Dirge%20of%20the%20Victorious%20Knights"
 source_ids = ["adventurers-guide", "inner-sea-world-guide", "cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirge_of_the_victorious_knights", path = "json/spells3.json" },

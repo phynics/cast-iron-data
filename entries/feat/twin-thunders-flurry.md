@@ -2,6 +2,7 @@
 id = "ref/feat/twin-thunders-flurry"
 kind = "feat"
 title = "Twin Thunders Flurry"
+aon = "FeatDisplay.aspx?ItemName=Twin%20Thunders%20Flurry"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twin_thunders_flurry", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/divine-communion"
 kind = "feat"
 title = "Divine Communion"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Communion"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_communion", path = "json/feat04.json" },

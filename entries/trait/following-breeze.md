@@ -2,6 +2,7 @@
 id = "ref/trait/following-breeze"
 kind = "trait"
 title = "Following Breeze"
+aon = "TraitDisplay.aspx?ItemName=Following%20Breeze"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "following_breeze", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/honor-guard"
 kind = "archetype"
 title = "Honor Guard"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Honor%20Guard"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honor_guard", path = "json/archetypes_cavalier.json" },

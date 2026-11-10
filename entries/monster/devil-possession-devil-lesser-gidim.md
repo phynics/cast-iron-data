@@ -2,6 +2,7 @@
 id = "ref/monster/devil-possession-devil-lesser-gidim"
 kind = "creature"
 title = "Lesser Possession Devil (Gidim)"
+aon = "MonsterDisplay.aspx?ItemName=Possession%20Devil%2C%20Lesser%20%28Gidim%29"
 source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_possession_devil_lesser_gidim", path = "json/monsters07.json" },

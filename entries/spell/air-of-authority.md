@@ -2,6 +2,7 @@
 id = "ref/spell/air-of-authority"
 kind = "spell"
 title = "Air of Authority"
+aon = "SpellDisplay.aspx?ItemName=Air%20of%20Authority"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_of_authority", path = "json/spells.json" },

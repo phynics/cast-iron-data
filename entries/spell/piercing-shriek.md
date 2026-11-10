@@ -2,6 +2,7 @@
 id = "ref/spell/piercing-shriek"
 kind = "spell"
 title = "Piercing Shriek"
+aon = "SpellDisplay.aspx?ItemName=Piercing%20Shriek"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piercing_shriek", path = "json/spells7.json" },

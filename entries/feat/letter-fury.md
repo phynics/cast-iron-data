@@ -2,6 +2,7 @@
 id = "ref/feat/letter-fury"
 kind = "feat"
 title = "Letter Fury"
+aon = "FeatDisplay.aspx?ItemName=Letter%20Fury"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "letter_fury", path = "json/feat10.json" },

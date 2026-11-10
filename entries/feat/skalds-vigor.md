@@ -2,6 +2,7 @@
 id = "ref/feat/skalds-vigor"
 kind = "feat"
 title = "Skald's Vigor"
+aon = "FeatDisplay.aspx?ItemName=Skald%27s%20Vigor"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skalds_vigor", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/gigas-abyss-gigas"
 kind = "creature"
 title = "Abyss Gigas"
+aon = "MonsterDisplay.aspx?ItemName=Abyss%20Gigas"
 source_ids = ["the-witchwar-legacy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_abyss_gigas", path = "json/monsters12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/targeted-bomb-admixture"
 kind = "spell"
 title = "Targeted Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Targeted%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "targeted_bomb_admixture", path = "json/spells10.json" },

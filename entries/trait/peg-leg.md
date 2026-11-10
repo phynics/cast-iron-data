@@ -2,6 +2,7 @@
 id = "ref/trait/peg-leg"
 kind = "trait"
 title = "Peg Leg"
+aon = "TraitDisplay.aspx?ItemName=Peg%20Leg"
 source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peg_leg", path = "json/traits03.json" },

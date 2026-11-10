@@ -2,6 +2,7 @@
 id = "ref/trait/latent-psion"
 kind = "trait"
 title = "Latent Psion"
+aon = "TraitDisplay.aspx?ItemName=Latent%20Psion"
 source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "latent_psion", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/fuldrex"
 kind = "creature"
 title = "Fuldrex"
+aon = "MonsterDisplay.aspx?ItemName=Fuldrex"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fuldrex", path = "json/monsters42.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/sin-sharing-critical"
 kind = "feat"
 title = "Sin-Sharing Critical"
+aon = "FeatDisplay.aspx?ItemName=Sin-Sharing%20Critical"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_sharing_critical", path = "json/feat14.json" },

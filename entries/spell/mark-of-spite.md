@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-spite"
 kind = "spell"
 title = "Mark of Spite"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20Spite"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_spite", path = "json/spells6.json" },

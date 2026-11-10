@@ -2,6 +2,7 @@
 id = "ref/spell/glimpse-the-hidden"
 kind = "spell"
 title = "Glimpse the Hidden"
+aon = "SpellDisplay.aspx?ItemName=Glimpse%20the%20Hidden"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_the_hidden", path = "json/spells15.json" },

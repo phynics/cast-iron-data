@@ -2,6 +2,7 @@
 id = "ref/trait/secret-revolutionary"
 kind = "trait"
 title = "Secret Revolutionary"
+aon = "TraitDisplay.aspx?ItemName=Secret%20Revolutionary"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_revolutionary", path = "json/traits04.json" },

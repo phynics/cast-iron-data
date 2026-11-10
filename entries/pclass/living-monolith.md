@@ -2,6 +2,7 @@
 id = "ref/pclass/living-monolith"
 kind = "prestige_class"
 title = "Living Monolith"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Living%20Monolith"
 source_ids = ["people-of-the-sands", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_monolith", path = "json/prestige_classes2.json" },

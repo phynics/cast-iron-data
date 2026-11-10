@@ -2,6 +2,7 @@
 id = "ref/trait/gifted-satirist"
 kind = "trait"
 title = "Gifted Satirist"
+aon = "TraitDisplay.aspx?ItemName=Gifted%20Satirist"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gifted_satirist", path = "json/traits02.json" },

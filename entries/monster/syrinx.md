@@ -2,6 +2,7 @@
 id = "ref/monster/syrinx"
 kind = "creature"
 title = "Syrinx"
+aon = "MonsterDisplay.aspx?ItemName=Syrinx"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "syrinx", path = "json/monsters24.json" },

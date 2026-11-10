@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary/monsters/skeletal-champion"
 kind = "creature"
 title = "Skeletal Champion"
+aon = "MonsterDisplay.aspx?ItemName=Skeletal%20Champion"
 source_ids = ["bestiary"]
 section = ["Monsters"]
 tags = ["undead", "medium"]

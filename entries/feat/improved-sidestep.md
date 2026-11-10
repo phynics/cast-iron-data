@@ -2,6 +2,7 @@
 id = "ref/feat/improved-sidestep"
 kind = "feat"
 title = "Improved Sidestep"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Sidestep"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_sidestep", path = "json/feat09.json" },

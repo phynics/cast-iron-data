@@ -2,6 +2,7 @@
 id = "ref/trait/sevenarches-seeker"
 kind = "trait"
 title = "Sevenarches Seeker"
+aon = "TraitDisplay.aspx?ItemName=Sevenarches%20Seeker"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sevenarches_seeker", path = "json/traits04.json" },

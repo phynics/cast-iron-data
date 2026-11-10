@@ -2,6 +2,7 @@
 id = "ref/trait/boarded-in-varisia"
 kind = "trait"
 title = "Boarded in Varisia"
+aon = "TraitDisplay.aspx?ItemName=Boarded%20in%20Varisia"
 source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boarded_in_varisia", path = "json/traits02.json" },

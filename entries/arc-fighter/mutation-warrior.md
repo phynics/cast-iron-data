@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/mutation-warrior"
 kind = "archetype"
 title = "Mutation Warrior"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Mutation%20Warrior"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutation_warrior", path = "json/archetypes_fighter.json" },

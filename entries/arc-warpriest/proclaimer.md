@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/proclaimer"
 kind = "archetype"
 title = "Proclaimer"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Proclaimer"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proclaimer", path = "json/archetypes_warpriest.json" },

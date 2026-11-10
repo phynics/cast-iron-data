@@ -2,6 +2,7 @@
 id = "ref/feat/returning-throw"
 kind = "feat"
 title = "Returning Throw"
+aon = "FeatDisplay.aspx?ItemName=Returning%20Throw"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "returning_throw", path = "json/feat13.json" },

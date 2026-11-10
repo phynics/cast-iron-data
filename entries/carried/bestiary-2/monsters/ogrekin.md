@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/ogrekin"
 kind = "creature"
 title = "Ogrekin"
+aon = "MonsterDisplay.aspx?ItemName=Ogrekin"
 source_ids = ["bestiary-2"]
 section = ["Monsters"]
 tags = ["humanoid", "giant", "medium"]

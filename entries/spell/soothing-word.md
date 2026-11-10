@@ -2,6 +2,7 @@
 id = "ref/spell/soothing-word"
 kind = "spell"
 title = "Soothing Word"
+aon = "SpellDisplay.aspx?ItemName=Soothing%20Word"
 source_ids = ["gamemastery-condition-cards"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothing_word", path = "json/spells9.json" },

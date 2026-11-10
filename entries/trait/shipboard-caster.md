@@ -2,6 +2,7 @@
 id = "ref/trait/shipboard-caster"
 kind = "trait"
 title = "Shipboard Caster"
+aon = "TraitDisplay.aspx?ItemName=Shipboard%20Caster"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shipboard_caster", path = "json/traits04.json" },

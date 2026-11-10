@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/geminate-invoker"
 kind = "archetype"
 title = "Geminate Invoker"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Geminate%20Invoker"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geminate_invoker", path = "json/archetypes_barbarian.json" },

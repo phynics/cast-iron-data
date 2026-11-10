@@ -2,6 +2,7 @@
 id = "ref/trait/intrepid-delver"
 kind = "trait"
 title = "Intrepid Delver"
+aon = "TraitDisplay.aspx?ItemName=Intrepid%20Delver"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrepid_delver", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/spellcrash-greater"
 kind = "spell"
 title = "Greater Spellcrash"
+aon = "SpellDisplay.aspx?ItemName=Spellcrash%2C%20Greater"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcrash_greater", path = "json/spells9.json" },

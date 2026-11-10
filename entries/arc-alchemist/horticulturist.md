@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/horticulturist"
 kind = "archetype"
 title = "Horticulturist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Horticulturist"
 source_ids = ["ultimate-wilderness", "heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horticulturist", path = "json/archetypes_alchemist2.json" },

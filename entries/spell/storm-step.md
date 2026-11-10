@@ -2,6 +2,7 @@
 id = "ref/spell/storm-step"
 kind = "spell"
 title = "Storm Step"
+aon = "SpellDisplay.aspx?ItemName=Storm%20Step"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_step", path = "json/spells9.json" },

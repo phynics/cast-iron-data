@@ -2,6 +2,7 @@
 id = "ref/spell/red-hand-of-the-killer"
 kind = "spell"
 title = "Red Hand of the Killer"
+aon = "SpellDisplay.aspx?ItemName=Red%20Hand%20of%20the%20Killer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_hand_of_the_killer", path = "json/spells8.json" },

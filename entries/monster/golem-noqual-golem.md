@@ -2,6 +2,7 @@
 id = "ref/monster/golem-noqual-golem"
 kind = "creature"
 title = "Noqual Golem"
+aon = "MonsterDisplay.aspx?ItemName=Noqual%20Golem"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_noqual_golem", path = "json/monsters33.json" },

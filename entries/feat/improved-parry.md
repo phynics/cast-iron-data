@@ -2,6 +2,7 @@
 id = "ref/feat/improved-parry"
 kind = "feat"
 title = "Improved Parry"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Parry"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_parry", path = "json/feat09.json" },

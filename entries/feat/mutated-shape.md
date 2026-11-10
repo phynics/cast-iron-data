@@ -2,6 +2,7 @@
 id = "ref/feat/mutated-shape"
 kind = "feat"
 title = "Mutated Shape"
+aon = "FeatDisplay.aspx?ItemName=Mutated%20Shape"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutated_shape", path = "json/feat11.json" },

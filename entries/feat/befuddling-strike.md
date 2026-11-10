@@ -2,6 +2,7 @@
 id = "ref/feat/befuddling-strike"
 kind = "feat"
 title = "Befuddling Strike"
+aon = "FeatDisplay.aspx?ItemName=Befuddling%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "befuddling_strike", path = "json/feat02.json" },

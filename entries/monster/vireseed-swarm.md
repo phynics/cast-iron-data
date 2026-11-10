@@ -2,6 +2,7 @@
 id = "ref/monster/vireseed-swarm"
 kind = "creature"
 title = "Vireseed Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Vireseed%20Swarm"
 source_ids = ["pathfinder-39-the-city-of-seven-spears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vireseed_swarm", path = "json/monsters40.json" },

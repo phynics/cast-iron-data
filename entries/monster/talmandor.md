@@ -2,6 +2,7 @@
 id = "ref/monster/talmandor"
 kind = "creature"
 title = "Talmandor"
+aon = "MonsterDisplay.aspx?ItemName=Talmandor"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talmandor", path = "json/monsters_unique3.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/crone-queen"
 kind = "creature"
 title = "Crone Queen"
+aon = "MonsterDisplay.aspx?ItemName=Crone%20Queen"
 source_ids = ["bestiary-5", "pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crone_queen", path = "json/monsters06.json" },

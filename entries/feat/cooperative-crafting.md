@@ -2,6 +2,7 @@
 id = "ref/feat/cooperative-crafting"
 kind = "feat"
 title = "Cooperative Crafting"
+aon = "FeatDisplay.aspx?ItemName=Cooperative%20Crafting"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_crafting", path = "json/feat03.json" },

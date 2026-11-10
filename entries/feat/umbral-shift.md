@@ -2,6 +2,7 @@
 id = "ref/feat/umbral-shift"
 kind = "feat"
 title = "Umbral Shift"
+aon = "FeatDisplay.aspx?ItemName=Umbral%20Shift"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_shift", path = "json/feat16.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/candlestone-courtier"
 kind = "creature"
 title = "Candlestone Courtier"
+aon = "MonsterDisplay.aspx?ItemName=Candlestone%20Courtier"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "candlestone_courtier", path = "json/monsters04.json" },

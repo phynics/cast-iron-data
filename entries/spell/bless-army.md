@@ -2,6 +2,7 @@
 id = "ref/spell/bless-army"
 kind = "spell"
 title = "Bless Army"
+aon = "SpellDisplay.aspx?ItemName=Bless%20Army"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bless_army", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/coven-caster"
 kind = "feat"
 title = "Coven Caster"
+aon = "FeatDisplay.aspx?ItemName=Coven%20Caster"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coven_caster", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/bountiful-herb-lore"
 kind = "trait"
 title = "Bountiful Herb-Lore"
+aon = "TraitDisplay.aspx?ItemName=Bountiful%20Herb-Lore"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bountiful_herb_lore", path = "json/traits02.json" },

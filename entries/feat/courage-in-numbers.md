@@ -2,6 +2,7 @@
 id = "ref/feat/courage-in-numbers"
 kind = "feat"
 title = "Courage in Numbers"
+aon = "FeatDisplay.aspx?ItemName=Courage%20in%20Numbers"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courage_in_numbers", path = "json/feat03.json" },

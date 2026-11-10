@@ -2,6 +2,7 @@
 id = "ref/arc-druid/serpent-shaman"
 kind = "archetype"
 title = "Serpent Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Serpent%20Shaman"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpent_shaman", path = "json/archetypes_druid2.json" },

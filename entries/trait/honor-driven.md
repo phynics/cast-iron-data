@@ -2,6 +2,7 @@
 id = "ref/trait/honor-driven"
 kind = "trait"
 title = "Honor-Driven"
+aon = "TraitDisplay.aspx?ItemName=Honor-Driven"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honor_driven", path = "json/traits05.json" },

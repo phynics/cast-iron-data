@@ -2,6 +2,7 @@
 id = "ref/feat/iconoclast"
 kind = "feat"
 title = "Iconoclast"
+aon = "FeatDisplay.aspx?ItemName=Iconoclast"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iconoclast", path = "json/feat08.json" },

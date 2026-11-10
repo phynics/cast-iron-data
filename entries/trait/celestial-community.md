@@ -2,6 +2,7 @@
 id = "ref/trait/celestial-community"
 kind = "trait"
 title = "Celestial Community"
+aon = "TraitDisplay.aspx?ItemName=Celestial%20Community"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "celestial_community", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/bloody-jake"
 kind = "archetype"
 title = "Bloody Jake"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Bloody%20Jake"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_jake", path = "json/archetypes_slayer.json" },

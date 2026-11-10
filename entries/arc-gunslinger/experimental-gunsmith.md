@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/experimental-gunsmith"
 kind = "archetype"
 title = "Experimental Gunsmith"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Experimental%20Gunsmith"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experimental_gunsmith", path = "json/archetypes_gunslinger.json" },

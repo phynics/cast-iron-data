@@ -2,6 +2,7 @@
 id = "ref/feat/solid-shadows"
 kind = "feat"
 title = "Solid Shadows"
+aon = "FeatDisplay.aspx?ItemName=Solid%20Shadows"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solid_shadows", path = "json/feat14.json" },

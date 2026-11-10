@@ -2,6 +2,7 @@
 id = "ref/spell/adroit-retrieval"
 kind = "spell"
 title = "Adroit Retrieval"
+aon = "SpellDisplay.aspx?ItemName=Adroit%20Retrieval"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adroit_retrieval", path = "json/spells.json" },

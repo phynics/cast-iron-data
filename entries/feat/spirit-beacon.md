@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-beacon"
 kind = "feat"
 title = "Spirit Beacon"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Beacon"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_beacon", path = "json/feat14.json" },

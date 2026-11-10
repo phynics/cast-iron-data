@@ -2,6 +2,7 @@
 id = "ref/trait/evasive-sting"
 kind = "trait"
 title = "Evasive Sting"
+aon = "TraitDisplay.aspx?ItemName=Evasive%20Sting"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evasive_sting", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/inkanyamba"
 kind = "creature"
 title = "Inkanyamba"
+aon = "MonsterDisplay.aspx?ItemName=Inkanyamba"
 source_ids = ["pathfinder-41-the-thousand-fangs-below"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inkanyamba", path = "json/monsters14.json" },

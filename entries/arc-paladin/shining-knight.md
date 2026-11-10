@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/shining-knight"
 kind = "archetype"
 title = "Shining Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Shining%20Knight"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shining_knight", path = "json/archetypes_paladin.json" },

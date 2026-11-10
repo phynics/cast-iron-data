@@ -2,6 +2,7 @@
 id = "ref/feat/noble-scion"
 kind = "feat"
 title = "Noble Scion"
+aon = "FeatDisplay.aspx?ItemName=Noble%20Scion"
 source_ids = ["inner-sea-world-guide", "heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "noble_scion", path = "json/feat11.json" },

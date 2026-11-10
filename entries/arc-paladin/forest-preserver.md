@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/forest-preserver"
 kind = "archetype"
 title = "Forest Preserver"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Forest%20Preserver"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forest_preserver", path = "json/archetypes_paladin.json" },

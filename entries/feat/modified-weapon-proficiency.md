@@ -2,6 +2,7 @@
 id = "ref/feat/modified-weapon-proficiency"
 kind = "feat"
 title = "Modified Weapon Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Modified%20Weapon%20Proficiency"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "modified_weapon_proficiency", path = "json/feat11.json" },

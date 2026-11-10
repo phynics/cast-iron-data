@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/roaming-exorcist"
 kind = "archetype"
 title = "Roaming Exorcist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Roaming%20Exorcist"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roaming_exorcist", path = "json/archetypes_cleric.json" },

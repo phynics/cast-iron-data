@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-dabbler"
 kind = "trait"
 title = "Arcane Dabbler"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Dabbler"
 source_ids = ["elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_dabbler", path = "json/traits05.json" },

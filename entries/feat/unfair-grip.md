@@ -2,6 +2,7 @@
 id = "ref/feat/unfair-grip"
 kind = "feat"
 title = "Unfair Grip"
+aon = "FeatDisplay.aspx?ItemName=Unfair%20Grip"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unfair_grip", path = "json/feat16.json" },

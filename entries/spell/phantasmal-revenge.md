@@ -2,6 +2,7 @@
 id = "ref/spell/phantasmal-revenge"
 kind = "spell"
 title = "Phantasmal Revenge"
+aon = "SpellDisplay.aspx?ItemName=Phantasmal%20Revenge"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantasmal_revenge", path = "json/spells7.json" },

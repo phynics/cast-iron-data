@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/iconoclast"
 kind = "archetype"
 title = "Iconoclast"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Iconoclast"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iconoclast", path = "json/archetypes_inquisitor.json" },

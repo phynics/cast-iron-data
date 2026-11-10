@@ -2,6 +2,7 @@
 id = "ref/arc-druid/elemental-ally"
 kind = "archetype"
 title = "Elemental Ally"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Elemental%20Ally"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_ally", path = "json/archetypes_druid.json" },

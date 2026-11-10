@@ -2,6 +2,7 @@
 id = "ref/monster/zhen-worm"
 kind = "creature"
 title = "Zhen Worm"
+aon = "MonsterDisplay.aspx?ItemName=Zhen%20Worm"
 source_ids = ["numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zhen_worm", path = "json/monsters41.json" },

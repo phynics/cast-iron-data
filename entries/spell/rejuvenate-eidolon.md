@@ -2,6 +2,7 @@
 id = "ref/spell/rejuvenate-eidolon"
 kind = "spell"
 title = "Rejuvenate Eidolon"
+aon = "SpellDisplay.aspx?ItemName=Rejuvenate%20Eidolon"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rejuvenate_eidolon", path = "json/spells8.json" },

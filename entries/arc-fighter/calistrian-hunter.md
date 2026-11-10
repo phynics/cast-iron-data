@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/calistrian-hunter"
 kind = "archetype"
 title = "Calistrian Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Calistrian%20Hunter"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrian_hunter", path = "json/archetypes_fighter.json" },

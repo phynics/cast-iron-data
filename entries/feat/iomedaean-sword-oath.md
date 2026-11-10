@@ -2,6 +2,7 @@
 id = "ref/feat/iomedaean-sword-oath"
 kind = "feat"
 title = "Iomedaean Sword Oath"
+aon = "FeatDisplay.aspx?ItemName=Iomedaean%20Sword%20Oath"
 source_ids = ["pathfinder-26-the-sixfold-trial"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iomedaean_sword_oath", path = "json/feat09.json" },

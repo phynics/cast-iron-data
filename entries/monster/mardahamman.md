@@ -2,6 +2,7 @@
 id = "ref/monster/mardahamman"
 kind = "creature"
 title = "Mardahamman, Cyclops Tyrant"
+aon = "MonsterDisplay.aspx?ItemName=Mardahamman%2C%20Cyclops%20Tyrant"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mardahamman", path = "json/monsters_unique3.json" },

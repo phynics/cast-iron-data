@@ -2,6 +2,7 @@
 id = "ref/spell/memory-lapse"
 kind = "spell"
 title = "Memory Lapse"
+aon = "SpellDisplay.aspx?ItemName=Memory%20Lapse"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "memory_lapse", path = "json/spells14.json" },

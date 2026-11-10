@@ -2,6 +2,7 @@
 id = "ref/feat/bullseye-shot"
 kind = "feat"
 title = "Bullseye Shot"
+aon = "FeatDisplay.aspx?ItemName=Bullseye%20Shot"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullseye_shot", path = "json/feat02.json" },

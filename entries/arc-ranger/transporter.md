@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/transporter"
 kind = "archetype"
 title = "Transporter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Transporter"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transporter", path = "json/archetypes_ranger.json" },

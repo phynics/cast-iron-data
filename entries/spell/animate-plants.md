@@ -2,6 +2,7 @@
 id = "ref/spell/animate-plants"
 kind = "spell"
 title = "Animate Plants"
+aon = "SpellDisplay.aspx?ItemName=Animate%20Plants"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_plants", path = "json/spells.json" },

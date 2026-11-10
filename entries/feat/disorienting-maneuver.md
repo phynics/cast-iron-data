@@ -2,6 +2,7 @@
 id = "ref/feat/disorienting-maneuver"
 kind = "feat"
 title = "Disorienting Maneuver"
+aon = "FeatDisplay.aspx?ItemName=Disorienting%20Maneuver"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disorienting_maneuver", path = "json/feat04.json" },

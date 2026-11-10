@@ -2,6 +2,7 @@
 id = "ref/feat/savage-surge"
 kind = "feat"
 title = "Savage Surge"
+aon = "FeatDisplay.aspx?ItemName=Savage%20Surge"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_surge", path = "json/feat13.json" },

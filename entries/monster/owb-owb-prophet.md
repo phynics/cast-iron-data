@@ -2,6 +2,7 @@
 id = "ref/monster/owb-owb-prophet"
 kind = "creature"
 title = "Owb Prophet"
+aon = "MonsterDisplay.aspx?ItemName=Owb%20Prophet"
 source_ids = ["cradle-of-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "owb_owb_prophet", path = "json/monsters36.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/arid-refuge"
 kind = "spell"
 title = "Arid Refuge"
+aon = "SpellDisplay.aspx?ItemName=Arid%20Refuge"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arid_refuge", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/swamp-skulker"
 kind = "trait"
 title = "Swamp Skulker"
+aon = "TraitDisplay.aspx?ItemName=Swamp%20Skulker"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_skulker", path = "json/traits04.json" },

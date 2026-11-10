@@ -2,6 +2,7 @@
 id = "ref/spell/alleviate-addiction"
 kind = "spell"
 title = "Alleviate Addiction"
+aon = "SpellDisplay.aspx?ItemName=Alleviate%20Addiction"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alleviate_addiction", path = "json/spells.json" },

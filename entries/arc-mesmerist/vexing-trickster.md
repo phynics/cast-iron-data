@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/vexing-trickster"
 kind = "archetype"
 title = "Vexing Trickster"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Vexing%20Trickster"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_trickster", path = "json/archetypes_mesmerist.json" },

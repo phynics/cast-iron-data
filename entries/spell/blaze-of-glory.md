@@ -2,6 +2,7 @@
 id = "ref/spell/blaze-of-glory"
 kind = "spell"
 title = "Blaze of Glory"
+aon = "SpellDisplay.aspx?ItemName=Blaze%20of%20Glory"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blaze_of_glory", path = "json/spells12.json" },

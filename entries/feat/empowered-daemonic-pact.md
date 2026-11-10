@@ -2,6 +2,7 @@
 id = "ref/feat/empowered-daemonic-pact"
 kind = "feat"
 title = "Empowered Daemonic Pact"
+aon = "FeatDisplay.aspx?ItemName=Empowered%20Daemonic%20Pact"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empowered_daemonic_pact", path = "json/feat05.json" },

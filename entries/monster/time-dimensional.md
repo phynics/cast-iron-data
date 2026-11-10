@@ -2,6 +2,7 @@
 id = "ref/monster/time-dimensional"
 kind = "creature"
 title = "Time Dimensional"
+aon = "MonsterDisplay.aspx?ItemName=Time%20Dimensional"
 source_ids = ["pathfinder-136-temple-of-the-peacock-spirit"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "time_dimensional", path = "json/monsters39.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/hussar"
 kind = "archetype"
 title = "Hussar"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Hussar"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hussar", path = "json/archetypes_cavalier.json" },

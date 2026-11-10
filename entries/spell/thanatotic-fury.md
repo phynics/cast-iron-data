@@ -2,6 +2,7 @@
 id = "ref/spell/thanatotic-fury"
 kind = "spell"
 title = "Thanatotic Fury"
+aon = "SpellDisplay.aspx?ItemName=Thanatotic%20Fury"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thanatotic_fury", path = "json/spells10.json" },

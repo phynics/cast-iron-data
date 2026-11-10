@@ -2,6 +2,7 @@
 id = "ref/monster/fellsig"
 kind = "creature"
 title = "Fellsig"
+aon = "MonsterDisplay.aspx?ItemName=Fellsig"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fellsig", path = "json/monsters10.json" },

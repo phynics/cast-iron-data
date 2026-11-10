@@ -2,6 +2,7 @@
 id = "ref/monster/poltergeist"
 kind = "creature"
 title = "Poltergeist"
+aon = "MonsterDisplay.aspx?ItemName=Poltergeist"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poltergeist", path = "json/monsters19.json" },

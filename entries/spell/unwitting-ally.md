@@ -2,6 +2,7 @@
 id = "ref/spell/unwitting-ally"
 kind = "spell"
 title = "Unwitting Ally"
+aon = "SpellDisplay.aspx?ItemName=Unwitting%20Ally"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwitting_ally", path = "json/spells11.json" },

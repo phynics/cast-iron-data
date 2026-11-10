@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/musketeer"
 kind = "archetype"
 title = "Musketeer"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Musketeer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musketeer", path = "json/archetypes_swashbuckler.json" },

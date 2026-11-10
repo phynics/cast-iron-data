@@ -2,6 +2,7 @@
 id = "ref/spell/resurgent-transformation"
 kind = "spell"
 title = "Resurgent Transformation"
+aon = "SpellDisplay.aspx?ItemName=Resurgent%20Transformation"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resurgent_transformation", path = "json/spells8.json" },

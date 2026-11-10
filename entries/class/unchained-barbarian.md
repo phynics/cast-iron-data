@@ -2,6 +2,7 @@
 id = "ref/class/unchained-barbarian"
 kind = "class"
 title = "Unchained Barbarian"
+aon = "ClassDisplay.aspx?ItemName=Barbarian%20%28Unchained%29"
 source_ids = ["pathfinder-unchained", "advanced-players-guide", "chronicle-of-legends", "blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unchained_barbarian", path = "json/classes7.json" },

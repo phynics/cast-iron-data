@@ -2,6 +2,7 @@
 id = "ref/monster/eudranis"
 kind = "creature"
 title = "Eudranis"
+aon = "MonsterDisplay.aspx?ItemName=Eudranis"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eudranis", path = "json/monsters_unique4.json" },

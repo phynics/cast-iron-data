@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/divine-guardian"
 kind = "archetype"
 title = "Divine Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Divine%20Guardian"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_guardian", path = "json/archetypes_paladin.json" },

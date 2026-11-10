@@ -2,6 +2,7 @@
 id = "ref/feat/extra-channel"
 kind = "feat"
 title = "Extra Channel"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Channel"
 source_ids = ["advanced-class-guide", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_channel", path = "json/feat06.json" },

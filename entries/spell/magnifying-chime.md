@@ -2,6 +2,7 @@
 id = "ref/spell/magnifying-chime"
 kind = "spell"
 title = "Magnifying Chime"
+aon = "SpellDisplay.aspx?ItemName=Magnifying%20Chime"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magnifying_chime", path = "json/spells6.json" },

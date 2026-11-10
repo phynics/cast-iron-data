@@ -2,6 +2,7 @@
 id = "ref/monster/thriae-thriae-constructor"
 kind = "creature"
 title = "Thriae Constructor"
+aon = "MonsterDisplay.aspx?ItemName=Thriae%20Constructor"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thriae_thriae_constructor", path = "json/monsters39.json" },

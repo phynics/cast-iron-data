@@ -2,6 +2,7 @@
 id = "ref/trait/thoroughbred"
 kind = "trait"
 title = "Thoroughbred"
+aon = "TraitDisplay.aspx?ItemName=Thoroughbred"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thoroughbred", path = "json/traits05.json" },

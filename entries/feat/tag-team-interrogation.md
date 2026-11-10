@@ -2,6 +2,7 @@
 id = "ref/feat/tag-team-interrogation"
 kind = "feat"
 title = "Tag-Team Interrogation"
+aon = "FeatDisplay.aspx?ItemName=Tag-Team%20Interrogation"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tag_team_interrogation", path = "json/feat15.json" },

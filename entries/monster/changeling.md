@@ -2,6 +2,7 @@
 id = "ref/monster/changeling"
 kind = "creature"
 title = "Changeling"
+aon = "MonsterDisplay.aspx?ItemName=Changeling"
 source_ids = ["bestiary-4", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "changeling", path = "json/monsters28.json" },

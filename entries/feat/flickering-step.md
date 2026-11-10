@@ -2,6 +2,7 @@
 id = "ref/feat/flickering-step"
 kind = "feat"
 title = "Flickering Step"
+aon = "FeatDisplay.aspx?ItemName=Flickering%20Step"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flickering_step", path = "json/feat07.json" },

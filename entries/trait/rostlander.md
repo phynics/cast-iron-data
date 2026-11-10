@@ -2,6 +2,7 @@
 id = "ref/trait/rostlander"
 kind = "trait"
 title = "Rostlander"
+aon = "TraitDisplay.aspx?ItemName=Rostlander"
 source_ids = ["kingmaker-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rostlander", path = "json/traits02.json" },

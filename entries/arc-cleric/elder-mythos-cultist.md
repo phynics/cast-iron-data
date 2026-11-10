@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/elder-mythos-cultist"
 kind = "archetype"
 title = "Elder Mythos Cultist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Elder%20Mythos%20Cultist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elder_mythos_cultist", path = "json/archetypes_cleric.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/senatorial-hopeful"
 kind = "trait"
 title = "Senatorial Hopeful"
+aon = "TraitDisplay.aspx?ItemName=Senatorial%20Hopeful"
 source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "senatorial_hopeful", path = "json/traits03.json" },

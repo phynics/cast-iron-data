@@ -2,6 +2,7 @@
 id = "ref/monster/coral-capuchin"
 kind = "creature"
 title = "Coral Capuchin"
+aon = "MonsterDisplay.aspx?ItemName=Coral%20Capuchin"
 source_ids = ["bestiary-6", "pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coral_capuchin", path = "json/monsters06.json" },

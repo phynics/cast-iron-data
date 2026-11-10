@@ -2,6 +2,7 @@
 id = "ref/trait/inspiring-leader"
 kind = "trait"
 title = "Inspiring Leader"
+aon = "TraitDisplay.aspx?ItemName=Inspiring%20Leader"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_leader", path = "json/traits03.json" },

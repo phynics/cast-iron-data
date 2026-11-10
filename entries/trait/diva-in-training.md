@@ -2,6 +2,7 @@
 id = "ref/trait/diva-in-training"
 kind = "trait"
 title = "Diva in Training"
+aon = "TraitDisplay.aspx?ItemName=Diva%20in%20Training"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diva_in_training", path = "json/traits02.json" },

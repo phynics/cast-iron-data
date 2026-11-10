@@ -2,6 +2,7 @@
 id = "ref/feat/reviving-channel"
 kind = "feat"
 title = "Reviving Channel"
+aon = "FeatDisplay.aspx?ItemName=Reviving%20Channel"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reviving_channel", path = "json/feat13.json" },

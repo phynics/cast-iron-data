@@ -2,6 +2,7 @@
 id = "ref/monster/petrified-maiden"
 kind = "creature"
 title = "Petrified Maiden"
+aon = "MonsterDisplay.aspx?ItemName=Petrified%20Maiden"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petrified_maiden", path = "json/monsters36.json" },

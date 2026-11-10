@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/quintessentialist"
 kind = "archetype"
 title = "Quintessentialist"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Quintessentialist"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quintessentialist", path = "json/archetypes_spiritualist.json" },

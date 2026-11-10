@@ -2,6 +2,7 @@
 id = "ref/trait/red-silk-frankness"
 kind = "trait"
 title = "Red Silk Frankness"
+aon = "TraitDisplay.aspx?ItemName=Red%20Silk%20Frankness"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_silk_frankness", path = "json/traits01.json" },

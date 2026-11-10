@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/emissary"
 kind = "archetype"
 title = "Emissary"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Emissary"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emissary", path = "json/archetypes_cavalier.json" },

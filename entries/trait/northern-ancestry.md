@@ -2,6 +2,7 @@
 id = "ref/trait/northern-ancestry"
 kind = "trait"
 title = "Northern Ancestry"
+aon = "TraitDisplay.aspx?ItemName=Northern%20Ancestry"
 source_ids = ["reign-of-winter-players-guide", "people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "northern_ancestry", path = "json/traits02.json" },

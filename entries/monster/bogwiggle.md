@@ -2,6 +2,7 @@
 id = "ref/monster/bogwiggle"
 kind = "creature"
 title = "Bogwiggle"
+aon = "MonsterDisplay.aspx?ItemName=Bogwiggle"
 source_ids = ["monster-codex", "pathfinder-62-curse-of-the-ladys-light"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogwiggle", path = "json/monsters27.json" },

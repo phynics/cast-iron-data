@@ -2,6 +2,7 @@
 id = "ref/monster/troll-mountain-troll"
 kind = "creature"
 title = "Mountain Troll"
+aon = "MonsterDisplay.aspx?ItemName=Mountain%20Troll"
 source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troll_mountain_troll", path = "json/monsters39.json" },

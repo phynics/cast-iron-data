@@ -2,6 +2,7 @@
 id = "ref/monster/yeth-hound"
 kind = "creature"
 title = "Yeth Hound"
+aon = "MonsterDisplay.aspx?ItemName=Yeth%20Hound"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yeth_hound", path = "json/monsters41.json" },

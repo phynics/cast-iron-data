@@ -2,6 +2,7 @@
 id = "ref/arc-magus/spire-defender"
 kind = "archetype"
 title = "Spire Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Spire%20Defender"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spire_defender", path = "json/archetypes_magus.json" },

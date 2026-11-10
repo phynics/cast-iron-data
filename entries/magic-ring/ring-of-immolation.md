@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-immolation"
 kind = "item"
 title = "Ring of Immolation"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Immolation"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-11-skeletons-of-scarwall"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_immolation", path = "json/magic_ring.json" },

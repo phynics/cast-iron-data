@@ -2,6 +2,7 @@
 id = "ref/pclass/hinterlander"
 kind = "prestige_class"
 title = "Hinterlander"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Hinterlander"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hinterlander", path = "json/prestige_classes2.json" },

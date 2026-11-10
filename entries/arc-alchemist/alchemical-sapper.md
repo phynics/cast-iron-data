@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/alchemical-sapper"
 kind = "archetype"
 title = "Alchemical Sapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Alchemical%20Sapper"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_sapper", path = "json/archetypes_alchemist.json" },

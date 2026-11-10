@@ -2,6 +2,7 @@
 id = "ref/arc-witch/alley-witch"
 kind = "archetype"
 title = "Alley Witch"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Alley%20Witch"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alley_witch", path = "json/archetypes_witch.json" },

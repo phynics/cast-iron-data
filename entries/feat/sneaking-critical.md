@@ -2,6 +2,7 @@
 id = "ref/feat/sneaking-critical"
 kind = "feat"
 title = "Sneaking Critical"
+aon = "FeatDisplay.aspx?ItemName=Sneaking%20Critical"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaking_critical", path = "json/feat14.json" },

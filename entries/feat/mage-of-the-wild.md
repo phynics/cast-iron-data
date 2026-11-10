@@ -2,6 +2,7 @@
 id = "ref/feat/mage-of-the-wild"
 kind = "feat"
 title = "Mage of the Wild"
+aon = "FeatDisplay.aspx?ItemName=Mage%20of%20the%20Wild"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mage_of_the_wild", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/antithetical-constraint"
 kind = "spell"
 title = "Antithetical Constraint"
+aon = "SpellDisplay.aspx?ItemName=Antithetical%20Constraint"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antithetical_constraint", path = "json/spells.json" },

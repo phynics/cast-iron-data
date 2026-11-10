@@ -2,6 +2,7 @@
 id = "ref/spell/discharge-greater"
 kind = "spell"
 title = "Greater Discharge"
+aon = "SpellDisplay.aspx?ItemName=Discharge%2C%20Greater"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discharge_greater", path = "json/spells3.json" },

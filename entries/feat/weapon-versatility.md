@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-versatility"
 kind = "feat"
 title = "Weapon Versatility"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Versatility"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_versatility", path = "json/feat17.json" },

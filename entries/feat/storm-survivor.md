@@ -2,6 +2,7 @@
 id = "ref/feat/storm-survivor"
 kind = "feat"
 title = "Storm Survivor"
+aon = "FeatDisplay.aspx?ItemName=Storm%20Survivor"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_survivor", path = "json/feat15.json" },

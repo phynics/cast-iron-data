@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/divine-hunter"
 kind = "archetype"
 title = "Divine Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Divine%20Hunter"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_hunter", path = "json/archetypes_paladin.json" },

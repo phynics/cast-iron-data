@@ -2,6 +2,7 @@
 id = "ref/monster/kijimuna"
 kind = "creature"
 title = "Kijimuna"
+aon = "MonsterDisplay.aspx?ItemName=Kijimuna"
 source_ids = ["pathfinder-53-tide-of-honor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kijimuna", path = "json/monsters15.json" },

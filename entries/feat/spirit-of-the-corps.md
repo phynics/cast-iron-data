@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-of-the-corps"
 kind = "feat"
 title = "Spirit of the Corps"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20of%20the%20Corps"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_of_the_corps", path = "json/feat14.json" },

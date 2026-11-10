@@ -2,6 +2,7 @@
 id = "ref/monster/giant-frost-frost-giant-elite-scout"
 kind = "creature"
 title = "Frost Giant Elite Scout"
+aon = "MonsterDisplay.aspx?ItemName=Frost%20Giant%20Elite%20Scout"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_frost_frost_giant_elite_scout", path = "json/monsters11.json" },

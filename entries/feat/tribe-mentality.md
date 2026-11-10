@@ -2,6 +2,7 @@
 id = "ref/feat/tribe-mentality"
 kind = "feat"
 title = "Tribe Mentality"
+aon = "FeatDisplay.aspx?ItemName=Tribe%20Mentality"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribe_mentality", path = "json/feat16.json" },

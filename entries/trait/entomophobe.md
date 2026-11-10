@@ -2,6 +2,7 @@
 id = "ref/trait/entomophobe"
 kind = "trait"
 title = "Entomophobe"
+aon = "TraitDisplay.aspx?ItemName=Entomophobe"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entomophobe", path = "json/traits03.json" },

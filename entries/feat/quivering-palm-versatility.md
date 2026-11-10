@@ -2,6 +2,7 @@
 id = "ref/feat/quivering-palm-versatility"
 kind = "feat"
 title = "Quivering Palm Versatility"
+aon = "FeatDisplay.aspx?ItemName=Quivering%20Palm%20Versatility"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quivering_palm_versatility", path = "json/feat12.json" },

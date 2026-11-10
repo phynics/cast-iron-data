@@ -2,6 +2,7 @@
 id = "ref/feat/sociable"
 kind = "feat"
 title = "Sociable"
+aon = "FeatDisplay.aspx?ItemName=Sociable"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sociable", path = "json/feat14.json" },

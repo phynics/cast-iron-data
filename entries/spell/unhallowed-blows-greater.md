@@ -2,6 +2,7 @@
 id = "ref/spell/unhallowed-blows-greater"
 kind = "spell"
 title = "Greater Unhallowed Blows"
+aon = "SpellDisplay.aspx?ItemName=Unhallowed%20Blows%2C%20Greater"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallowed_blows_greater", path = "json/spells11.json" },

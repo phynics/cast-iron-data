@@ -2,6 +2,7 @@
 id = "ref/feat/flyby-attack"
 kind = "feat"
 title = "Flyby Attack"
+aon = "FeatDisplay.aspx?ItemName=Flyby%20Attack"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flyby_attack", path = "json/feat07.json" },

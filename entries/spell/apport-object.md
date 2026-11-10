@@ -2,6 +2,7 @@
 id = "ref/spell/apport-object"
 kind = "spell"
 title = "Apport Object"
+aon = "SpellDisplay.aspx?ItemName=Apport%20Object"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apport_object", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/akilep"
 kind = "creature"
 title = "Akilep, Lady of Stone"
+aon = "MonsterDisplay.aspx?ItemName=Akilep%2C%20Lady%20of%20Stone"
 source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akilep", path = "json/monsters_unique.json" },

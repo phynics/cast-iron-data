@@ -2,6 +2,7 @@
 id = "ref/pclass/asavir"
 kind = "prestige_class"
 title = "Asavir"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Asavir"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asavir", path = "json/prestige_classes.json" },

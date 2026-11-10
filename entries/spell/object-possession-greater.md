@@ -2,6 +2,7 @@
 id = "ref/spell/object-possession-greater"
 kind = "spell"
 title = "Greater Object Possession"
+aon = "SpellDisplay.aspx?ItemName=Object%20Possession%2C%20Greater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "object_possession_greater", path = "json/spells7.json" },

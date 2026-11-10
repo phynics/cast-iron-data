@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-foe-focus"
 kind = "item"
 title = "Ring of Foe Focus"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Foe%20Focus"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_foe_focus", path = "json/magic_ring.json" },

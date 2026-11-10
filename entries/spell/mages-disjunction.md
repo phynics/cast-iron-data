@@ -2,6 +2,7 @@
 id = "ref/spell/mages-disjunction"
 kind = "spell"
 title = "Mage's Disjunction"
+aon = "SpellDisplay.aspx?ItemName=Mage%27s%20Disjunction"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mages_disjunction", path = "json/spells6.json" },

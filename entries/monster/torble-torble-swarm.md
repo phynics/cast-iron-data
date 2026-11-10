@@ -2,6 +2,7 @@
 id = "ref/monster/torble-torble-swarm"
 kind = "creature"
 title = "Torble Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Torble%20Swarm"
 source_ids = ["pathfinder-25-the-bastards-of-erebus"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "torble_torble_swarm", path = "json/monsters23.json" },

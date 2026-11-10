@@ -2,6 +2,7 @@
 id = "ref/trait/varisian-immunity"
 kind = "trait"
 title = "Varisian Immunity"
+aon = "TraitDisplay.aspx?ItemName=Varisian%20Immunity"
 source_ids = ["varisia-birthplace-of-legends", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_immunity", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/create-mindscape-greater"
 kind = "spell"
 title = "Greater Create Mindscape"
+aon = "SpellDisplay.aspx?ItemName=Create%20Mindscape%2C%20Greater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_mindscape_greater", path = "json/spells3.json" },

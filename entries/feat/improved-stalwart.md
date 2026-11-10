@@ -2,6 +2,7 @@
 id = "ref/feat/improved-stalwart"
 kind = "feat"
 title = "Improved Stalwart"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Stalwart"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_stalwart", path = "json/feat09.json" },

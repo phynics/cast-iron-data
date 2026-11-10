@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/eyebiter"
 kind = "archetype"
 title = "Eyebiter"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Eyebiter"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eyebiter", path = "json/archetypes_mesmerist.json" },

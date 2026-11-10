@@ -2,6 +2,7 @@
 id = "ref/spell/unholy-ward"
 kind = "spell"
 title = "Unholy Ward"
+aon = "SpellDisplay.aspx?ItemName=Unholy%20Ward"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unholy_ward", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/cinderwalker"
 kind = "archetype"
 title = "Cinderwalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Cinderwalker"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cinderwalker", path = "json/archetypes_ranger.json" },

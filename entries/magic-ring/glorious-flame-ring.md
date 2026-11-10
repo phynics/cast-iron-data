@@ -2,6 +2,7 @@
 id = "ref/magic-ring/glorious-flame-ring"
 kind = "item"
 title = "Glorious Flame Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Glorious%20Flame%20Ring"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glorious_flame_ring", path = "json/magic_ring.json" },

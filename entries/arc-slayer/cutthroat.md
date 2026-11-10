@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/cutthroat"
 kind = "archetype"
 title = "Cutthroat"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Cutthroat"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutthroat", path = "json/archetypes_slayer.json" },

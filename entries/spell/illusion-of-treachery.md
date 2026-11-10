@@ -2,6 +2,7 @@
 id = "ref/spell/illusion-of-treachery"
 kind = "spell"
 title = "Illusion of Treachery"
+aon = "SpellDisplay.aspx?ItemName=Illusion%20of%20Treachery"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusion_of_treachery", path = "json/spells14.json" },

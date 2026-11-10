@@ -2,6 +2,7 @@
 id = "ref/feat/contingent-spell"
 kind = "feat"
 title = "Contingent Spell"
+aon = "FeatDisplay.aspx?ItemName=Contingent%20Spell"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_spell", path = "json/feat03.json" },

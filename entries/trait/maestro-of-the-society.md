@@ -2,6 +2,7 @@
 id = "ref/trait/maestro-of-the-society"
 kind = "trait"
 title = "Maestro of the Society"
+aon = "TraitDisplay.aspx?ItemName=Maestro%20of%20the%20Society"
 source_ids = ["shattered-star-players-guide", "faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maestro_of_the_society", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/urban-sleuth"
 kind = "trait"
 title = "Urban Sleuth"
+aon = "TraitDisplay.aspx?ItemName=Urban%20Sleuth"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_sleuth", path = "json/traits02.json" },

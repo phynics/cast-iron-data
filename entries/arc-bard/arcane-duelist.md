@@ -2,6 +2,7 @@
 id = "ref/arc-bard/arcane-duelist"
 kind = "archetype"
 title = "Arcane Duelist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Arcane%20Duelist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_duelist", path = "json/archetypes_bard.json" },

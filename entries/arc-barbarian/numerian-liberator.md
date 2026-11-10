@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/numerian-liberator"
 kind = "archetype"
 title = "Numerian Liberator"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Numerian%20Liberator"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_liberator", path = "json/archetypes_barbarian.json" },

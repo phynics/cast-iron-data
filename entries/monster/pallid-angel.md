@@ -2,6 +2,7 @@
 id = "ref/monster/pallid-angel"
 kind = "creature"
 title = "Pallid Angel"
+aon = "MonsterDisplay.aspx?ItemName=Pallid%20Angel"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_angel", path = "json/monsters36.json" },

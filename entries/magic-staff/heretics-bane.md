@@ -2,6 +2,7 @@
 id = "ref/magic-staff/heretics-bane"
 kind = "item"
 title = "Heretic's Bane"
+aon = "MagicStavesDisplay.aspx?ItemName=Heretic%27s%20Bane"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heretics_bane", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/replay-tracks"
 kind = "spell"
 title = "Replay Tracks"
+aon = "SpellDisplay.aspx?ItemName=Replay%20Tracks"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "replay_tracks", path = "json/spells8.json" },

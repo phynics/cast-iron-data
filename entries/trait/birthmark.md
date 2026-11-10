@@ -2,6 +2,7 @@
 id = "ref/trait/birthmark"
 kind = "trait"
 title = "Birthmark"
+aon = "TraitDisplay.aspx?ItemName=Birthmark"
 source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "birthmark", path = "json/traits01.json" },

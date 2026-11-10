@@ -2,6 +2,7 @@
 id = "ref/feat/stone-shroud"
 kind = "feat"
 title = "Stone Shroud"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Shroud"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_shroud", path = "json/feat15.json" },

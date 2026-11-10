@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/chaos-knight"
 kind = "archetype"
 title = "Chaos Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Chaos%20Knight"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_knight", path = "json/archetypes_paladin.json" },

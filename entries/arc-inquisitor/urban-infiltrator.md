@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/urban-infiltrator"
 kind = "archetype"
 title = "Urban Infiltrator"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Urban%20Infiltrator"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_infiltrator", path = "json/archetypes_inquisitor.json" },

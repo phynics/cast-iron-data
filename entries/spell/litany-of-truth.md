@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-truth"
 kind = "spell"
 title = "Litany of Truth"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Truth"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_truth", path = "json/spells6.json" },

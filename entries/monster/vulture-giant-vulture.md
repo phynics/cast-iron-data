@@ -2,6 +2,7 @@
 id = "ref/monster/vulture-giant-vulture"
 kind = "creature"
 title = "Giant Vulture"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Vulture"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vulture_giant_vulture", path = "json/monsters40.json" },

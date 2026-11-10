@@ -2,6 +2,7 @@
 id = "ref/spell/passwall"
 kind = "spell"
 title = "Passwall"
+aon = "SpellDisplay.aspx?ItemName=Passwall"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passwall", path = "json/spells7.json" },

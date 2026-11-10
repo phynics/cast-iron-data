@@ -2,6 +2,7 @@
 id = "ref/spell/stone-fist"
 kind = "spell"
 title = "Stone Fist"
+aon = "SpellDisplay.aspx?ItemName=Stone%20Fist"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_fist", path = "json/spells9.json" },

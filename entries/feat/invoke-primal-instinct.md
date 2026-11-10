@@ -2,6 +2,7 @@
 id = "ref/feat/invoke-primal-instinct"
 kind = "feat"
 title = "Invoke Primal Instinct"
+aon = "FeatDisplay.aspx?ItemName=Invoke%20Primal%20Instinct"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invoke_primal_instinct", path = "json/feat09.json" },

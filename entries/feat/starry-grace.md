@@ -2,6 +2,7 @@
 id = "ref/feat/starry-grace"
 kind = "feat"
 title = "Starry Grace"
+aon = "FeatDisplay.aspx?ItemName=Starry%20Grace"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starry_grace", path = "json/feat15.json" },

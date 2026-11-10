@@ -2,6 +2,7 @@
 id = "ref/feat/mothers-gift"
 kind = "feat"
 title = "Mother's Gift"
+aon = "FeatDisplay.aspx?ItemName=Mother%27s%20Gift"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mothers_gift", path = "json/feat11.json" },

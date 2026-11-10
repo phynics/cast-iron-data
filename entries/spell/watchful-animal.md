@@ -2,6 +2,7 @@
 id = "ref/spell/watchful-animal"
 kind = "spell"
 title = "Watchful Animal"
+aon = "SpellDisplay.aspx?ItemName=Watchful%20Animal"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_animal", path = "json/spells11.json" },

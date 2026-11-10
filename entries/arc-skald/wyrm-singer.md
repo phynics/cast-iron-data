@@ -2,6 +2,7 @@
 id = "ref/arc-skald/wyrm-singer"
 kind = "archetype"
 title = "Wyrm Singer"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Wyrm%20Singer"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrm_singer", path = "json/archetypes_skald.json" },

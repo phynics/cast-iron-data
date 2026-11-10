@@ -2,6 +2,7 @@
 id = "ref/trait/beastkin"
 kind = "trait"
 title = "Beastkin"
+aon = "TraitDisplay.aspx?ItemName=Beastkin"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastkin", path = "json/traits01.json" },

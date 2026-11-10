@@ -2,6 +2,7 @@
 id = "ref/monster/pest-drake-swarm"
 kind = "creature"
 title = "Pest Drake Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Pest%20Drake%20Swarm"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pest_drake_swarm", path = "json/monsters36.json" },

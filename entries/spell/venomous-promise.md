@@ -2,6 +2,7 @@
 id = "ref/spell/venomous-promise"
 kind = "spell"
 title = "Venomous Promise"
+aon = "SpellDisplay.aspx?ItemName=Venomous%20Promise"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomous_promise", path = "json/spells11.json" },

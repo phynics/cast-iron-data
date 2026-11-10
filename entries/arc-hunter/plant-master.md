@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/plant-master"
 kind = "archetype"
 title = "Plant Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Plant%20Master"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant_master", path = "json/archetypes_hunter.json" },

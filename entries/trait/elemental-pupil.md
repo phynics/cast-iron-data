@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-pupil"
 kind = "trait"
 title = "Elemental Pupil"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Pupil"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_pupil", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/okayo-corsair"
 kind = "archetype"
 title = "Okayo Corsair"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Okayo%20Corsair"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "okayo_corsair", path = "json/archetypes_swashbuckler.json" },

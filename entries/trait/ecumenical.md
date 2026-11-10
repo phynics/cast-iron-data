@@ -2,6 +2,7 @@
 id = "ref/trait/ecumenical"
 kind = "trait"
 title = "Ecumenical"
+aon = "TraitDisplay.aspx?ItemName=Ecumenical"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ecumenical", path = "json/traits01.json" },

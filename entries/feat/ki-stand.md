@@ -2,6 +2,7 @@
 id = "ref/feat/ki-stand"
 kind = "feat"
 title = "Ki Stand"
+aon = "FeatDisplay.aspx?ItemName=Ki%20Stand"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_stand", path = "json/feat09.json" },

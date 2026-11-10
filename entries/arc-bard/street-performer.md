@@ -2,6 +2,7 @@
 id = "ref/arc-bard/street-performer"
 kind = "archetype"
 title = "Street Performer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Street%20Performer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_performer", path = "json/archetypes_bard2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/spellcasting-contract"
 kind = "spell"
 title = "Spellcasting Contract"
+aon = "SpellDisplay.aspx?ItemName=Spellcasting%20Contract"
 source_ids = ["pathfinder-29-mother-of-flies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcasting_contract", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/leashed-shackles"
 kind = "spell"
 title = "Leashed Shackles"
+aon = "SpellDisplay.aspx?ItemName=Leashed%20Shackles"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leashed_shackles", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/focused-disbelief"
 kind = "feat"
 title = "Focused Disbelief"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Disbelief"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_disbelief", path = "json/feat07.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/serpentine-squeeze"
 kind = "trait"
 title = "Serpentine Squeeze"
+aon = "TraitDisplay.aspx?ItemName=Serpentine%20Squeeze"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serpentine_squeeze", path = "json/traits03.json" },

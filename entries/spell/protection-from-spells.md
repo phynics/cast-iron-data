@@ -2,6 +2,7 @@
 id = "ref/spell/protection-from-spells"
 kind = "spell"
 title = "Protection from Spells"
+aon = "SpellDisplay.aspx?ItemName=Protection%20from%20Spells"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection_from_spells", path = "json/spells15.json" },

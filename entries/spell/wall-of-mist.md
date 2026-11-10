@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-mist"
 kind = "spell"
 title = "Wall of Mist"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Mist"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_mist", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/garuda"
 kind = "creature"
 title = "Garuda"
+aon = "MonsterDisplay.aspx?ItemName=Garuda"
 source_ids = ["bestiary-3", "cult-of-the-ebon-destroyers"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garuda", path = "json/monsters11.json" },

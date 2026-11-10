@@ -2,6 +2,7 @@
 id = "ref/trait/dockside-avenger"
 kind = "trait"
 title = "Dockside Avenger"
+aon = "TraitDisplay.aspx?ItemName=Dockside%20Avenger"
 source_ids = ["varisia-birthplace-of-legends", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dockside_avenger", path = "json/traits02.json" },

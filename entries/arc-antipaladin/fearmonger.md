@@ -2,6 +2,7 @@
 id = "ref/arc-antipaladin/fearmonger"
 kind = "archetype"
 title = "Fearmonger"
+aon = "ArchetypeDisplay.aspx?FixedName=Antipaladin%20Fearmonger"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fearmonger", path = "json/archetypes_antipaladin.json" },

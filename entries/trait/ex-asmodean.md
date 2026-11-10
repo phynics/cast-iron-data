@@ -2,6 +2,7 @@
 id = "ref/trait/ex-asmodean"
 kind = "trait"
 title = "Ex-Asmodean"
+aon = "TraitDisplay.aspx?ItemName=Ex-Asmodean"
 source_ids = ["hells-rebels-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ex_asmodean", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/inspiring-talent"
 kind = "feat"
 title = "Inspiring Talent"
+aon = "FeatDisplay.aspx?ItemName=Inspiring%20Talent"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiring_talent", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/auditory-hallucination"
 kind = "spell"
 title = "Auditory Hallucination"
+aon = "SpellDisplay.aspx?ItemName=Auditory%20Hallucination"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auditory_hallucination", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/guardian-monument-greater"
 kind = "spell"
 title = "Greater Guardian Monument"
+aon = "SpellDisplay.aspx?ItemName=Guardian%20Monument%2C%20Greater"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_monument_greater", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/mantella"
 kind = "archetype"
 title = "Mantella"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Mantella"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantella", path = "json/archetypes_druid.json" },

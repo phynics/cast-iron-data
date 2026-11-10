@@ -2,6 +2,7 @@
 id = "ref/trait/dragon-pact"
 kind = "trait"
 title = "Dragon Pact"
+aon = "TraitDisplay.aspx?ItemName=Dragon%20Pact"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_pact", path = "json/traits01.json" },

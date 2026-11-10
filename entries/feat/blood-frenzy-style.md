@@ -2,6 +2,7 @@
 id = "ref/feat/blood-frenzy-style"
 kind = "feat"
 title = "Blood Frenzy Style"
+aon = "FeatDisplay.aspx?ItemName=Blood%20Frenzy%20Style"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_frenzy_style", path = "json/feat02.json" },

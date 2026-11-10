@@ -2,6 +2,7 @@
 id = "ref/monster/gloomwasp"
 kind = "creature"
 title = "Gloomwasp"
+aon = "MonsterDisplay.aspx?ItemName=Gloomwasp"
 source_ids = ["down-the-blighted-path"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomwasp", path = "json/monsters12.json" },

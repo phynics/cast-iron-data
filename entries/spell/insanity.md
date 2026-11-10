@@ -2,6 +2,7 @@
 id = "ref/spell/insanity"
 kind = "spell"
 title = "Insanity"
+aon = "SpellDisplay.aspx?ItemName=Insanity"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insanity", path = "json/spells14.json" },

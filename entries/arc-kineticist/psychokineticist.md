@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/psychokineticist"
 kind = "archetype"
 title = "Psychokineticist"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Psychokineticist"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychokineticist", path = "json/archetypes_kineticist.json" },

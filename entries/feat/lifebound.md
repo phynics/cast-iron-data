@@ -2,6 +2,7 @@
 id = "ref/feat/lifebound"
 kind = "feat"
 title = "Lifebound"
+aon = "FeatDisplay.aspx?ItemName=Lifebound"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lifebound", path = "json/feat10.json" },

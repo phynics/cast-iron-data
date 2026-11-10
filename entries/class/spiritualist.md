@@ -2,6 +2,7 @@
 id = "ref/class/spiritualist"
 kind = "class"
 title = "Spiritualist"
+aon = "ClassDisplay.aspx?ItemName=Spiritualist"
 source_ids = ["occult-adventures", "advanced-players-guide", "chronicle-of-legends", "plane-hoppers-handbook", "horror-adventures", "blood-of-the-beast", "blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritualist", path = "json/classes4.json" },

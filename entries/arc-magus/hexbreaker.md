@@ -2,6 +2,7 @@
 id = "ref/arc-magus/hexbreaker"
 kind = "archetype"
 title = "Hexbreaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Hexbreaker"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hexbreaker", path = "json/archetypes_magus.json" },

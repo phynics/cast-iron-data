@@ -2,6 +2,7 @@
 id = "ref/trait/rider-of-paresh"
 kind = "trait"
 title = "Rider of Paresh"
+aon = "TraitDisplay.aspx?ItemName=Rider%20of%20Paresh"
 source_ids = ["inner-sea-primer", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rider_of_paresh", path = "json/traits04.json" },

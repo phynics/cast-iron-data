@@ -2,6 +2,7 @@
 id = "ref/feat/seeking-spell"
 kind = "feat"
 title = "Seeking Spell"
+aon = "FeatDisplay.aspx?ItemName=Seeking%20Spell"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeking_spell", path = "json/feat13.json" },

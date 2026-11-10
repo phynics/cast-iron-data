@@ -2,6 +2,7 @@
 id = "ref/magic-staff/monstrification-staff"
 kind = "item"
 title = "Monstrification Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Monstrification%20Staff"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrification_staff", path = "json/magic_staff.json" },

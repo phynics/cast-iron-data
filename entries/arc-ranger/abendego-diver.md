@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/abendego-diver"
 kind = "archetype"
 title = "Abendego Diver"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Abendego%20Diver"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abendego_diver", path = "json/archetypes_ranger.json" },

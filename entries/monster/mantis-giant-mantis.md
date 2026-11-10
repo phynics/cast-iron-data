@@ -2,6 +2,7 @@
 id = "ref/monster/mantis-giant-mantis"
 kind = "creature"
 title = "Giant Mantis"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Mantis"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mantis_giant_mantis", path = "json/monsters16.json" },

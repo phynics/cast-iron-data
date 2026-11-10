@@ -2,6 +2,7 @@
 id = "ref/arc-bard/phrenologist"
 kind = "archetype"
 title = "Phrenologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Phrenologist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phrenologist", path = "json/archetypes_bard2.json" },

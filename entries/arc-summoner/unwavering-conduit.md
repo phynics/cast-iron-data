@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/unwavering-conduit"
 kind = "archetype"
 title = "Unwavering Conduit"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Unwavering%20Conduit"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwavering_conduit", path = "json/archetypes_summoner.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/cannibal-ring"
 kind = "item"
 title = "Cannibal Ring"
+aon = "MagicCursedDisplay.aspx?ItemName=Cannibal%20Ring"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cannibal_ring", path = "json/magic_ring.json" },

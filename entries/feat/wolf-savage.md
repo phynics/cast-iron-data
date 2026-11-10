@@ -2,6 +2,7 @@
 id = "ref/feat/wolf-savage"
 kind = "feat"
 title = "Wolf Savage"
+aon = "FeatDisplay.aspx?ItemName=Wolf%20Savage"
 source_ids = ["ultimate-wilderness", "blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_savage", path = "json/feat17.json" },

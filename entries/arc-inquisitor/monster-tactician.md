@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/monster-tactician"
 kind = "archetype"
 title = "Monster Tactician"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Monster%20Tactician"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_tactician", path = "json/archetypes_inquisitor.json" },

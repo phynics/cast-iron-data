@@ -2,6 +2,7 @@
 id = "ref/feat/sizzling-shot"
 kind = "feat"
 title = "Sizzling Shot"
+aon = "FeatDisplay.aspx?ItemName=Sizzling%20Shot"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sizzling_shot", path = "json/feat14.json" },

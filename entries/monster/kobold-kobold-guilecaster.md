@@ -2,6 +2,7 @@
 id = "ref/monster/kobold-kobold-guilecaster"
 kind = "creature"
 title = "Kobold Guilecaster"
+aon = "MonsterDisplay.aspx?ItemName=Kobold%20Guilecaster"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_kobold_guilecaster", path = "json/monsters15.json" },

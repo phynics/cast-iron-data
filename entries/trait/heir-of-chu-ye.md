@@ -2,6 +2,7 @@
 id = "ref/trait/heir-of-chu-ye"
 kind = "trait"
 title = "Heir of Chu Ye"
+aon = "TraitDisplay.aspx?ItemName=Heir%20of%20Chu%20Ye"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heir_of_chu_ye", path = "json/traits04.json" },

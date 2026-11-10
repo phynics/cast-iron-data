@@ -2,6 +2,7 @@
 id = "ref/feat/bonded-mind"
 kind = "feat"
 title = "Bonded Mind"
+aon = "FeatDisplay.aspx?ItemName=Bonded%20Mind"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonded_mind", path = "json/feat02.json" },

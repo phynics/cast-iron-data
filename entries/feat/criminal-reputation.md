@@ -2,6 +2,7 @@
 id = "ref/feat/criminal-reputation"
 kind = "feat"
 title = "Criminal Reputation"
+aon = "FeatDisplay.aspx?ItemName=Criminal%20Reputation"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "criminal_reputation", path = "json/feat03.json" },

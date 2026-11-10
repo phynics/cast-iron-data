@@ -2,6 +2,7 @@
 id = "ref/feat/augment-calling"
 kind = "feat"
 title = "Augment Calling"
+aon = "FeatDisplay.aspx?ItemName=Augment%20Calling"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "augment_calling", path = "json/feat01.json" },

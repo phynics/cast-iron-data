@@ -2,6 +2,7 @@
 id = "ref/monster/merlucent"
 kind = "creature"
 title = "Merlucent"
+aon = "MonsterDisplay.aspx?ItemName=Merlucent"
 source_ids = ["pathfinder-104-wrath-of-thrune"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merlucent", path = "json/monsters35.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/superstitious-kellid"
 kind = "trait"
 title = "Superstitious (Kellid)"
+aon = "TraitDisplay.aspx?ItemName=Superstitious%20%28Kellid%29"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "superstitious_kellid", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/famine-tolerance"
 kind = "feat"
 title = "Famine Tolerance"
+aon = "FeatDisplay.aspx?ItemName=Famine%20Tolerance"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "famine_tolerance", path = "json/feat06.json" },

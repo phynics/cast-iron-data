@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/venomfist"
 kind = "archetype"
 title = "Venomfist"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Venomfist"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomfist", path = "json/archetypes_brawler.json" },

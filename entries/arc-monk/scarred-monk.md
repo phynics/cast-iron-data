@@ -2,6 +2,7 @@
 id = "ref/arc-monk/scarred-monk"
 kind = "archetype"
 title = "Scarred Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Scarred%20Monk"
 source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_monk", path = "json/archetypes_monk2.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/green-faith-acolyte"
 kind = "feat"
 title = "Green Faith Acolyte"
+aon = "FeatDisplay.aspx?ItemName=Green%20Faith%20Acolyte"
 source_ids = ["inner-sea-world-guide", "guide-to-darkmoon-vale", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith_acolyte", path = "json/feat08.json" },

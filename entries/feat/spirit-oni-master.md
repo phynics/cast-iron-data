@@ -2,6 +2,7 @@
 id = "ref/feat/spirit-oni-master"
 kind = "feat"
 title = "Spirit Oni Master"
+aon = "FeatDisplay.aspx?ItemName=Spirit%20Oni%20Master"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_oni_master", path = "json/feat15.json" },

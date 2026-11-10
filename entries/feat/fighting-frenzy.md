@@ -2,6 +2,7 @@
 id = "ref/feat/fighting-frenzy"
 kind = "feat"
 title = "Fighting Frenzy"
+aon = "FeatDisplay.aspx?ItemName=Fighting%20Frenzy"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fighting_frenzy", path = "json/feat07.json" },

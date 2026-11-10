@@ -2,6 +2,7 @@
 id = "ref/trait/cutting-condescension"
 kind = "trait"
 title = "Cutting Condescension"
+aon = "TraitDisplay.aspx?ItemName=Cutting%20Condescension"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cutting_condescension", path = "json/traits01.json" },

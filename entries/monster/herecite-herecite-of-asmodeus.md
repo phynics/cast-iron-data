@@ -2,6 +2,7 @@
 id = "ref/monster/herecite-herecite-of-asmodeus"
 kind = "creature"
 title = "Herecite of Asmodeus"
+aon = "MonsterDisplay.aspx?ItemName=Herecite%20of%20Asmodeus"
 source_ids = ["pathfinder-100-a-song-of-silver", "bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herecite_herecite_of_asmodeus", path = "json/monsters13.json" },

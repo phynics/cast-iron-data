@@ -2,6 +2,7 @@
 id = "ref/monster/deadfall-dweller"
 kind = "creature"
 title = "Deadfall Dweller"
+aon = "MonsterDisplay.aspx?ItemName=Deadfall%20Dweller"
 source_ids = ["tears-at-bitter-manor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadfall_dweller", path = "json/monsters08.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/friendly-face"
 kind = "feat"
 title = "Friendly Face"
+aon = "FeatDisplay.aspx?ItemName=Friendly%20Face"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friendly_face", path = "json/feat07.json" },

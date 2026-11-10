@@ -2,6 +2,7 @@
 id = "ref/spell/secret-sign"
 kind = "spell"
 title = "Secret Sign"
+aon = "SpellDisplay.aspx?ItemName=Secret%20Sign"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_sign", path = "json/spells15.json" },

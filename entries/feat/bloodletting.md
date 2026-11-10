@@ -2,6 +2,7 @@
 id = "ref/feat/bloodletting"
 kind = "feat"
 title = "Bloodletting"
+aon = "FeatDisplay.aspx?ItemName=Bloodletting"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodletting", path = "json/feat02.json" },

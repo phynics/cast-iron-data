@@ -2,6 +2,7 @@
 id = "ref/trait/viking-blood"
 kind = "trait"
 title = "Viking Blood"
+aon = "TraitDisplay.aspx?ItemName=Viking%20Blood"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "viking_blood", path = "json/traits04.json" },

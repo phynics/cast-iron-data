@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-body-4"
 kind = "spell"
 title = "Elemental Body IV"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Body%20IV"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_body_4", path = "json/spells4.json" },

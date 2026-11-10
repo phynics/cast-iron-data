@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-secrets"
 kind = "spell"
 title = "Cloak of Secrets"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Secrets"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_secrets", path = "json/spells2.json" },

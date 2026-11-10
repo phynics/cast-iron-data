@@ -2,6 +2,7 @@
 id = "ref/trait/wind-carried-voices"
 kind = "trait"
 title = "Wind-Carried Voices"
+aon = "TraitDisplay.aspx?ItemName=Wind-Carried%20Voices"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_carried_voices", path = "json/traits05.json" },

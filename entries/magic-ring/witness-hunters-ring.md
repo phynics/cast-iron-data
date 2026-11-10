@@ -2,6 +2,7 @@
 id = "ref/magic-ring/witness-hunters-ring"
 kind = "item"
 title = "Witness Hunter's Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Witness%20Hunter%27s%20Ring"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witness_hunters_ring", path = "json/magic_ring.json" },

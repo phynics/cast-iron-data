@@ -2,6 +2,7 @@
 id = "ref/feat/claw-wrench"
 kind = "feat"
 title = "Claw Wrench"
+aon = "FeatDisplay.aspx?ItemName=Claw%20Wrench"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claw_wrench", path = "json/feat03.json" },

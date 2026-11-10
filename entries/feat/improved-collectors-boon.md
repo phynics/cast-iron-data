@@ -2,6 +2,7 @@
 id = "ref/feat/improved-collectors-boon"
 kind = "feat"
 title = "Improved Collector's Boon"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Collector%27s%20Boon"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_collectors_boon", path = "json/feat08.json" },

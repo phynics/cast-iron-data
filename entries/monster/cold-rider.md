@@ -2,6 +2,7 @@
 id = "ref/monster/cold-rider"
 kind = "creature"
 title = "Cold Rider"
+aon = "MonsterDisplay.aspx?ItemName=Cold%20Rider"
 source_ids = ["bestiary-3", "carnival-of-tears"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cold_rider", path = "json/monsters28.json" },

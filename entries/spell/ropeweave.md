@@ -2,6 +2,7 @@
 id = "ref/spell/ropeweave"
 kind = "spell"
 title = "Ropeweave"
+aon = "SpellDisplay.aspx?ItemName=Ropeweave"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ropeweave", path = "json/spells8.json" },

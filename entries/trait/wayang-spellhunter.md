@@ -2,6 +2,7 @@
 id = "ref/trait/wayang-spellhunter"
 kind = "trait"
 title = "Wayang Spellhunter"
+aon = "TraitDisplay.aspx?ItemName=Wayang%20Spellhunter"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang_spellhunter", path = "json/traits04.json" },

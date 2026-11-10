@@ -2,6 +2,7 @@
 id = "ref/feat/lantern-light"
 kind = "feat"
 title = "Lantern Light"
+aon = "FeatDisplay.aspx?ItemName=Lantern%20Light"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_light", path = "json/feat10.json" },

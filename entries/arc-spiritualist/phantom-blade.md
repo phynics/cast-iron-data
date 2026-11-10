@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/phantom-blade"
 kind = "archetype"
 title = "Phantom Blade"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Phantom%20Blade"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_blade", path = "json/archetypes_spiritualist.json" },

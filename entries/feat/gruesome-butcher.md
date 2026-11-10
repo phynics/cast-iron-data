@@ -2,6 +2,7 @@
 id = "ref/feat/gruesome-butcher"
 kind = "feat"
 title = "Gruesome Butcher"
+aon = "FeatDisplay.aspx?ItemName=Gruesome%20Butcher"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gruesome_butcher", path = "json/feat08.json" },

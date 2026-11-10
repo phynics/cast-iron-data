@@ -2,6 +2,7 @@
 id = "ref/trait/intrigued-by-thassilon"
 kind = "trait"
 title = "Intrigued by Thassilon"
+aon = "TraitDisplay.aspx?ItemName=Intrigued%20by%20Thassilon"
 source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intrigued_by_thassilon", path = "json/traits02.json" },

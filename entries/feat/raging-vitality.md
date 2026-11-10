@@ -2,6 +2,7 @@
 id = "ref/feat/raging-vitality"
 kind = "feat"
 title = "Raging Vitality"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Vitality"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_vitality", path = "json/feat13.json" },

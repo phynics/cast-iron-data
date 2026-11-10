@@ -2,6 +2,7 @@
 id = "ref/spell/allfood"
 kind = "spell"
 title = "Allfood"
+aon = "SpellDisplay.aspx?ItemName=Allfood"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allfood", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/shadowy-dash"
 kind = "feat"
 title = "Shadowy Dash"
+aon = "FeatDisplay.aspx?ItemName=Shadowy%20Dash"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowy_dash", path = "json/feat14.json" },

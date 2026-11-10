@@ -2,6 +2,7 @@
 id = "ref/spell/summon-vanth"
 kind = "spell"
 title = "Summon Vanth"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Vanth"
 source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_vanth", path = "json/spells16.json" },

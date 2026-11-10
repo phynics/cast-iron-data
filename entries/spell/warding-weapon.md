@@ -2,6 +2,7 @@
 id = "ref/spell/warding-weapon"
 kind = "spell"
 title = "Warding Weapon"
+aon = "SpellDisplay.aspx?ItemName=Warding%20Weapon"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warding_weapon", path = "json/spells11.json" },

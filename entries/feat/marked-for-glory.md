@@ -2,6 +2,7 @@
 id = "ref/feat/marked-for-glory"
 kind = "feat"
 title = "Marked for Glory"
+aon = "FeatDisplay.aspx?ItemName=Marked%20for%20Glory"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marked_for_glory", path = "json/feat10.json" },

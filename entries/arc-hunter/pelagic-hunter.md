@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/pelagic-hunter"
 kind = "archetype"
 title = "Pelagic Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Pelagic%20Hunter"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pelagic_hunter", path = "json/archetypes_hunter.json" },

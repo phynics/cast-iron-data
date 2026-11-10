@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/perfumer"
 kind = "archetype"
 title = "Perfumer"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Perfumer"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfumer", path = "json/archetypes_alchemist2.json" },

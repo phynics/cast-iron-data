@@ -2,6 +2,7 @@
 id = "ref/trait/the-flexing-arm"
 kind = "trait"
 title = "The Flexing Arm"
+aon = "TraitDisplay.aspx?ItemName=The%20Flexing%20Arm"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_flexing_arm", path = "json/traits03.json" },

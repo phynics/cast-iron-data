@@ -2,6 +2,7 @@
 id = "ref/monster/demodand-shaggy-demodand"
 kind = "creature"
 title = "Shaggy Demodand"
+aon = "MonsterDisplay.aspx?ItemName=Shaggy%20Demodand"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demodand_shaggy_demodand", path = "json/monsters29.json" },

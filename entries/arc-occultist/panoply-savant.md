@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/panoply-savant"
 kind = "archetype"
 title = "Panoply Savant"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Panoply%20Savant"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "panoply_savant", path = "json/archetypes_occultist.json" },

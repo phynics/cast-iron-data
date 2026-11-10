@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/reckless-epicurean"
 kind = "archetype"
 title = "Reckless Epicurean"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Reckless%20Epicurean"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_epicurean", path = "json/archetypes_investigator.json" },

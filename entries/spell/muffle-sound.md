@@ -2,6 +2,7 @@
 id = "ref/spell/muffle-sound"
 kind = "spell"
 title = "Muffle Sound"
+aon = "SpellDisplay.aspx?ItemName=Muffle%20Sound"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muffle_sound", path = "json/spells7.json" },

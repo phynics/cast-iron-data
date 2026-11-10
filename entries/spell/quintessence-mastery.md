@@ -2,6 +2,7 @@
 id = "ref/spell/quintessence-mastery"
 kind = "spell"
 title = "Quintessence Mastery"
+aon = "SpellDisplay.aspx?ItemName=Quintessence%20Mastery"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quintessence_mastery", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/body-control"
 kind = "feat"
 title = "Body Control"
+aon = "FeatDisplay.aspx?ItemName=Body%20Control"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "body_control", path = "json/feat02.json" },

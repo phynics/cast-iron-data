@@ -2,6 +2,7 @@
 id = "ref/arc-druid/restorer"
 kind = "archetype"
 title = "Restorer"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Restorer"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "restorer", path = "json/archetypes_druid2.json" },

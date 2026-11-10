@@ -2,6 +2,7 @@
 id = "ref/spell/first-world-revisions"
 kind = "spell"
 title = "First World Revisions"
+aon = "SpellDisplay.aspx?ItemName=First%20World%20Revisions"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_world_revisions", path = "json/spells4.json" },

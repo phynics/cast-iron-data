@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/community-guardian"
 kind = "archetype"
 title = "Community Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Community%20Guardian"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "community_guardian", path = "json/archetypes_oracle.json" },

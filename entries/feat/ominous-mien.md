@@ -2,6 +2,7 @@
 id = "ref/feat/ominous-mien"
 kind = "feat"
 title = "Ominous Mien"
+aon = "FeatDisplay.aspx?ItemName=Ominous%20Mien"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ominous_mien", path = "json/feat11.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/devilfish-diver"
 kind = "trait"
 title = "Devilfish Diver"
+aon = "TraitDisplay.aspx?ItemName=Devilfish%20Diver"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devilfish_diver", path = "json/traits04.json" },

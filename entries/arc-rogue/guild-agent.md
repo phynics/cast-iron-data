@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/guild-agent"
 kind = "archetype"
 title = "Guild Agent"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Guild%20Agent"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guild_agent", path = "json/archetypes_rogue.json" },

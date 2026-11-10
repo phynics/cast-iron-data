@@ -2,6 +2,7 @@
 id = "ref/spell/cure-critical-wounds"
 kind = "spell"
 title = "Cure Critical Wounds"
+aon = "SpellDisplay.aspx?ItemName=Cure%20Critical%20Wounds"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_critical_wounds", path = "json/spells3.json" },

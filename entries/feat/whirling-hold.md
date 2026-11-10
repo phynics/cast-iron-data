@@ -2,6 +2,7 @@
 id = "ref/feat/whirling-hold"
 kind = "feat"
 title = "Whirling Hold"
+aon = "FeatDisplay.aspx?ItemName=Whirling%20Hold"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirling_hold", path = "json/feat17.json" },

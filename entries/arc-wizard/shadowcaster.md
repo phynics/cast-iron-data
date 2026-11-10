@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/shadowcaster"
 kind = "archetype"
 title = "Shadowcaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Shadowcaster"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowcaster", path = "json/archetypes_wizard.json" },

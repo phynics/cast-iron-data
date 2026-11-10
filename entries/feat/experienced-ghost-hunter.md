@@ -2,6 +2,7 @@
 id = "ref/feat/experienced-ghost-hunter"
 kind = "feat"
 title = "Experienced Ghost Hunter"
+aon = "FeatDisplay.aspx?ItemName=Experienced%20Ghost%20Hunter"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "experienced_ghost_hunter", path = "json/feat06.json" },

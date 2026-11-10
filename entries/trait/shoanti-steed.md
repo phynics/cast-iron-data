@@ -2,6 +2,7 @@
 id = "ref/trait/shoanti-steed"
 kind = "trait"
 title = "Shoanti Steed"
+aon = "TraitDisplay.aspx?ItemName=Shoanti%20Steed"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shoanti_steed", path = "json/traits05.json" },

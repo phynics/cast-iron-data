@@ -2,6 +2,7 @@
 id = "ref/spell/animate-dead"
 kind = "spell"
 title = "Animate Dead"
+aon = "SpellDisplay.aspx?ItemName=Animate%20Dead"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animate_dead", path = "json/spells.json" },

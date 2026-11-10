@@ -2,6 +2,7 @@
 id = "ref/monster/tauhoti"
 kind = "creature"
 title = "Tauhoti"
+aon = "MonsterDisplay.aspx?ItemName=Tauhoti"
 source_ids = ["druma-profit-and-prophecy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tauhoti", path = "json/monsters23.json" },

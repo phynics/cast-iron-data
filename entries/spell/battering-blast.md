@@ -2,6 +2,7 @@
 id = "ref/spell/battering-blast"
 kind = "spell"
 title = "Battering Blast"
+aon = "SpellDisplay.aspx?ItemName=Battering%20Blast"
 source_ids = ["dungeons-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battering_blast", path = "json/spells12.json" },

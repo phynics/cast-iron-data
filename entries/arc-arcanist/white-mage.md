@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/white-mage"
 kind = "archetype"
 title = "White Mage"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20White%20Mage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "white_mage", path = "json/archetypes_arcanist.json" },

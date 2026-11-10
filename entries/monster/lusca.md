@@ -2,6 +2,7 @@
 id = "ref/monster/lusca"
 kind = "creature"
 title = "Lusca"
+aon = "MonsterDisplay.aspx?ItemName=Lusca"
 source_ids = ["bestiary-5", "isles-of-the-shackles"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lusca", path = "json/monsters16.json" },

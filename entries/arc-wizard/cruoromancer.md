@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/cruoromancer"
 kind = "archetype"
 title = "Cruoromancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Cruoromancer"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cruoromancer", path = "json/archetypes_wizard.json" },

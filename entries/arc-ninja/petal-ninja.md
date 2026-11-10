@@ -2,6 +2,7 @@
 id = "ref/arc-ninja/petal-ninja"
 kind = "archetype"
 title = "Petal Ninja"
+aon = "ArchetypeDisplay.aspx?FixedName=Ninja%20Petal%20Ninja"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "petal_ninja", path = "json/archetypes_ninja.json" },

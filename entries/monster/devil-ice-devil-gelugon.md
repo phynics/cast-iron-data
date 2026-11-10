@@ -2,6 +2,7 @@
 id = "ref/monster/devil-ice-devil-gelugon"
 kind = "creature"
 title = "Ice Devil (Gelugon)"
+aon = "MonsterDisplay.aspx?ItemName=Ice%20Devil%20%28Gelugon%29"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_ice_devil_gelugon", path = "json/monsters07.json" },

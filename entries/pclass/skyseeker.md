@@ -2,6 +2,7 @@
 id = "ref/pclass/skyseeker"
 kind = "prestige_class"
 title = "Skyseeker"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Skyseeker"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skyseeker", path = "json/prestige_classes3.json" },

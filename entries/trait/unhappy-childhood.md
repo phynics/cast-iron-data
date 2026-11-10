@@ -2,6 +2,7 @@
 id = "ref/trait/unhappy-childhood"
 kind = "trait"
 title = "Unhappy Childhood"
+aon = "TraitDisplay.aspx?ItemName=Unhappy%20Childhood"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhappy_childhood", path = "json/traits02.json" },

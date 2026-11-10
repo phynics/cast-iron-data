@@ -2,6 +2,7 @@
 id = "ref/arc-monk/hellcat"
 kind = "archetype"
 title = "Hellcat"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Hellcat"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellcat", path = "json/archetypes_monk.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/allegro"
 kind = "spell"
 title = "Allegro"
+aon = "SpellDisplay.aspx?ItemName=Allegro"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "allegro", path = "json/spells.json" },

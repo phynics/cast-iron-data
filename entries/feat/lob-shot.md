@@ -2,6 +2,7 @@
 id = "ref/feat/lob-shot"
 kind = "feat"
 title = "Lob Shot"
+aon = "FeatDisplay.aspx?ItemName=Lob%20Shot"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lob_shot", path = "json/feat10.json" },

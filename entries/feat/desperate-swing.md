@@ -2,6 +2,7 @@
 id = "ref/feat/desperate-swing"
 kind = "feat"
 title = "Desperate Swing"
+aon = "FeatDisplay.aspx?ItemName=Desperate%20Swing"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_swing", path = "json/feat04.json" },

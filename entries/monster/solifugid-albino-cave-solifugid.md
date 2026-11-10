@@ -2,6 +2,7 @@
 id = "ref/monster/solifugid-albino-cave-solifugid"
 kind = "creature"
 title = "Albino Cave Solifugid"
+aon = "MonsterDisplay.aspx?ItemName=Albino%20Cave%20Solifugid"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "solifugid_albino_cave_solifugid", path = "json/monsters22.json" },

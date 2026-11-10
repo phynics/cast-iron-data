@@ -2,6 +2,7 @@
 id = "ref/trait/deep-guardian"
 kind = "trait"
 title = "Deep Guardian"
+aon = "TraitDisplay.aspx?ItemName=Deep%20Guardian"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deep_guardian", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/naga-shape-1"
 kind = "spell"
 title = "Naga Shape I"
+aon = "SpellDisplay.aspx?ItemName=Naga%20Shape%20I"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_shape_1", path = "json/spells7.json" },

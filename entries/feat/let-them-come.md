@@ -2,6 +2,7 @@
 id = "ref/feat/let-them-come"
 kind = "feat"
 title = "Let Them Come"
+aon = "FeatDisplay.aspx?ItemName=Let%20Them%20Come"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "let_them_come", path = "json/feat10.json" },

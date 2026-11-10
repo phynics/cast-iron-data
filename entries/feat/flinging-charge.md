@@ -2,6 +2,7 @@
 id = "ref/feat/flinging-charge"
 kind = "feat"
 title = "Flinging Charge"
+aon = "FeatDisplay.aspx?ItemName=Flinging%20Charge"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flinging_charge", path = "json/feat07.json" },

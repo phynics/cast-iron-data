@@ -2,6 +2,7 @@
 id = "ref/spell/stalwart-resolve"
 kind = "spell"
 title = "Stalwart Resolve"
+aon = "SpellDisplay.aspx?ItemName=Stalwart%20Resolve"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stalwart_resolve", path = "json/spells9.json" },

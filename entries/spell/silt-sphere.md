@@ -2,6 +2,7 @@
 id = "ref/spell/silt-sphere"
 kind = "spell"
 title = "Silt Sphere"
+aon = "SpellDisplay.aspx?ItemName=Silt%20Sphere"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silt_sphere", path = "json/spells9.json" },

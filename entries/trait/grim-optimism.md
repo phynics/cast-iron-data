@@ -2,6 +2,7 @@
 id = "ref/trait/grim-optimism"
 kind = "trait"
 title = "Grim Optimism"
+aon = "TraitDisplay.aspx?ItemName=Grim%20Optimism"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grim_optimism", path = "json/traits01.json" },

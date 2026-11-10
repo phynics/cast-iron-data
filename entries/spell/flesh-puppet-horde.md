@@ -2,6 +2,7 @@
 id = "ref/spell/flesh-puppet-horde"
 kind = "spell"
 title = "Flesh Puppet Horde"
+aon = "SpellDisplay.aspx?ItemName=Flesh%20Puppet%20Horde"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flesh_puppet_horde", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-rod/rod-of-foiled-magic"
 kind = "item"
 title = "Rod of Foiled Magic"
+aon = "MagicCursedDisplay.aspx?ItemName=Rod%20of%20Foiled%20Magic"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rod_of_foiled_magic", path = "json/magic_rod.json" },

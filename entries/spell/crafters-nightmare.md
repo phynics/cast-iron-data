@@ -2,6 +2,7 @@
 id = "ref/spell/crafters-nightmare"
 kind = "spell"
 title = "Crafter's Nightmare"
+aon = "SpellDisplay.aspx?ItemName=Crafter%27s%20Nightmare"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crafters_nightmare", path = "json/spells12.json" },

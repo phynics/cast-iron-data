@@ -2,6 +2,7 @@
 id = "ref/spell/fleshcurdle"
 kind = "spell"
 title = "Fleshcurdle"
+aon = "SpellDisplay.aspx?ItemName=Fleshcurdle"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fleshcurdle", path = "json/spells4.json" },

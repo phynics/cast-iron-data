@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/brutish-swamper"
 kind = "archetype"
 title = "Brutish Swamper"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Brutish%20Swamper"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brutish_swamper", path = "json/archetypes_barbarian.json" },

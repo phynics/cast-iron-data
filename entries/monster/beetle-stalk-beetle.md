@@ -2,6 +2,7 @@
 id = "ref/monster/beetle-stalk-beetle"
 kind = "creature"
 title = "Stalk Beetle"
+aon = "MonsterDisplay.aspx?ItemName=Stalk%20Beetle"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_stalk_beetle", path = "json/monsters03.json" },

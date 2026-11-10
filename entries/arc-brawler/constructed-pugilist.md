@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/constructed-pugilist"
 kind = "archetype"
 title = "Constructed Pugilist"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Constructed%20Pugilist"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "constructed_pugilist", path = "json/archetypes_brawler.json" },

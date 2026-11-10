@@ -2,6 +2,7 @@
 id = "ref/trait/good-influence"
 kind = "trait"
 title = "Good Influence"
+aon = "TraitDisplay.aspx?ItemName=Good%20Influence"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_influence", path = "json/traits05.json" },

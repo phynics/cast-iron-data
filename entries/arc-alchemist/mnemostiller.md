@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/mnemostiller"
 kind = "archetype"
 title = "Mnemostiller"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Mnemostiller"
 source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mnemostiller", path = "json/archetypes_alchemist2.json" },

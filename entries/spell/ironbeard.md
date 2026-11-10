@@ -2,6 +2,7 @@
 id = "ref/spell/ironbeard"
 kind = "spell"
 title = "Ironbeard"
+aon = "SpellDisplay.aspx?ItemName=Ironbeard"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironbeard", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/toppling-spell"
 kind = "feat"
 title = "Toppling Spell"
+aon = "FeatDisplay.aspx?ItemName=Toppling%20Spell"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toppling_spell", path = "json/feat16.json" },

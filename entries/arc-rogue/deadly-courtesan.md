@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/deadly-courtesan"
 kind = "archetype"
 title = "Deadly Courtesan"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Deadly%20Courtesan"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_courtesan", path = "json/archetypes_rogue.json" },

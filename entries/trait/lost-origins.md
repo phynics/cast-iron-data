@@ -2,6 +2,7 @@
 id = "ref/trait/lost-origins"
 kind = "trait"
 title = "Lost Origins"
+aon = "TraitDisplay.aspx?ItemName=Lost%20Origins"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lost_origins", path = "json/traits04.json" },

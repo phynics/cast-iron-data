@@ -2,6 +2,7 @@
 id = "ref/spell/stave-off-corruption"
 kind = "spell"
 title = "Stave Off Corruption"
+aon = "SpellDisplay.aspx?ItemName=Stave%20Off%20Corruption"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stave_off_corruption", path = "json/spells9.json" },

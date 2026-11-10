@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/geomancer"
 kind = "archetype"
 title = "Geomancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Geomancer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "geomancer", path = "json/archetypes_occultist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/natures-exile"
 kind = "spell"
 title = "Nature's Exile"
+aon = "SpellDisplay.aspx?ItemName=Nature%27s%20Exile"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "natures_exile", path = "json/spells7.json" },

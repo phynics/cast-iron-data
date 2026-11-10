@@ -2,6 +2,7 @@
 id = "ref/feat/our-bounty-our-glory"
 kind = "feat"
 title = "Our Bounty, Our Glory"
+aon = "FeatDisplay.aspx?ItemName=Our%20Bounty%2C%20Our%20Glory"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "our_bounty_our_glory", path = "json/feat11.json" },

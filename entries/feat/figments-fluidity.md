@@ -2,6 +2,7 @@
 id = "ref/feat/figments-fluidity"
 kind = "feat"
 title = "Figment's Fluidity"
+aon = "FeatDisplay.aspx?ItemName=Figment%27s%20Fluidity"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "figments_fluidity", path = "json/feat07.json" },

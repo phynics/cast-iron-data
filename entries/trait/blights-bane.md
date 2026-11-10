@@ -2,6 +2,7 @@
 id = "ref/trait/blights-bane"
 kind = "trait"
 title = "Blight's Bane"
+aon = "TraitDisplay.aspx?ItemName=Blight%27s%20Bane"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blights_bane", path = "json/traits01.json" },

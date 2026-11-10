@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/elemental-ascetic"
 kind = "archetype"
 title = "Elemental Ascetic"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Elemental%20Ascetic"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_ascetic", path = "json/archetypes_kineticist.json" },

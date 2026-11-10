@@ -2,6 +2,7 @@
 id = "ref/spell/pressure-adaptation"
 kind = "spell"
 title = "Pressure Adaptation"
+aon = "SpellDisplay.aspx?ItemName=Pressure%20Adaptation"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pressure_adaptation", path = "json/spells14.json" },

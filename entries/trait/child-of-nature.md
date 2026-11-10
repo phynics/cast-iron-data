@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-nature"
 kind = "trait"
 title = "Child of Nature"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Nature"
 source_ids = ["inner-sea-gods", "faiths-of-balance", "ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_nature", path = "json/traits03.json" },

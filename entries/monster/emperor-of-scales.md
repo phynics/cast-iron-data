@@ -2,6 +2,7 @@
 id = "ref/monster/emperor-of-scales"
 kind = "creature"
 title = "Emperor of Scales"
+aon = "MonsterDisplay.aspx?ItemName=Emperor%20of%20Scales"
 source_ids = ["pathfinder-42-sanctum-of-the-serpent-god"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emperor_of_scales", path = "json/monsters_unique.json" },

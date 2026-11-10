@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/harrowed-society-student"
 kind = "archetype"
 title = "Harrowed Society Student"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Harrowed%20Society%20Student"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowed_society_student", path = "json/archetypes_arcanist.json" },

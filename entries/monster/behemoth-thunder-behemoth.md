@@ -2,6 +2,7 @@
 id = "ref/monster/behemoth-thunder-behemoth"
 kind = "creature"
 title = "Thunder Behemoth"
+aon = "MonsterDisplay.aspx?ItemName=Thunder%20Behemoth"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "behemoth_thunder_behemoth", path = "json/monsters03.json" },

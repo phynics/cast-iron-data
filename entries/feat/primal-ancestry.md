@@ -2,6 +2,7 @@
 id = "ref/feat/primal-ancestry"
 kind = "feat"
 title = "Primal Ancestry"
+aon = "FeatDisplay.aspx?ItemName=Primal%20Ancestry"
 source_ids = ["andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primal_ancestry", path = "json/feat12.json" },

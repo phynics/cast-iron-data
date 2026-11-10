@@ -2,6 +2,7 @@
 id = "ref/spell/fly-mass"
 kind = "spell"
 title = "Mass Fly"
+aon = "SpellDisplay.aspx?ItemName=Fly%2C%20Mass"
 source_ids = ["core-rulebook", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fly_mass", path = "json/spells4.json" },

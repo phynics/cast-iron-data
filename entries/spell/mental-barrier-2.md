@@ -2,6 +2,7 @@
 id = "ref/spell/mental-barrier-2"
 kind = "spell"
 title = "Mental Barrier II"
+aon = "SpellDisplay.aspx?ItemName=Mental%20Barrier%20II"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mental_barrier_2", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-slime"
 kind = "spell"
 title = "Touch of Slime"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Slime"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_slime", path = "json/spells10.json" },

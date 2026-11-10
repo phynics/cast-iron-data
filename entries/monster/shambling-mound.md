@@ -2,6 +2,7 @@
 id = "ref/monster/shambling-mound"
 kind = "creature"
 title = "Shambling Mound"
+aon = "MonsterDisplay.aspx?ItemName=Shambling%20Mound"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shambling_mound", path = "json/monsters38.json" },

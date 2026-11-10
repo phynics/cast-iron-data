@@ -2,6 +2,7 @@
 id = "ref/spell/unbearable-brightness"
 kind = "spell"
 title = "Unbearable Brightness"
+aon = "SpellDisplay.aspx?ItemName=Unbearable%20Brightness"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unbearable_brightness", path = "json/spells11.json" },

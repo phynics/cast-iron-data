@@ -2,6 +2,7 @@
 id = "ref/feat/avid-spellbook-reader"
 kind = "feat"
 title = "Avid Spellbook Reader"
+aon = "FeatDisplay.aspx?ItemName=Avid%20Spellbook%20Reader"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "avid_spellbook_reader", path = "json/feat01.json" },

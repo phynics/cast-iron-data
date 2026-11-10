@@ -2,6 +2,7 @@
 id = "ref/spell/summon-froghemoth"
 kind = "spell"
 title = "Summon Froghemoth"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Froghemoth"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_froghemoth", path = "json/spells16.json" },

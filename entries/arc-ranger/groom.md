@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/groom"
 kind = "archetype"
 title = "Groom"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Groom"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "groom", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/touch-of-mercy"
 kind = "spell"
 title = "Touch of Mercy"
+aon = "SpellDisplay.aspx?ItemName=Touch%20of%20Mercy"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_mercy", path = "json/spells10.json" },

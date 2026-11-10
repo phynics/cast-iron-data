@@ -2,6 +2,7 @@
 id = "ref/feat/repositioning-strike"
 kind = "feat"
 title = "Repositioning Strike"
+aon = "FeatDisplay.aspx?ItemName=Repositioning%20Strike"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "repositioning_strike", path = "json/feat13.json" },

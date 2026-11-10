@@ -2,6 +2,7 @@
 id = "ref/feat/proxy-summoning"
 kind = "feat"
 title = "Proxy Summoning"
+aon = "FeatDisplay.aspx?ItemName=Proxy%20Summoning"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proxy_summoning", path = "json/feat12.json" },

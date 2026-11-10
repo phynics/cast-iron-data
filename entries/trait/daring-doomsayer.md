@@ -2,6 +2,7 @@
 id = "ref/trait/daring-doomsayer"
 kind = "trait"
 title = "Daring Doomsayer"
+aon = "TraitDisplay.aspx?ItemName=Daring%20Doomsayer"
 source_ids = ["varisia-birthplace-of-legends", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daring_doomsayer", path = "json/traits02.json" },

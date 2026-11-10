@@ -2,6 +2,7 @@
 id = "ref/feat/seeping-darkness"
 kind = "feat"
 title = "Seeping Darkness"
+aon = "FeatDisplay.aspx?ItemName=Seeping%20Darkness"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeping_darkness", path = "json/feat13.json" },

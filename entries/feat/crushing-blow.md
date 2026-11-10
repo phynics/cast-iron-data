@@ -2,6 +2,7 @@
 id = "ref/feat/crushing-blow"
 kind = "feat"
 title = "Crushing Blow"
+aon = "FeatDisplay.aspx?ItemName=Crushing%20Blow"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_blow", path = "json/feat04.json" },

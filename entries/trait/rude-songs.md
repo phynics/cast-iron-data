@@ -2,6 +2,7 @@
 id = "ref/trait/rude-songs"
 kind = "trait"
 title = "Rude Songs"
+aon = "TraitDisplay.aspx?ItemName=Rude%20Songs"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rude_songs", path = "json/traits05.json" },

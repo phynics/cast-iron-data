@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/oozemaster"
 kind = "archetype"
 title = "Oozemaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Oozemaster"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oozemaster", path = "json/archetypes_alchemist2.json" },

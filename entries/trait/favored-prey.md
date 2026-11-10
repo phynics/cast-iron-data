@@ -2,6 +2,7 @@
 id = "ref/trait/favored-prey"
 kind = "trait"
 title = "Favored Prey"
+aon = "TraitDisplay.aspx?ItemName=Favored%20Prey"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_prey", path = "json/traits03.json" },

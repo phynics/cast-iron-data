@@ -2,6 +2,7 @@
 id = "ref/trait/naga-emissary"
 kind = "trait"
 title = "Naga Emissary"
+aon = "TraitDisplay.aspx?ItemName=Naga%20Emissary"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_emissary", path = "json/traits04.json" },

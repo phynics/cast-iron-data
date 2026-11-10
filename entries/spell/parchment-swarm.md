@@ -2,6 +2,7 @@
 id = "ref/spell/parchment-swarm"
 kind = "spell"
 title = "Parchment Swarm"
+aon = "SpellDisplay.aspx?ItemName=Parchment%20Swarm"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "parchment_swarm", path = "json/spells7.json" },

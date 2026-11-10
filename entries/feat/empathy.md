@@ -2,6 +2,7 @@
 id = "ref/feat/empathy"
 kind = "feat"
 title = "Empathy"
+aon = "FeatDisplay.aspx?ItemName=Empathy"
 source_ids = ["pathfinder-85-fires-of-creation", "people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empathy", path = "json/feat05.json" },

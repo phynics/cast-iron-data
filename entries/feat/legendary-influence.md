@@ -2,6 +2,7 @@
 id = "ref/feat/legendary-influence"
 kind = "feat"
 title = "Legendary Influence"
+aon = "FeatDisplay.aspx?ItemName=Legendary%20Influence"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legendary_influence", path = "json/feat10.json" },

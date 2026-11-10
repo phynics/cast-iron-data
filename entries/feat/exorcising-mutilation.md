@@ -2,6 +2,7 @@
 id = "ref/feat/exorcising-mutilation"
 kind = "feat"
 title = "Exorcising Mutilation"
+aon = "FeatDisplay.aspx?ItemName=Exorcising%20Mutilation"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exorcising_mutilation", path = "json/feat06.json" },

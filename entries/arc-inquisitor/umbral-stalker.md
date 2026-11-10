@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/umbral-stalker"
 kind = "archetype"
 title = "Umbral Stalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Umbral%20Stalker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_stalker", path = "json/archetypes_inquisitor.json" },

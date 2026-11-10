@@ -2,6 +2,7 @@
 id = "ref/monster/lar"
 kind = "creature"
 title = "Lar"
+aon = "MonsterDisplay.aspx?ItemName=Lar"
 source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lar", path = "json/monsters34.json" },

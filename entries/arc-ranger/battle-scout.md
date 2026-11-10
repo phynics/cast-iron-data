@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/battle-scout"
 kind = "archetype"
 title = "Battle Scout"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Battle%20Scout"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_scout", path = "json/archetypes_ranger.json" },

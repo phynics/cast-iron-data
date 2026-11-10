@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-justice"
 kind = "spell"
 title = "Mark of Justice"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20Justice"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_justice", path = "json/spells6.json" },

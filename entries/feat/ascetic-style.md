@@ -2,6 +2,7 @@
 id = "ref/feat/ascetic-style"
 kind = "feat"
 title = "Ascetic Style"
+aon = "FeatDisplay.aspx?ItemName=Ascetic%20Style"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascetic_style", path = "json/feat01.json" },

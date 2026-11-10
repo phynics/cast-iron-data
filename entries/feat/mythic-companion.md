@@ -2,6 +2,7 @@
 id = "ref/feat/mythic-companion"
 kind = "feat"
 title = "Mythic Companion"
+aon = "FeatDisplay.aspx?ItemName=Mythic%20Companion"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mythic_companion", path = "json/feat11.json" },

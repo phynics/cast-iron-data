@@ -2,6 +2,7 @@
 id = "ref/feat/ancient-draconic"
 kind = "feat"
 title = "Ancient Draconic"
+aon = "FeatDisplay.aspx?ItemName=Ancient%20Draconic"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_draconic", path = "json/feat01.json" },

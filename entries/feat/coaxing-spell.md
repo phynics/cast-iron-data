@@ -2,6 +2,7 @@
 id = "ref/feat/coaxing-spell"
 kind = "feat"
 title = "Coaxing Spell"
+aon = "FeatDisplay.aspx?ItemName=Coaxing%20Spell"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coaxing_spell", path = "json/feat03.json" },

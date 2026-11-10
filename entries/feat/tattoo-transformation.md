@@ -2,6 +2,7 @@
 id = "ref/feat/tattoo-transformation"
 kind = "feat"
 title = "Tattoo Transformation"
+aon = "FeatDisplay.aspx?ItemName=Tattoo%20Transformation"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tattoo_transformation", path = "json/feat16.json" },

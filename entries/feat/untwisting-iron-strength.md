@@ -2,6 +2,7 @@
 id = "ref/feat/untwisting-iron-strength"
 kind = "feat"
 title = "Untwisting Iron Strength"
+aon = "FeatDisplay.aspx?ItemName=Untwisting%20Iron%20Strength"
 source_ids = ["adventurers-guide", "inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untwisting_iron_strength", path = "json/feat17.json" },

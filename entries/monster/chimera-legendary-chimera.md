@@ -2,6 +2,7 @@
 id = "ref/monster/chimera-legendary-chimera"
 kind = "creature"
 title = "Legendary Chimera"
+aon = "MonsterDisplay.aspx?ItemName=Legendary%20Chimera"
 source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chimera_legendary_chimera", path = "json/monsters05.json" },

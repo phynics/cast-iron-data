@@ -2,6 +2,7 @@
 id = "ref/feat/signature-skill"
 kind = "feat"
 title = "Signature Skill"
+aon = "FeatDisplay.aspx?ItemName=Signature%20Skill"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_skill", path = "json/feat14.json" },

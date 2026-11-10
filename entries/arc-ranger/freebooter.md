@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/freebooter"
 kind = "archetype"
 title = "Freebooter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Freebooter"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freebooter", path = "json/archetypes_ranger.json" },

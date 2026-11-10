@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/dusk-stalker"
 kind = "archetype"
 title = "Dusk Stalker"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Dusk%20Stalker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dusk_stalker", path = "json/archetypes_ranger.json" },

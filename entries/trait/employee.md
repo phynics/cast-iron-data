@@ -2,6 +2,7 @@
 id = "ref/trait/employee"
 kind = "trait"
 title = "Employee"
+aon = "TraitDisplay.aspx?ItemName=Employee"
 source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "employee", path = "json/traits02.json" },

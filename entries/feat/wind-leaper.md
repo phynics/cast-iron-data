@@ -2,6 +2,7 @@
 id = "ref/feat/wind-leaper"
 kind = "feat"
 title = "Wind Leaper"
+aon = "FeatDisplay.aspx?ItemName=Wind%20Leaper"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wind_leaper", path = "json/feat17.json" },

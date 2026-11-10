@@ -2,6 +2,7 @@
 id = "ref/spell/rock-whip"
 kind = "spell"
 title = "Rock Whip"
+aon = "SpellDisplay.aspx?ItemName=Rock%20Whip"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rock_whip", path = "json/spells8.json" },

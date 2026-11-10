@@ -2,6 +2,7 @@
 id = "ref/trait/freedom-fighter-shokuro"
 kind = "trait"
 title = "Freedom Fighter (Shokuro)"
+aon = "TraitDisplay.aspx?ItemName=Freedom%20Fighter%20%28Shokuro%29"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_fighter_shokuro", path = "json/traits04.json" },

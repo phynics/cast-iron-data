@@ -2,6 +2,7 @@
 id = "ref/feat/extra-shadow-jump"
 kind = "feat"
 title = "Extra Shadow Jump"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Shadow%20Jump"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_shadow_jump", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/homunculist"
 kind = "archetype"
 title = "Homunculist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Homunculist"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homunculist", path = "json/archetypes_alchemist2.json" },

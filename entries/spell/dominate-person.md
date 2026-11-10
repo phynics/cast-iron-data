@@ -2,6 +2,7 @@
 id = "ref/spell/dominate-person"
 kind = "spell"
 title = "Dominate Person"
+aon = "SpellDisplay.aspx?ItemName=Dominate%20Person"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dominate_person", path = "json/spells13.json" },

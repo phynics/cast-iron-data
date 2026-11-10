@@ -2,6 +2,7 @@
 id = "ref/trait/silvertongued-eunuch"
 kind = "trait"
 title = "Silvertongued Eunuch"
+aon = "TraitDisplay.aspx?ItemName=Silvertongued%20Eunuch"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silvertongued_eunuch", path = "json/traits04.json" },

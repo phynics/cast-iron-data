@@ -2,6 +2,7 @@
 id = "ref/feat/quick-preparation"
 kind = "feat"
 title = "Quick Preparation"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Preparation"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_preparation", path = "json/feat12.json" },

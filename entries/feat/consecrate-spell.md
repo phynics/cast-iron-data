@@ -2,6 +2,7 @@
 id = "ref/feat/consecrate-spell"
 kind = "feat"
 title = "Consecrate Spell"
+aon = "FeatDisplay.aspx?ItemName=Consecrate%20Spell"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "consecrate_spell", path = "json/feat03.json" },

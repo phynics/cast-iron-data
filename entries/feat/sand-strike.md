@@ -2,6 +2,7 @@
 id = "ref/feat/sand-strike"
 kind = "feat"
 title = "Sand Strike"
+aon = "FeatDisplay.aspx?ItemName=Sand%20Strike"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sand_strike", path = "json/feat13.json" },

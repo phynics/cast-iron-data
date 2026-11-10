@@ -2,6 +2,7 @@
 id = "ref/monster/eurypterid-bluetip-eurypterid"
 kind = "creature"
 title = "Bluetip Eurypterid"
+aon = "MonsterDisplay.aspx?ItemName=Bluetip%20Eurypterid"
 source_ids = ["pathfinder-37-souls-for-smugglers-shiv"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eurypterid_bluetip_eurypterid", path = "json/monsters42.json" },

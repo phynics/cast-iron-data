@@ -2,6 +2,7 @@
 id = "ref/feat/monster-spotter"
 kind = "feat"
 title = "Monster Spotter"
+aon = "FeatDisplay.aspx?ItemName=Monster%20Spotter"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monster_spotter", path = "json/feat11.json" },

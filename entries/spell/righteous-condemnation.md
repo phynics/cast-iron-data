@@ -2,6 +2,7 @@
 id = "ref/spell/righteous-condemnation"
 kind = "spell"
 title = "Righteous Condemnation"
+aon = "SpellDisplay.aspx?ItemName=Righteous%20Condemnation"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "righteous_condemnation", path = "json/spells8.json" },

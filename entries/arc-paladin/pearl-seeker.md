@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/pearl-seeker"
 kind = "archetype"
 title = "Pearl Seeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Pearl%20Seeker"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pearl_seeker", path = "json/archetypes_paladin.json" },

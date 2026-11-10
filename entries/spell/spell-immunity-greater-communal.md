@@ -2,6 +2,7 @@
 id = "ref/spell/spell-immunity-greater-communal"
 kind = "spell"
 title = "Greater Communal Spell Immunity"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Immunity%2C%20Greater%20Communal"
 source_ids = ["core-rulebook", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_immunity_greater_communal", path = "json/spells9.json" },

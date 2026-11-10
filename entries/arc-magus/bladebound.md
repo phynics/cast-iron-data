@@ -2,6 +2,7 @@
 id = "ref/arc-magus/bladebound"
 kind = "archetype"
 title = "Bladebound"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Bladebound"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bladebound", path = "json/archetypes_magus.json" },

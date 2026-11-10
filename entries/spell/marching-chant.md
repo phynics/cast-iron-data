@@ -2,6 +2,7 @@
 id = "ref/spell/marching-chant"
 kind = "spell"
 title = "Marching Chant"
+aon = "SpellDisplay.aspx?ItemName=Marching%20Chant"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marching_chant", path = "json/spells6.json" },

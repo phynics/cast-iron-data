@@ -2,6 +2,7 @@
 id = "ref/feat/drow-spirit"
 kind = "feat"
 title = "Drow Spirit"
+aon = "FeatDisplay.aspx?ItemName=Drow%20Spirit"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drow_spirit", path = "json/feat05.json" },

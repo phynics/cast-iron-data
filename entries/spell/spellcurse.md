@@ -2,6 +2,7 @@
 id = "ref/spell/spellcurse"
 kind = "spell"
 title = "Spellcurse"
+aon = "SpellDisplay.aspx?ItemName=Spellcurse"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcurse", path = "json/spells9.json" },

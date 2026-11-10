@@ -2,6 +2,7 @@
 id = "ref/feat/poisoners-channel"
 kind = "feat"
 title = "Poisoner's Channel"
+aon = "FeatDisplay.aspx?ItemName=Poisoner%27s%20Channel"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poisoners_channel", path = "json/feat12.json" },

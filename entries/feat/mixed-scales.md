@@ -2,6 +2,7 @@
 id = "ref/feat/mixed-scales"
 kind = "feat"
 title = "Mixed Scales"
+aon = "FeatDisplay.aspx?ItemName=Mixed%20Scales"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mixed_scales", path = "json/feat10.json" },

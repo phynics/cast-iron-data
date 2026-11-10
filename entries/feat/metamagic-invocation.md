@@ -2,6 +2,7 @@
 id = "ref/feat/metamagic-invocation"
 kind = "feat"
 title = "Metamagic Invocation"
+aon = "FeatDisplay.aspx?ItemName=Metamagic%20Invocation"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagic_invocation", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/hefty-brute"
 kind = "feat"
 title = "Hefty Brute"
+aon = "FeatDisplay.aspx?ItemName=Hefty%20Brute"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hefty_brute", path = "json/feat08.json" },

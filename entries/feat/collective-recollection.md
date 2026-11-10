@@ -2,6 +2,7 @@
 id = "ref/feat/collective-recollection"
 kind = "feat"
 title = "Collective Recollection"
+aon = "FeatDisplay.aspx?ItemName=Collective%20Recollection"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "collective_recollection", path = "json/feat03.json" },

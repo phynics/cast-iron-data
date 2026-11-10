@@ -2,6 +2,7 @@
 id = "ref/monster/erotundee"
 kind = "creature"
 title = "Erotundee, Keeper of the Risen Light"
+aon = "MonsterDisplay.aspx?ItemName=Erotundee%2C%20Keeper%20of%20the%20Risen%20Light"
 source_ids = ["demons-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "erotundee", path = "json/monsters_unique4.json" },

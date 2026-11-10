@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-sound"
 kind = "spell"
 title = "Wall of Sound"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Sound"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_sound", path = "json/spells11.json" },

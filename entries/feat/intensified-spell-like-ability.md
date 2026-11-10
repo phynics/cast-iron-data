@@ -2,6 +2,7 @@
 id = "ref/feat/intensified-spell-like-ability"
 kind = "feat"
 title = "Intensified Spell-Like Ability"
+aon = "FeatDisplay.aspx?ItemName=Intensified%20Spell-Like%20Ability"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intensified_spell_like_ability", path = "json/feat09.json" },

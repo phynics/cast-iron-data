@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-courage-and-life"
 kind = "spell"
 title = "Blessing of Courage and Life"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20Courage%20and%20Life"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_courage_and_life", path = "json/spells12.json" },

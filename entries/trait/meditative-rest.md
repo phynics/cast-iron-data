@@ -2,6 +2,7 @@
 id = "ref/trait/meditative-rest"
 kind = "trait"
 title = "Meditative Rest"
+aon = "TraitDisplay.aspx?ItemName=Meditative%20Rest"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditative_rest", path = "json/traits01.json" },

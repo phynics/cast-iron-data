@@ -2,6 +2,7 @@
 id = "ref/feat/stylized-spell"
 kind = "feat"
 title = "Stylized Spell"
+aon = "FeatDisplay.aspx?ItemName=Stylized%20Spell"
 source_ids = ["ultimate-intrigue", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stylized_spell", path = "json/feat15.json" },

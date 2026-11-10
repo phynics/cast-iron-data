@@ -2,6 +2,7 @@
 id = "ref/feat/masterful-flourish"
 kind = "feat"
 title = "Masterful Flourish"
+aon = "FeatDisplay.aspx?ItemName=Masterful%20Flourish"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masterful_flourish", path = "json/feat10.json" },

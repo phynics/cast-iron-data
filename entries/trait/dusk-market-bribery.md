@@ -2,6 +2,7 @@
 id = "ref/trait/dusk-market-bribery"
 kind = "trait"
 title = "Dusk Market Bribery"
+aon = "TraitDisplay.aspx?ItemName=Dusk%20Market%20Bribery"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dusk_market_bribery", path = "json/traits01.json" },

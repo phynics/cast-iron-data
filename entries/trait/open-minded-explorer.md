@@ -2,6 +2,7 @@
 id = "ref/trait/open-minded-explorer"
 kind = "trait"
 title = "Open-Minded Explorer"
+aon = "TraitDisplay.aspx?ItemName=Open-Minded%20Explorer"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_minded_explorer", path = "json/traits04.json" },

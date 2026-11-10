@@ -2,6 +2,7 @@
 id = "ref/spell/blazing-rainbow"
 kind = "spell"
 title = "Blazing Rainbow"
+aon = "SpellDisplay.aspx?ItemName=Blazing%20Rainbow"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_rainbow", path = "json/spells12.json" },

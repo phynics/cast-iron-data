@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-conjuration-greater"
 kind = "spell"
 title = "Greater Shadow Conjuration"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Conjuration%2C%20Greater"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_conjuration_greater", path = "json/spells15.json" },

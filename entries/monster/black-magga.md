@@ -2,6 +2,7 @@
 id = "ref/monster/black-magga"
 kind = "creature"
 title = "Black Magga"
+aon = "MonsterDisplay.aspx?ItemName=Black%20Magga"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-3-the-hook-mountain-massacre"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_magga", path = "json/monsters_unique.json" },

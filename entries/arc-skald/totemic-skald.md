@@ -2,6 +2,7 @@
 id = "ref/arc-skald/totemic-skald"
 kind = "archetype"
 title = "Totemic Skald"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Totemic%20Skald"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totemic_skald", path = "json/archetypes_skald.json" },

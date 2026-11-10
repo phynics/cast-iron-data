@@ -2,6 +2,7 @@
 id = "ref/trait/splash-attack"
 kind = "trait"
 title = "Splash Attack"
+aon = "TraitDisplay.aspx?ItemName=Splash%20Attack"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splash_attack", path = "json/traits01.json" },

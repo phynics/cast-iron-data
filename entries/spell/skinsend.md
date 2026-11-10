@@ -2,6 +2,7 @@
 id = "ref/spell/skinsend"
 kind = "spell"
 title = "Skinsend"
+aon = "SpellDisplay.aspx?ItemName=Skinsend"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skinsend", path = "json/spells9.json" },

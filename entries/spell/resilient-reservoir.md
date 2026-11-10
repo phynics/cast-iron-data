@@ -2,6 +2,7 @@
 id = "ref/spell/resilient-reservoir"
 kind = "spell"
 title = "Resilient Reservoir"
+aon = "SpellDisplay.aspx?ItemName=Resilient%20Reservoir"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resilient_reservoir", path = "json/spells8.json" },

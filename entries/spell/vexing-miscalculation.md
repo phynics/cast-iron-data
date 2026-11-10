@@ -2,6 +2,7 @@
 id = "ref/spell/vexing-miscalculation"
 kind = "spell"
 title = "Vexing Miscalculation"
+aon = "SpellDisplay.aspx?ItemName=Vexing%20Miscalculation"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vexing_miscalculation", path = "json/spells11.json" },

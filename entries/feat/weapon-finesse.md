@@ -2,6 +2,7 @@
 id = "ref/feat/weapon-finesse"
 kind = "feat"
 title = "Weapon Finesse"
+aon = "FeatDisplay.aspx?ItemName=Weapon%20Finesse"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weapon_finesse", path = "json/feat17.json" },

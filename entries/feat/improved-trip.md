@@ -2,6 +2,7 @@
 id = "ref/feat/improved-trip"
 kind = "feat"
 title = "Improved Trip"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Trip"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_trip", path = "json/feat09.json" },

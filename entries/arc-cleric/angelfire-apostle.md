@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/angelfire-apostle"
 kind = "archetype"
 title = "Angelfire Apostle"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Angelfire%20Apostle"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelfire_apostle", path = "json/archetypes_cleric.json" },

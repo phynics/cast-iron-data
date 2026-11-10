@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/serial-killer"
 kind = "archetype"
 title = "Serial Killer"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Serial%20Killer"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "serial_killer", path = "json/archetypes_vigilante.json" },

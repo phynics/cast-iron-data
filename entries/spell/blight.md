@@ -2,6 +2,7 @@
 id = "ref/spell/blight"
 kind = "spell"
 title = "Blight"
+aon = "SpellDisplay.aspx?ItemName=Blight"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight", path = "json/spells2.json" },

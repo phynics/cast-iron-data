@@ -2,6 +2,7 @@
 id = "ref/trait/cypher-resistance"
 kind = "trait"
 title = "Cypher Resistance"
+aon = "TraitDisplay.aspx?ItemName=Cypher%20Resistance"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cypher_resistance", path = "json/traits04.json" },

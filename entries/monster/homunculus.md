@@ -2,6 +2,7 @@
 id = "ref/monster/homunculus"
 kind = "creature"
 title = "Homunculus"
+aon = "MonsterDisplay.aspx?ItemName=Homunculus"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "homunculus", path = "json/monsters32.json" },

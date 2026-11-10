@@ -2,6 +2,7 @@
 id = "ref/spell/hide-bruises"
 kind = "spell"
 title = "Hide Bruises"
+aon = "SpellDisplay.aspx?ItemName=Hide%20Bruises"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hide_bruises", path = "json/spells5.json" },

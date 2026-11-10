@@ -2,6 +2,7 @@
 id = "ref/trait/envoy-of-healing"
 kind = "trait"
 title = "Envoy of Healing"
+aon = "TraitDisplay.aspx?ItemName=Envoy%20of%20Healing"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "envoy_of_healing", path = "json/traits03.json" },

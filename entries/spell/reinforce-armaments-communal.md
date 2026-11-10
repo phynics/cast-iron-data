@@ -2,6 +2,7 @@
 id = "ref/spell/reinforce-armaments-communal"
 kind = "spell"
 title = "Communal Reinforce Armaments"
+aon = "SpellDisplay.aspx?ItemName=Reinforce%20Armaments%2C%20Communal"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reinforce_armaments_communal", path = "json/spells8.json" },

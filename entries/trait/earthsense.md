@@ -2,6 +2,7 @@
 id = "ref/trait/earthsense"
 kind = "trait"
 title = "Earthsense"
+aon = "TraitDisplay.aspx?ItemName=Earthsense"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earthsense", path = "json/traits05.json" },

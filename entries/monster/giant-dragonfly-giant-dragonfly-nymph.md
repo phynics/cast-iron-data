@@ -2,6 +2,7 @@
 id = "ref/monster/giant-dragonfly-giant-dragonfly-nymph"
 kind = "creature"
 title = "Giant Dragonfly Nymph"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Dragonfly%20Nymph"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_dragonfly_giant_dragonfly_nymph", path = "json/monsters11.json" },

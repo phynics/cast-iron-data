@@ -2,6 +2,7 @@
 id = "ref/trait/big-mouth"
 kind = "trait"
 title = "Big Mouth"
+aon = "TraitDisplay.aspx?ItemName=Big%20Mouth"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "big_mouth", path = "json/traits05.json" },

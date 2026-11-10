@@ -2,6 +2,7 @@
 id = "ref/feat/quick-favor"
 kind = "feat"
 title = "Quick Favor"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Favor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_favor", path = "json/feat12.json" },

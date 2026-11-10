@@ -2,6 +2,7 @@
 id = "ref/spell/kalistocrats-nightmare"
 kind = "spell"
 title = "Kalistocrat's Nightmare"
+aon = "SpellDisplay.aspx?ItemName=Kalistocrat%27s%20Nightmare"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kalistocrats_nightmare", path = "json/spells6.json" },

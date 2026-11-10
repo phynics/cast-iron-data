@@ -2,6 +2,7 @@
 id = "ref/monster/makara-vahana"
 kind = "creature"
 title = "Makara Vahana"
+aon = "MonsterDisplay.aspx?ItemName=Makara%20Vahana"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "makara_vahana", path = "json/monsters16.json" },

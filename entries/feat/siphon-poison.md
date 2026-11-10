@@ -2,6 +2,7 @@
 id = "ref/feat/siphon-poison"
 kind = "feat"
 title = "Siphon Poison"
+aon = "FeatDisplay.aspx?ItemName=Siphon%20Poison"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siphon_poison", path = "json/feat14.json" },

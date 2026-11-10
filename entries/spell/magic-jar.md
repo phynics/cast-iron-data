@@ -2,6 +2,7 @@
 id = "ref/spell/magic-jar"
 kind = "spell"
 title = "Magic Jar"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Jar"
 source_ids = ["core-rulebook", "book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_jar", path = "json/spells6.json" },

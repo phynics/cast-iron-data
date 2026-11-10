@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-barbs"
 kind = "spell"
 title = "Shadow Barbs"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Barbs"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_barbs", path = "json/spells15.json" },

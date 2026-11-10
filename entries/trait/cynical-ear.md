@@ -2,6 +2,7 @@
 id = "ref/trait/cynical-ear"
 kind = "trait"
 title = "Cynical Ear"
+aon = "TraitDisplay.aspx?ItemName=Cynical%20Ear"
 source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cynical_ear", path = "json/traits01.json" },

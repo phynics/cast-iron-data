@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-bomb-admixture"
 kind = "spell"
 title = "Shadow Bomb Admixture"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Bomb%20Admixture"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_bomb_admixture", path = "json/spells15.json" },

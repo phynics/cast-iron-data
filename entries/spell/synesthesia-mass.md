@@ -2,6 +2,7 @@
 id = "ref/spell/synesthesia-mass"
 kind = "spell"
 title = "Mass Synesthesia"
+aon = "SpellDisplay.aspx?ItemName=Synesthesia%2C%20Mass"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synesthesia_mass", path = "json/spells10.json" },

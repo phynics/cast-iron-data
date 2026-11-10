@@ -2,6 +2,7 @@
 id = "ref/monster/bonewrought-willow"
 kind = "creature"
 title = "Bonewrought Willow"
+aon = "MonsterDisplay.aspx?ItemName=Bonewrought%20Willow"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonewrought_willow", path = "json/monsters27.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/jistkan-magistrate"
 kind = "archetype"
 title = "Jistkan Magistrate"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Jistkan%20Magistrate"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jistkan_magistrate", path = "json/archetypes_warpriest.json" },

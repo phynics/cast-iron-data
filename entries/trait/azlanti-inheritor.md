@@ -2,6 +2,7 @@
 id = "ref/trait/azlanti-inheritor"
 kind = "trait"
 title = "Azlanti Inheritor"
+aon = "TraitDisplay.aspx?ItemName=Azlanti%20Inheritor"
 source_ids = ["bastards-of-golarion", "humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_inheritor", path = "json/traits05.json" },

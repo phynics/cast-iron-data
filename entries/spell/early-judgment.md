@@ -2,6 +2,7 @@
 id = "ref/spell/early-judgment"
 kind = "spell"
 title = "Early Judgment"
+aon = "SpellDisplay.aspx?ItemName=Early%20Judgment"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "early_judgment", path = "json/spells13.json" },

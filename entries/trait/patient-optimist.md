@@ -2,6 +2,7 @@
 id = "ref/trait/patient-optimist"
 kind = "trait"
 title = "Patient Optimist"
+aon = "TraitDisplay.aspx?ItemName=Patient%20Optimist"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_optimist", path = "json/traits03.json" },

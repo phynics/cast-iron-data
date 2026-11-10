@@ -2,6 +2,7 @@
 id = "ref/monster/yhohm"
 kind = "creature"
 title = "Yhohm"
+aon = "MonsterDisplay.aspx?ItemName=Yhohm"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yhohm", path = "json/monsters41.json" },

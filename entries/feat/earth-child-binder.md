@@ -2,6 +2,7 @@
 id = "ref/feat/earth-child-binder"
 kind = "feat"
 title = "Earth Child Binder"
+aon = "FeatDisplay.aspx?ItemName=Earth%20Child%20Binder"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earth_child_binder", path = "json/feat05.json" },

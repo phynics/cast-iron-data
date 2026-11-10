@@ -2,6 +2,7 @@
 id = "ref/trait/hot-headed"
 kind = "trait"
 title = "Hot Headed"
+aon = "TraitDisplay.aspx?ItemName=Hot%20Headed"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hot_headed", path = "json/traits05.json" },

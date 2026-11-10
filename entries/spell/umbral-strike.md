@@ -2,6 +2,7 @@
 id = "ref/spell/umbral-strike"
 kind = "spell"
 title = "Umbral Strike"
+aon = "SpellDisplay.aspx?ItemName=Umbral%20Strike"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "umbral_strike", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/chronicler-of-worlds"
 kind = "archetype"
 title = "Chronicler of Worlds"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Chronicler%20of%20Worlds"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chronicler_of_worlds", path = "json/archetypes_bard.json" },

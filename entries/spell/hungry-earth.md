@@ -2,6 +2,7 @@
 id = "ref/spell/hungry-earth"
 kind = "spell"
 title = "Hungry Earth"
+aon = "SpellDisplay.aspx?ItemName=Hungry%20Earth"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_earth", path = "json/spells5.json" },

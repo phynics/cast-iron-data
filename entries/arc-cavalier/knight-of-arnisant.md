@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/knight-of-arnisant"
 kind = "archetype"
 title = "Knight of Arnisant"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Knight%20of%20Arnisant"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knight_of_arnisant", path = "json/archetypes_cavalier.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/bekyar-slave-maestro"
 kind = "trait"
 title = "Bekyar Slave Maestro"
+aon = "TraitDisplay.aspx?ItemName=Bekyar%20Slave%20Maestro"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bekyar_slave_maestro", path = "json/traits05.json" },

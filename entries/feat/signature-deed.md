@@ -2,6 +2,7 @@
 id = "ref/feat/signature-deed"
 kind = "feat"
 title = "Signature Deed"
+aon = "FeatDisplay.aspx?ItemName=Signature%20Deed"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "signature_deed", path = "json/feat14.json" },

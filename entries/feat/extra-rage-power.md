@@ -2,6 +2,7 @@
 id = "ref/feat/extra-rage-power"
 kind = "feat"
 title = "Extra Rage Power"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Rage%20Power"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_rage_power", path = "json/feat06.json" },

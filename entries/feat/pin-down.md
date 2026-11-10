@@ -2,6 +2,7 @@
 id = "ref/feat/pin-down"
 kind = "feat"
 title = "Pin Down"
+aon = "FeatDisplay.aspx?ItemName=Pin%20Down"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pin_down", path = "json/feat12.json" },

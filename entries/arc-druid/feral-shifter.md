@@ -2,6 +2,7 @@
 id = "ref/arc-druid/feral-shifter"
 kind = "archetype"
 title = "Feral Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Feral%20Shifter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_shifter", path = "json/archetypes_druid.json" },

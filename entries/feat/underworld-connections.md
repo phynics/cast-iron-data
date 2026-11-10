@@ -2,6 +2,7 @@
 id = "ref/feat/underworld-connections"
 kind = "feat"
 title = "Underworld Connections"
+aon = "FeatDisplay.aspx?ItemName=Underworld%20Connections"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underworld_connections", path = "json/feat16.json" },

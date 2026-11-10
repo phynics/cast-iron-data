@@ -2,6 +2,7 @@
 id = "ref/monster/troop-sodden-drauger-troop"
 kind = "creature"
 title = "Sodden Drauger Troop"
+aon = "MonsterDisplay.aspx?ItemName=Sodden%20Drauger%20Troop"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_sodden_drauger_troop", path = "json/monsters24.json" },

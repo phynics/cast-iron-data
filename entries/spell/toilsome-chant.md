@@ -2,6 +2,7 @@
 id = "ref/spell/toilsome-chant"
 kind = "spell"
 title = "Toilsome Chant"
+aon = "SpellDisplay.aspx?ItemName=Toilsome%20Chant"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toilsome_chant", path = "json/spells10.json" },

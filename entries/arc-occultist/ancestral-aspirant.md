@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/ancestral-aspirant"
 kind = "archetype"
 title = "Ancestral Aspirant"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Ancestral%20Aspirant"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_aspirant", path = "json/archetypes_occultist.json" },

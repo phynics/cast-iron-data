@@ -2,6 +2,7 @@
 id = "ref/feat/seize-advantage"
 kind = "feat"
 title = "Seize Advantage"
+aon = "FeatDisplay.aspx?ItemName=Seize%20Advantage"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seize_advantage", path = "json/feat13.json" },

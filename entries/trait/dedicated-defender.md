@@ -2,6 +2,7 @@
 id = "ref/trait/dedicated-defender"
 kind = "trait"
 title = "Dedicated Defender"
+aon = "TraitDisplay.aspx?ItemName=Dedicated%20Defender"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dedicated_defender", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/the-outsider"
 kind = "trait"
 title = "The Outsider"
+aon = "TraitDisplay.aspx?ItemName=The%20Outsider"
 source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_outsider", path = "json/traits03.json" },

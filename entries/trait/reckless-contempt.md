@@ -2,6 +2,7 @@
 id = "ref/trait/reckless-contempt"
 kind = "trait"
 title = "Reckless Contempt"
+aon = "TraitDisplay.aspx?ItemName=Reckless%20Contempt"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_contempt", path = "json/traits01.json" },

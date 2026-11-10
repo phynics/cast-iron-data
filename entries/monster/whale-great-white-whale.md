@@ -2,6 +2,7 @@
 id = "ref/monster/whale-great-white-whale"
 kind = "creature"
 title = "Great White Whale"
+aon = "MonsterDisplay.aspx?ItemName=Great%20White%20Whale"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whale_great_white_whale", path = "json/monsters25.json" },

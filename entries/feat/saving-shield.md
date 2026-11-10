@@ -2,6 +2,7 @@
 id = "ref/feat/saving-shield"
 kind = "feat"
 title = "Saving Shield"
+aon = "FeatDisplay.aspx?ItemName=Saving%20Shield"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_shield", path = "json/feat13.json" },

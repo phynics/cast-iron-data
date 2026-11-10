@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/oceans-echo"
 kind = "archetype"
 title = "Ocean's Echo"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Ocean%27s%20Echo"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oceans_echo", path = "json/archetypes_oracle.json" },

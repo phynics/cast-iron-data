@@ -2,6 +2,7 @@
 id = "ref/spell/psychic-surgery"
 kind = "spell"
 title = "Psychic Surgery"
+aon = "SpellDisplay.aspx?ItemName=Psychic%20Surgery"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_surgery", path = "json/spells15.json" },

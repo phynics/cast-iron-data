@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/mysterious-stranger"
 kind = "archetype"
 title = "Mysterious Stranger"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Mysterious%20Stranger"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mysterious_stranger", path = "json/archetypes_gunslinger.json" },

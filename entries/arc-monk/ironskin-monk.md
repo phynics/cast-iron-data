@@ -2,6 +2,7 @@
 id = "ref/arc-monk/ironskin-monk"
 kind = "archetype"
 title = "Ironskin Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Ironskin%20Monk"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ironskin_monk", path = "json/archetypes_monk.json" },

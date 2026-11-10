@@ -2,6 +2,7 @@
 id = "ref/feat/draconian-law"
 kind = "feat"
 title = "Draconian Law"
+aon = "FeatDisplay.aspx?ItemName=Draconian%20Law"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "draconian_law", path = "json/feat05.json" },

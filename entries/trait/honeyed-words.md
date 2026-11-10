@@ -2,6 +2,7 @@
 id = "ref/trait/honeyed-words"
 kind = "trait"
 title = "Honeyed Words"
+aon = "TraitDisplay.aspx?ItemName=Honeyed%20Words"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "honeyed_words", path = "json/traits03.json" },

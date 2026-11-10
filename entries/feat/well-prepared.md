@@ -2,6 +2,7 @@
 id = "ref/feat/well-prepared"
 kind = "feat"
 title = "Well-Prepared"
+aon = "FeatDisplay.aspx?ItemName=Well-Prepared"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_prepared", path = "json/feat17.json" },

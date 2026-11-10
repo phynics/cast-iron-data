@@ -2,6 +2,7 @@
 id = "ref/spell/hoodwink"
 kind = "spell"
 title = "Hoodwink"
+aon = "SpellDisplay.aspx?ItemName=Hoodwink"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hoodwink", path = "json/spells5.json" },

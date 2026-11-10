@@ -2,6 +2,7 @@
 id = "ref/spell/aerial-tracks"
 kind = "spell"
 title = "Aerial Tracks"
+aon = "SpellDisplay.aspx?ItemName=Aerial%20Tracks"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerial_tracks", path = "json/spells.json" },

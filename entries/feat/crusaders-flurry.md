@@ -2,6 +2,7 @@
 id = "ref/feat/crusaders-flurry"
 kind = "feat"
 title = "Crusader's Flurry"
+aon = "FeatDisplay.aspx?ItemName=Crusader%27s%20Flurry"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusaders_flurry", path = "json/feat04.json" },

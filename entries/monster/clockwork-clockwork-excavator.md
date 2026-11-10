@@ -2,6 +2,7 @@
 id = "ref/monster/clockwork-clockwork-excavator"
 kind = "creature"
 title = "Clockwork Excavator"
+aon = "MonsterDisplay.aspx?ItemName=Clockwork%20Excavator"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clockwork_clockwork_excavator", path = "json/monsters05.json" },

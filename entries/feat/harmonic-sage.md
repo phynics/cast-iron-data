@@ -2,6 +2,7 @@
 id = "ref/feat/harmonic-sage"
 kind = "feat"
 title = "Harmonic Sage"
+aon = "FeatDisplay.aspx?ItemName=Harmonic%20Sage"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harmonic_sage", path = "json/feat08.json" },

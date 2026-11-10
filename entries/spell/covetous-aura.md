@@ -2,6 +2,7 @@
 id = "ref/spell/covetous-aura"
 kind = "spell"
 title = "Covetous Aura"
+aon = "SpellDisplay.aspx?ItemName=Covetous%20Aura"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors", "inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covetous_aura", path = "json/spells12.json" },

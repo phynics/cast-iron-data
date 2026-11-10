@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/dragonheir-scion"
 kind = "archetype"
 title = "Dragonheir Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Dragonheir%20Scion"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonheir_scion", path = "json/archetypes_fighter.json" },

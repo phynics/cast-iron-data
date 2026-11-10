@@ -2,6 +2,7 @@
 id = "ref/feat/giant-vendetta"
 kind = "feat"
 title = "Giant Vendetta"
+aon = "FeatDisplay.aspx?ItemName=Giant%20Vendetta"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vendetta", path = "json/feat07.json" },

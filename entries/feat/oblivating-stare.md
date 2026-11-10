@@ -2,6 +2,7 @@
 id = "ref/feat/oblivating-stare"
 kind = "feat"
 title = "Oblivating Stare"
+aon = "FeatDisplay.aspx?ItemName=Oblivating%20Stare"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oblivating_stare", path = "json/feat11.json" },

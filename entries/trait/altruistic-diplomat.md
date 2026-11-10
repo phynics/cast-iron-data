@@ -2,6 +2,7 @@
 id = "ref/trait/altruistic-diplomat"
 kind = "trait"
 title = "Altruistic Diplomat"
+aon = "TraitDisplay.aspx?ItemName=Altruistic%20Diplomat"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "altruistic_diplomat", path = "json/traits04.json" },

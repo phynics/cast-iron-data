@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/swamp-poisoner"
 kind = "archetype"
 title = "Swamp Poisoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Swamp%20Poisoner"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_poisoner", path = "json/archetypes_rogue.json" },

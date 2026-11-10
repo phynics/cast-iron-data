@@ -2,6 +2,7 @@
 id = "ref/arc-medium/spirit-eater"
 kind = "archetype"
 title = "Spirit Eater"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Spirit%20Eater"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_eater", path = "json/archetypes_medium.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/craft-poppet"
 kind = "feat"
 title = "Craft Poppet"
+aon = "FeatDisplay.aspx?ItemName=Craft%20Poppet"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "craft_poppet", path = "json/feat03.json" },

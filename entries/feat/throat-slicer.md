@@ -2,6 +2,7 @@
 id = "ref/feat/throat-slicer"
 kind = "feat"
 title = "Throat Slicer"
+aon = "FeatDisplay.aspx?ItemName=Throat%20Slicer"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "throat_slicer", path = "json/feat16.json" },

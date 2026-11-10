@@ -2,6 +2,7 @@
 id = "ref/arc-monk/ki-mystic"
 kind = "archetype"
 title = "Ki Mystic"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Ki%20Mystic"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_mystic", path = "json/archetypes_monk.json" },

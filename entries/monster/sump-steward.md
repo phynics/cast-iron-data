@@ -2,6 +2,7 @@
 id = "ref/monster/sump-steward"
 kind = "creature"
 title = "Sump Steward"
+aon = "MonsterDisplay.aspx?ItemName=Sump%20Steward"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sump_steward", path = "json/monsters39.json" },

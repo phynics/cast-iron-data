@@ -2,6 +2,7 @@
 id = "ref/feat/scorching-weapons"
 kind = "feat"
 title = "Scorching Weapons"
+aon = "FeatDisplay.aspx?ItemName=Scorching%20Weapons"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorching_weapons", path = "json/feat13.json" },

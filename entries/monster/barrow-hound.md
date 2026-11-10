@@ -2,6 +2,7 @@
 id = "ref/monster/barrow-hound"
 kind = "creature"
 title = "Barrow Hound"
+aon = "MonsterDisplay.aspx?ItemName=Barrow%20Hound"
 source_ids = ["fangwood-keep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barrow_hound", path = "json/monsters03.json" },

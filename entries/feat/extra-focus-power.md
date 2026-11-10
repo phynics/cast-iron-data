@@ -2,6 +2,7 @@
 id = "ref/feat/extra-focus-power"
 kind = "feat"
 title = "Extra Focus Power"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Focus%20Power"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_focus_power", path = "json/feat06.json" },

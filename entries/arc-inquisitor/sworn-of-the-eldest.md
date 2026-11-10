@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/sworn-of-the-eldest"
 kind = "archetype"
 title = "Sworn of the Eldest"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Sworn%20of%20the%20Eldest"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sworn_of_the_eldest", path = "json/archetypes_inquisitor.json" },

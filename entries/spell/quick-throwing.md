@@ -2,6 +2,7 @@
 id = "ref/spell/quick-throwing"
 kind = "spell"
 title = "Quick Throwing"
+aon = "SpellDisplay.aspx?ItemName=Quick%20Throwing"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_throwing", path = "json/spells8.json" },

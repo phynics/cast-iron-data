@@ -2,6 +2,7 @@
 id = "ref/feat/improved-two-weapon-feint"
 kind = "feat"
 title = "Improved Two-Weapon Feint"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Two-Weapon%20Feint"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_two_weapon_feint", path = "json/feat09.json" },

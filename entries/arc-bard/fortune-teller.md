@@ -2,6 +2,7 @@
 id = "ref/arc-bard/fortune-teller"
 kind = "archetype"
 title = "Fortune-Teller"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Fortune-Teller"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_teller", path = "json/archetypes_bard.json" },

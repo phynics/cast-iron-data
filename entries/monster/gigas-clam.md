@@ -2,6 +2,7 @@
 id = "ref/monster/gigas-clam"
 kind = "creature"
 title = "Gigas Clam"
+aon = "MonsterDisplay.aspx?ItemName=Gigas%20Clam"
 source_ids = ["pathfinder-60-from-hells-heart"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gigas_clam", path = "json/monsters12.json" },

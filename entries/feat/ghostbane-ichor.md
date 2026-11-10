@@ -2,6 +2,7 @@
 id = "ref/feat/ghostbane-ichor"
 kind = "feat"
 title = "Ghostbane Ichor"
+aon = "FeatDisplay.aspx?ItemName=Ghostbane%20Ichor"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghostbane_ichor", path = "json/feat07.json" },

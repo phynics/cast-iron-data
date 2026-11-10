@@ -2,6 +2,7 @@
 id = "ref/feat/chilled-rock"
 kind = "feat"
 title = "Chilled Rock"
+aon = "FeatDisplay.aspx?ItemName=Chilled%20Rock"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chilled_rock", path = "json/feat03.json" },

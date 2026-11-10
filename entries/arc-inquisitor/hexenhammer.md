@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/hexenhammer"
 kind = "archetype"
 title = "Hexenhammer"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Hexenhammer"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hexenhammer", path = "json/archetypes_inquisitor.json" },

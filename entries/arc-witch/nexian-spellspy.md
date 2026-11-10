@@ -2,6 +2,7 @@
 id = "ref/arc-witch/nexian-spellspy"
 kind = "archetype"
 title = "Nexian Spellspy"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Nexian%20Spellspy"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nexian_spellspy", path = "json/archetypes_witch.json" },

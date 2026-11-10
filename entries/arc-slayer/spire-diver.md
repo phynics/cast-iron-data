@@ -2,6 +2,7 @@
 id = "ref/arc-slayer/spire-diver"
 kind = "archetype"
 title = "Spire Diver"
+aon = "ArchetypeDisplay.aspx?FixedName=Slayer%20Spire%20Diver"
 source_ids = ["pathfinder-124-city-in-the-deep"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spire_diver", path = "json/archetypes_slayer.json" },

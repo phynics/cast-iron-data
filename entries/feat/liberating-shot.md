@@ -2,6 +2,7 @@
 id = "ref/feat/liberating-shot"
 kind = "feat"
 title = "Liberating Shot"
+aon = "FeatDisplay.aspx?ItemName=Liberating%20Shot"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "liberating_shot", path = "json/feat10.json" },

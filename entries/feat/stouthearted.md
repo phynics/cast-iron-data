@@ -2,6 +2,7 @@
 id = "ref/feat/stouthearted"
 kind = "feat"
 title = "Stouthearted"
+aon = "FeatDisplay.aspx?ItemName=Stouthearted"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stouthearted", path = "json/feat15.json" },

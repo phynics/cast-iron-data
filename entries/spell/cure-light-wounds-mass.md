@@ -2,6 +2,7 @@
 id = "ref/spell/cure-light-wounds-mass"
 kind = "spell"
 title = "Mass Cure Light Wounds"
+aon = "SpellDisplay.aspx?ItemName=Cure%20Light%20Wounds%2C%20Mass"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cure_light_wounds_mass", path = "json/spells3.json" },

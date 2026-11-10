@@ -2,6 +2,7 @@
 id = "ref/trait/audrahnis-ally"
 kind = "trait"
 title = "Audrahni's Ally"
+aon = "TraitDisplay.aspx?ItemName=Audrahni%27s%20Ally"
 source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "audrahnis_ally", path = "json/traits02.json" },

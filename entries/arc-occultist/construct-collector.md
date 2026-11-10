@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/construct-collector"
 kind = "archetype"
 title = "Construct Collector"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Construct%20Collector"
 source_ids = ["construct-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_collector", path = "json/archetypes_occultist.json" },

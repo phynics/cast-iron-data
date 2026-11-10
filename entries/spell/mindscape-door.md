@@ -2,6 +2,7 @@
 id = "ref/spell/mindscape-door"
 kind = "spell"
 title = "Mindscape Door"
+aon = "SpellDisplay.aspx?ItemName=Mindscape%20Door"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindscape_door", path = "json/spells14.json" },

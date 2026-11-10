@@ -2,6 +2,7 @@
 id = "ref/monster/smoke-sentinel"
 kind = "creature"
 title = "Smoke Sentinel"
+aon = "MonsterDisplay.aspx?ItemName=Smoke%20Sentinel"
 source_ids = ["pathfinder-122-into-the-shattered-continent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_sentinel", path = "json/monsters22.json" },

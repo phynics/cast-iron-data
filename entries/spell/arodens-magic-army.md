@@ -2,6 +2,7 @@
 id = "ref/spell/arodens-magic-army"
 kind = "spell"
 title = "Aroden's Magic Army"
+aon = "SpellDisplay.aspx?ItemName=Aroden%27s%20Magic%20Army"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arodens_magic_army", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/sandman"
 kind = "archetype"
 title = "Sandman"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Sandman"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandman", path = "json/archetypes_bard2.json" },

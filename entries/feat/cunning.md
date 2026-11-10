@@ -2,6 +2,7 @@
 id = "ref/feat/cunning"
 kind = "feat"
 title = "Cunning"
+aon = "FeatDisplay.aspx?ItemName=Cunning"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/kami-talker"
 kind = "trait"
 title = "Kami Talker"
+aon = "TraitDisplay.aspx?ItemName=Kami%20Talker"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kami_talker", path = "json/traits04.json" },

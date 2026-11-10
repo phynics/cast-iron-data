@@ -2,6 +2,7 @@
 id = "ref/spell/compel-tongue-mass"
 kind = "spell"
 title = "Mass Compel Tongue"
+aon = "SpellDisplay.aspx?ItemName=Compel%20Tongue%2C%20Mass"
 source_ids = ["advanced-players-guide", "black-markets", "ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compel_tongue_mass", path = "json/spells9.json" },

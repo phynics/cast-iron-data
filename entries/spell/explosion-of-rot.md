@@ -2,6 +2,7 @@
 id = "ref/spell/explosion-of-rot"
 kind = "spell"
 title = "Explosion of Rot"
+aon = "SpellDisplay.aspx?ItemName=Explosion%20of%20Rot"
 source_ids = ["ultimate-wilderness", "champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "explosion_of_rot", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/wand-dancer"
 kind = "feat"
 title = "Wand Dancer"
+aon = "FeatDisplay.aspx?ItemName=Wand%20Dancer"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wand_dancer", path = "json/feat17.json" },

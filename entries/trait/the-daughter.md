@@ -2,6 +2,7 @@
 id = "ref/trait/the-daughter"
 kind = "trait"
 title = "The Daughter"
+aon = "TraitDisplay.aspx?ItemName=The%20Daughter"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_daughter", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/clearheaded"
 kind = "trait"
 title = "Clearheaded"
+aon = "TraitDisplay.aspx?ItemName=Clearheaded"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clearheaded", path = "json/traits05.json" },

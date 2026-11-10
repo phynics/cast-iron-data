@@ -2,6 +2,7 @@
 id = "ref/spell/hypercognition"
 kind = "spell"
 title = "Hypercognition"
+aon = "SpellDisplay.aspx?ItemName=Hypercognition"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypercognition", path = "json/spells5.json" },

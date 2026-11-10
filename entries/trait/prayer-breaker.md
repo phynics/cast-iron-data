@@ -2,6 +2,7 @@
 id = "ref/trait/prayer-breaker"
 kind = "trait"
 title = "Prayer Breaker"
+aon = "TraitDisplay.aspx?ItemName=Prayer%20Breaker"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prayer_breaker", path = "json/traits05.json" },

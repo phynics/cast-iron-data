@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/pei-zin-practitioner"
 kind = "archetype"
 title = "Pei Zin Practitioner"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Pei%20Zin%20Practitioner"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pei_zin_practitioner", path = "json/archetypes_oracle.json" },

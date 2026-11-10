@@ -2,6 +2,7 @@
 id = "ref/spell/underbrush-decoy"
 kind = "spell"
 title = "Underbrush Decoy"
+aon = "SpellDisplay.aspx?ItemName=Underbrush%20Decoy"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underbrush_decoy", path = "json/spells11.json" },

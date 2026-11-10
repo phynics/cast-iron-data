@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/cartographer"
 kind = "archetype"
 title = "Cartographer"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Cartographer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cartographer", path = "json/archetypes_investigator.json" },

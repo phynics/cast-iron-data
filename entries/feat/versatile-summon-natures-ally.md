@@ -2,6 +2,7 @@
 id = "ref/feat/versatile-summon-natures-ally"
 kind = "feat"
 title = "Versatile Summon Nature's Ally"
+aon = "FeatDisplay.aspx?ItemName=Versatile%20Summon%20Nature%27s%20Ally"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_summon_natures_ally", path = "json/feat17.json" },

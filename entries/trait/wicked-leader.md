@@ -2,6 +2,7 @@
 id = "ref/trait/wicked-leader"
 kind = "trait"
 title = "Wicked Leader"
+aon = "TraitDisplay.aspx?ItemName=Wicked%20Leader"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wicked_leader", path = "json/traits01.json" },

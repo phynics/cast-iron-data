@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-scholar"
 kind = "trait"
 title = "Arcane Scholar"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Scholar"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_scholar", path = "json/traits01.json" },

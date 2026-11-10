@@ -2,6 +2,7 @@
 id = "ref/feat/raging-brutality"
 kind = "feat"
 title = "Raging Brutality"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Brutality"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_brutality", path = "json/feat12.json" },

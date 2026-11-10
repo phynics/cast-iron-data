@@ -2,6 +2,7 @@
 id = "ref/feat/splash-volley"
 kind = "feat"
 title = "Splash Volley"
+aon = "FeatDisplay.aspx?ItemName=Splash%20Volley"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splash_volley", path = "json/feat15.json" },

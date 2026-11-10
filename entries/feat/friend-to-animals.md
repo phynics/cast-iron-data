@@ -2,6 +2,7 @@
 id = "ref/feat/friend-to-animals"
 kind = "feat"
 title = "Friend to Animals"
+aon = "FeatDisplay.aspx?ItemName=Friend%20to%20Animals"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "friend_to_animals", path = "json/feat07.json" },

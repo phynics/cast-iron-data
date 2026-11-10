@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/interrogator"
 kind = "archetype"
 title = "Interrogator"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Interrogator"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interrogator", path = "json/archetypes_alchemist2.json" },

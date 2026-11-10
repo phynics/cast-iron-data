@@ -2,6 +2,7 @@
 id = "ref/spell/glibness"
 kind = "spell"
 title = "Glibness"
+aon = "SpellDisplay.aspx?ItemName=Glibness"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glibness", path = "json/spells5.json" },

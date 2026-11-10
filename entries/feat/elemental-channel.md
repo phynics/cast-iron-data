@@ -2,6 +2,7 @@
 id = "ref/feat/elemental-channel"
 kind = "feat"
 title = "Elemental Channel"
+aon = "FeatDisplay.aspx?ItemName=Elemental%20Channel"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_channel", path = "json/feat05.json" },

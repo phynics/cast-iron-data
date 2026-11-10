@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/exemplar"
 kind = "archetype"
 title = "Exemplar"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Exemplar"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exemplar", path = "json/archetypes_brawler.json" },

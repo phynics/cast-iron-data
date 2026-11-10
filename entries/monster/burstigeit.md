@@ -2,6 +2,7 @@
 id = "ref/monster/burstigeit"
 kind = "creature"
 title = "Burstigeit"
+aon = "MonsterDisplay.aspx?ItemName=Burstigeit"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burstigeit", path = "json/monsters04.json" },

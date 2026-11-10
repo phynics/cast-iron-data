@@ -2,6 +2,7 @@
 id = "ref/spell/overlook"
 kind = "spell"
 title = "Overlook"
+aon = "SpellDisplay.aspx?ItemName=Overlook"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overlook", path = "json/spells7.json" },

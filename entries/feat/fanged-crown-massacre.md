@@ -2,6 +2,7 @@
 id = "ref/feat/fanged-crown-massacre"
 kind = "feat"
 title = "Fanged Crown Massacre"
+aon = "FeatDisplay.aspx?ItemName=Fanged%20Crown%20Massacre"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fanged_crown_massacre", path = "json/feat06.json" },

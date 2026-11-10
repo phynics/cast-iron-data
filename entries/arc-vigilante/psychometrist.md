@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/psychometrist"
 kind = "archetype"
 title = "Psychometrist"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Psychometrist"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychometrist", path = "json/archetypes_vigilante.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/mediator"
 kind = "trait"
 title = "Mediator"
+aon = "TraitDisplay.aspx?ItemName=Mediator"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mediator", path = "json/traits01.json" },

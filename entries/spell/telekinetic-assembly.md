@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-assembly"
 kind = "spell"
 title = "Telekinetic Assembly"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Assembly"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_assembly", path = "json/spells10.json" },

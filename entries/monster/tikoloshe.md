@@ -2,6 +2,7 @@
 id = "ref/monster/tikoloshe"
 kind = "creature"
 title = "Tikoloshe"
+aon = "MonsterDisplay.aspx?ItemName=Tikoloshe"
 source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tikoloshe", path = "json/monsters39.json" },

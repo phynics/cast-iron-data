@@ -2,6 +2,7 @@
 id = "ref/feat/extra-contingency"
 kind = "feat"
 title = "Extra Contingency"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Contingency"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_contingency", path = "json/feat06.json" },

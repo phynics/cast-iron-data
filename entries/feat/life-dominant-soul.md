@@ -2,6 +2,7 @@
 id = "ref/feat/life-dominant-soul"
 kind = "feat"
 title = "Life-Dominant Soul"
+aon = "FeatDisplay.aspx?ItemName=Life-Dominant%20Soul"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "life_dominant_soul", path = "json/feat10.json" },

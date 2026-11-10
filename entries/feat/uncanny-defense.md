@@ -2,6 +2,7 @@
 id = "ref/feat/uncanny-defense"
 kind = "feat"
 title = "Uncanny Defense"
+aon = "FeatDisplay.aspx?ItemName=Uncanny%20Defense"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_defense", path = "json/feat16.json" },

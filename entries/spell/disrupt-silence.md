@@ -2,6 +2,7 @@
 id = "ref/spell/disrupt-silence"
 kind = "spell"
 title = "Disrupt Silence"
+aon = "SpellDisplay.aspx?ItemName=Disrupt%20Silence"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_silence", path = "json/spells13.json" },

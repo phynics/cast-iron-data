@@ -2,6 +2,7 @@
 id = "ref/monster/giant-flytrap"
 kind = "creature"
 title = "Giant Flytrap"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Flytrap"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_flytrap", path = "json/monsters11.json" },

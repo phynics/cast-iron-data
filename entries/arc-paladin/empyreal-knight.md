@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/empyreal-knight"
 kind = "archetype"
 title = "Empyreal Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Empyreal%20Knight"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empyreal_knight", path = "json/archetypes_paladin.json" },

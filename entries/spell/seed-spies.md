@@ -2,6 +2,7 @@
 id = "ref/spell/seed-spies"
 kind = "spell"
 title = "Seed Spies"
+aon = "SpellDisplay.aspx?ItemName=Seed%20Spies"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seed_spies", path = "json/spells15.json" },

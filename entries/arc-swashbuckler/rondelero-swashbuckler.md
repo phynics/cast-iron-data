@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/rondelero-swashbuckler"
 kind = "archetype"
 title = "Rondelero Swashbuckler"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Rondelero%20Swashbuckler"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rondelero_swashbuckler", path = "json/archetypes_swashbuckler.json" },

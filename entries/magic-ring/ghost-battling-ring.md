@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ghost-battling-ring"
 kind = "item"
 title = "Ghost Battling Ring"
+aon = "MagicRingsDisplay.aspx?FinalName=Ghost%20Battling%20Ring"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_battling_ring", path = "json/magic_ring.json" },

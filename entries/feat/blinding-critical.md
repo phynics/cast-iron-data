@@ -2,6 +2,7 @@
 id = "ref/feat/blinding-critical"
 kind = "feat"
 title = "Blinding Critical"
+aon = "FeatDisplay.aspx?ItemName=Blinding%20Critical"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_critical", path = "json/feat02.json" },

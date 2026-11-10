@@ -2,6 +2,7 @@
 id = "ref/feat/light-bearer"
 kind = "feat"
 title = "Light Bearer"
+aon = "FeatDisplay.aspx?ItemName=Light%20Bearer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_bearer", path = "json/feat10.json" },

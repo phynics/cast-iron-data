@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sczarni-swindler"
 kind = "archetype"
 title = "Sczarni Swindler"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sczarni%20Swindler"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sczarni_swindler", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/crowd-control"
 kind = "feat"
 title = "Crowd Control"
+aon = "FeatDisplay.aspx?ItemName=Crowd%20Control"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crowd_control", path = "json/feat04.json" },

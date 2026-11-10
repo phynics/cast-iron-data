@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/code-runner"
 kind = "archetype"
 title = "Code Runner"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Code%20Runner"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "code_runner", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/watchful-eye"
 kind = "spell"
 title = "Watchful Eye"
+aon = "SpellDisplay.aspx?ItemName=Watchful%20Eye"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "watchful_eye", path = "json/spells11.json" },

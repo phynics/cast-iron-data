@@ -2,6 +2,7 @@
 id = "ref/spell/hardening"
 kind = "spell"
 title = "Hardening"
+aon = "SpellDisplay.aspx?ItemName=Hardening"
 source_ids = ["pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hardening", path = "json/spells5.json" },

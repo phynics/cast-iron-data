@@ -2,6 +2,7 @@
 id = "ref/spell/banishment"
 kind = "spell"
 title = "Banishment"
+aon = "SpellDisplay.aspx?ItemName=Banishment"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "banishment", path = "json/spells12.json" },

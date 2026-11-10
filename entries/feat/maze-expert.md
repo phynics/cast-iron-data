@@ -2,6 +2,7 @@
 id = "ref/feat/maze-expert"
 kind = "feat"
 title = "Maze Expert"
+aon = "FeatDisplay.aspx?ItemName=Maze%20Expert"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maze_expert", path = "json/feat10.json" },

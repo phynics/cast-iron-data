@@ -2,6 +2,7 @@
 id = "ref/feat/reckless-moves"
 kind = "feat"
 title = "Reckless Moves"
+aon = "FeatDisplay.aspx?ItemName=Reckless%20Moves"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reckless_moves", path = "json/feat13.json" },

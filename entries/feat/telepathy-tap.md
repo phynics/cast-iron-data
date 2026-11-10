@@ -2,6 +2,7 @@
 id = "ref/feat/telepathy-tap"
 kind = "feat"
 title = "Telepathy Tap"
+aon = "FeatDisplay.aspx?ItemName=Telepathy%20Tap"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telepathy_tap", path = "json/feat16.json" },

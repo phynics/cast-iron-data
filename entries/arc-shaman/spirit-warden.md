@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/spirit-warden"
 kind = "archetype"
 title = "Spirit Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Spirit%20Warden"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_warden", path = "json/archetypes_shaman.json" },

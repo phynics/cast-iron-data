@@ -2,6 +2,7 @@
 id = "ref/monster/water-leaper"
 kind = "creature"
 title = "Water Leaper"
+aon = "MonsterDisplay.aspx?ItemName=Water%20Leaper"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "water_leaper", path = "json/monsters25.json" },

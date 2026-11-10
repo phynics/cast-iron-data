@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/pack-mule"
 kind = "archetype"
 title = "Pack Mule"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Pack%20Mule"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_mule", path = "json/archetypes_fighter2.json" },

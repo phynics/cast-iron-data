@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/fell-rider"
 kind = "archetype"
 title = "Fell Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Fell%20Rider"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fell_rider", path = "json/archetypes_cavalier.json" },

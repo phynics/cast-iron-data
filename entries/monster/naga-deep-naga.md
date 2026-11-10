@@ -2,6 +2,7 @@
 id = "ref/monster/naga-deep-naga"
 kind = "creature"
 title = "Deep Naga"
+aon = "MonsterDisplay.aspx?ItemName=Deep%20Naga"
 source_ids = ["pathfinder-118-siege-of-stone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_deep_naga", path = "json/monsters35.json" },

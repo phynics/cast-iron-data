@@ -2,6 +2,7 @@
 id = "ref/feat/guardian-of-the-wild"
 kind = "feat"
 title = "Guardian of the Wild"
+aon = "FeatDisplay.aspx?ItemName=Guardian%20of%20the%20Wild"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guardian_of_the_wild", path = "json/feat08.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/chains-of-light"
 kind = "spell"
 title = "Chains of Light"
+aon = "SpellDisplay.aspx?ItemName=Chains%20of%20Light"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chains_of_light", path = "json/spells2.json" },

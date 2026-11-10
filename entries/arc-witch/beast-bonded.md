@@ -2,6 +2,7 @@
 id = "ref/arc-witch/beast-bonded"
 kind = "archetype"
 title = "Beast-Bonded"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Beast-Bonded"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_bonded", path = "json/archetypes_witch.json" },

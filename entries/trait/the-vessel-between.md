@@ -2,6 +2,7 @@
 id = "ref/trait/the-vessel-between"
 kind = "trait"
 title = "The Vessel Between"
+aon = "TraitDisplay.aspx?ItemName=The%20Vessel%20Between"
 source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_vessel_between", path = "json/traits04.json" },

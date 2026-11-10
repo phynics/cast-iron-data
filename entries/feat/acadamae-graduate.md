@@ -2,6 +2,7 @@
 id = "ref/feat/acadamae-graduate"
 kind = "feat"
 title = "Acadamae Graduate"
+aon = "FeatDisplay.aspx?ItemName=Acadamae%20Graduate"
 source_ids = ["curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acadamae_graduate", path = "json/feat01.json" },

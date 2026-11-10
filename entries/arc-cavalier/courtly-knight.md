@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/courtly-knight"
 kind = "archetype"
 title = "Courtly Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Courtly%20Knight"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courtly_knight", path = "json/archetypes_cavalier.json" },

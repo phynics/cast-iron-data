@@ -2,6 +2,7 @@
 id = "ref/feat/gnome-weapon-focus"
 kind = "feat"
 title = "Gnome Weapon Focus"
+aon = "FeatDisplay.aspx?ItemName=Gnome%20Weapon%20Focus"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome_weapon_focus", path = "json/feat07.json" },

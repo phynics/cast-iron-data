@@ -2,6 +2,7 @@
 id = "ref/spell/decrepit-disguise"
 kind = "spell"
 title = "Decrepit Disguise"
+aon = "SpellDisplay.aspx?ItemName=Decrepit%20Disguise"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "decrepit_disguise", path = "json/spells3.json" },

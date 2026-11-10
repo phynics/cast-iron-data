@@ -2,6 +2,7 @@
 id = "ref/feat/improved-natural-poison-harvester"
 kind = "feat"
 title = "Improved Natural Poison Harvester"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Natural%20Poison%20Harvester"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_natural_poison_harvester", path = "json/feat09.json" },

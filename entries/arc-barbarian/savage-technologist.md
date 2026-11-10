@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/savage-technologist"
 kind = "archetype"
 title = "Savage Technologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Savage%20Technologist"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_technologist", path = "json/archetypes_barbarian.json" },

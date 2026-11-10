@@ -2,6 +2,7 @@
 id = "ref/trait/legalistic-liberation"
 kind = "trait"
 title = "Legalistic Liberation"
+aon = "TraitDisplay.aspx?ItemName=Legalistic%20Liberation"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "legalistic_liberation", path = "json/traits04.json" },

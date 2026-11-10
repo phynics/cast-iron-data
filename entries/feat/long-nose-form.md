@@ -2,6 +2,7 @@
 id = "ref/feat/long-nose-form"
 kind = "feat"
 title = "Long-Nose Form"
+aon = "FeatDisplay.aspx?ItemName=Long-Nose%20Form"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "long_nose_form", path = "json/feat10.json" },

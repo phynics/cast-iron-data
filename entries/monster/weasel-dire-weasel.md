@@ -2,6 +2,7 @@
 id = "ref/monster/weasel-dire-weasel"
 kind = "creature"
 title = "Dire Weasel"
+aon = "MonsterDisplay.aspx?ItemName=Dire%20Weasel"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weasel_dire_weasel", path = "json/monsters25.json" },

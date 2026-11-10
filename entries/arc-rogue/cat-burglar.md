@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/cat-burglar"
 kind = "archetype"
 title = "Cat Burglar"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Cat%20Burglar"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cat_burglar", path = "json/archetypes_rogue.json" },

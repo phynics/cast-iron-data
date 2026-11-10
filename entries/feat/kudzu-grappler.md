@@ -2,6 +2,7 @@
 id = "ref/feat/kudzu-grappler"
 kind = "feat"
 title = "Kudzu Grappler"
+aon = "FeatDisplay.aspx?ItemName=Kudzu%20Grappler"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kudzu_grappler", path = "json/feat10.json" },

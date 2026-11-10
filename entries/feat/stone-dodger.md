@@ -2,6 +2,7 @@
 id = "ref/feat/stone-dodger"
 kind = "feat"
 title = "Stone Dodger"
+aon = "FeatDisplay.aspx?ItemName=Stone%20Dodger"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stone_dodger", path = "json/feat15.json" },

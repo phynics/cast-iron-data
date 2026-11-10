@@ -2,6 +2,7 @@
 id = "ref/feat/animal-soul"
 kind = "feat"
 title = "Animal Soul"
+aon = "FeatDisplay.aspx?ItemName=Animal%20Soul"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_soul", path = "json/feat01.json" },

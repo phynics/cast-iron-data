@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/divine-scourge"
 kind = "archetype"
 title = "Divine Scourge"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Divine%20Scourge"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_scourge", path = "json/archetypes_cleric.json" },

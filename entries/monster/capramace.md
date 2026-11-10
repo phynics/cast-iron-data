@@ -2,6 +2,7 @@
 id = "ref/monster/capramace"
 kind = "creature"
 title = "Capramace"
+aon = "MonsterDisplay.aspx?ItemName=Capramace"
 source_ids = ["bestiary-5", "wardens-of-the-reborn-forge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "capramace", path = "json/monsters04.json" },

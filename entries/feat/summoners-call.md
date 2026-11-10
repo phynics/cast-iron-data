@@ -2,6 +2,7 @@
 id = "ref/feat/summoners-call"
 kind = "feat"
 title = "Summoner's Call"
+aon = "FeatDisplay.aspx?ItemName=Summoner%27s%20Call"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summoners_call", path = "json/feat15.json" },

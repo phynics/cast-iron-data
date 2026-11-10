@@ -2,6 +2,7 @@
 id = "ref/trait/fortified-drinker"
 kind = "trait"
 title = "Fortified Drinker"
+aon = "TraitDisplay.aspx?ItemName=Fortified%20Drinker"
 source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortified_drinker", path = "json/traits03.json" },

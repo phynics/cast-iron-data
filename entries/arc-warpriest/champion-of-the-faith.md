@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/champion-of-the-faith"
 kind = "archetype"
 title = "Champion of the Faith"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Champion%20of%20the%20Faith"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "champion_of_the_faith", path = "json/archetypes_warpriest.json" },

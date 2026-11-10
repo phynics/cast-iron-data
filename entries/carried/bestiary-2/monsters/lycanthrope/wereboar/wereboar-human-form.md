@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/lycanthrope/wereboar/wereboar-human-form"
 kind = "creature"
 title = "Wereboar (Human Form)"
+aon = "MonsterDisplay.aspx?ItemName=Wereboar%20%28Human%20Form%29"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Lycanthrope", "Wereboar"]
 tags = ["humanoid", "human", "shapechanger", "medium"]

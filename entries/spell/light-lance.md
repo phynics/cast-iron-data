@@ -2,6 +2,7 @@
 id = "ref/spell/light-lance"
 kind = "spell"
 title = "Light Lance"
+aon = "SpellDisplay.aspx?ItemName=Light%20Lance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_lance", path = "json/spells6.json" },

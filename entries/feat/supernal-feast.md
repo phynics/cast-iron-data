@@ -2,6 +2,7 @@
 id = "ref/feat/supernal-feast"
 kind = "feat"
 title = "Supernal Feast"
+aon = "FeatDisplay.aspx?ItemName=Supernal%20Feast"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "supernal_feast", path = "json/feat15.json" },

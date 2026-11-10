@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-freedom-of-movement"
 kind = "item"
 title = "Ring of Freedom of Movement"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Freedom%20of%20Movement"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_freedom_of_movement", path = "json/magic_ring.json" },

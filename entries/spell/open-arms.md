@@ -2,6 +2,7 @@
 id = "ref/spell/open-arms"
 kind = "spell"
 title = "Open Arms"
+aon = "SpellDisplay.aspx?ItemName=Open%20Arms"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_arms", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/deepwater-rager"
 kind = "archetype"
 title = "Deepwater Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Deepwater%20Rager"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deepwater_rager", path = "json/archetypes_barbarian.json" },

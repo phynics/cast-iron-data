@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/cinderlands-adept"
 kind = "archetype"
 title = "Cinderlands Adept"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Cinderlands%20Adept"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cinderlands_adept", path = "json/archetypes_kineticist.json" },

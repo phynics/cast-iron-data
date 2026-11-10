@@ -2,6 +2,7 @@
 id = "ref/feat/chairbreaker"
 kind = "feat"
 title = "Chairbreaker"
+aon = "FeatDisplay.aspx?ItemName=Chairbreaker"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chairbreaker", path = "json/feat03.json" },

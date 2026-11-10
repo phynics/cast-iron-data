@@ -2,6 +2,7 @@
 id = "ref/spell/levitate"
 kind = "spell"
 title = "Levitate"
+aon = "SpellDisplay.aspx?ItemName=Levitate"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "levitate", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/blur"
 kind = "spell"
 title = "Blur"
+aon = "SpellDisplay.aspx?ItemName=Blur"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blur", path = "json/spells2.json" },

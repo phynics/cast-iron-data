@@ -2,6 +2,7 @@
 id = "ref/spell/heros-defiance"
 kind = "spell"
 title = "Hero's Defiance"
+aon = "SpellDisplay.aspx?ItemName=Hero%27s%20Defiance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heros_defiance", path = "json/spells5.json" },

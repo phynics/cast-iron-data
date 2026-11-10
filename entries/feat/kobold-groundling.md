@@ -2,6 +2,7 @@
 id = "ref/feat/kobold-groundling"
 kind = "feat"
 title = "Kobold Groundling"
+aon = "FeatDisplay.aspx?ItemName=Kobold%20Groundling"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kobold_groundling", path = "json/feat09.json" },

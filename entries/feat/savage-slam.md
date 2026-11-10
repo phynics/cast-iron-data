@@ -2,6 +2,7 @@
 id = "ref/feat/savage-slam"
 kind = "feat"
 title = "Savage Slam"
+aon = "FeatDisplay.aspx?ItemName=Savage%20Slam"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_slam", path = "json/feat13.json" },

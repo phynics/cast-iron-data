@@ -2,6 +2,7 @@
 id = "ref/trait/charmed-innocent"
 kind = "trait"
 title = "Charmed Innocent"
+aon = "TraitDisplay.aspx?ItemName=Charmed%20Innocent"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charmed_innocent", path = "json/traits04.json" },

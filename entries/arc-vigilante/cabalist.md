@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/cabalist"
 kind = "archetype"
 title = "Cabalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Cabalist"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cabalist", path = "json/archetypes_vigilante.json" },

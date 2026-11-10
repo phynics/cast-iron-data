@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/chirurgeon"
 kind = "archetype"
 title = "Chirurgeon"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Chirurgeon"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chirurgeon", path = "json/archetypes_alchemist.json" },

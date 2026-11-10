@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/invulnerable-rager"
 kind = "archetype"
 title = "Invulnerable Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Invulnerable%20Rager"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invulnerable_rager", path = "json/archetypes_barbarian.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/intimidating-gaze"
 kind = "feat"
 title = "Intimidating Gaze"
+aon = "FeatDisplay.aspx?ItemName=Intimidating%20Gaze"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_gaze", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/scion-of-talmandor"
 kind = "archetype"
 title = "Scion of Talmandor"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Scion%20of%20Talmandor"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_talmandor", path = "json/archetypes_paladin.json" },

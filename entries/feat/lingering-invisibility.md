@@ -2,6 +2,7 @@
 id = "ref/feat/lingering-invisibility"
 kind = "feat"
 title = "Lingering Invisibility"
+aon = "FeatDisplay.aspx?ItemName=Lingering%20Invisibility"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_invisibility", path = "json/feat10.json" },

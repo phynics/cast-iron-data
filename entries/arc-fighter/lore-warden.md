@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/lore-warden"
 kind = "archetype"
 title = "Lore Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Lore%20Warden"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore_warden", path = "json/archetypes_fighter.json" },

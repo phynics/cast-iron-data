@@ -2,6 +2,7 @@
 id = "ref/monster/seps-juvenile-seps"
 kind = "creature"
 title = "Juvenile Seps"
+aon = "MonsterDisplay.aspx?ItemName=Juvenile%20Seps"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seps_juvenile_seps", path = "json/monsters21.json" },

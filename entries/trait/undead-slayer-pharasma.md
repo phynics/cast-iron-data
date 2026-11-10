@@ -2,6 +2,7 @@
 id = "ref/trait/undead-slayer-pharasma"
 kind = "trait"
 title = "Undead Slayer (Pharasma)"
+aon = "TraitDisplay.aspx?ItemName=Undead%20Slayer%20%28Pharasma%29"
 source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_slayer_pharasma", path = "json/traits03.json" },

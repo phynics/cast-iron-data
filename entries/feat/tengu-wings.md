@@ -2,6 +2,7 @@
 id = "ref/feat/tengu-wings"
 kind = "feat"
 title = "Tengu Wings"
+aon = "FeatDisplay.aspx?ItemName=Tengu%20Wings"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tengu_wings", path = "json/feat16.json" },

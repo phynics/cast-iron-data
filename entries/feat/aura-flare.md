@@ -2,6 +2,7 @@
 id = "ref/feat/aura-flare"
 kind = "feat"
 title = "Aura Flare"
+aon = "FeatDisplay.aspx?ItemName=Aura%20Flare"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aura_flare", path = "json/feat01.json" },

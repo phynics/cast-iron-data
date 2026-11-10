@@ -2,6 +2,7 @@
 id = "ref/spell/abadars-truthtelling"
 kind = "spell"
 title = "Abadar's Truthtelling"
+aon = "SpellDisplay.aspx?ItemName=Abadar%27s%20Truthtelling"
 source_ids = ["inner-sea-gods", "pathfinder-8-seven-days-to-the-grave", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abadars_truthtelling", path = "json/spells.json" },

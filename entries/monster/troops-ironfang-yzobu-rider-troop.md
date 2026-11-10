@@ -2,6 +2,7 @@
 id = "ref/monster/troops-ironfang-yzobu-rider-troop"
 kind = "creature"
 title = "Ironfang Yzobu Rider Troop"
+aon = "MonsterDisplay.aspx?ItemName=Ironfang%20Yzobu%20Rider%20Troop"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_ironfang_yzobu_rider_troop", path = "json/monsters24.json" },

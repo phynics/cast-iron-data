@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/blightburner"
 kind = "archetype"
 title = "Blightburner"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Blightburner"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburner", path = "json/archetypes_kineticist.json" },

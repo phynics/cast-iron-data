@@ -2,6 +2,7 @@
 id = "ref/monster/sarcovalt"
 kind = "creature"
 title = "Sarcovalt"
+aon = "MonsterDisplay.aspx?ItemName=Sarcovalt"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sarcovalt", path = "json/monsters21.json" },

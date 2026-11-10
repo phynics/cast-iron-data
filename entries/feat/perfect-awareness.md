@@ -2,6 +2,7 @@
 id = "ref/feat/perfect-awareness"
 kind = "feat"
 title = "Perfect Awareness"
+aon = "FeatDisplay.aspx?ItemName=Perfect%20Awareness"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perfect_awareness", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/giant-vault-giant"
 kind = "creature"
 title = "Vault Giant"
+aon = "MonsterDisplay.aspx?ItemName=Vault%20Giant"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_vault_giant", path = "json/monsters32.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/scarred-rager"
 kind = "archetype"
 title = "Scarred Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Scarred%20Rager"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarred_rager", path = "json/archetypes_barbarian.json" },

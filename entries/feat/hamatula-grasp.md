@@ -2,6 +2,7 @@
 id = "ref/feat/hamatula-grasp"
 kind = "feat"
 title = "Hamatula Grasp"
+aon = "FeatDisplay.aspx?ItemName=Hamatula%20Grasp"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatula_grasp", path = "json/feat08.json" },

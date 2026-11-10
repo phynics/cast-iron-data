@@ -2,6 +2,7 @@
 id = "ref/monster/jellyfish-deaths-head-jellyfish"
 kind = "creature"
 title = "Death's Head Jellyfish"
+aon = "MonsterDisplay.aspx?ItemName=Death%E2%80%99s%20Head%20Jellyfish"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jellyfish_deaths_head_jellyfish", path = "json/monsters34.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/two-weapon-fighting/teitr"
 kind = "feat"
 title = "Two-Weapon Fighting"
+aon = "FeatDisplay.aspx?ItemName=Two-Weapon%20Fighting"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/two-weapon-fighting" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/falconer"
 kind = "archetype"
 title = "Falconer"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Falconer"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falconer", path = "json/archetypes_ranger.json" },

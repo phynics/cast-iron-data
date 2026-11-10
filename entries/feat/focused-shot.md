@@ -2,6 +2,7 @@
 id = "ref/feat/focused-shot"
 kind = "feat"
 title = "Focused Shot"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Shot"
 source_ids = ["advanced-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_shot", path = "json/feat07.json" },

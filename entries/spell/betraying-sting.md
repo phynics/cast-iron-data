@@ -2,6 +2,7 @@
 id = "ref/spell/betraying-sting"
 kind = "spell"
 title = "Betraying Sting"
+aon = "SpellDisplay.aspx?ItemName=Betraying%20Sting"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "betraying_sting", path = "json/spells12.json" },

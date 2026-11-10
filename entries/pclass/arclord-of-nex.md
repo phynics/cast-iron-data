@@ -2,6 +2,7 @@
 id = "ref/pclass/arclord-of-nex"
 kind = "prestige_class"
 title = "Arclord of Nex"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Arclord%20of%20Nex"
 source_ids = ["paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arclord_of_nex", path = "json/prestige_classes.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/street-carnage"
 kind = "feat"
 title = "Street Carnage"
+aon = "FeatDisplay.aspx?ItemName=Street%20Carnage"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "street_carnage", path = "json/feat15.json" },

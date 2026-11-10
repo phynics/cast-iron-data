@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/holy-beast"
 kind = "archetype"
 title = "Holy Beast"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Holy%20Beast"
 source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "holy_beast", path = "json/archetypes_shifter.json" },

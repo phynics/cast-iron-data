@@ -2,6 +2,7 @@
 id = "ref/trait/seer-of-reality"
 kind = "trait"
 title = "Seer of Reality"
+aon = "TraitDisplay.aspx?ItemName=Seer%20of%20Reality"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seer_of_reality", path = "json/traits03.json" },

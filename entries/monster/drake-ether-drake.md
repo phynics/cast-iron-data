@@ -2,6 +2,7 @@
 id = "ref/monster/drake-ether-drake"
 kind = "creature"
 title = "Ether Drake"
+aon = "MonsterDisplay.aspx?ItemName=Ether%20Drake"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drake_ether_drake", path = "json/monsters31.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/beast-rider"
 kind = "archetype"
 title = "Beast Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Beast%20Rider"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_rider", path = "json/archetypes_cavalier.json" },

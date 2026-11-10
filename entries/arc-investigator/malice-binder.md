@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/malice-binder"
 kind = "archetype"
 title = "Malice Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Malice%20Binder"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malice_binder", path = "json/archetypes_investigator.json" },

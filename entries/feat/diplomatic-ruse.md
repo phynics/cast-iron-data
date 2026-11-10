@@ -2,6 +2,7 @@
 id = "ref/feat/diplomatic-ruse"
 kind = "feat"
 title = "Diplomatic Ruse"
+aon = "FeatDisplay.aspx?ItemName=Diplomatic%20Ruse"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diplomatic_ruse", path = "json/feat04.json" },

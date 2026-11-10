@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/faithful-wanderer"
 kind = "archetype"
 title = "Faithful Wanderer"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Faithful%20Wanderer"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faithful_wanderer", path = "json/archetypes_paladin.json" },

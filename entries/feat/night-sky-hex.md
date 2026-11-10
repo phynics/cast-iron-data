@@ -2,6 +2,7 @@
 id = "ref/feat/night-sky-hex"
 kind = "feat"
 title = "Night Sky Hex"
+aon = "FeatDisplay.aspx?ItemName=Night%20Sky%20Hex"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_sky_hex", path = "json/feat11.json" },

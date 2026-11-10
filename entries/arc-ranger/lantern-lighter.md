@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/lantern-lighter"
 kind = "archetype"
 title = "Lantern Lighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Lantern%20Lighter"
 source_ids = ["adventurers-guide", "inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_lighter", path = "json/archetypes_ranger.json" },

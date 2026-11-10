@@ -2,6 +2,7 @@
 id = "ref/trait/valashmai-veteran"
 kind = "trait"
 title = "Valashmai Veteran"
+aon = "TraitDisplay.aspx?ItemName=Valashmai%20Veteran"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "valashmai_veteran", path = "json/traits04.json" },

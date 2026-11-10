@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/secret-broker"
 kind = "archetype"
 title = "Secret Broker"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Secret%20Broker"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_broker", path = "json/archetypes_occultist.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/calm-spirit"
 kind = "spell"
 title = "Calm Spirit"
+aon = "SpellDisplay.aspx?ItemName=Calm%20Spirit"
 source_ids = ["occult-adventures", "occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calm_spirit", path = "json/spells2.json" },

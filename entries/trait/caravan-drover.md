@@ -2,6 +2,7 @@
 id = "ref/trait/caravan-drover"
 kind = "trait"
 title = "Caravan Drover"
+aon = "TraitDisplay.aspx?ItemName=Caravan%20Drover"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caravan_drover", path = "json/traits05.json" },

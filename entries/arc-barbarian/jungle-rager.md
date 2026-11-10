@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/jungle-rager"
 kind = "archetype"
 title = "Jungle Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Jungle%20Rager"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jungle_rager", path = "json/archetypes_barbarian.json" },

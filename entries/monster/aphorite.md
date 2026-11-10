@@ -2,6 +2,7 @@
 id = "ref/monster/aphorite"
 kind = "creature"
 title = "Aphorite"
+aon = "MonsterDisplay.aspx?ItemName=Aphorite"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aphorite", path = "json/monsters02.json" },

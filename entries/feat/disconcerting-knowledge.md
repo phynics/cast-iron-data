@@ -2,6 +2,7 @@
 id = "ref/feat/disconcerting-knowledge"
 kind = "feat"
 title = "Disconcerting Knowledge"
+aon = "FeatDisplay.aspx?ItemName=Disconcerting%20Knowledge"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disconcerting_knowledge", path = "json/feat04.json" },

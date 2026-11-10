@@ -2,6 +2,7 @@
 id = "ref/spell/fog-cloud"
 kind = "spell"
 title = "Fog Cloud"
+aon = "SpellDisplay.aspx?ItemName=Fog%20Cloud"
 source_ids = ["core-rulebook", "potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fog_cloud", path = "json/spells4.json" },

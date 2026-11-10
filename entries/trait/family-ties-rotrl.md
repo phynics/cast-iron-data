@@ -2,6 +2,7 @@
 id = "ref/trait/family-ties-rotrl"
 kind = "trait"
 title = "Family Ties (RotRL)"
+aon = "TraitDisplay.aspx?ItemName=Family%20Ties%20%28RotRL%29"
 source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_ties_rotrl", path = "json/traits02.json" },

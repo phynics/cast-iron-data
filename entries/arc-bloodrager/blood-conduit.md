@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/blood-conduit"
 kind = "archetype"
 title = "Blood Conduit"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Blood%20Conduit"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_conduit", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-monk/hamatulatsu-master"
 kind = "archetype"
 title = "Hamatulatsu Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Hamatulatsu%20Master"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hamatulatsu_master", path = "json/archetypes_monk.json" },

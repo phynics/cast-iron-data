@@ -2,6 +2,7 @@
 id = "ref/trait/vile-kiss"
 kind = "trait"
 title = "Vile Kiss"
+aon = "TraitDisplay.aspx?ItemName=Vile%20Kiss"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vile_kiss", path = "json/traits05.json" },

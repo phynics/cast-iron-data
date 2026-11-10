@@ -2,6 +2,7 @@
 id = "ref/monster/blodeuwedd"
 kind = "creature"
 title = "Blodeuwedd"
+aon = "MonsterDisplay.aspx?ItemName=Blodeuwedd"
 source_ids = ["pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blodeuwedd", path = "json/monsters27.json" },

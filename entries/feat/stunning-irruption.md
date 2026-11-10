@@ -2,6 +2,7 @@
 id = "ref/feat/stunning-irruption"
 kind = "feat"
 title = "Stunning Irruption"
+aon = "FeatDisplay.aspx?ItemName=Stunning%20Irruption"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stunning_irruption", path = "json/feat15.json" },

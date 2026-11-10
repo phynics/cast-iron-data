@@ -2,6 +2,7 @@
 id = "ref/monster/swan-trumpeter-swan"
 kind = "creature"
 title = "Trumpeter Swan"
+aon = "MonsterDisplay.aspx?ItemName=Trumpeter%20Swan"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swan_trumpeter_swan", path = "json/monsters24.json" },

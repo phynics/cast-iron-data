@@ -2,6 +2,7 @@
 id = "ref/trait/lantern-spirit"
 kind = "trait"
 title = "Lantern Spirit"
+aon = "TraitDisplay.aspx?ItemName=Lantern%20Spirit"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lantern_spirit", path = "json/traits05.json" },

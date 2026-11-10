@@ -2,6 +2,7 @@
 id = "ref/arc-druid/ape-shaman"
 kind = "archetype"
 title = "Ape Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Ape%20Shaman"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ape_shaman", path = "json/archetypes_druid.json" },

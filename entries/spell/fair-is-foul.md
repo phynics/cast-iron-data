@@ -2,6 +2,7 @@
 id = "ref/spell/fair-is-foul"
 kind = "spell"
 title = "Fair is Foul"
+aon = "SpellDisplay.aspx?ItemName=Fair%20is%20Foul"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fair_is_foul", path = "json/spells4.json" },

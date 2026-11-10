@@ -2,6 +2,7 @@
 id = "ref/trait/briar-bandit"
 kind = "trait"
 title = "Briar Bandit"
+aon = "TraitDisplay.aspx?ItemName=Briar%20Bandit"
 source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "briar_bandit", path = "json/traits04.json" },

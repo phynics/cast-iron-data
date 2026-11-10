@@ -2,6 +2,7 @@
 id = "ref/arc-druid/river-druid"
 kind = "archetype"
 title = "River Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20River%20Druid"
 source_ids = ["ultimate-wilderness", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_druid", path = "json/archetypes_druid2.json" },

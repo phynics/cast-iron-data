@@ -2,6 +2,7 @@
 id = "ref/monster/chronogeist"
 kind = "creature"
 title = "Chronogeist"
+aon = "MonsterDisplay.aspx?ItemName=Chronogeist"
 source_ids = ["pathfinder-137-the-city-outside-of-time"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chronogeist", path = "json/monsters05.json" },

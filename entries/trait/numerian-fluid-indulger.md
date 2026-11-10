@@ -2,6 +2,7 @@
 id = "ref/trait/numerian-fluid-indulger"
 kind = "trait"
 title = "Numerian Fluid Indulger"
+aon = "TraitDisplay.aspx?ItemName=Numerian%20Fluid%20Indulger"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_fluid_indulger", path = "json/traits01.json" },

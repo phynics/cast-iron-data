@@ -2,6 +2,7 @@
 id = "ref/spell/shocking-grasp"
 kind = "spell"
 title = "Shocking Grasp"
+aon = "SpellDisplay.aspx?ItemName=Shocking%20Grasp"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_grasp", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/class/warpriest"
 kind = "class"
 title = "Warpriest"
+aon = "ClassDisplay.aspx?ItemName=Warpriest"
 source_ids = ["advanced-class-guide", "advanced-players-guide", "adventurers-armory-2", "blood-of-shadows", "blood-of-the-beast", "chronicle-of-legends", "plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warpriest", path = "json/classes6.json" },

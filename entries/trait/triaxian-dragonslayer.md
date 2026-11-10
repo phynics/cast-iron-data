@@ -2,6 +2,7 @@
 id = "ref/trait/triaxian-dragonslayer"
 kind = "trait"
 title = "Triaxian Dragonslayer"
+aon = "TraitDisplay.aspx?ItemName=Triaxian%20Dragonslayer"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "triaxian_dragonslayer", path = "json/traits05.json" },

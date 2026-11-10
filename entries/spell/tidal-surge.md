@@ -2,6 +2,7 @@
 id = "ref/spell/tidal-surge"
 kind = "spell"
 title = "Tidal Surge"
+aon = "SpellDisplay.aspx?ItemName=Tidal%20Surge"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tidal_surge", path = "json/spells10.json" },

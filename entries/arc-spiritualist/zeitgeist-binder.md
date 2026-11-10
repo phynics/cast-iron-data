@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/zeitgeist-binder"
 kind = "archetype"
 title = "Zeitgeist Binder"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Zeitgeist%20Binder"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zeitgeist_binder", path = "json/archetypes_spiritualist.json" },

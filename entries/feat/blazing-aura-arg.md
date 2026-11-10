@@ -2,6 +2,7 @@
 id = "ref/feat/blazing-aura-arg"
 kind = "feat"
 title = "Blazing Aura (ARG)"
+aon = "FeatDisplay.aspx?ItemName=Blazing%20Aura%20%28ARG%29"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blazing_aura_arg", path = "json/feat02.json" },

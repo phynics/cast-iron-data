@@ -2,6 +2,7 @@
 id = "ref/feat/witty-feint"
 kind = "feat"
 title = "Witty Feint"
+aon = "FeatDisplay.aspx?ItemName=Witty%20Feint"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witty_feint", path = "json/feat17.json" },

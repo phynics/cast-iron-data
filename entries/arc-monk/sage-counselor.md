@@ -2,6 +2,7 @@
 id = "ref/arc-monk/sage-counselor"
 kind = "archetype"
 title = "Sage Counselor"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Sage%20Counselor"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sage_counselor", path = "json/archetypes_monk2.json" },

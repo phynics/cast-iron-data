@@ -2,6 +2,7 @@
 id = "ref/spell/echolocation"
 kind = "spell"
 title = "Echolocation"
+aon = "SpellDisplay.aspx?ItemName=Echolocation"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echolocation", path = "json/spells13.json" },

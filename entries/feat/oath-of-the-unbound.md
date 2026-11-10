@@ -2,6 +2,7 @@
 id = "ref/feat/oath-of-the-unbound"
 kind = "feat"
 title = "Oath of the Unbound"
+aon = "FeatDisplay.aspx?ItemName=Oath%20of%20the%20Unbound"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oath_of_the_unbound", path = "json/feat11.json" },

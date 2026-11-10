@@ -2,6 +2,7 @@
 id = "ref/feat/maddening-strike"
 kind = "feat"
 title = "Maddening Strike"
+aon = "FeatDisplay.aspx?ItemName=Maddening%20Strike"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "maddening_strike", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/gunner-squire"
 kind = "archetype"
 title = "Gunner Squire"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Gunner%20Squire"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gunner_squire", path = "json/archetypes_gunslinger.json" },

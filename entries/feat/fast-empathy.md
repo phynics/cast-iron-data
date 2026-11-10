@@ -2,6 +2,7 @@
 id = "ref/feat/fast-empathy"
 kind = "feat"
 title = "Fast Empathy"
+aon = "FeatDisplay.aspx?ItemName=Fast%20Empathy"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_empathy", path = "json/feat06.json" },

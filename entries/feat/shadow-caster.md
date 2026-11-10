@@ -2,6 +2,7 @@
 id = "ref/feat/shadow-caster"
 kind = "feat"
 title = "Shadow Caster"
+aon = "FeatDisplay.aspx?ItemName=Shadow%20Caster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_caster", path = "json/feat13.json" },

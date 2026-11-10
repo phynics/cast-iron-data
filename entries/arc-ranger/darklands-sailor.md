@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/darklands-sailor"
 kind = "archetype"
 title = "Darklands Sailor"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Darklands%20Sailor"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "darklands_sailor", path = "json/archetypes_ranger.json" },

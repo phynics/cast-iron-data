@@ -2,6 +2,7 @@
 id = "ref/arc-medium/voice-of-the-void"
 kind = "archetype"
 title = "Voice of the Void"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Voice%20of%20the%20Void"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_void", path = "json/archetypes_medium.json" },

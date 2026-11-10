@@ -2,6 +2,7 @@
 id = "ref/feat/filthy-weapons"
 kind = "feat"
 title = "Filthy Weapons"
+aon = "FeatDisplay.aspx?ItemName=Filthy%20Weapons"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "filthy_weapons", path = "json/feat07.json" },

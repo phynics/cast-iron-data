@@ -2,6 +2,7 @@
 id = "ref/feat/ennobled-resistances"
 kind = "feat"
 title = "Ennobled Resistances"
+aon = "FeatDisplay.aspx?ItemName=Ennobled%20Resistances"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ennobled_resistances", path = "json/feat05.json" },

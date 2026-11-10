@@ -2,6 +2,7 @@
 id = "ref/monster/gray-goo"
 kind = "creature"
 title = "Gray Goo"
+aon = "MonsterDisplay.aspx?ItemName=Gray%20Goo"
 source_ids = ["bestiary-5", "numeria-land-of-fallen-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gray_goo", path = "json/monsters12.json" },

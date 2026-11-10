@@ -2,6 +2,7 @@
 id = "ref/monster/aridus"
 kind = "creature"
 title = "Aridus, the Desert's Howl"
+aon = "MonsterDisplay.aspx?ItemName=Aridus%2C%20the%20Desert%27s%20Howl"
 source_ids = ["mythical-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aridus", path = "json/monsters_unique.json" },

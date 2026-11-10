@@ -2,6 +2,7 @@
 id = "ref/trait/bureaucrats-favored"
 kind = "trait"
 title = "Bureaucrat's Favored"
+aon = "TraitDisplay.aspx?ItemName=Bureaucrat%27s%20Favored"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bureaucrats_favored", path = "json/traits01.json" },

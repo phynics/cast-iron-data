@@ -2,6 +2,7 @@
 id = "ref/arc-bard/voice-of-the-wild"
 kind = "archetype"
 title = "Voice of the Wild"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Voice%20of%20the%20Wild"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voice_of_the_wild", path = "json/archetypes_bard2.json" },

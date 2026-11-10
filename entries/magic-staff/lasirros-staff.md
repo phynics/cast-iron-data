@@ -2,6 +2,7 @@
 id = "ref/magic-staff/lasirros-staff"
 kind = "item"
 title = "Lasirro's Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Lasirro%27s%20Staff"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lasirros_staff", path = "json/magic_staff.json" },

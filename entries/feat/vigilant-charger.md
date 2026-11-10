@@ -2,6 +2,7 @@
 id = "ref/feat/vigilant-charger"
 kind = "feat"
 title = "Vigilant Charger"
+aon = "FeatDisplay.aspx?ItemName=Vigilant%20Charger"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_charger", path = "json/feat17.json" },

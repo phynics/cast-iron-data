@@ -2,6 +2,7 @@
 id = "ref/spell/echo"
 kind = "spell"
 title = "Echo"
+aon = "SpellDisplay.aspx?ItemName=Echo"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "echo", path = "json/spells13.json" },

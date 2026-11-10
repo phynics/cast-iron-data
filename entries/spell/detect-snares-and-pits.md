@@ -2,6 +2,7 @@
 id = "ref/spell/detect-snares-and-pits"
 kind = "spell"
 title = "Detect Snares and Pits"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Snares%20and%20Pits"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_snares_and_pits", path = "json/spells3.json" },

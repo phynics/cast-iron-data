@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/dread-investigator"
 kind = "archetype"
 title = "Dread Investigator"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Dread%20Investigator"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dread_investigator", path = "json/archetypes_investigator.json" },

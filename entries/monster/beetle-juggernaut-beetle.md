@@ -2,6 +2,7 @@
 id = "ref/monster/beetle-juggernaut-beetle"
 kind = "creature"
 title = "Juggernaut Beetle"
+aon = "MonsterDisplay.aspx?ItemName=Juggernaut%20Beetle"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_juggernaut_beetle", path = "json/monsters03.json" },

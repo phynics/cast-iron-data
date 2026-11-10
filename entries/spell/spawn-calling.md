@@ -2,6 +2,7 @@
 id = "ref/spell/spawn-calling"
 kind = "spell"
 title = "Spawn Calling"
+aon = "SpellDisplay.aspx?ItemName=Spawn%20Calling"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spawn_calling", path = "json/spells9.json" },

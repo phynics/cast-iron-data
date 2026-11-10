@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wave-warden"
 kind = "archetype"
 title = "Wave Warden"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wave%20Warden"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wave_warden", path = "json/archetypes_ranger.json" },

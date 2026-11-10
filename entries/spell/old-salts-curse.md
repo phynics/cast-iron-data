@@ -2,6 +2,7 @@
 id = "ref/spell/old-salts-curse"
 kind = "spell"
 title = "Old Salt's Curse"
+aon = "SpellDisplay.aspx?ItemName=Old%20Salt%27s%20Curse"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_salts_curse", path = "json/spells7.json" },

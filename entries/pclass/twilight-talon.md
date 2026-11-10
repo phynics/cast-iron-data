@@ -2,6 +2,7 @@
 id = "ref/pclass/twilight-talon"
 kind = "prestige_class"
 title = "Twilight Talon"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Twilight%20Talon"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_talon", path = "json/prestige_classes3.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/twilight-tattoo"
 kind = "feat"
 title = "Twilight Tattoo"
+aon = "FeatDisplay.aspx?ItemName=Twilight%20Tattoo"
 source_ids = ["adventurers-guide", "andoran-birthplace-of-freedom"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_tattoo", path = "json/feat16.json" },

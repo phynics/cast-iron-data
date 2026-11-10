@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/the-bloodwind"
 kind = "item"
 title = "The Bloodwind"
+aon = "MagicIntelligentDisplay.aspx?ItemName=The%20Bloodwind"
 source_ids = ["pathfinder-111-dreams-of-the-yellow-king"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_bloodwind", path = "json/magic_wondrous_slotless06.json" },

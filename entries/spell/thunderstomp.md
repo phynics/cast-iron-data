@@ -2,6 +2,7 @@
 id = "ref/spell/thunderstomp"
 kind = "spell"
 title = "Thunderstomp"
+aon = "SpellDisplay.aspx?ItemName=Thunderstomp"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderstomp", path = "json/spells10.json" },

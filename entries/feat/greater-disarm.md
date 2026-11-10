@@ -2,6 +2,7 @@
 id = "ref/feat/greater-disarm"
 kind = "feat"
 title = "Greater Disarm"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Disarm"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_disarm", path = "json/feat08.json" },

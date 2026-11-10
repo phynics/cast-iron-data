@@ -2,6 +2,7 @@
 id = "ref/spell/searching-shadows"
 kind = "spell"
 title = "Searching Shadows"
+aon = "SpellDisplay.aspx?ItemName=Searching%20Shadows"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searching_shadows", path = "json/spells15.json" },

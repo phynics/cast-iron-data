@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/vox"
 kind = "archetype"
 title = "Vox"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Vox"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vox", path = "json/archetypes_mesmerist.json" },

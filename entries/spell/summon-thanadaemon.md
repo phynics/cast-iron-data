@@ -2,6 +2,7 @@
 id = "ref/spell/summon-thanadaemon"
 kind = "spell"
 title = "Summon Thanadaemon"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Thanadaemon"
 source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_thanadaemon", path = "json/spells16.json" },

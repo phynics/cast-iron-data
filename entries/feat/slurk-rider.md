@@ -2,6 +2,7 @@
 id = "ref/feat/slurk-rider"
 kind = "feat"
 title = "Slurk Rider"
+aon = "FeatDisplay.aspx?ItemName=Slurk%20Rider"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slurk_rider", path = "json/feat14.json" },

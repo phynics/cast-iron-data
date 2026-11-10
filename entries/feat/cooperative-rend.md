@@ -2,6 +2,7 @@
 id = "ref/feat/cooperative-rend"
 kind = "feat"
 title = "Cooperative Rend"
+aon = "FeatDisplay.aspx?ItemName=Cooperative%20Rend"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cooperative_rend", path = "json/feat03.json" },

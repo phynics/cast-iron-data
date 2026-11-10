@@ -2,6 +2,7 @@
 id = "ref/spell/technomancy"
 kind = "spell"
 title = "Technomancy"
+aon = "SpellDisplay.aspx?ItemName=Technomancy"
 source_ids = ["technology-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "technomancy", path = "json/spells10.json" },

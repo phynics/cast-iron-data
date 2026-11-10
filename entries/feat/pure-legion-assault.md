@@ -2,6 +2,7 @@
 id = "ref/feat/pure-legion-assault"
 kind = "feat"
 title = "Pure Legion Assault"
+aon = "FeatDisplay.aspx?ItemName=Pure%20Legion%20Assault"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pure_legion_assault", path = "json/feat12.json" },

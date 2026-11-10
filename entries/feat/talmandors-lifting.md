@@ -2,6 +2,7 @@
 id = "ref/feat/talmandors-lifting"
 kind = "feat"
 title = "Talmandor's Lifting"
+aon = "FeatDisplay.aspx?ItemName=Talmandor%27s%20Lifting"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "talmandors_lifting", path = "json/feat15.json" },

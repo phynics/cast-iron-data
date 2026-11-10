@@ -2,6 +2,7 @@
 id = "ref/monster/skull-ripper"
 kind = "creature"
 title = "Skull Ripper"
+aon = "MonsterDisplay.aspx?ItemName=Skull%20Ripper"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-3-the-hook-mountain-massacre"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skull_ripper", path = "json/monsters22.json" },

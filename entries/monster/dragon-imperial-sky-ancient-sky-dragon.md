@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-imperial-sky-ancient-sky-dragon"
 kind = "creature"
 title = "Ancient Sky Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Ancient%20Sky%20Dragon"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_sky_ancient_sky_dragon", path = "json/monsters31.json" },

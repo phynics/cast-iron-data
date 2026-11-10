@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-stoneweaving"
 kind = "item"
 title = "Staff of Stoneweaving"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Stoneweaving"
 source_ids = ["pathfinder-34-blood-for-blood"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_stoneweaving", path = "json/magic_staff.json" },

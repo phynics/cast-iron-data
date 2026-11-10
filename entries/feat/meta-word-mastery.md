@@ -2,6 +2,7 @@
 id = "ref/feat/meta-word-mastery"
 kind = "feat"
 title = "Meta Word Mastery"
+aon = "FeatDisplay.aspx?ItemName=Meta%20Word%20Mastery"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meta_word_mastery", path = "json/feat10.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/excitable"
 kind = "trait"
 title = "Excitable"
+aon = "TraitDisplay.aspx?ItemName=Excitable"
 source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "excitable", path = "json/traits01.json" },

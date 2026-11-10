@@ -2,6 +2,7 @@
 id = "ref/feat/silent-performer"
 kind = "feat"
 title = "Silent Performer"
+aon = "FeatDisplay.aspx?ItemName=Silent%20Performer"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silent_performer", path = "json/feat14.json" },

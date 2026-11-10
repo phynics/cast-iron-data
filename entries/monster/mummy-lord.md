@@ -2,6 +2,7 @@
 id = "ref/monster/mummy-lord"
 kind = "creature"
 title = "Mummy Lord"
+aon = "MonsterDisplay.aspx?ItemName=Mummy%20Lord"
 source_ids = ["bestiary-5", "pathfinder-84-pyramid-of-the-sky-pharaoh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_lord", path = "json/monsters17.json" },

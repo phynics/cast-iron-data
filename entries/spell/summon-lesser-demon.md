@@ -2,6 +2,7 @@
 id = "ref/spell/summon-lesser-demon"
 kind = "spell"
 title = "Summon Lesser Demon"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Lesser%20Demon"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_lesser_demon", path = "json/spells16.json" },

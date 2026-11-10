@@ -2,6 +2,7 @@
 id = "ref/trait/pain-artist"
 kind = "trait"
 title = "Pain Artist"
+aon = "TraitDisplay.aspx?ItemName=Pain%20Artist"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pain_artist", path = "json/traits05.json" },

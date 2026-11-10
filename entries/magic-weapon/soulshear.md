@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/soulshear"
 kind = "item"
 title = "Soulshear"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Soulshear"
 source_ids = ["pathfinder-74-sword-of-valor"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulshear", path = "json/magic_weapon2.json" },

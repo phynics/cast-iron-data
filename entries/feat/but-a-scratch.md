@@ -2,6 +2,7 @@
 id = "ref/feat/but-a-scratch"
 kind = "feat"
 title = "But a Scratch"
+aon = "FeatDisplay.aspx?ItemName=But%20a%20Scratch"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "but_a_scratch", path = "json/feat02.json" },

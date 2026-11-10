@@ -2,6 +2,7 @@
 id = "ref/trait/color-thief"
 kind = "trait"
 title = "Color Thief"
+aon = "TraitDisplay.aspx?ItemName=Color%20Thief"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "color_thief", path = "json/traits05.json" },

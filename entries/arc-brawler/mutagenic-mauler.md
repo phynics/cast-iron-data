@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/mutagenic-mauler"
 kind = "archetype"
 title = "Mutagenic Mauler"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Mutagenic%20Mauler"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutagenic_mauler", path = "json/archetypes_brawler.json" },

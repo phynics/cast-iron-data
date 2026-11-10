@@ -2,6 +2,7 @@
 id = "ref/spell/transfer-tattoo"
 kind = "spell"
 title = "Transfer Tattoo"
+aon = "SpellDisplay.aspx?ItemName=Transfer%20Tattoo"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_tattoo", path = "json/spells10.json" },

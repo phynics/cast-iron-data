@@ -2,6 +2,7 @@
 id = "ref/spell/ethereal-envelopment"
 kind = "spell"
 title = "Ethereal Envelopment"
+aon = "SpellDisplay.aspx?ItemName=Ethereal%20Envelopment"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ethereal_envelopment", path = "json/spells4.json" },

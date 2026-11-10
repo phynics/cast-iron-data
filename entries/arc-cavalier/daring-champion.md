@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/daring-champion"
 kind = "archetype"
 title = "Daring Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Daring%20Champion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daring_champion", path = "json/archetypes_cavalier.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/proselytizer"
 kind = "archetype"
 title = "Proselytizer"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Proselytizer"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "proselytizer", path = "json/archetypes_warpriest.json" },

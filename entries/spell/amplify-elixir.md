@@ -2,6 +2,7 @@
 id = "ref/spell/amplify-elixir"
 kind = "spell"
 title = "Amplify Elixir"
+aon = "SpellDisplay.aspx?ItemName=Amplify%20Elixir"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplify_elixir", path = "json/spells.json" },

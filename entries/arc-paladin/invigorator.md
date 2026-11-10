@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/invigorator"
 kind = "archetype"
 title = "Invigorator"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Invigorator"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "invigorator", path = "json/archetypes_paladin.json" },

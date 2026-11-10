@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/opportunist"
 kind = "archetype"
 title = "Opportunist"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Opportunist"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunist", path = "json/archetypes_fighter2.json" },

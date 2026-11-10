@@ -2,6 +2,7 @@
 id = "ref/monster/spriggan-spriggan-large-size"
 kind = "creature"
 title = "Spriggan (Large Size)"
+aon = "MonsterDisplay.aspx?ItemName=Spriggan%20%28Large%20Size%29"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spriggan_spriggan_large_size", path = "json/monsters38.json" },

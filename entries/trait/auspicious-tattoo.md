@@ -2,6 +2,7 @@
 id = "ref/trait/auspicious-tattoo"
 kind = "trait"
 title = "Auspicious Tattoo"
+aon = "TraitDisplay.aspx?ItemName=Auspicious%20Tattoo"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "auspicious_tattoo", path = "json/traits05.json" },

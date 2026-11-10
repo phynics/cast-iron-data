@@ -2,6 +2,7 @@
 id = "ref/feat/boar-ferocity"
 kind = "feat"
 title = "Boar Ferocity"
+aon = "FeatDisplay.aspx?ItemName=Boar%20Ferocity"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_ferocity", path = "json/feat02.json" },

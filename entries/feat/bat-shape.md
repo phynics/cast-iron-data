@@ -2,6 +2,7 @@
 id = "ref/feat/bat-shape"
 kind = "feat"
 title = "Bat Shape"
+aon = "FeatDisplay.aspx?ItemName=Bat%20Shape"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bat_shape", path = "json/feat02.json" },

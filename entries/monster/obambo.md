@@ -2,6 +2,7 @@
 id = "ref/monster/obambo"
 kind = "creature"
 title = "Obambo"
+aon = "MonsterDisplay.aspx?ItemName=Obambo"
 source_ids = ["pathfinder-40-vaults-of-madness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obambo", path = "json/monsters18.json" },

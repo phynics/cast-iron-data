@@ -2,6 +2,7 @@
 id = "ref/spell/dispel-magic"
 kind = "spell"
 title = "Dispel Magic"
+aon = "SpellDisplay.aspx?ItemName=dispel%20magic"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispel_magic", path = "json/spells13.json" },

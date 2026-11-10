@@ -2,6 +2,7 @@
 id = "ref/trait/accidental-clone"
 kind = "trait"
 title = "Accidental Clone"
+aon = "TraitDisplay.aspx?ItemName=Accidental%20Clone"
 source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accidental_clone", path = "json/traits02.json" },

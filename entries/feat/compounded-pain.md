@@ -2,6 +2,7 @@
 id = "ref/feat/compounded-pain"
 kind = "feat"
 title = "Compounded Pain"
+aon = "FeatDisplay.aspx?ItemName=Compounded%20Pain"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "compounded_pain", path = "json/feat03.json" },

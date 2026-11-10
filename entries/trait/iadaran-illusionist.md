@@ -2,6 +2,7 @@
 id = "ref/trait/iadaran-illusionist"
 kind = "trait"
 title = "Iadaran Illusionist"
+aon = "TraitDisplay.aspx?ItemName=Iadaran%20Illusionist"
 source_ids = ["inner-sea-primer", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iadaran_illusionist", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-retribution"
 kind = "item"
 title = "Ring of Retribution"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Retribution"
 source_ids = ["ultimate-equipment", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_retribution", path = "json/magic_ring.json" },

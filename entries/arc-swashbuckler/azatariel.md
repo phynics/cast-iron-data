@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/azatariel"
 kind = "archetype"
 title = "Azatariel"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Azatariel"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azatariel", path = "json/archetypes_swashbuckler.json" },

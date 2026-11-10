@@ -2,6 +2,7 @@
 id = "ref/spell/force-anchor"
 kind = "spell"
 title = "Force Anchor"
+aon = "SpellDisplay.aspx?ItemName=Force%20Anchor"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "force_anchor", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/tanglebriar-demonslayer"
 kind = "archetype"
 title = "Tanglebriar Demonslayer"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Tanglebriar%20Demonslayer"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tanglebriar_demonslayer", path = "json/archetypes_ranger.json" },

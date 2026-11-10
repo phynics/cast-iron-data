@@ -2,6 +2,7 @@
 id = "ref/feat/sunblade"
 kind = "feat"
 title = "Sunblade"
+aon = "FeatDisplay.aspx?ItemName=Sunblade"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sunblade", path = "json/feat15.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-nethys"
 kind = "item"
 title = "Staff of Nethys"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Nethys"
 source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_nethys", path = "json/magic_staff.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/bloody-vengeance"
 kind = "trait"
 title = "Bloody Vengeance"
+aon = "TraitDisplay.aspx?ItemName=Bloody%20Vengeance"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_vengeance", path = "json/traits03.json" },

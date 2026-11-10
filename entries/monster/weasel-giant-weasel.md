@@ -2,6 +2,7 @@
 id = "ref/monster/weasel-giant-weasel"
 kind = "creature"
 title = "Giant Weasel"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Weasel"
 source_ids = ["bestiary-4", "pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weasel_giant_weasel", path = "json/monsters25.json" },

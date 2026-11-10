@@ -2,6 +2,7 @@
 id = "ref/arc-skald/war-painter"
 kind = "archetype"
 title = "War Painter"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20War%20Painter"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "war_painter", path = "json/archetypes_skald.json" },

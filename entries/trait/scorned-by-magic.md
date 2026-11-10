@@ -2,6 +2,7 @@
 id = "ref/trait/scorned-by-magic"
 kind = "trait"
 title = "Scorned by Magic"
+aon = "TraitDisplay.aspx?ItemName=Scorned%20by%20Magic"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scorned_by_magic", path = "json/traits02.json" },

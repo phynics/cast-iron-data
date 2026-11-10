@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/scrollmaster"
 kind = "archetype"
 title = "Scrollmaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Scrollmaster"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrollmaster", path = "json/archetypes_wizard.json" },

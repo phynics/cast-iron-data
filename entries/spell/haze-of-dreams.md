@@ -2,6 +2,7 @@
 id = "ref/spell/haze-of-dreams"
 kind = "spell"
 title = "Haze of Dreams"
+aon = "SpellDisplay.aspx?ItemName=Haze%20of%20Dreams"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haze_of_dreams", path = "json/spells5.json" },

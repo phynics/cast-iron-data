@@ -2,6 +2,7 @@
 id = "ref/feat/summon-neutral-monster"
 kind = "feat"
 title = "Summon Neutral Monster"
+aon = "FeatDisplay.aspx?ItemName=Summon%20Neutral%20Monster"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_neutral_monster", path = "json/feat15.json" },

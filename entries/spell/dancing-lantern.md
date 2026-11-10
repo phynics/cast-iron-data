@@ -2,6 +2,7 @@
 id = "ref/spell/dancing-lantern"
 kind = "spell"
 title = "Dancing Lantern"
+aon = "SpellDisplay.aspx?ItemName=Dancing%20Lantern"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dancing_lantern", path = "json/spells3.json" },

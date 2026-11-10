@@ -2,6 +2,7 @@
 id = "ref/trait/mutant-eye"
 kind = "trait"
 title = "Mutant Eye"
+aon = "TraitDisplay.aspx?ItemName=Mutant%20Eye"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutant_eye", path = "json/traits02.json" },

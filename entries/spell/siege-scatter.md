@@ -2,6 +2,7 @@
 id = "ref/spell/siege-scatter"
 kind = "spell"
 title = "Siege Scatter"
+aon = "SpellDisplay.aspx?ItemName=Siege%20Scatter"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_scatter", path = "json/spells9.json" },

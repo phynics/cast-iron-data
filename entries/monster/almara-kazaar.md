@@ -2,6 +2,7 @@
 id = "ref/monster/almara-kazaar"
 kind = "creature"
 title = "The Would-Be Queen, Almara Kazaar"
+aon = "MonsterDisplay.aspx?ItemName=The%20Would-Be%20Queen%2C%20Almara%20Kazaar"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "almara_kazaar", path = "json/monsters_unique3.json" },

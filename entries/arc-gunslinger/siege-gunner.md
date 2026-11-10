@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/siege-gunner"
 kind = "archetype"
 title = "Siege Gunner"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Siege%20Gunner"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "siege_gunner", path = "json/archetypes_gunslinger.json" },

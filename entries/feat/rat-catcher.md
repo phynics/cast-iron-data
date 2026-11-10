@@ -2,6 +2,7 @@
 id = "ref/feat/rat-catcher"
 kind = "feat"
 title = "Rat Catcher"
+aon = "FeatDisplay.aspx?ItemName=Rat%20Catcher"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_catcher", path = "json/feat13.json" },

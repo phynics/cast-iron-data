@@ -2,6 +2,7 @@
 id = "ref/monster/dolphin"
 kind = "creature"
 title = "Dolphin"
+aon = "MonsterDisplay.aspx?ItemName=Dolphin"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dolphin", path = "json/monsters41.json" },

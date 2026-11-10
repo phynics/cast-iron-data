@@ -2,6 +2,7 @@
 id = "ref/monster/shasalqu"
 kind = "creature"
 title = "Shasalqu"
+aon = "MonsterDisplay.aspx?ItemName=Shasalqu"
 source_ids = ["bestiary-5", "pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shasalqu", path = "json/monsters38.json" },

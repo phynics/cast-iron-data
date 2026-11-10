@@ -2,6 +2,7 @@
 id = "ref/feat/relentless-shot"
 kind = "feat"
 title = "Relentless Shot"
+aon = "FeatDisplay.aspx?ItemName=Relentless%20Shot"
 source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relentless_shot", path = "json/feat13.json" },

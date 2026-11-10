@@ -2,6 +2,7 @@
 id = "ref/spell/pack-empathy"
 kind = "spell"
 title = "Pack Empathy"
+aon = "SpellDisplay.aspx?ItemName=Pack%20Empathy"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_empathy", path = "json/spells7.json" },

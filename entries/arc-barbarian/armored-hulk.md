@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/armored-hulk"
 kind = "archetype"
 title = "Armored Hulk"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Armored%20Hulk"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_hulk", path = "json/archetypes_barbarian.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/focused-worker"
 kind = "feat"
 title = "Focused Worker"
+aon = "FeatDisplay.aspx?ItemName=Focused%20Worker"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "focused_worker", path = "json/feat07.json" },

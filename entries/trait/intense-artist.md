@@ -2,6 +2,7 @@
 id = "ref/trait/intense-artist"
 kind = "trait"
 title = "Intense Artist"
+aon = "TraitDisplay.aspx?ItemName=Intense%20Artist"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intense_artist", path = "json/traits03.json" },

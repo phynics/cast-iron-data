@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/roughrider"
 kind = "archetype"
 title = "Roughrider"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Roughrider"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roughrider", path = "json/archetypes_fighter2.json" },

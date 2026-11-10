@@ -2,6 +2,7 @@
 id = "ref/trait/successful-shirker"
 kind = "trait"
 title = "Successful Shirker"
+aon = "TraitDisplay.aspx?ItemName=Successful%20Shirker"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "successful_shirker", path = "json/traits05.json" },

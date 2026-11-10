@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/phalanx-soldier"
 kind = "archetype"
 title = "Phalanx Soldier"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Phalanx%20Soldier"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phalanx_soldier", path = "json/archetypes_fighter2.json" },

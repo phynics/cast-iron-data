@@ -2,6 +2,7 @@
 id = "ref/spell/howling-agony"
 kind = "spell"
 title = "Howling Agony"
+aon = "SpellDisplay.aspx?ItemName=Howling%20Agony"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howling_agony", path = "json/spells5.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/summit-sentinel"
 kind = "archetype"
 title = "Summit Sentinel"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Summit%20Sentinel"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summit_sentinel", path = "json/archetypes_ranger.json" },

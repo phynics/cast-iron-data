@@ -2,6 +2,7 @@
 id = "ref/pclass/pathfinder-field-agent"
 kind = "prestige_class"
 title = "Pathfinder Field Agent"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pathfinder%20Field%20Agent"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_field_agent", path = "json/prestige_classes4.json" },

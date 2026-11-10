@@ -2,6 +2,7 @@
 id = "ref/monster/flea-mammoth-flea"
 kind = "creature"
 title = "Mammoth Flea"
+aon = "MonsterDisplay.aspx?ItemName=Mammoth%20Flea"
 source_ids = ["bestiary-4"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flea_mammoth_flea", path = "json/monsters10.json" },

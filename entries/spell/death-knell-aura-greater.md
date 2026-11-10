@@ -2,6 +2,7 @@
 id = "ref/spell/death-knell-aura-greater"
 kind = "spell"
 title = "Greater Death Knell Aura"
+aon = "SpellDisplay.aspx?ItemName=Death%20Knell%20Aura%2C%20Greater"
 source_ids = ["book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_knell_aura_greater", path = "json/spells3.json" },

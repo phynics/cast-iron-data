@@ -2,6 +2,7 @@
 id = "ref/spell/control-summoned-creature"
 kind = "spell"
 title = "Control Summoned Creature"
+aon = "SpellDisplay.aspx?ItemName=Control%20Summoned%20Creature"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "control_summoned_creature", path = "json/spells12.json" },

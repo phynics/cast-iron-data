@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/sacred-attendant"
 kind = "archetype"
 title = "Sacred Attendant"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Sacred%20Attendant"
 source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sacred_attendant", path = "json/archetypes_cleric.json" },

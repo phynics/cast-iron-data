@@ -2,6 +2,7 @@
 id = "ref/arc-druid/dinosaur-druid"
 kind = "archetype"
 title = "Dinosaur Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Dinosaur%20Druid"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dinosaur_druid", path = "json/archetypes_druid.json" },

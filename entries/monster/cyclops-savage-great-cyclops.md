@@ -2,6 +2,7 @@
 id = "ref/monster/cyclops-savage-great-cyclops"
 kind = "creature"
 title = "Savage Great Cyclops"
+aon = "MonsterDisplay.aspx?ItemName=Savage%20Great%20Cyclops"
 source_ids = ["pathfinder-58-island-of-empty-eyes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cyclops_savage_great_cyclops", path = "json/monsters06.json" },

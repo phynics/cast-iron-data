@@ -2,6 +2,7 @@
 id = "ref/trait/kin-guardian"
 kind = "trait"
 title = "Kin Guardian"
+aon = "TraitDisplay.aspx?ItemName=Kin%20Guardian"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kin_guardian", path = "json/traits01.json" },

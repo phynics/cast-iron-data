@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/overseer"
 kind = "archetype"
 title = "Overseer"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Overseer"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "overseer", path = "json/archetypes_shaman.json" },

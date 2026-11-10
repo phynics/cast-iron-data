@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/ghost-rider"
 kind = "archetype"
 title = "Ghost Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Ghost%20Rider"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_rider", path = "json/archetypes_cavalier.json" },

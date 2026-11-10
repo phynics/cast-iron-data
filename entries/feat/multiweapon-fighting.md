@@ -2,6 +2,7 @@
 id = "ref/feat/multiweapon-fighting"
 kind = "feat"
 title = "Multiweapon Fighting"
+aon = "FeatDisplay.aspx?ItemName=Multiweapon%20Fighting"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "multiweapon_fighting", path = "json/feat11.json" },

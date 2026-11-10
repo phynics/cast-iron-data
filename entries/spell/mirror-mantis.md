@@ -2,6 +2,7 @@
 id = "ref/spell/mirror-mantis"
 kind = "spell"
 title = "Mirror Mantis"
+aon = "SpellDisplay.aspx?ItemName=Mirror%20Mantis"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_mantis", path = "json/spells14.json" },

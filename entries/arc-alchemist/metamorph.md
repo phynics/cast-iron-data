@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/metamorph"
 kind = "archetype"
 title = "Metamorph"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Metamorph"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamorph", path = "json/archetypes_alchemist2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/keeper-of-construct"
 kind = "archetype"
 title = "Keeper of Construct"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Keeper%20of%20Construct"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keeper_of_construct", path = "json/archetypes_inquisitor.json" },

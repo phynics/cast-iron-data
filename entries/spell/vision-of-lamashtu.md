@@ -2,6 +2,7 @@
 id = "ref/spell/vision-of-lamashtu"
 kind = "spell"
 title = "Vision of Lamashtu"
+aon = "SpellDisplay.aspx?ItemName=Vision%20of%20Lamashtu"
 source_ids = ["inner-sea-world-guide", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_of_lamashtu", path = "json/spells11.json" },

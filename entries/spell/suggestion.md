@@ -2,6 +2,7 @@
 id = "ref/spell/suggestion"
 kind = "spell"
 title = "Suggestion"
+aon = "SpellDisplay.aspx?ItemName=suggestion"
 source_ids = ["core-rulebook", "blood-of-the-beast", "advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suggestion", path = "json/spells16.json" },

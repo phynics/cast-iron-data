@@ -2,6 +2,7 @@
 id = "ref/monster/sea-cat"
 kind = "creature"
 title = "Sea Cat"
+aon = "MonsterDisplay.aspx?ItemName=Sea%20Cat"
 source_ids = ["bestiary-4", "pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sea_cat", path = "json/monsters21.json" },

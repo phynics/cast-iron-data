@@ -2,6 +2,7 @@
 id = "ref/trait/nonchalant-thuggery"
 kind = "trait"
 title = "Nonchalant Thuggery"
+aon = "TraitDisplay.aspx?ItemName=Nonchalant%20Thuggery"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nonchalant_thuggery", path = "json/traits01.json" },

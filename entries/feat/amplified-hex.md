@@ -2,6 +2,7 @@
 id = "ref/feat/amplified-hex"
 kind = "feat"
 title = "Amplified Hex"
+aon = "FeatDisplay.aspx?ItemName=Amplified%20Hex"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amplified_hex", path = "json/feat01.json" },

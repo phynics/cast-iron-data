@@ -2,6 +2,7 @@
 id = "ref/spell/jitterbugs"
 kind = "spell"
 title = "Jitterbugs"
+aon = "SpellDisplay.aspx?ItemName=Jitterbugs"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jitterbugs", path = "json/spells6.json" },

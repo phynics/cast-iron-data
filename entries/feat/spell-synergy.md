@@ -2,6 +2,7 @@
 id = "ref/feat/spell-synergy"
 kind = "feat"
 title = "Spell Synergy"
+aon = "FeatDisplay.aspx?ItemName=Spell%20Synergy"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_synergy", path = "json/feat14.json" },

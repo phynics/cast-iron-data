@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/urban-hunter"
 kind = "archetype"
 title = "Urban Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Urban%20Hunter"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_hunter", path = "json/archetypes_hunter.json" },

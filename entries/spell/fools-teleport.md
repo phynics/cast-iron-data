@@ -2,6 +2,7 @@
 id = "ref/spell/fools-teleport"
 kind = "spell"
 title = "Fool's Teleport"
+aon = "SpellDisplay.aspx?ItemName=Fool%27s%20Teleport"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_teleport", path = "json/spells13.json" },

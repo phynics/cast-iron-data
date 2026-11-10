@@ -2,6 +2,7 @@
 id = "ref/arc-bard/impervious-messenger"
 kind = "archetype"
 title = "Impervious Messenger"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Impervious%20Messenger"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impervious_messenger", path = "json/archetypes_bard2.json" },

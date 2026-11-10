@@ -2,6 +2,7 @@
 id = "ref/trait/dispelled-battler"
 kind = "trait"
 title = "Dispelled Battler"
+aon = "TraitDisplay.aspx?ItemName=Dispelled%20Battler"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dispelled_battler", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-monk/nimble-guardian"
 kind = "archetype"
 title = "Nimble Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Nimble%20Guardian"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nimble_guardian", path = "json/archetypes_monk.json" },

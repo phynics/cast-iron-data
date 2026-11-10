@@ -2,6 +2,7 @@
 id = "ref/spell/eldritch-conduit-greater"
 kind = "spell"
 title = "Greater Eldritch Conduit"
+aon = "SpellDisplay.aspx?ItemName=Eldritch%20Conduit%2C%20Greater"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_conduit_greater", path = "json/spells4.json" },

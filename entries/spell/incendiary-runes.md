@@ -2,6 +2,7 @@
 id = "ref/spell/incendiary-runes"
 kind = "spell"
 title = "Incendiary Runes"
+aon = "SpellDisplay.aspx?ItemName=Incendiary%20Runes"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "incendiary_runes", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/extra-stamina"
 kind = "feat"
 title = "Extra Stamina"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Stamina"
 source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_stamina", path = "json/feat06.json" },

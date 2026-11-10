@@ -2,6 +2,7 @@
 id = "ref/trait/chain-master"
 kind = "trait"
 title = "Chain Master"
+aon = "TraitDisplay.aspx?ItemName=Chain%20Master"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chain_master", path = "json/traits05.json" },

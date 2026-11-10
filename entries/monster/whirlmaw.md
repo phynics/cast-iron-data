@@ -2,6 +2,7 @@
 id = "ref/monster/whirlmaw"
 kind = "creature"
 title = "Whirlmaw"
+aon = "MonsterDisplay.aspx?ItemName=Whirlmaw"
 source_ids = ["inner-sea-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whirlmaw", path = "json/monsters25.json" },

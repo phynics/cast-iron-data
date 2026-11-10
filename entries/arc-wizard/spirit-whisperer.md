@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/spirit-whisperer"
 kind = "archetype"
 title = "Spirit Whisperer"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Spirit%20Whisperer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_whisperer", path = "json/archetypes_wizard.json" },

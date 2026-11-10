@@ -2,6 +2,7 @@
 id = "ref/feat/dazzling-display"
 kind = "feat"
 title = "Dazzling Display"
+aon = "FeatDisplay.aspx?ItemName=Dazzling%20Display"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dazzling_display", path = "json/feat04.json" },

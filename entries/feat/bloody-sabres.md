@@ -2,6 +2,7 @@
 id = "ref/feat/bloody-sabres"
 kind = "feat"
 title = "Bloody Sabres"
+aon = "FeatDisplay.aspx?ItemName=Bloody%20Sabres"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_sabres", path = "json/feat02.json" },

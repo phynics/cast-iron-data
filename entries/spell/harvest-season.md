@@ -2,6 +2,7 @@
 id = "ref/spell/harvest-season"
 kind = "spell"
 title = "Harvest Season"
+aon = "SpellDisplay.aspx?ItemName=Harvest%20Season"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harvest_season", path = "json/spells5.json" },

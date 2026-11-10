@@ -2,6 +2,7 @@
 id = "ref/spell/true-skill"
 kind = "spell"
 title = "True Skill"
+aon = "SpellDisplay.aspx?ItemName=True%20Skill"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_skill", path = "json/spells10.json" },

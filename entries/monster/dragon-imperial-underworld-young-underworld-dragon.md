@@ -2,6 +2,7 @@
 id = "ref/monster/dragon-imperial-underworld-young-underworld-dragon"
 kind = "creature"
 title = "Young Underworld Dragon"
+aon = "MonsterDisplay.aspx?ItemName=Young%20Underworld%20Dragon"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_imperial_underworld_young_underworld_dragon", path = "json/monsters31.json" },

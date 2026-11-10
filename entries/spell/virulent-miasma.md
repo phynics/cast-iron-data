@@ -2,6 +2,7 @@
 id = "ref/spell/virulent-miasma"
 kind = "spell"
 title = "Virulent Miasma"
+aon = "SpellDisplay.aspx?ItemName=Virulent%20Miasma"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "virulent_miasma", path = "json/spells11.json" },

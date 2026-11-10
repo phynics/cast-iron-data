@@ -2,6 +2,7 @@
 id = "ref/trait/good-dreams"
 kind = "trait"
 title = "Good Dreams"
+aon = "TraitDisplay.aspx?ItemName=Good%20Dreams"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "good_dreams", path = "json/traits03.json" },

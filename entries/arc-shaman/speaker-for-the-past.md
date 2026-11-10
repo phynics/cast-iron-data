@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/speaker-for-the-past"
 kind = "archetype"
 title = "Speaker for the Past"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Speaker%20for%20the%20Past"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speaker_for_the_past", path = "json/archetypes_shaman.json" },

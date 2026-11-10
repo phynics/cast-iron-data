@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/psammokinetic"
 kind = "archetype"
 title = "Psammokinetic"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Psammokinetic"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psammokinetic", path = "json/archetypes_kineticist.json" },

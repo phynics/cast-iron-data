@@ -2,6 +2,7 @@
 id = "ref/monster/pixie-circle"
 kind = "creature"
 title = "Pixie Circle"
+aon = "MonsterDisplay.aspx?ItemName=Pixie%20Circle"
 source_ids = ["pathfinder-140-eulogy-for-roslars-coffer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pixie_circle", path = "json/monsters19.json" },

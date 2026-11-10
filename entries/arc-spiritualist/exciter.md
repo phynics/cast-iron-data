@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/exciter"
 kind = "archetype"
 title = "Exciter"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Exciter"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exciter", path = "json/archetypes_spiritualist.json" },

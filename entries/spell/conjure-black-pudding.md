@@ -2,6 +2,7 @@
 id = "ref/spell/conjure-black-pudding"
 kind = "spell"
 title = "Conjure Black Pudding"
+aon = "SpellDisplay.aspx?ItemName=Conjure%20Black%20Pudding"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_black_pudding", path = "json/spells12.json" },

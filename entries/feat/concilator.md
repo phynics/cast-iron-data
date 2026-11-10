@@ -2,6 +2,7 @@
 id = "ref/feat/concilator"
 kind = "feat"
 title = "Concilator"
+aon = "FeatDisplay.aspx?ItemName=Concilator"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concilator", path = "json/feat03.json" },

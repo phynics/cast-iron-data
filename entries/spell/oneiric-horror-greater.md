@@ -2,6 +2,7 @@
 id = "ref/spell/oneiric-horror-greater"
 kind = "spell"
 title = "Greater Oneiric Horror"
+aon = "SpellDisplay.aspx?ItemName=Oneiric%20Horror%2C%20Greater"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oneiric_horror_greater", path = "json/spells7.json" },

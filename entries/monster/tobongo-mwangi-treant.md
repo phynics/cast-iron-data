@@ -2,6 +2,7 @@
 id = "ref/monster/tobongo-mwangi-treant"
 kind = "creature"
 title = "Tobongo (Mwangi Treant)"
+aon = "MonsterDisplay.aspx?ItemName=Tobongo%20%28Mwangi%20Treant%29"
 source_ids = ["heart-of-the-jungle"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tobongo_mwangi_treant", path = "json/monsters23.json" },

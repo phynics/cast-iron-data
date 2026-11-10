@@ -2,6 +2,7 @@
 id = "ref/arc-medium/relic-channeler"
 kind = "archetype"
 title = "Relic Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Relic%20Channeler"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_channeler", path = "json/archetypes_medium.json" },

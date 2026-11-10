@@ -2,6 +2,7 @@
 id = "ref/feat/tool-optimizer"
 kind = "feat"
 title = "Tool Optimizer"
+aon = "FeatDisplay.aspx?ItemName=Tool%20Optimizer"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tool_optimizer", path = "json/feat16.json" },

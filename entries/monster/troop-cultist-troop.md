@@ -2,6 +2,7 @@
 id = "ref/monster/troop-cultist-troop"
 kind = "creature"
 title = "Cultist Troop"
+aon = "MonsterDisplay.aspx?ItemName=Cultist%20Troop"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_cultist_troop", path = "json/monsters24.json" },

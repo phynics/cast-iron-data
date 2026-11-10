@@ -2,6 +2,7 @@
 id = "ref/arc-oracle/inerrant-voice"
 kind = "archetype"
 title = "Inerrant Voice"
+aon = "ArchetypeDisplay.aspx?FixedName=Oracle%20Inerrant%20Voice"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inerrant_voice", path = "json/archetypes_oracle.json" },

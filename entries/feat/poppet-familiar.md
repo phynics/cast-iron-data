@@ -2,6 +2,7 @@
 id = "ref/feat/poppet-familiar"
 kind = "feat"
 title = "Poppet Familiar"
+aon = "FeatDisplay.aspx?ItemName=Poppet%20Familiar"
 source_ids = ["adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poppet_familiar", path = "json/feat12.json" },

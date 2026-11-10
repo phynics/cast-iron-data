@@ -2,6 +2,7 @@
 id = "ref/feat/glimpse-beyond"
 kind = "feat"
 title = "Glimpse Beyond"
+aon = "FeatDisplay.aspx?ItemName=Glimpse%20Beyond"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glimpse_beyond", path = "json/feat07.json" },

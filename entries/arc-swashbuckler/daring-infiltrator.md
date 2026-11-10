@@ -2,6 +2,7 @@
 id = "ref/arc-swashbuckler/daring-infiltrator"
 kind = "archetype"
 title = "Daring Infiltrator"
+aon = "ArchetypeDisplay.aspx?FixedName=Swashbuckler%20Daring%20Infiltrator"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daring_infiltrator", path = "json/archetypes_swashbuckler.json" },

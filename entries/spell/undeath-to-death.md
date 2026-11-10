@@ -2,6 +2,7 @@
 id = "ref/spell/undeath-to-death"
 kind = "spell"
 title = "Undeath to Death"
+aon = "SpellDisplay.aspx?ItemName=Undeath%20to%20Death"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undeath_to_death", path = "json/spells11.json" },

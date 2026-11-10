@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/disciple-of-the-pike"
 kind = "archetype"
 title = "Disciple of the Pike"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Disciple%20of%20the%20Pike"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disciple_of_the_pike", path = "json/archetypes_cavalier.json" },

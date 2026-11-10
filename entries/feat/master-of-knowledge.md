@@ -2,6 +2,7 @@
 id = "ref/feat/master-of-knowledge"
 kind = "feat"
 title = "Master of Knowledge"
+aon = "FeatDisplay.aspx?ItemName=Master%20of%20Knowledge"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_of_knowledge", path = "json/feat10.json" },

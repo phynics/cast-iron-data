@@ -2,6 +2,7 @@
 id = "ref/feat/planar-hunter"
 kind = "feat"
 title = "Planar Hunter"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Hunter"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_hunter", path = "json/feat12.json" },

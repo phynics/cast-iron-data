@@ -2,6 +2,7 @@
 id = "ref/trait/sun-blessed"
 kind = "trait"
 title = "Sun-Blessed"
+aon = "TraitDisplay.aspx?ItemName=Sun-Blessed"
 source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_blessed", path = "json/traits02.json" },

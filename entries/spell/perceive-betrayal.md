@@ -2,6 +2,7 @@
 id = "ref/spell/perceive-betrayal"
 kind = "spell"
 title = "Perceive Betrayal"
+aon = "SpellDisplay.aspx?ItemName=Perceive%20Betrayal"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perceive_betrayal", path = "json/spells7.json" },

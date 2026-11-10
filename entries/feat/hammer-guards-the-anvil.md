@@ -2,6 +2,7 @@
 id = "ref/feat/hammer-guards-the-anvil"
 kind = "feat"
 title = "Hammer Guards the Anvil"
+aon = "FeatDisplay.aspx?ItemName=Hammer%20Guards%20the%20Anvil"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_guards_the_anvil", path = "json/feat08.json" },

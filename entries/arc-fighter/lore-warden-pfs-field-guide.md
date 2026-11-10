@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/lore-warden-pfs-field-guide"
 kind = "archetype"
 title = "Lore Warden (PFS Field Guide)"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Lore%20Warden%20%28PFS%20Field%20Guide%29"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lore_warden_pfs_field_guide", path = "json/archetypes_fighter.json" },

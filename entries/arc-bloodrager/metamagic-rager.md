@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/metamagic-rager"
 kind = "archetype"
 title = "Metamagic Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Metamagic%20Rager"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metamagic_rager", path = "json/archetypes_bloodrager.json" },

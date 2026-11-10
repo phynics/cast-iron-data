@@ -2,6 +2,7 @@
 id = "ref/feat/extended-aspects"
 kind = "feat"
 title = "Extended Aspects"
+aon = "FeatDisplay.aspx?ItemName=Extended%20Aspects"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extended_aspects", path = "json/feat06.json" },

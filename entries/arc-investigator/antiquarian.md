@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/antiquarian"
 kind = "archetype"
 title = "Antiquarian"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Antiquarian"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "antiquarian", path = "json/archetypes_investigator.json" },

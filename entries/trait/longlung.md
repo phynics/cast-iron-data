@@ -2,6 +2,7 @@
 id = "ref/trait/longlung"
 kind = "trait"
 title = "Longlung"
+aon = "TraitDisplay.aspx?ItemName=Longlung"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "longlung", path = "json/traits05.json" },

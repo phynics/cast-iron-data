@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/feral-hunter"
 kind = "archetype"
 title = "Feral Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Feral%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_hunter", path = "json/archetypes_hunter.json" },

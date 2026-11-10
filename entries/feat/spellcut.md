@@ -2,6 +2,7 @@
 id = "ref/feat/spellcut"
 kind = "feat"
 title = "Spellcut"
+aon = "FeatDisplay.aspx?ItemName=Spellcut"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellcut", path = "json/feat14.json" },

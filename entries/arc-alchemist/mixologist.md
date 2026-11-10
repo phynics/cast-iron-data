@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/mixologist"
 kind = "archetype"
 title = "Mixologist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Mixologist"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mixologist", path = "json/archetypes_alchemist2.json" },

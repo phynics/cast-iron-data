@@ -2,6 +2,7 @@
 id = "ref/arc-skald/herald-of-the-horn"
 kind = "archetype"
 title = "Herald of the Horn"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Herald%20of%20the%20Horn"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herald_of_the_horn", path = "json/archetypes_skald.json" },

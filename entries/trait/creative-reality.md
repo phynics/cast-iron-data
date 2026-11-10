@@ -2,6 +2,7 @@
 id = "ref/trait/creative-reality"
 kind = "trait"
 title = "Creative Reality"
+aon = "TraitDisplay.aspx?ItemName=Creative%20Reality"
 source_ids = ["distant-shores"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "creative_reality", path = "json/traits05.json" },

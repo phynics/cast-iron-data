@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/medallion-of-thought-projection"
 kind = "item"
 title = "Medallion of Thought Projection"
+aon = "MagicCursedDisplay.aspx?ItemName=Medallion%20of%20Thought%20Projection"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medallion_of_thought_projection", path = "json/magic_wondrous_neck.json" },

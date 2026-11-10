@@ -2,6 +2,7 @@
 id = "ref/spell/blood-crow-strike"
 kind = "spell"
 title = "Blood Crow Strike"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Crow%20Strike"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_crow_strike", path = "json/spells2.json" },

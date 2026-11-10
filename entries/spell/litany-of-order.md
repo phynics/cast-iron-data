@@ -2,6 +2,7 @@
 id = "ref/spell/litany-of-order"
 kind = "spell"
 title = "Litany of Order"
+aon = "SpellDisplay.aspx?ItemName=Litany%20of%20Order"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "litany_of_order", path = "json/spells6.json" },

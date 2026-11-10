@@ -2,6 +2,7 @@
 id = "ref/trait/local-ties"
 kind = "trait"
 title = "Local Ties"
+aon = "TraitDisplay.aspx?ItemName=Local%20Ties"
 source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "local_ties", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/burdened-thoughts"
 kind = "spell"
 title = "Burdened Thoughts"
+aon = "SpellDisplay.aspx?ItemName=Burdened%20Thoughts"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burdened_thoughts", path = "json/spells2.json" },

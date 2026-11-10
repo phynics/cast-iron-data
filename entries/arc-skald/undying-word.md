@@ -2,6 +2,7 @@
 id = "ref/arc-skald/undying-word"
 kind = "archetype"
 title = "Undying Word"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Undying%20Word"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undying_word", path = "json/archetypes_skald.json" },

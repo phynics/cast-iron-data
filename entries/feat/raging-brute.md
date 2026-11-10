@@ -2,6 +2,7 @@
 id = "ref/feat/raging-brute"
 kind = "feat"
 title = "Raging Brute"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Brute"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_brute", path = "json/feat12.json" },

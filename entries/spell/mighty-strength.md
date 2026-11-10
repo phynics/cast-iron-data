@@ -2,6 +2,7 @@
 id = "ref/spell/mighty-strength"
 kind = "spell"
 title = "Mighty Strength"
+aon = "SpellDisplay.aspx?ItemName=Mighty%20Strength"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mighty_strength", path = "json/spells14.json" },

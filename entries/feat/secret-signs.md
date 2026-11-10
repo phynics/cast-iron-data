@@ -2,6 +2,7 @@
 id = "ref/feat/secret-signs"
 kind = "feat"
 title = "Secret Signs"
+aon = "FeatDisplay.aspx?ItemName=Secret%20Signs"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "secret_signs", path = "json/feat13.json" },

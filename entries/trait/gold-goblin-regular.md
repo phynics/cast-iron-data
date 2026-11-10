@@ -2,6 +2,7 @@
 id = "ref/trait/gold-goblin-regular"
 kind = "trait"
 title = "Gold Goblin Regular"
+aon = "TraitDisplay.aspx?ItemName=Gold%20Goblin%20Regular"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gold_goblin_regular", path = "json/traits04.json" },

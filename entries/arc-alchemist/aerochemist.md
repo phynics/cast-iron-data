@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/aerochemist"
 kind = "archetype"
 title = "Aerochemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Aerochemist"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aerochemist", path = "json/archetypes_alchemist.json" },

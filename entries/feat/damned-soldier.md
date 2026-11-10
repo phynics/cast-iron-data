@@ -2,6 +2,7 @@
 id = "ref/feat/damned-soldier"
 kind = "feat"
 title = "Damned Soldier"
+aon = "FeatDisplay.aspx?ItemName=Damned%20Soldier"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "damned_soldier", path = "json/feat04.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/ruthless"
 kind = "trait"
 title = "Ruthless"
+aon = "TraitDisplay.aspx?ItemName=Ruthless"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruthless", path = "json/traits05.json" },

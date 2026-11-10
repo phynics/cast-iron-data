@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/master-summoner"
 kind = "archetype"
 title = "Master Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Master%20Summoner"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_summoner", path = "json/archetypes_summoner.json" },

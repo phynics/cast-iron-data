@@ -2,6 +2,7 @@
 id = "ref/feat/enhanced-coven"
 kind = "feat"
 title = "Enhanced Coven"
+aon = "FeatDisplay.aspx?ItemName=Enhanced%20Coven"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enhanced_coven", path = "json/feat05.json" },

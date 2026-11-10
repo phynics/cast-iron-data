@@ -2,6 +2,7 @@
 id = "ref/spell/disrupt-link"
 kind = "spell"
 title = "Disrupt Link"
+aon = "SpellDisplay.aspx?ItemName=Disrupt%20Link"
 source_ids = ["familiar-folio"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disrupt_link", path = "json/spells13.json" },

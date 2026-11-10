@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/first-mothers-fang"
 kind = "archetype"
 title = "First Mother's Fang"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20First%20Mother%27s%20Fang"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "first_mothers_fang", path = "json/archetypes_cavalier.json" },

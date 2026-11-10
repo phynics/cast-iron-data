@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/grenadier-mc"
 kind = "archetype"
 title = "Grenadier (MC)"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Grenadier%20%5BMC%5D"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grenadier_mc", path = "json/archetypes_alchemist.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/charnel-god"
 kind = "creature"
 title = "Charnel God"
+aon = "MonsterDisplay.aspx?ItemName=Charnel%20God"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charnel_god", path = "json/monsters05.json" },

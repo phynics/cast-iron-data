@@ -2,6 +2,7 @@
 id = "ref/feat/rival"
 kind = "feat"
 title = "Rival"
+aon = "FeatDisplay.aspx?ItemName=Rival"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rival", path = "json/feat13.json" },

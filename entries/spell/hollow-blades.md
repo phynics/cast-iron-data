@@ -2,6 +2,7 @@
 id = "ref/spell/hollow-blades"
 kind = "spell"
 title = "Hollow Blades"
+aon = "SpellDisplay.aspx?ItemName=Hollow%20Blades"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hollow_blades", path = "json/spells5.json" },

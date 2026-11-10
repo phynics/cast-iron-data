@@ -2,6 +2,7 @@
 id = "ref/arc-samurai/brawling-blademaster"
 kind = "archetype"
 title = "Brawling Blademaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Samurai%20Brawling%20Blademaster"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brawling_blademaster", path = "json/archetypes_samurai.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/willing-death"
 kind = "feat"
 title = "Willing Death"
+aon = "FeatDisplay.aspx?ItemName=Willing%20Death"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "willing_death", path = "json/feat17.json" },

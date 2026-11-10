@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/bekyar-kidnapper"
 kind = "archetype"
 title = "Bekyar Kidnapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Bekyar%20Kidnapper"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bekyar_kidnapper", path = "json/archetypes_rogue.json" },

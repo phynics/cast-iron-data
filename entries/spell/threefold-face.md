@@ -2,6 +2,7 @@
 id = "ref/spell/threefold-face"
 kind = "spell"
 title = "Threefold Face"
+aon = "SpellDisplay.aspx?ItemName=Threefold%20Face"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "threefold_face", path = "json/spells10.json" },

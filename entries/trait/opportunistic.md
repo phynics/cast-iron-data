@@ -2,6 +2,7 @@
 id = "ref/trait/opportunistic"
 kind = "trait"
 title = "Opportunistic"
+aon = "TraitDisplay.aspx?ItemName=Opportunistic"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportunistic", path = "json/traits03.json" },

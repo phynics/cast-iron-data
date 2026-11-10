@@ -2,6 +2,7 @@
 id = "ref/feat/brewmaster"
 kind = "feat"
 title = "Brewmaster"
+aon = "FeatDisplay.aspx?ItemName=Brewmaster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brewmaster", path = "json/feat02.json" },

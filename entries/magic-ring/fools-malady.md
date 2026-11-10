@@ -2,6 +2,7 @@
 id = "ref/magic-ring/fools-malady"
 kind = "item"
 title = "Fool's Malady"
+aon = "MagicRingsDisplay.aspx?FinalName=Fool%27s%20Malady"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fools_malady", path = "json/magic_ring.json" },

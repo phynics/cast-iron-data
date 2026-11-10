@@ -2,6 +2,7 @@
 id = "ref/feat/oracular-intuition"
 kind = "feat"
 title = "Oracular Intuition"
+aon = "FeatDisplay.aspx?ItemName=Oracular%20Intuition"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oracular_intuition", path = "json/feat11.json" },

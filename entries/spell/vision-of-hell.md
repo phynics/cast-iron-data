@@ -2,6 +2,7 @@
 id = "ref/spell/vision-of-hell"
 kind = "spell"
 title = "Vision of Hell"
+aon = "SpellDisplay.aspx?ItemName=Vision%20of%20Hell"
 source_ids = ["ultimate-magic", "book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vision_of_hell", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/robot-thought-harvester-robot"
 kind = "creature"
 title = "Thought Harvester Robot"
+aon = "MonsterDisplay.aspx?ItemName=Thought%20Harvester%20Robot"
 source_ids = ["pathfinder-87-the-choking-tower"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "robot_thought_harvester_robot", path = "json/monsters20.json" },

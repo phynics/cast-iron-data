@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/runesage"
 kind = "archetype"
 title = "Runesage"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Runesage"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runesage", path = "json/archetypes_wizard.json" },

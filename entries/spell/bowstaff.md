@@ -2,6 +2,7 @@
 id = "ref/spell/bowstaff"
 kind = "spell"
 title = "Bowstaff"
+aon = "SpellDisplay.aspx?ItemName=Bowstaff"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bowstaff", path = "json/spells2.json" },

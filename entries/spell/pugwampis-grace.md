@@ -2,6 +2,7 @@
 id = "ref/spell/pugwampis-grace"
 kind = "spell"
 title = "Pugwampi's Grace"
+aon = "SpellDisplay.aspx?ItemName=Pugwampi%27s%20Grace"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pugwampis_grace", path = "json/spells15.json" },

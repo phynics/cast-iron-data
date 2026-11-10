@@ -2,6 +2,7 @@
 id = "ref/trait/empathic-diplomat"
 kind = "trait"
 title = "Empathic Diplomat"
+aon = "TraitDisplay.aspx?ItemName=Empathic%20Diplomat"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empathic_diplomat", path = "json/traits04.json" },

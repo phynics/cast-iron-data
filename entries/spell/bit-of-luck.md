@@ -2,6 +2,7 @@
 id = "ref/spell/bit-of-luck"
 kind = "spell"
 title = "Bit of Luck"
+aon = "SpellDisplay.aspx?ItemName=Bit%20of%20Luck"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bit_of_luck", path = "json/spells12.json" },

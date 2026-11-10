@@ -2,6 +2,7 @@
 id = "ref/spell/forbid-action"
 kind = "spell"
 title = "Forbid Action"
+aon = "SpellDisplay.aspx?ItemName=Forbid%20Action"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "forbid_action", path = "json/spells13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/fortune-finder"
 kind = "archetype"
 title = "Fortune-Finder"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Fortune-Finder"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fortune_finder", path = "json/archetypes_ranger.json" },

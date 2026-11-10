@@ -2,6 +2,7 @@
 id = "ref/arc-monk/terra-cotta-monk"
 kind = "archetype"
 title = "Terra-Cotta Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Terra-Cotta%20Monk"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terra_cotta_monk", path = "json/archetypes_monk2.json" },

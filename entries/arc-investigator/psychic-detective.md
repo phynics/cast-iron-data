@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/psychic-detective"
 kind = "archetype"
 title = "Psychic Detective"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Psychic%20Detective"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychic_detective", path = "json/archetypes_investigator.json" },

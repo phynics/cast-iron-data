@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/mutated-defender"
 kind = "archetype"
 title = "Mutated Defender"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Mutated%20Defender"
 source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mutated_defender", path = "json/archetypes_vigilante.json" },

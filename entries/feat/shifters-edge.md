@@ -2,6 +2,7 @@
 id = "ref/feat/shifters-edge"
 kind = "feat"
 title = "Shifter's Edge"
+aon = "FeatDisplay.aspx?ItemName=Shifter%27s%20Edge"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shifters_edge", path = "json/feat14.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/vicious-stomp"
 kind = "feat"
 title = "Vicious Stomp"
+aon = "FeatDisplay.aspx?ItemName=Vicious%20Stomp"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vicious_stomp", path = "json/feat17.json" },

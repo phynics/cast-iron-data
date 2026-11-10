@@ -2,6 +2,7 @@
 id = "ref/trait/witness-to-natures-cruelty"
 kind = "trait"
 title = "Witness to Nature's Cruelty"
+aon = "TraitDisplay.aspx?ItemName=Witness%20to%20Nature%27s%20Cruelty"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witness_to_natures_cruelty", path = "json/traits05.json" },

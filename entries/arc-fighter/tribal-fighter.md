@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/tribal-fighter"
 kind = "archetype"
 title = "Tribal Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Tribal%20Fighter"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tribal_fighter", path = "json/archetypes_fighter2.json" },

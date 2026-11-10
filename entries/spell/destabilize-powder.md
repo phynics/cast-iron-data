@@ -2,6 +2,7 @@
 id = "ref/spell/destabilize-powder"
 kind = "spell"
 title = "Destabilize Powder"
+aon = "SpellDisplay.aspx?ItemName=Destabilize%20Powder"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destabilize_powder", path = "json/spells3.json" },

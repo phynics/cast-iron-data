@@ -2,6 +2,7 @@
 id = "ref/spell/bullet-ward"
 kind = "spell"
 title = "Bullet Ward"
+aon = "SpellDisplay.aspx?ItemName=Bullet%20Ward"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bullet_ward", path = "json/spells2.json" },

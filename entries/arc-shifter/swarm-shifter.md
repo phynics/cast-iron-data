@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/swarm-shifter"
 kind = "archetype"
 title = "Swarm Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Swarm%20Shifter"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swarm_shifter", path = "json/archetypes_shifter.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/tsaalgrend"
 kind = "creature"
 title = "Tsaalgrend"
+aon = "MonsterDisplay.aspx?ItemName=Tsaalgrend"
 source_ids = ["bestiary-5", "pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tsaalgrend", path = "json/monsters24.json" },

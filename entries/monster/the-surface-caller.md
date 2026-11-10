@@ -2,6 +2,7 @@
 id = "ref/monster/the-surface-caller"
 kind = "creature"
 title = "The Surface Caller"
+aon = "MonsterDisplay.aspx?ItemName=The%20Surface%20Caller"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_surface_caller", path = "json/monsters_unique3.json" },

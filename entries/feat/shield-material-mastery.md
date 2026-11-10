@@ -2,6 +2,7 @@
 id = "ref/feat/shield-material-mastery"
 kind = "feat"
 title = "Shield Material Mastery"
+aon = "FeatDisplay.aspx?ItemName=Shield%20Material%20Mastery"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_material_mastery", path = "json/feat14.json" },

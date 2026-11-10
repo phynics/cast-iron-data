@@ -2,6 +2,7 @@
 id = "ref/spell/air-geyser"
 kind = "spell"
 title = "Air Geyser"
+aon = "SpellDisplay.aspx?ItemName=Air%20Geyser"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "air_geyser", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-skald/red-tongue"
 kind = "archetype"
 title = "Red Tongue"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Red%20Tongue"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_tongue", path = "json/archetypes_skald.json" },

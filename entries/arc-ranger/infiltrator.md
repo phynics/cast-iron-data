@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/infiltrator"
 kind = "archetype"
 title = "Infiltrator"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Infiltrator"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infiltrator", path = "json/archetypes_ranger.json" },

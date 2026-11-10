@@ -2,6 +2,7 @@
 id = "ref/class/magus"
 kind = "class"
 title = "Magus"
+aon = "ClassDisplay.aspx?ItemName=Magus"
 source_ids = ["ultimate-magic", "advanced-players-guide", "chronicle-of-legends", "plane-hoppers-handbook", "blood-of-the-sea", "advanced-race-guide", "blood-of-shadows", "horror-adventures", "blood-of-the-beast", "heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magus", path = "json/classes7.json" },

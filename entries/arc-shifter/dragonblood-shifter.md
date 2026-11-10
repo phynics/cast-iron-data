@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/dragonblood-shifter"
 kind = "archetype"
 title = "Dragonblood Shifter"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Dragonblood%20Shifter"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragonblood_shifter", path = "json/archetypes_shifter.json" },

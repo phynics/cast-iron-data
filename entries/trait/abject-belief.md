@@ -2,6 +2,7 @@
 id = "ref/trait/abject-belief"
 kind = "trait"
 title = "Abject Belief"
+aon = "TraitDisplay.aspx?ItemName=Abject%20Belief"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abject_belief", path = "json/traits01.json" },

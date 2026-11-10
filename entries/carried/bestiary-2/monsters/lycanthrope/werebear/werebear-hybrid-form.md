@@ -2,6 +2,7 @@
 id = "ref/carried/bestiary-2/monsters/lycanthrope/werebear/werebear-hybrid-form"
 kind = "creature"
 title = "Werebear (Hybrid Form)"
+aon = "MonsterDisplay.aspx?ItemName=Werebear%20%28Hybrid%20Form%29"
 source_ids = ["bestiary-2"]
 section = ["Monsters", "Lycanthrope", "Werebear"]
 tags = ["humanoid", "human", "shapechanger", "large"]

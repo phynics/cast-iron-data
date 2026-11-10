@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/twilight-sage"
 kind = "archetype"
 title = "Twilight Sage"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Twilight%20Sage"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twilight_sage", path = "json/archetypes_arcanist.json" },

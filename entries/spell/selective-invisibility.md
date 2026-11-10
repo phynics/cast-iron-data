@@ -2,6 +2,7 @@
 id = "ref/spell/selective-invisibility"
 kind = "spell"
 title = "Selective Invisibility"
+aon = "SpellDisplay.aspx?ItemName=Selective%20Invisibility"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "selective_invisibility", path = "json/spells15.json" },

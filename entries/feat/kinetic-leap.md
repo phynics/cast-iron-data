@@ -2,6 +2,7 @@
 id = "ref/feat/kinetic-leap"
 kind = "feat"
 title = "Kinetic Leap"
+aon = "FeatDisplay.aspx?ItemName=Kinetic%20Leap"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kinetic_leap", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/spell-gauge"
 kind = "spell"
 title = "Spell Gauge"
+aon = "SpellDisplay.aspx?ItemName=Spell%20Gauge"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_gauge", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/courageous-resolve"
 kind = "feat"
 title = "Courageous Resolve"
+aon = "FeatDisplay.aspx?ItemName=Courageous%20Resolve"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "courageous_resolve", path = "json/feat03.json" },

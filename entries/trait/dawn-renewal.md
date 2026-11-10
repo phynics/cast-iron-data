@@ -2,6 +2,7 @@
 id = "ref/trait/dawn-renewal"
 kind = "trait"
 title = "Dawn Renewal"
+aon = "TraitDisplay.aspx?ItemName=Dawn%20Renewal"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dawn_renewal", path = "json/traits03.json" },

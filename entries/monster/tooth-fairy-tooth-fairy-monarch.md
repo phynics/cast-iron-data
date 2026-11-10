@@ -2,6 +2,7 @@
 id = "ref/monster/tooth-fairy-tooth-fairy-monarch"
 kind = "creature"
 title = "Tooth Fairy Monarch"
+aon = "MonsterDisplay.aspx?ItemName=Tooth%20Fairy%20Monarch"
 source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tooth_fairy_tooth_fairy_monarch", path = "json/monsters23.json" },

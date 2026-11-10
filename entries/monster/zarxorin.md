@@ -2,6 +2,7 @@
 id = "ref/monster/zarxorin"
 kind = "creature"
 title = "Zarxorin"
+aon = "MonsterDisplay.aspx?ItemName=Zarxorin"
 source_ids = ["pathfinder-120-vault-of-the-onyx-citadel"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "zarxorin", path = "json/monsters41.json" },

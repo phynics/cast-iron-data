@@ -2,6 +2,7 @@
 id = "ref/feat/improved-stellar-wanderer"
 kind = "feat"
 title = "Improved Stellar Wanderer"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Stellar%20Wanderer"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_stellar_wanderer", path = "json/feat09.json" },

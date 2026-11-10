@@ -2,6 +2,7 @@
 id = "ref/monster/voidstick-zombie"
 kind = "creature"
 title = "Voidstick Zombie"
+aon = "MonsterDisplay.aspx?ItemName=Voidstick%20Zombie"
 source_ids = ["pathfinder-57-tempest-rising"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voidstick_zombie", path = "json/monsters40.json" },

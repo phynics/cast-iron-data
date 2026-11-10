@@ -2,6 +2,7 @@
 id = "ref/spell/bungle"
 kind = "spell"
 title = "Bungle"
+aon = "SpellDisplay.aspx?ItemName=Bungle"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bungle", path = "json/spells2.json" },

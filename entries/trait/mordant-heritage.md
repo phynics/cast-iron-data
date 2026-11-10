@@ -2,6 +2,7 @@
 id = "ref/trait/mordant-heritage"
 kind = "trait"
 title = "Mordant Heritage"
+aon = "TraitDisplay.aspx?ItemName=Mordant%20Heritage"
 source_ids = ["inner-sea-primer", "elves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mordant_heritage", path = "json/traits04.json" },

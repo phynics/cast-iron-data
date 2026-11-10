@@ -2,6 +2,7 @@
 id = "ref/feat/urban-forager"
 kind = "feat"
 title = "Urban Forager"
+aon = "FeatDisplay.aspx?ItemName=Urban%20Forager"
 source_ids = ["taldor-echoes-of-glory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urban_forager", path = "json/feat17.json" },

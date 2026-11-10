@@ -2,6 +2,7 @@
 id = "ref/trait/enduring-mutagen"
 kind = "trait"
 title = "Enduring Mutagen"
+aon = "TraitDisplay.aspx?ItemName=Enduring%20Mutagen"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enduring_mutagen", path = "json/traits02.json" },

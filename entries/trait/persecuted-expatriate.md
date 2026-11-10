@@ -2,6 +2,7 @@
 id = "ref/trait/persecuted-expatriate"
 kind = "trait"
 title = "Persecuted Expatriate"
+aon = "TraitDisplay.aspx?ItemName=Persecuted%20Expatriate"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persecuted_expatriate", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/sword-of-valor"
 kind = "archetype"
 title = "Sword of Valor"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Sword%20of%20Valor"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sword_of_valor", path = "json/archetypes_paladin.json" },

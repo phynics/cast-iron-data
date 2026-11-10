@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/toxic-herbalist"
 kind = "archetype"
 title = "Toxic Herbalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Toxic%20Herbalist"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_herbalist", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-perfect-sizing"
 kind = "item"
 title = "Ring of Perfect Sizing"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Perfect%20Sizing"
 source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_perfect_sizing", path = "json/magic_ring.json" },

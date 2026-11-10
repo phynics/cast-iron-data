@@ -2,6 +2,7 @@
 id = "ref/spell/loathsome-veil"
 kind = "spell"
 title = "Loathsome Veil"
+aon = "SpellDisplay.aspx?ItemName=Loathsome%20Veil"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loathsome_veil", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/sanguine-angel"
 kind = "prestige_class"
 title = "Sanguine Angel"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Sanguine%20Angel"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sanguine_angel", path = "json/prestige_classes3.json" },

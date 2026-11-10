@@ -2,6 +2,7 @@
 id = "ref/feat/rahadoumi-exorcist"
 kind = "feat"
 title = "Rahadoumi Exorcist"
+aon = "FeatDisplay.aspx?ItemName=Rahadoumi%20Exorcist"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rahadoumi_exorcist", path = "json/feat13.json" },

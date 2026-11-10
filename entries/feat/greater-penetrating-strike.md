@@ -2,6 +2,7 @@
 id = "ref/feat/greater-penetrating-strike"
 kind = "feat"
 title = "Greater Penetrating Strike"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Penetrating%20Strike"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_penetrating_strike", path = "json/feat08.json" },

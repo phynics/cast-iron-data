@@ -2,6 +2,7 @@
 id = "ref/spell/unhallow"
 kind = "spell"
 title = "Unhallow"
+aon = "SpellDisplay.aspx?ItemName=Unhallow"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unhallow", path = "json/spells11.json" },

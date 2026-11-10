@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-mumia"
 kind = "trait"
 title = "Child of Mumia"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Mumia"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_mumia", path = "json/traits04.json" },

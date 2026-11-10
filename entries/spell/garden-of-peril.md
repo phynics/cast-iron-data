@@ -2,6 +2,7 @@
 id = "ref/spell/garden-of-peril"
 kind = "spell"
 title = "Garden of Peril"
+aon = "SpellDisplay.aspx?ItemName=Garden%20of%20Peril"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "garden_of_peril", path = "json/spells13.json" },

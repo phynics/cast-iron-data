@@ -2,6 +2,7 @@
 id = "ref/feat/chilling-amplification"
 kind = "feat"
 title = "Chilling Amplification"
+aon = "FeatDisplay.aspx?ItemName=Chilling%20Amplification"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chilling_amplification", path = "json/feat03.json" },

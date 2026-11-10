@@ -2,6 +2,7 @@
 id = "ref/spell/cloak-of-dreams"
 kind = "spell"
 title = "Cloak of Dreams"
+aon = "SpellDisplay.aspx?ItemName=Cloak%20of%20Dreams"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cloak_of_dreams", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/aquanaut"
 kind = "archetype"
 title = "Aquanaut"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Aquanaut"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aquanaut", path = "json/archetypes_fighter.json" },

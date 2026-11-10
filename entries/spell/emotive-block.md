@@ -2,6 +2,7 @@
 id = "ref/spell/emotive-block"
 kind = "spell"
 title = "Emotive Block"
+aon = "SpellDisplay.aspx?ItemName=Emotive%20Block"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emotive_block", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/musket-master"
 kind = "archetype"
 title = "Musket Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Musket%20Master"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musket_master", path = "json/archetypes_gunslinger.json" },

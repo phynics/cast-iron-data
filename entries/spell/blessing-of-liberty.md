@@ -2,6 +2,7 @@
 id = "ref/spell/blessing-of-liberty"
 kind = "spell"
 title = "Blessing of Liberty"
+aon = "SpellDisplay.aspx?ItemName=Blessing%20of%20Liberty"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_liberty", path = "json/spells2.json" },

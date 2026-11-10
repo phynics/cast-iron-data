@@ -2,6 +2,7 @@
 id = "ref/monster/blood-algae-swarm"
 kind = "creature"
 title = "Blood Algae Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Blood%20Algae%20Swarm"
 source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_algae_swarm", path = "json/monsters27.json" },

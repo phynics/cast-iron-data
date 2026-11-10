@@ -2,6 +2,7 @@
 id = "ref/monster/hag-mute-hag"
 kind = "creature"
 title = "Mute Hag"
+aon = "MonsterDisplay.aspx?ItemName=Mute%20Hag"
 source_ids = ["the-harrowing", "blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_mute_hag", path = "json/monsters33.json" },

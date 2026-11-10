@@ -2,6 +2,7 @@
 id = "ref/feat/snatch-arrows"
 kind = "feat"
 title = "Snatch Arrows"
+aon = "FeatDisplay.aspx?ItemName=Snatch%20Arrows"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snatch_arrows", path = "json/feat14.json" },

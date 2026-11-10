@@ -2,6 +2,7 @@
 id = "ref/feat/align-equipment"
 kind = "feat"
 title = "Align Equipment"
+aon = "FeatDisplay.aspx?ItemName=Align%20Equipment"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "align_equipment", path = "json/feat01.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/tinkerer"
 kind = "archetype"
 title = "Tinkerer"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Tinkerer"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tinkerer", path = "json/archetypes_alchemist2.json" },

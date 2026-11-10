@@ -2,6 +2,7 @@
 id = "ref/spell/pup-shape"
 kind = "spell"
 title = "Pup Shape"
+aon = "SpellDisplay.aspx?ItemName=Pup%20Shape"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pup_shape", path = "json/spells15.json" },

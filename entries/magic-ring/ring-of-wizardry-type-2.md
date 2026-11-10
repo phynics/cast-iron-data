@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-wizardry-type-2"
 kind = "item"
 title = "Ring of Wizardry (type II)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Wizardrytype%20II"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_wizardry_type_2", path = "json/magic_ring.json" },

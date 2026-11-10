@@ -2,6 +2,7 @@
 id = "ref/trait/blood-of-pharaohs"
 kind = "trait"
 title = "Blood of Pharaohs"
+aon = "TraitDisplay.aspx?ItemName=Blood%20of%20Pharaohs"
 source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_of_pharaohs", path = "json/traits02.json" },

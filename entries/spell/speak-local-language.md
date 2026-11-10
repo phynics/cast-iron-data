@@ -2,6 +2,7 @@
 id = "ref/spell/speak-local-language"
 kind = "spell"
 title = "Speak Local Language"
+aon = "SpellDisplay.aspx?ItemName=Speak%20Local%20Language"
 source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "speak_local_language", path = "json/spells9.json" },

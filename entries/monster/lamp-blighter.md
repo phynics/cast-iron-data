@@ -2,6 +2,7 @@
 id = "ref/monster/lamp-blighter"
 kind = "creature"
 title = "Lamp Blighter"
+aon = "MonsterDisplay.aspx?ItemName=Lamp%20Blighter"
 source_ids = ["pathfinder-128-songbird-scion-saboteur"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lamp_blighter", path = "json/monsters34.json" },

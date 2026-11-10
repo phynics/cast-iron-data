@@ -2,6 +2,7 @@
 id = "ref/feat/ghost-whisperer"
 kind = "feat"
 title = "Ghost Whisperer"
+aon = "FeatDisplay.aspx?ItemName=Ghost%20Whisperer"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ghost_whisperer", path = "json/feat07.json" },

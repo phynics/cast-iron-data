@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-dragonflies"
 kind = "spell"
 title = "Curse of Dragonflies"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Dragonflies"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_dragonflies", path = "json/spells3.json" },

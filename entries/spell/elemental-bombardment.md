@@ -2,6 +2,7 @@
 id = "ref/spell/elemental-bombardment"
 kind = "spell"
 title = "Elemental Bombardment"
+aon = "SpellDisplay.aspx?ItemName=Elemental%20Bombardment"
 source_ids = ["mythic-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_bombardment", path = "json/spells4.json" },

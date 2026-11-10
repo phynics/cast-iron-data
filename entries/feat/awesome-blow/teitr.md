@@ -2,6 +2,7 @@
 id = "ref/feat/awesome-blow/teitr"
 kind = "feat"
 title = "Awesome Blow"
+aon = "FeatDisplay.aspx?ItemName=Awesome%20Blow"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/awesome-blow" },

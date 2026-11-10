@@ -2,6 +2,7 @@
 id = "ref/spell/barkskin"
 kind = "spell"
 title = "Barkskin"
+aon = "SpellDisplay.aspx?ItemName=Barkskin"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "barkskin", path = "json/spells12.json" },

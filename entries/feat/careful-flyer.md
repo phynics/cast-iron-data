@@ -2,6 +2,7 @@
 id = "ref/feat/careful-flyer"
 kind = "feat"
 title = "Careful Flyer"
+aon = "FeatDisplay.aspx?ItemName=Careful%20Flyer"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "careful_flyer", path = "json/feat02.json" },

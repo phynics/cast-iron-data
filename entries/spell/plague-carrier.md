@@ -2,6 +2,7 @@
 id = "ref/spell/plague-carrier"
 kind = "spell"
 title = "Plague Carrier"
+aon = "SpellDisplay.aspx?ItemName=Plague%20Carrier"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_carrier", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-skald/belkzen-war-drummer"
 kind = "archetype"
 title = "Belkzen War Drummer"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Belkzen%20War%20Drummer"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "belkzen_war_drummer", path = "json/archetypes_skald.json" },

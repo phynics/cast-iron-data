@@ -2,6 +2,7 @@
 id = "ref/monster/irlgaunt"
 kind = "creature"
 title = "Irlgaunt"
+aon = "MonsterDisplay.aspx?ItemName=Irlgaunt"
 source_ids = ["pathfinder-35-war-of-the-river-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irlgaunt", path = "json/monsters14.json" },

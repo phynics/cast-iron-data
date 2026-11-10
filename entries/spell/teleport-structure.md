@@ -2,6 +2,7 @@
 id = "ref/spell/teleport-structure"
 kind = "spell"
 title = "Teleport Structure"
+aon = "SpellDisplay.aspx?ItemName=Teleport%20Structure"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "teleport_structure", path = "json/spells10.json" },

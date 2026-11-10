@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/enigma"
 kind = "archetype"
 title = "Enigma"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Enigma"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enigma", path = "json/archetypes_mesmerist.json" },

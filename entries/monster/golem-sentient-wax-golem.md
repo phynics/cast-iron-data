@@ -2,6 +2,7 @@
 id = "ref/monster/golem-sentient-wax-golem"
 kind = "creature"
 title = "Sentient Wax Golem"
+aon = "MonsterDisplay.aspx?ItemName=Sentient%20Wax%20Golem"
 source_ids = ["pathfinder-47-ashes-at-dawn"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_sentient_wax_golem", path = "json/monsters33.json" },

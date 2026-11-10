@@ -2,6 +2,7 @@
 id = "ref/spell/book-ward"
 kind = "spell"
 title = "Book Ward"
+aon = "SpellDisplay.aspx?ItemName=Book%20Ward"
 source_ids = ["seekers-of-secrets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "book_ward", path = "json/spells2.json" },

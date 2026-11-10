@@ -2,6 +2,7 @@
 id = "ref/trait/blessing-of-the-feast"
 kind = "trait"
 title = "Blessing of the Feast"
+aon = "TraitDisplay.aspx?ItemName=Blessing%20of%20the%20Feast"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blessing_of_the_feast", path = "json/traits03.json" },

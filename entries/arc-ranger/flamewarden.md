@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/flamewarden"
 kind = "archetype"
 title = "Flamewarden"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Flamewarden"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flamewarden", path = "json/archetypes_ranger.json" },

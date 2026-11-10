@@ -2,6 +2,7 @@
 id = "ref/spell/soothe-construct"
 kind = "spell"
 title = "Soothe Construct"
+aon = "SpellDisplay.aspx?ItemName=Soothe%20Construct"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothe_construct", path = "json/spells9.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/toxic-talon"
 kind = "archetype"
 title = "Toxic Talon"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Toxic%20Talon"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "toxic_talon", path = "json/archetypes_rogue.json" },

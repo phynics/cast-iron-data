@@ -2,6 +2,7 @@
 id = "ref/arc-kineticist/blighted-defiler"
 kind = "archetype"
 title = "Blighted Defiler"
+aon = "ArchetypeDisplay.aspx?FixedName=Kineticist%20Blighted%20Defiler"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_defiler", path = "json/archetypes_kineticist.json" },

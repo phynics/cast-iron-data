@@ -2,6 +2,7 @@
 id = "ref/feat/greater-ray-shield"
 kind = "feat"
 title = "Greater Ray Shield"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Ray%20Shield"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ray_shield", path = "json/feat08.json" },

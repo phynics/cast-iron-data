@@ -2,6 +2,7 @@
 id = "ref/spell/bountiful-banquet"
 kind = "spell"
 title = "Bountiful Banquet"
+aon = "SpellDisplay.aspx?ItemName=Bountiful%20Banquet"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bountiful_banquet", path = "json/spells2.json" },

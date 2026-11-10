@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/mindwyrm-mesmer"
 kind = "archetype"
 title = "Mindwyrm Mesmer"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Mindwyrm%20Mesmer"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindwyrm_mesmer", path = "json/archetypes_mesmerist.json" },

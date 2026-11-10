@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-malignancies"
 kind = "trait"
 title = "Arcane Malignancies"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Malignancies"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_malignancies", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/yokai-hunter"
 kind = "archetype"
 title = "Yokai Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Yokai%20Hunter"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "yokai_hunter", path = "json/archetypes_ranger.json" },

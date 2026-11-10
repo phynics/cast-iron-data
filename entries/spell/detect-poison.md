@@ -2,6 +2,7 @@
 id = "ref/spell/detect-poison"
 kind = "spell"
 title = "Detect Poison"
+aon = "SpellDisplay.aspx?ItemName=Detect%20Poison"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "detect_poison", path = "json/spells3.json" },

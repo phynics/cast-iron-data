@@ -2,6 +2,7 @@
 id = "ref/feat/hardy-liver"
 kind = "feat"
 title = "Hardy Liver"
+aon = "FeatDisplay.aspx?ItemName=Hardy%20Liver"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hardy_liver", path = "json/feat08.json" },

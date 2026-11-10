@@ -2,6 +2,7 @@
 id = "ref/feat/risky-striker"
 kind = "feat"
 title = "Risky Striker"
+aon = "FeatDisplay.aspx?ItemName=Risky%20Striker"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "risky_striker", path = "json/feat13.json" },

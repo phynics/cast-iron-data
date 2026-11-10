@@ -2,6 +2,7 @@
 id = "ref/spell/curse-terrain-lesser"
 kind = "spell"
 title = "Lesser Curse Terrain"
+aon = "SpellDisplay.aspx?ItemName=Curse%20Terrain%2C%20Lesser"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_terrain_lesser", path = "json/spells3.json" },

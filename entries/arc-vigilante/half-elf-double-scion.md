@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/half-elf-double-scion"
 kind = "archetype"
 title = "Half-Elf Double Scion"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Half-Elf%20Double%20Scion"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_elf_double_scion", path = "json/archetypes_vigilante.json" },

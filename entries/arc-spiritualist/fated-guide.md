@@ -2,6 +2,7 @@
 id = "ref/arc-spiritualist/fated-guide"
 kind = "archetype"
 title = "Fated Guide"
+aon = "ArchetypeDisplay.aspx?FixedName=Spiritualist%20Fated%20Guide"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fated_guide", path = "json/archetypes_spiritualist.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/heartrot-tree"
 kind = "creature"
 title = "Heartrot Tree"
+aon = "MonsterDisplay.aspx?ItemName=Heartrot%20Tree"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heartrot_tree", path = "json/monsters13.json" },

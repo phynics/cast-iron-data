@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/sorcerer-of-sleep"
 kind = "archetype"
 title = "Sorcerer of Sleep"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Sorcerer%20of%20Sleep"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sorcerer_of_sleep", path = "json/archetypes_sorcerer.json" },

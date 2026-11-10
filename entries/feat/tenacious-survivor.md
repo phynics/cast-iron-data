@@ -2,6 +2,7 @@
 id = "ref/feat/tenacious-survivor"
 kind = "feat"
 title = "Tenacious Survivor"
+aon = "FeatDisplay.aspx?ItemName=Tenacious%20Survivor"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tenacious_survivor", path = "json/feat16.json" },

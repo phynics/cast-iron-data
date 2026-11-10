@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/kitsune-trickster"
 kind = "archetype"
 title = "Kitsune Trickster"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Kitsune%20Trickster"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_trickster", path = "json/archetypes_rogue.json" },

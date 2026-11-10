@@ -2,6 +2,7 @@
 id = "ref/trait/schooled-inquisitor"
 kind = "trait"
 title = "Schooled Inquisitor"
+aon = "TraitDisplay.aspx?ItemName=Schooled%20Inquisitor"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "schooled_inquisitor", path = "json/traits01.json" },

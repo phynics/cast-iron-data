@@ -2,6 +2,7 @@
 id = "ref/arc-bard/luring-piper"
 kind = "archetype"
 title = "Luring Piper"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Luring%20Piper"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luring_piper", path = "json/archetypes_bard2.json" },

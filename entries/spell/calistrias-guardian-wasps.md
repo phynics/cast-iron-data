@@ -2,6 +2,7 @@
 id = "ref/spell/calistrias-guardian-wasps"
 kind = "spell"
 title = "Calistria's Guardian Wasps"
+aon = "SpellDisplay.aspx?ItemName=Calistria%27s%20Guardian%20Wasps"
 source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calistrias_guardian_wasps", path = "json/spells2.json" },

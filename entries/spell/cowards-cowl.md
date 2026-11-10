@@ -2,6 +2,7 @@
 id = "ref/spell/cowards-cowl"
 kind = "spell"
 title = "Coward's Cowl"
+aon = "SpellDisplay.aspx?ItemName=Coward%27s%20Cowl"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowards_cowl", path = "json/spells12.json" },

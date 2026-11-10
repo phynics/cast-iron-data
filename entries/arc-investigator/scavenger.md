@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/scavenger"
 kind = "archetype"
 title = "Scavenger"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Scavenger"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scavenger", path = "json/archetypes_investigator.json" },

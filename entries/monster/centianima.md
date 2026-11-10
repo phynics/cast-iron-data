@@ -2,6 +2,7 @@
 id = "ref/monster/centianima"
 kind = "creature"
 title = "Centianima"
+aon = "MonsterDisplay.aspx?ItemName=Centianima"
 source_ids = ["pathfinder-103-the-hellfire-compact"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centianima", path = "json/monsters28.json" },

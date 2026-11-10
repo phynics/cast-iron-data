@@ -2,6 +2,7 @@
 id = "ref/spell/enshroud-thoughts"
 kind = "spell"
 title = "Enshroud Thoughts"
+aon = "SpellDisplay.aspx?ItemName=Enshroud%20Thoughts"
 source_ids = ["occult-adventures", "blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enshroud_thoughts", path = "json/spells4.json" },

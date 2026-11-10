@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/soul-sentinel"
 kind = "archetype"
 title = "Soul Sentinel"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Soul%20Sentinel"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_sentinel", path = "json/archetypes_paladin.json" },

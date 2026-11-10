@@ -2,6 +2,7 @@
 id = "ref/feat/kitsune-vengeance"
 kind = "feat"
 title = "Kitsune Vengeance"
+aon = "FeatDisplay.aspx?ItemName=Kitsune%20Vengeance"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_vengeance", path = "json/feat09.json" },

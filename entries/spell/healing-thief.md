@@ -2,6 +2,7 @@
 id = "ref/spell/healing-thief"
 kind = "spell"
 title = "Healing Thief"
+aon = "SpellDisplay.aspx?ItemName=Healing%20Thief"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "healing_thief", path = "json/spells5.json" },

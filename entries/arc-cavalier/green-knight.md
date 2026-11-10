@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/green-knight"
 kind = "archetype"
 title = "Green Knight"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Green%20Knight"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_knight", path = "json/archetypes_cavalier.json" },

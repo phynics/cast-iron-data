@@ -2,6 +2,7 @@
 id = "ref/monster/bisha-ga-tsuku"
 kind = "creature"
 title = "Bisha Ga Tsuku"
+aon = "MonsterDisplay.aspx?ItemName=Bisha%20Ga%20Tsuku"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bisha_ga_tsuku", path = "json/monsters03.json" },

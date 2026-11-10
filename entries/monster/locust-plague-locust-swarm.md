@@ -2,6 +2,7 @@
 id = "ref/monster/locust-plague-locust-swarm"
 kind = "creature"
 title = "Plague Locust Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Plague%20Locust%20Swarm"
 source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "locust_plague_locust_swarm", path = "json/monsters16.json" },

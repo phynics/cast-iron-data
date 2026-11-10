@@ -2,6 +2,7 @@
 id = "ref/feat/wyvern-fury-style"
 kind = "feat"
 title = "Wyvern Fury Style"
+aon = "FeatDisplay.aspx?ItemName=Wyvern%20Fury%20Style"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_fury_style", path = "json/feat17.json" },

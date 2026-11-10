@@ -2,6 +2,7 @@
 id = "ref/spell/phantom-trap"
 kind = "spell"
 title = "Phantom Trap"
+aon = "SpellDisplay.aspx?ItemName=Phantom%20Trap"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phantom_trap", path = "json/spells7.json" },

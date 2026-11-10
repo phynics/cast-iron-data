@@ -2,6 +2,7 @@
 id = "ref/feat/entreating-critical"
 kind = "feat"
 title = "Entreating Critical"
+aon = "FeatDisplay.aspx?ItemName=Entreating%20Critical"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "entreating_critical", path = "json/feat05.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/retributive-summoning"
 kind = "feat"
 title = "Retributive Summoning"
+aon = "FeatDisplay.aspx?ItemName=Retributive%20Summoning"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "retributive_summoning", path = "json/feat13.json" },

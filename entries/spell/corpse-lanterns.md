@@ -2,6 +2,7 @@
 id = "ref/spell/corpse-lanterns"
 kind = "spell"
 title = "Corpse Lanterns"
+aon = "SpellDisplay.aspx?ItemName=Corpse%20Lanterns"
 source_ids = ["pathfinder-society-field-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_lanterns", path = "json/spells12.json" },

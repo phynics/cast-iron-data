@@ -2,6 +2,7 @@
 id = "ref/spell/calcific-touch"
 kind = "spell"
 title = "Calcific Touch"
+aon = "SpellDisplay.aspx?ItemName=Calcific%20Touch"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "calcific_touch", path = "json/spells2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/negotiator"
 kind = "archetype"
 title = "Negotiator"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Negotiator"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "negotiator", path = "json/archetypes_bard2.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/spirit-ranger"
 kind = "archetype"
 title = "Spirit Ranger"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Spirit%20Ranger"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_ranger", path = "json/archetypes_ranger.json" },

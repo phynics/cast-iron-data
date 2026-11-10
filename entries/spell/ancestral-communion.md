@@ -2,6 +2,7 @@
 id = "ref/spell/ancestral-communion"
 kind = "spell"
 title = "Ancestral Communion"
+aon = "SpellDisplay.aspx?ItemName=Ancestral%20Communion"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancestral_communion", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/lute-of-discord"
 kind = "item"
 title = "Lute of Discord"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Lute%20of%20Discord"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lute_of_discord", path = "json/magic_wondrous_slotless04.json" },

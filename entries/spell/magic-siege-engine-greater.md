@@ -2,6 +2,7 @@
 id = "ref/spell/magic-siege-engine-greater"
 kind = "spell"
 title = "Greater Magic Siege Engine"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Siege%20Engine%2C%20Greater"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_siege_engine_greater", path = "json/spells6.json" },

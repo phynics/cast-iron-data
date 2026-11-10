@@ -2,6 +2,7 @@
 id = "ref/feat/disassemble-magic-item"
 kind = "feat"
 title = "Disassemble Magic Item"
+aon = "FeatDisplay.aspx?ItemName=Disassemble%20Magic%20Item"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disassemble_magic_item", path = "json/feat04.json" },

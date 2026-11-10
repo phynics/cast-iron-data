@@ -2,6 +2,7 @@
 id = "ref/carried/ultimate-magic/rules/spellcasting-class-options/sorcerer/sorcerer-archetypes/wildblooded"
 kind = "archetype"
 title = "Wildblooded"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Wildblooded"
 source_ids = ["ultimate-magic"]
 section = ["Rules", "Spellcasting Class Options", "Sorcerer", "Sorcerer Archetypes"]
 tags = ["sorcerer"]

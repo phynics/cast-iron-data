@@ -2,6 +2,7 @@
 id = "ref/monster/hookfang-worm"
 kind = "creature"
 title = "Hookfang Worm"
+aon = "MonsterDisplay.aspx?ItemName=Hookfang%20Worm"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hookfang_worm", path = "json/monsters32.json" },

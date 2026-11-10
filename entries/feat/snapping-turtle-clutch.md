@@ -2,6 +2,7 @@
 id = "ref/feat/snapping-turtle-clutch"
 kind = "feat"
 title = "Snapping Turtle Clutch"
+aon = "FeatDisplay.aspx?ItemName=Snapping%20Turtle%20Clutch"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_turtle_clutch", path = "json/feat14.json" },

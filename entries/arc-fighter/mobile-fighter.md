@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/mobile-fighter"
 kind = "archetype"
 title = "Mobile Fighter"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Mobile%20Fighter"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mobile_fighter", path = "json/archetypes_fighter.json" },

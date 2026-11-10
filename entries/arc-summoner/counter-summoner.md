@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/counter-summoner"
 kind = "archetype"
 title = "Counter-Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Counter-Summoner"
 source_ids = ["monster-summoners-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "counter_summoner", path = "json/archetypes_summoner.json" },

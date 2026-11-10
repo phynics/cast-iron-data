@@ -2,6 +2,7 @@
 id = "ref/feat/diabolical-negotiator"
 kind = "feat"
 title = "Diabolical Negotiator"
+aon = "FeatDisplay.aspx?ItemName=Diabolical%20Negotiator"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "diabolical_negotiator", path = "json/feat04.json" },

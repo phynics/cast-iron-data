@@ -2,6 +2,7 @@
 id = "ref/arc-magus/skirnir"
 kind = "archetype"
 title = "Skirnir"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Skirnir"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skirnir", path = "json/archetypes_magus.json" },

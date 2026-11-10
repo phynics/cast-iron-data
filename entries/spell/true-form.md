@@ -2,6 +2,7 @@
 id = "ref/spell/true-form"
 kind = "spell"
 title = "True Form"
+aon = "SpellDisplay.aspx?ItemName=True%20Form"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_form", path = "json/spells10.json" },

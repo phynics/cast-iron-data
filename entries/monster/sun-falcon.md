@@ -2,6 +2,7 @@
 id = "ref/monster/sun-falcon"
 kind = "creature"
 title = "Sun Falcon"
+aon = "MonsterDisplay.aspx?ItemName=Sun%20Falcon"
 source_ids = ["pathfinder-79-the-half-dead-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_falcon", path = "json/monsters39.json" },

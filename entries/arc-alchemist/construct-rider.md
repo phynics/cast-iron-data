@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/construct-rider"
 kind = "archetype"
 title = "Construct Rider"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Construct%20Rider"
 source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "construct_rider", path = "json/archetypes_alchemist.json" },

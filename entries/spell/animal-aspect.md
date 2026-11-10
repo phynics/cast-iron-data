@@ -2,6 +2,7 @@
 id = "ref/spell/animal-aspect"
 kind = "spell"
 title = "Animal Aspect"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Aspect"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_aspect", path = "json/spells.json" },

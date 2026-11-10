@@ -2,6 +2,7 @@
 id = "ref/arc-cleric/crusader"
 kind = "archetype"
 title = "Crusader"
+aon = "ArchetypeDisplay.aspx?FixedName=Cleric%20Crusader"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crusader", path = "json/archetypes_cleric.json" },

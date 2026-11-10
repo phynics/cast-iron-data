@@ -2,6 +2,7 @@
 id = "ref/spell/hallucinatory-decor"
 kind = "spell"
 title = "Hallucinatory Decor"
+aon = "SpellDisplay.aspx?ItemName=Hallucinatory%20Decor"
 source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hallucinatory_decor", path = "json/spells5.json" },

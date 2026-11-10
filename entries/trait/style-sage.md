@@ -2,6 +2,7 @@
 id = "ref/trait/style-sage"
 kind = "trait"
 title = "Style Sage"
+aon = "TraitDisplay.aspx?ItemName=Style%20Sage"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "style_sage", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/arboreal-hammer"
 kind = "spell"
 title = "Arboreal Hammer"
+aon = "SpellDisplay.aspx?ItemName=Arboreal%20Hammer"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arboreal_hammer", path = "json/spells.json" },

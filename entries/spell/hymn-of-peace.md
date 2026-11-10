@@ -2,6 +2,7 @@
 id = "ref/spell/hymn-of-peace"
 kind = "spell"
 title = "Hymn of Peace"
+aon = "SpellDisplay.aspx?ItemName=Hymn%20of%20Peace"
 source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hymn_of_peace", path = "json/spells5.json" },

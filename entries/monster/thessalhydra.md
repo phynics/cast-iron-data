@@ -2,6 +2,7 @@
 id = "ref/monster/thessalhydra"
 kind = "creature"
 title = "Thessalhydra"
+aon = "MonsterDisplay.aspx?ItemName=Thessalhydra"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thessalhydra", path = "json/monsters23.json" },

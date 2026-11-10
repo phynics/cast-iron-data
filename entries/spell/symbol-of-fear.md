@@ -2,6 +2,7 @@
 id = "ref/spell/symbol-of-fear"
 kind = "spell"
 title = "Symbol of Fear"
+aon = "SpellDisplay.aspx?ItemName=Symbol%20of%20Fear"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "symbol_of_fear", path = "json/spells10.json" },

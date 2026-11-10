@@ -2,6 +2,7 @@
 id = "ref/monster/redcap"
 kind = "creature"
 title = "Redcap"
+aon = "MonsterDisplay.aspx?ItemName=Redcap"
 source_ids = ["bestiary-2", "pathfinder-4-fortress-of-the-stone-giants"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redcap", path = "json/monsters20.json" },

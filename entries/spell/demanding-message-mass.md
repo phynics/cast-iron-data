@@ -2,6 +2,7 @@
 id = "ref/spell/demanding-message-mass"
 kind = "spell"
 title = "Mass Demanding Message"
+aon = "SpellDisplay.aspx?ItemName=Demanding%20Message%2C%20Mass"
 source_ids = ["core-rulebook", "ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demanding_message_mass", path = "json/spells14.json" },

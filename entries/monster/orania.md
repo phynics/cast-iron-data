@@ -2,6 +2,7 @@
 id = "ref/monster/orania"
 kind = "creature"
 title = "Orania, Cloud Giant Oligarch"
+aon = "MonsterDisplay.aspx?ItemName=Orania%2C%20Cloud%20Giant%20Oligarch"
 source_ids = ["giants-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "orania", path = "json/monsters_unique3.json" },

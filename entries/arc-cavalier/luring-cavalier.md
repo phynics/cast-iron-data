@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/luring-cavalier"
 kind = "archetype"
 title = "Luring Cavalier"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Luring%20Cavalier"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "luring_cavalier", path = "json/archetypes_cavalier.json" },

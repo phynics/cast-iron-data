@@ -2,6 +2,7 @@
 id = "ref/arc-skald/fated-champion"
 kind = "archetype"
 title = "Fated Champion"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Fated%20Champion"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fated_champion", path = "json/archetypes_skald.json" },

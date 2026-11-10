@@ -2,6 +2,7 @@
 id = "ref/spell/shield-companion-acg"
 kind = "spell"
 title = "Shield Companion (ACG)"
+aon = "SpellDisplay.aspx?ItemName=Shield%20Companion%20%28ACG%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_companion_acg", path = "json/spells9.json" },

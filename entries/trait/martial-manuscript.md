@@ -2,6 +2,7 @@
 id = "ref/trait/martial-manuscript"
 kind = "trait"
 title = "Martial Manuscript"
+aon = "TraitDisplay.aspx?ItemName=Martial%20Manuscript"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "martial_manuscript", path = "json/traits01.json" },

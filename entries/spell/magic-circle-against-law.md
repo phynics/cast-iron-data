@@ -2,6 +2,7 @@
 id = "ref/spell/magic-circle-against-law"
 kind = "spell"
 title = "Magic Circle Against Law"
+aon = "SpellDisplay.aspx?ItemName=Magic%20Circle%20against%20Law"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magic_circle_against_law", path = "json/spells6.json" },

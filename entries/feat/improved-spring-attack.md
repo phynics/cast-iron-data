@@ -2,6 +2,7 @@
 id = "ref/feat/improved-spring-attack"
 kind = "feat"
 title = "Improved Spring Attack"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Spring%20Attack"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_spring_attack", path = "json/feat09.json" },

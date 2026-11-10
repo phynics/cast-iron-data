@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-of-doubt"
 kind = "spell"
 title = "Shadow of Doubt"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20of%20Doubt"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_of_doubt", path = "json/spells15.json" },

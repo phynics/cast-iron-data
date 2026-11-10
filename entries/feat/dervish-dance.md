@@ -2,6 +2,7 @@
 id = "ref/feat/dervish-dance"
 kind = "feat"
 title = "Dervish Dance"
+aon = "FeatDisplay.aspx?ItemName=Dervish%20Dance"
 source_ids = ["inner-sea-world-guide", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dervish_dance", path = "json/feat04.json" },

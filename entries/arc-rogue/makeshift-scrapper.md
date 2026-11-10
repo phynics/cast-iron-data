@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/makeshift-scrapper"
 kind = "archetype"
 title = "Makeshift Scrapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Makeshift%20Scrapper"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "makeshift_scrapper", path = "json/archetypes_rogue.json" },

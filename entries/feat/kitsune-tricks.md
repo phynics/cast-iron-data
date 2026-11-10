@@ -2,6 +2,7 @@
 id = "ref/feat/kitsune-tricks"
 kind = "feat"
 title = "Kitsune Tricks"
+aon = "FeatDisplay.aspx?ItemName=Kitsune%20Tricks"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kitsune_tricks", path = "json/feat09.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/evolutionist"
 kind = "archetype"
 title = "Evolutionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Evolutionist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "evolutionist", path = "json/archetypes_summoner.json" },

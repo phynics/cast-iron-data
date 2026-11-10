@@ -2,6 +2,7 @@
 id = "ref/arc-druid/reincarnated-druid"
 kind = "archetype"
 title = "Reincarnated Druid"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Reincarnated%20Druid"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reincarnated_druid", path = "json/archetypes_druid2.json" },

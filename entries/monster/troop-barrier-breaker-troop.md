@@ -2,6 +2,7 @@
 id = "ref/monster/troop-barrier-breaker-troop"
 kind = "creature"
 title = "Barrier Breaker Troop"
+aon = "MonsterDisplay.aspx?ItemName=Barrier%20Breaker%20Troop"
 source_ids = ["pathfinder-141-last-watch"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troop_barrier_breaker_troop", path = "json/monsters24.json" },

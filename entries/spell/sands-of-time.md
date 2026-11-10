@@ -2,6 +2,7 @@
 id = "ref/spell/sands-of-time"
 kind = "spell"
 title = "Sands of Time"
+aon = "SpellDisplay.aspx?ItemName=Sands%20of%20Time"
 source_ids = ["ultimate-magic", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sands_of_time", path = "json/spells8.json" },

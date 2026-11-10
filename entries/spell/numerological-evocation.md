@@ -2,6 +2,7 @@
 id = "ref/spell/numerological-evocation"
 kind = "spell"
 title = "Numerological Evocation"
+aon = "SpellDisplay.aspx?ItemName=Numerological%20Evocation"
 source_ids = ["occult-mysteries"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerological_evocation", path = "json/spells7.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/rugged-dragon-hunter"
 kind = "trait"
 title = "Rugged Dragon Hunter"
+aon = "TraitDisplay.aspx?ItemName=Rugged%20Dragon%20Hunter"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rugged_dragon_hunter", path = "json/traits01.json" },

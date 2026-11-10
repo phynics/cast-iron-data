@@ -2,6 +2,7 @@
 id = "ref/feat/inspired-alchemy"
 kind = "feat"
 title = "Inspired Alchemy"
+aon = "FeatDisplay.aspx?ItemName=Inspired%20Alchemy"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspired_alchemy", path = "json/feat09.json" },

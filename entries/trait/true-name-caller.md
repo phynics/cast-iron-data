@@ -2,6 +2,7 @@
 id = "ref/trait/true-name-caller"
 kind = "trait"
 title = "True Name Caller"
+aon = "TraitDisplay.aspx?ItemName=True%20Name%20Caller"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_name_caller", path = "json/traits04.json" },

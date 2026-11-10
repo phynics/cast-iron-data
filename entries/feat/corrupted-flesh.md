@@ -2,6 +2,7 @@
 id = "ref/feat/corrupted-flesh"
 kind = "feat"
 title = "Corrupted Flesh"
+aon = "FeatDisplay.aspx?ItemName=Corrupted%20Flesh"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corrupted_flesh", path = "json/feat03.json" },

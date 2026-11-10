@@ -2,6 +2,7 @@
 id = "ref/monster/mire-nettle"
 kind = "creature"
 title = "Mire Nettle"
+aon = "MonsterDisplay.aspx?ItemName=Mire%20Nettle"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mire_nettle", path = "json/monsters17.json" },

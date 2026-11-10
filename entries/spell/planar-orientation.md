@@ -2,6 +2,7 @@
 id = "ref/spell/planar-orientation"
 kind = "spell"
 title = "Planar Orientation"
+aon = "SpellDisplay.aspx?ItemName=Planar%20Orientation"
 source_ids = ["the-first-world-realm-of-the-fey"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_orientation", path = "json/spells7.json" },

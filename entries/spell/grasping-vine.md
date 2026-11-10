@@ -2,6 +2,7 @@
 id = "ref/spell/grasping-vine"
 kind = "spell"
 title = "Grasping Vine"
+aon = "SpellDisplay.aspx?ItemName=Grasping%20Vine"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_vine", path = "json/spells5.json" },

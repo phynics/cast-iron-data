@@ -2,6 +2,7 @@
 id = "ref/monster/feeder-in-the-depths"
 kind = "creature"
 title = "Feeder in the Depths"
+aon = "MonsterDisplay.aspx?ItemName=Feeder%20in%20the%20Depths"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feeder_in_the_depths", path = "json/monsters10.json" },

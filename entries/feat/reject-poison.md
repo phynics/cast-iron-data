@@ -2,6 +2,7 @@
 id = "ref/feat/reject-poison"
 kind = "feat"
 title = "Reject Poison"
+aon = "FeatDisplay.aspx?ItemName=Reject%20Poison"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reject_poison", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/river-rat"
 kind = "archetype"
 title = "River Rat"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20River%20Rat"
 source_ids = ["ultimate-wilderness", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_rat", path = "json/archetypes_rogue.json" },

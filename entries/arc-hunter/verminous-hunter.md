@@ -2,6 +2,7 @@
 id = "ref/arc-hunter/verminous-hunter"
 kind = "archetype"
 title = "Verminous Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Hunter%20Verminous%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "verminous_hunter", path = "json/archetypes_hunter.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-darkness"
 kind = "spell"
 title = "Shield of Darkness"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20Darkness"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_darkness", path = "json/spells9.json" },

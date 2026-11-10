@@ -2,6 +2,7 @@
 id = "ref/feat/touch-of-the-brackish-emperor"
 kind = "feat"
 title = "Touch of the Brackish Emperor"
+aon = "FeatDisplay.aspx?ItemName=Touch%20of%20the%20Brackish%20Emperor"
 source_ids = ["aquatic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "touch_of_the_brackish_emperor", path = "json/feat16.json" },

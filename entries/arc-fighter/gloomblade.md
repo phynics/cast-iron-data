@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/gloomblade"
 kind = "archetype"
 title = "Gloomblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Gloomblade"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gloomblade", path = "json/archetypes_fighter.json" },

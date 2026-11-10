@@ -2,6 +2,7 @@
 id = "ref/spell/hungry-darkness"
 kind = "spell"
 title = "Hungry Darkness"
+aon = "SpellDisplay.aspx?ItemName=Hungry%20Darkness"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_darkness", path = "json/spells5.json" },

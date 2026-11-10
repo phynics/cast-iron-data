@@ -2,6 +2,7 @@
 id = "ref/spell/deathless"
 kind = "spell"
 title = "Deathless"
+aon = "SpellDisplay.aspx?ItemName=Deathless"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless", path = "json/spells3.json" },

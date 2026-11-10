@@ -2,6 +2,7 @@
 id = "ref/trait/looking-for-work"
 kind = "trait"
 title = "Looking for Work"
+aon = "TraitDisplay.aspx?ItemName=Looking%20for%20Work"
 source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "looking_for_work", path = "json/traits02.json" },

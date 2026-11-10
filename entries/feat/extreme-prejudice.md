@@ -2,6 +2,7 @@
 id = "ref/feat/extreme-prejudice"
 kind = "feat"
 title = "Extreme Prejudice"
+aon = "FeatDisplay.aspx?ItemName=Extreme%20Prejudice"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extreme_prejudice", path = "json/feat06.json" },

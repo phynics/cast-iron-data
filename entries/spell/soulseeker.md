@@ -2,6 +2,7 @@
 id = "ref/spell/soulseeker"
 kind = "spell"
 title = "Soulseeker"
+aon = "SpellDisplay.aspx?ItemName=Soulseeker"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soulseeker", path = "json/spells9.json" },

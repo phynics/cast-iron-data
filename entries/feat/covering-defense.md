@@ -2,6 +2,7 @@
 id = "ref/feat/covering-defense"
 kind = "feat"
 title = "Covering Defense"
+aon = "FeatDisplay.aspx?ItemName=Covering%20Defense"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covering_defense", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/gentle-repose"
 kind = "spell"
 title = "Gentle Repose"
+aon = "SpellDisplay.aspx?ItemName=Gentle%20Repose"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gentle_repose", path = "json/spells13.json" },

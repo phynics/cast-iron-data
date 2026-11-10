@@ -2,6 +2,7 @@
 id = "ref/feat/saddle-shrieker"
 kind = "feat"
 title = "Saddle Shrieker"
+aon = "FeatDisplay.aspx?ItemName=Saddle%20Shrieker"
 source_ids = ["goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saddle_shrieker", path = "json/feat13.json" },

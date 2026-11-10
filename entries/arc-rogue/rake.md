@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/rake"
 kind = "archetype"
 title = "Rake"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Rake"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rake", path = "json/archetypes_rogue.json" },

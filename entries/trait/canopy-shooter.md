@@ -2,6 +2,7 @@
 id = "ref/trait/canopy-shooter"
 kind = "trait"
 title = "Canopy Shooter"
+aon = "TraitDisplay.aspx?ItemName=Canopy%20Shooter"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopy_shooter", path = "json/traits05.json" },

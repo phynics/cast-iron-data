@@ -2,6 +2,7 @@
 id = "ref/trait/roof-racer"
 kind = "trait"
 title = "Roof Racer"
+aon = "TraitDisplay.aspx?ItemName=Roof%20Racer"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "roof_racer", path = "json/traits04.json" },

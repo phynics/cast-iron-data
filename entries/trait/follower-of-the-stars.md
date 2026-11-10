@@ -2,6 +2,7 @@
 id = "ref/trait/follower-of-the-stars"
 kind = "trait"
 title = "Follower of the Stars"
+aon = "TraitDisplay.aspx?ItemName=Follower%20of%20the%20Stars"
 source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "follower_of_the_stars", path = "json/traits03.json" },

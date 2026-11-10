@@ -2,6 +2,7 @@
 id = "ref/trait/close-allies"
 kind = "trait"
 title = "Close Allies"
+aon = "TraitDisplay.aspx?ItemName=Close%20Allies"
 source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "close_allies", path = "json/traits02.json" },

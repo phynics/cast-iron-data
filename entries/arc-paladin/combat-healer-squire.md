@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/combat-healer-squire"
 kind = "archetype"
 title = "Combat Healer Squire"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Combat%20Healer%20Squire"
 source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "combat_healer_squire", path = "json/archetypes_paladin.json" },

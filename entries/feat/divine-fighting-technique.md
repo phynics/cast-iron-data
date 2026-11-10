@@ -2,6 +2,7 @@
 id = "ref/feat/divine-fighting-technique"
 kind = "feat"
 title = "Divine Fighting Technique"
+aon = "FeatDisplay.aspx?ItemName=Divine%20Fighting%20Technique"
 source_ids = ["divine-anthology", "weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_fighting_technique", path = "json/feat05.json" },

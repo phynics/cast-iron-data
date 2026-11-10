@@ -2,6 +2,7 @@
 id = "ref/arc-monk/ouat"
 kind = "archetype"
 title = "Ouat"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Ouat"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ouat", path = "json/archetypes_monk.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/half-blood-extraction"
 kind = "spell"
 title = "Half-Blood Extraction"
+aon = "SpellDisplay.aspx?ItemName=Half-Blood%20Extraction"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_blood_extraction", path = "json/spells5.json" },

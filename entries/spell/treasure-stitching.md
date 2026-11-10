@@ -2,6 +2,7 @@
 id = "ref/spell/treasure-stitching"
 kind = "spell"
 title = "Treasure Stitching"
+aon = "SpellDisplay.aspx?ItemName=Treasure%20Stitching"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "treasure_stitching", path = "json/spells10.json" },

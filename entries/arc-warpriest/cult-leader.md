@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/cult-leader"
 kind = "archetype"
 title = "Cult Leader"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Cult%20Leader"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cult_leader", path = "json/archetypes_warpriest.json" },

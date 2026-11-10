@@ -2,6 +2,7 @@
 id = "ref/feat/casterbane-shot"
 kind = "feat"
 title = "Casterbane Shot"
+aon = "FeatDisplay.aspx?ItemName=Casterbane%20Shot"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "casterbane_shot", path = "json/feat02.json" },

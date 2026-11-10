@@ -2,6 +2,7 @@
 id = "ref/trait/voices-in-your-head"
 kind = "trait"
 title = "Voices in your Head"
+aon = "TraitDisplay.aspx?ItemName=Voices%20in%20your%20Head"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "voices_in_your_head", path = "json/traits01.json" },

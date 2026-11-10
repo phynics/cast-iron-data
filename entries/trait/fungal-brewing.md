@@ -2,6 +2,7 @@
 id = "ref/trait/fungal-brewing"
 kind = "trait"
 title = "Fungal Brewing"
+aon = "TraitDisplay.aspx?ItemName=Fungal%20Brewing"
 source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_brewing", path = "json/traits05.json" },

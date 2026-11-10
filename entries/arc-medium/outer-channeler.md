@@ -2,6 +2,7 @@
 id = "ref/arc-medium/outer-channeler"
 kind = "archetype"
 title = "Outer Channeler"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Outer%20Channeler"
 source_ids = ["psychic-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "outer_channeler", path = "json/archetypes_medium.json" },

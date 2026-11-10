@@ -2,6 +2,7 @@
 id = "ref/feat/monastic-legacy"
 kind = "feat"
 title = "Monastic Legacy"
+aon = "FeatDisplay.aspx?ItemName=Monastic%20Legacy"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monastic_legacy", path = "json/feat11.json" },

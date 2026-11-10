@@ -2,6 +2,7 @@
 id = "ref/trait/always-threatening"
 kind = "trait"
 title = "Always Threatening"
+aon = "TraitDisplay.aspx?ItemName=Always%20Threatening"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "always_threatening", path = "json/traits03.json" },

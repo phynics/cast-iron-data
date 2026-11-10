@@ -2,6 +2,7 @@
 id = "ref/spell/dungeonsight"
 kind = "spell"
 title = "Dungeonsight"
+aon = "SpellDisplay.aspx?ItemName=Dungeonsight"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dungeonsight", path = "json/spells13.json" },

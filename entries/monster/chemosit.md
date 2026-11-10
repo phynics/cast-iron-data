@@ -2,6 +2,7 @@
 id = "ref/monster/chemosit"
 kind = "creature"
 title = "Chemosit"
+aon = "MonsterDisplay.aspx?ItemName=Chemosit"
 source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chemosit", path = "json/monsters05.json" },

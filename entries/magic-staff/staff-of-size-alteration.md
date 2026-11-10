@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-size-alteration"
 kind = "item"
 title = "Staff of Size Alteration"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Size%20Alteration"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_size_alteration", path = "json/magic_staff.json" },

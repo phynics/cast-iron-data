@@ -2,6 +2,7 @@
 id = "ref/spell/quintessence"
 kind = "spell"
 title = "Quintessence"
+aon = "SpellDisplay.aspx?ItemName=Quintessence"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quintessence", path = "json/spells8.json" },

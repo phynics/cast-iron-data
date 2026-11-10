@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/grasping-vine"
 kind = "archetype"
 title = "Grasping Vine"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20Grasping%20Vine"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grasping_vine", path = "json/archetypes_shaman.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/szaezan-crags-miner"
 kind = "trait"
 title = "Szaezan Crags Miner"
+aon = "TraitDisplay.aspx?ItemName=Szaezan%20Crags%20Miner"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "szaezan_crags_miner", path = "json/traits04.json" },

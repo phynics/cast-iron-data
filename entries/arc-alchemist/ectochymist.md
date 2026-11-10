@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/ectochymist"
 kind = "archetype"
 title = "Ectochymist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Ectochymist"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ectochymist", path = "json/archetypes_alchemist.json" },

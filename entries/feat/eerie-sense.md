@@ -2,6 +2,7 @@
 id = "ref/feat/eerie-sense"
 kind = "feat"
 title = "Eerie Sense"
+aon = "FeatDisplay.aspx?ItemName=Eerie%20Sense"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eerie_sense", path = "json/feat05.json" },

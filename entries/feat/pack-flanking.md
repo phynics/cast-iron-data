@@ -2,6 +2,7 @@
 id = "ref/feat/pack-flanking"
 kind = "feat"
 title = "Pack Flanking"
+aon = "FeatDisplay.aspx?ItemName=Pack%20Flanking"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pack_flanking", path = "json/feat11.json" },

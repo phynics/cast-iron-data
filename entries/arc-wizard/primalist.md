@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/primalist"
 kind = "archetype"
 title = "Primalist"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Primalist"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "primalist", path = "json/archetypes_wizard.json" },

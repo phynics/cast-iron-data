@@ -2,6 +2,7 @@
 id = "ref/monster/spider-drain-spider"
 kind = "creature"
 title = "Drain Spider"
+aon = "MonsterDisplay.aspx?ItemName=Drain%20Spider"
 source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_drain_spider", path = "json/monsters39.json" },

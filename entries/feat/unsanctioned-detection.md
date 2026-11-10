@@ -2,6 +2,7 @@
 id = "ref/feat/unsanctioned-detection"
 kind = "feat"
 title = "Unsanctioned Detection"
+aon = "FeatDisplay.aspx?ItemName=Unsanctioned%20Detection"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unsanctioned_detection", path = "json/feat16.json" },

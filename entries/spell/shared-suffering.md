@@ -2,6 +2,7 @@
 id = "ref/spell/shared-suffering"
 kind = "spell"
 title = "Shared Suffering"
+aon = "SpellDisplay.aspx?ItemName=Shared%20Suffering"
 source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_suffering", path = "json/spells9.json" },

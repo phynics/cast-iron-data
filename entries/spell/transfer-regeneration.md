@@ -2,6 +2,7 @@
 id = "ref/spell/transfer-regeneration"
 kind = "spell"
 title = "Transfer Regeneration"
+aon = "SpellDisplay.aspx?ItemName=Transfer%20Regeneration"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_regeneration", path = "json/spells10.json" },

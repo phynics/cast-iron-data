@@ -2,6 +2,7 @@
 id = "ref/spell/raging-rubble"
 kind = "spell"
 title = "Raging Rubble"
+aon = "SpellDisplay.aspx?ItemName=Raging%20Rubble"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_rubble", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/share-glory"
 kind = "spell"
 title = "Share Glory"
+aon = "SpellDisplay.aspx?ItemName=Share%20Glory"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_glory", path = "json/spells9.json" },

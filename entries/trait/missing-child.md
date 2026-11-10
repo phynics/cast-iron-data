@@ -2,6 +2,7 @@
 id = "ref/trait/missing-child"
 kind = "trait"
 title = "Missing Child"
+aon = "TraitDisplay.aspx?ItemName=Missing%20Child"
 source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "missing_child", path = "json/traits02.json" },

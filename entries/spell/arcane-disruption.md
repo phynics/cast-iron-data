@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-disruption"
 kind = "spell"
 title = "Arcane Disruption"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Disruption"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_disruption", path = "json/spells.json" },

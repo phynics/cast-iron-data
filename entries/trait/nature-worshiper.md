@@ -2,6 +2,7 @@
 id = "ref/trait/nature-worshiper"
 kind = "trait"
 title = "Nature Worshiper"
+aon = "TraitDisplay.aspx?ItemName=Nature%20Worshiper"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_worshiper", path = "json/traits01.json" },

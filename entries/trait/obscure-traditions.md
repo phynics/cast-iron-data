@@ -2,6 +2,7 @@
 id = "ref/trait/obscure-traditions"
 kind = "trait"
 title = "Obscure Traditions"
+aon = "TraitDisplay.aspx?ItemName=Obscure%20Traditions"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "obscure_traditions", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/halfling-opportunist"
 kind = "prestige_class"
 title = "Halfling Opportunist"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Halfling%20Opportunist"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "halfling_opportunist", path = "json/prestige_classes2.json" },

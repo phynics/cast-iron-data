@@ -2,6 +2,7 @@
 id = "ref/spell/brilliant-inspiration"
 kind = "spell"
 title = "Brilliant Inspiration"
+aon = "SpellDisplay.aspx?ItemName=Brilliant%20Inspiration"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_inspiration", path = "json/spells2.json" },

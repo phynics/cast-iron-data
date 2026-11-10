@@ -2,6 +2,7 @@
 id = "ref/feat/blinding-sneak-attack"
 kind = "feat"
 title = "Blinding Sneak Attack"
+aon = "FeatDisplay.aspx?ItemName=Blinding%20Sneak%20Attack"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_sneak_attack", path = "json/feat02.json" },

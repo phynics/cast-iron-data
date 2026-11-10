@@ -2,6 +2,7 @@
 id = "ref/monster/caustic-stalker"
 kind = "creature"
 title = "Caustic Stalker"
+aon = "MonsterDisplay.aspx?ItemName=Caustic%20Stalker"
 source_ids = ["the-emerald-spire-superdungeon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_stalker", path = "json/monsters04.json" },

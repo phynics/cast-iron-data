@@ -2,6 +2,7 @@
 id = "ref/pclass/battle-herald"
 kind = "prestige_class"
 title = "Battle Herald"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Battle%20Herald"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "battle_herald", path = "json/prestige_classes.json" },

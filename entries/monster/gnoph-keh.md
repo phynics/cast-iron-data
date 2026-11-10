@@ -2,6 +2,7 @@
 id = "ref/monster/gnoph-keh"
 kind = "creature"
 title = "Gnoph-Keh"
+aon = "MonsterDisplay.aspx?ItemName=Gnoph-Keh"
 source_ids = ["pathfinder-46-wake-of-the-watcher"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnoph_keh", path = "json/monsters12.json" },

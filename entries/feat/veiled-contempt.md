@@ -2,6 +2,7 @@
 id = "ref/feat/veiled-contempt"
 kind = "feat"
 title = "Veiled Contempt"
+aon = "FeatDisplay.aspx?ItemName=Veiled%20Contempt"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "veiled_contempt", path = "json/feat17.json" },

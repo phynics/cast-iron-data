@@ -2,6 +2,7 @@
 id = "ref/trait/black-sheep"
 kind = "trait"
 title = "Black Sheep"
+aon = "TraitDisplay.aspx?ItemName=Black%20Sheep"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_sheep", path = "json/traits03.json" },

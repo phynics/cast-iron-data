@@ -2,6 +2,7 @@
 id = "ref/trait/desperate-focus"
 kind = "trait"
 title = "Desperate Focus"
+aon = "TraitDisplay.aspx?ItemName=Desperate%20Focus"
 source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "desperate_focus", path = "json/traits02.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/conjure-carriage"
 kind = "spell"
 title = "Conjure Carriage"
+aon = "SpellDisplay.aspx?ItemName=Conjure%20Carriage"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conjure_carriage", path = "json/spells12.json" },

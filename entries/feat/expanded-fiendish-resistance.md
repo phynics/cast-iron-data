@@ -2,6 +2,7 @@
 id = "ref/feat/expanded-fiendish-resistance"
 kind = "feat"
 title = "Expanded Fiendish Resistance"
+aon = "FeatDisplay.aspx?ItemName=Expanded%20Fiendish%20Resistance"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expanded_fiendish_resistance", path = "json/feat06.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/heroes-feast"
 kind = "spell"
 title = "Heroes' Feast"
+aon = "SpellDisplay.aspx?ItemName=heroes%27%20feast"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroes_feast", path = "json/spells5.json" },

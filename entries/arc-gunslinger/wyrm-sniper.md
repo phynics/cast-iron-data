@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/wyrm-sniper"
 kind = "archetype"
 title = "Wyrm Sniper"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Wyrm%20Sniper"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrm_sniper", path = "json/archetypes_gunslinger.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/they-know"
 kind = "spell"
 title = "They Know"
+aon = "SpellDisplay.aspx?ItemName=They%20Know"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "they_know", path = "json/spells10.json" },

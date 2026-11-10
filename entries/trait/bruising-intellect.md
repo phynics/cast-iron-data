@@ -2,6 +2,7 @@
 id = "ref/trait/bruising-intellect"
 kind = "trait"
 title = "Bruising Intellect"
+aon = "TraitDisplay.aspx?ItemName=Bruising%20Intellect"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bruising_intellect", path = "json/traits01.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/upsetting-strike"
 kind = "feat"
 title = "Upsetting Strike"
+aon = "FeatDisplay.aspx?ItemName=Upsetting%20Strike"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "upsetting_strike", path = "json/feat17.json" },

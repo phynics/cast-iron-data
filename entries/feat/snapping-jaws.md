@@ -2,6 +2,7 @@
 id = "ref/feat/snapping-jaws"
 kind = "feat"
 title = "Snapping Jaws"
+aon = "FeatDisplay.aspx?ItemName=Snapping%20Jaws"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "snapping_jaws", path = "json/feat14.json" },

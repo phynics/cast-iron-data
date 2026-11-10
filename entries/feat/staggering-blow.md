@@ -2,6 +2,7 @@
 id = "ref/feat/staggering-blow"
 kind = "feat"
 title = "Staggering Blow"
+aon = "FeatDisplay.aspx?ItemName=Staggering%20Blow"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staggering_blow", path = "json/feat15.json" },

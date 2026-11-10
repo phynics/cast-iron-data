@@ -2,6 +2,7 @@
 id = "ref/feat/conceal-aura"
 kind = "feat"
 title = "Conceal Aura"
+aon = "FeatDisplay.aspx?ItemName=Conceal%20Aura"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "conceal_aura", path = "json/feat03.json" },

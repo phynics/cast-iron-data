@@ -2,6 +2,7 @@
 id = "ref/monster/golem-viridium-golem"
 kind = "creature"
 title = "Viridium Golem"
+aon = "MonsterDisplay.aspx?ItemName=Viridium%20Golem"
 source_ids = ["bestiary-6"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_viridium_golem", path = "json/monsters33.json" },

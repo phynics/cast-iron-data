@@ -2,6 +2,7 @@
 id = "ref/pclass/storm-kindler"
 kind = "prestige_class"
 title = "Storm Kindler"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Storm%20Kindler"
 source_ids = ["adventurers-guide", "paths-of-prestige"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "storm_kindler", path = "json/prestige_classes3.json" },

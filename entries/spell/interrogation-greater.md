@@ -2,6 +2,7 @@
 id = "ref/spell/interrogation-greater"
 kind = "spell"
 title = "Greater Interrogation"
+aon = "SpellDisplay.aspx?ItemName=Interrogation%2C%20Greater"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "interrogation_greater", path = "json/spells14.json" },

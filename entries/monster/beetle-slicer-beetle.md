@@ -2,6 +2,7 @@
 id = "ref/monster/beetle-slicer-beetle"
 kind = "creature"
 title = "Slicer Beetle"
+aon = "MonsterDisplay.aspx?ItemName=Slicer%20Beetle"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beetle_slicer_beetle", path = "json/monsters03.json" },

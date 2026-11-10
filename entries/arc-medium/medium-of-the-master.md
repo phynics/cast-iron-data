@@ -2,6 +2,7 @@
 id = "ref/arc-medium/medium-of-the-master"
 kind = "archetype"
 title = "Medium of the Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Medium%20of%20the%20Master"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "medium_of_the_master", path = "json/archetypes_medium.json" },

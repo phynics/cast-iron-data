@@ -2,6 +2,7 @@
 id = "ref/monster/centaur-centaur-charger"
 kind = "creature"
 title = "Centaur Charger"
+aon = "MonsterDisplay.aspx?ItemName=Centaur%20Charger"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "centaur_centaur_charger", path = "json/monsters28.json" },

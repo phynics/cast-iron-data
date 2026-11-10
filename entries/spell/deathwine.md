@@ -2,6 +2,7 @@
 id = "ref/spell/deathwine"
 kind = "spell"
 title = "Deathwine"
+aon = "SpellDisplay.aspx?ItemName=Deathwine"
 source_ids = ["rise-of-the-runelords-anniversary-edition", "pathfinder-5-sins-of-the-saviors"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathwine", path = "json/spells3.json" },

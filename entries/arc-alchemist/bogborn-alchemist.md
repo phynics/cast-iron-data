@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/bogborn-alchemist"
 kind = "archetype"
 title = "Bogborn Alchemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Bogborn%20Alchemist"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogborn_alchemist", path = "json/archetypes_alchemist.json" },

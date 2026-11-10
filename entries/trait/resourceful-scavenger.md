@@ -2,6 +2,7 @@
 id = "ref/trait/resourceful-scavenger"
 kind = "trait"
 title = "Resourceful Scavenger"
+aon = "TraitDisplay.aspx?ItemName=Resourceful%20Scavenger"
 source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "resourceful_scavenger", path = "json/traits04.json" },

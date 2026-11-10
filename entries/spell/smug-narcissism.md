@@ -2,6 +2,7 @@
 id = "ref/spell/smug-narcissism"
 kind = "spell"
 title = "Smug Narcissism"
+aon = "SpellDisplay.aspx?ItemName=Smug%20Narcissism"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smug_narcissism", path = "json/spells9.json" },

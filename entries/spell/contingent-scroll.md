@@ -2,6 +2,7 @@
 id = "ref/spell/contingent-scroll"
 kind = "spell"
 title = "Contingent Scroll"
+aon = "SpellDisplay.aspx?ItemName=Contingent%20Scroll"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "contingent_scroll", path = "json/spells12.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/survivor"
 kind = "feat"
 title = "Survivor"
+aon = "FeatDisplay.aspx?ItemName=Survivor"
 source_ids = ["inner-sea-world-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "survivor", path = "json/feat15.json" },

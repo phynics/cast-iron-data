@@ -2,6 +2,7 @@
 id = "ref/monster/troops-warmaze-disciples-troop"
 kind = "creature"
 title = "Warmaze Disciples Troop"
+aon = "MonsterDisplay.aspx?ItemName=Warmaze%20Disciples%20Troop"
 source_ids = ["pathfinder-117-assault-on-longshadow"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "troops_warmaze_disciples_troop", path = "json/monsters24.json" },

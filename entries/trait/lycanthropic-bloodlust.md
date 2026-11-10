@@ -2,6 +2,7 @@
 id = "ref/trait/lycanthropic-bloodlust"
 kind = "trait"
 title = "Lycanthropic Bloodlust"
+aon = "TraitDisplay.aspx?ItemName=Lycanthropic%20Bloodlust"
 source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lycanthropic_bloodlust", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/sotto-voce"
 kind = "spell"
 title = "Sotto Voce"
+aon = "SpellDisplay.aspx?ItemName=Sotto%20Voce"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sotto_voce", path = "json/spells9.json" },

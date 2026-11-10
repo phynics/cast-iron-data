@@ -2,6 +2,7 @@
 id = "ref/spell/biting-words"
 kind = "spell"
 title = "Biting Words"
+aon = "SpellDisplay.aspx?ItemName=Biting%20Words"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biting_words", path = "json/spells12.json" },

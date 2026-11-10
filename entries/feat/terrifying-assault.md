@@ -2,6 +2,7 @@
 id = "ref/feat/terrifying-assault"
 kind = "feat"
 title = "Terrifying Assault"
+aon = "FeatDisplay.aspx?ItemName=Terrifying%20Assault"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "terrifying_assault", path = "json/feat16.json" },

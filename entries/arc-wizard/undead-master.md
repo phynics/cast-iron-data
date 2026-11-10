@@ -2,6 +2,7 @@
 id = "ref/arc-wizard/undead-master"
 kind = "archetype"
 title = "Undead Master"
+aon = "ArchetypeDisplay.aspx?FixedName=Wizard%20Undead%20Master"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_master", path = "json/archetypes_wizard.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/naga-royal-naga"
 kind = "creature"
 title = "Royal Naga"
+aon = "MonsterDisplay.aspx?ItemName=Royal%20Naga"
 source_ids = ["bestiary-3", "pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_royal_naga", path = "json/monsters35.json" },

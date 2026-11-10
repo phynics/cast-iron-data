@@ -2,6 +2,7 @@
 id = "ref/feat/ascendant"
 kind = "feat"
 title = "Ascendant"
+aon = "FeatDisplay.aspx?ItemName=Ascendant"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ascendant", path = "json/feat01.json" },

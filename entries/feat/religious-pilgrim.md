@@ -2,6 +2,7 @@
 id = "ref/feat/religious-pilgrim"
 kind = "feat"
 title = "Religious Pilgrim"
+aon = "FeatDisplay.aspx?ItemName=Religious%20Pilgrim"
 source_ids = ["osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "religious_pilgrim", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/fungal-pilgrim"
 kind = "archetype"
 title = "Fungal Pilgrim"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Fungal%20Pilgrim"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_pilgrim", path = "json/archetypes_druid.json" },

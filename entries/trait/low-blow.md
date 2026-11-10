@@ -2,6 +2,7 @@
 id = "ref/trait/low-blow"
 kind = "trait"
 title = "Low Blow"
+aon = "TraitDisplay.aspx?ItemName=Low%20Blow"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "low_blow", path = "json/traits02.json" },

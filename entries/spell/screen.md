@@ -2,6 +2,7 @@
 id = "ref/spell/screen"
 kind = "spell"
 title = "Screen"
+aon = "SpellDisplay.aspx?ItemName=Screen"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "screen", path = "json/spells15.json" },

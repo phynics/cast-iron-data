@@ -2,6 +2,7 @@
 id = "ref/monster/derro-derro-brainwasher"
 kind = "creature"
 title = "Derro Brainwasher"
+aon = "MonsterDisplay.aspx?ItemName=Derro%20Brainwasher"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "derro_derro_brainwasher", path = "json/monsters07.json" },

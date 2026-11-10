@@ -2,6 +2,7 @@
 id = "ref/spell/iron-spine"
 kind = "spell"
 title = "Iron Spine"
+aon = "SpellDisplay.aspx?ItemName=Iron%20Spine"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_spine", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/dwarf-blooded"
 kind = "feat"
 title = "Dwarf Blooded"
+aon = "FeatDisplay.aspx?ItemName=Dwarf%20Blooded"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarf_blooded", path = "json/feat05.json" },

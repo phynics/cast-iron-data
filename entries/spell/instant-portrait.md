@@ -2,6 +2,7 @@
 id = "ref/spell/instant-portrait"
 kind = "spell"
 title = "Instant Portrait"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Portrait"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_portrait", path = "json/spells14.json" },

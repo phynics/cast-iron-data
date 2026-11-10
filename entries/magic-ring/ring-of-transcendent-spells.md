@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-transcendent-spells"
 kind = "item"
 title = "Ring of Transcendent Spells"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Transcendent%20Spells"
 source_ids = ["mythic-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_transcendent_spells", path = "json/magic_ring.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/chaos-reigns"
 kind = "feat"
 title = "Chaos Reigns"
+aon = "FeatDisplay.aspx?ItemName=Chaos%20Reigns"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chaos_reigns", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/grand-master-performer"
 kind = "feat"
 title = "Grand Master Performer"
+aon = "FeatDisplay.aspx?ItemName=Grand%20Master%20Performer"
 source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_master_performer", path = "json/feat07.json" },

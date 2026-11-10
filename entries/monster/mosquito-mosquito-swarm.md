@@ -2,6 +2,7 @@
 id = "ref/monster/mosquito-mosquito-swarm"
 kind = "creature"
 title = "Mosquito Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Mosquito%20Swarm"
 source_ids = ["bestiary-2", "rivers-into-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mosquito_mosquito_swarm", path = "json/monsters17.json" },

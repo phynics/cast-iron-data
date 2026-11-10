@@ -2,6 +2,7 @@
 id = "ref/spell/line-in-the-sand"
 kind = "spell"
 title = "Line in the Sand"
+aon = "SpellDisplay.aspx?ItemName=Line%20in%20the%20Sand"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "line_in_the_sand", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/oathkeeper"
 kind = "archetype"
 title = "Oathkeeper"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Oathkeeper"
 source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "oathkeeper", path = "json/archetypes_inquisitor.json" },

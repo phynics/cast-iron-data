@@ -2,6 +2,7 @@
 id = "ref/arc-arcanist/eldritch-font"
 kind = "archetype"
 title = "Eldritch Font"
+aon = "ArchetypeDisplay.aspx?FixedName=Arcanist%20Eldritch%20Font"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_font", path = "json/archetypes_arcanist.json" },

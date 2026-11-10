@@ -2,6 +2,7 @@
 id = "ref/spell/scarify"
 kind = "spell"
 title = "Scarify"
+aon = "SpellDisplay.aspx?ItemName=Scarify"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarify", path = "json/spells8.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-monk/sin-monk"
 kind = "archetype"
 title = "Sin Monk"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Sin%20Monk"
 source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_monk", path = "json/archetypes_monk2.json" },

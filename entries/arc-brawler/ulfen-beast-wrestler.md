@@ -2,6 +2,7 @@
 id = "ref/arc-brawler/ulfen-beast-wrestler"
 kind = "archetype"
 title = "Ulfen Beast-Wrestler"
+aon = "ArchetypeDisplay.aspx?FixedName=Brawler%20Ulfen%20Beast-Wrestler"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ulfen_beast_wrestler", path = "json/archetypes_brawler.json" },

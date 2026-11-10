@@ -2,6 +2,7 @@
 id = "ref/arc-magus/jistkan-artificer"
 kind = "archetype"
 title = "Jistkan Artificer"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Jistkan%20Artificer"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jistkan_artificer", path = "json/archetypes_magus.json" },

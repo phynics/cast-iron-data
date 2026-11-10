@@ -2,6 +2,7 @@
 id = "ref/spell/vestment-of-the-champion"
 kind = "spell"
 title = "Vestment of the Champion"
+aon = "SpellDisplay.aspx?ItemName=Vestment%20of%20the%20Champion"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vestment_of_the_champion", path = "json/spells11.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/death-field"
 kind = "feat"
 title = "Death Field"
+aon = "FeatDisplay.aspx?ItemName=Death%20Field"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_field", path = "json/feat04.json" },

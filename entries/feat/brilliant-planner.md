@@ -2,6 +2,7 @@
 id = "ref/feat/brilliant-planner"
 kind = "feat"
 title = "Brilliant Planner"
+aon = "FeatDisplay.aspx?ItemName=Brilliant%20Planner"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brilliant_planner", path = "json/feat02.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-druid/eagle-shaman"
 kind = "archetype"
 title = "Eagle Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Eagle%20Shaman"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eagle_shaman", path = "json/archetypes_druid.json" },

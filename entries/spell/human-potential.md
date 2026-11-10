@@ -2,6 +2,7 @@
 id = "ref/spell/human-potential"
 kind = "spell"
 title = "Human Potential"
+aon = "SpellDisplay.aspx?ItemName=Human%20Potential"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "human_potential", path = "json/spells5.json" },

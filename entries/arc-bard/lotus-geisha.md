@@ -2,6 +2,7 @@
 id = "ref/arc-bard/lotus-geisha"
 kind = "archetype"
 title = "Lotus Geisha"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Lotus%20Geisha"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lotus_geisha", path = "json/archetypes_bard2.json" },

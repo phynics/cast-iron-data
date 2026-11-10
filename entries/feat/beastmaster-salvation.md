@@ -2,6 +2,7 @@
 id = "ref/feat/beastmaster-salvation"
 kind = "feat"
 title = "Beastmaster Salvation"
+aon = "FeatDisplay.aspx?ItemName=Beastmaster%20Salvation"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beastmaster_salvation", path = "json/feat02.json" },

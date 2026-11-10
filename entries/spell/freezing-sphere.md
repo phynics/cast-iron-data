@@ -2,6 +2,7 @@
 id = "ref/spell/freezing-sphere"
 kind = "spell"
 title = "Freezing Sphere"
+aon = "SpellDisplay.aspx?ItemName=Freezing%20Sphere"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freezing_sphere", path = "json/spells13.json" },

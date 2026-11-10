@@ -2,6 +2,7 @@
 id = "ref/trait/nagaji-nationalist"
 kind = "trait"
 title = "Nagaji Nationalist"
+aon = "TraitDisplay.aspx?ItemName=Nagaji%20Nationalist"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nagaji_nationalist", path = "json/traits05.json" },

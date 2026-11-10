@@ -2,6 +2,7 @@
 id = "ref/spell/curse-of-befouled-fortune"
 kind = "spell"
 title = "Curse of Befouled Fortune"
+aon = "SpellDisplay.aspx?ItemName=Curse%20of%20Befouled%20Fortune"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_befouled_fortune", path = "json/spells3.json" },

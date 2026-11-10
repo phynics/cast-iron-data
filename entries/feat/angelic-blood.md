@@ -2,6 +2,7 @@
 id = "ref/feat/angelic-blood"
 kind = "feat"
 title = "Angelic Blood"
+aon = "FeatDisplay.aspx?ItemName=Angelic%20Blood"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "angelic_blood", path = "json/feat01.json" },

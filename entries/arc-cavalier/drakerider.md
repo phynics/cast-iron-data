@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/drakerider"
 kind = "archetype"
 title = "Drakerider"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Drakerider"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drakerider", path = "json/archetypes_cavalier.json" },

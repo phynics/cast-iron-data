@@ -2,6 +2,7 @@
 id = "ref/arc-druid/feral-child"
 kind = "archetype"
 title = "Feral Child"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Feral%20Child"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feral_child", path = "json/archetypes_druid.json" },

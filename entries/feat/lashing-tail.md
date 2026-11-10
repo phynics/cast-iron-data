@@ -2,6 +2,7 @@
 id = "ref/feat/lashing-tail"
 kind = "feat"
 title = "Lashing Tail"
+aon = "FeatDisplay.aspx?ItemName=Lashing%20Tail"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lashing_tail", path = "json/feat10.json" },

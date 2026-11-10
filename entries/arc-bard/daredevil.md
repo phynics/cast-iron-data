@@ -2,6 +2,7 @@
 id = "ref/arc-bard/daredevil"
 kind = "archetype"
 title = "Daredevil"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Daredevil"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daredevil", path = "json/archetypes_bard.json" },

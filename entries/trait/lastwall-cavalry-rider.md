@@ -2,6 +2,7 @@
 id = "ref/trait/lastwall-cavalry-rider"
 kind = "trait"
 title = "Lastwall Cavalry Rider"
+aon = "TraitDisplay.aspx?ItemName=Lastwall%20Cavalry%20Rider"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lastwall_cavalry_rider", path = "json/traits04.json" },

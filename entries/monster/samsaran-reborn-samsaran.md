@@ -2,6 +2,7 @@
 id = "ref/monster/samsaran-reborn-samsaran"
 kind = "creature"
 title = "Reborn Samsaran"
+aon = "MonsterDisplay.aspx?ItemName=Reborn%20Samsaran"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "samsaran_reborn_samsaran", path = "json/monsters38.json" },

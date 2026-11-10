@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/steelblood"
 kind = "archetype"
 title = "Steelblood"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Steelblood"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steelblood", path = "json/archetypes_bloodrager.json" },

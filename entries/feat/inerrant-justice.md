@@ -2,6 +2,7 @@
 id = "ref/feat/inerrant-justice"
 kind = "feat"
 title = "Inerrant Justice"
+aon = "FeatDisplay.aspx?ItemName=Inerrant%20Justice"
 source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inerrant_justice", path = "json/feat09.json" },

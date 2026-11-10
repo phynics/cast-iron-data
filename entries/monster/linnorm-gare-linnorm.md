@@ -2,6 +2,7 @@
 id = "ref/monster/linnorm-gare-linnorm"
 kind = "creature"
 title = "Gare Linnorm"
+aon = "MonsterDisplay.aspx?ItemName=Gare%20Linnorm"
 source_ids = ["pathfinder-50-night-of-frozen-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "linnorm_gare_linnorm", path = "json/monsters35.json" },

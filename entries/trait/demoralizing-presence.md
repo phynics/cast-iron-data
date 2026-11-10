@@ -2,6 +2,7 @@
 id = "ref/trait/demoralizing-presence"
 kind = "trait"
 title = "Demoralizing Presence"
+aon = "TraitDisplay.aspx?ItemName=Demoralizing%20Presence"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demoralizing_presence", path = "json/traits03.json" },

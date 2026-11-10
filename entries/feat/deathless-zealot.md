@@ -2,6 +2,7 @@
 id = "ref/feat/deathless-zealot"
 kind = "feat"
 title = "Deathless Zealot"
+aon = "FeatDisplay.aspx?ItemName=Deathless%20Zealot"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathless_zealot", path = "json/feat04.json" },

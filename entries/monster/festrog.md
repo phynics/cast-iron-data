@@ -2,6 +2,7 @@
 id = "ref/monster/festrog"
 kind = "creature"
 title = "Festrog"
+aon = "MonsterDisplay.aspx?ItemName=Festrog"
 source_ids = ["bestiary-3", "hungry-are-the-dead"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "festrog", path = "json/monsters10.json" },

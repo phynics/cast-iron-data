@@ -2,6 +2,7 @@
 id = "ref/trait/amazingly-ugly"
 kind = "trait"
 title = "Amazingly Ugly"
+aon = "TraitDisplay.aspx?ItemName=Amazingly%20Ugly"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "amazingly_ugly", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/giant-scarab"
 kind = "creature"
 title = "Giant Scarab"
+aon = "MonsterDisplay.aspx?ItemName=Giant%20Scarab"
 source_ids = ["bestiary-5"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_scarab", path = "json/monsters11.json" },

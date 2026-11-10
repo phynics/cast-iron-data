@@ -2,6 +2,7 @@
 id = "ref/feat/instrumental"
 kind = "feat"
 title = "Instrumental"
+aon = "FeatDisplay.aspx?ItemName=Instrumental"
 source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instrumental", path = "json/feat09.json" },

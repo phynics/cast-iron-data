@@ -2,6 +2,7 @@
 id = "ref/spell/animal-messenger"
 kind = "spell"
 title = "Animal Messenger"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Messenger"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_messenger", path = "json/spells.json" },

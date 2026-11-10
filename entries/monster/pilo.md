@@ -2,6 +2,7 @@
 id = "ref/monster/pilo"
 kind = "creature"
 title = "Pilo"
+aon = "MonsterDisplay.aspx?ItemName=Pilo"
 source_ids = ["pathfinder-85-fires-of-creation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pilo", path = "json/monsters37.json" },

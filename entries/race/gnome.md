@@ -2,7 +2,9 @@
 id = "ref/race/gnome"
 kind = "race"
 title = "Gnome"
+aon = "RacesDisplay.aspx?ItemName=Gnome"
 source_ids = ["inner-sea-races", "core-rulebook", "advanced-race-guide", "heroes-from-the-fringe", "blood-of-shadows", "advanced-players-guide", "horror-adventures", "legacy-of-dragons", "legacy-of-the-first-world", "heroes-of-the-high-court", "heroes-of-the-wild", "heroes-of-the-streets", "advanced-class-guide", "occult-adventures", "ultimate-wilderness", "ultimate-intrigue"]
+race_group = "core_race"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gnome", path = "json/races3.json" },
 ]

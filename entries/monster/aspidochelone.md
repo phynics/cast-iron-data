@@ -2,6 +2,7 @@
 id = "ref/monster/aspidochelone"
 kind = "creature"
 title = "Aspidochelone"
+aon = "MonsterDisplay.aspx?ItemName=Aspidochelone"
 source_ids = ["pathfinder-27-what-lies-in-dust"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aspidochelone", path = "json/monsters27.json" },

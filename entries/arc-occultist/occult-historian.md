@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/occult-historian"
 kind = "archetype"
 title = "Occult Historian"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Occult%20Historian"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "occult_historian", path = "json/archetypes_occultist.json" },

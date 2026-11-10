@@ -2,6 +2,7 @@
 id = "ref/spell/village-veil"
 kind = "spell"
 title = "Village Veil"
+aon = "SpellDisplay.aspx?ItemName=Village%20Veil"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "village_veil", path = "json/spells11.json" },

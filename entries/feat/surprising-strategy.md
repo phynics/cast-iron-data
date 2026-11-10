@@ -2,6 +2,7 @@
 id = "ref/feat/surprising-strategy"
 kind = "feat"
 title = "Surprising Strategy"
+aon = "FeatDisplay.aspx?ItemName=Surprising%20Strategy"
 source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "surprising_strategy", path = "json/feat15.json" },

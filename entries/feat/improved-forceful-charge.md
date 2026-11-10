@@ -2,6 +2,7 @@
 id = "ref/feat/improved-forceful-charge"
 kind = "feat"
 title = "Improved Forceful Charge"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Forceful%20Charge"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_forceful_charge", path = "json/feat09.json" },

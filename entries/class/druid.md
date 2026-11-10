@@ -2,6 +2,7 @@
 id = "ref/class/druid"
 kind = "class"
 title = "Druid"
+aon = "ClassDisplay.aspx?ItemName=Druid"
 source_ids = ["core-rulebook", "chronicle-of-legends", "blood-of-the-sea", "advanced-race-guide", "blood-of-shadows", "plane-hoppers-handbook", "ultimate-wilderness", "advanced-players-guide", "horror-adventures", "goblins-of-golarion", "blood-of-the-beast", "pathfinder-101-the-kintargo-contract"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "druid", path = "json/classes5.json" },

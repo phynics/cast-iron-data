@@ -2,6 +2,7 @@
 id = "ref/spell/metabolic-molting"
 kind = "spell"
 title = "Metabolic Molting"
+aon = "SpellDisplay.aspx?ItemName=Metabolic%20Molting"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "metabolic_molting", path = "json/spells14.json" },

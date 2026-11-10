@@ -2,6 +2,7 @@
 id = "ref/feat/lucky-halfling"
 kind = "feat"
 title = "Lucky Halfling"
+aon = "FeatDisplay.aspx?ItemName=Lucky%20Halfling"
 source_ids = ["advanced-players-guide", "dark-markets-a-guide-to-katapesh"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lucky_halfling", path = "json/feat10.json" },

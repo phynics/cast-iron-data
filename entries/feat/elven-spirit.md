@@ -2,6 +2,7 @@
 id = "ref/feat/elven-spirit"
 kind = "feat"
 title = "Elven Spirit"
+aon = "FeatDisplay.aspx?ItemName=Elven%20Spirit"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_spirit", path = "json/feat05.json" },

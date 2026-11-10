@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/helmet-of-the-golden-general"
 kind = "item"
 title = "Helmet of the Golden General"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Helmet%20of%20the%20Golden%20General"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "helmet_of_the_golden_general", path = "json/magic_wondrous_head_headband.json" },

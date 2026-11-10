@@ -2,6 +2,7 @@
 id = "ref/trait/weathered-patience"
 kind = "trait"
 title = "Weathered Patience"
+aon = "TraitDisplay.aspx?ItemName=Weathered%20Patience"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weathered_patience", path = "json/traits05.json" },

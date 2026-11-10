@@ -2,6 +2,7 @@
 id = "ref/trait/scrounger"
 kind = "trait"
 title = "Scrounger"
+aon = "TraitDisplay.aspx?ItemName=Scrounger"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scrounger", path = "json/traits05.json" },

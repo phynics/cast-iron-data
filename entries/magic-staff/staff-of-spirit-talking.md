@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-spirit-talking"
 kind = "item"
 title = "Staff of Spirit-Talking"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Spirit-Talking"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_spirit_talking", path = "json/magic_staff.json" },

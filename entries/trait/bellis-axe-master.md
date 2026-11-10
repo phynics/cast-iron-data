@@ -2,6 +2,7 @@
 id = "ref/trait/bellis-axe-master"
 kind = "trait"
 title = "Bellis Axe Master"
+aon = "TraitDisplay.aspx?ItemName=Bellis%20Axe%20Master"
 source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellis_axe_master", path = "json/traits04.json" },

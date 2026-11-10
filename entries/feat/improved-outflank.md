@@ -2,6 +2,7 @@
 id = "ref/feat/improved-outflank"
 kind = "feat"
 title = "Improved Outflank"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Outflank"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_outflank", path = "json/feat09.json" },

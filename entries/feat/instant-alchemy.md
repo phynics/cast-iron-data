@@ -2,6 +2,7 @@
 id = "ref/feat/instant-alchemy"
 kind = "feat"
 title = "Instant Alchemy"
+aon = "FeatDisplay.aspx?ItemName=Instant%20Alchemy"
 source_ids = ["alchemy-manual"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_alchemy", path = "json/feat09.json" },

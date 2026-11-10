@@ -2,6 +2,7 @@
 id = "ref/feat/uncanny-concentration"
 kind = "feat"
 title = "Uncanny Concentration"
+aon = "FeatDisplay.aspx?ItemName=Uncanny%20Concentration"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_concentration", path = "json/feat16.json" },

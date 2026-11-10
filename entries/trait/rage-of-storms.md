@@ -2,6 +2,7 @@
 id = "ref/trait/rage-of-storms"
 kind = "trait"
 title = "Rage of Storms"
+aon = "TraitDisplay.aspx?ItemName=Rage%20of%20Storms"
 source_ids = ["orcs-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rage_of_storms", path = "json/traits05.json" },

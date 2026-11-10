@@ -2,6 +2,7 @@
 id = "ref/feat/worst-case-jinx"
 kind = "feat"
 title = "Worst Case Jinx"
+aon = "FeatDisplay.aspx?ItemName=Worst%20Case%20Jinx"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "worst_case_jinx", path = "json/feat17.json" },

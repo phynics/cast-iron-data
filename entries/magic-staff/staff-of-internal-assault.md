@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-internal-assault"
 kind = "item"
 title = "Staff of Internal Assault"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20Internal%20Assault"
 source_ids = ["dragonslayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_internal_assault", path = "json/magic_staff.json" },

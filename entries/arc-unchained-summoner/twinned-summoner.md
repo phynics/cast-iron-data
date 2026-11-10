@@ -2,6 +2,7 @@
 id = "ref/arc-unchained-summoner/twinned-summoner"
 kind = "archetype"
 title = "Twinned Summoner"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20%28Unchained%29%20Twinned%20Summoner"
 source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "twinned_summoner", path = "json/archetypes_summoner_UC.json" },

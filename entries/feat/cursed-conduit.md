@@ -2,6 +2,7 @@
 id = "ref/feat/cursed-conduit"
 kind = "feat"
 title = "Cursed Conduit"
+aon = "FeatDisplay.aspx?ItemName=Cursed%20Conduit"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_conduit", path = "json/feat04.json" },

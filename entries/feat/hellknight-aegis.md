@@ -2,6 +2,7 @@
 id = "ref/feat/hellknight-aegis"
 kind = "feat"
 title = "Hellknight Aegis"
+aon = "FeatDisplay.aspx?ItemName=Hellknight%20Aegis"
 source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_aegis", path = "json/feat08.json" },

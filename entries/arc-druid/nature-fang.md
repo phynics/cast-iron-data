@@ -2,6 +2,7 @@
 id = "ref/arc-druid/nature-fang"
 kind = "archetype"
 title = "Nature Fang"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Nature%20Fang"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nature_fang", path = "json/archetypes_druid2.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/old-wulunga"
 kind = "creature"
 title = "Old Wulunga"
+aon = "MonsterDisplay.aspx?ItemName=Old%20Wulunga"
 source_ids = ["mystery-monsters-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "old_wulunga", path = "json/monsters_unique3.json" },

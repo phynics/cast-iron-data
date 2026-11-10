@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/sly-saboteur"
 kind = "archetype"
 title = "Sly Saboteur"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Sly%20Saboteur"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sly_saboteur", path = "json/archetypes_rogue.json" },

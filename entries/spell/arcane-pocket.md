@@ -2,6 +2,7 @@
 id = "ref/spell/arcane-pocket"
 kind = "spell"
 title = "Arcane Pocket"
+aon = "SpellDisplay.aspx?ItemName=Arcane%20Pocket"
 source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_pocket", path = "json/spells.json" },

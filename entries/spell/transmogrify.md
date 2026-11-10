@@ -2,6 +2,7 @@
 id = "ref/spell/transmogrify"
 kind = "spell"
 title = "Transmogrify"
+aon = "SpellDisplay.aspx?ItemName=Transmogrify"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transmogrify", path = "json/spells10.json" },

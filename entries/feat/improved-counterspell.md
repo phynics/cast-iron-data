@@ -2,6 +2,7 @@
 id = "ref/feat/improved-counterspell"
 kind = "feat"
 title = "Improved Counterspell"
+aon = "FeatDisplay.aspx?ItemName=Improved%20Counterspell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_counterspell", path = "json/feat08.json" },

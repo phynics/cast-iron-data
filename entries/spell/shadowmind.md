@@ -2,6 +2,7 @@
 id = "ref/spell/shadowmind"
 kind = "spell"
 title = "Shadowmind"
+aon = "SpellDisplay.aspx?ItemName=Shadowmind"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadowmind", path = "json/spells15.json" },

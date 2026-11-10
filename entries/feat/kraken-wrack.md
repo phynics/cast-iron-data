@@ -2,6 +2,7 @@
 id = "ref/feat/kraken-wrack"
 kind = "feat"
 title = "Kraken Wrack"
+aon = "FeatDisplay.aspx?ItemName=Kraken%20Wrack"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kraken_wrack", path = "json/feat09.json" },

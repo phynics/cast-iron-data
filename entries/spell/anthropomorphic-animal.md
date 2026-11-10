@@ -2,6 +2,7 @@
 id = "ref/spell/anthropomorphic-animal"
 kind = "spell"
 title = "Anthropomorphic Animal"
+aon = "SpellDisplay.aspx?ItemName=Anthropomorphic%20Animal"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anthropomorphic_animal", path = "json/spells.json" },

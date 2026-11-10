@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/horse-lord"
 kind = "archetype"
 title = "Horse Lord"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Horse%20Lord"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horse_lord", path = "json/archetypes_ranger.json" },

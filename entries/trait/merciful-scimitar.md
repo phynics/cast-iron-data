@@ -2,6 +2,7 @@
 id = "ref/trait/merciful-scimitar"
 kind = "trait"
 title = "Merciful Scimitar"
+aon = "TraitDisplay.aspx?ItemName=Merciful%20Scimitar"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merciful_scimitar", path = "json/traits01.json" },

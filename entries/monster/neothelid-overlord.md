@@ -2,6 +2,7 @@
 id = "ref/monster/neothelid-overlord"
 kind = "creature"
 title = "Neothelid Overlord"
+aon = "MonsterDisplay.aspx?ItemName=Neothelid%20Overlord"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "neothelid_overlord", path = "json/monsters17.json" },

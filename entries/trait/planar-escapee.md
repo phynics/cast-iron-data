@@ -2,6 +2,7 @@
 id = "ref/trait/planar-escapee"
 kind = "trait"
 title = "Planar Escapee"
+aon = "TraitDisplay.aspx?ItemName=Planar%20Escapee"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_escapee", path = "json/traits02.json" },

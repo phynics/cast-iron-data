@@ -2,6 +2,7 @@
 id = "ref/feat/cunning-intuition"
 kind = "feat"
 title = "Cunning Intuition"
+aon = "FeatDisplay.aspx?ItemName=Cunning%20Intuition"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cunning_intuition", path = "json/feat04.json" },

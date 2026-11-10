@@ -2,6 +2,7 @@
 id = "ref/trait/furious-vengeance"
 kind = "trait"
 title = "Furious Vengeance"
+aon = "TraitDisplay.aspx?ItemName=Furious%20Vengeance"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "furious_vengeance", path = "json/traits03.json" },

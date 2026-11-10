@@ -2,6 +2,7 @@
 id = "ref/feat/redirect-attack"
 kind = "feat"
 title = "Redirect Attack"
+aon = "FeatDisplay.aspx?ItemName=Redirect%20Attack"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "redirect_attack", path = "json/feat13.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/kiss-of-the-first-world"
 kind = "spell"
 title = "Kiss of the First World"
+aon = "SpellDisplay.aspx?ItemName=Kiss%20of%20the%20First%20World"
 source_ids = ["inner-sea-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kiss_of_the_first_world", path = "json/spells6.json" },

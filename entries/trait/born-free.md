@@ -2,6 +2,7 @@
 id = "ref/trait/born-free"
 kind = "trait"
 title = "Born Free"
+aon = "TraitDisplay.aspx?ItemName=Born%20Free"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "born_free", path = "json/traits01.json" },

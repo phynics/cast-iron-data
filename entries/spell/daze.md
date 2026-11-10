@@ -2,6 +2,7 @@
 id = "ref/spell/daze"
 kind = "spell"
 title = "Daze"
+aon = "SpellDisplay.aspx?ItemName=Daze"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daze", path = "json/spells3.json" },

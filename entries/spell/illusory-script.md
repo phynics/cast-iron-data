@@ -2,6 +2,7 @@
 id = "ref/spell/illusory-script"
 kind = "spell"
 title = "Illusory Script"
+aon = "SpellDisplay.aspx?ItemName=Illusory%20Script"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "illusory_script", path = "json/spells14.json" },

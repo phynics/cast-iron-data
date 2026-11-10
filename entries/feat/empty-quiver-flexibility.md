@@ -2,6 +2,7 @@
 id = "ref/feat/empty-quiver-flexibility"
 kind = "feat"
 title = "Empty Quiver Flexibility"
+aon = "FeatDisplay.aspx?ItemName=Empty%20Quiver%20Flexibility"
 source_ids = ["weapon-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empty_quiver_flexibility", path = "json/feat05.json" },

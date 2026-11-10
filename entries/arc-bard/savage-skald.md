@@ -2,6 +2,7 @@
 id = "ref/arc-bard/savage-skald"
 kind = "archetype"
 title = "Savage Skald"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Savage%20Skald"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "savage_skald", path = "json/archetypes_bard2.json" },

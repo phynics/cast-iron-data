@@ -2,6 +2,7 @@
 id = "ref/spell/inner-focus"
 kind = "spell"
 title = "Inner Focus"
+aon = "SpellDisplay.aspx?ItemName=Inner%20Focus"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inner_focus", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/malediction-hero-points"
 kind = "spell"
 title = "Malediction (Hero Points)"
+aon = "SpellDisplay.aspx?ItemName=Malediction%20%28Hero%20Points%29"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malediction_hero_points", path = "json/spells6.json" },

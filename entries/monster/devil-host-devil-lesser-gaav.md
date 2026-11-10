@@ -2,6 +2,7 @@
 id = "ref/monster/devil-host-devil-lesser-gaav"
 kind = "creature"
 title = "Lesser Host Devil (Gaav)"
+aon = "MonsterDisplay.aspx?ItemName=Host%20Devil%2C%20Lesser%20%28Gaav%29"
 source_ids = ["book-of-the-damned-volume-1-princes-of-darkness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_host_devil_lesser_gaav", path = "json/monsters07.json" },

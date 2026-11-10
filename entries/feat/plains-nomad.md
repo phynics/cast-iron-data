@@ -2,6 +2,7 @@
 id = "ref/feat/plains-nomad"
 kind = "feat"
 title = "Plains Nomad"
+aon = "FeatDisplay.aspx?ItemName=Plains%20Nomad"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plains_nomad", path = "json/feat12.json" },

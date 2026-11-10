@@ -2,6 +2,7 @@
 id = "ref/spell/puzzle-box"
 kind = "spell"
 title = "Puzzle Box"
+aon = "SpellDisplay.aspx?ItemName=Puzzle%20Box"
 source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "puzzle_box", path = "json/spells15.json" },

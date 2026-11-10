@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/okeno-liberator"
 kind = "archetype"
 title = "Okeno Liberator"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Okeno%20Liberator"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "okeno_liberator", path = "json/archetypes_rogue.json" },

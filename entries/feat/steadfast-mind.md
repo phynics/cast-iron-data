@@ -2,6 +2,7 @@
 id = "ref/feat/steadfast-mind"
 kind = "feat"
 title = "Steadfast Mind"
+aon = "FeatDisplay.aspx?ItemName=Steadfast%20Mind"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "steadfast_mind", path = "json/feat15.json" },

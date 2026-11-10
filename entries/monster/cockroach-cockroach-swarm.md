@@ -2,6 +2,7 @@
 id = "ref/monster/cockroach-cockroach-swarm"
 kind = "creature"
 title = "Cockroach Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Cockroach%20Swarm"
 source_ids = ["bestiary-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cockroach_cockroach_swarm", path = "json/monsters28.json" },

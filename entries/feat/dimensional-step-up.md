@@ -2,6 +2,7 @@
 id = "ref/feat/dimensional-step-up"
 kind = "feat"
 title = "Dimensional Step Up"
+aon = "FeatDisplay.aspx?ItemName=Dimensional%20Step%20Up"
 source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dimensional_step_up", path = "json/feat04.json" },

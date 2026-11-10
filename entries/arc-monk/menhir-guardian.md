@@ -2,6 +2,7 @@
 id = "ref/arc-monk/menhir-guardian"
 kind = "archetype"
 title = "Menhir Guardian"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Menhir%20Guardian"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "menhir_guardian", path = "json/archetypes_monk.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/raging-throw"
 kind = "feat"
 title = "Raging Throw"
+aon = "FeatDisplay.aspx?ItemName=Raging%20Throw"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "raging_throw", path = "json/feat13.json" },

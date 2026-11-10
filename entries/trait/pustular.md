@@ -2,6 +2,7 @@
 id = "ref/trait/pustular"
 kind = "trait"
 title = "Pustular"
+aon = "TraitDisplay.aspx?ItemName=Pustular"
 source_ids = ["goblins-of-golarion", "we-be-goblins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pustular", path = "json/traits05.json" },

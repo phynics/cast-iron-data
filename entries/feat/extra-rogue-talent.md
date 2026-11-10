@@ -2,6 +2,7 @@
 id = "ref/feat/extra-rogue-talent"
 kind = "feat"
 title = "Extra Rogue Talent"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Rogue%20Talent"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_rogue_talent", path = "json/feat06.json" },

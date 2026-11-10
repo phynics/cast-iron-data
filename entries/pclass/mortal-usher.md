@@ -2,6 +2,7 @@
 id = "ref/pclass/mortal-usher"
 kind = "prestige_class"
 title = "Mortal Usher"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Mortal%20Usher"
 source_ids = ["pathfinder-144-midwives-to-death"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mortal_usher", path = "json/prestige_classes2.json" },

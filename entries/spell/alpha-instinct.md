@@ -2,6 +2,7 @@
 id = "ref/spell/alpha-instinct"
 kind = "spell"
 title = "Alpha Instinct"
+aon = "SpellDisplay.aspx?ItemName=Alpha%20Instinct"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alpha_instinct", path = "json/spells.json" },

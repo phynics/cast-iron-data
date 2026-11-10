@@ -2,6 +2,7 @@
 id = "ref/pclass/pathfinder-chronicler"
 kind = "prestige_class"
 title = "Pathfinder Chronicler"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Pathfinder%20Chronicler"
 source_ids = ["core-rulebook", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pathfinder_chronicler", path = "json/prestige_classes4.json" },

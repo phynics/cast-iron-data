@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/ragechemist"
 kind = "archetype"
 title = "Ragechemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Ragechemist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ragechemist", path = "json/archetypes_alchemist2.json" },

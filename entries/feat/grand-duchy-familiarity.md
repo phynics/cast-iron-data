@@ -2,6 +2,7 @@
 id = "ref/feat/grand-duchy-familiarity"
 kind = "feat"
 title = "Grand Duchy Familiarity"
+aon = "FeatDisplay.aspx?ItemName=Grand%20Duchy%20Familiarity"
 source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grand_duchy_familiarity", path = "json/feat07.json" },

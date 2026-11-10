@@ -2,6 +2,7 @@
 id = "ref/monster/cerberi"
 kind = "creature"
 title = "Cerberi"
+aon = "MonsterDisplay.aspx?ItemName=Cerberi"
 source_ids = ["bestiary-3", "pathfinder-28-the-infernal-syndrome"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cerberi", path = "json/monsters28.json" },

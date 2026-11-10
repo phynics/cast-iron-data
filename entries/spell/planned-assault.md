@@ -2,6 +2,7 @@
 id = "ref/spell/planned-assault"
 kind = "spell"
 title = "Planned Assault"
+aon = "SpellDisplay.aspx?ItemName=Planned%20Assault"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planned_assault", path = "json/spells7.json" },

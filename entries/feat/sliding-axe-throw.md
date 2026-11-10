@@ -2,6 +2,7 @@
 id = "ref/feat/sliding-axe-throw"
 kind = "feat"
 title = "Sliding Axe Throw"
+aon = "FeatDisplay.aspx?ItemName=Sliding%20Axe%20Throw"
 source_ids = ["dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sliding_axe_throw", path = "json/feat14.json" },

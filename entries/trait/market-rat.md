@@ -2,6 +2,7 @@
 id = "ref/trait/market-rat"
 kind = "trait"
 title = "Market Rat"
+aon = "TraitDisplay.aspx?ItemName=Market%20Rat"
 source_ids = ["humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "market_rat", path = "json/traits05.json" },

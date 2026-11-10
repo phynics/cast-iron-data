@@ -2,6 +2,7 @@
 id = "ref/arc-druid/dragon-shaman"
 kind = "archetype"
 title = "Dragon Shaman"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Dragon%20Shaman"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dragon_shaman", path = "json/archetypes_druid.json" },

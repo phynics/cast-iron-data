@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-climbing-improved"
 kind = "item"
 title = "Ring of Climbing (improved)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Climbing%20%28improved%29"
 source_ids = ["ultimate-equipment", "core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_climbing_improved", path = "json/magic_ring.json" },

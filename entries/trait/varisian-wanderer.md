@@ -2,6 +2,7 @@
 id = "ref/trait/varisian-wanderer"
 kind = "trait"
 title = "Varisian Wanderer"
+aon = "TraitDisplay.aspx?ItemName=Varisian%20Wanderer"
 source_ids = ["inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "varisian_wanderer", path = "json/traits04.json" },

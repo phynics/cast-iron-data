@@ -2,6 +2,7 @@
 id = "ref/magic-ring/rings-of-bondage"
 kind = "item"
 title = "Rings of Bondage"
+aon = "MagicRingsDisplay.aspx?FinalName=Rings%20of%20Bondage"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rings_of_bondage", path = "json/magic_ring.json" },

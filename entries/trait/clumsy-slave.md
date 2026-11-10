@@ -2,6 +2,7 @@
 id = "ref/trait/clumsy-slave"
 kind = "trait"
 title = "Clumsy Slave"
+aon = "TraitDisplay.aspx?ItemName=Clumsy%20Slave"
 source_ids = ["halflings-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clumsy_slave", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/mirror-hideaway"
 kind = "spell"
 title = "Mirror Hideaway"
+aon = "SpellDisplay.aspx?ItemName=Mirror%20Hideaway"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mirror_hideaway", path = "json/spells14.json" },

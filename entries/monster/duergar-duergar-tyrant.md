@@ -2,6 +2,7 @@
 id = "ref/monster/duergar-duergar-tyrant"
 kind = "creature"
 title = "Duergar Tyrant"
+aon = "MonsterDisplay.aspx?ItemName=Duergar%20Tyrant"
 source_ids = ["occult-bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "duergar_duergar_tyrant", path = "json/monsters08.json" },

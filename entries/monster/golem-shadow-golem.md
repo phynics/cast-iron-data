@@ -2,6 +2,7 @@
 id = "ref/monster/golem-shadow-golem"
 kind = "creature"
 title = "Shadow Golem"
+aon = "MonsterDisplay.aspx?ItemName=Shadow%20Golem"
 source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_shadow_golem", path = "json/monsters33.json" },

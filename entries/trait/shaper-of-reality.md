@@ -2,6 +2,7 @@
 id = "ref/trait/shaper-of-reality"
 kind = "trait"
 title = "Shaper of Reality"
+aon = "TraitDisplay.aspx?ItemName=Shaper%20of%20Reality"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaper_of_reality", path = "json/traits03.json" },

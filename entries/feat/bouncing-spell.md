@@ -2,6 +2,7 @@
 id = "ref/feat/bouncing-spell"
 kind = "feat"
 title = "Bouncing Spell"
+aon = "FeatDisplay.aspx?ItemName=Bouncing%20Spell"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bouncing_spell", path = "json/feat02.json" },

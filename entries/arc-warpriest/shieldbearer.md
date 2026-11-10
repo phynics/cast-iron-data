@@ -2,6 +2,7 @@
 id = "ref/arc-warpriest/shieldbearer"
 kind = "archetype"
 title = "Shieldbearer"
+aon = "ArchetypeDisplay.aspx?FixedName=Warpriest%20Shieldbearer"
 source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shieldbearer", path = "json/archetypes_warpriest.json" },

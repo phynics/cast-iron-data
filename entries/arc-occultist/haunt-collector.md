@@ -2,6 +2,7 @@
 id = "ref/arc-occultist/haunt-collector"
 kind = "archetype"
 title = "Haunt Collector"
+aon = "ArchetypeDisplay.aspx?FixedName=Occultist%20Haunt%20Collector"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunt_collector", path = "json/archetypes_occultist.json" },

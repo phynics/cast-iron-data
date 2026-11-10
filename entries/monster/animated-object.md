@@ -2,6 +2,7 @@
 id = "ref/monster/animated-object"
 kind = "creature"
 title = "Animated Object"
+aon = "MonsterDisplay.aspx?ItemName=Animated%20Object"
 source_ids = ["bestiary", "ultimate-magic", "pathfinder-30-the-twice-damned-prince", "pathfinder-43-haunting-of-harrowstone"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animated_object", path = "json/monsters02.json" },

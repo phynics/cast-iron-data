@@ -2,6 +2,7 @@
 id = "ref/feat/ancient-tradition"
 kind = "feat"
 title = "Ancient Tradition"
+aon = "FeatDisplay.aspx?ItemName=Ancient%20Tradition"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ancient_tradition", path = "json/feat01.json" },

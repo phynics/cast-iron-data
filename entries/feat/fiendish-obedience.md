@@ -2,6 +2,7 @@
 id = "ref/feat/fiendish-obedience"
 kind = "feat"
 title = "Fiendish Obedience"
+aon = "FeatDisplay.aspx?ItemName=Fiendish%20Obedience"
 source_ids = ["book-of-the-damned"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_obedience", path = "json/feat07.json" },

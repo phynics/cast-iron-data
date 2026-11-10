@@ -2,6 +2,7 @@
 id = "ref/spell/telekinetic-storm"
 kind = "spell"
 title = "Telekinetic Storm"
+aon = "SpellDisplay.aspx?ItemName=Telekinetic%20Storm"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "telekinetic_storm", path = "json/spells10.json" },

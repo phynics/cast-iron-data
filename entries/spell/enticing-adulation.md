@@ -2,6 +2,7 @@
 id = "ref/spell/enticing-adulation"
 kind = "spell"
 title = "Enticing Adulation"
+aon = "SpellDisplay.aspx?ItemName=Enticing%20Adulation"
 source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enticing_adulation", path = "json/spells4.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/paraheen-weaponsmith"
 kind = "trait"
 title = "Paraheen Weaponsmith"
+aon = "TraitDisplay.aspx?ItemName=Paraheen%20Weaponsmith"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paraheen_weaponsmith", path = "json/traits04.json" },

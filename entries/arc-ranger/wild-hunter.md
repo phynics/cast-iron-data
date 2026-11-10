@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wild-hunter"
 kind = "archetype"
 title = "Wild Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wild%20Hunter"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_hunter", path = "json/archetypes_ranger.json" },

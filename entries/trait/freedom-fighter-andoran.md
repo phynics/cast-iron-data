@@ -2,6 +2,7 @@
 id = "ref/trait/freedom-fighter-andoran"
 kind = "trait"
 title = "Freedom Fighter (Andoran)"
+aon = "TraitDisplay.aspx?ItemName=Freedom%20Fighter%20%28Andoran%29"
 source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_fighter_andoran", path = "json/traits04.json" },

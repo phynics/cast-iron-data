@@ -2,6 +2,7 @@
 id = "ref/spell/earsend"
 kind = "spell"
 title = "Earsend"
+aon = "SpellDisplay.aspx?ItemName=Earsend"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "earsend", path = "json/spells13.json" },

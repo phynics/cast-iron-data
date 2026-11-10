@@ -2,6 +2,7 @@
 id = "ref/feat/extra-variance"
 kind = "feat"
 title = "Extra Variance"
+aon = "FeatDisplay.aspx?ItemName=Extra%20Variance"
 source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "extra_variance", path = "json/feat06.json" },

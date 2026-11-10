@@ -2,6 +2,7 @@
 id = "ref/monster/rabisu"
 kind = "creature"
 title = "Rabisu"
+aon = "MonsterDisplay.aspx?ItemName=Rabisu"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rabisu", path = "json/monsters36.json" },

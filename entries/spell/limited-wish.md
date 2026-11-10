@@ -2,6 +2,7 @@
 id = "ref/spell/limited-wish"
 kind = "spell"
 title = "Limited Wish"
+aon = "SpellDisplay.aspx?ItemName=Limited%20Wish"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "limited_wish", path = "json/spells6.json" },

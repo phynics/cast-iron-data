@@ -2,6 +2,7 @@
 id = "ref/feat/burn-burn-burn"
 kind = "feat"
 title = "Burn! Burn! Burn!"
+aon = "FeatDisplay.aspx?ItemName=Burn%21%20Burn%21%20Burn%21"
 source_ids = ["advanced-race-guide", "goblins-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burn_burn_burn", path = "json/feat02.json" },

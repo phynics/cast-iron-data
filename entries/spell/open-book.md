@@ -2,6 +2,7 @@
 id = "ref/spell/open-book"
 kind = "spell"
 title = "Open Book"
+aon = "SpellDisplay.aspx?ItemName=Open%20Book"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "open_book", path = "json/spells7.json" },

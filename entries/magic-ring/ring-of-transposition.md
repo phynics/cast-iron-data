@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-transposition"
 kind = "item"
 title = "Ring of Transposition"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Transposition"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_transposition", path = "json/magic_ring.json" },

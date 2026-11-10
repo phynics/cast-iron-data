@@ -2,6 +2,7 @@
 id = "ref/spell/absorbing-inhalation"
 kind = "spell"
 title = "Absorbing Inhalation"
+aon = "SpellDisplay.aspx?ItemName=Absorbing%20Inhalation"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "absorbing_inhalation", path = "json/spells.json" },

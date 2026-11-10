@@ -2,6 +2,7 @@
 id = "ref/trait/coincunning"
 kind = "trait"
 title = "Coincunning"
+aon = "TraitDisplay.aspx?ItemName=Coincunning"
 source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coincunning", path = "json/traits04.json" },

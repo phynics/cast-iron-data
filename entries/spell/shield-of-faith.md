@@ -2,6 +2,7 @@
 id = "ref/spell/shield-of-faith"
 kind = "spell"
 title = "Shield of Faith"
+aon = "SpellDisplay.aspx?ItemName=Shield%20of%20Faith"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shield_of_faith", path = "json/spells9.json" },

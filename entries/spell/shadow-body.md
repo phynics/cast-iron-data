@@ -2,6 +2,7 @@
 id = "ref/spell/shadow-body"
 kind = "spell"
 title = "Shadow Body"
+aon = "SpellDisplay.aspx?ItemName=Shadow%20Body"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_body", path = "json/spells15.json" },

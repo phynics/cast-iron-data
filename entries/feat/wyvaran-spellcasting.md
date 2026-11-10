@@ -2,6 +2,7 @@
 id = "ref/feat/wyvaran-spellcasting"
 kind = "feat"
 title = "Wyvaran Spellcasting"
+aon = "FeatDisplay.aspx?ItemName=Wyvaran%20Spellcasting"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvaran_spellcasting", path = "json/feat17.json" },

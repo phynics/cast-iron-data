@@ -2,6 +2,7 @@
 id = "ref/spell/enemy-hammer"
 kind = "spell"
 title = "Enemy Hammer"
+aon = "SpellDisplay.aspx?ItemName=Enemy%20Hammer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "enemy_hammer", path = "json/spells4.json" },

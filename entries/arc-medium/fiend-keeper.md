@@ -2,6 +2,7 @@
 id = "ref/arc-medium/fiend-keeper"
 kind = "archetype"
 title = "Fiend Keeper"
+aon = "ArchetypeDisplay.aspx?FixedName=Medium%20Fiend%20Keeper"
 source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiend_keeper", path = "json/archetypes_medium.json" },

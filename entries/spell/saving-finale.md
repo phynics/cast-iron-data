@@ -2,6 +2,7 @@
 id = "ref/spell/saving-finale"
 kind = "spell"
 title = "Saving Finale"
+aon = "SpellDisplay.aspx?ItemName=Saving%20Finale"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "saving_finale", path = "json/spells8.json" },

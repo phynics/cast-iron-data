@@ -2,6 +2,7 @@
 id = "ref/trait/fates-favored"
 kind = "trait"
 title = "Fate's Favored"
+aon = "TraitDisplay.aspx?ItemName=Fate%27s%20Favored"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fates_favored", path = "json/traits01.json" },

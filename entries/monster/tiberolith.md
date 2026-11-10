@@ -2,6 +2,7 @@
 id = "ref/monster/tiberolith"
 kind = "creature"
 title = "Tiberolith"
+aon = "MonsterDisplay.aspx?ItemName=Tiberolith"
 source_ids = ["bestiary-4", "pathfinder-56-raiders-of-the-fever-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tiberolith", path = "json/monsters23.json" },

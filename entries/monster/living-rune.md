@@ -2,6 +2,7 @@
 id = "ref/monster/living-rune"
 kind = "creature"
 title = "Living Rune"
+aon = "MonsterDisplay.aspx?ItemName=Living%20Rune"
 source_ids = ["pathfinder-66-the-dead-heart-of-xin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_rune", path = "json/monsters16.json" },

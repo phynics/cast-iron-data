@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/synthesist"
 kind = "archetype"
 title = "Synthesist"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Synthesist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synthesist", path = "json/archetypes_summoner.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/measure-foe"
 kind = "feat"
 title = "Measure Foe"
+aon = "FeatDisplay.aspx?ItemName=Measure%20Foe"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "measure_foe", path = "json/feat10.json" },

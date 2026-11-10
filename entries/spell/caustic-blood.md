@@ -2,6 +2,7 @@
 id = "ref/spell/caustic-blood"
 kind = "spell"
 title = "Caustic Blood"
+aon = "SpellDisplay.aspx?ItemName=Caustic%20Blood"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_blood", path = "json/spells2.json" },

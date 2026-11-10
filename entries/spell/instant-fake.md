@@ -2,6 +2,7 @@
 id = "ref/spell/instant-fake"
 kind = "spell"
 title = "Instant Fake"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Fake"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_fake", path = "json/spells14.json" },

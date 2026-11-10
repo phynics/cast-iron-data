@@ -2,6 +2,7 @@
 id = "ref/feat/pao-lung-self-improvement"
 kind = "feat"
 title = "Pao-Lung Self-Improvement"
+aon = "FeatDisplay.aspx?ItemName=Pao-Lung%20Self-Improvement"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pao_lung_self_improvement", path = "json/feat11.json" },

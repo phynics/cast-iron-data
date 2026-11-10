@@ -2,6 +2,7 @@
 id = "ref/magic-weapon/hammer-of-enemies"
 kind = "item"
 title = "Hammer of Enemies"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Hammer%20of%20Enemies"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hammer_of_enemies", path = "json/magic_weapon2.json" },

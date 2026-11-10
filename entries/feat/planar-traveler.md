@@ -2,6 +2,7 @@
 id = "ref/feat/planar-traveler"
 kind = "feat"
 title = "Planar Traveler"
+aon = "FeatDisplay.aspx?ItemName=Planar%20Traveler"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "planar_traveler", path = "json/feat12.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/loner-of-the-rocks"
 kind = "trait"
 title = "Loner of the Rocks"
+aon = "TraitDisplay.aspx?ItemName=Loner%20of%20the%20Rocks"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loner_of_the_rocks", path = "json/traits05.json" },

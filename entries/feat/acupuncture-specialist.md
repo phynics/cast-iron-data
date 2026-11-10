@@ -2,6 +2,7 @@
 id = "ref/feat/acupuncture-specialist"
 kind = "feat"
 title = "Acupuncture Specialist"
+aon = "FeatDisplay.aspx?ItemName=Acupuncture%20Specialist"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acupuncture_specialist", path = "json/feat01.json" },

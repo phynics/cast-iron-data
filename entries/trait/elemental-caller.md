@@ -2,6 +2,7 @@
 id = "ref/trait/elemental-caller"
 kind = "trait"
 title = "Elemental Caller"
+aon = "TraitDisplay.aspx?ItemName=Elemental%20Caller"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_caller", path = "json/traits05.json" },

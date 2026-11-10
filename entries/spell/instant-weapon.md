@@ -2,6 +2,7 @@
 id = "ref/spell/instant-weapon"
 kind = "spell"
 title = "Instant Weapon"
+aon = "SpellDisplay.aspx?ItemName=Instant%20Weapon"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "instant_weapon", path = "json/spells14.json" },

@@ -2,6 +2,7 @@
 id = "ref/arc-bard/animal-speaker"
 kind = "archetype"
 title = "Animal Speaker"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Animal%20Speaker"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_speaker", path = "json/archetypes_bard.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/inciter-tiefling"
 kind = "trait"
 title = "Inciter (Tiefling)"
+aon = "TraitDisplay.aspx?ItemName=Inciter%20%28Tiefling%29"
 source_ids = ["blood-of-fiends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inciter_tiefling", path = "json/traits05.json" },

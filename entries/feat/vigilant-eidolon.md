@@ -2,6 +2,7 @@
 id = "ref/feat/vigilant-eidolon"
 kind = "feat"
 title = "Vigilant Eidolon"
+aon = "FeatDisplay.aspx?ItemName=Vigilant%20Eidolon"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilant_eidolon", path = "json/feat17.json" },

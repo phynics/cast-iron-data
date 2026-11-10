@@ -2,6 +2,7 @@
 id = "ref/feat/swamp-dweller"
 kind = "feat"
 title = "Swamp Dweller"
+aon = "FeatDisplay.aspx?ItemName=Swamp%20Dweller"
 source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_dweller", path = "json/feat15.json" },

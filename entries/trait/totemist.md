@@ -2,6 +2,7 @@
 id = "ref/trait/totemist"
 kind = "trait"
 title = "Totemist"
+aon = "TraitDisplay.aspx?ItemName=Totemist"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "totemist", path = "json/traits01.json" },

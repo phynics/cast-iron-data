@@ -2,6 +2,7 @@
 id = "ref/arc-shaman/true-silvered-throne"
 kind = "archetype"
 title = "True Silvered Throne"
+aon = "ArchetypeDisplay.aspx?FixedName=Shaman%20True%20Silvered%20Throne"
 source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_silvered_throne", path = "json/archetypes_shaman.json" },

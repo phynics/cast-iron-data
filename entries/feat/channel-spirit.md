@@ -2,6 +2,7 @@
 id = "ref/feat/channel-spirit"
 kind = "feat"
 title = "Channel Spirit"
+aon = "FeatDisplay.aspx?ItemName=Channel%20Spirit"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "channel_spirit", path = "json/feat03.json" },

@@ -2,6 +2,7 @@
 id = "ref/magic-wondrous/lady-ninahus-doll"
 kind = "item"
 title = "Lady Ninahu's Doll"
+aon = "MagicIntelligentDisplay.aspx?ItemName=Lady%20Ninahu%27s%20Doll"
 source_ids = ["lost-treasures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lady_ninahus_doll", path = "json/magic_wondrous_slotless04.json" },

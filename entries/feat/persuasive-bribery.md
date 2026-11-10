@@ -2,6 +2,7 @@
 id = "ref/feat/persuasive-bribery"
 kind = "feat"
 title = "Persuasive Bribery"
+aon = "FeatDisplay.aspx?ItemName=Persuasive%20Bribery"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "persuasive_bribery", path = "json/feat12.json" },

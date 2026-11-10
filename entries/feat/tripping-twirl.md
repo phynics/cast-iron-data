@@ -2,6 +2,7 @@
 id = "ref/feat/tripping-twirl"
 kind = "feat"
 title = "Tripping Twirl"
+aon = "FeatDisplay.aspx?ItemName=Tripping%20Twirl"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tripping_twirl", path = "json/feat16.json" },

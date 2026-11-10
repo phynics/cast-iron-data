@@ -2,6 +2,7 @@
 id = "ref/feat/charge-of-the-righteous"
 kind = "feat"
 title = "Charge of the Righteous"
+aon = "FeatDisplay.aspx?ItemName=Charge%20of%20the%20Righteous"
 source_ids = ["inner-sea-gods", "faiths-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "charge_of_the_righteous", path = "json/feat03.json" },

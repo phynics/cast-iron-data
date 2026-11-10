@@ -2,6 +2,7 @@
 id = "ref/trait/child-of-two-peoples"
 kind = "trait"
 title = "Child of Two Peoples"
+aon = "TraitDisplay.aspx?ItemName=Child%20of%20Two%20Peoples"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_two_peoples", path = "json/traits05.json" },

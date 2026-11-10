@@ -2,6 +2,7 @@
 id = "ref/arc-skald/boaster"
 kind = "archetype"
 title = "Boaster"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Boaster"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boaster", path = "json/archetypes_skald.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/onslaught"
 kind = "feat"
 title = "Onslaught"
+aon = "FeatDisplay.aspx?ItemName=Onslaught"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onslaught", path = "json/feat11.json" },

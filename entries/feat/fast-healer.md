@@ -2,6 +2,7 @@
 id = "ref/feat/fast-healer"
 kind = "feat"
 title = "Fast Healer"
+aon = "FeatDisplay.aspx?ItemName=Fast%20Healer"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fast_healer", path = "json/feat06.json" },

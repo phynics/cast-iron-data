@@ -2,6 +2,7 @@
 id = "ref/trait/anatomist"
 kind = "trait"
 title = "Anatomist"
+aon = "TraitDisplay.aspx?ItemName=Anatomist"
 source_ids = ["ultimate-campaign", "advanced-players-guide", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "anatomist", path = "json/traits01.json" },

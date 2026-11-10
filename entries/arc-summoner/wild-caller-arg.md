@@ -2,6 +2,7 @@
 id = "ref/arc-summoner/wild-caller-arg"
 kind = "archetype"
 title = "Wild Caller (ARG)"
+aon = "ArchetypeDisplay.aspx?FixedName=Summoner%20Wild%20Caller%20%28ARG%29"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wild_caller_arg", path = "json/archetypes_summoner.json" },

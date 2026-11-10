@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/hag-riven"
 kind = "archetype"
 title = "Hag-Riven"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Hag-Riven"
 source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_riven", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/reward-of-life"
 kind = "feat"
 title = "Reward of Life"
+aon = "FeatDisplay.aspx?ItemName=Reward%20of%20Life"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "reward_of_life", path = "json/feat13.json" },

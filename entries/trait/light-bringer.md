@@ -2,6 +2,7 @@
 id = "ref/trait/light-bringer"
 kind = "trait"
 title = "Light-Bringer"
+aon = "TraitDisplay.aspx?ItemName=Light-Bringer"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "light_bringer", path = "json/traits03.json" },

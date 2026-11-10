@@ -2,6 +2,7 @@
 id = "ref/spell/free-spirit"
 kind = "spell"
 title = "Free Spirit"
+aon = "SpellDisplay.aspx?ItemName=Free%20Spirit"
 source_ids = ["inner-sea-temples"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "free_spirit", path = "json/spells13.json" },

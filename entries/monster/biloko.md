@@ -2,6 +2,7 @@
 id = "ref/monster/biloko"
 kind = "creature"
 title = "Biloko"
+aon = "MonsterDisplay.aspx?ItemName=Biloko"
 source_ids = ["pathfinder-38-racing-to-ruin"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "biloko", path = "json/monsters03.json" },

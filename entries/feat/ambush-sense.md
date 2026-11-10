@@ -2,6 +2,7 @@
 id = "ref/feat/ambush-sense"
 kind = "feat"
 title = "Ambush Sense"
+aon = "FeatDisplay.aspx?ItemName=Ambush%20Sense"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambush_sense", path = "json/feat01.json" },

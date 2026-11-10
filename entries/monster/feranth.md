@@ -2,6 +2,7 @@
 id = "ref/monster/feranth"
 kind = "creature"
 title = "Feranth"
+aon = "MonsterDisplay.aspx?ItemName=Feranth"
 source_ids = ["pathfinder-90-the-divinity-drive"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "feranth", path = "json/monsters10.json" },

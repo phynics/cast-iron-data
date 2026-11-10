@@ -2,6 +2,7 @@
 id = "ref/feat/eternal-enmity"
 kind = "feat"
 title = "Eternal Enmity"
+aon = "FeatDisplay.aspx?ItemName=Eternal%20Enmity"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_enmity", path = "json/feat06.json" },

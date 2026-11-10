@@ -2,6 +2,7 @@
 id = "ref/feat/still-spell"
 kind = "feat"
 title = "Still Spell"
+aon = "FeatDisplay.aspx?ItemName=Still%20Spell"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "still_spell", path = "json/feat15.json" },

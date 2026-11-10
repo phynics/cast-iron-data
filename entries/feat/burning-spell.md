@@ -2,6 +2,7 @@
 id = "ref/feat/burning-spell"
 kind = "feat"
 title = "Burning Spell"
+aon = "FeatDisplay.aspx?ItemName=Burning%20Spell"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burning_spell", path = "json/feat02.json" },

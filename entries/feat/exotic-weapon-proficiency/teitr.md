@@ -2,6 +2,7 @@
 id = "ref/feat/exotic-weapon-proficiency/teitr"
 kind = "feat"
 title = "Exotic Weapon Proficiency"
+aon = "FeatDisplay.aspx?ItemName=Exotic%20Weapon%20Proficiency"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/exotic-weapon-proficiency", label = "removed" },

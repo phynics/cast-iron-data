@@ -2,6 +2,7 @@
 id = "ref/arc-monk/wasteland-meditant"
 kind = "archetype"
 title = "Wasteland Meditant"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Wasteland%20Meditant"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasteland_meditant", path = "json/archetypes_monk2.json" },

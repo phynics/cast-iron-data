@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/wilderness-explorer"
 kind = "archetype"
 title = "Wilderness Explorer"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Wilderness%20Explorer"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wilderness_explorer", path = "json/archetypes_ranger.json" },

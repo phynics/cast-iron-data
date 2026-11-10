@@ -2,6 +2,7 @@
 id = "ref/arc-barbarian/untamed-rager"
 kind = "archetype"
 title = "Untamed Rager"
+aon = "ArchetypeDisplay.aspx?FixedName=Barbarian%20Untamed%20Rager"
 source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untamed_rager", path = "json/archetypes_barbarian.json" },

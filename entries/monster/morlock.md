@@ -2,6 +2,7 @@
 id = "ref/monster/morlock"
 kind = "creature"
 title = "Morlock"
+aon = "MonsterDisplay.aspx?ItemName=Morlock"
 source_ids = ["bestiary", "into-the-darklands", "darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morlock", path = "json/monsters17.json" },

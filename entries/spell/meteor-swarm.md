@@ -2,6 +2,7 @@
 id = "ref/spell/meteor-swarm"
 kind = "spell"
 title = "Meteor Swarm"
+aon = "SpellDisplay.aspx?ItemName=Meteor%20Swarm"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_swarm", path = "json/spells14.json" },

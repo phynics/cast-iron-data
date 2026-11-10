@@ -2,6 +2,7 @@
 id = "ref/arc-bard/flame-dancer"
 kind = "archetype"
 title = "Flame Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Flame%20Dancer"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_dancer", path = "json/archetypes_bard.json" },

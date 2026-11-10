@@ -2,6 +2,7 @@
 id = "ref/trait/bound-by-honor"
 kind = "trait"
 title = "Bound by Honor"
+aon = "TraitDisplay.aspx?ItemName=Bound%20by%20Honor"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bound_by_honor", path = "json/traits01.json" },

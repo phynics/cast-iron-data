@@ -2,6 +2,7 @@
 id = "ref/magic-staff/cephalopod-staff"
 kind = "item"
 title = "Cephalopod Staff"
+aon = "MagicStavesDisplay.aspx?ItemName=Cephalopod%20Staff"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cephalopod_staff", path = "json/magic_staff.json" },

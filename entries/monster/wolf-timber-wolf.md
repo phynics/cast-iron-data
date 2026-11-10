@@ -2,6 +2,7 @@
 id = "ref/monster/wolf-timber-wolf"
 kind = "creature"
 title = "Timber Wolf"
+aon = "MonsterDisplay.aspx?ItemName=Timber%20Wolf"
 source_ids = ["pathfinder-67-the-snows-of-summer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_timber_wolf", path = "json/monsters25.json" },

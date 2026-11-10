@@ -2,6 +2,7 @@
 id = "ref/spell/spherescry"
 kind = "spell"
 title = "Spherescry"
+aon = "SpellDisplay.aspx?ItemName=Spherescry"
 source_ids = ["classic-treasures-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spherescry", path = "json/spells9.json" },

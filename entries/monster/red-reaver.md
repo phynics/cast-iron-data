@@ -2,6 +2,7 @@
 id = "ref/monster/red-reaver"
 kind = "creature"
 title = "Red Reaver"
+aon = "MonsterDisplay.aspx?ItemName=Red%20Reaver"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-10-a-history-of-ashes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_reaver", path = "json/monsters20.json" },

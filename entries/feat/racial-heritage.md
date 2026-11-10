@@ -2,6 +2,7 @@
 id = "ref/feat/racial-heritage"
 kind = "feat"
 title = "Racial Heritage"
+aon = "FeatDisplay.aspx?ItemName=Racial%20Heritage"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racial_heritage", path = "json/feat12.json" },

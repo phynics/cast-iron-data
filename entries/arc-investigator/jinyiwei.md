@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/jinyiwei"
 kind = "archetype"
 title = "Jinyiwei"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Jinyiwei"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinyiwei", path = "json/archetypes_investigator.json" },

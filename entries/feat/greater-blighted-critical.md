@@ -2,6 +2,7 @@
 id = "ref/feat/greater-blighted-critical"
 kind = "feat"
 title = "Greater Blighted Critical"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Blighted%20Critical"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_blighted_critical", path = "json/feat07.json" },

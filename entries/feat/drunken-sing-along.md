@@ -2,6 +2,7 @@
 id = "ref/feat/drunken-sing-along"
 kind = "feat"
 title = "Drunken Sing-Along"
+aon = "FeatDisplay.aspx?ItemName=Drunken%20Sing-Along"
 source_ids = ["inner-sea-taverns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drunken_sing_along", path = "json/feat05.json" },

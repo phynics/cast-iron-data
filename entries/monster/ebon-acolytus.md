@@ -2,6 +2,7 @@
 id = "ref/monster/ebon-acolytus"
 kind = "creature"
 title = "Ebon Acolytus"
+aon = "MonsterDisplay.aspx?ItemName=Ebon%20Acolytus"
 source_ids = ["pathfinder-30-the-twice-damned-prince"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ebon_acolytus", path = "json/monsters09.json" },

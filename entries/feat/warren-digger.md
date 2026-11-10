@@ -2,6 +2,7 @@
 id = "ref/feat/warren-digger"
 kind = "feat"
 title = "Warren Digger"
+aon = "FeatDisplay.aspx?ItemName=Warren%20Digger"
 source_ids = ["monster-codex", "classic-horrors-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warren_digger", path = "json/feat17.json" },

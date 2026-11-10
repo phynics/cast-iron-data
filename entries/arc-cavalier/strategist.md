@@ -2,6 +2,7 @@
 id = "ref/arc-cavalier/strategist"
 kind = "archetype"
 title = "Strategist"
+aon = "ArchetypeDisplay.aspx?FixedName=Cavalier%20Strategist"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strategist", path = "json/archetypes_cavalier.json" },

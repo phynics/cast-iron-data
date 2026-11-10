@@ -2,6 +2,7 @@
 id = "ref/feat/master-craftsman"
 kind = "feat"
 title = "Master Craftsman"
+aon = "FeatDisplay.aspx?ItemName=Master%20Craftsman"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "master_craftsman", path = "json/feat10.json" },

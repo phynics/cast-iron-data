@@ -2,6 +2,7 @@
 id = "ref/monster/pyropiscis"
 kind = "creature"
 title = "Pyropiscis"
+aon = "MonsterDisplay.aspx?ItemName=Pyropiscis"
 source_ids = ["pathfinder-95-anvil-of-fire"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pyropiscis", path = "json/monsters19.json" },

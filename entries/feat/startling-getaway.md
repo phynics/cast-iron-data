@@ -2,6 +2,7 @@
 id = "ref/feat/startling-getaway"
 kind = "feat"
 title = "Startling Getaway"
+aon = "FeatDisplay.aspx?ItemName=Startling%20Getaway"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "startling_getaway", path = "json/feat15.json" },

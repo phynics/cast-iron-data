@@ -2,6 +2,7 @@
 id = "ref/arc-gunslinger/gun-tank"
 kind = "archetype"
 title = "Gun Tank"
+aon = "ArchetypeDisplay.aspx?FixedName=Gunslinger%20Gun%20Tank"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gun_tank", path = "json/archetypes_gunslinger.json" },

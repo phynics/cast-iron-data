@@ -2,6 +2,7 @@
 id = "ref/arc-vigilante/masked-maiden"
 kind = "archetype"
 title = "Masked Maiden"
+aon = "ArchetypeDisplay.aspx?FixedName=Vigilante%20Masked%20Maiden"
 source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "masked_maiden", path = "json/archetypes_vigilante.json" },

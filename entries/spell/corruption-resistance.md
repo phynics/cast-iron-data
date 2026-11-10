@@ -2,6 +2,7 @@
 id = "ref/spell/corruption-resistance"
 kind = "spell"
 title = "Corruption Resistance"
+aon = "SpellDisplay.aspx?ItemName=Corruption%20Resistance"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corruption_resistance", path = "json/spells12.json" },

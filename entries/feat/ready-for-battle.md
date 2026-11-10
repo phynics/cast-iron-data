@@ -2,6 +2,7 @@
 id = "ref/feat/ready-for-battle"
 kind = "feat"
 title = "Ready for Battle"
+aon = "FeatDisplay.aspx?ItemName=Ready%20for%20Battle"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ready_for_battle", path = "json/feat13.json" },

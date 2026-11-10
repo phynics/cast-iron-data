@@ -2,6 +2,7 @@
 id = "ref/arc-bard/flamesinger"
 kind = "archetype"
 title = "Flamesinger"
+aon = "ArchetypeDisplay.aspx?FixedName=Bard%20Flamesinger"
 source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flamesinger", path = "json/archetypes_bard.json" },

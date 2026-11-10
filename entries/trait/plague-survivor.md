@@ -2,6 +2,7 @@
 id = "ref/trait/plague-survivor"
 kind = "trait"
 title = "Plague Survivor"
+aon = "TraitDisplay.aspx?ItemName=Plague%20Survivor"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plague_survivor", path = "json/traits05.json" },

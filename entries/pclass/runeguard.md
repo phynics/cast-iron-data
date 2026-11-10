@@ -2,6 +2,7 @@
 id = "ref/pclass/runeguard"
 kind = "prestige_class"
 title = "Runeguard"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Runeguard"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeguard", path = "json/prestige_classes3.json" },

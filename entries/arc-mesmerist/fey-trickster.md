@@ -2,6 +2,7 @@
 id = "ref/arc-mesmerist/fey-trickster"
 kind = "archetype"
 title = "Fey Trickster"
+aon = "ArchetypeDisplay.aspx?FixedName=Mesmerist%20Fey%20Trickster"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fey_trickster", path = "json/archetypes_mesmerist.json" },

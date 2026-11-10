@@ -2,6 +2,7 @@
 id = "ref/monster/rukh-juvenile-rukh"
 kind = "creature"
 title = "Juvenile Rukh"
+aon = "MonsterDisplay.aspx?ItemName=Juvenile%20Rukh"
 source_ids = ["bestiary-4", "pathfinder-21-the-jackals-price"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rukh_juvenile_rukh", path = "json/monsters37.json" },

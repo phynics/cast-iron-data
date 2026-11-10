@@ -2,6 +2,7 @@
 id = "ref/spell/create-pit"
 kind = "spell"
 title = "Create Pit"
+aon = "SpellDisplay.aspx?ItemName=Create%20Pit"
 source_ids = ["advanced-players-guide", "villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "create_pit", path = "json/spells3.json" },

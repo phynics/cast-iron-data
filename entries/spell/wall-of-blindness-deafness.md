@@ -2,6 +2,7 @@
 id = "ref/spell/wall-of-blindness-deafness"
 kind = "spell"
 title = "Wall of Blindness/Deafness"
+aon = "SpellDisplay.aspx?ItemName=Wall%20of%20Blindness%2FDeafness"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_of_blindness_deafness", path = "json/spells11.json" },

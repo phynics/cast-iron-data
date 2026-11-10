@@ -2,6 +2,7 @@
 id = "ref/feat/shapeshifter-twist"
 kind = "feat"
 title = "Shapeshifter Twist"
+aon = "FeatDisplay.aspx?ItemName=Shapeshifter%20Twist"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shapeshifter_twist", path = "json/feat14.json" },

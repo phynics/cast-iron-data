@@ -2,6 +2,7 @@
 id = "ref/arc-magus/iron-ring-striker"
 kind = "archetype"
 title = "Iron-Ring Striker"
+aon = "ArchetypeDisplay.aspx?FixedName=Magus%20Iron-Ring%20Striker"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iron_ring_striker", path = "json/archetypes_magus.json" },

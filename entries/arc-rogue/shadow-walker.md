@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/shadow-walker"
 kind = "archetype"
 title = "Shadow Walker"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Shadow%20Walker"
 source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow_walker", path = "json/archetypes_rogue.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/summon-genie-greater"
 kind = "spell"
 title = "Greater Summon Genie"
+aon = "SpellDisplay.aspx?ItemName=Summon%20Genie%2C%20Greater"
 source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_genie_greater", path = "json/spells16.json" },

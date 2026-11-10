@@ -2,6 +2,7 @@
 id = "ref/feat/harrowed"
 kind = "feat"
 title = "Harrowed"
+aon = "FeatDisplay.aspx?ItemName=Harrowed"
 source_ids = ["inner-sea-world-guide", "curse-of-the-crimson-throne-players-guide", "pathfinder-campaign-setting"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harrowed", path = "json/feat08.json" },

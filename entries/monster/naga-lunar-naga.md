@@ -2,6 +2,7 @@
 id = "ref/monster/naga-lunar-naga"
 kind = "creature"
 title = "Lunar Naga"
+aon = "MonsterDisplay.aspx?ItemName=Lunar%20Naga"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naga_lunar_naga", path = "json/monsters35.json" },

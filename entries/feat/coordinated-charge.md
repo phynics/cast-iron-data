@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-charge"
 kind = "feat"
 title = "Coordinated Charge"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Charge"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_charge", path = "json/feat03.json" },

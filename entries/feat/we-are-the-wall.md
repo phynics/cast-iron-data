@@ -2,6 +2,7 @@
 id = "ref/feat/we-are-the-wall"
 kind = "feat"
 title = "We are the Wall"
+aon = "FeatDisplay.aspx?ItemName=We%20are%20the%20Wall"
 source_ids = ["pathfinder-131-the-reapers-right-hand"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "we_are_the_wall", path = "json/feat17.json" },

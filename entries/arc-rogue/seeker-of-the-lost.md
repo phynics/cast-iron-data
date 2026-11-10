@@ -2,6 +2,7 @@
 id = "ref/arc-rogue/seeker-of-the-lost"
 kind = "archetype"
 title = "Seeker of the Lost"
+aon = "ArchetypeDisplay.aspx?FixedName=Rogue%20Seeker%20of%20the%20Lost"
 source_ids = ["blood-of-the-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeker_of_the_lost", path = "json/archetypes_rogue.json" },

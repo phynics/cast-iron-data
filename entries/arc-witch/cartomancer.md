@@ -2,6 +2,7 @@
 id = "ref/arc-witch/cartomancer"
 kind = "archetype"
 title = "Cartomancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Witch%20Cartomancer"
 source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cartomancer", path = "json/archetypes_witch.json" },

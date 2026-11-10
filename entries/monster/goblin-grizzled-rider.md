@@ -2,6 +2,7 @@
 id = "ref/monster/goblin-grizzled-rider"
 kind = "creature"
 title = "Grizzled Rider"
+aon = "MonsterDisplay.aspx?ItemName=Grizzled%20Rider"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goblin_grizzled_rider", path = "json/monsters12.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/isolate"
 kind = "spell"
 title = "Isolate"
+aon = "SpellDisplay.aspx?ItemName=Isolate"
 source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "isolate", path = "json/spells6.json" },

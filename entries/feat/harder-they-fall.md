@@ -2,6 +2,7 @@
 id = "ref/feat/harder-they-fall"
 kind = "feat"
 title = "Harder They Fall"
+aon = "FeatDisplay.aspx?ItemName=Harder%20They%20Fall"
 source_ids = ["ultimate-wilderness", "giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harder_they_fall", path = "json/feat08.json" },

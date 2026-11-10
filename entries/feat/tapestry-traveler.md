@@ -2,6 +2,7 @@
 id = "ref/feat/tapestry-traveler"
 kind = "feat"
 title = "Tapestry Traveler"
+aon = "FeatDisplay.aspx?ItemName=Tapestry%20Traveler"
 source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tapestry_traveler", path = "json/feat16.json" },

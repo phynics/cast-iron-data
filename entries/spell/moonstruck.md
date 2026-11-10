@@ -2,6 +2,7 @@
 id = "ref/spell/moonstruck"
 kind = "spell"
 title = "Moonstruck"
+aon = "SpellDisplay.aspx?ItemName=Moonstruck"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moonstruck", path = "json/spells7.json" },

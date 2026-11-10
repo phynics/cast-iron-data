@@ -2,6 +2,7 @@
 id = "ref/arc-shifter/weretouched"
 kind = "archetype"
 title = "Weretouched"
+aon = "ArchetypeDisplay.aspx?FixedName=Shifter%20Weretouched"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weretouched", path = "json/archetypes_shifter.json" },

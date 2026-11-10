@@ -2,6 +2,7 @@
 id = "ref/feat/greater-trip"
 kind = "feat"
 title = "Greater Trip"
+aon = "FeatDisplay.aspx?ItemName=Greater%20Trip"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_trip", path = "json/feat08.json" },

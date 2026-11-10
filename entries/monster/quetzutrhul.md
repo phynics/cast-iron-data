@@ -2,6 +2,7 @@
 id = "ref/monster/quetzutrhul"
 kind = "creature"
 title = "Quetzutrhul"
+aon = "MonsterDisplay.aspx?ItemName=Quetzutrhul"
 source_ids = ["darklands-revisited"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quetzutrhul", path = "json/monsters_unique3.json" },

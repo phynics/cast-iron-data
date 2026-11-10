@@ -2,6 +2,7 @@
 id = "ref/feat/coordinated-distraction"
 kind = "feat"
 title = "Coordinated Distraction"
+aon = "FeatDisplay.aspx?ItemName=Coordinated%20Distraction"
 source_ids = ["demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "coordinated_distraction", path = "json/feat03.json" },

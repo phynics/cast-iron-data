@@ -2,6 +2,7 @@
 id = "ref/feat/spirits-gift"
 kind = "feat"
 title = "Spirit's Gift"
+aon = "FeatDisplay.aspx?ItemName=Spirit%27s%20Gift"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirits_gift", path = "json/feat15.json" },

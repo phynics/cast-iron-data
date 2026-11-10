@@ -2,6 +2,7 @@
 id = "ref/magic-ring/ring-of-summoning-affinity-protean"
 kind = "item"
 title = "Ring of Summoning Affinity (Protean)"
+aon = "MagicRingsDisplay.aspx?FinalName=Ring%20of%20Summoning%20Affinity%20%28Protean%29"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ring_of_summoning_affinity_protean", path = "json/magic_ring.json" },

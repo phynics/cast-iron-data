@@ -2,6 +2,7 @@
 id = "ref/arc-druid/green-faith-initiate"
 kind = "archetype"
 title = "Green Faith Initiate"
+aon = "ArchetypeDisplay.aspx?FixedName=Druid%20Green%20Faith%20Initiate"
 source_ids = ["ultimate-wilderness", "faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "green_faith_initiate", path = "json/archetypes_druid.json" },

@@ -2,6 +2,7 @@
 id = "ref/pclass/soul-warden"
 kind = "prestige_class"
 title = "Soul Warden"
+aon = "PrestigeClassesDisplay.aspx?ItemName=Soul%20Warden"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soul_warden", path = "json/prestige_classes3.json" },

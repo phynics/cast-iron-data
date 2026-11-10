@@ -2,6 +2,7 @@
 id = "ref/spell/delusional-pride"
 kind = "spell"
 title = "Delusional Pride"
+aon = "SpellDisplay.aspx?ItemName=Delusional%20Pride"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delusional_pride", path = "json/spells3.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/blood-ties"
 kind = "spell"
 title = "Blood Ties"
+aon = "SpellDisplay.aspx?ItemName=Blood%20Ties"
 source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_ties", path = "json/spells2.json" },

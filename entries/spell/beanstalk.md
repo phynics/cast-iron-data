@@ -2,6 +2,7 @@
 id = "ref/spell/beanstalk"
 kind = "spell"
 title = "Beanstalk"
+aon = "SpellDisplay.aspx?ItemName=Beanstalk"
 source_ids = ["pathfinder-91-battle-of-bloodmarch-hills"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beanstalk", path = "json/spells12.json" },

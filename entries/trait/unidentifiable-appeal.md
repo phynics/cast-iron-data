@@ -2,6 +2,7 @@
 id = "ref/trait/unidentifiable-appeal"
 kind = "trait"
 title = "Unidentifiable Appeal"
+aon = "TraitDisplay.aspx?ItemName=Unidentifiable%20Appeal"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unidentifiable_appeal", path = "json/traits05.json" },

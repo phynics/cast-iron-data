@@ -2,6 +2,7 @@
 id = "ref/feat/concussive-spell"
 kind = "feat"
 title = "Concussive Spell"
+aon = "FeatDisplay.aspx?ItemName=Concussive%20Spell"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "concussive_spell", path = "json/feat03.json" },

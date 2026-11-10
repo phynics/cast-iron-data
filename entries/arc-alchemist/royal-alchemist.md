@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/royal-alchemist"
 kind = "archetype"
 title = "Royal Alchemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Royal%20Alchemist"
 source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "royal_alchemist", path = "json/archetypes_alchemist2.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/distressing-tone"
 kind = "spell"
 title = "Distressing Tone"
+aon = "SpellDisplay.aspx?ItemName=Distressing%20Tone"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "distressing_tone", path = "json/spells13.json" },

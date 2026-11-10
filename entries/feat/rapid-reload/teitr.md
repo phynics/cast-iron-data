@@ -2,6 +2,7 @@
 id = "ref/feat/rapid-reload/teitr"
 kind = "feat"
 title = "Rapid Reload"
+aon = "FeatDisplay.aspx?ItemName=Rapid%20Reload"
 source_ids = ["the-elephant-in-the-room-feat-taxes-in-pathfinder"]
 relations = [
   { kind = "revision", target = "ref/feat/rapid-reload" },

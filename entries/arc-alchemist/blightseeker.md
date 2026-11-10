@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/blightseeker"
 kind = "archetype"
 title = "Blightseeker"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Blightseeker"
 source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightseeker", path = "json/archetypes_alchemist.json" },

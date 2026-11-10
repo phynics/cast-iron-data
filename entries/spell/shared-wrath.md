@@ -2,6 +2,7 @@
 id = "ref/spell/shared-wrath"
 kind = "spell"
 title = "Shared Wrath"
+aon = "SpellDisplay.aspx?ItemName=Shared%20Wrath"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_wrath", path = "json/spells16.json" },

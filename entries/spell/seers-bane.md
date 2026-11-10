@@ -2,6 +2,7 @@
 id = "ref/spell/seers-bane"
 kind = "spell"
 title = "Seer's Bane"
+aon = "SpellDisplay.aspx?ItemName=Seer%27s%20Bane"
 source_ids = ["pathfinder-102-breaking-the-bones-of-hell"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seers_bane", path = "json/spells15.json" },

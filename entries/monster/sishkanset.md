@@ -2,6 +2,7 @@
 id = "ref/monster/sishkanset"
 kind = "creature"
 title = "Sishkanset"
+aon = "MonsterDisplay.aspx?ItemName=Sishkanset"
 source_ids = ["pathfinder-129-the-twilight-child"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sishkanset", path = "json/monsters22.json" },

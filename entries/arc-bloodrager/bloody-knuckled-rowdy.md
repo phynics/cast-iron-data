@@ -2,6 +2,7 @@
 id = "ref/arc-bloodrager/bloody-knuckled-rowdy"
 kind = "archetype"
 title = "Bloody-Knuckled Rowdy"
+aon = "ArchetypeDisplay.aspx?FixedName=Bloodrager%20Bloody-Knuckled%20Rowdy"
 source_ids = ["melee-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloody_knuckled_rowdy", path = "json/archetypes_bloodrager.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/prehensile-whip"
 kind = "trait"
 title = "Prehensile Whip"
+aon = "TraitDisplay.aspx?ItemName=Prehensile%20Whip"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prehensile_whip", path = "json/traits03.json" },

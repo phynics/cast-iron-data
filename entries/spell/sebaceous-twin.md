@@ -2,6 +2,7 @@
 id = "ref/spell/sebaceous-twin"
 kind = "spell"
 title = "Sebaceous Twin"
+aon = "SpellDisplay.aspx?ItemName=Sebaceous%20Twin"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sebaceous_twin", path = "json/spells15.json" },

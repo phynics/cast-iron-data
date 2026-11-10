@@ -2,6 +2,7 @@
 id = "ref/trait/spiritual-attachment"
 kind = "trait"
 title = "Spiritual Attachment"
+aon = "TraitDisplay.aspx?ItemName=Spiritual%20Attachment"
 source_ids = ["haunted-heroes-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spiritual_attachment", path = "json/traits02.json" },

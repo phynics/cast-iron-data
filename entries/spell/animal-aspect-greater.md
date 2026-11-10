@@ -2,6 +2,7 @@
 id = "ref/spell/animal-aspect-greater"
 kind = "spell"
 title = "Greater Animal Aspect"
+aon = "SpellDisplay.aspx?ItemName=Animal%20Aspect%2C%20Greater"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "animal_aspect_greater", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/rubble-skirmisher"
 kind = "feat"
 title = "Rubble Skirmisher"
+aon = "FeatDisplay.aspx?ItemName=Rubble%20Skirmisher"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rubble_skirmisher", path = "json/feat13.json" },

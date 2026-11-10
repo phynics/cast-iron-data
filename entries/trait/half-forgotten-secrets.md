@@ -2,6 +2,7 @@
 id = "ref/trait/half-forgotten-secrets"
 kind = "trait"
 title = "Half-Forgotten Secrets"
+aon = "TraitDisplay.aspx?ItemName=Half-Forgotten%20Secrets"
 source_ids = ["blood-of-the-night"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "half_forgotten_secrets", path = "json/traits05.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/nightstalls-escapee"
 kind = "trait"
 title = "Nightstalls Escapee"
+aon = "TraitDisplay.aspx?ItemName=Nightstalls%20Escapee"
 source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightstalls_escapee", path = "json/traits04.json" },

@@ -2,6 +2,7 @@
 id = "ref/spell/whispering-wind"
 kind = "spell"
 title = "Whispering Wind"
+aon = "SpellDisplay.aspx?ItemName=Whispering%20Wind"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whispering_wind", path = "json/spells16.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/despoiler"
 kind = "creature"
 title = "Despoiler"
+aon = "MonsterDisplay.aspx?ItemName=Despoiler"
 source_ids = ["seers-of-the-drowned-city"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "despoiler", path = "json/monsters07.json" },

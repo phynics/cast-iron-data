@@ -2,6 +2,7 @@
 id = "ref/trait/whitethrone-gourmand"
 kind = "trait"
 title = "Whitethrone Gourmand"
+aon = "TraitDisplay.aspx?ItemName=Whitethrone%20Gourmand"
 source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "whitethrone_gourmand", path = "json/traits04.json" },

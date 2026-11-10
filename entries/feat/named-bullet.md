@@ -2,6 +2,7 @@
 id = "ref/feat/named-bullet"
 kind = "feat"
 title = "Named Bullet"
+aon = "FeatDisplay.aspx?ItemName=Named%20Bullet"
 source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "named_bullet", path = "json/feat11.json" },

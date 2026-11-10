@@ -2,6 +2,7 @@
 id = "ref/feat/finishing-cascade"
 kind = "feat"
 title = "Finishing Cascade"
+aon = "FeatDisplay.aspx?ItemName=Finishing%20Cascade"
 source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finishing_cascade", path = "json/feat07.json" },

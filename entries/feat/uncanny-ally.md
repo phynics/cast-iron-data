@@ -2,6 +2,7 @@
 id = "ref/feat/uncanny-ally"
 kind = "feat"
 title = "Uncanny Ally"
+aon = "FeatDisplay.aspx?ItemName=Uncanny%20Ally"
 source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "uncanny_ally", path = "json/feat16.json" },

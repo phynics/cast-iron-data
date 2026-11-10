@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/warrior-of-the-holy-light"
 kind = "archetype"
 title = "Warrior of the Holy Light"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Warrior%20of%20the%20Holy%20Light"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "warrior_of_the_holy_light", path = "json/archetypes_paladin.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/center-of-power"
 kind = "feat"
 title = "Center of Power"
+aon = "FeatDisplay.aspx?ItemName=Center%20of%20Power"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "center_of_power", path = "json/feat02.json" },

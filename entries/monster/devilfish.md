@@ -2,6 +2,7 @@
 id = "ref/monster/devilfish"
 kind = "creature"
 title = "Devilfish"
+aon = "MonsterDisplay.aspx?ItemName=Devilfish"
 source_ids = ["bestiary-2", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devilfish", path = "json/monsters07.json" },

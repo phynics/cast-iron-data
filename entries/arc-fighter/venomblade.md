@@ -2,6 +2,7 @@
 id = "ref/arc-fighter/venomblade"
 kind = "archetype"
 title = "Venomblade"
+aon = "ArchetypeDisplay.aspx?FixedName=Fighter%20Venomblade"
 source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "venomblade", path = "json/archetypes_fighter2.json" },

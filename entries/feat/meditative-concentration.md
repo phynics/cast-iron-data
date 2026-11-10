@@ -2,6 +2,7 @@
 id = "ref/feat/meditative-concentration"
 kind = "feat"
 title = "Meditative Concentration"
+aon = "FeatDisplay.aspx?ItemName=Meditative%20Concentration"
 source_ids = ["faiths-and-philosophies"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meditative_concentration", path = "json/feat10.json" },

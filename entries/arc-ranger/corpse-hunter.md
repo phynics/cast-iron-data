@@ -2,6 +2,7 @@
 id = "ref/arc-ranger/corpse-hunter"
 kind = "archetype"
 title = "Corpse Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Ranger%20Corpse%20Hunter"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "corpse_hunter", path = "json/archetypes_ranger.json" },

@@ -2,6 +2,7 @@
 id = "ref/feat/boar-shred"
 kind = "feat"
 title = "Boar Shred"
+aon = "FeatDisplay.aspx?ItemName=Boar%20Shred"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boar_shred", path = "json/feat02.json" },

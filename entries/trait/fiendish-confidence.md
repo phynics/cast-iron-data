@@ -2,6 +2,7 @@
 id = "ref/trait/fiendish-confidence"
 kind = "trait"
 title = "Fiendish Confidence"
+aon = "TraitDisplay.aspx?ItemName=Fiendish%20Confidence"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fiendish_confidence", path = "json/traits03.json" },

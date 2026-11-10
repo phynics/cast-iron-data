@@ -2,6 +2,7 @@
 id = "ref/trait/burnished-skin"
 kind = "trait"
 title = "Burnished Skin"
+aon = "TraitDisplay.aspx?ItemName=Burnished%20Skin"
 source_ids = ["blood-of-angels"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "burnished_skin", path = "json/traits05.json" },

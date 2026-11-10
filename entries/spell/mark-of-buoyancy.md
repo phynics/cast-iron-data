@@ -2,6 +2,7 @@
 id = "ref/spell/mark-of-buoyancy"
 kind = "spell"
 title = "Mark of Buoyancy"
+aon = "SpellDisplay.aspx?ItemName=Mark%20of%20Buoyancy"
 source_ids = ["blood-of-the-ancients"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mark_of_buoyancy", path = "json/spells6.json" },

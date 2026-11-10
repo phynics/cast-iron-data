@@ -2,6 +2,7 @@
 id = "ref/feat/shaitan-earthblast"
 kind = "feat"
 title = "Shaitan Earthblast"
+aon = "FeatDisplay.aspx?ItemName=Shaitan%20Earthblast"
 source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shaitan_earthblast", path = "json/feat14.json" },

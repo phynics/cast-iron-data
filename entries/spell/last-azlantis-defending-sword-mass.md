@@ -2,6 +2,7 @@
 id = "ref/spell/last-azlantis-defending-sword-mass"
 kind = "spell"
 title = "Mass Last Azlanti's Defending Sword"
+aon = "SpellDisplay.aspx?ItemName=Last%20Azlanti%27s%20Defending%20Sword%2C%20Mass"
 source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "last_azlantis_defending_sword_mass", path = "json/spells6.json" },

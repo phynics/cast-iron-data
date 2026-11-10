@@ -2,6 +2,7 @@
 id = "ref/feat/tactical-reposition"
 kind = "feat"
 title = "Tactical Reposition"
+aon = "FeatDisplay.aspx?ItemName=Tactical%20Reposition"
 source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tactical_reposition", path = "json/feat15.json" },

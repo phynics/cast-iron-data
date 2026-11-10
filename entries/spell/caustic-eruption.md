@@ -2,6 +2,7 @@
 id = "ref/spell/caustic-eruption"
 kind = "spell"
 title = "Caustic Eruption"
+aon = "SpellDisplay.aspx?ItemName=Caustic%20Eruption"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_eruption", path = "json/spells2.json" },

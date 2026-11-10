@@ -2,6 +2,7 @@
 id = "ref/monster/peluda"
 kind = "creature"
 title = "Peluda"
+aon = "MonsterDisplay.aspx?ItemName=Peluda"
 source_ids = ["bestiary-4", "pathfinder-33-the-varnhold-vanishing"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "peluda", path = "json/monsters36.json" },

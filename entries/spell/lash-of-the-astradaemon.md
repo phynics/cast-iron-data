@@ -2,6 +2,7 @@
 id = "ref/spell/lash-of-the-astradaemon"
 kind = "spell"
 title = "Lash of the Astradaemon"
+aon = "SpellDisplay.aspx?ItemName=Lash%20of%20the%20Astradaemon"
 source_ids = ["book-of-the-damned", "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lash_of_the_astradaemon", path = "json/spells6.json" },

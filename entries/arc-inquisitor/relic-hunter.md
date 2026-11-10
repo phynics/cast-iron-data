@@ -2,6 +2,7 @@
 id = "ref/arc-inquisitor/relic-hunter"
 kind = "archetype"
 title = "Relic Hunter"
+aon = "ArchetypeDisplay.aspx?FixedName=Inquisitor%20Relic%20Hunter"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "relic_hunter", path = "json/archetypes_inquisitor.json" },

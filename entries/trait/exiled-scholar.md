@@ -2,6 +2,7 @@
 id = "ref/trait/exiled-scholar"
 kind = "trait"
 title = "Exiled Scholar"
+aon = "TraitDisplay.aspx?ItemName=Exiled%20Scholar"
 source_ids = ["undead-slayers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "exiled_scholar", path = "json/traits04.json" },

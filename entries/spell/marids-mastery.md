@@ -2,6 +2,7 @@
 id = "ref/spell/marids-mastery"
 kind = "spell"
 title = "Marid's Mastery"
+aon = "SpellDisplay.aspx?ItemName=Marid%27s%20Mastery"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "marids_mastery", path = "json/spells6.json" },

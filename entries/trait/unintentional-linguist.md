@@ -2,6 +2,7 @@
 id = "ref/trait/unintentional-linguist"
 kind = "trait"
 title = "Unintentional Linguist"
+aon = "TraitDisplay.aspx?ItemName=Unintentional%20Linguist"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unintentional_linguist", path = "json/traits01.json" },

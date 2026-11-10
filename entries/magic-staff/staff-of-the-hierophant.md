@@ -2,6 +2,7 @@
 id = "ref/magic-staff/staff-of-the-hierophant"
 kind = "item"
 title = "Staff of the Hierophant"
+aon = "MagicStavesDisplay.aspx?ItemName=Staff%20of%20the%20Hierophant"
 source_ids = ["ultimate-equipment"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "staff_of_the_hierophant", path = "json/magic_staff.json" },

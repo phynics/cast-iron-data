@@ -2,6 +2,7 @@
 id = "ref/feat/piranha-strike"
 kind = "feat"
 title = "Piranha Strike"
+aon = "FeatDisplay.aspx?ItemName=Piranha%20Strike"
 source_ids = ["sargava-the-lost-colony"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "piranha_strike", path = "json/feat12.json" },

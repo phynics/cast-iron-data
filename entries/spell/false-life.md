@@ -2,6 +2,7 @@
 id = "ref/spell/false-life"
 kind = "spell"
 title = "False Life"
+aon = "SpellDisplay.aspx?ItemName=False%20Life"
 source_ids = ["core-rulebook", "ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "false_life", path = "json/spells4.json" },

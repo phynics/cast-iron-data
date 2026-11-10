@@ -2,6 +2,7 @@
 id = "ref/trait/domineering"
 kind = "trait"
 title = "Domineering"
+aon = "TraitDisplay.aspx?ItemName=Domineering"
 source_ids = ["quests-and-campaigns"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "domineering", path = "json/traits02.json" },

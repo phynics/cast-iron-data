@@ -2,6 +2,7 @@
 id = "ref/spell/canopic-conversion"
 kind = "spell"
 title = "Canopic Conversion"
+aon = "SpellDisplay.aspx?ItemName=Canopic%20Conversion"
 source_ids = ["faction-guide", "osirion-land-of-the-pharaohs"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canopic_conversion", path = "json/spells2.json" },

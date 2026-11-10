@@ -2,6 +2,7 @@
 id = "ref/spell/unwelcome-halo"
 kind = "spell"
 title = "Unwelcome Halo"
+aon = "SpellDisplay.aspx?ItemName=Unwelcome%20Halo"
 source_ids = ["inner-sea-gods"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unwelcome_halo", path = "json/spells11.json" },

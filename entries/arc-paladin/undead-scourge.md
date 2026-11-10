@@ -2,6 +2,7 @@
 id = "ref/arc-paladin/undead-scourge"
 kind = "archetype"
 title = "Undead Scourge"
+aon = "ArchetypeDisplay.aspx?FixedName=Paladin%20Undead%20Scourge"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "undead_scourge", path = "json/archetypes_paladin.json" },

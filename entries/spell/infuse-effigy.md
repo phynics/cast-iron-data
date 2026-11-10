@@ -2,6 +2,7 @@
 id = "ref/spell/infuse-effigy"
 kind = "spell"
 title = "Infuse Effigy"
+aon = "SpellDisplay.aspx?ItemName=Infuse%20Effigy"
 source_ids = ["lands-of-the-linnorm-kings"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infuse_effigy", path = "json/spells14.json" },

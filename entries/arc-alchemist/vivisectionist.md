@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/vivisectionist"
 kind = "archetype"
 title = "Vivisectionist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Vivisectionist"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vivisectionist", path = "json/archetypes_alchemist2.json" },

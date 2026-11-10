@@ -2,6 +2,7 @@
 id = "ref/spell/lovers-vengeance"
 kind = "spell"
 title = "Lover's Vengeance"
+aon = "SpellDisplay.aspx?ItemName=Lover%27s%20Vengeance"
 source_ids = ["inner-sea-world-guide", "pathfinder-17-a-memory-of-darkness", "gods-and-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lovers_vengeance", path = "json/spells6.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/keleshite-princess"
 kind = "trait"
 title = "Keleshite Princess"
+aon = "TraitDisplay.aspx?ItemName=Keleshite%20Princess"
 source_ids = ["qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keleshite_princess", path = "json/traits01.json" },

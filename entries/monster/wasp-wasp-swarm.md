@@ -2,6 +2,7 @@
 id = "ref/monster/wasp-wasp-swarm"
 kind = "creature"
 title = "Wasp Swarm"
+aon = "MonsterDisplay.aspx?ItemName=Wasp%20Swarm"
 source_ids = ["bestiary"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wasp_wasp_swarm", path = "json/monsters25.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/hatred-of-the-gods"
 kind = "trait"
 title = "Hatred of the Gods"
+aon = "TraitDisplay.aspx?ItemName=Hatred%20of%20the%20Gods"
 source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hatred_of_the_gods", path = "json/traits03.json" },

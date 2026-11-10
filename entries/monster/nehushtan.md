@@ -2,6 +2,7 @@
 id = "ref/monster/nehushtan"
 kind = "creature"
 title = "Nehushtan"
+aon = "MonsterDisplay.aspx?ItemName=Nehushtan"
 source_ids = ["pathfinder-107-scourge-of-the-godclaw"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nehushtan", path = "json/monsters17.json" },

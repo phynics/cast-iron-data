@@ -2,6 +2,7 @@
 id = "ref/arc-monk/monk-of-the-lotus"
 kind = "archetype"
 title = "Monk of the Lotus"
+aon = "ArchetypeDisplay.aspx?FixedName=Monk%20Monk%20of%20the%20Lotus"
 source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monk_of_the_lotus", path = "json/archetypes_monk.json" },

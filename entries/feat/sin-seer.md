@@ -2,6 +2,7 @@
 id = "ref/feat/sin-seer"
 kind = "feat"
 title = "Sin Seer"
+aon = "FeatDisplay.aspx?ItemName=Sin%20Seer"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sin_seer", path = "json/feat14.json" },

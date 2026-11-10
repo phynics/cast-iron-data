@@ -2,6 +2,7 @@
 id = "ref/arc-alchemist/ice-chemist"
 kind = "archetype"
 title = "Ice Chemist"
+aon = "ArchetypeDisplay.aspx?FixedName=Alchemist%20Ice%20Chemist"
 source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ice_chemist", path = "json/archetypes_alchemist2.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/untapped-potential"
 kind = "trait"
 title = "Untapped Potential"
+aon = "TraitDisplay.aspx?ItemName=Untapped%20Potential"
 source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "untapped_potential", path = "json/traits01.json" },

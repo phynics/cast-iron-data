@@ -2,6 +2,7 @@
 id = "ref/feat/choir-of-blades"
 kind = "feat"
 title = "Choir of Blades"
+aon = "FeatDisplay.aspx?ItemName=Choir%20of%20Blades"
 source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "choir_of_blades", path = "json/feat03.json" },

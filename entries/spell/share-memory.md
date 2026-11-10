@@ -2,6 +2,7 @@
 id = "ref/spell/share-memory"
 kind = "spell"
 title = "Share Memory"
+aon = "SpellDisplay.aspx?ItemName=Share%20Memory"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "share_memory", path = "json/spells9.json" },

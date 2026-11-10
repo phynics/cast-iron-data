@@ -2,6 +2,7 @@
 id = "ref/feat/client"
 kind = "feat"
 title = "Client"
+aon = "FeatDisplay.aspx?ItemName=Client"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "client", path = "json/feat03.json" },

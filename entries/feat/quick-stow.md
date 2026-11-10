@@ -2,6 +2,7 @@
 id = "ref/feat/quick-stow"
 kind = "feat"
 title = "Quick Stow"
+aon = "FeatDisplay.aspx?ItemName=Quick%20Stow"
 source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_stow", path = "json/feat12.json" },

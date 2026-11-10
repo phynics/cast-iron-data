@@ -2,6 +2,7 @@
 id = "ref/arc-sorcerer/eldritch-scrapper"
 kind = "archetype"
 title = "Eldritch Scrapper"
+aon = "ArchetypeDisplay.aspx?FixedName=Sorcerer%20Eldritch%20Scrapper"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eldritch_scrapper", path = "json/archetypes_sorcerer.json" },

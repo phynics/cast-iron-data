@@ -2,6 +2,7 @@
 id = "ref/trait/thrown-together-fashion"
 kind = "trait"
 title = "Thrown-Together Fashion"
+aon = "TraitDisplay.aspx?ItemName=Thrown-Together%20Fashion"
 source_ids = ["adventurers-armory"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrown_together_fashion", path = "json/traits03.json" },

@@ -2,6 +2,7 @@
 id = "ref/trait/indentured-blacksmith"
 kind = "trait"
 title = "Indentured Blacksmith"
+aon = "TraitDisplay.aspx?ItemName=Indentured%20Blacksmith"
 source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "indentured_blacksmith", path = "json/traits04.json" },

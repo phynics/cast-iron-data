@@ -2,6 +2,7 @@
 id = "ref/arc-investigator/majordomo"
 kind = "archetype"
 title = "Majordomo"
+aon = "ArchetypeDisplay.aspx?FixedName=Investigator%20Majordomo"
 source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "majordomo", path = "json/archetypes_investigator.json" },

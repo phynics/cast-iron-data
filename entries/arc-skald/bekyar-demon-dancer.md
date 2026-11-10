@@ -2,6 +2,7 @@
 id = "ref/arc-skald/bekyar-demon-dancer"
 kind = "archetype"
 title = "Bekyar Demon Dancer"
+aon = "ArchetypeDisplay.aspx?FixedName=Skald%20Bekyar%20Demon%20Dancer"
 source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bekyar_demon_dancer", path = "json/archetypes_skald.json" },

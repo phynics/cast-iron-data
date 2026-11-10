@@ -2,6 +2,7 @@
 id = "ref/spell/adhesive-blood"
 kind = "spell"
 title = "Adhesive Blood"
+aon = "SpellDisplay.aspx?ItemName=Adhesive%20Blood"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adhesive_blood", path = "json/spells.json" },

@@ -2,6 +2,7 @@
 id = "ref/monster/spider-dream-spider"
 kind = "creature"
 title = "Dream Spider"
+aon = "MonsterDisplay.aspx?ItemName=Dream%20Spider"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-7-edge-of-anarchy"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spider_dream_spider", path = "json/monsters39.json" },

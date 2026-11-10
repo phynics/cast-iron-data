@@ -2,6 +2,7 @@
 id = "ref/trait/arcane-depth"
 kind = "trait"
 title = "Arcane Depth"
+aon = "TraitDisplay.aspx?ItemName=Arcane%20Depth"
 source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_depth", path = "json/traits03.json" },

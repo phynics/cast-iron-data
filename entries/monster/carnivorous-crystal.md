@@ -2,6 +2,7 @@
 id = "ref/monster/carnivorous-crystal"
 kind = "creature"
 title = "Carnivorous Crystal"
+aon = "MonsterDisplay.aspx?ItemName=Carnivorous%20Crystal"
 source_ids = ["bestiary-3"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "carnivorous_crystal", path = "json/monsters04.json" },

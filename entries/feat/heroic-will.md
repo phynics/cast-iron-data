@@ -2,6 +2,7 @@
 id = "ref/feat/heroic-will"
 kind = "feat"
 title = "Heroic Will"
+aon = "FeatDisplay.aspx?ItemName=Heroic%20Will"
 source_ids = ["advanced-race-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heroic_will", path = "json/feat08.json" },

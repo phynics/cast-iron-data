@@ -2,6 +2,7 @@
 id = "ref/trait/sensitive-mind"
 kind = "trait"
 title = "Sensitive Mind"
+aon = "TraitDisplay.aspx?ItemName=Sensitive%20Mind"
 source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sensitive_mind", path = "json/traits03.json" },

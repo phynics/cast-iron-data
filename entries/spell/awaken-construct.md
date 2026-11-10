@@ -2,6 +2,7 @@
 id = "ref/spell/awaken-construct"
 kind = "spell"
 title = "Awaken Construct"
+aon = "SpellDisplay.aspx?ItemName=Awaken%20Construct"
 source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "awaken_construct", path = "json/spells.json" },

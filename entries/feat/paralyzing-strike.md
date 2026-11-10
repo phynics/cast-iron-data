@@ -2,6 +2,7 @@
 id = "ref/feat/paralyzing-strike"
 kind = "feat"
 title = "Paralyzing Strike"
+aon = "FeatDisplay.aspx?ItemName=Paralyzing%20Strike"
 source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paralyzing_strike", path = "json/feat11.json" },

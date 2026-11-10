@@ -2,6 +2,7 @@
 id = "ref/trait/unblemished-barrel"
 kind = "trait"
 title = "Unblemished Barrel"
+aon = "TraitDisplay.aspx?ItemName=Unblemished%20Barrel"
 source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unblemished_barrel", path = "json/traits01.json" },

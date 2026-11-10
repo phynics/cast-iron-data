@@ -2,6 +2,7 @@
 id = "ref/spell/delay-pain"
 kind = "spell"
 title = "Delay Pain"
+aon = "SpellDisplay.aspx?ItemName=Delay%20Pain"
 source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "delay_pain", path = "json/spells3.json" },

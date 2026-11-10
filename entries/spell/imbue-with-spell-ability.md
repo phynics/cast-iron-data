@@ -2,6 +2,7 @@
 id = "ref/spell/imbue-with-spell-ability"
 kind = "spell"
 title = "Imbue with Spell Ability"
+aon = "SpellDisplay.aspx?ItemName=Imbue%20with%20Spell%20Ability"
 source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "imbue_with_spell_ability", path = "json/spells14.json" },
