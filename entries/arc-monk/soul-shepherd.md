@@ -17,6 +17,7 @@ page = "65"
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Evasion", "improved evasion", "Abundant step", "Quivering palm"]
+replaces_features = ["stunning-fist", "evasion", "improved-evasion", "abundant-step", "quivering-palm"]
 +++
 
 Whether studying at the feet of psychopomps or merely imitating the creatures' philosophy and

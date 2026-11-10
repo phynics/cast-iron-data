@@ -17,6 +17,7 @@ page = "36"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 One of the many ethnicities found in the Mwangi Expanse, the Bekyar people are slavers and demon

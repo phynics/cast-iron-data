@@ -18,6 +18,8 @@ page = "43"
 kind = "archetype"
 replaces = ["Knockout", "close weapon mastery"]
 alters = ["Unarmed strike"]
+replaces_features = ["knockout", "close-weapon-mastery"]
+alters_features = ["unarmed-strike"]
 +++
 
 Thanks to alchemical experiments and rigorous study of venomous creatures, a venomfist has toxic

@@ -18,6 +18,7 @@ page = "91"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "The increase to channel energy gained at 3rd level"]
 alters = ["The normal domain ability"]
+replaces_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Eschewing physical armor for protection via the strength of his faith, an ecclesitheurge focuses on

@@ -18,6 +18,8 @@ page = "82"
 kind = "archetype"
 replaces = ["Seamless guise", "Social talents gained at 3rd, 7th, 11th, 15th, and 19th levels"]
 alters = ["Weapon and armor proficiencies", "Dual identity"]
+replaces_features = ["seamless-guise"]
+alters_features = ["weapon-and-armor-proficiencies", "dual-identity"]
 +++
 
 In the wake of Ileosa's death, some of the surviving [Gray Maidens](ref/rule/aff-scarred-ladies)

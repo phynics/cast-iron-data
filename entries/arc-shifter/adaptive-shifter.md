@@ -18,6 +18,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Shifter aspect", "chimeric aspect", "greater chimeric aspect", "final aspect", "Wild empathy", "track", "woodland stride", "trackless step", "Wild shape"]
 alters = ["Shifter claws"]
+replaces_features = ["shifter-aspect", "chimeric-aspect", "greater-chimeric-aspect", "final-aspect", "wild-empathy", "track", "woodland-stride", "trackless-step", "wild-shape"]
+alters_features = ["shifter-claws"]
 +++
 
 Rather than emulate other animals entirely, some shifters learn to reshape their forms on the fly in

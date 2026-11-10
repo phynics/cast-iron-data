@@ -18,6 +18,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 The bat shaman's totem is the agile bat, flitting and turning with incredible speed through even the

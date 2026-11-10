@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Spells", "Aura of sin"]
+replaces_features = ["spells", "aura-of-sin"]
 +++
 
 Some antipaladins serve or ally themselves with villains who are bent on earthly conquest. They care

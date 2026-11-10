@@ -17,6 +17,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Improved evasion", "Diamond body", "Quivering palm"]
+replaces_features = ["stunning-fist", "improved-evasion", "diamond-body", "quivering-palm"]
 +++
 
 Some who study the mysteries of the harrow do so to restore lost knowledge and pride to the Varisian

@@ -17,6 +17,7 @@ page = "84"
 [fields]
 kind = "archetype"
 alters = ["Bloodline"]
+alters_features = ["bloodline"]
 +++
 
 While bloodrage powers come from the very essence of a bloodrager's being and are often strict and

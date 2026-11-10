@@ -18,6 +18,7 @@ page = "75"
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
 alters = ["Weapon proficiencies"]
+replaces_features = ["trapfinding", "trap-sense", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Twilight Talons might pursue many tasks, from relatively passive information gathering to staging

@@ -21,6 +21,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Woodland stride"]
 alters = ["Animal focus"]
+replaces_features = ["woodland-stride"]
+alters_features = ["animal-focus"]
 +++
 
 The forgotten ruins in the desert sands have given rise to a breed of hunters who call upon the

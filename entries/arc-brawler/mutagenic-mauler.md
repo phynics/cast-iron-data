@@ -17,6 +17,7 @@ page = "86"
 [fields]
 kind = "archetype"
 replaces = ["Martial flexibility", "AC bonus"]
+replaces_features = ["martial-flexibility", "ac-bonus"]
 +++
 
 Not content with perfecting her body with natural methods, a mutagenic mauler resorts to alchemy to

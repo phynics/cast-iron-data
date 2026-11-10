@@ -17,6 +17,7 @@ page = "27"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Bonus feats gained at 2nd and 12th level", "Armor mastery", "Weapon mastery"]
+replaces_features = ["bravery", "armor-mastery", "weapon-mastery"]
 +++
 
 As staunch believers in the value of higher ground, the Shory developed special fighting styles that

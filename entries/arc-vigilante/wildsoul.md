@@ -18,6 +18,7 @@ page = "61"
 kind = "archetype"
 replaces = ["Vigilante talents gained at 2nd, 6th, 12th, and 18th levels"]
 alters = ["Vigilante specialization"]
+alters_features = ["vigilante-specialization"]
 +++
 
 Within some vigilantes are incredible innate abilities that, although normally the domain of natural

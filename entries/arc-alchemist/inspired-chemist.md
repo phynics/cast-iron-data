@@ -17,6 +17,7 @@ page = "75"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen"]
+replaces_features = ["mutagen"]
 +++
 
 Akin to a mindchemist, inspired chemists use a type of cognatogen that instead of increasing their

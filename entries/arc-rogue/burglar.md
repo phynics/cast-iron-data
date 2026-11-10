@@ -17,6 +17,7 @@ page = "132"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Adept at infiltration, trap removal, and lock picking, burglars prey on the homes of the wealthy and

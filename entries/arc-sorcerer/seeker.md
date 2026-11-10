@@ -17,6 +17,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Eschew Materials", "3rd-level bloodline power", "15th-level bloodline power"]
+replaces_features = ["eschew-materials"]
 +++
 
 Oracles and sorcerers gain their magical powers through strange and mysterious ways, be they chosen

@@ -18,6 +18,7 @@ page = "46"
 kind = "archetype"
 replaces = ["The 1st-level fighter bonus combat feat", "Armor training 2", "Weapon training 2, 3, and 4", "Armor training 3", "Armor training 4"]
 alters = ["Weapon training", "Weapon mastery"]
+alters_features = ["weapon-training", "weapon-mastery"]
 +++
 
 These gallant lancers serve in the vanguard of many armies or as knights-errant. They are born

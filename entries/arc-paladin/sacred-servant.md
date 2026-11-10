@@ -18,6 +18,8 @@ page = "117"
 kind = "archetype"
 replaces = ["Smite evil", "Aura of resolve"]
 alters = ["Divine bond"]
+replaces_features = ["smite-evil", "aura-of-resolve"]
+alters_features = ["divine-bond"]
 +++
 
 Paladins as a general rule, venerate the gods of good and purity, but some take this a step further,

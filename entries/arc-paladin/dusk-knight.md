@@ -18,6 +18,8 @@ page = "18"
 kind = "archetype"
 replaces = ["Channel positive energy", "Divine bond", "Aura of resolve", "Aura of justice"]
 alters = ["Smite evil"]
+replaces_features = ["channel-positive-energy", "divine-bond", "aura-of-resolve", "aura-of-justice"]
+alters_features = ["smite-evil"]
 +++
 
 Some paladins focus their training to combat the shadows and use darkness to their advantage. Known

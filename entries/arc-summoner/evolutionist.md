@@ -17,6 +17,7 @@ page = "79"
 [fields]
 kind = "archetype"
 replaces = ["Maker's call", "Transposition", "Greater shield ally"]
+replaces_features = ["maker-s-call", "transposition", "greater-shield-ally"]
 +++
 
 Changing an eidolon's evolutions is normally a slow process. As a summoner progresses in levels, his

@@ -18,6 +18,8 @@ page = "71"
 kind = "archetype"
 replaces = ["Divine grace", "Aura of courage", "3rd-, 9th-, and 15th-level mercies", "Aura of resolve", "Aura of justice"]
 alters = ["Smite evil", "Spells"]
+replaces_features = ["divine-grace", "aura-of-courage", "aura-of-resolve", "aura-of-justice"]
+alters_features = ["smite-evil", "spells"]
 +++
 
 Wilderness wardens are vigilant guardians of natural places of all kinds, from mountain peaks to

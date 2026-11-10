@@ -18,6 +18,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Aura"]
 alters = ["Weapon and armor proficiency", "Spells", "Channel energy", "Domains", "Spontaneous casting"]
+replaces_features = ["aura"]
+alters_features = ["spells", "channel-energy", "domains", "spontaneous-casting"]
 +++
 
 While most clerics who fall out of favor with their deities simply lose their divine connection and

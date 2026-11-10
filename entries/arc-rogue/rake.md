@@ -17,6 +17,7 @@ page = "134"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 The rake is a rogue who is open about her skills and talents, often to the point of being boastful.

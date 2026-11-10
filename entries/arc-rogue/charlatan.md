@@ -17,6 +17,7 @@ page = "72"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 A charlatan is a master of lies and deception. Whether creating simple cons or elaborately woven

@@ -18,6 +18,8 @@ page = "90"
 kind = "archetype"
 replaces = ["Infusions", "Metakinesis", "infusion specialization"]
 alters = ["Internal buffer"]
+replaces_features = ["metakinesis", "infusion-specialization"]
+alters_features = ["internal-buffer"]
 +++
 
 While any hydrokineticist or telekineticist can learn the rudiments of healing, some kineticists are

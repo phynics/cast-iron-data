@@ -17,6 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Monster lore", "Discern lies"]
+replaces_features = ["domain", "monster-lore", "discern-lies"]
 +++
 
 Most common among [Pharasmins](ref/faith/pharasma) but found within any faith that loathes undead or

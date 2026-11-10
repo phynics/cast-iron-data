@@ -17,6 +17,7 @@ page = "84"
 [fields]
 kind = "archetype"
 replaces = ["Blood sanctuary", "Improved uncanny dodge"]
+replaces_features = ["blood-sanctuary", "improved-uncanny-dodge"]
 +++
 
 All bloodragers blend the unpredictable surge of arcane power with the savage fury of battle lust.

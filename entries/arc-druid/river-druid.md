@@ -21,6 +21,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Nature sense", "Woodland stride", "Trackless step", "Resist nature's lure", "Timeless body"]
 alters = ["Class skills", "Wild shape"]
+replaces_features = ["nature-sense", "woodland-stride", "trackless-step", "resist-nature-s-lure", "timeless-body"]
+alters_features = ["wild-shape"]
 +++
 
 These druids are the guardians of rivers and the creatures that depend on them. Just as rivers pour

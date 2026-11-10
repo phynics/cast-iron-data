@@ -17,6 +17,7 @@ page = "45"
 [fields]
 kind = "archetype"
 replaces = ["Stern gaze", "Detect alignment", "Solo tactics", "teamwork feats gained at 3rd, 9th, and 15th levels", "Teamwork feat granted at 6th level", "Teamwork feat granted at 12th", "Teamwork feat granted at 18th level"]
+replaces_features = ["stern-gaze", "detect-alignment", "solo-tactics"]
 +++
 
 Royal accusers serve the prince of Ustalav, cutting through the nation's baroque politics and

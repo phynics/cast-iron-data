@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Sneak attack", "master strike", "Trap sense", "Uncanny dodge", "Improved uncanny dodge", "rogue talent gained at 12th level"]
+replaces_features = ["sneak-attack", "master-strike", "trap-sense", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 The dreamthief is master of both waking and dreaming worlds. Each dreamthief bears a focused

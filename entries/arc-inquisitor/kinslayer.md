@@ -18,6 +18,7 @@ page = "98"
 kind = "archetype"
 replaces = ["Destruction judgment", "Detect alignment"]
 alters = ["Teamwork feats"]
+replaces_features = ["detect-alignment"]
 +++
 
 Appalled and guilt-ridden by the horrific circumstances of her birth, a kinslayer dedicates herself

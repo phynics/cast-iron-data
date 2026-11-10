@@ -17,6 +17,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "Woodland stride", "Nature sense", "Resist nature's lure", "The normal wild shape options gained at 12th level"]
+replaces_features = ["nature-bond", "woodland-stride", "nature-sense", "resist-nature-s-lure"]
 +++
 
 Swarm mongers are unparalleled survivors, thriving on the filthy fringes of society. Whereas other

@@ -17,6 +17,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Nature bond", "The 6th-level additional use of wild shape"]
+replaces_features = ["nature-bond"]
 +++
 
 Some druids bond with many animal companions rather than just one, achieving a level of communion

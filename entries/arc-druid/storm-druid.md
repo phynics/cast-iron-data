@@ -17,6 +17,7 @@ page = "40"
 [fields]
 kind = "archetype"
 replaces = ["Spontaneous casting", "Woodland stride", "Trackless step", "Resist nature's lure", "Venom immunity", "A thousand faces"]
+replaces_features = ["spontaneous-casting", "woodland-stride", "trackless-step", "resist-nature-s-lure", "venom-immunity", "a-thousand-faces"]
 +++
 
 While most druids focus their attention upon the rich earth and the bounty of nature that springs

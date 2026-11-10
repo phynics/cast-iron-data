@@ -17,6 +17,7 @@ page = "47"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 Dark overlords frequently recruit their most bloodthirsty followers to serve as brutal bodyguards.

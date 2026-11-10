@@ -17,6 +17,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["Expanded element, 11th- and 19th-level infusions", "Omnikinesis"]
+replaces_features = ["expanded-element", "omnikinesis"]
 +++
 
 An elemental purist spurns all elements that are not her own, for utter devotion can allow one to

@@ -17,6 +17,7 @@ page = "133"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding"]
+replaces_features = ["trapfinding"]
 +++
 
 > _**Note:** This is a rogue archetype, and has no relation to the

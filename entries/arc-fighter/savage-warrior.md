@@ -17,6 +17,7 @@ page = "107"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4", "Weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 Warriors' might is not measured only by their skill with steel, but also by their ability to inflict

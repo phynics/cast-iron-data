@@ -17,6 +17,7 @@ page = "23"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "Trap sense"]
+replaces_features = ["trapfinding", "evasion", "trap-sense"]
 +++
 
 Smugglers specialize in moving contraband from one area to another while avoiding detection by

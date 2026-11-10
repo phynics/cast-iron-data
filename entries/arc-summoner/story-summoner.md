@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Bond senses", "Transposition"]
+replaces_features = ["bond-senses", "transposition"]
 +++
 
 Story summoners rely on the harrow to weave the paths they walk, turning their tales into reality.

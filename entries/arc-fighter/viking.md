@@ -21,6 +21,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Bravery", "Armor training", "Weapon training"]
 alters = ["Weapon and armor proficiencies", "The fighter's bonus feats"]
+replaces_features = ["bravery", "armor-training", "weapon-training"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Vikings seek to raid "softer societies" and return with their longships filled with plunder. A

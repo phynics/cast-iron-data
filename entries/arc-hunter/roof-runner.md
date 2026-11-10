@@ -18,6 +18,8 @@ page = "65"
 kind = "archetype"
 replaces = ["Track", "Woodland stride", "Swift tracker"]
 alters = ["Master hunter"]
+replaces_features = ["track", "woodland-stride", "swift-tracker"]
+alters_features = ["master-hunter"]
 +++
 
 Roof runners are skilled ambushers, skirmishers, and spies who eschew heavier types of armor in

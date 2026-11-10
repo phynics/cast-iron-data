@@ -17,6 +17,7 @@ page = "121"
 [fields]
 kind = "archetype"
 replaces = ["Spellcasting", "Arcane pool", "Spell recall", "knowledge pool", "improved spell recall", "greater spell combat", "greater spell access", "Medium armor", "Improved spell combat", "Heavy armor"]
+replaces_features = ["arcane-pool", "spell-recall", "knowledge-pool", "improved-spell-recall", "greater-spell-combat", "greater-spell-access", "medium-armor", "improved-spell-combat", "heavy-armor"]
 +++
 
 A mindblade blends psychic talent and martial skill to lethal effect. By forming weapons with her

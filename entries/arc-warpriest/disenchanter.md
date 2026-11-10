@@ -18,6 +18,8 @@ page = "129"
 kind = "archetype"
 replaces = ["Channel energy", "Bonus feat gained at 6th level"]
 alters = ["Bonus feats"]
+replaces_features = ["channel-energy"]
+alters_features = ["bonus-feats"]
 +++
 
 While many warpriests focus on threats to the body, the disenchanter focuses on dangers to the mind

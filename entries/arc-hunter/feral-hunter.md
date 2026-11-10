@@ -18,6 +18,8 @@ page = "95"
 kind = "archetype"
 replaces = ["Hunter tactics", "speak with master", "Bonus tricks", "improved empathic link", "greater empathic link", "master of the wild", "raise animal companion", "Teamwork feats gained at 6th, 9th, 12th, 15th, and 18th levels"]
 alters = ["Animal focus", "Precise companion"]
+replaces_features = ["hunter-tactics", "speak-with-master", "bonus-tricks", "improved-empathic-link", "greater-empathic-link", "raise-animal-companion"]
+alters_features = ["animal-focus", "precise-companion"]
 +++
 
 A feral hunter has forged a bond with nature that's so strong that she doesn't merely channel the

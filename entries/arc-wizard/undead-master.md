@@ -18,6 +18,8 @@ page = "75"
 kind = "archetype"
 replaces = ["Scribe Scroll", "5th-, 10th-, and 15th-level bonus feats", "20th-level bonus feat"]
 alters = ["Arcane school", "alignment", "Arcane bond"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-school", "arcane-bond"]
 +++
 
 Undead masters have great power over undeath.

@@ -17,6 +17,7 @@ page = "32"
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "greater tactician", "master tactician", "Challenge", "Demanding challenge"]
+replaces_features = ["tactician", "greater-tactician", "master-tactician", "challenge", "demanding-challenge"]
 +++
 
 A circuit judge claims a specific region, becoming an expert in the local laws and, perhaps,

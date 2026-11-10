@@ -17,6 +17,7 @@ page = "120"
 [fields]
 kind = "archetype"
 replaces = ["Track"]
+replaces_features = ["track"]
 +++
 
 Whether it's with a bullet from a sling, a quarrel from a crossbow, or even an expertly thrown

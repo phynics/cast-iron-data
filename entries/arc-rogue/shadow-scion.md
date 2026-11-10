@@ -17,6 +17,7 @@ page = "15"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Rogue talent gained at 8th level", "Rogue talent gained at 14th level", "Master strike"]
+replaces_features = ["trapfinding", "master-strike"]
 +++
 
 Count Ranalc's worshipers congregate in the places between dark and light, searching for secrets

@@ -17,6 +17,7 @@ page = "52"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Detect alignment", "Discern lies", "Exploit weakness", "True judgment"]
+replaces_features = ["monster-lore", "detect-alignment", "discern-lies", "exploit-weakness", "true-judgment"]
 +++
 
 Some magic items are heretical by nature, enabling the unfaithful to spread wickedness. Iconoclasts

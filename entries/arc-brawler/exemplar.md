@@ -17,6 +17,7 @@ page = "86"
 [fields]
 kind = "archetype"
 replaces = ["Unarmed strike", "close weapon mastery", "Maneuver training", "AC bonus", "Brawler's strike"]
+replaces_features = ["unarmed-strike", "close-weapon-mastery", "maneuver-training", "ac-bonus", "brawler-s-strike"]
 +++
 
 A versatile soldier who inspires her companions with her fighting prowess, an exemplar is at home on

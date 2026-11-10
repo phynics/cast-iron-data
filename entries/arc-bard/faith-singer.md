@@ -17,6 +17,7 @@ page = "19"
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance"]
+replaces_features = ["versatile-performance"]
 +++
 
 Faith singers show their faith in their deity with songs or other appropriate performances.

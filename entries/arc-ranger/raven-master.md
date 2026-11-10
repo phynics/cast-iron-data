@@ -18,6 +18,8 @@ page = "175"
 kind = "archetype"
 replaces = ["Woodland stride", "Swift tracker", "Camouflage"]
 alters = ["Wild empathy", "Hunter's bond", "Spellcasting"]
+replaces_features = ["woodland-stride", "swift-tracker", "camouflage"]
+alters_features = ["wild-empathy", "hunter-s-bond"]
 +++
 
 While the [Silver Ravens](ref/rule/aff-rebels) adopted their name as a way to honor the group of

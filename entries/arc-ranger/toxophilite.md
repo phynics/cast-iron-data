@@ -17,6 +17,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "Quarry", "Improved quarry"]
+replaces_features = ["wild-empathy", "endurance", "quarry", "improved-quarry"]
 +++
 
 While many rangers use bows and arrows, the toxophilite takes special pride in her skill at archery.

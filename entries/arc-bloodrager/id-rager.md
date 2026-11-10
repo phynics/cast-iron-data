@@ -18,6 +18,7 @@ page = "23"
 kind = "archetype"
 replaces = ["Bloodline", "all bloodline spells", "all bloodline powers", "Eschew materials", "All bloodline feats"]
 alters = ["Spellcasting"]
+replaces_features = ["bloodline", "eschew-materials"]
 +++
 
 An id rager lacks a supernatural taint to his blood, instead drawing power from pure emotion.

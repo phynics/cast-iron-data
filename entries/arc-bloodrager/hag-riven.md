@@ -18,6 +18,8 @@ page = "27"
 kind = "archetype"
 replaces = ["Fast movement", "uncanny dodge", "Improved uncanny dodge", "Damage reduction"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge", "damage-reduction"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 All [changelings](ref/race/changeling) have the potential to transform into [hags](ref/family/hag),

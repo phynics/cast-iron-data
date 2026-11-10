@@ -17,6 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 replaces = ["Poison resistance", "the discovery gained at 10th level", "Poison use", "Swift poisoning"]
+replaces_features = ["poison-resistance", "poison-use", "swift-poisoning"]
 +++
 
 Little more than moonshiners to some, fermenters focus their efforts on imbibing substances,

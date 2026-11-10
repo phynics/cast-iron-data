@@ -17,6 +17,7 @@ page = "108"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1", "Armor training 2", "Armor training 3", "Armor training 4", "Armor mastery"]
+replaces_features = ["bravery", "armor-mastery"]
 +++
 
 Some fighters focus their efforts on finding the biggest, heaviest, most imposing weapon they can

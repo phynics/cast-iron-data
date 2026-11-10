@@ -18,6 +18,8 @@ page = "123"
 kind = "archetype"
 replaces = ["Summon monster", "Aspect", "maker's call", "merge forms", "transposition"]
 alters = ["Eidolon"]
+replaces_features = ["aspect", "maker-s-call", "merge-forms", "transposition"]
+alters_features = ["eidolon"]
 +++
 
 A spirit summoner is an arcane spellcaster whose eidolon is a manifestation of a shamanic spirit.

@@ -17,6 +17,7 @@ page = "78"
 [fields]
 kind = "archetype"
 replaces = ["Trap sense"]
+replaces_features = ["trap-sense"]
 +++
 
 Some barbarian tribes have strong ties to the elemental forces of nature. Their shamans anoint the

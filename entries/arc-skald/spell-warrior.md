@@ -17,6 +17,7 @@ page = "116"
 [fields]
 kind = "archetype"
 replaces = ["Scribe Scroll", "Inspired rage", "Spell kenning", "Dirge of doom", "Master skald"]
+replaces_features = ["scribe-scroll", "inspired-rage", "spell-kenning", "dirge-of-doom", "master-skald"]
 +++
 
 The spell warrior uses his arcane knowledge rather than his rage to turn the tide of battle in favor

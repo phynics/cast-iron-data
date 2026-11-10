@@ -18,6 +18,8 @@ page = "5"
 kind = "archetype"
 replaces = ["Tactician", "Expert trainer", "Greater tactician", "Demanding challenge", "Greater tactician"]
 alters = ["Banner"]
+replaces_features = ["tactician", "expert-trainer", "greater-tactician", "demanding-challenge", "greater-tactician"]
+alters_features = ["banner"]
 +++
 
 The cavaliers known as knights of Arnisant revere the famous general who was crucial in the defeat

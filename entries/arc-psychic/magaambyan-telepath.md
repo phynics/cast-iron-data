@@ -18,6 +18,8 @@ page = "27"
 kind = "archetype"
 replaces = ["Discipline spells", "1st- and 11th-level phrenic amplifications", "Telepathic bond"]
 alters = ["Telepathy"]
+replaces_features = ["telepathic-bond"]
+alters_features = ["telepathy"]
 +++
 
 While most students of the [Magaambya](ref/rule/aff-i-school) in the Mwangi Expanse focus on the

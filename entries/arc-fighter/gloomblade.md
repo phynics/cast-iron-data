@@ -18,6 +18,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Armor training", "proficiency with heavy armor and shields"]
 alters = ["Weapon training"]
+replaces_features = ["armor-training"]
+alters_features = ["weapon-training"]
 +++
 
 The Shadow Plane's substance is legendary for its versatility. In shadow-shrouded lands, secretive

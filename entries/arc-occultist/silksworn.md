@@ -18,6 +18,8 @@ page = "29"
 kind = "archetype"
 replaces = ["Knacks", "Outside contact", "Magic circles", "Binding circles", "Fast circles"]
 alters = ["Spells", "Implements", "Mental focus", "Implements", "weapon and armor proficiencies", "Implement mastery"]
+replaces_features = ["knacks", "outside-contact", "magic-circles", "binding-circles", "fast-circles"]
+alters_features = ["spells", "implements", "mental-focus", "implements", "weapon-and-armor-proficiencies", "implement-mastery"]
 +++
 
 Occultists who recognize that flashy garb and fashionable accoutrements can be just as powerful as

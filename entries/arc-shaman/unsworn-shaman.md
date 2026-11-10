@@ -18,6 +18,8 @@ page = "112"
 kind = "archetype"
 replaces = ["Spirit", "Wandering hex"]
 alters = ["Hex", "Spirit animal", "Wandering spirit", "Spirit magic"]
+replaces_features = ["spirit", "wandering-hex"]
+alters_features = ["hex", "spirit-animal", "wandering-spirit", "spirit-magic"]
 +++
 
 An unsworn shaman never binds herself to one specific spirit, always making new deals as she deems

@@ -18,6 +18,8 @@ page = "70"
 kind = "archetype"
 replaces = ["1st-level use of smite evil", "Aura of resolve"]
 alters = ["Armor proficiencies", "Detect evil", "Smite evil", "Spells"]
+replaces_features = ["aura-of-resolve"]
+alters_features = ["detect-evil", "smite-evil", "spells"]
 +++
 
 Hunting paladins are tenacious trackers and stealthy stalkers in pursuit of evildoers.

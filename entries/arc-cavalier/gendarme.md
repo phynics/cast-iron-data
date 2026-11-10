@@ -17,6 +17,7 @@ page = "37"
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "greater tactician", "master tactician", "cavalier bonus feats", "Supreme charge"]
+replaces_features = ["tactician", "greater-tactician", "master-tactician", "supreme-charge"]
 +++
 
 The gendarme cares less for the finer points of tactical precision than he does for the exhilaration

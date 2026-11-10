@@ -18,6 +18,7 @@ page = "18"
 kind = "archetype"
 replaces = ["Rage power gained at 3rd level"]
 alters = ["Versatile performance", "Rage powers gained at 6th and 9th levels"]
+alters_features = ["versatile-performance"]
 +++
 
 While the twisted power of the demon-worshiping Bekyar's skalds is great, it comes at a terrible

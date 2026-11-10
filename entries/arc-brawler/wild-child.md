@@ -18,6 +18,8 @@ page = "89"
 kind = "archetype"
 replaces = ["Bonus combat feats gained at 2nd, 5th, 11th, and 14th levels", "Close weapon mastery", "Bonus combat feats gained at 5th, 8th, 11th, 14th, 17th, and 20th levels"]
 alters = ["Maneuver training"]
+replaces_features = ["close-weapon-mastery"]
+alters_features = ["maneuver-training"]
 +++
 
 The wild child works with his sworn animal friend to conquer the challenges that lay before them.

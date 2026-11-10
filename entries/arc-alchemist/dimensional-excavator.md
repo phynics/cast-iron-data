@@ -18,6 +18,7 @@ page = "14"
 kind = "archetype"
 replaces = ["4th-level discovery"]
 alters = ["Discovery", "Discovery"]
+alters_features = ["discovery", "discovery"]
 +++
 
 Alchemists are often drawn to the Mana Wastes to study the strange energies and interactions that

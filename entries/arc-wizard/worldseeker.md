@@ -18,6 +18,8 @@ page = "21"
 kind = "archetype"
 replaces = ["Scribe Scroll", "The school ability normally gained at 6th or 8th level", "5th-level bonus feat", "15th-level bonus feat"]
 alters = ["Arcane bond"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Worldseekers are wizards who travel to all corners of the Great Beyond. While neophytes must content

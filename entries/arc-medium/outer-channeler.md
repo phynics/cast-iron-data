@@ -18,6 +18,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Haunt channeler", "connection channel", "Location channel", "Astral journey"]
 alters = ["Spirit", "spirit power (intermediate)", "Taboo", "Shared seance", "Ask the spirits"]
+replaces_features = ["haunt-channeler", "connection-channel", "location-channel", "astral-journey"]
+alters_features = ["spirit", "taboo", "shared-seance", "ask-the-spirits"]
 +++
 
 Rather than invite strange entities and departed souls into their bodies, outer channelers invite

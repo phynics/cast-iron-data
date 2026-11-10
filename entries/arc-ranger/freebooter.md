@@ -17,6 +17,7 @@ page = "23"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Hunter's bond", "Woodland stride"]
+replaces_features = ["favored-enemy", "hunter-s-bond", "woodland-stride"]
 +++
 
 A freebooter is a natural leader, a pirate who works well with a variety of people and in a variety

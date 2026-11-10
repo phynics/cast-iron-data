@@ -18,6 +18,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Deadeye deed", "Dead shot deed", "Bonus feats gained at 4th, 8th, 12th, 16th, and 20th levels", "Gun training"]
 alters = ["Gunsmith", "Grit"]
+replaces_features = ["gun-training"]
+alters_features = ["gunsmith", "grit"]
 +++
 
 Where other gunslingers rely on precision shooting, the firebrand instead masters explosive

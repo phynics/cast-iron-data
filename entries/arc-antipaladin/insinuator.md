@@ -18,6 +18,8 @@ page = "20"
 kind = "archetype"
 replaces = ["Aura of evil", "Smite good", "Touch of corruption", "Aura of cowardice", "Plague bringer", "Cruelty", "Antipaladin spells", "Aura of despair", "Aura of vengeance", "Aura of sin", "Aura of depravity", "Unholy champion"]
 alters = ["Detect good", "Channel negative energy"]
+replaces_features = ["aura-of-evil", "smite-good", "touch-of-corruption", "aura-of-cowardice", "plague-bringer", "cruelty", "aura-of-despair", "aura-of-vengeance", "aura-of-sin", "aura-of-depravity", "unholy-champion"]
+alters_features = ["detect-good", "channel-negative-energy"]
 +++
 
 Between the selfless nobility of paladins and the chaotic menace of antipaladins, there exists a

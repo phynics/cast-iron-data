@@ -18,6 +18,8 @@ page = "66"
 kind = "archetype"
 replaces = ["Proficiency in medium armor and shields", "The 1st-level studied target", "slayer talents gained at 4th, 8th, 12th, and 16th level", "Slayer talent gained at 6th level", "Swift tracker", "Slayer's advance"]
 alters = ["Studied target"]
+replaces_features = ["swift-tracker", "slayer-s-advance"]
+alters_features = ["studied-target"]
 +++
 
 Bloody jakes are cruel backwoods folk who prey upon their country cousins while terrorizing

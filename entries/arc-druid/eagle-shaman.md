@@ -18,6 +18,8 @@ page = "102"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 A shaman with this totem calls upon the noble eagle, stern and proud, soaring high above the world

@@ -17,6 +17,7 @@ page = "126"
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Camouflage", "Master hunter"]
+replaces_features = ["favored-terrain", "camouflage", "master-hunter"]
 +++
 
 Most rangers venture into the wilderness, but there are some who let the wilderness seep into them.

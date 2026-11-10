@@ -14,6 +14,7 @@ page = "20"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Detect evil", "3rd-level and 9th-level mercies", "Aura of resolve", "Aura of justice"]
+replaces_features = ["detect-evil", "aura-of-resolve", "aura-of-justice"]
 +++
 
 The [Whispering Way](ref/rule/f-gravepath) is an enemy to all life in the world, and as a result

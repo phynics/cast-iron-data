@@ -18,6 +18,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Resist nature's lure", "Wild shape", "Venom immunity"]
 alters = ["Spellcasting", "Nature bond"]
+replaces_features = ["resist-nature-s-lure", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond"]
 +++
 
 The survivor embodies the neutral aspect of the natural world and eschews druidic magic in favor of

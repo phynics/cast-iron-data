@@ -18,6 +18,8 @@ page = "10"
 kind = "archetype"
 replaces = ["School powers granted by the wizard's arcane school", "Scribe Scroll", "5th-, 10th-, 15th-, and 20th-level bonus feats"]
 alters = ["Arcane bond"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Clocksmiths are oddities among wizard communities, pursuing the study and creation of clockwork

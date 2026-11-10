@@ -18,6 +18,8 @@ page = "102"
 kind = "archetype"
 replaces = ["Implements", "Magic item skill", "object reading", "Aura sight"]
 alters = ["Mental focus", "spellcasting", "implement mastery", "Outside contact"]
+replaces_features = ["implements", "magic-item-skill", "object-reading", "aura-sight"]
+alters_features = ["mental-focus", "implement-mastery", "outside-contact"]
 +++
 
 Sha'irs delve into the occult not through power over objects but instead via their connection with

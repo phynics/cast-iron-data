@@ -17,6 +17,7 @@ page = "9"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Demanding challenge", "Supreme charge"]
+replaces_features = ["mount", "cavalier-s-charge", "expert-trainer", "mighty-charge", "demanding-challenge", "supreme-charge"]
 +++
 
 A castellan is a cavalier who dedicates himself to the defense of a castle or walled city. Though

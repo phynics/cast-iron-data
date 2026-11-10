@@ -18,6 +18,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Throw Anything", "Bombs", "poison use", "poison resistance", "poison immunity"]
 alters = ["Alchemy", "the alchemist's key ability score"]
+replaces_features = ["throw-anything", "poison-use", "poison-resistance"]
+alters_features = ["alchemy"]
 +++
 
 Vine leshys who study the physical and spiritual composition of their own bodies have discovered a

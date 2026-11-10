@@ -17,6 +17,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Evasion", "Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["trapfinding", "evasion", "trap-sense", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 If life is a game, the Sczarni play to win. When skill and luck aren't enough, cheating is often the

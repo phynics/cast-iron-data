@@ -18,6 +18,8 @@ page = "87"
 kind = "archetype"
 replaces = ["Track", "Stalker", "Swift tracker", "slayer's advance"]
 alters = ["Sneak attack"]
+replaces_features = ["track", "stalker", "swift-tracker", "slayer-s-advance"]
+alters_features = ["sneak-attack"]
 +++
 
 Woodland snipers are guardians of forest and grove, keeping vigil on their borders and hunting

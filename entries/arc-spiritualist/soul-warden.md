@@ -18,6 +18,8 @@ page = "20"
 kind = "archetype"
 replaces = ["Phantom", "etheric tether", "shared consciousness", "spiritual interference", "fused consciousness", "greater spiritual interference", "Bonded manifestation", "Bonded manifestation increases", "dual bond", "Empowered consciousness"]
 alters = ["Bonded senses", "phantom recall"]
+replaces_features = ["phantom", "etheric-tether", "shared-consciousness", "spiritual-interference", "fused-consciousness", "greater-spiritual-interference", "bonded-manifestation", "dual-bond", "empowered-consciousness"]
+alters_features = ["bonded-senses", "phantom-recall"]
 +++
 
 Normally, the bond a spiritualist shares with his phantom persists for the duration of the

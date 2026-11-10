@@ -14,6 +14,7 @@ page = "63"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Channel positive energy", "Aura of justice"]
+replaces_features = ["channel-positive-energy", "aura-of-justice"]
 +++
 
 While all paladins uphold the principals of law and good, sometimes these ideas must have a ruthless

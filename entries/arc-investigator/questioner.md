@@ -18,6 +18,8 @@ page = "26"
 kind = "archetype"
 replaces = ["Alchemy", "Poison lore"]
 alters = ["Inspiration", "Investigator talents"]
+replaces_features = ["alchemy", "poison-lore"]
+alters_features = ["inspiration"]
 +++
 
 Dabblers in arcane magic and masters of stealth and guile, questioners are investigators who often

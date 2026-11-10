@@ -18,6 +18,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Hunter's bond", "Evasion", "improved evasion"]
 alters = ["Wild empathy", "Favored terrain"]
+replaces_features = ["hunter-s-bond", "evasion", "improved-evasion"]
+alters_features = ["wild-empathy", "favored-terrain"]
 +++
 
 Planar scouts are rangers specializing in traversing the planes - and surviving their journeys.

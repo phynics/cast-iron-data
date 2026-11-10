@@ -18,6 +18,8 @@ page = "17"
 kind = "archetype"
 replaces = ["Shared consciousness", "Bonded manifestation", "Phantom recall", "Dual bond"]
 alters = ["Phantom", "Fused consciousness", "Empowered consciousness"]
+replaces_features = ["shared-consciousness", "bonded-manifestation", "phantom-recall", "dual-bond"]
+alters_features = ["phantom", "fused-consciousness", "empowered-consciousness"]
 +++
 
 Countless hero-gods have risen and fallen through Iblydos's long history, leaving behind mighty

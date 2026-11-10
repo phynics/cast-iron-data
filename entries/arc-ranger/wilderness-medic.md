@@ -18,6 +18,8 @@ page = "5"
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "evasion", "Improved evasion"]
 alters = ["Hunter's bond"]
+replaces_features = ["wild-empathy", "endurance", "evasion", "improved-evasion"]
+alters_features = ["hunter-s-bond"]
 +++
 
 Wilderness medics know a variety of ways they can supply and preserve a rebellion or similar

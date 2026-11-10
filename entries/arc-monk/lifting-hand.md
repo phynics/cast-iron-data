@@ -18,6 +18,7 @@ page = "23"
 kind = "archetype"
 replaces = ["Stunning fist", "Bonus feat gained at 10th level", "Abundant step"]
 alters = ["Bonus feats"]
+replaces_features = ["stunning-fist", "abundant-step"]
 +++
 
 Those studied in the art of grappling know that using their opponents' own weight and momentum to

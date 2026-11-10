@@ -17,6 +17,7 @@ page = "110"
 [fields]
 kind = "archetype"
 replaces = ["Dual bond", "Bonded manifestation"]
+replaces_features = ["dual-bond", "bonded-manifestation"]
 +++
 
 The haunted are a dangerous breed of spellcasters bound to temperamental and unpredictable phantoms

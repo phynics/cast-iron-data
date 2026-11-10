@@ -14,6 +14,7 @@ page = "35"
 kind = "class_option"
 group = "druid-domain"
 replaces = ["Venom immunity"]
+replaces_features = ["venom-immunity"]
 +++
 
 ## Serpent Domain

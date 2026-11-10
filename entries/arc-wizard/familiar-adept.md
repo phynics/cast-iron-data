@@ -18,6 +18,8 @@ page = "8"
 kind = "archetype"
 replaces = ["Scribe scroll, 5th- and 10th-level bonus feats"]
 alters = ["Arcane bond", "Spellbook"]
+replaces_features = ["scribe-scroll"]
+alters_features = ["arcane-bond"]
 +++
 
 Many wizards employ familiars to assist them, but only a few have unlocked the true power of their

@@ -18,6 +18,8 @@ page = "63"
 kind = "archetype"
 replaces = ["Detect evil", "Smite evil", "Divine bond"]
 alters = ["Holy champion"]
+replaces_features = ["detect-evil", "smite-evil", "divine-bond"]
+alters_features = ["holy-champion"]
 +++
 
 Not all paladins are knights in shining armor. Holy guns roam the world searching for evil. And

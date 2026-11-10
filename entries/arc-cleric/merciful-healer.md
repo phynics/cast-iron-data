@@ -17,6 +17,7 @@ page = "41"
 [fields]
 kind = "archetype"
 replaces = ["Channel energy"]
+replaces_features = ["channel-energy"]
 +++
 
 The merciful healer is a master of battlefield revivification, sustaining and restoring allies to

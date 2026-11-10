@@ -18,6 +18,7 @@ page = "82"
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "improved uncanny dodge", "Indomitable will"]
 alters = ["Bloodline feats"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge", "indomitable-will"]
 +++
 
 Blood conduits learn to channel their arcane might directly through their flesh, without the need

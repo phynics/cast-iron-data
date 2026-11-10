@@ -18,6 +18,7 @@ page = "30"
 kind = "archetype"
 replaces = ["Monster lore", "Track"]
 alters = ["Alignment requirements"]
+replaces_features = ["monster-lore", "track"]
 +++
 
 Servants of gods who hold oaths to be sacrosanct, oathkeepers formally oversee the creation of

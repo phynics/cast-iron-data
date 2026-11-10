@@ -18,6 +18,8 @@ page = "16"
 kind = "archetype"
 replaces = ["Shield ally", "greater shield ally", "Maker's call", "transposition"]
 alters = ["Eidolon"]
+replaces_features = ["shield-ally", "greater-shield-ally", "maker-s-call", "transposition"]
+alters_features = ["eidolon"]
 +++
 
 Many summoners beckon monsters from the Elemental Planes, but few are as specialized as storm

@@ -18,6 +18,8 @@ page = "28"
 kind = "archetype"
 replaces = ["Domain", "justice and destruction judgments", "Detect alignment"]
 alters = ["Judgment", "Bane"]
+replaces_features = ["domain", "detect-alignment"]
+alters_features = ["judgment", "bane"]
 +++
 
 Certain relentless inquisitors burn with special hatred for an enemy of specific convictions, and

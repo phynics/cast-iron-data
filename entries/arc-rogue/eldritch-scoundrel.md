@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Trap sense"]
 alters = ["Armor proficiencies", "Skills", "Sneak attack progression", "Rogue talent progression", "advanced talent", "Uncanny dodge", "improved uncanny dodge"]
+replaces_features = ["trap-sense"]
+alters_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Students of arcane magic, legerdemain, and stealth, eldritch scoundrels are a rare breed of

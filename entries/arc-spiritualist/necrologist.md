@@ -18,6 +18,8 @@ page = "69"
 kind = "archetype"
 replaces = ["Slam damage increase gained at 5th level", "Devotion", "Slam damage increase gained at 13th level", "Spiritual interference", "Greater spiritual interference"]
 alters = ["Alignment", "Bonded manifestation", "Shared consciousness", "Share spells"]
+replaces_features = ["spiritual-interference", "greater-spiritual-interference"]
+alters_features = ["bonded-manifestation", "shared-consciousness"]
 +++
 
 All spiritualists call upon residual phantoms that cling to the living world through force of will

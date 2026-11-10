@@ -18,6 +18,8 @@ page = "9"
 kind = "archetype"
 replaces = ["Stunning Fist", "Still mind", "Purity of body", "Diamond body"]
 alters = ["Flurry of blows"]
+replaces_features = ["stunning-fist", "still-mind", "purity-of-body", "diamond-body"]
+alters_features = ["flurry-of-blows"]
 +++
 
 Far strike monks are masters of thrown weapons, from [shuriken](ref/eq-weapon/shuriken) to

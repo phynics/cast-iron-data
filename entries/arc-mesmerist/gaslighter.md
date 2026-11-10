@@ -18,6 +18,8 @@ page = "60"
 kind = "archetype"
 replaces = ["Consummate liar", "Touch treatment (minor)", "Touch treatment (moderate)", "Touch treatment (greater)", "Touch treatment (break enchantment)"]
 alters = ["Painful stare"]
+replaces_features = ["consummate-liar"]
+alters_features = ["painful-stare"]
 +++
 
 A gaslighter takes joy in others' suffering, delighting in driving them to madness.

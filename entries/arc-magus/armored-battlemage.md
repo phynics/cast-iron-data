@@ -18,6 +18,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Spell combat", "Magus arcana gained at 3rd and 18th levels", "improved spell combat", "Greater spell combat"]
 alters = ["Medium armor", "Arcane pool", "Heavy armor"]
+replaces_features = ["spell-combat", "improved-spell-combat", "greater-spell-combat"]
+alters_features = ["medium-armor", "arcane-pool", "heavy-armor"]
 +++
 
 Though it hasn't been at war with its southern neighbor for centuries, Nex continues to train

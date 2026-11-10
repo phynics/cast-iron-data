@@ -17,6 +17,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
 +++
 
 Not all barbarians hunt forests, plains, and mountains. Some are raiding terrors on the sea and

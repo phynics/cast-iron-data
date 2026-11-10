@@ -17,6 +17,7 @@ page = "72"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 A driver makes her living driving vehicles in the service of those who can pay for her considerable

@@ -18,6 +18,8 @@ page = "100"
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "Venom immunity", "A thousand faces"]
 alters = ["Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "venom-immunity", "a-thousand-faces"]
+alters_features = ["wild-shape"]
 +++
 
 As more and more of the soft, easy lands become cultivated and civilized, many druids look for

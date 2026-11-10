@@ -18,6 +18,8 @@ page = "44"
 kind = "archetype"
 replaces = ["Tactician", "Mount", "Cavalier's charge", "Expert trainer", "banner", "Greater tactician", "Mighty charge", "greater banner", "Master tactician", "Supreme charge"]
 alters = ["Order"]
+replaces_features = ["tactician", "mount", "cavalier-s-charge", "expert-trainer", "banner", "greater-tactician", "mighty-charge", "greater-banner", "master-tactician", "supreme-charge"]
+alters_features = ["order"]
 +++
 
 Some knights serve nature itself and can be found protecting unspoiled natural places or serving fey

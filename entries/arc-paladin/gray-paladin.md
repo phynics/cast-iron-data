@@ -18,6 +18,8 @@ page = "69"
 kind = "archetype"
 replaces = ["Aura of good", "divine grace", "Code of conduct and associated abilities", "Divine health", "Channel positive energy", "Aura of justice"]
 alters = ["Alignment restrictions", "Smite evil", "aura of courage", "aura of resolve", "aura of righteousness", "Ex-paladin", "Smite evil"]
+replaces_features = ["aura-of-good", "divine-grace", "divine-health", "channel-positive-energy", "aura-of-justice"]
+alters_features = ["smite-evil", "aura-of-courage", "aura-of-resolve", "aura-of-righteousness", "smite-evil"]
 +++
 
 Gray paladins have discovered that in a world of intrigue, a strict code of honor hinders their

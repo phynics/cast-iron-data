@@ -21,6 +21,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Sacred weapon", "Sacred armor"]
 alters = ["Aspect of war"]
+replaces_features = ["weapon-and-armor-proficiencies", "sacred-weapon", "sacred-armor"]
+alters_features = ["aspect-of-war"]
 +++
 
 Among the [Red Mantis](ref/rule/aff-assassins) worshipers of Achaekek, some hold such strong faith

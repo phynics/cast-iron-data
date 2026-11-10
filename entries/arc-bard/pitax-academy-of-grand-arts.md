@@ -16,6 +16,7 @@ page = "40"
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance"]
+replaces_features = ["versatile-performance"]
 +++
 
 Bards who have successfully mastered the strict curriculum of Pitax's Academy of Grand Arts to

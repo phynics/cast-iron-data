@@ -18,6 +18,8 @@ page = "54"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Trapfinding", "trap sense", "Poison resistance", "poison immunity", "Poison lore", "Swift alchemy"]
 alters = ["Alchemy", "investigator talents", "Investigator talents", "Studied combat", "studied strike"]
+replaces_features = ["weapon-and-armor-proficiencies", "trapfinding", "trap-sense", "poison-resistance", "poison-lore", "swift-alchemy"]
+alters_features = ["alchemy", "studied-combat", "studied-strike"]
 +++
 
 Gravediggers pursue long buried mysteries, figuratively and literally digging up the truth and

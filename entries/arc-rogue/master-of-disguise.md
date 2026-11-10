@@ -17,6 +17,7 @@ page = "46"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "rogue talent gained at 2nd level", "Rogue talent gained at 10th level"]
+replaces_features = ["trapfinding"]
 +++
 
 A master of disguise feels no need to advertise her skills to build a reputation. Instead, she

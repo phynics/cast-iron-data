@@ -18,6 +18,8 @@ page = "7"
 kind = "archetype"
 replaces = ["Magic item skill", "Shift focus, 7th-level focus power", "Aura sight, 5th-level focus power"]
 alters = ["Implements", "implement mastery", "Magic circles"]
+replaces_features = ["magic-item-skill", "shift-focus", "aura-sight"]
+alters_features = ["implements", "implement-mastery", "magic-circles"]
 +++
 
 Tuning forks resonate with the music of the planes, guiding travelers between worlds. Planar

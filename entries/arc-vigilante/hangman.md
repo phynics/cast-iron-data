@@ -18,6 +18,8 @@ page = "70"
 kind = "archetype"
 replaces = ["2nd-level vigilante talent", "Unshakable", "4th-level vigilante talent", "Startling appearance", "Frightening appearance", "Stunning appearance"]
 alters = ["Weapon and armor proficiencies", "Vigilante specialization"]
+replaces_features = ["unshakable", "startling-appearance", "frightening-appearance", "stunning-appearance"]
+alters_features = ["weapon-and-armor-proficiencies", "vigilante-specialization"]
 +++
 
 Wherever the guilty walk free, the hangman brings judgment.

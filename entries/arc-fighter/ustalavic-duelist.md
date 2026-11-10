@@ -17,6 +17,7 @@ page = "47"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "The fighter's 1st-level bonus feat", "Weapon training 1", "Weapon training 2", "Weapon training 3", "Weapon training 4"]
+replaces_features = ["weapon-and-armor-proficiencies"]
 +++
 
 The University of Lepidstadt has developed a reputation for churning out fearsome duelists. At the

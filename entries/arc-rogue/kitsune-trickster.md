@@ -17,6 +17,7 @@ page = "192"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 The kitsune trickster combines her sharpened wit with minor arcane powers of charm and persuasion.

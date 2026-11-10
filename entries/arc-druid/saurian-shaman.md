@@ -18,6 +18,8 @@ page = "39"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 A shaman with this focus calls upon the primeval dinosaur, the archaic terror that lingers as a

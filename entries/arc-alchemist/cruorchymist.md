@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Brew Potion"]
+replaces_features = ["mutagen", "brew-potion"]
 +++
 
 Cruorchymists see their blood as just another tool for their experiments. They use this blood to

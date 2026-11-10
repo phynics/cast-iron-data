@@ -17,6 +17,7 @@ page = "14"
 [fields]
 kind = "archetype"
 replaces = ["Ki pool", "alters high jump", "Wholeness of body", "Abundant step", "Empty body", "Perfect self"]
+replaces_features = ["ki-pool", "wholeness-of-body", "abundant-step", "empty-body", "perfect-self"]
 +++
 
 Some vices prove too tempting even to those who have trained their minds and bodies against such

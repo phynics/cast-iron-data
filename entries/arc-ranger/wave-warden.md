@@ -17,6 +17,7 @@ page = "194"
 [fields]
 kind = "archetype"
 replaces = ["Track", "All combat style bonus feats", "Favored terrain", "Woodland stride", "Swift tracker"]
+replaces_features = ["track", "favored-terrain", "woodland-stride", "swift-tracker"]
 +++
 
 The wave warden patrols beneath the sea, preserving the safety and secrets of merfolk communities.

@@ -17,6 +17,7 @@ page = "125"
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "Camouflage", "Hide in plain sight"]
+replaces_features = ["hunter-s-bond", "camouflage", "hide-in-plain-sight"]
 +++
 
 Rangers of the plains use horses or other riding beasts to hunt their lands, forging a near-mystical

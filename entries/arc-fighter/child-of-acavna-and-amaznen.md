@@ -18,6 +18,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Bonus fighter combat feat gained at 1st level", "Bonus feat gained at 2nd level", "Weapon training", "bonus feats gained at 8th, 12th, 16th, and 20th level"]
 alters = ["Weapon and armor proficiency", "Skills", "Armor training"]
+replaces_features = ["weapon-training"]
+alters_features = ["armor-training"]
 +++
 
 The child of [Acavna](ref/faith/acavna) and [Amaznen](ref/faith/amaznen) has trained in the nearly

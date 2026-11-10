@@ -17,6 +17,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "4th, 8th, and 12th level rage powers"]
+replaces_features = ["fast-movement"]
 +++
 
 While some barbarians take on bestial aspects in their rages, the beastkin berserker descends so

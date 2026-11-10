@@ -17,6 +17,7 @@ page = "76"
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 1st level", "Still mind", "Slow fall", "High jump", "Wholeness of body", "Abundant step", "Diamond soul"]
+replaces_features = ["still-mind", "slow-fall", "high-jump", "wholeness-of-body", "abundant-step", "diamond-soul"]
 +++
 
 Some monks wander the world in humility to learn and to share wisdom and philosophy from their

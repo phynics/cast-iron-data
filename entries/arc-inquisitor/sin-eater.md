@@ -17,6 +17,7 @@ page = "46"
 [fields]
 kind = "archetype"
 replaces = ["Domain", "Teamwork feat gained at 6th level", "Exploit weakness"]
+replaces_features = ["domain", "exploit-weakness"]
 +++
 
 There is a sect of inquisitors in some religions that believes it is not enough to hunt the enemies

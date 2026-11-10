@@ -18,6 +18,8 @@ page = "10"
 kind = "archetype"
 replaces = ["Wild empathy", "Trackless step", "Venom immunity", "A thousand faces"]
 alters = ["Spontaneous casting", "Resist nature's lure"]
+replaces_features = ["wild-empathy", "trackless-step", "venom-immunity", "a-thousand-faces"]
+alters_features = ["spontaneous-casting", "resist-nature-s-lure"]
 +++
 
 Some druids specialize in protecting Golarion from the threat of First World inhabitants. They are

@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Inspire greatness", "Bardic knowledge", "well-versed", "Lore master"]
+replaces_features = ["bardic-knowledge", "well-versed", "lore-master"]
 +++
 
 ## Plant Speaker (Vine Leshy only)

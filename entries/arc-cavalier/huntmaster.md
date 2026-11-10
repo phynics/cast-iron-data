@@ -18,6 +18,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Banner", "Cavalier bonus feats", "Mighty charge", "Greater banner", "Supreme charge"]
 alters = ["Challenge", "Tactician", "greater tactician", "master tactician", "Expert trainer"]
+replaces_features = ["mount", "cavalier-s-charge", "banner", "mighty-charge", "greater-banner", "supreme-charge"]
+alters_features = ["challenge", "tactician", "greater-tactician", "master-tactician", "expert-trainer"]
 +++
 
 Huntmasters train the beasts favored by lordly castes into swift and deadly trackers.

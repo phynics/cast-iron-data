@@ -18,6 +18,8 @@ page = "205"
 kind = "archetype"
 replaces = ["Poison use", "Instant alchemy", "Swift poisoning"]
 alters = ["Swift alchemy"]
+replaces_features = ["poison-use", "instant-alchemy", "swift-poisoning"]
+alters_features = ["swift-alchemy"]
 +++
 
 Consumed with keeping hidden from the horrors below the surface, svirfneblin use their racial

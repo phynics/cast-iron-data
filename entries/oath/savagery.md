@@ -14,6 +14,7 @@ page = "61"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Divine grace", "Aura of justice"]
+replaces_features = ["divine-grace", "aura-of-justice"]
 +++
 
 Some paladins are champions of order, pledging to battle the hordes of goblinoids, orcs, hostile

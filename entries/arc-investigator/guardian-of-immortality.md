@@ -17,6 +17,7 @@ page = "41"
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "Poison resistance", "Investigator talent gained at 7th level", "Immunity to poison", "Investigator talent gained at 13th level"]
+replaces_features = ["poison-lore", "poison-resistance"]
 +++
 
 Guardians of immortality are Thuvian investigators charged with hunting down those who would attempt

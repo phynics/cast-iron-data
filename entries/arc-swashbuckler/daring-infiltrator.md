@@ -18,6 +18,8 @@ page = "124"
 kind = "archetype"
 replaces = ["Charmed life", "Swashbuckler initiative", "Menacing swordplay", "Bleeding wound"]
 alters = ["Bonus feats"]
+replaces_features = ["charmed-life"]
+alters_features = ["bonus-feats"]
 +++
 
 Not known for their flashy entrances or for standing out in a crowd, a daring infiltrator uses

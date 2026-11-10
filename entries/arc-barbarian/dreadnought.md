@@ -18,6 +18,8 @@ page = "47"
 kind = "archetype"
 replaces = ["Fast movement", "Indomitable will", "Tireless rage"]
 alters = ["Rage"]
+replaces_features = ["fast-movement", "indomitable-will", "tireless-rage"]
+alters_features = ["rage"]
 +++
 
 Unstoppable and fearless, the dreadnought turns the terror of her enemies into violent physical

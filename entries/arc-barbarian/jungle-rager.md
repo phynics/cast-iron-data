@@ -18,6 +18,8 @@ page = "39"
 kind = "archetype"
 replaces = ["Uncanny dodge", "Trap sense", "Improved uncanny dodge"]
 alters = ["Damage reduction"]
+replaces_features = ["uncanny-dodge", "trap-sense", "improved-uncanny-dodge"]
+alters_features = ["damage-reduction"]
 +++
 
 More "civilized" folk sometimes scoff at the people of the Mwangi Expanse, dismissing them as

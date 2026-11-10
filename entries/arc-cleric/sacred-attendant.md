@@ -18,6 +18,7 @@ page = "4"
 kind = "archetype"
 replaces = ["Proficiency with light and medium armor"]
 alters = ["Channel energy", "Domains"]
+alters_features = ["channel-energy", "domains"]
 +++
 
 Sacred attendants bring out the varied beauty in everyone they help, and they typically worship

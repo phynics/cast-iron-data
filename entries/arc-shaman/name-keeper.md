@@ -17,6 +17,7 @@ page = "145"
 [fields]
 kind = "archetype"
 replaces = ["Spirit animal", "Spirit magic spells gained from the shaman's spirit", "Wandering spirit", "Wandering hex"]
+replaces_features = ["spirit-animal", "wandering-spirit", "wandering-hex"]
 +++
 
 Pathfinders who perish in the pursuit of greater knowledge are commemorated on the Wall of Names, a

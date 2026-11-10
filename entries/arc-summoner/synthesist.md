@@ -17,6 +17,7 @@ page = "81"
 [fields]
 kind = "archetype"
 replaces = ["Eidolon", "bond senses", "life bond", "Life link", "Shield ally", "Maker's call", "transposition", "Greater shield ally", "Merge forms"]
+replaces_features = ["eidolon", "bond-senses", "life-bond", "life-link", "shield-ally", "maker-s-call", "transposition", "greater-shield-ally", "merge-forms"]
 +++
 
 Rather than summon an eidolon to serve by his side, the synthesist fuses his eidolon's essence to

@@ -18,6 +18,7 @@ page = "50"
 kind = "archetype"
 replaces = ["Basic hydrokinesis", "2nd and 6th level utility wild talents", "Defense wild talent from elemental defense"]
 alters = ["Expanded element", "Elemental focus", "Cold simple blast"]
+alters_features = ["expanded-element", "elemental-focus"]
 +++
 
 While all hydrokineticists have the ability to control water, aquakineticists' powers are tied to

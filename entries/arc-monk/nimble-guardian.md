@@ -17,6 +17,7 @@ page = "92"
 [fields]
 kind = "archetype"
 replaces = ["Evasion", "Still mind", "Purity of body", "Wholeness of body", "Improved evasion"]
+replaces_features = ["evasion", "still-mind", "purity-of-body", "wholeness-of-body", "improved-evasion"]
 +++
 
 Some catfolk monks dedicate their graceful prowess to the defense of others, especially those

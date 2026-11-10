@@ -17,6 +17,7 @@ page = "15"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 12th level"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Some combatants specialize in the study of certain weapons, but those without formal training often

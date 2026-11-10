@@ -17,6 +17,7 @@ page = "77"
 [fields]
 kind = "archetype"
 replaces = ["Trap sense", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["trap-sense", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Sly saboteurs are irregular soldiers who specialize in sabotage and surprise attacks. Though they

@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["The bonus feat a fighter gains at first level", "Bravery", "The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels", "Weapon training 1", "Weapon training 2", "Weapon training 3 and 4", "Weapon mastery"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["bravery", "weapon-mastery"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Kobolds know there's strength in numbers, and they rarely send fewer than two kobolds out on patrol.

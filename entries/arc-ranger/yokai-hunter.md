@@ -17,6 +17,7 @@ page = "23"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Woodland stride", "Camouflage"]
+replaces_features = ["favored-enemy", "woodland-stride", "camouflage"]
 +++
 
 Yokai hunters possess a supernatural tether to the spirit worlds that shroud mortal existence. They

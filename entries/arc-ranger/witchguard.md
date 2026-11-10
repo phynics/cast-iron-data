@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond", "Endurance", "Woodland stride"]
+replaces_features = ["hunter-s-bond", "endurance", "woodland-stride"]
 +++
 
 Witchguards are the sworn defenders of the White Witches of Irrisen. Although the White Witches are

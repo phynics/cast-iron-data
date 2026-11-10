@@ -18,6 +18,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Trapfinding", "Investigator talent gained at 5th level", "Investigator talent gained at 13th level"]
 alters = ["Poison resistance", "poison immunity"]
+replaces_features = ["trapfinding"]
+alters_features = ["poison-resistance"]
 +++
 
 Reckless epicureans are investigators who, for whatever reason, tend to test unknown concoctions on

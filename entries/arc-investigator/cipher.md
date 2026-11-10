@@ -18,6 +18,8 @@ page = "32"
 kind = "archetype"
 replaces = ["Trapfinding", "poison lore", "poison resistance", "poison immunity", "trap sense", "Swift alchemy", "investigator talent gained at 9th level", "Investigator talents gained at 3rd and 11th levels", "Investigator talent gained at 7th level"]
 alters = ["Class skills", "inspiration", "Studied strike", "the investigator talent gained at 5th level"]
+replaces_features = ["trapfinding", "poison-lore", "poison-resistance", "trap-sense", "swift-alchemy"]
+alters_features = ["inspiration", "studied-strike"]
 +++
 
 A cipher is a student of nonexistence. He trains himself to remain undetected and ignored in order

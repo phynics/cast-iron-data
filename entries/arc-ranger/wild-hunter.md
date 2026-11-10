@@ -17,6 +17,7 @@ page = "108"
 [fields]
 kind = "archetype"
 replaces = ["Favored enemy", "Woodland stride", "swift tracker"]
+replaces_features = ["favored-enemy", "woodland-stride", "swift-tracker"]
 +++
 
 A wild hunter seeks to emulate the animals around him to keep him safe while he tracks his prey.

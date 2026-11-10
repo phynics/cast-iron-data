@@ -17,6 +17,7 @@ page = "77"
 [fields]
 kind = "archetype"
 replaces = ["Arcanist exploits gained at 1st, 3rd, 9th, and 15th levels", "magical supremacy"]
+replaces_features = ["magical-supremacy"]
 +++
 
 Though most arcanists possess only a rudimentary innate arcane gift, the blood arcanist has the full

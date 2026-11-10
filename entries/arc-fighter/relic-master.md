@@ -17,6 +17,7 @@ page = "27"
 [fields]
 kind = "archetype"
 replaces = ["Armor training", "Weapon training", "Armor mastery"]
+replaces_features = ["armor-training", "weapon-training", "armor-mastery"]
 +++
 
 Commonly trained in the well-funded temples of Osirion or Qadira, the relic master is skilled in

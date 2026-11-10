@@ -17,6 +17,7 @@ page = "6"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge", "Indomitable will"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge", "indomitable-will"]
 +++
 
 The Kellid barbarians that roam Numeria's badlands have a healthy mistrust of technology and its

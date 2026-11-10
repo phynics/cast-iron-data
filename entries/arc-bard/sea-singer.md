@@ -17,6 +17,7 @@ page = "84"
 [fields]
 kind = "archetype"
 replaces = ["Countersong", "Inspire competence", "Suggestion", "Mass suggestion", "Bardic knowledge", "Versatile performance", "Well-versed"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "well-versed"]
 +++
 
 The sea singer calls the blue waters his home, and is much in demand among sea captains wishing good

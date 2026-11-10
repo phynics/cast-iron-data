@@ -18,6 +18,8 @@ page = "38"
 kind = "archetype"
 replaces = ["Quick clear deed", "Targeting deed", "Nimble"]
 alters = ["Gunsmith"]
+replaces_features = ["nimble"]
+alters_features = ["gunsmith"]
 +++
 
 Although Alkenstar is the center of firearm production and innovation in the Inner Sea, the crack of

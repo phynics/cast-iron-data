@@ -17,6 +17,7 @@ page = "39"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "Rogue talent gained at 4th level", "Rogue talent gained at 8th level", "Rogue talent gained at 12th level"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Galtan agitators fight mightily to cast down the enemies of their ideals within the shambles of the

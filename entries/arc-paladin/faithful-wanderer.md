@@ -18,6 +18,8 @@ page = "18"
 kind = "archetype"
 replaces = ["Detect evil", "Aura of good", "aura of justice", "Smite evil", "Holy champion"]
 alters = ["Skills per level", "Aura of courage", "aura of resolve", "aura of faith", "aura of righteousness", "Divine bond"]
+replaces_features = ["detect-evil", "aura-of-good", "aura-of-justice", "smite-evil", "holy-champion"]
+alters_features = ["aura-of-courage", "aura-of-resolve", "aura-of-faith", "aura-of-righteousness", "divine-bond"]
 +++
 
 While most paladins stride brazenly forth to battle evil in gleaming armor, faithful wanderers

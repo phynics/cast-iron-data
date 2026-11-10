@@ -17,6 +17,7 @@ page = "123"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["trapfinding", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 The escapologist excels at escaping any confinement, whether physical, magical, or mental. Few

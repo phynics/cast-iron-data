@@ -17,6 +17,7 @@ page = "92"
 [fields]
 kind = "archetype"
 replaces = ["Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Gifted with finesse and stealth, catfolk make excellent burglars. Cat burglars are masters of

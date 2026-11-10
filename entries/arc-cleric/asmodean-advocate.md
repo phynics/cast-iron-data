@@ -17,6 +17,7 @@ page = "16"
 [fields]
 kind = "archetype"
 alters = ["Domains"]
+alters_features = ["domains"]
 +++
 
 For the faithful of [Asmodeus](ref/faith/asmodeus), the words used in a negotiation or contract

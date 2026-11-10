@@ -18,6 +18,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Brawler's cunning", "AC bonus", "Knockout"]
 alters = ["The brawler's armor proficiencies", "Brawler's flurry"]
+replaces_features = ["brawler-s-cunning", "ac-bonus", "knockout"]
+alters_features = ["brawler-s-flurry"]
 +++
 
 Originating among the Mwangi tribes of Sargava, battle dancers practice a martial art that

@@ -18,6 +18,8 @@ page = "62"
 kind = "archetype"
 replaces = ["Aura sight", "Outside contact", "Magic circles", "binding circles", "fast circles"]
 alters = ["Implements"]
+replaces_features = ["aura-sight", "outside-contact", "magic-circles", "binding-circles", "fast-circles"]
+alters_features = ["implements"]
 +++
 
 Haunt collectors use items haunted by their former owners to create ghostly presences imbued with

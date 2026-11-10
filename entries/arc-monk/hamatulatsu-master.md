@@ -17,6 +17,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Purity of body"]
+replaces_features = ["purity-of-body"]
 +++
 
 Once part of the Sisterhood of Eiseth, the Sisterhood of the Golden Erinyes is an order of female

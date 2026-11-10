@@ -17,6 +17,7 @@ page = "6"
 [fields]
 kind = "archetype"
 replaces = ["Inspired rage", "Song of strength", "Well-versed"]
+replaces_features = ["inspired-rage", "song-of-strength", "well-versed"]
 +++
 
 Many courts are places of artistic refinement, attracting those performers who wish to revel in an

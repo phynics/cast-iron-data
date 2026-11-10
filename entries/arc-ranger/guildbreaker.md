@@ -18,6 +18,8 @@ page = "41"
 kind = "archetype"
 replaces = ["Wild empathy", "Hunter's bond", "Woodland stride"]
 alters = ["Favored enemy"]
+replaces_features = ["wild-empathy", "hunter-s-bond", "woodland-stride"]
+alters_features = ["favored-enemy"]
 +++
 
 Some rangers aren't the type to put their steel and sweat behind fighting particular kinds of

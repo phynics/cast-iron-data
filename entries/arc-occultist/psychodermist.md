@@ -18,6 +18,8 @@ page = "25"
 kind = "archetype"
 replaces = ["Magic item skill", "Object reading", "Aura sight", "Outside contact", "Binding circles", "fast circles"]
 alters = ["Implements"]
+replaces_features = ["magic-item-skill", "object-reading", "aura-sight", "outside-contact", "binding-circles", "fast-circles"]
+alters_features = ["implements"]
 +++
 
 Rather than tapping the psychic energy residing within esoteric items, psychodermists form

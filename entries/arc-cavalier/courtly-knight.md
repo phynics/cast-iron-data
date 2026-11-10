@@ -17,6 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "Greater tactician", "Master tactician"]
+replaces_features = ["tactician", "greater-tactician", "master-tactician"]
 +++
 
 Some cavaliers strive to be just as effective at the court of a local lord as on the field of

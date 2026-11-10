@@ -20,6 +20,7 @@ page = "10"
 [fields]
 kind = "archetype"
 replaces = ["Trackless step", "Daily use of wild shape gained at 6th level", "Venom immunity", "Daily use of wild shape gained at 10th level", "A thousand faces"]
+replaces_features = ["trackless-step", "venom-immunity", "a-thousand-faces"]
 +++
 
 Druids who are initiated into the magic of nature as strict students of the

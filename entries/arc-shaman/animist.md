@@ -17,6 +17,7 @@ page = "110"
 [fields]
 kind = "archetype"
 replaces = ["Spirit magic spells gained from the shaman's spirit", "2nd-level hex", "Hex gained at 8th level", "Hex gained at 10th level", "Hex gained at 12th level", "Hex gained at 18th level", "Manifestation"]
+replaces_features = ["manifestation"]
 +++
 
 Even among mystical practitioners, the animist has a strange perspective and even stranger magic.

@@ -17,6 +17,7 @@ page = "36"
 [fields]
 kind = "archetype"
 replaces = ["Tactician", "Banner", "Greater tactician", "Greater banner", "Supreme charge"]
+replaces_features = ["tactician", "banner", "greater-tactician", "greater-banner", "supreme-charge"]
 +++
 
 Cavaliers serve many roles on the battlefield, from bold leaders and shock troops to dashing knights

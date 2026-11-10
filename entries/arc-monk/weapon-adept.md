@@ -17,6 +17,7 @@ page = "114"
 [fields]
 kind = "archetype"
 replaces = ["Stunning Fist", "Evasion", "Improved evasion", "Timeless body", "Perfect self"]
+replaces_features = ["stunning-fist", "evasion", "improved-evasion", "timeless-body", "perfect-self"]
 +++
 
 While all monks train in both unarmed combat and with weapons, the weapon adept seeks to become one

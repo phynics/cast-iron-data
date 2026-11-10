@@ -17,6 +17,7 @@ page = "30"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Trap sense", "Improved uncanny dodge", "Indomitable will"]
+replaces_features = ["fast-movement", "uncanny-dodge", "trap-sense", "improved-uncanny-dodge", "indomitable-will"]
 +++
 
 In lands overrun by giants, dragons, and other hulking beasts, entire fellowships of barbarians hone

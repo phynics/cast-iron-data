@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "mutagen", "the discovery gained at 4th level"]
+replaces_features = ["brew-potion", "mutagen"]
 +++
 
 A construct rider creates arcane devices to emulate and surpass weak flesh.

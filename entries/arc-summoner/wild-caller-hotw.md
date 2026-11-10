@@ -18,6 +18,7 @@ page = "25"
 kind = "archetype"
 replaces = ["Aspect", "Greater aspect"]
 alters = ["Summon monster"]
+replaces_features = ["aspect", "greater-aspect"]
 +++
 
 A wild caller summons creatures from the First World and forges a bond with an eidolon with a plant

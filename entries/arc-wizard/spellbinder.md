@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond"]
+replaces_features = ["arcane-bond"]
 +++
 
 A spellbinder is an elven wizard who forges an arcane bond between himself and one or more wizard

@@ -18,6 +18,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Rogue talents gained at 2nd, 4th, and 6th level", "Trap sense"]
 alters = ["Sneak attack"]
+replaces_features = ["trap-sense"]
+alters_features = ["sneak-attack"]
 +++
 
 Carnivalists train their miniature minions to perform acts of larceny and often hide their true

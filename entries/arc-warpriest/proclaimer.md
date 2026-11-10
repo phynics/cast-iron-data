@@ -18,6 +18,8 @@ page = "19"
 kind = "archetype"
 replaces = ["Sacred armor", "Channel energy"]
 alters = ["Spellcasting", "Fervor"]
+replaces_features = ["sacred-armor", "channel-energy"]
+alters_features = ["fervor"]
 +++
 
 A proclaimer is the polar opposite of a

@@ -17,6 +17,7 @@ page = "32"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Well-versed", "Lore master", "Inspire competence", "Dirge of doom"]
+replaces_features = ["bardic-knowledge", "well-versed", "lore-master"]
 +++
 
 Cheliax is well known for its elaborate operas, and as with any kind of theater, there are

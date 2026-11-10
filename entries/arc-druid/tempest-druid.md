@@ -21,6 +21,8 @@ page = "41"
 kind = "archetype"
 replaces = ["Spontaneous casting", "Nature sense", "Trackless step", "Resist nature's lure", "Venom immunity"]
 alters = ["Armor and weapon proficiencies", "Nature bond"]
+replaces_features = ["spontaneous-casting", "nature-sense", "trackless-step", "resist-nature-s-lure", "venom-immunity"]
+alters_features = ["nature-bond"]
 +++
 
 Many of the druids who train under the aegis of the [Storm Kindlers](ref/rule/aff-storms) focus on

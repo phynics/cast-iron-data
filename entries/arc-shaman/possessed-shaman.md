@@ -17,6 +17,7 @@ page = "111"
 [fields]
 kind = "archetype"
 replaces = ["Spirit magic", "Hex gained at 2nd level", "Wandering hex gained at 6th level"]
+replaces_features = ["spirit-magic"]
 +++
 
 For a possessed shaman, merely communing with the spirit world is insufficient. Instead, she invites

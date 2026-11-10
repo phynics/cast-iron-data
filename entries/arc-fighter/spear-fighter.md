@@ -18,6 +18,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Bravery", "Armor training 1, 2, 3, and 4", "armor mastery"]
 alters = ["The fighter's armor proficiencies", "Weapon training", "Weapon mastery"]
+replaces_features = ["bravery", "armor-mastery"]
+alters_features = ["weapon-training", "weapon-mastery"]
 +++
 
 The spear is one of the oldest weapons known to most humanoid races, and no weapon has seen as much

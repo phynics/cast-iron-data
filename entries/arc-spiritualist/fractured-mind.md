@@ -18,6 +18,7 @@ page = "109"
 kind = "archetype"
 replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit"]
 alters = ["Spellcasting"]
+replaces_features = ["detect-undead", "calm-spirit", "see-invisibility", "call-spirit"]
 +++
 
 Most spiritualists harbor the spirits of the deceased in their psyches, but a small number of them -

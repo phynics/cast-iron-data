@@ -17,6 +17,7 @@ page = "16"
 [fields]
 kind = "archetype"
 alters = ["Eidolon", "Summon monster", "Spells known"]
+alters_features = ["eidolon"]
 +++
 
 A morphic savant is an agent of change who draws power from the Abyss, Elysium, or the Maelstrom to

@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Nature sense", "Spontaneous casting", "Resist nature's lure", "A thousand faces"]
+replaces_features = ["nature-sense", "spontaneous-casting", "resist-nature-s-lure", "a-thousand-faces"]
 +++
 
 Restorers carefully tend to the health of both the environment and creatures in it. Restorers in the

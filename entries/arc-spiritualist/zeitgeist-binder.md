@@ -18,6 +18,8 @@ page = "51"
 kind = "archetype"
 replaces = ["Detect undead", "calm spirit", "see invisibility", "call spirit", "Bonded senses", "fused consciousness"]
 alters = ["Phantom"]
+replaces_features = ["detect-undead", "calm-spirit", "see-invisibility", "call-spirit", "bonded-senses", "fused-consciousness"]
+alters_features = ["phantom"]
 +++
 
 Not all spiritualists deal in the souls of creatures that refuse to pass into death. Zeitgeist

@@ -18,6 +18,8 @@ page = "40"
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Well-versed"]
 alters = ["The bard's spells", "Lore master"]
+replaces_features = ["bardic-knowledge", "well-versed"]
+alters_features = ["lore-master"]
 +++
 
 Cultivators use music to promote plant growth and influence the behavior of plants both naturally

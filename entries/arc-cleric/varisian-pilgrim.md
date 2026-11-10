@@ -17,6 +17,7 @@ page = "42"
 [fields]
 kind = "archetype"
 replaces = ["Domains", "Proficiency with medium armor and shields - she retains proficiency with light armor only", "An 8th-level domain power of the Varisian pilgrim's choice"]
+replaces_features = ["domains"]
 +++
 
 While most clerics are associated with a particular temple, adventuring clerics spend much of their

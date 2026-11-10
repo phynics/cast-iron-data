@@ -18,6 +18,8 @@ page = "133"
 kind = "archetype"
 replaces = ["Spellbook", "Arcane school, 20th-level bonus feat"]
 alters = ["Arcane bond", "5th-, 10th-, and 15th-level bonus feats"]
+replaces_features = ["arcane-school"]
+alters_features = ["arcane-bond"]
 +++
 
 Spirit whisperers are a breed apart among wizards, and are often mistaken for witches. While spirit

@@ -18,6 +18,8 @@ page = "114"
 kind = "archetype"
 replaces = ["Well-versed", "Dirge of doom raging song", "Master skald"]
 alters = ["Spell kenning"]
+replaces_features = ["well-versed", "master-skald"]
+alters_features = ["spell-kenning"]
 +++
 
 Many cultures see fate as a limit that is both stifling and unwanted, regardless of the destiny that

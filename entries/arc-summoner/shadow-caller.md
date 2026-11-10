@@ -18,6 +18,7 @@ page = "110"
 kind = "archetype"
 replaces = ["Magical symbol that identifies the summoner and his eidolon"]
 alters = ["Eidolon"]
+alters_features = ["eidolon"]
 +++
 
 While most summoners can call any manner of creature from across the planes to serve them in combat,

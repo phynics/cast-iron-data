@@ -18,6 +18,8 @@ page = "41"
 kind = "archetype"
 replaces = ["Detect alignment"]
 alters = ["Purity and Smiting judgments", "Bane"]
+replaces_features = ["detect-alignment"]
+alters_features = ["bane"]
 +++
 
 Undead are a scourge upon the living. The vampire hunter believes that the worst of the undead are

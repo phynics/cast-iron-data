@@ -17,6 +17,7 @@ page = "46"
 [fields]
 kind = "archetype"
 replaces = ["Distraction", "Suggestion", "jack-of-all-trades", "Dirge of doom", "Mass suggestion", "Deadly performance"]
+replaces_features = ["jack-of-all-trades"]
 +++
 
 Studious librarians are bards that have studied long in great libraries of the Inner Sea region,

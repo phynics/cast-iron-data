@@ -18,6 +18,8 @@ page = "88"
 kind = "archetype"
 replaces = ["Brawler's strike"]
 alters = ["Maneuver training"]
+replaces_features = ["brawler-s-strike"]
+alters_features = ["maneuver-training"]
 +++
 
 The steel-breaker studies destruction and practices it as an art form. She knows every defense has a

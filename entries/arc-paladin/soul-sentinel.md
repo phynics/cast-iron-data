@@ -17,6 +17,7 @@ page = "65"
 [fields]
 kind = "archetype"
 replaces = ["6th-level mercy", "Aura of justice", "12th-level mercy"]
+replaces_features = ["aura-of-justice"]
 +++
 
 In a world of horrors, some holy warriors fight to safeguard the minds and spirits of those exposed

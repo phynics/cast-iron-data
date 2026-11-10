@@ -17,6 +17,7 @@ page = "83"
 [fields]
 kind = "archetype"
 replaces = ["Improved uncanny dodge"]
+replaces_features = ["improved-uncanny-dodge"]
 +++
 
 While metamagic is difficult for many bloodragers to utilize, a talented few are able to channel

@@ -18,6 +18,7 @@ page = "132"
 kind = "archetype"
 replaces = ["2nd-level hex"]
 alters = ["Hex"]
+alters_features = ["hex"]
 +++
 
 Mountains can be sanctuaries for witches hunted by society. Here they form bonds with the spirits of

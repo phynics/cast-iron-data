@@ -17,6 +17,7 @@ page = "73"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "2nd-level rogue talent", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 A pirate breaks from the confines of country and king to commit her crimes upon the high seas. She

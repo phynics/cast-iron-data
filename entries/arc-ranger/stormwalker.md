@@ -18,6 +18,7 @@ page = "72"
 kind = "archetype"
 replaces = ["Hunter's bond", "Swift tracker", "Quarry", "Improved evasion", "Improved quarry"]
 alters = ["Combat style"]
+replaces_features = ["hunter-s-bond", "swift-tracker", "quarry", "improved-evasion", "improved-quarry"]
 +++
 
 Rangers who walk in the tempest unafraid draw the power of the storm into themselves and become

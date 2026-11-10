@@ -17,6 +17,7 @@ page = "66"
 [fields]
 kind = "archetype"
 replaces = ["Favored terrain", "Woodland stride", "Camouflage", "Hide in plain sight"]
+replaces_features = ["favored-terrain", "woodland-stride", "camouflage", "hide-in-plain-sight"]
 +++
 
 Some rangers devote their lives to the woods, becoming hunters, protectors, and wilderness guides

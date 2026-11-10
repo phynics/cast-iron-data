@@ -17,6 +17,7 @@ page = "10"
 [fields]
 kind = "archetype"
 replaces = ["Poison resistance +2", "Swift poisoning", "Poison resistance +6", "the discovery gained at 8th level"]
+replaces_features = ["swift-poisoning"]
 +++
 
 The deleterious effects of the weird hazards of the Mana Wastes require special skill to remedy.

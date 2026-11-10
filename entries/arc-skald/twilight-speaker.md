@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspired rage", "song of strength", "dirge of doom", "Versatile performance", "well-versed", "Lore master", "Master skald"]
+replaces_features = ["bardic-knowledge", "inspired-rage", "song-of-strength", "dirge-of-doom", "versatile-performance", "well-versed", "lore-master", "master-skald"]
 +++
 
 From the extraordinarily reclusive Snowcaster elves come the twilight speakers, who consider it a

@@ -18,6 +18,8 @@ page = "73"
 kind = "archetype"
 replaces = ["Quick clear deed", "Pistol whip deed", "Dead shot deed", "Lightning reload deed", "Nimble", "Gun training 1", "Gun training 2", "Gun training 3", "Gun training 4"]
 alters = ["Grit"]
+replaces_features = ["nimble"]
+alters_features = ["grit"]
 +++
 
 Freebooters who cling to the convoluted codes that rule independent ships, the buccaneer is a

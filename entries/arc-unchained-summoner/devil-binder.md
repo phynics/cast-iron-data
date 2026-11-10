@@ -18,6 +18,8 @@ page = "94"
 kind = "archetype"
 replaces = ["Summon monster I", "Bond senses", "shield ally", "transposition", "greater shield ally", "merge forms", "twin eidolon", "Maker's call", "eidolon's devotion ability"]
 alters = ["Eidolon"]
+replaces_features = ["summon-monster-i", "bond-senses", "shield-ally", "transposition", "greater-shield-ally", "merge-forms", "twin-eidolon", "maker-s-call"]
+alters_features = ["eidolon"]
 +++
 
 While many assume [Hellknights](ref/rule/aff-lawknights) are worshipers or agents of devilkind - or,

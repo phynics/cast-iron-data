@@ -17,6 +17,7 @@ page = "17"
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "poison immunity", "Keen recollection", "trap sense"]
+replaces_features = ["poison-lore", "poison-resistance", "keen-recollection", "trap-sense"]
 +++
 
 Lamplighters are investigators tasked with keeping the night streets safe and lit, and securing

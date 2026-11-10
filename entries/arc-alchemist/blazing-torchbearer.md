@@ -17,6 +17,7 @@ page = "21"
 [fields]
 kind = "archetype"
 replaces = ["Brew Potion", "Poison use", "The alchemist's 4th-level discovery"]
+replaces_features = ["brew-potion", "poison-use"]
 +++
 
 The blazing torchbearer is especially adept at manipulating flames of all kinds.

@@ -18,6 +18,8 @@ page = "96"
 kind = "archetype"
 replaces = ["Animal companion", "Animal focus", "Second animal focus", "Master hunter"]
 alters = ["Precise companion", "woodland stride", "teamwork feats", "Teamwork feats"]
+replaces_features = ["animal-companion", "animal-focus", "second-animal-focus", "master-hunter"]
+alters_features = ["precise-companion", "woodland-stride"]
 +++
 
 Some hunters form bonds with packs of well-trained creatures. Whether such a hunter is a northern

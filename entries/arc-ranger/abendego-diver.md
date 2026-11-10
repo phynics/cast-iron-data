@@ -18,6 +18,8 @@ page = "12"
 kind = "archetype"
 replaces = ["Track", "Wild empathy", "Favored terrain", "Woodland stride", "Swift tracker", "Master hunter"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["track", "wild-empathy", "favored-terrain", "woodland-stride", "swift-tracker", "master-hunter"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Named for the vicious and unending storm in the southern Arcadian Ocean, Abendego divers have pushed

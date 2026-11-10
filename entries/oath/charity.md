@@ -14,6 +14,7 @@ page = "62"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Divine bond"]
+replaces_features = ["divine-bond"]
 +++
 
 Charity is more than just giving money to a temple or a cause - it is about the necessity of

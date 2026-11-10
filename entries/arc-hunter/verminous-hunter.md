@@ -18,6 +18,8 @@ page = "98"
 kind = "archetype"
 replaces = ["Animal focus", "Woodland stride"]
 alters = ["Animal companion", "hunter tactics", "Wild empathy"]
+replaces_features = ["animal-focus", "woodland-stride"]
+alters_features = ["animal-companion", "hunter-tactics", "wild-empathy"]
 +++
 
 A verminous hunter calls on the ceaseless, single-minded dedication of vermin to hunt and overwhelm

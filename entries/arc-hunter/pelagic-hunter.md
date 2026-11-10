@@ -18,6 +18,8 @@ page = "54"
 kind = "archetype"
 replaces = ["Woodland stride"]
 alters = ["Animal companion", "Animal focus"]
+replaces_features = ["woodland-stride"]
+alters_features = ["animal-companion", "animal-focus"]
 +++
 
 Pelagic hunters form strong bonds that extend deep beneath the sea, reaching out to whatever heeds

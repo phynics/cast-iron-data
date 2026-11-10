@@ -18,6 +18,8 @@ page = "43"
 kind = "archetype"
 replaces = ["Wild empathy", "Favored terrain", "Woodland stride"]
 alters = ["Hunter's bond"]
+replaces_features = ["wild-empathy", "favored-terrain", "woodland-stride"]
+alters_features = ["hunter-s-bond"]
 +++
 
 Transporters specialize in smuggling people as efficiently as possible through harsh and difficult

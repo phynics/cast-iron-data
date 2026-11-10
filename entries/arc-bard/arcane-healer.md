@@ -17,6 +17,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Versatile performance", "Loremaster"]
+replaces_features = ["versatile-performance"]
 +++
 
 Though bards may have different reasons for wanting to heal the sick and injured, both out of pure

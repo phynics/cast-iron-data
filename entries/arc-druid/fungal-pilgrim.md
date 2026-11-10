@@ -18,6 +18,8 @@ page = "16"
 kind = "archetype"
 replaces = ["Wild shape", "Wild shape", "Timeless body"]
 alters = ["Nature bond"]
+replaces_features = ["wild-shape", "wild-shape", "timeless-body"]
+alters_features = ["nature-bond"]
 +++
 
 Druids often work to preserve the natural world, but some seek to further emulate it. Fungal

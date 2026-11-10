@@ -18,6 +18,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Alignment requirement", "All bonus feats", "stunning fist", "Evasion", "purity of body", "diamond body"]
 alters = ["Ki pool"]
+replaces_features = ["stunning-fist", "evasion", "purity-of-body", "diamond-body"]
+alters_features = ["ki-pool"]
 +++
 
 Elemental monks draw inspiration from genies to create their fighting style. Their adaptability and

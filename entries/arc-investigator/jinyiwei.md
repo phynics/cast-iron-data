@@ -18,6 +18,8 @@ page = "21"
 kind = "archetype"
 replaces = ["Alchemy", "Trapfinding", "Trap sense", "Swift alchemy"]
 alters = ["Inspiration"]
+replaces_features = ["alchemy", "trapfinding", "trap-sense", "swift-alchemy"]
+alters_features = ["inspiration"]
 +++
 
 Lung Wa's corruption and political decay led to its eventual collapse, but the empire did not spend

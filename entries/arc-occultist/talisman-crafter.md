@@ -18,6 +18,8 @@ page = "63"
 kind = "archetype"
 replaces = ["Magic item skill", "object reading", "Shift focus", "Aura sight, 5th- and 17th-level focus powers"]
 alters = ["Implements"]
+replaces_features = ["magic-item-skill", "object-reading", "shift-focus", "aura-sight"]
+alters_features = ["implements"]
 +++
 
 Talisman crafters specialize in the creation of seals, constructing master talismans to use as

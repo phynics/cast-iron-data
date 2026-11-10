@@ -18,6 +18,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Phantom", "See invisibility", "Dual bond"]
 alters = ["Shared consciousness"]
+replaces_features = ["phantom", "see-invisibility", "dual-bond"]
+alters_features = ["shared-consciousness"]
 +++
 
 The god callers of Sarkoris had numerous traditions mixing naturalism with the arcane and occult

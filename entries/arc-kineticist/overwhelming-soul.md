@@ -18,6 +18,8 @@ page = "91"
 kind = "archetype"
 replaces = ["Internal buffer", "Elemental overflow"]
 alters = ["Key ability score of wild talents", "Burn"]
+replaces_features = ["internal-buffer", "elemental-overflow"]
+alters_features = ["burn"]
 +++
 
 Some kineticists have such a powerful personality that they can seize control of their element with

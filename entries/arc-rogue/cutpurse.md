@@ -17,6 +17,7 @@ page = "132"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Everyone who lives in the city understands that a wealthy man stays wealthy by guarding his purse

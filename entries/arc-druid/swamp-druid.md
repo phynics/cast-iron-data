@@ -18,6 +18,8 @@ page = "100"
 kind = "archetype"
 replaces = ["Woodland stride", "Trackless step", "Resist nature's lure", "A thousand faces"]
 alters = ["Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure", "a-thousand-faces"]
+alters_features = ["wild-shape"]
 +++
 
 Some druids eschew pleasant glades and groves and instead seek out dank marshes, misty bogs and

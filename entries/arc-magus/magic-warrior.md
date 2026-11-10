@@ -21,6 +21,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Magus arcana gained at 3rd level", "Greater spell combat", "Greater spell access"]
 alters = ["Improved spell combat"]
+replaces_features = ["greater-spell-combat", "greater-spell-access"]
+alters_features = ["improved-spell-combat"]
 +++
 
 Trained in a tradition stretching back to Old-Mage Jatembe's Ten Magic Warriors, Magic Warriors

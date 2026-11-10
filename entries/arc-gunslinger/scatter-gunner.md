@@ -18,6 +18,7 @@ page = "12"
 kind = "archetype"
 replaces = ["Deadeye deed", "Utility shot deed", "Dead shot deed", "Targeting deed"]
 alters = ["Gunsmith"]
+alters_features = ["gunsmith"]
 +++
 
 Punishing firearms such as the blunderbuss and dragon pistol can lay waste to invaders in tight

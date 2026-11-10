@@ -18,6 +18,7 @@ page = "47"
 kind = "archetype"
 replaces = ["The bonus fighter combat feat gained at 1st level", "Bravery", "Weapon training 1", "Armor training 3", "Armor training 4"]
 alters = ["Armor proficiencies"]
+replaces_features = ["bravery"]
 +++
 
 While many fighters focus on the fundamentals of melee and ranged combat, there are those who are

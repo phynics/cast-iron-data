@@ -18,6 +18,8 @@ page = "83"
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "supreme charge"]
 alters = ["Challenge", "Order"]
+replaces_features = ["mount", "cavalier-s-charge", "expert-trainer", "mighty-charge", "supreme-charge"]
+alters_features = ["challenge", "order"]
 +++
 
 Some of the most charismatic [Gray Maidens](ref/rule/aff-scarred-ladies) combine their devotion to

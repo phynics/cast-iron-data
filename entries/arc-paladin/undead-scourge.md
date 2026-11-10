@@ -17,6 +17,7 @@ page = "117"
 [fields]
 kind = "archetype"
 replaces = ["Aura of resolve", "Aura of justice"]
+replaces_features = ["aura-of-resolve", "aura-of-justice"]
 +++
 
 Undead are an abomination in the eyes of the just and righteous. It is no surprise then that there

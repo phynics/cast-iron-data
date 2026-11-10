@@ -18,6 +18,8 @@ page = "63"
 kind = "archetype"
 replaces = ["Expanded element", "Omnikinesis"]
 alters = ["Elemental focus", "kinetic blast", "Elemental defense"]
+replaces_features = ["expanded-element", "omnikinesis"]
+alters_features = ["elemental-focus", "kinetic-blast", "elemental-defense"]
 +++
 
 Terrakineticists have a stunted ability that allows them to access the Elemental Planes, but they've

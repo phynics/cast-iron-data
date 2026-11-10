@@ -18,6 +18,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Uncanny Dodge", "Improved Uncanny Dodge"]
 alters = ["Rage"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
+alters_features = ["rage"]
 +++
 
 Savage technologists exhort Kellids to rise up against the depredations of the Technic League. But

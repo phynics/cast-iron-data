@@ -18,6 +18,8 @@ page = "107"
 kind = "archetype"
 replaces = ["4th-level discipline spell", "7th-level phrenic amplification", "Telepathic bond", "Telepathy"]
 alters = ["Phrenic amplifications"]
+replaces_features = ["telepathic-bond", "telepathy"]
+alters_features = ["phrenic-amplifications"]
 +++
 
 Psychic duelists hone their mental powers for combat, much as warriors do with their blades. They

@@ -18,6 +18,7 @@ page = "14"
 kind = "archetype"
 replaces = ["Still mind", "Maneuver training", "Quivering palm"]
 alters = ["Bonus feats"]
+replaces_features = ["still-mind", "maneuver-training", "quivering-palm"]
 +++
 
 Steeped in traditions that trace their origins to the warrior-monks who trained under the tutelage

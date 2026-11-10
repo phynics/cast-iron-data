@@ -18,6 +18,8 @@ page = "27"
 kind = "archetype"
 replaces = ["Track", "Slayer talent gained at 2nd level", "Slayer talent gained at 4th level", "Slayer talents gained at 6th, 8th, 12th, 14th, 16th, 18th, and 20th levels", "Slayer talent gained at 10th level"]
 alters = ["Weapon and armor proficiency", "Studied target"]
+replaces_features = ["track"]
+alters_features = ["studied-target"]
 +++
 
 Followers of the daemonic harbinger [Cixyron](ref/faith/cixyron) hide throughout the Mana Wastes,

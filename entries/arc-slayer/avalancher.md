@@ -17,6 +17,7 @@ page = "86"
 [fields]
 kind = "archetype"
 replaces = ["Studied target", "Track", "swift tracker", "Stalker", "Quarry", "improved quarry", "Master slayer"]
+replaces_features = ["studied-target", "track", "swift-tracker", "stalker", "quarry", "improved-quarry", "master-slayer"]
 +++
 
 Avalanchers attack from overhead cliffs and mesas like a landslide of arrows and blades.

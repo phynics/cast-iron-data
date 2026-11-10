@@ -18,6 +18,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Detect evil", "Aura of faith", "Holy champion"]
 alters = ["Smite evil", "Aura of justice"]
+replaces_features = ["detect-evil", "aura-of-faith", "holy-champion"]
+alters_features = ["smite-evil", "aura-of-justice"]
 +++
 
 Torag constantly seeks those who would use the power of creation to threaten or harm others. To this

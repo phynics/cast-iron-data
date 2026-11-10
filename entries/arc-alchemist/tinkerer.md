@@ -17,6 +17,7 @@ page = "46"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Poison resistance +2", "poison use", "poison resistance +4", "Swift poisoning", "Poison resistance +6", "Poison immunity", "Persistent mutagen"]
+replaces_features = ["mutagen", "poison-use", "swift-poisoning", "persistent-mutagen"]
 +++
 
 Tinkerers constantly dabble in clockworking, creating special familiars that they regularly upgrade

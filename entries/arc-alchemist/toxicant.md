@@ -17,6 +17,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen", "Persistent mutagen"]
+replaces_features = ["mutagen", "persistent-mutagen"]
 +++
 
 In lands such as Daggermark and Katapesh where poisons are legal and may be openly studied and sold,

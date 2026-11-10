@@ -17,6 +17,7 @@ page = "191"
 [fields]
 kind = "archetype"
 replaces = ["Throw anything"]
+replaces_features = ["throw-anything"]
 +++
 
 Some grippli alchemists are particularly attuned to the swamps and the dangerous creatures that

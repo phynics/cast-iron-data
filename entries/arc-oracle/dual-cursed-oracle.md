@@ -18,6 +18,7 @@ page = "58"
 kind = "archetype"
 replaces = ["The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery"]
 alters = ["Oracle's curse"]
+alters_features = ["oracle-s-curse"]
 +++
 
 All oracles are cursed to some degree, but some oracles bear an even heavier burden. Though doubly

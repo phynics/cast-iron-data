@@ -18,6 +18,8 @@ page = "6"
 kind = "archetype"
 replaces = ["Sacred armor", "Channel energy"]
 alters = ["Blessing", "Sacred weapon"]
+replaces_features = ["sacred-armor", "channel-energy"]
+alters_features = ["sacred-weapon"]
 +++
 
 Molthuni arsenal chaplains are warpriests trained in the Arsenal District in Korholm. They bolster

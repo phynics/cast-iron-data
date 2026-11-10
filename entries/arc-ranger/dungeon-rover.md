@@ -18,6 +18,8 @@ page = "22"
 kind = "archetype"
 replaces = ["Track", "Wild empathy", "Woodland stride", "Swift tracker"]
 alters = ["Hunter's bond"]
+replaces_features = ["track", "wild-empathy", "woodland-stride", "swift-tracker"]
+alters_features = ["hunter-s-bond"]
 +++
 
 These rangers specialize in surviving hostile subterranean environs. They are well equipped to avoid

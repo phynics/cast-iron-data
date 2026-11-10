@@ -18,6 +18,8 @@ page = "128"
 kind = "archetype"
 replaces = ["Smiting judgment", "Bane", "greater bane"]
 alters = ["True judgment"]
+replaces_features = ["bane", "greater-bane"]
+alters_features = ["true-judgment"]
 +++
 
 The immolator puts her pyromaniacal urges to work in the service of a deity. She brings burning

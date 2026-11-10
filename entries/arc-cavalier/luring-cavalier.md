@@ -17,6 +17,7 @@ page = "38"
 [fields]
 kind = "archetype"
 replaces = ["Challenge", "Cavalier's charge", "Mighty charge", "Demanding challenge", "Supreme charge"]
+replaces_features = ["challenge", "cavalier-s-charge", "mighty-charge", "demanding-challenge", "supreme-charge"]
 +++
 
 Those who study the perfection of strategy and tactics know that picking the battlefield can grant

@@ -17,6 +17,7 @@ page = "5"
 [fields]
 kind = "archetype"
 replaces = ["2nd-level rogue talent", "Uncanny dodge", "Improved uncanny dodge"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Aquatic elven adventurers descending into the ruins of sunken Azlant developed techniques to ease

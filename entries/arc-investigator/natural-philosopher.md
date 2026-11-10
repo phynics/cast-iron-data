@@ -18,6 +18,8 @@ page = "56"
 kind = "archetype"
 replaces = ["Weapon and armor proficiency", "Trapfinding", "Trap sense", "investigator talent gained at 3rd level"]
 alters = ["Inspiration", "Alchemy"]
+replaces_features = ["trapfinding", "trap-sense"]
+alters_features = ["inspiration", "alchemy"]
 +++
 
 Natural philosophers are scholars, explorers, and survivalists who feel at home in nature, seldom

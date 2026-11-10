@@ -17,6 +17,7 @@ page = "201"
 [fields]
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 1", "Weapon training 2", "Weapon training 3 and 4"]
+replaces_features = ["bravery"]
 +++
 
 Driven by suspicion and hatred, [strix](ref/race/strix) doggedly guard their territories, making

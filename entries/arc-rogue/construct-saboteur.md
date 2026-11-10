@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 The construct saboteur harnesses arcane energy to combat the golems and eldritch guardians that

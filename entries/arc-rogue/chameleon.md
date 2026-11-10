@@ -17,6 +17,7 @@ page = "71"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 An absolute master of disguise, a chameleon effortlessly blends into any environment. Whether

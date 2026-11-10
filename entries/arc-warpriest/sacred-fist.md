@@ -17,6 +17,7 @@ page = "130"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiency", "Sacred weapon", "Focus weapon", "Bonus feat gained at 3rd level", "Bonus feats gained at 6th, 12th, and 18th levels", "Sacred armor", "Bonus feat gained at 9th level"]
+replaces_features = ["sacred-weapon", "focus-weapon", "sacred-armor"]
 +++
 
 Unlike many warpriests, sacred fists leave behind armor and shield and instead rely on their fists

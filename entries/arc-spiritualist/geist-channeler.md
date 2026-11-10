@@ -18,6 +18,7 @@ page = "109"
 kind = "archetype"
 replaces = ["The phantom's emotional focus"]
 alters = ["Phantom", "Bonded manifestation", "Phantom"]
+alters_features = ["phantom", "bonded-manifestation", "phantom"]
 +++
 
 Some phantoms retain less of their personalities and memories than others. Though most phantoms

@@ -18,6 +18,7 @@ page = "11"
 kind = "archetype"
 replaces = ["Bravery", "Weapon training 2", "Weapon training 3", "Weapon training 4"]
 alters = ["Weapon training 1"]
+replaces_features = ["bravery"]
 +++
 
 Drill sergeants excel at training other combatants in fighting techniques.

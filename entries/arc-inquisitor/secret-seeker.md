@@ -17,6 +17,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Bane", "greater bane", "Exploit weakness"]
+replaces_features = ["monster-lore", "bane", "greater-bane", "exploit-weakness"]
 +++
 
 Secret seekers are trained in the art of extracting answers from intransigent foes. Recognizing that

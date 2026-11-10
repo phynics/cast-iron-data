@@ -17,6 +17,7 @@ page = "48"
 [fields]
 kind = "archetype"
 replaces = ["Spell recall"]
+replaces_features = ["spell-recall"]
 +++
 
 A hexcrafter magus has uncovered the secret of using his _arcane pool_ to recreate

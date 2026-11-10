@@ -17,6 +17,7 @@ page = "13"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Uncanny dodge", "Improved uncanny dodge", "Rogue talent gained at 12th level", "Rogue talent gained at 20th level"]
+replaces_features = ["trapfinding", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 A clever rogue knows the easiest battle to win is the one that's over before your foe knows it has

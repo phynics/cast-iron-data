@@ -18,6 +18,8 @@ page = "33"
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "investigator talent gained at 3rd level", "Investigator talent gained at 5th level"]
 alters = ["Inspiration"]
+replaces_features = ["trapfinding", "trap-sense"]
+alters_features = ["inspiration"]
 +++
 
 A forensic physician specializes in analyzing medical details in order to solve crimes and uncover

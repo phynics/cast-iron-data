@@ -18,6 +18,8 @@ page = "45"
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Tactician", "Cavalier's charge", "The cavalier's normal bonus feats", "Greater tactician", "Mighty charge", "Demanding challenge", "Master tactician", "Supreme charge"]
 alters = ["Banner"]
+replaces_features = ["weapon-and-armor-proficiencies", "tactician", "cavalier-s-charge", "greater-tactician", "mighty-charge", "demanding-challenge", "master-tactician", "supreme-charge"]
+alters_features = ["banner"]
 +++
 
 The Spellscar Desert is a dangerous wasteland into which few venture without a guide. Spellscar

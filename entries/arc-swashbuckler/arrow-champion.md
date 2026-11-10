@@ -18,6 +18,8 @@ page = "95"
 kind = "archetype"
 replaces = ["Opportune parry and riposte", "Swashbuckler initiative", "Superior feint", "Swashbuckler weapon training"]
 alters = ["Panache", "Precise strike", "Swashbuckler weapon mastery"]
+replaces_features = ["swashbuckler-weapon-training"]
+alters_features = ["panache", "swashbuckler-weapon-mastery"]
 +++
 
 While the swashbuckler's agile style of combat is equally suited to urban settings and wilderness,

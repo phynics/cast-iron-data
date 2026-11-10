@@ -17,6 +17,7 @@ page = "76"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Rogue talent gained at 2nd level", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Desert raiders constantly threaten caravans that cross vast, desolate expanses. Some desert raiders

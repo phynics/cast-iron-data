@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Channel energy"]
 alters = ["Bonus languages", "Spontaneous casting"]
+replaces_features = ["channel-energy"]
+alters_features = ["bonus-languages", "spontaneous-casting"]
 +++
 
 Clerics of Gozreh revere their deity as the embodiment of nature and the incarnation of wind and

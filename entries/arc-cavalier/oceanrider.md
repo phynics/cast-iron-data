@@ -18,6 +18,8 @@ page = "53"
 kind = "archetype"
 replaces = ["Expert trainer"]
 alters = ["Armor proficiency", "Mount"]
+replaces_features = ["expert-trainer"]
+alters_features = ["mount"]
 +++
 
 Oceanriders are underwater cavaliers who ride dolphins, orcas, or seahorses.

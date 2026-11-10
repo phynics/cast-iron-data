@@ -18,6 +18,8 @@ page = "40"
 kind = "archetype"
 replaces = ["Woodland stride", "Wild shape", "Venom immunity"]
 alters = ["Nature bond", "Wild empathy"]
+replaces_features = ["woodland-stride", "wild-shape", "venom-immunity"]
+alters_features = ["nature-bond", "wild-empathy"]
 +++
 
 Some druids emulate the deadly shark, a remorseless hunter that marine dwellers dread. Like a true

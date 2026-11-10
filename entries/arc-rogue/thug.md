@@ -17,6 +17,7 @@ page = "135"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense"]
+replaces_features = ["trapfinding", "trap-sense"]
 +++
 
 Some criminals steal with finesse, their victims only discovering the crime when the rogue is long

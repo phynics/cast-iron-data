@@ -17,6 +17,7 @@ page = "37"
 [fields]
 kind = "archetype"
 replaces = ["Arcane bond", "5th-level bonus feat", "10th-level bonus feat"]
+replaces_features = ["arcane-bond"]
 +++
 
 A primalist is a wizard who has spent a considerable amount of time studying the chaos that is

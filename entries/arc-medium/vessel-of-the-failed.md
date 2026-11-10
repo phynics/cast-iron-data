@@ -18,6 +18,8 @@ page = "7"
 kind = "archetype"
 replaces = ["Trance of three"]
 alters = ["Spirit", "spirit mastery", "Spirit surge", "Taboo"]
+replaces_features = ["trance-of-three"]
+alters_features = ["spirit", "spirit-mastery", "spirit-surge", "taboo"]
 +++
 
 A vessel of the failed channels the spirits of those who attempted the Test of the Starstone but

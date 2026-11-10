@@ -17,6 +17,7 @@ page = "64"
 [fields]
 kind = "archetype"
 replaces = ["Stunning fist", "Evasion", "Slow fall", "Improved evasion", "Quivering palm"]
+replaces_features = ["stunning-fist", "evasion", "slow-fall", "improved-evasion", "quivering-palm"]
 +++
 
 Some monks journey to remote and isolated corners of the world to find serenity and a heightened

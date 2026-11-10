@@ -17,6 +17,7 @@ page = "28"
 [fields]
 kind = "archetype"
 replaces = ["Shift focus", "Outside contact", "Magic circles", "Binding circles", "Fast circles"]
+replaces_features = ["shift-focus", "outside-contact", "magic-circles", "binding-circles", "fast-circles"]
 +++
 
 Some occultists specialize in a particular panoply, fully dedicating themselves to mastering the

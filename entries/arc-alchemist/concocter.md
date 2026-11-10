@@ -17,6 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 replaces = ["The discoveries gained at 2nd and 4th levels", "Swift poisoning", "the discovery gained at 6th level"]
+replaces_features = ["swift-poisoning"]
 +++
 
 Experts at combining sets of chemicals to create unique effects, concocters specialize in blending

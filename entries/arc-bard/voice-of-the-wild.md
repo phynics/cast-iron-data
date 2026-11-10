@@ -17,6 +17,7 @@ page = "81"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "versatile performance", "jack-of-all-trades", "Inspire competence", "dirge of doom", "inspire heroics"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "jack-of-all-trades"]
 +++
 
 Most bards are inspired by the art of civilization, yet the voice of the wild's muse is the grandeur

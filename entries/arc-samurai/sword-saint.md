@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Mount", "Mounted charge", "Banner", "Greater banner"]
+replaces_features = ["mount", "banner", "greater-banner"]
 +++
 
 Sword saints hail from lands where samurai are prevalent, and are often [ronin](ref/order/ronin) who

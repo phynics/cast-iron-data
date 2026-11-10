@@ -18,6 +18,8 @@ page = "94"
 kind = "archetype"
 replaces = ["Bonus feats gained at 1st and 10th levels", "Bravery"]
 alters = ["Bonus feats", "Class skills", "skill points per level"]
+replaces_features = ["bravery"]
+alters_features = ["bonus-feats"]
 +++
 
 Until would-be [Hellknights](ref/rule/aff-lawknights) take the trial referred to simply as the Test,

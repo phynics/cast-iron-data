@@ -17,6 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 alters = ["Arcane bond", "Arcane school"]
+alters_features = ["arcane-bond", "arcane-school"]
 +++
 
 Some wizards make bargains with beings from other realms in order to gain arcane power. These pact

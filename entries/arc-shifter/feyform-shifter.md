@@ -18,6 +18,7 @@ page = "6"
 kind = "archetype"
 replaces = ["Shifter aspect and all improvements to it"]
 alters = ["Wild shape", "Chimeric aspect", "Greater chimeric aspect", "Final aspect"]
+alters_features = ["wild-shape", "chimeric-aspect", "greater-chimeric-aspect", "final-aspect"]
 +++
 
 Feyform shifters are intimately linked to the First World, and can draw from it to gain otherworldly

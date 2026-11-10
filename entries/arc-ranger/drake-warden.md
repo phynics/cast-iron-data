@@ -17,6 +17,7 @@ page = "24"
 [fields]
 kind = "archetype"
 replaces = ["Hunter's bond, 2nd favored enemy", "swift tracker"]
+replaces_features = ["hunter-s-bond", "swift-tracker"]
 +++
 
 Some rangers specialize in dealing with rambunctious younger drakes, protecting them and teaching

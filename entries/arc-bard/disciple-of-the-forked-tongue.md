@@ -17,6 +17,7 @@ page = "7"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire greatness", "Versatile performance"]
+replaces_features = ["versatile-performance"]
 +++
 
 Studied in venomous words as well as venomous blood, a disciple of the forked tongue knows just the

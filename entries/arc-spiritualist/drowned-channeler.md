@@ -18,6 +18,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Bonded senses", "Detect undead", "calm spirit", "see invisibility", "call spirit"]
 alters = ["Phantom", "shared consciousness", "etheric tether", "bonded manifestation"]
+replaces_features = ["bonded-senses", "detect-undead", "calm-spirit", "see-invisibility", "call-spirit"]
+alters_features = ["phantom", "shared-consciousness", "etheric-tether", "bonded-manifestation"]
 +++
 
 When a drowned spirit doomed to a watery grave descends toward the evil of undeath and seeks refuge

@@ -18,6 +18,8 @@ page = "13"
 kind = "archetype"
 replaces = ["Nature's bond", "Resist nature's lure", "Wild shape"]
 alters = ["Spells", "A druid's spontaneous casting"]
+replaces_features = ["resist-nature-s-lure", "wild-shape"]
+alters_features = ["spells"]
 +++
 
 Through determined interest or repeated exposure to those places where the borders between planes

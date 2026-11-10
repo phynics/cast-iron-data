@@ -18,6 +18,7 @@ page = "111"
 kind = "archetype"
 replaces = ["Shared consciousness", "fused consciousness", "Spiritual interference", "greater spiritual interference"]
 alters = ["Spellcasting"]
+replaces_features = ["shared-consciousness", "fused-consciousness", "spiritual-interference", "greater-spiritual-interference"]
 +++
 
 Though most spiritualists are chosen by their phantoms, others deliberately call phantoms to them

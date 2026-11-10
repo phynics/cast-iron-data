@@ -18,6 +18,7 @@ page = "47"
 kind = "archetype"
 replaces = ["Magus arcana gained at 3rd level"]
 alters = ["Arcane Pool"]
+alters_features = ["arcane-pool"]
 +++
 
 A select group of magi are called to carry a **black blade**: a sentient weapon of often unknown and

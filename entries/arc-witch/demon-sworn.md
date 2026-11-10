@@ -18,6 +18,7 @@ page = "16"
 kind = "archetype"
 replaces = ["6th-level hex"]
 alters = ["Patron spells", "Hex", "major hex", "grand hex"]
+alters_features = ["patron-spells", "hex", "major-hex", "grand-hex"]
 +++
 
 The drow are among the best known creatures on Golarion who were "saved" by demonic intervention,

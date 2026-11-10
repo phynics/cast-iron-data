@@ -18,6 +18,8 @@ page = "72"
 kind = "archetype"
 replaces = ["Hunter's bond", "Evasion", "Camouflage", "Improved evasion", "master hunter"]
 alters = ["Spells"]
+replaces_features = ["hunter-s-bond", "evasion", "camouflage", "improved-evasion", "master-hunter"]
+alters_features = ["spells"]
 +++
 
 Emulating the blazing phoenix, flamewardens sweep through the world like a selective forest fire,

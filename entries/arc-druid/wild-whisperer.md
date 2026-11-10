@@ -18,6 +18,8 @@ page = "92"
 kind = "archetype"
 replaces = ["Woodland stride", "trackless step", "resist nature's lure", "The additional use of wild shape at 6th level", "The additional use of wild shape at 8th level"]
 alters = ["Wild shape"]
+replaces_features = ["woodland-stride", "trackless-step", "resist-nature-s-lure"]
+alters_features = ["wild-shape"]
 +++
 
 A wild whisperer is an expert at studying, predicting, and explaining animal behavior. She is less

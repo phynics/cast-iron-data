@@ -17,6 +17,7 @@ page = "52"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "Teamwork feats", "Solo tactics", "True judgment"]
+replaces_features = ["monster-lore", "solo-tactics", "true-judgment"]
 +++
 
 The world is full of dangerous magic, and many recoil in the face of such power. The spellbreaker,

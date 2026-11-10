@@ -18,6 +18,8 @@ page = "32"
 kind = "archetype"
 replaces = ["Countersong", "distraction", "Well-versed", "Dirge of doom"]
 alters = ["Spell list", "Bardic performance"]
+replaces_features = ["well-versed"]
+alters_features = ["bardic-performance"]
 +++
 
 Instead of using song and dance, a fortune-teller influences people by divining their fate. Though

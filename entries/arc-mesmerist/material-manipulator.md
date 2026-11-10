@@ -18,6 +18,7 @@ page = "18"
 kind = "archetype"
 replaces = ["Consummate liar", "mesmerist trick gained at 2nd level", "manifold tricks", "Touch treatment", "rule minds"]
 alters = ["Spellcasting"]
+replaces_features = ["consummate-liar", "manifold-tricks", "touch-treatment", "rule-minds"]
 +++
 
 Rather than waste time limiting himself to ruling minds, a material manipulator forces his whims

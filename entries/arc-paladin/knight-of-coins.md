@@ -18,6 +18,7 @@ page = "28"
 kind = "archetype"
 replaces = ["Detect evil", "3rd-, 9th-, and 15th-level mercies"]
 alters = ["Skill ranks per level"]
+replaces_features = ["detect-evil"]
 +++
 
 Servants of gods who revere wealth, knights of coins promote fair trade and stable commerce between

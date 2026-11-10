@@ -17,6 +17,7 @@ page = "65"
 [fields]
 kind = "archetype"
 replaces = ["Bonus feat gained at 1st level", "Stunning fist", "High jump"]
+replaces_features = ["stunning-fist", "high-jump"]
 +++
 
 An underfoot adept turns his diminutive stature and unorthodox footwork into a powerful weapon.

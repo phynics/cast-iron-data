@@ -17,6 +17,7 @@ page = "28"
 [fields]
 kind = "archetype"
 replaces = ["Bomb", "Throw Anything", "Mutagen", "persistent mutagen", "The discovery gained at 4th level"]
+replaces_features = ["bomb", "throw-anything", "mutagen", "persistent-mutagen"]
 +++
 
 Eldritch poisoners are masters of the toxic arts, synthesizing lethal and incapacitating poisons

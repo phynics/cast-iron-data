@@ -18,6 +18,8 @@ page = "91"
 kind = "archetype"
 replaces = ["Utility shot deed", "Expert loading deed", "Lightning reload deed", "Slinger's luck deed", "Nimble", "The bonus feat gained at 4th level"]
 alters = ["Gun training"]
+replaces_features = ["nimble"]
+alters_features = ["gun-training"]
 +++
 
 Commandos are those rough and ready gunslingers who excel at hit-and-run tactics and leveraging

@@ -18,6 +18,8 @@ page = "32"
 kind = "archetype"
 replaces = ["Proficiency with the rapier and whip", "Suggestion", "mass suggestion", "Dirge of doom", "Frightening performance", "Bardic knowledge", "lore master", "Versatile performance", "Soothing performance", "Deadly performance"]
 alters = ["Bardic performance"]
+replaces_features = ["bardic-knowledge", "lore-master", "versatile-performance"]
+alters_features = ["bardic-performance"]
 +++
 
 Not all bards inspire others with their performances. Dervish dancers enter a near-mystical trance

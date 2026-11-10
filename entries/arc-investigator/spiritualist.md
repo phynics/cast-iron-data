@@ -17,6 +17,7 @@ page = "102"
 [fields]
 kind = "archetype"
 replaces = ["Alchemy", "Poison lore", "Poison resistance", "Trap sense", "Swift alchemy", "Poison immunity"]
+replaces_features = ["alchemy", "poison-lore", "poison-resistance", "trap-sense", "swift-alchemy"]
 +++
 
 > _**Note:** This is an investigator archetype, and has no relation to the

@@ -17,6 +17,7 @@ page = "78"
 [fields]
 kind = "archetype"
 replaces = ["The arcanist exploit gained at 1st level", "The arcanist exploit gained at 7th level", "Magical supremacy"]
+replaces_features = ["magical-supremacy"]
 +++
 
 > _**Note:** This is an arcanist archetype, and has no relation to the

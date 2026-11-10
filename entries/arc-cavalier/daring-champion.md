@@ -17,6 +17,7 @@ page = "90"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Supreme charge"]
+replaces_features = ["weapon-and-armor-proficiencies", "mount", "cavalier-s-charge", "expert-trainer", "mighty-charge", "supreme-charge"]
 +++
 
 While many cavaliers are the champions of old fighting forms, some younger, more daring cavaliers

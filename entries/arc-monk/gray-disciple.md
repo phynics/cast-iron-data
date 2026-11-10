@@ -17,6 +17,7 @@ page = "187"
 [fields]
 kind = "archetype"
 replaces = ["Slow fall", "still mind", "High jump", "bonus feat gained at 6th level", "Wholeness of body", "Abundant step", "Quivering palm", "Tongue of the sun and moon", "empty body"]
+replaces_features = ["slow-fall", "still-mind", "high-jump", "wholeness-of-body", "abundant-step", "quivering-palm", "tongue-of-the-sun-and-moon", "empty-body"]
 +++
 
 The gray disciple contemplates the inner voice of duergar magic and the silent eternity of stone,

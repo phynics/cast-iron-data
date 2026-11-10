@@ -18,6 +18,8 @@ page = "39"
 kind = "archetype"
 replaces = ["Towering ego, 10th-level mesmerist trick", "touch treatment (break enchantment)", "Touch treatment (minor)", "touch treatment (moderate)", "Touch treatment (major)"]
 alters = ["Spellcasting", "Hypnotic stare"]
+replaces_features = ["towering-ego"]
+alters_features = ["hypnotic-stare"]
 +++
 
 Most mesmerists practice their mental manipulation through their entrancing gaze, but others have

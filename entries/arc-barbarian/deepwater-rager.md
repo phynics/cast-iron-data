@@ -17,6 +17,7 @@ page = "28"
 [fields]
 kind = "archetype"
 replaces = ["Fast movement", "Uncanny dodge", "Improved uncanny dodge", "Indomitable will", "Tireless rage"]
+replaces_features = ["fast-movement", "uncanny-dodge", "improved-uncanny-dodge", "indomitable-will", "tireless-rage"]
 +++
 
 Deepwater ragers bellow ferociously as they charge their enemies, tackling them into the raging

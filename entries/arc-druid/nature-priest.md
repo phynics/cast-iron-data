@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Nature sense", "Resist nature's lure", "Venom immunity"]
 alters = ["Weapon proficiencies", "Nature bond"]
+replaces_features = ["nature-sense", "resist-nature-s-lure", "venom-immunity"]
+alters_features = ["nature-bond"]
 +++
 
 Nature priests serve two masters: their deities and nature itself, and can call upon the power of

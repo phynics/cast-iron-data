@@ -17,6 +17,7 @@ page = "23"
 [fields]
 kind = "archetype"
 replaces = ["Spirit animal", "Wandering spirit", "wandering hex", "8th-level hex"]
+replaces_features = ["spirit-animal", "wandering-spirit", "wandering-hex"]
 +++
 
 Members in good standing who have risen to a prestigious rank within the Esoteric Order of the

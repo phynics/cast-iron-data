@@ -20,6 +20,7 @@ page = "11"
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "Knowledge pool", "Medium armor", "Magus arcana gained at 9th level", "Improved spell recall", "Heavy armor", "Greater spell access", "True magus"]
+replaces_features = ["spell-recall", "knowledge-pool", "medium-armor", "improved-spell-recall", "heavy-armor", "greater-spell-access", "true-magus"]
 +++
 
 A kensai spends his life focusing his training and meditation into a rapturous perfection of the use

@@ -18,6 +18,8 @@ page = "56"
 kind = "archetype"
 replaces = ["Internal buffer"]
 alters = ["Base saving throws", "the key ability score of wild talents", "Burn", "elemental overflow"]
+replaces_features = ["internal-buffer"]
+alters_features = ["burn", "elemental-overflow"]
 +++
 
 Some kineticists who are loathe to suffer the consequences of channeling their power study the

@@ -18,6 +18,8 @@ page = "4"
 kind = "archetype"
 replaces = ["Spontaneous casting"]
 alters = ["Wild shape", "Venom immunity"]
+replaces_features = ["spontaneous-casting"]
+alters_features = ["wild-shape", "venom-immunity"]
 +++
 
 A mantella focuses on exploring her poisonous heritage, whether or not it has manifested in her own

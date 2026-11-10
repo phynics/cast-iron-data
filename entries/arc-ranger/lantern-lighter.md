@@ -21,6 +21,8 @@ page = "42"
 kind = "archetype"
 replaces = ["Wild empathy", "Endurance", "Woodland stride", "8th-level favored terrain", "Camouflage", "Favored terrain gained at 13th level", "Hide in plain sight", "Favored terrain gained at 18th level"]
 alters = ["Spells", "Favored terrain"]
+replaces_features = ["wild-empathy", "endurance", "woodland-stride", "camouflage", "hide-in-plain-sight"]
+alters_features = ["spells", "favored-terrain"]
 +++
 
 Lantern lighters were originally entrusted with secretly eliminating the drow and quarantining any

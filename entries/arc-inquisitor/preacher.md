@@ -18,6 +18,7 @@ page = "46"
 kind = "archetype"
 replaces = ["Solo tactics"]
 alters = ["Teamwork feats"]
+replaces_features = ["solo-tactics"]
 +++
 
 Some inquisitors wander the land to spread the true word of their faith. Often they come into

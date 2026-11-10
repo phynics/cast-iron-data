@@ -17,6 +17,7 @@ page = "8"
 [fields]
 kind = "archetype"
 replaces = ["Summon monster", "Bond senses", "Aspect", "Greater aspect"]
+replaces_features = ["bond-senses", "aspect", "greater-aspect"]
 +++
 
 While most summoners excel at conjuring monsters, there are those who focus instead on disrupting

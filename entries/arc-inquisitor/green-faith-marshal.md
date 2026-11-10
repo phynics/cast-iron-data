@@ -21,6 +21,8 @@ page = "24"
 kind = "archetype"
 replaces = ["Stern gaze", "Monster lore", "Discern lies", "Stalwart"]
 alters = ["Domain"]
+replaces_features = ["stern-gaze", "monster-lore", "discern-lies", "stalwart"]
+alters_features = ["domain"]
 +++
 
 The [Green Faith](ref/faith/green-faith) marshal serves as a literal force of nature, hunting down

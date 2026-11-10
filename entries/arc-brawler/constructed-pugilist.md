@@ -18,6 +18,8 @@ page = "8"
 kind = "archetype"
 replaces = ["Martial flexibility"]
 alters = ["Bonus combat feats"]
+replaces_features = ["martial-flexibility"]
+alters_features = ["bonus-combat-feats"]
 +++
 
 Mutants whose mutations make using standard weapons or other gear difficult sometimes attach

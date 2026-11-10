@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire competence"]
+replaces_features = ["bardic-knowledge"]
 +++
 
 Some explore the farthest reaches of desolate wastelands, seeking to unlock the mysteries found

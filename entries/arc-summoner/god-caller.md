@@ -18,6 +18,8 @@ page = "40"
 kind = "archetype"
 replaces = ["Transposition", "Aspect", "Greater aspect", "Twin eidolon"]
 alters = ["Life link"]
+replaces_features = ["transposition", "aspect", "greater-aspect", "twin-eidolon"]
+alters_features = ["life-link"]
 +++
 
 God callers follow a fractured tradition that originated in the now-lost nation of Sarkoris. They

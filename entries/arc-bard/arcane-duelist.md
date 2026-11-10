@@ -17,6 +17,7 @@ page = "80"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Suggestion", "Mass suggestion", "Versatile performance", "well-versed", "Lore master", "Jack of all trades"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "well-versed", "lore-master", "jack-of-all-trades"]
 +++
 
 A master of the martial applications of steel and spell, the arcane duelist blends both into a

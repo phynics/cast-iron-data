@@ -18,6 +18,8 @@ page = "39"
 kind = "archetype"
 replaces = ["Trap sense"]
 alters = ["The barbarian's normal weapon and armor proficiencies", "Rage powers", "Damage reduction"]
+replaces_features = ["trap-sense"]
+alters_features = ["rage-powers", "damage-reduction"]
 +++
 
 Some barbarians are born or bred outside the reach of civilization. These wildborn fight and survive

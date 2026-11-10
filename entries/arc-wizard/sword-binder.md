@@ -18,6 +18,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Arcane school", "bonus school spell slots", "10th-level bonus feat"]
 alters = ["Arcane bond"]
+replaces_features = ["arcane-school"]
+alters_features = ["arcane-bond"]
 +++
 
 Sword binders follow a tradition of martial wizards who often worked with the Church of Aroden and

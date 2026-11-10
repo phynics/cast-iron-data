@@ -17,6 +17,7 @@ page = "29"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Inspire courage", "inspire competence", "and inspire greatness", "Countersong", "Distraction", "Inspire greatness", "Versatile performance", "Well-versed", "Lore master"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "well-versed", "lore-master"]
 +++
 
 Hoaxers specialize in creating valuable-looking counterfeits and infusing these false treasures with

@@ -17,6 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 replaces = ["Throw Anything", "Swift alchemy", "Swift poisoning"]
+replaces_features = ["throw-anything", "swift-alchemy", "swift-poisoning"]
 +++
 
 An internal alchemist studies medicine, diet, and the living body to purify the self in the hope of

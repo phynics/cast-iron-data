@@ -17,6 +17,7 @@ page = "12"
 [fields]
 kind = "archetype"
 alters = ["Channel energy", "Casting"]
+alters_features = ["channel-energy"]
 +++
 
 Iron priests preach of the messengers from beyond the stars, envoys of the divine brought to

@@ -18,6 +18,8 @@ page = "54"
 kind = "archetype"
 replaces = ["Vigilante specialization", "Vengeance strike"]
 alters = ["Dual identity", "Base saving throws", "Armor and weapon proficiencies", "Vigilante talents"]
+replaces_features = ["vigilante-specialization", "vengeance-strike"]
+alters_features = ["dual-identity"]
 +++
 
 Either through the results of magical experimentation or bizarre natural sparks, some vigilantes can

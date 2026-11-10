@@ -17,6 +17,7 @@ page = "88"
 [fields]
 kind = "archetype"
 replaces = ["Martial flexibility", "Maneuver training gained at 3rd and 7th levels", "Maneuver training gained at 11th and 19th levels"]
+replaces_features = ["martial-flexibility"]
 +++
 
 With her lightning quickness and guile, a snakebite striker keeps her foes' attention focused on

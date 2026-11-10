@@ -14,6 +14,7 @@ page = "15"
 kind = "class_option"
 group = "paladin-oath"
 replaces = ["Detect evil", "Smite evil", "Channel positive energy"]
+replaces_features = ["detect-evil", "smite-evil", "channel-positive-energy"]
 +++
 
 Despite the seemingly inherent contradiction, the militant [Hellknights](ref/rule/aff-lawknights) of

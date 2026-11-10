@@ -18,6 +18,8 @@ page = "30"
 kind = "archetype"
 replaces = ["Mount", "Cavalier's charge", "Expert trainer", "Mighty charge", "Supreme charge"]
 alters = ["Banner"]
+replaces_features = ["mount", "cavalier-s-charge", "expert-trainer", "mighty-charge", "supreme-charge"]
+alters_features = ["banner"]
 +++
 
 The esquire is a roving knight who acquires the services of a faithful follower - an

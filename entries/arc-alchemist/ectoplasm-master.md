@@ -18,6 +18,8 @@ page = "14"
 kind = "archetype"
 replaces = ["Brew Potion"]
 alters = ["Extracts"]
+replaces_features = ["brew-potion"]
+alters_features = ["extracts"]
 +++
 
 Able to distill spectral horrors into alchemical reagents, the eccentric techniques of the ectoplasm

@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Channel energy"]
 alters = ["Domains"]
+replaces_features = ["channel-energy"]
+alters_features = ["domains"]
 +++
 
 Some divine servants take on the role of dealing out unique punishments on behalf of their deities,

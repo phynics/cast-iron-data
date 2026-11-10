@@ -18,6 +18,7 @@ page = "10"
 kind = "archetype"
 replaces = ["The discovery gained at 6th level", "The discovery gained at 12th level", "Persistent mutagen", "The discovery gained at 18th level"]
 alters = ["Bombs", "Bombs"]
+replaces_features = ["persistent-mutagen"]
 +++
 
 Blightseekers are alchemists devoted to the study of fungi native to the Darklands. While diverse

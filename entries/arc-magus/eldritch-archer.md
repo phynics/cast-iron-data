@@ -18,6 +18,8 @@ page = "11"
 kind = "archetype"
 replaces = ["Counterstrike"]
 alters = ["Arcane pool", "Spell combat", "Spellstrike"]
+replaces_features = ["counterstrike"]
+alters_features = ["arcane-pool", "spell-combat", "spellstrike"]
 +++
 
 The eldritch archer rains magical attacks down on her foes from the city walls.

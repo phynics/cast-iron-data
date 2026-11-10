@@ -18,6 +18,7 @@ page = "30"
 kind = "archetype"
 replaces = ["Fast movement", "Trap sense"]
 alters = ["The barbarian's armor and weapon proficiencies"]
+replaces_features = ["fast-movement", "trap-sense"]
 +++
 
 Isolated and xenophobic tribes that dwell in areas untouched by civilization often see anything from

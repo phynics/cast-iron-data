@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["Detect thoughts", "3rd-, 11th-, and 19th-level phrenic amplifications", "Telepathic bond", "Remade self"]
+replaces_features = ["detect-thoughts", "telepathic-bond", "remade-self"]
 +++
 
 When one encounters aberrant creatures, it can unlock psychic potential within a person, though this

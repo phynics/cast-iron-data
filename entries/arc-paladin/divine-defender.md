@@ -17,6 +17,7 @@ page = "116"
 [fields]
 kind = "archetype"
 replaces = ["Mercy"]
+replaces_features = ["mercy"]
 +++
 
 Some paladins see themselves as the last line of defense between the teeming hordes of evil and the

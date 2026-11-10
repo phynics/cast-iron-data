@@ -17,6 +17,7 @@ page = "87"
 [fields]
 kind = "archetype"
 replaces = ["Track", "swift tracker", "6th-level slayer talent", "Quarry", "improved quarry"]
+replaces_features = ["track", "swift-tracker", "quarry", "improved-quarry"]
 +++
 
 Slayers characterized by cunning and patience, guerrillas specialize in ambush and harassment of

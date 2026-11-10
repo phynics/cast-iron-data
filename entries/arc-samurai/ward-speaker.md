@@ -18,6 +18,8 @@ page = "26"
 kind = "archetype"
 replaces = ["Resolve", "greater resolve", "true resolve"]
 alters = ["Honorable stand"]
+replaces_features = ["resolve", "greater-resolve", "true-resolve"]
+alters_features = ["honorable-stand"]
 +++
 
 The ward speaker draws power from simple rituals to honor the spirits found throughout the world so

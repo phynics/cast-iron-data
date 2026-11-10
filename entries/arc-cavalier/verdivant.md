@@ -18,6 +18,8 @@ page = "15"
 kind = "archetype"
 replaces = ["Expert trainer", "Tactician", "banner", "greater tactician", "greater banner", "master tactician", "bonus feats"]
 alters = ["Mount", "Cavalier's charge"]
+replaces_features = ["expert-trainer", "tactician", "banner", "greater-tactician", "greater-banner", "master-tactician"]
+alters_features = ["mount", "cavalier-s-charge"]
 +++
 
 Some [vine leshy](ref/race/vine-leshy) spirits are vibrant enough to project this animus beyond

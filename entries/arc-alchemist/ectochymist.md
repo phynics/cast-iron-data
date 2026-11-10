@@ -17,6 +17,7 @@ page = "112"
 [fields]
 kind = "archetype"
 replaces = ["Bombs", "Poison resistance", "Poison use", "Swift poisoning", "The 8th-level alchemist discovery", "Poison immunity"]
+replaces_features = ["poison-resistance", "poison-use", "swift-poisoning"]
 +++
 
 Ectochymists study the effects of alchemy on soul and spirit, focusing on fighting ghosts and other

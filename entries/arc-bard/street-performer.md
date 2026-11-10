@@ -17,6 +17,7 @@ page = "85"
 [fields]
 kind = "archetype"
 replaces = ["Inspire courage", "Inspire competence", "Inspire greatness", "Inspire heroics", "Countersong", "Bardic knowledge", "Lore master"]
+replaces_features = ["bardic-knowledge", "lore-master"]
 +++
 
 Whether acrobat, troubadour, or thespian, the street performer mixes with the masses, singing for

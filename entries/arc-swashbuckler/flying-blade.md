@@ -18,6 +18,8 @@ page = "124"
 kind = "archetype"
 replaces = ["Dodging panache", "Kip-up", "Menacing swordplay", "Targeted strike", "Perfect thrust", "Swashbuckler weapon training", "Swashbuckler weapon mastery"]
 alters = ["Panache", "Bleeding wound"]
+replaces_features = ["swashbuckler-weapon-training", "swashbuckler-weapon-mastery"]
+alters_features = ["panache"]
 +++
 
 While most swashbucklers prefer their battles up close, others prefer dealing death from a distance.

@@ -17,6 +17,7 @@ page = "22"
 [fields]
 kind = "archetype"
 replaces = ["The fighter's 1st-level bonus feat", "Weapon training"]
+replaces_features = ["weapon-training"]
 +++
 
 Whenever a particularly imposing intelligent weapon controls the mind of its wielder for long

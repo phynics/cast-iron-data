@@ -17,6 +17,7 @@ page = "18"
 [fields]
 kind = "archetype"
 replaces = ["Poison lore", "poison resistance", "Studied combat", "Studied strike"]
+replaces_features = ["poison-lore", "poison-resistance", "studied-combat", "studied-strike"]
 +++
 
 Cryptid scholars research monsters that lurk secretly at the edge of civilization, developing a deep

@@ -18,6 +18,8 @@ page = "82"
 kind = "archetype"
 replaces = ["Wild shape", "shifter aspect", "Defensive instinct", "chimeric aspect", "greater chimeric aspect", "Woodland stride", "Trackless step"]
 alters = ["Alignment", "Shifter claws"]
+replaces_features = ["wild-shape", "shifter-aspect", "defensive-instinct", "chimeric-aspect", "greater-chimeric-aspect", "woodland-stride", "trackless-step"]
+alters_features = ["shifter-claws"]
 +++
 
 Not all shifters represent the balance of nature. The rageshaper is a destructive force of nature

@@ -18,6 +18,7 @@ page = "146"
 kind = "archetype"
 replaces = ["Evasion", "Fast movement", "High jump", "Improved evasion", "Abundant step"]
 alters = ["Bonus feats"]
+replaces_features = ["evasion", "fast-movement", "high-jump", "improved-evasion", "abundant-step"]
 +++
 
 By following the path of the stone, students of stone give up much of monks' mobility in favor of

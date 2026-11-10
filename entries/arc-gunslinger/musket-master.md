@@ -18,6 +18,7 @@ page = "50"
 kind = "archetype"
 replaces = ["Gunslinger's dodge deed", "Utility shot deed", "Firearm training 1, 2, 3, and 4"]
 alters = ["Gunsmith"]
+alters_features = ["gunsmith"]
 +++
 
 Pistols and other one-handed firearms are often easy to conceal and faster to load than other

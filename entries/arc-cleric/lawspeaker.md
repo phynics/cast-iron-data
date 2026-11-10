@@ -17,6 +17,7 @@ page = "11"
 [fields]
 kind = "archetype"
 alters = ["Domains"]
+alters_features = ["domains"]
 +++
 
 The Umani priest-judges presided over justice in ancient Yamasa, driven by a zeal for discovering

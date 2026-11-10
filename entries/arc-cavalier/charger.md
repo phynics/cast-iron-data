@@ -17,6 +17,7 @@ page = "5"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Mount", "Cavalier's charge", "Expert trainer", "Mighty charge"]
+replaces_features = ["weapon-and-armor-proficiencies", "mount", "cavalier-s-charge", "expert-trainer", "mighty-charge"]
 +++
 
 No warrior better epitomizes the centaur's devastating martial power than the charger. Born to the

@@ -17,6 +17,7 @@ page = "27"
 [fields]
 kind = "archetype"
 replaces = ["Spell recall", "Improved spell recall"]
+replaces_features = ["spell-recall", "improved-spell-recall"]
 +++
 
 Hexbreakers - sometimes called witch-hammers for their proclivity toward warhammers - have borne

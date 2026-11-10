@@ -18,6 +18,8 @@ page = "57"
 kind = "archetype"
 replaces = ["Vigilante specialization", "Unshakable"]
 alters = ["Weapon and armor proficiencies", "Vigilante talents"]
+replaces_features = ["vigilante-specialization", "unshakable"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 Firearms can be potent tools for striking fear into the hearts of enemies, and canny vigilantes use

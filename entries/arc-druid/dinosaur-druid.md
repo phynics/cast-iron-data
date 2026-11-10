@@ -18,6 +18,8 @@ page = "47"
 kind = "archetype"
 replaces = ["Resist nature's lure"]
 alters = ["Nature's bond", "Wild shape"]
+replaces_features = ["resist-nature-s-lure"]
+alters_features = ["wild-shape"]
 +++
 
 A dinosaur druid speaks for the spirit of prehistoric nature, even taking the form of great beasts

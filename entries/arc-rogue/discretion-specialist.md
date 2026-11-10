@@ -17,6 +17,7 @@ page = "25"
 [fields]
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense (for a core rogue)", "danger sense (for an unchained rogue)", "Rogue talents gained at 4th and 12th levels", "Uncanny dodge", "improved uncanny dodge"]
+replaces_features = ["trapfinding", "uncanny-dodge", "improved-uncanny-dodge"]
 +++
 
 Often brought in to handle messy situations, discretion specialists deal with bodies, inconvenient

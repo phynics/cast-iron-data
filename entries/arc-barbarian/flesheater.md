@@ -18,6 +18,8 @@ page = "114"
 kind = "archetype"
 replaces = ["Uncanny dodge", "improved uncanny dodge", "the 2nd- and 8th-level rage powers", "Greater rage", "The 14th-level rage power", "Mighty rage"]
 alters = ["Rage"]
+replaces_features = ["uncanny-dodge", "improved-uncanny-dodge", "greater-rage", "mighty-rage"]
+alters_features = ["rage"]
 +++
 
 A flesheater eats flesh to create a spiritual bond between herself and the consumed creature,

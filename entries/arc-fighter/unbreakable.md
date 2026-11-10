@@ -17,6 +17,7 @@ page = "49"
 [fields]
 kind = "archetype"
 replaces = ["The fighter's 1st-level bonus feat", "Bravery", "Weapon training 1", "Weapon training 2", "Armor training 3", "Weapon training 3", "Armor training 4", "Weapon training 4", "Weapon mastery"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 The unbreakable is a warrior of indomitable will, unstoppable and implacable once he has set his

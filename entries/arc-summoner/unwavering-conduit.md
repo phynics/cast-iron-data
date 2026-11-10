@@ -17,6 +17,7 @@ page = "17"
 [fields]
 kind = "archetype"
 alters = ["Eidolon", "Summon monster", "Spells known"]
+alters_features = ["eidolon"]
 +++
 
 Unwavering conduits work to keep everything ordered and regimented, drawing on power from the

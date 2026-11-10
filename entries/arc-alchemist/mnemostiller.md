@@ -18,6 +18,8 @@ page = "52"
 kind = "archetype"
 replaces = ["Throw anything", "Mutagen", "Bombs", "Poison resistance", "Poison use"]
 alters = ["Alchemy"]
+replaces_features = ["throw-anything", "mutagen", "poison-resistance", "poison-use"]
+alters_features = ["alchemy"]
 +++
 
 Mnemostillers extract memories, storing them as a thick vapor called mnemos. They can return

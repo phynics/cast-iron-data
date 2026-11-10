@@ -17,6 +17,7 @@ page = "40"
 [fields]
 kind = "archetype"
 replaces = ["Wild empathy", "Hunter's bond"]
+replaces_features = ["wild-empathy", "hunter-s-bond"]
 +++
 
 A code runner specializes in the subtle and speedy transfer of secret messages. He performs long

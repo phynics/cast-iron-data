@@ -17,6 +17,7 @@ page = "36"
 [fields]
 kind = "archetype"
 replaces = ["Mutagen"]
+replaces_features = ["mutagen"]
 +++
 
 The saboteur is an alchemist who specializes in destroying the plans, materials, and allies of his

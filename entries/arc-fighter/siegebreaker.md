@@ -18,6 +18,7 @@ page = "11"
 kind = "archetype"
 replaces = ["The feat gained at 1st level", "Bravery", "The feat gained at 2nd level", "The bonus feat gained at 8th level", "Weapon mastery"]
 alters = ["The feat gained at 4th level"]
+replaces_features = ["bravery", "weapon-mastery"]
 +++
 
 The siegebreaker is trained to break through lines of enemy soldiers.

@@ -18,6 +18,7 @@ page = "20"
 kind = "archetype"
 replaces = ["1st-level hex", "6th-level hex"]
 alters = ["Patron", "patron spells"]
+alters_features = ["patron-spells"]
 +++
 
 Some witches find their spark of magic in the long, dark shadows and forgotten places within the

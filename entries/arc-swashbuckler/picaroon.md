@@ -18,6 +18,8 @@ page = "127"
 kind = "archetype"
 replaces = ["Weapon proficiency", "Opportune parry and riposte", "Kip-up", "Superior feint", "Bleeding wound", "Swashbuckler finesse"]
 alters = ["Panache"]
+replaces_features = ["swashbuckler-finesse"]
+alters_features = ["panache"]
 +++
 
 While some swashbucklers take pride in their ability to wear down an opponent with great skill at

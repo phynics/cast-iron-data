@@ -18,6 +18,7 @@ page = "38"
 kind = "archetype"
 replaces = ["Trap sense", "6th-level rage power"]
 alters = ["Rage power"]
+replaces_features = ["trap-sense"]
 +++
 
 Pack hunter barbarians team up to hunt dangerous prey to feed, to protect their camps, and as a rite

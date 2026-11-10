@@ -17,6 +17,7 @@ page = "35"
 [fields]
 kind = "archetype"
 replaces = ["Fascinate", "Suggestion", "Mass suggestion", "Lore master"]
+replaces_features = ["lore-master"]
 +++
 
 The prankster sees humor as the highest form or art, and pranks as the highest form of humor. In

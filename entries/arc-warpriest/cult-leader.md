@@ -17,6 +17,7 @@ page = "128"
 [fields]
 kind = "archetype"
 replaces = ["Weapon and armor proficiencies", "Focus weapon", "Bonus feats gained at 3rd, 9th, and 15th levels", "Channel energy", "Bonus feat gained at 12th level"]
+replaces_features = ["weapon-and-armor-proficiencies", "focus-weapon", "channel-energy"]
 +++
 
 Referred to as fanatics, lunatics, or obsessives, cultists see themselves as genuine devotees of

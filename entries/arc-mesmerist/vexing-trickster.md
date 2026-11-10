@@ -17,6 +17,7 @@ page = "19"
 [fields]
 kind = "archetype"
 replaces = ["Consummate liar", "Towering ego", "Touch treatment (minor)", "touch treatment (greater)", "Touch treatment (moderate)", "touch treatment (break enchantment)"]
+replaces_features = ["consummate-liar", "towering-ego"]
 +++
 
 While many mesmerists are called to embrace the art of deception, using their mind-binding powers to

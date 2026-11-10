@@ -18,6 +18,8 @@ page = "60"
 kind = "archetype"
 replaces = ["Stunning fist", "Fast movement", "increased unarmed damage", "Slow fall", "abundant step", "Purity of body", "diamond body", "quivering palm", "timeless body", "tongue of sun and moon"]
 alters = ["Weapon and armor proficiencies"]
+replaces_features = ["stunning-fist", "fast-movement", "slow-fall", "abundant-step", "purity-of-body", "diamond-body", "quivering-palm", "timeless-body"]
+alters_features = ["weapon-and-armor-proficiencies"]
 +++
 
 The sohei are masters of the horse and the hunt. A monastic soldier, the sohei is equally adept at

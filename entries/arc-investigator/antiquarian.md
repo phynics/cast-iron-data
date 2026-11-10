@@ -18,6 +18,7 @@ page = "16"
 kind = "archetype"
 replaces = ["Poison lore", "Swift alchemy"]
 alters = ["Alchemy (including Extracts)"]
+replaces_features = ["poison-lore", "swift-alchemy"]
 +++
 
 Antiquarians are collectors, explorers, and scholars who delve into ruined places in search of lost

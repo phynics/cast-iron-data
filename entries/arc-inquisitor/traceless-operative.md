@@ -17,6 +17,7 @@ page = "30"
 [fields]
 kind = "archetype"
 replaces = ["Monster lore", "stern gaze", "Track", "Bane", "Greater bane"]
+replaces_features = ["monster-lore", "stern-gaze", "track", "bane", "greater-bane"]
 +++
 
 Traceless operatives practice subterfuge and careful preparation in order to accomplish their divine

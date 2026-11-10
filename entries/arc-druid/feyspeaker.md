@@ -18,6 +18,8 @@ page = "26"
 kind = "archetype"
 replaces = ["Nature sense", "The druid's proficiency with medium armor"]
 alters = ["Spellcasting", "Base attack bonus", "class skills", "skills ranks per level", "Wild shape"]
+replaces_features = ["nature-sense"]
+alters_features = ["wild-shape"]
 +++
 
 Some druids hear the whispers of the natural world like fey creatures do, and learn to mimic those

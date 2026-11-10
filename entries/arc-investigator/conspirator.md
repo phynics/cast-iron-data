@@ -18,6 +18,8 @@ page = "33"
 kind = "archetype"
 replaces = ["Trapfinding", "Trap sense", "investigator talent gained at 7th level"]
 alters = ["Inspiration"]
+replaces_features = ["trapfinding", "trap-sense"]
+alters_features = ["inspiration"]
 +++
 
 A conspirator uses his knowledge of investigations to make sure he avoids any investigations that

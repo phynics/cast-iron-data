@@ -17,6 +17,7 @@ page = "20"
 [fields]
 kind = "archetype"
 replaces = ["Bardic knowledge", "Countersong", "Inspire competence", "Suggestion", "Mass suggestion", "Versatile performance", "Lore master"]
+replaces_features = ["bardic-knowledge", "versatile-performance", "lore-master"]
 +++
 
 Not merely an entertainer in a disguise, the masked performer takes on the persona represented by

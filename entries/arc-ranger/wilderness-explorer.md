@@ -18,6 +18,8 @@ page = "74"
 kind = "archetype"
 replaces = ["Wild empathy", "Hunter's bond", "Swift tracker", "Quarry", "Improved quarry"]
 alters = ["Favored terrain", "Favored terrain", "Favored terrain"]
+replaces_features = ["wild-empathy", "hunter-s-bond", "swift-tracker", "quarry", "improved-quarry"]
+alters_features = ["favored-terrain", "favored-terrain", "favored-terrain"]
 +++
 
 Wilderness explorers are adept at making peaceful contact with remote societies.

@@ -18,6 +18,8 @@ page = "23"
 kind = "archetype"
 replaces = ["Shared consciousness", "fused consciousness", "Spiritual interference", "greater spiritual interference"]
 alters = ["Phantom"]
+replaces_features = ["shared-consciousness", "fused-consciousness", "spiritual-interference", "greater-spiritual-interference"]
+alters_features = ["phantom"]
 +++
 
 [Hags](ref/family/hag) - those of flesh and blood, at any rate - die like any other mortals, and

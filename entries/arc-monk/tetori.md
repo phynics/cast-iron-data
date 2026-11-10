@@ -17,6 +17,7 @@ page = "61"
 [fields]
 kind = "archetype"
 replaces = ["Bonus feats", "Flurry of blows", "Slow fall", "High jump", "Abundant step", "improved evasion", "timeless body", "tongue of sun and moon", "Diamond soul", "Empty body"]
+replaces_features = ["flurry-of-blows", "slow-fall", "high-jump", "abundant-step", "improved-evasion", "timeless-body", "diamond-soul", "empty-body"]
 +++
 
 The style of the tetori is that of the majestic wrestler - a warrior with a dizzying array of grabs,
