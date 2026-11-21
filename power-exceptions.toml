@@ -1,0 +1,180 @@
+# Class-option powers that print cannot settle and that stay in a non-canonical form on purpose
+# (phynics/cast-iron#557). `cargo xtask corpus-check` skips a failing power named here; the corpus
+# repository's script (scripts/rewrite-class-option-powers.py) keeps `span_sha256` honest. Each row needs
+# a reason and the book title and page. Never edit an id; remove a row when its power is resolved.
+
+[[exception]]
+id = "ref/arcanedisc/bonded-mask"
+name = "Bonded Mask"
+occurrence = 1
+span_sha256 = "0a369cc21f293ab28ffc4b89eb720847837b7530cc109297f9f98ac60b6843e9"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has two passive rows (`Ability`, `Passive`); print decides their order and whether they are one paragraph."
+print = "Pathfinder #80: Empty Graves (page not recorded in the corpus)"
+
+[[exception]]
+id = "ref/druiddomain/plane-of-air"
+name = "Wind Savant (Su)"
+occurrence = 1
+span_sha256 = "be3ace303e0b065beb1d51c9d6aa03c2b344064e6ae32fbea16cca87af55886a"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The corpus has no effect text for the power: only `Choice: You can choose between one of two options.` and its `Gained` row. Print would have to supply the two options."
+print = "Planes of Power p. 6"
+
+[[exception]]
+id = "ref/druiddomain/plane-of-earth"
+name = "One with the Stone (Su)"
+occurrence = 1
+span_sha256 = "13a958db389c2ca407bd24bcdd6e3c154ff9fe7d37afcb64f74ffcb01953f690"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The corpus has no effect text for the power: only `Choice: You can choose between one of two options.` and its `Gained` row. Print would have to supply the two options."
+print = "Planes of Power p. 6"
+
+[[exception]]
+id = "ref/druiddomain/plane-of-fire"
+name = "All-Consuming Flames (Su)"
+occurrence = 1
+span_sha256 = "227e8d03ede6dc92dbc76f5fdbeee9ea4668e6757b96266f4468587e34e42c5b"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The corpus has no effect text for the power: only `Choice: You can choose between one of two options.` and its `Gained` row. Print would have to supply the two options."
+print = "Planes of Power p. 7"
+
+[[exception]]
+id = "ref/druiddomain/plane-of-water"
+name = "Hydraulic Crush (Su)"
+occurrence = 1
+span_sha256 = "7e491d7d5372d8b878d7b1adadc4acd7bdb7edcc53031a25f58a7dc3417bcea3"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The corpus has no effect text for the power: only `Choice: You can choose between one of two options.` and its `Gained` row. Print would have to supply the two options."
+print = "Planes of Power p. 7"
+
+[[exception]]
+id = "ref/hex/poison-touch"
+name = "Poison Touch (Ex)"
+occurrence = 1
+span_sha256 = "90563a4a6f275d74fa5adb886fa10844a4e2ba3f4fdea244bdbdd51c78ad11ec"
+reason = "Print sets the poison inside the effect (`has the following poison ability: Witch Toxin: ...`) and continues the effect after it. The corpus has the poison as `Type`, `Save`, `Frequency`, `Effect` and `Cure` rows followed by a paragraph, and the canonical order has no place for prose after those rows. Moving the poison out of its sentence is the owner's call."
+print = "Potions and Poisons p. 10"
+
+[[exception]]
+id = "ref/hkdiscipline/invoke-glyph"
+name = "Invoke Glyph (Sp and Ex)"
+occurrence = 1
+span_sha256 = "75f16a56d9d86cc1526cb8d47a48b6e379b6c0a221e84708252c8d903a31433b"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has two passive rows (`Ability`, `Passive`); print decides their order and whether they are one paragraph."
+print = "Pathfinder #107: Scourge of the Godclaw (page not recorded in the corpus)"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-chain"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "34af779f6035f39758ab00b08faaf9326489b52ec839037716c97afd142f5d9a"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 10"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-gate"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "88e8d913eccdd1a328d1fad0e09b57e7745648eb7aa501b03423f119b1830b58"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 16"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-godclaw"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "f03f8f1fa7a948b8a24eb93ab867027deec25a523db3ed3afc60a5faf9b54752"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 22"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-nail"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "bde04e05a48629cb6857077aead272753f0924e80433dc19e8d775aa8c73432e"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 28"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-pyre"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "dc9d3782a10a35991e797afdd0939ec7b4b5659f6e17818861141a213e916c9e"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 34"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-rack"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "7193ef7b4df64a1da4e8ebd2ed89c2687b130ac1966bb34627987d8fe65e7d05"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 40"
+
+[[exception]]
+id = "ref/hkorder/order-of-the-scourge"
+name = "Reckoning"
+occurrence = 1
+span_sha256 = "cc1c8b8d4500f6303272b50f318b374eb71e8fc2bf03eb05b4dab12cb8fba0d4"
+reason = "`Reckoning` is a line of the order's stat block in print (`Reckoning` with its description and its benefit), not a power, and the paragraph after it describes the order. The owner decides whether `Reckoning` joins the section labels that are no powers (decision 2026-11-21-class-option-power-owner-cases, case 5)."
+print = "Path of the Hellknight p. 46"
+
+[[exception]]
+id = "ref/mystery/reaper"
+name = "Death's Embrace (Su)"
+occurrence = 1
+span_sha256 = "77c77914c4795ad8b6f03db81757cc23de2c083ae032e3f7da9a6a68981f16b1"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has a numbered row (`Ability2`) beside `Ability`; print decides whether it is a second paragraph or part of the first."
+print = "Pathfinder #139: The Dead Road p. 66"
+
+[[exception]]
+id = "ref/mystery/reaper"
+name = "Final Revelation"
+occurrence = 1
+span_sha256 = "f91588049d0dacea58f9c19383c7921f2a2a65af4c82b6be90f6a6c029781c82"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has an `Ability` row and a `Passive` row; print decides their order and whether they are one paragraph."
+print = "Pathfinder #139: The Dead Road p. 66"
+
+[[exception]]
+id = "ref/mystery/reaper"
+name = "Haunt Channeler (Su)"
+occurrence = 2
+span_sha256 = "fd2deb47fcad9f29ef28f5c21bedf42189a9038d8af43bbf6d7e3fe824447da0"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has a numbered row (`Ability2`) and a `Passive` row; print decides their order and paragraphs."
+print = "Pathfinder #139: The Dead Road p. 66"
+
+[[exception]]
+id = "ref/oraclecurse/toxic-blood"
+name = "Toxic Blood"
+occurrence = 1
+span_sha256 = "86f4f7bb02ae04ca5cc7fc9cc71b66ae0f066251569ce366137ee047f662c761"
+reason = "Print cannot settle it: the entry cites no book and no PDF holds the text. The effect is followed by poison rows (`Type`, `Save`, `Frequency`, `Effect`, `Cure`) and a `Benefit` row, and the order of the pieces needs the printed layout."
+print = "no printed source found among the owner's PDFs (the entry cites none)"
+
+[[exception]]
+id = "ref/sorcbloodline/pestilence"
+name = "Pestilential Breath (Su)"
+occurrence = 1
+span_sha256 = "e469cdc329253b771fd488dc02283802d99074a192a69b7f7e1febd3c98ca8f8"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. Three paragraphs follow the upgrade lines; print decides whether they continue the effect."
+print = "Pathfinder #29: Mother of Flies p. 29"
+
+[[exception]]
+id = "ref/spirit/beldam-i"
+name = "Princely Humor (Su)"
+occurrence = 1
+span_sha256 = "b86334838c5144c235a55a2945ea08d89d5b5ea6f9fad89bb33f20db857274b9"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has a numbered row (`Ability2`) beside `Ability`; print decides whether it is a second paragraph or part of the first."
+print = "Pathfinder #132: The Six-Legend Soul p. 70"
+
+[[exception]]
+id = "ref/spirit/taldaris"
+name = "First Emperor's Order (Su)"
+occurrence = 1
+span_sha256 = "91cda435ead14c349756dbca40569717ffad60aeebaad6afe80e7f6cf3274887"
+reason = "The book is not among the owner's PDFs, so print cannot settle it. The power has an `Ability` row and a `Passive` row; print decides their order and whether they are one paragraph."
+print = "Pathfinder #132: The Six-Legend Soul p. 71"
+
+[[exception]]
+id = "ref/talent/combat-swipe-unchained-rogue"
+name = "Combat Swipe (Unchained Rogue)"
+occurrence = 1
+span_sha256 = "b0e61a1fc50830bb277721acf9d382abcb411ed3b74aa2d5714e1895a4d6cb69"
+reason = "The corpus ends the power with the sentence `This talent does not exist.`, which print does not have. Keeping it needs a place for loose text and deleting it is the owner's call."
+print = "Pathfinder Unchained p. 21"

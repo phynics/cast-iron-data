@@ -1,5 +1,4 @@
 entry_id	original_name	occurrence	span_sha256	reasons
-ref/arcanedisc/bonded-mask	Bonded Mask	1	0a369cc21f293ab28ffc4b89eb720847837b7530cc109297f9f98ac60b6843e9	multiple-effect-rows
 ref/arcanedisc/true-name	True Name (Sp)	1	c37cf1561f45285543169f56c72fa5f1c30746b95df7b99ac78e2c0297520fbd	action-without-one-group
 ref/arcaneschool/transmutation	Change Shape (Sp)	1	2fac8fd180e0c2cbf99c171c04683d386765414be0d9b243b097b9ed034bbe85	unlabeled-paragraphs-not-after-effect
 ref/aspect/giant-wasp	Major Form	1	1f2f91c3656ef74dd0320d2d8c3b460efde3a406d0c37e4ca053764306c3f2fc	unlabeled-paragraphs-not-after-effect
@@ -38,26 +37,13 @@ ref/domain/air	Electricity Resistance (Ex)	1	c503b81f54235c5865cb3a1b217eaefe2bc
 ref/domain/artifice	Dancing Weapons (Su)	1	ef96b40c0d3918cfb2e6d0638a3cea292cb3eb2dd92b53470140f5c80e47389d	unlabeled-paragraphs-not-after-effect
 ref/domain/repose	Exorcism of Undeath (Sp)	1	02d0495f4c5c1e6f9e7594456081228acf6c2ee96961738eb5d6772167754975	multiple-effect-rows
 ref/druiddomain/aquatic	Seastrike (Su)	1	97bea72f82dd58e9b0cadf4038149c6114c94577cc9dede458258dcb12733f95	multiple-effect-rows
-ref/druiddomain/plane-of-air	Wind Savant (Su)	1	be3ace303e0b065beb1d51c9d6aa03c2b344064e6ae32fbea16cca87af55886a	no-effect-row
-ref/druiddomain/plane-of-earth	One with the Stone (Su)	1	13a958db389c2ca407bd24bcdd6e3c154ff9fe7d37afcb64f74ffcb01953f690	no-effect-row
-ref/druiddomain/plane-of-fire	All-Consuming Flames (Su)	1	227e8d03ede6dc92dbc76f5fdbeee9ea4668e6757b96266f4468587e34e42c5b	no-effect-row
-ref/druiddomain/plane-of-water	Hydraulic Crush (Su)	1	7e491d7d5372d8b878d7b1adadc4acd7bdb7edcc53031a25f58a7dc3417bcea3	no-effect-row
 ref/emotionalfocus/hatred	Sneak Attack (Su)	1	f6382c1210d1d74d1f39b4a1679d5bd7a975aa457f411831673f17371086db1a	no-effect-row: suggest the lowest upgrade as Gained level and base effect
 ref/evolution/large	Large (Ex)	1	a0a9bd5b1c0a3b2d40b94316b1472a23c72b51f31aab65963cd288ae0e451399	unlabeled-paragraphs-not-after-effect
 ref/exploit/armored-mask	Armored Mask (Su)	1	081a2a5fbc460ee7eef0e401215231fa3cce3b68b8bb71a6e063961b46e2443f	multiple-effect-rows
 ref/hex/blight	Blight (Su)	1	4962f45b3165914fd8f5613866d9e0bef0fbfda6a62ac0e675ad97246798a001	action-without-one-group
-ref/hex/poison-touch	Poison Touch (Ex)	1	90563a4a6f275d74fa5adb886fa10844a4e2ba3f4fdea244bdbdd51c78ad11ec	action-group-crosses-row
 ref/hex/waxen-image	Waxen Image (Su)	1	1cb8cc9765e6d9faf2ccedc191a7560a0a19d0d51add9e03f0bf62499641045c	multiple-effect-rows
-ref/hkdiscipline/invoke-glyph	Invoke Glyph (Sp and Ex)	1	75f16a56d9d86cc1526cb8d47a48b6e379b6c0a221e84708252c8d903a31433b	multiple-effect-rows
-ref/hkorder/order-of-the-chain	Reckoning	1	34af779f6035f39758ab00b08faaf9326489b52ec839037716c97afd142f5d9a	unlabeled-paragraphs-not-after-effect
 ref/hkorder/order-of-the-chain	1: Taken Alive (Ex)	1	4991c505c9e14a939ddfc54a0531bdd02190e547457d1723f439c15013d54915	multiple-effect-rows
 ref/hkorder/order-of-the-chain	3: True Identities (Su)	1	0329bb42fa6efe2db8231c86361c787fceefb1526523423518aaffe39f43722f	action-first-pair: print decides the order
-ref/hkorder/order-of-the-gate	Reckoning	1	88e8d913eccdd1a328d1fad0e09b57e7745648eb7aa501b03423f119b1830b58	unlabeled-paragraphs-not-after-effect
-ref/hkorder/order-of-the-godclaw	Reckoning	1	f03f8f1fa7a948b8a24eb93ab867027deec25a523db3ed3afc60a5faf9b54752	unlabeled-paragraphs-not-after-effect
-ref/hkorder/order-of-the-nail	Reckoning	1	bde04e05a48629cb6857077aead272753f0924e80433dc19e8d775aa8c73432e	unlabeled-paragraphs-not-after-effect
-ref/hkorder/order-of-the-pyre	Reckoning	1	dc9d3782a10a35991e797afdd0939ec7b4b5659f6e17818861141a213e916c9e	unlabeled-paragraphs-not-after-effect
-ref/hkorder/order-of-the-rack	Reckoning	1	7193ef7b4df64a1da4e8ebd2ed89c2687b130ac1966bb34627987d8fe65e7d05	unlabeled-paragraphs-not-after-effect
-ref/hkorder/order-of-the-scourge	Reckoning	1	cc1c8b8d4500f6303272b50f318b374eb71e8fc2bf03eb05b4dab12cb8fba0d4	unlabeled-paragraphs-not-after-effect
 ref/hkorder/order-of-the-scourge	3: Reason to Fear (Su)	1	fdb07a2a48e67d861c00e5b2c9f3d166548fa7b4f4c80d97e366814e592c86ce	action-first-pair: print decides the order
 ref/implement/conjuration	Psychic Fog (Sp)	1	07d9a77b91b942c731d9361e9f7cc29a4bed0439e42ddfc1545849d704aa22ce	unlabeled-paragraphs-not-after-effect
 ref/implement/evocation	Light Matrix (Sp)	1	2095a76aed99657c110c568c7fa260f5a0ed91f902e1a052245e77c95d0ae2c4	multiple-effect-rows
@@ -72,9 +58,6 @@ ref/mystery/godclaw	Resiliency (Ex)	1	22e4549905f49743961094d9a0d7eeecbb4a03f513
 ref/mystery/godclaw	Final Revelation	1	db0eb4c38985227953784dc4138e3ad8463cc4fee0984bde4d8c407b3afee0de	numbered-effect-label: Ability2; multiple-effect-rows
 ref/mystery/lunar	Mantle of Moonlight (Su)	1	794d2424b74dc2203964a46f7a2c8c7d1c8bff98039137c10fdd5c78fb3db25c	multiple-effect-rows
 ref/mystery/metal	Dance of the Blades (Ex)	1	5c1a99a1d31c0e9f100643396d34e0eb92c5acf0417e75ac76862f8d40a28486	two-upgrades-at-one-level
-ref/mystery/reaper	Death's Embrace (Su)	1	77c77914c4795ad8b6f03db81757cc23de2c083ae032e3f7da9a6a68981f16b1	numbered-effect-label: Ability2
-ref/mystery/reaper	Haunt Channeler (Su)	2	fd2deb47fcad9f29ef28f5c21bedf42189a9038d8af43bbf6d7e3fe824447da0	numbered-effect-label: Ability2; multiple-effect-rows
-ref/mystery/reaper	Final Revelation	1	f91588049d0dacea58f9c19383c7921f2a2a65af4c82b6be90f6a6c029781c82	multiple-effect-rows
 ref/mystery/solar	Many Roads (Su)	1	5f8b325675ac00126dc65dd66f831eb3e8ed479f068bb2656ee24be55d670ccc	multiple-effect-rows
 ref/mystery/wind	Wind Sight (Ex)	1	ef2be205a318a160cddd4d80a0e6d270fa56ac134bcd639cb4be98f7ce6d5742	unlabeled-paragraphs-not-after-effect
 ref/ninjatrick/ki-venom	Ki Venom (Ex)	1	89a03180793b5083591e7c2473b36c798bd7cba16f43b5809a5c6cbc56472ae5	action-without-one-group
@@ -83,7 +66,6 @@ ref/oath/chaos	Order of Good (Su)	1	546a2ab2e10480f02ef640029d23e845516d41db94ab
 ref/oath/loyalty	Loyal Oath (Su)	1	52ce55b06fd2928806933254b4a648f113c6b2c26f8da67111ad40c4af9db90f	multiple-effect-rows
 ref/oath/the-peoples-council	Stirring Monologue (Su)	1	6bb596d0bf001967090ccfe5e319275c9c6eef9e9ee1b7d19f842d5dc630d811	upgrade-not-above-gained: 1; upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Fascinate](ref/performance/fascinate); upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Suggestion](ref/performance/suggestion); upgrade-keeps-capital: Dirge; upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Frightening; upgrade-keeps-capital: Mass
 ref/oath/the-whispering-way	Ghost Touch Aura (Su)	1	4232d25993a3c3081affa2c83fbd3472a9877a2311e3134f00bce3270468aa98	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/oraclecurse/toxic-blood	Toxic Blood	1	86f4f7bb02ae04ca5cc7fc9cc71b66ae0f066251569ce366137ee047f662c761	unlabeled-paragraphs-not-after-effect
 ref/order/order-of-the-ennead-star	Subjugate (Ex)	1	8f064a3a17aff8bced38dffe4a986e462f4577c342cd32209b809e84cf2e21ad	action-first-pair: print decides the order
 ref/order/order-of-the-green	Favored Terrain (Ex)	1	ecf163147a7b5f38c576da3d0678cd2477a21a214f9998c0f5dd05639138fcd6	no-effect-row
 ref/order/order-of-the-hammer	Mighty Bash (Ex)	1	a2bde8a869996e6fdbdba79ba0a7befb5a9caddc1229c0841a977c7875b933aa	multiple-effect-rows
@@ -122,16 +104,12 @@ ref/sorcbloodline/impossible	Spontaneous Generation	1	1b66cf80b4e34787a71c766332
 ref/sorcbloodline/martyred	Sacrificial Exchange (Su)	1	b2ebfcacd777153081d60c724d9da54169a1c7f849e4f9893bac9aaf54f299eb	unlabeled-paragraphs-not-after-effect
 ref/sorcbloodline/nanite	Nanite Strike (Ex)	1	53d2aef137a6dceca28a3950226de3615a356f723939df72eaeda6990a3f79ec	action-group-crosses-row; upgrade-keeps-capital: Weapons
 ref/sorcbloodline/nanite	Living Swarm (Su)	1	f7793f66fb451fe7cbaf5c537ea07ce11c4ec687c6d238243b5d782cc042f9c4	multiple-effect-rows
-ref/sorcbloodline/pestilence	Pestilential Breath (Su)	1	e469cdc329253b771fd488dc02283802d99074a192a69b7f7e1febd3c98ca8f8	unlabeled-paragraphs-not-after-effect
 ref/sorcbloodline/phoenix	The Unseen World (Su)	1	cfca6d35f812628307e5db8045525445502f1e0697dd3b877c2810b2b4bee364	no-effect-row
 ref/sorcbloodline/scorpion	Progenitor's Sting (Sp)	1	6d0d74fd1e2eee7e0cdf564f649adc3c95ecac2a645879368de5bf2e5d494137	action-group-crosses-row
 ref/sorcbloodline/scorpion	Sudden Sting (Ex, Sp)	1	77f31743a2c080b71131541982f9d80651158455b734bf88b6ddabf28fd43056	numbered-effect-label: Ability2
 ref/sorcbloodline/shapechanger	Vortex of Flesh (Su)	1	a166327eebfc7eb564975053fcbcafac37bdf4b1742fd88e5d77737f8b655abe	unlabeled-paragraphs-not-after-effect
-ref/spirit/beldam-i	Princely Humor (Su)	1	b86334838c5144c235a55a2945ea08d89d5b5ea6f9fad89bb33f20db857274b9	numbered-effect-label: Ability2
 ref/spirit/hierophant	Overflowing Grace (Su)	1	62b3693907be3c415cbeeceb8c6fddeac62c19979716600136b29d33b62fe4c5	numbered-effect-label: Ability2
-ref/spirit/taldaris	First Emperor's Order (Su)	1	91cda435ead14c349756dbca40569717ffad60aeebaad6afe80e7f6cf3274887	multiple-effect-rows
 ref/talent/bomber	Bomb (Su)	1	14f59ea1fb8b400d22e33f822ca741f2d60e8f2c18e4f37382be40418c6c5702	unmapped-action: Info
-ref/talent/combat-swipe-unchained-rogue	Combat Swipe (Unchained Rogue)	1	b0e61a1fc50830bb277721acf9d382abcb411ed3b74aa2d5714e1895a4d6cb69	unlabeled-paragraphs-not-after-effect
 ref/talent/expert-cypher	Expert Cypher (Ex)	1	ae33a6ee34ac248bce3ed16452f04662f35d6b609174cc654b3a4c7d27e5ebe0	numbered-effect-label: Ability2; multiple-effect-rows
 ref/talent/umbral-gear	Umbral Gear (Su)	1	5482826208f1212e2fa865b4cfd08098cfb8b00d5b06829899566512243a7967	action-without-one-group
 ref/unchevolution/large	Large (Ex)	1	c22504fd908bbbb01e4887a044ac7e94c4d16f5f7be02b7454bea9d392a25cb5	unlabeled-paragraphs-not-after-effect

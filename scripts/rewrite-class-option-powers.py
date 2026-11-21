@@ -35,6 +35,16 @@ Files
     (with any colon), occurrence among the candidates with that name in the entry, the SHA-256
     of the original span, and the reasons.
 
+`power-exceptions.toml` (corpus root; read by `cargo xtask corpus-check` too)
+    The powers that print cannot settle and that stay in a non-canonical form on purpose: one
+    `[[exception]]` each with `id`, `name`, `occurrence`, `span_sha256` (the hash of the original
+    span, as for a resolution), `reason` and `print` (book title and page, or why none exists).
+    The app's check skips a failing power that this file names. The script checks the file:
+    an exception applies only to the exact span it was made for; an exception whose span changed
+    is stale, one that matches no candidate is orphaned, and one whose power passes validation
+    is obsolete. `--check` and `--write` fail on each until it is removed or redone. An excepted
+    power leaves the review queue.
+
 `scripts/class-option-power-resolutions.toml`
     The hand-made replacements, one `[[resolution]]` each: `id`, `name`, `occurrence`,
     `span_sha256`, `print` (book and page) and `replacement`: a power that passes validation,
@@ -127,6 +137,7 @@ ABILITY_TAG = re.compile(r"\s*\((?:Ex|Su|Sp)(?:(?:, | or | and )(?:Ex|Su|Sp))*\)
 
 QUEUE_FILE = "scripts/class-option-power-queue.tsv"
 RESOLUTIONS_FILE = "scripts/class-option-power-resolutions.toml"
+EXCEPTIONS_FILE = "power-exceptions.toml"
 QUEUE_HEADER = "entry_id\toriginal_name\toccurrence\tspan_sha256\treasons"
 
 # Seeded print items: (entry id, original name, occurrence) -> reason. The decision seeds
@@ -735,6 +746,33 @@ def load_resolutions(path: Path) -> dict[tuple[str, str, int], Resolution]:
     return out
 
 
+@dataclass(frozen=True)
+class PowerException:
+    id: str
+    name: str
+    occurrence: int
+    span_sha256: str
+    reason: str
+    print: str
+
+
+def load_exceptions(path: Path) -> dict[tuple[str, str, int], PowerException]:
+    """`power-exceptions.toml`. A missing file holds no exception."""
+    if not path.exists():
+        return {}
+    data = tomllib.loads(path.read_text())
+    out: dict[tuple[str, str, int], PowerException] = {}
+    for r in data.get("exception", []):
+        exc = PowerException(r["id"], r["name"], r["occurrence"], r["span_sha256"], r["reason"], r["print"])
+        key = (exc.id, exc.name, exc.occurrence)
+        if key in out:
+            raise SystemExit(f"{path}: two exceptions for {key}")
+        if not exc.reason.strip() or not exc.print.strip():
+            raise SystemExit(f"{path}: the exception for {key} needs a reason and a print reference")
+        out[key] = exc
+    return out
+
+
 def resolution_blocks(res: Resolution) -> list[Block]:
     return parse_blocks(res.replacement.strip("\n").split("\n"))
 
@@ -771,6 +809,7 @@ class Outcome:
     name: str
     occurrence: int
     status: str            # valid | rewritten | queued | resolved | resolution-noop | stale
+                           # | excepted | stale-exception | obsolete-exception
     reasons: list[str]
     sha: str
 
@@ -784,7 +823,7 @@ def action_first_pair(run: list[Block]) -> bool:
 
 
 def process_body(entry_id: str, lines: list[str], resolutions,
-                 rewrite: bool = True) -> tuple[list[str], list[Outcome]]:
+                 rewrite: bool = True, exceptions=None) -> tuple[list[str], list[Outcome]]:
     """The new body lines and one outcome per candidate. With `rewrite` off, only resolutions
     change the text; the outcomes still say what the rewrite would do."""
     blocks = parse_blocks(lines)
@@ -798,7 +837,19 @@ def process_body(entry_id: str, lines: list[str], resolutions,
         replacement: list[tuple[str, ...]] | None = None
         status, reasons = "valid", []
         res = resolutions.get(key)
-        if res and res.span_sha256 == sha:
+        exc = (exceptions or {}).get(key)
+        if exc and res:
+            status, reasons = "queued", ["both-exception-and-resolution"]
+        elif exc and exc.span_sha256 != sha:
+            status, reasons = "queued", ["stale-exception"]
+            outcomes.append(Outcome(entry_id, c.name, c.occurrence, "stale-exception", ["stale-exception"], sha))
+        elif exc:
+            # Excepted: the power stays as it is. An exception for a power that passes is obsolete.
+            if not validate(run) and not action_first_pair(run):
+                status = "obsolete-exception"
+            else:
+                status = "excepted"
+        elif res and res.span_sha256 == sha:
             replacement = [tuple(b.lines) for b in resolution_blocks(res)]
             status = "resolved"
         elif res and span_text(run) == resolution_power_text(res):
@@ -851,12 +902,12 @@ def class_option_entries(corpus: Path):
     return found
 
 
-def run_corpus(corpus: Path, resolutions, families=None, write=False, rewrite=True):
+def run_corpus(corpus: Path, resolutions, families=None, write=False, rewrite=True, exceptions=None):
     outcomes: list[Outcome] = []
     changed: list[Path] = []
     for entry_id, path, parts in class_option_entries(corpus):
         body = parts[2].split("\n")
-        new, found = process_body(entry_id, body, resolutions, rewrite)
+        new, found = process_body(entry_id, body, resolutions, rewrite, exceptions)
         outcomes.extend(found)
         family = entry_id.split("/")[1]
         if new != body and (families is None or family in families):
@@ -883,6 +934,12 @@ def unused_resolutions(resolutions, outcomes: list[Outcome]):
     return orphaned, obsolete
 
 
+def unused_exceptions(exceptions, outcomes: list[Outcome]):
+    """The exceptions whose key matches no candidate."""
+    used = {(o.entry_id, o.name, o.occurrence) for o in outcomes}
+    return sorted(set(exceptions) - used)
+
+
 def queue_text(outcomes: list[Outcome]) -> str:
     rows = [QUEUE_HEADER]
     for o in outcomes:
@@ -899,8 +956,9 @@ def summarize(outcomes: list[Outcome], changed: list[Path]) -> str:
         if o.status == "queued":
             for code in {r.split(":")[0] for r in o.reasons}:
                 reasons[code] += 1
-    lines = [f"candidates (rewrite discovery): {sum(v for k, v in status.items() if k != 'stale')}"]
-    for key in ("valid", "rewritten", "queued", "resolved", "resolution-noop", "stale"):
+    lines = [f"candidates (rewrite discovery): "
+             f"{sum(v for k, v in status.items() if k not in ('stale', 'stale-exception'))}"]
+    for key in ("valid", "rewritten", "queued", "resolved", "resolution-noop", "excepted", "stale"):
         lines.append(f"  {key}: {status.get(key, 0)}")
     lines.append(f"entries changed: {len(changed)}")
     lines.append("queued by reason (a power can have several):")
@@ -1244,6 +1302,30 @@ def self_test() -> int:
     flat = parse_blocks("**N (Su)**\n\n**Passive:** one two three four\n".split("\n"))
     expect(span_sha(wrapped[:2]) == span_sha(flat[:2]), "the span hash must not depend on wrapping")
 
+    # Exceptions: a failing power that an exception names (with the right span hash) is excepted,
+    # is left unchanged and leaves the queue; a changed span is stale and queued; a power that
+    # passes is obsolete; a key that matches no candidate is orphaned.
+    failing_body = "**Reckoning**\n\n**Benefit:** A bonus.\n\n**Reckoning:** Do it.\n\nProse about the order.\n"
+    failing_run = parse_blocks(failing_body.split("\n"))
+    sha = span_sha(failing_run[:4])
+    key = ("ref/hkorder/x", "Reckoning", 1)
+
+    def exc(span):
+        return {key: PowerException(*key, span, "print cannot settle it", "Some Book p. 1")}
+    new, outs = process_body(key[0], failing_body.split("\n"), {}, exceptions=exc(sha))
+    expect([o.status for o in outs] == ["excepted"] and new == failing_body.split("\n"),
+           f"an exception leaves the failing power unchanged: {outs}")
+    expect(queue_text(outs) == QUEUE_HEADER + "\n", "an excepted power is not queued")
+    new, outs = process_body(key[0], failing_body.split("\n"), {}, exceptions=exc("0" * 64))
+    expect([o.status for o in outs] == ["stale-exception", "queued"], f"a changed span is stale: {outs}")
+    passing_body = "**Reckoning**\n\n**Benefit:** A bonus.\n"
+    new, outs = process_body(key[0], passing_body.split("\n"), {},
+                             exceptions=exc(span_sha(parse_blocks(passing_body.split("\n")))))
+    expect([o.status for o in outs] == ["obsolete-exception"], f"a passing power is obsolete: {outs}")
+    expect(unused_exceptions(exc(sha), outs) == [], "a matched exception is not orphaned")
+    expect(unused_exceptions({("ref/gone", "Gone", 1): None}, outs) == [("ref/gone", "Gone", 1)],
+           "an orphaned exception is reported")
+
     for message in failures:
         print("FAIL", message)
     print(f"self-test: {len(FIXTURES)} fixtures, {len(failures)} failures")
@@ -1266,13 +1348,14 @@ def main() -> int:
     corpus = Path(args.corpus)
     families = set(args.families.split(",")) if args.families else None
     resolutions = load_resolutions(corpus / RESOLUTIONS_FILE)
+    exceptions = load_exceptions(corpus / EXCEPTIONS_FILE)
     bad = [f"{r.id} {r.name} #{r.occurrence}: {m}" for r in resolutions.values() for m in check_resolution(r)]
     if bad:
         print("\n".join("invalid resolution: " + b for b in bad))
         return 1
     # Dry run first: nothing is written while a resolution is stale, orphaned or obsolete.
     outcomes, changed = run_corpus(corpus, resolutions, families, write=False,
-                                   rewrite=not args.resolutions_only)
+                                   rewrite=not args.resolutions_only, exceptions=exceptions)
     print(summarize(outcomes, changed))
     stale = [o for o in outcomes if o.status == "stale"]
     orphaned, obsolete = unused_resolutions(resolutions, outcomes)
@@ -1283,6 +1366,15 @@ def main() -> int:
         problems.append("orphaned resolution (matches no candidate): %s %s #%d" % key)
     for key in obsolete:
         problems.append("obsolete resolution (a section label is no power): %s %s #%d" % key)
+    for o in outcomes:
+        if o.status == "stale-exception":
+            problems.append(f"stale exception (the span changed): {o.entry_id} {o.name} #{o.occurrence}")
+        elif o.status == "obsolete-exception":
+            problems.append(f"obsolete exception (the power passes): {o.entry_id} {o.name} #{o.occurrence}")
+        elif o.reasons == ["both-exception-and-resolution"]:
+            problems.append(f"an exception and a resolution for one power: {o.entry_id} {o.name} #{o.occurrence}")
+    for key in unused_exceptions(exceptions, outcomes):
+        problems.append("orphaned exception (matches no candidate): %s %s #%d" % key)
     for line in problems:
         print(line)
     queue = corpus / QUEUE_FILE
@@ -1291,7 +1383,8 @@ def main() -> int:
             print("nothing written: fix the resolutions first")
             return 1
         if args.write:
-            run_corpus(corpus, resolutions, families, write=True, rewrite=not args.resolutions_only)
+            run_corpus(corpus, resolutions, families, write=True, rewrite=not args.resolutions_only,
+                       exceptions=exceptions)
         queue.write_text(queue_text(outcomes))
         return 0
     if args.check:
