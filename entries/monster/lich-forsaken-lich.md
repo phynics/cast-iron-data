@@ -15,6 +15,7 @@ page = "82"
 kind = "creature"
 cr = "12"
 creature_type = "undead"
+subtypes = ["augmented humanoid"]
 size = "medium"
 alignment = "neutral evil"
 ac = "21/11/21"
@@ -38,8 +39,6 @@ dry, stretched skin._
 
 **Human lich [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 11**
 
-**augment:** Humanoid
-
 **aura:** delusory aura (100 ft.)
 
 **Initiative:** +0
@@ -51,6 +50,8 @@ dry, stretched skin._
 **Perception:** +20
 
 **Senses:** Darkvision 60 ft.
+
+**Subtype:** Augmented humanoid
 
 **Type:** undead
 
