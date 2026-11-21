@@ -17,7 +17,8 @@ page = "90"
 [fields]
 kind = "archetype"
 trades = [
-  { alters = "Patron, 1st-level hex" },
+  { alters = "Patron", feature = "patron-spells", power = "patron" },
+  { alters = "1st-level hex", feature = "hex", levels = [1] },
 ]
 +++
 

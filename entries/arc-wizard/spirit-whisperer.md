@@ -18,7 +18,8 @@ page = "133"
 kind = "archetype"
 trades = [
   { replaces = "Spellbook", feature = "spellbooks" },
-  { replaces = "Arcane school, 20th-level bonus feat" },
+  { replaces = "Arcane school", feature = "arcane-school" },
+  { replaces = "20th-level bonus feat", feature = "bonus-feats", levels = [20] },
   { alters = "Arcane bond", feature = "arcane-bond" },
   { alters = "5th-, 10th-, and 15th-level bonus feats", feature = "bonus-feats", levels = [5, 10, 15] },
 ]

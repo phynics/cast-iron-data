@@ -19,7 +19,8 @@ kind = "archetype"
 trades = [
   { replaces = "Smite evil", feature = "smite-evil" },
   { replaces = "Divine grace", feature = "divine-grace" },
-  { replaces = "Divine health, 3rd-, 9th-, and 15th-level mercies" },
+  { replaces = "Divine health", feature = "divine-health" },
+  { replaces = "3rd-, 9th-, and 15th-level mercies", feature = "mercy", levels = [3, 9, 15] },
   { replaces = "Spells", feature = "spells" },
   { replaces = "Channel positive energy", feature = "channel-positive-energy" },
   { replaces = "Divine bond", feature = "divine-bond" },

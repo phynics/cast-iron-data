@@ -15,8 +15,9 @@ ref/arc-alchemist/grenadier	archetype	5	replaces	Poison immunity	no-heading
 ref/arc-alchemist/grenadier-mc	archetype	5	replaces	Poison immunity	no-heading			
 ref/arc-alchemist/herbalist	archetype	5	replaces	poison immunity	no-heading			
 ref/arc-alchemist/herbalist	archetype	7	alters	the alchemist's key ability score	no-heading			
-ref/arc-alchemist/horticulturist	archetype	1	replaces	Mutagen, 2nd-level discovery	no-heading		mutagen	
-ref/arc-alchemist/horticulturist	archetype	4	replaces	poison immunity	no-heading		mutagen	
+ref/arc-alchemist/horticulturist	archetype	1	replaces	Mutagen	split-part			
+ref/arc-alchemist/horticulturist	archetype	2	replaces	2nd-level discovery	split-part			
+ref/arc-alchemist/horticulturist	archetype	5	replaces	poison immunity	no-heading		mutagen	
 ref/arc-alchemist/ice-chemist	archetype	2	replaces	poison immunity	no-heading			
 ref/arc-alchemist/oozemaster	archetype	3	replaces	poison immunity	no-heading			
 ref/arc-alchemist/plague-bringer	archetype	3	replaces	poison immunity	no-heading			
@@ -673,10 +674,11 @@ ref/arc-investigator/dread-investigator	archetype	3	replaces	immunity	no-heading
 ref/arc-investigator/gravedigger	archetype	5	replaces	poison immunity	no-heading			
 ref/arc-investigator/gravedigger	archetype	10	alters	Investigator talents	duplicate-feature	investigator-talent		
 ref/arc-investigator/guardian-of-immortality	archetype	4	replaces	Immunity to poison	no-heading			
-ref/arc-investigator/hallucinist	archetype	1	replaces	Trapfinding, 3rd-level trap sense boost	no-heading		trapfinding	
-ref/arc-investigator/hallucinist	archetype	4	replaces	All instances of poison resistance	no-heading		trapfinding	
-ref/arc-investigator/hallucinist	archetype	5	replaces	poison immunity	no-heading		trapfinding	
-ref/arc-investigator/hallucinist	archetype	8	replaces	All remaining trap sense	no-heading		trapfinding	
+ref/arc-investigator/hallucinist	archetype	1	replaces	Trapfinding	split-part			
+ref/arc-investigator/hallucinist	archetype	2	replaces	3rd-level trap sense boost	split-part			
+ref/arc-investigator/hallucinist	archetype	5	replaces	All instances of poison resistance	no-heading		trapfinding	
+ref/arc-investigator/hallucinist	archetype	6	replaces	poison immunity	no-heading		trapfinding	
+ref/arc-investigator/hallucinist	archetype	9	replaces	All remaining trap sense	no-heading		trapfinding	
 ref/arc-investigator/lamplighter	archetype	3	replaces	poison immunity	no-heading			
 ref/arc-investigator/lepidstadt-inspector	archetype	4	replaces	poison immunity	no-heading			
 ref/arc-investigator/majordomo	archetype	2	replaces	All instances of trap sense	no-heading			
@@ -712,7 +714,8 @@ ref/arc-kineticist/elemental-annihilator	archetype	5	replaces	6th-, 12th-, and 1
 ref/arc-kineticist/elemental-annihilator	archetype	6	replaces	Omnikinesis, 20th-level utility wild talent	no-heading		omnikinesis	
 ref/arc-kineticist/elemental-annihilator	archetype	8	alters	the basic utility wild talent normally granted by selecting an element	no-heading			
 ref/arc-kineticist/elemental-ascetic	archetype	5	alters	Key ability scores of wild talents	no-heading			
-ref/arc-kineticist/elemental-purist	archetype	1	replaces	Expanded element, 11th- and 19th-level infusions	no-heading		expanded-element	
+ref/arc-kineticist/elemental-purist	archetype	1	replaces	Expanded element	split-part			
+ref/arc-kineticist/elemental-purist	archetype	2	replaces	11th- and 19th-level infusions	split-part			
 ref/arc-kineticist/elysiokineticist	archetype	2	replaces	Basic phytokinesis utility wild talent granted by the wood element	no-heading			
 ref/arc-kineticist/elysiokineticist	archetype	4	replaces	Flesh of wood defense wild talent granted by the wood element	no-heading			
 ref/arc-kineticist/ioun-kineticist	archetype	1	replaces	The ability score boosts granted by elemental overflow	no-heading			
@@ -731,7 +734,8 @@ ref/arc-magus/iron-ring-striker	archetype	5	alters	Weapon proficiency	no-heading
 ref/arc-magus/iron-ring-striker	archetype	6	alters	Spellcasting	no-heading			
 ref/arc-magus/jistkan-artificer	archetype	2	alters	Spellcasting	no-heading			
 ref/arc-magus/mindblade	archetype	1	replaces	Spellcasting	no-heading			
-ref/arc-magus/myrmidarch	archetype	4	replaces	Knowledge pool, 10th-level fighter training	no-heading		knowledge-pool	
+ref/arc-magus/myrmidarch	archetype	4	replaces	Knowledge pool	split-part			
+ref/arc-magus/myrmidarch	archetype	5	replaces	10th-level fighter training	split-part			
 ref/arc-magus/puppetmaster	archetype	9	alters	Skills	no-heading			
 ref/arc-magus/spell-dancer	archetype	1	replaces	The magus's ability to expend points from his arcane pool as a swift action to grant any weapon he is holding magic bonuses for 1 minute	no-heading			
 ref/arc-magus/spire-defender	archetype	1	replaces	Weapon proficiencies	no-heading			
@@ -753,9 +757,10 @@ ref/arc-mesmerist/spirit-walker	archetype	6	alters	Spell list	no-heading
 ref/arc-mesmerist/umbral-mesmerist	archetype	4	alters	Spellcasting	no-heading			
 ref/arc-mesmerist/vexing-trickster	archetype	6	replaces	touch treatment (break enchantment)	unusable-qualifier			
 ref/arc-mesmerist/vizier	archetype	2	replaces	bold stare improvement gained at 3rd level	no-heading			
-ref/arc-mesmerist/vox	archetype	1	replaces	Towering ego, 10th-level mesmerist trick	no-heading		towering-ego	
-ref/arc-mesmerist/vox	archetype	2	replaces	touch treatment (break enchantment)	unusable-qualifier		towering-ego	
-ref/arc-mesmerist/vox	archetype	6	alters	Spellcasting	no-heading			
+ref/arc-mesmerist/vox	archetype	1	replaces	Towering ego	split-part			
+ref/arc-mesmerist/vox	archetype	2	replaces	10th-level mesmerist trick	split-part			
+ref/arc-mesmerist/vox	archetype	3	replaces	touch treatment (break enchantment)	unusable-qualifier		towering-ego	
+ref/arc-mesmerist/vox	archetype	7	alters	Spellcasting	no-heading			
 ref/arc-monk/disciple-of-wholeness	archetype	1	replaces	The ability to spend ki to gain an extra attack during a flurry of blows	no-heading			
 ref/arc-monk/elemental-monk	archetype	1	replaces	Alignment requirement	no-heading			
 ref/arc-monk/elemental-monk	archetype	2	replaces	All bonus feats	no-heading			
@@ -794,17 +799,22 @@ ref/arc-ninja/frozen-shadow	archetype	1	replaces	Ability to treat Acrobatics jum
 ref/arc-ninja/frozen-shadow	archetype	2	replaces	ability to reduce Acrobatics jump checks by half	no-heading			
 ref/arc-ninja/mask-of-the-living-god	archetype	2	replaces	Spend ki to make an additional attack	no-heading			
 ref/arc-occultist/battle-host	archetype	10	alters	spellcasting	no-heading			
-ref/arc-occultist/curator	archetype	1	replaces	One of the two occultist implements learned at 1st level, 6th- and 14th-level implements	no-heading			
-ref/arc-occultist/curator	archetype	4	replaces	Outsider contact	no-heading			
+ref/arc-occultist/curator	archetype	1	replaces	One of the two occultist implements learned at 1st level	split-part			
+ref/arc-occultist/curator	archetype	2	replaces	6th- and 14th-level implements	split-part			
+ref/arc-occultist/curator	archetype	5	replaces	Outsider contact	no-heading			
 ref/arc-occultist/extemporaneous-channeler	archetype	5	alters	Weapon proficiencies	no-heading			
 ref/arc-occultist/occult-historian	archetype	4	replaces	Outside contact 2, 3, and 4	unusable-qualifier			
-ref/arc-occultist/planar-harmonizer	archetype	2	replaces	Shift focus, 7th-level focus power	no-heading		shift-focus aura-sight	
-ref/arc-occultist/planar-harmonizer	archetype	3	replaces	Aura sight, 5th-level focus power	no-heading		shift-focus aura-sight	
+ref/arc-occultist/planar-harmonizer	archetype	2	replaces	Shift focus	split-part			
+ref/arc-occultist/planar-harmonizer	archetype	3	replaces	7th-level focus power	split-part			
+ref/arc-occultist/planar-harmonizer	archetype	4	replaces	Aura sight	split-part			
+ref/arc-occultist/planar-harmonizer	archetype	5	replaces	5th-level focus power	split-part			
 ref/arc-occultist/shair	archetype	6	alters	spellcasting	no-heading			
 ref/arc-occultist/silksworn	archetype	9	alters	Implements	duplicate-feature	implements		
-ref/arc-occultist/talisman-crafter	archetype	4	replaces	Aura sight, 5th- and 17th-level focus powers	no-heading		aura-sight	
-ref/arc-occultist/tome-eater	archetype	1	replaces	Shift focus, 6th-level implement	no-heading		shift-focus	
-ref/arc-occultist/tome-eater	archetype	9	alters	spellcasting	no-heading			
+ref/arc-occultist/talisman-crafter	archetype	4	replaces	Aura sight	split-part			
+ref/arc-occultist/talisman-crafter	archetype	5	replaces	5th- and 17th-level focus powers	split-part			
+ref/arc-occultist/tome-eater	archetype	1	replaces	Shift focus	split-part			
+ref/arc-occultist/tome-eater	archetype	2	replaces	6th-level implement	split-part			
+ref/arc-occultist/tome-eater	archetype	10	alters	spellcasting	no-heading			
 ref/arc-oracle/ancient-lorekeeper	archetype	1	replaces	Bonus skills from the oracle's mystery	no-heading			
 ref/arc-oracle/ancient-lorekeeper	archetype	2	replaces	Bonus spells gained from the oracle's mystery	no-heading			
 ref/arc-oracle/community-guardian	archetype	1	replaces	Bonus skills from the oracle's mystery	no-heading			
@@ -855,7 +865,8 @@ ref/arc-paladin/iroran-paladin	archetype	3	replaces	and shields	no-heading
 ref/arc-paladin/knight-of-coins	archetype	3	alters	Skill ranks per level	no-heading			
 ref/arc-paladin/pearl-seeker	archetype	5	alters	Armor proficiency	no-heading			
 ref/arc-paladin/silver-champion	archetype	7	alters	Spellcasting	no-heading			
-ref/arc-paladin/stonelord	archetype	3	replaces	Divine health, 3rd-, 9th-, and 15th-level mercies	no-heading		divine-health	
+ref/arc-paladin/stonelord	archetype	3	replaces	Divine health	split-part			
+ref/arc-paladin/stonelord	archetype	4	replaces	3rd-, 9th-, and 15th-level mercies	split-part			
 ref/arc-paladin/tempered-champion	archetype	1	replaces	Spellcasting	no-heading			
 ref/arc-paladin/tortured-crusader	archetype	4	alters	Spellcasting	no-heading			
 ref/arc-paladin/tortured-crusader	archetype	7	alters	Class skills	no-heading			
@@ -867,19 +878,22 @@ ref/arc-paladin/vindictive-bastard	archetype	13	alters	Aura	no-heading
 ref/arc-paladin/virtuous-bravo	archetype	2	replaces	Spellcasting	no-heading			
 ref/arc-paladin/virtuous-bravo	archetype	5	alters	Armor proficiency	no-heading			
 ref/arc-psychic/amnesiac	archetype	1	alters	Spellcasting	no-heading			
-ref/arc-psychic/esoteric-starseeker	archetype	1	replaces	Discipline spells, 1st- and 11th-level phrenic amplifications	no-heading			
+ref/arc-psychic/esoteric-starseeker	archetype	1	replaces	Discipline spells	split-part			
+ref/arc-psychic/esoteric-starseeker	archetype	2	replaces	1st- and 11th-level phrenic amplifications	split-part			
 ref/arc-psychic/formless-adept	archetype	2	replaces	discipline powers	no-heading			
 ref/arc-psychic/formless-adept	archetype	4	replaces	Discipline spells	no-heading			
 ref/arc-psychic/magaambyan-telepath	archetype	1	replaces	Discipline spells	no-heading			
 ref/arc-psychic/psychic-duelist	archetype	1	replaces	4th-level discipline spell	no-heading			
-ref/arc-psychic/terror-weaver	archetype	2	replaces	Telepathic bond, 11th- and 19th-level phrenic amplifications	no-heading		telepathic-bond	
+ref/arc-psychic/terror-weaver	archetype	2	replaces	Telepathic bond	split-part			
+ref/arc-psychic/terror-weaver	archetype	3	replaces	11th- and 19th-level phrenic amplifications	split-part			
 ref/arc-ranger/battle-scout	archetype	1	replaces	2nd favored enemy	ordinal-is-not-a-level			
 ref/arc-ranger/battle-scout	archetype	2	replaces	3rd favored enemy	ordinal-is-not-a-level			
 ref/arc-ranger/battle-scout	archetype	3	replaces	4th favored enemy	ordinal-is-not-a-level			
 ref/arc-ranger/blightwarden	archetype	2	replaces	1st favored terrain	ordinal-is-not-a-level			
 ref/arc-ranger/cinderwalker	archetype	1	replaces	1st favored terrain	ordinal-is-not-a-level			
 ref/arc-ranger/dandy	archetype	6	alters	Spellcasting	no-heading			
-ref/arc-ranger/drake-warden	archetype	1	replaces	Hunter's bond, 2nd favored enemy	no-heading		hunter-s-bond	
+ref/arc-ranger/drake-warden	archetype	1	replaces	Hunter's bond	split-part			
+ref/arc-ranger/drake-warden	archetype	2	replaces	2nd favored enemy	split-part			
 ref/arc-ranger/groom	archetype	3	replaces	1st favored terrain	ordinal-is-not-a-level			
 ref/arc-ranger/ilsurian-archer	archetype	3	replaces	Spellcasting ability	no-heading			
 ref/arc-ranger/ilsurian-archer	archetype	4	replaces	Swift tracking	no-heading			
@@ -888,7 +902,8 @@ ref/arc-ranger/raven-master	archetype	6	alters	Spellcasting	no-heading
 ref/arc-ranger/sable-company-marine	archetype	1	replaces	Hunter's bond (but see text)	unusable-qualifier			
 ref/arc-ranger/skirmisher	archetype	1	replaces	Spellcasting ability	no-heading			
 ref/arc-ranger/stormwalker	archetype	6	alters	Combat style	no-heading			
-ref/arc-ranger/tidal-hunter	archetype	1	replaces	Wild empathy, 6th-level combat style feat	no-heading		wild-empathy	
+ref/arc-ranger/tidal-hunter	archetype	1	replaces	Wild empathy	split-part			
+ref/arc-ranger/tidal-hunter	archetype	2	replaces	6th-level combat style feat	split-part			
 ref/arc-ranger/trapper	archetype	1	replaces	Spellcasting ability	no-heading			
 ref/arc-ranger/trophy-hunter	archetype	2	replaces	All combat style feats	no-heading			
 ref/arc-ranger/warden	archetype	1	replaces	1st favored enemy	ordinal-is-not-a-level			
@@ -916,8 +931,10 @@ ref/arc-rogue/skulking-slayer	archetype	2	replaces	Trap sense +1 and +4	unusable
 ref/arc-rogue/snare-setter	archetype	1	replaces	Sneak attack (but see below)	unusable-qualifier			
 ref/arc-rogue/swamp-poisoner	archetype	3	replaces	Trap sense (core rogue)	unusable-qualifier			
 ref/arc-rogue/swamp-poisoner	archetype	4	replaces	danger sense (unchained rogue)	no-heading			
-ref/arc-rogue/tidal-trickster	archetype	3	replaces	Uncanny dodge, 4th-level rogue talent	no-heading		uncanny-dodge improved-uncanny-dodge	
-ref/arc-rogue/tidal-trickster	archetype	4	replaces	Improved uncanny dodge, 8th-level rogue talent	no-heading		uncanny-dodge improved-uncanny-dodge	
+ref/arc-rogue/tidal-trickster	archetype	3	replaces	Uncanny dodge	split-part			
+ref/arc-rogue/tidal-trickster	archetype	4	replaces	4th-level rogue talent	split-part			
+ref/arc-rogue/tidal-trickster	archetype	5	replaces	Improved uncanny dodge	split-part			
+ref/arc-rogue/tidal-trickster	archetype	6	replaces	8th-level rogue talent	split-part			
 ref/arc-rogue/toxic-talon	archetype	5	alters	Weapon proficiencies	no-heading			
 ref/arc-samurai/sword-saint	archetype	2	replaces	Mounted charge	no-heading			
 ref/arc-samurai/warrior-poet	archetype	1	replaces	Proficiency with medium armor	no-heading			
@@ -980,7 +997,9 @@ ref/arc-sorcerer/seeker	archetype	2	replaces	3rd-level bloodline power	no-headin
 ref/arc-sorcerer/seeker	archetype	3	replaces	15th-level bloodline power	no-heading			
 ref/arc-sorcerer/sorcerer-of-sleep	archetype	1	replaces	Bloodline arcana	no-heading			
 ref/arc-sorcerer/sorcerer-of-sleep	archetype	3	replaces	1st-level bloodline power	no-heading			
-ref/arc-sorcerer/stone-warder	archetype	1	replaces	Eschew Materials, 3rd-level bloodline spell, 7th-level bloodline feat	no-heading		eschew-materials	
+ref/arc-sorcerer/stone-warder	archetype	1	replaces	Eschew Materials	split-part			
+ref/arc-sorcerer/stone-warder	archetype	2	replaces	3rd-level bloodline spell	split-part			
+ref/arc-sorcerer/stone-warder	archetype	3	replaces	7th-level bloodline feat	split-part			
 ref/arc-sorcerer/tattooed-sorcerer	archetype	1	replaces	1st-level bloodline power	no-heading			
 ref/arc-sorcerer/tattooed-sorcerer	archetype	2	replaces	Eschew Materials bonus feat	no-heading			
 ref/arc-sorcerer/tattooed-sorcerer	archetype	3	replaces	7th-level bloodline feat	no-heading			
@@ -1059,8 +1078,9 @@ ref/arc-swashbuckler/flying-blade	archetype	3	replaces	Menacing swordplay	no-hea
 ref/arc-swashbuckler/flying-blade	archetype	4	replaces	Targeted strike	no-heading			
 ref/arc-swashbuckler/flying-blade	archetype	5	replaces	Perfect thrust	no-heading			
 ref/arc-swashbuckler/flying-blade	archetype	9	alters	Bleeding wound	no-heading			
-ref/arc-swashbuckler/guiding-blade	archetype	1	replaces	Bonus feats, 1st-, 7th-, and 15th-level deeds	no-heading		bonus-feats	
-ref/arc-swashbuckler/guiding-blade	archetype	3	replaces	Kip-up	no-heading		bonus-feats	
+ref/arc-swashbuckler/guiding-blade	archetype	1	replaces	Bonus feats	split-part			
+ref/arc-swashbuckler/guiding-blade	archetype	2	replaces	1st-, 7th-, and 15th-level deeds	split-part			
+ref/arc-swashbuckler/guiding-blade	archetype	4	replaces	Kip-up	no-heading		bonus-feats	
 ref/arc-swashbuckler/inspired-blade	archetype	2	replaces	Bleeding wound	no-heading			
 ref/arc-swashbuckler/mouser	archetype	1	replaces	Opportune parry and riposte	no-heading			
 ref/arc-swashbuckler/mouser	archetype	2	replaces	Menacing swordplay	no-heading			
@@ -1113,14 +1133,16 @@ ref/arc-vigilante/avenging-beast	archetype	6	alters	Skill ranks per level	no-hea
 ref/arc-vigilante/brute	archetype	4	alters	Base saving throws	no-heading			
 ref/arc-vigilante/cabalist	archetype	6	alters	Skill ranks per level	no-heading			
 ref/arc-vigilante/magical-child	archetype	3	alters	Skill ranks per level	no-heading			
-ref/arc-vigilante/serial-killer	archetype	2	replaces	4th- and 14th-level vigilante talents, 9th- and 19th-level social talents	no-heading			
+ref/arc-vigilante/serial-killer	archetype	2	replaces	4th- and 14th-level vigilante talents	split-part			
+ref/arc-vigilante/serial-killer	archetype	3	replaces	9th- and 19th-level social talents	split-part			
 ref/arc-vigilante/warlock	archetype	4	alters	Skill ranks per level	no-heading			
 ref/arc-vigilante/warlock	archetype	5	alters	Armor proficiencies	no-heading			
 ref/arc-vigilante/zealot	archetype	3	alters	Weapon proficiencies	no-heading			
 ref/arc-warpriest/forgepriest	archetype	1	replaces	2nd blessing normally gained by a warpriest	no-heading			
 ref/arc-warpriest/jistkan-magistrate	archetype	4	alters	Channel	no-heading			
 ref/arc-warpriest/proclaimer	archetype	3	alters	Spellcasting	no-heading			
-ref/arc-warpriest/proselytizer	archetype	1	replaces	Sacred armor, 3rd-level bonus feat	no-heading		sacred-armor	
+ref/arc-warpriest/proselytizer	archetype	1	replaces	Sacred armor	split-part			
+ref/arc-warpriest/proselytizer	archetype	2	replaces	3rd-level bonus feat	split-part			
 ref/arc-witch/alley-witch	archetype	3	alters	Patron	no-heading			
 ref/arc-witch/ashiftah	archetype	1	replaces	Familiar	no-heading			
 ref/arc-witch/bonded-witch	archetype	1	replaces	Familiar	no-heading			
@@ -1132,8 +1154,9 @@ ref/arc-witch/gravewalker	archetype	1	replaces	Familiar	no-heading
 ref/arc-witch/havocker	archetype	2	replaces	All 2nd-level and higher hexes	no-heading			
 ref/arc-witch/havocker	archetype	5	alters	Familiar	no-heading			
 ref/arc-witch/herb-witch	archetype	2	alters	Patron	no-heading			
-ref/arc-witch/ley-line-guardian	archetype	1	replaces	Familiar, 1st- and 8th-level hexes	no-heading			
-ref/arc-witch/ley-line-guardian	archetype	2	alters	Spellcasting	no-heading			
+ref/arc-witch/ley-line-guardian	archetype	1	replaces	Familiar	split-part			
+ref/arc-witch/ley-line-guardian	archetype	2	replaces	1st- and 8th-level hexes	split-part			
+ref/arc-witch/ley-line-guardian	archetype	3	alters	Spellcasting	no-heading			
 ref/arc-witch/mirror-witch	archetype	1	replaces	Familiar	no-heading			
 ref/arc-witch/nexian-spellspy	archetype	1	replaces	Familiar's ability to deliver touch spells	no-heading			
 ref/arc-witch/nexian-spellspy	archetype	3	alters	Familiar	no-heading			
@@ -1143,26 +1166,31 @@ ref/arc-witch/putrefactor	archetype	5	alters	Familiar	no-heading
 ref/arc-witch/putrefactor	archetype	6	alters	patron	no-heading			
 ref/arc-witch/rhetorician	archetype	2	replaces	All spells granted by the witch's patron	no-heading			
 ref/arc-witch/scarred-witch-doctor	archetype	1	replaces	Familiar	no-heading			
-ref/arc-witch/season-witch	archetype	1	alters	Patron, 1st-level hex	no-heading			
+ref/arc-witch/season-witch	archetype	1	alters	Patron	split-part			
+ref/arc-witch/season-witch	archetype	2	alters	1st-level hex	split-part			
 ref/arc-witch/tatterdemalion	archetype	3	alters	Weapon proficiencies	no-heading			
 ref/arc-witch/venom-siphoner	archetype	2	replaces	the familiar's alertness special ability	no-heading			
 ref/arc-witch/witch-watcher	archetype	1	alters	Spellcasting	no-heading			
-ref/arc-wizard/arcane-warden	archetype	1	replaces	Scribe Scroll, 5th-, 10th-, 15th-, and 20th-level bonus feats	no-heading		scribe-scroll	
-ref/arc-wizard/arcane-warden	archetype	2	replaces	Hand of the apprentice universalist school ability	no-heading		scribe-scroll	
-ref/arc-wizard/arcane-warden	archetype	3	replaces	Metamagic mastery universalist school ability	no-heading		scribe-scroll	
-ref/arc-wizard/chronomancer	archetype	1	replaces	Arcane bond, 10th-, 15th-, and 20th-level bonus feats	no-heading		arcane-bond	
+ref/arc-wizard/arcane-warden	archetype	1	replaces	Scribe Scroll	split-part			
+ref/arc-wizard/arcane-warden	archetype	2	replaces	5th-, 10th-, 15th-, and 20th-level bonus feats	split-part			
+ref/arc-wizard/arcane-warden	archetype	3	replaces	Hand of the apprentice universalist school ability	no-heading		scribe-scroll	
+ref/arc-wizard/arcane-warden	archetype	4	replaces	Metamagic mastery universalist school ability	no-heading		scribe-scroll	
+ref/arc-wizard/chronomancer	archetype	1	replaces	Arcane bond	split-part			
+ref/arc-wizard/chronomancer	archetype	2	replaces	10th-, 15th-, and 20th-level bonus feats	split-part			
 ref/arc-wizard/clocksmith	archetype	1	replaces	School powers granted by the wizard's arcane school	no-heading			
 ref/arc-wizard/cruoromancer	archetype	5	replaces	The 20th-level wizard bonus spell	no-heading			
 ref/arc-wizard/elder-mythos-scholar	archetype	3	replaces	The school ability gained at 8th level	no-heading			
 ref/arc-wizard/elder-mythos-scholar	archetype	5	alters	The 1st-level arcane school ability	no-heading			
-ref/arc-wizard/familiar-adept	archetype	1	replaces	Scribe scroll, 5th- and 10th-level bonus feats	no-heading		scribe-scroll	
+ref/arc-wizard/familiar-adept	archetype	1	replaces	Scribe scroll	split-part			
+ref/arc-wizard/familiar-adept	archetype	2	replaces	5th- and 10th-level bonus feats	split-part			
 ref/arc-wizard/hallowed-necromancer	archetype	1	replaces	Grave touch necromancy school ability	no-heading			
 ref/arc-wizard/hallowed-necromancer	archetype	8	alters	Power over undead necromancy school ability	no-heading			
 ref/arc-wizard/pact-wizard-hhh	archetype	3	alters	Spellcasting	no-heading			
 ref/arc-wizard/scroll-scholar	archetype	1	replaces	Diviner's fortune (if a diviner) or hand of the apprentice (if a universalist)	no-heading			
 ref/arc-wizard/scroll-scholar	archetype	3	replaces	The normal addition of a new 4th-level spell slot; from this point on	no-heading			
 ref/arc-wizard/scroll-scholar	archetype	4	replaces	the wizard has one fewer 4th-level spell slot than other wizards	no-heading			
-ref/arc-wizard/spirit-whisperer	archetype	2	replaces	Arcane school, 20th-level bonus feat	no-heading		arcane-school	
+ref/arc-wizard/spirit-whisperer	archetype	2	replaces	Arcane school	split-part			
+ref/arc-wizard/spirit-whisperer	archetype	3	replaces	20th-level bonus feat	split-part			
 ref/arc-wizard/sword-binder	archetype	2	replaces	bonus school spell slots	no-heading			
 ref/arc-wizard/undead-master	archetype	5	alters	alignment	no-heading			
 ref/arc-wizard/worldseeker	archetype	2	replaces	The school ability normally gained at 6th or 8th level	no-heading			

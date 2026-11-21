@@ -19,8 +19,10 @@ kind = "archetype"
 trades = [
   { replaces = "Trapfinding", feature = "trapfinding" },
   { replaces = "trap sense", feature = "trap-sense" },
-  { replaces = "Uncanny dodge, 4th-level rogue talent" },
-  { replaces = "Improved uncanny dodge, 8th-level rogue talent" },
+  { replaces = "Uncanny dodge", feature = "uncanny-dodge" },
+  { replaces = "4th-level rogue talent", feature = "rogue-talents", levels = [4] },
+  { replaces = "Improved uncanny dodge", feature = "improved-uncanny-dodge" },
+  { replaces = "8th-level rogue talent", feature = "rogue-talents", levels = [8] },
   { alters = "Sneak attack", feature = "sneak-attack" },
 ]
 +++

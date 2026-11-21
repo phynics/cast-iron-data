@@ -17,7 +17,8 @@ page = "8"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Scribe scroll, 5th- and 10th-level bonus feats" },
+  { replaces = "Scribe scroll", feature = "scribe-scroll" },
+  { replaces = "5th- and 10th-level bonus feats", feature = "bonus-feats", levels = [5, 10] },
   { alters = "Arcane bond", feature = "arcane-bond" },
   { alters = "Spellbook", feature = "spellbooks" },
 ]

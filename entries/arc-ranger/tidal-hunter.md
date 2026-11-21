@@ -17,7 +17,8 @@ page = "73"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Wild empathy, 6th-level combat style feat" },
+  { replaces = "Wild empathy", feature = "wild-empathy" },
+  { replaces = "6th-level combat style feat", feature = "combat-style-feat", levels = [6] },
   { replaces = "Track", feature = "track" },
   { replaces = "camouflage", feature = "camouflage" },
   { replaces = "Woodland stride", feature = "woodland-stride" },

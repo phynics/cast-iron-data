@@ -20,7 +20,7 @@ trades = [
   { replaces = "Keen recollection", feature = "keen-recollection" },
   { replaces = "trap sense", feature = "trap-sense" },
   { alters = "Poison lore", feature = "poison-lore" },
-  { alters = "Alchemy and replaces" },
+  { alters = "Alchemy and replaces", feature = "alchemy" },
   { alters = "trapfinding", feature = "trapfinding" },
   { alters = "investigator talent gained at 3rd level", feature = "investigator-talent", levels = [3] },
 ]

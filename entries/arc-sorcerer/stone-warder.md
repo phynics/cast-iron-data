@@ -17,7 +17,9 @@ page = "29"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Eschew Materials, 3rd-level bloodline spell, 7th-level bloodline feat" },
+  { replaces = "Eschew Materials", feature = "eschew-materials" },
+  { replaces = "3rd-level bloodline spell", feature = "bloodline", levels = [3], power = "bloodline spell" },
+  { replaces = "7th-level bloodline feat", feature = "bloodline", levels = [7], power = "bloodline feat" },
 ]
 +++
 

@@ -17,7 +17,8 @@ page = "24"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Sacred armor, 3rd-level bonus feat" },
+  { replaces = "Sacred armor", feature = "sacred-armor" },
+  { replaces = "3rd-level bonus feat", feature = "bonus-feats", levels = [3] },
   { alters = "Weapon and armor proficiencies", feature = "weapon-and-armor-proficiencies" },
   { alters = "Sacred weapon", feature = "sacred-weapon" },
   { alters = "Blessings", feature = "blessings" },

@@ -17,7 +17,8 @@ page = "30"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Arcane bond, 10th-, 15th-, and 20th-level bonus feats" },
+  { replaces = "Arcane bond", feature = "arcane-bond" },
+  { replaces = "10th-, 15th-, and 20th-level bonus feats", feature = "bonus-feats", levels = [10, 15, 20] },
 ]
 +++
 

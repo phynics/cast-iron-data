@@ -17,7 +17,8 @@ page = "32"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "One of the two occultist implements learned at 1st level, 6th- and 14th-level implements" },
+  { replaces = "One of the two occultist implements learned at 1st level", feature = "implements", levels = [1] },
+  { replaces = "6th- and 14th-level implements", feature = "implements", levels = [6, 14] },
   { replaces = "3rd-level focus power", feature = "focus-powers", levels = [3] },
   { replaces = "Shift focus", feature = "shift-focus" },
   { replaces = "Outsider contact", feature = "outside-contact" },

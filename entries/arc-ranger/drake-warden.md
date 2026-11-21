@@ -17,7 +17,8 @@ page = "24"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Hunter's bond, 2nd favored enemy" },
+  { replaces = "Hunter's bond", feature = "hunter-s-bond" },
+  { replaces = "2nd favored enemy", feature = "favored-enemy", levels = [5] },
   { replaces = "swift tracker", feature = "swift-tracker" },
 ]
 +++

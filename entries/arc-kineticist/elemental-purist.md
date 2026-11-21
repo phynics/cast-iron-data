@@ -17,7 +17,8 @@ page = "7"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Expanded element, 11th- and 19th-level infusions" },
+  { replaces = "Expanded element", feature = "expanded-element" },
+  { replaces = "11th- and 19th-level infusions", feature = "infusion", levels = [11, 19] },
   { replaces = "Omnikinesis", feature = "omnikinesis" },
 ]
 +++

@@ -11,6 +11,8 @@ of `trade-review-452-decisions.tsv` into the rows and into the entries:
   fill            build the queue from the baseline, copy each decision onto the rows it covers (first
                   matching decision wins) and fill the citation of every row
   apply           write the `feature`, `class`, `levels` and `power` of every closed row into its entry
+  split           split each composite trade that `trade-splits-452.tsv` lists into its parts: entry, baseline,
+                  queue and adjustment logs move together (see Splits below)
   normalize       write step values as grant levels (see Steps below) and log each change
   check           fail unless the queue equals the baseline, every row is closed and cited, and the
                   entries agree with the rows and with the adjustment log
@@ -41,12 +43,27 @@ reader checked the book page: `trade-evidence-452.tsv` records the printed page,
 `corpus` (no hit and no reading: the entry's own text and the class table settle it, and `evidence_note`
 says why print did not).
 
+Splits. A printed item that names several features at once (`Mutagen, 2nd-level discovery`) is a composite:
+a trade holds one feature. `trade-splits-452.tsv` lists, for each composite that print lets us split, its parts
+in print order: the printed text of each part, and its `feature`, `class`, `levels` and `power`. The parts,
+joined with `, `, must read as the composite (the drift check joins the printed names of the trades with
+commas, so a split never changes what the entry prints). `split` replaces the trade by its parts in the entry,
+replaces the row in the baseline and the queue by one row for each part (reason `split-part`), and renumbers
+the later trades of the entry in the queue, the baseline and the two adjustment logs. This is the one
+command that edits the baseline; the rows of the parts are the only rows that it adds. It decides what to do
+from the entry alone: a trade that is no longer in the entry is a split that is done, so a second run changes
+no byte. A split that the entry holds but a file does not (an interrupted run) is not repaired: `git checkout`
+the corpus and run it again. A composite that print shows to be one feature is resolved by an ordinary
+decision, and one that a split would make print differently (`and` with no comma between the features) is an
+exception with the code `split-blocked`.
+
 Steps. A progression step (`Armor training 2`, `Trap sense +3`, `Judgment 1/day`, `Spirit power (lesser)`)
 is identified by the BASE-CLASS GRANT LEVELS in `levels`, read from the class table of the base class;
 `power` names a stable component (a bardic performance, a deed, a school power) only when the level alone
 is not enough. A step is never a `power`.
 """
 import csv
+import json
 import re
 import sys
 import tomllib
@@ -60,6 +77,8 @@ DECISIONS = ROOT / "scripts/trade-review-452-decisions.tsv"
 ADJUSTMENTS = ROOT / "scripts/trade-adjustments-452.tsv"
 MANUAL = ROOT / "scripts/trade-adjustments-manual-452.tsv"
 EVIDENCE = ROOT / "scripts/trade-evidence-452.tsv"
+SPLITS = ROOT / "scripts/trade-splits-452.tsv"
+SPLIT_COLUMNS = ["id", "op", "composite", "part", "feature", "class", "levels", "power", "note"]
 BASE_COLUMNS = ["id", "kind", "trade", "op", "printed", "reason", "candidates", "unclaimed_old_anchors", "subsection"]
 COLUMNS = BASE_COLUMNS + [
     "disposition", "decision", "feature", "class", "levels", "power", "book", "page", "page_reason", "print",
@@ -433,7 +452,14 @@ def cmd_fill(args):
         if row["reason"] != "variant-only" and row["print"] in ("page", "words") and row["book"]:
             book, page, why = row["book"], row["page"], ""
         row["_cite"] = (book, page, why)
-        d = decision_for(row, decisions, info)
+        if row["reason"] == "split-part":
+            part = split_part(row)
+            if part is None:
+                raise SystemExit(f"{row['id']}: no splits-file row for the part {row['printed']!r}")
+            d = {"disposition": "resolved", "code": "split-part", "feature": part["feature"], "class": part["class"],
+                 "levels": part["levels"], "power": part["power"], "note": part["note"]}
+        else:
+            d = decision_for(row, decisions, info)
         if d is None:
             continue
         levels = d["levels"]
@@ -599,6 +625,118 @@ def cmd_apply(args):
     print(f"apply: {written} entries written")
 
 
+def split_groups():
+    """{(id, op, composite): [part rows in print order]} from the splits file."""
+    groups = {}
+    if SPLITS.exists():
+        for r in read_tsv(SPLITS):
+            groups.setdefault((r["id"], r["op"], r["composite"]), []).append(r)
+    for (entry_id, op, composite), parts in groups.items():
+        if len(parts) < 2 or ", ".join(p["part"] for p in parts) != composite:
+            raise SystemExit(f"{entry_id}: the parts of {composite!r} do not join with ', ' to the composite")
+    return groups
+
+
+def split_part(row):
+    """The splits-file row that a `split-part` queue row stands for, or None."""
+    for (entry_id, op, _), parts in split_groups().items():
+        if entry_id == row["id"] and op == row["op"]:
+            for part in parts:
+                if part["part"] == row["printed"]:
+                    return part
+    return None
+
+
+def part_keys(part):
+    return {
+        "feature": part["feature"], "class": part["class"], "power": part["power"],
+        "levels": [int(x) for x in part["levels"].split(",")] if part["levels"] else [],
+    }
+
+
+def trade_line(op, printed, keys):
+    return render("  { %s = %s }," % (op, json.dumps(printed, ensure_ascii=False)), keys)
+
+
+def split_trades_of_entry(entry_id, groups):
+    """Replace the composite trades of one entry by their parts. `groups` is [(op, composite, parts)].
+    Returns [(position, composite, parts)] for the splits that this call made, in the order made (a position
+    counts the trades of the entry as they stand after the earlier splits); writes nothing."""
+    path = entry_path(entry_id)
+    head, front, body = path.read_text(encoding="utf-8").split("+++\n", 2)
+    lines, first, end = trade_lines(front)
+    done = []
+    for op, composite, parts in groups:
+        found = None
+        for j in range(first, end):
+            m = TRADE_RE.match(lines[j])
+            if m and m.group(1) == op and toml_string(m.group(2)) == composite:
+                found = j
+                break
+        if found is None:
+            continue
+        new = [trade_line(op, part["part"], part_keys(part)) for part in parts]
+        lines[found:found + 1] = new
+        end += len(new) - 1
+        done.append((found - first + 1, composite, parts))
+    return done, (path, head, lines, body)
+
+
+def cmd_split(args):
+    groups = split_groups()
+    by_entry = {}
+    for (entry_id, op, composite), parts in groups.items():
+        by_entry.setdefault(entry_id, []).append((op, composite, parts))
+    have_queue = QUEUE.exists()  # `fill` builds the queue from the baseline when there is none
+    baseline, queue = read_tsv(BASELINE), read_tsv(QUEUE) if have_queue else []
+    logs = {path: read_tsv(path) for path in (ADJUSTMENTS, MANUAL) if path.exists()}
+    entries = split_count = 0
+    for entry_id in sorted(by_entry):
+        done, (path, head, lines, body) = split_trades_of_entry(entry_id, by_entry[entry_id])
+        if not done:
+            continue
+        for position, composite, parts in done:
+            k = len(parts)
+            for name, rows in (("baseline", baseline), ("queue", queue)):
+                if name == "queue" and not have_queue:
+                    continue
+                at = [i for i, r in enumerate(rows) if r["id"] == entry_id and r["op"] == parts[0]["op"]
+                      and r["printed"] == composite and int(r["trade"]) == position]
+                if len(at) != 1:
+                    raise SystemExit(f"{entry_id}: the {name} has no row for trade {position} ({composite!r})")
+                parent = rows[at[0]]
+                for r in rows:
+                    if r["id"] == entry_id and int(r["trade"]) > position:
+                        r["trade"] = str(int(r["trade"]) + k - 1)
+                new_rows = []
+                for n, part in enumerate(parts):
+                    row = dict(parent, trade=str(position + n), printed=part["part"], reason="split-part",
+                               candidates="", unclaimed_old_anchors="")
+                    if name == "queue":
+                        for column in ("disposition", "decision", "feature", "class", "levels", "power",
+                                       "evidence", "evidence_note", "class_hit", "class_book", "class_page"):
+                            row[column] = ""
+                        row["disposition"] = "open"
+                    new_rows.append(row)
+                rows[at[0]:at[0] + 1] = new_rows
+            for path_of_log, rows in logs.items():
+                for r in rows:
+                    if r["id"] == entry_id and int(r["trade"]) == position:
+                        raise SystemExit(f"{entry_id} trade {position}: the composite has an adjustment-log row")
+                    if r["id"] == entry_id and int(r["trade"]) > position:
+                        r["trade"] = str(int(r["trade"]) + k - 1)
+            split_count += 1
+        path.write_text(head + "+++\n" + "\n".join(lines) + "+++\n" + body, encoding="utf-8")
+        entries += 1
+    if entries:
+        write_tsv(BASELINE, BASE_COLUMNS, baseline)
+        if have_queue:
+            write_queue(queue)
+        for path_of_log, rows in logs.items():
+            write_tsv(path_of_log, ADJUST_COLUMNS if path_of_log == ADJUSTMENTS else list(rows[0]), rows)
+    print(f"split: {split_count} trades split in {entries} entries")
+
+
 def cmd_normalize(args):
     """Rewrite the step values that the migration wrote as `power` into grant levels, and log them."""
     queued = {(r["id"], int(r["trade"])) for r in read_tsv(QUEUE) if r["trade"] != "0"}
@@ -756,6 +894,19 @@ def cmd_check(args):
                 problems.append(f"{where}: the entry holds {have}, the row says {want}")
         elif "feature" in t:
             problems.append(f"{where}: exception, but the entry resolves it to {t['feature']}")
+    # Every split is made: the composite is gone and its parts stand next to each other, in print order.
+    for (entry_id, op, composite), parts in split_groups().items():
+        trades = cache.get(entry_id)
+        if trades is None:
+            front, _ = split_entry(entry_path(entry_id).read_text(encoding="utf-8"))
+            trades = tomllib.loads(front).get("fields", {}).get("trades", [])
+        names = [(t.get("replaces") is not None and "replaces" or "alters", t.get("replaces", t.get("alters"))) for t in trades]
+        if (op, composite) in names:
+            problems.append(f"{entry_id}: the composite {composite!r} is still a trade (run `split`)")
+            continue
+        want = [(op, part["part"]) for part in parts]
+        if not any(names[i:i + len(want)] == want for i in range(len(names))):
+            problems.append(f"{entry_id}: the parts of {composite!r} are not next to each other in the entry")
     # The adjustment log agrees with the entries.
     if ADJUSTMENTS.exists():
         for r in read_tsv(ADJUSTMENTS):
@@ -793,7 +944,7 @@ def cmd_stats(args):
 
 def main():
     commands = {
-        "baseline": cmd_baseline, "fill": cmd_fill, "apply": cmd_apply, "normalize": cmd_normalize,
+        "baseline": cmd_baseline, "fill": cmd_fill, "apply": cmd_apply, "split": cmd_split, "normalize": cmd_normalize,
         "check": cmd_check, "stats": cmd_stats,
     }
     if len(sys.argv) < 2 or sys.argv[1] not in commands:

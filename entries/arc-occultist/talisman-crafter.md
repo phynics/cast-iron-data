@@ -20,7 +20,8 @@ trades = [
   { replaces = "Magic item skill", feature = "magic-item-skill" },
   { replaces = "object reading", feature = "object-reading" },
   { replaces = "Shift focus", feature = "shift-focus" },
-  { replaces = "Aura sight, 5th- and 17th-level focus powers" },
+  { replaces = "Aura sight", feature = "aura-sight" },
+  { replaces = "5th- and 17th-level focus powers", feature = "focus-powers", levels = [5, 17] },
   { alters = "Implements", feature = "implements" },
 ]
 +++

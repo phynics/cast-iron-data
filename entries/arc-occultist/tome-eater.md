@@ -17,7 +17,8 @@ page = "102"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Shift focus, 6th-level implement" },
+  { replaces = "Shift focus", feature = "shift-focus" },
+  { replaces = "6th-level implement", feature = "implements", levels = [6] },
   { replaces = "magic circles", feature = "magic-circles" },
   { replaces = "outside contact", feature = "outside-contact" },
   { replaces = "binding circles", feature = "binding-circles" },

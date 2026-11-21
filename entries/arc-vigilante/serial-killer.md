@@ -18,7 +18,8 @@ page = "71"
 kind = "archetype"
 trades = [
   { replaces = "Unshakable", feature = "unshakable" },
-  { replaces = "4th- and 14th-level vigilante talents, 9th- and 19th-level social talents" },
+  { replaces = "4th- and 14th-level vigilante talents", feature = "vigilante-talent", levels = [4, 14] },
+  { replaces = "9th- and 19th-level social talents", feature = "social-talent", levels = [9, 19] },
   { replaces = "Startling appearance", feature = "startling-appearance" },
   { replaces = "6th-level vigilante talent", feature = "vigilante-talent", levels = [6] },
   { replaces = "7th-level social talent", feature = "social-talent", levels = [7] },

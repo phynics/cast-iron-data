@@ -19,7 +19,7 @@ kind = "archetype"
 trades = [
   { replaces = "Stunning fist", feature = "stunning-fist" },
   { replaces = "Still mind", feature = "still-mind" },
-  { replaces = "7th- and 10th-level ki pool abilities" },
+  { replaces = "7th- and 10th-level ki pool abilities", feature = "ki-pool", levels = [7, 10] },
   { replaces = "Improved evasion", feature = "improved-evasion" },
   { replaces = "The slow fall improvement; it remains at 70 feet", feature = "slow-fall", levels = [16] },
   { alters = "Alignment requirement" },

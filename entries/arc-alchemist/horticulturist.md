@@ -20,7 +20,8 @@ page = "24"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Mutagen, 2nd-level discovery" },
+  { replaces = "Mutagen", feature = "mutagen" },
+  { replaces = "2nd-level discovery", feature = "discovery", levels = [2] },
   { replaces = "Poison resistance", feature = "poison-resistance", levels = [2, 5, 8] },
   { replaces = "poison use", feature = "poison-use" },
   { replaces = "poison immunity", feature = "poison-resistance", levels = [10] },

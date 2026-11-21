@@ -18,8 +18,10 @@ page = "7"
 kind = "archetype"
 trades = [
   { replaces = "Magic item skill", feature = "magic-item-skill" },
-  { replaces = "Shift focus, 7th-level focus power" },
-  { replaces = "Aura sight, 5th-level focus power" },
+  { replaces = "Shift focus", feature = "shift-focus" },
+  { replaces = "7th-level focus power", feature = "focus-powers", levels = [7] },
+  { replaces = "Aura sight", feature = "aura-sight" },
+  { replaces = "5th-level focus power", feature = "focus-powers", levels = [5] },
   { alters = "Implements", feature = "implements" },
   { alters = "implement mastery", feature = "implement-mastery" },
   { alters = "Magic circles", feature = "magic-circles" },

@@ -19,7 +19,7 @@ ref/domain/water	The # power of the Water domain	Rivers Subdomain	Book of the Da
 ref/arc-fighter/skirmisher	Class skills		Ultimate Wilderness	50	print: 'This alters the fighter's class skills and skill ranks per level'
 ref/arc-fighter/skirmisher	skill ranks per level		Ultimate Wilderness	50	print: 'This alters the fighter's class skills and skill ranks per level'
 ref/arc-fighter/skirmisher	The fighter's armor proficiency		Ultimate Wilderness	50	print: 'This replaces the fighter's weapon and armor proficiency'; the corpus name is shorter, so the whole feature is named (decision changed from armor)
-ref/arc-fighter/tactician	Armor proficiencies		Ultimate Combat	47	print: Weapon and Armor Proficiency: a tactician is not proficient with heavy armor or tower shields (an armor weight and a shield change in one item: composite)
+ref/arc-fighter/tactician	Armor proficiencies		Ultimate Combat	47	print: Weapon and Armor Proficiency: 'A tactician is not proficient with heavy armor or tower shields' (the corpus line holds one name, Armor proficiencies, for an armor weight and a shield)
 ref/arc-gunslinger/bolt-ace	Weapon proficiencies		Advanced Class Guide	94	the corpus entry has the Crossbow Maven paragraph (Alters: Weapon proficiencies), which is second-printing errata of Advanced Class Guide p. 94; the PDF copy read is the first printing (August 2014) and has no such paragraph on p. 94
 ref/arc-inquisitor/exarch	Spellcasting		Advanced Race Guide	13	print: Spells: exarchs cannot cast spells with the chaotic descriptor (a change to the inquisitor's spellcasting)
 ref/arc-inquisitor/keeper-of-the-current	Spellcasting		Blood of the Sea	24	print: 'This ability alters the inquisitor's spellcasting'
@@ -33,7 +33,6 @@ ref/arc-gunslinger/pistolero	Deadeye deed		Ultimate Combat	51	print: 'replaces t
 ref/arc-gunslinger/pistolero	Startling shot deed		Ultimate Combat	51	print: 'replaces the deadeye deed', 'the startling shot deed', 'the bleeding wound deed'
 ref/arc-gunslinger/pistolero	Bleeding wound deed		Ultimate Combat	51	print: 'replaces the deadeye deed', 'the startling shot deed', 'the bleeding wound deed'
 ref/arc-investigator/dread-investigator	immunity		Cohorts and Companions	14	print: 'This ability replaces poison resistance and immunity'
-ref/arc-investigator/hallucinist	Trapfinding, 3rd-level trap sense boost		Ultimate Intrigue	34	print: 'This ability replaces trapfinding, the trap sense gained ...' (one item)
 ref/arc-monk/karmic-monk	The slow fall improvement; it remains at 70 feet		Occult Adventures	122	print: 'This ability replaces slow fall 80 feet' (the 16th-level step) and alters slow fall later
 ref/arc-monk/scarred-monk	the ability to spend ki points to do anything other than what's described below		Horror Realms	12	print: Mortifications alter the ki pool; a scarred monk cannot spend ki points on the other ki powers
 ref/arc-oracle/dual-cursed-oracle	The bonus spells gained at 2nd, 4th, and 6th levels from the oracle's mystery		Ultimate Magic	58	print: ill omen (2nd), oracle's burden (4th), bestow curse (6th) replace the mystery bonus spells at these levels
@@ -68,7 +67,6 @@ ref/arc-swashbuckler/courser	Opportune parry and riposte		Blood of the Beast	24	
 ref/arc-witch/rhetorician	All spells granted by the witch's patron		Arcane Anthology	25	print: 'This ability replaces all the spells the witch gains from her patron'
 ref/arc-cleric/scroll-scholar	Channel energy damage boost at 5th level		Pathfinder Society Field Guide	26	print: for a cleric 'this ability replaces the increase to her channel energy damage normally gained at 5th level'
 ref/arc-fighter/swarm-fighter	The bonus combat feats the fighter normally receives at 2nd, 6th, 10th, 14th, and 18th levels		Kobolds of Golarion	23	print: bonus teamwork feats at 2nd and every 4 levels; 'This ability replaces the bonus combat feats the fighter normally receives at those levels'
-ref/arc-kineticist/elemental-purist	Expanded element, 11th- and 19th-level infusions		Planes of Power	8	print: 'This ability replaces expanded element, as well as the 11th- and 19th-level infusions' (the corpus cites p. 7; the text is on p. 8)
 ref/arc-oracle/divine-numerologist	The bonus spells gained at 10th, 12th, 14th, 16th, and 18th levels from the oracle's mystery		Disciple's Doctrine	17	print: prying eyes (10th) to foresight (18th) 'replace the oracle's mystery bonus spells at these levels'
 ref/arc-oracle/oceans-echo	Bonus skills from the oracle's mystery		Blood of the Sea	12	print: 'These replace the additional class skills from her mystery'
 ref/arc-oracle/oceans-echo	The bonus spells gained at 4th, 8th, 10th, 12th, and 14th levels from the oracle's mystery		Blood of the Sea	12	print: sound burst (4th), shout (8th), song of discord (10th), greater shout (12th), piping (14th) replace the mystery bonus spells at these levels
@@ -81,3 +79,70 @@ ref/arc-witch/coral-witch	Familiar		Blood of the Sea	22	print: Coral Familiar: '
 ref/arc-cleric/scroll-scholar	The normal addition of a new 4th-level spell slot to the character's spells per day		Pathfinder Society Field Guide	27	print: Flash of Insight 'replaces the normal addition of a new 4th-level spell slot to the character's spells per day: from this point on, the cleric or wizard has one fewer 4th-level spell slot'
 ref/arc-wizard/scroll-scholar	The normal addition of a new 4th-level spell slot; from this point on		Pathfinder Society Field Guide	27	print: Flash of Insight 'replaces the normal addition of a new 4th-level spell slot ... the cleric or wizard has one fewer 4th-level spell slot than other clerics or wizards' (one slot)
 ref/arc-wizard/scroll-scholar	the wizard has one fewer 4th-level spell slot than other wizards		Pathfinder Society Field Guide	27	print: Flash of Insight 'replaces the normal addition of a new 4th-level spell slot ... the cleric or wizard has one fewer 4th-level spell slot than other clerics or wizards' (one slot)
+ref/arc-alchemist/horticulturist	Mutagen		Ultimate Wilderness	35	print: 'This replaces the mutagen class feature and the discovery normally gained at 2nd level'
+ref/arc-alchemist/horticulturist	2nd-level discovery		Ultimate Wilderness	35	print: 'This replaces the mutagen class feature and the discovery normally gained at 2nd level'
+ref/arc-investigator/hallucinist	Trapfinding		Ultimate Intrigue	34	print: 'This ability replaces trapfinding, the trap sense gained at 3rd level, and the investigator talents gained at 3rd, 7th, 11th, and 15th levels'
+ref/arc-investigator/hallucinist	3rd-level trap sense boost		Ultimate Intrigue	34	print: 'This ability replaces trapfinding, the trap sense gained at 3rd level, and the investigator talents gained at 3rd, 7th, 11th, and 15th levels'
+ref/arc-kineticist/elemental-purist	Expanded element		Planes of Power	8	print: 'This ability replaces expanded element, as well as the 11th- and 19th-level infusions' (the corpus cites p. 7; the text is on p. 8)
+ref/arc-kineticist/elemental-purist	11th- and 19th-level infusions		Planes of Power	8	print: 'This ability replaces expanded element, as well as the 11th- and 19th-level infusions' (the corpus cites p. 7; the text is on p. 8)
+ref/arc-magus/myrmidarch	Knowledge pool		Ultimate Combat	56	print: 'This ability replaces knowledge pool and the fighter training the magus gains at 10th level'
+ref/arc-magus/myrmidarch	10th-level fighter training		Ultimate Combat	56	print: 'This ability replaces knowledge pool and the fighter training the magus gains at 10th level'
+ref/arc-mesmerist/vox	Towering ego		Ultimate Intrigue	39	print: 'replaces towering ego, the mesmerist trick normally gained at 10th level, and touch treatment (break enchantment)'
+ref/arc-mesmerist/vox	10th-level mesmerist trick		Ultimate Intrigue	39	print: 'replaces towering ego, the mesmerist trick normally gained at 10th level, and touch treatment (break enchantment)'
+ref/arc-occultist/curator	One of the two occultist implements learned at 1st level		Adventurer's Guide	32	print: 'This ability replaces one of the two occultist implements learned at 1st level as well as the implements learned at 6th level and 14th level'
+ref/arc-occultist/curator	6th- and 14th-level implements		Adventurer's Guide	32	print: 'This ability replaces one of the two occultist implements learned at 1st level as well as the implements learned at 6th level and 14th level'
+ref/arc-occultist/planar-harmonizer	Shift focus		Plane-Hopper's Handbook	7	print: 'This replaces shift focus and the focus power gained at 7th level'
+ref/arc-occultist/planar-harmonizer	7th-level focus power		Plane-Hopper's Handbook	7	print: 'This replaces shift focus and the focus power gained at 7th level'
+ref/arc-occultist/planar-harmonizer	Aura sight		Plane-Hopper's Handbook	7	print: 'This alters magic circles and replaces aura sight and the focus power gained at 5th level'
+ref/arc-occultist/planar-harmonizer	5th-level focus power		Plane-Hopper's Handbook	7	print: 'This alters magic circles and replaces aura sight and the focus power gained at 5th level'
+ref/arc-occultist/talisman-crafter	Aura sight		Horror Adventures	63	print: 'This ability replaces aura sight and the focus powers normally gained at 5th and 17th levels'
+ref/arc-occultist/talisman-crafter	5th- and 17th-level focus powers		Horror Adventures	63	print: 'This ability replaces aura sight and the focus powers normally gained at 5th and 17th levels'
+ref/arc-occultist/tome-eater	Shift focus		Occult Adventures	103	print: 'This ability replaces shift focus, the implement gained at 6th level, magic circles, outside contact, binding circles, and fast circles' (the corpus cites p. 102, where the archetype starts)
+ref/arc-occultist/tome-eater	6th-level implement		Occult Adventures	103	print: 'This ability replaces shift focus, the implement gained at 6th level, magic circles, outside contact, binding circles, and fast circles' (the corpus cites p. 102, where the archetype starts)
+ref/arc-paladin/stonelord	Divine health		Advanced Race Guide	16	print: 'This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level'
+ref/arc-paladin/stonelord	3rd-, 9th-, and 15th-level mercies		Advanced Race Guide	16	print: 'This ability replaces divine health and her mercies gained at 3rd, 9th, and 15th level'
+ref/arc-psychic/esoteric-starseeker	Discipline spells		Wilderness Origins	31	print: 'This replaces the bonus spells normally granted by the psychic's discipline and the phrenic amplifications gained at 1st and 11th levels' (the corpus cites p. 30, where the archetype starts)
+ref/arc-psychic/esoteric-starseeker	1st- and 11th-level phrenic amplifications		Wilderness Origins	31	print: 'This replaces the bonus spells normally granted by the psychic's discipline and the phrenic amplifications gained at 1st and 11th levels' (the corpus cites p. 30, where the archetype starts)
+ref/arc-psychic/terror-weaver	Telepathic bond		Heroes from the Fringe	27	print: 'This replaces telepathic bond and the phrenic amplifications gained at 11th and 19th levels'
+ref/arc-psychic/terror-weaver	11th- and 19th-level phrenic amplifications		Heroes from the Fringe	27	print: 'This replaces telepathic bond and the phrenic amplifications gained at 11th and 19th levels'
+ref/arc-ranger/drake-warden	Hunter's bond		Legacy of Dragons	25	print: 'This ability replaces hunter's bond, 2nd favored enemy, and swift tracker'
+ref/arc-ranger/drake-warden	2nd favored enemy		Legacy of Dragons	25	print: 'This ability replaces hunter's bond, 2nd favored enemy, and swift tracker'
+ref/arc-ranger/tidal-hunter	Wild empathy		Ultimate Wilderness	73	print: 'This replaces wild empathy and the 6th-level combat style feat'
+ref/arc-ranger/tidal-hunter	6th-level combat style feat		Ultimate Wilderness	73	print: 'This replaces wild empathy and the 6th-level combat style feat'
+ref/arc-rogue/tidal-trickster	Uncanny dodge		Aquatic Adventures	55	print: 'This ability alters sneak attack and replaces uncanny dodge and the 4th-level rogue talent'
+ref/arc-rogue/tidal-trickster	4th-level rogue talent		Aquatic Adventures	55	print: 'This ability alters sneak attack and replaces uncanny dodge and the 4th-level rogue talent'
+ref/arc-rogue/tidal-trickster	Improved uncanny dodge		Aquatic Adventures	55	print: 'This ability replaces improved uncanny dodge and the 8th-level rogue talent'
+ref/arc-rogue/tidal-trickster	8th-level rogue talent		Aquatic Adventures	55	print: 'This ability replaces improved uncanny dodge and the 8th-level rogue talent'
+ref/arc-sorcerer/stone-warder	Eschew Materials		Arcane Anthology	29	print: 'This ability replaces eschew materials, the bloodline spell gained at 3rd level, and the bloodline feat gained at 7th level'
+ref/arc-sorcerer/stone-warder	3rd-level bloodline spell		Arcane Anthology	29	print: 'This ability replaces eschew materials, the bloodline spell gained at 3rd level, and the bloodline feat gained at 7th level'
+ref/arc-sorcerer/stone-warder	7th-level bloodline feat		Arcane Anthology	29	print: 'This ability replaces eschew materials, the bloodline spell gained at 3rd level, and the bloodline feat gained at 7th level'
+ref/arc-swashbuckler/guiding-blade	Bonus feats		Ultimate Intrigue	52	print: 'This ability replaces bonus feats and the swashbuckler's 1st-, 7th-, and 15th-level deeds, and it alters panache'
+ref/arc-swashbuckler/guiding-blade	1st-, 7th-, and 15th-level deeds		Ultimate Intrigue	52	print: 'This ability replaces bonus feats and the swashbuckler's 1st-, 7th-, and 15th-level deeds, and it alters panache'
+ref/arc-vigilante/serial-killer	4th- and 14th-level vigilante talents		Horror Adventures	71	print: 'This ability replaces the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents'
+ref/arc-vigilante/serial-killer	9th- and 19th-level social talents		Horror Adventures	71	print: 'This ability replaces the 4th- and 14th-level vigilante talents and the 9th- and 19th-level social talents'
+ref/arc-warpriest/proselytizer	Sacred armor		Cohorts and Companions	25	print: 'This ability replaces sacred armor and the bonus feat gained at 3rd level'
+ref/arc-warpriest/proselytizer	3rd-level bonus feat		Cohorts and Companions	25	print: 'This ability replaces sacred armor and the bonus feat gained at 3rd level'
+ref/arc-witch/ley-line-guardian	Familiar		Occult Adventures	125	print: 'This ability replaces familiar and the hexes gained at 1st and 8th levels'
+ref/arc-witch/ley-line-guardian	1st- and 8th-level hexes		Occult Adventures	125	print: 'This ability replaces familiar and the hexes gained at 1st and 8th levels'
+ref/arc-witch/season-witch	Patron		Ultimate Wilderness	90	print: 'This alters patron and the hex gained at 1st level'
+ref/arc-witch/season-witch	1st-level hex		Ultimate Wilderness	90	print: 'This alters patron and the hex gained at 1st level'
+ref/arc-wizard/arcane-warden	Scribe Scroll		Blood of the Ancients	14	print: 'This replaces scribe scroll and the bonus feats gained at 5th, 10th, 15th, and 20th levels'
+ref/arc-wizard/arcane-warden	5th-, 10th-, 15th-, and 20th-level bonus feats		Blood of the Ancients	14	print: 'This replaces scribe scroll and the bonus feats gained at 5th, 10th, 15th, and 20th levels'
+ref/arc-wizard/chronomancer	Arcane bond		Legacy of the First World	30	print: 'This ability replaces arcane bond and the bonus feats gained at 10th, 15th, and 20th levels'
+ref/arc-wizard/chronomancer	10th-, 15th-, and 20th-level bonus feats		Legacy of the First World	30	print: 'This ability replaces arcane bond and the bonus feats gained at 10th, 15th, and 20th levels'
+ref/arc-wizard/familiar-adept	Scribe scroll		Familiar Folio	8	print: 'A familiar adept doesn't gain Scribe Scroll at 1st level or the wizard's bonus feats at 5th and 10th levels'
+ref/arc-wizard/familiar-adept	5th- and 10th-level bonus feats		Familiar Folio	8	print: 'A familiar adept doesn't gain Scribe Scroll at 1st level or the wizard's bonus feats at 5th and 10th levels'
+ref/arc-wizard/spirit-whisperer	Arcane school		Advanced Class Guide	133	print: 'This ability replaces arcane school and the bonus feat gained at 20th level'
+ref/arc-wizard/spirit-whisperer	20th-level bonus feat		Advanced Class Guide	133	print: 'This ability replaces arcane school and the bonus feat gained at 20th level'
+ref/arc-monk/karmic-monk	7th- and 10th-level ki pool abilities		Occult Adventures	122	print: 'This ability replaces the 7th- and 10th-level ki pool abilities' (one feature, Ki Pool, at the steps of 7th and 10th level)
+ref/arc-investigator/toxin-codexer	Alchemy and replaces		Potions and Poisons	14	print: 'This modifies alchemy and replaces trapfinding and the investigator talent gained at 3rd level' (the item names one feature, Alchemy; 'and replaces' is the book's connective that the corpus line kept)
+ref/arc-investigator/hallucinist	All remaining trap sense		Ultimate Intrigue	35	print: 'This ability alters studied combat and replaces all remaining trap sense' (the trap sense gained at 3rd level is replaced by the Trapfinding item, so the rest is the steps of 6th level and above)
+ref/arc-cleric/sacred-attendant	Proficiency with light and medium armor		Healer's Handbook	4	print: 'This ability replaces the cleric's proficiency with light and medium armor'
+ref/arc-cleric/varisian-pilgrim	Proficiency with medium armor and shields - she retains proficiency with light armor only		Inner Sea Magic	42	print: 'This ability replaces the cleric's proficiency with medium armor and shields - she retains proficiency with light armor only'
+ref/arc-fighter/gladiator	Proficiency with heavy armor and tower shields		Ultimate Combat	47	print: 'A gladiator is not proficient with heavy armor or tower shields'
+ref/arc-fighter/gloomblade	proficiency with heavy armor and shields		Planar Adventures	14	print: 'This replaces the fighter's armor training and proficiency with heavy armor and shields (he retains proficiency in light and medium armor)'
+ref/arc-fighter/lore-warden	Bravery and the fighter bonus feat gained at 2nd level		Adventurer's Guide	144	print: 'This ability replaces bravery and the fighter bonus feat gained at 2nd level'
+ref/arc-fighter/seasoned-commander	proficiency with heavy armor and tower shields		Villain Codex	164	print: '...replaces the bonus fighter combat feat gained at 1st level and proficiency with heavy armor and tower shields'
+ref/arc-inquisitor/faith-hunter	justice and destruction judgments		Ultimate Intrigue	29	print: 'A faith hunter does not gain the justice or destruction judgments. This ability replaces domain and alters judgment'
+ref/arc-inquisitor/vampire-hunter	Purity and Smiting judgments		Inner Sea Magic	41	print: 'The following vampire hunter judgments work differently than those of a standard inquisitor. Purity: ... Smiting: ...' (one Judgment section that changes two judgments)
+ref/arc-slayer/bloody-jake	Proficiency in medium armor and shields		Horror Adventures	66	print: 'This ability replaces the slayer's proficiency in medium armor and shields'

@@ -18,7 +18,8 @@ page = "26"
 kind = "archetype"
 trades = [
   { replaces = "Detect thoughts", feature = "detect-thoughts" },
-  { replaces = "Telepathic bond, 11th- and 19th-level phrenic amplifications" },
+  { replaces = "Telepathic bond", feature = "telepathic-bond" },
+  { replaces = "11th- and 19th-level phrenic amplifications", feature = "phrenic-amplifications", levels = [11, 19] },
   { replaces = "15th-level phrenic amplification", feature = "phrenic-amplifications", levels = [15] },
 ]
 +++

@@ -17,7 +17,8 @@ page = "52"
 [fields]
 kind = "archetype"
 trades = [
-  { replaces = "Bonus feats, 1st-, 7th-, and 15th-level deeds" },
+  { replaces = "Bonus feats", feature = "bonus-feats" },
+  { replaces = "1st-, 7th-, and 15th-level deeds", feature = "deeds", levels = [1, 7, 15] },
   { replaces = "Nimble", feature = "nimble" },
   { replaces = "Kip-up", feature = "deeds", power = "kip-up" },
   { alters = "Panache", feature = "panache" },
