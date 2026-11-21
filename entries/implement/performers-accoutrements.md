@@ -60,18 +60,18 @@ no effect on mundane means of gathering information about you.
 
 **False Confidence (Sp)**
 
-**Move:** You can shatter the feeling of confidence, leaving the target feeling hopeless and
-distraught. If you do, the target can immediately attempt a Will save to negate the effect, with a
-cumulative -1 penalty for every 2 minutes the creature benefited from the morale bonus. If the
-target fails this save, it takes a -2 penalty on ability checks, attack rolls, saving throws, and
-skill checks for the remainder of the effect's duration. If the creature then fails an ability
-check, attack roll, saving throw, or skill check by 10 or more while subject to this penalty, the
-penalty changes to -4.
-
 **Standard:** By expending 1 point of mental focus, you can instill incredible, boundless confidence
 in a single living creature with an Intelligence score of 3 or higher within 60 feet, granting that
 creature a +2 morale bonus on ability checks, attack rolls, saving throws, and skill checks for 10
 minutes.
+
+As a **move action**, you can shatter the feeling of confidence, leaving the target feeling hopeless
+and distraught. If you do, the target can immediately attempt a Will save to negate the effect, with
+a cumulative -1 penalty for every 2 minutes the creature benefited from the morale bonus. If the
+target fails this save, it takes a -2 penalty on ability checks, attack rolls, saving throws, and
+skill checks for the remainder of the effect's duration. If the creature then fails an ability
+check, attack roll, saving throw, or skill check by 10 or more while subject to this penalty, the
+penalty changes to -4.
 
 **Hypnotic Gaze (Sp)**
 

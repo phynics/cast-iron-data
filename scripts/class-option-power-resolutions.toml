@@ -2194,6 +2194,63 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/emotionalfocus/hatred"
+name = "Sneak Attack (Su)"
+occurrence = 1
+span_sha256 = "f6382c1210d1d74d1f39b4a1679d5bd7a975aa457f411831673f17371086db1a"
+print = "Occult Adventures p. 83"
+replacement = '''
+**Sneak Attack (Su)**
+
+**Gained:** At 12th Level
+
+**Ability:** The phantom gains [sneak attack](ref/ability/sneak-attack) +3d6, but only against its _hated target._
+
+**At 18th level,** the sneak attack damage increases to +5d6.
+'''
+
+[[resolution]]
+id = "ref/evolution/large"
+name = "Large (Ex)"
+occurrence = 1
+span_sha256 = "a0a9bd5b1c0a3b2d40b94316b1472a23c72b51f31aab65963cd288ae0e451399"
+print = "Advanced Player's Guide p. 64"
+replacement = '''
+**Large (Ex)**
+
+**Ability:** An eidolon grows in size, becoming Large. The eidolon gains a +8 bonus to Strength, a
++4 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to its
+Dexterity. This size change also gives the creature a -1 size penalty to its AC and on attack rolls,
+a +1 bonus to its CMB and CMD, a -2 penalty on Fly skill checks, and a -4 penalty on Stealth skill
+checks. If the eidolon has the biped base form, it also gains 10-foot reach. Any
+[reach](ref/evolution/reach) evolutions the eidolon possesses are added to this total.
+
+**At 13th level,** if 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +16 bonus to Strength, a +8 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to its Dexterity. This size change also give the creature a -2 size penalty to its AC and attack rolls, a +2 bonus to its CMB and CMD, 10-foot reach, a -4 penalty on Fly skill checks, and a -8 penalty on Stealth skill checks. If the eidolon has the biped base form, its reach increases to 15 feet (10 feet for all other base forms). Any _reach_ evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large.
+
+**Prereq:** 8th-level summoner, eidolon is Medium-sized
+
+**Special:** The [ability increase](ref/evolution/ability-increase) evolution costs twice as much (4
+evolution points) when adding to the Strength or Constitution scores of a Large or Huge eidolon.
+'''
+
+[[resolution]]
+id = "ref/exploit/armored-mask"
+name = "Armored Mask (Su)"
+occurrence = 1
+span_sha256 = "081a2a5fbc460ee7eef0e401215231fa3cce3b68b8bb71a6e063961b46e2443f"
+print = "Disciple's Doctrine p. 21"
+replacement = '''
+**Armored Mask (Su)**
+
+**Standard:** By expending 1 point from her arcane reservoir, the arcanist grants herself an
+effective illusion of armor. She gains the benefits of [mage armor](ref/spell/mage-armor) with a
+caster level that's equal to her arcanist level and appears to be wearing light or medium armor of
+whatever design she chooses when activating this ability.
+
+At any time while this effect is active, she can expend 1 additional point from her arcane reservoir as an **immediate action** to also gain the benefits of [shield of faith](ref/spell/shield-of-faith) with a caster level equal to her arcanist level.
+'''
+
+[[resolution]]
 id = "ref/exploit/first-world-illusion-catcher"
 name = "First-World Illusion Catcher (Su)"
 occurrence = 1
@@ -2244,6 +2301,29 @@ comments on other topics or independently rediscovered the methods Jatembe first
 **Ability:** The arcanist can expend 1 or more points from her arcane reservoir to create an uncontrolled primal effect. This creates an effect from the [Sample Primal Magic Events](ref/rule/primal-magic) table. The CR of this effect is equal to the arcanist's caster level, to a maximum caster level of 5 per point spent from her arcane reserve. In this case, the effect is treated as a spell with a spell level equal to half its CR (maximum spell level 9).
 
 Alternatively, the arcanist can expend 1 point from her arcane reservoir and expend a spell slot of at least 3rd level to create an effect as if she has used a [rod of wonder](ref/magic-rod/rod-of-wonder). Any spell created by the _rod of wonder_ effect uses the arcanist's spell level, rather than the spell level set by the _rod of wonder_ table (for example a [fireball](ref/spell/fireball) created by an 8th level arcanist rolling on the _rod of wonder_ table would deal 8d6, rather than the listed 6d6). In this case, the effect is treated as a spell with a spell level equal to the spell slot expended.
+'''
+
+[[resolution]]
+id = "ref/hex/blight"
+name = "Blight (Su)"
+occurrence = 1
+span_sha256 = "4962f45b3165914fd8f5613866d9e0bef0fbfda6a62ac0e675ad97246798a001"
+print = "Advanced Player's Guide p. 66"
+replacement = '''
+**Blight (Su)**
+
+**Ability:** The witch can curse an animal, plant creature, or plot of land, causing it to wither and die. Blighting an area takes 1 round, during which time the witch and her familiar must be in contact with the target.
+
+If it's used on a plot of land, the land begins to wither the following day, and over the next week
+all plants in the area die. Nothing will grow in that area so long as the curse persists. A witch
+can affect an area with a radius equal to her class level × 10 feet.
+
+Blighting a creature is a **standard action** that requires a melee touch attack. If used on a
+creature of the animal or plant type, the creature gains the following [curse](ref/rule/curses):
+
+**Special:** Both types of curse can be removed with a [remove curse](ref/spell/remove-curse) or
+similar magic, using the save DC as the DC to remove the curse. A witch can only have one _blight_
+in effect at a time. If another _blight_ hex is made, the first immediately ends.
 '''
 
 [[resolution]]
@@ -2322,6 +2402,29 @@ another. Effects that remove curses can remove the _scar._
 '''
 
 [[resolution]]
+id = "ref/hex/waxen-image"
+name = "Waxen Image (Su)"
+occurrence = 1
+span_sha256 = "1cb8cc9765e6d9faf2ccedc191a7560a0a19d0d51add9e03f0bf62499641045c"
+print = "Advanced Player's Guide p. 68"
+replacement = '''
+**Waxen Image (Su)**
+
+**Full-round:** The witch can create a crude and unnerving wax duplicate of a creature she can see within 30 feet. Once the image is complete, the subject must make a Will save. If the subject fails, the witch gains a small measure of control over the creature. Whenever she exercises this control, the creature receives a new Will save to end the effect. This effect occurs on the witch's turn and does not impede the creature's actions on its turn.
+
+The witch can use the _waxen image_ a number of times equal to her Intelligence modifier before it
+melts.
+
+As a **standard action**, the witch can cause the subject to do any one of the following things: move up to the creature's speed in any direction, attack itself once with any weapon in hand (this attack automatically hits), lay down on the ground, or drop anything held.
+
+Alternatively, she can spend one of her uses to simply torture the _image,_ causing the creature to
+be both [sickened](ref/misc/sickened) and [staggered](ref/misc/staggered) on its turn.
+
+**Special:** As soon as the creature has succeeded on a saving throw against this effect, it is
+immune to it for 24 hours. The is an enchantment (compulsion) effect.
+'''
+
+[[resolution]]
 id = "ref/hex/witchs-hut"
 name = "Witch's Hut (Su)"
 occurrence = 1
@@ -2336,6 +2439,198 @@ The witch can give the hut the following commands: **guard** (the hut watches fo
 
 **Special:** The hut remains animate for 24 hours, until she dismisses it or she animates another,
 at which time the hut stops where it is and reverts to its nonmagical state.
+'''
+
+[[resolution]]
+id = "ref/hkorder/order-of-the-chain"
+name = "1: Taken Alive (Ex)"
+occurrence = 1
+span_sha256 = "4991c505c9e14a939ddfc54a0531bdd02190e547457d1723f439c15013d54915"
+print = "Path of the Hellknight p. 10"
+replacement = '''
+**1: Taken Alive (Ex)**
+
+**Flavor:** You are an expert in hunting your quarry and capturing it alive.
+
+**Passive:** You take no penalty on attack rolls for using a flail to deal nonlethal damage.
+
+Additionally, while performing your reckoning, you can focus on understanding one specific individual. For the next 24 hours, you gain a +4 bonus on [Perception](ref/skill/perception), [Sense Motive](ref/skill/sense-motive), and [Survival](ref/skill/survival) checks that relate to noticing, seeing through the disguises of, interrogating others about the location of, or tracking that individual, or any activity directly related to doing so.
+'''
+
+[[resolution]]
+id = "ref/hkorder/order-of-the-chain"
+name = "3: True Identities (Su)"
+occurrence = 1
+span_sha256 = "0329bb42fa6efe2db8231c86361c787fceefb1526523423518aaffe39f43722f"
+print = "Path of the Hellknight p. 10"
+replacement = '''
+**3: True Identities (Su)**
+
+**Flavor:** You are not easily fooled by those who would hide their true natures.
+
+**Passive:** You gain a +4 bonus on Will saving throws to disbelieve illusions.
+
+**Free:** Three times per day, when you successfully disbelieve an illusion that has a duration of
+longer than instantaneous (normally or using _[true seeing](ref/spell/true-seeing)_), you can
+attempt to dispel the illusion. Treat this as a targeted dispel, as per the spell
+[dispel magic](ref/spell/dispel-magic), but targeting only illusions and with your caster level
+equal to your character level.
+'''
+
+[[resolution]]
+id = "ref/hkorder/order-of-the-scourge"
+name = "3: Reason to Fear (Su)"
+occurrence = 1
+span_sha256 = "fdb07a2a48e67d861c00e5b2c9f3d166548fa7b4f4c80d97e366814e592c86ce"
+print = "Path of the Hellknight p. 46"
+replacement = '''
+**3: Reason to Fear (Su)**
+
+**Flavor:** You fear nothing, as you know you are a source of nightmares.
+
+**Passive:** You are immune to fear (magical or otherwise).
+
+**Free:** Three times per day, when you are the target of a fear effect or within a fear effect's
+area, you can target the creature from which the fear effect originated with a
+[phantasmal killer](ref/spell/phantasmal-killer) spell effect (DC = 14 + your Charisma modifier)
+when you strike it with a weapon. You must deal at least 1 point of damage to use this ability.
+
+This functions in all other ways as if your weapon were a
+[spell storing](ref/magic-enh/spell-storing) weapon with a
+_[phantasmal killer](ref/spell/phantasmal-killer)_ spell stored within.
+
+^There are no official stats for a scourge, but the \[Duergar Slaver^(npc/duergar\_slaver) describes
+a scourge as "a [cat-o'-nine-tails](ref/eq-weapon/cat-o-nine-tails) that deals lethal damage." —
+_Inner Sea NPC Codex pg. 20_\]\{from=1\}
+'''
+
+[[resolution]]
+id = "ref/implement/conjuration"
+name = "Psychic Fog (Sp)"
+occurrence = 1
+span_sha256 = "07d9a77b91b942c731d9361e9f7cc29a4bed0439e42ddfc1545849d704aa22ce"
+print = "Occult Adventures p. 51"
+replacement = '''
+**Psychic Fog (Sp)**
+
+**Standard:** You can expend 1 point of mental focus to create a cloud of fog. This fog lasts for 1
+minute per occultist level you possess. It functions as [fog cloud](ref/spell/fog-cloud), except it
+can't be dispersed by wind.
+
+**At 7th level,** you can expend 1 additional point of mental focus when creating this fog, causing it to become more tangible and function as [solid fog](ref/spell/solid-fog), except it doesn't slow down any creature that has psychic powers or that can cast psychic spells. When you create a solid fog in this way, its duration is reduced to 1 round per occultist level you possess.
+
+**Prereq:** 3rd-level occultist
+'''
+
+[[resolution]]
+id = "ref/implement/evocation"
+name = "Light Matrix (Sp)"
+occurrence = 1
+span_sha256 = "2095a76aed99657c110c568c7fa260f5a0ed91f902e1a052245e77c95d0ae2c4"
+print = "Occult Adventures p. 54"
+replacement = '''
+**Light Matrix (Sp)**
+
+**Standard:** You can expend 1 point of mental focus to create a glowing orb of swirling lights that
+obeys your commands. This orb illuminates the area like the [light](ref/spell/light) spell. The orb
+can be commanded to hover over your shoulder, moving with you.
+
+As a **move action**, you can direct it to move up to 30 feet away from you. If the _light matrix_ is ever more than 30 feet away from you, it returns to hover over your shoulder.
+
+**At 5th level,** you can direct the _light matrix_ to make a melee touch attack against one foe within 30 feet. If the attack hits, the target must succeed at a Fortitude save or be [blinded](ref/misc/blinded) for 1d4 rounds by a flash of light. If the attack hits, regardless of whether the target succeeds at the save, the _light matrix_ immediately ends.
+
+**Special:** Unless ended early, the _light matrix_ has a duration of 1 hour per occultist level you
+possess. You can't have more than one _light matrix_ in existence at one time. If you use this power
+again, any previous _light matrices_ immediately end.
+'''
+
+[[resolution]]
+id = "ref/implement/performers-accoutrements"
+name = "False Confidence (Sp)"
+occurrence = 1
+span_sha256 = "e403b20112305aeefde905afb1446ea2f12bd7d27a5dbb900e500ee040eea051"
+print = "Psychic Anthology p. 27"
+replacement = '''
+**False Confidence (Sp)**
+
+**Standard:** By expending 1 point of mental focus, you can instill incredible, boundless confidence
+in a single living creature with an Intelligence score of 3 or higher within 60 feet, granting that
+creature a +2 morale bonus on ability checks, attack rolls, saving throws, and skill checks for 10
+minutes.
+
+As a **move action**, you can shatter the feeling of confidence, leaving the target feeling hopeless and distraught. If you do, the target can immediately attempt a Will save to negate the effect, with a cumulative -1 penalty for every 2 minutes the creature benefited from the morale bonus. If the target fails this save, it takes a -2 penalty on ability checks, attack rolls, saving throws, and skill checks for the remainder of the effect's duration. If the creature then fails an ability check, attack roll, saving throw, or skill check by 10 or more while subject to this penalty, the penalty changes to -4.
+'''
+
+[[resolution]]
+id = "ref/inquisition/anger"
+name = "Rage (Ex)"
+occurrence = 1
+span_sha256 = "25a1987ce6ec5ea3917cb36c02d98c1d72f42e0b89ebc675fac0e3d299208522"
+print = "Core Rulebook p. 31; Ultimate Magic p. 41"
+replacement = '''
+**Rage (Ex)**
+
+**Flavor:** Text from the barbarian class.
+
+**Free:** You can enter (or end) a _rage._ You gain a +4 morale bonus to your Strength and
+Constitution, as well as a +2 morale bonus on Will saves. The increase to Constitution grants you 2
+hit points per Hit Dice, but these disappear when the _rage_ ends and are not lost first like
+[temporary hit points](ref/rule/temporary-hit-points).
+
+**Passive:** While in _rage,_ you take a -2 penalty to Armor Class, and you cannot use any
+Charisma-, Dexterity-, or Intelligence-based skills (except Acrobatics, Fly, Intimidate, and Ride)
+or any ability that requires patience or concentration. You are [fatigued](ref/misc/fatigued) after
+_rage_ for a number of rounds equal to 2 times the number of rounds spent in the _rage._ You cannot
+enter a new _rage_ while fatigued or [exhausted](ref/misc/exhausted) but can otherwise enter _rage_
+multiple times during a single encounter or combat. If you fall unconscious, your _rage_ immediately
+ends, placing you in peril of death.
+
+**Special:** Temporary increases to Constitution, such as those gained from _rage_ and spells like
+[bear's endurance](ref/spell/bears-endurance), do not increase the total number of rounds that a
+barbarian can _rage_ per day. The total number of rounds of _rage_ per day is renewed after resting
+for 8 hours, although these hours do not need to be consecutive.
+'''
+
+[[resolution]]
+id = "ref/inquisition/chivalry"
+name = "Faithful Steed (Su)"
+occurrence = 1
+span_sha256 = "d0e9d88402d07941f7ede6be08c1754ccb32cceb5e47c6c9f2f2d646d84e6e2a"
+print = "Magical Marketplace p. 10"
+replacement = '''
+**Faithful Steed (Su)**
+
+**Gained:** At 8th Level
+
+**Ability:** When you use your _judgment_ ability, your mount gains the benefit of one of your selected _judgments._
+
+**At 16th level,** your mount gains the benefits of two of your selected _judgments._
+'''
+
+[[resolution]]
+id = "ref/inquisition/chivalry"
+name = "Mount (Ex)"
+occurrence = 2
+span_sha256 = "008881228c015971792ed0f630d661c031fecedcb551add2766ba539c7825d61"
+print = "Advanced Player's Guide p. 33; Magical Marketplace p. 10"
+replacement = '''
+**Mount (Ex)**
+
+**Gained:** At 1st Level
+
+**Ability:** You gain the service of a loyal and trusty steed to carry you into battle. This mount functions as a druid's [animal companion](ref/sidekick/animal-companion), using your level as your effective druid level. The creature must be one that you are capable of riding and is suitable as a mount. This mount may come from the following list: **Medium Cavaliers:** [Axe Beak](ref/companion/axe-beak), [Camel](ref/companion/camel), [Elk](ref/companion/elk), [Giraffe](ref/companion/giraffe), [Horse](ref/companion/horse), [Giant Seahorse](ref/companion/seahorse-giant), [Giant Tortoise](ref/companion/tortoise-giant), [Zebra](ref/companion/zebra); **Small Cavaliers:** [Antelope](ref/companion/antelope), [Boar](ref/companion/boar) (requires 4th level), [Capybara](ref/companion/capybara), [Dog](ref/companion/dog) (requires 4th level), [Kangaroo](ref/companion/kangaroo), [Giant Gecko](ref/companion/lizard-giant-gecko), [Pony](ref/companion/pony), [Ram](ref/companion/ram), Reindeer (uses elk statistics), [Stag](ref/companion/stag), [Giant Weasel](ref/companion/weasel-giant), [Wolf](ref/companion/wolf), [Wolfdog](ref/companion/wolfdog)
+
+The GM might approve other animals as suitable mounts.
+
+You do not take an armor check penalty on [Ride](ref/skill/ride) checks while riding your mount. The
+mount is always considered combat trained and begins play with
+[Light Armor Proficiency](ref/feat/armor-proficiency-light) as a bonus feat. Your mount does not
+gain the _share spells_ special ability.
+
+**Special:** Your bond with your mount is strong, with the two of you learning to anticipate each
+other's moods and moves. Should your mount die, you may find another mount to serve you after 1 week
+of mourning. This new mount does not gain the _link, evasion, devotion,_ or _improved evasion_
+special abilities until the next time you gain a level.
 '''
 
 [[resolution]]
@@ -2358,6 +2653,37 @@ If the target fails, the investigator can continue to detect the surface thought
 creature for a number of rounds equal to 1/2 his investigator level.
 
 **Prereq:** 5th-level investigator
+'''
+
+[[resolution]]
+id = "ref/kinetic/venom-speaker"
+name = "Poison Lore (Ex)"
+occurrence = 1
+span_sha256 = "15d97d65466cf83c4d69aea8134b04df15b730cc5656df66868512e83691537a"
+print = "Advanced Class Guide p. 31; Heroes of Golarion p. 27"
+replacement = '''
+**Poison Lore (Ex)**
+
+**Flavor:** Text from the investigator class ability.
+
+**Passive:** You cannot accidentally poison yourself when applying poison to a weapon.
+
+If you spend 1 minute physically examining the poison, you can attempt a [Knowledge (nature)](ref/skill/knowledge-nature) check to identify any natural poison or [Knowledge (arcana)](ref/skill/knowledge-arcana) check to identify any magical poison (DC = the poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a [Craft](ref/skill/craft-any) (alchemy) check (DC = the poison's saving throw DC) to neutralize 1 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning yourself when examining or attempting to neutralize a poison.
+'''
+
+[[resolution]]
+id = "ref/kipower/improvised-weapon-proficiency"
+name = "Improvised Weapon Proficiency (Ex, Su)"
+occurrence = 1
+span_sha256 = "5212403a030d76ac11975e30aa557977727aacefc23ed7031b2b835afc08118f"
+print = "Blood of the Beast p. 31"
+replacement = '''
+**Improvised Weapon Proficiency (Ex, Su)**
+
+**Passive:** A monk with this ability does not take a penalty on attack rolls for using an
+[improvised weapon](ref/misc/improvised-weapons).
+
+By spending 1 ki point, the monk can fight with a [broken](ref/misc/broken) weapon without taking any penalties on attack rolls or damage rolls for 1 round.
 '''
 
 [[resolution]]
@@ -2544,6 +2870,60 @@ your skin, and the like).
 '''
 
 [[resolution]]
+id = "ref/mystery/godclaw"
+name = "Final Revelation"
+occurrence = 1
+span_sha256 = "db0eb4c38985227953784dc4138e3ad8463cc4fee0984bde4d8c407b3afee0de"
+print = "Path of the Hellknight p. 27"
+replacement = '''
+**Final Revelation**
+
+**Gained:** At 20th Level
+
+**Ability:** You can cast [detect chaos](ref/spell/detect-chaos),
+[detect law](ref/spell/detect-law), and [discern lies](ref/spell/discern-lies) at will as
+[spell-like abilities](ref/umr/spell-like-abilities), using your oracle level as your caster level.
+
+You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus increases by 5.
+
+Once per day, you can cast [crushing hand](ref/spell/crushing-hand) as a [spell-like ability](ref/umr/spell-like-abilities) without requiring a focus component, treating your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet.
+'''
+
+[[resolution]]
+id = "ref/mystery/godclaw"
+name = "Instant Armor (Su)"
+occurrence = 1
+span_sha256 = "3788a9614494dbb846f5ef3562a8e70c4bac6420c0b493b0fe4365d0952da7d4"
+print = "Path of the Hellknight p. 27"
+replacement = '''
+**Instant Armor (Su)**
+
+**Ability:** Choose one type of heavy armor. You gain proficiency in that armor.
+
+**At 3rd level,** twice per day as an **immediate action**, you can instantly don or remove a suit of your chosen armor that you touch, causing it to teleport onto or off of your body.
+
+**At 11th level,** you can spend 1 minute placing a suit of your chosen armor into an extradimensional space. You can use this ability to immediately don or remove that armor, calling it from or removing it to that extradimensional space. While in the extradimensional space, the armor regains 1 hit point per hour when damaged.
+'''
+
+[[resolution]]
+id = "ref/mystery/godclaw"
+name = "Resiliency (Ex)"
+occurrence = 1
+span_sha256 = "22e4549905f49743961094d9a0d7eeecbb4a03f5132914602d0143cba1d93cff"
+print = "Path of the Hellknight p. 27"
+replacement = '''
+**Resiliency (Ex)**
+
+**Ability:** Once per day, when you are brought below 0 hit points but not killed, you can act as if
+you are [disabled](ref/misc/disabled) for 1 round. At the end of your next turn, unless you are
+brought to above 0 hit points, you immediately fall unconscious and begin [dying](ref/misc/dying).
+
+**At 7th level,** you gain [Diehard](ref/feat/diehard) as a bonus feat, even if you do not meet the prerequisites.
+
+**At 15th level,** three times per day, if you are disabled and take a standard action (or any otherwise strenuous action), you avoid taking 1 point of damage if you succeed at a DC 15 Fortitude saving throw.
+'''
+
+[[resolution]]
 id = "ref/mystery/heavens"
 name = "Guiding Star (Su)"
 occurrence = 1
@@ -2643,6 +3023,43 @@ replacement = '''
 **Ability:** You gain the ability to take 20 on all Knowledge skill checks.
 
 Your understanding of the fundamental underpinnings of reality has also become so advanced that once per day, you can cast [wish](ref/spell/wish). This ability does not require a material component, but the wish cannot be used to grant ability score bonuses, nor can it be used to replicate spells with expensive material components.
+'''
+
+[[resolution]]
+id = "ref/mystery/lunar"
+name = "Mantle of Moonlight (Su)"
+occurrence = 1
+span_sha256 = "794d2424b74dc2203964a46f7a2c8c7d1c8bff98039137c10fdd5c78fb3db25c"
+print = "Blood of the Moon p. 29"
+replacement = '''
+**Mantle of Moonlight (Su)**
+
+**Passive:** Your innate understanding of the moon renders you immune to
+[lycanthropy](ref/rule/lycanthropy).
+
+As a melee touch attack, you may disrupt a [lycanthrope's](ref/template/lycanthrope) connection to the moon. This action automatically forces the lycanthrope into its humanoid form, which it must remain in for a number of rounds equal to your oracle level.
+
+**At 5th level,** you can use this ability to force others into a [rage](ref/spell/rage), as per the spell, but only a number of times per day equal to [one-fifth](ref/misc/fractions-and-rounding) of your oracle level. It's still a melee touch attack.
+'''
+
+[[resolution]]
+id = "ref/mystery/metal"
+name = "Dance of the Blades (Ex)"
+occurrence = 1
+span_sha256 = "5c1a99a1d31c0e9f100643396d34e0eb92c5acf0417e75ac76862f8d40a28486"
+print = "Ultimate Magic p. 55"
+replacement = '''
+**Dance of the Blades (Ex)**
+
+**Passive:** Your base speed increases by 10 feet.
+
+**At 7th level,** you gain a +1 bonus on attack rolls with a metal weapon in any round in which you move at least 10 feet.
+
+**At 11th level,** the bonus on attack rolls increases to +2. As a **move action**, you can maneuver your weapon to create a shield of whirling steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon to use this ability.
+
+**At 15th level,** the bonus on attack rolls increases to +3.
+
+**At 19th level,** the bonus on attack rolls increases to +4.
 '''
 
 [[resolution]]

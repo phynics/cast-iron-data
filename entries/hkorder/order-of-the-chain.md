@@ -69,16 +69,15 @@ society.
 
 **1: Taken Alive (Ex)**
 
-**Ability:** Additionally, while performing your reckoning, you can focus on understanding one
-specific individual. For the next 24 hours, you gain a +4 bonus on
-[Perception](ref/skill/perception), [Sense Motive](ref/skill/sense-motive), and
-[Survival](ref/skill/survival) checks that relate to noticing, seeing through the disguises of,
-interrogating others about the location of, or tracking that individual, or any activity directly
-related to doing so.
-
 **Flavor:** You are an expert in hunting your quarry and capturing it alive.
 
 **Passive:** You take no penalty on attack rolls for using a flail to deal nonlethal damage.
+
+Additionally, while performing your reckoning, you can focus on understanding one specific
+individual. For the next 24 hours, you gain a +4 bonus on [Perception](ref/skill/perception),
+[Sense Motive](ref/skill/sense-motive), and [Survival](ref/skill/survival) checks that relate to
+noticing, seeing through the disguises of, interrogating others about the location of, or tracking
+that individual, or any activity directly related to doing so.
 
 **2: Pierce Disguise (Sp)**
 
@@ -94,10 +93,10 @@ spent in 1-minute increments
 
 **Flavor:** You are not easily fooled by those who would hide their true natures.
 
+**Passive:** You gain a +4 bonus on Will saving throws to disbelieve illusions.
+
 **Free:** Three times per day, when you successfully disbelieve an illusion that has a duration of
 longer than instantaneous (normally or using _[true seeing](ref/spell/true-seeing)_), you can
 attempt to dispel the illusion. Treat this as a targeted dispel, as per the spell
 [dispel magic](ref/spell/dispel-magic), but targeting only illusions and with your caster level
 equal to your character level.
-
-**Passive:** You gain a +4 bonus on Will saving throws to disbelieve illusions.

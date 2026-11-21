@@ -109,18 +109,16 @@ occultist level you possess.
 
 **Psychic Fog (Sp)**
 
-**At 7th Level:** You can expend 1 additional point of mental focus when creating this fog, causing
-it to become more tangible and function as [solid fog](ref/spell/solid-fog), except it doesn't slow
-down any creature that has psychic powers or that can cast psychic spells.
-
-When you create a solid fog in this way, its duration is reduced to 1 round per occultist level you
-possess.
-
-**Prereq:** 3rd-level occultist
-
 **Standard:** You can expend 1 point of mental focus to create a cloud of fog. This fog lasts for 1
 minute per occultist level you possess. It functions as [fog cloud](ref/spell/fog-cloud), except it
 can't be dispersed by wind.
+
+**At 7th level,** you can expend 1 additional point of mental focus when creating this fog, causing
+it to become more tangible and function as [solid fog](ref/spell/solid-fog), except it doesn't slow
+down any creature that has psychic powers or that can cast psychic spells. When you create a solid
+fog in this way, its duration is reduced to 1 round per occultist level you possess.
+
+**Prereq:** 3rd-level occultist
 
 **Purge Corruption (Sp)**
 

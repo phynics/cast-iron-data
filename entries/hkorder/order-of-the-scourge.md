@@ -90,6 +90,8 @@ your Charisma modifier).
 
 **Flavor:** You fear nothing, as you know you are a source of nightmares.
 
+**Passive:** You are immune to fear (magical or otherwise).
+
 **Free:** Three times per day, when you are the target of a fear effect or within a fear effect's
 area, you can target the creature from which the fear effect originated with a
 [phantasmal killer](ref/spell/phantasmal-killer) spell effect (DC = 14 + your Charisma modifier)
@@ -98,8 +100,6 @@ when you strike it with a weapon. You must deal at least 1 point of damage to us
 This functions in all other ways as if your weapon were a
 [spell storing](ref/magic-enh/spell-storing) weapon with a
 _[phantasmal killer](ref/spell/phantasmal-killer)_ spell stored within.
-
-**Passive:** You are immune to fear (magical or otherwise).
 
 ^There are no official stats for a scourge, but the \[Duergar Slaver^(npc/duergar\_slaver) describes
 a scourge as "a [cat-o'-nine-tails](ref/eq-weapon/cat-o-nine-tails) that deals lethal damage." —

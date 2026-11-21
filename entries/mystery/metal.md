@@ -62,21 +62,19 @@ a minimum of 0) and increase the maximum Dexterity bonus allowed by your armor b
 
 **Dance of the Blades (Ex)**
 
-**At 11th Level:** As a **move action**, you can maneuver your weapon to create a shield of whirling
-steel around yourself until the start of your next turn; non-incorporeal melee and ranged attacks
-against you have a 20% miss chance while the shield is active. You must be wielding a metal weapon
-to use this ability.
-
-**At 7th Level:** You gain a +1 bonus on attack rolls with a metal weapon in any round in which you
-move at least 10 feet.
-
 **Passive:** Your base speed increases by 10 feet.
 
-At 11th level: The bonus on attack rolls increases to +2.
+**At 7th level,** you gain a +1 bonus on attack rolls with a metal weapon in any round in which you
+move at least 10 feet.
 
-At 15th level: The bonus on attack rolls increases to +3.
+**At 11th level,** the bonus on attack rolls increases to +2. As a **move action**, you can maneuver
+your weapon to create a shield of whirling steel around yourself until the start of your next turn;
+non-incorporeal melee and ranged attacks against you have a 20% miss chance while the shield is
+active. You must be wielding a metal weapon to use this ability.
 
-At 19th level: The bonus on attack rolls increases to +4.
+**At 15th level,** the bonus on attack rolls increases to +3.
+
+**At 19th level,** the bonus on attack rolls increases to +4.
 
 **Iron Constitution (Su)**
 

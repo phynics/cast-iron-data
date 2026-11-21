@@ -67,10 +67,12 @@ ectoplasmic or incorporeal form.
 
 **Sneak Attack (Su)**
 
-**At 12th Level:** The phantom gains [sneak attack](ref/ability/sneak-attack) +3d6, but only against
-its _hated target._
+**Gained:** At 12th Level
 
-**At 18th Level:** The sneak attack damage increases to +5d6.
+**Ability:** The phantom gains [sneak attack](ref/ability/sneak-attack) +3d6, but only against its
+_hated target._
+
+**At 18th level,** the sneak attack damage increases to +5d6.
 
 **Shared Hatred (Su)**
 

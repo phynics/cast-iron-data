@@ -39,14 +39,14 @@ talent, using your kineticist level as your alchemist level:
 
 **Poison Lore (Ex)**
 
-**Ability:** If you spend 1 minute physically examining the poison, you can attempt a
+**Flavor:** Text from the investigator class ability.
+
+**Passive:** You cannot accidentally poison yourself when applying poison to a weapon.
+
+If you spend 1 minute physically examining the poison, you can attempt a
 [Knowledge (nature)](ref/skill/knowledge-nature) check to identify any natural poison or
 [Knowledge (arcana)](ref/skill/knowledge-arcana) check to identify any magical poison (DC = the
 poison's saving throw DC). Lastly, once a poison is identified, you can spend 1 minute and attempt a
 [Craft](ref/skill/craft-any) (alchemy) check (DC = the poison's saving throw DC) to neutralize 1
 dose of the poison. Success renders the dose harmless. You have no chance of accidentally poisoning
 yourself when examining or attempting to neutralize a poison.
-
-**Flavor:** Text from the investigator class ability.
-
-**Passive:** You cannot accidentally poison yourself when applying poison to a weapon.

@@ -92,16 +92,16 @@ of your oracle level.
 
 **Mantle of Moonlight (Su)**
 
-**Ability:** As a melee touch attack, you may disrupt a [lycanthrope's](ref/template/lycanthrope)
-connection to the moon. This action automatically forces the lycanthrope into its humanoid form,
-which it must remain in for a number of rounds equal to your oracle level.
-
-**At 5th Level:** You can use this ability to force others into a [rage](ref/spell/rage), as per the
-spell, but only a number of times per day equal to [one-fifth](ref/misc/fractions-and-rounding) of
-your oracle level. It's still a melee touch attack.
-
 **Passive:** Your innate understanding of the moon renders you immune to
 [lycanthropy](ref/rule/lycanthropy).
+
+As a melee touch attack, you may disrupt a [lycanthrope's](ref/template/lycanthrope) connection to
+the moon. This action automatically forces the lycanthrope into its humanoid form, which it must
+remain in for a number of rounds equal to your oracle level.
+
+**At 5th level,** you can use this ability to force others into a [rage](ref/spell/rage), as per the
+spell, but only a number of times per day equal to [one-fifth](ref/misc/fractions-and-rounding) of
+your oracle level. It's still a melee touch attack.
 
 **Moonbeam (Su)**
 

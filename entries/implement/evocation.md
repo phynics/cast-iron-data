@@ -111,21 +111,21 @@ _energy ward_ lasts for 1 round per occultist level.
 
 **Light Matrix (Sp)**
 
-**At 5th Level:** You can direct the _light matrix_ to make a melee touch attack against one foe
+**Standard:** You can expend 1 point of mental focus to create a glowing orb of swirling lights that
+obeys your commands. This orb illuminates the area like the [light](ref/spell/light) spell. The orb
+can be commanded to hover over your shoulder, moving with you.
+
+As a **move action**, you can direct it to move up to 30 feet away from you. If the _light matrix_
+is ever more than 30 feet away from you, it returns to hover over your shoulder.
+
+**At 5th level,** you can direct the _light matrix_ to make a melee touch attack against one foe
 within 30 feet. If the attack hits, the target must succeed at a Fortitude save or be
 [blinded](ref/misc/blinded) for 1d4 rounds by a flash of light. If the attack hits, regardless of
 whether the target succeeds at the save, the _light matrix_ immediately ends.
 
-**Move:** You can direct it to move up to 30 feet away from you. If the _light matrix_ is ever more
-than 30 feet away from you, it returns to hover over your shoulder.
-
 **Special:** Unless ended early, the _light matrix_ has a duration of 1 hour per occultist level you
 possess. You can't have more than one _light matrix_ in existence at one time. If you use this power
 again, any previous _light matrices_ immediately end.
-
-**Standard:** You can expend 1 point of mental focus to create a glowing orb of swirling lights that
-obeys your commands. This orb illuminates the area like the [light](ref/spell/light) spell. The orb
-can be commanded to hover over your shoulder, moving with you.
 
 **Radiance (Sp)**
 

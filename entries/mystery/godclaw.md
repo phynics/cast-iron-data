@@ -95,13 +95,13 @@ hour per day to perform your obedience.
 
 **Ability:** Choose one type of heavy armor. You gain proficiency in that armor.
 
-**At 11th Level:** You can spend 1 minute placing a suit of your chosen armor into an
+**At 3rd level,** twice per day as an **immediate action**, you can instantly don or remove a suit
+of your chosen armor that you touch, causing it to teleport onto or off of your body.
+
+**At 11th level,** you can spend 1 minute placing a suit of your chosen armor into an
 extradimensional space. You can use this ability to immediately don or remove that armor, calling it
 from or removing it to that extradimensional space. While in the extradimensional space, the armor
 regains 1 hit point per hour when damaged.
-
-**At 3rd Level:** Twice per day as an **immediate action**, you can instantly don or remove a suit
-of your chosen armor that you touch, causing it to teleport onto or off of your body.
 
 **Iomedae's Boon (Su)**
 
@@ -145,12 +145,12 @@ again with a +4 insight bonus on the roll. You must take the second result, even
 you are [disabled](ref/misc/disabled) for 1 round. At the end of your next turn, unless you are
 brought to above 0 hit points, you immediately fall unconscious and begin [dying](ref/misc/dying).
 
-**At 15th Level:** Three times per day, if you are disabled and take a standard action (or any
+**At 7th level,** you gain [Diehard](ref/feat/diehard) as a bonus feat, even if you do not meet the
+prerequisites.
+
+**At 15th level,** three times per day, if you are disabled and take a standard action (or any
 otherwise strenuous action), you avoid taking 1 point of damage if you succeed at a DC 15 Fortitude
 saving throw.
-
-**At 7th Level:** You gain [Diehard](ref/feat/diehard) as a bonus feat, even if you do not meet the
-prerequisites.
 
 **Torag's Boon (Su)**
 
@@ -172,15 +172,15 @@ spent in 1-minute increments
 
 **Final Revelation**
 
+**Gained:** At 20th Level
+
 **Ability:** You can cast [detect chaos](ref/spell/detect-chaos),
 [detect law](ref/spell/detect-law), and [discern lies](ref/spell/discern-lies) at will as
 [spell-like abilities](ref/umr/spell-like-abilities), using your oracle level as your caster level.
 
-**Ability2:** Once per day, you can cast [crushing hand](ref/spell/crushing-hand) as a
+You no longer take armor check penalties for wearing armor, and your armor's maximum Dexterity bonus
+increases by 5.
+
+Once per day, you can cast [crushing hand](ref/spell/crushing-hand) as a
 [spell-like ability](ref/umr/spell-like-abilities) without requiring a focus component, treating
 your oracle level as your caster level. This hand manifests as a massive, spiked gauntlet.
-
-**Gained:** At 20th Level
-
-**Passive:** You no longer take armor check penalties for wearing armor, and your armor's maximum
-Dexterity bonus increases by 5.
