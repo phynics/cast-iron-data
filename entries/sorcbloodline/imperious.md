@@ -72,19 +72,19 @@ humans, you add an insight bonus equal to your Charisma bonus on such checks.
 
 **Heroic Echo (Su)**
 
-**Immediate:** If you receive a morale effect that affects an area or multiple targets, you can
-share your increased bonus with all other recipients. This increase to other participants lasts a
-number of rounds equal to your Charisma bonus.
-
 **Gained:** At 3rd Level
 
 **Passive:** When you receive a morale bonus from any spell,
 [spell-like ability](ref/umr/spell-like-abilities), or magic item, including those you cast on
 yourself, that bonus increases by +1.
 
+**Immediate:** If you receive a morale effect that affects an area or multiple targets, you can
+share your increased bonus with all other recipients. This increase to other participants lasts a
+number of rounds equal to your Charisma bonus.
+
 **Usage:** 1 time/day per 3 sorcerer levels
 
-**At 9th Level:** These abilities also apply to competence bonuses.
+**At 9th level,** these abilities also apply to competence bonuses.
 
 **Take Your Best Shot (Su)**
 

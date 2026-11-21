@@ -79,20 +79,20 @@ the ability's effects for 24 hours.
 
 **See It Coming (Su)**
 
-**Fullround:** You can change which saving throw your luck bonus applies to.
-
 **Gained:** At 3rd Level
 
 **Passive:** You gain a +1 luck bonus on the saving throw type of your choice (Fortitude, Reflex, or
 Will).
 
-At 7th level: The bonus increases to +2.
+**Full-round:** You can change which saving throw your luck bonus applies to.
 
-At 11th level: The bonus increases to +3.
+**At 7th level,** the bonus increases to +2.
 
-At 15th level: The bonus increases to +4.
+**At 11th level,** the bonus increases to +3.
 
-At 19th level: The bonus increases to +5.
+**At 15th level,** the bonus increases to +4.
+
+**At 19th level,** the bonus increases to +5.
 
 **Invoke the Harrow (Su)**
 
@@ -129,11 +129,11 @@ This ability is otherwise identical to
 
 **Kin to the Old Tales (Su)**
 
-**Ability:** You gain unlimited use of your _invoke the harrow_ ability.
+**Gained:** At 20th Level
 
 **Flavor:** Your soul becomes host to the otherworldly energies of the harrow.
 
-**Gained:** At 20th Level
-
 **Passive:** You gain DR 10/cold iron and immunity to curses, paralysis, and sleep. You can always
 act in the surprise round of combat, and you cannot be caught flat-footed.
+
+You gain unlimited use of your _invoke the harrow_ ability.

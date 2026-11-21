@@ -85,14 +85,14 @@ that affects only you, you can increase its duration to 10 minutes per level.
 once per day, lashing out at every creature in a 20-foot-radius [spread](ref/misc/spread) around
 you. This attack deals 1d6 points of bludgeoning, piercing, and slashing damage per sorcerer level.
 
-**At 17th Level:** You can use this ability twice per day.
-
-**At 20th Level:** You can use this ability three times a day.
-
 If you benefit from a spell or effect that allows you to overcome damage resistance with your
 natural attacks (such as magic fang), this attack ignores DR of the same type. Those caught in the
 area can attempt a Reflex saving throw (DC = 10 + half your sorcerer level + your Charisma modifier)
 for half damage.
+
+**At 17th level,** you can use this ability twice per day.
+
+**At 20th level,** you can use this ability three times a day.
 
 **Superior Transformation (Su)**
 

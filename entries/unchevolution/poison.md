@@ -14,9 +14,10 @@ group = "unchained-summoner-evolution"
 
 **Poison (Ex)**
 
-**Action:** Ability
-
 **Flavor:** The eidolon secretes toxic venom, gaining a poison attack.
+
+**Ability:** Select one bite or sting attack. Whenever the selected attack hits, the target is
+poisoned.
 
 **Prereq:** 7th-level unchained summoner; [daemon](ref/eidolon/daemon), [demon](ref/eidolon/demon),
 [devil](ref/eidolon/devil), [elemental](ref/eidolon/elemental), or [protean](ref/eidolon/protean)
@@ -24,8 +25,6 @@ subtype; [bite](ref/unchevolution/bite) or [sting](ref/unchevolution/sting)
 
 **Special:** For 2 additional evolution points, this poison deals Constitution damage instead. This
 poison can be used no more than once per round.
-
-Select one bite or sting attack. Whenever the selected attack hits, the target is poisoned.
 
 **Eidolon Poison**
 

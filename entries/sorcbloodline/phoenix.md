@@ -59,14 +59,14 @@ similar power.
 
 **The Unseen World (Su)**
 
-**Flavor:** The phoenix's blood drives you to find and save lost knowledge and magical items.
-
-**Info:** You gain [detect magic](ref/spell/detect-magic) and [read magic](ref/spell/read-magic) as
-spells known.
-
 **Gained:** At 1st Level
 
-**At 5th Level:** As a **swift action**, you can automatically identify the properties of a
+**Flavor:** The phoenix's blood drives you to find and save lost knowledge and magical items.
+
+**Ability:** You gain [detect magic](ref/spell/detect-magic) and [read magic](ref/spell/read-magic)
+as spells known.
+
+**At 5th level,** as a **swift action**, you can automatically identify the properties of a
 non-cursed magic item you hold; you must still identify a cursed item as normal to correctly
 identify it as cursed. You can use this ability a number of times equal to your Charisma modifier
 per day.

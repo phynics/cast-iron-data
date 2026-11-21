@@ -71,12 +71,12 @@ sorcerer level (minimum 1). Multiple touches do not stack, but they do add to th
 
 **Spontaneous Generation**
 
-**Ability:** You gain [Craft Wondrous Item](ref/feat/craft-wondrous-item) as a bonus feat.
-
 **Gained:** At 3rd Level
 
-**Passive:** In addition, when you craft a magic item (except a potion, a spell-trigger item, or a
-spell completion item), you may ignore one spell prerequisite without increasing the creation DC.
+**Ability:** You gain [Craft Wondrous Item](ref/feat/craft-wondrous-item) as a bonus feat.
+
+In addition, when you craft a magic item (except a potion, a spell-trigger item, or a spell
+completion item), you may ignore one spell prerequisite without increasing the creation DC.
 
 **Distracting Pattern (Su)**
 

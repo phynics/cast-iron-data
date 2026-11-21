@@ -57,23 +57,21 @@ the power of the scorpion or learned to channel it to survive.
 
 **Progenitor's Sting (Sp)**
 
-**Action:** Standard Action
-
 **Gained:** At 1st Level
+
+**Standard:** You can magically apply your toxic essence onto your weapon or onto the weapon of a
+willing ally within 30 feet.
 
 **Usage:** 3 + Charisma modifier times/day
 
-**At 5th Level:** The ability damage of your poison increases to 1d3.
+**At 5th level,** the ability damage of your poison increases to 1d3.
 
-**At 7th Level:** Each time you apply your _progenitor's sting,_ you can choose two ability scores
+**At 7th level,** each time you apply your _progenitor's sting,_ you can choose two ability scores
 for your bloodline poison to affect.
 
-**At 11th Level:** Whenever you apply your _progenitor's sting_ to a weapon, you can magically apply
+**At 11th level,** whenever you apply your _progenitor's sting_ to a weapon, you can magically apply
 it onto all willing allies' weapons within 20 feet as well. This counts as one use of your bloodline
 ability.
-
-You can magically apply your toxic essence onto your weapon or onto the weapon of a willing ally
-within 30 feet.
 
 **Toxic Essence**
 
@@ -101,14 +99,14 @@ poison.
 
 **Sudden Sting (Ex, Sp)**
 
+**Gained:** At 9th Level
+
 **Ability:** When you are able to act in the surprise round, you can take a full round's worth of
 actions rather than just a single standard action.
 
-**Ability2:** You can also cast [accelerate poison](ref/spell/accelerate-poison) and
+You can also cast [accelerate poison](ref/spell/accelerate-poison) and
 [delay poison](ref/spell/delay-poison) as [spell-like abilities](ref/umr/spell-like-abilities) a
 total of three times per day.
-
-**Gained:** At 9th Level
 
 **Sandwalker (Ex)**
 

@@ -55,27 +55,27 @@ The dark energies that fuel your existence and undying hunger form the basis of 
 
 **Ghoulish Claws (Su)**
 
+**Gained:** At 1st Level
+
 **Free:** You can grow claws. These claws are treated as [natural weapons](ref/umr/natural-attacks),
 allowing you to make two claw attacks as a full attack using your full base attack bonus. Each of
 these attacks deals 1d4 points of damage + your Strength modifier (1d3 if you are Small).
 
-**Gained:** At 1st Level
+**Usage:** 3 + Charisma modifier rounds/day
+
+**At 5th level,** creatures damaged with your claw attack are [paralyzed](ref/rule/paralyzed) for 1
+round, as the ghoul ability (Fortitude negates).
+
+**At 7th level,** the duration of the paralysis increases to 1d4+1 rounds, and the claws are
+considered magic weapons for the purpose of overcoming DR.
 
 **Special:** Per the [paralysis](ref/umr/paralysis) ability, the DC is 10 +
 [half](ref/misc/fractions-and-rounding) your level (or Hit Dice) + your Constitution modifier. Per
 the [ghoul](ref/monster/ghoul) entry, elves are immune to this effect.
 
-**At 5th Level:** Creatures damaged with your claw attack are [paralyzed](ref/rule/paralyzed) for 1
-round, as the ghoul ability (Fortitude negates).
-
-**At 7th Level:** The duration of the paralysis increases to 1d4+1 rounds, and the claws are
-considered magic weapons for the purpose of overcoming DR.
-
 If you're a ghoul with this bloodline, instead of gaining this ability, your levels in sorcerer
 stack with your racial Hit Dice when determining the DC of your _[paralysis](ref/rule/paralysis)_
 and _[disease](ref/carried/bestiary/rules/universal-monster-rules/disease)_ special abilities.
-
-**Usage:** 3 + Charisma modifier rounds/day
 
 **Leathery Skin (Ex)**
 

@@ -107,13 +107,13 @@ points.
 **Swift:** Once per day, you can take 2 points of temporary ability damage to one of your ability
 scores and add a temporary +2 inherent bonus to any other ability score.
 
-**At 20th Level:** You can use this ability twice per day.
-
 This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely
 dismiss it (a **free action**), during which time the temporary ability damage cannot be healed by
 any means.
 
 After this effect ends, you can heal the ability damage normally.
+
+**At 20th level,** you can use this ability twice per day.
 
 **Eternal Martyr (Su)**
 

@@ -21,13 +21,9 @@ doesn't add her Intelligence modifier to this damage).
 
 **Bomb (Su)**
 
-**Action:** Info
-
-**Flavor:** Relevant text from the alchemist class ability.
-
 **Gained:** At 1st Level
 
-**Provokes attack of opportunity:** Yes
+**Flavor:** Relevant text from the alchemist class ability.
 
 **Standard:** You can make and throw bombs. Drawing the components of, creating, and throwing a bomb
 is a single action. Thrown bombs have a range of 20 feet and use the
@@ -42,3 +38,5 @@ stored.
 
 Bombs are considered weapons and can be selected using feats such as
 [Point-Blank Shot](ref/feat/point-blank-shot) and [Weapon Focus](ref/feat/weapon-focus).
+
+**Provokes attack of opportunity:** Yes

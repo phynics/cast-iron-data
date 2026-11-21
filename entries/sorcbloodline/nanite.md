@@ -59,24 +59,22 @@ The microscopic nanites in your blood grant you incredible powers and alien magi
 
 **Nanite Strike (Ex)**
 
-**Action:** Free Action
-
 **Gained:** At 1st Level
+
+**Free:** You can cause nanites to flow from your body and coat the striking end of any manufactured
+melee weapon you wield. When you hit with a melee attack using this weapon, some of the nanites
+infect the blood of the victim.
 
 **Usage:** 3 + Charisma modifier rounds/day
 
-**At 5th Level:** Weapons you use with this ability are treated as magical for the purposes of
+**At 5th level,** weapons you use with this ability are treated as magical for the purposes of
 overcoming DR, and the poison also deals 1 point of
 [Constitution damage](ref/rule/ability-damage-drain).
 
-**At 7th Level:** The damage increases to 1d2 points of Constitution damage and 1d2 points of
+**At 7th level,** the damage increases to 1d2 points of Constitution damage and 1d2 points of
 Strength damage.
 
-**At 11th Level:** The cure becomes two successful saves.
-
-You can cause nanites to flow from your body and coat the striking end of any manufactured melee
-weapon you wield. When you hit with a melee attack using this weapon, some of the nanites infect the
-blood of the victim.
+**At 11th level,** the cure becomes two successful saves.
 
 **Nanite Strike**
 
@@ -127,13 +125,13 @@ attack to deal damage as normal instead.
 
 **Living Swarm (Su)**
 
-**Ability:** At will, you can break down your body and move in a shimmering stream of flying
-nanites, as if affected by _[gaseous form](ref/spell/gaseous-form)._
+**Gained:** At 20th Level
 
 **Flavor:** You and the machines within you become one.
-
-**Gained:** At 20th Level
 
 **Passive:** Your nanites consume and replicate your body, allowing swift and radical physical
 alterations with little more than a thought. You become immune to bleed effects, diseases, and
 poisons, and gain DR 5/-.
+
+At will, you can break down your body and move in a shimmering stream of flying nanites, as if
+affected by _[gaseous form](ref/spell/gaseous-form)._

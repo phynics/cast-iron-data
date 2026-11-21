@@ -84,17 +84,15 @@ target is [staggered](ref/misc/staggered) for 1 round.
 
 **Wind Sight (Su)**
 
-**At 7th Level:** She can, as a **standard action**, hear or see into any area - as
+**Passive:** The shaman ignores the penalties on [Perception](ref/skill/perception) checks caused by
+wind and the first 100 feet of distance.
+
+**At 7th level,** she can, as a **standard action**, hear or see into any area - as
 [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), using that spell's range -
 provided that there's an unobstructed path for air to travel between the shaman and the target area.
 This doesn't require line of effect, meaning the path can turn corners and go through spaces as
-narrow as 1 inch in diameter.
-
-The shaman can use this ability a number of rounds per day equal to her shaman level, but these
-rounds do not need to be consecutive.
-
-**Passive:** The shaman ignores the penalties on [Perception](ref/skill/perception) checks caused by
-wind and the first 100 feet of distance.
+narrow as 1 inch in diameter. The shaman can use this ability a number of rounds per day equal to
+her shaman level, but these rounds do not need to be consecutive.
 
 **Wind Ward (Su)**
 

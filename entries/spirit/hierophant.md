@@ -82,9 +82,8 @@ with your positive or negative energy, that creature gains a +1 sacred bonus on 
 checks, ability checks, and saving throws for 1 round. The bonus is sacred if you use positive
 energy and profane if you use negative energy.
 
-**Ability2:** If you destroy or kill one or more creatures with positive or negative energy, you
-gain a +1 bonus of the same type on attack rolls, skill checks, ability checks, and saving throws
-for 1 round.
+If you destroy or kill one or more creatures with positive or negative energy, you gain a +1 bonus
+of the same type on attack rolls, skill checks, ability checks, and saving throws for 1 round.
 
 ### Supreme Spirit Power
 

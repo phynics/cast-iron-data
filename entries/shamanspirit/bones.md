@@ -73,22 +73,20 @@ hours.
 
 **Deathly Being (Su)**
 
-**At 16th Level:** If the shaman is a living creature, she takes no penalties from energy drain
-effects, though she can still be killed if she accrues more negative levels than she has Hit Dice.
-Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to
-succeed at an additional saving throw.
-
-If the shaman is an undead creature, her bonus to [channel resistance](ref/rule/channel-resistance)
-increases to +4.
-
-**At 8th Level:** If she's a living creature she gains a +4 bonus on saves against death effects and
-effects that [drain energy](ref/rule/energy-drain-and-negative-levels), or if she's an undead
-creature her bonus to [channel resistance](ref/rule/channel-resistance) increases to +2.
-
 **Passive:** If the shaman is a living creature, she reacts to positive and negative energy as if
 she were undead - positive energy harms her, while negative energy heals her. If she's an undead
 creature or a creature with the [negative energy affinity](ref/umr/negative-energy-affinity)
 ability, she gains a +1 bonus to her [channel resistance](ref/umr/channel-resistance).
+
+**At 8th level,** if she's a living creature she gains a +4 bonus on saves against death effects and
+effects that [drain energy](ref/rule/energy-drain-and-negative-levels), or if she's an undead
+creature her bonus to [channel resistance](ref/rule/channel-resistance) increases to +2.
+
+**At 16th level,** if the shaman is a living creature, she takes no penalties from energy drain
+effects, though she can still be killed if she accrues more negative levels than she has Hit Dice.
+Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to
+succeed at an additional saving throw. If the shaman is an undead creature, her bonus to
+[channel resistance](ref/rule/channel-resistance) increases to +4.
 
 **Fearful Gaze (Su)**
 

@@ -109,31 +109,7 @@ ref/phrenicamp/mimic-metamagic	Mimic Metamagic (Ex)	1	39d436b8f9200533b6ef73b9df
 ref/ragepower/greater-ancestor-totem	Greater Ancestor Totem (Su)	1	3251977b26011c0c1935ea8940531db66110e2b495e8c6d1041487a38b7d300e	action-first-pair: print decides the order
 ref/ragepower/savage-dirty-trick	Savage Dirty Trick (Ex)	1	d68f1c131dca7b58519f520c693834977f351e6c4950cf3a9fc71a1e2906a5c9	action-group-crosses-row
 ref/ragepower/unrestrained-rage	Unrestrained Rage	1	5ebd88520aebe9438f058482dea20b365c3cbd4f0b403a7cb858f9508cc4d086	action-first-pair: print decides the order
-ref/shamanspirit/bones	Deathly Being (Su)	1	0a67cc3ff5b219e3c63134c2ff31c2901959f3090402decd0f05f67675cbee2e	unlabeled-paragraphs-not-after-effect
-ref/shamanspirit/wind	Wind Sight (Su)	1	e489c0d8bce369a695dd52da76bd23a0baed5702b037c05cde46949472b1909b	unlabeled-paragraphs-not-after-effect
-ref/slayertalent/rogue-and-ninja-advanced-talents	Rogue and Ninja Advanced Talents	1	4979a50eb145bcc8e7a2d7956ee8ca9d4664535440b96a29484f95d1e3e65cbb	action-without-one-group
-ref/soctalent/renown	Renown (Ex)	1	7edbcdaf5267e67d5ff4b2bea55744d0cc9e7a0fe2f62b008f4dfe3e707567ae	action-without-one-group
-ref/sorcbloodline/arcane	Replacement Bloodline Arcana	1	7984868f01b36e421f1bf0e29e0d9b9348b9a779c7067230f9ccd54931c13d89	multiple-effect-rows
-ref/sorcbloodline/ghoul	Ghoulish Claws (Su)	1	b5d1dbd65a2120ede59420b264b296b35049fb9a408fcd07fb8436663ca642c9	unlabeled-paragraphs-not-after-effect; upgrade-keeps-capital: Creatures
-ref/sorcbloodline/harrow	See It Coming (Su)	1	26cfd825459c43c87abdc01ac95e2d060a4bc3561ca4189437bded06c98f4e7b	action-first-pair: print decides the order
-ref/sorcbloodline/harrow	Kin to the Old Tales (Su)	1	d8d2f56995826d34686be891bc19914ccc3cf8f50d24920a254c0e45f0ac693c	multiple-effect-rows
-ref/sorcbloodline/imperious	Heroic Echo (Su)	1	fc2297630989d11679e4c7ca0a0459916af61848946f18ecf4b75be026e5b872	action-first-pair: print decides the order
-ref/sorcbloodline/impossible	Spontaneous Generation	1	1b66cf80b4e34787a71c766332c62ef3988551810ace3c3d2560b4a5958b4adf	multiple-effect-rows
-ref/sorcbloodline/martyred	Sacrificial Exchange (Su)	1	b2ebfcacd777153081d60c724d9da54169a1c7f849e4f9893bac9aaf54f299eb	unlabeled-paragraphs-not-after-effect
-ref/sorcbloodline/nanite	Nanite Strike (Ex)	1	53d2aef137a6dceca28a3950226de3615a356f723939df72eaeda6990a3f79ec	action-group-crosses-row; upgrade-keeps-capital: Weapons
-ref/sorcbloodline/nanite	Living Swarm (Su)	1	f7793f66fb451fe7cbaf5c537ea07ce11c4ec687c6d238243b5d782cc042f9c4	multiple-effect-rows
 ref/sorcbloodline/pestilence	Pestilential Breath (Su)	1	e469cdc329253b771fd488dc02283802d99074a192a69b7f7e1febd3c98ca8f8	unlabeled-paragraphs-not-after-effect
-ref/sorcbloodline/phoenix	The Unseen World (Su)	1	cfca6d35f812628307e5db8045525445502f1e0697dd3b877c2810b2b4bee364	no-effect-row
-ref/sorcbloodline/scorpion	Progenitor's Sting (Sp)	1	6d0d74fd1e2eee7e0cdf564f649adc3c95ecac2a645879368de5bf2e5d494137	action-group-crosses-row
-ref/sorcbloodline/scorpion	Sudden Sting (Ex, Sp)	1	77f31743a2c080b71131541982f9d80651158455b734bf88b6ddabf28fd43056	numbered-effect-label: Ability2
-ref/sorcbloodline/shapechanger	Vortex of Flesh (Su)	1	a166327eebfc7eb564975053fcbcafac37bdf4b1742fd88e5d77737f8b655abe	unlabeled-paragraphs-not-after-effect
 ref/spirit/beldam-i	Princely Humor (Su)	1	b86334838c5144c235a55a2945ea08d89d5b5ea6f9fad89bb33f20db857274b9	numbered-effect-label: Ability2
-ref/spirit/hierophant	Overflowing Grace (Su)	1	62b3693907be3c415cbeeceb8c6fddeac62c19979716600136b29d33b62fe4c5	numbered-effect-label: Ability2
 ref/spirit/taldaris	First Emperor's Order (Su)	1	91cda435ead14c349756dbca40569717ffad60aeebaad6afe80e7f6cf3274887	multiple-effect-rows
-ref/talent/bomber	Bomb (Su)	1	14f59ea1fb8b400d22e33f822ca741f2d60e8f2c18e4f37382be40418c6c5702	unmapped-action: Info
 ref/talent/combat-swipe-unchained-rogue	Combat Swipe (Unchained Rogue)	1	b0e61a1fc50830bb277721acf9d382abcb411ed3b74aa2d5714e1895a4d6cb69	unlabeled-paragraphs-not-after-effect
-ref/talent/expert-cypher	Expert Cypher (Ex)	1	ae33a6ee34ac248bce3ed16452f04662f35d6b609174cc654b3a4c7d27e5ebe0	numbered-effect-label: Ability2; multiple-effect-rows
-ref/talent/umbral-gear	Umbral Gear (Su)	1	5482826208f1212e2fa865b4cfd08098cfb8b00d5b06829899566512243a7967	action-without-one-group
-ref/unchevolution/large	Large (Ex)	1	c22504fd908bbbb01e4887a044ac7e94c4d16f5f7be02b7454bea9d392a25cb5	unlabeled-paragraphs-not-after-effect
-ref/unchevolution/poison	Poison (Ex)	1	43f30078ab7c1a5db13d257c7b560bcee55b0d571042a3d6b354423691027227	action-without-one-group
-ref/vigtalent/morphic-weaponry	Morphic Weaponry (Ex)	2	c65d32c477c6748a21843d4525881283ddc4d3a209475969417b698ed67bd3c1	multiple-effect-rows

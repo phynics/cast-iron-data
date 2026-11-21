@@ -116,14 +116,14 @@ Scholars of the arcane are always creating new means to use magic.
 
 **Replacement Bloodline Arcana**
 
+**Flavor:** Unlike most sorcerers, whose innate magic is powered by force of personality, you use
+your intellect to understand and master your mystic powers.
+
 **Ability:** You use your Intelligence, rather than your Charisma, to determine all class features
 and effects relating to your sorcerer class, such as bonus spells per day, the maximum spell level
 you can cast, the save DCs of your spells, and the number of daily uses of your bloodline powers.
 
-**Flavor:** Unlike most sorcerers, whose innate magic is powered by force of personality, you use
-your intellect to understand and master your mystic powers.
-
-**Passive:** You gain a +2 bonus on all Knowledge (arcana) and Spellcraft checks.
+You gain a +2 bonus on all Knowledge (arcana) and Spellcraft checks.
 
 ### Bloodline Powers
 

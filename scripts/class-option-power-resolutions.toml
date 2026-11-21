@@ -3852,6 +3852,25 @@ She gains a +4 insight bonus to AC for the purposes of confirming critical hits 
 
 [[resolution]]
 id = "ref/shamanspirit/bones"
+name = "Deathly Being (Su)"
+occurrence = 1
+span_sha256 = "0a67cc3ff5b219e3c63134c2ff31c2901959f3090402decd0f05f67675cbee2e"
+print = "Advanced Class Guide p. 39"
+replacement = '''
+**Deathly Being (Su)**
+
+**Passive:** If the shaman is a living creature, she reacts to positive and negative energy as if
+she were undead - positive energy harms her, while negative energy heals her. If she's an undead
+creature or a creature with the [negative energy affinity](ref/umr/negative-energy-affinity)
+ability, she gains a +1 bonus to her [channel resistance](ref/umr/channel-resistance).
+
+**At 8th level,** if she's a living creature she gains a +4 bonus on saves against death effects and effects that [drain energy](ref/rule/energy-drain-and-negative-levels), or if she's an undead creature her bonus to [channel resistance](ref/rule/channel-resistance) increases to +2.
+
+**At 16th level,** if the shaman is a living creature, she takes no penalties from energy drain effects, though she can still be killed if she accrues more negative levels than she has Hit Dice. Furthermore, after 24 hours any negative levels the shaman has are removed without requiring her to succeed at an additional saving throw. If the shaman is an undead creature, her bonus to [channel resistance](ref/rule/channel-resistance) increases to +4.
+'''
+
+[[resolution]]
+id = "ref/shamanspirit/bones"
 name = "Manifestation"
 occurrence = 1
 span_sha256 = "01ec3ce00864c5af4673ad6a8d491e8f034cb6382113be3d37f7caf7af97b36e"
@@ -4105,6 +4124,21 @@ She can also apply any one of the following feats to any air or electricity spel
 '''
 
 [[resolution]]
+id = "ref/shamanspirit/wind"
+name = "Wind Sight (Su)"
+occurrence = 1
+span_sha256 = "e489c0d8bce369a695dd52da76bd23a0baed5702b037c05cde46949472b1909b"
+print = "Advanced Class Guide p. 47"
+replacement = '''
+**Wind Sight (Su)**
+
+**Passive:** The shaman ignores the penalties on [Perception](ref/skill/perception) checks caused by
+wind and the first 100 feet of distance.
+
+**At 7th level,** she can, as a **standard action**, hear or see into any area - as [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), using that spell's range - provided that there's an unobstructed path for air to travel between the shaman and the target area. This doesn't require line of effect, meaning the path can turn corners and go through spaces as narrow as 1 inch in diameter. The shaman can use this ability a number of rounds per day equal to her shaman level, but these rounds do not need to be consecutive.
+'''
+
+[[resolution]]
 id = "ref/shamanspirit/wood"
 name = "Manifestation"
 occurrence = 1
@@ -4120,6 +4154,34 @@ replacement = '''
 **Passive:** She is forevermore treated as a [plant creature](ref/type/plant) rather than her original creature type for the purposes of spells and magical effects. Her skin takes on the appearance of polished wood grain, and she gains a +4 natural armor bonus to her Armor Class and [damage reduction](ref/rule/damage-reduction) 10/- against wooden weapons and the natural attacks of wooden and wood-like creatures. She gains immunity to paralysis, poison, polymorph, sleep, and stun.
 
 At will, the shaman can meld with any tree or single block of wood (as per [meld into stone](ref/spell/meld-into-stone), except she can meld only with wood and has no limit on how long she can remain in the wood).
+'''
+
+[[resolution]]
+id = "ref/slayertalent/rogue-and-ninja-advanced-talents"
+name = "Rogue and Ninja Advanced Talents"
+occurrence = 1
+span_sha256 = "4979a50eb145bcc8e7a2d7956ee8ca9d4664535440b96a29484f95d1e3e65cbb"
+print = "Advanced Class Guide p. 55"
+replacement = '''
+**Rogue and Ninja Advanced Talents**
+
+**Ability:** A slayer can select one of the following rogue _advanced talents_ or ninja _master tricks_ in place of a slayer advanced talent.
+
+**Advanced rogue talents:** [aligned disguise](ref/talent/aligned-disguise),
+[blinding strike](ref/talent/blinding-strike),
+[dance of disorienting shadows](ref/talent/dance-of-disorienting-shadows),
+[deadly sneak](ref/talent/deadly-sneak), [feat](ref/talent/feat),
+[hunter's surprise](ref/talent/hunters-surprise),
+[improved shadow's chill](ref/talent/improved-shadows-chill),
+[knock-out blow](ref/talent/knock-out-blow), [master of disguise](ref/talent/master-of-disguise),
+[opportunist](ref/talent/opportunist),
+[reflexive shadow shield](ref/talent/reflexive-shadow-shield),
+[see in darkness](ref/talent/see-in-darkness), [stealthy sniper](ref/talent/stealthy-sniper).
+
+**Master Tricks:** [evasion](ref/ninjatrick/evasion), [feat](ref/ninjatrick/feat).
+
+**Special:** A slayer can select multiple rogue advanced talents or ninja master tricks by taking
+this slayer advanced talent multiple times, but can't select the same one more than once.
 '''
 
 [[resolution]]
@@ -4163,6 +4225,32 @@ While in this identity, he receives a +20 circumstance bonus on Disguise checks 
 at his disposal. While he can use magic (such as a
 [hat of disguise](ref/magic-wondrous/hat-of-disguise)), his mundane identity can never be anything
 other than an ordinary member of a society or large group (subject to GM discretion).
+'''
+
+[[resolution]]
+id = "ref/soctalent/renown"
+name = "Renown (Ex)"
+occurrence = 1
+span_sha256 = "7edbcdaf5267e67d5ff4b2bea55744d0cc9e7a0fe2f62b008f4dfe3e707567ae"
+print = "Ultimate Intrigue p. 12"
+replacement = '''
+**Renown (Ex)**
+
+**Flavor:** The vigilante becomes known for deeds and abilities regardless of his current identity.
+This _renown_ grants him favorable treatment in civilized company and lends him an air of menace
+while facing down his enemies.
+
+**Ability:** While he is in his social identity, a vigilante can spend 1 week gaining _renown_ among the locals of any community of no more than about 200 individuals ([a village](ref/rule/the-shape-of-civilization)). This could be the entire community or a smaller neighborhood in a larger settlement. He must spend at least 4 hours each day socializing and making contacts. After spending 1 week doing this, whenever he is in his social identity, all NPCs in the community have a starting attitude toward him that is one category better, as long as each person's [initial attitude](ref/skill/diplomacy) would have at least been indifferent. While he gains _renown_ in an area using his social identity, he also spreads rumors and tales about his vigilante identity.
+
+Once he has gained _renown_ in a community, he gains a +4 circumstance bonus on Intimidate checks
+whenever he is in his vigilante identity. This bonus applies only while he is near the community in
+which he has gained _renown;_ he must be within a number of miles equal to his vigilante level.
+
+**Special:** A vigilante can hold _renown_ in a limited number of communities (normally one, with
+other social talents allowing two). If he gains _renown_ in a new community, he must decide which
+one of his previous communities to lose. These effects are subject to GM approval. For example, the
+GM might rule that an NPC or monster has not heard any tales about the vigilante. Or, a foe may have
+a starting attitude toward him that's one category worse, rather than one category better.
 '''
 
 [[resolution]]
@@ -4229,6 +4317,25 @@ replacement = '''
 **Ability:** You gain an _arcane bond,_ as a [wizard](ref/class/wizard) equal to your sorcerer level. Your sorcerer levels stack with any wizard levels you possess when determining the powers of your familiar or bonded object. This ability does not allow you to have both a familiar and a bonded item.
 
 Once per day, your _bonded item_ allows you to cast any one of your spells known (unlike a wizard's bonded item, which allows him to cast any one spell in his spellbook).
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/arcane"
+name = "Replacement Bloodline Arcana"
+occurrence = 1
+span_sha256 = "7984868f01b36e421f1bf0e29e0d9b9348b9a779c7067230f9ccd54931c13d89"
+print = "Ultimate Magic p. 72"
+replacement = '''
+**Replacement Bloodline Arcana**
+
+**Flavor:** Unlike most sorcerers, whose innate magic is powered by force of personality, you use
+your intellect to understand and master your mystic powers.
+
+**Ability:** You use your Intelligence, rather than your Charisma, to determine all class features
+and effects relating to your sorcerer class, such as bonus spells per day, the maximum spell level
+you can cast, the save DCs of your spells, and the number of daily uses of your bloodline powers.
+
+You gain a +2 bonus on all Knowledge (arcana) and Spellcraft checks.
 '''
 
 [[resolution]]
@@ -4382,6 +4489,120 @@ Once per day, you can cast [shadow walk](ref/spell/shadow-walk) as a [spell-like
 '''
 
 [[resolution]]
+id = "ref/sorcbloodline/ghoul"
+name = "Ghoulish Claws (Su)"
+occurrence = 1
+span_sha256 = "b5d1dbd65a2120ede59420b264b296b35049fb9a408fcd07fb8436663ca642c9"
+print = "Monster Codex p. 80"
+replacement = '''
+**Ghoulish Claws (Su)**
+
+**Gained:** At 1st Level
+
+**Free:** You can grow claws. These claws are treated as [natural weapons](ref/umr/natural-attacks),
+allowing you to make two claw attacks as a full attack using your full base attack bonus. Each of
+these attacks deals 1d4 points of damage + your Strength modifier (1d3 if you are Small).
+
+**Usage:** 3 + Charisma modifier rounds/day
+
+**At 5th level,** creatures damaged with your claw attack are [paralyzed](ref/rule/paralyzed) for 1 round, as the ghoul ability (Fortitude negates).
+
+**At 7th level,** the duration of the paralysis increases to 1d4+1 rounds, and the claws are considered magic weapons for the purpose of overcoming DR.
+
+**Special:** Per the [paralysis](ref/umr/paralysis) ability, the DC is 10 +
+[half](ref/misc/fractions-and-rounding) your level (or Hit Dice) + your Constitution modifier. Per
+the [ghoul](ref/monster/ghoul) entry, elves are immune to this effect.
+
+If you're a ghoul with this bloodline, instead of gaining this ability, your levels in sorcerer
+stack with your racial Hit Dice when determining the DC of your _[paralysis](ref/rule/paralysis)_
+and _[disease](ref/carried/bestiary/rules/universal-monster-rules/disease)_ special abilities.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/harrow"
+name = "Kin to the Old Tales (Su)"
+occurrence = 1
+span_sha256 = "d8d2f56995826d34686be891bc19914ccc3cf8f50d24920a254c0e45f0ac693c"
+print = "The Harrow Handbook p. 29"
+replacement = '''
+**Kin to the Old Tales (Su)**
+
+**Gained:** At 20th Level
+
+**Flavor:** Your soul becomes host to the otherworldly energies of the harrow.
+
+**Passive:** You gain DR 10/cold iron and immunity to curses, paralysis, and sleep. You can always
+act in the surprise round of combat, and you cannot be caught flat-footed.
+
+You gain unlimited use of your _invoke the harrow_ ability.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/harrow"
+name = "See It Coming (Su)"
+occurrence = 1
+span_sha256 = "26cfd825459c43c87abdc01ac95e2d060a4bc3561ca4189437bded06c98f4e7b"
+print = "The Harrow Handbook p. 29"
+replacement = '''
+**See It Coming (Su)**
+
+**Gained:** At 3rd Level
+
+**Passive:** You gain a +1 luck bonus on the saving throw type of your choice (Fortitude, Reflex, or
+Will).
+
+**Full-round:** You can change which saving throw your luck bonus applies to.
+
+**At 7th level,** the bonus increases to +2.
+
+**At 11th level,** the bonus increases to +3.
+
+**At 15th level,** the bonus increases to +4.
+
+**At 19th level,** the bonus increases to +5.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/imperious"
+name = "Heroic Echo (Su)"
+occurrence = 1
+span_sha256 = "fc2297630989d11679e4c7ca0a0459916af61848946f18ecf4b75be026e5b872"
+print = "Advanced Race Guide p. 75"
+replacement = '''
+**Heroic Echo (Su)**
+
+**Gained:** At 3rd Level
+
+**Passive:** When you receive a morale bonus from any spell,
+[spell-like ability](ref/umr/spell-like-abilities), or magic item, including those you cast on
+yourself, that bonus increases by +1.
+
+**Immediate:** If you receive a morale effect that affects an area or multiple targets, you can
+share your increased bonus with all other recipients. This increase to other participants lasts a
+number of rounds equal to your Charisma bonus.
+
+**Usage:** 1 time/day per 3 sorcerer levels
+
+**At 9th level,** these abilities also apply to competence bonuses.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/impossible"
+name = "Spontaneous Generation"
+occurrence = 1
+span_sha256 = "1b66cf80b4e34787a71c766332c62ef3988551810ace3c3d2560b4a5958b4adf"
+print = "Champions of Balance p. 21"
+replacement = '''
+**Spontaneous Generation**
+
+**Gained:** At 3rd Level
+
+**Ability:** You gain [Craft Wondrous Item](ref/feat/craft-wondrous-item) as a bonus feat.
+
+In addition, when you craft a magic item (except a potion, a spell-trigger item, or a spell completion item), you may ignore one spell prerequisite without increasing the creation DC.
+'''
+
+[[resolution]]
 id = "ref/sorcbloodline/kobold-sorcerer"
 name = "Nimble Walker (Su)"
 occurrence = 1
@@ -4452,6 +4673,29 @@ You can use _[plane shift](ref/spell/plane-shift)_ once per day to travel to or 
 '''
 
 [[resolution]]
+id = "ref/sorcbloodline/martyred"
+name = "Sacrificial Exchange (Su)"
+occurrence = 1
+span_sha256 = "b2ebfcacd777153081d60c724d9da54169a1c7f849e4f9893bac9aaf54f299eb"
+print = "Blood of Angels p. 29"
+replacement = '''
+**Sacrificial Exchange (Su)**
+
+**Gained:** At 15th Level
+
+**Swift:** Once per day, you can take 2 points of temporary ability damage to one of your ability
+scores and add a temporary +2 inherent bonus to any other ability score.
+
+This bonus lasts for a maximum of 1 hour per sorcerer level or until you choose to prematurely
+dismiss it (a **free action**), during which time the temporary ability damage cannot be healed by
+any means.
+
+After this effect ends, you can heal the ability damage normally.
+
+**At 20th level,** you can use this ability twice per day.
+'''
+
+[[resolution]]
 id = "ref/sorcbloodline/naga"
 name = "Power of the Naga (Su)"
 occurrence = 1
@@ -4467,6 +4711,48 @@ replacement = '''
 **Passive:** You gain immunity to charm effects, mind-reading effects, and poison.
 
 In addition, you can also assume the shape of a naga at will as if using [naga shape III](ref/spell/naga-shape-3).
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/nanite"
+name = "Living Swarm (Su)"
+occurrence = 1
+span_sha256 = "f7793f66fb451fe7cbaf5c537ea07ce11c4ec687c6d238243b5d782cc042f9c4"
+print = "People of the River p. 19"
+replacement = '''
+**Living Swarm (Su)**
+
+**Gained:** At 20th Level
+
+**Flavor:** You and the machines within you become one.
+
+**Passive:** Your nanites consume and replicate your body, allowing swift and radical physical
+alterations with little more than a thought. You become immune to bleed effects, diseases, and
+poisons, and gain DR 5/-.
+
+At will, you can break down your body and move in a shimmering stream of flying nanites, as if affected by _[gaseous form](ref/spell/gaseous-form)._
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/nanite"
+name = "Nanite Strike (Ex)"
+occurrence = 1
+span_sha256 = "53d2aef137a6dceca28a3950226de3615a356f723939df72eaeda6990a3f79ec"
+print = "People of the River p. 19"
+replacement = '''
+**Nanite Strike (Ex)**
+
+**Gained:** At 1st Level
+
+**Free:** You can cause nanites to flow from your body and coat the striking end of any manufactured melee weapon you wield. When you hit with a melee attack using this weapon, some of the nanites infect the blood of the victim.
+
+**Usage:** 3 + Charisma modifier rounds/day
+
+**At 5th level,** weapons you use with this ability are treated as magical for the purposes of overcoming DR, and the poison also deals 1 point of [Constitution damage](ref/rule/ability-damage-drain).
+
+**At 7th level,** the damage increases to 1d2 points of Constitution damage and 1d2 points of Strength damage.
+
+**At 11th level,** the cure becomes two successful saves.
 '''
 
 [[resolution]]
@@ -4520,6 +4806,24 @@ Once per day, you can cast _[transformation](ref/spell/transformation)_ as a [sp
 '''
 
 [[resolution]]
+id = "ref/sorcbloodline/phoenix"
+name = "The Unseen World (Su)"
+occurrence = 1
+span_sha256 = "cfca6d35f812628307e5db8045525445502f1e0697dd3b877c2810b2b4bee364"
+print = "Heroes of Golarion p. 24"
+replacement = '''
+**The Unseen World (Su)**
+
+**Gained:** At 1st Level
+
+**Flavor:** The phoenix's blood drives you to find and save lost knowledge and magical items.
+
+**Ability:** You gain [detect magic](ref/spell/detect-magic) and [read magic](ref/spell/read-magic) as spells known.
+
+**At 5th level,** as a **swift action**, you can automatically identify the properties of a non-cursed magic item you hold; you must still identify a cursed item as normal to correctly identify it as cursed. You can use this ability a number of times equal to your Charisma modifier per day.
+'''
+
+[[resolution]]
 id = "ref/sorcbloodline/rakshasa"
 name = "Outsider (Su)"
 occurrence = 1
@@ -4537,6 +4841,45 @@ your original type was) for the purpose of spells and other magical effects. Unl
 you can still be brought back from the dead as if you were a member of your previous creature type.
 
 You gain DR 10/piercing.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/scorpion"
+name = "Progenitor's Sting (Sp)"
+occurrence = 1
+span_sha256 = "6d0d74fd1e2eee7e0cdf564f649adc3c95ecac2a645879368de5bf2e5d494137"
+print = "Potions and Poisons p. 7"
+replacement = '''
+**Progenitor's Sting (Sp)**
+
+**Gained:** At 1st Level
+
+**Standard:** You can magically apply your toxic essence onto your weapon or onto the weapon of a willing ally within 30 feet.
+
+**Usage:** 3 + Charisma modifier times/day
+
+**At 5th level,** the ability damage of your poison increases to 1d3.
+
+**At 7th level,** each time you apply your _progenitor's sting,_ you can choose two ability scores for your bloodline poison to affect.
+
+**At 11th level,** whenever you apply your _progenitor's sting_ to a weapon, you can magically apply it onto all willing allies' weapons within 20 feet as well. This counts as one use of your bloodline ability.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/scorpion"
+name = "Sudden Sting (Ex, Sp)"
+occurrence = 1
+span_sha256 = "77f31743a2c080b71131541982f9d80651158455b734bf88b6ddabf28fd43056"
+print = "Potions and Poisons p. 7"
+replacement = '''
+**Sudden Sting (Ex, Sp)**
+
+**Gained:** At 9th Level
+
+**Ability:** When you are able to act in the surprise round, you can take a full round's worth of
+actions rather than just a single standard action.
+
+You can also cast [accelerate poison](ref/spell/accelerate-poison) and [delay poison](ref/spell/delay-poison) as [spell-like abilities](ref/umr/spell-like-abilities) a total of three times per day.
 '''
 
 [[resolution]]
@@ -4671,6 +5014,31 @@ shapechanging magic.
 **Ability:** You are immune to polymorph effects unless you are a willing target.
 
 Once per day when you cast a polymorph spell on yourself, in addition to the normal effects of the spell, you can choose to gain a fly speed of 60 feet (average maneuverability), a swim speed of 60 feet, or an increase to your base land speed of 30 feet.
+'''
+
+[[resolution]]
+id = "ref/sorcbloodline/shapechanger"
+name = "Vortex of Flesh (Su)"
+occurrence = 1
+span_sha256 = "a166327eebfc7eb564975053fcbcafac37bdf4b1742fd88e5d77737f8b655abe"
+print = "Legacy of the First World p. 21"
+replacement = '''
+**Vortex of Flesh (Su)**
+
+**Gained:** At 9th Level
+
+**Standard:** Once per day, you can momentarily change into an amalgam of erratic geometric shapes
+once per day, lashing out at every creature in a 20-foot-radius [spread](ref/misc/spread) around
+you. This attack deals 1d6 points of bludgeoning, piercing, and slashing damage per sorcerer level.
+
+If you benefit from a spell or effect that allows you to overcome damage resistance with your
+natural attacks (such as magic fang), this attack ignores DR of the same type. Those caught in the
+area can attempt a Reflex saving throw (DC = 10 + half your sorcerer level + your Charisma modifier)
+for half damage.
+
+**At 17th level,** you can use this ability twice per day.
+
+**At 20th level,** you can use this ability three times a day.
 '''
 
 [[resolution]]
@@ -4906,6 +5274,23 @@ Add [paladin's sacrifice](ref/spell/paladins-sacrifice) to your medium spells kn
 '''
 
 [[resolution]]
+id = "ref/spirit/hierophant"
+name = "Overflowing Grace (Su)"
+occurrence = 1
+span_sha256 = "62b3693907be3c415cbeeceb8c6fddeac62c19979716600136b29d33b62fe4c5"
+print = "Occult Adventures p. 35"
+replacement = '''
+**Overflowing Grace (Su)**
+
+**Ability:** When you heal a creature to full hit points or a creature already at full hit points
+with your positive or negative energy, that creature gains a +1 sacred bonus on attack rolls, skill
+checks, ability checks, and saving throws for 1 round. The bonus is sacred if you use positive
+energy and profane if you use negative energy.
+
+If you destroy or kill one or more creatures with positive or negative energy, you gain a +1 bonus of the same type on attack rolls, skill checks, ability checks, and saving throws for 1 round.
+'''
+
+[[resolution]]
 id = "ref/spirit/nex"
 name = "Personal Spire (Su)"
 occurrence = 1
@@ -4965,6 +5350,53 @@ replacement = '''
 **Ability:** Once per day, instead of rolling for a skill check, you can choose your d20 result.
 
 Additionally, you gain the ability to change form at will as if using [greater polymorph](ref/spell/polymorph-greater), except that you can mimic the form of a specific individual.
+'''
+
+[[resolution]]
+id = "ref/talent/bomber"
+name = "Bomb (Su)"
+occurrence = 1
+span_sha256 = "14f59ea1fb8b400d22e33f822ca741f2d60e8f2c18e4f37382be40418c6c5702"
+print = "Advanced Player's Guide p. 28"
+replacement = '''
+**Bomb (Su)**
+
+**Gained:** At 1st Level
+
+**Flavor:** Relevant text from the alchemist class ability.
+
+**Standard:** You can make and throw bombs. Drawing the components of, creating, and throwing a bomb
+is a single action. Thrown bombs have a range of 20 feet and use the
+[Throw Splash Weapon special attack](ref/rule/throw-splash-weapon). On a direct hit, your bomb
+inflicts 1d6 points of fire damage.
+
+In addition to magical extracts, alchemists are adept at swiftly mixing various volatile chemicals
+and infusing them with their magical reserves to create powerful bombs that they can hurl at their
+enemies. Bombs are unstable, and if not used in the round they are created, they degrade and become
+inert - their method of creation prevents large volumes of explosive material from being created and
+stored.
+
+Bombs are considered weapons and can be selected using feats such as
+[Point-Blank Shot](ref/feat/point-blank-shot) and [Weapon Focus](ref/feat/weapon-focus).
+
+**Provokes attack of opportunity:** Yes
+'''
+
+[[resolution]]
+id = "ref/talent/expert-cypher"
+name = "Expert Cypher (Ex)"
+occurrence = 1
+span_sha256 = "ae33a6ee34ac248bce3ed16452f04662f35d6b609174cc654b3a4c7d27e5ebe0"
+print = "Divine Anthology p. 7"
+replacement = '''
+**Expert Cypher (Ex)**
+
+**Ability:** A rogue with this ability can attempt a Linguistics check to decipher a single page of
+text as a **full-round action** instead of taking 1 minute as normal.
+
+When the rogue attempts a [Use Magic Device](ref/skill/use-magic-device) check to cast a spell from a scroll, she is treated as though she had the minimum score in the appropriate ability score to cast that spell.
+
+The rogue can choose to add her Intelligence modifier to her Use Magic Device skill checks instead of her Charisma modifier.
 '''
 
 [[resolution]]
@@ -5051,6 +5483,28 @@ replacement = '''
 She can use this reroll once per chase or once per day during a pursuit.
 
 Additionally, she gains [Run](ref/feat/run) as a bonus feat.
+'''
+
+[[resolution]]
+id = "ref/talent/umbral-gear"
+name = "Umbral Gear (Su)"
+occurrence = 1
+span_sha256 = "5482826208f1212e2fa865b4cfd08098cfb8b00d5b06829899566512243a7967"
+print = "Blood of Shadows p. 8"
+replacement = '''
+**Umbral Gear (Su)**
+
+**Standard:** While in an area of [dim light](ref/rule/vision-and-light) or darkness, a rogue with this talent can coalesce wisps of shadow into a quasi-real, functional item. The rogue must choose whether to make a [crowbar](ref/eq-misc/crowbar), 50 feet of [silk rope](ref/eq-misc/silk-rope-50-ft), a [glass cutter](ref/eq-misc/glass-cutter), a light melee weapon with which she is proficient, a [reversible cloak](ref/eq-misc/reversible-cloak), [thieves' tools](ref/eq-misc/thieves-tools), or a [wire saw](ref/eq-misc/wire-saw-common); the GM may allow other similar items. The rogue can use such items for a number of minutes per day equal to 10 plus her rogue level. This duration does not need to be consecutive, but it must be used in 1-minute increments.
+
+An item created with this ability remains until the rogue is no longer touching it, or until the
+rogue runs out of duration for this talent, at which time it dissolves.
+
+**Special:** A rogue can select this talent more than once, gaining an additional 10 minutes of
+duration each time this talent is selected. If a rogue has selected this talent at least twice, she
+adds 50 feet of silk rope with a [grappling hook](ref/eq-misc/grappling-hook), a
+[masterwork](ref/rule/masterwork-armor) light melee weapon with which she is proficient, and
+[masterwork thieves' tools](ref/eq-misc/thieves-tools-masterwork) to the list of things she can
+create.
 '''
 
 [[resolution]]
@@ -5142,6 +5596,52 @@ a 20-foot increase to its fly speed for each additional point spent.
 '''
 
 [[resolution]]
+id = "ref/unchevolution/large"
+name = "Large (Ex)"
+occurrence = 1
+span_sha256 = "c22504fd908bbbb01e4887a044ac7e94c4d16f5f7be02b7454bea9d392a25cb5"
+print = "Pathfinder Unchained p. 39"
+replacement = '''
+**Large (Ex)**
+
+**Ability:** The eidolon grows in size, becoming Large. The eidolon gains a +4 bonus to Strength, a
++2 bonus to Constitution, and a +2 bonus to its natural armor. It takes a -2 penalty to Dexterity.
+This size change also gives the creature a -1 size penalty to AC and on attack rolls, a +1 bonus on
+combat maneuver checks and to CMD, a -2 penalty on Fly checks, and a -4 penalty on Stealth checks.
+If the eidolon has the biped base form, it also gains a reach of 10 feet. Any
+[reach](ref/unchevolution/reach) evolutions the eidolon possesses are added to this total.
+
+**At 13th level,** if 6 additional evolution points are spent, the eidolon instead becomes Huge. The eidolon gains a +8 bonus to Strength, a +4 bonus to Constitution, and a +5 bonus to its natural armor. It takes a -4 penalty to Dexterity. This size change also gives the creature a -2 size penalty to AC and on attack rolls, a +2 bonus on combat maneuver checks and to CMD, a 10-foot reach, a -4 penalty on Fly checks, and a -8 penalty on Stealth checks. If the eidolon has the biped base form, its reach increases to 15 feet instead of 10 feet. Any _reach_ evolutions the eidolon possesses are added to this total. These bonuses and penalties replace, and do not stack with, those gained from becoming Large.
+
+**Prereq:** 8th-level unchained summoner, Medium size
+
+**Special:** The [ability increase](ref/unchevolution/ability-increase) evolution costs twice as
+much (4 evolution points) when adding to the Strength or Constitution scores of a Large or Huge
+eidolon.
+'''
+
+[[resolution]]
+id = "ref/unchevolution/poison"
+name = "Poison (Ex)"
+occurrence = 1
+span_sha256 = "43f30078ab7c1a5db13d257c7b560bcee55b0d571042a3d6b354423691027227"
+print = "Pathfinder Unchained p. 37"
+replacement = '''
+**Poison (Ex)**
+
+**Flavor:** The eidolon secretes toxic venom, gaining a poison attack.
+
+**Ability:** Select one bite or sting attack. Whenever the selected attack hits, the target is poisoned.
+
+**Prereq:** 7th-level unchained summoner; [daemon](ref/eidolon/daemon), [demon](ref/eidolon/demon),
+[devil](ref/eidolon/devil), [elemental](ref/eidolon/elemental), or [protean](ref/eidolon/protean)
+subtype; [bite](ref/unchevolution/bite) or [sting](ref/unchevolution/sting)
+
+**Special:** For 2 additional evolution points, this poison deals Constitution damage instead. This
+poison can be used no more than once per round.
+'''
+
+[[resolution]]
 id = "ref/unchevolution/web"
 name = "Web (Ex)"
 occurrence = 1
@@ -5206,4 +5706,32 @@ replacement = '''
 **Ability:** The vigilante combines strength and speed into incredibly deadly attacks. He gains [Weapon Finesse](ref/feat/weapon-finesse) as a bonus feat, and if he already has the Weapon Finesse feat, he can immediately swap it for another feat for which he qualified at the level he chose Weapon Finesse.
 
 When using Weapon Finesse to make a melee attack using his Dexterity bonus on attack rolls and his Strength bonus on damage rolls, he also adds half his vigilante level on damage rolls. This bonus damage is not reduced or increased if the vigilante is wielding a weapon two-handed or in an off-hand.
+'''
+
+[[resolution]]
+id = "ref/vigtalent/morphic-weaponry"
+name = "Morphic Weaponry (Ex)"
+occurrence = 2
+span_sha256 = "c65d32c477c6748a21843d4525881283ddc4d3a209475969417b698ed67bd3c1"
+print = "Ultimate Wilderness p. 81"
+replacement = '''
+**Morphic Weaponry (Ex)**
+
+**Flavor:** Text from the oozemorph ability.
+
+**Move:** An oozemorph can form two primary natural attacks that each deal 1d6 points of
+bludgeoning, piercing, or slashing damage, chosen by the oozemorph when she forms them.
+
+As a **swift action**, an oozemorph can change the damage type of any number of her natural weapons.
+
+**At 6th level,** an oozemorph gains an additional primary natural attack.
+
+**At 15th level,** an oozemorph gains an additional primary natural attack.
+
+**Special:** The total number of natural attacks an oozemorph has at any given time includes those
+gained via her current form. For example, an 8th-level oozemorph who has taken the form of a wolf
+with _[beast shape I](ref/spell/beast-shape-1)_ has a bite attack as part of that form; she can
+create only two additional natural attacks via _morphic weaponry,_ for a total of three attacks
+available to her at that level. If the oozemorph later reverts to a humanoid form with no natural
+weapons, she can instead create three _morphic weapons._
 '''

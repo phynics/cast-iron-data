@@ -14,13 +14,8 @@ group = "slayer-talent"
 
 **Rogue and Ninja Advanced Talents**
 
-**Action:** Ability
-
-**Special:** A slayer can select multiple rogue advanced talents or ninja master tricks by taking
-this slayer advanced talent multiple times, but can't select the same one more than once.
-
-A slayer can select one of the following rogue _advanced talents_ or ninja _master tricks_ in place
-of a slayer advanced talent.
+**Ability:** A slayer can select one of the following rogue _advanced talents_ or ninja _master
+tricks_ in place of a slayer advanced talent.
 
 **Advanced rogue talents:** [aligned disguise](ref/talent/aligned-disguise),
 [blinding strike](ref/talent/blinding-strike),
@@ -34,3 +29,6 @@ of a slayer advanced talent.
 [see in darkness](ref/talent/see-in-darkness), [stealthy sniper](ref/talent/stealthy-sniper).
 
 **Master Tricks:** [evasion](ref/ninjatrick/evasion), [feat](ref/ninjatrick/feat).
+
+**Special:** A slayer can select multiple rogue advanced talents or ninja master tricks by taking
+this slayer advanced talent multiple times, but can't select the same one more than once.
