@@ -20,10 +20,12 @@ group = "warpriest-blessing"
 
 **Command Obedience (minor)**
 
-**At 1st Level:** You can touch an ally and say a quick word to remind her of her obligations,
-granting her a new saving throw against each enchantment effect that currently affects her. If the
-saving throw is successful, the enchantment effect immediately ends. This power affects only effects
-that allow a saving throw.
+**Gained:** At 1st Level
+
+**Ability:** You can touch an ally and say a quick word to remind her of her obligations, granting
+her a new saving throw against each enchantment effect that currently affects her. If the saving
+throw is successful, the enchantment effect immediately ends. This power affects only effects that
+allow a saving throw.
 
 **Tactical Readiness (major)**
 

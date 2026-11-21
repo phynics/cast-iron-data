@@ -29,9 +29,11 @@ objects.
 
 **Transfer Magic (major)**
 
-**At 10th Level:** You can temporarily transfer a weapon special ability from one weapon to another.
-The bearers of each of the weapons must be willing, and you must be touching both weapons to
-activate this ability.
+**Gained:** At 10th Level
+
+**Ability:** You can temporarily transfer a weapon special ability from one weapon to another. The
+bearers of each of the weapons must be willing, and you must be touching both weapons to activate
+this ability.
 
 You can transfer a weapon special ability with a base price modifier of +1 or +2. If you are using
 this ability on a [double](ref/misc/double) weapon, only one end of the double weapon is affected.

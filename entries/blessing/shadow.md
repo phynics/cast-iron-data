@@ -29,10 +29,12 @@ its full benefit. This effect lasts for 1 minute.
 
 **Swift as Shadow (major)**
 
-**At 10th Level:** You can spend a **swift action** to empower yourself or an ally within 30 feet to
-move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it
-takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely
-move over areas of ice and even those affected by a [grease](ref/spell/grease) spell.
+**Gained:** At 10th Level
+
+**Ability:** You can spend a **swift action** to empower yourself or an ally within 30 feet to move
+over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes
+no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move
+over areas of ice and even those affected by a [grease](ref/spell/grease) spell.
 
 When a creature affected by this ability hits with a [charge](ref/rule/charge) attack, that attack
 deals an amount of additional cold damage equal to your level.

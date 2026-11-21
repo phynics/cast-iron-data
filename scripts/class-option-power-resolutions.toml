@@ -28,6 +28,43 @@ As a free action while making an attack roll with the infused ranged weapon, aft
 '''
 
 [[resolution]]
+id = "ref/arcanedisc/true-name"
+name = "True Name (Sp)"
+occurrence = 1
+span_sha256 = "c37cf1561f45285543169f56c72fa5f1c30746b95df7b99ac78e2c0297520fbd"
+print = "Ultimate Magic p. 87"
+replacement = '''
+**True Name (Sp)**
+
+**Ability:** Your researches into ancient tomes and your inquisitions of bound spirits have led you to one of the best-hidden secrets of the multiverse: the true name of an outsider - the name that defines the very essence of the creature and that gives the speaker control over the being. This outsider can have no more than 12 Hit Dice. Once per day, you can speak the common name by which the outsider is known, and the outsider travels to you as if you had cast [planar binding](ref/spell/planar-binding) upon it. It must obey you to the best of its ability, without pay or bargaining for its services, for its fear that you might release its true name to the wider world is enough to bring even the most recalcitrant of outsiders to bear.
+
+If the creature is within 100 feet, as a **move action**, you may punish it by deliberately
+mispronouncing its name, wracking its very essence and giving it the [sickened](ref/misc/sickened)
+and [staggered](ref/misc/staggered) conditions for 1 round (even if the creature is normally immune
+to these conditions). You cannot use _true name_ in an area of [silence](ref/spell/silence), but the
+creature does not have to be able to hear you for it to be harmed by the ability.
+
+It is in your best interest to call this creature only sparingly, and occasionally reward it in some
+fashion to mollify its wrath. If you repeatedly fail to offer it a reward appropriate to its type
+and ethos, the creature may begin plotting ways to destroy the bond between you, whether by creating
+an accident that will destroy your memory of the name, by plaguing you with nuisances or dangers
+until you vow never to call on it again, or by actively seeking to destroy you through its own
+devices or those of an underling. If this creature is of a lawful type and you are violating its
+ethos, its superiors may even destroy it or you rather than allow you to contaminate their servant
+further. Worse, they may establish situations where it is necessary for you to summon this outsider,
+opening gateways to infernal or angelic interference, in order to gain a foothold on the Material
+Plane.
+
+**Prereq:** 11th-level wizard
+
+**Special:** You may select this discovery multiple times. Each time you select this discovery, it
+applies to a different, specific outsider. If you select this discovery at 15th level or higher, the
+creature may have up to 18 Hit Dice and the call acts as
+[greater planar binding](ref/spell/planar-binding-greater) instead of
+_[planar binding](ref/spell/planar-binding)._
+'''
+
+[[resolution]]
 id = "ref/arcaneschool/divination"
 name = "Foretell (Su)"
 occurrence = 1
@@ -131,6 +168,27 @@ The DC to save against these feats is equal to 10 + 1/2 your wizard level + your
 '''
 
 [[resolution]]
+id = "ref/arcaneschool/transmutation"
+name = "Change Shape (Sp)"
+occurrence = 1
+span_sha256 = "2fac8fd180e0c2cbf99c171c04683d386765414be0d9b243b097b9ed034bbe85"
+print = "Core Rulebook p. 82"
+replacement = '''
+**Change Shape (Sp)**
+
+**Gained:** At 8th Level
+
+**Standard:** You can change your shape, functioning like [beast shape II](ref/spell/beast-shape-2)
+or [elemental body I](ref/spell/elemental-body-1).
+
+**Usage:** A number of rounds per day equal to your wizard level. These rounds don't need to be consecutive.
+
+**At 12th level,** this ability functions like [beast shape III](ref/spell/beast-shape-3) or [elemental body II](ref/spell/elemental-body-2).
+
+**Special:** At 5th, 10th, 15th, and 20th levels, a transmuter may learn an [annointing](ref/ability/annointings) instead of gaining a wizard bonus feat.
+'''
+
+[[resolution]]
 id = "ref/aspect/electric-eel"
 name = "Major Form"
 occurrence = 1
@@ -147,6 +205,74 @@ a tail attack (a secondary natural touch attack that deals 1d6 points of electri
 **At 8th level,** your electricity resistance increases to 10 and you gain a +4 racial bonus on Escape Artist checks.
 
 **At 15th level,** on a critical hit with your tail attack, the creature struck must succeed at a Fortitude save (DC = 10 + half your shifter level + your Constitution modifier) or be [stunned](ref/misc/stunned) for 1d4 rounds.
+
+**Functions As:** [Beast Shape II](ref/spell/beast-shape-2)
+'''
+
+[[resolution]]
+id = "ref/aspect/giant-wasp"
+name = "Major Form"
+occurrence = 1
+span_sha256 = "1f2f91c3656ef74dd0320d2d8c3b460efde3a406d0c37e4ca053764306c3f2fc"
+print = "Heroes of Golarion p. 22"
+replacement = '''
+**Major Form**
+
+**Ability:** Your shape changes to that of a [giant wasp](ref/monster/wasp-giant-wasp). This ability
+uses the [vermin shape](ref/spell/vermin-shape-1) spell, rather than
+[beast shape](ref/spell/beast-shape-1), for the purposes of wild shape. While in this form, you gain
+a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded
+to do so.
+
+**At 8th level,** this fly speed increases to 60 feet (average), and you gain a sting attack usable a number of times per day equal to 3 + your Wisdom modifier, which applies the following poison.
+
+**At 15th level,** your fly speed increases to 80 feet (good), and you can attempt to gain control of a mindless swarm as a **full-round action**. To gain control of the swarm, you must succeed at a Charisma check against a DC of 10 + the swarm's CR. You can direct the swarm to disperse, remain in a designated location, or attack an opponent. This control lasts for a number of rounds equal to [half](ref/misc/fractions-and-rounding) your shifter level.
+
+**Functions As:** [Vermin Shape II](ref/spell/vermin-shape-2)
+'''
+
+[[resolution]]
+id = "ref/aspect/scorpion"
+name = "Major Form"
+occurrence = 1
+span_sha256 = "9cb61773052b2fe688b6793894e8144f78fe6a0a191b3d9593f2435325d5b263"
+print = "Wilderness Origins p. 5"
+replacement = '''
+**Major Form**
+
+**Ability:** Your shape changes to that of a [giant scorpion](ref/monster/scorpion-giant-scorpion).
+While in this form, you gain [darkvision](ref/rule/darkvision) with a range of 60 feet,
+[tremorsense](ref/umr/tremorsense) with a range of 10 feet, two primary
+[claw attacks](ref/umr/natural-attacks) (1d6) with the [grab](ref/umr/grab) ability, and a secondary
+sting attack (1d6).
+
+**At 8th level,** the range of your [tremorsense](ref/umr/tremorsense) increases to 20 feet, and you gain a +4 racial bonus on Climb and Perception checks.
+
+**At 15th level,** when you make an attack of opportunity with your sting attack or maintain a grapple and deal damage with your sting attack, that attack also applies the following poison.
+
+**Functions As:** [Vermin Shape II](ref/spell/vermin-shape-2)
+'''
+
+[[resolution]]
+id = "ref/aspect/snake"
+name = "Major Form"
+occurrence = 1
+span_sha256 = "951a35bce4e4dc613a0b9fd38534910ef9c20e6f5489c29687c7613b835285a5"
+print = "Ultimate Wilderness p. 30"
+replacement = '''
+**Major Form**
+
+**Ability:** Your shape changes to that of an [emperor cobra](ref/monster/snake-emperor-cobra).
+While in this form, you gain a base speed of 30 feet, a climb speed of 30 feet, a swim speed of 30
+feet, [low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent) (30 feet), a
+[bite attack](ref/umr/natural-attacks) (2d6 damage), and the
+[Combat Reflexes](ref/feat/combat-reflexes) feat. If you already have Combat Reflexes or your
+Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can
+instead make one additional attack of opportunity each round.
+
+**At 8th level,** you gain a +4 racial bonus on Acrobatics and Stealth checks.
+
+**At 15th level,** when you make an attack of opportunity with your bite attack, that attack also applies the following poison.
 
 **Functions As:** [Beast Shape II](ref/spell/beast-shape-2)
 '''
@@ -201,6 +327,30 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/blessing/animal"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "9fedb9bcf8658c26eccc993da7d73e901974fb320884446ed6d5253aab21eace"
+print = "Advanced Class Guide p. 63"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Flavor:** You can summon a battle companion.
+
+**Ability:** This ability functions as [summon nature's ally V](ref/spell/summon-natures-ally-5) with a duration of 1 minute. This ability can summon only one animal, regardless of the list used.
+
+**At 12th level,** this now behaves as [summon nature's ally VI](ref/spell/summon-natures-ally-6).
+
+**At 14th level,** this now behaves as [summon nature's ally VII](ref/spell/summon-natures-ally-7).
+
+**At 16th level,** this now behaves as [summon nature's ally VIII](ref/spell/summon-natures-ally-8).
+
+**At 18th level,** this now behaves as [summon nature's ally IX](ref/spell/summon-natures-ally-9).
+'''
+
+[[resolution]]
 id = "ref/blessing/artifice"
 name = "Crafter's Wrath (minor)"
 occurrence = 1
@@ -215,6 +365,29 @@ replacement = '''
 objects.
 
 **Ability:** For 1 minute, whenever this weapon deals damage to constructs or objects, it bypasses [hardness](ref/umr/hardness) and [damage reduction](ref/rule/damage-reduction).
+'''
+
+[[resolution]]
+id = "ref/blessing/artifice"
+name = "Transfer Magic (major)"
+occurrence = 1
+span_sha256 = "113d115f91b081596e9f7ec0cfa0bb2d31acd88a7a7ef6ae752bdae77323ee0d"
+print = "Advanced Class Guide p. 64"
+replacement = '''
+**Transfer Magic (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can temporarily transfer a weapon special ability from one weapon to another. The bearers of each of the weapons must be willing, and you must be touching both weapons to activate this ability.
+
+You can transfer a weapon special ability with a base price modifier of +1 or +2. If you are using
+this ability on a [double](ref/misc/double) weapon, only one end of the double weapon is affected.
+The transfer lasts for 1 minute, after which the transferred weapon special ability automatically
+returns to the source weapon.
+
+You can use this ability multiple times on the same weapon or weapons. Alternatively, you can use
+_transfer magic_ to move a +1 or +2 armor special ability from one touched suit of armor to another,
+or move a +1 or +2 armor or weapon enhancement bonus to another armor or weapon.
 '''
 
 [[resolution]]
@@ -234,6 +407,32 @@ replacement = '''
 
 **Special:** This blessing's additional damage doesn't stack with the additional damage from the
 [anarchic](ref/magic-enh/anarchic) weapon special ability.
+'''
+
+[[resolution]]
+id = "ref/blessing/chaos"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "6abe32cbddfa01109b52e43eee45906383344b9a176d85dc5f08ca1143454413"
+print = "Advanced Class Guide p. 64"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Flavor:** You can summon a battle companion.
+
+**Ability:** This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a duration of 1 minute, but for only a chaotic outsider or an animal with the [entropic](ref/template/entropic) creature simple template. This ability can summon only one creature, regardless of the list used.
+
+**At 12th level,** this now behaves as [summon monster V](ref/spell/summon-monster-5).
+
+**At 14th level,** this now behaves as [summon monster VI](ref/spell/summon-monster-6).
+
+**At 16th level,** this now behaves as [summon monster VII](ref/spell/summon-monster-7).
+
+**At 18th level,** this now behaves as [summon monster VIII](ref/spell/summon-monster-8).
+
+**At 20th level,** this now behaves as [summon monster IX](ref/spell/summon-monster-9).
 '''
 
 [[resolution]]
@@ -315,6 +514,42 @@ replacement = '''
 **Flavor:** You can touch an ally and grant it the blessing of cooperation.
 
 **Ability:** Choose one teamwork feat that you have. The touched ally gains the benefit of the chosen teamwork feat for a number of rounds equal to 1/2 your warpriest level (minimum 1). Alternatively, you can choose one teamwork feat that a touched ally has and gain the benefit of the chosen feat for a number of rounds equal to 1/2 your warpriest level (minimum 1).
+'''
+
+[[resolution]]
+id = "ref/blessing/curse"
+name = "Hexing Attack (minor)"
+occurrence = 1
+span_sha256 = "b21f4a35b4db569fe486c8be0db625b919a3b8b0e9a819d44ca91345cfec6025"
+print = "Magic Tactics Toolbox p. 22"
+replacement = '''
+**Hexing Attack (minor)**
+
+**Gained:** At 1st Level
+
+**Ability:** You can touch one weapon and enhance it to inflict a minor curse on the next target it strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on attack rolls, saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute.
+'''
+
+[[resolution]]
+id = "ref/blessing/curse"
+name = "Retributive Curse (major)"
+occurrence = 1
+span_sha256 = "ffba7429b4bb56c36363821ecfb12db12c4b3d1c87ef9a9644c491d545fa83bd"
+print = "Magic Tactics Toolbox p. 22"
+replacement = '''
+**Retributive Curse (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** As a **swift** or **immediate action**, you can inflict a curse on any adjacent creature that scores a critical hit against you or deals precision damage to you. The target must succeed at a Will saving throw or be cursed.
+
+Select one of the following effects: the target takes a -2 penalty to one ability score of your
+choice (the ability cannot be reduced below 1); the target takes a -2 penalty on attack rolls,
+saving throws, ability checks, and skill checks; each turn, the target has a 25% chance of taking no
+action (otherwise, it acts normally).
+
+This curse lasts for 1 hour. A creature can be subjected to only one instance of _retributive curse_
+at a time. This otherwise functions as [bestow curse](ref/spell/bestow-curse).
 '''
 
 [[resolution]]
@@ -430,6 +665,30 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/blessing/earth"
+name = "Armor of Earth (major)"
+occurrence = 1
+span_sha256 = "537cdce2d1be6471568548022a91b335c18e6227db66b21716df6f871b4b954e"
+print = "Advanced Class Guide p. 65"
+replacement = '''
+**Armor of Earth (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can touch an ally and harden its armor or clothing. For 1 minute, the ally gains DR 1/-.
+
+**At 12th level,** the ally's DR improves to 2/-.
+
+**At 14th level,** the ally's DR increases to 3/-.
+
+**At 16th level,** the ally's DR improves to 4/-.
+
+**At 18th level,** the ally's DR increases to 5/-.
+
+**Special:** This doesn't stack with any other damage resistance.
+'''
+
+[[resolution]]
 id = "ref/blessing/earthquake"
 name = "Earth Hammer (major)"
 occurrence = 1
@@ -441,6 +700,46 @@ replacement = '''
 **Gained:** At 10th Level
 
 **Ability:** You can touch a weapon to bless it with the force of a mighty earthquake for 1 minute. When the weapon hits a creature, the target must succeed at a Reflex save or fall [prone](ref/rule/prone); either way, the creature is immune to this ability for 24 hours.
+'''
+
+[[resolution]]
+id = "ref/blessing/earthquake"
+name = "Stone's Base (minor)"
+occurrence = 1
+span_sha256 = "fcaf786a84f133c18367d80074c4a56111d1002bd20b58178148f5ea23ef2035"
+print = "Ultimate Wilderness p. 97"
+replacement = '''
+**Stone's Base (minor)**
+
+**Gained:** At 1st Level
+
+**Flavor:** You can touch an ally to bless it with the stalwart resilience of stone.
+
+**Ability:** For 1 minute, the creature gains a +4 bonus to its CMD against maneuvers that would move the ally or knock it prone.
+'''
+
+[[resolution]]
+id = "ref/blessing/evil"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "d07ae46d1b928dbe89596e89f4ec97be50d415e14106907f03c9ce736913af6c"
+print = "Advanced Class Guide p. 65"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can summon a battle companion. This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a duration of 1 minute, but for only an evil outsider or an animal with the [fiendish](ref/template/fiendish) creature simple template. This ability can summon only one creature, regardless of the list used.
+
+**At 12th level,** this now behaves as [summon monster V](ref/spell/summon-monster-5).
+
+**At 14th level,** this now behaves as [summon monster VI](ref/spell/summon-monster-6).
+
+**At 16th level,** this now behaves as [summon monster VII](ref/spell/summon-monster-7).
+
+**At 18th level,** this now behaves as [summon monster VIII](ref/spell/summon-monster-8).
+
+**At 20th level,** this now behaves as [summon monster IX](ref/spell/summon-monster-9).
 '''
 
 [[resolution]]
@@ -491,6 +790,22 @@ replacement = '''
 
 [[resolution]]
 id = "ref/blessing/flood"
+name = "Lasting Breath (minor)"
+occurrence = 1
+span_sha256 = "d154e6d6030a8b964ef5c8a012a88cfe173a60ebefbabe61a9ff57a68ba625d2"
+print = "Ultimate Wilderness p. 97"
+replacement = '''
+**Lasting Breath (minor)**
+
+**Gained:** At 1st Level
+
+**Flavor:** You can touch an ally to bless it with an extra reserve of breath.
+
+**Ability:** For 1 minute, while the ally [holds its breath](ref/misc/hold-your-breath), standard and full-round actions don't decrease the number of rounds the ally can hold its breath.
+'''
+
+[[resolution]]
+id = "ref/blessing/flood"
 name = "Tsunami Burst (major)"
 occurrence = 1
 span_sha256 = "239043cb0886b8f836de199373f9bb81e26d33ab717a013bad4f8be76746f3a5"
@@ -535,6 +850,20 @@ replacement = '''
 
 [[resolution]]
 id = "ref/blessing/godclaw"
+name = "Command Obedience (minor)"
+occurrence = 1
+span_sha256 = "84d3ad6f1533898a4465ccf790f4d4ca1e1f5f9764c11a44720f8c2e88d5a135"
+print = "Disciple's Doctrine p. 14"
+replacement = '''
+**Command Obedience (minor)**
+
+**Gained:** At 1st Level
+
+**Ability:** You can touch an ally and say a quick word to remind her of her obligations, granting her a new saving throw against each enchantment effect that currently affects her. If the saving throw is successful, the enchantment effect immediately ends. This power affects only effects that allow a saving throw.
+'''
+
+[[resolution]]
+id = "ref/blessing/godclaw"
 name = "Tactical Readiness (major)"
 occurrence = 1
 span_sha256 = "43c15923ed9a9a38f8ef098db5156494ee6a2469f823075c2bbd5185039de118"
@@ -545,6 +874,30 @@ replacement = '''
 **Gained:** At 10th Level
 
 **Ability:** You can rally your allies within 30 feet, allowing each to immediately do one of the following as a free action that does not provoke attacks of opportunity: remove the [flat-footed](ref/rule/flat-footed) condition, [take a 5-foot step](ref/rule/take-5-foot-step), draw a weapon, ready a shield, or gain a +1 dodge bonus to AC for 1 round. You can affect a number of allies equal to your Wisdom bonus. These actions do not count against your allies' total movement or actions on their next turn.
+'''
+
+[[resolution]]
+id = "ref/blessing/good"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "2ae3ad047ac6226668e9e8a64219a44e171a035ec0e7426b9f5e9d13ba9e9e53"
+print = "Advanced Class Guide p. 66"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can summon a battle companion. This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a duration of 1 minute, but for only a good outsider or an animal with the [celestial](ref/template/celestial) creature simple template. This ability can summon only one creature, regardless of the list used.
+
+**At 12th level,** this now behaves as [summon monster V](ref/spell/summon-monster-5).
+
+**At 14th level,** this now behaves as [summon monster VI](ref/spell/summon-monster-6).
+
+**At 16th level,** this now behaves as [summon monster VII](ref/spell/summon-monster-7).
+
+**At 18th level,** this now behaves as [summon monster VIII](ref/spell/summon-monster-8).
+
+**At 20th level,** this now behaves as [summon monster IX](ref/spell/summon-monster-9).
 '''
 
 [[resolution]]
@@ -671,6 +1024,30 @@ replacement = '''
 **Flavor:** You can touch one weapon and enhance it with the essence of law.
 
 **Ability:** For 1 minute, this weapon glows blue, pale yellow, or white and deals an additional 1d6 points of damage against chaotic creatures. During this time, it's treated as lawful for the purposes of overcoming [damage reduction](ref/rule/damage-reduction). This additional damage doesn't stack with the additional damage from the [axiomatic](ref/magic-enh/axiomatic) weapon special ability.
+'''
+
+[[resolution]]
+id = "ref/blessing/law"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "ec7692ea7c50bc7e5012ca14981338215743497b8b1ca41100884781a2a5b2ad"
+print = "Advanced Class Guide p. 66"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can summon a battle companion. This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a duration of 1 minute, but for only a lawful outsider or an animal with the [resolute](ref/template/resolute) creature simple template. This ability can summon only one creature, regardless of the list used.
+
+**At 12th level,** this now behaves as [summon monster V](ref/spell/summon-monster-5).
+
+**At 14th level,** this now behaves as [summon monster VI](ref/spell/summon-monster-6).
+
+**At 16th level,** this now behaves as [summon monster VII](ref/spell/summon-monster-7).
+
+**At 18th level,** this now behaves as [summon monster VIII](ref/spell/summon-monster-8).
+
+**At 20th level,** this now behaves as [summon monster IX](ref/spell/summon-monster-9).
 '''
 
 [[resolution]]
@@ -850,6 +1227,30 @@ blessing again, the previous use immediately expires.
 
 [[resolution]]
 id = "ref/blessing/plant"
+name = "Battle Companion (major)"
+occurrence = 1
+span_sha256 = "abaf651c865caffdef6f655720bbec0a7a4667557e4aa6d788a0dde34d6d92e5"
+print = "Advanced Class Guide p. 67"
+replacement = '''
+**Battle Companion (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can summon a battle companion. This ability functions as [summon nature's ally IV](ref/spell/summon-natures-ally-4), with a duration of 1 minute. This ability can summon only one animal, regardless of the list used, and the creature's type changes to [plant](ref/type/plant) instead of animal.
+
+**At 12th level,** this now behaves as [summon nature's ally V](ref/spell/summon-natures-ally-5).
+
+**At 14th level,** this now behaves as [summon nature's ally VI](ref/spell/summon-natures-ally-6).
+
+**At 16th level,** this now behaves as [summon nature's ally VII](ref/spell/summon-natures-ally-7).
+
+**At 18th level,** this now behaves as [summon nature's ally VIII](ref/spell/summon-natures-ally-8).
+
+**At 20th level,** this now behaves as [summon nature's ally IX](ref/spell/summon-natures-ally-9).
+'''
+
+[[resolution]]
+id = "ref/blessing/plant"
 name = "Creeping Vines (minor)"
 occurrence = 1
 span_sha256 = "d4f89b1963b75f540c09cfcfac682a9be4bee574d56746e9a409c23d48950a5c"
@@ -926,6 +1327,25 @@ replacement = '''
 
 [[resolution]]
 id = "ref/blessing/rune"
+name = "Blast Rune (minor)"
+occurrence = 1
+span_sha256 = "ede169ac8bdb6e084000dc089370d9f229afe3bd5be7bb5ffcc15291d75df511"
+print = "Advanced Class Guide p. 67"
+replacement = '''
+**Blast Rune (minor)**
+
+**Gained:** At 1st Level
+
+**Ability:** You can create a blast rune in any adjacent square. Any creature entering this square takes an amount of damage equal to 1d6 + 1/2 your warpriest level. This rune deals either acid, cold, electricity, or fire damage, designated when you create the rune.
+
+The rune is invisible, and lasts a number of rounds equal to your warpriest level or until
+discharged. You cannot create a blast rune in a square occupied by another creature. This rune
+counts as a 1st-level spell for the purposes of dispelling. It can be discovered with a successful
+DC 26 Perception skill check and disarmed with a successful DC 26 Disable Device skill check.
+'''
+
+[[resolution]]
+id = "ref/blessing/rune"
 name = "Spell-Storing Weapon (major)"
 occurrence = 1
 span_sha256 = "ae0996467a4e515178b73eeadc3ca864ec6c63bca356753446aa96b855aacf45"
@@ -953,6 +1373,20 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/blessing/scalykind"
+name = "Serpent Fang (major)"
+occurrence = 1
+span_sha256 = "d1c293c8aaa4748cf077d62a0093bd847e7b8c41bf9529001eae9e0f44b80cf0"
+print = "Advanced Class Origins p. 25"
+replacement = '''
+**Serpent Fang (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** As a **standard action** you can manifest venomous fangs for 1 minute. These fangs grant a [bite attack](ref/umr/natural-attacks) that deals 1d4 points of damage (for a Medium warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.
+'''
+
+[[resolution]]
 id = "ref/blessing/shadow"
 name = "Flicker of Shadows (minor)"
 occurrence = 1
@@ -964,6 +1398,23 @@ replacement = '''
 **Gained:** At 1st Level
 
 **Ability:** You can cause a weapon you touch to warp and become insubstantial for a split second before an attack. The first attack made with this weapon each round ignores any shield bonus to Armor Class, as well as bonuses from [cover](ref/rule/cover). Total cover still provides a creature its full benefit. This effect lasts for 1 minute.
+'''
+
+[[resolution]]
+id = "ref/blessing/shadow"
+name = "Swift as Shadow (major)"
+occurrence = 1
+span_sha256 = "a8e3e26a22579bdc171a6341e20490bd2f74b5824432838a2da55ff18a7e09c6"
+print = "Blood of Shadows p. 17"
+replacement = '''
+**Swift as Shadow (major)**
+
+**Gained:** At 10th Level
+
+**Ability:** You can spend a **swift action** to empower yourself or an ally within 30 feet to move over the ground as easily as its shadow. The subject's land speed increases by 10 feet and it takes no movement penalties for darkness, difficult terrain, or slickness. The creature can safely move over areas of ice and even those affected by a [grease](ref/spell/grease) spell.
+
+When a creature affected by this ability hits with a [charge](ref/rule/charge) attack, that attack
+deals an amount of additional cold damage equal to your level.
 '''
 
 [[resolution]]
@@ -1023,6 +1474,20 @@ replacement = '''
 **Gained:** At 10th Level
 
 **Ability:** You can touch a weapon and grant it either the [flaming](ref/magic-enh/flaming) or undead-[bane](ref/magic-enh/bane) weapon special ability for 1 minute. If you spend two uses of your _blessing_ when activating this ability, the weapon can have both weapon special abilities.
+'''
+
+[[resolution]]
+id = "ref/blessing/tornado"
+name = "Dust Devil (minor)"
+occurrence = 1
+span_sha256 = "6767374b2f6b476c0a49e2753753f6b4655ebbd0f16943fea26efdf4b48ebec0"
+print = "Ultimate Wilderness p. 97"
+replacement = '''
+**Dust Devil (minor)**
+
+**Gained:** At 1st Level
+
+**Ability:** When you hit with a weapon attack, you can use a **swift action** to cause a sudden burst of wind and debris to swirl around your target. The target is [dazzled](ref/misc/dazzled) for 1 minute.
 '''
 
 [[resolution]]
@@ -1239,6 +1704,20 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/blessing/wildfire"
+name = "Leaping Flames (minor)"
+occurrence = 1
+span_sha256 = "73003ba342e10d165e84867005f519f5a8ed9731206f501f038ef50227303b0f"
+print = "Ultimate Wilderness p. 97"
+replacement = '''
+**Leaping Flames (minor)**
+
+**Gained:** At 1st Level
+
+**Ability:** You touch an ally to bless it with the speed of a wildfire for 1 minute. The ally gains a +10-foot enhancement bonus to its base speed, and the ally gains a +1 dodge bonus to its AC against attacks of opportunity.
+'''
+
+[[resolution]]
 id = "ref/blrgbloodline/aquatic"
 name = "Watersense (Ex)"
 occurrence = 1
@@ -1275,6 +1754,56 @@ You gain these abilities even while not _bloodraging._
 '''
 
 [[resolution]]
+id = "ref/blrgbloodline/sphinx"
+name = "Desert Fortitude (Su)"
+occurrence = 1
+span_sha256 = "1f704707af4265606ead5342287f404cac6c243d2560da71c0570f6b97238c80"
+print = "Heroes of Golarion p. 23"
+replacement = '''
+**Desert Fortitude (Su)**
+
+**Gained:** At 8th Level
+
+**Passive:** You gain [resistance](ref/umr/resistance) 5 to electricity and fire. In addition, you
+gain [endure elements](ref/spell/endure-elements) as a constant
+[spell-like ability](ref/umr/spell-like-abilities) and a +2 competence bonus on saves against arcane
+spells.
+
+**At 16th level,** your resistance to electricity and fire increases to 10.
+'''
+
+[[resolution]]
+id = "ref/deed/dead-shot"
+name = "Dead Shot (Ex)"
+occurrence = 1
+span_sha256 = "c180715798f560936bde2165576a211cb5cdfa070d74dbeb4a395f88116b7a6e"
+print = "Ultimate Combat p. 11"
+replacement = '''
+**Dead Shot (Ex)**
+
+**Full-round:** The gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to lowest, as if she were making a full attack.
+
+If any of the attack rolls hit the target, the gunslinger's single attack is considered to have hit.
+For each additional successful attack roll beyond the first, the gunslinger increases the damage of
+the shot by the base damage dice of the firearm. For instance, if a 7th-level gunslinger firing a
+musket hits with both attacks, she does 2d12 points of damage with the shot, instead of 1d12 points
+of damage, before adding any damage modifiers.
+
+Precision damage and extra damage from weapon special abilities (such as
+[flaming](ref/magic-enh/flaming)) are added with damage modifiers and are not increased by this
+deed. If one or more rolls are critical threats, she confirms the critical once using her highest
+base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a
+maximum of 0).
+
+**Prereq:** 7th-level gunslinger
+
+**Special:** The gunslinger only misfires on a dead shot if **all** the attack rolls are misfires.
+She cannot perform this deed with a [blunderbuss](ref/eq-weapon/blunderbuss) or other
+[scatter](ref/misc/scatter) weapon when attacking creatures in a cone. The gunslinger must spend 1
+grit point to perform this deed.
+'''
+
+[[resolution]]
 id = "ref/deed/utility-shot"
 name = "Utility Shot (Ex)"
 occurrence = 1
@@ -1292,6 +1821,20 @@ gunslinger must declare the utility shot she is using before firing the shot.
 - **Blast Lock:** The gunslinger makes an attack roll against a lock within the first range increment of her firearm. A Diminutive lock usually has AC 7, and larger locks have a lower AC. The lock gains a bonus to its AC against this attack based on its quality. A simple lock has a +10 bonus to AC, an average lock has a +15 bonus to AC, a good lock has a +20 bonus to AC, and a superior lock has a +30 bonus to AC. [Arcane lock](ref/spell/arcane-lock) grants a +10 bonus to the AC of a lock against this attack. On a hit, the lock is destroyed, and the object can be opened as if it were unlocked. On a miss, the lock is destroyed, but the object is jammed and still considered locked. It can still be unlocked by successfully performing this deed, by using the Disable Device skill, or with the break DC, though the DC for either break or Disable Device or the AC increases by 10. A key, combination, or similar mechanical method of unlocking the lock no longer works, though [knock](ref/spell/knock) can still be employed to bypass the lock, and the creator of an _[arcane lock](ref/spell/arcane-lock)_ can still bypass the wards of that spell.
 - **Scoot Unattended Object:** The gunslinger makes an attack roll against a Tiny or smaller unattended object within the first range increment of her firearm. A Tiny unattended object has an AC of 5, a Diminutive unattended object has an AC of 7, and a Fine unattended object has an AC of 11. On a hit, the gunslinger does not damage the object with the shot, but can move it up to 15 feet farther away from the shot's origin. On a miss, she damages the object normally.
 - **Stop Bleeding:** The gunslinger makes a firearm attack and then presses the hot barrel against herself or an adjacent creature to staunch a bleeding wound. Instead of dealing damage, the shot ends a single [bleed](ref/rule/bleed) condition affecting the creature. The gunslinger does not have to make an attack roll when performing the deed in this way; she can instead shoot the firearm into the air, but that shot still uses up ammunition normally.
+'''
+
+[[resolution]]
+id = "ref/discipline/abomination"
+name = "Morphic Form (Ex)"
+occurrence = 1
+span_sha256 = "6241a8f905b2f553435b549fa0f689ed6e646f39d8af3b65b0f1158246aadbd6"
+print = "Occult Adventures p. 65"
+replacement = '''
+**Morphic Form (Ex)**
+
+**Gained:** At 5th Level
+
+**Ability:** While manifesting your dark half, you gain DR 5. This [damage reduction](ref/rule/damage-reduction) can be overcome by a random type of damage each time you manifest your dark half, determined by rolling on the table below.
 '''
 
 [[resolution]]
@@ -1373,6 +1916,26 @@ replacement = '''
 **Ability:** You can enter a deep meditation, allowing you to concentrate on a single problem, philosophical issue, or memory. This trance lasts 1d6 rounds, during which time you can take only move actions and gain a bonus equal to your psychic level on all saves against sonic effects and [gaze](ref/umr/gaze) attacks. When you come out of your trance, you can attempt a single [Appraise](ref/skill/appraise), Knowledge, or [Spellcraft](ref/skill/spellcraft) check with a +20 circumstance bonus.
 
 **Usage:** Wisdom modifier times/day
+'''
+
+[[resolution]]
+id = "ref/discipline/faith"
+name = "Prayer Aura (Su)"
+occurrence = 1
+span_sha256 = "28e0fefd30623ea9f6257eaded33f837745e715d892e21a66fbeaeab8671dc3a"
+print = "Occult Adventures p. 66"
+replacement = '''
+**Prayer Aura (Su)**
+
+**Gained:** At 13th Level
+
+**Ability:** As a **free action**, you can extend an aura around you to bolster your allies and make your enemies less effective. This functions as the [prayer](ref/spell/prayer) spell, granting your allies a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks and imposing a -1 penalty on your enemies' rolls of those types.
+
+If you are chaotic, lawful, good, or evil, the penalty from your aura changes to -2 against
+creatures of an opposing alignment. The penalty doesn't change further for a creature that opposes
+you on two alignment axes (such as a chaotic evil creature fighting a lawful good psychic).
+
+**Usage:** A number of rounds per day equal to your psychic level. These rounds don't need to be consecutive.
 '''
 
 [[resolution]]
@@ -1488,6 +2051,31 @@ replacement = '''
 presence as protection from external spiritual attacks.
 
 **Ability:** You gain a bonus equal to your Charisma modifier on saving throws against effects generated by haunts, incorporeal undead, incorporeal outsiders, and on saving throws against possession attempts.
+'''
+
+[[resolution]]
+id = "ref/discipline/lore"
+name = "Memory Palace (Su)"
+occurrence = 1
+span_sha256 = "c956826cc1b43fa73f48057a50942042fb33b52fa49976722fe4b6edb0fe20cf"
+print = "Occult Adventures p. 67"
+replacement = '''
+**Memory Palace (Su)**
+
+**Gained:** At 13th Level
+
+**Ability:** You mentally construct an extradimensional library to house mental constructs representing the volumes of lore you've studied. This ability functions as [mage's magnificent mansion](ref/spell/mages-magnificent-mansion), with the following adjustments: the memory palace is limited in size to a number of 10-foot cubes equal to your psychic level; your memory palace doesn't contain any furniture other than bookcases and a few desks and sofas where you and your visitors can study; and there is no food within, though the memory palace does contain a number of [unseen servants](ref/spell/unseen-servant) equal to 1/2 your psychic level, which function solely as librarians. The library keeps the same layout each time you summon it, though you can alter its appearance each time you gain a level or by spending 15 minutes concentrating. You can reshape the memory palace in your mind, so it doesn't need to currently be in effect for you to alter it.
+
+Choose one type of [Knowledge](ref/skill/knowledge-all) skill when you gain this ability. Consulting
+your memory palace gives anyone who studies within - including you - a +4 circumstance bonus on
+Knowledge checks of that type, and the memory palace counts as an extensive
+[library](ref/rule/using-a-library) for people attempting Knowledge checks of that type untrained.
+You gain a +2 circumstance bonus on checks with the chosen skill when you're not consulting the
+palace (including when the palace isn't in effect).
+
+**Usage:** You can create your memory palace once per day.
+
+**At 14th level,** and at each additional level thereafter, choose another Knowledge skill to which your memory palace's library bonuses apply.
 '''
 
 [[resolution]]
@@ -1760,6 +2348,38 @@ around you.
 
 [[resolution]]
 id = "ref/discipline/self-perfection"
+name = "Bodily Purge (Su)"
+occurrence = 1
+span_sha256 = "14a62d9ce0acd361993f3ef0e9d971aecab59c6dcca9ee76dc7ceb64f543ee2c"
+print = "Occult Adventures p. 69"
+replacement = '''
+**Bodily Purge (Su)**
+
+**Gained:** At 5th Level
+
+**Flavor:** You can heal your own wounds and maladies with the power of thought alone.
+
+**Ability:** You gain access to a daily pool of healing energy. This pool starts with 3d8 dice per day. As a **standard action**, you can use up any number of these dice to regain a number of hit points equal to the result of rolling that many d8s. For example, at 5th level you could regain 3d8 hit points all at once, 1d8 hit points three separate times, or 1d8 hit points once and 2d8 hit points at a different time. In addition, you can expend 2 dice from this pool to instead gain the benefit of [lesser restoration](ref/spell/restoration-lesser) (affecting yourself only).
+
+**At 7th level,** you can expend 3 dice from this pool to instead gain the benefit of [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease), or [restoration](ref/spell/restoration) (affecting yourself only). To use _[restoration](ref/spell/restoration)_ to dispel a permanent [negative level](ref/rule/energy-drain-and-negative-levels), you must expend 4 dice from this pool instead of 3. Your healing pool increases to 4d8.
+
+**At 9th level,** your healing pool increases to 5d8.
+
+**At 11th level,** your healing pool increases to 6d8.
+
+**At 13th level,** your healing pool increases to 7d8.
+
+**At 15th level,** your healing pool increases to 8d8.
+
+**At 17th level,** your healing pool increases to 9d8.
+
+**At 19th level,** your healing pool increases to 10d8.
+
+**Special:** Use your psychic level as your caster level for these effects.
+'''
+
+[[resolution]]
+id = "ref/discipline/self-perfection"
 name = "Pure Body (Ex)"
 occurrence = 1
 span_sha256 = "6cfcf563d3ae5482581ba8a963e924ee7c683c5419cbeda5bd0fcc921114f595"
@@ -1854,6 +2474,25 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/discipline/superiority"
+name = "Magical Hoarder (Su)"
+occurrence = 1
+span_sha256 = "ce27ef59b53c4693796bc100a8e93e2f4f1c061e6eb9c4a5a72613d9c3c296b7"
+print = "Disciple's Doctrine p. 19"
+replacement = '''
+**Magical Hoarder (Su)**
+
+**Gained:** At 13th Level
+
+**Ability:** Whenever a creature within 30 feet of you casts a spell intended to benefit its targets, you can spend 1 point from your phrenic pool as an **immediate action** to include yourself as a target of that spell. If the creature is not your ally, you must be able to clearly see the spell's effects and you must succeed at a [Spellcraft](ref/skill/spellcraft) check (DC = 15 + the spell's level) to identify the spell before using this ability.
+
+If you are not within the normal range of the spell, then you must spend 1 additional point from
+your phrenic pool to use this ability. If the spell has a range of personal, then you must instead
+spend 2 additional phrenic points from your pool to use this ability. This ability does not affect
+spells with an instantaneous or permanent duration.
+'''
+
+[[resolution]]
 id = "ref/discipline/symbiosis"
 name = "Animate Trees (Su)"
 occurrence = 1
@@ -1874,6 +2513,29 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/discipline/symbiosis"
+name = "Bionetwork (Su)"
+occurrence = 1
+span_sha256 = "e9f680b14358c6071bd9b197c51e70383a297ea84d63f7eda7c6e75a6bbc6a01"
+print = "Ultimate Wilderness p. 93"
+replacement = '''
+**Bionetwork (Su)**
+
+**Gained:** At 5th Level
+
+**Flavor:** Your mental influence over nature increases.
+
+**Ability:** You can spend 10 minutes to mentally connect with living fungi, leaves, moss, roots, and similar plants or plant-like things. You form a temporary network that functions as an extension of your senses. The network allows you to use one of the following two effects: you can remotely view any familiar or obvious location within a range of 250 feet per psychic level, as per [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); or you can attempt to locate a creature within the area, as per [scrying](ref/spell/scrying). You don't need a focus to use this effect, and you can't cast spells through the sensor.
+
+This ability doesn't function in areas of sparse vegetation, such as arid deserts, barren caverns,
+or frozen tundras. Buildings and urban areas are generally excluded from your network, but ruins
+reclaimed by nature are connected. While you're underground, roots and fungi function as your
+network, but the radius of the network is only 100 feet per psychic level.
+
+**Usage:** 1 time/day + 1 per 4 psychic levels beyond 5th
+'''
+
+[[resolution]]
 id = "ref/discipline/tranquility"
 name = "Calming Presence (Su)"
 occurrence = 1
@@ -1889,6 +2551,28 @@ replacement = '''
 **Ability:** You can use [calm emotions](ref/spell/calm-emotions) as a [spell-like ability](ref/umr/spell-like-abilities).
 
 **Usage:** Wisdom modifier times/day
+'''
+
+[[resolution]]
+id = "ref/discipline/tranquility"
+name = "Purge Disquiet (Su)"
+occurrence = 1
+span_sha256 = "81f438dc71d8970df541bc3c325abe4dd0d940a971e59fbdc3d9c4cfdedb11de"
+print = "Occult Adventures p. 69"
+replacement = '''
+**Purge Disquiet (Su)**
+
+**Gained:** At 13th Level
+
+**Flavor:** You can banish mental distress.
+
+**Ability:** You become immune to fear spells and effects and to the [confused](ref/misc/confused) condition.
+
+As a **standard action**, you can choose a willing creature that is either within 30 feet or in
+telepathic contact with you. For 1 round per psychic level you possess, you suppress any fear effect
+or confused, cowering, frightened, panicked, or shaken condition affecting that creature. You can
+suppress only one effect at a time with this ability, and choosing a new target ends the suppression
+for the character you previously chose.
 '''
 
 [[resolution]]
@@ -1943,6 +2627,97 @@ harmed.
 Once per day, if the alchemist succumbs to a mental effect that would make him unconscious, helpless, or not in control of his own actions (such as [charm person](ref/spell/charm-person), [feeblemind](ref/spell/feeblemind), or [hold person](ref/spell/hold-person)), he can reroll his saving throw; success means the twin absorbs the effect and the alchemist can ignore it. Using this ability [sickens](ref/misc/sickened) the alchemist for the duration of the absorbed effect (removing the effect from the twin ends the sickened condition), and he cannot use the twin's limbs during that time, though passive effects (such as from rings worn on the vestigial limbs) continue normally.
 
 **Prereq:** Taken the [vestigial arm](ref/discovery/vestigial-arm) discovery twice
+'''
+
+[[resolution]]
+id = "ref/discovery/psychokinetic-tincture"
+name = "Psychokinetic Tincture"
+occurrence = 1
+span_sha256 = "e192f2a32537e44351aadfbe75c92ca3866e3bc5b0d24eafc3b49f8f06099f2f"
+print = "Undead Slayer's Handbook p. 21"
+replacement = '''
+**Psychokinetic Tincture**
+
+**Flavor:** The alchemist can concoct a foul-tasting tincture that harnesses the power of the
+spirit.
+
+**Standard:** By drinking this tincture, the alchemist can invite the latent spirits in the area to
+surround him. The alchemist can channel one spirit for every 4 alchemist levels he possesses. Each
+spirit channeled this way grants the alchemist a +1 deflection bonus to AC as the spirits whirl
+around his body.
+
+The alchemist can launch one of these spirits toward a target as a ranged touch attack. Launching a spirit this way reduces this discovery's deflection bonus to AC by 1. As a launched spirit passes through its target's body, it emits a terrible wail heard only in the target's mind, causing the target to become [frightened](ref/misc/frightened) for 1 round per alchemist level (Will negates). This is a mind-affecting fear effect. A creature that successfully saves against the wail cannot be affected by this discovery again for 24 hours.
+
+**Usage:** Once per day
+
+**Prereq:** 4th-level alchemist
+
+**Special:** The spirits whirl around the alchemist's body for 10 minutes per alchemist level, or
+until the alchemist has launched all of the spirits.
+'''
+
+[[resolution]]
+id = "ref/discovery/syringe-stirge"
+name = "Syringe Stirge"
+occurrence = 1
+span_sha256 = "67b13d7e58dc35db8075cd6bb0a6924d53178eeb5182cab6754c148e03b11043"
+print = "Cohorts and Companions p. 13"
+replacement = '''
+**Syringe Stirge**
+
+**Info:** A _syringe stirge_ has all of the statistics of a [stirge](ref/monster/stirge) but lacks
+the blood drain ability. If it ends its turn attached to an opponent, it injects your bomb into the
+opponent's bloodstream, dealing damage as a direct hit plus the alchemist's Intelligence modifier
+(as the [Throw Anything](ref/feat/throw-anything) feat - this injection is a direct attack and
+doesn't deal splash damage).
+
+**Full-round:** You can expend two daily uses of bombs to create a _syringe stirge,_ a tiny construct primed with a bomb (if you have multiple types of bombs, you must select which type the _syringe stirge_ carries when created). Undirected, they take no actions except to flock around you in your square and follow you as best they can. They can be attacked normally, but gain [cover](ref/rule/cover) while occupying your square.
+
+As a **swift action**, you can order one of your _syringe stirges_ to attack an enemy it can see. Once ordered to attack that enemy, the _syringe stirge_ will continue to attack every round, attempting to attach and deliver its payload.
+
+**Prereq:** 6th-level alchemist
+
+**Special:** A _syringe stirge_ dies immediately after injecting its bomb. A _syringe stirge_ lasts
+for 1 minute per alchemist level or until destroyed; if it has not attached to an enemy before the
+end of its life span it and its bomb payload fall inert.
+'''
+
+[[resolution]]
+id = "ref/domain/air"
+name = "Electricity Resistance (Ex)"
+occurrence = 1
+span_sha256 = "c503b81f54235c5865cb3a1b217eaefe2bca0cec2a4ef22e4bcedafa90b6aed7"
+print = "Core Rulebook p. 41"
+replacement = '''
+**Electricity Resistance (Ex)**
+
+**Gained:** At 6th Level
+
+**Ability:** You gain [resist](ref/umr/resistance) electricity 10.
+
+**At 12th level,** this resistance increases to 20.
+
+**At 20th level,** you gain [immunity](ref/umr/immunity) to electricity.
+'''
+
+[[resolution]]
+id = "ref/domain/artifice"
+name = "Dancing Weapons (Su)"
+occurrence = 1
+span_sha256 = "ef96b40c0d3918cfb2e6d0638a3cea292cb3eb2dd92b53470140f5c80e47389d"
+print = "Core Rulebook p. 41"
+replacement = '''
+**Dancing Weapons (Su)**
+
+**Gained:** At 8th Level
+
+**Standard:** You can give a weapon touched the [dancing](ref/magic-enh/dancing) special weapon
+quality for 4 rounds.
+
+Alternately, you can choose to learn an [anointing](ref/ability/annointings) instead of gaining the
+dancing weapons ability at 8th level.
+
+**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
 '''
 
 [[resolution]]
@@ -2039,6 +2814,22 @@ replacement = '''
 '''
 
 [[resolution]]
+id = "ref/domain/repose"
+name = "Exorcism of Undeath (Sp)"
+occurrence = 1
+span_sha256 = "02d0495f4c5c1e6f9e7594456081228acf6c2ee96961738eb5d6772167754975"
+print = "Haunted Heroes Handbook p. 9"
+replacement = '''
+**Exorcism of Undeath (Sp)**
+
+**Full-round:** You can try to end any possession spells or effects, or effects that directly exercise mental control over a creature, as long as the effect was caused by an undead creature. You must touch the affected creature (this requires a melee touch attack if the target is neither willing nor helpless) and use a vial of [holy water](ref/eq-weapon/holy-water) as a material component that is consumed as part of using this ability. The target must immediately attempt a new Will save against the original save DC of the controlling effect. If the save is successful, the possession effect immediately ends, as if the target had succeeded at its original saving throw. If the possessing force is a [ghost](ref/template/ghost) or similar undead, it manifests adjacent to the target and is [staggered](ref/misc/staggered) for 1 round.
+
+**Usage:** Once per day
+
+**Replaces:** The ward against death domain power of the Repose domain
+'''
+
+[[resolution]]
 id = "ref/domain/strength"
 name = "Perfected Form (Su)"
 occurrence = 1
@@ -2072,6 +2863,23 @@ replacement = '''
 **At 12th level,** the resistance increases to 20.
 
 **At 20th level,** you gain [immunity](ref/umr/immunity) to cold.
+'''
+
+[[resolution]]
+id = "ref/druiddomain/aquatic"
+name = "Seastrike (Su)"
+occurrence = 1
+span_sha256 = "97bea72f82dd58e9b0cadf4038149c6114c94577cc9dede458258dcb12733f95"
+print = "Ultimate Magic p. 33"
+replacement = '''
+**Seastrike (Su)**
+
+**Gained:** At 6th Level
+
+**Free:** You may use natural and manufactured weapons in water as if you had continuous
+_[freedom of movement](ref/spell/freedom-of-movement)._
+
+As a **standard action**, you can throw a weapon underwater without the normal penalties for throwing weapons; if your target is in or under the water, the weapon also acts as a [returning](ref/magic-enh/returning) weapon for that attack.
 '''
 
 [[resolution]]

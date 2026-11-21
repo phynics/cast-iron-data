@@ -95,12 +95,14 @@ friendlier than normal.
 
 **Bionetwork (Su)**
 
+**Gained:** At 5th Level
+
 **Flavor:** Your mental influence over nature increases.
 
-**At 5th Level:** You can spend 10 minutes to mentally connect with living fungi, leaves, moss,
-roots, and similar plants or plant-like things. You form a temporary network that functions as an
-extension of your senses. The network allows you to use one of the following two effects: you can
-remotely view any familiar or obvious location within a range of 250 feet per psychic level, as per
+**Ability:** You can spend 10 minutes to mentally connect with living fungi, leaves, moss, roots,
+and similar plants or plant-like things. You form a temporary network that functions as an extension
+of your senses. The network allows you to use one of the following two effects: you can remotely
+view any familiar or obvious location within a range of 250 feet per psychic level, as per
 [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); or you can attempt to locate a
 creature within the area, as per [scrying](ref/spell/scrying). You don't need a focus to use this
 effect, and you can't cast spells through the sensor.

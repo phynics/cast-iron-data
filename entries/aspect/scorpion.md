@@ -34,15 +34,13 @@ While in this form, you gain [darkvision](ref/rule/darkvision) with a range of 6
 [claw attacks](ref/umr/natural-attacks) (1d6) with the [grab](ref/umr/grab) ability, and a secondary
 sting attack (1d6).
 
-**Action:** At 15th Level
-
-**Functions As:** [Vermin Shape II](ref/spell/vermin-shape-2)
-
-**At 8th Level:** The range of your [tremorsense](ref/umr/tremorsense) increases to 20 feet, and you
+**At 8th level,** the range of your [tremorsense](ref/umr/tremorsense) increases to 20 feet, and you
 gain a +4 racial bonus on Climb and Perception checks.
 
-When you make an attack of opportunity with your sting attack or maintain a grapple and deal damage
-with your sting attack, that attack also applies the following poison.
+**At 15th level,** when you make an attack of opportunity with your sting attack or maintain a
+grapple and deal damage with your sting attack, that attack also applies the following poison.
+
+**Functions As:** [Vermin Shape II](ref/spell/vermin-shape-2)
 
 **Poison**
 

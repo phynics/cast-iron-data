@@ -20,13 +20,17 @@ group = "warpriest-blessing"
 
 **Hexing Attack (minor)**
 
-**At 1st Level:** You can touch one weapon and enhance it to inflict a minor curse on the next
-target it strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on
-attack rolls, saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute.
+**Gained:** At 1st Level
+
+**Ability:** You can touch one weapon and enhance it to inflict a minor curse on the next target it
+strikes. The struck target must succeed at a Will saving throw or take a -2 penalty on attack rolls,
+saving throws, skill checks, or ability checks (warpriest's choice) for 1 minute.
 
 **Retributive Curse (major)**
 
-**At 10th Level:** As a **swift** or **immediate action**, you can inflict a curse on any adjacent
+**Gained:** At 10th Level
+
+**Ability:** As a **swift** or **immediate action**, you can inflict a curse on any adjacent
 creature that scores a critical hit against you or deals precision damage to you. The target must
 succeed at a Will saving throw or be cursed.
 

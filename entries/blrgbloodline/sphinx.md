@@ -87,7 +87,7 @@ gain [endure elements](ref/spell/endure-elements) as a constant
 [spell-like ability](ref/umr/spell-like-abilities) and a +2 competence bonus on saves against arcane
 spells.
 
-**At 6th Level:** Your resistance to electricity and fire increases to 10.
+**At 16th level,** your resistance to electricity and fire increases to 10.
 
 **Rending Rage (Su)**
 

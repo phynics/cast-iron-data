@@ -168,21 +168,18 @@ see battling such foes as being beyond their true calling.
 **Exorcism of Undeath (Sp)**
 
 **Full-round:** You can try to end any possession spells or effects, or effects that directly
-exercise mental control over a creature, as long as the effect was caused by an undead creature.
-
-**Full-round:** You must touch the affected creature (this requires a melee touch attack if the
-target is neither willing nor helpless) and use a vial of [holy water](ref/eq-weapon/holy-water) as
-a material component that is consumed as part of using this ability. The target must immediately
-attempt a new Will save against the original save DC of the controlling effect. If the save is
-successful, the possession effect immediately ends, as if the target had succeeded at its original
-saving throw.
-
-**Full-round:** If the possessing force is a [ghost](ref/template/ghost) or similar undead, it
-manifests adjacent to the target and is [staggered](ref/misc/staggered) for 1 round.
-
-**Replaces:** The ward against death domain power of the Repose domain
+exercise mental control over a creature, as long as the effect was caused by an undead creature. You
+must touch the affected creature (this requires a melee touch attack if the target is neither
+willing nor helpless) and use a vial of [holy water](ref/eq-weapon/holy-water) as a material
+component that is consumed as part of using this ability. The target must immediately attempt a new
+Will save against the original save DC of the controlling effect. If the save is successful, the
+possession effect immediately ends, as if the target had succeeded at its original saving throw. If
+the possessing force is a [ghost](ref/template/ghost) or similar undead, it manifests adjacent to
+the target and is [staggered](ref/misc/staggered) for 1 round.
 
 **Usage:** Once per day
+
+**Replaces:** The ward against death domain power of the Repose domain
 
 ### Deities
 

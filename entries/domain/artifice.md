@@ -42,10 +42,10 @@ bypasses an amount of damage reduction and hardness equal to your cleric level.
 **Standard:** You can give a weapon touched the [dancing](ref/magic-enh/dancing) special weapon
 quality for 4 rounds.
 
-**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
-
 Alternately, you can choose to learn an [anointing](ref/ability/annointings) instead of gaining the
 dancing weapons ability at 8th level.
+
+**Usage:** 1 time/day + 1 per 4 cleric levels beyond 8th
 
 **Domain Spells**
 

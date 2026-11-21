@@ -1,43 +1,5 @@
 entry_id	original_name	occurrence	span_sha256	reasons
 ref/arcanedisc/bonded-mask	Bonded Mask	1	0a369cc21f293ab28ffc4b89eb720847837b7530cc109297f9f98ac60b6843e9	multiple-effect-rows
-ref/arcanedisc/true-name	True Name (Sp)	1	c37cf1561f45285543169f56c72fa5f1c30746b95df7b99ac78e2c0297520fbd	action-without-one-group
-ref/arcaneschool/transmutation	Change Shape (Sp)	1	2fac8fd180e0c2cbf99c171c04683d386765414be0d9b243b097b9ed034bbe85	unlabeled-paragraphs-not-after-effect
-ref/aspect/giant-wasp	Major Form	1	1f2f91c3656ef74dd0320d2d8c3b460efde3a406d0c37e4ca053764306c3f2fc	unlabeled-paragraphs-not-after-effect
-ref/aspect/scorpion	Major Form	1	9cb61773052b2fe688b6793894e8144f78fe6a0a191b3d9593f2435325d5b263	unlabeled-paragraphs-not-after-effect; upgrade-not-above-gained: 8
-ref/aspect/snake	Major Form	1	951a35bce4e4dc613a0b9fd38534910ef9c20e6f5489c29687c7613b835285a5	unlabeled-paragraphs-not-after-effect; upgrade-not-above-gained: 8
-ref/blessing/animal	Battle Companion (major)	1	9fedb9bcf8658c26eccc993da7d73e901974fb320884446ed6d5253aab21eace	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/artifice	Transfer Magic (major)	1	113d115f91b081596e9f7ec0cfa0bb2d31acd88a7a7ef6ae752bdae77323ee0d	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/chaos	Battle Companion (major)	1	6abe32cbddfa01109b52e43eee45906383344b9a176d85dc5f08ca1143454413	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/curse	Hexing Attack (minor)	1	b21f4a35b4db569fe486c8be0db625b919a3b8b0e9a819d44ca91345cfec6025	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/curse	Retributive Curse (major)	1	ffba7429b4bb56c36363821ecfb12db12c4b3d1c87ef9a9644c491d545fa83bd	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/earth	Armor of Earth (major)	1	537cdce2d1be6471568548022a91b335c18e6227db66b21716df6f871b4b954e	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/earthquake	Stone's Base (minor)	1	fcaf786a84f133c18367d80074c4a56111d1002bd20b58178148f5ea23ef2035	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/evil	Battle Companion (major)	1	d07ae46d1b928dbe89596e89f4ec97be50d415e14106907f03c9ce736913af6c	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/flood	Lasting Breath (minor)	1	d154e6d6030a8b964ef5c8a012a88cfe173a60ebefbabe61a9ff57a68ba625d2	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/godclaw	Command Obedience (minor)	1	84d3ad6f1533898a4465ccf790f4d4ca1e1f5f9764c11a44720f8c2e88d5a135	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/good	Battle Companion (major)	1	2ae3ad047ac6226668e9e8a64219a44e171a035ec0e7426b9f5e9d13ba9e9e53	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/law	Battle Companion (major)	1	ec7692ea7c50bc7e5012ca14981338215743497b8b1ca41100884781a2a5b2ad	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/plant	Battle Companion (major)	1	abaf651c865caffdef6f655720bbec0a7a4667557e4aa6d788a0dde34d6d92e5	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/rune	Blast Rune (minor)	1	ede169ac8bdb6e084000dc089370d9f229afe3bd5be7bb5ffcc15291d75df511	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/scalykind	Serpent Fang (major)	1	d1c293c8aaa4748cf077d62a0093bd847e7b8c41bf9529001eae9e0f44b80cf0	no-effect-row
-ref/blessing/shadow	Swift as Shadow (major)	1	a8e3e26a22579bdc171a6341e20490bd2f74b5824432838a2da55ff18a7e09c6	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/tornado	Dust Devil (minor)	1	6767374b2f6b476c0a49e2753753f6b4655ebbd0f16943fea26efdf4b48ebec0	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blessing/wildfire	Leaping Flames (minor)	1	73003ba342e10d165e84867005f519f5a8ed9731206f501f038ef50227303b0f	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/blrgbloodline/sphinx	Desert Fortitude (Su)	1	1f704707af4265606ead5342287f404cac6c243d2560da71c0570f6b97238c80	upgrade-not-above-gained: 6
-ref/deed/dead-shot	Dead Shot (Ex)	1	c180715798f560936bde2165576a211cb5cdfa070d74dbeb4a395f88116b7a6e	action-without-one-group
-ref/discipline/abomination	Morphic Form (Ex)	1	6241a8f905b2f553435b549fa0f689ed6e646f39d8af3b65b0f1158246aadbd6	no-effect-row
-ref/discipline/faith	Prayer Aura (Su)	1	28e0fefd30623ea9f6257eaded33f837745e715d892e21a66fbeaeab8671dc3a	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/discipline/lore	Memory Palace (Su)	1	c956826cc1b43fa73f48057a50942042fb33b52fa49976722fe4b6edb0fe20cf	action-group-crosses-row
-ref/discipline/self-perfection	Bodily Purge (Su)	1	14a62d9ce0acd361993f3ef0e9d971aecab59c6dcca9ee76dc7ceb64f543ee2c	no-effect-row: suggest the lowest upgrade as Gained level and base effect; two-upgrades-at-one-level
-ref/discipline/superiority	Magical Hoarder (Su)	1	ce27ef59b53c4693796bc100a8e93e2f4f1c061e6eb9c4a5a72613d9c3c296b7	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/discipline/symbiosis	Bionetwork (Su)	1	e9f680b14358c6071bd9b197c51e70383a297ea84d63f7eda7c6e75a6bbc6a01	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/discipline/tranquility	Purge Disquiet (Su)	1	81f438dc71d8970df541bc3c325abe4dd0d940a971e59fbdc3d9c4cfdedb11de	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/discovery/psychokinetic-tincture	Psychokinetic Tincture	1	e192f2a32537e44351aadfbe75c92ca3866e3bc5b0d24eafc3b49f8f06099f2f	multiple-effect-rows
-ref/discovery/syringe-stirge	Syringe Stirge	1	67b13d7e58dc35db8075cd6bb0a6924d53178eeb5182cab6754c148e03b11043	multiple-effect-rows
-ref/domain/air	Electricity Resistance (Ex)	1	c503b81f54235c5865cb3a1b217eaefe2bca0cec2a4ef22e4bcedafa90b6aed7	no-effect-row: suggest the lowest upgrade as Gained level and base effect; upgrade-keeps-capital: Gain; upgrade-keeps-capital: Resistance; upgrade-keeps-capital: Immune](ref/umr/immunity)
-ref/domain/artifice	Dancing Weapons (Su)	1	ef96b40c0d3918cfb2e6d0638a3cea292cb3eb2dd92b53470140f5c80e47389d	unlabeled-paragraphs-not-after-effect
-ref/domain/repose	Exorcism of Undeath (Sp)	1	02d0495f4c5c1e6f9e7594456081228acf6c2ee96961738eb5d6772167754975	multiple-effect-rows
-ref/druiddomain/aquatic	Seastrike (Su)	1	97bea72f82dd58e9b0cadf4038149c6114c94577cc9dede458258dcb12733f95	multiple-effect-rows
 ref/druiddomain/plane-of-air	Wind Savant (Su)	1	be3ace303e0b065beb1d51c9d6aa03c2b344064e6ae32fbea16cca87af55886a	no-effect-row
 ref/druiddomain/plane-of-earth	One with the Stone (Su)	1	13a958db389c2ca407bd24bcdd6e3c154ff9fe7d37afcb64f74ffcb01953f690	no-effect-row
 ref/druiddomain/plane-of-fire	All-Consuming Flames (Su)	1	227e8d03ede6dc92dbc76f5fdbeee9ea4668e6757b96266f4468587e34e42c5b	no-effect-row

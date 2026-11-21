@@ -98,11 +98,11 @@ requiring a concentration check.
 
 **Morphic Form (Ex)**
 
-**Action:** At 5th Level
+**Gained:** At 5th Level
 
-While manifesting your dark half, you gain DR 5. This [damage reduction](ref/rule/damage-reduction)
-can be overcome by a random type of damage each time you manifest your dark half, determined by
-rolling on the table below.
+**Ability:** While manifesting your dark half, you gain DR 5. This
+[damage reduction](ref/rule/damage-reduction) can be overcome by a random type of damage each time
+you manifest your dark half, determined by rolling on the table below.
 
 |d%|Damage Reduction|
 | --- | --- |

@@ -14,19 +14,10 @@ group = "gunslinger-deed"
 
 **Dead Shot (Ex)**
 
-**Action:** Full-Round Action
-
-**Prereq:** 7th-level gunslinger
-
-**Special:** The gunslinger only misfires on a dead shot if **all** the attack rolls are misfires.
-She cannot perform this deed with a [blunderbuss](ref/eq-weapon/blunderbuss) or other
-[scatter](ref/misc/scatter) weapon when attacking creatures in a cone. The gunslinger must spend 1
-grit point to perform this deed.
-
-The gunslinger can take careful aim and pool all of her attack potential into a single, deadly shot.
-When she does this, she shoots the firearm at a single target, but makes as many attack rolls as she
-can, based on her base attack bonus. She makes the attack rolls in order from highest bonus to
-lowest, as if she were making a full attack.
+**Full-round:** The gunslinger can take careful aim and pool all of her attack potential into a
+single, deadly shot. When she does this, she shoots the firearm at a single target, but makes as
+many attack rolls as she can, based on her base attack bonus. She makes the attack rolls in order
+from highest bonus to lowest, as if she were making a full attack.
 
 If any of the attack rolls hit the target, the gunslinger's single attack is considered to have hit.
 For each additional successful attack roll beyond the first, the gunslinger increases the damage of
@@ -39,3 +30,10 @@ Precision damage and extra damage from weapon special abilities (such as
 deed. If one or more rolls are critical threats, she confirms the critical once using her highest
 base attack bonus -5. For each critical threat beyond the first, she reduces this penalty by 1 (to a
 maximum of 0).
+
+**Prereq:** 7th-level gunslinger
+
+**Special:** The gunslinger only misfires on a dead shot if **all** the attack rolls are misfires.
+She cannot perform this deed with a [blunderbuss](ref/eq-weapon/blunderbuss) or other
+[scatter](ref/misc/scatter) weapon when attacking creatures in a cone. The gunslinger must spend 1
+grit point to perform this deed.

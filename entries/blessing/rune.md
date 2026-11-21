@@ -19,9 +19,11 @@ group = "warpriest-blessing"
 
 **Blast Rune (minor)**
 
-**At 1st Level:** You can create a blast rune in any adjacent square. Any creature entering this
-square takes an amount of damage equal to 1d6 + 1/2 your warpriest level. This rune deals either
-acid, cold, electricity, or fire damage, designated when you create the rune.
+**Gained:** At 1st Level
+
+**Ability:** You can create a blast rune in any adjacent square. Any creature entering this square
+takes an amount of damage equal to 1d6 + 1/2 your warpriest level. This rune deals either acid,
+cold, electricity, or fire damage, designated when you create the rune.
 
 The rune is invisible, and lasts a number of rounds equal to your warpriest level or until
 discharged. You cannot create a blast rune in a square occupied by another creature. This rune

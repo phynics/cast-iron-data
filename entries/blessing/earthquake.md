@@ -20,10 +20,12 @@ with disasters in their portfolios
 
 **Stone's Base (minor)**
 
+**Gained:** At 1st Level
+
 **Flavor:** You can touch an ally to bless it with the stalwart resilience of stone.
 
-**At 1st Level:** For 1 minute, the creature gains a +4 bonus to its CMD against maneuvers that
-would move the ally or knock it prone.
+**Ability:** For 1 minute, the creature gains a +4 bonus to its CMD against maneuvers that would
+move the ally or knock it prone.
 
 **Earth Hammer (major)**
 

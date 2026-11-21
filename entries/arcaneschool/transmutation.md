@@ -39,18 +39,19 @@ touch attack. The telekinetic fist deals an amount of bludgeoning damage equal t
 
 **Change Shape (Sp)**
 
-**At 12th Level:** This ability functions like [beast shape III](ref/spell/beast-shape-3) or
-[elemental body II](ref/spell/elemental-body-2).
-
 **Gained:** At 8th Level
 
 **Standard:** You can change your shape, functioning like [beast shape II](ref/spell/beast-shape-2)
 or [elemental body I](ref/spell/elemental-body-1).
 
-**Usage:** 1 time/day per wizard level
+**Usage:** A number of rounds per day equal to your wizard level. These rounds don't need to be
+consecutive.
 
-At 5th, 10th, 15th, and 20th levels, a transmuter may learn an [annointing](ref/ability/annointings)
-instead of gaining a wizard bonus feat.
+**At 12th level,** this ability functions like [beast shape III](ref/spell/beast-shape-3) or
+[elemental body II](ref/spell/elemental-body-2).
+
+**Special:** At 5th, 10th, 15th, and 20th levels, a transmuter may learn an
+[annointing](ref/ability/annointings) instead of gaining a wizard bonus feat.
 
 ### Enhancement School
 

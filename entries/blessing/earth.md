@@ -29,15 +29,17 @@ damage with each strike. This additional damage doesn't stack with the additiona
 
 **Armor of Earth (major)**
 
-**At 10th Level:** You can touch an ally and harden its armor or clothing. For 1 minute, the ally
-gains DR 1/-.
+**Gained:** At 10th Level
+
+**Ability:** You can touch an ally and harden its armor or clothing. For 1 minute, the ally gains DR
+1/-.
+
+**At 12th level,** the ally's DR improves to 2/-.
+
+**At 14th level,** the ally's DR increases to 3/-.
+
+**At 16th level,** the ally's DR improves to 4/-.
+
+**At 18th level,** the ally's DR increases to 5/-.
 
 **Special:** This doesn't stack with any other damage resistance.
-
-At 12th level: The ally's DR improves to 2/-.
-
-At 14th level: The ally's DR increases to 3/-.
-
-At 16th level: The ally's DR improves to 4/-.
-
-At 18th level: The ally's DR increases to 5/-.

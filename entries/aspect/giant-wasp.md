@@ -34,18 +34,16 @@ uses the [vermin shape](ref/spell/vermin-shape-1) spell, rather than
 a fly speed of 40 feet (clumsy), and swarms and vermin do not attack you unless magically commanded
 to do so.
 
-**Action:** At 8th Level
+**At 8th level,** this fly speed increases to 60 feet (average), and you gain a sting attack usable
+a number of times per day equal to 3 + your Wisdom modifier, which applies the following poison.
 
-**At 15th Level:** Your fly speed increases to 80 feet (good), and you can attempt to gain control
+**At 15th level,** your fly speed increases to 80 feet (good), and you can attempt to gain control
 of a mindless swarm as a **full-round action**. To gain control of the swarm, you must succeed at a
 Charisma check against a DC of 10 + the swarm's CR. You can direct the swarm to disperse, remain in
 a designated location, or attack an opponent. This control lasts for a number of rounds equal to
 [half](ref/misc/fractions-and-rounding) your shifter level.
 
 **Functions As:** [Vermin Shape II](ref/spell/vermin-shape-2)
-
-This fly speed increases to 60 feet (average), and you gain a sting attack usable a number of times
-per day equal to 3 + your Wisdom modifier, which applies the following poison.
 
 **Wasp Venom**
 

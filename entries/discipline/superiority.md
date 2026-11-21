@@ -90,7 +90,9 @@ higher spell slot.)
 
 **Magical Hoarder (Su)**
 
-**At 13th Level:** Whenever a creature within 30 feet of you casts a spell intended to benefit its
+**Gained:** At 13th Level
+
+**Ability:** Whenever a creature within 30 feet of you casts a spell intended to benefit its
 targets, you can spend 1 point from your phrenic pool as an **immediate action** to include yourself
 as a target of that spell. If the creature is not your ally, you must be able to clearly see the
 spell's effects and you must succeed at a [Spellcraft](ref/skill/spellcraft) check (DC = 15 + the

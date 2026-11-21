@@ -88,37 +88,37 @@ you succeed at the check, you regain 1 point in your phrenic pool.
 
 **Bodily Purge (Su)**
 
+**Gained:** At 5th Level
+
 **Flavor:** You can heal your own wounds and maladies with the power of thought alone.
 
-**At 5th Level:** You gain access to a daily pool of healing energy. This pool starts with 3d8 dice
-per day. As a **standard action**, you can use up any number of these dice to regain a number of hit
+**Ability:** You gain access to a daily pool of healing energy. This pool starts with 3d8 dice per
+day. As a **standard action**, you can use up any number of these dice to regain a number of hit
 points equal to the result of rolling that many d8s. For example, at 5th level you could regain 3d8
 hit points all at once, 1d8 hit points three separate times, or 1d8 hit points once and 2d8 hit
 points at a different time. In addition, you can expend 2 dice from this pool to instead gain the
 benefit of [lesser restoration](ref/spell/restoration-lesser) (affecting yourself only).
 
-**At 7th Level:** You can expend 3 dice from this pool to instead gain the benefit of
+**At 7th level,** you can expend 3 dice from this pool to instead gain the benefit of
 [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease), or
 [restoration](ref/spell/restoration) (affecting yourself only). To use
 _[restoration](ref/spell/restoration)_ to dispel a permanent
 [negative level](ref/rule/energy-drain-and-negative-levels), you must expend 4 dice from this pool
-instead of 3.
+instead of 3. Your healing pool increases to 4d8.
+
+**At 9th level,** your healing pool increases to 5d8.
+
+**At 11th level,** your healing pool increases to 6d8.
+
+**At 13th level,** your healing pool increases to 7d8.
+
+**At 15th level,** your healing pool increases to 8d8.
+
+**At 17th level,** your healing pool increases to 9d8.
+
+**At 19th level,** your healing pool increases to 10d8.
 
 **Special:** Use your psychic level as your caster level for these effects.
-
-At 7th level: Your healing pool increases to 4d8.
-
-At 9th level: Your healing pool increases to 5d8.
-
-At 11th level: Your healing pool increases to 6d8.
-
-At 13th level: Your healing pool increases to 7d8.
-
-At 15th level: Your healing pool increases to 8d8.
-
-At 17th level: Your healing pool increases to 9d8.
-
-At 19th level: Your healing pool increases to 10d8.
 
 **Pure Body (Ex)**
 

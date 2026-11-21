@@ -91,13 +91,16 @@ you can regain in this way per day is equal to your Wisdom modifier.
 
 **Prayer Aura (Su)**
 
-**At 13th Level:** As a **free action**, you can extend an aura around you to bolster your allies
-and make your enemies less effective. This functions as the [prayer](ref/spell/prayer) spell,
-granting your allies a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks
-and imposing a -1 penalty on your enemies' rolls of those types.
+**Gained:** At 13th Level
+
+**Ability:** As a **free action**, you can extend an aura around you to bolster your allies and make
+your enemies less effective. This functions as the [prayer](ref/spell/prayer) spell, granting your
+allies a +1 luck bonus on attack rolls, weapon damage rolls, saves, and skill checks and imposing a
+-1 penalty on your enemies' rolls of those types.
 
 If you are chaotic, lawful, good, or evil, the penalty from your aura changes to -2 against
 creatures of an opposing alignment. The penalty doesn't change further for a creature that opposes
 you on two alignment axes (such as a chaotic evil creature fighting a lawful good psychic).
 
-**Usage:** 1 time/day per psychic level
+**Usage:** A number of rounds per day equal to your psychic level. These rounds don't need to be
+consecutive.

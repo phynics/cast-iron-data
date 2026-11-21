@@ -127,19 +127,10 @@ deity.
 
 **Memory Palace (Su)**
 
-**Action:** Ability
-
 **Gained:** At 13th Level
 
-**Repeat:** Choose another Knowledge skill to which your memory palace's library bonuses apply., 14,
-1
-
-**Usage:** You can create your memory palace once per day.
-
-**Usage:** You can create your memory palace once per day.
-
-You mentally construct an extradimensional library to house mental constructs representing the
-volumes of lore you've studied. This ability functions as
+**Ability:** You mentally construct an extradimensional library to house mental constructs
+representing the volumes of lore you've studied. This ability functions as
 [mage's magnificent mansion](ref/spell/mages-magnificent-mansion), with the following adjustments:
 the memory palace is limited in size to a number of 10-foot cubes equal to your psychic level; your
 memory palace doesn't contain any furniture other than bookcases and a few desks and sofas where you
@@ -156,3 +147,8 @@ Knowledge checks of that type, and the memory palace counts as an extensive
 [library](ref/rule/using-a-library) for people attempting Knowledge checks of that type untrained.
 You gain a +2 circumstance bonus on checks with the chosen skill when you're not consulting the
 palace (including when the palace isn't in effect).
+
+**Usage:** You can create your memory palace once per day.
+
+**At 14th level,** and at each additional level thereafter, choose another Knowledge skill to which
+your memory palace's library bonuses apply.

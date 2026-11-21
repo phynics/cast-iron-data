@@ -20,10 +20,12 @@ with disasters in their portfolios
 
 **Lasting Breath (minor)**
 
+**Gained:** At 1st Level
+
 **Flavor:** You can touch an ally to bless it with an extra reserve of breath.
 
-**At 1st Level:** For 1 minute, while the ally [holds its breath](ref/misc/hold-your-breath),
-standard and full-round actions don't decrease the number of rounds the ally can hold its breath.
+**Ability:** For 1 minute, while the ally [holds its breath](ref/misc/hold-your-breath), standard
+and full-round actions don't decrease the number of rounds the ally can hold its breath.
 
 **Tsunami Burst (major)**
 

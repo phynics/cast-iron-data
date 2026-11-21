@@ -31,11 +31,13 @@ electricity damage equal to 1d6 + [half](ref/misc/fractions-and-rounding) of you
 
 **Electricity Resistance (Ex)**
 
-**At 12th Level:** Resistance increases to 20
+**Gained:** At 6th Level
 
-**At 20th Level:** [Immune](ref/umr/immunity) to electricity
+**Ability:** You gain [resist](ref/umr/resistance) electricity 10.
 
-**At 6th Level:** Gain [resist](ref/umr/resistance) electricity 10
+**At 12th level,** this resistance increases to 20.
+
+**At 20th level,** you gain [immunity](ref/umr/immunity) to electricity.
 
 **Domain Spells**
 

@@ -34,13 +34,13 @@ The DC to save against this ability is equal to 10 + 1/2 your druid level + your
 
 **Seastrike (Su)**
 
+**Gained:** At 6th Level
+
 **Free:** You may use natural and manufactured weapons in water as if you had continuous
 _[freedom of movement](ref/spell/freedom-of-movement)._
 
-**Gained:** At 6th Level
-
-**Standard:** You can throw a weapon underwater without the normal penalties for throwing weapons;
-if your target is in or under the water, the weapon also acts as a
+As a **standard action**, you can throw a weapon underwater without the normal penalties for
+throwing weapons; if your target is in or under the water, the weapon also acts as a
 [returning](ref/magic-enh/returning) weapon for that attack.
 
 **Domain Spells**

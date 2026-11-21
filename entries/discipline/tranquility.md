@@ -86,10 +86,12 @@ you succeed at the saving throw, you regain 1 point in your phrenic pool.
 
 **Purge Disquiet (Su)**
 
+**Gained:** At 13th Level
+
 **Flavor:** You can banish mental distress.
 
-**At 13th Level:** You become immune to fear spells and effects and to the
-[confused](ref/misc/confused) condition.
+**Ability:** You become immune to fear spells and effects and to the [confused](ref/misc/confused)
+condition.
 
 As a **standard action**, you can choose a willing creature that is either within 30 feet or in
 telepathic contact with you. For 1 round per psychic level you possess, you suppress any fear effect

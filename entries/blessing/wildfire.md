@@ -20,8 +20,10 @@ disasters in their portfolios
 
 **Leaping Flames (minor)**
 
-**At 1st Level:** You touch an ally to bless it with the speed of a wildfire for 1 minute. The ally
-gains a +10-foot enhancement bonus to its base speed, and the ally gains a +1 dodge bonus to its AC
+**Gained:** At 1st Level
+
+**Ability:** You touch an ally to bless it with the speed of a wildfire for 1 minute. The ally gains
+a +10-foot enhancement bonus to its base speed, and the ally gains a +1 dodge bonus to its AC
 against attacks of opportunity.
 
 **Fiery Wake (major)**

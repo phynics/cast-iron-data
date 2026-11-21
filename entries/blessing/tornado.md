@@ -20,9 +20,11 @@ disasters in their portfolios
 
 **Dust Devil (minor)**
 
-**At 1st Level:** When you hit with a weapon attack, you can use a **swift action** to cause a
-sudden burst of wind and debris to swirl around your target. The target is
-[dazzled](ref/misc/dazzled) for 1 minute.
+**Gained:** At 1st Level
+
+**Ability:** When you hit with a weapon attack, you can use a **swift action** to cause a sudden
+burst of wind and debris to swirl around your target. The target is [dazzled](ref/misc/dazzled) for
+1 minute.
 
 **Howling Gale (major)**
 

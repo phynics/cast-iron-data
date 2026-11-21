@@ -37,14 +37,12 @@ feet, [low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent) (30 
 Dexterity score is not high enough to gain more attacks of opportunity from Combat Reflexes, you can
 instead make one additional attack of opportunity each round.
 
-**Action:** At 15th Level
+**At 8th level,** you gain a +4 racial bonus on Acrobatics and Stealth checks.
+
+**At 15th level,** when you make an attack of opportunity with your bite attack, that attack also
+applies the following poison.
 
 **Functions As:** [Beast Shape II](ref/spell/beast-shape-2)
-
-**At 8th Level:** You gain a +4 racial bonus on Acrobatics and Stealth checks.
-
-When you make an attack of opportunity with your bite attack, that attack also applies the following
-poison.
 
 **Poison**
 

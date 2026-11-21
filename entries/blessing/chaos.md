@@ -34,19 +34,21 @@ purposes of overcoming [damage reduction](ref/rule/damage-reduction).
 
 **Battle Companion (major)**
 
+**Gained:** At 10th Level
+
 **Flavor:** You can summon a battle companion.
 
-**At 10th Level:** This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a
+**Ability:** This ability functions as [summon monster IV](ref/spell/summon-monster-4) with a
 duration of 1 minute, but for only a chaotic outsider or an animal with the
 [entropic](ref/template/entropic) creature simple template. This ability can summon only one
 creature, regardless of the list used.
 
-At 12th level: This now behaves as [summon monster V](ref/spell/summon-monster-5).
+**At 12th level,** this now behaves as [summon monster V](ref/spell/summon-monster-5).
 
-At 14th level: This now behaves as [summon monster VI](ref/spell/summon-monster-6).
+**At 14th level,** this now behaves as [summon monster VI](ref/spell/summon-monster-6).
 
-At 16th level: This now behaves as [summon monster VII](ref/spell/summon-monster-7).
+**At 16th level,** this now behaves as [summon monster VII](ref/spell/summon-monster-7).
 
-At 18th level: This now behaves as [summon monster VIII](ref/spell/summon-monster-8).
+**At 18th level,** this now behaves as [summon monster VIII](ref/spell/summon-monster-8).
 
-At 20th level: This now behaves as [summon monster IX](ref/spell/summon-monster-9).
+**At 20th level,** this now behaves as [summon monster IX](ref/spell/summon-monster-9).

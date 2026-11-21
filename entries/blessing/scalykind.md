@@ -28,11 +28,11 @@ minute, the ally gains an enhancement bonus to its natural armor equal to 1 +
 
 **Serpent Fang (major)**
 
-**Action:** At 10th Level
+**Gained:** At 10th Level
 
-As a **standard action** you can manifest venomous fangs for 1 minute. These fangs grant a
-[bite attack](ref/umr/natural-attacks) that deals 1d4 points of damage (for a Medium warpriest, 1d3
-if Small). A successful bite also afflicts the opponent with a debilitating venom.
+**Ability:** As a **standard action** you can manifest venomous fangs for 1 minute. These fangs
+grant a [bite attack](ref/umr/natural-attacks) that deals 1d4 points of damage (for a Medium
+warpriest, 1d3 if Small). A successful bite also afflicts the opponent with a debilitating venom.
 
 **Serpent Venom**
 
