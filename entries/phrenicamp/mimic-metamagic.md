@@ -14,6 +14,12 @@ group = "phrenic-amplification"
 
 **Mimic Metamagic (Ex)**
 
+**Choice:** When the psychic gains this amplification, she chooses two metamagic feats; she need not
+have these feats to select them.
+
+**Info:** The psychic can still apply metamagic feats she knows to the spell while using this
+amplification, increasing the casting time and spell level as normal.
+
 **Ability:** When she casts a spell, she can spend points from her phrenic pool to apply one of the
 chosen feats to the linked spell without increasing the spell's level or casting time. She must
 spend a number of points equal to double the number of levels by which the feat normally increases a
@@ -21,12 +27,6 @@ spell's level (minimum 2 points). If the metamagic feat alters the spell's casti
 different way than the [standard rules](ref/rule/feats-basic) for a spontaneous caster using a
 metamagic feat (as in the case of [Quicken Spell](ref/feat/quicken-spell)), it changes the casting
 time accordingly.
-
-**Choice:** When the psychic gains this amplification, she chooses two metamagic feats; she need not
-have these feats to select them.
-
-**Info:** The psychic can still apply metamagic feats she knows to the spell while using this
-amplification, increasing the casting time and spell level as normal.
 
 This amplification can be applied only to a spell that the chosen metamagic feat could normally
 affect, and only if the spellcaster can cast spells of a high enough level that she would be able to

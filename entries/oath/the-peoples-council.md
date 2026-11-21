@@ -38,30 +38,29 @@ emulate Talmandor, the agathion patron of Andoran.
 
 **Stirring Monologue (Su)**
 
+**Gained:** At 1st Level
+
 **Ability:** The paladin can deliver a _stirring monologue_ on the ideals of justice and fairness,
 motivating allies and persuading others. This functions as bardic performance as per a bard of her
 paladin level using Perform (oratory). All the effects are language-dependent even if they would not
 normally be.
 
-The paladin gains the following performances at the indicated levels.
+The paladin gains the following performances at the indicated levels:
+[inspire courage](ref/performance/inspire-courage) (1st).
 
-**At 1st Level:** [Inspire courage](ref/performance/inspire-courage)
+**At 4th level,** [Fascinate](ref/performance/fascinate)
 
-**At 10th Level:** [Dirge of doom](ref/performance/dirge-of-doom)
+**At 5th level,** [Inspire competence](ref/performance/inspire-competence)
 
-**At 13th Level:** [Inspire greatness](ref/performance/inspire-greatness)
+**At 7th level,** [Suggestion](ref/performance/suggestion)
 
-**At 16th Level:** [Frightening tune](ref/performance/frightening-tune)
+**At 10th level,** [Dirge of doom](ref/performance/dirge-of-doom)
 
-**At 19th Level:** [Mass suggestion](ref/performance/mass-suggestion)
+**At 13th level,** [Inspire greatness](ref/performance/inspire-greatness)
 
-**At 4th Level:** [Fascinate](ref/performance/fascinate)
+**At 16th level,** [Frightening tune](ref/performance/frightening-tune)
 
-**At 5th Level:** [Inspire competence](ref/performance/inspire-competence)
-
-**At 7th Level:** [Suggestion](ref/performance/suggestion)
-
-**Gained:** At 1st Level
+**At 19th level,** [Mass suggestion](ref/performance/mass-suggestion)
 
 **Replaces:** Smite evil
 

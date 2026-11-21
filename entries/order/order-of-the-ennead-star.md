@@ -75,16 +75,16 @@ he can learn whether that creature's alignment is chaotic, as if he had cast
 
 **Subjugate (Ex)**
 
-**Immediate:** If the critical hit kills the creature or renders it unconscious, the cavalier can
-attempt an Intimidate check to demoralize all foes within 15 feet who can see him. This ability can
-be used only once per combat.
-
 **Gained:** At 8th Level
 
 **Passive:** Whenever the cavalier confirms a critical hit with a melee weapon against a creature of
 chaotic alignment with an Intelligence score of 3 or higher, or against a creature that the cavalier
 has witnessed committing a crime within the past hour, he adds his Charisma modifier to the total
 critical hit damage.
+
+**Immediate:** If the critical hit kills the creature or renders it unconscious, the cavalier can
+attempt an Intimidate check to demoralize all foes within 15 feet who can see him. This ability can
+be used only once per combat.
 
 **Hand of the Law (Ex)**
 

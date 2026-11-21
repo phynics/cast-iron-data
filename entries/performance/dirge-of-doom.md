@@ -14,7 +14,9 @@ group = "bardic-performance"
 
 **Dirge of Doom (Su)**
 
-**At 8th Level:** A bard can use his performance to foster a sense of growing dread in his enemies,
+**Gained:** At 8th Level
+
+**Ability:** A bard can use his performance to foster a sense of growing dread in his enemies,
 causing them to become [shaken](ref/misc/shaken). To be affected, an enemy must be within 30 feet
 and able to see and hear the bard's performance. The effect persists for as long as the enemy is
 within 30 feet and the bard continues his performance.

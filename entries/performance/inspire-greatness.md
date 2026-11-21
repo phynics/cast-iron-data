@@ -14,19 +14,21 @@ group = "bardic-performance"
 
 **Inspire Greatness (Su)**
 
-**At 9th Level:** A bard can use his performance to _inspire greatness_ in himself or a single
-willing ally within 30 feet, granting extra fighting capability. To _inspire greatness,_ all of the
-targets must be able to see and hear the bard. A creature _inspired with greatness_ gains 2 bonus
-Hit Dice (d10s), the commensurate number of [temporary hit points](ref/rule/temporary-hit-points)
-(apply the target's Constitution modifier, if any, to these bonus Hit Dice), a +2 competence bonus
-on attack rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular
-Hit Dice for determining the effect of spells that are Hit Dice dependent.
+**Gained:** At 9th Level
+
+**Ability:** A bard can use his performance to _inspire greatness_ in himself or a single willing
+ally within 30 feet, granting extra fighting capability. To _inspire greatness,_ all of the targets
+must be able to see and hear the bard. A creature _inspired with greatness_ gains 2 bonus Hit Dice
+(d10s), the commensurate number of [temporary hit points](ref/rule/temporary-hit-points) (apply the
+target's Constitution modifier, if any, to these bonus Hit Dice), a +2 competence bonus on attack
+rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular Hit Dice
+for determining the effect of spells that are Hit Dice dependent.
+
+**At 12th level,** the number of creatures he can target increases to 2.
+
+**At 15th level,** the number of creatures he can target increases to 3.
+
+**At 18th level,** the number of creatures he can target increases to 4.
 
 **Special:** _Inspire greatness_ is a mind-affecting ability and it relies on audible and visual
 components.
-
-At 12th level: The number of creatures he can target increases to 2.
-
-At 15th level: The number of creatures he can target increases to 3.
-
-At 18th level: The number of creatures he can target increases to 4.

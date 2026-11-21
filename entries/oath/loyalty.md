@@ -25,13 +25,7 @@ agree to something she cannot fully support.
 
 **Loyal Oath (Su)**
 
-**Immediate:** While a _loyal oath_ is active and the target is struck by an enemy and the paladin
-is adjacent to that enemy, she may make a single melee attack against that enemy; making this attack
-ends the _loyal oath._
-
 **Gained:** At 1st Level
-
-**Replaces:** Smite evil
 
 **Swift:** An oathbound paladin can choose a willing creature within line of sight as the target of
 her _loyal oath._ When the paladin is adjacent to the target of her _loyal oath,_ she grants the
@@ -39,7 +33,13 @@ target a sacred bonus on saving throws and to Armor Class equal to the paladin's
 _loyal oath_ lasts 1 minute, or until the paladin dismisses it (a **free action**) or discharges it
 (see below), whichever comes first.
 
-**Usage:** 1 time/day + 1 per 3 oracle levels beyond 1st
+While a _loyal oath_ is active and the target is struck by an enemy and the paladin is adjacent to
+that enemy, she may make a single melee attack against that enemy; making this attack ends the
+_loyal oath._
+
+**Usage:** 1 time/day + 1 per 3 paladin levels beyond 1st
+
+**Replaces:** Smite evil
 
 **Loyal Guardian (Su)**
 

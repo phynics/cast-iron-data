@@ -14,7 +14,9 @@ group = "bardic-performance"
 
 **Soothing Performance (Su)**
 
-**At 12th Level:** A bard can use his performance to create an effect equivalent to a
+**Gained:** At 12th Level
+
+**Ability:** A bard can use his performance to create an effect equivalent to a
 [mass cure serious wounds](ref/spell/cure-serious-wounds-mass), using the bard's level as the caster
 level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all
 those affected.

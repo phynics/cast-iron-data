@@ -2787,6 +2787,21 @@ ability's duration for the day.
 '''
 
 [[resolution]]
+id = "ref/mystery/solar"
+name = "Many Roads (Su)"
+occurrence = 1
+span_sha256 = "5f8b325675ac00126dc65dd66f831eb3e8ed479f068bb2656ee24be55d670ccc"
+print = "The Harrow Handbook p. 27"
+replacement = '''
+**Many Roads (Su)**
+
+**Passive:** You gain an insight bonus on [Fly](ref/skill/fly) and [Survival](ref/skill/survival)
+checks equal to 1/2 your oracle level.
+
+Further, you learn to speak and read three languages in addition to those you already know.
+'''
+
+[[resolution]]
 id = "ref/mystery/spellscar"
 name = "Final Revelation"
 occurrence = 1
@@ -2853,6 +2868,21 @@ In addition, you can cast _[time stop](ref/spell/time-stop)_ once per day as a [
 '''
 
 [[resolution]]
+id = "ref/mystery/wind"
+name = "Wind Sight (Ex)"
+occurrence = 1
+span_sha256 = "ef2be205a318a160cddd4d80a0e6d270fa56ac134bcd639cb4be98f7ce6d5742"
+print = "Advanced Player's Guide p. 54"
+replacement = '''
+**Wind Sight (Ex)**
+
+**Passive:** You ignore penalties on [Perception](ref/skill/perception) checks based on wind and the
+first 100 feet of distance.
+
+**At 7th level,** as a **standard action**, you can see and hear into any area (as if using [clairaudience and clairvoyance](ref/spell/clairaudience-clairvoyance)) within range as long as there is an unobstructed path for air to travel between you and the target area (this does not require line of effect, meaning the path can turn corners and go through spaces no smaller than 1 inch in diameter). You can use this ability a number of rounds per day equal to your oracle level, but these rounds do not need to be consecutive.
+'''
+
+[[resolution]]
 id = "ref/mystery/wood"
 name = "Final Revelation"
 occurrence = 1
@@ -2882,6 +2912,49 @@ replacement = '''
 **Ability:** A ninja with this ability gains [In Harm's Way](ref/feat/in-harms-way) as a bonus feat, even if she doesn't meet the prerequisites.
 
 When the ninja intercepts an attack using this feat, she can spend 1 ki point to impose a _blood debt_ on the aided ally. The ninja's ki pool is reduced by 1 until she ends this effect, which she may do as an **immediate action**. If the ninja ends the _blood debt_ in response to a successful attack against her by a creature the indebted ally threatens, the ally (who must be willing) takes full damage from that attack and any associated effects instead of the ninja.
+'''
+
+[[resolution]]
+id = "ref/ninjatrick/ki-venom"
+name = "Ki Venom (Ex)"
+occurrence = 1
+span_sha256 = "89a03180793b5083591e7c2473b36c798bd7cba16f43b5809a5c6cbc56472ae5"
+print = "Martial Arts Handbook p. 20"
+replacement = '''
+**Ki Venom (Ex)**
+
+**Flavor:** A ninja with this trick knows how to make poisons from innocuous herbs or minerals.
+
+**Ability:** Creating _ki venom_ is a **full-round action** that costs 1 ki point. The poison lasts for 24 hours before becoming inert. The poison deals either [Strength or Dexterity damage](ref/rule/ability-damage-drain), chosen when the venom is created.
+
+**Special:** The ninja can spend additional ki as part of the process of creating the _ki venom_ to
+improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die
+to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma
+damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1.
+'''
+
+[[resolution]]
+id = "ref/ninjatrick/many-guises"
+name = "Many Guises (Ex)"
+occurrence = 1
+span_sha256 = "5ef825f2a024a11909c7e267b6869ce42faa39cb27a19986b96c4b04e7b16b9c"
+print = "Ultimate Intrigue p. 12"
+replacement = '''
+**Many Guises (Ex)**
+
+**Ability:** The ninja can take on any number of mundane guises. Whenever he changes his identity,
+he has a third option (instead of social or ninja): he can become mundane.
+
+The mundane identity is not a specific individual. Each one is created at the moment it is assumed, and quickly forgotten as soon as it is removed. While in a mundane identity, the ninja does not gain the benefit of either his social or ninja identity, but instead appears as a member of his race, usually a common laborer, farmer, or peasant of any gender. His alignment is treated as neutral when he is in his mundane identity.
+
+While in this identity, he receives a +20 circumstance bonus on Disguise checks to appear like an ordinary member of his race. Spells and abilities that are looking for the ninja in either of his other identities fail while he is in his mundane identity.
+
+**Prereq:** [Deep cover](ref/ninjatrick/deep-cover)
+
+**Special:** He must build the appearance for this identity using whatever clothing and tools he has
+at his disposal. While he can use magic (such as a
+[hat of disguise](ref/magic-wondrous/hat-of-disguise)), his mundane identity can never be anything
+other than an ordinary member of a society or large group (subject to GM discretion).
 '''
 
 [[resolution]]
@@ -2919,6 +2992,22 @@ replacement = '''
 **Ability:** She can [hold her breath](ref/misc/hold-your-breath) for twice as long as normal before needing to make Constitution checks (four times her Constitution score).
 
 In addition, whenever the ninja is poisoned, the time between saving throws (the poison's frequency) is doubled. Thus, a poison that has a frequency of _1/round for 6 rounds_ would instead be _1/2 rounds for 12 rounds._
+'''
+
+[[resolution]]
+id = "ref/oath/chaos"
+name = "Order of Good (Su)"
+occurrence = 1
+span_sha256 = "546a2ab2e10480f02ef640029d23e845516d41db94abcc90fe9775d7920f6a26"
+print = "Inner Sea Combat p. 15"
+replacement = '''
+**Order of Good (Su)**
+
+**Gained:** At 4th Level
+
+**Ability:** She gains the ability to spend one use of her _lay on hands_ ability when using her _smite chaos_ ability to instead _smite evil,_ as the paladin ability of the same name.
+
+**Replaces:** Channel positive energy
 '''
 
 [[resolution]]
@@ -2978,6 +3067,30 @@ Additionally, the paladin can expend two uses of her _lay on hands_ ability to r
 '''
 
 [[resolution]]
+id = "ref/oath/loyalty"
+name = "Loyal Oath (Su)"
+occurrence = 1
+span_sha256 = "52ce55b06fd2928806933254b4a648f113c6b2c26f8da67111ad40c4af9db90f"
+print = "Ultimate Magic p. 63"
+replacement = '''
+**Loyal Oath (Su)**
+
+**Gained:** At 1st Level
+
+**Swift:** An oathbound paladin can choose a willing creature within line of sight as the target of
+her _loyal oath._ When the paladin is adjacent to the target of her _loyal oath,_ she grants the
+target a sacred bonus on saving throws and to Armor Class equal to the paladin's Charisma bonus. The
+_loyal oath_ lasts 1 minute, or until the paladin dismisses it (a **free action**) or discharges it
+(see below), whichever comes first.
+
+While a _loyal oath_ is active and the target is struck by an enemy and the paladin is adjacent to that enemy, she may make a single melee attack against that enemy; making this attack ends the _loyal oath._
+
+**Usage:** 1 time/day + 1 per 3 paladin levels beyond 1st
+
+**Replaces:** Smite evil
+'''
+
+[[resolution]]
 id = "ref/oath/the-peoples-council"
 name = "Champion of Andoran (Su)"
 occurrence = 1
@@ -2997,6 +3110,59 @@ Whenever she uses her _stirring monologue,_ up to four creatures (including the 
 In addition, whenever the oathbound paladin channels positive energy or uses _lay on hands_ to heal a creature, she heals it the maximum possible amount.
 
 **Alters:** Holy champion
+'''
+
+[[resolution]]
+id = "ref/oath/the-peoples-council"
+name = "Stirring Monologue (Su)"
+occurrence = 1
+span_sha256 = "6bb596d0bf001967090ccfe5e319275c9c6eef9e9ee1b7d19f842d5dc630d811"
+print = "Divine Anthology p. 20"
+replacement = '''
+**Stirring Monologue (Su)**
+
+**Gained:** At 1st Level
+
+**Ability:** The paladin can deliver a _stirring monologue_ on the ideals of justice and fairness,
+motivating allies and persuading others. This functions as bardic performance as per a bard of her
+paladin level using Perform (oratory). All the effects are language-dependent even if they would not
+normally be.
+
+The paladin gains the following performances at the indicated levels: [inspire courage](ref/performance/inspire-courage) (1st).
+
+**At 4th level,** [Fascinate](ref/performance/fascinate)
+
+**At 5th level,** [Inspire competence](ref/performance/inspire-competence)
+
+**At 7th level,** [Suggestion](ref/performance/suggestion)
+
+**At 10th level,** [Dirge of doom](ref/performance/dirge-of-doom)
+
+**At 13th level,** [Inspire greatness](ref/performance/inspire-greatness)
+
+**At 16th level,** [Frightening tune](ref/performance/frightening-tune)
+
+**At 19th level,** [Mass suggestion](ref/performance/mass-suggestion)
+
+**Replaces:** Smite evil
+'''
+
+[[resolution]]
+id = "ref/oath/the-whispering-way"
+name = "Ghost Touch Aura (Su)"
+occurrence = 1
+span_sha256 = "4232d25993a3c3081affa2c83fbd3472a9877a2311e3134f00bce3270468aa98"
+print = "Ultimate Magic p. 61"
+replacement = '''
+**Ghost Touch Aura (Su)**
+
+**Gained:** At 3rd Level
+
+**Ability:** The paladin's armor is treated as if it had the [ghost touch](ref/magic-enh/ghost-touch-armor) armor property. This does not affect the cost or effect of any other abilities of the armor.
+
+**At 9th level,** this ability also applies to the paladin's shield.
+
+**Replaces:** 3rd-level and 9th-level mercies
 '''
 
 [[resolution]]
@@ -3290,6 +3456,97 @@ In addition, whenever he confirms a critical hit against a target under an encha
 '''
 
 [[resolution]]
+id = "ref/order/order-of-the-ennead-star"
+name = "Subjugate (Ex)"
+occurrence = 1
+span_sha256 = "8f064a3a17aff8bced38dffe4a986e462f4577c342cd32209b809e84cf2e21ad"
+print = "Path of the Hellknight p. 59"
+replacement = '''
+**Subjugate (Ex)**
+
+**Gained:** At 8th Level
+
+**Passive:** Whenever the cavalier confirms a critical hit with a melee weapon against a creature of
+chaotic alignment with an Intelligence score of 3 or higher, or against a creature that the cavalier
+has witnessed committing a crime within the past hour, he adds his Charisma modifier to the total
+critical hit damage.
+
+**Immediate:** If the critical hit kills the creature or renders it unconscious, the cavalier can
+attempt an Intimidate check to demoralize all foes within 15 feet who can see him. This ability can
+be used only once per combat.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-green"
+name = "Favored Terrain (Ex)"
+occurrence = 1
+span_sha256 = "ecf163147a7b5f38c576da3d0678cd2477a21a214f9998c0f5dd05639138fcd6"
+print = "Ultimate Wilderness p. 44"
+replacement = '''
+**Favored Terrain (Ex)**
+
+**Gained:** At 2nd Level
+
+**Ability:** An order of the Green cavalier chooses a [favored terrain](ref/ability/favored-terrain) from the list of ranger favored terrains. He gains this as a _favored terrain,_ as the ranger class feature of the same name.
+
+**At 8th level,** he selects another favored terrain, and the skill bonus in any one favored terrain (including the one just selected, if so desired) increases by 2.
+
+**At 14th level,** he selects another favored terrain, and the skill bonus in any one favored terrain (including the one just selected, if so desired) increases by 2.
+
+**At 20th level,** he selects another favored terrain, and the skill bonus in any one favored terrain (including the one just selected, if so desired) increases by 2.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-hammer"
+name = "Mighty Bash (Ex)"
+occurrence = 1
+span_sha256 = "a2bde8a869996e6fdbdba79ba0a7befb5a9caddc1229c0841a977c7875b933aa"
+print = "The Harrow Handbook p. 18"
+replacement = '''
+**Mighty Bash (Ex)**
+
+**Gained:** At 2nd Level
+
+**Passive:** The cavalier does not provoke attacks of opportunity when she attacks foes while
+unarmed so long as she is dealing nonlethal damage.
+
+The cavalier's unarmed strikes deal more nonlethal damage than usual; she is treated as having a number of [monk](ref/class/monk) levels equal to her cavalier level for the purpose of determining how much nonlethal damage her unarmed strikes deal. For example, a 12th-level cavalier of the order of the hammer would deal 2d6 points of nonlethal damage with her unarmed strike.
+
+**Special:** The cavalier must still select the
+[Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat if she wants to deal lethal damage
+with her unarmed strike, and lethal damage dealt with her unarmed strike is not increased by this
+ability.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-hammer"
+name = "Unarmed Strike"
+occurrence = 1
+span_sha256 = "64c752ab91471761bbfc4e49c7cf6ab805cc13f54cfb1724351a32a4a9fc9ee0"
+print = "Core Rulebook p. 58"
+replacement = '''
+**Unarmed Strike**
+
+**Gained:** At 1st Level
+
+**Flavor:** Relevant text from the monk class ability.
+
+**Info:** Unarmed strike damage is based on your size.
+
+**Ability:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
+
+**At 4th level,** your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
+
+**At 8th level,** your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
+
+**At 12th level,** your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
+
+**At 16th level,** your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
+
+**At 20th level,** your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.
+'''
+
+[[resolution]]
 id = "ref/order/order-of-the-lion"
 name = "Shield of the Liege (Ex)"
 occurrence = 1
@@ -3309,6 +3566,80 @@ as the creature making the attack is within the cavalier's reach. This ability m
 before the attack roll is made. The attack is made against the cavalier's AC and defenses, even if
 the creature could not normally reach or attack the cavalier. The cavalier loses any cover or
 concealment bonuses when subject to the redirected attack.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-scales"
+name = "Mobile Wall (Ex)"
+occurrence = 1
+span_sha256 = "b8a87847d044e5ad53780d18f71183b5cc57bdcc4d48df2db38f5dc3a5fcc0b8"
+print = "Champions of Balance p. 22"
+replacement = '''
+**Mobile Wall (Ex)**
+
+**Gained:** At 2nd Level
+
+**Ability:** The cavalier receives [Step Up](ref/feat/step-up) as a bonus feat. He can use this feat while mounted by succeeding at a DC 15 [Ride](ref/skill/ride) check, directing his mount to move rather than himself. The cavalier gains a +1 bonus to his CMD against attempts to tumble through squares he threatens.
+
+**At 6th level,** this bonus increases to +2.
+
+**At 10th level,** this bonus increases to +3.
+
+**At 14th level,** this bonus increases to +4.
+
+**At 18th level,** this bonus increases to +5.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-seal"
+name = "Keeper (Ex)"
+occurrence = 1
+span_sha256 = "55f81fd85e566b86f56075c897cb7490275b3bfd4a69512208d9ababe7b75915"
+print = "Ultimate Combat p. 35"
+replacement = '''
+**Keeper (Ex)**
+
+**Gained:** At 2nd Level
+
+**Ability:** Once per day the cavalier must select a location, or a secret that he has sworn to protect.
+
+If he chooses a location, he gains a +2 morale bonus on attack rolls when directly defending his
+charge.
+
+If he chooses a secret, he gains a +2 morale bonus on saving throws and opposed checks to resist
+revealing information about his charge.
+
+**Special:** He gains these bonuses until he picks a new object, location, or secret to protect.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-songbird"
+name = "Versatile Performance (Ex)"
+occurrence = 2
+span_sha256 = "acec1e66b5238d53c25406ccab467e710558675475e50325953d10548f21182a"
+print = "Core Rulebook p. 38"
+replacement = '''
+**Versatile Performance (Ex)**
+
+**Flavor:** Relevant text from the bard class ability.
+
+**Ability:** You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in associated skills. When substituting in this way, you use your total Perform skill bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that skill or if it is a class skill.
+
+The types of Perform and their associated skills are:
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-sword"
+name = "By My Honor (Ex)"
+occurrence = 1
+span_sha256 = "b2addb55c38be54931e3be9e3d0cd5435a228a7da7cdca2b41e5d6c6de7f4966"
+print = "Advanced Player's Guide p. 37"
+replacement = '''
+**By My Honor (Ex)**
+
+**Gained:** At 2nd Level
+
+**Ability:** The cavalier must select one alignment. As long as he maintains the selected alignment, he receives a +2 morale bonus to one saving throw of his choice.
 '''
 
 [[resolution]]
@@ -3375,6 +3706,20 @@ knowledge._ If he chose Knowledge (arcana), he can cast any arcane spells from a
 Knowledge (religion), he can cast any divine spells from a scroll.
 
 Furthermore, he gains a bonus equal to [one-fifth](ref/misc/fractions-and-rounding) of his cavalier level to an ability score for purposes of determining the level of spells he can cast from a scroll. The ability score that gains the bonus is dependent on which skill the cavalier picked for his _specialized knowledge_ ability. If the cavalier picked Knowledge (arcana), he gains the bonus to Intelligence. If he picked Knowledge (religion), he gains the bonus to Wisdom.
+'''
+
+[[resolution]]
+id = "ref/order/order-of-the-tome"
+name = "Specialized Knowledge (Ex)"
+occurrence = 1
+span_sha256 = "cc1c6323bd5fe35a71f8f3bc1176025795487da709626311f890a53ece4c0235"
+print = "Ultimate Combat p. 35"
+replacement = '''
+**Specialized Knowledge (Ex)**
+
+**Gained:** At 2nd Level
+
+**Ability:** An order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has ranks in his chosen skill, he receives a bonus on the check equal to [half](ref/misc/fractions-and-rounding) his cavalier level (minimum +1) as long as that check involves a book, tome, scroll, or any other form of written knowledge.
 '''
 
 [[resolution]]
@@ -3591,6 +3936,46 @@ You can neither use the [aid another](ref/rule/aid-another) action nor receive b
 '''
 
 [[resolution]]
+id = "ref/patron/infernal-contract"
+name = "Infernal Contract"
+occurrence = 1
+span_sha256 = "3ab281d071ea2102b61096e2cf748ca8b95aa8df840851ef0269f60dc99e381f"
+print = "Blood of the Coven p. 15"
+replacement = '''
+**Infernal Contract**
+
+**Info:** Your power was brokered from a powerful [daemon](ref/family/daemon),
+[demon](ref/family/demon), or [devil](ref/family/devil) to speed the corruption and moral decay of
+mortals. When you die, your soul goes to Abaddon, the Abyss, or Hell, and you can't be raised or
+resurrected except by extraordinary means - though bold service may earn you a favored position in
+damnation.
+
+**Ability:** You gain the [misfortune](ref/hex/misfortune) hex at 1st level.
+
+Your magic requires sacrifice; each day when you prepare spells, you must deal 1d6 points of damage to yourself as part of your infernal ritual, feeding the lost blood to your familiar.
+
+**At 5th level,** you must deal 2d6 damage to yourself to get your spells.
+
+**At 10th level,** you must deal 3d6 damage to yourself to get your spells.
+
+**At 15th level,** you must deal 4d6 damage to yourself to get your spells.
+
+**At 20th level,** you must deal 5d6 damage to yourself to get your spells.
+
+**Spells:** Lesser planar ally (8th)
+
+**Spells:** Planar ally (12th)
+
+**Spells:** Greater planar ally (your bonus spells can be used to summon only the type of outsider
+your patron represents) (16th)
+
+**Available patron themes:** [Enchantment](ref/patron/enchantment), [Strength](ref/patron/strength),
+[Trickery](ref/patron/trickery), [Vengeance](ref/patron/vengeance)
+
+**Patron Spells:** This unique patron grants these alternate spells at the listed witch levels.
+'''
+
+[[resolution]]
 id = "ref/patron/shadowbound"
 name = "Shadowbound"
 occurrence = 1
@@ -3676,6 +4061,141 @@ You take a -2 penalty on saving throws against confusion and emotion effects and
 '''
 
 [[resolution]]
+id = "ref/performance/countersong"
+name = "Countersong (Su)"
+occurrence = 1
+span_sha256 = "acb05221f0f0c3f954054eeb866783337aeef8c58f4ba1fa8f919028b75e9465"
+print = "Core Rulebook p. 36"
+replacement = '''
+**Countersong (Su)**
+
+**Gained:** At 1st Level
+
+**Ability:** A bard learns to counter magic effects that depend on sound (but not spells that have verbal components). Each round of the _countersong_ he makes a [Perform](ref/skill/perform-any) (keyboard, percussion, wind, string, or sing) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by a sonic or language-dependent magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform check result proves to be higher.
+
+If a creature within range of the _countersong_ is already under the effect of a non-instantaneous
+sonic or language-dependent magical attack, it gains another saving throw against the effect each
+round it hears the _countersong,_ but it must use the bard's Perform skill check result for the
+save.
+
+**Special:** _Countersong_ does not work on effects that don't allow saves. _Countersong_ relies on
+audible components.
+'''
+
+[[resolution]]
+id = "ref/performance/deadly-performance"
+name = "Deadly Performance (Su)"
+occurrence = 1
+span_sha256 = "eedd17cc9e18ccd14dd9f88a36aab1f17e7a467653b4e85332823e77580d5433"
+print = "Core Rulebook p. 38"
+replacement = '''
+**Deadly Performance (Su)**
+
+**Gained:** At 20th Level
+
+**Ability:** A bard can use his performance to cause one enemy to die from joy or sorrow. To be affected, the target must be able to see and hear the bard perform for 1 full round and be within 30 feet. The target receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If a creature's saving throw succeeds, the target is [staggered](ref/misc/staggered) for 1d4 rounds, and the bard cannot use _deadly performance_ on that creature again for 24 hours. If a creature's saving throw fails, it dies.
+
+**Special:** _Deadly performance_ is a mind-affecting death effect that relies on audible and visual
+components.
+'''
+
+[[resolution]]
+id = "ref/performance/dirge-of-doom"
+name = "Dirge of Doom (Su)"
+occurrence = 1
+span_sha256 = "21eeb7925d5833bd2a516170961a0405de9cc779160ec3790de7e79c5f88d894"
+print = "Core Rulebook p. 37"
+replacement = '''
+**Dirge of Doom (Su)**
+
+**Gained:** At 8th Level
+
+**Ability:** A bard can use his performance to foster a sense of growing dread in his enemies, causing them to become [shaken](ref/misc/shaken). To be affected, an enemy must be within 30 feet and able to see and hear the bard's performance. The effect persists for as long as the enemy is within 30 feet and the bard continues his performance.
+
+**Special:** This performance cannot cause a creature to become [frightened](ref/misc/frightened) or
+[panicked](ref/misc/panicked), even if the targets are already shaken from another effect. _Dirge of
+doom_ is a mind-affecting fear effect, and it relies on audible and visual components.
+'''
+
+[[resolution]]
+id = "ref/performance/distraction"
+name = "Distraction (Su)"
+occurrence = 1
+span_sha256 = "a3163993f6ff751221712a567394e303d99c4fd82e3a624e6524234e7ecf9c88"
+print = "Core Rulebook p. 36"
+replacement = '''
+**Distraction (Su)**
+
+**Gained:** At 1st Level
+
+**Ability:** A bard can use his performance to counter magic effects that depend on sight. Each round of the _distraction,_ he makes a [Perform](ref/skill/perform-any) (act, comedy, dance, or oratory) skill check. Any creature within 30 feet of the bard (including the bard himself) that is affected by an illusion (pattern) or illusion (figment) magical attack may use the bard's Perform check result in place of its saving throw if, after the saving throw is rolled, the Perform skill check proves to be higher.
+
+If a creature within range of the _distraction_ is already under the effect of a non-instantaneous
+illusion (pattern) or illusion (figment) magical attack, it gains another saving throw against the
+effect each round it sees the _distraction_, but it must use the bard's Perform skill check result
+for the save.
+
+**Special:** _Distraction_ does not work on effects that don't allow saves. _Distraction_ relies on
+visual components.
+'''
+
+[[resolution]]
+id = "ref/performance/fascinate"
+name = "Fascinate (Su)"
+occurrence = 1
+span_sha256 = "3ac82a9a98ee4752a9bc36de5555e197b42a78c51c6948fa3d8b1361310d4279"
+print = "Core Rulebook p. 37"
+replacement = '''
+**Fascinate (Su)**
+
+**Gained:** At 1st Level
+
+**Ability:** A bard can use his performance to cause one or more creatures to become [fascinated](ref/misc/fascinated) with him. Each creature to be _fascinated_ must be within 90 feet, able to see and hear the bard, and capable of paying attention to him. The bard must also be able to see the creatures affected. The distraction of a nearby combat or other dangers prevents this ability from working.
+
+Each creature within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha
+modifier) to negate the effect. If a creature's saving throw succeeds, the bard cannot attempt to
+_fascinate_ that creature again for 24 hours. If its saving throw fails, the creature sits quietly
+and observes the performance for as long as the bard continues to maintain it. While _fascinated,_ a
+target takes a -4 penalty on all skill checks made as reactions, such as Perception checks. Any
+potential threat to the target allows the target to make a new saving throw against the effect. Any
+obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target,
+automatically breaks the effect.
+
+The bard can _fascinate_ one creature.
+
+**At 4th level,** the number of creatures the bard can _fascinate_ 2.
+
+**At 7th level,** the number of creatures the bard can _fascinate_ 3.
+
+**At 10th level,** the number of creatures the bard can _fascinate_ 4.
+
+**At 13th level,** the number of creatures the bard can _fascinate_ 5.
+
+**At 16th level,** the number of creatures the bard can _fascinate_ 6.
+
+**At 19th level,** the number of creatures the bard can _fascinate_ 7.
+
+**Special:** _Fascinate_ is an enchantment (compulsion), mind-affecting ability. _Fascinate_ relies
+on audible and visual components in order to function.
+'''
+
+[[resolution]]
+id = "ref/performance/frightening-tune"
+name = "Frightening Tune (Sp)"
+occurrence = 1
+span_sha256 = "bd4ef535ec9f0de3b31fa82a6646d636b6e950308026ab73076ee1b81097d7c1"
+print = "Core Rulebook p. 38"
+replacement = '''
+**Frightening Tune (Sp)**
+
+**Gained:** At 14th Level
+
+**Ability:** A bard can use his performance to cause fear in his enemies. To be affected, an enemy must be able to hear the bard perform and be within 30 feet. Each enemy within range receives a Will save (DC 10 + 1/2 the bard's level + the bard's Cha modifier) to negate the effect. If the save succeeds, the creature is immune to this ability for 24 hours. If the save fails, the target becomes [frightened](ref/misc/frightened) and flees for as long as the target can hear the bard's performance.
+
+**Special:** _Frightening tune_ relies on audible components.
+'''
+
+[[resolution]]
 id = "ref/performance/inspire-competence"
 name = "Inspire Competence (Su)"
 occurrence = 1
@@ -3702,6 +4222,72 @@ audible components.
 '''
 
 [[resolution]]
+id = "ref/performance/inspire-courage"
+name = "Inspire Courage (Su)"
+occurrence = 1
+span_sha256 = "98e514f04b9e948ab2535a16f1809740a2aba9ec682117eb2049bb383e4ad3b1"
+print = "Core Rulebook p. 37"
+replacement = '''
+**Inspire Courage (Su)**
+
+**Gained:** At 1st Level
+
+**Ability:** A bard can use his performance to _inspire courage_ in his allies (including himself), bolstering them against fear and improving their combat abilities. To be affected, an ally must be able to perceive the bard's performance. An affected ally receives a +1 morale bonus on saving throws against charm and fear effects and a +1 competence bonus on attack and weapon damage rolls.
+
+**At 5th level,** these bonuses increase to +2.
+
+**At 11th level,** these bonuses increase to +3.
+
+**At 17th level,** these bonuses increase to +4.
+
+**Special:** _Inspire courage_ is a mind-affecting ability. _Inspire courage_ can use audible or
+visual components. The bard must choose which component to use when starting his performance.
+'''
+
+[[resolution]]
+id = "ref/performance/inspire-greatness"
+name = "Inspire Greatness (Su)"
+occurrence = 1
+span_sha256 = "e55f559dc0d84166e411430bfff84bc79a48eb6374f13c35fb6115dab0dfa370"
+print = "Core Rulebook p. 37"
+replacement = '''
+**Inspire Greatness (Su)**
+
+**Gained:** At 9th Level
+
+**Ability:** A bard can use his performance to _inspire greatness_ in himself or a single willing ally within 30 feet, granting extra fighting capability. To _inspire greatness,_ all of the targets must be able to see and hear the bard. A creature _inspired with greatness_ gains 2 bonus Hit Dice (d10s), the commensurate number of [temporary hit points](ref/rule/temporary-hit-points) (apply the target's Constitution modifier, if any, to these bonus Hit Dice), a +2 competence bonus on attack rolls, and a +1 competence bonus on Fortitude saves. The bonus Hit Dice count as regular Hit Dice for determining the effect of spells that are Hit Dice dependent.
+
+**At 12th level,** the number of creatures he can target increases to 2.
+
+**At 15th level,** the number of creatures he can target increases to 3.
+
+**At 18th level,** the number of creatures he can target increases to 4.
+
+**Special:** _Inspire greatness_ is a mind-affecting ability and it relies on audible and visual
+components.
+'''
+
+[[resolution]]
+id = "ref/performance/inspire-heroics"
+name = "Inspire Heroics (Su)"
+occurrence = 1
+span_sha256 = "7d36bb5e7250f5e84eeab82f8a620db889be6d2f242cbe0c8f399e9d57182005"
+print = "Core Rulebook p. 38"
+replacement = '''
+**Inspire Heroics (Su)**
+
+**Gained:** At 15th Level
+
+**Ability:** A bard can inspire tremendous heroism in himself or a single ally within 30 feet. Inspired creatures gain a +4 morale bonus on saving throws and a +4 dodge bonus to AC.
+
+**At 18th level,** the number of creatures he can _inspire_ increases to 2.
+
+**Special:** To _inspire heroics,_ all of the targets must be able to see and hear the bard. This
+effect lasts for as long as the targets are able to witness the performance. _Inspire heroics_ is a
+mind-affecting ability that relies on audible and visual components.
+'''
+
+[[resolution]]
 id = "ref/performance/mass-suggestion"
 name = "Mass Suggestion (Sp)"
 occurrence = 1
@@ -3716,6 +4302,96 @@ replacement = '''
 
 **Special:** _Mass suggestion_ is an enchantment (compulsion), mind-affecting, language-dependent
 ability that relies on audible components.
+'''
+
+[[resolution]]
+id = "ref/performance/soothing-performance"
+name = "Soothing Performance (Su)"
+occurrence = 1
+span_sha256 = "ac1597d94c340d42de62b437fc0f45bb7f91be2141b1419ba2720903284cd1f2"
+print = "Core Rulebook p. 38"
+replacement = '''
+**Soothing Performance (Su)**
+
+**Gained:** At 12th Level
+
+**Ability:** A bard can use his performance to create an effect equivalent to a [mass cure serious wounds](ref/spell/cure-serious-wounds-mass), using the bard's level as the caster level. In addition, this performance removes the fatigued, sickened, and shaken conditions from all those affected.
+
+**Special:** Using this ability requires 4 rounds of continuous performance, and the targets must be
+able to see and hear the bard throughout the performance. _Soothing performance_ affects all targets
+that remain within 30 feet throughout the performance. _Soothing performance_ relies on audible and
+visual components.
+'''
+
+[[resolution]]
+id = "ref/performance/suggestion"
+name = "Suggestion (Sp)"
+occurrence = 1
+span_sha256 = "b190136bdfce8d6a938cd7044dedf573aa9fe4f9c429e14249f938146149f361"
+print = "Core Rulebook p. 37"
+replacement = '''
+**Suggestion (Sp)**
+
+**Gained:** At 6th Level
+
+**Ability:** A bard can use his performance to make a [suggestion](ref/spell/suggestion) (as per the spell) to a creature he has already [fascinated](ref/performance/fascinate). Using this ability does not disrupt the _fascinate_ effect, but it does require a **standard action** to activate (in addition to the **free action** to continue the _fascinate_ effect). A bard can use this ability more than once against an individual creature during an individual performance.
+
+**Special:** Making a _suggestion_ does not count against a bard's daily use of bardic performance.
+A Will saving throw (DC 10 + 1/2 the bard's level + the bard's Cha modifier) negates the effect.
+This ability affects only a single creature. _Suggestion_ is an enchantment (compulsion), mind
+affecting, language-dependent ability and relies on audible components.
+'''
+
+[[resolution]]
+id = "ref/phrenicamp/mimic-metamagic"
+name = "Mimic Metamagic (Ex)"
+occurrence = 1
+span_sha256 = "39d436b8f9200533b6ef73b9dfc6a2a0f7f7d861ab76a7bc80e7b3908f967d9e"
+print = "Occult Adventures p. 63"
+replacement = '''
+**Mimic Metamagic (Ex)**
+
+**Choice:** When the psychic gains this amplification, she chooses two metamagic feats; she need not
+have these feats to select them.
+
+**Info:** The psychic can still apply metamagic feats she knows to the spell while using this
+amplification, increasing the casting time and spell level as normal.
+
+**Ability:** When she casts a spell, she can spend points from her phrenic pool to apply one of the
+chosen feats to the linked spell without increasing the spell's level or casting time. She must
+spend a number of points equal to double the number of levels by which the feat normally increases a
+spell's level (minimum 2 points). If the metamagic feat alters the spell's casting time in a
+different way than the [standard rules](ref/rule/feats-basic) for a spontaneous caster using a
+metamagic feat (as in the case of [Quicken Spell](ref/feat/quicken-spell)), it changes the casting
+time accordingly.
+
+This amplification can be applied only to a spell that the chosen metamagic feat could normally
+affect, and only if the spellcaster can cast spells of a high enough level that she would be able to
+apply the metamagic feat in question to the linked spell. For example, an 11th-level psychic could
+spend 8 points to _quicken_ a 1st-level spell, but couldn't _quicken_ a 2nd-level spell because
+she's unable to cast 6th-level spells. This ability doesn't require her to have any free spell slots
+in the relevant level, however, so the psychic in the example could _quicken_ a 1st-level spell even
+if she had cast all her 5th-level spells for the day.
+
+**Special:** A psychic can select this amplification multiple times, adding two additional options
+to the list of metamagic feats she can apply using this amplification each time.
+'''
+
+[[resolution]]
+id = "ref/ragepower/greater-ancestor-totem"
+name = "Greater Ancestor Totem (Su)"
+occurrence = 1
+span_sha256 = "3251977b26011c0c1935ea8940531db66110e2b495e8c6d1041487a38b7d300e"
+print = "Wilderness Origins p. 24"
+replacement = '''
+**Greater Ancestor Totem (Su)**
+
+**Passive:** The barbarian's insight bonus to her chosen skill increases to +6.
+
+**Immediate:** Once per _rage,_ she can spend one round of _rage_ to reroll a skill check in the
+chosen skill. She must take the result of the second roll, even if it is lower.
+
+**Prereq:** [Ancestor totem](ref/ragepower/ancestor-totem), 10th-level barbarian
 '''
 
 [[resolution]]
@@ -3790,6 +4466,24 @@ replacement = '''
 Once per day, when a barbarian with ability penalties or damage ends her _rage,_ she can reroll a saving throw, if any, against an effect that imposed an ability penalty or dealt her ability damage. If successful, she removes an amount of ability penalty or damage equal to the amount she can ignore while _raging._
 
 **Prereq:** 4th-level barbarian, [renewed vigor](ref/ragepower/renewed-vigor)
+'''
+
+[[resolution]]
+id = "ref/ragepower/savage-dirty-trick"
+name = "Savage Dirty Trick (Ex)"
+occurrence = 1
+span_sha256 = "d68f1c131dca7b58519f520c693834977f351e6c4950cf3a9fc71a1e2906a5c9"
+print = "Champions of Balance p. 23"
+replacement = '''
+**Savage Dirty Trick (Ex)**
+
+**Ability:** Once per round while _raging,_ the barbarian can attempt a [dirty trick](ref/rule/dirty-trick) combat maneuver in place of a melee attack. If successful, the target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty trick based on the type of dirty trick performed and the following table.
+
+**Usage:** Once per opponent per _rage_
+
+**Prereq:** 6th-level barbarian
+
+**Provokes attack of opportunity:** No
 '''
 
 [[resolution]]

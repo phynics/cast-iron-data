@@ -14,18 +14,16 @@ group = "ninja-trick"
 
 **Ki Venom (Ex)**
 
-**Action:** Ability
-
 **Flavor:** A ninja with this trick knows how to make poisons from innocuous herbs or minerals.
+
+**Ability:** Creating _ki venom_ is a **full-round action** that costs 1 ki point. The poison lasts
+for 24 hours before becoming inert. The poison deals either
+[Strength or Dexterity damage](ref/rule/ability-damage-drain), chosen when the venom is created.
 
 **Special:** The ninja can spend additional ki as part of the process of creating the _ki venom_ to
 improve the venom in one or more of the following ways: spend 1 ki point to increase the damage die
 to a d6, spend 1 ki point to change the ability damage dealt to Intelligence, Wisdom, or Charisma
 damage, or spend 1 ki point to increase the number of saves required to cure the poison by 1.
-
-Creating _ki venom_ is a **full-round action** that costs 1 ki point. The poison lasts for 24 hours
-before becoming inert. The poison deals either
-[Strength or Dexterity damage](ref/rule/ability-damage-drain), chosen when the venom is created.
 
 **Ki Venom**
 

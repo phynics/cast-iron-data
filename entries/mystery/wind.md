@@ -141,17 +141,15 @@ is [staggered](ref/misc/staggered) for 1 round.
 
 **Wind Sight (Ex)**
 
-**At 7th Level:** As a **standard action**, you can see and hear into any area (as if using
+**Passive:** You ignore penalties on [Perception](ref/skill/perception) checks based on wind and the
+first 100 feet of distance.
+
+**At 7th level,** as a **standard action**, you can see and hear into any area (as if using
 [clairaudience and clairvoyance](ref/spell/clairaudience-clairvoyance)) within range as long as
 there is an unobstructed path for air to travel between you and the target area (this does not
 require line of effect, meaning the path can turn corners and go through spaces no smaller than 1
-inch in diameter).
-
-You can use this ability a number of rounds per day equal to your oracle level, but these rounds do
-not need to be consecutive.
-
-**Passive:** You ignore penalties on [Perception](ref/skill/perception) checks based on wind and the
-first 100 feet of distance.
+inch in diameter). You can use this ability a number of rounds per day equal to your oracle level,
+but these rounds do not need to be consecutive.
 
 **Wings of Air (Su)**
 

@@ -75,39 +75,7 @@ ref/mystery/metal	Dance of the Blades (Ex)	1	5c1a99a1d31c0e9f100643396d34e0eb92c
 ref/mystery/reaper	Death's Embrace (Su)	1	77c77914c4795ad8b6f03db81757cc23de2c083ae032e3f7da9a6a68981f16b1	numbered-effect-label: Ability2
 ref/mystery/reaper	Haunt Channeler (Su)	2	fd2deb47fcad9f29ef28f5c21bedf42189a9038d8af43bbf6d7e3fe824447da0	numbered-effect-label: Ability2; multiple-effect-rows
 ref/mystery/reaper	Final Revelation	1	f91588049d0dacea58f9c19383c7921f2a2a65af4c82b6be90f6a6c029781c82	multiple-effect-rows
-ref/mystery/solar	Many Roads (Su)	1	5f8b325675ac00126dc65dd66f831eb3e8ed479f068bb2656ee24be55d670ccc	multiple-effect-rows
-ref/mystery/wind	Wind Sight (Ex)	1	ef2be205a318a160cddd4d80a0e6d270fa56ac134bcd639cb4be98f7ce6d5742	unlabeled-paragraphs-not-after-effect
-ref/ninjatrick/ki-venom	Ki Venom (Ex)	1	89a03180793b5083591e7c2473b36c798bd7cba16f43b5809a5c6cbc56472ae5	action-without-one-group
-ref/ninjatrick/many-guises	Many Guises (Ex)	1	5ef825f2a024a11909c7e267b6869ce42faa39cb27a19986b96c4b04e7b16b9c	multiple-effect-rows
-ref/oath/chaos	Order of Good (Su)	1	546a2ab2e10480f02ef640029d23e845516d41db94abcc90fe9775d7920f6a26	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/oath/loyalty	Loyal Oath (Su)	1	52ce55b06fd2928806933254b4a648f113c6b2c26f8da67111ad40c4af9db90f	multiple-effect-rows
-ref/oath/the-peoples-council	Stirring Monologue (Su)	1	6bb596d0bf001967090ccfe5e319275c9c6eef9e9ee1b7d19f842d5dc630d811	upgrade-not-above-gained: 1; upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Fascinate](ref/performance/fascinate); upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Suggestion](ref/performance/suggestion); upgrade-keeps-capital: Dirge; upgrade-keeps-capital: Inspire; upgrade-keeps-capital: Frightening; upgrade-keeps-capital: Mass
-ref/oath/the-whispering-way	Ghost Touch Aura (Su)	1	4232d25993a3c3081affa2c83fbd3472a9877a2311e3134f00bce3270468aa98	no-effect-row: suggest the lowest upgrade as Gained level and base effect
 ref/oraclecurse/toxic-blood	Toxic Blood	1	86f4f7bb02ae04ca5cc7fc9cc71b66ae0f066251569ce366137ee047f662c761	unlabeled-paragraphs-not-after-effect
-ref/order/order-of-the-ennead-star	Subjugate (Ex)	1	8f064a3a17aff8bced38dffe4a986e462f4577c342cd32209b809e84cf2e21ad	action-first-pair: print decides the order
-ref/order/order-of-the-green	Favored Terrain (Ex)	1	ecf163147a7b5f38c576da3d0678cd2477a21a214f9998c0f5dd05639138fcd6	no-effect-row
-ref/order/order-of-the-hammer	Mighty Bash (Ex)	1	a2bde8a869996e6fdbdba79ba0a7befb5a9caddc1229c0841a977c7875b933aa	multiple-effect-rows
-ref/order/order-of-the-hammer	Unarmed Strike	1	64c752ab91471761bbfc4e49c7cf6ab805cc13f54cfb1724351a32a4a9fc9ee0	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/order/order-of-the-scales	Mobile Wall (Ex)	1	b8a87847d044e5ad53780d18f71183b5cc57bdcc4d48df2db38f5dc3a5fcc0b8	multiple-effect-rows
-ref/order/order-of-the-seal	Keeper (Ex)	1	55f81fd85e566b86f56075c897cb7490275b3bfd4a69512208d9ababe7b75915	no-effect-row
-ref/order/order-of-the-songbird	Versatile Performance (Ex)	2	acec1e66b5238d53c25406ccab467e710558675475e50325953d10548f21182a	unmapped-action: Choice; no-effect-row
-ref/order/order-of-the-sword	By My Honor (Ex)	1	b2addb55c38be54931e3be9e3d0cd5435a228a7da7cdca2b41e5d6c6de7f4966	no-effect-row
-ref/order/order-of-the-tome	Specialized Knowledge (Ex)	1	cc1c6323bd5fe35a71f8f3bc1176025795487da709626311f890a53ece4c0235	no-effect-row
-ref/patron/infernal-contract	Infernal Contract	1	3ab281d071ea2102b61096e2cf748ca8b95aa8df840851ef0269f60dc99e381f	multiple-effect-rows
-ref/performance/countersong	Countersong (Su)	1	acb05221f0f0c3f954054eeb866783337aeef8c58f4ba1fa8f919028b75e9465	no-effect-row
-ref/performance/deadly-performance	Deadly Performance (Su)	1	eedd17cc9e18ccd14dd9f88a36aab1f17e7a467653b4e85332823e77580d5433	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/dirge-of-doom	Dirge of Doom (Su)	1	21eeb7925d5833bd2a516170961a0405de9cc779160ec3790de7e79c5f88d894	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/distraction	Distraction (Su)	1	a3163993f6ff751221712a567394e303d99c4fd82e3a624e6524234e7ecf9c88	no-effect-row
-ref/performance/fascinate	Fascinate (Su)	1	3ac82a9a98ee4752a9bc36de5555e197b42a78c51c6948fa3d8b1361310d4279	no-effect-row; upgrade-not-above-gained: 1
-ref/performance/frightening-tune	Frightening Tune (Sp)	1	bd4ef535ec9f0de3b31fa82a6646d636b6e950308026ab73076ee1b81097d7c1	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/inspire-courage	Inspire Courage (Su)	1	98e514f04b9e948ab2535a16f1809740a2aba9ec682117eb2049bb383e4ad3b1	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/inspire-greatness	Inspire Greatness (Su)	1	e55f559dc0d84166e411430bfff84bc79a48eb6374f13c35fb6115dab0dfa370	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/inspire-heroics	Inspire Heroics (Su)	1	7d36bb5e7250f5e84eeab82f8a620db889be6d2f242cbe0c8f399e9d57182005	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/soothing-performance	Soothing Performance (Su)	1	ac1597d94c340d42de62b437fc0f45bb7f91be2141b1419ba2720903284cd1f2	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/performance/suggestion	Suggestion (Sp)	1	b190136bdfce8d6a938cd7044dedf573aa9fe4f9c429e14249f938146149f361	no-effect-row: suggest the lowest upgrade as Gained level and base effect
-ref/phrenicamp/mimic-metamagic	Mimic Metamagic (Ex)	1	39d436b8f9200533b6ef73b9dfc6a2a0f7f7d861ab76a7bc80e7b3908f967d9e	unlabeled-paragraphs-not-after-effect
-ref/ragepower/greater-ancestor-totem	Greater Ancestor Totem (Su)	1	3251977b26011c0c1935ea8940531db66110e2b495e8c6d1041487a38b7d300e	action-first-pair: print decides the order
-ref/ragepower/savage-dirty-trick	Savage Dirty Trick (Ex)	1	d68f1c131dca7b58519f520c693834977f351e6c4950cf3a9fc71a1e2906a5c9	action-group-crosses-row
 ref/ragepower/unrestrained-rage	Unrestrained Rage	1	5ebd88520aebe9438f058482dea20b365c3cbd4f0b403a7cb858f9508cc4d086	action-first-pair: print decides the order
 ref/shamanspirit/bones	Deathly Being (Su)	1	0a67cc3ff5b219e3c63134c2ff31c2901959f3090402decd0f05f67675cbee2e	unlabeled-paragraphs-not-after-effect
 ref/shamanspirit/wind	Wind Sight (Su)	1	e489c0d8bce369a695dd52da76bd23a0baed5702b037c05cde46949472b1909b	unlabeled-paragraphs-not-after-effect

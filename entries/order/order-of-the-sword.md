@@ -46,10 +46,10 @@ An order of the sword cavalier receives the following abilities as he increases 
 
 **By My Honor (Ex)**
 
-**Choice:** The cavalier must select one alignment. As long as he maintains the selected alignment,
-he receives a +2 morale bonus to one saving throw of his choice.
-
 **Gained:** At 2nd Level
+
+**Ability:** The cavalier must select one alignment. As long as he maintains the selected alignment,
+he receives a +2 morale bonus to one saving throw of his choice.
 
 **Mounted Mastery (Ex)**
 

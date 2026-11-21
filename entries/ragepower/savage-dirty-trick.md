@@ -14,21 +14,18 @@ group = "rage-power"
 
 **Savage Dirty Trick (Ex)**
 
-**Action:** Ability
+**Ability:** Once per round while _raging,_ the barbarian can attempt a
+[dirty trick](ref/rule/dirty-trick) combat maneuver in place of a melee attack. If successful, the
+target takes an amount of damage equal to the barbarian's Strength modifier and must succeed at a
+Fortitude save (DC 10 + 1/2 the barbarian's level + the barbarian's Strength modifier) or take an
+additional penalty from the dirty trick based on the type of dirty trick performed and the following
+table.
+
+**Usage:** Once per opponent per _rage_
 
 **Prereq:** 6th-level barbarian
 
 **Provokes attack of opportunity:** No
-
-**Usage:** Once per opponent per _rage_
-
-**Usage:** Once per opponent per _rage_
-
-Once per round while _raging,_ the barbarian can attempt a [dirty trick](ref/rule/dirty-trick)
-combat maneuver in place of a melee attack. If successful, the target takes an amount of damage
-equal to the barbarian's Strength modifier and must succeed at a Fortitude save (DC 10 + 1/2 the
-barbarian's level + the barbarian's Strength modifier) or take an additional penalty from the dirty
-trick based on the type of dirty trick performed and the following table.
 
 |Initial Penalty|Additional Penalty|
 | --- | --- |

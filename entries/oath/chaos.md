@@ -44,8 +44,10 @@ aberrations, instead of against evil outsiders, evil dragons, and undead.
 
 **Order of Good (Su)**
 
-**At 4th Level:** She gains the ability to spend one use of her _lay on hands_ ability when using
-her _smite chaos_ ability to instead _smite evil,_ as the paladin ability of the same name.
+**Gained:** At 4th Level
+
+**Ability:** She gains the ability to spend one use of her _lay on hands_ ability when using her
+_smite chaos_ ability to instead _smite evil,_ as the paladin ability of the same name.
 
 **Replaces:** Channel positive energy
 

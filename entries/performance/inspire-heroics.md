@@ -14,11 +14,13 @@ group = "bardic-performance"
 
 **Inspire Heroics (Su)**
 
-**At 15th Level:** A bard can inspire tremendous heroism in himself or a single ally within 30 feet.
+**Gained:** At 15th Level
+
+**Ability:** A bard can inspire tremendous heroism in himself or a single ally within 30 feet.
 Inspired creatures gain a +4 morale bonus on saving throws and a +4 dodge bonus to AC.
+
+**At 18th level,** the number of creatures he can _inspire_ increases to 2.
 
 **Special:** To _inspire heroics,_ all of the targets must be able to see and hear the bard. This
 effect lasts for as long as the targets are able to witness the performance. _Inspire heroics_ is a
 mind-affecting ability that relies on audible and visual components.
-
-At 18th level: The number of creatures he can _inspire_ increases to 2.

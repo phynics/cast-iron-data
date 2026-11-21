@@ -49,13 +49,13 @@ level.
 
 **Specialized Knowledge (Ex)**
 
-**Choice:** An order of the tome cavalier chooses either Knowledge (arcana) or Knowledge (religion).
-He can make the chosen skill checks untrained. He cannot change his chosen skill later. If he has
-ranks in his chosen skill, he receives a bonus on the check equal to
+**Gained:** At 2nd Level
+
+**Ability:** An order of the tome cavalier chooses either Knowledge (arcana) or Knowledge
+(religion). He can make the chosen skill checks untrained. He cannot change his chosen skill later.
+If he has ranks in his chosen skill, he receives a bonus on the check equal to
 [half](ref/misc/fractions-and-rounding) his cavalier level (minimum +1) as long as that check
 involves a book, tome, scroll, or any other form of written knowledge.
-
-**Gained:** At 2nd Level
 
 **Powerful Knowledge (Ex)**
 

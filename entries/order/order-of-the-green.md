@@ -51,14 +51,20 @@ A cavalier belonging to the order of the Green gains the following abilities.
 
 **Favored Terrain (Ex)**
 
-**Choice:** An order of the Green cavalier chooses a [favored terrain](ref/ability/favored-terrain)
+**Gained:** At 2nd Level
+
+**Ability:** An order of the Green cavalier chooses a [favored terrain](ref/ability/favored-terrain)
 from the list of ranger favored terrains. He gains this as a _favored terrain,_ as the ranger class
 feature of the same name.
 
-**Gained:** At 2nd Level
+**At 8th level,** he selects another favored terrain, and the skill bonus in any one favored terrain
+(including the one just selected, if so desired) increases by 2.
 
-**Repeat:** He selects another favored terrain, and the skill bonus in any one favored terrain
-(including the one just selected, if so desired) increases by 2., 8, 6
+**At 14th level,** he selects another favored terrain, and the skill bonus in any one favored
+terrain (including the one just selected, if so desired) increases by 2.
+
+**At 20th level,** he selects another favored terrain, and the skill bonus in any one favored
+terrain (including the one just selected, if so desired) increases by 2.
 
 **Cut the Corruption (Su)**
 

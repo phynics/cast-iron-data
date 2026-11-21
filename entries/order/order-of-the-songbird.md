@@ -56,14 +56,12 @@ versatile performance ability with one Perform skill.
 
 **Versatile Performance (Ex)**
 
-**Action:** Choice
-
 **Flavor:** Relevant text from the bard class ability.
 
-You can choose one type of Perform skill, using your bonus in that skill in place of your bonus in
-associated skills. When substituting in this way, you use your total Perform skill bonus, including
-class skill bonus, in place of its associated skill's bonus, whether or not you have ranks in that
-skill or if it is a class skill.
+**Ability:** You can choose one type of Perform skill, using your bonus in that skill in place of
+your bonus in associated skills. When substituting in this way, you use your total Perform skill
+bonus, including class skill bonus, in place of its associated skill's bonus, whether or not you
+have ranks in that skill or if it is a class skill.
 
 The types of Perform and their associated skills are:
 

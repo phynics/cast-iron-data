@@ -51,22 +51,20 @@ level.
 
 **Mobile Wall (Ex)**
 
-**Ability:** The cavalier receives [Step Up](ref/feat/step-up) as a bonus feat. He can use this feat
-while mounted by succeeding at a DC 15 [Ride](ref/skill/ride) check, directing his mount to move
-rather than himself.
-
 **Gained:** At 2nd Level
 
-**Passive:** The cavalier gains a +1 bonus to his CMD against attempts to tumble through squares he
-threatens.
+**Ability:** The cavalier receives [Step Up](ref/feat/step-up) as a bonus feat. He can use this feat
+while mounted by succeeding at a DC 15 [Ride](ref/skill/ride) check, directing his mount to move
+rather than himself. The cavalier gains a +1 bonus to his CMD against attempts to tumble through
+squares he threatens.
 
-At 6th level: This bonus increases to +2.
+**At 6th level,** this bonus increases to +2.
 
-At 10th level: This bonus increases to +3.
+**At 10th level,** this bonus increases to +3.
 
-At 14th level: This bonus increases to +4.
+**At 14th level,** this bonus increases to +4.
 
-At 18th level: This bonus increases to +5.
+**At 18th level,** this bonus increases to +5.
 
 **Seek Retribution (Ex)**
 

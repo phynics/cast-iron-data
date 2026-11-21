@@ -44,11 +44,13 @@ of _[detect evil](ref/spell/detect-evil)._
 
 **Ghost Touch Aura (Su)**
 
-**At 3rd Level:** The paladin's armor is treated as if it had the
+**Gained:** At 3rd Level
+
+**Ability:** The paladin's armor is treated as if it had the
 [ghost touch](ref/magic-enh/ghost-touch-armor) armor property. This does not affect the cost or
 effect of any other abilities of the armor.
 
-**At 9th Level:** This ability also applies to the paladin's shield.
+**At 9th level,** this ability also applies to the paladin's shield.
 
 **Replaces:** 3rd-level and 9th-level mercies
 

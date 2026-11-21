@@ -48,15 +48,15 @@ level.
 
 **Mighty Bash (Ex)**
 
-**Ability:** The cavalier's unarmed strikes deal more nonlethal damage than usual; she is treated as
-having a number of [monk](ref/class/monk) levels equal to her cavalier level for the purpose of
-determining how much nonlethal damage her unarmed strikes deal. For example, a 12th-level cavalier
-of the order of the hammer would deal 2d6 points of nonlethal damage with her unarmed strike.
-
 **Gained:** At 2nd Level
 
 **Passive:** The cavalier does not provoke attacks of opportunity when she attacks foes while
 unarmed so long as she is dealing nonlethal damage.
+
+The cavalier's unarmed strikes deal more nonlethal damage than usual; she is treated as having a
+number of [monk](ref/class/monk) levels equal to her cavalier level for the purpose of determining
+how much nonlethal damage her unarmed strikes deal. For example, a 12th-level cavalier of the order
+of the hammer would deal 2d6 points of nonlethal damage with her unarmed strike.
 
 **Special:** The cavalier must still select the
 [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat if she wants to deal lethal damage
@@ -65,21 +65,23 @@ ability.
 
 **Unarmed Strike**
 
+**Gained:** At 1st Level
+
 **Flavor:** Relevant text from the monk class ability.
 
-**At 1st Level:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
-
-**At 12th Level:** Your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
-
-**At 16th Level:** Your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
-
-**At 20th Level:** Your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.
-
-**At 4th Level:** Your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
-
-**At 8th Level:** Your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
-
 **Info:** Unarmed strike damage is based on your size.
+
+**Ability:** Your unarmed strike deals 1d4 (Small), 1d6 (Medium), or 1d8 (Large) damage.
+
+**At 4th level,** your unarmed strike now deals 1d6 (Small), 1d8 (Medium), or 2d6 (Large) damage.
+
+**At 8th level,** your unarmed strike now deals 1d8 (Small), 1d10 (Medium), or 2d8 (Large) damage.
+
+**At 12th level,** your unarmed strike now deals 1d10 (Small), 2d6 (Medium), or 3d6 (Large) damage.
+
+**At 16th level,** your unarmed strike now deals 2d6 (Small), 2d8 (Medium), or 3d8 (Large) damage.
+
+**At 20th level,** your unarmed strike now deals 2d8 (Small), 2d10 (Medium), or 4d8 (Large) damage.
 
 **Crushing Grapple (Ex)**
 

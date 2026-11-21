@@ -103,11 +103,10 @@ ability's duration for the day.
 
 **Many Roads (Su)**
 
-**Ability:** Further, you learn to speak and read three languages in addition to those you already
-know.
-
 **Passive:** You gain an insight bonus on [Fly](ref/skill/fly) and [Survival](ref/skill/survival)
 checks equal to 1/2 your oracle level.
+
+Further, you learn to speak and read three languages in addition to those you already know.
 
 **Serpent in the Sun (Su)**
 

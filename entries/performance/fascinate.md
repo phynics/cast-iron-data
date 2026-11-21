@@ -14,26 +14,9 @@ group = "bardic-performance"
 
 **Fascinate (Su)**
 
-**Action:** At 1st Level
+**Gained:** At 1st Level
 
-**At 1st Level:** The bard can _fascinate_ one creature.
-
-**Special:** _Fascinate_ is an enchantment (compulsion), mind-affecting ability. _Fascinate_ relies
-on audible and visual components in order to function.
-
-At 4th level: The number of creatures the bard can _fascinate_ 2.
-
-At 7th level: The number of creatures the bard can _fascinate_ 3.
-
-At 10th level: The number of creatures the bard can _fascinate_ 4.
-
-At 13th level: The number of creatures the bard can _fascinate_ 5.
-
-At 16th level: The number of creatures the bard can _fascinate_ 6.
-
-At 19th level: The number of creatures the bard can _fascinate_ 7.
-
-A bard can use his performance to cause one or more creatures to become
+**Ability:** A bard can use his performance to cause one or more creatures to become
 [fascinated](ref/misc/fascinated) with him. Each creature to be _fascinated_ must be within 90 feet,
 able to see and hear the bard, and capable of paying attention to him. The bard must also be able to
 see the creatures affected. The distraction of a nearby combat or other dangers prevents this
@@ -47,3 +30,20 @@ target takes a -4 penalty on all skill checks made as reactions, such as Percept
 potential threat to the target allows the target to make a new saving throw against the effect. Any
 obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target,
 automatically breaks the effect.
+
+The bard can _fascinate_ one creature.
+
+**At 4th level,** the number of creatures the bard can _fascinate_ 2.
+
+**At 7th level,** the number of creatures the bard can _fascinate_ 3.
+
+**At 10th level,** the number of creatures the bard can _fascinate_ 4.
+
+**At 13th level,** the number of creatures the bard can _fascinate_ 5.
+
+**At 16th level,** the number of creatures the bard can _fascinate_ 6.
+
+**At 19th level,** the number of creatures the bard can _fascinate_ 7.
+
+**Special:** _Fascinate_ is an enchantment (compulsion), mind-affecting ability. _Fascinate_ relies
+on audible and visual components in order to function.
