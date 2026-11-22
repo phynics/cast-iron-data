@@ -8,6 +8,9 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Valiant Vault/Mythic", path = "mythic_adventures/feat/valiant_vault_mythic.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "76"
 
 [fields]
 kind = "feat"

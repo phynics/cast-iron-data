@@ -13,6 +13,9 @@ relations = [
   { kind = "prerequisite", target = "ref/feat/iron-will", label = "or" },
   { kind = "prerequisite", target = "ref/feat/lightning-reflexes", label = "or" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "69"
 
 [fields]
 kind = "feat"

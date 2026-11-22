@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/channel-smite", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "60"
 
 [fields]
 kind = "feat"

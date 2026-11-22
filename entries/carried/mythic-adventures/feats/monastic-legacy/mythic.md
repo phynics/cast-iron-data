@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/monastic-legacy", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "69"
 
 [fields]
 kind = "feat"

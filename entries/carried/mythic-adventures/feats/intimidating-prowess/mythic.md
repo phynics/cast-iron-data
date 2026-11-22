@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/intimidating-prowess", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "68"
 
 [fields]
 kind = "feat"

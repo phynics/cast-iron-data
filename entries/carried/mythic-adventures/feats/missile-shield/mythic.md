@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/missile-shield", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "69"
 
 [fields]
 kind = "feat"
