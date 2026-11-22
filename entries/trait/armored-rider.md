@@ -7,6 +7,9 @@ source_ids = ["armor-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armored_rider", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "armor-masters-handbook"
+page = "3"
 
 [fields]
 kind = "trait"

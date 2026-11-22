@@ -7,6 +7,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lions_audacity", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "23"
 
 [fields]
 kind = "trait"

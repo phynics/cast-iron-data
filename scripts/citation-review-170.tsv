@@ -78,6 +78,12 @@ ref/sorcbloodline/starsoul	class_option	ultimate-magic	marker		paragraph agrees;
 ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	trait	advanced-players-guide	no-page		
+ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
+ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books
+ref/trait/demon-hunter	trait	ultimate-campaign	book-differs		the reference lists the entry only in other books
+ref/trait/favored-son-or-daughter	trait	advanced-players-guide	no-page		
+ref/trait/scourge-of-the-seas	trait	inner-sea-npc-codex	book-differs		the reference lists the entry only in other books
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragon-dung-pit-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragonfire-trap	trap	monster-codex	no-page		

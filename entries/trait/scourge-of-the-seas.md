@@ -7,6 +7,11 @@ source_ids = ["advanced-class-origins", "inner-sea-npc-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scourge_of_the_seas", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "23"
+[[sources]]
+publication = "inner-sea-npc-codex"
 
 [fields]
 kind = "trait"

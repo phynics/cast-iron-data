@@ -8,6 +8,8 @@ tags = ["religion"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Players Guide/Rules/New Rules/Traits/Religion Traits/Divine Courtesan", path = "advanced_players_guide/trait/religion/divine_courtesan.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "trait"

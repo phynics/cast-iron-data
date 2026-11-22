@@ -7,6 +7,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balancers_banishing", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "9"
 
 [fields]
 kind = "trait"

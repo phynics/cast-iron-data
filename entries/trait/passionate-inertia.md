@@ -7,6 +7,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "passionate_inertia", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "11"
 
 [fields]
 kind = "trait"

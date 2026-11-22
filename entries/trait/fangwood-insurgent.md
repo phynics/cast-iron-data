@@ -7,6 +7,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fangwood_insurgent", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "13"
 
 [fields]
 kind = "trait"

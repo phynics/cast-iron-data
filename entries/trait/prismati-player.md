@@ -7,6 +7,9 @@ source_ids = ["andoran-spirit-of-liberty"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "prismati_player", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "andoran-spirit-of-liberty"
+page = "7"
 
 [fields]
 kind = "trait"

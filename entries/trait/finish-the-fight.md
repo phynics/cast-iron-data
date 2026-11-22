@@ -7,6 +7,9 @@ source_ids = ["bastards-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "finish_the_fight", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "11"
 
 [fields]
 kind = "trait"

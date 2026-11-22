@@ -23,7 +23,8 @@ Slices (`--slice`, repeatable):
                  the entries of that kind that have no `[[sources]]` row at all (`mythic` is the
                  carried Mythic Adventures feat entries). Each gets one row per `source_ids`
                  book, in `source_ids` order. `--books` limits a slice to the entries whose first
-                 `source_ids` book is listed.
+                 `source_ids` book is listed; `--books-range FROM:TO` to the entries whose first
+                 book lies between the two ids (inclusive, in id order).
 
 A row has a `page` when one of these gives it, in this order:
 
@@ -495,7 +496,9 @@ def write_review(path: Path, rows: list[dict], order: dict[str, int]) -> None:
 # ---------------------------------------------------------------------------- main
 
 
-def selected(entry: Entry, slices: set[str], books: set[str] | None) -> str | None:
+def selected(
+    entry: Entry, slices: set[str], books: set[str] | None, book_range: tuple[str, str] | None = None
+) -> str | None:
     """The slice that takes an entry, or None."""
     if "paragraphs" in slices and entry.kind == "class_option":
         lines = entry.body.split("\n")
@@ -512,6 +515,10 @@ def selected(entry: Entry, slices: set[str], books: set[str] | None) -> str | No
             continue
         if books is not None and (not entry.source_ids or entry.source_ids[0] not in books):
             continue
+        if book_range is not None and not (
+            entry.source_ids and book_range[0] <= entry.source_ids[0] <= book_range[1]
+        ):
+            continue
         return name
     return None
 
@@ -521,6 +528,7 @@ def main() -> int:
     ap.add_argument("corpus", type=Path)
     ap.add_argument("--slice", action="append", choices=SLICES, required=True, dest="slices")
     ap.add_argument("--books", help="comma list of publication ids (first book of source_ids)")
+    ap.add_argument("--books-range", help="FROM:TO, both inclusive, compared with the first source_ids book")
     ap.add_argument("--candidates", type=Path)
     ap.add_argument("--print-pages", type=Path, help=f"pages read in print (default {PRINT_DEFAULT})")
     ap.add_argument("--review", type=Path, help=f"review queue (default {REVIEW_DEFAULT})")
@@ -537,6 +545,7 @@ def main() -> int:
     review_path = opts.review or root / REVIEW_DEFAULT
     slices = set(opts.slices)
     books = set(opts.books.split(",")) if opts.books else None
+    book_range = tuple(opts.books_range.split(":", 1)) if opts.books_range else None
     titles, by_title = load_publications(root)
     entries = load_entries(root)
     by_id = {e.id: e for e in entries}
@@ -553,7 +562,7 @@ def main() -> int:
     touched: set[str] = set()
     added_pages: list[tuple[str, str, str]] = []
     for entry in entries:
-        slice_name = selected(entry, slices, books)
+        slice_name = selected(entry, slices, books, book_range)
         if slice_name is None:
             continue
         touched.add(entry.id)
