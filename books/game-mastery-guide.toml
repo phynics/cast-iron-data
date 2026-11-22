@@ -1951,48 +1951,48 @@ title = "Drugs"
 entry = "ref/rule/drugs"
 
 [[books.chapters.children.children.children]]
+title = "AEther"
+entry = "ref/drug/aether"
+
+[[books.chapters.children.children.children]]
+title = "Dwarven Fire Ale"
+entry = "ref/drug/dwarven-fire-ale"
+
+[[books.chapters.children.children.children]]
+title = "Elven Absinthe"
+entry = "ref/drug/elven-absinthe"
+
+[[books.chapters.children.children.children]]
+title = "Flayleaf"
+entry = "ref/drug/flayleaf"
+
+[[books.chapters.children.children.children]]
+title = "Opium"
+entry = "ref/drug/opium"
+
+[[books.chapters.children.children.children]]
+title = "Pesh"
+entry = "ref/drug/pesh"
+
+[[books.chapters.children.children.children]]
 title = "Sample Drugs"
 entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs"
 
-[[books.chapters.children.children]]
-title = "Aether"
-entry = "ref/drug/aether"
+[[books.chapters.children.children.children]]
+title = "Scour"
+entry = "ref/drug/scour"
+
+[[books.chapters.children.children.children]]
+title = "Shiver"
+entry = "ref/drug/shiver"
+
+[[books.chapters.children.children.children]]
+title = "Zerk"
+entry = "ref/drug/zerk"
 
 [[books.chapters.children.children]]
 title = "Drunkenness"
 entry = "ref/rule/drunkenness"
-
-[[books.chapters.children.children]]
-title = "Dwarven Fire Ale"
-entry = "ref/drug/dwarven-fire-ale"
-
-[[books.chapters.children.children]]
-title = "Elven Absinthe"
-entry = "ref/drug/elven-absinthe"
-
-[[books.chapters.children.children]]
-title = "Flayleaf"
-entry = "ref/drug/flayleaf"
-
-[[books.chapters.children.children]]
-title = "Opium"
-entry = "ref/drug/opium"
-
-[[books.chapters.children.children]]
-title = "Pesh"
-entry = "ref/drug/pesh"
-
-[[books.chapters.children.children]]
-title = "Scour"
-entry = "ref/drug/scour"
-
-[[books.chapters.children.children]]
-title = "Shiver"
-entry = "ref/drug/shiver"
-
-[[books.chapters.children.children]]
-title = "Zerk"
-entry = "ref/drug/zerk"
 
 [[books.chapters.children]]
 title = "Fortune-Telling"

@@ -3,7 +3,7 @@
 
 The Pf Data folders `skill`, `trap`, `disease`, `drug`, `madness` and `curse` were imported as
 `kind = "rule"`, so the Skills, Traps and Afflictions lists held only the carried entries and many
-rules existed twice. Two passes fix that. A pass changes no `id` and moves no file.
+rules existed twice. Four passes fix that, in this order. A pass changes no `id` and moves no file.
 
   kinds       Sets the kind of every entry of the six folders:
 
@@ -22,12 +22,16 @@ rules existed twice. Two passes fix that. A pass changes no `id` and moves no fi
               `Optional Background Skill`), and every other `**Name**` / `**Details:** text` pair
               (the rank unlocks, the survival items) becomes `**Name:** text`.
               Folders that stay as they are, each with a reason in the review file:
-                haunt     stays `rule`. The GameMastery Guide (p. 242) says "Although haunts function
-                          like traps" and that "the distinction between a trap and an undead
+                haunt     stays `rule` (owner decision of 2026-11-22; a Haunts list follows in
+                          phynics/cast-iron#618). The GameMastery Guide (p. 242) says "Although haunts
+                          function like traps" and that "the distinction between a trap and an undead
                           creature blurs" with a haunt: it does not say a haunt is a kind of trap.
-                          Set `HAUNT_KIND` to `trap` when the owner decides otherwise.
+                          Set `HAUNT_KIND` to `trap` to change all of them.
                 template  stays `rule` (issue).
                 eq-poison stays `item` (issue).
+
+  print-fixes Corrects a kept entry to print where a pair differed in a number (`PRINT_FIXES`, each
+              with its book and page), so that the duplicates pass can alias the pair.
 
   duplicates  Finds a carried entry (`ref/carried/...`, kind skill, trap or affliction) that prints
               the same rule as an imported entry: the same title, and the same book, or a book
@@ -38,8 +42,12 @@ rules existed twice. Two passes fix that. A pass changes no `id` and moves no fi
                 * the imported entry holds every fact of the carried one: keep the imported entry;
                 * only the carried entry holds every fact of the imported one: keep the carried one;
                 * neither does: keep both and list the pair (`hold`).
-              A fact is a paragraph or a stat block row, compared by its words. The abbreviations
-              `Dex` and `Dexterity` count as one word. Merged into the kept entry:
+              A fact is a paragraph or a stat block row, compared by its words and by its numbers.
+              The abbreviations `Dex` and `Dexterity` count as one word. The digits and dice
+              expressions of a fact (`1d4`, `17`, `3000`; `one` counts as `1`) must all be in the
+              other entry's fact that shares most of its words (any fact of the entry for a long
+              paragraph or a table row with a footnote), so `1 Cha damage` against `Charisma damage
+              1d4` is a difference. The word test alone said both held every word. Merged into the kept entry:
                 * the `source_ids` and the `[[sources]]` pages of the dropped entry;
                 * the italic opening line of a carried skill, and a `Reset: none` row of a carried
                   trap that the imported trap leaves out.
@@ -49,16 +57,25 @@ rules existed twice. Two passes fix that. A pass changes no `id` and moves no fi
                   and every row that targeted the dropped id now targets the kept id (a target may
                   not be an old id);
                 * `exclusions.toml`: a `[[rejected]]` row, `duplicate of <kept id>`;
-                * every body link, `target`, `parent` and book node that named the dropped id names
-                  the kept id (a link anchor that the kept entry lacks is dropped and listed). When the
-                  kept entry already has a node in the same curated book, the dropped leaf node goes.
-              Poisons (`eq-poison` items against carried afflictions) and the item twins of drugs
-              are not decided here: an item is bought, an affliction is a rule, and the issue does
-              not say which one a pair keeps. They are listed as `hold` with the counts.
+                * every body link, `target` and `parent` that named the dropped id names the kept id
+                  (a link anchor that the kept entry lacks is dropped and listed); the book node of the
+                  dropped id moves to the kept id. When the kept entry already has a node in the same
+                  curated book, the shallower leaf node goes (the deeper one follows the printed
+                  headings, as the sample drugs under `Drugs`), and a tie removes the dropped one.
+              Not aliased, and listed as `hold`, `poison`, `item-twin` or `variant` (owner decision of
+              2026-11-22; search will prefer the latest printing, phynics/cast-iron#619): the
+              poisons (`eq-poison` items against carried afflictions) and the drug item twins; the
+              pairs that hold text on both sides, and those whose titles differ (`TITLE_HOLDS`),
+              which phynics/cast-iron-data#193 merges by hand; and the creature variants.
+
+  skill-rows  Sets `Trained Only` and `Armor Check Penalty` of the six carried skills that keep
+              their own entry (Craft, Handle Animal, Knowledge, Linguistics, Perform, Profession) to
+              the value of the imported twin, which agrees with Table 4-3 of the Core Rulebook
+              (p. 88). The carried stat blocks said `Yes` for both rows of every skill.
 
 `scripts/kind-skills-traps-afflictions-review-167.tsv` lists every kind change, every duplicate pair
-(both ids, the kept one, the reason), every merge, and every entry left as it is. `--write` adds its
-rows to the file and never removes one, so a rerun after a crash keeps the earlier rows.
+(both ids, the kept one, the reason), every merge, and every entry left as it is. Templates and poisons
+have one row each (`keep-rule`, `keep-item`). `--write` adds its rows to the file and never removes one, so a rerun after a crash keeps the earlier rows.
 
 Usage, from the corpus root:
 
@@ -68,7 +85,7 @@ Usage, from the corpus root:
     python3 -I scripts/kind-skills-traps-afflictions-167.py --check     exit 1 if a pass has work left
     python3 -I scripts/kind-skills-traps-afflictions-167.py --self-test
 
-`--pass` is `kinds`, `duplicates`, or both (the default). After `--write` run
+`--pass` names passes (`kinds,print-fixes,duplicates,skill-rows`; all by default). After `--write` run
 `cargo xtask corpus-fmt <dir>` and `cargo xtask corpus-check <dir>` (phynics/cast-iron), then the content
 compile with the `--published` id list, so that a lost id fails.
 """
@@ -88,7 +105,7 @@ from pathlib import Path
 FRONT = re.compile(r"\A\+\+\+\n(.*?)\n\+\+\+\n", re.S)
 REVIEW = "scripts/kind-skills-traps-afflictions-review-167.tsv"
 COLUMNS = ("entry_id", "action", "kind_before", "kind_after", "tag", "other_id", "citation", "reason")
-PASSES = ("kinds", "duplicates")
+PASSES = ("kinds", "print-fixes", "duplicates", "skill-rows")
 
 # Folder -> (new kind, how the tag is found). `None` as the tag source: no tag.
 FOLDERS: dict[str, tuple[str, str | None]] = {
@@ -101,12 +118,68 @@ FOLDERS: dict[str, tuple[str, str | None]] = {
 }
 # The six words of AFFLICTION_TYPES in phynics/cast-iron `crates/corpus/src/check.rs`.
 AFFLICTION_TYPES = ("addiction", "curse", "disease", "infestation", "insanity", "poison")
-# The owner may decide that haunts are traps. Until then they stay `rule` (see the docstring).
+# Owner decision of 2026-11-22 (data #167): haunts stay `rule`; a Haunts list follows in
+# phynics/cast-iron#618. Set `HAUNT_KIND` to `trap` to change all of them.
 HAUNT_KIND = None
 HAUNT_REASON = (
-    "stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction "
-    "between a trap and an undead creature blurs; it does not say a haunt is a kind of trap"
+    "stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): "
+    "GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap "
+    "and an undead creature blurs; it does not say a haunt is a kind of trap"
 )
+# Folders that stay as they are (issue #167): a row per entry in the review file.
+STAYS = {
+    "template": ("keep-rule", "stays `rule` (issue #167)"),
+    "eq-poison": ("keep-item", "stays `item`: poisons are bought (issue #167)"),
+}
+OWNER_KEEP = (
+    "owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest "
+    "printing (phynics/cast-iron#619)"
+)
+FOLLOW_UP = "phynics/cast-iron-data#193"
+# Pairs that the title match cannot see, or that cannot be aliased (a carried entry that two imported
+# entries share): `(imported id, carried id, reason)`.
+SKILLS = "ref/carried/core-rulebook/skills/"
+MADNESS = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/"
+TITLE_HOLDS = (
+    ("ref/skill/craft-any", SKILLS + "craft", "titles differ (`Craft (any)`, `Craft`)"),
+    ("ref/skill/perform-any", SKILLS + "perform", "titles differ (`Perform (any)`, `Perform`)"),
+    ("ref/skill/profession-any", SKILLS + "profession", "titles differ (`Profession (any)`, `Profession`)"),
+    ("ref/madness/mania", MADNESS + "mania-phobia", "the carried `Mania/Phobia` text sits in two imported entries (Mania, Phobia)"),
+    ("ref/madness/phobia", MADNESS + "mania-phobia", "the carried `Mania/Phobia` text sits in two imported entries (Mania, Phobia)"),
+    ("ref/madness/moral-insanity", MADNESS + "psychosis", "titles differ (`Moral Insanity`, `Psychosis`); the imported entry holds the text"),
+    ("ref/madness/paranoid", MADNESS + "paranoia", "titles differ (`Paranoid`, `Paranoia`); the imported entry holds the text"),
+    ("ref/madness/dissociated-identity", MADNESS + "multiple-personality-disorder", "titles differ (`Dissociated Identity`, `Multiple Personality Disorder`); the imported entry holds the text"),
+)
+# Corrections of a kept entry to print: `(id, old text, new text, citation, reason)`. The pairs below
+# differed in a number from the carried entry, which the 15 percent word test could not see.
+PRINT_FIXES = (
+    (
+        "ref/disease/bubonic-plague",
+        "Charisma damage 1d4, and target is fatigued",
+        "Charisma damage 1, and target is fatigued",
+        "Core Rulebook p. 557",
+        "prints `Effect 1d4 Con damage and 1 Cha damage and target is fatigued`; the imported text said 1d4 Charisma damage",
+    ),
+    (
+        "ref/drug/elven-absinthe",
+        "**Effect:** 1 hour; +1d4 Cha damage",
+        "**Effect:** 1 hour; +1d4 Cha",
+        "GameMastery Guide p. 237",
+        "prints `Effects 1 hour; +1d4 Cha` and a separate `Damage 1d4 Con damage`; the imported text added `damage` to the bonus",
+    ),
+)
+# The carried skill stat blocks said `Trained Only: Yes` and `Armor Check Penalty: Yes` for every skill.
+# These six have no alias; their rows follow the imported twin, which follows Table 4-3 of the Core
+# Rulebook (p. 88): `Untrained No` is `Trained Only: Yes`, and only `*` skills take the penalty.
+SKILL_TWINS = (
+    (SKILLS + "craft", "ref/skill/craft-any"),
+    (SKILLS + "handle-animal", "ref/skill/handle-animal"),
+    (SKILLS + "knowledge", "ref/skill/knowledge-all"),
+    (SKILLS + "linguistics", "ref/skill/linguistics"),
+    (SKILLS + "perform", "ref/skill/perform-any"),
+    (SKILLS + "profession", "ref/skill/profession-any"),
+)
+SKILL_ROW_LABELS = ("Trained Only", "Armor Check Penalty")
 # What the kept entry is, per kind of the imported folder.
 PAIR_KIND = {
     "skill": "skill",
@@ -177,6 +250,8 @@ class Plan:
     keeps: list[tuple[Entry, str, str]] = field(default_factory=list)
     pairs: list["Pair"] = field(default_factory=list)
     holds: list[tuple[str, str, str, str]] = field(default_factory=list)
+    fixes: list[tuple[Entry, str, str, str, str]] = field(default_factory=list)
+    row_fixes: list[tuple[Entry, list[tuple[str, str, str]], str]] = field(default_factory=list)
     rows: list[dict] = field(default_factory=list)
 
 
@@ -275,10 +350,30 @@ def facts(body: str) -> list[str]:
     return [fact for fact in out if tokens(fact)]
 
 
+NUMBER_WORDS = {
+    word: str(n)
+    for n, word in enumerate("one two three four five six seven eight nine ten eleven twelve".split(), 1)
+}
+NUMBER = re.compile(r"\d+d\d+|\d[\d,]*(?:\.\d+)?")
+
+
+def numbers(text: str) -> collections.Counter:
+    """The digits and dice expressions of a fact, as a multiset (`1d4`, `17`, `3000`)."""
+    text = re.sub(r"\^\d+\^", " ", text.lower())
+    text = re.sub(r"\b(" + "|".join(NUMBER_WORDS) + r")\b", lambda m: NUMBER_WORDS[m.group(1)], text)
+    return collections.Counter(n.replace(",", "") for n in NUMBER.findall(text))
+
+
 def uncovered(source: Entry, target: Entry) -> list[str]:
-    """The facts of `source` that `target` does not hold: over 15 percent of a fact's words missing."""
+    """The facts of `source` that `target` does not hold.
+
+    A fact is lost when over 15 percent of its words are missing from the target, or when the target
+    fact that shares most of its words has other digits or dice expressions: `1 Cha damage` against
+    `Charisma damage 1d4` has every word and a different number.
+    """
     # `none` is a row value that `missing_none_rows` copies over, so it is no fact that can be lost.
     have = set(tokens(target.body)) | LABEL_WORDS | {"none"}
+    target_facts = [(set(tokens(f)), numbers(f)) for f in facts(target.body)]
     out = []
     for fact in facts(source.body):
         words = [word for word in tokens(fact) if word not in LABEL_WORDS]
@@ -287,6 +382,23 @@ def uncovered(source: Entry, target: Entry) -> list[str]:
         missing = [word for word in words if word not in have]
         if missing and len(missing) / len(words) > 0.15:
             out.append(fact.replace("\n", " ")[:90])
+            continue
+        # A table footnote marker (`2 Apply only the largest modifier`) is no number of the rule.
+        wanted = numbers(re.sub(r"^\d (?=[A-Z])", "", fact))
+        if not wanted:
+            continue
+        shared = set(words)
+        ranked = sorted(target_facts, key=lambda t: -len(shared & t[0]))
+        # A short fact (a stat block row) must match the one target fact it shares most words with.
+        # A long paragraph or a table row with its footnote can be cut differently in the other
+        # entry, so its numbers need only be somewhere in that entry.
+        footnoted = "\\*" in fact or re.search(r"\^\d+\^", fact) is not None
+        near = ranked[:1] if len(words) <= 25 and not footnoted else ranked
+        have_numbers: collections.Counter = collections.Counter()
+        for _words, counted in near:
+            have_numbers |= counted
+        if near and len(shared & near[0][0]) and wanted - have_numbers:
+            out.append("numbers differ: " + fact.replace("\n", " ")[:80])
     return out
 
 
@@ -369,7 +481,10 @@ def add_source_rows(head: str, rows: list[tuple[str, str | None]]) -> str:
 def plan_kinds(entries: dict[str, Entry], titles: dict[str, str], plan: Plan) -> None:
     for entry in entries.values():
         folder = entry.folder
-        if entry.id.startswith("ref/carried/") or folder not in set(FOLDERS) | {"haunt"}:
+        if entry.id.startswith("ref/carried/") or folder not in set(FOLDERS) | {"haunt"} | set(STAYS):
+            continue
+        if folder in STAYS:
+            plan.keeps.append((entry, *STAYS[folder]))
             continue
         if folder == "haunt":
             if HAUNT_KIND is None:
@@ -427,11 +542,11 @@ def plan_duplicates(entries: dict[str, Entry], titles: dict[str, str], plan: Pla
             twin = folder == "drug" and other.kind == "item" and set(other.source_ids) & set(entry.source_ids)
             if folder in HOLD_FOLDERS and carried and set(other.source_ids) & set(entry.source_ids):
                 plan.holds.append(
-                    (entry.id, other.id, "poison", "owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one")
+                    (entry.id, other.id, "poison", OWNER_KEEP + "; the item is bought, the affliction is a rule")
                 )
                 continue
             if twin:
-                plan.holds.append((entry.id, other.id, "item-twin", "an item is bought: the pair keeps both until the owner decides"))
+                plan.holds.append((entry.id, other.id, "item-twin", OWNER_KEEP + "; an item is bought"))
                 continue
             variant = (
                 folder in PAIR_KIND
@@ -473,13 +588,15 @@ def plan_duplicates(entries: dict[str, Entry], titles: dict[str, str], plan: Pla
                             entry.id,
                             other.id,
                             "hold",
-                            f"each holds text the other lacks: {len(forward)} fact(s) only in the carried entry (for example {forward[0]!r}), {len(backward)} only in the imported one",
+                            f"each holds text the other lacks: {len(forward)} fact(s) only in the carried entry (for example {forward[0]!r}), {len(backward)} only in the imported one"
+                            + (f"; owner decision of 2026-11-22: two entries for now, merged by hand in {FOLLOW_UP}" if folder == "skill" else ""),
                         )
                     )
                     continue
             pair = Pair(kept=keep, dropped=drop, reason=why)
             if folder == "skill" and keep is entry:
-                pair.intro = intro_line(drop)
+                line = intro_line(drop)
+                pair.intro = line if line and line not in keep.body else None
             pair.none_rows = missing_none_rows(drop, keep)
             kept_ids = set(keep.source_ids)
             for publication in drop.source_ids:
@@ -491,6 +608,12 @@ def plan_duplicates(entries: dict[str, Entry], titles: dict[str, str], plan: Pla
                 ) and row.get("page"):
                     pair.new_sources.append((row["publication"], row["page"]))
             plan.pairs.append(pair)
+    # A hold names the entry that stays, not the one that an alias replaces.
+    moved = {pair.dropped.id: pair.kept.id for pair in plan.pairs}
+    plan.holds = [(moved.get(a, a), moved.get(b, b), act, why) for a, b, act, why in plan.holds]
+    for imported_id, carried_id, why in TITLE_HOLDS:
+        if imported_id in entries and carried_id in entries:
+            plan.holds.append((imported_id, carried_id, "hold", f"{why}; merged by hand in {FOLLOW_UP}"))
 
 
 def simulate(entry: Entry) -> Entry:
@@ -531,6 +654,33 @@ def missing_none_rows(dropped: Entry, kept: Entry) -> list[str]:
     return out
 
 
+def plan_print_fixes(entries: dict[str, Entry], plan: Plan) -> None:
+    for entry_id, old, new, cite, why in PRINT_FIXES:
+        entry = entries.get(entry_id)
+        if entry is not None and old in entry.text:
+            plan.fixes.append((entry, old, new, cite, why))
+
+
+def statblock_row(body: str, label: str) -> str | None:
+    match = re.search(rf"(?m)^{re.escape(label)}: (.*)$", body)
+    return match.group(1).strip() if match else None
+
+
+def plan_skill_rows(entries: dict[str, Entry], titles: dict[str, str], plan: Plan) -> None:
+    for carried_id, twin_id in SKILL_TWINS:
+        carried, twin = entries.get(carried_id), entries.get(twin_id)
+        if carried is None or twin is None:
+            continue
+        twin_body = simulate(twin).body
+        rows = []
+        for label in SKILL_ROW_LABELS:
+            old, new = statblock_row(carried.body, label), statblock_row(twin_body, label)
+            if old is not None and new is not None and old != new:
+                rows.append((label, old, new))
+        if rows:
+            plan.row_fixes.append((carried, rows, citation(twin, titles)))
+
+
 # ---------------------------------------------------------------- applying
 
 
@@ -548,6 +698,14 @@ def apply_kinds(plan: Plan, entries: dict[str, Entry]) -> None:
                 raise SystemExit(f"{entry.id}: the skill labels are not in the expected form")
             rest = lead + body
         entry.text = head + rest
+
+
+def apply_fixes(plan: Plan) -> None:
+    for entry, old, new, _cite, _why in plan.fixes:
+        entry.text = entry.text.replace(old, new, 1)
+    for entry, rows, _cite in plan.row_fixes:
+        for label, old, new in rows:
+            entry.text = entry.text.replace(f"\n{label}: {old}\n", f"\n{label}: {new}\n", 1)
 
 
 def rewrite_references(root: Path, plan: Plan, entries: dict[str, Entry]) -> list[tuple[str, str, str]]:
@@ -600,35 +758,47 @@ def path_id(path: Path) -> str:
     return "ref/" + "/".join(parts[parts.index("entries") + 1 :])[: -len(".md")]
 
 
-def retarget_books(root: Path, plan: Plan) -> list[tuple[str, str]]:
-    """Moves the book node of a dropped entry to the kept entry, or removes the dropped leaf node when
-    the kept entry already has a node in the same book. Returns `(book, dropped id)` for removed nodes."""
-    removed: list[tuple[str, str]] = []
+def node_depth(block: str) -> int:
+    return block.splitlines()[0].count("children")
+
+
+def is_leaf(blocks: list[str], index: int) -> bool:
+    header = blocks[index].splitlines()[0]
+    later = next((b for b in blocks[index + 1 :] if b), "")
+    return not later.startswith(header[:-2] + ".children]]")
+
+
+def retarget_books(root: Path, plan: Plan) -> list[tuple[str, str, str]]:
+    """Moves the book node of a dropped entry to the kept entry. When the kept entry already has a node
+    in the same book, the shallower leaf node goes and the deeper one stays (the deeper one follows the
+    printed headings, such as the sample drugs under `Drugs`); a tie removes the dropped entry's node.
+    Returns `(book, removed node's entry id, reason)`."""
+    removed: list[tuple[str, str, str]] = []
     for book in sorted((root / "books").glob("*.toml")):
         text = book.read_text(encoding="utf-8")
-        blocks = re.split(r"(?m)^(?=\[\[books\.chapters)", text)
         changed = False
         for pair in plan.pairs:
             dropped, kept = pair.dropped.id, pair.kept.id
-            if f'entry = "{dropped}"' not in text:
-                continue
-            kept_here = f'entry = "{kept}"' in "".join(blocks)
-            for index, block in enumerate(blocks):
-                if f'entry = "{dropped}"\n' not in block + "\n":
-                    continue
-                if not kept_here:
-                    blocks[index] = block.replace(f'entry = "{dropped}"', f'entry = "{kept}"')
-                else:
-                    header = block.splitlines()[0]
-                    nxt = blocks[index + 1].splitlines()[0] if index + 1 < len(blocks) else ""
-                    child = header[:-2] + ".children]]"
-                    if nxt.startswith(child):
-                        raise SystemExit(f"{book.name}: the node of {dropped} has children and {kept} is placed")
-                    blocks[index] = ""
-                    removed.append((book.stem, dropped))
-                changed = True
-            text = "".join(blocks)
             blocks = re.split(r"(?m)^(?=\[\[books\.chapters)", text)
+            at = next((i for i, b in enumerate(blocks) if f'entry = "{dropped}"\n' in b + "\n"), None)
+            if at is None:
+                continue
+            other = next((i for i, b in enumerate(blocks) if f'entry = "{kept}"\n' in b + "\n"), None)
+            if other is None:
+                blocks[at] = blocks[at].replace(f'entry = "{dropped}"', f'entry = "{kept}"')
+            elif node_depth(blocks[at]) > node_depth(blocks[other]):
+                if not is_leaf(blocks, other):
+                    raise SystemExit(f"{book.name}: the node of {kept} has children")
+                blocks[at] = blocks[at].replace(f'entry = "{dropped}"', f'entry = "{kept}"')
+                blocks[other] = ""
+                removed.append((book.stem, kept, "its shallower node goes: the node of the dropped entry is deeper and moves to it"))
+            else:
+                if not is_leaf(blocks, at):
+                    raise SystemExit(f"{book.name}: the node of {dropped} has children and {kept} is placed")
+                blocks[at] = ""
+                removed.append((book.stem, dropped, "the kept entry already has a node in this book"))
+            text = "".join(blocks)
+            changed = True
         if changed:
             book.write_text(text, encoding="utf-8")
     return removed
@@ -644,7 +814,7 @@ def apply_pair_merges(plan: Plan) -> None:
         if pair.new_sources:
             head = add_source_rows(head, pair.new_sources)
         body = rest
-        if pair.intro:
+        if pair.intro and pair.intro not in body:
             body = re.sub(r"(?s)(\A\s*::: statblock\n.*?\n:::\n\n)", lambda m: m.group(1) + pair.intro + "\n\n", body, count=1)
         for label in pair.none_rows:
             body = body.rstrip("\n") + f"\n\n**{label}:** none\n"
@@ -732,6 +902,15 @@ def review_rows(plan: Plan, titles: dict[str, str]) -> list[dict]:
             rows.append(
                 dict(entry_id=pair.kept.id, action="merge", kind_before=pair.kept.kind, kind_after="", tag="", other_id=pair.dropped.id, citation="", reason="merged from the dropped entry: " + "; ".join(notes))
             )
+    for entry, old, new, cite, why in plan.fixes:
+        rows.append(
+            dict(entry_id=entry.id, action="print-fix", kind_before=entry.kind, kind_after="", tag="", other_id="", citation=cite, reason=f"{old!r} became {new!r}: print {why}")
+        )
+    for entry, fixed, cite in plan.row_fixes:
+        for label, old, new in fixed:
+            rows.append(
+                dict(entry_id=entry.id, action="row-fix", kind_before=entry.kind, kind_after="", tag="", other_id="", citation="Core Rulebook p. 88", reason=f"`{label}: {old}` became `{label}: {new}`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill")
+            )
     for first, second, action, reason in plan.holds:
         rows.append(
             dict(entry_id=first, action=action, kind_before="", kind_after="", tag="", other_id=second, citation="", reason=reason)
@@ -764,8 +943,12 @@ def make_plan(root: Path, selected: tuple[str, ...]) -> tuple[Plan, dict[str, En
     plan = Plan()
     if "kinds" in selected:
         plan_kinds(entries, titles, plan)
+    if "print-fixes" in selected:
+        plan_print_fixes(entries, plan)
     if "duplicates" in selected:
         plan_duplicates(entries, titles, plan)
+    if "skill-rows" in selected:
+        plan_skill_rows(entries, titles, plan)
     return plan, entries, titles
 
 
@@ -812,7 +995,7 @@ def main(argv: list[str]) -> int:
         parser.error(f"unknown pass: {', '.join(sorted(unknown))}")
     root = Path(args.root)
     plan, entries, titles = make_plan(root, selected)
-    pending = len(plan.kind_changes) + len(plan.pairs)
+    pending = len(plan.kind_changes) + len(plan.pairs) + len(plan.fixes) + len(plan.row_fixes)
     if args.check:
         survey(plan, entries, selected)
         print(f"\npending: {pending}")
@@ -824,36 +1007,41 @@ def main(argv: list[str]) -> int:
         for first, second, action, reason in plan.holds:
             print(f"  {action:<9} {first} | {second}: {reason}")
         return 0
-    write_review(root, review_rows(plan, titles))
-    apply_kinds(plan, entries)
-    for entry in entries.values():
-        if entry.text != entry.path.read_text(encoding="utf-8"):
-            entry.path.write_text(entry.text, encoding="utf-8")
-    if plan.pairs:
-        # Order: the new ids first, so a crash leaves every old id resolving; the files go last.
-        alias_file(root, plan)
-        exclusions_file(root, plan)
-        # Reload, because the kinds pass wrote entries; then merge, retarget and delete.
-        entries = load_entries(root)
-        plan, entries, titles = make_plan(root, ("duplicates",))
-        anchors = rewrite_references(root, plan, entries)
-        apply_pair_merges(plan)
+    wrote = collections.Counter()
+    for name in PASSES:
+        if name not in selected:
+            continue
+        plan, entries, titles = make_plan(root, (name,))
+        write_review(root, review_rows(plan, titles))
+        wrote["kind changes"] += len(plan.kind_changes)
+        wrote["print fixes"] += len(plan.fixes)
+        wrote["skill row fixes"] += len(plan.row_fixes)
+        wrote["aliases"] += len(plan.pairs)
+        apply_kinds(plan, entries)
+        apply_fixes(plan)
+        if plan.pairs:
+            # Order: the new ids first, so a crash leaves every old id resolving; the files go last.
+            alias_file(root, plan)
+            exclusions_file(root, plan)
+            anchors = rewrite_references(root, plan, entries)
+            apply_pair_merges(plan)
         for entry in entries.values():
             if entry.text != entry.path.read_text(encoding="utf-8"):
                 entry.path.write_text(entry.text, encoding="utf-8")
-        removed = retarget_books(root, plan)
-        extra = [
-            dict(entry_id=path, action="link-anchor-dropped", kind_before="", kind_after="", tag="", other_id=dropped, citation="", reason=f"the kept entry has no heading {anchor}")
-            for path, dropped, anchor in anchors
-        ] + [
-            dict(entry_id=dropped, action="book-node-removed", kind_before="", kind_after="", tag="", other_id=book, citation="", reason="the kept entry already has a node in this book")
-            for book, dropped in removed
-        ]
-        if extra:
-            write_review(root, extra)
-        for pair in plan.pairs:
-            pair.dropped.path.unlink()
-    print(f"wrote {len(plan.kind_changes)} kind changes and {len(plan.pairs)} aliases; run corpus-fmt next")
+        if plan.pairs:
+            removed = retarget_books(root, plan)
+            extra = [
+                dict(entry_id=path, action="link-anchor-dropped", kind_before="", kind_after="", tag="", other_id=dropped, citation="", reason=f"the kept entry has no heading {anchor}")
+                for path, dropped, anchor in anchors
+            ] + [
+                dict(entry_id=node, action="book-node-removed", kind_before="", kind_after="", tag="", other_id=book, citation="", reason=why)
+                for book, node, why in removed
+            ]
+            if extra:
+                write_review(root, extra)
+            for pair in plan.pairs:
+                pair.dropped.path.unlink()
+    print("wrote " + ", ".join(f"{n} {what}" for what, n in wrote.items()) + "; run corpus-fmt next")
     return 0
 
 
