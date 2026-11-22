@@ -25,6 +25,10 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at riding mounts, usually a horse, but possibly something more exotic, like a
+griffon or pegasus. If you attempt to ride a creature that is ill suited as a mount, you take a –5
+penalty on your Ride checks._
+
 ### Check
 
 Typical riding actions don't require checks. You can saddle, mount, ride, and dismount from a mount

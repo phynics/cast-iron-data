@@ -611,19 +611,19 @@ entry = "ref/rule/skill-descriptions"
 
 [[books.chapters.children]]
 title = "Acrobatics"
-entry = "ref/carried/core-rulebook/skills/acrobatics"
+entry = "ref/skill/acrobatics"
 
 [[books.chapters.children]]
 title = "Appraise"
-entry = "ref/carried/core-rulebook/skills/appraise"
+entry = "ref/skill/appraise"
 
 [[books.chapters.children]]
 title = "Bluff"
-entry = "ref/carried/core-rulebook/skills/bluff"
+entry = "ref/skill/bluff"
 
 [[books.chapters.children]]
 title = "Climb"
-entry = "ref/carried/core-rulebook/skills/climb"
+entry = "ref/skill/climb"
 
 [[books.chapters.children]]
 title = "Craft"
@@ -631,23 +631,23 @@ entry = "ref/carried/core-rulebook/skills/craft"
 
 [[books.chapters.children]]
 title = "Diplomacy"
-entry = "ref/carried/core-rulebook/skills/diplomacy"
+entry = "ref/skill/diplomacy"
 
 [[books.chapters.children]]
 title = "Disable Device"
-entry = "ref/carried/core-rulebook/skills/disable-device"
+entry = "ref/skill/disable-device"
 
 [[books.chapters.children]]
 title = "Disguise"
-entry = "ref/carried/core-rulebook/skills/disguise"
+entry = "ref/skill/disguise"
 
 [[books.chapters.children]]
 title = "Escape Artist"
-entry = "ref/carried/core-rulebook/skills/escape-artist"
+entry = "ref/skill/escape-artist"
 
 [[books.chapters.children]]
 title = "Fly"
-entry = "ref/carried/core-rulebook/skills/fly"
+entry = "ref/skill/fly"
 
 [[books.chapters.children]]
 title = "Handle Animal"
@@ -655,11 +655,11 @@ entry = "ref/carried/core-rulebook/skills/handle-animal"
 
 [[books.chapters.children]]
 title = "Heal"
-entry = "ref/carried/core-rulebook/skills/heal"
+entry = "ref/skill/heal"
 
 [[books.chapters.children]]
 title = "Intimidate"
-entry = "ref/carried/core-rulebook/skills/intimidate"
+entry = "ref/skill/intimidate"
 
 [[books.chapters.children]]
 title = "Knowledge"
@@ -671,7 +671,7 @@ entry = "ref/carried/core-rulebook/skills/linguistics"
 
 [[books.chapters.children]]
 title = "Perception"
-entry = "ref/carried/core-rulebook/skills/perception"
+entry = "ref/skill/perception"
 
 [[books.chapters.children]]
 title = "Perform"
@@ -683,35 +683,35 @@ entry = "ref/carried/core-rulebook/skills/profession"
 
 [[books.chapters.children]]
 title = "Ride"
-entry = "ref/carried/core-rulebook/skills/ride"
+entry = "ref/skill/ride"
 
 [[books.chapters.children]]
 title = "Sense Motive"
-entry = "ref/carried/core-rulebook/skills/sense-motive"
+entry = "ref/skill/sense-motive"
 
 [[books.chapters.children]]
 title = "Sleight of Hand"
-entry = "ref/carried/core-rulebook/skills/sleight-of-hand"
+entry = "ref/skill/sleight-of-hand"
 
 [[books.chapters.children]]
 title = "Spellcraft"
-entry = "ref/carried/core-rulebook/skills/spellcraft"
+entry = "ref/skill/spellcraft"
 
 [[books.chapters.children]]
 title = "Stealth"
-entry = "ref/carried/core-rulebook/skills/stealth"
+entry = "ref/skill/stealth"
 
 [[books.chapters.children]]
 title = "Survival"
-entry = "ref/carried/core-rulebook/skills/survival"
+entry = "ref/skill/survival"
 
 [[books.chapters.children]]
 title = "Swim"
-entry = "ref/carried/core-rulebook/skills/swim"
+entry = "ref/skill/swim"
 
 [[books.chapters.children]]
 title = "Use Magic Device"
-entry = "ref/carried/core-rulebook/skills/use-magic-device"
+entry = "ref/skill/use-magic-device"
 
 [[books.chapters]]
 title = "Feats"
@@ -5441,135 +5441,135 @@ entry = "ref/rule/sample-traps"
 
 [[books.chapters.children.children]]
 title = "Arrow Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap"
+entry = "ref/trap/arrow-trap"
 
 [[books.chapters.children.children]]
 title = "Pit Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap"
+entry = "ref/trap/pit-trap"
 
 [[books.chapters.children.children]]
 title = "Poisoned Dart Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap"
+entry = "ref/trap/poisoned-dart-trap"
 
 [[books.chapters.children.children]]
 title = "Swinging Axe Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap"
+entry = "ref/trap/swinging-axe-trap"
 
 [[books.chapters.children.children]]
 title = "Burning Hands Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap"
+entry = "ref/trap/burning-hands-trap"
 
 [[books.chapters.children.children]]
 title = "Javelin Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap"
+entry = "ref/trap/javelin-trap"
 
 [[books.chapters.children.children]]
 title = "Spiked Pit Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap"
+entry = "ref/trap/spiked-pit-trap"
 
 [[books.chapters.children.children]]
 title = "Acid Arrow Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap"
+entry = "ref/trap/acid-arrow-trap"
 
 [[books.chapters.children.children]]
 title = "Camouflaged Pit Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap"
+entry = "ref/trap/camouflaged-pit-trap"
 
 [[books.chapters.children.children]]
 title = "Electricity Arc Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap"
+entry = "ref/trap/electricity-arc-trap"
 
 [[books.chapters.children.children]]
 title = "Wall Scythe Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap"
+entry = "ref/trap/wall-scythe-trap"
 
 [[books.chapters.children.children]]
 title = "Falling Block Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap"
+entry = "ref/trap/falling-block-trap"
 
 [[books.chapters.children.children]]
 title = "Fireball Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap"
+entry = "ref/trap/fireball-trap"
 
 [[books.chapters.children.children]]
 title = "Flame Strike Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap"
+entry = "ref/trap/flame-strike-trap"
 
 [[books.chapters.children.children]]
 title = "Wyvern Arrow Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
+entry = "ref/trap/wyvern-arrow-trap"
 
 [[books.chapters.children.children]]
 title = "Frost Fangs Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap"
+entry = "ref/trap/frost-fangs-trap"
 
 [[books.chapters.children.children]]
 title = "Summon Monster VI Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap"
+entry = "ref/trap/summon-monster-vi-trap"
 
 [[books.chapters.children.children]]
 title = "Camouflaged Spiked Pit Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap"
+entry = "ref/trap/camouflaged-spiked-pit-trap"
 
 [[books.chapters.children.children]]
 title = "Insanity Mist Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap"
+entry = "ref/trap/insanity-mist-trap"
 
 [[books.chapters.children.children]]
 title = "Hail of Arrows Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap"
+entry = "ref/trap/hail-of-arrows-trap"
 
 [[books.chapters.children.children]]
 title = "Shocking Floor Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap"
+entry = "ref/trap/shocking-floor-trap"
 
 [[books.chapters.children.children]]
 title = "Energy Drain Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap"
+entry = "ref/trap/energy-drain-trap"
 
 [[books.chapters.children.children]]
 title = "Chamber of Blades Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap"
+entry = "ref/trap/chamber-of-blades-trap"
 
 [[books.chapters.children.children]]
 title = "Cone of Cold Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap"
+entry = "ref/trap/cone-of-cold-trap"
 
 [[books.chapters.children.children]]
 title = "Poisoned Pit Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap"
+entry = "ref/trap/poisoned-pit-trap"
 
 [[books.chapters.children.children]]
 title = "Maximized Fireball Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap"
+entry = "ref/trap/maximized-fireball-trap"
 
 [[books.chapters.children.children]]
 title = "Harm Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap"
+entry = "ref/trap/harm-trap"
 
 [[books.chapters.children.children]]
 title = "Crushing Stone Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap"
+entry = "ref/trap/crushing-stone-trap"
 
 [[books.chapters.children.children]]
 title = "Empowered Disintegrate Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap"
+entry = "ref/trap/empowered-disintegrate-trap"
 
 [[books.chapters.children.children]]
 title = "Lightning Bolt Gallery Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap"
+entry = "ref/trap/lightning-bolt-gallery-trap"
 
 [[books.chapters.children.children]]
 title = "Deadly Spear Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap"
+entry = "ref/trap/deadly-spear-trap"
 
 [[books.chapters.children.children]]
 title = "Meteor Swarm Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap"
+entry = "ref/trap/meteor-swarm-trap"
 
 [[books.chapters.children.children]]
 title = "Destruction Trap"
-entry = "ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap"
+entry = "ref/trap/destruction-trap"
 
 [[books.chapters.children]]
 title = "Mechanical Trap CR, Craft DC, and Cost"
@@ -7258,11 +7258,11 @@ entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/balef
 
 [[books.chapters.children.children.children]]
 title = "Bestow Curse Trap"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
+entry = "ref/curse/bestow-curse-trap"
 
 [[books.chapters.children.children.children]]
 title = "Curse of the Ages"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
+entry = "ref/curse/curse-of-the-ages"
 
 [[books.chapters.children.children.children]]
 title = "Mummy Rot"
@@ -7282,47 +7282,47 @@ anchor = "diseases"
 
 [[books.chapters.children.children.children]]
 title = "Blinding Sickness"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
+entry = "ref/disease/blinding-sickness"
 
 [[books.chapters.children.children.children]]
 title = "Bubonic Plague"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
+entry = "ref/disease/bubonic-plague"
 
 [[books.chapters.children.children.children]]
 title = "Cackle Fever"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
+entry = "ref/disease/cackle-fever"
 
 [[books.chapters.children.children.children]]
 title = "Demon Fever"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
+entry = "ref/disease/demon-fever"
 
 [[books.chapters.children.children.children]]
 title = "Devil Chills"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
+entry = "ref/disease/devil-chills"
 
 [[books.chapters.children.children.children]]
 title = "Filth Fever"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
+entry = "ref/disease/filth-fever"
 
 [[books.chapters.children.children.children]]
 title = "Leprosy"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
+entry = "ref/disease/leprosy"
 
 [[books.chapters.children.children.children]]
 title = "Mindfire"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
+entry = "ref/disease/mindfire"
 
 [[books.chapters.children.children.children]]
 title = "Red Ache"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
+entry = "ref/disease/red-ache"
 
 [[books.chapters.children.children.children]]
 title = "Shakes"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes"
+entry = "ref/disease/shakes"
 
 [[books.chapters.children.children.children]]
 title = "Slimy Doom"
-entry = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
+entry = "ref/disease/slimy-doom"
 
 [[books.chapters.children.children]]
 title = "Poison"

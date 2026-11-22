@@ -28,6 +28,9 @@ Optional Unchained Skill: No
 Optional Background Skill: Yes
 :::
 
+_Your training allows you to pick pockets, draw hidden weapons, and take a variety of actions
+without being noticed._
+
 ### Check
 
 A DC 10 Sleight of Hand check lets you palm a coin-sized, unattended object. Performing a minor feat

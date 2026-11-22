@@ -25,6 +25,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You know how to swim and can do so even in stormy water._
+
 ### Check
 
 Make a Swim check once per round while you are in the water. Success means you may swim at up to

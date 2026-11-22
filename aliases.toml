@@ -1732,7 +1732,7 @@ basis = "shared"
 
 [[entries]]
 old = "advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap"
-target = "ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap"
+target = "ref/trap/bear-trap"
 basis = "carried"
 
 [[entries]]
@@ -18177,167 +18177,167 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/acid-arrow-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap"
+target = "ref/trap/acid-arrow-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/arrow-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap"
+target = "ref/trap/arrow-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/burning-hands-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap"
+target = "ref/trap/burning-hands-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap"
+target = "ref/trap/camouflaged-pit-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap"
+target = "ref/trap/camouflaged-spiked-pit-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap"
+target = "ref/trap/chamber-of-blades-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/cone-of-cold-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap"
+target = "ref/trap/cone-of-cold-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/crushing-stone-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap"
+target = "ref/trap/crushing-stone-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/deadly-spear-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap"
+target = "ref/trap/deadly-spear-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/destruction-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap"
+target = "ref/trap/destruction-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/electricity-arc-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap"
+target = "ref/trap/electricity-arc-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap"
+target = "ref/trap/empowered-disintegrate-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/energy-drain-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap"
+target = "ref/trap/energy-drain-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/falling-block-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap"
+target = "ref/trap/falling-block-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/fireball-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap"
+target = "ref/trap/fireball-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/flame-strike-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap"
+target = "ref/trap/flame-strike-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/frost-fangs-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap"
+target = "ref/trap/frost-fangs-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap"
+target = "ref/trap/hail-of-arrows-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/harm-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap"
+target = "ref/trap/harm-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/insanity-mist-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap"
+target = "ref/trap/insanity-mist-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/javelin-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap"
+target = "ref/trap/javelin-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap"
+target = "ref/trap/lightning-bolt-gallery-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/maximized-fireball-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap"
+target = "ref/trap/maximized-fireball-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/meteor-swarm-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap"
+target = "ref/trap/meteor-swarm-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/pit-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap"
+target = "ref/trap/pit-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/poisoned-dart-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap"
+target = "ref/trap/poisoned-dart-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/poisoned-pit-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap"
+target = "ref/trap/poisoned-pit-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/shocking-floor-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap"
+target = "ref/trap/shocking-floor-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/spiked-pit-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap"
+target = "ref/trap/spiked-pit-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap"
+target = "ref/trap/summon-monster-vi-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/swinging-axe-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap"
+target = "ref/trap/swinging-axe-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/wall-scythe-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap"
+target = "ref/trap/wall-scythe-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
-target = "ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
+target = "ref/trap/wyvern-arrow-trap"
 basis = "carried"
 
 [[entries]]
@@ -19702,12 +19702,12 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
+target = "ref/curse/bestow-curse-trap"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
+target = "ref/curse/curse-of-the-ages"
 basis = "carried"
 
 [[entries]]
@@ -19727,57 +19727,57 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
+target = "ref/disease/blinding-sickness"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
+target = "ref/disease/bubonic-plague"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
+target = "ref/disease/cackle-fever"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
+target = "ref/disease/demon-fever"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
+target = "ref/disease/devil-chills"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
+target = "ref/disease/filth-fever"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
+target = "ref/disease/leprosy"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
+target = "ref/disease/mindfire"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
+target = "ref/disease/red-ache"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/shakes"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes"
+target = "ref/disease/shakes"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
+target = "ref/disease/slimy-doom"
 basis = "carried"
 
 [[entries]]
@@ -21837,22 +21837,22 @@ basis = "direct"
 
 [[entries]]
 old = "core-rulebook/skills/acrobatics"
-target = "ref/carried/core-rulebook/skills/acrobatics"
+target = "ref/skill/acrobatics"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/appraise"
-target = "ref/carried/core-rulebook/skills/appraise"
+target = "ref/skill/appraise"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/bluff"
-target = "ref/carried/core-rulebook/skills/bluff"
+target = "ref/skill/bluff"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/climb"
-target = "ref/carried/core-rulebook/skills/climb"
+target = "ref/skill/climb"
 basis = "carried"
 
 [[entries]]
@@ -21862,27 +21862,27 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/diplomacy"
-target = "ref/carried/core-rulebook/skills/diplomacy"
+target = "ref/skill/diplomacy"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/disable-device"
-target = "ref/carried/core-rulebook/skills/disable-device"
+target = "ref/skill/disable-device"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/disguise"
-target = "ref/carried/core-rulebook/skills/disguise"
+target = "ref/skill/disguise"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/escape-artist"
-target = "ref/carried/core-rulebook/skills/escape-artist"
+target = "ref/skill/escape-artist"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/fly"
-target = "ref/carried/core-rulebook/skills/fly"
+target = "ref/skill/fly"
 basis = "carried"
 
 [[entries]]
@@ -21892,12 +21892,12 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/heal"
-target = "ref/carried/core-rulebook/skills/heal"
+target = "ref/skill/heal"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/intimidate"
-target = "ref/carried/core-rulebook/skills/intimidate"
+target = "ref/skill/intimidate"
 basis = "carried"
 
 [[entries]]
@@ -21912,7 +21912,7 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/perception"
-target = "ref/carried/core-rulebook/skills/perception"
+target = "ref/skill/perception"
 basis = "carried"
 
 [[entries]]
@@ -21927,42 +21927,42 @@ basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/ride"
-target = "ref/carried/core-rulebook/skills/ride"
+target = "ref/skill/ride"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/sense-motive"
-target = "ref/carried/core-rulebook/skills/sense-motive"
+target = "ref/skill/sense-motive"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/sleight-of-hand"
-target = "ref/carried/core-rulebook/skills/sleight-of-hand"
+target = "ref/skill/sleight-of-hand"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/spellcraft"
-target = "ref/carried/core-rulebook/skills/spellcraft"
+target = "ref/skill/spellcraft"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/stealth"
-target = "ref/carried/core-rulebook/skills/stealth"
+target = "ref/skill/stealth"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/survival"
-target = "ref/carried/core-rulebook/skills/survival"
+target = "ref/skill/survival"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/swim"
-target = "ref/carried/core-rulebook/skills/swim"
+target = "ref/skill/swim"
 basis = "carried"
 
 [[entries]]
 old = "core-rulebook/skills/use-magic-device"
-target = "ref/carried/core-rulebook/skills/use-magic-device"
+target = "ref/skill/use-magic-device"
 basis = "carried"
 
 [[entries]]
@@ -25577,47 +25577,47 @@ basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
+target = "ref/drug/aether"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
+target = "ref/drug/dwarven-fire-ale"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
+target = "ref/drug/elven-absinthe"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
+target = "ref/drug/flayleaf"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
+target = "ref/drug/opium"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
+target = "ref/drug/pesh"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
+target = "ref/drug/scour"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
+target = "ref/drug/shiver"
 basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
+target = "ref/drug/zerk"
 basis = "carried"
 
 [[entries]]
@@ -25772,7 +25772,7 @@ basis = "derived"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
+target = "ref/madness/amnesia"
 basis = "carried"
 
 [[entries]]
@@ -25797,7 +25797,7 @@ basis = "carried"
 
 [[entries]]
 old = "game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia"
-target = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia"
+target = "ref/madness/schizophrenia"
 basis = "carried"
 
 [[entries]]
@@ -31376,6 +31376,11 @@ target = "ref/rule/magic"
 basis = "direct"
 
 [[entries]]
+old = "ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap"
+target = "ref/trap/bear-trap"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/advanced-race-guide/races/aasimars"
 target = "ref/race/aasimar"
 basis = "shared"
@@ -31548,6 +31553,391 @@ basis = "shared"
 [[entries]]
 old = "ref/carried/core-rulebook/races/humans"
 target = "ref/race/human"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap"
+target = "ref/trap/acid-arrow-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap"
+target = "ref/trap/arrow-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap"
+target = "ref/trap/burning-hands-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap"
+target = "ref/trap/camouflaged-pit-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap"
+target = "ref/trap/camouflaged-spiked-pit-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap"
+target = "ref/trap/chamber-of-blades-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap"
+target = "ref/trap/cone-of-cold-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap"
+target = "ref/trap/crushing-stone-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap"
+target = "ref/trap/deadly-spear-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap"
+target = "ref/trap/destruction-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap"
+target = "ref/trap/electricity-arc-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap"
+target = "ref/trap/empowered-disintegrate-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap"
+target = "ref/trap/energy-drain-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap"
+target = "ref/trap/falling-block-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap"
+target = "ref/trap/fireball-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap"
+target = "ref/trap/flame-strike-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap"
+target = "ref/trap/frost-fangs-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap"
+target = "ref/trap/hail-of-arrows-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap"
+target = "ref/trap/harm-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap"
+target = "ref/trap/insanity-mist-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap"
+target = "ref/trap/javelin-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap"
+target = "ref/trap/lightning-bolt-gallery-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap"
+target = "ref/trap/maximized-fireball-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap"
+target = "ref/trap/meteor-swarm-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap"
+target = "ref/trap/pit-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap"
+target = "ref/trap/poisoned-dart-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap"
+target = "ref/trap/poisoned-pit-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap"
+target = "ref/trap/shocking-floor-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap"
+target = "ref/trap/spiked-pit-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap"
+target = "ref/trap/summon-monster-vi-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap"
+target = "ref/trap/swinging-axe-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap"
+target = "ref/trap/wall-scythe-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
+target = "ref/trap/wyvern-arrow-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
+target = "ref/curse/bestow-curse-trap"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
+target = "ref/curse/curse-of-the-ages"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
+target = "ref/disease/blinding-sickness"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
+target = "ref/disease/bubonic-plague"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
+target = "ref/disease/cackle-fever"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
+target = "ref/disease/demon-fever"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
+target = "ref/disease/devil-chills"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
+target = "ref/disease/filth-fever"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
+target = "ref/disease/leprosy"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
+target = "ref/disease/mindfire"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
+target = "ref/disease/red-ache"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes"
+target = "ref/disease/shakes"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
+target = "ref/disease/slimy-doom"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/acrobatics"
+target = "ref/skill/acrobatics"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/appraise"
+target = "ref/skill/appraise"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/bluff"
+target = "ref/skill/bluff"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/climb"
+target = "ref/skill/climb"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/diplomacy"
+target = "ref/skill/diplomacy"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/disable-device"
+target = "ref/skill/disable-device"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/disguise"
+target = "ref/skill/disguise"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/escape-artist"
+target = "ref/skill/escape-artist"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/fly"
+target = "ref/skill/fly"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/heal"
+target = "ref/skill/heal"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/intimidate"
+target = "ref/skill/intimidate"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/perception"
+target = "ref/skill/perception"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/ride"
+target = "ref/skill/ride"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/sense-motive"
+target = "ref/skill/sense-motive"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/sleight-of-hand"
+target = "ref/skill/sleight-of-hand"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/spellcraft"
+target = "ref/skill/spellcraft"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/stealth"
+target = "ref/skill/stealth"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/survival"
+target = "ref/skill/survival"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/swim"
+target = "ref/skill/swim"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/core-rulebook/skills/use-magic-device"
+target = "ref/skill/use-magic-device"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
+target = "ref/drug/aether"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
+target = "ref/drug/dwarven-fire-ale"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
+target = "ref/drug/elven-absinthe"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
+target = "ref/drug/flayleaf"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
+target = "ref/drug/opium"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
+target = "ref/drug/pesh"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
+target = "ref/drug/scour"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
+target = "ref/drug/shiver"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
+target = "ref/drug/zerk"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
+target = "ref/madness/amnesia"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia"
+target = "ref/madness/schizophrenia"
 basis = "shared"
 
 [[entries]]
@@ -31831,6 +32221,11 @@ target = "ref/eq-weapon/firework-starfountain"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap"
+target = "ref/trap/bear-trap"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/ultimate-equipment/rules/magic-arms-and-armor/specific-magic-armor-and-shields/specific-magic-armor/adamatine-breastplate"
 target = "ref/eq-armor/adamantine-breastplate"
 basis = "shared"
@@ -31968,6 +32363,26 @@ basis = "shared"
 [[entries]]
 old = "ref/carried/ultimate-magic/spells/simulacrum/lesser"
 target = "ref/spell/simulacrum-lesser"
+basis = "shared"
+
+[[entries]]
+old = "ref/curse/baleful-polymorph-spell"
+target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell"
+basis = "shared"
+
+[[entries]]
+old = "ref/curse/mummy-rot"
+target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot"
+basis = "shared"
+
+[[entries]]
+old = "ref/curse/unluck"
+target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck"
+basis = "shared"
+
+[[entries]]
+old = "ref/curse/werewolf-lycanthropy"
+target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy"
 basis = "shared"
 
 [[entries]]
@@ -42887,7 +43302,7 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap"
-target = "ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap"
+target = "ref/trap/bear-trap"
 basis = "carried"
 
 [[entries]]

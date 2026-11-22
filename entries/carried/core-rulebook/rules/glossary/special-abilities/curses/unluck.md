@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Curses/Unluck", path = "core_rulebook/affliction/curse/unluck.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
 
 [fields]
 kind = "none"

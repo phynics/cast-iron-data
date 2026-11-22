@@ -25,6 +25,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at disarming traps and opening locks. In addition, this skill lets you sabotage
+simple mechanical devices, such as catapults, wagon wheels, and doors._
+
 ### Check
 
 When disarming a trap or other device, the Disable Device check is made secretly, so that you don't

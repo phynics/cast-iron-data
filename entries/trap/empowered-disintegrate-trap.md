@@ -28,3 +28,5 @@ kind = "none"
 **Effect:** spell effect ([empowered](ref/feat/empower-spell)
 [disintegrate](ref/spell/disintegrate), +9 ranged touch, 30d6 damage plus 50%, DC 19 Fort save
 reduces the damage to 5d6 plus 50%)
+
+**Reset:** none

@@ -26,3 +26,5 @@ kind = "none"
 **Trigger:** touch
 
 **Effect:** Atk +10 ranged (1d3 plus [greenblood oil](ref/eq-poison/greenblood-oil))
+
+**Reset:** none

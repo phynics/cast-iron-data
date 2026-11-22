@@ -28,6 +28,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at detecting falsehoods and true intentions._
+
 ### Check
 
 A successful check lets you avoid being bluffed (see the [Bluff](ref/skill/bluff) skill). You can

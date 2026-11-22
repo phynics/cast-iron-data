@@ -19,8 +19,9 @@ curse. They may trigger only intermittently, apply a constant penalty, or grow w
 addition, curses can function exclusively using game mechanics, or incorporate roleplaying
 considerations.
 
-**Intermittent:** Some curses, such as [unluck](ref/curse/unluck), trigger only under certain
-conditions but otherwise stay consistent in their effects.
+**Intermittent:** Some curses, such as
+[unluck](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck), trigger only
+under certain conditions but otherwise stay consistent in their effects.
 
 **Mechanical:** These curses rely on game mechanics for the majority of their effects, such as
 applying penalties, ability damage, or negative conditions. This sort of curse is a good choice if
@@ -31,7 +32,8 @@ have to start considering interactions with other abilities triggered by those c
 determine whether the affliction progresses. However, unlike those suffering from diseases, the
 victims of these curses cannot recover just by succeeding at saving throws. A progressive curse
 worsens with each failed save, often ending in incapacitation or death.
-[Mummy rot](ref/curse/mummy-rot) is a typical progressive curse.
+[Mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot) is a
+typical progressive curse.
 
 **Static:** Curses like [baleful polymorph](ref/spell/baleful-polymorph) apply an effect for the
 entire duration of the curse, with no change in their severity.
