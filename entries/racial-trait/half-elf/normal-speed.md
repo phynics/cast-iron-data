@@ -10,6 +10,33 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/half-elf" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "advanced-race-guide"
+page = "40"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "heroes-from-the-fringe"
+[[sources]]
+publication = "bastards-of-golarion"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "darklands-revisited"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "heroes-of-the-wild"
+[[sources]]
+publication = "heroes-of-the-streets"
+[[sources]]
+publication = "advanced-class-guide"
+[[sources]]
+publication = "occult-adventures"
+[[sources]]
+publication = "ultimate-wilderness"
 
 [fields]
 kind = "racial_trait"

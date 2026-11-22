@@ -10,6 +10,32 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/half-orc" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "advanced-race-guide"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "heroes-from-the-fringe"
+[[sources]]
+publication = "bastards-of-golarion"
+[[sources]]
+publication = "heroes-of-the-wild"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "legacy-of-dragons"
+[[sources]]
+publication = "blood-of-shadows"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "legacy-of-the-first-world"
+[[sources]]
+publication = "heroes-of-the-streets"
+[[sources]]
+publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

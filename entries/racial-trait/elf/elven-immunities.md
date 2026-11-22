@@ -10,6 +10,26 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/elf" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "advanced-race-guide"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "heroes-from-the-fringe"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "legacy-of-the-first-world"
+[[sources]]
+publication = "blood-of-shadows"
+[[sources]]
+publication = "pathfinder-124-city-in-the-deep"
+[[sources]]
+publication = "legacy-of-dragons"
 
 [fields]
 kind = "racial_trait"

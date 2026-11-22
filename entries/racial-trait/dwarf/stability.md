@@ -10,6 +10,30 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/dwarf" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "236"
+[[sources]]
+publication = "core-rulebook"
+page = "21"
+[[sources]]
+publication = "advanced-race-guide"
+[[sources]]
+publication = "heroes-from-the-fringe"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "heroes-of-the-streets"
+[[sources]]
+publication = "legacy-of-dragons"
+[[sources]]
+publication = "advanced-class-guide"
+[[sources]]
+publication = "ultimate-wilderness"
+[[sources]]
+publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/merfolk", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "194"
 
 [fields]
 kind = "racial_trait"

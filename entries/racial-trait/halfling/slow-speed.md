@@ -10,6 +10,17 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/halfling" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "advanced-race-guide"
+page = "60"
+[[sources]]
+publication = "halflings-of-golarion"
+[[sources]]
+publication = "ultimate-wilderness"
 
 [fields]
 kind = "racial_trait"

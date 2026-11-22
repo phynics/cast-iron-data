@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/ratfolk", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "150"
 
 [fields]
 kind = "racial_trait"

@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/nagaji", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "196"
 
 [fields]
 kind = "racial_trait"

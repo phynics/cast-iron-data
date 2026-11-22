@@ -10,6 +10,26 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/human" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "advanced-race-guide"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "legacy-of-dragons"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "advanced-class-guide"
+[[sources]]
+publication = "occult-adventures"
+[[sources]]
+publication = "ultimate-wilderness"
+[[sources]]
+publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

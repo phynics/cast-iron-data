@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/vishkanya", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "208"
 
 [fields]
 kind = "racial_trait"

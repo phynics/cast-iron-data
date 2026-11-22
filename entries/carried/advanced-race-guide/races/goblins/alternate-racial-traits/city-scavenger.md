@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/goblin", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "114"
 
 [fields]
 kind = "racial_trait"

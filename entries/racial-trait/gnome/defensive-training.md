@@ -10,6 +10,23 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/gnome" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "core-rulebook"
+[[sources]]
+publication = "advanced-race-guide"
+page = "30"
+[[sources]]
+publication = "heroes-from-the-fringe"
+[[sources]]
+publication = "blood-of-shadows"
+[[sources]]
+publication = "advanced-players-guide"
+[[sources]]
+publication = "horror-adventures"
+[[sources]]
+publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"
