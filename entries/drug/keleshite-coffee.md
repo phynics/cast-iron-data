@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/keleshite-coffee"
-kind = "rule"
+kind = "affliction"
 title = "Keleshite Coffee"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "keleshite_coffee", path = "json/drugs.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/spellscar-fever"
-kind = "rule"
+kind = "affliction"
 title = "Spellscar Fever"
 source_ids = ["pathfinder-119-prisoners-of-the-blight"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spellscar_fever", path = "json/diseases.json" },
 ]

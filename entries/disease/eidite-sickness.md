@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/eidite-sickness"
-kind = "rule"
+kind = "affliction"
 title = "Eidite sickness"
 source_ids = ["wardens-of-the-reborn-forge"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eidite_sickness", path = "json/diseases.json" },
 ]

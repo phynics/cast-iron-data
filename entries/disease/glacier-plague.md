@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/glacier-plague"
-kind = "rule"
+kind = "affliction"
 title = "Glacier Plague"
 source_ids = ["irrisen-land-of-eternal-winter"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "glacier_plague", path = "json/diseases.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/razor-grass"
-kind = "rule"
+kind = "trap"
 title = "Razor Grass"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "razor_grass", path = "json/traps.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/demonplague"
-kind = "rule"
+kind = "affliction"
 title = "Demonplague"
 source_ids = ["the-worldwound"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "demonplague", path = "json/diseases.json" },
 ]

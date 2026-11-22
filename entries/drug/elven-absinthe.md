@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/elven-absinthe"
-kind = "rule"
+kind = "affliction"
 title = "Elven Absinthe"
 source_ids = ["game-mastery-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elven_absinthe", path = "json/drugs.json" },
 ]

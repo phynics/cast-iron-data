@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/meteor-swarm-trap"
-kind = "rule"
+kind = "trap"
 title = "Meteor Swarm Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "meteor_swarm_trap", path = "json/traps.json" },
 ]

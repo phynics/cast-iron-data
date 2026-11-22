@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/sealed-fate"
-kind = "rule"
+kind = "affliction"
 title = "Sealed Fate"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sealed_fate", path = "json/curses.json" },
 ]

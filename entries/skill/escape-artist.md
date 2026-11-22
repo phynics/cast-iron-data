@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/escape-artist"
-kind = "rule"
+kind = "skill"
 title = "Escape Artist"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "84"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -96,30 +84,22 @@ If you have the [Stealthy](ref/feat/stealthy) feat, you gain a bonus on Escape A
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Escape Artist, you earn
 the following.
 
-**5 Ranks**
-
-**Details:** If you take a -10 penalty, the time required to use this skill is halved; escaping a
+**5 Ranks:** If you take a -10 penalty, the time required to use this skill is halved; escaping a
 grapple or pin is a **move action**, and escaping a net, [animate rope](ref/spell/animate-rope),
 [command plants](ref/spell/command-plants), or [control plants](ref/spell/control-plants) spell is a
 **standard action**.
 
-**10 Ranks**
-
-**Details:** You can attempt to escape from any entangling effect as a **standard action** with an
+**10 Ranks:** You can attempt to escape from any entangling effect as a **standard action** with an
 Escape Artist check (DC = the effect's save DC + 10). You can attempt an Escape Artist check as a
 **move action** to set the DC for a creature to escape from ropes or bindings; you gain a +10 bonus
 on the check if you instead attempt it as a **full-round action**.
 
-**15 Ranks**
-
-**Details:** You can escape any entangling effect (as above) as a **move action**. As a **standard
+**15 Ranks:** You can escape any entangling effect (as above) as a **move action**. As a **standard
 action**, you can attempt an Escape Artist check (DC = the effect's save DC + 20) to suppress a slow
 or paralysis effect for 1 round, plus 1 round for every 5 by which you exceed the DC. This action
 counts as purely mental for the purpose of being able to take it while paralyzed.
 
-**20 Ranks**
-
-**Details:** You can escape being entangled, grappled, or pinned as an **immediate action** with an
+**20 Ranks:** You can escape being entangled, grappled, or pinned as an **immediate action** with an
 Escape Artist check (DC = the effect's DC + 10 or the attacker's CMB + 10). You can attempt to
 suppress a slow or paralysis effect as a **standard action** (increasing the DC by 10), a **move
 action** (increasing the DC by 15), or an **immediate action** (increasing the DC by 20).

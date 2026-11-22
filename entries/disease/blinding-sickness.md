@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/blinding-sickness"
-kind = "rule"
+kind = "affliction"
 title = "Blinding Sickness"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blinding_sickness", path = "json/diseases.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/synthetic-mumia"
-kind = "rule"
+kind = "affliction"
 title = "Synthetic mumia"
 source_ids = ["undead-slayers-handbook"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "synthetic_mumia", path = "json/drugs.json" },
 ]

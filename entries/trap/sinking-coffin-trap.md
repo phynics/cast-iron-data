@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/sinking-coffin-trap"
-kind = "rule"
+kind = "trap"
 title = "Sinking Coffin Trap"
 source_ids = ["horror-adventures"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sinking_coffin_trap", path = "json/traps.json" },
 ]

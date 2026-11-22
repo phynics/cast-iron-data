@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/the-tainted-plague"
-kind = "rule"
+kind = "affliction"
 title = "The Tainted Plague"
 source_ids = ["pathfinder-campaign-setting"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_tainted_plague", path = "json/diseases.json" },
 ]

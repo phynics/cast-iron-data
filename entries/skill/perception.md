@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/perception"
-kind = "rule"
+kind = "skill"
 title = "Perception"
 source_ids = ["core-rulebook", "aquatic-adventures", "occult-adventures", "pathfinder-unchained"]
 provenance = [
@@ -23,25 +23,13 @@ page = "85"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Wisdom
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Wisdom
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -228,25 +216,17 @@ different one. You can still attempt only one skill check to read an aura per da
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Perception, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** You remain alert to sounds even in your sleep, and the normal DC increase to Perception
+**5 Ranks:** You remain alert to sounds even in your sleep, and the normal DC increase to Perception
 checks when you are sleeping is halved. The distance modifier on the DC of Perception checks you
 attempt is reduced to +1 per 20 feet.
 
-**10 Ranks**
-
-**Details:** The distance modifier on the DC of Perception checks you attempt is reduced to +1 per
+**10 Ranks:** The distance modifier on the DC of Perception checks you attempt is reduced to +1 per
 30 feet. In addition, you gain a +5 bonus on Perception checks to notice or locate an invisible
 creature or object.
 
-**15 Ranks**
+**15 Ranks:** You remain alert to sounds even in your sleep, and the normal DC increase to
+Perception checks when you are sleeping doesn't apply to you. The distance modifier on the DC of
+your Perception checks is reduced to +1 per 40 feet.
 
-**Details:** You remain alert to sounds even in your sleep, and the normal DC increase to Perception
-checks when you are sleeping doesn't apply to you. The distance modifier on the DC of your
-Perception checks is reduced to +1 per 40 feet.
-
-**20 Ranks**
-
-**Details:** You gain a +10 bonus on Perception checks to notice invisible creatures or objects. The
-distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet.
+**20 Ranks:** You gain a +10 bonus on Perception checks to notice invisible creatures or objects.
+The distance modifier on the DC of Perception checks you attempt is reduced to +1 per 60 feet.

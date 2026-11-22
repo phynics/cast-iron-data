@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/perilous-demesne-minor"
-kind = "rule"
+kind = "affliction"
 title = "Minor Perilous Demesne"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_demesne_minor", path = "json/curses.json" },
 ]

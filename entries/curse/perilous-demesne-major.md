@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/perilous-demesne-major"
-kind = "rule"
+kind = "affliction"
 title = "Major Perilous Demesne"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perilous_demesne_major", path = "json/curses.json" },
 ]

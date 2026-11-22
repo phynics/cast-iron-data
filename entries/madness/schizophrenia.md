@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/schizophrenia"
-kind = "rule"
+kind = "affliction"
 title = "Schizophrenia"
 source_ids = ["horror-adventures", "game-mastery-guide"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "schizophrenia", path = "json/madness.json" },
 ]

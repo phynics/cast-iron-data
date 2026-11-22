@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/climb"
-kind = "rule"
+kind = "skill"
 title = "Climb"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "82"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Strength
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Strength
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -134,21 +122,13 @@ If you have the [Athletic](ref/feat/athletic) feat, you get a bonus on Climb che
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Climb, you earn the
 following.
 
-**5 Ranks**
+**5 Ranks:** You are no longer denied your Dexterity bonus when climbing.
 
-**Details:** You are no longer denied your Dexterity bonus when climbing.
-
-**10 Ranks**
-
-**Details:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10
+**10 Ranks:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) of 10
 feet, but only on surfaces with a Climb DC of 20 or lower.
 
-**15 Ranks**
-
-**Details:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to
+**15 Ranks:** You gain a natural climb speed (but not the +8 racial bonus on Climb checks) equal to
 your base speed on surfaces with a Climb DC of 20 or lower, and of 10 feet on all other surfaces.
 
-**20 Ranks**
-
-**Details:** You gain a natural climb speed equal to your base speed on all surfaces. If you have
+**20 Ranks:** You gain a natural climb speed equal to your base speed on all surfaces. If you have
 both hands free, you gain a +8 racial bonus on Climb checks.

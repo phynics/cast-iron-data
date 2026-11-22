@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/cowards-mark"
-kind = "rule"
+kind = "affliction"
 title = "Coward's Mark"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cowards_mark", path = "json/diseases.json" },
 ]

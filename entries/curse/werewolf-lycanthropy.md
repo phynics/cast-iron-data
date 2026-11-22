@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/werewolf-lycanthropy"
-kind = "rule"
+kind = "affliction"
 title = "Werewolf Lycanthropy"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "werewolf_lycanthropy", path = "json/curses.json" },
 ]

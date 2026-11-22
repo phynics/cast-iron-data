@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/breakaway-log"
-kind = "rule"
+kind = "trap"
 title = "Breakaway Log"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breakaway_log", path = "json/traps.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/mindfire"
-kind = "rule"
+kind = "affliction"
 title = "Mindfire"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mindfire", path = "json/diseases.json" },
 ]

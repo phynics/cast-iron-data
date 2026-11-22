@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/camouflaged-pit-trap"
-kind = "rule"
+kind = "trap"
 title = "Camouflaged Pit Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "camouflaged_pit_trap", path = "json/traps.json" },
 ]

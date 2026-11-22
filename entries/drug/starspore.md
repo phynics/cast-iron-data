@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/starspore"
-kind = "rule"
+kind = "affliction"
 title = "Starspore"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starspore", path = "json/drugs.json" },
 ]

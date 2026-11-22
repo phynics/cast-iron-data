@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/morgod-jelly"
-kind = "rule"
+kind = "affliction"
 title = "Morgod Jelly"
 source_ids = ["pathfinder-99-dance-of-the-damned"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "morgod_jelly", path = "json/drugs.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/fungal-flu"
-kind = "rule"
+kind = "affliction"
 title = "Fungal Flu"
 source_ids = ["pathfinder-13-shadow-in-the-sky"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_flu", path = "json/diseases.json" },
 ]

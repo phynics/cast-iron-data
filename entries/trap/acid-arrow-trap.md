@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/acid-arrow-trap"
-kind = "rule"
+kind = "trap"
 title = "Acid Arrow Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acid_arrow_trap", path = "json/traps.json" },
 ]

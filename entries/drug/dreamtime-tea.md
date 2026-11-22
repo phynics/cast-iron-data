@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/dreamtime-tea"
-kind = "rule"
+kind = "affliction"
 title = "Dreamtime Tea"
 source_ids = ["rival-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dreamtime_tea", path = "json/drugs.json" },
 ]

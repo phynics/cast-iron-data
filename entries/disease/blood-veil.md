@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/blood-veil"
-kind = "rule"
+kind = "affliction"
 title = "Blood Veil"
 source_ids = ["curse-of-the-crimson-throne", "pathfinder-8-seven-days-to-the-grave"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_veil", path = "json/diseases.json" },
 ]

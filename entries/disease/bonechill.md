@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/bonechill"
-kind = "rule"
+kind = "affliction"
 title = "Bonechill"
 source_ids = ["pathfinder-51-the-hungry-storm"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonechill", path = "json/diseases.json" },
 ]

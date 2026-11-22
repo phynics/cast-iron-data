@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/handle-animal"
-kind = "rule"
+kind = "skill"
 title = "Handle Animal"
 source_ids = ["core-rulebook", "ultimate-wilderness", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "214"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Charisma
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 ### Check
 
@@ -224,24 +212,16 @@ dangerous unless the creature has been trained for that specific purpose (see
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Handle Animal, you earn
 the following.
 
-**5 Ranks**
+**5 Ranks:** Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.
 
-**Details:** Creatures you have trained gain a +2 bonus on Will saves when adjacent to you.
-
-**10 Ranks**
-
-**Details:** Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30
+**10 Ranks:** Creatures you have trained gain a +2 bonus on Will saves whenever you are within 30
 feet and clearly visible. You can teach a trick in 1 day by increasing the DC by 20.
 
-**15 Ranks**
-
-**Details:** You can train an animal to understand your speech (as speak with animals) with 1 week
+**15 Ranks:** You can train an animal to understand your speech (as speak with animals) with 1 week
 of effort and a successful DC 30 Handle Animal check. Its actions are still limited by its
 Intelligence. You can teach a trick in 1 day (increasing the DC by 10) or 1 hour (increasing the DC
 by 20).
 
-**20 Ranks**
-
-**Details:** You can make your speech understandable to any animal for 24 hours with a successful DC
-30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1 hour
-(increasing the DC by 10), or 1 minute (increasing the DC by 20).
+**20 Ranks:** You can make your speech understandable to any animal for 24 hours with a successful
+DC 30 Handle Animal check (DC 40 for magical beasts or vermin). You can teach a trick in 1 day, 1
+hour (increasing the DC by 10), or 1 minute (increasing the DC by 20).

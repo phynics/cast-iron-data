@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/wyrm-pesh"
-kind = "rule"
+kind = "affliction"
 title = "Wyrm pesh"
 source_ids = ["dragonslayers-handbook"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyrm_pesh", path = "json/drugs.json" },
 ]

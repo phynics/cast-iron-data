@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/dvezda-plague"
-kind = "rule"
+kind = "affliction"
 title = "Dvezda Plague"
 source_ids = ["pathfinder-69-maiden-mother-crone"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dvezda_plague", path = "json/diseases.json" },
 ]

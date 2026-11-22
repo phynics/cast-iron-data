@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/javelin-trap"
-kind = "rule"
+kind = "trap"
 title = "Javelin Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "javelin_trap", path = "json/traps.json" },
 ]

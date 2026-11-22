@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/energy-drain-trap"
-kind = "rule"
+kind = "trap"
 title = "Energy Drain Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "energy_drain_trap", path = "json/traps.json" },
 ]

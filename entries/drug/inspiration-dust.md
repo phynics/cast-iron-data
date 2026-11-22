@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/inspiration-dust"
-kind = "rule"
+kind = "affliction"
 title = "Inspiration Dust"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inspiration_dust", path = "json/drugs.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/frost-fangs-trap"
-kind = "rule"
+kind = "trap"
 title = "Frost Fangs Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "frost_fangs_trap", path = "json/traps.json" },
 ]

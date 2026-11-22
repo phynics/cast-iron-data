@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/stealth"
-kind = "rule"
+kind = "skill"
 title = "Stealth"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -92,21 +80,13 @@ If you have the [Stealthy](ref/feat/stealthy) feat, you get a bonus on Stealth c
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Stealth, you earn the
 following.
 
-**5 Ranks**
+**5 Ranks:** Reduce the Stealth penalty from sniping by 10.
 
-**Details:** Reduce the Stealth penalty from sniping by 10.
-
-**10 Ranks**
-
-**Details:** Stealth check penalties for moving quickly are halved, including the ability unlocked
+**10 Ranks:** Stealth check penalties for moving quickly are halved, including the ability unlocked
 at 5 ranks, moving full speed, and reaching concealment after creating a distraction.
 
-**15 Ranks**
-
-**Details:** If you attack after successfully using Stealth, your target is denied its Dexterity
+**15 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity
 bonus against all attacks that you make before the end of your turn.
 
-**20 Ranks**
-
-**Details:** If you attack after successfully using Stealth, your target is denied its Dexterity
+**20 Ranks:** If you attack after successfully using Stealth, your target is denied its Dexterity
 bonus against all attacks that you make before the beginning of your next turn.

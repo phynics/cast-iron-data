@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/bloodbrush-extract"
-kind = "rule"
+kind = "affliction"
 title = "Bloodbrush Extract"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bloodbrush_extract", path = "json/drugs.json" },
 ]

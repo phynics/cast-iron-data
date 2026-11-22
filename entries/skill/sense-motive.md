@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/sense-motive"
-kind = "rule"
+kind = "skill"
 title = "Sense Motive"
 source_ids = ["core-rulebook", "occult-adventures", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Wisdom
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Wisdom
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -145,28 +133,20 @@ on Sense Motive checks to prognosticate.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Sense Motive, you earn
 the following.
 
-**5 Ranks**
-
-**Details:** If you were aware of an opponent before rolling initiative (such as when you ambush an
+**5 Ranks:** If you were aware of an opponent before rolling initiative (such as when you ambush an
 enemy or negotiations break down into combat, but not when both sides happen upon each other or you
 are surprised), you can attempt a Sense Motive check as part of your initiative check (DC = 11 + the
 highest Bluff modifier among your opponents or DC 15, whichever is higher). If you succeed, you gain
 a +1 bonus on the initiative check, plus an additional +1 for every 5 by which you exceeded the DC.
 
-**10 Ranks**
-
-**Details:** After 1 minute of conversation, you can read a creature's surface thoughts (as
+**10 Ranks:** After 1 minute of conversation, you can read a creature's surface thoughts (as
 [detect thoughts](ref/spell/detect-thoughts)) by attempting a Sense Motive check at a -20 penalty
 opposed by the creature's Bluff check.
 
-**15 Ranks**
-
-**Details:** You can read surface thoughts as above after 1 round. In addition, when attacked, you
+**15 Ranks:** You can read surface thoughts as above after 1 round. In addition, when attacked, you
 can attempt a Sense Motive check as an **immediate action** opposed by your target's attack roll. A
 successful check grants a +2 insight bonus to your AC against attacks from that specific opponent
 for 1 minute.
 
-**20 Ranks**
-
-**Details:** You can read surface thoughts as above as a **standard action**. A successful check to
+**20 Ranks:** You can read surface thoughts as above as a **standard action**. A successful check to
 gain an insight bonus to your AC also negates the attack that triggered it.

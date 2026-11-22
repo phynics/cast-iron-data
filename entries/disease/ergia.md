@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/ergia"
-kind = "rule"
+kind = "affliction"
 title = "Ergia"
 source_ids = ["pathfinder-51-the-hungry-storm"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ergia", path = "json/diseases.json" },
 ]

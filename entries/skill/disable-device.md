@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/disable-device"
-kind = "rule"
+kind = "skill"
 title = "Disable Device"
 source_ids = ["core-rulebook", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "83"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: Yes
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -155,30 +143,22 @@ explosive is treated as if the explosive were a complex trap, and takes 2d4 roun
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Disable Device, you earn
 the following.
 
-**5 Ranks**
-
-**Details:** Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your
+**5 Ranks:** Reduce the time required to disarm a trap or open a lock by taking a -5 penalty on your
 Disable Device check for each step by which you reduce the time required: 2d4 rounds, 1d4 rounds, 1
 round, a standard action, a move action, a swift action.
 
-**10 Ranks**
-
-**Details:** You can disarm magical traps at a -10 penalty even if you lack the trapfinding ability.
-If you possess the trapfinding ability, when attempting to disable magic traps, you never trigger
-them, even if you perform the trigger action (such as looking at a
+**10 Ranks:** You can disarm magical traps at a -10 penalty even if you lack the trapfinding
+ability. If you possess the trapfinding ability, when attempting to disable magic traps, you never
+trigger them, even if you perform the trigger action (such as looking at a
 [symbol of death](ref/spell/symbol-of-death)). If you fail the check, you can still trigger the
 trap, and you can't use this ability to bypass it.
 
-**15 Ranks**
-
-**Details:** When attacked by a trap, you can attempt a Disable Device check as an **immediate
+**15 Ranks:** When attacked by a trap, you can attempt a Disable Device check as an **immediate
 action** (adding your [trap sense](ref/ability/trap-sense) bonus, if any) opposed by the trap's
 attack roll or its save DC. If you succeed, you take half damage (or no damage if you exceed the DC
 by at least 10).
 
-**20 Ranks**
-
-**Details:** You halve the penalties for performing a quick disarm as described in the 5 Ranks
+**20 Ranks:** You halve the penalties for performing a quick disarm as described in the 5 Ranks
 entry. If you possess the trapfinding ability and accept a -20 penalty while using the ability
 unlocked at 15 ranks, all nearby allies gain the benefit, and you disable the trap as an **immediate
 action** before it can trigger if you exceed the DC by at least 10.

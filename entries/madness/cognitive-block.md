@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/cognitive-block"
-kind = "rule"
+kind = "affliction"
 title = "Cognitive Block"
 source_ids = ["horror-adventures"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cognitive_block", path = "json/madness.json" },
 ]

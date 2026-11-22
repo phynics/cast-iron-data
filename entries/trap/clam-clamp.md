@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/clam-clamp"
-kind = "rule"
+kind = "trap"
 title = "Clam Clamp"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "clam_clamp", path = "json/traps.json" },
 ]

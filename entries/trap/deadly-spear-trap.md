@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/deadly-spear-trap"
-kind = "rule"
+kind = "trap"
 title = "Deadly Spear Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_spear_trap", path = "json/traps.json" },
 ]

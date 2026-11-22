@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/magesight"
-kind = "rule"
+kind = "affliction"
 title = "Magesight"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "magesight", path = "json/drugs.json" },
 ]

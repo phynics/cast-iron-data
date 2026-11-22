@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/lore-any"
-kind = "rule"
+kind = "skill"
 title = "Lore (any)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -14,25 +14,13 @@ page = "50"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** Yes
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: Yes
+Optional Background Skill: Yes
+:::
 
 You possess a specialized area of knowledge, generally narrower than that of a full-fledged scholar.
 Lore acts as a catch-all skill for information, similar to how Craft handles artisanal skills and

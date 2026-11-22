@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/mumia"
-kind = "rule"
+kind = "affliction"
 title = "Mumia"
 source_ids = ["lost-kingdoms"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mumia", path = "json/drugs.json" },
 ]

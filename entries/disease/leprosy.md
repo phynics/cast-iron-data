@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/leprosy"
-kind = "rule"
+kind = "affliction"
 title = "Leprosy"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "leprosy", path = "json/diseases.json" },
 ]

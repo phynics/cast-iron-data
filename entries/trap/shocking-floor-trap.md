@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/shocking-floor-trap"
-kind = "rule"
+kind = "trap"
 title = "Shocking Floor Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shocking_floor_trap", path = "json/traps.json" },
 ]

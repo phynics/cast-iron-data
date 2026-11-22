@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/greenscale"
-kind = "rule"
+kind = "affliction"
 title = "Greenscale"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greenscale", path = "json/diseases.json" },
 ]

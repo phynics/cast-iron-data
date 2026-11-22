@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/dwarven-fire-ale"
-kind = "rule"
+kind = "affliction"
 title = "Dwarven Fire Ale"
 source_ids = ["game-mastery-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dwarven_fire_ale", path = "json/drugs.json" },
 ]

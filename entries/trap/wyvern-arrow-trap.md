@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/wyvern-arrow-trap"
-kind = "rule"
+kind = "trap"
 title = "Wyvern Arrow Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wyvern_arrow_trap", path = "json/traps.json" },
 ]

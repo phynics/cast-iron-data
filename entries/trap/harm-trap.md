@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/harm-trap"
-kind = "rule"
+kind = "trap"
 title = "Harm Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harm_trap", path = "json/traps.json" },
 ]

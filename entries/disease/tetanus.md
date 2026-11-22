@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/tetanus"
-kind = "rule"
+kind = "affliction"
 title = "Tetanus"
 source_ids = ["pathfinder-1-burnt-offerings", "bestiary-4"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetanus", path = "json/diseases.json" },
 ]

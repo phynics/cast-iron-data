@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/survival"
-kind = "rule"
+kind = "skill"
 title = "Survival"
 source_ids = ["core-rulebook", "heroes-of-the-wild", "aquatic-adventures", "occult-adventures", "pathfinder-unchained"]
 provenance = [
@@ -26,25 +26,13 @@ page = "87"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Wisdom
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Wisdom
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -171,35 +159,23 @@ and objects have half the normal [hardness](ref/umr/hardness) and hit points of 
 constructed version, and have a 10% chance of falling apart for each day of use. GMs may choose to
 allow other primitive tools based on these, at their discretion.
 
-**Cooking Vessel**
+**Cooking Vessel:** Flat rocks can be used as primitive frying pans, and wood can be hollowed out
+and charred to make simple bowls and even pots.
 
-**Details:** Flat rocks can be used as primitive frying pans, and wood can be hollowed out and
-charred to make simple bowls and even pots.
-
-**Lean-To**
-
-**Details:** This rudimentary shelter for two creatures of your size grants its occupants a +4 bonus
+**Lean-To:** This rudimentary shelter for two creatures of your size grants its occupants a +4 bonus
 on Fortitude saves against severe weather. The construction requires 20 feet of rope.
 
-**Raft**
+**Raft:** This log raft for two people requires 10 feet of rope to construct.
 
-**Details:** This log raft for two people requires 10 feet of rope to construct.
+**Rope:** Makeshift rope is constructed in 10-foot lengths, though multiple lengths can be spliced
+together to make a longer rope. A makeshift rope gains the [broken](ref/misc/broken) condition if
+the user rolls a natural 1 on a skill check involving the rope. If already broken, the rope snaps
+instead.
 
-**Rope**
+**Snow Cave:** The temperature in an inhabited snow cave generally remains around 32° F regardless
+of outside temperature. A lit candle further increases the temperature by 10° F.
 
-**Details:** Makeshift rope is constructed in 10-foot lengths, though multiple lengths can be
-spliced together to make a longer rope. A makeshift rope gains the [broken](ref/misc/broken)
-condition if the user rolls a natural 1 on a skill check involving the rope. If already broken, the
-rope snaps instead.
-
-**Snow Cave**
-
-**Details:** The temperature in an inhabited snow cave generally remains around 32° F regardless of
-outside temperature. A lit candle further increases the temperature by 10° F.
-
-**Torch**
-
-**Details:** A makeshift torch burns for 1d6 × 5 minutes and has the [fragile](ref/misc/fragile)
+**Torch:** A makeshift torch burns for 1d6 × 5 minutes and has the [fragile](ref/misc/fragile)
 quality if used as an [improvised weapon](ref/misc/improvised-weapons).
 
 ### Snares and Simple Traps
@@ -278,23 +254,15 @@ Yes. You can try to dowse from the same location more than once, but still only 
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Survival, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1
+**5 Ranks:** You reduce all nonlethal damage you take from heat, cold, starvation, or thirst by 1
 point for every 5 ranks you possess in Survival.
 
-**10 Ranks**
-
-**Details:** You can track creatures that leave no tracks, including flying and swimming creatures
+**10 Ranks:** You can track creatures that leave no tracks, including flying and swimming creatures
 and creatures using [trackless step](ref/ability/trackless-step) or
 [pass without trace](ref/spell/pass-without-trace), taking a -20 penalty on your Survival check.
 
-**15 Ranks**
-
-**Details:** Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants
+**15 Ranks:** Once per day, you can spend 1 hour and attempt a DC 30 Survival check. Success grants
 you cold [resistance](ref/umr/resistance) or fire resistance 5 for 24 hours. You can share this with
 one ally for every 5 by which you exceeded the check.
 
-**20 Ranks**
-
-**Details:** You take only a -10 penalty when tracking creatures that leave no tracks.
+**20 Ranks:** You take only a -10 penalty when tracking creatures that leave no tracks.

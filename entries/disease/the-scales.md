@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/the-scales"
-kind = "rule"
+kind = "affliction"
 title = "The Scales"
 source_ids = ["lost-cities-of-golarion"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_scales", path = "json/diseases.json" },
 ]

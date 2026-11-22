@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/insanity-mist-trap"
-kind = "rule"
+kind = "trap"
 title = "Insanity Mist Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insanity_mist_trap", path = "json/traps.json" },
 ]

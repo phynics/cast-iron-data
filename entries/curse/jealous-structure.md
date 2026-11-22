@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/jealous-structure"
-kind = "rule"
+kind = "affliction"
 title = "Jealous Structure"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jealous_structure", path = "json/curses.json" },
 ]

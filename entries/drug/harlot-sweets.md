@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/harlot-sweets"
-kind = "rule"
+kind = "affliction"
 title = "Harlot Sweets"
 source_ids = ["rival-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "harlot_sweets", path = "json/drugs.json" },
 ]

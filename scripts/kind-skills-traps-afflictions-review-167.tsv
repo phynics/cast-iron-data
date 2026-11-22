@@ -1,0 +1,258 @@
+entry_id	action	kind_before	kind_after	tag	other_id	citation	reason
+ref/curse/baleful-polymorph-spell	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
+ref/curse/bestow-curse-trap	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
+ref/curse/blasted-vitality	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
+ref/curse/curse-of-bestial-dreams	kind	rule	affliction	curse		Doom Comes to Dustpawn p. 4	first word of the printed `Type` line
+ref/curse/curse-of-the-ages	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
+ref/curse/cursed-earth	kind	rule	affliction	curse		Horror Adventures p. 143	first word of the printed `Type` line
+ref/curse/endless-night	kind	rule	affliction	curse		Horror Adventures p. 143	first word of the printed `Type` line
+ref/curse/haunting-major	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
+ref/curse/haunting-minor	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
+ref/curse/hunt-of-the-ankou	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
+ref/curse/hunt-of-the-bogeyman	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
+ref/curse/jealous-structure	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
+ref/curse/mummy-rot	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
+ref/curse/perilous-demesne-grand	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
+ref/curse/perilous-demesne-greater	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
+ref/curse/perilous-demesne-major	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
+ref/curse/perilous-demesne-minor	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
+ref/curse/sealed-fate	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
+ref/curse/shattered-self	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
+ref/curse/tormenting-visions	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/unluck	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
+ref/curse/unseasonable-weather	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
+ref/curse/weeping-wound	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/werewolf-lycanthropy	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/blightburn-sickness	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
+ref/disease/blinding-sickness	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/blood-veil	kind	rule	affliction	disease		Curse of the Crimson Throne p. 430	first word of the printed `Type` line
+ref/disease/bluespit	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 23	first word of the printed `Type` line
+ref/disease/bonechill	kind	rule	affliction	disease		Pathfinder #51: The Hungry Storm p. 67	first word of the printed `Type` line
+ref/disease/bonecrusher-dengue	kind	rule	affliction	disease		Heart of the Jungle p. 6	first word of the printed `Type` line
+ref/disease/boot-soup	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/brainworms	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/bubonic-plague	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/cackle-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/chillbane-fever	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
+ref/disease/cowards-mark	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
+ref/disease/crypt-fever	kind	rule	affliction	disease		Tomb of the Iron Medusa p. 13	first word of the printed `Type` line
+ref/disease/daemonic-wasting	kind	rule	affliction	disease		Pathfinder #54: The Empty Throne p. 28	first word of the printed `Type` line
+ref/disease/demon-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/demonplague	kind	rule	affliction	disease		The Worldwound p. 29	first word of the printed `Type` line
+ref/disease/devil-chills	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/dvezda-plague	kind	rule	affliction	disease		Pathfinder #69: Maiden, Mother, Crone p. 71	first word of the printed `Type` line
+ref/disease/dysentary	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/eidite-sickness	kind	rule	affliction	disease		Wardens of the Reborn Forge p. 19	first word of the printed `Type` line
+ref/disease/ergia	kind	rule	affliction	disease		Pathfinder #51: The Hungry Storm p. 67	first word of the printed `Type` line
+ref/disease/filth-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/final-rest	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
+ref/disease/firegut	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/fungal-flu	kind	rule	affliction	disease		Pathfinder #13: Shadow in the Sky p. 81	first word of the printed `Type` line
+ref/disease/ghoul-fever	kind	rule	affliction	disease		Bestiary p. 146	first word of the printed `Type` line
+ref/disease/glacier-plague	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
+ref/disease/green-haze	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/greenscale	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/leprosy	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/malaria-jungle-fever	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
+ref/disease/mindfire	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/moxixs-delectation	kind	rule	affliction	disease		Pathfinder #58: Island of Empty Eyes p. 67	first word of the printed `Type` line
+ref/disease/pallid-gift	kind	rule	affliction	disease		Villain Codex	first word of the printed `Type` line
+ref/disease/pulsing-puffs	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
+ref/disease/rabies	kind	rule	affliction	disease		Bestiary p. 87	first word of the printed `Type` line
+ref/disease/red-ache	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/red-drip	kind	rule	affliction	disease		Undead Unleashed p. 63	first word of the printed `Type` line
+ref/disease/scarlet-leprosy	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
+ref/disease/shakes	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/shattermind	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
+ref/disease/sleeping-sickness	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
+ref/disease/slimy-doom	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/spellscar-fever	kind	rule	affliction	disease		Pathfinder #119: Prisoners of the Blight p. 63	first word of the printed `Type` line
+ref/disease/tetanus	kind	rule	affliction	disease		Pathfinder #1: Burnt Offerings p. 43	first word of the printed `Type` line
+ref/disease/the-scales	kind	rule	affliction	disease		Lost Cities of Golarion p. 8	first word of the printed `Type` line
+ref/disease/the-tainted-plague	kind	rule	affliction	disease		Pathfinder Campaign Setting p. 149	first word of the printed `Type` line
+ref/disease/vorels-phage	kind	rule	affliction	disease		Pathfinder #2: The Skinsaw Murders p. 27	first word of the printed `Type` line
+ref/drug/adyton	kind	rule	affliction	addiction		Book of the Damned p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/aether	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/blood-sap	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/bloodbrush-extract	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 23	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/dreamtime-tea	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/dwarven-fire-ale	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/elven-absinthe	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/esoterum	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/felwil	kind	rule	affliction	addiction		Bastards of Golarion p. 21	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/fireskin-elixir	kind	rule	affliction	addiction		Blood of the Elements p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/flayleaf	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/gossamer-veil	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/harlot-sweets	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/hush	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/inspiration-dust	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/keleshite-coffee	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/magesight	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/midnight-milk	kind	rule	affliction	addiction		Lost Cities of Golarion p. 12	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/morgod-jelly	kind	rule	affliction	addiction		Pathfinder #99: Dance of the Damned p. 86	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/mumia	kind	rule	affliction	addiction		Lost Kingdoms p. 22	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/muscaria	kind	rule	affliction	addiction		Pathfinder #110: The Thrushmoor Terror p. 14	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/numerian-fluids	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 28	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/oblivion	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/old-mage	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/opium	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/pesh	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/ruk-tar	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/scour	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/serpents-kiss	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/shiver	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/silvertongue	kind	rule	affliction	addiction		Bastards of Golarion p. 21	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/slavers-drops	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/starspore	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 25	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/stings-savor	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/synthetic-mumia	kind	rule	affliction	addiction		Undead Slayer's Handbook p. 9	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/tears-of-razmir	kind	rule	affliction	addiction		Inner Sea World Guide p. 293	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/vigilance	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/wyrm-pesh	kind	rule	affliction	addiction		Dragonslayer's Handbook p. 19	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/zerk	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/haunt/arcane-storm	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/belated-arrival	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/betrayal	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bleeding-walls	keep-rule	rule	rule			Game Mastery Guide p. 243	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bloody-handprints	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bountiful-feast	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/breach-to-the-quickening	keep-rule	rule	rule			Horror Realms p. 60	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/buried-alive	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/cold-spot	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/crushing-terror	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/death-of-curchanus	keep-rule	rule	rule			Horror Realms p. 62	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/demanding-dead	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/devouring-maws	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/dimensional-tear	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/dissolving-vat	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/droughts-end	keep-rule	rule	rule			Horror Realms p. 62	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/enchanting-demise	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/eternal-pyre	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/fallen-from-the-sky	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/final-soldier	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/flayed-suicide	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/flytrap	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/following-footsteps	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/foreboding-mist	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/haunted-dungeon	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/heart-explosion	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/insidious-presence	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/isolation-haunt	keep-rule	rule	rule			Construct Handbook p. 49	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/living-decay	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/malignant-weapon	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/network-of-lasers	keep-rule	rule	rule			Horror Realms p. 63	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/psychic-echo-anger	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/rapping-spirit	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/robotic-reactivation	keep-rule	rule	rule			Horror Realms p. 63	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/scratching-behind-the-wall	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/servants-of-the-book	keep-rule	rule	rule			Book of the Damned p. 167	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/shifting-seasons	keep-rule	rule	rule			Horror Realms p. 61	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/soul-vortex	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spawn-of-the-abyss	keep-rule	rule	rule			Horror Adventures p. 172	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spectral-screams	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spectral-vermin	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/twisted-wish	keep-rule	rule	rule			Horror Adventures p. 181	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/unsolved-murder	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/watery-grave	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/whispers-from-beyond	keep-rule	rule	rule			Horror Adventures p. 173	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/madness/amnesia	kind	rule	affliction	insanity		Horror Adventures p. 186	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/catatonia	kind	rule	affliction	insanity		Horror Adventures p. 186	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/cognitive-block	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/delirium	kind	rule	affliction	insanity		Horror Adventures p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/delusion	kind	rule	affliction	insanity		Horror Adventures p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/dissociated-identity	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/fugue	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/hallucination	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/mania	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/melancholia	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/moral-insanity	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/night-terrors	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/paranoid	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/phobia	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/psychosomatic-loss	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/schizophrenia	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/skill/acrobatics	kind	rule	skill			Core Rulebook p. 87	folder skill
+ref/skill/appraise	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/artistry-any	kind	rule	skill			Pathfinder Unchained p. 48	folder skill
+ref/skill/bluff	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/climb	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/craft-any	kind	rule	skill			Core Rulebook p. 91	folder skill
+ref/skill/diplomacy	kind	rule	skill			Core Rulebook p. 93	folder skill
+ref/skill/disable-device	kind	rule	skill			Core Rulebook p. 94	folder skill
+ref/skill/disguise	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/escape-artist	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/fly	kind	rule	skill			Core Rulebook p. 96	folder skill
+ref/skill/handle-animal	kind	rule	skill			Core Rulebook p. 97	folder skill
+ref/skill/heal	kind	rule	skill			Core Rulebook p. 98	folder skill
+ref/skill/intimidate	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-all	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-arcana	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-dungeoneering	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-engineering	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-geography	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-history	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-local	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-nature	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-nobility	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-planes	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/knowledge-religion	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/linguistics	kind	rule	skill			Core Rulebook p. 100	folder skill
+ref/skill/lore-any	kind	rule	skill			Pathfinder Unchained p. 50	folder skill
+ref/skill/perception	kind	rule	skill			Core Rulebook p. 102	folder skill
+ref/skill/perform-any	kind	rule	skill			Core Rulebook p. 102	folder skill
+ref/skill/profession-any	kind	rule	skill			Core Rulebook p. 103	folder skill
+ref/skill/ride	kind	rule	skill			Core Rulebook p. 103	folder skill
+ref/skill/sense-motive	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/sleight-of-hand	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/spellcraft	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/stealth	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/survival	kind	rule	skill			Core Rulebook p. 107	folder skill
+ref/skill/swim	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/skill/use-magic-device	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/trap/acid-arrow-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/bear-trap	kind	rule	trap	mechanical		Advanced Player's Guide p. 184	first word of the printed `Type` line
+ref/trap/breakaway-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
+ref/trap/breakaway-vine	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
+ref/trap/burning-hands-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/camouflaged-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/camouflaged-spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/chamber-of-blades-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/clam-clamp	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
+ref/trap/cone-of-cold-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/crushing-cage-tarp	kind	rule	trap	mechanical		Horror Adventures p. 161	first word of the printed `Type` line
+ref/trap/crushing-stone-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/deadfall	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
+ref/trap/deadly-spear-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/destruction-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/electricity-arc-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/empowered-disintegrate-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/energy-drain-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/faceless-statue-trap	kind	rule	trap	magic		Horror Adventures p. 162	first word of the printed `Type` line
+ref/trap/falling-block-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/flame-strike-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/frost-fangs-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/hail-of-arrows-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/harm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/insanity-mist-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/javelin-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/lightning-bolt-gallery-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/maximized-fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/meteor-swarm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/musk-shower	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
+ref/trap/pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/poisoned-dart-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/poisoned-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/razor-grass	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
+ref/trap/shocking-floor-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/sinking-coffin-trap	kind	rule	trap	mechanical		Horror Adventures p. 162	first word of the printed `Type` line
+ref/trap/spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/spring-arm-spike	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
+ref/trap/spring-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
+ref/trap/summon-monster-vi-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/swinging-axe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/swinging-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
+ref/trap/tar-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
+ref/trap/wall-scythe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/wyvern-arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line

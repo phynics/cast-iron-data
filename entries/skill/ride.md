@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/ride"
-kind = "rule"
+kind = "skill"
 title = "Ride"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -135,23 +123,15 @@ Ride is a prerequisite for [Mounted Archery](ref/feat/mounted-archery),
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Ride, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming
+**5 Ranks:** Your mount gains a +2 bonus on Fortitude saves or Constitution checks to avoid becoming
 fatigued or exhausted. This bonus increases by 1 for every 5 ranks beyond 5 you possess in Ride.
 
-**10 Ranks**
+**10 Ranks:** When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus
+on Reflex saves and a +2 dodge bonus to AC.
 
-**Details:** When you spur your mount, its speed is increased by 20 feet, and it gains a +2 bonus on
-Reflex saves and a +2 dodge bonus to AC.
+**15 Ranks:** When an opponent targets you or your mount with a bull rush, drag, overrun,
+reposition, or trip combat maneuver while you are mounted, you can substitute the result of a Ride
+check in place of your (or your mount's) CMD.
 
-**15 Ranks**
-
-**Details:** When an opponent targets you or your mount with a bull rush, drag, overrun, reposition,
-or trip combat maneuver while you are mounted, you can substitute the result of a Ride check in
-place of your (or your mount's) CMD.
-
-**20 Ranks**
-
-**Details:** When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus on
-Reflex saves and a +4 dodge bonus to AC.
+**20 Ranks:** When you spur your mount, its speed is increased by 30 feet, and it gains a +4 bonus
+on Reflex saves and a +4 dodge bonus to AC.

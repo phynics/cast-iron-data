@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/crushing-stone-trap"
-kind = "rule"
+kind = "trap"
 title = "Crushing Stone Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_stone_trap", path = "json/traps.json" },
 ]

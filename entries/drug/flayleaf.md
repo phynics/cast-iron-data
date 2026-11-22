@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/flayleaf"
-kind = "rule"
+kind = "affliction"
 title = "Flayleaf"
 source_ids = ["game-mastery-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flayleaf", path = "json/drugs.json" },
 ]

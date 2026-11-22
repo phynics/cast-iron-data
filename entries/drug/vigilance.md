@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/vigilance"
-kind = "rule"
+kind = "affliction"
 title = "Vigilance"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilance", path = "json/drugs.json" },
 ]

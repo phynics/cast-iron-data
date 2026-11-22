@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/diplomacy"
-kind = "rule"
+kind = "skill"
 title = "Diplomacy"
 source_ids = ["core-rulebook", "game-mastery-guide", "occult-adventures", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "83"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Charisma
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -204,24 +192,16 @@ can't also use it to _recall memories_ on the same day.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Diplomacy, you earn the
 following.
 
-**5 Ranks**
+**5 Ranks:** The time required to influence a creature's attitude or gather information is halved.
 
-**Details:** The time required to influence a creature's attitude or gather information is halved.
-
-**10 Ranks**
-
-**Details:** You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If
+**10 Ranks:** You can attempt to adjust a creature's attitude in 1 round by taking a -10 penalty. If
 you take 1 minute to adjust a creature's attitude, add your Charisma bonus to the number of hours
 that attitude change persists.
 
-**15 Ranks**
+**15 Ranks:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you
+take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in
+days, not hours. You can gather information in 10 minutes by taking a -5 penalty.
 
-**Details:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take
-1 minute to adjust a creature's attitude, the duration of the resulting change is measured in days,
-not hours. You can gather information in 10 minutes by taking a -5 penalty.
-
-**20 Ranks**
-
-**Details:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you take
-1 minute to adjust a creature's attitude, the duration of the resulting change is measured in weeks,
-not hours. You can gather information in 1d4 minutes with no penalty.
+**20 Ranks:** You can attempt to adjust a creature's attitude in 1 round with no penalty. If you
+take 1 minute to adjust a creature's attitude, the duration of the resulting change is measured in
+weeks, not hours. You can gather information in 1d4 minutes with no penalty.

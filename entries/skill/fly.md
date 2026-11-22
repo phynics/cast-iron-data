@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/fly"
-kind = "rule"
+kind = "skill"
 title = "Fly"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "84"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -129,24 +117,16 @@ If you have the [Acrobatic](ref/feat/acrobatic) feat, you get a bonus on Fly che
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Fly, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing
+**5 Ranks:** A successful DC 20 Fly check allows you to make a 45-degree turn without sacrificing
 movement.
 
-**10 Ranks**
-
-**Details:** A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed.
+**10 Ranks:** A successful DC 30 Fly check allows you to ascend at a 45-degree angle at full speed.
 You treat falls after midair collisions as 10 feet shorter with a successful DC 10 Fly check, plus
 10 feet for every 10 points by which you exceed the DC.
 
-**15 Ranks**
-
-**Details:** A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing
+**15 Ranks:** A successful DC 30 Fly check allows you to make a 90-degree turn without sacrificing
 movement, or a 180-degree turn by sacrificing 5 feet of movement. You are considered one size
 category larger when determining wind effects on Fly checks.
 
-**20 Ranks**
-
-**Details:** A successful DC 35 Fly check allows you to fly straight up at full speed. You are
+**20 Ranks:** A successful DC 35 Fly check allows you to fly straight up at full speed. You are
 considered two size categories larger when determining wind effects on Fly checks.

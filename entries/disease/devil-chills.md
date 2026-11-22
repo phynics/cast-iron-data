@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/devil-chills"
-kind = "rule"
+kind = "affliction"
 title = "Devil Chills"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_chills", path = "json/diseases.json" },
 ]

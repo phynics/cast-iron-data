@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/curse-of-bestial-dreams"
-kind = "rule"
+kind = "affliction"
 title = "Curse of Bestial Dreams"
 source_ids = ["doom-comes-to-dustpawn"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_bestial_dreams", path = "json/curses.json" },
 ]

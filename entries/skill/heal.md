@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/heal"
-kind = "rule"
+kind = "skill"
 title = "Heal"
 source_ids = ["core-rulebook", "occult-adventures", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "84"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Wisdom
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Wisdom
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -216,22 +204,14 @@ use Heal to identify and understand pharmaceuticals.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Heal, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** When you treat deadly wounds, the target recovers hit points and ability damage as if
+**5 Ranks:** When you treat deadly wounds, the target recovers hit points and ability damage as if
 it had rested for a full day.
 
-**10 Ranks**
-
-**Details:** When you treat deadly wounds, the target recovers hit points as if it had rested for a
+**10 Ranks:** When you treat deadly wounds, the target recovers hit points as if it had rested for a
 full day with long-term care.
 
-**15 Ranks**
-
-**Details:** When you treat deadly wounds, the creature recovers hit point and ability damage as if
+**15 Ranks:** When you treat deadly wounds, the creature recovers hit point and ability damage as if
 it had rested for 3 days.
 
-**20 Ranks**
-
-**Details:** When you treat deadly wounds, the target recovers hit point and ability damage as if it
-had rested for 3 days with long-term care.
+**20 Ranks:** When you treat deadly wounds, the target recovers hit point and ability damage as if
+it had rested for 3 days with long-term care.

@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/weeping-wound"
-kind = "rule"
+kind = "affliction"
 title = "Weeping Wound"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "weeping_wound", path = "json/curses.json" },
 ]

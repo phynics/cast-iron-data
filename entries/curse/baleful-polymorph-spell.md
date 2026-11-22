@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/baleful-polymorph-spell"
-kind = "rule"
+kind = "affliction"
 title = "Baleful Polymorph Spell"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "baleful_polymorph_spell", path = "json/curses.json" },
 ]

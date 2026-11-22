@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/midnight-milk"
-kind = "rule"
+kind = "affliction"
 title = "Midnight Milk"
 source_ids = ["lost-cities-of-golarion"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "midnight_milk", path = "json/drugs.json" },
 ]

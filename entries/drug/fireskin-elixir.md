@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/fireskin-elixir"
-kind = "rule"
+kind = "affliction"
 title = "Fireskin elixir"
 source_ids = ["blood-of-the-elements"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fireskin_elixir", path = "json/drugs.json" },
 ]

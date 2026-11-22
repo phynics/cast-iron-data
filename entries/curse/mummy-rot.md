@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/mummy-rot"
-kind = "rule"
+kind = "affliction"
 title = "Mummy Rot"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_rot", path = "json/curses.json" },
 ]
