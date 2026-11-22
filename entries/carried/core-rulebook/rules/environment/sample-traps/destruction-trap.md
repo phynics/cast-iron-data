@@ -8,6 +8,9 @@ tags = ["magic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Destruction Trap", path = "core_rulebook/trap/destruction_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"

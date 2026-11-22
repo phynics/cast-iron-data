@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Wyvern Arrow Trap", path = "core_rulebook/trap/wyvern_arrow_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "421"
 
 [fields]
 kind = "none"

@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Insanity Mist Trap", path = "core_rulebook/trap/insanity_mist_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "421"
 
 [fields]
 kind = "none"

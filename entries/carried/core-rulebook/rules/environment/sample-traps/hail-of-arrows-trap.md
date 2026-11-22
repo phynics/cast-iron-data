@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Hail of Arrows Trap", path = "core_rulebook/trap/hail_of_arrows_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "421"
 
 [fields]
 kind = "none"

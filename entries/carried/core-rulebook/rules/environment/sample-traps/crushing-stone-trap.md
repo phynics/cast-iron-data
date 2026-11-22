@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Crushing Stone Trap", path = "core_rulebook/trap/crushing_stone_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"

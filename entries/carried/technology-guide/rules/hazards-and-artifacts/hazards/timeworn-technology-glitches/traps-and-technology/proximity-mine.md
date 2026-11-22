@@ -8,6 +8,9 @@ tags = ["mechanical and technological"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Technology Guide/Rules/Hazards and Artifacts/Hazards/Timeworn Technology Glitches/Traps and Technology/Proximity Mine", path = "technology_guide/trap/proximity_mine.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "56"
 
 [fields]
 kind = "none"

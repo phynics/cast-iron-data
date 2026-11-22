@@ -8,6 +8,9 @@ tags = ["magic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Meteor Swarm Trap", path = "core_rulebook/trap/meteor_swarm_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"

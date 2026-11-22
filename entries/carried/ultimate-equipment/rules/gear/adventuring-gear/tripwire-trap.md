@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Ultimate Equipment/Rules/Gear/Adventuring Gear/Tripwire Trap", path = "ultimate_equipment/trap/tripwire_trap.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "75"
 
 [fields]
 kind = "none"

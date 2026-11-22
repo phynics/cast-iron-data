@@ -8,6 +8,9 @@ tags = ["magic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Cone of Cold Trap", path = "core_rulebook/trap/cone_of_cold_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "421"
 
 [fields]
 kind = "none"

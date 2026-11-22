@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Deadly Spear Trap", path = "core_rulebook/trap/deadly_spear_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"

@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Swinging Axe Trap", path = "core_rulebook/trap/swinging_axe_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "420"
 
 [fields]
 kind = "none"

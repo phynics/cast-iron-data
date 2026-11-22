@@ -8,6 +8,9 @@ tags = ["magic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Environment/Sample Traps/Lightning Bolt Gallery Trap", path = "core_rulebook/trap/lightning_bolt_gallery_trap.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "422"
 
 [fields]
 kind = "none"

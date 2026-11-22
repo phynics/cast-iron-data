@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Ultimate Equipment/Rules/Gear/Tools and Skill Kits/Bear Trap/Bear Trap", path = "ultimate_equipment/trap/bear_trap.json" },
 ]
+[[sources]]
+publication = "ultimate-equipment"
+page = "76"
 
 [fields]
 kind = "none"

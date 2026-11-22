@@ -8,6 +8,9 @@ tags = ["mechanical and technological"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Technology Guide/Rules/Hazards and Artifacts/Hazards/Timeworn Technology Glitches/Traps and Technology/Electrified Door", path = "technology_guide/trap/electrified_door.json" },
 ]
+[[sources]]
+publication = "technology-guide"
+page = "56"
 
 [fields]
 kind = "none"
