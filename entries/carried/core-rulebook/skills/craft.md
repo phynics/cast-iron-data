@@ -17,8 +17,8 @@ kind = "none"
 
 ::: statblock
 Key Ability: Int
-Trained Only: Yes
-Armor Check Penalty: Yes
+Trained Only: No
+Armor Check Penalty: No
 :::
 
 _You are skilled in the creation of a specific group of items, such as armor or weapons. Like

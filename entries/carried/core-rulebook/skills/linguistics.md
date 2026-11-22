@@ -18,7 +18,7 @@ kind = "none"
 ::: statblock
 Key Ability: Int
 Trained Only: Yes
-Armor Check Penalty: Yes
+Armor Check Penalty: No
 :::
 
 _You are skilled at working with language, in both its spoken and written forms. You can speak

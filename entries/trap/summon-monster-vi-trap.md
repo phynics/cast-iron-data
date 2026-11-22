@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([summon monster VI](ref/spell/summon-monster-6), summons 1d3 Large
 elementals or 1 Huge elemental)
+
+**Reset:** none

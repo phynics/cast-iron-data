@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** electricity arc (4d6 electricity damage, DC 20 Reflex save for half damage); multiple
 targets (all targets in a 30-ft. line)
+
+**Reset:** none

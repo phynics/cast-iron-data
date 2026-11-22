@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([flame strike](ref/spell/flame-strike), 8d6 fire damage, DC 17 Reflex save
 for half damage); multiple targets (all targets in a 10-ft.-radius cylinder)
+
+**Reset:** none

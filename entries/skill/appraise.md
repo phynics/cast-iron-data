@@ -28,6 +28,8 @@ Optional Unchained Skill: No
 Optional Background Skill: Yes
 :::
 
+_You can evaluate the monetary value of an object._
+
 ### Check
 
 A DC 20 Appraise check determines the value of a common item. If you succeed by 5 or more, you also

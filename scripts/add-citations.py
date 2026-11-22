@@ -33,6 +33,10 @@ A row has a `page` when one of these gives it, in this order:
      it must agree with a confident proposal, else the row is book-only (sibling-differs);
   3. a confident page proposal: one page for that book, and the book is in `source_ids`.
 
+A page that is none of `N`, `N-N` or a comma list of those (any source, print included) makes the
+row book-only (page-format). `--list-proposal-only` prints the rows that rest on a proposal alone,
+for a reviewer to check in print.
+
 Every other row is book-only and gets a review-queue line that says why (coarse, ambiguous,
 no-page, book-differs, sibling-differs, no-proposal, page-format). Page proposals come from a
 local reference (`--candidates`, the TSV its lookup writes: entry_id, publication, page,
@@ -427,6 +431,7 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
 
 BASIS: Counter[str] = Counter()
 PRINT: dict[tuple[str, str], str] = {}
+PROPOSAL_ONLY: list[tuple[str, str, str]] = []
 
 
 def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
@@ -438,6 +443,8 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
     printed = PRINT.get((entry.id, pub))
     if printed:
         # A page read in print beats every proposal.
+        if not PAGE_FORM.match(printed):
+            return None, "page-format", printed, "the print-pages file gives a page in no known form"
         BASIS["print"] += 1
         if confident and not covers(printed, cpage):
             BASIS["print differs from proposal"] += 1
@@ -453,6 +460,8 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
     if confident:
         if not PAGE_FORM.match(cpage):
             return None, "page-format", cpage, ""
+        BASIS["proposal only"] += 1
+        PROPOSAL_ONLY.append((entry.id, pub, cpage))
         return cpage, None, "", ""
     notes = cand.get("notes", "")
     if cand["confidence"] == "check":
@@ -515,6 +524,8 @@ def main() -> int:
     ap.add_argument("--candidates", type=Path)
     ap.add_argument("--print-pages", type=Path, help=f"pages read in print (default {PRINT_DEFAULT})")
     ap.add_argument("--review", type=Path, help=f"review queue (default {REVIEW_DEFAULT})")
+    ap.add_argument("--list-proposal-only", action="store_true",
+                    help="print the rows whose page is a proposal with no sibling and no print basis")
     ap.add_argument("--sample", type=int, default=0, help="print N random added page rows")
     ap.add_argument("--seed", type=int, default=7)
     mode = ap.add_mutually_exclusive_group()
@@ -620,6 +631,10 @@ def main() -> int:
     for k in sorted(by_reason):
         print(f"    {k}: {by_reason[k]}")
 
+    if opts.list_proposal_only:
+        print(f"\nproposal-only pages ({len(PROPOSAL_ONLY)}): no sibling row, no print basis")
+        for eid, pub, page in sorted(PROPOSAL_ONLY):
+            print(f"  {eid}\t{pub}\t{page}")
     if opts.sample and added_pages:
         rng = random.Random(opts.seed)
         sample = rng.sample(added_pages, min(opts.sample, len(added_pages)))

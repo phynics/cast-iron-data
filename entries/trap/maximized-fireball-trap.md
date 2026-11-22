@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([fireball](ref/spell/fireball), 60 fire damage, DC 14 Reflex save for half
 damage); multiple targets (all targets in a 20-ft.-radius burst)
+
+**Reset:** none

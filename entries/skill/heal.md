@@ -28,6 +28,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at tending to wounds and ailments._
+
 ### Check
 
 The DC and effect of a Heal check depend on the task you attempt.

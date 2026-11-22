@@ -31,6 +31,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_Your senses allow you to notice fine details and alert you to danger. Perception covers all five
+senses, including sight, hearing, touch, taste, and smell._
+
 ### Check
 
 Perception has a number of uses, the most common of which is an opposed check versus an opponent's

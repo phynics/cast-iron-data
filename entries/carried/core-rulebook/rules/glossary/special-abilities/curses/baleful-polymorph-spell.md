@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Curses/Baleful Polymorph Spell", path = "core_rulebook/affliction/curse/baleful_polymorph_spell.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "556"
 
 [fields]
 kind = "none"

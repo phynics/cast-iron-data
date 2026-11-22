@@ -25,6 +25,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at flying, through either the use of wings or magic, and can perform daring or
+complex maneuvers while airborne. Note that this skill does not give you the ability to fly._
+
 ### Check
 
 You generally need only make a Fly check when you are attempting a complex maneuver. Without making

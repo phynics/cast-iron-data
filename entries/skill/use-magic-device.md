@@ -28,6 +28,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at activating magic items, even if you are not otherwise trained in their use._
+
 ### Check
 
 You can use this skill to read a spell or to activate a magic item. Use Magic Device lets you use a

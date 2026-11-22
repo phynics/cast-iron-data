@@ -25,6 +25,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at changing your appearance._
+
 ### Check
 
 Your Disguise check result determines how good the disguise is, and it is opposed by others'

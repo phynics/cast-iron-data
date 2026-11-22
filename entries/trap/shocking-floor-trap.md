@@ -28,3 +28,5 @@ kind = "none"
 **Effect:** spell effect ([shocking grasp](ref/spell/shocking-grasp), Atk +9 melee touch \[4d6
 electricity damage\]); multiple targets (all targets in a 40-ft.-square room); **Duration:** 1d6
 rounds
+
+**Reset:** none

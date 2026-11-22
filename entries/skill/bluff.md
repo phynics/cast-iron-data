@@ -28,6 +28,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You know how to tell a lie._
+
 ### Special
 
 A spellcaster with a [viper](ref/monster/familiar-viper) familiar gains a +3 bonus on Bluff checks.
