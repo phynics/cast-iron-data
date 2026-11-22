@@ -7,6 +7,9 @@ section = ["Skills"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Skills/Use Magic Device", path = "core_rulebook/skill/use_magic_device.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "108"
 
 [fields]
 kind = "none"

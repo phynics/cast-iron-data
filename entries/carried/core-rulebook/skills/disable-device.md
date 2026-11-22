@@ -7,6 +7,9 @@ section = ["Skills"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Skills/Disable Device", path = "core_rulebook/skill/disable_device.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "94"
 
 [fields]
 kind = "none"

@@ -7,6 +7,9 @@ section = ["Skills"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Skills/Sleight of Hand", path = "core_rulebook/skill/sleight_of_hand.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "104"
 
 [fields]
 kind = "none"
