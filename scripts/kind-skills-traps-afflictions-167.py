@@ -727,7 +727,7 @@ def review_rows(plan: Plan, titles: dict[str, str]) -> list[dict]:
         if pair.intro:
             notes.append("the italic opening line of the carried skill")
         notes += [f"a `{label}: none` row" for label in pair.none_rows]
-        notes += [f"{p} source" + (f" page {pg}" if pg else "") for p, pg in pair.new_sources]
+        notes += [f"{titles.get(p, p)}" + (f" p. {pg}" if pg else " (book)") for p, pg in pair.new_sources]
         if notes:
             rows.append(
                 dict(entry_id=pair.kept.id, action="merge", kind_before=pair.kept.kind, kind_after="", tag="", other_id=pair.dropped.id, citation="", reason="merged from the dropped entry: " + "; ".join(notes))

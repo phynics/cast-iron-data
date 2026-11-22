@@ -34,12 +34,12 @@ ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap	
 ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap	alias	trap			ref/trap/swinging-axe-trap	Core Rulebook p. 420	kept ref/trap/swinging-axe-trap: the imported entry holds every fact of the carried entry
 ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap	alias	trap			ref/trap/wall-scythe-trap	Core Rulebook p. 420	kept ref/trap/wall-scythe-trap: the imported entry holds every fact of the carried entry
 ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap	alias	trap			ref/trap/wyvern-arrow-trap	Core Rulebook p. 421	kept ref/trap/wyvern-arrow-trap: the imported entry holds every fact of the carried entry
-ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	merge	affliction			ref/curse/baleful-polymorph-spell		merged from the dropped entry: core-rulebook source page 556
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	merge	affliction			ref/curse/baleful-polymorph-spell		merged from the dropped entry: Core Rulebook p. 556
 ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap	alias	affliction			ref/curse/bestow-curse-trap	Core Rulebook p. 556	kept ref/curse/bestow-curse-trap: the imported entry holds every fact of the carried entry
 ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages	alias	affliction			ref/curse/curse-of-the-ages	Core Rulebook p. 557	kept ref/curse/curse-of-the-ages: the imported entry holds every fact of the carried entry
-ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	merge	affliction			ref/curse/mummy-rot		merged from the dropped entry: core-rulebook source page 557
-ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	merge	affliction			ref/curse/unluck		merged from the dropped entry: core-rulebook source page 557
-ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	merge	affliction			ref/curse/werewolf-lycanthropy		merged from the dropped entry: core-rulebook source page 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	merge	affliction			ref/curse/mummy-rot		merged from the dropped entry: Core Rulebook p. 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	merge	affliction			ref/curse/unluck		merged from the dropped entry: Core Rulebook p. 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	merge	affliction			ref/curse/werewolf-lycanthropy		merged from the dropped entry: Core Rulebook p. 557
 ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness	alias	affliction			ref/disease/blinding-sickness	Core Rulebook p. 557	kept ref/disease/blinding-sickness: the imported entry holds every fact of the carried entry
 ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague	alias	affliction			ref/disease/bubonic-plague	Core Rulebook p. 557	kept ref/disease/bubonic-plague: the imported entry holds every fact of the carried entry
 ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever	alias	affliction			ref/disease/cackle-fever	Core Rulebook p. 557	kept ref/disease/cackle-fever: the imported entry holds every fact of the carried entry
@@ -391,7 +391,7 @@ ref/trap/acid-arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environmen
 ref/trap/arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/bear-trap	kind	rule	trap	mechanical		Advanced Player's Guide p. 184	first word of the printed `Type` line
-ref/trap/bear-trap	merge	trap			ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap		merged from the dropped entry: ultimate-equipment source page 77
+ref/trap/bear-trap	merge	trap			ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap		merged from the dropped entry: Ultimate Equipment p. 77
 ref/trap/breakaway-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/breakaway-vine	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/burning-hands-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
