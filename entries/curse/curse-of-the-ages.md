@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/curse-of-the-ages"
-kind = "rule"
+kind = "affliction"
 title = "Curse of the Ages"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse_of_the_ages", path = "json/curses.json" },
 ]

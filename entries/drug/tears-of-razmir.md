@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/tears-of-razmir"
-kind = "rule"
+kind = "affliction"
 title = "Tears of Razmir"
 source_ids = ["inner-sea-world-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tears_of_razmir", path = "json/drugs.json" },
 ]

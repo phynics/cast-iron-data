@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/perform-any"
-kind = "rule"
+kind = "skill"
 title = "Perform (any)"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "85"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Charisma
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 You are skilled at one form of entertainment, from singing to acting to playing an instrument. Like
 Craft, Knowledge, and Profession, Perform is actually a number of separate skills. You could have
@@ -92,24 +80,16 @@ abilities.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Perform, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can
+**5 Ranks:** Whenever you attempt a Bluff, Diplomacy, Handle Animal, or Intimidate check, you can
 attempt a DC 20 Perform check to gain a +2 circumstance bonus on the check.
 
-**10 Ranks**
-
-**Details:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can
+**10 Ranks:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can
 attempt a DC 25 Perform check to increase the save DC by 1.
 
-**15 Ranks**
-
-**Details:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can
+**15 Ranks:** Whenever you cast a spell with the emotion or language-dependent descriptor, you can
 attempt a DC 30 Perform check to increase your caster level by 1. You must choose whether to use
 this ability or the ability unlocked at 10 ranks when casting the spell.
 
-**20 Ranks**
-
-**Details:** Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt a
-skill check with that skill, you can also attempt a Perform check and use the better result to
+**20 Ranks:** Choose one of the following skills: Bluff, Diplomacy, or Intimidate. When you attempt
+a skill check with that skill, you can also attempt a Perform check and use the better result to
 determine the success of that skill check.

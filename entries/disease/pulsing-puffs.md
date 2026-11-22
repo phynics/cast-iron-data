@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/pulsing-puffs"
-kind = "rule"
+kind = "affliction"
 title = "Pulsing Puffs"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pulsing_puffs", path = "json/diseases.json" },
 ]

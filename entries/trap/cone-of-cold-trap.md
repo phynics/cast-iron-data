@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/cone-of-cold-trap"
-kind = "rule"
+kind = "trap"
 title = "Cone of Cold Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cone_of_cold_trap", path = "json/traps.json" },
 ]

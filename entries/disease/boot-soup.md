@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/boot-soup"
-kind = "rule"
+kind = "affliction"
 title = "Boot Soup"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "boot_soup", path = "json/diseases.json" },
 ]

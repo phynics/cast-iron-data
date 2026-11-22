@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/cursed-earth"
-kind = "rule"
+kind = "affliction"
 title = "Cursed Earth"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cursed_earth", path = "json/curses.json" },
 ]

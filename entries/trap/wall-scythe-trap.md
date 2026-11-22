@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/wall-scythe-trap"
-kind = "rule"
+kind = "trap"
 title = "Wall Scythe Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wall_scythe_trap", path = "json/traps.json" },
 ]

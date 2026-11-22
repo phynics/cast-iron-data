@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/slimy-doom"
-kind = "rule"
+kind = "affliction"
 title = "Slimy Doom"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slimy_doom", path = "json/diseases.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/endless-night"
-kind = "rule"
+kind = "affliction"
 title = "Endless Night"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "endless_night", path = "json/curses.json" },
 ]

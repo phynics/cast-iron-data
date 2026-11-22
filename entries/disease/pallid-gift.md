@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/pallid-gift"
-kind = "rule"
+kind = "affliction"
 title = "Pallid Gift"
 source_ids = ["villain-codex"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pallid_gift", path = "json/diseases.json" },
 ]

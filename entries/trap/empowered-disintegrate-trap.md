@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/empowered-disintegrate-trap"
-kind = "rule"
+kind = "trap"
 title = "Empowered Disintegrate Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "empowered_disintegrate_trap", path = "json/traps.json" },
 ]

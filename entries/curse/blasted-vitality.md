@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/blasted-vitality"
-kind = "rule"
+kind = "affliction"
 title = "Blasted Vitality"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blasted_vitality", path = "json/curses.json" },
 ]

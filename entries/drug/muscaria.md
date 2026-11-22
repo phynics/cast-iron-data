@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/muscaria"
-kind = "rule"
+kind = "affliction"
 title = "Muscaria"
 source_ids = ["pathfinder-110-the-thrushmoor-terror"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "muscaria", path = "json/drugs.json" },
 ]

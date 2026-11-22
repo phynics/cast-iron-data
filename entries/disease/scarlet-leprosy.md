@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/scarlet-leprosy"
-kind = "rule"
+kind = "affliction"
 title = "Scarlet Leprosy"
 source_ids = ["undead-unleashed"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scarlet_leprosy", path = "json/diseases.json" },
 ]

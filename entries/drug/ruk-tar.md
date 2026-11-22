@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/ruk-tar"
-kind = "rule"
+kind = "affliction"
 title = "Ruk Tar"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ruk_tar", path = "json/drugs.json" },
 ]

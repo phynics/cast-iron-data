@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/moxixs-delectation"
-kind = "rule"
+kind = "affliction"
 title = "Moxix's Delectation"
 source_ids = ["pathfinder-58-island-of-empty-eyes"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moxixs_delectation", path = "json/diseases.json" },
 ]

@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/profession-any"
-kind = "rule"
+kind = "skill"
 title = "Profession (any)"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Wisdom
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Wisdom
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a
 number of separate skills. You could have several Profession skills, each with its own ranks. While
@@ -78,22 +66,14 @@ A [gnome](ref/race/gnome) gets a +2 bonus on a Craft or Profession skill of her 
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Profession, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** When using Profession checks to earn income, you earn gold pieces equal to the result
+**5 Ranks:** When using Profession checks to earn income, you earn gold pieces equal to the result
 of your check each week.
 
-**10 Ranks**
-
-**Details:** When attempting Profession checks, you can roll twice and take the better result. When
+**10 Ranks:** When attempting Profession checks, you can roll twice and take the better result. When
 answering questions about your Profession, you can always take 10.
 
-**15 Ranks**
+**15 Ranks:** You can attempt checks to earn income once per day instead of once per week.
 
-**Details:** You can attempt checks to earn income once per day instead of once per week.
-
-**20 Ranks**
-
-**Details:** When attempting Profession checks, you can choose to roll once instead of twice. If you
-do and the result of the roll is less than 10, replace it with 10. When answering questions about
-your Profession, you can always take 20.
+**20 Ranks:** When attempting Profession checks, you can choose to roll once instead of twice. If
+you do and the result of the roll is less than 10, replace it with 10. When answering questions
+about your Profession, you can always take 20.

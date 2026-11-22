@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/deadfall"
-kind = "rule"
+kind = "trap"
 title = "Deadfall"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadfall", path = "json/traps.json" },
 ]

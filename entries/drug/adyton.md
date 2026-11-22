@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/adyton"
-kind = "rule"
+kind = "affliction"
 title = "Adyton"
 source_ids = ["book-of-the-damned"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adyton", path = "json/drugs.json" },
 ]

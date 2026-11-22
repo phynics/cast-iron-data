@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/artistry-any"
-kind = "rule"
+kind = "skill"
 title = "Artistry (any)"
 source_ids = ["pathfinder-unchained"]
 provenance = [
@@ -14,25 +14,13 @@ page = "48"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** Yes
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: Yes
+Optional Background Skill: Yes
+:::
 
 You are skilled in the creative arts, following your aesthetic sensibilities to bring to life the
 wonders of your imagination. Like Craft, Perform, and Profession, Artistry is actually a number of

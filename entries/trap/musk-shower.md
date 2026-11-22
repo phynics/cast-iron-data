@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/musk-shower"
-kind = "rule"
+kind = "trap"
 title = "Musk Shower"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "musk_shower", path = "json/traps.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/firegut"
-kind = "rule"
+kind = "affliction"
 title = "Firegut"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firegut", path = "json/diseases.json" },
 ]

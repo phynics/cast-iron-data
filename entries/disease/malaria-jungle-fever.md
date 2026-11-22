@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/malaria-jungle-fever"
-kind = "rule"
+kind = "affliction"
 title = "Malaria (Jungle Fever)"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malaria_jungle_fever", path = "json/diseases.json" },
 ]

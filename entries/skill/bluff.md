@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/bluff"
-kind = "rule"
+kind = "skill"
 title = "Bluff"
 source_ids = ["core-rulebook", "spymasters-handbook", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "8"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Charisma
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Special
 
@@ -135,25 +123,17 @@ next turn and a free, immediate, move, or swift action becomes a standard action
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Bluff, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** The penalty to Bluff a creature after a failed check is halved unless you failed by 5
+**5 Ranks:** The penalty to Bluff a creature after a failed check is halved unless you failed by 5
 or more.
 
-**10 Ranks**
-
-**Details:** You take no penalty to Bluff a creature after a failed check unless you failed by 5 or
+**10 Ranks:** You take no penalty to Bluff a creature after a failed check unless you failed by 5 or
 more.
 
-**15 Ranks**
-
-**Details:** Creatures magically attempting to read your thoughts, detect your alignment, or reveal
+**15 Ranks:** Creatures magically attempting to read your thoughts, detect your alignment, or reveal
 when you are lying must attempt a caster level check (DC = 11 + your ranks in Bluff) or the effect
 reveals nothing.
 
-**20 Ranks**
-
-**Details:** As a **full-round action**, you can make a [suggestion](ref/spell/suggestion) (as the
+**20 Ranks:** As a **full-round action**, you can make a [suggestion](ref/spell/suggestion) (as the
 spell, maximum duration 1 hour) to a creature within 30 feet (Will negates, DC = 15 + your Charisma
 modifier). A creature that saves against your _[suggestion](ref/spell/suggestion)_ is immune to
 further uses of this effect for 24 hours, and whenever the suggested creature is specifically

@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/linguistics"
-kind = "rule"
+kind = "skill"
 title = "Linguistics"
 source_ids = ["core-rulebook", "occult-adventures", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "85"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 ### Check
 
@@ -164,28 +152,20 @@ for high Intelligence without GM permission.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Linguistics, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** You can use Linguistics instead of Sense Motive to intercept and interpret secret
+**5 Ranks:** You can use Linguistics instead of Sense Motive to intercept and interpret secret
 messages (as the Bluff skill). You gain a +1 insight bonus on Perception and Disable Device checks
 to detect or disarm written magical traps. This bonus increases by 1 for every 5 ranks beyond 5 you
 possess in Linguistics.
 
-**10 Ranks**
-
-**Details:** If you succeed at a Linguistics check by at least 10 when examining writing, you can
+**10 Ranks:** If you succeed at a Linguistics check by at least 10 when examining writing, you can
 learn the precise meaning rather than general content, and you never draw false conclusions on a
 failed check. A successful DC 30 Linguistics check reveals the general meaning of speech, a
 successful DC 35 check reveals 1d4 pieces of specific information, and a successful DC 40 check
 reveals exact meaning.
 
-**15 Ranks**
+**15 Ranks:** You can decipher magical writings (as [read magic](ref/spell/read-magic)) by
+succeeding at a Linguistics check (DC = 25 + caster level). If you identify a written magical trap
+in this way, you gain a +2 circumstance bonus on Disable Device checks to disarm it.
 
-**Details:** You can decipher magical writings (as [read magic](ref/spell/read-magic)) by succeeding
-at a Linguistics check (DC = 25 + caster level). If you identify a written magical trap in this way,
-you gain a +2 circumstance bonus on Disable Device checks to disarm it.
-
-**20 Ranks**
-
-**Details:** You can attempt to decipher magical or nonmagical text at a rate of one page per round.
-If you instead spend 1 minute per page, roll twice and take the better result.
+**20 Ranks:** You can attempt to decipher magical or nonmagical text at a rate of one page per
+round. If you instead spend 1 minute per page, roll twice and take the better result.

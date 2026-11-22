@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/knowledge-engineering"
-kind = "rule"
+kind = "skill"
 title = "Knowledge (engineering)"
 source_ids = ["core-rulebook", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "85"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 You are educated in a field of study and can answer both simple and complex questions. Like the
 Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different
@@ -98,24 +86,16 @@ feat.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Knowledge, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** When you successfully identify a creature, you gain one additional piece of information
+**5 Ranks:** When you successfully identify a creature, you gain one additional piece of information
 for every 5 ranks you possess in that Knowledge skill.
 
-**10 Ranks**
-
-**Details:** When you successfully identify a creature, you gain a +1 competence bonus on attack
+**10 Ranks:** When you successfully identify a creature, you gain a +1 competence bonus on attack
 rolls, opposed ability checks, skill checks, and caster level checks against creatures of that kind
 (e.g., glabrezu demons, but not other demons or evil outsiders) for 1 minute. This bonus increases
 by 1 for every 5 ranks beyond 10 you possess in that Knowledge skill.
 
-**15 Ranks**
-
-**Details:** When you fail a Knowledge check, you can reroll the check at a -10 penalty. The
+**15 Ranks:** When you fail a Knowledge check, you can reroll the check at a -10 penalty. The
 competence bonus above also applies to saving throws against exceptional, spell-like, or
 supernatural abilities used by creatures you identify.
 
-**20 Ranks**
-
-**Details:** Whenever you attempt a Knowledge check, you can roll twice and take the better result.
+**20 Ranks:** Whenever you attempt a Knowledge check, you can roll twice and take the better result.

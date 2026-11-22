@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/hunt-of-the-bogeyman"
-kind = "rule"
+kind = "affliction"
 title = "Hunt of the Bogeyman"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunt_of_the_bogeyman", path = "json/curses.json" },
 ]

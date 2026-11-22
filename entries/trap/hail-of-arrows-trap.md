@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/hail-of-arrows-trap"
-kind = "rule"
+kind = "trap"
 title = "Hail of Arrows Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hail_of_arrows_trap", path = "json/traps.json" },
 ]

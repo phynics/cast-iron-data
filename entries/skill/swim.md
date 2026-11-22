@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/swim"
-kind = "rule"
+kind = "skill"
 title = "Swim"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "87"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Strength
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Strength
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -86,21 +74,13 @@ If you have the [Athletic](ref/feat/athletic) feat, you get a bonus on Swim chec
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Swim, you earn the
 following.
 
-**5 Ranks**
+**5 Ranks:** You gain a swim speed of 10 feet, but only in water with a Swim DC of 15 or lower.
 
-**Details:** You gain a swim speed of 10 feet, but only in water with a Swim DC of 15 or lower.
+**10 Ranks:** You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks)
+equal to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.
 
-**10 Ranks**
-
-**Details:** You gain a swim speed (though you do not gain the +8 racial bonus on Swim checks) equal
-to your base speed in water with a Swim DC of 15 or lower, or 10 feet in all other water.
-
-**15 Ranks**
-
-**Details:** You ignore the penalties for using slashing or bludgeoning weapons underwater, as
+**15 Ranks:** You ignore the penalties for using slashing or bludgeoning weapons underwater, as
 [freedom of movement](ref/spell/freedom-of-movement).
 
-**20 Ranks**
-
-**Details:** You gain a swim speed equal to your base speed in all water. If you have both hands
+**20 Ranks:** You gain a swim speed equal to your base speed in all water. If you have both hands
 free, you gain a +8 racial bonus on Swim checks.

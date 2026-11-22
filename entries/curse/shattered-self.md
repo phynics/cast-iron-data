@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/shattered-self"
-kind = "rule"
+kind = "affliction"
 title = "Shattered Self"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shattered_self", path = "json/curses.json" },
 ]

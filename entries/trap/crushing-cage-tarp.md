@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/crushing-cage-tarp"
-kind = "rule"
+kind = "trap"
 title = "Crushing Cage Tarp"
 source_ids = ["horror-adventures"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crushing_cage_tarp", path = "json/traps.json" },
 ]

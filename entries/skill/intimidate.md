@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/intimidate"
-kind = "rule"
+kind = "skill"
 title = "Intimidate"
 source_ids = ["core-rulebook", "spymasters-handbook", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "8"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Charisma
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -113,31 +101,23 @@ You can't attempt long-term coercion against the same target again for 1 week.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Intimidate, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** If you exceed the DC to demoralize a target by at least 10, it is
+**5 Ranks:** If you exceed the DC to demoralize a target by at least 10, it is
 [frightened](ref/misc/frightened) for 1 round and shaken thereafter.\* A Will save (DC = 10 + your
 number of ranks in Intimidate) negates the frightened condition, but the target is still shaken,
 even if it has the _stalwart_ ability.
 
-**10 Ranks**
-
-**Details:** If you exceed the DC to demoralize a target by at least 10, it is
+**10 Ranks:** If you exceed the DC to demoralize a target by at least 10, it is
 [panicked](ref/misc/panicked) for 1 round or frightened for 1d4 rounds (your choice) and shaken
 thereafter.\* A Will save (DC = 10 + your number of ranks in Intimidate) negates the frightened or
 panicked condition, but the target is still shaken, even if it has the _stalwart_ ability.
 
-**15 Ranks**
-
-**Details:** If you exceed the DC to demoralize a target by at least 20, it is
+**15 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is
 [cowering](ref/misc/cowering) for 1 round or panicked for 1d4 rounds (your choice) and frightened
 thereafter.\* A Will save (DC = 10 + your number of ranks in Intimidate) negates the cowering,
 panicked, and frightened conditions, but the target is still shaken, even if it has the _stalwart_
 ability.
 
-**20 Ranks**
-
-**Details:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4
+**20 Ranks:** If you exceed the DC to demoralize a target by at least 20, it is cowering for 1d4
 rounds and panicked thereafter.\* A Will save (DC = 10 + your number of ranks in Intimidate) negates
 the cowering and panicked conditions, but the target is still shaken, even if it has the _stalwart_
 ability.

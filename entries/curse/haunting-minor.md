@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/haunting-minor"
-kind = "rule"
+kind = "affliction"
 title = "Minor Haunting"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "haunting_minor", path = "json/curses.json" },
 ]

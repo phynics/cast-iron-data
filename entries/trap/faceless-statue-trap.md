@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/faceless-statue-trap"
-kind = "rule"
+kind = "trap"
 title = "Faceless Statue Trap"
 source_ids = ["horror-adventures"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faceless_statue_trap", path = "json/traps.json" },
 ]

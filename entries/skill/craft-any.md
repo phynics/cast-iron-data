@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/craft-any"
-kind = "rule"
+kind = "skill"
 title = "Craft (any)"
 source_ids = ["core-rulebook", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "83"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 You are skilled in the creation of a specific group of items, such as armor or weapons. Like
 [Knowledge](ref/skill/knowledge-all), [Perform](ref/skill/perform-any), and
@@ -193,21 +181,13 @@ players before allowing technological crafting into the game.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Craft, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** When determining your weekly progress, double the result of your Craft check before
+**5 Ranks:** When determining your weekly progress, double the result of your Craft check before
 multiplying the result by the item's DC.
 
-**10 Ranks**
+**10 Ranks:** You do not ruin any of your raw materials unless you fail a check by 10 or more.
 
-**Details:** You do not ruin any of your raw materials unless you fail a check by 10 or more.
-
-**15 Ranks**
-
-**Details:** When you determine your progress, the result of your check is how much work you
+**15 Ranks:** When you determine your progress, the result of your check is how much work you
 complete each day in silver pieces.
 
-**20 Ranks**
-
-**Details:** You can craft magic armor, magic weapons, magic rings, and wondrous items that fall
+**20 Ranks:** You can craft magic armor, magic weapons, magic rings, and wondrous items that fall
 under your category of Craft using the normal Craft rules.

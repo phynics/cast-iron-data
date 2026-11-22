@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/use-magic-device"
-kind = "rule"
+kind = "skill"
 title = "Use Magic Device"
 source_ids = ["core-rulebook", "spymasters-handbook", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "8"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Charisma
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -176,23 +164,15 @@ during which you try out magic words or other appropriate actions.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Use Magic Device, you
 earn the following.
 
-**5 Ranks**
-
-**Details:** You can use the aid another action to assist another creature's Use Magic Device check
+**5 Ranks:** You can use the aid another action to assist another creature's Use Magic Device check
 by attempting a check against the item's Use Magic Device DC.
 
-**10 Ranks**
-
-**Details:** If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic
+**10 Ranks:** If you roll a natural 1 when activating an item, you take a -10 penalty on Use Magic
 Device checks with that item for 24 hours instead of being unable to activate it. This penalty
 stacks with itself.
 
-**15 Ranks**
+**15 Ranks:** You can use this skill to emulate two races or two alignments simultaneously.
 
-**Details:** You can use this skill to emulate two races or two alignments simultaneously.
-
-**20 Ranks**
-
-**Details:** If you roll a natural 1 when activating an item, you can reroll the check at a -10
+**20 Ranks:** If you roll a natural 1 when activating an item, you can reroll the check at a -10
 penalty to activate the item. You must take the result of the second check, even if it is worse, and
 you can't reroll it again.

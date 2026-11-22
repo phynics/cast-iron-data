@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/blightburn-sickness"
-kind = "rule"
+kind = "affliction"
 title = "Blightburn Sickness"
 source_ids = ["undead-unleashed", "mythic-realms"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blightburn_sickness", path = "json/diseases.json" },
 ]

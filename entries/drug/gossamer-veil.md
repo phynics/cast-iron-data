@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/gossamer-veil"
-kind = "rule"
+kind = "affliction"
 title = "Gossamer Veil"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gossamer_veil", path = "json/drugs.json" },
 ]

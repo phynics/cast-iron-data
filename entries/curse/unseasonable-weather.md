@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/unseasonable-weather"
-kind = "rule"
+kind = "affliction"
 title = "Unseasonable Weather"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unseasonable_weather", path = "json/curses.json" },
 ]

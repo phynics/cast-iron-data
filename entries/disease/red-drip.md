@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/red-drip"
-kind = "rule"
+kind = "affliction"
 title = "Red Drip"
 source_ids = ["undead-unleashed", "heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "red_drip", path = "json/diseases.json" },
 ]

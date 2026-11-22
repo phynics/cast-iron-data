@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/filth-fever"
-kind = "rule"
+kind = "affliction"
 title = "Filth Fever"
 source_ids = ["core-rulebook"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "filth_fever", path = "json/diseases.json" },
 ]

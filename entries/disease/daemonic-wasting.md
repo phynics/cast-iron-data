@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/daemonic-wasting"
-kind = "rule"
+kind = "affliction"
 title = "Daemonic Wasting"
 source_ids = ["pathfinder-54-the-empty-throne"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_wasting", path = "json/diseases.json" },
 ]

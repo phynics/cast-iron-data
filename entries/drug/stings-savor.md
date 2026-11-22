@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/stings-savor"
-kind = "rule"
+kind = "affliction"
 title = "Sting's Savor"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stings_savor", path = "json/drugs.json" },
 ]

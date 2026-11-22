@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/unluck"
-kind = "rule"
+kind = "affliction"
 title = "Unluck"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "unluck", path = "json/curses.json" },
 ]

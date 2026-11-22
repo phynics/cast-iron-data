@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/destruction-trap"
-kind = "rule"
+kind = "trap"
 title = "Destruction Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "destruction_trap", path = "json/traps.json" },
 ]

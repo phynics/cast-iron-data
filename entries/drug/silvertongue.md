@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/silvertongue"
-kind = "rule"
+kind = "affliction"
 title = "Silvertongue"
 source_ids = ["bastards-of-golarion"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "silvertongue", path = "json/drugs.json" },
 ]

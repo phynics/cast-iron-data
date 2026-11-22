@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/spring-snare"
-kind = "rule"
+kind = "trap"
 title = "Spring Snare"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_snare", path = "json/traps.json" },
 ]

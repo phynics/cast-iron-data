@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/bear-trap"
-kind = "rule"
+kind = "trap"
 title = "Bear Trap"
 source_ids = ["advanced-players-guide"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_trap", path = "json/traps.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/sleeping-sickness"
-kind = "rule"
+kind = "affliction"
 title = "Sleeping Sickness"
 source_ids = ["heart-of-the-jungle", "pathfinder-38-racing-to-ruin"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sleeping_sickness", path = "json/diseases.json" },
 ]

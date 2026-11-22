@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/acrobatics"
-kind = "rule"
+kind = "skill"
 title = "Acrobatics"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "82"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Dexterity
+Trained Only: No
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Action
 
@@ -147,26 +135,18 @@ the most severe modifier for any one condition applies.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Acrobatics, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** You can move at normal speed through a threatened square without provoking an attack of
+**5 Ranks:** You can move at normal speed through a threatened square without provoking an attack of
 opportunity by increasing the DC of the check by 5 (instead of by 10). You aren't denied your
 Dexterity bonus when attempting Acrobatics checks with DCs of 20 or lower.
 
-**10 Ranks**
-
-**Details:** You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD
+**10 Ranks:** You can attempt an Acrobatics check at a -10 penalty and use the result as your CMD
 against trip maneuvers. You can also attempt an Acrobatics check at a -10 penalty in place of a
 Reflex save to avoid falling. You must choose to use this ability before the trip attempt or Reflex
 save is rolled. With a successful DC 20 Acrobatics check, you treat an unintentional fall as 10 feet
 shorter plus 10 feet for every 10 by which you exceed the DC, and treat an intentional fall as 10
 feet shorter for every 10 by which you exceed the DC.
 
-**15 Ranks**
+**15 Ranks:** You do not provoke attacks of opportunity when standing up from prone.
 
-**Details:** You do not provoke attacks of opportunity when standing up from prone.
-
-**20 Ranks**
-
-**Details:** You double the result of any Acrobatics check when jumping and never fall prone at the
+**20 Ranks:** You double the result of any Acrobatics check when jumping and never fall prone at the
 end of a fall as long as you remain conscious.

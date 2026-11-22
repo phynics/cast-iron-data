@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/chillbane-fever"
-kind = "rule"
+kind = "affliction"
 title = "Chillbane Fever"
 source_ids = ["irrisen-land-of-eternal-winter"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chillbane_fever", path = "json/diseases.json" },
 ]

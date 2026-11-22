@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/shiver"
-kind = "rule"
+kind = "affliction"
 title = "Shiver"
 source_ids = ["game-mastery-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shiver", path = "json/drugs.json" },
 ]

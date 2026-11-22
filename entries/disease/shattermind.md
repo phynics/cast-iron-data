@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/shattermind"
-kind = "rule"
+kind = "affliction"
 title = "Shattermind"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shattermind", path = "json/diseases.json" },
 ]

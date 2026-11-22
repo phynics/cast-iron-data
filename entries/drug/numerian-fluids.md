@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/numerian-fluids"
-kind = "rule"
+kind = "affliction"
 title = "Numerian Fluids"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "numerian_fluids", path = "json/drugs.json" },
 ]

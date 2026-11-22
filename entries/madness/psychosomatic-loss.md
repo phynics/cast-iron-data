@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/psychosomatic-loss"
-kind = "rule"
+kind = "affliction"
 title = "Psychosomatic Loss"
 source_ids = ["horror-adventures"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychosomatic_loss", path = "json/madness.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/electricity-arc-trap"
-kind = "rule"
+kind = "trap"
 title = "Electricity Arc Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "electricity_arc_trap", path = "json/traps.json" },
 ]

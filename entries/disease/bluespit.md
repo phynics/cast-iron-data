@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/bluespit"
-kind = "rule"
+kind = "affliction"
 title = "Bluespit"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bluespit", path = "json/diseases.json" },
 ]

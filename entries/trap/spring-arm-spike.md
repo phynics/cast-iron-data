@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/spring-arm-spike"
-kind = "rule"
+kind = "trap"
 title = "Spring-arm Spike"
 source_ids = ["ultimate-wilderness"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spring_arm_spike", path = "json/traps.json" },
 ]

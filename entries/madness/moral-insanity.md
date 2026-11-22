@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/moral-insanity"
-kind = "rule"
+kind = "affliction"
 title = "Moral Insanity"
 source_ids = ["horror-adventures", "game-mastery-guide"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "moral_insanity", path = "json/madness.json" },
 ]

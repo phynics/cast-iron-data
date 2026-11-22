@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/vorels-phage"
-kind = "rule"
+kind = "affliction"
 title = "Vorel's Phage"
 source_ids = ["pathfinder-2-the-skinsaw-murders"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorels_phage", path = "json/diseases.json" },
 ]

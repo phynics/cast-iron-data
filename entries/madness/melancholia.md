@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/melancholia"
-kind = "rule"
+kind = "affliction"
 title = "Melancholia"
 source_ids = ["horror-adventures"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "melancholia", path = "json/madness.json" },
 ]

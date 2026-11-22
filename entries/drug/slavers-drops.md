@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/slavers-drops"
-kind = "rule"
+kind = "affliction"
 title = "Slaver's Drops"
 source_ids = ["rival-guide"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slavers_drops", path = "json/drugs.json" },
 ]

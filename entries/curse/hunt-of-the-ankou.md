@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/hunt-of-the-ankou"
-kind = "rule"
+kind = "affliction"
 title = "Hunt of the Ankou"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunt_of_the_ankou", path = "json/curses.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/esoterum"
-kind = "rule"
+kind = "affliction"
 title = "Esoterum"
 source_ids = ["potions-and-poisons"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoterum", path = "json/drugs.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/night-terrors"
-kind = "rule"
+kind = "affliction"
 title = "Night Terrors"
 source_ids = ["horror-adventures"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "night_terrors", path = "json/madness.json" },
 ]

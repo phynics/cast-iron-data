@@ -1,8 +1,9 @@
 +++
 id = "ref/drug/felwil"
-kind = "rule"
+kind = "affliction"
 title = "Felwil"
 source_ids = ["bastards-of-golarion"]
+tags = ["addiction"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "felwil", path = "json/drugs.json" },
 ]

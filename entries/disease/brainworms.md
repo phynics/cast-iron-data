@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/brainworms"
-kind = "rule"
+kind = "affliction"
 title = "Brainworms"
 source_ids = ["heart-of-the-jungle"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brainworms", path = "json/diseases.json" },
 ]

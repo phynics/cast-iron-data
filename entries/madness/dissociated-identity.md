@@ -1,8 +1,9 @@
 +++
 id = "ref/madness/dissociated-identity"
-kind = "rule"
+kind = "affliction"
 title = "Dissociated Identity"
 source_ids = ["horror-adventures", "game-mastery-guide"]
+tags = ["insanity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dissociated_identity", path = "json/madness.json" },
 ]

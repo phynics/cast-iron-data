@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/knowledge-all"
-kind = "rule"
+kind = "skill"
 title = "Knowledge"
 source_ids = ["core-rulebook", "spymasters-handbook"]
 provenance = [
@@ -17,25 +17,13 @@ page = "9"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Varies
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Varies
+:::
 
 You are educated in a field of study and can answer both simple and complex questions. Like the
 [Craft](ref/skill/craft-any), [Perform](ref/skill/perform-any), and

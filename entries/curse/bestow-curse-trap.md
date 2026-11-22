@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/bestow-curse-trap"
-kind = "rule"
+kind = "affliction"
 title = "Bestow Curse Trap"
 source_ids = ["core-rulebook"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bestow_curse_trap", path = "json/curses.json" },
 ]

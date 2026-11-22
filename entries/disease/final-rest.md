@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/final-rest"
-kind = "rule"
+kind = "affliction"
 title = "Final Rest"
 source_ids = ["numeria-land-of-fallen-stars"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "final_rest", path = "json/diseases.json" },
 ]

@@ -1,8 +1,9 @@
 +++
 id = "ref/curse/tormenting-visions"
-kind = "rule"
+kind = "affliction"
 title = "Tormenting Visions"
 source_ids = ["horror-adventures"]
+tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tormenting_visions", path = "json/curses.json" },
 ]

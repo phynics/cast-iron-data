@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/swinging-axe-trap"
-kind = "rule"
+kind = "trap"
 title = "Swinging Axe Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swinging_axe_trap", path = "json/traps.json" },
 ]

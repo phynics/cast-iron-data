@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/lightning-bolt-gallery-trap"
-kind = "rule"
+kind = "trap"
 title = "Lightning Bolt Gallery Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lightning_bolt_gallery_trap", path = "json/traps.json" },
 ]

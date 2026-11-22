@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/sleight-of-hand"
-kind = "rule"
+kind = "skill"
 title = "Sleight of Hand"
 source_ids = ["core-rulebook", "spymasters-handbook", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Dexterity
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** Yes
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Dexterity
+Trained Only: Yes
+Armor Check Penalty: Yes
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 ### Check
 
@@ -111,22 +99,14 @@ If you have the [Deft Hands](ref/feat/deft-hands) feat, you get a bonus on Sleig
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Sleight of Hand, you earn
 the following.
 
-**5 Ranks**
-
-**Details:** When attempting a [disarm](ref/rule/disarm) or steal maneuver, a successful Sleight of
+**5 Ranks:** When attempting a [disarm](ref/rule/disarm) or steal maneuver, a successful Sleight of
 Hand check against your target's CMD grants a +2 circumstance bonus on your combat maneuver check.
 
-**10 Ranks**
-
-**Details:** The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon)
+**10 Ranks:** The penalty for attempting a Sleight of Hand check (including drawing a hidden weapon)
 as a **move action** is reduced to -10.
 
-**15 Ranks**
-
-**Details:** You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a
+**15 Ranks:** You can attempt a Sleight of Hand check (including drawing a hidden weapon) as a
 **swift action** at a -20 penalty.
 
-**20 Ranks**
-
-**Details:** You take no penalty for using Sleight of Hand as a **move action**, and take only a -10
-penalty when using it as a **swift action**.
+**20 Ranks:** You take no penalty for using Sleight of Hand as a **move action**, and take only a
+-10 penalty when using it as a **swift action**.

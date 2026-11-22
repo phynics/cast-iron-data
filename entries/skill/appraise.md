@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/appraise"
-kind = "rule"
+kind = "skill"
 title = "Appraise"
 source_ids = ["core-rulebook", "occult-adventures", "pathfinder-unchained"]
 provenance = [
@@ -20,25 +20,13 @@ page = "82"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 ### Check
 
@@ -117,25 +105,17 @@ psychometry only once per day.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Appraise, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** A successful DC 20 Appraise check reveals whether an item is magical, and a second
+**5 Ranks:** A successful DC 20 Appraise check reveals whether an item is magical, and a second
 check (DC = 25 + the item's caster level) unveils its properties. You can use Appraise to detect
 non-written forgeries and counterfeits.
 
-**10 Ranks**
-
-**Details:** You can determine the most expensive object a creature is wearing or wielding (or in a
+**10 Ranks:** You can determine the most expensive object a creature is wearing or wielding (or in a
 5-foot cube) as a **standard action** by succeeding at a DC 20 check. You never make a wildly
 inaccurate appraisal of an item's value.
 
-**15 Ranks**
+**15 Ranks:** Determining the most expensive object as above is a **move action**. You can
+substitute an Appraise check at a -10 penalty for a Will save to disbelieve a figment or glamer.
 
-**Details:** Determining the most expensive object as above is a **move action**. You can substitute
-an Appraise check at a -10 penalty for a Will save to disbelieve a figment or glamer.
-
-**20 Ranks**
-
-**Details:** Determining the most expensive object as above is a **move action**, and if the check
+**20 Ranks:** Determining the most expensive object as above is a **move action**, and if the check
 succeeds, you gain a +2 circumstance bonus on combat maneuver checks to steal that object or disarm
 a creature of that object for 1 minute.

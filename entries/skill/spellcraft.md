@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/spellcraft"
-kind = "rule"
+kind = "skill"
 title = "Spellcraft"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "86"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -100,23 +88,15 @@ Spellcraft is also used in the [salvaging](ref/rule/salvaging) rules.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Spellcraft, you earn the
 following.
 
-**5 Ranks**
-
-**Details:** Identifying magic items takes 1 full round, and the time required to learn a spell from
+**5 Ranks:** Identifying magic items takes 1 full round, and the time required to learn a spell from
 a spellbook is halved.
 
-**10 Ranks**
-
-**Details:** You can identify magic items without using [detect magic](ref/spell/detect-magic),
+**10 Ranks:** You can identify magic items without using [detect magic](ref/spell/detect-magic),
 though the DC is increased by 10.
 
-**15 Ranks**
-
-**Details:** Identifying magic items is a **standard action**, and the time required to learn a new
+**15 Ranks:** Identifying magic items is a **standard action**, and the time required to learn a new
 spell from a spellbook is reduced to 1 minute per spell level.
 
-**20 Ranks**
-
-**Details:** Whenever you attempt a caster level check, attempt a Spellcraft check at a -20 penalty
+**20 Ranks:** Whenever you attempt a caster level check, attempt a Spellcraft check at a -20 penalty
 at the same DC. If the spellcraft check succeeds, you gain a +2 circumstance bonus on your caster
 level check.

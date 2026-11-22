@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/summon-monster-vi-trap"
-kind = "rule"
+kind = "trap"
 title = "Summon Monster VI Trap"
 source_ids = ["core-rulebook"]
+tags = ["magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "summon_monster_vi_trap", path = "json/traps.json" },
 ]

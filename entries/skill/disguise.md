@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/disguise"
-kind = "rule"
+kind = "skill"
 title = "Disguise"
 source_ids = ["core-rulebook", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "83"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Charisma
-
-**Trained Only**
-
-**Details:** No
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** No
+::: statblock
+Key Ability: Charisma
+Trained Only: No
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: No
+:::
 
 ### Check
 
@@ -112,20 +100,12 @@ If you have the [Deceitful](ref/feat/deceitful) feat, you gain a bonus on Disgui
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Disguise, you earn the
 following.
 
-**5 Ranks**
+**5 Ranks:** You can create a disguise in 1d3 minutes.
 
-**Details:** You can create a disguise in 1d3 minutes.
-
-**10 Ranks**
-
-**Details:** You can create a disguise in 1d3 rounds. If you take the full normal amount of time to
+**10 Ranks:** You can create a disguise in 1d3 rounds. If you take the full normal amount of time to
 create your disguise, you take no penalty for disguising your gender, race, or age category.
 
-**15 Ranks**
+**15 Ranks:** You can create a disguise as a **full-round action**.
 
-**Details:** You can create a disguise as a **full-round action**.
-
-**20 Ranks**
-
-**Details:** You can create a disguise as a **standard action**, or as a full-round action combined
+**20 Ranks:** You can create a disguise as a **standard action**, or as a full-round action combined
 with a Bluff check to create a diversion to hide.

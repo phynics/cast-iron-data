@@ -1,8 +1,9 @@
 +++
 id = "ref/disease/crypt-fever"
-kind = "rule"
+kind = "affliction"
 title = "Crypt Fever"
 source_ids = ["tomb-of-the-iron-medusa"]
+tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crypt_fever", path = "json/diseases.json" },
 ]

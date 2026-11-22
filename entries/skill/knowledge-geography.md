@@ -1,6 +1,6 @@
 +++
 id = "ref/skill/knowledge-geography"
-kind = "rule"
+kind = "skill"
 title = "Knowledge (geography)"
 source_ids = ["core-rulebook", "technology-guide", "pathfinder-unchained"]
 provenance = [
@@ -17,25 +17,13 @@ page = "85"
 kind = "none"
 +++
 
-**Associated Skill**
-
-**Details:** Intelligence
-
-**Trained Only**
-
-**Details:** Yes
-
-**Armor Check Penalty**
-
-**Details:** No
-
-**Optional Unchained Skill**
-
-**Details:** No
-
-**Optional Background Skill**
-
-**Details:** Yes
+::: statblock
+Key Ability: Intelligence
+Trained Only: Yes
+Armor Check Penalty: No
+Optional Unchained Skill: No
+Optional Background Skill: Yes
+:::
 
 You are educated in a field of study and can answer both simple and complex questions. Like the
 Craft, Perform, and Profession skills, Knowledge actually encompasses a number of different
@@ -83,12 +71,8 @@ use Knowledge (geography) for astronomy.
 If using [skill unlocks](ref/rule/skill-unlocks), with sufficient ranks in Knowledge, you earn the
 following.
 
-**15 Ranks**
-
-**Details:** When you fail a Knowledge check, you can reroll the check at a -10 penalty. The
+**15 Ranks:** When you fail a Knowledge check, you can reroll the check at a -10 penalty. The
 competence bonus above also applies to saving throws against exceptional, spell-like, or
 supernatural abilities used by creatures you identify.
 
-**20 Ranks**
-
-**Details:** Whenever you attempt a Knowledge check, you can roll twice and take the better result.
+**20 Ranks:** Whenever you attempt a Knowledge check, you can roll twice and take the better result.

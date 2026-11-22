@@ -1,8 +1,9 @@
 +++
 id = "ref/trap/falling-block-trap"
-kind = "rule"
+kind = "trap"
 title = "Falling Block Trap"
 source_ids = ["core-rulebook"]
+tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "falling_block_trap", path = "json/traps.json" },
 ]
