@@ -7,6 +7,9 @@ section = ["Skills"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Skills/Handle Animal", path = "core_rulebook/skill/handle_animal.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "97"
 
 [fields]
 kind = "none"
