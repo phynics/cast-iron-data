@@ -27,7 +27,7 @@ Tattered and yellowed, this belt is made up of dozens of interwoven linen wraps 
 simple stone buckle at the front. Crafted from mummified wrappings, these belts are commonly used by
 explorers in the vast deserts of what was once Ancient Osirion. While worn, the belt grants a +4
 resistance bonus on saving throws against disease, including supernatural diseases such as
-[mummy rot](ref/curse/mummy-rot).
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot).
 
 A canopic wrap also causes strange internal shifts in key organs, moving them randomly within the
 body. Because of this odd effect, the wearer gains the benefits of the

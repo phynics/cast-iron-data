@@ -28,6 +28,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You can use this skill to frighten an opponent or to get them to act in a way that benefits you.
+This skill includes verbal threats and displays of prowess._
+
 ### Check
 
 You can use Intimidate to force an opponent to act friendly toward you for 1d6 × 10 minutes with a

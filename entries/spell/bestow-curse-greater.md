@@ -61,7 +61,8 @@ You place a curse on the subject. Choose one of the following.
 - -8 penalty on attack rolls, saves, ability checks, and skill checks.
 - Each turn, the target has a 25% chance to act normally; otherwise, it takes no actions.
 - Bestow one of the curses or variants in this article.
-- Bestow [curse of the ages](ref/curse/curse-of-the-ages) or [unluck](ref/curse/unluck).
+- Bestow [curse of the ages](ref/curse/curse-of-the-ages) or
+  [unluck](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck).
 
 If a specific affliction is bestowed, the save DC of the spell replaces the usual save DC of the
 affliction. You can also invent your own curse, but it should be no more powerful than those

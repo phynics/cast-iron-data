@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([energy drain](ref/spell/energy-drain), Atk +10 ranged touch, 2d4
 temporary negative levels, DC 23 Fortitude negates after 24 hours)
+
+**Reset:** none

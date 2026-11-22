@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** jets of freezing water (3d6 cold damage, DC 20 Reflex save for half damage); multiple
 targets (all targets in a 40-ft.-square chamber); **Duration:** 3 rounds
+
+**Reset:** none

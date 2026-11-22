@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([acid arrow](ref/spell/acid-arrow), Atk +2 ranged touch, 2d4 acid damage
 for 4 rounds)
+
+**Reset:** none

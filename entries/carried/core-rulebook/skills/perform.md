@@ -14,8 +14,8 @@ kind = "none"
 
 ::: statblock
 Key Ability: Cha
-Trained Only: Yes
-Armor Check Penalty: Yes
+Trained Only: No
+Armor Check Penalty: No
 :::
 
 _You are skilled at one form of entertainment, from singing to acting to playing an instrument. Like

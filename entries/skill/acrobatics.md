@@ -25,6 +25,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You can keep your balance while traversing narrow or treacherous surfaces. You can also dive, flip,
+jump, and roll to avoid attacks and overcome obstacles._
+
 ### Action
 
 None. An Acrobatics check is made as part of another action or as a reaction to a situation.

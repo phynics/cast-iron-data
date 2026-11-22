@@ -25,6 +25,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_Your training allows you to slip out of bonds and escape from grapples._
+
 ### Check
 
 The table below gives the DCs needed to escape various forms of restraints.

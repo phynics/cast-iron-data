@@ -126,9 +126,10 @@ various methods, such as uttering insignificant lies, obvious lies, or non-state
 **Gift:** Once per day as an **immediate action**, you can reroll an ability check, attack roll,
 caster level check, saving throw, or skill check after learning the result.
 
-At manifestation level 8th, you can also lay a [curse of unluck](ref/curse/unluck) upon a creature
-once per day. This takes a **standard action**, and must target a creature you can see within 30
-feet.
+At manifestation level 8th, you can also lay a
+[curse of unluck](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck) upon a
+creature once per day. This takes a **standard action**, and must target a creature you can see
+within 30 feet.
 
 **Stain:** You can't benefit from morale bonuses. You take a -2 penalty on Perform and Sense Motive
 checks.

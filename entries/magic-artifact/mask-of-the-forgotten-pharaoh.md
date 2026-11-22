@@ -52,9 +52,11 @@ similar effects. Additionally, the wearer can cast _[animate dead](ref/spell/ani
 day as a [spell-like ability](ref/umr/spell-like-abilities).
 
 If worn by a good character, the mask grants its wearer immunity to disease, including supernatural
-diseases such as [mummy rot](ref/curse/mummy-rot). In addition, the wearer can cast
-[death ward](ref/spell/death-ward) and [speak with dead](ref/spell/speak-with-dead) each once per
-day as a [spell-like ability](ref/umr/spell-like-abilities).
+diseases such as
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot). In
+addition, the wearer can cast [death ward](ref/spell/death-ward) and
+[speak with dead](ref/spell/speak-with-dead) each once per day as a
+[spell-like ability](ref/umr/spell-like-abilities).
 
 A neutral character who is neither good nor evil must choose to be treated as either good or evil
 when he first dons the mask. Once made, this choice cannot be reversed. A neutral character who uses

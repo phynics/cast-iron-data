@@ -15,7 +15,7 @@ kind = "none"
 ::: statblock
 Key Ability: Wis
 Trained Only: Yes
-Armor Check Penalty: Yes
+Armor Check Penalty: No
 :::
 
 _You are skilled at a specific job. Like Craft, Knowledge, and Perform, Profession is actually a

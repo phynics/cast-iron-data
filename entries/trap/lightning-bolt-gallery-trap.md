@@ -28,3 +28,5 @@ kind = "none"
 **Effect:** spell effect ([heightened](ref/feat/heighten-spell)
 [lightning bolt](ref/spell/lightning-bolt), 8d6 electricity damage, DC 16 Reflex save for half);
 multiple targets (all targets in a 60-ft.-square chamber); **Duration:** 1d6 rounds
+
+**Reset:** none

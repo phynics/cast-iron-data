@@ -2,7 +2,7 @@
 id = "ref/trap/bear-trap"
 kind = "trap"
 title = "Bear Trap"
-source_ids = ["advanced-players-guide"]
+source_ids = ["advanced-players-guide", "ultimate-equipment"]
 tags = ["mechanical"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bear_trap", path = "json/traps.json" },
@@ -10,6 +10,9 @@ provenance = [
 [[sources]]
 publication = "advanced-players-guide"
 page = "184"
+[[sources]]
+publication = "ultimate-equipment"
+page = "77"
 
 [fields]
 kind = "none"

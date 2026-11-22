@@ -167,7 +167,8 @@ physical and mental disease tracks
 
 **Cure:** remove curse and remove disease within 1 minute of each other
 
-**Original Curse** [Mummy Rot](ref/curse/mummy-rot)
+**Original Curse**
+[Mummy Rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot)
 
 ### Red Ache
 

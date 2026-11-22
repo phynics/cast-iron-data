@@ -203,7 +203,7 @@ effects. This ability functions only while you are conscious, not if you're unco
 **Gained:** At 3rd Level
 
 **Passive:** You are immune to all diseases, including supernatural and magical diseases, including
-[mummy rot](ref/curse/mummy-rot).
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot).
 
 **Mercy (Su)**
 
