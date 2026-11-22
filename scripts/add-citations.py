@@ -25,13 +25,24 @@ Slices (`--slice`, repeatable):
                  book, in `source_ids` order. `--books` limits a slice to the entries whose first
                  `source_ids` book is listed.
 
-A row has a `page` only when a page candidate is confident: one page for that book, and the
-book is in `source_ids`. Every other row is book-only and gets a review-queue line that says why
-(coarse, ambiguous, no-page, book-differs, sibling-differs, no-proposal, page-format). A skill
-also checks its candidate against the sibling `ref/skill/*` entry. Page candidates are proposals
-from a local reference (`--candidates`, the TSV that its lookup writes: entry_id, publication,
-page, confidence, notes). The reference is not part of the corpus and is not committed. Each page
-a write adds still needs a check against print, on a sample per slice (`--sample`).
+A row has a `page` when one of these gives it, in this order:
+
+  1. a page read in print (`scripts/citation-print-pages-170.tsv`: entry_id, publication, page,
+     basis; committed, one line per page);
+  2. for a skill and a trap, the sibling `ref/skill/*` or `ref/trap/*` entry's row for the book;
+     it must agree with a confident proposal, else the row is book-only (sibling-differs);
+  3. a confident page proposal: one page for that book, and the book is in `source_ids`.
+
+A page that is none of `N`, `N-N` or a comma list of those (any source, print included) makes the
+row book-only (page-format). `--list-proposal-only` prints the rows that rest on a proposal alone,
+for a reviewer to check in print.
+
+Every other row is book-only and gets a review-queue line that says why (coarse, ambiguous,
+no-page, book-differs, sibling-differs, no-proposal, page-format). Page proposals come from a
+local reference (`--candidates`, the TSV its lookup writes: entry_id, publication, page,
+confidence, notes). The reference is not part of the corpus and is not committed, so a rerun
+without `--candidates` and with rows in place changes nothing. Each page a write adds still needs
+a check against print, on a sample per slice (`--sample`).
 
 The review queue (`scripts/citation-review-170.tsv`) holds the books that have a row and no
 page, and the paragraphs that stayed. A later pass fills in a page and the line goes away on the
@@ -50,6 +61,7 @@ from collections import Counter
 from pathlib import Path
 
 REVIEW_DEFAULT = "scripts/citation-review-170.tsv"
+PRINT_DEFAULT = "scripts/citation-print-pages-170.tsv"
 PARAGRAPH_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker"}
 REVIEW_COLUMNS = ["entry_id", "kind", "publication", "reason", "candidate_page", "note"]
 SLICES = [
@@ -404,11 +416,11 @@ def load_candidates(path: Path | None) -> dict[tuple[str, str], dict]:
 
 
 def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
-    """Skill only: the page the sibling `ref/skill/<name>` entry gives for the book."""
-    if entry.kind != "skill":
+    """Skill and trap: the page the sibling `ref/<kind>/<name>` entry gives for the book."""
+    if entry.kind not in ("skill", "trap"):
         return None
     name = entry.id.rsplit("/", 1)[-1]
-    sib = by_id.get(f"ref/skill/{name}")
+    sib = by_id.get(f"ref/{entry.kind}/{name}")
     if sib is None:
         return None
     for row in sib.rows:
@@ -417,21 +429,39 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
     return None
 
 
+BASIS: Counter[str] = Counter()
+PRINT: dict[tuple[str, str], str] = {}
+PROPOSAL_ONLY: list[tuple[str, str, str]] = []
+
+
 def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
     """(page or None, review reason or None, candidate page, note)."""
     cand = cands.get((entry.id, pub))
     sib = sibling_page(entry, pub, by_id)
     cpage = (cand or {}).get("page") or ""
     confident = bool(cand) and cand["confidence"] == "confident" and cpage
+    printed = PRINT.get((entry.id, pub))
+    if printed:
+        # A page read in print beats every proposal.
+        if not PAGE_FORM.match(printed):
+            return None, "page-format", printed, "the print-pages file gives a page in no known form"
+        BASIS["print"] += 1
+        if confident and not covers(printed, cpage):
+            BASIS["print differs from proposal"] += 1
+        return printed, None, "", ""
     if sib:
         if confident and not covers(sib, cpage) and not covers(cpage, sib):
+            BASIS["sibling differs"] += 1
             return None, "sibling-differs", cpage, f"sibling entry gives {sib}"
+        BASIS["sibling agrees with proposal" if confident else "sibling only"] += 1
         return sib, None, "", ""
     if cand is None:
         return None, "no-proposal", "", ""
     if confident:
         if not PAGE_FORM.match(cpage):
             return None, "page-format", cpage, ""
+        BASIS["proposal only"] += 1
+        PROPOSAL_ONLY.append((entry.id, pub, cpage))
         return cpage, None, "", ""
     notes = cand.get("notes", "")
     if cand["confidence"] == "check":
@@ -492,7 +522,10 @@ def main() -> int:
     ap.add_argument("--slice", action="append", choices=SLICES, required=True, dest="slices")
     ap.add_argument("--books", help="comma list of publication ids (first book of source_ids)")
     ap.add_argument("--candidates", type=Path)
+    ap.add_argument("--print-pages", type=Path, help=f"pages read in print (default {PRINT_DEFAULT})")
     ap.add_argument("--review", type=Path, help=f"review queue (default {REVIEW_DEFAULT})")
+    ap.add_argument("--list-proposal-only", action="store_true",
+                    help="print the rows whose page is a proposal with no sibling and no print basis")
     ap.add_argument("--sample", type=int, default=0, help="print N random added page rows")
     ap.add_argument("--seed", type=int, default=7)
     mode = ap.add_mutually_exclusive_group()
@@ -508,6 +541,10 @@ def main() -> int:
     entries = load_entries(root)
     by_id = {e.id: e for e in entries}
     cands = load_candidates(opts.candidates)
+    print_path = opts.print_pages or root / PRINT_DEFAULT
+    if print_path.exists():
+        for key, row in load_candidates(print_path).items():
+            PRINT[key] = row["page"]
     order = {pid: i for i, pid in enumerate(titles)}
 
     counts: Counter[str] = Counter()
@@ -586,12 +623,18 @@ def main() -> int:
     print(f"corpus {root}")
     for k in sorted(counts):
         print(f"  {k}: {counts[k]}")
+    for k in sorted(BASIS):
+        print(f"  {k}: {BASIS[k]}")
     print(f"  entry files to change: {len(changed)}")
     print(f"  review queue: {len(merged)} lines ({len(new_reviews)} from this run, {stale} stale dropped)")
     by_reason = Counter(r["reason"] for r in new_reviews)
     for k in sorted(by_reason):
         print(f"    {k}: {by_reason[k]}")
 
+    if opts.list_proposal_only:
+        print(f"\nproposal-only pages ({len(PROPOSAL_ONLY)}): no sibling row, no print basis")
+        for eid, pub, page in sorted(PROPOSAL_ONLY):
+            print(f"  {eid}\t{pub}\t{page}")
     if opts.sample and added_pages:
         rng = random.Random(opts.seed)
         sample = rng.sample(added_pages, min(opts.sample, len(added_pages)))

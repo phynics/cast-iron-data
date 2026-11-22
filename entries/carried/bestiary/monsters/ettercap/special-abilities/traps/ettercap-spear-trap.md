@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps/Ettercap Spear Trap", path = "bestiary/trap/ettercap_spear_trap.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "129"
 
 [fields]
 kind = "none"

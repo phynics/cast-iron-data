@@ -8,6 +8,8 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Traps/Ensnaring Dirt Trap", path = "monster_codex/trap/ensnaring_dirt_trap.json" },
 ]
+[[sources]]
+publication = "monster-codex"
 
 [fields]
 kind = "none"

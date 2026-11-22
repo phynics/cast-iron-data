@@ -8,6 +8,9 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Ettercap/Special Abilities/Traps/Ettercap Noose", path = "bestiary/trap/ettercap_noose.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "129"
 
 [fields]
 kind = "none"

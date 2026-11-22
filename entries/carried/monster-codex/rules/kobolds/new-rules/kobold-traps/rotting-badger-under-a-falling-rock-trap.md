@@ -8,6 +8,8 @@ tags = ["mechanical"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Monster Codex/Rules/Kobolds/New Rules/Kobold Traps/Rotting Badger Under a Falling Rock Trap", path = "monster_codex/trap/rotting_badger_under_a_falling_rock_trap.json" },
 ]
+[[sources]]
+publication = "monster-codex"
 
 [fields]
 kind = "none"
