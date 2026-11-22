@@ -26,3 +26,5 @@ kind = "none"
 **Trigger:** location
 
 **Effect:** Atk +15 ranged (1d6+6)
+
+**Reset:** none

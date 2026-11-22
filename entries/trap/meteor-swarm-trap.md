@@ -29,3 +29,5 @@ kind = "none"
 ranged touch, 2d6 plus 6d6 fire \[-4 save on a hit\], DC 23 Reflex save for half fire damage, 18d6
 fire damage from other meteors, DC 23 Reflex save for half damage); multiple targets (four targets,
 no two of which can be more than 40 ft. apart)
+
+**Reset:** none

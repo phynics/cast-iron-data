@@ -25,6 +25,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at avoiding detection, allowing you to slip past foes or strike from an unseen
+position. This skill covers hiding and moving silently._
+
 ### Check
 
 Your Stealth check is opposed by the [Perception](ref/skill/perception) check of anyone who might

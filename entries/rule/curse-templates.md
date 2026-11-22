@@ -46,7 +46,7 @@ accursed contributes to this resurrection, she receives a +4 bonus on this savin
 | --- | --- |
 |1-5|[Minor haunting](ref/curse/haunting-minor) or [weeping wound](ref/curse/weeping-wound)|
 |6-10|[Bestow curse](ref/spell/bestow-curse), [major haunting](ref/curse/haunting-major), or [tormenting visions](ref/curse/tormenting-visions)|
-|11-15|[Hunt of the Bogeyman](ref/curse/hunt-of-the-bogeyman), [shattered self](ref/curse/shattered-self), or [unluck](ref/curse/unluck)|
+|11-15|[Hunt of the Bogeyman](ref/curse/hunt-of-the-bogeyman), [shattered self](ref/curse/shattered-self), or [unluck](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck)|
 |16-20|[Hunt of the Ankou](ref/curse/hunt-of-the-ankou) or [sealed fate](ref/curse/sealed-fate)|
 
 ### Generational Curse

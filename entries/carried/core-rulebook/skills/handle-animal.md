@@ -15,7 +15,7 @@ kind = "none"
 ::: statblock
 Key Ability: Cha
 Trained Only: Yes
-Armor Check Penalty: Yes
+Armor Check Penalty: No
 :::
 
 _You are trained at working with animals, and can teach them tricks, get them to follow your simple

@@ -25,6 +25,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at the art of casting spells, identifying magic items, crafting magic items, and
+identifying spells as they are being cast._
+
 ### Check
 
 Spellcraft is used whenever your knowledge and skill of the technical art of casting a spell or

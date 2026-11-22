@@ -24,5 +24,6 @@ Your unarmed strikes and natural weapons cause extra harm to those infected with
 a creature to contract a disease, you gain a +2 bonus on attack rolls with natural weapons and
 unarmed strikes against that creature. In addition, such attacks deal an additional 1d6 points of
 negative energy damage. If you have the supernatural ability to cause a single disease (such as
-[mummy rot](ref/curse/mummy-rot)), you gain these bonuses against any creature that has contracted
-the same disease, even if it did not contract it from you.
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot)), you gain
+these bonuses against any creature that has contracted the same disease, even if it did not contract
+it from you.

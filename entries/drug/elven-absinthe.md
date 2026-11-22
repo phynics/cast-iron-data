@@ -23,6 +23,6 @@ kind = "none"
 
 **Price:** 500 gp
 
-**Effect:** 1 hour; +1d4 Cha damage
+**Effect:** 1 hour; +1d4 Cha
 
 **Damage:** Constitution 1d4

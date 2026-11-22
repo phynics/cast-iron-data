@@ -40,46 +40,46 @@ The duration and effect of the drug.
 The amount and type of ability damage caused.
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
+target = "ref/drug/aether"
 title = "AEther"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
+target = "ref/drug/dwarven-fire-ale"
 title = "Dwarven Fire Ale"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
+target = "ref/drug/elven-absinthe"
 title = "Elven Absinthe"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
+target = "ref/drug/flayleaf"
 title = "Flayleaf"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
+target = "ref/drug/opium"
 title = "Opium"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
+target = "ref/drug/pesh"
 title = "Pesh"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
+target = "ref/drug/scour"
 title = "Scour"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
+target = "ref/drug/shiver"
 title = "Shiver"
 :::
 
 ::: entry-link
-target = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
+target = "ref/drug/zerk"
 title = "Zerk"
 :::

@@ -32,8 +32,9 @@ ability damage caused by an undead's special attack (such as a shadow's touch). 
 otherwise acts as per _[lesser restoration](ref/spell/restoration-lesser)_ or
 _[remove curse](ref/spell/remove-curse)_ with a +5 bonus on the check. Unlike normal applications of
 _[remove curse](ref/spell/remove-curse),_ purifying ointment can potentially remove an affliction
-that is both a curse and disease (such as [mummy rot](ref/curse/mummy-rot)), though that requires
-two successful caster level checks.
+that is both a curse and disease (such as
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot)), though
+that requires two successful caster level checks.
 
 ### Construction
 

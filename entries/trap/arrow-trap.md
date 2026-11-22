@@ -26,3 +26,5 @@ kind = "none"
 **Trigger:** touch
 
 **Effect:** Atk +15 ranged (1d8+1/×3)
+
+**Reset:** none

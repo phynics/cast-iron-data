@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([burning hands](ref/spell/burning-hands), 2d4 fire damage, DC 11 Reflex
 save for half damage); multiple targets (all targets in a 15-ft. cone)
+
+**Reset:** none

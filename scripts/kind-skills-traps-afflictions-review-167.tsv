@@ -1,4 +1,98 @@
 entry_id	action	kind_before	kind_after	tag	other_id	citation	reason
+ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap	alias	trap			ref/trap/bear-trap	Advanced Player's Guide p. 184	kept ref/trap/bear-trap: the imported entry holds every fact of the carried entry
+ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap	book-node-removed				advanced-players-guide		the kept entry already has a node in this book
+ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap	alias	trap			ref/trap/acid-arrow-trap	Core Rulebook p. 420	kept ref/trap/acid-arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap	alias	trap			ref/trap/arrow-trap	Core Rulebook p. 420	kept ref/trap/arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap	alias	trap			ref/trap/burning-hands-trap	Core Rulebook p. 420	kept ref/trap/burning-hands-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap	alias	trap			ref/trap/camouflaged-pit-trap	Core Rulebook p. 420	kept ref/trap/camouflaged-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap	alias	trap			ref/trap/camouflaged-spiked-pit-trap	Core Rulebook p. 421	kept ref/trap/camouflaged-spiked-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap	alias	trap			ref/trap/chamber-of-blades-trap	Core Rulebook p. 421	kept ref/trap/chamber-of-blades-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap	alias	trap			ref/trap/cone-of-cold-trap	Core Rulebook p. 421	kept ref/trap/cone-of-cold-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap	alias	trap			ref/trap/crushing-stone-trap	Core Rulebook p. 422	kept ref/trap/crushing-stone-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap	alias	trap			ref/trap/deadly-spear-trap	Core Rulebook p. 422	kept ref/trap/deadly-spear-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap	alias	trap			ref/trap/destruction-trap	Core Rulebook p. 422	kept ref/trap/destruction-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap	alias	trap			ref/trap/electricity-arc-trap	Core Rulebook p. 420	kept ref/trap/electricity-arc-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap	alias	trap			ref/trap/empowered-disintegrate-trap	Core Rulebook p. 422	kept ref/trap/empowered-disintegrate-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap	alias	trap			ref/trap/energy-drain-trap	Core Rulebook p. 421	kept ref/trap/energy-drain-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap	alias	trap			ref/trap/falling-block-trap	Core Rulebook p. 420	kept ref/trap/falling-block-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap	alias	trap			ref/trap/fireball-trap	Core Rulebook p. 421	kept ref/trap/fireball-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap	alias	trap			ref/trap/flame-strike-trap	Core Rulebook p. 421	kept ref/trap/flame-strike-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap	alias	trap			ref/trap/frost-fangs-trap	Core Rulebook p. 421	kept ref/trap/frost-fangs-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap	alias	trap			ref/trap/hail-of-arrows-trap	Core Rulebook p. 421	kept ref/trap/hail-of-arrows-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap	alias	trap			ref/trap/harm-trap	Core Rulebook p. 422	kept ref/trap/harm-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap	alias	trap			ref/trap/insanity-mist-trap	Core Rulebook p. 421	kept ref/trap/insanity-mist-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap	alias	trap			ref/trap/javelin-trap	Core Rulebook p. 420	kept ref/trap/javelin-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap	alias	trap			ref/trap/lightning-bolt-gallery-trap	Core Rulebook p. 422	kept ref/trap/lightning-bolt-gallery-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap	alias	trap			ref/trap/maximized-fireball-trap	Core Rulebook p. 421	kept ref/trap/maximized-fireball-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap	alias	trap			ref/trap/meteor-swarm-trap	Core Rulebook p. 422	kept ref/trap/meteor-swarm-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap	alias	trap			ref/trap/pit-trap	Core Rulebook p. 420	kept ref/trap/pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap	alias	trap			ref/trap/poisoned-dart-trap	Core Rulebook p. 420	kept ref/trap/poisoned-dart-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap	alias	trap			ref/trap/poisoned-pit-trap	Core Rulebook p. 421	kept ref/trap/poisoned-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap	alias	trap			ref/trap/shocking-floor-trap	Core Rulebook p. 421	kept ref/trap/shocking-floor-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap	alias	trap			ref/trap/spiked-pit-trap	Core Rulebook p. 420	kept ref/trap/spiked-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap	alias	trap			ref/trap/summon-monster-vi-trap	Core Rulebook p. 421	kept ref/trap/summon-monster-vi-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap	alias	trap			ref/trap/swinging-axe-trap	Core Rulebook p. 420	kept ref/trap/swinging-axe-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap	alias	trap			ref/trap/wall-scythe-trap	Core Rulebook p. 420	kept ref/trap/wall-scythe-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap	alias	trap			ref/trap/wyvern-arrow-trap	Core Rulebook p. 421	kept ref/trap/wyvern-arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	merge	affliction			ref/curse/baleful-polymorph-spell		merged from the dropped entry: Core Rulebook p. 556
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap	alias	affliction			ref/curse/bestow-curse-trap	Core Rulebook p. 556	kept ref/curse/bestow-curse-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages	alias	affliction			ref/curse/curse-of-the-ages	Core Rulebook p. 557	kept ref/curse/curse-of-the-ages: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	merge	affliction			ref/curse/mummy-rot		merged from the dropped entry: Core Rulebook p. 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	variant				ref/carried/bestiary/monsters/mummy/special-abilities/mummy-rot/mummy-rot		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	merge	affliction			ref/curse/unluck		merged from the dropped entry: Core Rulebook p. 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	merge	affliction			ref/curse/werewolf-lycanthropy		merged from the dropped entry: Core Rulebook p. 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness	alias	affliction			ref/disease/blinding-sickness	Core Rulebook p. 557	kept ref/disease/blinding-sickness: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague	alias	affliction			ref/disease/bubonic-plague	Core Rulebook p. 557	kept ref/disease/bubonic-plague: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever	alias	affliction			ref/disease/cackle-fever	Core Rulebook p. 557	kept ref/disease/cackle-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever	alias	affliction			ref/disease/demon-fever	Core Rulebook p. 557	kept ref/disease/demon-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills	alias	affliction			ref/disease/devil-chills	Core Rulebook p. 557	kept ref/disease/devil-chills: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever	alias	affliction			ref/disease/filth-fever	Core Rulebook p. 557	kept ref/disease/filth-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy	alias	affliction			ref/disease/leprosy	Core Rulebook p. 557	kept ref/disease/leprosy: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire	alias	affliction			ref/disease/mindfire	Core Rulebook p. 557	kept ref/disease/mindfire: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache	alias	affliction			ref/disease/red-ache	Core Rulebook p. 557	kept ref/disease/red-ache: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes	alias	affliction			ref/disease/shakes	Core Rulebook p. 557	kept ref/disease/shakes: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom	alias	affliction			ref/disease/slimy-doom	Core Rulebook p. 557	kept ref/disease/slimy-doom: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/acrobatics	alias	skill			ref/skill/acrobatics	Core Rulebook p. 87	kept ref/skill/acrobatics: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/appraise	alias	skill			ref/skill/appraise	Core Rulebook p. 90	kept ref/skill/appraise: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/bluff	alias	skill			ref/skill/bluff	Core Rulebook p. 90	kept ref/skill/bluff: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/climb	alias	skill			ref/skill/climb	Core Rulebook p. 90	kept ref/skill/climb: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/craft	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/diplomacy	alias	skill			ref/skill/diplomacy	Core Rulebook p. 93	kept ref/skill/diplomacy: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/disable-device	alias	skill			ref/skill/disable-device	Core Rulebook p. 94	kept ref/skill/disable-device: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/disguise	alias	skill			ref/skill/disguise	Core Rulebook p. 95	kept ref/skill/disguise: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/escape-artist	alias	skill			ref/skill/escape-artist	Core Rulebook p. 95	kept ref/skill/escape-artist: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/fly	alias	skill			ref/skill/fly	Core Rulebook p. 96	kept ref/skill/fly: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/handle-animal	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/heal	alias	skill			ref/skill/heal	Core Rulebook p. 98	kept ref/skill/heal: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/intimidate	alias	skill			ref/skill/intimidate	Core Rulebook p. 99	kept ref/skill/intimidate: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/knowledge	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/linguistics	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/perception	alias	skill			ref/skill/perception	Core Rulebook p. 102	kept ref/skill/perception: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/perform	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/profession	row-fix	skill				Core Rulebook p. 88	`Armor Check Penalty: Yes` became `Armor Check Penalty: No`: the imported twin and Table 4-3 (Skill Summary, the Untrained column and the armor check penalty asterisk) agree; the carried stat block said Yes for every skill
+ref/carried/core-rulebook/skills/ride	alias	skill			ref/skill/ride	Core Rulebook p. 103	kept ref/skill/ride: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/sense-motive	alias	skill			ref/skill/sense-motive	Core Rulebook p. 104	kept ref/skill/sense-motive: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/sleight-of-hand	alias	skill			ref/skill/sleight-of-hand	Core Rulebook p. 104	kept ref/skill/sleight-of-hand: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/spellcraft	alias	skill			ref/skill/spellcraft	Core Rulebook p. 106	kept ref/skill/spellcraft: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/stealth	alias	skill			ref/skill/stealth	Core Rulebook p. 106	kept ref/skill/stealth: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/survival	alias	skill			ref/skill/survival	Core Rulebook p. 107	kept ref/skill/survival: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/swim	alias	skill			ref/skill/swim	Core Rulebook p. 108	kept ref/skill/swim: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/use-magic-device	alias	skill			ref/skill/use-magic-device	Core Rulebook p. 108	kept ref/skill/use-magic-device: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether	alias	affliction			ref/drug/aether	Game Mastery Guide p. 237	kept ref/drug/aether: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale	alias	affliction			ref/drug/dwarven-fire-ale	Game Mastery Guide p. 237	kept ref/drug/dwarven-fire-ale: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe	alias	affliction			ref/drug/elven-absinthe	Game Mastery Guide p. 237	kept ref/drug/elven-absinthe: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf	alias	affliction			ref/drug/flayleaf	Game Mastery Guide p. 237	kept ref/drug/flayleaf: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium	alias	affliction			ref/drug/opium	Game Mastery Guide p. 237	kept ref/drug/opium: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh	alias	affliction			ref/drug/pesh	Game Mastery Guide p. 237	kept ref/drug/pesh: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour	alias	affliction			ref/drug/scour	Game Mastery Guide p. 237	kept ref/drug/scour: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver	alias	affliction			ref/drug/shiver	Game Mastery Guide p. 237	kept ref/drug/shiver: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk	alias	affliction			ref/drug/zerk	Game Mastery Guide p. 237	kept ref/drug/zerk: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia	alias	affliction			ref/madness/amnesia	Horror Adventures p. 186	kept ref/madness/amnesia: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia	alias	affliction			ref/madness/schizophrenia	Horror Adventures p. 187	kept ref/madness/schizophrenia: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap	alias	trap			ref/trap/bear-trap	Advanced Player's Guide p. 184	kept ref/trap/bear-trap: the imported entry holds every fact of the carried entry
+ref/curse/baleful-polymorph-spell	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell: only the carried entry holds every fact of the imported entry
 ref/curse/baleful-polymorph-spell	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
 ref/curse/bestow-curse-trap	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
 ref/curse/blasted-vitality	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
@@ -11,6 +105,7 @@ ref/curse/haunting-minor	kind	rule	affliction	curse		Horror Adventures p. 138	fi
 ref/curse/hunt-of-the-ankou	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
 ref/curse/hunt-of-the-bogeyman	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/jealous-structure	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
+ref/curse/mummy-rot	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot: only the carried entry holds every fact of the imported entry
 ref/curse/mummy-rot	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/curse/perilous-demesne-grand	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
 ref/curse/perilous-demesne-greater	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
@@ -19,9 +114,11 @@ ref/curse/perilous-demesne-minor	kind	rule	affliction	curse		Horror Adventures p
 ref/curse/sealed-fate	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/shattered-self	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/tormenting-visions	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/unluck	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck: only the carried entry holds every fact of the imported entry
 ref/curse/unluck	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/curse/unseasonable-weather	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
 ref/curse/weeping-wound	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/werewolf-lycanthropy	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy: only the carried entry holds every fact of the imported entry
 ref/curse/werewolf-lycanthropy	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/blightburn-sickness	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
 ref/disease/blinding-sickness	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -32,11 +129,22 @@ ref/disease/bonecrusher-dengue	kind	rule	affliction	disease		Heart of the Jungle
 ref/disease/boot-soup	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/brainworms	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/bubonic-plague	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/bubonic-plague	print-fix	affliction				Core Rulebook p. 557	'Charisma damage 1d4, and target is fatigued' became 'Charisma damage 1, and target is fatigued': print prints `Effect 1d4 Con damage and 1 Cha damage and target is fatigued`; the imported text said 1d4 Charisma damage
+ref/disease/bubonic-plague	variant				ref/affliction/daughter-of-urgathoa/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/div-pairaka/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/drekavac/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/ghole/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/plague-swarm-rat-plague-swarm-mythic/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/rat-king/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/tick-tick-swarm/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/vrykolakas/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/cackle-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/chillbane-fever	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
+ref/disease/chillbane-fever	variant				ref/affliction/khala/chillbane-fever		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/cowards-mark	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
 ref/disease/crypt-fever	kind	rule	affliction	disease		Tomb of the Iron Medusa p. 13	first word of the printed `Type` line
 ref/disease/daemonic-wasting	kind	rule	affliction	disease		Pathfinder #54: The Empty Throne p. 28	first word of the printed `Type` line
+ref/disease/daemonic-wasting	variant				ref/carried/bestiary-2/monsters/daemon/meladaemon/special-abilities/disease/daemonic-wasting		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/demon-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/demonplague	kind	rule	affliction	disease		The Worldwound p. 29	first word of the printed `Type` line
 ref/disease/devil-chills	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -49,6 +157,7 @@ ref/disease/final-rest	kind	rule	affliction	disease		Numeria, Land of Fallen Sta
 ref/disease/firegut	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/fungal-flu	kind	rule	affliction	disease		Pathfinder #13: Shadow in the Sky p. 81	first word of the printed `Type` line
 ref/disease/ghoul-fever	kind	rule	affliction	disease		Bestiary p. 146	first word of the printed `Type` line
+ref/disease/ghoul-fever	variant				ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/glacier-plague	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
 ref/disease/green-haze	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/greenscale	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
@@ -56,13 +165,18 @@ ref/disease/leprosy	kind	rule	affliction	disease		Core Rulebook p. 557	first wor
 ref/disease/malaria-jungle-fever	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/mindfire	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/moxixs-delectation	kind	rule	affliction	disease		Pathfinder #58: Island of Empty Eyes p. 67	first word of the printed `Type` line
+ref/disease/moxixs-delectation	variant				ref/affliction/moxix/moxixs-delectation		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/pallid-gift	kind	rule	affliction	disease		Villain Codex	first word of the printed `Type` line
 ref/disease/pulsing-puffs	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
+ref/disease/pulsing-puffs	variant				ref/affliction/polevik/pulsing-puffs		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/rabies	kind	rule	affliction	disease		Bestiary p. 87	first word of the printed `Type` line
+ref/disease/rabies	variant				ref/carried/bestiary/monsters/dog/dog/dog/rabies		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/red-ache	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/red-ache	variant				ref/affliction/tick-giant-tick/red-ache		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/red-drip	kind	rule	affliction	disease		Undead Unleashed p. 63	first word of the printed `Type` line
 ref/disease/scarlet-leprosy	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
 ref/disease/shakes	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/shakes	variant				ref/affliction/div-pairaka/shakes		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/shattermind	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
 ref/disease/sleeping-sickness	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
 ref/disease/slimy-doom	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -72,15 +186,21 @@ ref/disease/the-scales	kind	rule	affliction	disease		Lost Cities of Golarion p. 
 ref/disease/the-tainted-plague	kind	rule	affliction	disease		Pathfinder Campaign Setting p. 149	first word of the printed `Type` line
 ref/disease/vorels-phage	kind	rule	affliction	disease		Pathfinder #2: The Skinsaw Murders p. 27	first word of the printed `Type` line
 ref/drug/adyton	kind	rule	affliction	addiction		Book of the Damned p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/aether	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/aether	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/blood-sap	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/bloodbrush-extract	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 23	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/dreamtime-tea	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/dwarven-fire-ale	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/dwarven-fire-ale	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/elven-absinthe	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/elven-absinthe	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/elven-absinthe	print-fix	affliction				GameMastery Guide p. 237	'**Effect:** 1 hour; +1d4 Cha damage' became '**Effect:** 1 hour; +1d4 Cha': print prints `Effects 1 hour; +1d4 Cha` and a separate `Damage 1d4 Con damage`; the imported text added `damage` to the bonus
 ref/drug/esoterum	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/felwil	kind	rule	affliction	addiction		Bastards of Golarion p. 21	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/fireskin-elixir	item-twin				ref/eq-misc/fireskin-elixir		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); an item is bought
 ref/drug/fireskin-elixir	kind	rule	affliction	addiction		Blood of the Elements p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/flayleaf	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/flayleaf	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/gossamer-veil	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/harlot-sweets	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
@@ -95,96 +215,304 @@ ref/drug/muscaria	kind	rule	affliction	addiction		Pathfinder #110: The Thrushmoo
 ref/drug/numerian-fluids	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 28	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/oblivion	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/old-mage	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/opium	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/opium	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/pesh	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/pesh	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/ruk-tar	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/scour	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/scour	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/serpents-kiss	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/shiver	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/shiver	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/silvertongue	kind	rule	affliction	addiction		Bastards of Golarion p. 21	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/slavers-drops	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/starspore	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 25	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/stings-savor	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/synthetic-mumia	item-twin				ref/eq-misc/synthetic-mumia		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); an item is bought
 ref/drug/synthetic-mumia	kind	rule	affliction	addiction		Undead Slayer's Handbook p. 9	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/tears-of-razmir	kind	rule	affliction	addiction		Inner Sea World Guide p. 293	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/vigilance	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/wyrm-pesh	item-twin				ref/eq-misc/wyrm-pesh		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); an item is bought
 ref/drug/wyrm-pesh	kind	rule	affliction	addiction		Dragonslayer's Handbook p. 19	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/zerk	book-node-removed				game-mastery-guide		its shallower node goes: the node of the dropped entry is deeper and moves to it
 ref/drug/zerk	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
-ref/haunt/arcane-storm	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/belated-arrival	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/betrayal	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/bleeding-walls	keep-rule	rule	rule			Game Mastery Guide p. 243	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/bloody-handprints	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/bountiful-feast	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/breach-to-the-quickening	keep-rule	rule	rule			Horror Realms p. 60	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/buried-alive	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/cold-spot	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/crushing-terror	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/death-of-curchanus	keep-rule	rule	rule			Horror Realms p. 62	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/demanding-dead	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/devouring-maws	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/dimensional-tear	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/dissolving-vat	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/droughts-end	keep-rule	rule	rule			Horror Realms p. 62	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/enchanting-demise	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/eternal-pyre	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/fallen-from-the-sky	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/final-soldier	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/flayed-suicide	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/flytrap	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/following-footsteps	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/foreboding-mist	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/haunted-dungeon	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/heart-explosion	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/insidious-presence	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/isolation-haunt	keep-rule	rule	rule			Construct Handbook p. 49	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/living-decay	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/malignant-weapon	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/network-of-lasers	keep-rule	rule	rule			Horror Realms p. 63	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/psychic-echo-anger	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/rapping-spirit	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/robotic-reactivation	keep-rule	rule	rule			Horror Realms p. 63	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/scratching-behind-the-wall	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/servants-of-the-book	keep-rule	rule	rule			Book of the Damned p. 167	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/shifting-seasons	keep-rule	rule	rule			Horror Realms p. 61	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/soul-vortex	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/spawn-of-the-abyss	keep-rule	rule	rule			Horror Adventures p. 172	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/spectral-screams	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/spectral-vermin	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/twisted-wish	keep-rule	rule	rule			Horror Adventures p. 181	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/unsolved-murder	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/watery-grave	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
-ref/haunt/whispers-from-beyond	keep-rule	rule	rule			Horror Adventures p. 173	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/eq-poison/abysium-powder	keep-item	item	item			Pathfinder #61: Shards of Sin p. 70	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/aconite-root	keep-item	item	item			Guide to the River Kingdoms p. 14	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/addlemind	keep-item	item	item			Dirty Tactics Toolbox p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/alchemical-isolation	keep-item	item	item			Alchemy Manual p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/arsenic	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/arsenic	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/arsenic		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/azure-lily-pollen	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/baneberry	keep-item	item	item			Guide to the River Kingdoms p. 14	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/belladonna	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/belladonna	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/belladonna		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/black-adder-venom	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/black-adder-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/black-adder-venom		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/black-lotus-extract	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/black-lotus-extract	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/black-lotus-extract		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/black-smear	keep-item	item	item			Bestiary p. 54	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/black-spider-marsh-poison	keep-item	item	item			Advanced Race Guide p. 191	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/black-whinnis	keep-item	item	item			Pathfinder #105: The Inferno Gate p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blackfinders-silence	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blackfingers-salt	keep-item	item	item			Potions and Poisons p. 24	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blackfrost	keep-item	item	item			Pathfinder #51: The Hungry Storm p. 67	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blistercap-spore-poison	keep-item	item	item			Ultimate Wilderness p. 143	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/bloodbrain-venom	keep-item	item	item			Pathfinder #118: Siege of Stone p. 16	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/bloodpyre	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/bloodroot	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/bloodroot	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/bloodroot		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/bloodwine	keep-item	item	item			Pathfinder #41: The Thousand Fangs Below p. 42	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blue-lily-extract	keep-item	item	item			Horror Realms p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blue-star	keep-item	item	item			Ultimate Wilderness p. 143	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blue-whinnis	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/blue-whinnis	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/blue-whinnis		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/brain-blot	keep-item	item	item			Champions of Corruption p. 27	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/breath-of-the-mantis-god	keep-item	item	item			Adventurer's Guide p. 158	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/brinestump-special	keep-item	item	item			Heroes of the Wild p. 20	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/burnt-othur-fumes	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/burnt-othur-fumes	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/calistrias-revenge	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/calotropis	keep-item	item	item			Guide to the River Kingdoms p. 14	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/chelish-deathapple	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/cloudthorn-venom	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/cockatrice-spit	keep-item	item	item			Rival Guide p. 53	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/concentrated-laxative	keep-item	item	item			Antihero's Handbook p. 28	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/confabulation-powder	keep-item	item	item			Alchemy Manual p. 11	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/copsewight-poison	keep-item	item	item			Pathfinder #119: Prisoners of the Blight p. 80	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/count-ambrass-punishment	keep-item	item	item			Alchemy Manual p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/crones-curse	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/cyanide	keep-item	item	item			Heroes of the Darklands p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/cytillesh-extract	keep-item	item	item			Alchemy Manual p. 11	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dark-reaver-powder	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dark-reaver-powder	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/dark-reaver-powder		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/deathblade	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/deathblade	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/deathblade		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/demon-nettle-sap	keep-item	item	item			The Moonscar p. 7	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/diplopic-serum	keep-item	item	item			Potions and Poisons p. 24	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dragon-bile	keep-item	item	item			Core Rulebook p. 558	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dragon-bile	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/dragon-bile		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/draughtcap-fungus	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dream-crystal-toxin	keep-item	item	item			Doom Comes to Dustpawn p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/dreaming-death	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/drow-poison	keep-item	item	item			Core Rulebook p. 559	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/drow-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/drow-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/everwake-serum	keep-item	item	item			Champions of Corruption p. 27	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/fiddleback-venom	keep-item	item	item			Rival Guide p. 53	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/flaming-doom	keep-item	item	item			Alchemy Manual p. 7	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/fools-leprosy	keep-item	item	item			Curse of the Crimson Throne p. 432	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/frightshade	keep-item	item	item			Antihero's Handbook p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/frostspore	keep-item	item	item			Pathfinder #61: Shards of Sin p. 64	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/fury-gas	keep-item	item	item			Alchemy Manual p. 7	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/gelidburn-oil	keep-item	item	item			Potions and Poisons p. 24	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/giant-wasp-poison	keep-item	item	item			Core Rulebook p. 559	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/giant-wasp-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/giant-wasp-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/goblins-eye	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/goblinvine-oil	keep-item	item	item			Heroes of the Wild p. 20	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/gray-justice	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/green-prismatic-poison	keep-item	item	item			Core Rulebook p. 559	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/green-prismatic-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/green-prismatic-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/greenblood-oil	keep-item	item	item			Core Rulebook p. 559	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/greenblood-oil	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/greenblood-oil		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/grinding-joint-paste	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/hag-spit	keep-item	item	item			Rival Guide p. 53	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/halo-mushroom-toxin	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/hazemind-concentrate	keep-item	item	item			Familiar Folio p. 20	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/hazemind-mist	keep-item	item	item			Familiar Folio p. 20	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/hemlock	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/hemlock	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/hemlock		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/hydrofluoric-acid	keep-item	item	item			Potions and Poisons p. 24	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/id-moss	keep-item	item	item			Core Rulebook p. 559	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/id-moss	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/id-moss		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/indigo-dreams	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/insanity-mist	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/insanity-mist	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/insanity-mist		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/insecticide	keep-item	item	item			Potions and Poisons p. 24	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/jackalroot-essence	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/juvebloom	keep-item	item	item			Potions and Poisons p. 25	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/kings-sleep	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/kings-sleep	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/kings-sleep		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/kiss-of-barbatos	keep-item	item	item			Magnimar, City of Monuments p. 45	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/large-scorpion-venom	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/large-scorpion-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/large-scorpion-venom		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/laughing-gas	keep-item	item	item			Dirty Tactics Toolbox p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lengs-tears	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/leopards-bane	keep-item	item	item			Antihero's Handbook p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lethe-water	keep-item	item	item			Feast of Dust p. 42	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lich-dust	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lich-dust	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/lich-dust		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/liquid-leprosy	keep-item	item	item			Antihero's Handbook p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/liquid-persuasion	keep-item	item	item			Alchemy Manual p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lungsap-powder	keep-item	item	item			Antihero's Handbook p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/lungtaker	keep-item	item	item			Magnimar, City of Monuments p. 45	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/maiden-lily-attar	keep-item	item	item			Murder's Mark p. 26	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/malyass-root-paste	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/malyass-root-paste	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/malyass-root-paste		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/marvelous-fear-gas	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/medium-spider-venom	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/medium-spider-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/medium-spider-venom		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/might-blight	keep-item	item	item			Merchant's Manifest p. 11	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/mindrust	keep-item	item	item			Path of the Hellknight p. 45	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/muddling-heresy	keep-item	item	item			Pathfinder #107: Scourge of the Godclaw p. 73	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/nerveblast	keep-item	item	item			Potions and Poisons p. 25	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/nightmare-vapor	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/nightmare-vapor	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/nightmare-vapor		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/nights-eye-dust	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/nitharit	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/nitharit	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/nitharit		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/nymphs-lure	keep-item	item	item			Ultimate Wilderness p. 144	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/oil-of-taggit	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/oil-of-taggit	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/oil-of-taggit		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/ossivane	keep-item	item	item			Potions and Poisons p. 25	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/peasants-woe	keep-item	item	item			Champions of Corruption p. 27	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/pupils-friend	keep-item	item	item			Potions and Poisons p. 25	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/purple-worm-poison	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/purple-worm-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/purple-worm-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/quicklime	keep-item	item	item			Pathfinder #95: Anvil of Fire p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/ragespittle	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/rainbow-jellyfish-toxin	keep-item	item	item			Rival Guide p. 53	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/rainbow-scarab-shell	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/red-bedlam	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/red-tears	keep-item	item	item			Dirty Tactics Toolbox p. 7	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/sassone-leaf-residue	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/sassone-leaf-residue	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/sassone-leaf-residue		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/scholarblight	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/shadow-essence	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/shadow-essence	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/shadow-essence		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/shamweed	keep-item	item	item			Guide to the River Kingdoms p. 14	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/skinsap-extract	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/slavers-will	keep-item	item	item			Heroes of the Darklands p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/sloths-bite	keep-item	item	item			Antihero's Handbook p. 29	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/slow-nectar	keep-item	item	item			Pathfinder #93: Forge of the Giant God p. 8	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/small-centipede-poison	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/small-centipede-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/small-centipede-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/smell-of-fear	keep-item	item	item			Alchemy Manual p. 7	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/snap-will	keep-item	item	item			Dirty Tactics Toolbox p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/spellscorch	keep-item	item	item			Advanced Race Guide p. 187	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/spellscorch	poison				ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/spidervine-poison	keep-item	item	item			Heart of the Jungle p. 6	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/starving-nettle	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/striped-toadstool	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/striped-toadstool	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/striped-toadstool		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/styx-sap	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/swampseer-poison	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/sweetdream	keep-item	item	item			Adventurer's Armory 2 p. 18	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/tears-of-death	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/tears-of-death	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/tears-of-death		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/tears-of-perfection	keep-item	item	item			Faction Guide p. 55	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/terinav-root	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/terinav-root	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/terinav-root		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/third-eye	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/thornapple	keep-item	item	item			Guide to the River Kingdoms p. 14	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/tongue-twist	keep-item	item	item			Potions and Poisons p. 25	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/twilight-illness	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/ungol-dust	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/ungol-dust	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/ungol-dust		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/vampires-kiss	keep-item	item	item			Alchemy Manual p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/vessel-between	keep-item	item	item			Inner Sea Intrigue p. 51	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/violet-venom	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/whisperwound	keep-item	item	item			Dirty Tactics Toolbox p. 9	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/widows-kiss	keep-item	item	item			Agents of Evil p. 22	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/witch-hunters-sword	keep-item	item	item			Ultimate Wilderness p. 145	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/wolfsbane	keep-item	item	item			Ultimate Equipment p. 111	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/wolfsbane	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfsbane		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/eq-poison/woundweal	keep-item	item	item			Adventurer's Armory p. 19	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/wyvern-poison	keep-item	item	item			Core Rulebook p. 560	stays `item`: poisons are bought (issue #167)
+ref/eq-poison/wyvern-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison		owner decision of 2026-11-22 (data #167): both entries stay; search will prefer the latest printing (phynics/cast-iron#619); the item is bought, the affliction is a rule
+ref/haunt/arcane-storm	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/belated-arrival	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/betrayal	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bleeding-walls	keep-rule	rule	rule			Game Mastery Guide p. 243	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bloody-handprints	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/bountiful-feast	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/breach-to-the-quickening	keep-rule	rule	rule			Horror Realms p. 60	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/buried-alive	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/cold-spot	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/crushing-terror	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/death-of-curchanus	keep-rule	rule	rule			Horror Realms p. 62	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/demanding-dead	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/devouring-maws	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/dimensional-tear	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/dissolving-vat	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/droughts-end	keep-rule	rule	rule			Horror Realms p. 62	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/enchanting-demise	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/eternal-pyre	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/fallen-from-the-sky	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/final-soldier	keep-rule	rule	rule			Horror Adventures p. 179	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/flayed-suicide	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/flytrap	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 65	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/following-footsteps	keep-rule	rule	rule			Ultimate Wilderness p. 133	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/foreboding-mist	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/haunted-dungeon	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/heart-explosion	keep-rule	rule	rule			Horror Adventures p. 178	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/insidious-presence	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/isolation-haunt	keep-rule	rule	rule			Construct Handbook p. 49	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/living-decay	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/malignant-weapon	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/network-of-lasers	keep-rule	rule	rule			Horror Realms p. 63	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/psychic-echo-anger	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/rapping-spirit	keep-rule	rule	rule			Occult Adventures p. 230	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/robotic-reactivation	keep-rule	rule	rule			Horror Realms p. 63	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/scratching-behind-the-wall	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/servants-of-the-book	keep-rule	rule	rule			Book of the Damned p. 167	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/shifting-seasons	keep-rule	rule	rule			Horror Realms p. 61	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/soul-vortex	keep-rule	rule	rule			Horror Adventures p. 180	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spawn-of-the-abyss	keep-rule	rule	rule			Horror Adventures p. 172	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spectral-screams	keep-rule	rule	rule			Horror Adventures p. 175	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/spectral-vermin	keep-rule	rule	rule			Occult Adventures p. 231	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/twisted-wish	keep-rule	rule	rule			Horror Adventures p. 181	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/unsolved-murder	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/watery-grave	keep-rule	rule	rule			Horror Adventures p. 177	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
+ref/haunt/whispers-from-beyond	keep-rule	rule	rule			Horror Adventures p. 173	stays `rule` (owner decision of 2026-11-22; a Haunts list follows in phynics/cast-iron#618): GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
 ref/madness/amnesia	kind	rule	affliction	insanity		Horror Adventures p. 186	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/catatonia	kind	rule	affliction	insanity		Horror Adventures p. 186	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/cognitive-block	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/delirium	kind	rule	affliction	insanity		Horror Adventures p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/delusion	kind	rule	affliction	insanity		Horror Adventures p. 183	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/dissociated-identity	hold				ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder		titles differ (`Dissociated Identity`, `Multiple Personality Disorder`); the imported entry holds the text; merged by hand in phynics/cast-iron-data#193
 ref/madness/dissociated-identity	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/fugue	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/hallucination	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/mania	hold				ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia		the carried `Mania/Phobia` text sits in two imported entries (Mania, Phobia); merged by hand in phynics/cast-iron-data#193
 ref/madness/mania	kind	rule	affliction	insanity		Horror Adventures p. 184	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/melancholia	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/moral-insanity	hold				ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis		titles differ (`Moral Insanity`, `Psychosis`); the imported entry holds the text; merged by hand in phynics/cast-iron-data#193
 ref/madness/moral-insanity	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/night-terrors	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/paranoid	hold				ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia		titles differ (`Paranoid`, `Paranoia`); the imported entry holds the text; merged by hand in phynics/cast-iron-data#193
 ref/madness/paranoid	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/madness/phobia	hold				ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia		the carried `Mania/Phobia` text sits in two imported entries (Mania, Phobia); merged by hand in phynics/cast-iron-data#193
 ref/madness/phobia	kind	rule	affliction	insanity		Horror Adventures p. 185	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/psychosomatic-loss	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/schizophrenia	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/skill/acrobatics	kind	rule	skill			Core Rulebook p. 87	folder skill
+ref/skill/acrobatics	merge	skill			ref/carried/core-rulebook/skills/acrobatics		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/appraise	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/appraise	merge	skill			ref/carried/core-rulebook/skills/appraise		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/artistry-any	kind	rule	skill			Pathfinder Unchained p. 48	folder skill
 ref/skill/bluff	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/bluff	merge	skill			ref/carried/core-rulebook/skills/bluff		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/climb	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/climb	merge	skill			ref/carried/core-rulebook/skills/climb		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/craft-any	hold				ref/carried/core-rulebook/skills/craft		titles differ (`Craft (any)`, `Craft`); merged by hand in phynics/cast-iron-data#193
 ref/skill/craft-any	kind	rule	skill			Core Rulebook p. 91	folder skill
 ref/skill/diplomacy	kind	rule	skill			Core Rulebook p. 93	folder skill
+ref/skill/diplomacy	merge	skill			ref/carried/core-rulebook/skills/diplomacy		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/disable-device	kind	rule	skill			Core Rulebook p. 94	folder skill
+ref/skill/disable-device	merge	skill			ref/carried/core-rulebook/skills/disable-device		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/disguise	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/disguise	merge	skill			ref/carried/core-rulebook/skills/disguise		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/escape-artist	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/escape-artist	merge	skill			ref/carried/core-rulebook/skills/escape-artist		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/fly	kind	rule	skill			Core Rulebook p. 96	folder skill
+ref/skill/fly	merge	skill			ref/carried/core-rulebook/skills/fly		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/handle-animal	hold				ref/carried/core-rulebook/skills/handle-animal		each holds text the other lacks: 3 fact(s) only in the carried entry (for example '_You are trained at working with animals, and can teach them tricks, get them to follow yo'), 8 only in the imported one; owner decision of 2026-11-22: two entries for now, merged by hand in phynics/cast-iron-data#193
 ref/skill/handle-animal	kind	rule	skill			Core Rulebook p. 97	folder skill
 ref/skill/heal	kind	rule	skill			Core Rulebook p. 98	folder skill
+ref/skill/heal	merge	skill			ref/carried/core-rulebook/skills/heal		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/intimidate	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/intimidate	merge	skill			ref/carried/core-rulebook/skills/intimidate		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/knowledge-all	hold				ref/carried/core-rulebook/skills/knowledge		each holds text the other lacks: 33 fact(s) only in the carried entry (for example 'Task Knowledge Skill DC Identify auras while using _[detect magic]_ Arcana 15 + spell leve'), 5 only in the imported one; owner decision of 2026-11-22: two entries for now, merged by hand in phynics/cast-iron-data#193
 ref/skill/knowledge-all	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-arcana	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-dungeoneering	kind	rule	skill			Core Rulebook p. 99	folder skill
@@ -196,63 +524,266 @@ ref/skill/knowledge-nature	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-nobility	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-planes	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-religion	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/linguistics	hold				ref/carried/core-rulebook/skills/linguistics		each holds text the other lacks: 4 fact(s) only in the carried entry (for example '_You are skilled at working with language, in both its spoken and written forms. You can s'), 14 only in the imported one; owner decision of 2026-11-22: two entries for now, merged by hand in phynics/cast-iron-data#193
 ref/skill/linguistics	kind	rule	skill			Core Rulebook p. 100	folder skill
 ref/skill/lore-any	kind	rule	skill			Pathfinder Unchained p. 50	folder skill
 ref/skill/perception	kind	rule	skill			Core Rulebook p. 102	folder skill
+ref/skill/perception	merge	skill			ref/carried/core-rulebook/skills/perception		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/perform-any	hold				ref/carried/core-rulebook/skills/perform		titles differ (`Perform (any)`, `Perform`); merged by hand in phynics/cast-iron-data#193
 ref/skill/perform-any	kind	rule	skill			Core Rulebook p. 102	folder skill
+ref/skill/profession-any	hold				ref/carried/core-rulebook/skills/profession		titles differ (`Profession (any)`, `Profession`); merged by hand in phynics/cast-iron-data#193
 ref/skill/profession-any	kind	rule	skill			Core Rulebook p. 103	folder skill
 ref/skill/ride	kind	rule	skill			Core Rulebook p. 103	folder skill
+ref/skill/ride	merge	skill			ref/carried/core-rulebook/skills/ride		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/sense-motive	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/sense-motive	merge	skill			ref/carried/core-rulebook/skills/sense-motive		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/sleight-of-hand	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/sleight-of-hand	merge	skill			ref/carried/core-rulebook/skills/sleight-of-hand		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/spellcraft	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/spellcraft	merge	skill			ref/carried/core-rulebook/skills/spellcraft		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/stealth	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/stealth	merge	skill			ref/carried/core-rulebook/skills/stealth		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/survival	kind	rule	skill			Core Rulebook p. 107	folder skill
+ref/skill/survival	merge	skill			ref/carried/core-rulebook/skills/survival		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/swim	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/skill/swim	merge	skill			ref/carried/core-rulebook/skills/swim		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/use-magic-device	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/skill/use-magic-device	merge	skill			ref/carried/core-rulebook/skills/use-magic-device		merged from the dropped entry: the italic opening line of the carried skill
+ref/template/accursed	keep-rule	rule	rule			Horror Adventures p. 248	stays `rule` (issue #167)
+ref/template/advanced	keep-rule	rule	rule			Bestiary p. 294	stays `rule` (issue #167)
+ref/template/aerial	keep-rule	rule	rule			Monster Summoner's Handbook p. 18	stays `rule` (issue #167)
+ref/template/aggregate	keep-rule	rule	rule			Technology Guide p. 59	stays `rule` (issue #167)
+ref/template/alchemically-invisible	keep-rule	rule	rule			Rival Guide p. 47	stays `rule` (issue #167)
+ref/template/alebrije	keep-rule	rule	rule			Pathfinder #144: Midwives to Death p. 71	stays `rule` (issue #167)
+ref/template/alter-ego	keep-rule	rule	rule			Bestiary 6 p. 9	stays `rule` (issue #167)
+ref/template/animal-lord	keep-rule	rule	rule			Bestiary 3 p. 14	stays `rule` (issue #167)
+ref/template/animus-shade	keep-rule	rule	rule			Bestiary 6 p. 11	stays `rule` (issue #167)
+ref/template/apostle-kyton	keep-rule	rule	rule			Horror Adventures p. 240	stays `rule` (issue #167)
+ref/template/aqueous	keep-rule	rule	rule			Monster Summoner's Handbook p. 19	stays `rule` (issue #167)
+ref/template/barbarian	keep-rule	rule	rule			Monster Codex p. 246	stays `rule` (issue #167)
+ref/template/bard	keep-rule	rule	rule			Monster Codex p. 246	stays `rule` (issue #167)
+ref/template/bestial-creature	keep-rule	rule	rule			Lost Treasures p. 17	stays `rule` (issue #167)
+ref/template/black-blooded	keep-rule	rule	rule			Pathfinder #18: Descent Into Midnight p. 82	stays `rule` (issue #167)
+ref/template/blighted-fey	keep-rule	rule	rule			Bestiary 6 p. 46	stays `rule` (issue #167)
+ref/template/boreal-creature	keep-rule	rule	rule			Pathfinder #67: The Snows of Summer p. 72	stays `rule` (issue #167)
+ref/template/broken-soul	keep-rule	rule	rule			Bestiary 4 p. 24	stays `rule` (issue #167)
+ref/template/calcified	keep-rule	rule	rule			Plunder and Peril p. 61	stays `rule` (issue #167)
+ref/template/celestial	keep-rule	rule	rule			Bestiary p. 294	stays `rule` (issue #167)
+ref/template/child-of-yog-sothoth	keep-rule	rule	rule			Pathfinder #113: What Grows Within p. 82	stays `rule` (issue #167)
+ref/template/chthonic	keep-rule	rule	rule			Monster Summoner's Handbook p. 19	stays `rule` (issue #167)
+ref/template/cleric	keep-rule	rule	rule			Monster Codex p. 246	stays `rule` (issue #167)
+ref/template/colour-blighted	keep-rule	rule	rule			Bestiary 4 p. 39	stays `rule` (issue #167)
+ref/template/commando-construct	keep-rule	rule	rule			Construct Handbook p. 36	stays `rule` (issue #167)
+ref/template/counterpoised	keep-rule	rule	rule			Champions of Balance p. 33	stays `rule` (issue #167)
+ref/template/cursed-lord	keep-rule	rule	rule			Horror Adventures p. 235	stays `rule` (issue #167)
+ref/template/cytillesh-zombie	keep-rule	rule	rule			No Response from Deepmar p. 21	stays `rule` (issue #167)
+ref/template/dark	keep-rule	rule	rule			Monster Summoner's Handbook p. 19	stays `rule` (issue #167)
+ref/template/deep-creature	keep-rule	rule	rule			Horror Adventures p. 248	stays `rule` (issue #167)
+ref/template/degenerate	keep-rule	rule	rule			Bestiary 5 p. 288	stays `rule` (issue #167)
+ref/template/demonic-vermin	keep-rule	rule	rule			The Worldwound p. 53	stays `rule` (issue #167)
+ref/template/devilbound	keep-rule	rule	rule			Bestiary 4 p. 56	stays `rule` (issue #167)
+ref/template/divine-guardian	keep-rule	rule	rule			Bestiary 4 p. 60	stays `rule` (issue #167)
+ref/template/dread-lord	keep-rule	rule	rule			Horror Adventures p. 234	stays `rule` (issue #167)
+ref/template/dream-eater	keep-rule	rule	rule			Dungeons of Golarion p. 42	stays `rule` (issue #167)
+ref/template/dreamspawn	keep-rule	rule	rule			The House on Hook Street p. 62	stays `rule` (issue #167)
+ref/template/druid	keep-rule	rule	rule			Monster Codex p. 247	stays `rule` (issue #167)
+ref/template/echohusk	keep-rule	rule	rule			Occult Bestiary p. 24	stays `rule` (issue #167)
+ref/template/ectoplasmic	keep-rule	rule	rule			Bestiary 4 p. 83	stays `rule` (issue #167)
+ref/template/elemental-infused-creature	keep-rule	rule	rule			Planes of Power p. 56	stays `rule` (issue #167)
+ref/template/energized	keep-rule	rule	rule			Construct Handbook p. 38	stays `rule` (issue #167)
+ref/template/enlightened-construct	keep-rule	rule	rule			Construct Handbook p. 40	stays `rule` (issue #167)
+ref/template/entothrope	keep-rule	rule	rule			Bestiary 6 p. 116	stays `rule` (issue #167)
+ref/template/entropic	keep-rule	rule	rule			Bestiary 2 p. 292	stays `rule` (issue #167)
+ref/template/eruphyte	keep-rule	rule	rule			Pathfinder #142: Gardens of Gallowspire p. 66	stays `rule` (issue #167)
+ref/template/exoskeleton	keep-rule	rule	rule			Bestiary 6 p. 124	stays `rule` (issue #167)
+ref/template/failed-prophet	keep-rule	rule	rule			Druma, Profit and Prophecy p. 60	stays `rule` (issue #167)
+ref/template/fey-animal	keep-rule	rule	rule			Lands of the Linnorm Kings p. 58	stays `rule` (issue #167)
+ref/template/fey-creature	keep-rule	rule	rule			Bestiary 3 p. 116	stays `rule` (issue #167)
+ref/template/fey-touched-creature	keep-rule	rule	rule			Heroes from the Fringe p. 17	stays `rule` (issue #167)
+ref/template/fiend-infused	keep-rule	rule	rule			Cheliax, the Infernal Empire p. 61	stays `rule` (issue #167)
+ref/template/fiendish	keep-rule	rule	rule			Bestiary p. 294	stays `rule` (issue #167)
+ref/template/fiery	keep-rule	rule	rule			Monster Summoner's Handbook p. 19	stays `rule` (issue #167)
+ref/template/fighter	keep-rule	rule	rule			Monster Codex p. 247	stays `rule` (issue #167)
+ref/template/first-world-creature	keep-rule	rule	rule			The First World, Realm of the Fey p. 57	stays `rule` (issue #167)
+ref/template/fleshwarped-creature	keep-rule	rule	rule			Horror Adventures p. 250	stays `rule` (issue #167)
+ref/template/floodslain	keep-rule	rule	rule			Belkzen, Hold of the Orc Hordes p. 61	stays `rule` (issue #167)
+ref/template/foo-creature	keep-rule	rule	rule			Bestiary 3 p. 120	stays `rule` (issue #167)
+ref/template/frostfallen-creature	keep-rule	rule	rule			Pathfinder #51: The Hungry Storm p. 84	stays `rule` (issue #167)
+ref/template/fungal-creature	keep-rule	rule	rule			Bestiary 4 p. 116	stays `rule` (issue #167)
+ref/template/fungoid	keep-rule	rule	rule			Bestiary 6 p. 131	stays `rule` (issue #167)
+ref/template/gallowdead	keep-rule	rule	rule			Dungeons of Golarion p. 21	stays `rule` (issue #167)
+ref/template/ghost	keep-rule	rule	rule			Bestiary p. 144	stays `rule` (issue #167)
+ref/template/ghoulish-creature	keep-rule	rule	rule			Horror Adventures p. 248	stays `rule` (issue #167)
+ref/template/giant	keep-rule	rule	rule			Bestiary p. 295	stays `rule` (issue #167)
+ref/template/giantkin-ogre	keep-rule	rule	rule			Monster Codex p. 152	stays `rule` (issue #167)
+ref/template/gnarled-creature	keep-rule	rule	rule			The Witchwar Legacy p. 28	stays `rule` (issue #167)
+ref/template/granule-construct-host	keep-rule	rule	rule			Seven Swords of Sin p. 31	stays `rule` (issue #167)
+ref/template/graveknight	keep-rule	rule	rule			Bestiary 3 p. 138	stays `rule` (issue #167)
+ref/template/guardian-spirit	keep-rule	rule	rule			Monster Summoner's Handbook p. 26	stays `rule` (issue #167)
+ref/template/half-celestial	keep-rule	rule	rule			Bestiary p. 169	stays `rule` (issue #167)
+ref/template/half-dragon	keep-rule	rule	rule			Bestiary p. 170	stays `rule` (issue #167)
+ref/template/half-fiend	keep-rule	rule	rule			Bestiary p. 171	stays `rule` (issue #167)
+ref/template/half-janni	keep-rule	rule	rule			Qadira, Gateway to the East p. 27	stays `rule` (issue #167)
+ref/template/half-ogre	keep-rule	rule	rule			Inner Sea Monster Codex p. 47	stays `rule` (issue #167)
+ref/template/haunted-construct	keep-rule	rule	rule			Construct Handbook p. 48	stays `rule` (issue #167)
+ref/template/haunted-one	keep-rule	rule	rule			Rival Guide p. 29	stays `rule` (issue #167)
+ref/template/hell-engine	keep-rule	rule	rule			Construct Handbook p. 51	stays `rule` (issue #167)
+ref/template/hellbound-creature	keep-rule	rule	rule			Horror Adventures p. 248	stays `rule` (issue #167)
+ref/template/hive-creature	keep-rule	rule	rule			Horror Adventures p. 249	stays `rule` (issue #167)
+ref/template/hivemind-swarm	keep-rule	rule	rule			Bestiary 6 p. 156	stays `rule` (issue #167)
+ref/template/id-mutant	keep-rule	rule	rule			Doom Comes to Dustpawn p. 29	stays `rule` (issue #167)
+ref/template/implacable-stalker	keep-rule	rule	rule			Horror Adventures p. 238	stays `rule` (issue #167)
+ref/template/jiang-shi	keep-rule	rule	rule			Bestiary 3 p. 278	stays `rule` (issue #167)
+ref/template/juju-zombie	keep-rule	rule	rule			Bestiary 2 p. 291	stays `rule` (issue #167)
+ref/template/kanabo	keep-rule	rule	rule			Distant Shores p. 32	stays `rule` (issue #167)
+ref/template/lich	keep-rule	rule	rule			Bestiary p. 188	stays `rule` (issue #167)
+ref/template/lich-creature	keep-rule	rule	rule			Horror Adventures p. 249	stays `rule` (issue #167)
+ref/template/lycanthrope	keep-rule	rule	rule			Bestiary p. 196	stays `rule` (issue #167)
+ref/template/lycanthropic-creature	keep-rule	rule	rule			Horror Adventures p. 249	stays `rule` (issue #167)
+ref/template/man-eating-animal	keep-rule	rule	rule			Pathfinder #74: Sword of Valor p. 89	stays `rule` (issue #167)
+ref/template/mana-wastes-mutant	keep-rule	rule	rule			Inner Sea Bestiary p. 28	stays `rule` (issue #167)
+ref/template/mongrel-giant	keep-rule	rule	rule			Bestiary 6 p. 192	stays `rule` (issue #167)
+ref/template/monk	keep-rule	rule	rule			Monster Codex p. 247	stays `rule` (issue #167)
+ref/template/mummified-animal	keep-rule	rule	rule			Pathfinder #81: Shifting Sands p. 84	stays `rule` (issue #167)
+ref/template/mummified-creature	keep-rule	rule	rule			Bestiary 4 p. 197	stays `rule` (issue #167)
+ref/template/mummy-lord	keep-rule	rule	rule			Bestiary 5 p. 176	stays `rule` (issue #167)
+ref/template/mutant	keep-rule	rule	rule			Bestiary 5 p. 180	stays `rule` (issue #167)
+ref/template/mutant-goblin	keep-rule	rule	rule			Monster Codex p. 112	stays `rule` (issue #167)
+ref/template/mythic-lich	keep-rule	rule	rule			Mythic Adventures p. 206	stays `rule` (issue #167)
+ref/template/mythic-skeleton	keep-rule	rule	rule			Mythic Adventures p. 216	stays `rule` (issue #167)
+ref/template/mythic-vampire	keep-rule	rule	rule			Mythic Adventures p. 220	stays `rule` (issue #167)
+ref/template/nightmare-creature	keep-rule	rule	rule			Bestiary 4 p. 204	stays `rule` (issue #167)
+ref/template/nosferatu	keep-rule	rule	rule			Bestiary 4 p. 267	stays `rule` (issue #167)
+ref/template/ogrekin	keep-rule	rule	rule			Bestiary 2 p. 204	stays `rule` (issue #167)
+ref/template/paladin	keep-rule	rule	rule			Monster Codex p. 248	stays `rule` (issue #167)
+ref/template/pallid-vector	keep-rule	rule	rule			Villain Codex p. 68	stays `rule` (issue #167)
+ref/template/penanggalen	keep-rule	rule	rule			Bestiary 3 p. 216	stays `rule` (issue #167)
+ref/template/petitioner	keep-rule	rule	rule			Bestiary 2 p. 208	stays `rule` (issue #167)
+ref/template/pickin-ogre	keep-rule	rule	rule			Monster Codex p. 152	stays `rule` (issue #167)
+ref/template/plagued-beast	keep-rule	rule	rule			Bestiary 5 p. 194	stays `rule` (issue #167)
+ref/template/pod-spawned	keep-rule	rule	rule			Bestiary 4 p. 20	stays `rule` (issue #167)
+ref/template/possessed-creature	keep-rule	rule	rule			Horror Adventures p. 250	stays `rule` (issue #167)
+ref/template/prana-ghost	keep-rule	rule	rule			Occult Bestiary p. 41	stays `rule` (issue #167)
+ref/template/primordial	keep-rule	rule	rule			Monster Summoner's Handbook p. 19	stays `rule` (issue #167)
+ref/template/promethean-creature	keep-rule	rule	rule			Horror Adventures p. 250	stays `rule` (issue #167)
+ref/template/prophecy-addled-creature	keep-rule	rule	rule			Pathfinder #125 Tower of the Drowned Dead p. 50	stays `rule` (issue #167)
+ref/template/psychic-lich	keep-rule	rule	rule			Occult Bestiary p. 32	stays `rule` (issue #167)
+ref/template/psychic-vampire	keep-rule	rule	rule			Occult Bestiary p. 58	stays `rule` (issue #167)
+ref/template/psychoplasmic	keep-rule	rule	rule			Occult Bestiary p. 47	stays `rule` (issue #167)
+ref/template/radiant-creature	keep-rule	rule	rule			Planar Adventures p. 123	stays `rule` (issue #167)
+ref/template/rampant	keep-rule	rule	rule			Pathfinder #142: Gardens of Gallowspire p. 67	stays `rule` (issue #167)
+ref/template/ranger	keep-rule	rule	rule			Monster Codex p. 248	stays `rule` (issue #167)
+ref/template/ravener	keep-rule	rule	rule			Bestiary 2 p. 230	stays `rule` (issue #167)
+ref/template/recycled-construct	keep-rule	rule	rule			Construct Handbook p. 52	stays `rule` (issue #167)
+ref/template/resolute	keep-rule	rule	rule			Bestiary 2 p. 293	stays `rule` (issue #167)
+ref/template/rogue	keep-rule	rule	rule			Monster Codex p. 248	stays `rule` (issue #167)
+ref/template/runeplated-construct	keep-rule	rule	rule			Construct Handbook p. 58	stays `rule` (issue #167)
+ref/template/runeslave	keep-rule	rule	rule			Rise of the Runelords Anniversary Edition p. 412	stays `rule` (issue #167)
+ref/template/runewarped-creature	keep-rule	rule	rule			Pathfinder #133: Secrets of Roderic's Cove p. 87	stays `rule` (issue #167)
+ref/template/sea-sworn	keep-rule	rule	rule			Treasure of Chimera Cove p. 31	stays `rule` (issue #167)
+ref/template/seeded	keep-rule	rule	rule			Pathfinder #113: What Grows Within p. 90	stays `rule` (issue #167)
+ref/template/shadow	keep-rule	rule	rule			Bestiary 4 p. 238	stays `rule` (issue #167)
+ref/template/shadow-animal	keep-rule	rule	rule			Nidal, Land of Shadows p. 60	stays `rule` (issue #167)
+ref/template/shadow-lord	keep-rule	rule	rule			Bestiary 4 p. 238	stays `rule` (issue #167)
+ref/template/shadowbound-creature	keep-rule	rule	rule			Horror Adventures p. 250	stays `rule` (issue #167)
+ref/template/shadowfire-creature	keep-rule	rule	rule			The Emerald Spire Superdungeon p. 157	stays `rule` (issue #167)
+ref/template/shaggra-ogre	keep-rule	rule	rule			Monster Codex p. 152	stays `rule` (issue #167)
+ref/template/siabrae	keep-rule	rule	rule			Bestiary 6 p. 251	stays `rule` (issue #167)
+ref/template/silverblood-lycanthrope	keep-rule	rule	rule			Andoran, Birthplace of Freedom p. 61	stays `rule` (issue #167)
+ref/template/skeletal-champion	keep-rule	rule	rule			Bestiary p. 252	stays `rule` (issue #167)
+ref/template/skeleton	keep-rule	rule	rule			Bestiary p. 250	stays `rule` (issue #167)
+ref/template/sorcerer	keep-rule	rule	rule			Monster Codex p. 248	stays `rule` (issue #167)
+ref/template/soulbound-construct	keep-rule	rule	rule			Construct Handbook p. 60	stays `rule` (issue #167)
+ref/template/spore-zombie	keep-rule	rule	rule			Bestiary 6 p. 287	stays `rule` (issue #167)
+ref/template/steam-powered-construct	keep-rule	rule	rule			Construct Handbook p. 62	stays `rule` (issue #167)
+ref/template/sunbaked-zombie	keep-rule	rule	rule			Pathfinder #80: Empty Graves p. 88	stays `rule` (issue #167)
+ref/template/taxidermic-creature	keep-rule	rule	rule			Bestiary 5 p. 240	stays `rule` (issue #167)
+ref/template/terror-creature	keep-rule	rule	rule			City of Golden Death p. 29	stays `rule` (issue #167)
+ref/template/thicken-ogre	keep-rule	rule	rule			Monster Codex p. 152	stays `rule` (issue #167)
+ref/template/trompe-loeil	keep-rule	rule	rule			Horror Adventures p. 242	stays `rule` (issue #167)
+ref/template/tsukumogami	keep-rule	rule	rule			Bestiary 5 p. 253	stays `rule` (issue #167)
+ref/template/tulpa	keep-rule	rule	rule			Bestiary 5 p. 254	stays `rule` (issue #167)
+ref/template/unknown	keep-rule	rule	rule			Horror Adventures p. 244	stays `rule` (issue #167)
+ref/template/vahana	keep-rule	rule	rule			Bestiary 5 p. 262	stays `rule` (issue #167)
+ref/template/vampire	keep-rule	rule	rule			Bestiary p. 270	stays `rule` (issue #167)
+ref/template/vampire-minion-addle-minded	keep-rule	rule	rule			Monster Codex p. 236	stays `rule` (issue #167)
+ref/template/vampire-minion-repeatedly-drained	keep-rule	rule	rule			Monster Codex p. 236	stays `rule` (issue #167)
+ref/template/vampire-spawn	keep-rule	rule	rule			Monster Codex p. 244	stays `rule` (issue #167)
+ref/template/vampiric-creature	keep-rule	rule	rule			Horror Adventures p. 250	stays `rule` (issue #167)
+ref/template/vetala	keep-rule	rule	rule			Inner Sea Bestiary p. 54	stays `rule` (issue #167)
+ref/template/waxwork	keep-rule	rule	rule			Horror Adventures p. 246	stays `rule` (issue #167)
+ref/template/winter-fey	keep-rule	rule	rule			Pathfinder #68: The Shackled Hut p. 91	stays `rule` (issue #167)
+ref/template/winter-touched-fey	keep-rule	rule	rule			Pathfinder #67: The Snows of Summer p. 72	stays `rule` (issue #167)
+ref/template/wizard	keep-rule	rule	rule			Monster Codex p. 249	stays `rule` (issue #167)
+ref/template/worm-that-walks	keep-rule	rule	rule			Bestiary 2 p. 286	stays `rule` (issue #167)
+ref/template/young	keep-rule	rule	rule			Bestiary p. 295	stays `rule` (issue #167)
+ref/template/zombie	keep-rule	rule	rule			Bestiary p. 288	stays `rule` (issue #167)
+ref/template/zombie-lord	keep-rule	rule	rule			Bestiary 4 p. 286	stays `rule` (issue #167)
 ref/trap/acid-arrow-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/acid-arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/bear-trap	kind	rule	trap	mechanical		Advanced Player's Guide p. 184	first word of the printed `Type` line
+ref/trap/bear-trap	merge	trap			ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap		merged from the dropped entry: Ultimate Equipment p. 77
 ref/trap/breakaway-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/breakaway-vine	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/burning-hands-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/burning-hands-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/camouflaged-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/camouflaged-spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/chamber-of-blades-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/clam-clamp	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/cone-of-cold-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/cone-of-cold-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/crushing-cage-tarp	kind	rule	trap	mechanical		Horror Adventures p. 161	first word of the printed `Type` line
 ref/trap/crushing-stone-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
 ref/trap/deadfall	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/deadly-spear-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
 ref/trap/destruction-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/destruction-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/electricity-arc-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/electricity-arc-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/empowered-disintegrate-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/empowered-disintegrate-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/energy-drain-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/energy-drain-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/faceless-statue-trap	kind	rule	trap	magic		Horror Adventures p. 162	first word of the printed `Type` line
 ref/trap/falling-block-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/fireball-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/flame-strike-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/flame-strike-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/frost-fangs-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/frost-fangs-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/hail-of-arrows-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/harm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/harm-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/insanity-mist-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/javelin-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/javelin-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/lightning-bolt-gallery-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/lightning-bolt-gallery-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/maximized-fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/maximized-fireball-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/meteor-swarm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/meteor-swarm-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/musk-shower	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/poisoned-dart-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/poisoned-dart-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/poisoned-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/razor-grass	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/shocking-floor-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/shocking-floor-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/sinking-coffin-trap	kind	rule	trap	mechanical		Horror Adventures p. 162	first word of the printed `Type` line
 ref/trap/spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/spring-arm-spike	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/spring-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/summon-monster-vi-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/summon-monster-vi-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/swinging-axe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/swinging-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/tar-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/wall-scythe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/wyvern-arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/wyvern-arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap		merged from the dropped entry: a `Reset: none` row

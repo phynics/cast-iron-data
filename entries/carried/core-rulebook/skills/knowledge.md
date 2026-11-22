@@ -15,7 +15,7 @@ kind = "none"
 ::: statblock
 Key Ability: Int
 Trained Only: Yes
-Armor Check Penalty: Yes
+Armor Check Penalty: No
 :::
 
 _You are educated in a field of study and can answer both simple and complex questions. Like the
