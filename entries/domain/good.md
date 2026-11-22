@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "inner-sea-gods", "bloo
 publication = "core-rulebook"
 page = "44"
 [[sources]]
+publication = "advanced-players-guide"
+page = "86-87"
+[[sources]]
 publication = "blood-of-angels"
 page = "27"
 [[sources]]
@@ -86,8 +89,6 @@ throw bonus do not stack with those granted by this effect).
 
 ### Archon Subdomain
 
-**Sources:** Advanced Player's Guide pg 86
-
 **Associated Domains:** Good, Law
 
 **Associated Deities:** Aesocar, Andoletta, Angradd, Apsu, Arqueros, Damerrich, Easivra, Eldas,
@@ -117,8 +118,6 @@ and on attacks and saves as long as they remain inside the aura.
 **6th:** planar ally (archon only)
 
 ### Azata Subdomain
-
-**Sources:** Advanced Player's Guide pg 87
 
 **Associated Domains:** Chaos, Good
 
@@ -154,8 +153,6 @@ throw reroll only applies when the creature is touched.
 
 ### Friendship Subdomain
 
-**Sources:** Inner Sea Gods pg 225, Blood of Angels pg 27
-
 **Associated Deities:** Chaldira, Elion, Findeladlara, Grundinnar, Lymnieris, Lythertida, Omrataji,
 Seramaydiel, Sinashakti, Upion and Warrik
 
@@ -176,8 +173,6 @@ shared language.
 **5th:** telepathic bond
 
 ### Redemption Subdomain
-
-**Sources:** Champions of Purity pg 21
 
 **Associated Deities:** Iomedae, Sarenrae
 

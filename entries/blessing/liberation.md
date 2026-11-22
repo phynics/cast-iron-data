@@ -38,8 +38,6 @@ _liberation_ blessing described above. This effect lasts for 1 round.
 
 ### Freedom
 
-**Sources:** Healer's Handbook pg 13
-
 **Replacement Blessing:** The following major blessing replaces the _freedom's shout_ ability of the
 Liberation blessing.
 

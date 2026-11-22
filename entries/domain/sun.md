@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "47"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88, 93"
+[[sources]]
 publication = "champions-of-purity"
 page = "21"
 [[sources]]
@@ -89,8 +92,6 @@ This ability does not allow a target to prepare spells an additional time per da
 
 ### Light Subdomain
 
-**Sources:** Advanced Player's Guide pg 93
-
 **Associated Deities:** Aldinach, Easivra, Horus, Iaozrael, Iomedae, Jaidi, Keltheald, Lalaci,
 Pharimia, Ra, Sarenrae, Shizuru, Skode
 
@@ -114,8 +115,6 @@ All creatures in this area are [dazzled](ref/misc/dazzled) for a number of round
 
 ### Revelation Subdomain
 
-**Sources:** Champions of Purity pg 21
-
 **Associated Deities:** Iomedae, Sarenrae, Shizuru
 
 **Guided Eyes (Su)**
@@ -137,8 +136,6 @@ concealed, you gain a +4 sacred bonus on the check.
 **5th:** true seeing
 
 ### Thirst Subdomain
-
-**Sources:** Divine Anthology pg 26
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

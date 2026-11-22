@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "80"
 [[sources]]
+publication = "advanced-players-guide"
+page = "145, 147"
+[[sources]]
 publication = "disciples-doctrine"
 page = "10"
 
@@ -52,7 +55,6 @@ penalty on their save to avoid your scrying attempts.
 
 ### Foresight School
 
-**Sources:** Advanced Player's Guide pg 145\
 **Associated School:** Divination.
 
 **Replacement Powers:** The following school powers replace the _diviner's fortune_ and _scrying
@@ -86,7 +88,6 @@ consecutive.
 
 ### Prophecy School
 
-**Sources:** Disciple's Doctrine pg 10\
 Prophets who specialize in arcane magic often claim specialty in manipulating the powers of luck to
 their advantage.
 
@@ -122,7 +123,6 @@ you do not have that feat.
 
 ### Scryer School
 
-**Sources:** Advanced Player's Guide pg 147\
 **Associated School:** Divination.
 
 **Replacement Powers:** The following school power replaces the _diviner's fortune_ power of the

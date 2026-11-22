@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "divine-anthology"]
 publication = "core-rulebook"
 page = "45"
 [[sources]]
+publication = "advanced-players-guide"
+page = "91, 96"
+[[sources]]
 publication = "divine-anthology"
 page = "26"
 
@@ -79,8 +82,6 @@ remove a spell or effect, whichever duration is shorter.
 
 ### Revolution Subdomain
 
-**Sources:** Advanced Player's Guide pg 96
-
 **Associated Deities:** Anogetz, Black Butterfly, Desna, Falayna, Khepri, Milani, Sun Wukong,
 Taraksun, Vevelor, Xhasnaphar
 
@@ -102,8 +103,6 @@ result.
 **6th:** symbol of persuasion
 
 ### Self-Realization Subdomain
-
-**Sources:** Divine Anthology pg 26
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

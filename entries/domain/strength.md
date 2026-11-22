@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "heroes-of-the-streets", "advanced-players-guide"
 publication = "core-rulebook"
 page = "47"
 [[sources]]
+publication = "advanced-players-guide"
+page = "90, 95"
+[[sources]]
 publication = "champions-of-balance"
 page = "17"
 [[sources]]
@@ -79,8 +82,6 @@ skill checks.
 
 ### Ferocity Subdomain
 
-**Sources:** Advanced Player's Guide pg 90
-
 **Associated Deities:** Abhoth, Alocer, Ananshea, Ayrzul, Baphomet, Bohga, Cayden Cailean, Charg,
 Cihua Couatl, Ealdeez, Geryon, Gorum, Guyuku, Hadregash, Haggakal, Kostchtchie, Lamashtu, Llamolaek,
 Malacoda, Minderhal, Nightripper, Nulgreth, Sabnach, Sicva, Sobek, Szuriel, Urazra, Urgathoa,
@@ -103,8 +104,6 @@ strike._ If the attack hits, it deals additional damage equal to 1/2 your cleric
 
 ### Fist Subdomain
 
-**Sources:** Champions of Balance pg 17
-
 **Associated Deities:** Gorum, Irori, Yamatsumi
 
 **Wooden Fist (Su)**
@@ -126,8 +125,6 @@ bonus on damage rolls equal to 1/2 your cleric level (minimum +1).
 **4th:** force punch
 
 ### Resolve Subdomain
-
-**Sources:** Advanced Player's Guide pg 95
 
 **Associated Deities:** Abhoth, Alocer, Arlachramas, Ashukharma, Baphomet, Bohga, Cayden Cailean,
 Cihua Couatl, Dranngvit, Falayna, Geryon, Gorum, Haagenti, Iapholi, Imbrex, Irori, Kols, Kurgess,
@@ -153,8 +150,6 @@ all allies within 20 feet. The temporary hit points remain for 1 minute.
 **6th:** heroes' feast
 
 ### Self-Realization Subdomain
-
-**Sources:** Divine Anthology pg 26
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

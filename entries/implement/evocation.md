@@ -163,8 +163,6 @@ created. The wall lasts for 1 round per occultist level you possess.
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Rovagug](ref/faith/rovagug)

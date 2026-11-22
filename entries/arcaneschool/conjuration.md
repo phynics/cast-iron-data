@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "80"
 [[sources]]
+publication = "advanced-players-guide"
+page = "144, 147"
+[[sources]]
 publication = "black-markets"
 page = "26"
 [[sources]]
@@ -61,7 +64,6 @@ creature brought with you.
 
 ### Cheliax: Egorian Academy Infernal Binder School
 
-**Sources:** Inner Sea Primer pg 29\
 The prestigious Egorian Academy of the Magical Arts in Cheliax's capital city teaches a full
 spectrum of magic, both specialized and universalist, but the college is best known for its Infernal
 Binding program in the school of conjuration. An infernal binder learns the Names of
@@ -116,7 +118,6 @@ an [imp](ref/monster/devil-imp) as a familiar. The imp replaces your current fam
 
 ### Creation School
 
-**Sources:** Advanced Player's Guide pg 144\
 **Associated School:** Conjuration.
 
 **Replacement Powers:** The following school powers replace the _acid dart_ power and the
@@ -150,7 +151,6 @@ active at a time. If you cast the spell again, the previous casting immediately 
 
 ### Extradimension School
 
-**Sources:** Black Markets pg 26\
 **Associated School:** Conjuration.
 
 **Replacement Powers:** The following school power replaces the _summoner's charm_ power of the
@@ -170,7 +170,6 @@ designate another spell as permanent, the previous permanent spell ends.
 
 ### Teleportation School
 
-**Sources:** Advanced Player's Guide pg 147\
 **Associated School:** Conjuration.
 
 **Replacement Powers:** The following school power replaces the _acid dart_ power of the conjuration

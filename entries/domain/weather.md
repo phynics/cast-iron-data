@@ -13,6 +13,9 @@ page = "48"
 [[sources]]
 publication = "divine-anthology"
 page = "25"
+[[sources]]
+publication = "advanced-players-guide"
+page = "96"
 
 [fields]
 kind = "class_option"
@@ -86,8 +89,6 @@ healed of an amount of nonlethal damage equal to double your cleric level and ar
 
 ### Seasons Subdomain
 
-**Sources:** Advanced Player's Guide pg 96
-
 **Associated Deities:** Aegirran, Daikitsu, Gozreh, Halcamora, Hataam, Ketephys, Maat, Nataka, Ng,
 Psomeira, Pulura, Rasvocel, Trelmarixian, Valani, Vois
 
@@ -109,8 +110,6 @@ Psomeira, Pulura, Rasvocel, Trelmarixian, Valani, Vois
 **8th:** sunburst
 
 ### Storms Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Aegirran, Besmara, Bokrug, Diceid, Hataam, Hei Feng, Hshurha, Ithaqua,
 Rasvocel, Roqorolos, Rovagug, Rull, Set, Sithhud, Tolc, Urxehl, Valani, Vois, Yan-gant-y-tan

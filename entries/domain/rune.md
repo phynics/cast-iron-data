@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "heroes-of-the-streets"
 publication = "core-rulebook"
 page = "47"
 [[sources]]
+publication = "advanced-players-guide"
+page = "92, 97"
+[[sources]]
 publication = "heroes-of-the-streets"
 page = "19"
 
@@ -85,8 +88,6 @@ another creature.
 
 ### Legislation Subdomain
 
-**Sources:** Heroes of the Streets pg 19
-
 **Associated Domains:** Law, Rune
 
 **Associated Deities:** Abadar, Asmodeus, Dispater, Lissala, Winlas
@@ -121,8 +122,6 @@ rounds equal to the spell's level, or until it is discharged.
 **9th:** mass hold monster
 
 ### Wards Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Acavna, Benorus, Bifrons, Gaap, Hastur, Irez, Lissala, Lissala
 (pre-Earthfall), Magdh, Magrim, Nalinivati, Nethys, Onmyuza, Sivanah, Thoth

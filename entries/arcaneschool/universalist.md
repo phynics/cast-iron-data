@@ -48,7 +48,6 @@ spell level would be above the level of the highest-level spell that you are cap
 
 ### Absalom: Arcanamirium Crafter School
 
-**Sources:** Inner Sea Primer pg 28\
 The most famous magical college of the Inner Sea region, the Arcanamirium of Absalom teaches a broad
 array of specialties, but its most intensive specialty is no specialization at all. It is one of the
 primary training academies of universalist magic on Golarion, and the wizards who graduate from the

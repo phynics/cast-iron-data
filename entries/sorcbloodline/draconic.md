@@ -12,6 +12,9 @@ page = "75"
 [[sources]]
 publication = "legacy-of-dragons"
 page = "4"
+[[sources]]
+publication = "ultimate-magic"
+page = "71"
 
 [fields]
 kind = "class_option"
@@ -135,7 +138,6 @@ You also gain [blindsense](ref/rule/blindsight-and-blindsense) 60 feet.
 
 ### Expanded Bloodlines
 
-**Sources:** Legacy of Dragons pg 4\
 Chromatic and metallic dragons remain the most common dragons to impart their legacy onto other
 species. The bloodrager and sorcerer classes each include a draconic bloodline that assumes the
 character's lineage is somehow connected with the power of a chromatic or metallic dragon. Presented

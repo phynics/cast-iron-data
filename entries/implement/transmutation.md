@@ -123,8 +123,6 @@ for 1 round per occultist level you possess.
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Nethys](ref/faith/nethys)

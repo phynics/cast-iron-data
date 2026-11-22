@@ -145,8 +145,6 @@ the rift does not provoke attacks of opportunity. This otherwise functions as
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Asmodeus](ref/faith/asmodeus)

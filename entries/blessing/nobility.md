@@ -38,8 +38,6 @@ against the same foe or obstacle on their next turn gain a +4 morale bonus on th
 
 ### Martyr
 
-**Sources:** Healer's Handbook pg 13
-
 **Replacement Blessing:** The following major blessing replaces the _lead by example_ ability of the
 Nobility blessing.
 

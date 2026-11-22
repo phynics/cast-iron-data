@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "45"
 [[sources]]
+publication = "advanced-players-guide"
+page = "92, 94"
+[[sources]]
 publication = "divine-anthology"
 page = "27"
 
@@ -82,8 +85,6 @@ immunity to confusion and is immediately [confused](ref/misc/confused) for one r
 
 ### Nightmare Subdomain
 
-**Sources:** Advanced Player's Guide pg 94
-
 **Associated Deities:** Abhoth, Atlach-Nacha, Azathoth, Calcabrina, Charg, Cthulhu, Eaqueo, Geon,
 Ghatanothoa, Gyronna, Haggakal, Hydim, Lamashtu, Onamahli, Ose, Ozranvial, Pirias, Set, Shivaska,
 Sifkesh, Taraksun
@@ -109,8 +110,6 @@ creature takes a penalty on Will saves made against fear effects equal to 1/2 yo
 **9th:** weird
 
 ### Truth Subdomain
-
-**Sources:** Divine Anthology pg 27
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

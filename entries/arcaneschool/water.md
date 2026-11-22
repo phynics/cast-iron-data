@@ -66,7 +66,6 @@ extinguished. Magical fire effects are unaffected.
 
 ### Ice School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Air or Water.
 
 **Replacement Powers:** The following school powers replace the _cold blast_ and _wave powers_ of
@@ -101,7 +100,6 @@ The icy shackles melt away after 1 minute.
 
 ### Mud School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Earth or Water.
 
 **Replacement Powers:** The following school powers replace the _cold blast_ and _wave_ powers of

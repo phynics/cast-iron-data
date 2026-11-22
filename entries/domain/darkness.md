@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "book-of-the-damned", "
 publication = "core-rulebook"
 page = "42"
 [[sources]]
+publication = "advanced-players-guide"
+page = "93-94"
+[[sources]]
 publication = "blood-of-shadows"
 page = "17"
 [[sources]]
@@ -96,9 +99,6 @@ round to negate this loss (this save is separate from the memory loss save).
 
 ### Moon Subdomain
 
-**Sources:** Book of the Damned pg 181, Dragon Empires Gazetteer pg 57, Dragon Empires Primer pg 27,
-Inner Sea Gods pg 226
-
 **Associated Deities:** Acavna, Ah Pook, Ashava, Camazotz, Haggakal, Jezelda, Kelinahat, Ketephys,
 Nocticula (Redeemed), Tanagaar, Thoth, Tsukiyo, Yan-gant-y-tan
 
@@ -125,8 +125,6 @@ deals 1d10 points of damage per class level you have against lycanthropes.
 
 ### Night Subdomain
 
-**Sources:** Advanced Player's Guide pg 94
-
 **Associated Deities:** Abhoth, Acavna, Alazhra, Apep, Apollyon, Camazotz, Count Ranalc, Deumus,
 Groetus, Iggeret, Kelinahat, Lao Shu Po, Maeha, Mordiggian, Muronna, Nephthys, Nocticula, Nocticula
 (Redeemed), Nyarlathotep (Haunter of the Dark), Rahu, Tanagaar, Tsukiyo, Yan-gant-y-tan,
@@ -150,8 +148,6 @@ number of rounds equal to 1/2 your cleric level (minimum 1).
 **6th:** nightmare
 
 ### Shadow Subdomain
-
-**Sources:** Blood of Shadows pg 17
 
 **Associated Domains:** Darkness, Death
 

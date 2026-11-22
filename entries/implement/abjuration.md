@@ -131,8 +131,6 @@ at the check.
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Pharasma](ref/faith/pharasma)

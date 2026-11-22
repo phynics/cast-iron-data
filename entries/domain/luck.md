@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "45"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88, 90"
+[[sources]]
 publication = "champions-of-purity"
 page = "21"
 
@@ -76,8 +79,6 @@ target hits you with an attack.
 
 ### Fate Subdomain
 
-**Sources:** Advanced Player's Guide pg 90
-
 **Associated Deities:** Chadali, Chaldira, Desna, Hembad, Irez, Kofusachi, Kurgess, Lalaci, Magdh,
 Nivi Rhombodazzle, Raetorgash, Shelyn, Shelyn (pre-Earthfall), Sinashakti, Uaransaph
 
@@ -100,8 +101,6 @@ is worse than the original roll.
 **3rd:** borrow fortune
 
 ### Imagination Subdomain
-
-**Sources:** Champions of Purity pg 21
 
 **Associated Deities:** Bes
 

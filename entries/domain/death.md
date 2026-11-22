@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "paizo-blog-golarion-day-subdomains", "advanced-p
 publication = "core-rulebook"
 page = "42"
 [[sources]]
+publication = "advanced-players-guide"
+page = "94, 97"
+[[sources]]
 publication = "blood-of-shadows"
 page = "17"
 [[sources]]
@@ -71,8 +74,6 @@ These adjustments make the Death domain more in line with Pharasma's tenets.
 
 ### Murder Subdomain
 
-**Sources:** Advanced Player's Guide pg 94
-
 **Associated Deities:** Achaekek, Ajids, Andak, Arlachramas, Baalzebul, Barravoclair, Cagnazzo,
 Chamiaholom, Chaugnar Faugn, Chugarra, Corosbel, Deumus, Farfarello, Gogunta, Hanspur, Ioramvol,
 Kabriri, Kalma, Menxyr, Nergal, Nightripper, Norgorber, Ongalte, Orcus, Pavnuri, Rahu, Ruzel, Set,
@@ -99,8 +100,6 @@ damage equal to half your cleric level.
 **9th:** mass suffocation
 
 ### Plague Subdomain
-
-**Sources:** Heroes of the Streets pg 19
 
 **Associated Domains:** Death, Evil
 
@@ -131,8 +130,6 @@ disease ends.
 
 ### Psychopomp Subdomain
 
-**Sources:** Champions of Balance pg 17
-
 **Associated Domains:** Death, Repose
 
 **Associated Deities:** Pharasma
@@ -160,8 +157,6 @@ disease ends.
 
 ### Shadow Subdomain
 
-**Sources:** Blood of Shadows pg 17
-
 **Associated Domains:** Darkness, Death
 
 **Associated Deities:** Nocticula, Norgorber, Urgathoa, Zon-Kuthon
@@ -187,8 +182,6 @@ original roll.
 **8th:** orb of the void
 
 ### Undead Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Aesdurath, Arlachramas, Baalzebul, Barravoclair, Chamiaholom, Charon,
 Chugarra, Circiatto, Deumus, Fumeiyoshi, Gogunta, Ioramvol, Kabriri, Kalma, Lorcan, Mahathallah,
@@ -217,16 +210,12 @@ your cleric level (minimum 1). It does not apply to the [Turn Undead](ref/feat/t
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook
-
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Urgathoa
-
-**Sources:** Haunted Heroes Handbook pg 9
 
 A risen spirit is akin to a plant that must be tended. Such are the teachings of Urgathoa, the
 goddess who is believed to be the first undead creature. Unlike many of her deific counterparts,

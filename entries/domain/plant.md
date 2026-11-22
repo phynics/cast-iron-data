@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "46"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88, 91"
+[[sources]]
 publication = "divine-anthology"
 page = "26"
 [[sources]]
@@ -87,8 +90,6 @@ of damage per round.
 
 ### Growth Subdomain
 
-**Sources:** Advanced Player's Guide pg 91
-
 **Associated Deities:** Angazhan, Barbariccia, Cernunnos, Cyth-V'sug, Daikitsu, Erastil, Fandarra,
 Furcas, Gozreh, Halcamora, Immonhiel, Jaidi, Ketephys, Oaur-Ooung, Osiris, Pirias, Shub-Niggurath,
 Tamede, The Green Mother, Valani, Vermilion Mother
@@ -109,8 +110,6 @@ _[enlarge person](ref/spell/enlarge-person)_ spell.
 **5th:** righteous might
 
 ### Leshy Subdomain
-
-**Sources:** Ultimate Wilderness pg 23
 
 **Associated Deities:** Gozreh, Green Faith
 
@@ -143,8 +142,6 @@ before the start of your next turn.
 **5th:** commune with nature
 
 ### Thorns Subdomain
-
-**Sources:** Divine Anthology pg 26
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

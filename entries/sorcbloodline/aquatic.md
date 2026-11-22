@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "advanced-players-guide"
 page = "136"
+[[sources]]
+publication = "ultimate-magic"
+page = "72"
 
 [fields]
 kind = "class_option"

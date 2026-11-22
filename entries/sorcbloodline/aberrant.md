@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "72"
+[[sources]]
+publication = "ultimate-magic"
+page = "73"
 
 [fields]
 kind = "class_option"

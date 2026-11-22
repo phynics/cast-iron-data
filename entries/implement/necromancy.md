@@ -167,8 +167,6 @@ spells or effects allow a save). This bonus is equal to one-fourth of your occul
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Urgathoa](ref/faith/urgathoa)

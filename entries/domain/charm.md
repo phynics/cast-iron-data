@@ -13,6 +13,9 @@ page = "42"
 [[sources]]
 publication = "divine-anthology"
 page = "22"
+[[sources]]
+publication = "advanced-players-guide"
+page = "93"
 
 [fields]
 kind = "class_option"
@@ -85,8 +88,6 @@ take a -5 penalty on Perception checks and are treated as though they had 2 fewe
 
 ### Love Subdomain
 
-**Sources:** Advanced Player's Guide pg 93
-
 **Associated Deities:** Ardad Lili, Arshea, Bolka, Cayden Cailean, Hathor, Hembad, Isis, Kofusachi,
 Laivatiniel, Naderi, Nalinivati, Shamira, Shelyn, Shelyn (pre-Earthfall), Socothbenoth, The Lantern
 King, Upion and Warrik
@@ -110,8 +111,6 @@ only affects one of the attacks. This is a mind-affecting effect.
 **8th:** euphoric tranquility
 
 ### Lust Subdomain
-
-**Sources:** Advanced Player's Guide pg 93
 
 **Associated Deities:** Ardad Lili, Arshea, Bastet, Belial, Bolka, Calistria, Cayden Cailean, Folca,
 Kofusachi, Lymnieris, Menxyr, Mestama, Naderi, Nalinivati, Nephthys, Nocticula, Onamahli, Onmyuza,

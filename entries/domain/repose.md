@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-balance",
 publication = "core-rulebook"
 page = "46"
 [[sources]]
+publication = "advanced-players-guide"
+page = "86, 96"
+[[sources]]
 publication = "champions-of-balance"
 page = "17"
 [[sources]]
@@ -82,8 +85,6 @@ Will saving throw if your alignments are different.
 
 ### Psychopomp Subdomain
 
-**Sources:** Champions of Balance pg 17
-
 **Associated Domains:** Death, Repose
 
 **Associated Deities:** Pharasma
@@ -110,8 +111,6 @@ Will saving throw if your alignments are different.
 **8th:** trap the soul
 
 ### Souls Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Alazhra, Anubis, Cagnazzo, Chamiaholom, Chavazvug, Corosbel, Doloras,
 Fharaas, Fumeiyoshi, Lorcan, Magrim, Naderi, Osiris, Ozranvial, Pharasma, Selket, Tsukiyo
@@ -146,16 +145,12 @@ This adjustment makes the Souls subdomain more in line with Pharasma's tenets.
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook
-
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Pharasma
-
-**Sources:** Haunted Heroes Handbook pg 9
 
 The Lady of Graves seeks the destruction of undead, be they corporeal or manifested spirits.
 Inquisitors of Pharasma scour the world for signs of the undead, destroying such abominations on
