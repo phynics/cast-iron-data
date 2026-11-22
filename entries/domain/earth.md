@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "43"
 [[sources]]
+publication = "advanced-players-guide"
+page = "87, 94"
+[[sources]]
 publication = "divine-anthology"
 page = "25"
 [[sources]]
@@ -90,8 +93,6 @@ in 1-minute increments
 
 ### Metal Subdomain
 
-**Sources:** Advanced Player's Guide pg 94
-
 **Associated Deities:** Abadar, Anubis, Ayrzul, Benorus, Brigh, Cixyron, Eldas, Imbrex, Kaikyton,
 Mammon, Minderhal, Murnath, Omrataji, Onos, Orgesh, Ptah, Quindiovatos, Torag, Ushitora, Varg,
 Wylgart
@@ -117,8 +118,6 @@ hardness of 10 or less.
 **8th:** iron body
 
 ### Petrification Subdomain
-
-**Sources:** Divine Anthology pg 25
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
@@ -148,8 +147,6 @@ you have.
 **8th:** statue
 
 ### Radiation Subdomain
-
-**Sources:** Kobolds of Golarion pg 13
 
 **Associated Deities:** N/A
 

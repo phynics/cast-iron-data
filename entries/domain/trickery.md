@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "kobolds-of-golarion", "advanced-players-guide", 
 publication = "core-rulebook"
 page = "48"
 [[sources]]
+publication = "advanced-players-guide"
+page = "89, 96"
+[[sources]]
 publication = "champions-of-balance"
 page = "17"
 [[sources]]
@@ -94,8 +97,6 @@ creatures more than 40 feet away (attacks have a 50% miss chance).
 
 ### Deception Subdomain
 
-**Sources:** Advanced Player's Guide pg 89
-
 **Associated Deities:** Achaekek, Aksha, Alichino, Andirifkhu, Areshkagal, Aroggus, Asmodeus,
 Bastet, Besmara, Braismois, Bundha, Caera, Calistria, Camazotz, Chimon, Chupurvagasti, Corosbel,
 Dachzerul, Dahak, Dispater, Dradjit, Droskar, Erecura, Folca, Gavidya, Hudima, Isph-Aun-Vuln,
@@ -122,8 +123,6 @@ that you can see. This space must be inside the reach of the creature that attac
 **7th:** project image
 
 ### Espionage Subdomain
-
-**Sources:** Heroes of the Streets pg 18
 
 **Associated Domains:** Knowledge, Trickery
 
@@ -154,8 +153,6 @@ number of times per day equal to 3 + your Wisdom modifier.
 
 ### Greed Subdomain
 
-**Sources:** Champions of Corruption pg 19
-
 **Associated Deities:** Asmodeus, Dahak, Lao Shu Po, Norgorber
 
 **More for Me (Su)**
@@ -181,8 +178,6 @@ This ability does not grant you knowledge of the spell being cast.
 
 ### Innuendo Subdomain
 
-**Sources:** Champions of Balance pg 17
-
 **Associated Deities:** Besmara, Calistria, Sivanah, Sun Wukong
 
 **Fool's Privilege (Su)**
@@ -204,8 +199,6 @@ the check again without the usual penalty for a failed attempt.
 **6th:** mass suggestion
 
 ### Thievery Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Achaekek, Alichino, Andirifkhu, Areshkagal, Bastet, Besmara, Calistria,
 Dahak, Droskar, Gavidya, Lamashtu, Lao Shu Po, Lorthact, Mahathallah, Mestama, Muronna, Nivi
@@ -231,16 +224,12 @@ higher result.
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook
-
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Asmodeus
-
-**Sources:** Haunted Heroes Handbook pg 8
 
 While the church of Asmodeus periodically endorses the use of possession for certain reasons, it is
 usually vehemently against unsanctioned possession and the creation of uncontrolled undead forces.

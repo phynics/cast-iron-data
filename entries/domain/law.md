@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "inner-sea-gods", "cham
 publication = "core-rulebook"
 page = "45"
 [[sources]]
+publication = "advanced-players-guide"
+page = "86, 90, 92"
+[[sources]]
 publication = "blood-of-angels"
 page = "27"
 [[sources]]
@@ -106,8 +109,6 @@ and on attacks and saves as long as they remain inside the aura.
 
 ### Devil Subdomain
 
-**Sources:** Advanced Player's Guide pg 90
-
 **Associated Domains:** Evil, Law
 
 **Associated Deities:** Achaekek, Alichino, Alocer, Ardad Lili, Asmodeus, Baalzebul, Barbariccia,
@@ -141,8 +142,6 @@ cleric level (minimum 1).
 
 ### Inevitable Subdomain
 
-**Sources:** Advanced Player's Guide pg 92
-
 **Associated Deities:** Abadar, Alseta, Amaznen, Anubis, Dranngvit, Horus, Irori, Kols, Maat,
 Magrim, Ra, Thoth
 
@@ -168,8 +167,6 @@ than once per day with this ability.
 
 ### Judgment Subdomain
 
-**Sources:** Inner Sea Gods pg 226, Champions of Purity pg 21
-
 **Associated Deities:** Damerrich, Maat, Neshen, Ragathiel, Zohls
 
 **Chastisement (Su)**
@@ -192,8 +189,6 @@ creatures may be.
 **5th:** mark of justice
 
 ### Kyton Subdomain
-
-**Sources:** Champions of Corruption pg 19
 
 **Associated Domains:** Evil, Law
 
@@ -224,8 +219,6 @@ cleric level. If you fail, this ability is expended with no effect.
 
 ### Legislation Subdomain
 
-**Sources:** Heroes of the Streets pg 19
-
 **Associated Domains:** Law, Rune
 
 **Associated Deities:** Abadar, Asmodeus, Dispater, Lissala, Winlas
@@ -252,8 +245,6 @@ ends. This is a language-dependent effect.
 
 ### Loyalty Subdomain
 
-**Sources:** Inner Sea Gods pg 226, Blood of Angels pg 27
-
 **Associated Deities:** Aesocar, Ghenshau, Grundinnar, Kols, Matravash, Sicva, Winlas
 
 **Touch of Loyalty (Su)**
@@ -272,8 +263,6 @@ resist charm, compulsion, and fear effects for 1 hour.
 **5th:** greater command
 
 ### Slavery Subdomain
-
-**Sources:** Book of the Damned pg 182, Inner Sea Gods pg 226, Goblins of Golarion pg 27
 
 **Associated Deities:** Circiatto, Furcas, Gavidya, Hadregash, Inkariax, Jacarkas, Kalma, Lanishra,
 Losarkur, Vevelor, Zursvaater
@@ -303,8 +292,6 @@ language-based, mind-affecting effect.
 **8th:** binding
 
 ### Sovereignty Subdomain
-
-**Sources:** Heroes of the High Court pg 21
 
 **Associated Deities:** Asmodeus, Dispater, Iomedae, Lissala, Zon-Kuthon
 

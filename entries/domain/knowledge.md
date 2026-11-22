@@ -13,6 +13,9 @@ page = "16"
 [[sources]]
 publication = "heroes-of-the-streets"
 page = "18"
+[[sources]]
+publication = "advanced-players-guide"
+page = "93, 97"
 
 [fields]
 kind = "class_option"
@@ -82,8 +85,6 @@ level.
 
 ### Education Subdomain
 
-**Sources:** Heroes of the Streets pg 18
-
 **Associated Domains:** Community, Knowledge
 
 **Associated Deities:** Abraxas, Andoletta, Bergelmir, Bharnarol, Elion, Erastil, Eritrice, Irori,
@@ -115,8 +116,6 @@ roll, ability check, skill check, or saving throw.
 
 ### Espionage Subdomain
 
-**Sources:** Heroes of the Streets pg 18
-
 **Associated Domains:** Knowledge, Trickery
 
 **Associated Deities:** Droskar, Erecura, Kelinahat, Norgorber
@@ -146,8 +145,6 @@ number of times per day equal to 3 + your Wisdom modifier.
 
 ### Memory Subdomain
 
-**Sources:** Advanced Player's Guide pg 93
-
 **Associated Deities:** Abraxas, Aerekostes, Andoletta, Bergelmir, Braismois, Calcabrina, Calistria,
 Charon, Crocell, Dranngvit, Erecura, Eritrice, Fandarra, Farfarello, Fharaas, Hydim, Irori, Kabriri,
 Kroina, Lissala, Lissala (pre-Earthfall), Malthus, Mazludeh, Mephistopheles, Norgorber, Nyarlathotep
@@ -174,8 +171,6 @@ gaining an insight bonus on the check equal to your Wisdom modifier.
 **8th:** moment of prescience
 
 ### Thought Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Abraxas, Amaznen, Bharnarol, Brigh, Erecura, Eritrice, Fandarra, Farfarello,
 Hydim, Irori, Kelinahat, Kroina, Lissala, Lissala (pre-Earthfall), Maat, Magdh, Mephistopheles,

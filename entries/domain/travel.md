@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "47"
 [[sources]]
+publication = "advanced-players-guide"
+page = "90, 97"
+[[sources]]
 publication = "divine-anthology"
 page = "25"
 
@@ -90,8 +93,6 @@ entire time. The surface cannot be thicker than 6 inches plus 1 inch per cleric 
 
 ### Portal Subdomain
 
-**Sources:** Divine Anthology pg 25
-
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
 
@@ -131,8 +132,6 @@ teleportation mishaps or attempting to teleport into a solid body.
 **9th:** teleportation circle
 
 ### Trade Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Abadar, Apsu, Barbatos, Cagnazzo, Hanspur, Hathor, Kofusachi, Kurgess,
 Matravash, Ng, Pharimia, Ptah, Rowdrosh, Wadjet

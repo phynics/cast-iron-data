@@ -16,6 +16,9 @@ page = "18"
 [[sources]]
 publication = "inner-sea-gods"
 page = "224"
+[[sources]]
+publication = "advanced-players-guide"
+page = "90, 92"
 
 [fields]
 kind = "class_option"
@@ -82,8 +85,6 @@ you possess. This effect persists for a number of rounds equal to 1/2 your cleri
 
 ### Education Subdomain
 
-**Sources:** Heroes of the Streets pg 18
-
 **Associated Domains:** Community, Knowledge
 
 **Associated Deities:** Abraxas, Andoletta, Bergelmir, Bharnarol, Elion, Erastil, Eritrice, Irori,
@@ -115,8 +116,6 @@ roll, ability check, skill check, or saving throw.
 
 ### Family Subdomain
 
-**Sources:** Advanced Player's Guide pg 90
-
 **Associated Deities:** Bergelmir, Bes, Bolka, Daikitsu, Dretha, Erastil, Fandarra, Folgrit,
 Gavidya, Iapholi, Imbrex, Inma, Isis, Jiraviddain, Kaikyton, Kurgess, Lorris, Lythertida, Mazludeh,
 Shei, Svarozic, Thisamet
@@ -140,8 +139,6 @@ target is immune to the transferred condition.
 **3rd:** create food and water
 
 ### Home Subdomain
-
-**Sources:** Advanced Player's Guide pg 92
 
 **Associated Deities:** Alseta, Bergelmir, Bes, Daikitsu, Dretha, Elion, Erastil, Fandarra,
 Findeladlara, Folgrit, Ghenshau, Imbrex, Inma, Jiraviddain, Kurgess

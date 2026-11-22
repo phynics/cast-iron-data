@@ -63,7 +63,6 @@ hole, nor does it give any sign of your presence (although you can be detected b
 
 ### Magma School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Earth or Fire.
 
 **Replacement Powers:** The following school powers replace the _acid cloud_ and
@@ -96,7 +95,6 @@ dismiss the lava shield as a free action, and it disappears immediately if you l
 
 ### Mud School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Earth or Water.
 
 **Replacement Powers:** The following school powers replace the _acid cloud_ and

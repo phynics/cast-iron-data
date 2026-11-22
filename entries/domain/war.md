@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "48"
 [[sources]]
+publication = "advanced-players-guide"
+page = "87, 96"
+[[sources]]
 publication = "heroes-of-the-streets"
 page = "18"
 
@@ -80,8 +83,6 @@ weapon quality for a number of rounds equal to 1/2 your cleric level.
 
 ### Duels Subdomain
 
-**Sources:** Heroes of the Streets pg 18
-
 **Associated Deities:** Besmara, Chaldira Zuzaristan, Gorum, Iomedae
 
 **Divine Challenge (Su)**
@@ -103,8 +104,6 @@ feint against it. These bonuses last for a number of rounds equal to 1/2 your cl
 **8th:** dance of a thousand cuts
 
 ### Tactics Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Acavna, Achaekek, Akuma, Angradd, Arqueros, Besmara, Chaldira, Chaugnar
 Faugn, Cihua Couatl, Deskari, Fumeiyoshi, General Susumu, Gorum, Iomedae, Izyagna, Kostchtchie,

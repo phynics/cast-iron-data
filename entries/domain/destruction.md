@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "43"
 [[sources]]
+publication = "advanced-players-guide"
+page = "87, 95"
+[[sources]]
 publication = "book-of-the-damned"
 page = "182"
 [[sources]]
@@ -96,8 +99,6 @@ place each round, but no effect may be repeated on the following round.
 
 ### Hatred Subdomain
 
-**Sources:** Champions of Corruption pg 19
-
 **Associated Deities:** Dahak, Fumeiyoshi, Gyronna, Lady Nanbyo, Rovagug
 
 **Hateful Aura (Su)**
@@ -121,8 +122,6 @@ aura as a free action, or you expend all rounds of this ability.
 **2nd:** wrathful mantle
 
 ### Rage Subdomain
-
-**Sources:** Advanced Player's Guide pg 95
 
 **Associated Deities:** Ahriman, Ananshea, Andak, Anogetz, Belial, Bokrug, Daclau-Sar, Dagon, Dahak,
 Doloras, Ealdeez, Eiseth, Fumeiyoshi, Ghlaunder, Gorum, Gyronna, Iaozrael, Jubilex, Lady Nanbyo,
@@ -154,8 +153,6 @@ rage you might have from levels of barbarian.
 **6th:** moonstruck
 
 ### Torture Subdomain
-
-**Sources:** Book of the Damned pg 182, Inner Sea Gods pg 227, Goblins of Golarion pg 27
 
 **Associated Deities:** Ananshea, Andak, Ozranvial, Venkelvore, Vevelor, Xsistaid, Yamasoth, Zaebos,
 Zaigasnar, Zepar

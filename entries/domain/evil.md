@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "champions-of-corruption", "advanced-players-guid
 publication = "core-rulebook"
 page = "43"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88-90"
+[[sources]]
 publication = "blood-of-fiends"
 page = "15"
 [[sources]]
@@ -95,8 +98,6 @@ use this ability against a different creature.
 
 ### Corruption Subdomain
 
-**Sources:** Champions of Corruption pg 18
-
 **Associated Deities:** Asmodeus, Dahak, General Susumu, Gyronna, Lamashtu, Rovagug, Urgathoa,
 Velgaas, Zipacna
 
@@ -122,8 +123,6 @@ throws are immune to this ability for 24 hours.
 **6th:** greater bestow curse
 
 ### Daemon Subdomain
-
-**Sources:** Advanced Player's Guide pg 88
 
 **Associated Deities:** Aesdurath, Ajids, Alazhra, Anogetz, Apollyon, Arlachramas, Braismois,
 Charon, Cixyron, Corosbel, Diceid, Droskar, Ealdeez, Folca, Fumeiyoshi, Geon, Hastrikhal, Jacarkas,
@@ -181,8 +180,6 @@ effect.
 
 ### Demon Subdomain
 
-**Sources:** Advanced Player's Guide pg 89
-
 **Associated Domains:** Chaos, Evil
 
 **Associated Deities:** Abraxas, Aldinach, Andirifkhu, Angazhan, Apep, Areshkagal, Baphomet,
@@ -214,8 +211,6 @@ this round, you take a -2 penalty to AC.
 **6th:** planar binding (demons only)
 
 ### Devil Subdomain
-
-**Sources:** Advanced Player's Guide pg 90
 
 **Associated Domains:** Evil, Law
 
@@ -249,8 +244,6 @@ cleric level (minimum 1).
 **6th:** planar binding (devils only)
 
 ### Fear Subdomain
-
-**Sources:** Book of the Damned pg 180, Inner Sea Gods pg 225, Blood of Fiends pg 15
 
 **Associated Deities:** Ah Pook, Ahriman, Aksha, Akuma, Ananshea, Andak, Apep, Aroggus, Ayrzul,
 Barbariccia, Bundha, Caera, Camazotz, Chamiaholom, Charg, Chugarra, Chupurvagasti, Circiatto,
@@ -314,8 +307,6 @@ cleric level. If you fail, this ability is expended with no effect.
 
 ### Plague Subdomain
 
-**Sources:** Heroes of the Streets pg 19
-
 **Associated Domains:** Death, Evil
 
 **Associated Deities:** Apollyon, Cyth-V'sug, Ghlaunder, Urgathoa
@@ -342,8 +333,6 @@ disease ends.
 **8th:** horrid wilting
 
 ### Sahkil Subdomain
-
-**Sources:** Pathfinder \#143: Borne by the Sun's Grace pg 61
 
 **Associated Deities:** Ah Pook, Ananshea, Chamiaholom, Charg, Dachzerul, Hataam, Iggeret, Nameless,
 Ozranvial, Shawnari, Velgaas, Vermilion Mother, Xiquiripat, Zipacna

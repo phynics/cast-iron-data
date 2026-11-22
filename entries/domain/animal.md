@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "41"
 [[sources]]
+publication = "advanced-players-guide"
+page = "90-91"
+[[sources]]
 publication = "divine-anthology"
 page = "23"
 
@@ -80,8 +83,6 @@ Initiative check.
 
 ### Fur Subdomain
 
-**Sources:** Advanced Player's Guide pg 91
-
 **Associated Deities:** Aksha, Aldinach, Alocer, Angazhan, Anogetz, Baphomet, Barbariccia, Bastet,
 Bundha, Caera, Camazotz, Cernunnos, Daclau-Sar, Daikitsu, Dradjit, Ealdeez, Erastil, Ghlaunder,
 Graffiacane, Hudima, Jaidi, Jezelda, Jyotah, Ketephys, Kitumu, Kunkarna, Lao Shu Po, Losarkur,
@@ -106,8 +107,6 @@ the range of your sight becomes three times that of a human in dim light for 1 r
 **3rd:** beast shape I (animals only)
 
 ### Insect Subdomain
-
-**Sources:** Divine Anthology pg 23
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

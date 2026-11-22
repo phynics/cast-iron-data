@@ -126,8 +126,6 @@ is the same creature type as you, it takes a -2 penalty on this saving throw.
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Aroden](ref/faith/aroden)

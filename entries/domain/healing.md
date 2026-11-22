@@ -14,6 +14,9 @@ page = "44"
 publication = "divine-anthology"
 page = "24"
 [[sources]]
+publication = "advanced-players-guide"
+page = "95-96"
+[[sources]]
 publication = "haunted-heroes-handbook"
 page = "8"
 
@@ -83,8 +86,6 @@ instead takes at most 1 minute.
 
 ### Restoration Subdomain
 
-**Sources:** Advanced Player's Guide pg 95
-
 **Associated Deities:** Aesocar, Barravoclair, Bolka, Cihua Couatl, Dalenydra, Immonhiel, Irori,
 Jiraviddain, Korada, Lythertida, Marishi, Milani, Osiris, Qi Zhong, Raetorgash, Reymenda, Sarenrae,
 Sekhmet, Selket
@@ -111,8 +112,6 @@ condition. You choose which condition is removed.
 **5th:** break enchantment
 
 ### Resurrection Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Aerekostes, Aesocar, Barravoclair, Dalenydra, Immonhiel, Isis, Lorcan,
 Osiris, Osolmyr, Pharasma, Qi Zhong, Sarenrae, Shei, Vildeis
@@ -142,15 +141,12 @@ act as it sees fit during this time. You are granted no control over it.
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook\
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Irori
-
-**Sources:** Haunted Heroes Handbook pg 8
 
 Through [Irori's](ref/faith/irori) teachings, impurities in oneself and in the world are overcome.
 Irori's followers are some of the most self-disciplined of Golarion's faithful, believing that

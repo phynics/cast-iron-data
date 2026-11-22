@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "81"
+[[sources]]
+publication = "advanced-players-guide"
+page = "144, 146"
 
 [fields]
 kind = "class_option"
@@ -47,7 +50,6 @@ ability checks, attack rolls, damage rolls, saving throws, and skill checks.
 
 ### Controller School
 
-**Sources:** Advanced Player's Guide pg 144\
 **Associated School:** Enchantment.
 
 **Replacement Powers:** The following school powers replace the _enchanting smile_ and _aura of
@@ -80,7 +82,6 @@ maintain control over a dominated creature.
 
 ### Manipulator School
 
-**Sources:** Advanced Player's Guide pg 146\
 **Associated School:** Enchantment.
 
 **Replacement Powers:** The following school powers replace the _dazing touch_ and _aura of despair_

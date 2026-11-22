@@ -18,6 +18,9 @@ page = "27"
 [[sources]]
 publication = "inner-sea-gods"
 page = "224"
+[[sources]]
+publication = "advanced-players-guide"
+page = "86, 96"
 
 [fields]
 kind = "class_option"
@@ -87,8 +90,6 @@ your choice that you're holding.
 
 ### Ash Subdomain
 
-**Sources:** Advanced Player's Guide pg 86
-
 **Associated Deities:** Angradd, Asmodeus, Chavazvug, Feronia, Flauros, Furcas, Haborym, Hastrikhal,
 Izyagna, Lady Nanbyo, Mhar, Moloch, Nurgal, Onos, Ptah, Rubicante, Sekhmet, Sezelrian, Urxehl, Yabu,
 Yamatsumi, Ymeri, Zelishkar, Zipacna, Zurapadyn, Zursvaater
@@ -115,8 +116,6 @@ in 1-minute increments
 **9th:** fiery body
 
 ### Smoke Subdomain
-
-**Sources:** Advanced Player's Guide pg 96
 
 **Associated Deities:** Angradd, Asmodeus, Brigh, Chavazvug, Feronia, Flauros, Hastrikhal,
 Kro'akoth, Lady Nanbyo, Mhar, Moloch, Nataka, Nurgal, Ptah, Rubicante, Sezelrian, Svarozic, Yabu,

@@ -63,7 +63,6 @@ level. The vortex is faintly visible and can be spotted with a DC 15 Perception 
 
 ### Ice School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Air or Water.
 
 **Replacement Powers:** The following school powers replace the _lightning flash_ and _cyclone_
@@ -98,7 +97,6 @@ The icy shackles melt away after 1 minute.
 
 ### Smoke School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Air or Fire.
 
 **Replacement Powers:** The following school powers replace the _lightning flash_ and _cyclone_

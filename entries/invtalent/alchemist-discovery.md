@@ -32,8 +32,6 @@ using his investigator level as his alchemist level to determine if he qualifies
 
 ### Anointings
 
-**Sources:** Arcane Anthology pg 23
-
 Investigators can choose any of these discoveries with the alchemist discovery investigator talent.
 In each of these cases, the character treats levels in the class used to select the
 [anointing](ref/ability/annointings) as his alchemist level for all relevant anointing calculations.

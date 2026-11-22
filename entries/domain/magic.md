@@ -10,6 +10,9 @@ page = "46"
 [[sources]]
 publication = "divine-anthology"
 page = "22"
+[[sources]]
+publication = "advanced-players-guide"
+page = "86, 90"
 
 [fields]
 kind = "class_option"
@@ -84,8 +87,6 @@ maximum spell level you can infuse in this way is equal to 1 +
 
 ### Arcane Subdomain
 
-**Sources:** Advanced Player's Guide pg 86
-
 **Associated Deities:** Abraxas, Aerekostes, Aesdurath, Alseta, Amaznen, Asmodeus, Barbatos, Isis,
 Lorthact, Nalinivati, Nethys, Nyarlathotep (Black Pharaoh), Nyarlathotep (Faceless Sphinx),
 Nyarlathotep (Haunter of the Dark), Shiggarreb, Shyka, Thoth, Tsathoggua, Yuelral
@@ -110,8 +111,6 @@ the spell.
 **6th:** analyze dweomer
 
 ### Divine Subdomain
-
-**Sources:** Advanced Player's Guide pg 90
 
 **Associated Deities:** Aesdurath, Amaznen, Asmodeus, Barbatos, Isis, Korada, Kroina, Nalinivati,
 Nethys, Nyarlathotep (Black Pharaoh), Nyarlathotep (Faceless Sphinx), Nyarlathotep (Haunter of the

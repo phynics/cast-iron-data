@@ -39,8 +39,6 @@ damage if used against undead). This ability doesn't stack with itself or the Em
 
 ### Restoration
 
-**Sources:** Healer's Handbook pg 13
-
 **Replacement Blessing:** The following minor blessing replaces the _powerful healer_ ability of the
 Healing blessing.
 
@@ -59,8 +57,6 @@ ally with your _fervor_ class ability to use this minor blessing as a **free act
 swift action.
 
 ### Resurrection
-
-**Sources:** Healer's Handbook pg 13
 
 **Replacement Blessing:** The following major blessing replaces the
 _[fast healing](ref/umr/fast-healing)_ ability of the Healing blessing.

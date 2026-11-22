@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "advanced-players-guide", "champions-of-corruptio
 publication = "core-rulebook"
 page = "42"
 [[sources]]
+publication = "advanced-players-guide"
+page = "87, 89, 94"
+[[sources]]
 publication = "blood-of-angels"
 page = "27"
 [[sources]]
@@ -106,8 +109,6 @@ throw reroll only applies when the creature is touched.
 
 ### Demodand Subdomain
 
-**Sources:** Champions of Corruption pg 19
-
 **Associated Domains:** Chaos, Evil
 
 **Associated Deities:** Rovagug, Yaezhing
@@ -131,8 +132,6 @@ effect.
 **6th:** corrosive consumption
 
 ### Demon Subdomain
-
-**Sources:** Advanced Player's Guide pg 89
 
 **Associated Domains:** Chaos, Evil
 
@@ -166,8 +165,6 @@ lasts for 1 round. During this round, you take a -2 penalty to AC.
 
 ### Entropy Subdomain
 
-**Sources:** Book of the Damned pg 180, Inner Sea Gods pg 224, Blood of Fiends pg 15
-
 **Associated Deities:** Apep, Ashukharma, Azathoth, Chaugnar Faugn, Chavazvug, Groetus, Guyuku,
 Mordiggian, Nhimbaloth, Ongalte, Orgesh, Rhan-Tegoth, Scal, Thuskchoon, Ushitora, Xoveron,
 Yhidothrus
@@ -196,8 +193,6 @@ magical effect.
 **7th:** destruction
 
 ### Protean Subdomain
-
-**Sources:** Advanced Player's Guide pg 94
 
 **Associated Deities:** Bastet, Besmara, Gorum, Hei Feng, Nephthys, Rovagug, Sekhmet, Sivanah,
 Sobek, Speakers of the Depths, Sun Wukong
@@ -254,8 +249,6 @@ spell level.
 
 ### Riot Subdomain
 
-**Sources:** Heroes of the Streets pg 19
-
 **Associated Deities:** Lamashtu, Milani
 
 **Aura of Bedlam (Su)**
@@ -310,16 +303,12 @@ round, but are not considered [helpless](ref/misc/helpless).
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook
-
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Cayden Cailean
-
-**Sources:** Haunted Heroes Handbook pg 8
 
 Cayden Cailean stands opposed to any force that denies free will. Servants of Cayden make unique
 exorcists, as their methods radically differ from those of other churches, despite often using

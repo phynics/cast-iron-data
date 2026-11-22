@@ -14,6 +14,9 @@ page = "16"
 publication = "divine-anthology"
 page = "23"
 [[sources]]
+publication = "advanced-players-guide"
+page = "92-93"
+[[sources]]
 publication = "haunted-heroes-handbook"
 page = "9"
 
@@ -81,8 +84,6 @@ visage bonus for 1 minute.
 
 ### Hubris Subdomain
 
-**Sources:** Divine Anthology pg 23
-
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
 
@@ -124,8 +125,6 @@ _[unholy aura](ref/spell/unholy-aura)_ respectively.
 
 ### Leadership Subdomain
 
-**Sources:** Advanced Player's Guide pg 92
-
 **Associated Deities:** Abadar, Arazni, Dispater, Erecura, Eritrice, General Susumu, Horus, Inma,
 Jacarkas, Kols, Lissala, Lissala (pre-Earthfall), Myr, Nalinivati, Olheon, Omrataji, Ra, Ruapceras,
 Seramaydiel, Shamira, Shax, Sicva, Sugroz, Thamir Gixx, Ydersius, Zaebos
@@ -149,8 +148,6 @@ effect.
 **6th:** brilliant inspiration
 
 ### Martyr Subdomain
-
-**Sources:** Advanced Player's Guide pg 93
 
 **Associated Deities:** Abadar, Chinostes (Evil Aspect), Chinostes (Good Aspect), Count Ranalc,
 Folgrit, Naderi, Olheon, Ragathiel, Shax, Smiad, Sugroz, The Lost Prince, Trudd, Vildeis, Ydersius,
@@ -176,16 +173,12 @@ cannot be reduced in any way.
 
 ### Variant Domain Powers
 
-**Sources:** Haunted Heroes Handbook
-
 A cleric (or any other character capable of selecting a domain) who worships the deity in question
 can choose to gain the variant domain power upon first gaining the domain in question, but the
 choice to replace the domain power must be made immediately upon gaining access to that domain and
 cannot be changed thereafter.
 
 #### Naderi
-
-**Sources:** Haunted Heroes Handbook pg 9
 
 As worshipers of the goddess of drowning, romantic tragedy, and suicide, Naderi's faithful are often
 fraught with encounters of the supernatural variety. Her followers contend more with undead than

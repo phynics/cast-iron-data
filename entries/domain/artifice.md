@@ -11,6 +11,9 @@ page = "41"
 publication = "divine-anthology"
 page = "22"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88, 97"
+[[sources]]
 publication = "heroes-of-the-streets"
 page = "19"
 [[sources]]
@@ -93,8 +96,6 @@ maximum spell level you can infuse in this way is equal to 1 +
 
 ### Construct Subdomain
 
-**Sources:** Advanced Player's Guide pg 88
-
 **Associated Deities:** Aerekostes, Aesocar, Amaznen, Apsu, Atlach-Nacha, Bharnarol, Brigh, Cixyron,
 Daikitsu, Droskar, Eldas, Findeladlara, Haagenti, Malthus, Mammon, Minderhal, Neith, Ptah, Sabnach,
 Soralyon, Speakers of the Depths, Torag, Yaezhing, Yamasoth, Yuelral
@@ -117,8 +118,6 @@ Soralyon, Speakers of the Depths, Torag, Yaezhing, Yamasoth, Yuelral
 **8th:** polymorph any object
 
 ### Industry Subdomain
-
-**Sources:** Heroes of the Streets pg 19
 
 **Associated Deities:** Brigh, Daikitsu, Torag
 
@@ -145,8 +144,6 @@ within this area ignore an equal amount of hardness.
 **9th:** wooden phalanx
 
 ### Toil Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Apsu, Atlach-Nacha, Bifrons, Chimon, Cixyron, Droskar, Eldas, Haagenti,
 Khepri, Malthus, Mammon, Minderhal, Nameless, Omrataji, Ose, Sabnach, Speakers of the Depths,
@@ -177,8 +174,6 @@ from an empty bottle. Actions that cannot be repeated are wasted.
 
 ### Trap Subdomain
 
-**Sources:** Kobolds of Golarion pg 13
-
 **Associated Deities:** N/A
 
 **Replacement Power:** Note: Only creatures with the [Kobold Faith](ref/trait/kobold-faith) trait
@@ -206,8 +201,6 @@ character level + your Wisdom bonus. The trap lasts for 1 hour or until triggere
 **7th:** teleport trap
 
 ### Anointings
-
-**Sources:** Arcane Anthology pg 23
 
 Clerics with the artifice domain can select an [anointing](ref/ability/annointings) in place of
 their 8th-level domain ability. In each of these cases, the character treats levels in the class

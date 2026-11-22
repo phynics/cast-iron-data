@@ -13,6 +13,9 @@ page = "81"
 publication = "adventurers-guide"
 page = "35"
 [[sources]]
+publication = "advanced-players-guide"
+page = "146-147"
+[[sources]]
 publication = "inner-sea-primer"
 page = "29"
 
@@ -57,7 +60,6 @@ than your wizard level are [dazzled](ref/misc/dazzled) for 1 round instead.
 
 ### Deception School
 
-**Sources:** Adventurer's Guide pg 35\
 **Associated School:** Illusion.
 
 **Replacement Powers:** The following school powers replace the
@@ -90,7 +92,6 @@ plus 1 for every 5 wizard levels you have.
 
 ### Phantasm School
 
-**Sources:** Advanced Player's Guide pg 146\
 **Associated School:** Illusion.
 
 **Replacement Powers:** The following school powers replace the
@@ -119,7 +120,6 @@ considered to be [flanked](ref/rule/flanking). This is a mind-affecting effect.
 
 ### Qadira: Mage of the Veil School
 
-**Sources:** Inner Sea Primer pg 29\
 The city of Katheer is home to a great number of arcane colleges in the Qadiran tradition. Magic has
 a proud history in this land; its many schools compete with one another to find the best route to
 understanding the secrets of power.
@@ -175,7 +175,6 @@ allies within 30 feet. This ability otherwise functions like the spell [veil](re
 
 ### Shadow School
 
-**Sources:** Advanced Player's Guide pg 147\
 **Associated School:** Illusion.
 
 **Replacement Powers:** The following school powers replace the

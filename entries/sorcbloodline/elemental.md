@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "75"
 [[sources]]
+publication = "ultimate-magic"
+page = "72"
+[[sources]]
 publication = "blood-of-the-elements"
 page = "15"
 
@@ -147,7 +150,6 @@ the same energy type.
 
 ### Lifewater (Wildblooded Mutation)
 
-**Sources:** Blood of the Elements pg 15\
 Your soul is infused with the restorative and life-giving powers of elemental water.
 
 **Replacement Bloodline Arcana**

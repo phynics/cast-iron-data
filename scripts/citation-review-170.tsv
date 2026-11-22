@@ -1,0 +1,80 @@
+entry_id	kind	publication	reason	candidate_page	note
+ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/animal	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/artifice	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/domain/chaos	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/chaos	class_option	book-of-the-damned	conflict		paragraph 181, row 180
+ref/domain/chaos	class_option	inner-sea-gods	conflict		paragraph 226, row 224
+ref/domain/chaos	class_option	inner-sea-gods	conflict		paragraph 227, row 224
+ref/domain/charm	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/domain/community	class_option	champions-of-purity	marker		paragraph agrees; it ends the normal part
+ref/domain/community	class_option	inner-sea-gods	marker		paragraph agrees; it ends the normal part
+ref/domain/darkness	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/death	class_option	paizo-blog-golarion-day-subdomains	blog		cited no page
+ref/domain/destruction	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/earth	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/evil	class_option	champions-of-corruption	conflict		paragraph 19, row 18
+ref/domain/evil	class_option	champions-of-corruption	marker		paragraph agrees; it ends the normal part
+ref/domain/fire	class_option	book-of-the-damned	marker		paragraph agrees; it ends the normal part
+ref/domain/fire	class_option	goblins-of-golarion	marker		paragraph agrees; it ends the normal part
+ref/domain/fire	class_option	inner-sea-gods	marker		paragraph agrees; it ends the normal part
+ref/domain/glory	class_option	heroes-of-the-high-court	marker		paragraph agrees; it ends the normal part
+ref/domain/good	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/healing	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/domain/knowledge	class_option	champions-of-balance	marker		paragraph agrees; it ends the normal part
+ref/domain/law	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/law	class_option	inner-sea-gods	conflict		paragraph 227, row 226
+ref/domain/liberation	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/luck	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/madness	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/magic	class_option	divine-anthology	conflict		paragraph 26, row 22
+ref/domain/magic	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/domain/nobility	class_option	champions-of-balance	marker		paragraph agrees; it ends the normal part
+ref/domain/plant	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/protection	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/repose	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/repose	class_option	paizo-blog-golarion-day-subdomains	blog		cited no page
+ref/domain/rune	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/scalykind	class_option	book-of-the-damned	conflict		paragraph 180, row 181
+ref/domain/scalykind	class_option	book-of-the-damned	conflict		paragraph 182, row 181
+ref/domain/scalykind	class_option	inner-sea-gods	conflict		paragraph 226, row 224
+ref/domain/scalykind	class_option	inner-sea-gods	conflict		paragraph 227, row 224
+ref/domain/scalykind	class_option	paizo-blog-golarion-day-subdomains	blog		cited 1
+ref/domain/strength	class_option	heroes-of-the-streets	marker		paragraph agrees; it ends the normal part
+ref/domain/sun	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/travel	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/trickery	class_option	kobolds-of-golarion	marker		paragraph agrees; it ends the normal part
+ref/domain/void	class_option	bestiary-4	conflict		paragraph 135, row 134
+ref/domain/void	class_option	book-of-the-damned	conflict		paragraph 181, row 182
+ref/domain/void	class_option	inner-sea-gods	conflict		paragraph 225, row 224
+ref/domain/void	class_option	inner-sea-gods	conflict		paragraph 227, row 224
+ref/domain/void	class_option	paizo-blog-golarion-day-subdomains	blog		cited 1
+ref/domain/war	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
+ref/domain/water	class_option	book-of-the-damned	conflict		paragraph 181, row 180
+ref/domain/water	class_option	book-of-the-damned	marker		paragraph agrees; it ends the normal part
+ref/domain/water	class_option	goblins-of-golarion	marker		paragraph agrees; it ends the normal part
+ref/domain/water	class_option	inner-sea-gods	conflict		paragraph 226, row 225
+ref/domain/water	class_option	inner-sea-gods	marker		paragraph agrees; it ends the normal part
+ref/domain/weather	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/aberrant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/abyssal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/aquatic	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/arcane	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/boreal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/celestial	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/deep-earth	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/destined	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/draconic	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/dreamspun	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/elemental	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/fey	class_option	people-of-the-river	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/infernal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/marid	class_option	blood-of-the-elements	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/martyred	class_option	people-of-the-river	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/protean	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/serpentine	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/shadow	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/starsoul	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part

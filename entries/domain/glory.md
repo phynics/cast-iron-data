@@ -8,6 +8,9 @@ source_ids = ["core-rulebook", "heroes-of-the-high-court", "advanced-players-gui
 publication = "core-rulebook"
 page = "44"
 [[sources]]
+publication = "advanced-players-guide"
+page = "91-92"
+[[sources]]
 publication = "divine-anthology"
 page = "23"
 [[sources]]
@@ -88,8 +91,6 @@ affected by the fear effect at all.
 
 ### Heroism Subdomain
 
-**Sources:** Advanced Player's Guide pg 91
-
 **Associated Deities:** Damerrich, General Susumu, Iomedae, Myr, Osolmyr, Ra, Sarenrae, Shizuru,
 Skode
 
@@ -111,8 +112,6 @@ under the effects of [heroism](ref/spell/heroism).
 **6th:** greater heroism
 
 ### Honor Subdomain
-
-**Sources:** Advanced Player's Guide pg 92
 
 **Associated Deities:** Akuma, Damerrich, General Susumu, Iomedae, Jaidi, Myr, Quindiovatos, Ra,
 Rubicante, Shizuru, Smiad, Uruskreil
@@ -138,8 +137,6 @@ that particular enchantment effect.
 **6th:** geas/quest
 
 ### Hubris Subdomain
-
-**Sources:** Divine Anthology pg 23
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
@@ -185,8 +182,6 @@ _[holy aura](ref/spell/holy-aura)_ with [aid](ref/spell/aid) and
 [unholy aura](ref/spell/unholy-aura) respectively.
 
 ### Legend Subdomain
-
-**Sources:** Divine Anthology pg 23
 
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.

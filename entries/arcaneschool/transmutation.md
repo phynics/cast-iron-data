@@ -10,6 +10,9 @@ provenance = [
 publication = "core-rulebook"
 page = "82"
 [[sources]]
+publication = "advanced-players-guide"
+page = "145, 147"
+[[sources]]
 publication = "arcane-anthology"
 page = "23"
 
@@ -55,7 +58,6 @@ consecutive.
 
 ### Enhancement School
 
-**Sources:** Advanced Player's Guide pg 145\
 **Associated School:** Transmutation.
 
 **Replacement Powers:** The following school powers replace the _telekinetic fist_ and
@@ -87,7 +89,6 @@ wizard level (maximum +10) for one round.
 
 ### Shapechange School
 
-**Sources:** Advanced Player's Guide pg 147\
 **Associated School:** Transmutation.
 
 **Replacement Powers:** The following school power replaces the _telekinetic fist_ power of the
@@ -109,8 +110,6 @@ creature of your size. You may not grow additional limbs or a tail with this abi
 **At 11th level,** you can shape two natural weapons.
 
 ### Anointings
-
-**Sources:** Arcane Anthology pg 23
 
 Transmuter wizards can gain [anointings](ref/ability/annointings) in place of wizard bonus feats. In
 each of these cases, the character treats levels in the class used to select the

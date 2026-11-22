@@ -22,6 +22,9 @@ page = "27"
 publication = "inner-sea-gods"
 page = "225"
 [[sources]]
+publication = "advanced-players-guide"
+page = "92, 94"
+[[sources]]
 publication = "pathfinder-80-empty-graves"
 page = "65"
 
@@ -96,8 +99,6 @@ after 24 hours if they're not already used up or otherwise destroyed before then
 
 ### Flowing Subdomain
 
-**Sources:** Champions of Balance pg 17
-
 **Associated Deities:** Gozreh, Pharasma, Yamatsumi
 
 **Go with the Flow (Su)**
@@ -123,8 +124,6 @@ to 1/2 your cleric level (minimum 1).
 
 ### Ice Subdomain
 
-**Sources:** Advanced Player's Guide pg 92
-
 **Associated Deities:** Charon, Inkariax, Ithaqua, Kostchtchie, Orgesh, Pharasma, Sithhud, Thremyr,
 Tolc, Uzumae, Yamatsumi
 
@@ -148,8 +147,6 @@ from fire.
 **9th:** polar ray
 
 ### Oceans Subdomain
-
-**Sources:** Advanced Player's Guide pg 94
 
 **Associated Deities:** Aegirran, Besmara, Bokrug, Crocell, Dagon, Gaap, Geryon, Ghatanothoa,
 Gozreh, Guyuku, Hei Feng, Kelizandri, Neith, Oaur-Ooung, Onos, Orgesh, Ovonovo, Pharimia, Ragadahn,

@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "79"
+[[sources]]
+publication = "advanced-players-guide"
+page = "144"
 
 [fields]
 kind = "class_option"
@@ -51,7 +54,6 @@ your absorption is applied to you normally.
 
 ### Banishment School
 
-**Sources:** Advanced Player's Guide pg 144\
 **Associated School:** Abjuration.
 
 **Replacement Powers:** The following school powers replace the _energy absorption_ power and the
@@ -81,7 +83,6 @@ than one creature, only the creature that failed its saving throws is affected.
 
 ### Counterspell School
 
-**Sources:** Advanced Player's Guide pg 144\
 **Associated School:** Abjuration.
 
 **Replacement Powers:** The following school powers replace the _protective ward_ power and the

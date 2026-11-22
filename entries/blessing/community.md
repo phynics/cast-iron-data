@@ -45,8 +45,6 @@ turn.
 
 ### Cooperation
 
-**Sources:** Healer's Handbook pg 13
-
 **Replacement Blessing:** The following minor blessing replaces the _communal aid_ ability of the
 Community blessing.
 

@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "81"
+[[sources]]
+publication = "advanced-players-guide"
+page = "143, 146"
 
 [fields]
 kind = "class_option"
@@ -52,7 +55,6 @@ damage, determined when you create it. The elemental wall otherwise functions li
 
 ### Admixture School
 
-**Sources:** Advanced Player's Guide pg 143\
 **Associated School:** Evocation.
 
 **Replacement Powers:** The following school powers replace the _force missile_ and _elemental wall_
@@ -88,7 +90,6 @@ lies only partially within your aura, only the portions within the aura are tran
 
 ### Generation School
 
-**Sources:** Advanced Player's Guide pg 146\
 **Associated School:** Evocation.
 
 **Replacement Powers:** The following school powers replace the _intense spells_ and _force missile_

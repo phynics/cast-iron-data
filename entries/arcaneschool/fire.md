@@ -66,7 +66,6 @@ wizard level.
 
 ### Magma School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Earth or Fire.
 
 **Replacement Powers:** The following school powers replace the _fire jet_ and _dancing flame_
@@ -99,7 +98,6 @@ dismiss the lava shield as a free action, and it disappears immediately if you l
 
 ### Smoke School
 
-**Sources:** Elemental Master's Handbook pg 21\
 **Associated School:** Air or Fire.
 
 **Replacement Powers:** The following school powers replace the _fire jet_ and _dancing flame_

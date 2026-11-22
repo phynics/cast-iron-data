@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "46"
 [[sources]]
+publication = "advanced-players-guide"
+page = "89, 94"
+[[sources]]
 publication = "champions-of-balance"
 page = "17"
 [[sources]]
@@ -93,8 +96,6 @@ level. Allies within the aura gain a +2 deflection bonus to AC and combat maneuv
 
 ### Fortifications Subdomain
 
-**Sources:** Heroes of the Streets pg 18
-
 **Associated Deities:** Abadar, Arqueros, Torag
 
 **Sheltering Walls (Sp)**
@@ -119,8 +120,6 @@ throws increase by 1.
 **9th:** prismatic wall
 
 ### Purity Subdomain
-
-**Sources:** Advanced Player's Guide pg 94
 
 **Associated Deities:** Aesocar, Andoletta, Anubis, Chadali, Jaidz, Lymnieris, Maat, Milani,
 Nephthys, Ondisso, Qi Zhong, Selket, Shelyn, Shelyn (pre-Earthfall), Soralyon, Wadjet, Winlas
@@ -147,8 +146,6 @@ an effect.
 **5th:** atonement
 
 ### Solitude Subdomain
-
-**Sources:** Champions of Balance pg 17
 
 **Associated Deities:** Nethys, Yamatsumi
 

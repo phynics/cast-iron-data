@@ -12,6 +12,9 @@ page = "76"
 [[sources]]
 publication = "people-of-the-river"
 page = "11"
+[[sources]]
+publication = "ultimate-magic"
+page = "72"
 
 [fields]
 kind = "class_option"
@@ -135,7 +138,6 @@ a mind-affecting, illusion (pattern) effect.
 
 ### Sylvan (Wildblooded Mutation)
 
-**Sources:** Ultimate Magic pg 72\
 Your ties to nature have more to do with creatures than with capriciousness.
 
 **Replacement Bloodline Arcana**

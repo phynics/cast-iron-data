@@ -11,6 +11,9 @@ provenance = [
 publication = "core-rulebook"
 page = "41"
 [[sources]]
+publication = "advanced-players-guide"
+page = "88, 97"
+[[sources]]
 publication = "divine-anthology"
 page = "24"
 
@@ -79,8 +82,6 @@ the cloud to move it up to 30 feet each round.
 
 ### Lightning Subdomain
 
-**Sources:** Divine Anthology pg 24
-
 **Prerequisites:** This subdomain requires the
 [Acolyte of Apocrypha](ref/trait/acolyte-of-apocrypha) trait to access.
 
@@ -110,8 +111,6 @@ only once, even if it could affect the target multiple times.
 **3rd:** lightning bolt
 
 ### Wind Subdomain
-
-**Sources:** Advanced Player's Guide pg 97
 
 **Associated Deities:** Areshkagal, Baalzebul, Chupurvagasti, Eligos, Geon, Ghlaunder, Gozreh, Hei
 Feng, Horus, Hshurha, Isph-Aun-Vuln, Ithaqua, Libicocco, Llamolaek, Nyarlathotep (Faceless Sphinx),

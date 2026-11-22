@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "core-rulebook"
 page = "81"
+[[sources]]
+publication = "advanced-players-guide"
+page = "146-147"
 
 [fields]
 kind = "class_option"
@@ -65,7 +68,6 @@ other creatures that are neither living nor undead cannot be seen with this abil
 
 ### Life School
 
-**Sources:** Advanced Player's Guide pg 146\
 **Associated School:** Necromancy.
 
 **Replacement Powers:** The following school powers replace the _power over undead_ and _grave
@@ -104,7 +106,6 @@ use this ability to grant yourself temporary hit points.
 
 ### Undead School
 
-**Sources:** Advanced Player's Guide pg 147\
 **Associated School:** Necromancy.
 
 **Replacement Powers:** The following school power replaces the _grave touch_ power of the

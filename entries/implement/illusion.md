@@ -162,8 +162,6 @@ creature to remain invisible if the creature is within 30 feet of you.
 
 ### Sacred Implement
 
-**Sources:** Occult Origins pg 15
-
 **Deity**
 
 **Details:** [Norgorber](ref/faith/norgorber)
