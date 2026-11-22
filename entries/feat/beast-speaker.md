@@ -13,7 +13,7 @@ page = "21"
 
 [fields]
 kind = "feat"
-prerequisites = "Diplomacy 7 ranks, Knowledge (arcana) or Knowledge (religion) 7 ranks."
+prerequisites = "Handle Animal 7 ranks, animal companion with effective druid level 7."
 benefit = "You can select a creature from the list of magical beasts to serve as your animal companion. You acquire and advance this beast companion in the same way as an animal companion detailed in the class feature that grants you access to your animal companion. You can also dismiss the creature, as dictated by your class feature."
 +++
 
