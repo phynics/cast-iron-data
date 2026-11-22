@@ -123,8 +123,9 @@ The victim suffers the initial effects of these two diseases immediately.
 
 **Gained:** At 20th Level
 
-**Ability:** Your touch inflicts [mummy rot](ref/curse/mummy-rot) on those you strike. You can
-choose to suppress this ability for 1 round as a **swift action**. You can make a touch attack to
-inflict this disease on a target, or transfer it as part of an attack with any melee weapon or
-touch-based spell. The creature touched can resist contracting _mummy rot_ by making a Fortitude
-save - the DC is equal to 10 + half your sorcerer level + your Charisma modifier.
+**Ability:** Your touch inflicts
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot) on those
+you strike. You can choose to suppress this ability for 1 round as a **swift action**. You can make
+a touch attack to inflict this disease on a target, or transfer it as part of an attack with any
+melee weapon or touch-based spell. The creature touched can resist contracting _mummy rot_ by making
+a Fortitude save - the DC is equal to 10 + half your sorcerer level + your Charisma modifier.

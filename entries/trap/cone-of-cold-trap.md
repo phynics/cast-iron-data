@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([cone of cold](ref/spell/cone-of-cold), 15d6 cold damage, DC 17 Reflex
 save for half damage); multiple targets (all targets in a 60-ft. cone)
+
+**Reset:** none

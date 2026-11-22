@@ -34,6 +34,9 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at surviving in the wild and at navigating in the wilderness. You also excel at
+following trails and tracks left by others._
+
 ### Check
 
 You can keep yourself and others safe and fed in the wild. The table below gives the DCs for various

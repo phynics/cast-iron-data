@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Curses/Mummy Rot", path = "core_rulebook/affliction/curse/mummy_rot.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "557"
 
 [fields]
 kind = "none"

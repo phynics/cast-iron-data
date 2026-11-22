@@ -310,12 +310,12 @@ title = "Baleful Polymorph Spell"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
+target = "ref/curse/bestow-curse-trap"
 title = "Bestow Curse Trap"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
+target = "ref/curse/curse-of-the-ages"
 title = "Curse of the Ages"
 :::
 
@@ -344,57 +344,57 @@ throws or by spells such as _[remove disease](ref/spell/remove-disease)_.
 The following samples represent just some of the possibilities when creating diseases.
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
+target = "ref/disease/blinding-sickness"
 title = "Blinding Sickness"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
+target = "ref/disease/bubonic-plague"
 title = "Bubonic Plague"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
+target = "ref/disease/cackle-fever"
 title = "Cackle Fever"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
+target = "ref/disease/demon-fever"
 title = "Demon Fever"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
+target = "ref/disease/devil-chills"
 title = "Devil Chills"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
+target = "ref/disease/filth-fever"
 title = "Filth Fever"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
+target = "ref/disease/leprosy"
 title = "Leprosy"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
+target = "ref/disease/mindfire"
 title = "Mindfire"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
+target = "ref/disease/red-ache"
 title = "Red Ache"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes"
+target = "ref/disease/shakes"
 title = "Shakes"
 :::
 
 ::: entry-link
-target = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
+target = "ref/disease/slimy-doom"
 title = "Slimy Doom"
 :::
 

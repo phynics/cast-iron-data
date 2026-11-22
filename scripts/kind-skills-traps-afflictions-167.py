@@ -33,7 +33,7 @@ rules existed twice. Two passes fix that. A pass changes no `id` and moves no fi
               the same rule as an imported entry: the same title, and the same book, or a book
               that another entry of the same title prints together with it. A carried entry that
               sits in a creature's text (`/monsters/` in the id) and the creature-specific
-              afflictions (`ref/affliction/`) are variants, not duplicates, and stay.
+              afflictions (`ref/affliction/`) are variants, not duplicates, and stay (listed as `variant`).
               The kept entry is the one that holds every printed fact of the other:
                 * the imported entry holds every fact of the carried one: keep the imported entry;
                 * only the carried entry holds every fact of the imported one: keep the carried one;
@@ -362,8 +362,8 @@ def add_source_rows(head: str, rows: list[tuple[str, str | None]]) -> str:
         text += f'[[sources]]\npublication = "{publication}"\n'
         if page:
             text += f'page = "{page}"\n'
-    index = head.index("\n[fields]") + 1
-    return head[:index] + text + ("\n" if not head[:index].endswith("\n\n") and text else "") + head[index:]
+    index = head.index("\n\n[fields]") + 1
+    return head[:index] + text + head[index:]
 
 
 def plan_kinds(entries: dict[str, Entry], titles: dict[str, str], plan: Plan) -> None:
@@ -432,6 +432,24 @@ def plan_duplicates(entries: dict[str, Entry], titles: dict[str, str], plan: Pla
                 continue
             if twin:
                 plan.holds.append((entry.id, other.id, "item-twin", "an item is bought: the pair keeps both until the owner decides"))
+                continue
+            variant = (
+                folder in PAIR_KIND
+                and other.kind == want
+                and (
+                    ("/monsters/" in other.id and other.id.startswith("ref/carried/"))
+                    or other.id.startswith("ref/affliction/")
+                )
+            )
+            if variant:
+                plan.holds.append(
+                    (
+                        entry.id,
+                        other.id,
+                        "variant",
+                        "printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry",
+                    )
+                )
                 continue
             if folder not in PAIR_KIND or not carried:
                 continue
@@ -716,7 +734,7 @@ def review_rows(plan: Plan, titles: dict[str, str]) -> list[dict]:
             )
     for first, second, action, reason in plan.holds:
         rows.append(
-            dict(entry_id=first, action="hold" if action != "poison" and action != "item-twin" else action, kind_before="", kind_after="", tag="", other_id=second, citation="", reason=reason)
+            dict(entry_id=first, action=action, kind_before="", kind_after="", tag="", other_id=second, citation="", reason=reason)
         )
     return rows
 

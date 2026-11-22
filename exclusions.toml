@@ -56726,6 +56726,338 @@ reason = "stays out as its own entry: the Espionage subdomain is a section of th
 path = "json/class_ability_domains3.json#hubris"
 reason = "stays out as its own entry: the Hubris subdomain is a section of the domain entries Glory and Nobility (ref/domain), where it ships with its replacement powers and spells. Its record here holds only a pointer to those domains. Refs phynics/cast-iron-data#103."
 
+[[rejected]]
+path = "ref/curse/baleful-polymorph-spell"
+reason = "duplicate of ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap"
+reason = "duplicate of ref/curse/bestow-curse-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages"
+reason = "duplicate of ref/curse/curse-of-the-ages"
+
+[[rejected]]
+path = "ref/curse/mummy-rot"
+reason = "duplicate of ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot"
+
+[[rejected]]
+path = "ref/curse/unluck"
+reason = "duplicate of ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck"
+
+[[rejected]]
+path = "ref/curse/werewolf-lycanthropy"
+reason = "duplicate of ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness"
+reason = "duplicate of ref/disease/blinding-sickness"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague"
+reason = "duplicate of ref/disease/bubonic-plague"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever"
+reason = "duplicate of ref/disease/cackle-fever"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever"
+reason = "duplicate of ref/disease/demon-fever"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills"
+reason = "duplicate of ref/disease/devil-chills"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever"
+reason = "duplicate of ref/disease/filth-fever"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy"
+reason = "duplicate of ref/disease/leprosy"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire"
+reason = "duplicate of ref/disease/mindfire"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache"
+reason = "duplicate of ref/disease/red-ache"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes"
+reason = "duplicate of ref/disease/shakes"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom"
+reason = "duplicate of ref/disease/slimy-doom"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
+reason = "duplicate of ref/drug/aether"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
+reason = "duplicate of ref/drug/dwarven-fire-ale"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
+reason = "duplicate of ref/drug/elven-absinthe"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
+reason = "duplicate of ref/drug/flayleaf"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
+reason = "duplicate of ref/drug/opium"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
+reason = "duplicate of ref/drug/pesh"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
+reason = "duplicate of ref/drug/scour"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
+reason = "duplicate of ref/drug/shiver"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
+reason = "duplicate of ref/drug/zerk"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
+reason = "duplicate of ref/madness/amnesia"
+
+[[rejected]]
+path = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia"
+reason = "duplicate of ref/madness/schizophrenia"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/acrobatics"
+reason = "duplicate of ref/skill/acrobatics"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/appraise"
+reason = "duplicate of ref/skill/appraise"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/bluff"
+reason = "duplicate of ref/skill/bluff"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/climb"
+reason = "duplicate of ref/skill/climb"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/diplomacy"
+reason = "duplicate of ref/skill/diplomacy"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/disable-device"
+reason = "duplicate of ref/skill/disable-device"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/disguise"
+reason = "duplicate of ref/skill/disguise"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/escape-artist"
+reason = "duplicate of ref/skill/escape-artist"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/fly"
+reason = "duplicate of ref/skill/fly"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/heal"
+reason = "duplicate of ref/skill/heal"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/intimidate"
+reason = "duplicate of ref/skill/intimidate"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/perception"
+reason = "duplicate of ref/skill/perception"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/ride"
+reason = "duplicate of ref/skill/ride"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/sense-motive"
+reason = "duplicate of ref/skill/sense-motive"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/sleight-of-hand"
+reason = "duplicate of ref/skill/sleight-of-hand"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/spellcraft"
+reason = "duplicate of ref/skill/spellcraft"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/stealth"
+reason = "duplicate of ref/skill/stealth"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/survival"
+reason = "duplicate of ref/skill/survival"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/swim"
+reason = "duplicate of ref/skill/swim"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/skills/use-magic-device"
+reason = "duplicate of ref/skill/use-magic-device"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap"
+reason = "duplicate of ref/trap/acid-arrow-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap"
+reason = "duplicate of ref/trap/arrow-trap"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap"
+reason = "duplicate of ref/trap/bear-trap"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap"
+reason = "duplicate of ref/trap/bear-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap"
+reason = "duplicate of ref/trap/burning-hands-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap"
+reason = "duplicate of ref/trap/camouflaged-pit-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap"
+reason = "duplicate of ref/trap/camouflaged-spiked-pit-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap"
+reason = "duplicate of ref/trap/chamber-of-blades-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap"
+reason = "duplicate of ref/trap/cone-of-cold-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap"
+reason = "duplicate of ref/trap/crushing-stone-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap"
+reason = "duplicate of ref/trap/deadly-spear-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap"
+reason = "duplicate of ref/trap/destruction-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap"
+reason = "duplicate of ref/trap/electricity-arc-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap"
+reason = "duplicate of ref/trap/empowered-disintegrate-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap"
+reason = "duplicate of ref/trap/energy-drain-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap"
+reason = "duplicate of ref/trap/falling-block-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap"
+reason = "duplicate of ref/trap/fireball-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap"
+reason = "duplicate of ref/trap/flame-strike-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap"
+reason = "duplicate of ref/trap/frost-fangs-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap"
+reason = "duplicate of ref/trap/hail-of-arrows-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap"
+reason = "duplicate of ref/trap/harm-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap"
+reason = "duplicate of ref/trap/insanity-mist-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap"
+reason = "duplicate of ref/trap/javelin-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap"
+reason = "duplicate of ref/trap/lightning-bolt-gallery-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap"
+reason = "duplicate of ref/trap/maximized-fireball-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap"
+reason = "duplicate of ref/trap/meteor-swarm-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap"
+reason = "duplicate of ref/trap/pit-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap"
+reason = "duplicate of ref/trap/poisoned-dart-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap"
+reason = "duplicate of ref/trap/poisoned-pit-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap"
+reason = "duplicate of ref/trap/shocking-floor-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap"
+reason = "duplicate of ref/trap/spiked-pit-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap"
+reason = "duplicate of ref/trap/summon-monster-vi-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap"
+reason = "duplicate of ref/trap/swinging-axe-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap"
+reason = "duplicate of ref/trap/wall-scythe-trap"
+
+[[rejected]]
+path = "ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
+reason = "duplicate of ref/trap/wyvern-arrow-trap"
+
 [[resolved]]
 path = "json/prestige_classes.json#thought_thief_arcane_trickster"
 entries = ["ref/pclass/thought-thief-arcane-trickster"]

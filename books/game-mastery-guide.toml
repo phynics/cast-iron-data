@@ -1951,44 +1951,8 @@ title = "Drugs"
 entry = "ref/rule/drugs"
 
 [[books.chapters.children.children.children]]
-title = "AEther"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether"
-
-[[books.chapters.children.children.children]]
-title = "Dwarven Fire Ale"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale"
-
-[[books.chapters.children.children.children]]
-title = "Elven Absinthe"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe"
-
-[[books.chapters.children.children.children]]
-title = "Flayleaf"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf"
-
-[[books.chapters.children.children.children]]
-title = "Opium"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium"
-
-[[books.chapters.children.children.children]]
-title = "Pesh"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh"
-
-[[books.chapters.children.children.children]]
 title = "Sample Drugs"
 entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs"
-
-[[books.chapters.children.children.children]]
-title = "Scour"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour"
-
-[[books.chapters.children.children.children]]
-title = "Shiver"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver"
-
-[[books.chapters.children.children.children]]
-title = "Zerk"
-entry = "ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk"
 
 [[books.chapters.children.children]]
 title = "Aether"
@@ -2219,10 +2183,6 @@ title = "Schizophrenia"
 entry = "ref/madness/schizophrenia"
 
 [[books.chapters.children.children.children]]
-title = "Amnesia"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia"
-
-[[books.chapters.children.children.children]]
 title = "Mania/Phobia"
 entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-phobia"
 
@@ -2237,10 +2197,6 @@ entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insani
 [[books.chapters.children.children.children]]
 title = "Psychosis"
 entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis"
-
-[[books.chapters.children.children.children]]
-title = "Schizophrenia"
-entry = "ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia"
 
 [[books.chapters.children.children]]
 title = "Going Insane"

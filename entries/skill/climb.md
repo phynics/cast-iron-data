@@ -25,6 +25,8 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You are skilled at scaling vertical surfaces, from smooth city walls to rocky cliffs._
+
 ### Check
 
 With a successful Climb check, you can advance up, down, or across a slope, wall, or other steep

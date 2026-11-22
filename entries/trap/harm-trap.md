@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([harm](ref/spell/harm), +6 melee touch, 130 damage, DC 19 Will save for
 half, cannot be reduced to less than 1 hit point)
+
+**Reset:** none

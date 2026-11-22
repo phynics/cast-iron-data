@@ -1,4 +1,100 @@
 entry_id	action	kind_before	kind_after	tag	other_id	citation	reason
+ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap	alias	trap			ref/trap/bear-trap	Advanced Player's Guide p. 184	kept ref/trap/bear-trap: the imported entry holds every fact of the carried entry
+ref/carried/advanced-players-guide/rules/gear/goods-and-services/tools-and-skill-kits/bear-trap/bear-trap	book-node-removed				advanced-players-guide		the kept entry already has a node in this book
+ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap	alias	trap			ref/trap/acid-arrow-trap	Core Rulebook p. 420	kept ref/trap/acid-arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap	alias	trap			ref/trap/arrow-trap	Core Rulebook p. 420	kept ref/trap/arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap	alias	trap			ref/trap/burning-hands-trap	Core Rulebook p. 420	kept ref/trap/burning-hands-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-pit-trap	alias	trap			ref/trap/camouflaged-pit-trap	Core Rulebook p. 420	kept ref/trap/camouflaged-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/camouflaged-spiked-pit-trap	alias	trap			ref/trap/camouflaged-spiked-pit-trap	Core Rulebook p. 421	kept ref/trap/camouflaged-spiked-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/chamber-of-blades-trap	alias	trap			ref/trap/chamber-of-blades-trap	Core Rulebook p. 421	kept ref/trap/chamber-of-blades-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap	alias	trap			ref/trap/cone-of-cold-trap	Core Rulebook p. 421	kept ref/trap/cone-of-cold-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/crushing-stone-trap	alias	trap			ref/trap/crushing-stone-trap	Core Rulebook p. 422	kept ref/trap/crushing-stone-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/deadly-spear-trap	alias	trap			ref/trap/deadly-spear-trap	Core Rulebook p. 422	kept ref/trap/deadly-spear-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap	alias	trap			ref/trap/destruction-trap	Core Rulebook p. 422	kept ref/trap/destruction-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap	alias	trap			ref/trap/electricity-arc-trap	Core Rulebook p. 420	kept ref/trap/electricity-arc-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap	alias	trap			ref/trap/empowered-disintegrate-trap	Core Rulebook p. 422	kept ref/trap/empowered-disintegrate-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap	alias	trap			ref/trap/energy-drain-trap	Core Rulebook p. 421	kept ref/trap/energy-drain-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/falling-block-trap	alias	trap			ref/trap/falling-block-trap	Core Rulebook p. 420	kept ref/trap/falling-block-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap	alias	trap			ref/trap/fireball-trap	Core Rulebook p. 421	kept ref/trap/fireball-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap	alias	trap			ref/trap/flame-strike-trap	Core Rulebook p. 421	kept ref/trap/flame-strike-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap	alias	trap			ref/trap/frost-fangs-trap	Core Rulebook p. 421	kept ref/trap/frost-fangs-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/hail-of-arrows-trap	alias	trap			ref/trap/hail-of-arrows-trap	Core Rulebook p. 421	kept ref/trap/hail-of-arrows-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap	alias	trap			ref/trap/harm-trap	Core Rulebook p. 422	kept ref/trap/harm-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/insanity-mist-trap	alias	trap			ref/trap/insanity-mist-trap	Core Rulebook p. 421	kept ref/trap/insanity-mist-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap	alias	trap			ref/trap/javelin-trap	Core Rulebook p. 420	kept ref/trap/javelin-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap	alias	trap			ref/trap/lightning-bolt-gallery-trap	Core Rulebook p. 422	kept ref/trap/lightning-bolt-gallery-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap	alias	trap			ref/trap/maximized-fireball-trap	Core Rulebook p. 421	kept ref/trap/maximized-fireball-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap	alias	trap			ref/trap/meteor-swarm-trap	Core Rulebook p. 422	kept ref/trap/meteor-swarm-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/pit-trap	alias	trap			ref/trap/pit-trap	Core Rulebook p. 420	kept ref/trap/pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap	alias	trap			ref/trap/poisoned-dart-trap	Core Rulebook p. 420	kept ref/trap/poisoned-dart-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-pit-trap	alias	trap			ref/trap/poisoned-pit-trap	Core Rulebook p. 421	kept ref/trap/poisoned-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap	alias	trap			ref/trap/shocking-floor-trap	Core Rulebook p. 421	kept ref/trap/shocking-floor-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/spiked-pit-trap	alias	trap			ref/trap/spiked-pit-trap	Core Rulebook p. 420	kept ref/trap/spiked-pit-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap	alias	trap			ref/trap/summon-monster-vi-trap	Core Rulebook p. 421	kept ref/trap/summon-monster-vi-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/swinging-axe-trap	alias	trap			ref/trap/swinging-axe-trap	Core Rulebook p. 420	kept ref/trap/swinging-axe-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/wall-scythe-trap	alias	trap			ref/trap/wall-scythe-trap	Core Rulebook p. 420	kept ref/trap/wall-scythe-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap	alias	trap			ref/trap/wyvern-arrow-trap	Core Rulebook p. 421	kept ref/trap/wyvern-arrow-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	merge	affliction			ref/curse/baleful-polymorph-spell		merged from the dropped entry: core-rulebook source page 556
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/bestow-curse-trap	alias	affliction			ref/curse/bestow-curse-trap	Core Rulebook p. 556	kept ref/curse/bestow-curse-trap: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/curse-of-the-ages	alias	affliction			ref/curse/curse-of-the-ages	Core Rulebook p. 557	kept ref/curse/curse-of-the-ages: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	merge	affliction			ref/curse/mummy-rot		merged from the dropped entry: core-rulebook source page 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	merge	affliction			ref/curse/unluck		merged from the dropped entry: core-rulebook source page 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	merge	affliction			ref/curse/werewolf-lycanthropy		merged from the dropped entry: core-rulebook source page 557
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/blinding-sickness	alias	affliction			ref/disease/blinding-sickness	Core Rulebook p. 557	kept ref/disease/blinding-sickness: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/bubonic-plague	alias	affliction			ref/disease/bubonic-plague	Core Rulebook p. 557	kept ref/disease/bubonic-plague: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/cackle-fever	alias	affliction			ref/disease/cackle-fever	Core Rulebook p. 557	kept ref/disease/cackle-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/demon-fever	alias	affliction			ref/disease/demon-fever	Core Rulebook p. 557	kept ref/disease/demon-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/devil-chills	alias	affliction			ref/disease/devil-chills	Core Rulebook p. 557	kept ref/disease/devil-chills: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/filth-fever	alias	affliction			ref/disease/filth-fever	Core Rulebook p. 557	kept ref/disease/filth-fever: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/leprosy	alias	affliction			ref/disease/leprosy	Core Rulebook p. 557	kept ref/disease/leprosy: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/mindfire	alias	affliction			ref/disease/mindfire	Core Rulebook p. 557	kept ref/disease/mindfire: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/red-ache	alias	affliction			ref/disease/red-ache	Core Rulebook p. 557	kept ref/disease/red-ache: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/shakes	alias	affliction			ref/disease/shakes	Core Rulebook p. 557	kept ref/disease/shakes: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/rules/glossary/special-abilities/diseases/slimy-doom	alias	affliction			ref/disease/slimy-doom	Core Rulebook p. 557	kept ref/disease/slimy-doom: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/acrobatics	alias	skill			ref/skill/acrobatics	Core Rulebook p. 87	kept ref/skill/acrobatics: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/appraise	alias	skill			ref/skill/appraise	Core Rulebook p. 90	kept ref/skill/appraise: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/bluff	alias	skill			ref/skill/bluff	Core Rulebook p. 90	kept ref/skill/bluff: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/climb	alias	skill			ref/skill/climb	Core Rulebook p. 90	kept ref/skill/climb: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/diplomacy	alias	skill			ref/skill/diplomacy	Core Rulebook p. 93	kept ref/skill/diplomacy: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/disable-device	alias	skill			ref/skill/disable-device	Core Rulebook p. 94	kept ref/skill/disable-device: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/disguise	alias	skill			ref/skill/disguise	Core Rulebook p. 95	kept ref/skill/disguise: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/escape-artist	alias	skill			ref/skill/escape-artist	Core Rulebook p. 95	kept ref/skill/escape-artist: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/fly	alias	skill			ref/skill/fly	Core Rulebook p. 96	kept ref/skill/fly: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/heal	alias	skill			ref/skill/heal	Core Rulebook p. 98	kept ref/skill/heal: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/intimidate	alias	skill			ref/skill/intimidate	Core Rulebook p. 99	kept ref/skill/intimidate: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/perception	alias	skill			ref/skill/perception	Core Rulebook p. 102	kept ref/skill/perception: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/ride	alias	skill			ref/skill/ride	Core Rulebook p. 103	kept ref/skill/ride: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/sense-motive	alias	skill			ref/skill/sense-motive	Core Rulebook p. 104	kept ref/skill/sense-motive: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/sleight-of-hand	alias	skill			ref/skill/sleight-of-hand	Core Rulebook p. 104	kept ref/skill/sleight-of-hand: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/spellcraft	alias	skill			ref/skill/spellcraft	Core Rulebook p. 106	kept ref/skill/spellcraft: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/stealth	alias	skill			ref/skill/stealth	Core Rulebook p. 106	kept ref/skill/stealth: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/survival	alias	skill			ref/skill/survival	Core Rulebook p. 107	kept ref/skill/survival: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/swim	alias	skill			ref/skill/swim	Core Rulebook p. 108	kept ref/skill/swim: the imported entry holds every fact of the carried entry
+ref/carried/core-rulebook/skills/use-magic-device	alias	skill			ref/skill/use-magic-device	Core Rulebook p. 108	kept ref/skill/use-magic-device: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether	alias	affliction			ref/drug/aether	Game Mastery Guide p. 237	kept ref/drug/aether: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/aether	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale	alias	affliction			ref/drug/dwarven-fire-ale	Game Mastery Guide p. 237	kept ref/drug/dwarven-fire-ale: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/dwarven-fire-ale	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe	alias	affliction			ref/drug/elven-absinthe	Game Mastery Guide p. 237	kept ref/drug/elven-absinthe: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/elven-absinthe	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf	alias	affliction			ref/drug/flayleaf	Game Mastery Guide p. 237	kept ref/drug/flayleaf: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/flayleaf	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium	alias	affliction			ref/drug/opium	Game Mastery Guide p. 237	kept ref/drug/opium: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/opium	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh	alias	affliction			ref/drug/pesh	Game Mastery Guide p. 237	kept ref/drug/pesh: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/pesh	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour	alias	affliction			ref/drug/scour	Game Mastery Guide p. 237	kept ref/drug/scour: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/scour	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver	alias	affliction			ref/drug/shiver	Game Mastery Guide p. 237	kept ref/drug/shiver: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/shiver	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk	alias	affliction			ref/drug/zerk	Game Mastery Guide p. 237	kept ref/drug/zerk: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/drugs-and-addiction/sample-drugs/zerk	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia	alias	affliction			ref/madness/amnesia	Horror Adventures p. 186	kept ref/madness/amnesia: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/amnesia	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia	alias	affliction			ref/madness/schizophrenia	Horror Adventures p. 187	kept ref/madness/schizophrenia: the imported entry holds every fact of the carried entry
+ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/schizophrenia	book-node-removed				game-mastery-guide		the kept entry already has a node in this book
+ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap	alias	trap			ref/trap/bear-trap	Advanced Player's Guide p. 184	kept ref/trap/bear-trap: the imported entry holds every fact of the carried entry
+ref/curse/baleful-polymorph-spell	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell: only the carried entry holds every fact of the imported entry
 ref/curse/baleful-polymorph-spell	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
 ref/curse/bestow-curse-trap	kind	rule	affliction	curse		Core Rulebook p. 556	first word of the printed `Type` line
 ref/curse/blasted-vitality	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
@@ -11,6 +107,7 @@ ref/curse/haunting-minor	kind	rule	affliction	curse		Horror Adventures p. 138	fi
 ref/curse/hunt-of-the-ankou	kind	rule	affliction	curse		Horror Adventures p. 138	first word of the printed `Type` line
 ref/curse/hunt-of-the-bogeyman	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/jealous-structure	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
+ref/curse/mummy-rot	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot: only the carried entry holds every fact of the imported entry
 ref/curse/mummy-rot	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/curse/perilous-demesne-grand	kind	rule	affliction	curse		Horror Adventures p. 144	first word of the printed `Type` line
 ref/curse/perilous-demesne-greater	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
@@ -19,9 +116,11 @@ ref/curse/perilous-demesne-minor	kind	rule	affliction	curse		Horror Adventures p
 ref/curse/sealed-fate	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/shattered-self	kind	rule	affliction	curse		Horror Adventures p. 139	first word of the printed `Type` line
 ref/curse/tormenting-visions	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/unluck	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck: only the carried entry holds every fact of the imported entry
 ref/curse/unluck	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/curse/unseasonable-weather	kind	rule	affliction	curse		Horror Adventures p. 145	first word of the printed `Type` line
 ref/curse/weeping-wound	kind	rule	affliction	curse		Horror Adventures p. 140	first word of the printed `Type` line
+ref/curse/werewolf-lycanthropy	alias	affliction			ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy	Core Rulebook	kept ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy: only the carried entry holds every fact of the imported entry
 ref/curse/werewolf-lycanthropy	kind	rule	affliction	curse		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/blightburn-sickness	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
 ref/disease/blinding-sickness	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -32,11 +131,21 @@ ref/disease/bonecrusher-dengue	kind	rule	affliction	disease		Heart of the Jungle
 ref/disease/boot-soup	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/brainworms	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/bubonic-plague	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/bubonic-plague	variant				ref/affliction/daughter-of-urgathoa/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/div-pairaka/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/drekavac/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/ghole/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/plague-swarm-rat-plague-swarm-mythic/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/rat-king/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/tick-tick-swarm/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
+ref/disease/bubonic-plague	variant				ref/affliction/vrykolakas/bubonic-plague		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/cackle-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/chillbane-fever	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
+ref/disease/chillbane-fever	variant				ref/affliction/khala/chillbane-fever		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/cowards-mark	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
 ref/disease/crypt-fever	kind	rule	affliction	disease		Tomb of the Iron Medusa p. 13	first word of the printed `Type` line
 ref/disease/daemonic-wasting	kind	rule	affliction	disease		Pathfinder #54: The Empty Throne p. 28	first word of the printed `Type` line
+ref/disease/daemonic-wasting	variant				ref/carried/bestiary-2/monsters/daemon/meladaemon/special-abilities/disease/daemonic-wasting		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/demon-fever	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/demonplague	kind	rule	affliction	disease		The Worldwound p. 29	first word of the printed `Type` line
 ref/disease/devil-chills	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -49,6 +158,7 @@ ref/disease/final-rest	kind	rule	affliction	disease		Numeria, Land of Fallen Sta
 ref/disease/firegut	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/fungal-flu	kind	rule	affliction	disease		Pathfinder #13: Shadow in the Sky p. 81	first word of the printed `Type` line
 ref/disease/ghoul-fever	kind	rule	affliction	disease		Bestiary p. 146	first word of the printed `Type` line
+ref/disease/ghoul-fever	variant				ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/glacier-plague	kind	rule	affliction	disease		Irrisen - Land of Eternal Winter p. 48	first word of the printed `Type` line
 ref/disease/green-haze	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/greenscale	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
@@ -56,13 +166,18 @@ ref/disease/leprosy	kind	rule	affliction	disease		Core Rulebook p. 557	first wor
 ref/disease/malaria-jungle-fever	kind	rule	affliction	disease		Heart of the Jungle p. 7	first word of the printed `Type` line
 ref/disease/mindfire	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
 ref/disease/moxixs-delectation	kind	rule	affliction	disease		Pathfinder #58: Island of Empty Eyes p. 67	first word of the printed `Type` line
+ref/disease/moxixs-delectation	variant				ref/affliction/moxix/moxixs-delectation		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/pallid-gift	kind	rule	affliction	disease		Villain Codex	first word of the printed `Type` line
 ref/disease/pulsing-puffs	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
+ref/disease/pulsing-puffs	variant				ref/affliction/polevik/pulsing-puffs		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/rabies	kind	rule	affliction	disease		Bestiary p. 87	first word of the printed `Type` line
+ref/disease/rabies	variant				ref/carried/bestiary/monsters/dog/dog/dog/rabies		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/red-ache	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/red-ache	variant				ref/affliction/tick-giant-tick/red-ache		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/red-drip	kind	rule	affliction	disease		Undead Unleashed p. 63	first word of the printed `Type` line
 ref/disease/scarlet-leprosy	kind	rule	affliction	disease		Undead Unleashed p. 15	first word of the printed `Type` line
 ref/disease/shakes	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
+ref/disease/shakes	variant				ref/affliction/div-pairaka/shakes		printed in the text of a creature: it stays with that creature's page and is no duplicate of the rules entry
 ref/disease/shattermind	kind	rule	affliction	disease		Numeria, Land of Fallen Stars p. 24	first word of the printed `Type` line
 ref/disease/sleeping-sickness	kind	rule	affliction	disease		Heart of the Jungle p. 8	first word of the printed `Type` line
 ref/disease/slimy-doom	kind	rule	affliction	disease		Core Rulebook p. 557	first word of the printed `Type` line
@@ -80,6 +195,7 @@ ref/drug/dwarven-fire-ale	kind	rule	affliction	addiction		Game Mastery Guide p. 
 ref/drug/elven-absinthe	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/esoterum	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/felwil	kind	rule	affliction	addiction		Bastards of Golarion p. 21	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/fireskin-elixir	item-twin				ref/eq-misc/fireskin-elixir		an item is bought: the pair keeps both until the owner decides
 ref/drug/fireskin-elixir	kind	rule	affliction	addiction		Blood of the Elements p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/flayleaf	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/gossamer-veil	kind	rule	affliction	addiction		Potions and Poisons p. 26	the issue gives this tag for the folder; the vocabulary file holds its print citation
@@ -105,11 +221,49 @@ ref/drug/silvertongue	kind	rule	affliction	addiction		Bastards of Golarion p. 21
 ref/drug/slavers-drops	kind	rule	affliction	addiction		Rival Guide p. 53	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/starspore	kind	rule	affliction	addiction		Numeria, Land of Fallen Stars p. 25	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/stings-savor	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/synthetic-mumia	item-twin				ref/eq-misc/synthetic-mumia		an item is bought: the pair keeps both until the owner decides
 ref/drug/synthetic-mumia	kind	rule	affliction	addiction		Undead Slayer's Handbook p. 9	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/tears-of-razmir	kind	rule	affliction	addiction		Inner Sea World Guide p. 293	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/vigilance	kind	rule	affliction	addiction		Potions and Poisons p. 27	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/drug/wyrm-pesh	item-twin				ref/eq-misc/wyrm-pesh		an item is bought: the pair keeps both until the owner decides
 ref/drug/wyrm-pesh	kind	rule	affliction	addiction		Dragonslayer's Handbook p. 19	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/drug/zerk	kind	rule	affliction	addiction		Game Mastery Guide p. 237	the issue gives this tag for the folder; the vocabulary file holds its print citation
+ref/eq-poison/arsenic	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/arsenic		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/belladonna	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/belladonna		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/black-adder-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/black-adder-venom		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/black-lotus-extract	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/black-lotus-extract		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/bloodroot	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/bloodroot		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/blue-whinnis	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/blue-whinnis		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/burnt-othur-fumes	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/burnt-othur-fumes		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/dark-reaver-powder	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/dark-reaver-powder		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/deathblade	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/deathblade		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/dragon-bile	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/dragon-bile		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/drow-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/drow-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/giant-wasp-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/giant-wasp-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/green-prismatic-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/green-prismatic-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/greenblood-oil	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/greenblood-oil		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/hemlock	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/hemlock		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/id-moss	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/id-moss		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/insanity-mist	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/insanity-mist		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/kings-sleep	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/kings-sleep		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/large-scorpion-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/large-scorpion-venom		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/lich-dust	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/lich-dust		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/malyass-root-paste	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/malyass-root-paste		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/medium-spider-venom	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/medium-spider-venom		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/nightmare-vapor	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/nightmare-vapor		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/nitharit	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/nitharit		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/oil-of-taggit	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/oil-of-taggit		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/purple-worm-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/purple-worm-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/sassone-leaf-residue	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/sassone-leaf-residue		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/shadow-essence	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/shadow-essence		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/small-centipede-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/small-centipede-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/spellscorch	poison				ref/carried/advanced-race-guide/races/duergar/new-racial-rules/duergar-equipment/spellscorch/spellscorch		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/striped-toadstool	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/striped-toadstool		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/tears-of-death	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/tears-of-death		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/terinav-root	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/terinav-root		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/ungol-dust	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/ungol-dust		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/wolfsbane	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wolfsbane		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
+ref/eq-poison/wyvern-poison	poison				ref/carried/core-rulebook/rules/glossary/special-abilities/poison/wyvern-poison		owner decision: the item is bought, the affliction is a rule; the issue does not name the kept one
 ref/haunt/arcane-storm	keep-rule	rule	rule			Horror Adventures p. 174	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
 ref/haunt/belated-arrival	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
 ref/haunt/betrayal	keep-rule	rule	rule			Horror Adventures p. 176	stays `rule`: GameMastery Guide p. 242 says haunts function like traps and that the distinction between a trap and an undead creature blurs; it does not say a haunt is a kind of trap
@@ -172,19 +326,32 @@ ref/madness/phobia	kind	rule	affliction	insanity		Horror Adventures p. 185	the i
 ref/madness/psychosomatic-loss	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/madness/schizophrenia	kind	rule	affliction	insanity		Horror Adventures p. 187	the issue gives this tag for the folder; the vocabulary file holds its print citation
 ref/skill/acrobatics	kind	rule	skill			Core Rulebook p. 87	folder skill
+ref/skill/acrobatics	merge	skill			ref/carried/core-rulebook/skills/acrobatics		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/appraise	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/appraise	merge	skill			ref/carried/core-rulebook/skills/appraise		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/artistry-any	kind	rule	skill			Pathfinder Unchained p. 48	folder skill
 ref/skill/bluff	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/bluff	merge	skill			ref/carried/core-rulebook/skills/bluff		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/climb	kind	rule	skill			Core Rulebook p. 90	folder skill
+ref/skill/climb	merge	skill			ref/carried/core-rulebook/skills/climb		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/craft-any	kind	rule	skill			Core Rulebook p. 91	folder skill
 ref/skill/diplomacy	kind	rule	skill			Core Rulebook p. 93	folder skill
+ref/skill/diplomacy	merge	skill			ref/carried/core-rulebook/skills/diplomacy		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/disable-device	kind	rule	skill			Core Rulebook p. 94	folder skill
+ref/skill/disable-device	merge	skill			ref/carried/core-rulebook/skills/disable-device		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/disguise	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/disguise	merge	skill			ref/carried/core-rulebook/skills/disguise		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/escape-artist	kind	rule	skill			Core Rulebook p. 95	folder skill
+ref/skill/escape-artist	merge	skill			ref/carried/core-rulebook/skills/escape-artist		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/fly	kind	rule	skill			Core Rulebook p. 96	folder skill
+ref/skill/fly	merge	skill			ref/carried/core-rulebook/skills/fly		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/handle-animal	hold				ref/carried/core-rulebook/skills/handle-animal		each holds text the other lacks: 3 fact(s) only in the carried entry (for example '_You are trained at working with animals, and can teach them tricks, get them to follow yo'), 8 only in the imported one
 ref/skill/handle-animal	kind	rule	skill			Core Rulebook p. 97	folder skill
 ref/skill/heal	kind	rule	skill			Core Rulebook p. 98	folder skill
+ref/skill/heal	merge	skill			ref/carried/core-rulebook/skills/heal		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/intimidate	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/intimidate	merge	skill			ref/carried/core-rulebook/skills/intimidate		merged from the dropped entry: the italic opening line of the carried skill
+ref/skill/knowledge-all	hold				ref/carried/core-rulebook/skills/knowledge		each holds text the other lacks: 31 fact(s) only in the carried entry (for example 'Task Knowledge Skill DC Identify auras while using _[detect magic]_ Arcana 15 + spell leve'), 5 only in the imported one
 ref/skill/knowledge-all	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-arcana	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-dungeoneering	kind	rule	skill			Core Rulebook p. 99	folder skill
@@ -196,63 +363,94 @@ ref/skill/knowledge-nature	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-nobility	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-planes	kind	rule	skill			Core Rulebook p. 99	folder skill
 ref/skill/knowledge-religion	kind	rule	skill			Core Rulebook p. 99	folder skill
+ref/skill/linguistics	hold				ref/carried/core-rulebook/skills/linguistics		each holds text the other lacks: 3 fact(s) only in the carried entry (for example '_You are skilled at working with language, in both its spoken and written forms. You can s'), 14 only in the imported one
 ref/skill/linguistics	kind	rule	skill			Core Rulebook p. 100	folder skill
 ref/skill/lore-any	kind	rule	skill			Pathfinder Unchained p. 50	folder skill
 ref/skill/perception	kind	rule	skill			Core Rulebook p. 102	folder skill
+ref/skill/perception	merge	skill			ref/carried/core-rulebook/skills/perception		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/perform-any	kind	rule	skill			Core Rulebook p. 102	folder skill
 ref/skill/profession-any	kind	rule	skill			Core Rulebook p. 103	folder skill
 ref/skill/ride	kind	rule	skill			Core Rulebook p. 103	folder skill
+ref/skill/ride	merge	skill			ref/carried/core-rulebook/skills/ride		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/sense-motive	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/sense-motive	merge	skill			ref/carried/core-rulebook/skills/sense-motive		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/sleight-of-hand	kind	rule	skill			Core Rulebook p. 104	folder skill
+ref/skill/sleight-of-hand	merge	skill			ref/carried/core-rulebook/skills/sleight-of-hand		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/spellcraft	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/spellcraft	merge	skill			ref/carried/core-rulebook/skills/spellcraft		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/stealth	kind	rule	skill			Core Rulebook p. 106	folder skill
+ref/skill/stealth	merge	skill			ref/carried/core-rulebook/skills/stealth		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/survival	kind	rule	skill			Core Rulebook p. 107	folder skill
+ref/skill/survival	merge	skill			ref/carried/core-rulebook/skills/survival		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/swim	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/skill/swim	merge	skill			ref/carried/core-rulebook/skills/swim		merged from the dropped entry: the italic opening line of the carried skill
 ref/skill/use-magic-device	kind	rule	skill			Core Rulebook p. 108	folder skill
+ref/skill/use-magic-device	merge	skill			ref/carried/core-rulebook/skills/use-magic-device		merged from the dropped entry: the italic opening line of the carried skill
 ref/trap/acid-arrow-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/acid-arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/acid-arrow-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/arrow-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/bear-trap	kind	rule	trap	mechanical		Advanced Player's Guide p. 184	first word of the printed `Type` line
+ref/trap/bear-trap	merge	trap			ref/carried/ultimate-equipment/rules/gear/tools-and-skill-kits/bear-trap/bear-trap		merged from the dropped entry: ultimate-equipment source page 77
 ref/trap/breakaway-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/breakaway-vine	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/burning-hands-trap	kind	rule	trap	magic		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/burning-hands-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/burning-hands-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/camouflaged-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/camouflaged-spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/chamber-of-blades-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/clam-clamp	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/cone-of-cold-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/cone-of-cold-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/cone-of-cold-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/crushing-cage-tarp	kind	rule	trap	mechanical		Horror Adventures p. 161	first word of the printed `Type` line
 ref/trap/crushing-stone-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
 ref/trap/deadfall	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/deadly-spear-trap	kind	rule	trap	mechanical		Core Rulebook p. 422	first word of the printed `Type` line
 ref/trap/destruction-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/destruction-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/destruction-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/electricity-arc-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/electricity-arc-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/electricity-arc-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/empowered-disintegrate-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/empowered-disintegrate-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/empowered-disintegrate-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/energy-drain-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/energy-drain-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/energy-drain-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/faceless-statue-trap	kind	rule	trap	magic		Horror Adventures p. 162	first word of the printed `Type` line
 ref/trap/falling-block-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/fireball-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/fireball-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/flame-strike-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/flame-strike-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/flame-strike-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/frost-fangs-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/frost-fangs-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/frost-fangs-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/hail-of-arrows-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/harm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/harm-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/harm-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/insanity-mist-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/javelin-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/javelin-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/javelin-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/lightning-bolt-gallery-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/lightning-bolt-gallery-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/lightning-bolt-gallery-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/maximized-fireball-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/maximized-fireball-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/maximized-fireball-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/meteor-swarm-trap	kind	rule	trap	magic		Core Rulebook p. 422	first word of the printed `Type` line
+ref/trap/meteor-swarm-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/meteor-swarm-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/musk-shower	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/poisoned-dart-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
+ref/trap/poisoned-dart-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/poisoned-dart-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/poisoned-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
 ref/trap/razor-grass	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/shocking-floor-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/shocking-floor-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/shocking-floor-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/sinking-coffin-trap	kind	rule	trap	mechanical		Horror Adventures p. 162	first word of the printed `Type` line
 ref/trap/spiked-pit-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/spring-arm-spike	kind	rule	trap	mechanical		Ultimate Wilderness p. 173	first word of the printed `Type` line
 ref/trap/spring-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/summon-monster-vi-trap	kind	rule	trap	magic		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/summon-monster-vi-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/summon-monster-vi-trap		merged from the dropped entry: a `Reset: none` row
 ref/trap/swinging-axe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/swinging-log	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/tar-snare	kind	rule	trap	mechanical		Ultimate Wilderness p. 172	first word of the printed `Type` line
 ref/trap/wall-scythe-trap	kind	rule	trap	mechanical		Core Rulebook p. 420	first word of the printed `Type` line
 ref/trap/wyvern-arrow-trap	kind	rule	trap	mechanical		Core Rulebook p. 421	first word of the printed `Type` line
+ref/trap/wyvern-arrow-trap	merge	trap			ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap		merged from the dropped entry: a `Reset: none` row

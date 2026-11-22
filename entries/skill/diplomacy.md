@@ -28,6 +28,10 @@ Optional Unchained Skill: No
 Optional Background Skill: No
 :::
 
+_You can use this skill to persuade others to agree with your arguments, to resolve differences, and
+to gather valuable information or rumors from people. This skill is also used to negotiate conflicts
+by using the proper etiquette and manners suitable to the problem._
+
 ### Check
 
 You can change the initial attitudes of non-player characters with a successful check. The DC of

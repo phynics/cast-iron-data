@@ -29,7 +29,7 @@ Curses use the same stat blocks as other [afflictions](ref/rule/afflictions).
 
 |Curse|Saving Throw|
 | --- | --- |
-|[Baleful Polymorph Spell](ref/curse/baleful-polymorph-spell)|Fortitude DC 17|
+|[Baleful Polymorph Spell](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/baleful-polymorph-spell)|Fortitude DC 17|
 |[Bestow Curse Trap](ref/curse/bestow-curse-trap)|Will DC 14|
 |[Blasted Vitality](ref/curse/blasted-vitality)|Fortitude DC 19|
 |[Curse of Bestial Dreams](ref/curse/curse-of-bestial-dreams)|Will DC 20|
@@ -41,7 +41,7 @@ Curses use the same stat blocks as other [afflictions](ref/rule/afflictions).
 |[Hunt of the Ankou](ref/curse/hunt-of-the-ankou)|Will DC 22|
 |[Hunt of the Bogeyman](ref/curse/hunt-of-the-bogeyman)|Will DC 19|
 |[Jealous Structure](ref/curse/jealous-structure)|Will DC 19|
-|[Mummy Rot](ref/curse/mummy-rot)|Fortitude DC 16|
+|[Mummy Rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot)|Fortitude DC 16|
 |[Perilous Demesne, Grand](ref/curse/perilous-demesne-grand)|Will DC 22|
 |[Perilous Demesne, Greater](ref/curse/perilous-demesne-greater)|Will DC 19|
 |[Perilous Demesne, Major](ref/curse/perilous-demesne-major)|Will DC 16|
@@ -49,7 +49,7 @@ Curses use the same stat blocks as other [afflictions](ref/rule/afflictions).
 |[Sealed Fate](ref/curse/sealed-fate)|Will DC 23|
 |[Shattered Self](ref/curse/shattered-self)|Will DC 20|
 |[Tormenting Visions](ref/curse/tormenting-visions)|Will DC 15|
-|[Unluck](ref/curse/unluck)|Will DC 20|
+|[Unluck](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/unluck)|Will DC 20|
 |[Unseasonable Weather](ref/curse/unseasonable-weather)|Will DC 23|
 |[Weeping Wound](ref/curse/weeping-wound)|Fortitude DC 14|
-|[Werewolf Lycanthropy](ref/curse/werewolf-lycanthropy)|Fortitude DC 15|
+|[Werewolf Lycanthropy](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/werewolf-lycanthropy)|Fortitude DC 15|

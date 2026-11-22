@@ -27,3 +27,5 @@ kind = "none"
 
 **Effect:** spell effect ([heightened](ref/feat/heighten-spell)
 [destruction](ref/spell/destruction), 190 damage, DC 23 Fortitude save reduces damage to 10d6)
+
+**Reset:** none

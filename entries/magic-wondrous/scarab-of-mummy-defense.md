@@ -29,8 +29,9 @@ effects, and enables its wearer to detect any [mummy](ref/monster/mummy) within 
 must concentrate as a standard action to use this ability. In addition, any time the wearer would be
 affected by a curse or disease effect, the scarab of mummy defense can absorb the effect with no
 harm to the wearer. Upon absorbing 12 such effects, the scarab turns to dust and is destroyed. An
-effect that's both a curse and a disease, such as [mummy rot](ref/curse/mummy-rot), is considered a
-single effect for these purposes.
+effect that's both a curse and a disease, such as
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot), is
+considered a single effect for these purposes.
 
 ### Construction
 

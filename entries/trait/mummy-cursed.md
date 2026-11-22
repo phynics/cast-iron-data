@@ -21,5 +21,6 @@ resistant to curses. You've come to Wati to explore its untouched necropolis, an
 won't have to face a real undead mummy, at least you have some defense if you do.
 
 **Benefit:** You gain a +2 trait bonus on saving throws against curses and curse effects (including
-[mummy rot](ref/curse/mummy-rot) and spells with the curse descriptor) and a +2 trait bonus on
-saving throws against a [mummy's](ref/monster/mummy) _aura of despair._
+[mummy rot](ref/carried/core-rulebook/rules/glossary/special-abilities/curses/mummy-rot) and spells
+with the curse descriptor) and a +2 trait bonus on saving throws against a
+[mummy's](ref/monster/mummy) _aura of despair._
