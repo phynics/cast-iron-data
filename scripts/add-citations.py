@@ -2,8 +2,9 @@
 """Add `[[sources]]` citation rows to the entries that have none (phynics/cast-iron-data#170).
 
     python3 scripts/add-citations.py <corpus-dir> --slice NAME [--slice NAME ...]
-        [--books ID,ID,...] [--candidates FILE] [--review FILE] [--sample N] [--seed N]
-        [--write | --check]
+        [--books ID,ID,... | --books-range FROM:TO] [--candidates FILE] [--print-pages FILE]
+        [--review FILE] [--list-proposal-only] [--sample N] [--seed N] [--write | --check]
+    python3 scripts/add-citations.py --self-test
 
 Without `--write` or `--check` the script only surveys: it prints what a write would do and
 changes nothing. `--write` edits the entry files and the review queue. `--check` is a survey that
@@ -23,7 +24,8 @@ Slices (`--slice`, repeatable):
                  the entries of that kind that have no `[[sources]]` row at all (`mythic` is the
                  carried Mythic Adventures feat entries). Each gets one row per `source_ids`
                  book, in `source_ids` order. `--books` limits a slice to the entries whose first
-                 `source_ids` book is listed.
+                 `source_ids` book is listed; `--books-range FROM:TO` to the entries whose first
+                 book lies between the two ids (inclusive, in id order; FROM must not follow TO).
 
 A row has a `page` when one of these gives it, in this order:
 
@@ -37,17 +39,27 @@ A page that is none of `N`, `N-N` or a comma list of those (any source, print in
 row book-only (page-format). `--list-proposal-only` prints the rows that rest on a proposal alone,
 for a reviewer to check in print.
 
-Every other row is book-only and gets a review-queue line that says why (coarse, ambiguous,
-no-page, book-differs, sibling-differs, no-proposal, page-format). Page proposals come from a
+A book that the page reference does not list for the entry (`book-differs`) gets NO row, not even
+a book-only one (owner decision of 2026-11-22 on #170): the membership may be wrong, so the #461
+warning must keep flagging it until print confirms the book (then it gets a row, for instance from
+the print-pages file) or `source_ids` drops it. The review queue keeps a `book-differs` line
+for it while the book stays in `source_ids` without a row.
+
+Every other row without a page is book-only and gets a review-queue line that says why (coarse,
+ambiguous, no-page, sibling-differs, no-proposal, page-format). Page proposals come from a
 local reference (`--candidates`, the TSV its lookup writes: entry_id, publication, page,
 confidence, notes). The reference is not part of the corpus and is not committed, so a rerun
 without `--candidates` and with rows in place changes nothing. Each page a write adds still needs
 a check against print, on a sample per slice (`--sample`).
 
+The print-pages file may carry a fifth column `note`; a row with a note also gets a
+`heading-form` review line (the page is read in print, but the heading does not look as expected).
+
 The review queue (`scripts/citation-review-170.tsv`) holds the books that have a row and no
-page, and the paragraphs that stayed. A later pass fills in a page and the line goes away on the
+page, the books with no row (`book-differs`), the paragraphs that stayed and the print notes. A later pass fills in a page and the line goes away on the
 next `--write`. The script never edits an `id`, never moves a file, never changes `source_ids`,
-and never overwrites an existing row. It is idempotent.
+and never overwrites an existing row. It is idempotent. `--self-test` runs the script's own
+tests on a throwaway corpus.
 """
 from __future__ import annotations
 
@@ -62,7 +74,8 @@ from pathlib import Path
 
 REVIEW_DEFAULT = "scripts/citation-review-170.tsv"
 PRINT_DEFAULT = "scripts/citation-print-pages-170.tsv"
-PARAGRAPH_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker"}
+# Review lines that stay while their entry exists (paragraph findings and print notes).
+NOTE_REASONS = {"conflict", "unknown-title", "blog", "not-member", "marker", "heading-form"}
 REVIEW_COLUMNS = ["entry_id", "kind", "publication", "reason", "candidate_page", "note"]
 SLICES = [
     "paragraphs", "trap", "skill", "mythic", "racial-trait", "trait", "affliction",
@@ -431,6 +444,7 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
 
 BASIS: Counter[str] = Counter()
 PRINT: dict[tuple[str, str], str] = {}
+PRINT_NOTES: dict[tuple[str, str], str] = {}
 PROPOSAL_ONLY: list[tuple[str, str, str]] = []
 
 
@@ -492,10 +506,134 @@ def write_review(path: Path, rows: list[dict], order: dict[str, int]) -> None:
             w.writerow([r[c] for c in REVIEW_COLUMNS])
 
 
+# ---------------------------------------------------------------------------- self-test
+
+
+def self_test() -> int:
+    """Run the script on a throwaway corpus and assert the rules that matter."""
+    import contextlib
+    import io
+    import tempfile
+
+    failures: list[str] = []
+
+    def expect(ok: bool, what: str) -> None:
+        print(("ok   " if ok else "FAIL ") + what)
+        if not ok:
+            failures.append(what)
+
+    def run(root: Path, *args: str) -> int:
+        with contextlib.redirect_stdout(io.StringIO()), contextlib.redirect_stderr(io.StringIO()):
+            return main([str(root), *args])
+
+    def rows_of(root: Path, name: str) -> list[tuple[str, str | None]]:
+        text = (root / "entries" / "trait" / f"{name}.md").read_text(encoding="utf-8")
+        front = tomllib.loads(text[4 : text.index("\n+++\n", 4)])
+        return [(r["publication"], r.get("page")) for r in front.get("sources", [])]
+
+    def review_of(root: Path) -> list[tuple[str, str, str]]:
+        return [(r["entry_id"], r["publication"], r["reason"]) for r in read_review(root / REVIEW_DEFAULT)]
+
+    with tempfile.TemporaryDirectory() as tmp:
+        root = Path(tmp)
+        (root / "entries" / "trait").mkdir(parents=True)
+        (root / "scripts").mkdir()
+        (root / "publications.toml").write_text(
+            "".join(f'[[publication]]\nid = "{i}"\ntitle = "Book {i.upper()}"\n\n' for i in "abc"),
+            encoding="utf-8",
+        )
+
+        def entry(name: str, books: list[str]) -> None:
+            ids = ", ".join(f'"{b}"' for b in books)
+            (root / "entries" / "trait" / f"{name}.md").write_text(
+                f'+++\nid = "ref/trait/{name}"\nkind = "trait"\ntitle = "{name.upper()}"\n'
+                f"source_ids = [{ids}]\n\n[fields]\nkind = \"none\"\n+++\n\nBody.\n",
+                encoding="utf-8",
+            )
+
+        def candidates(lines: list[tuple[str, str, str, str, str]]) -> Path:
+            path = root / "candidates.tsv"
+            with path.open("w", encoding="utf-8", newline="") as f:
+                w = csv.writer(f, delimiter="\t", lineterminator="\n")
+                w.writerow(["entry_id", "publication", "page", "confidence", "notes"])
+                w.writerows(lines)
+            return path
+
+        entry("t1", ["a", "b", "c"])
+        cand = candidates([
+            ("ref/trait/t1", "a", "10", "confident", ""),
+            ("ref/trait/t1", "b", "", "none", "no-aon-source-for-book"),
+            ("ref/trait/t1", "c", "12", "confident", ""),
+        ])
+        slice_args = ["--slice", "trait", "--candidates", str(cand)]
+        expect(run(root, *slice_args, "--check") == 1, "a survey of an entry without rows is stale")
+        expect(run(root, *slice_args, "--write") == 0, "write runs")
+        expect(rows_of(root, "t1") == [("a", "10"), ("c", "12")], "book-differs writes no row, not even a book-only one")
+        expect(("ref/trait/t1", "b", "book-differs") in review_of(root), "book-differs keeps a review line")
+        expect(run(root, *slice_args, "--check") == 0, "a second run changes nothing")
+
+        # A page read in print confirms the book: the row appears in source_ids order.
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\nref/trait/t1\tb\t7\tprint\n", encoding="utf-8"
+        )
+        expect(run(root, *slice_args, "--check") == 1, "a print page for a rowless book is stale until written")
+        run(root, *slice_args, "--write")
+        expect(rows_of(root, "t1") == [("a", "10"), ("b", "7"), ("c", "12")], "print adds the row in source_ids order")
+        expect(("ref/trait/t1", "b", "book-differs") not in review_of(root), "the review line goes with the row")
+        expect(run(root, *slice_args, "--check") == 0, "stable after the fill")
+
+        # Coarse and page-format rows are book-only and queued.
+        entry("t2", ["a"])
+        entry("t3", ["a"])
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\nref/trait/t3\ta\t12x\tprint\t\n", encoding="utf-8"
+        )
+        cand = candidates([("ref/trait/t2", "a", "5", "check", "")])
+        run(root, "--slice", "trait", "--candidates", str(cand), "--write")
+        expect(rows_of(root, "t2") == [("a", None)], "a coarse proposal gives a book-only row")
+        expect(("ref/trait/t2", "a", "coarse") in review_of(root), "a coarse row is queued")
+        expect(rows_of(root, "t3") == [("a", None)], "a print page in no known form gives a book-only row")
+        expect(("ref/trait/t3", "a", "page-format") in review_of(root), "page-format is queued")
+
+        # A print note queues the row for a look at its heading.
+        entry("t4", ["a"])
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\nref/trait/t4\ta\t9\tprint\tfound without heading\n",
+            encoding="utf-8",
+        )
+        run(root, "--slice", "trait", "--candidates", str(cand), "--write")
+        expect(rows_of(root, "t4") == [("a", "9")], "a noted print page still gives a row")
+        expect(("ref/trait/t4", "a", "heading-form") in review_of(root), "the note queues a heading-form line")
+
+        # A range typo must fail loudly instead of selecting nothing.
+        for bad in ("a", "b:a", ":b", "a:b:c"):
+            try:
+                parse_range(bad)
+                expect(False, f"--books-range {bad!r} is rejected")
+            except SystemExit:
+                expect(True, f"--books-range {bad!r} is rejected")
+        expect(parse_range("a:b") == ("a", "b"), "--books-range a:b parses")
+
+        # Paragraph pages: a row covers its pages, ranges abbreviate.
+        expect(covers("144-146", "145") and not covers("144", "147"), "covers() reads ranges")
+        expect(join_pages(["144", "145", "147"]) == "144-145, 147", "join_pages() joins adjacent pages")
+
+    print(f"{len(failures)} failure(s)")
+    return 1 if failures else 0
+
+
 # ---------------------------------------------------------------------------- main
 
 
-def selected(entry: Entry, slices: set[str], books: set[str] | None) -> str | None:
+def fillable(entry: Entry) -> bool:
+    """An entry with rows that lacks a row for a book that the print-pages file confirms."""
+    have = {r["publication"] for r in entry.rows}
+    return any(pub not in have and (entry.id, pub) in PRINT for pub in entry.source_ids)
+
+
+def selected(
+    entry: Entry, slices: set[str], books: set[str] | None, book_range: tuple[str, str] | None = None
+) -> str | None:
     """The slice that takes an entry, or None."""
     if "paragraphs" in slices and entry.kind == "class_option":
         lines = entry.body.split("\n")
@@ -508,19 +646,44 @@ def selected(entry: Entry, slices: set[str], books: set[str] | None) -> str | No
             continue
         if entry.kind == "feat" and name != "mythic":
             continue
-        if entry.rows:
+        if entry.rows and not fillable(entry):
             continue
         if books is not None and (not entry.source_ids or entry.source_ids[0] not in books):
+            continue
+        if book_range is not None and not (
+            entry.source_ids and book_range[0] <= entry.source_ids[0] <= book_range[1]
+        ):
             continue
         return name
     return None
 
 
-def main() -> int:
+def parse_range(text: str) -> tuple[str, str]:
+    """`FROM:TO` as a pair; a typo must not select nothing and pass `--check`."""
+    if text.count(":") != 1:
+        raise SystemExit(f"--books-range {text!r}: expected FROM:TO")
+    lo, hi = text.split(":")
+    if not lo or not hi:
+        raise SystemExit(f"--books-range {text!r}: both ends are required")
+    if lo > hi:
+        raise SystemExit(f"--books-range {text!r}: FROM follows TO")
+    return lo, hi
+
+
+def reset_state() -> None:
+    BASIS.clear()
+    PRINT.clear()
+    PRINT_NOTES.clear()
+    PROPOSAL_ONLY.clear()
+
+
+def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawTextHelpFormatter)
-    ap.add_argument("corpus", type=Path)
-    ap.add_argument("--slice", action="append", choices=SLICES, required=True, dest="slices")
+    ap.add_argument("corpus", type=Path, nargs="?")
+    ap.add_argument("--self-test", action="store_true", help="run the built-in tests and exit")
+    ap.add_argument("--slice", action="append", choices=SLICES, dest="slices")
     ap.add_argument("--books", help="comma list of publication ids (first book of source_ids)")
+    ap.add_argument("--books-range", help="FROM:TO, both inclusive, compared with the first source_ids book")
     ap.add_argument("--candidates", type=Path)
     ap.add_argument("--print-pages", type=Path, help=f"pages read in print (default {PRINT_DEFAULT})")
     ap.add_argument("--review", type=Path, help=f"review queue (default {REVIEW_DEFAULT})")
@@ -531,12 +694,18 @@ def main() -> int:
     mode = ap.add_mutually_exclusive_group()
     mode.add_argument("--write", action="store_true")
     mode.add_argument("--check", action="store_true")
-    opts = ap.parse_args()
+    opts = ap.parse_args(argv)
+    if opts.self_test:
+        return self_test()
+    if opts.corpus is None or not opts.slices:
+        ap.error("a corpus directory and at least one --slice are required")
+    reset_state()
 
     root = opts.corpus.resolve()
     review_path = opts.review or root / REVIEW_DEFAULT
     slices = set(opts.slices)
     books = set(opts.books.split(",")) if opts.books else None
+    book_range = parse_range(opts.books_range) if opts.books_range else None
     titles, by_title = load_publications(root)
     entries = load_entries(root)
     by_id = {e.id: e for e in entries}
@@ -545,6 +714,8 @@ def main() -> int:
     if print_path.exists():
         for key, row in load_candidates(print_path).items():
             PRINT[key] = row["page"]
+            if row.get("note"):
+                PRINT_NOTES[key] = row["note"]
     order = {pid: i for i, pid in enumerate(titles)}
 
     counts: Counter[str] = Counter()
@@ -552,11 +723,14 @@ def main() -> int:
     new_reviews: list[dict] = []
     touched: set[str] = set()
     added_pages: list[tuple[str, str, str]] = []
+    filled: set[tuple[str, str]] = set()  # books that got a row in an entry that had rows
     for entry in entries:
-        slice_name = selected(entry, slices, books)
+        slice_name = selected(entry, slices, books, book_range)
         if slice_name is None:
             continue
-        touched.add(entry.id)
+        filling = bool(entry.rows) and slice_name != "paragraphs"
+        if not filling:
+            touched.add(entry.id)
         counts[f"entries {slice_name}"] += 1
         if slice_name == "paragraphs":
             rows, body, reviews, c = process_paragraphs(entry, titles, by_title)
@@ -569,22 +743,40 @@ def main() -> int:
                         added_pages.append((entry.id, r["publication"], r["page"]))
                 changed.append((entry, entry.render(rows, body)))
             continue
-        new_rows: list[dict] = []
+        new_rows: list[dict] = [dict(r) for r in entry.rows]
+        have = {r["publication"] for r in entry.rows}
         for pub in entry.source_ids:
+            if pub in have:
+                continue
+            if filling and (entry.id, pub) not in PRINT:
+                continue  # only a page read in print adds a row to an entry that has rows
             page, reason, cpage, note = decide(entry, pub, cands, by_id)
             row = {"publication": pub}
             if page:
                 row["page"] = page
                 counts["rows with page"] += 1
                 added_pages.append((entry.id, pub, page))
+                if (entry.id, pub) in PRINT_NOTES:
+                    new_reviews.append(review(entry, pub, "heading-form", page, PRINT_NOTES[(entry.id, pub)]))
+            elif reason == "book-differs":
+                # No row: the membership stays flagged by the #461 warning (owner decision).
+                counts["books left without a row (book-differs)"] += 1
+                new_reviews.append(review(entry, pub, reason, cpage, note))
+                continue
             else:
                 counts["rows book-only"] += 1
                 new_reviews.append(review(entry, pub, reason, cpage, note))
-            new_rows.append(row)
-        changed.append((entry, entry.render(new_rows, entry.body)))
+            if filling:
+                filled.add((entry.id, pub))
+                insert_row(new_rows, row, entry.source_ids)
+            else:
+                new_rows.append(row)
+        text = entry.render(new_rows, entry.body) if new_rows else entry.text
+        if text != entry.text:
+            changed.append((entry, text))
 
-    # The queue: keep a line while its entry still has that book as a row without a page and
-    # this run did not rebuild the entry; rebuilt entries take their new lines.
+    # The queue: keep a line while it still describes the corpus (see the reasons above) and this
+    # run did not rebuild the entry; rebuilt entries take their new lines.
     current: dict[tuple[str, str], dict | None] = {}
     for e in entries:
         for r in e.rows:
@@ -596,9 +788,17 @@ def main() -> int:
         if r["entry_id"] in touched:
             continue
         row = current.get(key)
-        if r["reason"] in PARAGRAPH_REASONS:
-            # Re-evaluated whenever the `paragraphs` slice runs on the entry.
+        if r["reason"] in NOTE_REASONS:
+            # Re-evaluated whenever the slice runs on the entry.
             if r["entry_id"] in by_id:
+                kept.append(r)
+            else:
+                stale += 1
+        elif r["reason"] == "book-differs":
+            # It stays while the book is a member without a row; a row (print confirmed it) or
+            # a `source_ids` without the book settles it.
+            owner = by_id.get(r["entry_id"])
+            if owner is not None and r["publication"] in owner.source_ids and row is None and key not in filled:
                 kept.append(r)
             else:
                 stale += 1
