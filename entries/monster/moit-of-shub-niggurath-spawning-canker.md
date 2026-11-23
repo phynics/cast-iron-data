@@ -29,73 +29,59 @@ _Pale and bloodless, a brutally decapitated corpse lurches forth. Where a head s
 lashes a forest of horrific, unnatural tentacles, whipping as though trying to simultaneously burrow
 deeper into and escape from its fleshy husk._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 115 (10d8+70)
+Fort: +12
+Ref: +11
+Will: +9
+Immune: mind-affecting effects
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Constrict: 1d8+4
+Melee: 2 slams +15 (1d6+8), tentacle +10 (1d8+4 plus [grab](ref/umr/grab))
+Spec Att: feeding
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 23, Con 24, Int 7, Wis 14, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 32
+Feats: Dodge, Great Fortitude, Lightning Reflexes, Mobility, Power Attack
+Skills: Perception +15, Stealth +19
+Languages: Aklo
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 115 (10d8+70)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +9
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 1d8+4
-
-**Melee:** 2 slams +15 (1d6+8), tentacle +10 (1d8+4 plus [grab](ref/umr/grab))
-
-**Spec Att:** feeding
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 23, Con 24, Int 7, Wis 14, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 32
-
-**Feats:** Dodge, Great Fortitude, Lightning Reflexes, Mobility, Power Attack
-
-**Skills:** Perception +15, Stealth +19
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 
@@ -130,9 +116,10 @@ living creatures and, through their deaths, spread ever more of their terrible k
 A typical spawning canker stands as tall as the humanoid body it infests, plus 2 to 3 feet of added
 height from its dozen or so wild tendrils.
 
-**Slugspawn**
-
-**Challenge rating:** 5
+::: statblock
+title = "Slugspawn"
+Challenge rating: 5
+:::
 
 Bloated alien worms the length of a man's forearm, slugspawn are the basest form of a moit of
 Shub-Niggurath. These repulsive creatures possess slug-like bodies the color of rotting algae,

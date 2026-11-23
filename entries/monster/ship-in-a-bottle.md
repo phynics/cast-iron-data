@@ -31,75 +31,60 @@ _A model sailing ship in a display bottle the size of a boot sails the air on va
 Speckles of water move about the deck like a crew, arming a miniature ballista and preparing to take
 aim._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +6
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +1 armor, +2 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +1
+Ref: +3
+Will: +1
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: ram +6 (1d3)
+Ranged: ballista +7 (1d6)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 12, Dex 15, Con -, Int 5, Wis 10, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Flyby Attack, Improved Initiative
+Skills: Fly +20
+Languages: understands Aquan and Common
+Special qualities: shatter spray
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 armor, +2 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** ram +6 (1d3)
-
-**Ranged:** ballista +7 (1d6)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con -, Int 5, Wis 10, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Flyby Attack, Improved Initiative
-
-**Skills:** Fly +20
-
-**Languages:** understands Aquan and Common
-
-**Special qualities:** shatter spray
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, fleet (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, fleet (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 
@@ -186,23 +171,19 @@ drowned sailor for the water spirit and running it as a haunt.
 This lost soul has never accepted the sinking of its ship in life. It uses models of ships in
 bottles to make up for the failure that betrayed its ship, its fellow crew members, and its captain.
 
-**Bottled Shipyard**
+LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks)
 
-**Challenge rating:** 7
-
-**XP** 3,600\
-LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks)\
-**Caster Level** 10th
-
-**Notice:** Perception DC 20 (to spot ethereal crew)
-
-**Hit points:** 31
-
-**Weakness:** tricked by Diplomacy
-
-**Trigger:** proximity
-
-**Reset:** 1 day
+::: statblock
+title = "Bottled Shipyard"
+Challenge rating: 7
+XP: 3,600
+Caster Level: 10th
+Notice: Perception DC 20 (to spot ethereal crew)
+Hit points: 31
+Weakness: tricked by Diplomacy
+Trigger: proximity
+Reset: 1 day
+:::
 
 ### Effect
 
