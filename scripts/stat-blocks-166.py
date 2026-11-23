@@ -343,7 +343,10 @@ the drift check reads first.
 `### Statistics`. One untitled block under that heading, which stays. The `,` before `Wis` and
 `Cha` goes (three rows, as the NPC `Str`…`Cha` line); a linked label (`Special Purpose`) is plain
 and the link moves onto the value. A line without a label (the lists of a `Powers` or `Spell-Like
-Abilities` line) queues the file, which stays prose for a hand review.
+Abilities` line) used to queue the file; by owner ruling 10 the labelled lines are the block and the
+unlabelled list lines stay a paragraph below it, unchanged, as for the technological Construction.
+A labelled line after an unlabelled one queues (`labelled-line-in-tail`): a row would stay prose.
+A `Powers` value that reads as sentences still queues.
 
 `ioun` (every item folder, 51 entries, all `magic-ioun`): the Construction of an ioun stone prints
 under `#### Construction`, one level below the `### Construction` that item rule I8 reads. The
@@ -2053,6 +2056,8 @@ def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
             keep = next((i for i, seg in enumerate(segments) if not ITEM_LABEL.match(join_wrapped(seg.split("\n")))), len(segments))
             if keep == 0:
                 raise Queue("unlabelled-line", segments[0][:40])
+            if any(ITEM_LABEL.match(join_wrapped(seg.split("\n"))) for seg in segments[keep:]):
+                raise Queue("labelled-line-in-tail", segments[keep][:40])  # a row would stay prose
             lines = "\\\n".join(segments[:keep]).split("\n")
             tail = "\\\n".join(segments[keep:]) if keep < len(segments) else None
         block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()), spec.get("partial_labels", ()))
@@ -2125,7 +2130,7 @@ def plan_intelligent(cs: list[list[str]]) -> dict[int, dict]:
     `,` before `Wis` and `Cha` goes; a linked label (`Special Purpose`) keeps its text and the link
     moves onto the value."""
     return {
-        index: {"link_labels": True, "commas": ("Wis", "Cha")}
+        index: {"link_labels": True, "commas": ("Wis", "Cha"), "tail": True}
         for index, chunk in enumerate(cs)
         if index and cs[index - 1] == ["### Statistics"] and chunk[0].startswith("**Alignment** ")
     }
@@ -3973,10 +3978,16 @@ class IntelligentSelfTest(unittest.TestCase):
         ), new)
         self.assertEqual(classify_variant(plan_intelligent, new), "already")
 
-    def test_a_list_line_without_a_label_queues_and_a_paragraph_elsewhere_is_not_touched(self):
-        with self.assertRaises(Queue) as caught:
-            convert_variants(self.BODY.replace("defeat dwarves", "defeat dwarves\\\n3/day-fly"), plan_intelligent, ("Wis", "Cha"))
-        self.assertEqual(caught.exception.reason, "unlabelled-line")
+    def test_list_lines_without_a_label_stay_below_the_block_and_a_paragraph_elsewhere_is_not_touched(self):
+        listed = self.BODY.replace("defeat dwarves", "defeat dwarves\\\n3/day-[fly](ref/spell/fly),\n[haste](ref/spell/haste)")
+        new = convert_variants(listed, plan_intelligent, ("Wis", "Cha"))
+        self.assertTrue(new.endswith(
+            "Special Purpose: [defeat dwarves](ref/rule/special-purpose-items)\n:::\n\n3/day-[fly](ref/spell/fly),\n[haste](ref/spell/haste)\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_intelligent, new), "already")
+        with self.assertRaises(Queue) as caught:  # a labelled line after the list would stay prose
+            convert_variants(listed.replace("[haste](ref/spell/haste)", "[haste](ref/spell/haste)\\\n**Languages** Common"), plan_intelligent, ("Wis", "Cha"))
+        self.assertEqual(caught.exception.reason, "labelled-line-in-tail")
         self.assertEqual(classify_variant(plan_intelligent, self.BODY.replace("### Statistics", "### Details")), "already")
 
 

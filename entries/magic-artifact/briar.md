@@ -42,11 +42,16 @@ Briar once Nyrissa has reclaimed it.
 
 ### Statistics
 
-**Alignment** CN; **Ego** 23\
-**Senses** 120 ft., [darkvision](ref/rule/darkvision)\
-**Int** 10, **Wis** 10, **Cha** 16\
-**Communication** empathy, speech, telepathy\
-**Languages** Aklo, Common, Sylvan\
-**Powers** 3/day - [barkskin](ref/spell/barkskin) (wielder only), [blight](ref/spell/blight) (as
-swift action upon a creature it strikes in combat)\
+::: statblock
+Alignment: CN
+Ego: 23
+Senses: 120 ft., [darkvision](ref/rule/darkvision)
+Int: 10
+Wis: 10
+Cha: 16
+Communication: empathy, speech, telepathy
+Languages: Aklo, Common, Sylvan
+Powers: 3/day - [barkskin](ref/spell/barkskin) (wielder only), [blight](ref/spell/blight) (as swift action upon a creature it strikes in combat)
+:::
+
 1/month - [true resurrection](ref/spell/true-resurrection) (wielder only)

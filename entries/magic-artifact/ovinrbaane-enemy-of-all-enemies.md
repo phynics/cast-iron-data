@@ -47,15 +47,18 @@ own gravestone, causing the sword to shatter.
 
 ### Statistics
 
-**Alignment** CN; **Ego** 25\
-**Senses** 60 ft.\
-**Int** 11, **Wis** 12, **Cha** 15\
-**Communication** empathy\
-**Dedicated Powers** wielder gains [freedom of movement](ref/spell/freedom-of-movement) and
-[dispel magic](ref/spell/dispel-magic) (CL 20th) against opposing attacks and effects (the
-_[dispel magic](ref/spell/dispel-magic)_ power attempts to dispel any offensive effect only once and
-only as it first takes effect on the sword's wielder)\
-**[Special Purpose](ref/rule/special-purpose-items)** defeat/slay all\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 17th, concentration +19)\
+::: statblock
+Alignment: CN
+Ego: 25
+Senses: 60 ft.
+Int: 11
+Wis: 12
+Cha: 15
+Communication: empathy
+Dedicated Powers: wielder gains [freedom of movement](ref/spell/freedom-of-movement) and [dispel magic](ref/spell/dispel-magic) (CL 20th) against opposing attacks and effects (the _[dispel magic](ref/spell/dispel-magic)_ power attempts to dispel any offensive effect only once and only as it first takes effect on the sword's wielder)
+Special Purpose: [defeat/slay all](ref/rule/special-purpose-items)
+Spell-Like Abilities: [(CL 17th, concentration +19)](ref/umr/spell-like-abilities)
+:::
+
 3/day - [aid](ref/spell/aid)\
 1/day - [modify memory](ref/spell/modify-memory)

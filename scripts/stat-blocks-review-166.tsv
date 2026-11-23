@@ -47,21 +47,7 @@ entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
-entries/magic-artifact/briar.md	intelligent	unlabelled-line	1/month - [true resurrection](ref/spell/
-entries/magic-artifact/briar.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/mantis-blade.md	intelligent	unlabelled-line	3/day-[alter self](ref/spell/alter-self)
-entries/magic-artifact/mantis-blade.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/ovinrbaane-enemy-of-all-enemies.md	intelligent	unlabelled-line	3/day - [aid](ref/spell/aid)
-entries/magic-artifact/ovinrbaane-enemy-of-all-enemies.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-bound-blade.md	intelligent	unlabelled-line	3/day - [deeper darkness](ref/spell/deep
-entries/magic-artifact/relic-of-kazavon-bound-blade.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-staff-of-the-slain.md	intelligent	unlabelled-line	3/day - [create water](ref/spell/create-
-entries/magic-artifact/relic-of-kazavon-staff-of-the-slain.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-throne-of-nalt.md	intelligent	unlabelled-line	3/day - [dismissal](ref/spell/dismissal)
-entries/magic-artifact/relic-of-kazavon-throne-of-nalt.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/spherical-boat-of-zutha.md	item	variant-paragraphs	AC; Maximum Speed; Propulsion
-entries/magic-artifact/suishen-guardian-of-the-amatatsu.md	intelligent	unlabelled-line	Constant - [endure elements](ref/spell/e
-entries/magic-artifact/suishen-guardian-of-the-amatatsu.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/sword-of-gluttony-ungarato.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-gluttony-ungarato.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/sword-of-lust-asheia.md	intelligent	sentences-in-variant	Powers
@@ -72,8 +58,6 @@ entries/magic-artifact/sword-of-sloth-shin-tari.md	intelligent	sentences-in-vari
 entries/magic-artifact/sword-of-sloth-shin-tari.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/sword-of-wrath-garvok.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/totem-of-angazhan.md	intelligent	unlabelled-line	_At will_-[weird](ref/spell/weird) (DC 2
-entries/magic-artifact/totem-of-angazhan.md	item	variant-paragraphs	Alignment
 entries/magic-enh/runeforged.md	item	variant-paragraphs	Requirements
 entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
 entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj

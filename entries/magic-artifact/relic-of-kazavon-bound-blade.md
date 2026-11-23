@@ -51,10 +51,16 @@ paladin dedicated to [Zon-Kuthon](ref/faith/zon-kuthon).
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 10, **Cha** 12\
-**Communication** empathy\
-**Powers** constant - [deathwatch](ref/spell/deathwatch)\
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 10
+Cha: 12
+Communication: empathy
+Powers: constant - [deathwatch](ref/spell/deathwatch)
+:::
+
 3/day - [deeper darkness](ref/spell/deeper-darkness), [rage](ref/spell/rage), [slow](ref/spell/slow)
 (DC 14)

@@ -63,11 +63,17 @@ Suishen is destroyed if the blade is used to slay the last Amatatsu scion.
 
 ### Statistics
 
-**Alignment** NG; **Ego** 25\
-**Senses** 60 ft., [darkvision](ref/rule/darkvision), detect Amatatsu scions, read languages\
-**Int** 12, **Wis** 16, **Cha** 13\
-**Communication** speech, telepathy\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 20th)\
+::: statblock
+Alignment: NG
+Ego: 25
+Senses: 60 ft., [darkvision](ref/rule/darkvision), detect Amatatsu scions, read languages
+Int: 12
+Wis: 16
+Cha: 13
+Communication: speech, telepathy
+Spell-Like Abilities: [(CL 20th)](ref/umr/spell-like-abilities)
+:::
+
 Constant - [endure elements](ref/spell/endure-elements)\
 3/day - [air walk](ref/spell/air-walk), [daylight](ref/spell/daylight),
 _[resist energy](ref/spell/resist-energy)_ (cold), [see invisibility](ref/spell/see-invisibility)

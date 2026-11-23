@@ -47,11 +47,17 @@ silver dragon tears.
 
 ### Statistics
 
-**Alignment** NG (Kolwyddon), LE (Kazavon); **Ego** 10\
-**Senses** 30 ft.\
-**Int** 12, **Wis** 10, **Cha** 10\
-**Communication** empathy\
-**Powers** at will - [detect magic](ref/spell/detect-magic), ventriloquism (DC 11)\
+::: statblock
+Alignment: NG (Kolwyddon), LE (Kazavon)
+Ego: 10
+Senses: 30 ft.
+Int: 12
+Wis: 10
+Cha: 10
+Communication: empathy
+Powers: at will - [detect magic](ref/spell/detect-magic), ventriloquism (DC 11)
+:::
+
 3/day - [create water](ref/spell/create-water), [dimension door](ref/spell/dimension-door) (during
 the day), [lightning bolt](ref/spell/lightning-bolt) (at night; DC 14),
 [major image](ref/spell/major-image) (DC 14), [veil](ref/spell/veil) (DC 19)\
