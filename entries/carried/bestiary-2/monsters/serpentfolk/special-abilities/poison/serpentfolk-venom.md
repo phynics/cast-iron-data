@@ -19,7 +19,7 @@ kind = "none"
 ::: statblock
 Type: poison
 Contracted: injury
-Save: Fortitude DC 25
+Save: Fortitude DC 15
 Frequency: 1/round for 6 rounds
 Effect: 1d2 Strength
 Cure: 2 saves
