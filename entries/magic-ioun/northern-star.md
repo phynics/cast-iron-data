@@ -39,5 +39,7 @@ When inserted into a wayfinder, it grants the bearer a +4 bonus on Reflex saves 
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump),
-creator must be at least 12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump), creator must be at least 12th level
+Cost: 5,000 gp
+:::

@@ -38,9 +38,10 @@ Breathe water for up to 10 minutes per day, useable in 1-minute increments.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), creator must be
-12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Flawed Ioun Stone
 

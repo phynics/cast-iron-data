@@ -49,8 +49,10 @@ stone of its magic, turning it into a [dull gray](ref/magic-ioun/dull-gray-stone
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 2,000 gp
+:::
 
 ### Flawed Ioun Stone
 

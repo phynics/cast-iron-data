@@ -38,8 +38,10 @@ onyx rhomboids stack (up to a maximum of a +6 enhancement bonus to Constitution)
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), creator must be 12th level; **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), creator must be 12th level
+Cost: 12,000 gp
+:::
 
 ### Flawed Ioun Stone
 

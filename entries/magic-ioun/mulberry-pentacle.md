@@ -38,8 +38,10 @@ This stone grants you a +5 competence bonus on [Bluff](ref/skill/bluff) and
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), creator must be 12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Flawed Ioun Stone
 

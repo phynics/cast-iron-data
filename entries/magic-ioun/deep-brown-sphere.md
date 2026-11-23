@@ -35,5 +35,7 @@ are under or above sea level.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[discern location](ref/spell/discern-location), creator must be 12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [discern location](ref/spell/discern-location), creator must be 12th level
+Cost: 5,000 gp
+:::

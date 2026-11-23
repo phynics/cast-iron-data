@@ -38,8 +38,10 @@ This stone grants you immunity to poison, as if wearing a
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison), creator must be 12th level; **Cost** 27,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison), creator must be 12th level
+Cost: 27,000 gp
+:::
 
 ### Flawed Ioun Stone
 

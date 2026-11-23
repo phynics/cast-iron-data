@@ -48,8 +48,10 @@ suppressed until the wayfinder is replaced.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic jar](ref/spell/magic-jar), creator must be 12th level; **Cost** 100,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic jar](ref/spell/magic-jar), creator must be 12th level
+Cost: 100,000 gp
+:::
 
 ### Flawed Ioun Stone
 
