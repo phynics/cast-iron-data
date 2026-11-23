@@ -6,6 +6,8 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_sun_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
 
 [fields]
 kind = "class_option"

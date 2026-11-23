@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_anathema", path = "json/class_ability_investigator_talents.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "15"
 
 [fields]
 kind = "class_option"

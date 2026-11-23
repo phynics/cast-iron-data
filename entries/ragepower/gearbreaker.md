@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gearbreaker", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "7"
 
 [fields]
 kind = "class_option"

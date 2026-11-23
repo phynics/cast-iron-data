@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "guise_of_unlife", path = "json/class_ability_social_talents.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "26"
 
 [fields]
 kind = "class_option"

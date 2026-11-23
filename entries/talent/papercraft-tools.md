@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "papercraft_tools", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "21"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "esoteric_scholar", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "69"
 
 [fields]
 kind = "class_option"

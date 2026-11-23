@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "observant_illusion", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "23"
 
 [fields]
 kind = "class_option"

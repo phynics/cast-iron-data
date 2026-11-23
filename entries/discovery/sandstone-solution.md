@@ -6,6 +6,9 @@ source_ids = ["people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sandstone_solution", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "23"
 
 [fields]
 kind = "class_option"

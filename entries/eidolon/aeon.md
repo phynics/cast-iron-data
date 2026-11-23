@@ -6,6 +6,8 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aeon", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
 
 [fields]
 kind = "class_option"

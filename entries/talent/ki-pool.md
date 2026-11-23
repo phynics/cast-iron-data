@@ -6,6 +6,8 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ki_pool", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flying_kick", path = "json/class_ability_style_strikes.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "19"
 
 [fields]
 kind = "class_option"
