@@ -15,30 +15,36 @@ kind = "creature"
 cr = "18"
 +++
 
-**Challenge rating:** 18
-
-**XP** 153,600\
 Half-orc [barbarian](ref/class/barbarian) 19\
-CE Medium humanoid (human, orc)\
-**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +27
+CE Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 18
+XP: 153,600
+Init: +2
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +27
+:::
 
 ### Defense
 
-**AC** 13, touch 10, flat-footed 11 (+3 armor, +2 Dex, -2 rage)\
-**hp** 243 (19d12+114)\
-**Fort** +20, **Ref** +12, **Will** +13; +6 vs. spells and spell-like or supernatural abilities, +4
-vs. enchantments\
-**Defensive Abilities** blink, [improved uncanny dodge](ref/ability/improved-uncanny-dodge),
-indomitable will, orc ferocity, [trap sense](ref/ability/trap-sense) +6; **DR** 5/-
+::: statblock
+AC: 13, touch 10, flat-footed 11 (+3 armor, +2 Dex, -2 rage)
+hp: 243 (19d12+114)
+Fort: +20
+Ref: +12
+Will: +13; +6 vs. spells and spell-like or supernatural abilities, +4 vs. enchantments
+Defensive Abilities: blink, [improved uncanny dodge](ref/ability/improved-uncanny-dodge), indomitable will, orc ferocity, [trap sense](ref/ability/trap-sense) +6
+DR: 5/-
+:::
 
 ### Offense
 
-**Speed** 40 ft., fly 60 ft. (good)\
-**Melee** +1 unholy ghost touch adamantine scythe +31/+26/+21/+16 (2d4+16/19-20/×4)\
-**Ranged** mwk composite longbow +22/+17/+12/+7 (1d8+10/×3)\
-**Special Attacks** greater rage (42 rounds/day), rage powers (clear mind, intimidating glare,
-knockback, mighty swing, strength surge +19, superstition +6, surprise accuracy +5, terrifying howl
-\[DC 29\], unexpected strike)
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +1 unholy ghost touch adamantine scythe +31/+26/+21/+16 (2d4+16/19-20/×4)
+Ranged: mwk composite longbow +22/+17/+12/+7 (1d8+10/×3)
+Special Attacks: greater rage (42 rounds/day), rage powers (clear mind, intimidating glare, knockback, mighty swing, strength surge +19, superstition +6, surprise accuracy +5, terrifying howl \[DC 29\], unexpected strike)
+:::
 
 ### Tactics
 
@@ -59,34 +65,23 @@ supernatural abilities, no bonus vs. enchantments; **Melee** +1 unholy ghost tou
 
 ### Statistics
 
-**Str** 30, **Dex** 14, **Con** 20, **Int** 8, **Wis** 10, **Cha** 12\
-**Base Atk** +19; **CMB** +29; **CMD** 39\
-**Feats** [Cleave](ref/feat/cleave), [Dazzling Display](ref/feat/dazzling-display),
-[Flyby Attack](ref/feat/flyby-attack), [Great Cleave](ref/feat/great-cleave),
-[Improved Critical](ref/feat/improved-critical) (scythe),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Lunge](ref/feat/lunge),
-[Power Attack](ref/feat/power-attack), [Shatter Defenses](ref/feat/shatter-defenses),
-[Weapon Focus](ref/feat/weapon-focus) (scythe)\
-**Skills** Acrobatics +11 (+15 when jumping), Climb +14, Fly +15, Intimidate +40, Perception +27,
-Survival +5, Swim +14\
-**Languages** Common, Orc\
-**SQ** fast movement, orc blood, tireless rage, weapon familiarity\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potion of
-[bear's endurance](ref/spell/bears-endurance), potion of [cat's grace](ref/spell/cats-grace),
-potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potions of
-[enlarge person](ref/spell/enlarge-person) (4), [silversheen](ref/magic-wondrous/silversheen),
-[tanglefoot bag](ref/eq-weapon/tanglefoot-bag); **Other Gear** masterwork
-[studded leather](ref/eq-armor/studded-leather), +1 [unholy](ref/magic-enh/unholy)
-[ghost touch](ref/magic-enh/ghost-touch-weapon) [adamantine](ref/eq-material/adamantine)
-[scythe](ref/eq-weapon/scythe), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+10
-Str) with 20 arrows, [belt of giant strength +4](ref/magic-wondrous/belt-of-giant-strength-4),
-[cloak of resistance +4](ref/magic-wondrous/cloak-of-resistance-4),
-[eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle),
-[handy haversack](ref/magic-wondrous/handy-haversack),
-[mask of intimidation](ref/magic-wondrous/baxs-mask),
-[ring of blinking](ref/magic-ring/ring-of-blinking),
-[ring of feather falling](ref/magic-ring/ring-of-feather-falling),
-[winged boots](ref/magic-wondrous/winged-boots), 57 gp
+::: statblock
+Str: 30
+Dex: 14
+Con: 20
+Int: 8
+Wis: 10
+Cha: 12
+Base Atk: +19
+CMB: +29
+CMD: 39
+Feats: [Cleave](ref/feat/cleave), [Dazzling Display](ref/feat/dazzling-display), [Flyby Attack](ref/feat/flyby-attack), [Great Cleave](ref/feat/great-cleave), [Improved Critical](ref/feat/improved-critical) (scythe), [Intimidating Prowess](ref/feat/intimidating-prowess), [Lunge](ref/feat/lunge), [Power Attack](ref/feat/power-attack), [Shatter Defenses](ref/feat/shatter-defenses), [Weapon Focus](ref/feat/weapon-focus) (scythe)
+Skills: Acrobatics +11 (+15 when jumping), Climb +14, Fly +15, Intimidate +40, Perception +27, Survival +5, Swim +14
+Languages: Common, Orc
+SQ: fast movement, orc blood, tireless rage, weapon familiarity
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potion of [bear's endurance](ref/spell/bears-endurance), potion of [cat's grace](ref/spell/cats-grace), potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potions of [enlarge person](ref/spell/enlarge-person) (4), [silversheen](ref/magic-wondrous/silversheen), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag)
+Other Gear: masterwork [studded leather](ref/eq-armor/studded-leather), +1 [unholy](ref/magic-enh/unholy) [ghost touch](ref/magic-enh/ghost-touch-weapon) [adamantine](ref/eq-material/adamantine) [scythe](ref/eq-weapon/scythe), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+10 Str) with 20 arrows, [belt of giant strength +4](ref/magic-wondrous/belt-of-giant-strength-4), [cloak of resistance +4](ref/magic-wondrous/cloak-of-resistance-4), [eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle), [handy haversack](ref/magic-wondrous/handy-haversack), [mask of intimidation](ref/magic-wondrous/baxs-mask), [ring of blinking](ref/magic-ring/ring-of-blinking), [ring of feather falling](ref/magic-ring/ring-of-feather-falling), [winged boots](ref/magic-wondrous/winged-boots), 57 gp
+:::
 
 ### Description
 

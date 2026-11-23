@@ -15,24 +15,33 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [warrior](ref/npcclass/warrior) 10\
-NE Medium humanoid (human)\
-**Init** +3; **Senses** Perception +4
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +3
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 19, touch 15, flat-footed 15 (+3 armor, +1 deflection, +3 Dex, +1 dodge, +1 shield)\
-**hp** 75 (10d10+20)\
-**Fort** +7, **Ref** +6, **Will** +2
+::: statblock
+AC: 19, touch 15, flat-footed 15 (+3 armor, +1 deflection, +3 Dex, +1 dodge, +1 shield)
+hp: 75 (10d10+20)
+Fort: +7
+Ref: +6
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 short sword +12/+7 (1d8+3), mwk light mace +11 (1d6+1) or trident +12/+7 (1d8+3)\
-**Ranged** trident +13 (1d8+3) or dart +13 (1d4+2) or net +9 ranged touch (entangle)
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +12/+7 (1d8+3), mwk light mace +11 (1d6+1) or trident +12/+7 (1d8+3)
+Ranged: trident +13 (1d8+3) or dart +13 (1d4+2) or net +9 ranged touch (entangle)
+:::
 
 ### Tactics
 
@@ -45,22 +54,22 @@ before killing his opponent so he is out of danger as soon as possible.
 
 ### Statistics
 
-**Str** 14, **Dex** 16, **Con** 10, **Int** 10, **Wis** 8, **Cha** 11\
-**Base Atk** +10; **CMB** +12; **CMD** 27\
-**Feats** [Dazzling Display](ref/feat/dazzling-display), [Dodge](ref/feat/dodge),
-[Toughness](ref/feat/toughness), [Two-Weapon Defense](ref/feat/two-weapon-defense),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (short
-sword)\
-**Skills** Acrobatics +12, Intimidate +8, Perception +4, Sense Motive +9\
-**Languages** Common\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[heroism](ref/spell/heroism); **Other Gear** [studded leather](ref/eq-armor/studded-leather), +1
-[short sword](ref/eq-weapon/short-sword), [darts](ref/eq-weapon/dart) (10),
-[net](ref/eq-weapon/net), masterwork [light mace](ref/eq-weapon/light-mace),
-[trident](ref/eq-weapon/trident),
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), [antitoxin](ref/eq-misc/antitoxin),
-240 gp
+::: statblock
+Str: 14
+Dex: 16
+Con: 10
+Int: 10
+Wis: 8
+Cha: 11
+Base Atk: +10
+CMB: +12
+CMD: 27
+Feats: [Dazzling Display](ref/feat/dazzling-display), [Dodge](ref/feat/dodge), [Toughness](ref/feat/toughness), [Two-Weapon Defense](ref/feat/two-weapon-defense), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (short sword)
+Skills: Acrobatics +12, Intimidate +8, Perception +4, Sense Motive +9
+Languages: Common
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism)
+Other Gear: [studded leather](ref/eq-armor/studded-leather), +1 [short sword](ref/eq-weapon/short-sword), [darts](ref/eq-weapon/dart) (10), [net](ref/eq-weapon/net), masterwork [light mace](ref/eq-weapon/light-mace), [trident](ref/eq-weapon/trident), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [antitoxin](ref/eq-misc/antitoxin), 240 gp
+:::
 
 ### Description
 

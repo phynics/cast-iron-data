@@ -15,54 +15,65 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Strix [witch](ref/class/witch) 5\
-CN Medium humanoid (strix)\
-**Init** +3; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-[low-light vision](ref/rule/low-light-vision); Perception +7 (+12 in dim light or darkness)
+CN Medium humanoid (strix)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +3
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception +7 (+12 in dim light or darkness)
+:::
 
 ### Defense
 
-**AC** 15, touch 15, flat-footed 11 (+1 deflection, +3 Dex, +1 dodge)\
-**hp** 30 (5d6+10)\
-**Fort** +2, **Ref** +4, **Will** +7; +2 vs. illusions
+::: statblock
+AC: 15, touch 15, flat-footed 11 (+1 deflection, +3 Dex, +1 dodge)
+hp: 30 (5d6+10)
+Fort: +2
+Ref: +4
+Will: +7; +2 vs. illusions
+:::
 
 ### Offense
 
-**Speed** 30 ft., fly 60 ft. (average)\
-**Melee** mwk spear +2 (1d8-1/×3)\
-**Ranged** dart +5 (1d4-1)\
-**Special Attacks** +1 on attack rolls against humanoids with the human subtype, hexes (disguise \[5
-hours\], evil eye \[-2, 6 rounds\], slumber \[5 rounds\])\
-**Witch Spells Prepared** (CL 5th; concentration +8)\
-_3rd_-[pain strike](ref/spell/pain-strike) (DC 17), [twilight knife](ref/spell/twilight-knife)\
-_2nd_-[burning gaze](ref/spell/burning-gaze) (DC 15), [darkness](ref/spell/darkness),
-[hold person](ref/spell/hold-person) (DC 15)\
-_1st_-[burning hands](ref/spell/burning-hands) (DC 14), [cause fear](ref/spell/cause-fear) (DC 14),
-[mage armor](ref/spell/mage-armor), [silent image](ref/spell/silent-image) (DC 14)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 13), [dancing lights](ref/spell/dancing-lights),
-[message](ref/spell/message), [touch of fatigue](ref/spell/touch-of-fatigue) (DC 13)\
-**Patron** shadow
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: mwk spear +2 (1d8-1/×3)
+Ranged: dart +5 (1d4-1)
+Special Attacks: +1 on attack rolls against humanoids with the human subtype, hexes (disguise \[5 hours\], evil eye \[-2, 6 rounds\], slumber \[5 rounds\])
+:::
+
+::: statblock
+title = "Witch Spells Prepared"
+Caster level: 5th
+Concentration: +8
+3rd: [pain strike](ref/spell/pain-strike) (DC 17), [twilight knife](ref/spell/twilight-knife)
+2nd: [burning gaze](ref/spell/burning-gaze) (DC 15), [darkness](ref/spell/darkness), [hold person](ref/spell/hold-person) (DC 15)
+1st: [burning hands](ref/spell/burning-hands) (DC 14), [cause fear](ref/spell/cause-fear) (DC 14), [mage armor](ref/spell/mage-armor), [silent image](ref/spell/silent-image) (DC 14)
+0 (at will): [bleed](ref/spell/bleed) (DC 13), [dancing lights](ref/spell/dancing-lights), [message](ref/spell/message), [touch of fatigue](ref/spell/touch-of-fatigue) (DC 13)
+Patron: shadow
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 16, **Con** 13, **Int** 16, **Wis** 12, **Cha** 8\
-**Base Atk** +2; **CMB** +1; **CMD** 16\
-**Feats** [Alertness](ref/feat/alertness), [Combat Casting](ref/feat/combat-casting),
-[Dodge](ref/feat/dodge), [Iron Will](ref/feat/iron-will)\
-**Skills** Fly +11, Intimidate +7, Knowledge (arcana, history, nature) +8, Perception +7 (+12 in dim
-light or darkness), Sense Motive +3, Spellcraft +11, Stealth +0 (+2 in dim light or darkness)\
-**Languages** Auran, Common, Infernal, Strix\
-**SQ** nocturnal, witch's familiar (owl)\
-**Combat Gear** [elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of
-[protection from law](ref/spell/protection-from-law), scroll of [false life](ref/spell/false-life),
-wand of [ray of enfeeblement](ref/spell/ray-of-enfeeblement) (38 charges),
-[tanglefoot bag](ref/eq-weapon/tanglefoot-bag), [thunderstones](ref/eq-weapon/thunderstone) (2);
-**Other Gear** [darts](ref/eq-weapon/dart) (6), mwk [spear](ref/eq-weapon/spear),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[spell component pouch](ref/eq-misc/spell-component-pouch), 10 gp
+::: statblock
+Str: 8
+Dex: 16
+Con: 13
+Int: 16
+Wis: 12
+Cha: 8
+Base Atk: +2
+CMB: +1
+CMD: 16
+Feats: [Alertness](ref/feat/alertness), [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Iron Will](ref/feat/iron-will)
+Skills: Fly +11, Intimidate +7, Knowledge (arcana, history, nature) +8, Perception +7 (+12 in dim light or darkness), Sense Motive +3, Spellcraft +11, Stealth +0 (+2 in dim light or darkness)
+Languages: Auran, Common, Infernal, Strix
+SQ: nocturnal, witch's familiar (owl)
+Combat Gear: [elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of [protection from law](ref/spell/protection-from-law), scroll of [false life](ref/spell/false-life), wand of [ray of enfeeblement](ref/spell/ray-of-enfeeblement) (38 charges), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag), [thunderstones](ref/eq-weapon/thunderstone) (2)
+Other Gear: [darts](ref/eq-weapon/dart) (6), mwk [spear](ref/eq-weapon/spear), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [spell component pouch](ref/eq-misc/spell-component-pouch), 10 gp
+:::
 
 ### Description
 

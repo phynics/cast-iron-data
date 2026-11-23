@@ -15,51 +15,64 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [bard](ref/class/bard) 2\
-N Medium humanoid\
-**Init** +2; **Senses** Perception +4
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +2
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 17, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 dodge, +1 shield)\
-**hp** 11 (2d8+2)\
-**Fort** +1, **Ref** +5, **Will** +2; +4 vs. bardic performance, language-dependent, and sonic
+::: statblock
+AC: 17, touch 13, flat-footed 14 (+3 armor, +2 Dex, +1 dodge, +1 shield)
+hp: 11 (2d8+2)
+Fort: +1
+Ref: +5
+Will: +2; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** rapier +1 (1d6/18-20) or whip +1 (1d3)\
-**Ranged** shortbow +3 (1d6/×3)\
-**Space** 5 ft., **Reach** 5 ft. (15 ft. with whip)\
-**Special Attacks** bardic performance 9 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 14\],
-[inspire courage](ref/performance/inspire-courage) +1)\
-**Bard Spells Known** (CL 2nd; concentration +5)\
-_1st (3/day)_-[comprehend languages](ref/spell/comprehend-languages),
-[hideous laughter](ref/spell/hideous-laughter) (DC 14), [ventriloquism](ref/spell/ventriloquism)\
-_0 (at will)_-[dancing lights](ref/spell/dancing-lights), [daze](ref/spell/daze) (DC 13),
-[ghost sound](ref/spell/ghost-sound) (DC 13), [message](ref/spell/message),
-[prestidigitation](ref/spell/prestidigitation)
+::: statblock
+Speed: 30 ft.
+Melee: rapier +1 (1d6/18-20) or whip +1 (1d3)
+Ranged: shortbow +3 (1d6/×3)
+Space: 5 ft.
+Reach: 5 ft. (15 ft. with whip)
+Special Attacks: bardic performance 9 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 14\], [inspire courage](ref/performance/inspire-courage) +1)
+:::
+
+::: statblock
+title = "Bard Spells Known"
+Caster level: 2nd
+Concentration: +5
+1st (3/day): [comprehend languages](ref/spell/comprehend-languages), [hideous laughter](ref/spell/hideous-laughter) (DC 14), [ventriloquism](ref/spell/ventriloquism)
+0 (at will): [dancing lights](ref/spell/dancing-lights), [daze](ref/spell/daze) (DC 13), [ghost sound](ref/spell/ghost-sound) (DC 13), [message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 14, **Con** 12, **Int** 13, **Wis** 8, **Cha** 17\
-**Base Atk** +1; **CMB** +1; **CMD** 14\
-**Feats** [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Perform \[Oratory\])\
-**Skills** Bluff +8, Diplomacy +11, Disguise +10, Intimidate +8, Knowledge (local) +7, Perception
-+4, Perform (act) +8, Perform (oratory) +11, Sense Motive +11, Sleight of Hand +7, Stealth +6\
-**Languages** Common, Elven\
-**SQ** bardic knowledge +1, versatile performance (oratory)\
-**Gear** masterwork [studded leather](ref/eq-armor/studded-leather),
-[buckler](ref/eq-armor/buckler), [rapier](ref/eq-weapon/rapier), [shortbow](ref/eq-weapon/shortbow)
-with 20 arrows, [whip](ref/eq-weapon/whip), [disguise kit](ref/eq-misc/disguise-kit),
-[light horse (combat trained)](ref/eq-misc/light-horse-combat-trained) with
-[riding saddle](ref/eq-misc/saddle-riding)\
-**Boon** A storyteller can pass along a small bit of lore or gossip that grants a +2 circumstance
-bonus on a PC's next Knowledge (history or local) check.
+::: statblock
+Str: 10
+Dex: 14
+Con: 12
+Int: 13
+Wis: 8
+Cha: 17
+Base Atk: +1
+CMB: +1
+CMD: 14
+Feats: [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Perform \[Oratory\])
+Skills: Bluff +8, Diplomacy +11, Disguise +10, Intimidate +8, Knowledge (local) +7, Perception +4, Perform (act) +8, Perform (oratory) +11, Sense Motive +11, Sleight of Hand +7, Stealth +6
+Languages: Common, Elven
+SQ: bardic knowledge +1, versatile performance (oratory)
+Gear: masterwork [studded leather](ref/eq-armor/studded-leather), [buckler](ref/eq-armor/buckler), [rapier](ref/eq-weapon/rapier), [shortbow](ref/eq-weapon/shortbow) with 20 arrows, [whip](ref/eq-weapon/whip), [disguise kit](ref/eq-misc/disguise-kit), [light horse (combat trained)](ref/eq-misc/light-horse-combat-trained) with [riding saddle](ref/eq-misc/saddle-riding)
+Boon: A storyteller can pass along a small bit of lore or gossip that grants a +2 circumstance bonus on a PC's next Knowledge (history or local) check.
+:::
 
 ### Description
 

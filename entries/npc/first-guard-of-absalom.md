@@ -15,39 +15,53 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [fighter](ref/class/fighter) 2\
-LN Medium humanoid (human)\
-**Init** +1; **Senses** Perception +1
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +1
+Senses: Perception +1
+:::
 
 ### Defense
 
-**AC** 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)\
-**hp** 21 (2d10+6)\
-**Fort** +5, **Ref** +1, **Will** +3 (+1 vs. fear)\
-**Defensive Abilities** bravery +1
+::: statblock
+AC: 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)
+hp: 21 (2d10+6)
+Fort: +5
+Ref: +1
+Will: +3 (+1 vs. fear)
+Defensive Abilities: bravery +1
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk guisarme +5 (2d4+3/×3) or short sword +4 (1d6+3/19-20)\
-**Ranged** heavy crossbow +3 (1d10/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: mwk guisarme +5 (2d4+3/×3) or short sword +4 (1d6+3/19-20)
+Ranged: heavy crossbow +3 (1d10/19-20)
+:::
 
 ### Statistics
 
-**Str** 15, **Dex** 12, **Con** 14, **Int** 13, **Wis** 12, **Cha** 8\
-**Base Atk** +2; **CMB** +4 (+6 trip); **CMD** 15 (17 vs. trip)\
-**Feats** [Combat Expertise](ref/feat/combat-expertise), [Improved Trip](ref/feat/improved-trip),
-[Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack)\
-**Skills** Climb +3, Intimidate +4, Knowledge (engineering) +6, Profession (soldier) +6\
-**Languages** Common, any one human language\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds),
-[thunderstone](ref/eq-weapon/thunderstone); **Other Gear** [breastplate](ref/eq-armor/breastplate),
-[heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts, mwk
-[guisarme](ref/eq-weapon/guisarme), [short sword](ref/eq-weapon/short-sword),
-[everburning torch](ref/eq-misc/everburning-torch), 20 gp
+::: statblock
+Str: 15
+Dex: 12
+Con: 14
+Int: 13
+Wis: 12
+Cha: 8
+Base Atk: +2
+CMB: +4 (+6 trip)
+CMD: 15 (17 vs. trip)
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Improved Trip](ref/feat/improved-trip), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack)
+Skills: Climb +3, Intimidate +4, Knowledge (engineering) +6, Profession (soldier) +6
+Languages: Common, any one human language
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), [thunderstone](ref/eq-weapon/thunderstone)
+Other Gear: [breastplate](ref/eq-armor/breastplate), [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts, mwk [guisarme](ref/eq-weapon/guisarme), [short sword](ref/eq-weapon/short-sword), [everburning torch](ref/eq-misc/everburning-torch), 20 gp
+:::
 
 ### Description
 

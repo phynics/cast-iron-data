@@ -15,45 +15,54 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Human [fighter](ref/class/fighter) 8\
-LE Medium humanoid (human)\
-**Init** +5; **Senses** Perception +0
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +5
+Senses: Perception +0
+:::
 
 ### Defense
 
-**AC** 24, touch 11, flat-footed 23 (+10 armor, +1 Dex, +3 shield)\
-**hp** 80 (8d10+32)\
-**Fort** +9, **Ref** +6, **Will** +5; +2 vs. fear\
-**Defensive Abilities** bravery +2
+::: statblock
+AC: 24, touch 11, flat-footed 23 (+10 armor, +1 Dex, +3 shield)
+hp: 80 (8d10+32)
+Fort: +9
+Ref: +6
+Will: +5; +2 vs. fear
+Defensive Abilities: bravery +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 bastard sword +15/+10 (1d10+8/17-20)\
-**Special Attacks** weapon training (heavy blades +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 bastard sword +15/+10 (1d10+8/17-20)
+Special Attacks: weapon training (heavy blades +1)
+:::
 
 ### Statistics
 
-**Str** 18, **Dex** 13, **Con** 14, **Int** 13, **Wis** 10, **Cha** 8\
-**Base Atk** +8; **CMB** +12; **CMD** 23\
-**Feats** [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (bastard sword),
-[Improved Critical](ref/feat/improved-critical) (bastard sword),
-[Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Power Attack](ref/feat/power-attack),
-[Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike),
-[Weapon Focus](ref/feat/weapon-focus) (bastard sword),
-[Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)\
-**Skills** Climb +11, Intimidate +10, Ride +8, Swim +11\
-**Languages** Common, Varisian\
-**SQ** armor training 2\
-**Combat Gear** potion of [bull's strength](ref/spell/bulls-strength), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds); **Other Gear** +1
-[full plate](ref/eq-armor/full-plate), +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield), +1
-[bastard sword](ref/eq-weapon/bastard-sword),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 45 gp
+::: statblock
+Str: 18
+Dex: 13
+Con: 14
+Int: 13
+Wis: 10
+Cha: 8
+Base Atk: +8
+CMB: +12
+CMD: 23
+Feats: [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (bastard sword), [Improved Critical](ref/feat/improved-critical) (bastard sword), [Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will), [Lightning Reflexes](ref/feat/lightning-reflexes), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bastard sword), [Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)
+Skills: Climb +11, Intimidate +10, Ride +8, Swim +11
+Languages: Common, Varisian
+SQ: armor training 2
+Combat Gear: potion of [bull's strength](ref/spell/bulls-strength), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds)
+Other Gear: +1 [full plate](ref/eq-armor/full-plate), +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield), +1 [bastard sword](ref/eq-weapon/bastard-sword), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 45 gp
+:::
 
 ### Description
 

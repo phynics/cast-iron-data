@@ -15,47 +15,55 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 9\
-NE Medium humanoid (human)\
-**Init** +6; **Senses** Perception +10
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +6
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 20, touch 13, flat-footed 18 (+7 armor, +1 deflection, +2 Dex)\
-**hp** 89 (9d8+27)\
-**Fort** +11, **Ref** +6, **Will** +11
+::: statblock
+AC: 20, touch 13, flat-footed 18 (+7 armor, +1 deflection, +2 Dex)
+hp: 89 (9d8+27)
+Fort: +11
+Ref: +6
+Will: +11
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** dagger +5/+0 (1d4-1/19-20)\
-**Ranged** light crossbow +8 (1d8/19-20)\
-**Special Attacks** channel negative energy 4/day (DC 17, 5d6), hand of the acolyte (7/day)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 9th; concentration +13)\
-_7/day_-bleeding touch (4 rounds)\
-_1/day_-dispelling touch\
-**Cleric Spells Prepared** (CL 9th; concentration +13)\
-_5th_-[slay living](ref/spell/slay-living)^[1](ref/npc/death-priest#footnote-d)^ (2, DC 21)\
-_4th_-[death ward](ref/spell/death-ward)^[1](ref/npc/death-priest#footnote-d)^,
-[freedom of movement](ref/spell/freedom-of-movement), [poison](ref/spell/poison) (DC 20),
-[spell immunity](ref/spell/spell-immunity)\
-_3rd_-[bestow curse](ref/spell/bestow-curse) (DC 19), [contagion](ref/spell/contagion) (2, DC 19),
-[dispel magic](ref/spell/dispel-magic)^[1](ref/npc/death-priest#footnote-d)^,
-[prayer](ref/spell/prayer)\
-_2nd_-[bear's endurance](ref/spell/bears-endurance), [darkness](ref/spell/darkness),
-[death knell](ref/spell/death-knell)^[1](ref/npc/death-priest#footnote-d)^ (DC 18),
-[delay poison](ref/spell/delay-poison) (DC 16), [desecrate](ref/spell/desecrate),
-[resist energy](ref/spell/resist-energy) (DC 16)\
-_1st_-[bane](ref/spell/bane) (DC 15),
-[cause fear](ref/spell/cause-fear)^[1](ref/npc/death-priest#footnote-d)^ (DC 17, 2),
-[entropic shield](ref/spell/entropic-shield), [obscuring mist](ref/spell/obscuring-mist),
-[protection from good](ref/spell/protection-from-good)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 16), [detect poison](ref/spell/detect-poison),
-[light](ref/spell/light), [virtue](ref/spell/virtue)\
-**Domains** Death, Magic
+::: statblock
+Speed: 20 ft.
+Melee: dagger +5/+0 (1d4-1/19-20)
+Ranged: light crossbow +8 (1d8/19-20)
+Special Attacks: channel negative energy 4/day (DC 17, 5d6), hand of the acolyte (7/day)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9th
+Concentration: +13
+7/day: bleeding touch (4 rounds)
+1/day: dispelling touch
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+Caster level: 9th
+Concentration: +13
+5th: [slay living](ref/spell/slay-living)^[1](ref/npc/death-priest#footnote-d)^ (2, DC 21)
+4th: [death ward](ref/spell/death-ward)^[1](ref/npc/death-priest#footnote-d)^, [freedom of movement](ref/spell/freedom-of-movement), [poison](ref/spell/poison) (DC 20), [spell immunity](ref/spell/spell-immunity)
+3rd: [bestow curse](ref/spell/bestow-curse) (DC 19), [contagion](ref/spell/contagion) (2, DC 19), [dispel magic](ref/spell/dispel-magic)^[1](ref/npc/death-priest#footnote-d)^, [prayer](ref/spell/prayer)
+2nd: [bear's endurance](ref/spell/bears-endurance), [darkness](ref/spell/darkness), [death knell](ref/spell/death-knell)^[1](ref/npc/death-priest#footnote-d)^ (DC 18), [delay poison](ref/spell/delay-poison) (DC 16), [desecrate](ref/spell/desecrate), [resist energy](ref/spell/resist-energy) (DC 16)
+1st: [bane](ref/spell/bane) (DC 15), [cause fear](ref/spell/cause-fear)^[1](ref/npc/death-priest#footnote-d)^ (DC 17, 2), [entropic shield](ref/spell/entropic-shield), [obscuring mist](ref/spell/obscuring-mist), [protection from good](ref/spell/protection-from-good)
+0 (at will): [bleed](ref/spell/bleed) (DC 16), [detect poison](ref/spell/detect-poison), [light](ref/spell/light), [virtue](ref/spell/virtue)
+Domains: Death, Magic
+:::
 
 ### Tactics
 
@@ -68,23 +76,22 @@ against groups or to heal herself and her undead allies.\
 
 ### Statistics
 
-**Str** 8, **Dex** 15, **Con** 18, **Int** 10, **Wis** 19, **Cha** 12\
-**Base Atk** +6; **CMB** +5; **CMD** 18\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Command Undead](ref/feat/command-undead),
-[Greater Spell Focus](ref/feat/greater-spell-focus) (necromancy),
-[Improved Channel](ref/feat/improved-channel), [Improved Initiative](ref/feat/improved-initiative),
-[Spell Focus](ref/feat/spell-focus) (necromancy)\
-**Skills** Craft (alchemy) +6, Heal +10, Intimidate +7, Knowledge (religion) +12, Perception +10\
-**Languages** Common\
-**SQ** aura, death's embrace\
-**Gear** +1 [chainmail](ref/eq-armor/chainmail), [dagger](ref/eq-weapon/dagger),
-[light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[pearl of power](ref/magic-wondrous/pearl-of-power) (1st),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), bone
-[unholy symbol](ref/eq-misc/wooden-holy-symbol), [unholy water](ref/eq-weapon/holy-water), onyx gems
-(worth 500 gp), silver dust for desecrate (worth 25 gp), 162 gp
+::: statblock
+Str: 8
+Dex: 15
+Con: 18
+Int: 10
+Wis: 19
+Cha: 12
+Base Atk: +6
+CMB: +5
+CMD: 18
+Feats: [Combat Casting](ref/feat/combat-casting), [Command Undead](ref/feat/command-undead), [Greater Spell Focus](ref/feat/greater-spell-focus) (necromancy), [Improved Channel](ref/feat/improved-channel), [Improved Initiative](ref/feat/improved-initiative), [Spell Focus](ref/feat/spell-focus) (necromancy)
+Skills: Craft (alchemy) +6, Heal +10, Intimidate +7, Knowledge (religion) +12, Perception +10
+Languages: Common
+SQ: aura, death's embrace
+Gear: +1 [chainmail](ref/eq-armor/chainmail), [dagger](ref/eq-weapon/dagger), [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [pearl of power](ref/magic-wondrous/pearl-of-power) (1st), [ring of protection +1](ref/magic-ring/ring-of-protection-1), bone [unholy symbol](ref/eq-misc/wooden-holy-symbol), [unholy water](ref/eq-weapon/holy-water), onyx gems (worth 500 gp), silver dust for desecrate (worth 25 gp), 162 gp
+:::
 
 ### Description
 

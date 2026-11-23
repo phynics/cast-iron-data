@@ -15,30 +15,36 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Human [monk](ref/class/monk) 9/assassin 4\
-LE Medium humanoid (human)\
-**Init** +5; **Senses** Perception +18
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +5
+Senses: Perception +18
+:::
 
 ### Defense
 
-**AC** 25, touch 21, flat-footed 19 (+2 armor, +1 deflection, +5 Dex, +1 dodge, +2 monk, +2 natural,
-+2 Wis)\
-**hp** 88 (9d8+4d8+22)\
-**Fort** +9, **Ref** +14, **Will** +10; +2 vs. enchantments or poison\
-**Defensive Abilities** [improved evasion](ref/ability/improved-evasion),
-[uncanny dodge](ref/ability/uncanny-dodge); **Immune** disease
+::: statblock
+AC: 25, touch 21, flat-footed 19 (+2 armor, +1 deflection, +5 Dex, +1 dodge, +2 monk, +2 natural, +2 Wis)
+hp: 88 (9d8+4d8+22)
+Fort: +9
+Ref: +14
+Will: +10; +2 vs. enchantments or poison
+Defensive Abilities: [improved evasion](ref/ability/improved-evasion), [uncanny dodge](ref/ability/uncanny-dodge)
+Immune: disease
+:::
 
 ### Offense
 
-**Speed** 60 ft.\
-**Melee** unarmed strike +15/+10 (1d10+1 plus 1d6 electricity) or mwk quarterstaff +11/+6 (1d6+1) or
-flurry of blows (unarmed strike) +16/+16/+11/+11/+6 (1d10+1 plus 1d6 electricity)\
-**Ranged** +1 shuriken +16/+11 (1d2+2) or flurry of blows (+1 shuriken) +17/+17/+12/+12/+7 (1d2+1)\
-**Special Attacks** death attack (DC 16), flurry of blows, [sneak attack](ref/ability/sneak-attack)
-+2d6, stunning fist (10/day, DC 18), true death (DC 19)
+::: statblock
+Speed: 60 ft.
+Melee: unarmed strike +15/+10 (1d10+1 plus 1d6 electricity) or mwk quarterstaff +11/+6 (1d6+1) or flurry of blows (unarmed strike) +16/+16/+11/+11/+6 (1d10+1 plus 1d6 electricity)
+Ranged: +1 shuriken +16/+11 (1d2+2) or flurry of blows (+1 shuriken) +17/+17/+12/+12/+7 (1d2+1)
+Special Attacks: death attack (DC 16), flurry of blows, [sneak attack](ref/ability/sneak-attack) +2d6, stunning fist (10/day, DC 18), true death (DC 19)
+:::
 
 ### Tactics
 
@@ -51,30 +57,23 @@ flat-footed 17.
 
 ### Statistics
 
-**Str** 12, **Dex** 21, **Con** 12, **Int** 14, **Wis** 14, **Cha** 8\
-**Base Atk** +9; **CMB** +13; **CMD** 31\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Deflect Arrows](ref/feat/deflect-arrows),
-[Dodge](ref/feat/dodge), [Extra Ki](ref/feat/extra-ki),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Nimble Moves](ref/feat/nimble-moves),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Step Up](ref/feat/step-up),
-[Stunning Fist](ref/feat/stunning-fist), [Weapon Finesse](ref/feat/weapon-finesse),
-[Weapon Focus (shuriken](ref/feat/weapon-focus), unarmed strike)\
-**Skills** Acrobatics +21 (+42 when jumping), Bluff +6, Climb +11, Diplomacy +2, Disguise +6,
-Intimidate +7, Knowledge (geography, local, nature) +5, Knowledge (history) +8, Knowledge (religion)
-+6, Perception +18, Sense Motive +12, Stealth +21, Swim +7\
-**Languages** Auran, Common, Infernal\
-**SQ** fast movement, hidden weapons, high jump, ki pool (8 points, magic), maneuver training,
-[poison use](ref/ability/poison-use), slow fall 40 ft., wholeness of body\
-**Combat Gear** potion of [barkskin](ref/spell/barkskin), potion of
-[cure serious wounds](ref/spell/cure-serious-wounds), potion of [haste](ref/spell/haste); **Other
-Gear** +1 human-[bane](ref/magic-enh/bane) [shuriken](ref/eq-weapon/shuriken) (5), +1 shuriken (20),
-[adamantine](ref/eq-material/adamantine) shuriken (10), [cold iron](ref/eq-material/cold-iron)
-shuriken (10), masterwork [quarterstaff](ref/eq-weapon/quarterstaff),
-[belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Str, Dex),
-[bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), [shock](ref/magic-enh/shock)
-[amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists), 235 gp
+::: statblock
+Str: 12
+Dex: 21
+Con: 12
+Int: 14
+Wis: 14
+Cha: 8
+Base Atk: +9
+CMB: +13
+CMD: 31
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge), [Extra Ki](ref/feat/extra-ki), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Nimble Moves](ref/feat/nimble-moves), [Point-Blank Shot](ref/feat/point-blank-shot), [Step Up](ref/feat/step-up), [Stunning Fist](ref/feat/stunning-fist), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus (shuriken](ref/feat/weapon-focus), unarmed strike)
+Skills: Acrobatics +21 (+42 when jumping), Bluff +6, Climb +11, Diplomacy +2, Disguise +6, Intimidate +7, Knowledge (geography, local, nature) +5, Knowledge (history) +8, Knowledge (religion) +6, Perception +18, Sense Motive +12, Stealth +21, Swim +7
+Languages: Auran, Common, Infernal
+SQ: fast movement, hidden weapons, high jump, ki pool (8 points, magic), maneuver training, [poison use](ref/ability/poison-use), slow fall 40 ft., wholeness of body
+Combat Gear: potion of [barkskin](ref/spell/barkskin), potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [haste](ref/spell/haste)
+Other Gear: +1 human-[bane](ref/magic-enh/bane) [shuriken](ref/eq-weapon/shuriken) (5), +1 shuriken (20), [adamantine](ref/eq-material/adamantine) shuriken (10), [cold iron](ref/eq-material/cold-iron) shuriken (10), masterwork [quarterstaff](ref/eq-weapon/quarterstaff), [belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Str, Dex), [bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [shock](ref/magic-enh/shock) [amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists), 235 gp
+:::
 
 ### Description
 

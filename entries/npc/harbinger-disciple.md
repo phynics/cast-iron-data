@@ -15,51 +15,63 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [oracle](ref/class/oracle) 4\
-CN Medium humanoid (human)\
-**Init** +1; **Senses** Perception -1
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)\
-**hp** 29 (4d8+8)\
-**Fort** +6, **Ref** +3, **Will** +4
+::: statblock
+AC: 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)
+hp: 29 (4d8+8)
+Fort: +6
+Ref: +3
+Will: +4
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk light mace +4 (1d6)\
-**Ranged** dagger +4 (1d4/19-20)\
-**Oracle Spells Known** (CL 4th; concentration +8)\
-_2nd (4/day)_-[enthrall](ref/spell/enthrall) (DC 17), [gentle repose](ref/spell/gentle-repose),
-[inflict moderate wounds](ref/spell/inflict-moderate-wounds) (DC 16)\
-_1st (7/day)_-[cause fear](ref/spell/cause-fear) (DC 15), [command](ref/spell/command) (DC 16),
-[doom](ref/spell/doom) (DC 15), [inflict light wounds](ref/spell/inflict-light-wounds) (DC 15),
-[memory lapse](ref/spell/memory-lapse) (DC 18)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 14), [detect magic](ref/spell/detect-magic),
-[guidance](ref/spell/guidance), [light](ref/spell/light), [read magic](ref/spell/read-magic),
-[virtue](ref/spell/virtue)\
-**Mystery** [time](ref/mystery/time)
+::: statblock
+Speed: 30 ft.
+Melee: mwk light mace +4 (1d6)
+Ranged: dagger +4 (1d4/19-20)
+:::
+
+::: statblock
+title = "Oracle Spells Known"
+Caster level: 4th
+Concentration: +8
+2nd (4/day): [enthrall](ref/spell/enthrall) (DC 17), [gentle repose](ref/spell/gentle-repose), [inflict moderate wounds](ref/spell/inflict-moderate-wounds) (DC 16)
+1st (7/day): [cause fear](ref/spell/cause-fear) (DC 15), [command](ref/spell/command) (DC 16), [doom](ref/spell/doom) (DC 15), [inflict light wounds](ref/spell/inflict-light-wounds) (DC 15), [memory lapse](ref/spell/memory-lapse) (DC 18)
+0 (at will): [bleed](ref/spell/bleed) (DC 14), [detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance), [light](ref/spell/light), [read magic](ref/spell/read-magic), [virtue](ref/spell/virtue)
+Mystery: [time](ref/mystery/time)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 13, **Con** 14, **Int** 12, **Wis** 8, **Cha** 18\
-**Base Atk** +3; **CMB** +3; **CMD** 14\
-**Feats** [Deceitful](ref/feat/deceitful), [Great Fortitude](ref/feat/great-fortitude),
-[Spell Focus](ref/feat/spell-focus) (enchantment)\
-**Skills** Bluff +10, Disable Device +5, Disguise +6, Intimidate +8, Knowledge (history) +8,
-Knowledge (religion) +6, Perform (oratory) +8, Sense Motive +4, Use Magic Device +8\
-**Languages** Aklo, Common, Infernal\
-**SQ** oracle's curse (tongues), revelations (erase from time, momentary glimpse)\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scroll of
-[augury](ref/spell/augury), wand of [shield of faith](ref/spell/shield-of-faith) (22 charges),
-[smokestick](ref/eq-misc/smokestick), [thunderstone](ref/eq-weapon/thunderstone); **Other Gear**
-[leather armor](ref/eq-armor/leather), [dagger](ref/eq-weapon/dagger), mwk
-[light mace](ref/eq-weapon/light-mace), Book of 1,000 Whispers,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 233 gp
+::: statblock
+Str: 10
+Dex: 13
+Con: 14
+Int: 12
+Wis: 8
+Cha: 18
+Base Atk: +3
+CMB: +3
+CMD: 14
+Feats: [Deceitful](ref/feat/deceitful), [Great Fortitude](ref/feat/great-fortitude), [Spell Focus](ref/feat/spell-focus) (enchantment)
+Skills: Bluff +10, Disable Device +5, Disguise +6, Intimidate +8, Knowledge (history) +8, Knowledge (religion) +6, Perform (oratory) +8, Sense Motive +4, Use Magic Device +8
+Languages: Aklo, Common, Infernal
+SQ: oracle's curse (tongues), revelations (erase from time, momentary glimpse)
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scroll of [augury](ref/spell/augury), wand of [shield of faith](ref/spell/shield-of-faith) (22 charges), [smokestick](ref/eq-misc/smokestick), [thunderstone](ref/eq-weapon/thunderstone)
+Other Gear: [leather armor](ref/eq-armor/leather), [dagger](ref/eq-weapon/dagger), mwk [light mace](ref/eq-weapon/light-mace), Book of 1,000 Whispers, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 233 gp
+:::
 
 ### Description
 

@@ -15,40 +15,53 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Half-orc [fighter](ref/class/fighter) 3\
-LN Medium humanoid (human, orc)\
-**Init** +1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +1
+LN Medium humanoid (human, orc)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +1
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +1
+:::
 
 ### Defense
 
-**AC** 19, touch 11, flat-footed 18 (+8 armor, +1 Dex)\
-**hp** 27 (3d10+6)\
-**Fort** +5, **Ref** +2, **Will** +2 (+1 vs. fear)\
-**Defensive Abilities** bravery +1, orc ferocity
+::: statblock
+AC: 19, touch 11, flat-footed 18 (+8 armor, +1 Dex)
+hp: 27 (3d10+6)
+Fort: +5
+Ref: +2
+Will: +2 (+1 vs. fear)
+Defensive Abilities: bravery +1, orc ferocity
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk alchemical silver glaive +7 (1d10+2/×3)
+::: statblock
+Speed: 20 ft.
+Melee: mwk alchemical silver glaive +7 (1d10+2/×3)
+:::
 
 ### Statistics
 
-**Str** 15, **Dex** 13, **Con** 14, **Int** 8, **Wis** 12, **Cha** 12\
-**Base Atk** +3; **CMB** +5; **CMD** 16\
-**Feats** [Furious Focus](ref/feat/furious-focus),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack),
-[Weapon Focus](ref/feat/weapon-focus) (glaive)\
-**Skills** Intimidate +10, Knowledge (planes) +1, Sense Motive +3\
-**Languages** Common, Orc\
-**SQ** armor training 1, orc blood, weapon familiarity\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potion of
-[bull's strength](ref/spell/bulls-strength), potion of
-[cure light wounds](ref/spell/cure-light-wounds); **Other Gear** mwk
-[half-plate](ref/eq-armor/half-plate), mwk [alchemical silver](ref/eq-material/alchemical-silver)
-[glaive](ref/eq-weapon/glaive), 12 gp
+::: statblock
+Str: 15
+Dex: 13
+Con: 14
+Int: 8
+Wis: 12
+Cha: 12
+Base Atk: +3
+CMB: +5
+CMD: 16
+Feats: [Furious Focus](ref/feat/furious-focus), [Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (glaive)
+Skills: Intimidate +10, Knowledge (planes) +1, Sense Motive +3
+Languages: Common, Orc
+SQ: armor training 1, orc blood, weapon familiarity
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potion of [bull's strength](ref/spell/bulls-strength), potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: mwk [half-plate](ref/eq-armor/half-plate), mwk [alchemical silver](ref/eq-material/alchemical-silver) [glaive](ref/eq-weapon/glaive), 12 gp
+:::
 
 ### Description
 
