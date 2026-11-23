@@ -31,13 +31,18 @@ Usage (DIR defaults to the repository root):
                                                              fix is not applied, or the TSV is stale
     python3 scripts/stat-blocks-166.py --self-test           run the built-in tests
 
-    --pass creature[,npc,item]   which passes run (default: every pass this version implements)
+    --pass sources[,creature,npc,item]
+                                 which passes run (default: every pass this version implements;
+                                 `sources` runs first, so one `--write` moves the citation and then
+                                 converts what it unblocked)
     --pass fixes                 no conversion: `--write` applies the print fixes and writes the TSV
     --only a-d                   entry files whose name starts with a letter of the range(s)
     --only eq-misc,magic-ring    or the entries of the named folders (both kinds can be mixed)
 
-Passes. `creature` (the folder `entries/monster`), `npc` (`entries/npc`) and `item` (every entry
-with `kind = "item"` outside `entries/carried`) are implemented.
+Passes. `sources` (the raw `**Sources:**` lines of the other three), `creature` (the folder
+`entries/monster`), `npc` (`entries/npc`) and `item` (every entry with `kind = "item"` outside
+`entries/carried`) are implemented. A survey (no `--write`, no `--check`) of the `sources` pass also
+prints the counts of every raw citation line, by zone.
 
 `--check` without `--pass` or `--only` checks the slices listed in `APPLIED` below. Each slice
 PR adds its slice to that list, so the check on a PR head covers exactly what has been written.
@@ -185,6 +190,9 @@ I8  Construction. The paragraph directly under the first `### Construction` head
     apply to it. A Construction paragraph with a line that has no label (the technological items
     print `Craft Technological Item, …` so) stays prose, byte for byte: the lead still converts,
     no label is invented, and the entry is listed in the TSV as `construction-unlabelled`.
+    When the lead is a stat block already, a Construction paragraph that reads as statistics
+    converts alone: rule S moves a `**Sources:**` line out of it, and that line was what kept it
+    prose.
 I9  Variants. Every other statistics paragraph stays as it is: a variant of the item (its name
     alone on the first line, or under a `###` heading of its own), a second set of statistics, a
     recipe. A file may be converted and keep such paragraphs. Each entry that has them is listed
@@ -203,7 +211,54 @@ also proves where I6 cut: no row of the lead block holds a sentence value, and a
 with one. Besides the words, every paragraph the pass did not convert
 must be found again byte for byte, in order, and no heading may change.
 
-Proofs, run on every file before it is written (a failure aborts the run and writes nothing more):
+Rules for the sources pass (owner ruling 1 of 2026-11-23)
+---------------------------------------------------------
+
+A raw `**Sources:**` line in the body of a creature or an item is a printed citation. It moves to
+`[[sources]]` rows (book and page) and leaves the body. It never becomes a statistics row and is
+never deleted without its row:
+
+    **Sources:** Pathfinder RPG Bestiary pg 174\\         [[sources]]
+    **Experience points:** 600                    publication = "bestiary"
+                                                  page = "174"
+
+S1  Scope. The creatures of `entries/monster` and `entries/npc` and the items outside
+    `entries/carried`: the entries the three passes below read. The citation lines of other
+    kinds (faith, skill, domain, rule, a blockquote, a list) are not in scope. A line is a
+    `**Sources:**` label at the start of a line outside a stat block. Its zone is one of
+    `statistics` (the statistics region of a creature, C1; the lead paragraph of an item that
+    has no stat block yet), `construction` (the paragraph directly under the first
+    `### Construction` of an item) or `variant` (every other line). The slices apply
+    `SOURCES_ZONES` (`statistics` and `construction`); the `variant` lines wait for the slice of
+    their variant kind, and the TSV lists them as `raw-sources-line`, with what rule S would do
+    with the file in every zone.
+S2  Line. `Book pg N[, Book pg N]` with each page `N` or `N-N`. Each book name is a title of
+    `publications.toml` read exactly (`\\#` is `#`) or one of the two import spellings in
+    `SOURCE_ALIASES` (`Pathfinder RPG Bestiary`, `PRPG Core Rulebook`). A line that wraps joins
+    with one space. A name that does not map queues the file (`sources-unmapped-book`), as does
+    any other form (`sources-unparsed`: no page, `pg. 159, 163`, a second page after a comma, markup).
+S3  Body. The line leaves, with its hard break. A paragraph that held only the line goes with
+    one adjoining blank line. When the line was the last of its paragraph, the line before it
+    loses its break. A label that does not open a line, or a line that ends the paragraph with a
+    break, queues the file (`sources-shape`).
+S4  Rows. A book cited in the zones gets one row, `publication` and `page`, after the rows the
+    entry has (and before any `[[expanded_in]]`), in the order the lines print. The same book
+    on the same page twice gives one row. The book must be in the entry's `source_ids`, as
+    `corpus-check` requires, or the file queues (`sources-book-not-in-source-ids`).
+S5  Existing rows. A row the entry already has for the book is kept, and every page the line
+    prints for that book must equal its `page`. A different page, or a row without a page, or two
+    pages for one new book, queues the file (`sources-page-conflict`, with the pages): the page
+    of a row is never edited by this rule.
+
+The proof of rule S, run on every file before it is written (`prove_sources`, read apart from the
+converter): the front matter differs from the old one by one inserted run of the added rows and
+by nothing else, and its data differs only in `sources`, which grew by exactly those rows; the
+body loses only lines that open with the label (and the blank line or the one break of S3), and
+every other line is found again byte for byte, in order; reading the removed lines again gives
+citations that each have a row in the new front matter with the printed page; no row is added that
+no citation prints. A second run finds nothing to move (`--write` checks it).
+
+Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
 - the text after the statistics region is byte-identical;
@@ -222,10 +277,12 @@ Print fixes. Two entries would disagree with their `[fields]` once their rows ar
 from __future__ import annotations
 
 import collections
+import difflib
 import os
 import re
 import sys
 import tempfile
+import tomllib
 import unittest
 from pathlib import Path
 
@@ -235,12 +292,25 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", None), ("item", None)]
+APPLIED: list[tuple[str, str | None]] = [
+    ("creature", None),
+    ("npc", None),
+    ("item", None),
+]
 
-PASS_FOLDERS = {"creature": ("monster",), "npc": ("npc",), "item": ("*",), "fixes": ()}
+PASS_FOLDERS = {"sources": ("monster", "npc", "*"), "creature": ("monster",), "npc": ("npc",), "item": ("*",), "fixes": ()}
 PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item"}
 NOT_ITEM_FOLDERS = ("carried", "monster", "npc")
-KNOWN_PASSES = ("creature", "npc", "item", "fixes")
+KNOWN_PASSES = ("sources", "creature", "npc", "item", "fixes")
+
+# Rule S: the zones of a body whose raw `**Sources:**` lines the pass handles now, and the label.
+SOURCES_LABEL = "**Sources:**"
+SOURCES_ZONES = ("statistics", "construction")
+ALL_ZONES = ("statistics", "construction", "variant")
+SOURCE_PAGE = re.compile(r"\d+(?:-\d+)?")
+# Printed names that are not a title in `publications.toml`: the two import spellings, as
+# `scripts/sources-field.py` reviewed them.
+SOURCE_ALIASES = {"Pathfinder RPG Bestiary": "bestiary", "PRPG Core Rulebook": "core-rulebook"}
 
 SECTIONS = ("Defense", "Offense", "Statistics", "Ecology")
 SUBSECTIONS = ("Spell-Like Abilities", "Spells Known", "Prepared Spells", "Psychic Magic", "Spellcasting")
@@ -1171,6 +1241,11 @@ def item_rows(segment: str, construction: bool) -> list[tuple[str, str]]:
 
 def classify_item(body: str) -> str:
     if re.search(r"^::: statblock$", body, re.M):
+        # I8: a converted lead with a Construction paragraph that reads as statistics (a citation
+        # line used to keep it prose) still converts that paragraph.
+        cs = chunks(body.split("\n"))
+        if construction_index(cs) is not None and not construction_unlabelled(cs):
+            return "paragraphs"
         return "already"
     if re.search(r"^:::", body, re.M):
         raise Queue("fence-in-body")
@@ -1347,6 +1422,373 @@ def item_leftovers(body: str) -> list[str]:
     return found
 
 
+# ---- the sources pass ------------------------------------------------------------------------------
+
+
+def source_names(root: Path) -> dict[str, str]:
+    """Printed book name -> publication id: the exact titles of `publications.toml`, with `\\#`
+    unescaped as it is in a body, and the closed list `SOURCE_ALIASES`."""
+    data = tomllib.loads((root / "publications.toml").read_text(encoding="utf-8"))
+    names = {row["title"]: row["id"] for row in data["publication"]}
+    for name, publication in SOURCE_ALIASES.items():
+        if publication not in names.values():
+            raise ProofFailed(f"the alias `{name}` names the unknown publication `{publication}`")
+        names[name] = publication
+    return names
+
+
+def parse_sources_text(text: str, names: dict[str, str]) -> list[tuple[str, str, str]]:
+    """S2: `Book pg N[, Book pg N]` as (printed name, publication id, page). Raises Queue."""
+    text = text.replace("\\#", "#")
+    ordered = sorted(names, key=len, reverse=True)
+    cites: list[tuple[str, str, str]] = []
+    rest = text
+    while rest:
+        for name in ordered:
+            if rest.startswith(name + " pg "):
+                page = SOURCE_PAGE.match(rest, len(name) + 4)
+                if page and (page.end() == len(rest) or rest.startswith(", ", page.end())):
+                    cites.append((name, names[name], page.group()))
+                    rest = rest[page.end() + 2 :] if page.end() < len(rest) else ""
+                    break
+        else:
+            unknown = re.match(r"(.+?) pg (\d+(?:-\d+)?)(?:, |$)", rest)
+            if unknown:
+                raise Queue("sources-unmapped-book", unknown.group(1)[:60])
+            raise Queue("sources-unparsed", rest[:60])
+    if not cites:
+        raise Queue("sources-unparsed", text[:60])
+    return cites
+
+
+def paragraph_spans(lines: list[str]) -> list[tuple[int, int]]:
+    """(first line, line after the last) of each block `chunks` returns, in the same order."""
+    spans: list[tuple[int, int]] = []
+    start = None
+    for index, line in enumerate(lines):
+        if not line.strip():
+            if start is not None:
+                spans.append((start, index))
+                start = None
+            continue
+        if HEADING.match(line) and start is None:
+            spans.append((index, index + 1))
+            continue
+        if start is None:
+            start = index
+    if start is not None:
+        spans.append((start, len(lines)))
+    return spans
+
+
+def sources_zones(lines: list[str], kind: str) -> list[str]:
+    """S1: the zone of each line: `statistics`, `construction`, `variant` or `` (no zone)."""
+    spans = paragraph_spans(lines)
+    cs = chunks(lines)
+    if [lines[a:b] for a, b in spans] != cs:
+        raise ProofFailed("paragraph_spans disagrees with chunks")
+    zone = [""] * len(lines)
+    if kind == "creature":
+        end = region_end(lines)
+        for index in range(len(lines)):
+            zone[index] = "statistics" if index < end else "variant"
+        return zone
+    _, lead, _ = item_layout("\n".join(lines))
+    if "::: statblock" in lines:
+        lead = None  # the lead is a stat block already; a bold paragraph before a heading is a variant
+    under = None
+    for index, chunk in enumerate(cs):
+        if chunk[0] == CONSTRUCTION_HEADING:
+            under = index + 1 if index + 1 < len(cs) and not HEADING.match(cs[index + 1][0]) else None
+            break
+    for index, (first, last) in enumerate(spans):
+        name = "statistics" if index == lead else "construction" if index == under else "variant"
+        for line in range(first, last):
+            zone[line] = name
+    return zone
+
+
+def sources_front_rows(front: str) -> list[dict]:
+    return tomllib.loads(front.replace("+++\n", "", 2)).get("sources", [])
+
+
+def insert_source_rows(front: str, rows: list[tuple[str, str]]) -> str:
+    """The front matter with `rows` added after the last `[[sources]]` row (S5)."""
+    lines = front.split("\n")
+    fields = lines.index("[fields]") if "[fields]" in lines else -1
+    if fields < 1 or lines[fields - 1] != "":
+        raise Queue("sources-front-shape")
+    at = lines.index("[[expanded_in]]") if "[[expanded_in]]" in lines else fields - 1
+    new: list[str] = []
+    for publication, page in rows:
+        new += ["[[sources]]", f'publication = "{publication}"', f'page = "{page}"']
+    return "\n".join(lines[:at] + new + lines[at:])
+
+
+def plan_sources(
+    text: str, kind: str, names: dict[str, str], zones: tuple[str, ...] = SOURCES_ZONES
+) -> tuple[str, str, str]:
+    """(status, detail, new text) for the rule S of the sources pass. Status: converted, skipped
+    (no raw `**Sources:**` line in `zones`) or `queue:` and a reason. A queued file stays unchanged."""
+    try:
+        return move_sources(text, kind, names, zones)
+    except Queue as queued:
+        return "queue:" + queued.reason, queued.detail, text
+
+
+def move_sources(text: str, kind: str, names: dict[str, str], zones: tuple[str, ...]) -> tuple[str, str, str]:
+    front, body = split_front(text)
+    lines = body.split("\n")
+    zone_of = sources_zones(lines, kind)
+    spans = paragraph_spans(lines)
+    found = []  # (first line, last line, has break, chunk span, cites)
+    fenced = False
+    for first, last in spans:
+        for index in range(first, last):
+            line = lines[index]
+            if line.startswith(":::"):
+                fenced = line != ":::"
+            if fenced or not line.startswith(SOURCES_LABEL) or zone_of[index] not in zones:
+                continue
+            if index > first and not lines[index - 1].endswith("\\"):
+                raise Queue("sources-shape", "the label does not open a line")
+            end = index
+            while not lines[end].endswith("\\") and end + 1 < last:
+                end += 1
+            has_break = lines[end].endswith("\\")
+            if has_break and end + 1 == last:
+                raise Queue("sources-shape", "a break ends the paragraph")
+            if has_break and lines[end].endswith("\\\\"):
+                raise Queue("sources-shape", "an escaped backslash ends the line")
+            citation = " ".join(part.strip() for part in lines[index : end + 1])[len(SOURCES_LABEL) :].strip()
+            if has_break:
+                citation = citation[:-1].rstrip()
+            found.append((index, end, has_break, (first, last), parse_sources_text(citation, names)))
+    # Two logical lines may not overlap (a label inside a wrapped line).
+    found.sort()
+    for before, after in zip(found, found[1:]):
+        if after[0] <= before[1]:
+            raise Queue("sources-shape", "two labels in one line")
+    if not found:
+        return "skipped", "", text
+
+    # S4: the rows. One row per book, in print order. An existing row is kept; its page must
+    # agree with every page printed for that book (S5).
+    have = sources_front_rows(front)
+    source_ids = tomllib.loads(front.replace("+++\n", "", 2)).get("source_ids", [])
+    added: list[tuple[str, str]] = []
+    for _, _, _, _, cites in found:
+        for _, publication, page in cites:
+            if publication not in source_ids:
+                raise Queue("sources-book-not-in-source-ids", publication)
+            pages = [row.get("page") for row in have if row["publication"] == publication]
+            pages += [row_page for row_publication, row_page in added if row_publication == publication]
+            if not pages:
+                added.append((publication, page))
+            elif set(pages) != {page}:
+                raise Queue("sources-page-conflict", f"{publication}: {', '.join(str(p) for p in pages)} / {page}")
+
+    # S3: the lines leave the body.
+    drop: set[int] = set()
+    cut_break: set[int] = set()  # a line that lost the break before a removed last line
+    removed_text: list[str] = []
+    for first_index, end, has_break, (first, last), _ in found:
+        removed_text.append("\n".join(lines[first_index : end + 1]))
+    by_chunk: dict[tuple[int, int], list[tuple[int, int]]] = {}
+    for index, end, _, span, _ in found:
+        by_chunk.setdefault(span, []).append((index, end))
+    for (first, last), cuts in by_chunk.items():
+        gone = {line for index, end in cuts for line in range(index, end + 1)}
+        keep = [line for line in range(first, last) if line not in gone]
+        if not keep:
+            drop.update(range(first, last))
+            after = last if last < len(lines) - 1 and not lines[last].strip() else None
+            if after is not None:
+                drop.add(after)
+            elif first > 0 and not lines[first - 1].strip():
+                drop.add(first - 1)
+            continue
+        drop.update(gone)
+        if max(gone) == last - 1:  # the paragraph ended in removed lines: its last line loses its break
+            tail = keep[-1]
+            if not lines[tail].endswith("\\") or lines[tail].endswith("\\\\"):
+                raise Queue("sources-shape", "the line before the last label has no break")
+            cut_break.add(tail)
+    new_lines = [
+        lines[index][:-1] if index in cut_break else lines[index] for index in range(len(lines)) if index not in drop
+    ]
+    new_body = "\n".join(new_lines)
+    new_front = insert_source_rows(front, added) if added else front
+    prove_sources(front, new_front, body, new_body, removed_text, added, names)
+    return "converted", "", new_front + new_body
+
+
+def prove_sources(
+    front: str,
+    new_front: str,
+    body: str,
+    new_body: str,
+    removed: list[str],
+    added: list[tuple[str, str]],
+    names: dict[str, str],
+) -> None:
+    """The proof of rule S (read apart from the converter): the front matter gains exactly the
+    added rows, and the body loses exactly the citation lines."""
+    # Front matter: the same text apart from the inserted row lines, and the same data apart from
+    # the `sources` list, which gains the added rows after the old ones.
+    old_lines, new_lines = front.split("\n"), new_front.split("\n")
+    grown = 3 * len(added)
+    if len(new_lines) != len(old_lines) + grown:
+        raise ProofFailed("the front matter changed by more than the added rows")
+    start = next((i for i, (a, b) in enumerate(zip(old_lines, new_lines)) if a != b), len(old_lines))
+    if new_lines[start + grown :] != old_lines[start:] or new_lines[:start] != old_lines[:start]:
+        raise ProofFailed("the front matter changed outside one inserted run of rows")
+    old_data = tomllib.loads(front.replace("+++\n", "", 2))
+    new_data = tomllib.loads(new_front.replace("+++\n", "", 2))
+    rows = [{"publication": publication, "page": page} for publication, page in added]
+    if new_data.pop("sources", []) != old_data.pop("sources", []) + rows or new_data != old_data:
+        raise ProofFailed("the front matter data changed apart from `sources`")
+    # Body: every line that left was part of a citation, and the lines that stayed are the same
+    # bytes, in order, apart from one removed break at the end of a paragraph.
+    old_body, new_body_lines = body.split("\n"), new_body.split("\n")
+    matcher = difflib.SequenceMatcher(None, old_body, new_body_lines, autojunk=False)
+    runs: list[list[str]] = []  # the old lines that left, one run for each place they left from
+    breaks = 0
+    for tag, a1, a2, b1, b2 in matcher.get_opcodes():
+        if tag == "equal":
+            continue
+        if tag == "delete":
+            runs.append(old_body[a1:a2])
+            continue
+        # A paragraph that ended in removed lines may lose the break of its new last line.
+        old_slice, new_slice = old_body[a1:a2], new_body_lines[b1:b2]
+        at = 0
+        run: list[str] = []
+        for line in new_slice:
+            while at < len(old_slice) and old_slice[at] not in (line, line + "\\"):
+                run.append(old_slice[at])
+                at += 1
+            if at == len(old_slice):
+                raise ProofFailed(f"the body changed apart from the citation lines: {old_slice!r}")
+            breaks += old_slice[at] != line
+            at += 1
+        runs.append(run + old_slice[at:])
+    if breaks > len(removed):
+        raise ProofFailed("more breaks were removed than citations")
+    citation_lines = [line for text in removed for line in text.split("\n")]
+    leftover = list(citation_lines)
+    for run in runs:
+        # A run is citation lines, with one blank line at one end when a whole paragraph left.
+        core = run
+        if core and not core[0].strip():
+            core = core[1:]
+        elif core and not core[-1].strip():
+            core = core[:-1]
+        if not core:
+            raise ProofFailed("a blank line left the body apart from a removed paragraph")
+        for line in core:
+            if line not in leftover:
+                raise ProofFailed(f"a line other than a citation left the body: {line!r}")
+            leftover.remove(line)
+    if leftover:
+        raise ProofFailed(f"a citation line did not leave the body: {leftover[0]!r}")
+    # Citations: reading the removed lines again gives rows that the front matter holds, with the
+    # pages as printed, and every added row comes from a citation.
+    held = {(row["publication"], row.get("page")) for row in sources_front_rows(new_front)}
+    seen: list[tuple[str, str]] = []
+    for text in removed:
+        if not text.startswith(SOURCES_LABEL):
+            raise ProofFailed("a removed line does not open with the label")
+        flat = " ".join(part.strip() for part in text.split("\n"))[len(SOURCES_LABEL) :].strip().rstrip("\\").rstrip()
+        for _, publication, page in parse_sources_text(flat, names):
+            if (publication, page) not in held:
+                raise ProofFailed(f"a citation has no row: {publication} pg {page}")
+            seen.append((publication, page))
+    if any(row not in seen for row in added):
+        raise ProofFailed("a row was added that no citation prints")
+    if len(set(added)) != len(added):
+        raise ProofFailed("a row was added twice")
+
+
+def sources_kind(path: Path, text: str) -> str | None:
+    """`creature` for a creature of `entries/monster` or `entries/npc`, `item` for an item of any
+    other folder but `entries/carried`, else None (S1)."""
+    kind = "creature" if path.parent.name in ("monster", "npc") else "item"
+    if kind == "item" and path.parent.name in NOT_ITEM_FOLDERS:
+        return None
+    return kind if re.search(r'^kind = "' + kind + r'"$', split_front(text)[0], re.M) else None
+
+
+def sources_survey(root: Path, names: dict[str, str], out=sys.stdout) -> None:
+    """Counts of every raw `**Sources:**` line, by zone, and what rule S would do with it in every
+    zone (the slices apply `SOURCES_ZONES` only). Writes nothing."""
+    lines_by_zone: collections.Counter = collections.Counter()
+    files_by_zone: collections.Counter = collections.Counter()
+    handled: collections.Counter = collections.Counter()
+    queued: collections.Counter = collections.Counter()
+    unmapped: collections.Counter = collections.Counter()
+    in_scope = 0
+    files = set()
+    for path in pass_files(root, "sources"):
+        text = path.read_text(encoding="utf-8")
+        kind = sources_kind(path, text)
+        if kind is None:
+            continue
+        body = split_front(text)[1]
+        lines = body.split("\n")
+        zone_of = sources_zones(lines, kind)
+        zones = collections.Counter(
+            zone_of[index] for index, line in enumerate(lines) if line.startswith(SOURCES_LABEL)
+        )
+        if not zones:
+            continue
+        files.add(path)
+        in_scope += sum(zones.values())
+        for zone, count in zones.items():
+            lines_by_zone[zone] += count
+            files_by_zone[zone] += 1
+        for label, scope in (("now", SOURCES_ZONES), ("every zone", ALL_ZONES)):
+            status, detail, _ = plan_sources(text, kind, names, scope)
+            if status == "converted":
+                handled[label, "files"] += 1
+                handled[label, "lines"] += sum(zones[zone] for zone in scope)
+            elif status.startswith("queue:"):
+                queued[label, status[6:]] += 1
+                if label == "every zone" and status == "queue:sources-unmapped-book":
+                    unmapped[detail] += 1
+    print(f"sources survey: {in_scope} raw `**Sources:**` lines in {len(files)} creature and item entries", file=out)
+    for zone in ALL_ZONES:
+        print(f"  zone {zone}: {lines_by_zone[zone]} lines in {files_by_zone[zone]} files", file=out)
+    for label in ("now", "every zone"):
+        zones = ", ".join(SOURCES_ZONES) if label == "now" else "every zone"
+        print(
+            f"  rule S in {zones}: would convert {handled[label, 'files']} files ({handled[label, 'lines']} lines); queues "
+            + (", ".join(f"{reason} {count}" for (kind, reason), count in sorted(queued.items()) if kind == label) or "none"),
+            file=out,
+        )
+    for name, count in unmapped.most_common():
+        print(f"  unmapped book: {name} ({count})", file=out)
+    other = collections.Counter()
+    for path in sorted((root / "entries").rglob("*.md")):
+        if path not in files and re.search(r"^\*\*Sources:\*\*", path.read_text(encoding="utf-8"), re.M):
+            other[path.relative_to(root / "entries").parts[0]] += 1
+    print(f"  outside the pass (other kinds, carried entries): {sum(other.values())} files with raw lines", file=out)
+
+
+def sources_leftovers(body: str, kind: str) -> list[str]:
+    """The books and pages of the raw `**Sources:**` lines in zones the pass does not handle yet."""
+    lines = body.split("\n")
+    zone_of = sources_zones(lines, kind)
+    out = []
+    fenced = False
+    for index, line in enumerate(lines):
+        if line.startswith(":::"):
+            fenced = line != ":::"
+        if not fenced and line.startswith(SOURCES_LABEL) and zone_of[index] not in SOURCES_ZONES:
+            out.append(re.sub(r"\\$", "", line[len(SOURCES_LABEL) :].strip()).replace("\\#", "#"))
+    return out
+
+
 # ---- running -------------------------------------------------------------------------------------
 
 
@@ -1377,6 +1819,8 @@ def selected(path: Path, only) -> bool:
 
 
 def pass_files(root: Path, name: str) -> list[Path]:
+    if name == "sources":
+        return sorted({path for part in ("creature", "npc", "item") for path in pass_files(root, part)})
     out = []
     for folder in PASS_FOLDERS[name]:
         out.extend(sorted((root / "entries").glob(folder + "/*.md")))
@@ -1414,6 +1858,15 @@ def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
     return "converted", "", new_text
 
 
+def plan_any(path: Path, name: str, names: dict[str, str]) -> tuple[str, str, str]:
+    """`plan_file` for the conversion passes, `plan_sources` for the sources pass."""
+    text = path.read_text(encoding="utf-8")
+    if name != "sources":
+        return plan_file(text, name)
+    kind = sources_kind(path, text)
+    return plan_sources(text, kind, names) if kind else ("skipped", "", text)
+
+
 def write_atomic(path: Path, text: str) -> None:
     handle, temp = tempfile.mkstemp(dir=path.parent, prefix="." + path.name + ".", suffix=".tmp")
     try:
@@ -1442,6 +1895,7 @@ def fix_state(root: Path, fix) -> tuple[str, str]:
 def review_rows(root: Path, passes: list[str]) -> list[str]:
     """The review TSV for the whole corpus: the same before and after a conversion."""
     rows = []
+    names = source_names(root)
     for rel, citation, note, _ in PRINT_FIXES:
         kind = {"monster": "creature", "npc": "npc"}.get(rel.split("/")[1], "item")
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
@@ -1449,6 +1903,23 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
         for path in pass_files(root, name):
             rel = path.relative_to(root).as_posix()
             text = path.read_text(encoding="utf-8")
+            if name == "sources":
+                # Rule S lists what stays raw: a queued file, and the lines in zones not handled yet.
+                kind = sources_kind(path, text)
+                if kind is None:
+                    continue
+                status, detail, _ = plan_sources(text, kind, names)
+                shown = {"monster": "creature", "npc": "npc"}.get(path.parent.name, "item")
+                if status.startswith("queue:"):
+                    rows.append((rel, shown, status[6:], detail))
+                left = sources_leftovers(split_front(text)[1], kind)
+                if left:
+                    # What rule S would do with every line of the file: the queue of the variant slices.
+                    outcome = plan_sources(text, kind, names, ALL_ZONES)[0]
+                    outcome = "movable" if outcome == "converted" else outcome.replace("queue:", "")
+                    cited = "; ".join(dict.fromkeys(left))
+                    rows.append((rel, shown, "raw-sources-line", f"{len(left)} in variant paragraphs: {cited} (rule S in every zone: {outcome})"))
+                continue
             status, detail, _ = plan_file(text, name)
             if status.startswith("queue:"):
                 rows.append((rel, name, status[6:], detail))
@@ -1473,6 +1944,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
 def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sys.stdout) -> int:
     counts: collections.Counter = collections.Counter()
     changed = 0
+    names = source_names(root)
     for fix in PRINT_FIXES + ANCHOR_EDITS:
         state, fixed = fix_state(root, fix)
         print(f"{'print fix' if fix[1] else 'anchors'} {fix[0]}: {state}", file=out)
@@ -1495,8 +1967,7 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
             if not selected(path, only):
                 continue
             only_shown = True
-            text = path.read_text(encoding="utf-8")
-            status, detail, new_text = plan_file(text, name)
+            status, detail, new_text = plan_any(path, name, names)
             if status == "skipped":
                 continue
             counts[(name, status)] += 1
@@ -1504,7 +1975,11 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
                 changed += 1
                 if mode == "write":
                     write_atomic(path, new_text)
-                    if plan_file(new_text, name)[0] != "already":
+                    if name == "sources":
+                        again = plan_sources(new_text, sources_kind(path, new_text), names)[0]
+                        if again != "skipped":
+                            raise ProofFailed(f"{path}: a second run still finds a citation to move ({again})")
+                    elif plan_file(new_text, name)[0] != "already":
                         raise ProofFailed(f"{path}: the written file does not read as converted")
                 elif mode == "check":
                     print(f"would change: {path.relative_to(root).as_posix()}", file=out)
@@ -1518,6 +1993,8 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
             label = "would relabel"
         print(f"{name}\t{label}\t{count}", file=out)
 
+    if mode == "survey" and "sources" in passes:
+        sources_survey(root, names, out)
     tsv = "\n".join(review_rows(root, implemented_passes())) + "\n"
     tsv_path = root / REVIEW_TSV
     current = tsv_path.read_text(encoding="utf-8") if tsv_path.exists() else None
@@ -1541,7 +2018,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -1818,6 +2295,7 @@ class SelfTest(unittest.TestCase):
             (root / "entries/monster").mkdir(parents=True)
             (root / "entries/eq-weaponenh").mkdir(parents=True)
             (root / "scripts").mkdir()
+            (root / "publications.toml").write_text(SOURCES_PUBLICATIONS, encoding="utf-8")
             for rel, _, _, pairs in PRINT_FIXES + ANCHOR_EDITS:
                 (root / rel).parent.mkdir(parents=True, exist_ok=True)
                 (root / rel).write_text(FRONT.replace("creature", "item") + "".join(pair[0] for pair in pairs), encoding="utf-8")
@@ -2300,6 +2778,248 @@ class ItemSelfTest(unittest.TestCase):
         for old, new in pairs.items():
             self.assertEqual(heading_keys([old.strip()]), heading_keys([new.strip()]))
         self.assertEqual(len(pairs), len(WEAPON_GROUPS))
+
+SOURCES_PUBLICATIONS = """
+[[publication]]
+id = "bestiary"
+title = "Bestiary"
+
+[[publication]]
+id = "ultimate-equipment"
+title = "Ultimate Equipment"
+
+[[publication]]
+id = "core-rulebook"
+title = "Core Rulebook"
+
+[[publication]]
+id = "pathfinder-93-forge"
+title = "Pathfinder #93: Forge"
+"""
+
+SOURCES_FRONT = (
+    '+++\nid = "ref/monster/x"\nkind = "creature"\ntitle = "X"\n'
+    'source_ids = ["bestiary", "ultimate-equipment", "core-rulebook", "pathfinder-93-forge"]\n'
+    'provenance = [\n  { dataset = "d", record = "x", path = "j.json" },\n]\n'
+    '[[sources]]\npublication = "bestiary"\npage = "10"\n\n[fields]\nkind = "creature"\n+++\n'
+)
+
+SOURCES_CREATURE = """
+**Challenge rating:** 2
+
+**Sources:** Bestiary pg 10\\
+**Experience points:** 600
+
+**Armor class:** 13
+
+**Offense**
+
+**Speed:** 40 ft.
+
+### Description
+
+Text.
+
+**Sources:** Bestiary pg 11\\
+**Type:** animal
+"""
+
+SOURCES_ITEM_FRONT = SOURCES_FRONT.replace("creature", "item").replace('"ref/monster/x"', '"ref/magic-wondrous/x"')
+
+SOURCES_ITEM = """
+::: statblock
+Price: 1 gp
+:::
+
+Text.
+
+### Construction
+
+**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 525\\
+**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); **Cost** 1,250 gp
+
+### Variant
+
+**Sources:** Ultimate Equipment pg 99\\
+**Price** +5 gp
+"""
+
+
+class SourcesSelfTest(unittest.TestCase):
+    names = {
+        "Bestiary": "bestiary",
+        "Ultimate Equipment": "ultimate-equipment",
+        "Core Rulebook": "core-rulebook",
+        "PRPG Core Rulebook": "core-rulebook",
+        "Pathfinder #93: Forge": "pathfinder-93-forge",
+    }
+
+    def plan(self, front: str, body: str, kind: str = "creature", zones=SOURCES_ZONES):
+        return plan_sources(front + body, kind, self.names, zones)
+
+    def test_a_creature_citation_leaves_the_statistics_and_the_agreeing_row_stays(self):
+        status, _, text = self.plan(SOURCES_FRONT, SOURCES_CREATURE)
+        self.assertEqual(status, "converted")
+        self.assertEqual(text, SOURCES_FRONT + SOURCES_CREATURE.replace("**Sources:** Bestiary pg 10\\\n", "", 1))
+        self.assertEqual(self.plan(text.split("\n\n")[0] + "\n\n" + text.split("\n\n", 1)[1], "")[0], "skipped")
+        self.assertEqual(plan_sources(text, "creature", self.names)[0], "skipped")
+
+    def test_an_item_citation_in_construction_gains_rows_after_the_old_ones(self):
+        status, _, text = self.plan(SOURCES_ITEM_FRONT, SOURCES_ITEM, "item")
+        self.assertEqual(status, "converted")
+        self.assertIn(
+            '[[sources]]\npublication = "bestiary"\npage = "10"\n'
+            '[[sources]]\npublication = "ultimate-equipment"\npage = "302"\n'
+            '[[sources]]\npublication = "core-rulebook"\npage = "525"\n\n[fields]',
+            text,
+        )
+        self.assertEqual(text.split("+++\n", 2)[2], SOURCES_ITEM.replace("**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 525\\\n", "", 1))
+        self.assertEqual(plan_sources(text, "item", self.names)[0], "skipped")  # idempotent
+        # The variant line is not in the applied zones; every zone would conflict on the page.
+        self.assertEqual(self.plan(text, "", "item")[0], "skipped")
+        self.assertEqual(plan_sources(text, "item", self.names, ALL_ZONES)[0], "queue:sources-page-conflict")
+        self.assertEqual(sources_leftovers(SOURCES_ITEM, "item"), ["Ultimate Equipment pg 99"])
+
+    def test_the_rows_go_before_expanded_in_and_into_a_front_without_rows(self):
+        head = (
+            '+++\nid = "ref/magic-wondrous/x"\nkind = "item"\ntitle = "X"\n'
+            'source_ids = ["bestiary", "ultimate-equipment"]\n'
+            'provenance = [\n  { dataset = "d", record = "x", path = "j.json" },\n]\n'
+        )
+        tail = "\n[fields]\nkind = \"item\"\n+++\n"
+        item = "\n### Construction\n\n**Sources:** Ultimate Equipment pg 5\\\n**Cost** 5 gp\n"
+        row = '[[sources]]\npublication = "ultimate-equipment"\npage = "5"\n'
+        with_expanded = head + '[[expanded_in]]\npublication = "pathfinder-93-forge"\n' + tail
+        text = self.plan(with_expanded, item, "item")[2]
+        self.assertTrue(text.startswith(head + row + "[[expanded_in]]\n"), text)
+        text = self.plan(head + tail, item, "item")[2]
+        self.assertTrue(text.startswith(head + row + "\n[fields]\n"), text)
+        after = head + '[[sources]]\npublication = "bestiary"\npage = "1"\n[[expanded_in]]\npublication = "pathfinder-93-forge"\n' + tail
+        text = self.plan(after, item, "item")[2]
+        self.assertIn('page = "1"\n' + row + "[[expanded_in]]", text)
+        self.assertEqual(self.plan(head + tail.replace("[fields]", "[other]"), item, "item")[0], "queue:sources-front-shape")
+
+    def test_a_paragraph_of_one_line_goes_with_one_blank_and_a_last_line_loses_the_break_before_it(self):
+        front = SOURCES_FRONT
+        own = "\n**Challenge rating:** 2\n\n**Sources:** Bestiary pg 10\n\n**Armor class:** 13\n"
+        self.assertEqual(self.plan(front, own)[2], front + "\n**Challenge rating:** 2\n\n**Armor class:** 13\n")
+        end = "\n**Challenge rating:** 2\n\n**Sources:** Bestiary pg 10\n"
+        self.assertEqual(self.plan(front, end)[2], front + "\n**Challenge rating:** 2\n")
+        last = "\n**Challenge rating:** 2\\\n**Sources:** Bestiary pg 10\n\n**Armor class:** 13\n"
+        self.assertEqual(self.plan(front, last)[2], front + "\n**Challenge rating:** 2\n\n**Armor class:** 13\n")
+        wrapped = "\n**Challenge rating:** 2\n\n**Sources:** Bestiary pg 10, Ultimate\nEquipment pg 5\\\n**Type:** animal\n"
+        status, _, text = self.plan(front, wrapped)
+        self.assertEqual((status, text.endswith("\n**Type:** animal\n")), ("converted", True))
+        self.assertIn('publication = "ultimate-equipment"\npage = "5"', text)
+
+    def test_two_lines_for_one_book_make_one_row_when_the_pages_agree(self):
+        body = "\n**Sources:** Ultimate Equipment pg 5\\\n**A:** 1\n\n**Sources:** Ultimate Equipment pg 5\\\n**B:** 2\n"
+        status, _, text = self.plan(SOURCES_FRONT, body)
+        self.assertEqual(status, "converted")
+        self.assertEqual(text.count("[[sources]]"), 2)
+        self.assertEqual(text.split("+++\n", 2)[2], "\n**A:** 1\n\n**B:** 2\n")
+
+    def test_what_the_rule_does_not_cover_is_queued_and_the_file_stays(self):
+        cases = [
+            ("sources-unmapped-book", "**Sources:** Dragon Magazine pg 5\\\n**A:** 1"),
+            ("sources-unparsed", "**Sources:** Blood of the Coven\\\n**A:** 1"),
+            ("sources-unparsed", "**Sources:** PRPG Core Rulebook pg. 159, 163\\\n**A:** 1"),
+            ("sources-unparsed", "**Sources:** Bestiary pg 5, 6\\\n**A:** 1"),
+            ("sources-unmapped-book", "**Sources:** _Bestiary_ pg 5\\\n**A:** 1"),
+            ("sources-book-not-in-source-ids", "**Sources:** Pathfinder #93: Forge pg 5\\\n**A:** 1".replace("Pathfinder #93: Forge", "Pathfinder \\#93: Forge")),
+            ("sources-page-conflict", "**Sources:** Bestiary pg 11\\\n**A:** 1"),
+            ("sources-page-conflict", "**Sources:** Ultimate Equipment pg 5, Ultimate Equipment pg 6\\\n**A:** 1"),
+            ("sources-shape", "**Sources:** Bestiary pg 10\\\n"),
+            ("sources-shape", "Text **Sources:** Bestiary pg 10\n**Sources:** Bestiary pg 10\\\nline"),
+        ]
+        for reason, body in cases:
+            with self.subTest(reason=reason, body=body):
+                front = SOURCES_FRONT
+                if reason == "sources-book-not-in-source-ids":
+                    front = SOURCES_FRONT.replace(', "pathfinder-93-forge"', "")
+                if reason == "sources-shape" and body.startswith("Text"):
+                    body = "A\\\nB **Sources:** Bestiary pg 10\\\nC\n\nD\n**Sources:** Bestiary pg 10\\\nE"
+                    result = self.plan(front, "\n" + body + "\n")
+                    self.assertEqual(result[0], "queue:sources-shape")  # a label inside a line is not the label of a line
+                    continue
+                text = front + "\n" + body + "\n"
+                status, _, new = plan_sources(text, "creature", self.names)
+                self.assertEqual((status, new), ("queue:" + reason, text))
+        # The same book twice with other pages, and a row with no page.
+        no_page = SOURCES_FRONT.replace('page = "10"\n', "")
+        self.assertEqual(self.plan(no_page, "\n**Sources:** Bestiary pg 10\\\n**A:** 1\n")[0], "queue:sources-page-conflict")
+
+    def test_a_page_range_and_an_escaped_hash_read(self):
+        self.assertEqual(
+            parse_sources_text("Bestiary pg 10-12, Pathfinder \\#93: Forge pg 4", self.names),
+            [("Bestiary", "bestiary", "10-12"), ("Pathfinder #93: Forge", "pathfinder-93-forge", "4")],
+        )
+        # A name that is the start of a longer one must not match it.
+        names = dict(self.names, **{"Bestiary 2": "bestiary-2"})
+        self.assertEqual(parse_sources_text("Bestiary 2 pg 5", names), [("Bestiary 2", "bestiary-2", "5")])
+
+    def test_zones_follow_the_statistics_region_and_the_construction_paragraph(self):
+        lines = SOURCES_CREATURE.split("\n")
+        zones = sources_zones(lines, "creature")
+        found = [zones[i] for i, line in enumerate(lines) if line.startswith(SOURCES_LABEL)]
+        self.assertEqual(found, ["statistics", "variant"])
+        lines = SOURCES_ITEM.split("\n")
+        zones = sources_zones(lines, "item")
+        found = [zones[i] for i, line in enumerate(lines) if line.startswith(SOURCES_LABEL)]
+        self.assertEqual(found, ["construction", "variant"])
+        # A lead paragraph that is still prose, before any stat block, is the statistics zone.
+        bare = "\n**Price** 1 gp\\\n**Sources:** Bestiary pg 1\\\n**Weight** 1 lb.\n"
+        self.assertEqual(sources_zones(bare.split("\n"), "item")[3], "statistics")
+
+    def test_the_proof_rejects_a_front_matter_or_body_that_moved_by_more_than_the_citation(self):
+        body = SOURCES_ITEM
+        status, _, text = self.plan(SOURCES_ITEM_FRONT, body, "item")
+        front, new_body = split_front(text)
+        removed = ["**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 525\\"]
+        added = [("ultimate-equipment", "302"), ("core-rulebook", "525")]
+        prove_sources(SOURCES_ITEM_FRONT, front, body, new_body, removed, added, self.names)  # the real one
+        broken = [
+            (front.replace('page = "302"', 'page = "303"'), new_body, added),
+            (front.replace('page = "10"', 'page = "11"'), new_body, added),
+            (front.replace('title = "X"', 'title = "Y"'), new_body, added),
+            (SOURCES_ITEM_FRONT, new_body, []),
+            (front, new_body, added + [("bestiary", "1")]),
+            (front, new_body.replace("Text.", "Text!"), added),
+            (front, new_body.replace("**Cost** 1,250 gp", "**Cost** 1,250 gp."), added),
+            (front, new_body.replace("### Construction", "### Construct"), added),
+            (front, body.replace("**Sources:** Ultimate Equipment pg 302, PRPG Core Rulebook pg 525\\\n", "", 1).replace("\n\n### Variant", "\n### Variant"), added),
+            (front, body, added),
+        ]
+        for number, (new_front, new_text, rows) in enumerate(broken):
+            with self.subTest(number=number):
+                with self.assertRaises(ProofFailed):
+                    prove_sources(SOURCES_ITEM_FRONT, new_front, body, new_text, removed, rows, self.names)
+
+    def test_a_run_moves_the_citation_then_the_passes_it_unblocked_convert(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "entries/magic-wondrous").mkdir(parents=True)
+            (root / "scripts").mkdir()
+            (root / "publications.toml").write_text(SOURCES_PUBLICATIONS, encoding="utf-8")
+            for rel, _, _, pairs in PRINT_FIXES + ANCHOR_EDITS:
+                (root / rel).parent.mkdir(parents=True, exist_ok=True)
+                (root / rel).write_text(ITEM_FRONT + "".join(pair[0] for pair in pairs), encoding="utf-8")
+            path = root / "entries/magic-wondrous/x.md"
+            path.write_text(SOURCES_ITEM_FRONT + SOURCES_ITEM, encoding="utf-8")
+            sink = open(os.devnull, "w")
+            self.addCleanup(sink.close)
+            self.assertEqual(run(root, "check", ["sources"], None, sink), 1)
+            self.assertEqual(run(root, "write", ["sources", "item"], None, sink), 0)
+            text = path.read_text(encoding="utf-8")
+            self.assertNotIn("**Sources:** Ultimate Equipment pg 302", text)
+            self.assertIn("::: statblock\nRequirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item)\nCost: 1,250 gp\n:::", text)
+            self.assertEqual(run(root, "check", ["sources", "item"], None, sink), 0)
+            tsv = (root / REVIEW_TSV).read_text(encoding="utf-8")
+            self.assertIn("entries/magic-wondrous/x.md\titem\traw-sources-line\t1 in variant paragraphs: Ultimate Equipment pg 99 (rule S in every zone: sources-page-conflict)\n", tsv)
+            before = path.read_bytes()
+            self.assertEqual(run(root, "write", ["sources", "item"], None, sink), 0)
+            self.assertEqual(before, path.read_bytes())
+
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
