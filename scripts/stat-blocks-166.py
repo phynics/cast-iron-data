@@ -315,6 +315,11 @@ onto the value (the recipe), as for the weapon groups; one entry (`poison-diffus
 label without the link. The poison recipes print `**Craft** DC 13`,
 with `DC` outside the bold; the row is kept as printed (`Craft: DC 13`).
 
+`tearaway` (`eq-misc`, 37 entries): the outfits that print a `Tear-away clothing` variant, its name
+alone on the first line and then `Price +5 gp; Weight -` and `Category`. The block takes the
+printed name as its title. Its `Price` and `Weight` rows follow the entry's own block, which
+the drift check reads first.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -1928,8 +1933,20 @@ def plan_recipe(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+def plan_tearaway(cs: list[list[str]]) -> dict[int, dict]:
+    """K-tearaway. The paragraph `**Tear-away clothing**` alone on its first line, then the lines
+    `Price`, `Weight` and `Category`: a block titled with the printed name. The block carries
+    `Price` and `Weight`, so the entry's own block must come first (`no-lead-row` otherwise)."""
+    return {
+        index: {"title": "Tear-away clothing", "drop_first": True}
+        for index, chunk in enumerate(cs)
+        if bold_title(chunk[0]) == "Tear-away clothing" and len(chunk) > 1
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "tearaway": (("eq-misc",), plan_tearaway, ()),
     "recipe": (("*",), plan_recipe, ()),
     "shield": (("eq-armor", "eq-armorenh"), plan_shield, ()),
 }
@@ -2571,7 +2588,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3558,6 +3575,25 @@ class RecipeSelfTest(unittest.TestCase):
                 with self.assertRaises(Queue) as caught:
                     convert_variants(body, plan_recipe)
                 self.assertEqual(caught.exception.reason, reason)
+
+
+class TearawaySelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 1 gp\nWeight: 4 lbs.\nCategory: Clothing\n:::\n\nAn outfit.\n\n"
+        "**Tear-away clothing**\\\n**Price** +5 gp; **Weight** -\\\n**Category** Clothing\n\nSneaks know it.\n"
+    )
+
+    def test_the_variant_becomes_a_titled_block_after_the_entrys_own(self):
+        new = convert_variants(self.BODY, plan_tearaway)
+        self.assertIn(
+            '::: statblock\ntitle = "Tear-away clothing"\nPrice: +5 gp\nWeight: -\nCategory: Clothing\n:::\n\nSneaks know it.\n', new
+        )
+        self.assertEqual(classify_variant(plan_tearaway, new), "already")
+
+    def test_without_a_block_before_it_the_file_queues_because_the_variant_would_be_the_first_price(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\nAn outfit.\n\n" + self.BODY.split("An outfit.\n\n")[1], plan_tearaway)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Price"))
 
 
 class SourcesSelfTest(unittest.TestCase):
