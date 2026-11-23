@@ -28,8 +28,16 @@ considered broken. A dagger pistol uses either a [bullet](ref/eq-weapon/firearm-
 of [black powder](ref/eq-weapon/black-powder-dose) or a single
 [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammunition. This is an early firearm.
 
-**Cost** 740 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×3; **Range** 10 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1 (5 ft.); **Capacity** 1\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 740 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: B and P
+Special: -
+Misfire: 1 (5 ft.)
+Capacity: 1
+Category: One-Handed
+Proficiency: Exotic
+:::

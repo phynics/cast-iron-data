@@ -24,8 +24,15 @@ a right angle. Derived from a farm tool used to mow down crops, a scythe require
 and is unwieldy but capable of inflicting grievous wounds. Its connotations as a symbol of death due
 to its association with reaping also make the scythe a particularly intimidating weapon.
 
-**Cost** 18 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×4; **Range** -; **Type** P or S; **Special**
-[trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 18 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×4
+Range: -
+Type: P or S
+Special: [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

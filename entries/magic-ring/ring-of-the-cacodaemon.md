@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 Sculpted into the intricate form of a golden [cacodaemon](ref/monster/daemon-cacodaemon), this ring
 features a decorative wide-open mouth and can hold a [soul gem](ref/spell/create-soul-gem) braced
@@ -34,5 +39,7 @@ creating a cone of terror as per _fear._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear),
-[speak with dead](ref/spell/speak-with-dead); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear), [speak with dead](ref/spell/speak-with-dead)
+Cost: 7,500 gp
+:::

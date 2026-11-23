@@ -21,8 +21,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 7th\
-**Slot** ring; **Price** 48,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 7th
+Slot: ring
+Price: 48,000 gp
+Weight: -
+:::
 
 This simple silver ring has a fear rune etched into its hammered apex. The ring provides a morale
 bonus versus fear effects. This bonus starts at +0 and can advance no higher than +5.
@@ -37,5 +42,7 @@ the fear effect. Only the source of an area fear effect is targeted by such a re
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [fear](ref/spell/fear),
-[remove fear](ref/spell/remove-fear), [resistance](ref/spell/resistance); **Cost** 24,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [fear](ref/spell/fear), [remove fear](ref/spell/remove-fear), [resistance](ref/spell/resistance)
+Cost: 24,000 gp
+:::

@@ -27,7 +27,15 @@ that requires two hands and provokes attacks of opportunity. The
 [Rapid Reload](ref/feat/rapid-reload) feat can be taken for atlatls, allowing you to load a dart as
 a free action.
 
-**Cost** 2 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 50 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 2 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

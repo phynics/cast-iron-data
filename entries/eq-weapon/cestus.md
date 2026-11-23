@@ -31,8 +31,15 @@ cestus. When using a cestus, your fingers are mostly exposed, allowing you to wi
 in that hand, but the constriction of the weapon at your knuckles gives you a -2 penalty on all
 precision-based tasks involving that hand (such as opening locks). A cestus can't be disarmed.
 
-**Cost** 5 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** B or P;
-**Special** [monk](ref/misc/monk), see text\
-**Category** Light; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Close; Monk
+::: statblock
+Cost: 5 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: B or P
+Special: [monk](ref/misc/monk), see text
+Category: Light
+Proficiency: Simple
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

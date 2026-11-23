@@ -17,8 +17,11 @@ price = "1,500 gp"
 weight = "-"
 +++
 
-**Price** 1,500 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 1,500 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This vial contains a large snowflake that melts only at temperatures of 140 degrees Fahrenheit or
 above. Perfect ice is an alchemically engineered form of water that briefly converts any moisture it

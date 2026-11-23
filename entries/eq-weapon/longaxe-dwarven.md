@@ -19,7 +19,14 @@ weight = "14 lbs."
 These ornate and heavy blades are mounted atop a long, steel-shod haft for greater reach. They are
 rare among cave-dwelling dwarves but common in mountain dwarf clans that commonly feud with giants.
 
-**Cost** 50 gp **Weight** 14 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 50 gp
+Weight: 14 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+:::

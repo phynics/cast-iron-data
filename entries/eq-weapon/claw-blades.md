@@ -23,7 +23,14 @@ natural weapon to a light slashing weapon. Catfolk with the cat's claws racial t
 with this weapon. The claw blades can be enhanced like a masterwork weapon for the normal costs. The
 listed cost of the item is for one set of five claws for one hand.
 
-**Cost** 305 gp **Weight** 2 lbs.\
-**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** S; **Special** catfolk only,
-see description\
-**Category** Light; **Proficiency** Special
+::: statblock
+Cost: 305 gp
+Weight: 2 lbs.
+Damage: - (small), - (medium)
+Critical: -
+Range: -
+Type: S
+Special: catfolk only, see description
+Category: Light
+Proficiency: Special
+:::

@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 This ring is often made of coral or bluish metal decorated with motifs depicting rolling waves of
 water. The ring allows the wearer to continually utilize the effects of the spell
@@ -33,5 +38,7 @@ _[water walk](ref/spell/water-walk)._
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [water walk](ref/spell/water-walk); **Cost**
-7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [water walk](ref/spell/water-walk)
+Cost: 7,500 gp
+:::

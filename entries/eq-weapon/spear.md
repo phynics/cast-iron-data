@@ -21,8 +21,15 @@ weight = "6 lbs."
 
 A spear is 5 feet in length and can be thrown.
 
-**Cost** 2 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 20 ft.; **Type** P; **Special**
-[brace](ref/misc/brace)\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown; Tribal
+::: statblock
+Cost: 2 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: P
+Special: [brace](ref/misc/brace)
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown); [Tribal](ref/ability/weapon-groups#sec-tribal)
+:::

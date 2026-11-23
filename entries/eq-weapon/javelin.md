@@ -28,7 +28,15 @@ weight = "2 lbs."
 A javelin is a thin throwing spear. Since it is not designed for melee, you are treated as
 nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 30 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 30 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

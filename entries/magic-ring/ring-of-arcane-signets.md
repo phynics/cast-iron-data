@@ -24,8 +24,13 @@ aura = "faint universal"
 caster_level = "8th"
 +++
 
-**Aura** faint universal; **CL** 8th\
-**Slot** ring; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint universal
+CL: 8th
+Slot: ring
+Price: 1,000 gp
+Weight: -
+:::
 
 The approximately 1-inch-diameter pentagon of emerald green crystal that dominates this otherwise
 plain silver ring forms itself into a specific rune, sigil, or similar identifying marker each time
@@ -41,5 +46,7 @@ otherwise permanent unless removed by [dispel magic](ref/spell/dispel-magic),
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [arcane mark](ref/spell/arcane-mark); **Cost**
-500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [arcane mark](ref/spell/arcane-mark)
+Cost: 500 gp
+:::

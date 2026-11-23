@@ -19,7 +19,10 @@ weight = "- (Pepper), - (Smog)"
 
 ## Specialty smoke pellet (Pepper)
 
-**Price** 60 gp (Pepper), 40 gp (Smog); **Weight** - (Pepper), - (Smog)
+::: statblock
+Price: 60 gp (Pepper), 40 gp (Smog)
+Weight: - (Pepper), - (Smog)
+:::
 
 Like standard [smoke pellets](ref/eq-misc/smoke-pellet), these specialty pellets fill a single
 5-foot square with opaque smoke for 1 round when broken. They can also be thrown as a ranged touch

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This enzyme is derived from a parasitic fungus that breaks down most organic tissue, and is
 especially destructive to plants and other fungi. A flask of lyddric essence can be used like a

@@ -23,8 +23,13 @@ caster_level = "5th"
 
 ## Ironbound Ring
 
-**Aura** faint abjuration and enchantment; **CL** 5th\
-**Slot** ring; **Price** 500 gp (Minion), 8,000 gp (Master); **Weight** -
+::: statblock
+Aura: faint abjuration and enchantment
+CL: 5th
+Slot: ring
+Price: 500 gp (Minion), 8,000 gp (Master)
+Weight: -
+:::
 
 While holding one or more minion's ironbound rings, the wearer of a master's ironbound ring can
 impart instructions of 50 words or fewer to each minion's ironbound rings. The wearer of a minion's
@@ -37,5 +42,7 @@ such as [dominate person](ref/spell/dominate-person) and _[suggestion](ref/spell
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [resistance](ref/spell/resistance),
-[suggestion](ref/spell/suggestion); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [resistance](ref/spell/resistance), [suggestion](ref/spell/suggestion)
+Cost: 4,000 gp
+:::

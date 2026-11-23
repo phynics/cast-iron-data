@@ -27,8 +27,15 @@ peeling armor. The long haft allows the wielder to put amazing force behind the 
 You gain a +2 bonus on combat maneuver checks to [sunder](ref/rule/sunder) medium or heavy armor
 with a lucerne hammer.
 
-**Cost** 15 gp **Weight** 12 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×2; **Range** -; **Type** B or P; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 15 gp
+Weight: 12 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×2
+Range: -
+Type: B or P
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

@@ -24,8 +24,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** ring; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: ring
+Price: 2,500 gp
+Weight: -
+:::
 
 This ring continually provides its wearer with life-sustaining nourishment. The ring also refreshes
 the body and mind; its wearer only needs to sleep 2 hours per day to gain the benefit of 8 hours of
@@ -36,5 +41,7 @@ reattune it to himself.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[create food and water](ref/spell/create-food-and-water); **Cost** 1,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [create food and water](ref/spell/create-food-and-water)
+Cost: 1,250 gp
+:::

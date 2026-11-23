@@ -24,8 +24,15 @@ isn't a light weapon. You can't wield a spiral rapier in two hands in order to a
 your Strength modifier to its damage. Any effects that apply to rapiers also apply to a spiral
 rapier.
 
-**Cost** 80 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** P; **Special**
-[blocking](ref/misc/blocking), [disarm](ref/misc/disarm), see text\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 80 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P
+Special: [blocking](ref/misc/blocking), [disarm](ref/misc/disarm), see text
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

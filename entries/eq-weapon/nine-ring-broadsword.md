@@ -22,8 +22,15 @@ weight = "4 lbs."
 This broad-bladed weapon has nine heavy rings threaded through its spine, providing additional
 weight to add to the force of its impressive chopping power.
 
-**Cost** 15 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[monk](ref/misc/monk)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Monk
+::: statblock
+Cost: 15 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [monk](ref/misc/monk)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

@@ -28,7 +28,11 @@ of opportunity, but doing so deals an additional 1d3 points of damage as the tho
 free. A DC 12 Heal check (made as a standard action) can pull free a thistle arrow's head without
 dealing any additional damage.
 
-**Cost** 1 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 1 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Weight is based on 20 normal arrows weighing three pounds.

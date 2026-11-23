@@ -21,7 +21,14 @@ connects to a hollow container just beneath the crosspiece. A successful hit wit
 the liquid contents of the container (typically poison or a potion) into the target. Refilling a
 syringe spear takes 1 minute.
 
-**Cost** 100 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 20 ft.; **Type** P; **Special**
-[brace](ref/misc/brace), see text\
-**Category** Two-Handed; **Proficiency** Martial
+::: statblock
+Cost: 100 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: P
+Special: [brace](ref/misc/brace), see text
+Category: Two-Handed
+Proficiency: Martial
+:::

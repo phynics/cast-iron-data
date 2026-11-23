@@ -21,8 +21,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** ring; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: ring
+Price: 1,600 gp
+Weight: -
+:::
 
 This smooth mithral ring glimmers with light, and a close look reveals the reflection of a starry
 night sky within the silvery metal. The wearer of a ring of starlight can cause portions of her body
@@ -36,5 +41,7 @@ _[dancing lights](ref/spell/dancing-lights)_ on command three times per day as a
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [dancing lights](ref/spell/dancing-lights),
-[faerie fire](ref/spell/faerie-fire); **Cost** 800 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [dancing lights](ref/spell/dancing-lights), [faerie fire](ref/spell/faerie-fire)
+Cost: 800 gp
+:::

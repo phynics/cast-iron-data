@@ -24,8 +24,15 @@ haft. This weapon excels at short but powerful strikes, and is typically swung i
 churning motion. The wielder of a dire flail must have great strength, both to use the weapon
 effectively and to keep from tiring out.
 
-**Cost** 90 gp **Weight** 10 lbs.\
-**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [double](ref/misc/double), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Flails
+::: statblock
+Cost: 90 gp
+Weight: 10 lbs.
+Damage: 1d6/1d6 (small), 1d8/1d8 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [double](ref/misc/double), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Flails](ref/ability/weapon-groups#sec-flails)
+:::

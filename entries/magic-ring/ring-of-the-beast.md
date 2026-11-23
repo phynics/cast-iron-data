@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 Three types of rings of the beast exist; all three appear as yellowed bone carved in the shapes of
 wild beasts devouring their own tails. The type of beast depicted on each ring depends on the ring's
@@ -39,7 +44,7 @@ armor bonus.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [barkskin](ref/spell/barkskin) and either
-[bear's endurance](ref/spell/bears-endurance) (ring of the relentless beast),
-[bull's strength](ref/spell/bulls-strength) (ring of the savage beast), or
-[cat's grace](ref/spell/cats-grace) (ring of the swift beast); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [barkskin](ref/spell/barkskin) and either [bear's endurance](ref/spell/bears-endurance) (ring of the relentless beast), [bull's strength](ref/spell/bulls-strength) (ring of the savage beast), or [cat's grace](ref/spell/cats-grace) (ring of the swift beast)
+Cost: 4,000 gp
+:::

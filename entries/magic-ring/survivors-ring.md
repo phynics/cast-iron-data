@@ -21,8 +21,13 @@ aura = "strong illusion"
 caster_level = "18th"
 +++
 
-**Aura** strong illusion; **CL** 18th\
-**Slot** ring; **Price** 56,160 gp; **Weight** -
+::: statblock
+Aura: strong illusion
+CL: 18th
+Slot: ring
+Price: 56,160 gp
+Weight: -
+:::
 
 This ring is shaped like a silver snake with an onyx in its mouth. Once per day, if the wearer would
 be reduced to 0 or fewer hit points but not be dead, she is instead reduced to 0 hit points and
@@ -34,5 +39,7 @@ the ring's _[mislead](ref/spell/mislead)_ effect is active.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [death ward](ref/spell/death-ward),
-[dimension door](ref/spell/dimension-door), [mislead](ref/spell/mislead); **Cost** 25,080 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [death ward](ref/spell/death-ward), [dimension door](ref/spell/dimension-door), [mislead](ref/spell/mislead)
+Cost: 25,080 gp
+:::

@@ -24,7 +24,15 @@ carpenter's hammer) or double (like a sledgehammer). The haft is long enough tha
 one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering
 immense blows, crushing armor and flesh alike.
 
-**Cost** 12 gp **Weight** 5 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** B; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 12 gp
+Weight: 5 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: B
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** ring; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: ring
+Price: 1,600 gp
+Weight: -
+:::
 
 This sturdy ring allows the user to ignore the nonproficiency penalty for using a particular type of
 [improvised weapon](ref/misc/improvised-weapons), such as a crowbar or pitchfork, and grants a +1
@@ -31,5 +36,7 @@ enhancement bonus on attack rolls with that item as though it were a
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[masterwork transformation](ref/spell/masterwork-transformation); **Cost** 800 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [masterwork transformation](ref/spell/masterwork-transformation)
+Cost: 800 gp
+:::

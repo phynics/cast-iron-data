@@ -21,8 +21,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 5th\
-**Slot** ring; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 5th
+Slot: ring
+Price: 4,500 gp
+Weight: -
+:::
 
 This [mithral](ref/eq-material/mithral) ring is engraved with a pattern of rolling waves that
 encircles the entire band. The saltspray ring is immune to rust, both from natural oxidation and
@@ -40,5 +45,7 @@ standard action. The ring has no effect whatsoever underwater.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [obscuring mist](ref/spell/obscuring-mist),
-[quench](ref/spell/quench); **Cost** 2,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [obscuring mist](ref/spell/obscuring-mist), [quench](ref/spell/quench)
+Cost: 2,250 gp
+:::

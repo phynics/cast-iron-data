@@ -21,8 +21,13 @@ aura = "strong universal"
 caster_level = "13th"
 +++
 
-**Aura** strong universal; **CL** 13th\
-**Slot** ring; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: strong universal
+CL: 13th
+Slot: ring
+Price: 30,000 gp
+Weight: -
+:::
 
 This jade ring is carved in the shape of an [ouroboros](ref/monster/ouroboros). Three times per day,
 the wearer can use it to empower a spell she casts. This grants her a +2 bonus on caster level
@@ -42,6 +47,7 @@ spell).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Mythic Crafter](ref/feat/mythic-crafter),
-[limited wish](ref/spell/limited-wish), [mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost**
-15,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Mythic Crafter](ref/feat/mythic-crafter), [limited wish](ref/spell/limited-wish), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 15,000 gp
+:::

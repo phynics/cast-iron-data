@@ -50,7 +50,7 @@ Special Attacks: hexes (blight \[100 feet\], evil eye \[-4, 7 rounds\], flight \
 ::: statblock
 title = "Spell-Like Abilities"
 Caster level: 5th
-Concentration: +7s
+Concentration: +7
 Constant: [endure elements](ref/spell/endure-elements) (cold temperatures only)
 :::
 

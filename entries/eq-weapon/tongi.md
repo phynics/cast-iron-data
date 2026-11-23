@@ -19,7 +19,15 @@ weight = "4 lbs."
 This rare weapon resembles a battleaxe with wedges cut out of the head, presenting four sharp points
 that splay from the handle rather than a single convex blade.
 
-**Cost** 18 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×3; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 18 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×3
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

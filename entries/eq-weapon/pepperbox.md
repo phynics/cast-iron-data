@@ -26,8 +26,16 @@ the weapon must be reloaded. Each barrel of a pepperbox uses either a
 or a single [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammunition. This is an
 early firearm.
 
-**Cost** 3,000 gp **Weight** 5 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** 20 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-2 (5 ft.); **Capacity** 6\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 3,000 gp
+Weight: 5 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: 20 ft.
+Type: B and P
+Special: -
+Misfire: 1-2 (5 ft.)
+Capacity: 6
+Category: One-Handed
+Proficiency: Exotic
+:::

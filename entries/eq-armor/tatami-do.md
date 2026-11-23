@@ -19,10 +19,16 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Cost** 1,000 gp **Weight** 45 lbs.\
-**Armor Bonus** +7; **Max Dex Bonus** +3; **Armor Check Penalty** -6\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 1,000 gp
+Weight: 45 lbs.
+Armor Bonus: +7
+Max Dex Bonus: +3
+Armor Check Penalty: -6
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 Worn by samurai as a lighter-weight alternative to [o-yoroi](ref/eq-armor/o-yoroi), tatami-do is a
 full-body field armor that combines both metal lamellar and kikko components into a suit of mail

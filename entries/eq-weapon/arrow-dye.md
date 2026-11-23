@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "0.15 lbs."
 +++
 
-**Price** 1 gp; **Weight** 0.15 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 1 gp
+Weight: 0.15 lbs.
+Category: Alchemical Weapons
+:::
 
 This arrow ends in a crystalline bubble filled with a viscous alchemical dyeing agent. Firing a dye
 arrow is a ranged touch attack; a creature struck by a dye arrow takes no damage but is splashed

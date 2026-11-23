@@ -24,13 +24,20 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This ring functions as a [ring of climbing](ref/magic-ring/ring-of-climbing), except it grants a +10
 competence bonus on its wearer's Climb checks.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have 10 ranks in the Climb skill;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have 10 ranks in the Climb skill
+Cost: 5,000 gp
+:::

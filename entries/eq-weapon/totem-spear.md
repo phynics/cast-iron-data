@@ -24,7 +24,14 @@ music of Varisia's displaced natives. The shovel-like heads of these broad spear
 variously oriented hollows. In addition to its use as a weapon, a totem spear can be played using
 the Perform (wind) skill.
 
-**Cost** 25 gp **Weight** 6 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** 10 ft.; **Type** P or B;
-**Special** -\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 25 gp
+Weight: 6 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: P or B
+Special: -
+Category: Two-Handed
+Proficiency: Exotic
+:::

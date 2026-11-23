@@ -21,8 +21,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** ring; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: ring
+Price: 5,400 gp
+Weight: -
+:::
 
 This richly colored, burnished brass ring appears to be crimson red, sunset orange, or golden yellow
 depending on how it is held. Clerics of [Sarenrae](ref/faith/sarenrae) prize glorious flame rings as
@@ -40,6 +45,7 @@ to creating the ring's burst of flame by speaking the command word.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[Selective Channeling](ref/feat/selective-channeling), [elemental aura](ref/spell/elemental-aura)
-(fire), creator must be able to channel positive energy; **Cost** 2,700 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Selective Channeling](ref/feat/selective-channeling), [elemental aura](ref/spell/elemental-aura) (fire), creator must be able to channel positive energy
+Cost: 2,700 gp
+:::

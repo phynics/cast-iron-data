@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 30 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 This violet balm comes in a small ceramic pot. When applied to a weapon as a standard action, it
 forms a transparent coating. Weapons coated in this balm deal an additional 2d4 points of damage to

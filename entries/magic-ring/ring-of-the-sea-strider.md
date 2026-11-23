@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 14,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 14,000 gp
+Weight: -
+:::
 
 This ring is made of a single piece of deep blue crystal. The ring grants its wearer a swim speed of
 30 feet, as well as +8 racial bonus on [Swim](ref/skill/swim) checks for having a swim speed.
@@ -32,5 +37,7 @@ must be connected by a contagious mass of liquid.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door),
-[touch of the sea](ref/spell/touch-of-the-sea); **Cost** 7,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door), [touch of the sea](ref/spell/touch-of-the-sea)
+Cost: 7,000 gp
+:::

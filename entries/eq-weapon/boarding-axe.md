@@ -26,7 +26,15 @@ A boarding axe is similar to a handaxe, but features a spike that allows the wea
 slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb
 checks to scale wooden or other penetrable surfaces, such as ice.
 
-**Cost** 6 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** P or S; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 6 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: P or S
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

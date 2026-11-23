@@ -42,8 +42,15 @@ bladed scarf sized for you, even though it isn't a light weapon.
 A bladed scarf has reach, so you can strike opponents 10 feet away with it. In addition, unlike most
 other weapons with reach, it can be used against an adjacent foe.
 
-**Cost** 12 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 12 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

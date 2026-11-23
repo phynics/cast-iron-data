@@ -24,7 +24,14 @@ is irrelevant to the type and amount of damage it causes. A stitched sling canno
 ammunition unless the thread or cord holding the cup closed is cut open (a full-round action that
 provokes attacks of opportunity).
 
-**Cost** - **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: -
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: Ranged
+Proficiency: Exotic
+:::

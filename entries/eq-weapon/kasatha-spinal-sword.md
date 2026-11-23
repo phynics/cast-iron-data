@@ -20,7 +20,14 @@ This light one-handed sword is covered in bony spines that make it easier to poi
 save DC of a nonmagical injury poison applied to a kasatha spinal sword increases by 2.
 [Kasathas](ref/race/kasatha) treat kasatha spinal swords as martial weapons.
 
-**Cost** 50 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** P or S; **Special**
-[fragile](ref/misc/fragile)\
-**Category** Light; **Proficiency** Exotic
+::: statblock
+Cost: 50 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: P or S
+Special: [fragile](ref/misc/fragile)
+Category: Light
+Proficiency: Exotic
+:::

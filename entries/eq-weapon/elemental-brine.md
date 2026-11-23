@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "1 lb."
 +++
 
-**Price** 500 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 500 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This alchemical substance is produced from saltwater from the Plane of Water. It has no effect on
 natives of that plane, but grants unusual properties when consumed by creatures from the Material

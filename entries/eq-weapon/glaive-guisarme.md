@@ -25,8 +25,15 @@ weight = "10 lbs."
 This polearm combines the blade of a [glaive](ref/eq-weapon/glaive) with a wicked hook. A mounted
 opponent hit by a glaive-guisarme takes a -2 penalty on her Ride check to stay mounted.
 
-**Cost** 12 gp **Weight** 10 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 12 gp
+Weight: 10 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

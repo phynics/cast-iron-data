@@ -32,7 +32,14 @@ bullets. Thus, such an attack deals damage as if the weapon were designed for a 
 [one size category smaller](ref/misc/damage-die-adjustments) than you, and you take a -1 penalty on
 attack rolls.
 
-**Cost** 10 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 50 ft.; **Type** B; **Special**
-[double](ref/misc/double) (see text)\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 10 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: B
+Special: [double](ref/misc/double) (see text)
+Category: Ranged
+Proficiency: Exotic
+:::

@@ -24,8 +24,15 @@ as handgrips. You can use the [Weapon Finesse](ref/feat/weapon-finesse) feat to 
 modifier instead of your Strength modifier to attack rolls with a spiked chain sized for you, even
 though it isn't a light weapon.
 
-**Cost** 25 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×2; **Range** -; **Type** P; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 25 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

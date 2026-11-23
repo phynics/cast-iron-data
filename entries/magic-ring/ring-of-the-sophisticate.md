@@ -24,8 +24,13 @@ aura = "moderate transmutation and divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation and divination; **CL** 8th\
-**Slot** ring; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation and divination
+CL: 8th
+Slot: ring
+Price: 11,000 gp
+Weight: -
+:::
 
 Often worn on the little finger, this ring grants its wearer a +4 competence bonus on Sense Motive
 and Knowledge (local) checks. Also, once per day on command, the wearer can use the ring to cast
@@ -37,6 +42,7 @@ that is within 20 miles of the wearer.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [know direction](ref/spell/know-direction),
-[locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object), creator must
-have at least 4 ranks in both Sense Motive and Knowledge (local); **Cost** 5,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [know direction](ref/spell/know-direction), [locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object), creator must have at least 4 ranks in both Sense Motive and Knowledge (local)
+Cost: 5,500 gp
+:::

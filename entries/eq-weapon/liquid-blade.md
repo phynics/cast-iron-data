@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 You can empty the contents of this palm-sized metal tube with a quick flick of your wrist (a move
 action), causing the bubbling transparent liquid within to instantly solidify into a jagged

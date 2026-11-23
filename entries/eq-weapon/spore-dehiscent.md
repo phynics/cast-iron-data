@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This pungent concoction can be thrown as a [splash weapon](ref/rule/throw-splash-weapon) to trigger
 unsustainable spore or pollen release in fungi and plants. Any plant creature in the square where

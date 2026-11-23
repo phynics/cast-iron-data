@@ -33,7 +33,15 @@ modifier instead of your Strength modifier to attack rolls with an Aldori duelin
 you, even though it isn't a light weapon. You can also wield an Aldori dueling sword in two hands to
 apply 1-1/2 times your Strength bonus to damage rolls.
 
-**Cost** 20 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 20 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

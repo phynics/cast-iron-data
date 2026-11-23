@@ -21,8 +21,13 @@ aura = "moderate abjuration and transmutation [chaotic, evil, good, lawful]"
 caster_level = "5th"
 +++
 
-**Aura** moderate abjuration and transmutation \[chaotic, evil, good, lawful\]; **CL** 5th\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and transmutation \[chaotic, evil, good, lawful\]
+CL: 5th
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 This ring is made of several metals hammered together into a mottled pattern, with Nethys's holy
 symbol stamped on one end. It functions as a
@@ -32,5 +37,7 @@ purpose of storing them in the ring.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 10,000 gp
+:::

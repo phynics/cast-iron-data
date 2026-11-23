@@ -30,8 +30,15 @@ to be carried into battle. A boomerang is made of wood and is flat, with a long 
 forward curve, and a sharp backward bend at the head. A hunting boomerang does not fly in a
 returning path.
 
-**Cost** 3 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 30 ft.; **Type** B; **Special** see
-text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 3 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 30 ft.
+Type: B
+Special: see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

@@ -21,8 +21,13 @@ aura = "moderate abjuration and illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration and illusion; **CL** 6th\
-**Slot** ring; **Price** 14,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and illusion
+CL: 6th
+Slot: ring
+Price: 14,500 gp
+Weight: -
+:::
 
 This ornate [ring of protection +2](ref/magic-ring/ring-of-protection-2) is emblazoned with the
 winged Eye of Aroden in ruby and jet. The wearer of a duxotar's signet projects an air of commanding
@@ -34,6 +39,7 @@ _[magic mouth](ref/spell/magic-mouth)_ for any dottari in uniform).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor),
-[magic mouth](ref/spell/magic-mouth), [shield of faith](ref/spell/shield-of-faith); **Cost** 7,750
-gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor), [magic mouth](ref/spell/magic-mouth), [shield of faith](ref/spell/shield-of-faith)
+Cost: 7,750 gp
+:::

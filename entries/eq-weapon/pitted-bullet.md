@@ -31,5 +31,9 @@ is reduced by 2. A pitted bullet cannot be used with an
 [alchemical cartridge](ref/eq-weapon/alchemical-cartridge). The listed cost does not include the
 cost of poison.
 
-**Cost** 5 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 5 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

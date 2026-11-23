@@ -21,8 +21,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** ring; **Price** 32,500 gp; **Weight** -
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: ring
+Price: 32,500 gp
+Weight: -
+:::
 
 Powerful [gillmen](ref/race/gillman) who suspect they harbor unwitting allegiance to hidden masters
 use rings of refusal to resist such bonds. The wearer of a ring of refusal gains a +2 bonus on
@@ -35,6 +40,7 @@ The wearer can also activate the ring once per day as an immediate action to gai
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[break enchantment](ref/spell/break-enchantment), [spell resistance](ref/spell/spell-resistance);
-**Cost** 16,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [break enchantment](ref/spell/break-enchantment), [spell resistance](ref/spell/spell-resistance)
+Cost: 16,250 gp
+:::

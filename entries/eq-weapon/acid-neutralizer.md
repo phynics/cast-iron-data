@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This alkaline salt counteracts the properties of oozes' acid. You can apply acid neutralizer to a
 piece of equipment such as a weapon or shield as a move action. For 1 minute afterward, any acid

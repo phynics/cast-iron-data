@@ -20,8 +20,15 @@ This Stone Age weapon is a 4-foot-long version of the [terbutje](ref/eq-weapon/t
 large to use in one hand without special training; thus, it is an exotic weapon. You can use a great
 terbutje two-handed as a martial weapon.
 
-**Cost** 12 gp **Weight** 4 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[fragile](ref/misc/fragile)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 12 gp
+Weight: 4 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [fragile](ref/misc/fragile)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

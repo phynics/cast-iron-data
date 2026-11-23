@@ -21,8 +21,13 @@ aura = "strong (no school)"
 caster_level = "18th"
 +++
 
-**Aura** strong (no school); **CL** 18th\
-**Slot** ring; **Price** 160,000 gp; **Weight** -
+::: statblock
+Aura: strong (no school)
+CL: 18th
+Slot: ring
+Price: 160,000 gp
+Weight: -
+:::
 
 This ring resembles a [ring of psychic mastery](ref/magic-ring/ring-of-psychic-mastery), but its
 flawless sapphire serves as a vessel for the wearer's soul. It possesses all the abilities of a ring
@@ -47,6 +52,7 @@ caster succeeds at a DC 23 Will save.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[greater possession](ref/spell/possession-greater), [magic aura](ref/spell/magic-aura),
-[object possession](ref/spell/object-possession), [wish](ref/spell/wish); **Cost** 80,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [greater possession](ref/spell/possession-greater), [magic aura](ref/spell/magic-aura), [object possession](ref/spell/object-possession), [wish](ref/spell/wish)
+Cost: 80,000 gp
+:::

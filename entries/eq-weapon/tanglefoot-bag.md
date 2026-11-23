@@ -23,8 +23,11 @@ price = "50 gp"
 weight = "4 lbs."
 +++
 
-**Price** 50 gp; **Weight** 4 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 4 lbs.
+Category: Alchemical Weapons
+:::
 
 A tanglefoot bag is a small sack filled with tar, resin, and other sticky substances. When you throw
 a tanglefoot bag at a creature (as a ranged touch attack with a range increment of 10 feet), the bag

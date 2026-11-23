@@ -21,8 +21,13 @@ aura = "strong (no school)"
 caster_level = "14th"
 +++
 
-**Aura** strong (no school); **CL** 14th\
-**Slot** ring; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: strong (no school)
+CL: 14th
+Slot: ring
+Price: 50,000 gp
+Weight: -
+:::
 
 The large sapphire that adorns this platinum ring darkens in hue as its wearer depletes her psychic
 spellcasting potential. The gem turns black when the wearer's daily spells are exhausted or if the
@@ -32,5 +37,7 @@ casting.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish); **Cost**
-25,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish)
+Cost: 25,000 gp
+:::

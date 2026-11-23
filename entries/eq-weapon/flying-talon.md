@@ -27,8 +27,15 @@ A flying talon has reach, so you can strike opponents 10 feet away with it. When
 talon, you gain a +2 bonus on opposed attack rolls to disarm or trip an opponent (including the roll
 to avoid being disarmed if such an attempt fails).
 
-**Cost** 15 gp **Weight** 5 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** P or S; **Special**
-[disarm](ref/misc/disarm), [reach](ref/misc/reach), [trip](ref/misc/trip), see text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 15 gp
+Weight: 5 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: P or S
+Special: [disarm](ref/misc/disarm), [reach](ref/misc/reach), [trip](ref/misc/trip), see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

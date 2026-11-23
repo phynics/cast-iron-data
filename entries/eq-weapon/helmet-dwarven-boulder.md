@@ -25,6 +25,14 @@ spell failure chance. It occupies the head slot and is made of metal, not stone,
 be crafted from unusual materials as a metal weapon. A dwarven boulder helmet can be enchanted as a
 weapon (not as armor, despite providing some protection).
 
-**Cost** 20 gp **Weight** 10 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** see text\
-**Category** Light; **Proficiency** Exotic
+::: statblock
+Cost: 20 gp
+Weight: 10 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: see text
+Category: Light
+Proficiency: Exotic
+:::

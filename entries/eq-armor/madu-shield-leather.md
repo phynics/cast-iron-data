@@ -22,9 +22,14 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 40 gp **Weight** 5 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 40 gp
+Weight: 5 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 5%
+:::
 
 The madu is a round, light leather shield with two animal horns - usually from an antelope -
 extending from opposite edges of the shield. If you are proficient with the madu, you may use it to

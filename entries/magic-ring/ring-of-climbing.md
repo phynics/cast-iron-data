@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 2,500 gp
+Weight: -
+:::
 
 This magic ring has the deceptively simple appearance of a plain leather cord that wraps securely
 around a finger. The ring continually grants the wearer a +5 competence bonus on
@@ -33,5 +38,7 @@ around a finger. The ring continually grants the wearer a +5 competence bonus on
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks in the Climb skill;
-**Cost** 1,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks in the Climb skill
+Cost: 1,250 gp
+:::

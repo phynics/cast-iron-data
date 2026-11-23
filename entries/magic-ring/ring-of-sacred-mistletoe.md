@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 This tiny ring of living mistletoe coils about the wearer's finger of its own accord. The wearer
 gains a +2 competence bonus on [Handle Animal](ref/skill/handle-animal),
@@ -35,6 +40,7 @@ Furthermore, the wearer can use _[shillelagh](ref/spell/shillelagh)_ once per da
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[pass without trace](ref/spell/pass-without-trace), [shillelagh](ref/spell/shillelagh); **Cost**
-3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [pass without trace](ref/spell/pass-without-trace), [shillelagh](ref/spell/shillelagh)
+Cost: 3,000 gp
+:::

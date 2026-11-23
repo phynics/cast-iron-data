@@ -23,8 +23,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Alchemist's fire is a mix of several volatile liquids that ignite when exposed to air. You can throw
 a flask of alchemist's fire as a [splash weapon](ref/rule/throw-splash-weapon). Treat this attack as

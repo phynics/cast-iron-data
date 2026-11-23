@@ -28,8 +28,15 @@ the blade, you lose the AC bonus that round and take a -1 penalty on attack roll
 wearing a scizore, you cannot use that hand for anything else. A scizore provides a +10 bonus to
 your CMD against being disarmed of your scizore. Donning a scizore is a full-round action.
 
-**Cost** 20 gp **Weight** 3 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×2; **Range** -; **Type** P; **Special**
-[performance](ref/misc/performance)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Close
+::: statblock
+Cost: 20 gp
+Weight: 3 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: [performance](ref/misc/performance)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Close](ref/ability/weapon-groups#sec-close)
+:::

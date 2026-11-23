@@ -25,6 +25,14 @@ weight = "2 lbs."
 This polished rosewood bow is studded with thorns and tiny flowers; treat it as a
 [shortbow](ref/eq-weapon/shortbow).
 
-**Cost** 50 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 40 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 50 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 40 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 The casing of this modified [fuse grenade](ref/eq-weapon/fuse-grenade) is partially filled with
 animal dung or guano. You can throw a dung grenade as a

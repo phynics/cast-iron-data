@@ -22,7 +22,14 @@ the splash weapon. This uses up the contents of the flask. Because of the added 
 attacks with the flask pike take a -2 penalty when it's loaded with one. Reloading the flask pike is
 a full-round action that provokes attacks of opportunity.
 
-**Cost** 30 gp **Weight** 9 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 30 gp
+Weight: 9 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Exotic
+:::

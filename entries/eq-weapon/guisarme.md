@@ -21,8 +21,15 @@ weight = "12 lbs."
 
 A guisarme is an 8-foot-long shaft with a blade and a hook mounted at the tip.
 
-**Cost** 9 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[reach](ref/misc/reach), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 9 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

@@ -24,8 +24,13 @@ aura = "moderate abjuration and illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and illusion; **CL** 9th\
-**Slot** ring; **Price** 35,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and illusion
+CL: 9th
+Slot: ring
+Price: 35,000 gp
+Weight: -
+:::
 
 This otherwise plain ring is adorned with a tiny Sihedron rune. These rings were given to agents and
 allies of the runelords as badges of office and tokens of appreciation for their work - sometimes,
@@ -42,5 +47,7 @@ similar magic reveals the true nature of the adornments.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [endure elements](ref/spell/endure-elements),
-[resistance](ref/spell/resistance), [shield](ref/spell/shield); **Cost** 17,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [endure elements](ref/spell/endure-elements), [resistance](ref/spell/resistance), [shield](ref/spell/shield)
+Cost: 17,500 gp
+:::

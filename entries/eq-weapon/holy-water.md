@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Holy water damages undead creatures and evil outsiders almost as if it were
 [acid](ref/eq-weapon/acid). A flask of holy water can be thrown as a

@@ -23,7 +23,11 @@ Bolts for a repeating crossbow are designed to fit the bolt case of a repeating 
 slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to
 match the capacity of the bolt case).
 
-**Cost** 0.2 gp **Weight** 0.2 lb.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.2 gp
+Weight: 0.2 lb.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 5.

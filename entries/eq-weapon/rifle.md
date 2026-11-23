@@ -27,8 +27,16 @@ farther and with more accuracy than early long-bore firearms.
 A rifle uses [metal cartridges](ref/eq-weapon/metal-cartridge) as ammunition. This is an advanced
 firearm.
 
-**Cost** 5,000 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×4; **Range** 80 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1; **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 5,000 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×4
+Range: 80 ft.
+Type: B and P
+Special: -
+Misfire: 1
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

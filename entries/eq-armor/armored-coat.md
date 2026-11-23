@@ -19,10 +19,16 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 50 gp **Weight** 20 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 50 gp
+Weight: 20 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +3
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 20%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This sturdy leather coat is reinforced with metal plates sewn into the lining. An armored coat is
 more cumbersome than light armor but less effective than most medium armors. The advantage of it is

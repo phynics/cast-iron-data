@@ -26,8 +26,15 @@ louder. Each blade is imbued with a shimmer of nonmagical might against undead t
 blade's bearer a +1 sacred bonus on saving throws against the abilities of undead. It is otherwise
 treated as a standard khopesh.
 
-**Cost** 170 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 170 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

@@ -22,10 +22,18 @@ highly favored by orcs and their kin. All hornbows are composite bows and can be
 from high Strength scores in the same way as other composite bows. Any effect that applies to both
 longbows and shortbows also applies to hornbows.
 
-**Cost** 130 gp (+0) **Weight** 7 lbs.\
-**Damage** 1d8 (small), 2d6 (medium); **Critical** ×3; **Range** 80 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Bows
+::: statblock
+Cost: 130 gp (+0)
+Weight: 7 lbs.
+Damage: 1d8 (small), 2d6 (medium)
+Critical: ×3
+Range: 80 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Bows](ref/ability/weapon-groups#sec-bows)
+:::
 
 ### Composite Bows
 

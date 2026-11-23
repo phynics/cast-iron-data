@@ -34,9 +34,14 @@ category = "Armor"
 weight = "6 lbs."
 +++
 
-**Cost** 12 gp **Weight** 6 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 12 gp
+Weight: 6 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 5%
+:::
 
 **Shield Bash Attacks:** You can bash an opponent with a light shield. Used this way, a light shield
 is a martial bludgeoning weapon. For the purpose of penalties on attack rolls, treat a light shield

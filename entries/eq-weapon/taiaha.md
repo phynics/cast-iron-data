@@ -21,8 +21,15 @@ metal spear point at the other. You wield it with a combination of solid strikes
 fending motions with the spear. A taiaha can be wielded as a martial weapon that deals 1d8 points of
 bludgeoning damage (1d6 if Small) and has a ×2 critical.
 
-**Cost** 10 gp **Weight** 8 lbs.\
-**Damage** 1d8/1d4 (small), 1d10/1d6 (medium); **Critical** ×2/×3; **Range** -; **Type** B or P;
-**Special** [double](ref/misc/double)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Hammers
+::: statblock
+Cost: 10 gp
+Weight: 8 lbs.
+Damage: 1d8/1d4 (small), 1d10/1d6 (medium)
+Critical: ×2/×3
+Range: -
+Type: B or P
+Special: [double](ref/misc/double)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

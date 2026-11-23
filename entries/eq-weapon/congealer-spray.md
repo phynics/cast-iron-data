@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This volatile liquid is usually dispensed from a spray atomizer, which disperses the liquid in a
 15-foot cone. Congealer spray causes the surface of an ooze creature to stiffen into a leathery

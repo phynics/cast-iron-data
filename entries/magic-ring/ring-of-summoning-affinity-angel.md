@@ -21,8 +21,13 @@ aura = "faint conjuration [good]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[good\]; **CL** 5th\
-**Slot** ring; **Price** 7,200 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[good\]
+CL: 5th
+Slot: ring
+Price: 7,200 gp
+Weight: -
+:::
 
 This ring is cut from transparent crystal. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -34,5 +39,7 @@ the wearer can use this ring to summon a cassisian, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be good; **Cost** 3,600 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be good
+Cost: 3,600 gp
+:::

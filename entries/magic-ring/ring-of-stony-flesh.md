@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** ring; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: ring
+Price: 18,000 gp
+Weight: -
+:::
 
 A ring of stony flesh gives the wearer's skin the appearance of flexible stone. Once per day, the
 wearer can expend a charge as a standard action to gain the benefits of
@@ -37,5 +42,7 @@ petrification attempt. A ring of stony flesh has 10 charges when created.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [stone to flesh](ref/spell/stone-to-flesh),
-[stoneskin](ref/spell/stoneskin); **Cost** 9,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [stone to flesh](ref/spell/stone-to-flesh), [stoneskin](ref/spell/stoneskin)
+Cost: 9,000 gp
+:::

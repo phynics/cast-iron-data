@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 60 gp **Weight** 25 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 60 gp
+Weight: 25 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +3
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 20%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Lamellar is a type of armor in which small plates of various types of materials are strung together
 in parallel rows using fine cord. Lamellar plates can be constructed from lacquered leather, horn,

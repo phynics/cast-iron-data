@@ -16,10 +16,16 @@ category = "Armor"
 weight = "8 lbs."
 +++
 
-**Cost** 150 gp **Weight** 8 lbs.\
-**Armor Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** —%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 150 gp
+Weight: 8 lbs.
+Armor Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: —%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This set of colorful scarves, is made of heavy silk and reinforced with leather straps. As you move,
 they flutter and flow, obscuring your shape and protecting against enemy attacks. Varisian dancing

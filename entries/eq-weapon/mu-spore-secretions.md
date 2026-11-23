@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 These secretions are only one of the many spores and fluids that the mu spores of Orv produce, but
 this is one of the few that surface dwellers have learned to safely use. This clear secretion can be

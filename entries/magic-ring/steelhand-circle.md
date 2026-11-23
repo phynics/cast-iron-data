@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 When this ring is worn, the wielder's skin attains a barely perceptible sheen. In practical terms,
 the wearer ignores the first 5 points of an object's [hardness](ref/umr/hardness) when performing a
@@ -38,5 +43,7 @@ before the critical hit or sneak attack damage is rolled.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [stone fist](ref/spell/stone-fist),
-[stoneskin](ref/spell/stoneskin); **Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [stone fist](ref/spell/stone-fist), [stoneskin](ref/spell/stoneskin)
+Cost: 6,000 gp
+:::

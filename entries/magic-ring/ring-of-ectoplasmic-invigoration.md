@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 A [summoner](ref/class/summoner) wearing a ring of ectoplasmic invigoration can use his maker's call
 class feature to absorb his eidolon (dismissing it in the process) instead of bringing it to his
@@ -34,5 +39,7 @@ square (still absorbing and dismissing it) rather than calling the eidolon to hi
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), the creator must be able to summon an eidolon
-and have the maker's call class feature; **Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), the creator must be able to summon an eidolon and have the maker's call class feature
+Cost: 6,000 gp
+:::

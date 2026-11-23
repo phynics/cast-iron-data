@@ -22,8 +22,15 @@ weight = "10 lbs."
 Similar to a [light flail](ref/eq-weapon/light-flail), a heavy flail has a larger metal ball and a
 longer handle.
 
-**Cost** 15 gp **Weight** 10 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 15 gp
+Weight: 10 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

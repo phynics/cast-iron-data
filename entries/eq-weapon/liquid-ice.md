@@ -23,8 +23,11 @@ price = "40 gp"
 weight = "2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 Also known as "alchemist's ice," this sealed jar contains crystalline blue fluid that immediately
 starts to hiss and evaporate once opened. During the 1d6 rounds after it is opened but before it

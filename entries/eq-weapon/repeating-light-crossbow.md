@@ -29,8 +29,15 @@ critical, and range values are equivalent to those of a
 lighter construction and pull make it both more portable and more useful to those who rely on
 stealth or speed.
 
-**Cost** 250 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** 80 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 250 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: 80 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write creature and NPC statistics as stat blocks (cast-iron-data #166, with cast-iron #254).
+"""Write creature, NPC and item statistics as stat blocks (cast-iron-data #166, with cast-iron #254).
 
 A Pf Data monster prints its statistics as one bold-label paragraph per row, with the section
 names as bold paragraphs:
@@ -36,8 +36,8 @@ Usage (DIR defaults to the repository root):
     --only a-d                   entry files whose name starts with a letter of the range(s)
     --only eq-misc,magic-ring    or the entries of the named folders (both kinds can be mixed)
 
-Passes. `creature` (the folder `entries/monster`) and `npc` (`entries/npc`) are implemented. `item`
-arrives with its own slices; this version refuses it rather than guess at its rules.
+Passes. `creature` (the folder `entries/monster`), `npc` (`entries/npc`) and `item` (every entry
+with `kind = "item"` outside `entries/carried`) are implemented.
 
 `--check` without `--pass` or `--only` checks the slices listed in `APPLIED` below. Each slice
 PR adds its slice to that list, so the check on a PR head covers exactly what has been written.
@@ -140,6 +140,69 @@ level label, the one link of N6, and the two renamed labels of N8. A row adds th
 spell name, count and number must be found again, in order; the unlabelled lead lines are checked
 as moved. `npc_proof_words` does this reading on its own, apart from the converter.
 
+Rules for the item pass (rulings of 2026-11-23)
+-----------------------------------------------
+
+An item prints its statistics as run-on lines:
+
+    **Cost** 15 gp **Weight** 4 lbs.\
+    **Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S\
+    **[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+
+I1  Scope. An entry with `kind = "item"` outside `entries/carried`. An entry that already has a
+    stat block reads as `already`. An entry with no lead and no Construction paragraph to convert
+    is left alone (`no-statistics` in the counts). It is not in the review TSV for that; it is
+    listed there only when I9 or I8 lists it (a bow whose statistics all stand under variant
+    headings is listed as `variant-paragraphs`).
+I2  Lead. The lead is the first statistics paragraph of the body: a paragraph that opens with a
+    bold label and a value, with no `###` heading before it. It becomes one untitled stat block
+    where it stands. Prose and a `##` title before it stay.
+I3  Rows. A line `**Label** value` becomes the row `Label: value`; a line with several labels
+    becomes one row per label, in order, and the `;` before a label is dropped. Labels and values
+    are not edited. A label printed twice in one block queues the file.
+I4  `**Cost** 15 gp **Weight** 4 lbs.` is the one pair that splits without a `;`. Any other label
+    that follows a value without a `;` queues the file.
+I5  Weapon Group. The linked label `[Weapon Group](ref/ability/weapon-groups)` becomes the plain
+    label, and each group of the value becomes a link to the section of that group in the weapon
+    groups entry: `Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades);
+    [Close](ref/ability/weapon-groups#sec-close)`. The value is split at `; ` and every part must
+    be in the closed list `WEAPON_GROUPS` (`Blades, Heavy` is one group); anything else (`Varies`)
+    queues the file. The headings of those sections get their key as an explicit anchor.
+    Any other linked label (`Hardness`, `Special Purpose`, `Spell-Like Abilities`, a set piece)
+    queues the file.
+I6  Sentences. The block ends before the first line of the lead whose value reads as sentences
+    (`**Preparation** A bone reed must be pressed and dried. This process…`). That line and the
+    lines after it stay a paragraph, unchanged, directly below the block. The sentence value must
+    be the first of its line, or the file is queued. Each entry whose block ends this way is
+    listed in the TSV as `block-ended-at-sentences`, with the first kept label.
+I7  A paragraph that opens with a `**Label:**` (`**Benefit:**`, `**Note:**`, a set piece link)
+    is prose and stays. A colon label inside the lead queues the file, as does a `**Sources:**`
+    line inside the lead.
+I8  Construction. The paragraph directly under the first `### Construction` heading, when it is
+    a statistics paragraph and comes after the lead, becomes an untitled stat block under the
+    heading, which stays. Its rows are the printed ones: `Requirements` and `Cost` in most
+    entries, `Requirements` and `Price` in the rings and others. The sentence rule I6 does not
+    apply to it. A Construction paragraph with a line that has no label (the technological items
+    print `Craft Technological Item, …` so) stays prose, byte for byte: the lead still converts,
+    no label is invented, and the entry is listed in the TSV as `construction-unlabelled`.
+I9  Variants. Every other statistics paragraph stays as it is: a variant of the item (its name
+    alone on the first line, or under a `###` heading of its own), a second set of statistics, a
+    recipe. A file may be converted and keep such paragraphs. Each entry that has them is listed
+    in the TSV as `variant-paragraphs`, with the first label of each, before and after the
+    conversion, as the queue of the later review slice.
+I10 Queue. A file the rules do not cover is queued whole, unchanged: a line of the lead without
+    a label, a label after a value without a `;` (I4), a linked label (I5),
+    an unknown weapon group, a label that would need escaping, a value with an edge escape.
+
+The item word proof reads the body the same way before and after (`item_words`): a statistics
+paragraph and a stat block row are brought to one form, in which a bold label has lost the `;`
+before it and gained the colon of a row. For the Weapon Group row it requires one link per
+group and nothing else, checks that each link names the section of its own group, and then
+removes only the link markup, so the value text is proven unchanged apart from the links. It
+also proves where I6 cut: no row of the lead block holds a sentence value, and a kept tail opens
+with one. Besides the words, every paragraph the pass did not convert
+must be found again byte for byte, in order, and no heading may change.
+
 Proofs, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -172,9 +235,11 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", None)]
+APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", None), ("item", "eq-weapon,eq-armor,magic-ring")]
 
-PASS_FOLDERS = {"creature": ("monster",), "npc": ("npc",), "fixes": ()}
+PASS_FOLDERS = {"creature": ("monster",), "npc": ("npc",), "item": ("*",), "fixes": ()}
+PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item"}
+NOT_ITEM_FOLDERS = ("carried", "monster", "npc")
 KNOWN_PASSES = ("creature", "npc", "item", "fixes")
 
 SECTIONS = ("Defense", "Offense", "Statistics", "Ecology")
@@ -222,6 +287,12 @@ PRINT_FIXES = (
         "Adventurer's Armory 2 p. 10",
         "price: `+1,500 gp`; the field also held the weight",
         (('price = "+1,500 gp **Weight** +1 lb."\n', 'price = "+1,500 gp"\n'),),
+    ),
+    (
+        "entries/npc/winter-witch-cold-sister.md",
+        "Irrisen, Land of Eternal Winter p. 62",
+        "Spell-Like Abilities concentration: `+7`; the import left `+7s`",
+        (("\nConcentration: +7s\n", "\nConcentration: +7\n"),),
     ),
 )
 
@@ -951,6 +1022,331 @@ def prove_npc(body: str, new_body: str, moved: str | None) -> None:
         raise ProofFailed("a heading changed")
 
 
+# ---- the item pass -------------------------------------------------------------------------------
+
+WEAPON_GROUPS_ENTRY = "ref/ability/weapon-groups"
+WEAPON_GROUP_LABEL = "[Weapon Group](" + WEAPON_GROUPS_ENTRY + ")"
+# The closed list: the group as a weapon prints it, and the heading key of its section in the
+# weapon groups entry (`### Heavy Blades` there).
+WEAPON_GROUPS = {
+    "Axes": "sec-axes",
+    "Blades, Heavy": "sec-heavy-blades",
+    "Blades, Light": "sec-light-blades",
+    "Bows": "sec-bows",
+    "Close": "sec-close",
+    "Crossbows": "sec-crossbows",
+    "Double": "sec-double",
+    "Firearms": "sec-firearms",
+    "Flails": "sec-flails",
+    "Hammers": "sec-hammers",
+    "Monk": "sec-monk",
+    "Natural": "sec-natural",
+    "Polearms": "sec-polearms",
+    "Siege Engines": "sec-siege-engines",
+    "Spears": "sec-spears",
+    "Thrown": "sec-thrown",
+    "Tribal": "sec-tribal",
+}
+# I5 links to these sections, and a linked heading carries its key as an explicit anchor
+# (docs/corpus-format.md in the app). `--write` adds the anchors; the keys do not change.
+WEAPON_GROUP_HEADINGS = {
+    "sec-heavy-blades": "Heavy Blades",
+    "sec-light-blades": "Light Blades",
+}
+ANCHOR_EDITS = (
+    (
+        "entries/ability/weapon-groups.md",
+        None,
+        "explicit anchors on the weapon group headings",
+        tuple(
+            (
+                f"\n### {WEAPON_GROUP_HEADINGS.get(key, group)}\n",
+                f"\n### {WEAPON_GROUP_HEADINGS.get(key, group)} {{#{key}}}\n",
+            )
+            for group, key in WEAPON_GROUPS.items()
+        ),
+    ),
+)
+CONSTRUCTION_HEADING = "### Construction"
+ITEM_STAT_START = re.compile(r"\*\*(?!\*)(?:\[[^\]]+\]\([^)]+\))?[^*:\[\]]*\*\* ?\S")
+ITEM_LABEL = re.compile(r"\*\*((?:\[[^\]]+\]\([^)]+\))?[^*]*)\*\*")
+# I6: a value that reads as sentences. A lowercase word of three letters or more that ends a
+# sentence, with another sentence after it or at the end of a value of eight words or more.
+UNIT_WORDS = "lbs|lb|ft|oz|gp|sp|cp|pp|min|max|rd|hrs|sec"
+SENTENCE_INSIDE = re.compile(r"\b(?!(?:" + UNIT_WORDS + r")\b)[a-z]{3,}[.!?] [A-Z]")
+SENTENCE_END = re.compile(r"\b(?!(?:" + UNIT_WORDS + r")\b)[a-z]{3,}[.!?]$")
+
+
+def is_sentences(value: str) -> bool:
+    return bool(SENTENCE_INSIDE.search(value)) or (bool(SENTENCE_END.search(value)) and len(value.split()) >= 8)
+
+
+def is_stat_paragraph(chunk: list[str]) -> bool:
+    """A paragraph that opens with a bold label and a value: `**Price** 15 gp; **Weight** 4 lbs.`.
+    A `**Label:**` paragraph and a bold line alone (a variant's name) are not."""
+    return bool(ITEM_STAT_START.match(chunk[0])) and not chunk[0].startswith("**Sources:**")
+
+
+def item_layout(body: str) -> tuple[list[list[str]], int | None, int | None]:
+    """(chunks, index of the lead paragraph, index of the Construction paragraph).
+
+    I2: the lead is the first statistics paragraph of the body, when no `###` heading comes
+    before it. I8: the Construction paragraph is the paragraph directly under the first
+    `### Construction` heading, when it is a statistics paragraph and comes after the lead."""
+    cs = chunks(body.split("\n"))
+    lead = None
+    for index, chunk in enumerate(cs):
+        if chunk[0].startswith("### "):
+            break
+        if is_stat_paragraph(chunk):
+            lead = index
+            break
+    construction = construction_index(cs)
+    if construction is not None and lead is not None and construction < lead:
+        construction = None
+    return cs, lead, construction
+
+
+def construction_index(cs: list[list[str]]) -> int | None:
+    """The statistics paragraph directly under the first `### Construction` heading, if any."""
+    for index, chunk in enumerate(cs):
+        if chunk[0] == CONSTRUCTION_HEADING:
+            return index + 1 if index + 1 < len(cs) and is_stat_paragraph(cs[index + 1]) else None
+    return None
+
+
+def construction_unlabelled(cs: list[list[str]]) -> bool:
+    """I8: the Construction paragraph has a line without a label (the technological items print
+    `Craft Technological Item, …` so). It stays prose."""
+    index = construction_index(cs)
+    if index is None:
+        return False
+    try:
+        for segment in "\n".join(cs[index]).split("\\\n"):
+            item_rows(segment, True)
+    except Queue as queued:
+        return queued.reason == "unlabelled-line"
+    return False
+
+
+def weapon_group_value(value: str) -> str:
+    """I5: every group of the value linked to its section; the text between the links unchanged."""
+    groups = value.split("; ")
+    if not value or any(group not in WEAPON_GROUPS for group in groups):
+        raise Queue("weapon-group", value[:40])
+    return "; ".join(f"[{group}]({WEAPON_GROUPS_ENTRY}#{WEAPON_GROUPS[group]})" for group in groups)
+
+
+def item_rows(segment: str, construction: bool) -> list[tuple[str, str]]:
+    """The rows of one line of a statistics paragraph."""
+    flat = join_wrapped(segment.split("\n"))
+    found = list(ITEM_LABEL.finditer(flat))
+    if not found or found[0].start() != 0:
+        raise Queue("unlabelled-line", flat[:40])
+    rows = []
+    for position, match in enumerate(found):
+        raw = match.group(1)
+        end = found[position + 1].start() if position + 1 < len(found) else len(flat)
+        value = flat[match.end():end]
+        if position + 1 < len(found):
+            separator = re.search(r";\s*$", value)
+            if separator:
+                value = value[: separator.start()]
+            elif not (raw == "Cost" and found[position + 1].group(1) == "Weight"):
+                raise Queue("label-without-separator", found[position + 1].group(1)[:40])  # I4
+        value = value.strip()
+        if raw == WEAPON_GROUP_LABEL and not construction:
+            rows.append(("Weapon Group", weapon_group_value(value)))
+            continue
+        if "](" in raw:
+            raise Queue("linked-label", raw[:60])
+        if raw.endswith(":"):
+            raise Queue("colon-label", raw)
+        label = npc_label(raw)
+        if value.endswith("\\") or GUARDED.match(value):
+            raise Queue("escaped-edge", label)
+        rows.append((label, value))
+    return rows
+
+
+def classify_item(body: str) -> str:
+    if re.search(r"^::: statblock$", body, re.M):
+        return "already"
+    if re.search(r"^:::", body, re.M):
+        raise Queue("fence-in-body")
+    return "paragraphs"
+
+
+def convert_item(body: str) -> str:
+    """The converted body of an item, or the body unchanged when it has no statistics to convert.
+    Raises Queue when a rule does not cover the file."""
+    cs, lead, construction = item_layout(body)
+    if construction is not None and construction_unlabelled(cs):
+        construction = None  # I8: it stays prose; the lead still converts
+    if lead is None and construction is None:
+        return body
+    out: list[str] = []
+    for index, chunk in enumerate(cs):
+        if index not in (lead, construction):
+            out.append("\n".join(chunk))
+            continue
+        rows: list[tuple[str, list[str]]] = []
+        segments = "\n".join(chunk).split("\\\n")
+        tail_from = len(segments)
+        for position, segment in enumerate(segments):
+            if segment.startswith("**Sources:**"):
+                raise Queue("sources-line-in-lead")
+            found = item_rows(segment, index == construction)
+            if index == lead and any(is_sentences(value) for _, value in found):
+                # I6: the block ends before a line whose value is sentences.
+                if not is_sentences(found[0][1]):
+                    raise Queue("sentences-mid-line", found[0][0])
+                tail_from = position
+                break
+            rows.extend((label, [value]) for label, value in found)
+        if not rows:
+            raise Queue("prose-lead", " ".join(segments[0].split())[:40])
+        labels = [label for label, _ in rows]
+        if len(set(labels)) != len(labels):
+            raise Queue("label-twice", next(label for label in labels if labels.count(label) > 1))
+        out.append(render_block(None, rows))
+        if tail_from < len(segments):
+            out.append("\\\n".join(segments[tail_from:]))
+    new_body = "\n" + "\n\n".join(out) + "\n"
+    prove_item(body, new_body)
+    return new_body
+
+
+def item_words(text: str) -> list[str]:
+    """The words of an item body, read the same way before and after the pass.
+
+    A statistics paragraph and a stat block row are brought to one form: a bold label loses the
+    `;` before it and gains the colon of a row. The Weapon Group label loses its link (I5), and
+    in a `Weapon Group:` row each link to a section of the weapon groups entry is reduced to its
+    text, after a check that the section is the one of that group. Nothing else is touched, so a
+    paragraph the pass left alone reads the same on both sides."""
+    out: list[str] = []
+    cs = chunks(text.split("\n"))
+    for chunk in cs:
+        if chunk[0] == "::: statblock":
+            for line in chunk[1:-1]:
+                if line.startswith("Weapon Group: "):
+                    def unlink(match: re.Match) -> str:
+                        if WEAPON_GROUPS.get(match.group(1)) != match.group(2):
+                            raise ProofFailed("a weapon group links to another section: " + match.group(0))
+                        return match.group(1)
+
+                    link = r"\[([^\]]+)\]\(" + re.escape(WEAPON_GROUPS_ENTRY) + r"#([^)]+)\)"
+                    # One link per group: the value is links joined by `; ` and nothing else.
+                    if not re.fullmatch(f"{link}(?:; {link})*", line[len("Weapon Group: "):]):
+                        raise ProofFailed("a weapon group row is not one link per group: " + line)
+                    line = re.sub(link, unlink, line)
+                out.extend(line.split())
+            continue
+        if not is_stat_paragraph(chunk):
+            out.extend(words("\n".join(chunk), keep_bold=True))
+            continue
+        for segment in "\n".join(chunk).split("\\\n"):
+            flat = " ".join(segment.split("\n")).replace("**" + WEAPON_GROUP_LABEL + "**", "**Weapon Group**")
+            out.extend(re.sub(r";?\s*\*\*((?:\[[^\]]+\]\([^)]+\))?[^*]*?):?\*\*", r" \1:", flat).split())
+    return out
+
+
+def prove_item(body: str, new_body: str) -> None:
+    expected, actual = item_words(body), item_words(new_body)
+    if expected != actual:
+        at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
+        raise ProofFailed(f"words differ at {at}: {expected[at:at + 6]} / {actual[at:at + 6]}")
+    # Every paragraph the pass did not convert is there byte for byte, in order.
+    cs, lead, construction = item_layout(body)
+    if construction is not None and construction_unlabelled(cs):
+        construction = None
+    new_cs = chunks(new_body.split("\n"))
+    if lead is not None:
+        # I6: the lead block holds no sentence value, and a kept tail starts with one.
+        block = new_cs[lead]
+        if block[0] != "::: statblock" or block[-1] != ":::":
+            raise ProofFailed("the lead is not a stat block")
+        for row in block[1:-1]:
+            if is_sentences(row.partition(":")[2].strip()):
+                raise ProofFailed("a sentence value is inside the lead block: " + row[:60])
+        if len(new_cs) == len(cs) + 1:
+            tail = item_first_value(new_cs[lead + 1])
+            if tail is None or not is_sentences(tail[1]):
+                raise ProofFailed("the block was cut before a line that is not sentences")
+        elif len(new_cs) != len(cs):
+            raise ProofFailed("the number of paragraphs changed")
+    kept = ["\n".join(chunk) for index, chunk in enumerate(cs) if index not in (lead, construction)]
+    position = 0
+    for chunk in chunks(new_body.split("\n")):
+        if position < len(kept) and "\n".join(chunk) == kept[position]:
+            position += 1
+    if position != len(kept):
+        raise ProofFailed("a paragraph outside the statistics changed: " + kept[position][:60])
+    if heading_lines(new_body) != heading_lines(body):
+        raise ProofFailed("a heading changed")
+
+
+def item_first_value(chunk: list[str]) -> tuple[str, str] | None:
+    """(first label, its value) of a statistics paragraph, or None."""
+    if not is_stat_paragraph(chunk):
+        return None
+    flat = join_wrapped("\n".join(chunk).split("\\\n")[0].split("\n"))
+    first = ITEM_LABEL.match(flat)
+    following = ITEM_LABEL.search(flat, first.end())
+    value = flat[first.end(): following.start() if following else len(flat)]
+    return first.group(1), value.strip().rstrip(";").strip()
+
+
+def item_sentence_cut(body: str) -> str | None:
+    """I6: the first kept label when the lead block ends at a sentence line, read the same way
+    before and after the conversion: the lines of the lead from the first sentence value on, or
+    the statistics paragraph directly below the lead that opens with a sentence value."""
+    cs = chunks(body.split("\n"))
+    if "::: statblock" in body:
+        lead = next((i for i, chunk in enumerate(cs) if chunk[0] == "::: statblock"), None)
+        if lead is None or (lead and cs[lead - 1][0] == CONSTRUCTION_HEADING):
+            return None
+    else:
+        lead = item_layout(body)[1]
+        if lead is None:
+            return None
+        for segment in "\n".join(cs[lead]).split("\\\n")[1:]:
+            first = item_first_value([segment])
+            if first and is_sentences(first[1]):
+                return first[0]
+    if lead + 1 < len(cs):
+        first = item_first_value(cs[lead + 1])
+        if first and is_sentences(first[1]):
+            return first[0]
+    return None
+
+
+def item_leftovers(body: str) -> list[str]:
+    """I9: the first label of each statistics paragraph the pass leaves as a paragraph (a variant
+    of the item, a recipe), before or after the conversion. Sentence lines (I6) are not counted."""
+    cs, lead, construction = item_layout(body)
+    converted = "::: statblock" in body
+    unlabelled = construction_index(cs) if construction_unlabelled(cs) else None
+    found = []
+    for index, chunk in enumerate(cs):
+        if (not converted and index in (lead, construction)) or index == unlabelled:
+            continue
+        name = None
+        if is_stat_paragraph(chunk):
+            first = ITEM_LABEL.match(join_wrapped(chunk))
+            flat = join_wrapped("\n".join(chunk).split("\\\n")[0].split("\n"))
+            following = ITEM_LABEL.search(flat, first.end())
+            value = flat[first.end(): following.start() if following else len(flat)]
+            if not is_sentences(value.strip().rstrip(";")):
+                name = first.group(1)
+        elif re.fullmatch(r"\*\*[^*:]+\*\*\\", chunk[0]) and len(chunk) > 1:
+            name = chunk[0][2:-3]  # a variant: its name alone on the first line
+        if name:
+            found.append(re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", name))
+    return found
+
+
 # ---- running -------------------------------------------------------------------------------------
 
 
@@ -983,23 +1379,33 @@ def selected(path: Path, only) -> bool:
 def pass_files(root: Path, name: str) -> list[Path]:
     out = []
     for folder in PASS_FOLDERS[name]:
-        out.extend(sorted((root / "entries" / folder).glob("*.md")))
+        out.extend(sorted((root / "entries").glob(folder + "/*.md")))
+    if name == "item":
+        # Every folder but the carried PSRD entries and the creature folders; `plan_file` skips
+        # what is not an item.
+        out = [path for path in sorted(out) if path.parent.name not in NOT_ITEM_FOLDERS]
     return out
 
 
 def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
     """(status, detail, new text). Status: converted, already, skipped or a queue reason."""
     front, body = split_front(text)
-    if not re.search(r'^kind = "creature"$', front, re.M):
+    if not re.search(r'^kind = "' + PASS_KIND[name] + r'"$', front, re.M):
         return "skipped", "", text
     try:
-        classify, convert = (classify_npc, convert_npc) if name == "npc" else (classify_monster, convert_monster)
+        classify, convert = {
+            "creature": (classify_monster, convert_monster),
+            "npc": (classify_npc, convert_npc),
+            "item": (classify_item, convert_item),
+        }[name]
         state = classify(body)
         if state == "already":
             return "already", "", text
         if state == "old-labels":
             return "relabelled", "", front + relabel_npc(body)
         new_body = convert(body)
+        if new_body == body:
+            return "no-statistics", "", text
     except Queue as queued:
         return "queue:" + queued.reason, queued.detail, text
     new_text = front + new_body
@@ -1037,7 +1443,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
     """The review TSV for the whole corpus: the same before and after a conversion."""
     rows = []
     for rel, citation, note, _ in PRINT_FIXES:
-        kind = "creature" if "/monster/" in rel else "item"
+        kind = {"monster": "creature", "npc": "npc"}.get(rel.split("/")[1], "item")
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
     for name in passes:
         for path in pass_files(root, name):
@@ -1046,6 +1452,18 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
             status, detail, _ = plan_file(text, name)
             if status.startswith("queue:"):
                 rows.append((rel, name, status[6:], detail))
+            elif name == "item" and status != "skipped":
+                body = split_front(text)[1]
+                left = item_leftovers(body)
+                if left:
+                    rows.append((rel, name, "variant-paragraphs", "; ".join(left)))
+                cut = item_sentence_cut(body)
+                if cut:
+                    rows.append((rel, name, "block-ended-at-sentences", cut))
+                if construction_unlabelled(chunks(body.split("\n"))):
+                    rows.append((rel, name, "construction-unlabelled", ""))
+            if name == "item":
+                continue
             for row in print_254_rows(split_front(text)[1]):
                 rows.append((rel, name, "print-254", row))
     rows.sort()
@@ -1055,11 +1473,11 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
 def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sys.stdout) -> int:
     counts: collections.Counter = collections.Counter()
     changed = 0
-    for fix in PRINT_FIXES:
+    for fix in PRINT_FIXES + ANCHOR_EDITS:
         state, fixed = fix_state(root, fix)
-        print(f"print fix {fix[0]}: {state}", file=out)
+        print(f"{'print fix' if fix[1] else 'anchors'} {fix[0]}: {state}", file=out)
         if state == "unknown":
-            print(f"error: {fix[0]} matches neither side of its print fix", file=sys.stderr)
+            print(f"error: {fix[0]} matches neither side of its edit", file=sys.stderr)
             return 2
         if state == "pending":
             if mode == "write":
@@ -1079,6 +1497,8 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
             only_shown = True
             text = path.read_text(encoding="utf-8")
             status, detail, new_text = plan_file(text, name)
+            if status == "skipped":
+                continue
             counts[(name, status)] += 1
             if status in ("converted", "relabelled"):
                 changed += 1
@@ -1121,7 +1541,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -1398,7 +1818,8 @@ class SelfTest(unittest.TestCase):
             (root / "entries/monster").mkdir(parents=True)
             (root / "entries/eq-weaponenh").mkdir(parents=True)
             (root / "scripts").mkdir()
-            for rel, _, _, pairs in PRINT_FIXES:
+            for rel, _, _, pairs in PRINT_FIXES + ANCHOR_EDITS:
+                (root / rel).parent.mkdir(parents=True, exist_ok=True)
                 (root / rel).write_text(FRONT.replace("creature", "item") + "".join(pair[0] for pair in pairs), encoding="utf-8")
             (root / "entries/monster/aasimar.md").write_text(FRONT + SAMPLE, encoding="utf-8")
             (root / "entries/monster/zombie.md").write_text(FRONT + SAMPLE.replace("**Touch:** 10", "Prose."), encoding="utf-8")
@@ -1643,6 +2064,242 @@ class NpcSelfTest(unittest.TestCase):
         ):
             with self.assertRaises(ProofFailed):
                 prove_relabel(old, broken)
+
+
+ITEM_SAMPLE = r"""
+## Klar
+
+This shield is a short blade bound to a skull.
+
+**Cost** 12 gp **Weight** 6 lbs.\
+**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special** see
+text\
+**Category** [One-Handed](ref/rule/one-handed); **Proficiency** Martial\
+**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Close\
+**Preparation** The skull must be dried. This process takes 8 hours.\
+**Use** It is strapped on.
+
+**Note:** Stats are an extrapolation.
+
+### Construction
+
+**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must
+be a dwarf; **Cost** 6 gp
+
+**Tear-away klar**\
+**Sources:** Adventurer's Armory pg 19\
+**Price** +5 gp; **Weight** -
+
+### Variants
+
+**Cost** 20 gp; **Weight** 7 lbs.
+"""
+
+ITEM_EXPECTED = r"""
+## Klar
+
+This shield is a short blade bound to a skull.
+
+::: statblock
+Cost: 12 gp
+Weight: 6 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: see text
+Category: [One-Handed](ref/rule/one-handed)
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Close](ref/ability/weapon-groups#sec-close)
+:::
+
+**Preparation** The skull must be dried. This process takes 8 hours.\
+**Use** It is strapped on.
+
+**Note:** Stats are an extrapolation.
+
+### Construction
+
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a dwarf
+Cost: 6 gp
+:::
+
+**Tear-away klar**\
+**Sources:** Adventurer's Armory pg 19\
+**Price** +5 gp; **Weight** -
+
+### Variants
+
+**Cost** 20 gp; **Weight** 7 lbs.
+"""
+
+ITEM_FRONT = FRONT.replace("creature", "item")
+
+
+class ItemSelfTest(unittest.TestCase):
+    def queued(self, body: str) -> str:
+        with self.assertRaises(Queue) as caught:
+            classify_item(body)
+            convert_item(body)
+        return caught.exception.reason
+
+    def test_an_item_converts_by_the_rules(self):
+        self.assertEqual(convert_item(ITEM_SAMPLE), ITEM_EXPECTED)
+
+    def test_a_converted_item_reads_as_already_and_keeps_its_variant_queue(self):
+        status, _, text = plan_file(ITEM_FRONT + ITEM_SAMPLE, "item")
+        self.assertEqual((status, text), ("converted", ITEM_FRONT + ITEM_EXPECTED))
+        self.assertEqual(plan_file(text, "item"), ("already", "", text))
+        self.assertEqual(plan_file(FRONT + ITEM_SAMPLE, "item")[0], "skipped")
+        self.assertEqual(item_leftovers(ITEM_SAMPLE), ["Tear-away klar", "Cost"])
+        self.assertEqual(item_leftovers(ITEM_EXPECTED), ["Tear-away klar", "Cost"])
+
+    def test_an_item_without_a_lead_is_left_alone(self):
+        prose = "\nA metal.\n\n**Note:** No statistics.\n\n|A|B|\n| --- | --- |\n|1|2|\n"
+        self.assertEqual(plan_file(ITEM_FRONT + prose, "item")[0], "no-statistics")
+        under_heading = "\nA bow.\n\n### Composite\n\n**Cost** 5 gp; **Weight** 1 lb.\n"
+        self.assertEqual(plan_file(ITEM_FRONT + under_heading, "item")[0], "no-statistics")
+        self.assertEqual(item_leftovers(under_heading), ["Cost"])
+        self.assertEqual(item_leftovers(prose), [])
+
+    def test_only_the_cost_weight_pair_splits_without_a_separator(self):
+        self.assertEqual(self.queued(ITEM_SAMPLE.replace("**Critical** ×2; **Range**", "**Critical** ×2 **Range**")), "label-without-separator")
+        self.assertEqual(self.queued(ITEM_SAMPLE.replace("**Cost** 12 gp **Weight**", "**Price** 12 gp **Weight**")), "label-without-separator")
+
+    def test_weapon_groups_come_from_the_closed_list(self):
+        self.assertEqual(
+            weapon_group_value("Blades, Heavy; Blades, Light; Thrown"),
+            "[Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); "
+            "[Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Thrown](ref/ability/weapon-groups#sec-thrown)",
+        )
+        for value in ("Varies", "Blades, Heavy, Close", "Blades; Close", "Close;Monk", "Close; see text", ""):
+            with self.subTest(value=value):
+                self.assertEqual(self.queued(ITEM_SAMPLE.replace("Blades, Heavy; Close", value)), "weapon-group")
+
+    def test_what_the_item_rules_do_not_cover_is_queued(self):
+        cases = [
+            ("linked-label", ITEM_SAMPLE.replace("**Category**", "**[Hardness](ref/umr/hardness)**")),
+            ("linked-label", ITEM_SAMPLE.replace("**Requirements**", "**[Weapon Group](ref/ability/weapon-groups)**")),
+            ("unlabelled-line", ITEM_SAMPLE.replace("**Category** [One-Handed]", "[One-Handed]")),
+            ("label-without-separator", ITEM_SAMPLE.replace("be a dwarf; **Cost** 6 gp", "be a dwarf **Cost** 6 gp")),
+            ("sentences-mid-line", ITEM_SAMPLE.replace("**Category** [One-Handed](ref/rule/one-handed); **Proficiency** Martial", "**Category** One; **Proficiency** It must be learned. This takes a year.")),
+            ("colon-label", ITEM_SAMPLE.replace("**Category** [One", "**Category:** [One")),
+            ("sources-line-in-lead", ITEM_SAMPLE.replace("**Category** [One", "**Sources:** Book pg 1\\\n**Category** [One")),
+            ("label-twice", ITEM_SAMPLE.replace("**Proficiency** Martial", "**Type** Martial")),
+            ("label-needs-escape", ITEM_SAMPLE.replace("**Proficiency**", "**Profi_ciency**")),
+            ("escaped-edge", ITEM_SAMPLE.replace("**Proficiency** Martial", "**Proficiency** \\- Martial")),
+            ("prose-lead", ITEM_SAMPLE.replace("**Cost** 12 gp **Weight** 6 lbs.", "**Cost** The cost is high. Very high.")),
+            ("fence-in-body", ITEM_SAMPLE + "\n::: entry-link\ntarget = \"ref/x/y\"\n:::\n"),
+        ]
+        for reason, body in cases:
+            with self.subTest(reason=reason, body=body[60:140]):
+                self.assertNotEqual(body, ITEM_SAMPLE)
+                self.assertEqual(self.queued(body), reason)
+
+    def test_a_construction_paragraph_with_an_unlabelled_line_stays_prose(self):
+        tech = ITEM_SAMPLE.replace("be a dwarf; **Cost** 6 gp", "be a dwarf\\\nCraft Technological Item, production lab")
+        new = convert_item(tech)
+        expected = ITEM_EXPECTED.replace(
+            "::: statblock\nRequirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a dwarf\nCost: 6 gp\n:::",
+            "**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must\n"
+            "be a dwarf\\\nCraft Technological Item, production lab",
+        )
+        self.assertNotEqual(expected, ITEM_EXPECTED)
+        self.assertEqual(new, expected)
+        for body in (tech, new):
+            self.assertTrue(construction_unlabelled(chunks(body.split("\n"))))
+            self.assertEqual(item_leftovers(body), ["Tear-away klar", "Cost"])  # not a variant
+        self.assertFalse(construction_unlabelled(chunks(ITEM_SAMPLE.split("\n"))))
+        self.assertFalse(construction_unlabelled(chunks(ITEM_EXPECTED.split("\n"))))
+        # Only when the lead converts: a lead the rules cannot read still queues the file.
+        self.assertEqual(self.queued(tech.replace("**Category** [One-Handed]", "[One-Handed]")), "unlabelled-line")
+
+    def test_the_proof_requires_one_link_for_each_weapon_group(self):
+        for row in (
+            "[Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); Close",
+            "Blades, Heavy; [Close](ref/ability/weapon-groups#sec-close)",
+            "Blades, Heavy; Close",
+            "[Blades, Heavy; Close](ref/ability/weapon-groups#sec-heavy-blades)",
+            "[Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Close](ref/ability/weapon-groups#sec-close) ",
+        ):
+            text = re.sub(r"(?m)^Weapon Group: .*$", lambda _: "Weapon Group: " + row, ITEM_EXPECTED)
+            with self.subTest(row=row):
+                self.assertNotEqual(text, ITEM_EXPECTED)
+                with self.assertRaises(ProofFailed):
+                    prove_item(ITEM_SAMPLE, text)
+
+    def test_the_proof_fixes_where_the_sentence_rule_cuts_the_block(self):
+        # Late: a sentence line taken into the block.
+        late = ITEM_EXPECTED.replace(
+            ":::\n\n**Preparation** The skull must be dried. This process takes 8 hours.\\\n**Use**",
+            "Preparation: The skull must be dried. This process takes 8 hours.\n:::\n\n**Use**",
+        )
+        # Early: a row left out of the block, in front of the sentence lines.
+        early = ITEM_EXPECTED.replace(
+            "Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Close](ref/ability/weapon-groups#sec-close)\n:::\n\n",
+            ":::\n\n**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Close\\\n",
+        )
+        # No cut at all: the whole tail made rows.
+        none = ITEM_EXPECTED.replace(
+            ":::\n\n**Preparation** The skull must be dried. This process takes 8 hours.\\\n**Use** It is strapped on.",
+            "Preparation: The skull must be dried. This process takes 8 hours.\nUse: It is strapped on.\n:::",
+        )
+        for name, text in (("late", late), ("early", early), ("none", none)):
+            with self.subTest(name=name):
+                self.assertNotEqual(text, ITEM_EXPECTED)
+                self.assertEqual(item_words(text), item_words(ITEM_SAMPLE))  # the words alone do not show it
+                with self.assertRaises(ProofFailed):
+                    prove_item(ITEM_SAMPLE, text)
+
+    def test_the_sentence_cut_is_listed_before_and_after(self):
+        self.assertEqual(item_sentence_cut(ITEM_SAMPLE), "Preparation")
+        self.assertEqual(item_sentence_cut(ITEM_EXPECTED), "Preparation")
+        plain = ITEM_SAMPLE.replace("\\\n**Preparation** The skull must be dried. This process takes 8 hours.\\\n**Use** It is strapped on.", "")
+        self.assertEqual(item_sentence_cut(plain), None)
+        self.assertEqual(item_sentence_cut(convert_item(plain)), None)
+        cut_at_second_line = "\n**Price** 5 gp\\\n**Use** It must be worn on the arm for a full day to work.\n"
+        self.assertEqual(convert_item(cut_at_second_line), "\n::: statblock\nPrice: 5 gp\n:::\n\n**Use** It must be worn on the arm for a full day to work.\n")
+        self.assertEqual(item_sentence_cut(cut_at_second_line), "Use")
+        self.assertEqual(item_sentence_cut(convert_item(cut_at_second_line)), "Use")
+
+    def test_sentences_end_the_block_and_units_do_not(self):
+        for value in ("4 lbs.", "1d6 (small), 1d8 (medium)", "see text.", "5 ft. (10 ft. with lance)", "30 gp. Masterwork"):
+            self.assertFalse(is_sentences(value), value)
+        for value in ("The skull must be dried. This process takes 8 hours.", "It must be worn on the arm for a full day to work."):
+            self.assertTrue(is_sentences(value), value)
+
+    def test_the_item_proof_fails_on_any_other_change(self):
+        prove_item(ITEM_SAMPLE, ITEM_EXPECTED)
+        broken = [
+            ITEM_EXPECTED.replace("Critical: ×2\n", ""),
+            ITEM_EXPECTED.replace("Weight: 6 lbs.", "Weight: 6 lb."),
+            ITEM_EXPECTED.replace("Cost: 6 gp", "Cost: 7 gp"),
+            ITEM_EXPECTED.replace("Category: [One-Handed](ref/rule/one-handed)", "Category: One-Handed"),
+            ITEM_EXPECTED.replace("[Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)", "[Blades, Light](ref/ability/weapon-groups#sec-light-blades)"),
+            ITEM_EXPECTED.replace("#sec-heavy-blades", "#sec-light-blades"),  # the right text on the wrong section
+            ITEM_EXPECTED.replace("[Close](ref/ability/weapon-groups#sec-close)", "[Close](ref/rule/close)"),
+            ITEM_EXPECTED.replace("; [Close](ref/ability/weapon-groups#sec-close)", ""),
+            ITEM_EXPECTED.replace("; [Close]", ", [Close]"),
+            ITEM_EXPECTED.replace("**Price** +5 gp; **Weight** -", "**Price** +5 gp **Weight** -"),  # a paragraph the pass must not touch
+            ITEM_EXPECTED.replace("**Note:** Stats", "**Note** Stats"),
+            ITEM_EXPECTED.replace("**Use** It is strapped on.", "**Use** It is strapped."),
+            ITEM_EXPECTED.replace("### Construction", "### Constructions"),
+            ITEM_EXPECTED.replace("This shield is", "This  shield is"),
+        ]
+        for number, text in enumerate(broken):
+            with self.subTest(number=number):
+                self.assertNotEqual(text, ITEM_EXPECTED)
+                with self.assertRaises(ProofFailed):
+                    prove_item(ITEM_SAMPLE, text)
+
+    def test_the_weapon_group_headings_get_their_keys_as_anchors(self):
+        pairs = dict(ANCHOR_EDITS[0][3])
+        self.assertEqual(pairs["\n### Heavy Blades\n"], "\n### Heavy Blades {#sec-heavy-blades}\n")
+        self.assertEqual(pairs["\n### Siege Engines\n"], "\n### Siege Engines {#sec-siege-engines}\n")
+        for old, new in pairs.items():
+            self.assertEqual(heading_keys([old.strip()]), heading_keys([new.strip()]))
+        self.assertEqual(len(pairs), len(WEAPON_GROUPS))
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))

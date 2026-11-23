@@ -21,7 +21,14 @@ bolts. It comes in both [light](ref/eq-weapon/light-slavers-crossbow) and heavy 
 double, hand, or repeating crossbow varieties) with the same reload action as a conventional
 crossbow of its type.
 
-**Cost** 400 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/see "bolas bolts" text; **Range** 80 ft.;
-**Type** B; **Special** [nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip), see text\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 400 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/see "bolas bolts" text
+Range: 80 ft.
+Type: B
+Special: [nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip), see text
+Category: Ranged
+Proficiency: Exotic
+:::

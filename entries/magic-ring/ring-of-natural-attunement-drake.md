@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 12,880 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 12,880 gp
+Weight: -
+:::
 
 This coiling band is made of jade carved into the shape of a sea drake. If the wearer can cast
 _[summon nature's ally](ref/spell/summon-natures-ally)_ spells, the wearer adds
@@ -36,6 +41,7 @@ _[summon nature's ally IV](ref/spell/summon-natures-ally-4)_ spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[greater magic fang](ref/spell/magic-fang-greater),
-[summon nature's ally IV](ref/spell/summon-natures-ally-4); **Cost** 6,440 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [greater magic fang](ref/spell/magic-fang-greater), [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Cost: 6,440 gp
+:::

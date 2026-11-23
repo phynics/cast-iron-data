@@ -21,8 +21,15 @@ weight = "4 lbs."
 
 A trident has three metal prongs at end of a 4-foot-long shaft. This weapon can be thrown.
 
-**Cost** 15 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P; **Special**
-[brace](ref/misc/brace)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 15 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P
+Special: [brace](ref/misc/brace)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

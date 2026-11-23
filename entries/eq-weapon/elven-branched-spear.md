@@ -23,8 +23,15 @@ opportunity provoked by movement, you gain a +2 bonus on attack rolls. You can u
 Strength modifier on attack rolls with an elven branched spear sized for you, even though it isn't a
 light weapon. Elves treat elven branched spears as martial weapons.
 
-**Cost** 20 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Spears
+::: statblock
+Cost: 20 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears)
+:::

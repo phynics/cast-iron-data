@@ -30,8 +30,15 @@ into a shield once it hits. Like ammunition, a thrown pilum that hits its target
 you hit a shield-bearing opponent with a pilum, he loses the AC bonuses from that shield until he
 takes a standard action to pry the remnants of the pilum from his shield.
 
-**Cost** 5 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** 20 ft.; **Type** P; **Special** see
-text\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 5 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: P
+Special: see text
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

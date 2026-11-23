@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 This variant ring of ki mastery is made of a lock of hair held together by small bands to form a
 ring. The ring allows a wearer with a ki pool to store up to 2 ki points in the ring as a swift
@@ -37,5 +42,7 @@ when making a flurry of blows instead of a -2 penalty.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [ki leech](ref/spell/ki-leech), the creator must
-have the ki pool class feature; **Cost** 7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [ki leech](ref/spell/ki-leech), the creator must have the ki pool class feature
+Cost: 7,500 gp
+:::

@@ -24,7 +24,11 @@ These foot-long arrows are used as ammunition for
 [improvised](ref/misc/improvised-weapons) melee weapon, they deal damage equivalent to that of a
 [spiked gauntlet](ref/eq-weapon/spiked-gauntlet). They come in a bamboo tube that holds 10 shafts.
 
-**Cost** 0.1 gp **Weight** 0.05 lb.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.05 lb.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

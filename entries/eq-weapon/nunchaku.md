@@ -21,8 +21,15 @@ weight = "2 lbs."
 
 A nunchaku is made up of two wooden or metal bars connected by a short length of rope or chain.
 
-**Cost** 2 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails; Monk
+::: statblock
+Cost: 2 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [monk](ref/misc/monk)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

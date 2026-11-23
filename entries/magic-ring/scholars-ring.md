@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate conjuration; **CL** 5th\
-**Slot** ring; **Price** 8,700 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 5th
+Slot: ring
+Price: 8,700 gp
+Weight: -
+:::
 
 A scholar's ring grants complete understanding of any written text or spoken language, even one that
 the wearer has never encountered before (as the
@@ -35,6 +40,7 @@ Knowledge (history) check aided by the ring.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[comprehend languages](ref/spell/comprehend-languages), [legend lore](ref/spell/legend-lore);
-**Cost** 4,350 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [comprehend languages](ref/spell/comprehend-languages), [legend lore](ref/spell/legend-lore)
+Cost: 4,350 gp
+:::

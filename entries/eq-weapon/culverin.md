@@ -29,8 +29,16 @@ rolls, and knocks you [prone](ref/rule/prone). A culverin uses 4 doses of
 the original, hand-held culverins - their larger descendants are considered cannons and are dealt
 with in the siege weapon section. This is an early firearm.
 
-**Cost** 4,000 gp **Weight** 40 lbs.\
-**Damage** 2d6 (small), 2d8 (medium); **Critical** ×4; **Range** 30 ft.; **Type** B and P;
-**Special** scatter\
-**Misfire** 1 (10 ft.); **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 4,000 gp
+Weight: 40 lbs.
+Damage: 2d6 (small), 2d8 (medium)
+Critical: ×4
+Range: 30 ft.
+Type: B and P
+Special: scatter
+Misfire: 1 (10 ft.)
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

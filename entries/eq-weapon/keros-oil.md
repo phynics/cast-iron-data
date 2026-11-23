@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 Also known as firebreather's oil, this bitter liquid is harder to ignite than common
 [oil](ref/eq-misc/oil) but burns quickly at a low temperature, making it ideal for exotic performers

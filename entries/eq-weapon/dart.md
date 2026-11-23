@@ -25,7 +25,15 @@ weight = "0.5 lb."
 This thrown weapon is larger than an arrow and shorter than a javelin, with a weighted tip and a
 shorter range than a javelin. Most darts are wooden shafts with a thick metal point.
 
-**Cost** 0.5 gp **Weight** 0.5 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 20 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 0.5 gp
+Weight: 0.5 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

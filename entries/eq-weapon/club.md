@@ -22,7 +22,15 @@ weight = "3 lbs."
 This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in
 it.
 
-**Cost** - **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B; **Special** -\
-**Category** One-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Thrown; Tribal
+::: statblock
+Cost: -
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B
+Special: -
+Category: One-Handed
+Proficiency: Simple
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Thrown](ref/ability/weapon-groups#sec-thrown); [Tribal](ref/ability/weapon-groups#sec-tribal)
+:::

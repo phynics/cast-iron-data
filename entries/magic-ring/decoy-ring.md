@@ -21,8 +21,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 This ring is a thick loop of mirror-like metal. Whenever the wearer of this ring takes the
 [withdraw](ref/rule/withdraw) action or becomes [helpless](ref/misc/helpless) (including falling
@@ -34,4 +39,7 @@ the wearer always know her true location and can freely provide aid or assistanc
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [mislead](ref/spell/mislead); **Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [mislead](ref/spell/mislead)
+Cost: 6,000 gp
+:::

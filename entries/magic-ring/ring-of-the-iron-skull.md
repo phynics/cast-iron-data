@@ -21,8 +21,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** ring; **Price** 10,800 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: ring
+Price: 10,800 gp
+Weight: -
+:::
 
 Crudely cut amethysts and a single engraved skull decorate the band of this thick iron ring. The
 ring grants its wearer a +5 competence bonus on Appraise checks to determine the most valuable item
@@ -36,5 +41,7 @@ hours before it starts to function for the wearer.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [blood biography](ref/spell/blood-biography),
-[locate object](ref/spell/locate-object); **Cost** 5,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [blood biography](ref/spell/blood-biography), [locate object](ref/spell/locate-object)
+Cost: 5,400 gp
+:::

@@ -24,8 +24,15 @@ When the cord is pulled as a move action, the blade spins rapidly for a number o
 your Strength bonus. While the blade is spinning, you gain a +2 bonus on damage rolls with the
 weapon. When the blade is not spinning, treat this weapon as a [glaive](ref/eq-weapon/glaive).
 
-**Cost** 30 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 30 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

@@ -27,8 +27,16 @@ taking a -4 penalty on each shot. Each barrel of a double-barreled musket uses e
 or a single [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammunition. This is an
 early firearm.
 
-**Cost** 2,500 gp **Weight** 11 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×4; **Range** 10 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-3 (5 ft.); **Capacity** 2\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 2,500 gp
+Weight: 11 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×4
+Range: 10 ft.
+Type: B and P
+Special: -
+Misfire: 1-3 (5 ft.)
+Capacity: 2
+Category: Two-Handed
+Proficiency: Exotic
+:::

@@ -19,9 +19,14 @@ category = "Armor"
 weight = "6 lbs."
 +++
 
-**Cost** 53 gp **Weight** 6 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 53 gp
+Weight: 6 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 5%
+:::
 
 A wooden quickdraw shield is essentially the same as a
 [steel quickdraw shield](ref/eq-armor/light-steel-quickdraw-shield), except it responds differently

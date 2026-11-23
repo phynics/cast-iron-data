@@ -25,6 +25,14 @@ with one hand and carry a shield, and still make off-hand attacks with the sea-k
 with a sea-knife take a -2 circumstance penalty on attack rolls in addition to all other attack
 penalties.
 
-**Cost** 8 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Martial
+::: statblock
+Cost: 8 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: -
+Category: Light
+Proficiency: Martial
+:::

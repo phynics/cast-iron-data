@@ -31,7 +31,14 @@ You gain the following additional option when grappling with a garrote.
 > maintain the choke, your opponent can take a breath and restart when he has to begin making
 > Constitution checks.
 
-**Cost** 3 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[grapple](ref/misc/grapple), see text\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 3 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [grapple](ref/misc/grapple), see text
+Category: Two-Handed
+Proficiency: Exotic
+:::

@@ -31,8 +31,15 @@ target is grappled, you can perform a move or damage grapple action against him.
 [hardness](ref/umr/hardness) 10 and 5 hit points; breaking it requires a DC 26 Strength check. If
 you drop the mancatcher, the target can free himself as a standard action.
 
-**Cost** 15 gp **Weight** 10 lbs.\
-**Damage** 1 (small), 1d2 (medium); **Critical** -; **Range** -; **Type** P; **Special**
-[reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 15 gp
+Weight: 10 lbs.
+Damage: 1 (small), 1d2 (medium)
+Critical: -
+Range: -
+Type: P
+Special: [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

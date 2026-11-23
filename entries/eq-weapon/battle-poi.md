@@ -26,8 +26,15 @@ fire damage. If you are proficient in battle poi, you are treated as if you have
 can be extinguished by spending a full round action smothering them in sand or submerging them in
 water.
 
-**Cost** 5 gp **Weight** 2 lbs.\
-**Damage** 1d3 fire (small), 1d4 fire (medium); **Critical** ×2; **Range** -; **Type** fire;
-**Special** -\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 5 gp
+Weight: 2 lbs.
+Damage: 1d3 fire (small), 1d4 fire (medium)
+Critical: ×2
+Range: -
+Type: fire
+Special: -
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

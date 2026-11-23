@@ -24,8 +24,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** ring; **Price** 90,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: ring
+Price: 90,000 gp
+Weight: -
+:::
 
 This white gold ring is generally set with a large green sapphire. When worn, the ring continually
 allows a living wearer to heal 1 point of damage per round and an equal amount of nonlethal damage.
@@ -36,5 +41,7 @@ damage taken while wearing the ring is regenerated.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [regenerate](ref/spell/regenerate); **Cost**
-45,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [regenerate](ref/spell/regenerate)
+Cost: 45,000 gp
+:::

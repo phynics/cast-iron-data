@@ -27,7 +27,14 @@ Hook hands can't be disarmed. They generally don't interfere with day-to-day act
 be used for tasks that would require an actual hand (such as completing somatic components, drawing
 arrows, or holding a weapon with both hands).
 
-**Cost** 10 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm)\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 10 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm)
+Category: Light
+Proficiency: Simple
+:::

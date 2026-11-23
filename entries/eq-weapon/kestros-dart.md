@@ -23,7 +23,11 @@ for stability. If used as a melee weapon, it is a light
 [dagger](ref/eq-weapon/dagger) of its size (critical multiplier ×2). Kestros darts come in a quiver
 that holds 10 darts.
 
-**Cost** 0.5 gp **Weight** 0.5 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.5 gp
+Weight: 0.5 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

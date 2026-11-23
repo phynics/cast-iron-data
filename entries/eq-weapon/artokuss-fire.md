@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This congealed incendiary functions like [alchemist's fire](ref/eq-weapon/alchemists-fire), but its
 white-hot flames deal 2d6 points of fire damage on a direct hit and 1d6 points of splash damage to

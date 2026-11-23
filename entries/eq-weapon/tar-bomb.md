@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Price** 15 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 A tar bomb is an easy weapon to make, and devastating in use. A head-sized lump of tar is wrapped
 around a rope and set on fire. You use the rope to lob the burning tar onto an enemy's deck, where

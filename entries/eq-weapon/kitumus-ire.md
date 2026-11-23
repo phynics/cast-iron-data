@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 Named after a malevolent [Mwangi goddess](ref/faith/kitumu), this sack of luminous paste is made
 from crushed jungle flowers. You can throw Kitumu's ire as a ranged touch attack with a range

@@ -21,8 +21,13 @@ aura = "strong enchantment and evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong enchantment and evocation; **CL** 13th\
-**Slot** ring; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment and evocation
+CL: 13th
+Slot: ring
+Price: 50,000 gp
+Weight: -
+:::
 
 This white-gold ring bears the relief image of a roaring lion. Once per day on command, the wearer
 can point the ring and mentally designate one or more creatures or objects in a 60-foot cone as
@@ -38,5 +43,7 @@ In addition, the ring grants the wearer a +4 enhancement bonus to Charisma; trea
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor),
-[good hope](ref/spell/good-hope), [shout](ref/spell/shout); **Cost** 25,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor), [good hope](ref/spell/good-hope), [shout](ref/spell/shout)
+Cost: 25,000 gp
+:::

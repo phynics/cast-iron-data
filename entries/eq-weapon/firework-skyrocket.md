@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 When lit, this foot-long wooden tube begins to shake and emit a handful of white sparks, shedding
 light as a [torch](ref/eq-misc/torch). One round later it takes flight, moving at a speed of 90 feet

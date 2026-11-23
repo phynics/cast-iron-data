@@ -23,7 +23,11 @@ Sling bullets are shaped metal balls, designed to be used by a [sling](ref/eq-we
 [halfling sling staff](ref/eq-weapon/halfling-sling-staff). Bullets come in a leather pouch that
 holds 10 bullets.
 
-**Cost** 0.01 gp **Weight** 0.5 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.01 gp
+Weight: 0.5 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

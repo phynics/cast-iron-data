@@ -24,7 +24,15 @@ Throwing axes have a variety of alternative names, including franciscas, tomahaw
 axe is normally gripped by the haft and thrown overhand, making one complete rotation in the air
 before biting into the target with the axe head.
 
-**Cost** 8 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 10 ft.; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Thrown; Tribal
+::: statblock
+Cost: 8 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: S
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Thrown](ref/ability/weapon-groups#sec-thrown); [Tribal](ref/ability/weapon-groups#sec-tribal)
+:::

@@ -23,8 +23,15 @@ Made to resemble a courtier's fan, this device consists of silk paper stretched 
 folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that
 distracts the opponent. The fans sport sharp tips, which can be poisoned.
 
-**Cost** 5 gp **Weight** -\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[distracting](ref/misc/distracting), [monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Close; Monk
+::: statblock
+Cost: 5 gp
+Weight: -
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [distracting](ref/misc/distracting), [monk](ref/misc/monk)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

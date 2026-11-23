@@ -21,8 +21,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** ring; **Price** 9,250 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: ring
+Price: 9,250 gp
+Weight: -
+:::
 
 This golden ring is set with a large, almost gaudy onyx that can open to reveal a hidden compartment
 with just enough room for a single dose of powdered poison. This ring provides a +2 competence bonus
@@ -34,5 +39,7 @@ by touching the onyx once, the frequency would become 1/round for 3 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pernicious poison](ref/spell/pernicious-poison); **Cost** 4,625 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pernicious poison](ref/spell/pernicious-poison)
+Cost: 4,625 gp
+:::

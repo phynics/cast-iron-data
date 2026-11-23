@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 This band negates any force spell or force [spell-like ability](ref/umr/spell-like-abilities)
 targeted at the wearer. Doing so gives the ring a number of charges equal to the spell level of the
@@ -37,5 +42,7 @@ but no more than five missiles per round.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Heighten Spell](ref/feat/heighten-spell),
-[magic missile](ref/spell/magic-missile); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Heighten Spell](ref/feat/heighten-spell), [magic missile](ref/spell/magic-missile)
+Cost: 4,000 gp
+:::

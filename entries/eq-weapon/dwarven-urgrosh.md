@@ -26,8 +26,15 @@ other becomes the off-hand weapon. If you use an urgrosh against a charging char
 head is the part of the weapon that deals damage. Dwarves treat dwarven urgroshes as martial
 weapons.
 
-**Cost** 50 gp **Weight** 12 lbs.\
-**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** ×3; **Range** -; **Type** P or S;
-**Special** [brace](ref/misc/brace), [double](ref/misc/double)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double
+::: statblock
+Cost: 50 gp
+Weight: 12 lbs.
+Damage: 1d6/1d4 (small), 1d8/1d6 (medium)
+Critical: ×3
+Range: -
+Type: P or S
+Special: [brace](ref/misc/brace), [double](ref/misc/double)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double)
+:::

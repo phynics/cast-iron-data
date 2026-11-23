@@ -19,9 +19,14 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 3 gp **Weight** 5 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 3 gp
+Weight: 5 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 5%
+:::
 
 A light wooden shield is essentially the same as a
 [light steel shield](ref/eq-armor/light-steel-shield), except it responds differently to some spells

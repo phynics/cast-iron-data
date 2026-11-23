@@ -24,7 +24,15 @@ instead of your Strength modifier to attack rolls with a rapier sized for you, e
 a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength
 modifier to its damage.
 
-**Cost** 20 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 20 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

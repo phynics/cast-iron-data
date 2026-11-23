@@ -23,8 +23,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This coarse gray powder ignites and burns almost instantly if exposed to flame, significant
 friction, or even simple force such as throwing it against a floor (a standard action). Creatures

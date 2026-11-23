@@ -21,8 +21,13 @@ aura = "faint conjuration [good, law]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[good, law\]; **CL** 5th\
-**Slot** ring; **Price** 7,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[good, law\]
+CL: 5th
+Slot: ring
+Price: 7,000 gp
+Weight: -
+:::
 
 This ring is made of hammered steel. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -34,5 +39,7 @@ command the wearer can use this ring to summon a harbinger, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be neutral good; **Cost** 3,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be neutral good
+Cost: 3,500 gp
+:::

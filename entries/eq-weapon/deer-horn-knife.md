@@ -21,8 +21,15 @@ center with four projecting points. The blades can differ in length. One side of
 wrapped to serve as a grip while the other acts as a guard. Deer horn knives are traditionally used
 in pairs.
 
-**Cost** 10 gp **Weight** 3 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×3; **Range** 20 ft.; **Type** P; **Special**
-[blocking](ref/misc/blocking), [monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Monk; Thrown
+::: statblock
+Cost: 10 gp
+Weight: 3 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: P
+Special: [blocking](ref/misc/blocking), [monk](ref/misc/monk)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Monk](ref/ability/weapon-groups#sec-monk); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

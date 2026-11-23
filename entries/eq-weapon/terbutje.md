@@ -22,8 +22,15 @@ weight = "2 lbs."
 This Stone Age weapon, also called a macuahuitl, is made from a length of tempered wood. It has bits
 of shark teeth, obsidian, glass, or similar materials studded all along its length.
 
-**Cost** 5 gp **Weight** 2 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[fragile](ref/misc/fragile)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 5 gp
+Weight: 2 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [fragile](ref/misc/fragile)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This sealed vial contains a highly potent indigo liquid and is an essential item for Dongun Hold
 miners, who often keep such vials handy for use against hostile subterranean creatures. The vial can

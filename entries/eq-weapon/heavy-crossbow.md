@@ -30,8 +30,15 @@ heavy crossbow with one hand at a -4 penalty on attack rolls. You can shoot a he
 each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This
 penalty is cumulative with the penalty for one-handed firing.
 
-**Cost** 50 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 50 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

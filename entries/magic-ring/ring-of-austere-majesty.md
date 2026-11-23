@@ -21,8 +21,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** ring; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: ring
+Price: 3,000 gp
+Weight: -
+:::
 
 A dozen tiny gemstones line the outer edges of this golden ring. As long as one or more creatures
 can see it, the ring grants its wearer a +2 circumstance bonus on Diplomacy and Intimidate checks to
@@ -34,5 +39,7 @@ continued back-and-forth exchange of exaltations about the ring's artistry.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [aphasia](ref/spell/aphasia),
-[eagle's splendor](ref/spell/eagles-splendor); **Cost** 1,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [aphasia](ref/spell/aphasia), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 1,500 gp
+:::

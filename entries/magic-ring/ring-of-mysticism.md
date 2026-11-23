@@ -20,9 +20,13 @@ aura = "moderate (no school)"
 caster_level = "11th"
 +++
 
-**Aura** moderate (no school); **CL** 11th\
-**Slot** ring; **Price** 20,000 gp (Type I), 40,000 gp (Type II), 70,000 gp (Type III), 100,000 gp
-(Type IV); **Weight** -
+::: statblock
+Aura: moderate (no school)
+CL: 11th
+Slot: ring
+Price: 20,000 gp (Type I), 40,000 gp (Type II), 70,000 gp (Type III), 100,000 gp (Type IV)
+Weight: -
+:::
 
 This ring of bone fused with crystal comes in four varieties, all of them useful only to psychic
 spellcasters. The wearer's number of psychic spells per day is doubled for one specific spell level.
@@ -31,5 +35,7 @@ spells, and type IV doubles 4th-level spells. Bonus spells from high ability sco
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish); **Cost**
-10,000 gp (Type I), 20,000 gp (Type II), 35,000 gp (Type III), 50,000 gp (Type IV)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish)
+Cost: 10,000 gp (Type I), 20,000 gp (Type II), 35,000 gp (Type III), 50,000 gp (Type IV)
+:::

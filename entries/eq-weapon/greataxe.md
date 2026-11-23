@@ -23,7 +23,15 @@ This two-handed battle axe is heavy enough that you can't wield it with one hand
 one blade or two, and may be "bearded" (meaning hooked or trailing at the bottom) to increase
 cleaving power and help pull down enemy shields. The haft is usually 3 to 4 feet long.
 
-**Cost** 20 gp **Weight** 12 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 20 gp
+Weight: 12 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

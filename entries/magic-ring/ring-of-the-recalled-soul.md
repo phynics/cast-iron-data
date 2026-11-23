@@ -21,8 +21,13 @@ aura = "moderate illusion"
 caster_level = "18th"
 +++
 
-**Aura** moderate illusion; **CL** 18th\
-**Slot** ring; **Price** 150,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 18th
+Slot: ring
+Price: 150,000 gp
+Weight: -
+:::
 
 The ring of the recalled soul allows the wearer to open a door into a nearby mindscape they are
 aware of as if using the spell _[mindscape door](ref/spell/mindscape-door),_ but the targeted
@@ -44,5 +49,7 @@ as he is not within the mindscape.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [mindscape door](ref/spell/mindscape-door);
-**Cost** 75,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [mindscape door](ref/spell/mindscape-door)
+Cost: 75,000 gp
+:::

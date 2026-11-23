@@ -25,8 +25,15 @@ weight = "2 lbs."
 This blade is a smaller, lighter version of the [shotel](ref/eq-weapon/shotel). You gain a +1 bonus
 on attack rolls with a sica against opponents using bucklers, light shields, or heavy shields.
 
-**Cost** 10 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[performance](ref/misc/performance)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 10 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [performance](ref/misc/performance)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

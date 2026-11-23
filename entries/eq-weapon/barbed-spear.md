@@ -28,7 +28,14 @@ healing. Like caltrops, barbed spears may not work against unusual opponents. A 
 embeds its caltrop-like head into a target's foot gains the [broken](ref/misc/broken) condition, and
 can't be used as a weapon until it's repaired.
 
-**Cost** 15 gp **Weight** 10 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special**
-[fragile](ref/misc/fragile), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 15 gp
+Weight: 10 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: [fragile](ref/misc/fragile), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Exotic
+:::

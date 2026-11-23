@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This finger-sized explosive detonates noisily 1 round after lighting. Anyone in the same square as a
 paper candle when it explodes must make a DC 15 Fortitude save or be [dazzled](ref/misc/dazzled) for

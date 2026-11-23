@@ -23,8 +23,15 @@ Gnomes use these narrow, reinforced, 4-foot ladders as weapons. Fighting with a 
 like fighting with a quarterstaff, except that the spaces in the ladder can be used to entangle
 limbs, granting the ladder the trip weapon feature.
 
-**Cost** 20 gp **Weight** 8 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[double](ref/misc/double), [trip](ref/misc/trip), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double
+::: statblock
+Cost: 20 gp
+Weight: 8 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [double](ref/misc/double), [trip](ref/misc/trip), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double)
+:::

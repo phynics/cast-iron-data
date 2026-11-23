@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "5 lbs."
 +++
 
-**Price** 150 gp; **Weight** 5 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 150 gp
+Weight: 5 lbs.
+Category: Alchemical Weapons
+:::
 
 This sack contains tanglefoot bag materials and alchemical powders that burn at a high temperature.
 It functions like a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag), plus a direct hit on a creature

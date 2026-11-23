@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This bronze band is covered in geometric shapes and studded with tiny pearls. The wearer of the ring
 gains a constant _[endure elements](ref/spell/endure-elements)_ effect and a +5 competence bonus on
@@ -34,5 +39,7 @@ benefits of a single spear at any one time.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Self-Sufficient](ref/feat/self-sufficient),
-[endure elements](ref/spell/endure-elements); **Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Self-Sufficient](ref/feat/self-sufficient), [endure elements](ref/spell/endure-elements)
+Cost: 5,000 gp
+:::

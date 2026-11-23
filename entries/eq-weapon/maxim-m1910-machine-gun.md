@@ -28,7 +28,16 @@ weapon, firing a Maxim M1910 machine gun that is not mounted imparts a -4 penalt
 and the recoil knocks the wielder prone. The Maxim M1910 is automatic-fire only. The armored shield
 provides cover when firing the weapon from the prone position.
 
-**Cost** 1,500 gp **Weight** 140 lbs.\
-**Damage** 2d8 (medium); **Critical** ×4; **Range** 120 ft.; **Type** B and P; **Special** automatic\
-**Misfire** 1-2; **Capacity** 250\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 1,500 gp
+Weight: 140 lbs.
+Damage: 2d8 (medium)
+Critical: ×4
+Range: 120 ft.
+Type: B and P
+Special: automatic
+Misfire: 1-2
+Capacity: 250
+Category: Two-Handed
+Proficiency: Exotic
+:::

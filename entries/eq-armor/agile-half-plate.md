@@ -19,10 +19,16 @@ category = "Armor"
 weight = "55 lbs."
 +++
 
-**Cost** 850 gp **Weight** 55 lbs.\
-**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
-**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 850 gp
+Weight: 55 lbs.
+Armor Bonus: +8
+Max Dex Bonus: +0
+Armor Check Penalty: -7
+Arcane Spell Failure Chance: 40%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 This style of [half-plate](ref/eq-armor/half-plate) is specially crafted in a manner that allows
 extra maneuverability for some physical activities. The armor check penalty for

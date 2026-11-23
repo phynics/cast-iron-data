@@ -29,8 +29,16 @@ elaborate maker's marks.
 A shotgun uses [metal cartridges](ref/eq-weapon/metal-cartridge) (loaded with either a bullet or
 pellets) as ammunition. This is an advanced firearm.
 
-**Cost** 5,000 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B and P;
-**Special** scatter\
-**Misfire** 1-2; **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 5,000 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B and P
+Special: scatter
+Misfire: 1-2
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

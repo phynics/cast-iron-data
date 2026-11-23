@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** ring; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: ring
+Price: 8,500 gp
+Weight: -
+:::
 
 Contract rings are crafted in pairs (the price is for both rings), establishing a connection between
 the wearers. Each wearer must wear their ring for 24 hours before they begin to work. Contract rings
@@ -43,5 +48,7 @@ one wearer's _[lesser geas](ref/spell/geas-lesser)_ is broken, the other wearer'
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts),
-[lesser geas](ref/spell/geas-lesser), [share language](ref/spell/share-language); **Cost** 4,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts), [lesser geas](ref/spell/geas-lesser), [share language](ref/spell/share-language)
+Cost: 4,250 gp
+:::

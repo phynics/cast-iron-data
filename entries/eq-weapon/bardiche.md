@@ -27,8 +27,15 @@ blade attaches to a socket at the top of the haft, and the lower point of the bl
 secondary mount point. The blade is often very long, sometimes almost as long as the haft. You gain
 a +2 bonus to your CMD to resist sunder attempts made against a bardiche.
 
-**Cost** 13 gp **Weight** 14 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Polearms
+::: statblock
+Cost: 13 gp
+Weight: 14 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

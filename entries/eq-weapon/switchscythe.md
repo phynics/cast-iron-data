@@ -26,8 +26,15 @@ of work, which grants a +5 bonus on such checks. This disguise is ruined when th
 and must be reapplied to hide the weapon again. Any effects that apply to a scythe also apply to a
 switchscythe.
 
-**Cost** 18 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×4; **Range** -; **Type** P or S; **Special**
-[trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 18 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×4
+Range: -
+Type: P or S
+Special: [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

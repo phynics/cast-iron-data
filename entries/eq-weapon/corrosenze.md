@@ -17,8 +17,11 @@ price = "90 gp"
 weight = "1 lb."
 +++
 
-**Price** 90 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 90 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This gritty sand bonds to surfaces that resist energy damage, corroding the protection. Corrosenze
 can be applied to a weapon as if it were a poison. A creature struck with a weapon coated with

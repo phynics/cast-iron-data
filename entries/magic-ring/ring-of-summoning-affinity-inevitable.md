@@ -21,8 +21,13 @@ aura = "faint conjuration [law]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[law\]; **CL** 5th\
-**Slot** ring; **Price** 8,100 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[law\]
+CL: 5th
+Slot: ring
+Price: 8,100 gp
+Weight: -
+:::
 
 This ring resembles a gear or cog. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -35,5 +40,7 @@ wearer can use this ring to summon an arbiter, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be lawful neutral; **Cost** 4,050 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be lawful neutral
+Cost: 4,050 gp
+:::

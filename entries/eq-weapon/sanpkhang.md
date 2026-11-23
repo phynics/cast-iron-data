@@ -21,8 +21,15 @@ bloodstream. Any injury poison delivered with a sanpkhang has its DC increased b
 delivered as part of a critical hit or sneak attack. The [vishkanya's](ref/race/vishkanya) weapon
 familiarity racial trait grants proficiency with the sanpkhang.
 
-**Cost** 60 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** P or S;
-**Special** [monk](ref/misc/monk), see text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Monk
+::: statblock
+Cost: 60 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P or S
+Special: [monk](ref/misc/monk), see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

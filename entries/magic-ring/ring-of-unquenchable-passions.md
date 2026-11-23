@@ -21,8 +21,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** ring; **Price** 6,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: ring
+Price: 6,500 gp
+Weight: -
+:::
 
 This gold ring bears three dagger-shaped marks. It functions as a
 [ring of protection +1](ref/magic-ring/ring-of-protection-1). In addition, it grants a +5 competence
@@ -31,6 +36,7 @@ against disease.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [resistance](ref/spell/resistance),
-[shield of faith](ref/spell/shield-of-faith), creator must have 5 ranks in Acrobatics, creator must
-be at least 3rd level; **Cost** 3,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [resistance](ref/spell/resistance), [shield of faith](ref/spell/shield-of-faith), creator must have 5 ranks in Acrobatics, creator must be at least 3rd level
+Cost: 3,250 gp
+:::

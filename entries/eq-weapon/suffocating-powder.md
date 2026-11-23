@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "2 lbs."
 +++
 
-**Price** 45 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 45 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This small sack of green-gray powder is thrown as a [splash weapon](ref/rule/throw-splash-weapon)
 with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 18

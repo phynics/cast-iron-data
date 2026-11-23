@@ -21,8 +21,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** ring; **Price** 1,250 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: ring
+Price: 1,250 gp
+Weight: -
+:::
 
 Mortal blacksmiths residing in the Gebbite city of Graydirge created the first dark life rings. Too
 often had these living unfortunates suffered collateral damage from the negative energy effects used
@@ -39,5 +44,7 @@ Will save against the effect), to a minimum of 0 points of damage.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [death ward](ref/spell/death-ward); **Cost** 625
-gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [death ward](ref/spell/death-ward)
+Cost: 625 gp
+:::

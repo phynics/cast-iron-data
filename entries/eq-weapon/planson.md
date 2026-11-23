@@ -19,8 +19,15 @@ weight = "10 lbs."
 This 5-foot tapered pole is bound in metal with a narrow metal spike projecting from the top. The
 planson can be used as a club or as a sturdy, if top-heavy, spear to stop a charge.
 
-**Cost** 10 gp **Weight** 10 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×2; **Range** -; **Type** B or P; **Special**
-[brace](ref/misc/brace)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Spears
+::: statblock
+Cost: 10 gp
+Weight: 10 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×2
+Range: -
+Type: B or P
+Special: [brace](ref/misc/brace)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Spears](ref/ability/weapon-groups#sec-spears)
+:::

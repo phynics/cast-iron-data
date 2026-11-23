@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This vivid green gel instantly crystallizes into needle-like shards upon contact with the air. You
 can throw a flask of shard gel as a [splash weapon](ref/rule/throw-splash-weapon). A direct hit

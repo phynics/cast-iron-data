@@ -37,8 +37,15 @@ If you have the [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) 
 feat, for the purpose of [two-weapon fighting](ref/rule/two-weapon-fighting) you can treat it as a
 light melee weapon; for all other purposes, it is a one-handed melee weapon.
 
-**Cost** 35 gp **Weight** 2 lb.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-see text\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Blades, Light
+::: statblock
+Cost: 35 gp
+Weight: 2 lb.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: see text
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

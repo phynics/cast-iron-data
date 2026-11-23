@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This oily solution draws water out of living creatures (especially amorphous creatures),
 simultaneously dehydrating them and drenching their surfaces with a slick, sickly cold sweat.

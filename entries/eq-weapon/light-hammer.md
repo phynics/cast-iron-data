@@ -22,7 +22,15 @@ weight = "2 lbs."
 A lighter version of a [warhammer](ref/eq-weapon/warhammer), this weapon usually has a sleek metal
 head with one striking surface.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Thrown
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

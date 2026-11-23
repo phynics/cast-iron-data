@@ -24,8 +24,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 The imperial intelligence agency, the Hatharat, entrusts rings of return to agents within Taldor and
 other hostile regions. When a transport command word is spoken (a standard action), a ring of return
@@ -39,5 +44,7 @@ expended, it becomes an ordinary, nonmagical ring.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [greater teleport](ref/spell/teleport-greater);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [greater teleport](ref/spell/teleport-greater)
+Cost: 3,000 gp
+:::

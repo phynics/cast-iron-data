@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "20 lbs."
 +++
 
-**Price** 250 gp; **Weight** 20 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 250 gp
+Weight: 20 lbs.
+Category: Alchemical Weapons
+:::
 
 This [larger version](ref/rule/greater-splash-weapon) of a
 [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) entangles its target as normal and requires a

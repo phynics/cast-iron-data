@@ -22,8 +22,15 @@ weight = "10 lbs."
 A two-bladed sword is a double weapon-twin blades extend from either side of a central, short haft,
 allowing the wielder to attack with graceful but deadly flourishes.
 
-**Cost** 100 gp **Weight** 10 lbs.\
-**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S;
-**Special** [double](ref/misc/double)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Double
+::: statblock
+Cost: 100 gp
+Weight: 10 lbs.
+Damage: 1d6/1d6 (small), 1d8/1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [double](ref/misc/double)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Double](ref/ability/weapon-groups#sec-double)
+:::

@@ -21,8 +21,13 @@ aura = "faint abjuration and illusion"
 caster_level = "7th"
 +++
 
-**Aura** faint abjuration and illusion; **CL** 7th\
-**Slot** ring; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and illusion
+CL: 7th
+Slot: ring
+Price: 4,000 gp
+Weight: -
+:::
 
 This golden ring, set with seven brightly colored gems, functions as a
 [ring of protection +1](ref/magic-ring/ring-of-protection-1). In addition, seven times per day, the
@@ -31,5 +36,7 @@ minutes (use statistics for a [raven](ref/monster/familiar-raven)).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [beast shape IV](ref/spell/beast-shape-4),
-[shield of faith](ref/spell/shield-of-faith), creator must be at least 3rd level; **Cost** 2,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [beast shape IV](ref/spell/beast-shape-4), [shield of faith](ref/spell/shield-of-faith), creator must be at least 3rd level
+Cost: 2,000 gp
+:::

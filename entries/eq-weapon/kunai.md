@@ -21,7 +21,14 @@ Adapted from the common trowel, the kunai has a thick blade that is sharpened on
 Unlike finer weapons, the kunai can readily substitute for a [crowbar](ref/eq-misc/crowbar) or
 [piton](ref/eq-misc/piton) without being damaged in the process.
 
-**Cost** 2 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B or P;
-**Special** -\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 2 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B or P
+Special: -
+Category: Light
+Proficiency: Simple
+:::

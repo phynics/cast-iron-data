@@ -19,10 +19,16 @@ category = "Armor"
 weight = "30 lbs."
 +++
 
-**Cost** 10,200 gp **Weight** 30 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -3\
-**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 10,200 gp
+Weight: 30 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +3
+Armor Check Penalty: -3
+Arcane Spell Failure Chance: 25%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This nonmagical [breastplate](ref/eq-armor/breastplate) is made of
 [adamantine](ref/eq-material/adamantine), giving its wearer

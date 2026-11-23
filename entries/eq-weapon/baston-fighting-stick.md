@@ -23,7 +23,14 @@ to 3 inches. In most applications, these weapons are similar to [clubs](ref/eq-w
 A creature with the [Combat Reflexes](ref/feat/combat-reflexes) feat treats the weapon as having the
 [blocking](ref/misc/blocking) and [performance](ref/misc/performance) weapon special features.
 
-**Cost** 10 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[monk](ref/misc/monk), see text\
-**Category** One-Handed; **Proficiency** Simple
+::: statblock
+Cost: 10 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [monk](ref/misc/monk), see text
+Category: One-Handed
+Proficiency: Simple
+:::

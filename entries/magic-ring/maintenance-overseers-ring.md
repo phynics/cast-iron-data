@@ -21,8 +21,13 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Aura** faint divination; **CL** 4th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 4th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 This tarnished signet is marked as belonging to a specific city no smaller than a large town, though
 it functions in any settlement of at least that size. After spending 5 days in a settlement with the
@@ -40,5 +45,7 @@ result.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[create treasure map](ref/spell/create-treasure-map); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [create treasure map](ref/spell/create-treasure-map)
+Cost: 4,000 gp
+:::

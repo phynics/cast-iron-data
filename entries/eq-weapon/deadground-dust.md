@@ -17,8 +17,11 @@ price = "70 gp"
 weight = "1 lb."
 +++
 
-**Price** 70 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 70 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Concocted from samples of elemental earth drained of vitality, this fine powder damages creatures
 with the earth subtype, as well as constructs made from earth, stone, or precious metals (brass,

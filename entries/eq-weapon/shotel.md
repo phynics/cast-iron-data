@@ -29,8 +29,15 @@ double-edged, while others are single-edged, with the back edge able to be brace
 for additional power. Shotels are particularly useful for hooking mounted combatants and ripping
 them from their steeds.
 
-**Cost** 30 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[performance](ref/misc/performance)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 30 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [performance](ref/misc/performance)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

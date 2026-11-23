@@ -19,9 +19,14 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 5 gp **Weight** 5 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 5 gp
+Weight: 5 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 5%
+:::
 
 This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without
 penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using

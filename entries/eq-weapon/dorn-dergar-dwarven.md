@@ -23,8 +23,15 @@ This 10-foot-long chain is weighted at the end by a ball of solid iron the size 
 adjusting the slack of the chain, the weapon can be used either with or without reach. Changing
 between using it as a normal weapon and a reach weapon is a move action.
 
-**Cost** 50 gp **Weight** 15 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 50 gp
+Weight: 15 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

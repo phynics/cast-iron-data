@@ -21,8 +21,13 @@ aura = "faint abjuration, divination, illusion, and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration, divination, illusion, and transmutation; **CL** 5th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration, divination, illusion, and transmutation
+CL: 5th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 The flat bezel of this signet ring is typically set with a semiprecious gem. If the wearer of the
 ring is successfully inducted into a group or organization through an initiation ritual, the ring
@@ -53,8 +58,7 @@ organization.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [alarm](ref/spell/alarm),
-[hidden speech](ref/spell/hidden-speech), [invisibility](ref/spell/invisibility),
-[message](ref/spell/message), [obscure object](ref/spell/obscure-object),
-[status](ref/spell/status), creator must have at least 10 ranks in both Bluff and Sense Motive;
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [alarm](ref/spell/alarm), [hidden speech](ref/spell/hidden-speech), [invisibility](ref/spell/invisibility), [message](ref/spell/message), [obscure object](ref/spell/obscure-object), [status](ref/spell/status), creator must have at least 10 ranks in both Bluff and Sense Motive
+Cost: 4,000 gp
+:::

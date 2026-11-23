@@ -21,8 +21,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** ring; **Price** 9,900 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: ring
+Price: 9,900 gp
+Weight: -
+:::
 
 A splendorous ring is composed of six white and yellow gemstones faceted in a platinum band. Three
 times per day, the wearer of a splendorous ring can twist the ring to cloak himself in an aura of
@@ -40,5 +45,7 @@ creatures affected by the hypnotic pattern effect.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor),
-[hypnotic pattern](ref/spell/hypnotic-pattern), creator must be good-aligned; **Cost** 4,950 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [eagle's splendor](ref/spell/eagles-splendor), [hypnotic pattern](ref/spell/hypnotic-pattern), creator must be good-aligned
+Cost: 4,950 gp
+:::

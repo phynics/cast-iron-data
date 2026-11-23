@@ -24,8 +24,16 @@ a maximum range of three range increments. Each barrel of a paddle-foot pistol c
 [pellets](ref/eq-weapon/pellets-handful) or a [bullet](ref/eq-weapon/firearm-bullet), or it can hold
 a single [alchemical cartridge](ref/eq-weapon/alchemical-cartridge).
 
-**Cost** 2,500 gp **Weight** 5 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 20 ft.; **Type** B and P;
-**Special** scatter\
-**Misfire** 1-2 (5 ft.); **Capacity** 4\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 2,500 gp
+Weight: 5 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: B and P
+Special: scatter
+Misfire: 1-2 (5 ft.)
+Capacity: 4
+Category: One-Handed
+Proficiency: Exotic
+:::

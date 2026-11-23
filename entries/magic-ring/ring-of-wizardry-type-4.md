@@ -26,9 +26,13 @@ caster_level = "11th"
 
 ## Ring of Wizardry
 
-**Aura** moderate (no school); **CL** 11th\
-**Slot** ring; **Price** 20,000 gp (type I), 40,000 gp (type II), 70,000 gp (type III), 100,000 gp
-(type IV); **Weight** -
+::: statblock
+Aura: moderate (no school)
+CL: 11th
+Slot: ring
+Price: 20,000 gp (type I), 40,000 gp (type II), 70,000 gp (type III), 100,000 gp (type IV)
+Weight: -
+:::
 
 This special ring comes in four varieties, all of them useful only to arcane spellcasters. The
 wearer's arcane spells per day are doubled for one specific spell level. Type I doubles 1st-level
@@ -37,5 +41,7 @@ spells, type II doubles 2nd-level spells, type III doubles 3rd-level spells, and
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish); **Cost**
-10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [limited wish](ref/spell/limited-wish)
+Cost: 10,000 gp (type I), 20,000 gp (type II), 35,000 gp (type III), 50,000 gp (type IV)
+:::

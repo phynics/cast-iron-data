@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** ring; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: ring
+Price: 8,500 gp
+Weight: -
+:::
 
 This ring generates a shield-sized (and shield-shaped) wall of force that stays with the ring and
 can be wielded by the wearer as if it were a heavy shield (+2 AC). This special creation has no
@@ -34,5 +39,7 @@ can be activated and deactivated at will as a free action.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [wall of force](ref/spell/wall-of-force);
-**Cost** 4,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [wall of force](ref/spell/wall-of-force)
+Cost: 4,250 gp
+:::

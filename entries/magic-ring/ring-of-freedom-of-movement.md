@@ -24,13 +24,20 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** ring; **Price** 40,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: ring
+Price: 40,000 gp
+Weight: -
+:::
 
 This gold ring allows the wearer to act as if continually under the effect of a freedom of movement
 spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[freedom of movement](ref/spell/freedom-of-movement); **Cost** 20,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [freedom of movement](ref/spell/freedom-of-movement)
+Cost: 20,000 gp
+:::

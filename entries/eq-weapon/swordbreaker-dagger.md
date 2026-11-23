@@ -27,8 +27,15 @@ of the blade and using your weapon as a lever. If you are proficient with this w
 bonus on combat maneuver checks to [disarm](ref/rule/disarm) or [sunder](ref/rule/sunder) bladed
 weapons while using it.
 
-**Cost** 10 gp **Weight** 3 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [sunder](ref/misc/sunder), see text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 10 gp
+Weight: 3 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [sunder](ref/misc/sunder), see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

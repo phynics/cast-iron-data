@@ -19,10 +19,16 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Cost** 1,500 gp **Weight** 50 lbs.\
-**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -6\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 1,500 gp
+Weight: 50 lbs.
+Armor Bonus: +9
+Max Dex Bonus: +1
+Armor Check Penalty: -6
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 This metal suit comprises multiple pieces of interconnected and overlaying metal plates,
 incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or

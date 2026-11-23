@@ -22,8 +22,15 @@ weight = "10 lbs."
 A lance deals double damage when used from the back of a charging mount. While mounted, you can
 wield a lance with one hand.
 
-**Cost** 10 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Spears
+::: statblock
+Cost: 10 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears)
+:::

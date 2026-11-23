@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Price** 60 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This disk of paper or light cloth is stretched over a frame of thin wooden supports, with tubes of
 paper or cured hide spaced evenly around the rim. The whole firework is mounted on a spike or peg

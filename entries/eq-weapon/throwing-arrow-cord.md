@@ -24,6 +24,14 @@ is a move action that requires two hands and provokes attacks of opportunity. Th
 [Rapid Reload](ref/feat/rapid-reload) feat can be taken for throwing arrow cords, allowing you to
 load a throwing arrow as a free action.
 
-**Cost** - **Weight** -\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 60 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: -
+Weight: -
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 60 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+:::

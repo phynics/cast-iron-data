@@ -24,7 +24,14 @@ gain a +1 bonus on ranged attack rolls with a knobkerrie against opponents using
 shields, or heavy shields. If you aren't proficient with a knobkerrie, treat it as a
 [club](ref/eq-weapon/club).
 
-**Cost** 5 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B; **Special** see
-text\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 5 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B
+Special: see text
+Category: One-Handed
+Proficiency: Exotic
+:::

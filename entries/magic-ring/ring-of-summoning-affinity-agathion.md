@@ -21,8 +21,13 @@ aura = "faint conjuration [good]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[good\]; **CL** 5th\
-**Slot** ring; **Price** 7,700 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[good\]
+CL: 5th
+Slot: ring
+Price: 7,700 gp
+Weight: -
+:::
 
 This ring is forged from electrum and inlaid with runes. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -35,5 +40,7 @@ wearer can use this ring to summon a silvanshee, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be neutral good; **Cost** 3,850 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be neutral good
+Cost: 3,850 gp
+:::

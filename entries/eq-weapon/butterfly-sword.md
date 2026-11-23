@@ -28,8 +28,15 @@ Masterwork butterfly swords cost 320 gp for the pair. If you add magical enhance
 properties to a butterfly sword, treat each sword in the pair as a separate weapon (for example,
 adding a +1 magical enhancement bonus to a pair of masterwork butterfly swords costs 4,000 gp).
 
-**Cost** 20 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Monk
+::: statblock
+Cost: 20 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [monk](ref/misc/monk)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

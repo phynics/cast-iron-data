@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 50 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 This dinner-plate-sized packet contains three
 [jumping jennies](ref/eq-weapon/firework-jumping-jenny), each of which moves independently of the

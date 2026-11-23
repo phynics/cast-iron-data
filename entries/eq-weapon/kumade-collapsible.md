@@ -22,8 +22,15 @@ that provokes attacks of opportunity and causes the weapon to collapse into a bu
 a backpack. Reassembling the collapsible kumade requires a full-round action that provokes attacks
 of opportunity.
 
-**Cost** 10 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[grapple](ref/misc/grapple)\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 10 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [grapple](ref/misc/grapple)
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

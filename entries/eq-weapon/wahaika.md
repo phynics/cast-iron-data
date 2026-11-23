@@ -21,8 +21,15 @@ that is used for catching weapons. If you are proficient with the weapon, you ca
 the wahaika to disarm your foes. Otherwise, treat this weapon as a club. Feats and abilities that
 affect clubs apply to the wahaika.
 
-**Cost** 3 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B; **Special**
-[disarm](ref/misc/disarm)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 3 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B
+Special: [disarm](ref/misc/disarm)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

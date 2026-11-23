@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 A _ring of craft magic_ always bears some sort of tool-like design in its craftsmanship. The wearer
 of the ring sees spells as similar to crafts, and vice versa. The wearer may make a
@@ -37,5 +42,7 @@ of time needed to make the check).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have the obsession racial trait;
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have the obsession racial trait
+Cost: 6,000 gp
+:::

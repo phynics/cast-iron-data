@@ -30,7 +30,15 @@ You can use the [Weapon Finesse](ref/feat/weapon-finesse) feat to apply your Dex
 instead of your Strength modifier on attack rolls with an elven curve blade that is sized for you,
 even though it isn't a light weapon.
 
-**Cost** 80 gp **Weight** 7 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 80 gp
+Weight: 7 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: -
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

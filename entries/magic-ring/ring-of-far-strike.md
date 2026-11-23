@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 This unassuming black ring changes color to a silver pearlescent sheen when held near a fire. Once
 per day as a standard action, the wearer can make a melee weapon attack or unarmed strike attack
@@ -31,5 +36,7 @@ to use this ability.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [mage hand](ref/spell/mage-hand),
-[spectral hand](ref/spell/spectral-hand); **Cost** 3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [mage hand](ref/spell/mage-hand), [spectral hand](ref/spell/spectral-hand)
+Cost: 3,000 gp
+:::

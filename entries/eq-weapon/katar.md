@@ -28,7 +28,15 @@ Where most [punching daggers](ref/eq-weapon/punching-dagger) boast a single thic
 tri-bladed katar features a fan of three splayed razor edges. Any effects that apply to a punching
 dagger also apply to a tri-bladed katar.
 
-**Cost** 6 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×4; **Range** -; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+Cost: 6 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×4
+Range: -
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

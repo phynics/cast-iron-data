@@ -22,8 +22,15 @@ weight = "-"
 This sharpened wooden spike can be used as a punching weapon, but it is also perfectly balanced for
 throwing.
 
-**Cost** 0.2 gp **Weight** -\
-**Damage** 1d2 (small), 1d3 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P; **Special**
-[monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Close; Monk; Thrown
+::: statblock
+Cost: 0.2 gp
+Weight: -
+Damage: 1d2 (small), 1d3 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P
+Special: [monk](ref/misc/monk)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close); [Monk](ref/ability/weapon-groups#sec-monk); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

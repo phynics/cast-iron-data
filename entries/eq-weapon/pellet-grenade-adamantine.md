@@ -19,8 +19,10 @@ weight = "1 lb. (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)"
 
 ## Pellet grenade
 
-**Price** 150 gp (adamantine), 100 gp (cold iron), 50 gp (iron), 70 gp (silver); **Weight** 1 lb.
-(adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)
+::: statblock
+Price: 150 gp (adamantine), 100 gp (cold iron), 50 gp (iron), 70 gp (silver)
+Weight: 1 lb. (adamantine), 1 lb. (cold iron), 1 lb. (iron), 1 lb. (silver)
+:::
 
 This variant of a [fuse grenade](ref/eq-weapon/fuse-grenade) has most of the black powder replaced
 with metal pellets. When it explodes, it deals 1d6 points of bludgeoning damage, 1d6 points of

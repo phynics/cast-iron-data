@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** ring; **Price** 56,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: ring
+Price: 56,000 gp
+Weight: -
+:::
 
 This band of braided copper wires throbs ever so slightly in harmony with its wearer's heartbeat.
 Whenever the wearer of this ring casts a spell with a range of personal and a duration of 10 minutes
@@ -37,5 +42,7 @@ from that spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 28,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 28,000 gp
+:::

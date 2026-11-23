@@ -27,8 +27,15 @@ middle of its haft, and utilize a weaving, slashing fighting style more akin to 
 [quarterstaff](ref/eq-weapon/quarterstaff) than to that of a [greataxe](ref/eq-weapon/greataxe) or
 [battleaxe](ref/eq-weapon/battleaxe).
 
-**Cost** 60 gp **Weight** 15 lbs.\
-**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[double](ref/misc/double)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Double
+::: statblock
+Cost: 60 gp
+Weight: 15 lbs.
+Damage: 1d6/1d6 (small), 1d8/1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [double](ref/misc/double)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Double](ref/ability/weapon-groups#sec-double)
+:::

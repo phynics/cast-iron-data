@@ -31,8 +31,15 @@ weight = "2 lbs."
 This spiked bolas functions as a standard [bolas](ref/eq-weapon/bolas), but deals lethal damage
 rather than nonlethal damage.
 
-**Cost** 15 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B and P;
-**Special** [trip](ref/misc/trip)\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 15 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B and P
+Special: [trip](ref/misc/trip)
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 30 gp **Weight** 25 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 30 gp
+Weight: 25 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +5
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 There are instances where wearing full plate armor can jeopardize a Hellknight's life. Primarily
 worn by [Hellknight](ref/rule/aff-lawknights) sailors, this studded leather armor includes heavy

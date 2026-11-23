@@ -30,6 +30,14 @@ You can shoot, but not load, a stonebow with one hand, but doing so imposes a -2
 attack rolls. You can shoot a stonebow with each hand, but you take a penalty on attack rolls as if
 attacking with two light weapons. This penalty is cumulative with the penalty for firing one-handed.
 
-**Cost** 35 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 50 ft.; **Type** B; **Special** -\
-**Category** Ranged; **Proficiency** Simple
+::: statblock
+Cost: 35 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Simple
+:::

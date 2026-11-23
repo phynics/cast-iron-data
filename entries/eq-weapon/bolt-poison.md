@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "0.1 lbs."
 +++
 
-**Price** 25 gp; **Weight** 0.1 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: 0.1 lbs.
+Category: Alchemical Weapons
+:::
 
 These iron crossbow bolts have resin tips that break when the bolts strike their targets; inside the
 tip is a dose of injury or contact poison. In addition to dealing damage normally, anyone struck by

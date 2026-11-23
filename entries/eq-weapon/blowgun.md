@@ -28,7 +28,15 @@ weight = "1 lb."
 Blowguns are generally used to deliver debilitating (but rarely fatal) poisons from a distance. They
 are nearly silent when fired.
 
-**Cost** 2 gp **Weight** 1 lb.\
-**Damage** 1 (small), 1d2 (medium); **Critical** ×2; **Range** 20 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 2 gp
+Weight: 1 lb.
+Damage: 1 (small), 1d2 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

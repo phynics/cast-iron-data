@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** moderate transmutation; **CL** 3rd\
-**Slot** ring; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 3rd
+Slot: ring
+Price: 11,000 gp
+Weight: -
+:::
 
 This steel ring is inlaid with [adamantine](ref/eq-material/adamantine) swords and shields. The
 wearer gains a +5 competence bonus on [Profession (soldier)](ref/skill/profession-any) checks, and
@@ -35,5 +40,7 @@ new teamwork feat, it replaces the previous feat.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks of Profession
-(soldier) and at least one teamwork feat; **Cost** 5,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks of Profession (soldier) and at least one teamwork feat
+Cost: 5,500 gp
+:::

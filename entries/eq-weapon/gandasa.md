@@ -20,7 +20,15 @@ A gandasa is a wide, single-edged dagger on a 2-foot handle and is wielded in co
 This weapon is also known as an elephant knife because the connection between the blade and the
 handle is often decorated to resemble a stylized elephant head.
 
-**Cost** 15 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 15 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

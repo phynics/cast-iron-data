@@ -27,8 +27,16 @@ shotgun uses [metal cartridges](ref/eq-weapon/metal-cartridge) (loaded with eith
 [bullet](ref/eq-weapon/firearm-bullet) or [pellets](ref/eq-weapon/pellets-handful)) as ammunition.
 This is an advanced firearm.
 
-**Cost** 7,000 gp **Weight** 15 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B and P;
-**Special** scatter\
-**Misfire** 1-2; **Capacity** 2\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 7,000 gp
+Weight: 15 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B and P
+Special: scatter
+Misfire: 1-2
+Capacity: 2
+Category: Two-Handed
+Proficiency: Exotic
+:::

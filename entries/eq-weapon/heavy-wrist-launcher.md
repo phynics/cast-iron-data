@@ -20,7 +20,14 @@ A larger version of the [wrist launcher](ref/eq-weapon/wrist-launcher), this dev
 crossbow bolt instead of a featherweight dart. If you are proficient with
 [hand crossbows](ref/eq-weapon/hand-crossbow), you are also proficient with heavy wrist launchers.
 
-**Cost** 250 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** 30 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 250 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: 30 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

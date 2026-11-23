@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 30 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 This thin bladder splits when it hits a target. You can throw a gas bladder as a ranged weapon with
 a range increment of 10 feet. Any creature struck by a gas bladder must succeed at a DC 14 Fortitude

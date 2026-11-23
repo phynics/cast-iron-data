@@ -29,8 +29,16 @@ size smaller than itself without the gun's mounting as a normal two-handed weapo
 danger of being knocked prone, but takes the normal penalty for firing an
 [inappropriately sized weapon](ref/misc/weapon-size). This is an early firearm.
 
-**Cost** 4,000 gp **Weight** 18 lbs.\
-**Damage** 2d10 (small), 2d12 (medium); **Critical** ×4; **Range** 50 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-2 (5 ft.); **Capacity** 2\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 4,000 gp
+Weight: 18 lbs.
+Damage: 2d10 (small), 2d12 (medium)
+Critical: ×4
+Range: 50 ft.
+Type: B and P
+Special: -
+Misfire: 1-2 (5 ft.)
+Capacity: 2
+Category: Two-Handed
+Proficiency: Exotic
+:::

@@ -23,7 +23,15 @@ of fire damage in addition to the normal damage. Any effects that apply to a
 [quarterstaff](ref/eq-weapon/quarterstaff), except those that require it be used as a double weapon,
 also apply to a lantern staff.
 
-**Cost** 15 gp **Weight** 9 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** B; **Special** see text\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 15 gp
+Weight: 9 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: B
+Special: see text
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

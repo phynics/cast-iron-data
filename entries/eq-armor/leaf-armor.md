@@ -25,10 +25,16 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 500 gp **Weight** 20 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 500 gp
+Weight: 20 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +5
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Druidic elves use alchemical compounds to treat special leaves used in crafting armor for their
 warriors. Leaf armor is always of masterwork quality.

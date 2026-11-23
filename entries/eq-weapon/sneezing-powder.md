@@ -23,8 +23,11 @@ price = "60 gp"
 weight = "2 lbs."
 +++
 
-**Price** 60 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This coarse yellowish-red powder is a [splash weapon](ref/rule/throw-splash-weapon) that causes
 uncontrollable sneezing for 1d4+1 rounds. Anyone standing in the square of impact must succeed at a

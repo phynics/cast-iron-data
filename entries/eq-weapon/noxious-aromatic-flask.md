@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Price** 15 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This glass container of foul-smelling oil shatters easily upon impact. You can throw a vial of
 noxious aromatic as a [splash weapon](ref/rule/throw-splash-weapon) with a range increment of 10

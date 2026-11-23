@@ -19,9 +19,14 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 257 gp **Weight** 5 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 15%
+::: statblock
+Cost: 257 gp
+Weight: 5 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 15%
+:::
 
 This nonmagical masterwork [heavy wooden shield](ref/eq-armor/heavy-wooden-shield) is made out of
 [darkwood](ref/eq-material/darkwood). It has no enhancement bonus, but its construction material

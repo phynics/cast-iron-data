@@ -21,8 +21,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** ring; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: ring
+Price: 2,000 gp
+Weight: -
+:::
 
 The wearer of this ring can make a melee touch attack against an undead creature no more than one
 size category larger than himself, cutting off that creature from undying energy. The wearer never
@@ -33,5 +38,7 @@ creature normally.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [sculpt corpse](ref/spell/sculpt-corpse);
-**Cost** 1,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [sculpt corpse](ref/spell/sculpt-corpse)
+Cost: 1,000 gp
+:::

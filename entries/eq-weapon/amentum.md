@@ -29,8 +29,15 @@ amentum to a javelin is a move action, and winding it is a full-round action. Ja
 with amenta already wound about them. A javelin wound with an amentum is considered a martial
 weapon.
 
-**Cost** - **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 50 ft.; **Type** P; **Special**
-[performance](ref/misc/performance)\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: -
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: P
+Special: [performance](ref/misc/performance)
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

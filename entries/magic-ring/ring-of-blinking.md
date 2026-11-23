@@ -24,11 +24,19 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** ring; **Price** 27,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: ring
+Price: 27,000 gp
+Weight: -
+:::
 
 On command, this ring makes the wearer blink, as the _[blink](ref/spell/blink)_ spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [blink](ref/spell/blink); **Cost** 13,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [blink](ref/spell/blink)
+Cost: 13,500 gp
+:::

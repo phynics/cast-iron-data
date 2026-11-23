@@ -24,8 +24,16 @@ Each chamber can hold a metal cartridge, and when one cartridge is fired, the cy
 rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses
 metal cartridges as ammunition. This is an advanced firearm.
 
-**Cost** 4,000 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** 20 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1; **Capacity** 6\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 4,000 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: 20 ft.
+Type: B and P
+Special: -
+Misfire: 1
+Capacity: 6
+Category: One-Handed
+Proficiency: Exotic
+:::

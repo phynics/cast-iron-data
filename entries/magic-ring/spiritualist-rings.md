@@ -21,8 +21,13 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong necromancy; **CL** 12th\
-**Slot** ring; **Price** 70,000 gp; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 12th
+Slot: ring
+Price: 70,000 gp
+Weight: -
+:::
 
 These four garish and gaudy rings must be worn on one hand, though they take up only a single ring
 slot. They grant the wearer the ability to commune with and affect the dead in the following ways.
@@ -39,5 +44,7 @@ slot. They grant the wearer the ability to commune with and affect the dead in t
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [speak with dead](ref/spell/speak-with-dead),
-[spectral hand](ref/spell/spectral-hand), [plane shift](ref/spell/plane-shift); **Cost** 45,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [speak with dead](ref/spell/speak-with-dead), [spectral hand](ref/spell/spectral-hand), [plane shift](ref/spell/plane-shift)
+Cost: 45,000 gp
+:::

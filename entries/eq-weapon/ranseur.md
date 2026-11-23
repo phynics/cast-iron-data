@@ -22,8 +22,15 @@ weight = "12 lbs."
 Similar in appearance to a [trident](ref/eq-weapon/trident), a ranseur has a single spear at its
 tip, flanked by a pair of short, curving blades.
 
-**Cost** 10 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[disarm](ref/misc/disarm), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 10 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [disarm](ref/misc/disarm), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

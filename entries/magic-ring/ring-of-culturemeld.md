@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** ring; **Price** 7,800 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: ring
+Price: 7,800 gp
+Weight: -
+:::
 
 This ornately carved [ironwood](ref/spell/ironwood) ring is sometimes gifted to half-elves leaving
 their elven communities so as to ease transition into human culture. A ring of culturemeld slightly
@@ -42,5 +47,7 @@ ring becomes attuned to a new language.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[comprehend languages](ref/spell/comprehend-languages); **Cost** 3,900 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [comprehend languages](ref/spell/comprehend-languages)
+Cost: 3,900 gp
+:::

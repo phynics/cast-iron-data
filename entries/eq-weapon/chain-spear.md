@@ -34,8 +34,15 @@ of the spear is fitted with a length of chain, often spiked, with a hook at the 
 chain may be used to make trip attacks. If your trip attack fails by 10 or more, you may drop the
 chain spear to avoid being knocked prone.
 
-**Cost** 15 gp **Weight** 13 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** P and S;
-**Special** [double](ref/misc/double), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Flails; Spears
+::: statblock
+Cost: 15 gp
+Weight: 13 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: P and S
+Special: [double](ref/misc/double), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Flails](ref/ability/weapon-groups#sec-flails); [Spears](ref/ability/weapon-groups#sec-spears)
+:::

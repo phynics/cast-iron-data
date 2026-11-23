@@ -34,5 +34,9 @@ this manner deals 5d6 points of fire damage to anyone within a 20-foot [burst](r
 15 Reflex half). Storing black powder in a [powder horn](ref/eq-misc/powder-horn) protects the
 powder from explosion.
 
-**Cost** 10 gp (dose)/1,000gp (keg) **Weight** - (dose)/5 lbs. (keg)\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 10 gp (dose)/1,000gp (keg)
+Weight: - (dose)/5 lbs. (keg)
+Category: Ammunition
+Proficiency: Exotic
+:::

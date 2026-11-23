@@ -26,7 +26,15 @@ two-handed weapon. If you can use the estoc proficiently with one hand, you can 
 Strength modifier on attack rolls when wielding an estoc sized for you with one or two hands, even
 though it isn't a light weapon.
 
-**Cost** 50 gp **Weight** 4 lbs.\
-**Damage** 2d3 (small), 2d4 (medium); **Critical** 18-20/×2; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 50 gp
+Weight: 4 lbs.
+Damage: 2d3 (small), 2d4 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

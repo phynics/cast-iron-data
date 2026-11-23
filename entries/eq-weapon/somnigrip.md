@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "3 lbs."
 +++
 
-**Price** 45 gp; **Weight** 3 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 45 gp
+Weight: 3 lbs.
+Category: Alchemical Weapons
+:::
 
 This tacky paste is peppered with flakes of glass created using materials from the Elemental Planes,
 and this glass effectively limits underground movement. When you throw somnigrip at a creature (this

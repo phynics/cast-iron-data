@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 When lit, this foot-long wooden tube begins to hiss and emit puffs of smoke. One round later it
 takes flight, moving in a straight line at a speed of 90 feet for 1d6 rounds before exploding in a

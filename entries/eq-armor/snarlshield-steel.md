@@ -19,9 +19,14 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 50 gp **Weight** 20 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -3\
-**Arcane Spell Failure Chance** 15%
+::: statblock
+Cost: 50 gp
+Weight: 20 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: -3
+Arcane Spell Failure Chance: 15%
+:::
 
 The snarlshield is a heavy shield that features a dozen rods protruding from its surface. When used
 as a weapon to bash an opponent, a snarlshield has the [disarm](ref/misc/disarm) quality.

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 These small paper or cloth cylinders or spheres are filled with a tiny charge of black powder. One
 round after lighting a firecracker in an adjacent square, the firework detonates with a loud bang,

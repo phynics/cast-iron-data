@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "-"
 +++
 
-**Price** 60 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This light-blue liquid is rich with antibodies and other chemicals that block poison and disease and
 is usually contained in a tempered glass vial. Venomblock can be applied to a weapon like an injury

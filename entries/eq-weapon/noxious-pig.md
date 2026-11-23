@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "25 lbs."
 +++
 
-**Price** 150 gp; **Weight** 25 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 150 gp
+Weight: 25 lbs.
+Category: Alchemical Weapons
+:::
 
 Giant alchemists make these items by manipulating the controlled decomposition of a dead hog. This
 [greater splash weapon](ref/rule/greater-splash-weapon) deals no damage, but those within its

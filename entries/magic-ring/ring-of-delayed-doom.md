@@ -24,10 +24,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** ring; **Price** 5,000 gp (1 stone), 10,000 gp (2 stones), 15,000 gp (3 stones), 20,000 gp
-(4 stones), 25,000 gp (5 stones), 30,000 gp (6 stones), 35,000 gp (7 stones), 40,000 gp (8 stones),
-45,000 gp (9 stones); **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: ring
+Price: 5,000 gp (1 stone), 10,000 gp (2 stones), 15,000 gp (3 stones), 20,000 gp (4 stones), 25,000 gp (5 stones), 30,000 gp (6 stones), 35,000 gp (7 stones), 40,000 gp (8 stones), 45,000 gp (9 stones)
+Weight: -
+:::
 
 This band has nine garnets embedded along its exterior. Whenever the wearer's mind or body first
 becomes subject to any harmful effect that allows a saving throw to resist or mitigate it, he may,
@@ -45,5 +48,7 @@ he delays the effect of a poisonous bite removes the poison effect.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [heal](ref/spell/heal),
-[time stop](ref/spell/time-stop); **Cost** 22,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [heal](ref/spell/heal), [time stop](ref/spell/time-stop)
+Cost: 22,500 gp
+:::

@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** ring; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: ring
+Price: 30,000 gp
+Weight: -
+:::
 
 A short silver chain joins these two crystal rings together. When worn on two adjacent fingers of
 the same hand, the two rings occupy a single ring slot. Once per day as a standard action, the
@@ -43,5 +48,7 @@ the other portal to immediately collapse.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door),
-[wall of force](ref/spell/wall-of-force); **Cost** 15,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door), [wall of force](ref/spell/wall-of-force)
+Cost: 15,000 gp
+:::

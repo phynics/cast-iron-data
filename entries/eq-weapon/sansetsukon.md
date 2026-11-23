@@ -24,8 +24,15 @@ together, allowing the wielder greater flexibility than a normal staff and allow
 swung rapidly to create a defensive block, wrap and catch weapons, or harness momentum via a
 whipping motion for powerful strikes.
 
-**Cost** 8 gp **Weight** 3 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** B; **Special**
-[blocking](ref/misc/blocking), [disarm](ref/misc/disarm), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Flails; Monk
+::: statblock
+Cost: 8 gp
+Weight: 3 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: B
+Special: [blocking](ref/misc/blocking), [disarm](ref/misc/disarm), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

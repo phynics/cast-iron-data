@@ -23,8 +23,15 @@ This long, [trident](ref/eq-weapon/trident)-like weapon consists of a three-pron
 upon an 8-foot-long shaft. It is wielded much like a staff, with the wielder grasping the shaft from
 the center and jabbing with its forked end. A tiger fork can be set to receive a charge.
 
-**Cost** 5 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** P; **Special**
-[brace](ref/misc/brace), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Monk; Polearms; Spears
+::: statblock
+Cost: 5 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: [brace](ref/misc/brace), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk); [Polearms](ref/ability/weapon-groups#sec-polearms); [Spears](ref/ability/weapon-groups#sec-spears)
+:::

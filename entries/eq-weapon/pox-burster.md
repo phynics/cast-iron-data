@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 A pox burster is an alchemically preserved animal bladder or gourd that has been filled with toxic,
 rotting materials. You can throw a pox burster as a [splash weapon](ref/rule/throw-splash-weapon).

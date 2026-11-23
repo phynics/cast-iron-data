@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "0.3 lbs."
 +++
 
-**Price** 10 gp; **Weight** 0.3 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 10 gp
+Weight: 0.3 lbs.
+Category: Alchemical Weapons
+:::
 
 This heavy iron arrowhead is sealed with an alchemical resin. Pulling a small string (a move action)
 breaks the seal and triggers a reaction in the arrowhead, greatly increasing its magnetic

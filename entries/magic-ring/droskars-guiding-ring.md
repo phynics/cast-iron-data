@@ -24,8 +24,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** ring; **Price** 2,600 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: ring
+Price: 2,600 gp
+Weight: -
+:::
 
 This gold ring is misshapen and uncomfortable to wear for long periods of time; inscribed on it is a
 crude symbol of a fire burning under an arch. Once per day, the wearer may use
@@ -39,5 +44,7 @@ valueless, non-functional item.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [fabricate](ref/spell/fabricate); **Cost** 1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [fabricate](ref/spell/fabricate)
+Cost: 1,300 gp
+:::

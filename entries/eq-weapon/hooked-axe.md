@@ -23,8 +23,15 @@ The hooked end of this axe's blade can be used to disarm foes or pull them off b
 can be used as a martial weapon (in which case it functions like a
 [battleaxe](ref/eq-weapon/battleaxe)).
 
-**Cost** 20 gp **Weight** 7 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [performance](ref/misc/performance), [trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 20 gp
+Weight: 7 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [performance](ref/misc/performance), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This small firework burns brightly and makes a loud, eerie whistling sound. It can be thrown to
 target an intersection as a [splash weapon](ref/rule/throw-splash-weapon). Any creatures within 5

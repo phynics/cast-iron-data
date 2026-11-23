@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "0.2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 0.2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 0.2 lbs.
+Category: Alchemical Weapons
+:::
 
 These metal crossbow bolts have a glass section in the middle filled with
 [liquid ice](ref/eq-weapon/liquid-ice). On a hit, it deals 1d4 points of cold damage in addition to

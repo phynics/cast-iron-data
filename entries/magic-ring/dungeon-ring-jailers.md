@@ -26,8 +26,13 @@ caster_level = "8th"
 
 ## Dungeon Ring
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** ring; **Price** 250 gp (prisoner's), 16,000 gp (jailer's); **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: ring
+Price: 250 gp (prisoner's), 16,000 gp (jailer's)
+Weight: -
+:::
 
 A jailer's dungeon ring is worked gold, set with carnelians. The ring is magically attuned to one or
 more iron prisoner's dungeon rings. When the wearer of a jailer's ring places a prisoner's ring on a
@@ -43,5 +48,7 @@ familiar to the jailer for the purposes of spells such as _[scrying](ref/spell/s
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [scrying](ref/spell/scrying),
-[status](ref/spell/status); **Cost** 125 gp (prisoner's), 8,000 gp (jailer's)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [scrying](ref/spell/scrying), [status](ref/spell/status)
+Cost: 125 gp (prisoner's), 8,000 gp (jailer's)
+:::

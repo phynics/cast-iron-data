@@ -24,8 +24,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** ring; **Price** 125,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: ring
+Price: 125,000 gp
+Weight: -
+:::
 
 This "genie" ring serves as a special gate by means of which a specific
 [djinni](ref/monster/genie-djinni) can be called from the Plane of Air. When the ring is rubbed (a
@@ -35,4 +40,7 @@ the ring is ever killed, the ring becomes nonmagical and worthless.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [gate](ref/spell/gate); **Cost** 62,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [gate](ref/spell/gate)
+Cost: 62,500 gp
+:::

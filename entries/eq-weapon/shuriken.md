@@ -27,7 +27,14 @@ be used as a melee weapon. Although they are thrown weapons, shuriken are treate
 the purposes of drawing them and crafting masterwork or otherwise special versions of them, and of
 what happens to them after they are thrown.
 
-**Cost** 1 gp **Weight** 0.5 lb.\
-**Damage** 1 (small), 1d2 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P; **Special**
-[monk](ref/misc/monk)\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 1 gp
+Weight: 0.5 lb.
+Damage: 1 (small), 1d2 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P
+Special: [monk](ref/misc/monk)
+Category: Ranged
+Proficiency: Exotic
+:::

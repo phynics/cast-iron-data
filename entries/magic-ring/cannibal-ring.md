@@ -23,8 +23,12 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: ring
+Weight: -
+:::
 
 This simple and unadorned copper ring appears slightly tarnished, but seemingly wards off the
 effects of hunger or other sorts of deprivation; all tests reveal it to be a ring of sustenance.
@@ -47,4 +51,7 @@ until the curse is broken.
 
 ### Construction
 
-**Requirements** [ring of sustenance](ref/magic-ring/ring-of-sustenance); **Cost** -
+::: statblock
+Requirements: [ring of sustenance](ref/magic-ring/ring-of-sustenance)
+Cost: -
+:::

@@ -26,7 +26,15 @@ Also called a mambele, danisco, goleyo, njiga, or any of many lesser-known names
 dagger is intended for throwing but can be used as a melee weapon. Though the basic three-blade
 design is most common, hunga mungas can take a wide variety of forms.
 
-**Cost** 4 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 15 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Thrown
+::: statblock
+Cost: 4 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 15 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

@@ -22,8 +22,15 @@ open it as a free action; a nonproficient user must spend a move action to open 
 it as a [dagger](ref/eq-weapon/dagger). When it's closed, you gain a +2 bonus on Sleight of Hand
 checks made to conceal it on your body.
 
-**Cost** 5 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** P or S;
-**Special** -\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 5 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P or S
+Special: -
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

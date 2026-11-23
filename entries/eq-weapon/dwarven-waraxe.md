@@ -24,7 +24,15 @@ one hand without special training; thus, it is an exotic weapon. A Medium charac
 dwarven waraxe two-handed as a martial weapon, or a Large creature can use it one-handed in the same
 way. A dwarf treats a dwarven waraxe as a martial weapon even when using it in one hand.
 
-**Cost** 30 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 30 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

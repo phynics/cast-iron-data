@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 400 gp **Weight** 25 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4\
-**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 400 gp
+Weight: 25 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +3
+Armor Check Penalty: -4
+Arcane Spell Failure Chance: 25%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This breastplate is specially crafted in a manner that allows extra maneuverability for some
 physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is

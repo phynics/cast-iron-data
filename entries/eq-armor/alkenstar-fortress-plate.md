@@ -16,10 +16,16 @@ category = "Armor"
 weight = "75 lbs."
 +++
 
-**Cost** 2,100 gp **Weight** 75 lbs.\
-**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
-**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 2,100 gp
+Weight: 75 lbs.
+Armor Bonus: +8
+Max Dex Bonus: +0
+Armor Check Penalty: -7
+Arcane Spell Failure Chance: 40%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 This [dwarf](ref/race/dwarf)-forged armor features layers of overlapping plates molded to deflect
 projectiles - especially those from firearms. Whenever you are the target of a ranged weapon attack

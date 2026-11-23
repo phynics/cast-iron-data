@@ -30,8 +30,15 @@ light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a li
 each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This
 penalty is cumulative with the penalty for one-handed firing.
 
-**Cost** 35 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** 80 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 35 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: 80 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

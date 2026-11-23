@@ -28,8 +28,15 @@ of the blade. The spike is commonly used to block and parry. When
 [full defense](ref/misc/total-defense), this weapon gives you a +1 shield bonus to AC. A mounted
 opponent hit by a bill takes a -1 penalty on his Ride check to stay mounted.
 
-**Cost** 11 gp **Weight** 11 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[brace](ref/misc/brace), [disarm](ref/misc/disarm), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 11 gp
+Weight: 11 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [brace](ref/misc/brace), [disarm](ref/misc/disarm), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

@@ -21,8 +21,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** ring; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: ring
+Price: 4,000 gp
+Weight: -
+:::
 
 This large silver ring has a massive setting for a cloudy white crystal about an inch in diameter.
 Once per week as a standard action, the wearer can tap the ring with a forked rod attuned to a
@@ -45,5 +50,7 @@ for 24 hours.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [discern location](ref/spell/discern-location);
-**Cost** 2,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [discern location](ref/spell/discern-location)
+Cost: 2,000 gp
+:::

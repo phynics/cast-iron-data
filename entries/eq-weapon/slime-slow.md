@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 15 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 Dark blue crystals are suspended at various points in this chunky mixture of icy liquid. When the
 liquid inside is exposed to open air, a vial of slow slime has a unique congealing effect on

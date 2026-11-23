@@ -26,7 +26,11 @@ An arrow used as a melee weapon is treated as a light
 [dagger](ref/eq-weapon/dagger) of its size (critical multiplier ×2). Arrows come in a leather quiver
 that holds 20 arrows.
 
-**Cost** 0.05 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.05 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

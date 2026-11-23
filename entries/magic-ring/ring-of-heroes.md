@@ -21,8 +21,13 @@ aura = "moderate (no school)"
 caster_level = "7th"
 +++
 
-**Aura** moderate (no school); **CL** 7th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate (no school)
+CL: 7th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 Sculpted in the shape of two noble looking bronze lions charging toward a centrally placed garnet,
 this ring grants the wearer the Luck of Heroes feat. The ring must be worn for 24 hours before it
@@ -31,5 +36,7 @@ immediately, although this causes the ring to lose its powers permanently.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Luck of Heroes](ref/feat/luck-of-heroes);
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Luck of Heroes](ref/feat/luck-of-heroes)
+Cost: 4,000 gp
+:::

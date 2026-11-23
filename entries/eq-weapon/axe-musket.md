@@ -27,8 +27,16 @@ musket uses either a [bullet](ref/eq-weapon/firearm-bullet) and a single dose of
 [black powder](ref/eq-weapon/black-powder-dose) or an
 [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammunition. This is an early firearm.
 
-**Cost** 1,600 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** 30 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-2 (5 ft.); **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 1,600 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: 30 ft.
+Type: B and P
+Special: -
+Misfire: 1-2 (5 ft.)
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

@@ -31,9 +31,15 @@ instead of your Strength modifier to attack rolls with a whip sized for you, eve
 light weapon. You can't wield a whip in two hands in order to apply 1-1/2 times your Strength
 modifier to damage rolls.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Damage** 1d2 (small), 1d3 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [nonlethal](ref/misc/nonlethal), [reach](ref/misc/reach),
-[trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Damage: 1d2 (small), 1d3 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [nonlethal](ref/misc/nonlethal), [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

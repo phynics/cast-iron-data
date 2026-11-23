@@ -30,7 +30,15 @@ carry items in your hands while wearing rope gauntlets, but the constriction of 
 knuckles gives you a -2 penalty on all precision-based tasks involving your hands (such opening
 locks).
 
-**Cost** 0.2 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** B (or S); **Special** -\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+Cost: 0.2 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: B (or S)
+Special: -
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

@@ -20,8 +20,12 @@ aura = "n/a"
 caster_level = "9th"
 +++
 
-**Aura** n/a; **CL** 9th\
-**Slot** ring; **Price** 14,600 gp
+::: statblock
+Aura: n/a
+CL: 9th
+Slot: ring
+Price: 14,600 gp
+:::
 
 This relatively plain brass [ring of mind shielding](ref/magic-ring/ring-of-mind-shielding) can read
 script in any language. The personality within the ring is distrustful of everyone, and it pesters
@@ -31,9 +35,10 @@ _[timely inspiration](ref/spell/timely-inspiration)_ up to three times per day o
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [nondetection](ref/spell/nondetection),
-[read magic](ref/spell/read-magic), [timely inspiration](ref/spell/timely-inspiration); **Price**
-7,300 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [nondetection](ref/spell/nondetection), [read magic](ref/spell/read-magic), [timely inspiration](ref/spell/timely-inspiration)
+Price: 7,300 gp
+:::
 
 ### Statistics
 

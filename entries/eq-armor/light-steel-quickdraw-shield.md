@@ -19,9 +19,14 @@ category = "Armor"
 weight = "7 lbs."
 +++
 
-**Cost** 59 gp **Weight** 7 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 59 gp
+Weight: 7 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 5%
+:::
 
 This light steel shield is specially crafted with a series of straps to allow a character proficient
 in shields to ready or stow it on her back quickly and easily. If you have a base attack bonus of +1

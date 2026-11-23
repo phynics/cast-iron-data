@@ -31,7 +31,15 @@ cutting edge of a sword, much like a larger version of a [kukri](ref/eq-weapon/k
 hilt is sometimes carved to resemble the head of a horse or bird of prey, and may have a thin chain
 stretched across its opening, acting as a partial guard for the hand and fingers.
 
-**Cost** 18 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×3; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 18 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×3
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

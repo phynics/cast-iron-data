@@ -32,8 +32,15 @@ prone. You may use this weapon in two different ways: In meteor mode you use it 
 while in fortress mode you cannot use it as a double weapon but gain reach and a +1 shield bonus to
 AC. Switching between these two modes is a free action decided at the start of your turn.
 
-**Cost** 10 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[reach](ref/misc/reach), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 10 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

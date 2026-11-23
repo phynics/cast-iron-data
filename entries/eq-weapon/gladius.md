@@ -22,8 +22,15 @@ weight = "3 lbs."
 The gladius is the favorite sword of gladiators, with a heavier blade than the standard shortsword.
 Feats and abilities that affect [shortswords](ref/eq-weapon/short-sword) apply to the gladius.
 
-**Cost** 15 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** P or S;
-**Special** [performance](ref/misc/performance)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 15 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P or S
+Special: [performance](ref/misc/performance)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

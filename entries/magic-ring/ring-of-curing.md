@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This simple copper ring is a boon to those who spend their lives healing others. Whenever the wearer
 of a ring of curing casts a conjuration spell of the healing subschool, all maximums to the
@@ -34,5 +39,7 @@ provided by any such spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Heighten Spell](ref/feat/heighten-spell),
-[consecrate](ref/spell/consecrate); **Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Heighten Spell](ref/feat/heighten-spell), [consecrate](ref/spell/consecrate)
+Cost: 5,000 gp
+:::

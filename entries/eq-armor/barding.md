@@ -20,8 +20,10 @@ price = "×4 (Large creature), ×2 (Medium creature)"
 weight = "×2 (Large creature), ×1 (Medium creature)"
 +++
 
-**Price** ×4 (Large creature), ×2 (Medium creature); **Weight** ×2 (Large creature), ×1 (Medium
-creature)
+::: statblock
+Price: ×4 (Large creature), ×2 (Medium creature)
+Weight: ×2 (Large creature), ×1 (Medium creature)
+:::
 
 Barding is a type of armor that covers the head, neck, chest, body, and possibly legs of a horse or
 other mount. Barding made of medium or heavy armor provides better protection than light barding,

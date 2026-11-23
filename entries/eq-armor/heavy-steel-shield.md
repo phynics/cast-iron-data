@@ -19,9 +19,14 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Cost** 20 gp **Weight** 15 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 15%
+::: statblock
+Cost: 20 gp
+Weight: 15 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 15%
+:::
 
 You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is
 so heavy that you can't use your shield hand for anything else. Whether wooden or steel, a heavy

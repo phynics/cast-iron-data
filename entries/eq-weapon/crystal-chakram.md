@@ -22,6 +22,14 @@ fragments; if it misses, there is a 50% chance the chakram shatters when it hits
 another solid object; otherwise it can be retrieved and used again. A crystal chakram is treated as
 ammunition for the purpose of creating magic weapons.
 
-**Cost** 20 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 20 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

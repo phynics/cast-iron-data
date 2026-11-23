@@ -26,8 +26,15 @@ Above water, this weapon is identical to a heavy crossbow. You may use it underw
 range increment of 20 feet. It counts as a [heavy crossbow](ref/eq-weapon/heavy-crossbow) for the
 purposes of proficiencies and special abilities.
 
-**Cost** 100 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 100 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

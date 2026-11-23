@@ -40,7 +40,15 @@ It has the same statistics as a bayonet, but a firearm fitted with a bayonet lug
 the bayonet is in place, albeit with a -2 penalty on attack rolls. Each bayonet is designed for a
 specific model of firearm.
 
-**Cost** 5 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Close
+::: statblock
+Cost: 5 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: -
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Close](ref/ability/weapon-groups#sec-close)
+:::

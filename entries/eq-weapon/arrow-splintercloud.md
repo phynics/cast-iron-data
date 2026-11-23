@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "0.15 lbs."
 +++
 
-**Price** 25 gp; **Weight** 0.15 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: 0.15 lbs.
+Category: Alchemical Weapons
+:::
 
 The shaft of this arrow is formed from numerous small bone fragments that have been painstakingly
 glued together. On a successful hit, a splintercloud arrow deals normal damage as it tears itself

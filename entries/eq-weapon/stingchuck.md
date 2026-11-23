@@ -24,7 +24,14 @@ dealing 1d6 points of damage and forcing a DC 11 Fortitude save to avoid being
 stingchuck, it takes 1 additional point of damage from the biting vermin. All creatures within the
 splash effect take 1 point of damage from the vermin but do not risk being nauseated.
 
-**Cost** - **Weight** 9 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B; **Special** see
-text\
-**Category** Ranged; **Proficiency** Simple
+::: statblock
+Cost: -
+Weight: 9 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B
+Special: see text
+Category: Ranged
+Proficiency: Simple
+:::

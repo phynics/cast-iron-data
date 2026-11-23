@@ -21,7 +21,11 @@ is attached to a length of silk rope and fired from a bow, the arrow's range inc
 30 feet, but it gains the [grapple](ref/misc/grapple) special weapon quality. Barbed
 [bolts](ref/eq-weapon/crossbow-bolts) exist for crossbows.
 
-**Cost** 0.1 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

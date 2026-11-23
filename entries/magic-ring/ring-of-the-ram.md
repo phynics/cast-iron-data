@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** ring; **Price** 8,600 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: ring
+Price: 8,600 gp
+Weight: -
+:::
 
 A ring of the ram has a setting crafted to resemble a ram's head. The wearer can command the ring to
 give forth a ram-like force, manifested by a vaguely discernible shape that resembles the head of a
@@ -47,5 +52,7 @@ all the charges are expended, the ring becomes a nonmagical item.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [bull's strength](ref/spell/bulls-strength),
-[telekinesis](ref/spell/telekinesis); **Cost** 4,300 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [bull's strength](ref/spell/bulls-strength), [telekinesis](ref/spell/telekinesis)
+Cost: 4,300 gp
+:::

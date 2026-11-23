@@ -16,10 +16,16 @@ category = "Armor"
 weight = "4 lbs."
 +++
 
-**Cost** 850 gp **Weight** 4 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +6; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 850 gp
+Weight: 4 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +6
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 10%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This exotic form-fitting garment is woven entirely from alchemically treated silk harvested from
 giant spiders or other arachnid creatures. If you have the [drow's](ref/race/drow) weapon

@@ -17,8 +17,11 @@ price = "250 gp (adamantine), 150 gp (cold iron), 100gp (silver)"
 weight = "0.5 lb."
 +++
 
-**Price** 250 gp (adamantine), 150 gp (cold iron), 100gp (silver); **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 250 gp (adamantine), 150 gp (cold iron), 100gp (silver)
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 The nearly invisible gas contained in this fragile glass sphere temporarily but drastically
 deteriorates the defenses - both manufactured and natural - of those affected. A blanch bomb is

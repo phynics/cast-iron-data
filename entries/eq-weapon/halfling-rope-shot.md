@@ -23,8 +23,15 @@ wrist and you drop the rope-shot or are disarmed, you can recover it as a swift 
 weapon's loop is a full-round action. You get a +2 bonus on Sleight of Hand checks made to conceal a
 rope-shot on your body. [Halflings](ref/race/halfling) treat rope-shots as martial weapons.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

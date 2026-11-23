@@ -20,8 +20,12 @@ aura = "moderate abjuration and enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and enchantment; **CL** 7th\
-**Slot** ring; **Price** 14,800 gp
+::: statblock
+Aura: moderate abjuration and enchantment
+CL: 7th
+Slot: ring
+Price: 14,800 gp
+:::
 
 This ancient silver ring provides a measure of control over elemental creatures. The spirit of an
 ancient Jistkan elementalist still echoes within the ring, issuing a sense of smug arrogance. The
@@ -37,8 +41,10 @@ creature, exuding a clear impression of patronizing disappointment.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [charm monster](ref/spell/charm-monster),
-[resist energy](ref/spell/resist-energy); **Price** 7,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [charm monster](ref/spell/charm-monster), [resist energy](ref/spell/resist-energy)
+Price: 7,400 gp
+:::
 
 ### Statistics
 

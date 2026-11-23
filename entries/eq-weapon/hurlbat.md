@@ -23,7 +23,14 @@ rolls with the weapon, and you must succeed at a DC 15 Reflex save when making m
 avoid cutting yourself on an edge and taking 1 point of slashing damage. You don't need to attempt
 this save while wearing heavy armor.
 
-**Cost** 8 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 10 ft.; **Type** P and S;
-**Special** -\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: 8 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: P and S
+Special: -
+Category: Ranged
+Proficiency: Martial
+:::

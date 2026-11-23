@@ -24,8 +24,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** ring; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: ring
+Price: 50,000 gp
+Weight: -
+:::
 
 This ring has two modes of operation: one for when the wearer is in
 [dim light](ref/rule/vision-and-light) or outdoors at night, and a second one when the wearer is
@@ -79,6 +84,7 @@ carrying a metal weapon takes 4d8 points of damage.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [faerie fire](ref/spell/faerie-fire),
-[fireball](ref/spell/fireball), [light](ref/spell/light),
-[lightning bolt](ref/spell/lightning-bolt); **Cost** 25,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [faerie fire](ref/spell/faerie-fire), [fireball](ref/spell/fireball), [light](ref/spell/light), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 25,000 gp
+:::

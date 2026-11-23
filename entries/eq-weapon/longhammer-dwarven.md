@@ -19,7 +19,14 @@ weight = "20 lbs."
 These heavy-headed bludgeons are often carved or cast with monstrous faces or drilled with tiny
 holes to create a menacing whistling as they are swung through the air.
 
-**Cost** 70 gp **Weight** 20 lbs.\
-**Damage** 1d10 (small), 2d6 (medium); **Critical** ×3; **Range** -; **Type** B; **Special**
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 70 gp
+Weight: 20 lbs.
+Damage: 1d10 (small), 2d6 (medium)
+Critical: ×3
+Range: -
+Type: B
+Special: [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+:::

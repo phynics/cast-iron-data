@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 26,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 26,000 gp
+Weight: -
+:::
 
 This shining, ash-white ring of bone is crafted to look like countless interlocking rat fangs, set
 with a dozen dark, garnet eyes like those of albino sewer-hunters. The wearer of this ring can utter
@@ -41,5 +46,7 @@ expending three daily uses of her wild shape ability.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door),
-[summon swarm](ref/spell/summon-swarm); **Cost** 13,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door), [summon swarm](ref/spell/summon-swarm)
+Cost: 13,000 gp
+:::

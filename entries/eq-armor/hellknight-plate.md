@@ -19,10 +19,16 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Cost** 2,000 gp **Weight** 50 lbs.\
-**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 2,000 gp
+Weight: 50 lbs.
+Armor Bonus: +9
+Max Dex Bonus: +1
+Armor Check Penalty: -5
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 These distinctive suits of armor are a special type of [masterwork](ref/rule/masterwork-armor)
 [full plate](ref/eq-armor/full-plate) that grant additional effects when worn by a character with

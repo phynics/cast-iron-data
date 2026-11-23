@@ -30,5 +30,9 @@ used only with dragoon firearms.
 Magical bullets can be made in the form of dragoon cartridges, but the price and cost are three
 times greater than the listed value.
 
-**Cost** 30 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 30 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

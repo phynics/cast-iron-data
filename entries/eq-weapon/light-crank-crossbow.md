@@ -21,7 +21,14 @@ its damage, critical, and range values are equivalent to those of a
 [light crossbow](ref/eq-weapon/light-crossbow). Its lighter construction means it provides only a +1
 bonus on Climb checks and grapple combat maneuver checks to pull the target toward you.
 
-**Cost** 250 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** 80 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 250 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: 80 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

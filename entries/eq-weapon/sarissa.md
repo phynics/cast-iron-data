@@ -26,7 +26,14 @@ extended reach. You can't change the area you threaten with the sarissa until yo
 you carry the sarissa pointed upward (typical for overland movement), you threaten only squares in
 the sarissa's reach in a cone pointed upward.
 
-**Cost** 12 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach), see text\
-**Category** Two-Handed; **Proficiency** Martial
+::: statblock
+Cost: 12 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach), see text
+Category: Two-Handed
+Proficiency: Martial
+:::

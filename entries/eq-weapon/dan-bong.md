@@ -24,8 +24,15 @@ a cord looped over the thumb. They provide the wielder with the ability to lock 
 target pressure points, granting you a +2 bonus on combat maneuver checks to
 [grapple](ref/rule/grapple).
 
-**Cost** 0.1 gp **Weight** -\
-**Damage** 1d2 (small), 1d3 (medium); **Critical** 19-20/×2; **Range** 10 ft.; **Type** B;
-**Special** [blocking](ref/misc/blocking), [monk](ref/misc/monk), see text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Close; Monk
+::: statblock
+Cost: 0.1 gp
+Weight: -
+Damage: 1d2 (small), 1d3 (medium)
+Critical: 19-20/×2
+Range: 10 ft.
+Type: B
+Special: [blocking](ref/misc/blocking), [monk](ref/misc/monk), see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

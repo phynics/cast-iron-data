@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** ring; **Price** 30,800 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: ring
+Price: 30,800 gp
+Weight: -
+:::
 
 This [adamantine](ref/eq-material/adamantine) ring contains a moving, notched golden circle that
 whirs with healing energy when activated. Once per day when the wearer takes hit point damage by any
@@ -43,5 +48,7 @@ last longer than the hit point regeneration).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [regenerate](ref/spell/regenerate); **Cost**
-15,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [regenerate](ref/spell/regenerate)
+Cost: 15,400 gp
+:::

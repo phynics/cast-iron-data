@@ -20,7 +20,15 @@ The dwarven sphinx hammer is a long-handled hammer with a striking head that is 
 look like a ram-headed [criosphinx](ref/monster/sphinx-criosphinx). Most commonly found among the
 Pahmet, the dwarven sphinx hammer is balanced for use as both a melee weapon and a thrown weapon.
 
-**Cost** 45 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** 20 ft.; **Type** B; **Special** -\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Thrown
+::: statblock
+Cost: 45 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: B
+Special: -
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

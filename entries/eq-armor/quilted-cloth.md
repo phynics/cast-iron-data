@@ -19,10 +19,16 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Cost** 100 gp **Weight** 15 lbs.\
-**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 100 gp
+Weight: 15 lbs.
+Armor Bonus: +1
+Max Dex Bonus: +8
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 10%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This enhanced form of padded armor has internal layers specifically designed to trap arrows, bolts,
 darts, shuriken, thrown daggers, and other small ranged piercing weapons. When these kinds of

@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "1 lb."
 +++
 
-**Price** 45 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 45 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This yellow ball of volatile resin has a hemp wick. Lighting the fuse is a move action; 1d3-1 rounds
 later (a result of 0 rounds takes place at the end of your turn), the shriek bomb explodes, dealing

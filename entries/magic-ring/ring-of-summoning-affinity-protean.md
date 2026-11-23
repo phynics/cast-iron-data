@@ -21,8 +21,13 @@ aura = "faint conjuration [chaos]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[chaos\]; **CL** 5th\
-**Slot** ring; **Price** 7,200 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[chaos\]
+CL: 5th
+Slot: ring
+Price: 7,200 gp
+Weight: -
+:::
 
 This ring is made from an opalescent material that is never the same color twice. If the wearer can
 cast _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -34,5 +39,7 @@ wearer can use this ring to summon a voidworm, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be chaotic neutral; **Cost** 3,600 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be chaotic neutral
+Cost: 3,600 gp
+:::

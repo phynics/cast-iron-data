@@ -21,6 +21,14 @@ of toe presses. You can use a blade boot as an off-hand weapon. Releasing the kn
 action; rearming it is a full-round action. When the blade is extended, you treat normal terrain as
 difficult and [difficult terrain](ref/rule/terrain-and-obstacles) as impassable.
 
-**Cost** 25 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** see text\
-**Category** Light; **Proficiency** Martial
+::: statblock
+Cost: 25 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: see text
+Category: Light
+Proficiency: Martial
+:::

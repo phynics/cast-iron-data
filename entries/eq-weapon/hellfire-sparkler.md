@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "50 lbs."
 +++
 
-**Price** 250 gp; **Weight** 50 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 250 gp
+Weight: 50 lbs.
+Category: Alchemical Weapons
+:::
 
 This large barrel-shaped sparkler is imbued with mysterious, hellish forces. The fuse can be lit as
 a standard action; 1d4 rounds later, the sparkler crackles violently with sickly-green sparks that

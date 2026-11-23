@@ -23,7 +23,14 @@ This one-handed weapon is similar to a [nunchaku](ref/eq-weapon/nunchaku) in tha
 pair of bars linked with heavy chain. However, a flindbar's bars are made of iron and are capped
 with a ring of spikes or studs. Since it's much heaver than a nunchaku, it is not a light weapon.
 
-**Cost** 9 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** B and P; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 9 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: B and P
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+:::

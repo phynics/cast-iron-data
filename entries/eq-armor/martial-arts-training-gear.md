@@ -16,10 +16,16 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 45 gp **Weight** 5 lbs.\
-**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 45 gp
+Weight: 5 lbs.
+Armor Bonus: +1
+Max Dex Bonus: +8
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 5%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This armor consists of several sections of curved padding held together by an assembly of leather
 straps. Meant to be worn during martial arts sparring contests, the armor absorbs blows from

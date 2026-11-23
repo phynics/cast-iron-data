@@ -31,8 +31,15 @@ at a DC 12 Fortitude saving throw or be [dazzled](ref/misc/dazzled) for 1 round.
 tube must be repacked before it can be used again. Repacking a tube requires a full-round action, or
 a standard action if you have the [Rapid Reload](ref/feat/rapid-reload) feat.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** special (small), special (medium); **Critical** -; **Range** -; **Type** -; **Special**
-see text\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: special (small), special (medium)
+Critical: -
+Range: -
+Type: -
+Special: see text
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

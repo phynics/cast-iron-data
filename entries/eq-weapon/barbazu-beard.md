@@ -29,6 +29,14 @@ weapon or unarmed strike against these creatures.
 
 A barbazu beard is a light melee exotic weapon.
 
-**Cost** 25 gp **Weight** 5 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Exotic
+::: statblock
+Cost: 25 gp
+Weight: 5 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: -
+Category: Light
+Proficiency: Exotic
+:::

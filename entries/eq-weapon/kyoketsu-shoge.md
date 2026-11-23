@@ -24,9 +24,15 @@ sticking out the side like a rooster's spur. The blade is strung to a large iron
 length of rope. The blade can be used as an off-handed melee weapon or thrown like a dagger, while
 the rope and circlet can be whipped around and swung at opponents as a bludgeoning reach weapon.
 
-**Cost** 6 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 20 ft.; **Type** S or P;
-**Special** [disarm](ref/misc/disarm), [grapple](ref/misc/grapple), [monk](ref/misc/monk),
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails; Monk
+::: statblock
+Cost: 6 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: S or P
+Special: [disarm](ref/misc/disarm), [grapple](ref/misc/grapple), [monk](ref/misc/monk), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

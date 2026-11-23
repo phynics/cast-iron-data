@@ -24,7 +24,15 @@ wield it with one hand. It may be ornate and carved, reinforced with metal, or a
 a tree. Like simple clubs, greatclubs have many names, such as cudgels, bludgeons, shillelaghs, and
 more.
 
-**Cost** 5 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** -\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Tribal
+::: statblock
+Cost: 5 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: -
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Tribal](ref/ability/weapon-groups#sec-tribal)
+:::

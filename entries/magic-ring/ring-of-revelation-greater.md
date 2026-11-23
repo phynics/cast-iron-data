@@ -26,8 +26,13 @@ caster_level = "11th"
 
 ## Ring of Revelation
 
-**Aura** moderate varies; **CL** 11th\
-**Slot** ring; **Price** 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior); **Weight** -
+::: statblock
+Aura: moderate varies
+CL: 11th
+Slot: ring
+Price: 10,000 gp (lesser), 16,000 gp (greater), 24,000 gp (superior)
+Weight: -
+:::
 
 A ring of revelation is a divine item attuned to a particular oracular mystery and containing a
 revelation associated with that mystery (see the [oracle](ref/class/oracle) class description).
@@ -47,5 +52,7 @@ the oracle to be 11th level or higher.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must be an oracle with the desired
-revelation; **Cost** 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must be an oracle with the desired revelation
+Cost: 5,000 gp (lesser), 8,000 gp (greater), 12,000 gp (superior)
+:::

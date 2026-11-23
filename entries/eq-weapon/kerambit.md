@@ -24,7 +24,15 @@ with a pinky or worn on a string tied in the hair. While relatively small, the c
 create brutal wounds. Easily concealed (you gain a +2 bonus on Sleight of Hand checks made to
 conceal a kerambit on your body), it is a favorite weapon of ninja and assassins.
 
-**Cost** 2 gp **Weight** -\
-**Damage** 1d2 (small), 1d3 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 2 gp
+Weight: -
+Damage: 1d2 (small), 1d3 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "0.15 lbs."
 +++
 
-**Price** 100 gp; **Weight** 0.15 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 0.15 lbs.
+Category: Alchemical Weapons
+:::
 
 Behind the head of this arrow is a small receptacle of alchemical material that heats up when
 exposed to air and eventually combusts; barbs on the arrowhead pierce the pouch when it hits a

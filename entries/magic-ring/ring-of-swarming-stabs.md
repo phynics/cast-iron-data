@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 This ring is crafted of hardened leather strips, into which bits of fur, feathers, bone, and ivory
 have been woven. Twice per day, when the wearer is [flanking](ref/rule/flanking) an opponent, he can
@@ -35,5 +40,7 @@ such damage.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [guidance](ref/spell/guidance), creator must be
-able to sneak attack; **Cost** 3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [guidance](ref/spell/guidance), creator must be able to sneak attack
+Cost: 3,000 gp
+:::

@@ -23,8 +23,13 @@ caster_level = "7th"
 
 ## Ring of Inner Fortitude
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 18,000 gp (minor), 42,000 gp (major), 66,000 gp (greater); **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 18,000 gp (minor), 42,000 gp (major), 66,000 gp (greater)
+Weight: -
+:::
 
 Alternating diamonds and rubies stud this band of white gold. A minor ring of fortitude reduces
 [ability damage](ref/rule/ability-damage-drain) or temporary ability penalties the wearer takes by 2
@@ -46,5 +51,7 @@ effect, it also negates the beneficial effect.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [restoration](ref/spell/restoration); **Cost**
-9,000 gp (minor), 21,000 gp (major), 33,000 gp (greater)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [restoration](ref/spell/restoration)
+Cost: 9,000 gp (minor), 21,000 gp (major), 33,000 gp (greater)
+:::

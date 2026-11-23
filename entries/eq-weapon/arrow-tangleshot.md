@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "0.25 lbs."
 +++
 
-**Price** 20 gp; **Weight** 0.25 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 20 gp
+Weight: 0.25 lbs.
+Category: Alchemical Weapons
+:::
 
 This arrow is tipped with a tiny vial of tanglefoot goo. Firing a tangleshot arrow is a ranged touch
 attack; the arrow deals no damage when it hits, but the target is splashed with the alchemical
