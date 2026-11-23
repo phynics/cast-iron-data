@@ -24,14 +24,28 @@ Cost: +10 gp
 Weight: +5 lbs.
 :::
 
-**Light shield**\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Martial
+::: statblock
+title = "Light shield"
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+:::
 
-**Heavy shield**\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+title = "Heavy shield"
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::
 
 Deadly spikes and bladed projections extend from some shields, transforming such pieces of armor
 into weapon in their own right. Shield spikes turn a shield into a martial piercing weapon and
