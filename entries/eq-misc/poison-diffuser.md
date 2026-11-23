@@ -34,6 +34,10 @@ recipe delays a poison diffuser's activation time. For every 20 doses of urea (w
 gp) incorporated into the alchemical creation process, the time from which the diffuser is added to
 the poison to the time the poison begins spreading into the air increases by 1 round.
 
-**Spontaneous Alchemy Recipe** (100 brimstone + 180 salt + 180 spirit of wine)/fermentation; **Craft
-DC** 25\
-**Time** 1 day; **Tools** heat source; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: (100 brimstone + 180 salt + 180 spirit of wine)/fermentation
+Craft DC: 25
+Time: 1 day
+Tools: heat source
+Type: alchemical tool
+:::

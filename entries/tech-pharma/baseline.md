@@ -22,7 +22,11 @@ Price: 2,250 gp
 
 ### Construction
 
-**Craft DC** 26; **Cost** 1,125 gp\
+::: statblock
+Craft DC: 26
+Cost: 1,125 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 An injection of baseline floods the brain with neuroinhibitors that purge the mind of excess

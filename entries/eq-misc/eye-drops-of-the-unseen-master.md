@@ -29,6 +29,10 @@ homunculus's eyes by closing yours and concentrating, and the homunculus can see
 the same fashion. The eye drops also extend the range of the homunculus's telepathic link to 1 mile.
 The effects of the eye drops fade after 1 day.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 dew of lunary + 20 saltpeter + 80
-spirit of wine)/distillation; **Craft DC** 25\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(20 dew of lunary + 20 saltpeter + 80 spirit of wine)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical remedy
+:::

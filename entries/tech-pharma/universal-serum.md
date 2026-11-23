@@ -22,7 +22,11 @@ Price: 400 gp
 
 ### Construction
 
-**Craft DC** 25; **Cost** 200 gp\
+::: statblock
+Craft DC: 25
+Cost: 200 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 A viscous, blue serum fills the receptacle attached behind the nozzle of this metallic injector.

@@ -32,6 +32,10 @@ a +10 circumstance bonus on Disguise checks to appear as the subject, but unless
 halfling, a gnome, a child, or another Small humanoid, the homunculus is likely shorter than the
 subject.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (110 magnesium + 200 silver + 100
-spirit of wine)/distillation; **Craft DC** 25\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(110 magnesium + 200 silver + 100 spirit of wine)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical remedy
+:::

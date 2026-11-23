@@ -40,5 +40,8 @@ the tendril is grafted elsewhere.
 
 ### Creation Requirements
 
-**Cost** 11,250 gp\
+::: statblock
+Cost: 11,250 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 250 gp

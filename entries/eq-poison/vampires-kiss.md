@@ -33,6 +33,10 @@ Weight: —
 
 **Cure:** 1 save
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 gold + 50 myrrh + 30
-quicksilver)/distillation; **Craft** DC 15\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(6 gold + 50 myrrh + 30 quicksilver)/distillation](ref/rule/spontaneous-alchemy)
+Craft: DC 15
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: poison
+:::

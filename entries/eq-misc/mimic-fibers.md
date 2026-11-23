@@ -31,6 +31,10 @@ or once-living material. Even a destroyed item can be repaired (treat as if at 0
 as the item is in no more than two pieces and is held together at the break as the spores are
 applied.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 magnesium + 6 cytillesh
-spores)/filtration; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(6 magnesium + 6 cytillesh spores)/filtration](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical tool
+:::

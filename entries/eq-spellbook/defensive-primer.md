@@ -21,9 +21,11 @@ _This surprisingly ornate and heavy volume is more than three-quarters empty. Ti
 on the precepts of arcane defense and the vulnerabilities of supernatural entities fill the first
 two pages._
 
-**Opposition** Conjuration, enchantment\
-**Protection** [Average lock](ref/eq-misc/lock-average) (DC 25)\
-**Value** 185 gp
+::: statblock
+Opposition: Conjuration, enchantment
+Protection: [Average lock](ref/eq-misc/lock-average) (DC 25)
+Value: 185 gp
+:::
 
 #### Spells
 

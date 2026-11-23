@@ -32,7 +32,11 @@ Special: -
 
 ### Construction
 
-**Craft DC** 30; **Cost** 33,835 gp\
+::: statblock
+Craft DC: 30
+Cost: 33,835 gp
+:::
+
 [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories), [discharge](ref/spell/discharge),

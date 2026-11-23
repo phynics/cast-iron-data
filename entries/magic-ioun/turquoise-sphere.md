@@ -38,9 +38,10 @@ ride gains the benefits of the [Fleet](ref/feat/fleet) feat.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal), [longstrider](ref/spell/longstrider), creator must be 12th
-level; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal), [longstrider](ref/spell/longstrider), creator must be 12th level
+Cost: 3,000 gp
+:::
 
 ### Flawed Ioun Stone
 

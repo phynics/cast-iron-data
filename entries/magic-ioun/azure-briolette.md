@@ -39,8 +39,10 @@ user each day babble residual psychic impressions into the bearer's mind. This f
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 7,500 gp
+:::
 
 ### Cracked Ioun Stone
 

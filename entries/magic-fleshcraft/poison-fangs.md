@@ -50,5 +50,8 @@ checks.
 
 ### Creation Requirements
 
-**Cost** 6,000 gp\
+::: statblock
+Cost: 6,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 11 ranks; Heal DC 21; **Elixir Cost** 400 gp

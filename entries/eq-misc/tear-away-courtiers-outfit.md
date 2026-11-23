@@ -37,9 +37,12 @@ hard time of it (-2 penalty on Charisma-based skill checks to influence such ind
 wear this outfit without jewelry (costing an additional 50 gp), you look like an out-of-place
 commoner.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

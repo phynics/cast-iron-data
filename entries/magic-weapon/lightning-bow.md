@@ -58,7 +58,12 @@ Price: 27,300 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 9\
-**Senses** 120 ft.\
-**Int** 6, **Wis** 11, **Cha** 11\
-**Communication** speech (Auran)
+::: statblock
+Alignment: neutral
+Ego: 9
+Senses: 120 ft.
+Int: 6
+Wis: 11
+Cha: 11
+Communication: speech (Auran)
+:::

@@ -34,6 +34,10 @@ Weight: 1 lb.
 
 **Cure:** 1 save
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (150 brimstone + 20 dew of lunary +
-80 spirit of wine)/fermentation; **Craft** DC 13\
-**Time** 1 day; **Tools** heat source; **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(150 brimstone + 20 dew of lunary + 80 spirit of wine)/fermentation](ref/rule/spontaneous-alchemy)
+Craft: DC 13
+Time: 1 day
+Tools: heat source
+Type: poison
+:::

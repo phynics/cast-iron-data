@@ -30,12 +30,11 @@ Usage: disposable
 
 ### Construction
 
-**Craft DC** 20 (all)\
-**Cost** 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio
-grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp
-(flechette grenade), 375 gp (fragmentation grenade), 375 gp (gas grenade), 1,125 gp (gravity
-grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic
-grenade), 375 gp (zero grenade)\
+::: statblock
+Craft DC: 20 (all)
+Cost: 375 gp (arc grenade), 3,000 gp (atom grenade), 125 gp (bang grenade), 1,650 gp (bio grenade), 375 gp (concussion grenade), 375 gp (EMP grenade), 375 gp (flash grenade), 375 gp (flechette grenade), 375 gp (fragmentation grenade), 375 gp (gas grenade), 1,125 gp (gravity grenade), 375 gp (inferno grenade), 800 gp (plasma grenade), 375 gp (soft grenade), 500 gp (sonic grenade), 375 gp (zero grenade)
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

@@ -32,7 +32,11 @@ Special: [Semi-automatic](ref/misc/semi-automatic), [touch](ref/misc/touch)
 
 ### Construction
 
-**Craft DC** 32; **Cost** 52,500 gp\
+::: statblock
+Craft DC: 32
+Cost: 52,500 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [graviton lab](ref/rule/crafting-laboratories)
 

@@ -37,6 +37,10 @@ better), it shifts to helpful instead (two steps better)
 
 **Cure:** 1 save
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 dew of lunary + 20 quicksilver +
-80 spirit of wine)/distillation; **Craft** DC 11\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(20 dew of lunary + 20 quicksilver + 80 spirit of wine)/distillation](ref/rule/spontaneous-alchemy)
+Craft: DC 11
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: poison
+:::

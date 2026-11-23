@@ -30,10 +30,11 @@ Usage: varies
 
 ### Construction
 
-**Craft DC** 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange),
-DC 35 (prismatic), DC 32 (red), DC 29 (white)\
-**Cost** 200 gp (black), 10,000 gp (blue), 100 gp (brown), 3,000 gp (gray), 5,000 gp (green), 15,000
-gp (orange), 25,000 gp (prismatic), 6,000 gp (red), 1,250 gp (white)\
+::: statblock
+Craft DC: 28 (black), DC 33 (blue), DC 27 (brown), DC 30 (gray), DC 31 (green), DC 34 (orange), DC 35 (prismatic), DC 32 (red), DC 29 (white)
+Cost: 200 gp (black), 10,000 gp (blue), 100 gp (brown), 3,000 gp (gray), 5,000 gp (green), 15,000 gp (orange), 25,000 gp (prismatic), 6,000 gp (red), 1,250 gp (white)
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [production lab](ref/rule/crafting-laboratories)
 

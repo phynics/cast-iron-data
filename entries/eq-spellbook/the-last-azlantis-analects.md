@@ -19,9 +19,10 @@ category = "Spellbooks"
 
 _This book's ancient leather cover is emblazoned with a simplified winged eye._
 
-**Protection** [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock)
-(DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)\
-**Value** 7,030 gp (10,030 gp with the preparation ritual)
+::: statblock
+Protection: [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock) (DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)
+Value: 7,030 gp (10,030 gp with the preparation ritual)
+:::
 
 #### Spells
 

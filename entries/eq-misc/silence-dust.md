@@ -29,6 +29,10 @@ through the cloud take a -10 penalty. Alternatively, applying a dose of silence 
 a standard action grants you a +5 circumstance bonus on Stealth checks to avoid being heard while
 walking. The dust is effective for 1 minute before it disperses.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (12 dew of lunary + 40
-myrrh)/calcination; **Craft DC** 20\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(12 dew of lunary + 40 myrrh)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::

@@ -47,10 +47,13 @@ days.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 12, **Cha** 10\
-**Communication** empathy\
-**Powers** 3/day - [fear](ref/spell/fear) (DC 16),
-[freedom of movement](ref/spell/freedom-of-movement),
-[protection from energy](ref/spell/protection-from-energy), [shout](ref/spell/shout) (DC 16)
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 12
+Cha: 10
+Communication: empathy
+Powers: 3/day - [fear](ref/spell/fear) (DC 16), [freedom of movement](ref/spell/freedom-of-movement), [protection from energy](ref/spell/protection-from-energy), [shout](ref/spell/shout) (DC 16)
+:::

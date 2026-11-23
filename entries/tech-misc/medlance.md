@@ -27,7 +27,11 @@ Usage: disposable
 
 ### Construction
 
-**Craft DC** 23; **Cost** 250 gp\
+::: statblock
+Craft DC: 23
+Cost: 250 gp
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [medical lab](ref/rule/crafting-laboratories)
 

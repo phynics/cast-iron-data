@@ -33,6 +33,10 @@ it. Treat this as a ranged touch attack that does not provoke attacks of opportu
 this way, acid neutralizer prevents the ooze creature from dealing acid damage (assuming it is
 normally able to do so) for 1 round.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 brimstone + 10 salt + 5
-urea)/calcination; **Craft DC** 15\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(20 brimstone + 10 salt + 5 urea)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 15
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

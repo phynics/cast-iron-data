@@ -39,8 +39,10 @@ effect; bonuses from multiple amber spindles stack.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance), creator must be 12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Flawed Ioun Stone
 

@@ -32,9 +32,13 @@ apart, creating a burst of razor-sharp bone shards centered on the target. These
 points of piercing damage to the target and any creatures adjacent to the target (Reflex DC 18
 negates).
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (28 myrrh + 30 salt)/earth; **Craft
-DC** 25\
-**Time** 10 minutes; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(28 myrrh + 30 salt)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds. The
 source material lists weight as —.

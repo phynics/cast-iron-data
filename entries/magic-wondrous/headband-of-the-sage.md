@@ -52,7 +52,12 @@ Price: 35,650 gp
 
 ### Statistics
 
-**Alignment** varies; **Ego** 20\
-**Senses** 30 ft.\
-**Int** 20, **Wis** 16, **Cha** 12\
-**Communication** telepathy (Common and 10 other languages)
+::: statblock
+Alignment: varies
+Ego: 20
+Senses: 30 ft.
+Int: 20
+Wis: 16
+Cha: 12
+Communication: telepathy (Common and 10 other languages)
+:::

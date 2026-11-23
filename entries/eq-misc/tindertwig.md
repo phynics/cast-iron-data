@@ -37,6 +37,10 @@ fire with one is at least a standard action. A tindertwig burns for 1d2 rounds a
 [candle](ref/eq-misc/candle). Tindertwigs are waterproof, but must be dried before you can strike
 them.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (2 brimstone + 1
-phosphorus)/ceration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(2 brimstone + 1 phosphorus)/ceration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::

@@ -21,9 +21,11 @@ _These two books are part of a set held together with a leather strap. The cover
 shimmering and unearthly blue leather, and the spines are built of silver and iron. The books are
 chilly to the touch, and staring at them induces minor vertigo._
 
-**Opposition** Divination, necromancy\
-**Protection** Sepia snake sigil (Reflex DC 16)\
-**Value** 4,555 gp (6,355 gp with the preparation ritual)
+::: statblock
+Opposition: Divination, necromancy
+Protection: Sepia snake sigil (Reflex DC 16)
+Value: 4,555 gp (6,355 gp with the preparation ritual)
+:::
 
 #### Spells
 

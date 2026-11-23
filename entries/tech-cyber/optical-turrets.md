@@ -27,7 +27,11 @@ Implantation: 2
 
 ### Construction
 
-**Craft DC** 30; **Cost** 3,000 gp\
+::: statblock
+Craft DC: 30
+Cost: 3,000 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 These cybernetic implants replace the recipient's eyes with turrets containing multiple lenses, such

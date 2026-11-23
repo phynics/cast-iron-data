@@ -20,10 +20,11 @@ category = "Spellbooks"
 _This tome reeks of decomposing flesh or some even fouler stench. Grave mold clings to the
 worm-eaten cover, and dirt stains the pages. Some pages have been torn out._
 
-**Opposition** Enchantment, transmutation\
-**Protection** The edges of the first three pages are coated with [nitharit](ref/eq-poison/nitharit)
-poison\
-**Value** 815 gp (1,265 gp with the preparation ritual)
+::: statblock
+Opposition: Enchantment, transmutation
+Protection: The edges of the first three pages are coated with [nitharit](ref/eq-poison/nitharit) poison
+Value: 815 gp (1,265 gp with the preparation ritual)
+:::
 
 #### Spells
 

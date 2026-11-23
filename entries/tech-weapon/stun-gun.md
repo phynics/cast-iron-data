@@ -32,7 +32,11 @@ Special: [Nonlethal](ref/misc/nonlethal), [semi-automatic](ref/misc/semi-automat
 
 ### Construction
 
-**Craft DC** 22; **Cost** 1,500 gp\
+::: statblock
+Craft DC: 22
+Cost: 1,500 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

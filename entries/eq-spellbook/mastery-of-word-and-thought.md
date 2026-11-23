@@ -21,10 +21,11 @@ _This massive tome is the size of four normal spellbooks, bound in leather as ha
 and stitched together with strands of thin, pliable metal rather than thread. Toward the end is a
 list of names, each crossed out._
 
-**Opposition** Conjuration, illusion\
-**Protection** [Symbol of death](ref/spell/symbol-of-death) on the first page of the book (Fort DC
-22)\
-**Value** 22,675 gp (27,265 gp with the preparation ritual)
+::: statblock
+Opposition: Conjuration, illusion
+Protection: [Symbol of death](ref/spell/symbol-of-death) on the first page of the book (Fort DC 22)
+Value: 22,675 gp (27,265 gp with the preparation ritual)
+:::
 
 #### Spells
 

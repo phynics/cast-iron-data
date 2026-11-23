@@ -30,9 +30,13 @@ This sharpened hollow tube looks like the narrow proboscis of some giant insect,
 comes from a carnivorous plant. A bleeding arrow deals normal damage when it hits a creature and
 deals 1 point of [bleed](ref/rule/bleed) damage. A critical hit does not multiply the bleed damage.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (30 darkwood + 90 myrrh + 25
-realgar)/exposure; **Craft DC** 25\
-**Time** 1 hour; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(30 darkwood + 90 myrrh + 25 realgar)/exposure](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal arrows weighing three pounds. The source material lists
 weight as —.

@@ -56,7 +56,12 @@ Price: 22,100 gp
 
 ### Statistics
 
-**Alignment** lawful good; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 13, **Cha** 12\
-**Communication** telepathy (Celestial; truespeech)
+::: statblock
+Alignment: lawful good
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 13
+Cha: 12
+Communication: telepathy (Celestial; truespeech)
+:::

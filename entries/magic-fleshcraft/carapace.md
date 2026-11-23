@@ -36,5 +36,8 @@ nerves. This grants a +4 enhancement bonus to the subject's natural armor bonus.
 
 ### Creation Requirements
 
-**Cost** 9,000 gp\
+::: statblock
+Cost: 9,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 14 ranks; Heal DC 24; **Elixir Cost** 300 gp

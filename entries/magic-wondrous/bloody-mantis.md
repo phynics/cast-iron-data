@@ -60,7 +60,12 @@ Price: 26,250 gp
 
 ### Statistics
 
-**Alignment** lawful evil; **Ego** 12\
-**Senses** 30 ft.\
-**Int** 12, **Wis** 15, **Cha** 10\
-**Communication** speech (Common, Infernal)
+::: statblock
+Alignment: lawful evil
+Ego: 12
+Senses: 30 ft.
+Int: 12
+Wis: 15
+Cha: 10
+Communication: speech (Common, Infernal)
+:::

@@ -44,7 +44,12 @@ Price: 10,075 gp
 
 ### Statistics
 
-**Alignment** chaotic neutral; **Ego** 7\
-**Senses** 120 ft.\
-**Int** 14, **Wis** 10, **Cha** 14\
-**Communication** speech (Auran, Celestial, Common)
+::: statblock
+Alignment: chaotic neutral
+Ego: 7
+Senses: 120 ft.
+Int: 14
+Wis: 10
+Cha: 14
+Communication: speech (Auran, Celestial, Common)
+:::

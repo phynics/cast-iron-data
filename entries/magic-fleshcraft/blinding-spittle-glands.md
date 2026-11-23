@@ -38,5 +38,8 @@ items, or cast spells with verbal components.
 
 ### Creation Requirements
 
-**Cost** 1,000 gp\
+::: statblock
+Cost: 1,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 300 gp

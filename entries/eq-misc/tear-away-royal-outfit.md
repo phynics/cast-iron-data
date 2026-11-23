@@ -37,9 +37,12 @@ presumed that anyone who might be wearing it has plenty of servants to take care
 need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other regal
 accoutrements.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

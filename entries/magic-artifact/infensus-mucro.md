@@ -42,11 +42,14 @@ To destroy the weapon, you must immerse it in a bath of Asmodeus's tears.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 33\
-**Int** 18, **Wis** 19, **Cha** 20\
-**Communication** empathy\
-**Powers** [bestow curse](ref/spell/bestow-curse) 3/day (DC 19),
-[spell immunity](ref/spell/spell-immunity) 1/day (CL 17th)\
-**Dedicated Powers** wielder gains fire immunity and the ability to cast
-[repulsion](ref/spell/repulsion) 1/day (CL 17th)\
-**[Special Purpose](ref/rule/special-purpose-items)** defend the servants and interests of Asmodeus
+::: statblock
+Alignment: LE
+Ego: 33
+Int: 18
+Wis: 19
+Cha: 20
+Communication: empathy
+Powers: [bestow curse](ref/spell/bestow-curse) 3/day (DC 19), [spell immunity](ref/spell/spell-immunity) 1/day (CL 17th)
+Dedicated Powers: wielder gains fire immunity and the ability to cast [repulsion](ref/spell/repulsion) 1/day (CL 17th)
+Special Purpose: [defend the servants and interests of Asmodeus](ref/rule/special-purpose-items)
+:::

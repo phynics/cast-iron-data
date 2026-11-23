@@ -21,9 +21,11 @@ _This small book, no larger than a pocket notebook, is bound between wooden cove
 copy meant to withstand the rigors of adventuring. The arrowhead lodged in the cover can't be
 removed without magic._
 
-**Opposition** Conjuration, enchantment\
-**Protection** [Simple lock](ref/eq-misc/lock-simple) (DC 20)\
-**Value** 365 gp
+::: statblock
+Opposition: Conjuration, enchantment
+Protection: [Simple lock](ref/eq-misc/lock-simple) (DC 20)
+Value: 365 gp
+:::
 
 #### Spells
 

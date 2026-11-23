@@ -31,6 +31,10 @@ creatures in the same space. In addition, an affected incorporeal creature with
 [sunlight powerlessness](ref/umr/sunlight-powerlessness) becomes [blinded](ref/misc/blinded) for 1
 round. A spirit firecracker has no effect on corporeal creatures.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 black powder + 6 brimstone + 4
-saltpeter + 10 silver)/calcination; **Craft DC** 25\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(1 black powder + 6 brimstone + 4 saltpeter + 10 silver)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

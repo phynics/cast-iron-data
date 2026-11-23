@@ -34,9 +34,13 @@ durable arrow with an enhancement bonus or magic weapon special ability applies 
 effects only the first time it is used - afterward, the durable arrow becomes nonmagical, and it can
 be reused or imbued with magic again.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 cold iron + 1 myrrh)/exposure;
-**Craft DC** 25\
-**Time** 1 hour; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(1 cold iron + 1 myrrh)/exposure](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds. The
 source material lists weight as —.

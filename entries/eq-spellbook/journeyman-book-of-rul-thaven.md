@@ -23,10 +23,11 @@ woman's portrait has been bound into the front cover, and text covers almost all
 her face: text in circles, with arrows pointing to new circles with suppositions. Underneath the
 woman's chin are the words "Diabolist sacrifice?"_
 
-**Opposition** Illusion, transmutation\
-**Protection** [Average lock](ref/eq-misc/lock-average) (DC 25), and the 5th-level spells are hidden
-with secret page. The special word is "reveal."\
-**Value** 2,195 gp (3,320 gp with the preparation ritual)
+::: statblock
+Opposition: Illusion, transmutation
+Protection: [Average lock](ref/eq-misc/lock-average) (DC 25), and the 5th-level spells are hidden with secret page. The special word is "reveal."
+Value: 2,195 gp (3,320 gp with the preparation ritual)
+:::
 
 #### Spells
 

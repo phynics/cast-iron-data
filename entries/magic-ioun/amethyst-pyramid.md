@@ -42,8 +42,10 @@ are negated for 1 hour.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hide from undead](ref/spell/hide-from-undead), creator must be 12th level; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hide from undead](ref/spell/hide-from-undead), creator must be 12th level
+Cost: 4,000 gp
+:::
 
 ### Flawed Ioun Stone
 

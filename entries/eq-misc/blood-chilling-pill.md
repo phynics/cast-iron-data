@@ -30,6 +30,10 @@ However, you take a -2 penalty on initiative checks. Swallowing a
 [blood-boiling pill](ref/eq-misc/blood-boiling-pill) while under the effects of a blood-chilling
 pill negates the effects of both pills.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (15 ginger extract + 40 myrrh + 30
-mugwort extract)/filtration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(15 ginger extract + 40 myrrh + 30 mugwort extract)/filtration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical remedy
+:::

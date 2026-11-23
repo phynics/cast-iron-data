@@ -47,4 +47,6 @@ maximum bonus indicated for the bow. Each point of Strength bonus granted by the
 its cost. If you have a negative modifier due to low Strength, apply it to damage rolls when you use
 a composite bow.
 
-**Cost** 230 gp (+1), 330 gp (+2), 430 gp (+3), 530 gp (+4), 630 gp (+5), 730 gp (+6), 830 gp (+7)
+::: statblock
+Cost: 230 gp (+1), 330 gp (+2), 430 gp (+3), 530 gp (+4), 630 gp (+5), 730 gp (+6), 830 gp (+7)
+:::

@@ -62,11 +62,15 @@ of Envy living in the world.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 19\
-**Senses** [darkvision](ref/rule/darkvision) 60 ft., hearing\
-**Int** 15, **Wis** 13, **Cha** 10\
-**Communication** read languages, speech (Azlanti, Elven, Thassilonian)\
-**Powers** [detect thoughts](ref/spell/detect-thoughts) 3/day,
-[modify memory](ref/spell/modify-memory) 1/day\
-**Dedicated Powers** consume magic (see above)\
-**[Special Purpose](ref/rule/special-purpose-items)** defeat arcane spellcasters
+::: statblock
+Alignment: LE
+Ego: 19
+Senses: [darkvision](ref/rule/darkvision) 60 ft., hearing
+Int: 15
+Wis: 13
+Cha: 10
+Communication: read languages, speech (Azlanti, Elven, Thassilonian)
+Powers: [detect thoughts](ref/spell/detect-thoughts) 3/day, [modify memory](ref/spell/modify-memory) 1/day
+Dedicated Powers: consume magic (see above)
+Special Purpose: [defeat arcane spellcasters](ref/rule/special-purpose-items)
+:::

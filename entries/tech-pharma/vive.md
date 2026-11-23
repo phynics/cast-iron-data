@@ -22,7 +22,11 @@ Price: 200 gp
 
 ### Construction
 
-**Craft DC** 22; **Cost** 100 gp\
+::: statblock
+Craft DC: 22
+Cost: 100 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 Vive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1

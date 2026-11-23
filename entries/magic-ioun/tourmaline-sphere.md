@@ -44,8 +44,10 @@ This stone grants a +1 bonus on Constitution checks to stabilize when dying.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), creator must be 12th level; **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), creator must be 12th level
+Cost: 500 gp
+:::
 
 ### Cracked Ioun Stone
 

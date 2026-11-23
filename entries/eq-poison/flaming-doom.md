@@ -31,6 +31,10 @@ Weight: —
 
 **Cure:** 2 saves
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (200 magnesium + 200 phosphorus + 250
-saltpeter)/distillation; **Craft** DC 18\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(200 magnesium + 200 phosphorus + 250 saltpeter)/distillation](ref/rule/spontaneous-alchemy)
+Craft: DC 18
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: poison
+:::

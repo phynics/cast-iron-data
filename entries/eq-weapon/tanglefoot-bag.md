@@ -50,7 +50,10 @@ and fragile after 2d4 rounds, cracking apart and losing its effectiveness. An ap
 [universal solvent](ref/magic-wondrous/universal-solvent) to a stuck creature dissolves the
 alchemical goo immediately. Crafting this item is a DC 25 Craft (alchemy) check.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (55 myrrh + 55 urea)/congelation;
-**Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(55 myrrh + 55 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

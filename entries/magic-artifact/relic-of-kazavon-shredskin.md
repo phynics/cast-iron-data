@@ -47,9 +47,13 @@ on [Nirvana](ref/rule/nirvana) and exposed to direct light for 1 month.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 12, **Cha** 10\
-**Communication** empathy\
-**Powers** 3/day - [deeper darkness](ref/spell/deeper-darkness),
-[shadow walk](ref/spell/shadow-walk) (DC 19), [symbol of pain](ref/spell/symbol-of-pain) (DC 17)
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 12
+Cha: 10
+Communication: empathy
+Powers: 3/day - [deeper darkness](ref/spell/deeper-darkness), [shadow walk](ref/spell/shadow-walk) (DC 19), [symbol of pain](ref/spell/symbol-of-pain) (DC 17)
+:::

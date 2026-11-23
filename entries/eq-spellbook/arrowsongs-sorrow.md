@@ -26,7 +26,9 @@ tone of Arrowsong's notes is one of bitter melancholy, and an equal amount of sp
 slanderous poetry directed toward Arrowsong's parents and the book's writers, who might be the same
 people._
 
-**Value** 1,200 gp (2,200 gp with the preparation ritual)
+::: statblock
+Value: 1,200 gp (2,200 gp with the preparation ritual)
+:::
 
 #### Spells
 

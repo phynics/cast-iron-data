@@ -41,7 +41,14 @@ as a light weapon. If you use your shield as a weapon, you lose its AC bonus unt
 An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it,
 but the shield can be made into a magic weapon in its own right.
 
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P or S; **Special** see
-text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+title = "Shield Bash Attacks"
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P or S
+Special: see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

@@ -28,7 +28,11 @@ Implantation: 2
 
 ### Construction
 
-**Craft DC** 25; **Cost** 5,000 gp\
+::: statblock
+Craft DC: 25
+Cost: 5,000 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories),
 weapon to be implanted
 

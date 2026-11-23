@@ -38,8 +38,10 @@ the ioun stone's creator).
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues),
-creator must be 12th level; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues), creator must be 12th level
+Cost: 2,500 gp
+:::
 
 ### Flawed Ioun Stone
 

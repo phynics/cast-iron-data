@@ -34,9 +34,12 @@ come in a wide range of styles, from scandalous to flattering to absurd. While t
 whimsical, its practical design does nothing to inhibit your ability to tumble, dance, walk a
 tightrope, or run (if the audience turns ugly).
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

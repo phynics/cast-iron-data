@@ -65,7 +65,12 @@ Price: 14,335 gp
 
 ### Statistics
 
-**Alignment** chatoic evil; **Ego** 10\
-**Senses** 30 ft. ([darkvision](ref/rule/darkvision))\
-**Int** 10, **Wis** 14, **Cha** 10\
-**Communication** speech (Common and Orc)
+::: statblock
+Alignment: chatoic evil
+Ego: 10
+Senses: 30 ft. ([darkvision](ref/rule/darkvision))
+Int: 10
+Wis: 14
+Cha: 10
+Communication: speech (Common and Orc)
+:::

@@ -29,6 +29,10 @@ homunculus gains a +4 circumstance bonus on Stealth checks for 24 hours. The oin
 applied to other creatures as long as they are Medium or smaller and wear no clothing or armor to
 obstruct their skin, but the bonus is reduced to +2.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 gold + 12 silver + 12
-urea)/ceration; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(1 gold + 12 silver + 12 urea)/ceration](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical remedy
+:::
