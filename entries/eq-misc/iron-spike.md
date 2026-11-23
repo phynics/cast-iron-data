@@ -23,8 +23,11 @@ price = "5 cp"
 weight = "1 lb."
 +++
 
-**Price** 5 cp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 cp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This foot-long iron spike is used to keep doors open or closed and to secure ropes for climbing.
 Hearing a spike being hammered in requires a DC 5 Perception check.

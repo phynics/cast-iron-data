@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 These odd looking, egg-shaped contraptions have cleverly placed fins that improve bombs' accuracy.
 Goblin alchemists use these special containers to make their bombs more accurate when thrown long

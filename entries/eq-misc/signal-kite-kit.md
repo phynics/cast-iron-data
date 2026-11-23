@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Entertainment
+:::
 
 Though wingless, [tengus](ref/race/tengu) have long cast their thoughts toward the sky and flight.
 Built from paper glued to bamboo frames, their kites are painted with various colors and pictures.

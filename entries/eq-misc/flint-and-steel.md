@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Lighting a torch with a flint and steel is a full-round action. Lighting any other fire with them
 takes at least that long.

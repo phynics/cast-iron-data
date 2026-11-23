@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 Loading this long bronze tube with a dose of ingested poison and 10 gp worth of gold dust is a
 standard action. When you blow on a poison belcher like a blowgun, it sprays the poison out the

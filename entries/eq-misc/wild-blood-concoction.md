@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Concoctions
+:::
 
 This coppery-tasting substance causes your adrenaline production to spike, granting you a +2
 alchemical bonus on melee damage rolls with natural and manufactured weapons. The concoction weakens

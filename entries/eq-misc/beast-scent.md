@@ -20,8 +20,11 @@ price = "75 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 75 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This mixture of scent-gland extracts and aromatic herbs serves as both attractor and olfactory
 camouflage. It masks the natural scent of a creature with a pungent musk that is alluring to

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 These waterproof boots are felt lined and have a thin layer of metal around the soles. The top of
 each boot ends just before the knee, with a cord for tying the top shut over clothing or exposed

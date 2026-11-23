@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This slimy gray unguent distorts wavelengths of light beyond of the normal visual spectrum, causing
 you to appear blurry to creatures using [darkvision](ref/rule/darkvision). Applying the camouflage

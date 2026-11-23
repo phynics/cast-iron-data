@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Once you imbibe this metallic-tasting liquid, its effects last for 1 hour. During this time, you can
 accept [alchemical burn](ref/misc/alchemical-burn) to increase your sneak attack damage by 1d6

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "5 lbs."
 +++
 
-**Price** 25 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 A spirit planchette is typically found in a wooden case along with a thin wooden board printed with
 numerous letters and numbers. Nonmagical versions of these divination tools can be purchased in

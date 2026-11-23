@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Applied poison generally washes off weapons underwater in 1d10 rounds unless the poison is contained
 inside the weapon and injected, so undersea alchemists developed poison sealant to circumvent this

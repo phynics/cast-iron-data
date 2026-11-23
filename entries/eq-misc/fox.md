@@ -17,8 +17,11 @@ price = "8 gp"
 weight = "12 lbs."
 +++
 
-**Price** 8 gp; **Weight** 12 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 8 gp
+Weight: 12 lbs.
+Category: Mounts/Pets
+:::
 
 These quick and wily carnivores can be difficult to train, but often make excellent familiars. Many
 humanoid communities see these canines as a menace to their farming fowl, and some use dogs to track

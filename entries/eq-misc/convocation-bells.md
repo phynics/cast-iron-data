@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "10 lbs."
 +++
 
-**Price** 100 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This set of simple brass bells is held in a wheeled stand that allows bell ringers to easily move
 the ensemble. The bells are carefully constructed and ordered to enable ringers to perform the

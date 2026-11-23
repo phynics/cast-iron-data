@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "1 lb."
 +++
 
-**Price** 45 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 45 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 A greasy paste of beeswax, pyrite, and various monster fluids, fool's glow reacts with light to
 confuse magical senses. For 12 hours after being smeared over an object or creature (a process

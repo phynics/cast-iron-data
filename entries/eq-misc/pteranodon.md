@@ -19,8 +19,11 @@ weight = "-"
 
 ## Dinosaurs and Megafauna
 
-**Price** Varies; **Weight** -\
-**Category** Mounts/Pets
+::: statblock
+Price: Varies
+Weight: -
+Category: Mounts/Pets
+:::
 
 The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve
 as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly

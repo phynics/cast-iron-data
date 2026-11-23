@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 20 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This glue is stored as two flasks of syrupy liquid. When mixed together and allowed to cure, they
 form a strong bond. The glue is sufficient to coat 1 square foot of surface, or (because of waste,

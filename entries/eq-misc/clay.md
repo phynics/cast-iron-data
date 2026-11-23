@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This pound of clay is sold in a watertight container to keep it soft, can be hardened by sunlight,
 baking, or any heat source.

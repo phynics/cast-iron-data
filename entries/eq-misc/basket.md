@@ -20,7 +20,10 @@ price = "4 sp"
 weight = "1 lb."
 +++
 
-**Price** 4 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 4 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This large basket has a lid and holds about 2 cubic feet.

@@ -25,9 +25,10 @@ weight = "2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium),
 
 ## Cage
 
-**Price** 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp
-(Huge); **Weight** 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs.
-(Large), 960 lbs. (Huge)
+::: statblock
+Price: 10 gp (Diminutive or Fine), 2 gp (Tiny), 15 gp (Small or Medium), 30 gp (Large), 60 gp (Huge)
+Weight: 2 lbs. (Diminutive or Fine), 5 lbs. (Tiny), 60 lbs. (Small or Medium), 240 lbs. (Large), 960 lbs. (Huge)
+:::
 
 This secure, portable enclosure is used to hold creatures - generally animals, but a large enough
 cage can hold anything. Cages are made from iron, wood, or bamboo, depending on local customs and

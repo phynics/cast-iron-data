@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 40 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 40 gp
+Weight: 1/2 lb.
+Category: Alchemical Remedies
+:::
 
 This rare and unusual brew is fortified by a process of repeated partial freezing, during which the
 ice is continually skimmed off, resulting in a draught with more than 10 times the alcohol content

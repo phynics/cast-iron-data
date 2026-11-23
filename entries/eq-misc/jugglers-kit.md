@@ -20,8 +20,11 @@ price = "15 gp"
 weight = "10 lbs."
 +++
 
-**Price** 15 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 15 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This kit includes multiple sets of well-balanced objects, such as balls, clubs, knives, rings, and
 torches. It provides a +1 bonus on Perform (act or comedy) checks and checks involving juggling.

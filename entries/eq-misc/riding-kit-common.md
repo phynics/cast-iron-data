@@ -22,7 +22,10 @@ weight = "54 lbs. (common), 59 lbs. (exotic mount)"
 
 ## Riding kit
 
-**Price** 16 gp (common), 36 gp (exotic mount); **Weight** 54 lbs. (common), 59 lbs. (exotic mount)
+::: statblock
+Price: 16 gp (common), 36 gp (exotic mount)
+Weight: 54 lbs. (common), 59 lbs. (exotic mount)
+:::
 
 This kit includes a [bit and bridle](ref/eq-misc/bit-and-bridle), a
 [saddle](ref/eq-misc/saddle-riding), a [saddle blanket](ref/eq-misc/blanket),

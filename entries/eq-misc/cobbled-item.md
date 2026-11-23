@@ -17,8 +17,11 @@ price = "Special"
 weight = "Special"
 +++
 
-**Price** Special; **Weight** Special\
-**Category** Adventuring Gear
+::: statblock
+Price: Special
+Weight: Special
+Category: Adventuring Gear
+:::
 
 Goblins are masters at crafting things from bits of rubbish. The category of "cobbled item" is a
 general catch-all to describe any piece of equipment that has been repaired or modified by goblins.

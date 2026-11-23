@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This foul-tasting alchemical concoction grants those that imbibe it ferocity for a short period of
 time. This functions as the [universal monster rule of the same name](ref/umr/ferocity), and lasts

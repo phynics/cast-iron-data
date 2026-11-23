@@ -19,8 +19,10 @@ weight = "1,300 lbs. (combat-trained), 1,000 lbs. (common)"
 
 ## Hippocampus
 
-**Price** 750 gp (combat-trained), 500 gp (common); **Weight** 1,300 lbs. (combat-trained), 1,000
-lbs. (common)
+::: statblock
+Price: 750 gp (combat-trained), 500 gp (common)
+Weight: 1,300 lbs. (combat-trained), 1,000 lbs. (common)
+:::
 
 Though somewhat rarer than horses on the surface world, [hippocampi](ref/monster/hippocampus) are
 roughly as easy to train as horses, despite being magical beasts. Even combat-trained hippocampi

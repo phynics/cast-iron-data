@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "4 lbs."
 +++
 
-**Price** 2 gp; **Weight** 4 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 2 gp
+Weight: 4 lbs.
+Category: Animal Gear
+:::
 
 A caparison is a sizable cloth covering laid over a mount or other four-legged creature. It serves
 many of the same purposes a cloak does for a humanoid creature, occupies the shoulder slot, and can

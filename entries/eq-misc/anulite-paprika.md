@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "-"
 +++
 
-**Price** 3 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 3 gp
+Weight: -
+Category: Food/Drink
+:::
 
 Although Anulites make great use of foreign spices, Anulite paprika is perhaps the most popular in
 the city, especially among the wealthy. This bright red seasoning is used in all manner of seafood

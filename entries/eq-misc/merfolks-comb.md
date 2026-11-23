@@ -17,10 +17,15 @@ price = "750 gp"
 weight = "-"
 +++
 
-**Price** 750 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 25; **Yield** 1 dose\
-**Terrain** any underwater\
+::: statblock
+Price: 750 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 25
+Yield: 1 dose
+Terrain: any underwater
+:::
+
 **Preparation** A single dose of merfolk's comb must be allowed to dry over a period of 7 days while
 being rubbed with alchemical oils once daily to prevent the herb from losing its properties during
 the process. This requires seven separate successful DC 14 Craft (alchemy) checks, one every 24

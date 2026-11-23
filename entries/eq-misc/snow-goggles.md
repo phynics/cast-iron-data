@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "-"
 +++
 
-**Price** 12 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 12 gp
+Weight: -
+Category: Clothing
+:::
 
 These goggles, carved from bone with a narrow slit opening and held in place with leather straps,
 work as [smoked goggles](ref/eq-misc/smoked-goggles). In addition, they provide immunity to polar

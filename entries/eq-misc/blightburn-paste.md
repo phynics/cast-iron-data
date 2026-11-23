@@ -17,8 +17,11 @@ price = "5,000 gp"
 weight = "45 lbs."
 +++
 
-**Price** 5,000 gp; **Weight** 45 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 5,000 gp
+Weight: 45 lbs.
+Category: Alchemical Tools
+:::
 
 This heavy stone box measures 2 feet to a side, and the tiny compartment inside is lined with lead.
 Inside the compartment is a half-ounce of deep green paste. This paste is made of animal fat mixed

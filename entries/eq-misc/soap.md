@@ -23,8 +23,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Most soap is made from animal fat and lye derived from ashes. You can use this thick block of soap
 to scrub clothes, pots, linens, adventurers, or anything else that might be dirty. A bar of soap has

@@ -25,8 +25,11 @@ weight = "2 lbs."
 
 ## Peasant's outfit
 
-**Price** 1 sp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 sp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 These clothes are of poor quality, the fabric little more than sack cloth, often patched and mended
 many times over. A peasant's outfit consists of a loose shirt and baggy breeches, or a loose shirt

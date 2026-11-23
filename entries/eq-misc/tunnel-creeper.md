@@ -17,8 +17,11 @@ price = "280 gp"
 weight = "1 lb."
 +++
 
-**Price** 280 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 280 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This fist-sized cluster of aggressive fungus grows rapidly when placed against a solid surface and
 exposed to water, and can quietly bore a 5-foot-tall, 10-foot-deep tunnel in a straight line. The

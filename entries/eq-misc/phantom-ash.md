@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Many [Rivethun](ref/rule/aff-animists) who study the old ways to better manage a traumatic injury
 use this concoction. Despite its evocative name, phantom ash has little to do with spectral spirits.

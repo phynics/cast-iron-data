@@ -16,9 +16,12 @@ category = "Miscellaneous Equipment"
 price = "3,500 gp"
 +++
 
-**Price** 3,500 gp; **Accuracy** +5\
-**Category** [Dungeon Guides](ref/rule/dungeon-guides)\
-**Associated Skill** Knowledge (geography) (DC 25)
+::: statblock
+Price: 3,500 gp
+Accuracy: +5
+Category: [Dungeon Guides](ref/rule/dungeon-guides)
+Associated Skill: Knowledge (geography) (DC 25)
+:::
 
 Compiled from the recovered diaries of a clerk in Oagon, this waterproof volume is a useful guide to
 those exploring the drowned city. Most of the information is dated, but the sketched maps and

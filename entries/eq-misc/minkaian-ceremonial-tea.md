@@ -17,8 +17,11 @@ price = "900 gp"
 weight = "-"
 +++
 
-**Price** 900 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 900 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This tea is extremely rare and expensive, requiring several years to grow and prepare. A
 [geisha](ref/arc-bard/geisha) bard who uses this tea as part of her tea ceremony to inspire courage

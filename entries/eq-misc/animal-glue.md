@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This simple glue is created by extensively boiling animal skin, bones, hooves, horn, and tendons
 until they turn into an ochre syrup that cools when it hardens. Before you use animal glue, you must

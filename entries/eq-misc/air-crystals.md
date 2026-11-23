@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 These unpleasant-tasting, alchemically grown crystals release breathable air when chewed. A pouch of
 air crystals provides 1 minute of breathable air. Placing air crystals in your mouth takes a

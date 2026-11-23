@@ -19,9 +19,10 @@ weight = "10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs.
 
 ## Oozing vat
 
-**Price** 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small);
-**Weight** 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs.
-(small)
+::: statblock
+Price: 500 gp (gargantuan), 200 gp (huge), 50 gp (large), 10 gp (medium), 1 gp (small)
+Weight: 10,000 lbs. (gargantuan), 2,000 lbs. (huge), 200 lbs. (large), 20 lbs. (medium), 2 lbs. (small)
+:::
 
 These earthenware vats are made from a special clay sludge dredged from Oenopion's central lake and
 infused with ooze distillates. After being fired in a massive kiln, an oozing vat is typically

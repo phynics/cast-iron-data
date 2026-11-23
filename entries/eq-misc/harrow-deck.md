@@ -29,8 +29,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Entertainment
+:::
 
 This is a traditional [fortune-telling deck](ref/eq-misc/fortune-telling-deck) of cards used by
 soothsayers and seers. Some harrow decks are elaborately illustrated, but most are parchment or

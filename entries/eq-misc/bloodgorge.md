@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 40 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 40 gp
+Weight: 1/2 lb.
+Category: Alchemical Remedies
+:::
 
 When you imbibe this syrupy black serum, your blood thins dramatically and gushes forth from even
 minor wounds. Anytime you take [bleed](ref/rule/bleed) damage, any creatures adjacent to you must

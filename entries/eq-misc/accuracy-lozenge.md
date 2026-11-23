@@ -17,8 +17,11 @@ price = "330 gp"
 weight = "-"
 +++
 
-**Price** 330 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 330 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 The effects of this gray-green pill last for 5 minutes after consumption. During this time, when
 making a full attack, you can accept [alchemical burn](ref/misc/alchemical-burn) to make your second

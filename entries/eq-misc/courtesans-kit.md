@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Price** 10 gp; **Weight** 5 lbs.\
-**Category** Kits
+::: statblock
+Price: 10 gp
+Weight: 5 lbs.
+Category: Kits
+:::
 
 This kit contains items to assist a courtesan in soothing the body and mind. For the body, the kit
 contains a razor, scented oils and salves, fragrances, a warming pot, and a variety of appealing

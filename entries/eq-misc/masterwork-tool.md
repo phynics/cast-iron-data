@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill
 check (if any). The bonuses provided by multiple masterwork items do not stack.

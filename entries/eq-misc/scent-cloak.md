@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "2 lbs."
 +++
 
-**Price** 20 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This collection of coarsely ground spices, seeds, musk, and alchemical reagents are meant to be
 rubbed into your skin and clothes in order to override your scent, increasing the DC of tracking you

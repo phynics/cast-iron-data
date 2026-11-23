@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This 3-foot-long strip of extremely thin hide can be cut into different lengths. When moistened and
 applied across surfaces or between objects, it creates a bond requiring a DC 15 Strength check to

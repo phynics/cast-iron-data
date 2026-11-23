@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 One hour after being applied, this alchemical salve cures any creature suffering from
 [frostbite](ref/rule/cold-dangers), though any nonlethal damage from cold or exposure remains until

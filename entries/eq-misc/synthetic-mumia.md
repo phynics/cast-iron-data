@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 A laboratory-created version of the expensive and infamous Osirian drug [mumia](ref/drug/mumia),
 synthetic mumia is a mixture of honey, embalming fluids, and various animal organs. The murky liquid

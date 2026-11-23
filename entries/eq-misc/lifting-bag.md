@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "42 lbs."
 +++
 
-**Price** 3 gp; **Weight** 42 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 gp
+Weight: 42 lbs.
+Category: Adventuring Gear
+:::
 
 This air-filled leather or organ bladder ends in a trailing rope weighed down with a 40-pound stone
 or piece of metal. The weight is just heavy enough to counteract the bladder's

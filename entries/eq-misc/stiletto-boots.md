@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 The most ostentatious and impractical of footwear, the tall heel attached to these boots adds
 several inches to your height. This type of boot is popular among Chelish nobles, though the trend

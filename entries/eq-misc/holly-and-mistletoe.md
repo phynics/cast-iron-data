@@ -17,7 +17,10 @@ price = "0 gp"
 weight = "-"
 +++
 
-**Price** 0 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 0 gp
+Weight: -
+Category: Tools
+:::
 
 Druids commonly use these plants as divine focuses when casting spells.

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 These soft and subtle boots are constructed of silk and specially cured leather. They are specially
 designed for [catfolk](ref/race/catfolk) feet. They work with the feline structure of the race's

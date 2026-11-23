@@ -17,8 +17,11 @@ price = "400 gp"
 weight = "12 lbs."
 +++
 
-**Price** 400 gp; **Weight** 12 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 400 gp
+Weight: 12 lbs.
+Category: Adventuring Gear
+:::
 
 A quicksilver barometer consists of a slender glass tube, closed at the top, containing an open,
 mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate

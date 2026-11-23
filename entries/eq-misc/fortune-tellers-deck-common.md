@@ -22,8 +22,10 @@ weight = "1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)"
 
 ## Fortune-teller's deck
 
-**Price** 1 gp (common), 50 gp (masterwork), 25 gp (quality); **Weight** 1/2 lb. (common), 1 lb.
-(masterwork), 1 lb. (quality)
+::: statblock
+Price: 1 gp (common), 50 gp (masterwork), 25 gp (quality)
+Weight: 1/2 lb. (common), 1 lb. (masterwork), 1 lb. (quality)
+:::
 
 This deck of illustrated cards is used by those in tune with the spirit world to predict the
 future - and by charlatans to take money from the gullible. A common deck only has simple drawings

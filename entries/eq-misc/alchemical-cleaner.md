@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This caustic alchemical solution dissolves blood, hair, and small pieces of flesh. Distributing it
 over a 5-foot square takes one full-round action and increases the DC of Perception checks to find

@@ -20,8 +20,11 @@ price = "400 gp"
 weight = "4 lbs."
 +++
 
-**Price** 400 gp; **Weight** 4 lbs.\
-**Category** Kits
+::: statblock
+Price: 400 gp
+Weight: 4 lbs.
+Category: Kits
+:::
 
 This sturdy leather case straps to the waist or thigh, or can be slung over a shoulder. It consists
 of a [leather pouch](ref/eq-misc/belt-pouch), a [healer's kit](ref/eq-misc/healers-kit), a bottle of

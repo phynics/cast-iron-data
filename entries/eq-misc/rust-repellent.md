@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Price** 25 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This waxy paste preserves metal objects against rust. One application coats a Medium or smaller
 metal object or creature and lasts 24 hours, granting it a +2 circumstance bonus on saving throws

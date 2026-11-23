@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Torture Implements
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Torture Implements
+:::
 
 This device is a sharp, double-ended prong that is approximately 9 inches in length and fitted with
 a stout leather neckband. This nefarious device is secured on a [helpless](ref/misc/helpless)

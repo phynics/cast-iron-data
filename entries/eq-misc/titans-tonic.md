@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Tincture
+:::
 
 Gravel floats in this umber liquid. For 1 hour after drinking this tincture, you gain a +1
 alchemical bonus to natural armor and a +2 alchemical bonus on Strength checks and Strength-based

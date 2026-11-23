@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This tonic is sludgy, and its scent resembles the tang of iron shavings. Drinking gravelly tonic
 causes your voice to deepen and become more grating for 1 hour, granting you a +5 alchemical bonus

@@ -17,8 +17,11 @@ price = "265 gp"
 weight = "22 lbs."
 +++
 
-**Price** 265 gp; **Weight** 22 lbs.\
-**Category** Kits
+::: statblock
+Price: 265 gp
+Weight: 22 lbs.
+Category: Kits
+:::
 
 This kit provides all the tools necessary to seal a coffin or other burial container and ensure that
 it stays closed. It includes 20 feet of [chain](ref/eq-misc/chain-10-ft), a

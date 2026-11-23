@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Animal Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Animal Gear
+:::
 
 These reed or bamboo whistles mimic the calls of various wild animals. Each whistle is keyed to a
 specific type of animal and a specific call (usually signaling the availability of food or a mate to

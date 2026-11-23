@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Kits
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Kits
+:::
 
 This large suitcase contains a plethora of items useful to anyone pretending to channel spirits. The
 case contains [candles](ref/eq-misc/candle), [mirrors](ref/eq-misc/mirror), and 10-foot-long

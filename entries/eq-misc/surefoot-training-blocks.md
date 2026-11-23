@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "25 lbs."
 +++
 
-**Price** 50 gp; **Weight** 25 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 25 lbs.
+Category: Tools
+:::
 
 This collection of eight heavy wooden or metal cones, cylinders, and spheres fills an ordinary
 backpack. None of the shapes is precisely regular, and when stacked atop each other, they teeter

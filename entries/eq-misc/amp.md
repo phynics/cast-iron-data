@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This liquid intensifier can be added to a drug as a move action no more than 1 round before the drug
 is taken. Amp increases all numeric effects of a drug by 50%, including any bonuses, penalties, and

@@ -17,8 +17,11 @@ price = "5 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 5 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Milk is a nutritious liquid created by mammals, in particular cows, goats, sheep, and horses. Fresh
 milk is thick and tends to separate. Often, the cream is allowed to rise to the top and then skimmed

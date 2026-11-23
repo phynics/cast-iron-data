@@ -17,8 +17,11 @@ price = "4,000 gp"
 weight = "2 lbs."
 +++
 
-**Price** 4,000 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 4,000 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Objects viewed through a masterwork spyglass are magnified to four times their size. Characters
 using a masterwork spyglass take a -1 penalty on Perception checks per 40 feet of distance to the

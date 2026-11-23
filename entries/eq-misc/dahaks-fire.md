@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Dragoncraft
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Dragoncraft
+:::
 
 Made with dragon's gall, which is harvested from a recently deceased dragon's liver, Dahak's fire is
 a volatile alchemical reagent. Though inherently inert, the substance ignites when it comes into

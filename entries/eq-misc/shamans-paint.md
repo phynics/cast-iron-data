@@ -17,8 +17,11 @@ price = "90 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 90 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 90 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 The ground carcasses of goldbelly stinkbugs - insects native to the Mindspin Mountains - give this
 paint its characteristic yellow hue. When applied as a full-round action, this fine paste makes your

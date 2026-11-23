@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1 lb."
 +++
 
-**Price** 80 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 80 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 These books come in all manner of shapes and sizes, from hardbound, illustrated manuscripts to
 collections of journals, notes, and scrolls from multiple authors. When used as a reference (an

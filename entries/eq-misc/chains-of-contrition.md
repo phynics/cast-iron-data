@@ -17,9 +17,12 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Price** 200 gp; **Weight** 2 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 200 gp
+Weight: 2 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 Each carefully forged link of these [masterwork manacles](ref/eq-misc/manacles-masterwork) (with a
 [good lock](ref/eq-misc/lock-good)) contains a parable or other quotes excerpted from sacred texts.

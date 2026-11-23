@@ -17,8 +17,11 @@ price = "350 gp"
 weight = "3 lbs."
 +++
 
-**Price** 350 gp; **Weight** 3 lbs.\
-**Category** Kits
+::: statblock
+Price: 350 gp
+Weight: 3 lbs.
+Category: Kits
+:::
 
 This kit covers all the basics for survival on potentially hostile planes. It contains basic written
 guides to the Outer Planes, phrasebooks for common outsider languages and tips on the ecology of

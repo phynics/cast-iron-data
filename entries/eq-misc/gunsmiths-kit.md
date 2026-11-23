@@ -20,8 +20,11 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Price** 15 gp; **Weight** 2 lbs.\
-**Category** Kits
+::: statblock
+Price: 15 gp
+Weight: 2 lbs.
+Category: Kits
+:::
 
 This small kit has all the tools a person needs to create, repair, and restore firearms, except for
 the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for

@@ -26,8 +26,11 @@ price = "5 sp"
 weight = "3 lbs."
 +++
 
-**Price** 5 sp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 This warm, woven blanket has straps so it can be rolled up and tied. Blankets are often used in
 conjunction with [bedrolls](ref/eq-misc/bedroll) to provide additional warmth or a ground cushion.

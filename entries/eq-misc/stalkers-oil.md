@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This is a clear, viscous liquid that is typically kept in a frosted glass vial with an unassuming
 label and cork. The oil is used to reduce the sound armor and weapons make while moving. Applying

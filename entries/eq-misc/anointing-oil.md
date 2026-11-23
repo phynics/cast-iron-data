@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This sacred oil, infused with aromatic spices and distilled [holy water](ref/eq-weapon/holy-water),
 may be applied to a creature while casting a harmless divine spell with a range of touch, increasing

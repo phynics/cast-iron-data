@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This bone-white paste makes your face appear skeletal and emotionless, like a visage of death
 itself. When you apply frightful war paint to yourself (or to a willing adjacent creature) as a

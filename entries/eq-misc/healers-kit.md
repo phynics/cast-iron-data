@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This collection of bandages and herbs provides a +2 circumstance bonus on Heal checks. A healer's
 kit is exhausted after 10 uses.

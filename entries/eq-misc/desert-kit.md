@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "20 lbs."
 +++
 
-**Price** 30 gp; **Weight** 20 lbs.\
-**Category** Kits
+::: statblock
+Price: 30 gp
+Weight: 20 lbs.
+Category: Kits
+:::
 
 This kit contains tools necessary for staying cool and hydrated in hot, dry terrain. It includes a
 10-foot-by-10-foot piece of [canvas](ref/eq-misc/canvas-sq-yd), 3 doses of

@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "1 lb."
 +++
 
-**Price** 300 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 300 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 When ingested, this thick red gelatinous substance seeks out and surgically eliminates invasive
 threats to the body. Consuming surgical jelly immediately ends any

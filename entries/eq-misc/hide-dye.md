@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Animal Gear
+:::
 
 This thick, murky liquid comes in a large earthenware jug, and can be purchased in a variety of
 colors. Hide dye can be applied to the feathers, fur, scales, or skin of most types of animals and

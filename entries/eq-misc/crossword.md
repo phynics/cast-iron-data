@@ -17,8 +17,11 @@ price = "1 cp-1 sp"
 weight = "-"
 +++
 
-**Price** 1 cp-1 sp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 1 cp-1 sp
+Weight: -
+Category: Entertainment
+:::
 
 These word puzzles can be found in many languages. A typical one is drawn on leather or wood in a
 15-by-15 square grid. Larger grids allow longer words and tend to be more difficult.

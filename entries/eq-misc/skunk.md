@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "10 lbs."
 +++
 
-**Price** 10 gp; **Weight** 10 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 10 gp
+Weight: 10 lbs.
+Category: Mounts/Pets
+:::
 
 These creatures are infamous for the overwhelmingly foul odor they produce to ward off predators.
 Skunks are sometimes kept as pets, though usually only after their scent glands have been removed.

@@ -26,8 +26,11 @@ price = "5 gp"
 weight = "5 lbs."
 +++
 
-**Price** 5 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 Whether it is used to hoist treasure from a pit or move supplies, a simple block-and-tackle pulley,
 when it is properly secured, adds a +5 circumstance bonus on Strength checks to lift heavy objects.

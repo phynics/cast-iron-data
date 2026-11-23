@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When you swallow this marble-shaped alchemical pill as a full-round action, it instantly adjusts
 your body to the surrounding [water pressure](ref/rule/oceanic-zones), though you take 3 points of

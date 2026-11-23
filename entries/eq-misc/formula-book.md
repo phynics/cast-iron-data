@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "3 lbs."
 +++
 
-**Price** 15 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 15 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per
 extract level. A newly purchased formula book contains no extract formulas. An alchemist character

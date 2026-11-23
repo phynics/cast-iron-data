@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Animal Gear
+:::
 
 These small rubber cones attach to a creature's fangs and allow it to potentially poison those it
 bites. Poison caps must be filled with an injury poison, and must be attached to a creature's teeth

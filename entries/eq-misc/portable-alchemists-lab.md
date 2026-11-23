@@ -23,8 +23,11 @@ price = "75 gp"
 weight = "20 lbs."
 +++
 
-**Price** 75 gp; **Weight** 20 lbs.\
-**Category** Tools
+::: statblock
+Price: 75 gp
+Weight: 20 lbs.
+Category: Tools
+:::
 
 This compact version of a full-sized [alchemist's lab](ref/eq-misc/alchemists-lab) provides a +1
 circumstance bonus on Craft (alchemy) checks.

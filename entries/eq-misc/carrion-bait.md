@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Price** 25 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This large glass jar is vacuum-sealed with an airtight wax plug. Inside, festering chunks of monkey
 meat are covered in fungal mycelium and seeded with fly eggs, though the mixture's potency is not

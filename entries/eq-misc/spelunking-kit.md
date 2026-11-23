@@ -20,8 +20,11 @@ price = "174 gp"
 weight = "32 lbs."
 +++
 
-**Price** 174 gp; **Weight** 32 lbs.\
-**Category** Kits
+::: statblock
+Price: 174 gp
+Weight: 32 lbs.
+Category: Kits
+:::
 
 This kit holds equipment for exploring underground, consisting of a
 [lantern](ref/eq-misc/hooded-lantern) with 4 flasks of [oil](ref/eq-misc/oil), a

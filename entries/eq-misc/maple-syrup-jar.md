@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This sweet liquid comes from tapping, and partially draining, the sap of maple trees during the
 early spring. The sap is then boiled down into a syrup, though it is sometimes thickened further and

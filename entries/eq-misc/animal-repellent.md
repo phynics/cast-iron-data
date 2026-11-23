@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Animal Gear
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Animal Gear
+:::
 
 Leshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal
 repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume

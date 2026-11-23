@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "150 lbs."
 +++
 
-**Price** 250 gp; **Weight** 150 lbs.\
-**Category** Tools
+::: statblock
+Price: 250 gp
+Weight: 150 lbs.
+Category: Tools
+:::
 
 A hand-cranked press uses a plate on which all of the text on a page is carved in reverse. Changing
 the plate is a simple process, but creating a new one is expensive and labor-intensive. The press

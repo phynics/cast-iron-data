@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "14 lbs."
 +++
 
-**Price** 150 gp; **Weight** 14 lbs.\
-**Category** Kits
+::: statblock
+Price: 150 gp
+Weight: 14 lbs.
+Category: Kits
+:::
 
 This kit contains items necessary for a melee combatant to overcome the most common forms of damage
 resistance. The kit includes a [cold iron](ref/eq-material/cold-iron)

@@ -19,7 +19,10 @@ weight = "1 lb. (common), 1 lb. (masterwork)"
 
 ## Thumbscrews
 
-**Price** 15 gp (common), 50 gp (masterwork); **Weight** 1 lb. (common), 1 lb. (masterwork)
+::: statblock
+Price: 15 gp (common), 50 gp (masterwork)
+Weight: 1 lb. (common), 1 lb. (masterwork)
+:::
 
 Both a torture and restraining device, this small, metal armature consists of two parallel,
 spikestudded bars that close together as the user tightens the frame's screws, crushing a victim's

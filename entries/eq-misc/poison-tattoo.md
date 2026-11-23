@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This henna-like paste creates a dark brown tattoo on the hands or feet that fades over the next 2d6
 days. The tattoo temporarily boosts the strength of a [vishkanya's](ref/race/vishkanya) natural

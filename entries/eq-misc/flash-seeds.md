@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 35 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 35 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 These alchemical beads function as [sentry seeds](ref/eq-misc/sentry-seeds), but are also filled
 with an alchemical gas that explodes on contact with the air. This explosion is louder and flashier

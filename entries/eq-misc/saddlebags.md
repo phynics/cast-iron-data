@@ -20,8 +20,11 @@ price = "4 gp"
 weight = "8 lbs."
 +++
 
-**Price** 4 gp; **Weight** 8 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 4 gp
+Weight: 8 lbs.
+Category: Animal Gear
+:::
 
 These sturdy, weatherproof bags are draped over a saddle to add extra carrying capacity. Each side
 of a saddlebag can typically carry 20 pound of items that can fit in the bags. Saddlebags do not

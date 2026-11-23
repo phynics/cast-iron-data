@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Clothing
+:::
 
 Whether made of sheer gauze or thicker material, a veil is useful for hiding one's facial
 expressions. While worn, a veil grants a +2 circumstance bonus on Bluff checks; however, the wearer

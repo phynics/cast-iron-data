@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "35 lbs."
 +++
 
-**Price** 80 gp; **Weight** 35 lbs.\
-**Category** Tools
+::: statblock
+Price: 80 gp
+Weight: 35 lbs.
+Category: Tools
+:::
 
 This sentry mannequin is designed to seem more lifelike than its common counterpart. After 5 minutes
 of assembly and coverage with the included loose hood and baggy clothing, this wire frame looks like

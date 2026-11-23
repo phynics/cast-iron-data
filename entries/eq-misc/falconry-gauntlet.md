@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Animal Gear
+:::
 
 This gauntlet, made from layers of thick leather, is worn on a falconer's off hand to give a falcon
 a place to stand before and after the hunt. The gauntlet also has a tassel and a ring to attach to a

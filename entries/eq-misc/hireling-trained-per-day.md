@@ -22,7 +22,10 @@ weight = "- (trained), - (untrained)"
 
 ## Hireling
 
-**Price** 3 sp per day (trained), 1 sp per day (untrained); **Weight** - (trained), - (untrained)
+::: statblock
+Price: 3 sp per day (trained), 1 sp per day (untrained)
+Weight: - (trained), - (untrained)
+:::
 
 This listing is for any other sort of typical employment not covered by another service or job in
 this section. An untrained hireling is a crier, laborer, maid, mourner, porter, or other menial

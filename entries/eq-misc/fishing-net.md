@@ -20,8 +20,11 @@ price = "4 gp"
 weight = "5 lbs."
 +++
 
-**Price** 4 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 4 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This net measures 5 feet by 5 feet, and can be used to cover a pit or to block Tiny or larger
 creatures from entering an area.

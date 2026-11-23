@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This heavy cloth is dyed to match a single terrain type (chosen from the ranger's list of
 [favored terrains](ref/ability/favored-terrain)). This canvas can be stretched over an area to

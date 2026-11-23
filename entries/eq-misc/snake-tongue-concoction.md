@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 This lime-green goo turns your saliva venomous. Once during the concoction's duration, as a swift
 action, you can lick or spit on a held weapon to apply a dose of black adder venom to the weapon. If

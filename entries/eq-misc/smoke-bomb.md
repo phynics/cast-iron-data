@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 A smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many
 crafters of these alchemical weapons take pride in painting or etching these bombs with complex

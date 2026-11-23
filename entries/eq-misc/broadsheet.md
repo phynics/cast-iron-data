@@ -17,8 +17,11 @@ price = "6 sp"
 weight = "-"
 +++
 
-**Price** 6 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 6 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Most broadsheets circulate the latest news in the city where they were printed. Most cities in
 technologically developed nations with printing presses have multiple wealthy or government-backed

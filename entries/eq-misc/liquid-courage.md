@@ -17,8 +17,11 @@ price = "175 gp"
 weight = "-"
 +++
 
-**Price** 175 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 175 gp
+Weight: -
+Category: Tincture
+:::
 
 This crimson liquid roils when held. For 1 hour after drinking this tincture, you gain immunity to
 effects that would cause you to become [shaken](ref/misc/shaken); you are still susceptible to

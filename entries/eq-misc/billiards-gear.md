@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "8 lbs."
 +++
 
-**Price** 5 sp; **Weight** 8 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 5 sp
+Weight: 8 lbs.
+Category: Entertainment
+:::
 
 This set includes a wooden cue, a block of cue chalk, 15 wooden balls, and a triangular wooden ball
 rack.

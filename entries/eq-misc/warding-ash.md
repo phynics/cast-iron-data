@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 100 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This flaky compound of blessed ashes is steeped in juniper berries, giving it a warm, chestnut
 color. Unintelligent undead instinctively recoil upon touching warding ash. If an unintelligent

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "15 lbs."
 +++
 
-**Price** 5 gp; **Weight** 15 lbs.\
-**Category** Torture Implements
+::: statblock
+Price: 5 gp
+Weight: 15 lbs.
+Category: Torture Implements
+:::
 
 This specially crafted steel cage can hold up to 20 rats, and includes stout leather straps around
 its open end and a metal crucible for holding hot charcoal or other fuel on its top end. Torturers

@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 An artisan can make a working copy of a key in an hour (making a duplicate that looks exactly like
 the original requires a skilled smith, a DC 25 Craft check, and 1 day).

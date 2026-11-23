@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "6 lbs."
 +++
 
-**Price** 80 gp; **Weight** 6 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 80 gp
+Weight: 6 lbs.
+Category: Adventuring Gear
+:::
 
 This device consists of one watertight central ammunition bladder and several air bladders linked by
 specialized nozzles. When the wielder compresses the air bladders (a standard action that doesn't

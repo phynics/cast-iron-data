@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This sponge-sized brick is actually a desiccated chunk of living coral. When exposed to at least 1
 gallon of water, it expands into a full-sized boulder within 1 minute. A fully expanded coral

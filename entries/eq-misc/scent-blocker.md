@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 80 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This alchemical oil takes 1 minute to apply and completely masks your odor for 6 hours. Creatures
 can't use the [scent](ref/umr/scent) ability to track you, detect your presence, or pinpoint your

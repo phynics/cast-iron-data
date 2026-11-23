@@ -20,10 +20,15 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 11; **Yield** 1d4 doses\
-**Terrain** any cold\
+::: statblock
+Price: 20 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 11
+Yield: 1d4 doses
+Terrain: any cold
+:::
+
 **Preparation** A dose of winterbite must be dried near an open flame in which certain alchemically
 treated sawdust and wood chips are burned. This requires a successful DC 12 Craft (alchemy) check
 and 1 hour.\

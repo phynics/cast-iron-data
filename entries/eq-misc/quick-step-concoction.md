@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Concoctions
+:::
 
 This minty fluid quickens your feet and improves your balance, granting a +2 alchemical bonus on
 Acrobatics checks and to your CMD against trip attempts. However, you become easily distracted and

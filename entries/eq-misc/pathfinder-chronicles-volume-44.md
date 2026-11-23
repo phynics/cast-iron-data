@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Price** 200 gp; **Weight** 1 lb.\
-**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+::: statblock
+Price: 200 gp
+Weight: 1 lb.
+Category: [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+:::
 
 Published in 4707 AR, this volume is notable for the detailed account by Koriah Azmeren of her
 exploration of the Darklands. Her confirmation that the legendary drow were in fact real drove the

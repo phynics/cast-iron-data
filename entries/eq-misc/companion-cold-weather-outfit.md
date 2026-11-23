@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "6 lbs."
 +++
 
-**Price** 15 gp; **Weight** 6 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 6 lbs.
+Category: Adventuring Gear
+:::
 
 This vestment works just like a [cold-weather outfit](ref/eq-misc/cold-weather-outfit), granting a
 +5 circumstance bonus on Fortitude saving throws against exposure to cold weather, except it is

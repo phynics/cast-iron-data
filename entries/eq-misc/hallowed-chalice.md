@@ -17,9 +17,12 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Channel Foci
+Deity: Any
+:::
 
 Before it is used, this elegant drinking vessel must be filled with water, wine, or another
 ceremonial liquid appropriate to the faith. Activating the chalice charges the liquid with channeled

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 Pain wheels are used by orc marauders to blight the lands of their foes and despoil the earth for
 generations to come. When you whirl this cruel weapon above your head as a standard action, it

@@ -19,7 +19,10 @@ weight = "8 lbs. (gallon), 1 lb. (mug)"
 
 ## Applejack
 
-**Price** 4 sp (gallon), 8 cp (mug); **Weight** 8 lbs. (gallon), 1 lb. (mug)
+::: statblock
+Price: 4 sp (gallon), 8 cp (mug)
+Weight: 8 lbs. (gallon), 1 lb. (mug)
+:::
 
 This even stronger version of hard cider is typically made by allowing hard cider to freeze during
 the winter cold, then removing the ice to extract much of the water from the cider and concentrate

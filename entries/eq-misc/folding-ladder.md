@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "16 lbs."
 +++
 
-**Price** 2 gp; **Weight** 16 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 16 lbs.
+Category: Adventuring Gear
+:::
 
 The hook, pole, and rungs of this 10-foot ladder are hinged, allowing you to fold it into a
 3-foot-by-1-foot-by-1-foot bundle. Folding or unfolding it is a standard action.

@@ -17,8 +17,11 @@ price = "170 gp"
 weight = "31 lbs."
 +++
 
-**Price** 170 gp; **Weight** 31 lbs.\
-**Category** Kits
+::: statblock
+Price: 170 gp
+Weight: 31 lbs.
+Category: Kits
+:::
 
 This large satchel contains the tools needed to put down potential zombie uprisings. The kit
 includes a [shovel](ref/eq-misc/shovel-common), two flasks of [oil](ref/eq-misc/oil), a

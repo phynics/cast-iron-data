@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This mildly toxic liniment numbs flesh and can soothe injuries. Though the tincture is actually
 poisonous, an imbiber who avoids becoming poisoned recovers from minor injuries.

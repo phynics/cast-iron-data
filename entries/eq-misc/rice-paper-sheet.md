@@ -23,8 +23,11 @@ price = "5 cp"
 weight = "-"
 +++
 
-**Price** 5 cp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 cp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This sheet of paper is made of rice, straw, or tree bark. It has [hardness](ref/umr/hardness) 0, 1
 hit point, and a break DC of 2.

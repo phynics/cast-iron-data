@@ -19,8 +19,11 @@ weight = "-"
 
 ## Cane, hollow
 
-**Price** +1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: +1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 A hollow cane has a false top that conceals a small compartment within the cane. The compartment is
 large enough to house a potion or vial. Spotting the secret compartment of a hollow cane requires a

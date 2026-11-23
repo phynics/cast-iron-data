@@ -17,8 +17,11 @@ price = "1 sp-200 gp"
 weight = "3 lbs."
 +++
 
-**Price** 1 sp-200 gp; **Weight** 3 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 sp-200 gp
+Weight: 3 lbs.
+Category: Clothing
+:::
 
 Sewn-in boning and laces allow this bodice to adjust your waist size in a way considered alluring by
 some cultures. The restrictive nature of this garment makes it a poor choice for combat or other

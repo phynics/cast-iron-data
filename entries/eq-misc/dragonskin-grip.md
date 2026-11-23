@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "-"
 +++
 
-**Price** 250 gp; **Weight** -\
-**Category** Dragoncraft
+::: statblock
+Price: 250 gp
+Weight: -
+Category: Dragoncraft
+:::
 
 Made using the choicest, most malleable skin from a dragon's underbelly, this specialized weapon
 grip can be added to any weapon with a hilt or handle. Dragonskin grips may be added to an existing

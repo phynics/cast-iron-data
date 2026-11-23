@@ -22,7 +22,10 @@ weight = "16 lbs. (common), 30 lbs. (superior)"
 
 ## Buoy
 
-**Price** 5 sp (common), 10 gp (superior); **Weight** 16 lbs. (common), 30 lbs. (superior)
+::: statblock
+Price: 5 sp (common), 10 gp (superior)
+Weight: 16 lbs. (common), 30 lbs. (superior)
+:::
 
 A buoy is used to mark a specific spot in a lake, river, or similar body of water, making it
 possible for you to return to that location at a later date. A common buoy includes a float

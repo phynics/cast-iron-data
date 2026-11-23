@@ -23,8 +23,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This gooey, pinkish substance helps treat wounds. Using a dose gives you a +5 alchemical bonus on
 Heal checks for providing first aid, treating wounds made by [caltrops](ref/eq-misc/caltrops) or

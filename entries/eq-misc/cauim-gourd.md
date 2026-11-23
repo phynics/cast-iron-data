@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Food/Drink
+:::
 
 This beer-like drink, made from manioc root or corn, requires extensive chewing as part of its
 production.

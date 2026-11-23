@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "5 lbs."
 +++
 
-**Price** 200 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 200 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 This exquisite silken garment is vitally important formal wear for certain social roles in many Tian
 cultures, including Minkai. Properly donning a kimono requires assistance and a successful DC 15

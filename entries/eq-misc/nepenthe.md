@@ -17,10 +17,15 @@ price = "400 gp"
 weight = "-"
 +++
 
-**Price** 400 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 20; **Yield** 1 dose\
-**Terrain** warm forests or swamps\
+::: statblock
+Price: 400 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 20
+Yield: 1 dose
+Terrain: warm forests or swamps
+:::
+
 **Preparation** A dose of pollen must be mixed with alchemical reagents with a successful DC 16
 Craft (alchemy) check and then left to sit for 1 hour before it can be used.\
 **Use** A dose of nepenthe pollen must be inhaled as a standard action, whereupon the potent vapors

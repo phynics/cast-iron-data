@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "10 oz."
 +++
 
-**Price** 5 gp; **Weight** 10 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 5 gp
+Weight: 10 oz.
+Category: Mounts/Pets
+:::
 
 This tiny reptile eats small animals and can be found in most temperate and warm environments. The
 bite is painful but not especially dangerous to the average adventurer.

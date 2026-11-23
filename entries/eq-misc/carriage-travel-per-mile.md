@@ -21,8 +21,11 @@ price = "100 gp"
 
 ## Carriage
 
-**Price** 100 gp; **Price of Passage** (per mile) 3 cp\
-**Category** Transport, Land
+::: statblock
+Price: 100 gp
+Price of Passage: (per mile) 3 cp
+Category: Transport, Land
+:::
 
 This four-wheeled vehicle can transport as many as four people within an enclosed cab, plus two
 drivers. In general, two horses (or other beasts of burden) draw it. A carriage comes with the

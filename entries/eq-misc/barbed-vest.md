@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "4 lbs."
 +++
 
-**Price** 10 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 Thin leather flaps keep the hundreds of tiny, fishhook-like needles dotting the surface of this
 black vest from harming you while you wear it. However, any creature that injures you with a natural

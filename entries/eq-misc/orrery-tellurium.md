@@ -19,10 +19,10 @@ weight = "12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (ca
 
 ## Orrery
 
-**Price** 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating
-tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium); **Weight** 12 lbs. (calculating
-grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs.
-(standard), 2 lbs. (tellurium)
+::: statblock
+Price: 2,000 gp (calculating grand), 1,500 gp (calculating standard), 200 gp (calculating tellurium), 1,000 gp (grand), 750 gp (standard), 100 gp (tellurium)
+Weight: 12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)
+:::
 
 This complex mechanism simulates the angles and relative distances between one or more bodies in a
 solar system in relation to the system's star with marks or spheres on moving gears or arms. Anyone

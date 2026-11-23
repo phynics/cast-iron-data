@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Tools
+:::
 
 This complicated lens fits over one eye and takes up the eyes slot when in use. When using it in
 conjunction with a ranged weapon, you reduce any range penalty on your attacks by 2. Objects within

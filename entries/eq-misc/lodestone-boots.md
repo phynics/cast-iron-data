@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "4 lbs."
 +++
 
-**Price** 60 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 60 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 The soles of these tough boots include lodestones that have been augmented through alchemical
 processes to be very strong. While climbing a rope, you can pinch the rope between the boots to

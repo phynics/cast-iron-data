@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This liquid makes the eyes more receptive to light for 4 hours. The user gains
 [low-light vision](ref/rule/low-light-vision), but also suffers from

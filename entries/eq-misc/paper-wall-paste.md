@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This jar of thick, gritty paste is made from coarsely ground plant matter, weak epoxy, and bat
 guano. When exposed to air, the moldable substance quickly creates a thin, paper-like surface, which

@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 sp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 A potent drink featuring rum, wine, ale, eggs, sugar, and spices, rumboozle is served warm in finer
 taverns.

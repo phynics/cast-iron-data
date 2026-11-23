@@ -17,8 +17,11 @@ price = "751 gp"
 weight = "17 lbs."
 +++
 
-**Price** 751 gp; **Weight** 17 lbs.\
-**Category** Kits
+::: statblock
+Price: 751 gp
+Weight: 17 lbs.
+Category: Kits
+:::
 
 This kit is designed for melee-focused warriors who hope to kill or capture a dragon. It includes 50
 feet of [chain](ref/eq-misc/chain-10-ft), a [crowbar](ref/eq-misc/crowbar), an

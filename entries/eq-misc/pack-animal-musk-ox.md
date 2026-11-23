@@ -17,8 +17,11 @@ price = "24 gp"
 weight = "-"
 +++
 
-**Price** 24 gp; **Weight** -\
-**Category** Mounts/Pets
+::: statblock
+Price: 24 gp
+Weight: -
+Category: Mounts/Pets
+:::
 
 These husky, shaggy beasts are sometimes domesticated as pack animals in the Crown of the World.
 Their statistics are identical to aurochs, but they are immune to cold weather effects (though not

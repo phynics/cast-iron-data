@@ -17,8 +17,11 @@ price = "2 sp-100 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 sp-100 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 2 sp-100 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This cloak has an outer layer of fabric and an inner layer of a different color. They are worn for
 the sake of fashion, in theater performances, or to aid a quick appearance change as part of a

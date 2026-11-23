@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This bright pink liquid can be added to the eyes of a willing [homunculus](ref/monster/homunculus)
 as a standard action. If you are the homunculus's master, you gain the ability to see through the

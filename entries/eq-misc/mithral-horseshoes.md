@@ -17,8 +17,11 @@ price = "550 gp"
 weight = "4 lbs."
 +++
 
-**Price** 550 gp; **Weight** 4 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 550 gp
+Weight: 4 lbs.
+Category: Animal Gear
+:::
 
 These four thin horseshoes shield a horse's feet as well as steel, allowing it to gallop with
 confidence, but [mithral](ref/eq-material/mithral) horseshoes are far lighter than steel. Horses

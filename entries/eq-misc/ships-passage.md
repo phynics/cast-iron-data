@@ -16,8 +16,11 @@ category = "Miscellaneous Equipment"
 price = "-"
 +++
 
-**Price** -; **Price of Passage** (per mile) 1 sp\
-**Category** Transport, Sea
+::: statblock
+Price: -
+Price of Passage: (per mile) 1 sp
+Category: Transport, Sea
+:::
 
 Most ships do not specialize in passengers, but many have the capability to take a few along when
 transporting cargo. Double the given cost for creatures larger than Medium or creatures that are

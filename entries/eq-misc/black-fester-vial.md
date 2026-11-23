@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This black paste is often applied on orc weapons before going on raids to stymie an enemy's healing
 magic. Like a poison, black fester stays on a weapon until the first time it strikes an opponent. It

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This intensely polished steel sphere can be rolled in a manner similar to a
 [thrown splash weapon](ref/rule/throw-splash-weapon). Anyone who can clearly see the sphere within

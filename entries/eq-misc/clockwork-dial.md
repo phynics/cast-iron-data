@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 150 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This brass timepiece can be wound with a small key, causing it to count down until it reaches the
 end of its duration, at which point it emits a small chime. Most dials have a maximum duration of 60

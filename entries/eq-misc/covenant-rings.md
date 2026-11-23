@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Clothing
+:::
 
 These silver rings are always sold in uniquely crafted pairs - usually one made in a Varisian style
 and one in an old Korvosan style. Originally made to celebrate the uniting of the Korvosan

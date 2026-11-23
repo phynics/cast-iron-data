@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This 1-foot-square piece of paper is coated on one side with a weak glue or sticky material such as
 tree sap or even honey. It is stored folded in half. If you apply glue paper to a window before you

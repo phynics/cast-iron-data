@@ -17,8 +17,11 @@ price = "-"
 weight = "-"
 +++
 
-**Price** -; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: -
+Weight: -
+Category: Black Market
+:::
 
 This golden-colored parasitic plant grows on many different sorts of trees. Druids harvest mistletoe
 with specially prepared tools and during sacred times of the year.

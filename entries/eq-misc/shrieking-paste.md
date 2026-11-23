@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "2 lbs."
 +++
 
-**Price** 35 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 35 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 Created by suspending the spores of a [shrieker](ref/rule/slimes-molds-and-fungi) mushroom in a
 thick mixture of wheat paste and vermiculite, this thick sludge comes in a soundproof, stone

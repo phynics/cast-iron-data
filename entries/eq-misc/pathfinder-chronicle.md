@@ -22,8 +22,11 @@ weight = "1 lb."
 
 ## Generic Pathfinder Chronicle
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Numerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an
 action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2

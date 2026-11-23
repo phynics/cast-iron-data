@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This milky fluid can be mixed with water to quickly kill light and medium vegetation. One flask of
 defoliant kills light brush and small trees in 50 5-foot squares. Light vegetation (anything but

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Poison lip paint is a favorite among courtiers who practice the arts of deception and intrigue. It
 allows the wearer to deliver a dose of contact or ingested poison by means of a kiss. This kiss can

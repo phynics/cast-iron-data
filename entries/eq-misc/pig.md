@@ -23,8 +23,11 @@ price = "3-10 gp"
 weight = "100-300 lbs."
 +++
 
-**Price** 3-10 gp; **Weight** 100-300 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 3-10 gp
+Weight: 100-300 lbs.
+Category: Mounts/Pets
+:::
 
 Domesticated pigs are the descendents of wild boars, and are raised for their meat and hide, being
 among the most versatile and common farm animals.

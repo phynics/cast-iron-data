@@ -20,8 +20,11 @@ price = "200 gp"
 weight = "40 lbs."
 +++
 
-**Price** 200 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 This lab is used for making alchemical items, and provides a +2 circumstance bonus on Craft
 (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this

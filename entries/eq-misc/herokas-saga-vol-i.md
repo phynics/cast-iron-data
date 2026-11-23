@@ -16,9 +16,12 @@ category = "Miscellaneous Equipment"
 price = "20,000 gp"
 +++
 
-**Price** 20,000 gp; **Accuracy** -1\
-**Category** [Dungeon Guides](ref/rule/dungeon-guides)\
-**Associated Skill** Perform (oratory) (DC 15)
+::: statblock
+Price: 20,000 gp
+Accuracy: -1
+Category: [Dungeon Guides](ref/rule/dungeon-guides)
+Associated Skill: Perform (oratory) (DC 15)
+:::
 
 The first volume in a long series of wild tales about an adventurer-warrior named Heroka takes place
 in the shattered city of Kho in the Mwangi Expanse.

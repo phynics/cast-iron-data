@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A caltrop is a four-pronged metal spike crafted so that one prong always faces up no matter how the
 caltrop comes to rest. You scatter caltrops on the ground in the hope that your enemies step on them

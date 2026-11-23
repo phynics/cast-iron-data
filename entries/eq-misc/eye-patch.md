@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 An eye patch covers one eye and ties around the head. Pirates usually wear eye patches to cover
 injured or blind eyes, but some wear eye patches to look more intimidating, or to keep one eye

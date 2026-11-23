@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "67 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 67 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 67 lbs.
+Category: Kits
+:::
 
 This equipment package is designed to provide the most aid to divine casters, such as clerics,
 druids, oracles, and inquisitors, who prefer to help their companions from behind the front lines of

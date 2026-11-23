@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Elven Herbs
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Elven Herbs
+:::
 
 Chewing a dose of dried curewort root heals 1d8 points of damage. Retrieving a dose from a container
 is a standard action that provokes an attack of opportunity; chewing a dose is a standard action

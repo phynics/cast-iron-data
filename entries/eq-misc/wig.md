@@ -20,8 +20,11 @@ price = "5 gp-500 gp"
 weight = "1/2 lb.-4 lbs."
 +++
 
-**Price** 5 gp-500 gp; **Weight** 1/2 lb.-4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp-500 gp
+Weight: 1/2 lb.-4 lbs.
+Category: Clothing
+:::
 
 False hair comes in many forms, from the severe coif of a judge to the towering confection adorning
 a noble to the simple curls worn by a housewife whose hair is thinning. Wigs can be found for sale

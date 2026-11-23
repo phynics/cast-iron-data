@@ -17,8 +17,11 @@ price = "190 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 190 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 190 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Smaller and made of stronger materials than most thieves' tools, the items in this kit are much
 easier to conceal. You gain a +4 bonus on Sleight of Hand skill checks to conceal these tools on

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Drinking this cloudy tea has a soothing effect that clarifies your thoughts. For 10 minutes after
 drinking the tea, you gain a +2 alchemical bonus against mind-affecting effects. If you drink

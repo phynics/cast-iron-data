@@ -23,8 +23,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 For all their cowardice and cruelty, goblins have a keen sense of what can kill them, and harpies
 number among goblins' most feared predators. Using this knowledge to their advantage, Varisian

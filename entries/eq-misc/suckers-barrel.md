@@ -17,8 +17,11 @@ price = "4 gp"
 weight = "35 lbs."
 +++
 
-**Price** 4 gp; **Weight** 35 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 4 gp
+Weight: 35 lbs.
+Category: Adventuring Gear
+:::
 
 A sucker's barrel is constructed to appear to the casual eye exactly like a normal barrel. However,
 an inner barrier installed near one of the barrel's ends hides a cavity containing a bladder filled

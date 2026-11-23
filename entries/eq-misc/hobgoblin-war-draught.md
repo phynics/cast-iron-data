@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 **Craft DC** 15 for hobgoblins.
 

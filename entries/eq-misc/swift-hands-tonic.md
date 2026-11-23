@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "-"
 +++
 
-**Price** 250 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 250 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When imbibed, this bitter, rust-colored concoction grants you 1d4 uses of
 [alchemical inspiration](ref/misc/alchemical-inspiration) that can be used only on Disable Device

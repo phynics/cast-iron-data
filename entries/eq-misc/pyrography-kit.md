@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Kits
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Kits
+:::
 
 Also called a "woodburning kit," this set of metal needles, styluses, and brands is used to draw on
 leather or wood by burning it. Using the kit requires a fire source; the needle or stylus is heated

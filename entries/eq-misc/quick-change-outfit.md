@@ -17,8 +17,11 @@ price = "varies"
 weight = "5 lbs."
 +++
 
-**Price** varies; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: varies
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 A quick-change outfit is actually two different sets of attire sewn together, one inside the other.
 The quick-change outfit allows the wearer to rapidly change from one outfit into another by

@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Generally used only by the wealthy, fancy stationery is a finer-quality 9-inch-by-6-inch paper,
 often embossed or engraved with the owner's personal seal.

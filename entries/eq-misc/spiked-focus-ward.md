@@ -17,9 +17,12 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 This holy symbol has a small nail or spike somewhere along its length, allowing it to be hammered it
 into a wall, tree, floor, or any hard surface. Once fixed in place and activated, it stores

@@ -19,8 +19,10 @@ weight = "- (decoy pressure switch), - (decoy trap door), - (decoy tripwire)"
 
 ## Decoy trigger
 
-**Price** 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire);
-**Weight** - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)
+::: statblock
+Price: 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire)
+Weight: - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)
+:::
 
 Decoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by
 presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to

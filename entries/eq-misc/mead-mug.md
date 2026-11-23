@@ -19,7 +19,10 @@ weight = "8 lbs. (gallon), 1/2 lb. (mug)"
 
 ## Mead
 
-**Price** 2 gp (gallon), 5 cp (mug); **Weight** 8 lbs. (gallon), 1/2 lb. (mug)
+::: statblock
+Price: 2 gp (gallon), 5 cp (mug)
+Weight: 8 lbs. (gallon), 1/2 lb. (mug)
+:::
 
 This alcoholic beverage is made by fermenting honey and water. It may be flavored with spices,
 fruit, or hops.

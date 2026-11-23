@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 These tiny granules can be dissolved in water, creating a slimy material used to coat metallic items
 such as weapons or armor. Such a coating neutralizes the metal-eating acid of

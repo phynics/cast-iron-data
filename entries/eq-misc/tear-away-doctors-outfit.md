@@ -22,8 +22,11 @@ weight = "6 lbs."
 
 ## Doctor's outfit
 
-**Price** 150 gp; **Weight** 6 lbs.\
-**Category** Tools
+::: statblock
+Price: 150 gp
+Weight: 6 lbs.
+Category: Tools
+:::
 
 Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist
 contact diseases.

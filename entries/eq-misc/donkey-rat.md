@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "50 lbs"
 +++
 
-**Price** 1 gp; **Weight** 50 lbs\
-**Category** Mounts/Pets
+::: statblock
+Price: 1 gp
+Weight: 50 lbs
+Category: Mounts/Pets
+:::
 
 These Tiny capybara-like white rodents are native to temperate swamps and coasts. They are common
 pets and livestock in some lands.

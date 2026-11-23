@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Originally developed by kami-revering priests to write prayer scrolls, this pale ink is now often
 used by ninjas to mark locations or leave messages. Once spirit-vision ink dries, it becomes

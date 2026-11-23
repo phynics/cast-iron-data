@@ -19,8 +19,10 @@ weight = "- (masterful), - (skilled), - (trained), - (untrained)"
 
 ## Hireling, crier
 
-**Price** 10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day
-(untrained); **Weight** - (masterful), - (skilled), - (trained), - (untrained)
+::: statblock
+Price: 10 gp per day (masterful), 3 gp per day (skilled), 1 gp per day (trained), 3 sp per day (untrained)
+Weight: - (masterful), - (skilled), - (trained), - (untrained)
+:::
 
 A crier can be hired to spread a rumor. An untrained crier usually has a +0 bonus on propaganda
 checks. A trained crier usually has a +5 bonus on propaganda checks. A skilled crier usually has a

@@ -16,8 +16,11 @@ category = "Miscellaneous Equipment"
 price = "15,000 gp"
 +++
 
-**Price** 15,000 gp; **Price of Passage** (per mile) 1 sp\
-**Category** Transport, Sea
+::: statblock
+Price: 15,000 gp
+Price of Passage: (per mile) 1 sp
+Category: Transport, Sea
+:::
 
 This flat-bottomed sailing ship has two or three masts with junk-rigged sails, allowing it to be
 easily sailed by small crews. Junks typically have a high poop deck and no keel.

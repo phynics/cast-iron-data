@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This is a wooden stylus with a metal tip that retains a small amount of ink after you dip it in a
 vial of [ink](ref/eq-misc/ink).

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Price** 200 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This vibrant, variegated gemstone is found naturally on the Elemental Plane of Earth but can also be
 artificially reproduced, albeit with a fair amount of difficulty. The catalyst is highly sought for

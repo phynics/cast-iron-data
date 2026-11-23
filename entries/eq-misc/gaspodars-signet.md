@@ -17,8 +17,11 @@ price = "5,900 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5,900 gp; **Weight** 1/2 lb.\
-**Category** Black Market
+::: statblock
+Price: 5,900 gp
+Weight: 1/2 lb.
+Category: Black Market
+:::
 
 Gaspodar's signet ring still encircles the severed finger of this long-dead king of Cheliax. Clipped
 from his hand almost a century ago by an unknown assassin, both ring and finger are preserved in a

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 When you add this 1-pound bag of green powder to a gallon of water, the two combine to form 50 cubic
 feet of thick green foam. Unless contained, in 1 round the foam fills a 5-foot-square to a depth of

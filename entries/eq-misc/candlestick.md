@@ -17,8 +17,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This saucer-like object has a flat bottom, a handle, and a spike on top. You can affix a
 [candle](ref/eq-misc/candle) onto the spike (up to 3 inches in diameter) and hold the candlestick by

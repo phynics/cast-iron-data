@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Black Market
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Black Market
+:::
 
 This set of special disposable reagents can be used in conjunction with an
 [alchemist's lab](ref/eq-misc/alchemists-lab) to detect whether a drug has been cut with

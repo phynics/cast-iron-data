@@ -17,8 +17,11 @@ price = "1 sp-100 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp-100 gp; **Weight** 1 lb.\
-**Category** Entertainment
+::: statblock
+Price: 1 sp-100 gp
+Weight: 1 lb.
+Category: Entertainment
+:::
 
 Playing cards range from block-printed symbols on thick paper to elaborate, hand-painted works of
 art on waxed vellum, ivory, wood, or even metal.

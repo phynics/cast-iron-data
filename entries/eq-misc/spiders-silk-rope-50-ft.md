@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "4 lbs."
 +++
 
-**Price** 100 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This 50-foot length of rope is woven of strands of silk from monstrous spiders. Rare to virtually
 non-existent on the surface world, it is commonly used by the dark elves, though shorter spider's

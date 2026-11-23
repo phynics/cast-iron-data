@@ -23,8 +23,11 @@ price = "1 gp"
 weight = "4 lbs."
 +++
 
-**Price** 1 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 Artisan's clothing is well made from simple but durable cloth, appropriate for those who must work
 in various specialized and often manual trades, such as baking, carpentry, and other middle-class

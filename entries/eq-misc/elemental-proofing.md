@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This alchemical gel comes in a large vial with a brush built into the stopper. It's used to coat the
 surface of objects, protecting them from a specific type of energy damage. Though elemental proofing

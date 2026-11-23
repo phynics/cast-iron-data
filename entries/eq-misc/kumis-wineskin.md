@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "1-1/2 lbs."
 +++
 
-**Price** 5 sp; **Weight** 1-1/2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 5 sp
+Weight: 1-1/2 lbs.
+Category: Food/Drink
+:::
 
 This alcoholic beverage, made from fermented horse milk, has approximately the same potency as
 typical beer. It is served cold.

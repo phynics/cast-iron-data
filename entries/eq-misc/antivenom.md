@@ -17,8 +17,11 @@ price = "varies"
 weight = "-"
 +++
 
-**Price** varies; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: varies
+Weight: -
+Category: Alchemical Remedies
+:::
 
 While antitoxin presents a generalized tool for protecting oneself from poison, more specialized
 antivenoms can provide even greater protection against specific poisons. Creating a dose of

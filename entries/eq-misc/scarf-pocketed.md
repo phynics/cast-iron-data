@@ -34,7 +34,10 @@ weight = "1/2 lb. (pocketed), 1 lb. (reinforced)"
 
 ## Scarf
 
-**Price** 8 gp (pocketed), 10 gp (reinforced); **Weight** 1/2 lb. (pocketed), 1 lb. (reinforced)
+::: statblock
+Price: 8 gp (pocketed), 10 gp (reinforced)
+Weight: 1/2 lb. (pocketed), 1 lb. (reinforced)
+:::
 
 **Pocketed:** An elaborate design disguises several small pockets on one side of this scarf. This
 scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus

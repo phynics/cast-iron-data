@@ -23,8 +23,11 @@ price = "1 sp"
 weight = "2 lbs."
 +++
 
-**Price** 1 sp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Marbles can be used to slow opponents. One 2-pound bag of marbles covers an area 5 feet square. A
 creature entering a square with marbles scattered on it must succeed at a DC 10 Reflex save or fall

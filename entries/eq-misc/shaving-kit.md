@@ -20,8 +20,11 @@ price = "15 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 15 sp; **Weight** 1/2 lb.\
-**Category** Kits
+::: statblock
+Price: 15 sp
+Weight: 1/2 lb.
+Category: Kits
+:::
 
 A shaving kit contains a straight razor, a [whetstone](ref/eq-misc/whetstone), a small
 [mirror](ref/eq-misc/mirror), a brush, a cup, and enough shaving powder to last a Medium humanoid 50

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "5 lbs."
 +++
 
-**Price** 20 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This loose mesh of twine and varicolored cloth is used to disguise the presence of creatures or
 large objects. Camouflage netting must be manufactured to provide camouflage in a single type of

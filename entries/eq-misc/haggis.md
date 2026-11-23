@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1-1/2 lbs."
 +++
 
-**Price** 1 sp; **Weight** 1-1/2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 1 sp
+Weight: 1-1/2 lbs.
+Category: Food/Drink
+:::
 
 This dish is a meaty pudding made of sheep organs (mainly heart, liver, and lungs) minced with
 onion, oats, fat, spices, and salt, wrapped in a sheep stomach and slow-cooked. Though its

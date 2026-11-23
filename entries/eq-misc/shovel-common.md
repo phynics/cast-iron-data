@@ -25,7 +25,10 @@ weight = "8 lbs. (common), 12 lbs. (folding)"
 
 ## Shovel or Spade
 
-**Price** 2 gp (common), 10 gp (folding); **Weight** 8 lbs. (common), 12 lbs. (folding)
+::: statblock
+Price: 2 gp (common), 10 gp (folding)
+Weight: 8 lbs. (common), 12 lbs. (folding)
+:::
 
 This tool lets you dig a pit at a rate of 2 cubic feet per minute. If a shovel is used in combat,
 treat it as a one-handed [improvised weapon](ref/misc/improvised-weapons) that deals bludgeoning

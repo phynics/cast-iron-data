@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Originally discovered by dwarven alchemists working with adamantine dust, efreeti cord is a viscid
 length of string approximately 18 inches long and blue-gray in color. It can be purchased in greater

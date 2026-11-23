@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 This crimson liquid is viscous and tastes foul. If you drink it, for the next hour you automatically
 [stabilize](ref/misc/stable) when reduced to negative hit points (unless the damage is sufficient to

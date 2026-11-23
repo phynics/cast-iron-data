@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 You can place this metal contraption onto a taut section of a [rope](ref/eq-misc/rope-50-ft)
 connecting a high point to a lower one, allowing you to slide down the length of the rope with ease.

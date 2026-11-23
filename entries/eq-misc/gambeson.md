@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "4 lbs."
 +++
 
-**Price** 1 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 This padded cloth jacket is often worn alone or with mail or plate armor and is favored by hunters,
 guards, and soldiers. A gambeson fitted with leather loops to more easily attach armor is called an

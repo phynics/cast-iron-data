@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This white paper strip treated with dyes extracted from common lichen is used to quickly test the
 composition of any water-based solution. The user dips the end of the strip in the liquid and waits

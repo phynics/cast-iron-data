@@ -23,8 +23,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This small clay sphere contains two alchemical substances separated by a thin barrier. When you
 break the sphere, the substances mingle and fill a 5-foot square with a cloud of foul but harmless

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 A calumet is a two-piece ceremonial smoking pipe with a bowl shaped from stone or clay and an
 intricately carved wooden stem decorated with dangling fetishes. The pipe is typically carried in a

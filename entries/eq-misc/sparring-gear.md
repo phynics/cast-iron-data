@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "15 lbs."
 +++
 
-**Price** 35 gp; **Weight** 15 lbs.\
-**Category** Clothing
+::: statblock
+Price: 35 gp
+Weight: 15 lbs.
+Category: Clothing
+:::
 
 This array of thick, heavily lined pads, including a quilted helmet, rigid shin guards, and a
 wraparound rib guard, protects you during hand-to-hand training. Sparring gear cannot be worn with

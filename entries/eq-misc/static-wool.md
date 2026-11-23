@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 100 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 Alchemical compounds in this square of jagged, metallic fibers store and transfer electricity into
 clothing when rubbed against the fabric for 1 minute. When you are grappled within the next 10

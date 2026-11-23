@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This alchemically concocted black ink can be attuned to a standard sheet of parchment. Anything
 inscribed using the ink (anywhere on the same plane of existence) appears on the attuned parchment

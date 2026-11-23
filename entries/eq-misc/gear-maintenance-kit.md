@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Kits
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Kits
+:::
 
 This kit contains metal polish, a small file, a leather paring knife, conditioning oil for leather,
 two soft cloths, extra leather straps, a [sewing needle](ref/eq-misc/sewing-needle), and a few

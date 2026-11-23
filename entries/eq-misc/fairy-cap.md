@@ -17,10 +17,15 @@ price = "250 gp"
 weight = "-"
 +++
 
-**Price** 250 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 20; **Yield** 1 dose\
-**Terrain** anywhere near ley lines\
+::: statblock
+Price: 250 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 20
+Yield: 1 dose
+Terrain: anywhere near ley lines
+:::
+
 **Preparation** A fairy cap must be gently simmered (not boiled) in a mixture of water and other
 natural ingredients for 1 hour; this requires a successful DC 20 Craft (alchemy) check. At the end
 of this preparation time, the yellow spots' color changes to bright orange or dark brown - there's a

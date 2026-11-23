@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Entertainment
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Entertainment
+:::
 
 This small darkwood case contains a recessed area to hold a [harrow deck](ref/eq-misc/harrow-deck)
 and a [harrow mat](ref/eq-misc/harrow-mat), as well as a compartment for

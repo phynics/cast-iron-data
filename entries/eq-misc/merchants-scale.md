@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 A merchant's scale is a simple lever on a fulcrum, from which two trays hang. It grants a +2
 circumstance bonus on Appraise checks involving items that are valued by weight, including anything

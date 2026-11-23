@@ -20,7 +20,10 @@ price = "1 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 This 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check.

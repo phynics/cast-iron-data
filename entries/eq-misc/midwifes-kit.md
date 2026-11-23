@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This kit is used by midwives to care for pregnant women and to deliver babies. Each kit contains
 herbs to treat common conditions during pregnancy, salves for aches and distended skin, swaddling

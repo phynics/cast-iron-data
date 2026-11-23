@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This alchemically fused powder ball creates a plume of brightly colored smoke when lit. While the
 smoke is not thick enough to significantly impair vision, it is clearly visible up to 1d6 miles away

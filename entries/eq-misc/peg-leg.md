@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Price** 10 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 A peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates
 who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a

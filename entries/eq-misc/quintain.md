@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "30 lbs."
 +++
 
-**Price** 40 gp; **Weight** 30 lbs.\
-**Category** Tools
+::: statblock
+Price: 40 gp
+Weight: 30 lbs.
+Category: Tools
+:::
 
 At its simplest, a quintain is a swiveling pole with a pair of arms, although permanent quintains
 are more elaborate and often look like armored mannequins. One arm holds a wooden board shaped like

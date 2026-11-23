@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "5 lbs."
 +++
 
-**Price** 12 gp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 12 gp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This 30-foot length of rope is braided with musk-cured strips of snakeskin from a variety of desert
 serpents, and is typically laid out in a 5-foot-radius circle around the edge of a tent or around a

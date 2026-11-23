@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "-"
 +++
 
-**Price** 2 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 2 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This egg-sized sponge is covered in a layer of waterproof edible wax, designed to absorb 1 dose of a
 potion. Chewing a potion sponge and swallowing its liquid contents is a full-round action. A

@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "6 lbs."
 +++
 
-**Price** 5 gp; **Weight** 6 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 6 lbs.
+Category: Clothing
+:::
 
 These ceremonial clothes are worn when performing priestly functions within a church or temple, and
 aren't well suited to adventuring. A cleric's vestments typically include a cassock, stole, and

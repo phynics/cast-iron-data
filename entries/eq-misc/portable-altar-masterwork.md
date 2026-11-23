@@ -17,8 +17,11 @@ price = "400 gp"
 weight = "40 lbs."
 +++
 
-**Price** 400 gp; **Weight** 40 lbs.\
-**Category** Tools
+::: statblock
+Price: 400 gp
+Weight: 40 lbs.
+Category: Tools
+:::
 
 Consecrated to one of Golarion's many deities, this intricately etched case contains numerous
 candles, stands, scented herbs, dishes, silks, small cups, containers, and similar ceremonial tools

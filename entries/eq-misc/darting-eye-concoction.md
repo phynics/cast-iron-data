@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 This effervescent concoction improves your sensory reaction time, providing a +2 alchemical bonus on
 Perception checks. However, the mental hyperactivity it creates imparts a -1 penalty on your Will

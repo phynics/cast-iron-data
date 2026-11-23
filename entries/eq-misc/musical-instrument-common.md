@@ -22,7 +22,10 @@ weight = "3 lbs. (common), 3 lbs. (masterwork)"
 
 ## Musical instrument
 
-**Price** 5 gp (common), 100 gp (masterwork); **Weight** 3 lbs. (common), 3 lbs. (masterwork)
+::: statblock
+Price: 5 gp (common), 100 gp (masterwork)
+Weight: 3 lbs. (common), 3 lbs. (masterwork)
+:::
 
 If you want to perform using a Perform skill associated with a musical instrument (keyboard,
 percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't

@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 sp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Whiskey is a distilled beverage made from fermented grain mash (typically barley, corn, malt, rye,
 or wheat) aged in a wooden cask. The longer the drink ages in the cask, the smoother the final

@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 75 gp; **Weight** 1/2 lb.\
-**Category** Dragoncraft
+::: statblock
+Price: 75 gp
+Weight: 1/2 lb.
+Category: Dragoncraft
+:::
 
 This exclusive perfume is produced using dragon musk, which is integral to draconic mating rituals.
 Dragon musk is secreted in dragons' oil glands, and harvesting it is a very delicate procedure.

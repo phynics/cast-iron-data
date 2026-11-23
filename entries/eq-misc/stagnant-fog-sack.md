@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "1 lb."
 +++
 
-**Price** 80 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Gathered within this tightly woven, alchemically treated canvas sack is a sample of the pervasive
 fetid fog that looms near the border of the Plane of Air and the Plane of Water. When opened, the

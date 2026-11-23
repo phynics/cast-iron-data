@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Swallowing this pale green tea pill causes your blood to slow and chill, allowing you to ignore the
 first 20 points of [bleed](ref/rule/bleed) damage you take during the following 8 hours. In

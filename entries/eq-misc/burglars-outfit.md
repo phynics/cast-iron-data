@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "5 lbs."
 +++
 
-**Price** 5 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 This outfit consists of fitted pants, a shirt, a hooded reversible cloak, soft leather boots, and a
 face mask, all in dark or neutral colors. The outfit's few buttons and rivets are wrapped in dull,

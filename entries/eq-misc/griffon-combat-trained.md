@@ -17,8 +17,11 @@ price = "8,000 gp"
 weight = "500 lbs."
 +++
 
-**Price** 8,000 gp; **Weight** 500 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 8,000 gp
+Weight: 500 lbs.
+Category: Mounts/Pets
+:::
 
 These deadly but majestic fliers are the favored aerial cavalry of many kingdoms. While griffons can
 be trained, some good deities consider doing so akin to enacting slavery, insisting that a griffon

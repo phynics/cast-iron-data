@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 200 gp; **Weight** 1/2 lb.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 1/2 lb.
+Category: Tools
+:::
 
 Many half-elves live in large cities or communities where they find it difficult to commune with
 nature. While some go on long sojourns to the wilderness, others spend their evenings on high,

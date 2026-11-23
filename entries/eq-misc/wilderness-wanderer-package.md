@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "108 1/2 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 108 1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 108 1/2 lbs.
+Category: Kits
+:::
 
 This equipment package is appropriate for any lightly-armored combatant in the wild, such as a
 barbarian, hunter, or ranger. If the PC can cast spells, add a spell component pouch and holly and

@@ -17,10 +17,13 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 18\
-**Terrain** deserts
+::: statblock
+Price: 50 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 18
+Terrain: deserts
+:::
 
 Found most often in lands heavily modified by magic, this bulbous cactus is topped with
 twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions,

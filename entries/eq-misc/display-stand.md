@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "16 lbs."
 +++
 
-**Price** 40 gp; **Weight** 16 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 40 gp
+Weight: 16 lbs.
+Category: Adventuring Gear
+:::
 
 This is a freestanding rack with several hooks for holding decoratively arranged hunting trophies. A
 creature with the [Grisly Ornament](ref/feat/grisly-ornament) feat can hang one ornament from a

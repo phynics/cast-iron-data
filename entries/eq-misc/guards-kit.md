@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "20 lbs."
 +++
 
-**Price** 20 gp; **Weight** 20 lbs.\
-**Category** Kits
+::: statblock
+Price: 20 gp
+Weight: 20 lbs.
+Category: Kits
+:::
 
 The guard issues a standard set of supplies to each of its members. This kit consists of a
 [backpack](ref/eq-misc/backpack), a [belt pouch](ref/eq-misc/belt-pouch), a

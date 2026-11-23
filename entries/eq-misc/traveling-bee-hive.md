@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "10 lbs."
 +++
 
-**Price** 10 gp; **Weight** 10 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 10 gp
+Weight: 10 lbs.
+Category: Animal Gear
+:::
 
 These straw baskets provide a portable home for bees. They are dome shaped, with a hole in the top
 that a smaller woven basket covers as a cap. This hole allows for the harvesting of small amounts of

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Fashioned from the spongy stem of a rare mushroom, this whistle produces a sound that only kobolds
 and dragons can hear. Kobolds often create complicated codes made up of notes that they use to

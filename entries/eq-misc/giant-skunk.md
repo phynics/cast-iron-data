@@ -19,8 +19,11 @@ weight = "-"
 
 ## Animals
 
-**Price** Varies; **Weight** -\
-**Category** Mounts/Pets
+::: statblock
+Price: Varies
+Weight: -
+Category: Mounts/Pets
+:::
 
 These animals may be purchased already combat-trained at the GM's discretion, and typically cost an
 amount equal to 1-1/2 × the price of the standard animal.

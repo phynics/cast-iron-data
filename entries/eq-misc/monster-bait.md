@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "-"
 +++
 
-**Price** 60 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 60 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This morsel of food contains special spices that make it particularly enticing to a certain creature
 type. A creature whose type matches the bait's must attempt a DC 12 Will save every minute it

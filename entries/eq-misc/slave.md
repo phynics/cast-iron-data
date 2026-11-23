@@ -17,9 +17,10 @@ price = "75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling),
 weight = "175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)"
 +++
 
-**Price** 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp
-(specialized); **Weight** 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip,
-halfling), 160 lbs. (specialized)
+::: statblock
+Price: 75 gp, 100 gp (hard labor), 50 gp (household), 100 gp (slip, halfling), 500 gp (specialized)
+Weight: 175 lbs., 200 lbs. (hard labor), 130 lbs. (household), 39 lbs. (slip, halfling), 160 lbs. (specialized)
+:::
 
 Sentient creatures sold to perform a multitude of tasks all fall under the category of slaves. Most
 slaves are kept to do menial jobs, but sometimes slaves perform specialized tasks such as

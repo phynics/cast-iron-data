@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "7 oz."
 +++
 
-**Price** 1 sp; **Weight** 7 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1 sp
+Weight: 7 oz.
+Category: Mounts/Pets
+:::
 
 These small plump birds are sometimes kept as pets, but are more often used as familiars for
 spellcasters. They are known for their beautiful song and their potential for actual speech.

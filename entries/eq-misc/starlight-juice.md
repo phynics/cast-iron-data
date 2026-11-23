@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Tincture
+:::
 
 This clear liquid glows with pale light. For 4 hours after drinking this tincture, you emit light as
 a [torch](ref/eq-misc/torch). You are constantly [dazzled](ref/misc/dazzled) during this time. If

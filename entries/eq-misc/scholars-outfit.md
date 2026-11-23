@@ -23,8 +23,11 @@ price = "5 gp"
 weight = "6 lbs."
 +++
 
-**Price** 5 gp; **Weight** 6 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 6 lbs.
+Category: Clothing
+:::
 
 Perfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak.
 

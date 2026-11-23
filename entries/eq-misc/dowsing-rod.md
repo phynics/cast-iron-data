@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Made from specially crafted materials, a dowsing rod is used by the psychically attuned to locate
 water, find graves, or uncover minerals. Most commonly manufactured from forked branches cut from

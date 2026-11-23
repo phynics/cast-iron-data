@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 In addition to being an instrument suitable for Perform (wind) checks, this elaborately crafted
 whippoorwill-shaped clay ocarina also doubles the effective range of the secret whistled Nightsong

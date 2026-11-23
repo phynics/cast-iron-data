@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When this pungent yellow powder is boiled in water and given to a creature to drink, it provides the
 attending healer a +5 alchemical bonus on [Heal](ref/skill/heal) checks for providing long-term

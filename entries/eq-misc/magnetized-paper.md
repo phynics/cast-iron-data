@@ -17,8 +17,11 @@ price = "11 gp"
 weight = "1 lb."
 +++
 
-**Price** 11 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 11 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 These specially charged pieces of parchment come in small packages containing seven sheets.
 Psychically attuned to the specific magnetic fluids a living creature needs to part the ethereal

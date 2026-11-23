@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Price** 75 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Typically stored in an airtight leather wineskin cured with rare preservative unguents, bone paste
 is a powerful alchemical sealant with special deteriorative properties. When squeezed out of its

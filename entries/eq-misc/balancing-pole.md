@@ -23,8 +23,11 @@ price = "8 sp"
 weight = "12 lbs."
 +++
 
-**Price** 8 sp; **Weight** 12 lbs.\
-**Category** Tools
+::: statblock
+Price: 8 sp
+Weight: 12 lbs.
+Category: Tools
+:::
 
 This flexible pole can be anywhere from 15 to 30 feet in length. When used properly, it helps you
 keep your balance when crossing narrow walkways. Using a balancing pole grants you a +1 circumstance

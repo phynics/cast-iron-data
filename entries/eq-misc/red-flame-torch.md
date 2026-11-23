@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This otherwise normal-looking [torch](ref/eq-misc/torch) is encrusted with lithium salts and burns
 with a dark red flame. It sheds only [dim light](ref/rule/vision-and-light) in a 10-foot radius, and

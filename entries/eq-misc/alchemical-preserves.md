@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Each small tin of this specially treated jam contains just enough of the gooey stuff to provide a
 [halfling](ref/race/halfling) with a single serving of revitalizing nourishment. While any creature

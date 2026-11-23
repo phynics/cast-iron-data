@@ -26,8 +26,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 The Shoanti of the Cinderlands combine lime, crimson galtroot leaves, and some say horse blood to
 create this invigorating chew. Aside from staining the teeth a bloody shade, barbarian chew causes

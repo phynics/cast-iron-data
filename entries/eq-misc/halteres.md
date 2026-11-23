@@ -17,8 +17,11 @@ price = "8 gp"
 weight = "24 lbs."
 +++
 
-**Price** 8 gp; **Weight** 24 lbs.\
-**Category** Tools
+::: statblock
+Price: 8 gp
+Weight: 24 lbs.
+Category: Tools
+:::
 
 These paired stone or metal weights look like a pair of curved stones with handles. An athlete can
 take one weight in each hand and swing them back and forth before jumping, using the momentum to

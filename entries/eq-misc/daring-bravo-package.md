@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "76 1/2 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 76 1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 76 1/2 lbs.
+Category: Kits
+:::
 
 The daring bravo is equally adept in social situations and combat, with the right equipment to move
 fluidly from one to the other. Such adventurers are known as much for their flair and panache as

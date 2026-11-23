@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This spongy sac has a permeable membrane that can absorb, distill, and store toxins. When harvesting
 parts (see the [Harvest Parts](ref/feat/harvest-parts) feat) from a poisonous creature, you can use

@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Every spring, the waters south of Iblydos fill with the newly hatched young of the archipelago's
 immense lonoma eels, which fishermen harvest and brine to preserve for year-round consumption.

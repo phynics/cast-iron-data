@@ -24,8 +24,11 @@ price = "75 gp"
 weight = "10 lbs."
 +++
 
-**Price** 75 gp; **Weight** 10 lbs.\
-**Category** Clothing
+::: statblock
+Price: 75 gp
+Weight: 10 lbs.
+Category: Clothing
+:::
 
 These clothes are designed specifically to be expensive and gaudy, letting everyone know exactly how
 expensive they are. Precious metals and gems are worked into the clothing, along with elaborate

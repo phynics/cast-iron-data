@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 A stretcher allows two people to share the burden of carrying one heavy object. You can also use it
 to drag a load you couldn't carry on your own. A stretcher holds up to 300 pounds.

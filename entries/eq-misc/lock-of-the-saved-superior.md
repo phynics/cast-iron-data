@@ -19,9 +19,12 @@ weight = "1 lb."
 
 ## Lock of the saved
 
-**Price** +50 gp; **Weight** 1 lb.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: +50 gp
+Weight: 1 lb.
+Category: Channel Foci
+Deity: Any
+:::
 
 This sturdy lock may be of any quality; the cost of making it a channel focus is in addition to the
 normal [lock](ref/eq-misc/lock-average) cost. When activated, the lock's Disable Device DC and the

@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "-"
 +++
 
-**Price** 500 gp; **Weight** -\
-**Category** Dragoncraft
+::: statblock
+Price: 500 gp
+Weight: -
+Category: Dragoncraft
+:::
 
 This rare and expensive variant of standard Garundi [pesh](ref/drug/pesh) is produced by introducing
 a vial of [dragon's blood](ref/eq-misc/dragons-blood) into a dose of pesh during the refining

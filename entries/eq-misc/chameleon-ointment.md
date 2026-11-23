@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 When applied to a [homunculus's](ref/monster/homunculus) skin (which takes 1 minute), this ointment
 causes the creature's flesh to shift color and pattern reflexively to match its surroundings. The

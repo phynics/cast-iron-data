@@ -17,8 +17,11 @@ price = "varies"
 weight = "-"
 +++
 
-**Price** varies; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: varies
+Weight: -
+Category: Adventuring Gear
+:::
 
 Used as a replacement for the heel and sole of a shoe or boot, a puzzle heel can be used to secret
 away items so you can retrieve them when needed. To open the small compartment inside a puzzle heel,

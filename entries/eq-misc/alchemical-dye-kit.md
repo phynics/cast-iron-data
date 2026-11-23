@@ -17,8 +17,11 @@ price = "160 gp"
 weight = "6 lbs."
 +++
 
-**Price** 160 gp; **Weight** 6 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 160 gp
+Weight: 6 lbs.
+Category: Alchemical Tools
+:::
 
 This kit provides a variety of creamy liquids in glass jars, and allows you to temporarily change
 the color of your hair or skin to match that of a creature of any humanoid race. This includes

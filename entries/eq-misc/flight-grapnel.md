@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This masterfully crafted grappling hook sports hinged flukes that collapse down to the sides of the
 hook's base. A collapsed flight grapnel is thrown like a dart (typically while attached to rope),

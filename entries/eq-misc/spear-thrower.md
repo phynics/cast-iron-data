@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This is little more than a handle with a cup, loop, or spur to hold the butt of a
 [dart](ref/eq-weapon/dart), [javelin](ref/eq-weapon/javelin), or

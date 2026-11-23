@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 Longer lasting than an air bladder, a jar of compressed air comes with a breathing apparatus that
 can be strapped over the mouth with a leather cord and provides enough air for a Medium character to

@@ -19,8 +19,10 @@ weight = "10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)"
 
 ## Bear Trap
 
-**Price** 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth); **Weight** 10 lbs. Bear trap
-(offset), 20 lbs. Bear trap (sawtooth)
+::: statblock
+Price: 3 gp Bear trap (offset), 1,800 gp Bear trap (sawtooth)
+Weight: 10 lbs. Bear trap (offset), 20 lbs. Bear trap (sawtooth)
+:::
 
 An **offset** bear trap is a specialized variety of a bear trap constructed with offset jaws coated
 in resin. It inflicts less damage on captured creatures but holds them more securely, and is

@@ -20,8 +20,11 @@ price = "1 cp"
 weight = "-"
 +++
 
-**Price** 1 cp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 1 cp
+Weight: -
+Category: Lodging/Services
+:::
 
 Cities and towns often use gate tolls to generate additional income, to favor local sellers over
 visiting merchants, to discourage heavy traffic in congested areas, or to recoup the cost of

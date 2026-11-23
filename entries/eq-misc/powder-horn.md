@@ -23,8 +23,11 @@ price = "3 gp"
 weight = "1 lb."
 +++
 
-**Price** 3 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide
 variety of shapes, a powder horn can hold up to 10 doses of

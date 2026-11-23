@@ -17,8 +17,11 @@ price = "11,000 gp"
 weight = "4 lbs."
 +++
 
-**Price** 11,000 gp; **Weight** 4 lbs.\
-**Category** Black Market
+::: statblock
+Price: 11,000 gp
+Weight: 4 lbs.
+Category: Black Market
+:::
 
 Nearly 50 ancient tales and songs have been collected on this long scroll. Contrasting with the
 obvious antiquity of the papyrus, the illuminated images are vivid and the writing is clear (though

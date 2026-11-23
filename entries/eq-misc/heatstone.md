@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Alchemically treated to enhance their natural heat-generating properties, these round or ovoid
 stones of volcanic glass provide enough heat to keep chambers warm in the coldest winter. One

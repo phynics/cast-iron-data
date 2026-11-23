@@ -23,8 +23,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 An ordinary compass that points to the magnetic north pole grants you a +2 circumstance bonus on
 Survival checks made to avoid becoming lost. You can also use it to grant the same bonus on

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 Upon consumption, this heavenly elixir, brewed from holy water and blessed herbs, grants a +2 sacred
 bonus on saving throws against negative energy, energy drain, and death effects for 1 hour,

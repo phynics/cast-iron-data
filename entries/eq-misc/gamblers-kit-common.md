@@ -19,7 +19,10 @@ weight = "5 lbs. (cheating), 5 lbs. (common)"
 
 ## Gambler's kit
 
-**Price** 300 gp (cheating), 75 gp (common); **Weight** 5 lbs. (cheating), 5 lbs. (common)
+::: statblock
+Price: 300 gp (cheating), 75 gp (common)
+Weight: 5 lbs. (cheating), 5 lbs. (common)
+:::
 
 Particularly useful for travelers moving through areas too small or remote to support a full-time
 place for gambling, this small, tightly packed suitcase holds [decks of cards](ref/eq-misc/cards), a

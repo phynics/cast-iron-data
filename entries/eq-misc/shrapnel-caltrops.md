@@ -17,8 +17,11 @@ price = "401 gp"
 weight = "2 lbs."
 +++
 
-**Price** 401 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 401 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Shrapnel caltrops shatter into fragments that embed themselves into a creature's body when stepped
 on. Shrapnel caltrops work just like normal [caltrops](ref/eq-misc/caltrops), except they are

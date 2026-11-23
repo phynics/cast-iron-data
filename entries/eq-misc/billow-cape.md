@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "4 lbs."
 +++
 
-**Price** 100 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 100 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 This silk cape is constructed of many carefully arranged overlapping layers that are loosely
 stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak

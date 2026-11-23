@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Remedies
+:::
 
 A gritty salve with an earthy odor, muscle grout is frequently sold in areas where
 [giant spiders](ref/monster/spider-giant-spider) or [ropers](ref/monster/roper) haunt local trade

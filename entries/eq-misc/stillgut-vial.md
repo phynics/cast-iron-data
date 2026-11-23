@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Drinking a vial of this bland, bluish liquid grants you a +5 alchemical bonus on Fortitude saves to
 avoid [nausea](ref/misc/nauseated) or [sickness](ref/misc/sickened) for 1 hour. If you are already

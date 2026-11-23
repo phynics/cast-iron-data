@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "2 lbs."
 +++
 
-**Price** 20 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 20 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 These heavy leather boots contain a layer of brick dust that protects your feet from heat. You gain
 fire resistance 2 against fire attacks directed at or under your feet, such as walking across hot

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Food/Drink
+:::
 
 These translucent, salty fish eggs are a delicacy. They are usually eaten as a spread on crackers,
 boiled eggs, bread, pastries, or vegetables. They tend to spoil quickly and are rare outside of the

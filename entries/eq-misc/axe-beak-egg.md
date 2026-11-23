@@ -17,7 +17,10 @@ price = "1,000 gp"
 weight = "10 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 10 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1,000 gp
+Weight: 10 lbs.
+Category: Mounts/Pets
+:::
 
 Axe beaks raised from eggs are easily trained as mounts or used as livestock.

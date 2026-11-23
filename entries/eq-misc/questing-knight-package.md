@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "127 1/2 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 127 1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 127 1/2 lbs.
+Category: Kits
+:::
 
 If not descended from nobility, the questing knight certainly looks like he fits the part. This
 equipment package is useful for cavaliers, fighters, and paladins. If the PC can cast spells, add a

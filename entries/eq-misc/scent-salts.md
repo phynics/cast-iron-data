@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Entertainment
+:::
 
 Stored in a waterproof pouch, these salt crystals dissolve slowly in water, producing a pleasing
 scent in the nearby water for roughly 1 hour.

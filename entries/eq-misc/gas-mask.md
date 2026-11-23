@@ -19,8 +19,11 @@ weight = "1 lbs."
 
 ## Gas mask (modern)
 
-**Price** 25 gp; **Weight** 1 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 1 lbs.
+Category: Adventuring Gear
+:::
 
 Gas masks are rubberized-cloth masks fitted with thick glass eyepieces and a charcoal-dust filter in
 a rectangular canister that screws in near the mouthpiece. A gas mask is worn tightly around the

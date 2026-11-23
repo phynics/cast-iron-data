@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This hollow container is made of wood, a gourd, or metal, and carries liquid like a
 [waterskin](ref/eq-misc/waterskin), but is more resistant to punctures and cuts.

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Animal Gear
+:::
 
 A short [whip](ref/eq-weapon/whip) with a leather loop at the end, this whip can be felt through a
 horse's armor but does not deal damage to the horse. A rider who uses a horse whip while using the

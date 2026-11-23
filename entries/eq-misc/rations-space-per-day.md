@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Generally composed of meat, hard cheese, fruits and vegetables, nut and bean pastes, and vital
 herbs, space rations are dehydrated and then kept extremely dry in order to maximize preservation

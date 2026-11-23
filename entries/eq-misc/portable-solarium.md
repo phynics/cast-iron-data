@@ -17,8 +17,11 @@ price = "800 gp"
 weight = "35 lbs."
 +++
 
-**Price** 800 gp; **Weight** 35 lbs.\
-**Category** Tools
+::: statblock
+Price: 800 gp
+Weight: 35 lbs.
+Category: Tools
+:::
 
 This long, wooden case contains a complicated framework of brass armatures, balance weights, a
 foldable mat, and purplehued lenses of various shapes and sizes. When assembled, the case becomes a

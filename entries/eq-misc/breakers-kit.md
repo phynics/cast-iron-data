@@ -17,8 +17,11 @@ price = "353 gp"
 weight = "40 lbs."
 +++
 
-**Price** 353 gp; **Weight** 40 lbs.\
-**Category** Kits
+::: statblock
+Price: 353 gp
+Weight: 40 lbs.
+Category: Kits
+:::
 
 This kit contains all manner of items useful for smashing down doors, creating diversions, and
 blowing things up. It includes a dose of [alchemical glue](ref/eq-misc/alchemical-glue), a flask of

@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "1 lb."
 +++
 
-**Price** 5 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Roughly carved from porous stone that litters the base of the Tusk Mountains, these pots allow
 Kellid nomads to carry burning coals from one day's campsite to the next, so they can quickly start

@@ -20,7 +20,10 @@ price = "2 gp"
 weight = "30 lbs."
 +++
 
-**Price** 2 gp; **Weight** 30 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 30 lbs.
+Category: Adventuring Gear
+:::
 
 This is a sturdy wooden barrel with a tight-fitting lid, banded with metal.

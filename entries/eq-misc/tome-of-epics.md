@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "3 lbs."
 +++
 
-**Price** 50 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 This hefty book is bound in oilskin and decorated with scenes of glorious combat between ancient
 heroes and ferocious monsters. It contains several tales of valor, defeat, and victory, all with

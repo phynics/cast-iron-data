@@ -17,8 +17,11 @@ price = "1 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 Usually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from
 many different sorts of creatures - rats and pigeons are the most common.

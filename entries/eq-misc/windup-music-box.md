@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 A tiny crank protrudes from this small wooden box. After its crank is turned for 1 round, the box
 produces a pleasing melody for 4 rounds, as the pins on a revolving cylinder inside the box pluck

@@ -17,10 +17,15 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 18; **Yield** 1 dose\
-**Terrain** temperate or warm forests or plains\
+::: statblock
+Price: 100 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 18
+Yield: 1 dose
+Terrain: temperate or warm forests or plains
+:::
+
 **Preparation** The amaranth's flowers and stalks must be carefully ground into paste. This requires
 a successful DC 12 Craft (alchemy) check and 1 hour of work.\
 **Use** A dose of black amaranth paste can be applied to a dead body to slow decay. One dose used on

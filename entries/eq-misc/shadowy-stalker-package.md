@@ -17,8 +17,11 @@ price = "1000 gp"
 weight = "63 lbs."
 +++
 
-**Price** 1000 gp; **Weight** 63 lbs.\
-**Category** Kits
+::: statblock
+Price: 1000 gp
+Weight: 63 lbs.
+Category: Kits
+:::
 
 Skulking through a city or a dungeon, the shadowy stalker is equipped to strike quickly and fade
 away. This equipment package is appropriate for stealthy characters such as rangers, rogues, and

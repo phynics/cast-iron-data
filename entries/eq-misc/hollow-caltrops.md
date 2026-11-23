@@ -17,8 +17,11 @@ price = "451 gp"
 weight = "2 lbs."
 +++
 
-**Price** 451 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 451 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Created by adherents of Norgorber to lure pursuers to their deaths, hollow caltrops each have a
 hidden chamber built inside them. Hollow caltrops work just like normal

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This thick lubricant makes the joints of armor move more freely. Applying the ointment takes 1
 minute and reduces your armor's armor check penalty by 1 (to a minimum of -1) for 8 hours.

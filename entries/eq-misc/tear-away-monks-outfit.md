@@ -25,8 +25,11 @@ weight = "2 lbs."
 
 ## Monk's outfit
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 This simple outfit includes sandals, loose breeches, and a loose shirt, and is bound together with
 sashes. The outfit is designed to give you maximum mobility, and it's made of high-quality fabric.

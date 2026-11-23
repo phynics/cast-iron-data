@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened
 with honey. They supplement this trail bread with dried fruits and nuts. If you are an

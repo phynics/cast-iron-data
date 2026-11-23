@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Price** 200 gp; **Weight** 1 lb.\
-**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+::: statblock
+Price: 200 gp
+Weight: 1 lb.
+Category: [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+:::
 
 The premier Pathfinder Chronicles volume (first published in 4317 AR) features an account of Durvin
 Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a marid and an

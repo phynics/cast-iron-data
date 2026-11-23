@@ -20,8 +20,11 @@ price = "75 gp"
 weight = "2 lbs."
 +++
 
-**Price** 75 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 75 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 The menacing, eyeless masks of [Hellknight signifers](ref/pclass/hellknight-signifer) were first
 created by members of the [Order of the Gate](ref/hkorder/order-of-the-gate) and are

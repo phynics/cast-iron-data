@@ -20,7 +20,10 @@ price = "1 cp"
 weight = "20 lbs."
 +++
 
-**Price** 1 cp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 This bundle of dry wood includes twigs and logs.

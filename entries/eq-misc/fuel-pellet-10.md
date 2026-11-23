@@ -17,8 +17,11 @@ price = "3 sp"
 weight = "-"
 +++
 
-**Price** 3 sp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 3 sp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Small nuggets of compressed fibers, resins, and dung, fuel pellets give off very little smoke when
 burned. Each pellet burns for 10 minutes, providing enough heat to boil water, and can be lit as a

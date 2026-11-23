@@ -19,7 +19,10 @@ weight = "3 lbs. (Large), 2 lbs. (Medium)"
 
 ## Aquatic harness
 
-**Price** 20 gp (Large), 10 gp (Medium); **Weight** 3 lbs. (Large), 2 lbs. (Medium)
+::: statblock
+Price: 20 gp (Large), 10 gp (Medium)
+Weight: 3 lbs. (Large), 2 lbs. (Medium)
+:::
 
 This waxed leather harness is designed to withstand submersion and is adjustable to fit dolphins,
 giant eels, giant seahorses, and other aquatic mounts. Undersea races without access to leather

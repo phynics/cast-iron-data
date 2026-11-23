@@ -17,8 +17,11 @@ price = "10-100 gp"
 weight = "-"
 +++
 
-**Price** 10-100 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 10-100 gp
+Weight: -
+Category: Clothing
+:::
 
 This ornate hairnet, fashioned from silk, cloth of gold, and jewels, is most commonly worn by royal
 or aristocratic women.

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "2 lbs."
 +++
 
-**Price** 100 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 This golden, oily alchemical reagent can be applied to any surface or delivered as a touch attack
 (the wielder exposes herself unless she uses a glove and disposes of it afterward). A creature or

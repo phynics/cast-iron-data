@@ -29,8 +29,11 @@ price = "1,000 gp"
 weight = "6 lbs."
 +++
 
-**Price** 1,000 gp; **Weight** 6 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1,000 gp
+Weight: 6 lbs.
+Category: Adventuring Gear
+:::
 
 This device consists of a flat disc upon which two other discs are mounted. The mounted discs can
 rotate on a central axis, allowing them to spin and move as days pass. The bottom disc represents

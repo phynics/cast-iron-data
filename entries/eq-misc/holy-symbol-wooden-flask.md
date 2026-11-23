@@ -19,8 +19,11 @@ weight = "-"
 
 ## Holy symbol (flask)
 
-**Price** +10 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: +10 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This version of a standard holy symbol is oversized and has a watertight compartment that can hold 1
 pint (the same volume as a flask of [holy water](ref/eq-weapon/holy-water)). Adventurers normally

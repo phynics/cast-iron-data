@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Black Market
+:::
 
 These pungent white cloves serve as food and medicine and play a role in many traditional cleansing
 rituals. It is well established that [vampires](ref/template/vampire) cannot abide the presence of

@@ -20,8 +20,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 When inhaled, this incense causes creatures to see dazzling auras around light sources, drawing
 their attention to such illumination as the moon or stars and away from other nearby creatures. Any

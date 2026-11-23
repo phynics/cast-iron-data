@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This barbed, [cold iron](ref/eq-material/cold-iron) arrowhead is alchemically treated to inflict
 additional harm while embedded in creatures that are vulnerable to cold iron. For every angel quill

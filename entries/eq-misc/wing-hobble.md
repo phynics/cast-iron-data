@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1-20 lbs."
 +++
 
-**Price** 75 gp; **Weight** 1-20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 1-20 lbs.
+Category: Adventuring Gear
+:::
 
 This large weight is attached to a sharp steel hook which doubles as a carabiner. Once the steel
 hook is punched through the skin of a flying creature's wing, the carabiner locks shut. The weight

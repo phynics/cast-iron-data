@@ -19,8 +19,11 @@ weight = "8 lbs."
 
 ## Esquire attaché case
 
-**Price** 100 gp; **Weight** 8 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 8 lbs.
+Category: Adventuring Gear
+:::
 
 An esquire attaché case contains the materials and references for drafting agreements and treaties.
 Carried by ambassadors and diplomats, these kits hold masterwork writing implements, fine

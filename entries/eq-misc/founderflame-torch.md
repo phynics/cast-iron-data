@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Price** 250 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 250 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 One end of this short length of petrified wood burns with a flame of ever-changing hue, a tiny
 portion of the fires of the Founder's Flame. It provides light as per a normal

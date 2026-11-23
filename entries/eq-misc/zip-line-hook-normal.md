@@ -19,7 +19,10 @@ weight = "1 lb. (masterwork), 1 lb. (normal)"
 
 ## Zip-line hook
 
-**Price** 55 gp (masterwork), 5 gp (normal); **Weight** 1 lb. (masterwork), 1 lb. (normal)
+::: statblock
+Price: 55 gp (masterwork), 5 gp (normal)
+Weight: 1 lb. (masterwork), 1 lb. (normal)
+:::
 
 This blunt iron hook secures to the user's forearm with a sturdy strap. When this item is hooked
 onto a rope or a similar object that has been fastened at a downward angle, the owner can use it to

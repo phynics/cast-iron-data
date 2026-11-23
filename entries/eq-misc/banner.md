@@ -17,8 +17,11 @@ price = "1-20 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1-20 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1-20 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This is a banner, flag, or pennant. You tie it to a pole, lance, or polearm. Most are woven, dyed,
 or painted with a pattern or symbol, such as a knight's crest or a country's flag. A simple banner

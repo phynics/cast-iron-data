@@ -19,8 +19,10 @@ weight = "- (print run (500 broadsheets)), - (setup and proof print)"
 
 ## Commissioned broadsheet
 
-**Price** 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print); **Weight** - (print
-run (500 broadsheets)), - (setup and proof print)
+::: statblock
+Price: 150 gp (print run (500 broadsheets)), 50 gp (setup and proof print)
+Weight: - (print run (500 broadsheets)), - (setup and proof print)
+:::
 
 It takes 2 to 4 weeks for printers reproducing large images or those who have only engraved-plate
 printing presses to prepare the plate for a commissioned [broadsheet](ref/eq-misc/broadsheet).

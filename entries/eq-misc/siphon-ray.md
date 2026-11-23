@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This parasitic, hand-sized, cartilaginous fish attaches to a creature and filters nutrients directly
 from its host's bloodstream. However, a siphon ray reoxygenates the blood in the process, allowing

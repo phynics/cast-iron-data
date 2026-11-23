@@ -17,8 +17,11 @@ price = "1-100 gp"
 weight = "1-20 lbs."
 +++
 
-**Price** 1-100 gp; **Weight** 1-20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1-100 gp
+Weight: 1-20 lbs.
+Category: Adventuring Gear
+:::
 
 This is the religious text of a particular religion, with a title, text, and detailed rites specific
 to that faith. The cheap variety is a small, light book with no illustrations, printed or written on

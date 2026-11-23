@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This finely crafted, heart-shaped wooden board has two delicate wheels and a small aperture to hold
 a pencil, which acts as the board's third leg. Typically used on a tabletop covered in butcher's

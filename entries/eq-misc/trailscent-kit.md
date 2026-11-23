@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "5 lbs."
 +++
 
-**Price** 10 gp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 10 gp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This small box of specially prepared [catfolk](ref/race/catfolk) pheromones and alchemical reagents
 can be used to leave a small group of subtle but long-lasting scents that only catfolk can smell and

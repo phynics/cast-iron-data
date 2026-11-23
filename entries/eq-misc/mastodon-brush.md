@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "5 lbs."
 +++
 
-**Price** 20 gp; **Weight** 5 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 20 gp
+Weight: 5 lbs.
+Category: Animal Gear
+:::
 
 Tribespeople in lands where megafauna and other large mammals are an important source of food and
 transportation craft these large, two-handed grooming tools to keep their enormous mounts and pack

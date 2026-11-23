@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "10 lbs."
 +++
 
-**Price** 20 gp; **Weight** 10 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 20 gp
+Weight: 10 lbs.
+Category: Mounts/Pets
+:::
 
 These playful water mammals are either used as familiars or trained to perform tricks as pets. They
 are surprisingly intelligent, and have been known to use rocks as simple tools, such as for opening

@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 Sylirican lemons make prized preserves when ground, salted, and sealed in jars, adding an intense
 citrus flavor when sprinkled atop other foods. If, within 8 hours of consuming a meal seasoned with

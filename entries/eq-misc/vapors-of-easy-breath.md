@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "3 lbs."
 +++
 
-**Price** 75 gp; **Weight** 3 lbs.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 75 gp
+Weight: 3 lbs.
+Category: Alchemical Remedies
+:::
 
 This waxy ball of resin and herbs is stored in a large glass jar or other airtight container. When
 the jar is opened, it instantly evaporates into a soothing vapor that renders the lungs of any

@@ -17,8 +17,11 @@ price = "1,500 gp"
 weight = "4 lbs."
 +++
 
-**Price** 1,500 gp; **Weight** 4 lbs.\
-**Category** Black Market
+::: statblock
+Price: 1,500 gp
+Weight: 4 lbs.
+Category: Black Market
+:::
 
 This portable [hookah](ref/eq-misc/hookah) can be worn as a backpack, obviating the need to set the
 hookah down before filling it with water. Up to four creatures (including the wearer and any

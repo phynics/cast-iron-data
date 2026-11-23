@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 To all appearances, this device is nothing more than a plain rod, such as a dowel, although it can
 be made in the form of any cylindrical object, such as a [cane](ref/eq-misc/cane) or walking stick,

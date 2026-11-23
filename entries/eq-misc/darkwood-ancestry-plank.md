@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Ancestor worship is common among the peoples of the Mwangi Expanse, and many display wooden planks
 in their homes that contain depictions of enormous trees with the names of their ancestors carved

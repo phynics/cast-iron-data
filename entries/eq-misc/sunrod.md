@@ -23,8 +23,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds
 normal light in a 30-foot radius and increases the [light level](ref/rule/vision-and-light) by one

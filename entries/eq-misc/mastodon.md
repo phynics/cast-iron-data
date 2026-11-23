@@ -17,8 +17,11 @@ price = "2,000 gp"
 weight = "8 tons"
 +++
 
-**Price** 2,000 gp; **Weight** 8 tons\
-**Category** Mounts/Pets
+::: statblock
+Price: 2,000 gp
+Weight: 8 tons
+Category: Mounts/Pets
+:::
 
 These cousins to elephants are larger and more powerfully built. There is a nearly hairless version
 that dwells in southern climates and a woolly variety adapted to cold. More temperamental than

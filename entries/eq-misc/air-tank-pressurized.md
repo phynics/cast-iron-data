@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "30 lbs."
 +++
 
-**Price** 25 gp; **Weight** 30 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 30 lbs.
+Category: Adventuring Gear
+:::
 
 An air-breathing adventurer would need to bring over a dozen tanks full of air with her to have
 enough to breathe for even a single hour. Since this is impractical, alchemists developed a

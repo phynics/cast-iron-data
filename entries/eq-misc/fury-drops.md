@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Anointing a creature's eyes with a dose of fury drops causes it to immediately fly into a rage for
 1d6 rounds, granting it a +2 alchemical bonus to Strength and Constitution, a +1 alchemical bonus on

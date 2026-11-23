@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This gray paste congeals when spread onto a surface, gradually changing color to match its
 surroundings. When applied, its reagents bond with chemicals in the environment, exuding a magnified

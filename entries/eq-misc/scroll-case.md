@@ -26,8 +26,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 A leather or wooden scroll case easily holds four scrolls; you can cram more inside, but retrieving
 any of them becomes a full-round action rather than a move action. You must destroy the scroll case

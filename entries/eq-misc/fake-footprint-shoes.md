@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "2 lbs."
 +++
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 These oversized shoes are worn over normal footwear. They create footprints or bootprints that look
 like those left by another creature. Each pair creates a specific type of footprint, such as tiger,

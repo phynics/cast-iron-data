@@ -16,9 +16,12 @@ category = "Miscellaneous Equipment"
 price = "4,600 gp"
 +++
 
-**Price** 4,600 gp; **Accuracy** +6\
-**Category** [Dungeon Guides](ref/rule/dungeon-guides)\
-**Associated Skill** Knowledge (religion) (DC 25)
+::: statblock
+Price: 4,600 gp
+Accuracy: +6
+Category: [Dungeon Guides](ref/rule/dungeon-guides)
+Associated Skill: Knowledge (religion) (DC 25)
+:::
 
 This long-lost tome contains all of Liron Treye's accounts of the mysterious and terrible things
 found in Kalexcourt of Ustalav when he explored the haunted burial ground centuries ago.

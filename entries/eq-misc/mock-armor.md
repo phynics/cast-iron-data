@@ -17,8 +17,11 @@ price = "90 gp"
 weight = "10 lbs."
 +++
 
-**Price** 90 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 90 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 When an arcane caster needs a disguise, she might don a suit of mock armor. Made from leather or
 thin wood such as balsa or bamboo and painted to look like metal, a suit of mock armor passes as

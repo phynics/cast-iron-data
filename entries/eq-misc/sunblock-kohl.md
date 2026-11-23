@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "-"
 +++
 
-**Price** 10 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: -
+Category: Clothing
+:::
 
 Made from ground antimony, this sooty cosmetic is used to line the eyes. It grants the wearer a +2
 circumstance bonus on saves against light-based effects that would [dazzle](ref/misc/dazzled) or

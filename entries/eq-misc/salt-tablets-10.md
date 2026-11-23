@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 These tablets of pressed salt help stave off [dehydration](ref/rule/starvation-and-thirst). Taking a
 salt tablet once every 24 hours grants you a +2 circumstance bonus on saving throws to avoid

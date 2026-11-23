@@ -28,7 +28,10 @@ weight = "- (signal), - (silent)"
 
 ## Whistle
 
-**Price** 8 sp (signal), 9 sp (silent); **Weight** - (signal), - (silent)
+::: statblock
+Price: 8 sp (signal), 9 sp (silent)
+Weight: - (signal), - (silent)
+:::
 
 With a DC 5 Perform (wind) check, you can use a whistle to signal the same sorts of situations as
 signal horns. A whistle's piercing report can be clearly heard (Perception DC 0) up to a

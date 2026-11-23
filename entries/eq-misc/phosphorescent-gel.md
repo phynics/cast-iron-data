@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 45 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 45 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This sealed vial contains 1 ounce of milky white gel. Once the vial's seal is broken, the liquid
 reacts with the surrounding air and begins to rapidly heat up, glowing like a

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This small tacky blue pellet is deceptively dense. When the pellet is broken, an alchemical reaction
 causes it to grow suddenly into a 30-foot-long spongy rope as strong as a normal hemp rope. It

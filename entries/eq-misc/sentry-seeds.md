@@ -17,8 +17,11 @@ price = "7 gp"
 weight = "1/2 lbs."
 +++
 
-**Price** 7 gp; **Weight** 1/2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 7 gp
+Weight: 1/2 lbs.
+Category: Adventuring Gear
+:::
 
 Sentry seeds are small, hollow, ovoid glass beads with flat sides. A specially crafted pouch,
 containing enough seeds to fill eight 5-foot squares, allows the user to evenly scatter these seeds

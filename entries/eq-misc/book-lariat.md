@@ -17,8 +17,11 @@ price = "3 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 3 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This braided metal cord comes with a clasp that affixes to the lock of a standard spellbook. The
 other end of the cord attaches to a belt or belt loop. The cord is 10 feet long and retractable. If

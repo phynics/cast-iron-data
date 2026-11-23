@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Tools
+:::
 
 A tossglove is a hefty leather and metal glove made for holding and throwing an insect, snake, or
 other tiny creature that would otherwise bite the goblin. Those who don't use a tossglove when

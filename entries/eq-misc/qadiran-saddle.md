@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "5 lbs."
 +++
 
-**Price** 200 gp; **Weight** 5 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 200 gp
+Weight: 5 lbs.
+Category: Animal Gear
+:::
 
 Developed by [Al-Zabriti](ref/rule/aff-deserts) riders, a Qadiran saddle is sturdy but minimal,
 allowing horse and rider to communicate through slight muscle shifts and delicate balance

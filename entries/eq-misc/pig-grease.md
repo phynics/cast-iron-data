@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Tools
+:::
 
 Maybe it's the wide heads, but more likely it's the lack of common sense that causes goblins to so
 often get stuck in narrow spaces. In such cases, a dose of pig grease is really helpful. An

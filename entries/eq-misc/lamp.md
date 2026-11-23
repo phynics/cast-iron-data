@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A common lamp illuminates a small area, providing normal light in a 15-foot radius and increasing
 the [light level](ref/rule/vision-and-light) by one step for an additional 15 feet beyond that area

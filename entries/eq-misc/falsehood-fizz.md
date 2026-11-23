@@ -17,8 +17,11 @@ price = "190 gp"
 weight = "-"
 +++
 
-**Price** 190 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 190 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 When imbibed, this cloudy, pink liquid grants you 1d4 uses of
 [alchemical inspiration](ref/misc/alchemical-inspiration) that can be used only on Bluff checks to

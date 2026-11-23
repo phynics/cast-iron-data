@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "60 lbs."
 +++
 
-**Price** 25 gp; **Weight** 60 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 60 lbs.
+Category: Adventuring Gear
+:::
 
 This chest can contain up to 4 cubic feet of goods, and it has a lining of insulating material
 between two sheets of wood. As long as the chest is partially filled with a cold substance - such as

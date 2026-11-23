@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Often extracted from phosphorescent insects, tiny marine plants, or subterranean fungi, glowing ink
 emits a faint but steady light (typically red or green) that allows you to read it in normal

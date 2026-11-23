@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Despite their name, spider sacs have nothing to do with spiders but rather are alchemical devices
 with a unique delivery system. Used for climbing as well as combat, these grayish, gourd-like

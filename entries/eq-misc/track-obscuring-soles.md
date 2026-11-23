@@ -17,8 +17,11 @@ price = "8 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 8 gp; **Weight** 1/2 lb.\
-**Category** Clothing
+::: statblock
+Price: 8 gp
+Weight: 1/2 lb.
+Category: Clothing
+:::
 
 These boot attachments consist of wide wooden frames, leather straps, and thin leather soles with no
 distinguishing marks or texture. They distribute your weight over a larger area and obscure the

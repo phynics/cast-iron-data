@@ -19,8 +19,11 @@ category = "Miscellaneous Equipment"
 price = "10,000 gp"
 +++
 
-**Price** 10,000 gp; **Price of Passage** (per mile) 5 cp\
-**Category** Transport, Sea
+::: statblock
+Price: 10,000 gp
+Price of Passage: (per mile) 5 cp
+Category: Transport, Sea
+:::
 
 This 75-foot-long ship with 40 [oars](ref/eq-misc/oar) requires a total crew of 50. It has a single
 mast and a square sail, and it can carry 50 tons of cargo or 120 soldiers. A

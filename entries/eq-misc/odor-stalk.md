@@ -17,8 +17,11 @@ price = "70 gp"
 weight = "1/10 lbs"
 +++
 
-**Price** 70 gp; **Weight** 1/10 lbs\
-**Category** Alchemical Tools
+::: statblock
+Price: 70 gp
+Weight: 1/10 lbs
+Category: Alchemical Tools
+:::
 
 These alchemically treated [incense](ref/eq-misc/incense) sticks contain pheromones that certain
 creatures find repellent. Each odor stalk is created to irritate a specific creature type. After

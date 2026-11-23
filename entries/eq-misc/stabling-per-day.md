@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "-"
 +++
 
-**Price** 5 sp; **Weight** -\
-**Category** Animal Gear
+::: statblock
+Price: 5 sp
+Weight: -
+Category: Animal Gear
+:::
 
 This is the amount it costs to stable a single creature that is Large or smaller for one day, at a
 typical stable or hostler. Particularly fancy stables may cost more, and larger or more exotic

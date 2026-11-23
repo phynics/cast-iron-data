@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "2 lbs."
 +++
 
-**Price** 300 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 300 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This polished lantern contains a continual flame and sheds light as a common
 [lamp](ref/eq-misc/lamp). If its font of consecrated crystal and metalwork is filled with holy

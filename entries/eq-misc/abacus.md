@@ -23,7 +23,10 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This device helps you perform mathematical calculations.

@@ -17,9 +17,12 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Channel Foci
+Deity: Any
+:::
 
 A single tiny religious symbol adorns each ring in this matched pair. If two people each wear one of
 the rings and clasp hands, a cleric may activate both rings with one use of

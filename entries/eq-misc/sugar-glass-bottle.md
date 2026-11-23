@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Tools
+:::
 
 This bottle looks like it's made of glass, but is more fragile and doesn't cause damage when it
 strikes a creature or object. Highly prized by theater performers, sugar glass bottles grant a +2

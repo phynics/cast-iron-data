@@ -17,8 +17,11 @@ price = "6 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 6 gp; **Weight** 1/2 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 6 gp
+Weight: 1/2 lb.
+Category: Animal Gear
+:::
 
 This small chime is designed to be used in aquatic environs. After submerging the pinger in water,
 the user can lower a miniature mallet into the dry hollow of the chime from above and ring the

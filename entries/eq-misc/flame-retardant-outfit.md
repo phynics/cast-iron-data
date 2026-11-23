@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "10 lbs."
 +++
 
-**Price** 50 gp; **Weight** 10 lbs.\
-**Category** Clothing
+::: statblock
+Price: 50 gp
+Weight: 10 lbs.
+Category: Clothing
+:::
 
 Constructed to resist the effects of [hot environments](ref/rule/heat-dangers) (such as forest fires
 and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of

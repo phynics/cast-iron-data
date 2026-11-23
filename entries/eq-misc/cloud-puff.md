@@ -17,10 +17,15 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 18; **Yield** 1 dose\
-**Terrain** any mountains\
+::: statblock
+Price: 100 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 18
+Yield: 1 dose
+Terrain: any mountains
+:::
+
 **Preparation** After soaking in salt water for 1 hour, a cloud puff must be dried in a delicate
 process that requires it to be turned three times per hour for 4 hours. This requires a successful
 DC 12 Craft (alchemy) check.\

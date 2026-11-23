@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "5 lbs."
 +++
 
-**Price** 5 gp; **Weight** 5 lbs.\
-**Category** Tools
+::: statblock
+Price: 5 gp
+Weight: 5 lbs.
+Category: Tools
+:::
 
 This sturdy ceramic jar has a heavy lid with a few tiny holes to let air in. It is normally
 half-filled with water and contains four adult leeches, each about 6 inches long. A leeching kit

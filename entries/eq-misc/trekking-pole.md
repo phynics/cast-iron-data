@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "2 lbs."
 +++
 
-**Price** 15 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This 5-foot-long pole is fitted with a metal spike at its base. A trekking pole is meant to assist
 with overland movement, particularly long hikes and travel through difficult terrain. If you use a

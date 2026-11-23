@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This glass bottle is filled with sticky goo prized by sailors for the additional traction it grants
 on ship decks. When applied to the soles of footwear and allowed to dry for 1 hour, liquid traction

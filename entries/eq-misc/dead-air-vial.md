@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Within this corked vial is a tiny sample of what is known as "dead air." Heavy, still, and of
 unknown origin, pockets of dead air becalm airships and smother crews in remote parts of the Plane

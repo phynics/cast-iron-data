@@ -22,8 +22,11 @@ weight = "8 lbs."
 
 ## Squire's outfit
 
-**Price** 5 gp; **Weight** 8 lbs.\
-**Category** Clothing
+::: statblock
+Price: 5 gp
+Weight: 8 lbs.
+Category: Clothing
+:::
 
 This outfit includes heavy woolen pants, a tunic, leather boots, a belt, sturdy gloves, a cap, and a
 heavy tabard bearing the colors or sigil of a noble house or organization. Many organizations

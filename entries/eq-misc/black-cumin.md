@@ -19,8 +19,10 @@ weight = "-"
 
 ## Spices
 
-**Price** 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped
-nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt); **Weight** -
+::: statblock
+Price: 15 gp (Black cumin), 20 gp (Flaming sumac), 30 gp (Golden cardamom), 100 gp (Striped nutmeg), 15 gp (Sunrise cinnamon), 25 gp (Tiger cloves), 5 gp (Violet salt)
+Weight: -
+:::
 
 Food spoils more quickly in hot climates, and Qadirans have become experts at using the spices that
 they trade to help preserve their meals. After importing plants from across the planes, Qadiran

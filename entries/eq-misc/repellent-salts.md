@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 100 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This fine alchemical salt has been developed to work against particular types of foes. A batch of
 repellent salts is attuned to undead or a selected outsider race, such as angels, demons, or devils.

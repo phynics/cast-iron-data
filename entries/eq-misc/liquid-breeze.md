@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Developed in ancient times to ease travels across the harsh deserts of Kelesh, liquid breeze is a
 common ware in markets catering to travelers, adventurers, and explorers. This soothing liquid

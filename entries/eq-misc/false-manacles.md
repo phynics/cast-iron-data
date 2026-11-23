@@ -20,8 +20,11 @@ price = "65 gp"
 weight = "2 lbs."
 +++
 
-**Price** 65 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 65 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 These manacles are nearly indistinguishable from standard [manacles](ref/eq-misc/manacles-common)
 upon inspection (Perception DC 25). A wearer who knows the location of the secret catch can open

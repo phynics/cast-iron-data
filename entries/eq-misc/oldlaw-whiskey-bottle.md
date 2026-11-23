@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 This single-malt whiskey is made with a recipe that's nearly 200 years old, and is a favorite
 alcoholic beverage of old soldiers everywhere.

@@ -17,8 +17,11 @@ price = "215 gp"
 weight = "33 lbs."
 +++
 
-**Price** 215 gp; **Weight** 33 lbs.\
-**Category** Kits
+::: statblock
+Price: 215 gp
+Weight: 33 lbs.
+Category: Kits
+:::
 
 This kit, most widely available in Varisia, includes a
 [block and tackle](ref/eq-misc/block-and-tackle), 50 feet of [chain](ref/eq-misc/chain-10-ft), a

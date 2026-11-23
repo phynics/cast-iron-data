@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1 lbs."
 +++
 
-**Price** 1 gp; **Weight** 1 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1 lbs.
+Category: Adventuring Gear
+:::
 
 This scabbard is an [improvised weapon](ref/misc/improvised-weapons) designed to allow you to remove
 it from your belt as a swift action when drawing the weapon it contains. Taking the

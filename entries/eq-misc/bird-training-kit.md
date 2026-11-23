@@ -17,8 +17,11 @@ price = "17 gp"
 weight = "8 lbs."
 +++
 
-**Price** 17 gp; **Weight** 8 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 17 gp
+Weight: 8 lbs.
+Category: Animal Gear
+:::
 
 This kit includes a [falconry gauntlet](ref/eq-misc/falconry-gauntlet),
 [Tiny cage](ref/eq-misc/cage-tiny), [training whip](ref/eq-misc/whip-training), and 2 days' worth of

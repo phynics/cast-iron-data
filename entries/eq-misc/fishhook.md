@@ -20,7 +20,10 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This metal hook is little more than a stiff, bent needle.

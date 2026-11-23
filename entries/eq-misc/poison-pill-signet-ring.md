@@ -23,8 +23,11 @@ price = "+20 gp"
 weight = "-"
 +++
 
-**Price** +20 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: +20 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This ring has a tiny compartment under the setting, typically used to hold poison. Opening and
 closing a ring is a move action; doing so unseen requires a DC 20 Sleight of Hand check.

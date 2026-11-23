@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in
 place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks.

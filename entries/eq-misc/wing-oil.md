@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 [Tengus](ref/race/tengu) mix special salves to protect their feathers from the elements. This
 one-ounce vial of wing oil gives a feathered creature a +1 bonus on all saving throws to resist the

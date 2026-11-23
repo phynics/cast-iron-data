@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "2 lbs."
 +++
 
-**Price** 3 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This narrow metal file is used by goblins to sharpen their teeth. The file ends in a pointed spike
 in case tooth-sharpening is interrupted by combat - a fangfile can function as a

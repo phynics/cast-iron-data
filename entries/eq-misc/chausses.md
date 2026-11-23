@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "3 lbs."
 +++
 
-**Price** 1 gp; **Weight** 3 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 3 lbs.
+Category: Clothing
+:::
 
 These padded woolen leggings are quilted to provide extra warmth and protection. They are frequently
 worn under mail or plate armor.

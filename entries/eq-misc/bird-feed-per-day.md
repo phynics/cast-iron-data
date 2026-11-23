@@ -17,8 +17,11 @@ price = "5 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 cp; **Weight** 1/2 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 5 cp
+Weight: 1/2 lb.
+Category: Animal Gear
+:::
 
 This mixture of seed and dead insects is suitable food for small birds such as ravens, crows, and
 chickens. Birds of prey such as falcons, hawks, and owls can also sustain themselves on bird feed,

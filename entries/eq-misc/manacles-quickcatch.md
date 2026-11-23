@@ -17,8 +17,11 @@ price = "180 gp"
 weight = "3 lbs."
 +++
 
-**Price** 180 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 180 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 These [masterwork manacles](ref/eq-misc/manacles-masterwork) are designed to swiftly secure a
 restrained creature. The price includes a quick-release mechanism that, when attached to a belt or

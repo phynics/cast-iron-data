@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "3 lbs."
 +++
 
-**Price** 2 gp; **Weight** 3 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2 gp
+Weight: 3 lbs.
+Category: Mounts/Pets
+:::
 
 These Tiny birds are known for their intelligence, and even play games with each other in the wild.
 They eat insects and can be found in surprisingly varied habitats.

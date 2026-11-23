@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This small leather pouch is filled with a faintly radioactive ore called
 [caphorite](ref/eq-material/caphorite), with a small percentage of reactants that activate the dust.

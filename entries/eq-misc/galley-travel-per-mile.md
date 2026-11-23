@@ -21,8 +21,11 @@ price = "30,000 gp"
 
 ## Galley
 
-**Price** 30,000 gp; **Price of Passage** (per mile) 1 sp\
-**Category** Transport, Sea
+::: statblock
+Price: 30,000 gp
+Price of Passage: (per mile) 1 sp
+Category: Transport, Sea
+:::
 
 This three-masted ship has 70 [oars](ref/eq-misc/oar) on either side and requires a total crew
 of 200. A [galley](ref/rule/wv-galley) is 130 feet long and 20 feet wide, and can carry 150 tons of

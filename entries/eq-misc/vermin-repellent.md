@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This vile-smelling white paste keeps vermin at bay if spread on your skin. Normal-sized (Fine)
 vermin avoid you. Swarms of vermin must make a successful DC 15 Fortitude saving throw in order to

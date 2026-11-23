@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+:::
 
 This volume made quite a stir upon its release because it includes a good hundred pages of collected
 notes by famed Pathfinder Durvin Gest - who had disappeared over a century earlier. Many of these

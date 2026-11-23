@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 2 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 40 gp
+Weight: 2 lbs.
+Category: Mounts/Pets
+:::
 
 This Tiny, long-winged hawk is a popular hunting bird among many aristocracies. Falcons are
 technically a subset of hawks but are considered more "noble" in many cultures. Ownership of these

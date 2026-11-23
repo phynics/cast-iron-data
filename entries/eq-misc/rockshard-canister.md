@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "25 lbs."
 +++
 
-**Price** 50 gp; **Weight** 25 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 25 lbs.
+Category: Alchemical Tools
+:::
 
 Two separate compartments make up this black glass canister the size of a helmet. The large lower
 compartment contains hundreds of jagged shards of obsidian. The upper airtight chamber contains a

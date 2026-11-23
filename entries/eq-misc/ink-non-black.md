@@ -22,7 +22,10 @@ weight = "-"
 
 ## Ink, black
 
-**Price** 8 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 8 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This vial contains 1 ounce of ink. Ink in colors other than black costs twice as much.

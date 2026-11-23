@@ -17,8 +17,11 @@ price = "90 gp"
 weight = "1 lb."
 +++
 
-**Price** 90 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 90 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 These books detail common behavior patterns and special abilities of a particular creature type.
 When used as a reference (an action that typically requires 1d4 minutes of searching the text), a

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 150 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 150 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 The powder in this minute glass vial is made of caustic soda treated with consecrated ashes, and is
 harmless to living flesh but dangerous to the deceased. Necrosalt can be

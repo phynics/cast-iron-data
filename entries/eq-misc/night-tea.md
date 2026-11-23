@@ -17,8 +17,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Black Market
+:::
 
 This frothy tea made from the bone-white, triangular leaves of the night tea plant renders a
 humanoid female sterile if drunk every day. In high doses, it may be able to end a pregnancy.

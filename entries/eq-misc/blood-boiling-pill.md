@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Swallowing this dark black-red tea pill causes your blood to heat up, granting you a +2 alchemical
 bonus on initiative checks and on saving throws against cold effects for 8 hours. However, any

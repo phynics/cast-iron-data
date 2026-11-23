@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1 lb."
 +++
 
-**Price** 75 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 75 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This specifically designed kit was put together by half-orcs to help them appear more human. It
 includes skin cream to disguise green-gray skin color and other items designed to conceal or draw

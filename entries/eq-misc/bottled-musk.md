@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 25 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This glass vial contains alchemically preserved musk from a single variety of creature. Sniffing
 bottled musk provides a +4 circumstance bonus on Survival checks to track creatures of the same

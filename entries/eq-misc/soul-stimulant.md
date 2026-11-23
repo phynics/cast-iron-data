@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This soothing elixir was created to counter the energy-draining effects of vampires, wights, and
 similar horrible creatures. If you have a negative level (whether temporary or permanent), you can

@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "2 lbs."
 +++
 
-**Price** 20 gp; **Weight** 2 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 20 gp
+Weight: 2 lbs.
+Category: Animal Gear
+:::
 
 This large leather muzzle is reinforced with steel chains, and is specifically shaped for a dragon's
 snout. The muzzle is also treated with one type of

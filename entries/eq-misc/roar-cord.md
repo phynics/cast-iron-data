@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Price** 15 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 15 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 This thin length of rope has many oddly shaped bits of hollow metal fixed along its length. As a
 standard action, a creature can swing a roar cord over its head to generate a variety of eerie

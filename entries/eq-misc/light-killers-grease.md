@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Keenly aware of their vulnerability to light and to those who wield it as a weapon, the drow have
 pioneered many ways to defend themselves against light-magic or otherwise. Light-killer's grease is

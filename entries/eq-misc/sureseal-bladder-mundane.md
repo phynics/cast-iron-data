@@ -19,7 +19,10 @@ weight = "1 lb. (mundane), - (potion)"
 
 ## Sureseal bladder
 
-**Price** 1 sp (mundane), 8 gp (potion); **Weight** 1 lb. (mundane), - (potion)
+::: statblock
+Price: 1 sp (mundane), 8 gp (potion)
+Weight: 1 lb. (mundane), - (potion)
+:::
 
 While [potion sponges](ref/eq-misc/potion-sponge) are a reasonable enough method for air-breathers
 like undines to prepare to bring a potion underwater, aquatic creatures prefer a solution that

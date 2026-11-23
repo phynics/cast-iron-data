@@ -17,8 +17,11 @@ price = "474 gp"
 weight = "23 lbs."
 +++
 
-**Price** 474 gp; **Weight** 23 lbs.\
-**Category** Kits
+::: statblock
+Price: 474 gp
+Weight: 23 lbs.
+Category: Kits
+:::
 
 For those brave enough to match wits with draconic intellects, this kit can help a dragonslayer
 sneak into or out of a dragon's lair or trick a dragon should the interloper be discovered. It

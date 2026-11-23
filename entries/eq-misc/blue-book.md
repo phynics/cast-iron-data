@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This book details the seedier entertainment establishments in one major city. It contains the names
 of brothels, burlesque houses, and gambling halls in that city. By consulting the book for 1 hour,

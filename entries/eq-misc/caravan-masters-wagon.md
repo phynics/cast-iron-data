@@ -16,8 +16,11 @@ category = "Miscellaneous Equipment"
 price = "1,000 gp"
 +++
 
-**Price** 1,000 gp; **Price of Passage** (per mile) -\
-**Category** Transport, Land
+::: statblock
+Price: 1,000 gp
+Price of Passage: (per mile) -
+Category: Transport, Land
+:::
 
 The caravan master's wagon is similar in most respects to a high-quality heavy
 [smuggler's wagon](ref/eq-misc/smugglers-wagon), but it additionally allows for a hidden

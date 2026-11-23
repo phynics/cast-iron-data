@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 When you release this vial of alchemical particles into the water as a standard action, the
 particles immediately neutralize the scent of exposed blood within 20 feet, rendering the blood

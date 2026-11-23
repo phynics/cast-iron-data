@@ -19,7 +19,10 @@ weight = "5 lbs. (expanded), 3 lbs. (standard)"
 
 ## Linguist's codex
 
-**Price** 200 gp (expanded), 50 gp (standard); **Weight** 5 lbs. (expanded), 3 lbs. (standard)
+::: statblock
+Price: 200 gp (expanded), 50 gp (standard)
+Weight: 5 lbs. (expanded), 3 lbs. (standard)
+:::
 
 This leather-bound reference tome contains several alphabets used in the various languages of
 Golarion, along with extensively cross-referenced and indexed words, phrases, and idioms. As long as

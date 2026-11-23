@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This length of sturdy twine is marked off in foot-long increments for ease of measurement. Measuring
 cord is purchased in increments of 10 feet.

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Sun cinder is a fine powder that glows faintly when exposed to light. One bag of this alchemically
 created talc contains 5 uses. When opened, it shines like a [candle](ref/eq-misc/candle). If

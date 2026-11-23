@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 250 gp; **Weight** 1/2 lb.\
-**Category** Clothing
+::: statblock
+Price: 250 gp
+Weight: 1/2 lb.
+Category: Clothing
+:::
 
 These sandals have blackwood soles and leather straps that wrap around the wearer's feet. The
 sandals are waterproof and are thus popular among individuals who tread the harsh locales of the

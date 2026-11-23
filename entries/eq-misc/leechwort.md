@@ -20,10 +20,15 @@ price = "3 gp"
 weight = "-"
 +++
 
-**Price** 3 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 16; **Yield** 1d4 doses\
-**Terrain** warm forests or swamps\
+::: statblock
+Price: 3 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 16
+Yield: 1d4 doses
+Terrain: warm forests or swamps
+:::
+
 **Preparation** Properly preparing leechwort for use is a timeconsuming process that takes 1 week,
 as fibers of the shrub must be dried and ground until they achieve a fine, powdery texture. A single
 herbalist can prepare up to a dozen doses simultaneously in this manner. At the end of the week, a

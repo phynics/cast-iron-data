@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "10 lbs."
 +++
 
-**Price** 25 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This wood-and-leather harness fits over clothing or armor and provides small handles and footrests
 across your back and along the sides of your legs and arms. While wearing a handle harness, you

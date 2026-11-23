@@ -17,8 +17,11 @@ price = "80 gp"
 weight = "-"
 +++
 
-**Price** 80 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 80 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This white, waxy ointment allows you to appear older or younger, and is useful for both people who
 need disguises and the vain. When mixed with an equal amount of sealing wax, it forms a gray paste

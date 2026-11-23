@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This viscous, translucent green fluid is typically stored in a large syringe. When injected into a
 mostly intact corpse of a Medium or smaller creature that has been dead for no more than 1 day (time

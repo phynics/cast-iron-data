@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "15 lbs."
 +++
 
-**Price** 15 gp; **Weight** 15 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp
+Weight: 15 lbs.
+Category: Adventuring Gear
+:::
 
 When fastened over a normal tent, this sheet of resilient waterproof animal gut provides an
 additional layer of protection against harsh weather and pestering insects. Attaching the cover

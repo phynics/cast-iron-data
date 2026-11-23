@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "10 lbs."
 +++
 
-**Price** 5 gp; **Weight** 10 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 10 lbs.
+Category: Adventuring Gear
+:::
 
 Through a 15-minute assembly period, the components of this kit fit together into a tent-like
 structure. Able to fit a single Medium-sized creature, this tent doesn't allow space for sleeping.

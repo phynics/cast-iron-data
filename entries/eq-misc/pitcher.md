@@ -20,8 +20,11 @@ price = "2 cp"
 weight = "5 lbs."
 +++
 
-**Price** 2 cp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 cp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This basic clay pitcher has a handle and an open top with a groove for easy pouring. It holds 1/2
 gallon of liquid. The listed weight is for a pitcher filled with water, wine, or ale; empty, it

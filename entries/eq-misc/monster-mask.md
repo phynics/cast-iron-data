@@ -17,8 +17,11 @@ price = "5-10 gp"
 weight = "1 lb."
 +++
 
-**Price** 5-10 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 5-10 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This articulated mask resembles a specific type of humanoid monster, such as a bugbear, goblin, orc,
 or hobgoblin. The mouth opens and closes when you move your jaw and its skin is actually

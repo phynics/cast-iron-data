@@ -20,8 +20,11 @@ price = "4 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 4 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 4 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 More a family of beers than one single drink, dwarven stout is known by different names in human
 lands. Dwarven stouts are dark beers characterized by a slightly burnt flavor and a foamy head; they

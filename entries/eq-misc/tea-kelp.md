@@ -17,8 +17,11 @@ price = "3 sp"
 weight = "-"
 +++
 
-**Price** 3 sp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 3 sp
+Weight: -
+Category: Food/Drink
+:::
 
 Kelp tea is a favorite relaxing drink under the sea, brewed from various rare species of kelp to
 create over a dozen distinctive flavors. The listed price pays for enough tea to fill a small

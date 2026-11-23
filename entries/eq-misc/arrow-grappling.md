@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This small grappling hook is designed to be tied to a [silk rope](ref/eq-misc/silk-rope-50-ft) and
 fired from a bow. When fired, it has a range increment of 30 feet. An equivalent item exists for

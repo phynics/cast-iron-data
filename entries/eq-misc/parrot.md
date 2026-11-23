@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "4 lbs."
 +++
 
-**Price** 50 gp; **Weight** 4 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 50 gp
+Weight: 4 lbs.
+Category: Mounts/Pets
+:::
 
 These colorful and intelligent birds can be trained to mimic humanoid voices. They are often kept as
 pets by the wealthy and those who live in the tropical climates they favor. Parrots have the same

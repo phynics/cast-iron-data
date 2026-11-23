@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Tincture
+:::
 
 This highly viscous liquid resembles tree sap and is difficult to swallow. For 2 hours after
 drinking this tincture, you gain a +2 alchemical bonus to your CMD and you can perform

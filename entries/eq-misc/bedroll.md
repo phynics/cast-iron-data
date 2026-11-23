@@ -20,8 +20,11 @@ price = "1 sp"
 weight = "5 lbs."
 +++
 
-**Price** 1 sp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This consists of two woolen sheets sewn together along the bottom and one side to create a bag for
 sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you

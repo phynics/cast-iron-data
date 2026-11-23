@@ -20,8 +20,11 @@ price = "18 gp"
 weight = "2 lbs."
 +++
 
-**Price** 18 gp; **Weight** 2 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 18 gp
+Weight: 2 lbs.
+Category: Mounts/Pets
+:::
 
 This Tiny, short-winged raptor is a popular hunting bird, but is utilized more often by lower
 nobility than by commoners without titles. Hawks are known for their sharp eyesight and powerful

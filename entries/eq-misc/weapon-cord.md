@@ -23,8 +23,11 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Weapon cords are 2-foot-long leather straps that attach your weapon to your wrist. If you drop your
 weapon or are disarmed, you can recover it as a move action, and it never moves any farther away

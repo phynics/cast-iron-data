@@ -17,8 +17,11 @@ price = "410 gp"
 weight = "-"
 +++
 
-**Price** 410 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 410 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Chewing this gummy substance grants you 1d4 uses of
 [alchemical inspiration](ref/misc/alchemical-inspiration) that can be used only on Charisma-based

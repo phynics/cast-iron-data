@@ -17,8 +17,11 @@ price = "4 cp"
 weight = "9 oz."
 +++
 
-**Price** 4 cp; **Weight** 9 oz.\
-**Category** Mounts/Pets
+::: statblock
+Price: 4 cp
+Weight: 9 oz.
+Category: Mounts/Pets
+:::
 
 These Diminutive birds usually have bright feathers and sing pleasantly. More pragmatically, they
 are also used in mines to detect bad air, as their small bodies are more sensitive to such things;

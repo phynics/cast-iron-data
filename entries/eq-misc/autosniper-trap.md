@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "1 lb."
 +++
 
-**Price** 250 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 250 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This framework consists of a small tripod, a spool of wire, and a series of levels. As part of the
 action to set up the trap, the autosniper is attached to any Small or Medium crossbow and its wire

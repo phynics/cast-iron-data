@@ -16,8 +16,11 @@ category = "Miscellaneous Equipment"
 price = "varies"
 +++
 
-**Price** varies; **Price of Passage** (per mile) varies\
-**Category** Transport, Land
+::: statblock
+Price: varies
+Price of Passage: (per mile) varies
+Category: Transport, Land
+:::
 
 A smuggler's wagon functions in most respects exactly like an ordinary wagon, except it contains
 hidden compartments that allow for cargo to be transported in secret. The price of a smuggler's

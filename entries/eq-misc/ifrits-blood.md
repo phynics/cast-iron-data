@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 [Ifrit](ref/race/ifrit) [alchemists](ref/class/alchemist) claim to make this thick red oil from
 their own blood - hence the morbid name - but this claim is almost certainly false. Ifrit's blood

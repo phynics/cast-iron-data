@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "-"
 +++
 
-**Price** 60 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 60 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This flaky brown powder derived from [rust monster](ref/monster/rust-monster) fluids causes iron and
 similar metals to corrode and fall apart. If you apply a dose of rusting powder to a metal lock or

@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "10 lbs."
 +++
 
-**Price** 75 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 75 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This is the most frequently published book in Druma. It details the
 [extremely strict](ref/rule/f-profits) dietary, sexual, and clothing restrictions followers must

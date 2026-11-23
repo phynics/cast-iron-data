@@ -19,7 +19,10 @@ weight = "2 oz. (common), 4 oz. (Nex gecko)"
 
 ## Lizard
 
-**Price** 5 cp (common), 12 gp (Nex gecko); **Weight** 2 oz. (common), 4 oz. (Nex gecko)
+::: statblock
+Price: 5 cp (common), 12 gp (Nex gecko)
+Weight: 2 oz. (common), 4 oz. (Nex gecko)
+:::
 
 These Tiny cold-blooded animals can be found in all warm regions and are often quite colorful. They
 eat insects and have the ability to walk up walls and hang upside down. Varieties of more

@@ -20,7 +20,10 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This is a blank, lightweight book with an oilskin cover. It has 50 paper pages.

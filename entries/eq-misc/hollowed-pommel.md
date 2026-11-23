@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Depending on the weapon, a hollow pommel may hold something as large as a flask or as small as a
 rolled piece of paper. Detecting a hollow pommel requires a DC 15 Perception check.

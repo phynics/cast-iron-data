@@ -19,8 +19,10 @@ weight = "50 lbs. (combat trained), 50 lbs. (common)"
 
 ## Riding rat
 
-**Price** 75 gp (combat trained), 50 gp (common); **Weight** 50 lbs. (combat trained), 50 lbs.
-(common)
+::: statblock
+Price: 75 gp (combat trained), 50 gp (common)
+Weight: 50 lbs. (combat trained), 50 lbs. (common)
+:::
 
 Horses, ponies, and other draft animals are ill-suited to living underground for long stretches, so
 the [ratfolk](ref/race/ratfolk) bred a particularly strong type of dire rat to assist in pulling

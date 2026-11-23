@@ -20,8 +20,11 @@ price = "3 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 3 sp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 3 sp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This is a chunk of meat big enough to be a meal. In most temperate locations, it is meat from a fish
 (or other seafood), pig (bacon, ham, or pork), sheep (lamb or mutton), chicken, quail, duck, goose,

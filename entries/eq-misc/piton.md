@@ -20,7 +20,10 @@ price = "1 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 A piton is an iron spike with a loop or ring on the end so you can tie a rope to it.

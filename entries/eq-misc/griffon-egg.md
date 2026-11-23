@@ -17,8 +17,11 @@ price = "3,500 gp"
 weight = "10 lbs."
 +++
 
-**Price** 3,500 gp; **Weight** 10 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 3,500 gp
+Weight: 10 lbs.
+Category: Mounts/Pets
+:::
 
 Unscrupulous adventurers and the desperate sometimes steal eggs from griffon nests, as trainers find
 it easier to raise a griffon from a hatchling than trying to train a spirited adult.

@@ -20,8 +20,11 @@ price = "52 gp"
 weight = "25 lbs."
 +++
 
-**Price** 52 gp; **Weight** 25 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 52 gp
+Weight: 25 lbs.
+Category: Adventuring Gear
+:::
 
 These chests are typically used by smugglers transporting contraband or those with treasures they
 would prefer to keep hidden. The secret compartment in this chest is approximately 1 inch deep.

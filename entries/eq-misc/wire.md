@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This 6-foot length of copper wire is strong and flexible. By attaching it to two
 [pitons](ref/eq-misc/piton) or [iron spikes](ref/eq-misc/iron-spike) across an area, you can create

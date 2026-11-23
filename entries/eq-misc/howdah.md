@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "250 lbs."
 +++
 
-**Price** 500 gp; **Weight** 250 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 500 gp
+Weight: 250 lbs.
+Category: Animal Gear
+:::
 
 This wooden platform is tied like a saddle to a Huge creature's back. The platform is 10 feet square
 and enclosed by a low wall and sometimes a roof. The howdah has room for four Medium creatures

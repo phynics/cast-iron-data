@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "15 lbs."
 +++
 
-**Price** 20 gp; **Weight** 15 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 15 lbs.
+Category: Adventuring Gear
+:::
 
 A hanging tent is a [small tent](ref/eq-misc/tent-small) (able to comfortably house a single Medium
 creature) with a teardrop shape, which hangs from a sturdy anchor rope. The rope can be tied to a

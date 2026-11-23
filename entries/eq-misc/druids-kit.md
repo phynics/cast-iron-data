@@ -17,8 +17,11 @@ price = "14 gp"
 weight = "44 lbs."
 +++
 
-**Price** 14 gp; **Weight** 44 lbs.\
-**Category** Kits
+::: statblock
+Price: 14 gp
+Weight: 44 lbs.
+Category: Kits
+:::
 
 This includes [animal feed](ref/eq-misc/feed-per-day) (5 days), a [backpack](ref/eq-misc/backpack),
 a [belt pouch](ref/eq-misc/belt-pouch), a [blanket](ref/eq-misc/blanket), a

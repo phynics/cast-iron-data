@@ -17,10 +17,15 @@ price = "2,000 gp"
 weight = "-"
 +++
 
-**Price** 2,000 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 30; **Yield** 1 dose\
-**Terrain** anywhere the boundaries between the Material Plane and the Dimension of Dreams grow thin\
+::: statblock
+Price: 2,000 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 30
+Yield: 1 dose
+Terrain: anywhere the boundaries between the Material Plane and the Dimension of Dreams grow thin
+:::
+
 **Preparation** The fibrous outer layer of the lichen must be gently scrubbed away, exposing the
 soft interior, which must then be allowed to dry after being sprinkled with various alchemical
 powders. This requires a successful DC 25 Craft (alchemy) check and 8 hours of work.\

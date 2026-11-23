@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Food/Drink
+:::
 
 Honey collectors harvest the immense combs created by the giant bees in the foothills of
 Pol-Ptirmeios. Local confectioners ferment this honey for several weeks before mixing it with flour

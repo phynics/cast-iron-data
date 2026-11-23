@@ -17,8 +17,11 @@ price = "7 sp"
 weight = "-"
 +++
 
-**Price** 7 sp; **Weight** -\
-**Category** Lodging/Services
+::: statblock
+Price: 7 sp
+Weight: -
+Category: Lodging/Services
+:::
 
 A nurse is a person familiar with healing and medicine. A typical nurse is a 1st-level expert with 1
 rank in [Heal](ref/skill/heal) and the [Skill Focus](ref/feat/skill-focus) (Heal) feat. An

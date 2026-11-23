@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "2 lbs."
 +++
 
-**Price** 10 gp; **Weight** 2 lbs.\
-**Category** Food/Drink
+::: statblock
+Price: 10 gp
+Weight: 2 lbs.
+Category: Food/Drink
+:::
 
 This clear alcoholic beverage, distilled from sorghum, is extremely potent, and is often regarded as
 an acquired taste due to its corrosive flavor.

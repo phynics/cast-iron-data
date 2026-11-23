@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "-"
 +++
 
-**Price** 45 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 45 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This thick syrup is extracted from bitter herbs and enhanced by alchemy to ward against sleep,
 paralysis, and the [staggered](ref/misc/staggered) condition. If you drink twitch tonic, you gain a

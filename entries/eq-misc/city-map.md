@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This map aids in navigating a single city. You can consult the map for 1 minute to gain a +2 bonus
 when attempting a Knowledge (local) check to identify a location in that city (and can attempt

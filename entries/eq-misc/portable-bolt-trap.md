@@ -17,8 +17,11 @@ price = "125 gp"
 weight = "9 lbs."
 +++
 
-**Price** 125 gp; **Weight** 9 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 125 gp
+Weight: 9 lbs.
+Category: Adventuring Gear
+:::
 
 This specialized [heavy crossbow](ref/eq-weapon/heavy-crossbow) is hooked to a trip line that can be
 strung across any opening up to 10 feet wide, much like that of a

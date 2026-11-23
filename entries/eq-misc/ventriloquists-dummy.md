@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "7 lbs."
 +++
 
-**Price** 100 gp; **Weight** 7 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 100 gp
+Weight: 7 lbs.
+Category: Adventuring Gear
+:::
 
 A ventriloquist's dummy is made of finely sculpted and painted wood, shaped and dressed like a
 typical humanoid, and sized at roughly 2 feet. An insert in the back of the dummy allows a Small or

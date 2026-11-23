@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This delicate needle is attached to fine springs and a small reservoir that contracts on itself when
 the trap is disturbed or grabbed, turning a minor prick into a painful injection. This trap is

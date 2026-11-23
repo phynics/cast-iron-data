@@ -25,8 +25,11 @@ weight = "8 lbs."
 
 ## Explorer's outfit
 
-**Price** 10 gp; **Weight** 8 lbs.\
-**Category** Clothing
+::: statblock
+Price: 10 gp
+Weight: 8 lbs.
+Category: Clothing
+:::
 
 This set of clothes is for someone who never knows what to expect. It includes sturdy boots, leather
 breeches or a skirt, a belt, a shirt (perhaps with a vest or jacket), gloves, and a cloak. Rather

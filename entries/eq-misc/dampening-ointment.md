@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 250 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 250 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This pale salve is always cool to the touch, regardless of the surrounding temperature. When spread
 on your skin, it subtly alters your aura, making you more difficult for some creatures to detect.

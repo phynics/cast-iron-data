@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Black Market
+:::
 
 This treated wafer dissolves into a chalky paste when placed under the tongue and then gives the
 imbiber a jolt of restless energy. It eliminates the effects of [fatigue](ref/misc/fatigued) for the

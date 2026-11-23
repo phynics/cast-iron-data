@@ -17,8 +17,11 @@ price = "4 gp"
 weight = "-"
 +++
 
-**Price** 4 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+Price: 4 gp
+Weight: -
+Category: Clothing
+:::
 
 This is an extra pocket sewn on the inside of a piece of clothing. You gain a +2 circumstance bonus
 on Sleight of Hand checks to conceal an item in an inside pocket. Detecting the compartment requires

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "35 lbs."
 +++
 
-**Price** 30 gp; **Weight** 35 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 30 gp
+Weight: 35 lbs.
+Category: Adventuring Gear
+:::
 
 After 5 minutes of assembly and coverage with the included loose hood and baggy clothing, this
 wooden frame looks like a vigilant humanoid figure. Creatures more than 30 feet distant from it must

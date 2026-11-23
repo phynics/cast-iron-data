@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "3 lbs."
 +++
 
-**Price** 20 gp; **Weight** 3 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 3 lbs.
+Category: Adventuring Gear
+:::
 
 This bandolier holds six pouches along its length and a satchel at the hip. Each pouch has a stiff
 leather flap that can be secured against jostling with a clasp (requiring a move action to open or

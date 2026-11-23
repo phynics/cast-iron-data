@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Mounts/Pets
+:::
 
 This tiny jellyfish has a crown roughly 4 inches in diameter, and it glows with bioluminescence as
 brightly as a candle, typically in a blue or green color, but various species allow an array of

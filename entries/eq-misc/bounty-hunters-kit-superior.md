@@ -19,7 +19,10 @@ weight = "15 lbs. (common), 24 lbs. (superior)"
 
 ## Bounty hunter's kit
 
-**Price** 105 gp (common), 380 gp (superior); **Weight** 15 lbs. (common), 24 lbs. (superior)
+::: statblock
+Price: 105 gp (common), 380 gp (superior)
+Weight: 15 lbs. (common), 24 lbs. (superior)
+:::
 
 This kit provides useful tools for bounty hunters. It includes basic maps showing major landmarks,
 [caltrops](ref/eq-misc/caltrops), [common manacles](ref/eq-misc/manacles-common) with an

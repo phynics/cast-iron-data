@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "-"
 +++
 
-**Price** 150 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 150 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 A popular export from the Forest of Oils - a field of massive oil bubbles on the Elemental Plane of
 Water - aquemir is a transparent substance extracted from the skins of autonomous oil orbs and

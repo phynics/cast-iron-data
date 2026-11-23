@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "10 lbs."
 +++
 
-**Price** 30 gp; **Weight** 10 lbs.\
-**Category** Tools
+::: statblock
+Price: 30 gp
+Weight: 10 lbs.
+Category: Tools
+:::
 
 This collection of flexible strips of wood, durable shims, and thin cords allows you to prop open
 the buckles, padding, and plates of armor for easy entry. If you take at least 15 minutes preparing

@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Clothing
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Clothing
+:::
 
 Each of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly
 on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5

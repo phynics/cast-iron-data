@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "2 lbs."
 +++
 
-**Price** 200 gp; **Weight** 2 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: 2 lbs.
+Category: Alchemical Tools
+:::
 
 As a standard action, this ornate rectangular jar can be vigorously shaken to cause its contents to
 mix and activate. Once shaken, the contents of the jar shed light as a [sunrod](ref/eq-misc/sunrod)

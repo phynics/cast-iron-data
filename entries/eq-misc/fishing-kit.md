@@ -17,8 +17,11 @@ price = "5 sp"
 weight = "3 lbs."
 +++
 
-**Price** 5 sp; **Weight** 3 lbs.\
-**Category** Kits
+::: statblock
+Price: 5 sp
+Weight: 3 lbs.
+Category: Kits
+:::
 
 This kit includes a simple fishing pole and a small box that contains fishing tackle (hooks, lines,
 sinkers, floats, and lures).

@@ -17,8 +17,11 @@ price = "1,665 gp"
 weight = "3 lbs."
 +++
 
-**Price** 1,665 gp; **Weight** 3 lbs.\
-**Category** Kits
+::: statblock
+Price: 1,665 gp
+Weight: 3 lbs.
+Category: Kits
+:::
 
 This wooden box contains the tools to interrogate a captive with ease. The kit includes
 [masterwork manacles](ref/eq-misc/manacles-masterwork) with an

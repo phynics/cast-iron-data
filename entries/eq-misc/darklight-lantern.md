@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "3 lbs."
 +++
 
-**Price** 20 gp; **Weight** 3 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 20 gp
+Weight: 3 lbs.
+Category: Alchemical Tools
+:::
 
 This lantern does not burn oil, but instead burns
 [shadowcloy](ref/carried/advanced-race-guide/races/fetchlings/new-racial-rules/fetchling-equipment/shadowcloy).

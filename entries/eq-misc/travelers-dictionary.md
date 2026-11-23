@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 50 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Each of these books references a specific language and has two sections. The first presents a wide
 variety of useful phrases and words in Common (arranged by category) followed by a phonetic

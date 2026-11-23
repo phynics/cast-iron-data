@@ -20,8 +20,11 @@ price = "20 gp"
 weight = "4 lbs."
 +++
 
-**Price** 20 gp; **Weight** 4 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 20 gp
+Weight: 4 lbs.
+Category: Adventuring Gear
+:::
 
 This 2-foot-long metal tube has right angles at each end with mirrors inside; if you look in one
 end, you can see out the other end, allowing you safely peer over obstacles, around corners, or into

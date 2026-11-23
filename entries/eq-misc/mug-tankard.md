@@ -20,8 +20,11 @@ price = "2 cp"
 weight = "1 lb."
 +++
 
-**Price** 2 cp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 cp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 Whether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid
 that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of

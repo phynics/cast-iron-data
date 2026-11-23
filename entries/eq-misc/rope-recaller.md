@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "30 lbs."
 +++
 
-**Price** 250 gp; **Weight** 30 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 250 gp
+Weight: 30 lbs.
+Category: Adventuring Gear
+:::
 
 This large, portable spool of rope or cord contains a clockwork mechanism to reel the rope back in.
 You can unspool the rope from the mechanism at a rate of 30 feet per round. Activating the mechanism

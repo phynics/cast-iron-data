@@ -17,8 +17,11 @@ price = "6 sp"
 weight = "-"
 +++
 
-**Price** 6 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 6 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Underwater pens fill the grooves carved into [underwater paper](ref/eq-misc/paper-underwater-sheet)
 with [ink](ref/eq-misc/ink); as such, they work somewhat like a syringe, drawing ink from a

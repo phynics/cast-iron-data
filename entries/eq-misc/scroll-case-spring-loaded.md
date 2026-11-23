@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1 lb."
 +++
 
-**Price** 5 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This specialized scroll case can hold a single scroll and features a leather strap to hang the case
 from a belt or backpack. Retrieving the scroll held within is a swift action. Preparing the case for

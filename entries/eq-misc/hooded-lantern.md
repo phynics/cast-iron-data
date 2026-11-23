@@ -23,8 +23,11 @@ price = "7 gp (normal), 12 gp (waterproof)"
 weight = "2 lbs."
 +++
 
-**Price** 7 gp (normal), 12 gp (waterproof); **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 7 gp (normal), 12 gp (waterproof)
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A hooded lantern sheds normal light in a 30-foot radius and increases the
 [light level](ref/rule/vision-and-light) by one step for an additional 30 feet beyond that area

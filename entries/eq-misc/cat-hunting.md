@@ -17,7 +17,10 @@ price = "100 gp"
 weight = "100 lbs."
 +++
 
-**Price** 100 gp; **Weight** 100 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 100 gp
+Weight: 100 lbs.
+Category: Mounts/Pets
+:::
 
 Rarely, Medium cats such as cheetahs and leopards are trained to hunt for humanoid masters.

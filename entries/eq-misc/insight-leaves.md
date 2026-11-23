@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 You steep these herbs in hot water, then drink the resulting tisane while it's still warm before
 going to bed. While you sleep, you experience vivid hallucinations that offer insight into matters

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 These alchemically prepared fungal spores are suspended in a thick green ichor. They grow in
 patterns that match any plant or fungal material they touch, even dead wood, causing any cuts or

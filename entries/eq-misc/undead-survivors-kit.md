@@ -17,8 +17,11 @@ price = "900 gp"
 weight = "3 lbs."
 +++
 
-**Price** 900 gp; **Weight** 3 lbs.\
-**Category** Kits
+::: statblock
+Price: 900 gp
+Weight: 3 lbs.
+Category: Kits
+:::
 
 Although this sturdy leather bandolier contains a few items to help combat undead foes, its primary
 purpose is to supply the right tools to recover from an undead attack and escape. This kit includes

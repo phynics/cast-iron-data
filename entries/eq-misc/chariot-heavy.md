@@ -18,9 +18,11 @@ price = "200 gp (heavy), 50 gp (light), 100 gp (medium)"
 
 ## Chariot
 
-**Price** 200 gp (heavy), 50 gp (light), 100 gp (medium); **Price of Passage** 2 cp (heavy), 2 cp
-(light), 2 cp (medium)\
-**Category** Transport, Land
+::: statblock
+Price: 200 gp (heavy), 50 gp (light), 100 gp (medium)
+Price of Passage: 2 cp (heavy), 2 cp (light), 2 cp (medium)
+Category: Transport, Land
+:::
 
 This two-wheeled vehicle is drawn by a horse. There are three varieties of chariots.
 

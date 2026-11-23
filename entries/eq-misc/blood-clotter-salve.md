@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Applying this herbal salve to a [bleeding](ref/rule/bleed) wound cures 1 point of damage and
 prevents additional damage from bleeding for 1 hour per application. After an hour, if the bleed

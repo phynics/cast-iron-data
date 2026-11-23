@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 30 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 30 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This chunk of crystal shines with the colors of the rainbow. A prismatic crystal can be used as a
 focus for the [read aura](ref/skill/perception) occult skill unlock to reduce the time needed to

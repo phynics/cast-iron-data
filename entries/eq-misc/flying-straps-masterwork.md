@@ -19,7 +19,10 @@ weight = "10 lbs. (masterwork), 10 lbs. (standard)"
 
 ## Flying straps
 
-**Price** 80 gp (masterwork), 10 gp (standard); **Weight** 10 lbs. (masterwork), 10 lbs. (standard)
+::: statblock
+Price: 80 gp (masterwork), 10 gp (standard)
+Weight: 10 lbs. (masterwork), 10 lbs. (standard)
+:::
 
 These crude straps are used to secure a goblin or other small creature to the underside of a dire
 bat or giant vulture. These straps count as an exotic riding saddle. If the mount fails a Fly check,

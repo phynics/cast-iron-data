@@ -20,8 +20,11 @@ price = "5 cp"
 weight = "10 lbs."
 +++
 
-**Price** 5 cp; **Weight** 10 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 5 cp
+Weight: 10 lbs.
+Category: Animal Gear
+:::
 
 Horses, donkeys, mules, and ponies can graze in some regions to sustain themselves, but feed
 provides more reliable nourishment. Riding dogs and other carnivores can be fed meat for the same

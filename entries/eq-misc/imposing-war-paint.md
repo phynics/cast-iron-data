@@ -17,8 +17,11 @@ price = "70 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 70 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 70 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This gritty red paste makes you appear as if you were covered in dried blood. When you apply
 imposing war paint as a full-round action, you gain a +4 alchemical bonus on Intimidate checks and

@@ -19,8 +19,11 @@ weight = "-"
 
 ## Dragon Punch Whiskey
 
-**Price** 10 gp/cup; **Weight** -\
-**Category** Food/Drink
+::: statblock
+Price: 10 gp/cup
+Weight: -
+Category: Food/Drink
+:::
 
 Non-halflings do not receive any bonus from this drink. According to legend, the inventor of this
 dark and harsh liquor actually did attack a dragon bare handed (and presumably lived to pass on the

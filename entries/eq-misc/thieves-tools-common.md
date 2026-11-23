@@ -22,7 +22,10 @@ weight = "1 lb. (common), 2 lbs. (masterwork)"
 
 ## Thieves' tools
 
-**Price** 30 gp (common), 100 gp (masterwork); **Weight** 1 lb. (common), 2 lbs. (masterwork)
+::: statblock
+Price: 30 gp (common), 100 gp (masterwork)
+Weight: 1 lb. (common), 2 lbs. (masterwork)
+:::
 
 This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these
 tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device

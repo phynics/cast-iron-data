@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "26 lbs."
 +++
 
-**Price** 15 gp; **Weight** 26 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 15 gp
+Weight: 26 lbs.
+Category: Animal Gear
+:::
 
 This kit includes a [dandy brush](ref/eq-misc/dandy-brush),
 [training harness](ref/eq-misc/training-harness), [training whip](ref/eq-misc/whip-training),

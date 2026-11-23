@@ -19,7 +19,10 @@ weight = "- (common), - (masterwork)"
 
 ## Snorkel
 
-**Price** 5 sp (common), 5 gp (masterwork); **Weight** - (common), - (masterwork)
+::: statblock
+Price: 5 sp (common), 5 gp (masterwork)
+Weight: - (common), - (masterwork)
+:::
 
 This waterproof wooden tube has a curved end with a mouthpiece. When you hold the mouthpiece in your
 mouth, the tube extends past your face and toward the back of your head, allowing you to breathe

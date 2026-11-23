@@ -25,8 +25,11 @@ weight = "4 lbs."
 
 ## Hot weather outfit
 
-**Price** 8 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 8 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 Covering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to
 the sun. This outfit typically consists of a loose linen robe and either a turban or loose head

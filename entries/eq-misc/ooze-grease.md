@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This alchemical concoction can be spread over a Medium or Small creature's body as a full-round
 action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a

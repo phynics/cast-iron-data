@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "6 lbs."
 +++
 
-**Price** 15 gp; **Weight** 6 lbs.\
-**Category** Tools
+::: statblock
+Price: 15 gp
+Weight: 6 lbs.
+Category: Tools
+:::
 
 These polished wooden slats enable the wearer to glide across level snowy surfaces at his full
 speed. His speed is halved when moving up a snowy slope, but he may run or charge downhill on gentle

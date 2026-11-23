@@ -17,8 +17,11 @@ price = "2,500 gp"
 weight = "-"
 +++
 
-**Price** 2,500 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 2,500 gp
+Weight: -
+Category: Black Market
+:::
 
 This white sea-bird feather is millennia old and coated with a thin, resinous substance that has
 rendered the feather as rigid as steel. When the feather is rubbed or struck, its barbs jangle

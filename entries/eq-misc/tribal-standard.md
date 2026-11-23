@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "20 lbs."
 +++
 
-**Price** 50 gp; **Weight** 20 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 20 lbs.
+Category: Tools
+:::
 
 Mounted on a sturdy 15-foot pole, this flag inspires all orcs belonging to the tribe it represents.
 As long as they are within 60 feet and can see the standard, they gain a +1 morale bonus on saving

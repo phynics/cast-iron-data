@@ -20,7 +20,10 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This handbell can produce only one loud note.

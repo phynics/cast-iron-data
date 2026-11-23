@@ -20,8 +20,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 When you burn this powerful resin, it fills eight contiguous 10-foot cubes with faint smoke that
 persists for 8 hours. Creatures resting or receiving long-term care in the smoke from curative myrrh

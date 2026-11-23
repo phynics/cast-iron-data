@@ -20,8 +20,11 @@ price = "3 cp"
 weight = "1-1/2 lbs."
 +++
 
-**Price** 3 cp; **Weight** 1-1/2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 cp
+Weight: 1-1/2 lbs.
+Category: Adventuring Gear
+:::
 
 This glass bottle holds 1 pint. It is relatively fragile and breaks if thrown at a creature or hard
 surface. Flasks may be simple blown glass, or they may be elaborate affairs embossed with family

@@ -23,8 +23,11 @@ price = "5 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 Handheld magnets are relatively weak and are mainly used to detect or pull iron, mithral, or
 adamantine at a short range. They are not powerful enough to tug metal over significant distances or

@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "2 lbs."
 +++
 
-**Price** 150 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This clay container resembles a [fuse grenade](ref/eq-weapon/fuse-grenade), but trails a pulley and
 wire rather than a fuse. Pulling the cord (a move action) sparks a

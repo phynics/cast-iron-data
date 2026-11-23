@@ -17,10 +17,15 @@ price = "160 gp"
 weight = "-"
 +++
 
-**Price** 160 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 19; **Yield** 1 dose\
-**Terrain** any underground\
+::: statblock
+Price: 160 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 19
+Yield: 1 dose
+Terrain: any underground
+:::
+
 **Preparation** After collecting this rare slime mold from where it naturally occurs in the
 lightless depths, the herbalist must combine the slime with mineral salts and store it in an
 airtight container such as a bottle or jar.\

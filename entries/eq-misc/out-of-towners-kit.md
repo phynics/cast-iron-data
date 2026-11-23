@@ -17,8 +17,11 @@ price = "55 gp"
 weight = "1 lb."
 +++
 
-**Price** 55 gp; **Weight** 1 lb.\
-**Category** Kits
+::: statblock
+Price: 55 gp
+Weight: 1 lb.
+Category: Kits
+:::
 
 This bundle is often given to operatives sent to new cities to help them operate as easily as
 locals. This kit includes a [blue book](ref/eq-misc/blue-book), a [city map](ref/eq-misc/city-map),

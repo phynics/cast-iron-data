@@ -20,8 +20,11 @@ price = "2-20 gp"
 weight = "150 lbs."
 +++
 
-**Price** 2-20 gp; **Weight** 150 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 2-20 gp
+Weight: 150 lbs.
+Category: Mounts/Pets
+:::
 
 These livestock animals are kept for their fur, meat, and hide, and can be found in virtually any
 civilized settlement. They are especially prized in colder environs, where their wool and hide can

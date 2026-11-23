@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "3 lbs."
 +++
 
-**Price** 500 gp; **Weight** 3 lbs.\
-**Category** Clothing
+::: statblock
+Price: 500 gp
+Weight: 3 lbs.
+Category: Clothing
+:::
 
 Embroidered with sapphires, this blue sash stands out in stark contrast to the fiery tones of the
 City of Brass. Emissary's sashes mark contacts whose business necessitates visiting the Noble and

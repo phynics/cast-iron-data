@@ -17,8 +17,11 @@ price = "45 gp"
 weight = "2 lbs."
 +++
 
-**Price** 45 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 45 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This stuffed badger - a well-loved and legally protected animal in Absalom - is realistic enough to
 fool most other animals into thinking it is real. As a move action, a wielder can use a free hand to

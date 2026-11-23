@@ -19,7 +19,10 @@ weight = "10 lbs. (common), 15 lbs. (masterwork)"
 
 ## Iron mask
 
-**Price** 75 gp (common), 150 gp (masterwork); **Weight** 10 lbs. (common), 15 lbs. (masterwork)
+::: statblock
+Price: 75 gp (common), 150 gp (masterwork)
+Weight: 10 lbs. (common), 15 lbs. (masterwork)
+:::
 
 This plain but heavy iron helmet covers the entire head and fastens around the neck and shoulders.
 The wearer becomes difficult to identify, as the mask obscures all facial features. A creature

@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Concoctions
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Concoctions
+:::
 
 This sugary blue drink, often cut with mint to reduce the cloying sweetness, brightens your demeanor
 and sweetens your voice, granting a +2 alchemical bonus on Diplomacy checks. It renders you naive

@@ -22,8 +22,10 @@ weight = "- (average), - (good), - (simple), - (superior)"
 
 ## Invisible ink
 
-**Price** 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior); **Weight** - (average), -
-(good), - (simple), - (superior)
+::: statblock
+Price: 10 gp (average), 25 gp (good), 2 gp (simple), 75 gp (superior)
+Weight: - (average), - (good), - (simple), - (superior)
+:::
 
 Invisible ink is a staple of spies, rebels, and secret societies everywhere. Messages written with
 invisible ink only become visible under specific circumstances. Revealing the secret message with

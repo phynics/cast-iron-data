@@ -28,8 +28,11 @@ weight = "7 lbs."
 
 ## Cold-weather outfit
 
-**Price** 8 gp; **Weight** 7 lbs.\
-**Category** Clothing
+::: statblock
+Price: 8 gp
+Weight: 7 lbs.
+Category: Clothing
+:::
 
 This outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a
 coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants,

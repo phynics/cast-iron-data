@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1 lb."
 +++
 
-**Price** 15 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 15 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This sticky light blue paste grows pleasantly cool to the touch whenever it is exposed to light.
 Spreading a dose on your face and hands takes a full-round action and grants you a +2 alchemical

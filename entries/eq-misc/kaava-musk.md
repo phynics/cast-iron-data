@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 40 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This emerald-colored adhesive is made from animal glands, urine, and other powerful scents that are
 difficult to wash off. A target splashed with it smells like weak prey to predators. Creatures with

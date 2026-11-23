@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "-"
 +++
 
-**Price** 75 gp; **Weight** -\
-**Category** Tools
+::: statblock
+Price: 75 gp
+Weight: -
+Category: Tools
+:::
 
 This heart-shaped locket is attached to a thin metal chain made of looped strands of gold or silver.
 Inside the locket is a small, spring-loaded vial that can hold a single dose of powdered poison.

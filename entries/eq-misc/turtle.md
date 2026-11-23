@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "4 lbs."
 +++
 
-**Price** 3 gp; **Weight** 4 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 3 gp
+Weight: 4 lbs.
+Category: Mounts/Pets
+:::
 
 These reptiles have bony shells that they can retreat into. They are sometimes kept as pets and used
 as familiars, and in some places their flesh is eaten or used as an ingredient in medicines.

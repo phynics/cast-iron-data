@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "2 lbs."
 +++
 
-**Price** 150 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 150 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 This wooden box contains a simple anemometer and three tubes filled with alchemical fluids that
 expand and contract with changes in air temperature, humidity, and pressure. A forecast station

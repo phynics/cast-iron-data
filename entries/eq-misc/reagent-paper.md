@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This slip of paper can aid in the identifying of liquids. Its color changes in accordance to basic
 traits such as acidity, salinity, or magic. This confers a +2 alchemical bonus on any Craft

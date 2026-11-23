@@ -17,8 +17,11 @@ price = "10-100gp"
 weight = "1 lb."
 +++
 
-**Price** 10-100gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 10-100gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 This high conical headpiece ends in a tip that usually has a piece of silk or similar diaphanous
 material dangling from it. Women of noble birth sometimes wear a hennin to formal or social

@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "2 lbs."
 +++
 
-**Price** 2 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 Cold iron caltrops function in all ways as ordinary [caltrops](ref/eq-misc/caltrops) except that
 they are made of cold iron, and affect creatures with DR/cold iron accordingly.

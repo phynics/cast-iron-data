@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 30 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 30 gp
+Weight: 1/2 lb.
+Category: Alchemical Remedies
+:::
 
 When first opened, this sealed jar releases such an overwhelmingly antiseptic odor that it covers
 other smells until it disperses (1d6 rounds after opening). Creatures within 20 feet of the jar get

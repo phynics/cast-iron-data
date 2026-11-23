@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 75 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 75 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This specialized magnet straps onto a gauntlet and is powerful enough to attract metal even through
 leather or cloth. A gauntlet magnet provides a +2 bonus to your CMD against

@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "-"
 +++
 
-**Price** 2 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 This small metallic device resembles a crab's claw. When the item is pinched and released, friction
 on the claw's inner surface creates a loud clicking noise that carries up to a half mile underwater.

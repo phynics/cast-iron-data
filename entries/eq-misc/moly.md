@@ -17,10 +17,15 @@ price = "1,200 gp"
 weight = "-"
 +++
 
-**Price** 1,200 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 25; **Yield** 1 dose\
-**Terrain** any forests or plains\
+::: statblock
+Price: 1,200 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 25
+Yield: 1 dose
+Terrain: any forests or plains
+:::
+
 **Preparation** This flowering herb must be picked whole and boiled with water until the entire
 amount is reduced by half. The resulting mixture is then strained and poured into a shallow pan to
 evaporate. The resulting crust is scraped off as a powder.\

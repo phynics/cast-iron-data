@@ -19,7 +19,10 @@ weight = "1 lb. (vest), 2 lbs. (vestment)"
 
 ## Subversive vest
 
-**Price** 45 gp (vest), 90 gp (vestment); **Weight** 1 lb. (vest), 2 lbs. (vestment)
+::: statblock
+Price: 45 gp (vest), 90 gp (vestment)
+Weight: 1 lb. (vest), 2 lbs. (vestment)
+:::
 
 Subversive vests are tailored to the pinnacle of courtly fashion, yet have strategically placed
 compartments for hiding [thieves' tools](ref/eq-misc/thieves-tools). You gain a +2 circumstance

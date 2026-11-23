@@ -19,7 +19,10 @@ weight = "2 lbs. (common), 2 lbs. (masterwork)"
 
 ## Ear trumpet
 
-**Price** 25 gp (common), 100 gp (masterwork); **Weight** 2 lbs. (common), 2 lbs. (masterwork)
+::: statblock
+Price: 25 gp (common), 100 gp (masterwork)
+Weight: 2 lbs. (common), 2 lbs. (masterwork)
+:::
 
 This foot-long brass funnel amplifies sounds entering through the broad end for anyone listening at
 the narrow end. The listener gains a +2 circumstance bonus on sound-based Perception checks but must

@@ -22,8 +22,10 @@ weight = "8 lbs. (common), 8 lbs. (Osirian wise-eye)"
 
 ## Cat
 
-**Price** 3 cp (common), 6 gp (Osirian wise-eye); **Weight** 8 lbs. (common), 8 lbs. (Osirian
-wise-eye)
+::: statblock
+Price: 3 cp (common), 6 gp (Osirian wise-eye)
+Weight: 8 lbs. (common), 8 lbs. (Osirian wise-eye)
+:::
 
 These Tiny animals are often kept as pets or familiars. Though small, they are excellent hunters.
 Grain farmers usually keep cats for pest control in crop storage areas, but cats can be found in

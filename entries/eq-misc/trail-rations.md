@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "1 lb."
 +++
 
-**Price** 5 sp; **Weight** 1 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 5 sp
+Weight: 1 lb.
+Category: Food/Drink
+:::
 
 The listed price is for a day's worth of food. This bland food is usually some kind of hard tack,
 jerky, and dried fruit, though the contents vary from region to region and the race of those

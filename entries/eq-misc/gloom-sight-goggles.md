@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 These nonmagical goggles are set with a piece of alchemically treated, black, obsidian-like stone
 found in the mountainous regions of the Shadow Plane. Gloom sight goggles interact with the unique

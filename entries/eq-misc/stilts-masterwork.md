@@ -19,7 +19,10 @@ weight = "10 lbs. (common), 10 lbs. (masterwork)"
 
 ## Stilts
 
-**Price** 2 sp (common), 5 gp (masterwork); **Weight** 10 lbs. (common), 10 lbs. (masterwork)
+::: statblock
+Price: 2 sp (common), 5 gp (masterwork)
+Weight: 10 lbs. (common), 10 lbs. (masterwork)
+:::
 
 This item consists of a pair of wooden poles with a footrest halfway up. By standing on the
 footrests and holding the tops of the poles you can avoid certain ground-based threats to your feet.

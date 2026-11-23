@@ -22,8 +22,11 @@ weight = "2 lbs."
 
 ## Miner's lantern
 
-**Price** 15 gp (normal), 20 gp (waterproof); **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 15 gp (normal), 20 gp (waterproof)
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 A smaller version of the [bullseye lantern](ref/eq-misc/bullseye-lantern), a miner's lantern
 provides normal light in a 30-foot cone and increases the [light level](ref/rule/vision-and-light)

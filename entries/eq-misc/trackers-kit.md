@@ -17,8 +17,11 @@ price = "563 gp"
 weight = "33 lbs."
 +++
 
-**Price** 563 gp; **Weight** 33 lbs.\
-**Category** Kits
+::: statblock
+Price: 563 gp
+Weight: 33 lbs.
+Category: Kits
+:::
 
 The exact location of a dragon's lair must sometimes be learned through exploration. This kit
 provides tools helpful in tracking a dragon back to its lair and includes an area map, a

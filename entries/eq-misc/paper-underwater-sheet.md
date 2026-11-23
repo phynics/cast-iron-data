@@ -17,8 +17,11 @@ price = "6 sp"
 weight = "-"
 +++
 
-**Price** 6 sp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 6 sp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Not all underwater creatures use sight as their primary means of reading text, so underwater paper
 is significantly thicker than surface paper, allowing the writer to carve the letters into the

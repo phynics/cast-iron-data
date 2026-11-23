@@ -22,7 +22,10 @@ weight = "5 lbs. (common), 5 lbs. (masterwork)"
 
 ## Artisan's tools
 
-**Price** 5 gp (common), 55 gp (masterwork); **Weight** 5 lbs. (common), 5 lbs. (masterwork)
+::: statblock
+Price: 5 gp (common), 55 gp (masterwork)
+Weight: 5 lbs. (common), 5 lbs. (masterwork)
+:::
 
 These special tools include the items needed to pursue any single craft. Without them, you have to
 use improvised tools (-2 penalty on Craft checks), if you can do the job at all.

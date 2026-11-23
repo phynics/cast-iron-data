@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Entertainment
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Entertainment
+:::
 
 Each book contains 10 puzzles made to test the mind and stir the intellect. Solving a single puzzle
 requires at least an hour and a successful DC 10 Intelligence check, though every 5 points by which

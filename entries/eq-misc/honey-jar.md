@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 1 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 1 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This golden liquid is used as a sweetener. It naturally resists spoilage, and if stored in a sealed
 wooden, glass, or ceramic container it can be used to preserve fruit, nuts, meat, or even leather

@@ -20,8 +20,11 @@ price = "10 gp"
 weight = "20 lbs."
 +++
 
-**Price** 10 gp; **Weight** 20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 20 lbs.
+Category: Adventuring Gear
+:::
 
 This iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks made to break open a
 door and allows a second person to help, automatically increasing your bonus by +2.

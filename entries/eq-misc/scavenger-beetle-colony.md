@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "1 lb."
 +++
 
-**Price** 3 gp; **Weight** 1 lb.\
-**Category** Mounts/Pets
+::: statblock
+Price: 3 gp
+Weight: 1 lb.
+Category: Mounts/Pets
+:::
 
 This glass jar contains a colony of carnivorous scavenger beetles. The beetles must be fed at least
 a quarter pound of meat per day or they die. When released on a dead organism, they break it down

@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 The tiny compartment in the thick bottom of this cup is an excellent place to store a small item or
 substance. The most insidious are designed with a weighted catch that opens when the cup is tilted

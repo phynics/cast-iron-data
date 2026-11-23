@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "2 lbs."
 +++
 
-**Price** 1 gp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 1 gp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 Usually composed of an inflated animal bladder sealed with pitch, a held flotation device adds a +1
 circumstance bonus on Swim checks.

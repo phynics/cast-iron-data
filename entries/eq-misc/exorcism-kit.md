@@ -17,8 +17,11 @@ price = "950 gp"
 weight = "44 lbs."
 +++
 
-**Price** 950 gp; **Weight** 44 lbs.\
-**Category** Kits
+::: statblock
+Price: 950 gp
+Weight: 44 lbs.
+Category: Kits
+:::
 
 This reinforced wooden box bears the [symbol](ref/eq-misc/holy-symbol) of a specific good-aligned
 deity, which the buyer may stipulate at the time of purchase. The kit contains 1 dose of

@@ -17,8 +17,11 @@ price = "500 gp"
 weight = "300 lbs."
 +++
 
-**Price** 500 gp; **Weight** 300 lbs.\
-**Category** Torture Implements
+::: statblock
+Price: 500 gp
+Weight: 300 lbs.
+Category: Torture Implements
+:::
 
 These dreadful devices are large, stylized iron coffins lined with sharp spikes used to torture and
 execute unfortunate victims. When a Small or Medium creature is forced within the iron maiden and

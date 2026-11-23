@@ -18,8 +18,11 @@ price = "100 gp"
 
 ## Sleigh
 
-**Price** 100 gp; **Price of Passage** (per mile) 2 cp\
-**Category** Transport, Land
+::: statblock
+Price: 100 gp
+Price of Passage: (per mile) 2 cp
+Category: Transport, Land
+:::
 
 This wagon has runners, making it an ideal conveyance for snow and ice travel. In general, two
 horses (or other beasts of burden) are needed to draw it. A sled comes with the

@@ -20,8 +20,11 @@ price = "1 cp"
 weight = "-"
 +++
 
-**Price** 1 cp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 cp
+Weight: -
+Category: Adventuring Gear
+:::
 
 A candle dimly illuminates a small area, increasing the [light level](ref/rule/vision-and-light) in
 a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A

@@ -17,8 +17,11 @@ price = "190 gp"
 weight = "-"
 +++
 
-**Price** 190 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 190 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 By drinking this clear, fizzy liquid, you gain 1d4 uses of
 [alchemical inspiration](ref/misc/alchemical-inspiration) that can be used only on Sense Motive

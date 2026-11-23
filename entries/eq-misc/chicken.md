@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "6 lbs."
 +++
 
-**Price** 1 gp; **Weight** 6 lbs.\
-**Category** Mounts/Pets
+::: statblock
+Price: 1 gp
+Weight: 6 lbs.
+Category: Mounts/Pets
+:::
 
 These domesticated birds are not capable of long distance flights, and are raised for their eggs and
 meat. Male chickens are kept for mating and occasionally blood sport.

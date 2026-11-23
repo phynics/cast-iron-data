@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 150 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 For some unknown reason, this finely crafted but mundane monkey statue repulses
 [oni](ref/family/oni). Any creature with the oni subtype that is within 30 feet of a monkey statue

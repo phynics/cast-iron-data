@@ -17,8 +17,11 @@ price = "85 gp"
 weight = "-"
 +++
 
-**Price** 85 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 85 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 These needles of dried and augmented mugwort ignite at one end when removed from the alcohol in
 which they are stored. A set of vivifying moxibustion needles can be used to perform a healing

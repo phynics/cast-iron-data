@@ -17,8 +17,11 @@ price = "900 gp"
 weight = "4 lbs."
 +++
 
-**Price** 900 gp; **Weight** 4 lbs.\
-**Category** Kits
+::: statblock
+Price: 900 gp
+Weight: 4 lbs.
+Category: Kits
+:::
 
 This kit is designed to help adventurers deal with surprise encounters against magically concealed
 enemies, and comes in a small, waterproof satchel. The kit contains 2 scrolls of

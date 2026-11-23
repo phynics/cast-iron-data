@@ -26,8 +26,11 @@ price = "12 gp"
 weight = "5 lbs."
 +++
 
-**Price** 12 gp; **Weight** 5 lbs.\
-**Category** Clothing
+::: statblock
+Price: 12 gp
+Weight: 5 lbs.
+Category: Clothing
+:::
 
 The most basic of cold-weather gear, animal furs serve to keep their wearers warm. Wearing enough
 fur to cover the body provides a +2 bonus on Fortitude saves to resist

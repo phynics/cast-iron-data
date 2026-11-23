@@ -17,8 +17,11 @@ price = "275 gp"
 weight = "3 lbs."
 +++
 
-**Price** 275 gp; **Weight** 3 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 275 gp
+Weight: 3 lbs.
+Category: Alchemical Tools
+:::
 
 This intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and
 crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of

@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Animal Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Animal Gear
+:::
 
 This small wooden whistle emits a high-pitched sound like that of a
 [signal whistle](ref/eq-misc/whistle-signal), except the signal is audible only to a specific type

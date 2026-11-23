@@ -17,8 +17,11 @@ price = "170 gp"
 weight = "6 lbs."
 +++
 
-**Price** 170 gp; **Weight** 6 lbs.\
-**Category** Kits
+::: statblock
+Price: 170 gp
+Weight: 6 lbs.
+Category: Kits
+:::
 
 Ideal for use in subterranean environments or in combat against light-averse creatures, this small
 kit provides ample alchemical and magical sources of illumination. It contains an

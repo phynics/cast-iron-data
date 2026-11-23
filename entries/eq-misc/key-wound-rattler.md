@@ -17,8 +17,11 @@ price = "350 gp"
 weight = "25 lbs."
 +++
 
-**Price** 350 gp; **Weight** 25 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 350 gp
+Weight: 25 lbs.
+Category: Adventuring Gear
+:::
 
 As a standard action that provokes attacks of opportunity, a character can wind the key on this
 4-foot-long serpentine clockwork enough to power it until the end of her next turn. For every

@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 Troll styptic is used as a field treatment for wounds and bleeding, particularly where magical
 healing is not available. When applied directly to wounds, this jar of paste grants a living

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "5 lbs."
 +++
 
-**Price** 200 gp; **Weight** 5 lbs.\
-**Category** Alchemical Tools
+::: statblock
+Price: 200 gp
+Weight: 5 lbs.
+Category: Alchemical Tools
+:::
 
 This 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare
 scarlet-colored vine that grows only in warm jungle environments. Though prized by climbers for its

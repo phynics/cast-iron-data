@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 75 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 75 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 When applied to the nose as a standard action, this alchemical paste traps airborne particles and
 sharpens your olfactory receptors, heightening your sense of smell. You gain the

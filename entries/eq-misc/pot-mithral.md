@@ -22,8 +22,10 @@ weight = "4 lbs. (common, iron), 2 lbs. (mithral)"
 
 ## Pot
 
-**Price** 8 sp (common, iron), 2,001 gp (mithral); **Weight** 4 lbs. (common, iron), 2 lbs.
-(mithral)
+::: statblock
+Price: 8 sp (common, iron), 2,001 gp (mithral)
+Weight: 4 lbs. (common, iron), 2 lbs. (mithral)
+:::
 
 This 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold
 enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks

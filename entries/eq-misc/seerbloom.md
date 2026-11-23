@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "-"
 +++
 
-**Price** 20 gp; **Weight** -\
-**Category** Elven Herbs
+::: statblock
+Price: 20 gp
+Weight: -
+Category: Elven Herbs
+:::
 
 Though the flowers on seerbloom are beautiful and wondrous, the roots of this plant are even more
 valuable. When ingested, the psychotropic root doubles the duration of any 1st, 2nd, or 3rd-level

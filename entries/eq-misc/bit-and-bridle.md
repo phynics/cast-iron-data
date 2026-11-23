@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Animal Gear
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Animal Gear
+:::
 
 This is headgear used by a rider to control a mount. Bit and bridles for horses, ponies, and riding
 dogs can be readily purchased in most settlements and bits and bridles can be crafted for any

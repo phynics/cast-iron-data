@@ -17,8 +17,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This rich yellow ink reacts with a creature's body heat to create a flickering, flame-like glow. It
 takes 10 minutes to apply fire ink, and 1 dose covers an approximately hand-sized area. Once

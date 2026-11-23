@@ -20,8 +20,11 @@ price = "5 sp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 sp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 sp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This leather [sack](ref/eq-misc/sack) sealed with tar or pitch keeps delicate items from being
 ruined by water. Items kept inside remain relatively dry, making the bag ideal for carrying maps,

@@ -17,8 +17,11 @@ price = "12 gp"
 weight = "2 lbs."
 +++
 
-**Price** 12 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 12 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 This large, coarse blanket covers a single square and has a multi-colored design that blends in with
 a specific environment type, such as underground, forests, or plains (see the ranger's

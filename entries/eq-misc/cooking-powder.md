@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 By boiling certain seeds with handfuls of rust, [halfling](ref/race/halfling)
 [alchemists](ref/class/alchemist) create these red flakes, which smolder slowly when touched by a

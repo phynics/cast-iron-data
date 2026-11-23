@@ -20,8 +20,11 @@ price = "2 gp"
 weight = "5 lbs."
 +++
 
-**Price** 2 gp; **Weight** 5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 2 gp
+Weight: 5 lbs.
+Category: Adventuring Gear
+:::
 
 This versatile tool is designed to help pry open whatever the user desires. A crowbar grants a +2
 circumstance bonus on Strength checks made to force open a door or chest. If it is used in combat,

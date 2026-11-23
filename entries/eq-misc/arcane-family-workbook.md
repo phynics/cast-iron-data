@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "3 lbs."
 +++
 
-**Price** 300 gp; **Weight** 3 lbs.\
-**Category** Tools
+::: statblock
+Price: 300 gp
+Weight: 3 lbs.
+Category: Tools
+:::
 
 The elven predilection for becoming wizards and the social benefits that elven wizards enjoy often
 encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven

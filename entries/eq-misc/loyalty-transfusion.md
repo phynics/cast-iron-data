@@ -17,8 +17,11 @@ price = "625 gp"
 weight = "-"
 +++
 
-**Price** 625 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 625 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This serum transfers a [homunculus's](ref/monster/homunculus) loyalty from one master to another. In
 order for this to work, the homunculus's current master and its master-to-be must each place a drop

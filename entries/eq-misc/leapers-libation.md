@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "-"
 +++
 
-**Price** 200 gp; **Weight** -\
-**Category** Tincture
+::: statblock
+Price: 200 gp
+Weight: -
+Category: Tincture
+:::
 
 This bubbly drink has a zesty scent and invigorates the muscles. For 1 hour after drinking this
 tincture, you gain a +4 alchemical bonus on Acrobatics checks to jump horizontally, you are always

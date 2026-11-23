@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This foul-tasting green tea allows monks to focus their ki on improving abilities they've gained
 through other training. By drinking a cup of tea of transference, you can expend 1 point from your

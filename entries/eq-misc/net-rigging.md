@@ -17,8 +17,11 @@ price = "250 gp"
 weight = "40 lbs."
 +++
 
-**Price** 250 gp; **Weight** 40 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 250 gp
+Weight: 40 lbs.
+Category: Adventuring Gear
+:::
 
 This large bundle of ropes, pulleys, netting, and latches can be assembled to form two different
 traps: one to drop a net from above, and another to snag trespassers from below and hoist them into

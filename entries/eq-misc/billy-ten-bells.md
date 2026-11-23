@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "6 lbs."
 +++
 
-**Price** 50 gp; **Weight** 6 lbs.\
-**Category** Tools
+::: statblock
+Price: 50 gp
+Weight: 6 lbs.
+Category: Tools
+:::
 
 Bearing a marked resemblance to an anthropomorphic wind chime, this complicated arrangement of
 strings, sticks, and bells is hung from a ceiling or branch and has a purse or money-pouch deep

@@ -19,8 +19,10 @@ weight = "- (competent), - (experienced), - (novice)"
 
 ## Lawyer
 
-**Price** 3 gp (competent), 10 gp (experienced), 5 sp (novice); **Weight** - (competent), -
-(experienced), - (novice)
+::: statblock
+Price: 3 gp (competent), 10 gp (experienced), 5 sp (novice)
+Weight: - (competent), - (experienced), - (novice)
+:::
 
 A lawyer is a person who knows and practices law. A lawyer writes and interprets contracts,
 represents clients or the government in civil and criminal trials, gives legal advice, or presides

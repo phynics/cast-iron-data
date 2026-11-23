@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "15 lbs."
 +++
 
-**Price** 150 gp; **Weight** 15 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 150 gp
+Weight: 15 lbs.
+Category: Adventuring Gear
+:::
 
 Made of specially treated animal hides and lightweight metal supports, this costly
 [tent](ref/eq-misc/tent-small) is far lighter than its common cousins. An efficient tent holds two

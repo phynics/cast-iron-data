@@ -17,7 +17,10 @@ price = "1 sp"
 weight = "-"
 +++
 
-**Price** 1 sp; **Weight** -\
-**Category** Entertainment
+::: statblock
+Price: 1 sp
+Weight: -
+Category: Entertainment
+:::
 
 Dice can come in many shapes, but the most common are cubes.

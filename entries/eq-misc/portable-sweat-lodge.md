@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "25 lbs."
 +++
 
-**Price** 25 gp; **Weight** 25 lbs.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 25 lbs.
+Category: Tools
+:::
 
 This large leather wrap contains a foldable wooden framework that sits on stilts, pliable slats of
 birch bark, additional leather rolls, and consecrated stones. When assembled, the resulting hut is a

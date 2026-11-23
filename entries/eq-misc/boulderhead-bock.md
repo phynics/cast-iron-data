@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Price** 25 gp; **Weight** 2 lbs.\
-**Category** Alchemical Remedies
+::: statblock
+Price: 25 gp
+Weight: 2 lbs.
+Category: Alchemical Remedies
+:::
 
 This malty ale has a legendarily thick, creamy head. It creates a pleasant buzz and sense of
 euphoria that dull the effects of pain and concussions, granting the drinker a +1 alchemical bonus

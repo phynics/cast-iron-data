@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Similar to [sunrods](ref/eq-misc/sunrod), these small white pebbles are alchemically treated so that
 they shed a soft light once activated by striking them together. The glow is faint - just barely

@@ -17,8 +17,11 @@ price = "3 gp"
 weight = "1 lb."
 +++
 
-**Price** 3 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 3 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 A burner is a metal or ceramic cylinder, open at the top and perforated with air holes along the
 sides, often with sliding vents to open or close these apertures as the fire inside requires. A

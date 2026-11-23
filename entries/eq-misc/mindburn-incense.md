@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Black Market
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Black Market
+:::
 
 The scent of this light brown incense carries a distinct tang of peppermint oil. Once the incense is
 lit in a censer or appropriate container, its smoke permeates a 20-foot-by-20-foot area to a height

@@ -17,8 +17,11 @@ price = "8 gp"
 weight = "4 lbs."
 +++
 
-**Price** 8 gp; **Weight** 4 lbs.\
-**Category** Clothing
+::: statblock
+Price: 8 gp
+Weight: 4 lbs.
+Category: Clothing
+:::
 
 This relatively aquadynamic wet suit is designed for surface-dwellers exploring the deeps, with
 waterproof pockets to help keep important items dry.

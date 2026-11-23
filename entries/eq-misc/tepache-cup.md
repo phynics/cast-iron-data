@@ -17,8 +17,11 @@ price = "5 cp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 cp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 5 cp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This mildly alcoholic beverage is made of beer, pineapple (or other tropical fruit), sugar, and
 cinnamon, then fermented a few days and served cold with chili powder. It is sweet and pleasant but

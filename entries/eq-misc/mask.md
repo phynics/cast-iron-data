@@ -20,8 +20,11 @@ price = "1 sp-50 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 sp-50 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 1 sp-50 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 The gala events of decadent nobles are where one might see the most outlandish and stylish of masks,
 but simpler masks might be found wherever local customs permit. They range from small bits of fabric

@@ -17,8 +17,11 @@ price = "10 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 10 gp; **Weight** 1/2 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 10 gp
+Weight: 1/2 lb.
+Category: Adventuring Gear
+:::
 
 This altimeter has been specially calibrated for the Darklands and can be used to measure how deep
 you are beneath the surface. It grants a +2 circumstance bonus on Survival checks to navigate

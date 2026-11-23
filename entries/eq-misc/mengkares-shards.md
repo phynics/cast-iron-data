@@ -17,8 +17,11 @@ price = "6,000 gp"
 weight = "1 lb."
 +++
 
-**Price** 6,000 gp; **Weight** 1 lb.\
-**Category** Black Market
+::: statblock
+Price: 6,000 gp
+Weight: 1 lb.
+Category: Black Market
+:::
 
 These crystalline fragments are all that remains of an
 [orb of dragonkind](ref/magic-artifact/orbs-of-dragonkind) that was destroyed by the great wyrm gold

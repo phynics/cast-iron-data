@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Alchemical Remedies
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Alchemical Remedies
+:::
 
 This herbal salve can be applied directly to the skin to prevent the effects of contact poisons. If
 a creature touches a contact poison, but you apply the salve within 1 round of contact, the victim

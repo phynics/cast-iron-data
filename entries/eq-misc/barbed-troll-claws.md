@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "4 lbs."
 +++
 
-**Price** 20 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 20 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 These metal sheaths slide onto the claws of a troll. When a troll hits with a claw attack while
 wearing the sheaths, it can either keep the sheaths on its hand (in which case the claw attack deals

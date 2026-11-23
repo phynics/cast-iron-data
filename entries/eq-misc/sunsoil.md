@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 Created by dwarves after the Quest for Sky, this faintly glowing collection of minerals allows
 photosynthetic plants to grow in underground environments without sunlight. Sunsoil has since spread

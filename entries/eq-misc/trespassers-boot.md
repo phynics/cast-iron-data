@@ -17,8 +17,11 @@ price = "8 sp"
 weight = "2 lbs."
 +++
 
-**Price** 8 sp; **Weight** 2 lbs.\
-**Category** Tools
+::: statblock
+Price: 8 sp
+Weight: 2 lbs.
+Category: Tools
+:::
 
 Consisting of a small wooden frame with inward-pointing barbed spikes, this trap is placed in a
 shallow pit just deep enough for a Medium-sized character's lower leg. When someone steps in the

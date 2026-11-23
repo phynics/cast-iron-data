@@ -17,8 +17,11 @@ price = "3 sp"
 weight = "varies"
 +++
 
-**Price** 3 sp; **Weight** varies\
-**Category** Adventuring Gear
+::: statblock
+Price: 3 sp
+Weight: varies
+Category: Adventuring Gear
+:::
 
 This garment is specially designed to have a single spell scribed on the inside of its surface,
 hidden from prying eyes. Infiltrators and spies often use scroll belts to secure extra magical means

@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "20 lbs."
 +++
 
-**Price** 30 gp; **Weight** 20 lbs.\
-**Category** Animal Gear
+::: statblock
+Price: 30 gp
+Weight: 20 lbs.
+Category: Animal Gear
+:::
 
 This simple harness, basically just a leather lash, straps a combatant's arm to the tusk or horn of
 a Huge or larger animal such as a [gorthek](ref/monster/orc-gorthek). Engaging or disengaging a horn

@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: [Pathfinder Chronicles](ref/rule/pathfinder-chronicles)
+:::
 
 The second entry into the Pathfinder Chronicles includes Durvin Gest's thorough cataloging of 31
 siege castles in the Cairnlands surrounding Absalom and notes from Borden Thalian on his journey up

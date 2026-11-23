@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Tools
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Tools
+:::
 
 Gnomes use these small books to record information about their obsessions. When a
 [gnome](ref/race/gnome) consults her obsession log (taking 1 minute), she gains a +2 circumstance

@@ -17,8 +17,11 @@ price = "1-100 gp"
 weight = "1-20 lbs."
 +++
 
-**Price** 1-100 gp; **Weight** 1-20 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1-100 gp
+Weight: 1-20 lbs.
+Category: Adventuring Gear
+:::
 
 This book appears to be the [holy text](ref/eq-misc/holy-text) of a particular religion, but it is
 actually a subtly encoded version of the text of an entirely different faith. Such tomes allow the

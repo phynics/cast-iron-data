@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 50 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 50 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This gold-tinted oil smells of wood shavings. When you apply it to the strings of a stringed
 instrument or the body of a woodwind, it improves the quality of the instrument's sound. For 1 hour,

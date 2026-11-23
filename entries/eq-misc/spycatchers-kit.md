@@ -17,8 +17,11 @@ price = "260 gp"
 weight = "7-1/2 lbs."
 +++
 
-**Price** 260 gp; **Weight** 7-1/2 lbs.\
-**Category** Kits
+::: statblock
+Price: 260 gp
+Weight: 7-1/2 lbs.
+Category: Kits
+:::
 
 This kit includes an [antidote kit](ref/eq-misc/antidote-kit), a
 [cryptography book](ref/eq-misc/cryptography-book), [litmus strips](ref/eq-misc/litmus-strip) (5),

@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 2 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 2 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 A day's worth of [halfling](ref/race/halfling) [trail rations](ref/eq-misc/trail-rations) is
 actually more than what a typical adventuring halfling eats in a day - a full belly strengthens a

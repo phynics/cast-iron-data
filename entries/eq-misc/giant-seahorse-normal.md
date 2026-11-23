@@ -19,8 +19,10 @@ weight = "1,200 lbs. (combat trained), 1,100 lbs. (normal)"
 
 ## Giant seahorse
 
-**Price** 500 gp (combat trained), 350 gp (normal); **Weight** 1,200 lbs. (combat trained), 1,100
-lbs. (normal)
+::: statblock
+Price: 500 gp (combat trained), 350 gp (normal)
+Weight: 1,200 lbs. (combat trained), 1,100 lbs. (normal)
+:::
 
 Giant seahorses are commonly used as mounts and beasts of burden by undersea races such as aquatic
 elves and tritons. Although they are often dismissed as too skittish to be ridden into a fight,

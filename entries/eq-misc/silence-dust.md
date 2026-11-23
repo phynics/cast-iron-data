@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "1 lb."
 +++
 
-**Price** 60 gp; **Weight** 1 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 60 gp
+Weight: 1 lb.
+Category: Alchemical Tools
+:::
 
 This ashen powder can be thrown as a splash weapon, muffling all sound within a 15-foot-radius
 sphere centered on the point of impact. Perception checks to notice sound emanating from or passing

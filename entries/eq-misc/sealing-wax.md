@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "1 lb."
 +++
 
-**Price** 1 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 1 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 This stick of red wax is used to seal envelopes, often using an impression from a
 [signet ring](ref/eq-misc/signet-ring) as proof they were sent by you.

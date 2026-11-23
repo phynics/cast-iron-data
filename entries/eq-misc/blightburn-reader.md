@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Adventuring Gear
+:::
 
 A blightburn reader is a small wooden or metal frame, roughly 2 inches wide and 4 inches long,
 containing a specially prepared alchemical paper pressed between two thin panes of glass. Whenever a

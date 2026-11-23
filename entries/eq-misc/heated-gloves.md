@@ -17,8 +17,11 @@ price = "2 gp"
 weight = "1 lb."
 +++
 
-**Price** 2 gp; **Weight** 1 lb.\
-**Category** Clothing
+::: statblock
+Price: 2 gp
+Weight: 1 lb.
+Category: Clothing
+:::
 
 These thick, fur-lined gloves have several internal pockets containing segmented packets of
 alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the

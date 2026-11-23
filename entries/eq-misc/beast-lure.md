@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 30 gp; **Weight** 1/2 lb.\
-**Category** Alchemical Tools
+::: statblock
+Price: 30 gp
+Weight: 1/2 lb.
+Category: Alchemical Tools
+:::
 
 This light brown oil works similar to [Kaava musk](ref/eq-misc/kaava-musk) but attracts one specific
 kind of creature (dogs, giant bees, and so on).

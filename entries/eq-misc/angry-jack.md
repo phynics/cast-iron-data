@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "2 lbs."
 +++
 
-**Price** 25 gp; **Weight** 2 lbs.\
-**Category** Black Market
+::: statblock
+Price: 25 gp
+Weight: 2 lbs.
+Category: Black Market
+:::
 
 Named after a common children's toy, this metal box, typically no larger than 1 cubic foot in
 volume, possesses a secret compartment large enough to store one flask or vial. When loaded with a

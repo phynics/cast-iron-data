@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "6 lbs."
 +++
 
-**Price** 25 gp; **Weight** 6 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 25 gp
+Weight: 6 lbs.
+Category: Adventuring Gear
+:::
 
 This armored case provides total [cover](ref/rule/cover) to any Tiny or smaller creature contained
 within it. It includes air holes (which can be plugged with cork stoppers if you need to go

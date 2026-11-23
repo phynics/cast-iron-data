@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "4 lbs."
 +++
 
-**Price** 200 gp; **Weight** 4 lbs.\
-**Category** Tools
+::: statblock
+Price: 200 gp
+Weight: 4 lbs.
+Category: Tools
+:::
 
 This small box is covered with varying gears, locks, panels, and other mechanisms. Thieves practice
 their mechanical skills by attempting to undo or unlock the various mechanisms to reach the box's

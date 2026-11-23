@@ -17,10 +17,15 @@ price = "600 gp"
 weight = "-"
 +++
 
-**Price** 600 gp; **Weight** -\
-**Category** [Herbs](ref/rule/herbalism)\
-**Gather** DC 25; **Yield** 1d4 doses (5 lbs. per dose)\
-**Terrain** any forests or mountains\
+::: statblock
+Price: 600 gp
+Weight: -
+Category: [Herbs](ref/rule/herbalism)
+Gather: DC 25
+Yield: 1d4 doses (5 lbs. per dose)
+Terrain: any forests or mountains
+:::
+
 **Preparation** A living mimameith tree has [hardness](ref/umr/hardness) 7 (rather than the typical
 hardness 5 for most wooden objects) and fire resistance 5. When a mimameith tree is burned but
 lives, its bark regrows over time with pale gray scarring - such bark bears special properties. Once

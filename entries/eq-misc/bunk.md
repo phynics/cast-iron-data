@@ -17,8 +17,11 @@ price = "5 cp"
 weight = "-"
 +++
 
-**Price** 5 cp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 5 cp
+Weight: -
+Category: Alchemical Tools
+:::
 
 Bunk is a slang term for fillers used to dilute drugs that are proffered as pure-grade narcotics. A
 drug mixed with bunk is less potent; its effects last 1d6 × 10 minutes for each hour they would

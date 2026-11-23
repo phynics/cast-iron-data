@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "-"
 +++
 
-**Price** 40 gp; **Weight** -\
-**Category** Alchemical Tools
+::: statblock
+Price: 40 gp
+Weight: -
+Category: Alchemical Tools
+:::
 
 This sealed copper tube contains a packet of alchemical fertilizer and several sprouted seedlings
 from the First World. Once shaken and opened as a standard action, the tube exudes a multitude of

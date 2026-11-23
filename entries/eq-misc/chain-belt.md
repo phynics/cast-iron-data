@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "1/4 lb."
 +++
 
-**Price** 15 gp; **Weight** 1/4 lb.\
-**Category** Clothing
+::: statblock
+Price: 15 gp
+Weight: 1/4 lb.
+Category: Clothing
+:::
 
 While [undines](ref/race/undine) dress sparingly, they often wear 10-foot-long belts of fine linked
 chain about their waists. The belts contain hinged links to which the wearer can affix various

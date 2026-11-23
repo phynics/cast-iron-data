@@ -17,8 +17,11 @@ price = "5 gp"
 weight = "1/2 lb."
 +++
 
-**Price** 5 gp; **Weight** 1/2 lb.\
-**Category** Food/Drink
+::: statblock
+Price: 5 gp
+Weight: 1/2 lb.
+Category: Food/Drink
+:::
 
 This dark, bitter treat can be consumed as a solid or melted and added to a beverage such as milk.
 In some lands it is mixed with sugar or chilies.
