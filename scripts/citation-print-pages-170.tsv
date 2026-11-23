@@ -1138,21 +1138,21 @@ ref/trait/helpful-halfling	halflings-of-golarion	30	print
 ref/trait/pearl-diver-xidao	dragon-empires-primer	21	print	
 ref/trait/planar-negotiator-dhh	demon-hunters-handbook	25	print	
 ref/trait/priest-blessed	faiths-and-philosophies	33	print	
-ref/trait/proxy-of-many	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/proxy-of-many	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
 ref/trait/pustular	we-be-goblins	13	print	
 ref/trait/religious-reformer	faiths-and-philosophies	33	print	
 ref/trait/runaway-slave	demon-hunters-handbook	12	print	
-ref/trait/self-actualization	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/self-actualization	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
 ref/trait/strong-willed	faiths-of-purity	5	print	
 ref/trait/sun-orchid-harvester	dragonslayers-handbook	12	print	
 ref/trait/swamp-survivor	dragonslayers-handbook	13	print	
-ref/trait/totemist	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
-ref/trait/traditionalist	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/totemist	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
+ref/trait/traditionalist	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
 ref/trait/trickster-gnome	gnomes-of-golarion	15	print	
 ref/trait/trifler	faction-guide	63	print	
 ref/trait/well-bred	dragonslayers-handbook	13	print	
-ref/trait/wendifa-apprentice	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
-ref/trait/zealots-bearing	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/wendifa-apprentice	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
+ref/trait/zealots-bearing	faiths-and-philosophies	inside cover	print		the trait is printed on the inside back cover; the book's trait list gives its page as Back cover
 ref/trait/a-shining-beacon	inner-sea-gods	222	print	
 ref/trait/a-shining-beacon	faiths-of-purity	11	print	
 ref/trait/abendego-spellpiercer	inner-sea-primer	20	print	
@@ -4411,3 +4411,11 @@ ref/affliction/cunning/basic-poison	pathfinder-unchained	230	print		the basic po
 ref/affliction/monstrous/basic-disease	pathfinder-unchained	232	print		the basic disease of the monstrous option Disease (onset, frequency, effect, cure) is on this page
 ref/affliction/me-pit-fiend/disease	pathfinder-unchained	253	print		the pit fiend's disease (onset immediate, 1/day, 1d4 Str damage, 2 consecutive saves) is in its stat block on this page
 ref/affliction/me-pit-fiend/poison	pathfinder-unchained	253	print		the pit fiend's poison (injury, 1/round for 10 rounds, 1d6 Con damage, 3 consecutive saves) is in its stat block on this page
+ref/trait/abject-belief	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/born-free	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/bound-by-honor	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/crisis-of-faith	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/devout-visionary	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/divine-denier	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/monastic	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
+ref/trait/nature-worshiper	faiths-and-philosophies	inside cover	print		the trait is printed on the inside front cover; the book's trait list gives its page as Front cover
