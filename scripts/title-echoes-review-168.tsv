@@ -1,62 +1,388 @@
 pass	entry_id	file	reason
-creature	ref/monster/aether-elemental	entries/monster/aether-elemental.md	the bold paragraph `Small Aether Elemental` differs from the title `Aether Elemental`
-creature	ref/monster/air-elemental	entries/monster/air-elemental.md	the bold paragraph `Small Air Elemental` differs from the title `Air Elemental`
+creature	ref/monster/aasimar	entries/monster/aasimar.md	the bold paragraph `Aasimar [cleric](ref/class/cleric) 1` differs from the title `Aasimar`
+creature	ref/monster/akilep	entries/monster/akilep.md	the bold paragraph `Female unique gynosphinx` differs from the title `Akilep, Lady of Stone`
+creature	ref/monster/almara-kazaar	entries/monster/almara-kazaar.md	the bold paragraph `Female duergar [warpriest](ref/class/warpriest) of [Droskar](ref/faith/droskar) 11` differs from the title `The Would-Be Queen, Almara Kazaar`
+creature	ref/monster/amalya	entries/monster/amalya.md	the bold paragraph `Dryad [druid](ref/class/druid) 3` differs from the title `Amalya`
+creature	ref/monster/android	entries/monster/android.md	the bold paragraph `Android [rogue](ref/class/rogue) 1` differs from the title `Android`
+creature	ref/monster/animate-hoard	entries/monster/animate-hoard.md	the bold paragraph `Advanced animated object` differs from the title `Animate Hoard`
 creature	ref/monster/anunnaki-mythic	entries/monster/anunnaki-mythic.md	the bold paragraph `Mythic Anunnaki` differs from the title `Anunnaki`
+creature	ref/monster/aphorite	entries/monster/aphorite.md	the bold paragraph `Aphorite [fighter](ref/class/fighter) 1` differs from the title `Aphorite`
 creature	ref/monster/apkallu-mythic	entries/monster/apkallu-mythic.md	the bold paragraph `Mythic Apkallu` differs from the title `Apkallu`
 creature	ref/monster/apocalypse-locust-mythic	entries/monster/apocalypse-locust-mythic.md	the bold paragraph `Mythic Apocalypse Locust` differs from the title `Apocalypse Locust`
+creature	ref/monster/arazni	entries/monster/arazni.md	the bold paragraph `Female human lich [wizard](ref/class/wizard) 20/marshal 8` differs from the title `Arazni`
 creature	ref/monster/argus-mythic	entries/monster/argus-mythic.md	the bold paragraph `Mythic Argus` differs from the title `Argus`
-creature	ref/monster/benaioh	entries/monster/benaioh.md	the bold paragraph `Benaioh (Clay Vessel)` differs from the title `Benaioh`
+creature	ref/monster/aridus	entries/monster/aridus.md	the bold paragraph `Male dust wendigo` differs from the title `Aridus, the Desert's Howl`
+creature	ref/monster/astomoi	entries/monster/astomoi.md	the bold paragraph `Astomoi [psychic](ref/class/psychic) 1` differs from the title `Astomoi`
+creature	ref/monster/ayandamahla	entries/monster/ayandamahla.md	the bold paragraph `Female succubus [bard](ref/class/bard) 20` differs from the title `Ayandamahla, the Crimson Lotus`
+creature	ref/monster/baba-yaga	entries/monster/baba-yaga.md	the bold paragraph `Female venerable advanced human [witch](ref/class/witch) 20/archmage 10` differs from the title `Baba Yaga`
+creature	ref/monster/balravnus	entries/monster/balravnus.md	the bold paragraph `Male hezrou [barbarian](ref/class/barbarian) 7` differs from the title `Balravnus, Lord of the Deep Pools`
+creature	ref/monster/bezilak	entries/monster/bezilak.md	the bold paragraph `Male glabrezu [rogue](ref/class/rogue) 8` differs from the title `Bezilak, the Silken Fang`
+creature	ref/monster/boggard-boggard-abyssal-warrior	entries/monster/boggard-boggard-abyssal-warrior.md	the bold paragraph `Boggard [antipaladin](ref/class/antipaladin) 7` differs from the title `Boggard Abyssal Warrior`
+creature	ref/monster/boggard-boggard-brute	entries/monster/boggard-boggard-brute.md	the bold paragraph `Boggard [fighter](ref/class/fighter) 1` differs from the title `Boggard Brute`
+creature	ref/monster/boggard-boggard-champion	entries/monster/boggard-boggard-champion.md	the bold paragraph `Boggard [fighter](ref/class/fighter) 5` differs from the title `Boggard Champion`
+creature	ref/monster/boggard-boggard-farcroaker	entries/monster/boggard-boggard-farcroaker.md	the bold paragraph `Boggard [bard](ref/class/bard) 2` differs from the title `Boggard Farcroaker`
+creature	ref/monster/boggard-boggard-hunter	entries/monster/boggard-boggard-hunter.md	the bold paragraph `Boggard [ranger](ref/class/ranger) 3` differs from the title `Boggard Hunter`
+creature	ref/monster/boggard-boggard-priest-king	entries/monster/boggard-boggard-priest-king.md	the bold paragraph `Boggard [cleric](ref/class/cleric) 10` differs from the title `Boggard Priest-King`
+creature	ref/monster/boggard-boggard-prophet	entries/monster/boggard-boggard-prophet.md	the bold paragraph `Boggard [sorcerer](ref/class/sorcerer) 4` differs from the title `Boggard Prophet`
+creature	ref/monster/boggard-boggard-savage	entries/monster/boggard-boggard-savage.md	the bold paragraph `Boggard [barbarian](ref/class/barbarian) 2` differs from the title `Boggard Savage`
+creature	ref/monster/boggard-boggard-scarred-one	entries/monster/boggard-boggard-scarred-one.md	the bold paragraph `Boggard [barbarian](ref/class/barbarian) 4` differs from the title `Boggard Scarred One`
+creature	ref/monster/boggard-boggard-stalker	entries/monster/boggard-boggard-stalker.md	the bold paragraph `Boggard [ranger](ref/class/ranger) 7` differs from the title `Boggard Stalker`
+creature	ref/monster/boggard-boggard-swampseer	entries/monster/boggard-boggard-swampseer.md	the bold paragraph `Boggard [druid](ref/class/druid) 3` differs from the title `Boggard Swampseer`
+creature	ref/monster/bugbear-bugbear-ambusher	entries/monster/bugbear-bugbear-ambusher.md	the bold paragraph `Bugbear [ranger](ref/class/ranger) ([trapper](ref/arc-ranger/trapper)) 8` differs from the title `Bugbear Ambusher`
+creature	ref/monster/bugbear-bugbear-bloodmage	entries/monster/bugbear-bugbear-bloodmage.md	the bold paragraph `Bugbear [sorcerer](ref/class/sorcerer) 10` differs from the title `Bugbear Bloodmage`
+creature	ref/monster/bugbear-bugbear-cultist	entries/monster/bugbear-bugbear-cultist.md	the bold paragraph `Bugbear [oracle](ref/class/oracle) 6` differs from the title `Bugbear Cultist`
+creature	ref/monster/bugbear-bugbear-flesh-glutton	entries/monster/bugbear-bugbear-flesh-glutton.md	the bold paragraph `Giant bugbear [barbarian](ref/class/barbarian) 5` differs from the title `Bugbear Flesh Glutton`
+creature	ref/monster/bugbear-bugbear-gnasher	entries/monster/bugbear-bugbear-gnasher.md	the bold paragraph `Bugbear [barbarian](ref/class/barbarian) 2` differs from the title `Bugbear Gnasher`
+creature	ref/monster/bugbear-bugbear-lurker	entries/monster/bugbear-bugbear-lurker.md	the bold paragraph `Bugbear [rogue](ref/class/rogue) 7` differs from the title `Bugbear Lurker`
+creature	ref/monster/bugbear-bugbear-shadow-sneak	entries/monster/bugbear-bugbear-shadow-sneak.md	the bold paragraph `Bugbear [ninja](ref/class/ninja) 5/[shadowdancer](ref/pclass/shadowdancer) 4` differs from the title `Bugbear Shadow Sneak`
+creature	ref/monster/bugbear-bugbear-stalker	entries/monster/bugbear-bugbear-stalker.md	the bold paragraph `Bugbear [ranger](ref/class/ranger) 3` differs from the title `Bugbear Stalker`
+creature	ref/monster/captain-ignisco	entries/monster/captain-ignisco.md	the bold paragraph `Male munavri [psychic](ref/class/psychic) 2/[swashbuckler](ref/class/swashbuckler) 4` differs from the title `Captain Ignisco`
+creature	ref/monster/catfolk	entries/monster/catfolk.md	the bold paragraph `Catfolk [ranger](ref/class/ranger) 1` differs from the title `Catfolk`
+creature	ref/monster/centaur-centaur-charger	entries/monster/centaur-centaur-charger.md	the bold paragraph `Centaur [cavalier](ref/class/cavalier) ([charger](ref/arc-cavalier/charger)) 11` differs from the title `Centaur Charger`
+creature	ref/monster/centaur-centaur-forager	entries/monster/centaur-centaur-forager.md	the bold paragraph `Centaur [ranger](ref/class/ranger) 3` differs from the title `Centaur Forager`
+creature	ref/monster/centaur-centaur-greenspeaker	entries/monster/centaur-centaur-greenspeaker.md	the bold paragraph `Centaur [shaman](ref/class/shaman) 2` differs from the title `Centaur Greenspeaker`
+creature	ref/monster/centaur-centaur-outcast	entries/monster/centaur-centaur-outcast.md	the bold paragraph `Old centaur [wizard](ref/class/wizard) 7` differs from the title `Centaur Outcast`
 creature	ref/monster/champion-of-the-gilded-host-mythic	entries/monster/champion-of-the-gilded-host-mythic.md	the bold paragraph `Mythic Champion of the Gilded Host` differs from the title `Champion of the Gilded Host`
 creature	ref/monster/chaneque-mythic	entries/monster/chaneque-mythic.md	the bold paragraph `Mythic Chaneque` differs from the title `Chaneque`
+creature	ref/monster/changeling	entries/monster/changeling.md	the bold paragraph `Female changeling [witch](ref/class/witch) 1` differs from the title `Changeling`
+creature	ref/monster/charau-ka-deadfall-tracker	entries/monster/charau-ka-deadfall-tracker.md	the bold paragraph `Charau-ka [slayer](ref/class/slayer) 4` differs from the title `Deadfall Tracker (Charau-ka)`
+creature	ref/monster/charau-ka-devotee-of-the-ravener-king	entries/monster/charau-ka-devotee-of-the-ravener-king.md	the bold paragraph `Charau-ka [cleric](ref/class/cleric) of [Angazhan](ref/faith/angazhan) 5` differs from the title `Devotee of the Ravener King (Charau-ka)`
+creature	ref/monster/charau-ka-jungle-trickster	entries/monster/charau-ka-jungle-trickster.md	the bold paragraph `Charau-ka [bard](ref/class/bard) ([sound striker](ref/arc-bard/sound-striker)) 6` differs from the title `Jungle Trickster (Charau-ka)`
+creature	ref/monster/charau-ka-simian-sharpshooter	entries/monster/charau-ka-simian-sharpshooter.md	the bold paragraph `Charau-ka [gunslinger](ref/class/gunslinger) 4` differs from the title `Simian Sharpshooter (Charau-ka)`
+creature	ref/monster/clockwork-toy-golem	entries/monster/clockwork-toy-golem.md	the bold paragraph `Clockwork variant [junk golem](ref/monster/golem-junk-golem)` differs from the title `Toy Golem`
 creature	ref/monster/colossus-flesh-colossus-mythic	entries/monster/colossus-flesh-colossus-mythic.md	the bold paragraph `Mythic Flesh Colossus` differs from the title `Flesh Colossus`
 creature	ref/monster/colossus-iron-colossus-mythic	entries/monster/colossus-iron-colossus-mythic.md	the bold paragraph `Mythic Iron Colossus` differs from the title `Iron Colossus`
 creature	ref/monster/colossus-sphinx-colossus-mythic	entries/monster/colossus-sphinx-colossus-mythic.md	the bold paragraph `Mythic Sphinx Colossus` differs from the title `Sphinx Colossus`
 creature	ref/monster/colossus-stone-colossus-mythic	entries/monster/colossus-stone-colossus-mythic.md	the bold paragraph `Mythic Stone Colossus` differs from the title `Stone Colossus`
 creature	ref/monster/colossus-wood-colossus-mythic	entries/monster/colossus-wood-colossus-mythic.md	the bold paragraph `Mythic Wood Colossus` differs from the title `Wood Colossus`
+creature	ref/monster/couatl-lord-sun-warrior	entries/monster/couatl-lord-sun-warrior.md	the bold paragraph `Unique couatl` differs from the title `Lord Sun-Warrior (Couatl)`
+creature	ref/monster/cyclops-cyclops-grand-eye	entries/monster/cyclops-cyclops-grand-eye.md	the bold paragraph `Cyclops [oracle](ref/class/oracle) ([cyclopean seer](ref/arc-oracle/cyclopean-seer)) 8` differs from the title `Cyclops Grand-Eye`
+creature	ref/monster/cyclops-cyclops-lorekeeper	entries/monster/cyclops-cyclops-lorekeeper.md	the bold paragraph `Cyclops [arcanist](ref/class/arcanist) 11` differs from the title `Cyclops Lorekeeper`
+creature	ref/monster/cyclops-cyclops-manhunter	entries/monster/cyclops-cyclops-manhunter.md	the bold paragraph `Cyclops [ranger](ref/class/ranger) 2` differs from the title `Cyclops Manhunter`
+creature	ref/monster/cyclops-cyclops-smasher	entries/monster/cyclops-cyclops-smasher.md	the bold paragraph `Cyclops [barbarian](ref/class/barbarian) ([breaker](ref/arc-barbarian/breaker)) 4` differs from the title `Cyclops Smasher`
+creature	ref/monster/cyclops-savage-great-cyclops	entries/monster/cyclops-savage-great-cyclops.md	the bold paragraph `Barbarian 6` differs from the title `Savage Great Cyclops`
+creature	ref/monster/dark-folk-caligni	entries/monster/dark-folk-caligni.md	the bold paragraph `Caligni [rogue](ref/class/rogue) 1` differs from the title `Caligni (Dark Folk)`
+creature	ref/monster/deep-one-deep-one-hybrid	entries/monster/deep-one-deep-one-hybrid.md	the bold paragraph `Deep one hybrid [cleric](ref/class/cleric) 1` differs from the title `Deep One Hybrid`
+creature	ref/monster/demon-larva	entries/monster/demon-larva.md	the bold paragraph `Human petitioner` differs from the title `Larva (Demon)`
+creature	ref/monster/derro-derro-bodysnatcher	entries/monster/derro-derro-bodysnatcher.md	the bold paragraph `Derro [rogue](ref/class/rogue) 7` differs from the title `Derro Bodysnatcher`
+creature	ref/monster/derro-derro-brainwasher	entries/monster/derro-derro-brainwasher.md	the bold paragraph `Derro [bard](ref/class/bard) 2` differs from the title `Derro Brainwasher`
+creature	ref/monster/derro-urban-stalker	entries/monster/derro-urban-stalker.md	the bold paragraph `Derro [slayer](ref/class/slayer) 4` differs from the title `Urban Stalker (Derro)`
+creature	ref/monster/derro-white-eyed-torturer	entries/monster/derro-white-eyed-torturer.md	the bold paragraph `Derro [alchemist](ref/class/alchemist) ([vivisectionist](ref/arc-alchemist/vivisectionist)) 11` differs from the title `White-Eyed Torturer (Derro)`
 creature	ref/monster/devastator-mythic	entries/monster/devastator-mythic.md	the bold paragraph `Mythic Devastator` differs from the title `Devastator`
 creature	ref/monster/devil-host-devil-greater-magaav	entries/monster/devil-host-devil-greater-magaav.md	the bold paragraph `Host Devil, Greater (Magaav)` differs from the title `Greater Host Devil (Magaav)`
 creature	ref/monster/devil-host-devil-lesser-gaav	entries/monster/devil-host-devil-lesser-gaav.md	the bold paragraph `Host Devil, Lesser (Gaav)` differs from the title `Lesser Host Devil (Gaav)`
 creature	ref/monster/devil-possession-devil-greater-gidim	entries/monster/devil-possession-devil-greater-gidim.md	the bold paragraph `Possession Devil, Greater (Gidim)` differs from the title `Greater Possession Devil (Gidim)`
 creature	ref/monster/devil-possession-devil-lesser-gidim	entries/monster/devil-possession-devil-lesser-gidim.md	the bold paragraph `Possession Devil, Lesser (Gidim)` differs from the title `Lesser Possession Devil (Gidim)`
+creature	ref/monster/dhampir	entries/monster/dhampir.md	the bold paragraph `Dhampir [fighter](ref/class/fighter) 1` differs from the title `Dhampir`
 creature	ref/monster/drakainia	entries/monster/drakainia.md	the bold paragraph `Mythic Drakainia` differs from the title `Drakainia`
-creature	ref/monster/earth-elemental	entries/monster/earth-elemental.md	the bold paragraph `Small Earth Elemental` differs from the title `Earth Elemental`
+creature	ref/monster/drow	entries/monster/drow.md	the bold paragraph `Drow [warrior](ref/npcclass/warrior) 1` differs from the title `Drow`
+creature	ref/monster/drow-drow-demonic-champion	entries/monster/drow-drow-demonic-champion.md	the bold paragraph `Drow [antipaladin](ref/class/antipaladin) 10` differs from the title `Drow Demonic Champion`
+creature	ref/monster/drow-drow-house-captain	entries/monster/drow-drow-house-captain.md	the bold paragraph `Drow [fighter](ref/class/fighter) 7` differs from the title `Drow House Captain`
+creature	ref/monster/drow-drow-house-guard	entries/monster/drow-drow-house-guard.md	the bold paragraph `Drow [fighter](ref/class/fighter) 3` differs from the title `Drow House Guard`
+creature	ref/monster/drow-drow-master-scout	entries/monster/drow-drow-master-scout.md	the bold paragraph `Drow [rogue](ref/class/rogue) ([sniper](ref/arc-rogue/sniper)) 8` differs from the title `Drow Master Scout`
+creature	ref/monster/drow-drow-matron	entries/monster/drow-drow-matron.md	the bold paragraph `Drow noble [cleric](ref/class/cleric) ([demonic apostle](ref/arc-cleric/demonic-apostle)) 15` differs from the title `Drow Matron`
+creature	ref/monster/drow-drow-noble	entries/monster/drow-drow-noble.md	the bold paragraph `Female drow noble [cleric](ref/class/cleric) 3` differs from the title `Drow Noble`
+creature	ref/monster/drow-drow-poisoner	entries/monster/drow-drow-poisoner.md	the bold paragraph `Drow [alchemist](ref/class/alchemist) 12` differs from the title `Drow Poisoner`
+creature	ref/monster/drow-drow-priest	entries/monster/drow-drow-priest.md	the bold paragraph `Drow noble [cleric](ref/class/cleric) 5` differs from the title `Drow Priest`
+creature	ref/monster/drow-drow-scout	entries/monster/drow-drow-scout.md	the bold paragraph `Drow [rogue](ref/class/rogue) 2` differs from the title `Drow Scout`
+creature	ref/monster/duergar	entries/monster/duergar.md	the bold paragraph `Duergar [warrior](ref/npcclass/warrior) 1` differs from the title `Duergar`
+creature	ref/monster/duergar-duergar-anvil	entries/monster/duergar-duergar-anvil.md	the bold paragraph `Duergar [monk](ref/class/monk) 2` differs from the title `Duergar Anvil`
+creature	ref/monster/duergar-duergar-bombardier	entries/monster/duergar-duergar-bombardier.md	the bold paragraph `Duergar [alchemist](ref/class/alchemist) 2` differs from the title `Duergar Bombardier`
+creature	ref/monster/duergar-duergar-captain	entries/monster/duergar-duergar-captain.md	the bold paragraph `Duergar [fighter](ref/class/fighter) 9` differs from the title `Duergar Captain`
+creature	ref/monster/duergar-duergar-hammer	entries/monster/duergar-duergar-hammer.md	the bold paragraph `Duergar [monk](ref/class/monk) ([gray disciple](ref/arc-monk/gray-disciple)) 12` differs from the title `Duergar Hammer`
+creature	ref/monster/duergar-duergar-high-priest	entries/monster/duergar-duergar-high-priest.md	the bold paragraph `Duergar [cleric](ref/class/cleric) 13` differs from the title `Duergar High Priest`
+creature	ref/monster/duergar-duergar-lieutenant	entries/monster/duergar-duergar-lieutenant.md	the bold paragraph `Duergar [ranger](ref/class/ranger) 6` differs from the title `Duergar Lieutenant`
+creature	ref/monster/duergar-duergar-sergeant	entries/monster/duergar-duergar-sergeant.md	the bold paragraph `Duergar [fighter](ref/class/fighter) 2` differs from the title `Duergar Sergeant`
+creature	ref/monster/duergar-duergar-sharpshooter	entries/monster/duergar-duergar-sharpshooter.md	the bold paragraph `Duergar [ranger](ref/class/ranger) 1` differs from the title `Duergar Sharpshooter`
+creature	ref/monster/duergar-duergar-slaver	entries/monster/duergar-duergar-slaver.md	the bold paragraph `Duergar [rogue](ref/class/rogue) 1` differs from the title `Duergar Slaver`
+creature	ref/monster/duergar-duergar-taskmaster	entries/monster/duergar-duergar-taskmaster.md	the bold paragraph `Duergar [rogue](ref/class/rogue) 6/shadowdancer 4` differs from the title `Duergar Taskmaster`
+creature	ref/monster/duergar-duergar-tyrant	entries/monster/duergar-duergar-tyrant.md	the bold paragraph `Duergar tyrant [geokineticist](ref/class/kineticist) 3` differs from the title `Duergar Tyrant`
+creature	ref/monster/duskwalker	entries/monster/duskwalker.md	the bold paragraph `Female duskwalker [ranger](ref/class/ranger) 1` differs from the title `Duskwalker`
 creature	ref/monster/elohim-mythic	entries/monster/elohim-mythic.md	the bold paragraph `Mythic Elohim` differs from the title `Elohim`
-creature	ref/monster/fire-elemental	entries/monster/fire-elemental.md	the bold paragraph `Small Fire Elemental` differs from the title `Fire Elemental`
+creature	ref/monster/erotundee	entries/monster/erotundee.md	the bold paragraph `Female nalfeshnee [wizard](ref/class/wizard) 15` differs from the title `Erotundee, Keeper of the Risen Light`
+creature	ref/monster/eudranis	entries/monster/eudranis.md	the bold paragraph `Male morlock [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 4` differs from the title `Eudranis`
+creature	ref/monster/fetchling	entries/monster/fetchling.md	the bold paragraph `Fetchling [rogue](ref/class/rogue) 1` differs from the title `Fetchling`
+creature	ref/monster/fyndylsnitch-the-shadowking	entries/monster/fyndylsnitch-the-shadowking.md	the bold paragraph `Male leprechaun [sorcerer](ref/class/sorcerer) 5` differs from the title `Fyndylsnitch the Shadowking`
+creature	ref/monster/galundari	entries/monster/galundari.md	the bold paragraph `Male balor lord [fighter](ref/class/fighter) 5` differs from the title `Galundari, the Scourge of Heaven`
+creature	ref/monster/ganzi	entries/monster/ganzi.md	the bold paragraph `Female ganzi [bard](ref/class/bard) 1` differs from the title `Ganzi`
+creature	ref/monster/gargoyle-gargoyle-abductor	entries/monster/gargoyle-gargoyle-abductor.md	the bold paragraph `Gargoyle [fighter](ref/class/fighter) 5` differs from the title `Gargoyle Abductor`
+creature	ref/monster/gargoyle-kapoacinth-hunter	entries/monster/gargoyle-kapoacinth-hunter.md	the bold paragraph `Gargoyle [fighter](ref/class/fighter) 2` differs from the title `Kapoacinth Hunter (Gargoyle)`
+creature	ref/monster/gathlain	entries/monster/gathlain.md	the bold paragraph `Gathlain [sorcerer](ref/class/sorcerer) 1` differs from the title `Gathlain`
+creature	ref/monster/ghoran	entries/monster/ghoran.md	the bold paragraph `Ghoran [bard](ref/class/bard) 1` differs from the title `Ghoran`
+creature	ref/monster/ghoul-ancient-gravedigger	entries/monster/ghoul-ancient-gravedigger.md	the bold paragraph `Ghoul [oracle](ref/class/oracle) 10` differs from the title `Ancient Gravedigger (Ghoul)`
+creature	ref/monster/ghoul-ghoul-commander	entries/monster/ghoul-ghoul-commander.md	the bold paragraph `Ghoul [antipaladin](ref/class/antipaladin) 7` differs from the title `Ghoul Commander`
+creature	ref/monster/ghoul-ghoul-creeper	entries/monster/ghoul-ghoul-creeper.md	the bold paragraph `Ghoul [rogue](ref/class/rogue) 3` differs from the title `Ghoul Creeper`
+creature	ref/monster/ghoul-ghoul-huntsmaster	entries/monster/ghoul-ghoul-huntsmaster.md	the bold paragraph `Ghoul [ranger](ref/class/ranger) 6` differs from the title `Ghoul Huntsmaster`
+creature	ref/monster/ghoul-ghoul-monarch	entries/monster/ghoul-ghoul-monarch.md	the bold paragraph `Ghoul [sorcerer](ref/class/sorcerer) 12` differs from the title `Ghoul Monarch`
+creature	ref/monster/ghoul-ghoul-stalker	entries/monster/ghoul-ghoul-stalker.md	the bold paragraph `Ghoul [rogue](ref/class/rogue) 6` differs from the title `Ghoul Stalker`
+creature	ref/monster/ghoul-masked-murderer	entries/monster/ghoul-masked-murderer.md	the bold paragraph `Ghoul [bard](ref/class/bard) ([dirge bard](ref/arc-bard/dirge-bard)) 8` differs from the title `Masked Murderer (Ghoul)`
+creature	ref/monster/ghristah	entries/monster/ghristah.md	the bold paragraph `Female troglodyte [hunter](ref/class/hunter) ([feral hunter](ref/arc-hunter/feral-hunter)) 7` differs from the title `Ghristah`
+creature	ref/monster/giant-fire-fire-giant-doombringer	entries/monster/giant-fire-fire-giant-doombringer.md	the bold paragraph `[Fire giant](ref/monster/giant-fire-fire-giant) [oracle](ref/class/oracle) 16` differs from the title `Fire Giant Doombringer`
+creature	ref/monster/giant-fire-fire-giant-king	entries/monster/giant-fire-fire-giant-king.md	the bold paragraph `[Fire giant](ref/monster/giant-fire-fire-giant) [ranger](ref/class/ranger) 10` differs from the title `Fire Giant King`
+creature	ref/monster/giant-fire-fire-giant-lieutenant	entries/monster/giant-fire-fire-giant-lieutenant.md	the bold paragraph `[Fire giant](ref/monster/giant-fire-fire-giant) [cavalier](ref/class/cavalier) 6` differs from the title `Fire Giant Lieutenant`
+creature	ref/monster/giant-fire-fire-giant-magmablade	entries/monster/giant-fire-fire-giant-magmablade.md	the bold paragraph `[Fire giant](ref/monster/giant-fire-fire-giant) [magus](ref/class/magus) 14` differs from the title `Fire Giant Magmablade`
+creature	ref/monster/giant-fire-fire-giant-strongarm	entries/monster/giant-fire-fire-giant-strongarm.md	the bold paragraph `[Fire giant](ref/monster/giant-fire-fire-giant) [fighter](ref/class/fighter) 3` differs from the title `Fire Giant Strongarm`
+creature	ref/monster/giant-frost-frost-giant-battle-priest	entries/monster/giant-frost-frost-giant-battle-priest.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [cleric](ref/class/cleric) 8` differs from the title `Frost Giant Battle Priest`
+creature	ref/monster/giant-frost-frost-giant-elite-scout	entries/monster/giant-frost-frost-giant-elite-scout.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 4` differs from the title `Frost Giant Elite Scout`
+creature	ref/monster/giant-frost-frost-giant-houndmaster	entries/monster/giant-frost-frost-giant-houndmaster.md	the bold paragraph `Frost giant [druid](ref/class/druid) ([arctic druid](ref/arc-druid/arctic-druid)) 10` differs from the title `Frost Giant Houndmaster`
+creature	ref/monster/giant-frost-frost-giant-hunter	entries/monster/giant-frost-frost-giant-hunter.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 2` differs from the title `Frost Giant Hunter`
+creature	ref/monster/giant-frost-frost-giant-ice-mage	entries/monster/giant-frost-frost-giant-ice-mage.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [sorcerer](ref/class/sorcerer) 6` differs from the title `Frost Giant Ice Mage`
+creature	ref/monster/giant-frost-frost-giant-jarl	entries/monster/giant-frost-frost-giant-jarl.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 9` differs from the title `Frost Giant Jarl`
+creature	ref/monster/giant-frost-frost-giant-raider	entries/monster/giant-frost-frost-giant-raider.md	the bold paragraph `[Frost giant](ref/monster/giant-frost-frost-giant) [barbarian](ref/class/barbarian) 2` differs from the title `Frost Giant Raider`
+creature	ref/monster/gillman	entries/monster/gillman.md	the bold paragraph `Gillman [warrior](ref/npcclass/warrior) 1` differs from the title `Gillman`
+creature	ref/monster/gillman-awakened-agent	entries/monster/gillman-awakened-agent.md	the bold paragraph `Gillman [sorcerer](ref/class/sorcerer) 12` differs from the title `Awakened Agent (Gillman)`
+creature	ref/monster/gillman-ship-scavenger	entries/monster/gillman-ship-scavenger.md	the bold paragraph `Gillman [ranger](ref/class/ranger) 6` differs from the title `Ship Scavenger (Gillman)`
+creature	ref/monster/gillman-squall-seer	entries/monster/gillman-squall-seer.md	the bold paragraph `Gillman [bard](ref/class/bard) ([sea singer](ref/arc-bard/sea-singer)) 10` differs from the title `Squall Seer (Gillman)`
+creature	ref/monster/girtablilu-divine-chieftain	entries/monster/girtablilu-divine-chieftain.md	the bold paragraph `Girtablilu [druid](ref/class/druid) ([desert druid](ref/arc-druid/desert-druid)) 10` differs from the title `Divine Chieftain (Girtablilu)`
+creature	ref/monster/girtablilu-dune-strider	entries/monster/girtablilu-dune-strider.md	the bold paragraph `Girtablilu [ranger](ref/class/ranger) 3` differs from the title `Dune Strider (Girtablilu)`
+creature	ref/monster/girtablilu-quick-striker	entries/monster/girtablilu-quick-striker.md	the bold paragraph `Girtablilu [rogue](ref/class/rogue) ([scout](ref/arc-rogue/scout)) 8` differs from the title `Quick Striker (Girtablilu)`
+creature	ref/monster/girtablilu-raging-sting	entries/monster/girtablilu-raging-sting.md	the bold paragraph `Girtablilu [barbarian](ref/class/barbarian) 1` differs from the title `Raging Sting (Girtablilu)`
 creature	ref/monster/glaistig-mythic	entries/monster/glaistig-mythic.md	the bold paragraph `Mythic Glaistig` differs from the title `Glaistig`
+creature	ref/monster/gnoll-chosen-of-lamashtu	entries/monster/gnoll-chosen-of-lamashtu.md	the bold paragraph `Gnoll [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 11` differs from the title `Chosen of Lamashtu (Gnoll)`
+creature	ref/monster/gnoll-eye-of-lamashtu	entries/monster/gnoll-eye-of-lamashtu.md	the bold paragraph `Gnoll [cleric](ref/class/cleric) of [Lamashtu](ref/faith/lamashtu) 4` differs from the title `Eye of Lamashtu (Gnoll)`
+creature	ref/monster/gnoll-gnoll-bouda	entries/monster/gnoll-gnoll-bouda.md	the bold paragraph `Gnoll [witch](ref/class/witch) ([bouda](ref/arc-witch/bouda)) 12` differs from the title `Gnoll Bouda`
+creature	ref/monster/gnoll-gnoll-bruiser	entries/monster/gnoll-gnoll-bruiser.md	the bold paragraph `Gnoll [fighter](ref/class/fighter) 1/[rogue](ref/class/rogue) 1` differs from the title `Gnoll Bruiser`
+creature	ref/monster/gnoll-gnoll-lieutenant	entries/monster/gnoll-gnoll-lieutenant.md	the bold paragraph `Gnoll [fighter](ref/class/fighter) 5` differs from the title `Gnoll Lieutenant`
+creature	ref/monster/gnoll-gnoll-packlord	entries/monster/gnoll-gnoll-packlord.md	the bold paragraph `Gnoll [barbarian](ref/class/barbarian) ([pack rager](ref/arc-barbarian/pack-rager)) 8` differs from the title `Gnoll Packlord`
+creature	ref/monster/gnoll-gnoll-rageborn	entries/monster/gnoll-gnoll-rageborn.md	the bold paragraph `Gnoll [barbarian](ref/class/barbarian) ([pack rager](ref/arc-barbarian/pack-rager))` differs from the title `Gnoll Rageborn`
+creature	ref/monster/gnoll-gnoll-ravager	entries/monster/gnoll-gnoll-ravager.md	the bold paragraph `Gnoll [antipaladin](ref/class/antipaladin) of [Lamashtu](ref/faith/lamashtu) 10` differs from the title `Gnoll Ravager`
+creature	ref/monster/gnoll-gnoll-sergeant	entries/monster/gnoll-gnoll-sergeant.md	the bold paragraph `Gnoll [ranger](ref/class/ranger) 3` differs from the title `Gnoll Sergeant`
+creature	ref/monster/gnoll-gnoll-warden	entries/monster/gnoll-gnoll-warden.md	the bold paragraph `Gnoll [ranger](ref/class/ranger) ([skirmisher](ref/arc-ranger/skirmisher)) 9` differs from the title `Gnoll Warden`
+creature	ref/monster/goblin	entries/monster/goblin.md	the bold paragraph `Goblin [warrior](ref/npcclass/warrior) 1` differs from the title `Goblin`
+creature	ref/monster/goblin-goblin-chief	entries/monster/goblin-goblin-chief.md	the bold paragraph `Oversized goblin [fighter](ref/class/fighter) 10` differs from the title `Goblin Chief`
+creature	ref/monster/goblin-goblin-commando	entries/monster/goblin-goblin-commando.md	the bold paragraph `Goblin [fighter](ref/class/fighter) 3` differs from the title `Goblin Commando`
+creature	ref/monster/goblin-goblin-firestarter	entries/monster/goblin-goblin-firestarter.md	the bold paragraph `Goblin [rogue](ref/class/rogue) 5` differs from the title `Goblin Firestarter`
+creature	ref/monster/goblin-goblin-frog-talker	entries/monster/goblin-goblin-frog-talker.md	the bold paragraph `Goblin [witch](ref/class/witch) 6` differs from the title `Goblin Frog-Talker`
+creature	ref/monster/goblin-goblin-outrider	entries/monster/goblin-goblin-outrider.md	the bold paragraph `Goblin [ranger](ref/class/ranger) 2` differs from the title `Goblin Outrider`
+creature	ref/monster/goblin-goblin-sneak	entries/monster/goblin-goblin-sneak.md	the bold paragraph `Goblin [rogue](ref/class/rogue) 2` differs from the title `Goblin Sneak`
+creature	ref/monster/goblin-goblin-stickylord	entries/monster/goblin-goblin-stickylord.md	the bold paragraph `Goblin [alchemist](ref/class/alchemist) 7` differs from the title `Goblin Stickylord`
+creature	ref/monster/goblin-grizzled-rider	entries/monster/goblin-grizzled-rider.md	the bold paragraph `Goblin [ranger](ref/class/ranger) 6` differs from the title `Grizzled Rider`
+creature	ref/monster/goblin-monkey-goblin	entries/monster/goblin-monkey-goblin.md	the bold paragraph `Monkey goblin [barbarian](ref/class/barbarian) 1` differs from the title `Monkey Goblin`
+creature	ref/monster/golem-equine-bone-golem	entries/monster/golem-equine-bone-golem.md	the bold paragraph `Advanced variant bone golem` differs from the title `Equine Bone Golem`
 creature	ref/monster/golem-flesh-golem-mythic	entries/monster/golem-flesh-golem-mythic.md	the bold paragraph `Mythic Flesh Golem` differs from the title `Flesh Golem`
+creature	ref/monster/golem-sentient-wax-golem	entries/monster/golem-sentient-wax-golem.md	the bold paragraph `Commoner 1` differs from the title `Sentient Wax Golem`
 creature	ref/monster/graeae-mythic	entries/monster/graeae-mythic.md	the bold paragraph `Mythic Graeae` differs from the title `Graeae`
 creature	ref/monster/grendel-mythic	entries/monster/grendel-mythic.md	the bold paragraph `Mythic Grendel` differs from the title `Grendel`
+creature	ref/monster/grendler-red-chains	entries/monster/grendler-red-chains.md	the bold paragraph `Male advanced redcap` differs from the title `Grendler Red-Chains`
+creature	ref/monster/grippli	entries/monster/grippli.md	the bold paragraph `Grippli [ranger](ref/class/ranger) 1` differs from the title `Grippli`
 creature	ref/monster/grogrisant-mythic	entries/monster/grogrisant-mythic.md	the bold paragraph `Mythic Grogrisant` differs from the title `Grogrisant`
 creature	ref/monster/guardian-dragon-mythic	entries/monster/guardian-dragon-mythic.md	the bold paragraph `Mythic Guardian Dragon` differs from the title `Guardian Dragon`
-creature	ref/monster/ice-elemental	entries/monster/ice-elemental.md	the bold paragraph `Small Ice Elemental` differs from the title `Ice Elemental`
+creature	ref/monster/hobgoblin	entries/monster/hobgoblin.md	the bold paragraph `Hobgoblin [fighter](ref/class/fighter) 1` differs from the title `Hobgoblin`
+creature	ref/monster/hobgoblin-hobgoblin-battle-priest	entries/monster/hobgoblin-hobgoblin-battle-priest.md	the bold paragraph `Hobgoblin [cleric](ref/class/cleric) 9` differs from the title `Hobgoblin Battle Priest`
+creature	ref/monster/hobgoblin-hobgoblin-battlefield-zealot	entries/monster/hobgoblin-hobgoblin-battlefield-zealot.md	the bold paragraph `Hobgoblin [cleric](ref/class/cleric) 2/[fighter](ref/class/fighter) 1` differs from the title `Hobgoblin Battlefield Zealot`
+creature	ref/monster/hobgoblin-hobgoblin-bombardier	entries/monster/hobgoblin-hobgoblin-bombardier.md	the bold paragraph `Hobgoblin [alchemist](ref/class/alchemist) ([grenadier](ref/arc-alchemist/grenadier)) 8` differs from the title `Hobgoblin Bombardier`
+creature	ref/monster/hobgoblin-hobgoblin-commander	entries/monster/hobgoblin-hobgoblin-commander.md	the bold paragraph `Hobgoblin [samurai](ref/class/samurai) 13` differs from the title `Hobgoblin Commander`
+creature	ref/monster/hobgoblin-hobgoblin-forerunner	entries/monster/hobgoblin-hobgoblin-forerunner.md	the bold paragraph `Hobgoblin [fighter](ref/class/fighter) 7` differs from the title `Hobgoblin Forerunner`
+creature	ref/monster/hobgoblin-hobgoblin-lieutenant	entries/monster/hobgoblin-hobgoblin-lieutenant.md	the bold paragraph `Hobgoblin [ranger](ref/class/ranger) 5` differs from the title `Hobgoblin Lieutenant`
+creature	ref/monster/hobgoblin-hobgoblin-paragon	entries/monster/hobgoblin-hobgoblin-paragon.md	the bold paragraph `Hobgoblin [monk](ref/class/monk) 11` differs from the title `Hobgoblin Paragon`
+creature	ref/monster/hobgoblin-hobgoblin-sergeant	entries/monster/hobgoblin-hobgoblin-sergeant.md	the bold paragraph `Hobgoblin [fighter](ref/class/fighter) 3` differs from the title `Hobgoblin Sergeant`
+creature	ref/monster/hydra-dhirgiska	entries/monster/hydra-dhirgiska.md	the bold paragraph `Miasma hydra` differs from the title `Dhirgiska (Hydra)`
 creature	ref/monster/idol-bone	entries/monster/idol-bone.md	the bold paragraph `Bone` differs from the title `Bone Idol`
 creature	ref/monster/idol-jade	entries/monster/idol-jade.md	the bold paragraph `Jade` differs from the title `Jade Idol`
 creature	ref/monster/idol-stone	entries/monster/idol-stone.md	the bold paragraph `Stone` differs from the title `Stone Idol`
 creature	ref/monster/idol-wood	entries/monster/idol-wood.md	the bold paragraph `Wood` differs from the title `Wood Idol`
+creature	ref/monster/ifrit	entries/monster/ifrit.md	the bold paragraph `Ifrit [sorcerer](ref/class/sorcerer) 1` differs from the title `Ifrit`
+creature	ref/monster/ilzunae	entries/monster/ilzunae.md	the bold paragraph `Female shadow demon [cleric](ref/class/cleric) of [Nocticula](ref/faith/nocticula) 15` differs from the title `Ilzunae, the Gloom Widow`
 creature	ref/monster/irminsul-mythic	entries/monster/irminsul-mythic.md	the bold paragraph `Mythic Irminsul` differs from the title `Irminsul`
+creature	ref/monster/jarl-gnargorak	entries/monster/jarl-gnargorak.md	the bold paragraph `Male frost giant [ranger](ref/class/ranger) 12/marshal 8` differs from the title `Jarl Gnargorak`
 creature	ref/monster/julunggali-mythic	entries/monster/julunggali-mythic.md	the bold paragraph `Mythic Julunggali` differs from the title `Julunggali`
+creature	ref/monster/kallas-devil	entries/monster/kallas-devil.md	the bold paragraph `Variant nuckelavee` differs from the title `Kallas Devil`
+creature	ref/monster/kaltestrua	entries/monster/kaltestrua.md	the bold paragraph `Female marilith [sorcerer](ref/class/sorcerer) 7` differs from the title `Kaltestrua, Governess of Casnoriva`
+creature	ref/monster/kasatha	entries/monster/kasatha.md	the bold paragraph `Male kasatha [monk](ref/class/monk) 1` differs from the title `Kasatha`
+creature	ref/monster/khalirai	entries/monster/khalirai.md	the bold paragraph `Nymph [oracle](ref/class/oracle) 8` differs from the title `Khalirai, the Ivory Queen`
+creature	ref/monster/kitsune	entries/monster/kitsune.md	the bold paragraph `Female kitsune [sorcerer](ref/class/sorcerer) 1` differs from the title `Kitsune`
+creature	ref/monster/kobold	entries/monster/kobold.md	the bold paragraph `Kobold [warrior](ref/npcclass/warrior) 1` differs from the title `Kobold`
+creature	ref/monster/kobold-kobold-battle-master	entries/monster/kobold-kobold-battle-master.md	the bold paragraph `Kobold [cavalier](ref/class/cavalier) 7` differs from the title `Kobold Battle Master`
+creature	ref/monster/kobold-kobold-blade	entries/monster/kobold-kobold-blade.md	the bold paragraph `Kobold [fighter](ref/class/fighter) 4` differs from the title `Kobold Blade`
+creature	ref/monster/kobold-kobold-chieftain	entries/monster/kobold-kobold-chieftain.md	the bold paragraph `Kobold [fighter](ref/class/fighter) 5/[rogue](ref/class/rogue) 3/assassin 1` differs from the title `Kobold Chieftain`
+creature	ref/monster/kobold-kobold-devilspeaker	entries/monster/kobold-kobold-devilspeaker.md	the bold paragraph `Kobold [cleric](ref/class/cleric) of [Asmodeus](ref/faith/asmodeus) 8` differs from the title `Kobold Devilspeaker`
+creature	ref/monster/kobold-kobold-guilecaster	entries/monster/kobold-kobold-guilecaster.md	the bold paragraph `Kobold [sorcerer](ref/class/sorcerer) 6` differs from the title `Kobold Guilecaster`
+creature	ref/monster/kobold-kobold-master-trapper	entries/monster/kobold-kobold-master-trapper.md	the bold paragraph `Kobold [rogue](ref/class/rogue) 5` differs from the title `Kobold Master Trapper`
+creature	ref/monster/kobold-kobold-monster-wrangler	entries/monster/kobold-kobold-monster-wrangler.md	the bold paragraph `Kobold [cavalier](ref/class/cavalier) 2` differs from the title `Kobold Monster Wrangler`
+creature	ref/monster/kobold-kobold-scalecaster	entries/monster/kobold-kobold-scalecaster.md	the bold paragraph `Kobold [sorcerer](ref/class/sorcerer) 1` differs from the title `Kobold Scalecaster`
+creature	ref/monster/kobold-kobold-sniper	entries/monster/kobold-kobold-sniper.md	the bold paragraph `Kobold [fighter](ref/class/fighter) 1` differs from the title `Kobold Sniper`
+creature	ref/monster/kobold-kobold-yapper	entries/monster/kobold-kobold-yapper.md	the bold paragraph `Kobold [bard](ref/class/bard) ([dragon yapper](ref/arc-bard/dragon-yapper)) 8` differs from the title `Kobold Yapper`
+creature	ref/monster/kraken-qwoshokk	entries/monster/kraken-qwoshokk.md	the bold paragraph `Male unique elder kraken` differs from the title `Qwoshokk (Kraken)`
+creature	ref/monster/kuru	entries/monster/kuru.md	the bold paragraph `Male [barbarian](ref/class/barbarian) 1` differs from the title `Kuru`
+creature	ref/monster/lashunta	entries/monster/lashunta.md	the bold paragraph `Female lashunta [wizard](ref/class/wizard) 1` differs from the title `Lashunta`
 creature	ref/monster/leanan-sidhe-mythic	entries/monster/leanan-sidhe-mythic.md	the bold paragraph `Mythic Leanan Sidhe` differs from the title `Leanan Sidhe`
-creature	ref/monster/lightning-elemental	entries/monster/lightning-elemental.md	the bold paragraph `Small Lightning Elemental` differs from the title `Lightning Elemental`
-creature	ref/monster/magma-elemental	entries/monster/magma-elemental.md	the bold paragraph `Small Magma Elemental` differs from the title `Magma Elemental`
+creature	ref/monster/lich-forsaken-lich	entries/monster/lich-forsaken-lich.md	the bold paragraph `Human lich [cleric](ref/class/cleric) of [Urgathoa](ref/faith/urgathoa) 11` differs from the title `Forsaken Lich`
+creature	ref/monster/lizardfolk-lizardfolk-berserker	entries/monster/lizardfolk-lizardfolk-berserker.md	the bold paragraph `Lizardfolk [barbarian](ref/class/barbarian) 4` differs from the title `Lizardfolk Berserker`
+creature	ref/monster/lizardfolk-lizardfolk-champion	entries/monster/lizardfolk-lizardfolk-champion.md	the bold paragraph `Lizardfolk [cavalier](ref/class/cavalier) 9` differs from the title `Lizardfolk Champion`
+creature	ref/monster/lizardfolk-lizardfolk-clutch-mother	entries/monster/lizardfolk-lizardfolk-clutch-mother.md	the bold paragraph `Lizardfolk [druid](ref/class/druid) ([ancient guardian](ref/arc-druid/ancient-guardian)) 12` differs from the title `Lizardfolk Clutch Mother`
+creature	ref/monster/lizardfolk-lizardfolk-rattler	entries/monster/lizardfolk-lizardfolk-rattler.md	the bold paragraph `Lizardfolk [bard](ref/class/bard) 4` differs from the title `Lizardfolk Rattler`
+creature	ref/monster/lizardfolk-lizardfolk-sorcerer	entries/monster/lizardfolk-lizardfolk-sorcerer.md	the bold paragraph `Lizardfolk [sorcerer](ref/class/sorcerer) 11` differs from the title `Lizardfolk Sorcerer`
+creature	ref/monster/lizardfolk-lizardfolk-stalker	entries/monster/lizardfolk-lizardfolk-stalker.md	the bold paragraph `Lizardfolk [ranger](ref/class/ranger) 2` differs from the title `Lizardfolk Stalker`
+creature	ref/monster/lizardfolk-lizardfolk-swamp-lurker	entries/monster/lizardfolk-lizardfolk-swamp-lurker.md	the bold paragraph `Lizardfolk [ranger](ref/class/ranger) 7` differs from the title `Lizardfolk Swamp Lurker`
+creature	ref/monster/lizardfolk-lizardfolk-vanguard	entries/monster/lizardfolk-lizardfolk-vanguard.md	the bold paragraph `Lizardfolk [barbarian](ref/class/barbarian) 1` differs from the title `Lizardfolk Vanguard`
+creature	ref/monster/malsandra	entries/monster/malsandra.md	the bold paragraph `Rusalka [rogue](ref/class/rogue) 4` differs from the title `Malsandra`
+creature	ref/monster/malziarax	entries/monster/malziarax.md	the bold paragraph `Female rune giant [fighter](ref/class/fighter) 4` differs from the title `Malziarax, Rune Giant Overlord`
 creature	ref/monster/manasaputra-solar-pitri-agnishvatta-mythic	entries/monster/manasaputra-solar-pitri-agnishvatta-mythic.md	the bold paragraph `Mythic Solar Pitri (Agnishvatta)` differs from the title `Manasaputra, Solar Pitri (Agnishvatta)`
 creature	ref/monster/manasaputra-twilight-pitri-barhisad	entries/monster/manasaputra-twilight-pitri-barhisad.md	the bold paragraph `Twilight Pitri (Barhisad)` differs from the title `Twilight Pitri (Barhisad, Manasaputra)`
-creature	ref/monster/mud-elemental	entries/monster/mud-elemental.md	the bold paragraph `Small Mud Elemental` differs from the title `Mud Elemental`
+creature	ref/monster/mangvhune	entries/monster/mangvhune.md	the bold paragraph `Male babau assassin 10` differs from the title `Mangvhune, the Temple Hill Slasher`
+creature	ref/monster/mardahamman	entries/monster/mardahamman.md	the bold paragraph `Male cyclops [fighter](ref/class/fighter) 10` differs from the title `Mardahamman, Cyclops Tyrant`
+creature	ref/monster/medusa-eygreas	entries/monster/medusa-eygreas.md	the bold paragraph `Female brazen medusa [ranger](ref/class/ranger) 5` differs from the title `Eygreas (Medusa)`
+creature	ref/monster/merfolk	entries/monster/merfolk.md	the bold paragraph `Merfolk [warrior](ref/npcclass/warrior) 1` differs from the title `Merfolk`
+creature	ref/monster/minotaur-labyrinth-guardian	entries/monster/minotaur-labyrinth-guardian.md	the bold paragraph `Minotaur graveknight [fighter](ref/class/fighter) 1` differs from the title `Labyrinth Guardian (Minotaur)`
+creature	ref/monster/minotaur-minotaur-marauder	entries/monster/minotaur-minotaur-marauder.md	the bold paragraph `Minotaur [ranger](ref/class/ranger) 2` differs from the title `Minotaur Marauder`
+creature	ref/monster/minotaur-prophet-of-baphomet	entries/monster/minotaur-prophet-of-baphomet.md	the bold paragraph `Minotaur [cleric](ref/class/cleric) of [Baphomet](ref/faith/baphomet) 11` differs from the title `Prophet of Baphomet (Minotaur)`
+creature	ref/monster/minotaur-tangle-tender	entries/monster/minotaur-tangle-tender.md	the bold paragraph `Minotaur [rogue](ref/class/rogue) ([trapsmith](ref/arc-rogue/trapsmith)) 8` differs from the title `Tangle Tender (Minotaur)`
+creature	ref/monster/moldering-emperor	entries/monster/moldering-emperor.md	the bold paragraph `[Black-blooded](ref/template/black-blooded) [neothelid](ref/monster/neothelid)` differs from the title `The Moldering Emperor`
+creature	ref/monster/mummy-lord	entries/monster/mummy-lord.md	the bold paragraph `Male human mummy lord [cleric](ref/class/cleric) 9` differs from the title `Mummy Lord`
+creature	ref/monster/munavri	entries/monster/munavri.md	the bold paragraph `Female munavri [mesmerist](ref/class/mesmerist)` differs from the title `Munavri`
 creature	ref/monster/myrmecoleon-mythic	entries/monster/myrmecoleon-mythic.md	the bold paragraph `Mythic Myrmecoleon` differs from the title `Myrmecoleon`
+creature	ref/monster/nagaji	entries/monster/nagaji.md	the bold paragraph `Male nagaji [fighter](ref/class/fighter) 1` differs from the title `Nagaji`
+creature	ref/monster/naiad	entries/monster/naiad.md	the bold paragraph `Naiad [bard](ref/class/bard) 1` differs from the title `Naiad`
+creature	ref/monster/ogre-ogre-boss	entries/monster/ogre-ogre-boss.md	the bold paragraph `Ogre [fighter](ref/class/fighter) 4` differs from the title `Ogre Boss`
+creature	ref/monster/ogre-ogre-brute	entries/monster/ogre-ogre-brute.md	the bold paragraph `Ogre [barbarian](ref/class/barbarian) 3` differs from the title `Ogre Brute`
+creature	ref/monster/ogre-ogre-destroyer	entries/monster/ogre-ogre-destroyer.md	the bold paragraph `Ogre [antipaladin](ref/class/antipaladin) 7` differs from the title `Ogre Destroyer`
+creature	ref/monster/ogre-ogre-glutton	entries/monster/ogre-ogre-glutton.md	the bold paragraph `Ogre [barbarian](ref/class/barbarian) 8` differs from the title `Ogre Glutton`
+creature	ref/monster/ogre-ogre-hunter	entries/monster/ogre-ogre-hunter.md	the bold paragraph `Ogre [ranger](ref/class/ranger) 6` differs from the title `Ogre Hunter`
+creature	ref/monster/ogre-ogre-king	entries/monster/ogre-ogre-king.md	the bold paragraph `Ogre [oracle](ref/class/oracle) 12` differs from the title `Ogre King`
+creature	ref/monster/ogre-ogre-mancatcher	entries/monster/ogre-ogre-mancatcher.md	the bold paragraph `Ogre [fighter](ref/class/fighter) 5` differs from the title `Ogre Mancatcher`
+creature	ref/monster/ogre-ogre-priest	entries/monster/ogre-ogre-priest.md	the bold paragraph `Ogre [cleric](ref/class/cleric) 2` differs from the title `Ogre Priest`
+creature	ref/monster/ogre-ogre-stalker	entries/monster/ogre-ogre-stalker.md	the bold paragraph `Ogre [rogue](ref/class/rogue) 3` differs from the title `Ogre Stalker`
+creature	ref/monster/old-mage-jatembe	entries/monster/old-mage-jatembe.md	the bold paragraph `Male old human [wizard](ref/class/wizard) 20/archmage 6` differs from the title `Old-Mage Jatembe`
+creature	ref/monster/old-wulunga	entries/monster/old-wulunga.md	the bold paragraph `Male advanced muck bunyip` differs from the title `Old Wulunga`
+creature	ref/monster/oozlosh	entries/monster/oozlosh.md	the bold paragraph `Male marsh giant [cleric](ref/class/cleric) of [Dagon](ref/faith/dagon) 10` differs from the title `Oozlosh, Marsh Giant High Priest`
 creature	ref/monster/ophiotaurus-mythic	entries/monster/ophiotaurus-mythic.md	the bold paragraph `Mythic Ophiotaurus` differs from the title `Ophiotaurus`
+creature	ref/monster/orang-pendak	entries/monster/orang-pendak.md	the bold paragraph `Orang-pendak [fighter](ref/class/fighter) 1` differs from the title `Orang-pendak`
+creature	ref/monster/orania	entries/monster/orania.md	the bold paragraph `Female cloud giant [oracle](ref/class/oracle) 12` differs from the title `Orania, Cloud Giant Oligarch`
+creature	ref/monster/orc	entries/monster/orc.md	the bold paragraph `Orc [warrior](ref/npcclass/warrior) 1` differs from the title `Orc`
+creature	ref/monster/orc-gorthek-rider	entries/monster/orc-gorthek-rider.md	the bold paragraph `Orc [cavalier](ref/class/cavalier) 7` differs from the title `Gorthek Rider (Orc)`
+creature	ref/monster/orc-orc-chieftain	entries/monster/orc-orc-chieftain.md	the bold paragraph `Orc [fighter](ref/class/fighter) 10` differs from the title `Orc Chieftain`
+creature	ref/monster/orc-orc-lieutenant	entries/monster/orc-orc-lieutenant.md	the bold paragraph `Orc [fighter](ref/class/fighter) 5` differs from the title `Orc Lieutenant`
+creature	ref/monster/orc-orc-mystic	entries/monster/orc-orc-mystic.md	the bold paragraph `Orc [cleric](ref/class/cleric) 3` differs from the title `Orc Mystic`
+creature	ref/monster/orc-orc-scout	entries/monster/orc-orc-scout.md	the bold paragraph `Orc [ranger](ref/class/ranger) 6` differs from the title `Orc Scout`
+creature	ref/monster/orc-orc-sergeant	entries/monster/orc-orc-sergeant.md	the bold paragraph `Orc [fighter](ref/class/fighter) 3` differs from the title `Orc Sergeant`
+creature	ref/monster/orc-orc-thug	entries/monster/orc-orc-thug.md	the bold paragraph `Orc [rogue](ref/class/rogue) 4` differs from the title `Orc Thug`
+creature	ref/monster/orc-orc-war-drummer	entries/monster/orc-orc-war-drummer.md	the bold paragraph `Orc [bard](ref/class/bard) ([savage skald](ref/arc-bard/savage-skald)) 4` differs from the title `Orc War Drummer`
+creature	ref/monster/orc-orc-warlord	entries/monster/orc-orc-warlord.md	the bold paragraph `Orc [barbarian](ref/class/barbarian) 7` differs from the title `Orc Warlord`
+creature	ref/monster/orc-orc-witch-doctor	entries/monster/orc-orc-witch-doctor.md	the bold paragraph `Orc [witch](ref/class/witch) ([scarred witch doctor](ref/arc-witch/scarred-witch-doctor)) 9` differs from the title `Orc Witch Doctor`
+creature	ref/monster/oread	entries/monster/oread.md	the bold paragraph `Oread [fighter](ref/class/fighter) 1` differs from the title `Oread`
+creature	ref/monster/orynox-marchelin	entries/monster/orynox-marchelin.md	the bold paragraph `Male fire giant [fighter](ref/class/fighter) (polearm master) 9` differs from the title `Orynox Marchelin, Fire Giant King`
+creature	ref/monster/paakis-si	entries/monster/paakis-si.md	the bold paragraph `Male sasquatch [ranger](ref/class/ranger) ([warden](ref/arc-ranger/warden)) 3` differs from the title `Paakis-Si`
+creature	ref/monster/papa-chupar	entries/monster/papa-chupar.md	the bold paragraph `Male unique winged chupacabra` differs from the title `Papa Chupar`
+creature	ref/monster/phoenix-pyralisia	entries/monster/phoenix-pyralisia.md	the bold paragraph `Female unique phoenix` differs from the title `Pyralisia, the Rain of Embers (Phoenix)`
 creature	ref/monster/plague-swarm-bat-plague-swarm-mythic	entries/monster/plague-swarm-bat-plague-swarm-mythic.md	the bold paragraph `Mythic Bat Plague Swarm` differs from the title `Bat Plague Swarm (Plague Swarm)`
 creature	ref/monster/plague-swarm-locust-plague-swarm-mythic	entries/monster/plague-swarm-locust-plague-swarm-mythic.md	the bold paragraph `Mythic Locust Plague Swarm` differs from the title `Locust Plague Swarm (Plague Swarm)`
 creature	ref/monster/plague-swarm-rat-plague-swarm-mythic	entries/monster/plague-swarm-rat-plague-swarm-mythic.md	the bold paragraph `Mythic Rat Plague Swarm` differs from the title `Rat Plague Swarm (Plague Swarm)`
 creature	ref/monster/poppet-poppet-small	entries/monster/poppet-poppet-small.md	the bold paragraph `Poppet, Small` differs from the title `Small Poppet`
 creature	ref/monster/poppet-poppet-tiny	entries/monster/poppet-poppet-tiny.md	the bold paragraph `Poppet, Tiny` differs from the title `Tiny Poppet`
 creature	ref/monster/portunus-mythic	entries/monster/portunus-mythic.md	the bold paragraph `Mythic Portunus` differs from the title `Portunus`
+creature	ref/monster/qaishan-yeti	entries/monster/qaishan-yeti.md	the bold paragraph `Yeti [monk](ref/class/monk) 5` differs from the title `Qaishan Yeti`
+creature	ref/monster/quetzutrhul	entries/monster/quetzutrhul.md	the bold paragraph `Rogue mutant intellect devourer` differs from the title `Quetzutrhul`
+creature	ref/monster/rahstalshan	entries/monster/rahstalshan.md	the bold paragraph `Female [stone giant](ref/monster/giant-stone-giant) elder [sorcerer](ref/class/sorcerer) 10` differs from the title `Rahstalshan, Stone Giant Elder`
+creature	ref/monster/raskineya	entries/monster/raskineya.md	the bold paragraph `Female adult [void dragon](ref/monster/dragon-outer-void-adult-void-dragon)` differs from the title `Raskineya, the Dark Comet`
+creature	ref/monster/ratfolk	entries/monster/ratfolk.md	the bold paragraph `Ratfolk [expert](ref/npcclass/expert) 1` differs from the title `Ratfolk`
+creature	ref/monster/ratfolk-ratfolk-bravo	entries/monster/ratfolk-ratfolk-bravo.md	the bold paragraph `Ratfolk [gunslinger](ref/class/gunslinger) 3` differs from the title `Ratfolk Bravo`
+creature	ref/monster/ratfolk-ratfolk-caravan-guard	entries/monster/ratfolk-ratfolk-caravan-guard.md	the bold paragraph `Ratfolk [ranger](ref/class/ranger) 4` differs from the title `Ratfolk Caravan Guard`
+creature	ref/monster/ratfolk-ratfolk-chemist	entries/monster/ratfolk-ratfolk-chemist.md	the bold paragraph `Ratfolk [alchemist](ref/class/alchemist) 8` differs from the title `Ratfolk Chemist`
+creature	ref/monster/ratfolk-ratfolk-elder	entries/monster/ratfolk-ratfolk-elder.md	the bold paragraph `Ratfolk [cleric](ref/class/cleric) of [Abadar](ref/faith/abadar) 9` differs from the title `Ratfolk Elder`
+creature	ref/monster/ratfolk-ratfolk-expedition-leader	entries/monster/ratfolk-ratfolk-expedition-leader.md	the bold paragraph `Ratfolk [ranger](ref/class/ranger) 8` differs from the title `Ratfolk Expedition Leader`
+creature	ref/monster/ratfolk-ratfolk-sage	entries/monster/ratfolk-ratfolk-sage.md	the bold paragraph `Ratfolk diviner 7` differs from the title `Ratfolk Sage`
+creature	ref/monster/ratfolk-ratfolk-tinkerer	entries/monster/ratfolk-ratfolk-tinkerer.md	the bold paragraph `Ratfolk [rogue](ref/class/rogue) 2` differs from the title `Ratfolk Tinkerer`
+creature	ref/monster/ratfolk-ratfolk-troubleshooter	entries/monster/ratfolk-ratfolk-troubleshooter.md	the bold paragraph `Ratfolk [rogue](ref/class/rogue) 6` differs from the title `Ratfolk Troubleshooter`
+creature	ref/monster/ratfolk-ratfolk-warden	entries/monster/ratfolk-ratfolk-warden.md	the bold paragraph `Ratfolk [fighter](ref/class/fighter) 5` differs from the title `Ratfolk Warden`
+creature	ref/monster/reptoid	entries/monster/reptoid.md	the bold paragraph `Reptoid [mesmerist](ref/class/mesmerist) 1` differs from the title `Reptoid`
+creature	ref/monster/rougarou	entries/monster/rougarou.md	the bold paragraph `Female rougarou [ranger](ref/class/ranger) 1` differs from the title `Rougarou`
+creature	ref/monster/sahuagin-sahuagin-baron	entries/monster/sahuagin-sahuagin-baron.md	the bold paragraph `Sahuagin [fighter](ref/class/fighter) 7` differs from the title `Sahuagin Baron`
+creature	ref/monster/sahuagin-sahuagin-brute	entries/monster/sahuagin-sahuagin-brute.md	the bold paragraph `Sahuagin [barbarian](ref/class/barbarian) 1` differs from the title `Sahuagin Brute`
+creature	ref/monster/sahuagin-sahuagin-champion	entries/monster/sahuagin-sahuagin-champion.md	the bold paragraph `Four-armed sahuagin [barbarian](ref/class/barbarian) 7` differs from the title `Sahuagin Champion`
+creature	ref/monster/sahuagin-sahuagin-deep-racer	entries/monster/sahuagin-sahuagin-deep-racer.md	the bold paragraph `Shark-blooded sahuagin [ranger](ref/class/ranger) 2` differs from the title `Sahuagin Deep Racer`
+creature	ref/monster/sahuagin-sahuagin-high-priestess	entries/monster/sahuagin-sahuagin-high-priestess.md	the bold paragraph `Giant sahuagin [cleric](ref/class/cleric) 7` differs from the title `Sahuagin High Priestess`
+creature	ref/monster/sahuagin-sahuagin-infiltrator	entries/monster/sahuagin-sahuagin-infiltrator.md	the bold paragraph `Sahuagin [rogue](ref/class/rogue) 6` differs from the title `Sahuagin Infiltrator`
+creature	ref/monster/sahuagin-sahuagin-lieutenant	entries/monster/sahuagin-sahuagin-lieutenant.md	the bold paragraph `Sahuagin [fighter](ref/class/fighter) 3` differs from the title `Sahuagin Lieutenant`
+creature	ref/monster/sahuagin-sahuagin-scout	entries/monster/sahuagin-sahuagin-scout.md	the bold paragraph `Sahuagin [rogue](ref/class/rogue) 2` differs from the title `Sahuagin Scout`
+creature	ref/monster/sahuagin-sahuagin-shark-sentry	entries/monster/sahuagin-sahuagin-shark-sentry.md	the bold paragraph `Sahuagin [ranger](ref/class/ranger) 4` differs from the title `Sahuagin Shark Sentry`
+creature	ref/monster/sahuagin-sahuagin-underpriestess	entries/monster/sahuagin-sahuagin-underpriestess.md	the bold paragraph `Sahuagin [cleric](ref/class/cleric) 4` differs from the title `Sahuagin Underpriestess`
+creature	ref/monster/samsaran	entries/monster/samsaran.md	the bold paragraph `Male samsaran [oracle](ref/class/oracle) 1` differs from the title `Samsaran`
+creature	ref/monster/samsaran-reborn-samsaran	entries/monster/samsaran-reborn-samsaran.md	the bold paragraph `Reborn samsaran [occultist](ref/class/occultist) 1` differs from the title `Reborn Samsaran`
+creature	ref/monster/scyld-hranni	entries/monster/scyld-hranni.md	the bold paragraph `Female storm giant [cleric](ref/class/cleric) of [Aegirran](ref/faith/aegirran) 13` differs from the title `Scyld Hranni, Storm Giant Matriarch`
+creature	ref/monster/serpentfolk-serpentfolk-bone-prophet	entries/monster/serpentfolk-serpentfolk-bone-prophet.md	the bold paragraph `Advanced serpentfolk [oracle](ref/class/oracle) 7` differs from the title `Serpentfolk Bone Prophet`
+creature	ref/monster/serpentfolk-serpentfolk-high-priest	entries/monster/serpentfolk-serpentfolk-high-priest.md	the bold paragraph `Advanced serpentfolk [cleric](ref/class/cleric) 10` differs from the title `Serpentfolk High Priest`
+creature	ref/monster/serpentfolk-serpentfolk-hunter	entries/monster/serpentfolk-serpentfolk-hunter.md	the bold paragraph `Degenerate serpentfolk [ranger](ref/class/ranger) 2` differs from the title `Serpentfolk Hunter`
+creature	ref/monster/serpentfolk-serpentfolk-illusionist	entries/monster/serpentfolk-serpentfolk-illusionist.md	the bold paragraph `Advanced serpentfolk illusionist 4` differs from the title `Serpentfolk Illusionist`
+creature	ref/monster/serpentfolk-serpentfolk-spellblade	entries/monster/serpentfolk-serpentfolk-spellblade.md	the bold paragraph `Advanced serpentfolk [magus](ref/class/magus) 9` differs from the title `Serpentfolk Spellblade`
+creature	ref/monster/serpentfolk-serpentfolk-spy	entries/monster/serpentfolk-serpentfolk-spy.md	the bold paragraph `Advanced serpentfolk [rogue](ref/class/rogue) 1` differs from the title `Serpentfolk Spy`
+creature	ref/monster/shabti	entries/monster/shabti.md	the bold paragraph `Shabti [oracle](ref/class/oracle) 1` differs from the title `Shabti`
+creature	ref/monster/shaorhaz	entries/monster/shaorhaz.md	the bold paragraph `Male vrolikai [inquisitor](ref/class/inquisitor) of [Cyth-V'sug](ref/faith/cyth-vsug) 9` differs from the title `Shaorhaz, Glutton of the Green`
 creature	ref/monster/shen-mythic	entries/monster/shen-mythic.md	the bold paragraph `Mythic Shen` differs from the title `Shen`
+creature	ref/monster/siabrae	entries/monster/siabrae.md	the bold paragraph `Female old human siabrae [druid](ref/class/druid) 14` differs from the title `Siabrae`
+creature	ref/monster/skeleton-skeletal-mage	entries/monster/skeleton-skeletal-mage.md	the bold paragraph `Human skeletal mage necromancer 3` differs from the title `Skeletal Mage (Skeleton)`
+creature	ref/monster/skeleton-skeletal-mount	entries/monster/skeleton-skeletal-mount.md	the bold paragraph `Advanced heavy horse skeleton` differs from the title `Skeletal Mount (Skeleton)`
+creature	ref/monster/skinwalker	entries/monster/skinwalker.md	the bold paragraph `Male skinwalker [ranger](ref/class/ranger) 1` differs from the title `Skinwalker`
+creature	ref/monster/strix	entries/monster/strix.md	the bold paragraph `Strix [warrior](ref/npcclass/warrior) 1` differs from the title `Strix`
+creature	ref/monster/strix-itaraak-champion	entries/monster/strix-itaraak-champion.md	the bold paragraph `Strix [slayer](ref/class/slayer) 10` differs from the title `Itaraak Champion (Strix)`
+creature	ref/monster/strix-strix-infiltrator	entries/monster/strix-strix-infiltrator.md	the bold paragraph `Strix [investigator](ref/class/investigator) 4` differs from the title `Strix Infiltrator`
+creature	ref/monster/strix-strix-voyager	entries/monster/strix-strix-voyager.md	the bold paragraph `Strix [bard](ref/class/bard) 6` differs from the title `Strix Voyager`
+creature	ref/monster/suli	entries/monster/suli.md	the bold paragraph `Suli [ranger](ref/class/ranger) 1` differs from the title `Suli`
+creature	ref/monster/svirfneblin	entries/monster/svirfneblin.md	the bold paragraph `Svirfneblin [ranger](ref/class/ranger) 1` differs from the title `Svirfneblin`
+creature	ref/monster/sylph	entries/monster/sylph.md	the bold paragraph `Sylph [rogue](ref/class/rogue) 1` differs from the title `Sylph`
+creature	ref/monster/syrinx	entries/monster/syrinx.md	the bold paragraph `Syrinx [adept](ref/npcclass/adept) 1` differs from the title `Syrinx`
+creature	ref/monster/tanaq-mammoth-eater	entries/monster/tanaq-mammoth-eater.md	the bold paragraph `Male taiga giant [druid](ref/class/druid) ([mountain druid](ref/arc-druid/mountain-druid)) 10` differs from the title `Tanaq Mammoth-Eater, Taiga Giant Shaman`
+creature	ref/monster/tengu	entries/monster/tengu.md	the bold paragraph `Male tengu [rogue](ref/class/rogue) 1` differs from the title `Tengu`
+creature	ref/monster/thath-malal	entries/monster/thath-malal.md	the bold paragraph `Variant young neothelid` differs from the title `Thath-Malal, the Eyeless Prince`
+creature	ref/monster/the-mistress-of-the-fen	entries/monster/the-mistress-of-the-fen.md	the bold paragraph `Female unique water orm` differs from the title `The Mistress of the Fen`
+creature	ref/monster/the-mourning-one	entries/monster/the-mourning-one.md	the bold paragraph `Unique black-blooded sea serpent` differs from the title `The Mourning One`
+creature	ref/monster/the-surface-caller	entries/monster/the-surface-caller.md	the bold paragraph `Female drow [sorcerer](ref/class/sorcerer) 4/[swashbuckler](ref/class/swashbuckler) 4` differs from the title `The Surface Caller`
+creature	ref/monster/the-whispering-tyrant	entries/monster/the-whispering-tyrant.md	the bold paragraph `Human mythic lich necromancer 20` differs from the title `The Whispering Tyrant`
+creature	ref/monster/tiefling	entries/monster/tiefling.md	the bold paragraph `Tiefling [rogue](ref/class/rogue) 1` differs from the title `Tiefling`
 creature	ref/monster/titan-danava-mythic	entries/monster/titan-danava-mythic.md	the bold paragraph `Mythic Danava` differs from the title `Danava (Titan)`
 creature	ref/monster/titan-fomorian-titan-mythic	entries/monster/titan-fomorian-titan-mythic.md	the bold paragraph `Mythic Fomorian Titan` differs from the title `Fomorian Titan (Titan)`
+creature	ref/monster/trench-mist-trench-zombie	entries/monster/trench-mist-trench-zombie.md	the bold paragraph `Human [fighter](ref/class/fighter) ([trench fighter](ref/arc-fighter/trench-fighter)) 6` differs from the title `Trench Zombie (Trench Mist)`
+creature	ref/monster/triaxian	entries/monster/triaxian.md	the bold paragraph `Triaxian [ranger](ref/class/ranger) 1` differs from the title `Triaxian`
+creature	ref/monster/triaza	entries/monster/triaza.md	the bold paragraph `Female urdefhan [magus](ref/class/magus) 7` differs from the title `Triaza`
+creature	ref/monster/troggle-troggle-raider	entries/monster/troggle-troggle-raider.md	the bold paragraph `Troggle [ranger](ref/class/ranger) 2` differs from the title `Troggle Raider`
+creature	ref/monster/troglodyte-troglodyte-beast-speaker	entries/monster/troglodyte-troglodyte-beast-speaker.md	the bold paragraph `Troglodyte [druid](ref/class/druid) 3` differs from the title `Troglodyte Beast-Speaker`
+creature	ref/monster/troglodyte-troglodyte-champion	entries/monster/troglodyte-troglodyte-champion.md	the bold paragraph `Troglodyte [fighter](ref/class/fighter) 6` differs from the title `Troglodyte Champion`
+creature	ref/monster/troglodyte-troglodyte-priest	entries/monster/troglodyte-troglodyte-priest.md	the bold paragraph `Troglodyte [cleric](ref/class/cleric) 3` differs from the title `Troglodyte Priest`
+creature	ref/monster/troglodyte-troglodyte-scale-rider	entries/monster/troglodyte-troglodyte-scale-rider.md	the bold paragraph `Troglodyte [ranger](ref/class/ranger) 5` differs from the title `Troglodyte Scale-Rider`
+creature	ref/monster/troglodyte-troglodyte-skulker	entries/monster/troglodyte-troglodyte-skulker.md	the bold paragraph `Troglodyte [rogue](ref/class/rogue) 2` differs from the title `Troglodyte Skulker`
+creature	ref/monster/troglodyte-troglodyte-sorcerer	entries/monster/troglodyte-troglodyte-sorcerer.md	the bold paragraph `Troglodyte [sorcerer](ref/class/sorcerer) 4` differs from the title `Troglodyte Sorcerer`
+creature	ref/monster/troglodyte-troglodyte-tyrant	entries/monster/troglodyte-troglodyte-tyrant.md	the bold paragraph `Enlightened troglodyte [cleric](ref/class/cleric) 7/[fighter](ref/class/fighter) 2` differs from the title `Troglodyte Tyrant`
+creature	ref/monster/troll-troll-acolyte	entries/monster/troll-troll-acolyte.md	the bold paragraph `Troll [cleric](ref/class/cleric) 2` differs from the title `Troll Acolyte`
+creature	ref/monster/troll-troll-berserker	entries/monster/troll-troll-berserker.md	the bold paragraph `Troll [barbarian](ref/class/barbarian) 4` differs from the title `Troll Berserker`
+creature	ref/monster/troll-troll-brute	entries/monster/troll-troll-brute.md	the bold paragraph `Troll [barbarian](ref/class/barbarian) 2` differs from the title `Troll Brute`
+creature	ref/monster/troll-troll-elder-matron	entries/monster/troll-troll-elder-matron.md	the bold paragraph `Troll [witch](ref/class/witch) 10` differs from the title `Troll Elder Matron`
+creature	ref/monster/troll-troll-fury	entries/monster/troll-troll-fury.md	the bold paragraph `Troll [druid](ref/class/druid) ([troll fury](ref/arc-druid/troll-fury)) 6` differs from the title `Troll Fury`
+creature	ref/monster/troll-troll-monarch	entries/monster/troll-troll-monarch.md	the bold paragraph `Troll [fighter](ref/class/fighter) 10` differs from the title `Troll Monarch`
+creature	ref/monster/troll-troll-render	entries/monster/troll-troll-render.md	the bold paragraph `Troll [fighter](ref/class/fighter) 5` differs from the title `Troll Render`
+creature	ref/monster/troll-troll-ripper	entries/monster/troll-troll-ripper.md	the bold paragraph `Troll [fighter](ref/class/fighter) 3` differs from the title `Troll Ripper`
+creature	ref/monster/troll-troll-warden	entries/monster/troll-troll-warden.md	the bold paragraph `Troll [ranger](ref/class/ranger) 2` differs from the title `Troll Warden`
+creature	ref/monster/trox	entries/monster/trox.md	the bold paragraph `Trox [barbarian](ref/class/barbarian) 1` differs from the title `Trox`
+creature	ref/monster/tulpa	entries/monster/tulpa.md	the bold paragraph `Male human tulpa [monk](ref/class/monk) 5` differs from the title `Tulpa`
 creature	ref/monster/tyrant-jelly-mythic	entries/monster/tyrant-jelly-mythic.md	the bold paragraph `Mythic Tyrant Jelly` differs from the title `Tyrant Jelly`
+creature	ref/monster/uchurah	entries/monster/uchurah.md	the bold paragraph `Gug [barbarian](ref/class/barbarian) 2` differs from the title `Uchurah`
 creature	ref/monster/udaeus-mythic	entries/monster/udaeus-mythic.md	the bold paragraph `Mythic Udaeus` differs from the title `Udaeus`
+creature	ref/monster/undead-pirate-draugr-captain	entries/monster/undead-pirate-draugr-captain.md	the bold paragraph `Draugr captain [rogue](ref/class/rogue) 2` differs from the title `Draugr Captain (Undead Pirate)`
+creature	ref/monster/undead-pirate-draugr-pirate	entries/monster/undead-pirate-draugr-pirate.md	the bold paragraph `Draugr [rogue](ref/class/rogue) 1` differs from the title `Draugr Pirate (Undead Pirate)`
+creature	ref/monster/undead-pirate-ghost-captain	entries/monster/undead-pirate-ghost-captain.md	the bold paragraph `Human [ghost](ref/template/ghost) [fighter](ref/class/fighter) 3/[rogue](ref/class/rogue) 3` differs from the title `Ghost Captain (Undead Pirate)`
+creature	ref/monster/undine	entries/monster/undine.md	the bold paragraph `Undine [cleric](ref/class/cleric) 1` differs from the title `Undine`
+creature	ref/monster/undrella	entries/monster/undrella.md	the bold paragraph `Female harpy [ranger](ref/class/ranger) 7` differs from the title `Undrella`
+creature	ref/monster/urdefhan-half-fiend-scion	entries/monster/urdefhan-half-fiend-scion.md	the bold paragraph `Half-fiend urdefhan [warpriest](ref/class/warpriest) of [Szuriel](ref/faith/szuriel) 12` differs from the title `Half-Fiend Scion (Urdefhan)`
+creature	ref/monster/urdefhan-orvian-necromancer	entries/monster/urdefhan-orvian-necromancer.md	the bold paragraph `Urdefhan necromancer 11` differs from the title `Orvian Necromancer (Urdefhan)`
+creature	ref/monster/urdefhan-sightless-sea-sailor	entries/monster/urdefhan-sightless-sea-sailor.md	the bold paragraph `Urdefhan [swashbuckler](ref/class/swashbuckler) 1` differs from the title `Sightless Sea Sailor (Urdefhan)`
+creature	ref/monster/urdefhan-skaveling-rider	entries/monster/urdefhan-skaveling-rider.md	the bold paragraph `Urdefhan [cavalier](ref/class/cavalier) 7` differs from the title `Skaveling Rider (Urdefhan)`
+creature	ref/monster/urtleytlar	entries/monster/urtleytlar.md	the bold paragraph `Female [scylla](ref/monster/scylla) [cleric](ref/class/cleric) of [Rovagug](ref/faith/rovagug) 8` differs from the title `Urtleytlar, The Tempest Queen`
+creature	ref/monster/uvaglor	entries/monster/uvaglor.md	the bold paragraph `Male advanced vrock [oracle](ref/class/oracle) 15` differs from the title `Uvaglor, the Misbegotten Prince`
+creature	ref/monster/valonesse-hergrut	entries/monster/valonesse-hergrut.md	the bold paragraph `Female frost giant [barbarian](ref/class/barbarian) 9` differs from the title `Valonesse Hergrut, Frost Giant Jarl`
+creature	ref/monster/vampire-enlightened-vampire	entries/monster/vampire-enlightened-vampire.md	the bold paragraph `Human vampire [monk](ref/class/monk) ([hungry ghost monk](ref/arc-monk/hungry-ghost-monk)) 11` differs from the title `Enlightened Vampire`
+creature	ref/monster/vampire-servant-coffin-guard	entries/monster/vampire-servant-coffin-guard.md	the bold paragraph `Elf [ranger](ref/class/ranger) 4` differs from the title `Coffin Guard (Vampire Servant)`
+creature	ref/monster/vampire-servant-weird-butler	entries/monster/vampire-servant-weird-butler.md	the bold paragraph `Halfling [oracle](ref/class/oracle) 5` differs from the title `Weird Butler (Vampire Servant)`
+creature	ref/monster/vampire-vampire-lord	entries/monster/vampire-vampire-lord.md	the bold paragraph `Half-elf vampire [magus](ref/class/magus) 14` differs from the title `Vampire Lord`
+creature	ref/monster/vampire-vampire-savage	entries/monster/vampire-vampire-savage.md	the bold paragraph `Half-orc vampire [barbarian](ref/class/barbarian) 9` differs from the title `Vampire Savage`
+creature	ref/monster/vampire-vampire-seducer	entries/monster/vampire-vampire-seducer.md	the bold paragraph `Human vampire [bard](ref/class/bard) 5` differs from the title `Vampire Seducer`
+creature	ref/monster/vampire-vampire-warrior	entries/monster/vampire-vampire-warrior.md	the bold paragraph `Vishkanya jiang-shi vampire [fighter](ref/class/fighter) 7` differs from the title `Vampire Warrior`
+creature	ref/monster/vanara	entries/monster/vanara.md	the bold paragraph `Vanara [monk](ref/class/monk) 1` differs from the title `Vanara`
 creature	ref/monster/vegepygmy-thorny	entries/monster/vegepygmy-thorny.md	the bold paragraph `Thorny Vegepygmie` differs from the title `Thorny Vegepygmy`
-creature	ref/monster/water-elemental	entries/monster/water-elemental.md	the bold paragraph `Small Water Elemental` differs from the title `Water Elemental`
+creature	ref/monster/vishkanya	entries/monster/vishkanya.md	the bold paragraph `Vishkanya [ninja](ref/class/ninja) 1` differs from the title `Vishkanya`
+creature	ref/monster/wayang	entries/monster/wayang.md	the bold paragraph `Male wayang illusionist 1` differs from the title `Wayang`
+creature	ref/monster/wyrwood	entries/monster/wyrwood.md	the bold paragraph `Wyrwood [rogue](ref/class/rogue) 1` differs from the title `Wyrwood`
+creature	ref/monster/wyvaran	entries/monster/wyvaran.md	the bold paragraph `Female wyvaran [inquisitor](ref/class/inquisitor) 1` differs from the title `Wyvaran`
 creature	ref/monster/xiomorn-vault-builder-mythic	entries/monster/xiomorn-vault-builder-mythic.md	the bold paragraph `Mythic Vault Builder` differs from the title `Vault Builder (Xiomorn)`
+creature	ref/monster/yaddithian	entries/monster/yaddithian.md	the bold paragraph `Yaddithian [wizard](ref/class/wizard) 9` differs from the title `Yaddithian`
+creature	ref/monster/yrldak	entries/monster/yrldak.md	the bold paragraph `Variant norn` differs from the title `Yrldak`
 misc-rule	ref/misc/acolyte	entries/misc/acolyte.md	the bold paragraph `Acolyte` equals the title; echo, or label of the first subsection? the next block starts `**Earnings:** gp, Influence, or Magic +4`
 misc-rule	ref/misc/alchemy-lab	entries/misc/alchemy-lab.md	the bold paragraph `Alchemy Lab` equals the title; echo, or label of the first subsection? the next block starts `**Earnings:** gp, Goods, or Magic +10`
 misc-rule	ref/misc/altar	entries/misc/altar.md	the bold paragraph `Altar` equals the title; echo, or label of the first subsection? the next block starts `**Earnings:** Influence +3`
@@ -155,24 +481,18 @@ misc-rule	ref/misc/trophy-room	entries/misc/trophy-room.md	the bold paragraph `T
 misc-rule	ref/misc/vault	entries/misc/vault.md	the bold paragraph `Vault` equals the title; echo, or label of the first subsection? the next block starts `**Create:** 8 Goods, 7 Labor (300 gp)`
 misc-rule	ref/misc/war-room	entries/misc/war-room.md	the bold paragraph `War Room` equals the title; echo, or label of the first subsection? the next block starts `**Benefit:** Bonus on mass combat and skill checks while sch...`
 misc-rule	ref/misc/workstation	entries/misc/workstation.md	the bold paragraph `Workstation` equals the title; echo, or label of the first subsection? the next block starts `**Earnings:** gp, Goods, or Influence +8`
-misc-rule	ref/rule/abaddon-pa	entries/rule/abaddon-pa.md	the bold paragraph `Abaddon` resembles the title `Abaddon_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (neutral evil)`
 misc-rule	ref/rule/akashic-record	entries/rule/akashic-record.md	the bold paragraph `Akashic Record` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/astral-plane-pa	entries/rule/astral-plane-pa.md	the bold paragraph `Astral Plane` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (Transitive)`
-misc-rule	ref/rule/axis-pa	entries/rule/axis-pa.md	the bold paragraph `Axis` resembles the title `Axis_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (lawful neutral)`
 misc-rule	ref/rule/cynosure	entries/rule/cynosure.md	the bold paragraph `Cynosure` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/dead-vault	entries/rule/dead-vault.md	the bold paragraph `Dead Vault` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/dimension-of-dreams	entries/rule/dimension-of-dreams.md	the bold paragraph `Dimension of Dreams` resembles the title `Dimension of Dreams / Dreamlands`; echo, or label of the first subsection? the next block starts `**Cat:** dimension (Transitive)/demiplane`
 misc-rule	ref/rule/dimension-of-time	entries/rule/dimension-of-time.md	the bold paragraph `Dimension of Time` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** dimension (Transitive)`
-misc-rule	ref/rule/elysium-pa	entries/rule/elysium-pa.md	the bold paragraph `Elysium` resembles the title `Elysium_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (chaotic good)`
 misc-rule	ref/rule/ethereal-plane-pa	entries/rule/ethereal-plane-pa.md	the bold paragraph `Ethereal Plane` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Inner Plane (Transitive)`
 misc-rule	ref/rule/hao-jin-tapestry	entries/rule/hao-jin-tapestry.md	the bold paragraph `Hao Jin Tapestry` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/harrowed-realm	entries/rule/harrowed-realm.md	the bold paragraph `Harrowed Realm` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
-misc-rule	ref/rule/heaven-pa	entries/rule/heaven-pa.md	the bold paragraph `Heaven` resembles the title `Heaven_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (lawful good)`
-misc-rule	ref/rule/hell-pa	entries/rule/hell-pa.md	the bold paragraph `Hell` resembles the title `Hell_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (lawful evil)`
 misc-rule	ref/rule/jandelay	entries/rule/jandelay.md	the bold paragraph `Jandelay` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/leng	entries/rule/leng.md	the bold paragraph `Leng` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** demiplane`
 misc-rule	ref/rule/negative-energy-plane-pa	entries/rule/negative-energy-plane-pa.md	the bold paragraph `Negative Energy Plane` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Inner Plane`
-misc-rule	ref/rule/nirvana-pa	entries/rule/nirvana-pa.md	the bold paragraph `Nirvana` resembles the title `Nirvana_pa`; echo, or label of the first subsection? the next block starts `**Cat:** Outer Plane (neutral good)`
 misc-rule	ref/rule/plane-of-air-pa	entries/rule/plane-of-air-pa.md	the bold paragraph `Plane of Air` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Inner Plane`
 misc-rule	ref/rule/plane-of-earth-pa	entries/rule/plane-of-earth-pa.md	the bold paragraph `Plane of Earth` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Inner Plane`
 misc-rule	ref/rule/plane-of-fire-pa	entries/rule/plane-of-fire-pa.md	the bold paragraph `Plane of Fire` equals the title; echo, or label of the first subsection? the next block starts `**Cat:** Inner Plane`
