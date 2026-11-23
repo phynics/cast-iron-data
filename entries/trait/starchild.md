@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "elves-of-golarion", "advanced-players-guide"
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "starchild", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "64"
+[[sources]]
+publication = "elves-of-golarion"
+page = "15"
+[[sources]]
+publication = "advanced-players-guide"
+page = "333"
 
 [fields]
 kind = "trait"

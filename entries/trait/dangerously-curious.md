@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "second-darkness-players-guide", "advanced-pl
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dangerously_curious", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "56"
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "12"
+[[sources]]
+publication = "advanced-players-guide"
+page = "329"
 
 [fields]
 kind = "trait"

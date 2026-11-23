@@ -7,6 +7,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beachcomber", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "3"
 
 [fields]
 kind = "trait"

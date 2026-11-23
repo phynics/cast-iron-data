@@ -7,6 +7,9 @@ source_ids = ["war-for-the-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "young_reformer", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "war-for-the-crown-players-guide"
+page = "10"
 
 [fields]
 kind = "trait"

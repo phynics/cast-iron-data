@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "dwarves-of-golarion", "advanced-players-guid
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goldsniffer", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "61"
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "10"
+[[sources]]
+publication = "advanced-players-guide"
+page = "331"
 
 [fields]
 kind = "trait"
