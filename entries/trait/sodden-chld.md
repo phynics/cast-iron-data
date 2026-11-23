@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "people-of-the-wastes"
+page = "3"
 
 [fields]
 kind = "trait"

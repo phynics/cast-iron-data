@@ -14,8 +14,6 @@ page = "172"
 kind = "none"
 +++
 
-**Axis**
-
 **Cat:** Outer Plane (lawful neutral)
 
 **Desc:** The Perfect City of Axis sits at the base of Pharasma's Spire and serves as a border

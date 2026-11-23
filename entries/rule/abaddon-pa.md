@@ -14,8 +14,6 @@ page = "196"
 kind = "none"
 +++
 
-**Abaddon**
-
 **Cat:** Outer Plane (neutral evil)
 
 **Desc:** Abaddon is a bleak realm - the source of the legendary River Styx and the realm of the
