@@ -98,8 +98,8 @@ Skills: Acrobatics +8, Climb +3, Craft (alchemy) +10, Handle Animal +2, Percepti
 Racial Modifiers: +4 Ride, +4 Stealth
 Languages: Common, Giant, Gnoll, Goblin
 Special qualities: alchemy (alchemy crafting +4, identify potions), discoveries ([explosive bomb](ref/discovery/explosive-bomb), sipping pet), [poison use](ref/ability/poison-use), swift alchemy
-Combat gear: 2 potion of barkskin, 2 potion of cure light wounds, 2 acid, 2 alchemist's fire, 2 tanglefoot bags
-Other gear: mwk MM chain shirt, dagger, 2 srs, 293 gp
+Combat gear: potions of barkskin (2), potions of cure light wounds (2), acid (2), alchemist's fire (2), tanglefoot bags (2)
+Other gear: mwk mithral chain shirt, dagger, sunrods (2), 293 gp
 :::
 
 ### Ecology

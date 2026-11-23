@@ -66,10 +66,16 @@ blade.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 25\
-**Senses** 30 ft. (vision and hearing)\
-**Int** 18, **Wis** 10, **Cha** 10\
-**Communication** speech/telepathy (Common, Thassilonian)\
+::: statblock
+Alignment: LE
+Ego: 25
+Senses: 30 ft. (vision and hearing)
+Int: 18
+Wis: 10
+Cha: 10
+Communication: speech/telepathy (Common, Thassilonian)
+:::
+
 **Dedicated Powers** If the sword is active (see above), it can cast
 [create food and water](ref/spell/create-food-and-water),
 [endure elements](ref/spell/endure-elements), and

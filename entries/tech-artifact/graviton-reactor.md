@@ -15,9 +15,14 @@ kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Yield** 800; **Fort** +14; **[Hardness](ref/umr/hardness)** 20; **HP** 2,500; **Explosion** 10d6
-bludgeoning, 10d6 electricity, and 20d6 force (50-ft. radius; Reflex DC 20 half; see text);
-**Perception Penalty** -2
+::: statblock
+Yield: 800
+Fort: +14
+Hardness: [20](ref/umr/hardness)
+HP: 2,500
+Explosion: 10d6 bludgeoning, 10d6 electricity, and 20d6 force (50-ft. radius; Reflex DC 20 half; see text)
+Perception Penalty: -2
+:::
 
 A graviton reactor produce tremendous amounts of energy. It's fairly quiet while running, generating
 little more than a low-frequency hum. Damage caused by a graviton reactor explosion consists of an

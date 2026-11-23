@@ -15,54 +15,70 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [summoner](ref/class/summoner) 5\
-N Medium humanoid (human)\
-**Init** -1; **Senses** Perception +1
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: -1
+Senses: Perception +1
+:::
 
 ### Defense
 
-**AC** 12, touch 9, flat-footed 12 (+3 armor, -1 Dex)\
-**hp** 41 (5d8+15)\
-**Fort** +3, **Ref** +1, **Will** +6\
-**Defensive Abilities** shield ally
+::: statblock
+AC: 12, touch 9, flat-footed 12 (+3 armor, -1 Dex)
+hp: 41 (5d8+15)
+Fort: +3
+Ref: +1
+Will: +6
+Defensive Abilities: shield ally
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** sickle +3 (1d6)\
-**Ranged** dart +2 (1d4)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 5th; concentration +9)\
-_7/day_-[summon monster III](ref/spell/summon-monster-3)\
-**Summoner Spells Known** (CL 5th; concentration +9)\
-_2nd (3/day)_-[bull's strength](ref/spell/bulls-strength), [haste](ref/spell/haste),
-[see invisibility](ref/spell/see-invisibility)\
-_1st (5/day)_-[enlarge person](ref/spell/enlarge-person) (DC 15),
-[mage armor](ref/spell/mage-armor), [magic fang](ref/spell/magic-fang),
-[protection from evil](ref/spell/protection-from-evil)\
-_0 (at will)_-[acid splash](ref/spell/acid-splash), [arcane mark](ref/spell/arcane-mark),
-[detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance), [light](ref/spell/light),
-[message](ref/spell/message)
+::: statblock
+Speed: 30 ft.
+Melee: sickle +3 (1d6)
+Ranged: dart +2 (1d4)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5th
+Concentration: +9
+7/day: [summon monster III](ref/spell/summon-monster-3)
+:::
+
+::: statblock
+title = "Summoner Spells Known"
+Caster level: 5th
+Concentration: +9
+2nd (3/day): [bull's strength](ref/spell/bulls-strength), [haste](ref/spell/haste), [see invisibility](ref/spell/see-invisibility)
+1st (5/day): [enlarge person](ref/spell/enlarge-person) (DC 15), [mage armor](ref/spell/mage-armor), [magic fang](ref/spell/magic-fang), [protection from evil](ref/spell/protection-from-evil)
+0 (at will): [acid splash](ref/spell/acid-splash), [arcane mark](ref/spell/arcane-mark), [detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance), [light](ref/spell/light), [message](ref/spell/message)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 8, **Con** 13, **Int** 14, **Wis** 12, **Cha** 18\
-**Base Atk** +3; **CMB** +3; **CMD** 12\
-**Feats** [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance),
-[Persuasive](ref/feat/persuasive), [Toughness](ref/feat/toughness)\
-**Skills** Diplomacy +8, Knowledge (arcana) +8, Knowledge (history) +8, Knowledge (nature) +8,
-Knowledge (planes) +8, Knowledge (religion) +8, Spellcraft +10, Use Magic Device +10\
-**Languages** Abyssal, Aquan, Common, Hallit\
-**SQ** bond senses (5 rounds/day), life link\
-**Combat Gear** [elixir of swimming](ref/magic-wondrous/elixir-of-swimming), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[invisibility](ref/spell/invisibility), scroll of [eagle's splendor](ref/spell/eagles-splendor),
-scroll of [glitterdust](ref/spell/glitterdust); **Other Gear** mwk
-[studded leather](ref/eq-armor/studded-leather), [darts](ref/eq-weapon/dart) (4),
-[sickle](ref/eq-weapon/sickle), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-69 gp
+::: statblock
+Str: 10
+Dex: 8
+Con: 13
+Int: 14
+Wis: 12
+Cha: 18
+Base Atk: +3
+CMB: +3
+CMD: 12
+Feats: [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Persuasive](ref/feat/persuasive), [Toughness](ref/feat/toughness)
+Skills: Diplomacy +8, Knowledge (arcana) +8, Knowledge (history) +8, Knowledge (nature) +8, Knowledge (planes) +8, Knowledge (religion) +8, Spellcraft +10, Use Magic Device +10
+Languages: Abyssal, Aquan, Common, Hallit
+SQ: bond senses (5 rounds/day), life link
+Combat Gear: [elixir of swimming](ref/magic-wondrous/elixir-of-swimming), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [invisibility](ref/spell/invisibility), scroll of [eagle's splendor](ref/spell/eagles-splendor), scroll of [glitterdust](ref/spell/glitterdust)
+Other Gear: mwk [studded leather](ref/eq-armor/studded-leather), [darts](ref/eq-weapon/dart) (4), [sickle](ref/eq-weapon/sickle), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 69 gp
+:::
 
 ### Description
 
@@ -134,27 +150,45 @@ reverence for the Mother of Fangs, the snake-like spirit of the swamp - and perh
 
 > ### Called Eidolon
 >
-> N Medium outsider (extraplanar)\
-> **Init** +3; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +7
+> N Medium outsider (extraplanar)
+>
+> ::: statblock
+> Init: +3
+> Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +7
+> :::
 
 ### Defense
 
-> **AC** 21, touch 13, flat-footed 18 (+3 Dex, +8 natural)\
-> **hp** 34 (4d10+12)\
-> **Fort** +6, **Ref** +7, **Will** +3\
-> **Defensive Abilities** [evasion](ref/ability/evasion)
+> ::: statblock
+> AC: 21, touch 13, flat-footed 18 (+3 Dex, +8 natural)
+> hp: 34 (4d10+12)
+> Fort: +6
+> Ref: +7
+> Will: +3
+> Defensive Abilities: [evasion](ref/ability/evasion)
+> :::
 
 ### Offense
 
-> **Speed** 40 ft., swim 40 ft.\
-> **Melee** bite +7 (1d6+3), 2 pincers +5 (1d6+1 plus [grab](ref/umr/grab))
+> ::: statblock
+> Speed: 40 ft., swim 40 ft.
+> Melee: bite +7 (1d6+3), 2 pincers +5 (1d6+1 plus [grab](ref/umr/grab))
+> :::
 
 ### Statistics
 
-> **Str** 16, **Dex** 16, **Con** 14, **Int** 7, **Wis** 10, **Cha** 11\
-> **Base Atk** +4; **CMB** +7 (+11 grapple); **CMD** 20 (24 vs. trip)\
-> **Feats** [Iron Will](ref/feat/iron-will), [Multiattack](ref/feat/multiattack), Toughness\
-> **Skills** Intimidate +4, Perception +7, Sense Motive +7, Stealth +8, Swim +13\
-> **Languages** Common\
-> **SQ** link, evolutions (bite, gills, improved natural armor, limbs \[arms\], limbs \[legs, 2\],
-> pincers, swim), share spells
+> ::: statblock
+> Str: 16
+> Dex: 16
+> Con: 14
+> Int: 7
+> Wis: 10
+> Cha: 11
+> Base Atk: +4
+> CMB: +7 (+11 grapple)
+> CMD: 20 (24 vs. trip)
+> Feats: [Iron Will](ref/feat/iron-will), [Multiattack](ref/feat/multiattack), Toughness
+> Skills: Intimidate +4, Perception +7, Sense Motive +7, Stealth +8, Swim +13
+> Languages: Common
+> SQ: link, evolutions (bite, gills, improved natural armor, limbs \[arms\], limbs \[legs, 2\], pincers, swim), share spells
+> :::
