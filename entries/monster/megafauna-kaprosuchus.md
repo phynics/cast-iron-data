@@ -28,73 +28,59 @@ abilities = ["25", "12", "19", "1", "14", "2"]
 
 _This massive, squat crocodilian has forward facing eyes, jutting teeth, and a pronounced snout._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 18
+AC modifiers: +1 Dex, +10 natural, -2 size
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +6
+Will: +4
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +11 (2d6+7), tail slap +5 (2d6+3)
+Reach: 15
+Space: 15
+Spec Att: ramming snout
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 12, Con 19, Int 1, Wis 14, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +14
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Improved Initiative, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Perception +13, Stealth +6
+Racial Modifiers: +8 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +10 natural, -2 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +11 (2d6+7), tail slap +5 (2d6+3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** ramming snout
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 19, Int 1, Wis 14, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Improved Initiative, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Perception +13, Stealth +6
-
-**Racial Modifiers:** +8 Stealth
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

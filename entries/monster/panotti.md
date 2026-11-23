@@ -30,75 +30,62 @@ abilities = ["15", "13", "14", "10", "12", "11"]
 _This bald humanoid looks strikingly human except for the long folds of skin that droop from his
 head and neck to just above his ankles._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsense: 60
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral good
+Perception: +2
+Experience points: 600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 armor, +1 Dex, +1 dodge, +2 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +2
+Will: +2
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 20 ft. (poor)
+Melee: short sword +4 (1d6+2/19-20) or 2 wings +2 (1d4+1 plus push, 10 ft.)
+:::
 
-**Alignment:** Neutral good
+### Statistics
 
-**Perception:** +2
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +1 Dex, +1 dodge, +2 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (poor)
-
-**Melee:** short sword +4 (1d6+2/19-20) or 2 wings +2 (1d4+1 plus push, 10 ft.)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Dodge, Hover^B^, Multiattack
-
-**Skills:** Fly +3, Perception +2 (+6 listening only)
-
-**Racial Modifiers:** +4 Perception (listening only)
-
-**Languages:** Common
-
-**Special qualities:** elephantine ears
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 10, Wis 12, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Dodge, Hover^B^, Multiattack
+Skills: Fly +3, Perception +2 (+6 listening only)
+Racial Modifiers: +4 Perception (listening only)
+Languages: Common
+Special qualities: elephantine ears
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary, pair, or tribe (5-11)
-
-**Treasure:** NPC gear (leather armor, short sword); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or tribe (5-11)
+Treasure: NPC gear (leather armor, short sword); other treasure
+:::
 
 ### Special Abilities
 

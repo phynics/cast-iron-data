@@ -28,57 +28,47 @@ abilities = ["12", "12", "-", "-", "5", "1"]
 
 **Poppet, Small**
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: construct
+Initiative: +1
+Alignment: Neutral
+Perception: -3
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 15 (1d10+10)
+Fort: +0
+Ref: +1
+Will: -3
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -3
+::: statblock
+Speed: 20 ft.
+Melee: slam +3 (1d3+1)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
-
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 15 (1d10+10)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** -3
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +3 (1d3+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 12, Con -, Int -, Wis 5, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
+::: statblock
+Ability scores: Str 12, Dex 12, Con -, Int -, Wis 5, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+:::
 
 ### Description
 

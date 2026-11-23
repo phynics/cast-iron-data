@@ -31,104 +31,76 @@ abilities = ["16", "18", "19", "11", "12", "17"]
 _This blood-red tumorous mass has a shifting cluster of waving tentacles sprouting from its
 amorphous form, its body pulsating with a horrid vitality._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Qlippoth, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 15
+AC modifiers: +4 Dex, +6 natural, -1 size
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +6
+Will: +9
+Amorph: present
+Defensive abilities: all-around vision
+Dr: 5/cold iron or lawful
+Immune: acid, cold, mind-affecting effects, poison
+Resist: electricity 10, fire 10
+Sr: 17
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 4 tentacles +11 (1d6+3 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: absorption (2d6 acid damage, AC 13, 7 hp), horrific appearance (DC 17)
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: see invisibility
+Per day: 3/day: acid arrow\
+1/day: slow (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Qlippoth, Evil, Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 18, Con 19, Int 11, Wis 12, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Vital Strike, Weapon Focus (tentacles)
+Skills: Acrobatics +15, Climb +22, Perception +12
+Languages: Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression), stony form, tentacular versatility
+:::
 
-**Experience points:** 2,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +6 natural, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +9
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/cold iron or lawful
-
-**Immune:** acid, cold, mind-affecting effects, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 4 tentacles +11 (1d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** absorption (2d6 acid damage, AC 13, 7 hp), horrific appearance (DC 17)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 3/day: acid arrow
-- 1/day: slow (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 19, Int 11, Wis 12, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Vital Strike, Weapon Focus (tentacles)
-
-**Skills:** Acrobatics +15, Climb +22, Perception +12
-
-**Languages:** Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression), stony form, tentacular versatility
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or hunger (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or hunger (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

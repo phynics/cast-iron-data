@@ -31,101 +31,73 @@ abilities = ["15", "10", "17", "6", "13", "12"]
 _A fleshy pseudopod tipped with a jawless mouth and ringed by dozens of eyes emerges from a spiny
 shell along with several hooked legs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 30
+Alignment: Chaotic evil
+Initiative: +4
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect chaos, Detect evil, Scent
+Size: small
+Subtype: Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 1,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 18
+AC modifiers: +7 natural, +1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +4
+Will: +6
+Defensive abilities: shell
+Dr: 5/cold iron or lawful
+Immune: cold, mind-affecting effects, poison
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +10 (1d6+2 plus [grab](ref/umr/grab)), 3 talons +9 (1d3+2)
+Spec Att: gnaw, horrific appearance, tenacious grab
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect chaos, detect evil
+At will: bleed (DC 11)
+Per day: 1/day: invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 15, Dex 10, Con 17, Int 6, Wis 13, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes, Weapon Focus (bite)
+Skills: Climb +19
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 natural, +1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +6
-
-**Defensive abilities:** shell
-
-**Dr:** 5/cold iron or lawful
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +10 (1d6+2 plus [grab](ref/umr/grab)), 3 talons +9 (1d3+2)
-
-**Spec Att:** gnaw, horrific appearance, tenacious grab
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect chaos, detect evil
-
-**At will:**
-
-- bleed (DC 11)
-
-**Per day:**
-
-- 1/day: invisibility
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con 17, Int 6, Wis 13, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Weapon Focus (bite)
-
-**Skills:** Climb +19
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or brood (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or brood (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

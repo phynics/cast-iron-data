@@ -33,81 +33,63 @@ abilities = ["10", "11", "18", "15", "19", "16"]
 
 _This dour being has a mostly humanoid form with its lower body wrapped in a cocoon-like husk._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 47 (5d10+20)
+Fort: +5
+Ref: +4
+Will: +10
+Dr: 5/adamantine
+Immune: death effects, disease, mind-affecting effects, poison
+Resist: cold 10, electricity 10
+Sr: 15
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: quill +5 touch (1d4 plus censor or expurgate)
+Spec Att: censor, expurgate, quill
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+Ability scores: Str 10, Dex 11, Con 18, Int 15, Wis 19, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Alertness, Improved Initiative, Iron Will
+Skills: Bluff +11, Climb +8, Diplomacy +11, Sense Motive +14, Stealth +8
+Languages: Abyssal, Celestial, Common, Infernal
+Special qualities: spirit touch, transformation
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +10
-
-**Dr:** 5/adamantine
-
-**Immune:** death effects, disease, mind-affecting effects, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** quill +5 touch (1d4 plus censor or expurgate)
-
-**Spec Att:** censor, expurgate, quill
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 11, Con 18, Int 15, Wis 19, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Alertness, Improved Initiative, Iron Will
-
-**Skills:** Bluff +11, Climb +8, Diplomacy +11, Sense Motive +14, Stealth +8
-
-**Languages:** Abyssal, Celestial, Common, Infernal
-
-**Special qualities:** spirit touch, transformation
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or library (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or library (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

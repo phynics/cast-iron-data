@@ -30,90 +30,56 @@ special_qualities = "constitution dependent, fetish mask, hex scar, scarshield (
 abilities = ["12", "14", "16", "12", "12", "8"]
 +++
 
-**Challenge rating:** 8
-
 **Orc [witch](ref/class/witch) ([scarred witch doctor](ref/arc-witch/scarred-witch-doctor)) 9**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 15
+AC modifiers: +4 armor, +1 deflection, +2 Dex
+Hit points: 94 (9d6+60)
+Fort: +7
+Ref: +6
+Will: +10; +2 vs. pain
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +6 (1d4+1/19-20)
+Ranged: sling +6 (1d4+1)
+Spec Att: hexes ([blight](ref/hex/blight) \[90 feet\], [cackle](ref/hex/cackle), [evil eye](ref/hex/evil-eye) \[-4, 4 rounds\], [misfortune](ref/hex/misfortune) \[2 rounds\], [slumber](ref/hex/slumber) \[9 rounds\])
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Orc
-
-**Experience points:** 4,800
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +1 deflection, +2 Dex
-
-**Hit points:** 94 (9d6+60)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +10; +2 vs. pain
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +6 (1d4+1/19-20)
-
-**Ranged:** sling +6 (1d4+1)
-
-**Spec Att:** hexes ([blight](ref/hex/blight) \[90 feet\], [cackle](ref/hex/cackle),
-[evil eye](ref/hex/evil-eye) \[-4, 4 rounds\], [misfortune](ref/hex/misfortune) \[2 rounds\],
-[slumber](ref/hex/slumber) \[9 rounds\])
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +10
-
-**5th-level spells:**
-
-- cloudkill (DC 16)
-
-**4th-level spells:**
-
-- enervation, shout (DC 15)
-
-**3rd-level spells:**
-
-- fly, lightning bolt (DC 14), pain strike (DC 14), screech (DC 14)
-
-**2nd-level spells:**
-
-- blindness/deafness (DC 13), blood blaze, false life, sentry skull, touch of idiocy
-
-**1st-level spells:**
-
-- burning hands (DC 12), chill touch (DC 12), enlarge person (DC 12), mage armor, ray of
-  enfeeblement (DC 12)
-
-**Cantrips:**
-
-- arcane mark, detect magic, read magic, spark
-
-**Patron:** [vengeance](ref/patron/vengeance)
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +10
+5th-level spells: cloudkill (DC 16)
+4th-level spells: enervation, shout (DC 15)
+3rd-level spells: fly, lightning bolt (DC 14), pain strike (DC 14), screech (DC 14)
+2nd-level spells: blindness/deafness (DC 13), blood blaze, false life, sentry skull, touch of idiocy
+1st-level spells: burning hands (DC 12), chill touch (DC 12), enlarge person (DC 12), mage armor, ray of enfeeblement (DC 12)
+Cantrips: arcane mark, detect magic, read magic, spark
+Patron: [vengeance](ref/patron/vengeance)
+:::
 
 ### Tactics
 
@@ -127,32 +93,26 @@ foes using enervation and ray of exhaustion, then begins blasting with evocation
 **Base Statistics** Without false life and mage armor, the witch doctor's statistics are AC 13,
 touch 13, flat-footed 11; hp 79.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 14, Con 16, Int 12, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 12, Dex 14, Con 16, Int 12, Wis 12, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Accursed Hex, Combat Casting, Extra Hex, Iron Will, Toughness
+Skills: Heal +7, Intimidate +12, Perception +10, Spellcraft +13
+Languages: Common, Orc
+Special qualities: constitution dependent, fetish mask, hex scar, scarshield (+4, 9 min./day), weapon familiarity
+Combat gear: potion of cure serious wounds, Dray of exhaustion/4 charges
+Other gear: mwk dagger, sng20s, Iboid2, Iboa1, Iclk1, ring of prot1, 98 gp
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Accursed Hex, Combat Casting, Extra Hex, Iron Will, Toughness
-
-**Skills:** Heal +7, Intimidate +12, Perception +10, Spellcraft +13
-
-**Languages:** Common, Orc
-
-**Special qualities:** constitution dependent, fetish mask, hex scar, scarshield (+4, 9 min./day),
-weapon familiarity
-
-**Combat gear:** potion of cure serious wounds, Dray of exhaustion/4 charges
-
-**Other gear:** mwk dagger, sng20s, Iboid2, Iboa1, Iclk1, ring of prot1, 98 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

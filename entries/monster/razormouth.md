@@ -30,79 +30,62 @@ abilities = ["31", "20", "25", "-", "11", "2"]
 _This creature has a hairless body and a black-striped abdomen. It prominently displays a pair of
 large, serrated, bright red fangs._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 20
+AC modifiers: +5 Dex, +12 natural, -2 size
+Hit points: 149 (13d8+91)
+Fort: +15
+Ref: +9
+Will: +4
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Bleed: 1d6
+Melee: bite +17 (2d6+10/19-20/×3), 2 claws +17 (1d8+10)
+Pounce: present
+Reach: 15
+Rend: 2 claws, 1d8+15
+Space: 15
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 31, Dex 20, Con 25, Int -, Wis 11, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: +21
+Combat maneuver defense: 36 (48 vs. trip)
+Skills: Acrobatics +13, Climb +22, Perception +12
+Racial Modifiers: +8 Acrobatics, +4 Climb, +12 Perception
+Special qualities: savage bite
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +12 natural, -2 size
-
-**Hit points:** 149 (13d8+91)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +4
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +17 (2d6+10/19-20/×3), 2 claws +17 (1d8+10)
-
-**Pounce:** present
-
-**Reach:** 15
-
-**Rend:** 2 claws, 1d8+15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 20, Con 25, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 36 (48 vs. trip)
-
-**Skills:** Acrobatics +13, Climb +22, Perception +12
-
-**Racial Modifiers:** +8 Acrobatics, +4 Climb, +12 Perception
-
-**Special qualities:** savage bite
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

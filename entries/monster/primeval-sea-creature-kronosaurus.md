@@ -28,72 +28,58 @@ abilities = ["36", "13", "24", "2", "13", "9"]
 _This enormous, finned reptile has a long mouth full of sharp teeth and moves through the water with
 incredible speed._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: animal
+Size: gargantuan
+Initiative: +1
+Alignment: Neutral
+Perception: +20
+Senses: Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 23
+Touch: 7
+Flat-footed: 22
+AC modifiers: +1 Dex, +16 natural, -4 size
+Hit points: 138 (12d8+84)
+Fort: +15
+Ref: +9
+Will: +7
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +19 (3d8+19/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Swallow: 3d6+12 damage, AC 18, 13 hp
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 36, Dex 13, Con 24, Int 2, Wis 13, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Endurance, Improved Critical (bite), Iron Will, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Perception +20, Swim +26
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 7
-
-**Flat-footed:** 22
-
-**AC modifiers:** +1 Dex, +16 natural, -4 size
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +19 (3d8+19/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 3d6+12 damage, AC 18, 13 hp
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 13, Con 24, Int 2, Wis 13, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Endurance, Improved Critical (bite), Iron Will, Power Attack, Skill Focus (Perception),
-Weapon Focus (bite)
-
-**Skills:** Perception +20, Swim +26
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or school (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or school (3-8)
+Treasure: None
+:::
 
 ### Description
 

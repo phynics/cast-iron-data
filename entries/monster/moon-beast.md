@@ -30,111 +30,77 @@ abilities = ["22", "17", "20", "19", "18", "25"]
 _This creature has a pale, frog-like appearance with clawed hands, no eyes, a wide mouth, and a
 snout ending in pink tentacles._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: aberration
+blindsight: 90
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +21
+Experience points: 12,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 90
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 21
+AC modifiers: +3 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +9
+Will: +15
+Amorph: present
+Dr: 10/piercing or slashing
+Immune: cold, gaze attacks, illusions, poison
+Resist: electricity 30
+Sr: 22
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: 2 claws +15 (1d6+6), 4 tentacles +11 (1d6+3)
+Reach: 10
+Rend: 2 tentacles, 1d6+9 plus Wisdom drain
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +18
+Constant: air walk
+At will: detect thoughts (DC 19)
+Per day: 3/day: charm monster (DC 21), dispel magic, dominate person (DC 22), shadow conjuration (DC 21), shadow evocation (DC 22), veil (DC 23)\
+1/day: confusion (DC 21), major image (DC 20), mirage arcana (DC 22), plane shift, self only
+:::
 
-**Perception:** +21
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 22, Dex 17, Con 20, Int 19, Wis 18, Cha 25
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Combat Casting, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Weapon Focus (tentacle)
+Skills: Climb +14, Diplomacy +14, Sense Motive +18, Spellcraft +21, Stealth +24, Use Magic Device +21
+Racial Modifiers: +8 Stealth
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +15
-
-**Amorph:** present
-
-**Dr:** 10/piercing or slashing
-
-**Immune:** cold, gaze attacks, illusions, poison
-
-**Resist:** electricity 30
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** 2 claws +15 (1d6+6), 4 tentacles +11 (1d6+3)
-
-**Reach:** 10
-
-**Rend:** 2 tentacles, 1d6+9 plus Wisdom drain
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +18
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- detect thoughts (DC 19)
-
-**Per day:**
-
-- 3/day: charm monster (DC 21), dispel magic, dominate person (DC 22), shadow conjuration (DC 21),
-  shadow evocation (DC 22), veil (DC 23)
-- 1/day: confusion (DC 21), major image (DC 20), mirage arcana (DC 22), plane shift, self only
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 20, Int 19, Wis 18, Cha 25
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Casting, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility,
-Weapon Focus (tentacle)
-
-**Skills:** Climb +14, Diplomacy +14, Sense Motive +18, Spellcraft +21, Stealth +24, Use Magic
-Device +21
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cabal (3-5)
-
-**Treasure:** Double
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cabal (3-5)
+Treasure: Double
+:::
 
 ### Special Abilities
 

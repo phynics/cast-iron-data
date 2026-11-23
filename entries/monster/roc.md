@@ -29,70 +29,57 @@ abilities = ["28", "15", "17", "2", "12", "11"]
 _This immense raptor unleashes a shrill cry as it bares its talons, each large enough to carry off a
 horse._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 22
+Touch: 8
+Flat-footed: 20
+AC modifiers: +2 Dex, +14 natural, -4 size
+Hit points: 120 (16d8+48)
+Fort: +13
+Ref: +14
+Will: +8
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 80 ft. (average)
+Melee: 2 talons +18 (2d6+9/19-20 plus [grab](ref/umr/grab)), bite +17 (2d8+9)
+Reach: 15
+Space: 20
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 15, Con 17, Int 2, Wis 12, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 37
+Feats: Flyby Attack, Improved Critical (talons), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception), Weapon Focus (talons)
+Skills: Fly +7, Perception +15
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 8
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +14 natural, -4 size
-
-**Hit points:** 120 (16d8+48)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 20 ft., fly 80 ft. (average)
-
-**Melee:** 2 talons +18 (2d6+9/19-20 plus [grab](ref/umr/grab)), bite +17 (2d8+9)
-
-**Reach:** 15
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con 17, Int 2, Wis 12, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 37
-
-**Feats:** Flyby Attack, Improved Critical (talons), Improved Initiative, Iron Will, Lightning
-Reflexes, Power Attack, Skill Focus (Perception), Weapon Focus (talons)
-
-**Skills:** Fly +7, Perception +15
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary or mated pair
-
-**Treasure:** None
+::: statblock
+Environment: warm mountains
+Organization: solitary or mated pair
+Treasure: None
+:::
 
 ### Description
 

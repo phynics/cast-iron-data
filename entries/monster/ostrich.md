@@ -30,71 +30,60 @@ abilities = ["17", "14", "14", "2", "13", "11"]
 _This human-sized bird has a long neck and legs sprouting from a round body covered in fluffy gray
 feathers._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: claw +4 (1d6+4)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** claw +4 (1d6+4)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 14, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Endurance^B^, Run^B^, Skill Focus (Perception)
-
-**Skills:** Acrobatics +6 (+18 when jumping), Perception +8
-
-**Special qualities:** crouch
+::: statblock
+Ability scores: Str 17, Dex 14, Con 14, Int 2, Wis 13, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Endurance^B^, Run^B^, Skill Focus (Perception)
+Skills: Acrobatics +6 (+18 when jumping), Perception +8
+Special qualities: crouch
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm deserts or plains
-
-**Organization:** solitary, pair, pride (5-10), or flock (11-50)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary, pair, pride (5-10), or flock (11-50)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,92 +32,69 @@ abilities = ["8", "13", "11", "8", "13", "8"]
 _This squat humanoid seems to be nearly all head - an unfortunate circumstance, considering how ugly
 its puffy blue face is._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: fey
+Initiative: +1
+Alignment: Lawful evil
+Perception: +5
+Senses: Darkvision 120 ft., Low-light vision, Scent
+Size: small
+Experience points: 100
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 3 (1d6)
+Fort: +0
+Ref: +3
+Will: +3
+Dr: 2/cold iron
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: dagger +0 (1d3-1/19-20)
+Ranged: dart +2 (1d3-1)
+Spec Att: hatred
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+At will: prestidigitation
+Per day: 1/day: doom (DC 10)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 100
+::: statblock
+Ability scores: Str 8, Dex 13, Con 11, Int 8, Wis 13, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 9
+Feats: Point-Blank Shot
+Skills: Climb +7, Sleight of Hand +9, Stealth +13
+Racial Modifiers: +4 Sleight of Hand, +4 Stealth
+Languages: Undercommon
+Special qualities: vermin empathy +4
+:::
 
-**Armor class:** 12
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 3 (1d6)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +3
-
-**Dr:** 2/cold iron
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** dagger +0 (1d3-1/19-20)
-
-**Ranged:** dart +2 (1d3-1)
-
-**Spec Att:** hatred
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**At will:**
-
-- prestidigitation
-
-**Per day:**
-
-- 1/day: doom (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 11, Int 8, Wis 13, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 9
-
-**Feats:** Point-Blank Shot
-
-**Skills:** Climb +7, Sleight of Hand +9, Stealth +13
-
-**Racial Modifiers:** +4 Sleight of Hand, +4 Stealth
-
-**Languages:** Undercommon
-
-**Special qualities:** vermin empathy +4
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, band (2-8), or tribe (9-20 plus 1 chieftain of 2nd-4th level and 2-6
-giant vermin)
-
-**Treasure:** Standard (dagger, 6 dart); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, band (2-8), or tribe (9-20 plus 1 chieftain of 2nd-4th level and 2-6 giant vermin)
+Treasure: Standard (dagger, 6 dart); other treasure
+:::
 
 ### Special Abilities
 

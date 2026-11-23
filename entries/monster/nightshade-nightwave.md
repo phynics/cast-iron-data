@@ -29,116 +29,78 @@ abilities = ["49", "16", "-", "22", "21", "25"]
 _Immense almost beyond belief, this sleek, midnight-black shark rises from the sea like an unholy
 island heaved up from below._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: blackest depths (60 ft.), desecrating aura (30 ft.)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +7
+Perception: +37
+Senses: Darksense, Darkvision 120 ft., Detect magic, Low-light vision
+Subtype: Aquatic, Extraplanar, Nightshade
+Type: undead
+Experience points: 307,200
+:::
 
-**aura:** blackest depths (60 ft.), desecrating aura (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 36
+Touch: 5
+Flat-footed: 33
+AC modifiers: +3 Dex, +31 natural, -8 size
+Hit points: 391 (29d8+261)
+Fort: +18
+Ref: +16
+Will: +25
+Dr: 15/good and silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 29
+Weaknesses: light aversion
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: swim 60 ft., fly 60 ft. (good)
+Ch En: 10d6, DC 33, 10/day
+E Drain: 2 levels, DC 31
+Melee: bite +35 (5d10+22/19-20 plus 4d6 cold, energy drain, and [grab](ref/umr/grab)), tail slap +30 (4d8+12/19-20 plus 4d6 cold)
+Reach: 30
+Space: 30
+Swallow: 5d10+28 bludgeoning plus energy drain, AC 25, 39 hp
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: detect magic, magic fang, see invisibility
+At will: confusion (DC 21), contagion (DC 21), deeper darkness, greater dispel magic, invisibility, unholy blight (DC 21)
+Per day: 3/day: quickened cone of cold (DC 22), finger of death (DC 24), haste, hold monster (DC 22)\
+1/day: mass hold monster (DC 26), plane shift (DC 24), summon (level 9, 1 nightwing), wail of the banshee (DC 26)
+:::
 
-**Senses:** Darksense, Darkvision 120 ft., Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Aquatic, Extraplanar, Nightshade
+::: statblock
+Ability scores: Str 49, Dex 16, Con -, Int 22, Wis 21, Cha 25
+Base attack bonus: +21
+Combat maneuver bonus: +48 (+52 grapple)
+Combat maneuver defense: 61 (can't be tripped)
+Feats: Combat Reflexes, Command Undead, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite, tail slap), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Staggering Critical, Vital Strike
+Skills: Fly +31
+Racial Modifiers: +8 Stealth in dim light and darkness
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 5
-
-**Flat-footed:** 33
-
-**AC modifiers:** +3 Dex, +31 natural, -8 size
-
-**Hit points:** 391 (29d8+261)
-
-**Fort:** +18
-
-**Ref:** +16
-
-**Will:** +25
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 29
-
-**Weaknesses:** light aversion
-
-**Offense**
-
-**Speed:** swim 60 ft., fly 60 ft. (good)
-
-**Ch En:** 10d6, DC 33, 10/day
-
-**E Drain:** 2 levels, DC 31
-
-**Melee:** bite +35 (5d10+22/19-20 plus 4d6 cold, energy drain, and [grab](ref/umr/grab)), tail slap
-+30 (4d8+12/19-20 plus 4d6 cold)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Swallow:** 5d10+28 bludgeoning plus energy drain, AC 25, 39 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- detect magic, magic fang, see invisibility
-
-**At will:**
-
-- confusion (DC 21), contagion (DC 21), deeper darkness, greater dispel magic, invisibility, unholy
-  blight (DC 21)
-
-**Per day:**
-
-- 3/day: quickened cone of cold (DC 22), finger of death (DC 24), haste, hold monster (DC 22)
-- 1/day: mass hold monster (DC 26), plane shift (DC 24), summon (level 9, 1 nightwing), wail of the
-  banshee (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 49, Dex 16, Con -, Int 22, Wis 21, Cha 25
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +48 (+52 grapple)
-
-**Combat maneuver defense:** 61 (can't be tripped)
-
-**Feats:** Combat Reflexes, Command Undead, Critical Focus, Greater Vital Strike, Improved Bull
-Rush, Improved Critical (bite, tail slap), Improved Initiative, Improved Vital Strike, Iron Will,
-Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cone
-of cold), Staggering Critical, Vital Strike
-
-**Skills:** Fly +31
-
-**Racial Modifiers:** +8 Stealth in dim light and darkness
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

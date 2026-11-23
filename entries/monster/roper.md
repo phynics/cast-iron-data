@@ -31,89 +31,66 @@ abilities = ["34", "13", "29", "13", "16", "12"]
 _A huge eye opens in this conical creature's front, just above a toothy mouth. Long strands of
 fibrous material whip from its sides._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 162 (12d8+108)
+Fort: +13
+Ref: +5
+Will: +13
+Immune: electricity
+Resist: cold 10
+Sr: 27
+Vulner: fire
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft.
+Melee: bite +20 (4d8+18/19-20)
+Pull: strand, 5 feet
+Ranged: 6 strands +10 touch (1d6 Strength)
+Reach: 10
+Space: 10
+Spec Att: strands
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 13, Con 29, Int 13, Wis 16, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +22
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception, Stealth), Weapon Focus (strand)
+Skills: Climb +27, Knowledge (dungeoneering) +16, Perception +24, Stealth +18 (+26 in stony or icy areas)
+Racial Modifiers: +8 Stealth in stony or icy areas
+Languages: Aklo, Undercommon
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 162 (12d8+108)
-
-**Fort:** +13
-
-**Ref:** +5
-
-**Will:** +13
-
-**Immune:** electricity
-
-**Resist:** cold 10
-
-**Sr:** 27
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +20 (4d8+18/19-20)
-
-**Pull:** strand, 5 feet
-
-**Ranged:** 6 strands +10 touch (1d6 Strength)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** strands
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 13, Con 29, Int 13, Wis 16, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception,
-Stealth), Weapon Focus (strand)
-
-**Skills:** Climb +27, Knowledge (dungeoneering) +16, Perception +24, Stealth +18 (+26 in stony or
-icy areas)
-
-**Racial Modifiers:** +8 Stealth in stony or icy areas
-
-**Languages:** Aklo, Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or cluster (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

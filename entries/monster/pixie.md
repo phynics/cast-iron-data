@@ -30,91 +30,68 @@ abilities = ["7", "21", "12", "16", "15", "16"]
 
 _This tiny, whimsical-looking humanoid darts about swiftly on wildly colored gossamer wings._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: fey
+Initiative: +5
+Alignment: Neutral good
+Perception: +9
+Senses: Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 12
+AC modifiers: +5 Dex, +1 dodge, +1 natural, +1 size
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +9
+Will: +6
+Defensive abilities: invisibility
+Dr: 10/cold iron
+Sr: 15
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: short sword +8 (1d4-2/19-20)
+Ranged: longbow +8 (1d6-2/×3)
+Spec Att: special arrows
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Constant: detect chaos, detect evil, detect good, detect law
+Per day: 1/day: dancing lights, detect thoughts (DC 15), dispel magic, entangle (DC 14), lesser confusion (DC 14), permanent image (DC 19; visual and auditory elements only), shield
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 7, Dex 21, Con 12, Int 16, Wis 15, Cha 16
+Base attack bonus: +2
+Combat maneuver bonus: -1
+Combat maneuver defense: 15
+Feats: Dodge, Weapon Finesse
+Skills: Acrobatics +12, Bluff +10, Escape Artist +12, Fly +18, Knowledge (nature) +10, Perception +9, Sense Motive +9, Stealth +16, Use Magic Device +10
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +1 dodge, +1 natural, +1 size
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +9
-
-**Will:** +6
-
-**Defensive abilities:** invisibility
-
-**Dr:** 10/cold iron
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** short sword +8 (1d4-2/19-20)
-
-**Ranged:** longbow +8 (1d6-2/×3)
-
-**Spec Att:** special arrows
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law
-
-**Per day:**
-
-- 1/day: dancing lights, detect thoughts (DC 15), dispel magic, entangle (DC 14), lesser confusion
-  (DC 14), permanent image (DC 19; visual and auditory elements only), shield
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 21, Con 12, Int 16, Wis 15, Cha 16
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Acrobatics +12, Bluff +10, Escape Artist +12, Fly +18, Knowledge (nature) +10,
-Perception +9, Sense Motive +9, Stealth +16, Use Magic Device +10
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, gang (2-4), band (6-11), or tribe (20-80)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary, gang (2-4), band (6-11), or tribe (20-80)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -37,95 +37,69 @@ deities._
 
 **Mythic Locust Plague Swarm**
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Mythic rank: 8
+Size: fine
+Initiative: +16/-4, [dual initiative](ref/umr/dual-initiative)
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Mythic, Swarm
+Experience points: 51,200
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 31
+Touch: 23
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +8 natural, +8 size
+Hit points: 216 (21d10+101)
+Fort: +15
+Ref: +18
+Will: +13; second save
+Defensive abilities: reform, swarm traits
+Dr: 10/epic
+Fh: 5
+Immune: mind-affecting effects, weapon damage
+Unstop: present
+:::
 
-**Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., climb 10 ft., fly 40 ft. (good)
+Distraction: 23
+M Power: 8/day, surge +1d10
+Melee: swarm (5d6 plus 5d6 blight, devour, and distraction)
+Reach: 0
+Space: 20
+Spec Att: devour
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +24
+::: statblock
+Ability scores: Str 6, Dex 19, Con 12, Int 5, Wis 18, Cha 9
+Base attack bonus: +21
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (distraction), Mythic Dodge, Extra Mythic Power, Great Fortitude, Mythic Improved Initiative, Improved Lightning Reflexes, Iron Will, Mythic Lightning Reflexes, Lightning Stance, Skill Focus (Fly), Skill Focus (Perception), Wind Stance
+Skills: Climb +12, Perception +24
+Languages: Abyssal (can't speak)
+Special qualities: multiply (locust swarm with the devour ability)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Mythic, Swarm
-
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 23
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural, +8 size
-
-**Hit points:** 216 (21d10+101)
-
-**Fort:** +15
-
-**Ref:** +18
-
-**Will:** +13; second save
-
-**Defensive abilities:** reform, swarm traits
-
-**Dr:** 10/epic
-
-**Fh:** 5
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., fly 40 ft. (good)
-
-**Distraction:** 23
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** swarm (5d6 plus 5d6 blight, devour, and distraction)
-
-**Reach:** 0
-
-**Space:** 20
-
-**Spec Att:** devour
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 19, Con 12, Int 5, Wis 18, Cha 9
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (distraction), Mythic Dodge, Extra Mythic Power, Great Fortitude, Mythic
-Improved Initiative, Improved Lightning Reflexes, Iron Will, Mythic Lightning Reflexes, Lightning
-Stance, Skill Focus (Fly), Skill Focus (Perception), Wind Stance
-
-**Skills:** Climb +12, Perception +24
-
-**Languages:** Abyssal (can't speak)
-
-**Special qualities:** multiply (locust swarm with the devour ability)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or brood (plague swarm plus 1-100 spawn)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or brood (plague swarm plus 1-100 spawn)
+Treasure: None
+:::
 
 ### Special Abilities
 

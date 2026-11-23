@@ -32,98 +32,72 @@ abilities = ["18", "22", "19", "11", "15", "16"]
 _This thing looks like a skeletal human torso coated in liquid shadow, obscuring its bones but
 clearly revealing its shape._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 10
+AC modifiers: +6 Dex, +1 dodge
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +8
+Will: +8
+Fh: 2
+Immune: cold
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee: 2 claws +12 (1d8+4 plus 1d6 cold)
+Ranged: burning cold +14 touch (3d6 cold)
+Spec Att: burning cold, curse of darkness
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: blur
+At will: deeper darkness, detect thoughts, dust of twilight (DC 15)
+Per day: 5/day: shadow step\
+1/day: plane shift, self only, to or from the Shadow Plane only
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 22, Con 19, Int 11, Wis 15, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 29
+Feats: Dodge, Flyby Attack, Improved Initiative, Point-Blank Shot
+Skills: Bluff +12, Diplomacy +11, Sense Motive +13, Spellcraft +7, Stealth +17
+Languages: Dark Folk (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 10
-
-**AC modifiers:** +6 Dex, +1 dodge
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +8
-
-**Fh:** 2
-
-**Immune:** cold
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +12 (1d8+4 plus 1d6 cold)
-
-**Ranged:** burning cold +14 touch (3d6 cold)
-
-**Spec Att:** burning cold, curse of darkness
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- deeper darkness, detect thoughts, dust of twilight (DC 15)
-
-**Per day:**
-
-- 5/day: shadow step
-- 1/day: plane shift, self only, to or from the Shadow Plane only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 19, Int 11, Wis 15, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 29
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Point-Blank Shot
-
-**Skills:** Bluff +12, Diplomacy +11, Sense Motive +13, Spellcraft +7, Stealth +17
-
-**Languages:** Dark Folk (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any land or underground (Plane of Shadow)
-
-**Organization:** solitary or cabal (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground (Plane of Shadow)
+Organization: solitary or cabal (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,131 +31,88 @@ abilities = ["36", "30", "33", "3", "28", "21"]
 _This slug-like creature leaves a swath of tar wherever he goes, and his upper body opens into a
 gaping, sludge-dripping mouth._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: cloak of chaos (DC 23)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +14
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+tremorsense: 120
+Experience points: 409,600
+:::
 
-**aura:** cloak of chaos (DC 23)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 37
+Touch: 21
+Flat-footed: 26
+AC modifiers: +4 deflection, +10 Dex, +1 dodge, +16 natural, -4 size
+Hit points: 396 (24d10+264)
+Fort: +23
+Ref: +28
+Will: +27
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron and lawful
+Immune: acid, cold, death effects, mind-affecting effects, poison
+Regen: 15 (lawful)
+Resist: electricity 30, fire 30
+Sr: 32
+Weaknesses: nearly mindless
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 40 ft., burrow 20 ft., fly 60 ft. (good)
+Br Weap: 120-ft. line, 20d10 acid damage, Reflex DC 33 half, every 1d4 rounds
+F Swallow: present
+Melee: bite +33 (6d8+13/19-20 plus 2d6 acid and [grab](ref/umr/grab)), 4 talons 33 (2d6+13)
+Reach: 20
+Space: 20
+Spec Att: horrific appearance (DC 27)
+Swallow: 10d6 bludgeoning damage, 10d6 acid damage, and 1d6 Intelligence damage; AC 18; 39 hp
+:::
 
-**Type:** outsider
-
-**Perception:** +36
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
-
-**tremorsense:** 120
-
-**Experience points:** 409,600
-
-**Armor class:** 37
-
-**Touch:** 21
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 deflection, +10 Dex, +1 dodge, +16 natural, -4 size
-
-**Hit points:** 396 (24d10+264)
-
-**Fort:** +23
-
-**Ref:** +28
-
-**Will:** +27
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** acid, cold, death effects, mind-affecting effects, poison
-
-**Regen:** 15 (lawful)
-
-**Resist:** electricity 30, fire 30
-
-**Sr:** 32
-
-**Weaknesses:** nearly mindless
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., fly 60 ft. (good)
-
-**Br Weap:** 120-ft. line, 20d10 acid damage, Reflex DC 33 half, every 1d4 rounds
-
-**F Swallow:** present
-
-**Melee:** bite +33 (6d8+13/19-20 plus 2d6 acid and [grab](ref/umr/grab)), 4 talons 33 (2d6+13)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** horrific appearance (DC 27)
-
-**Swallow:** 10d6 bludgeoning damage, 10d6 acid damage, and 1d6 Intelligence damage; AC 18; 39 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +26
-
-**Constant:**
-
-- cloak of chaos (DC 23), detect good, detect law, fly, freedom of movement, true seeing
-
-**At will:**
-
-- acid fog, blindness/deafness^M^ (DC 17), desecrate^M^, greater dispel magic, greater teleport,
-  slow^M^ (DC 18)
-
-**Per day:**
-
-- 3/day: foresight^M^, mass hunger for flesh (DC 21), power word blind^M^, quickened slow (DC 18),
-  vision, waves of exhaustion
-- 1/day: imprisonment (DC 24), summon qlippoth
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +26
+Constant: cloak of chaos (DC 23), detect good, detect law, fly, freedom of movement, true seeing
+At will: acid fog, blindness/deafness^M^ (DC 17), desecrate^M^, greater dispel magic, greater teleport, slow^M^ (DC 18)
+Per day: 3/day: foresight^M^, mass hunger for flesh (DC 21), power word blind^M^, quickened slow (DC 18), vision, waves of exhaustion\
+1/day: imprisonment (DC 24), summon qlippoth
+:::
 
 ###### M {#footnote-m}
 
 Thuskchoon can use the mythic version of this ability within his sanctum.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 36, Dex 30, Con 33, Int 3, Wis 28, Cha 21
+::: statblock
+Ability scores: Str 36, Dex 30, Con 33, Int 3, Wis 28, Cha 21
+Base attack bonus: +24
+Combat maneuver bonus: +41 (+43 bull rush)
+Combat maneuver defense: 66 (68 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (slow), Vital Strike
+Skills: Fly +45, Perception +36
+Languages: Abyssal (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: entangling acid, false intellect, intellectual flash, [no breath](ref/umr/no-breath), trailing tar
+Faith: Thuskchoon
+:::
 
-**Base attack bonus:** +24
+### Ecology
 
-**Combat maneuver bonus:** +41 (+43 bull rush)
-
-**Combat maneuver defense:** 66 (68 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Improved Bull
-Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (slow), Vital Strike
-
-**Skills:** Fly +45, Perception +36
-
-**Languages:** Abyssal (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** entangling acid, false intellect, intellectual flash,
-[no breath](ref/umr/no-breath), trailing tar
-
-**Faith:** Thuskchoon
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

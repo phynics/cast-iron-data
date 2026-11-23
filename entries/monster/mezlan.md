@@ -36,86 +36,65 @@ abilities = ["30", "25", "24", "15", "18", "17"]
 _An amorphous blob coalesces, forming into a humanoid figure. As it stabilizes, intricate details
 emerge._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+blindsight: 120
+Initiative: +11
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +20
+Subtype: Shapechanger
+Experience points: 38,400
+:::
 
-**blindsight:** 120
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 30
+Touch: 18
+Flat-footed: 22
+AC modifiers: +7 Dex, +1 dodge, +12 natural
+Hit points: 195 (17d8+119)
+Fort: +12
+Ref: +14
+Will: +11
+Immune: [ooze traits](ref/umr/ooze-traits)
+Regen: 5 (acid)
+Sr: 25
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 20 ft.
+Melee: 2 morphic weapons +22 (2d8+10)
+Ranged: morphic weapon +19 (2d8+10)
+Sneak: +3d6
+Spec Att: store spells (chain lightning \[DC 19\], dispel magic, mage armor)
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +20
+::: statblock
+Ability scores: Str 30, Dex 25, Con 24, Int 15, Wis 18, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +22
+Combat maneuver defense: 40
+Feats: Alertness, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Stealthy
+Skills: Acrobatics +15, Bluff +14, Climb +18
+Racial Modifiers: +12 Disguise, +4 Linguistics, +4 Stealth
+Languages: Aklo, Common; versatile speech
+Special qualities: morphic body, [no breath](ref/umr/no-breath), skill pool
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 18
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 Dex, +1 dodge, +12 natural
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +11
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Regen:** 5 (acid)
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 2 morphic weapons +22 (2d8+10)
-
-**Ranged:** morphic weapon +19 (2d8+10)
-
-**Sneak:** +3d6
-
-**Spec Att:** store spells (chain lightning \[DC 19\], dispel magic, mage armor)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 25, Con 24, Int 15, Wis 18, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 40
-
-**Feats:** Alertness, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Point-Blank Shot,
-Power Attack, Precise Shot, Stealthy
-
-**Skills:** Acrobatics +15, Bluff +14, Climb +18
-
-**Racial Modifiers:** +12 Disguise, +4 Linguistics, +4 Stealth
-
-**Languages:** Aklo, Common; versatile speech
-
-**Special qualities:** morphic body, [no breath](ref/umr/no-breath), skill pool
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

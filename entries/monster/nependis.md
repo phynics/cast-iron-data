@@ -30,78 +30,61 @@ abilities = ["31", "15", "18", "7", "12", "6"]
 _Resembling a bestial ogre with great tusks and thick, bristly hair, this brute seems quite nimble
 despite its cloven hooves._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +2 Dex, +10 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +10
+Ref: +10
+Will: +11
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: 2 claws +21 (1d6+10 plus [grab](ref/umr/grab)), gore +21 (2d6+10)
+Reach: 10
+Space: 10
+Spec Att: abduct, roar
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 31, Dex 15, Con 18, Int 7, Wis 12, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 35
+Feats: Great Fortitude, Improved Initiative, Iron Will, Lunge, Mobility, Power Attack, Skill Focus (Stealth)
+Skills: Acrobatics +3 (+11 when jumping), Climb +18, Perception +15
+Racial Modifiers: +8 Acrobatics (when jumping)
+Languages: Giant
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +10 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +11
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** 2 claws +21 (1d6+10 plus [grab](ref/umr/grab)), gore +21 (2d6+10)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** abduct, roar
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 15, Con 18, Int 7, Wis 12, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 35
-
-**Feats:** Great Fortitude, Improved Initiative, Iron Will, Lunge, Mobility, Power Attack, Skill
-Focus (Stealth)
-
-**Skills:** Acrobatics +3 (+11 when jumping), Climb +18, Perception +15
-
-**Racial Modifiers:** +8 Acrobatics (when jumping)
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or troop (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or troop (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

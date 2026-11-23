@@ -30,104 +30,77 @@ abilities = ["15", "23", "24", "16", "23", "18"]
 
 _This elderly figure looks out with heavy-lidded eyes, and seems lost in its own serenity._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Initiative: +10
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful, Manasaputra
+Experience points: 76,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 31
+Touch: 31
+Flat-footed: 24
+AC modifiers: +6 Dex, +4 deflection, +1 dodge, +10 soul armor
+Hit points: 237 (19d10+133)
+Fort: +13
+Ref: +17
+Will: +17; +4 vs. dismissal, +2 vs. enchantment
+Immune: calling, disease, poison
+Resist: adaptive 10
+Sr: 27
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: unarmed strike +21/+16/+11/+6 (2d6+2) or aging touch +21 (12d10)
+Spec Att: aging touch
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22; Wisdom-based
+At will: greater teleport, self only, plane shift, self only
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 16
+Concentration: +22; Wisdom-based
+Power points: 27
+Psychoactive powers: catatonia, 3 PE, DC 19, cognitive block, 3 PE, DC 19, divide mind, 9 PE, mind thrust IV, 4 PE, DC 20, remote viewing, 5 PE, retrocognition, 5 PE, unshakeable zeal, 7 PE
+:::
 
-**Subtype:** Extraplanar, Good, Lawful, Manasaputra
+### Statistics
 
-**Experience points:** 76,800
+::: statblock
+Ability scores: Str 15, Dex 23, Con 24, Int 16, Wis 23, Cha 18
+Base attack bonus: +19
+Combat maneuver bonus: +21
+Combat maneuver defense: 52
+Feats: Blind-Fight, Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike, Lightning Stance, Mobility, Skill Focus (Knowledge \[history\]), Vital Strike, Wind Stance
+Skills: Acrobatics +25, Diplomacy +26, Sense Motive +28
+Languages: Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: evolutionary sentinel, formless, [no breath](ref/umr/no-breath), positive energy affinity, subjective appearance, timeless
+:::
 
-**Armor class:** 31
+### Ecology
 
-**Touch:** 31
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 Dex, +4 deflection, +1 dodge, +10 soul armor
-
-**Hit points:** 237 (19d10+133)
-
-**Fort:** +13
-
-**Ref:** +17
-
-**Will:** +17; +4 vs. dismissal, +2 vs. enchantment
-
-**Immune:** calling, disease, poison
-
-**Resist:** adaptive 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** unarmed strike +21/+16/+11/+6 (2d6+2) or aging touch +21 (12d10)
-
-**Spec Att:** aging touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22; Wisdom-based
-
-**At will:**
-
-- greater teleport, self only, plane shift, self only
-
-**Psychic Magic**
-
-**Caster level:** 16
-
-**Concentration:** +22; Wisdom-based
-
-**Power points:** 27
-
-**Psychoactive powers:**
-
-- catatonia, 3 PE, DC 19, cognitive block, 3 PE, DC 19, divide mind, 9 PE, mind thrust IV, 4 PE, DC
-  20, remote viewing, 5 PE, retrocognition, 5 PE, unshakeable zeal, 7 PE
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 23, Con 24, Int 16, Wis 23, Cha 18
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 52
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike,
-Lightning Stance, Mobility, Skill Focus (Knowledge \[history\]), Vital Strike, Wind Stance
-
-**Skills:** Acrobatics +25, Diplomacy +26, Sense Motive +28
-
-**Languages:** Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** evolutionary sentinel, formless, [no breath](ref/umr/no-breath), positive
-energy affinity, subjective appearance, timeless
-
-**Ecology**
-
-**Environment:** any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

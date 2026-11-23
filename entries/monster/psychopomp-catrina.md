@@ -31,99 +31,72 @@ abilities = ["10", "17", "16", "13", "14", "19"]
 _With lengthy curling hair, a dancer's dress, and a bouquet of flowers, this woman remains
 beautiful, despite having no flesh._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: calm emotions (30 ft., DC 17)
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 1,600
+:::
 
-**aura:** calm emotions (30 ft., DC 17)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +8
+Will: +9
+Dr: 5/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +6 (1d8)
+Spec Att: compel condemned, kiss of death
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+At will: dancing lights, deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility, self only, speak with dead
+Per day: 3/day: major image (DC 20)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+Ability scores: Str 10, Dex 17, Con 16, Int 13, Wis 14, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Combat Expertise, Improved Initiative, Iron Will
+Skills: Diplomacy +13, Stealth +12, Use Magic Device +10
+Languages: Abyssal, Celestial, Common, Infernal; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +9
-
-**Dr:** 5/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +6 (1d8)
-
-**Spec Att:** compel condemned, kiss of death
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**At will:**
-
-- dancing lights, deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility,
-  self only, speak with dead
-
-**Per day:**
-
-- 3/day: major image (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 16, Int 13, Wis 14, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Expertise, Improved Initiative, Iron Will
-
-**Skills:** Diplomacy +13, Stealth +12, Use Magic Device +10
-
-**Languages:** Abyssal, Celestial, Common, Infernal; _[tongues](ref/spell/tongues),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** spirit touch
-
-**Ecology**
-
-**Environment:** any ([Purgatory](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or reception (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Purgatory](ref/rule/purgatory))
+Organization: solitary, pair, or reception (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

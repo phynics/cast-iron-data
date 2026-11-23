@@ -28,69 +28,57 @@ abilities = ["17", "16", "14", "2", "11", "9"]
 _Standing on muscular legs that end in enormous talons, this flightless bird is almost twice the
 height of a man._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 talons +4 (1d6+3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 16, Con 14, Int 2, Wis 11, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Perception +9
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 talons +4 (1d6+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 14, Int 2, Wis 11, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Perception +9
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, group (3-5), or colony (6-100)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, group (3-5), or colony (6-100)
+Treasure: None
+:::
 
 ### Description
 

@@ -30,106 +30,75 @@ abilities = ["20", "20", "20", "18", "19", "17"]
 
 _This scaly-skinned humanoid has long venomous fangs, claws, and unblinking reptilian eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +9
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Native, Oni, Reptilian, Shapechanger
+Experience points: 4,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 16
+AC modifiers: +5 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 105 (10d10+50)
+Fort: +8
+Ref: +12
+Will: +11
+Immune: acid, poison
+Regen: 5 (cold, fire)
+Sr: 19
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +1 spiked chain +15/+10 (2d6+8), bite +9 (1d6+2 plus poison)
+Reach: 10
+Space: 10
+Spec Att: ripping spikes, sudden shed
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: fly
+At will: command (DC 14), darkness, invisibility, self only
+Per day: 3/day: charm monster (DC 17)\
+1/day: cloudkill (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Native, Oni, Reptilian, Shapechanger
+::: statblock
+Ability scores: Str 20, Dex 20, Con 20, Int 18, Wis 19, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 32
+Feats: Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility
+Skills: Bluff +16, Disguise +13, Sense Motive +17, Spellcraft +17, Stealth +14, Use Magic Device +16
+Languages: Common, Draconic, Nagaji
+Special qualities: [change shape](ref/umr/change-shape) (nagaji, [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** acid, poison
-
-**Regen:** 5 (cold, fire)
-
-**Sr:** 19
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +1 spiked chain +15/+10 (2d6+8), bite +9 (1d6+2 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ripping spikes, sudden shed
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- command (DC 14), darkness, invisibility, self only
-
-**Per day:**
-
-- 3/day: charm monster (DC 17)
-- 1/day: cloudkill (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 20, Con 20, Int 18, Wis 19, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility
-
-**Skills:** Bluff +16, Disguise +13, Sense Motive +17, Spellcraft +17, Stealth +14, Use Magic Device
-+16
-
-**Languages:** Common, Draconic, Nagaji
-
-**Special qualities:** [change shape](ref/umr/change-shape) (nagaji,
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** warm forests or mountains
-
-**Organization:** solitary, pair, or band (3-8)
-
-**Treasure:** Standard (+1 spiked chain); other treasure
+::: statblock
+Environment: warm forests or mountains
+Organization: solitary, pair, or band (3-8)
+Treasure: Standard (+1 spiked chain); other treasure
+:::
 
 ### Special Abilities
 

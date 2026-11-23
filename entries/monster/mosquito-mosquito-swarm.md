@@ -33,81 +33,63 @@ abilities = ["1", "13", "10", "-", "12", "9"]
 
 _The droning and spastic movements of this cloud of hungry mosquitoes promise a painful ordeal._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 800
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 31 (7d8)
+Fort: +5
+Ref: +3
+Will: +3
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Bleed: 1d6
+Distraction: 13
+Melee: swarm (2d6 plus disease and bleed)
+Reach: 5
+Space: 10
+Spec Att: disease (malaria, DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 13, Con 10, Int -, Wis 12, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +11, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 31 (7d8)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Bleed:** 1d6
-
-**Distraction:** 13
-
-**Melee:** swarm (2d6 plus disease and bleed)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** disease (malaria, DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 10, Int -, Wis 12, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +11, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** tropical swamps
-
-**Organization:** solitary, pair, fury (3-6 swarms), or scourge (7-12 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: tropical swamps
+Organization: solitary, pair, fury (3-6 swarms), or scourge (7-12 swarms)
+Treasure: None
+:::
 
 ### Description
 

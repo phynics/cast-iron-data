@@ -30,93 +30,71 @@ abilities = ["6", "15", "8", "5", "12", "13"]
 _This minuscule dragon's transparent wings and large eyes resemble those of a praying mantis. Its
 form glows bright with an inner fire._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Alignment: Chaotic neutral
+Size: diminutive
+Type: dragon
+Initiative: +2
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Experience points: 100
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 5 (1d12-1)
+Fort: +1
+Ref: +4
+Will: +3
+Fh: 1
+Immune: fire, paralysis, sleep
+Vulner: cold
+Weaknesses: heart of flame
+:::
 
-**Type:** dragon
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Br Weap: 10-ft. cone, 1d4 fire, Reflex DC 9 half, usable every 1d4 rounds
+Melee: bite +7 (1d3-2 plus 1 fire)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +2
+At will: spark
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 6, Dex 15, Con 8, Int 5, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Flyby Attack, Weapon Finesse
+Skills: Fly +16, Perception +5, Stealth +18
+Languages: Draconic
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 5 (1d12-1)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +3
-
-**Fh:** 1
-
-**Immune:** fire, paralysis, sleep
-
-**Vulner:** cold
-
-**Weaknesses:** heart of flame
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Br Weap:** 10-ft. cone, 1d4 fire, Reflex DC 9 half, usable every 1d4 rounds
-
-**Melee:** bite +7 (1d3-2 plus 1 fire)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**At will:**
-
-- spark
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 8, Int 5, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Flyby Attack, Weapon Finesse
-
-**Skills:** Fly +16, Perception +5, Stealth +18
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any warm
-
-**Organization:** solitary, pair, or swarm (12-20)
-
-**Treasure:** Double
+::: statblock
+Environment: any warm
+Organization: solitary, pair, or swarm (12-20)
+Treasure: Double
+:::
 
 ### Special Abilities
 

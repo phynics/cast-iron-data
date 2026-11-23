@@ -33,98 +33,72 @@ abilities = ["6", "16", "13", "12", "10", "17"]
 _This lovely woman's skin appears to be made of water. She has a fluid grace and wears clothing of
 woven reeds and leaves._
 
-**Challenge rating:** 1/2
-
 **Naiad [bard](ref/class/bard) 1**
 
-**Type:** fey
+::: statblock
+Challenge rating: 1/2
+Type: fey
+Initiative: +3
+Size: medium
+Alignment: Neutral good
+Perception: +4
+Senses: Low-light vision
+Subtype: Water
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 9 (1d8+1)
+Fort: +1
+Ref: +5
+Will: +2
+Defensive abilities: water bond
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: dagger -2 (1d4-2/19-20)
+Ranged: dagger +3 (1d4-2/19-20)
+Spec Att: bardic performance 7 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 13\], [inspire courage](ref/performance/inspire-courage) +1)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: charm person (DC 14), cure light wounds
+Cantrips: At will: detect magic, light, message, prestidigitation (DC 13)
+:::
 
-**Subtype:** Water
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 6, Dex 16, Con 13, Int 12, Wis 10, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 11
+Feats: Combat Casting
+Skills: Diplomacy +7, Handle Animal +6, Perform (wind) +9, Sense Motive +4, Stealth +7, Swim +7
+Racial Modifiers: +2 Handle Animal, +2 Knowledge (nature)
+Languages: Aquan, Common, Sylvan
+Special qualities: inspiration, bardic knowledge +1
+:::
 
-**Armor class:** 13
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 9 (1d8+1)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +2
-
-**Defensive abilities:** water bond
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** dagger -2 (1d4-2/19-20)
-
-**Ranged:** dagger +3 (1d4-2/19-20)
-
-**Spec Att:** bardic performance 7 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 13\],
-[inspire courage](ref/performance/inspire-courage) +1)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: charm person (DC 14), cure light wounds
-
-**Cantrips:**
-
-- At will: detect magic, light, message, prestidigitation (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 16, Con 13, Int 12, Wis 10, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Combat Casting
-
-**Skills:** Diplomacy +7, Handle Animal +6, Perform (wind) +9, Sense Motive +4, Stealth +7, Swim +7
-
-**Racial Modifiers:** +2 Handle Animal, +2 Knowledge (nature)
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** inspiration, bardic knowledge +1
-
-**Ecology**
-
-**Environment:** any freshwater
-
-**Organization:** solitary, pair, or current (3-10)
-
-**Treasure:** Standard (dagger); [masterwork flute](ref/eq-misc/musical-instrument-masterwork),
-other treasure
+::: statblock
+Environment: any freshwater
+Organization: solitary, pair, or current (3-10)
+Treasure: Standard (dagger); [masterwork flute](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

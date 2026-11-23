@@ -29,95 +29,70 @@ abilities = ["5", "14", "11", "9", "16", "12"]
 
 _This small creature has the body of a housecat, the wings of a falcon, and the head of a monkey._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +3
+Ref: +5
+Will: +6
+Dr: 5/magic
+Sr: 13
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft., fly 30 ft. (average)
+Melee: bite +2 (1d3-3), 2 claws +2 (1d2-3)
+Reach: 0
+Space: 2-1/2
+Spec Att: aided insight
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Constant: comprehend languages
+At will: detect magic, detect secret doors
+Per day: 3/day: burning hands, cause fear, identify, vanish
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 5, Dex 14, Con 11, Int 9, Wis 16, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 10
+Feats: Alertness, Iron Will
+Skills: Fly +6, Perception +11, Sense Motive +5
+Languages: Common, Sphinx
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +6
-
-**Dr:** 5/magic
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (average)
-
-**Melee:** bite +2 (1d3-3), 2 claws +2 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** aided insight
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Constant:**
-
-- comprehend languages
-
-**At will:**
-
-- detect magic, detect secret doors
-
-**Per day:**
-
-- 3/day: burning hands, cause fear, identify, vanish
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 14, Con 11, Int 9, Wis 16, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 10
-
-**Feats:** Alertness, Iron Will
-
-**Skills:** Fly +6, Perception +11, Sense Motive +5
-
-**Languages:** Common, Sphinx
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

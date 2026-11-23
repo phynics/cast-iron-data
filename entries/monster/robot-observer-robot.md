@@ -33,89 +33,67 @@ abilities = ["12", "15", "-", "10", "17", "1"]
 _This small robot is reminiscent of a beetle with a pair of pincers extending from the front of its
 body._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +2
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 Dex, +4 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +5
+Will: +4
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: critical hits and electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 20 ft., fly 60 ft. (perfect)
+Melee: 2 claws +6 (1d2+1), integrated laser torch +6 (1d10)
+Ranged: integrated stun gun +7 (1d8 plus nonlethal)
+Reach: 0
+Reach P: 5 ft. with integrated laser torch
+Space: 2-1/2
+Spec Att: integrated laser torch, integrated stun gun
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Robot
+::: statblock
+Ability scores: Str 12, Dex 15, Con -, Int 10, Wis 17, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14 (22 vs. trip)
+Feats: Alertness, Lightning Reflexes
+Skills: Fly +14, Perception +15
+Racial Modifiers: +4 Perception
+Languages: Androffan, Common
+Special qualities: camouflage, transmit senses
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +4 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +4
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +6 (1d2+1), integrated laser torch +6 (1d10)
-
-**Ranged:** integrated stun gun +7 (1d8 plus nonlethal)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with integrated laser torch
-
-**Space:** 2-1/2
-
-**Spec Att:** integrated laser torch, integrated stun gun
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con -, Int 10, Wis 17, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14 (22 vs. trip)
-
-**Feats:** Alertness, Lightning Reflexes
-
-**Skills:** Fly +14, Perception +15
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Androffan, Common
-
-**Special qualities:** camouflage, transmit senses
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary or deployment (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary or deployment (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

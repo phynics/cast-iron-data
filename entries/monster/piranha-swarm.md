@@ -33,79 +33,62 @@ abilities = ["3", "16", "15", "1", "12", "2"]
 _This swarm of silver-scaled fish thrashes feverishly, the dozens of swiftly moving creatures within
 seeming restless and bloodthirsty._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+blindsense: 30
+Initiative: +7
+Keen Scent: present
+Alignment: Neutral
+Perception: +5
+Subtype: Aquatic, Swarm
+Size: tiny
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +7
+Will: +2
+Defensive abilities: swarm traits
+:::
 
-**Initiative:** +7
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 30 ft.
+Bleed: 1d6
+Distraction: 14
+Melee: swarm (1d6 plus bleed and distraction)
+Reach: 0
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +5
+::: statblock
+Ability scores: Str 3, Dex 16, Con 15, Int 1, Wis 12, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Perception +5, Stealth +18, Swim +9
+:::
 
-**Subtype:** Aquatic, Swarm
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**Bleed:** 1d6
-
-**Distraction:** 14
-
-**Melee:** swarm (1d6 plus bleed and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 16, Con 15, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Perception +5, Stealth +18, Swim +9
-
-**Ecology**
-
-**Environment:** warm freshwater or any aquatic
-
-**Organization:** solitary, shoal (2-5 swarms), or school (6-10 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: warm freshwater or any aquatic
+Organization: solitary, shoal (2-5 swarms), or school (6-10 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

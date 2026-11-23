@@ -30,81 +30,63 @@ abilities = ["28", "1", "21", "-", "1", "1"]
 
 _This seething mass of bubbling molten rock churns and moves of its own hungry accord._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Fire
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 85 (9d8+45)
+Fort: +8
+Ref: -2
+Will: -2
+Immune: fire, [ooze traits](ref/umr/ooze-traits)
+Split: cold and slashing, 8 hp
+Weaknesses: vulnerability to cold, vulnerability to water
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Burn: 2d6, DC 19
+Constrict: 2d6+13 plus burn
+Melee: slam +14 (2d6+13 plus 2d6 fire, [grab](ref/umr/grab), and burn)
+Reach: 5
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 28, Dex 1, Con 21, Int -, Wis 1, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 21 (can't be tripped)
+Skills: Climb +17
+Special qualities: lava body
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +8
-
-**Ref:** -2
-
-**Will:** -2
-
-**Immune:** fire, [ooze traits](ref/umr/ooze-traits)
-
-**Split:** cold and slashing, 8 hp
-
-**Weaknesses:** vulnerability to cold, vulnerability to water
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Burn:** 2d6, DC 19
-
-**Constrict:** 2d6+13 plus burn
-
-**Melee:** slam +14 (2d6+13 plus 2d6 fire, [grab](ref/umr/grab), and burn)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 1, Con 21, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Skills:** Climb +17
-
-**Special qualities:** lava body
-
-**Ecology**
-
-**Environment:** any volcano or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any volcano or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

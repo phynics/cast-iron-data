@@ -35,83 +35,64 @@ abilities = ["-", "18", "-", "13", "15", "23"]
 _This horrific, ghostly skull's brain pulses within its cranium, the whorls and folds plainly
 visible through bone._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: [mental static](ref/umr/mental-static-aura) (30 ft., DC 20)
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+thoughtsense: 60
+Type: undead
+Experience points: 3,200
+:::
 
-**aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 20)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 16
+AC modifiers: +6 deflection, +4 Dex
+Hit points: 84 (8d8+48)
+Fort: +8
+Ref: +6
+Will: +8
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: fly 60 ft. (good)
+Melee: incorporeal touch +10 (1d6 Charisma damage)
+Spec Att: fleeting possession
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 13, Wis 15, Cha 23
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Perception)
+Skills: Fly +19, Intimidate +17, Perception +16, Sense Motive +13, Stealth +15
+Languages: Common
+Special qualities: formless
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**thoughtsense:** 60
-
-**Type:** undead
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +4 Dex
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (good)
-
-**Melee:** incorporeal touch +10 (1d6 Charisma damage)
-
-**Spec Att:** fleeting possession
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 13, Wis 15, Cha 23
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Fly +19, Intimidate +17, Perception +16, Sense Motive +13, Stealth +15
-
-**Languages:** Common
-
-**Special qualities:** formless
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

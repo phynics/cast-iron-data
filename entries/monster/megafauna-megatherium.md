@@ -28,71 +28,58 @@ abilities = ["25", "10", "19", "2", "13", "6"]
 _The great sloth, standing on its hind legs, can reach the treetops with its agile tongue to grab at
 foliage._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: +10 natural, -2 size
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +5
+Will: +3
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Melee: 2 claws +10 (1d8+7 plus [trip](ref/umr/trip))
+Reach: 10
+Rend: 2 claws, 1d8+10
+Space: 15
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 10, Con 19, Int 2, Wis 13, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: +14
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Awesome Blow, Improved Bull Rush, Power Attack, Skill Focus (Perception)
+Skills: Climb +15, Perception +14
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** +10 natural, -2 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Melee:** 2 claws +10 (1d8+7 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 10, Con 19, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Power Attack, Skill Focus (Perception)
-
-**Skills:** Climb +15, Perception +14
-
-**Ecology**
-
-**Environment:** temperate or warm forest
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forest
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

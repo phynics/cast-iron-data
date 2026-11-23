@@ -33,99 +33,70 @@ abilities = ["22", "23", "20", "18", "15", "17"]
 
 _This large, flying serpent has a humanoid head outlined by a colorful, frilled hood._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 60 ft., Dreamsight
+Subtype: Extraplanar
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 17
+AC modifiers: +6 Dex, +8 natural, -1 size
+Hit points: 123 (13d8+65)
+Fort: +9
+Ref: +12
+Will: +10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+Melee: bite +15 (3d8+9 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +11
+3rd-level spells: 5/day: synaptic pulse (DC 16), synesthesia (DC 16)
+2nd-level spells: 7/day: misdirection, oneiric horror (DC 15), see invisibility
+1st-level spells: 7/day: deja vu, ill omen, mind thrust I (DC 14), shield, silent image (DC 14)
+Cantrips: At will: dancing lights, daze (DC 13), detect psychic significance, ghost sound (DC 13), mage hand, read magic, telekinetic maneuver
+:::
 
-**Senses:** Darkvision 60 ft., Dreamsight
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 23, Con 20, Int 18, Wis 15, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Combat Casting, Flyby Attack, Lightning Reflexes, Lucid Dreamer, Skill Focus (Perception), Vital Strike, Weapon Focus (bite)
+Skills: Acrobatics +22, Bluff +16, Fly +20, Knowledge (arcana) +17, Perception +24
+Languages: Aklo, Celestial, Common, Infernal
+Special qualities: dream passage
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 Dex, +8 natural, -1 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**Melee:** bite +15 (3d8+9 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 5/day: synaptic pulse (DC 16), synesthesia (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: misdirection, oneiric horror (DC 15), see invisibility
-
-**1st-level spells:**
-
-- 7/day: deja vu, ill omen, mind thrust I (DC 14), shield, silent image (DC 14)
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 13), detect psychic significance, ghost sound (DC 13), mage
-  hand, read magic, telekinetic maneuver
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 23, Con 20, Int 18, Wis 15, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Combat Casting, Flyby Attack, Lightning Reflexes, Lucid Dreamer, Skill Focus
-(Perception), Vital Strike, Weapon Focus (bite)
-
-**Skills:** Acrobatics +22, Bluff +16, Fly +20, Knowledge (arcana) +17, Perception +24
-
-**Languages:** Aklo, Celestial, Common, Infernal
-
-**Special qualities:** dream passage
-
-**Ecology**
-
-**Environment:** any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: solitary, pair, or nest (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,72 +31,55 @@ abilities = ["17", "20", "17", "2", "15", "11"]
 _This bloated, pinniped-like mammal is covered in salty grime, and its sturdy, blunt tusks promise
 an agonizing death._
 
-**Challenge rating:** 6
-
 **Male advanced muck bunyip**
 
-**Initiative:** +5
+::: statblock
+Challenge rating: 6
+Initiative: +5
+keenScent: 180
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**keenScent:** 180
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +5 Dex, +6 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +11
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 50 ft.
+Blood Rage: present
+Melee: gore +11 (2d6+4/19-20 plus disease)
+Reach: 10
+Space: 10
+Spec Att: disease, roar (DC 17)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Aquatic
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +6 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 10 ft., swim 50 ft.
-
-**Blood Rage:** present
-
-**Melee:** gore +11 (2d6+4/19-20 plus disease)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disease, roar (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 17, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Critical (gore)^B^, Improved Roar, Skill Focus (Perception), Skill Focus
-(Stealth), Weapon Focus (gore)
-
-**Skills:** Escape Artist +7, Perception +11, Stealth +10, Swim +11
+::: statblock
+Ability scores: Str 17, Dex 20, Con 17, Int 2, Wis 15, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Improved Critical (gore)^B^, Improved Roar, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (gore)
+Skills: Escape Artist +7, Perception +11, Stealth +10, Swim +11
+:::
 
 ###### B {#footnote-b}
 

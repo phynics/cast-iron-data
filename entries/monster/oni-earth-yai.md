@@ -32,109 +32,75 @@ abilities = ["27", "22", "23", "12", "14", "15"]
 _Jagged cracks and pebbled growths mar the surface of this three-eyed giant's rocky skin, making it
 appear to have burst forth from rugged stone._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant, Native, Oni, Shapechanger
+Experience points: 25,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 23
+AC modifiers: +6 Dex, +14 natural, -1 size
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +11
+Will: +14
+Regen: 5 (acid or fire)
+Sr: 24
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 50 ft. (good)
+Melee: greatclub +23/+18/+13/+8 (2d8+12) or 2 slams +23 (1d10+8)
+Ranged: stony missile +21 (3d6 plus awesome blow)
+Reach: 10
+Space: 10
+Spec Att: spiky skin
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +18
+Constant: fly
+At will: darkness, invisibility, self only, passwall, stone only
+Per day: 3/day: spike stones (DC 16), stone shape, stone tell\
+1/day: earthquake, repel metal or stone, transmute mud to rock (DC 17), transmute rock to mud (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Giant, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 27, Dex 22, Con 23, Int 12, Wis 14, Cha 15
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 41
+Feats: Combat Reflexes, Improved Precise Shot, Intimidating Prowess, Iron Will, Pinpoint Targeting, Point-Blank Shot, Power Attack, Precise Shot
+Skills: Bluff +21, Fly +27, Intimidate +29, Knowledge (arcana) +20, Perception +21, Sense Motive +21, Stealth +21 (+29 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Common, Giant
+Special qualities: [change shape](ref/umr/change-shape) (Medium, or Large humanoid; [alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 Dex, +14 natural, -1 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +11
-
-**Will:** +14
-
-**Regen:** 5 (acid or fire)
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 50 ft., fly 50 ft. (good)
-
-**Melee:** greatclub +23/+18/+13/+8 (2d8+12) or 2 slams +23 (1d10+8)
-
-**Ranged:** stony missile +21 (3d6 plus awesome blow)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** spiky skin
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +18
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- darkness, invisibility, self only, passwall, stone only
-
-**Per day:**
-
-- 3/day: spike stones (DC 16), stone shape, stone tell
-- 1/day: earthquake, repel metal or stone, transmute mud to rock (DC 17), transmute rock to mud (DC
-  17)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 22, Con 23, Int 12, Wis 14, Cha 15
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Reflexes, Improved Precise Shot, Intimidating Prowess, Iron Will, Pinpoint
-Targeting, Point-Blank Shot, Power Attack, Precise Shot
-
-**Skills:** Bluff +21, Fly +27, Intimidate +29, Knowledge (arcana) +20, Perception +21, Sense Motive
-+21, Stealth +21 (+29 in rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Common, Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium, or Large humanoid;
-[alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, band (1 plus 4-8 stone giants), or tribe (1 plus 2-3 stone giant elders
-and 10-20 stone giants)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate mountains
+Organization: solitary, band (1 plus 4-8 stone giants), or tribe (1 plus 2-3 stone giant elders and 10-20 stone giants)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

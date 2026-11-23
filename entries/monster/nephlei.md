@@ -31,94 +31,71 @@ abilities = ["12", "19", "20", "16", "15", "21"]
 
 _A mighty woman of refined beauty hovers in the air, her skin whorled with blue markings._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Air, Extraplanar
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 20
+Touch: 17
+Flat-footed: 16
+AC modifiers: +4 deflection, +4 Dex, +3 natural, -1 size
+Hit points: 115 (11d10+55)
+Fort: +12
+Ref: +15
+Will: +13
+Immune: cold, electricity
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Melee: +1 [shocking burst](ref/magic-enh/shocking-burst) scorpion whip +12/+7/+2 (1d6+2 plus 1d6 electricity) or slam +14 (1d6+1)
+Reach: 10
+Space: 10
+Spec Att: lifeburst
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Per day: 5/day: alter winds (DC 16), fog cloud, frigid touch (DC 17), gust of wind (DC 17), obscuring mist\
+3/day: cloak of winds, lightning bolt (DC 18), river of wind (DC 19), wind wall (DC 18)\
+1/day: ball lightning (DC 19), control winds (DC 20), lightning arc (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Air, Extraplanar
+::: statblock
+Ability scores: Str 12, Dex 19, Con 20, Int 16, Wis 15, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +16
+Combat maneuver defense: 31
+Feats: Agile Maneuvers, Combat Casting, Flyby Attack, Greater Spell Focus (evocation), Spell Focus (evocation), Weapon Finesse
+Skills: Acrobatics +18, Bluff +19, Fly +20, Intimidate +19, Knowledge (nature) +17, Perception +16, Sense Motive +16, Stealth +14
+Languages: Auran, Common, Draconic
+Special qualities: crackling whip, unearthly grace
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 deflection, +4 Dex, +3 natural, -1 size
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +13
-
-**Immune:** cold, electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Melee:** +1 [shocking burst](ref/magic-enh/shocking-burst) scorpion whip +12/+7/+2 (1d6+2 plus 1d6
-electricity) or slam +14 (1d6+1)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** lifeburst
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Per day:**
-
-- 5/day: alter winds (DC 16), fog cloud, frigid touch (DC 17), gust of wind (DC 17), obscuring mist
-- 3/day: cloak of winds, lightning bolt (DC 18), river of wind (DC 19), wind wall (DC 18)
-- 1/day: ball lightning (DC 19), control winds (DC 20), lightning arc (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 20, Int 16, Wis 15, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 31
-
-**Feats:** Agile Maneuvers, Combat Casting, Flyby Attack, Greater Spell Focus (evocation), Spell
-Focus (evocation), Weapon Finesse
-
-**Skills:** Acrobatics +18, Bluff +19, Fly +20, Intimidate +19, Knowledge (nature) +17, Perception
-+16, Sense Motive +16, Stealth +14
-
-**Languages:** Auran, Common, Draconic
-
-**Special qualities:** crackling whip, unearthly grace
-
-**Ecology**
-
-**Environment:** any sky ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any sky ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

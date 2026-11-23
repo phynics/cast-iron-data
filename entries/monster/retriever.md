@@ -32,90 +32,69 @@ abilities = ["22", "16", "-", "3", "11", "1"]
 _A spider the size of a bull elephant rears up on its back four legs in a violent challenge, eyes
 shimmering with magical energy._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: construct
+Size: huge
+Initiative: +7
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 22
+AC modifiers: +3 Dex, +14 natural, -2 size
+Hit points: 137 (15d10+55)
+Fort: +7
+Ref: +10
+Will: +5
+Fh: 5
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 50 ft.
+Melee: bite +19 (1d8+6 plus [grab](ref/umr/grab)), 4 claws +19 (2d6+6/19-20)
+Reach: 15
+Space: 15
+Spec Att: eye rays (+16 ranged touch)
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+At will: discern location
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 16, Con -, Int 3, Wis 11, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Cleave, Improved Bull Rush, Great Fortitude, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Power Attack, Toughness
+Skills: Perception +15
+Languages: Abyssal (can't speak)
+Special qualities: relentless
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +14 natural, -2 size
-
-**Hit points:** 137 (15d10+55)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +5
-
-**Fh:** 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +19 (1d8+6 plus [grab](ref/umr/grab)), 4 claws +19 (2d6+6/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** eye rays (+16 ranged touch)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**At will:**
-
-- discern location
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 16, Con -, Int 3, Wis 11, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Cleave, Improved Bull Rush, Great Fortitude, Improved Critical (claw), Improved
-Initiative, Lightning Reflexes, Power Attack, Toughness
-
-**Skills:** Perception +15
-
-**Languages:** Abyssal (can't speak)
-
-**Special qualities:** relentless
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

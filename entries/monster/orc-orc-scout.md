@@ -30,94 +30,72 @@ special_qualities = "favored terrain (mountain +2), hunter's bond (companions), 
 abilities = ["17", "16", "12", "8", "12", "6"]
 +++
 
-**Challenge rating:** 5
-
 **Orc [ranger](ref/class/ranger) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Subtype: Orc
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex, +1 dodge
+Hit points: 49 (6d10+12)
+Fort: +6
+Ref: +8
+Will: +3
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Fav En: dwarves +4, humans +2
+Melee: mwk battleaxe +10/+5 (1d8+3/×3)
+Ranged: +1 composite shortbow +10/+5 (1d6+4/×3)
+Spec Att: combat style (archery)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +4
+1st-level spells: longstrider, pass without trace
+:::
 
-**Subtype:** Orc
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 17, Dex 16, Con 12, Int 8, Wis 12, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Dodge, Endurance, Mobility, Point-Blank Shot, Precise Shot, Shot on the Run
+Skills: Handle Animal +7, Intimidate +7, Perception +10
+Languages: Common, Orc
+Special qualities: [favored terrain](ref/ability/favored-terrain) (mountain +2), hunter's bond (companions), track +3, weapon familiarity, [wild empathy](ref/ability/wild-empathy) +4
+Combat gear: 2 +1 flaming arrows, potion of cure moderate wounds, 2 tanglefoot bags
+Other gear: +1 studded leather armor, +1 csb40, mwk battleaxe, 56 gp
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex, +1 dodge
-
-**Hit points:** 49 (6d10+12)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +3
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** dwarves +4, humans +2
-
-**Melee:** mwk battleaxe +10/+5 (1d8+3/×3)
-
-**Ranged:** +1 composite shortbow +10/+5 (1d6+4/×3)
-
-**Spec Att:** combat style (archery)
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- longstrider, pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 12, Int 8, Wis 12, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Endurance, Mobility, Point-Blank Shot, Precise Shot, Shot on the Run
-
-**Skills:** Handle Animal +7, Intimidate +7, Perception +10
-
-**Languages:** Common, Orc
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (mountain +2), hunter's bond
-(companions), track +3, weapon familiarity, [wild empathy](ref/ability/wild-empathy) +4
-
-**Combat gear:** 2 +1 flaming arrows, potion of cure moderate wounds, 2 tanglefoot bags
-
-**Other gear:** +1 studded leather armor, +1 csb40, mwk battleaxe, 56 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

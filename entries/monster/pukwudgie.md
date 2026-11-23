@@ -32,99 +32,72 @@ abilities = ["14", "18", "19", "15", "14", "19"]
 
 _A merging of an emaciated man and a porcupine, this sinister creature smells of death and decay._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +4
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Deathwatch, Detect good, Detect magic
+Size: small
+Subtype: Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +4 natural, +1 size
+Hit points: 85 (9d10+36)
+Fort: +7
+Ref: +10
+Will: +10
+Immune: poison
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +14 (1d4+2 plus poison)
+Ranged: 2 quills +15 (1d4+2 plus poison)
+Sneak: +3d6
+Spec Att: spawn undead
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, Detect good, Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: deathwatch, detect good, detect magic
+At will: command undead (DC 16), produce flame
+Per day: 3/day: animate dead, death knell (DC 16), invisibility, ray of enfeeblement (DC 15), scare (DC 16)\
+1/day: nondetection (DC 17)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 14, Dex 18, Con 19, Int 15, Wis 14, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +10
+Combat maneuver defense: 25
+Feats: Dodge, Iron Will, Mobility, Weapon Finesse, Weapon Focus (quill)
+Skills: Bluff +10, Heal +10, Knowledge (arcana) +11, Perception +13, Spellcraft +11, Stealth +16
+Languages: Common, Draconic, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (porcupine; [beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +4 natural, +1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +10
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +14 (1d4+2 plus poison)
-
-**Ranged:** 2 quills +15 (1d4+2 plus poison)
-
-**Sneak:** +3d6
-
-**Spec Att:** spawn undead
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- deathwatch, detect good, detect magic
-
-**At will:**
-
-- command undead (DC 16), produce flame
-
-**Per day:**
-
-- 3/day: animate dead, death knell (DC 16), invisibility, ray of enfeeblement (DC 15), scare (DC 16)
-- 1/day: nondetection (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 18, Con 19, Int 15, Wis 14, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 25
-
-**Feats:** Dodge, Iron Will, Mobility, Weapon Finesse, Weapon Focus (quill)
-
-**Skills:** Bluff +10, Heal +10, Knowledge (arcana) +11, Perception +13, Spellcraft +11, Stealth +16
-
-**Languages:** Common, Draconic, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (porcupine;
-[beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or mountains
-
-**Organization:** solitary, pair, or cult (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests, hills, or mountains
+Organization: solitary, pair, or cult (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

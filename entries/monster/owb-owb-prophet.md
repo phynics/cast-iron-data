@@ -33,110 +33,76 @@ abilities = ["22", "23", "22", "17", "18", "21"]
 _This creature resembles the skeletal torso of a winged, four-armed giant draped in tatters of
 liquid shadow._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +10
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Extraplanar
+Experience points: 25,600
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 21
+AC modifiers: +6 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +16
+Will: +11
+Dr: 10/magic
+Fh: 5
+Immune: bleed, cold, disease, mind-affecting effects, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee: 4 claws +21 (2d6+6/19-20 plus 1d6 cold)
+Ranged: burning cold +21 touch (3d6 cold plus entangle)
+Reach: 10
+Space: 10
+Spec Att: curse of darkness
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: blur
+At will: deeper darkness, detect thoughts (DC 17), dust of twilight (DC 17), ray of enfeeblement (DC 16), shadow step, silence (DC 17)
+Per day: 3/day: dominate person (DC 20), plane shift (to or from the Shadow Plane only; DC 20), quickened shadow step, shadow evocation (DC 20)\
+1/day: greater shadow conjuration (DC 22), shadow walk (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 23, Con 22, Int 17, Wis 18, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 40
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Point-Blank Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (shadow step), Vital Strike
+Skills: Bluff +24, Diplomacy +16, Sense Motive +23, Spellcraft +22, Stealth +21
+Languages: Aklo, Common, Dark Folk, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: deific, Forsaken patron (Husk)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +16
-
-**Will:** +11
-
-**Dr:** 10/magic
-
-**Fh:** 5
-
-**Immune:** bleed, cold, disease, mind-affecting effects, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (perfect)
-
-**Melee:** 4 claws +21 (2d6+6/19-20 plus 1d6 cold)
-
-**Ranged:** burning cold +21 touch (3d6 cold plus entangle)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** curse of darkness
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- deeper darkness, detect thoughts (DC 17), dust of twilight (DC 17), ray of enfeeblement (DC 16),
-  shadow step, silence (DC 17)
-
-**Per day:**
-
-- 3/day: dominate person (DC 20), plane shift (to or from the Shadow Plane only; DC 20), quickened
-  shadow step, shadow evocation (DC 20)
-- 1/day: greater shadow conjuration (DC 22), shadow walk (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 23, Con 22, Int 17, Wis 18, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 40
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Point-Blank Shot,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (shadow step), Vital Strike
-
-**Skills:** Bluff +24, Diplomacy +16, Sense Motive +23, Spellcraft +22, Stealth +21
-
-**Languages:** Aklo, Common, Dark Folk, Undercommon (can't speak); [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** deific, Forsaken patron (Husk)
-
-**Ecology**
-
-**Environment:** any land or underground ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or underground ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

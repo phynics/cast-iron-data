@@ -28,69 +28,57 @@ abilities = ["11", "12", "12", "2", "9", "5"]
 
 _This small-eyed rodent has a rounded body with numerous quills running all over its back._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: -1
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +5
+Will: -1
+Defensive abilities: quills
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 30 ft.
+Melee: tail slap +2 (1d3)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 11, Dex 12, Con 12, Int 2, Wis 9, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 9 (13 vs. trip)
+Feats: Lightning Reflexes
+Skills: Climb +5, Stealth +9 (+13 in grass)
+Racial Modifiers: +4 Stealth in grass
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** -1
-
-**Defensive abilities:** quills
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail slap +2 (1d3)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 12, Con 12, Int 2, Wis 9, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 9 (13 vs. trip)
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Climb +5, Stealth +9 (+13 in grass)
-
-**Racial Modifiers:** +4 Stealth in grass
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, pair, or prickle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, pair, or prickle (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

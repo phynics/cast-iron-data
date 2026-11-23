@@ -33,81 +33,63 @@ abilities = ["19", "14", "-", "10", "11", "1"]
 _This quadruped robot has glowing eyes and dexterous hands capable of examining and fixing
 machinery._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 31 (2d10+20)
+Fort: +0
+Ref: +2
+Will: +0
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (1d4+6)
+Ranged: net +4 touch (entangle)
+Spec Att: net
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int 10, Wis 11, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Skill Focus (Knowledge \[engineering\])
+Skills: Disable Device +6, Knowledge (engineering) +8, Perception +4
+Languages: Common
+Special qualities: refresh system, repair robot
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 31 (2d10+20)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (1d4+6)
-
-**Ranged:** net +4 touch (entangle)
-
-**Spec Att:** net
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int 10, Wis 11, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Skill Focus (Knowledge \[engineering\])
-
-**Skills:** Disable Device +6, Knowledge (engineering) +8, Perception +4
-
-**Languages:** Common
-
-**Special qualities:** refresh system, repair robot
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or union (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or union (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

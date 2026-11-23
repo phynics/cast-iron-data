@@ -34,91 +34,69 @@ abilities = ["25", "15", "18", "14", "16", "17"]
 
 _The strength and stature of this giant-sized human is matched only by the nobility of its bearing._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +2
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 4,800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +6 armor, +2 Dex, +5 natural, -1 size
+Hit points: 104 (11d10+44)
+Fort: +13
+Ref: +7
+Will: +10; +2 vs. fear and sorrow effects
+Defensive abilities: soul of sorrow
+Dr: 10/magic
+Resist: cold 10, fire 10
+Sr: 19
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: +1 longsword +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)
+Ranged: mwk spear +13/+8/+3 (2d6+7/×3)
+Reach: 10
+Space: 10
+Spec Att: crushing blow, mortal challenge
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Native
-
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 armor, +2 Dex, +5 natural, -1 size
-
-**Hit points:** 104 (11d10+44)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +10; +2 vs. fear and sorrow effects
-
-**Defensive abilities:** soul of sorrow
-
-**Dr:** 10/magic
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** +1 longsword +18/+13/+8 (2d6+11/17-20) or 2 slams +17 (1d6+7)
-
-**Ranged:** mwk spear +13/+8/+3 (2d6+7/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** crushing blow, mortal challenge
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 15, Con 18, Int 14, Wis 16, Cha 17
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+23 sunder)
-
-**Combat maneuver defense:** 31 (33 vs. sunder)
-
-**Feats:** Endurance^B^, Great Fortitude^B^, Greater Sunder, Improved Critical (longsword), Improved
-Sunder, Lightning Reflexes, Power Attack, Quick Draw
-
-**Skills:** Bluff +12, Climb +13, Diplomacy +17, Intimidate +17, Knowledge (geography, planes) +11,
-Perception +17
-
-**Languages:** Celestial
+::: statblock
+Ability scores: Str 25, Dex 15, Con 18, Int 14, Wis 16, Cha 17
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+23 sunder)
+Combat maneuver defense: 31 (33 vs. sunder)
+Feats: Endurance^B^, Great Fortitude^B^, Greater Sunder, Improved Critical (longsword), Improved Sunder, Lightning Reflexes, Power Attack, Quick Draw
+Skills: Bluff +12, Climb +13, Diplomacy +17, Intimidate +17, Knowledge (geography, planes) +11, Perception +17
+Languages: Celestial
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm hills
-
-**Organization:** solitary, pair, or tribe (3-8)
-
-**Treasure:** Double (mwk breastplate, +1 longsword, 4 mwk spears); other treasure
+::: statblock
+Environment: warm hills
+Organization: solitary, pair, or tribe (3-8)
+Treasure: Double (mwk breastplate, +1 longsword, 4 mwk spears); other treasure
+:::
 
 ### Special Abilities
 

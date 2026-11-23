@@ -32,109 +32,76 @@ abilities = ["20", "23", "19", "12", "13", "24"]
 _This beguiling female figure is partly obscured by long flowing hair that dances and flows around
 her as if she were underwater._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: fey
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Perception: +22
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 19,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 18
+AC modifiers: +6 Dex, +1 dodge, +8 natural
+Hit points: 150 (20d6+80)
+Fort: +12
+Ref: +18
+Will: +15
+Dr: 15/cold iron
+Immune: fire
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Constrict: 2d6+7
+Melee: staggering touch +16 (stagger), 4 tresses +16 (2d6+5 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 15 ft. with tresses
+Space: 5
+Spec Att: beckoning call, tresses
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: blur, water walk
+At will: entangle (DC 18), fog cloud, invisibility
+Per day: 3/day: quickened charm monster (DC 21), control water\
+1/day: summon nature's ally VI, water elementals only
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 20, Dex 23, Con 19, Int 12, Wis 13, Cha 24
+Base attack bonus: +10
+Combat maneuver bonus: +16 (+23 tresses, +27 grapple with tresses)
+Combat maneuver defense: 32
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +14, Bluff +24, Diplomacy +15, Perform (dance) +14, Sense Motive +15, Spellcraft +18, Stealth +27, Swim +31
+Languages: Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 Dex, +1 dodge, +8 natural
-
-**Hit points:** 150 (20d6+80)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +15
-
-**Dr:** 15/cold iron
-
-**Immune:** fire
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Constrict:** 2d6+7
-
-**Melee:** staggering touch +16 (stagger), 4 tresses +16 (2d6+5 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tresses
-
-**Space:** 5
-
-**Spec Att:** beckoning call, tresses
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- blur, water walk
-
-**At will:**
-
-- entangle (DC 18), fog cloud, invisibility
-
-**Per day:**
-
-- 3/day: quickened charm monster (DC 21), control water
-- 1/day: summon nature's ally VI, water elementals only
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 19, Int 12, Wis 13, Cha 24
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16 (+23 tresses, +27 grapple with tresses)
-
-**Combat maneuver defense:** 32
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Skill Focus
-(Perception), Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +14, Bluff +24, Diplomacy +15, Perform (dance) +14, Sense Motive +15,
-Spellcraft +18, Stealth +27, Swim +31
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or eddy (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary, pair, or eddy (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

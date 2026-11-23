@@ -30,98 +30,72 @@ abilities = ["40", "18", "24", "9", "19", "17"]
 
 _This enormous flippered creature is as pale as an iceberg and is nearly as large._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: colossal
+Initiative: +8
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +28
+Senses: Darkvision 60 ft.
+Experience points: 76,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 31
+Touch: 6
+Flat-footed: 27
+AC modifiers: +4 Dex, +25 natural, -8 size
+Hit points: 262 (21d10+147)
+Fort: +14
+Ref: +16
+Will: +18
+Dr: 10/piercing
+Immune: cold
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 80 ft.
+Capsize: present
+Melee: 2 claws +29 (3d8+15/19-20), bite +28 (4d6+15)
+Reach: 30
+Space: 30
+Spec Att: polar breach
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +24
+At will: hydraulic torrent
+Per day: 3/day: freezing sphere (DC 19)\
+1/day: vortex (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 76,800
+::: statblock
+Ability scores: Str 40, Dex 18, Con 24, Int 9, Wis 19, Cha 17
+Base attack bonus: +21
+Combat maneuver bonus: +44 (+46 bull rush)
+Combat maneuver defense: 8 (60 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Dazing Assault, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Staggering Critical, Weapon Focus (claw)
+Skills: Intimidate +17, Perception +28, Sense Motive +14, Swim +47
+Languages: Aquan
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Armor class:** 31
+### Ecology
 
-**Touch:** 6
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 Dex, +25 natural, -8 size
-
-**Hit points:** 262 (21d10+147)
-
-**Fort:** +14
-
-**Ref:** +16
-
-**Will:** +18
-
-**Dr:** 10/piercing
-
-**Immune:** cold
-
-**Offense**
-
-**Speed:** 10 ft., swim 80 ft.
-
-**Capsize:** present
-
-**Melee:** 2 claws +29 (3d8+15/19-20), bite +28 (4d6+15)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** polar breach
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +24
-
-**At will:**
-
-- hydraulic torrent
-
-**Per day:**
-
-- 3/day: freezing sphere (DC 19)
-- 1/day: vortex (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 18, Con 24, Int 9, Wis 19, Cha 17
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +44 (+46 bull rush)
-
-**Combat maneuver defense:** 8 (60 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Dazing Assault, Improved Bull Rush,
-Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Staggering Critical, Weapon
-Focus (claw)
-
-**Skills:** Intimidate +17, Perception +28, Sense Motive +14, Swim +47
-
-**Languages:** Aquan
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: cold oceans
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

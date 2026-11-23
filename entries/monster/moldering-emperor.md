@@ -35,101 +35,68 @@ abilities = ["32", "9", "28", "12", "15", "23"]
 _Once, perhaps, this monstrosity was an ancient neothelid, but centuries of exposure or
 experimentation with the black blood has perverted the beast into a terrible new form._
 
-**Challenge rating:** 18
-
 **[Black-blooded](ref/template/black-blooded) [neothelid](ref/monster/neothelid)**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 18
+Type: aberration
+blindsight: 100
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +2
+Perception: +25
+Senses: Trace teleport 60 ft.
+Subtype: Aquatic
+Experience points: 153,600
+:::
 
-**blindsight:** 100
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 33
+Touch: 5
+Flat-footed: 32
+AC modifiers: -1 Dex, +28 natural, -4 size
+Hit points: 270 (20d8+180)
+Fort: +17
+Ref: +5
+Will: +16
+Dr: 10/cold iron
+Immune: ability drain, cold, energy drain, poison
+Sr: 26
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Br Weap: 50-ft. cone, 14d10 acid, Reflex DC 29 half, once every 1d4 rounds; 30-ft. cone of black blood, 6d6 cold, Reflex DC 29 half, once every 1d4 rounds
+Melee: 4 tongues +22 (3d6+11/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: mind thrust, psychic crush
+Swallow: 2d6+11 plus 2d6 acid, AC 23, hp 25
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Constant: fly
+At will: detect thoughts (DC 18), charm monster (DC 20), clairvoyance/clairaudience, suggestion (DC 19), telekinesis (DC 21), teleport, poison (DC 20)
+Per day: 3/day: quickened suggestion (DC 19)
+:::
 
-**Senses:** Trace teleport 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 5
-
-**Flat-footed:** 32
-
-**AC modifiers:** -1 Dex, +28 natural, -4 size
-
-**Hit points:** 270 (20d8+180)
-
-**Fort:** +17
-
-**Ref:** +5
-
-**Will:** +16
-
-**Dr:** 10/cold iron
-
-**Immune:** ability drain, cold, energy drain, poison
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Br Weap:** 50-ft. cone, 14d10 acid, Reflex DC 29 half, once every 1d4 rounds; 30-ft. cone of black
-blood, 6d6 cold, Reflex DC 29 half, once every 1d4 rounds
-
-**Melee:** 4 tongues +22 (3d6+11/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** mind thrust, psychic crush
-
-**Swallow:** 2d6+11 plus 2d6 acid, AC 23, hp 25
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- detect thoughts (DC 18), charm monster (DC 20), clairvoyance/clairaudience, suggestion (DC 19),
-  telekinesis (DC 21), teleport, poison (DC 20)
-
-**Per day:**
-
-- 3/day: quickened suggestion (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con 28, Int 12, Wis 15, Cha 23
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue),
-Improved Initiative, Improved Overrun, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
-
-**Languages:** Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 32, Dex 9, Con 28, Int 12, Wis 15, Cha 23
+Base attack bonus: +15
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Improved Overrun, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
+Languages: Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ### Special Abilities
 

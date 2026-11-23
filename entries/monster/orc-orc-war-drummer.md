@@ -30,84 +30,64 @@ special_qualities = "bardic knowledge +2, versatile performance (percussion), we
 abilities = ["17", "12", "8", "12", "8", "14"]
 +++
 
-**Challenge rating:** 3
-
 **Orc [bard](ref/class/bard) ([savage skald](ref/arc-bard/savage-skald)) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +4 armor, +1 Dex
+Hit points: 25 (4d8+4)
+Fort: +1
+Ref: +6
+Will: +4; +4 vs. bardic performance, language-dependent, and sonic
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: mwk scimitar +7 (1d6+3/18-20)
+Ranged: javelin +4 (1d6+3)
+Spec Att: bardic performance 12 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +1, inspiring blow)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Orc
+::: statblock
+Ability scores: Str 17, Dex 12, Con 8, Int 12, Wis 8, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Spell Focus (enchantment), Toughness
+Skills: Bluff +9, Intimidate +9, Knowledge (arcana) +10, Perception +6, Perform (percussion) +11, Sense Motive +6, Spellcraft +8
+Languages: Common, Goblin, Orc
+Special qualities: bardic knowledge +2, versatile performance (percussion), weapon familiarity
+Combat gear: scroll of cat's grace, scroll of glitterdust, Dcure light wounds/20 charges
+Other gear: mwk chain shirt, 6 javelins, mwk scimitar, Iclk1, masterwork drums, 129 gp
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +1 Dex
-
-**Hit points:** 25 (4d8+4)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +4; +4 vs. bardic performance, language-dependent, and sonic
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk scimitar +7 (1d6+3/18-20)
-
-**Ranged:** javelin +4 (1d6+3)
-
-**Spec Att:** bardic performance 12 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [inspire competence](ref/performance/inspire-competence)
-+2, [inspire courage](ref/performance/inspire-courage) +1, inspiring blow)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 8, Int 12, Wis 8, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Spell Focus (enchantment), Toughness
-
-**Skills:** Bluff +9, Intimidate +9, Knowledge (arcana) +10, Perception +6, Perform (percussion)
-+11, Sense Motive +6, Spellcraft +8
-
-**Languages:** Common, Goblin, Orc
-
-**Special qualities:** bardic knowledge +2, versatile performance (percussion), weapon familiarity
-
-**Combat gear:** scroll of cat's grace, scroll of glitterdust, Dcure light wounds/20 charges
-
-**Other gear:** mwk chain shirt, 6 javelins, mwk scimitar, Iclk1, masterwork drums, 129 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

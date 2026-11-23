@@ -32,95 +32,70 @@ abilities = ["20", "15", "16", "12", "11", "13"]
 _The pallid flesh of this ferocious, orc-like creature is covered in scars and burns. Its muscles
 are thick and corded, and its hate-flled eyes seem to reflect death wherever they stare._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Mortic, Orc
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 20
+AC modifiers: +6 armor, +2 Dex, +4 natural
+Hit points: 90 (12d8+36)
+Fort: +11
+Ref: +6
+Will: +6; +4 vs. mind-affecting effects
+Defensive abilities: death gasp, mortic ferocity, negative energy affinity
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), vulnerable to _consecration_, vulnerable to _[resurrection](ref/spell/resurrection)_
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: bite +14 (1d6+5), 2 claws +14 (1d8+5) or mwk falchion +16/+11 (2d4+5/18-20)
+Ranged: javelin +11/+6 (1d6+5)
+Spec Att: leech life (1 level, DC 17)
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+Constant: deathwatch
+Per day: 3/day: death knell (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Mortic, Orc
+::: statblock
+Ability scores: Str 20, Dex 15, Con 16, Int 12, Wis 11, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Grudge Fighter, Improved Initiative, Iron Will, Lunge, Weapon Focus (falchion)
+Skills: Intimidate +13, Perception +13
+Languages: Common, Orc
+Special qualities: create spawn, unliving nature
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 armor, +2 Dex, +4 natural
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +6; +4 vs. mind-affecting effects
-
-**Defensive abilities:** death gasp, mortic ferocity, negative energy affinity
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), vulnerable to _consecration_,
-vulnerable to _[resurrection](ref/spell/resurrection)_
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +14 (1d6+5), 2 claws +14 (1d8+5) or mwk falchion +16/+11 (2d4+5/18-20)
-
-**Ranged:** javelin +11/+6 (1d6+5)
-
-**Spec Att:** leech life (1 level, DC 17)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**Constant:**
-
-- deathwatch
-
-**Per day:**
-
-- 3/day: death knell (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 16, Int 12, Wis 11, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Grudge Fighter, Improved Initiative, Iron Will, Lunge, Weapon Focus
-(falchion)
-
-**Skills:** Intimidate +13, Perception +13
-
-**Languages:** Common, Orc
-
-**Special qualities:** create spawn, unliving nature
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Standard (breastplate, 4 javelins, mwk falchion); other treasure
+::: statblock
+Environment: temperate hills, mountains, or underground
+Organization: solitary or gang (2-4)
+Treasure: Standard (breastplate, 4 javelins, mwk falchion); other treasure
+:::
 
 ### Special Abilities
 

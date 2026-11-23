@@ -30,79 +30,62 @@ abilities = ["23", "16", "20", "1", "14", "3"]
 
 _A thick carpet of moss and vines stretches out from a central tangled mass of plant matter._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 105 (10d8+60)
+Fort: +12
+Ref: +6
+Will: +7
+Defensive abilities: creeping cover
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: 3 tentacles +13 (1d6+6)
+Ranged: 2 volatile pods +10 touch (4d6 fire)
+Spec Att: volatile pods
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 23, Dex 16, Con 20, Int 1, Wis 14, Cha 3
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Combat Reflexes, Iron Will, Lunge, Power Attack, Toughness
+Skills: Climb +14, Perception +10, Stealth +11
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +7
-
-**Defensive abilities:** creeping cover
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** 3 tentacles +13 (1d6+6)
-
-**Ranged:** 2 volatile pods +10 touch (4d6 fire)
-
-**Spec Att:** volatile pods
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 16, Con 20, Int 1, Wis 14, Cha 3
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Combat Reflexes, Iron Will, Lunge, Power Attack, Toughness
-
-**Skills:** Climb +14, Perception +10, Stealth +11
-
-**Ecology**
-
-**Environment:** temperate forest or urban
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forest or urban
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

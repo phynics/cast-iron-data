@@ -31,89 +31,66 @@ abilities = ["32", "24", "27", "1", "16", "10"]
 _Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly
 form and dissolve over this monster's surface._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic neutral
+Initiative: +11
+Size: large
+Type: ooze
+Perception: +19
+Senses: All-around vision, Low-light vision
+tremorsense: 60
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 21
+AC modifiers: +7 Dex, +12 natural, -1 size
+Hit points: 200 (16d8+128)
+Fort: +15
+Ref: +12
+Will: +10
+Dr: 5/-
+Fh: 5
+Immune: blindness, cold, deafness, disease, infestation, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), sonic
+Resist: acid 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 40 ft., climb 30 ft., swim 40 ft.
+Constrict: 2d6+11
+Melee: 4 slams +22 (2d6+11/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: distracting cacophony
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** All-around vision, Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 24, Con 27, Int 1, Wis 16, Cha 10
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+26 sunder)
+Combat maneuver defense: 41 (43 vs. sunder)
+Feats: Cleave, Great Cleave, Great Fortitude, Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power Attack
+Skills: Climb +19
+Special qualities: [compression](ref/umr/compression), merge
+:::
 
-**tremorsense:** 60
+### Ecology {#stat-ecology}
 
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 Dex, +12 natural, -1 size
-
-**Hit points:** 200 (16d8+128)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +10
-
-**Dr:** 5/-
-
-**Fh:** 5
-
-**Immune:** blindness, cold, deafness, disease, infestation, mind-affecting effects,
-[ooze traits](ref/umr/ooze-traits), sonic
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft., swim 40 ft.
-
-**Constrict:** 2d6+11
-
-**Melee:** 4 slams +22 (2d6+11/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** distracting cacophony
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 24, Con 27, Int 1, Wis 16, Cha 10
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+26 sunder)
-
-**Combat maneuver defense:** 41 (43 vs. sunder)
-
-**Feats:** Cleave, Great Cleave, Great Fortitude, Improved Critical (slam), Improved Initiative,
-Improved Sunder, Iron Will, Power Attack
-
-**Skills:** Climb +19
-
-**Special qualities:** [compression](ref/umr/compression), merge
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or mass (2-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or mass (2-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

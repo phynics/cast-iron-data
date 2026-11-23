@@ -29,89 +29,67 @@ abilities = ["10", "18", "15", "10", "9", "15"]
 
 _Vicious shadows wrap around the form of this pudgy, white-eyed child._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: twisted shadows (30 ft.; DC 13)
+Type: fey
+Initiative: +4
+Alignment: Neutral evil
+Perception: +7
+Senses: Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**aura:** twisted shadows (30 ft.; DC 13)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 16 (3d6+6)
+Fort: +3
+Ref: +7
+Will: +2
+Weaknesses: situational blindness
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +6 (1d4)
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +7
+At will: dancing lights, darkness, detect thoughts (DC 13), ghost sound (DC 12), lullaby (DC 12)
+Per day: 1/day: grease, minor image (DC 14), snare
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 18, Con 15, Int 10, Wis 9, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Alertness, Weapon Finesse
+Skills: Disable Device +7, Escape Artist +10, Intimidate +7, Perception +7, Sense Motive +7, Stealth +14 (+18 in darkness)
+Languages: Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (cat, child, snake, or spider; [polymorph](ref/spell/polymorph))
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 16 (3d6+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +2
-
-**Weaknesses:** situational blindness
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +6 (1d4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +7
-
-**At will:**
-
-- dancing lights, darkness, detect thoughts (DC 13), ghost sound (DC 12), lullaby (DC 12)
-
-**Per day:**
-
-- 1/day: grease, minor image (DC 14), snare
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 18, Con 15, Int 10, Wis 9, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Alertness, Weapon Finesse
-
-**Skills:** Disable Device +7, Escape Artist +10, Intimidate +7, Perception +7, Sense Motive +7,
-Stealth +14 (+18 in darkness)
-
-**Languages:** Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (cat, child, snake, or spider;
-[polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or gaggle (2-5 redkind, plus 1 [bogeyman](ref/monster/bogeyman))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or gaggle (2-5 redkind, plus 1 [bogeyman](ref/monster/bogeyman))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

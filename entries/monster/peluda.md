@@ -33,88 +33,66 @@ abilities = ["27", "12", "21", "6", "15", "12"]
 _This long-necked dragon has steamy breath, a lashing tail, and a back covered in hundreds of
 quills._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: dragon
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 126 (11d12+55)
+Fort: +14
+Ref: +8
+Will: +11
+Defensive abilities: quills
+Dr: 5/magic
+Ferocity: present
+Immune: fire, paralysis, sleep
+Sr: 21
+Weaknesses: vulnerable tail
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Br Weap: 50-ft. line, 6d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds
+Melee: bite +18 (2d6+8), 2 claws +18 (1d6+8), tail slap +13 (3d6+4 plus poison)
+Reach: 10
+Space: 10
+Spec Att: poison, quill barrage
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 12, Con 21, Int 6, Wis 15, Cha 12
+Base attack bonus: +11
+Combat maneuver bonus: +20 (+22 bull rush)
+Combat maneuver defense: 31 (33 vs. bull rush, 35 vs. trip)
+Feats: Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Initiative, Iron Will, Power Attack
+Skills: Climb +12
+Languages: Draconic
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 126 (11d12+55)
-
-**Fort:** +14
-
-**Ref:** +8
-
-**Will:** +11
-
-**Defensive abilities:** quills
-
-**Dr:** 5/magic
-
-**Ferocity:** present
-
-**Immune:** fire, paralysis, sleep
-
-**Sr:** 21
-
-**Weaknesses:** vulnerable tail
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Br Weap:** 50-ft. line, 6d6 fire damage, Reflex DC 20 half, usable every 1d4 rounds
-
-**Melee:** bite +18 (2d6+8), 2 claws +18 (1d6+8), tail slap +13 (3d6+4 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison, quill barrage
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 21, Int 6, Wis 15, Cha 12
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +20 (+22 bull rush)
-
-**Combat maneuver defense:** 31 (33 vs. bull rush, 35 vs. trip)
-
-**Feats:** Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Initiative, Iron Will, Power
-Attack
-
-**Skills:** Climb +12
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate marshes or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** Double
+::: statblock
+Environment: temperate marshes or plains
+Organization: solitary or pair
+Treasure: Double
+:::
 
 ### Special Abilities
 

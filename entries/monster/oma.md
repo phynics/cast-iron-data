@@ -33,78 +33,61 @@ abilities = ["52", "7", "29", "2", "12", "5"]
 _This whale-like creature floats ponderously, arcs of brilliant energy filling its mouth and rolling
 down its body._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: colossal
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 76,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 30
+Touch: 0
+Flat-footed: 30
+AC modifiers: -2 Dex, +30 natural, -8 size
+Hit points: 290 (20d10+180)
+Fort: +23
+Ref: +10
+Will: +7
+Immune: cold, electricity, fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 200 ft. (average)
+Capsize: present
+Melee: bite +33 (4d6+21 plus 2d6 electricity and [grab](ref/umr/grab)), tail slap +28 (4d6+10)
+Reach: 30
+Space: 30
+Swallow: 6d6 acid damage, AC 25, 29hp
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 52, Dex 7, Con 29, Int 2, Wis 12, Cha 5
+Base attack bonus: +20
+Combat maneuver bonus: +49 (+51 bull rush, +53 grapple)
+Combat maneuver defense: 57 (59 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Critical Focus, Diehard, Endurance, Flyby Attack, Great Fortitude, Improved Bull Rush, Power Attack, Staggering Critical, Vital Strike
+Skills: Fly -10, Perception +24
+Special qualities: carrier, [no breath](ref/umr/no-breath), starflight
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 0
-
-**Flat-footed:** 30
-
-**AC modifiers:** -2 Dex, +30 natural, -8 size
-
-**Hit points:** 290 (20d10+180)
-
-**Fort:** +23
-
-**Ref:** +10
-
-**Will:** +7
-
-**Immune:** cold, electricity, fire
-
-**Offense**
-
-**Speed:** fly 200 ft. (average)
-
-**Capsize:** present
-
-**Melee:** bite +33 (4d6+21 plus 2d6 electricity and [grab](ref/umr/grab)), tail slap +28 (4d6+10)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Swallow:** 6d6 acid damage, AC 25, 29hp
-
-**Statistics**
-
-**Ability scores:** Str 52, Dex 7, Con 29, Int 2, Wis 12, Cha 5
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +49 (+51 bull rush, +53 grapple)
-
-**Combat maneuver defense:** 57 (59 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Diehard, Endurance, Flyby Attack, Great Fortitude, Improved
-Bull Rush, Power Attack, Staggering Critical, Vital Strike
-
-**Skills:** Fly -10, Perception +24
-
-**Special qualities:** carrier, [no breath](ref/umr/no-breath), starflight
-
-**Ecology**
-
-**Environment:** gas giants or vacuum
-
-**Organization:** solitary, pair, or pod (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: gas giants or vacuum
+Organization: solitary, pair, or pod (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

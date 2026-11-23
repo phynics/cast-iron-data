@@ -31,86 +31,65 @@ abilities = ["36", "11", "24", "-", "1", "1"]
 _This amorphous blob of violet energy ripples like a globe of floating liquid. It periodically
 lashes out with tendrils of blue light._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: magnetic pulse (30 ft., DC 27)
+blindsight: 60
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 76,800
+:::
 
-**aura:** magnetic pulse (30 ft., DC 27)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 6
+Touch: 6
+Flat-footed: 6
+AC modifiers: -4 size
+Hit points: 241 (21d8+147)
+Fort: +14
+Ref: +7
+Will: +2
+Dr: 15/-
+Immune: acid, electricity, fire, bludgeoning and piercing damage, [ooze traits](ref/umr/ooze-traits)
+Resist: cold 30
+Split: slashing or sonic, 46 hp
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +0
+::: statblock
+Speed: fly 30 ft. (perfect)
+Constrict: 4d6+19 plus 4d6 electricity and 4d6 fire
+Engulf: DC 33, 4d6 electricity plus 4d6 fire
+Melee: slam +24 (4d6+19 plus 4d6 electricity, 4d6 fire, and [grab](ref/umr/grab))
+Ranged: 1d4 plasma rays +11 touch (4d6 electricity plus 4d6 fire)
+Reach: 20
+Space: 20
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 36, Dex 11, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +32 (+36 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Skills: Fly +2
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 6
-
-**Touch:** 6
-
-**Flat-footed:** 6
-
-**AC modifiers:** -4 size
-
-**Hit points:** 241 (21d8+147)
-
-**Fort:** +14
-
-**Ref:** +7
-
-**Will:** +2
-
-**Dr:** 15/-
-
-**Immune:** acid, electricity, fire, bludgeoning and piercing damage,
-[ooze traits](ref/umr/ooze-traits)
-
-**Resist:** cold 30
-
-**Split:** slashing or sonic, 46 hp
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Constrict:** 4d6+19 plus 4d6 electricity and 4d6 fire
-
-**Engulf:** DC 33, 4d6 electricity plus 4d6 fire
-
-**Melee:** slam +24 (4d6+19 plus 4d6 electricity, 4d6 fire, and [grab](ref/umr/grab))
-
-**Ranged:** 1d4 plasma rays +11 touch (4d6 electricity plus 4d6 fire)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 11, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32 (+36 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Skills:** Fly +2
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

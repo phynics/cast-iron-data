@@ -33,127 +33,88 @@ _This massive, red-skinned creature surges with roiling waves of brilliant fire.
 
 **Mythic Solar Pitri (Agnishvatta)**
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+Mythic rank: 8
+aura: cosmic fire (60 ft., DC 35)
+Initiative: +19/-1
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +35
+Senses: Darkvision 60 ft., True seeing
+Subtype: Extraplanar, Good, Lawful, Manasaputra, Mythic
+Experience points: 614,400
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**aura:** cosmic fire (60 ft., DC 35)
+::: statblock
+Armor class: 41
+Touch: 41
+Flat-footed: 32
+AC modifiers: +8 deflection, +7 Dex, +2 dodge, -1 size, +15 soul armor
+Hit points: 404 (24d10+272)
+Fort: +16
+Ref: +21
+Will: +23; +2 vs. enchantment
+Dr: 10/epic
+Immune: calling, disease, poison
+Resist: adaptive 30
+Sr: 33
+:::
 
-**Initiative:** +19/-1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+M Power: 8/day, surge +1d10
+Melee: 4 slams +35 (3d6+12/19-20)
+Ranged: 4 disintegration rays +30 touch (10d6)
+Spec Att: disintegration rays, radiant transformation (DC 30)
+:::
 
-**Alignment:** Lawful good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29; Wisdom-based
+Constant: true seeing
+At will: greater teleport, self only, plane shift^M^, self only
+Per day: 1/day: miracle (DC 28), true resurrection, wish^M^ (DC 28)
+:::
 
-**Type:** outsider
-
-**Perception:** +35
-
-**Senses:** Darkvision 60 ft., True seeing
-
-**Subtype:** Extraplanar, Good, Lawful, Manasaputra, Mythic
-
-**Experience points:** 614,400
-
-**Armor class:** 41
-
-**Touch:** 41
-
-**Flat-footed:** 32
-
-**AC modifiers:** +8 deflection, +7 Dex, +2 dodge, -1 size, +15 soul armor
-
-**Hit points:** 404 (24d10+272)
-
-**Fort:** +16
-
-**Ref:** +21
-
-**Will:** +23; +2 vs. enchantment
-
-**Dr:** 10/epic
-
-**Immune:** calling, disease, poison
-
-**Resist:** adaptive 30
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** 4 slams +35 (3d6+12/19-20)
-
-**Ranged:** 4 disintegration rays +30 touch (10d6)
-
-**Spec Att:** disintegration rays, radiant transformation (DC 30)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29; Wisdom-based
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- greater teleport, self only, plane shift^M^, self only
-
-**Per day:**
-
-- 1/day: miracle (DC 28), true resurrection, wish^M^ (DC 28)
-
-**Psychic Magic**
-
-**Caster level:** 20
-
-**Concentration:** +29; Wisdom-based
-
-**Power points:** 36
-
-**Psychoactive powers:**
-
-- awaken construct, 6 PE, DC 25, divide mind, 9 PE, ego whip V, 7 PE, DC 26, greater create
-  mindscape, 6 PE, DC 25, mindscape door, 5 PE, DC 24, retrocognition, 5 PE
+::: statblock
+title = "Psychic Magic"
+Caster level: 20
+Concentration: +29; Wisdom-based
+Power points: 36
+Psychoactive powers: awaken construct, 6 PE, DC 25, divide mind, 9 PE, ego whip V, 7 PE, DC 26, greater create mindscape, 6 PE, DC 25, mindscape door, 5 PE, DC 24, retrocognition, 5 PE
+:::
 
 ###### M {#footnote-m}
 
 mythic [spell-like ability](ref/umr/spell-like-abilities)
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 35, Dex 25, Con 26, Int 24, Wis 28, Cha 27
+::: statblock
+Ability scores: Str 35, Dex 25, Con 26, Int 24, Wis 28, Cha 27
+Base attack bonus: +24
+Combat maneuver bonus: +37
+Combat maneuver defense: 79
+Feats: Mythic Blind-Fight, Blinding Critical, Mythic Combat Expertise, Mythic Critical Focus, Mythic Dodge, Improved Critical (slam), Improved Initiative, Mobility, Power Attack, Spring Attack, Whirlwind Attack, Wind Stance
+Skills: Acrobatics +30, Bluff +34, Diplomacy +34, Sense Motive +35, Use Magic Device +31
+Languages: Aklo, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: formless, mythic [spell-like abilities](ref/umr/spell-like-abilities), positive energy affinity, subjective appearance, unending
+:::
 
-**Base attack bonus:** +24
+### Ecology
 
-**Combat maneuver bonus:** +37
-
-**Combat maneuver defense:** 79
-
-**Feats:** Mythic Blind-Fight, Blinding Critical, Mythic Combat Expertise, Mythic Critical Focus,
-Mythic Dodge, Improved Critical (slam), Improved Initiative, Mobility, Power Attack, Spring Attack,
-Whirlwind Attack, Wind Stance
-
-**Skills:** Acrobatics +30, Bluff +34, Diplomacy +34, Sense Motive +35, Use Magic Device +31
-
-**Languages:** Aklo, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** formless, mythic [spell-like abilities](ref/umr/spell-like-abilities),
-positive energy affinity, subjective appearance, unending
-
-**Ecology**
-
-**Environment:** any ([Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

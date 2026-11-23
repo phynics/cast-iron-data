@@ -33,92 +33,68 @@ abilities = ["12", "19", "16", "17", "19", "18"]
 _A shroud of dark wings cloaks this thin, humanoid shape. Two monstrous red eyes glare malevolently
 from its narrow face._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +16
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 76 (9d10+27)
+Fort: +6
+Ref: +10
+Will: +10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 claw +13 (1d6+1)
+Spec Att: mind-warping gaze
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: blur
+At will: detect thoughts (DC 16), ghost sound (DC 14), misdirection (DC 16)
+Per day: 3/day: greater invisibility, major image (DC 17), modify memory (DC 18), nightmare (DC 19), phantasmal killer (DC 18), shadow walk (DC 20), suggestion (DC 17)\
+1/day: agent of fate, false vision, mind fog (DC 19), mislead (DC 20), project image (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 12, Dex 19, Con 16, Int 17, Wis 19, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Agile Maneuvers, Blind-Fight, Flyby Attack, Improved Initiative, Weapon Finesse
+Skills: Fly +20, Knowledge (any two) +12, Perception +16, Sense Motive +13, Spellcraft +12, Stealth +16
+Languages: Common, Sylvan, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 claw +13 (1d6+1)
-
-**Spec Att:** mind-warping gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- detect thoughts (DC 16), ghost sound (DC 14), misdirection (DC 16)
-
-**Per day:**
-
-- 3/day: greater invisibility, major image (DC 17), modify memory (DC 18), nightmare (DC 19),
-  phantasmal killer (DC 18), shadow walk (DC 20), suggestion (DC 17)
-- 1/day: agent of fate, false vision, mind fog (DC 19), mislead (DC 20), project image (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 16, Int 17, Wis 19, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Agile Maneuvers, Blind-Fight, Flyby Attack, Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +20, Knowledge (any two) +12, Perception +16, Sense Motive +13, Spellcraft +12,
-Stealth +16
-
-**Languages:** Common, Sylvan, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

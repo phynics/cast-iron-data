@@ -30,74 +30,58 @@ abilities = ["14", "13", "15", "10", "12", "7"]
 _Ivory tusks, insect chitin, matted fur, scaly flesh, and more combine to form a hideous humanoid
 shape._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 15 (2d10+4)
+Fort: +2
+Ref: +4
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: club +4 (1d6+3) or slam +4 (1d4+3)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 13, Con 15, Int 10, Wis 12, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Skill Focus (Stealth)
+Skills: Climb +6, Perception +6
+Racial Modifiers: +4 Sleight of Hand, +4 Stealth
+Languages: Common, Undercommon
+Special qualities: sound mimicry (voices)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** club +4 (1d6+3) or slam +4 (1d4+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 15, Int 10, Wis 12, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Skill Focus (Stealth)
-
-**Skills:** Climb +6, Perception +6
-
-**Racial Modifiers:** +4 Sleight of Hand, +4 Stealth
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** sound mimicry (voices)
-
-**Ecology**
-
-**Environment:** any ruins or underground
-
-**Organization:** solitary, pair, gang (3-6), band (7-12), or tribe (21-30 plus 30% noncombatants,
-2-4 rogues of 1st-3rd level, 1-2 oracles or witches of 2nd-4th level, 1 fighter or ranger chieftain
-of 3rd-6th level, 4-6 [dire bats](ref/monster/bat-dire-bat), and 3-20
-[dire rats](ref/monster/rat-dire-rat))
-
-**Treasure:** Standard (club); other treasure
+::: statblock
+Environment: any ruins or underground
+Organization: solitary, pair, gang (3-6), band (7-12), or tribe (21-30 plus 30% noncombatants, 2-4 rogues of 1st-3rd level, 1-2 oracles or witches of 2nd-4th level, 1 fighter or ranger chieftain of 3rd-6th level, 4-6 [dire bats](ref/monster/bat-dire-bat), and 3-20 [dire rats](ref/monster/rat-dire-rat))
+Treasure: Standard (club); other treasure
+:::
 
 ### Description
 

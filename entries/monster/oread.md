@@ -32,87 +32,69 @@ abilities = ["15", "15", "14", "8", "14", "8"]
 _This large warrior appears heavy and solid, with chiseled, angular features that make her look
 almost like a statue brought to life._
 
-**Challenge rating:** 1/2
-
 **Oread [fighter](ref/class/fighter) 1**
 
-**Initiative:** +2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 armor, +2 Dex
+Hit points: 12 (1d10+2)
+Fort: +4
+Ref: +2
+Will: +4
+Resist: acid 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft.
+Melee: longsword +3 (1d8+3/19-20)
+Ranged: composite longbow +4 (1d8+2/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +0
+Per day: 1/day: magic stone
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 15, Dex 15, Con 14, Int 8, Wis 14, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Iron Will, Weapon Focus (longbow)
+Skills: Intimidate +4
+Languages: Common, Terran
+Special qualities: elemental affinity
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +2 Dex
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +4
-
-**Resist:** acid 5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** longsword +3 (1d8+3/19-20)
-
-**Ranged:** composite longbow +4 (1d8+2/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +0
-
-**Per day:**
-
-- 1/day: magic stone
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 14, Int 8, Wis 14, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Iron Will, Weapon Focus (longbow)
-
-**Skills:** Intimidate +4
-
-**Languages:** Common, Terran
-
-**Special qualities:** elemental affinity
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or team (3-5)
-
-**Treasure:** NPC gear (leather armor, longsword, cl20); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or team (3-5)
+Treasure: NPC gear (leather armor, longsword, cl20); other treasure
+:::
 
 ### Special Abilities
 

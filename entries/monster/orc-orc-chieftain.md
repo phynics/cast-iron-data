@@ -30,86 +30,65 @@ special_qualities = "armor training 2, weapon familiarity"
 abilities = ["18", "16", "14", "8", "6", "10"]
 +++
 
-**Challenge rating:** 9
-
 **Orc [fighter](ref/class/fighter) 10**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +7
+Size: medium
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 21
+AC modifiers: +11 armor, +3 Dex
+Hit points: 99 (10d10+40)
+Fort: +9
+Ref: +6
+Will: +1 (+3 vs. fear)
+Defensive abilities: bravery +3
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: +1 orc double axe +18/+13 (1d8+9/19-20/×3) or +1 orc double axe +16/+11 (1d8+9/19-20/×3), +1 orc double axe +16 (1d8+5/19-20/×3)
+Ranged: mwk composite shortbow +15/+10 (1d6+5/×3)
+Spec Att: weapon training (axes +2, bows +1)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Orc
+::: statblock
+Ability scores: Str 18, Dex 16, Con 14, Int 8, Wis 6, Cha 10
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 27
+Feats: Cleave, Cleaving Finish, Grudge Fighter, Improved Critical (orc double axe), Improved Initiative, Intimidating Prowess, Orc Weapon Expertise (killer), Power Attack, Toughness, Two-Weapon Fighting, Weapon Focus (orc double axe)
+Skills: Intimidate +12, Perception +3
+Languages: Common, Orc
+Special qualities: armor training 2, weapon familiarity
+Combat gear: +1 F W-arrow, 2 potion of cure moderate wounds, potion of heroism
+Other gear: +2 full plate, +1/+1 -orc double axe, mwk csb20+4, 88 gp
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +11 armor, +3 Dex
-
-**Hit points:** 99 (10d10+40)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +1 (+3 vs. fear)
-
-**Defensive abilities:** bravery +3
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 orc double axe +18/+13 (1d8+9/19-20/×3) or +1 orc double axe +16/+11 (1d8+9/19-20/×3),
-+1 orc double axe +16 (1d8+5/19-20/×3)
-
-**Ranged:** mwk composite shortbow +15/+10 (1d6+5/×3)
-
-**Spec Att:** weapon training (axes +2, bows +1)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 14, Int 8, Wis 6, Cha 10
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Cleaving Finish, Grudge Fighter, Improved Critical (orc double axe), Improved
-Initiative, Intimidating Prowess, Orc Weapon Expertise (killer), Power Attack, Toughness, Two-Weapon
-Fighting, Weapon Focus (orc double axe)
-
-**Skills:** Intimidate +12, Perception +3
-
-**Languages:** Common, Orc
-
-**Special qualities:** armor training 2, weapon familiarity
-
-**Combat gear:** +1 F W-arrow, 2 potion of cure moderate wounds, potion of heroism
-
-**Other gear:** +2 full plate, +1/+1 -orc double axe, mwk csb20+4, 88 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

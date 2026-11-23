@@ -34,138 +34,91 @@ abilities = ["22", "19", "18", "13", "17", "16"]
 _This beautiful woman wears a mask and is completely wrapped in spider silk. Magical fetishes adorn
 her clothing and staff._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 25,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 25
+AC modifiers: +8 armor, +3 Dex, +5 natural, +2 shield
+Hit points: 171 (18d10+72)
+Fort: +10
+Ref: +15
+Will: +16
+Dr: 10/adamantine
+Immune: death effects, disease, poison
+Regen: 5 (acid or fire)
+Resist: cold 10, electricity 10
+Sr: 24
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 15 ft., (30 ft. in armor)
+Melee: 2 slams +24 (2d6+6), 2 wrappings +19 (1d6+3 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with wrappings
+Space: 5
+Spec Att: wrappings
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+At will: detect undead, stone tell
+Per day: 5/day: speak with dead\
+3/day: summon (level 7, 1d4 giant tarantulas 75% or 1d4 spider swarms 100%)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +15
+4th-level spells: 3/day: cure critical wounds, divination, freedom of movement, spell immunity
+3rd-level spells: 5/day: blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)
+2nd-level spells: 6/day: confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see invisibility
+1st-level spells: 6/day: bane (DC 14), command (DC 14), comprehend languages, expeditious retreat, sanctuary (DC 14), wrath
+Cantrips: At will: bleed (DC 13), detect magic, disrupt undead, read magic, sift, stabilize
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Statistics
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 13
-
-**Flat-footed:** 25
-
-**AC modifiers:** +8 armor, +3 Dex, +5 natural, +2 shield
-
-**Hit points:** 171 (18d10+72)
-
-**Fort:** +10
-
-**Ref:** +15
-
-**Will:** +16
-
-**Dr:** 10/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Regen:** 5 (acid or fire)
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft., climb 15 ft., (30 ft. in armor)
-
-**Melee:** 2 slams +24 (2d6+6), 2 wrappings +19 (1d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with wrappings
-
-**Space:** 5
-
-**Spec Att:** wrappings
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**At will:**
-
-- detect undead, stone tell
-
-**Per day:**
-
-- 5/day: speak with dead
-- 3/day: summon (level 7, 1d4 giant tarantulas 75% or 1d4 spider swarms 100%)
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**4th-level spells:**
-
-- 3/day: cure critical wounds, divination, freedom of movement, spell immunity
-
-**3rd-level spells:**
-
-- 5/day: blood biography (DC 16), dimensional anchor, dispel magic, halt undead (DC 16)
-
-**2nd-level spells:**
-
-- 6/day: confess (DC 15), detect thoughts (DC 15), hold person (DC 15), invisibility, see
-  invisibility
-
-**1st-level spells:**
-
-- 6/day: bane (DC 14), command (DC 14), comprehend languages, expeditious retreat, sanctuary (DC
-  14), wrath
-
-**Cantrips:**
-
-- At will: bleed (DC 13), detect magic, disrupt undead, read magic, sift, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 18, Int 13, Wis 17, Cha 16
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 38
-
-**Feats:** Alertness, Combat Expertise, Combat Reflexes, Deflect Arrows^B^, Eschew Materials,
-Following Step^B^, Improved Initiative, Iron Will, Persuasive, Step Up, Step Up and Strike
-
-**Skills:** Bluff +15, Climb +11
-
-**Languages:** Abyssal, Celestial, Infernal; _[speak with animals](ref/spell/speak-with-animals)_
-(including vermin), _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any animal or humanoid), spirit touch
+::: statblock
+Ability scores: Str 22, Dex 19, Con 18, Int 13, Wis 17, Cha 16
+Base attack bonus: +18
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 38
+Feats: Alertness, Combat Expertise, Combat Reflexes, Deflect Arrows^B^, Eschew Materials, Following Step^B^, Improved Initiative, Iron Will, Persuasive, Step Up, Step Up and Strike
+Skills: Bluff +15, Climb +11
+Languages: Abyssal, Celestial, Infernal; _[speak with animals](ref/spell/speak-with-animals)_ (including vermin), _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (any animal or humanoid), spirit touch
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Purgatory](ref/rule/purgatory))
-
-**Organization:** solitary of group (3-15)
-
-**Treasure:** Standard (+2 glamered breastplate); other treasure
+::: statblock
+Environment: any ([Purgatory](ref/rule/purgatory))
+Organization: solitary of group (3-15)
+Treasure: Standard (+2 glamered breastplate); other treasure
+:::
 
 ### Special Abilities
 

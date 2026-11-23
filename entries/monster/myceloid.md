@@ -30,90 +30,69 @@ abilities = ["17", "11", "16", "9", "12", "10"]
 _This shambling fungus creature bears a strong resemblance to a rotund human, but with a mushroom
 cap for a head._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Type: plant
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +1
+Will: +4
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: cold 10, fire 10, sonic 10
+Vulner: electricity
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: 2 claws +6 (1d6+3 plus disease)
+Spec Att: spore cloud
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Per day: 1/day: spore domination (DC 14)
+:::
 
-**Type:** plant
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 17, Dex 11, Con 16, Int 9, Wis 12, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 16
+Feats: Improved Initiative, Iron Will, Skill Focus (Stealth)
+Skills: Perception +6
+Racial Modifiers: +4 Sense Motive, +4 Survival
+Languages: Undercommon; [telepathy](ref/umr/telepathy) 60 ft. (myceloids and purple pox sufferers only)
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +4
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10, fire 10, sonic 10
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 claws +6 (1d6+3 plus disease)
-
-**Spec Att:** spore cloud
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Per day:**
-
-- 1/day: spore domination (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 11, Con 16, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Iron Will, Skill Focus (Stealth)
-
-**Skills:** Perception +6
-
-**Racial Modifiers:** +4 Sense Motive, +4 Survival
-
-**Languages:** Undercommon; [telepathy](ref/umr/telepathy) 60 ft. (myceloids and purple pox
-sufferers only)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, band (3-24), or colony (25-250)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, band (3-24), or colony (25-250)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

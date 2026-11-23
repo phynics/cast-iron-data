@@ -33,71 +33,58 @@ _The repulsively fused features of a dried fish and desiccated humanoid combine 
 remains. The crackle of tiny grinding bones and the hiss of parched scales whisper with every motion
 as the snarling miniature mummy drags its shriveled corpse forward._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Alignment: Neutral evil
+Perception: +2
+Size: small
+Subtype: Aquatic
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 15 (2d8+6)
+Fort: +3
+Ref: +1
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +2
+### Offense
 
-**Size:** small
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Melee: 2 claws +3 (1d3+1), bite +3 (1d4+1)
+Spec Att: group grapplers, startle
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 12, Dex 13, Con -, Int 5, Wis 15, Cha 16
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Step Up
+Skills: Stealth +9, Swim +10
+Special qualities: nocturnal undeath, poison flesh
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Melee:** 2 claws +3 (1d3+1), bite +3 (1d4+1)
-
-**Spec Att:** group grapplers, startle
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con -, Int 5, Wis 15, Cha 16
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Step Up
-
-**Skills:** Stealth +9, Swim +10
-
-**Special qualities:** nocturnal undeath, poison flesh
-
-**Ecology**
-
-**Environment:** any aquatic or land
-
-**Organization:** solitary, pair, or exhibit (3-15)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic or land
+Organization: solitary, pair, or exhibit (3-15)
+Treasure: None
+:::
 
 ### Special Abilities
 

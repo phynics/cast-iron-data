@@ -30,73 +30,59 @@ abilities = ["16", "13", "16", "-", "14", "11"]
 _This towering insect walks on its back four legs. Its head is triangular and its front legs sport
 razor-sharp edges and claws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +2
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 40 ft. (poor)
+Melee: 2 claws +5 (1d6+3 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: lunge, mandibles, sudden strike
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 16, Dex 13, Con 16, Int -, Wis 14, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 18 (22 vs. trip)
+Skills: Climb +11, Perception +6, Stealth +1 (+13 in forests)
+Racial Modifiers: +4 Perception, +4 Stealth (+12 in forests)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 40 ft. (poor)
-
-**Melee:** 2 claws +5 (1d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** lunge, mandibles, sudden strike
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 16, Int -, Wis 14, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Skills:** Climb +11, Perception +6, Stealth +1 (+13 in forests)
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+12 in forests)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

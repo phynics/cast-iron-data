@@ -28,86 +28,65 @@ special_qualities = "camouflage, transmit senses"
 abilities = ["12", "19", "-", "11", "18", "3"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +8
+Alignment: Neutral
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot, Swarm
+Size: tiny
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +6 natural, +2 size
+Hit points: 117 (18d10+18)
+Fort: +6
+Ref: +12
+Will: +12
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 10, swarm traits
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Distraction: 19
+Melee: swarm (4d6 plus distraction and 2d6 fire)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Robot, Swarm
+::: statblock
+Ability scores: Str 12, Dex 19, Con -, Int 11, Wis 18, Cha 3
+Base attack bonus: +18
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Alertness, Dodge, Following Step, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Step Up, Toughness
+Skills: Fly +20, Perception +30
+Racial Modifiers: +4 Perception
+Languages: Androffan, Common
+Special qualities: camouflage, transmit senses
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural, +2 size
-
-**Hit points:** 117 (18d10+18)
-
-**Fort:** +6
-
-**Ref:** +12
-
-**Will:** +12
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, swarm traits
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Distraction:** 19
-
-**Melee:** swarm (4d6 plus distraction and 2d6 fire)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con -, Int 11, Wis 18, Cha 3
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Alertness, Dodge, Following Step, Improved Initiative, Improved Lightning Reflexes, Iron
-Will, Lightning Reflexes, Step Up, Toughness
-
-**Skills:** Fly +20, Perception +30
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Androffan, Common
-
-**Special qualities:** camouflage, transmit senses
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary or cloud (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary or cloud (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,90 +30,67 @@ special_qualities = "cruelties (fatigued, staggered), fiendish boon (fiendish rh
 abilities = ["25", "10", "19", "6", "8", "14"]
 +++
 
-**Challenge rating:** 10
-
 **Ogre [antipaladin](ref/class/antipaladin) 7**
 
-**aura:** cowardice (10 ft.)
+::: statblock
+Challenge rating: 10
+aura: cowardice (10 ft.)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 24
+AC modifiers: +9 armor, +1 deflection, +5 natural, -1 size
+Hit points: 107 (4d8+7d10+51\~11)
+Fort: +16
+Ref: +6
+Will: +10
+Immune: disease
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Ch N En: DC 15, 4d6
+Melee: +1 greatsword +18/+13 (3d6+11/17-20)
+Ranged: javelin +9/+4 (1d8+7)
+Reach: 10
+Space: 10
+Spec Att: smite good 3/day (+2 attack and AC, +7 damage)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 10, Con 19, Int 6, Wis 8, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 29
+Feats: Improved Critical (greatsword), Improved Initiative, Iron Will, Power Attack, Vital Strike, Weapon Focus (greatsword)
+Skills: Intimidate +10, Perception +5
+Languages: Giant
+Special qualities: cruelties (fatigued, staggered), fiendish boon (fiendish rhinoceros servant), touch of corruption 5/day (3d6)
+Combat gear: 2 potion of cure light wounds, potion of cure moderate wounds, potion of fly
+Other gear: mwk full plate, +1 greatsword, 3 javelins, Ibomc2, Iclk1, Ihbac2, ring of prot1, 196 gp
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +9 armor, +1 deflection, +5 natural, -1 size
-
-**Hit points:** 107 (4d8+7d10+51\~11)
-
-**Fort:** +16
-
-**Ref:** +6
-
-**Will:** +10
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** DC 15, 4d6
-
-**Melee:** +1 greatsword +18/+13 (3d6+11/17-20)
-
-**Ranged:** javelin +9/+4 (1d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** smite good 3/day (+2 attack and AC, +7 damage)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 10, Con 19, Int 6, Wis 8, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 29
-
-**Feats:** Improved Critical (greatsword), Improved Initiative, Iron Will, Power Attack, Vital
-Strike, Weapon Focus (greatsword)
-
-**Skills:** Intimidate +10, Perception +5
-
-**Languages:** Giant
-
-**Special qualities:** cruelties (fatigued, staggered), fiendish boon (fiendish rhinoceros servant),
-touch of corruption 5/day (3d6)
-
-**Combat gear:** 2 potion of cure light wounds, potion of cure moderate wounds, potion of fly
-
-**Other gear:** mwk full plate, +1 greatsword, 3 javelins, Ibomc2, Iclk1, Ihbac2, ring of prot1, 196
-gp
-
-**Ecology**
-
-**Environment:** temperate or cold hills
+::: statblock
+Environment: temperate or cold hills
+:::
 
 ### Description
 

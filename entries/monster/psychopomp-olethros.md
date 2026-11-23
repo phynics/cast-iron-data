@@ -32,110 +32,75 @@ abilities = ["18", "30", "29", "20", "27", "31"]
 _This moth-winged woman wears a spiral mask and a white, silken gown glimmering with tiny bronze
 mirrors._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Initiative: +24
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Discern next of kin, Low-light vision, Spiritsense, True seeing
+Subtype: Extraplanar, Psychopomp
+Experience points: 102,400
+:::
 
-**Initiative:** +24
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 32
+Touch: 30
+Flat-footed: 22
+AC modifiers: +10 Dex, +10 insight, +2 natural
+Hit points: 275 (19d10+171)
+Fort: +20
+Ref: +16
+Will: +19; +8 vs. mind-affecting effects
+Defensive abilities: all-around vision, cyclic energy, fated, _[mind blank](ref/spell/mind-blank)_, mirror garb
+Dr: 5/adamantine
+Immune: ability damage, ability drain, death effects, disease, energy drain, poison
+Resist: cold 10, electricity 10
+Sr: 28
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 100 ft. (good)
+Melee: 2 fated touches +23 (10d6)
+Ranged: silkbow +35/+30/+25/+20 (2d6+15/19-20/×3)
+Spec Att: fated touch, fateful arrows
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +27
+Constant: discern next of kin, mind blank, tongues, true seeing
+At will: breath of life, greater dispel magic, greater scrying (DC 27), greater teleport, self plus 50 lbs. of objects only, prognostication
+Per day: 3/day: haste, mass cure critical wounds (DC 28)\
+1/day: moment of prescience, plane shift, self plus 50 lbs. of objects only, temporal stasis (DC 28), wail of the banshee (DC 29)
+:::
 
-**Senses:** Darkvision 60 ft., Discern next of kin, Low-light vision, Spiritsense, True seeing
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 18, Dex 30, Con 29, Int 20, Wis 27, Cha 31
+Base attack bonus: +19
+Combat maneuver bonus: +23
+Combat maneuver defense: 53
+Feats: Deadly Aim, Greater Snap Shot, Improved Initiative, Improved Precise Shot, Improved Snap Shot, Point-Blank Shot, Precise Shot, Rapid Shot, Snap Shot, Weapon Focus (silkbow)
+Skills: Bluff +32, Disguise +32, Sense Motive +30, Spellcraft +27
+Languages: Abyssal, Celestial, Common, Infernal; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self)), spirit touch
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 30
-
-**Flat-footed:** 22
-
-**AC modifiers:** +10 Dex, +10 insight, +2 natural
-
-**Hit points:** 275 (19d10+171)
-
-**Fort:** +20
-
-**Ref:** +16
-
-**Will:** +19; +8 vs. mind-affecting effects
-
-**Defensive abilities:** all-around vision, cyclic energy, fated,
-_[mind blank](ref/spell/mind-blank)_, mirror garb
-
-**Dr:** 5/adamantine
-
-**Immune:** ability damage, ability drain, death effects, disease, energy drain, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., fly 100 ft. (good)
-
-**Melee:** 2 fated touches +23 (10d6)
-
-**Ranged:** silkbow +35/+30/+25/+20 (2d6+15/19-20/×3)
-
-**Spec Att:** fated touch, fateful arrows
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +27
-
-**Constant:**
-
-- discern next of kin, mind blank, tongues, true seeing
-
-**At will:**
-
-- breath of life, greater dispel magic, greater scrying (DC 27), greater teleport, self plus 50 lbs.
-  of objects only, prognostication
-
-**Per day:**
-
-- 3/day: haste, mass cure critical wounds (DC 28)
-- 1/day: moment of prescience, plane shift, self plus 50 lbs. of objects only, temporal stasis (DC
-  28), wail of the banshee (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 30, Con 29, Int 20, Wis 27, Cha 31
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 53
-
-**Feats:** Deadly Aim, Greater Snap Shot, Improved Initiative, Improved Precise Shot, Improved Snap
-Shot, Point-Blank Shot, Precise Shot, Rapid Shot, Snap Shot, Weapon Focus (silkbow)
-
-**Skills:** Bluff +32, Disguise +32, Sense Motive +30, Spellcraft +27
-
-**Languages:** Abyssal, Celestial, Common, Infernal; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self)), spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or thread (3 plus 3-8
-[morrignas](ref/monster/psychopomp-morrigna))
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or thread (3 plus 3-8 [morrignas](ref/monster/psychopomp-morrigna))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

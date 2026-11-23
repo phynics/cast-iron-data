@@ -30,104 +30,77 @@ abilities = ["13", "19", "18", "14", "20", "17"]
 _A toned, regal human radiates a shifting aura of many colors and murmuring voices that seem
 strangely familiar._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: unity (30 ft.)
+Initiative: +8
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful, Manasaputra
+Experience points: 19,200
+:::
 
-**aura:** unity (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 27
+Touch: 27
+Flat-footed: 22
+AC modifiers: +3 deflection, +4 Dex, +1 dodge, +9 soul armor
+Hit points: 161 (17d10+68)
+Fort: +9
+Ref: +14
+Will: +15; +2 vs. enchantment
+Immune: calling, disease, poison
+Resist: adaptive 10
+Sr: 23
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 4 slams +18 (1d10+1)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17; Wis-based
+At will: greater teleport, self only, plane shift, self only
+:::
 
-**Perception:** +25
+::: statblock
+title = "Psychic Magic"
+Caster level: 12
+Concentration: +17; Wis-based
+Power points: 25
+Psychoactive powers: analyze aura, 3 PE, aversion, 2 PE, DC 17, enshroud thoughts, 2 PE, mind thrust VI, 6 PE, DC 21, psychic asylum, 5 PE, psychic crush I, 5 PE, DC 20, quintessence, 1 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful, Manasaputra
+::: statblock
+Ability scores: Str 13, Dex 19, Con 18, Int 14, Wis 20, Cha 17
+Base attack bonus: +17
+Combat maneuver bonus: +18
+Combat maneuver defense: 45
+Feats: Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility, Power Attack, Spring Attack, Whirlwind Attack, Wind Stance
+Skills: Acrobatics +18, Diplomacy +23, Sense Motive +22
+Languages: Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: aura of unity, creature bond, formless, [no breath](ref/umr/no-breath), positive energy affinity, subjective appearance
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 27
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge, +9 soul armor
-
-**Hit points:** 161 (17d10+68)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +15; +2 vs. enchantment
-
-**Immune:** calling, disease, poison
-
-**Resist:** adaptive 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 4 slams +18 (1d10+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17; Wis-based
-
-**At will:**
-
-- greater teleport, self only, plane shift, self only
-
-**Psychic Magic**
-
-**Caster level:** 12
-
-**Concentration:** +17; Wis-based
-
-**Power points:** 25
-
-**Psychoactive powers:**
-
-- analyze aura, 3 PE, aversion, 2 PE, DC 17, enshroud thoughts, 2 PE, mind thrust VI, 6 PE, DC 21,
-  psychic asylum, 5 PE, psychic crush I, 5 PE, DC 20, quintessence, 1 PE
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 19, Con 18, Int 14, Wis 20, Cha 17
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 45
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility, Power Attack,
-Spring Attack, Whirlwind Attack, Wind Stance
-
-**Skills:** Acrobatics +18, Diplomacy +23, Sense Motive +22
-
-**Languages:** Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** aura of unity, creature bond, formless, [no breath](ref/umr/no-breath),
-positive energy affinity, subjective appearance
-
-**Ecology**
-
-**Environment:** any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary or round (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary or round (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

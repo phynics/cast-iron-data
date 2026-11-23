@@ -30,108 +30,75 @@ _This tall, cloaked figure stares out from the black hood that covers its head. 
 enormous scythe in its skeletal, bone-white hands, looking as though it is freezing the very air
 around it._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: fear aura (40 ft., DC 36)
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +35
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar, Incorporeal
+Type: undead
+Experience points: 307,200
+:::
 
-**aura:** fear aura (40 ft., DC 36)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 32
+Touch: 20
+Flat-footed: 30
+AC modifiers: +9 deflection, +2 Dex, +12 natural, -1 size
+Hit points: 378 (28d8+252)
+Fort: +18
+Ref: +11
+Will: +20
+Chan Res: +4
+Dr: 15/cold iron and good
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Sr: 31
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: +3 scythe +27/+22/+17/+12 (2d6+13/19-20/×4 plus death touch)
+Reach: 15
+Space: 10
+:::
 
-**Perception:** +35
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: fly, foresight, true seeing
+At will: circle of death (DC 25), control undead (DC 26), invisibility, plane shift (DC 26), polymorph
+Per day: 3/day: energy drain (DC 28), finger of death (DC 26), soul bind (DC 28), summon minor reapers, level 8; 1d4 minor reapers, unwilling shield (DC 25)\
+1/day: quickened destruction (DC 26), wail of the banshee (DC 28)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str 24, Dex 15, Con -, Int 16, Wis 19, Cha 29
+Base attack bonus: +21
+Combat maneuver bonus: +24
+Combat maneuver defense: 50 (can't be tripped)
+Feats: Cleave, Combat Casting, Combat Expertise, Combat Reflexes, Critical Focus, Great Cleave, Greater Weapon Focus (scythe), Improved Critical (scythe), Improved Disarm, Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (destruction), Vital Strike, Weapon Focus (scythe)
+Skills: Diplomacy +37, Disguise +40, Sense Motive +35, Stealth +29
+Languages: Common, Celestial, Infernal; _truespeech_
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 32
-
-**Touch:** 20
-
-**Flat-footed:** 30
-
-**AC modifiers:** +9 deflection, +2 Dex, +12 natural, -1 size
-
-**Hit points:** 378 (28d8+252)
-
-**Fort:** +18
-
-**Ref:** +11
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Dr:** 15/cold iron and good
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** +3 scythe +27/+22/+17/+12 (2d6+13/19-20/×4 plus death touch)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- fly, foresight, true seeing
-
-**At will:**
-
-- circle of death (DC 25), control undead (DC 26), invisibility, plane shift (DC 26), polymorph
-
-**Per day:**
-
-- 3/day: energy drain (DC 28), finger of death (DC 26), soul bind (DC 28), summon minor reapers,
-  level 8; 1d4 minor reapers, unwilling shield (DC 25)
-- 1/day: quickened destruction (DC 26), wail of the banshee (DC 28)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con -, Int 16, Wis 19, Cha 29
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 50 (can't be tripped)
-
-**Feats:** Cleave, Combat Casting, Combat Expertise, Combat Reflexes, Critical Focus, Great Cleave,
-Greater Weapon Focus (scythe), Improved Critical (scythe), Improved Disarm, Improved Initiative,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (destruction), Vital
-Strike, Weapon Focus (scythe)
-
-**Skills:** Diplomacy +37, Disguise +40, Sense Motive +35, Stealth +29
-
-**Languages:** Common, Celestial, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double (+3 scythe); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double (+3 scythe); other treasure
+:::
 
 ### Special Abilities
 

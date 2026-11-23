@@ -30,80 +30,62 @@ abilities = ["20", "17", "16", "7", "12", "9"]
 
 _A mass of shell-like fungus grows so thick it obscures the mass of plant matter beneath._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 85 (10d8+40)
+Fort: +10
+Ref: +6
+Will: +6
+Defensive abilities: psychotic musk
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 20 ft.
+Melee: 3 slams +13 (1d8+5 plus poison)
+Ranged: 3 razor conks +10 (1d8+5 plus poison)
+Spec Att: poison, razor conk, visions
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 20, Dex 17, Con 16, Int 7, Wis 12, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+Feats: Iron Will, Skill Focus (Stealth), Skill Focus (Perception), Toughness, Weapon Focus (slam)
+Skills: Perception +12, Stealth +14
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** psychotic musk
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 3 slams +13 (1d8+5 plus poison)
-
-**Ranged:** 3 razor conks +10 (1d8+5 plus poison)
-
-**Spec Att:** poison, razor conk, visions
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 16, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Feats:** Iron Will, Skill Focus (Stealth), Skill Focus (Perception), Toughness, Weapon Focus
-(slam)
-
-**Skills:** Perception +12, Stealth +14
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** warm forests or jungles
-
-**Organization:** solitary, pair, or colony (5-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or jungles
+Organization: solitary, pair, or colony (5-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

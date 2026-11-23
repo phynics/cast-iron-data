@@ -31,71 +31,58 @@ abilities = ["10", "12", "12", "-", "10", "3"]
 _The sawtooth edges of this plant's glistening, triangular leaves weave around stalks adorned with
 needle-like spines._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +2
+Will: +1
+Dr: 5/slashing or bludgeoning
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Melee: 4 stings +4 (1d4)
+Ranged: thorns +5 (2d6)
+Spec Att: pain
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 12, Con 12, Int -, Wis 10, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (can't be tripped)
+Skills: Swim +8
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Dr:** 5/slashing or bludgeoning
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Melee:** 4 stings +4 (1d4)
-
-**Ranged:** thorns +5 (2d6)
-
-**Spec Att:** pain
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 12, Int -, Wis 10, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Skills:** Swim +8
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, thicket (2-6), or grove (7-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate swamps
+Organization: solitary, thicket (2-6), or grove (7-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

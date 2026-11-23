@@ -29,79 +29,62 @@ abilities = ["18", "10", "13", "5", "13", "6"]
 _This three-legged freak is mostly mouth. Three tentacles, two tipped with barbs and one with eyes,
 extend from its sides._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 39 (6d8+12)
+Fort: +3
+Ref: +2
+Will: +6
+Immune: disease
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Constrict: tentacle, 1d6+2
+Melee: bite +7 (1d8+4 plus disease), 2 tentacles +3 (1d6+2 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 15 ft. with tentacle
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 18, Dex 10, Con 13, Int 5, Wis 13, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 19 (21 vs. trip)
+Feats: Alertness, Toughness, Weapon Focus (tentacle)
+Skills: Perception +9, Stealth +2 (+10 in lair)
+Racial Modifiers: +8 Stealth in lair
+Languages: Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +6
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** tentacle, 1d6+2
-
-**Melee:** bite +7 (1d8+4 plus disease), 2 tentacles +3 (1d6+2 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tentacle
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 10, Con 13, Int 5, Wis 13, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 19 (21 vs. trip)
-
-**Feats:** Alertness, Toughness, Weapon Focus (tentacle)
-
-**Skills:** Perception +9, Stealth +2 (+10 in lair)
-
-**Racial Modifiers:** +8 Stealth in lair
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or cluster (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or cluster (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

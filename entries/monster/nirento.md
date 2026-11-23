@@ -30,79 +30,62 @@ abilities = ["18", "14", "19", "2", "9", "11"]
 _Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about
 its base._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsight: 60
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Type: plant
+Experience points: 1,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +8
+Ref: +3
+Will: +0
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: 1d6+4
+Melee: 2 vines +7 (1d6+4 plus [grab](ref/umr/grab) and trip)
+Reach: 15
+Space: 10
+Spec Att: hypnotic display
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 14, Con 19, Int 2, Wis 9, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Improved Initiative, Weapon Focus (vines)
+Skills: Perception +7
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +0
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d6+4
-
-**Melee:** 2 vines +7 (1d6+4 plus [grab](ref/umr/grab) and trip)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** hypnotic display
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 14, Con 19, Int 2, Wis 9, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Improved Initiative, Weapon Focus (vines)
-
-**Skills:** Perception +7
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or grove (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or grove (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

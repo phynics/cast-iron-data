@@ -30,75 +30,60 @@ abilities = ["37", "18", "22", "1", "13", "6"]
 _This elongated, whale-like creature moves through the water with an eel-like motion despite its
 wide, fluked tail. Razor-sharp teeth fill its almost reptilian mouth._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: gargantuan
+Initiative: +8
+Alignment: Neutral
+Perception: +20
+Senses: Low-light vision
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 20
+AC modifiers: +4 Dex, +1 dodge, +14 natural, -4 size
+Hit points: 115 (11d8+66)
+Fort: +13
+Ref: +11
+Will: +6
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +17 (2d8+19 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: thrash
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 37, Dex 18, Con 22, Int 1, Wis 13, Cha 6
+Base attack bonus: +8
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Dodge, Improved Initiative, Iron Will, Lunge, Power Attack, Run
+Skills: Perception +20, Swim +27
+Racial Modifiers: +8 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +1 dodge, +14 natural, -4 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +17 (2d8+19 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** thrash
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 18, Con 22, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Lunge, Power Attack, Run
-
-**Skills:** Perception +20, Swim +27
-
-**Racial Modifiers:** +8 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

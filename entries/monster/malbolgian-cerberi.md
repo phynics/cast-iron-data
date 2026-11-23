@@ -32,76 +32,60 @@ the cacophony of a raging wildfire. Large enough to heft a horse in its monstrou
 bears no flesh, its body merely a thing of exposed bone and charred musculature. From its three
 fanged mouths leap tongues of flame, and crimson saliva leaks from the terror's skeletal jaws._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +5
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Soul scent
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 19,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 26
+Touch: 10
+Flat-footed: 25
+AC modifiers: +1 Dex, +16 natural, -1 size
+Hit points: 161 (14d10+84)
+Fort: +15
+Ref: +10
+Will: +6
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 3 bites +20 (1d8+7 plus 1d8 fire plus cerberus's jaws)
+Reach: 5
+Rend: 2 bites, 1d8+10 or 3 bites, 1d8+14
+Space: 10
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Soul scent
+::: statblock
+Ability scores: Str 24, Dex 12, Con 22, Int 6, Wis 15, Cha 8
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 33 (37 vs. trip)
+Feats: Alertness, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Improved Initiative, Power Attack, Stand Still
+Skills: Acrobatics +18 (+22 jump), Perception +23
+Languages: Infernal (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +1 Dex, +16 natural, -1 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 3 bites +20 (1d8+7 plus 1d8 fire plus cerberus's jaws)
-
-**Reach:** 5
-
-**Rend:** 2 bites, 1d8+10 or 3 bites, 1d8+14
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 12, Con 22, Int 6, Wis 15, Cha 8
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33 (37 vs. trip)
-
-**Feats:** Alertness, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Improved Initiative,
-Power Attack, Stand Still
-
-**Skills:** Acrobatics +18 (+22 jump), Perception +23
-
-**Languages:** Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

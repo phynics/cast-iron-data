@@ -34,95 +34,70 @@ abilities = ["16", "16", "19", "13", "14", "15"]
 _Thin tendrils trail from this misshapen ovoid. Its underside holds a gray orb that resembles a
 bulging, lidless eye._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Perception: +10
+Senses: Darkvision 60 ft., See in darkness
+Size: small
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +4 armor, +3 Dex, +1 size
+Hit points: 68 (8d8+32)
+Fort: +6
+Ref: +5
+Will: +8
+Defensive abilities: all-around vision
+Fh: 2
+Immune: cold, disease
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee: 4 tendrils +11 (1d4+3 plus pain touch)
+Spec Att: pain touch, project terror, void transmission
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: mage armor
+At will: detect thoughts (DC 14), invisibility, share memory (DC 14)
+Per day: 1/day: modify memory (DC 16)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 16, Dex 16, Con 19, Int 13, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Combat Expertise, Combat Reflexes, Improved Initiative, Weapon Focus (tendril)
+Skills: Bluff +8, Diplomacy +8, Sense Motive +7, Stealth +15, Use Magic Device +10
+Languages: Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +3 Dex, +1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +8
-
-**Defensive abilities:** all-around vision
-
-**Fh:** 2
-
-**Immune:** cold, disease
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (perfect)
-
-**Melee:** 4 tendrils +11 (1d4+3 plus pain touch)
-
-**Spec Att:** pain touch, project terror, void transmission
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- mage armor
-
-**At will:**
-
-- detect thoughts (DC 14), invisibility, share memory (DC 14)
-
-**Per day:**
-
-- 1/day: modify memory (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 16, Con 19, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Initiative, Weapon Focus (tendril)
-
-**Skills:** Bluff +8, Diplomacy +8, Sense Motive +7, Stealth +15, Use Magic Device +10
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

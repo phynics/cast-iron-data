@@ -29,77 +29,61 @@ abilities = ["17", "13", "-", "5", "12", "14"]
 
 _Miscellaneous bits of rusted machinery are fused to the body of this shambling corpse._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +2
+Will: +4
+Defensive abilities: absorb electricity
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: malfunction
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Melee: arm drill +5 (1d6+3), metal jaw +5 (1d6+3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 17, Dex 13, Con -, Int 5, Wis 12, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Improved Initiative, Power Attack
+Skills: Intimidate +6, Perception +7, Stealth +5
+Racial Modifiers: +2 Perception
+Languages: Common
+Special qualities: augmentations
+:::
 
-**Experience points:** 600
+### Ecology {#stat-ecology}
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +4
-
-**Defensive abilities:** absorb electricity
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** malfunction
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** arm drill +5 (1d6+3), metal jaw +5 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con -, Int 5, Wis 12, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Intimidate +6, Perception +7, Stealth +5
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Common
-
-**Special qualities:** augmentations
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

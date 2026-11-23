@@ -30,79 +30,62 @@ abilities = ["23", "14", "19", "7", "14", "8"]
 _This brutish, one-eyed giant carries a large, well-made axe and wears a simple tunic. He has a head
 of shaggy hair, and the lower half of his face is obscured by a bristly, dark beard._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: fey
+Initiative: +6
+Size: large
+Perception: +12
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 52 (7d6+28)
+Fort: +6
+Ref: +7
+Will: +7
+Dr: 5/cold iron
+Weaknesses: white hairs
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: mwk greataxe +10 (3d6+9/×3)
+Ranged: rock +5 (1d8+6)
+Reach: 10
+Rock Th: 100 ft.
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 14, Con 19, Int 7, Wis 14, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Improved Initiative, Intimidating Prowess, Power Attack, Weapon Focus (greataxe)
+Skills: Climb +16
+Languages: Aklo, Common, Sylvan
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 52 (7d6+28)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Weaknesses:** white hairs
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk greataxe +10 (3d6+9/×3)
-
-**Ranged:** rock +5 (1d8+6)
-
-**Reach:** 10
-
-**Rock Th:** 100 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 14, Con 19, Int 7, Wis 14, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Intimidating Prowess, Power Attack, Weapon Focus (greataxe)
-
-**Skills:** Climb +16
-
-**Languages:** Aklo, Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or hunting party (2-6)
-
-**Treasure:** Standard (mwk greataxe); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary or hunting party (2-6)
+Treasure: Standard (mwk greataxe); other treasure
+:::
 
 ### Special Abilities
 

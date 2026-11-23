@@ -29,75 +29,60 @@ abilities = ["34", "9", "26", "-", "1", "1"]
 
 _Shimmering knots whirl and twist around a shining nucleus in this mound of golden-yellow slime._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsight: 60
+Initiative: -1
+Size: large
+Alignment: Neutral good
+Type: ooze
+Perception: -5
+Senses: Sense evil
+Experience points: 25,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 8
+Touch: 8
+Flat-footed: 8
+AC modifiers: -1 Dex, -1 size
+Hit points: 187 (15d8+120)
+Fort: +13
+Ref: +4
+Will: +0
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Constrict: 6d6+18 plus 2d6 acid
+Melee: slam +22 (6d6+18 plus 2d6 acid and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: acid, divine ectoplasm
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 34, Dex 9, Con 26, Int -, Wis 1, Cha 1
+Base attack bonus: +11
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 33 (can't be tripped)
+Skills: Climb +20
+:::
 
-**Senses:** Sense evil
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 8
-
-**Touch:** 8
-
-**Flat-footed:** 8
-
-**AC modifiers:** -1 Dex, -1 size
-
-**Hit points:** 187 (15d8+120)
-
-**Fort:** +13
-
-**Ref:** +4
-
-**Will:** +0
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Constrict:** 6d6+18 plus 2d6 acid
-
-**Melee:** slam +22 (6d6+18 plus 2d6 acid and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** acid, divine ectoplasm
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 9, Con 26, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Skills:** Climb +20
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

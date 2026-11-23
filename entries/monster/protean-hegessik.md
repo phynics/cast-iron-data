@@ -34,117 +34,79 @@ abilities = ["32", "23", "25", "18", "22", "23"]
 _This serpentine creature has shimmering golden plumage that transitions into sparkling gemstones on
 its back._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: maddening whispers (20 ft., DC 24)
+blindsense: 60
+Alignment: Chaotic neutral
+Initiative: +10
+Size: large
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** maddening whispers (20 ft., DC 24)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 30
+Touch: 15
+Flat-footed: 24
+AC modifiers: +6 Dex, +15 natural, -1 size
+Hit points: 212 (17d10+119)
+Fort: +17
+Ref: +13
+Will: +16
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 26
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (average)
+Constrict: 2d6+16
+Melee: bite +27 (2d8+11/19-20 plus warpwave), 2 claws +27 (1d8+11), tail slap +23 (2d6+5 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: leaching gaze, telekinetic reach, warpwave (DC 25)
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: detect law
+At will: confusion (DC 20), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, slow (DC 19)
+Per day: 3/day: baleful polymorph (DC 21), chaos hammer (DC 20), quickened displacement\
+1/day: plane shift (DC 23), polymorph any object (DC 24)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +26
+::: statblock
+Ability scores: Str 32, Dex 23, Con 25, Int 18, Wis 22, Cha 23
+Base attack bonus: +17
+Combat maneuver bonus: +29
+Combat maneuver defense: 45
+Feats: Combat Reflexes, Critical Focus, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (displacement, mirror image), Staggering Critical
+Skills: Acrobatics +26, Bluff +26, Diplomacy +26, Fly +24
+Languages: Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Senses:** Darkvision 60 ft., Detect law
+### Ecology
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 Dex, +15 natural, -1 size
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +17
-
-**Ref:** +13
-
-**Will:** +16
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (average)
-
-**Constrict:** 2d6+16
-
-**Melee:** bite +27 (2d8+11/19-20 plus warpwave), 2 claws +27 (1d8+11), tail slap +23 (2d6+5 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** leaching gaze, telekinetic reach, warpwave (DC 25)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- confusion (DC 20), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, slow
-  (DC 19)
-
-**Per day:**
-
-- 3/day: baleful polymorph (DC 21), chaos hammer (DC 20), quickened displacement
-- 1/day: plane shift (DC 23), polymorph any object (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 23, Con 25, Int 18, Wis 22, Cha 23
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 45
-
-**Feats:** Combat Reflexes, Critical Focus, Improved Critical (bite), Improved Initiative, Lightning
-Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (displacement,
-mirror image), Staggering Critical
-
-**Skills:** Acrobatics +26, Bluff +26, Diplomacy +26, Fly +24
-
-**Languages:** Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary or cloister (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary or cloister (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

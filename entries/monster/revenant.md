@@ -34,81 +34,63 @@ abilities = ["24", "17", "-", "7", "12", "19"]
 _This shambling corpse is twisted and mutilated. Fingers of sharpened bone reach out with malevolent
 intent._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft., Sense murderer
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +6
+Will: +7
+Dr: 5/slashing
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 17
+Weaknesses: self-loathing
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft.
+Constrict: 1d6+7
+Melee: 2 claws +14 (1d8+7 plus [grab](ref/umr/grab))
+Spec Att: baleful shriek
+:::
 
-**Senses:** Darkvision 60 ft., Sense murderer
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 24, Dex 17, Con -, Int 7, Wis 12, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 26
+Feats: Cleave, Improved Initiative, Power Attack, Step Up, Weapon Focus (claw)
+Skills: Intimidate +16, Perception +13
+Languages: Common
+Special qualities: reason to hate
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 5/slashing
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 17
-
-**Weaknesses:** self-loathing
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d6+7
-
-**Melee:** 2 claws +14 (1d8+7 plus [grab](ref/umr/grab))
-
-**Spec Att:** baleful shriek
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con -, Int 7, Wis 12, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Cleave, Improved Initiative, Power Attack, Step Up, Weapon Focus (claw)
-
-**Skills:** Intimidate +16, Perception +13
-
-**Languages:** Common
-
-**Special qualities:** reason to hate
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

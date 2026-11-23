@@ -31,101 +31,73 @@ abilities = ["22", "20", "21", "10", "15", "19"]
 _A haze of heat shimmers around this beautiful woman. The glare of the sun gleams from her radiant
 skin._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: sunstroke haze (10 ft., DC 21)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +19
+Senses: Low-light vision
+Experience points: 9,600
+:::
 
-**aura:** sunstroke haze (10 ft., DC 21)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 24
+Touch: 20
+Flat-footed: 18
+AC modifiers: +4 armor, +4 deflection, +5 Dex, +1 dodge
+Hit points: 119 (14d6+70)
+Fort: +11
+Ref: +14
+Will: +11
+Dr: 10/cold iron
+Immune: blindness, exhaustion, fatigue, fire
+Sr: 21
+Weaknesses: darkness powerlessness
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft.
+Melee: +1 scythe +15/+10 (2d4+10 plus 1d6 fire and 1d2 Con damage/×4)
+Spec Att: searing weapons
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: pass without trace
+At will: daylight, plant growth, enrichment only, touch of fatigue (DC 14)
+Per day: 3/day: blur, dimension door, rainbow pattern (DC 18), searing light\
+1/day: sunbeam (DC 21), waves of fatigue
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 20, Con 21, Int 10, Wis 15, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 33
+Feats: Cleave, Combat Reflexes, Dodge, Great Fortitude, Power Attack, Stand Still, Weapon Focus (scythe)
+Skills: Bluff +12, Diplomacy +13, Intimidate +9, Knowledge (local) +17, Perception +19
+Languages: Common, Sylvan
+Special qualities: grace, tied to day
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +4 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 119 (14d6+70)
-
-**Fort:** +11
-
-**Ref:** +14
-
-**Will:** +11
-
-**Dr:** 10/cold iron
-
-**Immune:** blindness, exhaustion, fatigue, fire
-
-**Sr:** 21
-
-**Weaknesses:** darkness powerlessness
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 scythe +15/+10 (2d4+10 plus 1d6 fire and 1d2 Con damage/×4)
-
-**Spec Att:** searing weapons
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- daylight, plant growth, enrichment only, touch of fatigue (DC 14)
-
-**Per day:**
-
-- 3/day: blur, dimension door, rainbow pattern (DC 18), searing light
-- 1/day: sunbeam (DC 21), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 20, Con 21, Int 10, Wis 15, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 33
-
-**Feats:** Cleave, Combat Reflexes, Dodge, Great Fortitude, Power Attack, Stand Still, Weapon Focus
-(scythe)
-
-**Skills:** Bluff +12, Diplomacy +13, Intimidate +9, Knowledge (local) +17, Perception +19
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** grace, tied to day
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary
-
-**Treasure:** Standard (+1 scythe, MM chain shirt); other treasure
+::: statblock
+Environment: temperate plains
+Organization: solitary
+Treasure: Standard (+1 scythe, MM chain shirt); other treasure
+:::
 
 ### Special Abilities
 

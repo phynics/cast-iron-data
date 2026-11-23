@@ -29,131 +29,86 @@ abilities = ["17", "18", "18", "23", "16", "19"]
 
 _This anemic protean wears a wizard's robe and garish jewelry._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: spellwarp aura (30 ft.)
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Arcane sight, Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 6,400
+:::
 
-**aura:** spellwarp aura (30 ft.)
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 19
+AC modifiers: +4 Dex, +9 natural
+Hit points: 114 (12d10+48)
+Fort: +8
+Ref: +12
+Will: +13
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 20
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d8+3
+Melee: bite +15 (2d6+3), 2 claws +15 (1d8+3), tail +15 (1d8+1 plus [grab](ref/umr/grab))
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: arcane sight, detect law, tongues
+At will: dispel magic (DC 17), greater teleport, self plus 50 lbs. of objects only, major creation, telekinesis (DC 19)
+Per day: 3/day: chaos hammer (DC 18)\
+1/day: break enchantment, plane shift (DC 21)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +10
+3rd-level spells: 3/day: lightning bolt (DC 16)
+2nd-level spells: 5/day: invisibility, scorching ray
+1st-level spells: 6/day: cultural adaptation, mage armor, magic missile, shield
+Cantrips: At will: acid splash, arcane mark, mage hand, mending, prestidigitation, ray of frost, read magic
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Arcane sight, Darkvision 60 ft., Detect law
+::: statblock
+Ability scores: Str 17, Dex 18, Con 18, Int 23, Wis 16, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +15
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Combat Casting, Craft Wondrous Item, Improved Initiative, Iron Will, Scribe Scroll, Spell Penetration
+Skills: Acrobatics +16, Bluff +19, Diplomacy +16, Fly +19, Use Magic Device +19
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Protean; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +9 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +13
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d8+3
-
-**Melee:** bite +15 (2d6+3), 2 claws +15 (1d8+3), tail +15 (1d8+1 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- arcane sight, detect law, tongues
-
-**At will:**
-
-- dispel magic (DC 17), greater teleport, self plus 50 lbs. of objects only, major creation,
-  telekinesis (DC 19)
-
-**Per day:**
-
-- 3/day: chaos hammer (DC 18)
-- 1/day: break enchantment, plane shift (DC 21)
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**3rd-level spells:**
-
-- 3/day: lightning bolt (DC 16)
-
-**2nd-level spells:**
-
-- 5/day: invisibility, scorching ray
-
-**1st-level spells:**
-
-- 6/day: cultural adaptation, mage armor, magic missile, shield
-
-**Cantrips:**
-
-- At will: acid splash, arcane mark, mage hand, mending, prestidigitation, ray of frost, read magic
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 18, Con 18, Int 23, Wis 16, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Combat Casting, Craft Wondrous Item, Improved Initiative, Iron Will, Scribe Scroll, Spell
-Penetration
-
-**Skills:** Acrobatics +16, Bluff +19, Diplomacy +16, Fly +19, Use Magic Device +19
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Protean; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary or ouroboros (3-5)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary or ouroboros (3-5)
+Treasure: Double
+:::
 
 ### Special Abilities
 

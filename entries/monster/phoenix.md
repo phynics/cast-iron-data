@@ -30,108 +30,75 @@ abilities = ["27", "25", "20", "23", "22", "22"]
 _This immense bird seems to be made of living flame. It spreads its wings and gives vent to a
 musical cry as it takes to the air._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: shroud of flame (20 ft., 4d6 fire, DC 25)
+Size: gargantuan
+Initiative: +11
+Type: Magical beast
+Alignment: Neutral good
+Perception: +37
+Senses: Darkvision 60 ft., Detect magic, Detect poison, Low-light vision, See invisibility
+Subtype: Fire
+Experience points: 51,200
+:::
 
-**aura:** shroud of flame (20 ft., 4d6 fire, DC 25)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 28
+Touch: 14
+Flat-footed: 20
+AC modifiers: +7 Dex, +1 dodge, +14 natural, -4 size
+Hit points: 210 (20d10+100)
+Fort: +17
+Ref: +19
+Will: +14
+Defensive abilities: self-resurrection
+Dr: 15/evil
+Immune: fire
+Regen: 10 (cold or evil)
+Sr: 26
+Vulner: cold
+:::
 
-**Initiative:** +11
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: 2 talons +24 (2d6+8/19-20 plus 1d6 fire) and bite +24 (2d8+8 plus 1d6 fire)
+Reach: 20
+Space: 20
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Constant: detect magic, detect poison, see invisibility
+At will: continual flame, cure critical wounds, greater dispel magic, remove curse, wall of fire
+Per day: 3/day: fire storm (DC 24), greater restoration, heal, mass cure critical wounds, quickened wall of fire
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect magic, Detect poison, Low-light vision, See invisibility
+::: statblock
+Ability scores: Str 27, Dex 25, Con 20, Int 23, Wis 22, Cha 22
+Base attack bonus: +20
+Combat maneuver bonus: +32
+Combat maneuver defense: 50
+Feats: Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved Critical (talon), Improved Initiative, Iron Will, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wall of fire)
+Skills: Acrobatics +30, Diplomacy +26, Sense Motive +26
+Racial Modifiers: +8 Perception
+Languages: Auran, Celestial, Common, Ignan
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +1 dodge, +14 natural, -4 size
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +17
-
-**Ref:** +19
-
-**Will:** +14
-
-**Defensive abilities:** self-resurrection
-
-**Dr:** 15/evil
-
-**Immune:** fire
-
-**Regen:** 10 (cold or evil)
-
-**Sr:** 26
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** 2 talons +24 (2d6+8/19-20 plus 1d6 fire) and bite +24 (2d8+8 plus 1d6 fire)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Constant:**
-
-- detect magic, detect poison, see invisibility
-
-**At will:**
-
-- continual flame, cure critical wounds, greater dispel magic, remove curse, wall of fire
-
-**Per day:**
-
-- 3/day: fire storm (DC 24), greater restoration, heal, mass cure critical wounds, quickened wall of
-  fire
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 25, Con 20, Int 23, Wis 22, Cha 22
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 50
-
-**Feats:** Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved
-Critical (talon), Improved Initiative, Iron Will, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (wall of fire)
-
-**Skills:** Acrobatics +30, Diplomacy +26, Sense Motive +26
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Auran, Celestial, Common, Ignan
-
-**Ecology**
-
-**Environment:** warm desert and hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm desert and hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

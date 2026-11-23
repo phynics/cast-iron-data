@@ -30,93 +30,71 @@ special_qualities = "fast movement, weapon familiarity"
 abilities = ["23", "14", "18", "8", "6", "10"]
 +++
 
-**Challenge rating:** 6
-
 **Orc [barbarian](ref/class/barbarian) 7**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +4 armor, +1 deflection, +2 Dex, -2 rage
+Hit points: 86 (7d12+35)
+Fort: +9
+Ref: +4
+Will: +2
+Dr: 1/-
+Ferocity: present
+Improved uncanny dodge: present
+Trap S: +2
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +8
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Orc
-
-**Experience points:** 2,400
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 armor, +1 deflection, +2 Dex, -2 rage
-
-**Hit points:** 86 (7d12+35)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +2
-
-**Dr:** 1/-
-
-**Ferocity:** present
-
-**Improved uncanny dodge:** present
-
-**Trap S:** +2
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 falchion +14/+9 (2d4+10/18-20), bite +8 (1d4+3) or mwk shortspear +14/+9 (1d6+9)
-
-**Ranged:** javelin +9/+4 (1d6+6)
-
-**Spec Att:** rage (18 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury),
-[intimidating glare](ref/ragepower/intimidating-glare),
-[strength surge](ref/ragepower/strength-surge) +7)
+::: statblock
+Speed: 30 ft.
+Melee: +1 falchion +14/+9 (2d4+10/18-20), bite +8 (1d4+3) or mwk shortspear +14/+9 (1d6+9)
+Ranged: javelin +9/+4 (1d6+6)
+Spec Att: rage (18 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury), [intimidating glare](ref/ragepower/intimidating-glare), [strength surge](ref/ragepower/strength-surge) +7)
+:::
 
 ### Tactics
 
 **Before Combat** The warlord rages before combat.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 14, Con 18, Int 8, Wis 6, Cha 10
+::: statblock
+Ability scores: Str 23, Dex 14, Con 18, Int 8, Wis 6, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Ferocious Action, Intimidating Prowess, Quick Draw, Resolute Rager
+Skills: Intimidate +16, Perception +8, Sense Motive +5
+Languages: Common, Orc
+Special qualities: fast movement, weapon familiarity
+Combat gear: potion of bull's strength, potion of cure serious wounds
+Other gear: mwk Ah, +1 falchion, 10 javelins, mwk shortspear, ring of prot1, 99 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Ferocious Action, Intimidating Prowess, Quick Draw, Resolute Rager
-
-**Skills:** Intimidate +16, Perception +8, Sense Motive +5
-
-**Languages:** Common, Orc
-
-**Special qualities:** fast movement, weapon familiarity
-
-**Combat gear:** potion of bull's strength, potion of cure serious wounds
-
-**Other gear:** mwk Ah, +1 falchion, 10 javelins, mwk shortspear, ring of prot1, 99 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

@@ -30,85 +30,67 @@ abilities = ["15", "24", "12", "4", "13", "11"]
 _This brightly-colored feline blur resembles a cheetah with longer fur and lynx-like ears, and seems
 to scorch the air as it moves._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic neutral
+Initiative: +7
+Type: Magical beast
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 18
+Flat-footed: 12
+AC modifiers: +7 Dex, +1 dodge, +2 natural
+Hit points: 26 (4d10+4)
+Fort: +5
+Ref: +11
+Will: +2; +4 vs. poison
+Dr: 5/magic
+Evasion: present
+Improved uncanny dodge: present
+Resist: electricity 10, fire 10
+Uncanny dodge: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 120 ft.
+Melee: bite +12 (1d6+2), 2 claws +7 (1d4+1)
+Spec Att: phasing attack
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Experience points:** 800
-
-**Armor class:** 20
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +7 Dex, +1 dodge, +2 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +5
-
-**Ref:** +11
-
-**Will:** +2; +4 vs. poison
-
-**Dr:** 5/magic
-
-**Evasion:** present
-
-**Improved uncanny dodge:** present
-
-**Resist:** electricity 10, fire 10
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 120 ft.
-
-**Melee:** bite +12 (1d6+2), 2 claws +7 (1d4+1)
-
-**Spec Att:** phasing attack
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 24, Con 12, Int 4, Wis 13, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Dodge, Mobility^B^, Spring Attack^B^, Weapon Finesse, Wind Stance^B^
-
-**Skills:** Acrobatics +15 (+27 when jumping), Perception +6, Stealth +15
-
-**Racial Modifiers:** +4 Acrobatics (+16 when jumping), +4 Stealth
-
-**Languages:** telepathy (empathy, 60 ft.)
+::: statblock
+Ability scores: Str 15, Dex 24, Con 12, Int 4, Wis 13, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Dodge, Mobility^B^, Spring Attack^B^, Weapon Finesse, Wind Stance^B^
+Skills: Acrobatics +15 (+27 when jumping), Perception +6, Stealth +15
+Racial Modifiers: +4 Acrobatics (+16 when jumping), +4 Stealth
+Languages: telepathy (empathy, 60 ft.)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm forests or plains
-
-**Organization:** solitary, pair, or den (1-2 adults and 1-4 cubs)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests or plains
+Organization: solitary, pair, or den (1-2 adults and 1-4 cubs)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

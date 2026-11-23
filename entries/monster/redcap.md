@@ -33,76 +33,60 @@ abilities = ["18", "19", "18", "16", "13", "15"]
 _Like some miniscule, wicked old man, this snarling little humanoid wears metal boots and a
 blood-red pointed cap._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: fey
+Initiative: +8
+Alignment: Neutral evil
+Perception: +12
+Senses: Low-light vision
+Size: small
+Experience points: 2,400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 16
+AC modifiers: +2 armor, +4 Dex, +3 natural, +1 size
+Hit points: 60 (8d6+32)
+Fort: +6
+Ref: +10
+Will: +7
+Dr: 10/cold iron
+Fh: 3
+Weaknesses: irreligious
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 60 ft.
+Melee: Medium scythe +10 (2d4+10/×4), kick +4 (1d4+6)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 18, Dex 19, Con 18, Int 16, Wis 13, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Cleave, Improved Initiative, Power Attack, Weapon Focus (scythe)
+Skills: Acrobatics +15 (+27 jump), Bluff +13, Climb +15, Escape Artist +15, Intimidate +10, Knowledge (nature) +14, Perception +12, Sense Motive +12, Stealth +19
+Languages: Aklo, Common, Giant, Sylvan
+Special qualities: boot stomp, heavy weapons, red cap
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +4 Dex, +3 natural, +1 size
-
-**Hit points:** 60 (8d6+32)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +7
-
-**Dr:** 10/cold iron
-
-**Fh:** 3
-
-**Weaknesses:** irreligious
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** Medium scythe +10 (2d4+10/×4), kick +4 (1d4+6)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 18, Int 16, Wis 13, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Cleave, Improved Initiative, Power Attack, Weapon Focus (scythe)
-
-**Skills:** Acrobatics +15 (+27 jump), Bluff +13, Climb +15, Escape Artist +15, Intimidate +10,
-Knowledge (nature) +14, Perception +12, Sense Motive +12, Stealth +19
-
-**Languages:** Aklo, Common, Giant, Sylvan
-
-**Special qualities:** boot stomp, heavy weapons, red cap
-
-**Ecology**
-
-**Environment:** temperate forests, mountains, or underground
-
-**Organization:** solitary, pair, or gang (3-12)
-
-**Treasure:** NPC gear (leather armor, M scythe); other treasure
+::: statblock
+Environment: temperate forests, mountains, or underground
+Organization: solitary, pair, or gang (3-12)
+Treasure: NPC gear (leather armor, M scythe); other treasure
+:::
 
 ### Special Abilities
 

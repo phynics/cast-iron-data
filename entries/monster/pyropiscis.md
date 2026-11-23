@@ -33,93 +33,69 @@ abilities = ["24", "14", "18", "2", "15", "6"]
 _Glowing-hot plates of iron cover the head of this immense, primordial lungfish, and lava spills
 from between its jagged teeth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +6
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+tremorsense: 60
+Experience points: 4,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +11 armor, +2 Dex, -1 size
+Hit points: 105 (10d10+50)
+Fort: +11
+Ref: +9
+Will: +5
+Dr: 5/adamantine
+Immune: fire
+Vulner: cold
+Weaknesses: lava dependency
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., burrow 60 ft., burrow (through lava or magma only)
+Burn: 1d6, DC 19
+Melee: bite +17 (2d8+10/19-20 plus burn and [grab](ref/umr/grab))
+Ranged: lava bomb +11 (3d6 plus 2d6 fire)
+Reach: 10
+Sp Extra: sprint
+Space: 10
+Spec Att: searing bite
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 14, Con 18, Int 2, Wis 15, Cha 6
+Base attack bonus: +10
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 30
+Feats: Improved Critical (bite), Improved Initiative, Lunge, Toughness, Weapon Focus (bite)
+Skills: Perception +10, Stealth +6 (+14 in lava)
+Racial Modifiers: +8 Stealth in lava
+Special qualities: hibernation
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 armor, +2 Dex, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Weaknesses:** lava dependency
-
-**Offense**
-
-**Speed:** 10 ft., burrow 60 ft., burrow (through lava or magma only)
-
-**Burn:** 1d6, DC 19
-
-**Melee:** bite +17 (2d8+10/19-20 plus burn and [grab](ref/umr/grab))
-
-**Ranged:** lava bomb +11 (3d6 plus 2d6 fire)
-
-**Reach:** 10
-
-**Sp Extra:** sprint
-
-**Space:** 10
-
-**Spec Att:** searing bite
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 14, Con 18, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 30
-
-**Feats:** Improved Critical (bite), Improved Initiative, Lunge, Toughness, Weapon Focus (bite)
-
-**Skills:** Perception +10, Stealth +6 (+14 in lava)
-
-**Racial Modifiers:** +8 Stealth in lava
-
-**Special qualities:** hibernation
-
-**Ecology**
-
-**Environment:** warm mountains or underground
-
-**Organization:** solitary, pack (3-6), or school (12-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm mountains or underground
+Organization: solitary, pack (3-6), or school (12-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

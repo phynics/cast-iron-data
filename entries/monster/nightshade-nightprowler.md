@@ -30,113 +30,78 @@ abilities = ["25", "20", "-", "14", "19", "19"]
 _This bulky predator's feline form is cloaked in shadows, save for its red eyes, which glow with a
 baleful hatred._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: desecrating aura (30 ft.)
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Perception: +20
+Senses: Darksense 30 ft., Darkvision 60 ft., Detect magic, Low-light vision, Scent
+Subtype: Extraplanar, Nightshade
+Type: undead
+Experience points: 9,600
+:::
 
-**aura:** desecrating aura (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 19
+AC modifiers: +5 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 136 (13d8+78)
+Fort: +10
+Ref: +11
+Will: +14
+Dr: 10/good and silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 21
+Weaknesses: light aversion
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft.
+Ch N En: DC 20, 5d6, 7/day
+Melee: bite +18 (3d6+10/19-20 plus creeping dark and [grab](ref/umr/grab)), 2 claws +18 (1d8+10 plus creeping dark)
+Rake: 2 claws +18, 1d6+10
+Reach: 10
+Space: 10
+Spec Att: creeping dark, shadowpounce
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect magic, magic fang
+At will: deeper darkness, unholy blight (DC 18)
+Per day: 3/day: dispel magic, contagion (DC 18), invisibility\
+1/day: air walk, confusion (DC 18), cone of cold (DC 19), haste, hold monster (DC 19), summon (level 4, 2 shadows)
+:::
 
-**Senses:** Darksense 30 ft., Darkvision 60 ft., Detect magic, Low-light vision, Scent
+### Statistics
 
-**Subtype:** Extraplanar, Nightshade
+::: statblock
+Ability scores: Str 25, Dex 20, Con -, Int 14, Wis 19, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 33
+Feats: Combat Reflexes, Command Undead, Dodge, Improved Critical (bite), Improved Initiative, Power Attack, Skill Focus (Stealth)
+Skills: Acrobatics +18, Climb +23, Knowledge (religion) +18, Perception +20
+Racial Modifiers: +8 Stealth in dim light and darkness
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 136 (13d8+78)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +14
-
-**Dr:** 10/good and silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 21
-
-**Weaknesses:** light aversion
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Ch N En:** DC 20, 5d6, 7/day
-
-**Melee:** bite +18 (3d6+10/19-20 plus creeping dark and [grab](ref/umr/grab)), 2 claws +18 (1d8+10
-plus creeping dark)
-
-**Rake:** 2 claws +18, 1d6+10
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** creeping dark, shadowpounce
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect magic, magic fang
-
-**At will:**
-
-- deeper darkness, unholy blight (DC 18)
-
-**Per day:**
-
-- 3/day: dispel magic, contagion (DC 18), invisibility
-- 1/day: air walk, confusion (DC 18), cone of cold (DC 19), haste, hold monster (DC 19), summon
-  (level 4, 2 shadows)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con -, Int 14, Wis 19, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33
-
-**Feats:** Combat Reflexes, Command Undead, Dodge, Improved Critical (bite), Improved Initiative,
-Power Attack, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +18, Climb +23, Knowledge (religion) +18, Perception +20
-
-**Racial Modifiers:** +8 Stealth in dim light and darkness
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary, pair, or pride (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary, pair, or pride (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

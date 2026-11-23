@@ -33,106 +33,74 @@ abilities = ["24", "29", "26", "17", "20", "21"]
 _Eyes with the dead cast of onyx glare from beneath the legionnaire's helmet worn by this ominous,
 black-winged woman._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: terminal aura (50 ft., DC 23)
+Initiative: +13
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Spiritsense, True seeing
+Subtype: Extraplanar, Psychopomp
+Experience points: 51,200
+:::
 
-**aura:** terminal aura (50 ft., DC 23)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 32
+Touch: 19
+Flat-footed: 23
+AC modifiers: +9 Dex, +13 natural
+Hit points: 216 (16d10+128)
+Fort: +13
+Ref: +19
+Will: +15
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/adamantine
+Immune: acid, death effects, disease
+Resist: cold 10, electricity 10
+Sr: 26
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 100 ft. (good)
+Melee: +3 scythe +27/+22/+17/+12 (2d4+13/19-20/×4)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: detect evil, detect good, freedom of movement, true seeing
+At will: dimensional anchor, dispel magic, gaseous form, greater teleport, self plus 50 lbs. of objects only, invisibility, self only, plane shift, self only, speak with dead, status, veil (DC 21)
+Per day: 3/day: quickened dispel magic, finger of death (DC 22), forbiddance, undeath to death (DC 21)\
+1/day: energy drain (DC 24)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Spiritsense, True seeing
+::: statblock
+Ability scores: Str 24, Dex 29, Con 26, Int 17, Wis 20, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 42
+Feats: Blinding Critical, Combat Casting, Critical Focus, Improved Critical (scythe), Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic), Weapon Focus (scythe)
+Skills: Bluff +24, Diplomacy +24, Sense Motive +24, Stealth +28
+Languages: Abyssal, Celestial, Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (owl, raven, or vulture; [beast shape I](ref/spell/beast-shape-1)), spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 32
-
-**Touch:** 19
-
-**Flat-footed:** 23
-
-**AC modifiers:** +9 Dex, +13 natural
-
-**Hit points:** 216 (16d10+128)
-
-**Fort:** +13
-
-**Ref:** +19
-
-**Will:** +15
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/adamantine
-
-**Immune:** acid, death effects, disease
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 100 ft. (good)
-
-**Melee:** +3 scythe +27/+22/+17/+12 (2d4+13/19-20/×4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect evil, detect good, freedom of movement, true seeing
-
-**At will:**
-
-- dimensional anchor, dispel magic, gaseous form, greater teleport, self plus 50 lbs. of objects
-  only, invisibility, self only, plane shift, self only, speak with dead, status, veil (DC 21)
-
-**Per day:**
-
-- 3/day: quickened dispel magic, finger of death (DC 22), forbiddance, undeath to death (DC 21)
-- 1/day: energy drain (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 29, Con 26, Int 17, Wis 20, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 42
-
-**Feats:** Blinding Critical, Combat Casting, Critical Focus, Improved Critical (scythe), Improved
-Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dispel magic),
-Weapon Focus (scythe)
-
-**Skills:** Bluff +24, Diplomacy +24, Sense Motive +24, Stealth +28
-
-**Languages:** Abyssal, Celestial, Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (owl, raven, or vulture;
-[beast shape I](ref/spell/beast-shape-1)), spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or dirge (3-7)
-
-**Treasure:** Standard (+3 scythe); other treasure
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or dirge (3-7)
+Treasure: Standard (+3 scythe); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,90 +31,69 @@ abilities = ["18", "17", "16", "12", "15", "17"]
 _This golden-skinned fiend has horns, fangs, and bulging eyes. It grips a spiked club in its
 four-fingered claws._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Human, Native, Oni, Shapechanger
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 19
+AC modifiers: +8 armor, +1 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +4
+Will: +6
+Regen: 5 (acid or fire)
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., (40 ft. without armor)
+Melee: mwk greatclub +10 (1d10+6) or 2 claws +9 (1d6+4)
+Ranged: mwk composite longbow +9 (1d8+4/×3)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Per day: 3/day: darkness, fly\
+1/day: charm person (DC 14), deep slumber (DC 16), invisibility, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Human, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 12, Wis 15, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Cleave, Combat Reflexes, Power Attack
+Skills: Bluff +11, Disguise +7, Sense Motive +10, Spellcraft +5, Stealth +4, Use Magic Device +11
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (any human; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +8 armor, +1 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +6
-
-**Regen:** 5 (acid or fire)
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. without armor)
-
-**Melee:** mwk greatclub +10 (1d10+6) or 2 claws +9 (1d6+4)
-
-**Ranged:** mwk composite longbow +9 (1d8+4/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: darkness, fly
-- 1/day: charm person (DC 14), deep slumber (DC 16), invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 12, Wis 15, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Cleave, Combat Reflexes, Power Attack
-
-**Skills:** Bluff +11, Disguise +7, Sense Motive +10, Spellcraft +5, Stealth +4, Use Magic Device
-+11
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any human;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (1 plus 3-10 humans of 1st-3rd level)
-
-**Treasure:** Standard (mwk half-plate, mwk greatclub, mwk cl20+4); other treasure
+::: statblock
+Environment: any
+Organization: solitary or gang (1 plus 3-10 humans of 1st-3rd level)
+Treasure: Standard (mwk half-plate, mwk greatclub, mwk cl20+4); other treasure
+:::
 
 ### Description
 

@@ -32,114 +32,74 @@ abilities = ["10", "32", "22", "20", "10", "12"]
 _This brain-like creature has two clawed legs emerging from its fore and rear and a serpentine
 proboscis clutching a dagger._
 
-**Challenge rating:** 11
-
 **Rogue mutant intellect devourer**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 11
+Type: aberration
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +17
+Perception: +19
+Senses: Detect magic
+Size: small
+Experience points: 12,800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 28
+Touch: 23
+Flat-footed: 16
+AC modifiers: +11 Dex, +1 dodge, +5 natural, +1 size
+Hit points: 107 (9d8+63)
+Fort: +9
+Ref: +14
+Will: +8
+Dr: 10/adamantine, 10/magic
+Evasion: present
+Fh: 5
+Immune: fire, mind-affecting effects
+Resist: cold 20, electricity 20, sonic 20
+Sr: 23
+Uncanny dodge: present
+Vulner: [protection from evil](ref/spell/protection-from-evil)
+:::
 
-**Initiative:** +17
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 40 ft.
+Melee: +1 [returning](ref/magic-enh/returning) dagger +19/+14 (1d3+1/19-20), 4 claws +16 (1d4)
+Ranged: +1 returning dagger +19 (1d3+1/19-20)
+Sneak: +7d6
+Spec Att: body thief
+:::
 
-**Senses:** Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+Constant: detect magic
+At will: confusion (single target only) (DC 15), daze monster (no HD limit) (DC 12), inflict serious wounds (DC 14), invisibility, !_reduce size_, as per [reduce person](ref/spell/reduce-person) but self only
+Per day: 3/day: cure moderate wounds, globe of invulnerability
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 12,800
-
-**Armor class:** 28
-
-**Touch:** 23
-
-**Flat-footed:** 16
-
-**AC modifiers:** +11 Dex, +1 dodge, +5 natural, +1 size
-
-**Hit points:** 107 (9d8+63)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +8
-
-**Dr:** 10/adamantine, 10/magic
-
-**Evasion:** present
-
-**Fh:** 5
-
-**Immune:** fire, mind-affecting effects
-
-**Resist:** cold 20, electricity 20, sonic 20
-
-**Sr:** 23
-
-**Uncanny dodge:** present
-
-**Vulner:** [protection from evil](ref/spell/protection-from-evil)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 [returning](ref/magic-enh/returning) dagger +19/+14 (1d3+1/19-20), 4 claws +16 (1d4)
-
-**Ranged:** +1 returning dagger +19 (1d3+1/19-20)
-
-**Sneak:** +7d6
-
-**Spec Att:** body thief
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- confusion (single target only) (DC 15), daze monster (no HD limit) (DC 12), inflict serious wounds
-  (DC 14), invisibility, !_reduce size_, as per [reduce person](ref/spell/reduce-person) but self
-  only
-
-**Per day:**
-
-- 3/day: cure moderate wounds, globe of invulnerability
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 32, Con 22, Int 20, Wis 10, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Multiattack^B^, Toughness, Weapon Finesse
-
-**Skills:** Acrobatics +22 (+26 when jumping), Bluff +17, Climb +11, Disguise +9, Sense Motive +8,
-Stealth +34, Use Magic Device +10
-
-**Racial Modifiers:** +8 Bluff, +8 Perception, +8 Stealth
-
-**Languages:** Common, Elven, Orc, Terran, Undercommon, Varisian (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** deformities (poor ability \[Charisma\]), mutations (celerity, extra arm,
-[fast healing](ref/umr/fast-healing)), prehensile proboscis
-
-**Gear:** +1 dagger
+::: statblock
+Ability scores: Str 10, Dex 32, Con 22, Int 20, Wis 10, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +5
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Dodge, Improved Initiative, Iron Will, Multiattack^B^, Toughness, Weapon Finesse
+Skills: Acrobatics +22 (+26 when jumping), Bluff +17, Climb +11, Disguise +9, Sense Motive +8, Stealth +34, Use Magic Device +10
+Racial Modifiers: +8 Bluff, +8 Perception, +8 Stealth
+Languages: Common, Elven, Orc, Terran, Undercommon, Varisian (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: deformities (poor ability \[Charisma\]), mutations (celerity, extra arm, [fast healing](ref/umr/fast-healing)), prehensile proboscis
+Gear: +1 dagger
+:::
 
 ###### B {#footnote-b}
 

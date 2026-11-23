@@ -30,113 +30,77 @@ abilities = ["35", "14", "-", "20", "21", "21"]
 _This towering, night-black giant has demonic features, including a huge pair of ram-like horns. Its
 arms end in massive blades._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: desecrating aura (30 ft.)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +2
+Perception: +29
+Senses: Darksense, Darkvision 60 ft., Detect magic, Low-light vision
+Subtype: Extraplanar, Nightshade
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** desecrating aura (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 10
+Flat-footed: 29
+AC modifiers: +2 Dex, +21 natural, -2 size
+Hit points: 241 (21d8+147)
+Fort: +14
+Ref: +11
+Will: +19
+Dr: 15/good and silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 27
+Weaknesses: light aversion
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 40 ft.
+Ch En: 8d6, DC 29, 8/day
+Melee: 2 claws +28 (3d6+15/19-20 plus 4d6 cold)
+Reach: 15
+Space: 15
+Spec Att: fear gaze, swift sundering
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: air walk, detect magic, magic fang
+At will: contagion (DC 19), deeper darkness, greater dispel magic, unholy blight (DC 19)
+Per day: 3/day: confusion (DC 19), haste, hold monster (DC 20), invisibility, quickened unholy blight (DC 19)\
+1/day: cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22), summon (level 7, 4 greater shadows)
+:::
 
-**Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Nightshade
+::: statblock
+Ability scores: Str 35, Dex 14, Con -, Int 20, Wis 21, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +29
+Combat maneuver defense: 41
+Feats: Combat Expertise, Command Undead, Greater Sunder, Greater Vital Strike, Improved Critical (claws), Improved Disarm, Improved Sunder, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (unholy blight), Vital Strike
+Skills: Intimidate +29, Knowledge (arcana) +29, Knowledge (planes) +26, Perception +29, Sense Motive +29, Spellcraft +29, Stealth +18 (+26 in darkness), Swim +33
+Racial Modifiers: +8 Stealth in dim light and darkness
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 10
-
-**Flat-footed:** 29
-
-**AC modifiers:** +2 Dex, +21 natural, -2 size
-
-**Hit points:** 241 (21d8+147)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +19
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 27
-
-**Weaknesses:** light aversion
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Ch En:** 8d6, DC 29, 8/day
-
-**Melee:** 2 claws +28 (3d6+15/19-20 plus 4d6 cold)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** fear gaze, swift sundering
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- air walk, detect magic, magic fang
-
-**At will:**
-
-- contagion (DC 19), deeper darkness, greater dispel magic, unholy blight (DC 19)
-
-**Per day:**
-
-- 3/day: confusion (DC 19), haste, hold monster (DC 20), invisibility, quickened unholy blight (DC
-  19)
-- 1/day: cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22), summon (level 7, 4
-  greater shadows)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 14, Con -, Int 20, Wis 21, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Expertise, Command Undead, Greater Sunder, Greater Vital Strike, Improved Critical
-(claws), Improved Disarm, Improved Sunder, Improved Vital Strike, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (unholy blight), Vital Strike
-
-**Skills:** Intimidate +29, Knowledge (arcana) +29, Knowledge (planes) +26, Perception +29, Sense
-Motive +29, Spellcraft +29, Stealth +18 (+26 in darkness), Swim +33
-
-**Racial Modifiers:** +8 Stealth in dim light and darkness
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary, pair, or gang (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary, pair, or gang (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

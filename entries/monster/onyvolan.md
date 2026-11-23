@@ -30,71 +30,58 @@ abilities = ["13", "17", "14", "11", "12", "14"]
 _This human-like creature is clad in gaudy clothing, and each of its spindly limbs terminates in a
 strange wheel-appendage._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic neutral
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Perception: +8
+Senses: Darkvision 60 ft.
+Experience points: 800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +3 Dex, +1 dodge
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +7
+Will: +5
+Weaknesses: cowardly, easily hampered
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +5 (1d8+1)
+Spec Att: creepy cackle, nimble charger
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 11, Wis 12, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +7 (+9 bull rush or overrun)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Agile Maneuvers, Dodge
+Skills: Acrobatics +7 (+11 when jumping), Intimidate +9, Perception +8, Stealth +10
+Languages: Common
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex, +1 dodge
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Weaknesses:** cowardly, easily hampered
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +5 (1d8+1)
-
-**Spec Att:** creepy cackle, nimble charger
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 11, Wis 12, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7 (+9 bull rush or overrun)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Agile Maneuvers, Dodge
-
-**Skills:** Acrobatics +7 (+11 when jumping), Intimidate +9, Perception +8, Stealth +10
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, clique (3-5), or gang (6-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, pair, clique (3-5), or gang (6-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

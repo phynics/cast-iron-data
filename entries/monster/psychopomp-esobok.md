@@ -33,98 +33,72 @@ abilities = ["14", "17", "14", "5", "14", "15"]
 
 _This stout, hunched predator has a ruff of dirty feathers and a crocodilian skull for a head._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +2
+Senses: Darkvision 60 ft., Detect undead, Low-light vision, Scent, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +4
+Will: +6
+Defensive abilities: eater of the dead
+Dr: 2/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: bite +6 (1d6+2 plus [grab](ref/umr/grab)), 2 claws +6 (1d4+2)
+Pounce: present
+Spec Att: wrench spirit
+:::
 
-**Perception:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: detect undead
+Per day: 3/day: invisibility, self only
+:::
 
-**Senses:** Darkvision 60 ft., Detect undead, Low-light vision, Scent, Spiritsense
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 14, Dex 17, Con 14, Int 5, Wis 14, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Combat Reflexes, Power Attack
+Skills: Climb +8, Intimidate +8, Perception +2
+Languages: Abyssal, Celestial, Infernal
+Special qualities: spirit touch
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +6
-
-**Defensive abilities:** eater of the dead
-
-**Dr:** 2/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +6 (1d6+2 plus [grab](ref/umr/grab)), 2 claws +6 (1d4+2)
-
-**Pounce:** present
-
-**Spec Att:** wrench spirit
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- detect undead
-
-**Per day:**
-
-- 3/day: invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 14, Int 5, Wis 14, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Reflexes, Power Attack
-
-**Skills:** Climb +8, Intimidate +8, Perception +2
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pack (2-6), or hunting party (3-10 plus 1
-[vanth](ref/monster/psychopomp-vanth) psychopomp)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pack (2-6), or hunting party (3-10 plus 1 [vanth](ref/monster/psychopomp-vanth) psychopomp)
+Treasure: None
+:::
 
 ### Special Abilities
 

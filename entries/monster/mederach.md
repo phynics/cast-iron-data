@@ -32,104 +32,74 @@ abilities = ["21", "10", "18", "13", "16", "19"]
 _This towering spider has multifaceted, shining eyes, eight legs that are each tipped with silver,
 and massive mandibles._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic good
+Initiative: +0
+Size: large
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Detect evil
+Subtype: Chaotic, Extraplanar, Good
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 23
+Touch: 9
+Flat-footed: 23
+AC modifiers: +14 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +6
+Will: +11
+Dr: 10/evil
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +17 (1d8+5 plus poison), 2 claws +16 (1d6+5)
+Reach: 10
+Space: 10
+Spec Att: poison
+Web: +11 ranged, DC 20, 12 hp
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: detect evil
+At will: plane shift, self only
+Per day: 3/day: calm emotions (DC 16), glitterdust (DC 16)\
+1/day: break enchantment (DC 18), hold monster (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 21, Dex 10, Con 18, Int 13, Wis 16, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 28
+Feats: Alertness, Cleave, Great Cleave, Lightning Reflexes, Power Attack, Weapon Focus (bite)
+Skills: Acrobatics +15 (+19 when jumping), Climb +28, Intimidate +10, Knowledge (planes) +10, Perception +22, Sense Motive +22, Stealth +5
+Languages: Celestial, Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Large animal only; [beast shape II](ref/spell/beast-shape-2)), peaceful intent, silver claws
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 9
-
-**Flat-footed:** 23
-
-**AC modifiers:** +14 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +11
-
-**Dr:** 10/evil
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +17 (1d8+5 plus poison), 2 claws +16 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Web:** +11 ranged, DC 20, 12 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- plane shift, self only
-
-**Per day:**
-
-- 3/day: calm emotions (DC 16), glitterdust (DC 16)
-- 1/day: break enchantment (DC 18), hold monster (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 10, Con 18, Int 13, Wis 16, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 28
-
-**Feats:** Alertness, Cleave, Great Cleave, Lightning Reflexes, Power Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +15 (+19 when jumping), Climb +28, Intimidate +10, Knowledge (planes) +10,
-Perception +22, Sense Motive +22, Stealth +5
-
-**Languages:** Celestial, Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Large animal only;
-[beast shape II](ref/spell/beast-shape-2)), peaceful intent, silver claws
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or team (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or team (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

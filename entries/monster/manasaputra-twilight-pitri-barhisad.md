@@ -33,116 +33,82 @@ _Cerulean light surrounds this towering four-armed figure in a vibrant corona._
 
 **Twilight Pitri (Barhisad)**
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 23)
+Initiative: +12
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +35
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful, Manasaputra
+Experience points: 153,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 23)
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 36
+Touch: 32
+Flat-footed: 27
+AC modifiers: +8 Dex, +1 dodge, +4 shield, -1 size, +14 Wis
+Hit points: 300 (24d10+168)
+Fort: +15
+Ref: +22
+Will: +22; +2 vs. enchantment
+Defensive abilities: cerulean nimbus
+Immune: calling, disease, poison
+Resist: adaptive 15
+Sr: 29
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: unarmed strike +28/+23/+18/+13 (2d10+8/19-20/×3)
+Ranged: lunar rays +31/+26/+21/+16 touch (8d6 cold and 8d6 positive energy)
+Reach: 10
+Space: 10
+Spec Att: anatomical undoing, lunar rays, stunning fist (6/day, DC 18)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +26; Wisdom-based
+At will: greater teleport, self only, plane shift, self only
+:::
 
-**Perception:** +35
+::: statblock
+title = "Psychic Magic"
+Caster level: 18
+Concentration: +26; Wisdom-based
+Power points: 45
+Psychoactive powers: aversion, 2 PE, DC 20, awaken, 5 PE, awaken construct, 6 PE, babble, 3 PE, DC 21, ego whip V, 7 PE, DC 25, greater synaptic pulse, 5 PE, DC 23, mind thrust VI, 6 PE, DC 24, mindwipe, 4 PE, DC 22, psychic image, 9 PE, psychic surgery, 6 PE, synapse overload, 5 PE, DC 23
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful, Manasaputra
+::: statblock
+Ability scores: Str 19, Dex 27, Con 24, Int 18, Wis 26, Cha 13
+Base attack bonus: +24
+Combat maneuver bonus: +29
+Combat maneuver defense: 62
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Critical (unarmed strike), Improved Initiative, Improved Unarmed Strike, Improved Vital Strike, Mobility, Stunning Critical, Stunning Fist, Vital Strike, Weapon Focus (unarmed strike)
+Skills: Acrobatics +32 (+36 when jumping), Fly +41, Intimidate +25, Knowledge (arcana, dungeoneering, history, planes) +31, Perception +35, Spellcraft +31, Stealth +31
+Languages: Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [no breath](ref/umr/no-breath), positive energy affinity, third eye
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 36
-
-**Touch:** 32
-
-**Flat-footed:** 27
-
-**AC modifiers:** +8 Dex, +1 dodge, +4 shield, -1 size, +14 Wis
-
-**Hit points:** 300 (24d10+168)
-
-**Fort:** +15
-
-**Ref:** +22
-
-**Will:** +22; +2 vs. enchantment
-
-**Defensive abilities:** cerulean nimbus
-
-**Immune:** calling, disease, poison
-
-**Resist:** adaptive 15
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** unarmed strike +28/+23/+18/+13 (2d10+8/19-20/×3)
-
-**Ranged:** lunar rays +31/+26/+21/+16 touch (8d6 cold and 8d6 positive energy)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** anatomical undoing, lunar rays, stunning fist (6/day, DC 18)
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +26; Wisdom-based
-
-**At will:**
-
-- greater teleport, self only, plane shift, self only
-
-**Psychic Magic**
-
-**Caster level:** 18
-
-**Concentration:** +26; Wisdom-based
-
-**Power points:** 45
-
-**Psychoactive powers:**
-
-- aversion, 2 PE, DC 20, awaken, 5 PE, awaken construct, 6 PE, babble, 3 PE, DC 21, ego whip V, 7
-  PE, DC 25, greater synaptic pulse, 5 PE, DC 23, mind thrust VI, 6 PE, DC 24, mindwipe, 4 PE, DC
-  22, psychic image, 9 PE, psychic surgery, 6 PE, synapse overload, 5 PE, DC 23
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 27, Con 24, Int 18, Wis 26, Cha 13
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 62
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Critical (unarmed strike), Improved
-Initiative, Improved Unarmed Strike, Improved Vital Strike, Mobility, Stunning Critical, Stunning
-Fist, Vital Strike, Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +32 (+36 when jumping), Fly +41, Intimidate +25, Knowledge (arcana,
-dungeoneering, history, planes) +31, Perception +35, Spellcraft +31, Stealth +31
-
-**Languages:** Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath), positive energy affinity, third eye
-
-**Ecology**
-
-**Environment:** any ([Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

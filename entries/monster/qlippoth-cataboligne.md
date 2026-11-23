@@ -30,89 +30,66 @@ abilities = ["38", "21", "22", "3", "14", "19"]
 _Spiked clubs extend from each end of this six-legged fiend. A spiky growth sticks up from its back,
 and a mouth yawns in its belly._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsight: 120
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +9
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 76,800
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 31
+Touch: 31
+Flat-footed: 26
+AC modifiers: +5 Dex, +20 natural, -4 size
+Hit points: 241 (21d10+126)
+Fort: +18
+Ref: +17
+Will: +11
+Defensive abilities: deflective carapace
+Dr: 15/cold iron and lawful
+Immune: cold, mind-affecting effects, poison
+Resist: acid 10, electricity 10, fire 10
+Sr: 27
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 50 ft.
+Melee: bite +26 (4d8+7 plus poison), 2 slams +31 (3d6+14/19-20)
+Reach: 20
+Space: 20
+Spec Att: demolish, devastating strike, disintegration beam, horrific appearance (DC 24)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +26
+::: statblock
+Ability scores: Str 38, Dex 21, Con 22, Int 3, Wis 14, Cha 19
+Base attack bonus: +21
+Combat maneuver bonus: +39 (+41 bull rush, +43 sunder)
+Combat maneuver defense: 54 (56 vs. bull rush and sunder)
+Feats: Awesome Blow, Bleeding Critical, Combat Reflexes, Critical Focus, Greater Sunder, Improved Bull Rush, Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power Attack
+Skills: Perception +26, Swim +38
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
-
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 31
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +20 natural, -4 size
-
-**Hit points:** 241 (21d10+126)
-
-**Fort:** +18
-
-**Ref:** +17
-
-**Will:** +11
-
-**Defensive abilities:** deflective carapace
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +26 (4d8+7 plus poison), 2 slams +31 (3d6+14/19-20)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** demolish, devastating strike, disintegration beam, horrific appearance (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 21, Con 22, Int 3, Wis 14, Cha 19
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +39 (+41 bull rush, +43 sunder)
-
-**Combat maneuver defense:** 54 (56 vs. bull rush and sunder)
-
-**Feats:** Awesome Blow, Bleeding Critical, Combat Reflexes, Critical Focus, Greater Sunder,
-Improved Bull Rush, Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power
-Attack
-
-**Skills:** Perception +26, Swim +38
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or siege (3-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or siege (3-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

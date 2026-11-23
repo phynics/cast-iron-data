@@ -29,83 +29,64 @@ special_qualities = "expert trainer +3, mount (gorthek), order of the cockatrice
 abilities = ["19", "10", "14", "6", "10", "12"]
 +++
 
-**Challenge rating:** 6
-
 **Orc [cavalier](ref/class/cavalier) 7**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 19
+AC modifiers: +9 armor
+Hit points: 64 (7d10+21)
+Fort: +8
+Ref: +3
+Will: +3
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: +1 lance +12/+7 (1d8+7/×3)
+Ranged: javelin +7/+2 (1d6+4)
+Spec Att: banner +2/+1, cavalier's charge, challenge (+7, +2, 3/day)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Orc
+::: statblock
+Ability scores: Str 19, Dex 10, Con 14, Int 6, Wis 10, Cha 12
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 21
+Feats: Animal Affinity, Beast Rider (gorthek), Dazzling Display, Horde Charge, Intimidating Prowess, Quick Draw, Toughness
+Skills: Handle Animal +9, Ride +6
+Languages: Common, Orc
+Special qualities: expert trainer +3, mount (gorthek), order of the cockatrice (braggart), tactician (2/day, 6 rounds, standard action), weapon familiarity
+Combat gear: potion of cure moderate wounds, potion of eagle's splendor
+Other gear: +1 half-plate, +1 lance, 8 javelins, Iclk1, 182 gp
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 armor
-
-**Hit points:** 64 (7d10+21)
-
-**Fort:** +8
-
-**Ref:** +3
-
-**Will:** +3
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 lance +12/+7 (1d8+7/×3)
-
-**Ranged:** javelin +7/+2 (1d6+4)
-
-**Spec Att:** banner +2/+1, cavalier's charge, challenge (+7, +2, 3/day)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 14, Int 6, Wis 10, Cha 12
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 21
-
-**Feats:** Animal Affinity, Beast Rider (gorthek), Dazzling Display, Horde Charge, Intimidating
-Prowess, Quick Draw, Toughness
-
-**Skills:** Handle Animal +9, Ride +6
-
-**Languages:** Common, Orc
-
-**Special qualities:** expert trainer +3, mount (gorthek), order of the cockatrice (braggart),
-tactician (2/day, 6 rounds, standard action), weapon familiarity
-
-**Combat gear:** potion of cure moderate wounds, potion of eagle's splendor
-
-**Other gear:** +1 half-plate, +1 lance, 8 javelins, Iclk1, 182 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

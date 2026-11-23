@@ -30,91 +30,69 @@ abilities = ["19", "17", "-", "12", "16", "19"]
 _This disembodied female torso flaps through the air on bat-like wings, her fanged face a hateful
 mask._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +3
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +6 natural
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +8
+Will: +10
+Dr: 10/good or silver
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), vulnerable to light blades
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft., fly 100 ft. (good)
+B Drain: 1d2 Constitution
+Melee: bite +11 (1d8+4), 2 claws +12 (1d8+4 plus [grab](ref/umr/grab))
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: bleed (DC 14), dancing lights, touch of fatigue (DC 14)
+Per day: 3/day: darkness, deep slumber (DC 17), fear (DC 18)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 19, Dex 17, Con -, Int 12, Wis 16, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 25
+Feats: Deceitful, Dodge, Flyby Attack, Lightning Reflexes, Weapon Focus (claws)
+Skills: Bluff +18, Disguise +21, Sense Motive +11, Spellcraft +6
+Languages: Abyssal, Common
+Special qualities: separate
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 10/good or silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), vulnerable to light blades
-
-**Offense**
-
-**Speed:** 30 ft., fly 100 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +11 (1d8+4), 2 claws +12 (1d8+4 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- bleed (DC 14), dancing lights, touch of fatigue (DC 14)
-
-**Per day:**
-
-- 3/day: darkness, deep slumber (DC 17), fear (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 17, Con -, Int 12, Wis 16, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Deceitful, Dodge, Flyby Attack, Lightning Reflexes, Weapon Focus (claws)
-
-**Skills:** Bluff +18, Disguise +21, Sense Motive +11, Spellcraft +6
-
-**Languages:** Abyssal, Common
-
-**Special qualities:** separate
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pack (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or pack (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

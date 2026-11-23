@@ -29,67 +29,56 @@ abilities = ["8", "15", "13", "2", "15", "6"]
 _This gray-and-white feathered owl has fluffy wings and a bulky head that makes it look larger than
 most owls._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: 2 claws +3 (1d4-1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 15, Con 13, Int 2, Wis 15, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 10
+Feats: Weapon Finesse
+Skills: Fly +8, Perception +10, Stealth +10
+Racial Modifiers: +4 Fly, +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +3 (1d4-1)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 13, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 10
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +8, Perception +10, Stealth +10
-
-**Racial Modifiers:** +4 Fly, +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

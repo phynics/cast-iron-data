@@ -37,69 +37,57 @@ tail sprouting a grotesquely primitive humanoid torso, head, and limbs. Although
 feet long, the nasty thing gibbers wildly as it gnashes its curling fangs and swipes at prey with
 webbed claws._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +2
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 13 (2d10+2)
+Fort: +1
+Ref: +4
+Will: +5
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: 2 claws +2 (1d3-1), bite +2 (1d4-1)
+Spec Att: group grapplers
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 8, Dex 13, Con 12, Int 6, Wis 15, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Agile Maneuvers
+Skills: Stealth +10, Swim +12
+Special qualities: nocturnal undeath, poison flesh
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** 2 claws +2 (1d3-1), bite +2 (1d4-1)
-
-**Spec Att:** group grapplers
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 12, Int 6, Wis 15, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Agile Maneuvers
-
-**Skills:** Stealth +10, Swim +12
-
-**Special qualities:** nocturnal undeath, poison flesh
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or shoal (3-22)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or shoal (3-22)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

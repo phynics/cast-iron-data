@@ -31,73 +31,59 @@ abilities = ["12", "16", "12", "1", "11", "3"]
 _This oversized piranha bursts from the water, spreading broad fins as it takes to the air to sate
 its hunger._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Keen Scent: present
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +6
+Will: +0
+Ferocity: present
+:::
 
-**Keen Scent:** present
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 70 ft.
+Bleed: 1d4
+Melee: bite +3 (1d4+1 plus attach and bleed)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 16, Con 12, Int 1, Wis 11, Cha 3
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Skill Focus (Perception)
+Skills: Perception +7, Swim +13
+Special qualities: glide
+:::
 
-**Size:** small
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +0
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 5 ft., swim 70 ft.
-
-**Bleed:** 1d4
-
-**Melee:** bite +3 (1d4+1 plus attach and bleed)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 12, Int 1, Wis 11, Cha 3
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +7, Swim +13
-
-**Special qualities:** glide
-
-**Ecology**
-
-**Environment:** warm oceans or rivers
-
-**Organization:** solitary, school (4-11), or shoal (13-33)
+::: statblock
+Environment: warm oceans or rivers
+Organization: solitary, school (4-11), or shoal (13-33)
+:::
 
 ### Special Abilities
 

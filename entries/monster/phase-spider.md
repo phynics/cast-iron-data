@@ -29,75 +29,60 @@ abilities = ["20", "17", "16", "7", "13", "10"]
 
 _This large spider-like monster has an eerie, humanoid face surrounded by a shaggy mane of fur._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 Dex, +5 natural, -1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +8
+Will: +3
+Defensive abilities: ethereal jaunt
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +10 (2d6+7 plus poison and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: ethereal ambush
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 17, Con 16, Int 7, Wis 13, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 25 (37 vs. trip)
+Feats: Ability Focus (poison), Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +18, Perception +6, Stealth +7
+Languages: Aklo
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +5 natural, -1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +3
-
-**Defensive abilities:** ethereal jaunt
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +10 (2d6+7 plus poison and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** ethereal ambush
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 16, Int 7, Wis 13, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 25 (37 vs. trip)
-
-**Feats:** Ability Focus (poison), Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +18, Perception +6, Stealth +7
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** warm hills
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm hills
+Organization: solitary, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -35,96 +35,72 @@ abilities = ["-", "25", "-", "13", "16", "21"]
 _This translucent humanoid figure has an animal's head. Rising from its back are wings of chilling
 white light._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Perception: +21
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 12,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 21
+Flat-footed: 18
+AC modifiers: +5 deflection, +7 Dex, +4 shield, -1 size
+Hit points: 142 (15d8+75)
+Fort: +10
+Ref: +12
+Will: +12
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: +3 [ghost touch](ref/magic-enh/ghost-touch-weapon) [speed](ref/magic-enh/speed) longsword +19/+19/+14/+9 (2d6+8/17-20)
+Reach: 10
+Space: 10
+Spec Att: insightful strike, judging gaze, soul-rending wings
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Per day: 3/day: suggestion (DC 18)\
+1/day: greater command (DC 20)
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 25, Con -, Int 13, Wis 16, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 34
+Feats: Combat Expertise, Combat Reflexes, Improved Critical (longsword), Improved Vital Strike, Stand Still, Step Up, Vital Strike, Weapon Focus (longsword)
+Skills: Fly +13, Intimidate +23, Knowledge (history) +16, Perception +21, Sense Motive +21
+Languages: Aklo, Auran, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: guardian sword and shield
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 21
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 deflection, +7 Dex, +4 shield, -1 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** +3 [ghost touch](ref/magic-enh/ghost-touch-weapon) [speed](ref/magic-enh/speed) longsword
-+19/+19/+14/+9 (2d6+8/17-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** insightful strike, judging gaze, soul-rending wings
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Per day:**
-
-- 3/day: suggestion (DC 18)
-- 1/day: greater command (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 25, Con -, Int 13, Wis 16, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Critical (longsword), Improved Vital Strike,
-Stand Still, Step Up, Vital Strike, Weapon Focus (longsword)
-
-**Skills:** Fly +13, Intimidate +23, Knowledge (history) +16, Perception +21, Sense Motive +21
-
-**Languages:** Aklo, Auran, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** guardian sword and shield
-
-**Ecology**
-
-**Environment:** warm ruins
-
-**Organization:** solitary, pair, or patrol (3-6)
-
-**Treasure:** Standard (mwk light steel shield, mwk longsword); other treasure
+::: statblock
+Environment: warm ruins
+Organization: solitary, pair, or patrol (3-6)
+Treasure: Standard (mwk light steel shield, mwk longsword); other treasure
+:::
 
 ### Special Abilities
 

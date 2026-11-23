@@ -31,74 +31,59 @@ abilities = ["34", "15", "20", "2", "13", "11"]
 
 _This gigantic two-headed vulture has greasy, night-black wings and sharp talons._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: gargantuan
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +32
+Senses: Low-light vision
+Experience points: 9,600
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 21
+AC modifiers: +2 Dex, +15 natural, -4 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +11
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 80 ft. (average)
+Melee: 2 bites +23 (2d8+12 plus [grab](ref/umr/grab)), 2 talons +23 (2d6+12)
+Reach: 15
+Space: 20
+Swallow: 2d8+12 bludgeoning and 1d6 acid damage, AC 17, 14 hp
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 15, Con 20, Int 2, Wis 13, Cha 11
+Base attack bonus: +14
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 38
+Feats: Flyby Attack, Iron Will, Skill Focus (Perception), Snatch, Weapon Focus (bite), Weapon Focus (talon), Wingover
+Skills: Fly -4, Perception +32
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +15 natural, -4 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft., fly 80 ft. (average)
-
-**Melee:** 2 bites +23 (2d8+12 plus [grab](ref/umr/grab)), 2 talons +23 (2d6+12)
-
-**Reach:** 15
-
-**Space:** 20
-
-**Swallow:** 2d8+12 bludgeoning and 1d6 acid damage, AC 17, 14 hp
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 15, Con 20, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 38
-
-**Feats:** Flyby Attack, Iron Will, Skill Focus (Perception), Snatch, Weapon Focus (bite), Weapon
-Focus (talon), Wingover
-
-**Skills:** Fly -4, Perception +32
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary, pair, or nest (2 adults and 1d4 juveniles)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary, pair, or nest (2 adults and 1d4 juveniles)
+Treasure: Incidental
+:::
 
 ### Description
 

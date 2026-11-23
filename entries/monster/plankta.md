@@ -31,96 +31,70 @@ abilities = ["50", "13", "34", "13", "28", "21"]
 _The shattered remnants of buildings and statues can be seen in this shuddering mass of wet, rugged
 rock._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Type: aberration
+Size: colossal
+Initiative: +5
+Alignment: Neutral evil
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Earth
+tremorsense: 120
+Experience points: 102,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 36
+Touch: 11
+Flat-footed: 36
+AC modifiers: +8 cover, +1 Dex, +25 natural, -8 size
+Hit points: 313 (19d8+228)
+Fort: +18
+Ref: +13
+Will: +20
+Defensive abilities: all-around vision, stony cover
+Dr: 15/-
+Immune: cold, electricity, fire
+Rock Ct: present
+Sr: 28
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Capsize: present
+Melee: 2 slams +27 (4d6+20/19-20), bite +26 (4d6+20)
+Pow Ch: slam, 8d6+24
+Push: slam, 10 ft.
+Reach: 30
+Space: 30
+Spec Att: clashing rocks, fiery fault, rain of boulders
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 50, Dex 13, Con 34, Int 13, Wis 28, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +42
+Combat maneuver defense: 61 (can't be tripped)
+Feats: Blind-Fight, Critical Focus, Dazing Assault, Improved Critical (slam), Improved Initiative, Lightning Reflexes, Power Attack, Snatch, Staggering Critical, Weapon Focus (slam)
+Skills: Climb +36
+Racial Modifiers: +20 Stealth in natural rocks
+Languages: Aquan, Terran
+:::
 
-**Subtype:** Aquatic, Earth
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 102,400
-
-**Armor class:** 36
-
-**Touch:** 11
-
-**Flat-footed:** 36
-
-**AC modifiers:** +8 cover, +1 Dex, +25 natural, -8 size
-
-**Hit points:** 313 (19d8+228)
-
-**Fort:** +18
-
-**Ref:** +13
-
-**Will:** +20
-
-**Defensive abilities:** all-around vision, stony cover
-
-**Dr:** 15/-
-
-**Immune:** cold, electricity, fire
-
-**Rock Ct:** present
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Capsize:** present
-
-**Melee:** 2 slams +27 (4d6+20/19-20), bite +26 (4d6+20)
-
-**Pow Ch:** slam, 8d6+24
-
-**Push:** slam, 10 ft.
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** clashing rocks, fiery fault, rain of boulders
-
-**Statistics**
-
-**Ability scores:** Str 50, Dex 13, Con 34, Int 13, Wis 28, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +42
-
-**Combat maneuver defense:** 61 (can't be tripped)
-
-**Feats:** Blind-Fight, Critical Focus, Dazing Assault, Improved Critical (slam), Improved
-Initiative, Lightning Reflexes, Power Attack, Snatch, Staggering Critical, Weapon Focus (slam)
-
-**Skills:** Climb +36
-
-**Racial Modifiers:** +20 Stealth in natural rocks
-
-**Languages:** Aquan, Terran
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

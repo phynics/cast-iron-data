@@ -35,77 +35,61 @@ abilities = ["13", "13", "14", "10", "9", "10"]
 _Slipping in and out of the crashing waves, this beautiful woman has the lower torso of a long,
 slender fish._
 
-**Challenge rating:** 1/3
-
 **Merfolk [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 135
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 7 (1d10+2)
+Fort: +4
+Ref: +1
+Will: -1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 5 ft., swim 50 ft.
+Melee: trident +2 (1d8+1)
+Ranged: heavy crossbow +2 (1d10/19-20)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 13, Dex 13, Con 14, Int 10, Wis 9, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Skill Focus (Perception)
+Skills: Perception +3, Swim +13
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 7 (1d10+2)
-
-**Fort:** +4
-
-**Ref:** +1
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 5 ft., swim 50 ft.
-
-**Melee:** trident +2 (1d8+1)
-
-**Ranged:** heavy crossbow +2 (1d10/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 14, Int 10, Wis 9, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +3, Swim +13
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate ocean
-
-**Organization:** solitary, company (2-4), patrol (3-10 plus 2 lieutenants of 3rd level and 1 leader
-of 3rd-6th level), or shoal (11-60 plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th
-level, 3 captains of 7th level, and 8-12 [dolphins](ref/monster/dolphin))
-
-**Treasure:** NPC gear (trident, heavy crossbow with 10 bolts); other treasure
+::: statblock
+Environment: temperate ocean
+Organization: solitary, company (2-4), patrol (3-10 plus 2 lieutenants of 3rd level and 1 leader of 3rd-6th level), or shoal (11-60 plus 1 sergeant of 3rd level per 20 adults, 5 lieutenants of 5th level, 3 captains of 7th level, and 8-12 [dolphins](ref/monster/dolphin))
+Treasure: NPC gear (trident, heavy crossbow with 10 bolts); other treasure
+:::
 
 ### Description
 

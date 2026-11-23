@@ -30,69 +30,57 @@ abilities = ["14", "12", "17", "2", "14", "7"]
 _Moss and lichen grow from the shaggy back of this boar-like animal. Its curving claws and
 prehensile tail hold it in the trees._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 natural
+Hit points: 22 (3d8+9)
+Fort: +8
+Ref: +4
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Melee: 2 claws +4 (1d3+2 plus poison)
+Spec Att: poison
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 12, Con 17, Int 2, Wis 14, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Great Fortitude, Skill Focus (Stealth)
+Skills: Climb +14, Perception +7, Stealth +4 (+8 in trees)
+Racial Modifiers: +4 Stealth in trees
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Melee:** 2 claws +4 (1d3+2 plus poison)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 12, Con 17, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Great Fortitude, Skill Focus (Stealth)
-
-**Skills:** Climb +14, Perception +7, Stealth +4 (+8 in trees)
-
-**Racial Modifiers:** +4 Stealth in trees
-
-**Ecology**
-
-**Environment:** temperate forests (First World)
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests (First World)
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

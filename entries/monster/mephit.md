@@ -29,82 +29,66 @@ abilities = ["13", "15", "12", "6", "11", "14"]
 
 _This small humanoid creature has thin, leathery wings, small horns, and a mischievous smile._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Varies
+Experience points: 800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +5
+Will: +3
+Dr: 5/magic
+Fh: 2
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+Br Weap: 15-foot cone, effect based on type, Reflex DC 13 for half
+Melee: 2 claws +5 (1d3+1)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Per day: 1/day: summon (level 2, 1 mephit of the same type 25%), =additional abilities based on mephit type
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Varies\
-**Experience points:** 800
+::: statblock
+Ability scores: Str 13, Dex 15, Con 12, Int 6, Wis 11, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Dodge, Improved Initiative
+Skills: Bluff +8, Fly +10, Perception +6, Stealth +12
+Languages: Common, one appropriate elemental language (Aquan, Auran, Ignan, or Terran)
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +3
-
-**Dr:** 5/magic
-
-**Fh:** 2
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**Br Weap:** 15-foot cone, effect based on type, Reflex DC 13 for half
-
-**Melee:** 2 claws +5 (1d3+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Per day:**
-
-- 1/day: summon (level 2, 1 mephit of the same type 25%), =additional abilities based on mephit type
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 12, Int 6, Wis 11, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Bluff +8, Fly +10, Perception +6, Stealth +12
-
-**Languages:** Common, one appropriate elemental language (Aquan, Auran, Ignan, or Terran)
-
-**Ecology**
-
-**Environment:** any (elemental planes)
-
-**Organization:** solitary, pair, gang (3-6), mob (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (elemental planes)
+Organization: solitary, pair, gang (3-6), mob (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

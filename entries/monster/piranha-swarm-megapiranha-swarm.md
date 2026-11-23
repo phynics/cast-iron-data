@@ -29,79 +29,62 @@ abilities = ["12", "15", "17", "1", "12", "2"]
 
 _Within this mass of primeval fish glint innumerable savagely gnashing teeth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+blindsense: 30
+Initiative: +6
+Keen Scent: present
+Alignment: Neutral
+Perception: +6
+Subtype: Aquatic, Swarm
+Size: tiny
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 15
+AC modifiers: +2 Dex, +3 natural, +2 size
+Hit points: 76 (9d8+36)
+Fort: +9
+Ref: +10
+Will: +4
+Defensive abilities: swarm traits
+:::
 
-**Initiative:** +6
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 40 ft.
+Bleed: 2d6
+Distraction: 17
+Melee: swarm (2d6 plus bleed and distraction)
+Reach: 0
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 12, Dex 15, Con 17, Int 1, Wis 12, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Step Up, Toughness
+Skills: Perception +6, Stealth +18, Swim +17
+:::
 
-**Subtype:** Aquatic, Swarm
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 2,400
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +3 natural, +2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +4
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Bleed:** 2d6
-
-**Distraction:** 17
-
-**Melee:** swarm (2d6 plus bleed and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 17, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Step Up, Toughness
-
-**Skills:** Perception +6, Stealth +18, Swim +17
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary, shoal (2-4 swarms), or school (5-7 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary, shoal (2-4 swarms), or school (5-7 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

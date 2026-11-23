@@ -33,109 +33,79 @@ _This crab-like creature has the torso and head of a human, one arm ending in a 
 another arm wielding a scimitar. It scuttles on six legs that emerge from beneath a massive shell
 with glinting metal and gems embedded into its surface._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: nondetection (30 ft.)
+Initiative: +5
+Size: large
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +16
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**aura:** nondetection (30 ft.)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 21
+AC modifiers: +4 deflection, +1 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 115 (11d10+55)
+Fort: +8
+Ref: +8
+Will: +11; +2 vs. illusion
+Dr: 10/magic
+Resist: cold 10, sonic 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Melee: +2 scimitar +16/+11/+6 (1d6+6/18-20), claw +16 (1d6+6 plus [grab](ref/umr/grab))
+Ranged: +2 javelin +13/+8/+3 (1d6+6)
+Reach: 5
+Space: 10
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +9
+Constant: detect magic
+:::
 
-**Perception:** +16
+::: statblock
+title = "Psychic Magic"
+Caster level: 9
+Concentration: +12
+Power points: 22
+Psychoactive powers: detect psychic significance, 1 PE, hallucinatory terrain, DC 17, 4 PE, identify, 1 PE, locate object, 2 PE, make whole, 2 PE, mirage arcana, DC 18, 5 PE, object reading, 1 PE, shatter, DC 15, 2 PE, sound burst, DC 15, 2 PE
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 19, Dex 13, Con 20, Int 17, Wis 14, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 32 (44 vs. trip)
+Feats: Dodge, Improved Initiative, Iron Will, Quick Draw, Skill Focus (Spellcraft), Spell Focus (illusion)
+Skills: Diplomacy +11, Knowledge (arcana) +14, Perception +16, Swim +12, Use Magic Device +11
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious), embedded magic, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 6,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 deflection, +1 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +11; +2 vs. illusion
-
-**Dr:** 10/magic
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Melee:** +2 scimitar +16/+11/+6 (1d6+6/18-20), claw +16 (1d6+6 plus [grab](ref/umr/grab))
-
-**Ranged:** +2 javelin +13/+8/+3 (1d6+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect magic
-
-**Psychic Magic**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Power points:** 22
-
-**Psychoactive powers:**
-
-- detect psychic significance, 1 PE, hallucinatory terrain, DC 17, 4 PE, identify, 1 PE, locate
-  object, 2 PE, make whole, 2 PE, mirage arcana, DC 18, 5 PE, object reading, 1 PE, shatter, DC 15,
-  2 PE, sound burst, DC 15, 2 PE
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 20, Int 17, Wis 14, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 32 (44 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Quick Draw, Skill Focus (Spellcraft), Spell Focus
-(illusion)
-
-**Skills:** Diplomacy +11, Knowledge (arcana) +14, Perception +16, Swim +12, Use Magic Device +11
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), embedded magic,
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** temperate coastlines
-
-**Organization:** solitary, pair, or enclave (3-8)
-
-**Treasure:** Double (mwk scimitar, 3 mwk javelins); 11 caster levels of embedded magic items
+::: statblock
+Environment: temperate coastlines
+Organization: solitary, pair, or enclave (3-8)
+Treasure: Double (mwk scimitar, 3 mwk javelins); 11 caster levels of embedded magic items
+:::
 
 ### Special Abilities
 

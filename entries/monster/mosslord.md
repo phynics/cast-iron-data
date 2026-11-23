@@ -30,107 +30,75 @@ abilities = ["32", "28", "26", "27", "25", "23"]
 _This towering, four-armed humanoid seems to be made of moss and splintered wood, its face sinister
 and mouthless._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Greensight: present
+Initiative: +13
+Size: large
+Alignment: Lawful evil
+Perception: +35
+Type: plant
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Experience points: 153,600
+:::
 
-**Greensight:** present
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 33
+Touch: 19
+Flat-footed: 23
+AC modifiers: +9 Dex, +1 dodge, +14 natural, -1 size
+Hit points: 312 (25d8+200)
+Fort: +22
+Ref: +17
+Will: +17
+Defensive abilities: perennial
+Dr: 15/magic and slashing
+Immune: fire, [plant traits](ref/umr/plant-traits)
+Regen: 10 (cold)
+Resist: electricity 30
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Melee: 4 claws +28 (2d8+11/19-20 plus curse)
+Reach: 10
+Space: 10
+Spec Att: deadwood curse, sheets of moss, yellow mold blast
+:::
 
-**Perception:** +35
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: nondetection, pass without trace, see invisibility, speak with plants
+At will: command plants (DC 20), fear (DC 20), mind thrust VI (DC 22), transport via plants, tree shape
+Per day: 3/day: animate plants, displacement, quickened fungal infestation (DC 19)\
+1/day: control plants (DC 24), microcosm (DC 25)
+:::
 
-**Type:** plant
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+::: statblock
+Ability scores: Str 32, Dex 28, Con 26, Int 27, Wis 25, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +30 (+34 sunder)
+Combat maneuver defense: 50 (52 vs. sunder)
+Feats: Combat Casting, Combat Reflexes, Critical Focus, Dodge, Greater Sunder, Improved Critical (claw), Improved Initiative, Improved Sunder, Iron Will, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (fungal infestation), Staggering Critical
+Skills: Climb +36, Intimidate +31, Knowledge (arcana, geography, nature) +33, Perception +35
+Languages: Aklo, Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants),_ [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 19
-
-**Flat-footed:** 23
-
-**AC modifiers:** +9 Dex, +1 dodge, +14 natural, -1 size
-
-**Hit points:** 312 (25d8+200)
-
-**Fort:** +22
-
-**Ref:** +17
-
-**Will:** +17
-
-**Defensive abilities:** perennial
-
-**Dr:** 15/magic and slashing
-
-**Immune:** fire, [plant traits](ref/umr/plant-traits)
-
-**Regen:** 10 (cold)
-
-**Resist:** electricity 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 4 claws +28 (2d8+11/19-20 plus curse)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** deadwood curse, sheets of moss, yellow mold blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- nondetection, pass without trace, see invisibility, speak with plants
-
-**At will:**
-
-- command plants (DC 20), fear (DC 20), mind thrust VI (DC 22), transport via plants, tree shape
-
-**Per day:**
-
-- 3/day: animate plants, displacement, quickened fungal infestation (DC 19)
-- 1/day: control plants (DC 24), microcosm (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 28, Con 26, Int 27, Wis 25, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30 (+34 sunder)
-
-**Combat maneuver defense:** 50 (52 vs. sunder)
-
-**Feats:** Combat Casting, Combat Reflexes, Critical Focus, Dodge, Greater Sunder, Improved Critical
-(claw), Improved Initiative, Improved Sunder, Iron Will, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (fungal infestation), Staggering Critical
-
-**Skills:** Climb +36, Intimidate +31, Knowledge (arcana, geography, nature) +33, Perception +35
-
-**Languages:** Aklo, Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -29,90 +29,69 @@ abilities = ["10", "19", "14", "12", "13", "15"]
 _This gaunt, clawed faerie creature wears simple, homespun clothing and a malicious grin. Its
 oversized ears stick out from the sides of its head, and it wears its long earlobes like a scarf._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: fey
+Initiative: +8
+Size: medium
+Perception: +13
+Senses: Child-scent, Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +8
+Will: +5
+Dr: 5/cold iron
+Vulner: sonic
+Weaknesses: music susceptibility
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +6 (2d6 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: mage hand, open/close
+Per day: 3/day: sleep (DC 13), spider climb, self only, ventriloquism (DC 13)\
+1/day: dimension door
+:::
 
-**Senses:** Child-scent, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 10, Dex 19, Con 14, Int 12, Wis 13, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 16
+Feats: Agile Maneuvers, Improved Initiative, Weapon Finesse
+Skills: Bluff +10, Disable Device +9, Disguise +10, Perception +13
+Racial Modifiers: +4 Perception
+Languages: Common, Gm, Sylvan
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Vulner:** sonic
-
-**Weaknesses:** music susceptibility
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +6 (2d6 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- mage hand, open/close
-
-**Per day:**
-
-- 3/day: sleep (DC 13), spider climb, self only, ventriloquism (DC 13)
-- 1/day: dimension door
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 19, Con 14, Int 12, Wis 13, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 16
-
-**Feats:** Agile Maneuvers, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +10, Disable Device +9, Disguise +10, Perception +13
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common, Gm, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

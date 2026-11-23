@@ -32,90 +32,67 @@ sizzling acid._
 
 **Mythic Myrmecoleon**
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Mythic rank: 3
+Size: huge
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Mythic
+Experience points: 9,600
+:::
 
-**Mythic rank:** 3
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 6
+Flat-footed: 24
+AC modifiers: -2 Dex, +18 natural, -2 size
+Hit points: 135 (10d10+80)
+Fort: +12
+Ref: +7
+Will: +4
+Dr: 5/epic
+Ferocity: present
+Immune: acid
+:::
 
-**Initiative:** -2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., burrow 20 ft., climb 20 ft.
+B Drain: 1d2 Con
+Constrict: 4d8+9
+M Power: 3/day, surge +1d6
+Melee: mandibles +14 (4d8+9/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: death throes, scalding spray
+Trample: 2d8+9, DC 21
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 23, Dex 6, Con 20, Int 2, Wis 13, Cha 5
+Base attack bonus: +10
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 24 (28 vs. grapple, 32 vs. trip)
+Feats: Improved Critical (mandibles), Lightning Reflexes, Mythic Power Attack, Shatter Defenses, Mythic Weapon Focus (mandibles)
+Skills: Climb +22, Perception +9
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Mythic
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 6
-
-**Flat-footed:** 24
-
-**AC modifiers:** -2 Dex, +18 natural, -2 size
-
-**Hit points:** 135 (10d10+80)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +4
-
-**Dr:** 5/epic
-
-**Ferocity:** present
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., climb 20 ft.
-
-**B Drain:** 1d2 Con
-
-**Constrict:** 4d8+9
-
-**M Power:** 3/day, surge +1d6
-
-**Melee:** mandibles +14 (4d8+9/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** death throes, scalding spray
-
-**Trample:** 2d8+9, DC 21
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 6, Con 20, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 24 (28 vs. grapple, 32 vs. trip)
-
-**Feats:** Improved Critical (mandibles), Lightning Reflexes, Mythic Power Attack, Shatter Defenses,
-Mythic Weapon Focus (mandibles)
-
-**Skills:** Climb +22, Perception +9
-
-**Ecology**
-
-**Environment:** temperate plains or hills
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains or hills
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

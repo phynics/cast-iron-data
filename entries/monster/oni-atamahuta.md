@@ -31,100 +31,73 @@ abilities = ["25", "12", "20", "13", "16", "17"]
 _This large humanoid creature has two heads, one brutish-looking, the other with three eyes and gems
 and tattoos decorating its forehead._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +5
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Oni, Giant, Native, Shapechanger
+Experience points: 12,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 24
+AC modifiers: +7 armor, +1 Dex, +8 natural, -1 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +5
+Will: +12
+Regen: 5 (acid or fire)
+Sr: 22
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +2 orc double axe +22/+22/+17/+17/+12/+12 (2d6+12/19-20)
+Reach: 10
+Space: 10
+Spec Att: double weapon mastery, spellstrike
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+Constant: see invisibility
+Per day: 3/day: chill touch (DC 14), dimension door, fireball (DC 16), haste, rage, shocking grasp\
+1/day: black tentacles, stoneskin, wall of fire
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Oni, Giant, Native, Shapechanger
+::: statblock
+Ability scores: Str 25, Dex 12, Con 20, Int 13, Wis 16, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 33
+Feats: Cleave, Combat Casting, Improved Initiative, Improved Sunder, Power Attack, Spell Penetration, Vital Strike
+Skills: Bluff +20, Disguise +20, Sense Motive +20, Spellcraft +18
+Racial Modifiers: +4 Perception
+Languages: Common, Giant, Orc, Tien
+Special qualities: [change shape](ref/umr/change-shape) (Large humanoid; [alter self](ref/spell/alter-self)), ward off distractions
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 armor, +1 Dex, +8 natural, -1 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +5
-
-**Will:** +12
-
-**Regen:** 5 (acid or fire)
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 orc double axe +22/+22/+17/+17/+12/+12 (2d6+12/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** double weapon mastery, spellstrike
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 3/day: chill touch (DC 14), dimension door, fireball (DC 16), haste, rage, shocking grasp
-- 1/day: black tentacles, stoneskin, wall of fire
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 20, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33
-
-**Feats:** Cleave, Combat Casting, Improved Initiative, Improved Sunder, Power Attack, Spell
-Penetration, Vital Strike
-
-**Skills:** Bluff +20, Disguise +20, Sense Motive +20, Spellcraft +18
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common, Giant, Orc, Tien
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Large humanoid;
-[alter self](ref/spell/alter-self)), ward off distractions
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or cohort (1-2 plus 3-5 [ettins](ref/monster/ettin))
-
-**Treasure:** Double (banded mail, +2 -orc double axe); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or cohort (1-2 plus 3-5 [ettins](ref/monster/ettin))
+Treasure: Double (banded mail, +2 -orc double axe); other treasure
+:::
 
 ### Special Abilities
 

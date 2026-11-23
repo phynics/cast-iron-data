@@ -36,78 +36,61 @@ abilities = ["32", "13", "18", "2", "15", "11"]
 _This long-necked creature has an even longer tail, as well as a row of spines along its back and
 countless sharp fangs._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 9
+Flat-footed: 22
+AC modifiers: +1 Dex, +14 natural, -2 size
+Hit points: 119 (14d8+56)
+Fort: +13
+Ref: +12
+Will: +8
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +19 (2d8+11), tail slap +14 (2d8+5)
+Reach: 15
+Reach P: 20 ft. with tail slap
+Space: 15
+Spec Att: whip tail
+Trample: 2d8+16, DC 28
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 13, Con 18, Int 2, Wis 15, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +23 (+25 bull rush)
+Combat maneuver defense: 34 (36 vs. bull rush)
+Feats: Awesome Blow, Improved Bull Rush, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception)
+Skills: Perception +15, Stealth +3 (+11 in water), Swim +19
+Racial Modifiers: +8 Stealth in water
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 9
-
-**Flat-footed:** 22
-
-**AC modifiers:** +1 Dex, +14 natural, -2 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +13
-
-**Ref:** +12
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +19 (2d8+11), tail slap +14 (2d8+5)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail slap
-
-**Space:** 15
-
-**Spec Att:** whip tail
-
-**Trample:** 2d8+16, DC 28
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 13, Con 18, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +23 (+25 bull rush)
-
-**Combat maneuver defense:** 34 (36 vs. bull rush)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Initiative, Iron Will, Lightning Reflexes,
-Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +15, Stealth +3 (+11 in water), Swim +19
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Ecology**
-
-**Environment:** tropical lakes or rivers
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: tropical lakes or rivers
+Organization: solitary, pair, or pack (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

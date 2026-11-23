@@ -31,79 +31,62 @@ abilities = ["2", "15", "13", "2", "13", "2"]
 _A squirming, roiling mass of squeaking rats draws closer, teeth flashing and claws scratching
 everything in its path._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Subtype: Swarm
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +5
+Will: +2
+Defensive abilities: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 15 ft., climb 15 ft., swim 15 ft.
+Distraction: 12
+Melee: swarm (1d6 plus disease)
+Reach: 0
+Space: 10
+Spec Att: disease
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 2, Dex 15, Con 13, Int 2, Wis 13, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Acrobatics +6, Climb +10
+Racial Modifiers: uses Dex to modify Climb and Swim
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft., swim 15 ft.
-
-**Distraction:** 12
-
-**Melee:** swarm (1d6 plus disease)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 15, Con 13, Int 2, Wis 13, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Acrobatics +6, Climb +10
-
-**Racial Modifiers:** uses Dex to modify Climb and Swim
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pack (2-5 swarms), or infestation (6-12 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pack (2-5 swarms), or infestation (6-12 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

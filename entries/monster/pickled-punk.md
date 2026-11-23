@@ -30,83 +30,64 @@ abilities = ["3", "13", "-", "4", "12", "13"]
 
 _Barely contained in thick glass, this deformed humanoid creature wriggles in its jar._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Alignment: Neutral evil
+Perception: +1
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 11 (2d8+2)
+Fort: +1
+Ref: +1
+Will: +4
+Dr: 5/bludgeoning
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 15 ft.
+Attach: present
+Melee: bite +4 (1d3-4 plus attach)
+Reach: 0
+Space: 2-1/2
+Spec Att: death throes, irritant
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 3, Dex 13, Con -, Int 4, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse
+Skills: Bluff +2 (+10 when playing dead), Stealth +13
+Racial Modifiers: +8 Bluff when playing dead
+Languages: Common
+Special qualities: opportune
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +4
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Attach:** present
-
-**Melee:** bite +4 (1d3-4 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** death throes, irritant
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 13, Con -, Int 4, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse
-
-**Skills:** Bluff +2 (+10 when playing dead), Stealth +13
-
-**Racial Modifiers:** +8 Bluff when playing dead
-
-**Languages:** Common
-
-**Special qualities:** opportune
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

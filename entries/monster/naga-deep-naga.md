@@ -29,115 +29,75 @@ abilities = ["28", "21", "20", "13", "16", "17"]
 _This creature's massive, serpentine body is covered in dark purple scales. Its humanoid head has a
 wide mouth filled with fangs._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+Size: huge
+Initiative: +9
+Alignment: Neutral evil
+Perception: +21
+Senses: Darkvision 120 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 22
+AC modifiers: +5 Dex, +14 natural, -2 size
+Hit points: 161 (17d8+85)
+Fort: +10
+Ref: +10
+Will: +15
+Defensive abilities: spell siphon
+Sr: 23
+Weaknesses: ley-line dependent
+:::
 
-**Initiative:** +9
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 20 ft., swim 20 ft.
+Br Weap: 80-ft. line, 12d6 force damage plus magical disruption, Reflex DC 23 for half, usable every 1d4 rounds
+Melee: bite +20 (2d6+9/19-20 plus magical disruption), tail slap +17 (2d6+4)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spells Known"
+Caster level: 11
+Concentration: +14
+5th-level spells: 4/day: commune with nature, telekinesis
+4th-level spells: 6/day: bestow curse (DC 17), cure serious wounds, illusory wall (DC 17)
+3rd-level spells: 7/day: aversion (DC 16), dispel magic, greater magic fang, snare
+2nd-level spells: 7/day: barkskin, false life, resist energy, scare (DC 15), web (DC 15)
+1st-level spells: 7/day: cure light wounds, magic missile, obscuring mist, pass without trace, true strike
+Cantrips: At will: bleed (DC 13), detect magic, ghost sound (DC 13), guidance, mage hand, open/close, read magic, resistance, virtue
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 28, Dex 21, Con 20, Int 13, Wis 16, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +23
+Combat maneuver defense: 38 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Multiattack, Step Up, Vital Strike, Weapon Focus (bite)
+Skills: Acrobatics +8, Intimidate +18, Knowledge (arcana) +12, Perception +21, Sense Motive +15, Spellcraft +16 (+20 to attune to ley lines), Stealth +12, Swim +17
+Racial Modifiers: +4 Spellcraft to attune to ley lines
+Languages: Aklo, Undercommon
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +5 Dex, +14 natural, -2 size
-
-**Hit points:** 161 (17d8+85)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +15
-
-**Defensive abilities:** spell siphon
-
-**Sr:** 23
-
-**Weaknesses:** ley-line dependent
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., swim 20 ft.
-
-**Br Weap:** 80-ft. line, 12d6 force damage plus magical disruption, Reflex DC 23 for half, usable
-every 1d4 rounds
-
-**Melee:** bite +20 (2d6+9/19-20 plus magical disruption), tail slap +17 (2d6+4)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spells Known**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**5th-level spells:**
-
-- 4/day: commune with nature, telekinesis
-
-**4th-level spells:**
-
-- 6/day: bestow curse (DC 17), cure serious wounds, illusory wall (DC 17)
-
-**3rd-level spells:**
-
-- 7/day: aversion (DC 16), dispel magic, greater magic fang, snare
-
-**2nd-level spells:**
-
-- 7/day: barkskin, false life, resist energy, scare (DC 15), web (DC 15)
-
-**1st-level spells:**
-
-- 7/day: cure light wounds, magic missile, obscuring mist, pass without trace, true strike
-
-**Cantrips:**
-
-- At will: bleed (DC 13), detect magic, ghost sound (DC 13), guidance, mage hand, open/close, read
-  magic, resistance, virtue
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 21, Con 20, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 38 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Improved Vital Strike,
-Iron Will, Multiattack, Step Up, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Acrobatics +8, Intimidate +18, Knowledge (arcana) +12, Perception +21, Sense Motive +15,
-Spellcraft +16 (+20 to attune to ley lines), Stealth +12, Swim +17
-
-**Racial Modifiers:** +4 Spellcraft to attune to ley lines
-
-**Languages:** Aklo, Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or nest (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or nest (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,74 +29,59 @@ abilities = ["14", "1", "22", "-", "1", "1"]
 _This yellow-orange amoeboid creature slithers across the ground, pseudopods grasping ahead of its
 slow approach._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 1,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 63 (6d8+36)
+Fort: +8
+Ref: -3
+Will: -3
+Defensive abilities: split
+Immune: electricity, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), slashing and piercing damage
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Constrict: 2d4+3 plus 1d4 acid
+Melee: slam +5 (2d4+3 plus 1d4 acid and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 14, Dex 1, Con 22, Int -, Wis 1, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 12 (can't be tripped)
+Skills: Climb +10
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 63 (6d8+36)
-
-**Fort:** +8
-
-**Ref:** -3
-
-**Will:** -3
-
-**Defensive abilities:** split
-
-**Immune:** electricity, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), slashing and
-piercing damage
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Constrict:** 2d4+3 plus 1d4 acid
-
-**Melee:** slam +5 (2d4+3 plus 1d4 acid and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 1, Con 22, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Skills:** Climb +10
-
-**Ecology**
-
-**Environment:** temperate underground or marshes
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate underground or marshes
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

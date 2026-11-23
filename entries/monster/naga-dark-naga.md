@@ -28,99 +28,73 @@ abilities = ["14", "21", "18", "16", "15", "17"]
 
 _A sharp-featured humanoid head crowns the powerful, sinuous body of this snake-like monstrosity._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +5
+Size: large
+Alignment: Lawful evil
+Perception: +19
+Senses: Darkvision 60 ft., Detect thoughts
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 16
+AC modifiers: +5 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +10
+Will: +9 (+11 vs. charm effects)
+Defensive abilities: guarded thoughts
+Immune: poison
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft.
+Melee: bite +8 (1d4+2), sting +8 (2d4+2 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spells Known"
+Caster level: 7
+3rd-level spells: 5/day: displacement, lightning bolt (DC 16)
+2nd-level spells: 7/day: cat's grace, invisibility, scorching ray
+1st-level spells: 7/day: expeditious retreat, magic missile, ray of enfeeblement (DC 14), shield, silent image
+Cantrips: At will: daze, detect magic, light, mage hand, open/close, ray of frost, read magic
+:::
 
-**Senses:** Darkvision 60 ft., Detect thoughts
+### Statistics
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +9 (+11 vs. charm effects)
-
-**Defensive abilities:** guarded thoughts
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +8 (1d4+2), sting +8 (2d4+2 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 7
-
-**3rd-level spells:**
-
-- 5/day: displacement, lightning bolt (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: cat's grace, invisibility, scorching ray
-
-**1st-level spells:**
-
-- 7/day: expeditious retreat, magic missile, ray of enfeeblement (DC 14), shield, silent image
-
-**Cantrips:**
-
-- At will: daze, detect magic, light, mage hand, open/close, ray of frost, read magic
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 18, Int 16, Wis 15, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Alertness, Combat Casting, Dodge, Eschew Materials^B^, Lightning Reflexes, Stealthy
-
-**Skills:** Bluff +13, Diplomacy +9, Disguise +9, Sense Motive +10, Spellcraft +12, Stealth +18
-
-**Languages:** Common, Infernal
+::: statblock
+Ability scores: Str 14, Dex 21, Con 18, Int 16, Wis 15, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Alertness, Combat Casting, Dodge, Eschew Materials^B^, Lightning Reflexes, Stealthy
+Skills: Bluff +13, Diplomacy +9, Disguise +9, Sense Motive +10, Spellcraft +12, Stealth +18
+Languages: Common, Infernal
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground
-
-**Organization:** solitary or nest (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or nest (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

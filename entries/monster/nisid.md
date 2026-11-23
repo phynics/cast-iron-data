@@ -31,91 +31,69 @@ abilities = ["9", "16", "15", "13", "16", "18"]
 _This small, naked creature looks like a lithe halfling, but with long, tapered ears and tough,
 brown skin. His hair is unkempt and his flesh is weathered, but his large eyes glitter violet._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic good
+Type: fey
+Initiative: +3
+Perception: +14
+Senses: Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 size
+Hit points: 33 (6d6+12)
+Fort: +4
+Ref: +8
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: dagger +7 (1d3-1/19-20) or spear +3 (1d6-1/×3)
+Ranged: longbow +7 (1d6/×3) or spear +7 (1d6-1/×3)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+At will: charm animal (DC 15), create water, endure elements
+Per day: 3/day: detect thoughts (DC 16), entangle (DC 15), invisibility, self only\
+1/day: call lightning (DC 17), confusion (DC 18), gust of wind (DC 16), hallucinatory terrain (DC 18)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 9, Dex 16, Con 15, Int 13, Wis 16, Cha 18
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Alertness, Self-Sufficient, Weapon Finesse
+Skills: Bluff +13, Climb +8, Knowledge (geography, nature) +7, Perception +14
+Racial Modifiers: +4 Survival
+Languages: Common, Sylvan
+Special qualities: island bond, isolation, never come back
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 33 (6d6+12)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +7 (1d3-1/19-20) or spear +3 (1d6-1/×3)
-
-**Ranged:** longbow +7 (1d6/×3) or spear +7 (1d6-1/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**At will:**
-
-- charm animal (DC 15), create water, endure elements
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 16), entangle (DC 15), invisibility, self only
-- 1/day: call lightning (DC 17), confusion (DC 18), gust of wind (DC 16), hallucinatory terrain (DC
-  18)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 16, Con 15, Int 13, Wis 16, Cha 18
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Alertness, Self-Sufficient, Weapon Finesse
-
-**Skills:** Bluff +13, Climb +8, Knowledge (geography, nature) +7, Perception +14
-
-**Racial Modifiers:** +4 Survival
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** island bond, isolation, never come back
-
-**Ecology**
-
-**Environment:** any island
-
-**Organization:** solitary
-
-**Treasure:** Double (dagger, spear, lb20); other treasure
+::: statblock
+Environment: any island
+Organization: solitary
+Treasure: Double (dagger, spear, lb20); other treasure
+:::
 
 ### Special Abilities
 

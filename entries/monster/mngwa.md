@@ -30,102 +30,74 @@ abilities = ["24", "18", "18", "3", "13", "11"]
 
 _This jungle cat has a dark coat of striped fur, glossy black teeth and claws, and a black mane._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Type: Magical beast
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 16
+AC modifiers: +4 Dex, +7 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +10
+Will: +6
+Dr: 10/magic
+Immune: disease, poison
+Weaknesses: sunlight powerlessness (affected by daylight)
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft.
+Melee: bite +15 (2d6+7 plus [grab](ref/umr/grab)), 2 claws +16 (1d8+7 plus 1d6 bleed and grab)
+Pounce: present
+Rake: 2 claws +16, 1d8+7 plus 1d6 bleed
+Reach: 5
+Space: 10
+Spec Att: murderous claws
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +9
+Constant: feather step
+At will: chameleon stride, pass without trace
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 24, Dex 18, Con 18, Int 3, Wis 13, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Skill Focus (Stealth), Weapon Focus (claw)
+Skills: Acrobatics +14, Climb +11
+Racial Modifiers: +4 Perception, +4 Stealth (+12 in forest terrain)
+Languages: Aklo (can't speak)
+Special qualities: creature of the night, focus of hate, jungle stealth
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +7 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Immune:** disease, poison
-
-**Weaknesses:** sunlight powerlessness (affected by daylight)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +15 (2d6+7 plus [grab](ref/umr/grab)), 2 claws +16 (1d8+7 plus 1d6 bleed and grab)
-
-**Pounce:** present
-
-**Rake:** 2 claws +16, 1d8+7 plus 1d6 bleed
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** murderous claws
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +9
-
-**Constant:**
-
-- feather step
-
-**At will:**
-
-- chameleon stride, pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 18, Con 18, Int 3, Wis 13, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Skill Focus (Stealth), Weapon Focus
-(claw)
-
-**Skills:** Acrobatics +14, Climb +11
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+12 in forest terrain)
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** creature of the night, focus of hate, jungle stealth
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

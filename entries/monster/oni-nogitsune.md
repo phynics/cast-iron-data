@@ -33,104 +33,73 @@ _This fox-headed humanoid has a sleek, feminine form that moves with seductive g
 into a defensive posture, a mass of bushy tails flicks at the air above her back and she reveals
 teeth flecked with blood._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Subtype: Kitsune, Native, Oni, Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 18
+Flat-footed: 13
+AC modifiers: +7 Dex, +1 dodge, +3 natural
+Hit points: 80 (7d10+42)
+Fort: +8
+Ref: +12
+Will: +8
+Evasion: present
+Regen: 5 (acid or fire)
+Sr: 18
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Melee: bite +14 (1d6+4), 2 claws +14 (1d4+2 plus poison)
+Ranged: mwk dart +15/+10 (1d4+4 plus poison)
+Sneak: +3d6
+Spec Att: contagious whisper
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Constant: detect thoughts (DC 16)
+At will: feather fall, jump, obscuring mist
+Per day: 1/day: displacement, haste, shadow walk
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Kitsune, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 25, Con 22, Int 17, Wis 16, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 29
+Feats: Dodge, Mobility, Spring Attack, Weapon Finesse
+Skills: Acrobatics +17 (+25 jump), Appraise +5, Bluff +14, Climb +16
+Languages: Common, Draconic, Giant, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid or animal; [alter self](ref/spell/alter-self) or [beast shape I](ref/spell/beast-shape-1)), fleet distraction, poison use
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +7 Dex, +1 dodge, +3 natural
-
-**Hit points:** 80 (7d10+42)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +8
-
-**Evasion:** present
-
-**Regen:** 5 (acid or fire)
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Melee:** bite +14 (1d6+4), 2 claws +14 (1d4+2 plus poison)
-
-**Ranged:** mwk dart +15/+10 (1d4+4 plus poison)
-
-**Sneak:** +3d6
-
-**Spec Att:** contagious whisper
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect thoughts (DC 16)
-
-**At will:**
-
-- feather fall, jump, obscuring mist
-
-**Per day:**
-
-- 1/day: displacement, haste, shadow walk
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 22, Int 17, Wis 16, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 29
-
-**Feats:** Dodge, Mobility, Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +17 (+25 jump), Appraise +5, Bluff +14, Climb +16
-
-**Languages:** Common, Draconic, Giant, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid or animal;
-[alter self](ref/spell/alter-self) or [beast shape I](ref/spell/beast-shape-1)), fleet distraction,
-poison use
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** Double (4 mwk dart); [blue whinnis](ref/eq-poison/blue-whinnis) poison \[5 doses\],
-other treasure
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: Double (4 mwk dart); [blue whinnis](ref/eq-poison/blue-whinnis) poison \[5 doses\], other treasure
+:::
 
 ### Special Abilities
 

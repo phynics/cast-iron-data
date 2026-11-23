@@ -31,81 +31,63 @@ abilities = ["15", "11", "15", "8", "10", "10"]
 _Built of fire and magma, this short humanoid radiates intense heat that causes the air around it to
 shimmer._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: searing aura (20 ft., DC 14)
+Alignment: Chaotic neutral
+Initiative: +0
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Elemental, Extraplanar, Fire
+Experience points: 800
+:::
 
-**aura:** searing aura (20 ft., DC 14)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 17
+AC modifiers: +6 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +4
+Will: +3
+Dr: 5/magic
+Immune: elemental traits, fire
+Vulner: cold
+:::
 
-**Initiative:** +0
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Burn: 1d6, DC 14
+Melee: melee touch +7 (1 fire plus burn) or slam +7 (1d6+3 plus 1 fire and burn)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 11, Con 15, Int 8, Wis 10, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Iron Will, Power Attack
+Skills: Acrobatics +7, Climb +9, Perception +7, Sense Motive +7, Stealth +11
+Languages: Ignan
+Special qualities: heated flesh
+:::
 
-**Size:** small
+### Ecology
 
-**Subtype:** Elemental, Extraplanar, Fire
-
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +3
-
-**Dr:** 5/magic
-
-**Immune:** elemental traits, fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Burn:** 1d6, DC 14
-
-**Melee:** melee touch +7 (1 fire plus burn) or slam +7 (1d6+3 plus 1 fire and burn)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 11, Con 15, Int 8, Wis 10, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Iron Will, Power Attack
-
-**Skills:** Acrobatics +7, Climb +9, Perception +7, Sense Motive +7, Stealth +11
-
-**Languages:** Ignan
-
-**Special qualities:** heated flesh
-
-**Ecology**
-
-**Environment:** any land ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary or gang (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary or gang (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

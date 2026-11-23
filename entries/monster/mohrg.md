@@ -33,72 +33,58 @@ abilities = ["21", "19", "-", "11", "10", "14"]
 _A thick tangle of discolored entrails clings to this lurching skeleton's torso and winds upward to
 loll from its jaw like a clawed tongue._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +23
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +8 natural
+Hit points: 91 (14d8+28)
+Fort: +6
+Ref: +10
+Will: +9
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +23
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +15 (2d8+5 plus [grab](ref/umr/grab)), tongue +10 melee touch (paralysis)
+Paralysis: 1d4 minutes, DC 21
+Spec Att: create spawn
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 19, Con -, Int 11, Wis 10, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 30
+Feats: Ability Focus (paralysis), Dodge, Improved Initiative, Lightning Reflexes, Mobility, Skill Focus (Perception), Spring Attack
+Skills: Climb +22
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural
-
-**Hit points:** 91 (14d8+28)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +9
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +15 (2d8+5 plus [grab](ref/umr/grab)), tongue +10 melee touch (paralysis)
-
-**Paralysis:** 1d4 minutes, DC 21
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 19, Con -, Int 11, Wis 10, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 30
-
-**Feats:** Ability Focus (paralysis), Dodge, Improved Initiative, Lightning Reflexes, Mobility,
-Skill Focus (Perception), Spring Attack
-
-**Skills:** Climb +22
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, gang (2-4), or mob (2-4 plus 4-12 [zombies](ref/template/zombie))
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, gang (2-4), or mob (2-4 plus 4-12 [zombies](ref/template/zombie))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

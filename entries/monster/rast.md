@@ -31,77 +31,61 @@ abilities = ["14", "12", "17", "3", "13", "12"]
 _This bulbous creature consists of many tangled legs, a bulging body of puffed flesh, and a mouth
 filled with sharp fangs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Fire
+Experience points: 1,600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +7 natural
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +6
+Will: +3
+Immune: fire
+Vulner: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., fly 60 ft. (good)
+B Drain: 1d2 Constitution
+Melee: bite +8 (1d6+2 plus [grab](ref/umr/grab)), 4 claws +9 (1d4+2)
+Spec Att: paralyzing gaze
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 12, Con 17, Int 3, Wis 13, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Flyby Attack, Improved Initiative, Weapon Focus (claw)
+Skills: Fly +5, Perception +10, Stealth +10
+Languages: Ignan (can't speak)
+:::
 
-**Subtype:** Extraplanar, Fire
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +7 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +8 (1d6+2 plus [grab](ref/umr/grab)), 4 claws +9 (1d4+2)
-
-**Spec Att:** paralyzing gaze
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 12, Con 17, Int 3, Wis 13, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Flyby Attack, Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Fly +5, Perception +10, Stealth +10
-
-**Languages:** Ignan (can't speak)
-
-**Ecology**
-
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, cluster (3-6), or pack (7-15)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, cluster (3-6), or pack (7-15)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,113 +32,77 @@ abilities = ["28", "16", "26", "13", "16", "20"]
 _Animate, rusting chains simultaneously bind and lash out from this gigantic, skinless, wolf-like
 monstrosity._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: chainstorm (15 ft., DC 25)
+blindsight: 60
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 51,200
+:::
 
-**aura:** chainstorm (15 ft., DC 25)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 29
+AC modifiers: +3 Dex, +1 dodge, +20 natural, -1 size
+Hit points: 202 (15d10+120)
+Fort: +17
+Ref: +12
+Will: +8
+Defensive abilities: exaction
+Dr: 15/good
+Immune: cold, critical hits, sneak attacks
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 50 ft. (good)
+Melee: bite +24 (6d6+9 plus [trip](ref/umr/trip) and vicious critical), 2 tentacles +18 (3d6+4 plus vicious critical)
+Reach: 10
+Reach P: 15 ft. with tentacle
+Space: 10
+Spec Att: howl of despair, unnerving gaze (30 ft., DC 22), vicious critical
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Constant: pass without trace
+At will: death knell (DC 17), deeper darkness, desecrate, shadow walk
+Per day: 3/day: bestow curse (DC 18), blindness/deafness (DC 18), crushing despair (DC 19), eyebite (DC 21), greater invisibility, greater shadow conjuration (DC 22), find the path, plane shift (DC 20), symbol of pain (DC 20)\
+1/day: blasphemy (DC 22), slay living (DC 20), unhallow
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +21
+::: statblock
+Ability scores: Str 28, Dex 16, Con 26, Int 13, Wis 16, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +25 (+27 overrun, +27 sunder)
+Combat maneuver defense: 39 (41 vs. overrun, 41 vs. sunder, 43 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Improved Overrun, Improved Sunder, Power Attack, Run, Weapon Focus (bite)
+Skills: Acrobatics +21, Climb +17, Fly +5, Intimidate +23, Knowledge (planes) +19, Knowledge (religion) +11, Perception +21
+Racial Modifiers: +8 Survival when following tracks
+Languages: Auran, Common, Infernal, Sylvan
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
-
-**Experience points:** 51,200
-
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 29
-
-**AC modifiers:** +3 Dex, +1 dodge, +20 natural, -1 size
-
-**Hit points:** 202 (15d10+120)
-
-**Fort:** +17
-
-**Ref:** +12
-
-**Will:** +8
-
-**Defensive abilities:** exaction
-
-**Dr:** 15/good
-
-**Immune:** cold, critical hits, sneak attacks
-
-**Offense**
-
-**Speed:** 40 ft., fly 50 ft. (good)
-
-**Melee:** bite +24 (6d6+9 plus [trip](ref/umr/trip) and vicious critical), 2 tentacles +18 (3d6+4
-plus vicious critical)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tentacle
-
-**Space:** 10
-
-**Spec Att:** howl of despair, unnerving gaze (30 ft., DC 22), vicious critical
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- death knell (DC 17), deeper darkness, desecrate, shadow walk
-
-**Per day:**
-
-- 3/day: bestow curse (DC 18), blindness/deafness (DC 18), crushing despair (DC 19), eyebite (DC
-  21), greater invisibility, greater shadow conjuration (DC 22), find the path, plane shift (DC 20),
-  symbol of pain (DC 20)
-- 1/day: blasphemy (DC 22), slay living (DC 20), unhallow
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 16, Con 26, Int 13, Wis 16, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25 (+27 overrun, +27 sunder)
-
-**Combat maneuver defense:** 39 (41 vs. overrun, 41 vs. sunder, 43 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Improved Overrun, Improved Sunder, Power
-Attack, Run, Weapon Focus (bite)
-
-**Skills:** Acrobatics +21, Climb +17, Fly +5, Intimidate +23, Knowledge (planes) +19, Knowledge
-(religion) +11, Perception +21
-
-**Racial Modifiers:** +8 Survival when following tracks
-
-**Languages:** Auran, Common, Infernal, Sylvan
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

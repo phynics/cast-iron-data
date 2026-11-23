@@ -34,121 +34,80 @@ abilities = ["29", "21", "24", "20", "25", "24"]
 _Colors dance over this serpentine creature's scales. A strange crown of energy glows above the
 thing's reptilian head._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: spatial riptide (30 ft.)
+blindsense: 60
+Alignment: Chaotic neutral
+Initiative: +5
+Size: large
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 102,400
+:::
 
-**aura:** spatial riptide (30 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +5 Dex, +18 natural, -1 size
+Hit points: 287 (23d10+161)
+Fort: +22
+Ref: +14
+Will: +22
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/lawful
+Fh: 10
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 28
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 40 ft. (perfect)
+Constrict: present
+Melee: bite +31 (4d8+9 plus warpwave), 2 claws +31 (2d6+9 plus warpwave), tail slap +29 (2d8+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: 1d8+9, reshape reality
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+Constant: detect law, tongues
+At will: chaos hammer (DC 21), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, major creation, move earth, shatter (DC 19)
+Per day: 3/day: quickened confusion (DC 21), dispel law (DC 22), empowered chaos hammer (DC 21), polymorph any object (DC 25)\
+1/day: disintegrate (DC 23), prismatic spray (DC 24), prismatic sphere (DC 26), reshape reality
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +33
+::: statblock
+Ability scores: Str 29, Dex 21, Con 24, Int 20, Wis 25, Cha 24
+Base attack bonus: +23
+Combat maneuver bonus: +33 (+35 bull rush, +37 grapple)
+Combat maneuver defense: 48 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Empower [Spell-like Ability](ref/umr/spell-like-abilities) (chaos hammer), Great Fortitude, Improved Bull Rush, Improved Vital Strike, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Quicken Spell-like Ability (confusion), Vital Strike
+Skills: Acrobatics +31, Bluff +33, Diplomacy +33, Fly +11
+Languages: Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
-
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +18 natural, -1 size
-
-**Hit points:** 287 (23d10+161)
-
-**Fort:** +22
-
-**Ref:** +14
-
-**Will:** +22
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/lawful
-
-**Fh:** 10
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 40 ft. (perfect)
-
-**Constrict:** present
-
-**Melee:** bite +31 (4d8+9 plus warpwave), 2 claws +31 (2d6+9 plus warpwave), tail slap +29 (2d8+4
-plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** 1d8+9, reshape reality
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**Constant:**
-
-- detect law, tongues
-
-**At will:**
-
-- chaos hammer (DC 21), greater dispel magic, greater teleport, self plus 50 lbs. of objects only,
-  major creation, move earth, shatter (DC 19)
-
-**Per day:**
-
-- 3/day: quickened confusion (DC 21), dispel law (DC 22), empowered chaos hammer (DC 21), polymorph
-  any object (DC 25)
-- 1/day: disintegrate (DC 23), prismatic spray (DC 24), prismatic sphere (DC 26), reshape reality
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 21, Con 24, Int 20, Wis 25, Cha 24
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +33 (+35 bull rush, +37 grapple)
-
-**Combat maneuver defense:** 48 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Empower
-[Spell-like Ability](ref/umr/spell-like-abilities) (chaos hammer), Great Fortitude, Improved Bull
-Rush, Improved Vital Strike, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Quicken
-Spell-like Ability (confusion), Vital Strike
-
-**Skills:** Acrobatics +31, Bluff +33, Diplomacy +33, Fly +11
-
-**Languages:** Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Limbo](ref/rule/limbo))
-
-**Organization:** solitary or chorus (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Limbo](ref/rule/limbo))
+Organization: solitary or chorus (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

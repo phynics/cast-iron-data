@@ -29,63 +29,54 @@ abilities = ["5", "10", "15", "-", "11", "1"]
 _This tangle of purple-capped mushrooms growing out of a nasty green sludge shudders and writhes,
 wafting tendrils of smoke._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Type: plant
+Size: small
+tremorsense: 30
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 17
+AC modifiers: +6 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +2
+Will: +2
+Immune: acid, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Type:** plant
+::: statblock
+Speed: 10 ft.
+Ranged: acid pellet +5 touch (2d6 acid plus spores)
+:::
 
-**Size:** small
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 5, Dex 10, Con 15, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +0
+Combat maneuver defense: 10 (can't be tripped)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Ranged:** acid pellet +5 touch (2d6 acid plus spores)
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 10, Con 15, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 10 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or infestation (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary or infestation (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

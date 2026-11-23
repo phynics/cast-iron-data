@@ -30,103 +30,75 @@ abilities = ["32", "9", "28", "5", "20", "19"]
 _This enormous, spider-like creature has three clawed tails and eight legs connected by leathery
 webs of flesh._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+blindsight: 30
+Alignment: Chaotic evil
+Size: huge
+Initiative: +3
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 38,400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: -1 Dex, +22 natural, -2 size
+Hit points: 203 (14d10+126)
+Fort: +18
+Ref: +10
+Will: +9
+Dr: 10/lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 50 ft., climb 50 ft., fly 50 ft. (average)
+Melee: bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)
+Reach: 15
+Reach P: 30 ft. with claws
+Space: 15
+Spec Att: horrific appearance (DC 21)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: true seeing
+Per day: 3/day: dimension door, protection from law\
+1/day: waves of exhaustion
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
+::: statblock
+Ability scores: Str 32, Dex 9, Con 28, Int 5, Wis 20, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +27
+Combat maneuver defense: 36 (44 vs. trip)
+Feats: Flyby Attack, Hover, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +19, Perception +22, Stealth +24
+Racial Modifiers: +16 Stealth
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** -1 Dex, +22 natural, -2 size
-
-**Hit points:** 203 (14d10+126)
-
-**Fort:** +18
-
-**Ref:** +10
-
-**Will:** +9
-
-**Dr:** 10/lawful
-
-**Immune:** cold, poison, mind-affecting effects
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft., fly 50 ft. (average)
-
-**Melee:** bite +23 (2d6+11 plus 1d8 bleed and rotting curse), 3 claws +23 (1d8+11 plus 1d8 bleed)
-
-**Reach:** 15
-
-**Reach P:** 30 ft. with claws
-
-**Space:** 15
-
-**Spec Att:** horrific appearance (DC 21)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- true seeing
-
-**Per day:**
-
-- 3/day: dimension door, protection from law
-- 1/day: waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con 28, Int 5, Wis 20, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 36 (44 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Improved Initiative, Improved Vital Strike, Lightning Reflexes,
-Power Attack, Vital Strike
-
-**Skills:** Climb +19, Perception +22, Stealth +24
-
-**Racial Modifiers:** +16 Stealth
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

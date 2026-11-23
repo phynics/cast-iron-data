@@ -31,109 +31,76 @@ abilities = ["22", "25", "22", "21", "18", "21"]
 _This crocodile-jawed creature has two talon-tipped hands and luminescent tentacles extending from
 its back._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 25,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 28
+Touch: 18
+Flat-footed: 20
+AC modifiers: +7 Dex, +1 dodge, +10 natural
+Hit points: 195 (17d10+102)
+Fort: +13
+Ref: +19
+Will: +16
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Immune: acid, polymorph effects
+Resist: electricity 10, sonic 10
+Sr: 24
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d4+6
+Melee: bite +23 (1d8+6 plus warpwave), 2 claws +23 (1d8+6), tail slap +18 (1d4+3 plus [grab](ref/umr/grab)), 4 tentacles +18 (1d4+3 plus drain)
+Spec Att: draining tentacles, warpwave burst
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: detect law
+At will: greater dispel magic, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: chaos hammer (DC 19)\
+1/day: dispel law (DC 20), dismissal (DC 20), summon (level 5, 2 imenteshes 75%)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect law
+::: statblock
+Ability scores: Str 22, Dex 25, Con 22, Int 21, Wis 18, Cha 21
+Base attack bonus: +17
+Combat maneuver bonus: +23
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility
+Skills: Acrobatics +27, Bluff +25, Diplomacy +25, Fly +35
+Languages: Abyssal, Protean
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +1 dodge, +10 natural
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +13
-
-**Ref:** +19
-
-**Will:** +16
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Immune:** acid, polymorph effects
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d4+6
-
-**Melee:** bite +23 (1d8+6 plus warpwave), 2 claws +23 (1d8+6), tail slap +18 (1d4+3 plus
-[grab](ref/umr/grab)), 4 tentacles +18 (1d4+3 plus drain)
-
-**Spec Att:** draining tentacles, warpwave burst
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- greater dispel magic, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: chaos hammer (DC 19)
-- 1/day: dispel law (DC 20), dismissal (DC 20), summon (level 5, 2 imenteshes 75%)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 25, Con 22, Int 21, Wis 18, Cha 21
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Improved
-Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +27, Bluff +25, Diplomacy +25, Fly +35
-
-**Languages:** Abyssal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or school (3-8 oshageroses)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or school (3-8 oshageroses)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

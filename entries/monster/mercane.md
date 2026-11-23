@@ -31,90 +31,69 @@ abilities = ["15", "14", "16", "20", "17", "15"]
 _The tall, blue-skinned humanoid is clad in loose, flowing robes. Its alien face has too many eyes
 and its hands have too few fingers._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +4 natural, -1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +4
+Will: +8
+Sr: 20
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk Large falchion +8/+3 (2d6+3/18-20)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Per day: 3/day: dimension door, invisibility, self only\
+1/day: plane shift (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 15, Dex 14, Con 16, Int 20, Wis 17, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Combat Casting, Combat Expertise, Dodge
+Skills: Appraise +14, Bluff +11, Diplomacy +8, Profession (merchant) +9, Sense Motive +12, Sleight of Hand +11, Spellcraft +14
+Languages: Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: secret chest
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +4 natural, -1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +8
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk Large falchion +8/+3 (2d6+3/18-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: dimension door, invisibility, self only
-- 1/day: plane shift (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 16, Int 20, Wis 17, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Casting, Combat Expertise, Dodge
-
-**Skills:** Appraise +14, Bluff +11, Diplomacy +8, Profession (merchant) +9, Sense Motive +12,
-Sleight of Hand +11, Spellcraft +14
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100
-ft.
-
-**Special qualities:** secret chest
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or company (1-4 and 3-12 bodyguards of various races)
-
-**Treasure:** Double (L mwk falchion); other treasure
+::: statblock
+Environment: any land or underground
+Organization: solitary or company (1-4 and 3-12 bodyguards of various races)
+Treasure: Double (L mwk falchion); other treasure
+:::
 
 ### Special Abilities
 

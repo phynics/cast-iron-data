@@ -29,71 +29,58 @@ abilities = ["19", "15", "18", "2", "14", "7"]
 _A slightly goofy, bent-nosed face does little to detract from the imposing height and bulk of this
 ungulate._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +6
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +6 (1d8+4), 2 hooves +1 (1d6+2)
+Pow Ch: gore, 2d8+6
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 18, Int 2, Wis 14, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Endurance, Run
+Skills: Perception +9
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +6 (1d8+4), 2 hooves +1 (1d6+2)
-
-**Pow Ch:** gore, 2d8+6
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 18, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Endurance, Run
-
-**Skills:** Perception +9
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

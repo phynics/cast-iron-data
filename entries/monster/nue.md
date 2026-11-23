@@ -30,89 +30,69 @@ abilities = ["22", "21", "20", "7", "17", "10"]
 _Materializing out of a noxious black cloud, this beast has the head of a fanged monkey and the body
 of a tiger with a viper as a tail._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +9
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 18
+AC modifiers: +5 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 126 (12d10+60)
+Fort: +13
+Ref: +13
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+E Drain: 2 levels, DC 16
+Melee: bite +17 (2d6+6 plus energy drain), bite +17 (1d4+6 plus poison), 2 claws +17 (1d6+6)
+Pounce: present
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +12
+Per day: 3/day: contagion (DC 14), hold person (DC 13)\
+1/day: nightmare (DC 15), shout (DC 14), waves of fatigue
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 22, Dex 21, Con 20, Int 7, Wis 17, Cha 10
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Mobility, Skill Focus (Stealth)
+Skills: Climb +13, Perception +10, Stealth +11
+Languages: Common
+Special qualities: cloud form
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 2 levels, DC 16
-
-**Melee:** bite +17 (2d6+6 plus energy drain), bite +17 (1d4+6 plus poison), 2 claws +17 (1d6+6)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +12
-
-**Per day:**
-
-- 3/day: contagion (DC 14), hold person (DC 13)
-- 1/day: nightmare (DC 15), shout (DC 14), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 21, Con 20, Int 7, Wis 17, Cha 10
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Mobility, Skill Focus
-(Stealth)
-
-**Skills:** Climb +13, Perception +10, Stealth +11
-
-**Languages:** Common
-
-**Special qualities:** cloud form
-
-**Ecology**
-
-**Environment:** warm forests or mountains
-
-**Organization:** solitary, pair, or ambush (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests or mountains
+Organization: solitary, pair, or ambush (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

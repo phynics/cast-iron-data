@@ -32,107 +32,77 @@ abilities = ["15", "13", "14", "10", "17", "10"]
 _This majestic tiger has white fur with deep blue stripes. It glows with divine radiance and
 radiates an aura of calm._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: courage (10 ft.)
+Initiative: +5
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Extraplanar, Lawful
+Experience points: 1,200
+:::
 
-**aura:** courage (10 ft.)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 15
+AC modifiers: +1 Dex, +6 natural, -1 size
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +4
+Will: +7
+Dr: 5/chaotic
+Immune: fear
+Sr: 15
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +6 (1d8+2 plus [grab](ref/umr/grab)), 2 claws +7 (1d6+2 plus grab)
+Pounce: present
+Rake: 2 claws +7, 1d6+2
+Reach: 10
+Space: 10
+Spec Att: stunning claw (4/day, DC 15)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+At will: feather fall, self only, guidance, light
+Per day: 3/day: channel vigor, cure light wounds, true strike\
+1/day: bull's strength, dimension door, self plus 50 lbs. of objects only
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 10, Wis 17, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Lightning Reflexes, Weapon Focus (claw)
+Skills: Acrobatics +13 (+17 when jumping), Knowledge (history, religion) +8, Perception +11, Stealth +9 (+13 in tall grass), Swim +10
+Racial Modifiers: +4 Acrobatics (+8 when jumping), +4 Stealth (+8 in tall grass)
+Languages: Celestial, Common, Draconic
+Special qualities: fade
+:::
 
-**Subtype:** Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +6 natural, -1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +7
-
-**Dr:** 5/chaotic
-
-**Immune:** fear
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +6 (1d8+2 plus [grab](ref/umr/grab)), 2 claws +7 (1d6+2 plus grab)
-
-**Pounce:** present
-
-**Rake:** 2 claws +7, 1d6+2
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** stunning claw (4/day, DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**At will:**
-
-- feather fall, self only, guidance, light
-
-**Per day:**
-
-- 3/day: channel vigor, cure light wounds, true strike
-- 1/day: bull's strength, dimension door, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 10, Wis 17, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Weapon Focus (claw)
-
-**Skills:** Acrobatics +13 (+17 when jumping), Knowledge (history, religion) +8, Perception +11,
-Stealth +9 (+13 in tall grass), Swim +10
-
-**Racial Modifiers:** +4 Acrobatics (+8 when jumping), +4 Stealth (+8 in tall grass)
-
-**Languages:** Celestial, Common, Draconic
-
-**Special qualities:** fade
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or pride (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or pride (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

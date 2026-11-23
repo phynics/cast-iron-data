@@ -30,72 +30,54 @@ abilities = ["20", "14", "19", "2", "9", "11"]
 _Thorny vines encircle this tropical tree's thick, spongy trunk, and jungle debris lies strewn about
 its base._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Type: plant
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 18
+AC modifiers: +2 Dex, +10 natural, -2 size
+Hit points: 76 (9d8+36)
+Fort: +10
+Ref: +7
+Will: +2
+Dr: 5/slashing
+Immune: bludgeoning weapons, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: 1d8+5
+Melee: 4 vines +10 (1d8+5 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: hypnotic display, uproot
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
-
-**Type:** plant
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +10 natural, -2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +2
-
-**Dr:** 5/slashing
-
-**Immune:** bludgeoning weapons, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d8+5
-
-**Melee:** 4 vines +10 (1d8+5 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** hypnotic display, uproot
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con 19, Int 2, Wis 9, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus
-(vines)
-
-**Skills:** Perception +11
+::: statblock
+Ability scores: Str 20, Dex 14, Con 19, Int 2, Wis 9, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 25
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack, Weapon Focus (vines)
+Skills: Perception +11
+:::
 
 ### Special Abilities
 

@@ -34,106 +34,74 @@ abilities = ["23", "22", "22", "17", "17", "22"]
 _This brawny, sallow-skinned figure is muscular but lean, with bat-like wings and a single hideous
 eye in its noseless face._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 25), [stench](ref/umr/stench) (DC 25, 1d6 minutes)
+blindsense: 60
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 25), [stench](ref/umr/stench)
-(DC 25, 1d6 minutes)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 22
+AC modifiers: +6 Dex, +1 dodge, +12 natural
+Hit points: 225 (18d10+126)
+Fort: +12
+Ref: +17
+Will: +14
+Defensive abilities: harvester of sorrow
+Dr: 10/magic
+Fh: 10 (see harvester of sorrow)
+Immune: disease, nausea, poison, sickened, stunning
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 80 ft. (average)
+Melee: bite +25 (2d6+6 plus 1d4 Cha drain), 2 talons +25 (1d6+6 plus [grab](ref/umr/grab) and popobala fever), 2 wings +20 (1d6+3)
+Rend: 2 talons, 2d6+9
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+At will: clairaudience/clairvoyance, ghost sound (DC 16), ventriloquism (DC 17)
+Per day: 3/day: dominate person (DC 21, can only dominate and control one person at a time), eyebite (DC 22), feeblemind (DC 21), spell turning, suggestion (DC 19), telekinesis (DC 21)\
+1/day: animate objects
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +24
+::: statblock
+Ability scores: Str 23, Dex 22, Con 22, Int 17, Wis 17, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 41
+Feats: Dodge, Flyby Attack, Improved Initiative, Mobility, Power Attack, Skill Focus (Intimidate), Toughness, Weapon Focus (bite), Weapon Focus (talons)
+Skills: Acrobatics +15, Bluff +24, Climb +14, Disguise +15, Perform (act) +15, Sense Motive +12, Stealth +27
+Languages: Common
+Special qualities: horrid haunting, [change shape](ref/umr/change-shape) (bat, dire bat, or humanoid; [polymorph](ref/spell/polymorph))
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Shapechanger
-
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural
-
-**Hit points:** 225 (18d10+126)
-
-**Fort:** +12
-
-**Ref:** +17
-
-**Will:** +14
-
-**Defensive abilities:** harvester of sorrow
-
-**Dr:** 10/magic
-
-**Fh:** 10 (see harvester of sorrow)
-
-**Immune:** disease, nausea, poison, sickened, stunning
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 80 ft. (average)
-
-**Melee:** bite +25 (2d6+6 plus 1d4 Cha drain), 2 talons +25 (1d6+6 plus [grab](ref/umr/grab) and
-popobala fever), 2 wings +20 (1d6+3)
-
-**Rend:** 2 talons, 2d6+9
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**At will:**
-
-- clairaudience/clairvoyance, ghost sound (DC 16), ventriloquism (DC 17)
-
-**Per day:**
-
-- 3/day: dominate person (DC 21, can only dominate and control one person at a time), eyebite (DC
-  22), feeblemind (DC 21), spell turning, suggestion (DC 19), telekinesis (DC 21)
-- 1/day: animate objects
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 22, Con 22, Int 17, Wis 17, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 41
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Mobility, Power Attack, Skill Focus
-(Intimidate), Toughness, Weapon Focus (bite), Weapon Focus (talons)
-
-**Skills:** Acrobatics +15, Bluff +24, Climb +14, Disguise +15, Perform (act) +15, Sense Motive +12,
-Stealth +27
-
-**Languages:** Common
-
-**Special qualities:** horrid haunting, [change shape](ref/umr/change-shape) (bat, dire bat, or
-humanoid; [polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** warm coasts or forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm coasts or forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

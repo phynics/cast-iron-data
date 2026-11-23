@@ -29,85 +29,60 @@ special_qualities = "weapon familiarity"
 abilities = ["17", "8", "12", "8", "13", "12"]
 +++
 
-**Challenge rating:** 2
-
 **Orc [cleric](ref/class/cleric) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: +6 armor, -1 Dex
+Hit points: 20 (3d8+3)
+Fort: +5
+Ref: +1
+Will: +5
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft.
+Ch N En: 4/day, DC 12, 2d6
+Melee: battleaxe +5 (1d8+3/×3)
+Ranged: javelin +1 (1d6+3)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Per day: 4/day: copycat, 3 rounds, touch of evil, 1 rounds
+:::
 
-**Subtype:** Orc
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 armor, -1 Dex
-
-**Hit points:** 20 (3d8+3)
-
-**Fort:** +5
-
-**Ref:** +1
-
-**Will:** +5
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 4/day, DC 12, 2d6
-
-**Melee:** battleaxe +5 (1d8+3/×3)
-
-**Ranged:** javelin +1 (1d6+3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Per day:**
-
-- 4/day: copycat, 3 rounds, touch of evil, 1 rounds
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**2nd-level spells:**
-
-- bull's strength, invisibility^D^
-
-**1st-level spells:**
-
-- bane (DC 12), magic weapon, murderous command (DC 12), protection from good^D^
-
-**Cantrips:**
-
-- bleed (DC 11), detect magic, guidance, read magic
-
-**Domains:** Evil, Trickery
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +4
+2nd-level spells: bull's strength, invisibility^D^
+1st-level spells: bane (DC 12), magic weapon, murderous command (DC 12), protection from good^D^
+Cantrips: bleed (DC 11), detect magic, guidance, read magic
+Domains: Evil, Trickery
+:::
 
 ###### D {#footnote-d}
 
@@ -122,31 +97,26 @@ weapon.
 position while his allies battle the enemy. He typically casts bane first, followed by murderous
 command, targeting whichever opponent looks the strongest.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 17, Dex 8, Con 12, Int 8, Wis 13, Cha 12
+::: statblock
+Ability scores: Str 17, Dex 8, Con 12, Int 8, Wis 13, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 14
+Feats: Combat Casting, Skill Focus (Stealth)
+Skills: Knowledge (religion) +4, Perception +2, Stealth +4
+Languages: Common, Orc
+Special qualities: weapon familiarity
+Combat gear: scroll of sound burst, scroll of summon monster II
+Other gear: breastplate, battleaxe, 4 javelins, Iclk1, wooden holy symbol, 135 gp
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 14
-
-**Feats:** Combat Casting, Skill Focus (Stealth)
-
-**Skills:** Knowledge (religion) +4, Perception +2, Stealth +4
-
-**Languages:** Common, Orc
-
-**Special qualities:** weapon familiarity
-
-**Combat gear:** scroll of sound burst, scroll of summon monster II
-
-**Other gear:** breastplate, battleaxe, 4 javelins, Iclk1, wooden holy symbol, 135 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

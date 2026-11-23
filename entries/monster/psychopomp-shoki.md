@@ -34,101 +34,72 @@ abilities = ["24", "19", "22", "18", "21", "17"]
 _A wooden staff topped with a silver cage containing a ghostly face keeps this grizzled,
 snail-backed creature upright._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect magic, Low-light vision, Spirit-sense
+Subtype: Extraplanar, Psychopomp
+Experience points: 6,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +4 Dex, +1 dodge, +10 natural
+Hit points: 115 (10d10+60)
+Fort: +9
+Ref: +11
+Will: +14
+Dr: 10/adamantine
+Immune: acid, charm, cold, death effects, disease, fear, poison, sleep
+Resist: electricity 10
+Sr: 20
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +2 cold iron quarterstaff +19/+14 (1d6+12)
+Spec Att: soul lock
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Constant: detect chaos, detect evil, detect good, detect law, detect magic
+At will: etherealness, invisibility, self only, mass cure moderate wounds (DC 19, harm undead only), protection from evil, protection from good, searing light
+Per day: 1/day: plane shift, self only
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect magic,
-Low-light vision, Spirit-sense
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 24, Dex 19, Con 22, Int 18, Wis 21, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 32
+Feats: Alertness, Combat Casting, Dodge, Iron Will, Persuasive
+Skills: Bluff +16, Diplomacy +20, Sense Motive +22, Spellcraft +17, Stealth +17
+Languages: Abyssal, Celestial, Common, Infernal
+Special qualities: spirit touch
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +1 dodge, +10 natural
-
-**Hit points:** 115 (10d10+60)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +14
-
-**Dr:** 10/adamantine
-
-**Immune:** acid, charm, cold, death effects, disease, fear, poison, sleep
-
-**Resist:** electricity 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 cold iron quarterstaff +19/+14 (1d6+12)
-
-**Spec Att:** soul lock
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law, detect magic
-
-**At will:**
-
-- etherealness, invisibility, self only, mass cure moderate wounds (DC 19, harm undead only),
-  protection from evil, protection from good, searing light
-
-**Per day:**
-
-- 1/day: plane shift, self only
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con 22, Int 18, Wis 21, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 32
-
-**Feats:** Alertness, Combat Casting, Dodge, Iron Will, Persuasive
-
-**Skills:** Bluff +16, Diplomacy +20, Sense Motive +22, Spellcraft +17, Stealth +17
-
-**Languages:** Abyssal, Celestial, Common, Infernal
-
-**Special qualities:** spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Double (+2 MC quarterstaff); other treasure
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Double (+2 MC quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

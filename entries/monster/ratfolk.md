@@ -32,78 +32,62 @@ abilities = ["6", "15", "11", "14", "10", "9"]
 _This small, rat-like humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery
 tail._
 
-**Challenge rating:** 1/3
-
 **Ratfolk [expert](ref/npcclass/expert) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: +2
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Ratfolk
+Experience points: 135
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 size
+Hit points: 4 (1d8)
+Fort: +0
+Ref: +2
+Will: +2
+:::
 
-**Perception:** +9
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Melee: dagger -1 (1d3-2/19-20)
+Ranged: light crossbow +3 (1d6/19-20)
+Spec Att: swarming
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Ratfolk
+::: statblock
+Ability scores: Str 6, Dex 15, Con 11, Int 14, Wis 10, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 9
+Feats: Skill Focus (Perception)
+Skills: Appraise +6, Craft (alchemy) +8, Diplomacy +3, Perception +9, Use Magic Device +5
+Racial Modifiers: +2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2 Use Magic Device
+Languages: Common
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** dagger -1 (1d3-2/19-20)
-
-**Ranged:** light crossbow +3 (1d6/19-20)
-
-**Spec Att:** swarming
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 11, Int 14, Wis 10, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 9
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Appraise +6, Craft (alchemy) +8, Diplomacy +3, Perception +9, Use Magic Device +5
-
-**Racial Modifiers:** +2 Craft (alchemy), +4 Handle Animal to influence rodents, +2 Perception, +2
-Use Magic Device
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** warm deserts or urban
-
-**Organization:** solitary, pair, pack (3-12), or colony (13-100)
-
-**Treasure:** NPC gear (leather armor, light crossbow with 20 bolts, dagger); other treasure
+::: statblock
+Environment: warm deserts or urban
+Organization: solitary, pair, pack (3-12), or colony (13-100)
+Treasure: NPC gear (leather armor, light crossbow with 20 bolts, dagger); other treasure
+:::
 
 ### Special Abilities
 

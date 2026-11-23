@@ -30,96 +30,68 @@ abilities = ["17", "14", "18", "12", "12", "8"]
 _The cold eyes of this minotaur are without fear or emotion. An arsenal of devices rattle from its
 belt, not the least of which is its mechanical monstrosity of a crossbow._
 
-**Challenge rating:** 10
-
 **Minotaur [rogue](ref/class/rogue) ([trapsmith](ref/arc-rogue/trapsmith)) 8**
 
-**Initiative:** +6
+::: statblock
+Challenge rating: 10
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 60 ft.
+Experience points: 9,600
+:::
 
-**Size:** large
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +5 armor, +1 deflection, +2 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 133 (8d8+6d10+64\~14)
+Fort: +8
+Ref: +13
+Will: +10
+Defensive abilities: natural cunning
+Evasion: present
+Trap S: +2
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +15/+10/+5 (1d8+3/19-20), gore +14 (1d6+1)
+Pow Ch: gore +16, 2d6+4
+Ranged: +1 repeating heavy crossbow +14/+9/+4 (2d8+1/19-20)
+Reach: 10
+Sneak: +4d6
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 17, Dex 14, Con 18, Int 12, Wis 12, Cha 8
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 30
+Feats: Dodge, Improved Initiative, Iron Will, Magical Aptitude, Mobility, Point-Blank Shot, Skill Focus (Stealth)
+Skills: Acrobatics +16, Climb +14, Craft (traps) +16, Disable Device +20, Knowledge (dungeoneering) +12, Perception +20, Use Magic Device +16
+Racial Modifiers: +4 Perception, +4 Survival
+Languages: Giant
+Special qualities: careful disarm, rogue talents ([fast stealth](ref/talent/fast-stealth), [trap spotter](ref/talent/trap-spotter), [cunning trigger](ref/talent/cunning-trigger), [quick trapsmith](ref/talent/quick-trapsmith)), trap master, [trapfinding](ref/ability/trapfinding) +4
+Combat gear: Dexpeditious retreat/12 charges, Dinvisibility/8 charges
+Other gear: +1 chain shirt, +1 repeating heavy crossbow, mwk short sword, I-cloak of elvenkind, ring of prot1, mtt, trap components (CR 1 arrow trap, CR 1 poison dart trap, CR 1 swinging axe trap, CR 2 javelin trap, CR 4 electricity arc trap)
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 armor, +1 deflection, +2 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 133 (8d8+6d10+64\~14)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +10
-
-**Defensive abilities:** natural cunning
-
-**Evasion:** present
-
-**Trap S:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk short sword +15/+10/+5 (1d8+3/19-20), gore +14 (1d6+1)
-
-**Pow Ch:** gore +16, 2d6+4
-
-**Ranged:** +1 repeating heavy crossbow +14/+9/+4 (2d8+1/19-20)
-
-**Reach:** 10
-
-**Sneak:** +4d6
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 18, Int 12, Wis 12, Cha 8
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Magical Aptitude, Mobility, Point-Blank Shot,
-Skill Focus (Stealth)
-
-**Skills:** Acrobatics +16, Climb +14, Craft (traps) +16, Disable Device +20, Knowledge
-(dungeoneering) +12, Perception +20, Use Magic Device +16
-
-**Racial Modifiers:** +4 Perception, +4 Survival
-
-**Languages:** Giant
-
-**Special qualities:** careful disarm, rogue talents ([fast stealth](ref/talent/fast-stealth),
-[trap spotter](ref/talent/trap-spotter), [cunning trigger](ref/talent/cunning-trigger),
-[quick trapsmith](ref/talent/quick-trapsmith)), trap master, [trapfinding](ref/ability/trapfinding)
-+4
-
-**Combat gear:** Dexpeditious retreat/12 charges, Dinvisibility/8 charges
-
-**Other gear:** +1 chain shirt, +1 repeating heavy crossbow, mwk short sword, I-cloak of elvenkind,
-ring of prot1, mtt, trap components (CR 1 arrow trap, CR 1 poison dart trap, CR 1 swinging axe trap,
-CR 2 javelin trap, CR 4 electricity arc trap)
-
-**Ecology**
-
-**Environment:** temperate ruins or underground
+::: statblock
+Environment: temperate ruins or underground
+:::
 
 ### Description
 

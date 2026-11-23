@@ -34,81 +34,63 @@ abilities = ["18", "15", "14", "5", "14", "11"]
 
 _This lanky ebon humanoid has bat-like wings, horns, and a long prehensile tail, but lacks a face._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsight: 60
+Alignment: Chaotic neutral
+Initiative: +6
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 1,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +5 natural
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +8
+Will: +6
+Defensive abilities: faceless
+Immune: cold, gaze attacks, inhaled poison, scent-based attacks
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+Melee: 2 claws +9 (1d6+4 plus [grab](ref/umr/grab))
+Spec Att: clutches, tickle
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 18, Dex 15, Con 14, Int 5, Wis 14, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +9 (+17 grapple)
+Combat maneuver defense: 22
+Feats: Dodge, Improved Initiative, Lightning Reflexes
+Skills: Fly +7, Perception +6, Stealth +11
+Racial Modifiers: +4 Stealth
+Languages: Aklo (can't speak)
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Extraplanar
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +5 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +6
-
-**Defensive abilities:** faceless
-
-**Immune:** cold, gaze attacks, inhaled poison, scent-based attacks
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**Melee:** 2 claws +9 (1d6+4 plus [grab](ref/umr/grab))
-
-**Spec Att:** clutches, tickle
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 14, Int 5, Wis 14, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9 (+17 grapple)
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +7, Perception +6, Stealth +11
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any mountains ([Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** single, pair, flight (3-12), or colony
-
-**Treasure:** None
+::: statblock
+Environment: any mountains ([Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: single, pair, flight (3-12), or colony
+Treasure: None
+:::
 
 ### Special Abilities
 

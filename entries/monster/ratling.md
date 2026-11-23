@@ -33,100 +33,72 @@ abilities = ["6", "15", "13", "12", "10", "13"]
 _This rat-like creature has tiny human hands in place of its front paws, and an unnerving human face
 with a toothy mouth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +2
+Type: Magical beast
+Perception: +6
+Senses: Darkvision 60 ft., Detect magic, Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +1
+Evasion: present
+Immune: disease, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 20 ft., swim 30 ft.
+Melee: bite +3 (1d3-2 plus bleed 1)
+Reach: 0
+Sneak: +1d6
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect magic, read magic, speak with animals, rodents only, spider climb, tongues
+Per day: 3/day: cause fear (DC 12), dimension door, invisibility, self only\
+1/day: summon swarm, rat swarm only
+Per week: commune, only when serving as a familiar; 6 questions; CL 12th
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 6, Dex 15, Con 13, Int 12, Wis 10, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Dodge, Mobility
+Skills: Climb +6
+Languages: Aklo; _[speak with animals](ref/spell/speak-with-animals)_ (rodents only), _[tongues](ref/spell/tongues)_
+Special qualities: scroll use
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Evasion:** present
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 20 ft., swim 30 ft.
-
-**Melee:** bite +3 (1d3-2 plus bleed 1)
-
-**Reach:** 0
-
-**Sneak:** +1d6
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect magic, read magic, speak with animals, rodents only, spider climb, tongues
-
-**Per day:**
-
-- 3/day: cause fear (DC 12), dimension door, invisibility, self only
-- 1/day: summon swarm, rat swarm only
-
-**Per week:**
-
-- commune, only when serving as a familiar; 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 13, Int 12, Wis 10, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Dodge, Mobility
-
-**Skills:** Climb +6
-
-**Languages:** Aklo; _[speak with animals](ref/spell/speak-with-animals)_ (rodents only),
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** scroll use
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or conclave (2-20 plus 2-12 [dire rats](ref/monster/rat-dire-rat) and 1-4
-[rat swarms](ref/monster/rat-rat-swarm))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary or conclave (2-20 plus 2-12 [dire rats](ref/monster/rat-dire-rat) and 1-4 [rat swarms](ref/monster/rat-rat-swarm))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

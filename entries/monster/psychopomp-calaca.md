@@ -32,99 +32,73 @@ abilities = ["10", "17", "17", "16", "15", "19"]
 _This figure wears a fine suit, vest, gloves, and ascot and has a guitar at the ready. The
 creature's face is hidden by an intricately decorated skull mask._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 4,800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +8 natural
+Hit points: 103 (11d10+44)
+Fort: +7
+Ref: +10
+Will: +11
+Dr: 5/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +11 (1d8)
+Ranged: +14 (1d8/×4)
+Spec Att: bardic performance, show stopper
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility, self only
+Per day: 3/day: good hope, heroes' feast\
+1/day: irresistible dance (DC 20), modify memory (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 10, Dex 17, Con 17, Int 16, Wis 15, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +11 (+13 disarm)
+Combat maneuver defense: 24 (26 vs. disarm)
+Feats: Combat Expertise, Ensemble, Improved Disarm, Iron Will, Lingering Performance, Persuasive
+Skills: Bluff +18, Diplomacy +22, Disguise +18, Perform (string) +18, Sense Motive +16
+Languages: Abyssal, Celestial, Infernal; _[tongues](ref/spell/tongues)_
+Special qualities: antique weapon, spirit touch
+Gear: [pistol](ref/eq-weapon/pistol) with 1 bullet, [guitar](ref/eq-misc/musical-instrument-common)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +8 natural
-
-**Hit points:** 103 (11d10+44)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +11
-
-**Dr:** 5/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +11 (1d8)
-
-**Ranged:** +14 (1d8/×4)
-
-**Spec Att:** bardic performance, show stopper
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility, self only
-
-**Per day:**
-
-- 3/day: good hope, heroes' feast
-- 1/day: irresistible dance (DC 20), modify memory (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 17, Int 16, Wis 15, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +11 (+13 disarm)
-
-**Combat maneuver defense:** 24 (26 vs. disarm)
-
-**Feats:** Combat Expertise, Ensemble, Improved Disarm, Iron Will, Lingering Performance, Persuasive
-
-**Skills:** Bluff +18, Diplomacy +22, Disguise +18, Perform (string) +18, Sense Motive +16
-
-**Languages:** Abyssal, Celestial, Infernal; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** antique weapon, spirit touch
-
-**Gear:** [pistol](ref/eq-weapon/pistol) with 1 bullet,
-[guitar](ref/eq-misc/musical-instrument-common)
-
-**Ecology**
-
-**Environment:** any (the [Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or band (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (the [Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or band (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

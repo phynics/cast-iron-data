@@ -31,110 +31,77 @@ abilities = ["8", "30", "23", "15", "23", "26"]
 _This shrill swarm of whippoorwills flies in a spiral, their airborne antics infused with streamers
 of pale blue mist._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: grief (30 ft., DC 24)
+Size: diminutive
+Initiative: +14
+Alignment: Neutral
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Greater arcane sight, Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp, Swarm
+Experience points: 12,800
+:::
 
-**aura:** grief (30 ft., DC 24)
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 14
+AC modifiers: +10 Dex, +4 size
+Hit points: 149 (13d10+78)
+Fort: +12
+Ref: +20
+Will: +16
+Defensive abilities: swarm traits
+Immune: death effects, disease, poison, weapon damage
+Resist: acid 10, cold 10, electricity 10, fire 10, sonic 10
+Sr: 22
+:::
 
-**Initiative:** +14
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 80 ft. (good)
+Distraction: 22
+Melee: swarm (3d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: drain magic, soul cage
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +19
+Constant: greater arcane sight
+At will: mass invisibility, self only, speak with dead (DC 21)
+Per day: 3/day: call spirit (DC 23), confusion (DC 22)\
+1/day: plane shift (swarm counts as one creature; DC 27)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Greater arcane sight, Low-light vision, Spiritsense
+::: statblock
+Ability scores: Str 8, Dex 30, Con 23, Int 15, Wis 23, Cha 26
+Base attack bonus: +13
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Alertness, Combat Casting, Great Fortitude, Improved Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Acrobatics +26, Fly +36, Knowledge (planes, religion) +18, Perception +26, Sense Motive +26, Spellcraft +18, Stealth +38
+Languages: Abyssal, Aklo, Celestial, Infernal
+Special qualities: spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp, Swarm
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 14
-
-**AC modifiers:** +10 Dex, +4 size
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +12
-
-**Ref:** +20
-
-**Will:** +16
-
-**Defensive abilities:** swarm traits
-
-**Immune:** death effects, disease, poison, weapon damage
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10, sonic 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 20 ft., fly 80 ft. (good)
-
-**Distraction:** 22
-
-**Melee:** swarm (3d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** drain magic, soul cage
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +19
-
-**Constant:**
-
-- greater arcane sight
-
-**At will:**
-
-- mass invisibility, self only, speak with dead (DC 21)
-
-**Per day:**
-
-- 3/day: call spirit (DC 23), confusion (DC 22)
-- 1/day: plane shift (swarm counts as one creature; DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 30, Con 23, Int 15, Wis 23, Cha 26
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Alertness, Combat Casting, Great Fortitude, Improved Great Fortitude, Improved
-Initiative, Iron Will, Lightning Reflexes
-
-**Skills:** Acrobatics +26, Fly +36, Knowledge (planes, religion) +18, Perception +26, Sense Motive
-+26, Spellcraft +18, Stealth +38
-
-**Languages:** Abyssal, Aklo, Celestial, Infernal
-
-**Special qualities:** spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary or spiral (2-6 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary or spiral (2-6 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -36,92 +36,67 @@ deities._
 
 **Mythic Rat Plague Swarm**
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Mythic rank: 8
+Initiative: +16/-4, [dual initiative](ref/umr/dual-initiative)
+Alignment: Lawful evil
+Type: Magical beast
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Mythic, Swarm
+Size: tiny
+Experience points: 12,800
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**Initiative:** +16/-4, [dual initiative](ref/umr/dual-initiative)
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 20
+AC modifiers: +4 Dex, +1 dodge, +8 natural, +2 size
+Hit points: 152 (16d10+64)
+Fort: +11
+Ref: +16
+Will: +9; second save
+Defensive abilities: reform, swarm traits
+Dr: 10/epic
+Fh: 5
+Unstop: present
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 30 ft.
+Distraction: 19
+M Power: 8/day, surge +1d10
+Melee: swarm +14 (4d6-2 plus 4d6 blight, curse of lycanthropy, disease, and distraction)
+Reach: 0
+Space: 20
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 2, Dex 19, Con 8, Int 19, Wis 18, Cha 15
+Base attack bonus: +16
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (curse of lycanthropy), Ability Focus (distraction), Mythic Dodge, Extra Mythic Power, Great Fortitude, Mythic Improved Initiative, Mythic Lightning Reflexes, Lightning Stance, Wind Stance
+Skills: Acrobatics +20, Climb +31
+Languages: Abyssal (can't speak), Celestial (can't speak), Common (can't speak), Infernal (can't speak); [telepathy](ref/umr/telepathy) 200 ft.
+Special qualities: hivemind, multiply (rat swarm with curse of lycanthropy \[Fort DC 12\])
+:::
 
-**Subtype:** Mythic, Swarm
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural, +2 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +9; second save
-
-**Defensive abilities:** reform, swarm traits
-
-**Dr:** 10/epic
-
-**Fh:** 5
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 30 ft.
-
-**Distraction:** 19
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** swarm +14 (4d6-2 plus 4d6 blight, curse of lycanthropy, disease, and distraction)
-
-**Reach:** 0
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 19, Con 8, Int 19, Wis 18, Cha 15
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (curse of lycanthropy), Ability Focus (distraction), Mythic Dodge, Extra
-Mythic Power, Great Fortitude, Mythic Improved Initiative, Mythic Lightning Reflexes, Lightning
-Stance, Wind Stance
-
-**Skills:** Acrobatics +20, Climb +31
-
-**Languages:** Abyssal (can't speak), Celestial (can't speak), Common (can't speak), Infernal (can't
-speak); [telepathy](ref/umr/telepathy) 200 ft.
-
-**Special qualities:** hivemind, multiply (rat swarm with curse of lycanthropy \[Fort DC 12\])
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or brood (plague swarm plus 1-100 spawn)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or brood (plague swarm plus 1-100 spawn)
+Treasure: None
+:::
 
 ### Special Abilities
 

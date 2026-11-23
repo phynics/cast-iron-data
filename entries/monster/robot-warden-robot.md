@@ -32,89 +32,66 @@ abilities = ["18", "19", "-", "11", "14", "1"]
 _Crafted of a strange, dull metal, this bulky construct stomps forward on stout, multi-jointed
 legs._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: infrasonic field (30 ft., DC 17)
+blindsight: 30
+Type: construct
+Initiative: +8
+Size: large
+Alignment: Neutral
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 6,400
+:::
 
-**aura:** infrasonic field (30 ft., DC 17)
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 112 (15d10+30)
+Fort: +8
+Ref: +12
+Will: +10
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 10, reactive armor, resilient
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: critical hits and electricity
+:::
 
-**Type:** construct
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +18 (1d8+4)
+Ranged: 2 integrated sonic disruptors +18 ranged touch (2d8 sonic)
+Reach: 10
+Space: 10
+Spec Att: combined arms, dazzler, integrated sonic disruptor
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 18, Dex 19, Con -, Int 11, Wis 14, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+Feats: Alertness, Combat Reflexes, Improved Initiative, Nimble Moves, Point-Blank Shot, Power Attack, Precise Shot, Stand Still
+Skills: Climb +10, Perception +20, Sense Motive +16
+Languages: Androffan
+:::
 
-**Perception:** +20
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Robot
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 112 (15d10+30)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +10
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, reactive armor,
-resilient
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +18 (1d8+4)
-
-**Ranged:** 2 integrated sonic disruptors +18 ranged touch (2d8 sonic)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** combined arms, dazzler, integrated sonic disruptor
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con -, Int 11, Wis 14, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Combat Reflexes, Improved Initiative, Nimble Moves, Point-Blank Shot, Power
-Attack, Precise Shot, Stand Still
-
-**Skills:** Climb +10, Perception +20, Sense Motive +16
-
-**Languages:** Androffan
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, pair, or sentry (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, pair, or sentry (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

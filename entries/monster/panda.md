@@ -30,69 +30,57 @@ abilities = ["17", "10", "15", "2", "11", "14"]
 _This black-and-white-furred bear is about as long in the body as an average human - but much
 rounder._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 13
+AC modifiers: +3 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +3
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +5 (1d6+6), 2 claws +5 (1d3+3)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 10, Con 15, Int 2, Wis 11, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Endurance, Skill Focus (Perception)
+Skills: Climb +11, Perception +7
+Racial Modifiers: +4 Climb
+Special qualities: powerful bite
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +5 (1d6+6), 2 claws +5 (1d3+3)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 15, Int 2, Wis 11, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Endurance, Skill Focus (Perception)
-
-**Skills:** Climb +11, Perception +7
-
-**Racial Modifiers:** +4 Climb
-
-**Special qualities:** powerful bite
-
-**Ecology**
-
-**Environment:** temperate or warm jungles
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm jungles
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

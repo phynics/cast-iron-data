@@ -34,101 +34,75 @@ abilities = ["18", "13", "16", "11", "15", "14"]
 _The upper body of this creature is that of a multicolored bestial humanoid, while its lower section
 ends in a serpentine tail._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +5
+Size: large
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 1,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +5
+Will: +6
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Immune: acid
+Resist: electricity 10, sonic 10
+Sr: 15
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d8+4
+Melee: slam +8 (1d6+4), tail slap +3 (1d8+2 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: adaptive strike, warpwave exit
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Per day: 3/day: color spray (DC 13)\
+1/day: dispel magic, rage
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 13, Con 16, Int 11, Wis 15, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21
+Feats: Combat Reflexes, Improved Initiative, Power Attack
+Skills: Bluff +10, Fly +15
+Languages: Abyssal, Protean
+Special qualities: [change shape](ref/umr/change-shape) (humanoid or monstrous humanoid; [polymorph](ref/spell/polymorph))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +6
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Immune:** acid
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d8+4
-
-**Melee:** slam +8 (1d6+4), tail slap +3 (1d8+2 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** adaptive strike, warpwave exit
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Per day:**
-
-- 3/day: color spray (DC 13)
-- 1/day: dispel magic, rage
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 16, Int 11, Wis 15, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack
-
-**Skills:** Bluff +10, Fly +15
-
-**Languages:** Abyssal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid or monstrous humanoid;
-[polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or breach (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or breach (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

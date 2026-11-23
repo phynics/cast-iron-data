@@ -26,75 +26,60 @@ melee = "bite +14 (1d8+6), 2 claws +14 (1d6+6)"
 abilities = ["23", "20", "18", "2", "13", "9"]
 +++
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: [stench](ref/umr/stench) (DC 18, 10 rounds)
+Initiative: +9
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 18, 10 rounds)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +5 Dex, +6 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +11
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +14 (1d8+6), 2 claws +14 (1d6+6)
+Reach: 10
+Rend: 2 claws, 1d6+9
+Sp Extra: burst of speed
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +7
+::: statblock
+Ability scores: Str 23, Dex 20, Con 18, Int 2, Wis 13, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 31
+Feats: Improved Bull Rush, Improved Initiative, Improved Iron Will, Iron Will, Rending Claws
+Skills: Climb +20, Perception +7, Stealth +7
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +6 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +14 (1d8+6), 2 claws +14 (1d6+6)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+9
-
-**Sp Extra:** burst of speed
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 20, Con 18, Int 2, Wis 13, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 31
-
-**Feats:** Improved Bull Rush, Improved Initiative, Improved Iron Will, Iron Will, Rending Claws
-
-**Skills:** Climb +20, Perception +7, Stealth +7
-
-**Ecology**
-
-**Environment:** warm jungles
-
-**Organization:** solitary, pair, or band (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: warm jungles
+Organization: solitary, pair, or band (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,101 +32,72 @@ abilities = ["14", "21", "20", "11", "13", "18"]
 _This finely robed and nimble fiend has six colorful vipers in place of arms, and a long, forked
 tongue in its fanged mouth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 4,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 16
+Flat-footed: 15
+AC modifiers: +5 Dex, +1 dodge, +5 natural
+Hit points: 94 (9d10+45)
+Fort: +8
+Ref: +11
+Will: +9
+Dr: 10/good and piercing
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 7 bites +14 (1d4+2 plus confusion)
+Ranged: 6 energy bolts +14 touch (1d8 plus special)
+Spec Att: detect thoughts (DC 18), energy bolts
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +9
+2nd-level spells: 5/day: invisibility, scorching ray
+1st-level spells: 7/day: charm person (DC 15), jump, mage armor, magic missile
+Cantrips: At will: bleed (DC 14), detect magic, ghost sound (DC 14), mage hand, open/close, read magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Rakshasa, Shapechanger
+::: statblock
+Ability scores: Str 14, Dex 21, Con 20, Int 11, Wis 13, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +11
+Combat maneuver defense: 27
+Feats: Dodge, Iron Will, Silent Spell, Still Spell, Weapon Finesse
+Skills: Acrobatics +14 (+18 when jumping), Bluff +20, Climb +7, Disguise +16, Sense Motive +12, Spellcraft +8
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +1 dodge, +5 natural
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 10/good and piercing
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 7 bites +14 (1d4+2 plus confusion)
-
-**Ranged:** 6 energy bolts +14 touch (1d8 plus special)
-
-**Spec Att:** detect thoughts (DC 18), energy bolts
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**2nd-level spells:**
-
-- 5/day: invisibility, scorching ray
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 15), jump, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: bleed (DC 14), detect magic, ghost sound (DC 14), mage hand, open/close, read magic
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 20, Int 11, Wis 13, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 27
-
-**Feats:** Dodge, Iron Will, Silent Spell, Still Spell, Weapon Finesse
-
-**Skills:** Acrobatics +14 (+18 when jumping), Bluff +20, Climb +7, Disguise +16, Sense Motive +12,
-Spellcraft +8
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, cult (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, cult (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

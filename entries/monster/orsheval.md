@@ -31,103 +31,77 @@ abilities = ["17", "12", "15", "10", "13", "10"]
 _This short, iron-skinned horse is surrounded by a flickering light. A preternatural intelligence
 glitters in its metallic golden eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +2
+Will: +5
+Dr: 5/magic
+Immune: electricity
+Resist: cold 10, fire 5
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: bite +8 (1d6+3), 2 hooves +3 (1d4+1 plus 1d4 electricity)
+Reach: 5
+Space: 10
+Spec Att: glittering radiance
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+At will: light, mage hand
+Per day: 3/day: ant haul, bless, expeditious retreat\
+1/day: dimension door, self and rider only, lesser restoration, zone of truth
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Lawful
-
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +5
-
-**Dr:** 5/magic
-
-**Immune:** electricity
-
-**Resist:** cold 10, fire 5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +8 (1d6+3), 2 hooves +3 (1d4+1 plus 1d4 electricity)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** glittering radiance
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**At will:**
-
-- light, mage hand
-
-**Per day:**
-
-- 3/day: ant haul, bless, expeditious retreat
-- 1/day: dimension door, self and rider only, lesser restoration, zone of truth
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 15, Int 10, Wis 13, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8 (+10 overrun)
-
-**Combat maneuver defense:** 19 (21 vs. overrun, 23 vs. trip)
-
-**Feats:** Alertness, Endurance, Improved Overrun^B^, Run
-
-**Skills:** Acrobatics +4, Appraise +6, Knowledge (local) +3, Knowledge (planes) +6, Perception +11,
-Sense Motive +11, Swim +5
-
-**Languages:** Celestial, Infernal; _truespeech_
+::: statblock
+Ability scores: Str 17, Dex 12, Con 15, Int 10, Wis 13, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +8 (+10 overrun)
+Combat maneuver defense: 19 (21 vs. overrun, 23 vs. trip)
+Feats: Alertness, Endurance, Improved Overrun^B^, Run
+Skills: Acrobatics +4, Appraise +6, Knowledge (local) +3, Knowledge (planes) +6, Perception +11, Sense Motive +11, Swim +5
+Languages: Celestial, Infernal; _truespeech_
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or team (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or team (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

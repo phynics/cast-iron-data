@@ -32,115 +32,78 @@ abilities = ["31", "16", "26", "14", "17", "15"]
 _This fanged, three-eyed giant rages in its finely crafted armor, its skin as red as a smoldering
 ember._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire, Giant, Native, Oni, Shapechanger
+Experience points: 51,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 29
+Touch: 10
+Flat-footed: 28
+AC modifiers: +8 armor, +1 Dex, +11 natural, -1 size
+Hit points: 229 (17d10+136)
+Fort: +18
+Ref: +10
+Will: +15
+Immune: fire
+Regen: 5 (acid or cold)
+Sr: 26
+Vulner: cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Burn: 2d6, DC 26
+Melee: +1 katana +27/+22/+17/+12 (2d6+16/18-20) or 2 slams +26 (1d10+10)
+Ranged: fiery missile +19 touch (4d6 fire plus burn)
+Reach: 10
+Sp Extra: 30 ft., fly 40 ft. (good) in armor
+Space: 10
+Spec Att: smoke form
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +17
+Constant: fly
+At will: darkness, invisibility, self only, scorching ray
+Per day: 3/day: charm monster (DC 16), deep slumber (DC 15), fireball (DC 15), fire shield, warm shield only, wall of fire\
+1/day: incendiary cloud (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Fire, Giant, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 31, Dex 16, Con 26, Int 14, Wis 17, Cha 15
+Base attack bonus: +17
+Combat maneuver bonus: +28
+Combat maneuver defense: 41
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Initiative, Improved Overrun, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Bluff +22, Craft (weapons) +12, Diplomacy +11, Disguise +11, Sense Motive +23, Spellcraft +11, Use Magic Device +14
+Languages: Common, Giant
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Large humanoid; [alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +8 armor, +1 Dex, +11 natural, -1 size
-
-**Hit points:** 229 (17d10+136)
-
-**Fort:** +18
-
-**Ref:** +10
-
-**Will:** +15
-
-**Immune:** fire
-
-**Regen:** 5 (acid or cold)
-
-**Sr:** 26
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Burn:** 2d6, DC 26
-
-**Melee:** +1 katana +27/+22/+17/+12 (2d6+16/18-20) or 2 slams +26 (1d10+10)
-
-**Ranged:** fiery missile +19 touch (4d6 fire plus burn)
-
-**Reach:** 10
-
-**Sp Extra:** 30 ft., fly 40 ft. (good) in armor
-
-**Space:** 10
-
-**Spec Att:** smoke form
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +17
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- darkness, invisibility, self only, scorching ray
-
-**Per day:**
-
-- 3/day: charm monster (DC 16), deep slumber (DC 15), fireball (DC 15), fire shield, warm shield
-  only, wall of fire
-- 1/day: incendiary cloud (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 16, Con 26, Int 14, Wis 17, Cha 15
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 41
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Initiative, Improved Overrun, Iron Will,
-Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Bluff +22, Craft (weapons) +12, Diplomacy +11, Disguise +11, Sense Motive +23,
-Spellcraft +11, Use Magic Device +14
-
-**Languages:** Common, Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Large humanoid;
-[alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
-
-**Ecology**
-
-**Environment:** temperate or warm hills or mountains
-
-**Organization:** solitary, band (1 plus 4-8 [fire giants](ref/monster/giant-fire-fire-giant)),
-tribe (1 plus 20-30 fire giants), or dynasty (1 plus 2-20 other [oni](ref/family/oni))
-
-**Treasure:** Standard (+1 banded mail, +1 katana); other treasure
+::: statblock
+Environment: temperate or warm hills or mountains
+Organization: solitary, band (1 plus 4-8 [fire giants](ref/monster/giant-fire-fire-giant)), tribe (1 plus 20-30 fire giants), or dynasty (1 plus 2-20 other [oni](ref/family/oni))
+Treasure: Standard (+1 banded mail, +1 katana); other treasure
+:::
 
 ### Special Abilities
 

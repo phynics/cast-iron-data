@@ -28,69 +28,57 @@ abilities = ["30", "10", "21", "1", "13", "3"]
 _This large creature is built like a rhinoceros, but with fangs like a saber-toothed tiger and
 smaller horn-like ridges._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +20
+Senses: Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +12
+Ref: +7
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +16 (2d8+15)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 10, Con 21, Int 1, Wis 13, Cha 3
+Base attack bonus: +7
+Combat maneuver bonus: +18
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Diehard, Iron Will, Power Attack, Skill Focus (Perception), Vital Strike
+Skills: Perception +20
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +16 (2d8+15)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 10, Con 21, Int 1, Wis 13, Cha 3
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Diehard, Iron Will, Power Attack, Skill Focus (Perception), Vital Strike
-
-**Skills:** Perception +20
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

@@ -32,80 +32,62 @@ abilities = ["14", "15", "18", "14", "13", "15"]
 _This chitin-plated humanoid has the lower body of a hermit crab, complete with a brightly decorated
 shell encasing his back._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral good
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Subtype: Aquatic, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 18
+AC modifiers: +2 Dex, +9 natural, -1 size
+Hit points: 47 (5d10+20)
+Fort: +5
+Ref: +6
+Will: +5
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: mwk spear +7 (1d8+3/×3), 2 claws +6 (1d6+2)
+Ranged: mwk spear +7 (1d8+2/×3)
+Reach: 10
+Rend: 2 claws, 1d6+3
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 18, Int 14, Wis 13, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +8 (+10 steal)
+Combat maneuver defense: 20 (22 vs. steal)
+Feats: Combat Expertise, Improved Initiative, Improved Steal
+Skills: Climb +8, Use Magic Device +7
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious), arcane scavanger, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Subtype:** Aquatic, Extraplanar
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +9 natural, -1 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** mwk spear +7 (1d8+3/×3), 2 claws +6 (1d6+2)
-
-**Ranged:** mwk spear +7 (1d8+2/×3)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+3
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 18, Int 14, Wis 13, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8 (+10 steal)
-
-**Combat maneuver defense:** 20 (22 vs. steal)
-
-**Feats:** Combat Expertise, Improved Initiative, Improved Steal
-
-**Skills:** Climb +8, Use Magic Device +7
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), arcane scavanger,
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any water ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, band (6-8), or caravan (26-40)
-
-**Treasure:** Standard (mwk spear); other treasure
+::: statblock
+Environment: any water ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, band (6-8), or caravan (26-40)
+Treasure: Standard (mwk spear); other treasure
+:::
 
 ### Special Abilities
 

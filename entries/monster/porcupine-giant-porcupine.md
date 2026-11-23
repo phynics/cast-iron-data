@@ -28,67 +28,56 @@ abilities = ["17", "12", "16", "2", "13", "5"]
 
 _This gray, human-sized porcupine's round body is covered in sharp, striped quills._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +6
+Will: +2
+Defensive abilities: quills
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: tail slap +6 (2d6+4)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 12, Con 16, Int 2, Wis 13, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Lightning Reflexes, Weapon Focus (tail slap)
+Skills: Climb +7, Perception +6
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** quills
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** tail slap +6 (2d6+4)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 16, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Lightning Reflexes, Weapon Focus (tail slap)
-
-**Skills:** Climb +7, Perception +6
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, pair, or prickle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, pair, or prickle (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

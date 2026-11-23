@@ -33,100 +33,73 @@ abilities = ["8", "16", "12", "11", "13", "16"]
 
 _This strange black bird wears a leather long-nosed mask like a plague doctor._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +6
+Will: +4
+Dr: 2/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: bite +8 (1d3-1)
+Reach: 0
+Space: 2-1/2
+Spec Att: haunting melody
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+At will: invisibility, self only
+Per day: 3/day: speak with dead, 6 questions; CL 12th\
+1/day: hide from undead (DC 14), sound burst (DC 15)
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 16, Con 12, Int 11, Wis 13, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Alertness, Weapon Finesse
+Skills: Fly +17, Knowledge (history) +6, Perception +9, Profession (scribe) +7, Sense Motive +3, Stealth +17
+Languages: Abyssal, Celestial, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (raven or songbird \[same statistics\]; [beast shape II](ref/spell/beast-shape-2)), spirit touch
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 2/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** bite +8 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** haunting melody
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 3/day: speak with dead, 6 questions; CL 12th
-- 1/day: hide from undead (DC 14), sound burst (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 12, Int 11, Wis 13, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Alertness, Weapon Finesse
-
-**Skills:** Fly +17, Knowledge (history) +6, Perception +9, Profession (scribe) +7, Sense Motive +3,
-Stealth +17
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (raven or songbird \[same statistics\];
-[beast shape II](ref/spell/beast-shape-2)), spirit touch
-
-**Ecology**
-
-**Environment:** any ([Purgatory](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or group (3-15)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Purgatory](ref/rule/purgatory))
+Organization: solitary, pair, or group (3-15)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

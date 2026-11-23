@@ -32,77 +32,61 @@ abilities = ["23", "18", "17", "8", "14", "15"]
 _Glossy eyespots bulge from the neck of this long-limbed figure. Jagged teeth line the open mouth in
 its chest._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 17)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft., Scent, Taste fear
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 17)
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 75 (10d8+30)
+Fort: +7
+Ref: +7
+Will: +9
+Defensive abilities: alien anatomy
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 40 ft.
+Melee: bite +13 (1d8+6 plus poison), 2 claws +13 (1d4+6)
+Ranged: tanglespit +11 (see below)
+Spec Att: death throes, poison, tanglespit
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 23, Dex 18, Con 17, Int 8, Wis 14, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 28
+Feats: Combat Reflexes, Dodge, Improved Initiative, Mobility, Spring Attack
+Skills: Climb +15, Intimidate +13, Perception +12
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Senses:** Darkvision 60 ft., Scent, Taste fear
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +9
-
-**Defensive abilities:** alien anatomy
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +13 (1d8+6 plus poison), 2 claws +13 (1d4+6)
-
-**Ranged:** tanglespit +11 (see below)
-
-**Spec Att:** death throes, poison, tanglespit
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 18, Con 17, Int 8, Wis 14, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Mobility, Spring Attack
-
-**Skills:** Climb +15, Intimidate +13, Perception +12
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or pack (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

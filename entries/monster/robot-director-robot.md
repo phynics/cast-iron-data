@@ -33,92 +33,67 @@ abilities = ["22", "17", "-", "16", "15", "1"]
 _A humanoid torso and four spindly legs sprout from the top of this black-paneled orb. Buzzing
 mechanical tentacles churn and writhe below its bulk._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +3 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 121 (14d10+44)
+Fort: +7
+Ref: +10
+Will: +9
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 10, fire 10
+Vulner: critical hits and electricity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: 2 tentacles +19 (1d10+6), 2 slams +19 (1d8+6)
+Ranged: integrated laser rifle +16 (2d6 fire)
+Reach: 5
+Reach P: 10 ft. with tentacles
+Space: 10
+Spec Att: electromagnetic pulse, grasping tentacles, override
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 17, Con -, Int 16, Wis 15, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Dodge, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Spring Attack, Toughness
+Skills: Acrobatics +10 (+14 when jumping), Climb +15, Craft (mechanical) +15, Disable Device +15, Knowledge (engineering) +15, Perception +15, Sense Motive +15
+Languages: Androffan, Common, Hallit
+Special qualities: advanced analytics, cling, repair robot
+:::
 
-**Subtype:** Robot
+### Ecology {#stat-ecology}
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 121 (14d10+44)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +9
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 10, fire 10
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** 2 tentacles +19 (1d10+6), 2 slams +19 (1d8+6)
-
-**Ranged:** integrated laser rifle +16 (2d6 fire)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tentacles
-
-**Space:** 10
-
-**Spec Att:** electromagnetic pulse, grasping tentacles, override
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con -, Int 16, Wis 15, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Dodge, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Spring Attack, Toughness
-
-**Skills:** Acrobatics +10 (+14 when jumping), Climb +15, Craft (mechanical) +15, Disable Device
-+15, Knowledge (engineering) +15, Perception +15, Sense Motive +15
-
-**Languages:** Androffan, Common, Hallit
-
-**Special qualities:** advanced analytics, cling, repair robot
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, patrol (1 director and 2-8
-[gearsmen](ref/monster/robot-gearsman-robot)), or unit (1 director, 2-12 gearsmen, and 1
-[myrmidon](ref/monster/robot-myrmidon-robot))
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, patrol (1 director and 2-8 [gearsmen](ref/monster/robot-gearsman-robot)), or unit (1 director, 2-12 gearsmen, and 1 [myrmidon](ref/monster/robot-myrmidon-robot))
+Treasure: None
+:::
 
 ### Special Abilities
 

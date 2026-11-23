@@ -31,126 +31,82 @@ abilities = ["36", "25", "38", "25", "21", "22"]
 _Writhing, hook-covered tentacles unfurl from this behemoth's body, at the center of which gapes a
 maw with a red eye in its throat._
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+aura: cloak of chaos (DC 24)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +11
+Type: outsider
+Perception: +35
+Senses: All-around vision, Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 1,228,800
+:::
 
-**aura:** cloak of chaos (DC 24)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 43
+Touch: 18
+Flat-footed: 35
+AC modifiers: +4 deflection, +7 Dex, +1 dodge, +25 natural, -4 size
+Hit points: 526 (27d10+378)
+Fort: +33
+Ref: +28
+Will: +18
+Dr: 15/cold iron and lawful
+Immune: cold, death effects, mind-affecting effects, poison
+Regen: 15 (lawful)
+Resist: acid 30, electricity 30, fire 30
+Sr: 35
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Constrict: 2d6+13
+Melee: maw +36 (2d10+13/19-20), 4 bites +36 (2d8+13/19-20), 6 tentacles +34 (2d6+6/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Reach P: 30 ft. with tentacles
+Rend: 4 bites, 2d8+19
+Space: 20
+Spec Att: gaze weapon, horrific appearance (DC 29), polymorph plague, tentacle transformation
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
+At will: desecrate, greater dispel magic, greater teleport, statue, stone shape, telekinesis (DC 21)
+Per day: 3/day: quickened baleful polymorph (DC 21), flesh to stone (DC 22), phase door, polymorph any object (DC 24), wall of stone\
+1/day: earthquake, summon (level 9, any qlippoth or combination of qlippoth whose total combined CR is 20 or lower 100%)
+:::
 
-**Perception:** +35
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 36, Dex 25, Con 38, Int 25, Wis 21, Cha 22
+Base attack bonus: +27
+Combat maneuver bonus: +44 (+48 grapple)
+Combat maneuver defense: 66 (can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Dodge, Greater Vital Strike, Improved Critical (bite), Improved Critical (tentacle), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful polymorph), Staggering Critical, Vital Strike
+Skills: Fly +45, Intimidate +36, Knowledge (arcana, planes) +37, Perception +35, Sense Motive +35, Spellcraft +37, Stealth +25, Use Magic Device +36
+Racial Modifiers: +10 Fly
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: qlippoth lord traits
+Faith: Yamasoth
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 1,228,800
-
-**Armor class:** 43
-
-**Touch:** 18
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 deflection, +7 Dex, +1 dodge, +25 natural, -4 size
-
-**Hit points:** 526 (27d10+378)
-
-**Fort:** +33
-
-**Ref:** +28
-
-**Will:** +18
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** cold, death effects, mind-affecting effects, poison
-
-**Regen:** 15 (lawful)
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Constrict:** 2d6+13
-
-**Melee:** maw +36 (2d10+13/19-20), 4 bites +36 (2d8+13/19-20), 6 tentacles +34 (2d6+6/19-20 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with tentacles
-
-**Rend:** 4 bites, 2d8+19
-
-**Space:** 20
-
-**Spec Att:** gaze weapon, horrific appearance (DC 29), polymorph plague, tentacle transformation
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
-
-**At will:**
-
-- desecrate, greater dispel magic, greater teleport, statue, stone shape, telekinesis (DC 21)
-
-**Per day:**
-
-- 3/day: quickened baleful polymorph (DC 21), flesh to stone (DC 22), phase door, polymorph any
-  object (DC 24), wall of stone
-- 1/day: earthquake, summon (level 9, any qlippoth or combination of qlippoth whose total combined
-  CR is 20 or lower 100%)
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 25, Con 38, Int 25, Wis 21, Cha 22
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +44 (+48 grapple)
-
-**Combat maneuver defense:** 66 (can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Greater Vital Strike, Improved Critical (bite),
-Improved Critical (tentacle), Improved Initiative, Improved Vital Strike, Lightning Reflexes,
-Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful
-polymorph), Staggering Critical, Vital Strike
-
-**Skills:** Fly +45, Intimidate +36, Knowledge (arcana, planes) +37, Perception +35, Sense Motive
-+35, Spellcraft +37, Stealth +25, Use Magic Device +36
-
-**Racial Modifiers:** +10 Fly
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** qlippoth lord traits
-
-**Faith:** Yamasoth
-
-**Ecology**
-
-**Environment:** any (Sekatar-Seraktis)
-
-**Organization:** solitary or group (Yamasoth plus 2d6
-[gongorinans](ref/monster/qlippoth-gongorinan) and 2d6 various polymorphed minions)
-
-**Treasure:** Triple
+::: statblock
+Environment: any (Sekatar-Seraktis)
+Organization: solitary or group (Yamasoth plus 2d6 [gongorinans](ref/monster/qlippoth-gongorinan) and 2d6 various polymorphed minions)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

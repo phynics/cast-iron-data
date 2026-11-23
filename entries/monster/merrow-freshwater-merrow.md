@@ -32,79 +32,62 @@ abilities = ["19", "18", "17", "6", "10", "7"]
 _This giant has pale green, scaled skin and large, webbed hands and feet. On either side of its neck
 are slotted gills._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: humanoid
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Perception: +5
+Senses: Low-light vision
+Subtype: Aquatic, Giant
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 13
+AC modifiers: +4 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +5
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 40 ft.
+Melee: 2 claws +6 (1d6+4 plus [grab](ref/umr/grab))
+Ranged: javelin +6 (1d8+4)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 18, Con 17, Int 6, Wis 10, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 22
+Feats: Iron Will, Power Attack
+Skills: Perception +5, Stealth +2 (+6 in water), Swim +12
+Racial Modifiers: +4 Stealth in water
+Languages: Giant
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Giant
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft.
-
-**Melee:** 2 claws +6 (1d6+4 plus [grab](ref/umr/grab))
-
-**Ranged:** javelin +6 (1d8+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 17, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 22
-
-**Feats:** Iron Will, Power Attack
-
-**Skills:** Perception +5, Stealth +2 (+6 in water), Swim +12
-
-**Racial Modifiers:** +4 Stealth in water
-
-**Languages:** Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate lakes or rivers
-
-**Organization:** solitary, pair, gang (3-4), or family (5-16)
-
-**Treasure:** Standard (2 javelins); other treasure
+::: statblock
+Environment: temperate lakes or rivers
+Organization: solitary, pair, gang (3-4), or family (5-16)
+Treasure: Standard (2 javelins); other treasure
+:::
 
 ### Description
 

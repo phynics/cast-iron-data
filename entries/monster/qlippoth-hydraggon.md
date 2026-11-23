@@ -31,80 +31,62 @@ abilities = ["17", "10", "16", "10", "12", "16"]
 _This eel-like monstrosity has a gaping, fanged mouth from which lolls a long, red tongue split into
 three tendrils, two of which wield weapons._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +4
+Will: +4
+Immune: cold, mind-affecting effects, poison
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: mwk short sword +6 (1d6+1/19-20), mwk trident +6 (1d8+3), tongue +2 (1d3+1 plus cloud memory) or 3 tongues +2 (1d3+1 plus cloud memory) or bite +7 (1d6+4 plus cloud memory)
+Spec Att: horrific appearance (DC 15)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 10, Con 16, Int 10, Wis 12, Cha 16
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Improved Initiative, Iron Will, Two-Weapon Fighting
+Skills: Escape Artist +11, Knowledge (planes) +7, Perception +8, Swim +18
+Racial Modifiers: +4 Escape Artist
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), beacon
+:::
 
-**Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +4
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** mwk short sword +6 (1d6+1/19-20), mwk trident +6 (1d8+3), tongue +2 (1d3+1 plus cloud
-memory) or 3 tongues +2 (1d3+1 plus cloud memory) or bite +7 (1d6+4 plus cloud memory)
-
-**Spec Att:** horrific appearance (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 16, Int 10, Wis 12, Cha 16
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Iron Will, Two-Weapon Fighting
-
-**Skills:** Escape Artist +11, Knowledge (planes) +7, Perception +8, Swim +18
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), beacon
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or shoal (3-10)
-
-**Treasure:** Standard (mwk short sword, mwk trident); other treasure
+::: statblock
+Environment: any water
+Organization: solitary, pair, or shoal (3-10)
+Treasure: Standard (mwk short sword, mwk trident); other treasure
+:::
 
 ### Special Abilities
 

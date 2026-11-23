@@ -31,77 +31,61 @@ abilities = ["-", "13", "-", "5", "12", "12"]
 _A ghostly, skeletal figure rises up amid a whirling cyclone of tools, plates, utensils, and other
 loose objects._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 deflection, +1 Dex
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +2
+Will: +4
+Defensive abilities: natural invisibility, rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: fly 20 ft. (perfect)
+Spec Att: frightener, telekinesis
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 13, Con -, Int 5, Wis 12, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Ability Focus (fear), Alertness
+Skills: Fly +9, Perception +9, Sense Motive +3
+Languages: Common
+Special qualities: site bound
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 deflection, +1 Dex
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +4
-
-**Defensive abilities:** natural invisibility, rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 20 ft. (perfect)
-
-**Spec Att:** frightener, telekinesis
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 13, Con -, Int 5, Wis 12, Cha 12
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Ability Focus (fear), Alertness
-
-**Skills:** Fly +9, Perception +9, Sense Motive +3
-
-**Languages:** Common
-
-**Special qualities:** site bound
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or haunting (2-7)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or haunting (2-7)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

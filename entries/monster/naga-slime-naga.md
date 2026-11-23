@@ -34,104 +34,72 @@ abilities = ["18", "19", "22", "14", "19", "19"]
 
 _This slime-covered serpentine creature has a humanoid head resembling that of an angry old man._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 19
+AC modifiers: +4 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 115 (11d8+66)
+Fort: +9
+Ref: +9
+Will: +11
+Resist: acid 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +12 (2d6+6 plus poison)
+Ranged: spit +11 touch (entangle)
+Reach: 5
+Space: 10
+Spec Att: ooze master, poison, spit
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +11
+3rd-level spells: 5/day: lightning bolt (DC 17), stinking cloud (DC 17)
+2nd-level spells: 7/day: alter self, invisibility, spider climb
+1st-level spells: 7/day: charm person (DC 15), grease (DC 15), hydraulic push, mage armor, magic missile
+Cantrips: At will: acid splash, bleed (DC 14), dancing lights, ghost sound (DC 14), mage hand, open/close, touch of fatigue (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 18, Dex 19, Con 22, Int 14, Wis 19, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Dodge, Eschew Materials, Lightning Reflexes, Point-Blank Shot, Weapon Focus (bite)
+Skills: Bluff +10, Knowledge (arcana, dungeoneering, local) +8, Perception +16, Sense Motive +10, Spellcraft +14, Stealth +14, Swim +16, Use Magic Device +10
+Languages: Aklo, Common, Undercommon
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +11
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +12 (2d6+6 plus poison)
-
-**Ranged:** spit +11 touch (entangle)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** ooze master, poison, spit
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 5/day: lightning bolt (DC 17), stinking cloud (DC 17)
-
-**2nd-level spells:**
-
-- 7/day: alter self, invisibility, spider climb
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 15), grease (DC 15), hydraulic push, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: acid splash, bleed (DC 14), dancing lights, ghost sound (DC 14), mage hand, open/close,
-  touch of fatigue (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 22, Int 14, Wis 19, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Eschew Materials, Lightning Reflexes, Point-Blank
-Shot, Weapon Focus (bite)
-
-**Skills:** Bluff +10, Knowledge (arcana, dungeoneering, local) +8, Perception +16, Sense Motive
-+10, Spellcraft +14, Stealth +14, Swim +16, Use Magic Device +10
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or nest (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or nest (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,72 +30,58 @@ abilities = ["10", "24", "16", "1", "1", "14"]
 _The body of this humanoid-shaped ooze is composed of an oily, black liquid. Its body ripples as it
 moves, and tendrils of hair flow around its expressionless face._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsight: 60
+Alignment: Chaotic neutral
+Initiative: +11
+Size: medium
+Type: ooze
+Perception: -5
+Experience points: 6,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 10
+AC modifiers: +7 Dex, +1 dodge
+Hit points: 105 (14d8+42)
+Fort: +7
+Ref: +11
+Will: -1
+Immune: acid, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), piercing damage
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Grab: Large
+Melee: 2 touches +12 (5d6 acid plus grab)
+Spec Att: enshroud, hypnotic flow
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 10, Dex 24, Con 16, Int 1, Wis 1, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Step Up, Strike Back, Weapon Finesse
+Skills: Climb +15, Stealth +14
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 10
-
-**AC modifiers:** +7 Dex, +1 dodge
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** -1
-
-**Immune:** acid, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), piercing damage
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Grab:** Large
-
-**Melee:** 2 touches +12 (5d6 acid plus grab)
-
-**Spec Att:** enshroud, hypnotic flow
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 24, Con 16, Int 1, Wis 1, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Step Up, Strike Back,
-Weapon Finesse
-
-**Skills:** Climb +15, Stealth +14
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

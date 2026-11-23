@@ -32,112 +32,72 @@ abilities = ["44", "27", "37", "14", "17", "32"]
 _The elephantine creature is titanic in scale. Curving tusks frame its flexing, muscular trunk and
 its canyon of a mouth._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: dimensional lock (500 ft., DC 41)
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +8
+Type: outsider
+Perception: +52
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Extraplanar
+Experience points: 9,830,400
+:::
 
-**aura:** dimensional lock (500 ft., DC 41)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 50
+Touch: 30
+Flat-footed: 42
+AC modifiers: +20 deflection, +8 Dex, +20 natural, -8 size
+Hit points: 740 (40d10+520)
+Fort: +37
+Ref: +21
+Will: +27
+Defensive abilities: guardian of Jandelay, ward against command, wards of Jandelay
+Dr: 20/epic
+Immune: ability damage, disease, energy drain, paralysis, petrification, poison, polymorph
+Regen: 35 (acid from a mythic spell or item)
+Sr: 41
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 120 ft.
+Constrict: 4d8+25
+Melee: bite +49 (4d10+17/19-20 plus [grab](ref/umr/grab)), 4 gores +49 (4d10+17/19-20), 2 slams +50 (4d10+17/19-20), trunk +47 (4d8+8 plus grab)
+Reach: 80
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 80
+Spec Att: ruinous tusks, weather sphere
+Swallow: 4d10+17 damage, AC 20, 74 hp
+Trample: 4d10+25, DC 47
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 40
+Concentration: +51
+Constant: air walk, freedom, true seeing
+At will: greater shout (DC 29)
+Per day: 3/day: transmute rock to mud
+:::
 
-**Perception:** +52
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
-
-**Subtype:** Chaotic, Extraplanar
-
-**Experience points:** 9,830,400
-
-**Armor class:** 50
-
-**Touch:** 30
-
-**Flat-footed:** 42
-
-**AC modifiers:** +20 deflection, +8 Dex, +20 natural, -8 size
-
-**Hit points:** 740 (40d10+520)
-
-**Fort:** +37
-
-**Ref:** +21
-
-**Will:** +27
-
-**Defensive abilities:** guardian of Jandelay, ward against command, wards of Jandelay
-
-**Dr:** 20/epic
-
-**Immune:** ability damage, disease, energy drain, paralysis, petrification, poison, polymorph
-
-**Regen:** 35 (acid from a mythic spell or item)
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 120 ft.
-
-**Constrict:** 4d8+25
-
-**Melee:** bite +49 (4d10+17/19-20 plus [grab](ref/umr/grab)), 4 gores +49 (4d10+17/19-20), 2 slams
-+50 (4d10+17/19-20), trunk +47 (4d8+8 plus grab)
-
-**Reach:** 80
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 80
-
-**Spec Att:** ruinous tusks, weather sphere
-
-**Swallow:** 4d10+17 damage, AC 20, 74 hp
-
-**Trample:** 4d10+25, DC 47
-
-**Spell-Like Abilities**
-
-**Caster level:** 40
-
-**Concentration:** +51
-
-**Constant:**
-
-- air walk, freedom, true seeing
-
-**At will:**
-
-- greater shout (DC 29)
-
-**Per day:**
-
-- 3/day: transmute rock to mud
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 27, Con 37, Int 14, Wis 17, Cha 32
-
-**Base attack bonus:** +40
-
-**Combat maneuver bonus:** +65 (+69 grapple or sunder)
-
-**Combat maneuver defense:** 103 (105 vs. sunder, 107 vs. grapple or trip)
-
-**Feats:** Ability Focus (greater shout), Cleave, Combat Expertise, Critical Focus, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (greater shout), Great Cleave, Great Fortitude,
-Greater Sunder, Improved Critical (bite), Improved Critical (gore), Improved Critical (slam),
-Improved Sunder, Iron Will, Multiattack, Power Attack, Run, Skill Focus (Perception), Staggering
-Critical, Stunning Critical, Weapon Focus (slam)
-
-**Skills:** Climb +37
-
-**Languages:** Celestial, Jandelayan
-
-**Special qualities:** massive
+::: statblock
+Ability scores: Str 44, Dex 27, Con 37, Int 14, Wis 17, Cha 32
+Base attack bonus: +40
+Combat maneuver bonus: +65 (+69 grapple or sunder)
+Combat maneuver defense: 103 (105 vs. sunder, 107 vs. grapple or trip)
+Feats: Ability Focus (greater shout), Cleave, Combat Expertise, Critical Focus, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (greater shout), Great Cleave, Great Fortitude, Greater Sunder, Improved Critical (bite), Improved Critical (gore), Improved Critical (slam), Improved Sunder, Iron Will, Multiattack, Power Attack, Run, Skill Focus (Perception), Staggering Critical, Stunning Critical, Weapon Focus (slam)
+Skills: Climb +37
+Languages: Celestial, Jandelayan
+Special qualities: massive
+:::
 
 ### Special Abilities
 

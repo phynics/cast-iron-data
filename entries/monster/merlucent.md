@@ -32,99 +32,73 @@ abilities = ["12", "16", "15", "11", "14", "11"]
 _A mane of long, writhing tentacles crowns this translucent, humanoid figure. A crystalline skeleton
 supports its faintly glowing flesh._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Alignment: Chaotic neutral
+Initiative: +7
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 26 (4d8+8)
+Fort: +3
+Ref: +4
+Will: +6
+Resist: cold 5
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 15 ft., swim 40 ft.
+Melee: 3 tentacles +6 (1d4+1 plus poison)
+Pull: tentacle, 5 ft.
+Reach: 5
+Reach P: 15 ft. with tentacle
+Space: 5
+Spec Att: arcane echo, poison, vitrify
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +4
+Constant: detect magic
+Per day: 3/day: delay poison, light
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 12, Dex 16, Con 15, Int 11, Wis 14, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Improved Initiative, Weapon Finesse
+Skills: Climb +6
+Racial Modifiers: +4 Survival
+Languages: Aklo; [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: jellyfish empathy, transparent flesh
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +6
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 15 ft., swim 40 ft.
-
-**Melee:** 3 tentacles +6 (1d4+1 plus poison)
-
-**Pull:** tentacle, 5 ft.
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tentacle
-
-**Space:** 5
-
-**Spec Att:** arcane echo, poison, vitrify
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +4
-
-**Constant:**
-
-- detect magic
-
-**Per day:**
-
-- 3/day: delay poison, light
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 15, Int 11, Wis 14, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Climb +6
-
-**Racial Modifiers:** +4 Survival
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** jellyfish empathy, transparent flesh
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, hunting group (3-6), or clan (9-14)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ocean
+Organization: solitary, hunting group (3-6), or clan (9-14)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

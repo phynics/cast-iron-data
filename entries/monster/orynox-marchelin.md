@@ -32,84 +32,59 @@ abilities = ["31", "16", "27", "13", "14", "16"]
 _This stocky giant has a flaming mane and facial hair, his massive armor and fiery glaive indicating
 his prowess as a warrior._
 
-**Challenge rating:** 19
-
 **Male fire giant [fighter](ref/class/fighter) (polearm master) 9**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 19
+Type: humanoid
+Initiative: +3
+Size: large
+Alignment: Lawful evil
+Perception: +29
+Senses: Low-light vision
+Subtype: Fire, Giant
+Experience points: 204,800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 35
+Touch: 14
+Flat-footed: 32
+AC modifiers: +11 armor, +2 deflection, +2 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 313 (15d8+9d10+197\~24)
+Fort: +26
+Ref: +14
+Will: +13
+Immune: fire
+Rock Ct: present
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +29
+::: statblock
+Speed: 30 ft.
+Melee: +2 [flaming burst](ref/magic-enh/flaming-burst) glaive +35/+30/+25/+20 (2d8+21/19-20/×3) or 2 slams +29 (1d8+10)
+Ranged: rock +22/+17/+12/+7 (1d8+10 plus 1d6 fire and smoke)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: flexible flanker, heated rock, pole fighting -3, polearm training +2, steadfast pike +2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Fire, Giant
-
-**Experience points:** 204,800
-
-**Armor class:** 35
-
-**Touch:** 14
-
-**Flat-footed:** 32
-
-**AC modifiers:** +11 armor, +2 deflection, +2 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 313 (15d8+9d10+197\~24)
-
-**Fort:** +26
-
-**Ref:** +14
-
-**Will:** +13
-
-**Immune:** fire
-
-**Rock Ct:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 [flaming burst](ref/magic-enh/flaming-burst) glaive +35/+30/+25/+20 (2d8+21/19-20/×3)
-or 2 slams +29 (1d8+10)
-
-**Ranged:** rock +22/+17/+12/+7 (1d8+10 plus 1d6 fire and smoke)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** flexible flanker, heated rock, pole fighting -3, polearm training +2, steadfast pike
-+2
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 16, Con 27, Int 13, Wis 14, Cha 16
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31 (+33 bull rush, overrun, sunder)
-
-**Combat maneuver defense:** 47 (49 vs. bull rush, overrun, sunder)
-
-**Feats:** Blasting Boulder, Cleave, Combat Patrol, Combat Reflexes, Critical Focus, Dodge, Great
-Cleave, Greater Weapon Focus (glaive), Improved Bull Rush, Improved Critical (glaive), Improved
-Overrun, Improved Sunder, Mobility, Power Attack, Smoking Boulder, Weapon Focus (glaive), Weapon
-Specialization (glaive)
-
-**Skills:** Climb +25, Craft (weapons) +17, Intimidate +30, Perception +29
-
-**Languages:** Common, Dwarven, Giant
+::: statblock
+Ability scores: Str 31, Dex 16, Con 27, Int 13, Wis 14, Cha 16
+Base attack bonus: +20
+Combat maneuver bonus: +31 (+33 bull rush, overrun, sunder)
+Combat maneuver defense: 47 (49 vs. bull rush, overrun, sunder)
+Feats: Blasting Boulder, Cleave, Combat Patrol, Combat Reflexes, Critical Focus, Dodge, Great Cleave, Greater Weapon Focus (glaive), Improved Bull Rush, Improved Critical (glaive), Improved Overrun, Improved Sunder, Mobility, Power Attack, Smoking Boulder, Weapon Focus (glaive), Weapon Specialization (glaive)
+Skills: Climb +25, Craft (weapons) +17, Intimidate +30, Perception +29
+Languages: Common, Dwarven, Giant
+:::
 
 ### Description
 

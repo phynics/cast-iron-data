@@ -31,92 +31,70 @@ abilities = ["7", "17", "12", "10", "15", "12"]
 _The lustrous, metallic bronze scales that cover this tiny serpent glisten as if reflecting an
 unseen light._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral good
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +3
+Immune: disease, poison
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., climb 15 ft.
+Melee: bite +3 (1d3-2 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: diagnose disease, speak with animals, snakes only
+Per day: 3/day: hypnotism (DC 12), remove sickness, sanctuary (DC 12)\
+1/day: neutralize poison, remove disease
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 7, Dex 17, Con 12, Int 10, Wis 15, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Dodge, Mobility
+Skills: Acrobatics +6, Climb +11, Perception +8, Stealth +17
+Languages: Common (can't speak)
+Special qualities: curative skin
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 30 ft., climb 15 ft.
-
-**Melee:** bite +3 (1d3-2 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- diagnose disease, speak with animals, snakes only
-
-**Per day:**
-
-- 3/day: hypnotism (DC 12), remove sickness, sanctuary (DC 12)
-- 1/day: neutralize poison, remove disease
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 17, Con 12, Int 10, Wis 15, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Dodge, Mobility
-
-**Skills:** Acrobatics +6, Climb +11, Perception +8, Stealth +17
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** curative skin
-
-**Ecology**
-
-**Environment:** warm deserts and hills
-
-**Organization:** solitary, pair, nest (1-2 plus 2-4 young), colony (4-6 plus 6-8 young)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts and hills
+Organization: solitary, pair, nest (1-2 plus 2-4 young), colony (4-6 plus 6-8 young)
+Treasure: None
+:::
 
 ### Special Abilities
 

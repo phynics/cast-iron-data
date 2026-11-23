@@ -34,95 +34,69 @@ abilities = ["34", "15", "-", "14", "13", "1"]
 
 _The tip of this towering, scorpion-like construct's tail thrums with otherworldly energy._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: construct
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Robot
+tremorsense: 60
+Experience points: 76,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 31
+Touch: 9
+Flat-footed: 28
+AC modifiers: +2 Dex, +1 dodge, +22 natural, -4 size
+Hit points: 170 (20d10+60); force field (80 hp, [fast healing](ref/umr/fast-healing) 16)
+Fort: +8
+Ref: +8
+Will: +7
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: cold, [construct traits](ref/umr/construct-traits)
+Resist: electricity 30, fire 30
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: 2 claws +28 (2d6+12/19-20)
+Ranged: 2 integrated chain guns +19 (8d6/×4)
+Reach: 20
+Sp Extra: booster jets
+Space: 20
+Spec Att: combined arms, plasma lance, suppressing fire
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 15, Con -, Int 14, Wis 13, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: +36
+Combat maneuver defense: 49 (57 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Deadly Aim, Dodge, Great Fortitude, Improved Critical (claw), Improved Initiative, Mobility, Skill Focus (Acrobatics), Weapon Focus (chain gun)
+Skills: Acrobatics +28 (+36 when jumping), Climb +20, Intimidate +15, Perception +24, Sense Motive +24
+Racial Modifiers: +8 Acrobatics (when jumping)
+Languages: Common
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 9
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +1 dodge, +22 natural, -4 size
-
-**Hit points:** 170 (20d10+60); force field (80 hp, [fast healing](ref/umr/fast-healing) 16)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +7
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits)
-
-**Resist:** electricity 30, fire 30
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** 2 claws +28 (2d6+12/19-20)
-
-**Ranged:** 2 integrated chain guns +19 (8d6/×4)
-
-**Reach:** 20
-
-**Sp Extra:** booster jets
-
-**Space:** 20
-
-**Spec Att:** combined arms, plasma lance, suppressing fire
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 15, Con -, Int 14, Wis 13, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 49 (57 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Deadly Aim, Dodge, Great Fortitude, Improved Critical
-(claw), Improved Initiative, Mobility, Skill Focus (Acrobatics), Weapon Focus (chain gun)
-
-**Skills:** Acrobatics +28 (+36 when jumping), Climb +20, Intimidate +15, Perception +24, Sense
-Motive +24
-
-**Racial Modifiers:** +8 Acrobatics (when jumping)
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

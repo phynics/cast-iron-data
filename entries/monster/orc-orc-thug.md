@@ -29,90 +29,67 @@ special_qualities = "rogue talents (bleeding attack +2, fast stealth), trapfindi
 abilities = ["17", "16", "8", "12", "8", "10"]
 +++
 
-**Challenge rating:** 3
-
 **Orc [rogue](ref/class/rogue) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +7
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 armor, +3 Dex
+Hit points: 25 (4d8+4)
+Fort: +0
+Ref: +7
+Will: +0
+Evasion: present
+Ferocity: present
+Trap S: +1
+Uncanny dodge: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +7 (1d6+3/19-20) or dagger +6 (1d4+4/19-20)
+Ranged: dagger +6 (1d4+3/19-20)
+Sneak: +2d6
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Orc
+::: statblock
+Ability scores: Str 17, Dex 16, Con 8, Int 12, Wis 8, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Improved Initiative, Toughness
+Skills: Appraise +8, Bluff +7, Climb +10, Escape Artist +10, Intimidate +7, Perception +6, Sense Motive +6, Sleight of Hand +10, Stealth +10
+Languages: Common, Goblin, Orc
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +2, [fast stealth](ref/talent/fast-stealth)), [trapfinding](ref/ability/trapfinding) +2, weapon familiarity
+Combat gear: oil of magic weapon, 2 potion of invisibility
+Other gear: +1 leather armor, 6 daggers, mwk short sword, 218 gp
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +3 Dex
-
-**Hit points:** 25 (4d8+4)
-
-**Fort:** +0
-
-**Ref:** +7
-
-**Will:** +0
-
-**Evasion:** present
-
-**Ferocity:** present
-
-**Trap S:** +1
-
-**Uncanny dodge:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk short sword +7 (1d6+3/19-20) or dagger +6 (1d4+4/19-20)
-
-**Ranged:** dagger +6 (1d4+3/19-20)
-
-**Sneak:** +2d6
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 8, Int 12, Wis 8, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Toughness
-
-**Skills:** Appraise +8, Bluff +7, Climb +10, Escape Artist +10, Intimidate +7, Perception +6, Sense
-Motive +6, Sleight of Hand +10, Stealth +10
-
-**Languages:** Common, Goblin, Orc
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +2,
-[fast stealth](ref/talent/fast-stealth)), [trapfinding](ref/ability/trapfinding) +2, weapon
-familiarity
-
-**Combat gear:** oil of magic weapon, 2 potion of invisibility
-
-**Other gear:** +1 leather armor, 6 daggers, mwk short sword, 218 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

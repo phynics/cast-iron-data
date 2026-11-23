@@ -34,104 +34,76 @@ skin caked with dirt and moss, and long white hair tangled with sticks. Sharp te
 cackling mouth, and its eyes are tiny but bright and piercing. Jungle vines weave through its
 ghostly body, which appears stuffed with decaying leaves and other plant matter._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 25,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 21
+Flat-footed: 17
+AC modifiers: +7 deflection, +4 Dex
+Hit points: 175 (14d8+112)
+Fort: +11
+Ref: +10
+Will: +15
+Chan Res: +4
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee: incorporeal touch +16 (1d6 Int drain plus daze)
+Spec Att: jungle animus, thought eater
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +21
+At will: entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist
+Per day: 3/day: command plants (DC 21), giant vermin, hallucinatory terrain (DC 21), helping hand, move earth, rainbow pattern (DC 21), soften earth and stone (DC 19), spike growth (DC 20), tree stride\
+1/day: animate plants, creeping doom (DC 24), find the path, legend lore, mage's magnificent mansion, reincarnate
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 25,600
-
-**Armor class:** 21
-
-**Touch:** 21
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +4 Dex
-
-**Hit points:** 175 (14d8+112)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +15
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect)
-
-**Melee:** incorporeal touch +16 (1d6 Int drain plus daze)
-
-**Spec Att:** jungle animus, thought eater
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +21
-
-**At will:**
-
-- entangle (DC 18), enthrall (DC 19), goodberry, mage hand, obscuring mist
-
-**Per day:**
-
-- 3/day: command plants (DC 21), giant vermin, hallucinatory terrain (DC 21), helping hand, move
-  earth, rainbow pattern (DC 21), soften earth and stone (DC 19), spike growth (DC 20), tree stride
-- 1/day: animate plants, creeping doom (DC 24), find the path, legend lore, mage's magnificent
-  mansion, reincarnate
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 23, Con -, Int 19, Wis 18, Cha 25
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative^B^, Iron Will, Lunge, Skill Focus (Perform
-\[oratory\]), Step Up, Toughness
-
-**Skills:** Appraise +21, Bluff +24, Craft (alchemy) +10, Sense Motive +24
-
-**Languages:** xC, Polyglot, Sylvan; _speak with animals, speak with vermin_
-
-**Special qualities:** unnatural aura
+::: statblock
+Ability scores: Str -, Dex 23, Con -, Int 19, Wis 18, Cha 25
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Alertness, Flyby Attack, Improved Initiative^B^, Iron Will, Lunge, Skill Focus (Perform \[oratory\]), Step Up, Toughness
+Skills: Appraise +21, Bluff +24, Craft (alchemy) +10, Sense Motive +24
+Languages: xC, Polyglot, Sylvan; _speak with animals, speak with vermin_
+Special qualities: unnatural aura
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
-
-**Organization:** solitary or tribe (1 plus 1-2 [giant flytraps](ref/monster/giant-flytrap) or 1-3
-[shambling mounds](ref/monster/shambling-mound))
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary or tribe (1 plus 1-2 [giant flytraps](ref/monster/giant-flytrap) or 1-3 [shambling mounds](ref/monster/shambling-mound))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

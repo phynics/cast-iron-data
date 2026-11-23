@@ -30,84 +30,64 @@ abilities = ["-", "18", "-", "13", "14", "20"]
 
 _This crimson spectral creature drips with blood, its skeletal face contorted with malice._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: murderous intent (30 ft.)
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** murderous intent (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 15
+AC modifiers: +5 deflection, +4 Dex
+Hit points: 95 (10d8+50)
+Fort: +8
+Ref: +7
+Will: +11
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: bottle-bound (DC 22)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: fly 40 ft. (perfect)
+Bleed: 1d4
+Melee: incorporeal touch +12 (6d8 plus 1d4 bleed and terrible wounds)
+Spec Att: terrible wounds
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 13, Wis 14, Cha 20
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 26
+Feats: Blind-Fight, Improved Initiative, Iron Will, Skill Focus (Intimidate), Weapon Focus (incorporeal touch)
+Skills: Fly +25, Intimidate +24, Perception +15
+Languages: Common
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +4 Dex
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +11
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** bottle-bound (DC 22)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Bleed:** 1d4
-
-**Melee:** incorporeal touch +12 (6d8 plus 1d4 bleed and terrible wounds)
-
-**Spec Att:** terrible wounds
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 13, Wis 14, Cha 20
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 26
-
-**Feats:** Blind-Fight, Improved Initiative, Iron Will, Skill Focus (Intimidate), Weapon Focus
-(incorporeal touch)
-
-**Skills:** Fly +25, Intimidate +24, Perception +15
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

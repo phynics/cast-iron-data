@@ -31,101 +31,73 @@ abilities = ["10", "13", "15", "10", "13", "12"]
 _This somberly dressed humanoid wears an ominous mask. Gravestones float near it like heavy
 shields._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +3 natural, +4 shield
+Hit points: 45 (6d10+12)
+Fort: +9
+Ref: +3
+Will: +8
+Defensive abilities: animated shield
+Dr: 5/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+Sr: 15
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 [returning](ref/magic-enh/returning) undead-[bane](ref/magic-enh/bane) dagger +8/+3 (1d4+1/19-20)
+Ranged: +1 returning undead-bane dagger +9 (1d4+1/19-20)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+At will: bleed, deathwatch, detect undead, disrupt undead, ghost sound (DC 11), summon (level 1, 1 great horned owl 100%)
+Per day: 3/day: chill touch (DC 12), ghostbane dirge (DC 13), greater teleport, self plus 50 lbs. of objects only, silence (DC 13), spectral hand\
+1/day: ghostly disguise, locate creature, speak with dead
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 10, Dex 13, Con 15, Int 10, Wis 13, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Great Fortitude, Iron Will, Weapon Focus (dagger)
+Skills: Knowledge (religion) +9, Perception +10, Use Magic Device +10
+Languages: Abyssal, Celestial, Infernal
+Special qualities: death's dagger, ectoplasmic focus, spirit touch
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +3 natural, +4 shield
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +9
-
-**Ref:** +3
-
-**Will:** +8
-
-**Defensive abilities:** animated shield
-
-**Dr:** 5/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 [returning](ref/magic-enh/returning) undead-[bane](ref/magic-enh/bane) dagger +8/+3
-(1d4+1/19-20)
-
-**Ranged:** +1 returning undead-bane dagger +9 (1d4+1/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**At will:**
-
-- bleed, deathwatch, detect undead, disrupt undead, ghost sound (DC 11), summon (level 1, 1 great
-  horned owl 100%)
-
-**Per day:**
-
-- 3/day: chill touch (DC 12), ghostbane dirge (DC 13), greater teleport, self plus 50 lbs. of
-  objects only, silence (DC 13), spectral hand
-- 1/day: ghostly disguise, locate creature, speak with dead
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 15, Int 10, Wis 13, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Great Fortitude, Iron Will, Weapon Focus (dagger)
-
-**Skills:** Knowledge (religion) +9, Perception +10, Use Magic Device +10
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** death's dagger, ectoplasmic focus, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or inquisition (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or inquisition (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

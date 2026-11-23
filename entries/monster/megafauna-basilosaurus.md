@@ -29,78 +29,61 @@ abilities = ["41", "12", "21", "2", "11", "6"]
 _This immense primeval whale has a sleek body that looks more serpentine than mammal, and jaws
 filled with sharp teeth._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: animal
+blindsense: 60
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral
+Perception: +25
+Senses: Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 27
+Touch: 7
+Flat-footed: 26
+AC modifiers: +1 Dex, +20 natural, -4 size
+Hit points: 161 (17d8+85)
+Fort: +17
+Ref: +11
+Will: +7
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: swim 40 ft.
+Melee: bite +23 (4d6+15/19-20 plus [grab](ref/umr/grab)), tail slap +18 (2d8+7)
+Reach: 20
+Space: 20
+Swallow: 4d6+15 bludgeoning damage, AC 20, 16 hp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str 41, Dex 12, Con 21, Int 2, Wis 11, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +31
+Combat maneuver defense: 42
+Feats: Diehard, Endurance, Great Fortitude, Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Vital Strike
+Skills: Perception +25, Swim +31
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 7
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +20 natural, -4 size
-
-**Hit points:** 161 (17d8+85)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Melee:** bite +23 (4d6+15/19-20 plus [grab](ref/umr/grab)), tail slap +18 (2d8+7)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 4d6+15 bludgeoning damage, AC 20, 16 hp
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 12, Con 21, Int 2, Wis 11, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 42
-
-**Feats:** Diehard, Endurance, Great Fortitude, Improved Critical (bite), Improved Initiative, Iron
-Will, Power Attack, Skill Focus (Perception), Vital Strike
-
-**Skills:** Perception +25, Swim +31
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or pod (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or pod (3-10)
+Treasure: None
+:::
 
 ### Description
 

@@ -34,88 +34,66 @@ abilities = ["28", "10", "21", "5", "12", "17"]
 _A twisted trunk clustered with bulbous blossoms holds up a gaping mouth ready to swallow a victim
 whole._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +13 natural, -2 size
+Hit points: 104 (11d8+55)
+Fort: +12
+Ref: +3
+Will: +4
+Dr: 10/slashing
+Fh: 5
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: cold 10
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft.
+Melee: bite +15 (2d6+9 plus [grab](ref/umr/grab)), 2 tentacles +13 (1d8+4)
+Reach: 15
+Space: 15
+Spec Att: light pulse, pod prison
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 28, Dex 10, Con 21, Int 5, Wis 12, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Blind-Fight, Improved Initiative, Improved Sunder, Multiattack, Power Attack, Skill Focus (Stealth)
+Skills: Perception +9, Stealth +4 (+20 in thick vegetation)
+Racial Modifiers: +16 Stealth in thick vegetation
+Languages: telepathy (1 mile, other moonflowers only)
+Special qualities: pod spawn
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +13 natural, -2 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +4
-
-**Dr:** 10/slashing
-
-**Fh:** 5
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +15 (2d6+9 plus [grab](ref/umr/grab)), 2 tentacles +13 (1d8+4)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** light pulse, pod prison
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 10, Con 21, Int 5, Wis 12, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Blind-Fight, Improved Initiative, Improved Sunder, Multiattack, Power Attack, Skill Focus
-(Stealth)
-
-**Skills:** Perception +9, Stealth +4 (+20 in thick vegetation)
-
-**Racial Modifiers:** +16 Stealth in thick vegetation
-
-**Languages:** telepathy (1 mile, other moonflowers only)
-
-**Special qualities:** pod spawn
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or cluster (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or cluster (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

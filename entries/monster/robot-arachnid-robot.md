@@ -31,81 +31,63 @@ abilities = ["9", "13", "-", "10", "12", "1"]
 _This dog-sized, spider-like robot has a plasma torch mounted on a stinger-like limb and gripping
 claws on its forelegs._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: construct
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Robot
+Experience points: 200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 15 (1d10+10)
+Fort: +0
+Ref: +1
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: fire 5
+Vulner: electricity
+Weaknesses: fragile, vulnerable to critical hits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +3 (1d3-1)
+Spec Att: explode, plasma torch
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 9, Dex 13, Con -, Int 10, Wis 12, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 10 (18 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +7, Disable Device +10, Perception +5, Stealth +10
+Racial Modifiers: +5 Disable Device, +5 Stealth
+Languages: Common, Hallit
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 15 (1d10+10)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** fire 5
-
-**Vulner:** electricity
-
-**Weaknesses:** fragile, vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +3 (1d3-1)
-
-**Spec Att:** explode, plasma torch
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 13, Con -, Int 10, Wis 12, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 10 (18 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +7, Disable Device +10, Perception +5, Stealth +10
-
-**Racial Modifiers:** +5 Disable Device, +5 Stealth
-
-**Languages:** Common, Hallit
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, pair, or colony (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

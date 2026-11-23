@@ -31,95 +31,70 @@ abilities = ["14", "16", "16", "15", "11", "15"]
 _Pale skin and dark features frame this starkly beautiful creature, which is surrounded by a
 palpable aura of death._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: desecrating aura (30 ft.)
+Type: fey
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**aura:** desecrating aura (30 ft.)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 39 (6d6+18)
+Fort: +5
+Ref: +8
+Will: +5
+Defensive abilities: bone dance
+Dr: 5/cold iron
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +5 (1d4+2)
+Ranged: necrotic ray +6 (2d6 negative energy, plus 2 Con)
+Spec Att: necrotic ray (2d6, DC 15)
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect undead
+At will: command undead, hide from undead (DC 15)
+Per day: 1/day: animate dead
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 16, Con 16, Int 15, Wis 11, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Dodge, Point-Blank Shot, Precise Shot
+Skills: Bluff +11, Diplomacy +11, Disguise +8, Sense Motive +9, Stealth +12
+Languages: Common, Sylvan, Undercommon
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 39 (6d6+18)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +5
-
-**Defensive abilities:** bone dance
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +5 (1d4+2)
-
-**Ranged:** necrotic ray +6 (2d6 negative energy, plus 2 Con)
-
-**Spec Att:** necrotic ray (2d6, DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect undead
-
-**At will:**
-
-- command undead, hide from undead (DC 15)
-
-**Per day:**
-
-- 1/day: animate dead
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 16, Con 16, Int 15, Wis 11, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Point-Blank Shot, Precise Shot
-
-**Skills:** Bluff +11, Diplomacy +11, Disguise +8, Sense Motive +9, Stealth +12
-
-**Languages:** Common, Sylvan, Undercommon
-
-**Ecology**
-
-**Environment:** Any underground or urban
-
-**Organization:** solitary, pair, or wake (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: Any underground or urban
+Organization: solitary, pair, or wake (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,71 +30,58 @@ abilities = ["16", "17", "-", "-", "11", "1"]
 _The soft scrape of bone reveals the long, sinuous skeleton of a large snake, its head a humanoid
 skull with a snake's jaws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 36 (3d10+20)
+Fort: +1
+Ref: +4
+Will: +1
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +6 (1d8+4 plus paralysis)
+Spec Att: dance of death
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 17, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19 (can't be tripped)
+Skills: Stealth +15
+Racial Modifiers: +12 Stealth
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 36 (3d10+20)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +1
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +6 (1d8+4 plus paralysis)
-
-**Spec Att:** dance of death
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Skills:** Stealth +15
-
-**Racial Modifiers:** +12 Stealth
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or coil (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or coil (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

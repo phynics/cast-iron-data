@@ -33,110 +33,77 @@ abilities = ["14", "19", "20", "14", "19", "21"]
 _This beautiful woman is clad only in sea foam and her long, white hair, which cascades over her
 body._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +8
+Size: medium
+Perception: +16
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Water
+tremorsense: 30 ft. (in water only)
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 76 (9d6+45)
+Fort: +8
+Ref: +10
+Will: +10
+Dr: 10/cold iron
+Fh: 10 (in salt water only)
+Immune: acid
+Resist: cold 30
+Vulner: fire
+Weaknesses: water dependency, water magic
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., swim 80 ft.
+Melee: slam +6 (1d4+3)
+Ranged: waterspout +8 (7d6)
+Spec Att: water telekinesis
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: speak with animals, sea creatures only
+At will: control water, create water, purify food and drink, water only, water breathing, up to 9 creatures at a time
+Per day: 3/day: control winds, summon nature's ally V, sea creatures or water elementals only\
+1/day: control weather
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Subtype:** Water
+::: statblock
+Ability scores: Str 14, Dex 19, Con 20, Int 14, Wis 19, Cha 21
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 26
+Feats: Combat Casting, Defensive Combat Training, Dodge, Improved Initiative, Mobility
+Skills: Diplomacy +17, Handle Animal +14, Sense Motive +16, Stealth +16, Swim +22
+Languages: Aquan, Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_ (sea creatures only)
+Special qualities: waveglide
+:::
 
-**tremorsense:** 30 ft. (in water only)
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (9d6+45)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +10
-
-**Dr:** 10/cold iron
-
-**Fh:** 10 (in salt water only)
-
-**Immune:** acid
-
-**Resist:** cold 30
-
-**Vulner:** fire
-
-**Weaknesses:** water dependency, water magic
-
-**Offense**
-
-**Speed:** 20 ft., swim 80 ft.
-
-**Melee:** slam +6 (1d4+3)
-
-**Ranged:** waterspout +8 (7d6)
-
-**Spec Att:** water telekinesis
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- speak with animals, sea creatures only
-
-**At will:**
-
-- control water, create water, purify food and drink, water only, water breathing, up to 9 creatures
-  at a time
-
-**Per day:**
-
-- 3/day: control winds, summon nature's ally V, sea creatures or water elementals only
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 20, Int 14, Wis 19, Cha 21
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Casting, Defensive Combat Training, Dodge, Improved Initiative, Mobility
-
-**Skills:** Diplomacy +17, Handle Animal +14, Sense Motive +16, Stealth +16, Swim +22
-
-**Languages:** Aquan, Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_ (sea
-creatures only)
-
-**Special qualities:** waveglide
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,79 +29,60 @@ abilities = ["25", "14", "-", "-", "10", "1"]
 
 _A series of metal rings rotates around a giant prismatic sphere._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: construct
+Size: gargantuan
+Initiative: +2
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Experience points: 25,600
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 22
+AC modifiers: +2 Dex, +16 natural, -4 size
+Hit points: 159 (18d10+60)
+Fort: +6
+Ref: +8
+Will: +6
+Defensive abilities: all-around vision, dispel resistance, [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 0 ft., (cannot move)
+Constrict: 6d6+10
+Melee: slam +21 (6d6+10 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 20
+Spec Att: blinding pulse, prismatic refraction (+17 ranged touch, DC 21, every 1d4 rounds)
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +8
+Constant: true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 25,600
-
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +16 natural, -4 size
-
-**Hit points:** 159 (18d10+60)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +6
-
-**Defensive abilities:** all-around vision, dispel resistance, [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 0 ft., (cannot move)
-
-**Constrict:** 6d6+10
-
-**Melee:** slam +21 (6d6+10 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 20
-
-**Spec Att:** blinding pulse, prismatic refraction (+17 ranged touch, DC 21, every 1d4 rounds)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +8
-
-**Constant:**
-
-- true seeing
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 41
-
-**Skills:** Perception +12
-
-**Racial Modifiers:** +12 Perception
+::: statblock
+Ability scores: Str 25, Dex 14, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 41
+Skills: Perception +12
+Racial Modifiers: +12 Perception
+:::
 
 ### Special Abilities
 

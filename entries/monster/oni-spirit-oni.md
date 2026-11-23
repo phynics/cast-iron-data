@@ -31,98 +31,70 @@ abilities = ["6", "19", "12", "13", "12", "15"]
 _This evil-looking animated mask shows the face of a horned fiend, its eyes popping and its leering
 smile full of fangs._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +8
+Alignment: Lawful evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Native, Oni
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 16
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +7
+Will: +4
+Fh: 2
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 10 ft., fly 30 ft. (good)
+Melee: bite +9 (1d4-2), gore +9 (1d4-2 plus poison)
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect magic
+At will: invisibility, self only, mage hand
+Per day: 1/day: command (DC 13), sleep (DC 13)
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Native, Oni
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 19, Con 12, Int 13, Wis 12, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Acrobatics +7, Bluff +8, Fly +16, Knowledge (arcana) +7, Perception +7, Sense Motive +7, Spellcraft +4, Stealth +17
+Languages: Common
+Special qualities: mask symbiosis
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +4
-
-**Fh:** 2
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (good)
-
-**Melee:** bite +9 (1d4-2), gore +9 (1d4-2 plus poison)
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- invisibility, self only, mage hand
-
-**Per day:**
-
-- 1/day: command (DC 13), sleep (DC 13)
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 19, Con 12, Int 13, Wis 12, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +7, Bluff +8, Fly +16, Knowledge (arcana) +7, Perception +7, Sense Motive +7,
-Spellcraft +4, Stealth +17
-
-**Languages:** Common
-
-**Special qualities:** mask symbiosis
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or rack (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or rack (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

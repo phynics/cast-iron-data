@@ -27,73 +27,59 @@ abilities = ["34", "11", "22", "2", "17", "7"]
 
 _This stocky quadruped's lowered head puts its intimidating Y-shaped horn on full display._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +13 natural, -2 size
+Hit points: 105 (10d8+60)
+Fort: +13
+Ref: +7
+Will: +8
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: slam +17 (3d6+18)
+Pow Ch: slam, 6d6+18
+Reach: 15
+Space: 15
+Trample: 3d6+18, DC 27
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 34, Dex 11, Con 22, Int 2, Wis 17, Cha 7
+Base attack bonus: +7
+Combat maneuver bonus: +21
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Diehard, Endurance, Improved Initiative, Iron Will, Power Attack
+Skills: Perception +16
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +13 natural, -2 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** slam +17 (3d6+18)
-
-**Pow Ch:** slam, 6d6+18
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 3d6+18, DC 27
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 11, Con 22, Int 2, Wis 17, Cha 7
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Diehard, Endurance, Improved Initiative, Iron Will, Power Attack
-
-**Skills:** Perception +16
-
-**Ecology**
-
-**Environment:** any plains
-
-**Organization:** solitary, pair, or herd (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: any plains
+Organization: solitary, pair, or herd (3-9)
+Treasure: None
+:::
 
 ### Description
 

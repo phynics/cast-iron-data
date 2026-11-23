@@ -31,85 +31,64 @@ abilities = ["3", "24", "16", "3", "11", "14"]
 
 _These songbird-sized drakes declare their territory with an insistent chorus of shrill chirps._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: diminutive
+Type: dragon
+Initiative: +11
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+Experience points: 6,400
+:::
 
-**Size:** diminutive
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 23
+Touch: 21
+Flat-footed: 16
+AC modifiers: +7 Dex, +2 natural, +4 size
+Hit points: 115 (11d12+44)
+Fort: +12
+Ref: +14
+Will: +9
+Defensive abilities: swarm traits
+Immune: acid, paralysis, sleep, weapon damage
+:::
 
-**Initiative:** +11
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft., fly 60 ft. (good)
+Distraction: 18
+Melee: swarm (3d6 acid plus blistering slime and distraction)
+Reach: 0
+Space: 10
+Spec Att: blistering slime, caustic cloud (10-ft.-radius burst, 8d6 acid, Reflex DC 20 half, usable every 1d4 rounds)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 3, Dex 24, Con 16, Int 3, Wis 11, Cha 14
+Base attack bonus: +11
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (caustic cloud), Alertness, Great Fortitude, Improved Initiative, Iron Will, Toughness
+Skills: Acrobatics +12, Fly +24, Perception +8
+Racial Modifiers: +4 Survival
+Special qualities: homing
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 21
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 Dex, +2 natural, +4 size
-
-**Hit points:** 115 (11d12+44)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +9
-
-**Defensive abilities:** swarm traits
-
-**Immune:** acid, paralysis, sleep, weapon damage
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (good)
-
-**Distraction:** 18
-
-**Melee:** swarm (3d6 acid plus blistering slime and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** blistering slime, caustic cloud (10-ft.-radius burst, 8d6 acid, Reflex DC 20 half,
-usable every 1d4 rounds)
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 24, Con 16, Int 3, Wis 11, Cha 14
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (caustic cloud), Alertness, Great Fortitude, Improved Initiative, Iron
-Will, Toughness
-
-**Skills:** Acrobatics +12, Fly +24, Perception +8
-
-**Racial Modifiers:** +4 Survival
-
-**Special qualities:** homing
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or rampage (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or rampage (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

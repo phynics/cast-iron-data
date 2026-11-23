@@ -29,116 +29,77 @@ abilities = ["29", "31", "28", "24", "27", "28"]
 
 _This serpentine monster has six arms and is crowned by a halo of ever-changing symbols._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: cloak of chaos (DC 27)
+blindsense: 60
+Alignment: Chaotic neutral
+Initiative: +14
+Size: medium
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., Detect law, True seeing
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 307,200
+:::
 
-**aura:** cloak of chaos (DC 27)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 36
+Touch: 24
+Flat-footed: 26
+AC modifiers: +10 Dex, +4 deflection, +12 natural
+Hit points: 362 (25d10+225)
+Fort: +27
+Ref: +22
+Will: +26
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/lawful
+Immune: acid, polymorph effects
+Resist: electricity 10, sonic 10
+Sr: 31
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 50 ft. (perfect)
+Constrict: 1d8+13
+Melee: bite +34 (4d6+9/19-20 plus greater warpwave), 6 claws +34 (1d6+9 plus greater warpwave), 2 tail slaps +32 (1d8+4 plus [grab](ref/umr/grab))
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: cloak of chaos (DC 27), detect law, true seeing
+At will: confusion (DC 23), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, major creation, plane shift (DC 26), telekinesis (DC 34)
+Per day: 3/day: quickened confusion (DC 23), quickened disintegrate (DC 25), prismatic spray (DC 26), reshape reality (DC 26), quickened telekinesis (DC 24), word of chaos (DC 26)\
+1/day: heal, implosion (DC 28), mage's disjunction, prismatic sphere (DC 28)
+Per year: miracle
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +36
+::: statblock
+Ability scores: Str 29, Dex 31, Con 28, Int 24, Wis 27, Cha 28
+Base attack bonus: +25
+Combat maneuver bonus: +34
+Combat maneuver defense: 58 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Flyby Attack, Greater Vital Strike, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion, disintegrate, telekinesis), Vital Strike
+Skills: Acrobatics +38, Bluff +37, Diplomacy +37, Fly +46
+Languages: Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) ([shapechange](ref/spell/shapechange))
+:::
 
-**Senses:** Darkvision 60 ft., Detect law, True seeing
+### Ecology
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 24
-
-**Flat-footed:** 26
-
-**AC modifiers:** +10 Dex, +4 deflection, +12 natural
-
-**Hit points:** 362 (25d10+225)
-
-**Fort:** +27
-
-**Ref:** +22
-
-**Will:** +26
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/lawful
-
-**Immune:** acid, polymorph effects
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 50 ft. (perfect)
-
-**Constrict:** 1d8+13
-
-**Melee:** bite +34 (4d6+9/19-20 plus greater warpwave), 6 claws +34 (1d6+9 plus greater warpwave),
-2 tail slaps +32 (1d8+4 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- cloak of chaos (DC 27), detect law, true seeing
-
-**At will:**
-
-- confusion (DC 23), greater dispel magic, greater teleport, self plus 50 lbs. of objects only,
-  major creation, plane shift (DC 26), telekinesis (DC 34)
-
-**Per day:**
-
-- 3/day: quickened confusion (DC 23), quickened disintegrate (DC 25), prismatic spray (DC 26),
-  reshape reality (DC 26), quickened telekinesis (DC 24), word of chaos (DC 26)
-- 1/day: heal, implosion (DC 28), mage's disjunction, prismatic sphere (DC 28)
-
-**Per year:**
-
-- miracle
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 31, Con 28, Int 24, Wis 27, Cha 28
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 58 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Flyby Attack, Greater Vital Strike, Improved Critical
-(bite), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (confusion, disintegrate, telekinesis), Vital
-Strike
-
-**Skills:** Acrobatics +38, Bluff +37, Diplomacy +37, Fly +46
-
-**Languages:** Abyssal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([shapechange](ref/spell/shapechange))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary or chorus (2-3)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary or chorus (2-3)
+Treasure: Double
+:::
 
 ### Special Abilities
 

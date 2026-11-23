@@ -28,72 +28,58 @@ abilities = ["29", "10", "21", "2", "13", "6"]
 _This towering armored herbivore resembles a hornless rhinoceros, but with longer legs and a longer
 neck._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 22
+Touch: 8
+Flat-footed: 22
+AC modifiers: +14 natural, -2 size
+Hit points: 114 (12d8+60)
+Fort: +15
+Ref: +8
+Will: +7
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 hooves +16 (2d8+9)
+Reach: 10
+Space: 15
+Trample: 2d8+13, DC 25
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 29, Dex 10, Con 21, Int 2, Wis 13, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +20 (+22 bull rush)
+Combat maneuver defense: 30 (32 vs. bull rush, 34 vs. trip)
+Feats: Awesome Blow, Great Fortitude, Improved Bull Rush, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Perception +16, Swim +15
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 8
-
-**Flat-footed:** 22
-
-**AC modifiers:** +14 natural, -2 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 hooves +16 (2d8+9)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Trample:** 2d8+13, DC 25
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 10, Con 21, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +20 (+22 bull rush)
-
-**Combat maneuver defense:** 30 (32 vs. bull rush, 34 vs. trip)
-
-**Feats:** Awesome Blow, Great Fortitude, Improved Bull Rush, Iron Will, Power Attack, Skill Focus
-(Perception)
-
-**Skills:** Perception +16, Swim +15
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or herd (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or herd (3-8)
+Treasure: None
+:::
 
 ### Description
 

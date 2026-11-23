@@ -30,82 +30,63 @@ abilities = ["27", "12", "21", "2", "21", "12"]
 _This immense, green creature stands on two thick legs, glaring with a single massive eye as it
 displays knife-like talons._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: [stench](ref/umr/stench) (30 ft., DC 22, 10 rounds)
+Size: huge
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 22, 10 rounds)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 26
+AC modifiers: +1 Dex, +18 natural, -2 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +10
+Will: +9
+Dr: 15/slashing
+Weaknesses: landbound
+:::
 
-**Initiative:** +5
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft.
+Melee: bite +21 (1d10+8), 2 claws +21 (2d6+8/19-20)
+Reach: 15
+Rend: 2 claws, 2d6+8
+Space: 15
+Spec Att: frightening howl
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +18
+::: statblock
+Ability scores: Str 27, Dex 12, Con 21, Int 2, Wis 21, Cha 12
+Base attack bonus: +14
+Combat maneuver bonus: +24
+Combat maneuver defense: 35
+Feats: Improved Critical (claw), Improved Initiative, Lunge, Power Attack, Skill Focus (Perception)), Weapon Focus (bite), Weapon Focus (claw)
+Skills: Perception +18, Stealth +11 (+19 in forests)
+Racial Modifiers: +8 Stealth (+16 in forests)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +18 natural, -2 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +9
-
-**Dr:** 15/slashing
-
-**Weaknesses:** landbound
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +21 (1d10+8), 2 claws +21 (2d6+8/19-20)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 2d6+8
-
-**Space:** 15
-
-**Spec Att:** frightening howl
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 21, Int 2, Wis 21, Cha 12
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 35
-
-**Feats:** Improved Critical (claw), Improved Initiative, Lunge, Power Attack, Skill Focus
-(Perception)), Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Perception +18, Stealth +11 (+19 in forests)
-
-**Racial Modifiers:** +8 Stealth (+16 in forests)
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm forests
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

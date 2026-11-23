@@ -31,77 +31,61 @@ abilities = ["3", "15", "12", "2", "15", "7"]
 _The pitch-black birds that make up this torrent of claws and feathers glare ominously from hundreds
 of beady eyes._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Subtype: Swarm
+Size: tiny
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 27 (5d8+5)
+Fort: +5
+Ref: +8
+Will: +3
+Defensive abilities: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Distraction: 13
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+Spec Att: blindness
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 3, Dex 15, Con 12, Int 2, Wis 15, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
+Skills: Fly +11, Perception +11
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 27 (5d8+5)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Distraction:** 13
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** blindness
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 12, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Fly +11, Perception +11
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary or unkindness (2-6 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate
+Organization: solitary or unkindness (2-6 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

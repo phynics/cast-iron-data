@@ -32,83 +32,64 @@ abilities = ["8", "21", "-", "10", "15", "1"]
 _Spinning blades, long needles, and crystal-tipped rods stud the surface of this hovering metallic
 sphere._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: +5
+Alignment: Neutral
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Robot
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 17
+AC modifiers: +5 Dex, +1 dodge, +6 natural, +1 size
+Hit points: 105 (10d10+10 plus 40-hp force field)
+Fort: +3
+Ref: +8
+Will: +5
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 4 rotating blades +16 (1d4+5/18-20)
+Ranged: 4 surgical lasers +16 touch (1d8/19-20 plus fire)
+Spec Att: agile, interrogate, nanosurgeon
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 21, Con -, Int 10, Wis 15, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +8
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Alertness, Dodge, Mobility, Vital Strike, Weapon Finesse
+Skills: Fly +15, Perception +19, Sense Motive +19
+Racial Modifiers: +15 Heal
+Languages: Common, Hallit
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 Dex, +1 dodge, +6 natural, +1 size
-
-**Hit points:** 105 (10d10+10 plus 40-hp force field)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +5
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 4 rotating blades +16 (1d4+5/18-20)
-
-**Ranged:** 4 surgical lasers +16 touch (1d8/19-20 plus fire)
-
-**Spec Att:** agile, interrogate, nanosurgeon
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 21, Con -, Int 10, Wis 15, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Alertness, Dodge, Mobility, Vital Strike, Weapon Finesse
-
-**Skills:** Fly +15, Perception +19, Sense Motive +19
-
-**Racial Modifiers:** +15 Heal
-
-**Languages:** Common, Hallit
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

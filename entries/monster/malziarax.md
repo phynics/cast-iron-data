@@ -32,101 +32,68 @@ abilities = ["43", "14", "32", "18", "21", "26"]
 
 _This enormous, ebon-skinned giant is covered in glowing red runes and exotic plate armor._
 
-**Challenge rating:** 21
-
 **Female rune giant [fighter](ref/class/fighter) 4**
 
-**Size:** gargantuan
+::: statblock
+Challenge rating: 21
+Size: gargantuan
+Type: humanoid
+Initiative: +6
+Alignment: Lawful evil
+Perception: +32
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 409,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 38
+Touch: 10
+Flat-footed: 36
+AC modifiers: +11 armor, +2 deflection, +2 Dex, +17 natural, -4 size
+Hit points: 380 (20d8+4d10+268\~24)
+Fort: +21
+Ref: +9
+Will: +20; +1 vs. fear
+Defensive abilities: bravery +1
+Immune: cold, electricity, fire
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +32
+::: statblock
+Speed: 35 ft., (50 ft. without armor)
+Melee: +3 [speed](ref/magic-enh/speed) longsword +35/+30/+25/+20 (4d6+21/17-20) or 2 slams +31 (2d6+16)
+Ranged: +1 spear +18/+13/+8/+3 (4d6+17/×3)
+Reach: 20
+Space: 20
+Spec Att: command giants, runes, spark shower
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: air walk
+At will: charm person (DC 19), suggestion (DC 21)
+Per day: 3/day: dominate person (DC 23), mass charm person (DC 26)\
+1/day: demand (DC 26), true seeing
+:::
 
-**Subtype:** Giant
+### Statistics
 
-**Experience points:** 409,600
-
-**Armor class:** 38
-
-**Touch:** 10
-
-**Flat-footed:** 36
-
-**AC modifiers:** +11 armor, +2 deflection, +2 Dex, +17 natural, -4 size
-
-**Hit points:** 380 (20d8+4d10+268\~24)
-
-**Fort:** +21
-
-**Ref:** +9
-
-**Will:** +20; +1 vs. fear
-
-**Defensive abilities:** bravery +1
-
-**Immune:** cold, electricity, fire
-
-**Offense**
-
-**Speed:** 35 ft., (50 ft. without armor)
-
-**Melee:** +3 [speed](ref/magic-enh/speed) longsword +35/+30/+25/+20 (4d6+21/17-20) or 2 slams +31
-(2d6+16)
-
-**Ranged:** +1 spear +18/+13/+8/+3 (4d6+17/×3)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** command giants, runes, spark shower
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- charm person (DC 19), suggestion (DC 21)
-
-**Per day:**
-
-- 3/day: dominate person (DC 23), mass charm person (DC 26)
-- 1/day: demand (DC 26), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 14, Con 32, Int 18, Wis 21, Cha 26
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +39
-
-**Combat maneuver defense:** 53
-
-**Feats:** Awesome Blow, Blinding Critical, Critical Focus, Improved Bull Rush, Improved Critical
-(longsword), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quick Draw,
-Staggering Critical, Stunning Critical, Vital Strike, Weapon Focus (longsword), Weapon
-Specialization (longsword)
-
-**Skills:** Acrobatics +22, Craft (weapons) +31, Intimidate +35, Knowledge (history) +31, Perception
-+32
-
-**Languages:** Common, Giant, Tien
-
-**Special qualities:** armor training 1
+::: statblock
+Ability scores: Str 43, Dex 14, Con 32, Int 18, Wis 21, Cha 26
+Base attack bonus: +19
+Combat maneuver bonus: +39
+Combat maneuver defense: 53
+Feats: Awesome Blow, Blinding Critical, Critical Focus, Improved Bull Rush, Improved Critical (longsword), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quick Draw, Staggering Critical, Stunning Critical, Vital Strike, Weapon Focus (longsword), Weapon Specialization (longsword)
+Skills: Acrobatics +22, Craft (weapons) +31, Intimidate +35, Knowledge (history) +31, Perception +32
+Languages: Common, Giant, Tien
+Special qualities: armor training 1
+:::
 
 ### Description
 

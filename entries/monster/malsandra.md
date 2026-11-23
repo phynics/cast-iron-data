@@ -34,121 +34,77 @@ _Standing amid a roiling fog, this nude, humanoid woman's pale, wet skin glisten
 hair moves about her head as though she were submerged underwater, and rapier in her hand crackles
 with arcane energy._
 
-**Challenge rating:** 16
-
 **Rusalka [rogue](ref/class/rogue) 4**
 
-**Type:** fey
+::: statblock
+Challenge rating: 16
+Type: fey
+Initiative: +13
+Size: medium
+Alignment: Neutral evil
+Perception: +33
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 76,800
+:::
 
-**Initiative:** +13
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 31
+Touch: 23
+Flat-footed: 21
+AC modifiers: +3 deflection, +9 Dex, +1 dodge, +8 natural
+Hit points: 212 (20d6+4d8+124\~24)
+Fort: +14
+Ref: +25
+Will: +15
+Dr: 15/cold iron
+Evasion: present
+Immune: fire
+Sr: 27
+Trap S: +1
+Uncanny dodge: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Constrict: 2d6+10
+Melee: +2 vicious frost rapier +24/+19/+14 (1d6+9/18-20 plus 1d6 frost plus 2d6), staggering touch +17 (stagger), 4 tresses +17 (2d6+3 plus [grab](ref/umr/grab))
+Ranged: +1 hand crossbow +23 (1d4+1/19-20)
+Reach: 5
+Reach P: 15 ft. with tresses
+Sneak: +2d6
+Space: 5
+Spec Att: beckoning call (DC 28),, staggering touch (DC 28), tresses
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: blur, water walk
+At will: entangle (DC 19), fog cloud, invisibility
+Per day: 3/day: quickened charm monster (DC 22), control water\
+1/day: summon nature's ally VI, water elementals only
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 23
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 deflection, +9 Dex, +1 dodge, +8 natural
-
-**Hit points:** 212 (20d6+4d8+124\~24)
-
-**Fort:** +14
-
-**Ref:** +25
-
-**Will:** +15
-
-**Dr:** 15/cold iron
-
-**Evasion:** present
-
-**Immune:** fire
-
-**Sr:** 27
-
-**Trap S:** +1
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Constrict:** 2d6+10
-
-**Melee:** +2 vicious frost rapier +24/+19/+14 (1d6+9/18-20 plus 1d6 frost plus 2d6), staggering
-touch +17 (stagger), 4 tresses +17 (2d6+3 plus [grab](ref/umr/grab))
-
-**Ranged:** +1 hand crossbow +23 (1d4+1/19-20)
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tresses
-
-**Sneak:** +2d6
-
-**Space:** 5
-
-**Spec Att:** beckoning call (DC 28),, staggering touch (DC 28), tresses
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- blur, water walk
-
-**At will:**
-
-- entangle (DC 19), fog cloud, invisibility
-
-**Per day:**
-
-- 3/day: quickened charm monster (DC 22), control water
-- 1/day: summon nature's ally VI, water elementals only
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 28, Con 21, Int 12, Wis 11, Cha 26
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22 (+26 when using tresses)
-
-**Combat maneuver defense:** 43
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will,
-Point-Blank Shot, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm
-monster), Rapid Reload, Rapid Shot, Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +20, Bluff +35, Diplomacy +19, Perform (dance) +21, Sense Motive +17, Stealth
-+42, Swim +28
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), rogue talents
-([combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue)),
-[trapfinding](ref/ability/trapfinding) +2
-
-**Combat gear:** potion of barkskin, 3 potion of cure serious wounds
-
-**Other gear:** +1 hand20, +2 V flaming rapier, ring of prot3, gems and art objects worth 3,000 gp,
-230 gp
+::: statblock
+Ability scores: Str 24, Dex 28, Con 21, Int 12, Wis 11, Cha 26
+Base attack bonus: +13
+Combat maneuver bonus: +22 (+26 when using tresses)
+Combat maneuver defense: 43
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Point-Blank Shot, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Rapid Reload, Rapid Shot, Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +20, Bluff +35, Diplomacy +19, Perform (dance) +21, Sense Motive +17, Stealth +42, Swim +28
+Languages: Aquan, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), rogue talents ([combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue)), [trapfinding](ref/ability/trapfinding) +2
+Combat gear: potion of barkskin, 3 potion of cure serious wounds
+Other gear: +1 hand20, +2 V flaming rapier, ring of prot3, gems and art objects worth 3,000 gp, 230 gp
+:::
 
 ### Description
 

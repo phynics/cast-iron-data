@@ -29,81 +29,65 @@ abilities = ["18", "15", "16", "10", "13", "13"]
 _This magnificient horse has great bird-like wings upon its back and moves with a quiet and proud
 grace._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic good
+Initiative: +2
+Size: large
+Type: Magical beast
+Perception: +11
+Senses: Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
+Experience points: 800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., fly 120 ft. (average)
+Melee: bite +7 (1d3+4), 2 hooves +2 (1d6+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Constant: detect evil, 60-ft. radius, detect good, 60-ft. radius
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 10, Wis 13, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Flyby Attack, Iron Will
+Skills: Fly +5, Perception +11, Sense Motive +7
+Racial Modifiers: +4 Perception
+Languages: Common (can't speak)
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (average)
-
-**Melee:** bite +7 (1d3+4), 2 hooves +2 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Constant:**
-
-- detect evil, 60-ft. radius, detect good, 60-ft. radius
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 16, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Flyby Attack, Iron Will
-
-**Skills:** Fly +5, Perception +11, Sense Motive +7
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** temperate and warm plains
-
-**Organization:** solitary, pair, or herd (6-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and warm plains
+Organization: solitary, pair, or herd (6-10)
+Treasure: None
+:::
 
 ### Description
 

@@ -30,67 +30,52 @@ abilities = ["12", "13", "-", "-", "10", "10"]
 _Though at first appearing to be an ordinary suit of armor, this imposing being begins to move, its
 lumbering movements slow and methodical._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +5
+Alignment: Neutral evil
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 15
+AC modifiers: +1 Dex, +3 natural, +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +1
+Will: +3
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft., fly 30 ft. (perfect)
+Melee: slam +4 (1d4+1)
+Spec Att: skull cage
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 400
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +3 natural, +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +3
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (perfect)
-
-**Melee:** slam +4 (1d4+1)
-
-**Spec Att:** skull cage
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con -, Int -, Wis 10, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (cannot be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +5, Stealth +12
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze)
+::: statblock
+Ability scores: Str 12, Dex 13, Con -, Int -, Wis 10, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (cannot be tripped)
+Feats: Improved Initiative
+Skills: Perception +5, Stealth +12
+Languages: Common (can't speak)
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
 ### Special Abilities
 

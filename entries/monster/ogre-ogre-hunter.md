@@ -30,57 +30,44 @@ special_qualities = "favored terrain (forest +2), hunter's bond (wolf animal com
 abilities = ["26", "12", "17", "8", "10", "5"]
 +++
 
-**Challenge rating:** 9
-
 **Ogre [ranger](ref/class/ranger) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: large
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense {#stat-defense}
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 21
+AC modifiers: +6 armor, +1 deflection, +1 Dex, +5 natural, -1 size
+Hit points: 81 (4d8+6d10+30\~10)
+Fort: +13
+Ref: +10
+Will: +6
+:::
 
-**Size:** large
+### Offense {#stat-offense}
 
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 armor, +1 deflection, +1 Dex, +5 natural, -1 size
-
-**Hit points:** 81 (4d8+6d10+30\~10)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** animals +2, humans +4
-
-**Melee:** mwk greatsword +18/+13 (3d6+12/19-20)
-
-**Ranged:** mwk composite shortbow +10/+5 (1d8+8/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** combat style (two-handed weapon)
+::: statblock
+Speed: 30 ft.
+Fav En: animals +2, humans +4
+Melee: mwk greatsword +18/+13 (3d6+12/19-20)
+Ranged: mwk composite shortbow +10/+5 (1d8+8/×3)
+Reach: 10
+Space: 10
+Spec Att: combat style (two-handed weapon)
+:::
 
 ### Tactics
 
@@ -90,34 +77,26 @@ because live captives are more fun for him and his family. He sets his wolf comp
 spellcasters who are bothering him. If he thinks he might be slain, he mercilessly carves through
 his foes, focusing on killing any humans first.
 
-**Statistics**
+### Statistics {#stat-statistics}
 
-**Ability scores:** Str 26, Dex 12, Con 17, Int 8, Wis 10, Cha 5
+::: statblock
+Ability scores: Str 26, Dex 12, Con 17, Int 8, Wis 10, Cha 5
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 30
+Feats: Cleave, Endurance, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (greatsword)
+Skills: Climb +15, Handle Animal +5, Intimidate +5, Perception +13
+Languages: Giant
+Special qualities: [favored terrain](ref/ability/favored-terrain) (forest +2), hunter's bond (wolf animal companion), track +3, [wild empathy](ref/ability/wild-empathy) +3
+Combat gear: potion of cure moderate wounds
+Other gear: [rhino hide](ref/magic-armor/rhino-hide), mwk csb20, mwk greatsword, Iclk1, ring of prot1, 60 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 30
-
-**Feats:** Cleave, Endurance, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack,
-Vital Strike, Weapon Focus (greatsword)
-
-**Skills:** Climb +15, Handle Animal +5, Intimidate +5, Perception +13
-
-**Languages:** Giant
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (forest +2), hunter's bond
-(wolf animal companion), track +3, [wild empathy](ref/ability/wild-empathy) +3
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** [rhino hide](ref/magic-armor/rhino-hide), mwk csb20, mwk greatsword, Iclk1, ring of
-prot1, 60 gp
-
-**Ecology**
-
-**Environment:** temperate or cold hills
+::: statblock
+Environment: temperate or cold hills
+:::
 
 ### Description
 

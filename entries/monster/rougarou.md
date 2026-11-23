@@ -31,78 +31,62 @@ abilities = ["16", "15", "13", "10", "12", "8"]
 
 _This muscular, wolf-headed humanoid is covered in brown and gray fur._
 
-**Challenge rating:** 1/2
-
 **Female rougarou [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful neutral
+Size: medium
+Perception: +5
+Senses: Low-light vision, Scent
+Subtype: Shapechanger
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 armor, +2 Dex
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +4
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Fav En: humanoid \[shapechanger\] +2
+Melee: bite +4 (1d6+4)
+Ranged: longbow +3 (1d8/×3)
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 15, Con 13, Int 10, Wis 12, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Point-Blank Shot
+Skills: Climb +7, Knowledge (nature) +4, Perception +5
+Languages: Common, Rougarou
+Special qualities: [change shape](ref/umr/change-shape) (wolf; [beast shape I](ref/spell/beast-shape-1)), track +1, [wild empathy](ref/ability/wild-empathy) +0
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +2 Dex
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humanoid \[shapechanger\] +2
-
-**Melee:** bite +4 (1d6+4)
-
-**Ranged:** longbow +3 (1d8/×3)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 13, Int 10, Wis 12, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Point-Blank Shot
-
-**Skills:** Climb +7, Knowledge (nature) +4, Perception +5
-
-**Languages:** Common, Rougarou
-
-**Special qualities:** [change shape](ref/umr/change-shape) (wolf;
-[beast shape I](ref/spell/beast-shape-1)), track +1, [wild empathy](ref/ability/wild-empathy) +0
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Standard (leather armor, lb20); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or pack (3-12)
+Treasure: Standard (leather armor, lb20); other treasure
+:::
 
 ### Special Abilities
 

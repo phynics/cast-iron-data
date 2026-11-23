@@ -30,93 +30,71 @@ abilities = ["16", "18", "17", "11", "15", "14"]
 
 _This small dragon, which appears to be composed of coils of rope, bristles with frayed filaments._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +4
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Shapechanger
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +4 natural, +1 size
+Hit points: 57 (6d12+18)
+Fort: +8
+Ref: +9
+Will: +7
+Dr: 5/slashing
+Immune: paralysis, sleep
+Vulner: fire
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft., fly 30 ft. (average)
+Br Weap: 20-ft. cone, 4d6 slashing damage, Reflex DC 16 for half, usable every 1d4 rounds
+Melee: 2 claws +10 (1d4+3), bite +10 (1d6+3), tail slap +5 (1d4+1)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+Spec Att: corded breath, discorporating coils
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+At will: animate rope
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 18, Con 17, Int 11, Wis 15, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +8 (+10 disarm, +10 trip)
+Combat maneuver defense: 22 (24 vs. disarm, 26 vs. trip)
+Feats: Combat Reflexes, Flyby Attack, Improved Disarm, Improved Trip, Skill Focus (Stealth)
+Skills: Acrobatics +10, Climb +10, Fly +15
+Languages: Common, Draconic
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +4 natural, +1 size
-
-**Hit points:** 57 (6d12+18)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 5/slashing
-
-**Immune:** paralysis, sleep
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (average)
-
-**Br Weap:** 20-ft. cone, 4d6 slashing damage, Reflex DC 16 for half, usable every 1d4 rounds
-
-**Melee:** 2 claws +10 (1d4+3), bite +10 (1d6+3), tail slap +5 (1d4+1)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** corded breath, discorporating coils
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**At will:**
-
-- animate rope
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 17, Int 11, Wis 15, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8 (+10 disarm, +10 trip)
-
-**Combat maneuver defense:** 22 (24 vs. disarm, 26 vs. trip)
-
-**Feats:** Combat Reflexes, Flyby Attack, Improved Disarm, Improved Trip, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +10, Climb +10, Fly +15
-
-**Languages:** Common, Draconic
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,117 +33,82 @@ hooves._
 
 **Mythic Ophiotaurus**
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Mythic rank: 7
+Size: gargantuan
+Initiative: +15/-5, [dual initiative](ref/umr/dual-initiative)
+Type: Magical beast
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Mythic
+Experience points: 102,400
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 36
+Touch: 10
+Flat-footed: 32
+AC modifiers: +4 Dex, +26 natural, -4 size
+Hit points: 302 (16d10+214)
+Fort: +19
+Ref: +14
+Will: +15; +8 vs. mind-affecting effects
+Defensive abilities: apocalyptic wound
+Dr: 15/epic
+Fortif: 50
+Immune: divination, fear
+P Blood: nightmare vapor
+Regen: 10 (cursed weapons)
+Sec Save: present
+Sr: 28
+:::
 
-**Initiative:** +15/-5, [dual initiative](ref/umr/dual-initiative)
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Constrict: 2d6+22
+M Power: 7/day, surge +1d10
+Melee: gore +27 (2d8+15), 2 hooves +25 (2d6+7), tail slap +25 (2d8+7 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: confounding coils, drag along
+Trample: 4d6+15, DC 27
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19; Wisdom-based
+Constant: mind blank
+Per day: 3/day: restore mythic power, share glory, steal power (DC 19)\
+1/day: ascension
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 40, Dex 19, Con 28, Int 5, Wis 26, Cha 13
+Base attack bonus: +16
+Combat maneuver bonus: +35
+Combat maneuver defense: 49
+Feats: Mythic Combat Reflexes, Greater Vital Strike, Mythic Improved Initiative, Improved Vital Strike, Iron Will, Multiattack, Mythic Power Attack, Mythic Vital Strike
+Skills: Climb +20
+Languages: Common
+Special qualities: questing beast
+:::
 
-**Subtype:** Mythic
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 36
-
-**Touch:** 10
-
-**Flat-footed:** 32
-
-**AC modifiers:** +4 Dex, +26 natural, -4 size
-
-**Hit points:** 302 (16d10+214)
-
-**Fort:** +19
-
-**Ref:** +14
-
-**Will:** +15; +8 vs. mind-affecting effects
-
-**Defensive abilities:** apocalyptic wound
-
-**Dr:** 15/epic
-
-**Fortif:** 50
-
-**Immune:** divination, fear
-
-**P Blood:** nightmare vapor
-
-**Regen:** 10 (cursed weapons)
-
-**Sec Save:** present
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Constrict:** 2d6+22
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** gore +27 (2d8+15), 2 hooves +25 (2d6+7), tail slap +25 (2d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** confounding coils, drag along
-
-**Trample:** 4d6+15, DC 27
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19; Wisdom-based
-
-**Constant:**
-
-- mind blank
-
-**Per day:**
-
-- 3/day: restore mythic power, share glory, steal power (DC 19)
-- 1/day: ascension
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 19, Con 28, Int 5, Wis 26, Cha 13
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 49
-
-**Feats:** Mythic Combat Reflexes, Greater Vital Strike, Mythic Improved Initiative, Improved Vital
-Strike, Iron Will, Multiattack, Mythic Power Attack, Mythic Vital Strike
-
-**Skills:** Climb +20
-
-**Languages:** Common
-
-**Special qualities:** questing beast
-
-**Ecology**
-
-**Environment:** warm hills, plains, or swamps
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm hills, plains, or swamps
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

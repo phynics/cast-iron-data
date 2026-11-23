@@ -30,88 +30,68 @@ abilities = ["6", "15", "-", "11", "14", "12"]
 _A carved rune detaches itself from the wall and floats silently in midair, glowing with arcane
 energy._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: construct
+Initiative: +6
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 11 (2d10)
+Fort: +0
+Ref: +2
+Will: +2
+Fh: 1
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 12
+Weaknesses: school vulnerability
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: slam +2 (1d2-2)
+Spec Att: sin magic
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: burning hands (DC 12), color spray (DC 12), hold portal, ray of enfeeblement (DC 12), reduce person (DC 12), sleep (DC 12), summon monster I
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 6, Dex 15, Con -, Int 11, Wis 14, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 10 (can't be tripped)
+Feats: Improved Initiative
+Skills: Fly +18, Perception +3, Stealth +12
+Languages: Thassilonian (can't speak)
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +2
-
-**Fh:** 1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 12
-
-**Weaknesses:** school vulnerability
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** slam +2 (1d2-2)
-
-**Spec Att:** sin magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- burning hands (DC 12), color spray (DC 12), hold portal, ray of enfeeblement (DC 12), reduce
-  person (DC 12), sleep (DC 12), summon monster I
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con -, Int 11, Wis 14, Cha 12
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 10 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly +18, Perception +3, Stealth +12
-
-**Languages:** Thassilonian (can't speak)
-
-**Ecology**
-
-**Environment:** any (Thassilonian runes)
-
-**Organization:** solitary, pair, or syllabary (7 rune guardians, 1 of each sin)
-
-**Treasure:** None
+::: statblock
+Environment: any (Thassilonian runes)
+Organization: solitary, pair, or syllabary (7 rune guardians, 1 of each sin)
+Treasure: None
+:::
 
 ### Special Abilities
 

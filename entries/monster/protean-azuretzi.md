@@ -34,111 +34,78 @@ abilities = ["16", "21", "19", "16", "14", "17"]
 _Brilliant blue scales with purple highlights cover this sinuous creature's body, and its slender
 reptilian maw is filled with tiny, sharp teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +9
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect law
+Size: small
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 1,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 13
+AC modifiers: +5 Dex, +2 natural, +1 size
+Hit points: 57 (6d10+24)
+Fort: +6
+Ref: +10
+Will: +7
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 5/lawful
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 16
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d4+3
+Grab: Medium
+Melee: bite +11 (1d4+3), 2 claws +10 (1d3+3), tail slap +8 (1d4+1 plus grab)
+Spec Att: mocking touch, spell pilfer
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: detect law
+At will: dimension door, shatter (DC 15)
+Per day: 3/day: dispel magic, hideous laughter (DC 15)\
+1/day: chaos hammer (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Detect law
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 21, Con 19, Int 16, Wis 14, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 23 (can't be tripped)
+Feats: Improved Initiative, Multiattack, Weapon Focus (bite)
+Skills: Acrobatics +14, Bluff +12, Disguise +12 (+32 when using mimic form), Fly +24
+Racial Modifiers: +20 Disguise when using mimic form
+Languages: Abyssal, Protean
+Special qualities: [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph)), mimic form
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +2 natural, +1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +7
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 5/lawful
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d4+3
-
-**Grab:** Medium
-
-**Melee:** bite +11 (1d4+3), 2 claws +10 (1d3+3), tail slap +8 (1d4+1 plus grab)
-
-**Spec Att:** mocking touch, spell pilfer
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- dimension door, shatter (DC 15)
-
-**Per day:**
-
-- 3/day: dispel magic, hideous laughter (DC 15)
-- 1/day: chaos hammer (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con 19, Int 16, Wis 14, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Feats:** Improved Initiative, Multiattack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +14, Bluff +12, Disguise +12 (+32 when using mimic form), Fly +24
-
-**Racial Modifiers:** +20 Disguise when using mimic form
-
-**Languages:** Abyssal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph)),
-mimic form
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or cackle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or cackle (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

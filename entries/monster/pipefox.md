@@ -29,88 +29,68 @@ abilities = ["1", "16", "9", "14", "11", "14"]
 
 _This furry, minute serpent has a fox-like head and tiny eyes that glitter with intelligence._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Size: diminutive
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 13
+AC modifiers: +3 Dex, +4 size
+Hit points: 13 (3d10-3)
+Fort: +2
+Ref: +6
+Will: +1
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +10 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+Constant: comprehend languages
+Per day: 3/day: augury, vanish\
+1/day: detect thoughts (DC 14), divination, greater invisibility, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 1, Dex 16, Con 9, Int 14, Wis 11, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 8
+Feats: Improved Initiative, Weapon Finesse
+Skills: Climb +7, Knowledge (arcana) +5, Perception +5, Sense Motive +2, Stealth +19
+Languages: Common, Draconic; _[comprehend languages](ref/spell/comprehend-languages)_
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 13 (3d10-3)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +10 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Constant:**
-
-- comprehend languages
-
-**Per day:**
-
-- 3/day: augury, vanish
-- 1/day: detect thoughts (DC 14), divination, greater invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 9, Int 14, Wis 11, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 8
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Climb +7, Knowledge (arcana) +5, Perception +5, Sense Motive +2, Stealth +19
-
-**Languages:** Common, Draconic; _[comprehend languages](ref/spell/comprehend-languages)_
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Description
 

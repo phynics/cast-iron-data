@@ -33,100 +33,63 @@ abilities = ["10", "10", "14", "12", "18", "14"]
 _This small, rat-like humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery
 tail._
 
-**Challenge rating:** 8
-
 **Ratfolk [cleric](ref/class/cleric) of [Abadar](ref/faith/abadar) 9**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 8
+Type: humanoid
+Initiative: +4
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Ratfolk
+Experience points: 4,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 19
+AC modifiers: +7 armor, +1 shield, +1 size
+Hit points: 80 (9d8+36)
+Fort: +12
+Ref: +5
+Will: +12
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 40 ft.
+Ch P En: 7/day, DC 16, 5d6
+Melee: mwk light mace +8/+3 (1d4)
+Ranged: light crossbow +7 (1d6/19-20)
+Spec Att: swarming
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: dimensional hop, 90 feet/day
+Per day: 7/day: resistant touch, +2
+:::
 
-**Subtype:** Ratfolk
-
-**Experience points:** 4,800
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +7 armor, +1 shield, +1 size
-
-**Hit points:** 80 (9d8+36)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +12
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Ch P En:** 7/day, DC 16, 5d6
-
-**Melee:** mwk light mace +8/+3 (1d4)
-
-**Ranged:** light crossbow +7 (1d6/19-20)
-
-**Spec Att:** swarming
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- dimensional hop, 90 feet/day
-
-**Per day:**
-
-- 7/day: resistant touch, +2
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**5th-level spells:**
-
-- teleport^D^, wall of stone (DC 19)
-
-**4th-level spells:**
-
-- dimension door^D^, dismissal (DC 18), freedom of movement, summon monster IV
-
-**3rd-level spells:**
-
-- dispel magic, magic vestment, meld into stone, protection from energy^D^, stone shape
-
-**2nd-level spells:**
-
-- bull's strength, calm emotions (DC 16), darkness, shield other^D^, sound burst (DC 16), zone of
-  truth (DC 16)
-
-**1st-level spells:**
-
-- bless, command (DC 15), endure elements, longstrider^D^, sanctuary (DC 15), shield of faith
-
-**Cantrips:**
-
-- create water, detect poison, guidance, mending
-
-**Domains:** [Protection](ref/domain/protection), [Travel](ref/domain/travel)
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +13
+5th-level spells: teleport^D^, wall of stone (DC 19)
+4th-level spells: dimension door^D^, dismissal (DC 18), freedom of movement, summon monster IV
+3rd-level spells: dispel magic, magic vestment, meld into stone, protection from energy^D^, stone shape
+2nd-level spells: bull's strength, calm emotions (DC 16), darkness, shield other^D^, sound burst (DC 16), zone of truth (DC 16)
+1st-level spells: bless, command (DC 15), endure elements, longstrider^D^, sanctuary (DC 15), shield of faith
+Cantrips: create water, detect poison, guidance, mending
+Domains: [Protection](ref/domain/protection), [Travel](ref/domain/travel)
+:::
 
 ###### D {#footnote-d}
 
@@ -145,36 +108,27 @@ are with her).
 
 **Base Statistics** Without longstrider, the elder's statistics are Speed 30 ft.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 10, Con 14, Int 12, Wis 18, Cha 14
+::: statblock
+Ability scores: Str 10, Dex 10, Con 14, Int 12, Wis 18, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Extra Channel, Great Fortitude, Improved Initiative, Selective Channeling, Toughness
+Skills: Appraise +5, Craft (alchemy) +3, Diplomacy +14, Sense Motive +14, Use Magic Device +4
+Racial Modifiers: +2 Craft (alchemy), +2 Perception, +2 Use Magic Device
+Languages: Celestial, Common
+Special qualities: agile feet (7/day), aura of protection (+1 deflection, energy resistance 5, 9 rounds/day), +10 base speed from Travel domain
+Combat gear: scroll of bear's endurance, scroll of invisibility purge, scroll of sending, Dcure moderate wounds/15 charges
+Other gear: +1 chainmail, light steel shield, light crossbow with 10 bolts, mwk light mace, Iclk1, Ihbw2, silver holy symbol, scp, sunrod, pair of platinum rings (worth 50 gp total), 768 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Extra Channel, Great Fortitude, Improved Initiative, Selective Channeling, Toughness
-
-**Skills:** Appraise +5, Craft (alchemy) +3, Diplomacy +14, Sense Motive +14, Use Magic Device +4
-
-**Racial Modifiers:** +2 Craft (alchemy), +2 Perception, +2 Use Magic Device
-
-**Languages:** Celestial, Common
-
-**Special qualities:** agile feet (7/day), aura of protection (+1 deflection, energy resistance 5, 9
-rounds/day), +10 base speed from Travel domain
-
-**Combat gear:** scroll of bear's endurance, scroll of invisibility purge, scroll of sending, Dcure
-moderate wounds/15 charges
-
-**Other gear:** +1 chainmail, light steel shield, light crossbow with 10 bolts, mwk light mace,
-Iclk1, Ihbw2, silver holy symbol, scp, sunrod, pair of platinum rings (worth 50 gp total), 768 gp
-
-**Ecology**
-
-**Environment:** warm deserts or urban
+::: statblock
+Environment: warm deserts or urban
+:::
 
 ### Description
 

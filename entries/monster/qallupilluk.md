@@ -36,96 +36,72 @@ abilities = ["20", "14", "19", "13", "15", "14"]
 _This hag's lumpy hide, tangled black hair, and ragged garments drip with icy water, though she has
 a curiously sweet smell._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: cloying scent (15 ft.)
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**aura:** cloying scent (15 ft.)
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +7 natural
+Hit points: 76 (8d10+32)
+Fort: +6
+Ref: +10
+Will: +8
+Dr: 5/cold iron
+Resist: cold 10, fire 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: bite +13 (1d6+5), 2 claws +13 (1d6+5 plus [grab](ref/umr/grab))
+Ranged: javelin +10 (1d6+4)
+Spec Att: curse of scales
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+At will: water breathing
+Per day: 3/day: charm animal (DC 13), charm person (DC 13), chill metal (DC 14), sleet storm\
+1/day: commune with nature, divination
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 14, Con 19, Int 13, Wis 15, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 25
+Feats: Blind-Fight, Combat Reflexes, Lightning Reflexes, Stand Still
+Skills: Knowledge (nature) +9, Perception +13, Swim +23
+Languages: Aklo, Aquan, Common, Giant
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +7 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** bite +13 (1d6+5), 2 claws +13 (1d6+5 plus [grab](ref/umr/grab))
-
-**Ranged:** javelin +10 (1d6+4)
-
-**Spec Att:** curse of scales
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**At will:**
-
-- water breathing
-
-**Per day:**
-
-- 3/day: charm animal (DC 13), charm person (DC 13), chill metal (DC 14), sleet storm
-- 1/day: commune with nature, divination
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con 19, Int 13, Wis 15, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Blind-Fight, Combat Reflexes, Lightning Reflexes, Stand Still
-
-**Skills:** Knowledge (nature) +9, Perception +13, Swim +23
-
-**Languages:** Aklo, Aquan, Common, Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, family (2-6 plus 1-4 aquatic monsters)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold oceans
+Organization: solitary, family (2-6 plus 1-4 aquatic monsters)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

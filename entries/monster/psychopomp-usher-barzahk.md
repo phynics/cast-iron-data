@@ -30,116 +30,70 @@ abilities = ["30", "31", "40", "31", "32", "33"]
 
 _Feathered arms emerge from the shoulders of this hunched raven, clutching a key of bone._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), loneliness unbroken (100 ft.)
+Initiative: +20
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +47
+Senses: Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts, Detect undead, Low-light vision, Spiritsense, True seeing
+Subtype: Extraplanar, Psychopomp, Shapechanger
+Experience points: 4,915,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 37), loneliness unbroken
-(100 ft.)
+### Defense
 
-**Initiative:** +20
+::: statblock
+Armor class: 46
+Touch: 26
+Flat-footed: 35
+AC modifiers: +4 armor, +5 deflection, +10 Dex, +1 dodge, +16 natural
+Hit points: 676 (33d10+495)
+Fort: +33
+Ref: +23
+Will: +31
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, ominous bird of yore, uncertain rustling, [usher traits](ref/umr/psychopomp-usher-traits), walk with death
+Dr: 20/adamantine and epic
+Immune: ability damage, ability drain, acid, charm, compulsion, death effects, disease, energy drain, necromancy effects, petrification, poison
+Improved evasion: present
+Regen: 30 (deific or mythic)
+Resist: cold 30, electricity 30
+Sr: 39
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft., fly 60 ft. (perfect)
+Melee: [Surcease of Sorrows](ref/magic-artifact/surcease-of-sorrows) +43/+38/+33/+28 (2d6+15), bite +43 (2d6+5)
+Spec Att: toss thee here ashore
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 33
+Concentration: +44
+Constant: detect chaos, detect evil, detect good, detect law, detect thoughts (DC 23), detect undead, freedom of movement, mage armor, true seeing
+At will: beguiling gift (DC 23), calm spirit (DC 23), dimension door, dimensional anchor, greater dispel magic, greater teleport, mage's magnificent mansion, major image (DC 24), mirage arcana (DC 26), mirror image
+Per day: 3/day: banishment (DC 28), empowered circle of death (DC 28)\
+1/day: freedom, phase door
+:::
 
-**Perception:** +47
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Detect good, Detect law, Detect thoughts,
-Detect undead, Low-light vision, Spiritsense, True seeing
-
-**Subtype:** Extraplanar, Psychopomp, Shapechanger
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 26
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 armor, +5 deflection, +10 Dex, +1 dodge, +16 natural
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +33
-
-**Ref:** +23
-
-**Will:** +31
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, ominous bird of
-yore, uncertain rustling, [usher traits](ref/umr/psychopomp-usher-traits), walk with death
-
-**Dr:** 20/adamantine and epic
-
-**Immune:** ability damage, ability drain, acid, charm, compulsion, death effects, disease, energy
-drain, necromancy effects, petrification, poison
-
-**Improved evasion:** present
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** cold 30, electricity 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 60 ft., fly 60 ft. (perfect)
-
-**Melee:** [Surcease of Sorrows](ref/magic-artifact/surcease-of-sorrows) +43/+38/+33/+28 (2d6+15),
-bite +43 (2d6+5)
-
-**Spec Att:** toss thee here ashore
-
-**Spell-Like Abilities**
-
-**Caster level:** 33
-
-**Concentration:** +44
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law, detect thoughts (DC 23), detect undead,
-  freedom of movement, mage armor, true seeing
-
-**At will:**
-
-- beguiling gift (DC 23), calm spirit (DC 23), dimension door, dimensional anchor, greater dispel
-  magic, greater teleport, mage's magnificent mansion, major image (DC 24), mirage arcana (DC 26),
-  mirror image
-
-**Per day:**
-
-- 3/day: banishment (DC 28), empowered circle of death (DC 28)
-- 1/day: freedom, phase door
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 31, Con 40, Int 31, Wis 32, Cha 33
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +43 (+47 disarm)
-
-**Combat maneuver defense:** 69 (71 vs. disarm)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (circle of death), Empower Spell-Like Ability
-(undeath to death), Greater Disarm, Improved Disarm, Improved Iron Will, Improved Lightning
-Reflexes, Iron Will, Lightning Reflexes, Mobility, Quicken Spell-Like Ability (maze), Spring Attack,
-Stand Still, Wind Stance, Sidestep
-
-**Skills:** Craft (mapmaking) +46, Diplomacy +47, Fly +54, Knowledge (arcana, geography) +6,
-Knowledge (local) +43, Linguistics +43, Perception +47, Use Magic Device +44
-
-**Languages:** all; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid or bird;
-[polymorph](ref/spell/polymorph)), entreating entrance, spirit touch
-
-**Faith:** Barzahk
+::: statblock
+Ability scores: Str 30, Dex 31, Con 40, Int 31, Wis 32, Cha 33
+Base attack bonus: +33
+Combat maneuver bonus: +43 (+47 disarm)
+Combat maneuver defense: 69 (71 vs. disarm)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (circle of death), Empower Spell-Like Ability (undeath to death), Greater Disarm, Improved Disarm, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility, Quicken Spell-Like Ability (maze), Spring Attack, Stand Still, Wind Stance, Sidestep
+Skills: Craft (mapmaking) +46, Diplomacy +47, Fly +54, Knowledge (arcana, geography) +6, Knowledge (local) +43, Linguistics +43, Perception +47, Use Magic Device +44
+Languages: all; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (humanoid or bird; [polymorph](ref/spell/polymorph)), entreating entrance, spirit touch
+Faith: Barzahk
+:::
 
 ### Special Abilities
 

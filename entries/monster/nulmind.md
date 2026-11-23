@@ -31,101 +31,76 @@ abilities = ["10", "19", "18", "17", "20", "23"]
 _This thick ribbon of fungus somewhat resembles a caterpillar. Its folds pulse with an eerie, golden
 incandescence._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: mind drain (30 ft., DC 23)
+Initiative: +8
+Alignment: Neutral
+Perception: +27
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 12,800
+:::
 
-**aura:** mind drain (30 ft., DC 23)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 25
+Touch: 16
+Flat-footed: 20
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +5 natural, +1 size
+Hit points: 142 (15d8+75)
+Fort: +15
+Ref: +11
+Will: +12
+Immune: [plant traits](ref/umr/plant-traits)
+Sr: 22
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +27
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Ranged: spore +16 touch (mind spores)
+Spec Att: mind spores
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +17
+Constant: mage armor
+:::
 
-**Type:** plant
+::: statblock
+title = "Psychic Magic"
+Caster level: 11
+Concentration: +17
+Power points: 10
+Psychoactive powers: ego whip I, 3 PE, DC 19, id insinuation I, 2 PE, DC 18, mental barrier I, 1 PE, mind thrust IV, 4 PE, DC 20
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 10, Dex 19, Con 18, Int 17, Wis 20, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +10
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Alertness, Combat Casting, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Toughness
+Skills: Climb +23, Intimidate +21, Perception +27, Sense Motive +24, Spellcraft +18
+Languages: Common (can't speak), Sylvan (can't speak), Undercommon (can't speak)
+Special qualities: devour magic
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +5 natural, +1 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +12
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Ranged:** spore +16 touch (mind spores)
-
-**Spec Att:** mind spores
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +17
-
-**Constant:**
-
-- mage armor
-
-**Psychic Magic**
-
-**Caster level:** 11
-
-**Concentration:** +17
-
-**Power points:** 10
-
-**Psychoactive powers:**
-
-- ego whip I, 3 PE, DC 19, id insinuation I, 2 PE, DC 18, mental barrier I, 1 PE, mind thrust IV, 4
-  PE, DC 20
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 19, Con 18, Int 17, Wis 20, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Alertness, Combat Casting, Dodge, Great Fortitude, Improved Initiative, Iron Will,
-Lightning Reflexes, Toughness
-
-**Skills:** Climb +23, Intimidate +21, Perception +27, Sense Motive +24, Spellcraft +18
-
-**Languages:** Common (can't speak), Sylvan (can't speak), Undercommon (can't speak)
-
-**Special qualities:** devour magic
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

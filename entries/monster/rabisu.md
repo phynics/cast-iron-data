@@ -30,104 +30,73 @@ abilities = ["21", "24", "24", "19", "21", "22"]
 _This hollow-eyed, blue-skinned woman has a vulture's wings, bird-like talons for hands and feet,
 and a fang-filled mouth._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: fey
+Initiative: +7
+Size: medium
+Perception: +22
+Senses: Low-light vision, Scent, See in darkness
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 25
+Touch: 18
+Flat-footed: 17
+AC modifiers: +8 Dex, +1 Dodge, +7 natural
+Hit points: 147 (14d6+98)
+Fort: +11
+Ref: +16
+Will: +14
+Dr: 10/cold iron and magic
+Immune: fire, bleed, fear
+Resist: cold 10, electricity 10
+Weaknesses: susceptible to salt
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+B Drain: 1d2 Constitution
+Melee: bite +17 (1d6+8 plus blood drain), 4 claws +18 (1d4+8 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: greater magic fang, self only
+At will: command undead (DC 18), invisibility, ray of enfeeblement (DC 19)
+Per day: 3/day: charm monster (DC 20), quickened invisibility, quickened ray of enfeeblement (DC 19), ray of exhaustion, vampiric touch\
+1/day: mirage arcana (DC 21), veil, self only, waves of fatigue, wind walk
+:::
 
-**Senses:** Low-light vision, Scent, See in darkness
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 21, Dex 24, Con 24, Int 19, Wis 21, Cha 22
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 30 (34 vs. grapple)
+Feats: Ability Focus (ray of enfeeblement), Combat Casting, Dodge, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility, ray of enfeeblement), Skill Focus (Stealth), Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +24, Disguise +23, Escape Artist +24, Fly +28, Intimidate +20, Knowledge (nature) +21, Perception +22
+Racial Modifiers: +8 Stealth
+Languages: Aklo, Auran, Common
+Special qualities: blood frenzy
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 Dex, +1 Dodge, +7 natural
-
-**Hit points:** 147 (14d6+98)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +14
-
-**Dr:** 10/cold iron and magic
-
-**Immune:** fire, bleed, fear
-
-**Resist:** cold 10, electricity 10
-
-**Weaknesses:** susceptible to salt
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +17 (1d6+8 plus blood drain), 4 claws +18 (1d4+8 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- greater magic fang, self only
-
-**At will:**
-
-- command undead (DC 18), invisibility, ray of enfeeblement (DC 19)
-
-**Per day:**
-
-- 3/day: charm monster (DC 20), quickened invisibility, quickened ray of enfeeblement (DC 19), ray
-  of exhaustion, vampiric touch
-- 1/day: mirage arcana (DC 21), veil, self only, waves of fatigue, wind walk
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 24, Con 24, Int 19, Wis 21, Cha 22
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 30 (34 vs. grapple)
-
-**Feats:** Ability Focus (ray of enfeeblement), Combat Casting, Dodge, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility, ray of enfeeblement), Skill Focus
-(Stealth), Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Acrobatics +24, Disguise +23, Escape Artist +24, Fly +28, Intimidate +20, Knowledge
-(nature) +21, Perception +22
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Aklo, Auran, Common
-
-**Special qualities:** blood frenzy
-
-**Ecology**
-
-**Environment:** warm deserts, hills, and mountains
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts, hills, and mountains
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

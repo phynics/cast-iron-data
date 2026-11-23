@@ -33,94 +33,67 @@ abilities = ["25", "20", "-", "14", "15", "17"]
 _One of this metallic humanoid's four arms ends in the barrel of a large-bore rifle, while another
 ends in a spinning circular blade. Its final two arms grasp a massive chainsaw._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsight: 60
+Type: construct
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, Superior optics
+Subtype: Robot
+Experience points: 102,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 33
+Touch: 15
+Flat-footed: 28
+AC modifiers: +5 Dex, +18 natural
+Hit points: 161 (22d10+40)
+Fort: +14
+Ref: +17
+Will: +14
+Defensive abilities: adaptive defense programming, dense structure, [hardness](ref/umr/hardness) 15, resilient
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: electricity 30, fire 30
+Vulner: electricity
+Weaknesses: overclocked targeting, vulnerable to critical hits
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft.
+Melee: [adamantine](ref/eq-material/adamantine) chainsaw +29 (4d12+7/18-20), adamantine buzz saw +29 (2d12+7)
+Ranged: hypersonic rifle +27 (2d12/×3 plus stunned)
+Spec Att: boosted charge, combined arms
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 25, Dex 20, Con -, Int 14, Wis 15, Cha 17
+Base attack bonus: +22
+Combat maneuver bonus: +29
+Combat maneuver defense: 44
+Feats: Cleave, Combat Reflexes, Great Fortitude, Following Step, Lunge, Point-Blank Shot, Power Attack, Precise Shot, Step Up, Step Up and Strike, Vital Strike
+Skills: Acrobatics +27 (+39 when jumping), Intimidate +25, Perform (oratory) +25, Sense Motive +24
+Racial Modifiers: +12 Acrobatics when jumping
+Languages: Androffan, Common, Hallit
+Special qualities: flexible programming, integrated weaponry, programmed to entertain, work the crowd
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
+### Ecology
 
-**Subtype:** Robot
-
-**Experience points:** 102,400
-
-**Armor class:** 33
-
-**Touch:** 15
-
-**Flat-footed:** 28
-
-**AC modifiers:** +5 Dex, +18 natural
-
-**Hit points:** 161 (22d10+40)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +14
-
-**Defensive abilities:** adaptive defense programming, dense structure, [hardness](ref/umr/hardness)
-15, resilient
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** electricity 30, fire 30
-
-**Vulner:** electricity
-
-**Weaknesses:** overclocked targeting, vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** [adamantine](ref/eq-material/adamantine) chainsaw +29 (4d12+7/18-20), adamantine buzz saw
-+29 (2d12+7)
-
-**Ranged:** hypersonic rifle +27 (2d12/×3 plus stunned)
-
-**Spec Att:** boosted charge, combined arms
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con -, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 44
-
-**Feats:** Cleave, Combat Reflexes, Great Fortitude, Following Step, Lunge, Point-Blank Shot, Power
-Attack, Precise Shot, Step Up, Step Up and Strike, Vital Strike
-
-**Skills:** Acrobatics +27 (+39 when jumping), Intimidate +25, Perform (oratory) +25, Sense Motive
-+24
-
-**Racial Modifiers:** +12 Acrobatics when jumping
-
-**Languages:** Androffan, Common, Hallit
-
-**Special qualities:** flexible programming, integrated weaponry, programmed to entertain, work the
-crowd
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or squad (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,79 +29,62 @@ special_qualities = "amphibious"
 abilities = ["25", "16", "23", "6", "10", "7"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: huge
+Type: humanoid
+Initiative: +3
+Alignment: Neutral evil
+Perception: +7
+Senses: Low-light vision
+Subtype: Aquatic, Giant
+Experience points: 2,400
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 16
+AC modifiers: +3 Dex, +8 natural, -2 size
+Hit points: 80 (7d8+49)
+Fort: +11
+Ref: +5
+Will: +4
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., swim 40 ft.
+Melee: 2 claws +11 (1d8+7 plus [grab](ref/umr/grab))
+Ranged: javelin +6 (2d6+7)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 16, Con 23, Int 6, Wis 10, Cha 7
+Base attack bonus: +5
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27
+Feats: Iron Will, Power Attack, Vital Strike, Weapon Focus (claw)
+Skills: Perception +7, Stealth -2 (+2 in water), Swim +15
+Racial Modifiers: +4 Stealth in water
+Languages: Giant
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Giant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +8 natural, -2 size
-
-**Hit points:** 80 (7d8+49)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft.
-
-**Melee:** 2 claws +11 (1d8+7 plus [grab](ref/umr/grab))
-
-**Ranged:** javelin +6 (2d6+7)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 23, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Iron Will, Power Attack, Vital Strike, Weapon Focus (claw)
-
-**Skills:** Perception +7, Stealth -2 (+2 in water), Swim +15
-
-**Racial Modifiers:** +4 Stealth in water
-
-**Languages:** Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate oceans
-
-**Organization:** solitary, pair, gang (3-4), or family (5-16)
-
-**Treasure:** Standard (2 javelins); other treasure
+::: statblock
+Environment: temperate oceans
+Organization: solitary, pair, gang (3-4), or family (5-16)
+Treasure: Standard (2 javelins); other treasure
+:::
 
 ### Description
 

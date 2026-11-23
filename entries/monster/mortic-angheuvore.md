@@ -32,79 +32,62 @@ abilities = ["14", "15", "14", "13", "12", "11"]
 _This pale, gray-skinned elf has a gangly frame and an overlarge jaw. Its lips are spattered with
 blood._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +5
+Senses: Carrion sense, Darkvision 60 ft., Low-light vision
+Subtype: Elf, Mortic
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +3
+Will: +2; +4 vs. mind-affecting effects
+Defensive abilities: death gasp, flesh consumption, negative energy affinity
+Vulner: _consecration_
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: morningstar +4 (1d8+2), bite -1 (1d4+1) or bite +4 (1d4+3)
+Ranged: light crossbow +4 (1d8/19-20)
+Spec Att: paralytic saliva
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Carrion sense, Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 13, Wis 12, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Blind-Fight, Combat Reflexes
+Skills: Climb +6, Intimidate +6, Perception +5
+Languages: Common, Elven
+Special qualities: unliving nature
+:::
 
-**Subtype:** Elf, Mortic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +2; +4 vs. mind-affecting effects
-
-**Defensive abilities:** death gasp, flesh consumption, negative energy affinity
-
-**Vulner:** _consecration_
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** morningstar +4 (1d8+2), bite -1 (1d4+1) or bite +4 (1d4+3)
-
-**Ranged:** light crossbow +4 (1d8/19-20)
-
-**Spec Att:** paralytic saliva
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 13, Wis 12, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Blind-Fight, Combat Reflexes
-
-**Skills:** Climb +6, Intimidate +6, Perception +5
-
-**Languages:** Common, Elven
-
-**Special qualities:** unliving nature
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard (leather armor, morningstar, light crossbow with 10 bolts); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard (leather armor, morningstar, light crossbow with 10 bolts); other treasure
+:::
 
 ### Special Abilities
 

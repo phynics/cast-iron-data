@@ -32,90 +32,66 @@ abilities = ["4", "21", "17", "14", "17", "16"]
 _Bundles of viscera hang from the hundreds of levitating eyes in this mass. Jagged teeth protrude
 from each eyelid, forming makeshift fanged maws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Alignment: Chaotic evil
+Size: diminutive
+Initiative: +9
+Perception: +26
+Senses: All-around vision, Darkvision 60 ft., True seeing
+Subtype: Swarm
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +4 size
+Hit points: 82 (11d8+33)
+Fort: +8
+Ref: +10
+Will: +10
+Defensive abilities: swarm traits
+Immune: weapon damage
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 10 ft., fly 40 ft. (perfect)
+Distraction: 18
+Melee: swarm (3d6)
+Reach: 0
+Space: 10
+Spec Att: capitulating gaze, eye possession, multigaze
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 4, Dex 21, Con 17, Int 14, Wis 17, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Flyby Attack, Great Fortitude, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes
+Skills: Bluff +11, Diplomacy +11, Fly +29, Knowledge (dungeoneering) +12, Linguistics +6, Perception +26
+Racial Modifiers: +10 Perception
+Languages: Aklo, Common, Dwarven, Orc, Terran, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: unavoidable gaze
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +4 size
-
-**Hit points:** 82 (11d8+33)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +10
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (perfect)
-
-**Distraction:** 18
-
-**Melee:** swarm (3d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** capitulating gaze, eye possession, multigaze
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 21, Con 17, Int 14, Wis 17, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Flyby Attack, Great Fortitude, Improved Initiative, Improved Lightning Reflexes,
-Lightning Reflexes
-
-**Skills:** Bluff +11, Diplomacy +11, Fly +29, Knowledge (dungeoneering) +12, Linguistics +6,
-Perception +26
-
-**Racial Modifiers:** +10 Perception
-
-**Languages:** Aklo, Common, Dwarven, Orc, Terran, Undercommon (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** unavoidable gaze
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, surveillance (2-5), or reconnaissance (6-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, surveillance (2-5), or reconnaissance (6-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

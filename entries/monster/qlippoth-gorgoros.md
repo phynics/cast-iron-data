@@ -30,106 +30,75 @@ abilities = ["30", "19", "18", "15", "20", "19"]
 _Numerous writhing, coiling tails support this serpent-headed beast. Its three eyes glow a sickly
 yellow._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +12
+Will: +11
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/cold iron or lawful
+Immune: cold, mind-affecting effects, poison
+Resist: acid 10, electricity 10, fire 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., burrow 40 ft.
+Melee: bite +21 (4d6+15)
+Reach: 10
+Sp Extra: earth glide
+Space: 10
+Spec Att: feast of stone, gaze, horrific appearance (DC 22), writhing tails
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+Constant: freedom of movement
+At will: soften earth and stone, stone shape
+Per day: 1/day: transmute rock to mud, wall of stone
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 30, Dex 19, Con 18, Int 15, Wis 20, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +23
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Ability Focus (horrific appearance), Combat Reflexes, Improved Initiative, Iron Will, Power Attack, Vital Strike
+Skills: Acrobatics +19, Bluff +19, Climb +19
+Languages: Abyssal, Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +11
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/cold iron or lawful
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., burrow 40 ft.
-
-**Melee:** bite +21 (4d6+15)
-
-**Reach:** 10
-
-**Sp Extra:** earth glide
-
-**Space:** 10
-
-**Spec Att:** feast of stone, gaze, horrific appearance (DC 22), writhing tails
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- soften earth and stone, stone shape
-
-**Per day:**
-
-- 1/day: transmute rock to mud, wall of stone
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 19, Con 18, Int 15, Wis 20, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Ability Focus (horrific appearance), Combat Reflexes, Improved Initiative, Iron Will,
-Power Attack, Vital Strike
-
-**Skills:** Acrobatics +19, Bluff +19, Climb +19
-
-**Languages:** Abyssal, Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or circle (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or circle (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

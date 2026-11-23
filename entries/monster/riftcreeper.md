@@ -34,101 +34,74 @@ abilities = ["43", "27", "30", "7", "16", "10"]
 _This slithering mass of bubbling red ooze extrudes a nest of long, thin tendrils, as if tasting the
 air in search of prey._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 60
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +12
+Type: ooze
+Perception: +3
+Subtype: Extraplanar
+tremorsense: 120
+Experience points: 51,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 22
+AC modifiers: +8 Dex, +16 natural, -4 size
+Hit points: 217 (15d8+150)
+Fort: +15
+Ref: +13
+Will: +8
+Defensive abilities: adaptive defenses
+Fh: 10
+Immune: ability damage, ability drain, acid, exhaustion, fatigue, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 20 ft.
+Constrict: 4d6+16 plus 2d6 acid
+Melee: 2 slams +24 (4d6+16 plus 2d6 acid and [grab](ref/umr/grab))
+Pull: strand, 20 feet
+Ranged: 6 strands +15 touch (2d6 acid plus attach)
+Reach: 20
+Sp Extra: gelatinous surge
+Space: 20
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +15
+Constant: feather fall
+:::
 
-**Perception:** +3
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 43, Dex 27, Con 30, Int 7, Wis 16, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +31 (+33 bull rush, +35 grapple)
+Combat maneuver defense: 49 (51 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Initiative, Improved Vital Strike, Power Attack, Vital Strike, Weapon Focus (slam)
+Skills: Climb +39
+Languages: Abyssal (can't speak)
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 Dex, +16 natural, -4 size
-
-**Hit points:** 217 (15d8+150)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +8
-
-**Defensive abilities:** adaptive defenses
-
-**Fh:** 10
-
-**Immune:** ability damage, ability drain, acid, exhaustion, fatigue,
-[ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 20 ft.
-
-**Constrict:** 4d6+16 plus 2d6 acid
-
-**Melee:** 2 slams +24 (4d6+16 plus 2d6 acid and [grab](ref/umr/grab))
-
-**Pull:** strand, 20 feet
-
-**Ranged:** 6 strands +15 touch (2d6 acid plus attach)
-
-**Reach:** 20
-
-**Sp Extra:** gelatinous surge
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +15
-
-**Constant:**
-
-- feather fall
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 27, Con 30, Int 7, Wis 16, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +31 (+33 bull rush, +35 grapple)
-
-**Combat maneuver defense:** 49 (51 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Initiative, Improved Vital
-Strike, Power Attack, Vital Strike, Weapon Focus (slam)
-
-**Skills:** Climb +39
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** any mountains ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

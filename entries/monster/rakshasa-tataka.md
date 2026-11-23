@@ -31,132 +31,85 @@ abilities = ["24", "16", "25", "13", "13", "20"]
 _This towering, blue-skinned woman has backward-facing hands and a feral, animal-like visage with
 exaggerated features._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +3
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 51,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 24
+AC modifiers: +3 Dex, +1 dodge, +15 natural, -1 size
+Hit points: 225 (18d10+126)
+Fort: +18
+Ref: +9
+Will: +12
+Dr: 15/good and piercing
+Sr: 30
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: unarmed strike +24/+19/+14/+9 (2d6+7/19-20), bite +19 (1d8+3)
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: detect thoughts (DC 24), martial artist
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: air walk, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +17
+6th-level spells: 3/day: heal
+5th-level spells: 6/day: flame strike (DC 20), telekinesis (DC 20)
+4th-level spells: 7/day: charm monster (DC 19), dimension door, freedom of movement
+3rd-level spells: 7/day: dispel magic, fireball (DC 18), haste, rage
+2nd-level spells: 7/day: acid arrow, cure moderate wounds, death knell (DC 17), invisibility, misdirection
+1st-level spells: 8/day: command (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16), shield of faith
+Cantrips: At will: acid splash, bleed (DC 15), light, mage hand, mending, message, open/close, prestidigitation, read magic
+:::
 
-**Subtype:** Native, Rakshasa, Shapechanger
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 24, Dex 16, Con 25, Int 13, Wis 13, Cha 20
+Base attack bonus: +18
+Combat maneuver bonus: +26
+Combat maneuver defense: 40
+Feats: Cleave, Combat Reflexes, Critical Focus, Dodge, Great Cleave, Improved Critical (unarmed strike), Improved Vital Strike, Power Attack, Vital Strike
+Skills: Acrobatics +18 (+22 when jumping), Bluff +23, Climb +17
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +1 dodge, +15 natural, -1 size
-
-**Hit points:** 225 (18d10+126)
-
-**Fort:** +18
-
-**Ref:** +9
-
-**Will:** +12
-
-**Dr:** 15/good and piercing
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** unarmed strike +24/+19/+14/+9 (2d6+7/19-20), bite +19 (1d8+3)
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** detect thoughts (DC 24), martial artist
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- air walk, true seeing
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**6th-level spells:**
-
-- 3/day: heal
-
-**5th-level spells:**
-
-- 6/day: flame strike (DC 20), telekinesis (DC 20)
-
-**4th-level spells:**
-
-- 7/day: charm monster (DC 19), dimension door, freedom of movement
-
-**3rd-level spells:**
-
-- 7/day: dispel magic, fireball (DC 18), haste, rage
-
-**2nd-level spells:**
-
-- 7/day: acid arrow, cure moderate wounds, death knell (DC 17), invisibility, misdirection
-
-**1st-level spells:**
-
-- 8/day: command (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16), shield of faith
-
-**Cantrips:**
-
-- At will: acid splash, bleed (DC 15), light, mage hand, mending, message, open/close,
-  prestidigitation, read magic
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con 25, Int 13, Wis 13, Cha 20
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 40
-
-**Feats:** Cleave, Combat Reflexes, Critical Focus, Dodge, Great Cleave, Improved Critical (unarmed
-strike), Improved Vital Strike, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +18 (+22 when jumping), Bluff +23, Climb +17
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, patrol (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, patrol (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

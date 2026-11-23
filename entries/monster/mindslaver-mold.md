@@ -33,89 +33,69 @@ abilities = ["2", "17", "17", "14", "12", "13"]
 _A thick sheet of filthy green fungus grows in twisting patterns across the shoulders and back of
 this feral-looking man._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +7
+Alignment: Neutral evil
+Perception: +8
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +4
+Will: +2
+Defensive abilities: avoidance
+Fh: 2
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Resist: acid 10
+Sr: 14
+:::
 
-**Perception:** +8
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Ranged: spore pod +7 touch (spores)
+Spec Att: infestation, spores
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+Per day: 1/day: dominate person (DC 16)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 2, Dex 17, Con 17, Int 14, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: -2
+Combat maneuver defense: 12 (can't be tripped)
+Feats: Dodge, Improved Initiative
+Skills: Climb +8, Escape Artist +7, Perception +8, Stealth +14
+Languages: Aklo (can't speak), Common (can't speak), Sylvan (can't speak); mold mindlink
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +2
-
-**Defensive abilities:** avoidance
-
-**Fh:** 2
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 10
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Ranged:** spore pod +7 touch (spores)
-
-**Spec Att:** infestation, spores
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**Per day:**
-
-- 1/day: dominate person (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 17, Con 17, Int 14, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Climb +8, Escape Artist +7, Perception +8, Stealth +14
-
-**Languages:** Aklo (can't speak), Common (can't speak), Sylvan (can't speak); mold mindlink
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or infestation (2-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or infestation (2-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

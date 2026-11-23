@@ -29,76 +29,60 @@ abilities = ["34", "10", "23", "2", "17", "3"]
 _This lumbering, four-legged, rhino-like beast has thick hide and a single immense horn protruding
 from the top of its head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +17
+Senses: Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 23
+AC modifiers: +15 natural, -2 size
+Hit points: 115 (11d8+66)
+Fort: +15
+Ref: +7
+Will: +8
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +18 (6d6+18/19-20)
+Pow Ch: gore, 6d8+24
+Reach: 15
+Space: 15
+Spec Att: impaling horn
+Trample: 3d6+18, DC 27
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 34, Dex 10, Con 23, Int 2, Wis 17, Cha 3
+Base attack bonus: +8
+Combat maneuver bonus: +22
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Diehard, Endurance, Great Fortitude, Improved Critical (gore), Improved Initiative, Iron Will
+Skills: Perception +17
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +15 natural, -2 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +15
-
-**Ref:** +7
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +18 (6d6+18/19-20)
-
-**Pow Ch:** gore, 6d8+24
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** impaling horn
-
-**Trample:** 3d6+18, DC 27
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 10, Con 23, Int 2, Wis 17, Cha 3
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Diehard, Endurance, Great Fortitude, Improved Critical (gore), Improved Initiative, Iron
-Will
-
-**Skills:** Perception +17
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, pair, or herd (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, pair, or herd (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

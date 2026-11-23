@@ -33,59 +33,45 @@ abilities = ["11", "18", "14", "12", "12", "8"]
 _This small, rat-like humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery
 tail._
 
-**Challenge rating:** 5
-
 **Ratfolk [rogue](ref/class/rogue) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +4
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Ratfolk
+Experience points: 1,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 armor, +4 Dex, +1 Size
+Hit points: 42 (6d8+12)
+Fort: +5
+Ref: +10
+Will: +4
+Evasion: present
+Trap S: +2
+Uncanny dodge: present
+:::
 
-**Perception:** +12
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Size:** small
-
-**Subtype:** Ratfolk
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +4 Dex, +1 Size
-
-**Hit points:** 42 (6d8+12)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +4
-
-**Evasion:** present
-
-**Trap S:** +2
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk rapier +10 (1d4/18-20)
-
-**Ranged:** hand crossbow +9 (1d3/19-20)
-
-**Sneak:** +3d6
-
-**Spec Att:** swarming
+::: statblock
+Speed: 20 ft.
+Melee: mwk rapier +10 (1d4/18-20)
+Ranged: hand crossbow +9 (1d3/19-20)
+Sneak: +3d6
+Spec Att: swarming
+:::
 
 ### Tactics
 
@@ -93,36 +79,26 @@ tail._
 against her most vulnerable foe. If her enemies wear metal armor, she instead uses her wand of
 shocking grasp against them.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 11, Dex 18, Con 14, Int 12, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 11, Dex 18, Con 14, Int 12, Wis 12, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Deft Hands, Pack Rat, Weapon Finesse
+Skills: Acrobatics +13 (+9 when jumping), Appraise +7, Bluff +5, Climb +6, Craft (alchemy) +3, Diplomacy +5, Sense Motive +10, Sleight of Hand +6, Stealth +17, Use Magic Device +10
+Languages: Common, Undercommon
+Special qualities: rogue talents ([fast stealth](ref/talent/fast-stealth), [quick disable](ref/talent/quick-disable), [trap spotter](ref/talent/trap-spotter)), [trapfinding](ref/ability/trapfinding) +3
+Combat gear: I-elixir of hiding, potion of cure light wounds, 2 potion of invisibility, Dshocking grasp/CL 4th, 12 charges, 2 acid
+Other gear: +1 studded leather armor, hand10, mwk rapier, Iclk1, -grappling hook, mtt, silk rope (50 ft.), 314 gp
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Deft Hands, Pack Rat, Weapon Finesse
-
-**Skills:** Acrobatics +13 (+9 when jumping), Appraise +7, Bluff +5, Climb +6, Craft (alchemy) +3,
-Diplomacy +5, Sense Motive +10, Sleight of Hand +6, Stealth +17, Use Magic Device +10
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** rogue talents ([fast stealth](ref/talent/fast-stealth),
-[quick disable](ref/talent/quick-disable), [trap spotter](ref/talent/trap-spotter)),
-[trapfinding](ref/ability/trapfinding) +3
-
-**Combat gear:** I-elixir of hiding, potion of cure light wounds, 2 potion of invisibility,
-Dshocking grasp/CL 4th, 12 charges, 2 acid
-
-**Other gear:** +1 studded leather armor, hand10, mwk rapier, Iclk1, -grappling hook, mtt, silk rope
-(50 ft.), 314 gp
-
-**Ecology**
-
-**Environment:** warm deserts or urban
+::: statblock
+Environment: warm deserts or urban
+:::
 
 ### Description
 

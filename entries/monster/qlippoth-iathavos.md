@@ -30,115 +30,77 @@ abilities = ["40", "8", "31", "29", "30", "27"]
 _This immense creature has four bat-like wings and a spherical body. Red eyes peer from all sides,
 and two huge claws dangle below._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: [stench](ref/umr/stench) (DC 32, 10 rounds), cloak of chaos (DC 26)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: -1
+Type: outsider
+Perception: +37
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 307,200
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 32, 10 rounds), cloak of chaos (DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 37
+Touch: 7
+Flat-footed: 37
+AC modifiers: +4 deflection, -1 Dex, +2 insight, +30 natural, -8 size
+Hit points: 372 (24d10+240)
+Fort: +28
+Ref: +15
+Will: +28
+Defensive abilities: ichor, never surprised or flat-footed
+Dr: 15/cold iron and lawful
+Fh: 15
+Immune: cold, poison, mind-affecting effects
+Resist: acid 30, electricity 10, fire 10
+Sr: 31
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** -1
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee: 2 claws +31 (4d6+15/19-20 plus [grab](ref/umr/grab)), 4 wings +26 (2d8+7)
+Reach: 30
+Space: 30
+Spec Att: abyssal transformation, entropic beams, horrific appearance (DC 30)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: cloak of chaos (DC 26), foresight, freedom of movement, true seeing
+At will: dimension door, dispel law, greater dispel magic, magic missile, plane shift (DC 25), wind walk, word of recall
+Per day: 3/day: black tentacles, dimensional lock, horrid wilting (DC 26), insanity (DC 25), word of chaos (DC 25)\
+1/day: quickened heal, imprisonment (DC 27)
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 40, Dex 8, Con 31, Int 29, Wis 30, Cha 27
+Base attack bonus: +24
+Combat maneuver bonus: +47 (+51 grapple)
+Combat maneuver defense: 62 (can't be tripped)
+Feats: Awesome Blow, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (claw), Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal), Spell Penetration, Staggering Critical, Vital Strike
+Skills: Bluff +35, Escape Artist +23, Fly +26, Intimidate +35, Knowledge (arcana, planes) +36, Knowledge (geography) +33, Perception +37, Sense Motive +37, Spellcraft +36, Stealth +10, Use Magic Device +35
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 7
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, -1 Dex, +2 insight, +30 natural, -8 size
-
-**Hit points:** 372 (24d10+240)
-
-**Fort:** +28
-
-**Ref:** +15
-
-**Will:** +28
-
-**Defensive abilities:** ichor, never surprised or flat-footed
-
-**Dr:** 15/cold iron and lawful
-
-**Fh:** 15
-
-**Immune:** cold, poison, mind-affecting effects
-
-**Resist:** acid 30, electricity 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Melee:** 2 claws +31 (4d6+15/19-20 plus [grab](ref/umr/grab)), 4 wings +26 (2d8+7)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** abyssal transformation, entropic beams, horrific appearance (DC 30)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- cloak of chaos (DC 26), foresight, freedom of movement, true seeing
-
-**At will:**
-
-- dimension door, dispel law, greater dispel magic, magic missile, plane shift (DC 25), wind walk,
-  word of recall
-
-**Per day:**
-
-- 3/day: black tentacles, dimensional lock, horrid wilting (DC 26), insanity (DC 25), word of chaos
-  (DC 25)
-- 1/day: quickened heal, imprisonment (DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 8, Con 31, Int 29, Wis 30, Cha 27
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +47 (+51 grapple)
-
-**Combat maneuver defense:** 62 (can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical
-(claw), Improved Vital Strike, Lightning Reflexes, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (heal), Spell Penetration, Staggering Critical,
-Vital Strike
-
-**Skills:** Bluff +35, Escape Artist +23, Fly +26, Intimidate +35, Knowledge (arcana, planes) +36,
-Knowledge (geography) +33, Perception +37, Sense Motive +37, Spellcraft +36, Stealth +10, Use Magic
-Device +35
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 
