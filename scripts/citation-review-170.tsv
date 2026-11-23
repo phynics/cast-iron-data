@@ -9,7 +9,6 @@ ref/affliction/bogwid/bogwid-fever	affliction	pathfinder-62-curse-of-the-ladys-l
 ref/affliction/bolla/bolla-lethargy	affliction	pathfinder-136-temple-of-the-peacock-spirit	coarse	88	the proposal is a section or parent page
 ref/affliction/bramblelash/tropical-bramblelash-poison	affliction	pathfinder-115-trail-of-the-hunted	coarse	84	the proposal is a section or parent page
 ref/affliction/cerberi/cerberuss-jaws-su	affliction	pathfinder-28-the-infernal-syndrome	coarse	84	the proposal is a section or parent page
-ref/affliction/cunning/basic-poison	affliction	pathfinder-unchained	no-page		
 ref/affliction/daemon-lacridaemon/lacridaemon-poison	affliction	bestiary-6	no-page		
 ref/affliction/daemon-lacridaemon/lacridaemon-poison	affliction	book-of-the-damned-volume-3-horsemen-of-the-apocalypse	no-page		
 ref/affliction/daemonic-harbinger-braismois/poison-1-broken-oath	affliction	druma-profit-and-prophecy	no-page		
@@ -42,10 +41,7 @@ ref/affliction/kallas-devil/evil-eye-curse	affliction	fey-revisited	coarse	32	th
 ref/affliction/kyton-cantor/lingering-touch	affliction	occult-bestiary	no-page		
 ref/affliction/kyton-termagant/flux-infusion	affliction	inner-sea-bestiary	no-page		
 ref/affliction/mana-wastes-mutant/mana-fever	affliction	inner-sea-bestiary	no-page		
-ref/affliction/me-pit-fiend/disease	affliction	pathfinder-unchained	no-page		
-ref/affliction/me-pit-fiend/poison	affliction	pathfinder-unchained	no-page		
 ref/affliction/merlucent/vitrify	affliction	pathfinder-104-wrath-of-thrune	coarse	90	the proposal is a section or parent page
-ref/affliction/monstrous/basic-disease	affliction	pathfinder-unchained	no-page		
 ref/affliction/moxix/moxixs-delectation	affliction	inner-sea-bestiary	coarse	32	the proposal is a section or parent page
 ref/affliction/ningyo-undead-ningyo/ningyo-flesh	affliction	pathfinder-37-souls-for-smugglers-shiv	coarse	80	the proposal is a section or parent page
 ref/affliction/ningyo/ningyo-flesh	affliction	pathfinder-37-souls-for-smugglers-shiv	coarse	80	the proposal is a section or parent page
@@ -169,23 +165,11 @@ ref/domain/water	class_option	inner-sea-gods	marker		paragraph agrees; it ends t
 ref/domain/weather	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
 ref/eidolon/aberrant	class_option	horror-realms	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/aeon	class_option	plane-hoppers-handbook	unconfirmed	24	only a short title is on the proposed page, which proves little
-ref/eidolon/agathion	class_option	pathfinder-unchained	unconfirmed	29	the name is a heading only on page 214, far from the proposed page 29; which one prints the option is not settled
-ref/eidolon/angel	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/eidolon/archon	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
 ref/eidolon/astral	class_option	plane-hoppers-handbook	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/azata	class_option	pathfinder-unchained	unconfirmed	30	only a short title is on the proposed page, which proves little
-ref/eidolon/daemon	class_option	pathfinder-unchained	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/eidolon/deepwater	class_option	blood-of-the-sea	unconfirmed	23	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/demon	class_option	pathfinder-unchained	unconfirmed	31	the name is a heading only on page 215, far from the proposed page 31; which one prints the option is not settled
-ref/eidolon/devil	class_option	pathfinder-unchained	unconfirmed	32	only a short title is on the proposed page, which proves little
-ref/eidolon/div	class_option	pathfinder-unchained	unconfirmed	32	the name is a heading only on page 215, far from the proposed page 32; which one prints the option is not settled
-ref/eidolon/elemental	class_option	pathfinder-unchained	unconfirmed	33	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/inevitable	class_option	pathfinder-unchained	unconfirmed	33	only a short title is on the proposed page, which proves little
 ref/eidolon/kami	class_option	wilderness-origins	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/plant	class_option	ultimate-wilderness	unconfirmed	95	the name is a heading only on page 17, far from the proposed page 95; which one prints the option is not settled
-ref/eidolon/protean	class_option	pathfinder-unchained	unconfirmed	33	the name is a heading only on page 215, far from the proposed page 33; which one prints the option is not settled
-ref/eidolon/psychopomp	class_option	pathfinder-unchained	unconfirmed	34	the name is a heading only on page 215, far from the proposed page 34; which one prints the option is not settled
 ref/eidolon/radiant	class_option	plane-hoppers-handbook	unconfirmed	25	only a short title is on the proposed page, which proves little
 ref/eidolon/storykin	class_option	plane-hoppers-handbook	unconfirmed	26	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/twinned	class_option	legacy-of-the-first-world	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -288,8 +272,6 @@ ref/talent/escaping-stunt	class_option	inner-sea-combat	unconfirmed	16	title not
 ref/talent/expert-cypher	class_option	divine-anthology	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/flying-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
-ref/talent/greater-multitalented	class_option	pathfinder-unchained	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/greater-terrain-mastery	class_option	pathfinder-unchained	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/grit	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/ki-pool	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/riding-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book

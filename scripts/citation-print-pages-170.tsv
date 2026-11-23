@@ -3601,19 +3601,19 @@ ref/discovery/nauseating-flesh	ultimate-combat	24	print
 ref/discovery/poison-conversion	ultimate-combat	24	print		
 ref/discovery/siege-bomb	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
 ref/eidolon/aeon	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/agathion	pathfinder-unchained		unconfirmed	the name is a heading only on page 214, far from the proposed page 29; which one prints the option is not settled	
-ref/eidolon/angel	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/archon	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/agathion	pathfinder-unchained	29	print		the subtype heading is on this page; the description starts here (it continues on page 30)
+ref/eidolon/angel	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
+ref/eidolon/archon	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
 ref/eidolon/astral	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/azata	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/daemon	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/demon	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 31; which one prints the option is not settled	
-ref/eidolon/devil	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/div	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 32; which one prints the option is not settled	
-ref/eidolon/elemental	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/inevitable	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/protean	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 33; which one prints the option is not settled	
-ref/eidolon/psychopomp	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 34; which one prints the option is not settled	
+ref/eidolon/azata	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
+ref/eidolon/daemon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
+ref/eidolon/demon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
+ref/eidolon/devil	pathfinder-unchained	32	print		the subtype heading is on this page; the description starts here
+ref/eidolon/div	pathfinder-unchained	32	print		the subtype heading is on this page; the description starts here
+ref/eidolon/elemental	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
+ref/eidolon/inevitable	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
+ref/eidolon/protean	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
+ref/eidolon/psychopomp	pathfinder-unchained	34	print		the subtype heading is on this page; the description starts here
 ref/eidolon/radiant	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
 ref/eidolon/storykin	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/eidolon/void	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
@@ -3791,8 +3791,8 @@ ref/talent/familiar	ultimate-combat	70	print		proposal 1 (placeholder), print 70
 ref/talent/firearm-training	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/getaway-artist	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/getaway-master	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
-ref/talent/greater-multitalented	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/talent/greater-terrain-mastery	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/greater-multitalented	pathfinder-unchained	24	print		the rogue talent is printed on this page as Multitalented, Greater
+ref/talent/greater-terrain-mastery	pathfinder-unchained	24	print		the rogue talent is printed on this page as Terrain Mastery, Greater
 ref/talent/grit	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/talent/hard-minded	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/hide-in-plain-sight	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
@@ -4407,3 +4407,7 @@ ref/racial-trait/half-elf/attributes	core-rulebook	24	print		the ability score l
 ref/racial-trait/half-orc/attributes	core-rulebook	25	print		the ability score line is in the Half-orc Racial Traits block on this page
 ref/racial-trait/halfling/attributes	core-rulebook	26	print		the ability score line is in the Halfling Racial Traits block on this page
 ref/racial-trait/human/attributes	core-rulebook	27	print		the ability score line is in the Human Racial Traits block on this page
+ref/affliction/cunning/basic-poison	pathfinder-unchained	230	print		the basic poison of the cunning option Poison (onset, frequency, effect, cure) is on this page
+ref/affliction/monstrous/basic-disease	pathfinder-unchained	232	print		the basic disease of the monstrous option Disease (onset, frequency, effect, cure) is on this page
+ref/affliction/me-pit-fiend/disease	pathfinder-unchained	253	print		the pit fiend's disease (onset immediate, 1/day, 1d4 Str damage, 2 consecutive saves) is in its stat block on this page
+ref/affliction/me-pit-fiend/poison	pathfinder-unchained	253	print		the pit fiend's poison (injury, 1/round for 10 rounds, 1d6 Con damage, 3 consecutive saves) is in its stat block on this page
